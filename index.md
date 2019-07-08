@@ -7,3 +7,5 @@
 #
 layout: home
 ---
+
+Stay up to date with the news and progress related to the Rust Game Development Working Group.
