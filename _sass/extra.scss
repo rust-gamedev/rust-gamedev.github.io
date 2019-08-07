@@ -1,0 +1,26 @@
+.intro {
+    color: #ffffff;
+    background-color: #0074D9;
+    margin-top: -30px;
+    padding: 32px 0;
+    border-bottom: 1px solid #e8e8e8;
+    text-align: center;
+
+    .intro-icons {
+        font-size: 2em;
+    }
+
+    .intro-lead {
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+
+    a {
+        color: white;
+        font-weight: bold;
+    }
+}
+
+.home {
+    margin-top: 32px;
+}
