@@ -1,8 +1,7 @@
 title: Rust Game Development Working Group
 #author: GitHub User
 #email: your-email@domain.com
-#description: > # this means to ignore newlines until "show_excerpts:"
-#  Stay up to date with the progress and recent developments in the Rust Game Development Working Group.
+description: Stay up to date with the progress and recent developments in the Rust Game Development Working Group.
 url: "https://rust-gamedev.github.io"
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -12,10 +11,11 @@ minima:
   date_format: "%b %-d, %Y"
 
   # generate social links in footer
-  # social_links:
+  social_links:
     # twitter: jekyllrb
-    # github:  jekyll
-    # rss: rss
+    github: rust-gamedev
+    discord: j6QJsMd
+    rss: RSS
     # dribbble: jekyll
     # facebook: jekyll
     # flickr:   jekyll
