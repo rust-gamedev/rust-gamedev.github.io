@@ -23,4 +23,4 @@ Our main hub for co-ordination is our [Github repository](https://github.com/rus
 
 ## What's next?
 
-We're currently [putting together](https://github.com/rust-gamedev/rust-gamedev.github.io/issues/2) the first installment of a Rust game development newsletter - if you'd like to be notified when this goes live, please subscribe to our [RSS feed](http://127.0.0.1:4000/feed.xml), or join us on [Discord](https://discord.gg/j6QJsMd)!
+We're currently [putting together](https://github.com/rust-gamedev/rust-gamedev.github.io/issues/2) the first installment of a Rust game development newsletter - if you'd like to be notified when this goes live, please subscribe to our [RSS feed](https://rust-gamedev.github.io/feed.xml), or join us on [Discord](https://discord.gg/j6QJsMd)!
