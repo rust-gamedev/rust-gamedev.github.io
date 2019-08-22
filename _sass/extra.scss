@@ -11,8 +11,9 @@ li {
     border-bottom: 1px solid #e8e8e8;
     text-align: center;
 
-    .intro-icons {
-        font-size: 2em;
+    .intro-icons svg {
+        width: 92px;
+        height: 92px;
     }
 
     .intro-lead {
