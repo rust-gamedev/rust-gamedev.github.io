@@ -381,7 +381,7 @@ A few posts about the game and how it was developed:
 
 That's all news for today, thanks for reading!
 
-Did we miss any interesting news? [Send us a pull request][pr].
+Want something mentioned? [Send us a pull request][pr].
 
 Also, subscribe to [@rust_gamedev on Twitter][@rust_gamedev]
 or [/r/rust_gamedev subreddit][/r/rust_gamedev] if you want to receive fresh news!
