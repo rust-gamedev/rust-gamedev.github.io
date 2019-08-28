@@ -331,7 +331,7 @@ _**TODO**: This section definitely needs more work, help._
 - Web presence (Newsletter, arewegameyet.com)
 
 [See all meeting issues](https://github.com/rust-gamedev/wg/issues?q=label%3Ameeting)
-including full text notes.
+including full text notes or [join the next meeting][join].
 
 ## Requests for Contribution
 
