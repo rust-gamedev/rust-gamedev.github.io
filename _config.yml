@@ -12,7 +12,7 @@ minima:
 
   # generate social links in footer
   social_links:
-    # twitter: jekyllrb
+    twitter: rust_gamedev
     github: rust-gamedev
     discord: j6QJsMd
     rss: RSS
