@@ -42,6 +42,10 @@ sharing that information is optional.
 Only 3 questions in this survey are mandatory and we've saved
 the most important one for last.
 
+The survey is now being processed for publishing.
+We’re still accepting responses until the survey has been published
+and subsequently closed for good.
+
 _Discussions:
 [/r/rust](https://reddit.com/r/rust/comments/cp2ib7/survey_from_the_rust_game_development_working/),
 [twitter](https://twitter.com/rust_gamedev/status/1160659441550864384)_
@@ -60,7 +64,7 @@ if you haven't seen it yet
 
 ### [This Month in Rustsim \#7 (June − July 2019)][rustsim_7]
 
-![CCD sub-steps](https://www.nphysics.org/img/ccd_substeps.svg)
+![CCD sub-steps](/assets/newsletter-001/ccd_substeps.svg)
 
 [nphysics] 0.12 release contains several long awaited features:
 
@@ -129,18 +133,38 @@ _Discussions:
 [rhea trailer]: https://youtube.com/watch?v=VIzqlI-gbAY
 [rhea notes]: https://reddit.com/r/rust_gamedev/comments/co8kqd/way_of_rhea_trailer_steam_wishlist_announced/ewryjet
 
-### [Veloren 0.3](https://veloren.net/devblog-26)
+### [Veloren 0.3](https://veloren.net/devblog-27)
 
 ![Veloren screenshot](/assets/newsletter-001/veloren.png)
 
 Veloren is an open-world, open-source multiplayer voxel RPG.
 The game is in an early stage of development, but is playable.
 
-The 0.3 version brings lots of new content and bugfixes.
-Read more here: ["This Week In Veloren 26"](https://veloren.net/devblog-26/).
+The 0.3 version was a long time coming, and there has been a ton added to Veloren.
+Here is a small list of the major changes in this version:
+
+- XP and leveling
+- Better combat, movement, and animations
+- Enemies, bosses
+- Better world generation, more biomes
+- Build mode
+- Caves, lanterns, lights, dungeons
+- Character customization, multiple races
+- Inventories (WIP)
+- Day/night, better shaders, voxel shadows
+- Many performance optimizations
 
 _Discussions:
 [/r/rust](https://reddit.com/r/rust/comments/clziyh/veloren_03_the_multiplayer_voxel_rpg_written_in)_
+
+------
+
+Also, if you want to see how the work on 0.4 is going,
+check out other August's weekly devlog posts:
+"This Week in Veloren..."
+[#28](https://veloren.net/devblog-28),
+[#29](https://veloren.net/devblog-29),
+and [#30](https://veloren.net/devblog-30).
 
 ### [RUZZT]
 
@@ -225,6 +249,17 @@ _Discussions:
 [space menace announcement]: https://amethyst.rs/posts/space-menace-showcase
 [arsenal announcement]: https://community.amethyst.rs/t/arsenal-the-vision-for-a-full-amethyst-blender-integration/911
 
+------
+
+A few days ago a third showcase project
+[was announced](https://amethyst.rs/posts/third-showcase-game-space-shooter):
+["Space Shooter"](https://github.com/amethyst/space_shooter_rs)
+by [Carlo Supina](https://twitter.com/carlosupina)
+\[[/r/rust](https://www.reddit.com/r/rust/comments/cwy4qq/amethyst_showcase_space_shooter_shootem_up),
+[twitter](https://twitter.com/carlosupina/status/1167094848907808768)].
+
+!["Space Shooter" gameplay](/assets/newsletter-001/amethyst-space-shooter.gif)
+
 ### [Embark's Rust Open-Source Crates and Ecosystem Tracking](http://embark.rs)
 
 ![Embark logo](/assets/newsletter-001/embark-logo-bg.jpg)
@@ -269,6 +304,118 @@ _Discussions:
 [PhysX]: https://github.com/NVIDIAGameWorks/PhysX
 [@h3r2tic]: https://github.com/h3r2tic
 
+### [6 Months of Game Development in Rust](https://iolivia.me/posts/6-months-of-rust-game-dev)
+
+![screenshot from Olivia's game](/assets/newsletter-001/iolivia-screenshot.png)
+
+[@oliviff] tells about theirs experience of developing a hobby game
+"Tennis Academy" in Rust for six months.
+
+Here's [a YouTube video](https://www.youtube.com/watch?v=96qPwvDEAuI)
+with the current state of the game.
+
+Features of the game:
+
+- 💵money: every item costs money and the money is substracted
+  when buying an item
+- 👟tennis courts of all types: hard, clay, concrete and grass
+- 🎁more object types: benches, balls, roof tiles
+- ⏱️time: the game keeps track of how many days/months/years it's been
+- 🌶️main menu
+- 🏠build menu
+- ⛹️player selection menu
+- ↩️assignments: a player can be assigned to a court or a bench
+- 🛣️basic pathfinding: a player can find its way to an assigned
+  court or bench
+- 📈skill levels: a player playing on a court will get increased
+  tennis skill level
+- 🛌needs: a player who plays too much will get tired and need rest
+
+_Discussions:
+[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/ctuocb/6_months_of_game_development_in_rust),
+[twitter](https://twitter.com/oliviff/status/1164460622186274817)_
+
+[@oliviff]: https://twitter.com/oliviff
+
+### [gfx-hal 0.3 and wgpu 0.3](https://users.rust-lang.org/t/wgpu-v0-3-is-released)
+
+![Mipmap example](/assets/newsletter-001/gfx-mipmap.png)
+
+`gfx-hal` is a low-overhead Vulkanic GPU API in Rust.
+Version 0.3 is published that includes:
+
+- MSAA resolves
+- events API
+- building Vulkan backend on Apple platforms
+- "readonly" storage support in DX12 backend
+- WASM and compute support in GL backend
+- lots of fixes and improvements in all backends
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/cnvfrm/gfxhal03_release_notes)_
+
+------
+
+`wgpu` is a safe, modern and portable GPU API for native platforms and the Web.
+It's based on gfx-hal and Rendy.
+Our implementation and its Rust wrapper `wgpu-rs` have reached version 0.3.
+Major improvements:
+
+- API is (mostly) updated to the upstream WebGPU working group spec
+- internal deadlock protection
+- `raw-window-handle` support
+- individual tracking of texture array layers and mipmap levels
+- more API features:
+  - multisampling
+  - indirect draw and dispatch
+  - stencil masks and reference values
+- more examples!
+- more state validation!
+
+_Discussions:
+[discourse](https://users.rust-lang.org/t/wgpu-v0-3-is-released),
+[/r/rust](https://www.reddit.com/r/rust/comments/cu09vr/release_of_wgpu03)_
+
+### [luminance 0.31](https://phaazon.net/blog/luminance-0.31)
+
+[luminance] is a type-safe, type-level and stateless Rust graphics framework.
+
+luminance v0.31 was released by [@phaazon].
+This version brings [LOTS of major changes and bugfixes][luminance changelog],
+including two new crates:
+
+- [luminance-derive](https://crates.io/crates/luminance-derive) -
+  provides several procedural derive macros you can use to easily implement
+  all required traits to work with luminance.
+  Especially, some traits that are unsafe can be implemented
+  in a safe way with that crate.
+- [luminance-glutin](https://crates.io/crates/luminance-glutin) -
+  the windowing crate support for [glutin].
+
+Also, two ways to learn luminance were added:
+
+> - The [examples][luminance examples]. They are like unit tests:
+>   each introduces and focuses on a very specific aspect or feature.
+>   You should read them if you are interested in given feature.
+>   They’re not well suited to learn from scratch
+>   and they are weaker than a structured tutorial but more concise.
+>
+> - The [wiki](https://github.com/phaazon/luminance-rs/wiki).
+>   It contains various chapters, including tutorials and onboarding newcomers.
+>   It will not provide you with the best description of a given feature
+>   as it focuses more on the overall comprehension and explaining
+>   than code directly.
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/cx0syl/announcement_luminance031_luminancederive_and),
+[twitter](https://twitter.com/phaazon_/status/1167064285643771910)_
+
+[@phaazon]: https://github.com/phaazon
+[luminance]: https://github.com/phaazon/luminance-rs
+[luminance changelog]: https://github.com/phaazon/luminance-rs/blob/master/luminance/CHANGELOG.md#031
+[glutin]: https://github.com/rust-windowing/glutin
+[luminance examples]: https://github.com/phaazon/luminance-rs/blob/master/luminance/examples/README.md
+
 ### Other News
 
 <!--
@@ -279,8 +426,12 @@ Special section for other news (up to 15) in a one-liner format:
 - optional small image.
 -->
 
-- Vlad Zhukov shared on Twitter videos of [his space game prototype](https://twitter.com/VladZhukov0/status/1157636331629137921)
-  and [his experiments with Voronoi diagram for procedural destruction](https://twitter.com/VladZhukov0/status/1162462543530643457).
+- [Vlad Zhukov](https://twitter.com/VladZhukov0) shared
+  [theirs first Youtube devlog](https://youtu.be/7NojrtICE1k)
+  about the development of an asteroids-like game
+  [with Voronoi diagrams for procedural destructions](https://twitter.com/VladZhukov0/status/1162462543530643457).
+
+  ![Gameplay of Vlad's prototype](/assets/newsletter-001/vlad-asteroinds-gameplay.gif)
 - [Azriel] published a devlog ["Charging Up"] - characters in [Will] can now charge up
   by holding the Attack button.
 
@@ -298,6 +449,9 @@ Special section for other news (up to 15) in a one-liner format:
   [a video of hot reloading demonstration](https://twitter.com/wodannson/status/1157472538622078976)
   \[[/r/rust](https://reddit.com/r/rust/comments/cldaew/hot_reloading_of_function_bodies_in_rust),
   [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/cldajt/hot_reloading_of_function_bodies_in_rust/)].
+- [rx](https://cloudhead.io/rx) - a minimalist and extensible pixel editor in Rust
+  \[[/r/rust](https://www.reddit.com/r/rust/comments/cv6o4q/announcing_rx_minimalist_and_extensible_pixel),
+  [repo](https://github.com/cloudhead/rx)].
 
 [Azriel]: https://azriel.im/
 ["Charging Up"]: https://azriel.im/will/2019/08/16/charging-up
@@ -323,12 +477,11 @@ Special section for other news (up to 15) in a one-liner format:
 
 <!-- Up to 10 most important notes + a link to the full details -->
 
-_**TODO**: This section definitely needs more work, help._
-
+<!--
 - The workgroup recommends crates to have a minimum supported rust version policy
 - winit/raw-window-handle
-- Gfx-hal 0.3 is coming! (_**TODO**: this is outdated now, remove_)
 - Web presence (Newsletter, arewegameyet.com)
+-->
 
 [See all meeting issues](https://github.com/rust-gamedev/wg/issues?q=label%3Ameeting)
 including full text notes or [join the next meeting][join].
@@ -339,14 +492,14 @@ including full text notes or [join the next meeting][join].
   - [Issues tagged as "Good first issue" and “help wanted”][winit help wanted];
   - [Issues tagged as "Blocking a release"][winit blocking];
 - [gfx-rs's "contributor-friendly" issues](https://github.com/gfx-rs/gfx/issues?q=is%3Aissue+is%3Aopen+label%3Acontributor-friendly);
-- _**TODO**: anything else to highlight here?_
 
 [winit help wanted]: https://github.com/rust-windowing/winit/issues?utf8=✓&q=is%3Aissue+is%3Aopen+label%3A%22status%3A+help+wanted%22+label%3A%22Good+first+issue%22
 [winit blocking]: https://github.com/rust-windowing/winit/issues?utf8=✓&q=is%3Aissue+is%3Aopen+label%3A%22Blocking+a+release%22
 
 ## Bonus
 
-<!-- Bonus section to make the newsletter more interesting -->
+<!-- Bonus section to make the newsletter more interesting
+and highlight events from the past. -->
 
 Just an interesting Rust gamedev link from the past. :)
 
@@ -381,7 +534,8 @@ A few posts about the game and how it was developed:
 
 That's all news for today, thanks for reading!
 
-Want something mentioned? [Send us a pull request][pr].
+Want something mentioned in the next newsletter?
+[Send us a pull request][pr].
 
 Also, subscribe to [@rust_gamedev on Twitter][@rust_gamedev]
 or [/r/rust_gamedev subreddit][/r/rust_gamedev] if you want to receive fresh news!
