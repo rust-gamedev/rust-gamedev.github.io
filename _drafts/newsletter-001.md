@@ -269,6 +269,111 @@ _Discussions:
 [PhysX]: https://github.com/NVIDIAGameWorks/PhysX
 [@h3r2tic]: https://github.com/h3r2tic
 
+### [6 Months of Game Development in Rust](https://iolivia.me/posts/6-months-of-rust-game-dev)
+
+![screenshot from Olivia's game](/assets/newsletter-001/iolivia-screenshot.png)
+
+[@oliviff] tells about her experience of developing a hobby game
+"Tennis Academy" in Rust for six months.
+
+Here's [a YouTube video](https://www.youtube.com/watch?v=96qPwvDEAuI)
+with the current state of the game.
+
+Features of the game:
+
+- 💵money: every item costs money and the money is substracted
+  when buying an item
+- 👟tennis courts of all types: hard, clay, concrete and grass
+- 🎁more object types: benches, balls, roof tiles
+- ⏱️time: the game keeps track of how many days/months/years it's been
+- 🌶️main menu
+- 🏠build menu
+- ⛹️player selection menu
+- ↩️assignments: a player can be assigned to a court or a bench
+- 🛣️basic pathfinding: a player can find its way to an assigned
+  court or bench
+- 📈skill levels: a player playing on a court will get increased
+  tennis skill level
+- 🛌needs: a player who plays too much will get tired and need rest
+
+_Discussions:
+[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/ctuocb/6_months_of_game_development_in_rust),
+[twitter](https://twitter.com/oliviff/status/1164460622186274817)_
+
+[@oliviff]: https://twitter.com/oliviff
+
+### [gfx-hal-0.3 and wgpu-0.3](https://users.rust-lang.org/t/wgpu-v0-3-is-released/)
+
+`gfx-hal` is a low-overhead Vulkanic GPU API in Rust. Version 0.3 is published that includes:
+
+  - MSAA resolves
+  - events API
+  - building Vulkan backend on Apple platforms
+  - "readonly" storage support in DX12 backend
+  - WASM and compute support in GL backend
+  - lots of fixes and improvements in all backends
+
+_Discussion at [/r/rust](https://www.reddit.com/r/rust/comments/cnvfrm/gfxhal03_release_notes)._
+
+
+`wgpu` is a safe, modern and portable GPU API for native platforms and the Web. It's based on gfx-hal and Rendy.
+Our implementation and its Rust wrapper `wgpu-rs` have reached version 0.3. Major improvements:
+
+  - API is (mostly) updated to the upstream WebGPU working group spec
+  - internal deadlock protection
+  - `raw-window-handle` support
+  - individual tracking of texture array layers and mipmap levels
+  - more API features:
+    - multisampling
+    - indirect draw and dispatch
+    - stencil masks and reference values
+  - more examples!
+  - more state validation!
+
+_Discussions:
+[discourse](https://users.rust-lang.org/t/wgpu-v0-3-is-released),
+[/r/rust](https://www.reddit.com/r/rust/comments/cu09vr/release_of_wgpu03/)_
+
+### [luminance 0.31](https://phaazon.net/blog/luminance-0.31)
+
+[luminance] is a type-safe, type-level and stateless Rust graphics framework.
+
+luminance v0.31 was released by [@phaazon].
+This version brings [LOTS of major changes and bugfixes][luminance changelog],
+including two new crates:
+
+- [luminance-derive](https://crates.io/crates/luminance-derive) -
+  provides several procedural derive macros you can use to easily implement
+  all required traits to work with luminance.
+  Especially, some traits that are unsafe can be implemented
+  in a safe way with that crate.
+- [luminance-glutin](https://crates.io/crates/luminance-glutin) -
+  the windowing crate support for [glutin].
+
+Also, two ways to learn luminance were added:
+
+> - The [examples][luminance examples]. They are like unit tests:
+>   each introduces and focuses on a very specific aspect or feature.
+>   You should read them if you are interested in given feature.
+>   They’re not well suited to learn from scratch
+>   and they are weaker than a structured tutorial but more concise.
+>
+> - The [wiki](https://github.com/phaazon/luminance-rs/wiki).
+>   It contains various chapters, including tutorials and onboarding newcomers.
+>   It will not provide you with the best description of a given feature
+>   as it focuses more on the overall comprehension and explaining
+>   than code directly.
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/cx0syl/announcement_luminance031_luminancederive_and),
+[twitter](https://twitter.com/phaazon_/status/1167064285643771910)_
+
+[@phaazon]: https://github.com/phaazon
+[luminance]: https://github.com/phaazon/luminance-rs
+[luminance changelog]: https://github.com/phaazon/luminance-rs/blob/master/luminance/CHANGELOG.md#031
+[glutin]: https://github.com/rust-windowing/glutin
+[luminance examples]: https://github.com/phaazon/luminance-rs/blob/master/luminance/examples/README.md
+
 ### Other News
 
 <!--
@@ -298,6 +403,9 @@ Special section for other news (up to 15) in a one-liner format:
   [a video of hot reloading demonstration](https://twitter.com/wodannson/status/1157472538622078976)
   \[[/r/rust](https://reddit.com/r/rust/comments/cldaew/hot_reloading_of_function_bodies_in_rust),
   [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/cldajt/hot_reloading_of_function_bodies_in_rust/)].
+- [rx](https://cloudhead.io/rx) - a minimalist and extensible pixel editor in Rust
+  \[[/r/rust](https://www.reddit.com/r/rust/comments/cv6o4q/announcing_rx_minimalist_and_extensible_pixel),
+  [repo](https://github.com/cloudhead/rx)].
 
 [Azriel]: https://azriel.im/
 ["Charging Up"]: https://azriel.im/will/2019/08/16/charging-up
