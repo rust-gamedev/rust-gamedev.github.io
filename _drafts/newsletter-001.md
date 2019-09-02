@@ -42,6 +42,11 @@ sharing that information is optional.
 Only 3 questions in this survey are mandatory and we've saved
 the most important one for last.
 
+The survey is soft-closed now
+as existing responses are being processed for publishing,
+but we’re still accepting responses until the survey
+has been publishes & subsequently closed for good.
+
 _Discussions:
 [/r/rust](https://reddit.com/r/rust/comments/cp2ib7/survey_from_the_rust_game_development_working/),
 [twitter](https://twitter.com/rust_gamedev/status/1160659441550864384)_
