@@ -338,6 +338,43 @@ _Discussions:
 
 [@oliviff]: https://twitter.com/oliviff
 
+### [gfx-hal 0.3 and wgpu 0.3](https://users.rust-lang.org/t/wgpu-v0-3-is-released)
+
+`gfx-hal` is a low-overhead Vulkanic GPU API in Rust.
+Version 0.3 is published that includes:
+
+- MSAA resolves
+- events API
+- building Vulkan backend on Apple platforms
+- "readonly" storage support in DX12 backend
+- WASM and compute support in GL backend
+- lots of fixes and improvements in all backends
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/cnvfrm/gfxhal03_release_notes)_
+
+------
+
+`wgpu` is a safe, modern and portable GPU API for native platforms and the Web.
+It's based on gfx-hal and Rendy.
+Our implementation and its Rust wrapper `wgpu-rs` have reached version 0.3.
+Major improvements:
+
+- API is (mostly) updated to the upstream WebGPU working group spec
+- internal deadlock protection
+- `raw-window-handle` support
+- individual tracking of texture array layers and mipmap levels
+- more API features:
+  - multisampling
+  - indirect draw and dispatch
+  - stencil masks and reference values
+- more examples!
+- more state validation!
+
+_Discussions:
+[discourse](https://users.rust-lang.org/t/wgpu-v0-3-is-released),
+[/r/rust](https://www.reddit.com/r/rust/comments/cu09vr/release_of_wgpu03)_
+
 ### [luminance 0.31](https://phaazon.net/blog/luminance-0.31)
 
 [luminance] is a type-safe, type-level and stateless Rust graphics framework.
@@ -414,12 +451,6 @@ Special section for other news (up to 15) in a one-liner format:
 - [rx](https://cloudhead.io/rx) - a minimalist and extensible pixel editor in Rust
   \[[/r/rust](https://www.reddit.com/r/rust/comments/cv6o4q/announcing_rx_minimalist_and_extensible_pixel),
   [repo](https://github.com/cloudhead/rx)].
-- [gfx-hal v0.3](https://github.com/gfx-rs/gfx/) -
-  new version of a low-overhead Vulkan-like GPU API for Rust, features:
-  Debug trait bound on everything, MSAA resolves, events API,
-  inclusive swapchain ranges, no "winit" dependency by default,
-  cleaner graphics states, more exposed limits
-  \[[/r/rust](https://www.reddit.com/r/rust/comments/cnvfrm/gfxhal03_release_notes)].
 
 [Azriel]: https://azriel.im/
 ["Charging Up"]: https://azriel.im/will/2019/08/16/charging-up
