@@ -410,7 +410,7 @@ Special section for other news (up to 15) in a one-liner format:
   \[[/r/rust](https://www.reddit.com/r/rust/comments/cv6o4q/announcing_rx_minimalist_and_extensible_pixel),
   [repo](https://github.com/cloudhead/rx)].
 - [gfx-hal v0.3](https://github.com/gfx-rs/gfx/) -
-  new version of a high-performance, bindless graphics API, features:
+  new version of a low-overhead Vulkan-like GPU API for Rust, features:
   Debug trait bound on everything, MSAA resolves, events API,
   inclusive swapchain ranges, no "winit" dependency by default,
   cleaner graphics states, more exposed limits
