@@ -340,6 +340,8 @@ _Discussions:
 
 ### [gfx-hal 0.3 and wgpu 0.3](https://users.rust-lang.org/t/wgpu-v0-3-is-released)
 
+![Mipmap example](/assets/newsletter-001/gfx-mipmap.png)
+
 `gfx-hal` is a low-overhead Vulkanic GPU API in Rust.
 Version 0.3 is published that includes:
 
