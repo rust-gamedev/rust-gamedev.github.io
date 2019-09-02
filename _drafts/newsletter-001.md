@@ -304,7 +304,7 @@ _Discussions:
 
 ![screenshot from Olivia's game](/assets/newsletter-001/iolivia-screenshot.png)
 
-[@oliviff] tells about her experience of developing a hobby game
+[@oliviff] tells about theirs experience of developing a hobby game
 "Tennis Academy" in Rust for six months.
 
 Here's [a YouTube video](https://www.youtube.com/watch?v=96qPwvDEAuI)
@@ -384,7 +384,7 @@ Special section for other news (up to 15) in a one-liner format:
 -->
 
 - [Vlad Zhukov](https://twitter.com/VladZhukov0) shared
-  [his first Youtube devlog](https://youtu.be/7NojrtICE1k)
+  [theirs first Youtube devlog](https://youtu.be/7NojrtICE1k)
   about the development of an asteroids-like game
   [with Voronoi diagrams for procedural destructions](https://twitter.com/VladZhukov0/status/1162462543530643457).
 
