@@ -46,3 +46,6 @@ theme: minima
 
 plugins:
  - jekyll-feed
+
+exclude:
+  - newsletter-template.md
