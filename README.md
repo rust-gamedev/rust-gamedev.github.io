@@ -1,5 +1,21 @@
 # rust-gamedev.github.io
 
+## Newsletter Creation Workflow
+
+* At the beginning of the month, a draft of the newsletter is created
+  from a [template](./newsletter-template.md).
+* During the month PRs with the month's news, meeting notes, etc
+  are reviewed and merged into the draft.
+  * All images are supposed to be placed into `assets/newsletter-{index}` dir.
+  * Check the comments in the draft file.
+* At the end of the month, the draft is reviewed as a whole
+  and polished if needed.
+* On the first working day of the next month, the final PR
+  (that renames and moves the draft file into the `_posts` dir) is sent.
+* The link to the newsletter is shared on social networks, etc.
+* A small PR that adds links to Reddit, Twitter, etc discussions
+  (see the comment at the bottom of the draft) is made.
+* A new draft for the next month is created from the template, goto 1.
 
 ## License
 
