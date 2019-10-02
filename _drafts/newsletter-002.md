@@ -249,17 +249,22 @@ Hey new grads! Like games? Want to make cool stuff in Rust? Let's chat:
 
 <https://twitter.com/AriVanider/status/1173903615498567680>
 
-### Iced
+### [Iced - A renderer-agnostic GUI library](https://github.com/hecrj/iced)
 
-![TODO: desc, local](https://thumbs.gfycat.com/VeneratedSourAurochs-small.gif)
+![Tour example](/assets/newsletter-002/iced.gif)
+> Iced was originally born as an attempt at bringing the simplicity of Elm and The Elm Architecture into Coffee 2D game engine
 
-(**TODO**: ping Vlad)
+The following features are available in the crate:
+* Simple, easy-to-use, renderer-agnostic API
+* Responsive, flexbox-based layouting
+* Type-safe, reactive programming model
+* Built-in widgets
+* Custom widget support
 
-<https://github.com/hecrj/iced>
-
+[r/rust](https://www.reddit.com/r/rust/comments/czzjnv/iced_a_rendereragnostic_gui_library_focused_on/)
+<!-- <https://github.com/hecrj/iced>
 <https://reddit.com/r/rust_gamedev/comments/czzjtb/iced_a_rendereragnostic_gui_library_focused_on/>
-
-<https://reddit.com/r/rust/comments/czzjnv/iced_a_rendereragnostic_gui_library_focused_on/>
+<https://reddit.com/r/rust/comments/czzjnv/iced_a_rendereragnostic_gui_library_focused_on/> -->
 
 ### [gfx-rs: Project Update](https://gfx-rs.github.io/2019/10/01/update.html)
 
