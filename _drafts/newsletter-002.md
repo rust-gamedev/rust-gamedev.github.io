@@ -261,7 +261,7 @@ The following features are available in the crate:
 * Built-in widgets
 * Custom widget support
 
-[r/rust](https://www.reddit.com/r/rust/comments/czzjnv/iced_a_rendereragnostic_gui_library_focused_on/)
+Discussions: [r/rust](https://www.reddit.com/r/rust/comments/czzjnv/iced_a_rendereragnostic_gui_library_focused_on/)
 <!-- <https://github.com/hecrj/iced>
 <https://reddit.com/r/rust_gamedev/comments/czzjtb/iced_a_rendereragnostic_gui_library_focused_on/>
 <https://reddit.com/r/rust/comments/czzjnv/iced_a_rendereragnostic_gui_library_focused_on/> -->
