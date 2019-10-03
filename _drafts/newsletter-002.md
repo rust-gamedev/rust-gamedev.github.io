@@ -815,19 +815,18 @@ or [join the next meeting][join].
   - [Issues tagged as "Good first issue" and “help wanted”][winit help wanted];
   - [Issues tagged as "Blocking a release"][winit blocking];
 - [gfx-rs's "contributor-friendly" issues][gfx issues];
-
-- about the newsletter “contributions” section, luminance has some tags for easy-contribution, too (I saw you mentioned winit and gfx-rs)
-  the tag is low hanging fruit @ozkriff <https://github.com/phaazon/luminance-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22low+hanging+fruit%22>
-  especially low hanging fruit + easy but typically low hanging fruit are already easy :p (**TODO**: cleanup)
-
-- The renderer-agnostic GUI library [Iced] by [@hecrj] looks *so* good.
-  If someone wants to make this work with Amethyst please get in touch with us! (or just do it...)
-  <https://twitter.com/AmethystEngine/status/1169922826033336320> (**TODO**: rephrase and format this)
+- [wgpu's "help wanted" issues][wgpu-help-wanted];
+- [luminance's "low hanging fruit" issues][luminance-fruits];
+- Request from Amethyst:
+  ["The renderer-agnostic GUI library “Iced” by @hecrj looks *so* good. If someone wants to make this work with Amethyst please get in touch with us! (or just do it...)"][amethyst-iced-help].
 
 [winit help wanted]: https://github.com/rust-windowing/winit/issues?utf8=✓&q=is%3Aissue+is%3Aopen+label%3A%22status%3A+help+wanted%22+label%3A%22Good+first+issue%22
 [winit blocking]: https://github.com/rust-windowing/winit/issues?utf8=✓&q=is%3Aissue+is%3Aopen+label%3A%22Blocking+a+release%22
 [gfx issues]: https://github.com/gfx-rs/gfx/issues?q=is%3Aissue+is%3Aopen+label%3Acontributor-friendly
-[@hecrj]: TODO
+[wgpu-help-wanted]: https://github.com/gfx-rs/wgpu-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
+[luminance-fruits]: https://github.com/phaazon/luminance-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22low+hanging+fruit%22
+[amethyst-iced-help]: https://twitter.com/AmethystEngine/status/1169922826033336320
+[@hecrj]: https://twitter.com/hecrj
 
 <!--
 ## Bonus
