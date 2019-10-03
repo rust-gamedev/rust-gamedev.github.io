@@ -47,7 +47,7 @@ _Discussions:
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
-### [Rust Roguelike Tutorial](https://bfnightly.bracketproductions.com/rustbook)
+### [Roguelike Toolkit](TODO) 3.1 & [Rust Roguelike Tutorial](https://bfnightly.bracketproductions.com/rustbook)
 
 ![TODO: local, description](https://raw.githubusercontent.com/thebracket/rltk_rs/master/screenshots/RLTK_RS_EXAMPLE06.gif)
 
@@ -57,13 +57,11 @@ Now with the correct hashtags, sorry about that.
 
 <https://bfnightly.bracketproductions.com/rustbook/chapter_12.html>
 
-<https://twitter.com/herberticus/status/1171490191426473984>
-
 My Rust Roguelike tutorial has grown to 20 chapters!
 From "hello rust" and "what is an ECS?" to adding monsters, equipment,
 multiple levels, bloodstains, particle effects and magic mapping scrolls.
 
-<https://twitter.com/herberticus/status/1172202143253708800>
+[twitter](https://twitter.com/herberticus/status/1172202143253708800)
 
 Chapter 21 of the Rust Roguelike Tutorial uses it to make
 the main menu less boring!
@@ -71,8 +69,6 @@ the main menu less boring!
 <http://bfnightly.bracketproductions.com/rustbook/chapter_21.html>
 
 ------
-
-<https://twitter.com/herberticus/status/1174425915562090501>
 
 <https://github.com/thebracket/rltk_rs>
 
@@ -84,7 +80,7 @@ RLTK_RS, my Roguelike Toolkit Library for Rust hit version 0.3.0.
 An embedded resource system, and adds Web Assembly (WASM32) support.
 Examples are linked to browser WASM to try (Macs may be a problem)
 
-TODO: reddit 
+<https://old.reddit.com/r/roguelikedev/comments/d737v2/sharing_saturday_277/f0xdcj5/>
 
 ------
 
@@ -92,8 +88,14 @@ The Rust Roguelike Tutorial has been updated to the latest RLTK version,
 and now has **Web Assembly links to all examples** so you can run them
 in your browser (except on Apple, for now).
 
-**TODO**: _find and add a Reddit link_
-**TODO**: _choose on of the Twitter links_
+**TODO**:
+
+- <https://reddit.com/user/thebracket/comments>
+- <https://reddit.com/r/rust/comments/d1lkvf/whats_everyone_working_on_this_week_372019/ezqomkx>
+- <https://reddit.com/r/roguelikedev/comments/d737v2/sharing_saturday_277/f0xdcj5>
+
+<!-- **TODO**: _find and add a Reddit link_ -->
+<!-- **TODO**: _choose on of the Twitter links_ -->
 
 ### Veloren
 
@@ -165,14 +167,14 @@ Main features of this release are:
 
 <!-- Main features of this release are: renown and fighter upgrades, possessions, sprite frames and flips, and status effect icons. -->
 
-TODO: About Devlog Videos
+**TODO**: "About Devlog Videos"
 
 _Discussions:
 [/r/rust](https://reddit.com/r/rust/comments/d7avev/zemeroth_v06_renown_upgrades_sprite_frames)_
 
 ### [Use prebuilt rooms with Rust macros for more interesting procedural dungeons][proc_rooms]
 
-![](https://www.jamesbaum.co.uk/static/652c57e0976fb7a5ac82766467ce2d64/b9e4f/briangrumble2room.png)
+![TODO](https://www.jamesbaum.co.uk/static/652c57e0976fb7a5ac82766467ce2d64/b9e4f/briangrumble2room.png)
 
 **TODO**: summary
 
@@ -181,33 +183,13 @@ _Discussions:
 
 [proc_rooms]: https://jamesbaum.co.uk/blether/procedural-generation-prebuilt-rooms-rust-macros
 
-### Focus
-
-^^^ (**TODO**: _find a better title or move to one-liners_)
-
-<!-- **TODO**: add a gif? -->
-
-![TODO: local, description](https://azriel.im/will/media/2019-09-27_focus/rox_clone_attack.png)
-
-<!-- [@Azriel](TODO). -->
-
-<https://azriel.im/will/2019/09/27/focus>
-
-Rudimentary camera player tracking
-
-Video demo: <https://youtube.com/watch?v=JOZ9RiCFzdA>
-
-<https://twitter.com/im_azriel/status/1169416420796465153>
-
-**TODO**: twitter, reddit?
-
 ### Embark
 
 (**TODO**: change to a more detailed title only about the library?)
 
 ![TODO: local, desc](https://i.redd.it/ncbcptsd0sk31.jpg)
 
-**TODO**: images! gifs!
+<!-- **TODO**: images! gifs! -->
 
 <https://reddit.com/r/rust/comments/d00jof/announcing_texture_synthesis_crate_from_embark>
 
@@ -249,40 +231,125 @@ Hey new grads! Like games? Want to make cool stuff in Rust? Let's chat:
 
 <https://twitter.com/AriVanider/status/1173903615498567680>
 
-### [Iced - A renderer-agnostic GUI library](https://github.com/hecrj/iced)
+### [Iced - A renderer-agnostic GUI library][Iced]
 
 ![Tour example](/assets/newsletter-002/iced.gif)
-> Iced was originally born as an attempt at bringing the simplicity of Elm and The Elm Architecture into Coffee 2D game engine
+
+> [Iced] was originally born as an attempt at bringing the simplicity of Elm and The Elm Architecture into Coffee 2D game engine
 
 The following features are available in the crate:
-* Simple, easy-to-use, renderer-agnostic API
-* Responsive, flexbox-based layouting
-* Type-safe, reactive programming model
-* Built-in widgets
-* Custom widget support
 
-Discussions: [r/rust](https://www.reddit.com/r/rust/comments/czzjnv/iced_a_rendereragnostic_gui_library_focused_on/)
+- Simple, easy-to-use, renderer-agnostic API
+- Responsive, flexbox-based layouting
+- Type-safe, reactive programming model
+- Built-in widgets
+- Custom widget support
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/czzjnv/iced_a_rendereragnostic_gui_library_focused_on)_
+
 <!-- <https://github.com/hecrj/iced>
 <https://reddit.com/r/rust_gamedev/comments/czzjtb/iced_a_rendereragnostic_gui_library_focused_on/>
 <https://reddit.com/r/rust/comments/czzjnv/iced_a_rendereragnostic_gui_library_focused_on/> -->
 
+[Iced]: https://github.com/hecrj/iced
+
 ### [gfx-rs: Project Update](https://gfx-rs.github.io/2019/10/01/update.html)
 
-<!-- ![TODO: local, description](https://gfx-rs.github.io/img/wgpu-shadow.png) -->
-
 ![TODO: local, description](https://raw.githubusercontent.com/gfx-rs/gfx/master/info/logo.png)
-
-^^^ **TODO**: Find a better pic
 
 - Slimmed down gfx-rs.
 - Feature-less wgpu-rs.
 - New swapchain model.
 
+### Twenty Asteroids
+
+[@VladZhukov0]
+
+Bullet reflections ability feels pretty fun (and imbalanced)
+
+[twitter](https://twitter.com/VladZhukov0/status/1169702934218760192)
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/d1b51s/rust_game_devlog_2_is_here)
+
+------
+
+Devlog #2
+
+YouTube: <https://youtu.be/gYevCyU5gxU>
+Text: <https://pum-purum-pum-pum.itch.io/asteroids-like-game/devlog/98842/my-asteroids-like-game-devlog-002>
+<https://twitter.com/VladZhukov0/status/1170694557295681543>
+
+------
+
+<https://twitter.com/VladZhukov0/status/1176473644194775040>
+
+devlog #3
+
+Video: <https://youtu.be/YSYRKzogbKg>
+Text: <https://www.patreon.com/posts/30202961>
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/d8mhxz/new_menu_performance_and_abilities_rustlang_game)
+
+[@VladZhukov0]: https://twitter.com/VladZhukov0
+
 ### Amethyst
 
-**TODO**: **_ping @erlend-sh!_**
+![amethyst logo](/assets/newsletter-001/amethyst-logo.png)
 
-<!--
+Tooling:
+
+- Amethyst Engine v0.13 was released.
+  A new `amethyst_tiles` crate was added
+  and the Pong tutorial is now complete with the addition of an audio section.
+  <https://github.com/amethyst/amethyst/releases/tag/v0.13.0>
+  <https://book.amethyst.rs/stable/pong-tutorial/pong-tutorial-06.html>
+
+- Laminar v0.3.1
+  <https://github.com/amethyst/laminar/releases/tag/0.3.1>
+
+- [@_AndreaCatania](https://twitter.com/_AndreaCatania) Initialize physics world - Amethyst physics tutorial #1
+  <https://youtube.com/watch?v=XzSKuY9nv7A>
+
+- [amethyst-imgui v0.5 is out](https://twitter.com/AmethystEngine/status/1177720011013709824), supporting a beta-version of the new imgui docking feature.
+
+- [How to do a turn-based game with the ECS pattern](https://community.amethyst.rs/t/classic-turn-based-workflow-how-to/1082/20), by [@webshinra](https://twitter.com/webshinra)
+
+- [@valkum](https://github.com/valkum) is implementing area lights using linearly transformed cosines.
+  <https://www.youtube.com/watch?v=KVpLPInWRWg>
+
+Games:
+
+- Space Shooter v0.1.2 by [@carlosupina](https://twitter.com/carlosupina) introduced a currency system, shop system and sound effects.
+
+  <https://github.com/amethyst/space_shooter_rs/releases/tag/v0.1.3>
+  <https://youtube.com/watch?v=MmdUrZzuGfw>
+
+  ![TODO: local, desc](https://i.redd.it/qdjp3fznaoo31.gif)
+
+- Stabman, by Noah2610
+
+  <https://github.com/Noah2610/LD44>
+
+  ![TODO: desc, local](https://raw.githubusercontent.com/Noah2610/LD44/master/screenshots/overworld.png)
+
+- [@mvlabat](https://twitter.com/mvlabat) is working on interpolation in his multiplayer prototype.
+
+  <https://youtu.be/xJm6cI_XmT4>
+
+- [@a5huynh](https://github.com/a5huynh) got 3D pathing working
+
+  <https://youtu.be/STWQRTxnhRo>
+
+- Azriel Hoh released a major new devblog update titled "Focus!"
+
+  <https://azriel.im/will/2019/09/27/focus>
+
+  <https://youtube.com/watch?v=JOZ9RiCFzdA>
+
+- @webshinra made progress with raycasted FOV
+
+  ![TODO: local, desc](https://cdn.discordapp.com/attachments/481072222392418314/628558650339754004/Screenshot_20191001_130327.png)
+
+<!--TODO: merge this with Erland's updated version above
 
 - Amethyst Engine v0.13:
 
@@ -378,6 +445,24 @@ Discussions: [r/rust](https://www.reddit.com/r/rust/comments/czzjnv/iced_a_rende
   Interpolation is difficult... :)
 
   <https://twitter.com/mvlabat/status/1175781583707615238>
+
+- Focus
+
+  ^^^ (**TODO**: _find a better title or move to one-liners_)
+
+  ![TODO: local, description](https://azriel.im/will/media/2019-09-27_focus/rox_clone_attack.png)
+
+  [@Azriel](TODO).
+
+  <https://azriel.im/will/2019/09/27/focus>
+
+  Rudimentary camera player tracking
+
+  Video demo: <https://youtube.com/watch?v=JOZ9RiCFzdA>
+
+  <https://twitter.com/im_azriel/status/1169416420796465153>
+
+  **TODO**: twitter, reddit?
 -->
 
 ### Hot Reloading (TODO)
@@ -411,32 +496,6 @@ Remco: After showing off #hotreloading in #rustlang over the past months, we jus
 
 <https://twitter.com/wodannson/status/1178408744239161345>
 
-### Twenty Asteroids
-
-[@VladZhukov0](https://twitter.com/VladZhukov0)
-
-Bullet reflections ability feels pretty fun (and imbalanced)
-
-[twitter](https://twitter.com/VladZhukov0/status/1169702934218760192)
-[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/d1b51s/rust_game_devlog_2_is_here)
-
-------
-
-Devlog #2 is here!
-YouTube: <https://youtu.be/gYevCyU5gxU>
-Text: <https://pum-purum-pum-pum.itch.io/asteroids-like-game/devlog/98842/my-asteroids-like-game-devlog-002>
-<https://twitter.com/VladZhukov0/status/1170694557295681543>
-
-------
-
-<https://twitter.com/VladZhukov0/status/1176473644194775040>
-
-New rustlang devlog #3 is here
-
-Video: <https://youtu.be/YSYRKzogbKg>
-Text: <https://www.patreon.com/posts/30202961>
-[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/d8mhxz/new_menu_performance_and_abilities_rustlang_game)
-
 ### Other News
 
 <!--
@@ -449,9 +508,9 @@ Special section for other news (up to 15) in a one-liner format:
 
 (**TODO**: **compress into real one-liners!**)
 
-- [uset](https://crates.io/crates/uset) by [@makingthematrix].
-  It's an implementation of sets and maps designed for small and medium number of stored elements which change quickly - i.e. in a dynamically evolving scene in a video game.
-  [twitter](https://twitter.com/makingthematrix/status/1169727089286746112).
+- [uset](https://crates.io/crates/uset) - an implementation of sets and maps
+  designed for small and medium number of stored elements
+  which change quickly - i.e. in a dynamically evolving scene in a video game.
 
 - Wraithan:
 
@@ -466,26 +525,13 @@ Special section for other news (up to 15) in a one-liner format:
 
   **TODO**: _mention Twitch streams_
 
-- Live2D Cubism 4 renderer support for Piston2D
+- [cubism-rs] (Rust bindings for [Live2D Cubism]) got renderer support for [Piston2D].
 
-  ![TODO: desc](/assets/newsletter-002/live2d-cubism.png)
+  ![Live2D Piston demo](/assets/newsletter-002/live2d-cubism.png)
 
-  ^^^ **TODO**: _remove white strip at the top_
+- [@dooskington] published their 5th devlog: ["Stats And Skills"](https://dooskington.com/dev-log/5);
 
-  Live2D Cubism 4 renderer support for piston2d. Noice for character animations for games. #rustgamedev #rustlang #Live2D
-
-  <https://github.com/Veykril/cubism-rs>
-  <https://twitter.com/murueka_misw/status/1169299864951214080>
-
-- ???: Stats And Skills
-
-  ![TODO: local, desc](https://dooskington.com/images/devlogs/5-9-28-2019-img1.jpeg)
-
-  @dooskington: Been working on stats and skills, managed to get a new post out. 🧙‍♂️🧝‍♀️
-
-  <https://dooskington.com/dev-log/5>
-
-  <https://twitter.com/dooskington/status/1178454331541995520>
+  ![Stats and skill demo](/assets/newsletter-002/dooskington-devlog-5-screenshot.jpeg)
 
 - Robo Instructus 1.8 lays the ground for better localization.
 
@@ -508,14 +554,11 @@ Special section for other news (up to 15) in a one-liner format:
 
   **TODO**: _nice GIF [here](https://twitter.com/bigabgames/status/1171850765452959748)_
 
-- Github-actions-CI-rust-SDL2
+- ["Github Actions CI with Rust and SDL2"] -
+  [Alexandru Ene] wrote a post about CI with [github actions]
+  for [their hobby game project][after-hours] that uses Rust and SDL2.
 
-  ![TODO: local, descr](https://alexene.dev/images/github-actions-ci/github_actions_ci.gif)
-
-  I wrote a few words about CI with github actions for my hobby game project that uses Rust and SDL2. It was a really smooth experience setting it up.
-
-  <https://alexene.dev/2019/09/04/Github-actions-CI-rust-SDL2.html>
-  <https://twitter.com/_AlexEne_/status/1169372741696479232>
+  ![Github Actions with SDL2 screencast demo](/assets/newsletter-002/github_actions_ci.gif)
 
 - @oliviff
 
@@ -589,12 +632,14 @@ Special section for other news (up to 15) in a one-liner format:
 
 - rx v0.2.0
 
+  **TODO**: ping @cloudhead
+
   Hey all, it's been a month since the first release of rx. Today I'd like to announce v0.2.0 which comes with a bunch of juicy features and additional platform support. There is also an AppImage release - which is something I'm experimenting with as a distribution mechanism.
 
   - Website: <https://cloudhead.io/rx>
   - Code: <https://github.com/cloudhead/rx>
 
-  <https://reddit.com/r/rust/comments/dauizc/rx_v020_released_a_modern_pixel_editor>
+  [/r/rust](https://reddit.com/r/rust/comments/dauizc/rx_v020_released_a_modern_pixel_editor)
 
 - Xprite
 
@@ -607,15 +652,9 @@ Special section for other news (up to 15) in a one-liner format:
   [/r/rust](https://reddit.com/r/rust/comments/d4r0o3/pixel_art_editor_xprite_is_now_open_source),
   [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/d3vl65/xprite_is_now_open_source)
 
-- [@Webshinra](https://twitter.com/Webshinra): Now you can cross the streams.
+- [@Webshinra shared a small update about their hexagonal game](https://twitter.com/Webshinra/status/1172514770513215488). (TODO: move into Amethyst section)
 
-  TODO: img
-
-  <https://twitter.com/Webshinra/status/1172514770513215488>
-- A tip from [@Roal_Yr](https://twitter.com/Roal_Yr):
-
-  Split my code into main and libs (one for now), also found out that if "debug" build is too slow to run and "release" build is too slow to compile, one can set required opt level and set incremental build on, which massively improves the workflow.
-  <https://twitter.com/Roal_Yr/status/1172610479304466432>
+  ![A few mechs of a hexagonal field](/assets/newsletter-002/hex-cross-streams.jpg)
 
 - [@pincfloit](https://twitter.com/pincfloit): Here's a tiny text-based game done with @rustlang. It's still on development so expect plenty of bugs and new features to come. But it's been so fun to code and I'm learning a lot
 
@@ -665,7 +704,7 @@ Special section for other news (up to 15) in a one-liner format:
 
   Written with heart with [luminance], [splines].
 
-  ------
+  xxx --- xxx
 
   ![TODO: local, desc](https://raw.githubusercontent.com/phaazon/spline-editor/master/doc/imgs/front2.png)
 
@@ -702,12 +741,9 @@ Special section for other news (up to 15) in a one-liner format:
 
   - I could watch this all day. Around 1800 chunks or 60M cubes generated in the blink of an eye!
 
-- [@Mistodon](https://twitter.com/Mistodon):
-  Doing something a little different today. Namely, getting my entire game to render in the terminal :0
+- [@Mistodon] got their entire game ["Disconnect"] to [render in the terminal][disconnect-video];
 
-  Got to be one of the most obscure benefits of writing your own engine
-
-  <https://twitter.com/Mistodon/status/1175361784246603776>
+  [![Disconnect in the terminal](/assets/newsletter-002/disconnect-console.png)][disconnect-video]
 
 - ([@aclysma]): More progress on the editor prototype (emphasis on prototype! 😀), added rotation/scaling.
 
@@ -732,19 +768,29 @@ Special section for other news (up to 15) in a one-liner format:
 
   **TODO**: _this position is most likely closed by now, but it's still interesting that rendy has been choosen as a technology. Should it be included into the newsletter? hmm_
 
-- blend - A parser and runtime for Blender's .blend files
+- [blend] - a parser and runtime for [Blender][blender]'s .blend files
+  that can be used to read (almost) everything inside the file:
+  from mesh data, materials, cameras and animations to user preferences,
+  window locations and render settings
+  \[[/r/rust](https://reddit.com/r/rust/comments/d70lu6/blend_a_parser_and_runtime_for_blenders_blend)].
 
-  <https://github.com/lukebitts/blend>
-  <https://reddit.com/r/rust/comments/d70lu6/blend_a_parser_and_runtime_for_blenders_blend>
-
-  You can use it to read (almost) everything inside the file, from mesh data, materials, cameras and animations to user preferences, window locations and render settings.
-
-  This is the product of much yak shaving as I'm actually working on a game and I decided to use Blender as a visual editor. Hopefully this is useful to someone else!  
-
+[Alexandru Ene]: https://twitter.com/_AlexEne_
+["Github Actions CI with Rust and SDL2"]: https://alexene.dev/2019/09/04/Github-actions-CI-rust-SDL2.html
+[github actions]: https://github.com/features/actions
+[after-hours]: https://alexene.dev/2019/01/15/After-hours-game-development.html
+[cubism-rs]: https://github.com/Veykril/cubism-rs
+[Live2D Cubism]: https://www.live2d.com/en/download/cubism-sdk
+[Piston2D]: https://www.piston.rs
+[@dooskington]: https://twitter.com/dooskington
+[@Mistodon]: https://twitter.com/Mistodon
+["Disconnect"]: https://mistodon.itch.io/disconnect
+[disconnect-video]: https://twitter.com/Mistodon/status/1175361784246603776
 [luminance]: https://crates.io/crates/luminance
 [splines]: https://crates.io/crates/splines
 [@aclysma]: https://twitter.com/aclysma
 [@phaazon]: https://github.com/phaazon
+[blend]: https://github.com/lukebitts/blend
+[blender]: https://blender.org
 
 <!--
 ## Popular Workgroup Issues in Github
@@ -781,7 +827,6 @@ or [join the next meeting][join].
 [winit help wanted]: https://github.com/rust-windowing/winit/issues?utf8=✓&q=is%3Aissue+is%3Aopen+label%3A%22status%3A+help+wanted%22+label%3A%22Good+first+issue%22
 [winit blocking]: https://github.com/rust-windowing/winit/issues?utf8=✓&q=is%3Aissue+is%3Aopen+label%3A%22Blocking+a+release%22
 [gfx issues]: https://github.com/gfx-rs/gfx/issues?q=is%3Aissue+is%3Aopen+label%3Acontributor-friendly
-[Iced]: https://github.com/hecrj/iced
 [@hecrj]: TODO
 
 <!--
