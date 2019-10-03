@@ -792,11 +792,14 @@ Special section for other news (up to 15) in a one-liner format:
 [blend]: https://github.com/lukebitts/blend
 [blender]: https://blender.org
 
-<!--
 ## Popular Workgroup Issues in Github
--->
 
 <!-- Up to 10 links to interesting issues -->
+
+- [#36 "Adoption of Rust over time in existing game codebases"](https://github.com/rust-gamedev/wg/issues/36)
+- [#48 "Placement New"](https://github.com/rust-gamedev/wg/issues/48)
+- [#49 "Branch prediction hints (i.e. Likely/Unlikely)"](https://github.com/rust-gamedev/wg/issues/49)
+- [#51 "Using wasm-bindgen for games"](https://github.com/rust-gamedev/wg/issues/51)
 
 ## Meeting Minutes
 
