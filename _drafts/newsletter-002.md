@@ -622,11 +622,12 @@ Special section for other news (up to 15) in a one-liner format:
 
   TODO: other news/twits? gif?
 
-- @magistratic: I gave a talk on the #doom BSP rendering engine using my @rustlang implementation as a demonstration at #revolverconf.
-  Recording (in Norwegian) and WASM demo at
-  <https://magnushoff.com/blog/doom-revolverconf>
-  \[[twitter](https://twitter.com/magistratic/status/1168724631714508801)];
+- [@magistratic] gave a talk on the Doom's [BSP] rendering engine using their Rust implementation as a demonstration at RevolverConf:
+  recording (in Norwegian) and a WASM demo available
+  [here](https://magnushoff.com/blog/doom-revolverconf)
+  ([source code](https://github.com/maghoff/wad-render/tree/revolverconf-2019.2)).
 
+  ![WASM demo](/assets/newsletter-002/doom-bsp-wasm.png)
 - @slybash: love this pattern: make a turn based game, but it's actually just realtime & pauses when the player's flagged to take their turn. Not only does it simplify deving, but you can get some real cool effects like this one. 100 dummy AI's with random speeds moving south-east
   \[[twitter](https://twitter.com/slybash/status/1170242812752748544)]
 
@@ -782,6 +783,8 @@ Special section for other news (up to 15) in a one-liner format:
 [Live2D Cubism]: https://www.live2d.com/en/download/cubism-sdk
 [Piston2D]: https://www.piston.rs
 [@dooskington]: https://twitter.com/dooskington
+[@magistratic]: https://twitter.com/magistratic
+[BSP]: https://en.wikipedia.org/wiki/Binary_space_partitioning
 [@Mistodon]: https://twitter.com/Mistodon
 ["Disconnect"]: https://mistodon.itch.io/disconnect
 [disconnect-video]: https://twitter.com/Mistodon/status/1175361784246603776
