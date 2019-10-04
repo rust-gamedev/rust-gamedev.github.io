@@ -533,26 +533,11 @@ Special section for other news (up to 15) in a one-liner format:
 
   ![Stats and skill demo](/assets/newsletter-002/dooskington-devlog-5-screenshot.jpeg)
 
-- Robo Instructus 1.8 lays the ground for better localization.
+- [Alex Butler] continues to polish their "[Robo Instructus]" game;
+  [1.8, 1.9, 1.10 and 1.11 versions were released][robo-news]:
+  official macOS support, bugfixes and better translations.
 
-  <https://steamcommunity.com/games/1032170/announcements/detail/1604892840079306082>
-  <https://twitter.com/bigabgames/status/1169965661491216385>
-
-  Robo Instructus 1.9 brings official Mac support + big improvements for the Russian translation.
-
-  Robo Instructus 1.10 is out today with a big step forward for the German translation thanks to community contribution.
-
-  Robo Instructus 1.11 brings Deutsch translated Function docs, thanks to bert2.
-
-  <https://github.com/big-ab-games/robo-instructus-translation#about>
-
-  <https://bigabgames.itch.io/robo-instructus>
-
-  <https://store.steampowered.com/app/1032170/Robo_Instructus>
-
-  **TODO**: add later news
-
-  **TODO**: _nice GIF [here](https://twitter.com/bigabgames/status/1171850765452959748)_
+  ![Robo Instructus gameplay screenshot with full UI](/assets/newsletter-002/robo.jpg)
 
 - ["Github Actions CI with Rust and SDL2"] -
   [Alexandru Ene] wrote a post about CI with [github actions]
@@ -738,6 +723,9 @@ Special section for other news (up to 15) in a one-liner format:
 [tennis]: https://iolivia.me/posts/6-months-of-rust-game-dev
 [tennis-1]: https://twitter.com/oliviff/status/1168556346431692800
 [tennis-2]: https://twitter.com/oliviff/status/1172912164488843265
+[Alex Butler]: https://twitter.com/bigabgames
+[Robo Instructus]: https://steamcommunity.com/games/1032170/announcements/detail/1604892840079306082
+[robo-news]: https://steamcommunity.com/app/1032170/allnews
 
 ## Popular Workgroup Issues in Github
 
