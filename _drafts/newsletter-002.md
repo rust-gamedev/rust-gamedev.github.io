@@ -257,13 +257,31 @@ _Discussions:
 
 [Iced]: https://github.com/hecrj/iced
 
-### [gfx-rs: Project Update](https://gfx-rs.github.io/2019/10/01/update.html)
+### [gfx-rs & wgpu-rs: Project Update][gfx-post]
 
-![TODO: local, description](https://raw.githubusercontent.com/gfx-rs/gfx/master/info/logo.png)
+[![gfx-rs rusty logo](/assets/newsletter-002/gfx-logo.png)][gfx-post]
 
-- Slimmed down gfx-rs.
-- Feature-less wgpu-rs.
-- New swapchain model.
+[gfx-rs] is a Rust project aiming to make low-level GPU programming
+portable with low overhead.
+It’s a single Vulkan-like Rust API with multiple backends that implement it:
+Direct3D 12/11, Metal, Vulkan, and even OpenGL.
+
+[wgpu-rs] is a Rust project on top of gfx-rs that provides safety,
+accessibility, and even stronger portability.
+
+- gfx-rs was slimmed down: “magical” deps (like [failure] and [derivative]) were removed and it sped up the fresh gfx-hal build by a factor of 8.5X; the “typed” layer of gfx-hal got removed.
+- Backend features were removed from wgpu-rs;
+- An entirely new [swapchain] model was prototyped and implemented.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/dbzxw2/gfxrs_late_2019_project_update)_
+
+[gfx-post]: https://gfx-rs.github.io/2019/10/01/update.html
+[gfx-rs]: https://github.com/gfx-rs/gfx
+[wgpu-rs]: https://github.com/gfx-rs/wgpu-rs
+[failure]: https://github.com/rust-lang-nursery/failure
+[derivative]: https://github.com/mcarton/rust-derivative
+[swapchain]: https://vulkan-tutorial.com/Drawing_a_triangle/Presentation/Swap_chain
 
 ### Twenty Asteroids
 
