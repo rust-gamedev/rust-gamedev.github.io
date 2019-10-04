@@ -632,34 +632,16 @@ Special section for other news (up to 15) in a one-liner format:
 
   <https://twitter.com/phaazon_/status/1176282088196235265>
 
-- Vallentin (@MrVallentin)
+- [@MrVallentin] tweeted a bunch of updates about their voxel engine:
+  [falling cubes](https://twitter.com/MrVallentin/status/1170164060542918656),
+  [text rendering](https://twitter.com/MrVallentin/status/1170515003113451520),
+  [60M cubes generated in the blink of an eye](https://twitter.com/MrVallentin/status/1171773622039515136),
+  [remeshing](https://twitter.com/MrVallentin/status/1171774889335951361),
+  [retrospective video](https://twitter.com/MrVallentin/status/1174493952894033920),
+  [saving and loading](https://twitter.com/MrVallentin/status/1176996637681623042),
+  and some more.
 
-  <http://vallentin.io/>
-
-  The base for falling cubes have been implemented! - <https://twitter.com/MrVallentin/status/1170164060542918656>
-
-  - This isn't necessarily #gamedev, but I'm really happy
-    with the crisp text #rendering I finally finished implementing.
-
-    The font glyphs are dynamically rendered to a bitmap as needed (as shown below, scaled up). Supporting multiple fonts and dynamically updating the texture as needed.
-
-    Font loading is powered by #RustType (#Rust TrueType crate).
-
-    <https://twitter.com/MrVallentin/status/1170515003113451520>
-
-  - Today it's 2 months ago since I started working on my #voxel engine.
-
-    It's written in Rust, and the main focus is on performance.
-    Every day the amount of voxels increase or the #generation gets faster.
-
-    <https://twitter.com/MrVallentin/status/1174493952894033920>
-
-  - Finally implemented saving and loading.
-    Now it's way more fun to spend time building stuff, since it gets saved!
-
-    <https://twitter.com/MrVallentin/status/1176996637681623042>
-
-  - I could watch this all day. Around 1800 chunks or 60M cubes generated in the blink of an eye!
+  ![screenshot of the WIP terrain generation](/assets/newsletter-002/vallentin-voxel-terrain.jpeg)
 
 - [@Mistodon] got their entire game ["Disconnect"] to [render in the terminal][disconnect-video];
 
@@ -726,6 +708,7 @@ Special section for other news (up to 15) in a one-liner format:
 [Alex Butler]: https://twitter.com/bigabgames
 [Robo Instructus]: https://steamcommunity.com/games/1032170/announcements/detail/1604892840079306082
 [robo-news]: https://steamcommunity.com/app/1032170/allnews
+[@MrVallentin]: https://twitter.com/MrVallentin
 
 ## Popular Workgroup Issues in Github
 
