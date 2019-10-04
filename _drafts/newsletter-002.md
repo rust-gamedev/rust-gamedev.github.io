@@ -594,21 +594,11 @@ Special section for other news (up to 15) in a one-liner format:
 
     <https://twitter.com/oliviff/status/1172912164488843265>
 
-- Garden
+- The [Garden] game is
+  [under active development again](https://twitter.com/logicsoup/status/1174259591250661379).
+  Devlogs [are coming soon!](https://twitter.com/logicsoup/status/1166469607412158464)
 
-  - <https://twitter.com/logicsoup/status/1166469607412158464>
-
-    Left my job as an embedded software engineer to team up with the main programmer and game designer of Teleglitch for a new game written in Rust; I'll be mostly focusing on some aspects of game design, gameplay and engine programming. Will also start a devlog on this account :)
-
-  - <https://twitter.com/logicsoup/status/1174259591250661379>
-
-    This is a game written in @rustlang  and OpenGl (in progress).
-    Today, I fixed the procedurally generated ruins so that
-    any floating chunks of the building wouldn't be there.
-    Another dev and I have teamed up to turn this simulation and crafting
-    game into reality.
-
-    **TODO**: _extract images/video from the tweet_
+  ![a screenshot from Garden showing a build and some trees](/assets/newsletter-002/garden.jpeg)
 
 - [@seratonik](https://twitter.com/seratonik)
 
@@ -628,8 +618,11 @@ Special section for other news (up to 15) in a one-liner format:
   ([source code](https://github.com/maghoff/wad-render/tree/revolverconf-2019.2)).
 
   ![WASM demo](/assets/newsletter-002/doom-bsp-wasm.png)
+
+<!--
 - @slybash: love this pattern: make a turn based game, but it's actually just realtime & pauses when the player's flagged to take their turn. Not only does it simplify deving, but you can get some real cool effects like this one. 100 dummy AI's with random speeds moving south-east
   \[[twitter](https://twitter.com/slybash/status/1170242812752748544)]
+-->
 
 - rx v0.2.0
 
@@ -790,6 +783,7 @@ Special section for other news (up to 15) in a one-liner format:
 [@phaazon]: https://github.com/phaazon
 [blend]: https://github.com/lukebitts/blend
 [blender]: https://blender.org
+[Garden]: https://epcc.itch.io/garden
 
 ## Popular Workgroup Issues in Github
 
