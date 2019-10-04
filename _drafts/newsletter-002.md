@@ -636,26 +636,11 @@ Special section for other news (up to 15) in a one-liner format:
 
   ![A few mechs of a hexagonal field](/assets/newsletter-002/hex-cross-streams.jpg)
 
-- [@pincfloit](https://twitter.com/pincfloit): Here's a tiny text-based game done with @rustlang. It's still on development so expect plenty of bugs and new features to come. But it's been so fun to code and I'm learning a lot
+- ["Live"][live] by [@pincfloit] - a small command line interface survival game
+  \[[twitter](https://twitter.com/pincfloit/status/1173965160089837568),
+  [github](https://github.com/codegram/live-rust)].
 
-  (**TODO**: add this game to games-in-rust list)
-
-  <!-- TODO: This image is too big! Can it be cut a little bit?
-    ![TODO: local, desc](https://img.itch.zone/aW1hZ2UvNDc4MTkyLzI0NTg2MDQucG5n/original/djU7oj.png) -->
-
-  > Find food, water and resources to live as long as possible.
-  >
-  > This is a command line interface game. This means it will open a terminal window and you need to type stuff to play. Very old school :)
-  >
-  > This game is under development and it's made with Rust. It's kind of a demake of a  game I had previosuly made with JavaScript, that you can play here. The reason I started working on this was to learn Rust, but I like it so much that it might become the official version of Live and end up having more features.
-  >
-  > If you are curious you can check out the code here.
-  >
-  > If you run into any issue, please comment here or let me know via twitter or github. I can't promise any fixes, especially on Windows platform as I have no way to test it, but I'll do my best!
-
-  <https://nuria.itch.io/live-rust>
-  <https://github.com/codegram/live-rust>
-  <https://twitter.com/pincfloit/status/1173965160089837568>
+  [![Live demo](/assets/newsletter-002/live-cli.png)][live]
 
 - [@phaazon]: [luminance] 0.33
 
@@ -769,6 +754,7 @@ Special section for other news (up to 15) in a one-liner format:
 [@Mistodon]: https://twitter.com/Mistodon
 ["Disconnect"]: https://mistodon.itch.io/disconnect
 [disconnect-video]: https://twitter.com/Mistodon/status/1175361784246603776
+[@pincfloit]: https://twitter.com/pincfloit
 [luminance]: https://crates.io/crates/luminance
 [splines]: https://crates.io/crates/splines
 [@aclysma]: https://twitter.com/aclysma
@@ -777,6 +763,7 @@ Special section for other news (up to 15) in a one-liner format:
 [blender]: https://blender.org
 [Garden]: https://epcc.itch.io/garden
 [shadows-tweet]: https://twitter.com/seratonik/status/1169106102710988801
+[live]: https://nuria.itch.io/live-rust
 
 ## Popular Workgroup Issues in Github
 
