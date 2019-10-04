@@ -512,19 +512,6 @@ Special section for other news (up to 15) in a one-liner format:
   designed for small and medium number of stored elements
   which change quickly - i.e. in a dynamically evolving scene in a video game.
 
-- Wraithan:
-
-  Wrote a boids simulator to prove out using an ECS in #rustlang with my current rendering stack.
-  The experiment was a success so now I'm going to rewrite my tower defense engine to use it.
-
-  <https://twitter.com/Wraithan/status/1169297877937487872>
-
-  Got tower placement working in my #rustlang game, WraithDefense: Tower of Power
-
-  <https://twitter.com/Wraithan/status/1172982932341805056>
-
-  **TODO**: _mention Twitch streams_
-
 - [cubism-rs] (Rust bindings for [Live2D Cubism]) got renderer support for [Piston2D].
 
   ![Live2D Piston demo](/assets/newsletter-002/live2d-cubism.png)
@@ -544,6 +531,12 @@ Special section for other news (up to 15) in a one-liner format:
   for [their hobby game project][after-hours] that uses Rust and SDL2.
 
   ![Github Actions with SDL2 screencast demo](/assets/newsletter-002/github_actions_ci.gif)
+
+- [@Wraithan got tower placement working](https://twitter.com/Wraithan/status/1172982932341805056)
+  in their "WraithDefense" tower defence game;
+  the development process [is streamed on Twitch](https://twitch.tv/wraithan).
+
+  ![Towers on the map](/assets/newsletter-002/wraith-def.jpeg)
 
 - [@oliviff] released [v0.0.1][tennis-1] and [v0.0.2][tennis-2] updates for [Tennis Academy][tennis]: simplified gameplay flow, areas, cash flow, animations, players' state visual cues and more.
 
