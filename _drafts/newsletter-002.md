@@ -174,9 +174,12 @@ _Discussions:
 
 ### [Use prebuilt rooms with Rust macros for more interesting procedural dungeons][proc_rooms]
 
-![TODO](https://www.jamesbaum.co.uk/static/652c57e0976fb7a5ac82766467ce2d64/b9e4f/briangrumble2room.png)
+![Top-down view on a generated dungeon](/assets/newsletter-002/proc-dungeons.png)
 
-**TODO**: summary
+[@whostolemyhat](https://twitter.com/whostolemyhat) published a forth part
+of their series of tutorials on procedural generation with Rust.
+In this tutorial the room generation is updated so it can also pick from a selection
+of pre-built room patterns as well as create the standard empty room.
 
 _Discussions:
 [/r/rust](https://reddit.com/r/rust/comments/d85i8x/make_more_interesting_procedural_dungeons_using)_
@@ -509,8 +512,6 @@ Special section for other news (up to 15) in a one-liner format:
 - optional discussion links (in square brackets),
 - optional small image.
 -->
-
-(**TODO**: **compress into real one-liners!**)
 
 - [**uset**](https://crates.io/crates/uset) - an implementation of sets and maps
   designed for small and medium number of stored elements
