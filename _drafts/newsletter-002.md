@@ -571,18 +571,14 @@ Special section for other news (up to 15) in a one-liner format:
   \[[twitter](https://twitter.com/slybash/status/1170242812752748544)]
 -->
 
-- rx v0.2.0
+- [**rx**][rx] by [@cloudhead] is a modern pixel editor and animator;
+  this month, v0.2.0 was released, with new brush modes -
+  pixel perfect drawing, symmetry and multi-frame drawing -
+  a new GLFW backend and `.gif` output.
+  \[[/r/rust](https://reddit.com/r/rust/comments/dauizc/rx_v020_released_a_modern_pixel_editor),
+  [github](https://github.com/cloudhead/rx)].
 
-  ![rx demo](/assets/newsletter-002/rx.gif)
-
-  **rx** is a modern pixel editor and animator written in rust. This month, v0.2.0 was released,
-  with new brush modes - pixel perfect drawing, symmetry and multi-frame drawing - a new
-  GLFW backend and `.gif` output.
-
-  - Website: <https://cloudhead.io/rx>
-  - Code: <https://github.com/cloudhead/rx>
-
-  [/r/rust](https://reddit.com/r/rust/comments/dauizc/rx_v020_released_a_modern_pixel_editor)
+  [![rx demo](/assets/newsletter-002/rx.gif)][rx]
 
 - Pixel art editor [Xprite] is now [open source under GNU GPL][xprite-repo]
   \[[/r/rust](https://reddit.com/r/rust/comments/d4r0o3/pixel_art_editor_xprite_is_now_open_source),
@@ -711,6 +707,8 @@ Special section for other news (up to 15) in a one-liner format:
 [Robo Instructus]: https://steamcommunity.com/games/1032170/announcements/detail/1604892840079306082
 [robo-news]: https://steamcommunity.com/app/1032170/allnews
 [@MrVallentin]: https://twitter.com/MrVallentin
+[rx]: https://cloudhead.io/rx
+[@cloudhead]: https://cloudhead.io
 
 ## Popular Workgroup Issues in Github
 
