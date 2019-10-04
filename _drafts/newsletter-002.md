@@ -516,13 +516,13 @@ Special section for other news (up to 15) in a one-liner format:
   designed for small and medium number of stored elements
   which change quickly - i.e. in a dynamically evolving scene in a video game.
 
-- **[cubism-rs]** (Rust bindings for [Live2D Cubism]) got renderer support for [Piston2D].
-
-  ![Live2D Piston demo](/assets/newsletter-002/live2d-cubism.png)
-
 - [@dooskington] published their 5th devlog: ["Stats And Skills"](https://dooskington.com/dev-log/5);
 
   ![Stats and skill demo](/assets/newsletter-002/dooskington-devlog-5-screenshot.jpeg)
+
+- **[cubism-rs]** (Rust bindings for [Live2D Cubism]) got renderer support for [Piston2D].
+
+  ![Live2D Piston demo](/assets/newsletter-002/live2d-cubism.png)
 
 - [Alex Butler] continues to polish their "[Robo Instructus]" game;
   [1.8, 1.9, 1.10 and 1.11 versions were released][robo-news]:
