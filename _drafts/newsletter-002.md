@@ -427,11 +427,11 @@ Games:
   - Disconnect after sending N un-acked packets
   - Dependency maintenance
   - A lot of new unit tests
-  
+
   <https://twitter.com/AmethystEngine/status/1173853882805575690>
 
 - From the [Rendy](TODO) workbench: Currently implementing area lights using linearly transformed cosines. Got disks and rectangles working. Need to test spheres and implement tubes. Using imgui for debug interface.
-  
+
   <https://youtube.com/watch?v=KVpLPInWRWg>
 
 - @mvlabat:
@@ -573,9 +573,11 @@ Special section for other news (up to 15) in a one-liner format:
 
 - rx v0.2.0
 
-  **TODO**: ping @cloudhead
+  ![rx demo](/assets/newsletter-002/rx.gif)
 
-  Hey all, it's been a month since the first release of rx. Today I'd like to announce v0.2.0 which comes with a bunch of juicy features and additional platform support. There is also an AppImage release - which is something I'm experimenting with as a distribution mechanism.
+  **rx** is a modern pixel editor and animator written in rust. This month, v0.2.0 was released,
+  with new brush modes - pixel perfect drawing, symmetry and multi-frame drawing - a new
+  GLFW backend and `.gif` output.
 
   - Website: <https://cloudhead.io/rx>
   - Code: <https://github.com/cloudhead/rx>
@@ -600,7 +602,7 @@ Special section for other news (up to 15) in a one-liner format:
 - [@phaazon]: [luminance] 0.33
 
   adds a new yet important feature that was missing (!!): geometry instancing
-  
+
   [/r/rust](https://reddit.com/r/rust/comments/d0us73/announcement_luminance033)
 
   xxx
