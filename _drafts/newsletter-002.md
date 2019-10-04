@@ -349,6 +349,10 @@ Games:
 
   ![TODO: local, desc](https://cdn.discordapp.com/attachments/481072222392418314/628558650339754004/Screenshot_20191001_130327.png)
 
+- [@Webshinra shared a small update about their hexagonal game](https://twitter.com/Webshinra/status/1172514770513215488). (TODO: move into Amethyst section)
+
+  ![A few mechs of a hexagonal field](/assets/newsletter-002/hex-cross-streams.jpg)
+
 <!--TODO: merge this with Erland's updated version above
 
 - Amethyst Engine v0.13:
@@ -508,11 +512,11 @@ Special section for other news (up to 15) in a one-liner format:
 
 (**TODO**: **compress into real one-liners!**)
 
-- [uset](https://crates.io/crates/uset) - an implementation of sets and maps
+- [**uset**](https://crates.io/crates/uset) - an implementation of sets and maps
   designed for small and medium number of stored elements
   which change quickly - i.e. in a dynamically evolving scene in a video game.
 
-- [cubism-rs] (Rust bindings for [Live2D Cubism]) got renderer support for [Piston2D].
+- **[cubism-rs]** (Rust bindings for [Live2D Cubism]) got renderer support for [Piston2D].
 
   ![Live2D Piston demo](/assets/newsletter-002/live2d-cubism.png)
 
@@ -573,14 +577,11 @@ Special section for other news (up to 15) in a one-liner format:
 
   [![rx demo](/assets/newsletter-002/rx.gif)][rx]
 
-- Pixel art editor [Xprite] is now [open source under GNU GPL][xprite-repo]
+- Pixel art editor **[Xprite]** is now [open source under GNU GPL][xprite-repo]
   \[[/r/rust](https://reddit.com/r/rust/comments/d4r0o3/pixel_art_editor_xprite_is_now_open_source),
   [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/d3vl65/xprite_is_now_open_source)].
 
   ![XPrite drawing demo](/assets/newsletter-002/xprite-demo.gif)
-- [@Webshinra shared a small update about their hexagonal game](https://twitter.com/Webshinra/status/1172514770513215488). (TODO: move into Amethyst section)
-
-  ![A few mechs of a hexagonal field](/assets/newsletter-002/hex-cross-streams.jpg)
 
 - ["Live"][live] by [@pincfloit] - a small command line interface survival game
   \[[twitter](https://twitter.com/pincfloit/status/1173965160089837568),
@@ -656,12 +657,13 @@ Special section for other news (up to 15) in a one-liner format:
 
   ![TODO: local, desc](https://i.redd.it/1f6qvcp8y9k31.png)
 
-- [/r/rust](https://reddit.com/r/rust/comments/d487dr/were_looking_for_a_rust_graphics_programmer)
-  <https://kickstarter.com/projects/dungeonfog/project-deios-dungeonfog-mapmaker-suite-for-worldbuilders>
+- [Project Deios][deios] decided to implement their core in Rust
+  and has been looking for a Rust graphics programmer:
+  [/r/rust announcement][deios-reddit].
 
-  **TODO**: _this position is most likely closed by now, but it's still interesting that rendy has been choosen as a technology. Should it be included into the newsletter? hmm_
+  ![Deios logo ant promo pic](/assets/newsletter-002/deios.jpg)
 
-- [blend] - a parser and runtime for [Blender][blender]'s .blend files
+- **[blend]** - a parser and runtime for [Blender][blender]'s .blend files
   that can be used to read (almost) everything inside the file:
   from mesh data, materials, cameras and animations to user preferences,
   window locations and render settings
@@ -702,6 +704,8 @@ Special section for other news (up to 15) in a one-liner format:
 [@MrVallentin]: https://twitter.com/MrVallentin
 [rx]: https://cloudhead.io/rx
 [@cloudhead]: https://cloudhead.io
+[deios]: https://kickstarter.com/projects/dungeonfog/project-deios-dungeonfog-mapmaker-suite-for-worldbuilders
+[deios-reddit]: https://reddit.com/r/rust/comments/d487dr/were_looking_for_a_rust_graphics_programmer
 
 ## Popular Workgroup Issues in Github
 
