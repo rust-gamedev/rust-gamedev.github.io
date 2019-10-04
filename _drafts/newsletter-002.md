@@ -600,17 +600,9 @@ Special section for other news (up to 15) in a one-liner format:
 
   ![a screenshot from Garden showing a build and some trees](/assets/newsletter-002/garden.jpeg)
 
-- [@seratonik](https://twitter.com/seratonik)
+- [@seratonik shared a GIF with omni-directional shadows][shadows-tweet]:
 
-  Dang shadows, how you so close but still broken? At least I got a chair in my dungeon now. My character can now sit and contemplate how horribly he writes shaders. #WebGL #GameDev #RustLang #WebAssembly
-  
-  <https://twitter.com/seratonik/status/1168665823163977730>
-
-  Finally figured out what was wrong with my omni-directional shadows! I had left blending enabled (used for the sprites) while rendering the world's shadow pass and it was causing weird depth artifacts. Now maybe I can get onto some more exciting stuff. #WebGL #GameDev
-
-  <https://twitter.com/seratonik/status/1169106102710988801>
-
-  TODO: other news/twits? gif?
+  [![shadows demo](/assets/newsletter-002/shadows.gif)][shadows-tweet]
 
 - [@magistratic] gave a talk on the Doom's [BSP] rendering engine using their Rust implementation as a demonstration at RevolverConf:
   recording (in Norwegian) and a WASM demo available
@@ -784,6 +776,7 @@ Special section for other news (up to 15) in a one-liner format:
 [blend]: https://github.com/lukebitts/blend
 [blender]: https://blender.org
 [Garden]: https://epcc.itch.io/garden
+[shadows-tweet]: https://twitter.com/seratonik/status/1169106102710988801
 
 ## Popular Workgroup Issues in Github
 
