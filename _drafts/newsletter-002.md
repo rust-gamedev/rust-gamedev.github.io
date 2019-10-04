@@ -589,40 +589,17 @@ Special section for other news (up to 15) in a one-liner format:
 
   [![Live demo](/assets/newsletter-002/live-cli.png)][live]
 
-- [@phaazon]: [luminance] 0.33
+- [@phaazon] released [luminance] 0.33 that
+  [brings geometry instancing support](https://reddit.com/r/rust/comments/d0us73/announcement_luminance033);
+  also, the third wiki chapter ["Wavefront .obj loader"][luminance-chapter]
+  was released.
 
-  adds a new yet important feature that was missing (!!): geometry instancing
+  ![loaded and lighted Suzanne model](/assets/newsletter-002/suzanne_lit.png)
 
-  [/r/rust](https://reddit.com/r/rust/comments/d0us73/announcement_luminance033)
+- [phaazon/spline-editor] - a simple spline editor
+  for the [splines crate][splines] written using [luminance].
 
-  xxx
-
-  This is just a small post to announce luminance got its third chapter released today, and it’s about loading a 3D object and rendering it with an omnidirectional light! It’s a sequel to the second chapter that you should read too, but this is not necessary to understand the concepts of this new chapter.
-
-  <https://github.com/phaazon/luminance-rs/wiki>
-
-  [You can find the wiki page here.](https://github.com/phaazon/luminance-rs/wiki/Wavefront-.obj-loader)
-
-  As always, feel free to provide feedback about the wiki and your experience with luminance. Keep the vibes!
-
-  [/r/rust](https://reddit.com/r/rust/comments/d1pwqm/write_a_wavefront_obj_viewer_with_luminance)
-
-- [@phaazon] My small yet funny spline editor is building up, using luminance and splines!
-
-  <https://twitter.com/phaazon_/status/1175037194362400768>
-  <https://github.com/phaazon/spline-editor>
-
-  <https://reddit.com/r/rust/comments/d7tjyj/spline10> (**TODO**: extract some notes from the Reddit announcement)
-
-  Written with heart with [luminance], [splines].
-
-  xxx --- xxx
-
-  ![TODO: local, desc](https://raw.githubusercontent.com/phaazon/spline-editor/master/doc/imgs/front2.png)
-
-  Continuation of my spline editor. I added Bézier splines lately to the splines crate and I’m currently debugging them by adding support for editing tangents in the editor. Lots of fun!
-
-  <https://twitter.com/phaazon_/status/1176282088196235265>
+  ![complex spline in the editor](/assets/newsletter-002/splines.png)
 
 - [@MrVallentin] tweeted a bunch of updates about their voxel engine:
   [falling cubes](https://twitter.com/MrVallentin/status/1170164060542918656),
@@ -686,7 +663,9 @@ Special section for other news (up to 15) in a one-liner format:
 [disconnect-video]: https://twitter.com/Mistodon/status/1175361784246603776
 [@pincfloit]: https://twitter.com/pincfloit
 [luminance]: https://crates.io/crates/luminance
+[luminance-chapter]: https://github.com/phaazon/luminance-rs/wiki/Wavefront-.obj-loader
 [splines]: https://crates.io/crates/splines
+[phaazon/spline-editor]: https://github.com/phaazon/spline-editor
 [@aclysma]: https://twitter.com/aclysma
 [@phaazon]: https://github.com/phaazon
 [blend]: https://github.com/lukebitts/blend
