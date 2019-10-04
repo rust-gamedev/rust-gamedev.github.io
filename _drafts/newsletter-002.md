@@ -616,23 +616,17 @@ Special section for other news (up to 15) in a one-liner format:
 
   [![Disconnect in the terminal](/assets/newsletter-002/disconnect-console.png)][disconnect-video]
 
-- ([@aclysma]): More progress on the editor prototype (emphasis on prototype! 😀), added rotation/scaling.
+- **[minimum]** by ([@aclysma]) is a game development framework that provides
+  basic tooling and a content authoring workflow;
+  this month, rendering of draggable shapes in the editor and their added rotation/scaling were added
+  \[[YouTube demo](https://youtube.com/watch?v=BON_RvVFiWY)].
 
-  <https://youtube.com/watch?v=BON_RvVFiWY>
-  <https://twitter.com/aclysma/status/1175530142426263552>
-  <https://github.com/aclysma/minimum>
+  ![editor with a bunch of shapes](/assets/newsletter-002/minimum.png)
 
-- ([@aclysma]): New crate: imgui-inspect for drawing structs via imgui
+- The **[imgui-inspect]** macro-based property editor by [@aclysma]
+  is a by-product of the above-mentioned "minimum" project.
 
-  I needed a property editor for a game framework I've been working on. The approach I took seemed like it might be useful to others so I broke it out into its own crate.
-
-  <https://www.youtube.com/watch?v=lCB2XpXdlFw>
-  <https://github.com/aclysma/imgui-inspect>
-  <https://reddit.com/r/rust_gamedev/comments/cyxky6/new_crate_imguiinspect_for_drawing_structs_via>
-
-  (**TODO**: merge with the minimum news)
-
-  ![TODO: local, desc](https://i.redd.it/1f6qvcp8y9k31.png)
+  ![inspector widget with position, debug draw rect, and physics body sub-widgets](/assets/newsletter-002/imgui-inspect.png)
 
 - [Project Deios][deios] decided to implement their core in Rust
   and has been looking for a Rust graphics programmer:
@@ -685,6 +679,8 @@ Special section for other news (up to 15) in a one-liner format:
 [@cloudhead]: https://cloudhead.io
 [deios]: https://kickstarter.com/projects/dungeonfog/project-deios-dungeonfog-mapmaker-suite-for-worldbuilders
 [deios-reddit]: https://reddit.com/r/rust/comments/d487dr/were_looking_for_a_rust_graphics_programmer
+[imgui-inspect]: https://github.com/aclysma/imgui-inspect
+[minimum]: https://github.com/aclysma/minimum
 
 ## Popular Workgroup Issues in Github
 
