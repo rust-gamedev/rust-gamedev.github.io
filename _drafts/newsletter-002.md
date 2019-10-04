@@ -642,17 +642,11 @@ Special section for other news (up to 15) in a one-liner format:
 
   [/r/rust](https://reddit.com/r/rust/comments/dauizc/rx_v020_released_a_modern_pixel_editor)
 
-- Xprite
+- Pixel art editor [Xprite] is now [open source under GNU GPL][xprite-repo]
+  \[[/r/rust](https://reddit.com/r/rust/comments/d4r0o3/pixel_art_editor_xprite_is_now_open_source),
+  [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/d3vl65/xprite_is_now_open_source)].
 
-  ![TODO: local, desc](https://pickitup247.com/images/gif.gif)
-
-  opensourced GPL
-
-  <https://pickitup247.com>
-
-  [/r/rust](https://reddit.com/r/rust/comments/d4r0o3/pixel_art_editor_xprite_is_now_open_source),
-  [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/d3vl65/xprite_is_now_open_source)
-
+  ![XPrite drawing demo](/assets/newsletter-002/xprite-demo.gif)
 - [@Webshinra shared a small update about their hexagonal game](https://twitter.com/Webshinra/status/1172514770513215488). (TODO: move into Amethyst section)
 
   ![A few mechs of a hexagonal field](/assets/newsletter-002/hex-cross-streams.jpg)
@@ -779,6 +773,8 @@ Special section for other news (up to 15) in a one-liner format:
 ["Github Actions CI with Rust and SDL2"]: https://alexene.dev/2019/09/04/Github-actions-CI-rust-SDL2.html
 [github actions]: https://github.com/features/actions
 [after-hours]: https://alexene.dev/2019/01/15/After-hours-game-development.html
+[Xprite]: https://pickitup247.com/xprite.html
+[xprite-repo]: https://github.com/rickyhan/xprite-editor
 [cubism-rs]: https://github.com/Veykril/cubism-rs
 [Live2D Cubism]: https://www.live2d.com/en/download/cubism-sdk
 [Piston2D]: https://www.piston.rs
