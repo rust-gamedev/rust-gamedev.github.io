@@ -725,16 +725,46 @@ or [join the next meeting][join].
 [amethyst-iced-help]: https://twitter.com/AmethystEngine/status/1169922826033336320
 [@hecrj]: https://twitter.com/hecrj
 
-<!--
 ## Bonus
-
-TODO: ???
-
-note (ozkriff): most likely, we won't have a bonus section this time.
--->
 
 <!-- Bonus section to make the newsletter more interesting
 and highlight events from the past. -->
+
+Just an interesting Rust gamedev link from the past. :)
+
+[![a scene with sand, water, a tree, flowers, and fire](/assets/newsletter-002/sandspiel.png)][Sandspiel]
+
+**[Sandspiel]** is a falling sand game by [@MaxBittker]
+built in late 2018 using Rust (via WASM), WebGL,
+and some JS glueing things together.
+
+> Sandspiel is a pixel physics simulation sandbox where
+> you can paint with elements, conduct experiments and build your own world!
+>
+> Elements include Ice, Water, Sand, Lava, Fire, Oil, Plant, Fungus,
+> and many more!
+>
+> The goal was to produce an cellular automata environment that's
+> interesting to play with and supports the sharing and forking
+> of fun creations with other players.
+> Ultimately, I want the platform to support editing and uploading
+> of your own elements via a programmable cellular automata API.
+
+The history of the game and the development process are documented in a great
+**["Making Sandspiel"](https://maxbittker.com/making-sandspiel)** blog post.
+
+[The source code is aviable on GitHub](https://github.com/MaxBittker/sandspiel).
+
+The game's community is still active: check
+[@sandspiel_feed feed of uploads](https://twitter.com/sandspiel_feed).
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/a6v0p1/sandspiel_a_falling_sand_game_built_in_rustwebgl),
+[/r/programming](https://reddit.com/r/programming/comments/a6zxou/sandspiel_a_falling_sand_game_built_in_rust),
+[hacker news](https://news.ycombinator.com/item?id=18696291)_
+
+[Sandspiel]: https://sandspiel.club
+[@MaxBittker]: https://maxbittker.com
 
 ------
 
