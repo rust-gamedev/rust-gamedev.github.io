@@ -560,39 +560,9 @@ Special section for other news (up to 15) in a one-liner format:
 
   ![Github Actions with SDL2 screencast demo](/assets/newsletter-002/github_actions_ci.gif)
 
-- @oliviff
+- [@oliviff] released [v0.0.1][tennis-1] and [v0.0.2][tennis-2] updates for [Tennis Academy][tennis]: simplified gameplay flow, areas, cash flow, animations, players' state visual cues and more.
 
-  progress! now each thing changes its renderable based on its state in a pretty generic way.
-  <https://twitter.com/oliviff/status/1170016890498048001>
-
-  - v0.0.1 - after a massive overhaul/simplification
-
-    🤼 players arrive at reception
-    👟 they get sent to a court by the manager
-    🎾 they play
-    💵 they get sent to the out reception area and the manager receives💲
-
-    what do y'all think?
-
-    <https://youtu.be/-5hRo-AtDc8>
-
-    <https://twitter.com/oliviff/status/1168556346431692800>
-
-    In this release:
-    - stripping back a lot of the old features and massively simplifying the gameplay flow
-    - players arrive to the reception area
-    - they get sent to a court by the manager
-    - they play (there is no visual indication that they are playing yet, but a counter gets incremented in the background)
-    - once they finished playing, the manager moves them to the out area, where they receive money for the player that played
-
-  - v0.0.2 is here!
-
-    🎥 animations!
-    🍿visual cues for when players are playing or having finished playing
-    ⏰ FPS display
-    🔧some internal refactoring
-
-    <https://twitter.com/oliviff/status/1172912164488843265>
+  ![Tennis Academy v0.0.2 Demo](/assets/newsletter-002/tennis-academy.gif)
 
 - The [Garden] game is
   [under active development again](https://twitter.com/logicsoup/status/1174259591250661379).
@@ -764,6 +734,10 @@ Special section for other news (up to 15) in a one-liner format:
 [Garden]: https://epcc.itch.io/garden
 [shadows-tweet]: https://twitter.com/seratonik/status/1169106102710988801
 [live]: https://nuria.itch.io/live-rust
+[@oliviff]: https://twitter.com/oliviff
+[tennis]: https://iolivia.me/posts/6-months-of-rust-game-dev
+[tennis-1]: https://twitter.com/oliviff/status/1168556346431692800
+[tennis-2]: https://twitter.com/oliviff/status/1172912164488843265
 
 ## Popular Workgroup Issues in Github
 
