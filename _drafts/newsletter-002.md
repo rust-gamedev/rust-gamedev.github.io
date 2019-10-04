@@ -768,9 +768,6 @@ _Discussions:
 
 ------
 
-<!-- TODO: check that the first and the last image/gif looks nice:
-they may become a preview on different sites -->
-
 That's all news for today, thanks for reading!
 
 Want something mentioned in the next newsletter?
