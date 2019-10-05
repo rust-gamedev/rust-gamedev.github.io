@@ -2,13 +2,6 @@
 title: "This Month in Rust GameDev #2 - September 2019"
 ---
 
-<!-- TODO: Check the post with markdownlint-->
-
-<!-- TODO: remove/wrap all raw links -->
-<!-- TODO: hard wrap long lines -->
-
-<!-- TODO: remove all discussion links that don't have much content -->
-
 Welcome to the second issue of the Rust GameDev Workgroup’s
 monthly newsletter.
 
@@ -286,8 +279,6 @@ Demo builds are [available for patrons](https://patreon.com/vladzhukov).
 [devlog-3-text]: https://pum-purum-pum-pum.itch.io/asteroids-like-game/devlog/101357/new-menu-performance-and-abilities-devlog-3
 
 ### [Amethyst][amethyst]
-
-**TODO**: _hard wrap long lines!_
 
 ![amethyst logo](/assets/newsletter-001/amethyst-logo.png)
 
