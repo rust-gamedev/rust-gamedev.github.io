@@ -97,24 +97,34 @@ in your browser (except on Apple, for now).
 <!-- **TODO**: _find and add a Reddit link_ -->
 <!-- **TODO**: _choose on of the Twitter links_ -->
 
-### Veloren
+### [Veloren][veloren]
 
-TODO: img
+![Town surrounded by a wall](/assets/newsletter-002/veloren-town.png)
 
-- <http://veloren.net/devblog-31>
-  [[twitter](https://twitter.com/velorenproject/status/1168671036356923392)];
-- <http://veloren.net/devblog-32>
-  [[/r/rust](https://reddit.com/r/rust/comments/d2dopw/this_week_in_veloren_32),
-  [twitter](https://twitter.com/velorenproject/status/1171512718244773888)];
-- <http://veloren.net/devblog-33>
-  [[twitter](https://twitter.com/velorenproject/status/1173985255163879425)];
-- <http://veloren.net/devblog-34>
-  [[/r/rust](https://www.reddit.com/r/rust_gamedev/comments/d8xtgp/this_week_in_veloren_34),
-  [twitter](https://twitter.com/velorenproject/status/1176701752109936640)];
+[Veloren][veloren] is an open-world, open-source multiplayer voxel RPG.
+The game is in an early stage of development, but is playable.
 
-> Massive progress on water and water physics!
+Some of the September's improvements:
 
-**TODO**: twitter, reddit
+- Improved multi-staged towns generation;
+- Improved inventory system and character creation;
+- Massive progress on water, water physics, lakes, and rivers!
+- New chunks data structure;
+- Three-dimensional map and minimap;
+- First-person view;
+- Bows and arrows;
+- Performance optimization;
+
+New video: ["24 Minutes of Alpha Gameplay"](https://youtube.com/watch?v=YyvXXCjpbqQ).
+
+Full weekly devlogs "This Week In Veloren...":
+[#31](https://veloren.net/devblog-31),
+[#32](https://veloren.net/devblog-32),
+[#33](https://veloren.net/devblog-33),
+[#34](https://veloren.net/devblog-34),
+[#35](https://veloren.net/devblog-35).
+
+[veloren]: https://veloren.net
 
 ### Godot (TODO: better title)
 
