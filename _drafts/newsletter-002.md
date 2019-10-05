@@ -244,28 +244,31 @@ Hey new grads! Like games? Want to make cool stuff in Rust? Let's chat:
 
 <https://twitter.com/AriVanider/status/1173903615498567680>
 
-### [Iced - A renderer-agnostic GUI library][Iced]
+### [Iced - a Renderer-Agnostic GUI Library][Iced]
 
-![Tour example](/assets/newsletter-002/iced.gif)
+[![All widgets tour demo: radio buttons, sliders, debugging view, etc](/assets/newsletter-002/iced.gif)][tour]
 
-> [Iced] was originally born as an attempt at bringing the simplicity of Elm and The Elm Architecture into Coffee 2D game engine
+Iced is a renderer-agnostic GUI library focused on simplicity and type-safety.
+It was originally born as an attempt at bringing the simplicity of [Elm][elm]
+and The Elm Architecture into [Coffee 2D game engine][coffee].
 
-The following features are available in the crate:
+Features:
 
-- Simple, easy-to-use, renderer-agnostic API
-- Responsive, flexbox-based layouting
-- Type-safe, reactive programming model
-- Built-in widgets
-- Custom widget support
+- Simple, easy-to-use, renderer-agnostic API;
+- Responsive, flexbox-based layouting;
+- Type-safe, reactive programming model;
+- Lots of built-in widgets and custom widget support.
+
+Check out [the design overview in the repo's README][overview].
 
 _Discussions:
-[/r/rust](https://reddit.com/r/rust/comments/czzjnv/iced_a_rendereragnostic_gui_library_focused_on)_
-
-<!-- <https://github.com/hecrj/iced>
-<https://reddit.com/r/rust_gamedev/comments/czzjtb/iced_a_rendereragnostic_gui_library_focused_on/>
-<https://reddit.com/r/rust/comments/czzjnv/iced_a_rendereragnostic_gui_library_focused_on/> -->
+[/r/rust](https://reddit.com/r/rust/comments/czzjnv/iced_a_rendereragnostic_gui_library)_
 
 [Iced]: https://github.com/hecrj/iced
+[tour]: https://github.com/hecrj/iced/tree/e82e96e6examples#tour
+[elm]: https://elm-lang.org
+[coffee]: https://github.com/hecrj/coffee
+[overview]: https://github.com/hecrj/iced#overview
 
 ### [gfx-rs & wgpu-rs: Project Update][gfx-post]
 
