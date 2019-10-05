@@ -271,8 +271,6 @@ Updates include:
 - New AI behaviors: follow and circle around;
 - Debugging performance plots;
 
-Demo builds are [available for patrons](https://patreon.com/vladzhukov).
-
 [@VladZhukov0]: https://twitter.com/VladZhukov0
 [asteroids-itch]: https://itch.io/queue/c/449652/rustlang-games?game_id=477762
 [devlog-2-text]: https://pum-purum-pum-pum.itch.io/asteroids-like-game/devlog/98842/my-asteroids-like-game-devlog-002
