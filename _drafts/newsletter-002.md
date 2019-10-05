@@ -186,53 +186,39 @@ _Discussions:
 
 [proc_rooms]: https://jamesbaum.co.uk/blether/procedural-generation-prebuilt-rooms-rust-macros
 
-### Embark
+### [EmbarkStudios/texture-synthesis][texture-synthesis]
 
-(**TODO**: change to a more detailed title only about the library?)
+![Generated textures samples](/assets/newsletter-002/texture-synthesis.jpg)
 
-![TODO: local, desc](https://i.redd.it/ncbcptsd0sk31.jpg)
+[Embark] have open-sourced their texture synthesis crate **[texture-synthesis]**.
+Its an example-based non-parametric image generation algorithm
+written in Rust.
 
-<!-- **TODO**: images! gifs! -->
+[The repo][texture-synthesis] also includes multiple
+code examples along with test images,
+and a compiled binary with a command line interface
+can be found under the release tab.
 
-<https://reddit.com/r/rust/comments/d00jof/announcing_texture_synthesis_crate_from_embark>
+Also, see a great long recorded talk
+["More Like This, Please! Texture Synthesis and Remixing from a Single Example"](https://youtu.be/fMbK7PYQux4)
+which explains this technique and the background more in-depth.
 
-We have opensourced our texture synthesis!
-Its an example-based non-parametric image generation
-by @h3r2tic and myself written in @rustlang 🦀! Huge thanks to @Ca1ne
-for making awesome API around it!❤️Can't wait to see all the crazy use cases :D
+Full list of stuff that [Embark] has released so far:
+[embark.rs](http://embark.rs).
 
-> We at Embark have opensourced our texture synthesis crate!
-> Its an example-based non-parametric image generation algorithm
-> written in Rust 🦀
->
-> You can find it on [our github](https://github.com/EmbarkStudios/texture-synthesis).
-> The repo also includes multiple code examples to get you started (along with test images),
-> and you can find a compiled binary with a command line interface under the release tab.
->
-> Also see our talk [More Like This, Please! Texture Synthesis and Remixing from a Single Example](https://youtu.be/fMbK7PYQux4) which explains this technique and the background more in-depth.
-
-<https://github.com/EmbarkStudios/texture-synthesis>
-<https://twitter.com/anastasiaopara/status/1169594058530066432>
-
-Open sourcing more of our R&D work and Rust 🦀 components! this one has a great long recorded talk about how the technique works also that Anastasia did. Full list of stuff we've released so far: <http://embark.rs>
-<https://twitter.com/repi/status/1169596160488759296>
+_Discussions:
+[twitter](https://twitter.com/anastasiaopara/status/1169594058530066432)_
 
 ------
 
-Really excited that @EmbarkStudios will be sponsoring @RustFest in Barcelona this year!
+Also,
 
-If you're interested in #rustlang and #gamedev, make sure to come chat with us!
+- [Embark will be sponsoring RustFest in Barcelona this year.](https://twitter.com/AriVanider/status/1171359194336903169)
+- [Embark started hiring new grads](https://embark.games/position/software-engineer-new-grad)
+  \[[twitter](https://twitter.com/AriVanider/status/1173903615498567680)].
 
-<https://barcelona.rustfest.eu>
-<https://twitter.com/AriVanider/status/1171359194336903169>
-
-------
-
-Hey new grads! Like games? Want to make cool stuff in Rust? Let's chat:
-
-<https://embark.games/position/software-engineer-new-grad>
-
-<https://twitter.com/AriVanider/status/1173903615498567680>
+[Embark]: https://embark.games
+[texture-synthesis]: https://github.com/EmbarkStudios/texture-synthesis
 
 ### [Iced - a Renderer-Agnostic GUI Library][Iced]
 
