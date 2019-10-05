@@ -151,9 +151,9 @@ Read the [full devlog post][zemeroth-v0-6-text] or watch [the video version](htt
 
 ![Top-down view on a generated dungeon](/assets/newsletter-002/proc-dungeons.png)
 
-[@whostolemyhat](https://twitter.com/whostolemyhat) published a forth part
+[@whostolemyhat](https://twitter.com/whostolemyhat) published fourth part
 of their series of tutorials on procedural generation with Rust.
-In this tutorial the room generation is updated so it can also pick from a selection
+In this tutorial, the room generation is updated so it can also pick from a selection
 of pre-built room patterns as well as create the standard empty room.
 
 _Discussions:
@@ -165,13 +165,13 @@ _Discussions:
 
 ![Generated textures samples](/assets/newsletter-002/texture-synthesis.jpg)
 
-[Embark] have open-sourced their texture synthesis crate **[texture-synthesis]**.
-Its an example-based non-parametric image generation algorithm
+[Embark] has open-sourced their texture synthesis crate **[texture-synthesis]**.
+It's an example-based non-parametric image generation algorithm
 written in Rust.
 
 [The repo][texture-synthesis] also includes multiple
 code examples along with test images,
-and a compiled binary with a command line interface
+and a compiled binary with a command-line interface
 can be found under the release tab.
 
 Also, see a great long recorded talk
@@ -263,7 +263,7 @@ _Discussions:
 
 Updates include:
 
-- New enemies: a ship with big pinball-like bullet and a laser-mesh ship;
+- New enemies: a ship with a big pinball-like bullet and a laser-mesh ship;
 - New upgrades: laser range and bullets reflection;
 - Explosion size now depends on asteroid's size;
 - Improved main menu, upgrade and death screens;
@@ -285,7 +285,7 @@ Demo builds are [available for patrons](https://patreon.com/vladzhukov).
 [Amethyst][amethyst] is a game engine and tool-set
 for ambitious game developers.
 It enables game developers to make complex games without getting
-into too much trouble, by means of a data-driven design
+into too much trouble, by means of data-driven design
 and the ECS architecture.
 
 Tooling:
@@ -315,7 +315,7 @@ Tooling:
 Games:
 
 - [Space Shooter v0.1.3](https://github.com/amethyst/space_shooter_rs/releases/tag/v0.1.3)
-  by [@carlosupina] introduced a currency system, shop system
+  by [@carlosupina] introduced a currency system, shop system,
   and sound effects: [watch the devlog video][space-shooter-vlog].
 
   [![shmap gameplay sample](/assets/newsletter-002/space-shooter.gif)][space-shooter-vlog]
@@ -430,7 +430,7 @@ Special section for other news (up to 15) in a one-liner format:
 
 - [Alex Butler] continues to polish their "[Robo Instructus]" game;
   [1.8, 1.9, 1.10 and 1.11 versions were released][robo-news]:
-  official macOS support, bugfixes and better translations.
+  official macOS support, bugfixes, and better translations.
 
   ![Robo Instructus gameplay screenshot with full UI](/assets/newsletter-002/robo.jpg)
 
@@ -486,7 +486,7 @@ Special section for other news (up to 15) in a one-liner format:
 
   ![XPrite drawing demo](/assets/newsletter-002/xprite-demo.gif)
 
-- ["Live"][live] by [@pincfloit] - a small command line interface survival game
+- ["Live"][live] by [@pincfloit] - a small command-line interface survival game
   \[[twitter](https://twitter.com/pincfloit/status/1173965160089837568),
   [github](https://github.com/codegram/live-rust)].
 
@@ -521,7 +521,7 @@ Special section for other news (up to 15) in a one-liner format:
 
 - **[minimum]** by ([@aclysma]) is a game development framework that provides
   basic tooling and a content authoring workflow;
-  this month, rendering of draggable shapes in the editor and their added rotation/scaling were added
+  this month, rendering of draggable shapes in the editor and rotation/scaling were added
   \[[YouTube demo](https://youtube.com/watch?v=BON_RvVFiWY)].
 
   ![editor with a bunch of shapes](/assets/newsletter-002/minimum.png)
