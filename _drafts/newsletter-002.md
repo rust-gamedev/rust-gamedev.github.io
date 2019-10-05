@@ -16,69 +16,7 @@ Want to get involved? [Join the Rust GameDev working group!][join]
 [Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
-## News and Blog Posts
-
-<!--
-8-12 important news with their own sections.
-Ideal section structure is:
-
-```
-### [Title]
-
-![image/GIF description](image link)
-
-A paragraph or two with a summary and [useful links].
-
-_Discussions:
-[/r/rust](https://reddit.com/r/rust/todo),
-[twitter](https://twitter.com/todo/status/123456)_
-
-[Title]: https://first.link
-[useful links]: https://other.link
-```
-
-If needed, a section can be split into subsections with a "------" delimiter.
--->
-
-### Rust [Roguelike Toolkit][rl-toolkit] and [Roguelike Tutorial][rl-book]
-
-![Minimal pathfinding and FoV example](/assets/newsletter-002/rltk-rs-example-06.gif)
-
-[rltk_rs] by [@herberticus] is a Rust implementation of
-[C++ Roguelike Toolkit][RLTK] ([what is a "roguelike?"][rl]).
-
-It provides all the basic functionality one needs to write a roguelike game,
-mouse support, an embedded resource system, Web Assembly support, and more.
-
-All [examples][rltk-examples] are linked to browser WASM to try.
-
-The back-end uses [glow] to abstract OpenGL between versions.
-API for embedding assets directly into your binary.
-
-If you'd like to see a functional roguelike that uses rltk_rs,
-check out [Rusty Roguelike][rusty-rl].
-
-------
-
-[The Roguelike Tutorial][rl-book] includes more than 20 chapters now
-and continues to grow.
-
-It covers topics from "hello rust" and "what is an ECS?" to adding monsters,
-equipment, nice menus, save/load, multiple levels, bloodstains, particle effects,
-magic mapping scrolls, and more.
-
-The tutorial has Web Assembly links to all examples
-so you can run them in your browser.
-
-[rltk_rs]: https://github.com/thebracket/rltk_rs
-[rl-toolkit]: https://github.com/thebracket/rltk_rs
-[rl-book]: https://bfnightly.bracketproductions.com/rustbook
-[rltk-examples]: https://github.com/thebracket/rltk_rs#examples
-[@herberticus]: https://patreon.com/blackfuture
-[rl]: https://en.wikipedia.org/wiki/Roguelike
-[RLTK]: https://github.com/thebracket/rltk
-[rusty-rl]: https://github.com/thebracket/rustyroguelike
-[glow]: https://github.com/grovesNL/glow
+## Game Updates
 
 ### [Veloren][veloren]
 
@@ -109,24 +47,6 @@ Full weekly devlogs "This Week In Veloren...":
 
 [veloren]: https://veloren.net
 
-### [Godot][godot] and Rust
-
-![Recall Singularity's ship base](/assets/newsletter-002/recall-singularity.jpeg)
-
-[Tom Leys] is working on a "The Recall Singularity" game
-about designing autonomous factory ships and stations
-and this month they published a few posts
-about using [the Godot engine][godot] with Rust:
-
-- ["How I use Rust and Godot to Explore Space"](https://blog.usejournal.com/how-i-use-rust-and-godot-to-explore-space-806bb810e950)
-  \[[/r/godot](https://reddit.com/r/godot/comments/d5qdoy/inspiration_how_i_use_rust_and_godot_to_explore)];
-- ["Gorgeous Godot games in Rust"](https://medium.com/@recallsingularity/gorgeous-godot-games-in-rust-1867c56045e6)
-  \[[/r/rust](https://reddit.com/r/rust_gamedev/comments/d75qfz/gorgeous_godot_games_in_rust)];
-- ["A Basic Godot-Rust Structure"](https://medium.com/@recallsingularity/a-basic-godot-rust-structure-eb855ba07223);
-
-[godot]: https://godotengine.org
-[Tom Leys]: https://twitter.com/RecallSingular1
-
 ### [Zemeroth v0.6][zemeroth-v0-6-text]
 
 ![fighters smash demons in fire and poison clouds](/assets/newsletter-002/zemeroth.png)
@@ -146,108 +66,6 @@ Read the [full devlog post][zemeroth-v0-6-text] or watch [the video version](htt
 [Zemeroth]: https://github.com/ozkriff/zemeroth
 [zemeroth-v0-6-text]: http://ozkriff.games/2019-09-21--devlog-zemeroth-v0-6
 [Zemeroth v0.6]: https://github.com/ozkriff/zemeroth/releases/tag/v0.6.0
-
-### [Use Prebuilt Rooms with Rust Macros for More Interesting Procedural Dungeons][proc_rooms]
-
-![Top-down view on a generated dungeon](/assets/newsletter-002/proc-dungeons.png)
-
-[@whostolemyhat](https://twitter.com/whostolemyhat) published the fourth part
-of their tutorial series on procedural generation with Rust.
-In this tutorial, the room generation is updated so it can pick from a selection
-of pre-built room patterns as well as create the standard empty room.
-
-_Discussions:
-[/r/rust](https://reddit.com/r/rust/comments/d85i8x/make_more_interesting_procedural_dungeons_using)_
-
-[proc_rooms]: https://jamesbaum.co.uk/blether/procedural-generation-prebuilt-rooms-rust-macros
-
-### [EmbarkStudios/texture-synthesis][texture-synthesis]
-
-![Generated textures samples](/assets/newsletter-002/texture-synthesis.jpg)
-
-[Embark] has open-sourced their texture synthesis crate **[texture-synthesis]**.
-It's an example-based non-parametric image generation algorithm
-written in Rust.
-
-[The repo][texture-synthesis] also includes multiple
-code examples along with test images,
-and a compiled binary with a command-line interface
-can be found under the release tab.
-
-Also, see a great long recorded talk
-["More Like This, Please! Texture Synthesis and Remixing from a Single Example"](https://youtu.be/fMbK7PYQux4)
-which explains this technique and the background more in-depth.
-
-Full list of stuff that [Embark] has released so far:
-[embark.rs](http://embark.rs).
-
-_Discussions:
-[twitter](https://twitter.com/anastasiaopara/status/1169594058530066432)_
-
-------
-
-Also,
-
-- [Embark will be sponsoring RustFest in Barcelona this year.](https://twitter.com/AriVanider/status/1171359194336903169)
-- [Embark started hiring new grads](https://embark.games/position/software-engineer-new-grad)
-  \[[twitter](https://twitter.com/AriVanider/status/1173903615498567680)].
-
-[Embark]: https://embark.games
-[texture-synthesis]: https://github.com/EmbarkStudios/texture-synthesis
-
-### [Iced - a Renderer-Agnostic GUI Library][Iced]
-
-[![All widgets tour demo: radio buttons, sliders, debugging view, etc](/assets/newsletter-002/iced.gif)][tour]
-
-Iced is a renderer-agnostic GUI library focused on simplicity and type-safety.
-It was originally born as an attempt at bringing the simplicity of [Elm][elm]
-and The Elm Architecture into [Coffee 2D game engine][coffee].
-
-Features:
-
-- Simple, easy-to-use, renderer-agnostic API;
-- Responsive, flexbox-based layouting;
-- Type-safe, reactive programming model;
-- Lots of built-in widgets and custom widget support.
-
-Check out [the design overview in the repo's README][overview].
-
-_Discussions:
-[/r/rust](https://reddit.com/r/rust/comments/czzjnv/iced_a_rendereragnostic_gui_library)_
-
-[Iced]: https://github.com/hecrj/iced
-[tour]: https://github.com/hecrj/iced/tree/e82e96e6examples#tour
-[elm]: https://elm-lang.org
-[coffee]: https://github.com/hecrj/coffee
-[overview]: https://github.com/hecrj/iced#overview
-
-### [gfx-rs & wgpu-rs: Project Update][gfx-post]
-
-[![gfx-rs rusty logo](/assets/newsletter-002/gfx-logo.png)][gfx-post]
-
-[gfx-rs] is a Rust project aiming to make low-level GPU programming
-portable with low overhead.
-It’s a single Vulkan-like Rust API with multiple backends that implement it:
-Direct3D 12/11, Metal, Vulkan, and even OpenGL.
-
-[wgpu-rs] is a Rust project on top of gfx-rs that provides safety,
-accessibility, and even stronger portability.
-
-- gfx-rs was slimmed down: “magical” deps (like [failure] and [derivative])
-  were removed and it sped up the fresh gfx-hal build by a factor of 8.5X;
-  the “typed” layer of gfx-hal got removed.
-- Backend features were removed from wgpu-rs;
-- An entirely new [swapchain] model was prototyped and implemented.
-
-_Discussions:
-[/r/rust](https://reddit.com/r/rust/comments/dbzxw2/gfxrs_late_2019_project_update)_
-
-[gfx-post]: https://gfx-rs.github.io/2019/10/01/update.html
-[gfx-rs]: https://github.com/gfx-rs/gfx
-[wgpu-rs]: https://github.com/gfx-rs/wgpu-rs
-[failure]: https://github.com/rust-lang-nursery/failure
-[derivative]: https://github.com/mcarton/rust-derivative
-[swapchain]: https://vulkan-tutorial.com/Drawing_a_triangle/Presentation/Swap_chain
 
 ### [Twenty Asteroids][asteroids-itch]
 
@@ -276,41 +94,7 @@ Updates include:
 [devlog-2-text]: https://pum-purum-pum-pum.itch.io/asteroids-like-game/devlog/98842/my-asteroids-like-game-devlog-002
 [devlog-3-text]: https://pum-purum-pum-pum.itch.io/asteroids-like-game/devlog/101357/new-menu-performance-and-abilities-devlog-3
 
-### [Amethyst][amethyst]
-
-![amethyst logo](/assets/newsletter-001/amethyst-logo.png)
-
-[Amethyst][amethyst] is a game engine and tool-set
-for ambitious game developers.
-It enables game developers to make complex games without getting
-into too much trouble, by means of data-driven design
-and the ECS architecture.
-
-Tooling:
-
-- [Amethyst Engine v0.13 was released](https://github.com/amethyst/amethyst/releases/tag/v0.13.0).
-  A new `amethyst_tiles` crate was added and
-  [the Pong tutorial](https://book.amethyst.rs/stable/pong-tutorial/pong-tutorial-06.html)
-  is now complete with the addition of an audio section.
-
-- [Laminar v0.3.1 was released](https://github.com/amethyst/laminar/releases/tag/0.3.1).
-
-- [@_AndreaCatania](https://twitter.com/_AndreaCatania) published
-  an ["Initialize physics world - Amethyst physics tutorial #1"](https://youtube.com/watch?v=XzSKuY9nv7A)
-  video.
-
-- [amethyst-imgui v0.5 is out](https://twitter.com/AmethystEngine/status/1177720011013709824),
-  supporting a beta-version of the new imgui docking feature.
-
-  ![docking widgets demo](/assets/newsletter-002/amethyst-imgui.gif)
-
-- ["How to do a turn-based game with the ECS pattern"](https://community.amethyst.rs/t/classic-turn-based-workflow-how-to/1082/20)
-  post, by [@webshinra](https://twitter.com/webshinra).
-
-- [@valkum](https://github.com/valkum) is
-  [implementing area lights using linearly transformed cosines](https://youtube.com/watch?v=KVpLPInWRWg).
-
-Games:
+### [Amethyst Games][amethyst]
 
 - [Space Shooter v0.1.3](https://github.com/amethyst/space_shooter_rs/releases/tag/v0.1.3)
   by [@carlosupina] introduced a currency system, shop system,
@@ -340,6 +124,92 @@ Games:
 [@mvlabat]: https://twitter.com/mvlabat
 [Azriel Hoh]: https://twitter.com/im_azriel
 [@a5huynh]: https://github.com/a5huynh
+
+### Other Game News
+
+- [@dooskington] published their 5th devlog: ["Stats And Skills"](https://dooskington.com/dev-log/5);
+
+  ![Stats and skill demo](/assets/newsletter-002/dooskington-devlog-5-screenshot.jpeg)
+
+- [Alex Butler] continues to polish their "[Robo Instructus]" game;
+  [1.8, 1.9, 1.10 and 1.11 versions were released][robo-news]:
+  official macOS support, bugfixes, and better translations.
+
+  ![Robo Instructus gameplay screenshot with full UI](/assets/newsletter-002/robo.jpg)
+
+- [@Wraithan got tower placement working](https://twitter.com/Wraithan/status/1172982932341805056)
+  in their "WraithDefense" tower defence game;
+  the development process [is streamed on Twitch](https://twitch.tv/wraithan).
+
+  ![Towers on the map](/assets/newsletter-002/wraith-def.jpeg)
+
+- [@oliviff] released [v0.0.1][tennis-1] and [v0.0.2][tennis-2] updates
+  for [Tennis Academy][tennis]:
+  simplified gameplay flow, areas, cash flow, animations,
+  players' state visual cues and more.
+
+  ![Tennis Academy v0.0.2 Demo](/assets/newsletter-002/tennis-academy.gif)
+
+- The [Garden] game is
+  [under active development again](https://twitter.com/logicsoup/status/1174259591250661379).
+  Devlogs [are coming soon!](https://twitter.com/logicsoup/status/1166469607412158464)
+
+  ![a screenshot from Garden showing a build and some trees](/assets/newsletter-002/garden.jpeg)
+
+- ["Live"][live] by [@pincfloit] - a small command-line interface survival game
+  \[[twitter](https://twitter.com/pincfloit/status/1173965160089837568),
+  [github](https://github.com/codegram/live-rust)].
+
+  [![Live demo](/assets/newsletter-002/live-cli.png)][live]
+
+- [@seratonik shared a GIF with omni-directional shadows][shadows-tweet]:
+
+  [![shadows demo](/assets/newsletter-002/shadows.gif)][shadows-tweet]
+
+- [@MrVallentin] tweeted a bunch of updates about their voxel engine:
+  [falling cubes](https://twitter.com/MrVallentin/status/1170164060542918656),
+  [text rendering](https://twitter.com/MrVallentin/status/1170515003113451520),
+  [60M cubes generated in the blink of an eye](https://twitter.com/MrVallentin/status/1171773622039515136),
+  [remeshing](https://twitter.com/MrVallentin/status/1171774889335951361),
+  [retrospective video](https://twitter.com/MrVallentin/status/1174493952894033920),
+  [saving and loading](https://twitter.com/MrVallentin/status/1176996637681623042),
+  and some more.
+
+  ![screenshot of the WIP terrain generation](/assets/newsletter-002/vallentin-voxel-terrain.jpeg)
+
+- [@Mistodon] got their entire game ["Disconnect"] to [render in the terminal][disconnect-video];
+
+  [![Disconnect in the terminal](/assets/newsletter-002/disconnect-console.png)][disconnect-video]
+
+## Library & Tooling updates
+
+### [gfx-rs & wgpu-rs: Project Update][gfx-post]
+
+[![gfx-rs rusty logo](/assets/newsletter-002/gfx-logo.png)][gfx-post]
+
+[gfx-rs] is a Rust project aiming to make low-level GPU programming
+portable with low overhead.
+It’s a single Vulkan-like Rust API with multiple backends that implement it:
+Direct3D 12/11, Metal, Vulkan, and even OpenGL.
+
+[wgpu-rs] is a Rust project on top of gfx-rs that provides safety,
+accessibility, and even stronger portability.
+
+- gfx-rs was slimmed down: “magical” deps (like [failure] and [derivative])
+  were removed and it sped up the fresh gfx-hal build by a factor of 8.5X;
+  the “typed” layer of gfx-hal got removed.
+- Backend features were removed from wgpu-rs;
+- An entirely new [swapchain] model was prototyped and implemented.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/dbzxw2/gfxrs_late_2019_project_update)_
+
+[gfx-post]: https://gfx-rs.github.io/2019/10/01/update.html
+[gfx-rs]: https://github.com/gfx-rs/gfx
+[wgpu-rs]: https://github.com/gfx-rs/wgpu-rs
+[failure]: https://github.com/rust-lang-nursery/failure
+[derivative]: https://github.com/mcarton/rust-derivative
+[swapchain]: https://vulkan-tutorial.com/Drawing_a_triangle/Presentation/Swap_chain
 
 ### [Mun][mun] and Hot Reloading Experiments
 
@@ -404,33 +274,187 @@ _Discussions:
 [mun]: https://mun-lang.org
 [hot-reload-demo]: https://reddit.com/r/rust/comments/cywwtv/progress_on_hot_reloading_experimentation_in_rust
 
-### Other News
+### Rust [Roguelike Toolkit][rl-toolkit] and [Roguelike Tutorial][rl-book]
 
-<!--
-Special section for other news (up to 15) in a one-liner format:
-- Main link,
-- short summary,
-- optional discussion links (in square brackets),
-- optional small image.
--->
+![Minimal pathfinding and FoV example](/assets/newsletter-002/rltk-rs-example-06.gif)
+
+[rltk_rs] by [@herberticus] is a Rust implementation of
+[C++ Roguelike Toolkit][RLTK] ([what is a "roguelike?"][rl]).
+
+It provides all the basic functionality one needs to write a roguelike game,
+mouse support, an embedded resource system, Web Assembly support, and more.
+
+All [examples][rltk-examples] are linked to browser WASM to try.
+
+The back-end uses [glow] to abstract OpenGL between versions.
+API for embedding assets directly into your binary.
+
+If you'd like to see a functional roguelike that uses rltk_rs,
+check out [Rusty Roguelike][rusty-rl].
+
+------
+
+[The Roguelike Tutorial][rl-book] includes more than 20 chapters now
+and continues to grow.
+
+It covers topics from "hello rust" and "what is an ECS?" to adding monsters,
+equipment, nice menus, save/load, multiple levels, bloodstains, particle effects,
+magic mapping scrolls, and more.
+
+The tutorial has Web Assembly links to all examples
+so you can run them in your browser.
+
+[rltk_rs]: https://github.com/thebracket/rltk_rs
+[rl-toolkit]: https://github.com/thebracket/rltk_rs
+[rl-book]: https://bfnightly.bracketproductions.com/rustbook
+[rltk-examples]: https://github.com/thebracket/rltk_rs#examples
+[@herberticus]: https://patreon.com/blackfuture
+[rl]: https://en.wikipedia.org/wiki/Roguelike
+[RLTK]: https://github.com/thebracket/rltk
+[rusty-rl]: https://github.com/thebracket/rustyroguelike
+[glow]: https://github.com/grovesNL/glow
+
+### [EmbarkStudios/texture-synthesis][texture-synthesis]
+
+![Generated textures samples](/assets/newsletter-002/texture-synthesis.jpg)
+
+[Embark] has open-sourced their texture synthesis crate **[texture-synthesis]**.
+It's an example-based non-parametric image generation algorithm
+written in Rust.
+
+[The repo][texture-synthesis] also includes multiple
+code examples along with test images,
+and a compiled binary with a command-line interface
+can be found under the release tab.
+
+Also, see a great long recorded talk
+["More Like This, Please! Texture Synthesis and Remixing from a Single Example"](https://youtu.be/fMbK7PYQux4)
+which explains this technique and the background more in-depth.
+
+Full list of stuff that [Embark] has released so far:
+[embark.rs](http://embark.rs).
+
+_Discussions:
+[twitter](https://twitter.com/anastasiaopara/status/1169594058530066432)_
+
+------
+
+Also,
+
+- [Embark will be sponsoring RustFest in Barcelona this year.](https://twitter.com/AriVanider/status/1171359194336903169)
+- [Embark started hiring new grads](https://embark.games/position/software-engineer-new-grad)
+  \[[twitter](https://twitter.com/AriVanider/status/1173903615498567680)].
+
+[Embark]: https://embark.games
+[texture-synthesis]: https://github.com/EmbarkStudios/texture-synthesis
+
+### [Iced - a Renderer-Agnostic GUI Library][Iced]
+
+[![All widgets tour demo: radio buttons, sliders, debugging view, etc](/assets/newsletter-002/iced.gif)][tour]
+
+Iced is a renderer-agnostic GUI library focused on simplicity and type-safety.
+It was originally born as an attempt at bringing the simplicity of [Elm][elm]
+and The Elm Architecture into [Coffee 2D game engine][coffee].
+
+Features:
+
+- Simple, easy-to-use, renderer-agnostic API;
+- Responsive, flexbox-based layouting;
+- Type-safe, reactive programming model;
+- Lots of built-in widgets and custom widget support.
+
+Check out [the design overview in the repo's README][overview].
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/czzjnv/iced_a_rendereragnostic_gui_library)_
+
+[Iced]: https://github.com/hecrj/iced
+[tour]: https://github.com/hecrj/iced/tree/e82e96e6examples#tour
+[elm]: https://elm-lang.org
+[coffee]: https://github.com/hecrj/coffee
+[overview]: https://github.com/hecrj/iced#overview
+
+### [Amethyst][amethyst]
+
+![amethyst logo](/assets/newsletter-001/amethyst-logo.png)
+
+[Amethyst][amethyst] is a game engine and tool-set
+for ambitious game developers.
+It enables game developers to make complex games without getting
+into too much trouble, by means of data-driven design
+and the ECS architecture.
+
+Tooling:
+
+- [Amethyst Engine v0.13 was released](https://github.com/amethyst/amethyst/releases/tag/v0.13.0).
+  A new `amethyst_tiles` crate was added and
+  [the Pong tutorial](https://book.amethyst.rs/stable/pong-tutorial/pong-tutorial-06.html)
+  is now complete with the addition of an audio section.
+
+- [Laminar v0.3.1 was released](https://github.com/amethyst/laminar/releases/tag/0.3.1).
+
+- [@_AndreaCatania](https://twitter.com/_AndreaCatania) published
+  an ["Initialize physics world - Amethyst physics tutorial #1"](https://youtube.com/watch?v=XzSKuY9nv7A)
+  video.
+
+- [amethyst-imgui v0.5 is out](https://twitter.com/AmethystEngine/status/1177720011013709824),
+  supporting a beta-version of the new imgui docking feature.
+
+  ![docking widgets demo](/assets/newsletter-002/amethyst-imgui.gif)
+
+- ["How to do a turn-based game with the ECS pattern"](https://community.amethyst.rs/t/classic-turn-based-workflow-how-to/1082/20)
+  post, by [@webshinra](https://twitter.com/webshinra).
+
+- [@valkum](https://github.com/valkum) is
+  [implementing area lights using linearly transformed cosines](https://youtube.com/watch?v=KVpLPInWRWg).
+
+### [Godot][godot] and Rust
+
+![Recall Singularity's ship base](/assets/newsletter-002/recall-singularity.jpeg)
+
+[Tom Leys] is working on a "The Recall Singularity" game
+about designing autonomous factory ships and stations
+and this month they published a few posts
+about using [the Godot engine][godot] with Rust:
+
+- ["How I use Rust and Godot to Explore Space"](https://blog.usejournal.com/how-i-use-rust-and-godot-to-explore-space-806bb810e950)
+  \[[/r/godot](https://reddit.com/r/godot/comments/d5qdoy/inspiration_how_i_use_rust_and_godot_to_explore)];
+- ["Gorgeous Godot games in Rust"](https://medium.com/@recallsingularity/gorgeous-godot-games-in-rust-1867c56045e6)
+  \[[/r/rust](https://reddit.com/r/rust_gamedev/comments/d75qfz/gorgeous_godot_games_in_rust)];
+- ["A Basic Godot-Rust Structure"](https://medium.com/@recallsingularity/a-basic-godot-rust-structure-eb855ba07223);
+
+[godot]: https://godotengine.org
+[Tom Leys]: https://twitter.com/RecallSingular1
+
+### [Use Prebuilt Rooms with Rust Macros for More Interesting Procedural Dungeons][proc_rooms]
+
+![Top-down view on a generated dungeon](/assets/newsletter-002/proc-dungeons.png)
+
+[@whostolemyhat](https://twitter.com/whostolemyhat) published the fourth part
+of their tutorial series on procedural generation with Rust.
+In this tutorial, the room generation is updated so it can pick from a selection
+of pre-built room patterns as well as create the standard empty room.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/d85i8x/make_more_interesting_procedural_dungeons_using)_
+
+[proc_rooms]: https://jamesbaum.co.uk/blether/procedural-generation-prebuilt-rooms-rust-macros
+
+### Other Library & Tooling News
 
 - [**uset**](https://crates.io/crates/uset) - an implementation of sets and maps
   designed for small and medium number of stored elements
   which change quickly - i.e. in a dynamically evolving scene in a video game.
 
-- [@dooskington] published their 5th devlog: ["Stats And Skills"](https://dooskington.com/dev-log/5);
-
-  ![Stats and skill demo](/assets/newsletter-002/dooskington-devlog-5-screenshot.jpeg)
+- **[blend]** - a parser and runtime for [Blender][blender]'s .blend files
+  that can be used to read (almost) everything inside the file:
+  from mesh data, materials, cameras and animations to user preferences,
+  window locations and render settings
+  \[[/r/rust](https://reddit.com/r/rust/comments/d70lu6/blend_a_parser_and_runtime_for_blenders_blend)].
 
 - **[cubism-rs]** (Rust bindings for [Live2D Cubism]) got renderer support for [Piston2D].
 
   ![Live2D Piston demo](/assets/newsletter-002/live2d-cubism.png)
-
-- [Alex Butler] continues to polish their "[Robo Instructus]" game;
-  [1.8, 1.9, 1.10 and 1.11 versions were released][robo-news]:
-  official macOS support, bugfixes, and better translations.
-
-  ![Robo Instructus gameplay screenshot with full UI](/assets/newsletter-002/robo.jpg)
 
 - ["Github Actions CI with Rust and SDL2"] -
   [Alexandru Ene] wrote a post about CI with [github actions]
@@ -438,28 +462,17 @@ Special section for other news (up to 15) in a one-liner format:
 
   ![Github Actions with SDL2 screencast demo](/assets/newsletter-002/github_actions_ci.gif)
 
-- [@Wraithan got tower placement working](https://twitter.com/Wraithan/status/1172982932341805056)
-  in their "WraithDefense" tower defence game;
-  the development process [is streamed on Twitch](https://twitch.tv/wraithan).
+- [@phaazon] released [luminance] 0.33 that
+  [brings geometry instancing support](https://reddit.com/r/rust/comments/d0us73/announcement_luminance033);
+  also, the third wiki chapter ["Wavefront .obj loader"][luminance-chapter]
+  was released.
 
-  ![Towers on the map](/assets/newsletter-002/wraith-def.jpeg)
+  ![loaded and lighted Suzanne model](/assets/newsletter-002/suzanne_lit.png)
 
-- [@oliviff] released [v0.0.1][tennis-1] and [v0.0.2][tennis-2] updates
-  for [Tennis Academy][tennis]:
-  simplified gameplay flow, areas, cash flow, animations,
-  players' state visual cues and more.
+- [phaazon/spline-editor] - a simple spline editor
+  for the [splines crate][splines] written using [luminance].
 
-  ![Tennis Academy v0.0.2 Demo](/assets/newsletter-002/tennis-academy.gif)
-
-- The [Garden] game is
-  [under active development again](https://twitter.com/logicsoup/status/1174259591250661379).
-  Devlogs [are coming soon!](https://twitter.com/logicsoup/status/1166469607412158464)
-
-  ![a screenshot from Garden showing a build and some trees](/assets/newsletter-002/garden.jpeg)
-
-- [@seratonik shared a GIF with omni-directional shadows][shadows-tweet]:
-
-  [![shadows demo](/assets/newsletter-002/shadows.gif)][shadows-tweet]
+  ![complex spline in the editor](/assets/newsletter-002/splines.png)
 
 - [@magistratic] gave a talk on the Doom's [BSP] rendering engine using their
   Rust implementation as a demonstration at RevolverConf:
@@ -484,39 +497,6 @@ Special section for other news (up to 15) in a one-liner format:
 
   ![XPrite drawing demo](/assets/newsletter-002/xprite-demo.gif)
 
-- ["Live"][live] by [@pincfloit] - a small command-line interface survival game
-  \[[twitter](https://twitter.com/pincfloit/status/1173965160089837568),
-  [github](https://github.com/codegram/live-rust)].
-
-  [![Live demo](/assets/newsletter-002/live-cli.png)][live]
-
-- [@phaazon] released [luminance] 0.33 that
-  [brings geometry instancing support](https://reddit.com/r/rust/comments/d0us73/announcement_luminance033);
-  also, the third wiki chapter ["Wavefront .obj loader"][luminance-chapter]
-  was released.
-
-  ![loaded and lighted Suzanne model](/assets/newsletter-002/suzanne_lit.png)
-
-- [phaazon/spline-editor] - a simple spline editor
-  for the [splines crate][splines] written using [luminance].
-
-  ![complex spline in the editor](/assets/newsletter-002/splines.png)
-
-- [@MrVallentin] tweeted a bunch of updates about their voxel engine:
-  [falling cubes](https://twitter.com/MrVallentin/status/1170164060542918656),
-  [text rendering](https://twitter.com/MrVallentin/status/1170515003113451520),
-  [60M cubes generated in the blink of an eye](https://twitter.com/MrVallentin/status/1171773622039515136),
-  [remeshing](https://twitter.com/MrVallentin/status/1171774889335951361),
-  [retrospective video](https://twitter.com/MrVallentin/status/1174493952894033920),
-  [saving and loading](https://twitter.com/MrVallentin/status/1176996637681623042),
-  and some more.
-
-  ![screenshot of the WIP terrain generation](/assets/newsletter-002/vallentin-voxel-terrain.jpeg)
-
-- [@Mistodon] got their entire game ["Disconnect"] to [render in the terminal][disconnect-video];
-
-  [![Disconnect in the terminal](/assets/newsletter-002/disconnect-console.png)][disconnect-video]
-
 - **[minimum]** by ([@aclysma]) is a game development framework that provides
   basic tooling and a content authoring workflow;
   this month, rendering of draggable shapes in the editor and rotation/scaling were added
@@ -535,11 +515,10 @@ Special section for other news (up to 15) in a one-liner format:
 
   ![Deios logo ant promo pic](/assets/newsletter-002/deios.jpg)
 
-- **[blend]** - a parser and runtime for [Blender][blender]'s .blend files
-  that can be used to read (almost) everything inside the file:
-  from mesh data, materials, cameras and animations to user preferences,
-  window locations and render settings
-  \[[/r/rust](https://reddit.com/r/rust/comments/d70lu6/blend_a_parser_and_runtime_for_blenders_blend)].
+<!--
+The following links block should be split into games and tools blocks,
+but I'm too tired to this atm and it will be rendered correctly anyway.
+-->
 
 [Alexandru Ene]: https://twitter.com/_AlexEne_
 ["Github Actions CI with Rust and SDL2"]: https://alexene.dev/2019/09/04/Github-actions-CI-rust-SDL2.html
