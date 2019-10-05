@@ -134,17 +134,13 @@ about using [the Godot engine][godot] with Rust:
 [godot]: https://godotengine.org
 [Tom Leys]: https://twitter.com/RecallSingular1
 
-### Zemeroth v0.6
+### [Zemeroth v0.6][zemeroth-v0-6-text]
 
-![TODO: local img, desc](https://ozkriff.games/2019-09-21--devlog-zemeroth-v0-6/title-screenshot.png)
+![fighters smash demons in fire and poison clouds](/assets/newsletter-002/zemeroth.png)
 
-<!-- **TODO**: img, description, links -->
+[Zemeroth] is a minimalistic 2D turn-based tactical game.
 
-Zemeroth v0.6 is released!
-
-- Text devlog: <http://ozkriff.games/2019-09-21--devlog-zemeroth-v0-6>
-- YouTube: <http://youtu.be/6tZByt4LBlU>
-
+This month [Zemeroth v0.6] was released.
 Main features of this release are:
 
 - renown and fighter upgrades,
@@ -152,12 +148,11 @@ Main features of this release are:
 - sprite frames and flips,
 - status effect icons.
 
-<!-- Main features of this release are: renown and fighter upgrades, possessions, sprite frames and flips, and status effect icons. -->
+Read the [full devlog post][zemeroth-v0-6-text] or watch [the video version](http://youtu.be/6tZByt4LBlU).
 
-**TODO**: "About Devlog Videos"
-
-_Discussions:
-[/r/rust](https://reddit.com/r/rust/comments/d7avev/zemeroth_v06_renown_upgrades_sprite_frames)_
+[Zemeroth]: https://github.com/ozkriff/zemeroth
+[zemeroth-v0-6-text]: http://ozkriff.games/2019-09-21--devlog-zemeroth-v0-6
+[Zemeroth v0.6]: https://github.com/ozkriff/zemeroth/releases/tag/v0.6.0
 
 ### [Use Prebuilt Rooms with Rust Macros for More Interesting Procedural Dungeons][proc_rooms]
 
