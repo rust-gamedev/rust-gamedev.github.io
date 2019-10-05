@@ -47,55 +47,45 @@ _Discussions:
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
-### [Roguelike Toolkit](TODO) 3.1 & [Rust Roguelike Tutorial](https://bfnightly.bracketproductions.com/rustbook)
+### Rust [Roguelike Toolkit][rl-toolkit] and [Roguelike Tutorial][rl-book]
 
-![TODO: local, description](https://raw.githubusercontent.com/thebracket/rltk_rs/master/screenshots/RLTK_RS_EXAMPLE06.gif)
+![Minimal pathfinding and FoV example](/assets/newsletter-002/rltk-rs-example-06.gif)
 
-Chapter 11 (save/load) and Chapter 12 (delving deeper) of my
-Rust Roguelike tutorial are now live.
-Now with the correct hashtags, sorry about that.
+[rltk_rs] by [@herberticus] is a Rust implementation of
+[C++ Roguelike Toolkit][RLTK] ([what is a "roguelike?"][rl]).
 
-<https://bfnightly.bracketproductions.com/rustbook/chapter_12.html>
+It provides all the basic functionality one needs to write a roguelike game,
+mouse support, an embedded resource system and Web Assembly support, and more.
 
-My Rust Roguelike tutorial has grown to 20 chapters!
-From "hello rust" and "what is an ECS?" to adding monsters, equipment,
-multiple levels, bloodstains, particle effects and magic mapping scrolls.
+All [examples][rltk-examples] are linked to browser WASM to try.
 
-[twitter](https://twitter.com/herberticus/status/1172202143253708800)
+The back-end uses [glow] to abstract OpenGL between versions.
+API for embedding assets directly into your binary.
 
-Chapter 21 of the Rust Roguelike Tutorial uses it to make
-the main menu less boring!
-
-<http://bfnightly.bracketproductions.com/rustbook/chapter_21.html>
+If you'd like to see a functional roguelike that uses rltk_rs,
+check out [Rusty Roguelike][rusty-rl].
 
 ------
 
-<https://github.com/thebracket/rltk_rs>
+[The Roguelike Tutorial][rl-book] includes more than 20 chapters now
+and continues to grow.
 
-(See example GIFs in the readme)
+It covers topics from "hello rust" and "what is an ECS?" to adding monsters,
+equipment, nice menus, save/load, multiple levels, bloodstains, particle effects,
+magic mapping scrolls, and more.
 
-TODO: works with WASM
+The tutorial has Web Assembly links to all examples
+so you can run them in your browser.
 
-RLTK_RS, my Roguelike Toolkit Library for Rust hit version 0.3.0.
-An embedded resource system, and adds Web Assembly (WASM32) support.
-Examples are linked to browser WASM to try (Macs may be a problem)
-
-<https://old.reddit.com/r/roguelikedev/comments/d737v2/sharing_saturday_277/f0xdcj5/>
-
-------
-
-The Rust Roguelike Tutorial has been updated to the latest RLTK version,
-and now has **Web Assembly links to all examples** so you can run them
-in your browser (except on Apple, for now).
-
-**TODO**:
-
-- <https://reddit.com/user/thebracket/comments>
-- <https://reddit.com/r/rust/comments/d1lkvf/whats_everyone_working_on_this_week_372019/ezqomkx>
-- <https://reddit.com/r/roguelikedev/comments/d737v2/sharing_saturday_277/f0xdcj5>
-
-<!-- **TODO**: _find and add a Reddit link_ -->
-<!-- **TODO**: _choose on of the Twitter links_ -->
+[rltk_rs]: https://github.com/thebracket/rltk_rs
+[rl-toolkit]: https://github.com/thebracket/rltk_rs
+[rl-book]: https://bfnightly.bracketproductions.com/rustbook
+[rltk-examples]: https://github.com/thebracket/rltk_rs#examples
+[@herberticus]: https://patreon.com/blackfuture
+[rl]: https://en.wikipedia.org/wiki/Roguelike
+[RLTK]: https://github.com/thebracket/rltk
+[rusty-rl]: https://github.com/thebracket/rustyroguelike
+[glow]: https://github.com/grovesNL/glow
 
 ### [Veloren][veloren]
 
