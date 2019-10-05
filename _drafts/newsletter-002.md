@@ -172,7 +172,7 @@ Main features of this release are:
 _Discussions:
 [/r/rust](https://reddit.com/r/rust/comments/d7avev/zemeroth_v06_renown_upgrades_sprite_frames)_
 
-### [Use prebuilt rooms with Rust macros for more interesting procedural dungeons][proc_rooms]
+### [Use Prebuilt Rooms with Rust Macros for More Interesting Procedural Dungeons][proc_rooms]
 
 ![Top-down view on a generated dungeon](/assets/newsletter-002/proc-dungeons.png)
 
@@ -491,36 +491,68 @@ Games:
   **TODO**: twitter, reddit?
 -->
 
-### Hot Reloading (TODO)
+### [Mun][mun] and Hot Reloading Experiments
 
-I just posted a progress update of hot reloading in #rustlang  that @AbbeyGamesNL's Bas and I are working on. Go check it out!
+![Mun text logo](/assets/newsletter-002/mun-logo.png)
 
-<https://twitter.com/wodannson/status/1168671379392258049>
-<https://reddit.com/r/rust/comments/cywwtv/progress_on_hot_reloading_experimentation_in_rust>
+[Mun][mun] is a scripting language for gamedev
+focused on quick iteration times that is written in Rust.
 
-@Wodann:
-Progress of my experimentation with hot reloading in Rust. The video shows:
+Mun's pillars:
 
-- Catching and logging of errors (e.g. type mismatch)
-- Hot reloading of a shared library's symbols (used for reflection)
-- Hot reloading of method logic
-- Runtime type / method reflection
-- Runtime invokable methods
+- Hot Reloading.
+  Mun natively supports hot reloading - the process of changing
+  code and resources while an app is running -
+  on all target platforms and consoles with marginal runtime overhead.
+  Its runtime has useful error messages,
+  and can easily be embedded into other languages.
+- Static Typing.
+  Mun's type system eliminates an entire class of runtime errors
+  and provides powerful IDE integration with
+  auto-completion and refactoring tools allowing developers
+  to focus on writing code.
+- Performance.
+  Mun uses LLVM to compile to machine code that can be natively executed
+  on any target platform, guaranteeing the best possible runtime performance.
 
-The error message still reads "Found: ?", but obviously this will change to "Found: f32" in the future.
+The driving force behind the development of Mun is natively supported
+hot reloading for functions and data.
+As such, the language and its syntax will keep growing at the rate
+in which hot reloading-supported semantics is added.
+Currently, the language looks like this:
 
-------
+```rust
+fn main() {
+    let sum = add(a, b);
 
-I just open sourced our #rustlang hot reloading experimentation. It's a first step towards a scripting language focused on quick iteration times for #gamedev. Feel free to study and use the code under the MIT or Apache licenses. <https://github.com/mun-lang/runtime> @rust_gamedev @rustlang
+    // Comments: Mun natively supports bool, float, and int
+    let is_true = true;
+    let var: float = 0.5;
+}
 
-<https://twitter.com/wodannson/status/1173482204565057536>
-<https://reddit.com/r/rust/comments/d4wngp/released_source_of_hot_reloading_experimentation>
+// The order of function definitions doesn't matter
+fn add(a: int, b: int): int {
+    a + b
+}
+```
 
-------
+The source code of the project
+[is available on GitHub](https://github.com/mun-lang/mun)
+under the MIT or Apache licenses.
 
-Remco: After showing off #hotreloading in #rustlang over the past months, we just launched a website with more information at <http://mun-lang.org> . #munlang is a programming language empowering creation through iteration - written in Rust. Go check it out! #gamedev @rust_gamedev
+Mun's runtime is implemented in Rust.
+Check out [a GIF demo of the Rust hot reloading functionality][hot-reload-demo]
+that shows:
 
-<https://twitter.com/wodannson/status/1178408744239161345>
+- Catching and logging of errors (e.g. type mismatch),
+- hot reloading of a shared library's symbols (used for reflection) and method logic,
+- runtime invocable methods and type/method reflection.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/d4wngp/released_source_of_hot_reloading_experimentation)_
+
+[mun]: https://mun-lang.org
+[hot-reload-demo]: https://reddit.com/r/rust/comments/cywwtv/progress_on_hot_reloading_experimentation_in_rust
 
 ### Other News
 
