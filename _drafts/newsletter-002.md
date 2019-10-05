@@ -48,7 +48,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 [C++ Roguelike Toolkit][RLTK] ([what is a "roguelike?"][rl]).
 
 It provides all the basic functionality one needs to write a roguelike game,
-mouse support, an embedded resource system and Web Assembly support, and more.
+mouse support, an embedded resource system, Web Assembly support, and more.
 
 All [examples][rltk-examples] are linked to browser WASM to try.
 
@@ -151,9 +151,9 @@ Read the [full devlog post][zemeroth-v0-6-text] or watch [the video version](htt
 
 ![Top-down view on a generated dungeon](/assets/newsletter-002/proc-dungeons.png)
 
-[@whostolemyhat](https://twitter.com/whostolemyhat) published fourth part
-of their series of tutorials on procedural generation with Rust.
-In this tutorial, the room generation is updated so it can also pick from a selection
+[@whostolemyhat](https://twitter.com/whostolemyhat) published the fourth part
+of their tutorial series on procedural generation with Rust.
+In this tutorial, the room generation is updated so it can pick from a selection
 of pre-built room patterns as well as create the standard empty room.
 
 _Discussions:
@@ -652,7 +652,7 @@ and some JS glueing things together.
 The history of the game and the development process are documented in a great
 **["Making Sandspiel"](https://maxbittker.com/making-sandspiel)** blog post.
 
-[The source code is aviable on GitHub](https://github.com/MaxBittker/sandspiel).
+[The source code is available on GitHub](https://github.com/MaxBittker/sandspiel).
 
 The game's community is still active: check
 [@sandspiel_feed feed of uploads](https://twitter.com/sandspiel_feed).
