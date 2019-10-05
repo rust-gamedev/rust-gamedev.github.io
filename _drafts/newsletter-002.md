@@ -245,7 +245,9 @@ Direct3D 12/11, Metal, Vulkan, and even OpenGL.
 [wgpu-rs] is a Rust project on top of gfx-rs that provides safety,
 accessibility, and even stronger portability.
 
-- gfx-rs was slimmed down: “magical” deps (like [failure] and [derivative]) were removed and it sped up the fresh gfx-hal build by a factor of 8.5X; the “typed” layer of gfx-hal got removed.
+- gfx-rs was slimmed down: “magical” deps (like [failure] and [derivative])
+  were removed and it sped up the fresh gfx-hal build by a factor of 8.5X;
+  the “typed” layer of gfx-hal got removed.
 - Backend features were removed from wgpu-rs;
 - An entirely new [swapchain] model was prototyped and implemented.
 
@@ -288,183 +290,72 @@ Demo builds are [available for patrons](https://patreon.com/vladzhukov).
 [devlog-2-text]: https://pum-purum-pum-pum.itch.io/asteroids-like-game/devlog/98842/my-asteroids-like-game-devlog-002
 [devlog-3-text]: https://pum-purum-pum-pum.itch.io/asteroids-like-game/devlog/101357/new-menu-performance-and-abilities-devlog-3
 
-### Amethyst
+### [Amethyst][amethyst]
+
+**TODO**: _hard wrap long lines!_
 
 ![amethyst logo](/assets/newsletter-001/amethyst-logo.png)
 
+[Amethyst][amethyst] is a game engine and tool-set
+for ambitious game developers.
+It enables game developers to make complex games without getting
+into too much trouble, by means of a data-driven design
+and the ECS architecture.
+
 Tooling:
 
-- Amethyst Engine v0.13 was released.
-  A new `amethyst_tiles` crate was added
-  and the Pong tutorial is now complete with the addition of an audio section.
-  <https://github.com/amethyst/amethyst/releases/tag/v0.13.0>
-  <https://book.amethyst.rs/stable/pong-tutorial/pong-tutorial-06.html>
+- [Amethyst Engine v0.13 was released](https://github.com/amethyst/amethyst/releases/tag/v0.13.0).
+  A new `amethyst_tiles` crate was added and
+  [the Pong tutorial](https://book.amethyst.rs/stable/pong-tutorial/pong-tutorial-06.html)
+  is now complete with the addition of an audio section.
 
-- Laminar v0.3.1
-  <https://github.com/amethyst/laminar/releases/tag/0.3.1>
+- [Laminar v0.3.1 was released](https://github.com/amethyst/laminar/releases/tag/0.3.1).
 
-- [@_AndreaCatania](https://twitter.com/_AndreaCatania) Initialize physics world - Amethyst physics tutorial #1
-  <https://youtube.com/watch?v=XzSKuY9nv7A>
+- [@_AndreaCatania](https://twitter.com/_AndreaCatania) published
+  an ["Initialize physics world - Amethyst physics tutorial #1"](https://youtube.com/watch?v=XzSKuY9nv7A)
+  video.
 
-- [amethyst-imgui v0.5 is out](https://twitter.com/AmethystEngine/status/1177720011013709824), supporting a beta-version of the new imgui docking feature.
+- [amethyst-imgui v0.5 is out](https://twitter.com/AmethystEngine/status/1177720011013709824),
+  supporting a beta-version of the new imgui docking feature.
 
-- [How to do a turn-based game with the ECS pattern](https://community.amethyst.rs/t/classic-turn-based-workflow-how-to/1082/20), by [@webshinra](https://twitter.com/webshinra)
+  ![docking widgets demo](/assets/newsletter-002/amethyst-imgui.gif)
 
-- [@valkum](https://github.com/valkum) is implementing area lights using linearly transformed cosines.
-  <https://www.youtube.com/watch?v=KVpLPInWRWg>
+- ["How to do a turn-based game with the ECS pattern"](https://community.amethyst.rs/t/classic-turn-based-workflow-how-to/1082/20)
+  post, by [@webshinra](https://twitter.com/webshinra).
+
+- [@valkum](https://github.com/valkum) is
+  [implementing area lights using linearly transformed cosines](https://youtube.com/watch?v=KVpLPInWRWg).
 
 Games:
 
-- Space Shooter v0.1.2 by [@carlosupina](https://twitter.com/carlosupina) introduced a currency system, shop system and sound effects.
+- [Space Shooter v0.1.3](https://github.com/amethyst/space_shooter_rs/releases/tag/v0.1.3)
+  by [@carlosupina] introduced a currency system, shop system
+  and sound effects: [watch the devlog video][space-shooter-vlog].
 
-  <https://github.com/amethyst/space_shooter_rs/releases/tag/v0.1.3>
-  <https://youtube.com/watch?v=MmdUrZzuGfw>
+  [![shmap gameplay sample](/assets/newsletter-002/space-shooter.gif)][space-shooter-vlog]
 
-  ![TODO: local, desc](https://i.redd.it/qdjp3fznaoo31.gif)
+- ["Stabman", by Noah2610](https://github.com/Noah2610/LD44).
 
-- Stabman, by Noah2610
+  ![Stabman in the beginning of the overworld level](/assets/newsletter-002/stabman-overworld.png)
 
-  <https://github.com/Noah2610/LD44>
+- [@mvlabat] is [working on interpolation in his multiplayer prototype (video)](https://youtu.be/xJm6cI_XmT4).
 
-  ![TODO: desc, local](https://raw.githubusercontent.com/Noah2610/LD44/master/screenshots/overworld.png)
+- [@a5huynh] got [3D pathing working (video)](https://youtu.be/STWQRTxnhRo).
 
-- [@mvlabat](https://twitter.com/mvlabat) is working on interpolation in his multiplayer prototype.
+- [Azriel Hoh] released [a major new devblog update titled "Focus!"](https://azriel.im/will/2019/09/27/focus).
 
-  <https://youtu.be/xJm6cI_XmT4>
+  ![bots attack](/assets/newsletter-002/rox_clone_attack.png)
 
-- [@a5huynh](https://github.com/a5huynh) got 3D pathing working
+- [@webshinra](https://twitter.com/Webshinra) made progress with raycasted FOV in their hexagonal game.
 
-  <https://youtu.be/STWQRTxnhRo>
+  ![hexagonal map with two mechs, paths and visually blocked tiles](/assets/newsletter-002/hex-fov.png)
 
-- Azriel Hoh released a major new devblog update titled "Focus!"
-
-  <https://azriel.im/will/2019/09/27/focus>
-
-  <https://youtube.com/watch?v=JOZ9RiCFzdA>
-
-- @webshinra made progress with raycasted FOV
-
-  ![TODO: local, desc](https://cdn.discordapp.com/attachments/481072222392418314/628558650339754004/Screenshot_20191001_130327.png)
-
-- [@Webshinra shared a small update about their hexagonal game](https://twitter.com/Webshinra/status/1172514770513215488). (TODO: move into Amethyst section)
-
-  ![A few mechs of a hexagonal field](/assets/newsletter-002/hex-cross-streams.jpg)
-
-<!--TODO: merge this with Erland's updated version above
-
-- Amethyst Engine v0.13:
-
-  Amethyst is a game engine and tool-set for ambitious game developers. It enables game developers to make complex games without getting into too much trouble, by means of a data-driven design and the ECS architecture.
-
-  This release, on top of the changes below, adds the amethyst_tiles crate, which provides utilities that makes handling and drawing stuff in tiles a lot easier! 🎉
-
-  <https://reddit.com/r/rust_gamedev/comments/d9h1ws/amethyst_engine_v013>
-  <https://www.reddit.com/r/rust/comments/d9gvai/amethyst_engine_v013>
-
-  <https://twitter.com/AmethystEngine/status/1177147037038632960>
-
-- [@_AndreaCatania](https://twitter.com/_AndreaCatania) Initialize physics world - Amethyst physics tutorial #1
-
-  <https://youtube.com/watch?v=XzSKuY9nv7A>
-  <https://twitter.com/_AndreaCatania/status/1177945483299495936>
-
-- [amethyst-imgui v0.5 is out, supporting a beta-version of the new docking feature.](https://twitter.com/AmethystEngine/status/1177720011013709824) (TODO: gif?)
-
-- [@carlosupina](https://twitter.com/carlosupina)
-
-  - New update for the Space Shooter game made with @AmethystEngine. Currency system, sound effects, 0.1.2 release notes and more discussed.
-
-  <https://twitter.com/carlosupina/status/1168273072123785216>
-  <https://youtube.com/watch?v=MmdUrZzuGfw>
-
-  - New shop system added to space_shooter_rs! Items are now bought through the shop rather than being randomly spawned.
-
-    ![TODO: local, desc](https://i.redd.it/qdjp3fznaoo31.gif)
-
-    <https://github.com/amethyst/space_shooter_rs/pull/13>
-
-    <https://gfycat.com/skinnywillingafricanparadiseflycatcher>
-
-    (Turn on sound to hear the new sound effects!)
-
-  - v0.1.3 release for space_shooter_rs! Let me know if you have any advice or feedback.
-    <https://github.com/amethyst/space_shooter_rs/releases/tag/v0.1.3>
-
-    - item shop
-    - more items
-    - sounds effects
-    - 3D background
-
-    <https://twitter.com/carlosupina/status/1176722051249451009>
-
-- Fun font rendering experiment using distance fields and shaders to morph one letter into the next one, also varying the font, programmed with @nannoucc @rustlang... I wanted to play with fonts for sooo long
-
-  TODO: gif
-
-  <https://twitter.com/matthieu_caro/status/1176633574151340033>
-
-- Ever wondered how to do a turn-based game in the ECS paradigm? Here’s how @Webshinra does it. (There’s also an awesome explainer for @ozkriff’s Zemeroth in that same topic)
-
-  <https://community.amethyst.rs/t/classic-turn-based-workflow-how-to/1082/20>
-  <https://twitter.com/AmethystEngine/status/1171804917041913856>
-  TODO: img?
-
-- Check out #ld44 submission “Stabman” (**TODO**: img)
-
-  ... now finally released a finished post-jam game!
-
-  <https://www.reddit.com/r/rust_gamedev/comments/d4dyrh/we_released_our_ludumdare_44_postjam_version_game>
-  <https://github.com/Noah2610/LD44>
-  <https://noahro.itch.io/stabman>
-
-  <https://twitter.com/AmethystEngine/status/1173121021999796227>
-
-- Laminar v0.3.1 <https://github.com/amethyst/laminar/releases/tag/0.3.1>
-
-  - Docs improvements
-  - Allow a Socket to be in blocking mode
-  - Heartbeat functionality
-  - Series of patches and bug-fixes for ordering, sequencing.
-  - Disconnect after sending N un-acked packets
-  - Dependency maintenance
-  - A lot of new unit tests
-
-  <https://twitter.com/AmethystEngine/status/1173853882805575690>
-
-- From the [Rendy](TODO) workbench: Currently implementing area lights using linearly transformed cosines. Got disks and rectangles working. Need to test spheres and implement tubes. Using imgui for debug interface.
-
-  <https://youtube.com/watch?v=KVpLPInWRWg>
-
-- @mvlabat:
-
-  Developing a multiplayer prototype for my new #rustlang pet project.
-
-  Currently using Amethyst 0.12. Looking forward for the new version of amethyst_net library to be released!
-
-  <https://youtu.be/xJm6cI_XmT4>
-
-  Interpolation is difficult... :)
-
-  <https://twitter.com/mvlabat/status/1175781583707615238>
-
-- Focus
-
-  ^^^ (**TODO**: _find a better title or move to one-liners_)
-
-  ![TODO: local, description](https://azriel.im/will/media/2019-09-27_focus/rox_clone_attack.png)
-
-  [@Azriel](TODO).
-
-  <https://azriel.im/will/2019/09/27/focus>
-
-  Rudimentary camera player tracking
-
-  Video demo: <https://youtube.com/watch?v=JOZ9RiCFzdA>
-
-  <https://twitter.com/im_azriel/status/1169416420796465153>
-
-  **TODO**: twitter, reddit?
--->
+[amethyst]: https://amethyst.rs
+[@carlosupina]: https://twitter.com/carlosupina
+[space-shooter-vlog]: https://youtube.com/watch?v=MmdUrZzuGfw
+[@mvlabat]: https://twitter.com/mvlabat
+[Azriel Hoh]: https://twitter.com/im_azriel
+[@a5huynh]: https://github.com/a5huynh
 
 ### [Mun][mun] and Hot Reloading Experiments
 
@@ -569,7 +460,10 @@ Special section for other news (up to 15) in a one-liner format:
 
   ![Towers on the map](/assets/newsletter-002/wraith-def.jpeg)
 
-- [@oliviff] released [v0.0.1][tennis-1] and [v0.0.2][tennis-2] updates for [Tennis Academy][tennis]: simplified gameplay flow, areas, cash flow, animations, players' state visual cues and more.
+- [@oliviff] released [v0.0.1][tennis-1] and [v0.0.2][tennis-2] updates
+  for [Tennis Academy][tennis]:
+  simplified gameplay flow, areas, cash flow, animations,
+  players' state visual cues and more.
 
   ![Tennis Academy v0.0.2 Demo](/assets/newsletter-002/tennis-academy.gif)
 
@@ -583,17 +477,13 @@ Special section for other news (up to 15) in a one-liner format:
 
   [![shadows demo](/assets/newsletter-002/shadows.gif)][shadows-tweet]
 
-- [@magistratic] gave a talk on the Doom's [BSP] rendering engine using their Rust implementation as a demonstration at RevolverConf:
+- [@magistratic] gave a talk on the Doom's [BSP] rendering engine using their
+  Rust implementation as a demonstration at RevolverConf:
   recording (in Norwegian) and a WASM demo available
   [here](https://magnushoff.com/blog/doom-revolverconf)
   ([source code](https://github.com/maghoff/wad-render/tree/revolverconf-2019.2)).
 
   ![WASM demo](/assets/newsletter-002/doom-bsp-wasm.png)
-
-<!--
-- @slybash: love this pattern: make a turn based game, but it's actually just realtime & pauses when the player's flagged to take their turn. Not only does it simplify deving, but you can get some real cool effects like this one. 100 dummy AI's with random speeds moving south-east
-  \[[twitter](https://twitter.com/slybash/status/1170242812752748544)]
--->
 
 - [**rx**][rx] by [@cloudhead] is a modern pixel editor and animator;
   this month, v0.2.0 was released, with new brush modes -
@@ -738,7 +628,9 @@ or [join the next meeting][join].
 - [wgpu's "help wanted" issues][wgpu-help-wanted];
 - [luminance's "low hanging fruit" issues][luminance-fruits];
 - Request from Amethyst:
-  ["The renderer-agnostic GUI library “Iced” by @hecrj looks *so* good. If someone wants to make this work with Amethyst please get in touch with us! (or just do it...)"][amethyst-iced-help].
+  ["The renderer-agnostic GUI library “Iced” by @hecrj looks *so* good.
+  If someone wants to make this work with Amethyst please get in touch with us!
+  (or just do it...)"][amethyst-iced-help].
 
 [winit help wanted]: https://github.com/rust-windowing/winit/issues?utf8=✓&q=is%3Aissue+is%3Aopen+label%3A%22status%3A+help+wanted%22+label%3A%22Good+first+issue%22
 [winit blocking]: https://github.com/rust-windowing/winit/issues?utf8=✓&q=is%3Aissue+is%3Aopen+label%3A%22Blocking+a+release%22
