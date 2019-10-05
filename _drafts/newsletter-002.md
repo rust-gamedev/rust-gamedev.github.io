@@ -334,7 +334,7 @@ Games:
 
 - [@webshinra](https://twitter.com/Webshinra) made progress with raycasted FOV in their hexagonal game.
 
-  ![hexagonal map with two mechs, paths and visually blocked tiles](/assets/newsletter-002/hex-fov.png)
+  ![hexagonal map with two mechs, paths and visually blocked tiles](/assets/newsletter-002/hex-fov.jpeg)
 
 [amethyst]: https://amethyst.rs
 [@carlosupina]: https://twitter.com/carlosupina
