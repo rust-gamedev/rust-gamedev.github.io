@@ -294,9 +294,9 @@ _Discussions:
 ["Twenty Asteroids"][asteroids-itch] game:
 
 - Devlog #2: [Video](https://youtu.be/gYevCyU5gxU) and
-  [Text](https://patreon.com/posts/devlog-002-29812516) versions;
+  [Text][devlog-2-text] versions;
 - Devlog #3: [Video](https://youtu.be/YSYRKzogbKg) and
-  [Text](https://patreon.com/posts/30202961) versions.
+  [Text][devlog-3-text] versions.
 
 Updates include:
 
@@ -312,6 +312,8 @@ Demo builds are [available for patrons](https://patreon.com/vladzhukov).
 
 [@VladZhukov0]: https://twitter.com/VladZhukov0
 [asteroids-itch]: https://itch.io/queue/c/449652/rustlang-games?game_id=477762
+[devlog-2-text]: https://pum-purum-pum-pum.itch.io/asteroids-like-game/devlog/98842/my-asteroids-like-game-devlog-002
+[devlog-3-text]: https://pum-purum-pum-pum.itch.io/asteroids-like-game/devlog/101357/new-menu-performance-and-abilities-devlog-3
 
 ### Amethyst
 
