@@ -282,7 +282,8 @@ _Discussions:
 [C++ Roguelike Toolkit][RLTK] ([what is a "roguelike?"][rl]).
 
 It provides all the basic functionality one needs to write a roguelike game,
-mouse support, an embedded resource system, Web Assembly support, and more.
+as well as mouse support, an embedded resource system, Web Assembly support,
+and more.
 
 All [examples][rltk-examples] are linked to browser WASM to try.
 
