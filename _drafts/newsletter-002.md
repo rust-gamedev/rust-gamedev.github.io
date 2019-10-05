@@ -116,36 +116,23 @@ Full weekly devlogs "This Week In Veloren...":
 
 [veloren]: https://veloren.net
 
-### Godot (TODO: better title)
+### [Godot][godot] and Rust
 
-#### [Gorgeous Godot games in Rust](https://medium.com/@recallsingularity/gorgeous-godot-games-in-rust-1867c56045e6)
+![Recall Singularity's ship base](/assets/newsletter-002/recall-singularity.jpeg)
 
-![TODO: local img](https://miro.medium.com/max/1419/1*UfC2M4NG1W_5huoDRUe5kA.png)
+[Tom Leys] is working on a "The Recall Singularity" game
+about designing autonomous factory ships and stations
+and this month they published a few posts
+about using [the Godot engine][godot] with Rust:
 
-<https://reddit.com/r/rust_gamedev/comments/d75qfz/gorgeous_godot_games_in_rust/>
+- ["How I use Rust and Godot to Explore Space"](https://blog.usejournal.com/how-i-use-rust-and-godot-to-explore-space-806bb810e950)
+  \[[/r/godot](https://reddit.com/r/godot/comments/d5qdoy/inspiration_how_i_use_rust_and_godot_to_explore)];
+- ["Gorgeous Godot games in Rust"](https://medium.com/@recallsingularity/gorgeous-godot-games-in-rust-1867c56045e6)
+  \[[/r/rust](https://reddit.com/r/rust_gamedev/comments/d75qfz/gorgeous_godot_games_in_rust)];
+- ["A Basic Godot-Rust Structure"](https://medium.com/@recallsingularity/a-basic-godot-rust-structure-eb855ba07223);
 
-TODO: twitter, reddit
-
-------
-
-[@zThulj](https://twitter.com/zThulj): [It's WORKING ! 😎 Successfully deployed a Godot engine app scripted in rustlang to my android smartphone.](https://twitter.com/zThulj/status/1177361607325880332)
-
-------
-
-"A Basic Godot-Rust Structure": <https://medium.com/@recallsingularity/a-basic-godot-rust-structure-eb855ba07223>
-
-A Basic (Space-ick?) Project structure for your Godot / Rust Space Simulator ( I bet you have better ideas, right? right? )
-
-<https://twitter.com/RecallSingular1/status/1175331481142513664>
-
-#### How I use Rust and Godot to Explore Space
-
-TODO: img
-
-TODO: merge with the previous one into one "Godot" section?
-
-<https://blog.usejournal.com/how-i-use-rust-and-godot-to-explore-space-806bb810e950>
-<https://twitter.com/RecallSingular1/status/1174125323195056128>
+[godot]: https://godotengine.org
+[Tom Leys]: https://twitter.com/RecallSingular1
 
 ### Zemeroth v0.6
 
