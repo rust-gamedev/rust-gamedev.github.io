@@ -283,34 +283,32 @@ _Discussions:
 [derivative]: https://github.com/mcarton/rust-derivative
 [swapchain]: https://vulkan-tutorial.com/Drawing_a_triangle/Presentation/Swap_chain
 
-### Twenty Asteroids
+### [Twenty Asteroids][asteroids-itch]
 
-[@VladZhukov0]
+[![space ship destroys enemies and asteroids with plasma beams](/assets/newsletter-002/asteroids-demo.gif)][asteroids-itch]
 
-Bullet reflections ability feels pretty fun (and imbalanced)
+[@VladZhukov0] published a few devlogs about their
+["Twenty Asteroids"][asteroids-itch] game:
 
-[twitter](https://twitter.com/VladZhukov0/status/1169702934218760192)
-[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/d1b51s/rust_game_devlog_2_is_here)
+- Devlog #2: [Video](https://youtu.be/gYevCyU5gxU) and
+  [Text](https://patreon.com/posts/devlog-002-29812516) versions;
+- Devlog #3: [Video](https://youtu.be/YSYRKzogbKg) and
+  [Text](https://patreon.com/posts/30202961) versions.
 
-------
+Updates include:
 
-Devlog #2
+- New enemies: a ship with big pinball-like bullet and a laser-mesh ship;
+- New upgrades: laser range and bullets reflection;
+- Explosion size now depends on asteroid's size;
+- Improved main menu, upgrade and death screens;
+- Better color contrast;
+- New AI behaviors: follow and circle around;
+- Debugging performance plots;
 
-YouTube: <https://youtu.be/gYevCyU5gxU>
-Text: <https://pum-purum-pum-pum.itch.io/asteroids-like-game/devlog/98842/my-asteroids-like-game-devlog-002>
-<https://twitter.com/VladZhukov0/status/1170694557295681543>
-
-------
-
-<https://twitter.com/VladZhukov0/status/1176473644194775040>
-
-devlog #3
-
-Video: <https://youtu.be/YSYRKzogbKg>
-Text: <https://www.patreon.com/posts/30202961>
-[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/d8mhxz/new_menu_performance_and_abilities_rustlang_game)
+Demo builds are [available for patrons](https://patreon.com/vladzhukov).
 
 [@VladZhukov0]: https://twitter.com/VladZhukov0
+[asteroids-itch]: https://itch.io/queue/c/449652/rustlang-games?game_id=477762
 
 ### Amethyst
 
