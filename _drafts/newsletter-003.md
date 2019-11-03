@@ -661,22 +661,23 @@ or [join the next meeting][join].
 
 <!-- Links to "good first issue"-labels or direct links to specific tasks -->
 
-- **TODO**: <https://reddit.com/r/rust/comments/diuqg7/need_help_porting_steam_libraries_to_rust>
-- [Embark's open issues][embark-open-issues]
-- [winit](https://github.com/rust-windowing/winit):
-  - ["Good first issue" and “help wanted” issues][winit help wanted];
-  - ["Blocking a release" issues][winit blocking];
-- [gfx-rs's "contributor-friendly" issues][gfx issues];
+- [/r/rust: "Need help porting steam libraries to rust"][help-steam-libs];
+- [Embark's open issues][embark-open-issues] ([embark.rs]);
+- [winit's "Good first issue" and “help wanted” issues][winit-issues];
+- [gfx-rs's "contributor-friendly" issues][gfx-issues];
 - [wgpu's "help wanted" issues][wgpu-help-wanted];
 - [luminance's "low hanging fruit" issues][luminance-fruits];
+- [ggez's "good first issue" issues][ggez-issues];
 - [Veloren's "beginner" issues][veloren-beginner];
 
+[help-steam-libs]: https://reddit.com/r/rust/comments/diuqg7/need_help_porting_steam_libraries_to_rust
+[embark.rs]: https://embark.rs
 [embark-open-issues]: https://github.com/search?q=user:EmbarkStudios+state:open
-[winit help wanted]: https://github.com/rust-windowing/winit/issues?utf8=✓&q=is%3Aissue+is%3Aopen+label%3A%22status%3A+help+wanted%22+label%3A%22Good+first+issue%22
-[winit blocking]: https://github.com/rust-windowing/winit/issues?utf8=✓&q=is%3Aissue+is%3Aopen+label%3A%22Blocking+a+release%22
-[gfx issues]: https://github.com/gfx-rs/gfx/issues?q=is%3Aissue+is%3Aopen+label%3Acontributor-friendly
+[winit-issues]: https://github.com/rust-windowing/winit/issues?utf8=✓&q=is%3Aissue+is%3Aopen+label%3A%22status%3A+help+wanted%22+label%3A%22Good+first+issue%22
+[gfx-issues]: https://github.com/gfx-rs/gfx/issues?q=is%3Aissue+is%3Aopen+label%3Acontributor-friendly
 [wgpu-help-wanted]: https://github.com/gfx-rs/wgpu-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
 [luminance-fruits]: https://github.com/phaazon/luminance-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22low+hanging+fruit%22
+[ggez-issues]: https://github.com/ggez/ggez/labels/%2AGOOD%20FIRST%20ISSUE%2A
 [veloren-beginner]: https://gitlab.com/veloren/veloren/issues?label_name=beginner
 
 ## Bonus
