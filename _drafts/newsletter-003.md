@@ -170,21 +170,26 @@ This is the start of a fork of pf sandbox to be its own game instead of a generi
 
 [@dooskington]:https://twitter.com/dooskington
 
-### Ferris Fencing
+### [Ferris Fencing][ferris-fencing]
 
-![TODO: local, desc](https://rust-in-blockchain.github.io/rust-vm/images/ferris-fencing-battle-gold.svg)
+![Two crabs fencing on a 1D map](/assets/newsletter-003/ferris-fencing.png)
 
-**TODO**: better img?
+[Ferris Fencing][ferris-fencing] is a live tournament in which
+player-programmed bots combat each other on a [RISC-V] virtual machine.
+It is a showcase of [CKB-VM], a simple implementation of the RISC-V instruction set,
+written in the Rust programming language.
 
-An eternal duel between
-programmable crabs
-with swords.
+[Here're the rules][ferris-fencing-rules].
 
-<http://ferrisfencing.org>
+The Ferris Fencing tournament is not yet live,
+but fencers may begin building their bots and testing them locally.
+Instructions are in the [GitHub repo][ferris-fencing-repo].
 
-<https://github.com/brson/ferris-fencing>
-
-> It is a showcase of CKB-VM, a simple implementation of the RISC-V instruction set, written in the Rust programming language.
+[ferris-fencing]: http://ferrisfencing.org
+[RISC-V]: https://riscv.org
+[CKB-VM]: https://github.com/nervosnetwork/ckb-vm
+[ferris-fencing-repo]: https://github.com/brson/ferris-fencing
+[ferris-fencing-rules]:http://www.ferrisfencing.org/#rules
 
 ### Tennis Academy v0.03 & v0.0.4
 
