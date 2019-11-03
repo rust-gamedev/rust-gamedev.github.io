@@ -646,7 +646,12 @@ This is 3440x1440 @ 50 fps on AMD Vega 56.
 
 <!-- Up to 10 links to interesting issues -->
 
-**TODO**: ???
+- [rust-gamedev/wg](https://github.com/rust-gamedev/wg):
+  - [#60 "Ecosystem At Risk: Custom Allocators (and more?) in std"](https://github.com/rust-gamedev/wg/issues/60);
+  - [#61 "Tracking: Important Issues Filed Elsewhere"](https://github.com/rust-gamedev/wg/issues/61);
+  - [#64 "Transfer Ownership of AreWeGameYet to Gamedev WG"](https://github.com/rust-gamedev/wg/issues/64);
+- [rust-gamedev/rust-gamedev.github.io](https://github.com/rust-gamedev/rust-gamedev.github.io):
+  - [#24 "Email Subscription"](https://github.com/rust-gamedev/rust-gamedev.github.io/issues/24);
 
 ## Meeting Minutes
 
