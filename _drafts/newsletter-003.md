@@ -191,31 +191,26 @@ Instructions are in the [GitHub repo][ferris-fencing-repo].
 [ferris-fencing-repo]: https://github.com/brson/ferris-fencing
 [ferris-fencing-rules]:http://www.ferrisfencing.org/#rules
 
-### Tennis Academy v0.03 & v0.0.4
+### [Tennis Academy] v0.03 & v0.0.4
 
-**TODO**: img
+![4 courts with players](/assets/newsletter-003/tennis-academy.png)
 
-by [@oliviff]
+[@oliviff] released [v0.0.3][tennis-academy-v0-0-3]
+and [v0.0.4][tennis-academy-v0-0-4] updates for [Tennis Academy]:
 
-- <https://twitter.com/oliviff/status/1185576890746265600>
-
-  v0.0.3 is here!
-
-    🏘️ improved reception area queueing
-    🎆 timed effects when players disappear
-    ⛹️ click to collect coins from player
-
-- v0.0.4 is here and it's a big gameplay update, finally feels more like a game!
-
-  - 👟 4 courts on screen
-  - ⛹️ matching t-shirts for players
-  - 💯 money is now score
-  - 🚥 court + t-shirt colour matching logic
-  - 📊 score multipliers
-
-  **TODO**: gif from: <https://twitter.com/oliviff/status/1185945850771660805>
+- 🏘️ improved reception area queueing
+- 🎆 timed effects when players disappear
+- ⛹️ click to collect coins from player
+- 👟 4 courts on screen
+- ⛹️ matching t-shirts for players
+- 💯 money is now score
+- 🚥 court + t-shirt colour matching logic
+- 📊 score multipliers
 
 [@oliviff]: https://twitter.com/oliviff
+[Tennis Academy]: https://iolivia.me/posts/6-months-of-rust-game-dev
+[tennis-academy-v0-0-3]: https://twitter.com/oliviff/status/1185576890746265600
+[tennis-academy-v0-0-4]: https://twitter.com/oliviff/status/1185945850771660805
 
 ### [piano-rs]
 
