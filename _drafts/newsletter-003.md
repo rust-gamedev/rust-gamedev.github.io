@@ -228,18 +228,21 @@ A multiplayer piano using UDP sockets that can be played using computer keyboard
 
 [piano-rs]: https://github.com/ritiek/piano-rs
 
-### [Dissolve][dissolve]
+### [Will it dissolve?][dissolve]
 
-![TODO: local, desc](https://img.itch.zone/aW1hZ2UvNDkxMDU3LzI1NTA5NzUuZ2lm/original/Tlf%2FKS.gif)
+![Dissolve gameplay demo](/assets/newsletter-003/dissolve.gif)
 
-[dissolve] is a small puzzle game where you have to prepare the level so that it will automatically convert and dissolve in the future.
+["Will it dissolve?"][dissolve] is a small puzzle game
+for ["Open Jam 2019"](http://openjam.io)
+where you have to prepare the level so that it will
+automatically convert and dissolve in the future.
 
-> Will it dissolve? A new puzzle game for the "Open Jam 2019" event. If you have time you can try it out.
-> Programmed in #rustlang with the help of the Tetra engine. The source code is also available. Have fun!
+Programmed with the help of the [Tetra engine][tetra].
+[The source code is available here][dissolve-src].
 
 [dissolve]: https://puppetmaster.itch.io/dissolve
-
-**TODO**: img: <https://twitter.com/fischspiele/status/1180924034650984451>
+[tetra]: https://github.com/17cupsofcoffee/tetra
+[dissolve-src]:https://github.com/puppetmaster-/will_it_dissolve
 
 ### Garden
 
