@@ -129,21 +129,21 @@ Full weekly devlogs "This Week In Veloren...":
 
 [veloren]: https://veloren.net
 
-### PF Sandbox
+### [PF Sandbox][pf-sandbox]
 
-by [@rukai]
+![Exported models with textureas and skeletal animations](/assets/newsletter-003/pf-sandbox.jpg)
 
-- <https://twitter.com/thisIsRukai/status/1181208687081222154> -- textures!
-- <https://twitter.com/thisIsRukai/status/1182945899485335552>
-- <https://twitter.com/thisIsRukai/status/1181208687081222154>
-- <https://twitter.com/thisIsRukai/status/1180477120113340417>
-- <https://twitter.com/thisIsRukai/status/1188261107124727808>
+[PF Sandbox][pf-sandbox] by [@rukai] is a platform fighter sandbox featuring:
+in game Fighter and Stage Editor, replays, and TAS tools.
 
-**TODO**: check other tweets!
+This month,
+[exporting and hot-reloading assets from blender](https://twitter.com/thisIsRukai/status/1180477120113340417),
+[freelook camera](https://twitter.com/thisIsRukai/status/1182945899485335552),
+[textures](https://twitter.com/thisIsRukai/status/1182945899485335552),
+and [animations](https://twitter.com/thisIsRukai/status/1188261107124727808)
+were added to the project.
 
-Exporting and hot-reloading assets from blender!
-This is the start of a fork of pf sandbox to be its own game instead of a generic engine.
-
+[pf-sandbox]:https://github.com/rukai/PF_Sandbox
 [@rukai]: https://twitter.com/thisIsRukai
 
 ### Antorum
