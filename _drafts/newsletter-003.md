@@ -244,15 +244,41 @@ Programmed with the help of the [Tetra engine][tetra].
 [tetra]: https://github.com/17cupsofcoffee/tetra
 [dissolve-src]:https://github.com/puppetmaster-/will_it_dissolve
 
-### Garden
+### [Garden Devlog: October][garden-october]
 
-![TODO: local, desc](https://pbs.twimg.com/media/EH-gSkWW4AA-7hp?format=jpg)
+![Garden screenshot: a tree, leaves, water and ruins](/assets/newsletter-003/garden.jpeg)
 
-<http://cyberplant.xyz/posts/october>
+[Garden][garden-itch] is an upcoming game centered around
+growing realistic plants.
 
-<https://epcc.itch.io/garden>
+The following changes were made since the last devlog:
 
-<https://twitter.com/logicsoup/status/1190754460575961089>
+- Improved flowers were added.
+- The plant simulation code is almost finalized,
+  and developers will be able to start adding new species soon.
+- The procedural ruin generation was improved:
+  no more floating concrete chunks.
+
+[Watch the video demo here](https://twitter.com/logicsoup/status/1190754460575961089).
+
+Also, a new design plan was created:
+
+- The main objective is to restore the luscious ecosystem
+  in a polluted wasteland.
+  The player will have to continuously figure out how to handle different
+  environmental constraints to keep trees growing, collect enough fruit
+  and figure out what to do with them, and unlock new goals and flora.
+- But for players who are interested in wild, goalless plant growth,
+  there’ll also be a sandbox mode.
+  As one progresses in the main game and “unlocks” more trees,
+  playing around with creating flourishing jungle troves will be possible.
+
+To stay informed of smaller updates, screenshots, and new devlogs,
+follow [@logicsoup] on Twitter.
+
+[garden-itch]: https://epcc.itch.io/garden
+[garden-october]: http://cyberplant.xyz/posts/october
+[@logicsoup]: https://twitter.com/logicsoup
 
 ### [Godot][godot] and Rust
 
