@@ -146,29 +146,43 @@ were added to the project.
 [pf-sandbox]:https://github.com/rukai/PF_Sandbox
 [@rukai]: https://twitter.com/thisIsRukai
 
-### Antorum
+### [Antorum][antorum]
 
-![TODO: local, desc](https://dooskington.com/images/devlogs/10-img3.jpeg)
+![Antorum screenshot: a few human characters, a few rats and an inventory UI](/assets/newsletter-003/antorum.jpeg)
 
-[@dooskington] published ... devlogs:
+[Antorum][antorum] is a multiplayer RPG where players build their characters
+and fight against the growing threats on the isle.
+The game server is authoritative and written in Rust,
+while the client is written in Unity/C#.
 
-- <https://dooskington.com/dev-log/6>
+This month, [@dooskington] published a bunch of devlogs:
 
-- <https://dooskington.com/dev-log/7>
+- [#6 "Items And Inventory"](https://dooskington.com/dev-log/6);
+- [#7 "Grubbnet"](https://dooskington.com/dev-log/7);
+- [#8 "The Editor"](https://dooskington.com/dev-log/8);
+- [#9 "The Editor, Pt. 2"](https://dooskington.com/dev-log/9);
+- [#10 "Terrain Sync"](https://dooskington.com/dev-log/10).
 
-- <https://twitter.com/dooskington/status/1183771429222772736>
+------
 
-- <https://twitter.com/dooskington/status/1186296576282484737>
+As described in the [7th devlog](https://dooskington.com/dev-log/7),
+an initial version of a "[grubbnet]" crate was published.
 
-  <https://dooskington.com/dev-log/8>
+It's a lightweight TCP client/server
+for writing networked applications and games.
+It abstracts socket code, keeps track of connections,
+and delivers everything back to the developer in a nice list of events.
+In addition to handling network events
+(such as client connects and disconnects),
+handling incoming packets is as easy as grabbing an iterator
+over the incoming packet queue.
 
-- 9 ???
-
-- <https://dooskington.com/dev-log/10> - terrain sync
-
-**TODO**: _Format devlogs like it's done for Veloren?_
+It's the same networking crate that the Antorum game server uses
+under the hood.
 
 [@dooskington]:https://twitter.com/dooskington
+[antorum]: https://dooskington.com
+[grubbnet]: https://github.com/Dooskington/grubbnet
 
 ### [Ferris Fencing][ferris-fencing]
 
