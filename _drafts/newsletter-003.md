@@ -331,7 +331,7 @@ based on a theme suggested by the community.
 LD45's theme was "Start with nothing".
 Here are some of the games made with Rust:
 
-- ["Working Title"][working-title] by [@NoahRosenzweig] made with amethyst
+- ["Working Title"][working-title] by [@NoahRosenzweig] made with Amethyst
   ([source code][working-title-src]).
 
   > _Experience a work in progress._
@@ -380,55 +380,54 @@ Here are some of the games made with Rust:
 
 ### Amethyst Games
 
-- [Arrakis][arrakis]
+- See the "Working Title" LD45 game above.
 
-  ![TODO](https://raw.githubusercontent.com/JPMoresmau/arrakis/master/screenshot1.png)
+- A top-down 2D shooter ["Grumpy Visitors"][grumpy] by [@mvlabat]
+  became an official showcase game.
 
-  A 80s game ported in Rust and Amethyst.
+  Read the announcement post: ["Showcase game #4: Grumpy Visitors"][grumpy-ann].
 
-  Arrakis is a mini role-playing/adventure game. The goal? Walk through the streets of Arrakis to find the fabled Wizard of Arrakis, that can teach you arcane powers you've only dreamt of!
+  Current game features:
+  - Cooperative multiplayer;
+  - Spawning monsters with basic AI;
+  - Sprite animations and custom shaders (health HUD).
 
-  <https://twitter.com/JpMoresmau/status/1180844507719450625>
+  [The source code is available here][grumpy].
 
-- webshinra
-  
-  TODO: img: <https://twitter.com/Webshinra/status/1187982773547601920>
+  ![A magician shooting missiles at giant bugs](/assets/newsletter-003/grumpy-visitors.png)
 
-  Ok, our full switch to @AmethystEngine is over, and it rox, no more semi-customized hybrids layer to 5 libs (including parts of Amethyst).
+- [Arrakis][arrakis] by [@JpMoresmau] is a 80s game ported in Rust and Amethyst.
 
-  We are now ready to build gameplay in the upcoming months \o/
+  > It's a mini role-playing/adventure game. The goal?
+  > Walk through the streets of Arrakis to find the fabled Wizard of Arrakis,
+  > that can teach you arcane powers you've only dreamt of!
 
-- Grumpy Visitors
+  ![Arrakis screenshot](/assets/newsletter-003/arrakis.png)
 
-  TODO: img
+- [@webshinra] finished porting their their hexagonal game to Amethyst
+  and is now preparing to build gameplay.
 
-  <https://amethyst.rs/posts/showcase-game-4-grumpy-visitors>
+  ![hexagonal pam with a few mechs](/assets/newsletter-003/webshinra-hex.jpg)
 
-  (/r/rust (<https://www.reddit.com/r/rust/comments/dm5l9t/amethyst_showcase_game_grumpy_visitors>))
+- [@takeryo_eeic] is also working on a turn-based hexagonal game.
+  [Watch the video demo here][takeryo-video].
 
-  @mvlabat
+  [![a small hex field with a few fighters](/assets/newsletter-003/takeryo-eeic-hex-game.png)][takeryo-video]
 
-  <https://twitter.com/AmethystEngine/status/1187112150751436800>
+- [Space Shooter] by [@carlosupina] got
+  [2 new items](https://github.com/amethyst/space_shooter_rs/pull/19)
+  and [1 new enemy](https://github.com/amethyst/space_shooter_rs/pull/18).
 
-- Hex Game from takeryo_eeic
-
-  TODO: gif from <https://twitter.com/takeryo_eeic/status/1187700437849296896>
-
-  <https://twitter.com/takeryo_eeic/status/1184377712946761728>
-
-  <https://twitter.com/takeryo_eeic/status/1190142474062184448>
-
-- Space Shooter - <https://github.com/amethyst/space_shooter_rs>
-
-  > @carlosupina
-  >
-  > No new release for this month. I spent most of the time working on refactoring the existing code.
-  >
-  >However, I was delighted to see people contributing to the project. From the community we got 2 new items and 1 new enemy.
-
-  <https://twitter.com/carlosupina/status/1188579937709707266>
-
+[grumpy-ann]: https://amethyst.rs/posts/showcase-game-4-grumpy-visitors
+[grumpy]: https://github.com/amethyst/grumpy_visitors
+[@mvlabat]: https://twitter.com/mvlabat
 [arrakis]: https://github.com/JPMoresmau/arrakis
+[@JpMoresmau]: https://twitter.com/JpMoresmau
+[@Webshinra]: https://twitter.com/Webshinra
+[@takeryo_eeic]: https://twitter.com/takeryo_eeic
+[takeryo-video]: https://twitter.com/takeryo_eeic/status/1190142474062184448
+[Space Shooter]: https://github.com/amethyst/space_shooter_rs
+[@carlosupina]: https://twitter.com/carlosupina
 
 ### Other Game News
 
