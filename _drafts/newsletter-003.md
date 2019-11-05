@@ -297,6 +297,33 @@ follow [@logicsoup] on Twitter.
 [garden-october]: http://cyberplant.xyz/posts/october
 [@logicsoup]: https://twitter.com/logicsoup
 
+### [EVE Online] Backend Optimization
+
+[@aidanhs shared](https://twitter.com/aidanhs/status/1181584776584675328)
+a small [EVE Online] backend optimization success story:
+
+> To double the tick rate to 30Hz, our underlying @rustlang layer
+> [from last time](https://twitter.com/aidanhs/status/1110607519385350150)
+> needed...a two line bugfix and some metrics support.
+> Nice proof point for reliable software in Rust!
+
+[EVE Online]: https://eveonline.com
+
+### [Robo Instructus]
+
+[Alex Butler] continues to polish their "[Robo Instructus]" game;
+[1.12, 1.13, and 1.14 versions were released][robo-news]:
+non-ascii code input, new icons, bugfixes, and better translations.
+
+[You can contribute to transaltions here][robo-transaltion].
+
+![translated menu items](/assets/newsletter-003/robo-ru.png)
+
+[Alex Butler]: https://twitter.com/bigabgames
+[Robo Instructus]: https://store.steampowered.com/app/1032170/Robo_Instructus/
+[robo-news]: https://steamcommunity.com/app/1032170/allnews
+[robo-transaltion]: https://github.com/big-ab-games/robo-instructus-translation#about
+
 ### [Godot][godot] and Rust
 
 - ["Rendering a 2D game in 3D"](https://medium.com/@recallsingularity/rendering-a-2d-game-in-3d-bd24ddbee6eb) -
@@ -428,30 +455,6 @@ Here are some of the games made with Rust:
 [takeryo-video]: https://twitter.com/takeryo_eeic/status/1190142474062184448
 [Space Shooter]: https://github.com/amethyst/space_shooter_rs
 [@carlosupina]: https://twitter.com/carlosupina
-
-### Other Game Updates
-
-- [@aidanhs shared](https://twitter.com/aidanhs/status/1181584776584675328)
-  a small [Eve Online] backend optimization success story:
-
-  > To double the tick rate to 30Hz, our underlying @rustlang layer
-  > [from last time](https://twitter.com/aidanhs/status/1110607519385350150)
-  > needed...a two line bugfix and some metrics support.
-  > Nice proof point for reliable software in Rust!
-
-- [Alex Butler] continues to polish their "[Robo Instructus]" game;
-  [1.12, 1.13, and 1.14 versions were released][robo-news]:
-  non-ascii code input, new icons, bugfixes, and better translations.
-
-  [You can contribute to transaltions here][robo-transaltion].
-
-  ![translated menu items](/assets/newsletter-003/robo-ru.png)
-
-[Eve Online]: https://eveonline.com
-[Alex Butler]: https://twitter.com/bigabgames
-[Robo Instructus]: https://store.steampowered.com/app/1032170/Robo_Instructus/
-[robo-news]: https://steamcommunity.com/app/1032170/allnews
-[robo-transaltion]: https://github.com/big-ab-games/robo-instructus-translation#about
 
 ## Library & Tooling updates
 
