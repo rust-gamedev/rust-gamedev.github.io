@@ -429,23 +429,29 @@ Here are some of the games made with Rust:
 [Space Shooter]: https://github.com/amethyst/space_shooter_rs
 [@carlosupina]: https://twitter.com/carlosupina
 
-### Other Game News
+### Other Game Updates
 
-- Eva online (TODO: ?)
+- [@aidanhs shared](https://twitter.com/aidanhs/status/1181584776584675328)
+  a small [Eve Online] backend optimization success story:
 
-  <https://twitter.com/aidanhs/status/1181584776584675328>
+  > To double the tick rate to 30Hz, our underlying @rustlang layer
+  > [from last time](https://twitter.com/aidanhs/status/1110607519385350150)
+  > needed...a two line bugfix and some metrics support.
+  > Nice proof point for reliable software in Rust!
 
-  > To double the tick rate to 30Hz, our underlying @rustlang layer from last time (<https://twitter.com/aidanhs/status/1110607519385350150>) needed...a two line bugfix and some metrics support. Nice proof point for reliable software in Rust!
+- [Alex Butler] continues to polish their "[Robo Instructus]" game;
+  [1.12, 1.13, and 1.14 versions were released][robo-news]:
+  non-ascii code input, new icons, bugfixes, and better translations.
 
-- <https://roboinstruct.us>
+  [You can contribute to transaltions here][robo-transaltion].
 
-  **TODO**: img?
+  ![translated menu items](/assets/newsletter-003/robo-ru.png)
 
-  <https://store.steampowered.com/app/1032170/Robo_Instructus/>
-
-  1.12 - 1.14
-
-  **TODO**: mention <https://github.com/big-ab-games/robo-instructus-translation#about>
+[Eve Online]: https://eveonline.com
+[Alex Butler]: https://twitter.com/bigabgames
+[Robo Instructus]: https://store.steampowered.com/app/1032170/Robo_Instructus/
+[robo-news]: https://steamcommunity.com/app/1032170/allnews
+[robo-transaltion]: https://github.com/big-ab-games/robo-instructus-translation#about
 
 ## Library & Tooling updates
 
