@@ -228,17 +228,13 @@ and [v0.0.4][tennis-academy-v0-0-4] updates for [Tennis Academy]:
 
 ### [piano-rs]
 
-![TODO: local](https://camo.githubusercontent.com/78c31430ea4c1a90b16bbf3ff96ba8fb57e7f787/68747470733a2f2f692e696d6775722e636f6d2f444f78307757662e706e67)
+![Virtual piano keyboard](/assets/newsletter-003/piano.png)
 
-A multiplayer piano using UDP sockets that can be played using computer keyboard, in the terminal.
+[piano-rs] is a multiplayer piano using UDP sockets
+that can be played using computer keyboard, in the terminal.
 
-> Hi! A few years back I wrote a piano game for the terminal in Rust when I did not know much about general good code practices. However, recently I've been learning more on how to write good code and so, I spent the last 2 weeks trying to refactor the codebase along with adding a multiplayer feature.
->
-> Here's the link: <https://github.com/ritiek/piano-rs>
->
-> Feel free to try it out! In case you're going to dig into the codebase, I am open to any suggestions/feedback to further improve anything related to the codebase!
-
-<https://reddit.com/r/rust/comments/de28rz/a_multiplayer_piano_game_for_the_terminal>
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/de28rz/a_multiplayer_piano_game_for_the_terminal)_
 
 [piano-rs]: https://github.com/ritiek/piano-rs
 
