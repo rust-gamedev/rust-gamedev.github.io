@@ -102,24 +102,25 @@ _Discussions:
 [sulis-lore]: https://sulisgame.com/lore
 [sulis-src]: https://github.com/Grokmoo/sulis
 
-### Veloren
+### [Veloren][veloren]
 
-![TODO: local, desc](https://media.discordapp.net/attachments/449654102553788417/631209513336438794/screenshot_1570562280617.png?width=1151&height=685)
+![Bumpy terrain with a rivers and trees](/assets/newsletter-003/veloren.png)
 
 [Veloren][veloren] is an open-world, open-source multiplayer voxel RPG.
 The game is in an early stage of development, but is playable.
 
-**TODO**: 0.4 was released.
+This month [a v0.4 version was released](https://veloren.net/devblog-37)
+and a [player survey results was published][veloren-survey].
 
-**TODO:** mention "Player survey"
+Some of the Octobers' improvements:
 
-**TODO**: Here is a new video highlighting different structures in Veloren: <https://www.youtube.com/watch?v=iwP7SXdWcTg>
+- lots of bugfixes and optimizations;
+- improved erosion, rivers and water flow physics;
+- user interface improvements;
+- improved game lore;
+- RFC procedure for 0.5 development.
 
-**TODO**: Render Analysis #2 by @Vercidium
-
-rivers!
-
-**TODO**: another img with items or UI?
+New video: ["Cities, dungeons and other structures"][veloren-video] \[[/r/veloren](https://reddit.com/r/Veloren/comments/ddp0n9/veloren_cities_dungeons_and_other_structures)].
 
 Full weekly devlogs "This Week In Veloren...":
 [#36](https://veloren.net/devblog-36),
@@ -127,7 +128,12 @@ Full weekly devlogs "This Week In Veloren...":
 [#38](https://veloren.net/devblog-38),
 [#39](https://veloren.net/devblog-39).
 
+Also, check out [/r/veloren subreddit](https://reddit.com/r/Veloren),
+it's pretty active.
+
 [veloren]: https://veloren.net
+[veloren-survey]: https://veloren.net/devblog-36/#player-survey
+[veloren-video]: https://www.youtube.com/watch?v=iwP7SXdWcTg
 
 ### [PF Sandbox][pf-sandbox]
 
