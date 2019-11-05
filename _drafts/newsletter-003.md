@@ -112,7 +112,7 @@ The game is in an early stage of development, but is playable.
 This month [a v0.4 version was released](https://veloren.net/devblog-37)
 and a [player survey results was published][veloren-survey].
 
-Some of the Octobers' improvements:
+Some of October's improvements:
 
 - lots of bugfixes and optimizations;
 - improved erosion, rivers and water flow physics;
@@ -120,9 +120,10 @@ Some of the Octobers' improvements:
 - improved game lore;
 - RFC procedure for 0.5 development.
 
-New video: ["Cities, dungeons and other structures"][veloren-video] \[[/r/veloren](https://reddit.com/r/Veloren/comments/ddp0n9/veloren_cities_dungeons_and_other_structures)].
+New video: ["Cities, dungeons and other structures"][veloren-video]
+\[[/r/veloren](https://reddit.com/r/Veloren/comments/ddp0n9/veloren_cities_dungeons_and_other_structures)].
 
-Full weekly devlogs "This Week In Veloren...":
+The full weekly devlogs "This Week In Veloren...":
 [#36](https://veloren.net/devblog-36),
 [#37](https://veloren.net/devblog-37),
 [#38](https://veloren.net/devblog-38),
@@ -350,52 +351,59 @@ _Discussions:
 
 ### Ludum Dare 45
 
-**TODO**: Some info about what is LD is.
+[Ludum Dare][ld] is a regular game jam event,
+during which developers create games from scratch in a weekend
+based on a theme suggested by the community.
 
-- "Legally Dead"
+LD45's theme was "Start with nothing".
+Here are some of the games made with Rust:
 
-  ![TODO: local, desc](https://static.jam.vg/raw/b88/z/268d9.png)
-
-  (Uses GGEZ)
-
-  <https://ldjam.com/events/ludum-dare/45/legally-dead/>
-
-  <https://ldjam.com/events/ludum-dare/45/legally-dead/tools-and-tech-for-my-game-written-in-rust>
-
-  <https://twitter.com/vilcans/status/1182402802640982016>
-
-- "Working Title"
-
-  **TODO**: _crop the image_
-
-  ![TODO: local, desc](https://static.jam.vg/raw/11c/d/z/29943.png)
-
-  <https://twitter.com/NoahRosenzweig/status/1181427776634736640>
-  
-  Working Title - Our #LD45 jam entry!
-
-  <https://ldjam.com/events/ludum-dare/45/working-title>
+- ["Working Title"][working-title] by [@NoahRosenzweig] made with amethyst
+  ([source code][working-title-src]).
 
   > _Experience a work in progress._
   >
   > Play through the development process of a 2D platformer game,
   > and watch your environment transform as you progress...
-  >
   > The further you get, the more features are added, including
   > menacing enemies, destructive spikes, and adaptive music.
 
-- "Mindmaze"
+  ![Working Title: an early stage of the game](/assets/newsletter-003/working-title.png)
 
-  **TODO**: logo/gif?
+- ["Mindmaze"][mindmaze] by [@sigodme]
+  ([source code][mindmaze-src]).
 
-  A small and unhurried story about devious passages of the trapped human mind.
-  Begin in the middle of oblivion as shadow and take a walk through
-  every chamber of this place to find all shards of lost personality.
-  Can you find the way out?!
+  > A small and unhurried story about devious passages
+  > of the trapped human mind.
+  > Begin in the middle of oblivion as shadow and take a walk through
+  > every chamber of this place to find all shards of lost personality.
+  > Can you find the way out?!
 
-  <https://ldjam.com/events/ludum-dare/45/mindmaze>
+  ![Mindmaze: main menu](/assets/newsletter-003/ld45-mindmaze.png)
 
-  code: <https://github.com/sigod/ludum-dare-45>
+- ["Legally Dead"][legally-dead] by [@vilcans] made with [ggez]
+  ([source code][legally-dead-src]).
+
+  > With nothing, not even memories, you find yourself maneuvering
+  > some kind of craft in strange caves.
+
+  ![ultra-low-poly ship in low-poly caves](/assets/newsletter-003/legally-dead.png)
+
+  Check out the devlog post:
+  ["Tools and tech for my game written in Rust"][legally-dead-post].
+
+[ld]: https://en.wikipedia.org/wiki/Ludum_Dare
+[working-title]: https://ldjam.com/events/ludum-dare/45/working-title
+[working-title-src]: https://github.com/Noah2610/LD45-WorkingTitle
+[@NoahRosenzweig]: https://twitter.com/NoahRosenzweig
+[mindmaze]: https://ldjam.com/events/ludum-dare/45/mindmaze
+[mindmaze-src]: https://github.com/sigod/ludum-dare-45
+[@sigodme]: https://twitter.com/sigodme
+[legally-dead]: https://ldjam.com/events/ludum-dare/45/legally-dead
+[legally-dead-post]: https://ldjam.com/events/ludum-dare/45/legally-dead/tools-and-tech-for-my-game-written-in-rust
+[legally-dead-src]: https://github.com/vilcans/ld45
+[@vilcans]: https://twitter.com/vilcans
+[ggez]: https://ggez.rs
 
 ### Amethyst Games
 
