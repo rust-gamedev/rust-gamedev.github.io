@@ -598,16 +598,6 @@ My Rust Roguelike Tutorial just hit chapter 40! The newest chapter is about door
 
 <http://bfnightly.bracketproductions.com/rustbook/>
 
-### [Pixels][pixels]
-
-![TODO: local, smaller, desc](https://raw.githubusercontent.com/parasyte/pixels/master/img/pixels.png)
-
-> [Pixels][pixels] is a tiny hardware-accelerated pixel frame buffer. crab
-
-TODO: Uses wgpu.
-
-[pixels]: https://github.com/parasyte/pixels
-
 ### [Nannou awarded Mozilla grant for foundational audio development][nannou-post]
 
 ![TODO: local, desc](https://nannou.cc/static/9bd3d69917cfc005e44b068a1fefc46c/35c67/mission_partners_nannou_mozilla.png)
