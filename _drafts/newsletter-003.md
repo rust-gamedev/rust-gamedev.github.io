@@ -299,55 +299,28 @@ follow [@logicsoup] on Twitter.
 
 ### [Godot][godot] and Rust
 
-- Rendering a 2D game in 3D
+- ["Rendering a 2D game in 3D"](https://medium.com/@recallsingularity/rendering-a-2d-game-in-3d-bd24ddbee6eb) -
+  [Tom Leys] is working on a “The Recall Singularity” [Godot][godot]/Rust game
+  about designing autonomous factory ships and stations
+  and this month they published
+  a post about evolution of the game's rendering.
 
-  **TODO**: img
+  ![Recall Singularity screenshot: map, a few belts and processing nodes](/assets/newsletter-003/recall-singular.png)
 
-  <https://medium.com/@recallsingularity/rendering-a-2d-game-in-3d-bd24ddbee6eb>
+- [@ardawanizadi] shared a
+  [short text report](https://reddit.com/r/godot/comments/dilbar/game_progress_for_almost_a_month_rust_godot)
+  and a [video demo](https://twitter.com/ardawanizadi/status/1184353596927688704)
+  of their progress with a project of an OpenWorld game this month:
+  character physics, weapon system, cameras, animations system,
+  dynamic damage system.
 
-  <https://twitter.com/RecallSingular1/status/1184059000242855936>
-
-------
-
-- First month #GameDev #Progress by ardawanizadi
-
-TODO: img?
-
-First month #GameDev #Progress.
-
-- Realistic physics for #character & #weapon system.
-- First-third person camera.
-- Full rotation on first & limited on third person.
-- Dynamic damage system based on distance & body part.
-- Weapon switching.
-- Animation management.
-
-> almost a month working on my OpenWorld game to prepare all the base and necessary mechanics & logic. with my limited time due to a full-time job, I could manage to make some progress. Please take a look and leave your comments. Thank you.
-
-TODO: remove? <https://reddit.com/r/rust_gamedev/comments/dilb5k/game_progress_for_almost_a_month_rust_godot>
-
-<https://old.reddit.com/r/godot/comments/dilbar/game_progress_for_almost_a_month_rust_godot>
-
-_Discussions:
-[twitter](https://twitter.com/ardawanizadi/status/1184353596927688704)_
-
-------
-
-"Pong Clone in Godot Using `gdnative` Rust Bindings"
-
-**TODO**: img
-
-<https://reddit.com/r/godot/comments/dfam0p/i_made_a_pong_clone_in_godot_using_the_gdnative>
-
-<https://github.com/you-win/godot-pong-rust>
-
-> I couldn't find any full game examples that used godot-rust so I decided to make my own.
->
-> The scripts for the paddles and ball are written in Rust, and I added a convenience script for restarting the scene written in GDscript.
->
-> tl;dr: Using gdnative + Rust wasn't too bad.
+- ["Pong Clone in Godot Using 'gdnative' Rust Bindings"](https://reddit.com/r/godot/comments/dfam0p/i_made_a_pong_clone_in_godot_using_the_gdnative) - [@you-win] couldn't find any full game examples that used [godot-rust] so they made their own \[[source code](https://github.com/you-win/godot-pong-rust)].
 
 [godot]: https://godotengine.org
+[Tom Leys]: https://twitter.com/RecallSingular1
+[@ardawanizadi]: https://twitter.com/ardawanizadi
+[@you-win]: https://github.com/you-win
+[godot-rust]: https://github.com/GodotNativeTools/godot-rust
 
 ### Ludum Dare 45
 
