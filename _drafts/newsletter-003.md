@@ -294,17 +294,17 @@ follow [@logicsoup] on Twitter.
 [garden-october]: http://cyberplant.xyz/posts/october
 [@logicsoup]: https://twitter.com/logicsoup
 
-### [EVE Online] Backend Optimization
+### [EVE Aether Wars] Backend Optimization
 
 [@aidanhs shared](https://twitter.com/aidanhs/status/1181584776584675328)
-a small [EVE Online] backend optimization success story:
+a small [EVE Aether Wars] backend optimization success story:
 
 > To double the tick rate to 30Hz, our underlying @rustlang layer
 > [from last time](https://twitter.com/aidanhs/status/1110607519385350150)
 > needed...a two line bugfix and some metrics support.
 > Nice proof point for reliable software in Rust!
 
-[EVE Online]: https://eveonline.com
+[EVE Aether Wars]: https://store.steampowered.com/app/1165670/EVE_Aether_Wars__Tech_Demo/
 
 ### [Robo Instructus]
 
