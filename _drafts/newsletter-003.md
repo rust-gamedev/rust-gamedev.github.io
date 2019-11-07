@@ -690,6 +690,25 @@ based on the ["Game Physics Engine Development" book][cyclone-physics-book].
 [cyclone-video-demo]: https://twitter.com/heyrutvik/status/1180072669250834432
 [cyclone-physics-book]: https://www.crcpress.com/Game-Physics-Engine-Development-How-to-Build-a-Robust-Commercial-Grade/Millington/p/book/9780123819765
 
+### [Cynic64's WIP Rendering Engine][cynic64-ann]
+
+[@cynic64] shared a [demo video][cynic64-video] and
+a [report about their WIP rendeing engine][cynic64-ann].
+
+It's based on Vulkano and consists of three repos:
+
+- [re-ll] - low level abstractions for Vulkano's command buffers and windows.
+- [render-engine] - Vulkan abstraction.
+- [test-render-engine] - various little programs created with render-engine.
+  "pretty" is the one shown in the video, "base" shows the basic functionality.
+
+[@cynic64]: https://github.com/cynic64
+[cynic64-ann]: https://reddit.com/r/rust/comments/dpa3ar/wip_rendering_engine
+[cynic64-video]: https://youtube.com/watch?v=UrnSCpf_yw0
+[re-ll]: https://github.com/cynic64/re-ll
+[render-engine]: https://github.com/cynic64/render-engine
+[test-render-engine]: https://github.com/cynic64/test-render-engine
+
 ### [Rust Roguelike Tutorial][roguelike-book]
 
 [!["Doors" demo](/assets/newsletter-003/rogulike-demo.gif)][doors-demo]
@@ -746,25 +765,6 @@ _Discussions:
 [nannou-post]: https://nannou.cc/posts/moss_grant_announce
 [MOSS Mission Partners]: https://mozilla.org/en-US/moss/mission-partners
 [CPAL]: https://github.com/rustaudio/cpal
-
-### [Cynic64's WIP Rendering Engine][cynic64-ann]
-
-[@cynic64] shared a [demo video][cynic64-video] and
-a [report about their WIP rendeing engine][cynic64-ann].
-
-It's based on Vulkano and consists of three repos:
-
-- [re-ll] - low level abstractions for Vulkano's command buffers and windows.
-- [render-engine] - Vulkan abstraction.
-- [test-render-engine] - various little programs created with render-engine.
-  "pretty" is the one shown in the video, "base" shows the basic functionality.
-
-[@cynic64]: https://github.com/cynic64
-[cynic64-ann]: https://reddit.com/r/rust/comments/dpa3ar/wip_rendering_engine)_
-[cynic64-video]: https://youtube.com/watch?v=UrnSCpf_yw0
-[re-ll]: https://github.com/cynic64/re-ll
-[render-engine]: https://github.com/cynic64/render-engine
-[test-render-engine]: https://github.com/cynic64/test-render-engine
 
 ### Amethyst
 
