@@ -555,13 +555,19 @@ _Discussions:
 [rlsl]: https://github.com/MaikKlein/rlsl
 [rlsl-slides]: https://docs.google.com/presentation/d/1_cB-sxUusYVoCYdXnqwAg2u3-lrqBfgrUj205ytxYaw
 
-### gfx-rs & wgpu
+### [gfx-rs v0.4][gfx-v0-4]
 
-**TODO**: img
+![sailor screenshot: vector terrain map and some basic UI](/assets/newsletter-003/sailor.png)
 
-**TODO**: ping @Kvark
+^ _a screenshot from [Yatekii/sailor] - a wgpu-based sailing navigation application_
 
-**TODO**: <https://reddit.com/r/rust/comments/dm89t2/gfxhal_version_04_release>
+[gfx-rs v0.4 was released](https://reddit.com/r/rust/comments/dm89t2/gfxhal_version_04_release):
+major changes were described in [the last blog post](https://gfx-rs.github.io/2019/10/01/update.html),
+for the detailed list of changes, see the
+[CHANGELOG](https://github.com/gfx-rs/gfx/blob/master/CHANGELOG.md#hal-040-23-10-2019).
+
+[gfx-v0-4]: https://reddit.com/r/rust/comments/dm89t2/gfxhal_version_04_release
+[Yatekii/sailor]: https://github.com/Yatekii/sailor
 
 ### [Vulkano: Why Command Buffers Are So Complicated?][vulkano-thread]
 
