@@ -747,27 +747,24 @@ _Discussions:
 [MOSS Mission Partners]: https://mozilla.org/en-US/moss/mission-partners
 [CPAL]: https://github.com/rustaudio/cpal
 
-### WIP Rendering Engine by @Cynic64 (TODO: Title?)
+### [Cynic64's WIP Rendering Engine][cynic64-ann]
 
-**TODO**: img
+[@cynic64] shared a [demo video][cynic64-video] and
+a [report about their WIP rendeing engine][cynic64-ann].
 
-<https://youtube.com/watch?v=UrnSCpf_yw0>
+It's based on Vulkano and consists of three repos:
 
-<https://reddit.com/r/rust/comments/dpa3ar/wip_rendering_engine>
+- [re-ll] - low level abstractions for Vulkano's command buffers and windows.
+- [render-engine] - Vulkan abstraction.
+- [test-render-engine] - various little programs created with render-engine.
+  "pretty" is the one shown in the video, "base" shows the basic functionality.
 
-**TODO**: Details
-
-> Made with Rust and Vulkano.
->
-> Repositories for the curious:
->
-> - <https://github.com/cynic64/re-ll> (low level abstractions for Vulkano's command buffers and windows)
->
-> - <https://github.com/cynic64/render-engine> (Vulkan abstraction. I should probably rename it as although my original intention was to make it a more complete rendering engine with built-in support for mesh loading, lighting, etc., it's become something different.)
->
-> - <https://github.com/cynic64/test-render-engine>. (various little programs created with render-engine. "pretty" is the one shown in the video, "base" shows the basic functionality.)
->
-> This is more of a demo than a something you should try and use in your own project. The test-render-engine repository in particular is a real mess, as I had to rush because it's a school project and the deadline was looming. Pretty.rs is a real abomination. I apologize...
+[@cynic64]: https://github.com/cynic64
+[cynic64-ann]: https://reddit.com/r/rust/comments/dpa3ar/wip_rendering_engine)_
+[cynic64-video]: https://youtube.com/watch?v=UrnSCpf_yw0
+[re-ll]: https://github.com/cynic64/re-ll
+[render-engine]: https://github.com/cynic64/render-engine
+[test-render-engine]: https://github.com/cynic64/test-render-engine
 
 ### Amethyst
 
