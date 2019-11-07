@@ -687,19 +687,32 @@ based on the ["Game Physics Engine Development" book][cyclone-physics-book].
 [cyclone-video-demo]: https://twitter.com/heyrutvik/status/1180072669250834432
 [cyclone-physics-book]: https://www.crcpress.com/Game-Physics-Engine-Development-How-to-Build-a-Robust-Commercial-Grade/Millington/p/book/9780123819765
 
-### Rust Roguelike Tutorial
+### [Rust Roguelike Tutorial][roguelike-book]
 
-![TODO: check size, local, desc](http://bfnightly.bracketproductions.com/rustbook/c40-s4.gif)
+[!["Doors" demo](/assets/newsletter-003/rogulike-demo.gif)][doors-demo]
 
-<https://twitter.com/herberticus/status/1179439105404493825> TODO
+[The Roguelike Tutorial][roguelike-book] by [@blackfuture]
+includes almost 40 chapters now and continues to grow.
 
-<https://twitter.com/herberticus/status/1183815235368574981> TODO
+Some of the October's updates:
 
-<https://twitter.com/herberticus/status/1187358052107862016>
+- traps and doors;
+- mapgen algorythms including Waveform Collapse;
+- prefab levels and sections;
+- guided procgen for towns.
 
-My Rust Roguelike Tutorial just hit chapter 40! The newest chapter is about doors, and their placement. 38/39 improve rooms/corridors, 37/38 expand the procgen layer system.
+All chapters have links to WASM demos.
 
-<http://bfnightly.bracketproductions.com/rustbook/>
+------
+
+Also, 0.5 version of [rltk-rs] brings
+abstraction between back-ends, better compile time,
+web version improvements, and more examples.
+
+[roguelike-book]: http://bfnightly.bracketproductions.com/rustbook
+[doors-demo]: http://bfnightly.bracketproductions.com/rustbook/wasm/chapter-40-doors
+[rltk-rs]: https://github.com/thebracket/rltk_rs
+[@blackfuture]: https://patreon.com/blackfuture
 
 ### [Nannou awarded Mozilla grant for foundational audio development][nannou-post]
 
