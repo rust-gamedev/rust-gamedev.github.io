@@ -485,19 +485,44 @@ _Discussions:
 
 **TODO**: Any discussions?
 
-### RUSTFLAGS Tip (TODO: title)
+### 🛈 Tip: Speed Up Iteration Time By Using [LLD Linker][lld]
 
-```sh
-RUSTFLAGS="-C link-arg=-fuse-ld=lld" cargo run
-```
+Takeaways from [an interesting tweet](https://twitter.com/VladZhukov0/status/1186412587958845442)
+from [VladZhukov0]
+and a [/r/rust thread "Is the rust compiler really THAT slow?"][r_rust_slow]:
 
-Reduced my average compilation time from 10-20s(which is a bit crazyness for gamedev iteration) to 5-7s. Wonder why haven't I tried this before?🤔
+- Try switching to [LLD linker][lld]:
 
-<https://twitter.com/VladZhukov0/status/1186412587958845442>
+  ```sh
+  RUSTFLAGS="-C link-arg=-fuse-ld=lld" cargo run
+  # Alternativly, you can set `rustflags` in your `.cargo/config`
+  ```
 
-**TODO**: Link the reddit thread
+  Depending on your project structure, OS, and toolchain
+  this can potentially speed up the incremental compilation a few times.
 
-<https://reddit.com/r/rust/comments/dl4c8o/is_the_rust_compiler_really_that_slow>
+- Also, try disabling debug information (if you don't need it):
+
+  ```toml
+  # in your `Cargo.toml`
+
+  [profile.dev]
+  debug = 0
+  ```
+
+> Now the linking only takes around one second,
+> compared to 10 seconds previously.
+>
+> Reduced my average compilation time from 10-20s
+> (which is a bit crazyness for gamedev iteration) to 5-7s.
+> Wonder why haven't I tried this before?🤔
+
+Also, see this GameDev WG tracker/complaint issue:
+[#50 "Linking Time"](https://github.com/rust-gamedev/wg/issues/50).
+
+[lld]: https://lld.llvm.org
+[VladZhukov0]: https://twitter.com/VladZhukov0
+[r_rust_slow]: https://reddit.com/r/rust/comments/dl4c8o/is_the_rust_compiler_really_that_slow
 
 ### RLSL: a Rust to SPIR-V Compiler
 
