@@ -636,21 +636,42 @@ _Discussions:
 [SIMD]: https://en.wikipedia.org/wiki/SIMD
 [aos_soa]: https://en.wikipedia.org/wiki/AoS_and_SoA
 
-### This month in rustsim #8 (August − September - October 2019)
+### [This month in rustsim #8 (Aug - Sep - Oct 2019)][rustsim-8]
 
-![salva's logo (TODO: local)](https://salva.rs/img/logo_salva_full.svg)
+![salva's logo](/assets/newsletter-003/salva.png)
 
-<https://salva.rs>
+Main updates:
 
-<https://rustsim.org/blog/2019/11/01/this-month-in-rustsim>
+- [salva.rs] - two new crates for fluid simulation: salva2d and salva3d!
 
-VIDEO: <https://www.youtube.com/watch?v=356unTmeVUk>
+  > Salva is a new project dedicated to fluid simulation.
+  > The goal of salva is to provide CPU-based, particle-based, 2D and 3D,
+  > fluid simulation libraries that can be used for interactive and offline
+  > application like animation.
+  > It could be used, to some extents, for video games (especially the 2D version),
+  > as long as the number of particles is kept small.
 
-TODO: Improvements on nphysics 0.13
+  Watch a ["Fluid simulation with salva 0.1 and nphysics 0.13"][rustsim-video]
+  video or play with the online [2D][salva-demo-2d] or [3D][salva-demo-3d]
+  WASM demos yourself.
 
-New sponsorship platform: GitHub sponsor
+- [nphysics 0.13][nphysics.rs] brings:
+  some support of breakable joint constraints,
+  and more improvements on the integration with ECS.
 
-<https://reddit.com/r/rust/comments/doheby/this_month_in_rustsim_8_august_september_october>
+- [@sebcrozet](https://github.com/sebcrozet)
+  (the main developer of all the current rustsim projects)
+  [have been added to the GitHub sponsor beta](https://github.com/sponsors/sebcrozet).
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/doheby/this_month_in_rustsim_8)_
+
+[rustsim-8]: https://rustsim.org/blog/2019/11/01/this-month-in-rustsim
+[rustsim-video]: https://www.youtube.com/watch?v=356unTmeVUk
+[salva.rs]: https://salva.rs
+[salva-demo-2d]: https://www.salva.rs/demo_all_examples2
+[salva-demo-3d]: https://www.salva.rs/demo_all_examples3
+[nphysics.rs]: https://nphysics.org
 
 ### cyclone-physics-rs
 
