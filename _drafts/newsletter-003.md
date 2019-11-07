@@ -673,13 +673,19 @@ _Discussions:
 [salva-demo-3d]: https://www.salva.rs/demo_all_examples3
 [nphysics.rs]: https://nphysics.org
 
-### cyclone-physics-rs
+### [cyclone-physics-rs]
 
-TODO: extract gif: <https://twitter.com/heyrutvik/status/1180072669250834432>
+[![cyclone physics demo](/assets/newsletter-003/cyclone-physics-demo.gif)][cyclone-video-demo]
 
-> I've spent last few weekends on the long-standing item in my wishlist, the game physics engine, here is the little demo of "particle" simulation. Still long way to go, but you've got to start somewhere, no? 🤓
+^ _a little demo of "particle" simulation_
 
-<https://github.com/heyrutvik/cyclone-physics-rs>
+[cyclone-physics-rs] by [@heyrutvik] a new WIP game physics engine
+based on the ["Game Physics Engine Development" book][cyclone-physics-book].
+
+[@heyrutvik]: https://twitter.com/heyrutvik
+[cyclone-physics-rs]: https://github.com/heyrutvik/cyclone-physics-rs
+[cyclone-video-demo]: https://twitter.com/heyrutvik/status/1180072669250834432
+[cyclone-physics-book]: https://www.crcpress.com/Game-Physics-Engine-Development-How-to-Build-a-Robust-Commercial-Grade/Millington/p/book/9780123819765
 
 ### Rust Roguelike Tutorial
 
