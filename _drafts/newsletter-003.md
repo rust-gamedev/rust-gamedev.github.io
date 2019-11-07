@@ -5,7 +5,6 @@ title: "This Month in Rust GameDev #3 - October 2019"
 <!-- markdownlint-disable no-trailing-punctuation -->
 
 <!-- TODO: Check the post with markdownlint-->
-<!-- TODO: sort entries (see Kvark's old comment) -->
 <!-- TODO: break all long lines! -->
 
 Welcome to the third issue of the Rust GameDev Workgroup’s
@@ -18,8 +17,6 @@ These goals are well-aligned with game development.
 We hope to build an inviting ecosystem for anyone wishing
 to use Rust in their development process!
 Want to get involved? [Join the Rust GameDev working group!][join]
-
-**TODO**: _Add a notice that PRs from the creators are encouraged, link to the instructions_.
 
 [Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
@@ -855,6 +852,7 @@ That's all news for today, thanks for reading!
 
 Want something mentioned in the next newsletter?
 [Send us a pull request][pr].
+Fell free to send PRs about your own projects!
 
 Also, subscribe to [@rust_gamedev on Twitter][@rust_gamedev]
 or [/r/rust_gamedev subreddit][/r/rust_gamedev] if you want to receive fresh news!
