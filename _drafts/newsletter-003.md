@@ -610,11 +610,31 @@ by the handle with the `Interpolation::Bezier` mode).
 <https://twitter.com/wodannson/status/1180871977495617536>
 <https://twitter.com/wodannson/status/1179698233737650176>
 
-### ultraviolet
+### [ultraviolet]
 
-**TODO**: img (benches?)
+![ultraviolet benchmarks table](/assets/newsletter-003/ultraviolet-benches.png)
 
-<https://www.reddit.com/r/rust/comments/dpknd1/ultraviolet_a_crate_to_do_lots_of_linear_algebra>
+[ultraviolet] by [@termhn] is a crate to do basic, computer-graphics-related,
+linear algebra, but fast, by taking full advantage of [SIMD].
+
+> <...> To do this, it uses an "SoA" ([Structure of Arrays][aos_soa])
+> architecture such that each Wec (wide-vec) actually contains the data
+> for 4 Vecs and will do any operation on all 4 of the vector 'lanes'
+> at the same time.
+> Doing this is potentially much (factor of 10) faster than
+> an "AoS" ([Array of Structs][aos_soa]) layout,
+> as all current Rust linear algebra libraries do, depending on your work load.
+> However, algorithms must be carefully architected
+> to take full advantage of this, and doing so can be easier said than done,
+> especially if your algorithm involves significant branching.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/dpknd1/ultraviolet_a_crate_to_do_lots_of_linear_algebra)_
+
+[ultraviolet]: https://github.com/termhn/ultraviolet
+[@termhn]: https://twitter.com/termhn
+[SIMD]: https://en.wikipedia.org/wiki/SIMD
+[aos_soa]: https://en.wikipedia.org/wiki/AoS_and_SoA
 
 ### This month in rustsim #8 (August − September - October 2019)
 
