@@ -771,23 +771,25 @@ _Discussions:
 
 ### Amethyst
 
-- Specs Parallel ECS moved to @AmethystEngine organization:
-  
-  <https://users.rust-lang.org/t/specs-parallel-ecs-moved-to-amethyst-organization/33815>
+![amethyst logo](/assets/newsletter-001/amethyst-logo.png)
 
-- @_AndreaCatania published two video tutorials
+- [specs] and its related repositories [awesome-specs], [hibitset] and [shred]
+  were moved to [Amethyst organization] \[[URLO][specs-moved]].
 
-  <https://youtu.be/7GZc4P_v_DY> - third tutorial about ...
+- [amethyst_physics v0.1.1 was released](https://www.reddit.com/r/rust_gamedev/comments/dm3jsf/amethyst_v011_contacts_events): now it's possible to fetch Rigid body contacts events.
 
-  TODO: find other stuff!
+- [@_AndreaCatania] published two video tutorials:
 
-  <https://www.reddit.com/r/rust_gamedev/comments/dk2bin/dispatching_mechanism_of_amethyst_physics/>
+  - ["Character controller - Amethyst physics tutorial #2"](https://youtube.com/watch?v=-RTPZPYR5CI)
+  - ["Physics Batch Dispatcher - Amethyst physics tutorial #3"](https://youtube.com/watch?v=7GZc4P_v_DY)
 
-  <https://reddit.com/r/rust_gamedev/comments/dgsq9e/3rd_person_character_controller_amethyst>
-
-- <https://reddit.com/r/rust_gamedev/comments/dm3jsf/amethyst_v011_contacts_events>
-
-**TODO**: _Ping @erlend_sh_
+[specs]: https://github.com/amethyst/specs
+[specs-moved]: https://users.rust-lang.org/t/specs-parallel-ecs-moved-to-amethyst-organization/33815
+[awesome-specs]: https://github.com/amethyst/awesome-specs
+[hibitset]: https://github.com/amethyst/hibitset
+[shred]: https://github.com/amethyst/shred
+[Amethyst organization]: https://github.com/amethyst
+[@_AndreaCatania]: https://twitter.com/_AndreaCatania
 
 ## Popular Workgroup Issues in Github
 
