@@ -4,9 +4,6 @@ title: "This Month in Rust GameDev #3 - October 2019"
 
 <!-- markdownlint-disable no-trailing-punctuation -->
 
-<!-- TODO: Check the post with markdownlint-->
-<!-- TODO: break all long lines! -->
-
 Welcome to the third issue of the Rust GameDev Workgroup’s
 monthly newsletter.
 
@@ -839,11 +836,21 @@ or [join the next meeting][join].
 <!-- Bonus section to make the newsletter more interesting
 and highlight events from the past. -->
 
-**TODO**: ???
+Just an interesting Rust gamedev link from the past. :)
 
-- <https://github.com/bcamp1/Gravisim>
+[![Gravisim screenshot](/assets/newsletter-003/gravisim.png)][gravisim-ann]
 
-- <https://reddit.com/r/rust/comments/atdkeg/ive_been_making_a_gravity_simulator_using>
+[Gravisim][gravisim-src] by [@bcamp1]
+is a simulation of universal gravitation.
+It uses [Newton's Law for Universal Gravitation][unigrav]
+to run an n-body physics simulation.
+
+[Check out a video demo in this /r/rust announcement.][gravisim-ann]
+
+[gravisim-src]: https://github.com/bcamp1/Gravisim
+[gravisim-ann]: https://reddit.com/r/rust/comments/atdkeg/ive_been_making_a_gravity_simulator_using/
+[@bcamp1]: https://github.com/bcamp1
+[unigrav]: https://en.wikipedia.org/wiki/Newton%27s_law_of_universal_gravitation
 
 ------
 
