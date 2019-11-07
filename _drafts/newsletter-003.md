@@ -73,7 +73,7 @@ Features:
 - Cross platform native binaries, currently [built for Windows and Linux][sulis-releases]
 - Multiple campaigns with over 8 hours of playtime,
   featuring both handcrafted and procedural content.
-- We are designing a detailed and fully realized world and story - check out
+- A detailed and fully realized world and story - check out
   the [Lore page][sulis-lore].
 - Designed with modding in mind - although more work still needs
   to be done in this area.
