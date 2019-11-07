@@ -575,21 +575,24 @@ are so complicated.
 [Vulkano]: http://vulkano.rs
 [Vulkan]: https://www.khronos.org/vulkan
 
-### splines-3.0.0: “stroke” Bézier support
+### [splines v3.0][splines]
 
-**TODO**: img?
+![a spline sample with node handles](/assets/newsletter-003/splines.png)
 
-by [@phaazon]
+[splines], a crate by [@phaazon] to handle spline interpolation,
+[just got released in version 3.0.0][splines-v3].
 
-[splines], a crate to handle spline interpolation, just got released in version 3.0.0. That version adds support for stroke Bézier interpolation, which is a Bézier interpolation but allows you to break the handles (instead of the regular 180° angle formed by the handle with the `Interpolation::Bezier` mode).
+That version adds support for stroke Bézier interpolation,
+which is a Bézier interpolation but allows you to break the handles
+(instead of the regular 180° angle formed
+by the handle with the `Interpolation::Bezier` mode).
 
-spline-editor got a patch to allows you to try stroke Bézier. Just put some points and set them all to Bézier interpolation (use the space key). Then select a point and press space again to switch to stroke Bézier. You can move each handle independently from the other.
-
-<https://github.com/phaazon/spline-editor>
-
-<https://reddit.com/r/rust/comments/dln7yd/splines300_stroke_b%C3%A9zier_support>
+[spline-editor] got a patch to allows you to try stroke Bézier.
 
 [splines]: https://crates.io/crates/splines
+[spline-editor]: https://github.com/phaazon/spline-editor
+[splines-v3]: https://reddit.com/r/rust/comments/dln7yd/splines300
+
 [@phaazon]: https://twitter.com/phaazon_
 
 ### This Month in Mun - October 2019
