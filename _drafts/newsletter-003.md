@@ -309,7 +309,7 @@ a small [EVE Aether Wars] backend optimization success story:
 [1.12, 1.13, and 1.14 versions were released][robo-news]:
 non-ascii code input, new icons, bugfixes, and better translations.
 
-[You can contribute to transaltions here][robo-transaltion].
+[You can contribute to translations here][robo-transaltion].
 
 ![translated menu items](/assets/newsletter-003/robo-ru.png)
 
@@ -425,7 +425,7 @@ Here are some of the games made with Rust:
 
   ![Arrakis screenshot](/assets/newsletter-003/arrakis.png)
 
-- [@webshinra] finished porting their their hexagonal game to Amethyst
+- [@webshinra] finished porting their hexagonal game to Amethyst
   and is now preparing to build gameplay.
 
   ![hexagonal pam with a few mechs](/assets/newsletter-003/webshinra-hex.jpg)
@@ -485,7 +485,7 @@ and a [/r/rust thread "Is the rust compiler really THAT slow?"][r_rust_slow]:
 
   ```sh
   RUSTFLAGS="-C link-arg=-fuse-ld=lld" cargo run
-  # Alternativly, you can set `rustflags` in your `.cargo/config`
+  # Alternatively, you can set `rustflags` in your `.cargo/config`
   ```
 
   Depending on your project structure, OS, and toolchain
@@ -525,8 +525,8 @@ This month, [@MaikKlein_DEV] gave a talk at
 about bringing Rust to the GPU:
 [here're the slides][rlsl-slides].
 
-[RLSL][rlsl] (Rust Like Shading Language) is a _experimental_ project
-that allow compiling Rust to [SPIR-V][spir-v].
+[RLSL][rlsl] (Rust Like Shading Language) is an _experimental_ project
+that allows compiling Rust to [SPIR-V][spir-v].
 
 Current features:
 
@@ -693,7 +693,7 @@ based on the ["Game Physics Engine Development" book][cyclone-physics-book].
 ### [Cynic64's WIP Rendering Engine][cynic64-ann]
 
 [@cynic64] shared a [demo video][cynic64-video] and
-a [report about their WIP rendeing engine][cynic64-ann].
+a [report about their WIP rendering engine][cynic64-ann].
 
 It's based on Vulkano and consists of three repos:
 
@@ -719,7 +719,7 @@ includes almost 40 chapters now and continues to grow.
 Some of the October's updates:
 
 - traps and doors;
-- mapgen algorythms including Waveform Collapse;
+- mapgen algorithms including Waveform Collapse;
 - prefab levels and sections;
 - guided procgen for towns.
 
@@ -863,7 +863,7 @@ That's all news for today, thanks for reading!
 
 Want something mentioned in the next newsletter?
 [Send us a pull request][pr].
-Fell free to send PRs about your own projects!
+Feel free to send PRs about your own projects!
 
 Also, subscribe to [@rust_gamedev on Twitter][@rust_gamedev]
 or [/r/rust_gamedev subreddit][/r/rust_gamedev] if you want to receive fresh news!
