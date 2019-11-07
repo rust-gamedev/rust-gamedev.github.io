@@ -563,14 +563,17 @@ _Discussions:
 
 **TODO**: <https://reddit.com/r/rust/comments/dm89t2/gfxhal_version_04_release>
 
-### Vulkano: Why Command Buffers Are So Complicated?
+### [Vulkano: Why Command Buffers Are So Complicated?][vulkano-thread]
 
-by @Tomaka
+![vulkano logo](/assets/newsletter-003/vulkano-logo.png)
 
-> Small thread about why command buffers in vulkano
-> (a Rust library that wraps around Vulkan) are so complicated.
+[A twitter thread by @Tomaka][vulkano-thread] about why command buffers
+in [Vulkano] (a Rust library that wraps around [Vulkan graphics API][Vulkan])
+are so complicated.
 
-<https://twitter.com/tomaka17/status/1188513260473110528>
+[vulkano-thread]: https://twitter.com/tomaka17/status/1188513260473110528
+[Vulkano]: http://vulkano.rs
+[Vulkan]: https://www.khronos.org/vulkan
 
 ### splines-3.0.0: “stroke” Bézier support
 
