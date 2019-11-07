@@ -595,20 +595,23 @@ by the handle with the `Interpolation::Bezier` mode).
 
 [@phaazon]: https://twitter.com/phaazon_
 
-### This Month in Mun - October 2019
+### [This Month in Mun - October 2019][mun-oct]
 
-**TODO**: img?
+[Mun][mun-lang.org] is a scripting language for gamedev
+focused on quick iteration times that is written in Rust.
 
-> This Month in #Mun -Oct 2019: Having built a runtime prototype and framework for lexing, parsing, type checking, and LLVM IR code generation; our goal for the remainder of October was to extend, polish, and stabilise this into a Mun v0.1 release.
+The Mun Team started October with the launch of the [mun-lang.org] website,
+[Discord server][mun-discord], and [OpenCollective][mun-oc]
+and processing the feedback from a larger audience.
+Now the team is moving towards v0.1 release.
 
-<https://mun-lang.org/blog/2019/10/28/this-month-october/>
+Also, check out /r/rust ["The Mun programming language is going live!" post][mun-live].
 
-------
-
-<https://reddit.com/r/rust/comments/de51ai/the_mun_programming_language_is_going_live>
-
-<https://twitter.com/wodannson/status/1180871977495617536>
-<https://twitter.com/wodannson/status/1179698233737650176>
+[mun-oct]: https://mun-lang.org/blog/2019/10/28/this-month-october
+[mun-lang.org]: https://mun-lang.org
+[mun-discord]: https://discord.gg/SfvvcCU
+[mun-oc]: https://opencollective.com/mun
+[mun-live]: https://reddit.com/r/rust/comments/de51ai/the_mun_programming_language_is_going_live
 
 ### [ultraviolet]
 
@@ -765,16 +768,6 @@ _Discussions:
 > - <https://github.com/cynic64/test-render-engine>. (various little programs created with render-engine. "pretty" is the one shown in the video, "base" shows the basic functionality.)
 >
 > This is more of a demo than a something you should try and use in your own project. The test-render-engine repository in particular is a real mess, as I had to rush because it's a school project and the deadline was looming. Pretty.rs is a real abomination. I apologize...
-
-### Jakar Engine
-
-**TODO** add img from: <https://twitter.com/siebencorgie/status/1187021315657605120>
-
-> Reflections are now working and there is a gltf importer/voxelizer.
-The performance is not exactly good at the moment but several optimizations are not implemented.
-This is 3440x1440 @ 50 fps on AMD Vega 56.
-
-<https://gitlab.com/Siebencorgie/jakar-engine>
 
 ### Amethyst
 
