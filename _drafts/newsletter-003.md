@@ -520,28 +520,40 @@ Also, see this GameDev WG tracker/complaint issue:
 [VladZhukov0]: https://twitter.com/VladZhukov0
 [r_rust_slow]: https://reddit.com/r/rust/comments/dl4c8o/is_the_rust_compiler_really_that_slow
 
-### RLSL: a Rust to SPIR-V Compiler
+### [RLSL][rlsl]: a Rust to SPIR-V Compiler
 
-**TODO**: img from slides
+![RLSL code sample](/assets/newsletter-003/rlsl-example.png)
 
-"Rlsl - Rust Like Shading Language"
+^ _a simple fragment shader that renders a red circle (temporary syntax)_
 
-<https://twitter.com/MaikKlein_DEV>
+This month, [@MaikKlein_DEV] gave a talk at
+[The Khronos Group](https://www.khronos.org)'s meetup in Munich
+about bringing Rust to the GPU:
+[here're the slides][rlsl-slides].
 
-<https://github.com/MaikKlein/rlsl>
+[RLSL][rlsl] (Rust Like Shading Language) is a _experimental_ project
+that allow compiling Rust to [SPIR-V][spir-v].
 
-<https://docs.google.com/presentation/d/1_cB-sxUusYVoCYdXnqwAg2u3-lrqBfgrUj205ytxYaw>
+Current features:
 
-<https://reddit.com/r/rust/comments/dlcjet/rlsl_a_rust_to_spirv_compiler>
+- Supports cargo;
+- Multiple entry points can be defined in the same SPIR-V module;
+- Currently supports Vertex, Fragment and Compute shaders;
+- Shader code can run on the CPU because rlsl is a subset of Rust.
 
-<https://twitter.com/MaikKlein_DEV/status/1186248536633024512> slides about Rust->SPIR-V
+Also, check out older posts:
 
-<https://news.ycombinator.com/item?id=21314679>
+- ["RLSL Progress report" (2018.02.09)](https://maikklein.github.io/rlsl-progress-report),
+- ["Raycasting a sphere with RLSL" (2018.10.20, video)](https://youtube.com/watch?v=XhAvIVs7lOA).
 
-> Raycasting a sphere with rlsl Sep 20, 2018
-> Old video from 2018: <https://youtube.com/watch?v=XhAvIVs7lOA>
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/dlcjet/rlsl_a_rust_to_spirv_compiler),
+[hacker news](https://news.ycombinator.com/item?id=21314679)_
 
-[Support maikklein on Patreon](https://patreon.com/maikklein).
+[@MaikKlein_DEV]: https://twitter.com/MaikKlein_DEV
+[spir-v]: https://www.khronos.org/registry/spir-v
+[rlsl]: https://github.com/MaikKlein/rlsl
+[rlsl-slides]: https://docs.google.com/presentation/d/1_cB-sxUusYVoCYdXnqwAg2u3-lrqBfgrUj205ytxYaw
 
 ### gfx-rs & wgpu
 
