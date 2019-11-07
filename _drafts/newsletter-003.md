@@ -481,10 +481,6 @@ _Discussions:
 [Will]: https://azriel91.itch.io/will
 [dev-time-opt]: https://azriel.im/will/2019/10/08/dev-time-optimization-part-1-1.9x-speedup-65-less-disk-usage
 
-<https://azriel.im/will/2019/10/08/dev-time-optimization-part-1-1.9x-speedup-65-less-disk-usage>
-
-**TODO**: Any discussions?
-
 ### 🛈 Tip: Speed Up Iteration Time By Using [LLD Linker][lld]
 
 Takeaways from [an interesting tweet](https://twitter.com/VladZhukov0/status/1186412587958845442)
