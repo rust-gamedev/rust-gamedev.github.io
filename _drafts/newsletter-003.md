@@ -716,19 +716,33 @@ web version improvements, and more examples.
 
 ### [Nannou awarded Mozilla grant for foundational audio development][nannou-post]
 
-![TODO: local, desc](https://nannou.cc/static/9bd3d69917cfc005e44b068a1fefc46c/35c67/mission_partners_nannou_mozilla.png)
+[![Nannou & mozilla logos](/assets/newsletter-003/mission_partners_nannou_mozilla.png)][nannou-post]
 
-[Post][nannou-post]
+[Nannou][nannou] is a creative coding framework that aims to make it easy
+for artists to express themselves with simple, fast, reliable code.
 
-[Nannou][nannou] is a creative coding framework that aims to make it easy for artists to express themselves with simple, fast, reliable code.
+[Nannou has been awarded 10K USD in funding][nannou-post]
+as a part of the [MOSS Mission Partners] track.
+The proposed work is aimed towards improving the state
+of some foundational crates within the Rust audio ecosystem
+over the next three to four months.
 
-[Nannou][nannou] the creative coding framework awarded Mozilla grant for Rust audio development
+Key areas of our work will include:
+
+- Addressing some long-standing issues in [CPAL].
+- Review and improve CPAL's web audio support.
+- Implement a simple web app and guide demonstrating CPAL's web audio support.
+- Design, develop and document a standard audio graph abstraction and crate,
+  reflecting on lessons learned and limitations of prior efforts,
+  and the requirements of the wider rust audio community.
 
 _Discussions:
 [/r/rust](https://reddit.com/r/rust/comments/dlz3fb/nannou_the_creative_coding_framework_awarded)_
 
 [nannou]: https://nannou.cc
 [nannou-post]: https://nannou.cc/posts/moss_grant_announce
+[MOSS Mission Partners]: https://mozilla.org/en-US/moss/mission-partners
+[CPAL]: https://github.com/rustaudio/cpal
 
 ### WIP Rendering Engine by @Cynic64 (TODO: Title?)
 
