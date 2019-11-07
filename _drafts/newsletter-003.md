@@ -820,6 +820,7 @@ or [join the next meeting][join].
 - [luminance's "low hanging fruit" issues][luminance-fruits];
 - [ggez's "good first issue" issues][ggez-issues];
 - [Veloren's "beginner" issues][veloren-beginner];
+- [Amethyst's "good first issue" issues][amethyst-issues];
 
 [help-steam-libs]: https://reddit.com/r/rust/comments/diuqg7/need_help_porting_steam_libraries_to_rust
 [embark.rs]: https://embark.rs
@@ -830,6 +831,7 @@ or [join the next meeting][join].
 [luminance-fruits]: https://github.com/phaazon/luminance-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22low+hanging+fruit%22
 [ggez-issues]: https://github.com/ggez/ggez/labels/%2AGOOD%20FIRST%20ISSUE%2A
 [veloren-beginner]: https://gitlab.com/veloren/veloren/issues?label_name=beginner
+[amethyst-issues]: https://github.com/amethyst/amethyst/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
 
 ## Bonus
 
