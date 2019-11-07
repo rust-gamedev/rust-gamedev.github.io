@@ -458,11 +458,28 @@ Here are some of the games made with Rust:
 
 ## Library & Tooling updates
 
-### Dev Time Optimization -- Part 1 (1.9x speedup, 65% less disk usage)
+### [Dev Time Optimization -- Part 1 (1.9x speedup, 65% less disk usage)][dev-time-opt]
 
-by Azriel
+Compile times (full and incremental) are one of Rust's pain points.
+[Azriel] published a devlog about optimizing [Will]'s build times.
+Summary:
 
-**TODO**: img?
+> In a 45k LOC / 102-crate workspace,
+> moving tests from member crates into a single workspace_tests crate
+> achieved the following improvements:
+>
+> - Build and test duration in release mode reduced
+>   from 23 minutes to 13 minutes.
+> - Debug artifact disk usage reduced from 20 G to 7 G
+>   (65% reduction, fresh build),
+>   or 230 G to 50 G (78% reduction, ongoing development).
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/desc3q/dev_time_optimization_part_1_19x_speedup_65_less)_
+
+[Azriel]: https://azriel.im
+[Will]: https://azriel91.itch.io/will
+[dev-time-opt]: https://azriel.im/will/2019/10/08/dev-time-optimization-part-1-1.9x-speedup-65-less-disk-usage
 
 <https://azriel.im/will/2019/10/08/dev-time-optimization-part-1-1.9x-speedup-65-less-disk-usage>
 
