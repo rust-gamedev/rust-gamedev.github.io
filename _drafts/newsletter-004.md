@@ -1,5 +1,6 @@
 ---
 title: "This Month in Rust GameDev #4 - November 2019"
+toc: true
 ---
 
 <!-- Check the post with markdownlint-->

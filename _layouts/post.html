@@ -16,7 +16,14 @@ layout: default
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    {{ content }}
+      {% if page.toc %}
+        <div class="toc">
+          <h2 class="toc-header">Table of Contents</h2>
+          {% include vendor/toc.html h_min=2 h_max=2 sanitize=true html=content %}
+        </div>
+      {% endif %}
+
+    {% include vendor/anchor_headings.html html=content anchorBody="#" anchorClass="anchor" anchorAttrs='aria-hidden="true"' %}
   </div>
 
   {%- if site.disqus.shortname -%}

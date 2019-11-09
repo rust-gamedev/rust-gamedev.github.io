@@ -1,5 +1,6 @@
 ---
 title: "This Month in Rust GameDev #{TODO} - {TODO} {TODO}"
+toc: true
 ---
 
 <!-- Check the post with markdownlint-->
@@ -17,6 +18,12 @@ Want to get involved? [Join the Rust GameDev working group!][join]
 
 [Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
+
+<nav class="toc">
+  <h2 class="toc-header">Table of Contents</h2>
+  * Seed list
+  {:toc}
+</nav>
 
 ## News and Blog Posts
 
