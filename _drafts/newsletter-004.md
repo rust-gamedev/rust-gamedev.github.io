@@ -93,7 +93,7 @@ or [join the next meeting][join].
 
 <!-- Links to "good first issue"-labels or direct links to specific tasks -->
 
-- [Add assets (graphics, levels, sounds, concepts, ...) to Le Train Dispatcher][ltd-contributing]
+- [Add assets (graphics, levels, sounds) to Le Train Dispatcher][ltd-contributing]
 
 [ltd-contributing]: https://itch.io/t/616119/contributing
 
