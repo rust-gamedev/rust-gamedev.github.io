@@ -48,11 +48,11 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ![Demo of Le Train Dispatcher](/assets/newsletter-004/ltd.gif)
 
-Le Train Dispatcher allows you to route trains in a fully simulated rail network. Particular care has been taken on the realistic management of light signals (block systems, switches protection), train physics and curve tracing.
+Le Train Dispatcher allows you to route trains in a fully simulated rail network. Particular care has been taken on the realistic management of light signals (block systems, switch protection), train physics and curve tracing.
 
 The game is programmed in Rust and the main crates used are : ggez, imgui and serde.
 
-This first version is fully playable, but if you want to comment, bring your ideas or help the development of the game, in any way, do not hesitate to post a [message][ltd-post].
+This first version is fully playable, but if you want to comment, bring your ideas or contribute to the development of the game, in any way, do not hesitate to post a [message][ltd-community].
 
 #### Unique characteristics
 
@@ -64,20 +64,10 @@ This first version is fully playable, but if you want to comment, bring your ide
     - Each locomotive or wagon has its own weight, its driving or braking force, its coefficient of adhesion.
     - The curves are not simple circles, they are calculated with the same equations as those used in real road or rail networks.
 
-
-#### Help needed!
-Creating a game it is a team effort, I am looking for partners first of foremost. If you have one of the talents below, you are welcome.
-
-- Graphic artist
-- Level and game designer
-- Sound engineer
-- Web designer
-- Musician
-
 #### Links: [itch.io][ltd], [Patreon][ltd-patreon]
 
 [ltd]: http://athorus.itch.io/ltd
-[ltd-post]: https://itch.io/category/551012/new-topic
+[ltd-community]: https://athorus.itch.io/ltd/community
 [ltd-patreon]: https://www.patreon.com/athorus
 
 ## Library & Tooling updates
@@ -102,6 +92,10 @@ or [join the next meeting][join].
 ## Requests for Contribution
 
 <!-- Links to "good first issue"-labels or direct links to specific tasks -->
+
+- [Add assets (graphics, levels, sounds, concepts, ...) to Le Train Dispatcher][ltd-contributing]
+
+[ltd-contributing]: https://itch.io/t/616119/contributing
 
 ## Bonus
 
