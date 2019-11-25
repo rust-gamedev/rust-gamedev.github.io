@@ -74,7 +74,7 @@ Creating a game it is a team effort, I am looking for partners first of foremost
 - Web designer
 - Musician
 
-#### Links
+Links: [itch.io][ltd], [Patreon][ltd-patreon]
 [itch.io][ltd]
 
 [Patreon][ltd-patreon]
