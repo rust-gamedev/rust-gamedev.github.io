@@ -44,6 +44,32 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Le Train Dispatcher][ltd] - Route trains in a simulated rail network
+
+![Demo of Le Train Dispatcher](/assets/newsletter-004/ltd.gif)
+
+Le Train Dispatcher allows you to route trains in a fully simulated rail network. Particular care has been taken on the realistic management of light signals (block systems, switch protection), train physics and curve tracing.
+
+The game is programmed in Rust and the main crates used are : ggez, imgui and serde.
+
+This first version is fully playable, but if you want to comment, bring your ideas or contribute to the development of the game, in any way, do not hesitate to post a [message][ltd-community].
+
+#### Unique characteristics
+
+- Realistic light signals simulation
+    - Huge engineering work has been done to have a realistic management of railway signaling. 
+- No collision
+    - Yes it's fun to watch  many trains running automatically without getting in. All your actions are checked : you cannot put the trains in danger.
+- True physics
+    - Each locomotive or wagon has its own weight, its driving or braking force, its coefficient of adhesion.
+    - The curves are not simple circles, they are calculated with the same equations as those used in real road or rail networks.
+
+#### Links: [itch.io][ltd], [Patreon][ltd-patreon]
+
+[ltd]: http://athorus.itch.io/ltd
+[ltd-community]: https://athorus.itch.io/ltd/community
+[ltd-patreon]: https://www.patreon.com/athorus
+
 ## Library & Tooling updates
 
 ### Other Library & Tooling News
@@ -66,6 +92,10 @@ or [join the next meeting][join].
 ## Requests for Contribution
 
 <!-- Links to "good first issue"-labels or direct links to specific tasks -->
+
+- [Add assets (graphics, levels, sounds) to Le Train Dispatcher][ltd-contributing]
+
+[ltd-contributing]: https://itch.io/t/616119/contributing
 
 ## Bonus
 
