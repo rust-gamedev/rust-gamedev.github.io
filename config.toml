@@ -1,0 +1,17 @@
+title = "Rust Game Development Working Group"
+description = "Stay up to date with the progress and recent developments in the Rust Game Development Working Group."
+base_url = "https://rust-gamedev.github.io/"
+default_language = "en"
+compile_sass = true
+highlight_code = true
+generate_rss = true
+
+[extra]
+date_format = "%F"
+show_summaries = false
+
+[extra.social_links]
+twitter = "rust_gamedev"
+github = "rust-gamedev"
+discord = "j6QJsMd"
+rss = "RSS"
