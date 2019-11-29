@@ -13,7 +13,7 @@
 * At the end of the month, the draft is reviewed as a whole
   and polished if needed.
 * On the first working day of the next month, the final PR
-  (that removes `draft = true` from the post's front matter and updates the date) is sent.
+  (that removes `draft = true` from the post's front matter and adds the date) is sent.
 * The link to the newsletter is shared on social networks, etc.
 * A small PR that adds links to Reddit, Twitter, etc discussions
   (see the comment at the bottom of the draft) is made.
