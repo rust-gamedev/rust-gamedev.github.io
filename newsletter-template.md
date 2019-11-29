@@ -1,6 +1,5 @@
 +++
 title = "This Month in Rust GameDev #{TODO} - {TODO} {TODO}"
-date = 1970-01-01
 draft = true
 +++
 

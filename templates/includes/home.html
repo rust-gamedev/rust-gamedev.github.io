@@ -31,13 +31,17 @@
         <ul class="post-list">
             {% for post in posts.pages | reverse %}
                 <li>
-                    {% set date_format = config.extra.date_format | default(value="%b %-d, %Y") %}
-                    <span class="post-meta">{{ post.date | date(format=date_format) }}</span>
+                    {% if post.date %}
+                        {% set date_format = config.extra.date_format | default(value="%b %-d, %Y") %}
+                        <span class="post-meta">{{ post.date | date(format=date_format) }}</span>
+                    {% endif %}
+
                     <h3>
                         <a class="post-link" href="{{ post.permalink }}">
                             {{ post.title }}
                         </a>
                     </h3>
+                    
                     {% if config.extra.show_summaries %}
                         {{ page.summary | default(value=page.content | safe | striptags | trim | truncate(length=100)) }}
                     {% endif %}
