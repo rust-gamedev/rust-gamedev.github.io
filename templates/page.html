@@ -4,11 +4,12 @@
 
 {% block seo %}
     <title>{{ page.title }} | {{ config.title | default(value="Minima") }}</title>
-    
+
     <meta property="og:title" content="{{ page.title }}">
     <meta property="og:url" content="{{ page.permalink }}">
     <meta property="og:description" content="{{ page.summary | default(value=page.content | safe | striptags | trim | truncate(length=100)) }}">
     <meta property="og:type" content="website">
+    <link rel="canonical" href="{{ page.permalink }}">
 {% endblock seo %}
 
 {% block content %}
