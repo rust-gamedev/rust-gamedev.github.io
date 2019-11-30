@@ -23,4 +23,4 @@ jobs:
       with:
         build_dir: public
         target_branch: master
-        keep_history: true
+        keep_history: false
