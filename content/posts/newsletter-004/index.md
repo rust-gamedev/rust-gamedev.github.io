@@ -425,6 +425,10 @@ A few notable additions are:
 - slimmed-down Rendy dependencies (memory and descriptor);
 - new skybox example.
 
+Lyon has [updated examples](https://github.com/nical/lyon/pull/496) for this version, showing how to draw vector graphics on `wgpu`.
+
+Also, `wgpu` is now a part of Gecko code base for powering the emerging WebGPU implementation.
+
 [wgpu-v0-4]: https://reddit.com/r/rust_gamedev/comments/drcje5/wgpu04_is_out
 [wgpu]: https://github.com/gfx-rs/wgpu
 [gfx-hal-0.4]: https://reddit.com/r/rust/comments/dm89t2/gfxhal_version_04_release
