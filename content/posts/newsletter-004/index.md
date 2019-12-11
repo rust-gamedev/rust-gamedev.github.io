@@ -452,7 +452,7 @@ _Discussions:
 
 ------
 
-Btw, [@resinten shared a video is working on a game using luminance][resinten-gif]:
+Btw, [@resinten is working on a game using luminance][resinten-gif]:
 
 [![space ship pew pew](luminance-space-game.gif)][resinten-gif]
 
