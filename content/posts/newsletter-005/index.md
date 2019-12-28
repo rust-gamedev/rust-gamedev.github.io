@@ -50,6 +50,21 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### Vange-rs
+
+[vange-rs](https://github.com/kvark/vange-rs) is the project of re-implementing [Vangers](https://en.wikipedia.org/wiki/Vangers) game (from 1998) in Rust using modern development practices, parallel computations, and GPU.
+
+This month, the project has gained a few major features. The biggest one is an implementation of the physics engine completely on GPU in a closed loop. At the same time, the CPU code path was fixed to allow for a smooth ride.
+
+Another pack of changes has landed to allow many NPC cars to be riding the world alongside the user. The renderer has shifted towards being completely instanced, and CPU physics computations were parallelized. The game can now host up to 50000 total cars on the level, all simulated at once, with up to 5000 on screen at a time. See the recorded video and discuss [on reddit](https://www.reddit.com/r/rust_gamedev/comments/eg3k6x/spawning_4k_of_cars_in_vangers/).
+
+In minor features, it became possible to jump in the game as well as change the car color.
+
+Project has also started the [development blog](http://kvark.github.io/vange-rs/), describing both new and old technology, such as:
+  - [Data formats](https://kvark.github.io/vange-rs/2019/12/12/data-formats.html) used in the original game.
+  - [Collision model](https://kvark.github.io/vange-rs/2019/12/17/collision-model.html) of the original game.
+  - [Pure-GPU implementation](https://kvark.github.io/vange-rs/2019/12/19/gpu-collisions.html) of the collision model.
+
 ## Library & Tooling updates
 
 ## Popular Workgroup Issues in Github
