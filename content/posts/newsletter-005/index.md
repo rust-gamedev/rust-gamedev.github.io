@@ -52,6 +52,14 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling updates
 
+### rg3d-sound
+
+[rg3d-sound](https://github.com/mrDIMAS/rg3d-sound) is the new sound library in active development. This month it has gained three major features: 
+
+- [Head-related transfer function](https://en.wikipedia.org/wiki/Head-related_transfer_function) support - it provides perfect binaural sound. Try it: `cargo run --example hrtf --release`
+- [Reverberation](https://en.wikipedia.org/wiki/Reverberation) support - basic effect that gives your scene "sound volume". Try it: `cargo run --example reverb --release`
+- Vorbis/ogg support - compressed format similar to mp3.
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
