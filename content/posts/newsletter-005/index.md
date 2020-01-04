@@ -50,6 +50,38 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [A/B Street][abstreet] - Adjust traffic patterns in real cities
+
+Ever been on a bus stuck in traffic, wondering why there are cars parked on the
+road instead of a bus lane? A/B Street is a game exploring how small changes to
+road space and traffic signals affect the movement of drivers, cyclists,
+transit users, and pedestrians. The game models Seattle as accurately as
+possible using OpenStreetMap and other public datasets, lets the player adjust
+existing infrastructure, and then does a detailed comparison to see who the
+changes help and hurt.
+
+A/B Street is Rust, using a custom GUI library on top of `glium`. [Play it
+now](https://github.com/dabreegster/abstreet/blob/master/docs/INSTRUCTIONS.md)
+and [start contributing](https://github.com/dabreegster/abstreet/issues) to
+expand the game to more cities, model light rail and shared foot/bike paths,
+and work on gameplay modes (like "make everything as slow as possible" and
+"what if nobody owned and parked personal vehicles?").
+
+![Demo of some UI work in A/B Street](abstreet.gif)
+
+December highlights:
+
+- Preview traffic signal changes "live" without resetting the simulation
+- UI: new minimap, popup info panels with graphs, better shapes and colors for
+  cars
+- Data viz: histogram showing count of faster/slower trips, visualizing which
+  road has the longest backup at a traffic signal, breaking down the timeline
+  of a trip (walk to a car, drive somewhere, look for parking, walk to
+  destination...)
+- Improved pedestrian pathfinding and decisions to use a bus or not
+
+[abstreet]: https://github.com/dabreegster/abstreet#ab-street
+
 ### Vange-rs
 
 [vange-rs](https://github.com/kvark/vange-rs) is the project of re-implementing [Vangers](https://en.wikipedia.org/wiki/Vangers) game (from 1998) in Rust using modern development practices, parallel computations, and GPU.
@@ -99,6 +131,7 @@ or [join the next meeting][join].
 - [ggez's "good first issue" issues][ggez-issues];
 - [Veloren's "beginner" issues][veloren-beginner];
 - [Amethyst's "good first issue" issues][amethyst-issues];
+- [A/B Street's "good first issue" issues][abstreet-issues];
 
 [help-steam-libs]: https://reddit.com/r/rust/comments/diuqg7/need_help_porting_steam_libraries_to_rust
 [embark.rs]: https://embark.rs
@@ -110,6 +143,7 @@ or [join the next meeting][join].
 [ggez-issues]: https://github.com/ggez/ggez/labels/%2AGOOD%20FIRST%20ISSUE%2A
 [veloren-beginner]: https://gitlab.com/veloren/veloren/issues?label_name=beginner
 [amethyst-issues]: https://github.com/amethyst/amethyst/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[abstreet-issues]: https://github.com/dabreegster/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
 
 ## Bonus
 
