@@ -97,6 +97,16 @@ Project has also started the [development blog](http://kvark.github.io/vange-rs/
   - [Collision model](https://kvark.github.io/vange-rs/2019/12/17/collision-model.html) of the original game.
   - [Pure-GPU implementation](https://kvark.github.io/vange-rs/2019/12/19/gpu-collisions.html) of the collision model.
 
+### [Veloren](https://veloren.net/)
+
+![Morning landscape](veloren1.png)
+
+Veloren is an open world, open source voxel RPG inspired by Dwarf Fortress and Cube World. December has seen a big push in game design meetings, a formal changelog, pathfinding improvements, and many more. Airshipper, Veloren's launcher, has made significant progress as well. It is starting to move from a command line tool into a full GUI application.
+
+Other work has been done on the erosion system, In the works for January include player account authentication, preliminary modding work, and character state systems. There are ongoing talks that are also looking into the networking system and optimizations.
+
+![Sitting on the edge](veloren2.png)
+
 ## Library & Tooling updates
 
 ### rg3d-sound
