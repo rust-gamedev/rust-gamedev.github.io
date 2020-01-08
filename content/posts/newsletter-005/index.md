@@ -97,6 +97,39 @@ Project has also started the [development blog](http://kvark.github.io/vange-rs/
   - [Collision model](https://kvark.github.io/vange-rs/2019/12/17/collision-model.html) of the original game.
   - [Pure-GPU implementation](https://kvark.github.io/vange-rs/2019/12/19/gpu-collisions.html) of the collision model.
 
+### [Veloren](https://veloren.net/)
+
+![Morning landscape](veloren1.png)
+
+Veloren is an open world, open source voxel RPG inspired by Dwarf Fortress and Cube World.
+
+Some of December's updates:
+
+- A formal changelog
+- Pathfinding
+- Airshipper launcher progress
+- Erosion system improvements
+- First animated UI elements
+
+You can read more about some specific topics:
+
+- [Character States Overhaul](https://veloren.net/devblog-48#character-states-overhaul-by-adam)
+- [Airshipper Update](https://veloren.net/devblog-46#airshipper-updates-with-songtronix)
+- [SFX](https://veloren.net/devblog-46#sfx-with-shandley)
+- [Contributor Spotlight: @AngelOnFira](https://veloren.net/devblog-46/#contributor-spotlight-angelonfira)
+- [Pathfinding](https://veloren.net/devblog-45/#pathfinding-by-chrischrischris)
+- [Mac Build Predicament](https://veloren.net/devblog-44/#lantern-slides-mac-build-predicament)
+- [Unfinished Rust CI Blog](https://veloren.net/devblog-44/#lantern-slides-unfinished-rust-ci-blog)
+
+In the works for January include player account authentication, preliminary modding work, and character state systems. There are ongoing talks that are also looking into the networking system and optimizations. December's full weekly devlogs: "This Week In Veloren...":
+[#44](https://veloren.net/devblog-44),
+[#45](https://veloren.net/devblog-45),
+[#46](https://veloren.net/devblog-46),
+[#47](https://veloren.net/devblog-47),
+[#48](https://veloren.net/devblog-48).
+
+![Sitting on the edge](veloren2.png)
+
 ## Library & Tooling updates
 
 ### rg3d-sound
