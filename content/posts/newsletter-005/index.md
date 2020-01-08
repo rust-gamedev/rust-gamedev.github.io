@@ -101,9 +101,32 @@ Project has also started the [development blog](http://kvark.github.io/vange-rs/
 
 ![Morning landscape](veloren1.png)
 
-Veloren is an open world, open source voxel RPG inspired by Dwarf Fortress and Cube World. December has seen a big push in game design meetings, a formal changelog, pathfinding improvements, and many more. Airshipper, Veloren's launcher, has made significant progress as well. It is starting to move from a command line tool into a full GUI application.
+Veloren is an open world, open source voxel RPG inspired by Dwarf Fortress and Cube World.
 
-Other work has been done on the erosion system, In the works for January include player account authentication, preliminary modding work, and character state systems. There are ongoing talks that are also looking into the networking system and optimizations.
+Some of December's updates:
+
+- A formal changelog
+- Pathfinding
+- Airshipper launcher progress
+- Erosion system improvements
+- First animated UI elements
+
+You can read more about some specific topics:
+
+- [Character States Overhaul](https://veloren.net/devblog-48#character-states-overhaul-by-adam)
+- [Airshipper Update](https://veloren.net/devblog-46#airshipper-updates-with-songtronix)
+- [SFX](https://veloren.net/devblog-46#sfx-with-shandley)
+- [Contributor Spotlight: @AngelOnFira](https://veloren.net/devblog-46/#contributor-spotlight-angelonfira)
+- [Pathfinding](https://veloren.net/devblog-45/#pathfinding-by-chrischrischris)
+- [Mac Build Predicament](https://veloren.net/devblog-44/#lantern-slides-mac-build-predicament)
+- [Unfinished Rust CI Blog](https://veloren.net/devblog-44/#lantern-slides-unfinished-rust-ci-blog)
+
+In the works for January include player account authentication, preliminary modding work, and character state systems. There are ongoing talks that are also looking into the networking system and optimizations. December's full weekly devlogs: "This Week In Veloren...":
+[#44](https://veloren.net/devblog-44),
+[#45](https://veloren.net/devblog-45),
+[#46](https://veloren.net/devblog-46),
+[#47](https://veloren.net/devblog-47),
+[#48](https://veloren.net/devblog-48).
 
 ![Sitting on the edge](veloren2.png)
 
