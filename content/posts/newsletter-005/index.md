@@ -479,7 +479,7 @@ Web demos:
 ### [Godot] and Rust
 
 After a year of work [godot-rust] 0.7 bindings were released.
-Some of the updates are updates:
+Some of the updates:
 
 - Rust 2018;
 - The API description of Godot classes was updated to the stable Godot version 3.1.1;
@@ -688,10 +688,10 @@ includes almost 70 chapters now and continues to grow!
 
 Some of the December's updates:
 
-- item identification and magical weapons,
-- a generic "effects" system,
-- cursed items, scrolls of remove curse, and item identification scrolls,
-- items that affect your attributes, generic statuses,
+- item identification and magical weapons;
+- a generic "effects" system;
+- cursed items, scrolls of remove curse, and item identification scrolls;
+- items that affect your attributes, generic statuses;
 - spells, spellbooks, weapon proc fx, mob special abilities, DoT, initiative +/- effects;
 - a dragon lair in a ruined fort;
 - multi-tile entities including pathfinding;
@@ -730,7 +730,7 @@ Some of the new features:
 ![Multiplayer session](nes-multiplay.png)
 
 [nes-rust][rust-nes-src] by [@superhoge] -
-[NES]\\(Famicom) emulator in Rust on the Web, compiled to WASM.
+[NES] \(Famicom) emulator in Rust on the Web, compiled to WASM.
 
 This month nes-rust got remote multiplay:
 
