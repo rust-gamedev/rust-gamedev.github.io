@@ -442,7 +442,7 @@ and describes how they came to be this way.&lt;&#x2F;p&gt;
 &lt;li&gt;Automated asset packs generation on build phase;&lt;&#x2F;li&gt;
 &lt;li&gt;Loading assets from asset packs;&lt;&#x2F;li&gt;
 &lt;li&gt;Support for audio: sound effects (buffered) and background music &amp;gt; (streaming);&lt;&#x2F;li&gt;
-&lt;li&gt;Support for 2D physics (rigid bodies and colliders) via &lt;a href=&quot;https:&#x2F;&#x2F;nphysics.org&#x2F;&quot;&gt;nphysics2d&lt;&#x2F;a&gt;);&lt;&#x2F;li&gt;
+&lt;li&gt;Support for 2D physics (rigid bodies and colliders) via &lt;a href=&quot;https:&#x2F;&#x2F;nphysics.org&#x2F;&quot;&gt;nphysics2d&lt;&#x2F;a&gt;;&lt;&#x2F;li&gt;
 &lt;li&gt;A new example: &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;PsichiX&#x2F;Oxygengine&#x2F;tree&#x2F;master&#x2F;demos&#x2F;basic-web-game&quot;&gt;a basic web game&lt;&#x2F;a&gt;.&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;p&gt;&lt;em&gt;Discussions:
