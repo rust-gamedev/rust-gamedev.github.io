@@ -649,7 +649,7 @@ Main updates of v0.5 version:
 - Automated asset packs generation on build phase;
 - Loading assets from asset packs;
 - Support for audio: sound effects (buffered) and background music > (streaming);
-- Support for 2D physics (rigid bodies and colliders) via [nphysics2d]);
+- Support for 2D physics (rigid bodies and colliders) via [nphysics2d];
 - A new example: [a basic web game][oxygengine-example].
 
 _Discussions:
