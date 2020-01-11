@@ -346,7 +346,7 @@ bugfixes, and performance optimizations.
 
 ![Rayn output example - this renderer uses ultraviolet for its math](rayn.png)
 
-[ultraviolet] is a crate to computer-graphics and games-related linear algebra,
+[ultraviolet] is a crate for computer-graphics and games-related linear algebra,
 but _fast_, both in terms of productivity and in terms of runtime performance.
 
 This month [ultraviolet v0.4][ultraviolet-v0-4] was released by [@fu5ha].
