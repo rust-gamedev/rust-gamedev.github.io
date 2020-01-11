@@ -261,7 +261,7 @@ making development and customization easier.&lt;&#x2F;li&gt;
 &lt;h3 id=&quot;ultraviolet-v0-4&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;grayolson.me&#x2F;blog&#x2F;posts&#x2F;ultraviolet-0.4&quot;&gt;ultraviolet v0.4&lt;&#x2F;a&gt;&amp;nbsp;&lt;a class=&quot;anchor&quot; href=&quot;#ultraviolet-v0-4&quot; aria-hidden=&quot;true&quot;&gt;#&lt;&#x2F;a&gt;
 &lt;&#x2F;h3&gt;
 &lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;rust-gamedev.github.io&#x2F;posts&#x2F;newsletter-005&#x2F;rayn.png&quot; alt=&quot;Rayn output example - this renderer uses ultraviolet for its math&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;crates.io&#x2F;crates&#x2F;ultraviolet&quot;&gt;ultraviolet&lt;&#x2F;a&gt; is a crate to computer-graphics and games-related linear algebra,
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;crates.io&#x2F;crates&#x2F;ultraviolet&quot;&gt;ultraviolet&lt;&#x2F;a&gt; is a crate for computer-graphics and games-related linear algebra,
 but &lt;em&gt;fast&lt;&#x2F;em&gt;, both in terms of productivity and in terms of runtime performance.&lt;&#x2F;p&gt;
 &lt;p&gt;This month &lt;a href=&quot;https:&#x2F;&#x2F;grayolson.me&#x2F;blog&#x2F;posts&#x2F;ultraviolet-0.4&quot;&gt;ultraviolet v0.4&lt;&#x2F;a&gt; was released by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;fu5ha&quot;&gt;@fu5ha&lt;&#x2F;a&gt;.
 It brings
