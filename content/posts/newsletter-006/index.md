@@ -46,11 +46,13 @@ some actual interesting discussions.
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
-[A curated list of wgpu-rs code and resources](https://github.com/rofrol/awesome-wgpu-rs)
-
 ## Game Updates
 
 ## Library & Tooling updates
+
+### wgpu
+
+[A curated list of wgpu-rs code and resources](https://github.com/rofrol/awesome-wgpu-rs) (**TODO**: add description)
 
 ## Popular Workgroup Issues in Github
 
