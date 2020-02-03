@@ -15,7 +15,7 @@ Among the Professionals only 1/4 said they are currently using Rust in games. Th
 
 ---
 
-_For the free-form answers that follow, a basic eyeballs&hands sentiment analysis was used to distill 400 replies into digestible form. The (#) number next to a heading indicate roughly the number of times that topic came up. Think of it as the **signal strength** of a given topic._
+_For the free-form answers that follow, a basic eyeballs&hands sentiment analysis was used to distill 400 replies into digestible form. The (#) number next to a heading roughly indicates the number of times that topic came up. Think of it as the **signal strength** of a given topic._
 
 ## What about Rust as a language and ecosystem presents the biggest NEGATIVES for you as a game developer right now?
 
