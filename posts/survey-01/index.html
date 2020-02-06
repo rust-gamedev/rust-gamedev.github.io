@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        
+    <title>Rust Game Development - Ecosystem Survey | Rust Game Development Working Group</title>
+
+    <meta property="og:title" content="Rust Game Development - Ecosystem Survey">
+    <meta property="og:url" content="https:&#x2F;&#x2F;rust-gamedev.github.io&#x2F;posts&#x2F;survey-01&#x2F;">
+    <meta property="og:description" content="In August last year, we conducted a survey for the Rust gamedev ecosystem. After an unfortunate dela…">
+    <meta property="og:type" content="article">
+    <link rel="canonical" href="https:&#x2F;&#x2F;rust-gamedev.github.io&#x2F;posts&#x2F;survey-01&#x2F;">
+
+    
+        <meta property="article:published_time" content="2020-02-06T00:00:00+00:00">
+    
+
+
+        <meta property="og:image" content="https:&#x2F;&#x2F;rust-gamedev.github.io&#x2F;logo.png">
+        <meta property="og:image:width" content="200">
+        <meta property="og:image:height" content="200">
+        <meta property="og:site_name" content="Rust Game Development Working Group">
+
+        <link rel="stylesheet" href="https:&#x2F;&#x2F;rust-gamedev.github.io&#x2F;style.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="https:&#x2F;&#x2F;rust-gamedev.github.io&#x2F;apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https:&#x2F;&#x2F;rust-gamedev.github.io&#x2F;favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="https:&#x2F;&#x2F;rust-gamedev.github.io&#x2F;favicon-16x16.png">
+        <link rel="manifest" href="https:&#x2F;&#x2F;rust-gamedev.github.io&#x2F;site.webmanifest">
+    
+        
+            <link rel="alternate" type="application/rss+xml" title="RSS" href="https:&#x2F;&#x2F;rust-gamedev.github.io&#x2F;rss.xml">
+        
+    
+        </head>    
+
+    <body>
+        <header class="site-header">
+    <div class="wrapper">
+        <a class="site-title" rel="author" href="/">
+            <img src="https:&#x2F;&#x2F;rust-gamedev.github.io&#x2F;logo_small.png" width="48" height="48" alt="" />
+            Rust Game Development Working Group
+        </a>
+
+        
+        
+    </div>
+</header>
+
+
+        <main class="page-content" aria-label="Content">
+            
+    <article class="post h-entry wrapper" itemscope itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+            <h1 class="post-title p-name" itemprop="name headline">Rust Game Development - Ecosystem Survey</h1>
+            <p class="post-meta">
+                
+                    <time class="dt-published" datetime="2020-02-06T00:00:00+00:00" itemprop="datePublished">
+                        
+                        2020-02-06
+                    </time>
+                
+                
+            </p>
+        </header>
+
+        <div class="post-content e-content" itemprop="articleBody">
+            <p>In August last year, we conducted a survey for the Rust gamedev ecosystem. After an unfortunate delay, we can finally present the results. We received a whopping 403 responses! This trove of valuable feedback will inform the WG's roadmap for 2020.</p>
+<h1 id="hobbyist-or-developer">Hobbyist or developer?&nbsp;<a class="anchor" href="#hobbyist-or-developer" aria-hidden="true">#</a>
+</h1>
+<p><img src="https://rust-gamedev.github.io/posts/survey-01/hobbyist-or-professional.png" alt="Respondents identifying as professional or hobbyist" />
+Out of the 400 respondents, 3/4 identified as a <em>Hobbyist</em>. It should also be noted that a significant portion of the self-identified <em>Professionals</em> are more accurately described as &quot;aspiring professional&quot; undertaking their first game development venture. That still amounts to a large amount of commercial interest in Rust game development all the same!</p>
+<h1 id="are-you-using-rust-for-gamedev">Are you using Rust for gamedev?&nbsp;<a class="anchor" href="#are-you-using-rust-for-gamedev" aria-hidden="true">#</a>
+</h1>
+<p><img src="https://rust-gamedev.github.io/posts/survey-01/using-rust.png" alt="Respondents using Rust in game development" />
+Among the Professionals only 1/4 said they are currently using Rust in games. That means the 200 respondents currently using Rust for gamedev are mostly hobbyists. No surprise there, as most professionals can't bear the risk of being an early adopter. Big shoutout to all the hobbyists who are pushing the status quo, and kudos to the handful of studios that are using Rust in production long before most of their industry peers have even caught the scent.</p>
+<hr />
+<p><em>For the free-form answers that follow, a basic eyeballs&amp;hands sentiment analysis was used to distill 400 replies into digestible form. The (#) number next to a heading roughly indicates the number of times that topic came up. Think of it as the <strong>signal strength</strong> of a given topic.</em></p>
+<h2 id="what-about-rust-as-a-language-and-ecosystem-presents-the-biggest-negatives-for-you-as-a-game-developer-right-now">What about Rust as a language and ecosystem presents the biggest NEGATIVES for you as a game developer right now?&nbsp;<a class="anchor" href="#what-about-rust-as-a-language-and-ecosystem-presents-the-biggest-negatives-for-you-as-a-game-developer-right-now" aria-hidden="true">#</a>
+</h2>
+<p>Priorities for professionals and hobbyists are largely the same. The biggest differences were:</p>
+<ul>
+<li>
+<p>Hobbyists call for ecosystem maturity 2x more than anything else.</p>
+</li>
+<li>
+<p>Hobbyists care much more about mobile/web support</p>
+</li>
+<li>
+<p>Professionals care much more about console support</p>
+</li>
+<li>
+<p>Professionals care much more about C++ interop</p>
+</li>
+</ul>
+<h3 id="ecosystem-maturity-114">Ecosystem maturity (114)&nbsp;<a class="anchor" href="#ecosystem-maturity-114" aria-hidden="true">#</a>
+</h3>
+<blockquote>
+<p>From playing in the space I know it's possible to make games using Rust. However in the ecosystem my biggest negatives is the [lack of] case studies and demonstrations of it working.</p>
+</blockquote>
+<blockquote>
+<p>Rust is still a risky choice, compared to C++.</p>
+</blockquote>
+<blockquote>
+<p>Still feels like a new community. There is always risk associated with that - does the language take a big swing in direction - does support drop off. I'm encouraged by the support for low level (embedded / OS ) development, which hopefully means the core feature set remains robust.</p>
+</blockquote>
+<blockquote>
+<p>Many unfinished, unmaintained crates. Lots of churn.</p>
+</blockquote>
+<blockquote>
+<p>A lot of common needs are not yet available 'out of the box'.</p>
+</blockquote>
+<h3 id="iteration-times-68">Iteration times (68)&nbsp;<a class="anchor" href="#iteration-times-68" aria-hidden="true">#</a>
+</h3>
+<blockquote>
+<p>Compile time, no runtime reflection, updating deep dependency in the tree is hard.</p>
+</blockquote>
+<blockquote>
+<p>Iteration time is I think too big, due to compilation time, [lack of] hot-reloading tooling, etc.</p>
+</blockquote>
+<blockquote>
+<p>Iteration time (especially while prototyping). This includes both compile time but also sorting out lifetimes when I know I'll be rewriting something very soon anyway, this &quot;frontloading&quot; the effort of having the borrow checker run at compile time is useful for most tasks but when I want to try something quickly it can be a draining experience, in this regard GC'd languages have an advantage imo.</p>
+</blockquote>
+<blockquote>
+<p>Prototyping seems not as easy in Rust due to &quot;fighting the compiler&quot;</p>
+</blockquote>
+<h3 id="documentation-43">Documentation (43)&nbsp;<a class="anchor" href="#documentation-43" aria-hidden="true">#</a>
+</h3>
+<blockquote>
+<p>Not enough documentation to get past beginner stage</p>
+</blockquote>
+<blockquote>
+<p>Lacking examples for gamedev libs.</p>
+</blockquote>
+<blockquote>
+<p>Documentation is usually either high level or examples but rarely both. Very few real world examples to draw from.</p>
+</blockquote>
+<h3 id="lack-of-full-featured-engines-35">Lack of full-featured engines (35)&nbsp;<a class="anchor" href="#lack-of-full-featured-engines-35" aria-hidden="true">#</a>
+</h3>
+<blockquote>
+<p>Lack of a data-and-script based engine like Unreal Engine or Unity means even small projects end up feeling very bring-your-own-engine.</p>
+</blockquote>
+<blockquote>
+<p>Missing graphical editors, frictionless prototyping of games</p>
+</blockquote>
+<h3 id="rust-learning-curve-onboarding-to-a-niche-language-29">Rust learning curve / onboarding to a niche language (29)&nbsp;<a class="anchor" href="#rust-learning-curve-onboarding-to-a-niche-language-29" aria-hidden="true">#</a>
+</h3>
+<blockquote>
+<p>The language has a higher upfront cognitive load than any other mainstream language I know of, mostly due to the borrow checker. It's very hard to hack through stuff and get away with it, which makes it a particularly hard sell for game prototypes.</p>
+</blockquote>
+<blockquote>
+<p>I know that it is a less common language to use so as a company I will have to have my staff learn Rust before they can start.</p>
+</blockquote>
+<blockquote>
+<p>Rust could be tricky to hire for, and hiring someone who doesn't know Rust to work in Rust will come with a ramp-up period.</p>
+</blockquote>
+<h3 id="ide-rls-story-28">IDE/RLS story (28)&nbsp;<a class="anchor" href="#ide-rls-story-28" aria-hidden="true">#</a>
+</h3>
+<p>Tooling around IDE is limited compared to Visual Studio with C++ or C#.´</p>
+<blockquote>
+<p>Definitely lack of proper IDE (like out of the box Cargo integration and working debugger - yeah, I tested Visual Studio Code and it's very slow, suggestions are not great, fastest way to run, check and build is to use terminal - not IDE) - I would say that something like QT Creator or Visual Studio would be great</p>
+</blockquote>
+<blockquote>
+<p>Regarding debugging, the industry standard is (or that I'm aware of) Visual Studio, for its very good IDE and tools, also, a lot of users are very used to that kind of tools and looks like Rust is missing some of them.</p>
+</blockquote>
+<blockquote>
+<p>rust-analyzer is still very incomplete, but it's the only thing that works for me</p>
+</blockquote>
+<blockquote>
+<p>Poor IDE and debugging support in IDE. Mainly visual studio.</p>
+</blockquote>
+<blockquote>
+<p>Can't debug it properly, hashmap (for example) is absolutely not debuggable. Not sure how it works inside (instead of C++).</p>
+</blockquote>
+<blockquote>
+<p>debug mode way too slow, often need to set opt-level=1 or 2 for dev profile</p>
+</blockquote>
+<h3 id="gui-tooling-23">GUI tooling (23)&nbsp;<a class="anchor" href="#gui-tooling-23" aria-hidden="true">#</a>
+</h3>
+<blockquote>
+<p>As a tools developer, a major negative point is the current absence of a reliable GUI framework (we use WPF + C# with Visual Studio).</p>
+</blockquote>
+<h3 id="game-consoles-13">Game consoles (13)&nbsp;<a class="anchor" href="#game-consoles-13" aria-hidden="true">#</a>
+</h3>
+<blockquote>
+<p>No first party support for console development makes Rust a tough sell for a lot of professional work.</p>
+</blockquote>
+<blockquote>
+<p>Rust is not officially supported on console by Sony or Microsoft.</p>
+</blockquote>
+<blockquote>
+<p>Rust can't be seriously considered yet, because it does not have support from the PS4 SDK. Although there are other considerations (studio culture, integration with existing systems, etc.), official support from Sony is a requirement before Rust could be used in a PS4 game.</p>
+</blockquote>
+<h3 id="web-mobile-support-14">Web/mobile support (14)&nbsp;<a class="anchor" href="#web-mobile-support-14" aria-hidden="true">#</a>
+</h3>
+<h3 id="allocators-10">Allocators (10)&nbsp;<a class="anchor" href="#allocators-10" aria-hidden="true">#</a>
+</h3>
+<h3 id="c-interop-7">C++ interop (7)&nbsp;<a class="anchor" href="#c-interop-7" aria-hidden="true">#</a>
+</h3>
+<blockquote>
+<p>Our code, and any middleware/engine that we might license, is in C++. Using Rust and C++ together is painful, and rewriting the existing tech to be purely Rust would be very expensive.</p>
+</blockquote>
+<p>Testing and too much things linked to C.</p>
+<blockquote>
+<p>Also, no professional game engine (UE4, Unity) integrates with Rust yet.</p>
+</blockquote>
+<blockquote>
+<p>Unknown compatibility</p>
+</blockquote>
+<blockquote>
+<p>Lack of a straightforward path to make rust work easily with C++ in both directions. The only trustable way I see now is through manual C wrappers, which is error-prone and time consuming.</p>
+</blockquote>
+<h1 id="what-about-rust-as-a-language-and-ecosystem-presents-the-biggest-positives-for-you-as-a-game-developer-right-now">What about Rust as a language and ecosystem presents the biggest POSITIVES for you as a game developer right now?&nbsp;<a class="anchor" href="#what-about-rust-as-a-language-and-ecosystem-presents-the-biggest-positives-for-you-as-a-game-developer-right-now" aria-hidden="true">#</a>
+</h1>
+<h3 id="safety-100">Safety (100)&nbsp;<a class="anchor" href="#safety-100" aria-hidden="true">#</a>
+</h3>
+<blockquote>
+<p>Strong type system allows for easily enforcing some performance and safety best practices</p>
+</blockquote>
+<blockquote>
+<p>Multithreading safety</p>
+</blockquote>
+<blockquote>
+<p>Elimination of data races greatly improves reliability for multithreaded code.</p>
+</blockquote>
+<blockquote>
+<p>Safe concurrency</p>
+</blockquote>
+<h3 id="performance-89">Performance (89)&nbsp;<a class="anchor" href="#performance-89" aria-hidden="true">#</a>
+</h3>
+<blockquote>
+<p>Great performance and compile time verifications</p>
+</blockquote>
+<blockquote>
+<p>Performance and reliability</p>
+</blockquote>
+<blockquote>
+<p>Parallelism</p>
+</blockquote>
+<h3 id="community-69">Community (69)&nbsp;<a class="anchor" href="#community-69" aria-hidden="true">#</a>
+</h3>
+<blockquote>
+<p>the ecosystem is full of passionate and smart people who take quality software very seriously</p>
+</blockquote>
+<blockquote>
+<p>a really welcoming community with great goals and courage to pursue them</p>
+</blockquote>
+<blockquote>
+<p>Collective community effort to &quot;build the right thing&quot; and &quot;build the thing right&quot;</p>
+</blockquote>
+<h3 id="cargo-57">Cargo (57)&nbsp;<a class="anchor" href="#cargo-57" aria-hidden="true">#</a>
+</h3>
+<blockquote>
+<p>being able to pull down libraries piecemeal and have them build with your stuff immediately is great</p>
+</blockquote>
+<h3 id="ecosystem-50">Ecosystem (50)&nbsp;<a class="anchor" href="#ecosystem-50" aria-hidden="true">#</a>
+</h3>
+<blockquote>
+<p>A mature Rust ecosystem will (hopefully!) have a lower bar for entry than a mature C++ ecosystem, without giving up performance.</p>
+</blockquote>
+<h3 id="wasm-web-support-20">WASM (web)  support (20)&nbsp;<a class="anchor" href="#wasm-web-support-20" aria-hidden="true">#</a>
+</h3>
+<h3 id="no-garbage-collection-8">No garbage collection (8)&nbsp;<a class="anchor" href="#no-garbage-collection-8" aria-hidden="true">#</a>
+</h3>
+<h3 id="ecs-data-driven-data-oriented-8">ECS; data-driven; data-oriented (8)&nbsp;<a class="anchor" href="#ecs-data-driven-data-oriented-8" aria-hidden="true">#</a>
+</h3>
+<h3 id="cross-platform-5">Cross platform (5)&nbsp;<a class="anchor" href="#cross-platform-5" aria-hidden="true">#</a>
+</h3>
+<h3 id="c-interop-3">C interop (3)&nbsp;<a class="anchor" href="#c-interop-3" aria-hidden="true">#</a>
+</h3>
+<h2 id="selected-quotes">Selected quotes&nbsp;<a class="anchor" href="#selected-quotes" aria-hidden="true">#</a>
+</h2>
+<blockquote>
+<p>The language has a higher upfront cognitive load than any other mainstream language. Which means that on an established, bigger project (maybe with a team behind) the productivity is amazing compared to C++! It's much easier to express strong &amp; safe interfaces that make bugs just harder to introduce.
+It really shines in network code that needs to be 100% safe and resist bad actors! My current game server code has 0 unwraps/panics/expects and so I just <em>know</em> it can't crash... I wish I could have that feeling in C++.
+C++ on the contrary makes it easy to whip up something which then has a 20% crash rate and tanks perf and takes 2 weeks to hammer into shape, and after those 2 weeks it looks like Rust code anyway.
+Unfortunately, knowing the management culture in the gamedev industry, Rust has an extremely hard road in front of it due to this. In my experience gamedev is plagued by extreme short term (like, 1 month) reasoning resulting in crunches and awful technical tradeoffs. Rust made many choices that delay that fateful &quot;demo day with the execs&quot; because it forces you to do things right. But very few can express why this is valuable up the chain and be listened to.</p>
+</blockquote>
+<blockquote>
+<p>I love Rust!
+• it's perfect for &quot;API-minded&quot; systems programmers
+• as more production users come, things will get very good very quickly
+• being cross-platform is easier than ever
+• refactoring is very fun
+• proc macros are cool as heck
+• serde is insanely useful
+• seriously there's a ton of awesome crates
+• I know we'll get there together!</p>
+</blockquote>
+<blockquote>
+<p>We are especially interested in data-driven games for procedural generation and AI. Rust seems a great fit for this computationally intensive work.</p>
+</blockquote>
+<blockquote>
+<p>Since most game developers are tinkerers more than engineers or scientists, the whole industry is plagued with bad code quality, lack of architecture and bad code design. Undefined behavior, nullptr exceptions, use after freed, multithreading issues and so on are recurrent problems. Rust biggest positive is really the fact that it addresses all that without needing to change the people behind the games. That's why I believe in it so much :).
+Also worth noting that the module system and crates are really important nowadays because monolithic codebases of millions of lines of code is really a hell to work into.</p>
+</blockquote>
+<h2 id="what-do-you-think-should-be-the-game-dev-working-group-s-priorities-for-the-next-3-6-months">What do you think should be the game-dev working group's priorities for the next 3-6 months?&nbsp;<a class="anchor" href="#what-do-you-think-should-be-the-game-dev-working-group-s-priorities-for-the-next-3-6-months" aria-hidden="true">#</a>
+</h2>
+<h3 id="documentation-107">Documentation (107)&nbsp;<a class="anchor" href="#documentation-107" aria-hidden="true">#</a>
+</h3>
+<ul>
+<li>better onboarding to rust gamedev</li>
+<li>Better explanation of best practices</li>
+<li>How to get started</li>
+<li>Rust for seasoned gamedevs</li>
+<li>What works <em>right now</em>?</li>
+<li>Example games</li>
+<li>Standard practices for common gamedev problems</li>
+<li>How to do windowing</li>
+<li>How to do graphics</li>
+<li>How to do ECS</li>
+<li>More documentation for foundational libraries</li>
+</ul>
+<h3 id="cross-platform-support-59">Cross-platform support (59)&nbsp;<a class="anchor" href="#cross-platform-support-59" aria-hidden="true">#</a>
+</h3>
+<ul>
+<li>Lobby for Rust adoption on next-gen consoles.</li>
+<li>Clearer information about console support.</li>
+<li>Start an entity capable of getting and maintain console NDAs to keep official rust builds made for console support. It’s a huge pain, but other open source projects do it, and it would be awesome for the community.</li>
+<li>Wasm/web support (heavier from hobbyists)</li>
+<li>Paint a clearer picture of what the path to gaming consoles looks like, within the confines of what those proprietary SDKs and APIs allow.</li>
+<li>Mobile support</li>
+<li>Easier packaging</li>
+<li>Cross-compiling</li>
+<li>XR (AR/VR)</li>
+</ul>
+<h3 id="ecosystem-promotion-coordination-51">Ecosystem promotion &amp; coordination (51)&nbsp;<a class="anchor" href="#ecosystem-promotion-coordination-51" aria-hidden="true">#</a>
+</h3>
+<ul>
+<li>Develop contacts within the industry so that the WG can be a liaison between industry and OSS developers. By inviting and involving industry, the ecosystem can grow and potentially receive support (in the form of PRs, open sourcing existing tools, or financial support for OSS developers.)</li>
+<li>Encourage &amp; facilitate collaboration on existing tools.</li>
+<li>Library “blessings”</li>
+<li>more things like this survey</li>
+<li>Ecosystem mapping</li>
+<li>Outreach / evangelising</li>
+<li>Game jams</li>
+<li>Better insight into WG’s current agenda</li>
+<li>Come up with ways to unblock foundational projects if they get stuck</li>
+<li>Identify in-progress issues, and propose new issues, for the Rust language, that are relevant to game development. (For example, debug Rust is very slow, so we need good ways to control what is and isn't optimized.)</li>
+<li>Seek opportunities to address cross-cutting concerns where possible. The recent investigation into raw-window-handle and evaluation of if we can/should converge on a math library are both good examples.</li>
+</ul>
+<h3 id="first-grade-game-engine-framework-46">First-grade game engine/framework (46)&nbsp;<a class="anchor" href="#first-grade-game-engine-framework-46" aria-hidden="true">#</a>
+</h3>
+<ul>
+<li>Simple 2D game engine</li>
+<li>Basic editor workflow</li>
+<li>An SDL-like</li>
+<li>A Unity/Unreal competitor</li>
+</ul>
+<h3 id="graphics-libraries-33">Graphics libraries (33)&nbsp;<a class="anchor" href="#graphics-libraries-33" aria-hidden="true">#</a>
+</h3>
+<ul>
+<li>Improve accessibility of graphics programming</li>
+</ul>
+<h3 id="foundational-libraries-27">Foundational libraries (27)&nbsp;<a class="anchor" href="#foundational-libraries-27" aria-hidden="true">#</a>
+</h3>
+<ul>
+<li>UI libraries</li>
+<li>Windowing</li>
+<li>Audio</li>
+<li>Graphics</li>
+<li>Collection of “Standard crates” with some form of WG support</li>
+<li>Push for stabilisation</li>
+</ul>
+<h3 id="faster-iteration-times-17">Faster iteration times (17)&nbsp;<a class="anchor" href="#faster-iteration-times-17" aria-hidden="true">#</a>
+</h3>
+<ul>
+<li>Hot code reloading</li>
+<li>Scripting</li>
+<li>Faster compile times</li>
+<li>More libraries like Processing</li>
+</ul>
+<h3 id="integration-with-existing-toolchains-14">Integration with existing toolchains (14)&nbsp;<a class="anchor" href="#integration-with-existing-toolchains-14" aria-hidden="true">#</a>
+</h3>
+<ul>
+<li>C/C++</li>
+<li>Xcode, Android studio, Visual studio, Blender</li>
+<li>Unity/Unreal/Godot</li>
+</ul>
+<h3 id="custom-allocation-story-10">Custom allocation story (10)&nbsp;<a class="anchor" href="#custom-allocation-story-10" aria-hidden="true">#</a>
+</h3>
+<h3 id="debugging-support-and-ide-integration-5">Debugging support and IDE integration (5)&nbsp;<a class="anchor" href="#debugging-support-and-ide-integration-5" aria-hidden="true">#</a>
+</h3>
+<h3 id="interoperability-between-libraries-5">Interoperability between libraries (5)&nbsp;<a class="anchor" href="#interoperability-between-libraries-5" aria-hidden="true">#</a>
+</h3>
+<h2 id="can-you-name-some-libraries-you-are-thankful-for-or-take-special-interest-in">Can you name some libraries you are thankful for or take special interest in?&nbsp;<a class="anchor" href="#can-you-name-some-libraries-you-are-thankful-for-or-take-special-interest-in" aria-hidden="true">#</a>
+</h2>
+<p>Just for fun, we asked respondents to name libraries or projects they were thankful for. In the 6 months that have passed since this survey went out there's been quite a few newcomers on the rise that would probably show more prominently here if we asked again today. Rest assured there will be more surveys.
+<img src="https://rust-gamedev.github.io/posts/survey-01/survey-thanks.png" alt="Shoutouts to ecosystem projects" />
+<em>Thanks so much to the survey respondents and all the people out there working tirelessly make Rust a first-tier language and ecosystem for game development.</em></p>
+
+        </div>
+
+        
+
+        <a class="u-url" href="https:&#x2F;&#x2F;rust-gamedev.github.io&#x2F;posts&#x2F;survey-01&#x2F;" hidden></a>
+    </article>
+
+        </main>
+
+        <footer class="site-footer h-card">
+    <data class="u-url" href="https:&#x2F;&#x2F;rust-gamedev.github.io"></data>
+
+    <div class="wrapper">
+
+        <div class="footer-col-wrapper">
+            <div class="footer-col one-half">
+                <h2 class="footer-heading">Rust Game Development Working Group</h2>
+                
+                
+                    <p>Stay up to date with the progress and recent developments in the Rust Game Development Working Group.</p>
+                
+            </div>
+
+            <div class="footer-col one-half">
+                <ul class="social-links">
+    
+    
+    
+    <li><a href="https://github.com/rust-gamedev" title="rust-gamedev"><svg class="svg-icon grey"><use xlink:href="https:&#x2F;&#x2F;rust-gamedev.github.io&#x2F;minima-social-icons.svg#github"></use></svg> Github (rust-gamedev)</a></li>
+    
+    
+    
+    
+    <li><a href="https://twitter.com/rust_gamedev" title="rust_gamedev"><svg class="svg-icon grey"><use xlink:href="https:&#x2F;&#x2F;rust-gamedev.github.io&#x2F;minima-social-icons.svg#twitter"></use></svg> Twitter (rust_gamedev)</a></li>
+    
+    
+    
+    
+    <li><a href="https://discord.gg/j6QJsMd" title="Discord"><svg class="svg-icon grey"><use xlink:href="https:&#x2F;&#x2F;rust-gamedev.github.io&#x2F;minima-social-icons.svg#discord"></use></svg> Discord (#wg-gamedev)</a></li>
+    <li><a href="https:&#x2F;&#x2F;rust-gamedev.github.io&#x2F;feed.xml" title="RSS"><svg class="svg-icon grey"><use xlink:href="https:&#x2F;&#x2F;rust-gamedev.github.io&#x2F;minima-social-icons.svg#rss"></use></svg> RSS feed</a></li>
+</ul>
+
+            </div>
+        </div>
+
+    </div>
+
+</footer>
+
+    </body>
+</html>
