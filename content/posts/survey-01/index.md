@@ -1,6 +1,6 @@
 +++
 title = "Rust Game Development - Ecosystem Survey"
-draft = true
+date = 2020-02-06
 +++
 
 In August last year, we conducted a survey for the Rust gamedev ecosystem. After an unfortunate delay, we can finally present the results. We received a whopping 403 responses! This trove of valuable feedback will inform the WG's roadmap for 2020.
