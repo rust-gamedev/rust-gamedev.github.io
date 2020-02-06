@@ -48,6 +48,55 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Veloren][veloren]
+
+![Morning landscape](veloren1.png)
+
+> Morning landscape
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf Fortress and Cube World.
+
+At the end of January, Veloren 0.5 was released! Most of January was spent on preparing for this. It was also the first anniversary of This Week in Veloren! There has been a devblog each week since the end of January last year. Here are some of the big changes in this release:
+
+```
+- Added initial region system implementation
+- Added moon and clouds
+- Added proper SFX system
+- Added changelog
+- Added Scrolling Combat Text (SCT) & Settings for it
+- Added options to disable clouds and to use cheaper water rendering
+- Added client-side character saving
+- Added a localization system to provide multi-language support to voxygen
+- Added fullscreen and window size to settings so that they can be persisted
+- Added coverage based scaling for pixel art 28 new mobs
+- Added waypoints
+- Added pathfinding to NPCs
+- Overhauled NPC AI
+- Pets now attack enemies and defend their owners
+- Added collars to tame wild animals
+```
+
+You can read more about some specific topics:
+
+- [How to Effectively Write a Proposal for the Game Design Team](https://veloren.net/devblog-49#how-to-effectively-write-a-proposal-for-the-game-design-team-by-silentium)
+- [Iterator Problems](https://veloren.net/devblog-50#iterator-problems-with-angelonfira-and-sharp)
+- [Erosion Worldgen Updates](https://veloren.net/devblog-50#erosion-worldgen-updates-by-sharp)
+- [Airshipper Progress](https://veloren.net/devblog-52#airshipper-progress-by-songtronix)
+- [Veloren For All Of Us: Localization System](https://veloren.net/devblog-52#veloren-for-all-of-us-localization-system-by-ender)
+- [1 Year of This Week in Veloren](https://veloren.net/devblog-52#1-year-of-this-week-in-veloren-by-angelonfira)
+
+![Sitting on the edge](veloren2.png)
+
+In February, we hope to push forward to 0.6 with a strong intro meeting. Authentication is slated to be released, as well as the Airshipper GUI beta. Hopefully, we also see controller support and improvements to the sound system as well. See you next month!
+
+January's full weekly devlogs: "This Week In Veloren...":
+[#49](https://veloren.net/devblog-49),
+[#50](https://veloren.net/devblog-50),
+[#51](https://veloren.net/devblog-51),
+[#52](https://veloren.net/devblog-52),
+
+[veloren]: https://veloren.net
+
 ## Library & Tooling updates
 
 ### wgpu
