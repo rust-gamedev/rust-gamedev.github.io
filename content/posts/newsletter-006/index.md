@@ -448,12 +448,12 @@ This month, [@dooskington] published a bunch of devlogs:
 
   [![Final shader](grumpy-visitors.png)][grumpy-video]
 
-- ["Wall Run"][wall] by [@legendiguess] is a simple game for WeeklyGameJam.
+- ["Wall Jump"][wall] by [@legendiguess] is a simple game for WeeklyGameJam.
 
   > Nothing special, just a two minutes adventure of a Wall.
   > Collect wall putty and return back to the house.
 
-  ![Wall Run gameplay sample](wall-run.gif)
+  ![Wall Jump gameplay sample](wall-jump.gif)
 
 [Amethyst]: https://amethyst.rs
 [realm.one]: https://github.com/Machine-Hum/realm.one
