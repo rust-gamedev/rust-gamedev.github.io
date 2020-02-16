@@ -29,7 +29,7 @@
     {% set posts = get_section(path="posts/_index.md") %}
     {% if posts and posts.pages | length > 0 %}
         <ul class="post-list">
-            {% for post in posts.pages | reverse %}
+            {% for post in posts.pages %}
                 <li>
                     {% if post.date %}
                         {% set date_format = config.extra.date_format | default(value="%b %-d, %Y") %}
