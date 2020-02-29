@@ -52,12 +52,12 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [Rusty Shooter][rusty-shooter]
 
-[Rusty Shooter][rusty shooter] is a Quake3-like first person shooter written in Rust using [rg3d engine][rg3d-engine]. 
+[Rusty Shooter][rusty-shooter] is a Quake3-like first person shooter written in Rust using [rg3d engine][rg3d-engine]. 
 
 ![Rusty Shooter in-game screenshot](rusty-shooter-in-game.jpg)
 
 Small gameplay video: 
-[![Rusty Shooter game](rusty-shooter-in-game.jpg)][rusty-shooter-video]
+[![Rusty Shooter game](rusty-shooter-youtube.PNG)][rusty-shooter-video]
 
 [rg3d-engine]: https://github.com/mrDIMAS/rg3d
 [rusty-shooter]: https://github.com/mrDIMAS/rusty-shooter
