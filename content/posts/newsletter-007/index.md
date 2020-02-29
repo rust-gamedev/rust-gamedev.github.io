@@ -59,7 +59,20 @@ If needed, a section can be split into subsections with a "------" delimiter.
 Small gameplay video (work-in-progress): 
 [![Rusty Shooter game](rusty-shooter-youtube.PNG)][rusty-shooter-video]
 
+Features:
+- Common FPS elements: bots, items, weapons.
+- Single game mode - deathmatch.
+- More or less modern graphics (shadows, deferred shading, particle systems etc.)
+- Fully animated bots using animation blending state machines.
+- Single map - something like legendary Q3DM6.
+- Path finding using navmesh
+- Save/load functionality
+- GUI: main menu, options, HUD, leader board (using [rg3d-ui library][rg3d-ui])
+- Binaural sound (using [rg3d-sound library][rg3d-sound])
+
 [rg3d-engine]: https://github.com/mrDIMAS/rg3d
+[rg3d-ui]: https://github.com/mrDIMAS/rg3d-ui
+[rg3d-sound]: https://github.com/mrDIMAS/rg3d-sound
 [rusty-shooter]: https://github.com/mrDIMAS/rusty-shooter
 [rusty-shooter-video]: https://www.youtube.com/watch?v=UDn8ymyXPcI
 
