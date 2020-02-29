@@ -56,7 +56,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ![Rusty Shooter in-game screenshot](rusty-shooter-in-game.jpg)
 
-Small gameplay video: 
+Small gameplay video (work-in-progress): 
 [![Rusty Shooter game](rusty-shooter-youtube.PNG)][rusty-shooter-video]
 
 [rg3d-engine]: https://github.com/mrDIMAS/rg3d
