@@ -169,6 +169,19 @@ February's full devlogs:
 
 [akigi]: https://akigi.com
 
+### [Will][will]
+
+[Will][will] is a 2.5D moddable action / adventure game.
+
+This month Azriel wrote a post about how decisions were made when [designing
+network play][designing_network_play].
+
+![Will Network Play Screenshot][will_network_play]
+
+[will]: https://azriel.im/will/
+[designing_network_play]: https://azriel.im/will/2020/02/29/designing-network-play/
+[will_network_play]: will_network_play.png
+
 ## Library & Tooling Updates
 
 ### specs 0.16
