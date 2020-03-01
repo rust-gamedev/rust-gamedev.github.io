@@ -124,7 +124,7 @@ Tetra itself also received two small updates recently:
 
 ### [Akigi][akigi]
 
-![](akigi.png)
+![High detail terrain chunk with PRR](akigi.png)
 
 > Sampling a heightmap in the vertex shader and also computing the normal, tangent and bitangent vectors in the vertex shader.
 
