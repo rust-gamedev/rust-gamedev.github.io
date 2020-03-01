@@ -52,14 +52,15 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [Rusty Shooter][rusty-shooter]
 
-[Rusty Shooter][rusty-shooter] is a Quake3-like first person shooter written in Rust using [rg3d engine][rg3d-engine]. 
+[Rusty Shooter][rusty-shooter] is a Quake3-like first person shooter written in Rust using [rg3d engine][rg3d-engine].
 
 ![Rusty Shooter in-game screenshot](rusty-shooter-in-game.jpg)
 
-Small gameplay video (work-in-progress): 
+Small gameplay video (work-in-progress):
 [![Rusty Shooter game](rusty-shooter-youtube.PNG)][rusty-shooter-video]
 
 Features:
+
 - Common FPS elements: bots, items, weapons.
 - Single game mode - deathmatch.
 - More or less modern graphics (shadows, deferred shading, particle systems etc.)
@@ -75,6 +76,19 @@ Features:
 [rg3d-sound]: https://github.com/mrDIMAS/rg3d-sound
 [rusty-shooter]: https://github.com/mrDIMAS/rusty-shooter
 [rusty-shooter-video]: https://www.youtube.com/watch?v=UDn8ymyXPcI
+
+### [Antorum]
+
+![Spider NPCs](antorum.jpg)
+
+[Antorum] is a multiplayer RPG where players build their characters and fight against the growing threats on the isle. The game server is authoritative and written in Rust, while the client is written in Unity/C#.
+
+This month, the focus was on the cooking skill. This includes recipies and cookware. Players will need a cooking appliance, such as a stove or campfire to cook some Chonkrat Stew inside a pot. A heavy refactor to the interaction system had to be made, as well as changes to networking. Check out [@dooskington]'s devlog here:
+
+- [#18 "Cooking"](https://dooskington.com/dev-log/18)
+
+[antorum]: https://dooskington.com
+[@dooskington]: https://twitter.com/dooskington
 
 ## Library & Tooling Updates
 
