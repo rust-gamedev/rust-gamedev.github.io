@@ -92,13 +92,35 @@ This month, the focus was on the cooking skill. This includes recipies and cookw
 
 ### [Tennis Academy Dash][tennis-academy-dash]
 
+![release](dash.gif)
+
 Tennis academy dash is a time management game where you are the manager of a tennis academy and you need to coordinate various players to play on your courts. 
 
 The game is still a work in progress, but the demo version has been uploaded to itch.io this month, so go ahead and check it out! Give it a go (the build is only for mac at the moment but other platforms coming soon) and drop a comment with any feedback on [tennis-academy-dash].
 
-![release](dash.gif)
-
 [tennis-academy-dash]: https://iolivia.itch.io/tennis-academy-dash
+
+### [Lonely Star][lonely-star]
+
+> *Space is a lonely place, but at least you've got the music to keep you company.*
+
+[Lonely Star][lonely-star] is a side-scrolling infinite runner, with simple generative music. You collect orbs and fly through rings in order to play notes and stay alive.
+
+It was developed by [17cupsofcoffee][17cupsofcoffee], using the [Tetra][tetra] 2D game framework, for [Weekly Game Jam #135](weekly-game-jam-135).
+
+[![Lonely Star screenshot](lonely-star.png)][lonely-star]
+
+Tetra itself also received two small updates recently:
+
+* [Version 0.3.2 was released][tetra-0.3.2], with bugfixes and some tools for simple AABB collision detection.
+* [The Pong tutorial was updated with a new chapter][tetra-pong], showing how to use Tetra's graphics and input APIs.
+
+[lonely-star]: https://17cupsofcoffee.itch.io/lonely-star
+[17cupsofcoffee]: https://twitter.com/17cupsofcoffee
+[tetra]: https://github.com/17cupsofcoffee/tetra
+[weekly-game-jam-135]: https://itch.io/jam/weekly-game-jam-135
+[tetra-0.3.2]: https://twitter.com/17cupsofcoffee/status/1217524602513055749
+[tetra-pong]: https://twitter.com/17cupsofcoffee/status/1219758851416895489
 
 ## Library & Tooling Updates
 
