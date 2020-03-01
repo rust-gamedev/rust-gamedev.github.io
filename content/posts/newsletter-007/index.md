@@ -20,7 +20,7 @@ Want something mentioned in the next newsletter?
 [Send us a pull request][pr].
 Feel free to send PRs about your own projects!
 
-[rust]: https://rust-lang.org
+[Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 [pr]: https://github.com/rust-gamedev/rust-gamedev.github.io
 
@@ -139,7 +139,7 @@ and highlight events from the past. -->
 
 Just an interesting Rust gamedev link from the past. :)
 
----
+------
 
 That's all news for today, thanks for reading!
 
