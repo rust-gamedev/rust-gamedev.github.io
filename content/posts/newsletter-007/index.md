@@ -287,7 +287,7 @@ You can read more about some specific topics:
 
 In March, there will be a heavy focus on completing level of detail work as well as persistence. Modding support will be explored further. Player achievements will be merged into the game, and we will start looking at where more content can be added.
 
-January's full weekly devlogs: "This Week In Veloren...":
+February's full weekly devlogs: "This Week In Veloren...":
 [#53](https://veloren.net/devblog-53),
 [#54](https://veloren.net/devblog-54),
 [#55](https://veloren.net/devblog-55),
