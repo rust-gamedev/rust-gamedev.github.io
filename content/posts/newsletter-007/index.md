@@ -52,14 +52,15 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [Rusty Shooter][rusty-shooter]
 
-[Rusty Shooter][rusty-shooter] is a Quake3-like first person shooter written in Rust using [rg3d engine][rg3d-engine]. 
+[Rusty Shooter][rusty-shooter] is a Quake3-like first person shooter written in Rust using [rg3d engine][rg3d-engine].
 
 ![Rusty Shooter in-game screenshot](rusty-shooter-in-game.jpg)
 
-Small gameplay video (work-in-progress): 
+Small gameplay video (work-in-progress):
 [![Rusty Shooter game](rusty-shooter-youtube.PNG)][rusty-shooter-video]
 
 Features:
+
 - Common FPS elements: bots, items, weapons.
 - Single game mode - deathmatch.
 - More or less modern graphics (shadows, deferred shading, particle systems etc.)
@@ -75,6 +76,51 @@ Features:
 [rg3d-sound]: https://github.com/mrDIMAS/rg3d-sound
 [rusty-shooter]: https://github.com/mrDIMAS/rusty-shooter
 [rusty-shooter-video]: https://www.youtube.com/watch?v=UDn8ymyXPcI
+
+### [Antorum]
+
+![Spider NPCs](antorum.jpg)
+
+[Antorum] is a multiplayer RPG where players build their characters and fight against the growing threats on the isle. The game server is authoritative and written in Rust, while the client is written in Unity/C#.
+
+This month, the focus was on the cooking skill. This includes recipies and cookware. Players will need a cooking appliance, such as a stove or campfire to cook some Chonkrat Stew inside a pot. A heavy refactor to the interaction system had to be made, as well as changes to networking. Check out [@dooskington]'s devlog here:
+
+- [#18 "Cooking"](https://dooskington.com/dev-log/18)
+
+[antorum]: https://dooskington.com
+[@dooskington]: https://twitter.com/dooskington
+
+### [Tennis Academy Dash][tennis-academy-dash]
+
+![release](dash.gif)
+
+Tennis academy dash is a time management game where you are the manager of a tennis academy and you need to coordinate various players to play on your courts. 
+
+The game is still a work in progress, but the demo version has been uploaded to itch.io this month, so you can go ahead and check it out! Give it a go (the build is only for mac at the moment but other platforms coming soon) and drop a comment with any feedback on [tennis-academy-dash].
+
+[tennis-academy-dash]: https://iolivia.itch.io/tennis-academy-dash
+
+### [Lonely Star][lonely-star]
+
+> *Space is a lonely place, but at least you've got the music to keep you company.*
+
+[Lonely Star][lonely-star] is a side-scrolling infinite runner, with simple generative music. You collect orbs and fly through rings in order to play notes and stay alive.
+
+It was developed by [17cupsofcoffee][17cupsofcoffee], using the [Tetra][tetra] 2D game framework, for [Weekly Game Jam #135](weekly-game-jam-135).
+
+[![Lonely Star screenshot](lonely-star.png)][lonely-star]
+
+Tetra itself also received two small updates recently:
+
+* [Version 0.3.2 was released][tetra-0.3.2], with bugfixes and some tools for simple AABB collision detection.
+* [The Pong tutorial was updated with a new chapter][tetra-pong], showing how to use Tetra's graphics and input APIs.
+
+[lonely-star]: https://17cupsofcoffee.itch.io/lonely-star
+[17cupsofcoffee]: https://twitter.com/17cupsofcoffee
+[tetra]: https://github.com/17cupsofcoffee/tetra
+[weekly-game-jam-135]: https://itch.io/jam/weekly-game-jam-135
+[tetra-0.3.2]: https://twitter.com/17cupsofcoffee/status/1217524602513055749
+[tetra-pong]: https://twitter.com/17cupsofcoffee/status/1219758851416895489
 
 ### [Akigi][akigi]
 
