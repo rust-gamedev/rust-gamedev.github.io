@@ -90,6 +90,16 @@ This month, the focus was on the cooking skill. This includes recipies and cookw
 [antorum]: https://dooskington.com
 [@dooskington]: https://twitter.com/dooskington
 
+### [Tennis Academy Dash][tennis-academy-dash]
+
+![release](dash.gif)
+
+Tennis academy dash is a time management game where you are the manager of a tennis academy and you need to coordinate various players to play on your courts. 
+
+The game is still a work in progress, but the demo version has been uploaded to itch.io this month, so you can go ahead and check it out! Give it a go (the build is only for mac at the moment but other platforms coming soon) and drop a comment with any feedback on [tennis-academy-dash].
+
+[tennis-academy-dash]: https://iolivia.itch.io/tennis-academy-dash
+
 ### [Lonely Star][lonely-star]
 
 > *Space is a lonely place, but at least you've got the music to keep you company.*
