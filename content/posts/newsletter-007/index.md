@@ -52,16 +52,21 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 [Are We Game Yet?][awgy] is a website cataloguing the Rust gamedev ecosystem, with hundreds of links to crates, games and helpful resources.
 
-This month it received some major updates:
+[![Are We Game Yet? homepage](awgy.png)][awgy]
+
+This month, it received some major updates:
 
 * All of the site's data files have been unified into a consistent TOML schema, making it easier to add new links.
 * Categories have been added for games and resources, and you can now add an item to multiple categories without duplicating the data.
 * Page load times have been reduced (especially on the homepage).
 * The styling has been improved to make the site look better on mobile, and to resolve some accessibility issues.
 
+[Ownership was also recently transferred across to the gamedev working group][awgy-wg], to allow for more people to help with maintainance.
+
 There's never been a better time to add your projects to the site, so [please come and contribute][awgy-contribute]!
 
 [awgy]: https://arewegameyet.com/
+[awgy-wg]: https://github.com/rust-gamedev/arewegameyet/issues/210
 [awgy-contribute]: https://github.com/rust-gamedev/arewegameyet#contribute
 
 ## Game Updates
