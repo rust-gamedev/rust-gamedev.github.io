@@ -111,6 +111,63 @@ This month, the focus was on the cooking skill. This includes recipies and cookw
 [antorum]: https://dooskington.com
 [@dooskington]: https://twitter.com/dooskington
 
+### [Scale]
+
+![Traffic lights](scale.png)
+
+[Scale] is a recent project about modern day society simulation from the
+bottom-up by [Uriopass].
+
+In february, the Inspector for specs entities was mostly finished and the
+traffic simulation made great progress.
+A second [blog post][scale-blog-post] was released about it.
+
+[A recent video][scale-traffic-video] also shows different traffic features such
+as traffic lights, stop signs and car AI working together.
+
+Discussion:
+[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/f1egnd/scale_devblog_2/)
+
+[Uriopass]: http://douady.paris/aboutme.html
+[Scale]: https://github.com/Uriopass/Scale
+[scale-blog-post]: http://douady.paris/blog/scale_2.html
+[scale-traffic-video]: https://youtu.be/nk6F42BQllU
+
+
+### [Ultimate Scale][ultimate-scale]
+
+![Ultimate scale screenshot showing winds and blips](ultimate_scale.png)
+
+[Ultimate Scale][ultimate-scale] is a puzzle game in which you build
+increasingly large machines to solve increasingly difficult problems.
+The game consists of wind and blips.
+Wind propagates along pipes and causes blips to move.
+Blips, in turn, activate blocks.
+
+[Leod] is currently working on the core design: How to make the game fun and
+what blocks to add. He posted about his thoughts and progress on a
+[reddit comment][ultimate-scale-post].
+Regularly, videos are posted on his
+[youtube channel][ultimate-scale-youtube-channel] showing different machines
+made in game such as an [extensible counter modulo 10][ultimate-scale-video-1]
+and a [buffer][ultimate-scale-video-2].
+
+A custom 3D rendering pipeline based on glium called [Rendology] was developed
+for this project. A [blog post][rendology-blog-post] talks about its design and
+relation to Ultimate Scale.
+
+Discussion:
+[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/f3cll6/ultimate_scale_counting_modulo_three/)
+
+[Leod]: https://leod.github.io/
+[Rendology]: https://github.com/leod/rendology
+[rendology-blog-post]: https://leod.github.io/rust/gamedev/rendology/2019/12/13/introduction-to-rendology.html
+[ultimate-scale]: https://github.com/leod/ultimate-scale
+[ultimate-scale-video-1]: https://youtu.be/zmKRJAF4xcI
+[ultimate-scale-video-2]: https://youtu.be/IM3BRM_MZrE
+[ultimate-scale-post]: https://www.reddit.com/r/rust_gamedev/comments/f3cll6/ultimate_scale_counting_modulo_three/fhhu5ol/
+[ultimate-scale-youtube-channel]: https://www.youtube.com/channel/UChSw7WP2i0GIw61FIeTeGsA
+
 ### [Tennis Academy Dash][tennis-academy-dash]
 
 ![release](dash.gif)
