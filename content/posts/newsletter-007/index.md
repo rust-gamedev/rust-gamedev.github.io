@@ -76,6 +76,32 @@ Features:
 [rusty-shooter]: https://github.com/mrDIMAS/rusty-shooter
 [rusty-shooter-video]: https://www.youtube.com/watch?v=UDn8ymyXPcI
 
+### [Akigi][akigi]
+
+![](akigi.png)
+
+> Sampling a heightmap in the vertex shader and also computing the normal, tangent and bitangent vectors in the vertex shader.
+
+[Akigi][akigi] is a multiplayer online world where most believe that humans are inferior.
+
+This month saw a heavy focus on the web client. An alpha release is slated for April 9th, 2020. Lots of client refactoring was done, and experiments were run in the browser.
+
+Some of February's updates:
+
+- [Input Event Processor System](https://devjournal.akigi.com/february-2020/2020-02-09.html#input-event-processor-system);
+- [Terrain Loading and Rendering](https://devjournal.akigi.com/february-2020/2020-02-16.html#terrain-loading-and-rendering);
+- [User Interface Elements](https://devjournal.akigi.com/february-2020/2020-02-16.html#user-interface-elements);
+- [The WebGL Renderer](https://devjournal.akigi.com/february-2020/2020-02-16.html#the-webgl-renderer);
+- [Rendering Meshes](https://devjournal.akigi.com/february-2020/055-2020-02-23.html#rendering-meshes);
+- [Rendering Terrain](https://devjournal.akigi.com/february-2020/055-2020-02-23.html#rendering-terrain);
+
+February's full devlogs:
+[#053](https://devjournal.akigi.com/february-2020/2020-02-09.html),
+[#054](https://devjournal.akigi.com/february-2020/2020-02-16.html),
+[#055](https://devjournal.akigi.com/february-2020/055-2020-02-23.html),
+
+[akigi]: https://akigi.com
+
 ## Library & Tooling Updates
 
 ## Popular Workgroup Issues in Github
