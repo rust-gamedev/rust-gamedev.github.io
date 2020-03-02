@@ -238,6 +238,126 @@ network play][designing_network_play].
 [designing_network_play]: https://azriel.im/will/2020/02/29/designing-network-play/
 [will_network_play]: will_network_play.png
 
+### [Oxidator][oxidator]
+
+[![Gameplay demo: two giant tank armies clashing](oxidator-play.gif)][oxidator-video-play]
+
+^ _gameplay demo (35000 units)_
+
+[Oxidator][oxidator] by [@Ruddle] is a real-time strategy game/engine
+written with Rust and WebGPU.
+It's inspired by Total Annihilation, Supreme Commander, Spring Engine,
+and Zero-k.
+
+The project's goal is to provide a modern, carefully crafted,
+minimal and highly constrained set of tools for players/designers
+to create mods without programming knowledge.
+
+Some of the current features:
+
+- Simulation:
+  working draft of flock behavior and collision detection,
+  basic health and damage computation,
+  construction and repair;
+- Rendering: basic display of a heightmap & 3D models (with instancing),
+  fxaa, screen space reflections;
+- UI: select units (picking and rectangle selection),
+  move & build orders;
+- Multiplayer: working PoC localhost tcp client/server;
+- Map editor: raise, lower, flatten, blur, noise pencil;
+- Unit editor: basic editor with joint & mesh selection and parameter editing
+  (speed, turn rate, health, etc);
+
+[![Unit editor demo: move agent's parts](oxidator-unit-editor.gif)][oxidator-video-unit-editor]
+
+^ _Demo of the unit editor_
+
+[![Map editor demo: use pencil tool to instantly create a lake and mountains](oxidator-map-editor.gif)][oxidator-video-map-editor]
+
+^ _Demo of the map editor_
+
+[oxidator]: https://github.com/Ruddle/oxidator
+[@Ruddle]: https://github.com/Ruddle
+[oxidator-video-play]: https://streamable.com/499j0
+[oxidator-video-unit-editor]: https://streamable.com/ywr44
+[oxidator-video-map-editor]: https://streamable.com/e5zdj
+
+### [Univer City v1.0 and Open Source Release][univer-1-0-opensource]
+
+[![logo](univer-logo.jpg)][univer-steam]
+
+[UniverCity][univer-steam] is an isometric university management game:
+
+> Manage your staff, professors and students and try
+> and build the best UniverCity around!
+> Build up your UniverCity solo or against friends and build many different
+> types of classes whilst trying to ensure students get good grades,
+> or maybe just try and build the best looking UniverCity.
+
+This month, [v1.0 was released on Steam][univer-1-0-opensource]
+along with [releasing the game's sources under GPL-3][univer-source].
+
+> This update _marks the end of development for now_
+> and adds in some basic workshop support.
+
+![Demo: builing a classroom](univer-city-demo.gif)
+
+> The license is GPL-3 and the code is the same
+> as the version released on Steam
+> (the Steam version is built with the 'steam' feature enabled).
+> Due to the GPL licensing the steamworks support is disabled
+> by default which breaks things like the 'modding' menu and multiplayer.
+>
+> The assets _are not included_ with the release
+> and will have to be copied from the game on Steam.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/f5fiii/univercity_open_source_release_university)_
+
+[univer-1-0-opensource]: https://steamcommunity.com/gid/103582791461907043/announcements/detail/1694978169192631655
+[univer-steam]: https://store.steampowered.com/app/808160/UniverCity
+[univer-source]: https://github.com/Thinkofname/UniverCity
+
+### [Dwarf World][dwarf-world]
+
+[![New site with links to Twitter, Discord, and Twich](dwarf-world.png)][dwarf-world]
+
+[Alexandru Ene] is working on a dwarf colony management game "Dwarf World".
+
+This month, the project got an official site: [dwarf.world][dwarf-world].
+
+Also, check out development streams:
+every Sunday at 19:30 PM GMT [on Twitch][dwarf-twitch].
+
+[Alexandru Ene]: https://alexene.dev
+[dwarf-world]: https://dwarf.world
+[dwarf-twitch]: https://twitch.tv/nomad_pixel
+
+### [Way of Rhea's New Trailer][rhea-steam]
+
+[![logo](way-of-rhea.jpg)][rhea-steam]
+
+[Way of Rhea][rhea-steam] is an upcoming puzzle platformer that takes place in a world
+where you can only interact with objects that match your current color.
+
+This month, an updated trailer with new character art was released.
+[Check it out on the game's Steam page][rhea-steam].
+
+[rhea-steam]: https://store.steampowered.com/app/1110620/Way_of_Rhea
+
+### Noodle Cat
+
+![Noodle game physics demo](noodle-cat.gif)
+
+[@Fryer00] tweeted a bunch of updates about their
+WIP Box2D physics game prototype:
+
+- Day 45: [contraction mechanic](https://twitter.com/Fryer00/status/1225829271597395971);
+- Day 46: [turn/flip/swap-front-and-back movement mechanics](https://twitter.com/Fryer00/status/1227327016380305415);
+- Day 48: [food](https://twitter.com/Fryer00/status/1232181181690654720).
+
+[@Fryer00]: https://twitter.com/Fryer00
+
 ## Library & Tooling Updates
 
 ### specs 0.16
