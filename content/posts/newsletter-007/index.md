@@ -90,10 +90,9 @@ This month, the focus was on the cooking skill. This includes recipies and cookw
 [antorum]: https://dooskington.com
 [@dooskington]: https://twitter.com/dooskington
 
-
 ### [Everpuzzle]
 
-[Everpuzzle](https://github.com/Skytrias/everpuzzle) is a Tetris Attack like action-puzzle game written in Rust.
+[Everpuzzle] is a Tetris Attack like action-puzzle game written in Rust.
 
 ![Everpuzzle preview](everpuzzle-020-preview.gif)
 
@@ -103,7 +102,7 @@ underlying engine architecture.
 In the past Everpuzzle was using Amethyst with ECS, however there were some issues that made development difficult.
 Everpuzzle's big goals are AI, Multiplayer and different Game modes. 
 
-Big changes coming in version 0.2, full list ![here](https://github.com/Skytrias/everpuzzle/blob/master/CHANGELOG.md):
+Big changes coming in version 0.2, full list [here](https://github.com/Skytrias/everpuzzle/blob/master/CHANGELOG.md):
 * Gamepad support (singleplayer)
 * Multiple grids
 * AI Bot
@@ -111,9 +110,11 @@ Big changes coming in version 0.2, full list ![here](https://github.com/Skytrias
 * Combos / Chains - with Highlighting
 * Better animations
 
-![Latest releases](https://github.com/Skytrias/everpuzzle/releases)
+[Latest releases](https://github.com/Skytrias/everpuzzle/releases)
 
-![Everpuzzle rewrite - Code Walkthrough (code outdated)](https://www.youtube.com/watch?v=qA2zcaUVRKY)
+[Everpuzzle rewrite - Code Walkthrough (code outdated)](https://www.youtube.com/watch?v=qA2zcaUVRKY)
+
+[Everpuzzle]: https://github.com/Skytrias/everpuzzle
 
 ## Library & Tooling Updates
 
