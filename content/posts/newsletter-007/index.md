@@ -163,6 +163,32 @@ This month, the focus was on the cooking skill. This includes recipies and cookw
 [antorum]: https://dooskington.com
 [@dooskington]: https://twitter.com/dooskington
 
+### [Everpuzzle]
+
+[Everpuzzle] is a Tetris Attack like action-puzzle game written in Rust.
+
+![Everpuzzle preview](everpuzzle-020-preview.gif)
+
+Everpuzzle aims to become a similar game like Tetris Attack and expand on its concepts. 
+The project was recently rewritten with minimal dependencies to achieve small compile times and gain more control over the 
+underlying engine architecture. 
+In the past Everpuzzle was using Amethyst with ECS, however there were some issues that made development difficult.
+Everpuzzle's big goals are AI, Multiplayer and different Game modes. 
+
+Big changes coming in version 0.2, full list [here](https://github.com/Skytrias/everpuzzle/blob/master/CHANGELOG.md):
+* Gamepad support (singleplayer)
+* Multiple grids
+* AI Bot
+* Better Randomization of blocks
+* Combos / Chains - with Highlighting
+* Better animations
+
+[Latest releases](https://github.com/Skytrias/everpuzzle/releases)
+
+[Everpuzzle rewrite - Code Walkthrough (code outdated)](https://www.youtube.com/watch?v=qA2zcaUVRKY)
+
+[Everpuzzle]: https://github.com/Skytrias/everpuzzle
+
 ### [Scale]
 
 ![Traffic lights](scale.png)
@@ -323,6 +349,63 @@ This month an alpha version was published on itch: [check it out here][colony-it
 
 [colony-itch]: https://nativesystems.itch.io/colony
 [Native Systems]: https://nativesystems.rs
+
+### [Veloren][veloren]
+
+![Rolling mountain landscape](veloren1.png)
+
+> Rolling mountain landscape
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf Fortress and Cube World.
+
+At the beginning of the month, the team met for a 0.6 intro meeting. It was decided that 0.6 would focus on things for the player to do, and hence will be called "The Content Update".
+
+Research has been done on multiple areas this month. One domain is level of detail, which is allowing mountains off in the distance to be rendered much faster. Another domain is server persistence. Finding a way for the server to efficiently persist player information is a large part of what is needed for The Content Update.
+
+Here is the February changelog:
+
+```text
+- Fixed NPCs attacking the player forever after killing them
+- Extend run sfx to small animals to prevent sneak attacks by geese
+- Added sfx for wielding/unwielding weapons
+- Added new orc hairstyles
+- Added gamma setting
+- Configurable fonts
+- Tanslation status tracking
+- Fixed /give_exp ignoring player argument
+- Allow spawning individual pet species, not just generic body kinds
+- Added daily Mac builds
+- Removed highlighting of non-collectible sprites
+- Added zoomable and rotatable minimap
+- Added rotating orientation marker to main-map
+- Brighter / higher contrast main-map
+- Added music system
+```
+
+[![veloren development](veloren3.gif)](https://www.youtube.com/watch?v=1ldHQfxCT24)
+
+> 1 year of Veloren development. Click for the full video!
+
+You can read more about some specific topics:
+
+- [0.5 Release](https://veloren.net/devblog-53#0-5-release)
+- [0.6 Intro Meeting](https://veloren.net/devblog-54#0-6-intro-meeting)
+- [Settlements](https://veloren.net/devblog-54#settlements)
+- [Mac Builds](https://veloren.net/devblog-55#the-mac-build-situation-by-angelonfira)
+- [Achievements](https://veloren.net/devblog-55#achievement-implementation-by-thedip)
+- [Persistence](https://veloren.net/devblog-56#persistence-by-angelonfira)
+
+![Hanging out](veloren2.png)
+
+In March, there will be a heavy focus on completing level of detail work as well as persistence. Modding support will be explored further. Player achievements will be merged into the game, and we will start looking at where more content can be added.
+
+February's full weekly devlogs: "This Week In Veloren...":
+[#53](https://veloren.net/devblog-53),
+[#54](https://veloren.net/devblog-54),
+[#55](https://veloren.net/devblog-55),
+[#56](https://veloren.net/devblog-56).
+
+[veloren]: https://veloren.net
 
 ## Library & Tooling Updates
 
