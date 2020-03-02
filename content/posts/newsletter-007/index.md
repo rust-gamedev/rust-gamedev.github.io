@@ -48,6 +48,24 @@ some actual interesting discussions.
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
+## [Ecosystem Survey Results][survey]
+
+![Thanks cloud: Amethyst, ggez, gfx-rs, specs, serde and many other projects](survey-thanks.png)
+
+The [results][survey-results] of the Rust GameDev [ecosystem survey][survey]
+were published.
+
+> After an unfortunate delay, we can finally present the results.
+> We received a whopping 403 responses!
+> This trove of valuable feedback will inform the WG's roadmap for 2020.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/ezrk0y/rust_game_development_ecosystem_survey),
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/ezrk5o/rust_game_development_ecosystem_survey)_
+
+[survey-results]: https://rust-gamedev.github.io/posts/survey-01
+[survey]: https://rust-gamedev.github.io/posts/newsletter-001/#survey-from-the-rust-gamedev-working-group-clipboard
+
 ## [Are We Game Yet?][awgy] Updates
 
 [Are We Game Yet?][awgy] is a website cataloguing the Rust gamedev ecosystem, with hundreds of links to crates, games and helpful resources.
@@ -68,6 +86,40 @@ There's never been a better time to add your projects to the site, so [please co
 [awgy]: https://arewegameyet.com/
 [awgy-wg]: https://github.com/rust-gamedev/arewegameyet/issues/210
 [awgy-contribute]: https://github.com/rust-gamedev/arewegameyet#contribute
+
+## [New Rust GameDev Discrod Server][discord-new-invitation]
+
+[![Invitation widget: 243 members total, 98 online](discord-invite.png)][discord-new-invitation]
+
+A new Discord server dedicated to Rust GameDev was started
+by [@dasifefe] this month:
+[**invitation link**][discord-new-invitation].
+
+Besides talking about Rust, it's a place that could be used to show yuor
+work-in-progress, art (visual or audio), discuss game design, etc.
+
+------
+
+Also, in case you didn't know, there is a quite active "games-and-graphics"
+channel on the [community-run Discord server][discord-community-invitation].
+
+[@dasifefe]: https://github.com/dasifefe
+[discord-new-invitation]: https://discord.gg/yNtPTb2
+[discord-community-invitation]: https://discord.gg/6Zvghp
+
+## [RustTallinn][@RustTallinn]
+
+![Tallin's old town](tallinn.jpeg)
+
+[@logicsoup] - one of the developers behind [Garden][garden] -
+[is planning to organize][tallinn-ann] the first (and hopefully one of many)
+Rust Hack'n'Learn meetup in Tallinn in March.
+
+If you're interested, follow [@RustTallinn] - more details will be announced soon.
+
+[tallinn-ann]: https://twitter.com/logicsoup/status/1224404367723454478
+[@RustTallinn]: https://twitter.com/RustTallinn
+[@logicsoup]: https://twitter.com/logicsoup
 
 ## Game Updates
 
@@ -237,6 +289,40 @@ network play][designing_network_play].
 [will]: https://azriel.im/will/
 [designing_network_play]: https://azriel.im/will/2020/02/29/designing-network-play/
 [will_network_play]: will_network_play.png
+
+### [Garden]: January and February Devlogs
+
+![pyramid generation demo](garden-pyramids.jpg)
+
+[Garden][garden] is an upcoming game centered around growing realistic plants.
+
+[January][garden-jan] and [February][garden-feb] devlogs
+were posted by [@logicsoup].
+Some of the updates:
+
+- 🌘 Physically based shading
+- 🕹 3D model loading and texturing for richer environments
+- 💦 Soil moisture content
+- 🌠 Alpha mipmapping
+- and more info regarding some game mechanics as well
+
+[garden]: https://epcc.itch.io/garden
+[garden-jan]: https://cyberplant.xyz/posts/january
+[garden-feb]: https://cyberplant.xyz/posts/february
+
+### [Colony Genesis][colony-itch]
+
+![itch.io page: ASCII art logo with an ant, game features, video and screenshots](colony-genesis.png)
+
+[Native Systems] is working on "Colony Genesis" -
+an ant colony sandbox game with ASCII graphics.
+
+> Establish a new colony and help it grow or let it develop on its own.
+
+This month an alpha version was published on itch: [check it out here][colony-itch].
+
+[colony-itch]: https://nativesystems.itch.io/colony
+[Native Systems]: https://nativesystems.rs
 
 ## Library & Tooling Updates
 
