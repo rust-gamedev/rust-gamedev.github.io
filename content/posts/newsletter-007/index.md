@@ -48,6 +48,24 @@ some actual interesting discussions.
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
+## [Ecosystem Survey Results][survey]
+
+![Thanks cloud: Amethyst, ggez, gfx-rs, specs, serde and many other projects](survey-thanks.png)
+
+The [results][survey-results] of the Rust GameDev [ecosystem survey][survey]
+were published.
+
+> After an unfortunate delay, we can finally present the results.
+> We received a whopping 403 responses!
+> This trove of valuable feedback will inform the WG's roadmap for 2020.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/ezrk0y/rust_game_development_ecosystem_survey),
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/ezrk5o/rust_game_development_ecosystem_survey)_
+
+[survey-results]: https://rust-gamedev.github.io/posts/survey-01
+[survey]: https://rust-gamedev.github.io/posts/newsletter-001/#survey-from-the-rust-gamedev-working-group-clipboard
+
 ## [Are We Game Yet?][awgy] Updates
 
 [Are We Game Yet?][awgy] is a website cataloguing the Rust gamedev ecosystem, with hundreds of links to crates, games and helpful resources.
@@ -68,6 +86,40 @@ There's never been a better time to add your projects to the site, so [please co
 [awgy]: https://arewegameyet.com/
 [awgy-wg]: https://github.com/rust-gamedev/arewegameyet/issues/210
 [awgy-contribute]: https://github.com/rust-gamedev/arewegameyet#contribute
+
+## [New Rust GameDev Discord Server][discord-new-invitation]
+
+[![Invitation widget: 243 members total, 98 online](discord-invite.png)][discord-new-invitation]
+
+A new Discord server dedicated to Rust GameDev was started
+by [@dasifefe] this month:
+[**invitation link**][discord-new-invitation].
+
+Besides talking about Rust, it's a place that could be used to show your
+work-in-progress, art (visual or audio), discuss game design, etc.
+
+------
+
+Also, in case you didn't know, there is a quite active "games-and-graphics"
+channel on the [community-run Discord server][discord-community-invitation].
+
+[@dasifefe]: https://github.com/dasifefe
+[discord-new-invitation]: https://discord.gg/yNtPTb2
+[discord-community-invitation]: https://discord.gg/6Zvghp
+
+## [RustTallinn][@RustTallinn]
+
+![Tallin's old town](tallinn.jpeg)
+
+[@logicsoup] - one of the developers behind [Garden][garden] -
+[is planning to organize][tallinn-ann] the first (and hopefully one of many)
+Rust Hack'n'Learn meetup in Tallinn in March.
+
+If you're interested, follow [@RustTallinn] - more details will be announced soon.
+
+[tallinn-ann]: https://twitter.com/logicsoup/status/1224404367723454478
+[@RustTallinn]: https://twitter.com/RustTallinn
+[@logicsoup]: https://twitter.com/logicsoup
 
 ## Game Updates
 
@@ -110,6 +162,32 @@ This month, the focus was on the cooking skill. This includes recipies and cookw
 
 [antorum]: https://dooskington.com
 [@dooskington]: https://twitter.com/dooskington
+
+### [Everpuzzle]
+
+[Everpuzzle] is a Tetris Attack like action-puzzle game written in Rust.
+
+![Everpuzzle preview](everpuzzle-020-preview.gif)
+
+Everpuzzle aims to become a similar game like Tetris Attack and expand on its concepts. 
+The project was recently rewritten with minimal dependencies to achieve small compile times and gain more control over the 
+underlying engine architecture. 
+In the past Everpuzzle was using Amethyst with ECS, however there were some issues that made development difficult.
+Everpuzzle's big goals are AI, Multiplayer and different Game modes. 
+
+Big changes coming in version 0.2, full list [here](https://github.com/Skytrias/everpuzzle/blob/master/CHANGELOG.md):
+* Gamepad support (singleplayer)
+* Multiple grids
+* AI Bot
+* Better Randomization of blocks
+* Combos / Chains - with Highlighting
+* Better animations
+
+[Latest releases](https://github.com/Skytrias/everpuzzle/releases)
+
+[Everpuzzle rewrite - Code Walkthrough (code outdated)](https://www.youtube.com/watch?v=qA2zcaUVRKY)
+
+[Everpuzzle]: https://github.com/Skytrias/everpuzzle
 
 ### [Scale]
 
@@ -357,6 +435,97 @@ WIP Box2D physics game prototype:
 - Day 48: [food](https://twitter.com/Fryer00/status/1232181181690654720).
 
 [@Fryer00]: https://twitter.com/Fryer00
+
+### [Garden]: January and February Devlogs
+
+![pyramid generation demo](garden-pyramids.jpg)
+
+[Garden][garden] is an upcoming game centered around growing realistic plants.
+
+[January][garden-jan] and [February][garden-feb] devlogs
+were posted by [@logicsoup].
+Some of the updates:
+
+- 🌘 Physically based shading
+- 🕹 3D model loading and texturing for richer environments
+- 💦 Soil moisture content
+- 🌠 Alpha mipmapping
+- and more info regarding some game mechanics as well
+
+[garden]: https://epcc.itch.io/garden
+[garden-jan]: https://cyberplant.xyz/posts/january
+[garden-feb]: https://cyberplant.xyz/posts/february
+
+### [Colony Genesis][colony-itch]
+
+![itch.io page: ASCII art logo with an ant, game features, video and screenshots](colony-genesis.png)
+
+[Native Systems] is working on "Colony Genesis" -
+an ant colony sandbox game with ASCII graphics.
+
+> Establish a new colony and help it grow or let it develop on its own.
+
+This month an alpha version was published on itch: [check it out here][colony-itch].
+
+[colony-itch]: https://nativesystems.itch.io/colony
+[Native Systems]: https://nativesystems.rs
+
+### [Veloren][veloren]
+
+![Rolling mountain landscape](veloren1.png)
+
+> Rolling mountain landscape
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf Fortress and Cube World.
+
+At the beginning of the month, the team met for a 0.6 intro meeting. It was decided that 0.6 would focus on things for the player to do, and hence will be called "The Content Update".
+
+Research has been done on multiple areas this month. One domain is level of detail, which is allowing mountains off in the distance to be rendered much faster. Another domain is server persistence. Finding a way for the server to efficiently persist player information is a large part of what is needed for The Content Update.
+
+Here is the February changelog:
+
+```text
+- Fixed NPCs attacking the player forever after killing them
+- Extend run sfx to small animals to prevent sneak attacks by geese
+- Added sfx for wielding/unwielding weapons
+- Added new orc hairstyles
+- Added gamma setting
+- Configurable fonts
+- Tanslation status tracking
+- Fixed /give_exp ignoring player argument
+- Allow spawning individual pet species, not just generic body kinds
+- Added daily Mac builds
+- Removed highlighting of non-collectible sprites
+- Added zoomable and rotatable minimap
+- Added rotating orientation marker to main-map
+- Brighter / higher contrast main-map
+- Added music system
+```
+
+[![veloren development](veloren3.gif)](https://www.youtube.com/watch?v=1ldHQfxCT24)
+
+> 1 year of Veloren development. Click for the full video!
+
+You can read more about some specific topics:
+
+- [0.5 Release](https://veloren.net/devblog-53#0-5-release)
+- [0.6 Intro Meeting](https://veloren.net/devblog-54#0-6-intro-meeting)
+- [Settlements](https://veloren.net/devblog-54#settlements)
+- [Mac Builds](https://veloren.net/devblog-55#the-mac-build-situation-by-angelonfira)
+- [Achievements](https://veloren.net/devblog-55#achievement-implementation-by-thedip)
+- [Persistence](https://veloren.net/devblog-56#persistence-by-angelonfira)
+
+![Hanging out](veloren2.png)
+
+In March, there will be a heavy focus on completing level of detail work as well as persistence. Modding support will be explored further. Player achievements will be merged into the game, and we will start looking at where more content can be added.
+
+February's full weekly devlogs: "This Week In Veloren...":
+[#53](https://veloren.net/devblog-53),
+[#54](https://veloren.net/devblog-54),
+[#55](https://veloren.net/devblog-55),
+[#56](https://veloren.net/devblog-56).
+
+[veloren]: https://veloren.net
 
 ## Library & Tooling Updates
 
