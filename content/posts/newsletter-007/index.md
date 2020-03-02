@@ -95,7 +95,7 @@ A new Discord server dedicated to Rust GameDev was started
 by [@dasifefe] this month:
 [**invitation link**][discord-new-invitation].
 
-Besides talking about Rust, it's a place that could be used to show yuor
+Besides talking about Rust, it's a place that could be used to show your
 work-in-progress, art (visual or audio), discuss game design, etc.
 
 ------
