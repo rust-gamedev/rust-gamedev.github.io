@@ -270,9 +270,9 @@ Here is the February changelog:
 - Added music system
 ```
 
-{{ youtube(id="1ldHQfxCT24") }}
+[![veloren development](veloren3.gif)](https://www.youtube.com/watch?v=1ldHQfxCT24)
 
-> 1 year of Veloren development
+> 1 year of Veloren development. Click for the full video!
 
 You can read more about some specific topics:
 
