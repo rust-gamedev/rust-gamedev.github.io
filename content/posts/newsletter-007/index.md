@@ -48,6 +48,27 @@ some actual interesting discussions.
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
+## [Are We Game Yet?][awgy] Updates
+
+[Are We Game Yet?][awgy] is a website cataloguing the Rust gamedev ecosystem, with hundreds of links to crates, games and helpful resources.
+
+[![Are We Game Yet? homepage](awgy.png)][awgy]
+
+This month, it received some major updates:
+
+* All of the site's data files have been unified into a consistent TOML schema, making it easier to add new links.
+* Categories have been added for games and resources, and you can now add an item to multiple categories without duplicating the data.
+* Page load times have been reduced (especially on the homepage).
+* The styling has been improved to make the site look better on mobile, and to resolve some accessibility issues.
+
+[Ownership was also recently transferred across to the gamedev working group][awgy-wg], to allow for more people to help with maintainance.
+
+There's never been a better time to add your projects to the site, so [please come and contribute][awgy-contribute]!
+
+[awgy]: https://arewegameyet.com/
+[awgy-wg]: https://github.com/rust-gamedev/arewegameyet/issues/210
+[awgy-contribute]: https://github.com/rust-gamedev/arewegameyet#contribute
+
 ## Game Updates
 
 ### [Rusty Shooter][rusty-shooter]
@@ -116,7 +137,158 @@ Big changes coming in version 0.2, full list [here](https://github.com/Skytrias/
 
 [Everpuzzle]: https://github.com/Skytrias/everpuzzle
 
+### [Scale]
+
+![Traffic lights](scale.png)
+
+[Scale] is a recent project about modern day society simulation from the
+bottom-up by [Uriopass].
+
+In february, the Inspector for specs entities was mostly finished and the
+traffic simulation made great progress.
+A second [blog post][scale-blog-post] was released about it.
+
+[A recent video][scale-traffic-video] also shows different traffic features such
+as traffic lights, stop signs and car AI working together.
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/f1egnd/scale_devblog_2)_
+
+[Uriopass]: http://douady.paris/aboutme.html
+[Scale]: https://github.com/Uriopass/Scale
+[scale-blog-post]: http://douady.paris/blog/scale_2.html
+[scale-traffic-video]: https://youtu.be/nk6F42BQllU
+
+### [Ultimate Scale][ultimate-scale]
+
+![Ultimate scale screenshot showing winds and blips](ultimate_scale.png)
+
+[Ultimate Scale][ultimate-scale] is a puzzle game in which you build
+increasingly large machines to solve increasingly difficult problems.
+The game consists of wind and blips.
+Wind propagates along pipes and causes blips to move.
+Blips, in turn, activate blocks.
+
+[Leod] is currently working on the core design: How to make the game fun and
+what blocks to add. He posted about their thoughts and progress on a
+[reddit comment][ultimate-scale-post].
+Regularly, videos are posted on their
+[youtube channel][ultimate-scale-youtube-channel] showing different machines
+made in game such as an [extensible counter modulo 10][ultimate-scale-video-1]
+and a [buffer][ultimate-scale-video-2].
+
+A custom 3D rendering pipeline based on glium called [Rendology] was developed
+for this project. A [blog post][rendology-blog-post] talks about its design and
+relation to Ultimate Scale.
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/f3cll6/ultimate_scale_counting_modulo_three)_
+
+[Leod]: https://leod.github.io/
+[Rendology]: https://github.com/leod/rendology
+[rendology-blog-post]: https://leod.github.io/rust/gamedev/rendology/2019/12/13/introduction-to-rendology.html
+[ultimate-scale]: https://github.com/leod/ultimate-scale
+[ultimate-scale-video-1]: https://youtu.be/zmKRJAF4xcI
+[ultimate-scale-video-2]: https://youtu.be/IM3BRM_MZrE
+[ultimate-scale-post]: https://www.reddit.com/r/rust_gamedev/comments/f3cll6/ultimate_scale_counting_modulo_three/fhhu5ol/
+[ultimate-scale-youtube-channel]: https://www.youtube.com/channel/UChSw7WP2i0GIw61FIeTeGsA
+
+### [Tennis Academy Dash][tennis-academy-dash]
+
+![release](dash.gif)
+
+Tennis academy dash is a time management game where you are the manager of a tennis academy and you need to coordinate various players to play on your courts. 
+
+The game is still a work in progress, but the demo version has been uploaded to itch.io this month, so you can go ahead and check it out! Give it a go (the build is only for mac at the moment but other platforms coming soon) and drop a comment with any feedback on [tennis-academy-dash].
+
+[tennis-academy-dash]: https://iolivia.itch.io/tennis-academy-dash
+
+### [Lonely Star][lonely-star]
+
+> *Space is a lonely place, but at least you've got the music to keep you company.*
+
+[Lonely Star][lonely-star] is a side-scrolling infinite runner, with simple generative music. You collect orbs and fly through rings in order to play notes and stay alive.
+
+It was developed by [17cupsofcoffee][17cupsofcoffee], using the [Tetra][tetra] 2D game framework, for [Weekly Game Jam #135](weekly-game-jam-135).
+
+[![Lonely Star screenshot](lonely-star.png)][lonely-star]
+
+Tetra itself also received two small updates recently:
+
+* [Version 0.3.2 was released][tetra-0.3.2], with bugfixes and some tools for simple AABB collision detection.
+* [The Pong tutorial was updated with a new chapter][tetra-pong], showing how to use Tetra's graphics and input APIs.
+
+[lonely-star]: https://17cupsofcoffee.itch.io/lonely-star
+[17cupsofcoffee]: https://twitter.com/17cupsofcoffee
+[tetra]: https://github.com/17cupsofcoffee/tetra
+[weekly-game-jam-135]: https://itch.io/jam/weekly-game-jam-135
+[tetra-0.3.2]: https://twitter.com/17cupsofcoffee/status/1217524602513055749
+[tetra-pong]: https://twitter.com/17cupsofcoffee/status/1219758851416895489
+
+### [Akigi][akigi]
+
+![High detail terrain chunk with PRR](akigi.png)
+
+> Sampling a heightmap in the vertex shader and also computing the normal, tangent and bitangent vectors in the vertex shader.
+
+[Akigi][akigi] is a multiplayer online world where most believe that humans are inferior.
+
+This month saw a heavy focus on the web client. An alpha release is slated for April 9th, 2020. Lots of client refactoring was done, and experiments were run in the browser.
+
+Some of February's updates:
+
+- [Input Event Processor System](https://devjournal.akigi.com/february-2020/2020-02-09.html#input-event-processor-system);
+- [Terrain Loading and Rendering](https://devjournal.akigi.com/february-2020/2020-02-16.html#terrain-loading-and-rendering);
+- [User Interface Elements](https://devjournal.akigi.com/february-2020/2020-02-16.html#user-interface-elements);
+- [The WebGL Renderer](https://devjournal.akigi.com/february-2020/2020-02-16.html#the-webgl-renderer);
+- [Rendering Meshes](https://devjournal.akigi.com/february-2020/055-2020-02-23.html#rendering-meshes);
+- [Rendering Terrain](https://devjournal.akigi.com/february-2020/055-2020-02-23.html#rendering-terrain);
+
+February's full devlogs:
+[#053](https://devjournal.akigi.com/february-2020/2020-02-09.html),
+[#054](https://devjournal.akigi.com/february-2020/2020-02-16.html),
+[#055](https://devjournal.akigi.com/february-2020/055-2020-02-23.html),
+
+[akigi]: https://akigi.com
+
+### [Will][will]
+
+![Will Network Play Screenshot][will_network_play]
+
+[Will][will] is a 2.5D moddable action / adventure game.
+
+This month Azriel wrote a post about how decisions were made when [designing
+network play][designing_network_play].
+
+[will]: https://azriel.im/will/
+[designing_network_play]: https://azriel.im/will/2020/02/29/designing-network-play/
+[will_network_play]: will_network_play.png
+
 ## Library & Tooling Updates
+
+### specs 0.16
+
+[specs] is an entity-component system (ECS) library, designed for high
+performance. This update increases the MSRV to 1.38 and removes the `"nightly"`
+feature.
+
+In this version, the [panic message has been improved][panic_improve] to include
+the name of the type that is accessed on stable Rust, as well as suggestions for
+how to fix the issue. Prior to `specs 0.16`, retrieving a resource that had not
+been added to the `World` panics with an obscure *"resource not found"* message,
+and the `"nightly"` feature was necessary to discover what resource that is.
+
+In addition, the [`Send` and `Sync` trait constraints are
+removed][specs_constraints] from resources and `Component`s when the
+`"parallel"` feature is disabled -- enabling types such as
+`wasm_bindgen::JsValue` to be used with non-parallel `specs`.
+
+For more details, please see the [`specs` changelog].
+
+[panic_improve]: https://github.com/amethyst/shred/issues/182
+[specs_constraints]: https://github.com/amethyst/specs/issues/673
+[specs]: https://crates.io/crates/specs
+[`specs` changelog]: https://github.com/amethyst/specs/blob/0.16.1/CHANGELOG.md#0161-2020-02-18
 
 ## Popular Workgroup Issues in Github
 
