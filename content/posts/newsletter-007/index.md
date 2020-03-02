@@ -280,7 +280,7 @@ Some of the current features:
 [@Ruddle]: https://github.com/Ruddle
 [oxidator-video-play]: https://streamable.com/499j0
 [oxidator-video-unit-editor]: https://streamable.com/ywr44
-[oxidator-video-map-editor]: https://streamable.com/e5zdj
+[oxidator-video-map-editor]: https://github.com/Ruddle/oxidator/blob/be4863e74/etc/map_editor.gif
 
 ### [Univer City v1.0 and Open Source Release][univer-1-0-opensource]
 
