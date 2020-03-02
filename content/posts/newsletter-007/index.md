@@ -125,14 +125,13 @@ A second [blog post][scale-blog-post] was released about it.
 [A recent video][scale-traffic-video] also shows different traffic features such
 as traffic lights, stop signs and car AI working together.
 
-Discussion:
-[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/f1egnd/scale_devblog_2/)
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/f1egnd/scale_devblog_2)_
 
 [Uriopass]: http://douady.paris/aboutme.html
 [Scale]: https://github.com/Uriopass/Scale
 [scale-blog-post]: http://douady.paris/blog/scale_2.html
 [scale-traffic-video]: https://youtu.be/nk6F42BQllU
-
 
 ### [Ultimate Scale][ultimate-scale]
 
@@ -145,9 +144,9 @@ Wind propagates along pipes and causes blips to move.
 Blips, in turn, activate blocks.
 
 [Leod] is currently working on the core design: How to make the game fun and
-what blocks to add. He posted about his thoughts and progress on a
+what blocks to add. He posted about their thoughts and progress on a
 [reddit comment][ultimate-scale-post].
-Regularly, videos are posted on his
+Regularly, videos are posted on their
 [youtube channel][ultimate-scale-youtube-channel] showing different machines
 made in game such as an [extensible counter modulo 10][ultimate-scale-video-1]
 and a [buffer][ultimate-scale-video-2].
@@ -156,8 +155,8 @@ A custom 3D rendering pipeline based on glium called [Rendology] was developed
 for this project. A [blog post][rendology-blog-post] talks about its design and
 relation to Ultimate Scale.
 
-Discussion:
-[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/f3cll6/ultimate_scale_counting_modulo_three/)
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/f3cll6/ultimate_scale_counting_modulo_three)_
 
 [Leod]: https://leod.github.io/
 [Rendology]: https://github.com/leod/rendology
