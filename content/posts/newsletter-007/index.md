@@ -97,12 +97,10 @@ This month, the focus was on the cooking skill. This includes recipies and cookw
 
 ![Everpuzzle preview](everpuzzle-020-preview.gif)
 
-Everpuzzle aims to become a similar game like Tetris Attack and expand on it's
-concepts. Back then the project was using Amethyst with ECS, which wasn't nice
-to write game logic in. That's why the project was rewritten, with minimal
-dependencies to achieve small compile times and gain more control over the
+Everpuzzle aims to become a similar game like Tetris Attack and expand on its concepts. 
+The project was recently rewritten with minimal dependencies to achieve small compile times and gain more control over the 
 underlying engine architecture. 
-
+In the past Everpuzzle was using Amethyst with ECS, however there were some issues that made development difficult.
 Everpuzzle's big goals are AI, Multiplayer and different Game modes. 
 
 Big changes coming in version 0.2, full list ![here](https://github.com/Skytrias/everpuzzle/blob/master/CHANGELOG.md):
