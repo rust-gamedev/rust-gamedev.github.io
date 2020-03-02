@@ -225,7 +225,44 @@ February's full devlogs:
 
 [akigi]: https://akigi.com
 
+### [Will][will]
+
+![Will Network Play Screenshot][will_network_play]
+
+[Will][will] is a 2.5D moddable action / adventure game.
+
+This month Azriel wrote a post about how decisions were made when [designing
+network play][designing_network_play].
+
+[will]: https://azriel.im/will/
+[designing_network_play]: https://azriel.im/will/2020/02/29/designing-network-play/
+[will_network_play]: will_network_play.png
+
 ## Library & Tooling Updates
+
+### specs 0.16
+
+[specs] is an entity-component system (ECS) library, designed for high
+performance. This update increases the MSRV to 1.38 and removes the `"nightly"`
+feature.
+
+In this version, the [panic message has been improved][panic_improve] to include
+the name of the type that is accessed on stable Rust, as well as suggestions for
+how to fix the issue. Prior to `specs 0.16`, retrieving a resource that had not
+been added to the `World` panics with an obscure *"resource not found"* message,
+and the `"nightly"` feature was necessary to discover what resource that is.
+
+In addition, the [`Send` and `Sync` trait constraints are
+removed][specs_constraints] from resources and `Component`s when the
+`"parallel"` feature is disabled -- enabling types such as
+`wasm_bindgen::JsValue` to be used with non-parallel `specs`.
+
+For more details, please see the [`specs` changelog].
+
+[panic_improve]: https://github.com/amethyst/shred/issues/182
+[specs_constraints]: https://github.com/amethyst/specs/issues/673
+[specs]: https://crates.io/crates/specs
+[`specs` changelog]: https://github.com/amethyst/specs/blob/0.16.1/CHANGELOG.md#0161-2020-02-18
 
 ## Popular Workgroup Issues in Github
 
