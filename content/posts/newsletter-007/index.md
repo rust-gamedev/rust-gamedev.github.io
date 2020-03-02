@@ -87,7 +87,7 @@ There's never been a better time to add your projects to the site, so [please co
 [awgy-wg]: https://github.com/rust-gamedev/arewegameyet/issues/210
 [awgy-contribute]: https://github.com/rust-gamedev/arewegameyet#contribute
 
-## [New Rust GameDev Discrod Server][discord-new-invitation]
+## [New Rust GameDev Discord Server][discord-new-invitation]
 
 [![Invitation widget: 243 members total, 98 online](discord-invite.png)][discord-new-invitation]
 
