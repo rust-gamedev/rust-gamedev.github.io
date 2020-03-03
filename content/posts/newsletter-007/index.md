@@ -527,8 +527,11 @@ February's full weekly devlogs: "This Week In Veloren...":
 
 [veloren]: https://veloren.net
 
-### [Grumpy Visitors first update. Winter progress][grumpy_visitors]
+### [Grumpy Visitors First Update. Winter Progress][grumpy_visitors]
+
 ![Magic missiles in Grumpy Visitors](grumpy_missiles.jpg)
+
+Grumpy Visitors is a top-down 2D co-op action/arcade game highly inspired by Evil Invasion. It runs on Amethyst game engine.
 
 This winter Grumpy Visitors received some updates with the focus on graphics and UI:
 - Repainting mage sprites with shaders
