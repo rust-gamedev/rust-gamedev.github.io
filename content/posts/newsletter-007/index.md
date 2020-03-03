@@ -433,6 +433,58 @@ For more details, please see the [`specs` changelog].
 [specs]: https://crates.io/crates/specs
 [`specs` changelog]: https://github.com/amethyst/specs/blob/0.16.1/CHANGELOG.md#0161-2020-02-18
 
+### [Shipyard] v0.3
+
+Take a look at [this](https://www.reddit.com/r/rust/comments/fbo8wf/shipyard_03_release/) Reddit thread for a discussion on the update.
+
+[Shipyard] is an Entity Component System crate. ECS is a pattern mostly used in games but not only. It fits really well with Rust, allowing easy composition and lifetime management.
+
+- [User guide] Learning to use a crate with the documentation can be hard. There's now a guide to explain what can be done with Shipyard and how.
+- No need to register components anymore Components had to be registered before accessing them by using World::new or World::register.
+Storages are now automatically created when they are first accessed.
+- !Send and !Sync components All components had to be Send + Sync, this is a strict limitation to make sure storages can use parallel features. With 0.3 !Send and !Sync types can be stored and accessed while still following Rust's rules. These rules limit threading for these types but doesn't always prevent it.
+- Unique components When we only need a single instance of a component, keeping an id around to access it can be annoying. A Unique component won't be attached to any entity but will have the storage all for itself.
+- Components sorting
+- no_std support
+
+[Shipyard]: https://crates.io/crates/shipyard
+[User guide]: https://leudz.github.io/shipyard/book
+
+### [crow] v0.3
+
+[crow] is a 2D rendering engine based on OpenGL. It is designed to be easy to use while still allowing for nearly everything one might want while using pixel art.
+
+[crow]: https://crates.io/crates/crow
+
+A showcase game is [being developed](https://github.com/lcnr/akari) with crow.
+
+### Patchwork
+
+### Kas
+
+### [Oxygengine][oxygengine]
+
+![Oxygengine logo](oxygengine-dark-logo.svg)
+
+This month [Oxygengine][oxygengine] got
+[JavaScript scripting interface][oxygengine-js-ann]
+to allow faster prototyping of games.
+
+> This prebuilt WASM version would let game devs with JS background
+> to quickly prototype game ideas and then slowly move their logic
+> into Rust implementation, while learning Rust meantime.
+
+Example source code: [oxygengine-js/js/index.js].
+
+Also, you can now [instantiate entities from prefab assets][oxygengine-inst].
+
+[oxygengine]: https://github.com/PsichiX/Oxygengine
+[oxygengine-js-ann]: https://reddit.com/r/rust_gamedev/comments/epupkb/oxygengine_pure_js_scripting_backend_for_quick
+[oxygengine-js/js/index.js]: https://github.com/PsichiX/Oxygengine/blob/master/oxygengine-js/js/index.js
+[oxygengine-inst]: https://reddit.com/r/rust/comments/eunppk/oxygengine_instantiate_entities_from_prefab_assets
+
+### image
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
