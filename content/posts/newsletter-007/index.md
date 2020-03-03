@@ -602,8 +602,6 @@ _Discussions:
 [recall-s-feb]: https://medium.com/@recallsingularity/recalling-nov-2019-236cdf9c0a8a
 [recall-youtube]: https://youtube.com/channel/UCzgUlowiaKXJiNIAi0c9Qsg/videos
 
-**TODO**: other tweets!
-
 ### For the Quest
 
 ![walking demo](for-quest.gif)
