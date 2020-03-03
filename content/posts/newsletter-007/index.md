@@ -527,6 +527,15 @@ February's full weekly devlogs: "This Week In Veloren...":
 
 [veloren]: https://veloren.net
 
+### [Neovide][neovide]
+
+It's not a game, but particle effects merit an exception! Neovide is a frontend for
+neovim. It uses vulkan and skia for rendering.
+
+![Neovide Animated Cursor Example](neovide-cursor.gif)
+
+[neovide]: https://github.com/Kethku/neovide
+
 ## Library & Tooling Updates
 
 ### specs 0.16
@@ -552,6 +561,16 @@ For more details, please see the [`specs` changelog].
 [specs_constraints]: https://github.com/amethyst/specs/issues/673
 [specs]: https://crates.io/crates/specs
 [`specs` changelog]: https://github.com/amethyst/specs/blob/0.16.1/CHANGELOG.md#0161-2020-02-18
+
+### [Skulpin][skulpin]
+
+Skulpin is a library that provides an easy option for drawing hardware-accelerated 2D by combining
+vulkan and skia. Recent work has included updating to winit 0.21 and abstracting the windowing
+layer so that sdl2 can also be used.
+
+![Skulpin Screenshot](skulpin-interactive.png)
+
+[skulpin]: https://github.com/aclysma/skulpin
 
 ## Popular Workgroup Issues in Github
 
