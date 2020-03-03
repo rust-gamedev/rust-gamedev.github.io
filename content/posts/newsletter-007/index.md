@@ -421,6 +421,7 @@ For details, see the [github page] or the [savefile documentation]
 [savefile documentation]: https://docs.rs/savefile/0.6.1/savefile
 [introspection]: https://docs.rs/savefile/0.6.1/savefile/#introspection
 [github page]: https://github.com/avl/savefile
+
 ### specs 0.16
 
 [specs] is an entity-component system (ECS) library, designed for high
