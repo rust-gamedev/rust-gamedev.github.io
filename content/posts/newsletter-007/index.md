@@ -412,7 +412,7 @@ February's full weekly devlogs: "This Week In Veloren...":
 ### savefile 0.6.1
 [savefile] is a serialization crate used to effortlessly serialize rust crates 
 and enums into a binary format. Anything implementing the `Write` trait can
-be serialized and deserialized. First class versioning support and introspection 
+be serialized and deserialized. First class versioning support and introspection
 are some other features available. 
 
 Version 0.6.1 includes a fix and should be updated to if compilation using
@@ -422,7 +422,6 @@ For details, see the [github page][savefile-github] or the [savefile documentati
 
 [savefile]: https://crates.io/crates/savefile
 [savefile documentation]: https://docs.rs/savefile/0.6.1/savefile
-[introspection]: https://docs.rs/savefile/0.6.1/savefile/#introspection
 [savefile-github]: https://github.com/avl/savefile
 
 ### specs 0.16
