@@ -410,6 +410,7 @@ February's full weekly devlogs: "This Week In Veloren...":
 ## Library & Tooling Updates
 
 ### savefile 0.6.1
+
 [savefile] is a serialization crate used to effortlessly serialize rust crates 
 and enums into a binary format. Anything implementing the `Write` trait can
 be serialized and deserialized. First class versioning support and introspection
