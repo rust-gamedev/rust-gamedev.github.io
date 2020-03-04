@@ -597,6 +597,15 @@ For more details, please see the [`specs` changelog].
 [specs]: https://crates.io/crates/specs
 [`specs` changelog]: https://github.com/amethyst/specs/blob/0.16.1/CHANGELOG.md#0161-2020-02-18
 
+### [Neovide][neovide]
+
+![Neovide Animated Cursor Example](neovide-cursor.gif)
+
+[Neovide][neovide] is a frontend for neovim that brings a lot of visual niceties.
+It uses vulkan and skia for rendering.
+
+[neovide]: https://github.com/Kethku/neovide
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
