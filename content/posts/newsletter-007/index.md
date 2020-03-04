@@ -529,6 +529,18 @@ February's full weekly devlogs: "This Week In Veloren...":
 
 ## Library & Tooling Updates
 
+### [Fix Your Time Step in Rust and GGEZ][fyt-ggez]
+
+[![Demonstration of interpolation](fyt-ggez.gif)][fyt-ggez]
+
+[joetsoi] has written [a blog post][fyt-ggez], demonstrating how the concepts from the well-known '[Fix Your Timestep][fyt]' article can be applied when making games with Rust and GGEZ.
+
+The examples are very well explained, and can easily be translated to other engines, so it's worth checking out even if you're not a GGEZ user!
+
+[joetsoi]: https://joetsoi.github.io
+[fyt-ggez]: https://joetsoi.github.io/fix-your-timestep-rust-ggez/
+[fyt]: https://gafferongames.com/post/fix_your_timestep/
+
 ### savefile 0.6.1
 
 [savefile] is a serialization crate used to effortlessly serialize rust crates 
