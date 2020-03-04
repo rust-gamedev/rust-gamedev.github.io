@@ -527,6 +527,22 @@ February's full weekly devlogs: "This Week In Veloren...":
 
 [veloren]: https://veloren.net
 
+### [Grumpy Visitors First Update. Winter Progress][grumpy_visitors]
+
+![Magic missiles in Grumpy Visitors](grumpy_missiles.jpg)
+
+Grumpy Visitors is a top-down 2D co-op action/arcade game highly inspired by Evil Invasion. It runs on Amethyst game engine.
+
+This winter Grumpy Visitors received some updates with the focus on graphics and UI:
+- Repainting mage sprites with shaders
+- New missiles graphics
+- Monsters death animations
+- Modal windows for menu UI
+
+Check them out in the [latest winter devlog][grumpy_visitors].
+
+[grumpy_visitors]: https://mvlabat.github.io/2020-03-02-winter-update/
+
 ### [Make China Great Again][china-great]
 
 ![cities, planes and keys](china.png)
@@ -619,6 +635,34 @@ about their "For the Quest" (working title) game project:
 
 ## Library & Tooling Updates
 
+### [Fix Your Time Step in Rust and GGEZ][fyt-ggez]
+
+[![Demonstration of interpolation](fyt-ggez.gif)][fyt-ggez]
+
+[joetsoi] has written [a blog post][fyt-ggez], demonstrating how the concepts from the well-known '[Fix Your Timestep][fyt]' article can be applied when making games with Rust and GGEZ.
+
+The examples are very well explained, and can easily be translated to other engines, so it's worth checking out even if you're not a GGEZ user!
+
+[joetsoi]: https://joetsoi.github.io
+[fyt-ggez]: https://joetsoi.github.io/fix-your-timestep-rust-ggez/
+[fyt]: https://gafferongames.com/post/fix_your_timestep/
+
+### savefile 0.6.1
+
+[savefile] is a serialization crate used to effortlessly serialize rust crates 
+and enums into a binary format. Anything implementing the `Write` trait can
+be serialized and deserialized. First class versioning support and introspection
+are some other features available. 
+
+Version 0.6.1 includes a fix and should be updated to if compilation using
+the savefile-derive crate produces a "`SaveFileError` not found" compiler error. 
+
+For details, see the [github page][savefile-github] or the [savefile documentation].
+
+[savefile]: https://crates.io/crates/savefile
+[savefile documentation]: https://docs.rs/savefile/0.6.1/savefile
+[savefile-github]: https://github.com/avl/savefile
+
 ### specs 0.16
 
 [specs] is an entity-component system (ECS) library, designed for high
@@ -642,6 +686,15 @@ For more details, please see the [`specs` changelog].
 [specs_constraints]: https://github.com/amethyst/specs/issues/673
 [specs]: https://crates.io/crates/specs
 [`specs` changelog]: https://github.com/amethyst/specs/blob/0.16.1/CHANGELOG.md#0161-2020-02-18
+
+### [Neovide][neovide]
+
+![Neovide Animated Cursor Example](neovide-cursor.gif)
+
+[Neovide][neovide] is a frontend for neovim that brings a lot of visual niceties.
+It uses vulkan and skia for rendering.
+
+[neovide]: https://github.com/Kethku/neovide
 
 ## Popular Workgroup Issues in Github
 
