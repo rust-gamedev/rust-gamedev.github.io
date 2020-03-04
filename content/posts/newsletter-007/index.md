@@ -543,6 +543,96 @@ Check them out in the [latest winter devlog][grumpy_visitors].
 
 [grumpy_visitors]: https://mvlabat.github.io/2020-03-02-winter-update/
 
+### [Make China Great Again][china-great]
+
+![cities, planes and keys](china.png)
+
+> Turn back planes to the port, by clicking right keys to the virus beat.
+
+[Make China Great Again][china-great] ([source][china-great-src])
+by [@PsichiX] is a GlobalGameJam game written using [Oxygengine].
+
+[Try it online][china-great-play].
+
+[@PsichiX]: https://github.com/PsichiX
+[china-great]: https://globalgamejam.org/2020/games/make-china-great-again-5
+[china-great-play]: http://mcga.psichix.io
+[china-great-src]: https://github.com/PsichiX/global-game-jam-2020
+[Oxygengine]: https://github.com/PsichiX/Oxygengine
+
+### pGLOWrpg
+
+![37 possible unique biomes](pglowrpg.gif)
+
+[@Roal_Yr] tweeted a bunch of updates about their "pGLOWrpg" project:
+
+- [proper river attractors](https://twitter.com/Roal_Yr/status/1218940947070885888);
+- [floodfill and distinguished regions](https://twitter.com/Roal_Yr/status/1218634118516396033);
+- [extravagant dev environment](https://twitter.com/Roal_Yr/status/1229785132455878656);
+- [optimized pathfinding, unique regions](https://twitter.com/Roal_Yr/status/1228659336349655042);
+- [Reworked noise and erosion](https://twitter.com/Roal_Yr/status/1231139098288697345);
+- [37 possible unique biomes](https://twitter.com/Roal_Yr/status/1231640620072128512);
+
+[@Roal_Yr]: https://twitter.com/Roal_Yr
+
+### [Robo Instructus]
+
+[![logo](roboinstructus.jpg)][Robo Instructus]
+
+[Alex Butler] continues to polish their "[Robo Instructus]" puzzle game -
+[1.23 and 1.24 versions were released][robo-news]:
+dependency updates, bugfixes and performance optimizations.
+
+[Alex Butler]: https://twitter.com/bigabgames
+[Robo Instructus]: https://store.steampowered.com/app/1032170/Robo_Instructus
+[robo-news]: https://steamcommunity.com/app/1032170/allnews
+
+### [Recall Singularity: February Progress][recall-s-feb]
+
+![Harvesting and refining some Gold](recall-singularity.png)
+
+^ _Harvesting and refining some Gold._
+
+[Tom Leys] is working on a "The Recall Singularity" game
+about designing autonomous factory ships and stations.
+This month, they published a devlog post:
+["Space Factory Building in Feb 2020"][recall-s-feb].
+
+Some of the updates:
+
+- Networking improvements;
+- Godot-Rust interaction improvements;
+- Players can now control their ships and create new ones;
+- Top-down view and flying HUD;
+- Asteroids procgen.
+
+Also, the post gives an overview of the project's history,
+talks about community building, and overcoming personal challenges.
+
+Check out stream highlights on [Tom's YouTube channel][recall-youtube].
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/f9m00v/space_factory_game_in_rust_godot_the_recall)_
+
+[Tom Leys]: https://twitter.com/RecallSingular1
+[recall-s-feb]: https://medium.com/@recallsingularity/recalling-nov-2019-236cdf9c0a8a
+[recall-youtube]: https://youtube.com/channel/UCzgUlowiaKXJiNIAi0c9Qsg/videos
+
+### For the Quest
+
+![walking demo](for-quest.gif)
+
+[@seratonik] tweeted a bunch of updates
+about their "For the Quest" (working title) game project:
+
+- Switched to the `specs` ECS;
+- Added a few new object models and
+  an 8-direction animated sprite with idle animations;
+- The map renderer is now powered by a chunking system to fix clipping issues;
+- Added basic collision detection.
+
+[@seratonik]: https://twitter.com/seratonik
+
 ## Library & Tooling Updates
 
 ### [Fix Your Time Step in Rust and GGEZ][fyt-ggez]
