@@ -687,6 +687,53 @@ For more details, please see the [`specs` changelog].
 [specs]: https://crates.io/crates/specs
 [`specs` changelog]: https://github.com/amethyst/specs/blob/0.16.1/CHANGELOG.md#0161-2020-02-18
 
+### [Shipyard] v0.3
+
+Take a look at [this](https://www.reddit.com/r/rust/comments/fbo8wf/shipyard_03_release/) Reddit thread for a discussion on the update.
+
+[Shipyard] is an Entity Component System crate. ECS is a pattern mostly used in games but not only. It fits really well with Rust, allowing easy composition and lifetime management.
+
+- [User guide] Learning to use a crate with the documentation can be hard. There's now a guide to explain what can be done with Shipyard and how.
+- No need to register components anymore Components had to be registered before accessing them by using World::new or World::register.
+Storages are now automatically created when they are first accessed.
+- !Send and !Sync components All components had to be Send + Sync, this is a strict limitation to make sure storages can use parallel features. With 0.3 !Send and !Sync types can be stored and accessed while still following Rust's rules. These rules limit threading for these types but doesn't always prevent it.
+- Unique components When we only need a single instance of a component, keeping an id around to access it can be annoying. A Unique component won't be attached to any entity but will have the storage all for itself.
+- Components sorting
+- no_std support
+
+[Shipyard]: https://crates.io/crates/shipyard
+[User guide]: https://leudz.github.io/shipyard/book
+
+### [crow] v0.3
+
+[crow] is a 2D rendering engine based on OpenGL. It is designed to be easy to use while still allowing for nearly everything one might want while using pixel art.
+
+A showcase game is [being developed](https://github.com/lcnr/akari) with crow.
+
+[crow]: https://crates.io/crates/crow
+
+### [Patchwork]
+
+[Patchwork] is a convenient crate for drawing tiles from a tilesheet using a 'SpriteBatch' with `ggez`. It is an update to the `Mosaic` crate by [Repnop](https://github.com/repnop/mosaic), which is no longer maintained.
+
+[patchwork]: https://github.com/RedSquirrelsNut/patchwork
+
+### [KAS] GUI v0.3
+
+[KAS], the tool**K**it **A**bstraction **S**ystem, is a general-purpose GUI toolkit.
+
+0.3 is a decent sized release, focussing primarily on drawing, themes and layouts. Highlights include a new FlatTheme, many small visual improvements, access to medium-level and low-level drawing APIs for custom widgets, window size limits, and switchable themes and colour schemes.
+
+[KAS]: https://github.com/kas-gui/kas
+
+### [image] v0.23
+
+[image] crate provides basic imaging processing functions and methods for converting to and from image formats.
+
+Check out [the release blog](https://blog.image-rs.org/2020/02/07/release-0.23.0.html) for 0.23! It comes with improvements to error handling, and the buffer and loading interfaces.
+
+[image]: https://github.com/image-rs/image
+
 ### [Oxygengine][oxygengine]
 
 ![Oxygengine logo](oxygengine-dark-logo.svg)
