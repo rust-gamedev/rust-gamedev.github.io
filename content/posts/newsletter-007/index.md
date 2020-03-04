@@ -454,36 +454,31 @@ Storages are now automatically created when they are first accessed.
 
 [crow] is a 2D rendering engine based on OpenGL. It is designed to be easy to use while still allowing for nearly everything one might want while using pixel art.
 
-[crow]: https://crates.io/crates/crow
-
 A showcase game is [being developed](https://github.com/lcnr/akari) with crow.
 
-### Patchwork
+[crow]: https://crates.io/crates/crow
 
-### Kas
+### [Patchwork]
 
-### [Oxygengine][oxygengine]
+[Patchwork] is a convenient crate for drawing tiles from a tilesheet using a 'SpriteBatch' with `ggez`. It is an update to the `Mosaic` crate by [Repnop](https://github.com/repnop/mosaic), which is no longer maintained.
 
-![Oxygengine logo](oxygengine-dark-logo.svg)
+[patchwork]: https://github.com/RedSquirrelsNut/patchwork
 
-This month [Oxygengine][oxygengine] got
-[JavaScript scripting interface][oxygengine-js-ann]
-to allow faster prototyping of games.
+### [KAS] GUI v0.3
 
-> This prebuilt WASM version would let game devs with JS background
-> to quickly prototype game ideas and then slowly move their logic
-> into Rust implementation, while learning Rust meantime.
+[KAS], the tool**K**it **A**bstraction **S**ystem, is a general-purpose GUI toolkit.
 
-Example source code: [oxygengine-js/js/index.js].
+0.3 is a decent sized release, focussing primarily on drawing, themes and layouts. Highlights include a new FlatTheme, many small visual improvements, access to medium-level and low-level drawing APIs for custom widgets, window size limits, and switchable themes and colour schemes.
 
-Also, you can now [instantiate entities from prefab assets][oxygengine-inst].
+[KAS]: https://github.com/kas-gui/kas
 
-[oxygengine]: https://github.com/PsichiX/Oxygengine
-[oxygengine-js-ann]: https://reddit.com/r/rust_gamedev/comments/epupkb/oxygengine_pure_js_scripting_backend_for_quick
-[oxygengine-js/js/index.js]: https://github.com/PsichiX/Oxygengine/blob/master/oxygengine-js/js/index.js
-[oxygengine-inst]: https://reddit.com/r/rust/comments/eunppk/oxygengine_instantiate_entities_from_prefab_assets
+### [image] v0.23
 
-### image
+[image] crate provides basic imaging processing functions and methods for converting to and from image formats.
+
+Check out [the release blog](https://blog.image-rs.org/2020/02/07/release-0.23.0.html) for 0.23! It comes with improvements to error handling, and the buffer and loading interfaces.
+
+[image]: https://github.com/image-rs/image
 
 ## Popular Workgroup Issues in Github
 
