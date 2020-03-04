@@ -169,11 +169,11 @@ This month, the focus was on the cooking skill. This includes recipies and cookw
 
 ![Everpuzzle preview](everpuzzle-020-preview.gif)
 
-Everpuzzle aims to become a similar game like Tetris Attack and expand on its concepts. 
-The project was recently rewritten with minimal dependencies to achieve small compile times and gain more control over the 
-underlying engine architecture. 
+Everpuzzle aims to become a similar game like Tetris Attack and expand on its concepts.
+The project was recently rewritten with minimal dependencies to achieve small compile times and gain more control over the
+underlying engine architecture.
 In the past Everpuzzle was using Amethyst with ECS, however there were some issues that made development difficult.
-Everpuzzle's big goals are AI, Multiplayer and different Game modes. 
+Everpuzzle's big goals are AI, Multiplayer and different Game modes.
 
 Big changes coming in version 0.2, full list [here](https://github.com/Skytrias/everpuzzle/blob/master/CHANGELOG.md):
 * Gamepad support (singleplayer)
@@ -249,7 +249,7 @@ _Discussions:
 
 ![release](dash.gif)
 
-Tennis academy dash is a time management game where you are the manager of a tennis academy and you need to coordinate various players to play on your courts. 
+Tennis academy dash is a time management game where you are the manager of a tennis academy and you need to coordinate various players to play on your courts.
 
 The game is still a work in progress, but the demo version has been uploaded to itch.io this month, so you can go ahead and check it out! Give it a go (the build is only for mac at the moment but other platforms coming soon) and drop a comment with any feedback on [tennis-academy-dash].
 
@@ -649,13 +649,13 @@ The examples are very well explained, and can easily be translated to other engi
 
 ### savefile 0.6.1
 
-[savefile] is a serialization crate used to effortlessly serialize rust crates 
+[savefile] is a serialization crate used to effortlessly serialize rust crates
 and enums into a binary format. Anything implementing the `Write` trait can
 be serialized and deserialized. First class versioning support and introspection
-are some other features available. 
+are some other features available.
 
 Version 0.6.1 includes a fix and should be updated to if compilation using
-the savefile-derive crate produces a "`SaveFileError` not found" compiler error. 
+the savefile-derive crate produces a "`SaveFileError` not found" compiler error.
 
 For details, see the [github page][savefile-github] or the [savefile documentation].
 
@@ -686,6 +686,27 @@ For more details, please see the [`specs` changelog].
 [specs_constraints]: https://github.com/amethyst/specs/issues/673
 [specs]: https://crates.io/crates/specs
 [`specs` changelog]: https://github.com/amethyst/specs/blob/0.16.1/CHANGELOG.md#0161-2020-02-18
+
+### [Oxygengine][oxygengine]
+
+![Oxygengine logo](oxygengine-dark-logo.svg)
+
+This month [Oxygengine][oxygengine] got new version 0.7.0 with
+[Visual Novel and Animation][oxygengine-vn-anim-ann]
+modules that allows users to focus on making VN games easily, with virtually no code needed to be written - it is a groundbreaking start in developing a set of tools for the profesional game developers.
+
+> As few might notice, Oxygengine is starting to get more complex modules, there is a reason for that - this engine is made with one big goal in mind, which is: to became a tool used by professionals, giving easy way to make complex games easily, therefore the current milestone is about bringing a basic game editor with first game maker module along with blueprints-like visual scripting and animation tool - the most important tools for visual novel game designers!
+
+![Oxygengine Visual Novel Teaser](oxygengine-visual-novel-teaser.gif)
+
+You can find sources of the project that shows how to use these modules in the [engine demo projects][oxygengine-vn-test-src].
+
+Another thing that was shipped in last milestone was a module that allows to make and run your game logic designed in Blueprint-like visual scripting.
+Next milestone is focused on delivering a base for professional modular game editor that will allow users to easily create a complex and animated Visual Novel games using Visual Scripting - game makers for another genres are currently in planning stage.
+
+[oxygengine]: https://github.com/PsichiX/Oxygengine
+[oxygengine-vn-anim-ann]: https://www.reddit.com/r/rust_gamedev/comments/fd7kza/oxygengine_visual_novel_and_animation_modules_are/
+[oxygengine-vn-test-src]: https://github.com/PsichiX/Oxygengine/tree/master/demos/visual-novel-testbed
 
 ### [Neovide][neovide]
 
