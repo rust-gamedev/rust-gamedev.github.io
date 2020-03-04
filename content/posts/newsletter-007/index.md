@@ -529,6 +529,22 @@ February's full weekly devlogs: "This Week In Veloren...":
 
 ## Library & Tooling Updates
 
+### savefile 0.6.1
+
+[savefile] is a serialization crate used to effortlessly serialize rust crates 
+and enums into a binary format. Anything implementing the `Write` trait can
+be serialized and deserialized. First class versioning support and introspection
+are some other features available. 
+
+Version 0.6.1 includes a fix and should be updated to if compilation using
+the savefile-derive crate produces a "`SaveFileError` not found" compiler error. 
+
+For details, see the [github page][savefile-github] or the [savefile documentation].
+
+[savefile]: https://crates.io/crates/savefile
+[savefile documentation]: https://docs.rs/savefile/0.6.1/savefile
+[savefile-github]: https://github.com/avl/savefile
+
 ### specs 0.16
 
 [specs] is an entity-component system (ECS) library, designed for high
