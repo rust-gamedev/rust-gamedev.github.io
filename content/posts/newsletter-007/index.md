@@ -601,13 +601,13 @@ For more details, please see the [`specs` changelog].
 
 ![Oxygengine logo](oxygengine-dark-logo.svg)
 
-![Oxygengine Visual Novel Teaser](oxygengine-visual-novel-teaser.gif)
-
-This month [Oxygengine][oxygengine] got
+This month [Oxygengine][oxygengine] got new version 0.7.0 with
 [Visual Novel and Animation][oxygengine-vn-anim-ann]
 modules that allows users to focus on making VN games easily, with virtually no code needed to be written - it is a groundbreaking start in developing a set of tools for the profesional game developers.
 
 > As few might notice, Oxygengine is starting to get more complex modules, there is a reason for that - this engine is made with one big goal in mind, which is: to became a tool used by professionals, giving easy way to make complex games easily, therefore the current milestone is about bringing a basic game editor with first game maker module along with blueprints-like visual scripting and animation tool - the most important tools for visual novel game designers!
+
+![Oxygengine Visual Novel Teaser](oxygengine-visual-novel-teaser.gif)
 
 You can find sources of the project that shows how to use these modules in the [engine demo projects][oxygengine-vn-test-src].
 
