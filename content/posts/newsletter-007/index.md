@@ -316,6 +316,126 @@ network play][designing_network_play].
 [designing_network_play]: https://azriel.im/will/2020/02/29/designing-network-play/
 [will_network_play]: will_network_play.png
 
+### [Oxidator][oxidator]
+
+[![Gameplay demo: two giant tank armies clashing](oxidator-play.gif)][oxidator-video-play]
+
+^ _gameplay demo (35000 units)_
+
+[Oxidator][oxidator] by [@Ruddle] is a real-time strategy game/engine
+written with Rust and WebGPU.
+It's inspired by Total Annihilation, Supreme Commander, Spring Engine,
+and Zero-k.
+
+The project's goal is to provide a modern, carefully crafted,
+minimal and highly constrained set of tools for players/designers
+to create mods without programming knowledge.
+
+Some of the current features:
+
+- Simulation:
+  working draft of flock behavior and collision detection,
+  basic health and damage computation,
+  construction and repair;
+- Rendering: basic display of a heightmap & 3D models (with instancing),
+  fxaa, screen space reflections;
+- UI: select units (picking and rectangle selection),
+  move & build orders;
+- Multiplayer: working PoC localhost tcp client/server;
+- Map editor: raise, lower, flatten, blur, noise pencil;
+- Unit editor: basic editor with joint & mesh selection and parameter editing
+  (speed, turn rate, health, etc);
+
+[![Unit editor demo: move agent's parts](oxidator-unit-editor.gif)][oxidator-video-unit-editor]
+
+^ _Demo of the unit editor_
+
+[![Map editor demo: use pencil tool to instantly create a lake and mountains](oxidator-map-editor.gif)][oxidator-video-map-editor]
+
+^ _Demo of the map editor_
+
+[oxidator]: https://github.com/Ruddle/oxidator
+[@Ruddle]: https://github.com/Ruddle
+[oxidator-video-play]: https://streamable.com/499j0
+[oxidator-video-unit-editor]: https://streamable.com/ywr44
+[oxidator-video-map-editor]: https://github.com/Ruddle/oxidator/blob/be4863e74/etc/map_editor.gif
+
+### [Univer City v1.0 and Open Source Release][univer-1-0-opensource]
+
+[![logo](univer-logo.jpg)][univer-steam]
+
+[UniverCity][univer-steam] is an isometric university management game:
+
+> Manage your staff, professors and students and try
+> and build the best UniverCity around!
+> Build up your UniverCity solo or against friends and build many different
+> types of classes whilst trying to ensure students get good grades,
+> or maybe just try and build the best looking UniverCity.
+
+This month, [v1.0 was released on Steam][univer-1-0-opensource]
+along with [releasing the game's sources under GPL-3][univer-source].
+
+> This update _marks the end of development for now_
+> and adds in some basic workshop support.
+
+![Demo: builing a classroom](univer-city-demo.gif)
+
+> The license is GPL-3 and the code is the same
+> as the version released on Steam
+> (the Steam version is built with the 'steam' feature enabled).
+> Due to the GPL licensing the steamworks support is disabled
+> by default which breaks things like the 'modding' menu and multiplayer.
+>
+> The assets _are not included_ with the release
+> and will have to be copied from the game on Steam.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/f5fiii/univercity_open_source_release_university)_
+
+[univer-1-0-opensource]: https://steamcommunity.com/gid/103582791461907043/announcements/detail/1694978169192631655
+[univer-steam]: https://store.steampowered.com/app/808160/UniverCity
+[univer-source]: https://github.com/Thinkofname/UniverCity
+
+### [Dwarf World][dwarf-world]
+
+[![New site with links to Twitter, Discord, and Twich](dwarf-world.png)][dwarf-world]
+
+[Alexandru Ene] is working on a dwarf colony management game "Dwarf World".
+
+This month, the project got an official site: [dwarf.world][dwarf-world].
+
+Also, check out development streams:
+every Sunday at 19:30 PM GMT [on Twitch][dwarf-twitch].
+
+[Alexandru Ene]: https://alexene.dev
+[dwarf-world]: https://dwarf.world
+[dwarf-twitch]: https://twitch.tv/nomad_pixel
+
+### [Way of Rhea's New Trailer][rhea-steam]
+
+[![logo](way-of-rhea.jpg)][rhea-steam]
+
+[Way of Rhea][rhea-steam] is an upcoming puzzle platformer that takes place in a world
+where you can only interact with objects that match your current color.
+
+This month, an updated trailer with new character art was released.
+[Check it out on the game's Steam page][rhea-steam].
+
+[rhea-steam]: https://store.steampowered.com/app/1110620/Way_of_Rhea
+
+### Noodle Cat
+
+![Noodle game physics demo](noodle-cat.gif)
+
+[@Fryer00] tweeted a bunch of updates about their
+WIP Box2D physics game prototype:
+
+- Day 45: [contraction mechanic](https://twitter.com/Fryer00/status/1225829271597395971);
+- Day 46: [turn/flip/swap-front-and-back movement mechanics](https://twitter.com/Fryer00/status/1227327016380305415);
+- Day 48: [food](https://twitter.com/Fryer00/status/1232181181690654720).
+
+[@Fryer00]: https://twitter.com/Fryer00
+
 ### [Garden]: January and February Devlogs
 
 ![pyramid generation demo](garden-pyramids.jpg)
@@ -407,7 +527,141 @@ February's full weekly devlogs: "This Week In Veloren...":
 
 [veloren]: https://veloren.net
 
+### [Grumpy Visitors First Update. Winter Progress][grumpy_visitors]
+
+![Magic missiles in Grumpy Visitors](grumpy_missiles.jpg)
+
+Grumpy Visitors is a top-down 2D co-op action/arcade game highly inspired by Evil Invasion. It runs on Amethyst game engine.
+
+This winter Grumpy Visitors received some updates with the focus on graphics and UI:
+- Repainting mage sprites with shaders
+- New missiles graphics
+- Monsters death animations
+- Modal windows for menu UI
+
+Check them out in the [latest winter devlog][grumpy_visitors].
+
+[grumpy_visitors]: https://mvlabat.github.io/2020-03-02-winter-update/
+
+### [Make China Great Again][china-great]
+
+![cities, planes and keys](china.png)
+
+> Turn back planes to the port, by clicking right keys to the virus beat.
+
+[Make China Great Again][china-great] ([source][china-great-src])
+by [@PsichiX] is a GlobalGameJam game written using [Oxygengine].
+
+[Try it online][china-great-play].
+
+[@PsichiX]: https://github.com/PsichiX
+[china-great]: https://globalgamejam.org/2020/games/make-china-great-again-5
+[china-great-play]: http://mcga.psichix.io
+[china-great-src]: https://github.com/PsichiX/global-game-jam-2020
+[Oxygengine]: https://github.com/PsichiX/Oxygengine
+
+### pGLOWrpg
+
+![37 possible unique biomes](pglowrpg.gif)
+
+[@Roal_Yr] tweeted a bunch of updates about their "pGLOWrpg" project:
+
+- [proper river attractors](https://twitter.com/Roal_Yr/status/1218940947070885888);
+- [floodfill and distinguished regions](https://twitter.com/Roal_Yr/status/1218634118516396033);
+- [extravagant dev environment](https://twitter.com/Roal_Yr/status/1229785132455878656);
+- [optimized pathfinding, unique regions](https://twitter.com/Roal_Yr/status/1228659336349655042);
+- [Reworked noise and erosion](https://twitter.com/Roal_Yr/status/1231139098288697345);
+- [37 possible unique biomes](https://twitter.com/Roal_Yr/status/1231640620072128512);
+
+[@Roal_Yr]: https://twitter.com/Roal_Yr
+
+### [Robo Instructus]
+
+[![logo](roboinstructus.jpg)][Robo Instructus]
+
+[Alex Butler] continues to polish their "[Robo Instructus]" puzzle game -
+[1.23 and 1.24 versions were released][robo-news]:
+dependency updates, bugfixes and performance optimizations.
+
+[Alex Butler]: https://twitter.com/bigabgames
+[Robo Instructus]: https://store.steampowered.com/app/1032170/Robo_Instructus
+[robo-news]: https://steamcommunity.com/app/1032170/allnews
+
+### [Recall Singularity: February Progress][recall-s-feb]
+
+![Harvesting and refining some Gold](recall-singularity.png)
+
+^ _Harvesting and refining some Gold._
+
+[Tom Leys] is working on a "The Recall Singularity" game
+about designing autonomous factory ships and stations.
+This month, they published a devlog post:
+["Space Factory Building in Feb 2020"][recall-s-feb].
+
+Some of the updates:
+
+- Networking improvements;
+- Godot-Rust interaction improvements;
+- Players can now control their ships and create new ones;
+- Top-down view and flying HUD;
+- Asteroids procgen.
+
+Also, the post gives an overview of the project's history,
+talks about community building, and overcoming personal challenges.
+
+Check out stream highlights on [Tom's YouTube channel][recall-youtube].
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/f9m00v/space_factory_game_in_rust_godot_the_recall)_
+
+[Tom Leys]: https://twitter.com/RecallSingular1
+[recall-s-feb]: https://medium.com/@recallsingularity/recalling-nov-2019-236cdf9c0a8a
+[recall-youtube]: https://youtube.com/channel/UCzgUlowiaKXJiNIAi0c9Qsg/videos
+
+### For the Quest
+
+![walking demo](for-quest.gif)
+
+[@seratonik] tweeted a bunch of updates
+about their "For the Quest" (working title) game project:
+
+- Switched to the `specs` ECS;
+- Added a few new object models and
+  an 8-direction animated sprite with idle animations;
+- The map renderer is now powered by a chunking system to fix clipping issues;
+- Added basic collision detection.
+
+[@seratonik]: https://twitter.com/seratonik
+
 ## Library & Tooling Updates
+
+### [Fix Your Time Step in Rust and GGEZ][fyt-ggez]
+
+[![Demonstration of interpolation](fyt-ggez.gif)][fyt-ggez]
+
+[joetsoi] has written [a blog post][fyt-ggez], demonstrating how the concepts from the well-known '[Fix Your Timestep][fyt]' article can be applied when making games with Rust and GGEZ.
+
+The examples are very well explained, and can easily be translated to other engines, so it's worth checking out even if you're not a GGEZ user!
+
+[joetsoi]: https://joetsoi.github.io
+[fyt-ggez]: https://joetsoi.github.io/fix-your-timestep-rust-ggez/
+[fyt]: https://gafferongames.com/post/fix_your_timestep/
+
+### savefile 0.6.1
+
+[savefile] is a serialization crate used to effortlessly serialize rust crates 
+and enums into a binary format. Anything implementing the `Write` trait can
+be serialized and deserialized. First class versioning support and introspection
+are some other features available. 
+
+Version 0.6.1 includes a fix and should be updated to if compilation using
+the savefile-derive crate produces a "`SaveFileError` not found" compiler error. 
+
+For details, see the [github page][savefile-github] or the [savefile documentation].
+
+[savefile]: https://crates.io/crates/savefile
+[savefile documentation]: https://docs.rs/savefile/0.6.1/savefile
+[savefile-github]: https://github.com/avl/savefile
 
 ### specs 0.16
 
@@ -479,6 +733,15 @@ A showcase game is [being developed](https://github.com/lcnr/akari) with crow.
 Check out [the release blog](https://blog.image-rs.org/2020/02/07/release-0.23.0.html) for 0.23! It comes with improvements to error handling, and the buffer and loading interfaces.
 
 [image]: https://github.com/image-rs/image
+
+### [Neovide][neovide]
+
+![Neovide Animated Cursor Example](neovide-cursor.gif)
+
+[Neovide][neovide] is a frontend for neovim that brings a lot of visual niceties.
+It uses vulkan and skia for rendering.
+
+[neovide]: https://github.com/Kethku/neovide
 
 ## Popular Workgroup Issues in Github
 
