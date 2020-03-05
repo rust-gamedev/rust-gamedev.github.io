@@ -131,7 +131,7 @@ If you're interested, visit **[tallinn.rs]** and follow [@RustTallinn].
 
 ![Rusty Shooter in-game screenshot](rusty-shooter-in-game.jpg)
 
-[Rusty Shooter][rusty-shooter] is a Quake3-like first person shooter written in Rust using [rg3d engine][rg3d-engine].
+[Rusty Shooter][rusty-shooter] is a Quake3-like first-person shooter written in Rust using [rg3d engine][rg3d-engine].
 
 Features:
 
@@ -189,7 +189,7 @@ Here is the February changelog:
 - Added new orc hairstyles
 - Added gamma setting
 - Configurable fonts
-- Tanslation status tracking
+- Translation status tracking
 - Fixed /give_exp ignoring player argument
 - Allow spawning individual pet species, not just generic body kinds
 - Added daily Mac builds
@@ -247,7 +247,7 @@ Some of the current features:
   basic health and damage computation,
   construction and repair;
 - Rendering: basic display of a heightmap & 3D models (with instancing),
-  fxaa, screen space reflections;
+  fxaa, screen-space reflections;
 - UI: select units (picking and rectangle selection),
   move & build orders;
 - Multiplayer: working PoC localhost tcp client/server;
@@ -338,7 +338,7 @@ Video: [Everpuzzle rewrite - Code Walkthrough (code outdated)](https://youtube.c
 
 [Antorum] is a multiplayer RPG where players build their characters and fight against the growing threats on the isle. The game server is authoritative and written in Rust, while the client is written in Unity/C#.
 
-This month, the focus was on the cooking skill. This includes recipies and cookware. Players will need a cooking appliance, such as a stove or campfire to cook some Chonkrat Stew inside a pot. A heavy refactor to the interaction system had to be made, as well as changes to networking.
+This month, the focus was on cooking skill. This includes recipes and cookware. Players will need a cooking appliance, such as a stove or campfire to cook some Chonkrat Stew inside a pot. A heavy refactor to the interaction system had to be made, as well as changes to networking.
 
 Check out te full devlog: [#18 "Cooking"](https://dooskington.com/dev-log/18).
 
@@ -352,7 +352,7 @@ Check out te full devlog: [#18 "Cooking"](https://dooskington.com/dev-log/18).
 [Scale] is a recent project about modern day society simulation from the
 bottom-up by [Uriopass].
 
-In february, the Inspector for specs entities was mostly finished and the
+In February, the Inspector for specs entities was mostly finished and the
 traffic simulation made great progress.
 A second [blog post][scale-blog-post] was released about it.
 
@@ -379,7 +379,7 @@ Blips, in turn, activate blocks.
 
 [Leod] is currently working on the core design: How to make the game fun and
 what blocks to add. He posted about their thoughts and progress on a
-[reddit comment][ultimate-scale-post].
+[Reddit comment][ultimate-scale-post].
 Regularly, videos are posted on their
 [youtube channel][ultimate-scale-youtube-channel] showing different machines
 made in game such as an [extensible counter modulo 10][ultimate-scale-video-1]
@@ -524,7 +524,7 @@ WIP Box2D physics game prototype:
 were posted by [@logicsoup].
 Some of the updates:
 
-- 🌘 Physically based shading
+- 🌘 Physically-based shading
 - 🕹 3D model loading and texturing for richer environments
 - 💦 Soil moisture content
 - 🌠 Alpha mipmapping
@@ -664,7 +664,7 @@ Main updates:
 > - New pressure resolution methods.
 > - Viscosity, surface tension, and elasticity can now be simulated.
 > - Ability to remove fluids/boundaries/collider couplings after their addition.
-> - Ability to add particles to a fluid which has already been created.
+> - Ability to add particles to a fluid that has already been created.
 
 Watch a ["Salva 0.2: DFSPH, viscosity, surface tension, and elasticity"][rustsim-video]
 demo video.
@@ -681,7 +681,7 @@ _Discussions:
 
 [savefile] is a serialization crate used to effortlessly serialize rust crates
 and enums into a binary format. Anything implementing the `Write` trait can
-be serialized and deserialized. First class versioning support and introspection
+be serialized and deserialized. First-class versioning support and introspection
 are some other features available.
 
 Version 0.6.1 includes a fix and should be updated to if compilation using
@@ -823,7 +823,7 @@ superluminal_perf::end_event();
 [![Real-world demo of using Rust on RG-300](rg-300.jpeg)][rg-300-video]
 
 [@alexpdp7 shared their experience][rg-300-rust-ann]
-of wring an interactive application in Rust
+of writing an interactive application in Rust
 for the retro [RG-300][rg-300] console.
 
 > The process is complex for a lot of reasons:
@@ -839,7 +839,7 @@ for the retro [RG-300][rg-300] console.
 > which I find particularly motivating :)
 
 You can find a working example that does graphics, sound and controls
-with some explanactions at [alexpdp7/retrofw2-rust][retrofw2-rust].
+with some explanations at [alexpdp7/retrofw2-rust][retrofw2-rust].
 
 [See it in action here.][rg-300-video]
 
@@ -873,8 +873,8 @@ This month:
 
 - miniquad and related crates set up yearly goals:
   ["Rust 2D Engine 2020 Roadmap"][fedor-road];
-- A first try on the higher level engine design was tried: [flappy bird.rs][macroquad-bird];
-- [miniquad was succsfully built for Android][miniquad-android].
+- A first try on the higher-level engine design was tried: [flappy bird.rs][macroquad-bird];
+- [miniquad was successfully built for Android][miniquad-android].
 
 [miniquad]: https://github.com/not-fl3/miniquad
 [@fedor_games]: https://twitter.com/fedor_games
@@ -946,10 +946,10 @@ Here're some of the [gfx]/[wgpu] ecosystem February updates:
 
   [![nannou demo](nannou.gif)][nannou-simple-draw]
 
-- [An extermly helpful `vertex_attr_array` macro was added to wgpu][wgpu-macro].
+- [An extremely helpful `vertex_attr_array` macro was added to wgpu][wgpu-macro].
 
 - After [the support for unstable WebIDL was added to wasm-bindgen][wasm-bindgen-pr]
-  the woek on integrating web-sys into wgpu-rs has begun.
+  the work on integrating web-sys into wgpu-rs has begun.
 
 [gfx]: https://github.com/gfx-rs/gfx
 [wgpu]: https://github.com/gfx-rs/wgpu-rs
@@ -968,7 +968,7 @@ Here're some of the [gfx]/[wgpu] ecosystem February updates:
 ### [tikan]
 
 [tikan] by [@siebencorgie] is a Rust/Vulkan based 3d engine that tries
-to use high resolution voxels to real-time ray-trace the final picture.
+to use high-resolution voxels to real-time ray-trace the final picture.
 
 This month a [new video was released][tikan-video]
 to showcase new voxel renderer:
@@ -1027,7 +1027,7 @@ Some of the updates:
 
 This month [Oxygengine][oxygengine] got new version 0.7.0 with
 [Visual Novel and Animation][oxygengine-vn-anim-ann]
-modules that allows users to focus on making VN games easily, with virtually no code needed to be written - it is a groundbreaking start in developing a set of tools for the profesional game developers.
+modules that allows users to focus on making VN games easily, with virtually no code needed to be written - it is a groundbreaking start in developing a set of tools for the professional game developers.
 
 > As few might notice, Oxygengine is starting to get more complex modules, there is a reason for that - this engine is made with one big goal in mind, which is: to became a tool used by professionals, giving easy way to make complex games easily, therefore the current milestone is about bringing a basic game editor with first game maker module along with blueprints-like visual scripting and animation tool - the most important tools for visual novel game designers!
 
