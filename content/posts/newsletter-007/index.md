@@ -816,6 +816,28 @@ Next milestone is focused on delivering a base for professional modular game edi
 [oxygengine-vn-anim-ann]: https://www.reddit.com/r/rust_gamedev/comments/fd7kza/oxygengine_visual_novel_and_animation_modules_are/
 [oxygengine-vn-test-src]: https://github.com/PsichiX/Oxygengine/tree/master/demos/visual-novel-testbed
 
+### [This month in rustsim #9 (Nov 2019 to Feb 2020)][rustsim-9]
+
+![Salva logo](logo_salva_full.svg)
+
+Main updates:
+
+> - New pressure resolution methods.
+> - Viscosity, surface tension, and elasticity can now be simulated.
+> - Ability to remove fluids/boundaries/collider couplings after their addition.
+> - Ability to add particles to a fluid which has already been created.
+
+Watch a ["Salva 0.2: DFSPH, viscosity, surface tension, and elasticity"][rustsim-video]
+demo video.
+
+[Read the full devlog here.][rustsim-9]
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/fcyp7c/this_month_in_rustsim_9_november_february_2020)_
+
+[rustsim-9]: https://rustsim.org/blog/2020/03/01/this-month-in-rustsim
+[rustsim-video]: https://youtube.com/watch?v=NBoSEanWHE4
+
 ### [bracket-lib (RLTK)][rltk_rs] & [Roguelike Tutorial][rl-book]
 
 ![Different font makes the log easier to read](roguelike-tutorial.jpg)
@@ -859,9 +881,11 @@ This month the project was renamed and split into many crates:
 > - `bracket-random` is a dice-oriented random number generator,
 >   including parsing of RPG-style dice strings such as 3d6+12.
 
+[Read the full announcement post here][bracket-lib-ann].
+
 [rltk_rs]: https://github.com/thebracket/rltk_rs
 [rltk-cpp]: https://github.com/thebracket/rltk
-[rltk-v0-7]: https://reddit.com/r/roguelikedev/comments/etiywv/sharing_saturday_295/ffi13dw/
+[bracket-lib-ann]: https://reddit.com/r/rust_gamedev/comments/fbdg7d/rltk_is_now_bracketlib
 
 ### [Neovide][neovide]
 
