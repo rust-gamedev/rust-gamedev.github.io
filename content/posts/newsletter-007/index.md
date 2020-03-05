@@ -756,6 +756,28 @@ A showcase game is [being developed](https://github.com/lcnr/akari) with crow.
 
 [crow]: https://crates.io/crates/crow
 
+### miniquad: ["Rust 2D Engine 2020 Roadmap"][fedor-road]
+
+![mainloop async/await experiment in macroquad](miniquad-sample.png)
+
+^ _mainloop async/await experiment in macroquad_
+
+[miniquad] by [@fedor_games] is a safe cross-platform rendering library
+focused on portability and low-end platforms support.
+
+This month:
+
+- miniquad and related crates set up yearly goals:
+  ["Rust 2D Engine 2020 Roadmap"][fedor-road];
+- A first try on the higher level engine design was tried: [flappy bird.rs][macroquad-bird];
+- [miniquad was succsfully built for Android][miniquad-android].
+
+[miniquad]: https://github.com/not-fl3/miniquad
+[@fedor_games]: https://twitter.com/fedor_games
+[fedor-road]: https://patreon.com/posts/34230612
+[macroquad-bird]: https://github.com/not-fl3/macroquad/blob/126773535/examples/flappy_bird.rs
+[miniquad-android]: https://twitter.com/fedor_games/status/1223602773532520448
+
 ### [luminance v0.39][luminance-v0-39-ann]
 
 [luminance] by [@phaazon] is a type-safe, type-level and stateless
