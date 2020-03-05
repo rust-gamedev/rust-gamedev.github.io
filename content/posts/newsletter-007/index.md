@@ -867,6 +867,54 @@ This month [glium v0.26 was released][glium-v0-26]:
 [glium-v0-26]: https://github.com/glium/glium/blob/master/CHANGELOG.md#version-0260-2020-02-09
 [glutin-v0-23]: https://github.com/rust-windowing/glutin/blob/master/CHANGELOG.md#version-0230-2020-02-06
 
+### [gfx] & [wgpu]
+
+![wgpu-rs logo](wgpu-logo.png)
+
+Here're some of the [gfx]/[wgpu] ecosystem February updates:
+
+- Check out a new ["Lear WGPU" tutorial][learn-wgpu].
+
+- [@kvark] gave a "Building WebGPU with Rust" talk at FOSDEM.
+  [You can watch the recorded video here][kvark-talk].
+
+  [![A slide from the talk: "wgpu-rs project structure"](wgpu-talk.png)][kvark-talk]
+
+- [naga] is a new experimental shader translation library
+  for the needs of gfx-rs project and WebGPU.
+  It's meant to provide a safe and performant way
+  of converting to and from [SPIR-V][spir-v].
+
+- The abovementioned [Oxidator][oxidator] RTS game is based on wgpu.
+
+- [nbodysim] is a realtime 3D N-Body-Simulation.
+
+  ![Simple demo with two bodies](n-body-sim.gif)
+
+- [nannou] in an open-source creative-coding toolkit for Rust.
+  This month its graphics backend [was transitioned to wgpu][nannou-pr].
+
+  [![nannou demo](nannou.gif)][nannou-simple-draw]
+
+- [An extermly helpful `vertex_attr_array` macro was added to wgpu][wgpu-macro].
+
+- After [the support for unstable WebIDL was added to wasm-bindgen][wasm-bindgen-pr]
+  the woek on integrating web-sys into wgpu-rs has begun.
+
+[gfx]: https://github.com/gfx-rs/gfx
+[wgpu]: https://github.com/gfx-rs/wgpu-rs
+[wgpu-macro]: https://github.com/gfx-rs/wgpu-rs/pull/179
+[@kvark]: https://github.com/kvark
+[kvark-talk]: https://fosdem.org/2020/schedule/event/rust_webgpu
+[learn-wgpu]: https://sotrh.github.io/learn-wgpu
+[nbodysim]: https://git.koesters.xyz/timo/nbodysim
+[naga]: https://github.com/gfx-rs/naga
+[spir-v]: https://en.wikipedia.org/wiki/Standard_Portable_Intermediate_Representation
+[nannou]: https://github.com/nannou-org/nannou
+[nannou-pr]: https://github.com/nannou-org/nannou/pull/452
+[nannou-simple-draw]: https://github.com/nannou-org/nannou/blob/9596fd31b/examples/simple_draw.rs
+[wasm-bindgen-pr]: https://github.com/rustwasm/wasm-bindgen/pull/1997
+
 ### [tikan]
 
 [tikan] by [@siebencorgie] is a Rust/Vulkan based 3d engine that tries
