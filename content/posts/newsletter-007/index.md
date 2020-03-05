@@ -881,6 +881,25 @@ This month [glium v0.26 was released][glium-v0-26]:
 
 [KAS]: https://github.com/kas-gui/kas
 
+### [Pushrod][pushrod] v0.2.27: SDL2-based GUI
+
+![Layout example](pushrod-layout.png)
+
+[Pushrod][pushrod] by [@KenSuenobu]
+is a Cross Platform UI Widget Library for Rust that uses SDL2
+and leans heavily towards the KISS principle.
+
+This month [0.2.27 was released][pushrod-0-2-27-ann].
+Some of the updates:
+
+- Improved documentation & examples;
+- Tile Widget;
+- Tab Bar Widget.
+
+[pushrod]: https://github.com/KenSuenobu/rust-pushrod
+[@KenSuenobu]: https://github.com/KenSuenobu
+[pushrod-0-2-27-ann]: https://reddit.com/r/rust/comments/f1fcya/pushrod_0227_sdl2based_gui
+
 ### [image] v0.23
 
 [image] crate provides basic imaging processing functions and methods for converting to and from image formats.
