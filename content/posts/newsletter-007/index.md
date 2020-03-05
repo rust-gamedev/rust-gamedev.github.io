@@ -748,6 +748,30 @@ Storages are now automatically created when they are first accessed.
 [Shipyard]: https://crates.io/crates/shipyard
 [User guide]: https://leudz.github.io/shipyard/book
 
+### [superluminal-perf-rs]
+
+[Superluminal][superluminal] is a next-generation CPU sampling profiler for C/C++ on Windows
+that has [recently got an official Rust support][superluminal-rust].
+
+Embark have recently open-sourced [superluminal-perf-rs] -
+a small crate that integrates with Superluminal profiler on Windows.
+
+Example usage:
+
+```rust
+superluminal_perf::begin_event("my-event");
+calc();
+superluminal_perf::end_event();
+
+superluminal_perf::begin_event("my-event2");
+calc2();
+superluminal_perf::end_event();
+```
+
+[superluminal]: https://superluminal.eu/
+[superluminal-perf-rs]: https://github.com/embarkStudios/superluminal-perf-rs
+[superluminal-rust]: https://superluminal.eu/rust
+
 ### [crow] v0.3
 
 [crow] is a 2D rendering engine based on OpenGL. It is designed to be easy to use while still allowing for nearly everything one might want while using pixel art.
