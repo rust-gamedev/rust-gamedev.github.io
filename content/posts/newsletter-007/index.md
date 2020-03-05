@@ -1128,6 +1128,28 @@ and highlight events from the past. -->
 
 Just an interesting Rust gamedev link from the past. :)
 
+![A screenshot of the beginning of the game](not-cool.png)
+
+["It's Not Cool"][not-cool-itch] is a [LD42] turn-based strategy game
+by [@Ratysz].
+It's based on the GGEZ game engine.
+
+> Assume role of the mayor of a small coastal city, caught
+> in the middle of hilariously rapid global warming spurt.
+>
+> Build a freezer for the polar bears!
+
+[The source code can be found here][not-cool-src].
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/977dpc/my_ludum_dare_42_jam_entry_is_pure_rust),
+[/r/rust](https://reddit.com/r/rust/comments/977g2t/my_ludum_dare_42_jam_entry_is_pure_rust)_
+
+[not-cool-itch]: https://ratys.itch.io/its-not-cool
+[not-cool-src]: https://github.com/Ratysz/ludumdare42
+[@Ratysz]: https://github.com/Ratysz
+[LD42]: https://en.wikipedia.org/wiki/Ludum_Dare
+
 ------
 
 That's all news for today, thanks for reading!
