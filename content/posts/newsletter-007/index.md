@@ -74,10 +74,10 @@ _Discussions:
 
 This month, it received some major updates:
 
-* All of the site's data files have been unified into a consistent TOML schema, making it easier to add new links.
-* Categories have been added for games and resources, and you can now add an item to multiple categories without duplicating the data.
-* Page load times have been reduced (especially on the homepage).
-* The styling has been improved to make the site look better on mobile, and to resolve some accessibility issues.
+- All of the site's data files have been unified into a consistent TOML schema, making it easier to add new links.
+- Categories have been added for games and resources, and you can now add an item to multiple categories without duplicating the data.
+- Page load times have been reduced (especially on the homepage).
+- The styling has been improved to make the site look better on mobile, and to resolve some accessibility issues.
 
 [Ownership was also recently transferred across to the gamedev working group][awgy-wg], to allow for more people to help with maintainance.
 
@@ -129,30 +129,30 @@ If you're interested, visit **[tallinn.rs]** and follow [@RustTallinn].
 
 ### [Rusty Shooter][rusty-shooter]
 
-[Rusty Shooter][rusty-shooter] is a Quake3-like first person shooter written in Rust using [rg3d engine][rg3d-engine].
-
 ![Rusty Shooter in-game screenshot](rusty-shooter-in-game.jpg)
 
-Small gameplay video (work-in-progress):
-[![Rusty Shooter game](rusty-shooter-youtube.PNG)][rusty-shooter-video]
+[Rusty Shooter][rusty-shooter] is a Quake3-like first person shooter written in Rust using [rg3d engine][rg3d-engine].
 
 Features:
 
-- Common FPS elements: bots, items, weapons.
-- Single game mode - deathmatch.
-- More or less modern graphics (shadows, deferred shading, particle systems etc.)
-- Fully animated bots using animation blending state machines.
-- Single map - something like legendary Q3DM6.
-- Path finding using navmesh
-- Save/load functionality
-- GUI: main menu, options, HUD, leader board (using [rg3d-ui library][rg3d-ui])
-- Binaural sound (using [rg3d-sound library][rg3d-sound])
+- Common FPS elements: bots, items, weapons;
+- Single game mode - deathmatch;
+- More or less modern graphics (shadows, deferred shading, particle systems etc.);
+- Fully animated bots using animation blending state machines;
+- Single map - something like legendary Q3DM6;
+- Path finding using navmesh;
+- Save/load functionality;
+- GUI: main menu, options, HUD, leader board (using [rg3d-ui library][rg3d-ui]);
+- Binaural sound (using [rg3d-sound library][rg3d-sound]).
+
+Small gameplay video (work-in-progress):
+[![Rusty Shooter game](rusty-shooter-youtube.PNG)][rusty-shooter-video]
 
 [rg3d-engine]: https://github.com/mrDIMAS/rg3d
 [rg3d-ui]: https://github.com/mrDIMAS/rg3d-ui
 [rg3d-sound]: https://github.com/mrDIMAS/rg3d-sound
 [rusty-shooter]: https://github.com/mrDIMAS/rusty-shooter
-[rusty-shooter-video]: https://www.youtube.com/watch?v=UDn8ymyXPcI
+[rusty-shooter-video]: https://youtube.com/watch?v=UDn8ymyXPcI
 
 ### [Antorum]
 
@@ -160,18 +160,18 @@ Features:
 
 [Antorum] is a multiplayer RPG where players build their characters and fight against the growing threats on the isle. The game server is authoritative and written in Rust, while the client is written in Unity/C#.
 
-This month, the focus was on the cooking skill. This includes recipies and cookware. Players will need a cooking appliance, such as a stove or campfire to cook some Chonkrat Stew inside a pot. A heavy refactor to the interaction system had to be made, as well as changes to networking. Check out [@dooskington]'s devlog here:
+This month, the focus was on the cooking skill. This includes recipies and cookware. Players will need a cooking appliance, such as a stove or campfire to cook some Chonkrat Stew inside a pot. A heavy refactor to the interaction system had to be made, as well as changes to networking.
 
-- [#18 "Cooking"](https://dooskington.com/dev-log/18)
+Check out te full devlog: [#18 "Cooking"](https://dooskington.com/dev-log/18).
 
 [antorum]: https://dooskington.com
 [@dooskington]: https://twitter.com/dooskington
 
 ### [Everpuzzle]
 
-[Everpuzzle] is a Tetris Attack like action-puzzle game written in Rust.
-
 ![Everpuzzle preview](everpuzzle-020-preview.gif)
+
+[Everpuzzle] is a Tetris Attack like action-puzzle game written in Rust.
 
 Everpuzzle aims to become a similar game like Tetris Attack and expand on its concepts.
 The project was recently rewritten with minimal dependencies to achieve small compile times and gain more control over the
@@ -180,16 +180,17 @@ In the past Everpuzzle was using Amethyst with ECS, however there were some issu
 Everpuzzle's big goals are AI, Multiplayer and different Game modes.
 
 Big changes coming in version 0.2, full list [here](https://github.com/Skytrias/everpuzzle/blob/master/CHANGELOG.md):
-* Gamepad support (singleplayer)
-* Multiple grids
-* AI Bot
-* Better Randomization of blocks
-* Combos / Chains - with Highlighting
-* Better animations
 
-[Latest releases](https://github.com/Skytrias/everpuzzle/releases)
+- Gamepad support (singleplayer)
+- Multiple grids
+- AI Bot
+- Better Randomization of blocks
+- Combos / Chains - with Highlighting
+- Better animations
 
-[Everpuzzle rewrite - Code Walkthrough (code outdated)](https://www.youtube.com/watch?v=qA2zcaUVRKY)
+[Latest releases](https://github.com/Skytrias/everpuzzle/releases).
+
+Video: [Everpuzzle rewrite - Code Walkthrough (code outdated)](https://youtube.com/watch?v=qA2zcaUVRKY).
 
 [Everpuzzle]: https://github.com/Skytrias/everpuzzle
 
@@ -246,8 +247,8 @@ _Discussions:
 [ultimate-scale]: https://github.com/leod/ultimate-scale
 [ultimate-scale-video-1]: https://youtu.be/zmKRJAF4xcI
 [ultimate-scale-video-2]: https://youtu.be/IM3BRM_MZrE
-[ultimate-scale-post]: https://www.reddit.com/r/rust_gamedev/comments/f3cll6/ultimate_scale_counting_modulo_three/fhhu5ol/
-[ultimate-scale-youtube-channel]: https://www.youtube.com/channel/UChSw7WP2i0GIw61FIeTeGsA
+[ultimate-scale-post]: https://reddit.com/r/rust_gamedev/comments/f3cll6/ultimate_scale_counting_modulo_three/fhhu5ol
+[ultimate-scale-youtube-channel]: https://youtube.com/channel/UChSw7WP2i0GIw61FIeTeGsA
 
 ### [Tennis Academy Dash][tennis-academy-dash]
 
@@ -261,18 +262,20 @@ The game is still a work in progress, but the demo version has been uploaded to 
 
 ### [Lonely Star][lonely-star]
 
-> *Space is a lonely place, but at least you've got the music to keep you company.*
+[![Lonely Star screenshot](lonely-star.png)][lonely-star]
+
+> _Space is a lonely place, but at least you've got the music to keep you company._
 
 [Lonely Star][lonely-star] is a side-scrolling infinite runner, with simple generative music. You collect orbs and fly through rings in order to play notes and stay alive.
 
 It was developed by [17cupsofcoffee][17cupsofcoffee], using the [Tetra][tetra] 2D game framework, for [Weekly Game Jam #135](weekly-game-jam-135).
 
-[![Lonely Star screenshot](lonely-star.png)][lonely-star]
+------
 
 Tetra itself also received two small updates recently:
 
-* [Version 0.3.2 was released][tetra-0.3.2], with bugfixes and some tools for simple AABB collision detection.
-* [The Pong tutorial was updated with a new chapter][tetra-pong], showing how to use Tetra's graphics and input APIs.
+- [Version 0.3.2 was released][tetra-0.3.2], with bugfixes and some tools for simple AABB collision detection.
+- [The Pong tutorial was updated with a new chapter][tetra-pong], showing how to use Tetra's graphics and input APIs.
 
 [lonely-star]: https://17cupsofcoffee.itch.io/lonely-star
 [17cupsofcoffee]: https://twitter.com/17cupsofcoffee
@@ -285,7 +288,7 @@ Tetra itself also received two small updates recently:
 
 ![High detail terrain chunk with PRR](akigi.png)
 
-> Sampling a heightmap in the vertex shader and also computing the normal, tangent and bitangent vectors in the vertex shader.
+^ _Sampling a heightmap in the vertex shader and also computing the normal, tangent and bitangent vectors in the vertex shader._
 
 [Akigi][akigi] is a multiplayer online world where most believe that humans are inferior.
 
@@ -478,7 +481,7 @@ This month an alpha version was published on itch: [check it out here][colony-it
 
 ![Rolling mountain landscape](veloren1.png)
 
-> Rolling mountain landscape
+^ _Rolling mountain landscape_
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf Fortress and Cube World.
 
@@ -506,9 +509,9 @@ Here is the February changelog:
 - Added music system
 ```
 
-[![veloren development](veloren3.gif)](https://www.youtube.com/watch?v=1ldHQfxCT24)
+[![veloren development](veloren3.gif)](https://youtube.com/watch?v=1ldHQfxCT24)
 
-> 1 year of Veloren development. Click for the full video!
+^ _1 year of Veloren development. Click for the full video!_
 
 You can read more about some specific topics:
 
@@ -538,6 +541,7 @@ February's full weekly devlogs: "This Week In Veloren...":
 Grumpy Visitors is a top-down 2D co-op action/arcade game highly inspired by Evil Invasion. It runs on Amethyst game engine.
 
 This winter Grumpy Visitors received some updates with the focus on graphics and UI:
+
 - Repainting mage sprites with shaders
 - New missiles graphics
 - Monsters death animations
@@ -551,7 +555,7 @@ Check them out in the [latest winter devlog][grumpy_visitors].
 
 ![cities, planes and keys](china.png)
 
-> Turn back planes to the port, by clicking right keys to the virus beat.
+^ _Turn back planes to the port, by clicking right keys to the virus beat._
 
 [Make China Great Again][china-great] ([source][china-great-src])
 by [@PsichiX] is a GlobalGameJam game written using [Oxygengine].
@@ -737,20 +741,22 @@ Check out [examples][weasel-examples] to see how it works in practice.
 
 ### [Shipyard] v0.3
 
-Take a look at [this](https://www.reddit.com/r/rust/comments/fbo8wf/shipyard_03_release/) Reddit thread for a discussion on the update.
+[Shipyard] is an ECS library built on top of sparse sets.
 
-[Shipyard] is an Entity Component System crate. ECS is a pattern mostly used in games but not only. It fits really well with Rust, allowing easy composition and lifetime management.
+Some of [the v0.3 updates][shipyard-v0-3-ann]:
 
-- [User guide] Learning to use a crate with the documentation can be hard. There's now a guide to explain what can be done with Shipyard and how.
-- No need to register components anymore Components had to be registered before accessing them by using World::new or World::register.
-Storages are now automatically created when they are first accessed.
-- !Send and !Sync components All components had to be Send + Sync, this is a strict limitation to make sure storages can use parallel features. With 0.3 !Send and !Sync types can be stored and accessed while still following Rust's rules. These rules limit threading for these types but doesn't always prevent it.
-- Unique components When we only need a single instance of a component, keeping an id around to access it can be annoying. A Unique component won't be attached to any entity but will have the storage all for itself.
-- Components sorting
-- no_std support
+- There's now a [User guide][shipyard-guide] to explain what can be done
+  and how;
+- No need to register components anymore,
+  storages are now automatically created when they are first accessed;
+- !Send and !Sync components;
+- Unique components;
+- Components sorting;
+- no_std support.
 
 [Shipyard]: https://crates.io/crates/shipyard
-[User guide]: https://leudz.github.io/shipyard/book
+[shipyard-guide]: https://leudz.github.io/shipyard/book
+[shipyard-v0-3-ann]: https://reddit.com/r/rust/comments/fbo8wf/shipyard_03_release
 
 ### [superluminal-perf-rs]
 
@@ -808,9 +814,13 @@ with some explanactions at [alexpdp7/retrofw2-rust][retrofw2-rust].
 
 ### [crow] v0.3
 
-[crow] is a 2D rendering engine based on OpenGL. It is designed to be easy to use while still allowing for nearly everything one might want while using pixel art.
+[crow] is a pixel perfect 2D rendering engine based on OpenGL.
+It is designed to be easy to use while still allowing
+for nearly everything one might want while using pixel art.
 
 A showcase game is [being developed](https://github.com/lcnr/akari) with crow.
+
+![Akari WIP screenshot](crow-akari.png)
 
 [crow]: https://crates.io/crates/crow
 
@@ -941,9 +951,18 @@ to showcase new voxel renderer:
 
 ### [KAS] GUI v0.3
 
+![KAS widgets example](kas.png)
+
 [KAS], the tool**K**it **A**bstraction **S**ystem, is a general-purpose GUI toolkit.
 
-0.3 is a decent sized release, focussing primarily on drawing, themes and layouts. Highlights include a new FlatTheme, many small visual improvements, access to medium-level and low-level drawing APIs for custom widgets, window size limits, and switchable themes and colour schemes.
+0.3 is a decent sized release, focussing primarily on drawing, themes and layouts.
+Highlights include:
+
+- a new FlatTheme,
+- many small visual improvements,
+- access to medium-level and low-level drawing APIs for custom widgets,
+- window size limits,
+- and switchable themes and colour schemes.
 
 [KAS]: https://github.com/kas-gui/kas
 
@@ -992,10 +1011,10 @@ Another thing that was shipped in last milestone was a module that allows to mak
 Next milestone is focused on delivering a base for professional modular game editor that will allow users to easily create a complex and animated Visual Novel games using Visual Scripting - game makers for another genres are currently in planning stage.
 
 [oxygengine]: https://github.com/PsichiX/Oxygengine
-[oxygengine-vn-anim-ann]: https://www.reddit.com/r/rust_gamedev/comments/fd7kza/oxygengine_visual_novel_and_animation_modules_are/
+[oxygengine-vn-anim-ann]: https://reddit.com/r/rust_gamedev/comments/fd7kza/oxygengine_visual_novel_and_animation_modules_are
 [oxygengine-vn-test-src]: https://github.com/PsichiX/Oxygengine/tree/master/demos/visual-novel-testbed
 
-### [This month in rustsim #9 (Nov 2019 to Feb 2020)][rustsim-9]
+### [This Month in RustSim #9 (Nov 2019 to Feb 2020)][rustsim-9]
 
 ![Salva logo](logo_salva_full.svg)
 
