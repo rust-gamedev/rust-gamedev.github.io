@@ -687,6 +687,24 @@ For more details, please see the [`specs` changelog].
 [specs]: https://crates.io/crates/specs
 [`specs` changelog]: https://github.com/amethyst/specs/blob/0.16.1/CHANGELOG.md#0161-2020-02-18
 
+### [Riven][riven]
+
+![Riot Games API logo: steampunk](riot-api.jpg)
+
+[riven] is a [Riot API][riot-api] library for Rust.
+
+> Riven handles rate limits and large requests with ease.
+> Data structs and endpoints are automatically generated from the
+> [Riot API Reference][riot-api-ref] ([Swagger][riot-swagger]).
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/exj48k/riven_100_my_rust_lib_for_the_riot_games_league)_
+
+[riven]: https://github.com/MingweiSamuel/Riven
+[riot-api]: https://developer.riotgames.com/
+[riot-api-ref]: https://developer.riotgames.com/api-methods
+[riot-swagger]: http://www.mingweisamuel.com/riotapi-schema/tool
+
 ### [weasel]
 
 [weasel] by [@Trisfald] is a customizable battle system for turn-based games.
