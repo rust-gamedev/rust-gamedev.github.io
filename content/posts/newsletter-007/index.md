@@ -113,13 +113,17 @@ channel on the [community-run Discord server][discord-community-invitation].
 
 [@logicsoup] - one of the developers behind [Garden][garden] -
 [is planning to organize][tallinn-ann] the first (and hopefully one of many)
-Rust Hack'n'Learn meetup in Tallinn in March.
+Rust Hack'n'Learn meetup in Tallinn on March 13.
 
-If you're interested, follow [@RustTallinn] - more details will be announced soon.
+> A Hack'N'Learn is an event where we get together and work on personal
+> (or open-source) projects on our own computers.
+
+If you're interested, visit **[tallinn.rs]** and follow [@RustTallinn].
 
 [tallinn-ann]: https://twitter.com/logicsoup/status/1224404367723454478
 [@RustTallinn]: https://twitter.com/RustTallinn
 [@logicsoup]: https://twitter.com/logicsoup
+[tallinn.rs]: https://tallinn.rs/events/2020-03-hacknlearn/
 
 ## Game Updates
 
