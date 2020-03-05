@@ -772,6 +772,24 @@ superluminal_perf::end_event();
 [superluminal-perf-rs]: https://github.com/embarkStudios/superluminal-perf-rs
 [superluminal-rust]: https://superluminal.eu/rust
 
+### Rust on [RG-300 Consoles][rg-300]
+
+[![Real-world demo of using Rust on RG-300](rg-300.jpeg)][rg-300-video]
+
+[@alexpdp7 shared their experience][rg-300-rust-ann]
+of wring an interactive application in Rust
+for the retro [RG-300][rg-300] console.
+
+You can find a working example that does graphics, sound and controls
+with some explanactions at [alexpdp7/retrofw2-rust][retrofw2-rust].
+
+[See it in action here.][rg-300-video]
+
+[rg-300-rust-ann]: https://reddit.com/r/rust_gamedev/comments/fabgof/wrote_a_rust_program_that_demonstrates_graphics
+[rg-300]: https://retrogame300.com/products/retro-game-300
+[rg-300-video]: https://youtube.com/watch?v=Rtf8ZEVALjQ
+[retrofw2-rust]: https://github.com/alexpdp7/retrofw2-rust
+
 ### [crow] v0.3
 
 [crow] is a 2D rendering engine based on OpenGL. It is designed to be easy to use while still allowing for nearly everything one might want while using pixel art.
