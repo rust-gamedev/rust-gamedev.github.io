@@ -780,6 +780,18 @@ superluminal_perf::end_event();
 of wring an interactive application in Rust
 for the retro [RG-300][rg-300] console.
 
+> The process is complex for a lot of reasons:
+>
+> - Cross-compiling for MIPS is tough <...>
+> - Graphics is done through the Linux framebuffer <...>
+> - Sound uses old-style Linux OSS <...>
+>
+> It's a bit clunky, but it works!
+> There are quite a few devices with very similar hardware
+> this should work with.
+> It should be possible to make simple games for such devices,
+> which I find particularly motivating :)
+
 You can find a working example that does graphics, sound and controls
 with some explanactions at [alexpdp7/retrofw2-rust][retrofw2-rust].
 
