@@ -790,8 +790,14 @@ Check out [the release blog](https://blog.image-rs.org/2020/02/07/release-0.23.0
 
 ### [superluminal-perf-rs]
 
+![Logo](superlumunal.png)
+
 [Superluminal][superluminal] is a next-generation CPU sampling profiler for C/C++ on Windows
 that has [recently got an official Rust support][superluminal-rust].
+
+[![UI example](superluminal-app.png)](superluminal-app.png)
+
+------
 
 Embark have recently open-sourced [superluminal-perf-rs] -
 a small crate that integrates with Superluminal profiler on Windows.
