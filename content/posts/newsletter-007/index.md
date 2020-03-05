@@ -738,6 +738,23 @@ A showcase game is [being developed](https://github.com/lcnr/akari) with crow.
 
 [crow]: https://crates.io/crates/crow
 
+### [glium] v0.26
+
+[glium] is an elegant and safe OpenGL wrapper.
+
+It's no longer actively developed by its original author,
+but maintenance is continued by the surrounding community.
+
+This month [glium v0.26 was released][glium-v0-26]:
+
+- Updated glutin to [version 0.23.0][glutin-v0-23].
+- Removal of some unsound code that rustc warns about.
+- Report the precise shader stage in which a shader failed compilation.
+
+[glium]: https://github.com/glium/glium
+[glium-v0-26]: https://github.com/glium/glium/blob/master/CHANGELOG.md#version-0260-2020-02-09
+[glutin-v0-23]: https://github.com/rust-windowing/glutin/blob/master/CHANGELOG.md#version-0230-2020-02-06
+
 ### [Patchwork]
 
 [Patchwork] is a convenient crate for drawing tiles from a tilesheet using a 'SpriteBatch' with `ggez`. It is an update to the `Mosaic` crate by [Repnop](https://github.com/repnop/mosaic), which is no longer maintained.
