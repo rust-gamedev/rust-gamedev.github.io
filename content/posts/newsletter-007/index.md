@@ -1075,6 +1075,16 @@ It uses vulkan and skia for rendering.
 
 <!-- Up to 10 links to interesting issues -->
 
+- [rust-gamedev/wg](https://github.com/rust-gamedev/wg):
+  - [#75 "Standardised API for sharing thread pools"](https://github.com/rust-gamedev/wg/issues/75);
+  - [#89 "Moving ecs_bench to GDWG"](https://github.com/rust-gamedev/wg/issues/89);
+  - [#90 "Rust on Consoles"](https://github.com/rust-gamedev/wg/issues/90);
+  - [#91 "Should the wg volunteer to maintain winapi?"](https://github.com/rust-gamedev/wg/issues/91);
+- [rust-gamedev/arewegameyet](https://github.com/rust-gamedev/arewegameyet):
+  - [#100 "Categorise games"](https://github.com/rust-gamedev/arewegameyet/issues/100);
+  - [#252 "Split games and resources into categories"](https://github.com/rust-gamedev/arewegameyet/issues/252);
+  - [#261 "Make .rs domain primary?"](https://github.com/rust-gamedev/arewegameyet/issues/261);
+
 ## Meeting Minutes
 
 <!-- Up to 10 most important notes + a link to the full details -->
