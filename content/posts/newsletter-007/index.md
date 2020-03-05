@@ -873,7 +873,7 @@ This month:
 
 - miniquad and related crates set up yearly goals:
   ["Rust 2D Engine 2020 Roadmap"][fedor-road];
-- A first try on the higher-level engine design was tried: [flappy bird.rs][macroquad-bird];
+- A first try on the higher-level engine design: [flappy bird.rs][macroquad-bird];
 - [miniquad was successfully built for Android][miniquad-android].
 
 [miniquad]: https://github.com/not-fl3/miniquad
