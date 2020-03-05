@@ -867,6 +867,20 @@ This month [glium v0.26 was released][glium-v0-26]:
 [glium-v0-26]: https://github.com/glium/glium/blob/master/CHANGELOG.md#version-0260-2020-02-09
 [glutin-v0-23]: https://github.com/rust-windowing/glutin/blob/master/CHANGELOG.md#version-0230-2020-02-06
 
+### [tikan]
+
+[tikan] by [@siebencorgie] is a Rust/Vulkan based 3d engine that tries
+to use high resolution voxels to real-time ray-trace the final picture.
+
+This month a [new video was released][tikan-video]
+to showcase new voxel renderer:
+
+[![youtube screenshot: glowing spheres](tikan-youtube.png)][tikan-video]
+
+[tikan]: https://gitlab.com/tendsinmende/tikan
+[tikan-video]: https://youtu.be/98XdA3BpWZU
+[@siebencorgie]: https://twitter.com/siebencorgie
+
 ### [Patchwork]
 
 [Patchwork] is a convenient crate for drawing tiles from a tilesheet using a 'SpriteBatch' with `ggez`. It is an update to the `Mosaic` crate by [Repnop](https://github.com/repnop/mosaic), which is no longer maintained.
