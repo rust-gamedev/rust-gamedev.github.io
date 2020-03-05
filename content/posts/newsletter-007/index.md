@@ -687,6 +687,32 @@ For more details, please see the [`specs` changelog].
 [specs]: https://crates.io/crates/specs
 [`specs` changelog]: https://github.com/amethyst/specs/blob/0.16.1/CHANGELOG.md#0161-2020-02-18
 
+### [weasel]
+
+[weasel] by [@Trisfald] is a customizable battle system for turn-based games.
+
+- Simple way to define the combat's rules,
+  taking advantage of Rust's strong type system.
+- Battle events are collected into a timeline to support save and restore,
+  replays, and more.
+- Client/server architecture; all battle events are verified by the server.
+- Minimal performance overhead.
+
+> The idea behind this crate is to provide a structured
+> and safe framework to manage the game state.
+> Users can create a battle and evolve it by applying events.
+> Then, weasel takes care of keeping a historical timeline.
+> It also help with serializing/deserializing save files
+> or sharing and verifying events between clients and server.
+> The game logic is defined through traits, which is nice because
+> it can benefit from Rust's type system and compile time checks.
+
+Check out [examples][weasel-examples] to see how it works in practice.
+
+[weasel]: https://github.com/Trisfald/weasel
+[weasel-examples]: https://github.com/Trisfald/weasel/tree/master/examples
+[@Trisfald]: https://github.com/Trisfald
+
 ### [Shipyard] v0.3
 
 Take a look at [this](https://www.reddit.com/r/rust/comments/fbo8wf/shipyard_03_release/) Reddit thread for a discussion on the update.
