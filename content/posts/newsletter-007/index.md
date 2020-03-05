@@ -816,6 +816,53 @@ Next milestone is focused on delivering a base for professional modular game edi
 [oxygengine-vn-anim-ann]: https://www.reddit.com/r/rust_gamedev/comments/fd7kza/oxygengine_visual_novel_and_animation_modules_are/
 [oxygengine-vn-test-src]: https://github.com/PsichiX/Oxygengine/tree/master/demos/visual-novel-testbed
 
+### [bracket-lib (RLTK)][rltk_rs] & [Roguelike Tutorial][rl-book]
+
+![Different font makes the log easier to read](roguelike-tutorial.jpg)
+
+[The Roguelike Tutorial][roguelike-book] by [@blackfuture]
+includes more than 70 chapters now and continues to grow!
+
+Some of February's updates:
+
+- C71: adds easy to use, colored, logging and an achievement counter system
+  to track your progress through the dungeon.
+- C72: 2nd layer (VGA) for the log, refactors for batched draw calls.
+- C73: Systems use Specs dispatch on native, and single-thread on WASM.
+
+[rl-book]: http://bfnightly.bracketproductions.com/rustbook
+[@blackfuture]: https://patreon.com/blackfuture
+
+------
+
+[bracket-lib][rltk_rs] (previously [rltk_rs]) by [@blackfuture]
+is a Rust implementation of [C++ Roguelike Toolkit][rltk-cpp].
+
+This month the project was renamed and split into many crates:
+
+> This is RLTK, renamed because it is increasingly finding
+> usage outside of just Roguelikes.
+> It's also been divided into a number of crates,
+> to make it easy to pick-and-choose the features you need.
+>
+> - `rltk` crate wraps bracket-lib and re-exports
+>   in the `rltk::` and `rltk::prelude` namespace.
+>   This preserves compatibility with all existing RLTK projects.
+> - `bracket-algorithm`-traits exposes the traits required
+>   for the various algorithm systems in other crates.
+> - `bracket-color` is my RGB/HSV color management system.
+> - `bracket-geometry` exposes various geometric primitives and helpers.
+>   Supports other crates.
+> - `bracket-noise` is a port of Auburn's FastNoise to Rust.
+> - `bracket-pathfinding` provides a high-performance
+>   A* (A-Star) pathing system, as well as Dijkstra maps.
+> - `bracket-random` is a dice-oriented random number generator,
+>   including parsing of RPG-style dice strings such as 3d6+12.
+
+[rltk_rs]: https://github.com/thebracket/rltk_rs
+[rltk-cpp]: https://github.com/thebracket/rltk
+[rltk-v0-7]: https://reddit.com/r/roguelikedev/comments/etiywv/sharing_saturday_295/ffi13dw/
+
 ### [Neovide][neovide]
 
 ![Neovide Animated Cursor Example](neovide-cursor.gif)
