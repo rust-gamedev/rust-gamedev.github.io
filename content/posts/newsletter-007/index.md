@@ -756,6 +756,24 @@ A showcase game is [being developed](https://github.com/lcnr/akari) with crow.
 
 [crow]: https://crates.io/crates/crow
 
+### [luminance v0.39][luminance-v0-39-ann]
+
+[luminance] by [@phaazon] is a type-safe, type-level and stateless
+graphics framework.
+
+This month [luminance v0.39 got released][luminance-v0-39-ann].
+Updates:
+
+- Remove the concept of layering in textures.
+  Textures’ layerings (i.e. either flat or arrayed) is now encoded directly
+  in the dimension of the texture.
+- Add support for texture arrays. They can now be passed constructed
+  and passed as uniforms to shader programs.
+
+[@phaazon]: https://twitter.com/phaazon_
+[luminance]: https://github.com/phaazon/luminance-rs
+[luminance-v0-39-ann]: https://reddit.com/r/rust/comments/fbe3l0/luminance039
+
 ### [glium] v0.26
 
 [glium] is an elegant and safe OpenGL wrapper.
