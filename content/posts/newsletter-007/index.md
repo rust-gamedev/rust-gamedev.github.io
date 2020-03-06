@@ -1046,7 +1046,7 @@ Next milestone is focused on delivering a base for professional modular game edi
 
 ![Different font makes the log easier to read](roguelike-tutorial.jpg)
 
-[The Roguelike Tutorial][roguelike-book] by [@blackfuture]
+[The Roguelike Tutorial][rl-book] by [@blackfuture]
 includes more than 70 chapters now and continues to grow!
 
 Some of February's updates:
