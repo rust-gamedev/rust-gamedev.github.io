@@ -5,6 +5,8 @@ date = 2020-03-05
 
 <!-- markdownlint-disable no-trailing-punctuation -->
 
+<!-- markdownlint-enable line-length -->
+
 Welcome to the seventh issue of the Rust GameDev Workgroup’s
 monthly newsletter.
 
@@ -68,20 +70,26 @@ _Discussions:
 
 ## [Are We Game Yet?][awgy] Updates
 
-[Are We Game Yet?][awgy] is a website cataloguing the Rust gamedev ecosystem, with hundreds of links to crates, games and helpful resources.
+[Are We Game Yet?][awgy] is a website cataloguing the Rust gamedev ecosystem,
+with hundreds of links to crates, games and helpful resources.
 
 [![Are We Game Yet? homepage](awgy.png)][awgy]
 
 This month, it received some major updates:
 
-- All of the site's data files have been unified into a consistent TOML schema, making it easier to add new links.
-- Categories have been added for games and resources, and you can now add an item to multiple categories without duplicating the data.
+- All of the site's data files have been unified into a consistent TOML schema,
+  making it easier to add new links.
+- Categories have been added for games and resources, and you can now
+  add an item to multiple categories without duplicating the data.
 - Page load times have been reduced (especially on the homepage).
-- The styling has been improved to make the site look better on mobile, and to resolve some accessibility issues.
+- The styling has been improved to make the site look better on mobile,
+  and to resolve some accessibility issues.
 
-[Ownership was also recently transferred across to the gamedev working group][awgy-wg], to allow for more people to help with maintainance.
+[Ownership was also recently transferred across to the gamedev working group][awgy-wg],
+to allow for more people to help with maintainance.
 
-There's never been a better time to add your projects to the site, so [please come and contribute][awgy-contribute]!
+There's never been a better time to add your projects to the site,
+so [please come and contribute][awgy-contribute]!
 
 [awgy]: https://arewegameyet.com/
 [awgy-wg]: https://github.com/rust-gamedev/arewegameyet/issues/210
@@ -131,7 +139,8 @@ If you're interested, visit **[tallinn.rs]** and follow [@RustTallinn].
 
 ![Rusty Shooter in-game screenshot](rusty-shooter-in-game.jpg)
 
-[Rusty Shooter][rusty-shooter] is a Quake3-like first-person shooter written in Rust using [rg3d engine][rg3d-engine].
+[Rusty Shooter][rusty-shooter] is a Quake3-like first-person shooter
+written in Rust using [rg3d engine][rg3d-engine].
 
 Features:
 
@@ -174,11 +183,19 @@ This month an alpha version was published on itch: [check it out here][colony-it
 
 ^ _Rolling mountain landscape_
 
-[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf Fortress and Cube World.
+[Veloren][veloren] is an open world, open-source voxel RPG
+inspired by Dwarf Fortress and Cube World.
 
-At the beginning of the month, the team met for a 0.6 intro meeting. It was decided that 0.6 would focus on things for the player to do, and hence will be called "The Content Update".
+At the beginning of the month, the team met for a 0.6 intro meeting.
+It was decided that 0.6 would focus on things for the player to do,
+and hence will be called "The Content Update".
 
-Research has been done on multiple areas this month. One domain is level of detail, which is allowing mountains off in the distance to be rendered much faster. Another domain is server persistence. Finding a way for the server to efficiently persist player information is a large part of what is needed for The Content Update.
+Research has been done on multiple areas this month.
+One domain is level of detail, which is allowing mountains off in the distance
+to be rendered much faster.
+Another domain is server persistence.
+Finding a way for the server to efficiently persist player information
+is a large part of what is needed for The Content Update.
 
 Here is the February changelog:
 
@@ -215,7 +232,10 @@ You can read more about some specific topics:
 
 ![Hanging out](veloren2.png)
 
-In March, there will be a heavy focus on completing level of detail work as well as persistence. Modding support will be explored further. Player achievements will be merged into the game, and we will start looking at where more content can be added.
+In March, there will be a heavy focus on completing level of detail work
+as well as persistence. Modding support will be explored further.
+Player achievements will be merged into the game,
+and we will start looking at where more content can be added.
 
 February's full weekly devlogs: "This Week In Veloren...":
 [#53](https://veloren.net/devblog-53),
@@ -312,9 +332,10 @@ _Discussions:
 [Everpuzzle] is a Tetris Attack like action-puzzle game written in Rust.
 
 Everpuzzle aims to become a similar game like Tetris Attack and expand on its concepts.
-The project was recently rewritten with minimal dependencies to achieve small compile times and gain more control over the
-underlying engine architecture.
-In the past Everpuzzle was using Amethyst with ECS, however there were some issues that made development difficult.
+The project was recently rewritten with minimal dependencies to achieve small
+compile times and gain more control over the underlying engine architecture.
+In the past Everpuzzle was using Amethyst with ECS,
+however there were some issues that made development difficult.
 Everpuzzle's big goals are AI, Multiplayer and different Game modes.
 
 Big changes coming in version 0.2, full list [here](https://github.com/Skytrias/everpuzzle/blob/master/CHANGELOG.md):
@@ -336,9 +357,16 @@ Video: [Everpuzzle rewrite - Code Walkthrough (code outdated)](https://youtube.c
 
 ![Spider NPCs](antorum.jpg)
 
-[Antorum] is a multiplayer RPG where players build their characters and fight against the growing threats on the isle. The game server is authoritative and written in Rust, while the client is written in Unity/C#.
+[Antorum] is a multiplayer RPG where players build their characters
+and fight against the growing threats on the isle.
+The game server is authoritative and written in Rust,
+while the client is written in Unity/C#.
 
-This month, the focus was on cooking skill. This includes recipes and cookware. Players will need a cooking appliance, such as a stove or campfire to cook some Chonkrat Stew inside a pot. A heavy refactor to the interaction system had to be made, as well as changes to networking.
+This month, the focus was on cooking skill. This includes recipes and cookware.
+Players will need a cooking appliance, such as a stove or campfire
+to cook some Chonkrat Stew inside a pot.
+A heavy refactor to the interaction system had to be made,
+as well as changes to networking.
 
 Check out te full devlog: [#18 "Cooking"](https://dooskington.com/dev-log/18).
 
@@ -405,9 +433,15 @@ _Discussions:
 
 ![release](dash.gif)
 
-Tennis academy dash is a time management game where you are the manager of a tennis academy and you need to coordinate various players to play on your courts.
+Tennis academy dash is a time management game where you are the manager
+of a tennis academy and you need to coordinate various players
+to play on your courts.
 
-The game is still a work in progress, but the demo version has been uploaded to itch.io this month, so you can go ahead and check it out! Give it a go (the build is only for mac at the moment but other platforms coming soon) and drop a comment with any feedback on [tennis-academy-dash].
+The game is still a work in progress, but the demo version
+has been uploaded to itch.io this month, so you can go ahead and check it out!
+Give it a go
+(the build is only for mac at the moment but other platforms coming soon)
+and drop a comment with any feedback on [tennis-academy-dash].
 
 [tennis-academy-dash]: https://iolivia.itch.io/tennis-academy-dash
 
@@ -432,16 +466,22 @@ every Sunday at 19:30 PM GMT [on Twitch][dwarf-twitch].
 
 > _Space is a lonely place, but at least you've got the music to keep you company._
 
-[Lonely Star][lonely-star] is a side-scrolling infinite runner, with simple generative music. You collect orbs and fly through rings in order to play notes and stay alive.
+[Lonely Star][lonely-star] is a side-scrolling infinite runner,
+with simple generative music.
+You collect orbs and fly through rings in order to play notes and stay alive.
 
-It was developed by [17cupsofcoffee][17cupsofcoffee], using the [Tetra][tetra] 2D game framework, for [Weekly Game Jam #135](weekly-game-jam-135).
+It was developed by [17cupsofcoffee][17cupsofcoffee],
+using the [Tetra][tetra] 2D game framework,
+for [Weekly Game Jam #135](weekly-game-jam-135).
 
 ------
 
 Tetra itself also received two small updates recently:
 
-- [Version 0.3.2 was released][tetra-0.3.2], with bugfixes and some tools for simple AABB collision detection.
-- [The Pong tutorial was updated with a new chapter][tetra-pong], showing how to use Tetra's graphics and input APIs.
+- [Version 0.3.2 was released][tetra-0.3.2],
+  with bugfixes and some tools for simple AABB collision detection.
+- [The Pong tutorial was updated with a new chapter][tetra-pong],
+  showing how to use Tetra's graphics and input APIs.
 
 [lonely-star]: https://17cupsofcoffee.itch.io/lonely-star
 [17cupsofcoffee]: https://twitter.com/17cupsofcoffee
@@ -454,11 +494,14 @@ Tetra itself also received two small updates recently:
 
 ![High detail terrain chunk with PRR](akigi.png)
 
-^ _Sampling a heightmap in the vertex shader and also computing the normal, tangent and bitangent vectors in the vertex shader._
+^ _Sampling a heightmap in the vertex shader and also computing the normal,
+tangent and bitangent vectors in the vertex shader._
 
 [Akigi][akigi] is a multiplayer online world where most believe that humans are inferior.
 
-This month saw a heavy focus on the web client. An alpha release is slated for April 9th, 2020. Lots of client refactoring was done, and experiments were run in the browser.
+This month saw a heavy focus on the web client.
+An alpha release is slated for April 9th, 2020.
+Lots of client refactoring was done, and experiments were run in the browser.
 
 Some of February's updates:
 
@@ -493,8 +536,8 @@ network play][designing_network_play].
 
 [![logo](way-of-rhea.jpg)][rhea-steam]
 
-[Way of Rhea][rhea-steam] is an upcoming puzzle platformer that takes place in a world
-where you can only interact with objects that match your current color.
+[Way of Rhea][rhea-steam] is an upcoming puzzle platformer that takes place
+in a world where you can only interact with objects that match your current color.
 
 This month, an updated trailer with new character art was released.
 [Check it out on the game's Steam page][rhea-steam].
@@ -538,9 +581,11 @@ Some of the updates:
 
 ![Magic missiles in Grumpy Visitors](grumpy_missiles.jpg)
 
-Grumpy Visitors is a top-down 2D co-op action/arcade game highly inspired by Evil Invasion. It runs on Amethyst game engine.
+Grumpy Visitors is a top-down 2D co-op action/arcade game
+highly inspired by Evil Invasion. It runs on Amethyst game engine.
 
-This winter Grumpy Visitors received some updates with the focus on graphics and UI:
+This winter Grumpy Visitors received some updates
+with the focus on graphics and UI:
 
 - Repainting mage sprites with shaders
 - New missiles graphics
@@ -647,9 +692,12 @@ about their "For the Quest" (working title) game project:
 
 [![Demonstration of interpolation](fyt-ggez.gif)][fyt-ggez]
 
-[joetsoi] has written [a blog post][fyt-ggez], demonstrating how the concepts from the well-known '[Fix Your Timestep][fyt]' article can be applied when making games with Rust and GGEZ.
+[joetsoi] has written [a blog post][fyt-ggez], demonstrating how the concepts
+from the well-known '[Fix Your Timestep][fyt]' article can be applied
+when making games with Rust and GGEZ.
 
-The examples are very well explained, and can easily be translated to other engines, so it's worth checking out even if you're not a GGEZ user!
+The examples are very well explained, and can easily be translated
+to other engines, so it's worth checking out even if you're not a GGEZ user!
 
 [joetsoi]: https://joetsoi.github.io
 [fyt-ggez]: https://joetsoi.github.io/fix-your-timestep-rust-ggez/
@@ -782,17 +830,22 @@ Some of [the v0.3 updates][shipyard-v0-3-ann]:
 
 ### [image] v0.23
 
-[image] crate provides basic imaging processing functions and methods for converting to and from image formats.
+[image] crate provides basic imaging processing functions and methods
+for converting to and from image formats.
 
-Check out [the release blog](https://blog.image-rs.org/2020/02/07/release-0.23.0.html) for 0.23! It comes with improvements to error handling, and the buffer and loading interfaces.
+Check out [the release blog for 0.23][image-v0-23]!
+It comes with improvements to error handling,
+and the buffer and loading interfaces.
 
 [image]: https://github.com/image-rs/image
+[image-v0-23]: https://blog.image-rs.org/2020/02/07/release-0.23.0.html
 
 ### [superluminal-perf-rs]
 
 ![Logo](superlumunal.png)
 
-[Superluminal][superluminal] is a next-generation CPU sampling profiler for C/C++ on Windows
+[Superluminal][superluminal] is a next-generation CPU sampling profiler
+for C/C++ on Windows
 that has [recently got an official Rust support][superluminal-rust].
 
 [![UI example](superluminal-app.png)](superluminal-app.png)
@@ -981,9 +1034,13 @@ to showcase new voxel renderer:
 
 ### [Patchwork]
 
-[Patchwork] is a convenient crate for drawing tiles from a tilesheet using a 'SpriteBatch' with `ggez`. It is an update to the `Mosaic` crate by [Repnop](https://github.com/repnop/mosaic), which is no longer maintained.
+[Patchwork] is a convenient crate for drawing tiles from a tilesheet
+using a 'SpriteBatch' with `ggez`.
+It is an update to [the `Mosaic` crate by @Repnop][mosaic],
+which is no longer maintained.
 
 [patchwork]: https://github.com/RedSquirrelsNut/patchwork
+[mosaic]: https://github.com/repnop/mosaic
 
 ### [KAS] GUI v0.3
 
@@ -1027,16 +1084,30 @@ Some of the updates:
 
 This month [Oxygengine][oxygengine] got new version 0.7.0 with
 [Visual Novel and Animation][oxygengine-vn-anim-ann]
-modules that allows users to focus on making VN games easily, with virtually no code needed to be written - it is a groundbreaking start in developing a set of tools for the professional game developers.
+modules that allows users to focus on making VN games easily,
+with virtually no code needed to be written -
+it is a groundbreaking start in developing a set of tools
+for the professional game developers.
 
-> As few might notice, Oxygengine is starting to get more complex modules, there is a reason for that - this engine is made with one big goal in mind, which is: to became a tool used by professionals, giving easy way to make complex games easily, therefore the current milestone is about bringing a basic game editor with first game maker module along with blueprints-like visual scripting and animation tool - the most important tools for visual novel game designers!
+> As few might notice, Oxygengine is starting to get more complex modules,
+> there is a reason for that - this engine is made with one big goal in mind,
+> which is: to became a tool used by professionals,
+> giving easy way to make complex games easily,
+> therefore the current milestone is about bringing a basic game editor
+> with first game maker module along with blueprints-like visual scripting
+> and animation tool - the most important tools for visual novel game designers!
 
 ![Oxygengine Visual Novel Teaser](oxygengine-visual-novel-teaser.gif)
 
-You can find sources of the project that shows how to use these modules in the [engine demo projects][oxygengine-vn-test-src].
+You can find sources of the project that shows how to use these modules
+in the [engine demo projects][oxygengine-vn-test-src].
 
-Another thing that was shipped in last milestone was a module that allows to make and run your game logic designed in Blueprint-like visual scripting.
-Next milestone is focused on delivering a base for professional modular game editor that will allow users to easily create a complex and animated Visual Novel games using Visual Scripting - game makers for another genres are currently in planning stage.
+Another thing that was shipped in last milestone was a module that allows
+to make and run your game logic designed in Blueprint-like visual scripting.
+Next milestone is focused on delivering a base for professional modular
+game editor that will allow users to easily create a complex and animated
+Visual Novel games using Visual Scripting -
+game makers for another genres are currently in planning stage.
 
 [oxygengine]: https://github.com/PsichiX/Oxygengine
 [oxygengine-vn-anim-ann]: https://reddit.com/r/rust_gamedev/comments/fd7kza/oxygengine_visual_novel_and_animation_modules_are
