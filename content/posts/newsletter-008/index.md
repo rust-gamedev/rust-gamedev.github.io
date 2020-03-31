@@ -53,6 +53,44 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
+### [Quest Engine Part 2: Deploying a Rust App On Android][quest-part-2]
+
+![Oculus Quest](./quest.jpg)
+
+The [second part][quest-part-2] of Nikita Krupitskas'
+[blog series][quest-part-1] on developing a game engine for the Oculus Quest
+has been posted.
+
+This part of the series describes how a simple Rust project can be built
+for Android - useful even if you're not targeting the Oculus hardware!
+
+[quest-part-1]: https://krupitskas.github.io/posts/quest-dev-part-1/
+[quest-part-2]: https://krupitskas.github.io/posts/quest-dev-part-2/
+
+### [const-tweaker]
+
+![const-tweaker UI](./const-tweaker.gif)
+
+Thomas Versteeg has released a new crate called `const-tweaker`, which provides
+a web UI that can be used to tweak `const` variables in a running application.
+This can be used as a simpler alternative to embedded scripting languages or
+hot-reloading in your games.
+
+_Discussions: [/r/rust](https://www.reddit.com/r/rust_gamedev/comments/fl7593/announcing_consttweaker_change_your_constants/)_
+
+[const-tweaker]: https://github.com/tversteeg/const-tweaker
+
+### [assets_manager]
+
+a1phyr has created a crate called `assets_manager`, which provides a convienient way
+to load and cache external resources. It abstracts over the filesystem logic, and
+provides a variety of built-in loaders for common Serde formats (e.g. TOML, JSON).
+Hot-reloading support is also planned in the future.
+
+_Discussions: [/r/rust](https://www.reddit.com/r/rust_gamedev/comments/foywc6/announcing_assets_manager_conveniently_load_store/)_
+
+[assets_manager]: https://github.com/a1phyr/assets_manager
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
