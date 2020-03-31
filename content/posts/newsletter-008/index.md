@@ -51,6 +51,18 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [DynaMaze][dynamaze]
+
+![DynaMaze promotional image](dynamaze.png)
+
+[DynaMaze][dynamaze] is an [open source][dynamaze-source] multiplayer
+puzzle/strategy game written in Rust and compiled to WebAssembly, made by
+[@boringcactus][].
+
+[dynamaze]: https://boringcactus.itch.io/dynamaze
+[dynamaze-source]: https://github.com/boringcactus/dynamaze
+[@boringcactus]: https://github.com/boringcactus
+
 ## Library & Tooling Updates
 
 ### [Quest Engine Part 2: Deploying a Rust App On Android][quest-part-2]
