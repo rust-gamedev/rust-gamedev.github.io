@@ -68,7 +68,7 @@ Improvements done in March:
 [wgpu](https://github.com/gfx-rs/wgpu) and [wgpu-rs](https://github.com/gfx-rs/wgpu-rs) changes in March:
   - @grovesNL reached an epic milestone in the Web target by showing the [first triangle](https://github.com/gfx-rs/wgpu-rs/pull/193#issuecomment-599156540). Users will soon be able to seamlessly target the web with their existing `wgpu-rs` applications :rocket:
   - `wgpu-types` crate is created to share types between the Web target and the native one.
-  - @lachlansneff improved our _async_ story quite a bit, we also converted more methods to be asynchronous.
+  - @lachlansneff improved the _async_ story quite a bit, we also converted more methods to be asynchronous.
   - Debug labels support.
   - Id management story for browsers with a GPU process has been completely redesigned and now working well.
   - All the objects are properly destroyed and GPU tracked if needed.
@@ -76,9 +76,10 @@ Improvements done in March:
   - New "mailbox" present mode.
 
 Satellite projects:
-  - [naga](https://github.com/gfx-rs/naga) - our new in-house shader translator has reached the milestone of successfully loading a WGSL [boids example](https://github.com/gfx-rs/naga/blob/thda1f6a47b06c89abb1dff70326c076f1088964a3/test-data/boids.wgsl) and generating a valid Metal source for it :tada:
+  - [naga](https://github.com/gfx-rs/naga) - the new in-house shader translator has reached the milestone of successfully loading a WGSL [boids example](https://github.com/gfx-rs/naga/blob/thda1f6a47b06c89abb1dff70326c076f1088964a3/test-data/boids.wgsl) and generating a valid Metal source for it :tada:
   - [metal-rs](https://github.com/gfx-rs/metal-rs/) has got a lot of contribution by @adamnemecek. Indirect command encoding is particularly exciting!
-  - [gfx-ocean](https://github.com/gfx-rs/gfx-ocean) was moved to our organization and updated to gfx-hal-0.5.
+  - [gfx-extras](https://github.com/gfx-rs/gfx-extras) is a new library that is forked from rendy-memory/descriptor.
+  - [gfx-ocean](https://github.com/gfx-rs/gfx-ocean) was moved to gfx-rs organization and updated to gfx-hal-0.5.
   - [gfx-portability](https://github.com/gfx-rs/portability) was also updated.
 
 ### [Quest Engine Part 2: Deploying a Rust App On Android][quest-part-2]
