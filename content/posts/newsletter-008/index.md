@@ -51,6 +51,19 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [DynaMaze][dynamaze]
+
+![DynaMaze promotional image](dynamaze.png)
+
+[DynaMaze][dynamaze] is an [open source][dynamaze-source] multiplayer
+puzzle/strategy game written in Rust and compiled to WebAssembly, made by
+[@boringcactus][]. Adjust the maze to build a path to your target and
+keep the other players from getting to theirs.
+
+[dynamaze]: https://boringcactus.itch.io/dynamaze
+[dynamaze-source]: https://github.com/boringcactus/dynamaze
+[@boringcactus]: https://github.com/boringcactus
+
 ## Library & Tooling Updates
 
 ### gfx-rs and wgpu news
