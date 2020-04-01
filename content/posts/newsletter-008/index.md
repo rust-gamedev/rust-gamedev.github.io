@@ -91,6 +91,33 @@ _Discussions: [/r/rust](https://www.reddit.com/r/rust_gamedev/comments/foywc6/an
 
 [assets_manager]: https://github.com/a1phyr/assets_manager
 
+### [three-d] v0.1
+
+[three-d] is a renderer which targets both desktop (OpenGL) and web
+(WebAssembly + WebGL2) which makes it possible to develop a 3D application on 
+desktop and easily deploy it on web.
+
+This month [three-d v0.1][three-d-v0-1] was released. 
+Main features:
+- Thin and low-level graphics abstraction layer which maps one-to-one with the
+OpenGL/WebGL2 graphics APIs.
+- Medium-level modular abstractions of common graphics concepts.
+- Deferred renderer with high-level components.
+- Default windows for easy setup.
+
+It is possible to build your own rendering features from low- or medium-level 
+components and combine with other high-level features, so you can already now 
+make some cool stuff. See for example these [examples][three-d-examples].
+
+![Lighting example](three-d-lighting.png)
+
+![Spider example](three-d-spider.png)
+
+[three-d]: https://github.com/asny/three-d
+[three-d-examples]: https://asny.github.io/three-d/
+[three-d-v0-1]: https://crates.io/crates/three-d
+
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
