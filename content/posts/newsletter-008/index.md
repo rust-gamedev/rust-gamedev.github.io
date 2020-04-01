@@ -53,6 +53,35 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
+### gfx-rs and wgpu news
+
+[gfx-hal-0.5](https://github.com/gfx-rs/gfx/) was released :tada: 
+Improvements done in March:
+  - Debug markers. Users are now able to debug-annotate parts of the rendered frame, so that inspecting it in a GPU debugger is more enjoyable.
+  - The generic range parameters are removed in favor of simple structs. This is a move towards simpler low-level API.
+  - Physical device features for NDC Y-flip and sampler mirror clamp are added
+  - Physical device performance hints are introduced. The first hint is for "base vertex/instance" support.
+  - `SmallVec` is removed from the API, it's reshaped to avoid any heap allocations. Previously, it had to touch the heap on multiple descriptor sets or command buffers.
+  - DX12 got true support for read-only storage bindings. This is one of the opt-in derivations from Vulkan that allow to better map users logic to non-Vulkan backends, also used by WebGPU.
+  - Last but not the least, @zicklag [has been fighting](https://github.com/gfx-rs/gfx/pull/3151) with the OpenGL backend to align its API with the rest of the crowd, armed with [surfman](https://github.com/pcwalton/surfman). The fight is reading conclusion, and we are crossing fingers to add OpenGL support to `wgpu-rs` as it lands.
+
+[wgpu](https://github.com/gfx-rs/wgpu) and [wgpu-rs](https://github.com/gfx-rs/wgpu-rs) changes in March:
+  - @grovesNL reached an epic milestone in the Web target by showing the [first triangle](https://github.com/gfx-rs/wgpu-rs/pull/193#issuecomment-599156540). Users will soon be able to seamlessly target the web with their existing `wgpu-rs` applications :rocket:
+  - `wgpu-types` crate is created to share types between the Web target and the native one.
+  - @lachlansneff improved the _async_ story quite a bit, we also converted more methods to be asynchronous.
+  - Debug labels support.
+  - Id management story for browsers with a GPU process has been completely redesigned and now working well.
+  - All the objects are properly destroyed and GPU tracked if needed.
+  - Ability to provide a `Surface` so that the selected adapter can present to it.
+  - New "mailbox" present mode.
+
+Satellite projects:
+  - [naga](https://github.com/gfx-rs/naga) - the new in-house shader translator has reached the milestone of successfully loading a WGSL [boids example](https://github.com/gfx-rs/naga/blob/thda1f6a47b06c89abb1dff70326c076f1088964a3/test-data/boids.wgsl) and generating a valid Metal source for it :tada:
+  - [metal-rs](https://github.com/gfx-rs/metal-rs/) has got a lot of contribution by @adamnemecek. Indirect command encoding is particularly exciting!
+  - [gfx-extras](https://github.com/gfx-rs/gfx-extras) is a new library that is forked from rendy-memory/descriptor.
+  - [gfx-ocean](https://github.com/gfx-rs/gfx-ocean) was moved to gfx-rs organization and updated to gfx-hal-0.5.
+  - [gfx-portability](https://github.com/gfx-rs/portability) was also updated.
+
 ### [Quest Engine Part 2: Deploying a Rust App On Android][quest-part-2]
 
 ![Oculus Quest](./quest.jpg)
@@ -118,6 +147,7 @@ or [join the next meeting][join].
 - [Amethyst's "good first issue" issues][amethyst-issues];
 - [A/B Street's "good first issue" issues][abstreet-issues];
 - [Mun's "good first issue" issues][mun-issues];
+- Anybody wants to work on the [GLSL front-end](https://github.com/gfx-rs/naga/issues/23) in Naga? One day, we'll be able to finally replace glsl-to-spirv, which is used by a lot of graphics applications and is prone to issues.
 
 [embark.rs]: https://embark.rs
 [embark-open-issues]: https://github.com/search?q=user:EmbarkStudios+state:open
