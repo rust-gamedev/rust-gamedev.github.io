@@ -64,6 +64,21 @@ keep the other players from getting to theirs.
 [dynamaze-source]: https://github.com/boringcactus/dynamaze
 [@boringcactus]: https://github.com/boringcactus
 
+### [Will][will]
+
+![Will main menu](will_main.png)
+
+[Will][will] is a 2.5D moddable action / adventure game.
+
+Highlights of [this month's update][will_blogpost] include:
+
+* Going [open source][will_source]
+* Network play (early version)
+
+[will]: https://azriel.im/will
+[will_blogpost]: https://azriel.im/will/2020/03/13/join-me/
+[will_source]: https://github.com/azriel91/autexousious
+
 ## Library & Tooling Updates
 
 ### gfx-rs and wgpu news
