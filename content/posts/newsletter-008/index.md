@@ -159,6 +159,30 @@ make some cool stuff. See for example these [examples][three-d-examples].
 [three-d-examples]: https://asny.github.io/three-d/
 [three-d-v0-1]: https://crates.io/crates/three-d
 
+### This Month in Mun
+
+[![Mun logo](mun-logo.png)][Mun]
+
+[Mun] is a scripting language for gamedev focused on quick iteration times
+that is written in Rust.
+
+The Mun Team [announced][mun-february] that they have obtained a $15k grant
+as part of the [MOSS Mission Partners][moss] track, to further develop hot
+reloadable data structures.
+
+Their [March updates][mun-march] include:
+
+- marshalling of value structs;
+- extern functions;
+- garbage collector (defaults to mark&sweep);
+- performance benchmarks;
+- bugfixes and improved test coverage.
+
+[Mun]: https://mun-lang.org
+[moss]: https://www.mozilla.org/en-US/moss/mission-partners
+[mun-february]: (https://mun-lang.org/blog/2020/03/10/this-month-february
+[mun-march]: https://mun-lang.org/blog/2020/04/02/this-month-march
+
 
 ## Popular Workgroup Issues in Github
 
