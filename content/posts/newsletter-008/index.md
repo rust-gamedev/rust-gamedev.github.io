@@ -96,6 +96,37 @@ Highlights of [this month's update][will_blogpost] include:
 [will_blogpost]: https://azriel.im/will/2020/03/13/join-me/
 [will_source]: https://github.com/azriel91/autexousious
 
+### For The Quest
+
+![For The Quest screenshot](forthequest.jpg)
+
+For The Quest is the working title for a game in early development by
+[@seratonik][]. Written entirely in Rust and compiled to WebAssembly,
+For The Quest is destined to become a MMORPG set in a post-apocalyptic
+Earth where your goal is to band together into like-minded factions to
+not only survive in this new world, but to unearth the cause of humanity's
+downfall.
+
+For The Quest is currently undergoing engine development with a focus on
+running smoothly in modern browsers using WebGL 2.0 before moving onto
+native desktop ports.
+
+New developments in March:
+
+- Collision and Activation-Based Triggerable Entities (Able to load new areas)
+- New overworld "sky light" directional lighting shaders in addition to
+  omni-directional point lighting for underground areas
+- New Ice Cavern models and textures, establishing a hybrid pixel-art in 3D
+  style - mapping tool has been expanded to allow for rotating "tiles" to
+  build extensive environments in a simple text format for rapid prototyping
+- Specular maps added to the engine and world for that extra shine
+- Started refactoring the rendering pipeline to allow for screen-space effects
+  such as reflections and ambient occlusion
+
+Follow [@seratonik][] on Twitter for updates.
+
+[@seratonik]: https://twitter.com/seratonik
+
 ## Library & Tooling Updates
 
 ### gfx-rs and wgpu news
