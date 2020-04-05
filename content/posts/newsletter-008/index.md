@@ -64,6 +64,21 @@ keep the other players from getting to theirs.
 [dynamaze-source]: https://github.com/boringcactus/dynamaze
 [@boringcactus]: https://github.com/boringcactus
 
+### [Will][will]
+
+![Will main menu](will_main.png)
+
+[Will][will] is a 2.5D moddable action / adventure game.
+
+Highlights of [this month's update][will_blogpost] include:
+
+- Going [open source][will_source]
+- Network play (early version)
+
+[will]: https://azriel.im/will
+[will_blogpost]: https://azriel.im/will/2020/03/13/join-me/
+[will_source]: https://github.com/azriel91/autexousious
+
 ## Library & Tooling Updates
 
 ### gfx-rs and wgpu news
@@ -217,6 +232,68 @@ Their [March updates][mun-march] include:
 [moss]: https://www.mozilla.org/en-US/moss/mission-partners
 [mun-february]: https://mun-lang.org/blog/2020/03/10/this-month-february
 [mun-march]: https://mun-lang.org/blog/2020/04/02/this-month-march
+
+### [Amethyst][amethyst]
+
+[![Amethyst logo](amethyst-logo.png)][amethyst]
+
+- [Ametyst 0.15.0 was released][amethyst_release]:
+
+  - Better panic messages on `stable` Rust.
+  - Support for setting log levels from configuration.
+  - Text field rendering corrections.
+  - Target multiple overlapping UI entities with events.
+
+- [`specs`] is the underlying ECS that powers Amethyst but there's an
+[ongoing prospect][amethyst_legion_rfc] of moving to [`legion`].
+  [@csherratt] wrote an [excellent post][amethyst_specs_legion] comparing both
+  libraries. Also an [in-depth discussion][amethyst_ecs_discussion] about
+archetypal and grouped ECS design took place on the forum.
+
+  ![specs vs amethyst layout](specs-vs-legion.png)
+
+- [Atelier][amethyst_atelier] is an asset management and processing
+  framework for games.
+  Coupled with [`legion`], [@aclysma] and [@kabergstrom] built an
+  [editor prototype][amethyst_editor_prototype] demonstrating the following
+capabilities:
+
+  - Prefab loading, saving, and hot-reloading
+  - Entity creation / deletion
+  - Component addition / removal
+  - Undo and Redo
+
+Check out the [demo video][amethyst_editor_youtube] and
+[forum discussion][amethyst_editor_forum].
+
+- There is an [ongoing effort to bring WASM support to Amethyst][amethyst_wasm_effort].
+  Check out the [contribution guide][amethyst_wasm_contribution_guide]
+and [project board][amethyst_wasm_project_board] for current status.
+
+- [@ToferC] reviewed their experience using Amethyst to build a space combat game,
+  [Paladin][amethyst_review_paladin]. Check out the
+  [review on youtube][amethyst_review_youtube].
+
+[@aclysma]: https://github.com/aclysma
+[@csherratt]: https://github.com/csherratt
+[@kabergstrom]: https://github.com/kabergstrom
+[@ToferC]: https://github.com/ToferC
+[`legion`]: https://github.com/TomGillen/legion
+[`specs`]: https://github.com/amethyst/specs
+[amethyst]: https://amethyst.rs
+[amethyst_atelier]: https://github.com/amethyst/atelier-assets
+[amethyst_ecs_discussion]: https://community.amethyst.rs/t/archetypal-vs-grouped-ecs-architectures-my-take/1344
+[amethyst_editor_forum]: https://community.amethyst.rs/t/atelier-legion-integration-demo/1352
+[amethyst_editor_prototype]: https://github.com/aclysma/atelier-legion-demo
+[amethyst_editor_youtube]: https://youtube.com/watch?v=9Vwi29RuQBE
+[amethyst_legion_rfc]: https://github.com/amethyst/rfcs/issues/22
+[amethyst_release]: https://amethyst.rs/posts/release-0-15-0
+[amethyst_review_paladin]: https://github.com/ToferC/paladin
+[amethyst_review_youtube]: https://youtube.com/watch?v=avW2Nr6ak-o
+[amethyst_specs_legion]: https://csherratt.github.io/blog/posts/specs-and-legion/
+[amethyst_wasm_contribution_guide]: https://github.com/amethyst/amethyst/tree/wasm/docs/CONTRIBUTING_WASM.md
+[amethyst_wasm_effort]: https://community.amethyst.rs/t/wasm-effort/1336
+[amethyst_wasm_project_board]: https://github.com/amethyst/amethyst/projects/20
 
 ## Popular Workgroup Issues in Github
 
