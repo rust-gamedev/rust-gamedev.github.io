@@ -343,6 +343,17 @@ and [project board][amethyst_wasm_project_board] for current status.
 [amethyst_wasm_effort]: https://community.amethyst.rs/t/wasm-effort/1336
 [amethyst_wasm_project_board]: https://github.com/amethyst/amethyst/projects/20
 
+### [ash] v0.30
+
+`ash` is lightweight wrapper around Vulkan.
+
+The latest version comes with support for Vulkan 1.2 and following extensions:
+- VK_KHR_timeline_semaphore
+- VK_KHR_ray_tracing
+- VK_KHR_external_memory_fd
+
+[ash]: https://github.com/MaikKlein/ash
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
