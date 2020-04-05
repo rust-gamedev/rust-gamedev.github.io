@@ -72,8 +72,8 @@ keep the other players from getting to theirs.
 
 Highlights of [this month's update][will_blogpost] include:
 
-* Going [open source][will_source]
-* Network play (early version)
+- Going [open source][will_source]
+- Network play (early version)
 
 [will]: https://azriel.im/will
 [will_blogpost]: https://azriel.im/will/2020/03/13/join-me/
@@ -198,76 +198,63 @@ Their [March updates][mun-march] include:
 [mun-february]: (https://mun-lang.org/blog/2020/03/10/this-month-february
 [mun-march]: https://mun-lang.org/blog/2020/04/02/this-month-march
 
-### [Amethyst]
+### [Amethyst][amethyst]
 
-Amethyst is a data-driven game engine written in Rust.
+[![Amethyst logo](amethyst-logo.png)][amethyst]
 
-#### [0.15.0 Release][amethyst_release]
+- [Ametyst 0.15.0 was released][amethyst_release]:
 
-This release brings the following improvements:
+  - Better panic messages on `stable` Rust.
+  - Support for setting log levels from configuration.
+  - Text field rendering corrections.
+  - Target multiple overlapping UI entities with events.
 
-* Better panic messages on `stable` Rust.
-* Support for setting log levels from configuration.
-* Text field rendering corrections.
-* Target multiple overlapping UI entities with events.
-
-#### ECS
-
-[`specs`] is the underlying ECS that powers Amethyst; there is an
+- [`specs`] is the underlying ECS that powers Amethyst but there's an
 [ongoing prospect][amethyst_legion_rfc] of moving to [`legion`].
-
-[`@csherratt`] wrote an [excellent post][amethyst_specs_legion] comparing both
-libraries, and an [in-depth discussion][amethyst_ecs_discussion] about
+  [@csherratt] wrote an [excellent post][amethyst_specs_legion] comparing both
+  libraries. Also an [in-depth discussion][amethyst_ecs_discussion] about
 archetypal and grouped ECS design took place on the forum.
 
-#### [Editor Prototype][amethyst_editor_prototype]
+  ![specs vs amethyst layout](specs-vs-legion.png)
 
-[Atelier][amethyst_atelier] is an asset management and processing framework for
-games.
-
-Coupled with [`legion`], [`@aclysma`] and [`@kabergstrom`] built an
-editor prototype demonstrating the following
+- [Atelier][amethyst_atelier] is an asset management and processing
+  framework for games.
+  Coupled with [`legion`], [@aclysma] and [@kabergstrom] built an
+  [editor prototype][amethyst_editor_prototype] demonstrating the following
 capabilities:
 
-* Prefab loading and saving
-* Prefab hot-reloading
-* Entity creation / deletion
-* Component addition / removal
-* Undo and Redo
+  - Prefab loading, saving, and hot-reloading
+  - Entity creation / deletion
+  - Component addition / removal
+  - Undo and Redo
 
 Check out the [demo video][amethyst_editor_youtube] and
 [forum discussion][amethyst_editor_forum].
 
-#### [WASM Effort][amethyst_wasm_effort]
-
-There is ongoing effort to bring WASM support to
-Amethyst. Check out the [contribution guide][amethyst_wasm_contribution_guide]
+- There is an [ongoing effort to bring WASM support to Amethyst][amethyst_wasm_effort].
+  Check out the [contribution guide][amethyst_wasm_contribution_guide]
 and [project board][amethyst_wasm_project_board] for current status.
 
-#### User Review
+- [@ToferC] reviewed their experience using Amethyst to build a space combat game,
+  [Paladin][amethyst_review_paladin]. Check out the
+  [review on youtube][amethyst_review_youtube].
 
-[`@ToferC`] reviewed his experience using Amethyst to build a space combat game,
-[Paladin][amethyst_review_paladin]. Check out his
-[review on youtube][amethyst_review_youtube] and
-[respond on twitter][amethyst_review_twitter].
-
-[`@aclysma`]: https://github.com/aclysma
-[`@csherratt`]: https://github.com/csherratt
-[`@kabergstrom`]: https://github.com/kabergstrom
-[`@ToferC`]: https://github.com/ToferC
+[@aclysma]: https://github.com/aclysma
+[@csherratt]: https://github.com/csherratt
+[@kabergstrom]: https://github.com/kabergstrom
+[@ToferC]: https://github.com/ToferC
 [`legion`]: https://github.com/TomGillen/legion
 [`specs`]: https://github.com/amethyst/specs
-[Amethyst]: https://amethyst.rs
+[amethyst]: https://amethyst.rs
 [amethyst_atelier]: https://github.com/amethyst/atelier-assets
 [amethyst_ecs_discussion]: https://community.amethyst.rs/t/archetypal-vs-grouped-ecs-architectures-my-take/1344
 [amethyst_editor_forum]: https://community.amethyst.rs/t/atelier-legion-integration-demo/1352
 [amethyst_editor_prototype]: https://github.com/aclysma/atelier-legion-demo
-[amethyst_editor_youtube]: https://www.youtube.com/watch?v=9Vwi29RuQBE
+[amethyst_editor_youtube]: https://youtube.com/watch?v=9Vwi29RuQBE
 [amethyst_legion_rfc]: https://github.com/amethyst/rfcs/issues/22
 [amethyst_release]: https://amethyst.rs/posts/release-0-15-0
 [amethyst_review_paladin]: https://github.com/ToferC/paladin
-[amethyst_review_twitter]: https://twitter.com/ToferC/status/1243361926786080768
-[amethyst_review_youtube]: https://www.youtube.com/watch?v=avW2Nr6ak-o
+[amethyst_review_youtube]: https://youtube.com/watch?v=avW2Nr6ak-o
 [amethyst_specs_legion]: https://csherratt.github.io/blog/posts/specs-and-legion/
 [amethyst_wasm_contribution_guide]: https://github.com/amethyst/amethyst/tree/wasm/docs/CONTRIBUTING_WASM.md
 [amethyst_wasm_effort]: https://community.amethyst.rs/t/wasm-effort/1336
