@@ -64,6 +64,23 @@ keep the other players from getting to theirs.
 [dynamaze-source]: https://github.com/boringcactus/dynamaze
 [@boringcactus]: https://github.com/boringcactus
 
+### [Slime99][slime99]
+
+![Slime99](slime99.png)
+
+[Slime99][slime99] by [@stevebob][] is an [open source][slime99-source]
+roguelike made for the [7 Day Roguelike 2020][7drl-2020] game jam.
+
+A traditional roguelike where the outcomes of attacking and defending are
+pre-determined and visible. Gameplay revolves around fighting slimes, adding to
+your sequence of combat outcomes, and using abilities to modify the order in
+which combat outcomes occur. It’s set in a neon sewer!
+
+[slime99]: https://gridbugs.itch.io/slime99
+[slime99-source]: https://github.com/stevebob/slime99
+[@stevebob]: https://github.com/stevebob
+[7drl-2020]: https://itch.io/jam/7drl-challenge-2020
+
 ## Library & Tooling Updates
 
 ### gfx-rs and wgpu news
