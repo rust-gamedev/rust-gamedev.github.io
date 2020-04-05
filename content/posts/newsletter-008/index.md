@@ -127,6 +127,67 @@ Follow [@seratonik][] on Twitter for updates.
 
 [@seratonik]: https://twitter.com/seratonik
 
+### [Urban Gift][urban-gift]: Teaser Video
+
+[Urban Gift][urban-gift] is part detective game and part superhero simulator.
+This month a teaser video was released:
+
+[![youtube preview](urban-gift-video.png)][urban-gift-video]
+
+Follow development updates on [Twitter][urban-gift].
+
+[urban-gift]: https://twitter.com/UrbanGiftGame
+[urban-gift-video]: https://youtu.be/1dMt8e9Dx3A
+
+### [Colony Genesis][colony-itch]
+
+![ASCII art logo with an ant](colony.png)
+
+[Native Systems] is working on "Colony Genesis" -
+an ant colony sandbox game with ASCII graphics.
+
+This month v0.1.1 and v0.1.2 versions were released. Some of the updates:
+
+- Add color palette options to Settings including a modified palette for red-green color blindness
+- Add lifecycles to more ant castes
+- Nurse ants give food to larvae
+- Nurse ants on the surface will return to the colony
+- Fix for foragers getting stuck in dig state at colony entrance
+- Updated pathfinding
+
+[colony-itch]: https://nativesystems.itch.io/colony
+[Native Systems]: https://nativesystems.rs
+
+### [Ascension 2][ascension]
+
+![gameplay samble: moving platforms, projectiles, and changing gravity](ascension.gif)
+
+[Ascension 2][ascension] by [@outkine] is a simple gravity-based platformer.
+
+> Hop your way through bite sized levels while dodging spikes and turrets.
+> Then, change the direction of gravity, and do it all again!
+
+[The source code is aviable here][ascension-src].
+
+[ascension]: https://outkine.itch.io/ascension-2
+[ascension-src]: https://github.com/outkine/ascension-rust
+[@outkine]: https://github.com/outkine
+
+### pGLOWrpg
+
+![Improved temperature map generation](pglowrpg.png)
+
+[@Roal_Yr] tweeted a bunch of updates about their "pGLOWrpg" project:
+
+- [Rivers erosion](https://twitter.com/Roal_Yr/status/1236003795265519616):
+  this will ensure no rivers flow upwards and the canyons
+  through the landmass are more smooth.
+- [River segmentation and width increment](https://twitter.com/Roal_Yr/status/1242824451449856004).
+- [Improved the temperature map generation](https://twitter.com/Roal_Yr/status/1236268367968964610).
+- [Improved topography map rendering](https://twitter.com/Roal_Yr/status/1236366942094622721).
+
+[@Roal_Yr]: https://twitter.com/Roal_Yr
+
 ## Library & Tooling Updates
 
 ### gfx-rs and wgpu news
