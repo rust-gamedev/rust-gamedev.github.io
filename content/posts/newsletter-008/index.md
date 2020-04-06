@@ -188,6 +188,82 @@ This month v0.1.1 and v0.1.2 versions were released. Some of the updates:
 
 [@Roal_Yr]: https://twitter.com/Roal_Yr
 
+### [Akigi][akigi]
+
+![game screenshot](akigi.png)
+
+> [Akigi][akigi] is a multiplayer online world where most believe that humans are inferior.
+
+Some of March's updates:
+
+- [Migration to specs is finished](https://devjournal.akigi.com/march-2020/058-2020-03-15.html).
+- [Asset compilation rewrite](https://devjournal.akigi.com/march-2020/058-2020-03-15.html#asset-compilation-rewrite).
+- [Deploying process update](https://devjournal.akigi.com/march-2020/059-2020-03-22.html).
+- [Preparations for the initial alpha release is being done](https://devjournal.akigi.com/march-2020/060-2020-03-29.html).
+
+Full devlogs:
+[#056](https://devjournal.akigi.com/march-2020/056-2020-03-01.html),
+[#057](https://devjournal.akigi.com/march-2020/057-2020-03-08.html),
+[#058](https://devjournal.akigi.com/march-2020/058-2020-03-15.html),
+[#059](https://devjournal.akigi.com/march-2020/059-2020-03-22.html),
+[#060](https://devjournal.akigi.com/march-2020/060-2020-03-29.html),
+
+[akigi]: https://akigi.com
+
+### [Sphere Game][sphere]
+
+![game screenshot: spheres!](sphere.png)
+
+In [Sphere Game][sphere] by [Coffé Junk Studio][coffe]
+you control a sphere in a bowl-shaped 2D space:
+
+> Your goal is to hit the other spheres as hard as possible
+> to shatter them into pieces!
+> But take care; if you get hit too hard too often by other spheres,
+> you will be smashed yourself!
+> Avoiding them is challenging as the bent space keeps dragging you to the center.
+> Can you destroy everything around you until you are the only one left?
+
+The game is a test for the studio's "Sphere Engine" engine
+that is being implemented using Rust and Vulkan.
+
+[sphere]: https://coffejunkstudio.itch.io/spheregame
+[coffe]: https://twitter.com/CoffeJunkStudio
+
+### [Helix Repair][helix]
+
+![game screenshot: DNA](helix-repair.png)
+
+[Helix Repair][helix] is another game by [Coffé Junk Studio][coffe]
+written using the same engine.
+Your task is to repair a broken DNA sequence
+by replacing wrong nucleobases with the right ones.
+You have 20 seconds: how many nucleobases can you repair with in that time?
+
+The game was developend within one weekend during
+the Global Game Jam 2020, whose theme was "repair".
+
+[helix]: https://coffejunkstudio.itch.io/helix-repair
+
+### [Garden]: March Devlog
+
+[![demo preview](garden.gif)][garden-video]
+
+[Garden][garden] is an upcoming game centered around growing realistic plants.
+
+[March][garden-devlog] devlogs were posted.
+Some of the updates:
+
+- Splashing sweat symbol water diffusion in the new soil;
+- Herb improved leaf translucency;
+- Joystickcollision detection, player movement;
+- Artist palette debug tool for visualizing the forces
+  acting upon a game object and its other vectors.
+
+[garden]: https://epcc.itch.io/garden
+[garden-devlog]: https://cyberplant.xyz/posts/march
+[garden-video]: https://twitter.com/logicsoup/status/1246774418233348096
+
 ## Library & Tooling Updates
 
 ### gfx-rs and wgpu news
@@ -252,6 +328,29 @@ Satellite projects:
 [wgpu-web-triangle]: https://github.com/gfx-rs/wgpu-rs/pull/193#issuecomment-599156540
 [naga]: https://github.com/gfx-rs/naga
 [boids example]: https://github.com/gfx-rs/naga/blob/thda1f6a4/test-data/boids.wgsl
+
+### [Nannou v0.13][nannou-post]
+
+![Daily Sketch 0114 by Mactuitui](nannou.png)
+
+^ _Daily Sketch 0114 by Mactuitui_
+
+[Nannou][nannou] is a creative coding framework that aims to make it easy
+for artists to express themselves with simple, fast, reliable code.
+
+This month [Nannou v0.13 was released][nannou-post].
+Some of the updates:
+
+- Migration to wgpu-rs.
+- Nicer native macOS experience.
+- Capturing Frames & Textures.
+
+Also check out lots of cool sketches from the community:
+[\#nannou][nannou-twitter] tag on Twitter.
+
+[nannou]: https://nannou.cc
+[nannou-post]: https://nannou.cc/posts/nannou_v0.13
+[nannou-twitter]: https://twitter.com/search?q=%23nannou&src=typed_query
 
 ### [Quest Engine Part 2: Deploying a Rust App On Android][quest-part-2]
 
