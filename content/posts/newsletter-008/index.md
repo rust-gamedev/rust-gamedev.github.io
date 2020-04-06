@@ -663,6 +663,13 @@ Full documentation is available at the [rectangle-pack docs.rs section](rectangl
 
 <!-- Up to 10 links to interesting issues -->
 
+- [rust-gamedev/wg](https://github.com/rust-gamedev/wg):
+  - [#50 "Linking Time"](https://github.com/rust-gamedev/wg/issues/50);
+  - [#75 "Standardised API for sharing thread pools"](https://github.com/rust-gamedev/wg/issues/75);
+  - [#91 "Should the wg volunteer to maintain winapi?"](https://github.com/rust-gamedev/wg/issues/91);
+- [rust-gamedev/arewegameyet](https://github.com/rust-gamedev/arewegameyet):
+  - [#289 "Netlify previews for PRs?"](https://github.com/rust-gamedev/arewegameyet/issues/289);
+
 ## Meeting Minutes
 
 <!-- Up to 10 most important notes + a link to the full details -->
