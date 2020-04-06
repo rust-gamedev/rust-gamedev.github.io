@@ -425,8 +425,8 @@ context where rectangle packing may be needed.
 
 Version 0.1.5 adds implementation for error handling for RectanglePackError.
 
-A getting started guide is available on the [project's homepage](rectangle-pack-homepage)
-Full documentation is available at the [rectangle-pack docs.rs section](rectangle-pack-docs)
+A getting started guide is available on the [project's homepage](rectangle-pack-homepage).
+Full documentation is available at the [rectangle-pack docs.rs section](rectangle-pack-docs).
 
 [rectangle-pack-homepage]: https://github.com/chinedufn/rectangle-pack
 [rectangle-pack-docs]: https://crates.io/crates/rectangle-pack/0.1.5
