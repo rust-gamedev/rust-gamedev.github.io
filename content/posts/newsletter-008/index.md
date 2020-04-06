@@ -390,6 +390,24 @@ _Discussions: [/r/rust](https://www.reddit.com/r/rust_gamedev/comments/foywc6/an
 
 [assets_manager]: https://github.com/a1phyr/assets_manager
 
+### [netstack] v0.3.0
+
+[netstack] is a batteries included networking crate for games. Requiring an
+exchange of a secret and connection tokens. At the moment, UDP transport,
+connection management, packet signaling, and packet acknowledgement are
+features already implemented. Examples for getting started are provided 
+on the [crates.io page](netstack).
+
+Version 0.3.0 adds basic monitoring functionality along with traits `ClientMonitor` and
+`ServerMonitor`. A work-in-progress prometheus exporter has also been added in this version.
+
+Issues and contibutions can be made to [Netstack's github repository](netstack-github). 
+Work in progress documentation is available on [Netstack's docs.rs](netstack-docs).
+
+[netstack]: https://crates.io/crates/netstack/0.3.0
+[netstack-github]: https://github.com/Vengarioth/netstack
+[netstack-docs]: https://docs.rs/netstack/0.3.0/netstack/
+
 ### [three-d] v0.1
 
 [three-d] is a renderer which targets both desktop (OpenGL) and web
