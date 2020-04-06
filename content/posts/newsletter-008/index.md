@@ -310,6 +310,27 @@ Some of the updates:
 [garden-devlog]: https://cyberplant.xyz/posts/march
 [garden-video]: https://twitter.com/logicsoup/status/1246774418233348096
 
+### [Zemeroth][zemeroth]
+
+![new icons and ability descriptions](zemeroth.jpeg)
+
+[Zemeroth][zemeroth] by [@ozkriff] is a minimalistic 2D turn-based tactical game.
+Some of this month's updates:
+
+- [Some of the text buttons were replaced by icons][zemeroth-icons].
+- Ability descriptions.
+- Popup screens and exit confirmation dialogs.
+- New `zgui` widgets: ColoredRect, LayersLayout.
+- Inactive buttons are either hidden or grayed-out now.
+- The project [fully switched to `good-web-game`][zemeroth-gwg]
+  as the first step of migration to [miniquad].
+
+[zemeroth]: https://github.com/ozkriff/zemeroth
+[@ozkriff]: https://twitter.com/ozkriff
+[miniquad]: https://github.com/not-fl3/miniquad
+[zemeroth-icons]: https://twitter.com/ozkriff/status/1241718003470917635
+[zemeroth-gwg]: https://twitter.com/ozkriff/status/1244960610296696834
+
 ## Library & Tooling Updates
 
 ### [bracket-lib]
@@ -642,6 +663,13 @@ Full documentation is available at the [rectangle-pack docs.rs section](rectangl
 
 <!-- Up to 10 links to interesting issues -->
 
+- [rust-gamedev/wg](https://github.com/rust-gamedev/wg):
+  - [#50 "Linking Time"](https://github.com/rust-gamedev/wg/issues/50);
+  - [#75 "Standardised API for sharing thread pools"](https://github.com/rust-gamedev/wg/issues/75);
+  - [#91 "Should the wg volunteer to maintain winapi?"](https://github.com/rust-gamedev/wg/issues/91);
+- [rust-gamedev/arewegameyet](https://github.com/rust-gamedev/arewegameyet):
+  - [#289 "Netlify previews for PRs?"](https://github.com/rust-gamedev/arewegameyet/issues/289);
+
 ## Meeting Minutes
 
 <!-- Up to 10 most important notes + a link to the full details -->
@@ -688,6 +716,44 @@ or [join the next meeting][join].
 and highlight events from the past. -->
 
 Just an interesting Rust gamedev link from the past. :)
+
+![Robo Instructus logo](robo-logo.jpeg)
+
+On 2019.07.16 a puzzle game ["Robo Instructus"][robo-site] by [Alex Butler][bigabgames]
+was released after two years of development:
+[Steam][robo-steam]/[itch.io][robo-itch] (demo is available).
+
+> Salvage Engineer, you have a new assignment on a distant world...
+>
+> Robo Instructus is a puzzle game in which players manoeuvre a robot
+> by issuing instructions via a simple programming language.
+> As players progress through the game they unlock new functions
+> to overcome new puzzles, each of which can be solved in multiple ways.
+> The more you master the robot, the more elegant and powerful
+> your solutions will be.
+>
+> Take the role of a Salvage Engineer sent across space.
+> Use wits and tenacity to uncover the secrets of this isolated, frozen world.
+
+[![gameplay screenshot with jumping robot](robo-screenshot.jpg)][robo-video]
+
+Check out the [release trailer][robo-video].
+
+The game is written using gfx-rs (pre-ll), winit, and opengl.
+You can read more about its development in the [**awesome devlog**][robo-log]
+that has lots of cool posts like
+["Robo Instructus: Behind The Scenes"][robo-behind].
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/cdw1ct/robo_instructus_is_out_now_programming_puzzle)_
+
+[bigabgames]: https://twitter.com/bigabgames
+[robo-steam]: https://store.steampowered.com/app/1032170/Robo_Instructus
+[robo-video]: https://youtube.com/watch?v=sIjaIxPp2_w
+[robo-itch]: https://bigabgames.itch.io/robo-instructus
+[robo-site]: https://www.roboinstruct.us
+[robo-log]: https://blog.roboinstruct.us
+[robo-behind]: https://blog.roboinstruct.us/2019/06/26/behind-the-scenes.html
 
 ------
 
