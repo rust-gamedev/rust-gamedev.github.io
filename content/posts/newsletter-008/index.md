@@ -49,6 +49,34 @@ some actual interesting discussions.
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
+## [London _Virtual_ Talks - April 6 (GameDev Special)][ldn]
+
+![rust gamedev](ldn.png)
+
+> [Rust London][ldn-twitter] is happy to announce the April Game Dev Special.
+> The purpose is to shine a light on all the amazing thing being done
+> in the realm of Game Development using the Rust Programming Language,
+> we will have 3 speakers demoing their projects and sharing their experiences.
+>
+> Speakers: Alex Ene, Olivia Ifirim, Phillipe Vinchon.
+
+[Here's a link for the livestream via Youtube][ldn-video],
+it'll go live at 18:00 UTC.
+
+[ldn]: https://meetup.com/Rust-London-User-Group/events/269357779
+[ldn-twitter]: https://twitter.com/RustLdnUsers
+[ldn-video]: https://youtube.com/channel/UCi7KGrwkwWuFQaTZW72Jzug
+
+## Spreading the Word
+
+If you're working on a project that heavily relies on some engine/framework,
+consider informing its authors about your work:
+as the community is growing it happens more and more that
+frameworks/engines authors just don't know about users of their libs
+(this note was requested by Icefox in relation to [GGEZ projects][ggez-projects]).
+
+[ggez-projects]: https://github.com/ggez/ggez/blob/master/docs/Projects.md
+
 ## Game Updates
 
 ### [DynaMaze][dynamaze]
@@ -95,6 +123,24 @@ Highlights of [this month's update][will_blogpost] include:
 [will]: https://azriel.im/will
 [will_blogpost]: https://azriel.im/will/2020/03/13/join-me/
 [will_source]: https://github.com/azriel91/autexousious
+
+### [Tennis Academy: Dash][tennis-academy-dash]
+
+![gameplay sample](tennis.gif)
+
+[@oliviff] released [Tennis Academy: Dash][tennis-academy-dash]
+[v0.1.7][tennis-academy-v0-1-7]:
+
+- 👟 blue players are back
+- 🎆 improved particle effects
+- 🖼️ a few art fixes
+
+Also, [@oliviff continues to work on their Rust gamedev tutorial][oliviff-tut].
+
+[@oliviff]: https://twitter.com/oliviff
+[tennis-academy-dash]: https://iolivia.itch.io/tennis-academy-dash
+[tennis-academy-v0-1-7]: https://twitter.com/oliviff/status/1243972292750819329
+[oliviff-tut]: https://twitter.com/oliviff/status/1238978081429299201
 
 ### For The Quest
 
@@ -265,6 +311,50 @@ Some of the updates:
 [garden-video]: https://twitter.com/logicsoup/status/1246774418233348096
 
 ## Library & Tooling Updates
+
+### [bracket-lib]
+
+![lighing demo](cp437-demo.gif)
+
+[bracket-lib] (previously `rltk_rs`) by [@blackfuture]
+is a Rust implementation of [C++ Roguelike Toolkit][rltk-cpp].
+
+Some of this month's updates:
+
+- Input API.
+- `bracket-color` now supports pallets and RGBA.
+- The graphical (OpenGL, WASM, Amethyst) render targets now support alpha channel.
+- Arbitrary clipping window on any layer.
+- New `VirtualConsole` system.
+- New functions for right-justifying printed text.
+- Fonts and dimensions in a terminal layers can now be switched at run-time.
+- New layer type that lets you specify gkyph position as a float.
+- New sprite layer.
+- Updated examples.
+
+[bracket-lib]: https://github.com/thebracket/bracket-lib
+[@blackfuture]: https://patreon.com/blackfuture
+[rltk-cpp]: https://github.com/thebracket/rltk
+
+### [This month in rustsim #10 (March 2020)][rustsim-10]
+
+![Simba logo](rustsim-simba.svg)
+
+Main updates:
+
+- [simba] - a crate that defines a set of traits for writing code
+  that can be generic with regard to the number
+  of lanes of the input numeric value.
+  Those traits are implemented by f32, u32, i16, bool
+  as well as SIMD types like f32x4, u32x8, i16x2, etc.
+- benchmarks:
+  ["SIMD Array-of-Structures-of-Arrays in nalgebra and comparison with ultraviolet"][aosoa].
+- [alga] abstract algebra crate is switced to passive maintenance mode.
+
+[rustsim-10]: https://rustsim.org/blog/2020/04/01/this-month-in-rustsim
+[simba]: https://crates.io/crates/simba
+[alga]: https://github.com/rustsim/alga
+[aosoa]: https://rustsim.org/blog/2020/03/23/simd-aosoa-in-nalgebra
 
 ### gfx-rs and wgpu news
 
