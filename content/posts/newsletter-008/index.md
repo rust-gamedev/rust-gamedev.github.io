@@ -310,6 +310,27 @@ Some of the updates:
 [garden-devlog]: https://cyberplant.xyz/posts/march
 [garden-video]: https://twitter.com/logicsoup/status/1246774418233348096
 
+### [Zemeroth][zemeroth]
+
+![new icons and ability descriptions](zemeroth.jpeg)
+
+[Zemeroth][zemeroth] by [@ozkriff] is a minimalistic 2D turn-based tactical game.
+Some of this month's updates:
+
+- [Some of the text buttons were replaced by icons][zemeroth-icons].
+- Ability descriptions.
+- Popup screens and exit confirmation dialogs.
+- New `zgui` widgets: ColoredRect, LayersLayout.
+- Inactive buttons are either hidden or grayed-out now.
+- The project [fully switched to `good-web-game`][zemeroth-gwg]
+  as the first step of migration to [miniquad].
+
+[zemeroth]: https://github.com/ozkriff/zemeroth
+[@ozkriff]: https://twitter.com/ozkriff
+[miniquad]: https://github.com/not-fl3/miniquad
+[zemeroth-icons]: https://twitter.com/ozkriff/status/1241718003470917635
+[zemeroth-gwg]: https://twitter.com/ozkriff/status/1244960610296696834
+
 ## Library & Tooling Updates
 
 ### [bracket-lib]
