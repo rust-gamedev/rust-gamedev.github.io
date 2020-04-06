@@ -291,9 +291,9 @@ _Discussions: [/r/rust](https://www.reddit.com/r/rust_gamedev/comments/foywc6/an
 
 [assets_manager]: https://github.com/a1phyr/assets_manager
 
-### [netstack](netstack) v0.3.0
+### [netstack] v0.3.0
 
-netstack is a batteries included networking crate for games. Requiring an
+[netstack] is a batteries included networking crate for games. Requiring an
 exchange of a secret and connection tokens. At the moment, UDP transport,
 connection management, packet signaling, and packet acknowledgement are
 features already implemented. Examples for getting started are provided 
