@@ -710,6 +710,44 @@ and highlight events from the past. -->
 
 Just an interesting Rust gamedev link from the past. :)
 
+![Robo Instructus logo](robo-logo.jpeg)
+
+On 2019.07.16 a puzzle game ["Robo Instructus"][robo-site] by [Alex Butler][bigabgames]
+was released after two years of development:
+[Steam][robo-steam]/[itch.io][robo-itch] (demo is available).
+
+> Salvage Engineer, you have a new assignment on a distant world...
+>
+> Robo Instructus is a puzzle game in which players manoeuvre a robot
+> by issuing instructions via a simple programming language.
+> As players progress through the game they unlock new functions
+> to overcome new puzzles, each of which can be solved in multiple ways.
+> The more you master the robot, the more elegant and powerful
+> your solutions will be.
+>
+> Take the role of a Salvage Engineer sent across space.
+> Use wits and tenacity to uncover the secrets of this isolated, frozen world.
+
+[![gameplay screenshot with jumping robot](robo-screenshot.jpg)][robo-video]
+
+Check out the [release trailer][robo-video].
+
+The game is written using gfx-rs (pre-ll), winit, and opengl.
+You can read more about its development in the [**awesome devlog**][robo-log]
+that has lots of cool posts like
+["Robo Instructus: Behind The Scenes"][robo-behind].
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/cdw1ct/robo_instructus_is_out_now_programming_puzzle)_
+
+[bigabgames]: https://twitter.com/bigabgames
+[robo-steam]: https://store.steampowered.com/app/1032170/Robo_Instructus
+[robo-video]: https://youtube.com/watch?v=sIjaIxPp2_w
+[robo-itch]: https://bigabgames.itch.io/robo-instructus
+[robo-site]: https://www.roboinstruct.us
+[robo-log]: https://blog.roboinstruct.us
+[robo-behind]: https://blog.roboinstruct.us/2019/06/26/behind-the-scenes.html
+
 ------
 
 That's all news for today, thanks for reading!
