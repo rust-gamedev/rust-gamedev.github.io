@@ -591,17 +591,17 @@ Their [March updates][mun-march] include:
 
 ![Oxygengine logo](oxygengine-dark-logo.svg)
 
-This month Oxygengine creator [published plans](oxygengine_plans) for the future
+This month Oxygengine creator [published plans][oxygengine_plans] for the future
 of the engine, where he explains the long term goal of the project that explains
 why Oxygen is definitely not a toy or a hobby project and how that will shape
 its feature towards being a toolset for the professionals. Project progress
-tracker [can be found here](oxygengine_progress).
+tracker [can be found here][oxygengine_progress].
 
-Also, [PsichiX](@PsichiX) has started to work on the modular game editor
+Also, [@PsichiX] has started to work on the modular game editor
 (extendable with user-made plugins) called **Ignite**, that will ease creating
 games with the engine.
 
-You can look at [the first editor module](oxygengine_asset_browser) - Asset
+You can look at [the first editor module][oxygengine_asset_browser] - Asset
 Browser:
 
 ![Oxygengine Asset Browser](oxygengine-asset-browser.gif)
