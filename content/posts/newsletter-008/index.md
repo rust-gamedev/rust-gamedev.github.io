@@ -185,6 +185,24 @@ Follow development updates on [Twitter][urban-gift].
 [urban-gift]: https://twitter.com/UrbanGiftGame
 [urban-gift-video]: https://youtu.be/1dMt8e9Dx3A
 
+### [Realm.One][realm-one]
+
+[![screenshot from the video](realm-one-video.png)][realm-one-vid-1]
+
+[Realm.One][realm-one] is an open-source MMO game
+written using the Amethyst game engine.
+This month two videos were posted:
+
+- ["GameDev in Rust (Episode 0)"][realm-one-vid-1] -
+  ECS-based design with Amethyst, networking and tiled 2d based design.
+- ["GameDev in Rust (Episode 1): Monsters and AI!"][realm-one-vid-2] -
+  how the mosnters are managed on server side
+  and integration with Tiled map editor.
+
+[realm-one]: https://github.com/Machine-Hum/realm.one
+[realm-one-vid-1]: https://youtu.be/S5SCBe_CzjQ
+[realm-one-vid-2]: https://youtube.com/watch?v=JxT3r56aqcA
+
 ### [Colony Genesis][colony-itch]
 
 ![ASCII art logo with an ant](colony.png)
