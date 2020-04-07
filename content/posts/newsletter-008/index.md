@@ -331,6 +331,62 @@ Some of this month's updates:
 [zemeroth-icons]: https://twitter.com/ozkriff/status/1241718003470917635
 [zemeroth-gwg]: https://twitter.com/ozkriff/status/1244960610296696834
 
+### [Veloren][veloren]
+
+![LoD](veloren1.png)
+
+^ _Work on Level of Detail_
+
+[Veloren][veloren] is an open world, open-source voxel RPG
+inspired by Dwarf Fortress and Cube World.
+
+Many systems have been worked on in March. Worldsim is making progress through
+simulation of civilization over time. The map has seen improvements for
+lighting. Certain parts of the UI have been going through big changes. Many
+small outstanding issues have been worked on by a few diligent contributors.
+Networking is also being reworked from the ground up.
+
+Here is the March changelog:
+
+```text
+- Added sfx for wielding/unwielding weapons
+- Fixed NPCs attacking the player forever after killing them
+- Added sfx for collecting, dropping and using inventory items
+- New attack animation
+- weapon control system
+- Game pauses when in singleplayer and pause menu
+- Added authentication system (to play on the official server register on https://account.veloren.net)
+- Added gamepad/controller support
+- Added player feedback when attempting to pickup an item with a full inventory
+- Added free look
+- Added Italian translation
+- Added Portuguese translation
+- Added Turkish translation
+```
+
+![Hanging out](veloren2.png)
+
+You can read more about some specific topics:
+
+- [New Networking Protocol](https://veloren.net/devblog-57#new-networking-protocol-by-xmac94x)
+- [External Work](https://veloren.net/devblog-58#the-external-work-of-imbris)
+- [Winit Issues](https://veloren.net/devblog-59#status-of-the-winit-update-branch)
+- [UI Improvements](https://veloren.net/devblog-59#ui-improvements-by-pfau-and-co)
+- [Map Improvements](https://veloren.net/devblog-60#map-improvements-by-sharp)
+- [World Simulation Process](https://veloren.net/devblog-61#world-simulation-process-by-zesterer)
+
+With the Content Update scheduled to come out at the end of April, many systems
+will be finishing up development. Keep a lookout for the launch party!
+
+March's full weekly devlogs: "This Week In Veloren...":
+[#57](https://veloren.net/devblog-57),
+[#58](https://veloren.net/devblog-58),
+[#59](https://veloren.net/devblog-59),
+[#60](https://veloren.net/devblog-60),
+[#61](https://veloren.net/devblog-61).
+
+[veloren]: https://veloren.net
+
 ## Library & Tooling Updates
 
 ### [bracket-lib]
