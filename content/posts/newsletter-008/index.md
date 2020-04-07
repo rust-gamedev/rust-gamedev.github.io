@@ -523,13 +523,13 @@ _Discussions: [/r/rust](https://www.reddit.com/r/rust_gamedev/comments/foywc6/an
 [netstack] is a batteries included networking crate for games. Requiring an
 exchange of a secret and connection tokens. At the moment, UDP transport,
 connection management, packet signaling, and packet acknowledgement are
-features already implemented. Examples for getting started are provided 
+features already implemented. Examples for getting started are provided
 on the [crates.io page](netstack).
 
 Version 0.3.0 adds basic monitoring functionality along with traits `ClientMonitor` and
 `ServerMonitor`. A work-in-progress prometheus exporter has also been added in this version.
 
-Issues and contibutions can be made to [Netstack's github repository](netstack-github). 
+Issues and contibutions can be made to [Netstack's github repository](netstack-github).
 Work in progress documentation is available on [Netstack's docs.rs](netstack-docs).
 
 [netstack]: https://crates.io/crates/netstack/0.3.0
@@ -586,6 +586,31 @@ Their [March updates][mun-march] include:
 [moss]: https://www.mozilla.org/en-US/moss/mission-partners
 [mun-february]: https://mun-lang.org/blog/2020/03/10/this-month-february
 [mun-march]: https://mun-lang.org/blog/2020/04/02/this-month-march
+
+### [Oxygengine][oxygengine]
+
+![Oxygengine logo](oxygengine-dark-logo.svg)
+
+This month Oxygengine creator [published plans][oxygengine_plans] for the future
+of the engine, where he explains the long term goal of the project that explains
+why Oxygen is definitely not a toy or a hobby project and how that will shape
+its feature towards being a toolset for the professionals. Project progress
+tracker [can be found here][oxygengine_progress].
+
+Also, [@PsichiX] has started to work on the modular game editor
+(extendable with user-made plugins) called **Ignite**, that will ease creating
+games with the engine.
+
+You can look at [the first editor module][oxygengine_asset_browser] - Asset
+Browser:
+
+![Oxygengine Asset Browser](oxygengine-asset-browser.gif)
+
+[@PsichiX]: https://github.com/PsichiX
+[oxygengine]: https://github.com/PsichiX/Oxygengine
+[oxygengine_plans]: https://www.reddit.com/r/rust_gamedev/comments/fe57s0/oxygengine_development_progress_tracker/
+[oxygengine_progress]: https://github.com/PsichiX/Oxygengine/projects/1
+[oxygengine_asset_browser]: https://twitter.com/PsichiX/status/1243380190752813064
 
 ### [Amethyst][amethyst]
 
