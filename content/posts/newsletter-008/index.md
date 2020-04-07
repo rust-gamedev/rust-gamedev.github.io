@@ -440,16 +440,17 @@ Satellite projects:
 [naga]: https://github.com/gfx-rs/naga
 [boids example]: https://github.com/gfx-rs/naga/blob/thda1f6a4/test-data/boids.wgsl
 
-
-### miniquad
+### [miniquad]
 
 ![miniquad android](miniquad.gif)
 
 [miniquad] by [@fedor_games] is a safe cross-platform rendering library
 focused on portability and low-end platforms support.
+Some of this month's updates:
 
-- example project by @PonasKovas, illustrating android and web platform dependent configuration: [mandelbrot]
-- first prototype for embedded debug frame introspection: [introspection]
+- example project by @PonasKovas,
+  illustrating android and web platform dependent configuration: [mandelbrot].
+- first prototype for embedded debug frame introspection: [introspection].
 
 [mandelbrot]: https://github.com/PonasKovas/miniquad-mandelbrot
 [introspection]: https://twitter.com/fedor_games/status/1241616794114232321
