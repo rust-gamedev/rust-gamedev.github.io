@@ -65,7 +65,7 @@ frameworks/engines authors just don't know about users of their libs
 
 ![DynaMaze promotional image](dynamaze.png)
 
-[DynaMaze][dynamaze] is an [open source][dynamaze-source] multiplayer
+[DynaMaze][dynamaze] is an [open-source][dynamaze-source] multiplayer
 puzzle/strategy game written in Rust and compiled to WebAssembly, made by
 [@boringcactus][]. Adjust the maze to build a path to your target and
 keep the other players from getting to theirs.
@@ -78,7 +78,7 @@ keep the other players from getting to theirs.
 
 ![Slime99](slime99.png)
 
-[Slime99][slime99] by [@stevebob][] is an [open source][slime99-source]
+[Slime99][slime99] by [@stevebob][] is an [open-source][slime99-source]
 roguelike made for the [7 Day Roguelike 2020][7drl-2020] game jam.
 
 A traditional roguelike where the outcomes of attacking and defending are
@@ -95,11 +95,11 @@ which combat outcomes occur. It’s set in a neon sewer!
 
 ![Will main menu](will_main.png)
 
-[Will][will] is a 2.5D moddable action / adventure game.
+[Will][will] is a 2.5D moddable action/adventure game.
 
 Highlights of [this month's update][will_blogpost] include:
 
-- Going [open source][will_source]
+- Going [open-source][will_source]
 - Network play (early version)
 
 [will]: https://azriel.im/will
@@ -178,7 +178,7 @@ This month two videos were posted:
 - ["GameDev in Rust (Episode 0)"][realm-one-vid-1] -
   ECS-based design with Amethyst, networking and tiled 2d based design.
 - ["GameDev in Rust (Episode 1): Monsters and AI!"][realm-one-vid-2] -
-  how the mosnters are managed on server side
+  how the monsters are managed on server-side
   and integration with Tiled map editor.
 
 [realm-one]: https://github.com/Machine-Hum/realm.one
@@ -210,10 +210,10 @@ This month v0.1.1 and v0.1.2 versions were released. Some of the updates:
 
 [Ascension 2][ascension] by [@outkine] is a simple gravity-based platformer.
 
-> Hop your way through bite sized levels while dodging spikes and turrets.
+> Hop your way through bite-sized levels while dodging spikes and turrets.
 > Then, change the direction of gravity, and do it all again!
 
-[The source code is aviable here][ascension-src].
+[The source code is available here][ascension-src].
 
 [ascension]: https://outkine.itch.io/ascension-2
 [ascension-src]: https://github.com/outkine/ascension-rust
@@ -284,9 +284,9 @@ that is being implemented using Rust and Vulkan.
 written using the same engine.
 Your task is to repair a broken DNA sequence
 by replacing wrong nucleobases with the right ones.
-You have 20 seconds: how many nucleobases can you repair with in that time?
+You have 20 seconds: how many nucleobases can you repair within that time?
 
-The game was developend within one weekend during
+The game was developed within one weekend during
 the Global Game Jam 2020, whose theme was "repair".
 
 [helix]: https://coffejunkstudio.itch.io/helix-repair
@@ -323,7 +323,7 @@ Some of this month's updates:
 - New `zgui` widgets: ColoredRect, LayersLayout.
 - Inactive buttons are either hidden or grayed-out now.
 - The project [fully switched to `good-web-game`][zemeroth-gwg]
-  as the first step of migration to [miniquad].
+  as the first step of the migration to [miniquad].
 
 [zemeroth]: https://github.com/ozkriff/zemeroth
 [@ozkriff]: https://twitter.com/ozkriff
@@ -359,9 +359,7 @@ Here is the March changelog:
 - Added gamepad/controller support
 - Added player feedback when attempting to pickup an item with a full inventory
 - Added free look
-- Added Italian translation
-- Added Portuguese translation
-- Added Turkish translation
+- Added Italian, Portuguese, and Turkish translations
 ```
 
 ![Hanging out](veloren2.png)
@@ -404,8 +402,8 @@ Some of this month's updates:
 - Arbitrary clipping window on any layer.
 - New `VirtualConsole` system.
 - New functions for right-justifying printed text.
-- Fonts and dimensions in a terminal layers can now be switched at run-time.
-- New layer type that lets you specify gkyph position as a float.
+- Fonts and dimensions in terminal layers can now be switched at run-time.
+- New layer type that lets you specify glyph position as a float.
 - New sprite layer.
 - Updated examples.
 
@@ -426,7 +424,7 @@ Main updates:
   as well as SIMD types like f32x4, u32x8, i16x2, etc.
 - benchmarks:
   ["SIMD Array-of-Structures-of-Arrays in nalgebra and comparison with ultraviolet"][aosoa].
-- [alga] abstract algebra crate is switced to passive maintenance mode.
+- [alga] abstract algebra crate is switched to passive maintenance mode.
 
 [rustsim-10]: https://rustsim.org/blog/2020/04/01/this-month-in-rustsim
 [simba]: https://crates.io/crates/simba
@@ -499,6 +497,7 @@ Satellite projects:
 [wgpu-web-triangle]: https://github.com/gfx-rs/wgpu-rs/pull/193#issuecomment-599156540
 [naga]: https://github.com/gfx-rs/naga
 [boids example]: https://github.com/gfx-rs/naga/blob/thda1f6a4/test-data/boids.wgsl
+[deeper]: https://github.com/arnfaldur/deeper
 
 ### [miniquad]
 
@@ -509,7 +508,7 @@ focused on portability and low-end platforms support.
 Some of this month's updates:
 
 - example project by @PonasKovas,
-  illustrating android and web platform dependent configuration: [mandelbrot].
+  illustrating android and web platform-dependent configuration: [mandelbrot].
 - first prototype for embedded debug frame introspection: [introspection].
 
 [mandelbrot]: https://github.com/PonasKovas/miniquad-mandelbrot
@@ -569,7 +568,7 @@ _Discussions: [/r/rust](https://www.reddit.com/r/rust_gamedev/comments/fl7593/an
 
 ### [assets_manager]
 
-a1phyr has created a crate called `assets_manager`, which provides a convienient way
+a1phyr has created a crate called `assets_manager`, which provides a convenient way
 to load and cache external resources. It abstracts over the filesystem logic, and
 provides a variety of built-in loaders for common Serde formats (e.g. TOML, JSON).
 Hot-reloading support is also planned in the future.
@@ -589,7 +588,7 @@ on the [crates.io page](netstack).
 Version 0.3.0 adds basic monitoring functionality along with traits `ClientMonitor` and
 `ServerMonitor`. A work-in-progress prometheus exporter has also been added in this version.
 
-Issues and contibutions can be made to [Netstack's github repository](netstack-github).
+Issues and contributions can be made to [Netstack's github repository](netstack-github).
 Work in progress documentation is available on [Netstack's docs.rs](netstack-docs).
 
 [netstack]: https://crates.io/crates/netstack/0.3.0
@@ -597,6 +596,8 @@ Work in progress documentation is available on [Netstack's docs.rs](netstack-doc
 [netstack-docs]: https://docs.rs/netstack/0.3.0/netstack/
 
 ### [three-d] v0.1
+
+![Lighting example](three-d-lighting.png)
 
 [three-d] is a renderer which targets both desktop (OpenGL) and web
 (WebAssembly + WebGL2) which makes it possible to develop a 3D application on
@@ -611,13 +612,11 @@ Main features:
 - Deferred renderer with high-level components.
 - Default windows for easy setup.
 
+![Spider example](three-d-spider.jpeg)
+
 It is possible to build your own rendering features from low- or medium-level
 components and combine with other high-level features, so you can already now
 make some cool stuff. See for example these [examples][three-d-examples].
-
-![Lighting example](three-d-lighting.png)
-
-![Spider example](three-d-spider.png)
 
 [three-d]: https://github.com/asny/three-d
 [three-d-examples]: https://asny.github.io/three-d/
@@ -739,6 +738,7 @@ and [project board][amethyst_wasm_project_board] for current status.
 `ash` is lightweight wrapper around Vulkan.
 
 The latest version comes with support for Vulkan 1.2 and following extensions:
+
 - VK_KHR_timeline_semaphore
 - VK_KHR_ray_tracing
 - VK_KHR_external_memory_fd
@@ -795,7 +795,7 @@ or [join the next meeting][join].
 - [Amethyst's "good first issue" issues][amethyst-issues];
 - [A/B Street's "good first issue" issues][abstreet-issues];
 - [Mun's "good first issue" issues][mun-issues];
-- Anybody wants to work on the [GLSL front-end][naga-issue] in Naga?
+- @kvark: Anybody wants to work on the [GLSL front-end][naga-issue] in Naga?
   One day, we'll be able to finally replace glsl-to-spirv,
   which is used by a lot of graphics applications and is prone to issues.
 
