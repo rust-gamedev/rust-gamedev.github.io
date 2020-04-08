@@ -435,6 +435,10 @@ Main updates:
 
 ### gfx-rs and wgpu news
 
+![Deeper game](deeper.png)
+
+^ _[deeper] uses wgpu for rendering_
+
 [gfx-hal-0.5](https://github.com/gfx-rs/gfx/) was released!
 Improvements done in March:
 
