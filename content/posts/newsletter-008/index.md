@@ -49,24 +49,6 @@ some actual interesting discussions.
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
-## [London _Virtual_ Talks - April 6 (GameDev Special)][ldn]
-
-![rust gamedev](ldn.png)
-
-> [Rust London][ldn-twitter] is happy to announce the April Game Dev Special.
-> The purpose is to shine a light on all the amazing thing being done
-> in the realm of Game Development using the Rust Programming Language,
-> we will have 3 speakers demoing their projects and sharing their experiences.
->
-> Speakers: Alex Ene, Olivia Ifirim, Phillipe Vinchon.
-
-[Here's a link for the livestream via Youtube][ldn-video],
-it'll go live at 18:00 UTC.
-
-[ldn]: https://meetup.com/Rust-London-User-Group/events/269357779
-[ldn-twitter]: https://twitter.com/RustLdnUsers
-[ldn-video]: https://youtube.com/channel/UCi7KGrwkwWuFQaTZW72Jzug
-
 ## Spreading the Word
 
 If you're working on a project that heavily relies on some engine/framework,
