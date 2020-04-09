@@ -31,19 +31,21 @@
         <ul class="post-list">
             {% for post in posts.pages | slice(end=config.extra.home.max_posts) %}
                 <li>
-                    {% if post.date %}
-                        {% set date_format = config.extra.date_format | default(value="%b %-d, %Y") %}
-                        <span class="post-meta">{{ post.date | date(format=date_format) }}</span>
-                    {% endif %}
-
                     <h3>
                         <a class="post-link" href="{{ post.permalink }}">
                             {{ post.title }}
                         </a>
                     </h3>
+                    {% if post.date %}
+                        {% set date_format = config.extra.date_format | default(value="%b %-d, %Y") %}
+                        <span class="post-meta">{{ post.date | date(format=date_format) }}</span>
+                    {% endif %}
                     
-                    {% if config.extra.show_summaries %}
-                        {{ page.summary | default(value=page.content | safe | striptags | trim | truncate(length=100)) }}
+                    {% if config.extra.home.show_summaries %}
+                        {% set max_length = config.extra.home.max_summary_length %}
+                        <p>
+                            {{ post.description | default(value=post.content | safe | striptags | trim | truncate(length=max_length)) }}
+                        </p>
                     {% endif %}
                 </li>
             {% endfor %}

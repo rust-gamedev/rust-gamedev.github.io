@@ -12,6 +12,7 @@ date_format = "%F"
 [extra.home]
 max_posts = 3
 show_summaries = false
+max_summary_length = 250
 
 [extra.social_links]
 twitter = "rust_gamedev"
