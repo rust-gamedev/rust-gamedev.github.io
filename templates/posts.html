@@ -1,0 +1,17 @@
+{% extends "index.html" %}
+
+{% block lang_decl %}{{ lang }}{% endblock lang_decl %}
+
+{% block content %}
+<div class="posts wrapper">
+    <h2 class="post-list-heading">{{ section.title | default(value="Latest News") }}</h2>
+
+    {{ macros::post_list(posts=section.pages, placeholder="None yet - stay tuned for updates and announcements!") }}
+
+    <p class="feed-subscribe">
+        <a href="{{ get_url(path='rss.xml') }}">
+            <svg class="svg-icon orange"><use xlink:href="{{ get_url(path='minima-social-icons.svg#rss') }}"></use></svg><span>Subscribe</span>
+        </a>
+    </p>
+</div>
+{% endblock content %}

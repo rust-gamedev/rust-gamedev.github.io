@@ -27,34 +27,15 @@
     <h2 class="post-list-heading">{{ section.title | default(value="Latest News") }}</h2>
     
     {% set posts = get_section(path="posts/_index.md") %}
-    {% if posts and posts.pages | length > 0 %}
-        <ul class="post-list">
-            {% for post in posts.pages | slice(end=config.extra.home.max_posts) %}
-                <li>
-                    <h3>
-                        <a class="post-link" href="{{ post.permalink }}">
-                            {{ post.title }}
-                        </a>
-                    </h3>
-                    {% if post.date %}
-                        {% set date_format = config.extra.date_format | default(value="%b %-d, %Y") %}
-                        <span class="post-meta">{{ post.date | date(format=date_format) }}</span>
-                    {% endif %}
-                    
-                    {% if config.extra.home.show_summaries %}
-                        {% set max_length = config.extra.home.max_summary_length %}
-                        <p>
-                            {{ post.description | default(value=post.content | safe | striptags | trim | truncate(length=max_length)) }}
-                        </p>
-                    {% endif %}
-                </li>
-            {% endfor %}
-        </ul>
-    {% else %}
-        <p class="grey">None yet - stay tuned for updates and announcements!</p>
-    {% endif %}
+    {% set pages = posts.pages | slice(end=config.extra.home.max_posts) %}
+    {{ macros::post_list(posts=pages, placeholder="None yet - stay tuned for updates and announcements!") }}
 
     <p class="feed-subscribe">
+        {% if pages | length > 0 %}
+        <a class="btn" id="all-news" href="{{ get_url(path='posts/') }}">
+            All News
+        </a>
+        {% endif %}
         <a href="{{ get_url(path='rss.xml') }}">
             <svg class="svg-icon orange"><use xlink:href="{{ get_url(path='minima-social-icons.svg#rss') }}"></use></svg><span>Subscribe</span>
         </a>

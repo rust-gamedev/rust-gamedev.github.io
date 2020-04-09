@@ -1,6 +1,7 @@
 +++
 title = "This Month in Rust GameDev #5 - December 2019"
 date = 2020-01-10
+transparent = true
 +++
 
 Welcome to the fifth issue of the Rust GameDev Workgroup’s

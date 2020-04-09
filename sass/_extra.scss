@@ -9,7 +9,7 @@ li {
 
 .intro {
     color: #ffffff;
-    background-color: #0074D9;
+    background-color: $brand-color;
     margin-top: -30px;
     padding: 32px 0;
     border-bottom: 1px solid #e8e8e8;
@@ -75,4 +75,23 @@ h6:hover .anchor {
 
 .post-list li h3 {
     margin-bottom: 0;
+}
+
+a.btn {
+    text-decoration: none;
+    border-radius: 3px;
+    font-weight: 600;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 0.4em 2em;
+
+    background-color: $brand-color;
+    color: $background-color;
+    border-color: $background-color;
+
+    &:hover {
+        color: lighten($background-color, 10);
+        border-color: $brand-color;
+    }
 }
