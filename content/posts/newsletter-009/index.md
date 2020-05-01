@@ -54,6 +54,20 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
+### gfx-rs and wgpu news
+
+wgpu-0.5 release happened! See the [changelog](https://github.com/gfx-rs/wgpu/blob/master/CHANGELOG.md#v05-06-04-2020). It's based on `gfx-hal-0.5` (which we covered in the [March newsletter](https://rust-gamedev-preview.netlify.app/posts/newsletter-008/#gfx-rs-and-wgpu-news)), uses in-house gfx-extras crates adopted from Rendy, has many fixes and improvements, and totally changes the way passes are recorded.
+
+`wgpu` project got restructured by only leaving `wgpu-core` and `wgpu-types` in the main ("core logic") repository. `wgpu-native` is moved out into a [separate one](https://github.com/gfx-rs/wgpu-native/). `wgpu-remote` got fully moved into mozilla-central as "gfx/wgpu_bindings" (this is "gfx" in a general sense, not gfx-rs in particular).
+
+The Web target  (aka "wasm32-unknown-unknown") is now officially supported by `wgpu-rs` :tada: @grovesNL wrote the announcement to [gfx-rs blog](https://gfx-rs.github.io/2020/04/21/wgpu-web.html).
+
+At the same time, @kvark was implementing support for WebGPU in Firefox (Nightly only) with help of `wgpu`. They published results of this milestone on [Mozilla Hacks](https://hacks.mozilla.org/2020/04/experimental-webgpu-in-firefox/). The combined efforts allowed us to run all the `wgpu-rs` examples in Firefox Nightly on all platforms (yes, even on Android, terms and conditions apply...).
+
+Given the wide spectrum of uses for `wgpu` ("core"), it became most important to be able to debug and reproduce visual issues, be it either the user's fault, or our implementations'. To aid these scenarios, a new [API tracing infrastructure](https://github.com/gfx-rs/wgpu/pull/619) was built into the core. We are now able to replay your `wgpu` workloads in a separate player on an entirely different platform.
+
+In gfx-rs land, @mistodon created a nice [series of tutorials](https://www.falseidolfactory.com/projects/learning-gfx-hal/) for the gfx-hal API.
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
