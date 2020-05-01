@@ -54,7 +54,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
-[Shipyard] v0.4
+### [Shipyard] v0.4
 
 [Shipyard] is an ECS library built on top of sparse sets.
 
