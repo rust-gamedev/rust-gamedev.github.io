@@ -71,7 +71,7 @@ With [quad-snd] [good-web-game] now can run ggez [sounds](https://github.com/not
 
 ### [macroquad]
 
-`macorquad` is minimalistic game framework on top of miniquad, strongly inspired by raylib.
+`macroquad` is minimalistic game framework on top of miniquad, strongly inspired by raylib.
 
 This month `macroquad`'s rendering system got 2D custom cameras support. [Example source](https://github.com/not-fl3/macroquad/blob/master/examples/camera.rs).    
 And `macroquad`'s UI system now support TTF fonts. [Online demo](https://not-fl3.github.io/miniquad-samples/ui.html), [source](https://github.com/not-fl3/macroquad/blob/master/examples/ui.rs)
