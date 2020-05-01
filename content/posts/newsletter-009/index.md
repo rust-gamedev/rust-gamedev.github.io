@@ -54,6 +54,30 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
+### [miniquad]
+
+![miniquad logo](miniquad_logo.png)   
+`miniquad` project got a logo   
+
+Miniquad is safe and cross-platform rendering library focused on portability and low-end platforms support.
+
+This month `miniquad` based games got recommended way to make sounds: [quad-snd]. 
+[Wasm demo]((https://not-fl3.github.io/miniquad-samples/mixer.html)), [source](https://github.com/not-fl3/quad-snd/blob/master/examples/mixer.rs)  
+With [quad-snd] [good-web-game] now can run ggez [sounds](https://github.com/not-fl3/good-web-game/blob/audio/examples/sounds.rs) example. [WEB](https://not-fl3.github.io/miniquad-samples/sounds.html)   
+
+[good-web-game]: https://github.com/not-fl3/good-web-game
+[quad-snd]: https://github.com/not-fl3/quad-snd
+[miniquad]: https://github.com/not-fl3/miniquad
+
+### [macroquad]
+
+`macorquad` is minimalistic game framework on top of miniquad, strongly inspired by raylib.
+
+This month `macroquad`'s rendering system got 2D custom cameras support. [Example source](https://github.com/not-fl3/macroquad/blob/master/examples/camera.rs).    
+And `macroquad`'s UI system now support TTF fonts. [Online demo](https://not-fl3.github.io/miniquad-samples/ui.html), [source](https://github.com/not-fl3/macroquad/blob/master/examples/ui.rs)
+
+[macroquad]: https://github.com/not-fl3/macroquad
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
