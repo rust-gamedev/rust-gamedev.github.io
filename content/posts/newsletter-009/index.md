@@ -54,6 +54,27 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
+### [erupt]
+
+[erupt] provides bindings to the Vulkan API.
+
+Features include:
+
+- Full Vulkan API coverage
+- First-class support for all extensions
+- High quality auto-generated function wrappers
+- A diverse `utils` module
+- Complete auto-generation of everything except `utils`
+- Function loading
+- A high level `Builder` for every struct
+- Type-safe pointer chain support
+
+For more information visit [docs.rs][erupt-docs] and [GitLab][erupt-gitlab].
+
+[erupt]: https://crates.io/crates/erupt
+[erupt-docs]: https://docs.rs/erupt
+[erupt-gitlab]: https://gitlab.com/Friz64/erupt
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
