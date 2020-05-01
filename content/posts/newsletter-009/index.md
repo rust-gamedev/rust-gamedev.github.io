@@ -22,7 +22,7 @@ Want something mentioned in the next newsletter?
 [Send us a pull request][pr].
 Feel free to send PRs about your own projects!
 
-[Rust]: https://rust-lang.org
+[rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 [pr]: https://github.com/rust-gamedev/rust-gamedev.github.io
 
@@ -51,6 +51,29 @@ If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
 ## Game Updates
+
+### For The Quest
+
+![For The Quest screenshot](forthequest.jpg)
+
+For The Quest is the working title for a game in early development by
+[@seratonik][]. Written entirely in Rust and compiled to WebAssembly,
+For The Quest is destined to become a MMORPG set in a post-apocalyptic
+Earth where your goal is to band together into like-minded factions to
+not only survive in this new world, but to unearth the cause of humanity's
+downfall.
+
+For The Quest is currently undergoing engine development with a focus on
+running smoothly in modern browsers using WebGL 2.0 before moving onto
+native desktop ports.
+
+New developments in April:
+
+- To be finished
+
+Follow [@seratonik][] on Twitter for updates.
+
+[@seratonik]: https://twitter.com/seratonik
 
 ## Library & Tooling Updates
 
@@ -101,7 +124,7 @@ and highlight events from the past. -->
 
 Just an interesting Rust gamedev link from the past. :)
 
-------
+---
 
 That's all news for today, thanks for reading!
 
