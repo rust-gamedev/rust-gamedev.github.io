@@ -61,41 +61,41 @@ possible using [OpenStreetMap] and other public datasets, lets the player adjust
 existing infrastructure, and then does a detailed comparison to see who the
 changes help and hurt.
 
-First of all, [a standalone 2D GUI crate][abstreet-gui-release] was published 
-extracted from A/BStreet's GUI code.  
+First of all, [a standalone 2D GUI crate][abstreet-gui-release] was published
+extracted from A/BStreet's GUI code.
 It features fully vectorized text using [lyon] and supports lots of
-widgets such as "buttons (with keybindings), checkboxes, sliders, pop-up menus, 
-text entry, and some data viz things".  
-Thanks to its simplicity (everything is a colored polygon), this crate runs on 
+widgets such as "buttons (with keybindings), checkboxes, sliders, pop-up menus,
+text entry, and some data viz things".
+Thanks to its simplicity (everything is a colored polygon), this crate runs on
 many different architectures and even on the web via [glow].
 
-Here's an example of what it can do:  
-![abstreet gui](abstreetgui.png)  
+Here's an example of what it can do:
 
+![abstreet gui](abstreetgui.png)
 
 Dabreegster also uploaded a recorded version of their
-[rust meetup talk][abstreet-meetup-talk] about the inner working of abstreet. 
-> In case anybody here is interested in more city simulation in Rust, 
+[rust meetup talk][abstreet-meetup-talk] about the inner working of abstreet.
+
+> In case anybody here is interested in more city simulation in Rust,
 > the talk is about half project overview and half deep dive into code.
 
 ABstreet had some great contributor work coming in, notably from omalaspinas who
 implemented an optional SEIR pandemic model into the game.
 
-And for anyone interested in more frequent updates, the 
-[abstreet subreddit][abstreet-subreddit] has had weekly update posts since 
+And for anyone interested in more frequent updates, the
+[abstreet subreddit][abstreet-subreddit] has had weekly update posts since
 September 2019.
 
-_Discussion:_  
-[r/abstreet][abstreet-subreddit] for the game  
-[r/rust][abstreet-gui-release] for the gui  
+_Discussions:
+[/r/rust][abstreet-gui-release]_
 
 [dabreegster]: https://github.com/dabreegster/
 [abstreet]: https://github.com/dabreegster/abstreet#ab-street
 [abstreet-gui-release]: https://www.reddit.com/r/rust/comments/fejx5a/demo_of_a_new_gui_2d_drawing_crate/
 [abstreet-meetup-talk]: https://www.reddit.com/r/Citybound/comments/g1k6du/rust_meetup_talk_on_ab_street/
 [OpenStreetMap]: https://openstreetmap.org
-[abstreet-subreddit]: https://www.reddit.com/r/abstreet/
-[glow]: https://github.com/grovesNL/glow/
+[abstreet-subreddit]: https://www.reddit.com/r/abstreet
+[glow]: https://github.com/grovesNL/glow
 [lyon]: https://github.com/nical/lyon
 
 ### [Citybound]
@@ -103,52 +103,46 @@ _Discussion:_
 ![citybound web ui screenshot](citybound.png)
 
 > Citybound is a city building game that uses microscopic models to vividly
-> simulate the organism of a city arising from the interactions of millions 
+> simulate the organism of a city arising from the interactions of millions
 > of individuals.
 
-It is developed by [aeplay][aeplay] and uses a homemade actor system for 
-everything called [kay], you can see its power on 
+It is developed by [aeplay][aeplay] and uses a homemade actor system for
+everything called [kay], you can see its power on
 [this impressive tech demo][kay-tech-demo].
 
-In April, aeplay made two livestreams about conceptualizing pedestrians and 
-pandemic models using feedback from the chat. 
-You can watch the replay for the two livestreams on youtube: [here][cb-live-1] 
+In April, aeplay made two livestreams about conceptualizing pedestrians and
+pandemic models using feedback from the chat.
+You can watch the replay for the two livestreams on youtube: [here][cb-live-1]
 and [here][cb-live-2].
 
-_Discussion:_  
-[r/citybound](https://reddit.com/r/citybound)
-
-[Citybound]: https://aeplay.org/citybound  
-[kay]: https://crates.io/crates/kay  
-[kay-tech-demo]: https://youtu.be/qr9GTTST_Dk  
+[Citybound]: https://aeplay.org/citybound
+[kay]: https://crates.io/crates/kay
+[kay-tech-demo]: https://youtu.be/qr9GTTST_Dk
 [aeplay]: https://github.com/aeplay
 [cb-live-1]: https://youtu.be/fQMxVV57wzg
 [cb-live-2]: https://youtu.be/8DevxAYw47A
-
 
 ### [Scale]
 
 ![Pedestrians](scale.png)
 
-[Scale] is a granular society simulation by [Uriopass], with the objective 
-of having fully autonomous agents interacting with their world in real time. 
+[Scale] is a granular society simulation by [Uriopass], with the objective
+of having fully autonomous agents interacting with their world in real time.
 
 A [devlog][scale-blog-post] was published, explaining how pedestrians were added
 to the simulation, and that a new renderer based on [wgpu-rs][wgpu-rs] is in
 development.
+[A short video][scale-pedestrian-video] was also posted together with the post
+for a more concise update.
 
-[A short video][scale-pedestrian-video] was also posted together with the post 
-for a more concise update. 
-
-Discussion:
-[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/g7s9bk/scale_devblog_3/)
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/g7s9bk/scale_devblog_3)_
 
 [Uriopass]: http://douady.paris/aboutme.html
 [Scale]: https://github.com/Uriopass/Scale
 [scale-blog-post]: http://douady.paris/blog/scale_3.html
 [scale-pedestrian-video]: https://youtu.be/QXF1-1BNddM
 [wgpu-rs]: https://github.com/gfx-rs/wgpu-rs
-
 
 ## Library & Tooling Updates
 
