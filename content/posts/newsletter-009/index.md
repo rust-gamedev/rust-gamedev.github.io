@@ -6,6 +6,7 @@ draft = true
 +++
 
 <!-- markdownlint-disable no-trailing-punctuation -->
+<!-- markdownlint-enable line-length -->
 
 Welcome to the ninth issue of the Rust GameDev Workgroup’s
 monthly newsletter.
@@ -146,19 +147,54 @@ _Discussions:
 
 ## Library & Tooling Updates
 
-### gfx-rs and wgpu news
+### `gfx-rs` and `wgpu` News
 
-wgpu-0.5 release happened! See the [changelog](https://github.com/gfx-rs/wgpu/blob/master/CHANGELOG.md#v05-06-04-2020). It's based on `gfx-hal-0.5` (which we covered in the [March newsletter](https://rust-gamedev-preview.netlify.app/posts/newsletter-008/#gfx-rs-and-wgpu-news)), uses in-house gfx-extras crates adopted from Rendy, has many fixes and improvements, and totally changes the way passes are recorded.
+![hectic screenshot: graveyard and vampires](hectic.png)
 
-`wgpu` project got restructured by only leaving `wgpu-core` and `wgpu-types` in the main ("core logic") repository. `wgpu-native` is moved out into a [separate one](https://github.com/gfx-rs/wgpu-native/). `wgpu-remote` got fully moved into mozilla-central as "gfx/wgpu_bindings" (this is "gfx" in a general sense, not gfx-rs in particular).
+^ _[hectic-rs] - Rust/wgpu/specs re-write of hectic by [@expenses]_
 
-The Web target  (aka "wasm32-unknown-unknown") is now officially supported by `wgpu-rs` :tada: @grovesNL wrote the announcement to [gfx-rs blog](https://gfx-rs.github.io/2020/04/21/wgpu-web.html).
+wgpu-0.5 release happened! See the [changelog][wgpu-0-5].
+It's based on `gfx-hal-0.5` (which was covered in the [March newsletter][gfx-march]),
+uses in-house gfx-extras crates adopted from Rendy,
+has many fixes and improvements, and totally changes the way passes are recorded.
 
-At the same time, @kvark was implementing support for WebGPU in Firefox (Nightly only) with help of `wgpu`. They published results of this milestone on [Mozilla Hacks](https://hacks.mozilla.org/2020/04/experimental-webgpu-in-firefox/). The combined efforts allowed us to run all the `wgpu-rs` examples in Firefox Nightly on all platforms (yes, even on Android, terms and conditions apply...).
+`wgpu` project got restructured by only leaving `wgpu-core` and `wgpu-types`
+in the main ("core logic") repository.
+`wgpu-native` is moved out into a [separate one][wgpu-native].
+`wgpu-remote` got fully moved into mozilla-central as "gfx/wgpu_bindings"
+(this is "gfx" in a general sense, not gfx-rs in particular).
 
-Given the wide spectrum of uses for `wgpu` ("core"), it became most important to be able to debug and reproduce visual issues, be it either the user's fault, or our implementations'. To aid these scenarios, a new [API tracing infrastructure](https://github.com/gfx-rs/wgpu/pull/619) was built into the core. We are now able to replay your `wgpu` workloads in a separate player on an entirely different platform.
+The Web target  (aka "wasm32-unknown-unknown") is now officially supported
+by `wgpu-rs`! 🎉
+@grovesNL wrote the announcement to [gfx-rs blog][wgpu-wasm-blog].
 
-In gfx-rs land, @mistodon created a nice [series of tutorials](https://www.falseidolfactory.com/projects/learning-gfx-hal/) for the gfx-hal API.
+At the same time, @kvark was implementing support for WebGPU in Firefox
+(Nightly only) with help of `wgpu`.
+They published results of this milestone on [Mozilla Hacks][wgpu-in-firefox].
+The combined efforts allowed all the `wgpu-rs` examples to be run
+in Firefox Nightly on all platforms
+(yes, even on Android, terms and conditions apply...).
+
+Given the wide spectrum of uses for `wgpu` ("core"), it became most important
+to be able to debug and reproduce visual issues, be it either the user's fault,
+or wgpu implementations'.
+To aid these scenarios, a new [API tracing infrastructure][wgpu-pr-tracing]
+was built into the core.
+It's now possible to replay user's `wgpu` workloads in a separate player
+on an entirely different platform.
+
+In gfx-rs land, @mistodon created a nice [series of tutorials][gfx-hal-tutorials]
+for the gfx-hal API.
+
+[wgpu-0-5]: https://github.com/gfx-rs/wgpu/blob/master/CHANGELOG.md#v05-06-04-2020
+[gfx-march]: https://rust-gamedev.github.io/posts/newsletter-008/#gfx-rs-and-wgpu-news
+[wgpu-wasm-blog]: https://gfx-rs.github.io/2020/04/21/wgpu-web.html
+[wgpu-in-firefox]: https://hacks.mozilla.org/2020/04/experimental-webgpu-in-firefox
+[wgpu-native]: https://github.com/gfx-rs/wgpu-native
+[wgpu-pr-tracing]: https://github.com/gfx-rs/wgpu/pull/619
+[gfx-hal-tutorials]: https://www.falseidolfactory.com/projects/learning-gfx-hal
+[hectic-rs]: https://github.com/expenses/hectic-rs
+[@expenses]: https://github.com/expenses
 
 ### [erupt]
 
