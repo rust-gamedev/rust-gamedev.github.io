@@ -56,31 +56,47 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [miniquad]
 
-![miniquad logo](miniquad_logo.png)   
-`miniquad` project got a logo   
+![miniquad logo](miniquad_logo.png)
 
-Miniquad is safe and cross-platform rendering library focused on portability and low-end platforms support.
+^ _`miniquad` project got a logo_
 
-This month `miniquad` based games got recommended way to make sounds: [quad-snd]. 
-[Wasm demo]((https://not-fl3.github.io/miniquad-samples/mixer.html)), [source](https://github.com/not-fl3/quad-snd/blob/master/examples/mixer.rs)  
-With [quad-snd] [good-web-game] now can run ggez [sounds](https://github.com/not-fl3/good-web-game/blob/audio/examples/sounds.rs) example. [WEB](https://not-fl3.github.io/miniquad-samples/sounds.html)   
+[miniquad] is a safe and cross-platform rendering library
+focused on portability and low-end platforms support.
+
+This month `miniquad`-based games got a recommended way to make sounds:
+[quad-snd].
+Here's a [WASM demo][quad-snd-demo] ([source][quad-snd-demo-src]).
+
+[good-web-game] now uses [quad-snd] and can run ggez's ["sounds"][ggez-sounds]
+example: [WASM demo][gwg-sounds-demo].
 
 [good-web-game]: https://github.com/not-fl3/good-web-game
 [quad-snd]: https://github.com/not-fl3/quad-snd
+[quad-snd-demo]: https://not-fl3.github.io/miniquad-samples/mixer.html
+[quad-snd-demo-src]: https://github.com/not-fl3/quad-snd/blob/master/examples/mixer.rs
 [miniquad]: https://github.com/not-fl3/miniquad
+[ggez-sounds]: https://github.com/not-fl3/good-web-game/blob/audio/examples/sounds.rs
+[gwg-sounds-demo]: https://not-fl3.github.io/miniquad-samples/sounds.html
 
 ### [macroquad]
 
-`macroquad` is minimalistic game framework on top of miniquad, strongly inspired by raylib.
+`macroquad` is minimalistic game framework on top of miniquad,
+strongly inspired by [raylib].
 
-This month `macroquad`'s rendering system got 2D custom cameras support. [Example source](https://github.com/not-fl3/macroquad/blob/master/examples/camera.rs).    
-And `macroquad`'s UI system now support TTF fonts. [Online demo](https://not-fl3.github.io/miniquad-samples/ui.html), [source](https://github.com/not-fl3/macroquad/blob/master/examples/ui.rs)
+This month `macroquad`'s rendering system got 2D custom cameras support:
+[example source][macroquad-example-camera].
+Also, `macroquad`'s UI system now support TTF fonts:
+[online demo][macroquad-example-ui], [source][macroquad-example-ui-src].
 
 [macroquad]: https://github.com/not-fl3/macroquad
+[macroquad-example-camera]: https://github.com/not-fl3/macroquad/blob/master/examples/camera.rs
+[macroquad-example-ui]: https://not-fl3.github.io/miniquad-samples/ui.html
+[macroquad-example-ui-src]: https://github.com/not-fl3/macroquad/blob/master/examples/ui.rs
+[raylib]: https://www.raylib.com
 
 ### [Tetra][tetra]
 
-[Tetra][tetra] is a simple 2D game framework, inspired by XNA and Raylib.
+[Tetra][tetra] is a simple 2D game framework, inspired by XNA and [Raylib][raylib].
 After a quiet few months, versions [0.3.3][tetra-033], [0.3.4][tetra-034]
 and [0.3.5][tetra-035] were all released over the course of April.
 
