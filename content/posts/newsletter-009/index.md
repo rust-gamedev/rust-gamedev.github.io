@@ -146,6 +146,34 @@ _Discussions:
 
 ## Library & Tooling Updates
 
+### [erupt]
+
+![erupt logo](erupt.png)
+
+[erupt] provides bindings to the Vulkan API.
+
+Features include:
+
+- Full Vulkan API coverage
+- First-class support for all extensions
+- High quality auto-generated function wrappers
+- A diverse `utils` module
+- Complete auto-generation of everything except `utils`
+- Function loading
+- A high level `Builder` for every struct
+- Type-safe pointer chain support
+
+Just like ash, erupt focuses on exposing good bindings to the *raw* Vulkan API
+instead of providing manually written wrappers around it like Vulkano. On top
+of this it tries to improve on some features where ash lacks, e.g.
+auto-generation, extensions, documentation and utils.
+
+For more information visit [docs.rs][erupt-docs] and [GitLab][erupt-gitlab].
+
+[erupt]: https://crates.io/crates/erupt
+[erupt-docs]: https://docs.rs/erupt
+[erupt-gitlab]: https://gitlab.com/Friz64/erupt
+
 ### [miniquad]
 
 ![miniquad logo](miniquad_logo.png)
