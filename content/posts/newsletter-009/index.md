@@ -52,6 +52,98 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [A/B Street][abstreet]
+
+[A/B Street][abstreet] is a game by [dabreegster] exploring how small changes to
+road space and traffic signals affect the movement of drivers, cyclists,
+transit users, and pedestrians. The game models Seattle as accurately as
+possible using [OpenStreetMap] and other public datasets, lets the player adjust
+existing infrastructure, and then does a detailed comparison to see who the
+changes help and hurt.
+
+First of all, [a standalone 2D GUI crate][abstreet-gui-release] was published
+extracted from A/BStreet's GUI code.
+It features fully vectorized text using [lyon] and supports lots of
+widgets such as "buttons (with keybindings), checkboxes, sliders, pop-up menus,
+text entry, and some data viz things".
+Thanks to its simplicity (everything is a colored polygon), this crate runs on
+many different architectures and even on the web via [glow].
+
+Here's an example of what it can do:
+
+![abstreet gui](abstreetgui.png)
+
+Dabreegster also uploaded a recorded version of their
+[rust meetup talk][abstreet-meetup-talk] about the inner working of abstreet.
+
+> In case anybody here is interested in more city simulation in Rust,
+> the talk is about half project overview and half deep dive into code.
+
+ABstreet had some great contributor work coming in, notably from omalaspinas who
+implemented an optional SEIR pandemic model into the game.
+
+And for anyone interested in more frequent updates, the
+[abstreet subreddit][abstreet-subreddit] has had weekly update posts since
+September 2019.
+
+_Discussions:
+[/r/rust][abstreet-gui-release]_
+
+[dabreegster]: https://github.com/dabreegster/
+[abstreet]: https://github.com/dabreegster/abstreet#ab-street
+[abstreet-gui-release]: https://www.reddit.com/r/rust/comments/fejx5a/demo_of_a_new_gui_2d_drawing_crate/
+[abstreet-meetup-talk]: https://www.reddit.com/r/Citybound/comments/g1k6du/rust_meetup_talk_on_ab_street/
+[OpenStreetMap]: https://openstreetmap.org
+[abstreet-subreddit]: https://www.reddit.com/r/abstreet
+[glow]: https://github.com/grovesNL/glow
+[lyon]: https://github.com/nical/lyon
+
+### [Citybound]
+
+![citybound web ui screenshot](citybound.png)
+
+> Citybound is a city building game that uses microscopic models to vividly
+> simulate the organism of a city arising from the interactions of millions
+> of individuals.
+
+It is developed by [aeplay][aeplay] and uses a homemade actor system for
+everything called [kay], you can see its power on
+[this impressive tech demo][kay-tech-demo].
+
+In April, aeplay made two livestreams about conceptualizing pedestrians and
+pandemic models using feedback from the chat.
+You can watch the replay for the two livestreams on youtube: [here][cb-live-1]
+and [here][cb-live-2].
+
+[Citybound]: https://aeplay.org/citybound
+[kay]: https://crates.io/crates/kay
+[kay-tech-demo]: https://youtu.be/qr9GTTST_Dk
+[aeplay]: https://github.com/aeplay
+[cb-live-1]: https://youtu.be/fQMxVV57wzg
+[cb-live-2]: https://youtu.be/8DevxAYw47A
+
+### [Scale]
+
+![Pedestrians](scale.png)
+
+[Scale] is a granular society simulation by [Uriopass], with the objective
+of having fully autonomous agents interacting with their world in real time.
+
+A [devlog][scale-blog-post] was published, explaining how pedestrians were added
+to the simulation, and that a new renderer based on [wgpu-rs][wgpu-rs] is in
+development.
+[A short video][scale-pedestrian-video] was also posted together with the post
+for a more concise update.
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/g7s9bk/scale_devblog_3)_
+
+[Uriopass]: http://douady.paris/aboutme.html
+[Scale]: https://github.com/Uriopass/Scale
+[scale-blog-post]: http://douady.paris/blog/scale_3.html
+[scale-pedestrian-video]: https://youtu.be/QXF1-1BNddM
+[wgpu-rs]: https://github.com/gfx-rs/wgpu-rs
+
 ## Library & Tooling Updates
 
 ### [erupt]
@@ -81,6 +173,107 @@ For more information visit [docs.rs][erupt-docs] and [GitLab][erupt-gitlab].
 [erupt]: https://crates.io/crates/erupt
 [erupt-docs]: https://docs.rs/erupt
 [erupt-gitlab]: https://gitlab.com/Friz64/erupt
+
+### [miniquad]
+
+![miniquad logo](miniquad_logo.png)
+
+^ _`miniquad` project got a logo_
+
+[miniquad] is a safe and cross-platform rendering library
+focused on portability and low-end platforms support.
+
+This month `miniquad`-based games got a recommended way to make sounds:
+[quad-snd].
+Here's a [WASM demo][quad-snd-demo] ([source][quad-snd-demo-src]).
+
+[good-web-game] now uses [quad-snd] and can run ggez's ["sounds"][ggez-sounds]
+example: [WASM demo][gwg-sounds-demo].
+
+[good-web-game]: https://github.com/not-fl3/good-web-game
+[quad-snd]: https://github.com/not-fl3/quad-snd
+[quad-snd-demo]: https://not-fl3.github.io/miniquad-samples/mixer.html
+[quad-snd-demo-src]: https://github.com/not-fl3/quad-snd/blob/master/examples/mixer.rs
+[miniquad]: https://github.com/not-fl3/miniquad
+[ggez-sounds]: https://github.com/not-fl3/good-web-game/blob/audio/examples/sounds.rs
+[gwg-sounds-demo]: https://not-fl3.github.io/miniquad-samples/sounds.html
+
+### [macroquad]
+
+`macroquad` is minimalistic game framework on top of miniquad,
+strongly inspired by [raylib].
+
+This month `macroquad`'s rendering system got 2D custom cameras support:
+[example source][macroquad-example-camera].
+Also, `macroquad`'s UI system now support TTF fonts:
+[online demo][macroquad-example-ui], [source][macroquad-example-ui-src].
+
+[macroquad]: https://github.com/not-fl3/macroquad
+[macroquad-example-camera]: https://github.com/not-fl3/macroquad/blob/master/examples/camera.rs
+[macroquad-example-ui]: https://not-fl3.github.io/miniquad-samples/ui.html
+[macroquad-example-ui-src]: https://github.com/not-fl3/macroquad/blob/master/examples/ui.rs
+[raylib]: https://www.raylib.com
+
+### [Tetra][tetra]
+
+[Tetra][tetra] is a simple 2D game framework, inspired by XNA and [Raylib][raylib].
+After a quiet few months, versions [0.3.3][tetra-033], [0.3.4][tetra-034]
+and [0.3.5][tetra-035] were all released over the course of April.
+
+Highlights of this month's updates include:
+
+- New integrations with the OS, such as file dropping and clipboard manipulation
+- More utilities for working with mouse and keyboard input
+- Enhancements to the animation API
+- Various under-the-hood improvements and optimizations
+
+[Tetra's website][tetra-website] has also had an overhaul,
+and is [looking for contributions to the showcase section][tetra-showcase].
+If you're working on a project with Tetra, submit an issue or a PR
+to the [website repo][tetra-website-repo] to get it added!
+
+[tetra]: https://github.com/17cupsofcoffee/tetra
+[tetra-033]: https://twitter.com/17cupsofcoffee/status/1246407935980339200
+[tetra-034]: https://twitter.com/17cupsofcoffee/status/1249410227935510536
+[tetra-035]: https://twitter.com/17cupsofcoffee/status/1254076418365030400
+[tetra-website]: https://tetra.seventeencups.net/
+[tetra-showcase]: https://twitter.com/17cupsofcoffee/status/1255901557322928128
+[tetra-website-repo]: https://github.com/17cupsofcoffee/tetra-www
+
+### [Shipyard] v0.4
+
+[Shipyard] is an ECS library built on top of sparse sets.
+
+Main changes:
+
+- Systems are now functions
+- Workloads can return errors
+- `Iterator` and `IntoIterator` are supported
+
+[Shipyard]: https://crates.io/crates/shipyard
+
+### This Month in Mun
+
+[![Mun logo](mun-logo.png)][Mun]
+
+[Mun] is a scripting language for gamedev focused on quick iteration times
+that is written in Rust.
+
+The Mun Team posted a [technical blog][mun-memory-mapping] about how they
+implemented hot reloading of structs.
+
+Their [April updates][mun-april] include:
+
+- hot reloading of structs;
+- 128-bit integer support;
+- improved literal support;
+- complete operator support for fundamental types;
+- improved documentation;
+- bugfixes and improved test coverage.
+
+[Mun]: https://mun-lang.org
+[mun-memory-mapping]: https://mun-lang.org/blog/2020/05/01/memory-mapping
+[mun-april]: https://mun-lang.org/blog/2020/05/02/this-month-april
 
 ## Popular Workgroup Issues in Github
 
