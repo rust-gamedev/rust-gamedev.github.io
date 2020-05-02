@@ -132,6 +132,29 @@ Main changes:
 
 [Shipyard]: https://crates.io/crates/shipyard
 
+### This Month in Mun
+
+[![Mun logo](mun-logo.png)][Mun]
+
+[Mun] is a scripting language for gamedev focused on quick iteration times
+that is written in Rust.
+
+The Mun Team posted a [technical blog][mun-memory-mapping] about how they
+implemented hot reloading of structs.
+
+Their [April updates][mun-april] include:
+
+- hot reloading of structs;
+- 128-bit integer support;
+- improved literal support;
+- complete operator support for fundamental types;
+- improved documentation;
+- bugfixes and improved test coverage.
+
+[Mun]: https://mun-lang.org
+[mun-memory-mapping]: https://mun-lang.org/blog/2020/05/01/memory-mapping
+[mun-april]: https://mun-lang.org/blog/2020/05/02/this-month-april
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
