@@ -78,6 +78,44 @@ And `macroquad`'s UI system now support TTF fonts. [Online demo](https://not-fl3
 
 [macroquad]: https://github.com/not-fl3/macroquad
 
+### [Tetra][tetra]
+
+[Tetra][tetra] is a simple 2D game framework, inspired by XNA and Raylib.
+After a quiet few months, versions [0.3.3][tetra-033], [0.3.4][tetra-034]
+and [0.3.5][tetra-035] were all released over the course of April.
+
+Highlights of this month's updates include:
+
+- New integrations with the OS, such as file dropping and clipboard manipulation
+- More utilities for working with mouse and keyboard input
+- Enhancements to the animation API
+- Various under-the-hood improvements and optimizations
+
+[Tetra's website][tetra-website] has also had an overhaul,
+and is [looking for contributions to the showcase section][tetra-showcase].
+If you're working on a project with Tetra, submit an issue or a PR
+to the [website repo][tetra-website-repo] to get it added!
+
+[tetra]: https://github.com/17cupsofcoffee/tetra
+[tetra-033]: https://twitter.com/17cupsofcoffee/status/1246407935980339200
+[tetra-034]: https://twitter.com/17cupsofcoffee/status/1249410227935510536
+[tetra-035]: https://twitter.com/17cupsofcoffee/status/1254076418365030400
+[tetra-website]: https://tetra.seventeencups.net/
+[tetra-showcase]: https://twitter.com/17cupsofcoffee/status/1255901557322928128
+[tetra-website-repo]: https://github.com/17cupsofcoffee/tetra-www
+
+### [Shipyard] v0.4
+
+[Shipyard] is an ECS library built on top of sparse sets.
+
+Main changes:
+
+- Systems are now functions
+- Workloads can return errors
+- `Iterator` and `IntoIterator` are supported
+
+[Shipyard]: https://crates.io/crates/shipyard
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
