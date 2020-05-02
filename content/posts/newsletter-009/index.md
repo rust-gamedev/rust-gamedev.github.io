@@ -100,6 +100,8 @@ _Discussion:_
 
 ### [Citybound]
 
+![citybound web ui screenshot](citybound.png)
+
 > Citybound is a city building game that uses microscopic models to vividly
 > simulate the organism of a city arising from the interactions of millions 
 > of individuals.
