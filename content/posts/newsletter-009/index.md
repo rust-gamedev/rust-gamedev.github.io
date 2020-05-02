@@ -56,6 +56,8 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [erupt]
 
+![erupt logo](erupt.png)
+
 [erupt] provides bindings to the Vulkan API.
 
 Features include:
@@ -68,6 +70,11 @@ Features include:
 - Function loading
 - A high level `Builder` for every struct
 - Type-safe pointer chain support
+
+Just like ash, erupt focuses on exposing good bindings to the *raw* Vulkan API
+instead of providing manually written wrappers around it like Vulkano. On top
+of this is tries to improve on some features where ash lacks, e.g.
+auto-generation, extensions, documentation and utils.
 
 For more information visit [docs.rs][erupt-docs] and [GitLab][erupt-gitlab].
 
