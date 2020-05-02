@@ -80,6 +80,18 @@ to the [website repo][tetra-website-repo] to get it added!
 [tetra-showcase]: https://twitter.com/17cupsofcoffee/status/1255901557322928128
 [tetra-website-repo]: https://github.com/17cupsofcoffee/tetra-www
 
+### [Shipyard] v0.4
+
+[Shipyard] is an ECS library built on top of sparse sets.
+
+Main changes:
+
+- Systems are now functions
+- Workloads can return errors
+- `Iterator` and `IntoIterator` are supported
+
+[Shipyard]: https://crates.io/crates/shipyard
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
