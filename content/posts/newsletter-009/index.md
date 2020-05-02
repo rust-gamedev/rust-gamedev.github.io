@@ -56,16 +56,21 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [Tetra][tetra]
 
-[Tetra][tetra] is a simple 2D game framework, inspired by XNA and Raylib. After a quiet few months, versions [0.3.3][tetra-033], [0.3.4][tetra-034] and [0.3.5][tetra-035] were all released over the course of April.
+[Tetra][tetra] is a simple 2D game framework, inspired by XNA and Raylib.
+After a quiet few months, versions [0.3.3][tetra-033], [0.3.4][tetra-034]
+and [0.3.5][tetra-035] were all released over the course of April.
 
 Highlights of this month's updates include:
 
-* New integrations with the OS, such as file dropping and clipboard manipulation
-* More utilities for working with mouse and keyboard input
-* Enhancements to the animation API
-* Various under-the-hood improvements and optimizations
+- New integrations with the OS, such as file dropping and clipboard manipulation
+- More utilities for working with mouse and keyboard input
+- Enhancements to the animation API
+- Various under-the-hood improvements and optimizations
 
-[Tetra's website][tetra-website] has also had an overhaul, and is [looking for contributions to the showcase section][tetra-showcase]. If you're working on a project with Tetra, submit an issue or a PR to the [website repo][tetra-website-repo] to get it added!
+[Tetra's website][tetra-website] has also had an overhaul,
+and is [looking for contributions to the showcase section][tetra-showcase].
+If you're working on a project with Tetra, submit an issue or a PR
+to the [website repo][tetra-website-repo] to get it added!
 
 [tetra]: https://github.com/17cupsofcoffee/tetra
 [tetra-033]: https://twitter.com/17cupsofcoffee/status/1246407935980339200
