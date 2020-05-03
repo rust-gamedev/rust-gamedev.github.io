@@ -325,6 +325,15 @@ Their [April updates][mun-april] include:
 [mun-memory-mapping]: https://mun-lang.org/blog/2020/05/01/memory-mapping
 [mun-april]: https://mun-lang.org/blog/2020/05/02/this-month-april
 
+### Rust Sokoban tutorial
+
+Rust Sokoban tutorial is an online book aimed at Rust gamedev beginners which walks through making a simple Sokoban game using ECS, ggez and specs. It tries to teach the basics of architecting in ECS and basic Rust concepts through a hands-on approach. [@oliviff] is currently looking for a few people to beta test the tutorial before it goes live, if you've got a spare couple of hours and you'd like to contribute, send her a [DM].
+
+![sokoban level](sokoban_level.gif)
+
+[@oliviff]: https://twitter.com/oliviff
+[DM]: https://twitter.com/messages/compose?recipient_id=118804845
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
