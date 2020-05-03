@@ -147,100 +147,78 @@ _Discussions:
 
 ### Ludum Dare 46 Games
 
-[Ludum Dare 46](https://ldjam.com/) was this month! The theme was "Keep it
-alive", and there was a bunch of cool games made in Rust! Here's a roundup of
-some of them:
+[Ludum Dare 46](https://ldjam.com/) was this month!
+The theme was "Keep it alive", and there was a bunch of cool games made in Rust!
+Here's a roundup of some of them:
 
-#### The Hum
+- ["The Hum"](https://ldjam.com/events/ludum-dare/46/the-hum)
+  by [Hoichael](https://ldjam.com/users/hoichael),
+  [williwiderstand](https://ldjam.com/users/williwiderstand),
+  and [NoahRo](https://ldjam.com/users/noahro)
+  ([source code](https://github.com/Noah2610/LD46-TheHum),
+  [itch.io](https://noahro.itch.io/the-hum)):
 
-_By [Hoichael](https://ldjam.com/users/hoichael),
-[williwiderstand](https://ldjam.com/users/williwiderstand),
-and [NoahRo](https://ldjam.com/users/noahro)_
+  > Feed the bonfire. Keep it alive.
 
-![the hum screenshot](the-hum.jpg)
+  ![the hum screenshot](the-hum.jpg)
 
-> Feed the bonfire.
-> Keep it alive.
+- ["The Last Ship"](https://ldjam.com/events/ludum-dare/46/the-last-ship)
+  by [FedorL](https://ldjam.com/users/fedorl)
+  ([source code](https://github.com/not-fl3/ld46),
+  [itch.io](https://fedorgames.itch.io/ld46),
+  [Twitter thread](https://twitter.com/fedor_games/status/1251900504369778690)):
 
-- [GitHub page](https://github.com/Noah2610/LD46-TheHum)
-- [Jam page](https://ldjam.com/events/ludum-dare/46/the-hum)
-- [itch.io page](https://noahro.itch.io/the-hum)
+  > Carry humanity from dying planet into the bright future!
 
-#### The Last Ship
+  ![the last ship screenshot](the-last-ship.jpg)
 
-_By [FedorL](https://ldjam.com/users/fedorl)_
+- ["Frog Rations"](https://ldjam.com/events/ludum-dare/46/frog-rations)
+  by [healthire](https://ldjam.com/users/healthire)
+  ([source code](https://github.com/Healthire/ld46),
+  [Twitter thread](https://twitter.com/healthire_/status/1251412661016895488)):
 
-![the last ship screenshot](the-last-ship.jpg)
+  > Keep the frog alive by eating flies, but beware of the snake!
 
-> Carry humanity from dying planet into the bright future!
+  ![frog rations screenshot](frog-rations.jpg)
 
-- [GitHub page](https://github.com/not-fl3/ld46)
-- [Compo page](https://ldjam.com/events/ludum-dare/46/the-last-ship)
-- [itch.io page](https://fedorgames.itch.io/ld46)
-- [Twitter thread](https://twitter.com/fedor_games/status/1251900504369778690)
+- ["WOODS"](https://ldjam.com/events/ludum-dare/46/woods)
+  by [Feilkin](https://ldjam.com/users/feilkin)
+  ([source code](https://github.com/Feilkin/mela/tree/master/examples/ld46),
+  [itch.io](https://feilkin.itch.io/woods)):
 
-#### Frog Rations
+  > Keep the flame alive in the darkness!
 
-_By [healthire](https://twitter.com/healthire_)_
+  ![woods screenshot](woods.jpg)
 
-![frog rations screenshot](frog-rations.jpg)
+- ["Wonder"](https://ldjam.com/events/ludum-dare/46/wonder)
+  by [Ian Kettlewell](https://ldjam.com/users/ian-kettlewell)
+  ([source code](https://github.com/kettle11/LD46),
+  [itch.io](https://kettlecorn.itch.io/wonder)):
 
-Keep the frog alive by eating flies, but beware of the snake!
+  > Keep alive a sense of wonder.
 
-- [Twitter thread](https://twitter.com/healthire_/status/1251412661016895488)
-- [Game](https://healthire.github.io/ld46/)
+  ![wonder screenshot](wonder.jpg)
 
-#### WOODS
+- ["Lighthouse Keeper"](https://ldjam.com/events/ludum-dare/46/lighthouse-keeper)
+  by [dooskington](https://ldjam.com/users/dooskington)
+  ([source code](https://github.com/Dooskington/ld46),
+  [itch.io](https://dooskington.itch.io/ld46-lighthouse-keeper)):
 
-_By [Feilkin](https://ldjam.com/users/feilkin)_
+  > Alone on a rock in the sea, your job is an important one. Keep the lighthouse
+  > safe and operational, and don’t lose your mind. The goal is to survive for 30
+  > days. Unfinished.
 
-![woods screenshot](woods.jpg)
+  ![lighthouse keeper screenshot](lighthouse-keeper.jpg)
 
-Keep the flame alive in the darkness!
+- ["Fermi Paradox"](https://ldjam.com/events/ludum-dare/46/fermi-paradox)
+  by [tversteeg](https://ldjam.com/users/tversteeg)
+  ([source code](https://github.com/tversteeg/ld46)):
 
-- [GitHub page](https://github.com/Feilkin/mela/tree/master/examples/ld46)
-- [Compo page](https://ldjam.com/events/ludum-dare/46/woods)
-- [itch.io page](https://feilkin.itch.io/woods)
+  > How come we don’t see any life from other planets? What does an intergalactic
+  > society need to do to survive? Fermi Paradox is a combination of the arcade
+  > games of yesteryear with some modern twists.
 
-#### Wonder
-
-_By [Ian Kettlewell](https://ldjam.com/users/ian-kettlewell)_
-
-![wonder screenshot](wonder.jpg)
-
-> Keep alive a sense of wonder.
-
-- [GitHub page](https://github.com/kettle11/LD46)
-- [Compo page](https://ldjam.com/events/ludum-dare/46/wonder)
-- [itch.io page](https://kettlecorn.itch.io/wonder)
-
-#### Lighthouse Keeper
-
-_By [dooskington](https://ldjam.com/users/dooskington)_
-
-![lighthouse keeper screenshot](lighthouse-keeper.jpg)
-
-> Alone on a rock in the sea, your job is an important one. Keep the lighthouse
-> safe and operational, and don’t lose your mind. The goal is to survive for 30
-> days. Unfinished.
-
-- [GitHub page](https://github.com/Dooskington/ld46)
-- [Compo page](https://ldjam.com/events/ludum-dare/46/lighthouse-keeper)
-- [itch.io page](https://dooskington.itch.io/ld46-lighthouse-keeper)
-
-#### Fermi Paradox
-
-_By [tversteeg](https://ldjam.com/users/tversteeg)_
-
-![fermi paradox screenshot](fermi-paradox.jpg)
-
-> How come we don’t see any life from other planets? What does an intergalactic
-> society need to do to survive? Fermi Paradox is a combination of the arcade
-> games of yesteryear with some modern twists.
-
-- [GitHub page](https://github.com/tversteeg/ld46)
-- [Compo page](https://ldjam.com/events/ludum-dare/46/fermi-paradox)
-- [GitHub releases](https://github.com/tversteeg/ld46/releases)
+  ![fermi paradox screenshot](fermi-paradox.jpg)
 
 ## Library & Tooling Updates
 
