@@ -51,6 +51,39 @@ some actual interesting discussions.
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
+## [DUNGEONFOG] is Hiring
+
+![DUNGEONFOG editor](dgnfog.jpeg)
+
+[DUNGEONFOG] are developing editor tools for drawing and visualizing
+RPG tabletop maps.
+They're looking for a wgpu-rs developer for 2D graphics drawing.
+
+You can find all of the details on their [job offer page][dungeonfog-jobs].
+
+[DUNGEONFOG]: https://dungeonfog.com/
+[dungeonfog-jobs]: https://dungeonfog.com/about/job-offers/
+
+## [London Virtual Talks (GameDev Special)][ldn-video]
+
+[![TODO: describe](ldn-video.png)][ldn-video]
+
+[This month's London Rust meetup][ldn] features three gamedev talks:
+
+- "Rust GameDev WG" by [@\_AlexEne\_][@_AlexEne_] ([slides][ldn-slides-1])
+- "Levelling up in Rust" by [@oliviff] ([slides][ldn-slides-2])
+- "Scala to Rust: one game at a time" by [@plippe] ([slides][ldn-slides-3])
+
+Here's a [direct link to the recorded stream][ldn-video].
+
+[ldn]: https://meetup.com/Rust-London-User-Group/events/269357779
+[ldn-video]: https://youtube.com/watch?v=o9QeKfKLXXM
+[ldn-slides-1]: https://docs.google.com/presentation/d/1-uPn_a03oePVxJrw6l0u-DYlbJC_1i8i4DMs5J2grGw/edit#slide=id.g72ab46800e_0_118
+[ldn-slides-2]: https://docs.google.com/presentation/d/1R49kKosTRoQU6UPk9xAc8fXd3_GEnzzrrEfKwS97XHM/edit#slide=id.g7f7981398b_0_627
+[ldn-slides-3]: https://docs.google.com/presentation/d/1YP9ksYnk0Mzycywd0w_4X4QWAPQEqZtm8zTTvVEtedM/edit#slide=id.g7f632a29d0_0_310
+[@_AlexEne_]: https://twitter.com/_AlexEne_
+[@plippe]: https://github.com/plippe
+
 ## Game Updates
 
 ### [A/B Street][abstreet]
