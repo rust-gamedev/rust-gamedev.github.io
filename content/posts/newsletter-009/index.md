@@ -23,7 +23,7 @@ Want something mentioned in the next newsletter?
 [Send us a pull request][pr].
 Feel free to send PRs about your own projects!
 
-[rust]: https://rust-lang.org
+[Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 [pr]: https://github.com/rust-gamedev/rust-gamedev.github.io
 
@@ -144,12 +144,13 @@ _Discussions:
 [scale-blog-post]: http://douady.paris/blog/scale_3.html
 [scale-pedestrian-video]: https://youtu.be/QXF1-1BNddM
 [wgpu-rs]: https://github.com/gfx-rs/wgpu-rs
+
 ### For The Quest
 
 ![For The Quest screenshot](forthequest.jpg)
 
 For The Quest is the working title for a game in early development by
-[@seratonik][]. Written entirely in Rust and compiled to WebAssembly,
+[@seratonik]. Written entirely in Rust and compiled to WebAssembly,
 For The Quest is destined to become a MMORPG set in a post-apocalyptic
 Earth where your goal is to band together into like-minded factions to
 not only survive in this new world, but to unearth the cause of humanity's
@@ -174,10 +175,11 @@ New developments in April:
 - Started work on plans for a streaming asset manager
 - New desert/sand tileset models & textures (Thanks [Mishayla][mishayla]!)
 
-Follow [@seratonik][] on Twitter for updates.
+Follow [@seratonik] on Twitter for updates.
 
 [@seratonik]: https://twitter.com/seratonik
 [mishayla]: https://www.artstation.com/mpaulson
+
 ### Ludum Dare 46 Games
 
 [Ludum Dare 46](https://ldjam.com/) was this month!
@@ -497,7 +499,7 @@ and highlight events from the past. -->
 
 Just an interesting Rust gamedev link from the past. :)
 
----
+------
 
 That's all news for today, thanks for reading!
 
