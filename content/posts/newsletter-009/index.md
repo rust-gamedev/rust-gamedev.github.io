@@ -80,11 +80,12 @@ New developments in April:
 - Updated the mapping/tile system to support "sunken" floor tiles, which
   allows for ponds, lakes, cliff edges, etc.
 - Started work on plans for a streaming asset manager
-- New desert/sand tileset models & textures
+- New desert/sand tileset models & textures (Thanks [Mishayla][mishayla]!)
 
 Follow [@seratonik][] on Twitter for updates.
 
 [@seratonik]: https://twitter.com/seratonik
+[mishayla]: https://www.artstation.com/mpaulson
 
 ## Library & Tooling Updates
 
