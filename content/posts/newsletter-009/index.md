@@ -69,7 +69,18 @@ native desktop ports.
 
 New developments in April:
 
-- To be finished
+- Finished re-working and optimizing the rendering pipeline to allow for
+  post-processing and other screen-space effects
+- Planar reflections implemented, and work with an upgraded form of the
+  specular maps to determine how reflective a surface is
+- Add a flagging system so surfaces can identify their type to the
+  shading system so effects can be selectively applied per pixel
+- Used the new flagging system to identify water surfaces and make them
+  "ripple" their reflections
+- Updated the mapping/tile system to support "sunken" floor tiles, which
+  allows for ponds, lakes, cliff edges, etc.
+- Started work on plans for a streaming asset manager
+- New desert/sand tileset models & textures
 
 Follow [@seratonik][] on Twitter for updates.
 
