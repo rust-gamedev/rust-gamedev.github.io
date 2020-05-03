@@ -145,6 +145,41 @@ _Discussions:
 [scale-pedestrian-video]: https://youtu.be/QXF1-1BNddM
 [wgpu-rs]: https://github.com/gfx-rs/wgpu-rs
 
+### For The Quest
+
+![For The Quest screenshot](forthequest.jpg)
+
+For The Quest is the working title for a game in early development by
+[@seratonik]. Written entirely in Rust and compiled to WebAssembly,
+For The Quest is destined to become a MMORPG set in a post-apocalyptic
+Earth where your goal is to band together into like-minded factions to
+not only survive in this new world, but to unearth the cause of humanity's
+downfall.
+
+For The Quest is currently undergoing engine development with a focus on
+running smoothly in modern browsers using WebGL 2.0 before moving onto
+native desktop ports.
+
+New developments in April:
+
+- Finished re-working and optimizing the rendering pipeline to allow for
+  post-processing and other screen-space effects
+- Planar reflections implemented, and work with an upgraded form of the
+  specular maps to determine how reflective a surface is
+- Add a flagging system so surfaces can identify their type to the
+  shading system so effects can be selectively applied per pixel
+- Used the new flagging system to identify water surfaces and make them
+  "ripple" their reflections
+- Updated the mapping/tile system to support "sunken" floor tiles, which
+  allows for ponds, lakes, cliff edges, etc.
+- Started work on plans for a streaming asset manager
+- New desert/sand tileset models & textures (Thanks [Mishayla][mishayla]!)
+
+Follow [@seratonik] on Twitter for updates.
+
+[@seratonik]: https://twitter.com/seratonik
+[mishayla]: https://www.artstation.com/mpaulson
+
 ### Ludum Dare 46 Games
 
 [Ludum Dare 46](https://ldjam.com/) was this month!
