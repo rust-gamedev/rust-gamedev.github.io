@@ -66,7 +66,7 @@ You can find all of the details on their [job offer page][dungeonfog-jobs].
 
 ## [London Virtual Talks (GameDev Special)][ldn-video]
 
-[![TODO: describe](ldn-video.png)][ldn-video]
+[![Recorded stream screenshot](ldn-video.png)][ldn-video]
 
 [This month's London Rust meetup][ldn] features three gamedev talks:
 
