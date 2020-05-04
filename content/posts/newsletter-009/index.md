@@ -282,6 +282,59 @@ and features a local 2-player coop.
 
 [blobs-tweet]: https://twitter.com/rhmoller/status/1254179448586481669
 
+### [Colony Genesis][colony-itch]
+
+![gameplay screenshot with ASCII art graphics](colony.png)
+
+[Native Systems] is working on "Colony Genesis" - an ant colony sandbox game
+with ASCII graphics.
+This month v0.1.3 and v0.1.4 versions were released. Some of the updates:
+
+- Add controls to highlight all ants by behavior (SHIFT+select)
+- Fix frame loop timer to prevent fast forwards
+- Adds temperature diffusion and adjusts rates
+  It should now be easier to maintain high enough temperatures over night
+  and in lower soil layers for eggs to develop normally.
+
+[colony-itch]: https://nativesystems.itch.io/colony
+[Native Systems]: https://nativesystems.rs
+
+### [ssshmup]
+
+![shmup gameplay](ssshmup.gif)
+
+[ssshmup] by [@mkhan45]
+is a small small shoot 'em up made with [ggez] and [specs].
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/g6uwah/super_small_shootem_up)_
+
+[ssshmup]: https://github.com/mkhan45/ssshmup
+[@mkhan45]: https://github.com/mkhan45
+[ggez]: https://ggez.rs
+[specs]: https://github.com/amethyst/specs
+
+### [Robo Instructus]
+
+[![stepping through the code](robo.gif)][robo-news]
+
+[Alex Butler] continues to polish their "[Robo Instructus]" puzzle game -
+[1.25, 1.26, and 1.27 versions were released][robo-news]:
+automatically follow execution when paused,
+bugfixes, dependency updates, and performance optimizations.
+
+[Alex Butler]: https://twitter.com/bigabgames
+[Robo Instructus]: https://store.steampowered.com/app/1032170/Robo_Instructus
+[robo-news]: https://steamcommunity.com/app/1032170/allnews
+
+------
+
+Also, Alex published a new crate supporting the rasterization
+of .otf lines and quad/cubic Bézier curves: [ab_glyph_rasterizer].
+It's around 2-5x faster than the current rusttype .ttf rasterizer.
+
+[ab_glyph_rasterizer]: https://crates.io/crates/ab_glyph_rasterizer
+
 ### Amethyst Games
 
 - "Conquest" by [@takeryo_eeic] is a hexagonal tactic game.
