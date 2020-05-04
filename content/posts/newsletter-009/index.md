@@ -437,6 +437,41 @@ for the gfx-hal API.
 [hectic-rs]: https://github.com/expenses/hectic-rs
 [@expenses]: https://github.com/expenses
 
+### [Oxygengine][oxygengine]
+
+![Oxygengine logo](oxygengine-dark-logo.svg)
+
+This month [@PsichiX], creator of the [Oxygengine](oxygengine) game engine made
+further progress with the Ignite game editor, a hub application for game making
+tools for Indie game developers.
+
+**Code editor and Media player:**
+
+![Ignite Code editor and Media player](ignite-code-media.gif)
+
+**Play Mode window to play and test your game directly in the editor:**
+
+![Ignite Play Mode window](ignite-play-mode.png)
+
+**Additionaly new procedural macro was introduced into Oxygengine, this macro
+allows to bake information about types that will tell Ignite how to edit data of
+this types:**
+
+![Oxygengine Proc macro](ignite-proc-macro.png)
+
+There was an additional work done within Oxygengine ecosystem, which is
+[Chrobry](chrobry) crate - data driven template engine which is used in Ignite
+as part of tool that allows to create new projects from templates provided by
+plugins imported into Ignite editor.
+
+If you want to be up to date with Oxygengine ecosystem progress, make sure to
+follow project on GitHub and see [Oxygengine Project board](oxygengine_project).
+
+[@PsichiX]: https://github.com/PsichiX
+[oxygengine]: https://github.com/PsichiX/Oxygengine
+[oxygengine_project]: https://github.com/PsichiX/Oxygengine/projects/1
+[chrobry]: https://github.com/PsichiX/Chrobry
+
 ### [erupt]
 
 ![erupt logo](erupt.png)
