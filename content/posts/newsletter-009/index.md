@@ -120,6 +120,24 @@ Also, there're a lot of dev videos on the game's
 [cratebeforeattack-youtube]: https://youtube.com/channel/UC_xMilPTLuuE5iLs1Ml9zow
 [tokio]: https://tokio.rs
 
+### [Realm.One][realm-one]
+
+[![screenshot from the video](Realm-one.png)][realm-one-vid-3]
+
+[Realm.One][realm-one] is an open-source MMO game
+written using the Amethyst game engine.
+Recently there has been some simple AI 
+integrated into the game. This will cause
+monsters to chase and attack you!
+
+Next up will be items and experience!
+
+- ["Game Development in Rust (Episode 2): Monsters and AI! (Part B)"][realm-one-vid-3] -
+  ECS-based design with Amethyst, networking and tiled 2d based design.
+
+[realm-one]: https://github.com/Machine-Hum/realm.one
+[realm-one-vid-3]: https://youtu.be/8hvnjKf4M5M
+
 ### [A/B Street][abstreet]
 
 [A/B Street][abstreet] is a game by [dabreegster] exploring how small changes to
