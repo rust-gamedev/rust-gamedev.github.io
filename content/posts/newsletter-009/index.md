@@ -66,7 +66,7 @@ You can find all of the details on their [job offer page][dungeonfog-jobs].
 
 ## [London Virtual Talks (GameDev Special)][ldn-video]
 
-[![Recorded stream screenshot](ldn-video.png)][ldn-video]
+[![Recorded stream screenshot](ldn-video.jpeg)][ldn-video]
 
 [This month's London Rust meetup][ldn] features three gamedev talks:
 
@@ -78,13 +78,47 @@ Here's a [direct link to the recorded stream][ldn-video].
 
 [ldn]: https://meetup.com/Rust-London-User-Group/events/269357779
 [ldn-video]: https://youtube.com/watch?v=o9QeKfKLXXM
-[ldn-slides-1]: https://docs.google.com/presentation/d/1-uPn_a03oePVxJrw6l0u-DYlbJC_1i8i4DMs5J2grGw/edit#slide=id.g72ab46800e_0_118
-[ldn-slides-2]: https://docs.google.com/presentation/d/1R49kKosTRoQU6UPk9xAc8fXd3_GEnzzrrEfKwS97XHM/edit#slide=id.g7f7981398b_0_627
-[ldn-slides-3]: https://docs.google.com/presentation/d/1YP9ksYnk0Mzycywd0w_4X4QWAPQEqZtm8zTTvVEtedM/edit#slide=id.g7f632a29d0_0_310
+[ldn-slides-1]: https://docs.google.com/presentation/d/1-uPn_a03oePVxJrw6l0u-DYlbJC_1i8i4DMs5J2grGw
+[ldn-slides-2]: https://docs.google.com/presentation/d/1R49kKosTRoQU6UPk9xAc8fXd3_GEnzzrrEfKwS97XHM
+[ldn-slides-3]: https://docs.google.com/presentation/d/1YP9ksYnk0Mzycywd0w_4X4QWAPQEqZtm8zTTvVEtedM
 [@_AlexEne_]: https://twitter.com/_AlexEne_
 [@plippe]: https://github.com/plippe
 
 ## Game Updates
+
+### [Crate Before Attack][cratebeforeattack-site]
+
+[![screenshot: a frog swinging on their tongue](cratebeforeattack.png)][cratebeforeattack-site]
+
+["Crate Before Attack"][cratebeforeattack-site] by @koalefant
+is a multiplayer game where frogs combat their friends
+while navigating a landscape with their sticky tongue.
+It is a hybrid of a realtime and turn-based game.
+
+The game [can be played right in the browser (PC-only)][cratebeforeattack-play].
+
+It is built for Web using [miniquad] and [tokio] crates and features:
+
+- Swift roping (aka grappling hook);
+- Diverse weapons;
+- Local and online multiplayer;
+- Procedural animation;
+- Fun physics.
+
+Check the [devlog][cratebeforeattack-devlog]. It has three posts atm:
+
+- ["Inflation"](https://cratebeforeattack.com/posts/20200420-inflation)
+- ["Hare Animation"](https://cratebeforeattack.com/posts/20200428-hare-animation)
+- ["Rust Experiment"](https://cratebeforeattack.com/posts/20200502-rust)
+
+Also, there're a lot of dev videos on the game's
+[YouTube channel][cratebeforeattack-youtube].
+
+[cratebeforeattack-devlog]: https://cratebeforeattack.com/posts
+[cratebeforeattack-play]: https://cratebeforeattack.com/play
+[cratebeforeattack-site]: https://cratebeforeattack.com
+[cratebeforeattack-youtube]: https://youtube.com/channel/UC_xMilPTLuuE5iLs1Ml9zow
+[tokio]: https://tokio.rs
 
 ### [A/B Street][abstreet]
 
@@ -212,6 +246,54 @@ Follow [@seratonik] on Twitter for updates.
 
 [@seratonik]: https://twitter.com/seratonik
 [mishayla]: https://www.artstation.com/mpaulson
+
+### [Akigi][akigi]
+
+![shadows demo](akigi-shadows.jpeg)
+
+^ _new shadows_
+
+> [Akigi][akigi] is a multiplayer online world where humans
+> aren't the only intelligent animals.
+
+Some of this months's updates:
+
+- [Better NPC decision making](https://devjournal.akigi.com/april-2020/061-2020-04-05.html#npc-decision-making).
+- [Health bars, water](https://devjournal.akigi.com/april-2020/062-2020-04-12.html)
+  and [shadows](https://devjournal.akigi.com/april-2020/063-2020-04-19.html).
+- [Displaying damage received](https://devjournal.akigi.com/april-2020/064-2020-04-26.html#displaying-damage-received).
+
+Full devlogs:
+[#061](https://devjournal.akigi.com/april-2020/061-2020-04-05.html),
+[#062](https://devjournal.akigi.com/april-2020/062-2020-04-12.html),
+[#063](https://devjournal.akigi.com/april-2020/063-2020-04-19.html),
+[#064](https://devjournal.akigi.com/april-2020/064-2020-04-26.html).
+
+[akigi]: https://akigi.com
+
+### Blobs'n'Bullets
+
+![shmup](blobs-n-bullets.gif)
+
+[@rhmoller started working][blobs-tweet] on
+a retro twin-stick shooter "Blobs'n'Bullets".
+It uses WASM, web-sys, canvas and the gamepad-api
+and features a local 2-player coop.
+
+[blobs-tweet]: https://twitter.com/rhmoller/status/1254179448586481669
+
+### Amethyst Games
+
+- "Conquest" by [@takeryo_eeic] is a hexagonal tactic game.
+  This month [its model were updated][conquest-models]
+  and the UX was reworked to feel like moving chess pieces.
+  Check out a [new gameplay video][conquest-video]:
+
+  [![new models](conquest.gif)][conquest-video]
+
+[@takeryo_eeic]: https://twitter.com/takeryo_eeic
+[conquest-models]: https://twitter.com/takeryo_eeic/status/1246189179467214850
+[conquest-video]: https://twitter.com/takeryo_eeic/status/1249850460678193152
 
 ### Ludum Dare 46 Games
 
