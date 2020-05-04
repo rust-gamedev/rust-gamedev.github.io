@@ -290,10 +290,22 @@ and features a local 2-player coop.
   Check out a [new gameplay video][conquest-video]:
 
   [![new models](conquest.gif)][conquest-video]
-
-[@takeryo_eeic]: https://twitter.com/takeryo_eeic
-[conquest-models]: https://twitter.com/takeryo_eeic/status/1246189179467214850
-[conquest-video]: https://twitter.com/takeryo_eeic/status/1249850460678193152
+  
+  [@takeryo_eeic]: https://twitter.com/takeryo_eeic
+  [conquest-models]: https://twitter.com/takeryo_eeic/status/1246189179467214850
+  [conquest-video]: https://twitter.com/takeryo_eeic/status/1249850460678193152
+  
+- [Grumpy Visitors](grumpy_visitors) by [@mvlabat] is a top-down
+  2D co-op action/arcade game highly inspired by Evil Invasion.
+  Two weeks ago the game received a few updates of UI and multiplayer.
+  
+  Also, [a short video](grumpy_visitors-video) was posted to twitter, showing the latest state
+  of Grumpy Visitors:
+  [![grumpy_visitors-video](grumpy_visitors-video.gif)][grumpy_visitors-video]
+  
+  [@mvlabat]: https://github.com/mvlabat
+  [grumpy_visitors]: https://github.com/amethyst/grumpy_visitors
+  [grumpy_visitors-video]: https://twitter.com/mvlabat/status/1257362218078867460
 
 ### Ludum Dare 46 Games
 
