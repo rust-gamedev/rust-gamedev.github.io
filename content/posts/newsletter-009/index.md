@@ -285,15 +285,49 @@ and features a local 2-player coop.
 ### Amethyst Games
 
 - "Conquest" by [@takeryo_eeic] is a hexagonal tactic game.
-  This month [its model were updated][conquest-models]
-  and the UX was reworked to feel like moving chess pieces.
-  Check out a [new gameplay video][conquest-video]:
 
-  [![new models](conquest.gif)][conquest-video]
+    This month [its model were updated][conquest-models]
+    and the UX was reworked to feel like moving chess pieces.
+    Check out a [new gameplay video][conquest-video]:
+
+    [![new models](conquest.gif)][conquest-video]
+
+- [Boulder Dash] remake by [dpc].
+
+    This is a new remake of an old classic.
+
+    ![](boulder_dash.png)
+
+- [Jérémy Thulliez] shared his experience making 3 little games:
+
+    - A [gameboy proof-of-concept] ([repository][gameboy_repo])
+    - [Tetris][tetris_twitter] ([repository][tetris_repo])
+    - Pong ([blog post][pong_blogpost], [repository][pong_repo])
+
+- [Will] by [Azriel] is a moddable 2.5D action / adventure game.
+
+    [This month's update][will_update] includes preliminary support for WASM,
+    with most effort directed in the underlying Amethyst library.
+
+    Check out the [video][will_video] to see online play between native and web clients.
+
+    [![](./will_wasm_network.png)][will_video]
 
 [@takeryo_eeic]: https://twitter.com/takeryo_eeic
+[Boulder Dash]: https://github.com/dpc/boulder-dash.rs
 [conquest-models]: https://twitter.com/takeryo_eeic/status/1246189179467214850
 [conquest-video]: https://twitter.com/takeryo_eeic/status/1249850460678193152
+[dpc]: https://github.com/dpc
+[gameboy proof-of-concept]: https://twitter.com/JeremyThulliez/status/1255042737579134977
+[gameboy_repo]: https://github.com/grzi/rust-gameboy-game-poc
+[Jérémy Thulliez]: https://twitter.com/JeremyThulliez
+[pong_blogpost]: https://www.wootlab.io/blog/pong-in-rust-with-amethyst
+[pong_repo]: https://github.com/grzi/rust-pong
+[tetris_repo]: https://github.com/grzi/rust-tetris
+[tetris_twitter]: https://twitter.com/JeremyThulliez/status/1251903725276454913
+[Will]: https://github.com/azriel91/autexousious
+[will_update]: https://azriel.im/will/2020/04/24/browsers-assemble/
+[will_video]: https://youtu.be/Hc8EtqrlJsE
 
 ### Ludum Dare 46 Games
 
