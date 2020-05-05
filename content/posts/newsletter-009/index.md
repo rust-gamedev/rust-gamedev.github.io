@@ -285,33 +285,29 @@ and features a local 2-player coop.
 ### Amethyst Games
 
 - "Conquest" by [@takeryo_eeic] is a hexagonal tactic game.
+  This month [its model were updated][conquest-models]
+  and the UX was reworked to feel like moving chess pieces.
+  Check out a [new gameplay video][conquest-video]:
 
-    This month [its model were updated][conquest-models]
-    and the UX was reworked to feel like moving chess pieces.
-    Check out a [new gameplay video][conquest-video]:
+  [![new models](conquest.gif)][conquest-video]
 
-    [![new models](conquest.gif)][conquest-video]
+- [Boulder Dash] remake by [dpc] - a new remake of an old classic.
 
-- [Boulder Dash] remake by [dpc].
+  ![pixelart boulders](boulder_dash.png)
 
-    This is a new remake of an old classic.
+- [Jérémy Thulliez] shared their experience making 3 little games:
 
-    ![](boulder_dash.png)
-
-- [Jérémy Thulliez] shared his experience making 3 little games:
-
-    - A [gameboy proof-of-concept] ([repository][gameboy_repo])
-    - [Tetris][tetris_twitter] ([repository][tetris_repo])
-    - Pong ([blog post][pong_blogpost], [repository][pong_repo])
+  - A [gameboy proof-of-concept] ([repository][gameboy_repo])
+  - [Tetris][tetris_twitter] ([repository][tetris_repo])
+  - Pong ([blog post][pong_blogpost], [repository][pong_repo])
 
 - [Will] by [Azriel] is a moddable 2.5D action / adventure game.
+  [This month's update][will_update] includes preliminary support for WASM,
+  with most effort directed in the underlying Amethyst library.
 
-    [This month's update][will_update] includes preliminary support for WASM,
-    with most effort directed in the underlying Amethyst library.
+  Check out the [video][will_video] to see online play between native and web clients.
 
-    Check out the [video][will_video] to see online play between native and web clients.
-
-    [![](./will_wasm_network.png)][will_video]
+  [![Networking demo](will_wasm_network.png)][will_video]
 
 [@takeryo_eeic]: https://twitter.com/takeryo_eeic
 [Boulder Dash]: https://github.com/dpc/boulder-dash.rs
@@ -326,6 +322,7 @@ and features a local 2-player coop.
 [tetris_repo]: https://github.com/grzi/rust-tetris
 [tetris_twitter]: https://twitter.com/JeremyThulliez/status/1251903725276454913
 [Will]: https://github.com/azriel91/autexousious
+[Azriel]: https://twitter.com/im_azriel
 [will_update]: https://azriel.im/will/2020/04/24/browsers-assemble/
 [will_video]: https://youtu.be/Hc8EtqrlJsE
 
@@ -579,24 +576,24 @@ Main changes:
 
 ### [Amethyst][amethyst]
 
-[![Amethyst logo](../newsletter-008/amethyst-logo.png)][amethyst]
+[![Amethyst logo](amethyst-logo.png)][amethyst]
 
 - Early [WASM support][amethyst_wasm_support] exists on the
   [`wasm` branch][amethyst_wasm_branch].
 
-    - Basic input, audio, and rendering support.
-    - Online play support through `WebSocket`s.
-    - Includes OpenGL support for native applications.
+  - Basic input, audio, and rendering support.
+  - Online play support through `WebSocket`s.
+  - Includes OpenGL support for native applications.
 
 - [`amethyst_lyon`][amethyst_lyon] by [@cuberoo_] provides integration with the
   [`lyon` tessellation library][lyon].
 
-    This is used as a renderer plugin.
+  This is used as a renderer plugin.
 
 - [MachineHum] shared two videos on his game development ventures:
 
-    - [Compiling Amethyst][amethyst_gameshell] for the [GameShell].
-    - [Making Pokemon Gold][amethyst_pokemon_gold].
+  - [Compiling Amethyst][amethyst_gameshell] for the [GameShell].
+  - [Making Pokemon Gold][amethyst_pokemon_gold].
 
 [@cuberoo_]: https://twitter.com/cuberoo_
 [amethyst]: https://amethyst.rs
