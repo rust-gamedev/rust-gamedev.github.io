@@ -426,7 +426,7 @@ _Discussions:
 
 [@snorrwe] has written [a blog post][quadtree-post]
 about exploring an implementation of a linear quadtree
-and comparing it with a naive implementation of spacial data quering.
+and comparing it with a naive implementation of spacial data querying.
 All code mentioned in the post [is available on GitHub][quadtree-repo].
 
 _Discussions:
