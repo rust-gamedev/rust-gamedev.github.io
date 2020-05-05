@@ -126,13 +126,13 @@ Also, there're a lot of dev videos on the game's
 
 [Realm.One][realm-one] is an open-source MMO game
 written using the Amethyst game engine.
-Recently there has been some simple AI 
+Recently there has been some simple AI
 integrated into the game. This will cause
 monsters to chase and attack you!
 
 Next up will be items and experience!
 
-- ["Game Development in Rust (Episode 2): Monsters and AI! (Part B)"][realm-one-vid-3] -
+- ["GameDev in Rust (Ep.2): Monsters and AI! (Part B)"][realm-one-vid-3] -
   ECS-based design with Amethyst, networking and tiled 2d based design.
 
 [realm-one]: https://github.com/Machine-Hum/realm.one
@@ -643,47 +643,43 @@ Their [April updates][mun-april] include:
 
 [Sarekt] is a Vulkan-based renderer by Brandon Pollack.
 
-The library has [examples][sarekt-examples] corresponding to the steps of vulkan-tutorial.com, which may be helpful if you want to compare its API with raw Vulkan code.
+The library has [examples][sarekt-examples] corresponding
+to the steps of vulkan-tutorial.com,
+which may be helpful if you want to compare its API with raw Vulkan code.
 
-_Discussion:
-[/r/rust](https://www.reddit.com/r/rust/comments/fxyjmi/have_a_look_at_this_renderer_im_working_on/)_
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/fxyjmi/have_a_look_at_this_renderer_im_working_on)_
 
 [Sarekt]: https://github.com/brandonpollack23/sarekt
 [sarekt-examples]: https://github.com/brandonpollack23/sarekt/tree/master/examples
 
-### Godot Ecosystem
+### [Godot] Ecosystem
 
-#### [Setting up Godot and Rust][hagsteel-tutorial]
+- [@hagsteel] has written a [beginner-friendly tutorial][hagsteel-tutorial]
+  on how to get up and running with Godot and Rust.
+  It's written with Linux in mind, but should be transferrible
+  to other operating systems
+  \[[/r/rust](https://www.reddit.com/r/rust_gamedev/comments/g126es/godot_rust_hagsteel_a_tutorial)].
+- [@hagsteel] has also written a [blog post][hagsteel-legion] with their take
+  on how to use the Legion ECS library with Rust and Godot
+  \[[/r/rust](https://www.reddit.com/r/rust_gamedev/comments/g2avzc/using_rust_godot_legion)].
+- [@schr3da] has published a series of video tutorials on how Rust can be used
+  effectively with Godot:
+  - Basic Keyboard Controls -
+    [Part 1](https://youtube.com/watch?v=qEHrRLLYc3Q) and
+    [Part 2](https://youtube.com/watch?v=_Lxr6pAXBsQ)
+  - [Debugging GDNative Scripts with LLDB](https://youtube.com/watch?v=aMaT6pyDocg)
+  - [File Watching with cargo-watch](https://youtube.com/watch?v=McNgUqzmQkk)
+  - Creating a Simple Platformer -
+    [Part 1](https://youtube.com/watch?v=SIesTvp_ZD8),
+    [Part 2](https://youtube.com/watch?v=GKIUWbW4G9o) and
+    [Part 3](https://youtube.com/watch?v=_n_5MDEquk4)
 
-[hagsteel] has written a [beginner-friendly tutorial][hagsteel-tutorial] on how to get up and running with Godot and Rust.
-
-It's written with Linux in mind, but should be transferrible to other operating systems.
-
-_Discussion:
-[/r/rust](https://www.reddit.com/r/rust_gamedev/comments/g126es/godot_rust_hagsteel_a_tutorial_for_linux_gamedevs/)_
-
-[hagsteel]: https://hagsteel.com
-[hagsteel-tutorial]: https://hagsteel.com/posts/godot-rust/
-
-#### [Using Rust and Godot and Legion][hagsteel-legion]
-
-[hagsteel] has also written a [blog post][hagsteel-legion] with their take on how to use the Legion ECS library with Rust and Godot.
-
-_Discussion:
-[/r/rust](https://www.reddit.com/r/rust_gamedev/comments/g2avzc/using_rust_godot_legion/)_
-
+[@hagsteel]: https://hagsteel.com
 [hagsteel-legion]: https://hagsteel.com/posts/godot-rust-legion/
-
-#### Video Tutorials by [schr3da]
-
-[schr3da] has published a series of video tutorials on how Rust can be used effectively with Godot:
-
-* Basic Keyboard Controls - [Part 1](https://www.youtube.com/watch?v=qEHrRLLYc3Q) and [Part 2](https://www.youtube.com/watch?v=_Lxr6pAXBsQ)
-* [Debugging GDNative Scripts with LLDB](https://www.youtube.com/watch?v=aMaT6pyDocg)
-* [File Watching with cargo-watch](https://www.youtube.com/watch?v=McNgUqzmQkk)
-* Creating a Simple Platformer - [Part 1](https://www.youtube.com/watch?v=SIesTvp_ZD8), [Part 2](https://www.youtube.com/watch?v=GKIUWbW4G9o) and [Part 3](https://www.youtube.com/watch?v=_n_5MDEquk4)
-
-[schr3da]: https://www.youtube.com/channel/UC4jYW3lJKrEvOqCQ2ElryGw
+[hagsteel-tutorial]: https://hagsteel.com/posts/godot-rust/
+[@schr3da]: https://www.youtube.com/channel/UC4jYW3lJKrEvOqCQ2ElryGw
+[Godot]: https://godotengine.org
 
 ## Popular Workgroup Issues in Github
 
