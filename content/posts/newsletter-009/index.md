@@ -565,14 +565,14 @@ send her a [DM][oliviff-dm].
 [@oliviff]: https://twitter.com/oliviff
 [oliviff-dm]: https://twitter.com/messages/compose?recipient_id=118804845
 
-## [Multiple ECS in My Personal Game Project][ecs-post]
+### [Multiple ECS in My Personal Game Project][ecs-post]
 
 [@dasifefe shared their thoughs][ecs-post]
 about using multiple ECSes in a project.
 
 [ecs-post]: https://dasifefe.com/post-2020-04-05-01.html
 
-## [Measuring Build Timings with mathbench][mathbench-time]
+### [Measuring Build Timings with mathbench][mathbench-time]
 
 [@bitshifternz] (author of [glam]) has written [a blog post][mathbench-time]
 about comparing build times of some popular Rust gamedev math crates
@@ -584,7 +584,7 @@ using a [mathbench-rs] unit tests suit.
 [mathbench-rs]: https://github.com/bitshifter/mathbench-rs
 [glam]: https://github.com/bitshifter/glam-rs
 
-## [Tutorial on 3D Graphics, Rust, Vulkan, and ash][ash-tutorial]
+### [Tutorial on 3D Graphics, Rust, Vulkan, and ash][ash-tutorial]
 
 @hoj-senna started writing a new tutorial about [ash] and Vulkan in general:
 ["Ashen Aetna"][ash-tutorial].
@@ -597,7 +597,7 @@ _Discussions:
 [ash-tutorial]: https://hoj-senna.github.io/ashen-aetna
 [ash]: https://github.com/MaikKlein/ash
 
-## [Implementing a Linear Quadtree in Rust][quadtree-post]
+### [Implementing a Linear Quadtree in Rust][quadtree-post]
 
 ![demo of how the Z-order curve fills the space](quadtree.jpeg)
 
@@ -613,7 +613,7 @@ _Discussions:
 [quadtree-repo]: https://github.com/snorrwe/morton-table
 [@snorrwe]: https://snorrwe.onrender.com/
 
-## [Simple 2D Camera System for Rust with GGEZ][ggez-camera]
+### [Simple 2D Camera System for Rust with GGEZ][ggez-camera]
 
 [@sylvain has written a tutorial][ggez-camera] about implementing
 a simple 2D camera on top of [GGEZ][ggez].
@@ -621,7 +621,23 @@ a simple 2D camera on top of [GGEZ][ggez].
 [ggez-camera]: https://dev.to/sobertkaos/simple-2dcamera-system-for-rust-with-ggez-2o2h
 [ggez]: https://ggez.rs
 
-## [Symmetric Matrices & Triangle Numbers][matrices-post]
+### [Vis Arcana: Our Backend – Technology][visarcana-post]
+
+![logo](visarcana.jpeg)
+
+Authors of [Vis Arcana][visarcana-what] shared a [blog post][visarcana-post]
+explaining why they've chosen Rust for their project's backend.
+
+> ... Rust advertises as a very productive language in which most errors
+> (apart from logical ones) are caught at the compilation stage.
+> After more than a year of working with it, I must admit that
+> it’s absolutely correct – new game modules are added extremely quickly,
+> and the number of errors has dropped to practically zero. ...
+
+[visarcana-post]: https://visarcana.com/2020/04/24/our-backend-technology
+[visarcana-what]: https://visarcana.com/2020/05/04/what-is-vis-arcana/
+
+### [Symmetric Matrices & Triangle Numbers][matrices-post]
 
 ![an example of a multi-layered game level](rhea-player-orb.jpeg)
 
@@ -637,6 +653,34 @@ using [symmetric matrices] and [triangle numbers].
 [matrices-post]: https://anthropicstudios.com/2020/03/30/symmetric-matrices
 [symmetric matrices]: https://en.wikipedia.org/wiki/Symmetric_matrix
 [triangle numbers]: https://en.wikipedia.org/wiki/Triangular_number
+
+### [turbulence] and [goggles]
+
+This month @kyren released two libraries: [turbulence] and [goggles].
+
+> [turbulence] is the more interesting of the two, it is another attempt
+> at a rust-based networking library for games.
+> The main thing I think that sets it apart is that it is async
+> while being totally reactor, executor, and platform agnostic.
+> It is a library that just allows you to take a stream of unreliable,
+> unordered packets and turn them into N independent unreliable,
+> unordered or reliable, ordered streams of messages.
+>
+> [goggles] is probably not as interesting, but it is an aggressively
+> stripped down fork of specs / shred with more of the insides exposed.
+> My favorite part about specs is how easy it is to use just the parts of it
+> that you actually need, but I wanted to go further.
+> For me, the functionality of specs that I needed was really just
+> the entity allocator, a few storage types, MaskedStorage,
+> and the Join system.
+> goggles is just that: the bare minimum pieces that you need
+> to assemble your own ECS system, as independent as I could make them.
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/fzuv71/two_new_gamedev_libraries_turbulence_and_goggles)_
+
+[turbulence]: https://github.com/kyren/turbulence
+[goggles]: https://github.com/kyren/goggles
 
 ### `gfx-rs` and `wgpu` News
 
@@ -978,9 +1022,11 @@ _Discussions:
 [@schr3da]: https://www.youtube.com/channel/UC4jYW3lJKrEvOqCQ2ElryGw
 [Godot]: https://godotengine.org
 
+<!--
 ## Popular Workgroup Issues in Github
 
-<!-- Up to 10 links to interesting issues -->
+skiping this section this time
+-->
 
 ## Meeting Minutes
 
@@ -1025,6 +1071,31 @@ or [join the next meeting][join].
 and highlight events from the past. -->
 
 Just an interesting Rust gamedev link from the past. :)
+
+![example](valora-example.jpeg)
+
+^ _"dead end" by turnage, 2019_
+
+A few months ago a  generative art library ["valora"][valora-src]
+was released by [@turnage].
+Features:
+
+- Repeatable works at arbitrary resolutions without changing the work
+- Managed rngs for repeatable works and controlled rng trees
+- Support for using a different, custom GLSL shader for each vector path
+- GLSL live coding with "#include" support
+- An ergonomic derive-based GLSL uniforms interface
+- Animation support for brainstorming and cumulative pieces
+
+Check out the [guide][valora] and [gallery][valora-gallery].
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/echrqd/valora)_
+
+[valora]: https://paytonturnage.gitbook.io/valora
+[valora-src]: https://github.com/turnage/valora
+[valora-gallery]: https://paytonturnage.gitbook.io/valora/gallery
+[@turnage]: https://paytonturnage.com
 
 ------
 
