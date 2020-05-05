@@ -370,6 +370,71 @@ Here's a roundup of some of them:
 
   ![fermi paradox screenshot](fermi-paradox.jpg)
 
+
+### [Veloren][veloren]
+
+![Buildings](veloren1.png)
+
+^ _Early procedural building generation_
+
+[Veloren][veloren] is an open world, open-source voxel RPG
+inspired by Dwarf Fortress and Cube World.
+
+Lots of systems have been finished up in April to prepare for the launch of 0.6.
+Many improvements have been made to the combat systems. Basic world and
+civilization simulations have been implemented. Lots of new soundtracks have
+been added. The UI is being reworked. Experimental work is being done with
+migrating to wgpu, and the level of detail system is a lot closer to being
+merged. Villagers have been getting a lot of love as well, making the world feel
+more alive.
+
+Here is the April changelog:
+
+```text
+- Complete rewrite of the combat system into a state machine
+- Abilities like Dash and Triplestrike
+- Fireball explosions
+- Many new armors and weapons to find in chests
+- Fleshed out "attack" animation into alpha, beta and spin type attacks
+- Fleshed out range attack into charging and shooting anims for staff/bow
+- Added a silhouette for players when they are occluded
+- Added transparency to the player when zooming in
+- Added dragging and right-click to use functionality to inventory, armor & hotbar slots
+- Added basic world and civilisation simulation
+- Added fields, crops and scarecrows, paths, bridges, procedural house generation
+- Added lampposts, NPCs that spawn in towns, and simple dungeons
+- Added sub-voxel noise effect
+- Added waypoints next to dungeons
+- Added non-uniform block heights
+- Added a Level of Detail (LoD) system for terrain sprites and entities
+- Villagers tools and clothing, cultists clothing
+- You can start the game by pressing "enter" from the character selection menu
+```
+
+![Hanging out](veloren2.png)
+
+^ _Early procedural building generation_
+
+You can read more about some specific topics from April:
+
+- [Player Transparency](https://veloren.net/devblog-62#capucho)
+- [Towns and Dungeons](https://veloren.net/devblog-64#towns-and-dungeons)
+- [wgpu](https://veloren.net/devblog-64#wgpu-with-capucho)
+- [Tarpaulin and Toolchains](https://veloren.net/devblog-65#tarpaulin-and-toolchains-by-angelonfira)
+- [LoD Progress](https://veloren.net/devblog-65#lod-and-lighting-progress-from-sharp)
+- [Sprite LoD](https://veloren.net/devblog-65#sprite-lod-from-zesterer)
+
+The final touches of 0.6 are wrapping up. The team will meet once 0.6 is
+released to disucss what 0.7 will look like. See you next month!
+
+April's full weekly devlogs: "This Week In Veloren...":
+[#62](https://veloren.net/devblog-62),
+[#63](https://veloren.net/devblog-63),
+[#64](https://veloren.net/devblog-64),
+[#65](https://veloren.net/devblog-65),
+
+[veloren]: https://veloren.net
+
 ## Library & Tooling Updates
 
 ### Rust Sokoban Tutorial
