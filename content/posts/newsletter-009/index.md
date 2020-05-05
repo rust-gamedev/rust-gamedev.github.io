@@ -120,6 +120,24 @@ Also, there're a lot of dev videos on the game's
 [cratebeforeattack-youtube]: https://youtube.com/channel/UC_xMilPTLuuE5iLs1Ml9zow
 [tokio]: https://tokio.rs
 
+### [Realm.One][realm-one]
+
+[![screenshot from the video](realm-one.jpeg)][realm-one-vid-3]
+
+[Realm.One][realm-one] is an open-source MMO game
+written using the Amethyst game engine.
+Recently there has been some simple AI
+integrated into the game. This will cause
+monsters to chase and attack you!
+
+Next up will be items and experience!
+
+- ["GameDev in Rust (Ep.2): Monsters and AI! (Part B)"][realm-one-vid-3] -
+  ECS-based design with Amethyst, networking and tiled 2d based design.
+
+[realm-one]: https://github.com/Machine-Hum/realm.one
+[realm-one-vid-3]: https://youtu.be/8hvnjKf4M5M
+
 ### [A/B Street][abstreet]
 
 [A/B Street][abstreet] is a game by [dabreegster] exploring how small changes to
@@ -282,6 +300,59 @@ and features a local 2-player coop.
 
 [blobs-tweet]: https://twitter.com/rhmoller/status/1254179448586481669
 
+### [Colony Genesis][colony-itch]
+
+![gameplay screenshot with ASCII art graphics](colony.png)
+
+[Native Systems] is working on "Colony Genesis" - an ant colony sandbox game
+with ASCII graphics.
+This month v0.1.3 and v0.1.4 versions were released. Some of the updates:
+
+- Add controls to highlight all ants by behavior (SHIFT+select)
+- Fix frame loop timer to prevent fast forwards
+- Adds temperature diffusion and adjusts rates
+  It should now be easier to maintain high enough temperatures over night
+  and in lower soil layers for eggs to develop normally.
+
+[colony-itch]: https://nativesystems.itch.io/colony
+[Native Systems]: https://nativesystems.rs
+
+### [ssshmup]
+
+![shmup gameplay](ssshmup.gif)
+
+[ssshmup] by [@mkhan45]
+is a small small shoot 'em up made with [ggez] and [specs].
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/g6uwah/super_small_shootem_up)_
+
+[ssshmup]: https://github.com/mkhan45/ssshmup
+[@mkhan45]: https://github.com/mkhan45
+[ggez]: https://ggez.rs
+[specs]: https://github.com/amethyst/specs
+
+### [Robo Instructus]
+
+[![stepping through the code](robo.gif)][robo-news]
+
+[Alex Butler] continues to polish their "[Robo Instructus]" puzzle game -
+[1.25, 1.26, and 1.27 versions were released][robo-news]:
+automatically follow execution when paused,
+bugfixes, dependency updates, and performance optimizations.
+
+[Alex Butler]: https://twitter.com/bigabgames
+[Robo Instructus]: https://store.steampowered.com/app/1032170/Robo_Instructus
+[robo-news]: https://steamcommunity.com/app/1032170/allnews
+
+------
+
+Also, Alex published a new crate supporting the rasterization
+of .otf lines and quad/cubic Bézier curves: [ab_glyph_rasterizer].
+It's around 2-5x faster than the current rusttype .ttf rasterizer.
+
+[ab_glyph_rasterizer]: https://crates.io/crates/ab_glyph_rasterizer
+
 ### Amethyst Games
 
 - "Conquest" by [@takeryo_eeic] is a hexagonal tactic game.
@@ -291,10 +362,6 @@ and features a local 2-player coop.
 
   [![new models](conquest.gif)][conquest-video]
   
-  [@takeryo_eeic]: https://twitter.com/takeryo_eeic
-  [conquest-models]: https://twitter.com/takeryo_eeic/status/1246189179467214850
-  [conquest-video]: https://twitter.com/takeryo_eeic/status/1249850460678193152
-  
 - [Grumpy Visitors](grumpy_visitors) by [@mvlabat] is a top-down
   2D co-op action/arcade game highly inspired by Evil Invasion.
   Two weeks ago the game received a few updates of UI and multiplayer.
@@ -302,10 +369,44 @@ and features a local 2-player coop.
   Also, [a short video](grumpy_visitors-video) was posted to twitter, showing the latest state
   of Grumpy Visitors:
   [![grumpy_visitors-video](grumpy_visitors-video.gif)][grumpy_visitors-video]
-  
-  [@mvlabat]: https://github.com/mvlabat
-  [grumpy_visitors]: https://github.com/amethyst/grumpy_visitors
-  [grumpy_visitors-video]: https://twitter.com/mvlabat/status/1257362218078867460
+
+- [Boulder Dash] remake by [dpc] - a new remake of an old classic.
+
+  ![pixelart boulders](boulder_dash.png)
+
+- [Jérémy Thulliez] shared their experience making 3 little games:
+
+  - A [gameboy proof-of-concept] ([repository][gameboy_repo])
+  - [Tetris][tetris_twitter] ([repository][tetris_repo])
+  - Pong ([blog post][pong_blogpost], [repository][pong_repo])
+
+- [Will] by [Azriel] is a moddable 2.5D action / adventure game.
+  [This month's update][will_update] includes preliminary support for WASM,
+  with most effort directed in the underlying Amethyst library.
+
+  Check out the [video][will_video] to see online play between native and web clients.
+
+  [![Networking demo](will_wasm_network.png)][will_video]
+
+[@takeryo_eeic]: https://twitter.com/takeryo_eeic
+[Boulder Dash]: https://github.com/dpc/boulder-dash.rs
+[conquest-models]: https://twitter.com/takeryo_eeic/status/1246189179467214850
+[conquest-video]: https://twitter.com/takeryo_eeic/status/1249850460678193152
+[@mvlabat]: https://github.com/mvlabat
+[grumpy_visitors]: https://github.com/amethyst/grumpy_visitors
+[grumpy_visitors-video]: https://twitter.com/mvlabat/status/1257362218078867460
+[dpc]: https://github.com/dpc
+[gameboy proof-of-concept]: https://twitter.com/JeremyThulliez/status/1255042737579134977
+[gameboy_repo]: https://github.com/grzi/rust-gameboy-game-poc
+[Jérémy Thulliez]: https://twitter.com/JeremyThulliez
+[pong_blogpost]: https://www.wootlab.io/blog/pong-in-rust-with-amethyst
+[pong_repo]: https://github.com/grzi/rust-pong
+[tetris_repo]: https://github.com/grzi/rust-tetris
+[tetris_twitter]: https://twitter.com/JeremyThulliez/status/1251903725276454913
+[Will]: https://github.com/azriel91/autexousious
+[Azriel]: https://twitter.com/im_azriel
+[will_update]: https://azriel.im/will/2020/04/24/browsers-assemble/
+[will_video]: https://youtu.be/Hc8EtqrlJsE
 
 ### Ludum Dare 46 Games
 
@@ -382,6 +483,71 @@ Here's a roundup of some of them:
 
   ![fermi paradox screenshot](fermi-paradox.jpg)
 
+
+### [Veloren][veloren]
+
+![Buildings](veloren1.png)
+
+^ _Early procedural building generation_
+
+[Veloren][veloren] is an open world, open-source voxel RPG
+inspired by Dwarf Fortress and Cube World.
+
+Lots of systems have been finished up in April to prepare for the launch of 0.6.
+Many improvements have been made to the combat systems. Basic world and
+civilization simulations have been implemented. Lots of new soundtracks have
+been added. The UI is being reworked. Experimental work is being done with
+migrating to wgpu, and the level of detail system is a lot closer to being
+merged. Villagers have been getting a lot of love as well, making the world feel
+more alive.
+
+Here is the April changelog:
+
+```text
+- Complete rewrite of the combat system into a state machine
+- Abilities like Dash and Triplestrike
+- Fireball explosions
+- Many new armors and weapons to find in chests
+- Fleshed out "attack" animation into alpha, beta and spin type attacks
+- Fleshed out range attack into charging and shooting anims for staff/bow
+- Added a silhouette for players when they are occluded
+- Added transparency to the player when zooming in
+- Added dragging and right-click to use functionality to inventory, armor & hotbar slots
+- Added basic world and civilisation simulation
+- Added fields, crops and scarecrows, paths, bridges, procedural house generation
+- Added lampposts, NPCs that spawn in towns, and simple dungeons
+- Added sub-voxel noise effect
+- Added waypoints next to dungeons
+- Added non-uniform block heights
+- Added a Level of Detail (LoD) system for terrain sprites and entities
+- Villagers tools and clothing, cultists clothing
+- You can start the game by pressing "enter" from the character selection menu
+```
+
+![Hanging out](veloren2.png)
+
+^ _Early procedural building generation_
+
+You can read more about some specific topics from April:
+
+- [Player Transparency](https://veloren.net/devblog-62#capucho)
+- [Towns and Dungeons](https://veloren.net/devblog-64#towns-and-dungeons)
+- [wgpu](https://veloren.net/devblog-64#wgpu-with-capucho)
+- [Tarpaulin and Toolchains](https://veloren.net/devblog-65#tarpaulin-and-toolchains-by-angelonfira)
+- [LoD Progress](https://veloren.net/devblog-65#lod-and-lighting-progress-from-sharp)
+- [Sprite LoD](https://veloren.net/devblog-65#sprite-lod-from-zesterer)
+
+The final touches of 0.6 are wrapping up. The team will meet once 0.6 is
+released to disucss what 0.7 will look like. See you next month!
+
+April's full weekly devlogs: "This Week In Veloren...":
+[#62](https://veloren.net/devblog-62),
+[#63](https://veloren.net/devblog-63),
+[#64](https://veloren.net/devblog-64),
+[#65](https://veloren.net/devblog-65),
+
+[veloren]: https://veloren.net
+
 ## Library & Tooling Updates
 
 ### Rust Sokoban Tutorial
@@ -399,6 +565,79 @@ send her a [DM][oliviff-dm].
 
 [@oliviff]: https://twitter.com/oliviff
 [oliviff-dm]: https://twitter.com/messages/compose?recipient_id=118804845
+
+## [Multiple ECS in My Personal Game Project][ecs-post]
+
+[@dasifefe shared their thoughs][ecs-post]
+about using multiple ECSes in a project.
+
+[ecs-post]: https://dasifefe.com/post-2020-04-05-01.html
+
+## [Measuring Build Timings with mathbench][mathbench-time]
+
+[@bitshifternz] (author of [glam]) has written [a blog post][mathbench-time]
+about comparing build times of some popular Rust gamedev math crates
+(including glam, cgmath, nalgebra, euclid, vek, pathfinder_geometry)
+using a [mathbench-rs] unit tests suit.
+
+[mathbench-time]: https://bitshifter.github.io/2020/04/12/mathbench-build-timings
+[@bitshifternz]: https://twitter.com/bitshifternz
+[mathbench-rs]: https://github.com/bitshifter/mathbench-rs
+[glam]: https://github.com/bitshifter/glam-rs
+
+## [Tutorial on 3D Graphics, Rust, Vulkan, and ash][ash-tutorial]
+
+@hoj-senna started writing a new tutorial about [ash] and Vulkan in general:
+["Ashen Aetna"][ash-tutorial].
+The current version has 20 chapters and covers basics of general 3d graphics
+and setting all the stuff you need to draw your first triangle with [ash].
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/g7pypb/3d_graphics_rust_vulkan_ash)_
+
+[ash-tutorial]: https://hoj-senna.github.io/ashen-aetna
+[ash]: https://github.com/MaikKlein/ash
+
+## [Implementing a Linear Quadtree in Rust][quadtree-post]
+
+![demo of how the Z-order curve fills the space](quadtree.jpeg)
+
+[@snorrwe] has written [a blog post][quadtree-post]
+about exploring an implementation of a linear quadtree
+and comparing it with a naive implementation of spacial data querying.
+All code mentioned in the post [is available on GitHub][quadtree-repo].
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/g69hgg/ive_published_my_first_blog_post_implementing)_
+
+[quadtree-post]: https://snorrwe.onrender.com/posts/morton-table
+[quadtree-repo]: https://github.com/snorrwe/morton-table
+[@snorrwe]: https://snorrwe.onrender.com/
+
+## [Simple 2D Camera System for Rust with GGEZ][ggez-camera]
+
+[@sylvain has written a tutorial][ggez-camera] about implementing
+a simple 2D camera on top of [GGEZ][ggez].
+
+[ggez-camera]: https://dev.to/sobertkaos/simple-2dcamera-system-for-rust-with-ggez-2o2h
+[ggez]: https://ggez.rs
+
+## [Symmetric Matrices & Triangle Numbers][matrices-post]
+
+![an example of a multi-layered game level](rhea-player-orb.jpeg)
+
+^ _The pink orb should not collide with the player,
+but it should collide with the ground._
+
+[Anthropic Studios][anthropic] has [shared a post][matrices-post]
+about implementing a layer system to ["Way of Rhea"'s][rhea] physics engine
+using [symmetric matrices] and [triangle numbers].
+
+[rhea]: https://store.steampowered.com/app/1110620/Way_of_Rhea
+[anthropic]: https://anthropicstudios.com
+[matrices-post]: https://anthropicstudios.com/2020/03/30/symmetric-matrices
+[symmetric matrices]: https://en.wikipedia.org/wiki/Symmetric_matrix
+[triangle numbers]: https://en.wikipedia.org/wiki/Triangular_number
 
 ### `gfx-rs` and `wgpu` News
 
@@ -448,6 +687,41 @@ for the gfx-hal API.
 [gfx-hal-tutorials]: https://www.falseidolfactory.com/projects/learning-gfx-hal
 [hectic-rs]: https://github.com/expenses/hectic-rs
 [@expenses]: https://github.com/expenses
+
+### [Oxygengine]
+
+![Oxygengine logo](oxygengine-dark-logo.svg)
+
+This month [@PsichiX] - creator of the [Oxygengine] game engine - made
+further progress with the Ignite game editor, a hub application for game making
+tools for Indie game developers.
+
+- Code editor and Media player:
+
+  ![Ignite Code editor and Media player](ignite-code-media.gif)
+
+- Play Mode window to play and test your game directly in the editor:
+
+  ![Ignite Play Mode window](ignite-play-mode.jpeg)
+
+- Additionaly new procedural macro was introduced into Oxygengine, this macro
+  allows to bake information about types that will tell Ignite how to edit data of
+  this types:
+
+  ![Oxygengine Proc macro](ignite-proc-macro.png)
+
+There was an additional work done within Oxygengine ecosystem, which is
+[Chrobry](chrobry) crate - data driven template engine which is used in Ignite
+as part of tool that allows to create new projects from templates provided by
+plugins imported into Ignite editor.
+
+If you want to be up to date with Oxygengine ecosystem progress, make sure to
+follow project on GitHub and see [Oxygengine Project board](oxygengine-project).
+
+[@PsichiX]: https://github.com/PsichiX
+[Oxygengine]: https://github.com/PsichiX/Oxygengine
+[oxygengine-project]: https://github.com/PsichiX/Oxygengine/projects/1
+[chrobry]: https://github.com/PsichiX/Chrobry
 
 ### [erupt]
 
@@ -555,6 +829,38 @@ Main changes:
 
 [Shipyard]: https://crates.io/crates/shipyard
 
+### [Amethyst][amethyst]
+
+[![Amethyst logo](amethyst-logo.png)][amethyst]
+
+- Early [WASM support][amethyst_wasm_support] exists on the
+  [`wasm` branch][amethyst_wasm_branch].
+
+  - Basic input, audio, and rendering support.
+  - Online play support through `WebSocket`s.
+  - Includes OpenGL support for native applications.
+
+- [`amethyst_lyon`][amethyst_lyon] by [@cuberoo_] provides integration with the
+  [`lyon` tessellation library][lyon].
+
+  This is used as a renderer plugin.
+
+- [MachineHum] shared two videos on his game development ventures:
+
+  - [Compiling Amethyst][amethyst_gameshell] for the [GameShell].
+  - [Making Pokemon Gold][amethyst_pokemon_gold].
+
+[@cuberoo_]: https://twitter.com/cuberoo_
+[amethyst]: https://amethyst.rs
+[amethyst_gameshell]: https://youtu.be/YVmk82nxahM
+[amethyst_lyon]: https://crates.io/crates/amethyst_lyon
+[amethyst_pokemon_gold]: https://youtu.be/oQZnF5dmIjY
+[amethyst_wasm_branch]: https://github.com/amethyst/amethyst/tree/wasm
+[amethyst_wasm_support]: https://community.amethyst.rs/t/wasm-effort/1336
+[GameShell]: https://www.clockworkpi.com/
+[lyon]: https://github.com/nical/lyon
+[MachineHum]: https://github.com/Machine-Hum
+
 ### This Month in Mun
 
 [![Mun logo](mun-logo.png)][Mun]
@@ -577,6 +883,50 @@ Their [April updates][mun-april] include:
 [Mun]: https://mun-lang.org
 [mun-memory-mapping]: https://mun-lang.org/blog/2020/05/01/memory-mapping
 [mun-april]: https://mun-lang.org/blog/2020/05/02/this-month-april
+
+### [Sarekt]
+
+![A scene rendered with Sarekt](sarekt.png)
+
+[Sarekt] is a Vulkan-based renderer by Brandon Pollack.
+
+The library has [examples][sarekt-examples] corresponding
+to the steps of vulkan-tutorial.com,
+which may be helpful if you want to compare its API with raw Vulkan code.
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/fxyjmi/have_a_look_at_this_renderer_im_working_on)_
+
+[Sarekt]: https://github.com/brandonpollack23/sarekt
+[sarekt-examples]: https://github.com/brandonpollack23/sarekt/tree/master/examples
+
+### [Godot] Ecosystem
+
+- [@hagsteel] has written a [beginner-friendly tutorial][hagsteel-tutorial]
+  on how to get up and running with Godot and Rust.
+  It's written with Linux in mind, but should be transferrible
+  to other operating systems
+  \[[/r/rust](https://www.reddit.com/r/rust_gamedev/comments/g126es/godot_rust_hagsteel_a_tutorial)].
+- [@hagsteel] has also written a [blog post][hagsteel-legion] with their take
+  on how to use the Legion ECS library with Rust and Godot
+  \[[/r/rust](https://www.reddit.com/r/rust_gamedev/comments/g2avzc/using_rust_godot_legion)].
+- [@schr3da] has published a series of video tutorials on how Rust can be used
+  effectively with Godot:
+  - Basic Keyboard Controls -
+    [Part 1](https://youtube.com/watch?v=qEHrRLLYc3Q) and
+    [Part 2](https://youtube.com/watch?v=_Lxr6pAXBsQ)
+  - [Debugging GDNative Scripts with LLDB](https://youtube.com/watch?v=aMaT6pyDocg)
+  - [File Watching with cargo-watch](https://youtube.com/watch?v=McNgUqzmQkk)
+  - Creating a Simple Platformer -
+    [Part 1](https://youtube.com/watch?v=SIesTvp_ZD8),
+    [Part 2](https://youtube.com/watch?v=GKIUWbW4G9o) and
+    [Part 3](https://youtube.com/watch?v=_n_5MDEquk4)
+
+[@hagsteel]: https://hagsteel.com
+[hagsteel-legion]: https://hagsteel.com/posts/godot-rust-legion/
+[hagsteel-tutorial]: https://hagsteel.com/posts/godot-rust/
+[@schr3da]: https://www.youtube.com/channel/UC4jYW3lJKrEvOqCQ2ElryGw
+[Godot]: https://godotengine.org
 
 ## Popular Workgroup Issues in Github
 
