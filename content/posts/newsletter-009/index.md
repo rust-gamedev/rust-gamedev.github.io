@@ -637,6 +637,54 @@ Their [April updates][mun-april] include:
 [mun-memory-mapping]: https://mun-lang.org/blog/2020/05/01/memory-mapping
 [mun-april]: https://mun-lang.org/blog/2020/05/02/this-month-april
 
+### [Sarekt]
+
+![A scene rendered with Sarekt](sarekt.png)
+
+[Sarekt] is a Vulkan-based renderer by Brandon Pollack.
+
+The library has [examples][sarekt-examples] corresponding to the steps of vulkan-tutorial.com, which may be helpful if you want to compare its API with raw Vulkan code.
+
+_Discussion:
+[/r/rust](https://www.reddit.com/r/rust/comments/fxyjmi/have_a_look_at_this_renderer_im_working_on/)_
+
+[Sarekt]: https://github.com/brandonpollack23/sarekt
+[sarekt-examples]: https://github.com/brandonpollack23/sarekt/tree/master/examples
+
+### Godot Ecosystem
+
+#### [Setting up Godot and Rust][hagsteel-tutorial]
+
+[hagsteel] has written a [beginner-friendly tutorial][hagsteel-tutorial] on how to get up and running with Godot and Rust.
+
+It's written with Linux in mind, but should be transferrible to other operating systems.
+
+_Discussion:
+[/r/rust](https://www.reddit.com/r/rust_gamedev/comments/g126es/godot_rust_hagsteel_a_tutorial_for_linux_gamedevs/)_
+
+[hagsteel]: https://hagsteel.com
+[hagsteel-tutorial]: https://hagsteel.com/posts/godot-rust/
+
+#### [Using Rust and Godot and Legion][hagsteel-legion]
+
+[hagsteel] has also written a [blog post][hagsteel-legion] with their take on how to use the Legion ECS library with Rust and Godot.
+
+_Discussion:
+[/r/rust](https://www.reddit.com/r/rust_gamedev/comments/g2avzc/using_rust_godot_legion/)_
+
+[hagsteel-legion]: https://hagsteel.com/posts/godot-rust-legion/
+
+#### Video Tutorials by [schr3da]
+
+[schr3da] has published a series of video tutorials on how Rust can be used effectively with Godot:
+
+* Basic Keyboard Controls - [Part 1](https://www.youtube.com/watch?v=qEHrRLLYc3Q) and [Part 2](https://www.youtube.com/watch?v=_Lxr6pAXBsQ)
+* [Debugging GDNative Scripts with LLDB](https://www.youtube.com/watch?v=aMaT6pyDocg)
+* [File Watching with cargo-watch](https://www.youtube.com/watch?v=McNgUqzmQkk)
+* Creating a Simple Platformer - [Part 1](https://www.youtube.com/watch?v=SIesTvp_ZD8), [Part 2](https://www.youtube.com/watch?v=GKIUWbW4G9o) and [Part 3](https://www.youtube.com/watch?v=_n_5MDEquk4)
+
+[schr3da]: https://www.youtube.com/channel/UC4jYW3lJKrEvOqCQ2ElryGw
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
