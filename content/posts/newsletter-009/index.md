@@ -366,8 +366,8 @@ It's around 2-5x faster than the current rusttype .ttf rasterizer.
   2D co-op action/arcade game highly inspired by Evil Invasion.
   Two weeks ago the game received a few updates of UI and multiplayer.
   
-  Also, [a short video](grumpy_visitors-video) was posted to twitter, showing the latest state
-  of Grumpy Visitors:
+  Also, [a short video](grumpy_visitors-video) was posted to twitter,
+  showing the latest state of Grumpy Visitors:
   [![grumpy_visitors-video](grumpy_visitors-video.gif)][grumpy_visitors-video]
 
 - [Boulder Dash] remake by [dpc] - a new remake of an old classic.
@@ -482,7 +482,6 @@ Here's a roundup of some of them:
   > games of yesteryear with some modern twists.
 
   ![fermi paradox screenshot](fermi-paradox.jpg)
-
 
 ### [Veloren][veloren]
 
@@ -756,8 +755,8 @@ For more information visit [docs.rs][erupt-docs] and [GitLab][erupt-gitlab].
 ![OfficeRL screenshot](officerl.png)
 
 [bracket-lib] is a toolkit for creating roguelikes in Rust.
-
-Version 0.8.0 of the library was released this month, adding many new features and fixes, such as:
+Version 0.8.0 of the library was released this month,
+adding many new features and fixes, such as:
 
 - A new input system
 - RGBA support, with conversions to RGB and HSV
@@ -771,9 +770,13 @@ Version 0.8.0 of the library was released this month, adding many new features a
 
 Full release notes are available on [/r/rust][bracket-lib-0.8].
 
-The author of the library has also published a [new tutorial][bracket-lib-noise], showing how you can use simplex noise to generate worlds \[[twitter thread][bracket-lib-noise-twitter]\].
+The author of the library has also published a [new tutorial][bracket-lib-noise],
+showing how you can use simplex noise to generate worlds
+\[[twitter thread][bracket-lib-noise-twitter]\].
 
-In the wider community, DrMelon has published a alpha version of [OfficeRL], a roguelike built with bracket-lib that's set in an eternally sprawling office complex.
+In the wider community, DrMelon has published a alpha version of [OfficeRL],
+a roguelike built with bracket-lib that's set
+in an eternally sprawling office complex.
 
 [bracket-lib]: https://github.com/thebracket/bracket-lib
 [bracket-lib-0.8]: https://www.reddit.com/r/rust_gamedev/comments/fz5rb7/bracketlib_work_week_of_4112020_080_has_shipped/
@@ -851,9 +854,14 @@ to the [website repo][tetra-website-repo] to get it added!
 
 ![Melody Madness screenshot](melody-madness.png)
 
-[Dathos] is a simple, extendable 2D game engine built in Rust. It exposes a Ruby API for writing game/rendering logic, and a Rust API that allows you to build native extensions for those scripts.
+[Dathos] is a simple, extendable 2D game engine built in Rust.
+It exposes a Ruby API for writing game/rendering logic,
+and a Rust API that allows you to build native extensions for those scripts.
 
-[@resinten][resinten], the author of the engine, has also published an example game called [Melody Madness][melody-madness]. Players submit commands via a Slack channel, trying to write a melody one note at a time.
+[@resinten][resinten], the author of the engine, has also published
+an example game called [Melody Madness][melody-madness].
+Players submit commands via a Slack channel,
+trying to write a melody one note at a time.
 
 [Dathos]: https://github.com/BrianMWest/dathos-game-engine
 [resinten]: https://twitter.com/resinten/status/1255697868104531968
