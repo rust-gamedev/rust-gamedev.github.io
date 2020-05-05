@@ -361,6 +361,14 @@ It's around 2-5x faster than the current rusttype .ttf rasterizer.
   Check out a [new gameplay video][conquest-video]:
 
   [![new models](conquest.gif)][conquest-video]
+  
+- [Grumpy Visitors](grumpy_visitors) by [@mvlabat] is a top-down
+  2D co-op action/arcade game highly inspired by Evil Invasion.
+  Two weeks ago the game received a few updates of UI and multiplayer.
+  
+  Also, [a short video](grumpy_visitors-video) was posted to twitter, showing the latest state
+  of Grumpy Visitors:
+  [![grumpy_visitors-video](grumpy_visitors-video.gif)][grumpy_visitors-video]
 
 - [Boulder Dash] remake by [dpc] - a new remake of an old classic.
 
@@ -384,6 +392,9 @@ It's around 2-5x faster than the current rusttype .ttf rasterizer.
 [Boulder Dash]: https://github.com/dpc/boulder-dash.rs
 [conquest-models]: https://twitter.com/takeryo_eeic/status/1246189179467214850
 [conquest-video]: https://twitter.com/takeryo_eeic/status/1249850460678193152
+[@mvlabat]: https://github.com/mvlabat
+[grumpy_visitors]: https://github.com/amethyst/grumpy_visitors
+[grumpy_visitors-video]: https://twitter.com/mvlabat/status/1257362218078867460
 [dpc]: https://github.com/dpc
 [gameboy proof-of-concept]: https://twitter.com/JeremyThulliez/status/1255042737579134977
 [gameboy_repo]: https://github.com/grzi/rust-gameboy-game-poc
