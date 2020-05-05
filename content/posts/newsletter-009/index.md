@@ -577,6 +577,38 @@ Main changes:
 
 [Shipyard]: https://crates.io/crates/shipyard
 
+### [Amethyst][amethyst]
+
+[![Amethyst logo](../newsletter-008/amethyst-logo.png)][amethyst]
+
+- Early [WASM support][amethyst_wasm_support] exists on the
+  [`wasm` branch][amethyst_wasm_branch].
+
+    - Basic input, audio, and rendering support.
+    - Online play support through `WebSocket`s.
+    - Includes OpenGL support for native applications.
+
+- [`amethyst_lyon`][amethyst_lyon] by [@cuberoo_] provides integration with the
+  [`lyon` tessellation library][lyon].
+
+    This is used as a renderer plugin.
+
+- [MachineHum] shared two videos on his game development ventures:
+
+    - [Compiling Amethyst][amethyst_gameshell] for the [GameShell].
+    - [Making Pokemon Gold][amethyst_pokemon_gold].
+
+[@cuberoo_]: https://twitter.com/cuberoo_
+[amethyst]: https://amethyst.rs
+[amethyst_gameshell]: https://youtu.be/YVmk82nxahM
+[amethyst_lyon]: https://crates.io/crates/amethyst_lyon
+[amethyst_pokemon_gold]: https://youtu.be/oQZnF5dmIjY
+[amethyst_wasm_branch]: https://github.com/amethyst/amethyst/tree/wasm
+[amethyst_wasm_support]: https://community.amethyst.rs/t/wasm-effort/1336
+[GameShell]: https://www.clockworkpi.com/
+[lyon]: https://github.com/nical/lyon
+[MachineHum]: https://github.com/Machine-Hum
+
 ### This Month in Mun
 
 [![Mun logo](mun-logo.png)][Mun]
