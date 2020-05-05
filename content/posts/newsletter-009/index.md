@@ -388,6 +388,79 @@ send her a [DM][oliviff-dm].
 [@oliviff]: https://twitter.com/oliviff
 [oliviff-dm]: https://twitter.com/messages/compose?recipient_id=118804845
 
+## [Multiple ECS in My Personal Game Project][ecs-post]
+
+[@dasifefe shared their thoughs][ecs-post]
+about using multiple ECSes in a project.
+
+[ecs-post]: https://dasifefe.com/post-2020-04-05-01.html
+
+## [Measuring Build Timings with mathbench][mathbench-time]
+
+[@bitshifternz] (author of [glam]) has written [a blog post][mathbench-time]
+about comparing build times of some popular Rust gamedev math crates
+(including glam, cgmath, nalgebra, euclid, vek, pathfinder_geometry)
+using a [mathbench-rs] unit tests suit.
+
+[mathbench-time]: https://bitshifter.github.io/2020/04/12/mathbench-build-timings
+[@bitshifternz]: https://twitter.com/bitshifternz
+[mathbench-rs]: https://github.com/bitshifter/mathbench-rs
+[glam]: https://github.com/bitshifter/glam-rs
+
+## [Tutorial on 3D Graphics, Rust, Vulkan, and ash][ash-tutorial]
+
+@hoj-senna started writing a new tutorial about [ash] and Vulkan in general:
+["Ashen Aetna"][ash-tutorial].
+The current version has 20 chapters and covers basics of general 3d graphics
+and setting all the stuff you need to draw your first triangle with [ash].
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/g7pypb/3d_graphics_rust_vulkan_ash)_
+
+[ash-tutorial]: https://hoj-senna.github.io/ashen-aetna
+[ash]: https://github.com/MaikKlein/ash
+
+## [Implementing a Linear Quadtree in Rust][quadtree-post]
+
+![demo of how the Z-order curve fills the space](quadtree.jpeg)
+
+[@snorrwe] has written [a blog post][quadtree-post]
+about exploring an implementation of a linear quadtree
+and comparing it with a naive implementation of spacial data quering.
+All code mentioned in the post [is available on GitHub][quadtree-repo].
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/g69hgg/ive_published_my_first_blog_post_implementing)_
+
+[quadtree-post]: https://snorrwe.onrender.com/posts/morton-table
+[quadtree-repo]: https://github.com/snorrwe/morton-table
+[@snorrwe]: https://snorrwe.onrender.com/
+
+## [Simple 2D Camera System for Rust with GGEZ][ggez-camera]
+
+[@sylvain has written a tutorial][ggez-camera] about implementing
+a simple 2D camera on top of [GGEZ][ggez].
+
+[ggez-camera]: https://dev.to/sobertkaos/simple-2dcamera-system-for-rust-with-ggez-2o2h
+[ggez]: https://ggez.rs
+
+## [Symmetric Matrices & Triangle Numbers][matrices-post]
+
+![an example of a multi-layered game level](rhea-player-orb.jpeg)
+
+^ _The pink orb should not collide with the player,
+but it should collide with the ground._
+
+[Anthropic Studios][anthropic] has [shared a post][matrices-post]
+about implementing a layer system to ["Way of Rhea"'s][rhea] physics engine
+using [symmetric matrices] and [triangle numbers].
+
+[rhea]: https://store.steampowered.com/app/1110620/Way_of_Rhea
+[anthropic]: https://anthropicstudios.com
+[matrices-post]: https://anthropicstudios.com/2020/03/30/symmetric-matrices
+[symmetric matrices]: https://en.wikipedia.org/wiki/Symmetric_matrix
+[triangle numbers]: https://en.wikipedia.org/wiki/Triangular_number
+
 ### `gfx-rs` and `wgpu` News
 
 ![hectic screenshot: graveyard and vampires](hectic.png)
