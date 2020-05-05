@@ -751,6 +751,36 @@ For more information visit [docs.rs][erupt-docs] and [GitLab][erupt-gitlab].
 [erupt-docs]: https://docs.rs/erupt
 [erupt-gitlab]: https://gitlab.com/Friz64/erupt
 
+### [bracket-lib]
+
+![OfficeRL screenshot](officerl.png)
+
+[bracket-lib] is a toolkit for creating roguelikes in Rust.
+
+Version 0.8.0 of the library was released this month, adding many new features and fixes, such as:
+
+- A new input system
+- RGBA support, with conversions to RGB and HSV
+- Support for bigger Unicode font maps
+- A 'flexible' terminal with support for floating point positions
+- A 'sprite' terminal that lets you render sprites wherever you want
+- A 'virtual' terminal, sections of which can be rendered to other terminals
+- Runtime font switching
+- OpenGL hooks
+- Framerate limiting
+
+Full release notes are available on [/r/rust][bracket-lib-0.8].
+
+The author of the library has also published a [new tutorial][bracket-lib-noise], showing how you can use simplex noise to generate worlds \[[twitter thread][bracket-lib-noise-twitter]\].
+
+In the wider community, DrMelon has published a alpha version of [OfficeRL], a roguelike built with bracket-lib that's set in an eternally sprawling office complex.
+
+[bracket-lib]: https://github.com/thebracket/bracket-lib
+[bracket-lib-0.8]: https://www.reddit.com/r/rust_gamedev/comments/fz5rb7/bracketlib_work_week_of_4112020_080_has_shipped/
+[bracket-lib-noise]: https://bracketproductions.com/posts/minituts/spherical_noise/
+[bracket-lib-noise-twitter]: https://twitter.com/herberticus/status/1252335121258237953
+[OfficeRL]: https://drmelon.itch.io/officerl
+
 ### [miniquad]
 
 ![miniquad logo](miniquad_logo.png)
@@ -816,6 +846,18 @@ to the [website repo][tetra-website-repo] to get it added!
 [tetra-website]: https://tetra.seventeencups.net/
 [tetra-showcase]: https://twitter.com/17cupsofcoffee/status/1255901557322928128
 [tetra-website-repo]: https://github.com/17cupsofcoffee/tetra-www
+
+### [Dathos]
+
+![Melody Madness screenshot](melody-madness.png)
+
+[Dathos] is a simple, extendable 2D game engine built in Rust. It exposes a Ruby API for writing game/rendering logic, and a Rust API that allows you to build native extensions for those scripts.
+
+[@resinten][resinten], the author of the engine, has also published an example game called [Melody Madness][melody-madness]. Players submit commands via a Slack channel, trying to write a melody one note at a time.
+
+[Dathos]: https://github.com/BrianMWest/dathos-game-engine
+[resinten]: https://twitter.com/resinten/status/1255697868104531968
+[melody-madness]: https://github.com/BrianMWest/melody-madness
 
 ### [Shipyard] v0.4
 
