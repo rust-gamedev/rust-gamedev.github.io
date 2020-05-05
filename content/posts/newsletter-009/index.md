@@ -122,7 +122,7 @@ Also, there're a lot of dev videos on the game's
 
 ### [Realm.One][realm-one]
 
-[![screenshot from the video](Realm-one.png)][realm-one-vid-3]
+[![screenshot from the video](realm-one.jpeg)][realm-one-vid-3]
 
 [Realm.One][realm-one] is an open-source MMO game
 written using the Amethyst game engine.
