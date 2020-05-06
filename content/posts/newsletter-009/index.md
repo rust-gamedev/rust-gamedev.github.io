@@ -51,19 +51,6 @@ some actual interesting discussions.
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
-## [DUNGEONFOG] is Hiring
-
-![DUNGEONFOG editor](dgnfog.jpeg)
-
-[DUNGEONFOG] are developing editor tools for drawing and visualizing
-RPG tabletop maps.
-They're looking for a wgpu-rs developer for 2D graphics drawing.
-
-You can find all of the details on their [job offer page][dungeonfog-jobs].
-
-[DUNGEONFOG]: https://dungeonfog.com/
-[dungeonfog-jobs]: https://dungeonfog.com/about/job-offers/
-
 ## [London Virtual Talks (GameDev Special)][ldn-video]
 
 [![Recorded stream screenshot](ldn-video.jpeg)][ldn-video]
@@ -83,6 +70,19 @@ Here's a [direct link to the recorded stream][ldn-video].
 [ldn-slides-3]: https://docs.google.com/presentation/d/1YP9ksYnk0Mzycywd0w_4X4QWAPQEqZtm8zTTvVEtedM
 [@_AlexEne_]: https://twitter.com/_AlexEne_
 [@plippe]: https://github.com/plippe
+
+## [DUNGEONFOG] is Hiring
+
+![DUNGEONFOG editor](dgnfog.jpeg)
+
+[DUNGEONFOG] are developing editor tools for drawing and visualizing
+RPG tabletop maps.
+They're looking for a wgpu-rs developer for 2D graphics drawing.
+
+You can find all of the details on their [job offer page][dungeonfog-jobs].
+
+[DUNGEONFOG]: https://dungeonfog.com/
+[dungeonfog-jobs]: https://dungeonfog.com/about/job-offers/
 
 ## Game Updates
 
