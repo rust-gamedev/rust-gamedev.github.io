@@ -682,6 +682,68 @@ _Discussions:
 [turbulence]: https://github.com/kyren/turbulence
 [goggles]: https://github.com/kyren/goggles
 
+### [μsfx - 0.1.3][usfx-cratesio]
+
+μsfx is a small library built for generating sound effects in code during
+runtime. μsfx can be integrated with the `cpal` and `music` crates as well as
+`SDL2` crate bindings.
+
+Samples are available on [μsfx's github readme][usfx-github] and further
+documentation is avialable on the [docs.rs page][usfx-docsrs].
+
+This latest version (0.1.3) provides fixes for saw, triangle,
+and square waves.
+
+[usfx-github]: https://github.com/tversteeg/usfx
+[usfx-cratesio]: https://crates.io/crates/usfx
+[usfx-docsrs]: https://docs.rs/usfx/0.1.3/usfx/
+
+### [iced - v0.1][iced-releasenotes]
+
+[Iced][iced-cratesio] is experimental, cross-platform GUI crate focused
+on simplicity and type safety.
+Iced can be used natively, in a web browser, or can use wgpu,
+
+The new release includes:
+
+- Styling based on trait implementations.
+- Event subscriptions that take place asynchronously by using streams.
+- `Canvas` widgets, for drawing 2D graphics
+- `PaneGrid` widgets, which can dynamically organize layout by splitting
+  panes that can be resized.
+- `Svg` widgets, which can render vector graphics.
+- `ProgressBar` widgets
+- Integration into exisiting `wgpu` projects.
+- Options for integrating futures executors into a project.
+- TextInput selection
+- Texture Atlas support for `iced-wgpu`
+
+Full docuementation for Iced is available on the [docs.rs page][iced-docsrs]
+as well as examples and how to contribute are available on [iced github repo][iced-github]
+
+[iced-releasenotes]: https://github.com/hecrj/iced/pull/253
+[iced-cratesio]: https://crates.io/crates/iced
+[iced-github]: https://github.com/hecrj/iced
+[iced-docsrs]: https://docs.rs/iced/0.1.1/iced/
+
+### [assets_manager - v0.2.2][assets-manager-reddit-release-post]
+
+[assets_manager][assets-manager-cratesio] is a crate that provides convenient loading,
+caching, and reloading of external resources. The crate is pay-for-what-you-take,
+provides a high level API, and is concurrent.
+
+This newest version provides for hot-reloading, directory-loading (being able
+to load from a single directory all at once, for extensible games), meta
+loaders, and various other improvements.
+
+Examples and documentation are available on [assets_manager's docs.rs][assets-manager-docsrs]
+and additional information about contributing are available on the [github repository][assets-manager-github]
+
+[assets-manager-reddit-release-post]: https://www.reddit.com/r/rust_gamedev/comments/gadq3i/asset_manager_022_hotreloading_and_directory/
+[assets-manager-cratesio]: https://crates.io/crates/assets_manager
+[assets-manager-github]: https://github.com/a1phyr/assets_manager
+[assets-manager-docsrs]: https://docs.rs/assets_manager/0.2.2/assets_manager/
+
 ### `gfx-rs` and `wgpu` News
 
 ![hectic screenshot: graveyard and vampires](hectic.png)
