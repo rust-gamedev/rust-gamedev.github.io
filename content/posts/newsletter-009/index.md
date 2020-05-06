@@ -1,8 +1,7 @@
 +++
 title = "This Month in Rust GameDev #9 - April 2020"
-date = 2020-05-04
+date = 2020-05-06
 transparent = true
-draft = true
 +++
 
 <!-- markdownlint-disable no-trailing-punctuation -->
@@ -10,15 +9,15 @@ draft = true
 
 Welcome to the ninth issue of the Rust GameDev Workgroup’s
 monthly newsletter.
-
 [Rust] is a systems language pursuing the trifecta:
 safety, concurrency, and speed.
 These goals are well-aligned with game development.
-
 We hope to build an inviting ecosystem for anyone wishing
 to use Rust in their development process!
 Want to get involved? [Join the Rust GameDev working group!][join]
 
+You can follow the newsletter creation process
+by watching [the coordination issues][coordination].
 Want something mentioned in the next newsletter?
 [Send us a pull request][pr].
 Feel free to send PRs about your own projects!
@@ -26,6 +25,7 @@ Feel free to send PRs about your own projects!
 [Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 [pr]: https://github.com/rust-gamedev/rust-gamedev.github.io
+[coordination]: https://github.com/rust-gamedev/rust-gamedev.github.io/issues?q=label%3Acoordination
 
 <!--
 Ideal section structure is:
@@ -51,19 +51,6 @@ some actual interesting discussions.
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
-## [DUNGEONFOG] is Hiring
-
-![DUNGEONFOG editor](dgnfog.jpeg)
-
-[DUNGEONFOG] are developing editor tools for drawing and visualizing
-RPG tabletop maps.
-They're looking for a wgpu-rs developer for 2D graphics drawing.
-
-You can find all of the details on their [job offer page][dungeonfog-jobs].
-
-[DUNGEONFOG]: https://dungeonfog.com/
-[dungeonfog-jobs]: https://dungeonfog.com/about/job-offers/
-
 ## [London Virtual Talks (GameDev Special)][ldn-video]
 
 [![Recorded stream screenshot](ldn-video.jpeg)][ldn-video]
@@ -83,6 +70,19 @@ Here's a [direct link to the recorded stream][ldn-video].
 [ldn-slides-3]: https://docs.google.com/presentation/d/1YP9ksYnk0Mzycywd0w_4X4QWAPQEqZtm8zTTvVEtedM
 [@_AlexEne_]: https://twitter.com/_AlexEne_
 [@plippe]: https://github.com/plippe
+
+## [DUNGEONFOG] is Hiring
+
+![DUNGEONFOG editor](dgnfog.jpeg)
+
+[DUNGEONFOG] are developing editor tools for drawing and visualizing
+RPG tabletop maps.
+They're looking for a wgpu-rs developer for 2D graphics drawing.
+
+You can find all of the details on their [job offer page][dungeonfog-jobs].
+
+[DUNGEONFOG]: https://dungeonfog.com/
+[dungeonfog-jobs]: https://dungeonfog.com/about/job-offers/
 
 ## Game Updates
 
@@ -119,24 +119,6 @@ Also, there're a lot of dev videos on the game's
 [cratebeforeattack-site]: https://cratebeforeattack.com
 [cratebeforeattack-youtube]: https://youtube.com/channel/UC_xMilPTLuuE5iLs1Ml9zow
 [tokio]: https://tokio.rs
-
-### [Realm.One][realm-one]
-
-[![screenshot from the video](realm-one.jpeg)][realm-one-vid-3]
-
-[Realm.One][realm-one] is an open-source MMO game
-written using the Amethyst game engine.
-Recently there has been some simple AI
-integrated into the game. This will cause
-monsters to chase and attack you!
-
-Next up will be items and experience!
-
-- ["GameDev in Rust (Ep.2): Monsters and AI! (Part B)"][realm-one-vid-3] -
-  ECS-based design with Amethyst, networking and tiled 2d based design.
-
-[realm-one]: https://github.com/Machine-Hum/realm.one
-[realm-one-vid-3]: https://youtu.be/8hvnjKf4M5M
 
 ### [A/B Street][abstreet]
 
@@ -186,7 +168,7 @@ _Discussions:
 
 ### [Citybound]
 
-![citybound web ui screenshot](citybound.png)
+![citybound web ui screenshot](citybound.jpeg)
 
 > Citybound is a city building game that uses microscopic models to vividly
 > simulate the organism of a city arising from the interactions of millions
@@ -388,6 +370,19 @@ It's around 2-5x faster than the current rusttype .ttf rasterizer.
 
   [![Networking demo](will_wasm_network.png)][will_video]
 
+- [Realm.One][realm-one] is an open-source MMO game
+  written using the Amethyst game engine.
+  Recently there has been some simple AI
+  integrated into the game. This will cause
+  monsters to chase and attack you!
+
+  Next up will be items and experience!
+
+  - ["GameDev in Rust (Ep.2): Monsters and AI! (Part B)"][realm-one-vid-3] -
+    ECS-based design with Amethyst, networking and tiled 2d based design.
+
+  [![screenshot from the video](realm-one.jpeg)][realm-one-vid-3]
+
 [@takeryo_eeic]: https://twitter.com/takeryo_eeic
 [Boulder Dash]: https://github.com/dpc/boulder-dash.rs
 [conquest-models]: https://twitter.com/takeryo_eeic/status/1246189179467214850
@@ -407,6 +402,8 @@ It's around 2-5x faster than the current rusttype .ttf rasterizer.
 [Azriel]: https://twitter.com/im_azriel
 [will_update]: https://azriel.im/will/2020/04/24/browsers-assemble/
 [will_video]: https://youtu.be/Hc8EtqrlJsE
+[realm-one]: https://github.com/Machine-Hum/realm.one
+[realm-one-vid-3]: https://youtu.be/8hvnjKf4M5M
 
 ### Ludum Dare 46 Games
 
@@ -511,7 +508,8 @@ Here is the April changelog:
 - Fleshed out range attack into charging and shooting anims for staff/bow
 - Added a silhouette for players when they are occluded
 - Added transparency to the player when zooming in
-- Added dragging and right-click to use functionality to inventory, armor & hotbar slots
+- Added dragging and right-click to use functionality to inventory,
+  armor & hotbar slots
 - Added basic world and civilisation simulation
 - Added fields, crops and scarecrows, paths, bridges, procedural house generation
 - Added lampposts, NPCs that spawn in towns, and simple dungeons
