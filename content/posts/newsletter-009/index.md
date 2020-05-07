@@ -344,11 +344,11 @@ It's around 2-5x faster than the current rusttype .ttf rasterizer.
 
   [![new models](conquest.gif)][conquest-video]
   
-- [Grumpy Visitors](grumpy_visitors) by [@mvlabat] is a top-down
+- [Grumpy Visitors][grumpy_visitors] by [@mvlabat] is a top-down
   2D co-op action/arcade game highly inspired by Evil Invasion.
   Two weeks ago the game received a few updates of UI and multiplayer.
   
-  Also, [a short video](grumpy_visitors-video) was posted to twitter,
+  Also, [a short video][grumpy_visitors-video] was posted to twitter,
   showing the latest state of Grumpy Visitors:
   [![grumpy_visitors-video](grumpy_visitors-video.gif)][grumpy_visitors-video]
 
