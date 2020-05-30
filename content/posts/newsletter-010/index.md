@@ -58,7 +58,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
-## [rg3d engine](https://github.com/mrDIMAS/rg3d)
+### [rg3d engine](https://github.com/mrDIMAS/rg3d)
 
 ![3rd person walking simulator](rg3d_3rd_person_example.jpg)
 
@@ -79,7 +79,7 @@ rg3d is a 3d game engine, it has gained a lot of new features:
   docking manager, menu, file browser, tree view.
 - Editor - more about that below.
 
-### [rusty editor](https://github.com/mrDIMAS/rusty-editor)
+#### [rusty editor](https://github.com/mrDIMAS/rusty-editor)
 
 ![rusty editor](rusty_editor.jpg)
 
