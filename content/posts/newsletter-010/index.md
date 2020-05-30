@@ -54,6 +54,36 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Sandbox](https://github.com/JMS55/sandbox)
+
+> Sandbox is a falling sand game by JMS55 that provides a variety of fun
+particle types to place, and then you get to watch the resulting interactions!
+
+![Sandbox gameplay demo](https://streamable.com/0bhbol#)
+
+The main focus so far has been experimenting with different particle types, including:
+* Sand
+* Acid - Dissolves material.
+* Water
+* Replicator - Creates infinite copies of other particles.
+* Plant - Grows over time once placed on wet Sand, or on top of an existing
+plant.
+* Cyrotheum - A cold particle that melts over time, and releases a wave of
+cold to its surroundings.
+* Unstable - Heats up over time, vaporizing a large radius at too high
+of a tempature, and releases Smoke.
+* Electricity - Can only exist when falling, or in Water.
+Flows through Water. Very hot.
+* Glass - Created by heating up Sand. Acts like a liquid at
+high enough tempatures, and a solid otherwise. Immune to Acid.
+* Life - A semi-intelligent particle that stacks itself up, and moves
+as a group. Likes to breed upon eating Plants. Will jump down short drops.
+Dies if too hot or cold, or upon falling a large distance.
+* Blood - Created by pressurizing dead Life particles, by stacking
+enough of other particles on top.
+
+Got any ideas? Leave an issue on github, or add it yourself!
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
