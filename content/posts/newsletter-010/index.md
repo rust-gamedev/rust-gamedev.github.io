@@ -58,6 +58,45 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
+## [rg3d engine](https://github.com/mrDIMAS/rg3d)
+
+![3rd person walking simulator](rg3d_3rd_person_example.jpg)
+
+rg3d is a 3d game engine, it has gained a lot of new features:
+
+- Volumetric lights - lights now have configurable amount of light scattering
+  in volume which significantly improves light quality.
+- Multi-camera rendering - can be used to make split-screen games, add 
+  picture-in-picture features and so on.
+- Asynchronous resource loading
+- [Four new examples](https://github.com/mrDIMAS/rg3d/tree/master/examples)
+- Screen-space ambient occlusion (SSAO)
+- Directional lights for outdoor scenes, it still has no shadows yet.
+- Documentation improvements - still far from completion, but covers some basic
+  use cases.
+- Serialization improvements.
+- [rg3d-ui crate](https://github.com/mrDIMAS/rg3d-ui) improvements: added 
+  docking manager, menu, file browser, tree view.
+- Editor - more about that below.
+
+### [rusty editor](https://github.com/mrDIMAS/rusty-editor)
+
+![rusty editor](rusty_editor.jpg)
+
+rusty editor is a scene editor for rg3d engine, the goal is to make robust
+and easy-to-use editor which is able to load, modify, and save scenes in 
+native engine format. The editor is based on rg3d engine, user interface 
+is based on rg3d-ui crate which developing in parallel with editor. It is 
+still in very early development phase, but it already have some basic 
+features:
+
+- Undo/redo
+- Saving and loading of scenes.
+- Interaction modes (move, scale, rotate).
+- Node properties editor
+- World outliner (scene hierarchy editor).
+- And many other small stuff.
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
