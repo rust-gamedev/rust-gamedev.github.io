@@ -82,6 +82,25 @@ Crate's repo has few examples with nearly each line of the code explained.
 
 [Goods]: https://crates.io/crates/goods
 
+
+### Rust Sokoban Tutorial
+
+![sokoban update](sokoban_2.jpeg)
+
+The Rust Sokoban tutorial is an online book aimed at Rust gamedev beginners
+which walks through making a simple Sokoban game using ECS, ggez and specs.
+It tries to teach the basics of architecting in ECS and basic Rust concepts
+through a hands-on approach.
+
+This month:
+* the project received 10+ contributions from beta testers
+* work was started on chapter 3 which features advanced gameplay
+
+You can follow along for updates and release progress [here][updates].
+
+[updates]: https://twitter.com/oliviff/status/1264301381042782209
+
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
