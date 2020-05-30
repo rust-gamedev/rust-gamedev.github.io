@@ -58,6 +58,19 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
+### [Tetra] 0.3.5
+
+[Tetra] is a simple 2D game framework, inspired by XNA and Raylib. This month, version 0.3.5 was released, featuring:
+
+* A new suite of functions for querying information about the player's connected monitors
+* Tweaks to the startup code, to ensure slow asset loading doesn't cause the window to hang
+* Several under the hood bug fixes
+
+Additionally, planning for 0.4 has begun, which will [bring some changes to the `Font`/`Text` API][tetra-040].
+
+[Tetra]: https://github.com/17cupsofcoffee/tetra
+[tetra-040]: https://twitter.com/17cupsofcoffee/status/1256599606697308164
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
