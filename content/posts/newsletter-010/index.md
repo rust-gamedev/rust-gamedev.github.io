@@ -97,6 +97,30 @@ features:
 - World outliner (scene hierarchy editor).
 - And many other small stuff.
 
+### [Goods]
+
+Asset management library that aims to be easy to use, flexible, extensible
+and support virtually any use-case:
+
+* Need to load compund asset that pulls subassets without boilerplate on
+  call-site? All heavy-lifting for loading subassets can be done in `Format`
+  implementation for the asset type.
+* Asset is made of GPU resources and access to graphics device is required to
+  create asset instance? `Asset::build` receives reference to `Asset::Context`.
+* Targeting browser? `goods` support building for wasm
+  and even bundle Fetch API based asset data source.
+* Target doesn't have `std`? Core types and traits are `no_std` compatible.
+  But `alloc` is required.
+* Looking to keep things tidy and fast to build? Clean build of the crate
+  with no features takes about ~3s on modern CPU.
+* Integration with `serde` ecosystem? Special `Format` implementations can load
+  assets whose representation implement `serde::de::DeserializeOwned`.
+  Crate includes `Format`s for loading assets from JSON, YAML and RON docuemts.
+
+Crate's repo has few examples with nearly each line of the code explained.
+
+[Goods]: https://crates.io/crates/goods
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
