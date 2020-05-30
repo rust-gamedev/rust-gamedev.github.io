@@ -15,5 +15,5 @@
     {% if social.telegram %}<li><a href="https://t.me/{{ social.telegram | urlencode }}" title="{{ social.telegram }}"><svg class="svg-icon grey"><use xlink:href="{{ get_url(path='minima-social-icons.svg#telegram') }}"></use></svg></a></li>{% endif %}
     {% if social.microdotblog %}<li><a rel="me" href="https://micro.blog/{{ social.microdotblog | urlencode }}" title="{{ social.microdotblog }}"><svg class="svg-icon grey"><use xlink:href="{{ get_url(path='minima-social-icons.svg#microdotblog') }}"></use></svg></a></li>{% endif %}
     {% if social.discord %}<li><a href="https://discord.gg/{{ social.discord | urlencode }}" title="Discord"><svg class="svg-icon grey"><use xlink:href="{{ get_url(path='minima-social-icons.svg#discord') }}"></use></svg> Discord (#wg-gamedev)</a></li>{% endif %}
-    {% if social.rss %}<li><a href="{{ get_url(path='feed.xml') }}" title="{{ social.rss }}"><svg class="svg-icon grey"><use xlink:href="{{ get_url(path='minima-social-icons.svg#rss') }}"></use></svg> RSS feed</a></li>{% endif %}
+    {% if social.rss %}<li><a href="{{ get_url(path='rss.xml') }}" title="{{ social.rss }}"><svg class="svg-icon grey"><use xlink:href="{{ get_url(path='minima-social-icons.svg#rss') }}"></use></svg> RSS feed</a></li>{% endif %}
 </ul>

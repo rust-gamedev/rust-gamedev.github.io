@@ -1,0 +1,28 @@
+{% macro post_list(posts, placeholder) %}
+    {% if posts | length > 0 %}
+        <ul class="post-list">
+            {% for post in posts %}
+                <li>
+                    <h3>
+                        <a class="post-link" href="{{ post.permalink }}">
+                            {{ post.title }}
+                        </a>
+                    </h3>
+                    {% if post.date %}
+                        {% set date_format = config.extra.date_format | default(value="%b %-d, %Y") %}
+                        <span class="post-meta">{{ post.date | date(format=date_format) }}</span>
+                    {% endif %}
+
+                    {% if config.extra.posts.show_summaries %}
+                        {% set max_length = config.extra.posts.max_summary_length %}
+                        <p>
+                            {{ post.description | default(value=post.content | striptags | trim | truncate(length=max_length) | safe) }}
+                        </p>
+                    {% endif %}
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p class="grey">{{ placeholder }}</p>
+    {% endif %}
+{% endmacro post_list %}

@@ -1,6 +1,7 @@
 +++
 title = "This Month in Rust GameDev #6 - January 2020"
 date = 2020-02-16
+transparent = true
 +++
 
 <!-- markdownlint-disable no-trailing-punctuation -->

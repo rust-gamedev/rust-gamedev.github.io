@@ -1,6 +1,7 @@
 +++
 title = "This Month in Rust GameDev #1 - August 2019"
 date = 2019-09-02
+transparent = true
 aliases = ["/2019/09/02/newsletter-001", "2019/09/02/newsletter-001.html"]
 +++
 
