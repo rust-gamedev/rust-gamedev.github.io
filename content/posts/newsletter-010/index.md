@@ -54,6 +54,22 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### Sailing Simulator Prototype
+
+![screen](https://github.com/kunos/images/blob/master/nl1.jpg)
+
+This is unnamed game is still in the prototype stage and it's the new project of Kunos Simulazioni (creators of the [Assetto Corsa](https://www.assettocorsa.net/) racing simulation franchise) co-founder and former Lead Programmer [Stefano Casillo](https://twitter.com/KunosStefano) who started a new studio (Jaxx Vane Studio) in April 2020 in the search of new challenges.
+
+It's going to be a modern Foling/Sailing Simulator aiming to bring the depth, rigor and attention to detail found in racing simulations to the sailing genre on PC/Windows.
+
+The game features a fully custom scratch made 3D engine written in Rust with minimal dependencies using DirectX 11 via winapi-rs, ODE and OpenAL with custom bindings.
+
+The project should leave the prototype stage later next month.
+
+The development is streamed live 3 times a week on [Twitch](https://www.twitch.tv/kunosstefano) with highlights also published on [YouTube](https://www.youtube.com/channel/UC7n_g2xDySrmKRaf41rSwlg)
+
+
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
