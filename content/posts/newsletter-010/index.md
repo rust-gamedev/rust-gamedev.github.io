@@ -82,6 +82,29 @@ Crate's repo has few examples with nearly each line of the code explained.
 
 [Goods]: https://crates.io/crates/goods
 
+### This Month in Mun
+
+[![Mun logo](mun-logo.png)][Mun]
+
+[Mun] is a scripting language for gamedev focused on quick iteration times
+that is written in Rust.
+
+After half a year of hard work by the Mun Community and Core Team, [Mun v0.2.0
+was released][mun-release]. With the addition of hot reloadable structs, this
+forms a big step forward in terms of hot reloadability for the language.
+
+Their additional [May updates][mun-may] include:
+
+- number type inferencing;
+- removing generic `float`, `int`, and `uint` types;
+- updating the Mun book;
+- an official VSCode plugin for Mun syntax highlighting;
+- documentation fixes and improvements.
+
+[Mun]: https://mun-lang.org
+[mun-release]: https://mun-lang.org/blog/2020/05/16/release-mun-v0-2-0
+[mun-may]: https://mun-lang.org/blog/2020/05/31/this-month-may
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
