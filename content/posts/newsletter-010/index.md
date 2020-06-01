@@ -56,6 +56,24 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Learning Material Updates
 
+### Rust Sokoban Tutorial
+
+![sokoban update](sokoban_2.jpeg)
+
+The Rust Sokoban tutorial is an online book aimed at Rust gamedev beginners
+which walks through making a simple Sokoban game using ECS, ggez and specs.
+It tries to teach the basics of architecting in ECS and basic Rust concepts
+through a hands-on approach.
+
+This month:
+
+- the project received 10+ contributions from beta testers
+- work was started on chapter 3 which features advanced gameplay
+
+You can follow along for updates and release progress [here][updates].
+
+[updates]: https://twitter.com/oliviff/status/1264301381042782209
+
 ## Library & Tooling Updates
 
 ### [Goods]
