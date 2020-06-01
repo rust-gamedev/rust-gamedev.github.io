@@ -132,6 +132,40 @@ May's full weekly devlogs: "This Week In Veloren...":
 [veloren-opencollective]: https://opencollective.com/veloren
 [gamingonlinux]: https://www.gamingonlinux.com/2020/05/veloren-an-open-source-rpg-inspired-by-cube-world-has-a-new-release
 
+### For The Quest
+
+![For The Quest screenshot](forthequest.jpg)
+
+For The Quest is the working title for a game in early development by
+[@seratonik]. Written entirely in Rust and compiled to WebAssembly,
+For The Quest is destined to become a MMORPG set in a post-apocalyptic
+Earth where your goal is to band together into like-minded factions to
+not only survive in this new world, but to unearth the cause of humanity's
+downfall.
+
+For The Quest is currently undergoing engine development with a focus on
+running smoothly in modern browsers using WebGL 2.0 before moving onto
+native desktop ports.
+
+New developments in May:
+
+- All game assets are now defined server-side in a database and are streamed
+  to the client on demand as areas are requested
+- New desert / sand assets added to test the new asset loading system
+- Translucent water surfaces with primitive refraction effect added
+- New "picking" system implemented that is aware of the 3D coordinates at
+  location of selection in addition to being aware of which object selected
+- A basic world editing UI has been built in React / Javascript and interfaced
+  to the game engine via WASM bindings, features include: displaying info about
+  currently selected object, deleting objects, adding any object type, creating
+  new maps and teleporting to any existing map
+- Map changes are persisted on the server and location of player is now
+  restored when closing the client and coming back later
+
+Follow [@seratonik] on Twitter for updates.
+
+[@seratonik]: https://twitter.com/seratonik
+
 ## Learning Material Updates
 
 ### Rust Sokoban Tutorial
