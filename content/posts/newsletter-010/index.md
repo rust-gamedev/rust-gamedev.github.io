@@ -54,6 +54,84 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Veloren][veloren]
+
+![Buildings](veloren1.png)
+
+^ _The new repo banner_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In May, Veloren 0.6 was launched! Check out the launch trailer below for an
+overview of the changes. The launch party was a massive success with nearly 50
+people online at the peak. In May, character persistence was added. This allows
+players to save their level after leaving the server. Dungeons were merged right
+before the release, and include bosses. Many small bugs were fixed for the
+release as well. Veloren also now has an [Open Collective
+account][veloren-opencollective], and you can donate towards our infrastructure
+costs. GamingOnLinux [wrote an article][gamingonlinux] on Veloren's development.
+
+[![0.6 release trailer](veloren_trailer.gif)](https://www.youtube.com/watch?v=kjDFVgWYMd4)
+
+^ _0.6 release trailer. Click for the full video!_
+
+Here is the May changelog:
+
+```text
+- Added server-side character saving
+- Player now starts with a lantern.
+- Added tab completion in chat for player names and chat commands
+- Added server persistence for character stats
+- Added a popup when setting your character's waypoint
+- Added dungeon arenas
+- Added dungeon bosses and rare boss loot
+- Added 2 sets of armour. One Steel and one Leather.
+- Added context-sensitive crosshair
+```
+
+A 0.7 intro meeting was held, in which we looked at what we wanted to achieve
+with this version. 0.7 will be released August 1st. We came up with a definition
+of 0.7, and what we wanted to achieve:
+
+> As a player, I want to get quests from NPCs in settlements. I want to be sent
+> to kill enemies, collect objects, or complete dungeons. I want to be sent from
+> village to village and become familiar with the region.
+
+> I want to be able to open the map and get information where I need to go for a
+> quest. I want to be able to easily find where dungeons, villages, and other
+> points of interest are. I want to be able to open a trade window with NPCs in
+> villages, and buy and sell items. I want to be able to craft items with
+> ingredients that I have.
+
+> I want to be able to see and hear more while in combat. I want to feel good
+> while doing combat. I want to see particle effects from magic, and hear swords
+> clashing together. I want to be able to add people to my combat party and
+> interact with the game UI to do this.
+
+![Welcome to Veloren](veloren2.png)
+
+^ _Welcome to Veloren! From the 0.6 release party_
+
+You can read more about some specific topics from May:
+
+- [Move to WGPU](https://veloren.net/devblog-67#move-to-wgpu-by-sharp)
+- [0.6 Release](https://veloren.net/devblog-68#0-6-release)
+- [Network Analysis](https://veloren.net/devblog-68#network-analysis-by-angelonfira)
+- [0.7 Intro Meeting](https://veloren.net/devblog-69#0-7-intro-meeting)
+- [Work on iced](https://veloren.net/devblog-69#work-on-iced-with-imbris)
+- [Chunk Generation](https://veloren.net/devblog-69#chunk-generation-by-zesterer)
+
+May's full weekly devlogs: "This Week In Veloren...":
+[#66](https://veloren.net/devblog-66),
+[#67](https://veloren.net/devblog-67),
+[#68](https://veloren.net/devblog-68),
+[#69](https://veloren.net/devblog-69).
+
+[veloren]: https://veloren.net
+[veloren-opencollective]: https://opencollective.com/veloren
+[gamingonlinux]: https://www.gamingonlinux.com/2020/05/veloren-an-open-source-rpg-inspired-by-cube-world-has-a-new-release
+
 ## Learning Material Updates
 
 ### Rust Sokoban Tutorial
