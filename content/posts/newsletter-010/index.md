@@ -23,7 +23,7 @@ Want something mentioned in the next newsletter?
 [Send us a pull request][pr].
 Feel free to send PRs about your own projects!
 
-[rust]: https://rust-lang.org
+[Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 [pr]: https://github.com/rust-gamedev/rust-gamedev.github.io
 [coordination]: https://github.com/rust-gamedev/rust-gamedev.github.io/issues?q=label%3Acoordination
@@ -97,18 +97,18 @@ Follow [@seratonik] on Twitter for updates.
 Asset management library that aims to be easy to use, flexible, extensible
 and support virtually any use-case:
 
-- Need to load compund asset that pulls subassets without boilerplate on
+* Need to load compund asset that pulls subassets without boilerplate on
   call-site? All heavy-lifting for loading subassets can be done in `Format`
   implementation for the asset type.
-- Asset is made of GPU resources and access to graphics device is required to
+* Asset is made of GPU resources and access to graphics device is required to
   create asset instance? `Asset::build` receives reference to `Asset::Context`.
-- Targeting browser? `goods` support building for wasm
+* Targeting browser? `goods` support building for wasm
   and even bundle Fetch API based asset data source.
-- Target doesn't have `std`? Core types and traits are `no_std` compatible.
+* Target doesn't have `std`? Core types and traits are `no_std` compatible.
   But `alloc` is required.
-- Looking to keep things tidy and fast to build? Clean build of the crate
+* Looking to keep things tidy and fast to build? Clean build of the crate
   with no features takes about ~3s on modern CPU.
-- Integration with `serde` ecosystem? Special `Format` implementations can load
+* Integration with `serde` ecosystem? Special `Format` implementations can load
   assets whose representation implement `serde::de::DeserializeOwned`.
   Crate includes `Format`s for loading assets from JSON, YAML and RON docuemts.
 
