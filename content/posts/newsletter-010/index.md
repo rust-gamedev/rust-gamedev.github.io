@@ -114,7 +114,7 @@ and support virtually any use-case:
 
 Crate's repo has few examples with nearly each line of the code explained.
 
-[goods]: https://crates.io/crates/goods
+[Goods]: https://crates.io/crates/goods
 
 ## Popular Workgroup Issues in Github
 
@@ -163,7 +163,7 @@ and highlight events from the past. -->
 
 Just an interesting Rust gamedev link from the past. :)
 
----
+------
 
 That's all news for today, thanks for reading!
 
