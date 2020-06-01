@@ -56,6 +56,24 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Learning Material Updates
 
+### Rust Sokoban Tutorial
+
+![sokoban update](sokoban_2.jpeg)
+
+The Rust Sokoban tutorial is an online book aimed at Rust gamedev beginners
+which walks through making a simple Sokoban game using ECS, ggez and specs.
+It tries to teach the basics of architecting in ECS and basic Rust concepts
+through a hands-on approach.
+
+This month:
+
+- the project received 10+ contributions from beta testers
+- work was started on chapter 3 which features advanced gameplay
+
+You can follow along for updates and release progress [here][updates].
+
+[updates]: https://twitter.com/oliviff/status/1264301381042782209
+
 ## Library & Tooling Updates
 
 ### [Goods]
@@ -82,24 +100,21 @@ Crate's repo has few examples with nearly each line of the code explained.
 
 [Goods]: https://crates.io/crates/goods
 
+### [Tetra 0.3.6][tetra-036]
 
-### Rust Sokoban Tutorial
+[Tetra] is a simple 2D game framework, inspired by XNA and Raylib. This month,
+[version 0.3.6 was released][tetra-036], featuring:
 
-![sokoban update](sokoban_2.jpeg)
+- A new suite of functions for querying information about the player's connected monitors
+- Tweaks to the startup code, to ensure slow asset loading doesn't cause the window to hang
+- Several under the hood bug fixes
 
-The Rust Sokoban tutorial is an online book aimed at Rust gamedev beginners
-which walks through making a simple Sokoban game using ECS, ggez and specs.
-It tries to teach the basics of architecting in ECS and basic Rust concepts
-through a hands-on approach.
+Additionally, planning for 0.4 has begun, which will
+[bring some changes to the `Font`/`Text` API][tetra-040].
 
-This month:
-* the project received 10+ contributions from beta testers
-* work was started on chapter 3 which features advanced gameplay
-
-You can follow along for updates and release progress [here][updates].
-
-[updates]: https://twitter.com/oliviff/status/1264301381042782209
-
+[Tetra]: https://github.com/17cupsofcoffee/tetra
+[tetra-036]: https://twitter.com/17cupsofcoffee/status/1261381601524621312
+[tetra-040]: https://twitter.com/17cupsofcoffee/status/1256599606697308164
 
 ## Popular Workgroup Issues in Github
 
