@@ -214,49 +214,6 @@ You can follow along for updates and release progress [here][updates].
 
 ## Library & Tooling Updates
 
-### [rg3d Engine][rg3d]
-
-![3rd person walking simulator](rg3d_3rd_person_example.jpg)
-
-[rg3d][rg3d] is a 3d game engine. It has gained a lot of new features:
-
-- Volumetric lights - lights now have configurable amount of light scattering
-  in volume which significantly improves light quality.
-- Multi-camera rendering - can be used to make split-screen games, add
-  picture-in-picture features and so on.
-- Asynchronous resource loading
-- [Four new examples](https://github.com/mrDIMAS/rg3d/tree/master/examples)
-- Screen-space ambient occlusion (SSAO)
-- Directional lights for outdoor scenes, it still has no shadows yet.
-- Documentation improvements - still far from completion, but covers some basic
-  use cases.
-- Serialization improvements.
-- [rg3d-ui crate](https://github.com/mrDIMAS/rg3d-ui) improvements: added
-  docking manager, menu, file browser, tree view.
-- Editor - more about that below.
-
-[rg3d]: https://github.com/mrDIMAS/rg3d
-
-#### [rusty editor]
-
-![rusty editor](rusty_editor.jpg)
-
-[rusty editor] is a scene editor for rg3d engine, the goal is to make robust
-and easy-to-use editor which is able to load, modify, and save scenes in
-native engine format. The editor is based on rg3d engine, user interface
-is based on rg3d-ui crate which developing in parallel with editor. It is
-still in very early development phase, but it already have some basic
-features:
-
-- Undo/redo
-- Saving and loading of scenes.
-- Interaction modes (move, scale, rotate).
-- Node properties editor
-- World outliner (scene hierarchy editor).
-- And many other small stuff.
-
-[rusty editor]: https://github.com/mrDIMAS/rusty-editor
-
 ### [Goods]
 
 Asset management library that aims to be easy to use, flexible, extensible
@@ -322,6 +279,49 @@ Additionally, planning for 0.4 has begun, which will
 [Tetra]: https://github.com/17cupsofcoffee/tetra
 [tetra-036]: https://twitter.com/17cupsofcoffee/status/1261381601524621312
 [tetra-040]: https://twitter.com/17cupsofcoffee/status/1256599606697308164
+
+### [rg3d Engine][rg3d]
+
+![3rd person walking simulator](rg3d_3rd_person_example.jpg)
+
+[rg3d][rg3d] is a 3d game engine. It has gained a lot of new features:
+
+- Volumetric lights - lights now have configurable amount of light scattering
+  in volume which significantly improves light quality.
+- Multi-camera rendering - can be used to make split-screen games, add
+  picture-in-picture features and so on.
+- Asynchronous resource loading
+- [Four new examples](https://github.com/mrDIMAS/rg3d/tree/master/examples)
+- Screen-space ambient occlusion (SSAO)
+- Directional lights for outdoor scenes, it still has no shadows yet.
+- Documentation improvements - still far from completion, but covers some basic
+  use cases.
+- Serialization improvements.
+- [rg3d-ui crate](https://github.com/mrDIMAS/rg3d-ui) improvements: added
+  docking manager, menu, file browser, tree view.
+- Editor - more about that below.
+
+[rg3d]: https://github.com/mrDIMAS/rg3d
+
+#### [rusty editor]
+
+![rusty editor](rusty_editor.jpg)
+
+[rusty editor] is a scene editor for rg3d engine, the goal is to make robust
+and easy-to-use editor which is able to load, modify, and save scenes in
+native engine format. The editor is based on rg3d engine, user interface
+is based on rg3d-ui crate which developing in parallel with editor. It is
+still in very early development phase, but it already have some basic
+features:
+
+- Undo/redo
+- Saving and loading of scenes.
+- Interaction modes (move, scale, rotate).
+- Node properties editor
+- World outliner (scene hierarchy editor).
+- And many other small stuff.
+
+[rusty editor]: https://github.com/mrDIMAS/rusty-editor
 
 ## Popular Workgroup Issues in Github
 
