@@ -54,6 +54,84 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Veloren][veloren]
+
+![Buildings](veloren1.png)
+
+^ _The new repo banner_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In May, Veloren 0.6 was launched! Check out the launch trailer below for an
+overview of the changes. The launch party was a massive success with nearly 50
+people online at the peak. In May, character persistence was added. This allows
+players to save their level after leaving the server. Dungeons were merged right
+before the release, and include bosses. Many small bugs were fixed for the
+release as well. Veloren also now has an [Open Collective
+account][veloren-opencollective], and you can donate towards our infrastructure
+costs. GamingOnLinux [wrote an article][gamingonlinux] on Veloren's development.
+
+[![0.6 release trailer](veloren_trailer.gif)](https://www.youtube.com/watch?v=kjDFVgWYMd4)
+
+^ _0.6 release trailer. Click for the full video!_
+
+Here is the May changelog:
+
+```text
+- Added server-side character saving
+- Player now starts with a lantern.
+- Added tab completion in chat for player names and chat commands
+- Added server persistence for character stats
+- Added a popup when setting your character's waypoint
+- Added dungeon arenas
+- Added dungeon bosses and rare boss loot
+- Added 2 sets of armour. One Steel and one Leather.
+- Added context-sensitive crosshair
+```
+
+A 0.7 intro meeting was held, in which we looked at what we wanted to achieve
+with this version. 0.7 will be released August 1st. We came up with a definition
+of 0.7, and what we wanted to achieve:
+
+> As a player, I want to get quests from NPCs in settlements. I want to be sent
+> to kill enemies, collect objects, or complete dungeons. I want to be sent from
+> village to village and become familiar with the region.
+
+> I want to be able to open the map and get information where I need to go for a
+> quest. I want to be able to easily find where dungeons, villages, and other
+> points of interest are. I want to be able to open a trade window with NPCs in
+> villages, and buy and sell items. I want to be able to craft items with
+> ingredients that I have.
+
+> I want to be able to see and hear more while in combat. I want to feel good
+> while doing combat. I want to see particle effects from magic, and hear swords
+> clashing together. I want to be able to add people to my combat party and
+> interact with the game UI to do this.
+
+![Welcome to Veloren](veloren2.png)
+
+^ _Welcome to Veloren! From the 0.6 release party_
+
+You can read more about some specific topics from May:
+
+- [Move to WGPU](https://veloren.net/devblog-67#move-to-wgpu-by-sharp)
+- [0.6 Release](https://veloren.net/devblog-68#0-6-release)
+- [Network Analysis](https://veloren.net/devblog-68#network-analysis-by-angelonfira)
+- [0.7 Intro Meeting](https://veloren.net/devblog-69#0-7-intro-meeting)
+- [Work on iced](https://veloren.net/devblog-69#work-on-iced-with-imbris)
+- [Chunk Generation](https://veloren.net/devblog-69#chunk-generation-by-zesterer)
+
+May's full weekly devlogs: "This Week In Veloren...":
+[#66](https://veloren.net/devblog-66),
+[#67](https://veloren.net/devblog-67),
+[#68](https://veloren.net/devblog-68),
+[#69](https://veloren.net/devblog-69).
+
+[veloren]: https://veloren.net
+[veloren-opencollective]: https://opencollective.com/veloren
+[gamingonlinux]: https://www.gamingonlinux.com/2020/05/veloren-an-open-source-rpg-inspired-by-cube-world-has-a-new-release
+
 ### Sailing Simulator Prototype
 
 ![screenhot: an island, sea, and a few boats](sailing-sim.jpg)
@@ -80,7 +158,59 @@ with highlights also published on [YouTube][sailing-youtube].
 [sailing-twitch]: https://twitch.tv/kunosstefano
 [sailing-youtube]: https://youtube.com/channel/UC7n_g2xDySrmKRaf41rSwlg
 
+### For The Quest
+
+![For The Quest screenshot](forthequest.jpg)
+
+For The Quest is the working title for a game in early development by
+[@seratonik]. Written entirely in Rust and compiled to WebAssembly,
+For The Quest is destined to become a MMORPG set in a post-apocalyptic
+Earth where your goal is to band together into like-minded factions to
+not only survive in this new world, but to unearth the cause of humanity's
+downfall.
+
+For The Quest is currently undergoing engine development with a focus on
+running smoothly in modern browsers using WebGL 2.0 before moving onto
+native desktop ports.
+
+New developments in May:
+
+- All game assets are now defined server-side in a database and are streamed
+  to the client on demand as areas are requested
+- New desert / sand assets added to test the new asset loading system
+- Translucent water surfaces with primitive refraction effect added
+- New "picking" system implemented that is aware of the 3D coordinates at
+  location of selection in addition to being aware of which object selected
+- A basic world editing UI has been built in React / Javascript and interfaced
+  to the game engine via WASM bindings, features include: displaying info about
+  currently selected object, deleting objects, adding any object type, creating
+  new maps and teleporting to any existing map
+- Map changes are persisted on the server and location of player is now
+  restored when closing the client and coming back later
+
+Follow [@seratonik] on Twitter for updates.
+
+[@seratonik]: https://twitter.com/seratonik
+
 ## Learning Material Updates
+
+### Rust Sokoban Tutorial
+
+![sokoban update](sokoban_2.jpeg)
+
+The Rust Sokoban tutorial is an online book aimed at Rust gamedev beginners
+which walks through making a simple Sokoban game using ECS, ggez and specs.
+It tries to teach the basics of architecting in ECS and basic Rust concepts
+through a hands-on approach.
+
+This month:
+
+- the project received 10+ contributions from beta testers
+- work was started on chapter 3 which features advanced gameplay
+
+You can follow along for updates and release progress [here][updates].
+
+[updates]: https://twitter.com/oliviff/status/1264301381042782209
 
 ## Library & Tooling Updates
 
@@ -107,6 +237,46 @@ and support virtually any use-case:
 Crate's repo has few examples with nearly each line of the code explained.
 
 [Goods]: https://crates.io/crates/goods
+
+### [This Month in Mun][mun-may]
+
+[![Mun logo](mun-logo.png)][Mun]
+
+[Mun] is a scripting language for gamedev focused on quick iteration times
+that is written in Rust.
+
+After half a year of hard work by the Mun Community and Core Team,
+[Mun v0.2.0 was released][mun-release].
+With the addition of hot reloadable structs, this
+forms a big step forward in terms of hot reloadability for the language.
+
+Their additional [May updates][mun-may] include:
+
+- number type inferencing;
+- removing generic `float`, `int`, and `uint` types;
+- updating the Mun book;
+- an official VSCode plugin for Mun syntax highlighting;
+- documentation fixes and improvements.
+
+[Mun]: https://mun-lang.org
+[mun-release]: https://mun-lang.org/blog/2020/05/16/release-mun-v0-2-0
+[mun-may]: https://mun-lang.org/blog/2020/05/31/this-month-may
+
+### [Tetra 0.3.6][tetra-036]
+
+[Tetra] is a simple 2D game framework, inspired by XNA and Raylib. This month,
+[version 0.3.6 was released][tetra-036], featuring:
+
+- A new suite of functions for querying information about the player's connected monitors
+- Tweaks to the startup code, to ensure slow asset loading doesn't cause the window to hang
+- Several under the hood bug fixes
+
+Additionally, planning for 0.4 has begun, which will
+[bring some changes to the `Font`/`Text` API][tetra-040].
+
+[Tetra]: https://github.com/17cupsofcoffee/tetra
+[tetra-036]: https://twitter.com/17cupsofcoffee/status/1261381601524621312
+[tetra-040]: https://twitter.com/17cupsofcoffee/status/1256599606697308164
 
 ## Popular Workgroup Issues in Github
 
