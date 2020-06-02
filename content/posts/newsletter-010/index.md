@@ -132,6 +132,32 @@ May's full weekly devlogs: "This Week In Veloren...":
 [veloren-opencollective]: https://opencollective.com/veloren
 [gamingonlinux]: https://www.gamingonlinux.com/2020/05/veloren-an-open-source-rpg-inspired-by-cube-world-has-a-new-release
 
+### Sailing Simulator Prototype
+
+![screenhot: an island, sea, and a few boats](sailing-sim.jpg)
+
+This is unnamed game is still in the prototype stage and
+it's the new project of Kunos Simulazioni
+(creators of the [Assetto Corsa] racing simulation franchise)
+co-founder and former Lead Programmer [Stefano Casillo] who started
+a new studio (Jaxx Vane Studio) in April 2020 in the search of new challenges.
+
+It's going to be a modern Foling/Sailing Simulator aiming to bring the depth,
+rigor and attention to detail found in racing simulations to the sailing genre
+on PC/Windows.
+The game features a fully custom scratch made 3D engine written in Rust
+with minimal dependencies using DirectX 11 via winapi-rs, ODE
+and OpenAL with custom bindings.
+
+The project should leave the prototype stage later next month.
+The development is streamed live 3 times a week on [Twitch][sailing-twitch]
+with highlights also published on [YouTube][sailing-youtube].
+
+[Stefano Casillo]: https://twitter.com/KunosStefano
+[Assetto Corsa]: https://www.assettocorsa.net
+[sailing-twitch]: https://twitch.tv/kunosstefano
+[sailing-youtube]: https://youtube.com/channel/UC7n_g2xDySrmKRaf41rSwlg
+
 ### For The Quest
 
 ![For The Quest screenshot](forthequest.jpg)
