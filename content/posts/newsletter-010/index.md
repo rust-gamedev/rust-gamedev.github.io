@@ -97,13 +97,13 @@ of 0.7, and what we wanted to achieve:
 > As a player, I want to get quests from NPCs in settlements. I want to be sent
 > to kill enemies, collect objects, or complete dungeons. I want to be sent from
 > village to village and become familiar with the region.
-
+>
 > I want to be able to open the map and get information where I need to go for a
 > quest. I want to be able to easily find where dungeons, villages, and other
 > points of interest are. I want to be able to open a trade window with NPCs in
 > villages, and buy and sell items. I want to be able to craft items with
 > ingredients that I have.
-
+>
 > I want to be able to see and hear more while in combat. I want to feel good
 > while doing combat. I want to see particle effects from magic, and hear swords
 > clashing together. I want to be able to add people to my combat party and
@@ -222,7 +222,7 @@ You can follow along for updates and release progress [here][updates].
 
 - Volumetric lights - lights now have configurable amount of light scattering
   in volume which significantly improves light quality.
-- Multi-camera rendering - can be used to make split-screen games, add 
+- Multi-camera rendering - can be used to make split-screen games, add
   picture-in-picture features and so on.
 - Asynchronous resource loading
 - [Four new examples](https://github.com/mrDIMAS/rg3d/tree/master/examples)
@@ -262,18 +262,18 @@ features:
 Asset management library that aims to be easy to use, flexible, extensible
 and support virtually any use-case:
 
-* Need to load compund asset that pulls subassets without boilerplate on
+- Need to load compund asset that pulls subassets without boilerplate on
   call-site? All heavy-lifting for loading subassets can be done in `Format`
   implementation for the asset type.
-* Asset is made of GPU resources and access to graphics device is required to
+- Asset is made of GPU resources and access to graphics device is required to
   create asset instance? `Asset::build` receives reference to `Asset::Context`.
-* Targeting browser? `goods` support building for wasm
+- Targeting browser? `goods` support building for wasm
   and even bundle Fetch API based asset data source.
-* Target doesn't have `std`? Core types and traits are `no_std` compatible.
+- Target doesn't have `std`? Core types and traits are `no_std` compatible.
   But `alloc` is required.
-* Looking to keep things tidy and fast to build? Clean build of the crate
+- Looking to keep things tidy and fast to build? Clean build of the crate
   with no features takes about ~3s on modern CPU.
-* Integration with `serde` ecosystem? Special `Format` implementations can load
+- Integration with `serde` ecosystem? Special `Format` implementations can load
   assets whose representation implement `serde::de::DeserializeOwned`.
   Crate includes `Format`s for loading assets from JSON, YAML and RON docuemts.
 
@@ -310,8 +310,10 @@ Their additional [May updates][mun-may] include:
 [Tetra] is a simple 2D game framework, inspired by XNA and Raylib. This month,
 [version 0.3.6 was released][tetra-036], featuring:
 
-- A new suite of functions for querying information about the player's connected monitors
-- Tweaks to the startup code, to ensure slow asset loading doesn't cause the window to hang
+- A new suite of functions for querying information
+  about the player's connected monitors
+- Tweaks to the startup code, to ensure slow asset loading
+  doesn't cause the window to hang
 - Several under the hood bug fixes
 
 Additionally, planning for 0.4 has begun, which will
