@@ -58,11 +58,11 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
-### [rg3d engine](https://github.com/mrDIMAS/rg3d)
+### [rg3d Engine][rg3d]
 
 ![3rd person walking simulator](rg3d_3rd_person_example.jpg)
 
-rg3d is a 3d game engine, it has gained a lot of new features:
+[rg3d][rg3d] is a 3d game engine. It has gained a lot of new features:
 
 - Volumetric lights - lights now have configurable amount of light scattering
   in volume which significantly improves light quality.
@@ -75,19 +75,21 @@ rg3d is a 3d game engine, it has gained a lot of new features:
 - Documentation improvements - still far from completion, but covers some basic
   use cases.
 - Serialization improvements.
-- [rg3d-ui crate](https://github.com/mrDIMAS/rg3d-ui) improvements: added 
+- [rg3d-ui crate](https://github.com/mrDIMAS/rg3d-ui) improvements: added
   docking manager, menu, file browser, tree view.
 - Editor - more about that below.
 
-#### [rusty editor](https://github.com/mrDIMAS/rusty-editor)
+[rg3d]: https://github.com/mrDIMAS/rg3d
+
+#### [rusty editor]
 
 ![rusty editor](rusty_editor.jpg)
 
-rusty editor is a scene editor for rg3d engine, the goal is to make robust
-and easy-to-use editor which is able to load, modify, and save scenes in 
-native engine format. The editor is based on rg3d engine, user interface 
-is based on rg3d-ui crate which developing in parallel with editor. It is 
-still in very early development phase, but it already have some basic 
+[rusty editor] is a scene editor for rg3d engine, the goal is to make robust
+and easy-to-use editor which is able to load, modify, and save scenes in
+native engine format. The editor is based on rg3d engine, user interface
+is based on rg3d-ui crate which developing in parallel with editor. It is
+still in very early development phase, but it already have some basic
 features:
 
 - Undo/redo
@@ -96,6 +98,8 @@ features:
 - Node properties editor
 - World outliner (scene hierarchy editor).
 - And many other small stuff.
+
+[rusty editor]: https://github.com/mrDIMAS/rusty-editor
 
 ### [Goods]
 
