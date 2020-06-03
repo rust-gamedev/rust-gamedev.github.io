@@ -78,7 +78,6 @@ costs. GamingOnLinux [wrote an article][gamingonlinux] on Veloren's development.
 
 Here is the May changelog:
 
-```text
 - Added server-side character saving
 - Player now starts with a lantern.
 - Added tab completion in chat for player names and chat commands
@@ -88,7 +87,6 @@ Here is the May changelog:
 - Added dungeon bosses and rare boss loot
 - Added 2 sets of armour. One Steel and one Leather.
 - Added context-sensitive crosshair
-```
 
 A 0.7 intro meeting was held, in which we looked at what we wanted to achieve
 with this version. 0.7 will be released August 1st. We came up with a definition
