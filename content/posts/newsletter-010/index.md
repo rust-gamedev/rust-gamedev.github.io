@@ -253,6 +253,41 @@ Follow [@seratonik] on Twitter for updates.
 
 [@seratonik]: https://twitter.com/seratonik
 
+### [Crate Before Attack][cratebeforeattack-site]
+
+[Crate Before Attack][cratebeforeattack-site] by [koalefant (@CrateAttack)][@CrateAttack]
+is a multiplayer game where frogs combat their friends
+while navigating the landscape with their sticky tongues.
+It is a hybrid of a realtime and turn-based game.
+
+Project highlights are:
+- Grappling hook focused gameplay;
+- Procedural animation;
+- Fun physics ([physics demo][cratebeforeattack-physics-demo]);
+- Local and online multiplayer;
+
+It is built for Web using WebAssembly, [`miniquad`][miniquad] crate for client graphics, and [`tokio`][tokio] for server.
+
+May development was focused on implementing AI of opponents and adding race mode:
+- [Video of AI racing against itself with visualized decision tree][cratebeforeattack-youtube-ai];
+- [Playable build][cratebeforeattack-play] (works in the browser on PC or Mac). 
+
+More details in the [DevLog][cratebeforeattack-devlog]
+and [YouTube channel][cratebeforeattack-youtube].
+
+[![screenshot: decision tree and goal distance map in the background](crate_before_attack.png)][cratebeforeattack-site]
+
+[cratebeforeattack-devlog]: https://cratebeforeattack.com/posts
+[cratebeforeattack-play]: https://cratebeforeattack.com/play
+[cratebeforeattack-site]: https://cratebeforeattack.com
+[cratebeforeattack-youtube]: https://youtube.com/channel/UC_xMilPTLuuE5iLs1Ml9zow
+[cratebeforeattack-youtube-ai]: https://www.youtube.com/watch?v=PcJOayy5gP4
+[cratebeforeattack-physics-demo]: https://github.com/koalefant/circle2d
+[@CrateAttack]: https://twitter.com/CrateAttack
+[tokio]: https://tokio.rs
+[miniquad]: https://github.com/not-fl3/miniquad/
+
+
 ## Learning Material Updates
 
 ### Rust Sokoban Tutorial
