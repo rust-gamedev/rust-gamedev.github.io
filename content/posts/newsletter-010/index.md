@@ -401,6 +401,35 @@ features:
 
 [rusty editor]: https://github.com/mrDIMAS/rusty-editor
 
+### [Amethyst][amethyst]
+
+[![Amethyst logo](amethyst-logo.png)][amethyst]
+
+- [`rlua`] is now part of the Amethyst organization.
+
+    `rlua` is a library that provides high level bindings between Rust and
+    [Lua]. Through [discussion][rlua_discussion], a number of people will be
+    sharing maintenance of the library.
+
+- [`legion-task`]: A multi-tasking library for the [Legion] ECS.
+
+    This library by [bonsairobo] provides multi-tasking support on the Legion
+    ECS, allowing tasks to be executed in dependency graph order. Check out the announcement post in the [forum][legion_task_forum].
+
+    This is a port of the [`specs-task`] library, which provides the same
+    functionality for [SPECS].
+
+[`legion-task`]: https://github.com/bonsairobo/legion-task
+[`rlua`]: https://github.com/amethyst/rlua
+[`specs-task`]: https://github.com/bonsairobo/specs-task
+[amethyst]: https://amethyst.rs
+[bonsairobo]: https://github.com/bonsairobo
+[Legion]: https://github.com/TomGillen/legion
+[legion_task_forum]: https://community.amethyst.rs/t/announcing-a-new-multi-tasking-library-for-legion-ecs/1495
+[Lua]: https://www.lua.org/
+[rlua_discussion]: https://github.com/amethyst/rlua/issues/174
+[SPECS]: https://github.com/amethyst/specs
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
