@@ -273,6 +273,23 @@ You can follow along for updates and release progress [here][updates].
 
 [updates]: https://twitter.com/oliviff/status/1264301381042782209
 
+### Adding WASM Support to a Native App
+
+![WASM Networking](networking_wasm_recv.png)
+
+Porting an existing native application to run in the browser as a [WASM]
+application comes with many challenges, including adapting to the browser's
+control flow, threading model, and security restrictions.
+
+This month [Azriel] presented the challenges of adding WASM support to the
+Amethyst game engine. The recording is on [youtube][wasm_yt] and the
+presentation material is available [online][wasm_it].
+
+[wasm_yt]: https://www.youtube.com/watch?v=7YQGwb4_AvA
+[wasm_it]: https://azriel.im/wasm_it/
+[Azriel]: https://github.com/azriel91/
+[WASM]: https://webassembly.org/
+
 ## Library & Tooling Updates
 
 ### [Goods]
