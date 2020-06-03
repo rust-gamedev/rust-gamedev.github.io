@@ -275,6 +275,31 @@ You can follow along for updates and release progress [here][updates].
 
 ## Library & Tooling Updates
 
+### NodeFX
+
+[![NodeFX](nodefx.png)][NodeFXTweet]
+
+<p align="center">
+<small><i>Click the image, to see the animated version</i></small>
+</p>
+
+Project "NodeFX" by [Christian Vallentin (@MrVallentin)][@MrVallentin]
+is an unnamed node-based tool for creating GLSL shaders in real-time,
+entirely written in Rust.
+
+Some highlighted features and plans are:
+
+- The majority of nodes have real-time previews
+- Extensive library of nodes, from math and logic to gradients, transitions, and animations
+- Support is currently limited to exporting GLSL shaders, but more languages and formats are planned
+- The tool will be released for free, as soon as it's ready
+
+The project is currently closed source and early in development.
+More information can be found on [Twitter][@MrVallentin].
+
+[@MrVallentin]: https://twitter.com/MrVallentin
+[NodeFXTweet]: https://twitter.com/MrVallentin/status/1256805858022998016
+
 ### [Goods]
 
 Asset management library that aims to be easy to use, flexible, extensible
