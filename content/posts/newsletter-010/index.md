@@ -130,6 +130,34 @@ May's full weekly devlogs: "This Week In Veloren...":
 [veloren-opencollective]: https://opencollective.com/veloren
 [gamingonlinux]: https://www.gamingonlinux.com/2020/05/veloren-an-open-source-rpg-inspired-by-cube-world-has-a-new-release
 
+### [Paddlers][paddlers-website]
+
+![Paddlers v0.1.3 screenshot](paddlers.jpg)
+
+Paddlers is a multiplayer strategy game with a [live prototype][paddlers-demo]
+available online to demonstrate its current status.
+It is a learning-by-doing hobby project to explore the possibilities with
+Rust on the web, developed by a single person so far but open to contributors.
+
+May was a busy month for Paddlers and brought many fundamental changes and new
+features, including the ability to observe other player's villages.
+A summary of changes is available on the [Paddlers news page][paddlers-news].
+
+Besides programming, the developer of Paddlers also wrote a blog post called
+[Benefits of full-stack Rust][paddlers-blog] where he details some of his
+experiences when implementing a server-client model using Rust on both ends.
+Furthermore, he published a first [video teaser][paddlers-teaser].
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/gjilkn/benefits_of_fullstack_rust_my_experience_from)_
+
+[paddlers-blog]: https://www.jakobmeier.ch/blogging/Paddlers_4.html
+[paddlers-demo]: https://demo.paddlers.ch/
+[paddlers-news]: https://paddlers.ch/news.html
+[paddlers-repo]: https://github.com/jakmeier/paddlers-browser-game
+[paddlers-teaser]: https://www.youtube.com/watch?v=3Syw7hxQ-z0
+[paddlers-website]: https://paddlers.ch
+
 ### Sailing Simulator Prototype
 
 ![screenhot: an island, sea, and a few boats](sailing-sim.jpg)
