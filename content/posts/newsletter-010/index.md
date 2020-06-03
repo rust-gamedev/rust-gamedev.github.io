@@ -290,8 +290,10 @@ entirely written in Rust.
 Some highlighted features and plans are:
 
 - The majority of nodes have real-time previews
-- Extensive library of nodes, from math and logic to gradients, transitions, and animations
-- Support is currently limited to exporting GLSL shaders, but more languages and formats are planned
+- Extensive library of nodes, from math and logic to gradients, transitions,
+  and animations
+- Support is currently limited to exporting GLSL shaders, but more languages
+  and formats are planned
 - The tool will be released for free, as soon as it's ready
 
 The project is currently closed source and early in development.
