@@ -135,6 +135,7 @@ May's full weekly devlogs: "This Week In Veloren...":
 ### [Paddlers][paddlers-website]
 
 ![Paddlers v0.1.3 screenshot](paddlers.jpg)
+
 Paddlers is a multiplayer strategy game with a [live prototype][paddlers-demo]
 available online to demonstrate its current status.
 It is a learning-by-doing hobby project to explore the possibilities with
@@ -149,9 +150,8 @@ Besides programming, the developer of Paddlers also wrote a blog post called
 experiences when implementing a server-client model using Rust on both ends.
 Furthermore, he published a first [video teaser][paddlers-teaser].
 
-
 _Discussions:
-[/r/rust](https://www.reddit.com/r/rust/comments/gjilkn/benefits_of_fullstack_rust_my_experience_from/)_
+[/r/rust](https://reddit.com/r/rust/comments/gjilkn/benefits_of_fullstack_rust_my_experience_from)_
 
 [paddlers-blog]: https://www.jakobmeier.ch/blogging/Paddlers_4.html
 [paddlers-demo]: https://demo.paddlers.ch/
