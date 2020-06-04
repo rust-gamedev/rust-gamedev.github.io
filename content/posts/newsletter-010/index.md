@@ -253,6 +253,21 @@ Follow [@seratonik] on Twitter for updates.
 
 [@seratonik]: https://twitter.com/seratonik
 
+### Dig Escape
+
+![Dig Escape](digescape.png)
+
+Dig Escape is a simple puzzle game written in Rust. You can play it in the
+browser [here][digescape-game]. The developer has released [some
+videos][digescape-progress-video] about the development of the game. They also
+[did a review][digescape-rust-review] on what it was like working with Rust for
+the first time. Be sure to check out the [Github repo][digescape-github].
+
+[digescape-game]: https://tantandev.itch.io/digescape
+[digescape-progress-video]: https://www.youtube.com/watch?v=q6-f63vZW8Y
+[digescape-rust-review]: https://www.youtube.com/watch?v=6fKt6bmnAKo
+[digescape-github]: https://github.com/TanTanDev/DigEscape
+
 ## Learning Material Updates
 
 ### Rust Sokoban Tutorial
