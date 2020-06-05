@@ -558,7 +558,7 @@ or [join the next meeting][join].
 <!-- An optinal section for new jobs related to Rust gamedev -->
 
 - [Elektron][elektron] (synth manufacturer) looking to hire Rust Graphics Engineer
-  (Gotheburg, Sweden):
+  (Gothenburg, Sweden):
 
   > Elektron is looking for a highly skilled graphics engineer to join our team
   > working on a cutting-edge software platform which will drive
