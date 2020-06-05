@@ -284,6 +284,21 @@ of the game's physics engine.
 [tokio]: https://tokio.rs
 [miniquad]: https://github.com/not-fl3/miniquad/
 
+### Dig Escape
+
+![Dig Escape](digescape.png)
+
+Dig Escape is a simple puzzle game written in Rust. You can play it in the
+browser [here][digescape-game]. The developer has released [some
+videos][digescape-progress-video] about the development of the game. They also
+[did a review][digescape-rust-review] on what it was like working with Rust for
+the first time. Be sure to check out the [Github repo][digescape-github].
+
+[digescape-game]: https://tantandev.itch.io/digescape
+[digescape-progress-video]: https://www.youtube.com/watch?v=q6-f63vZW8Y
+[digescape-rust-review]: https://www.youtube.com/watch?v=6fKt6bmnAKo
+[digescape-github]: https://github.com/TanTanDev/DigEscape
+
 ## Learning Material Updates
 
 ### Rust Sokoban Tutorial
@@ -304,7 +319,49 @@ You can follow along for updates and release progress [here][updates].
 
 [updates]: https://twitter.com/oliviff/status/1264301381042782209
 
+### Adding WASM Support to a Native App
+
+![WASM Networking](networking_wasm_recv.png)
+
+Porting an existing native application to run in the browser as a [WASM]
+application comes with many challenges, including adapting to the browser's
+control flow, threading model, and security restrictions.
+
+This month [Azriel] presented the challenges of adding WASM support to the
+Amethyst game engine. The recording is on [youtube][wasm_yt] and the
+presentation material is available [online][wasm_it].
+
+[wasm_yt]: https://www.youtube.com/watch?v=7YQGwb4_AvA
+[wasm_it]: https://azriel.im/wasm_it/
+[Azriel]: https://github.com/azriel91/
+[WASM]: https://webassembly.org/
+
 ## Library & Tooling Updates
+
+### NodeFX
+
+[![NodeFX](nodefx.png)][NodeFXTweet]
+
+^ _Click the image to see the animated version_
+
+Project "NodeFX" by [Christian Vallentin (@MrVallentin)][@MrVallentin]
+is an unnamed node-based tool for creating GLSL shaders in real-time,
+entirely written in Rust.
+
+Some highlighted features and plans are:
+
+- The majority of nodes have real-time previews
+- Extensive library of nodes, from math and logic to gradients, transitions,
+  and animations
+- Support is currently limited to exporting GLSL shaders, but more languages
+  and formats are planned
+- The tool will be released for free, as soon as it's ready
+
+The project is currently closed source and early in development.
+More information can be found on [Twitter][@MrVallentin].
+
+[@MrVallentin]: https://twitter.com/MrVallentin
+[NodeFXTweet]: https://twitter.com/MrVallentin/status/1256805858022998016
 
 ### [Goods]
 
@@ -414,6 +471,35 @@ features:
 - And many other small stuff.
 
 [rusty editor]: https://github.com/mrDIMAS/rusty-editor
+
+### [Amethyst][amethyst]
+
+[![Amethyst logo](amethyst-logo.png)][amethyst]
+
+- [`rlua`] is now part of the Amethyst organization.
+
+    `rlua` is a library that provides high level bindings between Rust and
+    [Lua]. Through [discussion][rlua_discussion], a number of people will be
+    sharing maintenance of the library.
+
+- [`legion-task`]: A multi-tasking library for the [Legion] ECS.
+
+    This library by [bonsairobo] provides multi-tasking support on the Legion
+    ECS, allowing tasks to be executed in dependency graph order. Check out the announcement post in the [forum][legion_task_forum].
+
+    This is a port of the [`specs-task`] library, which provides the same
+    functionality for [SPECS].
+
+[`legion-task`]: https://github.com/bonsairobo/legion-task
+[`rlua`]: https://github.com/amethyst/rlua
+[`specs-task`]: https://github.com/bonsairobo/specs-task
+[amethyst]: https://amethyst.rs
+[bonsairobo]: https://github.com/bonsairobo
+[Legion]: https://github.com/TomGillen/legion
+[legion_task_forum]: https://community.amethyst.rs/t/announcing-a-new-multi-tasking-library-for-legion-ecs/1495
+[Lua]: https://www.lua.org/
+[rlua_discussion]: https://github.com/amethyst/rlua/issues/174
+[SPECS]: https://github.com/amethyst/specs
 
 ## Popular Workgroup Issues in Github
 
