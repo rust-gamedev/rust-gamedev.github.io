@@ -279,9 +279,7 @@ You can follow along for updates and release progress [here][updates].
 
 [![NodeFX](nodefx.png)][NodeFXTweet]
 
-<p align="center">
-<small><i>Click the image, to see the animated version</i></small>
-</p>
+^ _Click the image to see the animated version_
 
 Project "NodeFX" by [Christian Vallentin (@MrVallentin)][@MrVallentin]
 is an unnamed node-based tool for creating GLSL shaders in real-time,
