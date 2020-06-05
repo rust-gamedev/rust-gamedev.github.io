@@ -28,6 +28,17 @@ Feel free to send PRs about your own projects!
 [pr]: https://github.com/rust-gamedev/rust-gamedev.github.io
 [coordination]: https://github.com/rust-gamedev/rust-gamedev.github.io/issues?q=label%3Acoordination
 
+Table of contents:
+
+- [Game Updates](#game-updates)
+- [Learning Material Updates](#learning-material-updates)
+- [Library & Tooling Updates](#library--tooling-updates)
+- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
+- [Meeting Minutes](#meeting-minutes)
+- [Requests for Contribution](#requests-for-contribution)
+- [Jobs](#jobs)
+- [Bonus](#bonus)
+
 <!--
 Ideal section structure is:
 
@@ -485,7 +496,8 @@ features:
 - [`legion-task`]: A multi-tasking library for the [Legion] ECS.
 
     This library by [bonsairobo] provides multi-tasking support on the Legion
-    ECS, allowing tasks to be executed in dependency graph order. Check out the announcement post in the [forum][legion_task_forum].
+    ECS, allowing tasks to be executed in dependency graph order.
+    Check out the announcement post in the [forum][legion_task_forum].
 
     This is a port of the [`specs-task`] library, which provides the same
     functionality for [SPECS].
