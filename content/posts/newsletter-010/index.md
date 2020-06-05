@@ -541,6 +541,30 @@ or [join the next meeting][join].
 [abstreet-issues]: https://github.com/dabreegster/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
 [mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
 
+## Jobs
+
+<!-- An optinal section for new jobs related to Rust gamedev -->
+
+- [Elektron][elektron] (synth manufacturer) looking to hire Rust Graphics Engineer
+  (Gotheburg, Sweden):
+
+  > Elektron is looking for a highly skilled graphics engineer to join our team
+  > working on a cutting-edge software platform which will drive
+  > the next generation of our instruments.
+  > In this role, you will carefully assess, build and take ownership
+  > of the graphics stack.
+  > The task reaches from low-level aspects concerning performance
+  > up to forming APIs used for high-level UI design.
+  > As part of this, you will work closely with the design team
+  > in order to realize solutions with superb aesthetics.
+
+  You can find all of the details on their [job offer page][elektron-job].
+
+  ![Elektron's logo](elektron.png)
+
+[elektron]: https://elektron.se
+[elektron-job]: https://elektron.se/rust-graphics-engineer
+
 ## Bonus
 
 <!-- Bonus section to make the newsletter more interesting
