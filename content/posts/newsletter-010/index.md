@@ -398,6 +398,41 @@ Crate's repo has few examples with nearly each line of the code explained.
 
 [Goods]: https://crates.io/crates/goods
 
+### [cute-c2]
+
+[cute-c2] is a Rust wrapper, created by [yeahross0], for Randy Gaul's
+[single-header C library of the same name][cute-c2-c]. It implements 2D
+collision detection between circles, AABBs, capsules and up to eight-sided
+convex polygons.
+
+The API exposed is safe and Rust-y, and various examples are provided in the
+repository. The library is not yet published to Crates.io, but looks promising!
+
+[cute-c2]: https://github.com/yeahross0/cute-c2
+[cute-c2-c]: https://github.com/RandyGaul/cute_headers/blob/master/cute_c2.h
+[yeahross0]: https://github.com/yeahross0
+
+### [KAS v0.4][kas-040]
+
+![KAS calculator example](kas.png)
+
+[KAS] (toolKit Abstraction System) is a general purpose GUI toolkit, developed
+by [dhardy].
+
+This month, [version 0.4][kas-040] was released - some highlights from the
+changelog are:
+
+* An overhaul of the `Widget` API
+* Support for pop-up widgets
+* More robust input handling
+* Limited support for stable versions of the Rust compiler
+
+_Discussions: [/r/rust](https://www.reddit.com/r/rust/comments/gf42ip/kas_gui_04_release/)_
+
+[kas]: https://github.com/kas-gui/kas
+[kas-040]: https://github.com/kas-gui/kas/blob/master/CHANGELOG.md
+[dhardy]: https://github.com/dhardy
+
 ### [This Month in Mun][mun-may]
 
 [![Mun logo](mun-logo.png)][Mun]
