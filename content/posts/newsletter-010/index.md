@@ -28,6 +28,17 @@ Feel free to send PRs about your own projects!
 [pr]: https://github.com/rust-gamedev/rust-gamedev.github.io
 [coordination]: https://github.com/rust-gamedev/rust-gamedev.github.io/issues?q=label%3Acoordination
 
+Table of contents:
+
+- [Game Updates](#game-updates)
+- [Learning Material Updates](#learning-material-updates)
+- [Library & Tooling Updates](#library--tooling-updates)
+- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
+- [Meeting Minutes](#meeting-minutes)
+- [Requests for Contribution](#requests-for-contribution)
+- [Jobs](#jobs)
+- [Bonus](#bonus)
+
 <!--
 Ideal section structure is:
 
@@ -336,6 +347,22 @@ presentation material is available [online][wasm_it].
 [Azriel]: https://github.com/azriel91/
 [WASM]: https://webassembly.org/
 
+### [Disassembling Rust: Part 1][rust_asm]
+
+![Rust Disassembly: Part 1](rust_asm.png)
+
+Rust comes with many new constructs and features not commonly found in other
+languages. Programmers coming from different backgrounds, notably C++ and
+game-dev might wonder how such a construct translate to machine code.
+
+In the first [part][rust_asm] in a series, [Marco Giordano (@MGDev91)][@MGDev91]
+investigates some common Rust construct to see what instructions they translate to,
+highlighting a few interesting findings in how Rust guarantees safety
+and ensures speed.
+
+[rust_asm]: https://giordi91.github.io/post/disassemlbyrust1
+[@MGDev91]: https://twitter.com/MGDev91
+
 ### [Pong tutorial with GGEZ][pong-tut-1]
 
 [Mikail Khan][mkhan45] shared a three-part tutorial
@@ -431,6 +458,41 @@ and support virtually any use-case:
 Crate's repo has few examples with nearly each line of the code explained.
 
 [Goods]: https://crates.io/crates/goods
+
+### [cute-c2]
+
+[cute-c2] is a Rust wrapper, created by [yeahross0], for Randy Gaul's
+[single-header C library of the same name][cute-c2-c]. It implements 2D
+collision detection between circles, AABBs, capsules and up to eight-sided
+convex polygons.
+
+The API exposed is safe and Rust-y, and various examples are provided in the
+repository. The library is not yet published to Crates.io, but looks promising!
+
+[cute-c2]: https://github.com/yeahross0/cute-c2
+[cute-c2-c]: https://github.com/RandyGaul/cute_headers/blob/master/cute_c2.h
+[yeahross0]: https://github.com/yeahross0
+
+### [KAS v0.4][kas-040]
+
+![KAS calculator example](kas.png)
+
+[KAS] (toolKit Abstraction System) is a general purpose GUI toolkit, developed
+by [dhardy].
+
+This month, [version 0.4][kas-040] was released - some highlights from the
+changelog are:
+
+- An overhaul of the `Widget` API
+- Support for pop-up widgets
+- More robust input handling
+- Limited support for stable versions of the Rust compiler
+
+_Discussions: [/r/rust](https://www.reddit.com/r/rust/comments/gf42ip/kas_gui_04_release/)_
+
+[kas]: https://github.com/kas-gui/kas
+[kas-040]: https://github.com/kas-gui/kas/blob/master/CHANGELOG.md
+[dhardy]: https://github.com/dhardy
 
 ### [This Month in Mun][mun-may]
 
@@ -530,7 +592,8 @@ features:
 - [`legion-task`]: A multi-tasking library for the [Legion] ECS.
 
     This library by [bonsairobo] provides multi-tasking support on the Legion
-    ECS, allowing tasks to be executed in dependency graph order. Check out the announcement post in the [forum][legion_task_forum].
+    ECS, allowing tasks to be executed in dependency graph order.
+    Check out the announcement post in the [forum][legion_task_forum].
 
     This is a port of the [`specs-task`] library, which provides the same
     functionality for [SPECS].
@@ -585,6 +648,30 @@ or [join the next meeting][join].
 [amethyst-issues]: https://github.com/amethyst/amethyst/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
 [abstreet-issues]: https://github.com/dabreegster/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
 [mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
+
+## Jobs
+
+<!-- An optinal section for new jobs related to Rust gamedev -->
+
+- [Elektron][elektron] (synth manufacturer) looking to hire Rust Graphics Engineer
+  (Gothenburg, Sweden):
+
+  > Elektron is looking for a highly skilled graphics engineer to join our team
+  > working on a cutting-edge software platform which will drive
+  > the next generation of our instruments.
+  > In this role, you will carefully assess, build and take ownership
+  > of the graphics stack.
+  > The task reaches from low-level aspects concerning performance
+  > up to forming APIs used for high-level UI design.
+  > As part of this, you will work closely with the design team
+  > in order to realize solutions with superb aesthetics.
+
+  You can find all of the details on their [job offer page][elektron-job].
+
+  ![Elektron's logo](elektron.png)
+
+[elektron]: https://elektron.se
+[elektron-job]: https://elektron.se/rust-graphics-engineer
 
 ## Bonus
 
