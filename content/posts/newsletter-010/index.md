@@ -363,6 +363,51 @@ and ensures speed.
 [rust_asm]: https://giordi91.github.io/post/disassemlbyrust1
 [@MGDev91]: https://twitter.com/MGDev91
 
+### [Pong tutorial with GGEZ][pong-tut-1]
+
+[Mikail Khan][mkhan45] shared a three-part tutorial
+about building a simple version of Pong using GGEZ:
+
+> I saw a post on reddit asking for a simple game dev tutorial with Rust.
+> Generally people encourage using ECS with any Rust game,
+> so I guess there’s no tutorials for anything without it.
+> However, for simple games like Pong or Flappy Bird,
+> it really is easier to forgo the ECS.
+>
+> While Amethyst, the biggest Rust game engine,
+> is completely built on ECS and you can’t make a game without it,
+> there’s still plenty of small game engines that don’t make any assumptions.
+> My favorite of these is ggez.
+
+[The source code for all stages could be found here.][rust-wasm-3d-src]
+
+[mkhan45]: https://mkhan45.github.io
+[pong-tut-1]: https://mkhan45.github.io/2020/05/19/Pong-tutorial-with-ggez.html
+[pong-tut-src]: https://github.com/mkhan45/ggez-pong-tutorial
+
+### gfx-hal & vulkan basics
+
+![A diagram from the posts about backends](gfx-hal-tutorial.jpeg)
+
+[Subroto Biswas][willofindie] started
+a ["`gfx-hal` & `vulkan` basics" tutorial series][gfx-hal-tut].
+
+> I have found that learning new things every often, leads to chaos,
+> and people (specifically ME) tend to forget many things
+> they have already learnt before.
+> These notes will help me to keep reference notes for myself,
+> as well as for anybody who is willing to learn Vulkan API using gfx-hal.
+
+For now it includes two posts:
+
+- ["Adapters & Physical/Logical Devices & Device Queues"][gfx-hal-tut-1]
+- ["Setup & Display Blank Window"][gfx-hal-tut-2]
+
+[willofindie]: https://willofindie.com
+[gfx-hal-tut]: https://willofindie.com/gfx-hal-initials
+[gfx-hal-tut-1]: https://willofindie.com/gfx-hal-initials/physical-logical-devices
+[gfx-hal-tut-2]: https://willofindie.com/gfx-hal-initials/display-window
+
 ## Library & Tooling Updates
 
 ### NodeFX
