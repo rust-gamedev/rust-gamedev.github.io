@@ -243,7 +243,7 @@ Got any ideas? Leave an [issue on github][Sandbox], or add it yourself!
 
 ### [orb.farm]
 
-![an example of a living ecosystem](orb_farm.png)
+![an example of a living ecosystem](orb_farm.jpeg)
 
 [orb.farm] is a virtual ecosystem where different species of creature can live,
 grow and die as part of a self-contained food chain.
