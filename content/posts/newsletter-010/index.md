@@ -28,6 +28,17 @@ Feel free to send PRs about your own projects!
 [pr]: https://github.com/rust-gamedev/rust-gamedev.github.io
 [coordination]: https://github.com/rust-gamedev/rust-gamedev.github.io/issues?q=label%3Acoordination
 
+Table of contents:
+
+- [Game Updates](#game-updates)
+- [Learning Material Updates](#learning-material-updates)
+- [Library & Tooling Updates](#library--tooling-updates)
+- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
+- [Meeting Minutes](#meeting-minutes)
+- [Requests for Contribution](#requests-for-contribution)
+- [Jobs](#jobs)
+- [Bonus](#bonus)
+
 <!--
 Ideal section structure is:
 
@@ -485,7 +496,8 @@ features:
 - [`legion-task`]: A multi-tasking library for the [Legion] ECS.
 
     This library by [bonsairobo] provides multi-tasking support on the Legion
-    ECS, allowing tasks to be executed in dependency graph order. Check out the announcement post in the [forum][legion_task_forum].
+    ECS, allowing tasks to be executed in dependency graph order.
+    Check out the announcement post in the [forum][legion_task_forum].
 
     This is a port of the [`specs-task`] library, which provides the same
     functionality for [SPECS].
@@ -540,6 +552,30 @@ or [join the next meeting][join].
 [amethyst-issues]: https://github.com/amethyst/amethyst/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
 [abstreet-issues]: https://github.com/dabreegster/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
 [mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
+
+## Jobs
+
+<!-- An optinal section for new jobs related to Rust gamedev -->
+
+- [Elektron][elektron] (synth manufacturer) looking to hire Rust Graphics Engineer
+  (Gothenburg, Sweden):
+
+  > Elektron is looking for a highly skilled graphics engineer to join our team
+  > working on a cutting-edge software platform which will drive
+  > the next generation of our instruments.
+  > In this role, you will carefully assess, build and take ownership
+  > of the graphics stack.
+  > The task reaches from low-level aspects concerning performance
+  > up to forming APIs used for high-level UI design.
+  > As part of this, you will work closely with the design team
+  > in order to realize solutions with superb aesthetics.
+
+  You can find all of the details on their [job offer page][elektron-job].
+
+  ![Elektron's logo](elektron.png)
+
+[elektron]: https://elektron.se
+[elektron-job]: https://elektron.se/rust-graphics-engineer
 
 ## Bonus
 
