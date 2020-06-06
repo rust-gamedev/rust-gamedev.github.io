@@ -71,6 +71,10 @@ or [join the next meeting][join].
 
 <!-- Links to "good first issue"-labels or direct links to specific tasks -->
 
+## Jobs
+
+<!-- An optional section for new jobs related to Rust gamedev -->
+
 ## Bonus
 
 <!-- Bonus section to make the newsletter more interesting

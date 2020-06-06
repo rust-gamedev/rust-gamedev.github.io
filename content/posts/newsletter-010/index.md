@@ -28,6 +28,17 @@ Feel free to send PRs about your own projects!
 [pr]: https://github.com/rust-gamedev/rust-gamedev.github.io
 [coordination]: https://github.com/rust-gamedev/rust-gamedev.github.io/issues?q=label%3Acoordination
 
+Table of contents:
+
+- [Game Updates](#game-updates)
+- [Learning Material Updates](#learning-material-updates)
+- [Library & Tooling Updates](#library--tooling-updates)
+- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
+- [Meeting Minutes](#meeting-minutes)
+- [Requests for Contribution](#requests-for-contribution)
+- [Jobs](#jobs)
+- [Bonus](#bonus)
+
 <!--
 Ideal section structure is:
 
@@ -381,6 +392,52 @@ the first time. Be sure to check out the [Github repo][digescape-github].
 [digescape-rust-review]: https://www.youtube.com/watch?v=6fKt6bmnAKo
 [digescape-github]: https://github.com/TanTanDev/DigEscape
 
+### [Akigi][akigi]
+
+![cat model](akigi1.png)
+
+^ _Completed cat model with rigging_
+
+> [Akigi][akigi] is a magical multiplayer online world where humans aren't the
+> only intelligent animals. Akigi is a solo project, and the developer hopes to
+> share their excitement and challenges through their dev blogs.
+
+In May, progress was made on the game models. Test have been created in order
+to fomalize what a testing suite should look like in Akigi. The interactive
+squences system was restructured to allow for a node system that could guide the
+player better. A data extraction system was put in place to view metricks from
+the game server.
+
+Some of this months's updates:
+
+- [Learning to Think](https://devjournal.akigi.com/may-2020/065-2020-05-03.html#learning-to-think)
+- [Integration Testing](https://devjournal.akigi.com/may-2020/066-2020-05-10.html#integration-testing)
+- [Testing Quests](https://devjournal.akigi.com/may-2020/066-2020-05-10.html#testing-quests)
+- [Interactive Sequences](https://devjournal.akigi.com/may-2020/067-2020-05-17.html#interactive-sequences)
+- [Logging](https://devjournal.akigi.com/may-2020/068-2020-05-24.html#logging)
+- [User Interface Iteration](https://devjournal.akigi.com/may-2020/069-2020-05-31.html#user-interface-iteration)
+- [Inventory](https://devjournal.akigi.com/may-2020/069-2020-05-31.html#inventory)
+
+Full devlogs:
+[#065](https://devjournal.akigi.com/may-2020/065-2020-05-03.html),
+[#066](https://devjournal.akigi.com/may-2020/066-2020-05-10.html),
+[#067](https://devjournal.akigi.com/may-2020/067-2020-05-17.html),
+[#068](https://devjournal.akigi.com/may-2020/069-2020-05-31.html),
+[#069](https://devjournal.akigi.com/may-2020/069-2020-05-31.html).
+
+[akigi]: https://akigi.com
+
+### [On FPS Game Progress \#1][on-fps-game-1]
+
+[![Video demo of the current progress](on-fps.jpeg)][on-fps-game-video]
+
+[Atil Kockar posted the first devlog about their experience][on-fps-game-1]
+of writing an FPS game using Rust, SDL, and OpenGL.
+At the moment, the game features loading .obj files, drawing simple UI,
+and Q3-style character controller logic.
+
+[on-fps-game-1]: http://atilkockar.com/on-fps-game-progress-1
+[on-fps-game-video]: https://youtube.com/watch?v=TvgWOEnlXw4
 ## Learning Material Updates
 
 ### Rust Sokoban Tutorial
@@ -418,17 +475,66 @@ presentation material is available [online][wasm_it].
 [Azriel]: https://github.com/azriel91/
 [WASM]: https://webassembly.org/
 
-### [On FPS Game Progress \#1][on-fps-game-1]
+### [Disassembling Rust: Part 1][rust_asm]
 
-[![Video demo of the current progress](on-fps.jpeg)][on-fps-game-video]
+![Rust Disassembly: Part 1](rust_asm.png)
 
-[Atil Kockar posted the first devlog about their experience][on-fps-game-1]
-of writing an FPS game using Rust, SDL, and OpenGL.
-At the moment, the game features loading .obj files, drawing simple UI,
-and Q3-style character controller logic.
+Rust comes with many new constructs and features not commonly found in other
+languages. Programmers coming from different backgrounds, notably C++ and
+game-dev might wonder how such a construct translate to machine code.
 
-[on-fps-game-1]: http://atilkockar.com/on-fps-game-progress-1
-[on-fps-game-video]: https://youtube.com/watch?v=TvgWOEnlXw4
+In the first [part][rust_asm] in a series, [Marco Giordano (@MGDev91)][@MGDev91]
+investigates some common Rust construct to see what instructions they translate to,
+highlighting a few interesting findings in how Rust guarantees safety
+and ensures speed.
+
+[rust_asm]: https://giordi91.github.io/post/disassemlbyrust1
+[@MGDev91]: https://twitter.com/MGDev91
+
+### [Pong tutorial with GGEZ][pong-tut-1]
+
+[Mikail Khan][mkhan45] shared a three-part tutorial
+about building a simple version of Pong using GGEZ:
+
+> I saw a post on reddit asking for a simple game dev tutorial with Rust.
+> Generally people encourage using ECS with any Rust game,
+> so I guess there’s no tutorials for anything without it.
+> However, for simple games like Pong or Flappy Bird,
+> it really is easier to forgo the ECS.
+>
+> While Amethyst, the biggest Rust game engine,
+> is completely built on ECS and you can’t make a game without it,
+> there’s still plenty of small game engines that don’t make any assumptions.
+> My favorite of these is ggez.
+
+[The source code for all stages could be found here.][rust-wasm-3d-src]
+
+[mkhan45]: https://mkhan45.github.io
+[pong-tut-1]: https://mkhan45.github.io/2020/05/19/Pong-tutorial-with-ggez.html
+[pong-tut-src]: https://github.com/mkhan45/ggez-pong-tutorial
+
+### gfx-hal & vulkan basics
+
+![A diagram from the posts about backends](gfx-hal-tutorial.jpeg)
+
+[Subroto Biswas][willofindie] started
+a ["`gfx-hal` & `vulkan` basics" tutorial series][gfx-hal-tut].
+
+> I have found that learning new things every often, leads to chaos,
+> and people (specifically ME) tend to forget many things
+> they have already learnt before.
+> These notes will help me to keep reference notes for myself,
+> as well as for anybody who is willing to learn Vulkan API using gfx-hal.
+
+For now it includes two posts:
+
+- ["Adapters & Physical/Logical Devices & Device Queues"][gfx-hal-tut-1]
+- ["Setup & Display Blank Window"][gfx-hal-tut-2]
+
+[willofindie]: https://willofindie.com
+[gfx-hal-tut]: https://willofindie.com/gfx-hal-initials
+[gfx-hal-tut-1]: https://willofindie.com/gfx-hal-initials/physical-logical-devices
+[gfx-hal-tut-2]: https://willofindie.com/gfx-hal-initials/display-window
 
 ## Library & Tooling Updates
 
@@ -480,6 +586,41 @@ and support virtually any use-case:
 Crate's repo has few examples with nearly each line of the code explained.
 
 [Goods]: https://crates.io/crates/goods
+
+### [cute-c2]
+
+[cute-c2] is a Rust wrapper, created by [yeahross0], for Randy Gaul's
+[single-header C library of the same name][cute-c2-c]. It implements 2D
+collision detection between circles, AABBs, capsules and up to eight-sided
+convex polygons.
+
+The API exposed is safe and Rust-y, and various examples are provided in the
+repository. The library is not yet published to Crates.io, but looks promising!
+
+[cute-c2]: https://github.com/yeahross0/cute-c2
+[cute-c2-c]: https://github.com/RandyGaul/cute_headers/blob/master/cute_c2.h
+[yeahross0]: https://github.com/yeahross0
+
+### [KAS v0.4][kas-040]
+
+![KAS calculator example](kas.png)
+
+[KAS] (toolKit Abstraction System) is a general purpose GUI toolkit, developed
+by [dhardy].
+
+This month, [version 0.4][kas-040] was released - some highlights from the
+changelog are:
+
+- An overhaul of the `Widget` API
+- Support for pop-up widgets
+- More robust input handling
+- Limited support for stable versions of the Rust compiler
+
+_Discussions: [/r/rust](https://www.reddit.com/r/rust/comments/gf42ip/kas_gui_04_release/)_
+
+[kas]: https://github.com/kas-gui/kas
+[kas-040]: https://github.com/kas-gui/kas/blob/master/CHANGELOG.md
+[dhardy]: https://github.com/dhardy
 
 ### [This Month in Mun][mun-may]
 
@@ -579,7 +720,8 @@ features:
 - [`legion-task`]: A multi-tasking library for the [Legion] ECS.
 
     This library by [bonsairobo] provides multi-tasking support on the Legion
-    ECS, allowing tasks to be executed in dependency graph order. Check out the announcement post in the [forum][legion_task_forum].
+    ECS, allowing tasks to be executed in dependency graph order.
+    Check out the announcement post in the [forum][legion_task_forum].
 
     This is a port of the [`specs-task`] library, which provides the same
     functionality for [SPECS].
@@ -634,6 +776,30 @@ or [join the next meeting][join].
 [amethyst-issues]: https://github.com/amethyst/amethyst/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
 [abstreet-issues]: https://github.com/dabreegster/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
 [mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
+
+## Jobs
+
+<!-- An optinal section for new jobs related to Rust gamedev -->
+
+- [Elektron][elektron] (synth manufacturer) looking to hire Rust Graphics Engineer
+  (Gothenburg, Sweden):
+
+  > Elektron is looking for a highly skilled graphics engineer to join our team
+  > working on a cutting-edge software platform which will drive
+  > the next generation of our instruments.
+  > In this role, you will carefully assess, build and take ownership
+  > of the graphics stack.
+  > The task reaches from low-level aspects concerning performance
+  > up to forming APIs used for high-level UI design.
+  > As part of this, you will work closely with the design team
+  > in order to realize solutions with superb aesthetics.
+
+  You can find all of the details on their [job offer page][elektron-job].
+
+  ![Elektron's logo](elektron.png)
+
+[elektron]: https://elektron.se
+[elektron-job]: https://elektron.se/rust-graphics-engineer
 
 ## Bonus
 
