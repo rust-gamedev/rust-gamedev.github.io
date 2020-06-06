@@ -320,7 +320,7 @@ Some of this months's updates:
 - [Learning to Think](https://devjournal.akigi.com/may-2020/065-2020-05-03.html#learning-to-think)
 - [Integration Testing](https://devjournal.akigi.com/may-2020/066-2020-05-10.html#integration-testing)
 - [Testing Quests](https://devjournal.akigi.com/may-2020/066-2020-05-10.html#testing-quests)
-- [Interactive](https://devjournal.akigi.com/may-2020/067-2020-05-17.html#interactive-sequences)
+- [Interactive Sequences](https://devjournal.akigi.com/may-2020/067-2020-05-17.html#interactive-sequences)
 - [Logging](https://devjournal.akigi.com/may-2020/068-2020-05-24.html#logging)
 - [User Interface Iteration](https://devjournal.akigi.com/may-2020/069-2020-05-31.html#user-interface-iteration)
 - [Inventory](https://devjournal.akigi.com/may-2020/069-2020-05-31.html#inventory)
