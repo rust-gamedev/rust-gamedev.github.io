@@ -73,7 +73,7 @@ or [join the next meeting][join].
 
 ## Jobs
 
-<!-- An optinal section for new jobs related to Rust gamedev -->
+<!-- An optional section for new jobs related to Rust gamedev -->
 
 ## Bonus
 
