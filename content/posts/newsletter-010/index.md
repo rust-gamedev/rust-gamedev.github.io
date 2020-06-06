@@ -184,6 +184,28 @@ with highlights also published on [YouTube][sailing-youtube].
 [sailing-twitch]: https://twitch.tv/kunosstefano
 [sailing-youtube]: https://youtube.com/channel/UC7n_g2xDySrmKRaf41rSwlg
 
+### [Garden]: May Devlog
+
+![screenshot: buildings & trees](garden.jpg)
+
+[Garden][garden] is an upcoming game centered around growing realistic plants.
+
+[May][garden-devlog] devlog were posted.
+Some of the updates:
+
+- The core logic of the plant simulation was rewritten,
+  allowing for a broader variety of (more adaptable) plants,
+  with a broader difference in tree growth behavior across different species.
+- A WIP [point-cloud drawing tool]([garden-kaleidoscope]) (currently named Kaleidoscope)
+  for creating some parts of the game world.
+- Optimizations: such as reducing the number of objects to be drawn by 90%
+  (mostly via frustum culling).
+- Anti-aliasing, new leaves, and textures.
+
+[garden]: https://epcc.itch.io/garden
+[garden-devlog]: https://cyberplant.xyz/posts/may
+[garden-kaleidoscope]: https://twitter.com/logicsoup/status/1259953969427873799
+
 ### [Sandbox]
 
 [![Sandbox gameplay demo](sandbox.jpeg)](https://streamable.com/0bhbol#)
@@ -218,6 +240,45 @@ The main focus so far has been experimenting with different particle types, incl
 Got any ideas? Leave an [issue on github][Sandbox], or add it yourself!
 
 [Sandbox]: https://github.com/JMS55/sandbox
+
+### [orb.farm]
+
+![an example of a living ecosystem](orb_farm.png)
+
+[orb.farm] is a virtual ecosystem where different species of creature can live,
+grow and die as part of a self-contained food chain.
+Made by by [Max Bittker] ([sandspiel's author][about-sandspiel]).
+
+Element types:
+
+- Inert: Clear, Water, Glass, Sand, Stone, Wood
+- Autotrophs
+  - Algae: Photosynthesizes sunlight & carbon dioxide to produce nutrients and oxygen.
+    Life of the party!
+  - Grass: Grows into eel grass, which is a source of food and oxygen.
+    Needs to pull nitrogen from sand in order to grow.
+- Daphnia (herbivore): Also know as water fleas, these freshwater zooplankton
+  are a key species in the ecosystem.
+  They feed on algae, and lay eggs which can lay dormant for a long time!
+  More active at night.
+- Carnivores
+  - Fish: They feed mostly on daphnia but will also eat on the biofilm
+    that grows on plants. I can't tell what they're thinking.
+    - Goldfish: Loyal but simple minded. Breathes oxygen
+  - Decomposers
+    - Bacteria: Aerobically breaks down waste into nitrogen.
+      Decomposers are very important parts to a functioning ecosystem.
+      Blows bubbles when happy.
+
+[The source code is available here.][orb-farm-src]
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/gm4whz/orbfarm_a_virtual_aquatic_ecosystem_implemented)_
+
+[orb.farm]: https://orb.farm
+[orb-farm-src]: https://github.com/MaxBittker/orb.farm
+[Max Bittker]: https://maxbittker.com
+[about-sandspiel]: https://maxbittker.com/making-sandspiel
 
 ### For The Quest
 
@@ -284,6 +345,27 @@ of the game's physics engine.
 [tokio]: https://tokio.rs
 [miniquad]: https://github.com/not-fl3/miniquad/
 
+### [Stellary][stellary]
+
+![Game's logo](stellary.jpeg)
+
+[Stellary][stellary] by [Coffé Junk Studio][coffe] is a fast-paced multiplayer
+artillery game that promises exciting battles and real-time gravity physics.
+
+> Your goal is to "defend" your planet by destroying the enemy’s planet.
+> Be careful, though, your missiles don't always fly straight.
+> Be sure to take into account the gravity of planets, the sun,
+> and other celestial bodies!
+> Try out different tactics, e.g. sling shoting missiles around the sun,
+> spaming them, or lining up sniper shots!
+
+The game is made using the studio's "Sphere Engine"
+that is being implemented using Rust and Vulkan.
+
+[stellary]: https://coffejunkstudio.itch.io/stellary
+[stellary-trailer]: https://youtube.com/watch?v=1eVU4Pelp4g
+[coffe]: https://twitter.com/CoffeJunkStudio
+
 ### Dig Escape
 
 ![Dig Escape](digescape.png)
@@ -335,6 +417,18 @@ presentation material is available [online][wasm_it].
 [wasm_it]: https://azriel.im/wasm_it/
 [Azriel]: https://github.com/azriel91/
 [WASM]: https://webassembly.org/
+
+### [On FPS Game Progress \#1][on-fps-game-1]
+
+[![Video demo of the current progress](on-fps.jpeg)][on-fps-game-video]
+
+[Atil Kockar posted the first devlog about their experience][on-fps-game-1]
+of writing an FPS game using Rust, SDL, and OpenGL.
+At the moment, the game features loading .obj files, drawing simple UI,
+and Q3-style character controller logic.
+
+[on-fps-game-1]: http://atilkockar.com/on-fps-game-progress-1
+[on-fps-game-video]: https://youtube.com/watch?v=TvgWOEnlXw4
 
 ## Library & Tooling Updates
 
