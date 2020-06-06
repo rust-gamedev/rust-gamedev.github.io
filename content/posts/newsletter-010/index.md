@@ -347,6 +347,22 @@ presentation material is available [online][wasm_it].
 [Azriel]: https://github.com/azriel91/
 [WASM]: https://webassembly.org/
 
+### Disassembling Rust: Part 1 
+
+![Rust Disassembly: Part 1](rust_asm.png)
+
+Rust comes with many new constructs and features not commonly found in other
+languages. Programmers coming from different backgrounds, notably C++ and 
+game-dev might wonder how such a construct translate to machine code.
+
+In the first [part][rust_asm] in a series, [Marco Giordano (@MGDev91)][@MGDev91] 
+investigates some common Rust construct to see what instructions they translate to, 
+highlighting a few interesting findings in how Rust guarantees safety and ensures speed.
+
+[rust_asm]: https://giordi91.github.io/post/disassemlbyrust1/ 
+[@MGDev91]: https://twitter.com/MGDev91 
+
+
 ## Library & Tooling Updates
 
 ### NodeFX
