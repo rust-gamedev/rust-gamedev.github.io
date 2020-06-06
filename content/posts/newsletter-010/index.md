@@ -299,6 +299,41 @@ the first time. Be sure to check out the [Github repo][digescape-github].
 [digescape-rust-review]: https://www.youtube.com/watch?v=6fKt6bmnAKo
 [digescape-github]: https://github.com/TanTanDev/DigEscape
 
+### [Akigi][akigi]
+
+![cat model](akigi1.png)
+
+^ _Completed cat model with rigging_
+
+> [Akigi][akigi] is a magical multiplayer online world where humans aren't the
+> only intelligent animals. Akigi is a solo project, and the developer hopes to
+> share their excitement and challenges through their dev blogs.
+
+In May, progress was made on the game models. Test have been created in order
+to fomalize what a testing suite should look like in Akigi. The interactive
+squences system was restructured to allow for a node system that could guide the
+player better. A data extraction system was put in place to view metricks from
+the game server.
+
+Some of this months's updates:
+
+- [Learning to Think](https://devjournal.akigi.com/may-2020/065-2020-05-03.html#learning-to-think)
+- [Integration Testing](https://devjournal.akigi.com/may-2020/066-2020-05-10.html#integration-testing)
+- [Testing Quests](https://devjournal.akigi.com/may-2020/066-2020-05-10.html#testing-quests)
+- [Interactive](https://devjournal.akigi.com/may-2020/067-2020-05-17.html#interactive-sequences)
+- [Logging](https://devjournal.akigi.com/may-2020/068-2020-05-24.html#logging)
+- [User Interface Iteration](https://devjournal.akigi.com/may-2020/069-2020-05-31.html#user-interface-iteration)
+- [Inventory](https://devjournal.akigi.com/may-2020/069-2020-05-31.html#inventory)
+
+Full devlogs:
+[#065](https://devjournal.akigi.com/may-2020/065-2020-05-03.html),
+[#066](https://devjournal.akigi.com/may-2020/066-2020-05-10.html),
+[#067](https://devjournal.akigi.com/may-2020/067-2020-05-17.html),
+[#068](https://devjournal.akigi.com/may-2020/069-2020-05-31.html),
+[#069](https://devjournal.akigi.com/may-2020/069-2020-05-31.html).
+
+[akigi]: https://akigi.com
+
 ## Learning Material Updates
 
 ### Rust Sokoban Tutorial
