@@ -422,10 +422,10 @@ by [dhardy].
 This month, [version 0.4][kas-040] was released - some highlights from the
 changelog are:
 
-* An overhaul of the `Widget` API
-* Support for pop-up widgets
-* More robust input handling
-* Limited support for stable versions of the Rust compiler
+- An overhaul of the `Widget` API
+- Support for pop-up widgets
+- More robust input handling
+- Limited support for stable versions of the Rust compiler
 
 _Discussions: [/r/rust](https://www.reddit.com/r/rust/comments/gf42ip/kas_gui_04_release/)_
 
