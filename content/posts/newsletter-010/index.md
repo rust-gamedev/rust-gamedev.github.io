@@ -576,7 +576,7 @@ It's based on [Red Blob Games's guide][rbg-guide].
 
 ### [RustSim Survey][rustsim-survey]
 
-![rustim logo: lab flask in a gear](rustsim.png)]
+![rustim logo: lab flask in a gear](rustsim.png)
 
 > Hi! This survey has been created by sebcrozet from [rustsim.org] and [nphysics.org].
 >
