@@ -445,6 +445,33 @@ For now it includes two posts:
 
 ## Library & Tooling Updates
 
+### [safe_arch]
+
+[safe_arch] is a crate by [@lokathor] that safely exposes arch intrinsics via `#[cfg()]`.
+
+> safe_arch lets you safely use CPU intrinsics - those things in the
+> [core::arch] modules.
+> It works purely via `#[cfg()]` and compile time CPU feature declaration.
+> If you want to check for a feature at runtime and then call an intrinsic
+> or use a fallback path based on that then this crate is sadly not for you.
+>
+> SIMD register types are "newtype'd" so that better trait impls
+> can be given to them, but the inner value is a pub field so feel
+> to just grab it out if you need to.
+> Trait impls of the newtypes include: Default (zeroed), From/Into of appropriate
+> data types, and appropriate operator overloading.
+
+See [the docs][safe_arch_docs] for more details.
+[Feedback and contributions are welcome][safe-arch-issues].
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/gjvyz8/safe_arch03)_
+
+[safe_arch]: https://github.com/Lokathor/safe_arch
+[safe_arch_docs]: https://docs.rs/safe_arch
+[@lokathor]: https://twitter.com/lokathor
+[core::arch]: https://doc.rust-lang.org/nightly/core/core_arch/arch/index.html
+
 ### NodeFX
 
 [![NodeFX](nodefx.png)][NodeFXTweet]
@@ -528,6 +555,53 @@ _Discussions: [/r/rust](https://www.reddit.com/r/rust/comments/gf42ip/kas_gui_04
 [kas]: https://github.com/kas-gui/kas
 [kas-040]: https://github.com/kas-gui/kas/blob/master/CHANGELOG.md
 [dhardy]: https://github.com/dhardy
+
+### [beehive]
+
+```text
+       yz +Y
+       __
+   yx /  \ xz +X
+-X zx \__/ xy
+    -Y zy
+```
+
+[beehive] by [@toast_dev] is a library that provides utilities and collections
+for working with 3D hexagonal maps.
+It's based on [Red Blob Games's guide][rbg-guide].
+
+[beehive]: https://github.com/toasteater/beehive
+[@toast_dev]: https://twitter.com/toast_dev
+[rbg-guide]: https://redblobgames.com/grids/hexagons
+
+### [RustSim Survey][rustsim-survey]
+
+![rustim logo: lab flask in a gear](rustsim.png)]
+
+> Hi! This survey has been created by sebcrozet from [rustsim.org] and [nphysics.org].
+>
+> With this survey, I would like to understand better
+> what the community needs from a physics engine.
+> This will help prioritize future developments in Rust.
+> Most questions of this first part of the survey are mandatory
+> and allow multiple answers which you can complete with custom answers.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/gpwsk1/survey_what_do_you_need_from_a_physics_engine)_
+
+[rustsim-survey]: https://docs.google.com/forms/d/e/1FAIpQLSes3qjVxpksw6ntendfadQW7x4MCSw6Vd2Kdg4sDFj46zs5ew/viewform
+[rustsim.org]: https://rustsim.org
+[nphysics.org]: https://nphysics.org
+
+### [svg_face]
+
+![output example](svg_face.jpeg)
+
+[svg_face] is a crate for generating random SVG faces.
+It's a port of [anokhee/visual-synthesizer] to Rust.
+
+[svg_face]: https://github.com/dabreegster/svg_face
+[anokhee/visual-synthesizer]: https://github.com/anokhee/visual-synthesizer
 
 ### [This Month in Mun][mun-may]
 
@@ -671,6 +745,7 @@ or [join the next meeting][join].
 - [Amethyst's "good first issue" issues][amethyst-issues];
 - [A/B Street's "good first issue" issues][abstreet-issues];
 - [Mun's "good first issue" issues][mun-issues];
+- [safe_arch's "Good First Issue" issues][safe-arch-issues];
 
 [embark.rs]: https://embark.rs
 [embark-open-issues]: https://github.com/search?q=user:EmbarkStudios+state:open
@@ -683,6 +758,7 @@ or [join the next meeting][join].
 [amethyst-issues]: https://github.com/amethyst/amethyst/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
 [abstreet-issues]: https://github.com/dabreegster/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
 [mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
+[safe-arch-issues]: https://github.com/Lokathor/safe_arch/issues?q=is%3Aissue+is%3Aopen+label%3A%22Good+First+Issue%22
 
 ## Jobs
 
