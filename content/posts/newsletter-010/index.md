@@ -438,6 +438,7 @@ and Q3-style character controller logic.
 
 [on-fps-game-1]: http://atilkockar.com/on-fps-game-progress-1
 [on-fps-game-video]: https://youtube.com/watch?v=TvgWOEnlXw4
+
 ## Learning Material Updates
 
 ### Rust Sokoban Tutorial
@@ -811,7 +812,7 @@ features:
 [rlua_discussion]: https://github.com/amethyst/rlua/issues/174
 [SPECS]: https://github.com/amethyst/specs
 
-### Font Rendering Saga
+### Robo Instructus: [Font Rendering Saga][otf-font-rendering]
 
 ![ttf example](ttf.gif)
 
@@ -828,7 +829,6 @@ Robo Instructus][otf-font-robo].
 [otf-saga-ab-glyph]: https://twitter.com/bigabgames/status/1258866371024293890
 [otf-saga-glyph-brush]: https://twitter.com/bigabgames/status/1264235900462075906
 [otf-font-robo]: https://twitter.com/bigabgames/status/1264557215693918209
-
 
 ## Popular Workgroup Issues in Github
 
