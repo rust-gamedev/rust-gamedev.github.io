@@ -592,7 +592,7 @@ _Discussions:
 
 ![wgpu-rs logo](wgpu-logo.png)
 
-This month, Kvark shared their vision of
+This month, [@kvark] shared their vision of
 [why WebGPU on native platforms is important][wgpu-post].
 
 > I can see WebGPU on native being a go-to choice for amateur developers,
@@ -605,7 +605,8 @@ _Discussions:
 [/r/rust](https://reddit.com/r/rust/comments/gdbgoc/point_of_webgpu_on_native),
 [hackernews](https://news.ycombinator.com/item?id=23079200)_
 
-[wgpu-post]: http://kvark.github.io/web/gpu/native/2020/05/03/point-of-webgpu-native.html
+[wgpu-post]: https://kvark.github.io/web/gpu/native/2020/05/03/point-of-webgpu-native.html
+[@kvark]: https://kvark.github.io
 
 ### NodeFX
 
