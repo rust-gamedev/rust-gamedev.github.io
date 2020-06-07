@@ -954,6 +954,27 @@ Robo Instructus][otf-font-robo].
 [otf-saga-glyph-brush]: https://twitter.com/bigabgames/status/1264235900462075906
 [otf-font-robo]: https://twitter.com/bigabgames/status/1264557215693918209
 
+### [Godot] Ecosystem
+
+- Paytonrules has started a multi-part guide on [porting Godot games to
+  Rust][godot-porting-games-to-rust]. This first part covers what you'll need to
+  get started, and some workflow behind linking Rust code.
+- [@schr3da] has continued their video series about using Rust in Godot.
+  - Creating a Simple Platformer -
+    [Part 3](https://youtube.com/watch?v=0CUu111YJIk)
+- [@toast_dev] has [just released][gdnative-release] the [gdnative crate][gdnative-crate]
+  0.8.1. This crate gives you Rust bindings to GDNative.
+  This version contains a few important bugfixes. The developers have also
+  rounded a few rough edges overall.
+
+[godot-porting-games-to-rust]: https://paytonrules.com/post/games-in-rust-with-godot-part-one/
+[godot-platformer-video]: https://www.youtube.com/watch?v=0CUu111YJIk
+[Godot]: https://godotengine.org
+[@schr3da]: https://www.youtube.com/channel/UC4jYW3lJKrEvOqCQ2ElryGw
+[gdnative-crate]: https://crates.io/crates/gdnative
+[gdnative-release]: https://twitter.com/toast_dev/status/1267071886040555520
+[@toast_dev]: https://twitter.com/toast_dev
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
