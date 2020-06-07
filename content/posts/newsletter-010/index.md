@@ -566,6 +566,25 @@ _Discussions:
 [@lokathor]: https://twitter.com/lokathor
 [core::arch]: https://doc.rust-lang.org/nightly/core/core_arch/arch/index.html
 
+### [Point of WebGPU on Native][wgpu-post]
+
+![wgpu-rs logo](wgpu-logo.png)
+
+This month, Kvark shared their vision of
+[why WebGPU on native platforms is important][wgpu-post].
+
+> I can see WebGPU on native being a go-to choice for amateur developers,
+> students, indie professionals, mobile game studios, and many other groups.
+> It could be the default GPU API, if it can deliver on its promises of safety,
+> performance, and portability. We have a lot of interest and early adopters,
+> as well as big forces in motion to make this real.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/gdbgoc/point_of_webgpu_on_native),
+[hackernews](https://news.ycombinator.com/item?id=23079200)_
+
+[wgpu-post]: http://kvark.github.io/web/gpu/native/2020/05/03/point-of-webgpu-native.html
+
 ### NodeFX
 
 [![NodeFX](nodefx.png)][NodeFXTweet]
@@ -649,6 +668,43 @@ _Discussions: [/r/rust](https://www.reddit.com/r/rust/comments/gf42ip/kas_gui_04
 [kas]: https://github.com/kas-gui/kas
 [kas-040]: https://github.com/kas-gui/kas/blob/master/CHANGELOG.md
 [dhardy]: https://github.com/dhardy
+
+### [Iced]
+
+!["Life" demo](iced-life.gif)
+
+[Iced] is experimental, cross-platform GUI crate
+focused on simplicity and type safety.
+Iced can be used natively, in a web browser, or can use wgpu,
+
+This month, Iced [got interactivity support for the Canvas widget][iced-pr].
+Also, check out a new "Game of Life" demo [here][iced-life].
+
+[iced]: x
+[iced-pr]: https://github.com/hecrj/iced/pull/325
+[iced-life]: https://github.com/hecrj/iced/tree/e7e8e76c2/examples/game_of_life
+
+### Nox Futura: Rust Edition
+
+![worldgen menu](nox-f.png)
+
+^ _Worldgen menu_
+
+[Herbert Wolverson][thebracket]
+(the author of [bracket-lib] and [the Rust Roguelike Tutorial][rl-book])
+started experimenting with porting [Nox Futura][nox-f-itch] to Rust.
+
+At the moment, a wgpu-rs backend, basic planet and region generation are ready.
+Check out Sharing Saturday devlogs for more detailed reports:
+[\#1][nox-f-1], [\#2][nox-f-2], [\#3][nox-f-3].
+
+[thebracket]: https://bracketproductions.com
+[bracket-lib]: https://github.com/thebracket/bracket-lib
+[rl-book]: http://bfnightly.bracketproductions.com/rustbook/
+[nox-f-itch]: https://thebracket.itch.io/nox-futura
+[nox-f-1]: https://reddit.com/r/roguelikedev/comments/gg4qx4/sharing_saturday_310/fq0cvrm
+[nox-f-2]: https://reddit.com/r/roguelikedev/comments/gout79/sharing_saturday_312/frjozbb
+[nox-f-3]: https://reddit.com/r/roguelikedev/comments/gxg69q/sharing_saturday_314/ft4akml
 
 ### [beehive]
 
