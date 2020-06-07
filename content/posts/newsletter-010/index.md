@@ -811,6 +811,25 @@ features:
 [rlua_discussion]: https://github.com/amethyst/rlua/issues/174
 [SPECS]: https://github.com/amethyst/specs
 
+### Font Rendering Saga
+
+![ttf example](ttf.gif)
+
+This month, the developer behind Robo Instructus spent lots of time working on
+font rendering. They were looking to expand translations to languages that had
+different characters, such as Cyrillic or Chinese. This would require support
+for cubic bezier curves, not just quadratic curves. You can [read their
+blog][otf-font-rendering] for an in-depth explanation. This lead to the release
+of [ab_glyph 0.1][otf-saga-ab-glyph] that supports otf fonts, which then lead to
+[glyph_brush 0.7][otf-saga-glyph-brush] based on this, and finally [otf fonts in
+Robo Instructus][otf-font-robo].
+
+[otf-font-rendering]: https://blog.roboinstruct.us/2020/05/24/the-otf-journey.html
+[otf-saga-ab-glyph]: https://twitter.com/bigabgames/status/1258866371024293890
+[otf-saga-glyph-brush]: https://twitter.com/bigabgames/status/1264235900462075906
+[otf-font-robo]: https://twitter.com/bigabgames/status/1264557215693918209
+
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
