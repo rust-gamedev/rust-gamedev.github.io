@@ -1,8 +1,7 @@
 +++
 title = "This Month in Rust GameDev #10 - May 2020"
-date = 2020-06-01
+date = 2020-06-08
 transparent = true
-draft = true
 +++
 
 <!-- markdownlint-disable no-trailing-punctuation -->
@@ -99,9 +98,9 @@ Here is the May changelog:
 - Added 2 sets of armour. One Steel and one Leather.
 - Added context-sensitive crosshair
 
-A 0.7 intro meeting was held, in which we looked at what we wanted to achieve
-with this version. 0.7 will be released August 1st. We came up with a definition
-of 0.7, and what we wanted to achieve:
+A 0.7 intro meeting was held, in which the devs looked at what they wanted to achieve
+with this version. 0.7 will be released August 1st. They came up with a definition
+of 0.7, and what they wanted to achieve:
 
 > As a player, I want to get quests from NPCs in settlements. I want to be sent
 > to kill enemies, collect objects, or complete dungeons. I want to be sent from
@@ -201,7 +200,7 @@ with highlights also published on [YouTube][sailing-youtube].
 
 [Garden][garden] is an upcoming game centered around growing realistic plants.
 
-[May][garden-devlog] devlog were posted.
+[May][garden-devlog] devlog wes posted.
 Some of the updates:
 
 - The core logic of the plant simulation was rewritten,
@@ -237,11 +236,11 @@ The main focus so far has been experimenting with different particle types, incl
 - Cyrotheum - A cold particle that melts over time, and releases a wave of
   cold to its surroundings.
 - Unstable - Heats up over time, vaporizing a large radius at too high
-  of a tempature, and releases Smoke.
+  of a temperature, and releases Smoke.
 - Electricity - Can only exist when falling, or in Water.
   Flows through Water. Very hot.
 - Glass - Created by heating up Sand. Acts like a liquid at
-  high enough tempatures, and a solid otherwise. Immune to Acid.
+  high enough temperatures, and a solid otherwise. Immune to Acid.
 - Life - A semi-intelligent particle that stacks itself up, and moves
   as a group. Likes to breed upon eating Plants. Will jump down short drops.
   Dies if too hot or cold, or upon falling a large distance.
@@ -258,7 +257,7 @@ Got any ideas? Leave an [issue on github][Sandbox], or add it yourself!
 
 [orb.farm] is a virtual ecosystem where different species of creature can live,
 grow and die as part of a self-contained food chain.
-Made by by [Max Bittker] ([sandspiel's author][about-sandspiel]).
+Made by [Max Bittker] ([sandspiel's author][about-sandspiel]).
 
 Element types:
 
@@ -367,8 +366,8 @@ artillery game that promises exciting battles and real-time gravity physics.
 > Be careful, though, your missiles don't always fly straight.
 > Be sure to take into account the gravity of planets, the sun,
 > and other celestial bodies!
-> Try out different tactics, e.g. sling shoting missiles around the sun,
-> spaming them, or lining up sniper shots!
+> Try out different tactics, e.g. sling shooting missiles around the sun,
+> spamming them, or lining up sniper shots!
 
 The game is made using the studio's "Sphere Engine"
 that is being implemented using Rust and Vulkan.
@@ -403,12 +402,12 @@ the first time. Be sure to check out the [Github repo][digescape-github].
 > share their excitement and challenges through their dev blogs.
 
 In May, progress was made on the game models. Test have been created in order
-to fomalize what a testing suite should look like in Akigi. The interactive
-squences system was restructured to allow for a node system that could guide the
-player better. A data extraction system was put in place to view metricks from
+to formalize what a testing suite should look like in Akigi. The interactive
+sequences system was restructured to allow for a node system that could guide the
+player better. A data extraction system was put in place to view metrics from
 the game server.
 
-Some of this months's updates:
+Some of this month's updates:
 
 - [Learning to Think](https://devjournal.akigi.com/may-2020/065-2020-05-03.html#learning-to-think)
 - [Integration Testing](https://devjournal.akigi.com/may-2020/066-2020-05-10.html#integration-testing)
@@ -487,7 +486,7 @@ of a matching eye.
 
 [minds-eye]: https://github.com/MichaelStott/Minds-Eye
 
-## [vkeyes-demo-rs]
+### [vkeyes-demo-rs]
 
 ![Video demo](vkeyes.gif)
 
@@ -495,7 +494,7 @@ of a matching eye.
 you can rotate your eyes separately with analog sticks.
 
 Also, the demo features asynchronous model/texture loading from .obj,
-.png, and OpenVR and uses dedicated queue for data transfer if available.
+.png, and OpenVR and uses a dedicated queue for data transfer if available.
 
 [vkeyes-demo-rs]: https://github.com/funmaker/vkeyes-demo-rs
 [Fun Maker]: https://twitter.com/FunMaker39
@@ -690,7 +689,7 @@ and support virtually any use-case:
   with no features takes about ~3s on modern CPU.
 - Integration with `serde` ecosystem? Special `Format` implementations can load
   assets whose representation implement `serde::de::DeserializeOwned`.
-  Crate includes `Format`s for loading assets from JSON, YAML and RON docuemts.
+  Crate includes `Format`s for loading assets from JSON, YAML and RON documents.
 
 Crate's repo has few examples with nearly each line of the code explained.
 
@@ -866,7 +865,7 @@ Additionally, planning for 0.4 has begun, which will
 and easy-to-use editor which is able to load, modify, and save scenes in
 native engine format. The editor is based on rg3d engine, user interface
 is based on rg3d-ui crate which developing in parallel with editor. It is
-still in very early development phase, but it already have some basic
+still in very early development phase, but it already has some basic
 features:
 
 - Undo/redo
@@ -1063,7 +1062,7 @@ from the interactions of millions of individuals.
 
 During RustFest Zurich 2017, [Anselm Eickhoff] gave an interesting talk
 "Type-safe & high-perf distributed actor systems with Rust":
-brief histiry of Citybound, why Rust was choosen, actors in a networked setting,
+brief history of Citybound, why Rust was chosen, actors in a networked setting,
 a few live demos, and lessons learned.
 
 You can [watch the recording here][cb-video] ([slides][cb-slides]).
