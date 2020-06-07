@@ -427,6 +427,28 @@ Full devlogs:
 
 [akigi]: https://akigi.com
 
+### Nox Futura: Rust Edition
+
+![worldgen menu](nox-f.png)
+
+^ _Worldgen menu_
+
+[Herbert Wolverson][thebracket]
+(the author of [bracket-lib] and [the Rust Roguelike Tutorial][rl-book])
+started experimenting with porting [Nox Futura][nox-f-itch] to Rust.
+
+At the moment, a wgpu-rs backend, basic planet and region generation are ready.
+Check out Sharing Saturday devlogs for more detailed reports:
+[\#1][nox-f-1], [\#2][nox-f-2], [\#3][nox-f-3].
+
+[thebracket]: https://bracketproductions.com
+[bracket-lib]: https://github.com/thebracket/bracket-lib
+[rl-book]: http://bfnightly.bracketproductions.com/rustbook/
+[nox-f-itch]: https://thebracket.itch.io/nox-futura
+[nox-f-1]: https://reddit.com/r/roguelikedev/comments/gg4qx4/sharing_saturday_310/fq0cvrm
+[nox-f-2]: https://reddit.com/r/roguelikedev/comments/gout79/sharing_saturday_312/frjozbb
+[nox-f-3]: https://reddit.com/r/roguelikedev/comments/gxg69q/sharing_saturday_314/ft4akml
+
 ### [On FPS Game Progress \#1][on-fps-game-1]
 
 [![Video demo of the current progress](on-fps.jpeg)][on-fps-game-video]
@@ -683,28 +705,6 @@ Also, check out a new "Game of Life" demo [here][iced-life].
 [iced]: x
 [iced-pr]: https://github.com/hecrj/iced/pull/325
 [iced-life]: https://github.com/hecrj/iced/tree/e7e8e76c2/examples/game_of_life
-
-### Nox Futura: Rust Edition
-
-![worldgen menu](nox-f.png)
-
-^ _Worldgen menu_
-
-[Herbert Wolverson][thebracket]
-(the author of [bracket-lib] and [the Rust Roguelike Tutorial][rl-book])
-started experimenting with porting [Nox Futura][nox-f-itch] to Rust.
-
-At the moment, a wgpu-rs backend, basic planet and region generation are ready.
-Check out Sharing Saturday devlogs for more detailed reports:
-[\#1][nox-f-1], [\#2][nox-f-2], [\#3][nox-f-3].
-
-[thebracket]: https://bracketproductions.com
-[bracket-lib]: https://github.com/thebracket/bracket-lib
-[rl-book]: http://bfnightly.bracketproductions.com/rustbook/
-[nox-f-itch]: https://thebracket.itch.io/nox-futura
-[nox-f-1]: https://reddit.com/r/roguelikedev/comments/gg4qx4/sharing_saturday_310/fq0cvrm
-[nox-f-2]: https://reddit.com/r/roguelikedev/comments/gout79/sharing_saturday_312/frjozbb
-[nox-f-3]: https://reddit.com/r/roguelikedev/comments/gxg69q/sharing_saturday_314/ft4akml
 
 ### [beehive]
 
