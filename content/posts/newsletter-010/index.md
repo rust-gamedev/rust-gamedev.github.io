@@ -958,6 +958,13 @@ Robo Instructus][otf-font-robo].
 
 <!-- Up to 10 links to interesting issues -->
 
+- [rust-gamedev/wg](https://github.com/rust-gamedev/wg):
+  - [#77 "Can we contribute to OpenXR to get Keyboard/Mouse support to be official?"](https://github.com/rust-gamedev/wg/issues/77)
+- [rust-gamedev/rust-gamedev.github.io](https://github.com/rust-gamedev/rust-gamedev.github.io):
+  - [#150 "Jobs Section"](https://github.com/rust-gamedev/rust-gamedev.github.io/issues/150)
+- [rust-gamedev/arewegameyet](https://github.com/rust-gamedev/arewegameyet):
+  - [#320 "A different section for gamejam games?"](https://github.com/rust-gamedev/arewegameyet/issues/320)
+
 ## Meeting Minutes
 
 <!-- Up to 10 most important notes + a link to the full details -->
@@ -1026,6 +1033,28 @@ or [join the next meeting][join].
 and highlight events from the past. -->
 
 Just an interesting Rust gamedev link from the past. :)
+
+[Citybound][cb] is a WIP city building game that uses microscopic models
+to vividly simulate the organism of a city arising
+from the interactions of millions of individuals.
+
+[![A screenshot from the recording](cb-talk-video.jpeg)][cb-video]
+
+During RustFest Zurich 2017, [Anselm Eickhoff] gave an interesting talk
+"Type-safe & high-perf distributed actor systems with Rust":
+brief histiry of Citybound, why Rust was choosen, actors in a networked setting,
+a few live demos, and lessons learned.
+
+You can [watch the recording here][cb-video] ([slides][cb-slides]).
+
+_Discussions:
+[/r/Citybound](https://reddit.com/r/Citybound/comments/77dc7m/my_full_rustfest_talk),
+[/r/rust](https://reddit.com/r/rust/comments/77ddu6/typesafe_highperf_distributed_actor_systems)_
+
+[Anselm Eickhoff]: https://aeplay.org
+[cb]: https://aeplay.org/citybound
+[cb-video]: https://youtube.com/watch?v=qr9GTTST_Dk
+[cb-slides]: https://www.dropbox.com/s/z9ddkhz2pbidt8c/rustfest.pdf?dl=0
 
 ------
 
