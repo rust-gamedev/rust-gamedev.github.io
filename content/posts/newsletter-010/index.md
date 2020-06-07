@@ -781,6 +781,34 @@ features:
 
 [rusty editor]: https://github.com/mrDIMAS/rusty-editor
 
+### [Oxygengine]
+
+![Oxygengine logo](oxygengine-dark-logo.svg)
+
+The main goal of this month changes was to fix most problematic bugs and finally
+add a feature to support custom fonts assets. While not all bugs could be fixed
+on time, here are two interesting things that shows at least the small amount of
+progress that was made:
+
+- Added support for loading and using custom TFF fonts assets:
+
+  ![Oxygengine custom fonts](oxygengine-custom-fonts.png)
+
+- Additionally [@PsichiX] has created a small example of a project that shows
+  how to make a pokemon-like game basis - it covers topics such as: using Tiled
+  Editor maps to render the world and applying player movement in it, as well as
+  using spritesheet-based frame animations. Example sources can be found here:
+  [Oxygengine pokemon-like basic mechanics](https://github.com/PsichiX/Oxygengine/tree/master/demos/pokemon)
+
+  ![Oxygengine pokemon gold](oxygengine-pokemon-gold.gif)
+
+If you want to be up to date with Oxygengine ecosystem progress, make sure to
+follow project on GitHub and see [Oxygengine Project board](oxygengine-project).
+
+[@PsichiX]: https://github.com/PsichiX
+[Oxygengine]: https://github.com/PsichiX/Oxygengine
+[oxygengine-project]: https://github.com/PsichiX/Oxygengine/projects/1
+
 ### [Amethyst][amethyst]
 
 [![Amethyst logo](amethyst-logo.png)][amethyst]
