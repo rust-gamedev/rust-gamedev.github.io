@@ -439,6 +439,45 @@ and Q3-style character controller logic.
 [on-fps-game-1]: http://atilkockar.com/on-fps-game-progress-1
 [on-fps-game-video]: https://youtube.com/watch?v=TvgWOEnlXw4
 
+### [Life][life]
+
+![screenshot with a simple level](life.png)
+
+["Life"][life] by [@datoh]
+is a WIP puzzle game written using Tetra.
+Though still a prototype, the game has a bunch of playable levels
+and a [level editor][life-level-editor].
+The development process is streamed at [twitch.tv/datoh].
+
+[life-level-editor]: https://twitter.com/datoh/status/1264574784769318915
+[twitch.tv/datoh]: https://twitch.tv/datoh
+[life]: https://datoh.itch.io/life
+[@datoh]: https://twitter.com/datoh
+
+### [Mind's Eye][minds-eye]
+
+![Level 2: Triangle Tango](minds_eye.gif)
+
+[Mind's Eye][minds-eye] by Michael Stott is a WIP experimental
+Sokoban-esque puzzle game developed using Rust and SDL2.
+The objective is to move the colored blocks into the line of sight
+of a matching eye.
+
+[minds-eye]: https://github.com/MichaelStott/Minds-Eye
+
+## [vkeyes-demo-rs]
+
+![Video demo](vkeyes.gif)
+
+[vkeyes-demo-rs] by [Fun Maker] is a simple OpenVR+Vulkano demo with a twist:
+you can rotate your eyes separately with analog sticks.
+
+Also, the demo features asynchronous model/texture loading from .obj,
+.png, and OpenVR and uses dedicated queue for data transfer if available.
+
+[vkeyes-demo-rs]: https://github.com/funmaker/vkeyes-demo-rs
+[Fun Maker]: https://twitter.com/FunMaker39
+
 ## Learning Material Updates
 
 ### Rust Sokoban Tutorial
