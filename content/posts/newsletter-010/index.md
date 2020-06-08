@@ -741,7 +741,7 @@ Iced can be used natively, in a web browser, or can use wgpu,
 This month, Iced [got interactivity support for the Canvas widget][iced-pr].
 Also, check out a new "Game of Life" demo [here][iced-life].
 
-[iced]: x
+[iced]: https://github.com/hecrj/iced/
 [iced-pr]: https://github.com/hecrj/iced/pull/325
 [iced-life]: https://github.com/hecrj/iced/tree/e7e8e76c2/examples/game_of_life
 
