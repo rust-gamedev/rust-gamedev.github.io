@@ -568,7 +568,7 @@ about building a simple version of Pong using GGEZ:
 > there’s still plenty of small game engines that don’t make any assumptions.
 > My favorite of these is ggez.
 
-[The source code for all stages could be found here.][rust-wasm-3d-src]
+[The source code for all stages could be found here.][pong-tut-src]
 
 [mkhan45]: https://mkhan45.github.io
 [pong-tut-1]: https://mkhan45.github.io/2020/05/19/Pong-tutorial-with-ggez.html
