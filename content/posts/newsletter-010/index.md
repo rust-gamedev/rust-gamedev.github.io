@@ -154,7 +154,7 @@ features, including the ability to observe other player's villages.
 A summary of changes is available on the [Paddlers news page][paddlers-news].
 
 Besides programming, the developer of Paddlers also wrote a blog post called
-[Benefits of full-stack Rust][paddlers-blog] where he details some of his
+[Benefits of full-stack Rust][paddlers-blog] where the details some of his
 experiences when implementing a server-client model using Rust on both ends.
 Furthermore, he published a first [video teaser][paddlers-teaser].
 
@@ -172,13 +172,13 @@ _Discussions:
 
 ![screenhot: an island, sea, and a few boats](sailing-sim.jpg)
 
-This is unnamed game is still in the prototype stage and
+This unnamed game is still in the prototype stage and
 it's the new project of Kunos Simulazioni
 (creators of the [Assetto Corsa] racing simulation franchise)
 co-founder and former Lead Programmer [Stefano Casillo] who started
 a new studio (Jaxx Vane Studio) in April 2020 in the search of new challenges.
 
-It's going to be a modern Foling/Sailing Simulator aiming to bring the depth,
+It's going to be a modern Foiling/Sailing Simulator aiming to bring the depth,
 rigor and attention to detail found in racing simulations to the sailing genre
 on PC/Windows.
 The game features a fully custom scratch made 3D engine written in Rust
@@ -200,7 +200,7 @@ with highlights also published on [YouTube][sailing-youtube].
 
 [Garden][garden] is an upcoming game centered around growing realistic plants.
 
-[May][garden-devlog] devlog wes posted.
+[May][garden-devlog] devlog was posted.
 Some of the updates:
 
 - The core logic of the plant simulation was rewritten,
