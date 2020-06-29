@@ -69,6 +69,31 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
+### [This Month in Mun][mun-june]
+
+[![Mun logo](mun-logo.png)][Mun]
+
+[Mun] is a scripting language for gamedev focused on quick iteration times
+that is written in Rust.
+
+After the dust of the [Mun v0.2 release][mun-release] settled, this month focus
+has been on fixing several issues found by community members, improving the
+overall quality of the code base and working towards the next release: Mun v0.3.
+
+Their [June updates][mun-june] include:
+
+- [*Make It or Break It*
+contest](https://github.com/mun-lang/mun/issues/220);
+- several fixes for issues that arose thanks to the contest;
+- the foundation for Mun projects;
+- an initial language server setup;
+
+![Language Server Diagnostics in action](mun-languageserver.gif)
+
+[Mun]: https://mun-lang.org
+[mun-release]: https://mun-lang.org/blog/2020/05/16/release-mun-v0-2-0
+[mun-june]: https://mun-lang.org/blog/2020/06/30/this-month-june
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
