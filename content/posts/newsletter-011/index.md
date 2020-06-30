@@ -156,6 +156,44 @@ still a work in progress, so contributions are welcomed!
 [tetra-040]: https://twitter.com/17cupsofcoffee/status/1275778769077317637
 [tetra-dist]: https://tetra.seventeencups.net/distributing/
 
+### [Arsenal Game Engine][arsenal]
+
+[Arsenal] is the concept for a 2D and 3D game engine that is fully integrated
+with [Blender] and built on a Rust core. The engine will be built around an
+entity component system ( probably [Shipyard] ) for its performance and game
+design advantages. The vision of Arsenal is to build an Open Source game engine
+that is suitable for games of any scale and that is easily approachable by a
+wide audience of both complete beginners and seasoned experts.
+
+Arsenal currently has a [POC][ars_poc] working, but there is no support for
+adding custom game logic. The next major step for Arsenal is to get initial
+[scripting support][ship_script_support] in Shipyard. The scripting plan for
+Arsenal borrows heavily from the [Amethyst scripting RFC][amethyst_scrpt_rfc]
+with the first target scripting language being Python. Other languages that are
+candidates for being added later are be [Mun], Lua, and maybe other languages
+written in Rust such as [Gluon].
+
+More information on the Arsenal development direction can be found in the latest
+Arsenal development [blog post][arsenal_update].
+
+[Katharos Technology][ktech] has gone live on [GitHub Sponsors][ghs_ktech] as a
+means to fund development of the development of the [Arsenal] game engine and
+supporting Rust gamedev libraries and tools such as [GFX], and [WGPU].
+
+[ktech]: https://katharostech.com
+[ghs_ktech]: https://github.com/sponsors/katharostech/
+[arsenal]: https://github.com/katharostech/arsenal
+[gfx]: https://github.com/gfx-rs/gfx
+[wgpu]: https://github.com/gfx-rs/wgpu
+[arsenal_update]: https://katharostech.com/post/arsenal-development-now-on-github-sponsors
+[blender]: https://blender.org
+[shipyard]: https://github.com/leudz/shipyard
+[ship_script_support]: https://github.com/leudz/shipyard/issues/96
+[amethyst_scrpt_rfc]: https://github.com/amethyst/rfcs/blob/master/0001-scripting.md
+[mun]: https://mun-lang.org/
+[gluon]: https://github.com/gluon-lang/gluon
+[ars_poc]: https://github.com/katharostech/arsenal/releases/tag/v0.1.0
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
