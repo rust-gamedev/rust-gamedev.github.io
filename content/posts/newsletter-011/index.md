@@ -69,6 +69,24 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
+### [Tetra 0.4][tetra-040]
+
+[Tetra] is a simple 2D game framework, inspired by XNA and Raylib. This month,
+[version 0.4][tetra-040] was released, featuring:
+
+- A rework of the text rendering API, which improves performance and fixes a 
+number of long-standing bugs
+- Functions for capturing the player's mouse
+- Various tweaks and bug fixes under the hood
+
+Also, [a new guide has been added to Tetra's website][tetra-dist], listing some
+things to consider when distributing your game to the public. This guide is
+still a work in progress, so contributions are welcomed!
+
+[tetra]: https://github.com/17cupsofcoffee/tetra
+[tetra-040]: https://twitter.com/17cupsofcoffee/status/1275778769077317637
+[tetra-dist]: https://tetra.seventeencups.net/distributing/
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
