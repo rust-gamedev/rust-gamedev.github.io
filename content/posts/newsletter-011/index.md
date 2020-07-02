@@ -83,7 +83,7 @@ nightly and a cargo subcommand.
 
 #### cargo-psp and the psp crate
 
-The psp crate provides a psp::sys submodule that houses the entire Sony PSP 
+The psp crate provides a `psp::sys` submodule that houses the entire Sony PSP 
 API. We are working to have theseinterfaces merged into the libc crate.
 The PSP unfortunately uses non-standard dynamic linking, 
 (and some libraries are statically linked!), so function definitions 
@@ -91,9 +91,10 @@ marked extern are not enough. Eventually we will wrap this sys lib with a more
 rust-friendly library.
 
 Rather than patching LLVM or rustc, the rust-psp team has also merged a 
-mipsel-sony-psp target upstream, and published cargo-psp. This is a subcommand 
+`mipsel-sony-psp` target upstream, and published cargo-psp. This is a subcommand 
 that works exactly like cargo build, except it also builds the crate into a 
-PSP-specific executable format called PRX and packages that into an EBOOT.PBP.
+PSP-specific executable format called `PRX` and packages that into an 
+`EBOOT.PBP`, the standard format for a PSP Homebrew.
 
 The crate has reached full user-mode parity with the unofficial C/C++ SDK. 
 Kernel-mode support still needs to be worked on. Aside from library 
