@@ -65,6 +65,25 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Way of Rhea](https://www.anthropicstudios.com/way-of-rhea)
+
+Way of Rhea is an upcoming puzzle platformer that takes place in a world where you can only interact with objects that match your current color. It's being build in a custom engine, and custom scripting language both written in Rust by [Mason Remaley](https://twitter.com/masonremaley).
+
+<!-- image here -->
+
+#### General Info
+* [Steam Page](https://store.steampowered.com/app/1110620/Way_of_Rhea/)
+* [Development Blog](https://www.anthropicstudios.com/blog/)
+* [Newsletter](https://www.anthropicstudios.com/newsletter/signup/tech)
+* [Dev Twitter](https://twitter.com/masonremaley)/[Game Twitter](https://twitter.com/anthropicst)
+
+#### Updates
+* A demo was released as part of the [Steam Game Festival](https://store.steampowered.com/sale/gamefestival)! The festival has since ended, so the demo is no longer available.
+* Mason ran An AMA [here](https://www.reddit.com/r/rust_gamedev/comments/hc7vex/i_just_released_a_demo_of_a_game_built_in_my_own/) and [here](https://www.reddit.com/r/IndieDev/comments/hc7mf2/i_just_released_a_demo_of_a_game_built_in_my_own/) about the development of the game.
+* The studio hosted a [speedrun competition](https://steamcommunity.com/app/1110620/discussions/0/2569815696856844856/) as part of the Steam festival, [here's the winning run](https://youtu.be/AmYU0TXc4Ls).
+* A colorblind friendly mode was added to the game, and [a couple other changes](https://store.steampowered.com/newshub/app/1110620/view/2445966074565244552) were made in response to feedback from the festival.
+
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
