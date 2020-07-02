@@ -69,7 +69,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 Way of Rhea is an upcoming puzzle platformer that takes place in a world where you can only interact with objects that match your current color. It's being build in a custom engine, and custom scripting language both written in Rust by [Mason Remaley](https://twitter.com/masonremaley).
 
-![Way of Rhea in-game screenshot](way-of-rhea-1.png)
+[![Way of Rhea Trailer](way-of-rhea-1.png)](https://www.youtube.com/watch?v=eVrbZss_B3g)
 
 #### General Info
 * [Steam Page](https://store.steampowered.com/app/1110620/Way_of_Rhea/)
