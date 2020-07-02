@@ -71,11 +71,11 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [rust-psp](https://github.com/overdrivenpotato/rust-psp)
 
-Just what everyone's always wanted, Rust on the Sony PSP :P
+Just what everyone's always wanted, Rust on the Sony PSP 😆
 
 ![demo-gif](https://raw.githubusercontent.com/overdrivenpotato/rust-psp/master/demo.gif)
 
-[crates.io](https://crates.io/crates/psp), [docs.rs](https://docs.rs/psp)
+[crates.io](https://crates.io/crates/psp) [docs.rs](https://docs.rs/psp)
 
 This project is a port and improvement of the unofficial C/C++ PSPSDK from 
 2005. It does not require a custom GCC toolchain to be installed. Only Rust 
@@ -84,9 +84,9 @@ nightly and a cargo subcommand.
 #### cargo-psp and the psp crate
 
 The psp crate provides a psp::sys submodule that houses the entire Sony PSP 
-API. This is slightly different from most platforms that have their interfaces 
-merged into the libc crate. The PSP unfortunately uses non-standard dynamic 
-linking, (and some libraries are statically linked!), so function definitions 
+API. We are working to have theseinterfaces merged into the libc crate.
+The PSP unfortunately uses non-standard dynamic linking, 
+(and some libraries are statically linked!), so function definitions 
 marked extern are not enough. Eventually we will wrap this sys lib with a more
 rust-friendly library.
 
@@ -98,7 +98,7 @@ PSP-specific executable format called PRX and packages that into an EBOOT.PBP.
 The crate has reached full user-mode parity with the unofficial C/C++ SDK. 
 Kernel-mode support still needs to be worked on. Aside from library 
 imports, there is also support for PSP-specific custom assembly instructions
-via the vfpu_asm! macro, with no need for a custom compiler toolchain.
+via the `vfpu_asm!` macro, with no need for a custom compiler toolchain.
 There is also optional embedded-graphics support and a function to benchmark
 or time your code.
 
