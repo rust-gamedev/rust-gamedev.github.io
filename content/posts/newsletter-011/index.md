@@ -100,7 +100,7 @@ The crate has reached full user-mode parity with the unofficial C/C++ SDK.
 Kernel-mode support still needs to be worked on. Aside from library 
 imports, there is also support for PSP-specific custom assembly instructions
 via the `vfpu_asm!` macro, with no need for a custom compiler toolchain.
-There is also optional embedded-graphics support and a function to benchmark
+There is also optional `embedded-graphics` support and a function to benchmark
 or time your code.
 
 #### Next Steps
