@@ -64,6 +64,40 @@ If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
 ## Game Updates
+### Animal Chess [https://github.com/netcan/AnimalChess](https://github.com/netcan/AnimalChess)
+![AnimalChess](https://github.com/netcan/AnimalChess/raw/master/assets/animal_chess.png)
+
+Pronounced "Doe Show Chee" which means literally, Animal Fight Chess,
+This is a popular game in China, especially among children.
+
+It is apparently derived from the very popular Xiangqi — the Chinese form of chess.
+
+Although Dou Shou Qi is not familiar to many in the western world,
+it has strong similarities to the game Stratego.
+
+The project use alpha beta pruning algorithm for AI, and provide python module to use
+AlphaZero algorithm for training, unfortunately it's restricted by my computing power,
+currently doesn't get best model.
+
+#### Goal
+To win the game, one player successfully move any animal into
+the Den（兽穴）of the opponent or eat all animals of opponent.
+
+The basic move is just one space either forward, backward, left or right.
+The pieces never move diagonally.
+
+Each player has eight pieces, different animals, with different degrees of power,
+a larger power piece can eats little power piece, but rat can eats elephant.
+
+Here are the pieces, their English names, and their relative powers,
+indicated by number:
+
+[http://ancientchess.com/graphics-rules/dou_shou_qi_jungle_game-pieces-values.jpg](http://ancientchess.com/graphics-rules/dou_shou_qi_jungle_game-pieces-values.jpg)
+
+More details see:
+- [http://ancientchess.com/page/play-doushouqi.htm](http://ancientchess.com/page/play-doushouqi.htm)
+- [https://en.wikipedia.org/wiki/Jungle_(board_game)](https://en.wikipedia.org/wiki/Jungle_(board_game))
+
 
 ## Learning Material Updates
 
