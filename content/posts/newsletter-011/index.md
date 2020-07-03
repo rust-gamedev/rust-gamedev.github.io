@@ -77,6 +77,15 @@ The [Source Code][wooting_snake-git] was also made available.
 [wooting_snake-git]: https://github.com/TanTanDev/wooting_snake
 [wooting_snake-video]: https://youtu.be/OhhscXz-60g
 
+### [Vimnail][vimnail-git] - A Mouseless Image Editor
+[Vimnail][vimnail-git] is a mode based image editor inspired by Vim.
+The goal of the project is to be able to compose images without using the mouse.
+The project is in an early stage, and it's [Open Source][vimnail-git].
+The developer also released a [Video][vimnail-video] documenting the process making this software.
+
+[vimnail-git]: https://github.com/TanTanDev/vimnail
+[vimnail-video]: https://youtu.be/2cSY43OcuZc
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
