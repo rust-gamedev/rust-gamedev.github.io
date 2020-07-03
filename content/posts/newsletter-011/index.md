@@ -71,20 +71,20 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [yaks]
 
-Minimalistic framework for automatic multithreading of [`hecs`] ECS library
-using [Rayon] data-parallelism library.
+[yaks] is a minimalistic framework for automatic multithreading
+of [`hecs`] ECS library using [Rayon] data-parallelism library.
 
 While the project itself started earlier this year, with this month's release
 `yaks` gained an overhauled API, further leaning into the promise of
 simplicity:
 
-* systems are any functions or closures of a specific signature,
-* `Executor` is a container for one or more systems,
-* system execution order can be defined when building an `Executor`
-to create concurrent chains of systems,
-* resources used by systems (any data that is not associated with an entity)
-are now borrowed for the duration of execution, instead of being owned
-by the framework.
+- systems are any functions or closures of a specific signature,
+- `Executor` is a container for one or more systems,
+- system execution order can be defined when building an `Executor`
+  to create concurrent chains of systems,
+- resources used by systems (any data that is not associated with an entity)
+  are now borrowed for the duration of execution, instead of being owned
+  by the framework.
 
 All items in the library are exhaustively documented, and the repository
 contains a fully annotated example.
