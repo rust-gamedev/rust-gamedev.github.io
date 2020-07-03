@@ -65,6 +65,23 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Guacamole Runner][guacamole]
+
+![gif](guacamole.gif)
+
+[Guacamole Runner][guacamole] is a small game made with
+[Tetra][tetra] and [Shipyard][shipyard] in approximately 2 days
+by [@EllenNyan][ellen_twitter].
+The game's concept is that the player is constantly falling
+and must jump off planes to stay in the air.
+When they go over the top of the dirt tiles
+they plant flowers which gives them points.
+
+[guacamole]: https://github.com/EllenNyan/guacamole-runner
+[ellen_twitter]: https://twitter.com/EllenNyan0214
+[tetra]: https://github.com/17cupsofcoffee/Tetra
+[shipyard]: https://github.com/leudz/shipyard
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
@@ -92,6 +109,52 @@ Their [June updates][mun-june] include:
 [Mun]: https://mun-lang.org
 [mun-release]: https://mun-lang.org/blog/2020/05/16/release-mun-v0-2-0
 [mun-june]: https://mun-lang.org/blog/2020/06/30/this-month-june
+
+### [yaks]
+
+[yaks] is a minimalistic framework for automatic multithreading
+of [`hecs`] ECS library using [Rayon] data-parallelism library.
+
+While the project itself started earlier this year, with this month's release
+`yaks` gained an overhauled API, further leaning into the promise of
+simplicity:
+
+- systems are any functions or closures of a specific signature,
+- `Executor` is a container for one or more systems,
+- system execution order can be defined when building an `Executor`
+  to create concurrent chains of systems,
+- resources used by systems (any data that is not associated with an entity)
+  are now borrowed for the duration of execution, instead of being owned
+  by the framework.
+
+All items in the library are exhaustively documented, and the repository
+contains a fully annotated example.
+
+Enabled-by-default `parallel` cargo feature can be disabled to force
+everything in `yaks` to become single-threaded, which allows using code
+written with the framework on platforms without threading - notably, web.
+
+[yaks]: https://crates.io/crates/yaks
+[`hecs`]: https://crates.io/crates/hecs
+[Rayon]: https://crates.io/crates/rayon
+
+### [Tetra 0.4][tetra-040]
+
+[Tetra] is a simple 2D game framework, inspired by XNA and Raylib. This month,
+[version 0.4][tetra-040] was released, featuring:
+
+- A rework of the text rendering API, which improves performance and fixes a
+  number of long-standing bugs
+- Functions for capturing the player's mouse
+- Various tweaks and bug fixes under the hood
+
+Also, [a new guide has been added to Tetra's website][tetra-dist], listing some
+things to consider when distributing your game to the public. This guide is
+still a work in progress, so contributions are welcomed!
+
+[tetra]: https://github.com/17cupsofcoffee/tetra
+[tetra-040]: https://twitter.com/17cupsofcoffee/status/1275778769077317637
+[tetra-dist]: https://tetra.seventeencups.net/distributing/
 
 ## Popular Workgroup Issues in Github
 
