@@ -69,6 +69,34 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
+### [yaks]
+
+[yaks] is a minimalistic framework for automatic multithreading
+of [`hecs`] ECS library using [Rayon] data-parallelism library.
+
+While the project itself started earlier this year, with this month's release
+`yaks` gained an overhauled API, further leaning into the promise of
+simplicity:
+
+- systems are any functions or closures of a specific signature,
+- `Executor` is a container for one or more systems,
+- system execution order can be defined when building an `Executor`
+  to create concurrent chains of systems,
+- resources used by systems (any data that is not associated with an entity)
+  are now borrowed for the duration of execution, instead of being owned
+  by the framework.
+
+All items in the library are exhaustively documented, and the repository
+contains a fully annotated example.
+
+Enabled-by-default `parallel` cargo feature can be disabled to force
+everything in `yaks` to become single-threaded, which allows using code
+written with the framework on platforms without threading - notably, web.
+
+[yaks]: https://crates.io/crates/yaks
+[`hecs`]: https://crates.io/crates/hecs
+[Rayon]: https://crates.io/crates/rayon
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
