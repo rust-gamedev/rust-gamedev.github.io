@@ -65,6 +65,18 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Wooting Snake][wooting_snake-git]
+
+![wooting_snake-preview](wooting_snake.gif)
+
+Wooting snake is a snake game where the visuals are represented on your
+keyboard lights, instead of a computer screen.
+The developer released a [Video][wooting_snake-video] documenting the process of making this game.
+The [Source Code][wooting_snake-git] was also made available.
+
+[wooting_snake-git]: https://github.com/TanTanDev/wooting_snake
+[wooting_snake-video]: https://youtu.be/OhhscXz-60g
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
