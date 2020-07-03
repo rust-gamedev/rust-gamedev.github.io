@@ -74,8 +74,8 @@ If needed, a section can be split into subsections with a "------" delimiter.
 [Tetra] is a simple 2D game framework, inspired by XNA and Raylib. This month,
 [version 0.4][tetra-040] was released, featuring:
 
-- A rework of the text rendering API, which improves performance and fixes a 
-number of long-standing bugs
+- A rework of the text rendering API, which improves performance and fixes a
+  number of long-standing bugs
 - Functions for capturing the player's mouse
 - Various tweaks and bug fixes under the hood
 
