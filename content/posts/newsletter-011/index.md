@@ -67,20 +67,20 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [Guacamole Runner][guacamole]
 
-![gif][guacamole_gif]
+![gif](guacamole.gif)
 
 [Guacamole Runner][guacamole] is a small game made with
-[Tetra][tetra] and [Shipyard][shipyard] in approximately 2 days by [@EllenNyan][ellen_twitter].  
-The game's concept is that the player is constantly falling 
-and must jump off planes to stay in the air. 
-When they go over the top of the dirt tiles 
+[Tetra][tetra] and [Shipyard][shipyard] in approximately 2 days
+by [@EllenNyan][ellen_twitter].
+The game's concept is that the player is constantly falling
+and must jump off planes to stay in the air.
+When they go over the top of the dirt tiles
 they plant flowers which gives them points.
 
+[guacamole]: https://github.com/EllenNyan/guacamole-runner
 [ellen_twitter]: https://twitter.com/EllenNyan0214
 [tetra]: https://github.com/17cupsofcoffee/Tetra
 [shipyard]: https://github.com/leudz/shipyard
-[guacamole]: https://github.com/EllenNyan/guacamole-runner
-[guacamole_gif]: /content/posts/newsletter-011/guacamole.gif
 
 ## Learning Material Updates
 
