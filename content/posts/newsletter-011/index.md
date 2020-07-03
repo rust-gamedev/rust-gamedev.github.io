@@ -33,7 +33,7 @@ Table of contents:
 - [Game Updates](#game-updates)
   - [Weegames](#weegames)
 - [Learning Material Updates](#learning-material-updates)
-- [Library & Tooling Updates](#library--tooling-updates)
+- [Library & Tooling Updates](#library-tooling-updates)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Meeting Minutes](#meeting-minutes)
 - [Requests for Contribution](#requests-for-contribution)
@@ -66,16 +66,20 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
-### [Weegames](https://yeahross.itch.io/weegames)
+### [Weegames][weegames-itch]
 
 ![Weegames](weegames.jpg)
 
 Weegames is a fast-paced minigame collection. There are 23 odd games all made
 using free images and sounds. The more minigames you beat the faster they get.
 
- - [Video](https://www.youtube.com/watch?v=A_GqhZ_7EIw)
- - [Repository](https://github.com/yeahross0/weegames)
- - [You can download the game on itch](https://yeahross.itch.io/weegames)
+ - [Video][weegames-video]
+ - [Repository][weegames-repository]
+ - [You can download the game on itch][weegames-itch]
+
+[weegames-itch]: https://yeahross.itch.io/weegames
+[weegames-repository]: https://github.com/yeahross0/weegames
+[weegames-video]: https://www.youtube.com/watch?v=A_GqhZ_7EIw
 
 ## Learning Material Updates
 
