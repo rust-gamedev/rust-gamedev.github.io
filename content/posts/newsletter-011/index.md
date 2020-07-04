@@ -77,27 +77,27 @@ Just what everyone's always wanted, Rust on the Sony PSP 😆
 
 [crates.io](https://crates.io/crates/psp) [docs.rs](https://docs.rs/psp)
 
-This project is a port and improvement of the unofficial C/C++ PSPSDK from 
-2005. It does not require a custom GCC toolchain to be installed. Only Rust 
+This project is a port and improvement of the unofficial C/C++ PSPSDK from
+2005. It does not require a custom GCC toolchain to be installed. Only Rust
 nightly and a cargo subcommand.
 
 #### cargo-psp and the psp crate
 
-The psp crate provides a `psp::sys` submodule that houses the entire Sony PSP 
+The psp crate provides a `psp::sys` submodule that houses the entire Sony PSP
 API. We are working to have theseinterfaces merged into the libc crate.
-The PSP unfortunately uses non-standard dynamic linking, 
-(and some libraries are statically linked!), so function definitions 
+The PSP unfortunately uses non-standard dynamic linking,
+(and some libraries are statically linked!), so function definitions
 marked extern are not enough. Eventually we will wrap this sys lib with a more
 rust-friendly library.
 
-Rather than patching LLVM or rustc, the rust-psp team has also merged a 
-`mipsel-sony-psp` target upstream, and published cargo-psp. This is a subcommand 
-that works exactly like cargo build, except it also builds the crate into a 
-PSP-specific executable format called `PRX` and packages that into an 
+Rather than patching LLVM or rustc, the rust-psp team has also merged a
+`mipsel-sony-psp` target upstream, and published cargo-psp. This is a subcommand
+that works exactly like cargo build, except it also builds the crate into a
+PSP-specific executable format called `PRX` and packages that into an
 `EBOOT.PBP`, the standard format for a PSP Homebrew.
 
-The crate has reached full user-mode parity with the unofficial C/C++ SDK. 
-Kernel-mode support still needs to be worked on. Aside from library 
+The crate has reached full user-mode parity with the unofficial C/C++ SDK.
+Kernel-mode support still needs to be worked on. Aside from library
 imports, there is also support for PSP-specific custom assembly instructions
 via the `vfpu_asm!` macro, with no need for a custom compiler toolchain.
 There is also optional `embedded-graphics` support and a function to benchmark
@@ -105,7 +105,7 @@ or time your code.
 
 #### Next Steps
 
-The next major milestone for rust-psp is std support. 
+The next major milestone for rust-psp is std support.
 If you are interested in helping out, please feel free to join the rust-psp
 channel in the [PSP Homebrew discord server](https://discord.gg/WY8XhDG)
 
