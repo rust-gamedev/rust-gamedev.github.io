@@ -4,8 +4,6 @@ date = 2019-12-08
 transparent = true
 +++
 
-<!-- markdownlint-disable no-trailing-punctuation -->
-
 Welcome to the fourth issue of the Rust GameDev Workgroup’s
 monthly newsletter.
 
@@ -426,7 +424,8 @@ A few notable additions are:
 - slimmed-down Rendy dependencies (memory and descriptor);
 - new skybox example.
 
-Lyon has [updated examples](https://github.com/nical/lyon/pull/496) for this version, showing how to draw vector graphics on `wgpu`.
+Lyon has [updated examples](https://github.com/nical/lyon/pull/496)
+for this version, showing how to draw vector graphics on `wgpu`.
 
 Also, `wgpu` is now a part of Gecko code base for powering the emerging WebGPU implementation.
 
@@ -499,8 +498,8 @@ _Discussions:
 
 ^ Click to see [a demo video][skulpin-video].
 
-[skulpin] by [@aclysma] provides an easy option for drawing hardware-accelerated 2D
-by combining Vulkan and [Skia].
+[skulpin] by [@aclysma] provides an easy option for drawing
+hardware-accelerated 2D by combining Vulkan and [Skia].
 
 [skulpin]: https://github.com/aclysma/skulpin
 [skulpin-video]: https://www.youtube.com/watch?v=El99FgGSzfg
@@ -714,7 +713,8 @@ Check out the [online Demo][rust-nes-demo].
 - ["Future of nalgebra and math in Amethyst"](https://community.amethyst.rs/t/future-of-nalgebra-and-math-in-amethyst/1228)
   discussion;
 
-- ["Skepticism about Rendy"](https://community.amethyst.rs/t/skepticism-about-rendy/1221) discussion;
+- ["Skepticism about Rendy"](https://community.amethyst.rs/t/skepticism-about-rendy/1221)
+  discussion;
 
 - [A thread by @obiwanus about long link time](https://community.amethyst.rs/t/obiwanuss-long-link-time-feedback/1207);
 
