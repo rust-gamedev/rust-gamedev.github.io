@@ -65,20 +65,14 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
-### [A/B Street][abstreet] - Adjust traffic patterns in real cities
+### [A/B Street][abstreet] - Adjust Traffic Patterns in Real Cities
 
-Ever been stuck in traffic on a bus, wondering why is there legal street
-parking instead of a dedicated bus lane? A/B Street is a game exploring how
-small changes to road space and traffic signals affect the movement of drivers,
-cyclists, transit users, and pedestrians. The game models Seattle as accurately
-as possible using OpenStreetMap and other public datasets, lets the player
-adjust existing infrastructure, and then does a detailed comparison to see who
-the changes help and hurt. The project mission is to let the general public
-participate more in influencing the urban planning process.
+![Measuring the effects of changes](abstreet-evaluating-impacts.gif)
 
-A/B Street uses a [custom GUI library][ezgui], leveraging `glium`, `usvg`, and
-`lyon`. Help with Rust and visual/game design is always welcome! Check out the
-[roadmap][abstreet-roadmap] and [good first issues][abstreet-issues].
+^ _Measuring the effects of some changes_
+
+[A/B Street][abstreet] is a traffic simulation game exploring how
+small changes to roads affect cyclists, transit users, pedestrians, and drivers.
 
 June highlights:
 
@@ -90,6 +84,10 @@ June highlights:
 - Names of roads shown in-game, in a way that doesn't cause clutter with agents
   moving nearby
 - Work starting on light rail and restricting through-traffic to zones
+
+A/B Street uses a [custom GUI library][ezgui], leveraging `glium`, `usvg`, and
+`lyon`. Help with Rust and visual/game design is always welcome! Check out the
+[roadmap][abstreet-roadmap] and [good first issues][abstreet-issues].
 
 [abstreet]: https://abstreet.org
 [ezgui]: https://github.com/dabreegster/abstreet/tree/master/ezgui/
