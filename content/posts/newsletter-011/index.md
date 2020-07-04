@@ -5,9 +5,6 @@ transparent = true
 draft = true
 +++
 
-<!-- markdownlint-disable no-trailing-punctuation -->
-<!-- markdownlint-enable line-length -->
-
 Welcome to the eleventh issue of the Rust GameDev Workgroup’s
 monthly newsletter.
 [Rust] is a systems language pursuing the trifecta:

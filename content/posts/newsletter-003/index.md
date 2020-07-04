@@ -5,8 +5,6 @@ transparent = true
 aliases = ["/2019/11/027/newsletter-003", "2019/11/07/newsletter-003.html"]
 +++
 
-<!-- markdownlint-disable no-trailing-punctuation -->
-
 Welcome to the third issue of the Rust GameDev Workgroup’s
 monthly newsletter.
 
@@ -323,8 +321,8 @@ non-ascii code input, new icons, bugfixes, and better translations.
 
 ### [Godot][godot] and Rust
 
-- ["Rendering a 2D game in 3D"](https://medium.com/@recallsingularity/rendering-a-2d-game-in-3d-bd24ddbee6eb) -
-  [Tom Leys] is working on a “The Recall Singularity” [Godot][godot]/Rust game
+- ["Rendering a 2D game in 3D"](https://medium.com/@recallsingularity/rendering-a-2d-game-in-3d-bd24ddbee6eb)
+  \- [Tom Leys] is working on a “The Recall Singularity” [Godot][godot]/Rust game
   about designing autonomous factory ships and stations
   and this month they published
   a post about evolution of the game's rendering.
@@ -338,7 +336,10 @@ non-ascii code input, new icons, bugfixes, and better translations.
   character physics, weapon system, cameras, animations system,
   dynamic damage system.
 
-- ["Pong Clone in Godot Using 'gdnative' Rust Bindings"](https://reddit.com/r/godot/comments/dfam0p/i_made_a_pong_clone_in_godot_using_the_gdnative) - [@you-win] couldn't find any full game examples that used [godot-rust] so they made their own \[[source code](https://github.com/you-win/godot-pong-rust)].
+- ["Pong Clone in Godot Using 'gdnative' Rust Bindings"](https://reddit.com/r/godot/comments/dfam0p/i_made_a_pong_clone_in_godot_using_the_gdnative)
+  \- [@you-win] couldn't find any full game examples that used [godot-rust]
+  so they made their own
+  \[[source code](https://github.com/you-win/godot-pong-rust)].
 
 [godot]: https://godotengine.org
 [Tom Leys]: https://twitter.com/RecallSingular1
@@ -776,7 +777,8 @@ _Discussions:
 - [specs] and its related repositories [awesome-specs], [hibitset] and [shred]
   were moved to [Amethyst organization] \[[URLO][specs-moved]].
 
-- [amethyst_physics v0.1.1 was released](https://www.reddit.com/r/rust_gamedev/comments/dm3jsf/amethyst_v011_contacts_events): now it's possible to fetch Rigid body contacts events.
+- [amethyst_physics v0.1.1 was released](https://www.reddit.com/r/rust_gamedev/comments/dm3jsf/amethyst_v011_contacts_events):
+  now it's possible to fetch Rigid body contacts events.
 
 - [@_AndreaCatania] published two video tutorials:
 
