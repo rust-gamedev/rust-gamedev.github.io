@@ -131,6 +131,23 @@ A/B Street uses a [custom GUI library][ezgui], leveraging `glium`, `usvg`, and
 [abstreet-reddit]: https://old.reddit.com/r/Seattle/comments/hdtucd/ab_street_think_you_can_fix_seattles_traffic/
 [abstreet-stranger]: https://www.thestranger.com/slog/2020/06/29/43999454/ab-streets-game-lets-you-create-the-seattle-street-grid-of-your-dreams
 
+### [runner]
+
+[![Runner gameplay sample](runner_gameplay_sample.png)](https://vimeo.com/428851779)
+
+[runner] is a simple side-scrolling endless runner game that takes place in
+a bright world that only has our fearless adventurer & a few pesky beings
+that are bent on keeping her from running! It uses [specs] for [ECS]
+and has multiple frontends: [sdl2] & [quicksilver].
+Between the two frontends it can target the majority of the platforms:
+Web, Mac, Linux, Windows (untested) & possible even iOS & Android.
+
+[runner]: https://github.com/jayrave/runner
+[specs]: https://github.com/amethyst/specs
+[ECS]: https://en.wikipedia.org/wiki/Entity_component_system
+[sdl2]: https://github.com/Rust-SDL2/rust-sdl2
+[quicksilver]: https://github.com/ryanisaacg/quicksilver
+
 ### [Guacamole Runner][guacamole]
 
 ![gif](guacamole.gif)
