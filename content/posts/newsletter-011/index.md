@@ -65,13 +65,12 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
-### [Pont][pont]
+### [Pont][pont-online]
 
 ![Screenshot of the Pont board game](pont_screenshot.png)
 
 Pont is a multiplayer online board game based on
-[Qwirkle][qwirkle],
-implemented by [Matt Keeter][matt-keeter].
+[Qwirkle][qwirkle], implemented by [Matt Keeter][matt-keeter].
 Both the client and server are written in Rust,
 using WebAssembly to run the client in the browser
 without any Javascript (besides a small shim).
