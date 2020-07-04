@@ -5,9 +5,6 @@ transparent = true
 draft = true
 +++
 
-<!-- markdownlint-disable no-trailing-punctuation -->
-<!-- markdownlint-enable line-length -->
-
 Welcome to the eleventh issue of the Rust GameDev Workgroup’s
 monthly newsletter.
 [Rust] is a systems language pursuing the trifecta:
@@ -65,6 +62,75 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Way of Rhea][rhea-site]
+
+[![Way of Rhea Trailer](way-of-rhea.jpeg)][rhea-trailer]
+
+^ _Click to see the latest version of the game's trailer_
+
+[Way of Rhea][rhea-site] ([steam][rhea-steam])
+is an upcoming puzzle platformer that takes place in a world
+where you can only interact with objects that match your current color.
+It's being build in a custom engine, and custom scripting language both written
+in Rust by [Mason Remaley][@masonremaley]. This month's updates:
+
+- A demo was released as part of the
+  [Steam Game Festival](https://store.steampowered.com/sale/gamefestival)!
+  The festival has since ended, so the demo is no longer available.
+- [@masonremaley] ran An AMA [at /r/rust_gamedev][rhea-ama-1]
+  and [/r/IndieDev][rhea-ama-2] about the development of the game.
+- The studio hosted a [speedrun competition][rhea-speedrun] as part
+  of the Steam festival, [here's the winning run](https://youtu.be/AmYU0TXc4Ls).
+- A colorblind friendly mode was added to the game,
+  and [a couple other changes][rhea-fest-update] were made in response
+  to feedback from the festival.
+
+Follow development updates on [the game's Twitter][rhea-twitter]
+or [subscribe to its newsletter][rhea-newsletter].
+
+[rhea-site]: https://www.anthropicstudios.com/way-of-rhea
+[rhea-steam]: https://store.steampowered.com/app/1110620/Way_of_Rhea
+[rhea-twitter]: https://twitter.com/anthropicst
+[rhea-trailer]: https://youtube.com/watch?v=eVrbZss_B3g
+[rhea-speedrun]: https://steamcommunity.com/app/1110620/discussions/0/2569815696856844856
+[rhea-fest-update]: https://store.steampowered.com/newshub/app/1110620/view/2445966074565244552
+[@masonremaley]: https://twitter.com/masonremaley
+[rhea-ama-1]: https://reddit.com/r/rust_gamedev/comments/hc7vex/i_just_released_a_demo
+[rhea-ama-2]: https://reddit.com/r/IndieDev/comments/hc7mf2/i_just_released_a_demo
+[rhea-newsletter]: https://www.anthropicstudios.com/newsletter/signup/tech
+
+### [A/B Street][abstreet] - Adjust Traffic Patterns in Real Cities
+
+![Measuring the effects of changes](abstreet-evaluating-impacts.gif)
+
+^ _Measuring the effects of some changes_
+
+[A/B Street][abstreet] is a traffic simulation game exploring how
+small changes to roads affect cyclists, transit users, pedestrians, and drivers.
+
+June highlights:
+
+- Alpha release with a [trailer][abstreet-trailer], an excited reaction from
+  [r/seattle][abstreet-reddit], and some
+  [local press coverage][abstreet-stranger]
+- Support for parking lots, automatically inferring the number and position of
+  individual slots from OpenStreetMap geometry
+- Names of roads shown in-game, in a way that doesn't cause clutter with agents
+  moving nearby
+- Work starting on light rail and restricting through-traffic to zones
+
+A/B Street uses a [custom GUI library][ezgui], leveraging `glium`, `usvg`, and
+`lyon`. Help with Rust and visual/game design is always welcome! Check out the
+[roadmap][abstreet-roadmap] and [good first issues][abstreet-issues].
+
+[abstreet]: https://abstreet.org
+[ezgui]: https://github.com/dabreegster/abstreet/tree/master/ezgui/
+[abstreet-roadmap]: https://github.com/dabreegster/abstreet/blob/master/docs/roadmap.md
+[abstreet-issues]: https://github.com/dabreegster/abstreet/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22
+[abstreet-trailer]: https://www.youtube.com/watch?v=LxPD4n_1-LU
+[abstreet-reddit]: https://old.reddit.com/r/Seattle/comments/hdtucd/ab_street_think_you_can_fix_seattles_traffic/
+[abstreet-stranger]: https://www.thestranger.com/slog/2020/06/29/43999454/ab-streets-game-lets-you-create-the-seattle-street-grid-of-your-dreams
+
 ### [runner]
 
 [![Runner gameplay sample](runner_gameplay_sample.png)](https://vimeo.com/428851779)
@@ -82,9 +148,134 @@ Web, Mac, Linux, Windows (untested) & possible even iOS & Android.
 [sdl2]: https://github.com/Rust-SDL2/rust-sdl2
 [quicksilver]: https://github.com/ryanisaacg/quicksilver
 
+### [Guacamole Runner][guacamole]
+
+![gif](guacamole.gif)
+
+[Guacamole Runner][guacamole] is a small game made with
+[Tetra][tetra] and [Shipyard][shipyard] in approximately 2 days
+by [@EllenNyan][ellen_twitter].
+The game's concept is that the player is constantly falling
+and must jump off planes to stay in the air.
+When they go over the top of the dirt tiles
+they plant flowers which gives them points.
+
+[guacamole]: https://github.com/EllenNyan/guacamole-runner
+[ellen_twitter]: https://twitter.com/EllenNyan0214
+[tetra]: https://github.com/17cupsofcoffee/Tetra
+[shipyard]: https://github.com/leudz/shipyard
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
+
+### [This Month in Mun][mun-june]
+
+![Language Server Diagnostics in action](mun-languageserver.gif)
+
+^ _Mun language server diagnostics in action_
+
+[Mun] is a scripting language for gamedev focused on quick iteration times
+that is written in Rust.
+
+After the dust of the [Mun v0.2 release][mun-release] settled, this month focus
+has been on fixing several issues found by community members, improving the
+overall quality of the code base and working towards the next release: Mun v0.3.
+
+Their [June updates][mun-june] include:
+
+- [*Make It or Break It* contest](https://github.com/mun-lang/mun/issues/220);
+- several fixes for issues that arose thanks to the contest;
+- the foundation for Mun projects;
+- an initial language server setup;
+
+[Mun]: https://mun-lang.org
+[mun-release]: https://mun-lang.org/blog/2020/05/16/release-mun-v0-2-0
+[mun-june]: https://mun-lang.org/blog/2020/06/30/this-month-june
+
+### [yaks]
+
+[yaks] is a minimalistic framework for automatic multithreading
+of [`hecs`] ECS library using [Rayon] data-parallelism library.
+
+While the project itself started earlier this year, with this month's release
+`yaks` gained an overhauled API, further leaning into the promise of
+simplicity:
+
+- systems are any functions or closures of a specific signature,
+- `Executor` is a container for one or more systems,
+- system execution order can be defined when building an `Executor`
+  to create concurrent chains of systems,
+- resources used by systems (any data that is not associated with an entity)
+  are now borrowed for the duration of execution, instead of being owned
+  by the framework.
+
+All items in the library are exhaustively documented, and the repository
+contains a fully annotated example.
+
+Enabled-by-default `parallel` cargo feature can be disabled to force
+everything in `yaks` to become single-threaded, which allows using code
+written with the framework on platforms without threading - notably, web.
+
+[yaks]: https://crates.io/crates/yaks
+[`hecs`]: https://crates.io/crates/hecs
+[Rayon]: https://crates.io/crates/rayon
+
+### [Tetra 0.4][tetra-040]
+
+[Tetra] is a simple 2D game framework, inspired by XNA and Raylib. This month,
+[version 0.4][tetra-040] was released, featuring:
+
+- A rework of the text rendering API, which improves performance and fixes a
+  number of long-standing bugs
+- Functions for capturing the player's mouse
+- Various tweaks and bug fixes under the hood
+
+Also, [a new guide has been added to Tetra's website][tetra-dist], listing some
+things to consider when distributing your game to the public. This guide is
+still a work in progress, so contributions are welcomed!
+
+[tetra]: https://github.com/17cupsofcoffee/tetra
+[tetra-040]: https://twitter.com/17cupsofcoffee/status/1275778769077317637
+[tetra-dist]: https://tetra.seventeencups.net/distributing/
+
+### [Arsenal Game Engine][arsenal]
+
+[Arsenal] is the concept for a 2D and 3D game engine that is fully integrated
+with [Blender] and built on a Rust core. The engine will be built around an
+entity component system ( probably [Shipyard] ) for its performance and game
+design advantages. The vision of Arsenal is to build an Open Source game engine
+that is suitable for games of any scale and that is easily approachable by a
+wide audience of both complete beginners and seasoned experts.
+
+Arsenal currently has a [POC][ars_poc] working, but there is no support for
+adding custom game logic. The next major step for Arsenal is to get initial
+[scripting support][ship_script_support] in Shipyard. The scripting plan for
+Arsenal borrows heavily from the [Amethyst scripting RFC][amethyst_scrpt_rfc]
+with the first target scripting language being Python. Other languages that are
+candidates for being added later are be [Mun], Lua, and maybe other languages
+written in Rust such as [Gluon].
+
+More information on the Arsenal development direction can be found in the latest
+Arsenal development [blog post][arsenal_update].
+
+[Katharos Technology][ktech] has gone live on [GitHub Sponsors][ghs_ktech] as a
+means to fund development of the development of the [Arsenal] game engine and
+supporting Rust gamedev libraries and tools such as [GFX], and [WGPU].
+
+[ktech]: https://katharostech.com
+[ghs_ktech]: https://github.com/sponsors/katharostech/
+[arsenal]: https://github.com/katharostech/arsenal
+[gfx]: https://github.com/gfx-rs/gfx
+[wgpu]: https://github.com/gfx-rs/wgpu
+[arsenal_update]: https://katharostech.com/post/arsenal-development-now-on-github-sponsors
+[blender]: https://blender.org
+[shipyard]: https://github.com/leudz/shipyard
+[ship_script_support]: https://github.com/leudz/shipyard/issues/96
+[amethyst_scrpt_rfc]: https://github.com/amethyst/rfcs/blob/master/0001-scripting.md
+[mun]: https://mun-lang.org/
+[gluon]: https://github.com/gluon-lang/gluon
+[ars_poc]: https://github.com/katharostech/arsenal/releases/tag/v0.1.0
 
 ## Popular Workgroup Issues in Github
 
