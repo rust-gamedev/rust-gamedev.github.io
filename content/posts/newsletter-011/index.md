@@ -69,19 +69,15 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
-### [rust-psp](https://github.com/overdrivenpotato/rust-psp)
+### [rust-psp]
 
-Just what everyone's always wanted, Rust on the Sony PSP 😆
+![demo-gif](psp.gif)
 
-![demo-gif](https://raw.githubusercontent.com/overdrivenpotato/rust-psp/master/demo.gif)
-
-[crates.io](https://crates.io/crates/psp) [docs.rs](https://docs.rs/psp)
+Just what everyone's always wanted, [Rust on the Sony PSP][rust-psp]! 😆
 
 This project is a port and improvement of the unofficial C/C++ PSPSDK from
-2005. It does not require a custom GCC toolchain to be installed. Only Rust
+2005 It does not require a custom GCC toolchain to be installed. Only Rust
 nightly and a cargo subcommand.
-
-#### cargo-psp and the psp crate
 
 The psp crate provides a `psp::sys` submodule that houses the entire Sony PSP
 API. We are working to have theseinterfaces merged into the libc crate.
@@ -103,11 +99,11 @@ via the `vfpu_asm!` macro, with no need for a custom compiler toolchain.
 There is also optional `embedded-graphics` support and a function to benchmark
 or time your code.
 
-#### Next Steps
-
 The next major milestone for rust-psp is std support.
 If you are interested in helping out, please feel free to join the rust-psp
-channel in the [PSP Homebrew discord server](https://discord.gg/WY8XhDG)
+channel in the [PSP Homebrew discord server](https://discord.gg/WY8XhDG).
+
+[rust-psp]: https://github.com/overdrivenpotato/rust-psp
 
 ## Popular Workgroup Issues in Github
 
