@@ -65,19 +65,22 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
-### [runner](https://github.com/jayrave/runner)
+### [runner]
 
 [![Runner gameplay sample](runner_gameplay_sample.png)](https://vimeo.com/428851779)
 
-runner is a simple side-scrolling endless runner game that takes place in
+[runner] is a simple side-scrolling endless runner game that takes place in
 a bright world that only has our fearless adventurer & a few pesky beings
-that are bent on keeping her from running! It uses 
-[specs](https://github.com/amethyst/specs) for 
-[ECS](https://en.wikipedia.org/wiki/Entity_component_system) and has
-multiple frontends: [sdl2](https://github.com/Rust-SDL2/rust-sdl2) &
-[quicksilver](https://github.com/ryanisaacg/quicksilver). Between the 2 
-frontends it can target the majority of the platforms: Web, Mac, Linux, 
-Windows (untested) & possible even iOS & Android
+that are bent on keeping her from running! It uses [specs] for [ECS]
+and has multiple frontends: [sdl2] & [quicksilver].
+Between the two frontends it can target the majority of the platforms:
+Web, Mac, Linux, Windows (untested) & possible even iOS & Android.
+
+[runner]: https://github.com/jayrave/runner
+[specs]: https://github.com/amethyst/specs
+[ECS]: https://en.wikipedia.org/wiki/Entity_component_system
+[sdl2]: https://github.com/Rust-SDL2/rust-sdl2
+[quicksilver]: https://github.com/ryanisaacg/quicksilver
 
 ## Learning Material Updates
 
