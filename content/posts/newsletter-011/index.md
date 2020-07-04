@@ -65,6 +65,43 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Way of Rhea][rhea-site]
+
+[![Way of Rhea Trailer](way-of-rhea.jpeg)][rhea-trailer]
+
+^ _Click to see the latest version of the game's trailer_
+
+[Way of Rhea][rhea-site] ([steam][rhea-steam])
+is an upcoming puzzle platformer that takes place in a world
+where you can only interact with objects that match your current color.
+It's being build in a custom engine, and custom scripting language both written
+in Rust by [Mason Remaley][@masonremaley]. This month's updates:
+
+- A demo was released as part of the
+  [Steam Game Festival](https://store.steampowered.com/sale/gamefestival)!
+  The festival has since ended, so the demo is no longer available.
+- [@masonremaley] ran An AMA [at /r/rust_gamedev][rhea-ama-1]
+  and [/r/IndieDev][rhea-ama-2] about the development of the game.
+- The studio hosted a [speedrun competition][rhea-speedrun] as part
+  of the Steam festival, [here's the winning run](https://youtu.be/AmYU0TXc4Ls).
+- A colorblind friendly mode was added to the game,
+  and [a couple other changes][rhea-fest-update] were made in response
+  to feedback from the festival.
+
+Follow development updates on [the game's Twitter][rhea-twitter]
+or [subscribe to its newsletter][rhea-newsletter].
+
+[rhea-site]: https://www.anthropicstudios.com/way-of-rhea
+[rhea-steam]: https://store.steampowered.com/app/1110620/Way_of_Rhea
+[rhea-twitter]: https://twitter.com/anthropicst
+[rhea-trailer]: https://youtube.com/watch?v=eVrbZss_B3g
+[rhea-speedrun]: https://steamcommunity.com/app/1110620/discussions/0/2569815696856844856
+[rhea-fest-update]: https://store.steampowered.com/newshub/app/1110620/view/2445966074565244552
+[@masonremaley]: https://twitter.com/masonremaley
+[rhea-ama-1]: https://reddit.com/r/rust_gamedev/comments/hc7vex/i_just_released_a_demo
+[rhea-ama-2]: https://reddit.com/r/IndieDev/comments/hc7mf2/i_just_released_a_demo
+[rhea-newsletter]: https://www.anthropicstudios.com/newsletter/signup/tech
+
 ### [A/B Street][abstreet] - Adjust Traffic Patterns in Real Cities
 
 ![Measuring the effects of changes](abstreet-evaluating-impacts.gif)
