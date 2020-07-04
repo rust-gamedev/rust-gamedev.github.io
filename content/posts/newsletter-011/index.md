@@ -65,6 +65,38 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [A/B Street][abstreet] - Adjust Traffic Patterns in Real Cities
+
+![Measuring the effects of changes](abstreet-evaluating-impacts.gif)
+
+^ _Measuring the effects of some changes_
+
+[A/B Street][abstreet] is a traffic simulation game exploring how
+small changes to roads affect cyclists, transit users, pedestrians, and drivers.
+
+June highlights:
+
+- Alpha release with a [trailer][abstreet-trailer], an excited reaction from
+  [r/seattle][abstreet-reddit], and some
+  [local press coverage][abstreet-stranger]
+- Support for parking lots, automatically inferring the number and position of
+  individual slots from OpenStreetMap geometry
+- Names of roads shown in-game, in a way that doesn't cause clutter with agents
+  moving nearby
+- Work starting on light rail and restricting through-traffic to zones
+
+A/B Street uses a [custom GUI library][ezgui], leveraging `glium`, `usvg`, and
+`lyon`. Help with Rust and visual/game design is always welcome! Check out the
+[roadmap][abstreet-roadmap] and [good first issues][abstreet-issues].
+
+[abstreet]: https://abstreet.org
+[ezgui]: https://github.com/dabreegster/abstreet/tree/master/ezgui/
+[abstreet-roadmap]: https://github.com/dabreegster/abstreet/blob/master/docs/roadmap.md
+[abstreet-issues]: https://github.com/dabreegster/abstreet/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22
+[abstreet-trailer]: https://www.youtube.com/watch?v=LxPD4n_1-LU
+[abstreet-reddit]: https://old.reddit.com/r/Seattle/comments/hdtucd/ab_street_think_you_can_fix_seattles_traffic/
+[abstreet-stranger]: https://www.thestranger.com/slog/2020/06/29/43999454/ab-streets-game-lets-you-create-the-seattle-street-grid-of-your-dreams
+
 ### [Guacamole Runner][guacamole]
 
 ![gif](guacamole.gif)
