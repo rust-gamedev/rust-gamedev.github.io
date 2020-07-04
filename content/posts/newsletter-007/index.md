@@ -4,10 +4,6 @@ date = 2020-03-05
 transparent = true
 +++
 
-<!-- markdownlint-disable no-trailing-punctuation -->
-
-<!-- markdownlint-enable line-length -->
-
 Welcome to the seventh issue of the Rust GameDev Workgroup’s
 monthly newsletter.
 
