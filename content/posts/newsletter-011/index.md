@@ -131,6 +131,31 @@ A/B Street uses a [custom GUI library][ezgui], leveraging `glium`, `usvg`, and
 [abstreet-reddit]: https://old.reddit.com/r/Seattle/comments/hdtucd/ab_street_think_you_can_fix_seattles_traffic/
 [abstreet-stranger]: https://www.thestranger.com/slog/2020/06/29/43999454/ab-streets-game-lets-you-create-the-seattle-street-grid-of-your-dreams
 
+### [Pont][pont-online]
+
+![Screenshot of the Pont board game](pont_screenshot.png)
+
+Pont is a multiplayer online board game based on
+[Qwirkle][qwirkle], implemented by [Matt Keeter][matt-keeter].
+Both the client and server are written in Rust,
+using WebAssembly to run the client in the browser
+without any Javascript (besides a small shim).
+
+It can be played online [here][pont-online]!
+
+The system architecture is described in a [blog post][pont-blog]
+and the source is available [on Github][pont-source]
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/gu1bq5/pont_a_board_game_in_rust_webassembly/),
+[Hacker News](https://news.ycombinator.com/item?id=23649369)_
+
+[matt-keeter]: https://twitter.com/impraxical
+[pont-online]: https://pont.mattkeeter.com
+[pont-blog]: https://mattkeeter.com/projects/pont
+[pont-source]: https://github.com/mkeeter/pont
+[qwirkle]: https://en.wikipedia.org/wiki/Qwirkle
+
 ### [runner]
 
 [![Runner gameplay sample](runner_gameplay_sample.png)](https://vimeo.com/428851779)
