@@ -408,14 +408,14 @@ Their [June updates][mun-june] include:
 
 GameLisp (glisp) is a scripting language built for and in Rust and utilizes
 syntax from the LISP family of programming langauges. It provides a fast and
-efficient garbage collector that runs every frame instead of freezing a thread. 
+efficient garbage collector that runs every frame instead of freezing a thread.
 
-GameLisp also provides [a playground][glisp-playground] to experiment with 
-different projects. A reference guide is also [available][glisp-reference] as 
-well as [API documentation][glisp-docsrs] for integration into Rust. 
+GameLisp also provides [a playground][glisp-playground] to experiment with
+different projects. A reference guide is also [available][glisp-reference] as
+well as [API documentation][glisp-docsrs] for integration into Rust.
 
-The crate has had its [initial release][glisp-cratesio], a roadmap and ways 
-to contribute are available on GameLisp's [Github Respository][glisp-github]. 
+The crate has had its [initial release][glisp-cratesio], a roadmap and ways
+to contribute are available on GameLisp's [Github Respository][glisp-github].
 
 [gamelisp]: https://gamelisp.rs/
 [glisp-playground]: https://gamelisp.rs/playground/
