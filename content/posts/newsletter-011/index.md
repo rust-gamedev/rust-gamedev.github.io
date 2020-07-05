@@ -69,6 +69,32 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
+### [glam](https://github.com/bitshifter/glam-rs)
+
+[glam] is a simple and fast linear algebra crate for games and graphics.
+
+This month [glam 0.9] was published to crates.io. This update is a breaking
+change from 0.8.
+
+In 0.9 the `Vec3` type was changed from being a 128 byte SIMD vector type to a
+tuple of three floats. This changes the size of `Vec3` from 16 bytes to 12 bytes
+and the alignment from 16 bytes to 4 bytes. This might not effect all users but
+if `Vec3` was used in a context where the size or alignment mattered, such as in
+FFI or as input to shaders, this could cause breakage.
+
+The SIMD parts of `Vec3` were moved to a new type, `Vec3A` (`A` for Aligned)
+which is 16 byte aligned and thus 16 bytes in size.  The `Vec3A` type is still
+there for users who want the performance benefits of the SIMD implementation.
+
+The motivation for this change was that it is potentially surprising and
+confusing for new users that the `Vec3` type was not 12 bytes. Also it's common
+that users needed a `Vec3` that was just 12 bytes.
+
+While glam is reasonably stable it has not yet reached a 1.0 release, so it
+seemed like now is the time to address such issues in the API.
+
+[glam 0.9]: https://github.com/bitshifter/glam-rs/blob/master/CHANGELOG.md#090---2020-06-28
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
