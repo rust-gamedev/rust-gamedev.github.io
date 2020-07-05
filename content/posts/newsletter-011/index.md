@@ -380,6 +380,54 @@ channel in the [PSP Homebrew discord server](https://discord.gg/WY8XhDG).
 
 [rust-psp]: https://github.com/overdrivenpotato/rust-psp
 
+### [Macroquad]
+
+[Macroquad] is cross-platform(windows/linux/mac/android/wasm) game framework.
+
+Now we have discord community servers for all the quad-family projects: miniquad, macroquad, good-web-game, nanoserde.  
+Come join us!  
+Discord: [https://discord.gg/WfEp6ut](https://discord.gg/WfEp6ut)   
+Matrix bridge: [https://matrix.to/#/#quad-general:matrix.org](https://matrix.to/#/#quad-general:matrix.org)
+
+Macroquad have its own imgui-like UI system: megaui.   
+Since last update megaui got decent input widgets: input fields, editboxes and sliders.   
+All support copy-paste back and forth from the browser.
+
+![ui](macroquad_ui.gif)
+
+Try it in the browser: https://not-fl3.github.io/miniquad-samples/ui.html   
+Source: https://github.com/not-fl3/macroquad/blob/master/examples/ui.rs
+
+Two new examples came from the awesome macroquad community:
+- snake   
+![snake](macroquad_snake.gif)  
+try it in the browser: https://not-fl3.github.io/miniquad-samples/snake.html  
+source: https://github.com/not-fl3/macroquad/blob/master/examples/snake.rs
+
+- asteroids   
+![asteroids](macroquad_asteroids.gif)   
+try it in the browser: https://not-fl3.github.io/miniquad-samples/asteroids.html   
+source: https://github.com/not-fl3/macroquad/blob/master/examples/asteroids.rs
+
+[Macroquad]: https://github.com/not-fl3/macroquad/
+
+### [Nanoserde]
+
+[Nanoserde] is a makepad-tinyserde fork without syn/quote/proc_macro2 dependencies removed.
+
+It attempts to solve a serde's problems of long clean compilation time, increased incremental build time and build artifacts size.
+"nanoserde" may be useful when the whole game has less than a minute clean build time and spending ~40s on serde is unreasonable.
+
+```
+> cargo tree
+nanoserde v0.1.0 (/../nanoserde)
+└── nanoserde-derive v0.1.0 (/../nanoserde/derive)
+```
+
+Some benchmarks and tiled map deserializing example: https://github.com/not-fl3/nanoserde-bench
+
+[Nanoserde]: https://github.com/not-fl3/nanoserde/
+
 ### [This Month in Mun][mun-june]
 
 ![Language Server Diagnostics in action](mun-languageserver.gif)
