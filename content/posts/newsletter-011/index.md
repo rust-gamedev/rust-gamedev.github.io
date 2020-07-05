@@ -305,6 +305,22 @@ documenting the process making this project.
 [wooting_snake-video]: https://youtu.be/OhhscXz-60g
 [TanTan]: https://twitter.com/Tantan22430802
 
+### [Weegames][weegames-itch]
+
+[![Weegames](weegames.jpg)][weegames-video]
+
+^ _Click to see [a demo video][weegames-video]_
+
+[Weegames][weegames-itch] is a fast-paced minigame collection.
+There are 23 odd games all made using free images and sounds.
+The more minigames you beat the faster they get.
+
+[The source code is available here][weegames-repository].
+
+[weegames-itch]: https://yeahross.itch.io/weegames
+[weegames-repository]: https://github.com/yeahross0/weegames
+[weegames-video]: https://youtube.com/watch?v=A_GqhZ_7EIw
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
