@@ -31,7 +31,6 @@ Feel free to send PRs about your own projects!
 Table of contents:
 
 - [Game Updates](#game-updates)
-  - [Weegames](#weegames)
 - [Learning Material Updates](#learning-material-updates)
 - [Library & Tooling Updates](#library-tooling-updates)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
@@ -68,18 +67,19 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [Weegames][weegames-itch]
 
-![Weegames](weegames.jpg)
+[![Weegames](weegames.jpg)][weegames-video]
 
-Weegames is a fast-paced minigame collection. There are 23 odd games all made
-using free images and sounds. The more minigames you beat the faster they get.
+^ _Click to see [a demo video][weegames-video]_
 
- - [Video][weegames-video]
- - [Repository][weegames-repository]
- - [You can download the game on itch][weegames-itch]
+[Weegames][weegames-itch] is a fast-paced minigame collection.
+There are 23 odd games all made using free images and sounds.
+The more minigames you beat the faster they get.
+
+[The source code is available here][weegames-repository].
 
 [weegames-itch]: https://yeahross.itch.io/weegames
 [weegames-repository]: https://github.com/yeahross0/weegames
-[weegames-video]: https://www.youtube.com/watch?v=A_GqhZ_7EIw
+[weegames-video]: https://youtube.com/watch?v=A_GqhZ_7EIw
 
 ## Learning Material Updates
 
