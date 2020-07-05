@@ -66,14 +66,14 @@ If needed, a section can be split into subsections with a "------" delimiter.
 [![The Roman Empire at its greatest extent](roman-empire.jpeg)][roman-empire-wiki]
 
 The "Legion" game jam by [Laticoda] is about
-[Roman Empire][roman-empire-wiki] for the Background Thema
+[the Roman Empire][roman-empire-wiki] for the background theme
 and ECS paradigm for the technical side.
 The conditions are:
 
 - Open-source & Rust only.
 - Projects should use some ECS library
   (you can choose [Legion][legion] if you don't have one).
-- Team working and recycling old spinets are allowed.
+- Team working and recycling old assets are allowed.
 
 > Submissions open to August 1st 2020.
 >
@@ -82,7 +82,7 @@ The conditions are:
 > Dont be afraid, it is not ranked.
 
 Also, participants are encouraged to
-[document the developemnt process at the event's forum][legion-jam-forum].
+[document the development process at the event's forum][legion-jam-forum].
 
 [legion-jam]: https://itch.io/jam/legion-jam-rustlang
 [Laticoda]: https://itch.io/profile/laticoda
