@@ -173,6 +173,36 @@ Web, Mac, Linux, Windows (untested) & possible even iOS & Android.
 [sdl2]: https://github.com/Rust-SDL2/rust-sdl2
 [quicksilver]: https://github.com/ryanisaacg/quicksilver
 
+### [Animal Chess][AnimalChess]
+
+![Part of the game map](animal-chess.jpeg)
+
+^ _Part of the game map_
+
+[Animal Fight Chess][AnimalChess] (斗兽棋, "Doe Show Chee") by [@netcan]
+is a Rust implementation of a popular Chinese game.
+
+To win the game, one player must successfully move any animal into
+the Den(兽穴) of the opponent or eat all animals of the opponent.
+The basic move is just one space either forward, backward, left, or right.
+The pieces never move diagonally.
+Each player has eight pieces,
+[different animals with different degrees of power][animal-chess-pieces],
+a larger power piece can eat a little power piece, but rat can eat elephant.
+Here's a picture of the pieces, their English names,
+and relative powers indicated by a number.
+See full rules at [ancientchess.com][animal-chess-rules]
+or [Wikipedia][animal-chess-wiki].
+
+The project uses alpha beta pruning algorithm for AI and provides
+a python module to use AlphaZero algorithm for training.
+
+[AnimalChess]: https://github.com/netcan/AnimalChess
+[@netcan]: https://github.com/netcan
+[animal-chess-rules]: http://ancientchess.com/page/play-doushouqi.htm
+[animal-chess-wiki]: https://en.wikipedia.org/wiki/Jungle_(board_game)
+[animal-chess-pieces]: http://ancientchess.com/graphics-rules/dou_shou_qi_jungle_game-pieces-values.jpg
+
 ### [Guacamole Runner][guacamole]
 
 ![gif](guacamole.gif)
