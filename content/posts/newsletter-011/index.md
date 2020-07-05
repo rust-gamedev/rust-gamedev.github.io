@@ -291,6 +291,20 @@ they plant flowers which gives them points.
 [tetra]: https://github.com/17cupsofcoffee/Tetra
 [shipyard]: https://github.com/leudz/shipyard
 
+### [Wooting Snake][wooting_snake-git]
+
+![Video of snaky keyboard lights in action](wooting_snake.gif)
+
+[Wooting Snake][wooting_snake-git] is a snake game where the visuals
+are represented on your keyboard lights, instead of a computer screen.
+
+[TanTan] released a [video][wooting_snake-video]
+documenting the process making this project.
+
+[wooting_snake-git]: https://github.com/TanTanDev/wooting_snake
+[wooting_snake-video]: https://youtu.be/OhhscXz-60g
+[TanTan]: https://twitter.com/Tantan22430802
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
@@ -438,6 +452,18 @@ supporting Rust gamedev libraries and tools such as [GFX], and [WGPU].
 [mun]: https://mun-lang.org/
 [gluon]: https://github.com/gluon-lang/gluon
 [ars_poc]: https://github.com/katharostech/arsenal/releases/tag/v0.1.0
+
+### [Vimnail][vimnail-git] - a Mouseless Image Editor
+
+![Demo of transforming Ferris](vimnail.gif)
+
+[Vimnail][vimnail-git] is a WIP mode-based image editor inspired by Vim.
+The goal of the project is to be able to compose images without using the mouse.
+
+[TanTan] also released a [devlog video][vimnail-video] about the project.
+
+[vimnail-git]: https://github.com/TanTanDev/vimnail
+[vimnail-video]: https://youtu.be/2cSY43OcuZc
 
 ## Popular Workgroup Issues in Github
 
