@@ -227,6 +227,25 @@ _Discussions:
 [pont-source]: https://github.com/mkeeter/pont
 [qwirkle]: https://en.wikipedia.org/wiki/Qwirkle
 
+### [Scale]
+
+![Scale screenshot](scale.png)
+
+[Scale]'s objective is to become a granular society simulation,
+filled with fully autonomous agents interacting with their world in real time.  
+
+The 4th [devlog][scale-blog-post] was published, talking about
+the new renderer based on [wgpu-rs], pathfinding, parking,
+curved roads and a new crate extracted from the project called [flat_spatial].  
+
+_Discussions:
+[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/henx2n/scale_devblog_4/)_
+
+[flat_spatial]: https://crates.io/crates/flat_spatial
+[Scale]: https://github.com/Uriopass/Scale
+[scale-blog-post]: http://douady.paris/blog/scale_4.html
+[wgpu-rs]: https://github.com/gfx-rs/wgpu-rs
+
 ### [runner]
 
 [![Runner gameplay sample](runner_gameplay_sample.png)](https://vimeo.com/428851779)
