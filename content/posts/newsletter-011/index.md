@@ -342,6 +342,76 @@ The more minigames you beat the faster they get.
 
 ## Learning Material Updates
 
+### [Hypervis: 4D Physics Visualization][ldn-talk]
+
+[![Screenshot of the talk](ldn-4d-talk.jpeg)][ldn-talk]
+
+This month, [Tyler Zhang gave a talk][ldn-talk] at
+London Virtual Talks about the theory and implementation
+of 4D physics visualization.
+The demo's source code [could be found here][hypervis].
+
+[hypervis]: https://github.com/t-veor/hypervis
+[ldn-talk]: https://youtube.com/watch?v=_22oxXEX_xc?t=709
+
+### [Boids in Rust][rboids-post-1]
+
+[![Boids demo](rboids-video.jpeg)][rboids-video]
+
+^ _Click to watch [the video demo][rboids-video]_
+
+[@twitu] has published a three-part blog series
+about simulating a group of virtual agents (boids)
+that will swim around an enclosed space behaving like a school of fish.
+
+> This is a beautiful application of procedural graphics generation,
+> where simple rules create complex patterns.
+> It's almost entirely inspired by Sebastian Lague's
+> [Coding Adventure with boids][Sebastian-boids].
+
+1) [A fistful of boids][rboids-post-1]
+  \- Setting up the scene and basic animation
+2) [For a few boids more][rboids-post-2]
+  \- Generating boids and obstacle avoidance
+3) [The school, the boid and the Rusty][rboids-post-3]
+  \- Simulating a flock, parallelism and benchmarking performance
+
+[The source code with tagged stages is available here][rboids].
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/gsldbi/3d_boids)_
+
+[rboids]: https://github.com/twitu/rboids
+[@twitu]: https://github.com/twitu
+[rboids-video]: https://drive.google.com/file/d/1ri4x-jCX8SA9oX8OqDIKtXhYIrEKlGjO/view
+[rboids-post-1]: https://blog.bitsacm.in/a-fistful-of-boids
+[rboids-post-2]: https://blog.bitsacm.in/for-a-few-boids-more
+[rboids-post-3]: https://blog.bitsacm.in/the-school-the-boid-and-the-rusty
+[Sebastian-boids]: https://youtube.com/watch?v=bqtqltqcQhw
+
+### [DOOM Fire][doomfire]
+
+![The fire effect itself](doom-fire.gif)
+
+[doomfire] by [@r-marques] is Rust implementations of the DOOM fire effect
+(based on [Fabien Sanglard's blog post][fabien-fire])
+using different 2d graphics libraries:
+[minifb](https://github.com/emoon/rust_minifb),
+[pixels](https://github.com/parasyte/pixels),
+[sdl2](https://github.com/Rust-SDL2/rust-sdl2),
+[wasm-bindgen](https://github.com/rustwasm/wasm-bindgen)
+\+ [Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API).
+
+> This could be helpful for someone new to rust and trying
+> to get into game development and looking for the right libraries to use.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/gvcj6d/doom_fire_implemented_in_rust)_
+
+[doomfire]: https://github.com/r-marques/doomfire
+[@r-marques]: https://github.com/r-marques
+[fabien-fire]: https://fabiensanglard.net/doom_fire_psx
+
 ## Library & Tooling Updates
 
 ### [rust-psp]
@@ -539,10 +609,6 @@ or [join the next meeting][join].
 [amethyst-issues]: https://github.com/amethyst/amethyst/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
 [abstreet-issues]: https://github.com/dabreegster/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
 [mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
-
-## Jobs
-
-<!-- An optional section for new jobs related to Rust gamedev -->
 
 ## Bonus
 
