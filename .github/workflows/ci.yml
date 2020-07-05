@@ -13,6 +13,11 @@ jobs:
       GITHUB_PAT: ${{ secrets.GITHUB_PAT }}
     steps:
     - uses: actions/checkout@v1
+    - name: Lint
+      uses: avto-dev/markdown-lint@v1
+      with:
+        args: '.'
+        config: '.markdownlint.json'
     - name: Install Zola
       run: curl -L ${BASE_URL}/${VERS}/zola-${VERS}-${ARCH}.tar.gz | tar -xz
     - run: ./zola --version

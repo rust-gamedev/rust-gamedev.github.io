@@ -107,7 +107,8 @@ _Discussions:
 
 ------
 
-Also, check out ["About the future of nphysics: a pure rust 2D and 3D real-time physics engine"][future]
+Also, check out
+["About the future of nphysics: a pure rust 2D and 3D real-time physics engine"][future]
 \[[/r/rust](https://reddit.com/r/rust/comments/cm2858/about_the_future_of_nphysics_a_pure_rust_2d_and)].
 
 [future]: https://www.patreon.com/posts/about-future-of-28917514
@@ -435,8 +436,8 @@ Special section for other news (up to 15) in a one-liner format:
   [with Voronoi diagrams for procedural destructions](https://twitter.com/VladZhukov0/status/1162462543530643457).
 
   ![Gameplay of Vlad's prototype](vlad-asteroinds-gameplay.gif)
-- [Azriel] published a devlog ["Charging Up"] - characters in [Will] can now charge up
-  by holding the Attack button.
+- [Azriel] published a devlog ["Charging Up"] - characters in [Will]
+  can now charge up by holding the Attack button.
 
   ![charging sprites from Will](will-charging.png)
 - [droprate](https://crates.io/crates/droprate) - a crate for choosing
@@ -473,7 +474,8 @@ Special section for other news (up to 15) in a one-liner format:
 - [\#26 "[Tracker] Better windowing/graphics inter-operation"](https://github.com/rust-gamedev/wg/issues/26)
 - [\#42 "[Discussion] A plan for crate stewardship"](https://github.com/rust-gamedev/wg/issues/42)
 - [rust-gamedev.github.io](https://github.com/rust-gamedev/rust-gamedev.github.io):
-  - [\#2 "Newsletter"](https://github.com/rust-gamedev/rust-gamedev.github.io/issues/2) (so meta!)
+  - [\#2 "Newsletter"](https://github.com/rust-gamedev/rust-gamedev.github.io/issues/2)
+    (so meta!)
   - [\#4 "Create a rust-gamedev.github.io site"](https://github.com/rust-gamedev/rust-gamedev.github.io/issues/4)
 
 ## Meeting Minutes
