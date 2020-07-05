@@ -353,8 +353,8 @@ but _fast_, both in terms of productivity and in terms of runtime performance.
 This month [ultraviolet v0.4][ultraviolet-v0-4] was released by [@fu5ha].
 It brings
 [transform](https://docs.rs/ultraviolet/0.4.3/ultraviolet/transform/index.html)
-& [projection](https://docs.rs/ultraviolet/0.4.3/ultraviolet/projection/index.html) modules
-and many smaller improvements.
+& [projection](https://docs.rs/ultraviolet/0.4.3/ultraviolet/projection/index.html)
+modules and many smaller improvements.
 
 Check out the [full release announcement post][ultraviolet-v0-4].
 
@@ -562,7 +562,10 @@ Main changes are:
 [@17cupsofcoffee] also posted [a little example][tetra-sound-polling-ex]
 of how you can implement pooling for sound effects
 
-> This is handy for situations where you don't want more than X instances of the same sound playing at once (e.g. if the player is able to fire a weapon as fast as they can hit a button), etc...
+> This is handy for situations where you don't want more than X instances
+> of the same sound playing at once
+> (e.g. if the player is able to fire a weapon as fast as they can hit a button),
+> etc...
 
 [tetra-sound-polling-ex]: https://gist.github.com/17cupsofcoffee/f5082a13626ddf0030075d542262c728
 
@@ -626,7 +629,8 @@ and [voxel cone traced reflections] working in their voxel engine.
 ![Rendology demo screenshot](rendology_hdr_0_4.png)
 
 [Rendology] is a 3D rendering pipeline based on Glium and written in Rust.
-It features basic implementations of shadow mapping, deferred shading, a glow effect, FXAA and instanced rendering.
+It features basic implementations of shadow mapping, deferred shading,
+a glow effect, FXAA and instanced rendering.
 
 An ["Introduction to Rendology"][rendology-into] article
 outlines some of the concepts of Rendology
@@ -693,7 +697,8 @@ Some of the December's updates:
 - a generic "effects" system;
 - cursed items, scrolls of remove curse, and item identification scrolls;
 - items that affect your attributes, generic statuses;
-- spells, spellbooks, weapon proc fx, mob special abilities, DoT, initiative +/- effects;
+- spells, spellbooks, weapon proc fx, mob special abilities,
+    DoT, initiative +/- effects;
 - a dragon lair in a ruined fort;
 - multi-tile entities including pathfinding;
 - parameterized procgen of magic weaponry/armor;
@@ -856,8 +861,8 @@ Just an interesting Rust gamedev link from the past. :)
 
 In the November of 2018,
 [@AndreaPessino] (Founder/CTO of [Ready At Dawn] Studios)
-released a [Modulator] crate and
-an awesome ["Modulator (Rust conding series)"][modulator-video] tutorial video about it.
+released a [Modulator] crate and an awesome
+["Modulator (Rust conding series)"][modulator-video] tutorial video about it.
 
 [Modulator] is a Rust crate for abstracted, decoupled modulation sources.
 
