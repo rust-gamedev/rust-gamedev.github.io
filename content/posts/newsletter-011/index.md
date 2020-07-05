@@ -131,6 +131,43 @@ A/B Street uses a [custom GUI library][ezgui], leveraging `glium`, `usvg`, and
 [abstreet-reddit]: https://old.reddit.com/r/Seattle/comments/hdtucd/ab_street_think_you_can_fix_seattles_traffic/
 [abstreet-stranger]: https://www.thestranger.com/slog/2020/06/29/43999454/ab-streets-game-lets-you-create-the-seattle-street-grid-of-your-dreams
 
+### [Crate Before Attack][cba-site]
+
+[![In-game visual scripting prototype](crate_before_attack.gif)][cba-youtube-scripting]
+
+^ _In-game visual scripting prototype_
+
+[Crate Before Attack][cba-site] by [koalefant (@CrateAttack)][@CrateAttack]
+is a skill-based grappling hook multiplayer game where frogs combat their friends
+while navigating the landscape with their sticky tongues.
+
+A summary of recent changes:
+
+- Visuals: added two new artist-painted levels:
+  [Space][cba-youtube-space]
+  and [Dinosaurs][cba-youtube-dinosaurs].
+- Gameplay: [AI can now play all game modes][cba-youtube-ai],
+  added Quick Game option,
+- In-game [visual scripting prototype][cba-youtube-scripting].
+- Physics tweaks and [improved terrain normal sampling][cba-youtube-normals]
+- Multiplayer: added in-game chat, private matches with secret links,
+  improved game setup UI. Numerous bugfixes and tweaks
+- [Playable Browser build][cba-play].
+
+More details in [June Update DevLog-entry][cba-june-update]
+and on [the YouTube channel][cba-youtube].
+
+[cba-site]: https://cratebeforeattack.com
+[cba-june-update]: https://cratebeforeattack.com/posts/20200630-june-update/
+[cba-play]: https://cratebeforeattack.com/play
+[cba-youtube]: https://youtube.com/channel/UC_xMilPTLuuE5iLs1Ml9zow
+[cba-youtube-ai]: https://youtu.be/IUBZgusI7aI
+[cba-youtube-space]: https://youtu.be/IOmD1LRJ6NA
+[cba-youtube-dinosaurs]: https://youtu.be/UgIBNolI7Wo
+[cba-youtube-scripting]: https://youtu.be/LLAc9_cOR9o
+[cba-youtube-normals]: https://youtu.be/r5BAe03MRZo
+[@CrateAttack]: https://twitter.com/CrateAttack
+
 ### [Veloren][veloren]
 
 ![Animation improvements](veloren-wolf.gif)
@@ -339,36 +376,6 @@ The more minigames you beat the faster they get.
 [weegames-itch]: https://yeahross.itch.io/weegames
 [weegames-repository]: https://github.com/yeahross0/weegames
 [weegames-video]: https://youtube.com/watch?v=A_GqhZ_7EIw
-
-### [Crate Before Attack][cratebeforeattack-site]
-[![In-game visual scripting prototype](crate_before_attack.gif)][cratebeforeattack-youtube-scripting]
-
-^ _In-game visual scripting prototype_
-
-[Crate Before Attack][cratebeforeattack-site] by [koalefant (@CrateAttack)][@CrateAttack]
-is a skill-based grappling hook multiplayer game where frogs combat their friends
-while navigating the landscape with their sticky tongues.
-
-A summary of recent changes:
-* Visuals: added two new artist-painted levels: [Space][cratebeforeattack-youtube-space] and [Dinosaurs][cratebeforeattack-youtube-dinosaurs].
-* Gameplay: [AI can now play all game modes][cratebeforeattack-youtube-ai], added Quick Game option,
-* In-game [visual scripting prototype][cratebeforeattack-youtube-scripting].
-* Physics tweaks and [improved terrain normal sampling][cratebeforeattack-youtube-normals]
-* Multiplayer: added in-game chat, private matches with secret links, improved game setup UI.  Numerous bugfixes and tweaks
-* [Playable Browser build][cratebeforeattack-play].
-
-More details in [June Update DevLog-entry][cratebeforeattack-june-update] and on [YouTube channel][cratebeforeattack-youtube].
-
-[cratebeforeattack-site]: https://cratebeforeattack.com
-[cratebeforeattack-june-update]: https://cratebeforeattack.com/posts/20200630-june-update/
-[cratebeforeattack-play]: https://cratebeforeattack.com/play
-[cratebeforeattack-youtube]: https://youtube.com/channel/UC_xMilPTLuuE5iLs1Ml9zow
-[cratebeforeattack-youtube-ai]: https://youtu.be/IUBZgusI7aI
-[cratebeforeattack-youtube-space]: https://youtu.be/IOmD1LRJ6NA
-[cratebeforeattack-youtube-dinosaurs]: https://youtu.be/UgIBNolI7Wo
-[cratebeforeattack-youtube-scripting]: https://youtu.be/LLAc9_cOR9o
-[cratebeforeattack-youtube-normals]: https://youtu.be/r5BAe03MRZo
-[@CrateAttack]: https://twitter.com/CrateAttack
 
 ## Learning Material Updates
 
