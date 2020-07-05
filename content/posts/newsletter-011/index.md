@@ -417,12 +417,12 @@ well as [API documentation][glisp-docsrs] for integration into Rust.
 The crate has had its [initial release][glisp-cratesio], a roadmap and ways 
 to contribute are available on GameLisp's [Github Respository][glisp-github]. 
 
-[gamelisp] : https://gamelisp.rs/
-[glisp-playground] : https://gamelisp.rs/playground/
-[glisp-reference] : https://gamelisp.rs/reference/
-[glisp-docsrs] : https://docs.rs/glsp/0.1.0/glsp/
-[glisp-cratesio] : https://crates.io/crates/glsp/
-[glisp-github] : https://github.com/fleabitdev/glsp/
+[gamelisp]: https://gamelisp.rs/
+[glisp-playground]: https://gamelisp.rs/playground/
+[glisp-reference]: https://gamelisp.rs/reference/
+[glisp-docsrs]: https://docs.rs/glsp/0.1.0/glsp/
+[glisp-cratesio]: https://crates.io/crates/glsp/
+[glisp-github]: https://github.com/fleabitdev/glsp/
 
 ### [yaks]
 
