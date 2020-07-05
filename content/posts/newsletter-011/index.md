@@ -67,7 +67,9 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [Veloren][veloren]
 
-![chunky boi](veloren1.png)
+![Animation improvements](veloren-wolf.gif)
+
+^ _Animation improvements_
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.
@@ -88,9 +90,7 @@ Veloren launcher. Significant work was done on the world simulation front. This
 includes economic simulations that will represent trade and resource pricing in
 settlements and cities. Castle generation is also now in the works.
 
-![Animation improvements](veloren-wolf.gif)
-
-^ _Animation improvements_
+![Work on castle generation](veloren2.jpeg)
 
 Test coverage and documentation has started to improve, and a workflow around it
 is being developed. The project is now hosting a [proper documentation
@@ -99,18 +99,6 @@ created to facilitate discussions on improvements to player interactions in
 Veloren. Lots of translations were merged, including Swedish, Polish, and
 Brazilian Portugese. The skill system is moving on to implementation, being a
 coordinated effort between the game design, art, and combat working groups.
-
-[![Veloren talk](veloren-talk.gif)](https://www.youtube.com/watch?v=aS26sqT09Pw)
-
-^ _Click for the talk about open source and the Veloren project_
-
-In July, work will be done to complete the progression systems. There will be
-financial meetings held to discuss how funds from the project's Open Collective
-will be distributed.
-
-![castle](veloren2.png)
-
-^ _Work on castle generation_
 
 You can read more about some specific topics from June:
 
@@ -127,17 +115,26 @@ June's full weekly devlogs: "This Week In Veloren...":
 [#71](https://veloren.net/devblog-71),
 [#72](https://veloren.net/devblog-72),
 [#73](https://veloren.net/devblog-73),
-[#74](https://veloren.net/devblog-74),
+[#74](https://veloren.net/devblog-74).
+
+In July, work will be done to complete the progression systems. There will be
+financial meetings held to discuss how funds from the project's Open Collective
+will be distributed.
+
+------
+
+Also, check out [a talk about open source and Veloren][veloren-talk]:
+
+[![Veloren talk](veloren-talk.jpeg)][veloren-talk]
 
 [veloren]: https://veloren.net
 [veloren-opencollective]: https://opencollective.com/veloren
-[gamingonlinux-interview]:
-https://www.gamingonlinux.com/2020/06/interviewed-veloren-an-upcoming-foss-multiplayer-voxel-rpg
+[gamingonlinux-interview]: https://www.gamingonlinux.com/2020/06/interviewed-veloren-an-upcoming-foss-multiplayer-voxel-rpg
 [pfau-blog]: https://www.patreon.com/posts/weekly-blog-no-1-37819335
 [gitlab-stars]: https://gitlab.com/explore/projects/starred
-[veloren-youtube-channel]:
-https://www.youtube.com/channel/UCmRjlnKnSRRihWPPNasl_Qw
+[veloren-youtube-channel]: https://www.youtube.com/channel/UCmRjlnKnSRRihWPPNasl_Qw
 [veloren-docs]: https://docs.veloren.net/veloren_voxygen/index.html
+[veloren-talk]: https://youtube.com/watch?v=aS26sqT09Pw
 
 ## Learning Material Updates
 
