@@ -27,6 +27,7 @@ Feel free to send PRs about your own projects!
 
 Table of contents:
 
+- [Legion Game Jam](#legion-game-jam)
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Library & Tooling Updates](#library-tooling-updates)
@@ -59,6 +60,35 @@ some actual interesting discussions.
 
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
+
+## [Legion Game Jam][legion-jam]
+
+[![The Roman Empire at its greatest extent](roman-empire.jpeg)][roman-empire-wiki]
+
+The "Legion" game jam by [Laticoda] is about
+[Roman Empire][roman-empire-wiki] for the Background Thema
+and ECS paradigm for the technical side.
+The conditions are:
+
+- Open-source & Rust only.
+- Projects should use some ECS library
+  (you can choose [Legion][legion] if you don't have one).
+- Team working and recycling old spinets are allowed.
+
+> Submissions open to August 1st 2020.
+>
+> It can be RPG, strategic, arcade or else; multi or solo. What you want.
+> Just try to include a little bit history and culture taste.
+> Dont be afraid, it is not ranked.
+
+Also, participants are encouraged to
+[document the developemnt process at the event's forum][legion-jam-forum].
+
+[legion-jam]: https://itch.io/jam/legion-jam-rustlang
+[Laticoda]: https://itch.io/profile/laticoda
+[roman-empire-wiki]: https://wikipedia.org/wiki/Roman_Empire
+[legion]: https://github.com/TomGillen/legion
+[legion-jam-forum]: https://itch.io/jam/legion-jam-rustlang/community
 
 ## Game Updates
 
