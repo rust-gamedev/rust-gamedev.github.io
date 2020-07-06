@@ -476,11 +476,11 @@ Check out [the web demo](https://not-fl3.github.io/miniquad-samples/ui.html)
 
 Also, two new examples came from the awesome macroquad community:
 
-- ["snake"][mq-snake] - try it [in the browser][mq-snake-web]
+- "snake" - try it [in the browser][mq-snake-web] ([source][mq-snake])
 
   [![snake demo](macroquad_snake.gif)][mq-snake-web]
 
-- ["asteroids"][mq-asteroids] - try it [in the browser][mq-asteroids-web]
+- "asteroids" - try it [in the browser][mq-asteroids-web] ([source][mq-asteroids])
   
   [![asteroids](macroquad_asteroids.gif)][mq-asteroids-web]
 
