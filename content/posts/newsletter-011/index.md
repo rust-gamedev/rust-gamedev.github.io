@@ -380,63 +380,6 @@ channel in the [PSP Homebrew discord server](https://discord.gg/WY8XhDG).
 
 [rust-psp]: https://github.com/overdrivenpotato/rust-psp
 
-### [macroquad]
-
-[macroquad] by [@fedor_games] is cross-platform
-(Windows/Linux/macOS/Android/WASM) game framework
-build on top of [miniquad].
-
-The project now has [a Discord community server](https://discord.gg/WfEp6ut)
-([Matrix bridge](https://matrix.to/#/#quad-general:matrix.org))
-with channels for all the quad-family projects:
-miniquad, macroquad, good-web-game, and nanoserde.
-
-megaui is macroquad's imgui-like UI system.
-Recently, megaui got decent input widgets: input fields, editboxes, and sliders.
-All of them support copy-pasting back and forth from the browser.
-Check out [the online demo](https://not-fl3.github.io/miniquad-samples/ui.html)
-([source](https://github.com/not-fl3/macroquad/blob/master/examples/ui.rs)):
-
-![ui](macroquad_ui.gif)
-
-Also, two new examples came from the awesome macroquad community:
-
-- snake
-  ([web demo](https://not-fl3.github.io/miniquad-samples/snake.html),
-  [source](https://github.com/not-fl3/macroquad/blob/master/examples/snake.rs))
-
-- asteroids
-  ([web demo](https://not-fl3.github.io/miniquad-samples/asteroids.html),
-  [source](https://github.com/not-fl3/macroquad/blob/master/examples/asteroids.rs))
-
-![asteroids](macroquad_asteroids.gif)
-
-[macroquad]: https://github.com/not-fl3/macroquad
-[miniquad]: https://github.com/not-fl3/miniquad
-
-### [nanoserde]
-
-[nanoserde] by [@fedor_games] is a fork of makepad-tinyserde
-with syn/quote/proc_macro2 dependencies removed.
-
-It attempts to solve a serde's problems of long clean compilation time,
-increased incremental build time, and build artifacts size.
-nanoserde may be useful when the whole game has less than a minute
-clean build time and spending ~40s on serde is unreasonable.
-
-```text
-> cargo tree
-nanoserde v0.1.0 (/../nanoserde)
-└── nanoserde-derive v0.1.0 (/../nanoserde/derive)
-```
-
-Some benchmarks and tiled map deserializing example
-[could be fould here][nanoserde-bench].
-
-[nanoserde]: https://github.com/not-fl3/nanoserde/
-[@fedor_games]: https://twitter.com/fedor_games
-[nanoserde-bench]: https://github.com/not-fl3/nanoserde-bench
-
 ### [This Month in Mun][mun-june]
 
 ![Language Server Diagnostics in action](mun-languageserver.gif)
@@ -488,6 +431,63 @@ written with the framework on platforms without threading - notably, web.
 [yaks]: https://crates.io/crates/yaks
 [`hecs`]: https://crates.io/crates/hecs
 [Rayon]: https://crates.io/crates/rayon
+
+### [nanoserde]
+
+[nanoserde] by [@fedor_games] is a fork of makepad-tinyserde
+with syn/quote/proc_macro2 dependencies removed.
+
+It attempts to solve a serde's problems of long clean compilation time,
+increased incremental build time, and build artifacts size.
+nanoserde may be useful when the whole game has less than a minute
+clean build time and spending ~40s on serde is unreasonable.
+
+```text
+> cargo tree
+nanoserde v0.1.0 (/../nanoserde)
+└── nanoserde-derive v0.1.0 (/../nanoserde/derive)
+```
+
+Some benchmarks and tiled map deserializing example
+[could be fould here][nanoserde-bench].
+
+[nanoserde]: https://github.com/not-fl3/nanoserde/
+[@fedor_games]: https://twitter.com/fedor_games
+[nanoserde-bench]: https://github.com/not-fl3/nanoserde-bench
+
+### [macroquad]
+
+[macroquad] by [@fedor_games] is cross-platform
+(Windows/Linux/macOS/Android/WASM) game framework
+build on top of [miniquad].
+
+The project now has [a Discord community server](https://discord.gg/WfEp6ut)
+([Matrix bridge](https://matrix.to/#/#quad-general:matrix.org))
+with channels for all the quad-family projects:
+miniquad, macroquad, good-web-game, and nanoserde.
+
+megaui is macroquad's imgui-like UI system.
+Recently, megaui got decent input widgets: input fields, editboxes, and sliders.
+All of them support copy-pasting back and forth from the browser.
+Check out [the online demo](https://not-fl3.github.io/miniquad-samples/ui.html)
+([source](https://github.com/not-fl3/macroquad/blob/master/examples/ui.rs)):
+
+![ui](macroquad_ui.gif)
+
+Also, two new examples came from the awesome macroquad community:
+
+- snake
+  ([web demo](https://not-fl3.github.io/miniquad-samples/snake.html),
+  [source](https://github.com/not-fl3/macroquad/blob/master/examples/snake.rs))
+
+- asteroids
+  ([web demo](https://not-fl3.github.io/miniquad-samples/asteroids.html),
+  [source](https://github.com/not-fl3/macroquad/blob/master/examples/asteroids.rs))
+
+![asteroids](macroquad_asteroids.gif)
+
+[macroquad]: https://github.com/not-fl3/macroquad
+[miniquad]: https://github.com/not-fl3/miniquad
 
 ### [Tetra 0.4][tetra-040]
 
