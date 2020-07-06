@@ -205,9 +205,9 @@ and on [the YouTube channel][cba-youtube].
 [Garden][garden] is an upcoming game centered around growing realistic plants.
 Some of the updates from [the June devlog][garden-devlog]:
 
-- Soil collision detection & changes to the soil column generation;
-- Plant sim & terrain updates happen at different times & separately;
-- Proper Global Illumination research;
+- Soil collision detection & changes to the soil column generation.
+- Plant sim & terrain updates happen at different times & separately.
+- Proper Global Illumination research.
 - Automatic in-game texture reloading.
 
 [garden]: https://epcc.itch.io/garden
