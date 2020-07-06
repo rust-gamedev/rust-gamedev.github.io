@@ -469,25 +469,27 @@ miniquad, macroquad, good-web-game, and nanoserde.
 megaui is macroquad's imgui-like UI system.
 Recently, megaui got decent input widgets: input fields, editboxes, and sliders.
 All of them support copy-pasting back and forth from the browser.
-Check out [the online demo](https://not-fl3.github.io/miniquad-samples/ui.html)
+Check out [the web demo](https://not-fl3.github.io/miniquad-samples/ui.html)
 ([source](https://github.com/not-fl3/macroquad/blob/master/examples/ui.rs)):
 
 ![ui](macroquad_ui.gif)
 
 Also, two new examples came from the awesome macroquad community:
 
-- snake
-  ([web demo](https://not-fl3.github.io/miniquad-samples/snake.html),
-  [source](https://github.com/not-fl3/macroquad/blob/master/examples/snake.rs))
+- ["snake"][mq-snake] - try it [in the browser][mq-snake-web]
 
-- asteroids
-  ([web demo](https://not-fl3.github.io/miniquad-samples/asteroids.html),
-  [source](https://github.com/not-fl3/macroquad/blob/master/examples/asteroids.rs))
+  [![snake demo](macroquad_snake.gif)][mq-snake-web]
 
-![asteroids](macroquad_asteroids.gif)
+- ["asteroids"][mq-asteroids] - try it [in the browser][mq-asteroids-web]
+  
+  [![asteroids](macroquad_asteroids.gif)][mq-asteroids-web]
 
 [macroquad]: https://github.com/not-fl3/macroquad
 [miniquad]: https://github.com/not-fl3/miniquad
+[mq-snake]: https://github.com/not-fl3/macroquad/blob/master/examples/snake.rs
+[mq-asteroids]: https://github.com/not-fl3/macroquad/blob/master/examples/asteroids.rs
+[mq-snake-web]: https://not-fl3.github.io/miniquad-samples/snake.html
+[mq-asteroids-web]: https://not-fl3.github.io/miniquad-samples/asteroids.html
 
 ### [Tetra 0.4][tetra-040]
 
