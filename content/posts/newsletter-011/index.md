@@ -198,6 +198,21 @@ and on [the YouTube channel][cba-youtube].
 [cba-youtube-normals]: https://youtu.be/r5BAe03MRZo
 [@CrateAttack]: https://twitter.com/CrateAttack
 
+### [Garden]: June Devlog
+
+![screenshot: concrete & trees](garden.jpeg)
+
+[Garden][garden] is an upcoming game centered around growing realistic plants.
+Some of the updates from [the June devlog][garden-devlog]:
+
+- Soil collision detection & changes to the soil column generation;
+- Plant sim & terrain updates happen at different times & separately;
+- Proper Global Illumination research;
+- Automatic in-game texture reloading.
+
+[garden]: https://epcc.itch.io/garden
+[garden-devlog]: https://cyberplant.xyz/posts/june
+
 ### [Veloren][veloren]
 
 ![Animation improvements](veloren-wolf.gif)
@@ -268,6 +283,44 @@ Also, check out [a talk about open source and Veloren][veloren-talk]:
 [veloren-youtube-channel]: https://www.youtube.com/channel/UCmRjlnKnSRRihWPPNasl_Qw
 [veloren-docs]: https://docs.veloren.net/veloren_voxygen/index.html
 [veloren-talk]: https://youtube.com/watch?v=aS26sqT09Pw
+
+### [Zero to Game][zerotoga.me]
+
+![ships with greater thrust explode](zerotogame-destruction.gif)
+
+^ _The initial destruction prototype applied across different thrust levels_
+
+[Zero to Game][zerotoga.me] is a project that documents
+the creation of an independent space game from zero.
+
+> My plan for this website is to narrate my independent development
+> of a computer game in the Rust programming language.
+> I've never done this before, and so I hope to be able to show you
+> the progression right from zero all the way up to a game.
+>
+> - Zero game programming experience.
+> - Zero experience in the Rust programming language.
+> - Zero experience making assets, images, sounds, models, etcetera.
+
+Currently published posts:
+
+- [\#1 "Finding Zero"](https://zerotoga.me/dev/findingzero)
+  \- where the game development journey is beginning.
+- [\#2 "Inspiring Design"](https://zerotoga.me/dev/inspiringdesign)
+  \- how Factorio, Screeps, and Space Station 13 are inspiring the game's design.
+- [\#3 "Picking Technology"](https://zerotoga.me/dev/pickingtechnology)
+  \- researching a technology path for the game project to start out on.
+- [\#4 "Leading Design Challenges"](https://zerotoga.me/dev/leadingdesignchallenges)
+  \- the spacetime issues with combining gameplay inside and outside of spaceships.
+- [\#5 "Fast Spaceship Physics"](https://zerotoga.me/dev/fastspaceshipphysics)
+  \- prototyping a spaceship physics simulation aimed at speed.
+- [\#6 "Physical Destruction"](https://zerotoga.me/dev/physicaldestruction)
+  \- the structure and implementation of a spaceship destruction prototype.
+- [\#7 "Rendering in Rust"](https://zerotoga.me/dev/renderinginrust)
+  \- working through from tutorial code to meet the needs
+  of the game's first Rust scene render.
+
+[zerotoga.me]: https://zerotoga.me
 
 ### [Pont][pont-online]
 
@@ -360,6 +413,17 @@ a python module to use AlphaZero algorithm for training.
 [animal-chess-wiki]: https://en.wikipedia.org/wiki/Jungle_(board_game)
 [animal-chess-pieces]: http://ancientchess.com/graphics-rules/dou_shou_qi_jungle_game-pieces-values.jpg
 
+### [rs-type]
+
+![screenshot: planets and words](rs-type.png)
+
+[rs-type] is a WIP typing game
+inspired to [zty.pe](https://zty.pe/).
+It can load [KTouch courses](https://github.com/KDE/ktouch/tree/master/data/courses)
+and also has a built-in basic vector drawing tool for painting backgrounds.
+
+[rs-type]: https://github.com/akiross/rs-type
+
 ### [Guacamole Runner][guacamole]
 
 ![gif](guacamole.gif)
@@ -391,6 +455,19 @@ documenting the process making this project.
 [wooting_snake-video]: https://youtu.be/OhhscXz-60g
 [TanTan]: https://twitter.com/Tantan22430802
 
+### [boundless]
+
+![terrain, bg trees, and a character](boundless.jpeg)
+
+[Anthony Brigante][abrigante] started working on a 2D sandbox game.
+Two devlogs were released this month:
+
+- ["Hello, Rust"](https://abrigante.com/post/2020/06/04/Hello-Rust.html)
+- ["From Sandbox to Production - Rendering"](https://abrigante.com/post/2020/06/08/From-Sandbox-To-Production-Rendering.html)
+
+[boundless]: https://github.com/abrigante1/boundless/tree/production
+[abrigante]: https://abrigante.com/
+
 ### [Weegames][weegames-itch]
 
 [![Weegames](weegames.jpg)][weegames-video]
@@ -406,6 +483,16 @@ The more minigames you beat the faster they get.
 [weegames-itch]: https://yeahross.itch.io/weegames
 [weegames-repository]: https://github.com/yeahross0/weegames
 [weegames-video]: https://youtube.com/watch?v=A_GqhZ_7EIw
+
+### [blub]
+
+![Fluid demo](blub-fluid.gif)
+
+[blub] is a WIP 3D fluid simulation playground build with wgpu-rs and imgui-rs.
+It focuses primarily on hybrid approaches lagrangian/eularian approaches
+(PIC/FLIP/APIC..). Check the project's README for more details.
+
+[blub]: https://github.com/wumpf/blub
 
 ## Learning Material Updates
 
