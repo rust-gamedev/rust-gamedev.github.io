@@ -406,7 +406,9 @@ Their [June updates][mun-june] include:
 
 ### [GameLisp]
 
-GameLisp (glisp) is a scripting language built for and in Rust and utilizes
+![logo](glisp-logo.png)
+
+[GameLisp] (glisp) is a scripting language built for and in Rust and utilizes
 syntax from the LISP family of programming langauges. It provides a fast and
 efficient garbage collector that runs every frame instead of freezing a thread.
 
