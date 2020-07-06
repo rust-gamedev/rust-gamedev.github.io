@@ -500,7 +500,7 @@ The goal of the project is to be able to compose images without using the mouse.
 [vimnail-git]: https://github.com/TanTanDev/vimnail
 [vimnail-video]: https://youtu.be/2cSY43OcuZc
 
-### [glam](https://github.com/bitshifter/glam-rs)
+### [glam]
 
 [glam] is a simple and fast linear algebra crate for games and graphics.
 
@@ -524,6 +524,7 @@ that users needed a `Vec3` that was just 12 bytes.
 While glam is reasonably stable it has not yet reached a 1.0 release so it
 seemed like now is the time to address such issues in the API.
 
+[glam]: https://github.com/bitshifter/glam-rs
 [glam 0.9]: https://github.com/bitshifter/glam-rs/blob/master/CHANGELOG.md#090---2020-06-28
 
 ## Popular Workgroup Issues in Github
