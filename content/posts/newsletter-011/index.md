@@ -647,12 +647,12 @@ entirely written in Rust.
 This month added support for both 2D and 3D SDF nodes. The above screenshot is
 a meta example of creating a node using some of the 2D SDF primitives and
 operations.
-([An example of some 3D SDFs can be found on Twitter.][nodefx-sdf3])
+[An example of some 3D SDFs can be found on Twitter.][nodefx-sdf3]
 
 Next month is all about adding more UI, to make the application more
 user-friendly and fully-fledged. After UI has been added, there is a planned
-release of the application. _More information can be found on
-[Twitter][@MrVallentin]._
+release of the application.
+More information can be found on [Twitter][@MrVallentin].
 
 [@MrVallentin]: https://twitter.com/MrVallentin
 [nodefx-sdf2]: https://twitter.com/MrVallentin/status/1276609598699581442
