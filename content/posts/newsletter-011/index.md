@@ -677,6 +677,18 @@ to contribute are available on GameLisp's [Github Respository][glisp-github].
 [glisp-cratesio]: https://crates.io/crates/glsp/
 [glisp-github]: https://github.com/fleabitdev/glsp/
 
+### [safe_arch] v0.5
+
+[safe_arch] is a crate by [@lokathor] that safely exposes
+CPU arch intrinsics via `#[cfg()]`.
+This month v0.4 and v0.5 versions were released.
+The main improvements are:
+
+- 256 bit supports
+- Almost all the API was reworked for better naming consistency
+
+[safe_arch]: https://github.com/Lokathor/safe_arch
+
 ### [yaks]
 
 [yaks] is a minimalistic framework for automatic multithreading
