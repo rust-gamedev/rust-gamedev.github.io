@@ -804,6 +804,30 @@ More information can be found on [Twitter][@MrVallentin].
 [nodefx-sdf2]: https://twitter.com/MrVallentin/status/1276609598699581442
 [nodefx-sdf3]: https://twitter.com/MrVallentin/status/1276961197645008896
 
+### [Göld][goeld]
+
+![Chumtoad](goeld.jpg)
+
+[Göld][goeld] is a WIP game engine for hacking together 3D games using old tech.
+It uses wgpu-rs and is based on the simple mental model of PyGame or Löve,
+but for Goldsrc/Quake-era tech.
+
+The ultimate goal of the project is to have a simple engine which can do
+basically everything that many simplistic 3D games will need,
+without making an attempt at being too general.
+
+Current features:
+
+- Quake 2 maps loading (although not Quake/Goldsrc maps yet)
+  and rendering with proper BSP culling and frustrum culling.
+- Loading and rendering of HL1 models.
+- Simple dynamic lighting system.
+
+[goeld]: https://github.com/Vurich/goeld
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/gwqbxl/been_working_on_a_webgpurust_reimplementation)_
+
 ### [Arsenal Game Engine][arsenal]
 
 [Arsenal] is the concept for a 2D and 3D game engine that is fully integrated
