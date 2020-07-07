@@ -1,8 +1,7 @@
 +++
 title = "This Month in Rust GameDev #11 - June 2020"
-date = 2020-07-01
+date = 2020-07-07
 transparent = true
-draft = true
 +++
 
 Welcome to the eleventh issue of the Rust GameDev Workgroup’s
