@@ -33,7 +33,6 @@ Table of contents:
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Meeting Minutes](#meeting-minutes)
 - [Requests for Contribution](#requests-for-contribution)
-- [Jobs](#jobs)
 - [Bonus](#bonus)
 
 <!--
