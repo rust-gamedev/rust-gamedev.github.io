@@ -915,6 +915,17 @@ that allows you to play classic Nintendo Entertainment System games in the brows
 
 <!-- Up to 10 links to interesting issues -->
 
+- [rust-gamedev/wg](https://github.com/rust-gamedev/wg):
+  - [#51 "Using wasm-bindgen for games"](https://github.com/rust-gamedev/wg/issues/51);
+  - [#75 "Standardised API for sharing thread pools"](https://github.com/rust-gamedev/wg/issues/75);
+  - [#77 "Can we contribute to OpenXR to get Keyboard/Mouse support to be official?"](https://github.com/rust-gamedev/wg/issues/77);
+- [rust-gamedev/rust-gamedev.github.io](https://github.com/rust-gamedev/rust-gamedev.github.io):
+  - [#30 "CI: Add markdownlint checks"](https://github.com/rust-gamedev/rust-gamedev.github.io/issues/30);
+- [rust-gamedev/arewegameyet](https://github.com/rust-gamedev/arewegameyet):
+  - [#95 "How do we remove crates?"](https://github.com/rust-gamedev/arewegameyet/issues/95);
+  - [#289 "Netlify previews for PRs?"](https://github.com/rust-gamedev/arewegameyet/issues/289);
+  - [#320 "A different section for gamejam games?"](https://github.com/rust-gamedev/arewegameyet/issues/320);
+
 ## Meeting Minutes
 
 <!-- Up to 10 most important notes + a link to the full details -->
@@ -928,6 +939,7 @@ or [join the next meeting][join].
 
 <!-- Links to "good first issue"-labels or direct links to specific tasks -->
 
+- [gl-rs is seeking new maintainers](https://github.com/brendanzab/gl-rs/issues/524);
 - [Embark's open issues][embark-open-issues] ([embark.rs]);
 - [winit's "Good first issue" and “help wanted” issues][winit-issues];
 - [gfx-rs's "contributor-friendly" issues][gfx-issues];
