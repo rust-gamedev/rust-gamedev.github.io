@@ -890,7 +890,7 @@ The goal of the project is to be able to compose images without using the mouse.
 
 ### [GC NES Emulator][gc-nes]
 
-[![screenshot of the web version: main area, scaling settings and drag-n-drop area]](nes-emu.png)
+[![screenshot of the web version: main area, scaling settings and drag-n-drop area](nes-emu.png)][gc-nes]
 
 This month [Garett Cooper][garettcooper.com] released [GC NES Emulator][gc-nes]
 that allows you to play classic Nintendo Entertainment System games in the browser.
