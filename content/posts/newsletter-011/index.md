@@ -418,7 +418,7 @@ a python module to use AlphaZero algorithm for training.
 ![screenshot: planets and words](rs-type.png)
 
 [rs-type] is a WIP typing game
-inspired to [zty.pe](https://zty.pe/).
+inspired by [zty.pe](https://zty.pe/).
 It can load [KTouch courses](https://github.com/KDE/ktouch/tree/master/data/courses)
 and also has a built-in basic vector drawing tool for painting backgrounds.
 
