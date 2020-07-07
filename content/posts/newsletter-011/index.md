@@ -761,7 +761,7 @@ clean build time and spending ~40s on serde is unreasonable.
 nanoserde v0.1.0 (/../nanoserde)
 └── nanoserde-derive v0.1.0 (/../nanoserde/derive)
 ```
-  
+
 Some benchmarks and tiled map deserializing example
 [could be fould here][nanoserde-bench].
 
