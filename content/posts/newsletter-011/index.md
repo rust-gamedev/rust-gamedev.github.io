@@ -1,8 +1,7 @@
 +++
 title = "This Month in Rust GameDev #11 - June 2020"
-date = 2020-07-01
+date = 2020-07-07
 transparent = true
-draft = true
 +++
 
 Welcome to the eleventh issue of the Rust GameDev Workgroup’s
@@ -34,7 +33,6 @@ Table of contents:
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Meeting Minutes](#meeting-minutes)
 - [Requests for Contribution](#requests-for-contribution)
-- [Jobs](#jobs)
 - [Bonus](#bonus)
 
 <!--
@@ -78,8 +76,8 @@ The conditions are:
 > Submissions open to August 1st 2020.
 >
 > It can be RPG, strategic, arcade or else; multi or solo. What you want.
-> Just try to include a little bit history and culture taste.
-> Dont be afraid, it is not ranked.
+> Just try to include a little bit of history and culture taste.
+> Don't be afraid, it is not ranked.
 
 Also, participants are encouraged to
 [document the development process at the event's forum][legion-jam-forum].
@@ -101,7 +99,7 @@ Also, participants are encouraged to
 [Way of Rhea][rhea-site] ([steam][rhea-steam])
 is an upcoming puzzle platformer that takes place in a world
 where you can only interact with objects that match your current color.
-It's being build in a custom engine, and custom scripting language both written
+It's being built in a custom engine, and custom scripting language both written
 in Rust by [Mason Remaley][@masonremaley]. This month's updates:
 
 - A demo was released as part of the
@@ -449,7 +447,7 @@ they plant flowers which gives them points.
 are represented on your keyboard lights, instead of a computer screen.
 
 [TanTan] released a [video][wooting_snake-video]
-documenting the process making this project.
+documenting the process of making this project.
 
 [wooting_snake-git]: https://github.com/TanTanDev/wooting_snake
 [wooting_snake-video]: https://youtu.be/OhhscXz-60g
@@ -579,10 +577,10 @@ This project is a port and improvement of the unofficial C/C++ PSPSDK from
 nightly and a cargo subcommand.
 
 The psp crate provides a `psp::sys` submodule that houses the entire Sony PSP
-API. We are working to have theseinterfaces merged into the libc crate.
-The PSP unfortunately uses non-standard dynamic linking,
+API. The authors are working to have these interfaces merged into the libc crate.
+The PSP, unfortunately, uses non-standard dynamic linking,
 (and some libraries are statically linked!), so function definitions
-marked extern are not enough. Eventually we will wrap this sys lib with a more
+marked extern are not enough. Eventually, this sys lib will be wrapped with a more
 rust-friendly library.
 
 Rather than patching LLVM or rustc, the rust-psp team has also merged a
@@ -613,7 +611,7 @@ change from 0.8.
 
 In 0.9 the `Vec3` type was changed from being a 128 byte SIMD vector type to a
 tuple of three floats. This changes the size of `Vec3` from 16 bytes to 12 bytes
-and the alignment from 16 bytes to 4 bytes. This might not effect all users but
+and the alignment from 16 bytes to 4 bytes. This might not affect all users but
 if `Vec3` was used in a context where the size or alignment mattered, such as in
 FFI or as input to shaders, this could cause breakage.
 
@@ -622,7 +620,7 @@ which is 16 byte aligned and thus 16 bytes in size.  The `Vec3A` type is still
 there for users who want the performance benefits of the SIMD implementation.
 
 The motivation for this change was that it is potentially surprising and
-confusing for new users that the `Vec3` type was not 12 bytes. Also it's common
+confusing for new users that the `Vec3` type was not 12 bytes. Also, it's common
 that users needed a `Vec3` that was just 12 bytes.
 
 While glam is reasonably stable it has not yet reached a 1.0 release so it
@@ -640,7 +638,7 @@ seemed like now is the time to address such issues in the API.
 [Mun] is a scripting language for gamedev focused on quick iteration times
 that is written in Rust.
 
-After the dust of the [Mun v0.2 release][mun-release] settled, this month focus
+After the dust of the [Mun v0.2 release][mun-release] settled, this month's focus
 has been on fixing several issues found by community members, improving the
 overall quality of the code base and working towards the next release: Mun v0.3.
 
@@ -660,7 +658,7 @@ Their [June updates][mun-june] include:
 ![logo](glisp-logo.png)
 
 [GameLisp] (glisp) is a scripting language built for and in Rust and utilizes
-syntax from the LISP family of programming langauges. It provides a fast and
+syntax from the LISP family of programming languages. It provides a fast and
 efficient garbage collector that runs every frame instead of freezing a thread.
 
 GameLisp also provides [a playground][glisp-playground] to experiment with
@@ -676,6 +674,19 @@ to contribute are available on GameLisp's [Github Respository][glisp-github].
 [glisp-docsrs]: https://docs.rs/glsp/0.1.0/glsp/
 [glisp-cratesio]: https://crates.io/crates/glsp/
 [glisp-github]: https://github.com/fleabitdev/glsp/
+
+### [safe_arch] v0.5
+
+[safe_arch] is a crate by [@lokathor] that safely exposes
+CPU arch intrinsics via `#[cfg()]`.
+This month v0.4 and v0.5 versions were released.
+The main improvements are:
+
+- 256 bit supports
+- Almost all the API was reworked for better naming consistency
+
+[safe_arch]: https://github.com/Lokathor/safe_arch
+[@lokathor]: https://twitter.com/lokathor
 
 ### [yaks]
 
@@ -705,11 +716,41 @@ written with the framework on platforms without threading - notably, web.
 [`hecs`]: https://crates.io/crates/hecs
 [Rayon]: https://crates.io/crates/rayon
 
-### [nanoserde]
+### [macroquad]
+
+[macroquad] by [@fedor_games] is cross-platform
+(Windows/Linux/macOS/Android/WASM) game framework
+build on top of [miniquad].
+
+The project now has [a Discord community server](https://discord.gg/WfEp6ut)
+([Matrix bridge](https://matrix.to/#/#quad-general:matrix.org))
+with channels for all the quad-family projects:
+miniquad, macroquad, good-web-game, and nanoserde.
+
+Also, two new examples came from the awesome macroquad community:
+
+- "snake" - try it [in the browser][mq-snake-web] ([source][mq-snake])
+
+  [![snake demo](macroquad_snake.gif)][mq-snake-web]
+
+- "asteroids" - try it [in the browser][mq-asteroids-web] ([source][mq-asteroids])
+  
+  [![asteroids](macroquad_asteroids.gif)][mq-asteroids-web]
+
+------
+
+megaui is macroquad's imgui-like UI system.
+Recently, megaui got decent input widgets: input fields, editboxes, and sliders.
+All of them support copy-pasting back and forth from the browser.
+Check out [the web demo](https://not-fl3.github.io/miniquad-samples/ui.html)
+([source](https://github.com/not-fl3/macroquad/blob/master/examples/ui.rs)):
+
+![ui](macroquad_ui.gif)
+
+------
 
 [nanoserde] by [@fedor_games] is a fork of makepad-tinyserde
 with syn/quote/proc_macro2 dependencies removed.
-
 It attempts to solve a serde's problems of long clean compilation time,
 increased incremental build time, and build artifacts size.
 nanoserde may be useful when the whole game has less than a minute
@@ -722,40 +763,7 @@ nanoserde v0.1.0 (/../nanoserde)
 ```
 
 Some benchmarks and tiled map deserializing example
-[could be fould here][nanoserde-bench].
-
-[nanoserde]: https://github.com/not-fl3/nanoserde/
-[@fedor_games]: https://twitter.com/fedor_games
-[nanoserde-bench]: https://github.com/not-fl3/nanoserde-bench
-
-### [macroquad]
-
-[macroquad] by [@fedor_games] is cross-platform
-(Windows/Linux/macOS/Android/WASM) game framework
-build on top of [miniquad].
-
-The project now has [a Discord community server](https://discord.gg/WfEp6ut)
-([Matrix bridge](https://matrix.to/#/#quad-general:matrix.org))
-with channels for all the quad-family projects:
-miniquad, macroquad, good-web-game, and nanoserde.
-
-megaui is macroquad's imgui-like UI system.
-Recently, megaui got decent input widgets: input fields, editboxes, and sliders.
-All of them support copy-pasting back and forth from the browser.
-Check out [the web demo](https://not-fl3.github.io/miniquad-samples/ui.html)
-([source](https://github.com/not-fl3/macroquad/blob/master/examples/ui.rs)):
-
-![ui](macroquad_ui.gif)
-
-Also, two new examples came from the awesome macroquad community:
-
-- "snake" - try it [in the browser][mq-snake-web] ([source][mq-snake])
-
-  [![snake demo](macroquad_snake.gif)][mq-snake-web]
-
-- "asteroids" - try it [in the browser][mq-asteroids-web] ([source][mq-asteroids])
-  
-  [![asteroids](macroquad_asteroids.gif)][mq-asteroids-web]
+[could be found here][nanoserde-bench].
 
 [macroquad]: https://github.com/not-fl3/macroquad
 [miniquad]: https://github.com/not-fl3/miniquad
@@ -763,6 +771,9 @@ Also, two new examples came from the awesome macroquad community:
 [mq-asteroids]: https://github.com/not-fl3/macroquad/blob/master/examples/asteroids.rs
 [mq-snake-web]: https://not-fl3.github.io/miniquad-samples/snake.html
 [mq-asteroids-web]: https://not-fl3.github.io/miniquad-samples/asteroids.html
+[nanoserde]: https://github.com/not-fl3/nanoserde/
+[@fedor_games]: https://twitter.com/fedor_games
+[nanoserde-bench]: https://github.com/not-fl3/nanoserde-bench
 
 ### [Tetra 0.4][tetra-040]
 
@@ -803,6 +814,30 @@ More information can be found on [Twitter][@MrVallentin].
 [@MrVallentin]: https://twitter.com/MrVallentin
 [nodefx-sdf2]: https://twitter.com/MrVallentin/status/1276609598699581442
 [nodefx-sdf3]: https://twitter.com/MrVallentin/status/1276961197645008896
+
+### [Göld][goeld]
+
+![Chumtoad](goeld.jpg)
+
+[Göld][goeld] is a WIP game engine for hacking together 3D games using old tech.
+It uses wgpu-rs and is based on the simple mental model of PyGame or Löve,
+but for Goldsrc/Quake-era tech.
+
+The ultimate goal of the project is to have a simple engine that can do
+basically everything that many simplistic 3D games will need,
+without making an attempt at being too general.
+
+Current features:
+
+- Quake 2 maps loading (although not Quake/Goldsrc maps yet)
+  and rendering with proper BSP culling and frustum culling.
+- Loading and rendering of HL1 models.
+- Simple dynamic lighting system.
+
+[goeld]: https://github.com/Vurich/goeld
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/gwqbxl/been_working_on_a_webgpurust_reimplementation)_
 
 ### [Arsenal Game Engine][arsenal]
 
@@ -854,9 +889,41 @@ The goal of the project is to be able to compose images without using the mouse.
 [vimnail-git]: https://github.com/TanTanDev/vimnail
 [vimnail-video]: https://youtu.be/2cSY43OcuZc
 
+### [GC NES Emulator][gc-nes]
+
+[![screenshot of the web version: main area, scaling settings and drag-n-drop area](nes-emu.png)][gc-nes]
+
+This month [Garett Cooper][garettcooper.com] released [GC NES Emulator][gc-nes]
+that allows you to play classic Nintendo Entertainment System games in the browser.
+
+> The core of the GC NES Emulator is implemented in the Rust programming language,
+> which supports Web Assembly as a compilation target.
+> With a WASM version of the emulator, I've written a javascript wrapper
+> that takes the frame rendered with the Rust code
+> and displays it on an HTML 5 canvas.
+> At present, this is done completely synchronously,
+> though I would like to move it into a worker at some point in the future
+
+[The source code is available here][gc-nes-src].
+
+[gc-nes]: https://garettcooper.com/#/nes-emulator
+[gc-nes-src]: https://github.com/GarettCooper/gc_nes_emulator
+[garettcooper.com]: https://garettcooper.com/
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
+
+- [rust-gamedev/wg](https://github.com/rust-gamedev/wg):
+  - [#51 "Using wasm-bindgen for games"](https://github.com/rust-gamedev/wg/issues/51);
+  - [#75 "Standardised API for sharing thread pools"](https://github.com/rust-gamedev/wg/issues/75);
+  - [#77 "Can we contribute to OpenXR to get Keyboard/Mouse support to be official?"](https://github.com/rust-gamedev/wg/issues/77);
+- [rust-gamedev/rust-gamedev.github.io](https://github.com/rust-gamedev/rust-gamedev.github.io):
+  - [#30 "CI: Add markdownlint checks"](https://github.com/rust-gamedev/rust-gamedev.github.io/issues/30);
+- [rust-gamedev/arewegameyet](https://github.com/rust-gamedev/arewegameyet):
+  - [#95 "How do we remove crates?"](https://github.com/rust-gamedev/arewegameyet/issues/95);
+  - [#261 "Make .rs domain primary?"](https://github.com/rust-gamedev/arewegameyet/issues/261);
+  - [#320 "A different section for gamejam games?"](https://github.com/rust-gamedev/arewegameyet/issues/320);
 
 ## Meeting Minutes
 
@@ -871,6 +938,7 @@ or [join the next meeting][join].
 
 <!-- Links to "good first issue"-labels or direct links to specific tasks -->
 
+- [gl-rs is seeking new maintainers](https://github.com/brendanzab/gl-rs/issues/524);
 - [Embark's open issues][embark-open-issues] ([embark.rs]);
 - [winit's "Good first issue" and “help wanted” issues][winit-issues];
 - [gfx-rs's "contributor-friendly" issues][gfx-issues];
@@ -900,6 +968,23 @@ or [join the next meeting][join].
 and highlight events from the past. -->
 
 Just an interesting Rust gamedev link from the past. :)
+
+[![a screenshot of the first slide](ecs-talk.png)][ecs-talk-video]
+
+During RustConf 2018, Catherine West gave a keynote talk
+"Using Rust For Game Development" that introduced a lot of people
+to the concept of ECS and is now considered a classic.
+You can [watch the recording here][ecs-talk-video] ([slides][ecs-talk-slides]).
+
+A few months later [an extended text version was released][ecs-talk-post].
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/9dwqa4/rustconf_2018_closing_keynote),
+[/r/programming](https://reddit.com/r/programming/comments/9dwq73/rustconf_2018_closing_keynote)_
+
+[ecs-talk-video]: https://youtube.com/watch?v=aKLntZcp27M
+[ecs-talk-post]: https://kyren.github.io/2018/09/14/rustconf-talk.html
+[ecs-talk-slides]: https://kyren.github.io/rustconf_2018_slides/index.html
 
 ------
 

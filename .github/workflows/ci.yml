@@ -12,7 +12,7 @@ jobs:
       # https://github.com/marketplace/actions/github-pages#warning-limitation
       GITHUB_PAT: ${{ secrets.GITHUB_PAT }}
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
     - name: Lint
       uses: avto-dev/markdown-lint@v1
       with:
