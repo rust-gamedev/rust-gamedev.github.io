@@ -993,12 +993,9 @@ That's all news for today, thanks for reading!
 Subscribe to [@rust_gamedev on Twitter][@rust_gamedev]
 or [/r/rust_gamedev subreddit][/r/rust_gamedev] if you want to receive fresh news!
 
-<!--
-TODO: Add real links and un-comment once this post is published
 **Discussions of this post**:
-[/r/rust](TODO),
-[twitter](TODO).
--->
+[/r/rust](https://reddit.com/r/rust/comments/hn0qso/this_month_in_rust_gamedev_11_june_2020),
+[twitter](https://twitter.com/rust_gamedev/status/1280577098369949696).
 
 [/r/rust_gamedev]: https://reddit.com/r/rust_gamedev
 [@rust_gamedev]: https://twitter.com/rust_gamedev
