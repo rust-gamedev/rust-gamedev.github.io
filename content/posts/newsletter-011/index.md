@@ -686,6 +686,7 @@ The main improvements are:
 - Almost all the API was reworked for better naming consistency
 
 [safe_arch]: https://github.com/Lokathor/safe_arch
+[@lokathor]: https://twitter.com/lokathor
 
 ### [yaks]
 
