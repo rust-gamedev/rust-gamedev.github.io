@@ -970,6 +970,23 @@ and highlight events from the past. -->
 
 Just an interesting Rust gamedev link from the past. :)
 
+[![a screenshot of the first slide](ecs-talk.png)][ecs-talk-video]
+
+During RustConf 2018, Catherine West gave a keynote talk
+"Using Rust For Game Development" that introduced a lot of people
+to the concept of ECS and is now considered a classic.
+You can [watch the recording here][ecs-talk-video] ([slides][ecs-talk-slides]).
+
+A few months later [an extended text version was released][ecs-talk-post].
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/9dwqa4/rustconf_2018_closing_keynote),
+[/r/programming](https://reddit.com/r/programming/comments/9dwq73/rustconf_2018_closing_keynote)_
+
+[ecs-talk-video]: https://youtube.com/watch?v=aKLntZcp27M
+[ecs-talk-post]: https://kyren.github.io/2018/09/14/rustconf-talk.html
+[ecs-talk-slides]: https://kyren.github.io/rustconf_2018_slides/index.html
+
 ------
 
 That's all news for today, thanks for reading!
