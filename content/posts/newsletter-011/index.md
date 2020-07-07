@@ -878,6 +878,27 @@ The goal of the project is to be able to compose images without using the mouse.
 [vimnail-git]: https://github.com/TanTanDev/vimnail
 [vimnail-video]: https://youtu.be/2cSY43OcuZc
 
+### [GC NES Emulator][gc-nes]
+
+[![screenshot of the web version: main area, scaling settings and drag-n-drop area]](nes-emu.png)
+
+This month [Garett Cooper][garettcooper.com] released [GC NES Emulator][gc-nes]
+that allows you to play classic Nintendo Entertainment System games in the browser.
+
+> The core of the GC NES Emulator is implemented in the Rust programming language,
+> which supports Web Assembly as a compilation target.
+> With a WASM version of the emulator, I've written a javascript wrapper
+> that takes the frame rendered with the Rust code
+> and displays it on an HTML 5 canvas.
+> At present, this is done completely synchronously,
+> though I would like to move it into a worker at some point in the future
+
+[The source code is available here][gc-nes-src].
+
+[gc-nes]: https://garettcooper.com/#/nes-emulator
+[gc-nes-src]: https://github.com/GarettCooper/gc_nes_emulator
+[garettcooper.com]: https://garettcooper.com/
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
