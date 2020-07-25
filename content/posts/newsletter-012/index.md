@@ -68,9 +68,10 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 [![Rust on iOS with SDL2 demo](rust-ios-sdl2-screenshot.png)][rust-ios-sdl2-post]
 
-[@aclysma] published a [tutorial][rust-ios-sdl2-post] that describes setting up Rust/SDL2 on iOS. The 
-resulting app can run in the simulator as well as on physical devices. [SDL2][sdl2] is a mature library
-providing basic rendering, audio, and input support. It can also be used to set up an opengl or vulkan 
+[@aclysma] published a [tutorial][rust-ios-sdl2-post] that describes setting up
+Rust/SDL2 on iOS. The resulting app can run in the simulator as well as on
+physical devices. [SDL2][sdl2] is a mature library providing basic rendering,
+audio, and input support. It can also be used to set up an opengl or vulkan
 surface. This demo is using [Rust-SDL2][rust-sdl2] for bindings.
 
 [rust-ios-sdl2-post]: https://blog.aclysma.com/rust-on-ios-with-sdl2/
@@ -83,15 +84,15 @@ surface. This demo is using [Rust-SDL2][rust-sdl2] for bindings.
 
 ### Vulkan Renderer (Name TBD)
 
-[@aclysma] published a [new vulkan-based renderer][renderer-prototype] that uses 
-[atelier-assets] to load 3D scenes exported from blender.
+[@aclysma] published a [new vulkan-based renderer][renderer-prototype] that
+uses [atelier-assets] to load 3D scenes exported from blender.
 
-> The objective of this repo is to build a scalable, flexible, data driven 
-> renderer. Scalable in the sense of performance as well as suitability for 
-> use in large, real-world projects. This means streaming, LODs, visibility 
-> systems, and multi-threaded draw call submission need to be possible. 
-> Additionally it means thinking through how an asset pipeline would work for 
-> a team with dedicated artists and supporting workflow-friendly features 
+> The objective of this repo is to build a scalable, flexible, data driven
+> renderer. Scalable in the sense of performance as well as suitability for
+> use in large, real-world projects. This means streaming, LODs, visibility
+> systems, and multi-threaded draw call submission need to be possible.
+> Additionally it means thinking through how an asset pipeline would work for
+> a team with dedicated artists and supporting workflow-friendly features
 > like hot reloading assets, possibly on remote devices.
 
 Vulkan is supported on windows and linux natively. Support for macOS and iOS is
