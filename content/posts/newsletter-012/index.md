@@ -70,19 +70,22 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 [@aclysma] published a [tutorial][rust-ios-sdl2-post] that describes setting up
 Rust/SDL2 on iOS. The resulting app can run in the simulator as well as on
-physical devices. [SDL2][sdl2] is a mature library providing basic rendering,
+physical devices. [SDL2][sdl2-project] is a mature library providing basic rendering,
 audio, and input support. It can also be used to set up an opengl or vulkan
 surface. This demo is using [Rust-SDL2][rust-sdl2] for bindings.
 
 [rust-ios-sdl2-post]: https://blog.aclysma.com/rust-on-ios-with-sdl2/
-[rust-ios-sdl2-video]: https://youtu.be/9tU15ihoh5U
 [@aclysma]: https://twitter.com/aclysma
-[sdl2]: https://www.libsdl.org/download-2.0.php
+[sdl2-project]: https://www.libsdl.org/download-2.0.php
 [rust-sdl2]: https://crates.io/crates/sdl2
 
 ## Library & Tooling Updates
 
 ### Vulkan Renderer (Name TBD)
+
+[![Vulkan renderer on iOS prototype](vulkan-renderer-prototype.png)][vulkan-renderer-prototype-video]
+
+^ _Click to watch [the video demo][vulkan-renderer-prototype-video] running on iOS._
 
 [@aclysma] published a [new vulkan-based renderer][renderer-prototype] that
 uses [atelier-assets] to load 3D scenes exported from blender.
@@ -95,15 +98,14 @@ uses [atelier-assets] to load 3D scenes exported from blender.
 > a team with dedicated artists and supporting workflow-friendly features
 > like hot reloading assets, possibly on remote devices.
 
-Vulkan is supported on windows and linux natively. Support for macOS and iOS is
-via the well-established [MoltenVK][moltenvk] project.
-
 This video demonstrates the renderer running on iOS and receiving asset updates
-via wifi. The scene is "sponza" exported from blender.
+via wifi. The scene is "sponza" exported from blender. Vulkan is supported on
+windows and linux natively. Support for macOS and iOS is via the
+well-established [MoltenVK][moltenvk] project.
 
-[![Vulkan renderer on iOS prototype](vulkan-renderer-prototype.png)][vulkan-renderer-prototype-video]
-
-^ _Click to watch [the video demo][vulkan-renderer-prototype-video] running on iOS._
+The demo was ported from PC to iOS over a single weekend and out of
+approximately 300 crate dependencies (including complex, OS-specific ones like
+tokio), all but a few worked out-of-the-box!
 
 [@aclysma]: https://twitter.com/aclysma
 [renderer-prototype]: https://github.com/aclysma/renderer_prototype
