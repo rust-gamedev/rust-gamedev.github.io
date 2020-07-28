@@ -64,9 +64,8 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [Sandbox]
 
-[Sandbox icon](https://raw.githubusercontent.com/JMS55/sandbox/master/flatpak/com.github.jms55.Sandbox.svg)
-[Sandbox screenshot](https://raw.githubusercontent.com/JMS55/sandbox/master/flatpak/screenshot.png)
-[Sandbox WIP UI screenshot](https://cdn.discordapp.com/attachments/335502453371961344/737012222210998374/unknown.png)
+[Sandbox icon](sandbox_icon.svg)
+[Sandbox screenshot](sandbox_screenshot.png)
 
 [Sandbox] is a falling sand game by JMS55 that provides a variety of fun
 particle types to place, and then you get to watch the resulting interactions!
@@ -89,13 +88,13 @@ covers the work they did in June and July:
     - Moving from recording the raw texture generated for pixels
     to the post-processed texture from wgpu
     involved a major overhaul, and it proved too glitchy and slow.
-    Hopefully it will be revived later.
+    Hopefully it will be revived later, in the form of recording user inputs.
 - Many structural improvements, such as less glitchy particle
     placement with Bresenham's line algorithm,
     better error handling, and ensuring particles
     are only ever stored on the stack
 - Performance improvements, including generating noise in a separate thread
-- And currently work in progress: An ImGui based UI
+- Currently WIP: UI using wgpu_gylph and custom rounded rectangle rendering
 
 Got any ideas? Leave an [issue on github][Sandbox], or add it yourself!
 
