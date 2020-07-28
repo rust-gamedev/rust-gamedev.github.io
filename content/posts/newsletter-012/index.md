@@ -66,6 +66,54 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
+### [Langcraft]
+
+The Minecraft LLVM target you've never wanted.
+
+This project started as a dare to the `#lang-dev` channel of the Rust
+Community Discord: How good programming language nerds could they really
+be, they can't even run Rust in Minecraft yet!  So, naturally,
+someone took up the challenge.  The goal was to compile Rust code to run
+as [Minecraft data packs](https://minecraft.gamepedia.com/Data_Pack),
+but since Rust uses the LLVM code generation framework it turned out to
+be easiest to add another compiler target to LLVM itself.  This means
+that, theoretically, any LLVM-based compiler can now output a Minecraft
+map that executes its code, such as `clang`, `emscripten` or others!
+However, so far this has only actually been made to work for Rust.
+
+How does this work?  Minecraft data packs are essentially a
+deliberately-limited in-game scripting language that can do some basic
+math, as well as manipulate the game world such as moving objects
+around, creating new blocks, and other such things.  These get put
+together into custom game rules for Minecraft world that uses the world
+as memory and executes your program.  To quote the author from a Reddit
+thread:
+
+> Well, scoreboard objectives support all the basic arithmetic
+> operations: Add/sub/div/mul/mod. Bitshifts can be made out of those by
+> looping over the bits. Pointers are used by moving an armor stand
+> around inside a huge array of jukeboxes with NBT for memory. And
+> execute has really really nice conditional branching. So you can
+> actually replicate pretty much every feature of an arch you'd ever
+> need!
+
+So, maybe not quite as visually impressive as a gigantic redstone
+computer circuit, but much faster.  And you still do get to watch the
+"pointer" armor stand teleport around memory.
+
+Not content with that, of course, the project also includes a (very
+simple) interpreter for Rust code that can output text to the in-game
+console.  This means that if you have enough time and a small
+and simple enough Rust program, you can run it from inside Minecraft and
+it will function.  Slowly.
+
+This is all, naturally, entirely useless.  The project is also still
+heavily work-in-progress and does not pretend to be stable.  On the
+other hand, it does work for simple programs, you can see a video of the
+Rust interpreter running Fizzbuzz
+[here](https://www.youtube.com/watch?v=Cx0w5Wn9pPU).  The next goal is
+apparently a CHIP-8 interpreter.
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
