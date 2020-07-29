@@ -68,51 +68,30 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [Langcraft]
 
-The Minecraft LLVM target you've never wanted.
+Langcraft is the Minecraft LLVM target you've never wanted.
 
-This project started as a dare to the `#lang-dev` channel of the Rust
-Community Discord: How good programming language nerds could they really
-be, they can't even run Rust in Minecraft yet!  So, naturally,
-someone took up the challenge.  The goal was to compile Rust code to run
-as [Minecraft data packs](https://minecraft.gamepedia.com/Data_Pack),
-but since Rust uses the LLVM code generation framework it turned out to
-be easiest to add another compiler target to LLVM itself.  This means
-that, theoretically, any LLVM-based compiler can now output a Minecraft
-map that executes its code, such as `clang`, `emscripten` or others!
-However, so far this has only actually been made to work for Rust.
+Langcraft started as a dare to the `#lang-dev` channel of the Rust
+Community Discord to be able to parse Rust code in Minecraft.
+Naturally, it grew into a full code generator that can translate
+most LLVM IR to
+[Minecraft data packs](https://minecraft.gamepedia.com/Data_Pack),
+the game's deliberately-limited in-game scripting language.  Langcraft
+is entirely language independent, so any language with an LLVM-based
+compiler can (with the right API bindings) run in Minecraft. Currently
+bindings to both C and Rust exist.  While not as visually impressive as
+a redstone computer, Langcraft does stretch the bounds of the game quite
+a bit, using jukeboxes for memory, armor stands to represent pointers,
+and rearranging compiled code to make it run in the bounds of the data
+packs' fixed instruction limit.
 
-How does this work?  Minecraft data packs are essentially a
-deliberately-limited in-game scripting language that can do some basic
-math, as well as manipulate the game world such as moving objects
-around, creating new blocks, and other such things.  These get put
-together into custom game rules for Minecraft world that uses the world
-as memory and executes your program.  To quote the author from a Reddit
-thread:
-
-> Well, scoreboard objectives support all the basic arithmetic
-> operations: Add/sub/div/mul/mod. Bitshifts can be made out of those by
-> looping over the bits. Pointers are used by moving an armor stand
-> around inside a huge array of jukeboxes with NBT for memory. And
-> execute has really really nice conditional branching. So you can
-> actually replicate pretty much every feature of an arch you'd ever
-> need!
-
-So, maybe not quite as visually impressive as a gigantic redstone
-computer circuit, but much faster.  And you still do get to watch the
-"pointer" armor stand teleport around memory.
-
-Not content with that, of course, the project also includes a (very
-simple) interpreter for Rust code that can output text to the in-game
-console.  This means that if you have enough time and a small
-and simple enough Rust program, you can run it from inside Minecraft and
-it will function.  Slowly.
-
-This is all, naturally, entirely useless.  The project is also still
-heavily work-in-progress and does not pretend to be stable.  On the
-other hand, it does work for simple programs, you can see a video of the
+This is all, naturally, entirely useless. The project is also still
+heavily work-in-progress and does not pretend to be stable, but it is
+usable. A handwritten interpreter for a Rust-like language has already
+been demonstrated running, and even more complex projects like [CHIP-8
+emulators](https://github.com/Dhole/chip8-rs.git) function (albeit at
+extremely slow speed).  You can see a video of
 Rust interpreter running Fizzbuzz
-[here](https://www.youtube.com/watch?v=Cx0w5Wn9pPU).  The next goal is
-apparently a CHIP-8 interpreter.
+[here](https://www.youtube.com/watch?v=Cx0w5Wn9pPU).
 
 ## Popular Workgroup Issues in Github
 
