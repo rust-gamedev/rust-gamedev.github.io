@@ -62,6 +62,39 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### pGLOWrpg
+
+![Improved river pathfinding](pglowrpg_12.gif)
+
+The [@pGLOWrpg] (Procedurally Generated Living Open World RPG) is a long-term 
+project in development by [@Roal_Yr], which aims to be a text-based game with
+maximum portability and accessibility and focus on interactions and emergent 
+narrative.
+
+For the past month(s) the main focus of the development was on the river
+generation system in the worldgen. Main features of the river generator are:
+
+- High robustness with most edge cases covered;
+- Single-pass with subsequent iterations generation, with numerous options to 
+  tweak the process for either precision of the pattern or speed of generation;
+- Rivers are sorted upon intersections, their widths are adjusted, waterfalls
+  are formed when necessary;
+- Inflow and outflow directions are recorded for each cell, which allows to
+  follow the river upstream or downstream;
+- Simple yet effective erosion model implemented, which ensures no upwards flows
+  are allowed;
+- Each stream has its unique ID, which will later be linked to the stream data;
+- Streams have 12 orders of magnitude from smallest brooks to major rivers;
+- All the options are available to user under "General", "Advanced" and 
+  "Very advanced" sections for any level of fine-tuning;
+
+Further development will involve re-factoring of the code and making it ready
+to be published prior to implementing new features. For small dev reports follow
+[@pGLOWrpg] on Twitter.
+
+[@Roal_Yr]: https://twitter.com/Roal_Yr
+[@pGLOWrpg]: https://twitter.com/pglowrpg
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
