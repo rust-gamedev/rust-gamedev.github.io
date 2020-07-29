@@ -94,7 +94,7 @@ covers the work they did in June and July:
   better error handling, and ensuring particles
   are only ever stored on the stack
 - Performance improvements, including generating noise in a separate thread
-- Currently WIP: UI using wgpu_gylph and custom rounded rectangle rendering
+- Currently WIP: UI using imgui
 
 Got any ideas? Leave an [issue on github][Sandbox], or add it yourself!
 
