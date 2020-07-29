@@ -93,6 +93,8 @@ extremely slow speed).  You can see a video of
 Rust interpreter running Fizzbuzz
 [here](https://www.youtube.com/watch?v=Cx0w5Wn9pPU).
 
+[Langcraft]: https://github.com/SuperTails/langcraft
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
