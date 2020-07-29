@@ -64,7 +64,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### pGLOWrpg
 
-![Improved river pathfinding](pglowrpg_12.gif)
+![Improved river pathfinding, paths respect topography](pglowrpg_12.gif)
 
 The [@pGLOWrpg] (Procedurally Generated Living Open World RPG) is a long-term 
 project in development by [@Roal_Yr], which aims to be a text-based game with
