@@ -74,16 +74,11 @@ If needed, a section can be split into subsections with a "------" delimiter.
 it is built to be a simpler abstraction over Vulkan, with long-term ambitions to
 serve as a graphics test-bench.
 
-Currently, it implements a mesh render pass followed by a chromatic aberration
-post-process in less than [250 lines of Rust code][graphene_example_code].
-Current features include easy Vulkan initialization, automatic swapchain
-resizing, glTF mesh loading, and shader hot-reloading.
-
-The project is currently too nascent to be broadly useful, but in-depth
-documentation is planned as it matures. You can follow progress on
-[GitHub][graphene] or on [Twitter][apoorvaj].
+You can read a more in-depth introduction to the project [here][graphene_blog].
+You can follow progress on [GitHub][graphene] or on [Twitter][apoorvaj].
 
 [graphene]: https://github.com/ApoorvaJ/graphene
+[graphene_blog]: https://apoorvaj.io/render-graphs-1/
 [graphene_example_code]: https://github.com/ApoorvaJ/graphene/blob/a1ee574d92445f4cff195ca517af2912ebfce697/src/demos/00/main.rs
 [apoorvaj]: https://twitter.com/ApoorvaJ
 
