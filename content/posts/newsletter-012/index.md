@@ -79,10 +79,9 @@ covers the work they did in June and July:
   and tweaked or overhalled almost every other particle!
 - A fancy new glow post process effect for Acid/Fire/Electricity,
   created using wgpu-rs compute shaders
-  - As a precursor to this, they made a PR for pixels that removes the
+  - As a precursor to this, they made a PR to the pixels crate that removes the
   old RenderPass approach in favor of giving the user direct access to wgpu
-- Made a slick new icon for the game
-- Created a fancy new background
+- Made a slick new icon and background for the game
 - Added a video recording feature using gstreamer-rs and x264enc,
   and then later removed it (for now)
   - Moving from recording the raw texture generated for pixels
@@ -92,7 +91,7 @@ covers the work they did in June and July:
 - Many structural improvements, such as less glitchy particle
   placement with Bresenham's line algorithm,
   better error handling, and ensuring particles
-  are only ever stored on the stack
+  are only ever stored on the heap
 - Performance improvements, including generating noise in a separate thread
 - Currently WIP: UI using imgui
 
