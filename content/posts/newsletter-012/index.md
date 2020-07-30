@@ -62,6 +62,26 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Pushin' Boxes][pushin-homepage]
+
+[![Pushin' Boxes gameplay](pushin_boxes_gameplay.gif)][pushin-itch]
+
+^ _Click to visit [Pushin' Boxes on itch.io][pushin-itch]_
+
+[Pushin' Boxes][pushin-homepage]
+is a [Sokoban][pushin-sokoban] clone made with [ggez][pushin-ggez] by
+[septum][septum-twitter]. It features 16 levels of puzzling box-pushin' action
+where the player controls a little robot (named プシン).
+
+[Check out the source code on GitLab][pushin-repository].
+
+[pushin-homepage]: https://septum.io/games/pushin-boxes
+[pushin-itch]: https://septum.itch.io/pushin-boxes
+[pushin-sokoban]: https://en.wikipedia.org/wiki/Sokoban
+[pushin-ggez]: https://github.com/ggez/ggez
+[pushin-repository]: https://gitlab.com/septum___/pushin_boxes
+[septum-twitter]: https://twitter.com/septum___
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
