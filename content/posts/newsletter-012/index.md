@@ -83,7 +83,7 @@ surface. This demo is using [Rust-SDL2][rust-sdl2] for bindings.
 
 ### Vulkan Renderer (Name TBD)
 
-[![Vulkan renderer on iOS prototype](vulkan-renderer-prototype.png)][vulkan-renderer-prototype-video]
+[![Vulkan renderer on iOS prototype](vulkan-renderer-prototype.jpeg)][vulkan-renderer-prototype-video]
 
 ^ _Click to watch [the video demo][vulkan-renderer-prototype-video] running on iOS._
 
