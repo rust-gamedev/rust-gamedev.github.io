@@ -62,6 +62,26 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Voxel game prototype][ridley-latest-tweet]
+
+[![Voxel game town](voxel_game_town.jpg)][ridley-town-tweet]
+
+^ _A town with buildings, roads and flower crops_
+
+[Ridley Winters][ridley-twitter] has been working on a voxel simulation game
+and posting its updates on twitter since [July 11][ridley-first-tweet]. Current game
+features include:
+
+- Different types of characters with occupations
+- Dynamic terrain updates
+- Pathfinding
+- Infinite world/terrain
+
+[ridley-twitter]: https://twitter.com/RidleyWinters
+[ridley-latest-tweet]: https://twitter.com/RidleyWinters/status/1288664970754891778
+[ridley-town-tweet]: https://twitter.com/RidleyWinters/status/1288497615781236736
+[ridley-first-tweet]: https://twitter.com/RidleyWinters/status/1282038439211184128
+
 ### [Pushin' Boxes][pushin-homepage]
 
 [![Pushin' Boxes gameplay](pushin_boxes_gameplay.gif)][pushin-itch]
