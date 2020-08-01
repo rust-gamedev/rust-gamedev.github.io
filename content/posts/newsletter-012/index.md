@@ -62,6 +62,24 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Tennis Academy Dash][tennis-academy-dash]
+
+![gameplay](tennis_academy.gif)
+
+[@oliviff] released [Tennis Academy Dash][tennis-academy-dash]
+[v0.2][tennis-academy-update]:
+
+This release features:
+
+- a layering/scene management system
+- transitioning between UI scenes and game scenes
+- improving the level loading to work with string config files
+- adding a 5th level
+
+[@oliviff]: https://twitter.com/oliviff
+[tennis-academy-dash]: https://iolivia.itch.io/tennis-academy-dash
+[tennis-academy-update]: https://twitter.com/oliviff/status/1285298082033348609
+
 ## Learning Material Updates
 
 ### [Rust on iOS with SDL2][rust-ios-sdl2-post]
