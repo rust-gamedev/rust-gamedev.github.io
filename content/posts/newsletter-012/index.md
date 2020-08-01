@@ -82,7 +82,6 @@ creative challenges encountered making the game:
 
 Wonder can be [played on itch.io](Wonder).
 
-
 The source is [available on GitHub.](Wonder-source)
 
 [Wonder]: https://kettlecorn.itch.io/wonder
