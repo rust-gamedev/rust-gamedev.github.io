@@ -79,6 +79,36 @@ surface. This demo is using [Rust-SDL2][rust-sdl2] for bindings.
 [sdl2-project]: https://www.libsdl.org/download-2.0.php
 [rust-sdl2]: https://crates.io/crates/sdl2
 
+### [Crate Before Attack][cba-site]
+
+[![Golf Club in Crate Before Attack](crate-before-attack.gif)][cba-site]
+
+^ _A new weapon: the Golf Club_
+
+[Crate Before Attack][cba-site] by [koalefant (@CrateAttack)][@CrateAttack]
+is a skill-based grappling hook multiplayer game where frogs combat their friends
+while navigating the landscape with their sticky tongues.
+
+A summary of July changes:
+
+- Gameplay: added a new melee weapon: [the Golf Club][cba-youtube-golf-club].
+- Maps: added new map [Ruins][cba-youtube-observation] by [Kesha Astafyev][cba-spoon-tar]
+- Animation: added eye tracking, frogs will track the closest danger with their eyes such as a projectile or a pet.
+- Lobby: it is now possible to observe a match after it was started, added chat, user list with country flags, match details, and map previews.
+- Localization: the game comes in three languages now: English, Spanish, Russian.
+- Numerous bugfixes and tweaks.
+
+Here is [a Playable Browser build][cba-play]. More details are on [the YouTube channel][cba-youtube] and in [July Update DevLog-entry][cba-july-update].
+
+[cba-site]: https://cratebeforeattack.com
+[cba-july-update]: https://cratebeforeattack.com/posts/20200731-july-update/
+[cba-play]: https://cratebeforeattack.com/play
+[cba-youtube]: https://youtube.com/channel/UC_xMilPTLuuE5iLs1Ml9zow
+[cba-youtube-golf-club]: https://youtu.be/UYxZQh68T6E
+[cba-youtube-observation]: https://youtu.be/D63xy7sXStk
+[cba-spoon-tar]: https://www.behance.net/spoon_tar
+[@CrateAttack]: https://twitter.com/CrateAttack
+
 ## Library & Tooling Updates
 
 ### Vulkan Renderer (Name TBD)
