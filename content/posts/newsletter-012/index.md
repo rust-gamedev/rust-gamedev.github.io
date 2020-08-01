@@ -71,10 +71,11 @@ fan-made platform fighter with powerful tools for modding.
 
 This month, he started work on the project again after taking a break.
 Notable changes:
-[basic projectiles](https://twitter.com/thisIsRukai/status/1287377878460456963),
-[WIP grab implementation (with some humorous results)](https://www.youtube.com/watch?v=sSrBGpT-Ebs),
-[New animations + attacks](https://www.youtube.com/watch?v=AaPkRSNhoSM)
-and [custom shaders](https://twitter.com/thisIsRukai/status/1279324105125163008)
+
+- [basic projectiles](https://twitter.com/thisIsRukai/status/1287377878460456963),
+- [WIP grab implementation (with some humorous results)](https://www.youtube.com/watch?v=sSrBGpT-Ebs),
+- [New animations + attacks](https://www.youtube.com/watch?v=AaPkRSNhoSM)
+- and [custom shaders](https://twitter.com/thisIsRukai/status/1279324105125163008).
 
 [canon-collision]:https://canoncollision.com
 [@rukai]: https://twitter.com/thisIsRukai
