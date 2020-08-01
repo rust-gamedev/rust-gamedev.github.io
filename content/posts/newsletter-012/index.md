@@ -62,6 +62,45 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Sandbox]
+
+![Sandbox screenshot](sandbox_screenshot.png)
+
+[Sandbox] is a falling sand game by JMS55 that provides a variety of fun
+particle types to place, and then you get to watch the resulting interactions!
+
+As they didn't make it in time for last month's newsletter, this month's edition
+covers the work they did in June and July:
+
+- Released version 1.0 and 1.1, created a flatpak package and associated metadata,
+  and published it to [Flathub].
+- Several new particles such as Fire, Mirror, Glitch, and some hidden ones,
+  and tweaked or overhalled almost every other particle!
+- A fancy new glow post process effect for Acid/Fire/Electricity,
+  created using wgpu-rs compute shaders.
+  - As a precursor to this, they made a PR to the pixels crate that removes the
+    old RenderPass approach in favor of giving the user direct access to wgpu.
+- Made a slick new icon and background for the game.
+- Added a video recording feature using gstreamer-rs and x264enc,
+  and then later removed it (for now).
+  - Moving from recording the raw texture generated for pixels
+    to the post-processed texture from wgpu
+    involved a major overhaul, and it proved too glitchy and slow.
+    Hopefully it will be revived later, in the form of recording user inputs.
+- Many structural improvements, such as less glitchy particle
+  placement with Bresenham's line algorithm,
+  better error handling, and ensuring particles
+  are only ever stored on the heap.
+- Performance improvements, including generating noise in a separate thread.
+- Currently WIP: UI using imgui.
+
+![Sandbox icon](sandbox_icon.svg)
+
+Got any ideas? Leave an [issue on github][Sandbox], or add it yourself!
+
+[Sandbox]: https://github.com/JMS55/sandbox
+[Flathub]: https://flathub.org/apps/details/com.github.jms55.Sandbox
+
 ## Learning Material Updates
 
 ### [Rust on iOS with SDL2][rust-ios-sdl2-post]
