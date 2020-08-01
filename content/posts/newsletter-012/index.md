@@ -62,6 +62,24 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Canon Collision][canon-collision]
+
+![Basic Projectiles](canon-collision.png)
+
+[Canon Collision][canon-collision] by [@rukai] is an Undertale + Homestuck
+fan-made platform fighter with powerful tools for modding.
+
+This month, he started work on the project again after taking a break.
+Notable changes:
+
+- [basic projectiles](https://twitter.com/thisIsRukai/status/1287377878460456963),
+- [WIP grab implementation (with some humorous results)](https://www.youtube.com/watch?v=sSrBGpT-Ebs),
+- [New animations + attacks](https://www.youtube.com/watch?v=AaPkRSNhoSM)
+- and [custom shaders](https://twitter.com/thisIsRukai/status/1279324105125163008).
+
+[canon-collision]:https://canoncollision.com
+[@rukai]: https://twitter.com/thisIsRukai
+
 ### [Sandbox]
 
 ![Sandbox screenshot](sandbox_screenshot.png)
