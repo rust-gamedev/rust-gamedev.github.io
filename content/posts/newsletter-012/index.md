@@ -62,6 +62,35 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Wonder][Wonder]
+
+[![A screenshot of Wonder: lines drawn with a ball ready to roll down them](wonder-screenshot.png)][Wonder]
+
+Wonder is a casual physics puzzle game by [@kettlecorn]. The objective is to
+collect all the stars on each level by drawing lines for the ball to roll along.
+
+The game was made in 48 hours for the
+[Ludum Dare game jam](ludum-dare) that occurred in April.
+
+Wonder was made for the web with WebAssembly, browser APIs, and no game
+framework.
+
+[@kettlecorn] recently published an article going into the technical and
+creative challenges encountered making the game:
+
+[Making a Game in 48 hours with Rust and WebAssembly](48-hour-jam)
+
+Wonder can be [played on itch.io](Wonder).
+
+
+The source is [available on GitHub.](Wonder-source)
+
+[Wonder]: https://kettlecorn.itch.io/wonder
+[Wonder-source]: https://github.com/kettle11/LD46
+[@kettlecorn]: https://twitter.com/kettlecorn
+[ludum-dare]: https://ldjam.com
+[48-hour-jam]: https://ianjk.com/rust-gamejam/
+
 ## Learning Material Updates
 
 ### [Rust on iOS with SDL2][rust-ios-sdl2-post]
