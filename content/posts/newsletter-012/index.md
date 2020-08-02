@@ -62,6 +62,21 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Online strategy game][hex_strat]
+
+![Hex strategy](hex_strat_gameplay.gif)
+
+New multiplayer online strategy game by [Vlad Zhukov](https://twitter.com/VladZhukov0) 
+where you fight with other players for territory.
+
+The game is written with [miniquad](https://github.com/not-fl3/miniquad) and custom GUI library.
+
+_Discussions:
+[twitter](https://twitter.com/VladZhukov0/status/1288091150339969024)_
+[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/hzdzqg/my_new_online_strategy_game/),
+
+[hex_strat]: https://twitter.com/VladZhukov0/status/1288091150339969024
+
 ### [Canon Collision][canon-collision]
 
 ![Basic Projectiles](canon-collision.png)
