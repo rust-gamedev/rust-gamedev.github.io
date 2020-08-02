@@ -136,6 +136,30 @@ surface. This demo is using [Rust-SDL2][rust-sdl2] for bindings.
 [sdl2-project]: https://www.libsdl.org/download-2.0.php
 [rust-sdl2]: https://crates.io/crates/sdl2
 
+### [An Introduction to Data-Oriented Design in Rust][dod]
+
+![vector vs linked list perf](data_oriented_design.svg)
+
+Data-Oriented Design is an approach to program optimisation focused on
+considering the features and limitations of the target hardware, and
+carefully controlling the memory layout of data to take advantage of
+those.
+
+In [this article][dod], [jamesmcm][jamesmcm] provides benchmarks and
+code for four example scenarios:
+
+- [Array of Structs vs. Struct of Arrays][wikisoa]
+- Branching in a hot loop
+- Iteration in a vector vs. a linked list
+- Monomorphisation vs. [Dynamic Dispatch][traitobj]
+
+The full article is available [here][dod].
+
+[jamesmcm]: https://github.com/jamesmcm
+[wikisoa]: https://en.wikipedia.org/wiki/AoS_and_SoA
+[traitobj]: https://doc.rust-lang.org/book/ch17-02-trait-objects.html#trait-objects-perform-dynamic-dispatch
+[dod]: http://jamesmcm.github.io/blog/2020/07/25/intro-dod/#en
+
 ## Library & Tooling Updates
 
 ### [wgpu][wgpu-site]
