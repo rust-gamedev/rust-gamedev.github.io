@@ -66,15 +66,23 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
-### [Graphene][graphene] - Vulkan render graph
+### [Graphene][graphene] - Vulkan Render Graph
 
-![post-process example](graphene.png)
+![execution flow example](graphene.png)
 
 [Graphene][graphene] is a Vulkan render graph. Still heavily a work in progress,
 it is built to be a simpler abstraction over Vulkan, with long-term ambitions to
 serve as a graphics test-bench.
 
-You can read a more in-depth introduction to the project [here][graphene_blog].
+Currently, it implements a mesh render pass followed by a chromatic aberration
+post-process in less than [250 lines of Rust code][graphene_example_code].
+Current features include easy Vulkan initialization, automatic swapchain
+resizing, glTF mesh loading, and shader hot-reloading.
+Check out a ["Render graphs" blog post][graphene_blog]
+for a more in-depth introduction to the project.
+
+![chromatic aberration demo](graphene-demo.jpeg)
+
 You can follow progress on [GitHub][graphene] or on [Twitter][apoorvaj].
 
 [graphene]: https://github.com/ApoorvaJ/graphene
