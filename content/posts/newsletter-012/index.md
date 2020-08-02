@@ -36,32 +36,6 @@ Table of contents:
 - [Jobs](#jobs)
 - [Bonus](#bonus)
 
-## Learning Material Updates
-
-### An introduction to Data-Oriented Design in Rust
-
-![Data-Oriented Design](data_oriented_design.svg)
-
-Data-Oriented Design is an approach to program optimisation focused on
-considering the features and limitations of the target hardware, and
-carefully controlling the memory layout of data to take advantage of
-those.
-
-In [this article][dod], [jamesmcm][jamesmcm] provides benchmarks and
-code for four example scenarios:
-
-- [Array of Structs vs. Struct of Arrays][wikisoa]
-- Branching in a hot loop
-- Iteration in a vector vs. a linked list
-- Monomorphisation vs. [Dynamic Dispatch][traitobj]
-
-The full article is available [here][dod].
-
-[jamesmcm]: https://github.com/jamesmcm
-[wikisoa]: https://en.wikipedia.org/wiki/AoS_and_SoA
-[traitobj]: https://doc.rust-lang.org/book/ch17-02-trait-objects.html#trait-objects-perform-dynamic-dispatch
-[dod]: http://jamesmcm.github.io/blog/2020/07/25/intro-dod/#en
-
 <!--
 Ideal section structure is:
 
@@ -87,6 +61,32 @@ If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
 ## Game Updates
+
+## Learning Material Updates
+
+### [An Introduction to Data-Oriented Design in Rust][dod]
+
+![vector vs linked list perf](data_oriented_design.svg)
+
+Data-Oriented Design is an approach to program optimisation focused on
+considering the features and limitations of the target hardware, and
+carefully controlling the memory layout of data to take advantage of
+those.
+
+In [this article][dod], [jamesmcm][jamesmcm] provides benchmarks and
+code for four example scenarios:
+
+- [Array of Structs vs. Struct of Arrays][wikisoa]
+- Branching in a hot loop
+- Iteration in a vector vs. a linked list
+- Monomorphisation vs. [Dynamic Dispatch][traitobj]
+
+The full article is available [here][dod].
+
+[jamesmcm]: https://github.com/jamesmcm
+[wikisoa]: https://en.wikipedia.org/wiki/AoS_and_SoA
+[traitobj]: https://doc.rust-lang.org/book/ch17-02-trait-objects.html#trait-objects-perform-dynamic-dispatch
+[dod]: http://jamesmcm.github.io/blog/2020/07/25/intro-dod/#en
 
 ## Library & Tooling Updates
 
