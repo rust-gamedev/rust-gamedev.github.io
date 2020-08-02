@@ -68,17 +68,17 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [Langcraft]
 
-Langcraft is the Minecraft LLVM target you've never wanted.
+[Langcraft] is the Minecraft LLVM target you've never wanted.
 
 Langcraft started as a dare to the `#lang-dev` channel of the Rust
 Community Discord to be able to parse Rust code in Minecraft.
 Naturally, it grew into a full code generator that can translate
 most LLVM IR to
 [Minecraft data packs](https://minecraft.gamepedia.com/Data_Pack),
-the game's deliberately-limited in-game scripting language.  Langcraft
+the game's deliberately-limited in-game scripting language. Langcraft
 is entirely language independent, so any language with an LLVM-based
 compiler can (with the right API bindings) run in Minecraft. Currently
-bindings to both C and Rust exist.  While not as visually impressive as
+bindings to both C and Rust exist. While not as visually impressive as
 a redstone computer, Langcraft does stretch the bounds of the game quite
 a bit, using jukeboxes for memory, armor stands to represent pointers,
 and rearranging compiled code to make it run in the bounds of the data
@@ -89,11 +89,14 @@ heavily work-in-progress and does not pretend to be stable, but it is
 usable. A handwritten interpreter for a Rust-like language has already
 been demonstrated running, and even more complex projects like [CHIP-8
 emulators](https://github.com/Dhole/chip8-rs.git) function (albeit at
-extremely slow speed).  You can see a video of
-Rust interpreter running Fizzbuzz
-[here](https://www.youtube.com/watch?v=Cx0w5Wn9pPU).
+extremely slow speed).
+
+You can watch a [video of Rust interpreter running Fizzbuzz][langcraft-video]:
+
+[![youtube preview](longcraft-video.jpeg)][langcraft-video]
 
 [Langcraft]: https://github.com/SuperTails/langcraft
+[langcraft-video]: https://youtube.com/watch?v=Cx0w5Wn9pPU
 
 ## Popular Workgroup Issues in Github
 
