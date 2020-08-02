@@ -138,6 +138,55 @@ surface. This demo is using [Rust-SDL2][rust-sdl2] for bindings.
 
 ## Library & Tooling Updates
 
+### [wgpu][wgpu-site]
+
+![procgen dynamic "grass field"](tuitui-grass-field.jpeg)
+
+^ _[@MacTuitui]'s everyday [nannou] experiement #1274_
+
+The work is ongoing to validate all the incoming commands and guarantee API safety.
+Special thanks to [@GabrielMajeri] for helping to convert assertions
+into errors at `wgpu` level.
+The wgpu devs are also introspecting shader requirements
+and matching them against the pipelines, but this will take more effort
+before it will become universally available.
+
+[@cwfitzgerald] has been busy adding a few handy native-only extensions,
+such as descriptor indexing and push constants.
+They have also converted the project's logging to [tracing](https://crates.io/crates/tracing),
+setting up the infrastructure for CPU profiling.
+
+In the past 2 months, the API for descriptor structures in `wgpu-rs`
+have been undergoing a turbulent period.
+First, non-exhaustive semantics led to introduction of constructors.
+Then, efforts to reduce code duplication inside `wgpu` project has led to the
+[bovine invasion](https://github.com/gfx-rs/wgpu-rs/pull/460) on wgpu-rs API side.
+The devs are figuring out the plan to address that with a builder pattern now,
+which will address both the `Cow`s and non-exhaustives,
+hopefully putting the end to the turbulence.
+
+In the meantime, `wgpu-rs` ecosystem is flourishing with applications and libraries.
+The [showcase gallery](https://wgpu.rs/#showcase) was updated with a few shiny images.
+
+------
+
+Finally, [@kunalmohan] has been busy
+[implementing WebGPU in Servo][webgpu-in-servo], based on `wgpu`.
+Thanks to this work, Servo is currently ahead of Gecko
+in terms of API being up-to-date and covered 🎉.
+It's already capable of rendering most of the examples,
+and the devs are looking forward to the day when the same Rust code
+(rendering with `wgpu-rs`) will be deployable to the Web,
+and viewable from Firefox, Servo, Chrome, and other browsers.
+
+[@GabrielMajeri]: https://github.com/GabrielMajeri
+[@cwfitzgerald]: https://github.com/cwfitzgerald
+[@kunalmohan]: https://github.com/kunalmohan
+[webgpu-in-servo]: https://github.com/servo/servo/projects/24
+[@MacTuitui]: https://twitter.com/MacTuitui
+[nannou]: https://nannou.cc
+[wgpu-site]: https://wgpu.rs
+
 ### Vulkan Renderer (Name TBD)
 
 [![Vulkan renderer on iOS prototype](vulkan-renderer-prototype.jpeg)][vulkan-renderer-prototype-video]
