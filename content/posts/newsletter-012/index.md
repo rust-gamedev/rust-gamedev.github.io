@@ -211,6 +211,30 @@ and viewable from Firefox, Servo, Chrome, and other browsers.
 [nannou]: https://nannou.cc
 [wgpu-site]: https://wgpu.rs
 
+### [Graphene][graphene] - Vulkan Render Graph
+
+![execution flow example](graphene.png)
+
+[Graphene][graphene] is a Vulkan render graph. Still heavily a work in progress,
+it is built to be a simpler abstraction over Vulkan, with long-term ambitions to
+serve as a graphics test-bench.
+
+Currently, it implements a mesh render pass followed by a chromatic aberration
+post-process in less than [250 lines of Rust code][graphene_example_code].
+Current features include easy Vulkan initialization, automatic swapchain
+resizing, glTF mesh loading, and shader hot-reloading.
+Check out a ["Render graphs" blog post][graphene_blog]
+for a more in-depth introduction to the project.
+
+![chromatic aberration demo](graphene-demo.jpeg)
+
+You can follow progress on [GitHub][graphene] or on [Twitter][apoorvaj].
+
+[graphene]: https://github.com/ApoorvaJ/graphene
+[graphene_blog]: https://apoorvaj.io/render-graphs-1/
+[graphene_example_code]: https://github.com/ApoorvaJ/graphene/blob/a1ee574d92445f4cff195ca517af2912ebfce697/src/demos/00/main.rs
+[apoorvaj]: https://twitter.com/ApoorvaJ
+
 ### Vulkan Renderer (Name TBD)
 
 [![Vulkan renderer on iOS prototype](vulkan-renderer-prototype.jpeg)][vulkan-renderer-prototype-video]
