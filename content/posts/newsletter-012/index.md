@@ -268,6 +268,56 @@ particles.
 [on-fps-game-2]: http://atilkockar.com/on-fps-game-progress-2/
 [@pingFromHeaven]: https://twitter.com/pingFromHeaven
 
+### [Veloren][veloren]
+
+![Sunrise](veloren-sunrise.gif)
+
+^ _Sunrise_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In July, Veloren reached its 1000th merge! Lots of work has been done towards
+the 0.7 release. The release date has been pushed from the beginning of August
+to mid-August. A loot table system was added to item drops. Lots of work has
+been done on animations and quadrupeds. Networking has switched to a new
+system. Significant improvements have been made to pathfinding system to improve
+fast quadruped movement. Particle systems are being implemented and optimized. A
+crafting GUI has been added. Translations have stabalized significantly, and
+there is a framework for translators to know what needs to be done.
+
+![Fire particles](veloren-fire.gif)
+
+^ _Progress on the particle system_
+
+You can read more about some specific topics from July:
+
+- [Networking Milestone](https://veloren.net/devblog-75#networking-milestone-by-xmac94x)
+- [The Case of the Disappearing Entities](https://veloren.net/devblog-75#the-case-of-the-disappearing-entities-by-imbris)
+- [Pathfinding](https://veloren.net/devblog-75#pathfinding-with-zesterer)
+- [GUID Insights](https://veloren.net/devblog-75#guid-insights-by-sharp)
+- [Particle System](https://veloren.net/devblog-76#particle-system-by-lobster)
+- [Translation Help](https://veloren.net/devblog-76#we-need-your-help-for-translations-this-is-how-it-s-done-by-xmac94x)
+- [Particle Improvements](https://veloren.net/devblog-77#particle-improvements-by-lobster)
+- [CPU Workloads](https://veloren.net/devblog-77#cpu-workloads-by-angelonfira)
+- [Refactoring WORLD_SIZE](https://veloren.net/devblog-78#refactoring-world-size-by-sharp)
+
+July's full weekly devlogs: "This Week In Veloren...":
+[#75](https://veloren.net/devblog-75),
+[#76](https://veloren.net/devblog-76),
+[#77](https://veloren.net/devblog-77),
+[#78](https://veloren.net/devblog-78).
+
+In August, 0.7 will be released. Work will continue on castle and cave
+geneartion. The inaugural episode of the Rust Game Dev podcast will be released,
+which features an interview by Veloren developers.
+
+![Quadrupeds](veloren-quadrupeds.png)
+
+^ _Quadruped overhaul_
+
+[veloren]: https://veloren.net
+
 ## Learning Material Updates
 
 ### [Rust on iOS with SDL2][rust-ios-sdl2-post]
