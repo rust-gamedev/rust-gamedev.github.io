@@ -195,6 +195,34 @@ The full article is available [here][dod].
 
 ## Library & Tooling Updates
 
+### [This Month in Mun][mun-july]
+
+[![Mun logo](mun-logo.png)][Mun]
+
+[Mun] is a scripting language for gamedev focused on quick iteration times
+that is written in Rust.
+
+[Rustacean Station][rustacean] released [a podcast about Mun][rustacean-mun]
+in which the Mun Core Team sat down with host Jeremy
+to talk about why they chose Rust to develop Mun. If you are interested in
+having an inside look into Mun's origins and evolution, we recommend you check
+it out - or any of Rustacean Station's other podcasts for that matter!
+
+Their additional [July updates][mun-july] include:
+
+- initial support for the Language Server Protocol;
+- a community entry for the [Make It or Break It content] of Spaceship
+  recreated with Mun & Rust;
+- CLI support for creating Mun projects;
+- performance benchmarks and improvements;
+- bugfixes and improved documentation.
+
+[Mun]: https://mun-lang.org
+[mun-july]: https://mun-lang.org/blog/2020/07/30/this-month-july
+[rustacean]: https://rustacean-station.org
+[rustacean-mun]: https://rustacean-station.org/episode/020-mun
+[Make It or Break It content]: https://github.com/mun-lang/mun/issues/220
+
 ### [wgpu][wgpu-site]
 
 ![procgen dynamic "grass field"](tuitui-grass-field.jpeg)
