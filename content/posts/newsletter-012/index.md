@@ -62,6 +62,42 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Crate Before Attack][cba-site]
+
+[![Golf Club in Crate Before Attack](crate-before-attack.gif)][cba-site]
+
+^ _A new weapon: the Golf Club_
+
+[Crate Before Attack][cba-site] by [koalefant (@CrateAttack)][@CrateAttack]
+is a skill-based grappling hook multiplayer game where frogs combat their friends
+while navigating the landscape with their sticky tongues.
+
+A summary of July changes:
+
+- Gameplay: added a new melee weapon:
+  [the Golf Club][cba-youtube-golf-club].
+- Maps: added new map [Ruins][cba-youtube-observation]
+  by [Kesha Astafyev][cba-spoon-tar]
+- Animation: added eye tracking, frogs will track the closest danger
+  with their eyes such as a projectile or a pet.
+- Lobby: it is now possible to observe a match after it was started,
+  added chat, user list with country flags, match details, and map previews.
+- Localization: the game comes in three languages now: English, Spanish, Russian.
+- Numerous bugfixes and tweaks.
+
+Here is [a Playable Browser build][cba-play].
+More details are on [the YouTube channel][cba-youtube]
+and in [July Update DevLog-entry][cba-july-update].
+
+[cba-site]: https://cratebeforeattack.com
+[cba-july-update]: https://cratebeforeattack.com/posts/20200731-july-update/
+[cba-play]: https://cratebeforeattack.com/play
+[cba-youtube]: https://youtube.com/channel/UC_xMilPTLuuE5iLs1Ml9zow
+[cba-youtube-golf-club]: https://youtu.be/UYxZQh68T6E
+[cba-youtube-observation]: https://youtu.be/D63xy7sXStk
+[cba-spoon-tar]: https://www.behance.net/spoon_tar
+[@CrateAttack]: https://twitter.com/CrateAttack
+
 ### [Wonder]
 
 [![Lines drawn with a ball ready to roll down them](wonder-screenshot.png)][Wonder]
