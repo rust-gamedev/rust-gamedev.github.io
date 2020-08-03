@@ -62,6 +62,83 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Crate Before Attack][cba-site]
+
+[![Golf Club in Crate Before Attack](crate-before-attack.gif)][cba-site]
+
+^ _A new weapon: the Golf Club_
+
+[Crate Before Attack][cba-site] by [koalefant (@CrateAttack)][@CrateAttack]
+is a skill-based grappling hook multiplayer game where frogs combat their friends
+while navigating the landscape with their sticky tongues.
+
+A summary of July changes:
+
+- Gameplay: added a new melee weapon:
+  [the Golf Club][cba-youtube-golf-club].
+- Maps: added new map [Ruins][cba-youtube-observation]
+  by [Kesha Astafyev][cba-spoon-tar]
+- Animation: added eye tracking, frogs will track the closest danger
+  with their eyes such as a projectile or a pet.
+- Lobby: it is now possible to observe a match after it was started,
+  added chat, user list with country flags, match details, and map previews.
+- Localization: the game comes in three languages now: English, Spanish, Russian.
+- Numerous bugfixes and tweaks.
+
+Here is [a Playable Browser build][cba-play].
+More details are on [the YouTube channel][cba-youtube]
+and in [July Update DevLog-entry][cba-july-update].
+
+[cba-site]: https://cratebeforeattack.com
+[cba-july-update]: https://cratebeforeattack.com/posts/20200731-july-update/
+[cba-play]: https://cratebeforeattack.com/play
+[cba-youtube]: https://youtube.com/channel/UC_xMilPTLuuE5iLs1Ml9zow
+[cba-youtube-golf-club]: https://youtu.be/UYxZQh68T6E
+[cba-youtube-observation]: https://youtu.be/D63xy7sXStk
+[cba-spoon-tar]: https://www.behance.net/spoon_tar
+[@CrateAttack]: https://twitter.com/CrateAttack
+
+### [Wonder]
+
+[![Lines drawn with a ball ready to roll down them](wonder-screenshot.png)][Wonder]
+
+[Wonder] ([source code][Wonder-source]) is a casual physics puzzle game by [@kettlecorn]
+made for the web with WebAssembly, browser APIs, and no game framework.
+The objective is to collect all the stars on each level
+by drawing lines for the ball to roll along.
+
+The game was made in 48 hours for the
+[Ludum Dare game jam][ludum-dare] that occurred in April.
+@kettlecorn recently published an article going into the technical and
+creative challenges encountered making the game:
+["Making a Game in 48 hours with Rust and WebAssembly"][48-hour-jam].
+
+Wonder can be [played in the browser on itch.io][Wonder].
+
+[Wonder]: https://kettlecorn.itch.io/wonder
+[Wonder-source]: https://github.com/kettle11/LD46
+[@kettlecorn]: https://twitter.com/kettlecorn
+[ludum-dare]: https://ldjam.com
+[48-hour-jam]: https://ianjk.com/rust-gamejam/
+
+### [Tennis Academy Dash][tennis-academy-dash]
+
+![gameplay](tennis_academy.gif)
+
+[@oliviff] released [Tennis Academy Dash][tennis-academy-dash]
+[v0.2][tennis-academy-update]:
+
+This release features:
+
+- a layering/scene management system
+- transitioning between UI scenes and game scenes
+- improving the level loading to work with string config files
+- adding a 5th level
+
+[@oliviff]: https://twitter.com/oliviff
+[tennis-academy-dash]: https://iolivia.itch.io/tennis-academy-dash
+[tennis-academy-update]: https://twitter.com/oliviff/status/1285298082033348609
+
 ### [Canon Collision][canon-collision]
 
 ![Basic Projectiles](canon-collision.png)
@@ -152,6 +229,26 @@ Got any ideas? Leave an [issue on github][Sandbox], or add it yourself!
 [Sandbox]: https://github.com/JMS55/sandbox
 [Flathub]: https://flathub.org/apps/details/com.github.jms55.Sandbox
 
+### [Pushin' Boxes][pushin-homepage]
+
+[![Pushin' Boxes gameplay](pushin_boxes_gameplay.gif)][pushin-itch]
+
+[Pushin' Boxes][pushin-homepage] ([itch][pushin-itch])
+is a [Sokoban][pushin-sokoban] clone made with [ggez][pushin-ggez] by
+[@septum][septum-twitter]. It features 16 levels of puzzling box-pushin' action
+where the player controls a little robot (named プシン).
+Check out a [blog post][pushin-post] about the game's release.
+
+[The source code is available on GitLab][pushin-repository].
+
+[pushin-homepage]: https://septum.io/games/pushin-boxes
+[pushin-itch]: https://septum.itch.io/pushin-boxes
+[pushin-sokoban]: https://en.wikipedia.org/wiki/Sokoban
+[pushin-post]: https://septum.io/blog/my-first-game
+[pushin-ggez]: https://github.com/ggez/ggez
+[pushin-repository]: https://gitlab.com/septum___/pushin_boxes
+[septum-twitter]: https://twitter.com/septum___
+
 ### [On FPS Game Progress \#2][on-fps-game-2]
 
 [![fps-game-screenshot](fps-game-2.jpeg)][on-fps-game-2-youtube]
@@ -187,6 +284,32 @@ surface. This demo is using [Rust-SDL2][rust-sdl2] for bindings.
 [@aclysma]: https://twitter.com/aclysma
 [sdl2-project]: https://www.libsdl.org/download-2.0.php
 [rust-sdl2]: https://crates.io/crates/sdl2
+
+### [Rust Sokoban Tutorial][sokoban_book]
+
+![sokoban update](rust_sokoban.png)
+
+The Rust Sokoban tutorial is an online book aimed at Rust gamedev beginners
+which walks through making a simple Sokoban game using ggez and ECS (with specs).
+It tries to teach the basics of architecting in ECS and basic Rust concepts
+through a hands-on approach.
+
+This month:
+
+- the book was officially released on July 10th;
+- the project received 3 external contributions;
+- a few text edits were done, including fixing an issue with code
+  snippets not appearing correctly;
+- work on translations has started (🇨🇳 translation coming soon 🤞).
+
+You can follow
+the release discussion [on Twitter][sokoban_release],
+provide feedback [on github][sokoban_github] and
+read the book at [sokoban.iolivia.me][sokoban_book].
+
+[sokoban_release]: https://twitter.com/oliviff/status/1281641563257360384
+[sokoban_book]: https://sokoban.iolivia.me
+[sokoban_github]: https://github.com/iolivia/rust-sokoban
 
 ### [An Introduction to Data-Oriented Design in Rust][dod]
 
@@ -346,6 +469,28 @@ tokio), all but a few worked out-of-the-box!
 [atelier-assets]: https://github.com/amethyst/atelier-assets
 [vulkan-renderer-prototype-video]: https://www.youtube.com/watch?v=Ks_HQbejHE4
 [moltenvk]: https://github.com/KhronosGroup/MoltenVK
+
+### [Ludusavi]
+
+![Demo of Ludusavi GUI](ludusavi.gif)
+
+[Ludusavi] is a tool written in Rust by [@mtkennerly] for backing up PC game
+save data. It has backup info for more than 7,000 games, is cross-platform for
+Windows, Linux, and Mac, and has a GUI as well as a command line interface.
+The GUI was created using the [Iced] crate.
+
+The [backup info] is sourced from [PCGamingWiki] so that everyone can help to
+expand the data, and it's stored in a documented format so that other backup
+tools can share the same data set. A [plugin] for [Playnite] was also just
+released.
+
+[Ludusavi]: https://github.com/mtkennerly/ludusavi
+[@mtkennerly]: https://twitter.com/mtkennerly
+[Iced]: https://crates.io/crates/iced
+[backup info]: https://github.com/mtkennerly/ludusavi-manifest
+[PCGamingWiki]: https://www.pcgamingwiki.com/wiki/Home
+[plugin]: https://github.com/mtkennerly/ludusavi-playnite
+[Playnite]: https://playnite.link
 
 ### [Langcraft]
 
