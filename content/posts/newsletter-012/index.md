@@ -367,14 +367,15 @@ Their additional [July updates][mun-july] include:
 
 ### [miniquad]
 
+![miniquad ios](miniquad_ios.jpg)
+
 [miniquad] is a safe and cross-platform rendering library
 focused on portability and low-end platforms support.
 
-This month opengl backend of miniquad was successefully ported to IOS. 
-
-![miniquad ios](miniquad_ios.jpg)
-
-With this update [macroquad], [good-web-game] and all the games build directly with [miniquad] can be run on IOS, Android, WASM, Linux, MacOs and Windows! 
+This month opengl backend of miniquad was successefully ported to iOS.
+With this update [macroquad], [good-web-game] and all the games
+build directly with [miniquad] can be run on IOS, Android, WASM,
+Linux, macOS and Windows!
 
 [miniquad]: https://github.com/not-fl3/miniquad
 [macroquad]: https://github.com/not-fl3/macroquad
