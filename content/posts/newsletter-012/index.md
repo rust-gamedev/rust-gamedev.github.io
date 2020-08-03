@@ -388,6 +388,34 @@ Their additional [July updates][mun-july] include:
 [rustacean-mun]: https://rustacean-station.org/episode/020-mun
 [Make It or Break It content]: https://github.com/mun-lang/mun/issues/220
 
+### ash(-window)
+
+[`ash-window`], an interoperability library for [`ash`] and [`raw-window-handle`],
+is now part of the `ash` repository and will be updated more closely
+with new `ash` releases.
+
+[`ash-window`]: https://crates.io/crates/ash-window
+[`ash`]: https://crates.io/crates/ash
+[`raw-window-handle`]: https://crates.io/crates/raw-window-handle
+
+### grr 0.8
+
+[`grr`](https://github.com/msiglreith/grr) is a modern OpenGL 4.5+ wrapper.
+It provides a cleaned up API built around Vulkan's naming scheme.
+The latest release further pushes the crate towards
+full compatibility with the core features.
+
+Most notable changes:
+
+- Added support for a bunch of Formats
+- Extended transfer operations (Attachment <-> Host <-> Buffer <-> Image)
+- Raw context access
+- Shader & Pipeline log control
+- Device submission control
+
+Special thanks to [@masonium](https://github.com/masonium)
+for contributing a lot of these features and fixes!
+
 ### [miniquad]
 
 ![miniquad ios](miniquad_ios.jpg)
