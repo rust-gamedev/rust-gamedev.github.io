@@ -70,7 +70,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ![Demo of Ludusavi GUI](ludusavi.gif)
 
-[Ludusavi] is a tool written in Rust by [@mtkennerly] for backing PC game
+[Ludusavi] is a tool written in Rust by [@mtkennerly] for backing up PC game
 save data. It has backup info for more than 7,000 games, is cross-platform for
 Windows, Linux, and Mac, and has a GUI as well as a command line interface.
 The GUI was created using the [Iced] crate.
