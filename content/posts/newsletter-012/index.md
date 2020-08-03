@@ -162,6 +162,30 @@ This release features:
 [tennis-academy-dash]: https://iolivia.itch.io/tennis-academy-dash
 [tennis-academy-update]: https://twitter.com/oliviff/status/1285298082033348609
 
+### [🏕 Textcamp!][textcamp]
+
+![gameplay](textcamp.png)
+
+[@peat] released a simple multiplayer demo of [Textcamp][textcamp-demo], a
+text-based adventure game.
+
+The goal of Textcamp is to build a modern [MUD] platform that can be played
+by [_anyone, anywhere_][textcamp]. It's very early in development, so please
+[say hello][textcamp-twitter] if you're interested in contributing code or
+stories!
+
+This demo features:
+
+- Basic scene, mob, and item templating, with spawning and combat.
+- Multiplayer authentication and support for hundreds of players.
+
+[@peat]: https://twitter.com/peat
+[textcamp]: https://text.camp/
+[textcamp-repo]: https://github.com/textcamp/textcamp
+[textcamp-twitter]: https://twitter.com/textdotcamp
+[textcamp-demo]: http://play.text.camp:8080/
+[MUD]: https://en.wikipedia.org/wiki/MUD
+
 ### [Canon Collision][canon-collision]
 
 ![Basic Projectiles](canon-collision.png)
