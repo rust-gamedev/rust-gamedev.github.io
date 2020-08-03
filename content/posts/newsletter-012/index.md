@@ -121,6 +121,24 @@ Wonder can be [played in the browser on itch.io][Wonder].
 [ludum-dare]: https://ldjam.com
 [48-hour-jam]: https://ianjk.com/rust-gamejam/
 
+### [Tennis Academy Dash][tennis-academy-dash]
+
+![gameplay](tennis_academy.gif)
+
+[@oliviff] released [Tennis Academy Dash][tennis-academy-dash]
+[v0.2][tennis-academy-update]:
+
+This release features:
+
+- a layering/scene management system
+- transitioning between UI scenes and game scenes
+- improving the level loading to work with string config files
+- adding a 5th level
+
+[@oliviff]: https://twitter.com/oliviff
+[tennis-academy-dash]: https://iolivia.itch.io/tennis-academy-dash
+[tennis-academy-update]: https://twitter.com/oliviff/status/1285298082033348609
+
 ### [Canon Collision][canon-collision]
 
 ![Basic Projectiles](canon-collision.png)
