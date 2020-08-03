@@ -64,6 +64,21 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Learning Material Updates
 
+### [Rust on iOS with SDL2][rust-ios-sdl2-post]
+
+[![Rust on iOS with SDL2 demo](rust-ios-sdl2-screenshot.png)][rust-ios-sdl2-post]
+
+[@aclysma] published a [tutorial][rust-ios-sdl2-post] that describes setting up
+Rust/SDL2 on iOS. The resulting app can run in the simulator as well as on
+physical devices. [SDL2][sdl2-project] is a mature library providing basic rendering,
+audio, and input support. It can also be used to set up an opengl or vulkan
+surface. This demo is using [Rust-SDL2][rust-sdl2] for bindings.
+
+[rust-ios-sdl2-post]: https://blog.aclysma.com/rust-on-ios-with-sdl2/
+[@aclysma]: https://twitter.com/aclysma
+[sdl2-project]: https://www.libsdl.org/download-2.0.php
+[rust-sdl2]: https://crates.io/crates/sdl2
+
 ### [Rust Sokoban Tutorial][sokoban_book]
 
 ![sokoban update](rust_sokoban.png)
@@ -89,21 +104,6 @@ read the book at [sokoban.iolivia.me][sokoban_book].
 [sokoban_release]: https://twitter.com/oliviff/status/1281641563257360384
 [sokoban_book]: https://sokoban.iolivia.me
 [sokoban_github]: https://github.com/iolivia/rust-sokoban
-
-### [Rust on iOS with SDL2][rust-ios-sdl2-post]
-
-[![Rust on iOS with SDL2 demo](rust-ios-sdl2-screenshot.png)][rust-ios-sdl2-post]
-
-[@aclysma] published a [tutorial][rust-ios-sdl2-post] that describes setting up
-Rust/SDL2 on iOS. The resulting app can run in the simulator as well as on
-physical devices. [SDL2][sdl2-project] is a mature library providing basic rendering,
-audio, and input support. It can also be used to set up an opengl or vulkan
-surface. This demo is using [Rust-SDL2][rust-sdl2] for bindings.
-
-[rust-ios-sdl2-post]: https://blog.aclysma.com/rust-on-ios-with-sdl2/
-[@aclysma]: https://twitter.com/aclysma
-[sdl2-project]: https://www.libsdl.org/download-2.0.php
-[rust-sdl2]: https://crates.io/crates/sdl2
 
 ## Library & Tooling Updates
 
