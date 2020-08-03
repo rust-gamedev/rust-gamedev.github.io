@@ -62,22 +62,28 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
-### [Online strategy game][hex_strat]
+### Vlad Zhukov's [Online RTS Prototype][hex_strat]
 
-![Hex strategy](hex_strat_gameplay.gif)
+[![gameplay demo](hex_strat_gameplay.gif)][hex_strat]
 
-New multiplayer online strategy game by [Vlad Zhukov](https://twitter.com/VladZhukov0) 
+[Vlad Zhukov] shared a video of a WIP multiplayer online strategy game
 where you fight with other players for territory.
-Currently there are two types of resources and 5 types of buildings. To build on the tile you need to occupy it with your warriors first.
+Currently there are two types of resources and 5 types of buildings.
+To build on the tile you need to occupy it with your warriors first.
 The player who occupied all enemies' tiles win.
 
-The game is written with [miniquad](https://github.com/not-fl3/miniquad) and custom GUI library. Some parts of the game are promised to be open-sourced in future. Read more about crates used for the game [here](https://www.reddit.com/r/rust_gamedev/comments/hzdzqg/my_new_online_strategy_game/fzk4l25/)
+The game is written with [miniquad](https://github.com/not-fl3/miniquad)
+and a custom GUI library.
+Some parts of the game are promised to be open-sourced in future.
+Read more about crates used in this project [here][hex-strat-crates].
 
 _Discussions:
-[twitter](https://twitter.com/VladZhukov0/status/1288091150339969024)_
-[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/hzdzqg/my_new_online_strategy_game/),
+[twitter](https://twitter.com/VladZhukov0/status/1288091150339969024),
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/hzdzqg/my_new_online_strategy_game)_
 
 [hex_strat]: https://twitter.com/VladZhukov0/status/1288091150339969024
+[Vlad Zhukov]: https://twitter.com/VladZhukov0
+[hex-strat-crates]: https://reddit.com/r/rust_gamedev/comments/hzdzqg/my_new_online_strategy_game/fzk4l25
 
 ### [Canon Collision][canon-collision]
 
