@@ -162,15 +162,14 @@ This release features:
 [tennis-academy-dash]: https://iolivia.itch.io/tennis-academy-dash
 [tennis-academy-update]: https://twitter.com/oliviff/status/1285298082033348609
 
-
 ### [🏕 Textcamp!][textcamp]
 
 ![gameplay](textcamp.png)
 
-[@peat] released a simple multiplayer demo of [Textcamp][textcamp-demo], a 
+[@peat] released a simple multiplayer demo of [Textcamp][textcamp-demo], a
 text-based adventure game.
 
-The goal of Textcamp is to build a modern [MUD] platform that can be played 
+The goal of Textcamp is to build a modern [MUD] platform that can be played
 by [_anyone, anywhere_][textcamp]. It's very early in development, so please
 [say hello][textcamp-twitter] if you're interested in contributing code or
 stories!
