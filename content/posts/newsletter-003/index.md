@@ -131,12 +131,15 @@ it's pretty active.
 [veloren-survey]: https://veloren.net/devblog-36/#player-survey
 [veloren-video]: https://www.youtube.com/watch?v=iwP7SXdWcTg
 
-### [PF Sandbox][pf-sandbox]
+### [Canon Collision][canon-collision]
 
 ![Exported models with textureas and skeletal animations](pf-sandbox.jpg)
 
-[PF Sandbox][pf-sandbox] by [@rukai] is a platform fighter sandbox featuring:
-in game Fighter and Stage Editor, replays, and TAS tools.
+[Canon Collision][canon-collision] by [@rukai] is an Undertale + Homestuck
+fan-made platform fighter with powerful tools for modding.
+It was forked from another project of rukai's
+[PF Sandbox](https://github.com/rukai/PF_Sandbox) so he could focus on making
+a game rather then an engine.
 
 This month,
 [exporting and hot-reloading assets from blender](https://twitter.com/thisIsRukai/status/1180477120113340417),
@@ -145,7 +148,7 @@ This month,
 and [animations](https://twitter.com/thisIsRukai/status/1188261107124727808)
 were added to the project.
 
-[pf-sandbox]:https://github.com/rukai/PF_Sandbox
+[canon-collision]:https://canoncollision.com
 [@rukai]: https://twitter.com/thisIsRukai
 
 ### [Antorum][antorum]
