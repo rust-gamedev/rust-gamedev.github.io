@@ -68,8 +68,10 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 New multiplayer online strategy game by [Vlad Zhukov](https://twitter.com/VladZhukov0) 
 where you fight with other players for territory.
+Currently there are two types of resources and 5 types of buildings. To build on the tile you need to occupy it with your warriors first.
+The player who occupied all enemies' tiles win.
 
-The game is written with [miniquad](https://github.com/not-fl3/miniquad) and custom GUI library.
+The game is written with [miniquad](https://github.com/not-fl3/miniquad) and custom GUI library. Some parts of the game are promised to be open-sourced in future. Read more about crates used for the game [here](https://www.reddit.com/r/rust_gamedev/comments/hzdzqg/my_new_online_strategy_game/fzk4l25/)
 
 _Discussions:
 [twitter](https://twitter.com/VladZhukov0/status/1288091150339969024)_
