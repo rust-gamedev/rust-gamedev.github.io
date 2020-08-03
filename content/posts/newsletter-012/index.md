@@ -2,7 +2,7 @@
 title = "This Month in Rust GameDev #12 - July 2020"
 date = 2020-08-03
 transparent = true
-draft = false
+draft = true
 +++
 
 Welcome to the twelfth issue of the Rust GameDev Workgroup’s
@@ -23,8 +23,7 @@ Feel free to send PRs about your own projects!
 [Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 [pr]: https://github.com/rust-gamedev/rust-gamedev.github.io
-[coordination]:
-https://github.com/rust-gamedev/rust-gamedev.github.io/issues?q=label%3Acoordination
+[coordination]: https://github.com/rust-gamedev/rust-gamedev.github.io/issues?q=label%3Acoordination
 
 Table of contents:
 
@@ -74,8 +73,8 @@ If needed, a section can be split into subsections with a "------" delimiter.
 [Mun] is a scripting language for gamedev focused on quick iteration times
 that is written in Rust.
 
-At the end of last month, [Rustacean Station][rustacean] released [a podcast
-about Mun][rustacean-mun] in which the Mun Core Team sat down with host Jeremy
+[Rustacean Station][rustacean] released [a podcast about Mun][rustacean-mun]
+in which the Mun Core Team sat down with host Jeremy
 to talk about why they chose Rust to develop Mun. If you are interested in
 having an inside look into Mun's origins and evolution, we recommend you check
 it out - or any of Rustacean Station's other podcasts for that matter!
