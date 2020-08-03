@@ -248,6 +248,32 @@ surface. This demo is using [Rust-SDL2][rust-sdl2] for bindings.
 [sdl2-project]: https://www.libsdl.org/download-2.0.php
 [rust-sdl2]: https://crates.io/crates/sdl2
 
+### [Rust Sokoban Tutorial][sokoban_book]
+
+![sokoban update](rust_sokoban.png)
+
+The Rust Sokoban tutorial is an online book aimed at Rust gamedev beginners
+which walks through making a simple Sokoban game using ggez and ECS (with specs).
+It tries to teach the basics of architecting in ECS and basic Rust concepts
+through a hands-on approach.
+
+This month:
+
+- the book was officially released on July 10th;
+- the project received 3 external contributions;
+- a few text edits were done, including fixing an issue with code
+  snippets not appearing correctly;
+- work on translations has started (🇨🇳 translation coming soon 🤞).
+
+You can follow
+the release discussion [on Twitter][sokoban_release],
+provide feedback [on github][sokoban_github] and
+read the book at [sokoban.iolivia.me][sokoban_book].
+
+[sokoban_release]: https://twitter.com/oliviff/status/1281641563257360384
+[sokoban_book]: https://sokoban.iolivia.me
+[sokoban_github]: https://github.com/iolivia/rust-sokoban
+
 ### [An Introduction to Data-Oriented Design in Rust][dod]
 
 ![vector vs linked list perf](data_oriented_design.svg)
