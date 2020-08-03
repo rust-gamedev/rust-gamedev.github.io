@@ -152,6 +152,26 @@ Got any ideas? Leave an [issue on github][Sandbox], or add it yourself!
 [Sandbox]: https://github.com/JMS55/sandbox
 [Flathub]: https://flathub.org/apps/details/com.github.jms55.Sandbox
 
+### [Pushin' Boxes][pushin-homepage]
+
+[![Pushin' Boxes gameplay](pushin_boxes_gameplay.gif)][pushin-itch]
+
+[Pushin' Boxes][pushin-homepage] ([itch][pushin-itch])
+is a [Sokoban][pushin-sokoban] clone made with [ggez][pushin-ggez] by
+[@septum][septum-twitter]. It features 16 levels of puzzling box-pushin' action
+where the player controls a little robot (named プシン).
+Check out a [blog post][pushin-post] about the game's release.
+
+[The source code is available on GitLab][pushin-repository].
+
+[pushin-homepage]: https://septum.io/games/pushin-boxes
+[pushin-itch]: https://septum.itch.io/pushin-boxes
+[pushin-sokoban]: https://en.wikipedia.org/wiki/Sokoban
+[pushin-post]: https://septum.io/blog/my-first-game
+[pushin-ggez]: https://github.com/ggez/ggez
+[pushin-repository]: https://gitlab.com/septum___/pushin_boxes
+[septum-twitter]: https://twitter.com/septum___
+
 ## Learning Material Updates
 
 ### [Rust on iOS with SDL2][rust-ios-sdl2-post]
