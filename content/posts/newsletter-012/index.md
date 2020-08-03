@@ -152,6 +152,21 @@ Got any ideas? Leave an [issue on github][Sandbox], or add it yourself!
 [Sandbox]: https://github.com/JMS55/sandbox
 [Flathub]: https://flathub.org/apps/details/com.github.jms55.Sandbox
 
+### [On FPS Game Progress \#2][on-fps-game-2]
+
+![fps-game-screenshot](fps_game_2.png)
+
+On this update, [@pingFromHeaven] talks about the lighting implementation that 
+sets the tone for the game, how Rust is good at shortening the debugging
+times, which is especially valuable when working directly with OpenGL and why
+he doesn't describe what the game is about.`
+
+[Video of current state][on-fps-game-2-youtube]
+
+[on-fps-game-2-youtube]: https://youtu.be/NIJNgr9zeXk
+[on-fps-game-2]: http://atilkockar.com/on-fps-game-progress-2/
+[@pingFromHeaven]: https://twitter.com/pingFromHeaven
+
 ## Learning Material Updates
 
 ### [Rust on iOS with SDL2][rust-ios-sdl2-post]
