@@ -249,6 +249,25 @@ Check out a [blog post][pushin-post] about the game's release.
 [pushin-repository]: https://gitlab.com/septum___/pushin_boxes
 [septum-twitter]: https://twitter.com/septum___
 
+### [On FPS Game Progress \#2][on-fps-game-2]
+
+[![fps-game-screenshot](fps-game-2.jpeg)][on-fps-game-2-youtube]
+
+^ _Click to watch a [footage from the game's current state][on-fps-game-2-youtube]._
+
+On this update, [@pingFromHeaven] talks about the lighting implementation that
+sets the tone for the game, how Rust is good at shortening the debugging
+times, which is especially valuable when working directly with OpenGL and why
+he doesn't describe what the game is about.
+
+The next update is going to be about establishing the mood further, which
+includes a more elaborate environment with more details, basic SFX and
+particles.
+
+[on-fps-game-2-youtube]: https://youtu.be/NIJNgr9zeXk
+[on-fps-game-2]: http://atilkockar.com/on-fps-game-progress-2/
+[@pingFromHeaven]: https://twitter.com/pingFromHeaven
+
 ## Learning Material Updates
 
 ### [Rust on iOS with SDL2][rust-ios-sdl2-post]
