@@ -75,11 +75,11 @@ through a hands-on approach.
 
 This month:
 
-- the book was officially released on July 10th
-- the project received 3 external contributions
+- the book was officially released on July 10th;
+- the project received 3 external contributions;
 - a few text edits were done, including fixing an issue with code
-snippets not appearing correctly
-- work on translations has started (🇨🇳translation coming soon 🤞)
+  snippets not appearing correctly;
+- work on translations has started (🇨🇳 translation coming soon 🤞).
 
 You can follow
 the release discussion [on Twitter][sokoban_release],
