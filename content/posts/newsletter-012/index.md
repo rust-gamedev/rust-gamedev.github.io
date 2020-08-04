@@ -408,6 +408,21 @@ read the book at [sokoban.iolivia.me][sokoban_book].
 [sokoban_book]: https://sokoban.iolivia.me
 [sokoban_github]: https://github.com/iolivia/rust-sokoban
 
+### [Make Pong with Rust][tantan-video]
+
+[![youtube preview](video-pong-tutorial.jpeg)][tantan-video]
+
+^ _Click to [watch the tutorial][tantan-video]._
+
+[TanTan] released a [video tutorial][tantan-video]
+that guides you through all the step of making a pong game in Rust using a GGEZ framework.
+
+The source code [can be found here][tantan-pong-src].
+
+[TanTan]: https://twitter.com/Tantan22430802
+[tantan-video]: https://youtube.com/watch?v=TUE_HSgQiG0
+[tantan-pong-src]: https://github.com/TanTanDev/rusty_pong
+
 ### [An Introduction to Data-Oriented Design in Rust][dod]
 
 ![vector vs linked list perf](data_oriented_design.svg)
@@ -431,6 +446,21 @@ The full article is available [here][dod].
 [wikisoa]: https://en.wikipedia.org/wiki/AoS_and_SoA
 [traitobj]: https://doc.rust-lang.org/book/ch17-02-trait-objects.html#trait-objects-perform-dynamic-dispatch
 [dod]: http://jamesmcm.github.io/blog/2020/07/25/intro-dod/#en
+
+### ["Rust'N'Games" Talk][rust-n-games]
+
+[![youtube preview: a slide with Tower Rangers game](rust-n-games-youtube.jpeg)][rust-n-games]
+
+^ _Click to [watch the talk][rust-n-games]._
+
+During the recent ["Rust and Tell"][rust-n-tell] online event
+[Stephan @extrawurst Dilly][@extrawurst] gave a ["Rust'N'Games" talk][rust-n-games]
+about their experience of using Rust in games at [Gameroasters].
+
+[rust-n-games]: https://youtu.be/0Bj-5C2Zfqs?t=1404
+[rust-n-tell]: https://berline.rs/2020/07/28/rust-and-tell.html
+[@extrawurst]: https://twitter.com/extrawurst
+[Gameroasters]: https://www.gameroasters.com/
 
 ## Library & Tooling Updates
 
