@@ -236,6 +236,28 @@ This release features:
 [tennis-academy-dash]: https://iolivia.itch.io/tennis-academy-dash
 [tennis-academy-update]: https://twitter.com/oliviff/status/1285298082033348609
 
+### [protochess]
+
+[![demo](protochess.gif)][protochess]
+
+[protochess] ([source][protochess-src]) in an online multiplayer chess website
+that lets you build custom pieces/boards.
+
+> Want a piece that can move like a knight + queen? Sure.
+> Want to play on a 16x16 sized board? Impractical but you can do it!
+
+The frontend is written in Svelte with routing from Routify
+and styling with the Bulma CSS framework.
+All the chess logic is written in Rust, and compiled to WebAssembly to run singleplayer.
+The multiplayer websocket server uses Warp
+and is modeled after [this project](https://www.mattkeeter.com/projects/pont/).
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/hki9fu/protochesscom_a_chess_website_that_lets_you_play)_
+
+[protochess]: https://protochess.com/
+[protochess-src]: https://github.com/raytran/protochess
+
 ### [🏕 Textcamp!][textcamp]
 
 ![gameplay](textcamp.png)
