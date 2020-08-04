@@ -62,6 +62,30 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [ochre][4k-post] - 4K Intro
+
+[![Youtube preview: mountains & spheres](4k-into-youtube.jpeg)][4k-video]
+
+^ _Click to [watch the demo on Youtube][4k-video]._
+
+Jani Peltonen has recently released a [4K intro][4k-src]
+which is completely written in Rust and GLSL
+and published an article ["Writing a winning 4K intro in Rust"][4k-post]:
+
+> A 4K intro is a demo where the entire program (including any data)
+> has two be 4096 bytes or less so it is important
+> that the code is as space efficient as possible.
+> Rust has a bit of a reputation for creating bloated executables so I wanted
+> to find out if is possible to create very space efficient code with it.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/enbbxu/writing_a_4k_intro_in_rust),
+[hacker news](https://news.ycombinator.com/item?id=23742870)_
+
+[4k-post]: https://www.codeslow.com/2020/07/writing-winning-4k-intro-in-rust.html
+[4k-src]: https://github.com/janiorca/sphere_dance
+[4k-video]: https://youtube.com/watch?v=SIkkYRQ07tU
+
 ### [Crate Before Attack][cba-site]
 
 [![Golf Club in Crate Before Attack](crate-before-attack.gif)][cba-site]
