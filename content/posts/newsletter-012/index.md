@@ -415,7 +415,7 @@ read the book at [sokoban.iolivia.me][sokoban_book].
 ^ _Click to [watch the tutorial][tantan-video]._
 
 [TanTan] released a [video tutorial][tantan-video]
-that guides you through all the step of making a pong game in Rust using a GGEZ framework.
+that guides you through all the step of making a pong game in Rust using the GGEZ framework.
 
 The source code [can be found here][tantan-pong-src].
 
