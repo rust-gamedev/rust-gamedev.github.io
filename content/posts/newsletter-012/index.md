@@ -62,6 +62,59 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [ochre][4k-post] - 4K Intro
+
+[![Youtube preview: mountains & spheres](4k-into-youtube.jpeg)][4k-video]
+
+^ _Click to [watch the demo on Youtube][4k-video]._
+
+Jani Peltonen has recently released a [4K intro][4k-src]
+which is completely written in Rust and GLSL
+and published an article ["Writing a winning 4K intro in Rust"][4k-post]:
+
+> A 4K intro is a demo where the entire program (including any data)
+> has to be 4096 bytes or less so it is important
+> that the code is as space efficient as possible.
+> Rust has a bit of a reputation for creating bloated executables so I wanted
+> to find out if is possible to create very space efficient code with it.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/enbbxu/writing_a_4k_intro_in_rust),
+[hacker news](https://news.ycombinator.com/item?id=23742870)_
+
+[4k-post]: https://www.codeslow.com/2020/07/writing-winning-4k-intro-in-rust.html
+[4k-src]: https://github.com/janiorca/sphere_dance
+[4k-video]: https://youtube.com/watch?v=SIkkYRQ07tU
+
+### [Robo Instructus: 1 Year Later][robo-year]
+
+![game logo + OS logos](robo-os.jpg)
+
+One year ago [Alex Butler] released the "[Robo Instructus][robo-site]" puzzle game
+on [Steam][robo-steam] & [itch.io][robo-itch].
+
+This month Alex released a devlog post ["Robo Instructus: 1 Year Later"][robo-year]
+about how well the game did after the release:
+sales by platform/country/OS, player feedback & reviews, etc.
+
+> People mostly don’t publish sales figures,
+> I guess it makes more business sense to be vague.
+> But maybe these will be helpful or interesting in some way.
+
+Also, Alex continues to maintain and polish the game: [1.29 version][robo-1-29]
+brings auto-scrolling improvements, better lang parsing,
+bugfixes, and dependency updates.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust_gamedev/comments/hsf2su/robo_instructus_1_year_later)_
+
+[Alex Butler]: https://twitter.com/bigabgames
+[robo-site]: https://www.roboinstruct.us
+[robo-steam]: https://store.steampowered.com/app/1032170/Robo_Instructus
+[robo-itch]: https://bigabgames.itch.io/robo-instructus
+[robo-year]: https://blog.roboinstruct.us/2020/07/16/1-year-later.html
+[robo-1-29]: https://store.steampowered.com/newshub/app/1032170/view/4355495589078346745
+
 ### [Crate Before Attack][cba-site]
 
 [![Golf Club in Crate Before Attack](crate-before-attack.gif)][cba-site]
@@ -144,6 +197,27 @@ _Discussions:
 [Vlad Zhukov]: https://twitter.com/VladZhukov0
 [hex-strat-crates]: https://reddit.com/r/rust_gamedev/comments/hzdzqg/my_new_online_strategy_game/fzk4l25
 
+### [A/B Street][abstreet]
+
+![screenshot](abstreet.jpeg)
+
+[A/B Street][abstreet] is a traffic simulation game exploring
+how small changes to roads affect cyclists, transit users, pedestrians,
+and drivers.
+
+This month [versions v0.2.2..v0.2.5][abstreet-releases] were released.
+Some of the updates:
+
+- New random traffic scenario generator that makes people go between
+  houses and workplaces.
+- New commute pattern explorer tool.
+- New character art to give cutscenes a bit more personality.
+- Lots of pathfinding and user interface improvements.
+- Bugfixes and improved performance (especially startup time on large maps).
+
+[abstreet]: https://abstreet.org
+[abstreet-releases]: https://github.com/dabreegster/abstreet/releases
+
 ### [Tennis Academy Dash][tennis-academy-dash]
 
 ![gameplay](tennis_academy.gif)
@@ -161,6 +235,28 @@ This release features:
 [@oliviff]: https://twitter.com/oliviff
 [tennis-academy-dash]: https://iolivia.itch.io/tennis-academy-dash
 [tennis-academy-update]: https://twitter.com/oliviff/status/1285298082033348609
+
+### [protochess]
+
+[![demo](protochess.gif)][protochess]
+
+[protochess] ([source][protochess-src]) is an online multiplayer chess website
+that lets you build custom pieces/boards.
+
+> Want a piece that can move like a knight + queen? Sure.
+> Want to play on a 16x16 sized board? Impractical but you can do it!
+
+The frontend is written in Svelte with routing from Routify
+and styling with the Bulma CSS framework.
+All the chess logic is written in Rust, and compiled to WebAssembly to run singleplayer.
+The multiplayer websocket server uses Warp
+and is modeled after [this project](https://www.mattkeeter.com/projects/pont/).
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/hki9fu/protochesscom_a_chess_website_that_lets_you_play)_
+
+[protochess]: https://protochess.com/
+[protochess-src]: https://github.com/raytran/protochess
 
 ### [🏕 Textcamp!][textcamp]
 
