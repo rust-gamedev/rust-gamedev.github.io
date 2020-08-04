@@ -197,6 +197,27 @@ _Discussions:
 [Vlad Zhukov]: https://twitter.com/VladZhukov0
 [hex-strat-crates]: https://reddit.com/r/rust_gamedev/comments/hzdzqg/my_new_online_strategy_game/fzk4l25
 
+### [A/B Street][abstreet]
+
+![screenshot](abstreet.jpeg)
+
+[A/B Street][abstreet] is a traffic simulation game exploring
+how small changes to roads affect cyclists, transit users, pedestrians,
+and drivers.
+
+This month [versions v0.2.2..v0.2.5][abstreet-releases] were released.
+Some of the updates:
+
+- New random traffic scenario generator that makes people go between
+  houses and workplaces.
+- New commute pattern explorer tool.
+- New character art to give cutscenes a bit more personaliy.
+- Lots of pathfinding and user interface improvements.
+- Bugfixes and improved performance (especially startup time on large maps).
+
+[abstreet]: https://abstreet.org
+[abstreet-releases]: https://github.com/dabreegster/abstreet/releases
+
 ### [Tennis Academy Dash][tennis-academy-dash]
 
 ![gameplay](tennis_academy.gif)
