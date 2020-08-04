@@ -73,7 +73,7 @@ which is completely written in Rust and GLSL
 and published an article ["Writing a winning 4K intro in Rust"][4k-post]:
 
 > A 4K intro is a demo where the entire program (including any data)
-> has two be 4096 bytes or less so it is important
+> has to be 4096 bytes or less so it is important
 > that the code is as space efficient as possible.
 > Rust has a bit of a reputation for creating bloated executables so I wanted
 > to find out if is possible to create very space efficient code with it.
@@ -211,7 +211,7 @@ Some of the updates:
 - New random traffic scenario generator that makes people go between
   houses and workplaces.
 - New commute pattern explorer tool.
-- New character art to give cutscenes a bit more personaliy.
+- New character art to give cutscenes a bit more personality.
 - Lots of pathfinding and user interface improvements.
 - Bugfixes and improved performance (especially startup time on large maps).
 
@@ -240,7 +240,7 @@ This release features:
 
 [![demo](protochess.gif)][protochess]
 
-[protochess] ([source][protochess-src]) in an online multiplayer chess website
+[protochess] ([source][protochess-src]) is an online multiplayer chess website
 that lets you build custom pieces/boards.
 
 > Want a piece that can move like a knight + queen? Sure.
