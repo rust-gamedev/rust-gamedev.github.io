@@ -86,6 +86,35 @@ _Discussions:
 [4k-src]: https://github.com/janiorca/sphere_dance
 [4k-video]: https://youtube.com/watch?v=SIkkYRQ07tU
 
+### [Robo Instructus: 1 Year Later][robo-year]
+
+![game logo + OS logos](robo-os.jpg)
+
+One year ago [Alex Butler] released the "[Robo Instructus][robo-site]" puzzle game
+on [Steam][robo-steam] & [itch.io][robo-itch].
+
+This month Alex released a devlog post ["Robo Instructus: 1 Year Later"][robo-year]
+about how well the game did after the release:
+sales by platform/country/OS, player feedback & reviews, etc.
+
+> People mostly don’t publish sales figures,
+> I guess it makes more business sense to be vague.
+> But maybe these will be helpful or interesting in some way.
+
+Also, Alex continues to maintain and polish the game: [1.29 version][robo-1-29]
+brings auto-scrolling improvements, better lang parsing,
+bugfixes, and dependency updates.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust_gamedev/comments/hsf2su/robo_instructus_1_year_later)_
+
+[Alex Butler]: https://twitter.com/bigabgames
+[robo-site]: https://www.roboinstruct.us
+[robo-steam]: https://store.steampowered.com/app/1032170/Robo_Instructus
+[robo-itch]: https://bigabgames.itch.io/robo-instructus
+[robo-year]: https://blog.roboinstruct.us/2020/07/16/1-year-later.html
+[robo-1-29]: https://store.steampowered.com/newshub/app/1032170/view/4355495589078346745
+
 ### [Crate Before Attack][cba-site]
 
 [![Golf Club in Crate Before Attack](crate-before-attack.gif)][cba-site]
