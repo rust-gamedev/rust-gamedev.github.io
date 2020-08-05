@@ -1068,6 +1068,27 @@ or [join the next meeting][join].
 
 <!-- An optional section for new jobs related to Rust gamedev -->
 
+- [Embark] is looking to hire Open Source Engineer
+  specifically to work on Rust projects (Remote or Stockholm, Sweden):
+
+  > At Embark, we love the openness and collaborative nature
+  > of the quickly growing ecosystem and community around Rust,
+  > including its tens of thousands of open source crates.
+  > We're committed to supporting a thriving open source ecosystem
+  > for game development in Rust.
+  >
+  > As an Open Source Engineer at Embark, you will work with our community
+  > and engineering teams on open source.
+  > You'll help maintain and develop our open source presence,
+  > and be a key link between Embark and the greater software ecosystem.
+
+  You can find all of the details on their [job offer page][embark-job].
+
+  ![Embark's logo](embark-logo-bg.jpg)
+
+[Embark]: https://www.embark-studios.com
+[embark-job]: https://www.embark-studios.com/jobs/910166-open-source-engineer
+
 ## Bonus
 
 <!-- Bonus section to make the newsletter more interesting
