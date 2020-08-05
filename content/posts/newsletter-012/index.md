@@ -941,7 +941,8 @@ or [join the next meeting][join].
   > At Embark, we love the openness and collaborative nature
   > of the quickly growing ecosystem and community around Rust,
   > including its tens of thousands of open source crates.
-  > We're committed to supporting a thriving open source ecosystem for game development in Rust.
+  > We're committed to supporting a thriving open source ecosystem
+  > for game development in Rust.
   >
   > As an Open Source Engineer at Embark, you will work with our community
   > and engineering teams on open source.
