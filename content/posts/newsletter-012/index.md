@@ -423,6 +423,26 @@ Check out a [blog post][pushin-post] about the game's release.
 [pushin-repository]: https://gitlab.com/septum___/pushin_boxes
 [septum-twitter]: https://twitter.com/septum___
 
+### [Don't Stop][dont-stop]
+
+![gameplay sample](dont-stop.gif)
+
+[Don't Stop][dont-stop] by @superahtoms is a rythm game
+written using Rust and SDL2 for the [GMTK 2020 jam][gmtk2020].
+
+> Ever just wanted to keep dancing but the fuzz wants you to stop?
+> Well now you can! Just keep on dancing, don't let the bouncers grab you
+> while you're doing it or your fun stops!
+> Keep being the life of the party because you are Party Pat!
+>
+> Be like wind, be fast, dance and don't get caught!
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/hq0ecp/gmtk_submission_dont_stop)_
+
+[dont-stop]: https://superahtoms.itch.io/dont-stop
+[gmtk2020]: https://itch.io/jam/gmtk-2020
+
 ### [On FPS Game Progress \#2][on-fps-game-2]
 
 [![fps-game-screenshot](fps-game-2.jpeg)][on-fps-game-2-youtube]
