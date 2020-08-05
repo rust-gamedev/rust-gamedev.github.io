@@ -258,6 +258,37 @@ _Discussions:
 [protochess]: https://protochess.com/
 [protochess-src]: https://github.com/raytran/protochess
 
+### Nox Futura (Rust Edition)
+
+![SSAO demo](nox-futura.jpeg)
+
+[Herbert Wolverson][thebracket]
+(the author of [bracket-lib] and [the Rust Roguelike Tutorial][rl-book])
+continues porting their old ["Nox Futura" project][nox-f-old] to Rust.
+The game uses wgpu, Legion, and Dear ImGui.
+
+Some of this month's updates:
+
+- [The project's repo is now public][noxfutura-src];
+- Voxel-friendly SSAO;
+- The render pipeline is now about 75% done;
+- Jobs board, buildings creation, and lumberjacking;
+- 3D cursor and mouse picking;
+- Voxelized Vegetation and growing trees;
+- Improved A* pathfinding and performance in general.
+
+Check out Sharing Saturday devlogs for more detailed reports:
+[\#1](https://reddit.com/r/roguelikedev/comments/hktr2y/sharing_saturday_318/fwutz7n),
+[\#2](https://reddit.com/r/roguelikedev/comments/hp04g6/sharing_saturday_319/fxnsn8h),
+[\#3](https://reddit.com/r/roguelikedev/comments/ht6wcc/sharing_saturday_320/fygjvkg),
+[\#4](https://reddit.com/r/roguelikedev/comments/hxcvp8/sharing_saturday_321/fz5atmd).
+
+[noxfutura-src]: https://github.com/thebracket/noxfutura
+[thebracket]: https://bracketproductions.com
+[bracket-lib]: https://github.com/thebracket/bracket-lib
+[rl-book]: http://bfnightly.bracketproductions.com/rustbook/
+[nox-f-old]: https://thebracket.itch.io/nox-futura
+
 ### [🏕 Textcamp!][textcamp]
 
 ![gameplay](textcamp.png)
@@ -392,6 +423,54 @@ Check out a [blog post][pushin-post] about the game's release.
 [pushin-repository]: https://gitlab.com/septum___/pushin_boxes
 [septum-twitter]: https://twitter.com/septum___
 
+### [Don't Stop][dont-stop]
+
+![gameplay sample](dont-stop.gif)
+
+[Don't Stop][dont-stop] by @superahtoms is a rhythm game
+written using Rust and SDL2 for the [GMTK 2020 jam][gmtk2020].
+
+> Ever just wanted to keep dancing but the fuzz wants you to stop?
+> Well now you can! Just keep on dancing, don't let the bouncers grab you
+> while you're doing it or your fun stops!
+> Keep being the life of the party because you are Party Pat!
+>
+> Be like wind, be fast, dance and don't get caught!
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/hq0ecp/gmtk_submission_dont_stop)_
+
+[dont-stop]: https://superahtoms.itch.io/dont-stop
+[gmtk2020]: https://itch.io/jam/gmtk-2020
+
+### [shotcaller]
+
+[shotcaller] is a WIP quick (~7mins) ASCII-rendered RTS/MOBA game.
+
+> In the way "MOBA" games such as DOTA2 or LoL are usually played,
+> the captain of the team is the default shotcaller.
+>
+> > The shotcaller needs to be unbiased and not have tunnel vision.
+> > You need to be able to think in the future and tell
+> > what would happen if you did this or that.
+> > This becomes crucial when deciding to base-race or teleport back to defend.
+> > ~reddit-user
+>
+> Everyone on the team can play the part of Shotcaller on occasion.
+> The act of shotcalling is not typically the most prevalent activity of any player,
+> even for a captain — after all, they also need to play their hero.
+>
+> But in this game, all you do is shotcalling and big-picture strategizing.
+> The game plays as if you were controlling the 6th-person-in-the-booth “coach” player,
+> and your team (of AI-played bots) actually follows
+> your instructions to the letter, within their designed constraints.
+
+The game is in an early stage of development,
+[check out the design document][shotcaller-gdd] for details and plans.
+
+[shotcaller]: https://github.com/amethyst/shotcaller
+[shotcaller-gdd]: https://www.notion.so/Shotcaller-7374d2b2819c42ccb40f01dc7089d419
+
 ### [On FPS Game Progress \#2][on-fps-game-2]
 
 [![fps-game-screenshot](fps-game-2.jpeg)][on-fps-game-2-youtube]
@@ -410,6 +489,26 @@ particles.
 [on-fps-game-2-youtube]: https://youtu.be/NIJNgr9zeXk
 [on-fps-game-2]: http://atilkockar.com/on-fps-game-progress-2/
 [@pingFromHeaven]: https://twitter.com/pingFromHeaven
+
+### [Zemeroth][zemeroth]
+
+![new agent info panel](zemeroth.jpeg)
+
+[Zemeroth][zemeroth] by [@ozkriff] is a minimalistic 2D turn-based tactical game.
+
+Some of the recent updates:
+
+- The game got a new development roadmap: ["Final Push"][zemeroth-final-push].
+- UI updates: [widget stretching][zemeroth-stretch] and [more informative "dots"][zemeroth-dots].
+- A few actions [got additional effects][zemeroth-flare].
+- The work on adding sounds has begun.
+
+[zemeroth]: https://github.com/ozkriff/zemeroth
+[@ozkriff]: https://twitter.com/ozkriff
+[zemeroth-final-push]: https://twitter.com/ozkriff/status/1280874966855176199
+[zemeroth-stretch]: https://twitter.com/ozkriff/status/1284154997190594560
+[zemeroth-dots]: https://twitter.com/ozkriff/status/1284418956296626176
+[zemeroth-flare]: https://twitter.com/ozkriff/status/1282051985907298306
 
 ### [Veloren][veloren]
 
