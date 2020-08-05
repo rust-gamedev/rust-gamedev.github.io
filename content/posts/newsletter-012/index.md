@@ -29,8 +29,7 @@ Table of contents:
 
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
-- [Library & Tooling Updates](#library--tooling-updates)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
+- [Library & Tooling Updates](#library-tooling-updates)
 - [Meeting Minutes](#meeting-minutes)
 - [Requests for Contribution](#requests-for-contribution)
 - [Jobs](#jobs)
