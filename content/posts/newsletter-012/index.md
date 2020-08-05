@@ -706,7 +706,7 @@ Highlights include:
 [weasel]: https://github.com/Trisfald/weasel
 [weasel-v0-8]: https://github.com/Trisfald/weasel/releases/tag/v0.8.0
 [@Trisfald]: https://github.com/Trisfald
-  
+
 ### [naia]
 
 [naia] (**n**etworking **a**rchitecture for **i**nteractive **a**pplications)
@@ -879,6 +879,7 @@ Some of the highlights:
 - A new platform crate has appeared:
   [luminance-sdl2], which adds support for the sdl2 crate.
 - [luminance-webgl] and luminance-web-sys, to support the Web!
+- A [luminance-examples-web] crate is available to test with `yarn` easily.
 - [luminance-front], which is a front crate to ease working with luminance types.
 - The type system experience has been greatly improved. Most of the time,
   you will not have to annotate types anymore — like Program or Tess.
@@ -888,8 +889,12 @@ Some of the highlights:
   depth writes, separate RGB/alpha blending, etc. etc.
 - Also, the [luminance book][luminance-book] got updated.
 
-A complete changes list and a migration guid can be found
+A complete changes list and a migration guide can be found
 [in the CHANGELOG][luminance-v0-40-changelog].
+
+luminance-0.41 got released a few days after to fix some type design problems with
+the gates, and to enhance the error flow in graphics pipelines, revisited to be more
+flexible and seamless.
 
 Also, check out the
 ["The compile-time deinterleaving interface"][luminance-typesafe-deinterleaving]
@@ -905,6 +910,7 @@ _Discussions:
 [luminance-front]: https://crates.io/crates/luminance-front
 [luminance-typesafe-deinterleaving]: https://phaazon.net/blog/typesafe-deinterleaving
 [luminance-webgl]: https://crates.io/crates/luminance-webgl
+[luminance-examples-web]: https://github.com/phaazon/luminance-rs/tree/master/luminance-examples-web
 [luminance-sdl2]: https://crates.io/crates/luminance-sdl2
 [luminance-book]: https://rust-tutorials.github.io/learn-luminance/
 
