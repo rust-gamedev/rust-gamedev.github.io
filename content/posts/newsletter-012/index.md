@@ -443,6 +443,34 @@ _Discussions:
 [dont-stop]: https://superahtoms.itch.io/dont-stop
 [gmtk2020]: https://itch.io/jam/gmtk-2020
 
+### [shotcaller]
+
+[shotcaller] is a WIP quick (~7mins) ASCII-rendered RTS/MOBA game.
+
+> In the way "MOBA" games such as DOTA2 or LoL are usually played,
+> the captain of the team is the default shotcaller.
+>
+> > The shotcaller needs to be unbiased and not have tunnel vision.
+> > You need to be able to think in the future and tell
+> > what would happen if you did this or that.
+> > This becomes crucial when deciding to base-race or teleport back to defend.
+> > ~reddit-user
+>
+> Everyone on the team can play the part of Shotcaller on occasion.
+> The act of shotcalling is not typically the most prevalent activity of any player,
+> even for a captain — after all, they also need to play their hero.
+>
+> But in this game, all you do is shotcalling and big-picture strategizing.
+> The game plays as if you were controlling the 6th-person-in-the-booth “coach” player,
+> and your team (of AI-played bots) actually follows
+> your instructions to the letter, within their designed constraints.
+
+The game is in an early stage of development,
+[check out the design document][shotcaller-gdd] for details and plans.
+
+[shotcaller]: https://github.com/amethyst/shotcaller
+[shotcaller-gdd]: https://www.notion.so/Shotcaller-7374d2b2819c42ccb40f01dc7089d419
+
 ### [On FPS Game Progress \#2][on-fps-game-2]
 
 [![fps-game-screenshot](fps-game-2.jpeg)][on-fps-game-2-youtube]
