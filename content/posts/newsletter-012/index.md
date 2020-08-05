@@ -427,7 +427,7 @@ Check out a [blog post][pushin-post] about the game's release.
 
 ![gameplay sample](dont-stop.gif)
 
-[Don't Stop][dont-stop] by @superahtoms is a rythm game
+[Don't Stop][dont-stop] by @superahtoms is a rhythm game
 written using Rust and SDL2 for the [GMTK 2020 jam][gmtk2020].
 
 > Ever just wanted to keep dancing but the fuzz wants you to stop?
