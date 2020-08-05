@@ -490,6 +490,26 @@ particles.
 [on-fps-game-2]: http://atilkockar.com/on-fps-game-progress-2/
 [@pingFromHeaven]: https://twitter.com/pingFromHeaven
 
+### [Zemeroth][zemeroth]
+
+![new agent info panel](zemeroth.jpeg)
+
+[Zemeroth][zemeroth] by [@ozkriff] is a minimalistic 2D turn-based tactical game.
+
+Some of the recent updates:
+
+- The game got a new development roadmap: ["Final Push"][zemeroth-final-push].
+- UI updates: [widget stretching][zemeroth-stretch] and [more informative "dots"][zemeroth-dots].
+- A few actions [got additional effects][zemeroth-flare].
+- The work on adding sounds has begun.
+
+[zemeroth]: https://github.com/ozkriff/zemeroth
+[@ozkriff]: https://twitter.com/ozkriff
+[zemeroth-final-push]: https://twitter.com/ozkriff/status/1280874966855176199
+[zemeroth-stretch]: https://twitter.com/ozkriff/status/1284154997190594560
+[zemeroth-dots]: https://twitter.com/ozkriff/status/1284418956296626176
+[zemeroth-flare]: https://twitter.com/ozkriff/status/1282051985907298306
+
 ### [Veloren][veloren]
 
 ![Sunrise](veloren-sunrise.gif)
