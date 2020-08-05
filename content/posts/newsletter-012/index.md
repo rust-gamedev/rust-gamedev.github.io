@@ -660,6 +660,90 @@ about their experience of using Rust in games at [Gameroasters].
 
 ## Library & Tooling Updates
 
+### [A Servo Browser Plugin for Unity][servo-unity-post]
+
+![Functional scheme](servo-unity.png)
+
+[Servo for Unity][servo-unity] is a Unity native plugin and a set
+of Unity C# script components allow third parties to incorporate
+Servo browser windows into Unity scenes.
+
+[A blog post about the project][servo-unity-post] gives a good
+overview of the project goals, capabilities, archtecture, challenges,
+and future development plans.
+
+[servo-unity]: https://github.com/MozillaReality/servo-unity
+[servo-unity-post]: https://blog.mozvr.com/a-browser-plugin-for-unity
+
+### [big-brain]
+
+[big-brain] by [Kat Marchán] is an [utility AI] library for games,
+built on the specs ECS.
+
+> It lets you define complex, intricate AI behaviors for your entities
+> based on their perception of the world.
+> Definitions are almost entirely data-driven, using plain .ron files,
+> and you only need to program considerations (entities that look at your game world),
+> and actions (entities that perform actual behaviors upon the world).
+> No other code is needed for actual AI behavior.
+
+[big-brain]: https://github.com/zkat/big-brain
+[Kat Marchán]: https://twitter.com/zkat__
+[utility AI]: https://en.wikipedia.org/wiki/Utility_system
+
+### [weasel] v0.8
+
+[weasel] by [@Trisfald] is a customizable battle system for turn-based games.
+
+This month [v0.8 was released][weasel-v0-8].
+Highlights include:
+
+- New event types
+- Inanimate objects
+- Status effects
+- Many new examples
+
+[weasel]: https://github.com/Trisfald/weasel
+[weasel-v0-8]: https://github.com/Trisfald/weasel/releases/tag/v0.8.0
+[@Trisfald]: https://github.com/Trisfald
+  
+### [naia]
+
+[naia] (**n**etworking **a**rchitecture for **i**nteractive **a**pplications)
+is a cross-platform (currently WebAssembly & Linux) networking engine that intends
+to make multiplayer game development in Rust dead simple and lightning fast.
+
+> At the highest level, you register Event and Entity implementations
+> in a module shared by Client & Server.
+> Then, naia will facilitate sending/receiving those Events between Client & Server,
+> and also keep a pool of tracked Entities synced with each Client
+> for whom they are "in-scope".
+> Entities are "scoped" to Clients with whom they share the same Room,
+> as well as being sufficiently customizable to, for example,
+> only keep Entities persisted & synced while within a Client's viewport
+> or according to some other criteria.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/hj2eey/naia)_
+
+[naia]: https://github.com/naia-rs/naia
+
+### [voronator]
+
+![Voronoi diagram example](voronator.png)
+
+[voronator] by [Felipe Santos] is ...
+a Rust port of the [d3-delaunay] and [delaunator] libraries
+that provides delaunay triangulation and Voronoi diagram generation.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/hjbl0y/introducing_voronator)_
+
+[voronator]: https://github.com/fesoliveira014/voronator-rs
+[Felipe Santos]: https://twitter.com/fesoliveira0
+[d3-delaunay]: https://github.com/d3/d3-delaunay
+[delaunator]: https://github.com/mapbox/delaunator
+
 ### [This Month in Mun][mun-july]
 
 [![Mun logo](mun-logo.png)][Mun]
@@ -780,6 +864,49 @@ and viewable from Firefox, Servo, Chrome, and other browsers.
 [@MacTuitui]: https://twitter.com/MacTuitui
 [nannou]: https://nannou.cc
 [wgpu-site]: https://wgpu.rs
+
+### [luminance v0.40][luminance-v0-40]
+
+![logo](luminance-logo.svg)
+
+[luminance] by [@phaazon] is a type-safe, type-level and stateless
+graphics framework.
+
+This month [luminance v0.40 got released][luminance-v0-40].
+Some of the highlights:
+
+- The complete backend/architecture redesign;
+- A new platform crate has appeared:
+  [luminance-sdl2], which adds support for the sdl2 crate.
+- [luminance-webgl] and luminance-web-sys, to support the Web!
+- [luminance-front], which is a front crate to ease working with luminance types.
+- The type system experience has been greatly improved. Most of the time,
+  you will not have to annotate types anymore — like Program or Tess.
+- About `Tess`, a BIG update has landed, has it’s now heavily typed
+  (vertex type, index type, vertex instance data type, memory interleaving type).
+- More render states features, such as the possibility to enable or disable
+  depth writes, separate RGB/alpha blending, etc. etc.
+- Also, the [luminance book][luminance-book] got updated.
+
+A complete changes list and a migration guid can be found
+[in the CHANGELOG][luminance-v0-40-changelog].
+
+Also, check out the
+["The compile-time deinterleaving interface"][luminance-typesafe-deinterleaving]
+blog post that delves deep into this new feature.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/hsgfav/the_new_luminance_is_there)_
+
+[@phaazon]: https://twitter.com/phaazon_
+[luminance]: https://github.com/phaazon/luminance-rs
+[luminance-v0-40-changelog]: https://github.com/phaazon/luminance-rs/blob/master/luminance/CHANGELOG.md#040
+[luminance-v0-40]: https://phaazon.net/blog/luminance-0.40
+[luminance-front]: https://crates.io/crates/luminance-front
+[luminance-typesafe-deinterleaving]: https://phaazon.net/blog/typesafe-deinterleaving
+[luminance-webgl]: https://crates.io/crates/luminance-webgl
+[luminance-sdl2]: https://crates.io/crates/luminance-sdl2
+[luminance-book]: https://rust-tutorials.github.io/learn-luminance/
 
 ### [Graphene][graphene] - Vulkan Render Graph
 
