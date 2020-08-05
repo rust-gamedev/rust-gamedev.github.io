@@ -1024,9 +1024,7 @@ You can watch a [video of Rust interpreter running Fizzbuzz][langcraft-video]:
 [Langcraft]: https://github.com/SuperTails/langcraft
 [langcraft-video]: https://youtube.com/watch?v=Cx0w5Wn9pPU
 
-## Popular Workgroup Issues in Github
-
-<!-- Up to 10 links to interesting issues -->
+<!-- ## Popular Workgroup Issues in Github -->
 
 ## Meeting Minutes
 
@@ -1095,6 +1093,54 @@ or [join the next meeting][join].
 and highlight events from the past. -->
 
 Just an interesting Rust gamedev link from the past. :)
+
+[![youtube preview](shar-youtube.jpeg)][shar-trailer]
+
+^ _Click to watch [SHAR's Greenlight trailer][shar-trailer]_
+
+[SHAR][shar-itch] (Russian "Шар" - ball) by [@fedor_games] (author of [miniquad]/[macroquad])
+is a 3rd-person online action game that aims to create unique experience
+combining destructible world and team-based ball game.
+
+> SHAR is an action combination of tactical and sports game in the destructible world.
+> The rules are extremely simple: two teams, one ball.
+> The team that carries the ball into the opponent's gates gets a score,
+> the team with the most score at the end of the game is the winner.
+> However, this is where things get interesting!
+> Players have the variety of skills and tricks and destructible environment
+> to fiddle around to slam the opponent and win the game.
+
+Some of the game's features:
+
+- bulletrs-powered network-synchronized physics engine;
+- A bunch of physics-based player skills;
+- Extensive build-in editors for game maps, skeletal animation,
+  effects & particle systems;
+- Modding support.
+
+The game was build on top of a home grown game engine using:
+winit, glium, imgui-rs, [tinyecs], [awesomium-rs], imgui-rs, [ears].
+
+[![A screenshot from the recording](shar-talk.jpeg)][shar-talk]
+
+During RustFest Zurich 2017, Fedor gave a self-descriptive talk
+"SHAR: Rust's gamedev experience".
+You can [watch the recording here][shar-talk].
+
+The game was in active development around 2016-2017.
+In 2017 the game [passed Steam Greenlight][shar-greenlight].
+During 2018 [the project was suspended][shar-death].
+
+[shar-itch]: https://fedorgames.itch.io/shar
+[@fedor_games]: https://twitter.com/fedor_games
+[shar-trailer]: https://youtube.com/watch?v=OVYQs3KY2EE
+[shar-death]: https://fedorgames.itch.io/shar/devlog/52720/time-to-move-on
+[shar-greenlight]: https://steamcommunity.com/sharedfiles/filedetails/?id=868228143
+[shar-talk]: https://youtube.com/watch?v=nXR8f4r6ggM
+[macroquad]: https://github.com/not-fl3/macroquad
+[tinyecs]: https://github.com/not-fl3/tinyecs
+[awesomium-rs]: https://github.com/not-fl3/awesomium-rs
+[ears]: https://github.com/nickbrowne/ears
 
 ------
 
