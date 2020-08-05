@@ -258,6 +258,37 @@ _Discussions:
 [protochess]: https://protochess.com/
 [protochess-src]: https://github.com/raytran/protochess
 
+### Nox Futura (Rust Edition)
+
+![SSAO demo](nox-futura.jpeg)
+
+[Herbert Wolverson][thebracket]
+(the author of [bracket-lib] and [the Rust Roguelike Tutorial][rl-book])
+continues porting their old ["Nox Futura" project][nox-f-old] to Rust.
+The game uses wgpu, Legion, and Dear ImGui.
+
+Some of this month's updates:
+
+- [The project's repo is now public][noxfutura-src];
+- Voxel-friendly SSAO;
+- The render pipeline is now about 75% done;
+- Jobs board, buildings creation, and lumberjacking;
+- 3D cursor and mouse picking;
+- Voxelized Vegetation and growing trees;
+- Improved A* pathfinding and performance in general.
+
+Check out Sharing Saturday devlogs for more detailed reports:
+[\#1](https://reddit.com/r/roguelikedev/comments/hktr2y/sharing_saturday_318/fwutz7n),
+[\#2](https://reddit.com/r/roguelikedev/comments/hp04g6/sharing_saturday_319/fxnsn8h),
+[\#3](https://reddit.com/r/roguelikedev/comments/ht6wcc/sharing_saturday_320/fygjvkg),
+[\#4](https://reddit.com/r/roguelikedev/comments/hxcvp8/sharing_saturday_321/fz5atmd).
+
+[noxfutura-src]: https://github.com/thebracket/noxfutura
+[thebracket]: https://bracketproductions.com
+[bracket-lib]: https://github.com/thebracket/bracket-lib
+[rl-book]: http://bfnightly.bracketproductions.com/rustbook/
+[nox-f-old]: https://thebracket.itch.io/nox-futura
+
 ### [🏕 Textcamp!][textcamp]
 
 ![gameplay](textcamp.png)
