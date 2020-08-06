@@ -524,7 +524,7 @@ to mid-August. A loot table system was added to item drops. Lots of work has
 been done on animations and quadrupeds. Networking has switched to a new
 system. Significant improvements have been made to pathfinding system to improve
 fast quadruped movement. Particle systems are being implemented and optimized. A
-crafting GUI has been added. Translations have stabalized significantly, and
+crafting GUI has been added. Translations have stabilized significantly, and
 there is a framework for translators to know what needs to be done.
 
 ![Fire particles](veloren-fire.gif)
@@ -676,7 +676,7 @@ and future development plans.
 
 ### [big-brain]
 
-[big-brain] by [Kat Marchán] is an [utility AI] library for games,
+[big-brain] by [Kat Marchán] is a [utility AI] library for games,
 built on the specs ECS.
 
 > It lets you define complex, intricate AI behaviors for your entities
@@ -733,7 +733,7 @@ _Discussions:
 
 [voronator] by [Felipe Santos] is ...
 a Rust port of the [d3-delaunay] and [delaunator] libraries
-that provides delaunay triangulation and Voronoi diagram generation.
+that provide delaunay triangulation and Voronoi diagram generation.
 
 _Discussions:
 [/r/rust](https://reddit.com/r/rust/comments/hjbl0y/introducing_voronator)_
@@ -840,7 +840,7 @@ Then, efforts to reduce code duplication inside `wgpu` project has led to the
 [bovine invasion](https://github.com/gfx-rs/wgpu-rs/pull/460) on wgpu-rs API side.
 The devs are figuring out the plan to address that with a builder pattern now,
 which will address both the `Cow`s and non-exhaustives,
-hopefully putting the end to the turbulence.
+hopefully putting an end to the turbulence.
 
 In the meantime, `wgpu-rs` ecosystem is flourishing with applications and libraries.
 The [showcase gallery](https://wgpu.rs/#showcase) was updated with a few shiny images.
