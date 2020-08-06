@@ -1,8 +1,8 @@
 +++
 title = "This Month in Rust GameDev #12 - July 2020"
-date = 2020-08-03
+date = 2020-08-06
 transparent = true
-draft = true
+draft = false
 +++
 
 Welcome to the twelfth issue of the Rust GameDev Workgroup’s
@@ -29,8 +29,7 @@ Table of contents:
 
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
-- [Library & Tooling Updates](#library--tooling-updates)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
+- [Library & Tooling Updates](#library-tooling-updates)
 - [Meeting Minutes](#meeting-minutes)
 - [Requests for Contribution](#requests-for-contribution)
 - [Jobs](#jobs)
@@ -180,13 +179,13 @@ Wonder can be [played in the browser on itch.io][Wonder].
 
 [Vlad Zhukov] shared a video of a WIP multiplayer online strategy game
 where you fight with other players for territory.
-Currently there are two types of resources and 5 types of buildings.
+Currently, there are two types of resources and 5 types of buildings.
 To build on the tile you need to occupy it with your warriors first.
 The player who occupied all enemies' tiles win.
 
 The game is written with [miniquad](https://github.com/not-fl3/miniquad)
 and a custom GUI library.
-Some parts of the game are promised to be open-sourced in future.
+Some parts of the game are promised to be open-sourced in the future.
 Read more about crates used in this project [here][hex-strat-crates].
 
 _Discussions:
@@ -208,7 +207,7 @@ and drivers.
 This month [versions v0.2.2..v0.2.5][abstreet-releases] were released.
 Some of the updates:
 
-- New random traffic scenario generator that makes people go between
+- A new random traffic scenario generator that makes people go between
   houses and workplaces.
 - New commute pattern explorer tool.
 - New character art to give cutscenes a bit more personality.
@@ -325,7 +324,7 @@ Notable changes:
 
 - [basic projectiles](https://twitter.com/thisIsRukai/status/1287377878460456963),
 - [WIP grab implementation (with some humorous results)](https://www.youtube.com/watch?v=sSrBGpT-Ebs),
-- [New animations + attacks](https://www.youtube.com/watch?v=AaPkRSNhoSM)
+- [New animations + attacks](https://www.youtube.com/watch?v=AaPkRSNhoSM),
 - and [custom shaders](https://twitter.com/thisIsRukai/status/1279324105125163008).
 
 [canon-collision]:https://canoncollision.com
@@ -348,14 +347,14 @@ generation system in the worldgen. Main features of the river generator are:
   tweak the process for either precision of the pattern or speed of generation;
 - Rivers are sorted upon intersections, their widths are adjusted, waterfalls
   are formed when necessary;
-- Inflow and outflow directions are recorded for each cell, which allows to
-  follow the river upstream or downstream;
+- Inflow and outflow directions are recorded for each cell, which allows
+  following the river upstream or downstream;
 - Simple yet effective erosion model implemented, which ensures no upwards flows
   are allowed;
 - Each stream has its unique ID, which will later be linked to the stream data;
 - Streams have 12 orders of magnitude from smallest brooks to major rivers;
 - All the options are available to user under "General", "Advanced" and
-  "Very advanced" sections for any level of fine-tuning;
+  "Very advanced" sections for any level of fine-tuning.
 
 Further development will involve re-factoring of the code and making it ready
 to be published prior to implementing new features. For small dev reports follow
@@ -388,7 +387,7 @@ covers the work they did in June and July:
   - Moving from recording the raw texture generated for pixels
     to the post-processed texture from wgpu
     involved a major overhaul, and it proved too glitchy and slow.
-    Hopefully it will be revived later, in the form of recording user inputs.
+    Hopefully, it will be revived later, in the form of recording user inputs.
 - Many structural improvements, such as less glitchy particle
   placement with Bresenham's line algorithm,
   better error handling, and ensuring particles
@@ -475,7 +474,7 @@ The game is in an early stage of development,
 
 [![fps-game-screenshot](fps-game-2.jpeg)][on-fps-game-2-youtube]
 
-^ _Click to watch a [footage from the game's current state][on-fps-game-2-youtube]._
+^ _Click to watch [footage from the game's current state][on-fps-game-2-youtube]._
 
 On this update, [@pingFromHeaven] talks about the lighting implementation that
 sets the tone for the game, how Rust is good at shortening the debugging
@@ -525,7 +524,7 @@ to mid-August. A loot table system was added to item drops. Lots of work has
 been done on animations and quadrupeds. Networking has switched to a new
 system. Significant improvements have been made to pathfinding system to improve
 fast quadruped movement. Particle systems are being implemented and optimized. A
-crafting GUI has been added. Translations have stabalized significantly, and
+crafting GUI has been added. Translations have stabilized significantly, and
 there is a framework for translators to know what needs to be done.
 
 ![Fire particles](veloren-fire.gif)
@@ -551,7 +550,7 @@ July's full weekly devlogs: "This Week In Veloren...":
 [#78](https://veloren.net/devblog-78).
 
 In August, 0.7 will be released. Work will continue on castle and cave
-geneartion. The inaugural episode of the Rust Game Dev podcast will be released,
+generation. The inaugural episode of the Rust Game Dev podcast will be released,
 which features an interview by Veloren developers.
 
 ![Quadrupeds](veloren-quadrupeds.png)
@@ -623,7 +622,7 @@ The source code [can be found here][tantan-pong-src].
 
 ![vector vs linked list perf](data_oriented_design.svg)
 
-Data-Oriented Design is an approach to program optimisation focused on
+Data-Oriented Design is an approach to program optimization focused on
 considering the features and limitations of the target hardware, and
 carefully controlling the memory layout of data to take advantage of
 those.
@@ -669,7 +668,7 @@ of Unity C# script components allow third parties to incorporate
 Servo browser windows into Unity scenes.
 
 [A blog post about the project][servo-unity-post] gives a good
-overview of the project goals, capabilities, archtecture, challenges,
+overview of the project goals, capabilities, architecture, challenges,
 and future development plans.
 
 [servo-unity]: https://github.com/MozillaReality/servo-unity
@@ -677,7 +676,7 @@ and future development plans.
 
 ### [big-brain]
 
-[big-brain] by [Kat Marchán] is an [utility AI] library for games,
+[big-brain] by [Kat Marchán] is a [utility AI] library for games,
 built on the specs ECS.
 
 > It lets you define complex, intricate AI behaviors for your entities
@@ -734,7 +733,7 @@ _Discussions:
 
 [voronator] by [Felipe Santos] is ...
 a Rust port of the [d3-delaunay] and [delaunator] libraries
-that provides delaunay triangulation and Voronoi diagram generation.
+that provide delaunay triangulation and Voronoi diagram generation.
 
 _Discussions:
 [/r/rust](https://reddit.com/r/rust/comments/hjbl0y/introducing_voronator)_
@@ -807,7 +806,7 @@ for contributing a lot of these features and fixes!
 [miniquad] is a safe and cross-platform rendering library
 focused on portability and low-end platforms support.
 
-This month opengl backend of miniquad was successefully ported to iOS.
+This month opengl backend of miniquad was successfully ported to iOS.
 With this update [macroquad], [good-web-game] and all the games
 build directly with [miniquad] can be run on IOS, Android, WASM,
 Linux, macOS and Windows!
@@ -820,7 +819,7 @@ Linux, macOS and Windows!
 
 ![procgen dynamic "grass field"](tuitui-grass-field.jpeg)
 
-^ _[@MacTuitui]'s everyday [nannou] experiement #1274_
+^ _[@MacTuitui]'s everyday [nannou] experiment #1274_
 
 The work is ongoing to validate all the incoming commands and guarantee API safety.
 Special thanks to [@GabrielMajeri] for helping to convert assertions
@@ -841,7 +840,7 @@ Then, efforts to reduce code duplication inside `wgpu` project has led to the
 [bovine invasion](https://github.com/gfx-rs/wgpu-rs/pull/460) on wgpu-rs API side.
 The devs are figuring out the plan to address that with a builder pattern now,
 which will address both the `Cow`s and non-exhaustives,
-hopefully putting the end to the turbulence.
+hopefully putting an end to the turbulence.
 
 In the meantime, `wgpu-rs` ecosystem is flourishing with applications and libraries.
 The [showcase gallery](https://wgpu.rs/#showcase) was updated with a few shiny images.
@@ -875,7 +874,7 @@ graphics framework.
 This month [luminance v0.40 got released][luminance-v0-40].
 Some of the highlights:
 
-- The complete backend/architecture redesign;
+- The complete backend/architecture redesign.
 - A new platform crate has appeared:
   [luminance-sdl2], which adds support for the sdl2 crate.
 - [luminance-webgl] and luminance-web-sys, to support the Web!
@@ -1003,7 +1002,7 @@ most LLVM IR to
 [Minecraft data packs](https://minecraft.gamepedia.com/Data_Pack),
 the game's deliberately-limited in-game scripting language. Langcraft
 is entirely language independent, so any language with an LLVM-based
-compiler can (with the right API bindings) run in Minecraft. Currently
+compiler can (with the right API bindings) run in Minecraft. Currently,
 bindings to both C and Rust exist. While not as visually impressive as
 a redstone computer, Langcraft does stretch the bounds of the game quite
 a bit, using jukeboxes for memory, armor stands to represent pointers,
@@ -1024,9 +1023,7 @@ You can watch a [video of Rust interpreter running Fizzbuzz][langcraft-video]:
 [Langcraft]: https://github.com/SuperTails/langcraft
 [langcraft-video]: https://youtube.com/watch?v=Cx0w5Wn9pPU
 
-## Popular Workgroup Issues in Github
-
-<!-- Up to 10 links to interesting issues -->
+<!-- ## Popular Workgroup Issues in Github -->
 
 ## Meeting Minutes
 
@@ -1041,16 +1038,16 @@ or [join the next meeting][join].
 
 <!-- Links to "good first issue"-labels or direct links to specific tasks -->
 
-- [Embark's open issues][embark-open-issues] ([embark.rs]);
-- [winit's "Good first issue" and “help wanted” issues][winit-issues];
-- [gfx-rs's "contributor-friendly" issues][gfx-issues];
-- [wgpu's "help wanted" issues][wgpu-help-wanted];
-- [luminance's "low hanging fruit" issues][luminance-fruits];
-- [ggez's "good first issue" issues][ggez-issues];
-- [Veloren's "beginner" issues][veloren-beginner];
-- [Amethyst's "good first issue" issues][amethyst-issues];
-- [A/B Street's "good first issue" issues][abstreet-issues];
-- [Mun's "good first issue" issues][mun-issues];
+- [Embark's open issues][embark-open-issues] ([embark.rs]).
+- [winit's "Good first issue" and “help wanted” issues][winit-issues].
+- [gfx-rs's "contributor-friendly" issues][gfx-issues].
+- [wgpu's "help wanted" issues][wgpu-help-wanted].
+- [luminance's "low hanging fruit" issues][luminance-fruits].
+- [ggez's "good first issue" issues][ggez-issues].
+- [Veloren's "beginner" issues][veloren-beginner].
+- [Amethyst's "good first issue" issues][amethyst-issues].
+- [A/B Street's "good first issue" issues][abstreet-issues].
+- [Mun's "good first issue" issues][mun-issues].
 
 [embark.rs]: https://embark.rs
 [embark-open-issues]: https://github.com/search?q=user:EmbarkStudios+state:open
@@ -1084,10 +1081,15 @@ or [join the next meeting][join].
 
   You can find all of the details on their [job offer page][embark-job].
 
+  ------
+
+  Btw, Embark are also [looking for Software Engineer interns][embark-job-intern].
+
   ![Embark's logo](embark-logo-bg.jpg)
 
 [Embark]: https://www.embark-studios.com
 [embark-job]: https://www.embark-studios.com/jobs/910166-open-source-engineer
+[embark-job-intern]: https://www.embark-studios.com/jobs/915561-internship-software-engineer-rust
 
 ## Bonus
 
@@ -1095,6 +1097,54 @@ or [join the next meeting][join].
 and highlight events from the past. -->
 
 Just an interesting Rust gamedev link from the past. :)
+
+[![youtube preview](shar-youtube.jpeg)][shar-trailer]
+
+^ _Click to watch [SHAR's Greenlight trailer][shar-trailer]_
+
+[SHAR][shar-itch] (Russian "Шар" - ball) by [@fedor_games] (author of [miniquad]/[macroquad])
+is a 3rd-person online action game that aims to create unique experience
+combining destructible world and team-based ball game.
+
+> SHAR is an action combination of tactical and sports game in the destructible world.
+> The rules are extremely simple: two teams, one ball.
+> The team that carries the ball into the opponent's gates gets a score,
+> the team with the most score at the end of the game is the winner.
+> However, this is where things get interesting!
+> Players have the variety of skills and tricks and destructible environment
+> to fiddle around to slam the opponent and win the game.
+
+Some of the game's features:
+
+- A network-synchronized physics engine powered by bullet-rs;
+- A bunch of physics-based player skills;
+- Extensive build-in editors for game maps, skeletal animation,
+  effects & particle systems;
+- Modding support.
+
+The game was built on top of a homegrown game engine using:
+winit, glium, imgui-rs, [tinyecs], [awesomium-rs], [ears].
+
+[![A screenshot from the recording](shar-talk.jpeg)][shar-talk]
+
+During RustFest Zurich 2017, Fedor gave a self-descriptive talk
+"SHAR: Rust's gamedev experience".
+You can [watch the recording here][shar-talk].
+
+The game was in active development around 2016-2017.
+In 2017 the game [passed Steam Greenlight][shar-greenlight].
+During 2018 [the project was suspended][shar-death].
+
+[shar-itch]: https://fedorgames.itch.io/shar
+[@fedor_games]: https://twitter.com/fedor_games
+[shar-trailer]: https://youtube.com/watch?v=OVYQs3KY2EE
+[shar-death]: https://fedorgames.itch.io/shar/devlog/52720/time-to-move-on
+[shar-greenlight]: https://steamcommunity.com/sharedfiles/filedetails/?id=868228143
+[shar-talk]: https://youtube.com/watch?v=nXR8f4r6ggM
+[macroquad]: https://github.com/not-fl3/macroquad
+[tinyecs]: https://github.com/not-fl3/tinyecs
+[awesomium-rs]: https://github.com/not-fl3/awesomium-rs
+[ears]: https://github.com/nickbrowne/ears
 
 ------
 
