@@ -1081,10 +1081,15 @@ or [join the next meeting][join].
 
   You can find all of the details on their [job offer page][embark-job].
 
+  ------
+
+  Btw, Embark are also [looking for Software Engineer interns][embark-job-intern].
+
   ![Embark's logo](embark-logo-bg.jpg)
 
 [Embark]: https://www.embark-studios.com
 [embark-job]: https://www.embark-studios.com/jobs/910166-open-source-engineer
+[embark-job-intern]: https://www.embark-studios.com/jobs/915561-internship-software-engineer-rust
 
 ## Bonus
 
