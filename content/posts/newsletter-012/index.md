@@ -324,7 +324,7 @@ Notable changes:
 
 - [basic projectiles](https://twitter.com/thisIsRukai/status/1287377878460456963),
 - [WIP grab implementation (with some humorous results)](https://www.youtube.com/watch?v=sSrBGpT-Ebs),
-- [New animations + attacks](https://www.youtube.com/watch?v=AaPkRSNhoSM)
+- [New animations + attacks](https://www.youtube.com/watch?v=AaPkRSNhoSM),
 - and [custom shaders](https://twitter.com/thisIsRukai/status/1279324105125163008).
 
 [canon-collision]:https://canoncollision.com
@@ -354,7 +354,7 @@ generation system in the worldgen. Main features of the river generator are:
 - Each stream has its unique ID, which will later be linked to the stream data;
 - Streams have 12 orders of magnitude from smallest brooks to major rivers;
 - All the options are available to user under "General", "Advanced" and
-  "Very advanced" sections for any level of fine-tuning;
+  "Very advanced" sections for any level of fine-tuning.
 
 Further development will involve re-factoring of the code and making it ready
 to be published prior to implementing new features. For small dev reports follow
@@ -874,7 +874,7 @@ graphics framework.
 This month [luminance v0.40 got released][luminance-v0-40].
 Some of the highlights:
 
-- The complete backend/architecture redesign;
+- The complete backend/architecture redesign.
 - A new platform crate has appeared:
   [luminance-sdl2], which adds support for the sdl2 crate.
 - [luminance-webgl] and luminance-web-sys, to support the Web!
@@ -1038,16 +1038,16 @@ or [join the next meeting][join].
 
 <!-- Links to "good first issue"-labels or direct links to specific tasks -->
 
-- [Embark's open issues][embark-open-issues] ([embark.rs]);
-- [winit's "Good first issue" and “help wanted” issues][winit-issues];
-- [gfx-rs's "contributor-friendly" issues][gfx-issues];
-- [wgpu's "help wanted" issues][wgpu-help-wanted];
-- [luminance's "low hanging fruit" issues][luminance-fruits];
-- [ggez's "good first issue" issues][ggez-issues];
-- [Veloren's "beginner" issues][veloren-beginner];
-- [Amethyst's "good first issue" issues][amethyst-issues];
-- [A/B Street's "good first issue" issues][abstreet-issues];
-- [Mun's "good first issue" issues][mun-issues];
+- [Embark's open issues][embark-open-issues] ([embark.rs]).
+- [winit's "Good first issue" and “help wanted” issues][winit-issues].
+- [gfx-rs's "contributor-friendly" issues][gfx-issues].
+- [wgpu's "help wanted" issues][wgpu-help-wanted].
+- [luminance's "low hanging fruit" issues][luminance-fruits].
+- [ggez's "good first issue" issues][ggez-issues].
+- [Veloren's "beginner" issues][veloren-beginner].
+- [Amethyst's "good first issue" issues][amethyst-issues].
+- [A/B Street's "good first issue" issues][abstreet-issues].
+- [Mun's "good first issue" issues][mun-issues].
 
 [embark.rs]: https://embark.rs
 [embark-open-issues]: https://github.com/search?q=user:EmbarkStudios+state:open
@@ -1111,14 +1111,14 @@ combining destructible world and team-based ball game.
 
 Some of the game's features:
 
-- bulletrs-powered network-synchronized physics engine;
+- A network-synchronized physics engine powered by bullet-rs;
 - A bunch of physics-based player skills;
 - Extensive build-in editors for game maps, skeletal animation,
   effects & particle systems;
 - Modding support.
 
 The game was built on top of a homegrown game engine using:
-winit, glium, imgui-rs, [tinyecs], [awesomium-rs], imgui-rs, [ears].
+winit, glium, imgui-rs, [tinyecs], [awesomium-rs], [ears].
 
 [![A screenshot from the recording](shar-talk.jpeg)][shar-talk]
 
