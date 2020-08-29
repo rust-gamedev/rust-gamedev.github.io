@@ -66,6 +66,11 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
+### [blitz-path](https://github.com/BezPowell/blitz-path)
+[blitz-path](https://github.com/BezPowell/blitz-path) is a new crate providing an implementation of the [JPS](https://en.wikipedia.org/wiki/Jump_point_search) pathfinding algorithm.
+
+JPS is an optimization of the A* search algorithm for uniform-cost grids, which are common in games. While fully functional, the code is still in an early state and any suggestions for improvements - especially on how best to integrate it with the existing ecosystem - are greatly appreciated.
+
 ## Popular Workgroup Issues in Github
 
 ## Meeting Minutes
