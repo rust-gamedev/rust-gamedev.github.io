@@ -66,7 +66,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ![Egregoria buildings screenshot](egregoria.png)
 
-Egregoria was previously known as Scale, 
+Egregoria was previously known as Scale,
 but was renamed to fit the theme better.  
 
 [Egregoria]'s objective is to become a granular society simulation,
@@ -78,7 +78,7 @@ the renaming, project managment, buildings and scripting.
 A [Discord][egregoria-discord] server was launched to discuss the project.  
 
 _Discussions:  
-[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/igzbl9/egregoria_devblog_5/)  
+[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/igzbl9/egregoria_devblog_5/)
 [Discord][egregoria-discord]_
 
 [Egregoria]: https://github.com/Uriopass/Egregoria
