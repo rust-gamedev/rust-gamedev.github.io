@@ -66,6 +66,33 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
+### [hexasphere] v1.0
+
+![hexasphere example gif](hexasphere.gif)
+
+The [`hexasphere`] library provides a customizable interface for subdividing 3D
+triangle meshes. Custom and stateful interpolation functions can be implemented
+as well as per-vertex attributes.
+
+All that's required to define a base shape are the initial vertices, triangles
+based on the indices of the vertices in the initial vertices, and numbered
+edges. As long as the winding of the triangles remains consistend throughout
+the base mesh, all of the resulting triangles will retain that winding.
+
+This library also provides a few interesting base shapes (which can be used alone
+if the shape is not subdivided):
+
+- Icosahedron
+- Tetrahedron
+- Cube
+- Square Plane
+- Triangle Plane
+
+(All of which are pictured above)
+
+[`hexasphere`]: https://crates.io/crates/hexasphere
+[hexasphere]: https://crates.io/crates/hexasphere
+
 ## Popular Workgroup Issues in Github
 
 ## Meeting Minutes
