@@ -64,6 +64,25 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Learning Material Updates
 
+### [RustGameDev Podcast Episode 2]
+
+![RustGameDev Podcast Logo](rustgamedev.jpg)
+
+This month's RustGameDev podcast is an interview with Herbert Wolverson,
+creator of [Bracket Lib], previously RLTK (RogueLike Tool Kit).  A very
+wide ranging interview covering many interesting topics, where the
+library came from and what the creator is doing now, as well as the
+practical questions and issues discovered in the course of creating
+their game, [Nox Futura].  Lots of interesting talk about a new book the
+creator is writing, C++ vs Rust, learning Rust, code architecture and
+ECS's in roguelikes, emergent behavior, and hilarious bugs in Dwarf
+Fortress.
+
+[RustGameDev Podcast Episode 2]: https://rustgamedev.com/episodes/interview-with-herbert-wolverson-bracket-lib
+[Bracket Lib]: https://crates.io/crates/bracket-lib
+[Nox Futura]: https://thebracket.itch.io/nox-futura
+```
+
 ## Library & Tooling Updates
 
 ## Popular Workgroup Issues in Github
