@@ -68,7 +68,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ![Chargrid Roguelike Tutorial 2020](chargrid-roguelike-tutorial-2020.png)
 
-[Chargrid][chargrid] by [@stevebob][] is a collection of crates for building
+[Chargrid][chargrid] by [@stevebob] is a collection of crates for building
 applications with text UIs that run in terminals, graphical windows, and web
 pages. It was made specifically with roguelike development in mind, though is
 general-purpose enough to be used for other applications.
