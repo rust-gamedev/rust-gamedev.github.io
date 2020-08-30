@@ -83,7 +83,6 @@ maps, new kinds of voxels, and graphical improvements. Currently, the library
 and editor depend on the Amethyst engine version 0.15, but there is a desire to
 make the library engine-agnostic. Contributions are welcome!
 
-
 ## Popular Workgroup Issues in Github
 
 ## Meeting Minutes
