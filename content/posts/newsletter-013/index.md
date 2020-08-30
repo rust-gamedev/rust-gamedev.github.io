@@ -68,6 +68,8 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [rspirv-reflect] v0.1
 
+![Traverse Research banner](traverse-research-banner.png)
+
 At [Traverse Research] we've created the [rspirv-reflect] library to replace
 our very basic use-case of the existing [spirv-reflect-rs] / [spirv-reflect]
 libraries that are already out there. The current iteration of `rspirv-reflect`
