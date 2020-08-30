@@ -403,6 +403,32 @@ _Discussions: [/r/rust_gamedev][inline-spirv-discussion]_
 [Inline SPIR-V]: https://github.com/PENGUINLIONG/inline-spirv-rs
 [inline-spirv-discussion]: https://reddit.com/r/rust_gamedev/comments/ic1005/inline_spirv
 
+### [rspirv-reflect] v0.1
+
+![Traverse Research banner](traverse-research-banner.png)
+
+[Traverse Research] has created the [rspirv-reflect] library to replace
+their very basic use-case of the existing [spirv-reflect-rs] / [spirv-reflect]
+libraries that are already out there. The current iteration of `rspirv-reflect`
+is pretty minimal, but it allows you to extract the binding setup from a SPIR-V
+binary. `rspirv-reflect` supports the latest version of SPIR-V (version 1.5 as
+of writing) and it also supports all the new shader stages (both ray tracing
+and mesh/task shaders) as well as the existing ones.
+
+Traverse Research wanted to reduce their reliance on C and C++ unsafe
+libraries and at the same time they needed to support newer features that were
+slow to become available in the existing `spirv-reflect` library. The primary
+use-case for this library is in conjecture with the Rust wrapper around the
+DirectX Shader Compiler ([dxc]), called [hassle-rs] that Traverse Research
+also built.
+
+[Traverse Research]: https://traverseresearch.nl
+[rspirv-reflect]: https://github.com/Traverse-Research/rspirv-reflect
+[spirv-reflect]: https://github.com/KhronosGroup/SPIRV-Reflect
+[spirv-reflect-rs]: https://github.com/gwihlidal/spirv-reflect-rs
+[hassle-rs]: https://github.com/Traverse-Research/hassle-rs
+[dxc]: https://github.com/microsoft/DirectXShaderCompiler
+
 ### [KAS] v0.5 and [KAS-text] v0.1
 
 ![KAS text layout](kas-text-layout.png)
