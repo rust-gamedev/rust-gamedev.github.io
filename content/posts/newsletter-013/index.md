@@ -73,8 +73,8 @@ If needed, a section can be split into subsections with a "------" delimiter.
 [voxel-mapper](https://github.com/amethyst/voxel-mapper) is a new library and
 in-game editor for voxel maps, smooth or cubey. The ultimate goal of the project
 is to make it easy for artists and programmers alike to generate volumetric game
-content, either manually or procedurally. The library's author @bonsairobo has
-written a couple posts about the [underlying meshing technology](https://medium.com/@bonsairobo/smooth-voxel-mapping-a-technical-deep-dive-on-real-time-surface-nets-and-texturing-ef06d0f8ca14)
+content, either manually or procedurally. The library's author [@bonsairobo](https://github.com/bonsairobo/)
+has written a couple posts about the [underlying meshing technology](https://medium.com/@bonsairobo/smooth-voxel-mapping-a-technical-deep-dive-on-real-time-surface-nets-and-texturing-ef06d0f8ca14)
 as well as how the [camera resolves collisions](https://medium.com/@bonsairobo/a-3rd-person-camera-in-complex-voxel-world-523944d5335c)
 with arbitrary voxel geometry.
 
