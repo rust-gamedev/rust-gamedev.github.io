@@ -68,15 +68,19 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### NeoCogi's libraries
 
-[Jude3D](https://neocogi.com) is a web based 3D sculpting application! It's a webassembly application, written in C/C++ and compiled using emscripten. After much thinking we decided to move the development to Rust!
+[Jude3D](https://neocogi.com) is a web based 3D sculpting application!
+It's a webassembly application, written in C/C++ and compiled using emscripten.
+After much thinking we decided to move the development to Rust!
 
 ![](jude3d.png)
 
-Many problems arise when moving existing C/C++/webassembly code to Rust. The 2 most important ones:
-* The new code should still interop with the already existing code
-* Payload size matters on the web: Your wasm app should be as small as possible
+Many problems arise when moving existing C/C++/webassembly code to Rust.
+The 2 most important ones:
+- The new code should still interop with the already existing code
+- Payload size matters on the web: Your wasm app should be as small as possible
 
-These led us to drop using rust's std in favor to our own libs (`!#[no_std]`), at least until the std library crates are split up accordingly and stabilized (example the `alloc` crate).
+These led us to drop using rust's std in favor to our own libs (`!#[no_std]`),
+at least until the std library crates are split up accordingly and stabilized (example the `alloc` crate).
 
 The good news is that we are releasing most of the libraries as we make them as open source! [NeoCogi Repo](https://github.com/NeoCogi)
 
