@@ -67,6 +67,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ## Library & Tooling Updates
 
 ### NeoCogi's libraries
+
 [Jude3D](https://neocogi.com) is a web based 3D sculpting application! It's a webassembly application, written in C/C++ and compiled using emscripten. After much thinking we decided to move the development to Rust!
 
 ![](jude3d.png)
