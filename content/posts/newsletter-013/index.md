@@ -78,7 +78,6 @@ Many problems arise when moving existing C/C++/webassembly code to Rust.
 The 2 most important ones:
 
 - The new code should still interop with the already existing code
-
 - Payload size matters on the web: Your wasm app should be as small as possible
 
 These led us to drop using rust's std in favor to our own libs (`!#[no_std]`),
@@ -91,8 +90,10 @@ The good news is that we are releasing most of the libraries as we make them as
 [NeoCogi Repo](https://github.com/NeoCogi)
 
 We have included an example that showcase the libs:
-
 [Webassembly glfw3/gles2 example](https://github.com/NeoCogi/rs-glfw3-gles2-test)
+A good example that you can build and run with wasm32-unknown-emscripten!
+
+[Jude3D in action]: https://twitter.com/weloraiby/status/1167228654922928130
 
 ## Popular Workgroup Issues in Github
 
