@@ -66,7 +66,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
-### [wowAddonManager] v1.0.2 
+### [wowAddonManager] v1.0.2
 
 ![wowAddonManager Example](wowAddonManager-example.png)
 
