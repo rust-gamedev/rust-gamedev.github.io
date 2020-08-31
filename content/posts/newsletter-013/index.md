@@ -67,6 +67,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ## Library & Tooling Updates
 
 ### [blitz-path](https://github.com/BezPowell/blitz-path)
+
 [blitz-path](https://github.com/BezPowell/blitz-path) is a new crate providing
 an implementation of the [JPS](https://en.wikipedia.org/wiki/Jump_point_search)
 pathfinding algorithm.
