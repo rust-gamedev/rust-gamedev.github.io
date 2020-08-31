@@ -66,6 +66,38 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
+### [SPIR-Q]
+
+[SPIR-Q] is a light-weight shader reflection library, which allows you to query
+the types, offsets, sizes and even names in your shaders procedurally. SPIR-Q
+supports not only descriptor bindings, input/output variables, but also push
+constants and specialization constants; not only uniform buffers but also
+dynamically-sized storage buffers, textures, separable samplers and even storage
+images with component format detail. The latest version of SPIR-Q (v0.4.6) is in
+conformance with the specification of SPIR-V 1.5, supporting all shader stages
+accepted by the latest core profile of the Vulkan API, Vulkan 1.2.
+
+*Discussions: [/r/rust_gamedev][spirq-discussion]*
+
+[SPIR-Q]: https://github.com/PENGUINLIONG/spirq-rs
+[spirq-discussion]: https://www.reddit.com/r/rust_gamedev/comments/i6hxh6/spirq_042_is_now_released/
+
+### [Inline SPIR-V]
+
+![inline-spirv](inline-spirv-demo.png)
+
+[Inline SPIR-V] is a single-crate build-time shader compilation library based on
+shaderc which provides procedural macros to help you translate shader sources,
+in either GLSL or HLSL, inline or from-file, into SPIR-Vs and embed the SPIR-Vs
+right inside your code as `u32` slices. Despite basic shader compilation,
+`inline-spirv` also support `#include` directives, macro substitution,
+post-compile optimization, as well as descriptor auto-binding.
+
+*Discussions: [/r/rust_gamedev][inline-spirv-discussion]*
+
+[Inline SPIR-V]: https://github.com/PENGUINLIONG/inline-spirv-rs
+[inline-spirv-discussion]: https://www.reddit.com/r/rust_gamedev/comments/ic1005/inline_spirv_compile_and_embed_spirv_right_from/
+
 ## Popular Workgroup Issues in Github
 
 ## Meeting Minutes
