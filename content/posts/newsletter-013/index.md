@@ -66,6 +66,30 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
+### 🐦 [Puffin Profiler]
+
+Pufin is a simple instrumentation profiler created by [Embark]
+where you opt-in to profile parts of you code.
+
+``` rust
+fn my_function() {
+    puffin::profile_function!():
+    ...
+    if ... {
+        puffin::profile_scope_data!("load_image", image_name):
+        ...
+    }
+}
+```
+
+The collected profile data can be viewed ingame with [imgui-rs].
+
+![Puffin flamegraph shown with puffin-imgui](puffin.png)
+
+[Puffin Profiler]: https://github.com/EmbarkStudios/puffin
+[Embark]: https://www.embark-studios.com/
+[imgui-rs]: https://github.com/Gekkio/imgui-rs
+
 ## Popular Workgroup Issues in Github
 
 ## Meeting Minutes
