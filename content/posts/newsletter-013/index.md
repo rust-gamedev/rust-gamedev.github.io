@@ -62,9 +62,37 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [vange-rs][vange-repo]
+
+![vangers-shadow](https://gfx-rs.github.io/img/vangers-shadows.png)
+
+Vangers got real-time shadows!
+See [video on /r/rust_gamedev][vangers-shadow-video] and technical description on the [Hybrid Shadows][vangers-shadow-blog] post of the blog.
+
+Another exciting development - the new bruteforce rendering technique allowing to shift the camera behind the mechos as in 3rd person view.
+See [video on /r/rust_gamedev](vangers-bars-video) and technical description on the [Bar Painting][vangers-bars-blog] post of the blog.
+
+[vange-repo]: https://github.com/kvark/vange-rs
+[vangers-shadow-video](https://www.reddit.com/r/rust_gamedev/comments/i32p6r/realtime_hybrid_shadows_in_vangers/?ref=share&ref_source=link)
+[vangers-shadow-blog](https://kvark.github.io/vange-rs/2020/08/04/shadows.html)
+[vangers-bars-video](https://www.reddit.com/r/rust_gamedev/comments/igejxy/vangers_3rd_person_camera/?ref=share&ref_source=link)
+[vangers-bars-blog](https://kvark.github.io/vange-rs/2020/08/29/bar-painting.html)
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
+
+### [gfx-rs][gfx-repo] and [wgpu][wgpu-site]
+
+![wgpu-rs water](https://wgpu.rs/screenshots/example-water.gif)
+
+gfx-rs project and wgpu ecosystem have observed the release of 0.6 versions :tada:
+Read about the details on [gfx-rs blog](https://gfx-rs.github.io/2020/08/18/release-0.6.html).
+
+[@sothr](https://github.com/sothr) has reworked the [wgpu instancing tutorial](https://sotrh.github.io/learn-wgpu/beginner/tutorial7-instancing/#the-instance-buffer). See discussion at [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/i8np5v/simplified_instancing_tutorial_learn_wgpu/).
+
+[gfx-repo]: https://github.com/gfx-rs/gfx
+[wgpu-site]: https://wgpu.rs
 
 ## Popular Workgroup Issues in Github
 
