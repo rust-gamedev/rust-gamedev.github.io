@@ -66,6 +66,20 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
+### [wowAddonManager] v1.0.2 
+
+![wowAddonManager Example](wowAddonManager-example.png)
+
+The [wowAddonManager](https://github.com/MR2011/wowAddonManager) is a terminal
+user interface for managing World of Warcraft addons on Linux made by
+[@mreimsbach](https://twitter.com/mreimsbach). It allows installing addons from
+[Curseforge](https://www.curseforge.com/wow/addons) for WoW Classic as well as
+WoW Retail.
+
+The [tui-rs library](https://github.com/fdehau/tui-rs) was used to create the
+interface and [Termion](https://gitlab.redox-os.org/redox-os/termion) was used
+to communicate with the TTY.
+
 ## Popular Workgroup Issues in Github
 
 ## Meeting Minutes
