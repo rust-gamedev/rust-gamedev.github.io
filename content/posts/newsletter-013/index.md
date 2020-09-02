@@ -66,7 +66,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
-### [This Month in Mun][mun-july]
+### [This Month in Mun][mun-august]
 
 [![Mun logo](mun-logo.png)][Mun]
 
