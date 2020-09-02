@@ -75,7 +75,7 @@ into spikes.
 Made with hecs and wgpu (no framework), but uses WebGL on the web
 because of the current implementation status of WebGPU.
 
-Made during the [Extra Credits game jam][extra-credits-jam], 
+Made during the [Extra Credits game jam][extra-credits-jam],
 it's a rather small game.
 It can be played in the browser or downloaded at [itch.io][Cary].
 
