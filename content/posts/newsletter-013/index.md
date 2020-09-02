@@ -92,7 +92,9 @@ the [Bar Painting][vangers-bars-blog] post of the blog.
 gfx-rs project and wgpu ecosystem have observed the release of 0.6 versions :tada:
 Read about the details on [gfx-rs blog](https://gfx-rs.github.io/2020/08/18/release-0.6.html).
 
-[@sothr](https://github.com/sothr) has reworked the [wgpu instancing tutorial][wgpu-instancing-tutor]. See discussion at [/r/rust_gamedev][wgpu-instancing-reddit].
+[@sothr](https://github.com/sothr) has reworked the
+[wgpu instancing tutorial][wgpu-instancing-tutor]. See discussion at
+[/r/rust_gamedev][wgpu-instancing-reddit].
 
 [gfx-repo]: https://github.com/gfx-rs/gfx
 [wgpu-site]: https://wgpu.rs
