@@ -62,6 +62,23 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### Cary
+
+[![Dodging bullets and carrying Cary to temporary safety](cary_screenshot.png)][Cary]
+
+In Cary the player has to bring the titular character to the exit by carying them
+or otherwise making sure they don't – nor the player themselves – touch any of the traps.
+Easier said then done when you have limited stamina and Cary keeps running into spikes.
+It was made with hecs and wgpu, but uses WebGL on the web because of the current implementation
+status of WebGPU.
+
+Made during the [Extra Credits game jam][extra-credits-jam], it's a rather small game.
+It can be played in the browser or downloaded at [itch.io][Cary].
+
+[Cary]: https://specificprotagonist.itch.io/cary
+[extra-credits-jam]: https://itch.io/jam/extra-credits-game-jam-6
+
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
