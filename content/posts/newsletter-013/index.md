@@ -91,7 +91,7 @@ Window::new("Debug").show(ui.ctx(), |ui| {
 ![Egui](egui.png)
 
 _Discussions:
-[/r/rust](https://reddit.com/r/rust/comments/hzwvsk/emigui_deserves_more_love)
+[/r/rust](https://reddit.com/r/rust/comments/hzwvsk/emigui_deserves_more_love)_
 
 [Egui]: https://github.com/emilk/egui/
 [egui_glium]: https://crates.io/crates/egui_glium
