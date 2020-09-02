@@ -69,7 +69,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ### 🐦 [Puffin Profiler]
 
 Pufin is a simple instrumentation profiler created by [Embark]
-where you opt-in to profile parts of you code.
+where you can opt-in to profile parts of your code.
 
 ``` rust
 fn my_function() {
