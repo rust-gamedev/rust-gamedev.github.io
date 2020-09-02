@@ -67,10 +67,13 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ![vangers-shadow](https://gfx-rs.github.io/img/vangers-shadows.png)
 
 Vangers got real-time shadows!
-See [video on /r/rust_gamedev][vangers-shadow-video] and technical description on the [Hybrid Shadows][vangers-shadow-blog] post of the blog.
+See [video on /r/rust_gamedev][vangers-shadow-video] and technical description
+on the [Hybrid Shadows][vangers-shadow-blog] post of the blog.
 
-Another exciting development - the new bruteforce rendering technique allowing to shift the camera behind the mechos as in 3rd person view.
-See [video on /r/rust_gamedev][vangers-bars-video] and technical description on the [Bar Painting][vangers-bars-blog] post of the blog.
+Another exciting development - the new bruteforce rendering technique allowing
+to shift the camera behind the mechos as in 3rd person view.
+See [video on /r/rust_gamedev][vangers-bars-video] and technical description on
+the [Bar Painting][vangers-bars-blog] post of the blog.
 
 [vange-repo]: https://github.com/kvark/vange-rs
 [vangers-shadow-video](https://www.reddit.com/r/rust_gamedev/comments/i32p6r/realtime_hybrid_shadows_in_vangers/?ref=share&ref_source=link)
