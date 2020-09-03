@@ -66,16 +66,16 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ![Chillscapes Main Menu](chillscapes_main_menu.png)
 
-[Chillscapes](https://khonsulabs.itch.io/chillscapes) is a lo-fi
-rhythm experience created for the [NEOC#03 Rhythm Game Jam](neoc). Using
+[Chillscapes][chillscapes-github] is a lo-fi
+rhythm experience created for the [NEOC#03 Rhythm Game Jam][neoc]. Using
 layerable lo-fi music tracks, the game has you tap with the rhythm of the loops
 being added, before changing the music up by adding another loop into the mix.
-Last week, [a retrospective update was published](chillscapes-retrospective)
+Last week, [a retrospective update was published][chillscapes-retrospective]
 reflecting on what the developer's takeaways were from the experience.
 
 Chillscapes is written using an early-in-development 2d engine,
-[Kludgine](kludgine). For audio playback, rodio was utilized. The source code is
-[available on GitHub](chillscapes-github).
+[Kludgine][kludgine]. For audio playback, rodio was utilized. The source code is
+[available on GitHub][chillscapes-github].
 
 [chillscapes-itch]: https://khonsulabs.itch.io/chillscapes
 [chillscapes-github]: https://github.com/khonsulabs/chillscapes
