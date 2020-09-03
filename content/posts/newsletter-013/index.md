@@ -90,7 +90,7 @@ goals include:
 [or find the GitHub page here][simple-physics-github]
 
 _Discussions:
-[/r/rust](https://www.reddit.com/r/rust/comments/ibk2rf/announcing_simple_physics_a_set_of_educational/)
+[/r/rust](https://www.reddit.com/r/rust/comments/ibk2rf/announcing_simple_physics_a_set_of_educational/)_
 
 [simple-physics-site]: https://mkhan45.github.io/SIMple-Physics/
 [simple-physics-gifs]: https://mkhan45.github.io/SIMple-Physics/posts/Gifs/
