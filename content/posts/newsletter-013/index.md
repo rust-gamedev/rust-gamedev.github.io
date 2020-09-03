@@ -70,7 +70,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 Piston is a modular game engine written in Rust.
 
-A new Discord channel has been set up for the Piston project: https://t.co/8YOj3auDr9?amp=1
+A new [Discord channel](https://t.co/8YOj3auDr9?amp=1) has been set up for the Piston project.
 
 Piston consists of a core library "piston" which itself are composed of smaller libraries for abstracting input, window and event loop.
 This design helps reducing breaking changes in the ecosystem.
