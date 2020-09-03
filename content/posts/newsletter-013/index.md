@@ -83,11 +83,9 @@ goals include:
 - Ease of use
 - Extensibility
 
-[Find out more about the project here][simple-physics-site]
-
-[Watch some cool gifs here][simple-physics-gifs]
-
-[or find the GitHub page here][simple-physics-github]
+To find out more about the project, visit the site [here][simple-physics-site],
+watch some cool gifs [here][simple-physics-gifs], or read the GitHub page
+[here][simple-physics-github]
 
 _Discussions:
 [/r/rust](https://www.reddit.com/r/rust/comments/ibk2rf/announcing_simple_physics_a_set_of_educational/)_
