@@ -70,7 +70,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 Piston is a modular game engine written in Rust.
 
-A new [Discord channel](https://t.co/8YOj3auDr9?amp=1) has been set up
+A new [Piston Discord Channel] has been set up
 for the Piston project.
 
 Piston consists of a core library "piston" which itself are composed of
@@ -109,8 +109,7 @@ dyon_fn!{fn set_simple__scene_sdf_id(
 }}
 ```
 
-To follow updates on Dyon, check out the subreddit
-[/r/dyon](https://old.reddit.com/r/dyon/).
+To follow updates on Dyon, check out the subreddit [/r/dyon].
 
 ------
 
@@ -123,7 +122,7 @@ has been updated to the latest version.
 ------
 
 The research branch of the Piston project, AdvancedResearch,
-has released a new ECS library [Nano-ECS](https://github.com/advancedresearch/nano_ecs).
+has released a new ECS library [Nano-ECS].
 
 This ECS design stores all components in a single array
 and uses bit masks for enabling/disabling components.
@@ -139,11 +138,12 @@ but can generate draw commands for processing by other 2D APIs.
 It is also possible to override rendering of widgets for
 custom looks with Piston-Graphics, which is often useful in gamedev.
 Recently, this project has gotten to a place where
-[tree-view interaction](https://tinyurl.com/y63f5xkv) is working.
+[tree-view interaction] is working.
 
 [Piston Discord Channel]: https://t.co/8YOj3auDr9?amp=1
 [/r/dyon]: https://old.reddit.com/r/dyon/
-[@PistonDeveloper twitter)](https://twitter.com/PistonDeveloper)
+[@PistonDeveloper at Twitter]: https://twitter.com/PistonDeveloper
+[tree-view interaction]: https://twitter.com/PistonDeveloper/status/1299840279374110720
 
 [Piston]: https://github.com/pistondevelopers/piston
 [Dyon]: https://github.com/pistondevelopers/dyon
