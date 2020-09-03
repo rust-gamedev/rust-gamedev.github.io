@@ -141,10 +141,9 @@ custom looks with Piston-Graphics, which is often useful in gamedev.
 Recently, this project has gotten to a place where
 [tree-view interaction](https://tinyurl.com/y63f5xkv) is working.
 
-_Discussions:
 [Piston Discord Channel]: https://t.co/8YOj3auDr9?amp=1
 [/r/dyon]: https://old.reddit.com/r/dyon/
-[@PistonDeveloper (twitter)](https://twitter.com/PistonDeveloper)
+[@PistonDeveloper twitter)](https://twitter.com/PistonDeveloper)
 
 [Piston]: https://github.com/pistondevelopers/piston
 [Dyon]: https://github.com/pistondevelopers/dyon
