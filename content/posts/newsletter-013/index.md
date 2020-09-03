@@ -92,7 +92,8 @@ It uses a lifetime checker instead of garbage collection, a mutability checker,
 optional namespaces and ad-hoc types, named argument syntax,
 4D vectors and HTML colors, plus a lot more features!
 
-Recently, Dyon got better macro integration for native Rust types using `#` as a prefix.
+Recently, Dyon got better macro integration for native Rust types
+using `#` as a prefix.
 
 Here is an example of this feature is being tested in
 an experimental offline 3D renderer (not open sourced):
@@ -138,9 +139,7 @@ but can generate draw commands for processing by other 2D APIs.
 It is also possible to override rendering of widgets for
 custom looks with Piston-Graphics, which is often useful in gamedev.
 Recently, this project has gotten to a place where
-[tree-view interaction](https://twitter.com/PistonDeveloper/status/1299840279374110720) is working.
-
-------
+[tree-view interaction](https://tinyurl.com/y63f5xkv) is working.
 
 Discussions:
 [Piston Discord Channel]: https://t.co/8YOj3auDr9?amp=1
