@@ -62,6 +62,41 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [SIMple Physics][simple-physics-site]
+
+[![SIMple Mechanics wave preset]](simple-physics-wave.gif)[simple-physics-gifs]
+
+^ One of SIMple Mechanic's Lua presets, a colorful wave of bouncing circles
+
+[SIMple Physics][simple-physics-site] by [@mkhan45] is a set of educational physics
+simulators meant to help students and teachers conduct labs without expensive equipment
+or in person classes. Each simulator uses serializeable graphs, object inspection,
+Lua scripting, and a few other features to help students learn. Currently, there
+is a simulator for mechanics/projectile motion and one for universal gravitation,
+but the goal is to include one for electronics/magnetism and one for waves/optics.
+
+Written in Rust using `ggez`, `specs`, `imgui-rs`, and `nphysics`, this project's
+goals include:
+
+- Performance
+- Accessibility/Portability
+- Ease of use
+- Extensibility
+
+[Find out more about the project here][simple-physics-site]
+
+[Watch some cool gifs here][simple-physics-gifs]
+
+[or find the GitHub page here][simple-physics-github]
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/ibk2rf/announcing_simple_physics_a_set_of_educational/)
+
+[simple-physics-site]: https://mkhan45.github.io/SIMple-Physics/
+[simple-physics-gifs]: https://mkhan45.github.io/SIMple-Physics/posts/Gifs/
+[simple-physics-github]: https://mkhan45.github.io/SIMple-Physics/posts/Gifs/
+[@mkhan45]: https://github.com/mkhan45
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
