@@ -66,6 +66,25 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
+### [starframe]
+
+![Current state of starframe graphics and physics](starframe-demo.gif)
+
+[starframe] by [@moletrooper] is a work-in-progress 2D game engine
+for physics-y sidescrolling games. This month it received
+[an experimental graph-based entity system][sf-graph-post].
+
+The next area of focus is going to be fleshing out the physics with
+generalized constraints, which will enable things like friction and joints.
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/iju3xq/starframe_devlog_architecture_ecs_graph/),
+[twitter](https://twitter.com/moletrooper/status/1300034941816897542)_
+
+[starframe]: https://github.com/moletrooper/starframe
+[@moletrooper]: https://twitter.com/moletrooper
+[sf-graph-post]: https://moletrooper.github.io/blog/2020/08/starframe-1-architecture/
+
 ## Popular Workgroup Issues in Github
 
 ## Meeting Minutes
