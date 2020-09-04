@@ -173,7 +173,7 @@ organized with one branch for each subsection.
 
 ## Library & Tooling Updates
 
-### [Rapier: 2D and 3D physics engines focused on performance][rapier-august]
+### [Rapier: 2D and 3D Physics Engines Focused on Performance][rapier-august]
 
 [![Rapier logo](rapier-logo.svg)][Rapier]
 
