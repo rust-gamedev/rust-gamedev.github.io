@@ -62,6 +62,47 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Egregoria]
+
+![Egregoria buildings screenshot](egregoria.png)
+
+[Egregoria]'s objective is to become a granular society simulation,
+filled with fully autonomous agents interacting with their world in real time.
+Egregoria was previously known as Scale,
+but was renamed to fit the theme better.
+
+The [5th devlog][egregoria-blog-post] was published, talking about
+the renaming, project managment, buildings and scripting.
+
+A [Discord][egregoria-discord] server was launched to discuss the project.
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/igzbl9/egregoria_devblog_5)_
+
+[Egregoria]: https://github.com/Uriopass/Egregoria
+[egregoria-blog-post]: http://douady.paris/blog/egregoria_5.html
+[egregoria-discord]: https://discord.gg/CAaZhUJ
+
+### [Cary]
+
+[![Dodging bullets and carrying Cary to temporary safety](cary_screenshot.png)][Cary]
+
+In [Cary] the player has to bring the titular character to the exit by carying
+them or otherwise making sure they don't – nor the player themselves –
+touch any of the traps.
+Easier said then done when you have limited stamina and Cary keeps running
+into spikes.
+
+Made with hecs and wgpu (no framework), but uses WebGL on the web
+because of the current implementation status of WebGPU.
+
+Made during the [Extra Credits game jam][extra-credits-jam],
+it's a rather small game.
+It can be played in the browser or downloaded at [itch.io][Cary].
+
+[Cary]: https://specificprotagonist.itch.io/cary
+[extra-credits-jam]: https://itch.io/jam/extra-credits-game-jam-6
+
 ### [Chillscapes][chillscapes-itch]
 
 ![Chillscapes Main Menu](chillscapes_main_menu.png)
@@ -85,7 +126,243 @@ Chillscapes is written using an early-in-development 2d engine,
 
 ## Learning Material Updates
 
+### [Writing NES Emulator in Rust][rust_nes_tutorial]
+
+![writing nes emulator](nes_emulator_rust.png)
+
+"Writing NES Emulator in Rust" is a tutorial by [@bugzmanov] on creating a fully
+capable NES/Famicom emulator from scratch in the online book format. It walks
+through major steps of emulating NES platform components to run
+all-time classics, like Pacman, Donkey Kong, and Super Mario Bros.
+
+It's a fun way of getting into hardware internals and fundamentals of
+computer systems. The tutorial also covers game-dev basics and how to
+work with graphics in Rust using [SDL2][sdl2] library.
+
+[rust_nes_tutorial]: https://bugzmanov.github.io/nes_ebook/index.html
+[@bugzmanov]: https://twitter.com/bugzmanov
+[sdl2]:https://www.libsdl.org/
+
+### [Beginning Game Development with Amethyst][rustconf-talk-video]
+
+[![youtube preview](rustconf-amethyst-talk.png)][rustconf-talk-video]
+
+^ _Click to [watch the talk][rustconf-talk-video]._
+
+Getting started with Rust + gamedev can be intimidating. At
+[RustConf 2020][rust-conf-2020], [Micah Tigley] gave a talk about their experience
+beginning game development using the [Amethyst][amethyst-link] game engine and
+learning about ECS by implementing examples that aim to be accessible for
+beginners.
+
+Supporting blog posts for talk:
+
+- [Creating a Simple Spritesheet Animation with Amethyst][micah-blog-part1]
+- [Running Animation][micah-blog-part2]
+- [Camera Follow System][micah-blog-part3]
+
+The source code for the [demo can be found here][micah-demo-src].
+
+[Micah Tigley]: https://twitter.com/micah_tigley
+[rustconf-talk-video]: https://www.youtube.com/watch?v=GFi_EdS_s_c
+[micah-blog-part1]: https://mtigley.dev/posts/sprite-animations-with-amethyst
+[micah-blog-part2]: https://mtigley.dev/posts/running-animation
+[micah-blog-part3]: https://mtigley.dev/posts/camera-follow-system
+[micah-demo-src]: https://github.com/tigleym/sprite_animations_demo
+[amethyst-link]: https://amethyst.rs/
+[rust-conf-2020]: https://rustconf.com
+
+### [Chargrid Roguelike Tutorial 2020][chargrid-roguelike-tutorial-2020]
+
+![Chargrid Roguelike Tutorial 2020](chargrid-roguelike-tutorial-2020.png)
+
+[Chargrid][chargrid] by [@stevebob] is a collection of crates for building
+applications with text UIs that run in terminals, graphical windows, and web
+pages. It was made specifically with roguelike development in mind, though is
+general-purpose enough to be used for other applications.
+
+[Chargrid Roguelike Tutorial 2020][chargrid-roguelike-tutorial-2020]
+is a tutorial series about making a traditional roguelike from scratch
+using chargrid for rendering and input handling. Reference code is available in
+[this git repo][chargrid-roguelike-tutorial-2020-reference-code]
+organized with one branch for each subsection.
+
+[chargrid-roguelike-tutorial-2020]: https://gridbugs.org/roguelike-tutorial-2020/
+[chargrid-roguelike-tutorial-2020-reference-code]: https://github.com/stevebob/chargrid-roguelike-tutorial-2020
+[chargrid]: https://github.com/stevebob/chargrid/
+[@stevebob]: https://github.com/stevebob
+
 ## Library & Tooling Updates
+
+### [Rapier: 2D and 3D Physics Engines Focused on Performance][rapier-august]
+
+[![Rapier logo](rapier-logo.svg)][Rapier]
+
+[Rapier] is a new set of 2D and 3D physics engines written 100% in Rust.
+It is 5 to 10 times faster than [nphysics], close to the performances of the
+CPU version of PhysX, and often slightly faster than Box2D.
+
+[For its first release][rapier-august] Rapier includes:
+
+- rigid-body dynamics;
+- colliders and sensors;
+- joint constraints;
+- optional serialization of the physics state;
+- optional cross-platform determinism on IEEE-754 compliant targets;
+- optional explicit SIMD and parallelism.
+- JavaScript bindings with official NPM packages.
+
+This new physics engine is developed by the recently created [Dimforge]
+single-member Open-Source company [replacing][dimforge-replace] the former
+Rustsim organization created on GitHub by [@sebcrozet].
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/igkul2/announcing_rapier_2d_and_3d_physics_engines/)_
+
+[Rapier]: https://rapier.rs
+[rapier-august]: https://www.dimforge.com/blog/2020/08/25/announcing-the-rapier-physics-engine
+[dimforge-replace]: https://www.dimforge.com/blog/2020/08/18/rustsim-becomes-dimforge
+[Dimforge]: https://dimforge.com
+[@sebcrozet]: https://github.com/sebcrozet/
+[nphysics]: https://nphysics.org
+
+### [Egui]
+
+[Egui] is a highly portable immediate mode GUI library in pure Rust.
+Egui can be integrated anywhere you can paint textured triangles.
+You can compile Egui to WASM and render it on a web page using [egui_web]
+or compile and run natively using [egui_glium].
+
+[Click to run Egui web demo](https://emilk.github.io/egui/index.html)
+
+Example:
+
+```rust
+Window::new("Debug").show(ui.ctx(), |ui| {
+    ui.label(format!("Hello, world {}", 123));
+    if ui.button("Save").clicked {
+        my_save_function();
+    }
+    ui.text_edit(&mut my_string);
+    ui.add(Slider::f32(&mut value, 0.0..=1.0).text("float"));
+});
+```
+
+![Egui](egui.png)
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/hzwvsk/emigui_deserves_more_love)_
+
+[Egui]: https://github.com/emilk/egui/
+[egui_glium]: https://crates.io/crates/egui_glium
+[egui_web]: https://crates.io/crates/egui_web
+
+### 🐦 [Puffin Profiler]
+
+Pufin is a simple instrumentation profiler created by [Embark]
+where you can opt-in to profile parts of your code.
+
+```rust
+fn my_function() {
+    puffin::profile_function!():
+    ...
+    if ... {
+        puffin::profile_scope_data!("load_image", image_name):
+        ...
+    }
+}
+```
+
+The collected profile data can be viewed ingame with [imgui-rs].
+
+![Puffin flamegraph shown with puffin-imgui](puffin.png)
+
+[Puffin Profiler]: https://github.com/EmbarkStudios/puffin
+[Embark]: https://www.embark-studios.com/
+[imgui-rs]: https://github.com/Gekkio/imgui-rs
+
+### [hexasphere] v1.0
+
+![hexasphere example gif](hexasphere.gif)
+
+The [hexasphere] library provides a customizable interface for subdividing 3D
+triangle meshes. Custom and stateful interpolation functions can be implemented
+as well as per-vertex attributes.
+
+All that's required to define a base shape are the initial vertices, triangles
+based on the indices of the vertices in the initial vertices, and numbered
+edges. As long as the winding of the triangles remains consistend throughout
+the base mesh, all of the resulting triangles will retain that winding.
+
+This library also provides a few interesting base shapes (which can be used alone
+if the shape is not subdivided):
+Icosahedron, Tetrahedron, Cube, Square Plane, Triangle Plane
+(all of which are pictured above).
+
+[hexasphere]: https://crates.io/crates/hexasphere
+
+### [blitz-path](https://github.com/BezPowell/blitz-path)
+
+[blitz-path](https://github.com/BezPowell/blitz-path) is a new crate providing
+an implementation of the [JPS](https://en.wikipedia.org/wiki/Jump_point_search)
+pathfinding algorithm.
+
+JPS is an optimization of the A* search algorithm for uniform-cost grids, which
+are common in games. While fully functional, the code is still in an early
+state and any suggestions for improvements - especially on how best to
+integrate it with the existing ecosystem - are greatly appreciated.
+
+### [This Month in Mun][mun-august]
+
+[![Mun logo](mun-logo.png)][Mun]
+
+[Mun] is a scripting language for gamedev focused on quick iteration times
+that is written in Rust.
+
+[August updates][mun-august] include:
+
+- compiler support for type aliases;
+- shared diagnostics between compiler and language server;
+- support for the official [inkwell][mun-inkwell] crate;
+- refactors and quality of life improvements.
+
+[Mun]: https://mun-lang.org
+[mun-august]: https://mun-lang.org/blog/2020/08/30/this-month-august/
+[mun-inkwell]: https://crates.io/crates/inkwell
+
+### Tetra
+
+[Tetra] is a simple 2D game framework, inspired by XNA and Raylib. This month,
+versions [0.4.1][tetra-041] and [0.4.2][tetra-042] were released, featuring:
+
+- Improved Serde support
+- Various fixes and improvements to the built-in `Camera` type
+- Many documentation improvements, based on user feedback
+
+In addition, Tetra 0.5 is planned for release in early September. For more
+information on the upcoming changes, see the [changelog][tetra-changelog].
+
+[tetra]: https://github.com/17cupsofcoffee/tetra
+[tetra-041]: https://twitter.com/17cupsofcoffee/status/1289857217198317568
+[tetra-042]: https://twitter.com/17cupsofcoffee/status/1294316642680426497
+[tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
+
+### [wowAddonManager] v1.0.2
+
+![wowAddonManager Example](wowAddonManager-example.png)
+
+The [wowAddonManager] is a terminal user interface for managing World of
+Warcraft addons on Linux made by [@mreimsbach]. It allows installing addons
+from [Curseforge] for WoW Classic as well as WoW Retail.
+
+The [tui-rs] library was used to create the interface and [Termion] was used to
+communicate with the TTY.
+
+[wowAddonManager]: https://github.com/MR2011/wowAddonManager
+[@mreimsbach]: https://twitter.com/mreimsbach
+[Curseforge]: https://www.curseforge.com/wow/addons
+[tui-rs]: https://github.com/fdehau/tui-rs
+[Termion]: https://gitlab.redox-os.org/redox-os/termion
 
 ## Popular Workgroup Issues in Github
 
