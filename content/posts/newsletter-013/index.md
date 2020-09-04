@@ -87,6 +87,26 @@ _Discussions:
 
 ## Library & Tooling Updates
 
+### [hexasphere] v1.0
+
+![hexasphere example gif](hexasphere.gif)
+
+The [hexasphere] library provides a customizable interface for subdividing 3D
+triangle meshes. Custom and stateful interpolation functions can be implemented
+as well as per-vertex attributes.
+
+All that's required to define a base shape are the initial vertices, triangles
+based on the indices of the vertices in the initial vertices, and numbered
+edges. As long as the winding of the triangles remains consistend throughout
+the base mesh, all of the resulting triangles will retain that winding.
+
+This library also provides a few interesting base shapes (which can be used alone
+if the shape is not subdivided):
+Icosahedron, Tetrahedron, Cube, Square Plane, Triangle Plane
+(all of which are pictured above).
+
+[hexasphere]: https://crates.io/crates/hexasphere
+
 ### [blitz-path](https://github.com/BezPowell/blitz-path)
 
 [blitz-path](https://github.com/BezPowell/blitz-path) is a new crate providing
