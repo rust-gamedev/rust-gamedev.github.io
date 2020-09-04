@@ -239,6 +239,24 @@ are common in games. While fully functional, the code is still in an early
 state and any suggestions for improvements - especially on how best to
 integrate it with the existing ecosystem - are greatly appreciated.
 
+### [This Month in Mun][mun-august]
+
+[![Mun logo](mun-logo.png)][Mun]
+
+[Mun] is a scripting language for gamedev focused on quick iteration times
+that is written in Rust.
+
+[August updates][mun-august] include:
+
+- compiler support for type aliases;
+- shared diagnostics between compiler and language server;
+- support for the official [inkwell][mun-inkwell] crate;
+- refactors and quality of life improvements.
+
+[Mun]: https://mun-lang.org
+[mun-august]: https://mun-lang.org/blog/2020/08/30/this-month-august/
+[mun-inkwell]: https://crates.io/crates/inkwell
+
 ### Tetra
 
 [Tetra] is a simple 2D game framework, inspired by XNA and Raylib. This month,
