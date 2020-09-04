@@ -153,6 +153,37 @@ organized with one branch for each subsection.
 
 ## Library & Tooling Updates
 
+### [Egui]
+
+[Egui] is a highly portable immediate mode GUI library in pure Rust.
+Egui can be integrated anywhere you can paint textured triangles.
+You can compile Egui to WASM and render it on a web page using [egui_web]
+or compile and run natively using [egui_glium].
+
+[Click to run Egui web demo](https://emilk.github.io/egui/index.html)
+
+Example:
+
+```rust
+Window::new("Debug").show(ui.ctx(), |ui| {
+    ui.label(format!("Hello, world {}", 123));
+    if ui.button("Save").clicked {
+        my_save_function();
+    }
+    ui.text_edit(&mut my_string);
+    ui.add(Slider::f32(&mut value, 0.0..=1.0).text("float"));
+});
+```
+
+![Egui](egui.png)
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/hzwvsk/emigui_deserves_more_love)_
+
+[Egui]: https://github.com/emilk/egui/
+[egui_glium]: https://crates.io/crates/egui_glium
+[egui_web]: https://crates.io/crates/egui_web
+
 ### 🐦 [Puffin Profiler]
 
 Pufin is a simple instrumentation profiler created by [Embark]
