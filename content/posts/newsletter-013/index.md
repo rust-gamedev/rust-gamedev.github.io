@@ -153,16 +153,19 @@ organized with one branch for each subsection.
 
 ## Library & Tooling Updates
 
-### [SPIR-Q]
+### [SPIR-Q] v0.4.6
 
 [SPIR-Q] is a light-weight shader reflection library, which allows you to query
-the types, offsets, sizes and even names in your shaders procedurally. SPIR-Q
-supports not only descriptor bindings, input/output variables, but also push
-constants and specialization constants; not only uniform buffers but also
-dynamically-sized storage buffers, textures, separable samplers and even storage
-images with component format detail. The latest version of SPIR-Q (v0.4.6) is in
-conformance with the specification of SPIR-V 1.5, supporting all shader stages
-accepted by the latest core profile of the Vulkan API, Vulkan 1.2.
+the types, offsets, sizes and even names in your shaders procedurally.
+
+This month v0.4.2..v0.4.6 versions were released.
+Some of the updates:
+
+- Specialization constants enumeration.
+- Dynamically sized multi-binding support.
+- Improved entrypoint debug printing.
+- Better manifest merging method for pipeline construction.
+- Bugfixes and various small API improvments.
 
 _Discussions: [/r/rust_gamedev][spirq-discussion]_
 
