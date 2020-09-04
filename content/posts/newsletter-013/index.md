@@ -164,10 +164,10 @@ images with component format detail. The latest version of SPIR-Q (v0.4.6) is in
 conformance with the specification of SPIR-V 1.5, supporting all shader stages
 accepted by the latest core profile of the Vulkan API, Vulkan 1.2.
 
-*Discussions: [/r/rust_gamedev][spirq-discussion]*
+_Discussions: [/r/rust_gamedev][spirq-discussion]_
 
 [SPIR-Q]: https://github.com/PENGUINLIONG/spirq-rs
-[spirq-discussion]: https://www.reddit.com/r/rust_gamedev/comments/i6hxh6/spirq_042_is_now_released/
+[spirq-discussion]: https://reddit.com/r/rust_gamedev/comments/i6hxh6/spirq_042
 
 ### [Inline SPIR-V]
 
@@ -180,10 +180,10 @@ right inside your code as `u32` slices. Despite basic shader compilation,
 `inline-spirv` also support `#include` directives, macro substitution,
 post-compile optimization, as well as descriptor auto-binding.
 
-*Discussions: [/r/rust_gamedev][inline-spirv-discussion]*
+_Discussions: [/r/rust_gamedev][inline-spirv-discussion]_
 
 [Inline SPIR-V]: https://github.com/PENGUINLIONG/inline-spirv-rs
-[inline-spirv-discussion]: https://www.reddit.com/r/rust_gamedev/comments/ic1005/inline_spirv_compile_and_embed_spirv_right_from/
+[inline-spirv-discussion]: https://reddit.com/r/rust_gamedev/comments/ic1005/inline_spirv
 
 ### [Egui]
 
