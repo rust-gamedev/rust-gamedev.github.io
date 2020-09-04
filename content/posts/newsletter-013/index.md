@@ -111,7 +111,8 @@ applications with text UIs that run in terminals, graphical windows, and web
 pages. It was made specifically with roguelike development in mind, though is
 general-purpose enough to be used for other applications.
 
-This is a tutorial series about making a traditional roguelike from scratch
+[Chargrid Roguelike Tutorial 2020][chargrid-roguelike-tutorial-2020]
+is a tutorial series about making a traditional roguelike from scratch
 using chargrid for rendering and input handling. Reference code is available in
 [this git repo][chargrid-roguelike-tutorial-2020-reference-code]
 organized with one branch for each subsection.
