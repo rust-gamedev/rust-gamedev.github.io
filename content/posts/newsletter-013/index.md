@@ -79,6 +79,7 @@ like last year's Play NYC venue, included placing virtual booths for other games
 throughout the level.
 
 How to stay up to date:
+
 - [Try the demo/wishlist on Steam][Way of Rhea]
 - [Follow the studio on Twitter][Anthropic Twitter]
 - [Follow Mason Remaley on Twitter][Mason Remaley Twitter]
