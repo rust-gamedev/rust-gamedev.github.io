@@ -66,19 +66,20 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 [![Anthropic's virtual booth at Play NYC](way-of-rhea-play-nyc.png)][Way of Rhea]
 
-[Way of Rhea] temporarily has a [free demo][Way of Rhea] online as part of
+[Way of Rhea] has a [free demo][Way of Rhea] temporarily available as part of
 [Play NYC]!
 
-Way of Rhea is a puzzle platformer in a world where you can only interact with
-items that match your current color.
+Way of Rhea is a puzzle platformer that takes place in a world where you can
+only interact with items that match your current color.
 
-The new demo has a level not previously shown, demonstrating a new
-mechanic—circuit puzzles. Since Play NYC couldn't be in person this
-year, the devs temporarily themed one of the levels to look like last year's
-venue, included placing virtual booths for other games throughout the level.
+The new demo includes a level that wasn't part of the Steam Game Festival,
+showing off how circuit puzzles will work in the game. Since Play NYC
+couldn't be in person this year, the devs temporarily themed this level to look
+like last year's Play NYC venue, included placing virtual booths for other games
+throughout the level.
 
-Ways to keep up to date:
-- [Download demo/wishlist on Steam][Way of Rhea]
+How to stay up to date:
+- [Try the demo/wishlist on Steam][Way of Rhea]
 - [Follow the studio on Twitter][Anthropic Twitter]
 - [Follow Mason Remaley on Twitter][Mason Remaley Twitter]
 - [Sign up for the studio's mailing list][Anthropic Newsletter]
