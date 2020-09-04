@@ -62,6 +62,27 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Egregoria]
+
+![Egregoria buildings screenshot](egregoria.png)
+
+[Egregoria]'s objective is to become a granular society simulation,
+filled with fully autonomous agents interacting with their world in real time.
+Egregoria was previously known as Scale,
+but was renamed to fit the theme better.
+
+The [5th devlog][egregoria-blog-post] was published, talking about
+the renaming, project managment, buildings and scripting.
+
+A [Discord][egregoria-discord] server was launched to discuss the project.
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/igzbl9/egregoria_devblog_5)_
+
+[Egregoria]: https://github.com/Uriopass/Egregoria
+[egregoria-blog-post]: http://douady.paris/blog/egregoria_5.html
+[egregoria-discord]: https://discord.gg/CAaZhUJ
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
