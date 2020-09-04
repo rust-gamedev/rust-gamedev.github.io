@@ -28,8 +28,19 @@ Feel free to send PRs about your own projects!
 Table of contents:
 
 - [Game Updates](#game-updates)
+  - [[Egregoria]](#egregoria)
 - [Learning Material Updates](#learning-material-updates)
-- [Library & Tooling Updates](#library-tooling-updates)
+  - [Writing NES Emulator in Rust](#writing-nes-emulator-in-rust)
+  - [Beginning Game Development with Amethyst](#beginning-game-development-with-amethyst)
+  - [Chargrid Roguelike Tutorial 2020](#chargrid-roguelike-tutorial-2020)
+- [Library & Tooling Updates](#library--tooling-updates)
+  - [[Egui]](#egui)
+  - [🐦 [Puffin Profiler]](#-puffin-profiler)
+  - [[hexasphere] v1.0](#hexasphere-v10)
+  - [blitz-path](#blitz-path)
+  - [Tetra](#tetra)
+  - [[wowAddonManager] v1.0.2](#wowaddonmanager-v102)
+  - [[cute-c2]](#cute-c2)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Meeting Minutes](#meeting-minutes)
 - [Requests for Contribution](#requests-for-contribution)
@@ -287,7 +298,6 @@ program in the repository.
 
 [cute-c2]: https://crates.io/crates/c2
 [c2.h]: https://github.com/RandyGaul/cute_headers/blob/master/cute_c2.h
-
 
 ## Popular Workgroup Issues in Github
 
