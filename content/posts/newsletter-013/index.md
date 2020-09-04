@@ -68,7 +68,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### Piston
 
-Piston is a modular game engine written in Rust.
+[Piston] is a modular game engine written in Rust.
 
 A new [Piston Discord Channel] has been set up
 for the Piston project.
@@ -83,7 +83,7 @@ libraries that are not independent of the core.
 
 ------
 
-Dyon is a rusty dynamically typed scripting language.
+[Dyon] is a rusty dynamically typed scripting language.
 It is developed and maintained as part of the Piston project,
 but can be used as a standalone library.
 
@@ -113,7 +113,7 @@ To follow updates on Dyon, check out the subreddit [/r/dyon].
 
 ------
 
-Piston-Graphics is a library for 2D graphics, written in Rust,
+[Piston-Graphics] is a library for 2D graphics, written in Rust,
 that works with multiple backends.
 
 `Stencil::Increment` has been added and the ecosystem
@@ -139,6 +139,7 @@ It is also possible to override rendering of widgets for
 custom looks with Piston-Graphics, which is often useful in gamedev.
 Recently, this project has gotten to a place where
 [tree-view interaction] is working.
+You can follow development at [@PistonDeveloper at Twitter].
 
 [Piston Discord Channel]: https://t.co/8YOj3auDr9?amp=1
 [/r/dyon]: https://old.reddit.com/r/dyon/
