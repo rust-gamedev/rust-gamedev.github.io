@@ -7,6 +7,11 @@ li {
     margin: 15px 0;
 }
 
+pre > code {
+    // To avoid grey background on code blocks.
+    background-color: inherit;
+}
+
 .intro {
     color: #ffffff;
     background-color: $brand-color;
