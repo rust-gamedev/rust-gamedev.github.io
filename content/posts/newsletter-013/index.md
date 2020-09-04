@@ -102,6 +102,35 @@ work with graphics in Rust using [SDL2][sdl2] library.
 [@bugzmanov]: https://twitter.com/bugzmanov
 [sdl2]:https://www.libsdl.org/
 
+### [Beginning Game Development with Amethyst][rustconf-talk-video]
+
+[![youtube preview](rustconf-amethyst-talk.png)][rustconf-talk-video]
+
+^ _Click to [watch the talk][rustconf-talk-video]._
+
+Getting started with Rust + gamedev can be intimidating. At
+[RustConf 2020][rust-conf-2020], [Micah Tigley] gave a talk about their experience
+beginning game development using the [Amethyst][amethyst-link] game engine and
+learning about ECS by implementing examples that aim to be accessible for
+beginners.
+
+Supporting blog posts for talk:
+
+- [Creating a Simple Spritesheet Animation with Amethyst][micah-blog-part1]
+- [Running Animation][micah-blog-part2]
+- [Camera Follow System][micah-blog-part3]
+
+The source code for the [demo can be found here][micah-demo-src].
+
+[Micah Tigley]: https://twitter.com/micah_tigley
+[rustconf-talk-video]: https://www.youtube.com/watch?v=GFi_EdS_s_c
+[micah-blog-part1]: https://mtigley.dev/posts/sprite-animations-with-amethyst
+[micah-blog-part2]: https://mtigley.dev/posts/running-animation
+[micah-blog-part3]: https://mtigley.dev/posts/camera-follow-system
+[micah-demo-src]: https://github.com/tigleym/sprite_animations_demo
+[amethyst-link]: https://amethyst.rs/
+[rust-conf-2020]: https://rustconf.com
+
 ### [Chargrid Roguelike Tutorial 2020][chargrid-roguelike-tutorial-2020]
 
 ![Chargrid Roguelike Tutorial 2020](chargrid-roguelike-tutorial-2020.png)
