@@ -62,11 +62,11 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
-### Cary
+### [Cary]
 
 [![Dodging bullets and carrying Cary to temporary safety](cary_screenshot.png)][Cary]
 
-In Cary the player has to bring the titular character to the exit by carying
+In [Cary] the player has to bring the titular character to the exit by carying
 them or otherwise making sure they don't – nor the player themselves –
 touch any of the traps.
 Easier said then done when you have limited stamina and Cary keeps running
