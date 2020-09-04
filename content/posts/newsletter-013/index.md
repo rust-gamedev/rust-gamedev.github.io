@@ -62,11 +62,80 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Egregoria]
+
+![Egregoria buildings screenshot](egregoria.png)
+
+[Egregoria]'s objective is to become a granular society simulation,
+filled with fully autonomous agents interacting with their world in real time.
+Egregoria was previously known as Scale,
+but was renamed to fit the theme better.
+
+The [5th devlog][egregoria-blog-post] was published, talking about
+the renaming, project managment, buildings and scripting.
+
+A [Discord][egregoria-discord] server was launched to discuss the project.
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/igzbl9/egregoria_devblog_5)_
+
+[Egregoria]: https://github.com/Uriopass/Egregoria
+[egregoria-blog-post]: http://douady.paris/blog/egregoria_5.html
+[egregoria-discord]: https://discord.gg/CAaZhUJ
+
 ## Learning Material Updates
+
+### [Writing NES Emulator in Rust][rust_nes_tutorial]
+
+![writing nes emulator](nes_emulator_rust.png)
+
+"Writing NES Emulator in Rust" is a tutorial by [@bugzmanov] on creating a fully
+capable NES/Famicom emulator from scratch in the online book format. It walks
+through major steps of emulating NES platform components to run
+all-time classics, like Pacman, Donkey Kong, and Super Mario Bros.
+
+It's a fun way of getting into hardware internals and fundamentals of
+computer systems. The tutorial also covers game-dev basics and how to
+work with graphics in Rust using [SDL2][sdl2] library.
+
+[rust_nes_tutorial]: https://bugzmanov.github.io/nes_ebook/index.html
+[@bugzmanov]: https://twitter.com/bugzmanov
+[sdl2]:https://www.libsdl.org/
 
 ## Library & Tooling Updates
 
-### Piston
+### [hexasphere] v1.0
+
+![hexasphere example gif](hexasphere.gif)
+
+The [hexasphere] library provides a customizable interface for subdividing 3D
+triangle meshes. Custom and stateful interpolation functions can be implemented
+as well as per-vertex attributes.
+
+All that's required to define a base shape are the initial vertices, triangles
+based on the indices of the vertices in the initial vertices, and numbered
+edges. As long as the winding of the triangles remains consistend throughout
+the base mesh, all of the resulting triangles will retain that winding.
+
+This library also provides a few interesting base shapes (which can be used alone
+if the shape is not subdivided):
+Icosahedron, Tetrahedron, Cube, Square Plane, Triangle Plane
+(all of which are pictured above).
+
+[hexasphere]: https://crates.io/crates/hexasphere
+
+### [blitz-path](https://github.com/BezPowell/blitz-path)
+
+[blitz-path](https://github.com/BezPowell/blitz-path) is a new crate providing
+an implementation of the [JPS](https://en.wikipedia.org/wiki/Jump_point_search)
+pathfinding algorithm.
+
+JPS is an optimization of the A* search algorithm for uniform-cost grids, which
+are common in games. While fully functional, the code is still in an early
+state and any suggestions for improvements - especially on how best to
+integrate it with the existing ecosystem - are greatly appreciated.
+
+### [Piston]
 
 [Piston] is a modular game engine written in Rust.
 
