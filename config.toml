@@ -4,7 +4,8 @@ base_url = "https://rust-gamedev.github.io/"
 default_language = "en"
 compile_sass = true
 highlight_code = true
-generate_rss = true
+generate_feed = true
+feed_filename = "rss.xml"
 
 [extra]
 date_format = "%F"
