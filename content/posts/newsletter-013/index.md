@@ -173,6 +173,38 @@ organized with one branch for each subsection.
 
 ## Library & Tooling Updates
 
+### [Rapier: 2D and 3D Physics Engines Focused on Performance][rapier-august]
+
+[![Rapier logo](rapier-logo.svg)][Rapier]
+
+[Rapier] is a new set of 2D and 3D physics engines written 100% in Rust.
+It is 5 to 10 times faster than [nphysics], close to the performances of the
+CPU version of PhysX, and often slightly faster than Box2D.
+
+[For its first release][rapier-august] Rapier includes:
+
+- rigid-body dynamics;
+- colliders and sensors;
+- joint constraints;
+- optional serialization of the physics state;
+- optional cross-platform determinism on IEEE-754 compliant targets;
+- optional explicit SIMD and parallelism.
+- JavaScript bindings with official NPM packages.
+
+This new physics engine is developed by the recently created [Dimforge]
+single-member Open-Source company [replacing][dimforge-replace] the former
+Rustsim organization created on GitHub by [@sebcrozet].
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/igkul2/announcing_rapier_2d_and_3d_physics_engines/)_
+
+[Rapier]: https://rapier.rs
+[rapier-august]: https://www.dimforge.com/blog/2020/08/25/announcing-the-rapier-physics-engine
+[dimforge-replace]: https://www.dimforge.com/blog/2020/08/18/rustsim-becomes-dimforge
+[Dimforge]: https://dimforge.com
+[@sebcrozet]: https://github.com/sebcrozet/
+[nphysics]: https://nphysics.org
+
 ### [Egui]
 
 [Egui] is a highly portable immediate mode GUI library in pure Rust.
