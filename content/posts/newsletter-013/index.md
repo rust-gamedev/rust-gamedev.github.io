@@ -256,6 +256,23 @@ information on the upcoming changes, see the [changelog][tetra-changelog].
 [tetra-042]: https://twitter.com/17cupsofcoffee/status/1294316642680426497
 [tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
 
+### [wowAddonManager] v1.0.2
+
+![wowAddonManager Example](wowAddonManager-example.png)
+
+The [wowAddonManager] is a terminal user interface for managing World of
+Warcraft addons on Linux made by [@mreimsbach]. It allows installing addons
+from [Curseforge] for WoW Classic as well as WoW Retail.
+
+The [tui-rs] library was used to create the interface and [Termion] was used to
+communicate with the TTY.
+
+[wowAddonManager]: https://github.com/MR2011/wowAddonManager
+[@mreimsbach]: https://twitter.com/mreimsbach
+[Curseforge]: https://www.curseforge.com/wow/addons
+[tui-rs]: https://github.com/fdehau/tui-rs
+[Termion]: https://gitlab.redox-os.org/redox-os/termion
+
 ## Popular Workgroup Issues in Github
 
 ## Meeting Minutes
