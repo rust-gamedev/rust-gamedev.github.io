@@ -153,6 +153,30 @@ organized with one branch for each subsection.
 
 ## Library & Tooling Updates
 
+### 🐦 [Puffin Profiler]
+
+Pufin is a simple instrumentation profiler created by [Embark]
+where you can opt-in to profile parts of your code.
+
+```rust
+fn my_function() {
+    puffin::profile_function!():
+    ...
+    if ... {
+        puffin::profile_scope_data!("load_image", image_name):
+        ...
+    }
+}
+```
+
+The collected profile data can be viewed ingame with [imgui-rs].
+
+![Puffin flamegraph shown with puffin-imgui](puffin.png)
+
+[Puffin Profiler]: https://github.com/EmbarkStudios/puffin
+[Embark]: https://www.embark-studios.com/
+[imgui-rs]: https://github.com/Gekkio/imgui-rs
+
 ### [hexasphere] v1.0
 
 ![hexasphere example gif](hexasphere.gif)
