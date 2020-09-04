@@ -85,6 +85,23 @@ _Discussions:
 
 ## Learning Material Updates
 
+### [Writing NES Emulator in Rust][rust_nes_tutorial]
+
+![writing nes emulator](nes_emulator_rust.png)
+
+"Writing NES Emulator in Rust" is a tutorial by [@bugzmanov] on creating a fully
+capable NES/Famicom emulator from scratch in the online book format. It walks
+through major steps of emulating NES platform components to run
+all-time classics, like Pacman, Donkey Kong, and Super Mario Bros.
+
+It's a fun way of getting into hardware internals and fundamentals of
+computer systems. The tutorial also covers game-dev basics and how to
+work with graphics in Rust using [SDL2][sdl2] library.
+
+[rust_nes_tutorial]: https://bugzmanov.github.io/nes_ebook/index.html
+[@bugzmanov]: https://twitter.com/bugzmanov
+[sdl2]:https://www.libsdl.org/
+
 ## Library & Tooling Updates
 
 ### [hexasphere] v1.0
