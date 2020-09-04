@@ -7,12 +7,17 @@ jobs:
     runs-on: ubuntu-latest
     env:
       BASE_URL: https://github.com/getzola/zola/releases/download
-      VERS: v0.10.1
+      VERS: v0.11.0
       ARCH: x86_64-unknown-linux-gnu
       # https://github.com/marketplace/actions/github-pages#warning-limitation
       GITHUB_PAT: ${{ secrets.GITHUB_PAT }}
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
+    - name: Lint
+      uses: avto-dev/markdown-lint@v1
+      with:
+        args: '.'
+        config: '.markdownlint.json'
     - name: Install Zola
       run: curl -L ${BASE_URL}/${VERS}/zola-${VERS}-${ARCH}.tar.gz | tar -xz
     - run: ./zola --version

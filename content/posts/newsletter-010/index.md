@@ -4,9 +4,6 @@ date = 2020-06-08
 transparent = true
 +++
 
-<!-- markdownlint-disable no-trailing-punctuation -->
-<!-- markdownlint-enable line-length -->
-
 Welcome to the tenth issue of the Rust GameDev Workgroup’s
 monthly newsletter.
 [Rust] is a systems language pursuing the trifecta:
