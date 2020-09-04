@@ -28,7 +28,6 @@ Table of contents:
 
 - [Legion Game Jam](#legion-game-jam)
 - [Game Updates](#game-updates)
-  - [Weegames](#weegames)
 - [Learning Material Updates](#learning-material-updates)
 - [Library & Tooling Updates](#library-tooling-updates)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
