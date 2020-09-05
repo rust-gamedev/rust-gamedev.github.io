@@ -226,6 +226,55 @@ _Discussions:
 [@sebcrozet]: https://github.com/sebcrozet/
 [nphysics]: https://nphysics.org
 
+### [hexasphere] v1.0
+
+![hexasphere example gif](hexasphere.gif)
+
+The [hexasphere] library provides a customizable interface for subdividing 3D
+triangle meshes. Custom and stateful interpolation functions can be implemented
+as well as per-vertex attributes.
+
+All that's required to define a base shape are the initial vertices, triangles
+based on the indices of the vertices in the initial vertices, and numbered
+edges. As long as the winding of the triangles remains consistend throughout
+the base mesh, all of the resulting triangles will retain that winding.
+
+This library also provides a few interesting base shapes (which can be used alone
+if the shape is not subdivided):
+Icosahedron, Tetrahedron, Cube, Square Plane, Triangle Plane
+(all of which are pictured above).
+
+[hexasphere]: https://crates.io/crates/hexasphere
+
+### [blitz-path](https://github.com/BezPowell/blitz-path)
+
+[blitz-path](https://github.com/BezPowell/blitz-path) is a new crate providing
+an implementation of the [JPS](https://en.wikipedia.org/wiki/Jump_point_search)
+pathfinding algorithm.
+
+JPS is an optimization of the A* search algorithm for uniform-cost grids, which
+are common in games. While fully functional, the code is still in an early
+state and any suggestions for improvements - especially on how best to
+integrate it with the existing ecosystem - are greatly appreciated.
+
+### [This Month in Mun][mun-august]
+
+[![Mun logo](mun-logo.png)][Mun]
+
+[Mun] is a scripting language for gamedev focused on quick iteration times
+that is written in Rust.
+
+[August updates][mun-august] include:
+
+- compiler support for type aliases;
+- shared diagnostics between compiler and language server;
+- support for the official [inkwell][mun-inkwell] crate;
+- refactors and quality of life improvements.
+
+[Mun]: https://mun-lang.org
+[mun-august]: https://mun-lang.org/blog/2020/08/30/this-month-august/
+[mun-inkwell]: https://crates.io/crates/inkwell
+
 ### [SPIR-Q] v0.4.6
 
 [SPIR-Q] is a light-weight shader reflection library, which allows you to query
@@ -292,6 +341,23 @@ _Discussions:
 [egui_glium]: https://crates.io/crates/egui_glium
 [egui_web]: https://crates.io/crates/egui_web
 
+### Tetra
+
+[Tetra] is a simple 2D game framework, inspired by XNA and Raylib. This month,
+versions [0.4.1][tetra-041] and [0.4.2][tetra-042] were released, featuring:
+
+- Improved Serde support
+- Various fixes and improvements to the built-in `Camera` type
+- Many documentation improvements, based on user feedback
+
+In addition, Tetra 0.5 is planned for release in early September. For more
+information on the upcoming changes, see the [changelog][tetra-changelog].
+
+[tetra]: https://github.com/17cupsofcoffee/tetra
+[tetra-041]: https://twitter.com/17cupsofcoffee/status/1289857217198317568
+[tetra-042]: https://twitter.com/17cupsofcoffee/status/1294316642680426497
+[tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
+
 ### 🐦 [Puffin Profiler]
 
 Pufin is a simple instrumentation profiler created by [Embark]
@@ -315,72 +381,6 @@ The collected profile data can be viewed ingame with [imgui-rs].
 [Puffin Profiler]: https://github.com/EmbarkStudios/puffin
 [Embark]: https://www.embark-studios.com/
 [imgui-rs]: https://github.com/Gekkio/imgui-rs
-
-### [hexasphere] v1.0
-
-![hexasphere example gif](hexasphere.gif)
-
-The [hexasphere] library provides a customizable interface for subdividing 3D
-triangle meshes. Custom and stateful interpolation functions can be implemented
-as well as per-vertex attributes.
-
-All that's required to define a base shape are the initial vertices, triangles
-based on the indices of the vertices in the initial vertices, and numbered
-edges. As long as the winding of the triangles remains consistend throughout
-the base mesh, all of the resulting triangles will retain that winding.
-
-This library also provides a few interesting base shapes (which can be used alone
-if the shape is not subdivided):
-Icosahedron, Tetrahedron, Cube, Square Plane, Triangle Plane
-(all of which are pictured above).
-
-[hexasphere]: https://crates.io/crates/hexasphere
-
-### [blitz-path](https://github.com/BezPowell/blitz-path)
-
-[blitz-path](https://github.com/BezPowell/blitz-path) is a new crate providing
-an implementation of the [JPS](https://en.wikipedia.org/wiki/Jump_point_search)
-pathfinding algorithm.
-
-JPS is an optimization of the A* search algorithm for uniform-cost grids, which
-are common in games. While fully functional, the code is still in an early
-state and any suggestions for improvements - especially on how best to
-integrate it with the existing ecosystem - are greatly appreciated.
-
-### [This Month in Mun][mun-august]
-
-[![Mun logo](mun-logo.png)][Mun]
-
-[Mun] is a scripting language for gamedev focused on quick iteration times
-that is written in Rust.
-
-[August updates][mun-august] include:
-
-- compiler support for type aliases;
-- shared diagnostics between compiler and language server;
-- support for the official [inkwell][mun-inkwell] crate;
-- refactors and quality of life improvements.
-
-[Mun]: https://mun-lang.org
-[mun-august]: https://mun-lang.org/blog/2020/08/30/this-month-august/
-[mun-inkwell]: https://crates.io/crates/inkwell
-
-### Tetra
-
-[Tetra] is a simple 2D game framework, inspired by XNA and Raylib. This month,
-versions [0.4.1][tetra-041] and [0.4.2][tetra-042] were released, featuring:
-
-- Improved Serde support
-- Various fixes and improvements to the built-in `Camera` type
-- Many documentation improvements, based on user feedback
-
-In addition, Tetra 0.5 is planned for release in early September. For more
-information on the upcoming changes, see the [changelog][tetra-changelog].
-
-[tetra]: https://github.com/17cupsofcoffee/tetra
-[tetra-041]: https://twitter.com/17cupsofcoffee/status/1289857217198317568
-[tetra-042]: https://twitter.com/17cupsofcoffee/status/1294316642680426497
-[tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
 
 ### [wowAddonManager] v1.0.2
 
