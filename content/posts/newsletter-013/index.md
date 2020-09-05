@@ -358,6 +358,25 @@ information on the upcoming changes, see the [changelog][tetra-changelog].
 [tetra-042]: https://twitter.com/17cupsofcoffee/status/1294316642680426497
 [tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
 
+### [starframe]
+
+![Current state of starframe graphics and physics](starframe-demo.gif)
+
+[starframe] by [@moletrooper] is a work-in-progress 2D game engine
+for physics-y sidescrolling games. This month it received
+[an experimental graph-based entity system][sf-graph-post].
+
+The next area of focus is going to be fleshing out the physics with
+generalized constraints, which will enable things like friction and joints.
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/iju3xq/starframe_devlog_architecture_ecs_graph/),
+[twitter](https://twitter.com/moletrooper/status/1300034941816897542)_
+
+[starframe]: https://github.com/moletrooper/starframe
+[@moletrooper]: https://twitter.com/moletrooper
+[sf-graph-post]: https://moletrooper.github.io/blog/2020/08/starframe-1-architecture/
+
 ### 🐦 [Puffin Profiler]
 
 Pufin is a simple instrumentation profiler created by [Embark]
