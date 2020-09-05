@@ -62,6 +62,38 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Crate Before Attack][cba-site]
+
+[![Camera debugging in Crate Before Attack](crate-before-attack.png)][cba-site]
+
+^ _Debugging camera motion: highlighted areas are points of interest._
+
+[Crate Before Attack][cba-site] by [koalefant (@CrateAttack)][@CrateAttack]
+is a skill-based multiplayer game where frogs combat their friends
+while navigating the landscape with their sticky tongues.
+
+A [playable browser build][cba-play] can be tried online.
+
+Recent changes are:
+
+- Training mode improvements, including a new map [Dungeon][cba-youtube-dungeon]
+  by [Kesha Astafyev][cba-spoon-tar].
+- [Better camera motion][cba-youtube-camera-motion]:
+  multiple points of interest are tracked dynamically.
+- Improved GPU performance by merging multiple render passes into one.
+- Added control hints.
+- Numerous bugfixes and tweaks.
+
+More details are in [August DevLog-entry][cba-august-update].
+
+[cba-site]: https://cratebeforeattack.com
+[cba-youtube-dungeon]: https://youtu.be/cukyVXQ0n0c
+[cba-youtube-camera-motion]: https://youtu.be/3y7Hfa-v3e8
+[cba-august-update]: https://cratebeforeattack.com/posts/20200831-august-update/
+[cba-play]: https://cratebeforeattack.com/play
+[cba-spoon-tar]: https://www.behance.net/spoon_tar
+[@CrateAttack]: https://twitter.com/CrateAttack
+
 ### [Egregoria]
 
 ![Egregoria buildings screenshot](egregoria.png)
@@ -82,6 +114,47 @@ _Discussions:
 [Egregoria]: https://github.com/Uriopass/Egregoria
 [egregoria-blog-post]: http://douady.paris/blog/egregoria_5.html
 [egregoria-discord]: https://discord.gg/CAaZhUJ
+
+### [Cary]
+
+[![Dodging bullets and carrying Cary to temporary safety](cary_screenshot.png)][Cary]
+
+In [Cary] the player has to bring the titular character to the exit by carying
+them or otherwise making sure they don't – nor the player themselves –
+touch any of the traps.
+Easier said then done when you have limited stamina and Cary keeps running
+into spikes.
+
+Made with hecs and wgpu (no framework), but uses WebGL on the web
+because of the current implementation status of WebGPU.
+
+Made during the [Extra Credits game jam][extra-credits-jam],
+it's a rather small game.
+It can be played in the browser or downloaded at [itch.io][Cary].
+
+[Cary]: https://specificprotagonist.itch.io/cary
+[extra-credits-jam]: https://itch.io/jam/extra-credits-game-jam-6
+
+### [Chillscapes][chillscapes-itch]
+
+![Chillscapes Main Menu](chillscapes_main_menu.png)
+
+[Chillscapes][chillscapes-github] is a lo-fi
+rhythm experience created for the [NEOC#03 Rhythm Game Jam][neoc]. Using
+layerable lo-fi music tracks, the game has you tap with the rhythm of the loops
+being added, before changing the music up by adding another loop into the mix.
+Last week, [a retrospective update was published][chillscapes-retrospective]
+reflecting on what the developer's takeaways were from the experience.
+
+Chillscapes is written using an early-in-development 2d engine,
+[Kludgine][kludgine]. For audio playback, rodio was utilized. The source code is
+[available on GitHub][chillscapes-github].
+
+[chillscapes-itch]: https://khonsulabs.itch.io/chillscapes
+[chillscapes-github]: https://github.com/khonsulabs/chillscapes
+[chillscapes-retrospective]: https://community.khonsulabs.com/t/chillscapes-retrospective-and-kludgine-update/28
+[neoc]: https://itch.io/jam/neoc03-rhythm-jam
+[kludgine]: https://github.com/khonsulabs/kludgine
 
 ## Learning Material Updates
 
@@ -153,60 +226,37 @@ organized with one branch for each subsection.
 
 ## Library & Tooling Updates
 
-### [Egui]
+### [Rapier: 2D and 3D Physics Engines Focused on Performance][rapier-august]
 
-[Egui] is a highly portable immediate mode GUI library in pure Rust.
-Egui can be integrated anywhere you can paint textured triangles.
-You can compile Egui to WASM and render it on a web page using [egui_web]
-or compile and run natively using [egui_glium].
+[![Rapier logo](rapier-logo.svg)][Rapier]
 
-[Click to run Egui web demo](https://emilk.github.io/egui/index.html)
+[Rapier] is a new set of 2D and 3D physics engines written 100% in Rust.
+It is 5 to 10 times faster than [nphysics], close to the performances of the
+CPU version of PhysX, and often slightly faster than Box2D.
 
-Example:
+[For its first release][rapier-august] Rapier includes:
 
-```rust
-Window::new("Debug").show(ui.ctx(), |ui| {
-    ui.label(format!("Hello, world {}", 123));
-    if ui.button("Save").clicked {
-        my_save_function();
-    }
-    ui.text_edit(&mut my_string);
-    ui.add(Slider::f32(&mut value, 0.0..=1.0).text("float"));
-});
-```
+- rigid-body dynamics;
+- colliders and sensors;
+- joint constraints;
+- optional serialization of the physics state;
+- optional cross-platform determinism on IEEE-754 compliant targets;
+- optional explicit SIMD and parallelism.
+- JavaScript bindings with official NPM packages.
 
-![Egui](egui.png)
+This new physics engine is developed by the recently created [Dimforge]
+single-member Open-Source company [replacing][dimforge-replace] the former
+Rustsim organization created on GitHub by [@sebcrozet].
 
 _Discussions:
-[/r/rust](https://reddit.com/r/rust/comments/hzwvsk/emigui_deserves_more_love)_
+[/r/rust](https://www.reddit.com/r/rust/comments/igkul2/announcing_rapier_2d_and_3d_physics_engines/)_
 
-[Egui]: https://github.com/emilk/egui/
-[egui_glium]: https://crates.io/crates/egui_glium
-[egui_web]: https://crates.io/crates/egui_web
-
-### 🐦 [Puffin Profiler]
-
-Pufin is a simple instrumentation profiler created by [Embark]
-where you can opt-in to profile parts of your code.
-
-```rust
-fn my_function() {
-    puffin::profile_function!():
-    ...
-    if ... {
-        puffin::profile_scope_data!("load_image", image_name):
-        ...
-    }
-}
-```
-
-The collected profile data can be viewed ingame with [imgui-rs].
-
-![Puffin flamegraph shown with puffin-imgui](puffin.png)
-
-[Puffin Profiler]: https://github.com/EmbarkStudios/puffin
-[Embark]: https://www.embark-studios.com/
-[imgui-rs]: https://github.com/Gekkio/imgui-rs
+[Rapier]: https://rapier.rs
+[rapier-august]: https://www.dimforge.com/blog/2020/08/25/announcing-the-rapier-physics-engine
+[dimforge-replace]: https://www.dimforge.com/blog/2020/08/18/rustsim-becomes-dimforge
+[Dimforge]: https://dimforge.com
+[@sebcrozet]: https://github.com/sebcrozet/
+[nphysics]: https://nphysics.org
 
 ### [hexasphere] v1.0
 
@@ -239,6 +289,90 @@ are common in games. While fully functional, the code is still in an early
 state and any suggestions for improvements - especially on how best to
 integrate it with the existing ecosystem - are greatly appreciated.
 
+### [This Month in Mun][mun-august]
+
+[![Mun logo](mun-logo.png)][Mun]
+
+[Mun] is a scripting language for gamedev focused on quick iteration times
+that is written in Rust.
+
+[August updates][mun-august] include:
+
+- compiler support for type aliases;
+- shared diagnostics between compiler and language server;
+- support for the official [inkwell][mun-inkwell] crate;
+- refactors and quality of life improvements.
+
+[Mun]: https://mun-lang.org
+[mun-august]: https://mun-lang.org/blog/2020/08/30/this-month-august/
+[mun-inkwell]: https://crates.io/crates/inkwell
+
+### [SPIR-Q] v0.4.6
+
+[SPIR-Q] is a light-weight shader reflection library, which allows you to query
+the types, offsets, sizes and even names in your shaders procedurally.
+
+This month v0.4.2..v0.4.6 versions were released.
+Some of the updates:
+
+- Specialization constants enumeration.
+- Dynamically sized multi-binding support.
+- Improved entrypoint debug printing.
+- Better manifest merging method for pipeline construction.
+- Bugfixes and various small API improvments.
+
+_Discussions: [/r/rust_gamedev][spirq-discussion]_
+
+[SPIR-Q]: https://github.com/PENGUINLIONG/spirq-rs
+[spirq-discussion]: https://reddit.com/r/rust_gamedev/comments/i6hxh6/spirq_042
+
+### [Inline SPIR-V]
+
+![inline-spirv](inline-spirv-demo.png)
+
+[Inline SPIR-V] is a single-crate build-time shader compilation library based on
+shaderc which provides procedural macros to help you translate shader sources,
+in either GLSL or HLSL, inline or from-file, into SPIR-Vs and embed the SPIR-Vs
+right inside your code as `u32` slices. Despite basic shader compilation,
+`inline-spirv` also support `#include` directives, macro substitution,
+post-compile optimization, as well as descriptor auto-binding.
+
+_Discussions: [/r/rust_gamedev][inline-spirv-discussion]_
+
+[Inline SPIR-V]: https://github.com/PENGUINLIONG/inline-spirv-rs
+[inline-spirv-discussion]: https://reddit.com/r/rust_gamedev/comments/ic1005/inline_spirv
+
+### [Egui]
+
+[Egui] is a highly portable immediate mode GUI library in pure Rust.
+Egui can be integrated anywhere you can paint textured triangles.
+You can compile Egui to WASM and render it on a web page using [egui_web]
+or compile and run natively using [egui_glium].
+
+[Click to run Egui web demo](https://emilk.github.io/egui/index.html)
+
+Example:
+
+```rust
+Window::new("Debug").show(ui.ctx(), |ui| {
+    ui.label(format!("Hello, world {}", 123));
+    if ui.button("Save").clicked {
+        my_save_function();
+    }
+    ui.text_edit(&mut my_string);
+    ui.add(Slider::f32(&mut value, 0.0..=1.0).text("float"));
+});
+```
+
+![Egui](egui.png)
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/hzwvsk/emigui_deserves_more_love)_
+
+[Egui]: https://github.com/emilk/egui/
+[egui_glium]: https://crates.io/crates/egui_glium
+[egui_web]: https://crates.io/crates/egui_web
+
 ### Tetra
 
 [Tetra] is a simple 2D game framework, inspired by XNA and Raylib. This month,
@@ -255,6 +389,49 @@ information on the upcoming changes, see the [changelog][tetra-changelog].
 [tetra-041]: https://twitter.com/17cupsofcoffee/status/1289857217198317568
 [tetra-042]: https://twitter.com/17cupsofcoffee/status/1294316642680426497
 [tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
+
+### [starframe]
+
+![Current state of starframe graphics and physics](starframe-demo.gif)
+
+[starframe] by [@moletrooper] is a work-in-progress 2D game engine
+for physics-y sidescrolling games. This month it received
+[an experimental graph-based entity system][sf-graph-post].
+
+The next area of focus is going to be fleshing out the physics with
+generalized constraints, which will enable things like friction and joints.
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/iju3xq/starframe_devlog_architecture_ecs_graph/),
+[twitter](https://twitter.com/moletrooper/status/1300034941816897542)_
+
+[starframe]: https://github.com/moletrooper/starframe
+[@moletrooper]: https://twitter.com/moletrooper
+[sf-graph-post]: https://moletrooper.github.io/blog/2020/08/starframe-1-architecture/
+
+### 🐦 [Puffin Profiler]
+
+Pufin is a simple instrumentation profiler created by [Embark]
+where you can opt-in to profile parts of your code.
+
+```rust
+fn my_function() {
+    puffin::profile_function!():
+    ...
+    if ... {
+        puffin::profile_scope_data!("load_image", image_name):
+        ...
+    }
+}
+```
+
+The collected profile data can be viewed ingame with [imgui-rs].
+
+![Puffin flamegraph shown with puffin-imgui](puffin.png)
+
+[Puffin Profiler]: https://github.com/EmbarkStudios/puffin
+[Embark]: https://www.embark-studios.com/
+[imgui-rs]: https://github.com/Gekkio/imgui-rs
 
 ### [wowAddonManager] v1.0.2
 
