@@ -226,6 +226,41 @@ _Discussions:
 [@sebcrozet]: https://github.com/sebcrozet/
 [nphysics]: https://nphysics.org
 
+### [SPIR-Q] v0.4.6
+
+[SPIR-Q] is a light-weight shader reflection library, which allows you to query
+the types, offsets, sizes and even names in your shaders procedurally.
+
+This month v0.4.2..v0.4.6 versions were released.
+Some of the updates:
+
+- Specialization constants enumeration.
+- Dynamically sized multi-binding support.
+- Improved entrypoint debug printing.
+- Better manifest merging method for pipeline construction.
+- Bugfixes and various small API improvments.
+
+_Discussions: [/r/rust_gamedev][spirq-discussion]_
+
+[SPIR-Q]: https://github.com/PENGUINLIONG/spirq-rs
+[spirq-discussion]: https://reddit.com/r/rust_gamedev/comments/i6hxh6/spirq_042
+
+### [Inline SPIR-V]
+
+![inline-spirv](inline-spirv-demo.png)
+
+[Inline SPIR-V] is a single-crate build-time shader compilation library based on
+shaderc which provides procedural macros to help you translate shader sources,
+in either GLSL or HLSL, inline or from-file, into SPIR-Vs and embed the SPIR-Vs
+right inside your code as `u32` slices. Despite basic shader compilation,
+`inline-spirv` also support `#include` directives, macro substitution,
+post-compile optimization, as well as descriptor auto-binding.
+
+_Discussions: [/r/rust_gamedev][inline-spirv-discussion]_
+
+[Inline SPIR-V]: https://github.com/PENGUINLIONG/inline-spirv-rs
+[inline-spirv-discussion]: https://reddit.com/r/rust_gamedev/comments/ic1005/inline_spirv
+
 ### [Egui]
 
 [Egui] is a highly portable immediate mode GUI library in pure Rust.
