@@ -258,6 +258,21 @@ _Discussions:
 [@sebcrozet]: https://github.com/sebcrozet/
 [nphysics]: https://nphysics.org
 
+### [cute-c2]
+
+![cute-c2 collision](cute-c2-collision.gif)
+
+cute-c2 is a 2D collision detection library that has had its first release to
+[crates.io][cute-c2]. The library is a Rust wrapper around the [c2.h] library.
+
+The library can detect collisions between circles, rectangles, capsules and
+up to eight-sided convex polygons. There are also functions for manifold
+generation, the GJK algorithm and ray casting operations. There is an example
+program in the repository.
+
+[cute-c2]: https://crates.io/crates/c2
+[c2.h]: https://github.com/RandyGaul/cute_headers/blob/master/cute_c2.h
+
 ### [hexasphere] v1.0
 
 ![hexasphere example gif](hexasphere.gif)
@@ -449,21 +464,6 @@ communicate with the TTY.
 [Curseforge]: https://www.curseforge.com/wow/addons
 [tui-rs]: https://github.com/fdehau/tui-rs
 [Termion]: https://gitlab.redox-os.org/redox-os/termion
-
-### [cute-c2]
-
-![cute-c2 collision](cute-c2-collision.gif)
-
-cute-c2 is a 2D collision detection library that has had its first release to
-[crates.io][cute-c2]. The library is a Rust wrapper around the [c2.h] library.
-
-The library can detect collisions between circles, rectangles, capsules and
-up to eight-sided convex polygons. There are also functions for manifold
-generation, the GJK algorithm and ray casting operations. There is an example
-program in the repository.
-
-[cute-c2]: https://crates.io/crates/c2
-[c2.h]: https://github.com/RandyGaul/cute_headers/blob/master/cute_c2.h
 
 ## Popular Workgroup Issues in Github
 
