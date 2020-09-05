@@ -62,6 +62,38 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Crate Before Attack][cba-site]
+
+[![Camera debugging in Crate Before Attack](crate-before-attack.png)][cba-site]
+
+^ _Debugging camera motion: highlighted areas are points of interest._
+
+[Crate Before Attack][cba-site] by [koalefant (@CrateAttack)][@CrateAttack]
+is a skill-based multiplayer game where frogs combat their friends
+while navigating the landscape with their sticky tongues.
+
+A [playable browser build][cba-play] can be tried online.
+
+Recent changes are:
+
+- Training mode improvements, including a new map [Dungeon][cba-youtube-dungeon]
+  by [Kesha Astafyev][cba-spoon-tar].
+- [Better camera motion][cba-youtube-camera-motion]:
+  multiple points of interest are tracked dynamically.
+- Improved GPU performance by merging multiple render passes into one.
+- Added control hints.
+- Numerous bugfixes and tweaks.
+
+More details are in [August DevLog-entry][cba-august-update].
+
+[cba-site]: https://cratebeforeattack.com
+[cba-youtube-dungeon]: https://youtu.be/cukyVXQ0n0c
+[cba-youtube-camera-motion]: https://youtu.be/3y7Hfa-v3e8
+[cba-august-update]: https://cratebeforeattack.com/posts/20200831-august-update/
+[cba-play]: https://cratebeforeattack.com/play
+[cba-spoon-tar]: https://www.behance.net/spoon_tar
+[@CrateAttack]: https://twitter.com/CrateAttack
+
 ### [Egregoria]
 
 ![Egregoria buildings screenshot](egregoria.png)
