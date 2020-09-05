@@ -76,8 +76,10 @@ A [playable browser build][cba-play] can be tried online.
 
 Recent changes are:
 
-- Training mode improvements, including a new map [Dungeon][cba-youtube-dungeon] by [Kesha Astafyev][cba-spoon-tar].
-- [Better camera motion][cba-youtube-camera-motion]: multiple points of interest are tracked dynamically.
+- Training mode improvements, including a new map [Dungeon][cba-youtube-dungeon]
+  by [Kesha Astafyev][cba-spoon-tar].
+- [Better camera motion][cba-youtube-camera-motion]:
+  multiple points of interest are tracked dynamically.
 - Improved GPU performance by merging multiple render passes into one.
 - Added control hints.
 - Numerous bugfixes and tweaks.
