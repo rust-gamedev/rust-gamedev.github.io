@@ -62,6 +62,31 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [A/B Street][abstreet]
+
+![screenshot](abstreet.png)
+
+[A/B Street][abstreet] is a traffic simulation game exploring how small changes
+to roads affect cyclists, transit users, pedestrians, and drivers. Any city
+with OpenStreetMap coverage can be used!
+
+This month:
+
+- Multiple traffic signals can be edited together
+- An [API][abstreet-api] and tools were added, to control maps and simulation
+  from any language
+- [Michael Kirk][mkirk], a new team member, fixed HiDPI scaling issues in a
+  consistent way
+- Many new cities imported, with better support for countries that drive on the
+  left and support for using alternate languages from OpenStreetMap for roads
+  and buildings
+- Backwards compatibility for a player's edits to the map
+- Two-way cycletracks and roads with multiple direction changes
+
+[abstreet]: https://abstreet.org
+[abstreet-api]: https://dabreegster.github.io/abstreet/dev/api.html
+[mkirk]: https://github.com/michaelkirk
+
 ### [Crate Before Attack][cba-site]
 
 [![Camera debugging in Crate Before Attack](crate-before-attack.png)][cba-site]
