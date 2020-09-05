@@ -226,38 +226,6 @@ organized with one branch for each subsection.
 
 ## Library & Tooling Updates
 
-### NeoCogi's libraries
-
-[Jude3D](https://neocogi.com) is a web based 3D sculpting application!
-It's a webassembly application, written in C/C++ and compiled using emscripten.
-After much thinking we decided to move the development to Rust!
-
-![Jude3D](jude3d.png)
-
-Many problems arise when moving existing C/C++/webassembly code to Rust.
-The 2 most important ones:
-
-- The new code should still interop with the already existing code
-- Payload size matters on the web: Your wasm app should be as small as possible
-
-These led us to drop using rust's std in favor to our own libs (`!#[no_std]`),
-at least until the std library crates are split up accordingly and stabilized,
-for example the `alloc` crate.
-
-The good news is that we are releasing most of the libraries as we make them as
- open source!
-
-[NeoCogi Repo](https://github.com/NeoCogi)
-
-We have included an example that showcase the libs:
-[Webassembly glfw3/gles2 example](https://github.com/NeoCogi/rs-glfw3-gles2-test)
-[Live example](https://neocogi.github.io/rs-glfw3-gles2-test)
-
-A good example that you can build and run with wasm32-unknown-emscripten!
-
-[Jude3D in action]: https://twitter.com/weloraiby/status/1167228654922928130
-
-
 ### [Rapier: 2D and 3D Physics Engines Focused on Performance][rapier-august]
 
 [![Rapier logo](rapier-logo.svg)][Rapier]
@@ -289,6 +257,37 @@ _Discussions:
 [Dimforge]: https://dimforge.com
 [@sebcrozet]: https://github.com/sebcrozet/
 [nphysics]: https://nphysics.org
+
+### NeoCogi's libraries
+
+[Jude3D](https://neocogi.com) is a web based 3D sculpting application!
+It's a webassembly application, written in C/C++ and compiled using emscripten.
+After much thinking we decided to move the development to Rust!
+
+![Jude3D](jude3d.png)
+
+Many problems arise when moving existing C/C++/webassembly code to Rust.
+The 2 most important ones:
+
+- The new code should still interop with the already existing code
+- Payload size matters on the web: Your wasm app should be as small as possible
+
+These led us to drop using rust's std in favor to our own libs (`!#[no_std]`),
+at least until the std library crates are split up accordingly and stabilized,
+for example the `alloc` crate.
+
+The good news is that we are releasing most of the libraries as we make them as
+ open source!
+
+[NeoCogi Repo](https://github.com/NeoCogi)
+
+We have included an example that showcase the libs:
+[Webassembly glfw3/gles2 example](https://github.com/NeoCogi/rs-glfw3-gles2-test)
+[Live example](https://neocogi.github.io/rs-glfw3-gles2-test)
+
+A good example that you can build and run with wasm32-unknown-emscripten!
+
+[Jude3D in action]: https://twitter.com/weloraiby/status/1167228654922928130
 
 ### [cute-c2]
 
