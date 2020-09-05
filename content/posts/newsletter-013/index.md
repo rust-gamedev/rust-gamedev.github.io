@@ -222,7 +222,41 @@ organized with one branch for each subsection.
 [chargrid]: https://github.com/stevebob/chargrid/
 [@stevebob]: https://github.com/stevebob
 
+### [Event Chaining as a Decoupling Method in ECS][event-chaining]
+
+[This blog post][event-chaining] by [@jojolepro] is an in-depth look at how
+using events in entity-component-system architectures can improve
+system reusability dramatically.
+
+Using events in this way also allows for:
+- Easier Testing
+- Additional Configurability
+- Possible Performance Improvements
+- Highly Reusable - Especially if using generics
+
+The blog also has an [RSS feed][jojolepro-rss] and more in-depth posts about
+game development are planned.
+
+[event-chaining]: https://www.jojolepro.com/blog/2020-08-20_event_chaining/
+[jojolepro-rss]: https://www.jojolepro.com/blog/blog.xml
+[@jojolepro]: https://github.com/jojolepro
+
 ## Library & Tooling Updates
+
+### [Minigene][minigene]
+
+[Minigene][minigene] is a tiled and ascii game engine made by [@jojolepro].
+It allows to very simply create complex games running on desktop as well as
+in the browser.
+
+While it is still under heavy development, a lot can be done already:
+- Easily Create ECS Systems.
+- Create Tiled and ASCII Entities.
+- Create GUI Elements.
+- Move Entities Around with A\* Pathfinding.
+- Much More!
+
+[minigene]: https://www.github.com/jojolepro/minigene
 
 ### [Rapier: 2D and 3D Physics Engines Focused on Performance][rapier-august]
 
