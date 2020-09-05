@@ -65,8 +65,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ### [Crate Before Attack][cba-site]
 
 [![Camera debugging in Crate Before Attack](crate-before-attack.png)][cba-site]
-
-^ _Debugging camera motion: highlighted areas are points of interest._
+_Debugging camera motion: highlighted areas are points of interest._
 
 [Crate Before Attack][cba-site] by [koalefant (@CrateAttack)][@CrateAttack]
 is a skill-based multiplayer game where frogs combat their friends
@@ -178,8 +177,7 @@ work with graphics in Rust using [SDL2][sdl2] library.
 ### [Beginning Game Development with Amethyst][rustconf-talk-video]
 
 [![youtube preview](rustconf-amethyst-talk.png)][rustconf-talk-video]
-
-^ _Click to [watch the talk][rustconf-talk-video]._
+_Click to [watch the talk][rustconf-talk-video]._
 
 Getting started with Rust + gamedev can be intimidating. At
 [RustConf 2020][rust-conf-2020], [Micah Tigley] gave a talk about their experience

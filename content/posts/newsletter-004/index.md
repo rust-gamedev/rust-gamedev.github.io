@@ -201,8 +201,7 @@ about the implementation of a drop table system to handle monster loot.
 ### [Recall Singularity: November Progress][recall-s-nov-text]
 
 [![Demo of the basic ship collision](recall-sing.gif)][recall-s-nov-video]
-
-^ _Demo of the basic ship collision._
+_Demo of the basic ship collision._
 
 [Tom Leys] is working on a "The Recall Singularity" game
 about designing autonomous factory ships and stations
@@ -778,8 +777,7 @@ and highlight events from the past. -->
 Just an interesting Rust gamedev link from the past. :)
 
 [![Pascal Penguin logo](penguin.png)][penguin-video]
-
-^ _click to see the [release trailer][penguin-video]_
+_click to see the [release trailer][penguin-video]_
 
 ["Adventures of Pascal Penguin"][penguin-about]
 by [Matthew Michelotti](http://luduminis.com)

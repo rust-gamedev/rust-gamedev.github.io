@@ -258,8 +258,7 @@ _Discussions:
 ### [Garden Devlog: December][garden-dec]
 
 [![Playing with dirt](garden.gif)][garden-video]
-
-^ _new smooth soil editing demo_
+_new smooth soil editing demo_
 
 [Garden][garden] is an upcoming game centered around growing realistic plants.
 
@@ -856,8 +855,7 @@ and highlight events from the past. -->
 Just an interesting Rust gamedev link from the past. :)
 
 [![Modulator video](modulator_youtube.gif)][modulator-video]
-
-^ _click to see [the tutorial video][modulator-video]_
+_click to see [the tutorial video][modulator-video]_
 
 In the November of 2018,
 [@AndreaPessino] (Founder/CTO of [Ready At Dawn] Studios)
