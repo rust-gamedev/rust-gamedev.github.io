@@ -83,6 +83,47 @@ _Discussions:
 [egregoria-blog-post]: http://douady.paris/blog/egregoria_5.html
 [egregoria-discord]: https://discord.gg/CAaZhUJ
 
+### [Cary]
+
+[![Dodging bullets and carrying Cary to temporary safety](cary_screenshot.png)][Cary]
+
+In [Cary] the player has to bring the titular character to the exit by carying
+them or otherwise making sure they don't – nor the player themselves –
+touch any of the traps.
+Easier said then done when you have limited stamina and Cary keeps running
+into spikes.
+
+Made with hecs and wgpu (no framework), but uses WebGL on the web
+because of the current implementation status of WebGPU.
+
+Made during the [Extra Credits game jam][extra-credits-jam],
+it's a rather small game.
+It can be played in the browser or downloaded at [itch.io][Cary].
+
+[Cary]: https://specificprotagonist.itch.io/cary
+[extra-credits-jam]: https://itch.io/jam/extra-credits-game-jam-6
+
+### [Chillscapes][chillscapes-itch]
+
+![Chillscapes Main Menu](chillscapes_main_menu.png)
+
+[Chillscapes][chillscapes-github] is a lo-fi
+rhythm experience created for the [NEOC#03 Rhythm Game Jam][neoc]. Using
+layerable lo-fi music tracks, the game has you tap with the rhythm of the loops
+being added, before changing the music up by adding another loop into the mix.
+Last week, [a retrospective update was published][chillscapes-retrospective]
+reflecting on what the developer's takeaways were from the experience.
+
+Chillscapes is written using an early-in-development 2d engine,
+[Kludgine][kludgine]. For audio playback, rodio was utilized. The source code is
+[available on GitHub][chillscapes-github].
+
+[chillscapes-itch]: https://khonsulabs.itch.io/chillscapes
+[chillscapes-github]: https://github.com/khonsulabs/chillscapes
+[chillscapes-retrospective]: https://community.khonsulabs.com/t/chillscapes-retrospective-and-kludgine-update/28
+[neoc]: https://itch.io/jam/neoc03-rhythm-jam
+[kludgine]: https://github.com/khonsulabs/kludgine
+
 ## Learning Material Updates
 
 ### [Writing NES Emulator in Rust][rust_nes_tutorial]
@@ -152,6 +193,38 @@ organized with one branch for each subsection.
 [@stevebob]: https://github.com/stevebob
 
 ## Library & Tooling Updates
+
+### [Rapier: 2D and 3D Physics Engines Focused on Performance][rapier-august]
+
+[![Rapier logo](rapier-logo.svg)][Rapier]
+
+[Rapier] is a new set of 2D and 3D physics engines written 100% in Rust.
+It is 5 to 10 times faster than [nphysics], close to the performances of the
+CPU version of PhysX, and often slightly faster than Box2D.
+
+[For its first release][rapier-august] Rapier includes:
+
+- rigid-body dynamics;
+- colliders and sensors;
+- joint constraints;
+- optional serialization of the physics state;
+- optional cross-platform determinism on IEEE-754 compliant targets;
+- optional explicit SIMD and parallelism.
+- JavaScript bindings with official NPM packages.
+
+This new physics engine is developed by the recently created [Dimforge]
+single-member Open-Source company [replacing][dimforge-replace] the former
+Rustsim organization created on GitHub by [@sebcrozet].
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/igkul2/announcing_rapier_2d_and_3d_physics_engines/)_
+
+[Rapier]: https://rapier.rs
+[rapier-august]: https://www.dimforge.com/blog/2020/08/25/announcing-the-rapier-physics-engine
+[dimforge-replace]: https://www.dimforge.com/blog/2020/08/18/rustsim-becomes-dimforge
+[Dimforge]: https://dimforge.com
+[@sebcrozet]: https://github.com/sebcrozet/
+[nphysics]: https://nphysics.org
 
 ### [SPIR-Q] v0.4.6
 
@@ -273,6 +346,24 @@ JPS is an optimization of the A* search algorithm for uniform-cost grids, which
 are common in games. While fully functional, the code is still in an early
 state and any suggestions for improvements - especially on how best to
 integrate it with the existing ecosystem - are greatly appreciated.
+
+### [This Month in Mun][mun-august]
+
+[![Mun logo](mun-logo.png)][Mun]
+
+[Mun] is a scripting language for gamedev focused on quick iteration times
+that is written in Rust.
+
+[August updates][mun-august] include:
+
+- compiler support for type aliases;
+- shared diagnostics between compiler and language server;
+- support for the official [inkwell][mun-inkwell] crate;
+- refactors and quality of life improvements.
+
+[Mun]: https://mun-lang.org
+[mun-august]: https://mun-lang.org/blog/2020/08/30/this-month-august/
+[mun-inkwell]: https://crates.io/crates/inkwell
 
 ### Tetra
 
