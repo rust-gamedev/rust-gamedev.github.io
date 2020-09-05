@@ -91,6 +91,8 @@ The good news is that we are releasing most of the libraries as we make them as
 
 We have included an example that showcase the libs:
 [Webassembly glfw3/gles2 example](https://github.com/NeoCogi/rs-glfw3-gles2-test)
+[Live example](https://neocogi.github.io/rs-glfw3-gles2-test)
+
 A good example that you can build and run with wasm32-unknown-emscripten!
 
 [Jude3D in action]: https://twitter.com/weloraiby/status/1167228654922928130
