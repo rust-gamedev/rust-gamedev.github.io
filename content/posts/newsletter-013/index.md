@@ -209,6 +209,29 @@ It can be played in the browser or downloaded at [itch.io][Cary].
 [Cary]: https://specificprotagonist.itch.io/cary
 [extra-credits-jam]: https://itch.io/jam/extra-credits-game-jam-6
 
+### [vange-rs]
+
+![vangers-shadow](vangers-shadows.jpeg)
+
+[vange-rs] is the project of re-implementing the [Vangers] game (from 1998)
+in Rust using modern development practices, parallel computations, and GPU.
+
+This month vange-rs got real-time shadows!
+See [video on /r/rust_gamedev][vangers-shadow-video] and technical description
+on the [Hybrid Shadows][vangers-shadow-blog] post of the blog.
+
+Another exciting development - the new bruteforce rendering technique allowing
+to shift the camera behind the mechos as in 3rd person view.
+See [video on /r/rust_gamedev][vangers-bars-video] and technical description on
+the [Bar Painting][vangers-bars-blog] post of the blog.
+
+[Vangers]: https://en.wikipedia.org/wiki/Vangers
+[vange-rs]: https://github.com/kvark/vange-rs
+[vangers-shadow-video]: https://reddit.com/r/rust_gamedev/comments/i32p6r/realtime_hybrid_shadows_in_vangers
+[vangers-shadow-blog]: https://kvark.github.io/vange-rs/2020/08/04/shadows.html
+[vangers-bars-video]: https://reddit.com/r/rust_gamedev/comments/igejxy/vangers_3rd_person_camera
+[vangers-bars-blog]: https://kvark.github.io/vange-rs/2020/08/29/bar-painting.html
+
 ### [Chillscapes][chillscapes-itch]
 
 ![Chillscapes Main Menu](chillscapes_main_menu.png)
@@ -528,6 +551,43 @@ also built.
 [spirv-reflect-rs]: https://github.com/gwihlidal/spirv-reflect-rs
 [hassle-rs]: https://github.com/Traverse-Research/hassle-rs
 [dxc]: https://github.com/microsoft/DirectXShaderCompiler
+
+### [gfx-rs][gfx-repo] and [wgpu][wgpu-site]
+
+![wgpu-rs water](wgpu-water.gif)
+_wgpu-rs's [water example][wgpu-water]_
+
+gfx-rs project and wgpu ecosystem have observed the release of 0.6 versions! 🎉
+
+Some of the updates:
+
+- Reworked project structure:
+  - `wgpu-core` - a safe pure-Rust internal API, implementing WebGPU specification;
+  - `wgpu-rs` - the idiomatic Rust wrapper;
+  - `wgpu-native` - the C API wrapper, aiming to be compatible with [Dawn];
+  - Gecko and Servo - for implementing WebGPU API in the browsers.
+- Ability to record API traces, replay them on a different machine,
+  and run data-driven tests.
+- `write_buffer` and `write_texture` for update the GPU data
+  without intermediate staging buffers or encoders.
+- A number of powerful native-only extensions, such as descriptor indexing,
+  as well as web-compatible extensions like depth-clamping.
+- [naga] v0.2 - an experimental shader translation library.
+- The [showcase gallery](https://wgpu.rs/#showcase) was updated.
+
+Read about the details on [gfx-rs blog](https://gfx-rs.github.io/2020/08/18/release-0.6.html).
+
+[@sothr](https://github.com/sothr) has reworked the
+[wgpu instancing tutorial][wgpu-instancing-tutor].
+See discussion at [/r/rust_gamedev][wgpu-instancing-reddit].
+
+[gfx-repo]: https://github.com/gfx-rs/gfx
+[wgpu-site]: https://wgpu.rs
+[wgpu-water]: https://github.com/gfx-rs/wgpu-rs/tree/master/examples/water
+[wgpu-instancing-tutor]: https://sotrh.github.io/learn-wgpu/beginner/tutorial7-instancing/#the-instance-buffer
+[wgpu-instancing-reddit]: https://reddit.com/r/rust_gamedev/comments/i8np5v/simplified_instancing_tutorial_learn_wgpu
+[naga]: https://github.com/gfx-rs/naga
+[Dawn]: https://dawn.googlesource.com/dawn
 
 ### [KAS] v0.5 and [KAS-text] v0.1
 
