@@ -258,36 +258,33 @@ _Discussions:
 [@sebcrozet]: https://github.com/sebcrozet/
 [nphysics]: https://nphysics.org
 
-### NeoCogi's libraries
-
-[Jude3D](https://neocogi.com) is a web based 3D sculpting application!
-It's a webassembly application, written in C/C++ and compiled using emscripten.
-After much thinking we decided to move the development to Rust!
+### [NeoCogi's Libraries][neocogi-repo]
 
 ![Jude3D](jude3d.png)
 
-Many problems arise when moving existing C/C++/webassembly code to Rust.
-The 2 most important ones:
+[Jude3D](https://neocogi.com) is a web based 3D sculpting application.
+It's a WebAssembly application, written in C/C++ and compiled using Emscripten
+but after much thinking the authors decided to move the development to Rust!
 
-- The new code should still interop with the already existing code
-- Payload size matters on the web: Your wasm app should be as small as possible
+Many problems arise when moving existing C/C++/WebAssembly code to Rust.
+The two most important ones:
 
-These led us to drop using rust's std in favor to our own libs (`!#[no_std]`),
+- The new code should still interop with the already existing code.
+- Payload size matters on the web: your WASM app should be as small as possible.
+
+These led the authors to drop using Rust's std in favor to their own libs (`!#[no_std]`),
 at least until the std library crates are split up accordingly and stabilized,
 for example the `alloc` crate.
 
-The good news is that we are releasing most of the libraries as we make them as
- open source!
-
-[NeoCogi Repo](https://github.com/NeoCogi)
-
-We have included an example that showcase the libs:
-[Webassembly glfw3/gles2 example](https://github.com/NeoCogi/rs-glfw3-gles2-test)
-[Live example](https://neocogi.github.io/rs-glfw3-gles2-test)
-
-A good example that you can build and run with wasm32-unknown-emscripten!
+The good news is that they are
+[releasing most of the libraries as they make them as open source][neocogi-repo]!
+Also, a [WASM glfw3/GLES2 example][neocogi-example-src] that showcases the libs
+is included ([live demo][neocogi-example-demo]).
 
 [Jude3D in action]: https://twitter.com/weloraiby/status/1167228654922928130
+[neocogi-repo]: https://github.com/NeoCogi
+[neocogi-example-src]: https://github.com/NeoCogi/rs-glfw3-gles2-test
+[neocogi-example-demo]: https://neocogi.github.io/rs-glfw3-gles2-test
 
 ### [cute-c2]
 
