@@ -171,9 +171,6 @@ design is working on improving the connection between the experience a new
 player has, and the current game design. The in-progress 0.8 version will likely
 be completed more quickly than 0.7, as to not include too many changes.
 
-![Caves](veloren-cave.png)
-_Improvements to cave generation_
-
 [veloren]: https://veloren.net
 [veloren-interview]: https://rustgamedev.com/episodes/interview-with-team-veloren
 
