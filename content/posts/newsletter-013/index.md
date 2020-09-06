@@ -669,6 +669,28 @@ _Discussions:
 [egui_glium]: https://crates.io/crates/egui_glium
 [egui_web]: https://crates.io/crates/egui_web
 
+### [voxel-mapper]
+
+![Demo: some terrain painted as grass, snow, dirt, etc](voxel-mapper.jpeg)
+
+[voxel-mapper] is a library and in-game editor for voxel maps, smooth or cubey.
+The ultimate goal of the project is to make it easy for artists and programmers
+alike to generate volumetric game content, either manually or procedurally.
+The library's author [@bonsairobo] has also written a couple posts:
+
+- ["Smooth Voxel Mapping: a Technical Deep Dive on Real-time Surface Nets and Texturing"][voxel-post-tech]
+- ["A 3rd Person Camera in a Complex Voxel World"][voxel-post-cam]
+
+Upcoming on the roadmap are procedural generation algorithms for generating
+maps, new kinds of voxels, and graphical improvements. Currently, the library
+and editor depend on the Amethyst engine version 0.15, but there is a desire to
+make the library engine-agnostic. Contributions are welcome!
+
+[voxel-mapper]: https://github.com/amethyst/voxel-mapper
+[@bonsairobo]: https://github.com/bonsairobo
+[voxel-post-tech]: https://medium.com/@bonsairobo/smooth-voxel-mapping-a-technical-deep-dive-on-real-time-surface-nets-and-texturing-ef06d0f8ca14
+[voxel-post-cam]: https://medium.com/@bonsairobo/a-3rd-person-camera-in-complex-voxel-world-523944d5335c
+
 ### [Minigene][minigene]
 
 [Minigene][minigene] is a tiled and ASCII game engine made by [@jojolepro].
