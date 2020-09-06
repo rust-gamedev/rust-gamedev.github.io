@@ -246,22 +246,6 @@ game development are planned.
 
 ## Library & Tooling Updates
 
-### [Minigene][minigene]
-
-[Minigene][minigene] is a tiled and ASCII game engine made by [@jojolepro].
-It allows to very simply create complex games running on desktop as well as
-in the browser.
-
-While it is still under heavy development, a lot can be done already:
-
-- Easily create ECS systems.
-- Create tiled and ASCII entities.
-- Create GUI elements.
-- Move entities around with A\* pathfinding.
-- and much more!
-
-[minigene]: https://www.github.com/jojolepro/minigene
-
 ### [Rapier: 2D and 3D Physics Engines Focused on Performance][rapier-august]
 
 [![Rapier logo](rapier-logo.svg)][Rapier]
@@ -423,6 +407,22 @@ _Discussions:
 [Egui]: https://github.com/emilk/egui/
 [egui_glium]: https://crates.io/crates/egui_glium
 [egui_web]: https://crates.io/crates/egui_web
+
+### [Minigene][minigene]
+
+[Minigene][minigene] is a tiled and ASCII game engine made by [@jojolepro].
+It allows to very simply create complex games running on desktop as well as
+in the browser.
+
+While it is still under heavy development, a lot can be done already:
+
+- Easily create ECS systems.
+- Create tiled and ASCII entities.
+- Create GUI elements.
+- Move entities around with A\* pathfinding.
+- and much more!
+
+[minigene]: https://www.github.com/jojolepro/minigene
 
 ### Tetra
 
