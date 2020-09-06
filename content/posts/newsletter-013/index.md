@@ -93,6 +93,56 @@ More details are in [August DevLog-entry][cba-august-update].
 [cba-spoon-tar]: https://www.behance.net/spoon_tar
 [@CrateAttack]: https://twitter.com/CrateAttack
 
+### [Veloren][veloren]
+
+![Landscape](veloren-landscape1.png)
+_Landscape with new LoD and lighting_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In August, Veloren 0.7 was released! Airshipper, Veloren's launcher, also got
+updated to 0.4.0. Veloren was featured in the inaugural episode of the [Rust
+Game Dev Podcast][veloren-interview]. Although the 0.7 release party saw the
+largest number of concurrent players at 57, it ran into some significant issues
+which you can read about below.
+
+The largest merge in Veloren so far also happened in August. It included
+monumental changes to lighting and added level of detail functionality to see
+far-off mountains. Lots of work has been done on the animation, combat, SFX, and
+UX front. Animations for movement and combat were added and improved. Work
+continued on particle systems, which have been added to Veloren in places like
+campfires, fireworks, and weapons.
+
+![Healing sceptre](veloren-sceptre.gif)
+_Healing sceptre with the new particle system_
+
+You can read more about some specific topics from August:
+
+- [Airshipper 0.4.0 Progress](https://veloren.net/devblog-79#airshipper-0-4-progress-by-songtronix)
+- [Animation and Movement Updates](https://veloren.net/devblog-79#animation-and-movement-updates-by-slipped)
+- [Particle Timing](https://veloren.net/devblog-80#particle-timing-by-lobster)
+- [0.7 Release Party Statistics](https://veloren.net/devblog-81#0-7-release-party-statistics)
+- [0.7 Release Party Kick Disaster](https://veloren.net/devblog-81#0-7-release-party-kick-disaster-by-xmac94x)
+- [Lighting and World Changes](https://veloren.net/devblog-81#sharp-s-lighting-and-world-changes-branch)
+- [0.8 Intro Meeting](https://veloren.net/devblog-82#0-8-intro-meeting)
+- [Audio SFX](https://veloren.net/devblog-82#audio-with-ellinia)
+- [Photo Gallery](https://veloren.net/devblog-83#photo-gallery)
+
+August's full weekly devlogs: "This Week In Veloren...":
+[#79](https://veloren.net/devblog-79), [#80](https://veloren.net/devblog-80),
+[#81](https://veloren.net/devblog-81), [#82](https://veloren.net/devblog-82).
+[#83](https://veloren.net/devblog-83).
+
+In September, work on 0.8 will continue. Some large systems being worked on
+include networking, improved persistence stability, and player experience. Game
+design is working on improving the connection between the experience a new
+player has, and the current game design. The in-progress 0.8 version will likely
+be completed more quickly than 0.7, as to not include too many changes.
+
+[veloren]: https://veloren.net
+[veloren-interview]: https://rustgamedev.com/episodes/interview-with-team-veloren
+
 ### [A/B Street][abstreet]
 
 ![Two-way cycletracks and shared left-turn lanes](abstreet.png)
@@ -226,6 +276,34 @@ Jazarro on [the Amethyst discord][amethyst-discord].
 [kv-ii]: https://en.wikipedia.org/wiki/King%27s_Valley_II
 [amethyst-discord]: https://discord.com/invite/amethyst
 
+### [SIMple Physics][simple-physics-site]
+
+[![SIMple Mechanics wave preset](simple-physics-wave.gif)][simple-physics-gifs]
+_One of SIMple Mechanic's Lua presets, a colorful wave of bouncing circles_
+
+[SIMple Physics][simple-physics-site] by [@mkhan45] is a set of educational physics
+simulators meant to help students and teachers conduct labs without expensive equipment
+or in person classes. Each simulator uses serializeable graphs, object inspection,
+Lua scripting, and a few other features to help students learn. Currently, there
+is a simulator for mechanics/projectile motion and one for universal gravitation,
+but the goal is to include one for electronics/magnetism and one for waves/optics.
+
+Written in Rust using `ggez`, `specs`, `imgui-rs`, and `nphysics`,
+this project's goals include:
+performance, accessibility/portability, ease of use, and extensibility.
+
+To find out more about the project, visit the site [here][simple-physics-site],
+watch some cool gifs [here][simple-physics-gifs], or read the GitHub page
+[here][simple-physics-github].
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/ibk2rf/announcing_simple_physics)_
+
+[simple-physics-site]: https://mkhan45.github.io/SIMple-Physics/
+[simple-physics-gifs]: https://mkhan45.github.io/SIMple-Physics/posts/Gifs/
+[simple-physics-github]: https://mkhan45.github.io/SIMple-Physics/posts/Gifs/
+[@mkhan45]: https://github.com/mkhan45
+
 ## Learning Material Updates
 
 ### [Writing NES Emulator in Rust][rust_nes_tutorial]
@@ -292,6 +370,28 @@ organized with one branch for each subsection.
 [chargrid-roguelike-tutorial-2020-reference-code]: https://github.com/stevebob/chargrid-roguelike-tutorial-2020
 [chargrid]: https://github.com/stevebob/chargrid/
 [@stevebob]: https://github.com/stevebob
+
+### [Event Chaining as a Decoupling Method in ECS][event-chaining]
+
+![graph: FileSignal -> AssetSignal -> AssetEvent](event-chain-assets-graph.png)
+
+[@jojolepro] released a [blog post][event-chaining] that provides
+an in-depth look at how using events in entity-component-system architectures
+can improve system reusability dramatically.
+
+Using events in this way also allows for:
+
+- easier testing,
+- additional configurability,
+- possible performance improvements,
+- higher reusability - especially if using generics.
+
+The blog also has an [RSS feed][jojolepro-rss] and more in-depth posts about
+game development are planned.
+
+[event-chaining]: https://www.jojolepro.com/blog/2020-08-20_event_chaining/
+[jojolepro-rss]: https://www.jojolepro.com/blog/blog.xml
+[@jojolepro]: https://github.com/jojolepro
 
 ## Library & Tooling Updates
 
@@ -426,6 +526,32 @@ _Discussions: [/r/rust_gamedev][inline-spirv-discussion]_
 [Inline SPIR-V]: https://github.com/PENGUINLIONG/inline-spirv-rs
 [inline-spirv-discussion]: https://reddit.com/r/rust_gamedev/comments/ic1005/inline_spirv
 
+### [rspirv-reflect] v0.1
+
+![Traverse Research banner](traverse-research-banner.png)
+
+[Traverse Research] has created the [rspirv-reflect] library to replace
+their very basic use-case of the existing [spirv-reflect-rs] / [spirv-reflect]
+libraries that are already out there. The current iteration of `rspirv-reflect`
+is pretty minimal, but it allows you to extract the binding setup from a SPIR-V
+binary. `rspirv-reflect` supports the latest version of SPIR-V (version 1.5 as
+of writing) and it also supports all the new shader stages (both ray tracing
+and mesh/task shaders) as well as the existing ones.
+
+Traverse Research wanted to reduce their reliance on C and C++ unsafe
+libraries and at the same time they needed to support newer features that were
+slow to become available in the existing `spirv-reflect` library. The primary
+use-case for this library is in conjecture with the Rust wrapper around the
+DirectX Shader Compiler ([dxc]), called [hassle-rs] that Traverse Research
+also built.
+
+[Traverse Research]: https://traverseresearch.nl
+[rspirv-reflect]: https://github.com/Traverse-Research/rspirv-reflect
+[spirv-reflect]: https://github.com/KhronosGroup/SPIRV-Reflect
+[spirv-reflect-rs]: https://github.com/gwihlidal/spirv-reflect-rs
+[hassle-rs]: https://github.com/Traverse-Research/hassle-rs
+[dxc]: https://github.com/microsoft/DirectXShaderCompiler
+
 ### [gfx-rs][gfx-repo] and [wgpu][wgpu-site]
 
 ![wgpu-rs water](wgpu-water.gif)
@@ -517,6 +643,22 @@ _Discussions:
 [Egui]: https://github.com/emilk/egui/
 [egui_glium]: https://crates.io/crates/egui_glium
 [egui_web]: https://crates.io/crates/egui_web
+
+### [Minigene][minigene]
+
+[Minigene][minigene] is a tiled and ASCII game engine made by [@jojolepro].
+It allows to very simply create complex games running on desktop as well as
+in the browser.
+
+While it is still under heavy development, a lot can be done already:
+
+- Easily create ECS systems.
+- Create tiled and ASCII entities.
+- Create GUI elements.
+- Move entities around with A\* pathfinding.
+- and much more!
+
+[minigene]: https://www.github.com/jojolepro/minigene
 
 ### Tetra
 
@@ -620,6 +762,7 @@ or [join the next meeting][join].
 - [Amethyst's "good first issue" issues][amethyst-issues].
 - [A/B Street's "good first issue" issues][abstreet-issues].
 - [Mun's "good first issue" issues][mun-issues].
+- [SIMple Mechanic's good first issues][simm-issues].
 
 [embark.rs]: https://embark.rs
 [embark-open-issues]: https://github.com/search?q=user:EmbarkStudios+state:open
@@ -632,6 +775,7 @@ or [join the next meeting][join].
 [amethyst-issues]: https://github.com/amethyst/amethyst/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
 [abstreet-issues]: https://github.com/dabreegster/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
 [mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
+[simm-issues]: https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue
 
 ## Jobs
 
