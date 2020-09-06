@@ -203,6 +203,34 @@ Jazarro on [the Amethyst discord][amethyst-discord].
 [kv-ii]: https://en.wikipedia.org/wiki/King%27s_Valley_II
 [amethyst-discord]: https://discord.com/invite/amethyst
 
+### [SIMple Physics][simple-physics-site]
+
+[![SIMple Mechanics wave preset](simple-physics-wave.gif)][simple-physics-gifs]
+_One of SIMple Mechanic's Lua presets, a colorful wave of bouncing circles_
+
+[SIMple Physics][simple-physics-site] by [@mkhan45] is a set of educational physics
+simulators meant to help students and teachers conduct labs without expensive equipment
+or in person classes. Each simulator uses serializeable graphs, object inspection,
+Lua scripting, and a few other features to help students learn. Currently, there
+is a simulator for mechanics/projectile motion and one for universal gravitation,
+but the goal is to include one for electronics/magnetism and one for waves/optics.
+
+Written in Rust using `ggez`, `specs`, `imgui-rs`, and `nphysics`,
+this project's goals include:
+performance, accessibility/portability, ease of use, and extensibility.
+
+To find out more about the project, visit the site [here][simple-physics-site],
+watch some cool gifs [here][simple-physics-gifs], or read the GitHub page
+[here][simple-physics-github].
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/ibk2rf/announcing_simple_physics)_
+
+[simple-physics-site]: https://mkhan45.github.io/SIMple-Physics/
+[simple-physics-gifs]: https://mkhan45.github.io/SIMple-Physics/posts/Gifs/
+[simple-physics-github]: https://mkhan45.github.io/SIMple-Physics/posts/Gifs/
+[@mkhan45]: https://github.com/mkhan45
+
 ## Learning Material Updates
 
 ### [Writing NES Emulator in Rust][rust_nes_tutorial]
@@ -586,6 +614,7 @@ or [join the next meeting][join].
 - [Amethyst's "good first issue" issues][amethyst-issues].
 - [A/B Street's "good first issue" issues][abstreet-issues].
 - [Mun's "good first issue" issues][mun-issues].
+- [SIMple Mechanic's good first issues][simm-issues].
 
 [embark.rs]: https://embark.rs
 [embark-open-issues]: https://github.com/search?q=user:EmbarkStudios+state:open
@@ -598,6 +627,7 @@ or [join the next meeting][join].
 [amethyst-issues]: https://github.com/amethyst/amethyst/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
 [abstreet-issues]: https://github.com/dabreegster/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
 [mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
+[simm-issues]: https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue
 
 ## Jobs
 
