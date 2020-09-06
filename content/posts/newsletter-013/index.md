@@ -65,8 +65,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ### [SIMple Physics][simple-physics-site]
 
 [![SIMple Mechanics wave preset](simple-physics-wave.gif)][simple-physics-gifs]
-
-^ One of SIMple Mechanic's Lua presets, a colorful wave of bouncing circles
+_One of SIMple Mechanic's Lua presets, a colorful wave of bouncing circles_
 
 [SIMple Physics][simple-physics-site] by [@mkhan45] is a set of educational physics
 simulators meant to help students and teachers conduct labs without expensive equipment
