@@ -224,9 +224,11 @@ organized with one branch for each subsection.
 
 ### [Event Chaining as a Decoupling Method in ECS][event-chaining]
 
-[This blog post][event-chaining] by [@jojolepro] is an in-depth look at how
-using events in entity-component-system architectures can improve
-system reusability dramatically.
+![graph: FileSignal -> AssetSignal -> AssetEvent](event-chain-assets-graph.png)
+
+[@jojolepro] released a [blog post][event-chaining] that provides
+an in-depth look at how using events in entity-component-system architectures
+can improve system reusability dramatically.
 
 Using events in this way also allows for:
 
