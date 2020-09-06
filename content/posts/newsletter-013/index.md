@@ -246,17 +246,17 @@ game development are planned.
 
 ### [Minigene][minigene]
 
-[Minigene][minigene] is a tiled and ascii game engine made by [@jojolepro].
+[Minigene][minigene] is a tiled and ASCII game engine made by [@jojolepro].
 It allows to very simply create complex games running on desktop as well as
 in the browser.
 
 While it is still under heavy development, a lot can be done already:
 
-- Easily Create ECS Systems.
-- Create Tiled and ASCII Entities.
-- Create GUI Elements.
-- Move Entities Around with A\* Pathfinding.
-- Much More!
+- Easily create ECS systems.
+- Create tiled and ASCII entities.
+- Create GUI elements.
+- Move entities around with A\* pathfinding.
+- and much more!
 
 [minigene]: https://www.github.com/jojolepro/minigene
 
