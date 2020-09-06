@@ -518,6 +518,8 @@ that is written in Rust.
 
 ### [Piston]
 
+![text logo](piston-logo.png)
+
 [Piston] is a modular game engine written in Rust.
 
 A new [Piston Discord Channel] has been set up
