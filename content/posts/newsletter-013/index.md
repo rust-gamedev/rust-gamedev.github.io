@@ -62,6 +62,62 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Crate Before Attack][cba-site]
+
+[![Camera debugging in Crate Before Attack](crate-before-attack.png)][cba-site]
+_Debugging camera motion: highlighted areas are points of interest._
+
+[Crate Before Attack][cba-site] by [koalefant (@CrateAttack)][@CrateAttack]
+is a skill-based multiplayer game where frogs combat their friends
+while navigating the landscape with their sticky tongues.
+
+A [playable browser build][cba-play] can be tried online.
+
+Recent changes are:
+
+- Training mode improvements, including a new map [Dungeon][cba-youtube-dungeon]
+  by [Kesha Astafyev][cba-spoon-tar].
+- [Better camera motion][cba-youtube-camera-motion]:
+  multiple points of interest are tracked dynamically.
+- Improved GPU performance by merging multiple render passes into one.
+- Added control hints.
+- Numerous bugfixes and tweaks.
+
+More details are in [August DevLog-entry][cba-august-update].
+
+[cba-site]: https://cratebeforeattack.com
+[cba-youtube-dungeon]: https://youtu.be/cukyVXQ0n0c
+[cba-youtube-camera-motion]: https://youtu.be/3y7Hfa-v3e8
+[cba-august-update]: https://cratebeforeattack.com/posts/20200831-august-update/
+[cba-play]: https://cratebeforeattack.com/play
+[cba-spoon-tar]: https://www.behance.net/spoon_tar
+[@CrateAttack]: https://twitter.com/CrateAttack
+
+### [A/B Street][abstreet]
+
+![Two-way cycletracks and shared left-turn lanes](abstreet.png)
+
+[A/B Street][abstreet] is a traffic simulation game exploring how small changes
+to roads affect cyclists, transit users, pedestrians, and drivers. Any city
+with OpenStreetMap coverage can be used!
+
+Some of this month's updates:
+
+- Multiple traffic signals can be edited together.
+- An [API][abstreet-api] and tools were added, to control maps and simulation
+  from any language.
+- [Michael Kirk][mkirk], a new team member, fixed HiDPI scaling issues in a
+  consistent way.
+- Many new cities imported, with better support for countries that drive on the
+  left and support for using alternate languages from OpenStreetMap for roads
+  and buildings.
+- Backwards compatibility for a player's edits to the map.
+- Two-way cycletracks and roads with multiple direction changes.
+
+[abstreet]: https://abstreet.org
+[abstreet-api]: https://dabreegster.github.io/abstreet/dev/api.html
+[mkirk]: https://github.com/michaelkirk
+
 ### [Egregoria]
 
 ![Egregoria buildings screenshot](egregoria.png)
@@ -196,8 +252,7 @@ work with graphics in Rust using [SDL2][sdl2] library.
 ### [Beginning Game Development with Amethyst][rustconf-talk-video]
 
 [![youtube preview](rustconf-amethyst-talk.png)][rustconf-talk-video]
-
-^ _Click to [watch the talk][rustconf-talk-video]._
+_Click to [watch the talk][rustconf-talk-video]._
 
 Getting started with Rust + gamedev can be intimidating. At
 [RustConf 2020][rust-conf-2020], [Micah Tigley] gave a talk about their experience
@@ -276,60 +331,20 @@ _Discussions:
 [@sebcrozet]: https://github.com/sebcrozet/
 [nphysics]: https://nphysics.org
 
-### [Egui]
+### [cute-c2]
 
-[Egui] is a highly portable immediate mode GUI library in pure Rust.
-Egui can be integrated anywhere you can paint textured triangles.
-You can compile Egui to WASM and render it on a web page using [egui_web]
-or compile and run natively using [egui_glium].
+![cute-c2 collision](cute-c2-collision.gif)
 
-[Click to run Egui web demo](https://emilk.github.io/egui/index.html)
+cute-c2 is a 2D collision detection library that has had its first release to
+[crates.io][cute-c2]. The library is a Rust wrapper around the [c2.h] library.
 
-Example:
+The library can detect collisions between circles, rectangles, capsules and
+up to eight-sided convex polygons. There are also functions for manifold
+generation, the GJK algorithm and ray casting operations. There is an example
+program in the repository.
 
-```rust
-Window::new("Debug").show(ui.ctx(), |ui| {
-    ui.label(format!("Hello, world {}", 123));
-    if ui.button("Save").clicked {
-        my_save_function();
-    }
-    ui.text_edit(&mut my_string);
-    ui.add(Slider::f32(&mut value, 0.0..=1.0).text("float"));
-});
-```
-
-![Egui](egui.png)
-
-_Discussions:
-[/r/rust](https://reddit.com/r/rust/comments/hzwvsk/emigui_deserves_more_love)_
-
-[Egui]: https://github.com/emilk/egui/
-[egui_glium]: https://crates.io/crates/egui_glium
-[egui_web]: https://crates.io/crates/egui_web
-
-### 🐦 [Puffin Profiler]
-
-Pufin is a simple instrumentation profiler created by [Embark]
-where you can opt-in to profile parts of your code.
-
-```rust
-fn my_function() {
-    puffin::profile_function!():
-    ...
-    if ... {
-        puffin::profile_scope_data!("load_image", image_name):
-        ...
-    }
-}
-```
-
-The collected profile data can be viewed ingame with [imgui-rs].
-
-![Puffin flamegraph shown with puffin-imgui](puffin.png)
-
-[Puffin Profiler]: https://github.com/EmbarkStudios/puffin
-[Embark]: https://www.embark-studios.com/
-[imgui-rs]: https://github.com/Gekkio/imgui-rs
+[cute-c2]: https://crates.io/crates/c2
+[c2.h]: https://github.com/RandyGaul/cute_headers/blob/master/cute_c2.h
 
 ### [hexasphere] v1.0
 
@@ -380,6 +395,96 @@ that is written in Rust.
 [mun-august]: https://mun-lang.org/blog/2020/08/30/this-month-august/
 [mun-inkwell]: https://crates.io/crates/inkwell
 
+### [SPIR-Q] v0.4.6
+
+[SPIR-Q] is a light-weight shader reflection library, which allows you to query
+the types, offsets, sizes and even names in your shaders procedurally.
+
+This month v0.4.2..v0.4.6 versions were released.
+Some of the updates:
+
+- Specialization constants enumeration.
+- Dynamically sized multi-binding support.
+- Improved entrypoint debug printing.
+- Better manifest merging method for pipeline construction.
+- Bugfixes and various small API improvments.
+
+_Discussions: [/r/rust_gamedev][spirq-discussion]_
+
+[SPIR-Q]: https://github.com/PENGUINLIONG/spirq-rs
+[spirq-discussion]: https://reddit.com/r/rust_gamedev/comments/i6hxh6/spirq_042
+
+### [Inline SPIR-V]
+
+![inline-spirv](inline-spirv-demo.png)
+
+[Inline SPIR-V] is a single-crate build-time shader compilation library based on
+shaderc which provides procedural macros to help you translate shader sources,
+in either GLSL or HLSL, inline or from-file, into SPIR-Vs and embed the SPIR-Vs
+right inside your code as `u32` slices. Despite basic shader compilation,
+`inline-spirv` also support `#include` directives, macro substitution,
+post-compile optimization, as well as descriptor auto-binding.
+
+_Discussions: [/r/rust_gamedev][inline-spirv-discussion]_
+
+[Inline SPIR-V]: https://github.com/PENGUINLIONG/inline-spirv-rs
+[inline-spirv-discussion]: https://reddit.com/r/rust_gamedev/comments/ic1005/inline_spirv
+
+### [KAS] v0.5 and [KAS-text] v0.1
+
+![KAS text layout](kas-text-layout.png)
+
+[KAS] by [@dhardy] is a general purpose UI toolkit; its
+initial aim is "old school" desktop apps with good keyboard and touchscreen
+support. Unlike many modern immediate-mode UIs, KAS's widgets retain state,
+allowing minimal per-frame updates. KAS supports embedded WebGPU graphics now,
+and will (eventually) support being embedded within other contexts (requiring
+only a supply of input events and implemention of some basic graphics routines).
+
+KAS v0.5 switches to a new crate for text layout,
+[KAS-text]. KAS-text is a text layout
+engine supporting multi-line editing, shaping and bidirectional text; future
+versions will also support formatting. KAS-text is not tied to any particular
+raster or render system; its positioned-glyph output is relatively easy to
+adapt to crates like `wgpu_glyph` and `gfx_glyph`.
+For more, see the article ["Why I created KAS-text"][kas-article].
+
+[KAS]: https://github.com/kas-gui/kas
+[KAS-text]: https://github.com/kas-gui/kas-text
+[kas-article]: https://kas-gui.github.io/blog/why-kas-text.html
+[@dhardy]: https://github.com/dhardy
+
+### [Egui]
+
+[Egui] is a highly portable immediate mode GUI library in pure Rust.
+Egui can be integrated anywhere you can paint textured triangles.
+You can compile Egui to WASM and render it on a web page using [egui_web]
+or compile and run natively using [egui_glium].
+
+[Click to run Egui web demo](https://emilk.github.io/egui/index.html)
+
+Example:
+
+```rust
+Window::new("Debug").show(ui.ctx(), |ui| {
+    ui.label(format!("Hello, world {}", 123));
+    if ui.button("Save").clicked {
+        my_save_function();
+    }
+    ui.text_edit(&mut my_string);
+    ui.add(Slider::f32(&mut value, 0.0..=1.0).text("float"));
+});
+```
+
+![Egui](egui.png)
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/hzwvsk/emigui_deserves_more_love)_
+
+[Egui]: https://github.com/emilk/egui/
+[egui_glium]: https://crates.io/crates/egui_glium
+[egui_web]: https://crates.io/crates/egui_web
+
 ### Tetra
 
 [Tetra] is a simple 2D game framework, inspired by XNA and Raylib. This month,
@@ -396,6 +501,49 @@ information on the upcoming changes, see the [changelog][tetra-changelog].
 [tetra-041]: https://twitter.com/17cupsofcoffee/status/1289857217198317568
 [tetra-042]: https://twitter.com/17cupsofcoffee/status/1294316642680426497
 [tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
+
+### [starframe]
+
+![Current state of starframe graphics and physics](starframe-demo.gif)
+
+[starframe] by [@moletrooper] is a work-in-progress 2D game engine
+for physics-y sidescrolling games. This month it received
+[an experimental graph-based entity system][sf-graph-post].
+
+The next area of focus is going to be fleshing out the physics with
+generalized constraints, which will enable things like friction and joints.
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/iju3xq/starframe_devlog_architecture_ecs_graph/),
+[twitter](https://twitter.com/moletrooper/status/1300034941816897542)_
+
+[starframe]: https://github.com/moletrooper/starframe
+[@moletrooper]: https://twitter.com/moletrooper
+[sf-graph-post]: https://moletrooper.github.io/blog/2020/08/starframe-1-architecture/
+
+### 🐦 [Puffin Profiler]
+
+Pufin is a simple instrumentation profiler created by [Embark]
+where you can opt-in to profile parts of your code.
+
+```rust
+fn my_function() {
+    puffin::profile_function!():
+    ...
+    if ... {
+        puffin::profile_scope_data!("load_image", image_name):
+        ...
+    }
+}
+```
+
+The collected profile data can be viewed ingame with [imgui-rs].
+
+![Puffin flamegraph shown with puffin-imgui](puffin.png)
+
+[Puffin Profiler]: https://github.com/EmbarkStudios/puffin
+[Embark]: https://www.embark-studios.com/
+[imgui-rs]: https://github.com/Gekkio/imgui-rs
 
 ### [wowAddonManager] v1.0.2
 

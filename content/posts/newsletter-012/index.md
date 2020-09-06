@@ -64,8 +64,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ### [ochre][4k-post] - 4K Intro
 
 [![Youtube preview: mountains & spheres](4k-into-youtube.jpeg)][4k-video]
-
-^ _Click to [watch the demo on Youtube][4k-video]._
+_Click to [watch the demo on Youtube][4k-video]._
 
 Jani Peltonen has recently released a [4K intro][4k-src]
 which is completely written in Rust and GLSL
@@ -117,8 +116,7 @@ _Discussions:
 ### [Crate Before Attack][cba-site]
 
 [![Golf Club in Crate Before Attack](crate-before-attack.gif)][cba-site]
-
-^ _A new weapon: the Golf Club_
+_A new weapon: the Golf Club_
 
 [Crate Before Attack][cba-site] by [koalefant (@CrateAttack)][@CrateAttack]
 is a skill-based grappling hook multiplayer game where frogs combat their friends
@@ -473,8 +471,7 @@ The game is in an early stage of development,
 ### [On FPS Game Progress \#2][on-fps-game-2]
 
 [![fps-game-screenshot](fps-game-2.jpeg)][on-fps-game-2-youtube]
-
-^ _Click to watch [footage from the game's current state][on-fps-game-2-youtube]._
+_Click to watch [footage from the game's current state][on-fps-game-2-youtube]._
 
 On this update, [@pingFromHeaven] talks about the lighting implementation that
 sets the tone for the game, how Rust is good at shortening the debugging
@@ -512,8 +509,7 @@ Some of the recent updates:
 ### [Veloren][veloren]
 
 ![Sunrise](veloren-sunrise.gif)
-
-^ _Sunrise_
+_Sunrise_
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.
@@ -528,8 +524,7 @@ crafting GUI has been added. Translations have stabilized significantly, and
 there is a framework for translators to know what needs to be done.
 
 ![Fire particles](veloren-fire.gif)
-
-^ _Progress on the particle system_
+_Progress on the particle system_
 
 You can read more about some specific topics from July:
 
@@ -554,8 +549,7 @@ generation. The inaugural episode of the Rust Game Dev podcast will be released,
 which features an interview by Veloren developers.
 
 ![Quadrupeds](veloren-quadrupeds.png)
-
-^ _Quadruped overhaul_
+_Quadruped overhaul_
 
 [veloren]: https://veloren.net
 
@@ -605,8 +599,7 @@ read the book at [sokoban.iolivia.me][sokoban_book].
 ### [Make Pong with Rust][tantan-video]
 
 [![youtube preview](video-pong-tutorial.jpeg)][tantan-video]
-
-^ _Click to [watch the tutorial][tantan-video]._
+_Click to [watch the tutorial][tantan-video]._
 
 [TanTan] released a [video tutorial][tantan-video]
 that guides you through all the step of making a pong game in Rust
@@ -645,8 +638,7 @@ The full article is available [here][dod].
 ### ["Rust'N'Games" Talk][rust-n-games]
 
 [![youtube preview: a slide with Tower Rangers game](rust-n-games-youtube.jpeg)][rust-n-games]
-
-^ _Click to [watch the talk][rust-n-games]._
+_Click to [watch the talk][rust-n-games]._
 
 During the recent ["Rust and Tell"][rust-n-tell] online event
 [Stephan @extrawurst Dilly][@extrawurst] gave a ["Rust'N'Games" talk][rust-n-games]
@@ -818,8 +810,7 @@ Linux, macOS and Windows!
 ### [wgpu][wgpu-site]
 
 ![procgen dynamic "grass field"](tuitui-grass-field.jpeg)
-
-^ _[@MacTuitui]'s everyday [nannou] experiment #1274_
+_[@MacTuitui]'s everyday [nannou] experiment #1274_
 
 The work is ongoing to validate all the incoming commands and guarantee API safety.
 Special thanks to [@GabrielMajeri] for helping to convert assertions
@@ -940,8 +931,7 @@ You can follow progress on [GitHub][graphene] or on [Twitter][apoorvaj].
 ### Vulkan Renderer (Name TBD)
 
 [![Vulkan renderer on iOS prototype](vulkan-renderer-prototype.jpeg)][vulkan-renderer-prototype-video]
-
-^ _Click to watch [the video demo][vulkan-renderer-prototype-video] running on iOS._
+_Click to watch [the video demo][vulkan-renderer-prototype-video] running on iOS._
 
 [@aclysma] published a [new vulkan-based renderer][renderer-prototype] that
 uses [atelier-assets] to load 3D scenes exported from blender.
@@ -1099,8 +1089,7 @@ and highlight events from the past. -->
 Just an interesting Rust gamedev link from the past. :)
 
 [![youtube preview](shar-youtube.jpeg)][shar-trailer]
-
-^ _Click to watch [SHAR's Greenlight trailer][shar-trailer]_
+_Click to watch [SHAR's Greenlight trailer][shar-trailer]_
 
 [SHAR][shar-itch] (Russian "Шар" - ball) by [@fedor_games] (author of [miniquad]/[macroquad])
 is a 3rd-person online action game that aims to create unique experience
