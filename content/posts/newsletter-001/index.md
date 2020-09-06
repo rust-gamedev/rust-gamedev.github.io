@@ -116,8 +116,7 @@ Also, check out
 ### Way of Rhea [Trailer][rhea trailer] and [Steam Wishlist][rhea steam] Announced
 
 [![Part of the trailer](way-of-rhea.gif)][rhea trailer]
-
-^ _click on the GIF to see [the full trailer][rhea trailer]_
+_click on the GIF to see [the full trailer][rhea trailer]_
 
 [A new trailer][rhea trailer] and the [Steam wishlist][rhea steam]
 were published for "Way of Rhea" by [Anthropic Studios].
@@ -522,8 +521,7 @@ by [Michael Fairley] was released:
 > and make sure to press all the buttons.
 
 [![Part of A snake's Tail's trailer](a-snakes-tail.gif)][snake trailer]
-
-^ _click on the GIF to see [the full release trailer][snake trailer]_
+_click on the GIF to see [the full release trailer][snake trailer]_
 
 A few posts about the game and how it was developed:
 
