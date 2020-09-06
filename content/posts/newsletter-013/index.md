@@ -361,7 +361,7 @@ Using events in this way also allows for:
 - easier testing,
 - additional configurability,
 - possible performance improvements,
-- higher usability - especially if using generics.
+- higher reusability - especially if using generics.
 
 The blog also has an [RSS feed][jojolepro-rss] and more in-depth posts about
 game development are planned.
