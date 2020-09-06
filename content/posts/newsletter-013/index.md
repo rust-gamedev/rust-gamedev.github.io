@@ -357,13 +357,11 @@ _Discussions: [/r/rust_gamedev][inline-spirv-discussion]_
 [Inline SPIR-V]: https://github.com/PENGUINLIONG/inline-spirv-rs
 [inline-spirv-discussion]: https://reddit.com/r/rust_gamedev/comments/ic1005/inline_spirv
 
-### KAS v0.5 and KAS-text v0.1
-
-This last month saw the release of KAS version 0.5 and a new crate, `kas-text`.
+### [KAS] v0.5 and [KAS-text] v0.1
 
 ![KAS text layout](kas-text-layout.png)
 
-[KAS](https://github.com/kas-gui/kas) is a general purpose UI toolkit; its
+[KAS] by [@dhardy] is a general purpose UI toolkit; its
 initial aim is "old school" desktop apps with good keyboard and touchscreen
 support. Unlike many modern immediate-mode UIs, KAS's widgets retain state,
 allowing minimal per-frame updates. KAS supports embedded WebGPU graphics now,
@@ -371,12 +369,17 @@ and will (eventually) support being embedded within other contexts (requiring
 only a supply of input events and implemention of some basic graphics routines).
 
 KAS v0.5 switches to a new crate for text layout,
-[KAS-text](https://github.com/kas-gui/kas-text). KAS-text is a text layout
+[KAS-text]. KAS-text is a text layout
 engine supporting multi-line editing, shaping and bidirectional text; future
 versions will also support formatting. KAS-text is not tied to any particular
 raster or render system; its positioned-glyph output is relatively easy to
-adapt to crates like `wgpu_glyph` and `gfx_glyph`. For more, see the article
-[Why I created KAS-text](https://kas-gui.github.io/blog/why-kas-text.html).
+adapt to crates like `wgpu_glyph` and `gfx_glyph`.
+For more, see the article ["Why I created KAS-text"][kas-article].
+
+[KAS]: https://github.com/kas-gui/kas
+[KAS-text]: https://github.com/kas-gui/kas-text
+[kas-article]: https://kas-gui.github.io/blog/why-kas-text.html
+[@dhardy]: https://github.com/dhardy
 
 ### [Egui]
 
