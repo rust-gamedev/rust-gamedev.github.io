@@ -127,8 +127,7 @@ Chillscapes is written using an early-in-development 2d engine,
 ### [Veloren][veloren]
 
 ![Landscape](veloren-landscape1.png)
-
-^ _Landscape with new LoD and lighting_
+_Landscape with new LoD and lighting_
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.
@@ -147,8 +146,7 @@ continued on particle systems, which have been added to Veloren in places like
 campfires, fireworks, and weapons.
 
 ![Healing sceptre](veloren-sceptre.gif)
-
-^ _Healing sceptre with the new particle system_
+_Healing sceptre with the new particle system_
 
 You can read more about some specific topics from August:
 
@@ -174,8 +172,7 @@ player has, and the current game design. The in-progress 0.8 version will likely
 be completed more quickly than 0.7, as to not include too many changes.
 
 ![Caves](veloren-cave.png)
-
-^ _Improvements to cave generation_
+_Improvements to cave generation_
 
 [veloren]: https://veloren.net
 [veloren-interview]: https://rustgamedev.com/episodes/interview-with-team-veloren
