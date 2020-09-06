@@ -348,6 +348,28 @@ organized with one branch for each subsection.
 [chargrid]: https://github.com/stevebob/chargrid/
 [@stevebob]: https://github.com/stevebob
 
+### [Event Chaining as a Decoupling Method in ECS][event-chaining]
+
+![graph: FileSignal -> AssetSignal -> AssetEvent](event-chain-assets-graph.png)
+
+[@jojolepro] released a [blog post][event-chaining] that provides
+an in-depth look at how using events in entity-component-system architectures
+can improve system reusability dramatically.
+
+Using events in this way also allows for:
+
+- easier testing,
+- additional configurability,
+- possible performance improvements,
+- higher usability - especially if using generics.
+
+The blog also has an [RSS feed][jojolepro-rss] and more in-depth posts about
+game development are planned.
+
+[event-chaining]: https://www.jojolepro.com/blog/2020-08-20_event_chaining/
+[jojolepro-rss]: https://www.jojolepro.com/blog/blog.xml
+[@jojolepro]: https://github.com/jojolepro
+
 ## Library & Tooling Updates
 
 ### [Rapier: 2D and 3D Physics Engines Focused on Performance][rapier-august]
@@ -561,6 +583,22 @@ _Discussions:
 [Egui]: https://github.com/emilk/egui/
 [egui_glium]: https://crates.io/crates/egui_glium
 [egui_web]: https://crates.io/crates/egui_web
+
+### [Minigene][minigene]
+
+[Minigene][minigene] is a tiled and ASCII game engine made by [@jojolepro].
+It allows to very simply create complex games running on desktop as well as
+in the browser.
+
+While it is still under heavy development, a lot can be done already:
+
+- Easily create ECS systems.
+- Create tiled and ASCII entities.
+- Create GUI elements.
+- Move entities around with A\* pathfinding.
+- and much more!
+
+[minigene]: https://www.github.com/jojolepro/minigene
 
 ### Tetra
 
