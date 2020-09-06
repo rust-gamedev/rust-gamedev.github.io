@@ -65,31 +65,27 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ### [Way of Rhea]
 
 [![Anthropic's virtual booth at Play NYC](way-of-rhea-play-nyc.png)][Way of Rhea]
+_Anthropic's virtual booth at [Play NYC]_
 
-[Way of Rhea] has a [free demo][Way of Rhea] temporarily available as part of
-[Play NYC]!
-
-Way of Rhea is a puzzle platformer that takes place in a world where you can
+[Way of Rhea] is a puzzle platformer that takes place in a world where you can
 only interact with items that match your current color.
 
+Way of Rhea has a [free Steam demo][Way of Rhea] temporarily available as part of
+[Play NYC]!
 The new demo includes a level that wasn't part of the Steam Game Festival,
 showing off how circuit puzzles will work in the game. Since Play NYC
 couldn't be in person this year, the devs temporarily themed this level to look
 like last year's Play NYC venue, included placing virtual booths for other games
 throughout the level.
 
-How to stay up to date:
-
-- [Try the demo/wishlist on Steam][Way of Rhea]
-- [Follow the studio on Twitter][Anthropic Twitter]
-- [Follow Mason Remaley on Twitter][Mason Remaley Twitter]
-- [Sign up for the studio's mailing list][Anthropic Newsletter]
+Follow [@AnthropicSt] or [@masonremaley] on Twitter or
+[sign up for the mailing list][anthropic-newsletter] for updates.
 
 [Way of Rhea]: https://store.steampowered.com/app/1110620/Way_of_Rhea/
 [Play NYC]: https://www.play-nyc.com/
-[Anthropic Twitter]: https://twitter.com/anthropicst
-[Mason Remaley Twitter]: https://twitter.com/masonremaley
-[Anthropic Newsletter]: https://www.anthropicstudios.com/newsletter/signup/tech
+[@AnthropicSt]: https://twitter.com/anthropicst
+[@masonremaley]: https://twitter.com/masonremaley
+[anthropic-newsletter]: https://www.anthropicstudios.com/newsletter/signup/tech
 
 ## Learning Material Updates
 
