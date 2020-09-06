@@ -64,7 +64,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [SIMple Physics][simple-physics-site]
 
-[![SIMple Mechanics wave preset]](simple-physics-wave.gif)[simple-physics-gifs]
+[![SIMple Mechanics wave preset](simple-physics-wave.gif)][simple-physics-gifs]
 
 ^ One of SIMple Mechanic's Lua presets, a colorful wave of bouncing circles
 
@@ -124,6 +124,7 @@ or [join the next meeting][join].
 - [Amethyst's "good first issue" issues][amethyst-issues].
 - [A/B Street's "good first issue" issues][abstreet-issues].
 - [Mun's "good first issue" issues][mun-issues].
+- [SIMple Mechanic's good first issues][simm-issues].
 
 [embark.rs]: https://embark.rs
 [embark-open-issues]: https://github.com/search?q=user:EmbarkStudios+state:open
@@ -136,6 +137,7 @@ or [join the next meeting][join].
 [amethyst-issues]: https://github.com/amethyst/amethyst/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
 [abstreet-issues]: https://github.com/dabreegster/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
 [mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
+[simm-issues]: https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue
 
 ## Jobs
 
