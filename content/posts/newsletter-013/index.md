@@ -74,20 +74,16 @@ Lua scripting, and a few other features to help students learn. Currently, there
 is a simulator for mechanics/projectile motion and one for universal gravitation,
 but the goal is to include one for electronics/magnetism and one for waves/optics.
 
-Written in Rust using `ggez`, `specs`, `imgui-rs`, and `nphysics`, this project's
-goals include:
-
-- Performance
-- Accessibility/Portability
-- Ease of use
-- Extensibility
+Written in Rust using `ggez`, `specs`, `imgui-rs`, and `nphysics`,
+this project's goals include:
+performance, accessibility/portability, ease of use, and extensibility.
 
 To find out more about the project, visit the site [here][simple-physics-site],
 watch some cool gifs [here][simple-physics-gifs], or read the GitHub page
-[here][simple-physics-github]
+[here][simple-physics-github].
 
 _Discussions:
-[/r/rust](https://www.reddit.com/r/rust/comments/ibk2rf/announcing_simple_physics_a_set_of_educational/)_
+[/r/rust](https://reddit.com/r/rust/comments/ibk2rf/announcing_simple_physics)_
 
 [simple-physics-site]: https://mkhan45.github.io/SIMple-Physics/
 [simple-physics-gifs]: https://mkhan45.github.io/SIMple-Physics/posts/Gifs/
