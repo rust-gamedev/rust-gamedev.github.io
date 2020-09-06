@@ -93,6 +93,56 @@ More details are in [August DevLog-entry][cba-august-update].
 [cba-spoon-tar]: https://www.behance.net/spoon_tar
 [@CrateAttack]: https://twitter.com/CrateAttack
 
+### [Veloren][veloren]
+
+![Landscape](veloren-landscape1.png)
+_Landscape with new LoD and lighting_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In August, Veloren 0.7 was released! Airshipper, Veloren's launcher, also got
+updated to 0.4.0. Veloren was featured in the inaugural episode of the [Rust
+Game Dev Podcast][veloren-interview]. Although the 0.7 release party saw the
+largest number of concurrent players at 57, it ran into some significant issues
+which you can read about below.
+
+The largest merge in Veloren so far also happened in August. It included
+monumental changes to lighting and added level of detail functionality to see
+far-off mountains. Lots of work has been done on the animation, combat, SFX, and
+UX front. Animations for movement and combat were added and improved. Work
+continued on particle systems, which have been added to Veloren in places like
+campfires, fireworks, and weapons.
+
+![Healing sceptre](veloren-sceptre.gif)
+_Healing sceptre with the new particle system_
+
+You can read more about some specific topics from August:
+
+- [Airshipper 0.4.0 Progress](https://veloren.net/devblog-79#airshipper-0-4-progress-by-songtronix)
+- [Animation and Movement Updates](https://veloren.net/devblog-79#animation-and-movement-updates-by-slipped)
+- [Particle Timing](https://veloren.net/devblog-80#particle-timing-by-lobster)
+- [0.7 Release Party Statistics](https://veloren.net/devblog-81#0-7-release-party-statistics)
+- [0.7 Release Party Kick Disaster](https://veloren.net/devblog-81#0-7-release-party-kick-disaster-by-xmac94x)
+- [Lighting and World Changes](https://veloren.net/devblog-81#sharp-s-lighting-and-world-changes-branch)
+- [0.8 Intro Meeting](https://veloren.net/devblog-82#0-8-intro-meeting)
+- [Audio SFX](https://veloren.net/devblog-82#audio-with-ellinia)
+- [Photo Gallery](https://veloren.net/devblog-83#photo-gallery)
+
+August's full weekly devlogs: "This Week In Veloren...":
+[#79](https://veloren.net/devblog-79), [#80](https://veloren.net/devblog-80),
+[#81](https://veloren.net/devblog-81), [#82](https://veloren.net/devblog-82).
+[#83](https://veloren.net/devblog-83).
+
+In September, work on 0.8 will continue. Some large systems being worked on
+include networking, improved persistence stability, and player experience. Game
+design is working on improving the connection between the experience a new
+player has, and the current game design. The in-progress 0.8 version will likely
+be completed more quickly than 0.7, as to not include too many changes.
+
+[veloren]: https://veloren.net
+[veloren-interview]: https://rustgamedev.com/episodes/interview-with-team-veloren
+
 ### [A/B Street][abstreet]
 
 ![Two-way cycletracks and shared left-turn lanes](abstreet.png)
@@ -179,56 +229,6 @@ Chillscapes is written using an early-in-development 2d engine,
 [chillscapes-retrospective]: https://community.khonsulabs.com/t/chillscapes-retrospective-and-kludgine-update/28
 [neoc]: https://itch.io/jam/neoc03-rhythm-jam
 [kludgine]: https://github.com/khonsulabs/kludgine
-
-### [Veloren][veloren]
-
-![Landscape](veloren-landscape1.png)
-_Landscape with new LoD and lighting_
-
-[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
-Fortress and Cube World.
-
-In August, Veloren 0.7 was released! Airshipper, Veloren's launcher, also got
-updated to 0.4.0. Veloren was featured in the inaugural episode of the [Rust
-Game Dev Podcast][veloren-interview]. Although the 0.7 release party saw the
-largest number of concurrent players at 57, it ran into some significant issues
-which you can read about below.
-
-The largest merge in Veloren so far also happened in August. It included
-monumental changes to lighting and added level of detail functionality to see
-far-off mountains. Lots of work has been done on the animation, combat, SFX, and
-UX front. Animations for movement and combat were added and improved. Work
-continued on particle systems, which have been added to Veloren in places like
-campfires, fireworks, and weapons.
-
-![Healing sceptre](veloren-sceptre.gif)
-_Healing sceptre with the new particle system_
-
-You can read more about some specific topics from August:
-
-- [Airshipper 0.4.0 Progress](https://veloren.net/devblog-79#airshipper-0-4-progress-by-songtronix)
-- [Animation and Movement Updates](https://veloren.net/devblog-79#animation-and-movement-updates-by-slipped)
-- [Particle Timing](https://veloren.net/devblog-80#particle-timing-by-lobster)
-- [0.7 Release Party Statistics](https://veloren.net/devblog-81#0-7-release-party-statistics)
-- [0.7 Release Party Kick Disaster](https://veloren.net/devblog-81#0-7-release-party-kick-disaster-by-xmac94x)
-- [Lighting and World Changes](https://veloren.net/devblog-81#sharp-s-lighting-and-world-changes-branch)
-- [0.8 Intro Meeting](https://veloren.net/devblog-82#0-8-intro-meeting)
-- [Audio SFX](https://veloren.net/devblog-82#audio-with-ellinia)
-- [Photo Gallery](https://veloren.net/devblog-83#photo-gallery)
-
-August's full weekly devlogs: "This Week In Veloren...":
-[#79](https://veloren.net/devblog-79), [#80](https://veloren.net/devblog-80),
-[#81](https://veloren.net/devblog-81), [#82](https://veloren.net/devblog-82).
-[#83](https://veloren.net/devblog-83).
-
-In September, work on 0.8 will continue. Some large systems being worked on
-include networking, improved persistence stability, and player experience. Game
-design is working on improving the connection between the experience a new
-player has, and the current game design. The in-progress 0.8 version will likely
-be completed more quickly than 0.7, as to not include too many changes.
-
-[veloren]: https://veloren.net
-[veloren-interview]: https://rustgamedev.com/episodes/interview-with-team-veloren
 
 ## Learning Material Updates
 
