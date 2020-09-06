@@ -209,6 +209,31 @@ It can be played in the browser or downloaded at [itch.io][Cary].
 [Cary]: https://specificprotagonist.itch.io/cary
 [extra-credits-jam]: https://itch.io/jam/extra-credits-game-jam-6
 
+### [Way of Rhea]
+
+[![Anthropic's virtual booth at Play NYC](way-of-rhea-play-nyc.png)][Way of Rhea]
+_Anthropic's virtual booth at [Play NYC]_
+
+[Way of Rhea] is a puzzle platformer that takes place in a world where you can
+only interact with items that match your current color.
+
+Way of Rhea has a [free Steam demo][Way of Rhea] temporarily available as part of
+[Play NYC]!
+The new demo includes a level that wasn't part of the Steam Game Festival,
+showing off how circuit puzzles will work in the game. Since Play NYC
+couldn't be in person this year, the devs temporarily themed this level to look
+like last year's Play NYC venue, included placing virtual booths for other games
+throughout the level.
+
+Follow [@AnthropicSt] or [@masonremaley] on Twitter or
+[sign up for the mailing list][anthropic-newsletter] for updates.
+
+[Way of Rhea]: https://store.steampowered.com/app/1110620/Way_of_Rhea/
+[Play NYC]: https://www.play-nyc.com/
+[@AnthropicSt]: https://twitter.com/anthropicst
+[@masonremaley]: https://twitter.com/masonremaley
+[anthropic-newsletter]: https://www.anthropicstudios.com/newsletter/signup/tech
+
 ### [vange-rs]
 
 ![vangers-shadow](vangers-shadows.jpeg)
