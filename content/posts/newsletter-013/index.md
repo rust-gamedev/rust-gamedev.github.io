@@ -180,6 +180,29 @@ Chillscapes is written using an early-in-development 2d engine,
 [neoc]: https://itch.io/jam/neoc03-rhythm-jam
 [kludgine]: https://github.com/khonsulabs/kludgine
 
+### [Dwarf Seeks Fortune][dsf-github]
+
+[![Dwarf Seeks Fortune](dwarf_seeks_fortune.png)][dsf-github]
+_Collect all keys to unlock the door to the next level._
+
+[Dwarf Seeks Fortune][dsf-github] is a puzzle-platformer made with the Amethyst game
+engine. Its developer, Jazarro, has partnered with the Amethyst organization
+to make it an official Amethyst showcase game. It aims to be a learning
+resource for anyone looking to get started with Amethyst.
+
+The game currently sports a growing feature set, two playable levels and an
+early version of an integrated level editor. It is ready for your
+contributions, so if you're interested, check out the
+[contributor's guide][dsf-contributing] or the [good first issues][dsf-good-first-issues].
+If you have any questions, open an issue on GitHub or approach
+Jazarro on [the Amethyst discord][amethyst-discord].
+
+[dsf-github]: https://github.com/amethyst/dwarf_seeks_fortune
+[dsf-contributing]: https://github.com/amethyst/dwarf_seeks_fortune/blob/master/CONTRIBUTING.md
+[dsf-good-first-issues]: https://github.com/amethyst/dwarf_seeks_fortune/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[kv-ii]: https://en.wikipedia.org/wiki/King%27s_Valley_II
+[amethyst-discord]: https://discord.com/invite/amethyst
+
 ## Learning Material Updates
 
 ### [Writing NES Emulator in Rust][rust_nes_tutorial]
