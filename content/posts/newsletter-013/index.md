@@ -229,6 +229,7 @@ using events in entity-component-system architectures can improve
 system reusability dramatically.
 
 Using events in this way also allows for:
+
 - Easier Testing
 - Additional Configurability
 - Possible Performance Improvements
