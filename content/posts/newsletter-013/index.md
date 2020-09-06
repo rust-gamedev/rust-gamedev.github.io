@@ -232,10 +232,10 @@ can improve system reusability dramatically.
 
 Using events in this way also allows for:
 
-- Easier Testing
-- Additional Configurability
-- Possible Performance Improvements
-- Highly Reusable - Especially if using generics
+- easier testing,
+- additional configurability,
+- possible performance improvements,
+- higher usability - especially if using generics.
 
 The blog also has an [RSS feed][jojolepro-rss] and more in-depth posts about
 game development are planned.
