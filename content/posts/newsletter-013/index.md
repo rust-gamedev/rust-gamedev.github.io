@@ -268,8 +268,11 @@ Some of the updates from [the Jule & August devlog][garden-devlog]:
 - Better collision detection and camera movement;
 - Minimalist, scrollable text-based GUI for choosing which species to plant
   or the type of material to build with (or destroy) something;
-- Completely new lighting using GI;
-- Better bark, detailed trunks, precise leaf lighting, and new species.
+- Plant growth now depends directly on the amount of light
+  every individual leaf receives, calculated on the GPU;
+- Variable leaf alignment and ease of creating variety;
+- Better bark, detailed trunks, and new species;
+- Completely new lighting using GI.
 
 [garden]: https://epcc.itch.io/garden
 [garden-devlog]: https://cyberplant.xyz/posts/july-august/
