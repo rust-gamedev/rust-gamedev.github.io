@@ -64,23 +64,55 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Learning Material Updates
 
-### [RustGameDev Podcast Episode 2]
+### [Rust GameDev Podcast][podcast]
 
-![RustGameDev Podcast Logo](rustgamedev.jpg)
+![text logo](podcast.jpeg)
 
-This month's RustGameDev podcast is an interview with Herbert Wolverson,
-creator of [Bracket Lib], previously RLTK (RogueLike Tool Kit).  A very
-wide-ranging interview covering many interesting topics, where the
-library came from and what the creator is doing now, as well as practical questions and issues discovered in the course of creating
-their game, [Nox Futura].  Lots of interesting talk about a new Rust games development book the
-creator is writing, C++ vs Rust, learning Rust, code architecture and
-ECS's in roguelikes, emergent behavior, and hilarious bugs in Dwarf
-Fortress.
+This month [Richard @patchfx Patching][richardpatching] started
+[Rust GameDev Podcast][podcast]:
 
-[RustGameDev Podcast Episode 2]: https://rustgamedev.com/episodes/interview-with-herbert-wolverson-bracket-lib
-[Bracket Lib]: https://crates.io/crates/bracket-lib
-[Nox Futura]: https://thebracket.itch.io/nox-futura
+> Over the lockdown period I have been working on a new podcast
+> for Rust game developers. I have been interviewing indie teams
+> and library creators, discussing custom engines, procedural generation,
+> open source and the business of games development.
 
+- [The first episode][podcast-1] is an interview
+  with the team behind Veloren, an open-source multiplayer
+  voxel RPG written in Rust.
+
+  Find out about the game's origin, its engine development,
+  pros and cons of a big open-source project, CI and build pipeline,
+  importance of artists, procedural generation,
+  community building, managing players' expectations,
+  and upcoming developments.
+
+- [The second episode][podcast-2] is an interview with Herbert Wolverson,
+  creator of [bracket-lib] (pka RLTK), [Rust Roguelike Tutorial][rltut],
+  and [Nox Futura][noxf].
+
+  A very wide-ranging interview covering many interesting topics:
+  where the bracket-lib came from and what the creator is doing now,
+  as well as practical questions and issues discovered
+  in the course of creating their game, [Nox Futura].
+  Lots of interesting talk about a new Rust games development book
+  Herbert is writing, C++ vs Rust, learning Rust, code architecture and
+  ECS's in roguelikes, emergent behavior, and hilarious bugs in Dwarf Fortress.
+
+The show has been distributed on most major platforms
+for you to listen and subscribe:
+[Rust Game Dev Podcast (simplecast)](https://rustgamedev.com/),
+[Apple Podcasts](https://podcasts.apple.com/gb/podcast/rust-game-dev/id1526304768),
+[Spotify](https://open.spotify.com/show/7HRfGnTcXkLkQd9fxJbDGj),
+[RSS Feed](https://feeds.simplecast.com/C6NQglnL),
+[Google Podcasts](https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zaW1wbGVjYXN0LmNvbS9DNk5RZ2xuTA).
+
+[podcast]: https://rustgamedev.com
+[richardpatching]: https://richardpatching.com
+[podcast-1]: https://rustgamedev.com/episodes/interview-with-team-veloren
+[bracket-lib]: https://crates.io/crates/bracket-lib
+[noxf]: https://thebracket.itch.io/nox-futura
+[rltut]: http://bfnightly.bracketproductions.com
+[podcast-2]: https://rustgamedev.com/episodes/interview-with-herbert-wolverson-bracket-lib
 
 ## Library & Tooling Updates
 
