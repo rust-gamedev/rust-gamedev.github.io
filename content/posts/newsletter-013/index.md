@@ -2,7 +2,6 @@
 title = "This Month in Rust GameDev #13 - August 2020"
 date = 2020-09-07
 transparent = true
-draft = true
 +++
 
 Welcome to the 13th issue of the Rust GameDev Workgroup’s
@@ -34,8 +33,6 @@ Table of contents:
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Meeting Minutes](#meeting-minutes)
 - [Requests for Contribution](#requests-for-contribution)
-- [Jobs](#jobs)
-- [Bonus](#bonus)
 
 <!--
 Ideal section structure is:
@@ -115,8 +112,8 @@ for you to listen and subscribe:
 
 ### [Crate Before Attack][cba-site]
 
-[![Camera debugging in Crate Before Attack](crate-before-attack.png)][cba-site]
-_Debugging camera motion: highlighted areas are points of interest._
+[![Camera debugging in Crate Before Attack](crate-before-attack.jpeg)][cba-site]
+_Debugging camera motion: highlighted areas are points of interest_
 
 [Crate Before Attack][cba-site] by [koalefant (@CrateAttack)][@CrateAttack]
 is a skill-based multiplayer game where frogs combat their friends
@@ -146,7 +143,7 @@ More details are in [August DevLog-entry][cba-august-update].
 
 ### [Veloren][veloren]
 
-![Landscape](veloren-landscape1.png)
+![Landscape](veloren-landscape1.jpeg)
 _Landscape with new LoD and lighting_
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
@@ -173,16 +170,18 @@ You can read more about some specific topics from August:
 - [Airshipper 0.4.0 Progress](https://veloren.net/devblog-79#airshipper-0-4-progress-by-songtronix)
 - [Animation and Movement Updates](https://veloren.net/devblog-79#animation-and-movement-updates-by-slipped)
 - [Particle Timing](https://veloren.net/devblog-80#particle-timing-by-lobster)
-- [0.7 Release Party Statistics](https://veloren.net/devblog-81#0-7-release-party-statistics)
-- [0.7 Release Party Kick Disaster](https://veloren.net/devblog-81#0-7-release-party-kick-disaster-by-xmac94x)
+- 0.7 Release: [Party Statistics](https://veloren.net/devblog-81#0-7-release-party-statistics)
+  and [Kick Disaster](https://veloren.net/devblog-81#0-7-release-party-kick-disaster-by-xmac94x)
 - [Lighting and World Changes](https://veloren.net/devblog-81#sharp-s-lighting-and-world-changes-branch)
 - [0.8 Intro Meeting](https://veloren.net/devblog-82#0-8-intro-meeting)
 - [Audio SFX](https://veloren.net/devblog-82#audio-with-ellinia)
 - [Photo Gallery](https://veloren.net/devblog-83#photo-gallery)
 
 August's full weekly devlogs: "This Week In Veloren...":
-[#79](https://veloren.net/devblog-79), [#80](https://veloren.net/devblog-80),
-[#81](https://veloren.net/devblog-81), [#82](https://veloren.net/devblog-82).
+[#79](https://veloren.net/devblog-79),
+[#80](https://veloren.net/devblog-80),
+[#81](https://veloren.net/devblog-81),
+[#82](https://veloren.net/devblog-82),
 [#83](https://veloren.net/devblog-83).
 
 In September, work on 0.8 will continue. Some large systems being worked on
@@ -229,7 +228,7 @@ Egregoria was previously known as Scale,
 but was renamed to fit the theme better.
 
 The [5th devlog][egregoria-blog-post] was published, talking about
-the renaming, project managment, buildings and scripting.
+the renaming, project management, buildings and scripting.
 
 A [Discord][egregoria-discord] server was launched to discuss the project.
 
@@ -244,10 +243,10 @@ _Discussions:
 
 [![Dodging bullets and carrying Cary to temporary safety](cary_screenshot.png)][Cary]
 
-In [Cary] the player has to bring the titular character to the exit by carying
+In [Cary] the player has to bring the titular character to the exit by carrying
 them or otherwise making sure they don't – nor the player themselves –
 touch any of the traps.
-Easier said then done when you have limited stamina and Cary keeps running
+Easier said than done when you have limited stamina and Cary keeps running
 into spikes.
 
 Made with hecs and wgpu (no framework), but uses WebGL on the web
@@ -313,7 +312,7 @@ the [Bar Painting][vangers-bars-blog] post of the blog.
 ![screenshot: concrete, trees, shadows](garden.jpeg)
 
 [Garden][garden] is an upcoming game centered around growing realistic plants.
-Some of the updates from [the Jule & August devlog][garden-devlog]:
+Some of the updates from [the July & August devlog][garden-devlog]:
 
 - A new player inventory system;
 - Better collision detection and camera movement;
@@ -352,7 +351,7 @@ Chillscapes is written using an early-in-development 2d engine,
 ### [Dwarf Seeks Fortune][dsf-github]
 
 [![Dwarf Seeks Fortune](dwarf_seeks_fortune.png)][dsf-github]
-_Collect all keys to unlock the door to the next level._
+_Collect all keys to unlock the door to the next level_
 
 [Dwarf Seeks Fortune][dsf-github] is a puzzle-platformer made with the Amethyst game
 engine. Its developer, Jazarro, has partnered with the Amethyst organization
@@ -401,7 +400,7 @@ _One of SIMple Mechanic's Lua presets, a colorful wave of bouncing circles_
 
 [SIMple Physics][simple-physics-site] by [@mkhan45] is a set of educational physics
 simulators meant to help students and teachers conduct labs without expensive equipment
-or in person classes. Each simulator uses serializeable graphs, object inspection,
+or in person classes. Each simulator uses serializable graphs, object inspection,
 Lua scripting, and a few other features to help students learn. Currently, there
 is a simulator for mechanics/projectile motion and one for universal gravitation,
 but the goal is to include one for electronics/magnetism and one for waves/optics.
@@ -444,7 +443,7 @@ work with graphics in Rust using [SDL2][sdl2] library.
 ### [Beginning Game Development with Amethyst][rustconf-talk-video]
 
 [![youtube preview](rustconf-amethyst-talk.png)][rustconf-talk-video]
-_Click to [watch the talk][rustconf-talk-video]._
+_Click to [watch the talk][rustconf-talk-video]_
 
 Getting started with Rust + gamedev can be intimidating. At
 [RustConf 2020][rust-conf-2020], [Micah Tigley] gave a talk about their experience
@@ -452,11 +451,11 @@ beginning game development using the [Amethyst][amethyst-link] game engine and
 learning about ECS by implementing examples that aim to be accessible for
 beginners.
 
-Supporting blog posts for talk:
+Supporting blog posts for the talk:
 
-- [Creating a Simple Spritesheet Animation with Amethyst][micah-blog-part1]
-- [Running Animation][micah-blog-part2]
-- [Camera Follow System][micah-blog-part3]
+- ["Creating a Simple Spritesheet Animation with Amethyst"][micah-blog-part1]
+- ["Running Animation"][micah-blog-part2]
+- ["Camera Follow System"][micah-blog-part3]
 
 The source code for the [demo can be found here][micah-demo-src].
 
@@ -548,7 +547,7 @@ CPU version of PhysX, and often slightly faster than Box2D.
 - joint constraints;
 - optional serialization of the physics state;
 - optional cross-platform determinism on IEEE-754 compliant targets;
-- optional explicit SIMD and parallelism.
+- optional explicit SIMD and parallelism;
 - JavaScript bindings with official NPM packages.
 
 This new physics engine is developed by the recently created [Dimforge]
@@ -567,11 +566,11 @@ _Discussions:
 
 ### [NeoCogi's Libraries][neocogi-repo]
 
-![Jude3D](jude3d.png)
+![Jude3D](jude3d.jpeg)
 
 [Jude3D](https://neocogi.com) is a web based 3D sculpting application.
 It's a WebAssembly application, written in C/C++ and compiled using Emscripten
-but after much thinking the authors decided to move the development to Rust!
+but after much thinking, the authors decided to move the development to Rust!
 
 Many problems arise when moving existing C/C++/WebAssembly code to Rust.
 The two most important ones:
@@ -581,7 +580,7 @@ The two most important ones:
 
 These led the authors to drop using Rust's std in favor to their own libs (`!#[no_std]`),
 at least until the std library crates are split up accordingly and stabilized,
-for example the `alloc` crate.
+for example, the `alloc` crate.
 
 The good news is that they are
 [releasing most of the libraries as they make them as open source][neocogi-repo]!
@@ -602,7 +601,7 @@ cute-c2 is a 2D collision detection library that has had its first release to
 
 The library can detect collisions between circles, rectangles, capsules and
 up to eight-sided convex polygons. There are also functions for manifold
-generation, the GJK algorithm and ray casting operations. There is an example
+generation, the GJK algorithm, and ray casting operations. There is an example
 program in the repository.
 
 [cute-c2]: https://crates.io/crates/c2
@@ -618,7 +617,7 @@ as well as per-vertex attributes.
 
 All that's required to define a base shape are the initial vertices, triangles
 based on the indices of the vertices in the initial vertices, and numbered
-edges. As long as the winding of the triangles remains consistend throughout
+edges. As long as the winding of the triangles remains consistent throughout
 the base mesh, all of the resulting triangles will retain that winding.
 
 This library also provides a few interesting base shapes (which can be used alone
@@ -708,7 +707,7 @@ Some of the updates:
 - Dynamically sized multi-binding support.
 - Improved entrypoint debug printing.
 - Better manifest merging method for pipeline construction.
-- Bugfixes and various small API improvments.
+- Bugfixes and various small API improvements.
 
 _Discussions: [/r/rust_gamedev][spirq-discussion]_
 
@@ -799,11 +798,11 @@ See discussion at [/r/rust_gamedev][wgpu-instancing-reddit].
 ![KAS text layout](kas-text-layout.png)
 
 [KAS] by [@dhardy] is a general purpose UI toolkit; its
-initial aim is "old school" desktop apps with good keyboard and touchscreen
+initial aim is "old school" desktop apps with a good keyboard and touchscreen
 support. Unlike many modern immediate-mode UIs, KAS's widgets retain state,
 allowing minimal per-frame updates. KAS supports embedded WebGPU graphics now,
 and will (eventually) support being embedded within other contexts (requiring
-only a supply of input events and implemention of some basic graphics routines).
+only a supply of input events and implementation of some basic graphics routines).
 
 KAS v0.5 switches to a new crate for text layout,
 [KAS-text]. KAS-text is a text layout
@@ -820,12 +819,14 @@ For more, see the article ["Why I created KAS-text"][kas-article].
 
 ### [Egui]
 
+![Egui](egui.png)
+
 [Egui] is a highly portable immediate mode GUI library in pure Rust.
 Egui can be integrated anywhere you can paint textured triangles.
 You can compile Egui to WASM and render it on a web page using [egui_web]
 or compile and run natively using [egui_glium].
 
-[Click to run Egui web demo](https://emilk.github.io/egui/index.html)
+Check out the [Egui web demo](https://emilk.github.io/egui/index.html).
 
 Example:
 
@@ -839,8 +840,6 @@ Window::new("Debug").show(ui.ctx(), |ui| {
     ui.add(Slider::f32(&mut value, 0.0..=1.0).text("float"));
 });
 ```
-
-![Egui](egui.png)
 
 _Discussions:
 [/r/rust](https://reddit.com/r/rust/comments/hzwvsk/emigui_deserves_more_love)_
@@ -968,9 +967,9 @@ While it is still under heavy development, a lot can be done already:
 [Tetra] is a simple 2D game framework, inspired by XNA and Raylib. This month,
 versions [0.4.1][tetra-041] and [0.4.2][tetra-042] were released, featuring:
 
-- Improved Serde support
-- Various fixes and improvements to the built-in `Camera` type
-- Many documentation improvements, based on user feedback
+- Improved Serde support;
+- Various fixes and improvements to the built-in `Camera` type;
+- Many documentation improvements, based on user feedback.
 
 In addition, Tetra 0.5 is planned for release in early September. For more
 information on the upcoming changes, see the [changelog][tetra-changelog].
@@ -1049,7 +1048,7 @@ has released a new ECS library [Nano-ECS].
 
 This ECS design stores all components in a single array
 and uses bit masks for enabling/disabling components.
-An entity can have maximum 64 components and must be initalized
+An entity can have maximum 64 components and must be initialized
 with all components it uses in the future.
 Each entity has a slice into the array that stores all components.
 The `World` object, `Component` and systems are generated using macros.
@@ -1255,6 +1254,15 @@ Amongst them:
 
 ## Popular Workgroup Issues in Github
 
+- [rust-gamedev/wg](https://github.com/rust-gamedev/wg):
+  - [#89 "Moving ecs_bench to GDWG"](https://github.com/rust-gamedev/wg/issues/89);
+  - [#93 "Consider creating a game math library benchmark for the working group"](https://github.com/rust-gamedev/wg/issues/93);
+- [rust-gamedev/rust-gamedev.github.io](https://github.com/rust-gamedev/rust-gamedev.github.io):
+  - [#233 "Custom Domain"](https://github.com/rust-gamedev/rust-gamedev.github.io/issues/233);
+- [rust-gamedev/ecs_bench_suite](https://github.com/rust-gamedev/ecs_bench_suite):
+  - [#6 "Benchmark compile times"](https://github.com/rust-gamedev/ecs_bench_suite/issues/6);
+  - [#13 "How results will be updated?"](https://github.com/rust-gamedev/ecs_bench_suite/issues/13);
+
 ## Meeting Minutes
 
 <!-- Up to 10 most important notes + a link to the full details -->
@@ -1294,17 +1302,6 @@ or [join the next meeting][join].
 [mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
 [simm-issues]: https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue
 [bevy-issues]: https://github.com/bevyengine/bevy/labels/good%20first%20issue
-
-## Jobs
-
-<!-- An optional section for new jobs related to Rust gamedev -->
-
-## Bonus
-
-<!-- Bonus section to make the newsletter more interesting
-and highlight events from the past. -->
-
-Just an interesting Rust gamedev link from the past. :)
 
 ------
 
