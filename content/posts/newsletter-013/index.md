@@ -936,9 +936,37 @@ _Discussions:
 [@moletrooper]: https://twitter.com/moletrooper
 [sf-graph-post]: https://moletrooper.github.io/blog/2020/08/starframe-1-architecture/
 
-### 🐦 [Puffin Profiler]
+### [mochi]
 
-Pufin is a simple instrumentation profiler created by [Embark]
+![A running app on a physical device](mochi.jpg)
+
+[mochi] by [@richardanaya] is a game engine oriented toward
+low-power mobile Linux phones/tablets.
+It's written in Rust and uses Gtk and Cairo.
+All drawing is done with an [Cairo Context][cairo-context] that mochi
+has extended to do some really [common graphics operations][mochi-cairo].
+
+This project is super alpha but usable.
+Current features include: touch, screen rotation, atlases, sounds.
+
+[pinephone-cairo-game-starter][mochi-start] is a starter for creating
+a Cairo-based game in Rust for [PinePhone][pinephone-wiki]
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/i2389n/how_to_build_a_pinephone_game_using_rust)_
+
+[mochi]: https://github.com/richardanaya/mochi
+[@richardanaya]: https://github.com/richardanaya
+[pinephone-wiki]: https://en.wikipedia.org/wiki/PinePhone
+[mochi-start]: https://github.com/richardanaya/pinephone-cairo-game-starter
+[cairo-context]: https://gtk-rs.org/docs/cairo/struct.Context.html
+[mochi-cairo]: https://docs.rs/mochi/latest/mochi/trait.MochiCairoExt.html
+
+### 🐦 [Puffin] Profiler
+
+![Puffin flamegraph shown with puffin-imgui](puffin.png)
+
+[Puffin] is a simple instrumentation profiler created by [Embark]
 where you can opt-in to profile parts of your code.
 
 ```rust
@@ -954,11 +982,43 @@ fn my_function() {
 
 The collected profile data can be viewed ingame with [imgui-rs].
 
-![Puffin flamegraph shown with puffin-imgui](puffin.png)
-
-[Puffin Profiler]: https://github.com/EmbarkStudios/puffin
+[Puffin]: https://github.com/EmbarkStudios/puffin
 [Embark]: https://www.embark-studios.com/
 [imgui-rs]: https://github.com/Gekkio/imgui-rs
+
+### [Optick][optick] Profiler
+
+[![A screenshot from the video](optick-video.jpg)][optic-video]
+_Click to watch a [video tutorial / features overview][optic-video]_
+
+[Optick][optick] by [@bombomby] is a lightweight C++ profiler for games
+that provides access for all the necessary tools required for
+efficient performance analysis and optimization:
+instrumentation, switch-contexts, sampling, GPU counters.
+
+This month Rust API for Optick was released: [optick-rs].
+
+Also, a set of procedural macros for simplifying the process of code markup
+were published: [optick-attr].
+
+```rust
+// Instrument current function
+#[optick_attr::profile]
+fn calc() { /* Do some stuff*/ }
+
+// Generate performance capture for function
+// to {dir}/capture_name(date-time).opt.
+#[optick_attr::capture("capture_name")]
+pub fn main() {
+    calc();
+}
+```
+
+[optick]: https://optick.dev/
+[optick-rs]: https://github.com/bombomby/optick-rs
+[optick-attr]: https://crates.io/crates/optick-attr
+[optic-video]: https://youtube.com/watch?v=p57TV5342fo
+[@bombomby]: https://github.com/bombomby
 
 ### [wowAddonManager] v1.0.2
 
