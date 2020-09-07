@@ -1037,6 +1037,24 @@ communicate with the TTY.
 [tui-rs]: https://github.com/fdehau/tui-rs
 [Termion]: https://gitlab.redox-os.org/redox-os/termion
 
+### [intellij-ron]
+
+[RON][ron] (Rusty Object Notation) is a simple readable data serialization format
+that looks similar to Rust syntax and is designed
+to support all of [Serde's data model][serde-data].
+RON is relatively popular amongst Rust game developers.
+
+This month [@JonahHenriksson] released [intellij-ron] - a new plugin
+that adds [RON][ron]  support to IntelliJ-based IDEs.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/ictnsc/ive_created_an_free_open_source_intellij_plugin)_
+
+[intellij-ron]: https://github.com/ron-rs/intellij-ron
+[@JonahHenriksson]: https://github.com/JonahHenriksson
+[ron]: https://github.com/ron-rs/ron
+[serde-data]: https://serde.rs/data-model.html
+
 ## Popular Workgroup Issues in Github
 
 ## Meeting Minutes
