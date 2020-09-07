@@ -1255,6 +1255,15 @@ Amongst them:
 
 ## Popular Workgroup Issues in Github
 
+- [rust-gamedev/wg](https://github.com/rust-gamedev/wg):
+  - [#89 "Moving ecs_bench to GDWG"](https://github.com/rust-gamedev/wg/issues/89);
+  - [#93 "Consider creating a game math library benchmark for the working group"](https://github.com/rust-gamedev/wg/issues/93);
+- [rust-gamedev/rust-gamedev.github.io](https://github.com/rust-gamedev/rust-gamedev.github.io):
+  - [#233 "Custom Domain"](https://github.com/rust-gamedev/rust-gamedev.github.io/issues/233);
+- [rust-gamedev/ecs_bench_suite](https://github.com/rust-gamedev/ecs_bench_suite):
+  - [#6 "Benchmark compile times"](https://github.com/rust-gamedev/ecs_bench_suite/issues/6);
+  - [#13 "How results will be updated?"](https://github.com/rust-gamedev/ecs_bench_suite/issues/13);
+
 ## Meeting Minutes
 
 <!-- Up to 10 most important notes + a link to the full details -->
