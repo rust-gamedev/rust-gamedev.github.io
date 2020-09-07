@@ -308,6 +308,26 @@ the [Bar Painting][vangers-bars-blog] post of the blog.
 [vangers-bars-video]: https://reddit.com/r/rust_gamedev/comments/igejxy/vangers_3rd_person_camera
 [vangers-bars-blog]: https://kvark.github.io/vange-rs/2020/08/29/bar-painting.html
 
+### [Garden][garden]
+
+![screenshot: concrete, trees, shadows](garden.jpeg)
+
+[Garden][garden] is an upcoming game centered around growing realistic plants.
+Some of the updates from [the Jule & August devlog][garden-devlog]:
+
+- A new player inventory system;
+- Better collision detection and camera movement;
+- Minimalist, scrollable text-based GUI for choosing which species to plant
+  or the type of material to build with (or destroy) something;
+- Plant growth now depends directly on the amount of light
+  every individual leaf receives, calculated on the GPU;
+- Variable leaf alignment and ease of creating variety;
+- Better bark, detailed trunks, and new species;
+- Completely new lighting using GI.
+
+[garden]: https://epcc.itch.io/garden
+[garden-devlog]: https://cyberplant.xyz/posts/july-august/
+
 ### [Chillscapes][chillscapes-itch]
 
 ![Chillscapes Main Menu](chillscapes_main_menu.png)
