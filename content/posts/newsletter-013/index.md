@@ -314,7 +314,7 @@ the [Bar Painting][vangers-bars-blog] post of the blog.
 ![screenshot: concrete, trees, shadows](garden.jpeg)
 
 [Garden][garden] is an upcoming game centered around growing realistic plants.
-Some of the updates from [the Jule & August devlog][garden-devlog]:
+Some of the updates from [the July & August devlog][garden-devlog]:
 
 - A new player inventory system;
 - Better collision detection and camera movement;
