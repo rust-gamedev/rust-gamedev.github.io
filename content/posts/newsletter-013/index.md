@@ -592,6 +592,17 @@ In release mode, the tweaking code is disabled and compiled away.
 [@Uriopass]: https://github.com/Uriopass
 [tuxedolabs-post]: http://blog.tuxedolabs.com/2018/03/13/hot-reloading-hardcoded-parameters.html
 
+### [yacurses]
+
+[yacurses] by [@Lokathor] is a cross-platform curses bindings crate that's
+small, simple, easy to understand, and most importantly safe to use.
+It wraps over `ncurses` on Unix and a bundled `pdcurses` on Windows.
+If you're looking to make a terminal-based roguelike
+(or any other terminal-based game), give it a try.
+
+[yacurses]:https://lib.rs/crates/yacurses
+[@Lokathor]: https://github.com/Lokathor
+
 ### [SPIR-Q] v0.4.6
 
 [SPIR-Q] is a light-weight shader reflection library, which allows you to query
