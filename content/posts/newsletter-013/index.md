@@ -828,6 +828,95 @@ information on the upcoming changes, see the [changelog][tetra-changelog].
 [tetra-042]: https://twitter.com/17cupsofcoffee/status/1294316642680426497
 [tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
 
+### [Piston]
+
+![text logo](piston-logo.png)
+
+[Piston] is a modular game engine written in Rust.
+
+A new [Piston Discord Channel] has been set up
+for the Piston project.
+
+Piston consists of a core library "piston" which itself are composed of
+smaller libraries for abstracting input, window and event loop.
+This design helps reducing breaking changes in the ecosystem.
+
+The core library `pistoncore-input` is now stabilized and reached 1.0!
+This is the most important core abstraction, because it glues all
+libraries that are not independent of the core.
+
+[Piston]: https://github.com/pistondevelopers/piston
+[Piston Discord Channel]: https://discord.gg/TkDnS9x
+
+------
+
+[Dyon] is a rusty dynamically typed scripting language.
+It is developed and maintained as part of the Piston project,
+but can be used as a standalone library.
+
+Dyon is designed from the bottom up to be a good gamedev scripting language for Rust.
+It uses a lifetime checker instead of garbage collection, a mutability checker,
+optional namespaces and ad-hoc types, named argument syntax,
+4D vectors and HTML colors, plus a lot more features!
+
+Recently, Dyon got better macro integration for native Rust types
+using `#` as a prefix.
+Here is an example of this feature is being tested in
+an experimental offline 3D renderer (not open sourced):
+
+```text
+// Called by `set_simple(scene: _, sdf: _, id: _)`.
+dyon_fn!{fn set_simple__scene_sdf_id(
+    scene: #&mut SimpleScene,
+    sdf: #&Sdf,
+    id: f64
+) {
+    scene.sdfs[id as usize] = sdf.clone()
+}}
+```
+
+To follow updates on Dyon, check out the subreddit [/r/dyon].
+
+[Dyon]: https://github.com/pistondevelopers/dyon
+[/r/dyon]: https://reddit.com/r/dyon/
+
+------
+
+[Piston-Graphics] is a library for 2D graphics, written in Rust,
+that works with multiple backends.
+
+`Stencil::Increment` has been added and the ecosystem
+has been updated to the latest version.
+
+[Piston-Graphics]: https://github.com/pistondevelopers/graphics
+
+------
+
+The research branch of the Piston project, AdvancedResearch,
+has released a new ECS library [Nano-ECS].
+
+This ECS design stores all components in a single array
+and uses bit masks for enabling/disabling components.
+An entity can have maximum 64 components and must be initalized
+with all components it uses in the future.
+Each entity has a slice into the array that stores all components.
+The `World` object, `Component` and systems are generated using macros.
+
+One research project with Nano-ECS is to prototype a UI framework
+for Rust with a UI editor (not open sourced yet).
+This project uses Piston-Graphics by default,
+but can generate draw commands for processing by other 2D APIs.
+It is also possible to override rendering of widgets for
+custom looks with Piston-Graphics, which is often useful in gamedev.
+Recently, this project has gotten to a place where
+[tree-view interaction] is working.
+
+You can follow development at [@PistonDeveloper at Twitter].
+
+[@PistonDeveloper at Twitter]: https://twitter.com/PistonDeveloper
+[tree-view interaction]: https://twitter.com/PistonDeveloper/status/1299840279374110720
+[Nano-ECS]: https://github.com/advancedresearch/nano_ecs
+
 ### [starframe]
 
 ![Current state of starframe graphics and physics](starframe-demo.gif)
