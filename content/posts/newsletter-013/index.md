@@ -301,6 +301,29 @@ Jazarro on [the Amethyst discord][amethyst-discord].
 [kv-ii]: https://en.wikipedia.org/wiki/King%27s_Valley_II
 [amethyst-discord]: https://discord.com/invite/amethyst
 
+### [Akigi][akigi]
+
+[Akigi][akigi] is a magical multiplayer online world where humans aren't the
+only intelligent animals.
+
+This month was mostly dedicated to the custom engine's scenery placement tool
+([video demo](https://devjournal.akigi.com/august-2020/082-2020-08-30.html)).
+Some of the updates:
+
+- [Terrain code refactoring and other required groundwork](https://devjournal.akigi.com/august-2020/080-2020-08-16.html).
+- [Mouse-terrain intersection](https://devjournal.akigi.com/august-2020/082-2020-08-30.html#mouse-terrain-intersection).
+- [Switching between Play and Place modes](https://devjournal.akigi.com/august-2020/082-2020-08-30.html#play-mode-place-mode).
+- [Custom UI system](https://devjournal.akigi.com/august-2020/082-2020-08-30.html#user-interfaces).
+
+Full devlogs:
+[#078](https://devjournal.akigi.com/august-2020/078-2020-08-02.html),
+[#079](https://devjournal.akigi.com/august-2020/079-2020-08-09.html),
+[#080](https://devjournal.akigi.com/august-2020/080-2020-08-16.html),
+[#081](https://devjournal.akigi.com/august-2020/081-2020-08-23.html),
+[#082](https://devjournal.akigi.com/august-2020/082-2020-08-30.html).
+
+[akigi]: https://akigi.com
+
 ### [SIMple Physics][simple-physics-site]
 
 [![SIMple Mechanics wave preset](simple-physics-wave.gif)][simple-physics-gifs]
