@@ -112,7 +112,7 @@ for you to listen and subscribe:
 
 ### [Crate Before Attack][cba-site]
 
-[![Camera debugging in Crate Before Attack](crate-before-attack.png)][cba-site]
+[![Camera debugging in Crate Before Attack](crate-before-attack.jpeg)][cba-site]
 _Debugging camera motion: highlighted areas are points of interest_
 
 [Crate Before Attack][cba-site] by [koalefant (@CrateAttack)][@CrateAttack]
@@ -143,7 +143,7 @@ More details are in [August DevLog-entry][cba-august-update].
 
 ### [Veloren][veloren]
 
-![Landscape](veloren-landscape1.png)
+![Landscape](veloren-landscape1.jpeg)
 _Landscape with new LoD and lighting_
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
@@ -566,7 +566,7 @@ _Discussions:
 
 ### [NeoCogi's Libraries][neocogi-repo]
 
-![Jude3D](jude3d.png)
+![Jude3D](jude3d.jpeg)
 
 [Jude3D](https://neocogi.com) is a web based 3D sculpting application.
 It's a WebAssembly application, written in C/C++ and compiled using Emscripten
