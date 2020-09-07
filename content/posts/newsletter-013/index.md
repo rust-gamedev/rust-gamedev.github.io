@@ -420,6 +420,26 @@ game development are planned.
 
 ## Library & Tooling Updates
 
+### [ecs_bench_suite]
+
+![Summary results table](ecs-bench.png)
+_The full benchmark report is available [here][ecs_report]_
+
+This month [@TomGillen] (author of the [Legion][legion] ECS) released
+[ecs_bench_suite] - a suite of benchmarks designed to test and compare
+Rust ECS library performance across a variety of challenging circumstances.
+Later, the project was adopted by the Rust GameDev WG
+so that all Rust ECS developers can converge on a neutral,
+community-maintained benchmark.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/icczxh/ecs_bench_suite)_
+
+[ecs_bench_suite]: https://github.com/rust-gamedev/ecs_bench_suite
+[@TomGillen]: https://github.com/TomGillen
+[legion]: https://github.com/amethyst/legion
+[ecs_report]: https://rust-gamedev.github.io/ecs_bench_suite/target/criterion/report/index.html
+
 ### [Rapier: 2D and 3D Physics Engines Focused on Performance][rapier-august]
 
 [![Rapier logo](rapier-logo.svg)][Rapier]
