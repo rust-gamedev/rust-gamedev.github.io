@@ -66,54 +66,58 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
-### Bevy Engine
+### [Bevy Engine][bevy]
 
 [![bevy logo](bevy_logo.png)](https://bevyengine.org/)
 
-[Bevy](https://bevyengine.org/) is a brand new, refreshingly simple data-driven
+[Bevy][bevy] by [@cart] is a brand new, refreshingly simple data-driven
 game engine built in Rust. It aims to be:
 
-- **Capable**: Offer a complete 2D and 3D feature set
-- **Simple**: Easy for newbies to pick up, but infinitely flexible for power users
-- **Data Focused**: Data-oriented architecture using the Entity Component System
-paradigm
-- **Modular**: Use only what you need. Replace what you don't like
-- **Fast**: App logic should run quickly, and when possible, in parallel
-- **Productive**: Changes should compile quickly ... waiting isn't fun
+- **Capable**: Offer a complete 2D and 3D feature set.
+- **Simple**: Easy for newbies to pick up, but infinitely flexible
+  for power users.
+- **Data Focused**: Data-oriented architecture using
+  the Entity Component System paradigm.
+- **Modular**: Use only what you need. Replace what you don't like.
+- **Fast**: App logic should run quickly, and when possible, in parallel.
+- **Productive**: Changes should compile quickly ... waiting isn't fun.
 
 These last few weeks have been big for the Bevy project:
 
-- Bevy was announced and [open sourced on GitHub](https://github.com/bevyengine/bevy)
-- Bevy's features were introduced in the [Introducing Bevy](https://bevyengine.org/news/introducing-bevy/)
-blog post
-- Had a staggering number of people join the community. This required some quick
-planning to handle the new size, which they outlined in the [Scaling Bevy](https://bevyengine.org/news/scaling-bevy/)
-blog post
-- Added an official [awesome-bevy repo](https://github.com/bevyengine/awesome-bevy)
-with a huge number of community plugins, games, apps, and learning materials
-- Rapier, a new pure-rust physics engine released an [official Bevy plugin](https://www.dimforge.com/blog/2020/08/25/announcing-the-rapier-physics-engine/#reaching-out-to-other-communities-bevy-and-javascript)
-- Thanks to the generosity of individuals and companies, they quickly met their
-first two funding goals on @cart's [Github Sponsors page](https://github.com/sponsors/cart):
-"sustainable development" and "@cart makes minimum wage working on Bevy".
+- Bevy was announced and [open sourced on GitHub][bevy].
+- Bevy's features were introduced in the ["Introducing Bevy"][bevy-intro]
+  blog post.
+- Had a staggering number of people join the community.
+  This required some quick planning to handle the new size,
+  which they outlined in the [Scaling Bevy][bevy-scaling] blog post.
+- Added an official [awesome-bevy repo][awesome-bevy]
+  with a huge number of community plugins, games, apps, and learning materials.
+- Rapier, a new pure-rust physics engine,
+  released an [official Bevy plugin][bevy-rapier].
+- Thanks to the generosity of individuals and companies, they quickly met
+  their first two funding goals on @cart's [Github Sponsors page][bevy-spnsors]:
+  "sustainable development" and "@cart makes minimum wage working on Bevy".
 - Bevy received a glowing review from the Amethyst Engine team and they agreed
-to collaborate in certain areas. See the [Addressing the Elephant in the Room](https://community.amethyst.rs/t/bevy-engine-addressing-the-elephant-in-the-room)
-thread on the Amethyst forum for more details.
+  to collaborate in certain areas.
+  See the [Addressing the Elephant in the Room][bevy-amethyst]
+  thread on the Amethyst forum for more details.
 
-Bevy users started sharing their work on the [Bevy Discord showcase channel](https://discord.com/channels/691052431525675048/692648638823923732)
+Bevy users started sharing their work
+on the [Bevy Discord showcase channel][bevy-discord-showcase]:
 
 ![bevy showcase](bevy_showcase.png)
 
-In addition to the initial Bevy GitHub release, 114 pull requests were merged
-this month. The changes can't all be listed in this post, but here are some highlights:
+In addition to the initial Bevy GitHub release, 114 pull requests
+were merged this month. Some highlights:
 
-- A custom [async task system for Bevy](https://github.com/bevyengine/bevy/pull/384),
-which significantly improves CPU usage and paves the way for future async work.
+- A custom [async task system for Bevy][bevy-pr-async],
+  which significantly improves CPU usage and paves the way for future async work.
 - Refactored data-driven ECS shader code to make it more maintainable, fix some bugs,
-and ready to be optimized via the ECS change detection apis
-- Support for "logical or" ECS queries as a compliment to the default "logical and"
-- Numerous CI improvements
-- Use shaderc to compile shaders for iOS builds
-- GLTF loading improvements
+  and ready to be optimized via the ECS change detection apis.
+- Support for "logical or" ECS queries as a compliment to the default "logical and".
+- Numerous CI improvements.
+- Use shaderc to compile shaders for iOS builds.
+- GLTF loading improvements.
 
 Bevy also made good progress on its three focus areas:
 
@@ -122,10 +126,21 @@ Bevy also made good progress on its three focus areas:
 - [Scenes](https://github.com/bevyengine/bevy/issues/255)
 
 _Discussions:
-[/r/rust](https://www.reddit.com/r/rust/comments/i7bcwu/introducing_bevy_a_refreshingly_simple_datadriven/),
+[/r/rust](https://reddit.com/r/rust/comments/i7bcwu/introducing_bevy),
 [hacker news](https://news.ycombinator.com/item?id=24123283),
-[twitter announcement](https://twitter.com/cart_cart/status/1292903435155599361),
+[twitter](https://twitter.com/cart_cart/status/1292903435155599361),
 [amethyst forum](https://community.amethyst.rs/t/bevy-engine-addressing-the-elephant-in-the-room)_
+
+[bevy]: https://bevyengine.org
+[@cart]: https://github.com/cart
+[bevy-intro]: https://bevyengine.org/news/introducing-bevy
+[bevy-scaling]: https://bevyengine.org/news/scaling-bevy
+[awesome-bevy]: https://github.com/bevyengine/awesome-bevy
+[bevy-rapier]: https://www.dimforge.com/blog/2020/08/25/announcing-the-rapier-physics-engine/#reaching-out-to-other-communities-bevy-and-javascript
+[bevy-spnsors]: https://github.com/sponsors/cart
+[bevy-amethyst]: https://community.amethyst.rs/t/bevy-engine-addressing-the-elephant-in-the-room
+[bevy-discord-showcase]: https://discord.com/channels/691052431525675048/692648638823923732
+[bevy-pr-async]: https://github.com/bevyengine/bevy/pull/384
 
 ## Popular Workgroup Issues in Github
 
