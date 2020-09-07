@@ -30,6 +30,7 @@ Ideal section structure is:
 ### [Title]
 
 ![image/GIF description](image link)
+_image caption_
 
 A paragraph or two with a summary and [useful links].
 
