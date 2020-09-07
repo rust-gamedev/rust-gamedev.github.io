@@ -742,7 +742,7 @@ This is the most important core abstraction, because it glues all
 libraries that are not independent of the core.
 
 [Piston]: https://github.com/pistondevelopers/piston
-[Piston Discord Channel]: https://t.co/8YOj3auDr9?amp=1
+[Piston Discord Channel]: https://discord.gg/TkDnS9x
 
 ------
 
