@@ -564,6 +564,34 @@ that is written in Rust.
 [mun-august]: https://mun-lang.org/blog/2020/08/30/this-month-august/
 [mun-inkwell]: https://crates.io/crates/inkwell
 
+### [inline_tweak]
+
+![Demo with moving traffic lights](inline-tweak.gif)
+
+[inline_tweak] by [@Uriopass] is a library that allows you to
+tweak at runtime any number literal directly from your code.
+It works by parsing the file when a change occurs
+(inspired by [this blogpost][tuxedolabs-post] from Tuxedo labs).
+Usage example:
+
+```rust
+use inline_tweak::tweak;
+loop {
+    // Try changing the value while the application is running
+    println!("{}", tweak!(3.14));
+}
+```
+
+A `watch!()` macro that sleeps until the file is modified is also provided.
+
+The library is minimal, only requiring the `lazy_static` dependency
+to hold modified values.
+In release mode, the tweaking code is disabled and compiled away.
+
+[inline_tweak]: https://crates.io/crates/inline_tweak
+[@Uriopass]: https://github.com/Uriopass
+[tuxedolabs-post]: http://blog.tuxedolabs.com/2018/03/13/hot-reloading-hardcoded-parameters.html
+
 ### [SPIR-Q] v0.4.6
 
 [SPIR-Q] is a light-weight shader reflection library, which allows you to query
