@@ -533,6 +533,9 @@ The core library `pistoncore-input` is now stabilized and reached 1.0!
 This is the most important core abstraction, because it glues all
 libraries that are not independent of the core.
 
+[Piston]: https://github.com/pistondevelopers/piston
+[Piston Discord Channel]: https://t.co/8YOj3auDr9?amp=1
+
 ------
 
 [Dyon] is a rusty dynamically typed scripting language.
@@ -546,7 +549,6 @@ optional namespaces and ad-hoc types, named argument syntax,
 
 Recently, Dyon got better macro integration for native Rust types
 using `#` as a prefix.
-
 Here is an example of this feature is being tested in
 an experimental offline 3D renderer (not open sourced):
 
@@ -563,6 +565,9 @@ dyon_fn!{fn set_simple__scene_sdf_id(
 
 To follow updates on Dyon, check out the subreddit [/r/dyon].
 
+[Dyon]: https://github.com/pistondevelopers/dyon
+[/r/dyon]: https://reddit.com/r/dyon/
+
 ------
 
 [Piston-Graphics] is a library for 2D graphics, written in Rust,
@@ -570,6 +575,8 @@ that works with multiple backends.
 
 `Stencil::Increment` has been added and the ecosystem
 has been updated to the latest version.
+
+[Piston-Graphics]: https://github.com/pistondevelopers/graphics
 
 ------
 
@@ -591,16 +598,11 @@ It is also possible to override rendering of widgets for
 custom looks with Piston-Graphics, which is often useful in gamedev.
 Recently, this project has gotten to a place where
 [tree-view interaction] is working.
+
 You can follow development at [@PistonDeveloper at Twitter].
 
-[Piston Discord Channel]: https://t.co/8YOj3auDr9?amp=1
-[/r/dyon]: https://old.reddit.com/r/dyon/
 [@PistonDeveloper at Twitter]: https://twitter.com/PistonDeveloper
 [tree-view interaction]: https://twitter.com/PistonDeveloper/status/1299840279374110720
-
-[Piston]: https://github.com/pistondevelopers/piston
-[Dyon]: https://github.com/pistondevelopers/dyon
-[Piston-Graphics]: https://github.com/pistondevelopers/graphics
 [Nano-ECS]: https://github.com/advancedresearch/nano_ecs
 
 ### [SPIR-Q] v0.4.6
