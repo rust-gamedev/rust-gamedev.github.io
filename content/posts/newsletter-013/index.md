@@ -442,6 +442,26 @@ game development are planned.
 
 ## Library & Tooling Updates
 
+### [ecs_bench_suite]
+
+![Summary results table](ecs-bench.png)
+_The full benchmark report is available [here][ecs_report]_
+
+This month [@TomGillen] (author of the [Legion][legion] ECS) released
+[ecs_bench_suite] - a suite of benchmarks designed to test and compare
+Rust ECS library performance across a variety of challenging circumstances.
+Later, the project was adopted by the Rust GameDev WG
+so that all Rust ECS developers can converge on a neutral,
+community-maintained benchmark.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/icczxh/ecs_bench_suite)_
+
+[ecs_bench_suite]: https://github.com/rust-gamedev/ecs_bench_suite
+[@TomGillen]: https://github.com/TomGillen
+[legion]: https://github.com/amethyst/legion
+[ecs_report]: https://rust-gamedev.github.io/ecs_bench_suite/target/criterion/report/index.html
+
 ### [Rapier: 2D and 3D Physics Engines Focused on Performance][rapier-august]
 
 [![Rapier logo](rapier-logo.svg)][Rapier]
@@ -565,6 +585,45 @@ that is written in Rust.
 [Mun]: https://mun-lang.org
 [mun-august]: https://mun-lang.org/blog/2020/08/30/this-month-august/
 [mun-inkwell]: https://crates.io/crates/inkwell
+
+### [inline_tweak]
+
+![Demo with moving traffic lights](inline-tweak.gif)
+
+[inline_tweak] by [@Uriopass] is a library that allows you to
+tweak at runtime any number literal directly from your code.
+It works by parsing the file when a change occurs
+(inspired by [this blogpost][tuxedolabs-post] from Tuxedo labs).
+Usage example:
+
+```rust
+use inline_tweak::tweak;
+loop {
+    // Try changing the value while the application is running
+    println!("{}", tweak!(3.14));
+}
+```
+
+A `watch!()` macro that sleeps until the file is modified is also provided.
+
+The library is minimal, only requiring the `lazy_static` dependency
+to hold modified values.
+In release mode, the tweaking code is disabled and compiled away.
+
+[inline_tweak]: https://crates.io/crates/inline_tweak
+[@Uriopass]: https://github.com/Uriopass
+[tuxedolabs-post]: http://blog.tuxedolabs.com/2018/03/13/hot-reloading-hardcoded-parameters.html
+
+### [yacurses]
+
+[yacurses] by [@Lokathor] is a cross-platform curses bindings crate that's
+small, simple, easy to understand, and most importantly safe to use.
+It wraps over `ncurses` on Unix and a bundled `pdcurses` on Windows.
+If you're looking to make a terminal-based roguelike
+(or any other terminal-based game), give it a try.
+
+[yacurses]:https://lib.rs/crates/yacurses
+[@Lokathor]: https://github.com/Lokathor
 
 ### [SPIR-Q] v0.4.6
 
@@ -938,6 +997,37 @@ You can follow development at [@PistonDeveloper at Twitter].
 [@PistonDeveloper at Twitter]: https://twitter.com/PistonDeveloper
 [tree-view interaction]: https://twitter.com/PistonDeveloper/status/1299840279374110720
 [Nano-ECS]: https://github.com/advancedresearch/nano_ecs
+
+### [Amethyst v0.15.1][amethyst-v0-15-1-post]
+
+![logo](amethyst-logo.png)
+
+[Amethyst][amethyst] is a game engine and tool-set
+for ambitious game developers.
+
+This month a [v0.15.1 version was released][amethyst-v0-15-1-post].
+Updates include:
+
+- New book chapters for [UI][amethyst-ui] and [Tiles][amethyst-tiles];
+- [Updated examples][amethyst-examples], with special attention to the pong example;
+- Switch to [GitHub Actions for CI][amethyst-ga];
+- Lots of API improvements and bug fixes.
+
+For more details see the [full changelog][amethyst-changelog].
+
+v0.16 plans include a full migration to the [Legion ECS][legion]
+and a big site face lift.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/ibvheq/amethyst_engine_v0151)_
+
+[amethyst]: https://amethyst.rs
+[amethyst-v0-15-1-post]: https://amethyst.rs/posts/release-0.15.1
+[amethyst-examples]: https://github.com/amethyst/amethyst/tree/v0.15.1/examples
+[amethyst-ui]: https://book.amethyst.rs/stable/ui.html
+[amethyst-tiles]: https://book.amethyst.rs/stable/tiles.html
+[amethyst-ga]: https://github.com/amethyst/amethyst/blob/v0.15.1/.github/workflows/ci.yml
+[amethyst-changelog]: https://github.com/amethyst/amethyst/blob/master/docs/CHANGELOG.md#0151---2020-08-14
 
 ### [starframe]
 
