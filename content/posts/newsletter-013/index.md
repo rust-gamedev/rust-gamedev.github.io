@@ -303,8 +303,7 @@ Jazarro on [the Amethyst discord][amethyst-discord].
 
 ### [Akigi][akigi]
 
-[Akigi][akigi] is a magical multiplayer online world where humans aren't the
-only intelligent animals.
+[Akigi][akigi] is a WIP online multiplayer game.
 
 This month was mostly dedicated to the custom engine's scenery placement tool
 ([video demo](https://devjournal.akigi.com/august-2020/082-2020-08-30.html)).
