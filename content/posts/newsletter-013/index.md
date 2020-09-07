@@ -1055,6 +1055,21 @@ _Discussions:
 [ron]: https://github.com/ron-rs/ron
 [serde-data]: https://serde.rs/data-model.html
 
+### [".sia" Parser & Viewer][football-manager]
+
+![sia_viewer demo: A textured model](football-manager.jpeg)
+
+This month [@Stromberg90] published [Football Manager Tools] - a set of tools
+for working with [Football Manager's][football-manager] 3D mesh format(.sia).
+Amongst them:
+
+- `sia_parser` - a Rust crate for parsing .sia files.
+- `sia_viewer` - a standalone Mesh(.sia) Viewer.
+
+[@Stromberg90]: https://github.com/Stromberg90
+[football-manager]: https://en.wikipedia.org/wiki/Football_Manager
+[Football Manager Tools]: https://github.com/Stromberg90/football-manager-tools
+
 ## Popular Workgroup Issues in Github
 
 ## Meeting Minutes
