@@ -976,6 +976,37 @@ You can follow development at [@PistonDeveloper at Twitter].
 [tree-view interaction]: https://twitter.com/PistonDeveloper/status/1299840279374110720
 [Nano-ECS]: https://github.com/advancedresearch/nano_ecs
 
+### [Amethyst v0.15.1][amethyst-v0-15-1-post]
+
+![logo](amethyst-logo.png)
+
+[Amethyst][amethyst] is a game engine and tool-set
+for ambitious game developers.
+
+This month a [v0.15.1 version was released][amethyst-v0-15-1-post].
+Updates include:
+
+- New book chapters for [UI][amethyst-ui] and [Tiles][amethyst-tiles];
+- [Updated examples][amethyst-examples], with special attention to the pong example;
+- Switch to [GitHub Actions for CI][amethyst-ga];
+- Lots of API improvements and bug fixes.
+
+For more details see the [full changelog][amethyst-changelog].
+
+v0.16 plans include a full migration to the [Legion ECS][legion]
+and a big site face lift.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/ibvheq/amethyst_engine_v0151)_
+
+[amethyst]: https://amethyst.rs
+[amethyst-v0-15-1-post]: https://amethyst.rs/posts/release-0.15.1
+[amethyst-examples]: https://github.com/amethyst/amethyst/tree/v0.15.1/examples
+[amethyst-ui]: https://book.amethyst.rs/stable/ui.html
+[amethyst-tiles]: https://book.amethyst.rs/stable/tiles.html
+[amethyst-ga]: https://github.com/amethyst/amethyst/blob/v0.15.1/.github/workflows/ci.yml
+[amethyst-changelog]: https://github.com/amethyst/amethyst/blob/master/docs/CHANGELOG.md#0151---2020-08-14
+
 ### [starframe]
 
 ![Current state of starframe graphics and physics](starframe-demo.gif)
