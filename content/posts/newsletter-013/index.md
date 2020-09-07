@@ -27,6 +27,7 @@ Feel free to send PRs about your own projects!
 
 Table of contents:
 
+- [Rust GameDev Podcast](#rust-gamedev-podcast)
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Library & Tooling Updates](#library-tooling-updates)
@@ -60,16 +61,12 @@ some actual interesting discussions.
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
-## Game Updates
-
-## Learning Material Updates
-
-### [Rust GameDev Podcast][podcast]
+## [Rust GameDev Podcast][podcast]
 
 ![text logo](podcast.jpeg)
 
 This month [Richard @patchfx Patching][richardpatching] started
-[Rust GameDev Podcast][podcast]:
+[Rust GameDev Podcast][podcast]!
 
 > Over the lockdown period I have been working on a new podcast
 > for Rust game developers. I have been interviewing indie teams
@@ -113,6 +110,10 @@ for you to listen and subscribe:
 [noxf]: https://thebracket.itch.io/nox-futura
 [rltut]: http://bfnightly.bracketproductions.com
 [podcast-2]: https://rustgamedev.com/episodes/interview-with-herbert-wolverson-bracket-lib
+
+## Game Updates
+
+## Learning Material Updates
 
 ## Library & Tooling Updates
 
