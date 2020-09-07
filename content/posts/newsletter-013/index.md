@@ -1295,17 +1295,6 @@ or [join the next meeting][join].
 [simm-issues]: https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue
 [bevy-issues]: https://github.com/bevyengine/bevy/labels/good%20first%20issue
 
-## Jobs
-
-<!-- An optional section for new jobs related to Rust gamedev -->
-
-## Bonus
-
-<!-- Bonus section to make the newsletter more interesting
-and highlight events from the past. -->
-
-Just an interesting Rust gamedev link from the past. :)
-
 ------
 
 That's all news for today, thanks for reading!
