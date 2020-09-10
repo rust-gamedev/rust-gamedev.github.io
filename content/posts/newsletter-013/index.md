@@ -745,7 +745,7 @@ and mesh/task shaders) as well as the existing ones.
 Traverse Research wanted to reduce their reliance on C and C++ unsafe
 libraries and at the same time they needed to support newer features that were
 slow to become available in the existing `spirv-reflect` library. The primary
-use-case for this library is in conjecture with the Rust wrapper around the
+use-case for this library is in conjunction with the Rust wrapper around the
 DirectX Shader Compiler ([dxc]), called [hassle-rs] that Traverse Research
 also built.
 
