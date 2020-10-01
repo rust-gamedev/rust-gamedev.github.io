@@ -68,7 +68,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 [BUGOUT](https://github.com/Terkwood/BUGOUT) is a web application
 which allows you to play Go/Baduk/Weiqi against a leading AI
-([KataGo](https://github.com/lightvector/KataGo)).  It also provides a
+([KataGo](https://github.com/lightvector/KataGo)).  It provides a
 multiplayer mode so that you can play other humans, either by joining a
 public queue or sharing a private URL to your friend.
 
@@ -79,7 +79,8 @@ The initial installation's AI is powered by an energy-efficient
 
 BUGOUT is marching actively toward production, at which point the
 team will publish the website address and invite users from the
-public.
+public.  The author anticipates being finished with the production release
+prior to Jan 1, 2021.
 
 ## Learning Material Updates
 
