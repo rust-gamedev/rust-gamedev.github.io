@@ -62,6 +62,22 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### BUGOUT
+
+![Play Go against AI and friends on the web](BUGOUT.jpeg) _9x9 Goban_
+
+[BUGOUT](https://github.com/Terkwood/BUGOUT) is a web application
+which allows you to play Go/Baduk/Weiqi against expert AI
+([KataGo](https://github.com/lightvector/KataGo)) trained using
+hefty hardware.  It also provides a multiplayer mode so that you
+can play other humans, either by joining a public queue or sharing
+a private URL to your friend.
+
+The user interface is lifted from [Sabaki](https://github.com/SabakiHQ/Sabaki).
+
+BUGOUT is marching actively toward production, at which point the
+team will publish the website address and invite users to try it out.
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
