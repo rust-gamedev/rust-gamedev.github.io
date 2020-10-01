@@ -64,19 +64,22 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### BUGOUT
 
-![Play Go against AI and friends on the web](BUGOUT.jpeg) _9x9 Goban_
+![Play Go against AI and friends on the web](BUGOUT.png) _Playing KataGo AI in 9x9_
 
 [BUGOUT](https://github.com/Terkwood/BUGOUT) is a web application
-which allows you to play Go/Baduk/Weiqi against expert AI
-([KataGo](https://github.com/lightvector/KataGo)) trained using
-hefty hardware.  It also provides a multiplayer mode so that you
-can play other humans, either by joining a public queue or sharing
-a private URL to your friend.
+which allows you to play Go/Baduk/Weiqi against a leading AI
+([KataGo](https://github.com/lightvector/KataGo)).  It also provides a
+multiplayer mode so that you can play other humans, either by joining a
+public queue or sharing a private URL to your friend.
 
 The user interface is lifted from [Sabaki](https://github.com/SabakiHQ/Sabaki).
 
+The initial installation's AI is powered by an energy-efficient
+[dev board](https://developer.nvidia.com/embedded/jetson-nano-developer-kit).
+
 BUGOUT is marching actively toward production, at which point the
-team will publish the website address and invite users to try it out.
+team will publish the website address and invite users from the
+public.
 
 ## Learning Material Updates
 
