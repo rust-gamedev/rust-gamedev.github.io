@@ -66,9 +66,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
-### [rg3d][rg3d] and [rusty-editor][rusty editor]
-
-#### [rg3d][rg3d]
+### [rg3d][rg3d]
 
 rg3d is a game engine that aims to be easy to use and provide large set
 out-of-box features. Since May it has gained a lot of new features:
@@ -91,7 +89,7 @@ out-of-box features. Since May it has gained a lot of new features:
 
 [rg3d]: https://github.com/mrDIMAS/rg3d
 
-#### [rusty-editor][rusty editor]
+### [rusty-editor][rusty editor]
 
 ![rusty editor](rusty_editor.jpg)
 
