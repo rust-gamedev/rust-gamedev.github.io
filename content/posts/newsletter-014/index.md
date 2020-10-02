@@ -69,7 +69,7 @@ _Playing KataGo AI in 9x9_
 
 [BUGOUT](https://github.com/Terkwood/BUGOUT) is a web application
 which allows you to play Go/Baduk/Weiqi against a leading AI
-([KataGo](https://github.com/lightvector/KataGo)).  It provides a
+([KataGo](https://github.com/lightvector/KataGo)). It provides a
 multiplayer mode so that you can play other humans, either by joining a
 public queue or sharing a private URL to your friend.
 
