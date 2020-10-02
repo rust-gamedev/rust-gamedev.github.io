@@ -73,14 +73,14 @@ It's basically a drop-in implementation of Vulkan on top of Metal and D3D12,
 useful on platforms that don't have native Vulkan support, or buggy drivers.
 
 It released version [0.8.1](https://github.com/gfx-rs/portability/releases/tag/0.8.1)
-with official support for the new [KHR portability extension][khr-portabilty], as well
-as a few other extensions, plus a number of correctness fixes.
+with official support for the new [KHR portability extension][khr-portabilty],
+as well as a few other extensions, plus a number of correctness fixes.
 
 gfx-rs team asks Rust users of Vulkano, Ash, and other Vulkan-only wrappers to try
 out the gfx-portability as a solution on macOS and relevant Windows 10 platforms.
 
-In gfx-rs itself, the DX12 backend, and the descriptor indexing feature support got improved.
-There has been a push to get DX11 backend in a solid shape,
+In gfx-rs itself, the DX12 backend, and the descriptor indexing feature support got
+improved. There has been a push to get DX11 backend in a solid shape,
 and it can now run [vange-rs][vange-repo] pretty well :tada:.
 
 [gfx-repo]: https://github.com/gfx-rs/gfx
