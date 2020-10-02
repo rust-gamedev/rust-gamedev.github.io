@@ -64,7 +64,8 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### BUGOUT
 
-![Play Go against AI and friends on the web](BUGOUT.jpg) _Playing KataGo AI in 9x9_
+![Play Go against AI and friends on the web](BUGOUT.jpg)
+_Playing KataGo AI in 9x9_
 
 [BUGOUT](https://github.com/Terkwood/BUGOUT) is a web application
 which allows you to play Go/Baduk/Weiqi against a leading AI
