@@ -79,7 +79,7 @@ The initial installation's AI is powered by an energy-efficient
 [dev board](https://developer.nvidia.com/embedded/jetson-nano-developer-kit).
 
 BUGOUT is marching actively toward production, at which point the
-team will publish the website address and invite users.  The author
+team will publish the website address and invite users. The author
 anticipates being finished with the production release prior to Jan 1,
 2021.
 
