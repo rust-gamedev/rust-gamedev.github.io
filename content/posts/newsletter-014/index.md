@@ -64,6 +64,29 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Learning Material Updates
 
+### [An OpenGL preprocessor for Rust]
+
+With the power of cargo build scripts full power of [Tera], you can create advanced
+GLSL preprocessor which can generate code conditionally, in loops, and even
+inherit code from other templates.
+
+![An OpenGL preprocessor for Rust](opengl_preprocessor.png)
+
+Writing plain GLSL code is uncomfortable, code is quite often is duplicated, libraries
+aren't something natural for GLSL (means you can't out of the box do #include "library.glsl").
+Last point especially problematic if some constants actually originate in your
+game logic (like the number of player types). Updating these values manually in
+your shader code is repetitive and prone to both error and simple forgetfulness.
+It’s really helpful to build some kind of preprocessor for your GLSL code,
+which can include other files, so you can organize your code into manageable chunks.
+With the power of [Tera], it's now easy to accomplish.
+Because Rust is also often used for web projects, which need a lot of templated
+web-pages preprocessing, we can borrow such technology for our needs,
+combine it with cargo build scripts and create compile-time preprocessing tool.
+
+[tera]: https://tera.netlify.app
+[An OpenGL preprocessor for Rust]: https://codecrash.me/an-opengl-preprocessor-for-rust
+
 ## Library & Tooling Updates
 
 ## Popular Workgroup Issues in Github
