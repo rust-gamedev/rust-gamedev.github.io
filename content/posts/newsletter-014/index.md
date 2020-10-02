@@ -70,8 +70,8 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 #### [rg3d][rg3d]
 
-rg3d is a game engine that aims to be easy to use and provide large set out-of-box features. 
-Since May it has gained a lot of new features:
+rg3d is a game engine that aims to be easy to use and provide large set
+out-of-box features. Since May it has gained a lot of new features:
 
 - Render to texture - it is possible to render scenes into textures.
 - Added support for scenes made in rusty-editor.
@@ -80,24 +80,25 @@ Since May it has gained a lot of new features:
 - Added simple lightmapper (still WIP).
 - Performance improvements.
 - Added new UI widgets and features:
-	- Message box - classic message box with different combinations of buttons.
-	- Wrap panel - arranges its children by rows or columns with wrapping.
-	- File browser - a browser for file system.
-	- Color picker - classic HSV+RGB+Alpha color picker.
-	- "Bring into view" for scroll panel.
-	- Replaced font rasterizer by fontdue.
-	- Improved hotkeys in text box.
+  - Message box - classic message box with different combinations of buttons.
+  - Wrap panel - arranges its children by rows or columns with wrapping.
+  - File browser - a browser for file system.
+  - Color picker - classic HSV+RGB+Alpha color picker.
+  - "Bring into view" for scroll panel.
+  - Replaced font rasterizer by fontdue.
+  - Improved hotkeys in text box.
 - Other small fixes and improvements.
-	
+
 [rg3d]: https://github.com/mrDIMAS/rg3d
 
 #### [rusty-editor][rusty editor]
 
 ![rusty editor](rusty_editor.jpg)
 
-rusty-editor is a scene editor for rg3d engine. Since May it has gained few new features:
+rusty-editor is a scene editor for rg3d engine. Since May it has gained
+few new features:
 
-- Asset browser 
+- Asset browser
 - Asset previewer
 - Multiselection
 - Improved properties editor.
