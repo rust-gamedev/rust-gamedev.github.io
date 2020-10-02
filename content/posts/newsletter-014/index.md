@@ -66,23 +66,22 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
-### Riddle
+### [Riddle](https://github.com/vickles/riddle)
 
-Riddle is a Rust media library in the vein of SDL, building as far as possible
-on the most active/standard Rust libraries (winit, wgpu, image, etc). Riddle
-is deliberately not an engine, or a framework. It is a library devoted to exposing
-media related features in a unified way while avoiding prescribing program structure.
-It provides abstractions over windowing, input, audio, image loading/manipulation
-and provides a basic wgpu based 2D renderer.
+[Riddle](https://github.com/vickles/riddle) is a Rust media library in the vein
+of SDL, building as far as possible on the most active/standard Rust libraries
+(winit, wgpu, image, etc). Riddle is deliberately not an engine, or a framework.
+It is a library devoted to exposing media related features in a unified way while
+avoiding prescribing program structure. It provides abstractions over windowing,
+input, audio, image loading/manipulation and provides a basic wgpu based 2D
+renderer. The [docs](https://vickles.github.io/riddle/0.1.0/riddle/) contain
+runnable examples for most methods and types.
 
 The goal is to provide a stable foundation, resillient to developments in the Rust
 gamedev ecosystem, on which games, custom engines, and other media applications can
 be built.
 
-- _/r/rust_gamedev announcement_:
-[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/j0xa3s/riddle_010_a_rust_native_sdllike_library/),
-- _Github_: <https://github.com/vickles/riddle>
-- _Docs_: <https://vickles.github.io/riddle/0.1.0/riddle/>
+_discussion_: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/j0xa3s/riddle_010_a_rust_native_sdllike_library/),
 
 ## Popular Workgroup Issues in Github
 
