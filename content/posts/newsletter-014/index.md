@@ -83,7 +83,6 @@ approach presented in [GPU-accelerated Path Rendering](https://github.com/femtov
 
 Join the [Discord channel](https://discord.gg/V69VdVu) or follow [FemtoVG on twitter](https://twitter.com/femtovg).
 
-
 ## Popular Workgroup Issues in Github
 
 ## Requests for Contribution
