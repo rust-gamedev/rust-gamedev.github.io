@@ -66,6 +66,83 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
+### [Crevice]
+
+[Crevice] is a library that helps define GLSL-compatible (std140) structs for
+use in uniform and storage buffers. It uses new `const fn` capabilities
+stabilized in [Rust 1.46.0] to align types with explicitly zeroed padding.
+
+Crevice depends heavily on [mint] to support almost any Rust math library. It
+also contains helpers for safely sizing and writing buffers, making dynamic
+buffer layout a breeze.
+
+```rust
+#[derive(AsStd140)]
+struct MainUniform {
+    orientation: mint::ColumnMatrix3<f32>,
+    position: mint::Vector3<f32>,
+    scale: f32,
+}
+
+let value = MainUniform {
+    orientation: cgmath::Matrix3::identity().into(),
+    position: [1.0, 2.0, 3.0].into(),
+    scale: 4.0,
+};
+
+upload_data_to_gpu(value.as_std140().as_bytes());
+```
+
+_Discussions:
+[twitter](https://twitter.com/LPGhatguy/status/1308499131212599296)_
+
+[Crevice]: https://github.com/LPGhatguy/crevice
+[Rust 1.46.0]: https://blog.rust-lang.org/2020/08/27/Rust-1.46.0.html
+[mint]: https://github.com/kvark/mint
+
+### [Thunderdome]
+
+[Thunderdome] is a ~gladitorial~ generational arena library inspired by
+[generational-arena], [slotmap], and [slab]. It provides constant time
+insertion, lookup, and removal via small (8 byte) keys that stay 8 bytes when
+wrapped in `Option<T>`.
+
+Data structures like Thunderdome's `Arena` store values and return keys that can
+be later used to access those values. These keys are stable across removals and
+have a generation counter to solve the [ABA Problem].
+
+```rust
+let mut arena = Arena::new();
+
+let foo = arena.insert("Foo");
+let bar = arena.insert("Bar");
+
+assert_eq!(arena[foo], "Foo");
+assert_eq!(arena[bar], "Bar");
+
+arena[bar] = "Replaced";
+assert_eq!(arena[bar], "Replaced");
+
+let foo_value = arena.remove(foo);
+assert_eq!(foo_value, Some("Foo"));
+
+// The slot previously used by foo will be reused for baz.
+let baz = arena.insert("Baz");
+assert_eq!(arena[baz], "Baz");
+
+// foo is no longer a valid key.
+assert_eq!(arena.get(foo), None);
+```
+
+_Discussions:
+[twitter](https://twitter.com/LPGhatguy/status/1303375906493276160)_
+
+[Thunderdome]: https://github.com/LPGhatguy/thunderdome
+[generational-arena]: https://crates.io/crates/generational-arena
+[slotmap]: https://crates.io/crates/slotmap
+[slab]: https://crates.io/crates/slab
+[ABA Problem]: https://en.wikipedia.org/wiki/ABA_problem
+
 ## Popular Workgroup Issues in Github
 
 ## Requests for Contribution
