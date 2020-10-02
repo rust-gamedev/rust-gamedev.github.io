@@ -62,6 +62,31 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Mimas]
+
+![Mimas screenshot](mimas.png)
+
+[Mimas] is a WIP voxel engine and game, inspired by Minetest and Minecraft.
+It's been in development since almost 2 years, and has recently seen a public
+prototype release 0.4.0.
+
+Several of the features that have already been implemented as of Oct 1st:
+
+- Procedural map generation with hilly landscape, trees, flowers, water and caves
+- Map manipulation (removal/addition of blocks)
+- Crafting
+- Chests
+- Textures (taken from the Minetest project, under CC-BY-SA license)
+- Tools
+- QUIC based network protocol with SRP based authentication
+- Multiplayer: chat, (hardcoded) avatars
+- Ability to add custom content (e.g. blocks) using a toml format
+
+Imgur screenshot [gallery].
+
+[Mimas]: https://github.com/est31/mimas
+[gallery]: https://imgur.com/a/vvo7len
+
 ### Oh no, Lava!
 
 ![shooting water into lava](ohnolava_troligtvis.gif)
