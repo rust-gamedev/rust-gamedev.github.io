@@ -117,7 +117,8 @@ Updates include:
 
   ![bots attack](rox_clone_attack.png)
 
-- [@webshinra](https://twitter.com/Webshinra) made progress with raycasted FOV in their hexagonal game.
+- [@webshinra](https://twitter.com/Webshinra) made progress with raycasted FOV
+  in their hexagonal game.
 
   ![hexagonal map with two mechs, paths and visually blocked tiles](hex-fov.jpeg)
 
@@ -503,7 +504,8 @@ _Discussions:
 
 - **[minimum]** by ([@aclysma]) is a game development framework that provides
   basic tooling and a content authoring workflow;
-  this month, rendering of draggable shapes in the editor and rotation/scaling were added
+  this month, rendering of draggable shapes in the editor
+  and rotation/scaling were added
   \[[YouTube demo](https://youtube.com/watch?v=BON_RvVFiWY)].
 
   ![editor with a bunch of shapes](minimum.png)

@@ -4,8 +4,6 @@ date = 2020-04-08
 transparent = true
 +++
 
-<!-- markdownlint-disable no-trailing-punctuation -->
-
 Welcome to the eighth issue of the Rust GameDev Workgroup’s
 monthly newsletter.
 
@@ -194,7 +192,8 @@ an ant colony sandbox game with ASCII graphics.
 
 This month v0.1.1 and v0.1.2 versions were released. Some of the updates:
 
-- Add color palette options to Settings including a modified palette for red-green color blindness
+- Add color palette options to Settings including a modified palette
+  for red-green color blindness
 - Add lifecycles to more ant castes
 - Nurse ants give food to larvae
 - Nurse ants on the surface will return to the colony
@@ -238,7 +237,8 @@ This month v0.1.1 and v0.1.2 versions were released. Some of the updates:
 
 ![game screenshot](akigi.png)
 
-> [Akigi][akigi] is a multiplayer online world where most believe that humans are inferior.
+> [Akigi][akigi] is a multiplayer online world
+> where most believe that humans are inferior.
 
 Some of March's updates:
 
@@ -334,8 +334,7 @@ Some of this month's updates:
 ### [Veloren][veloren]
 
 ![LoD](veloren1.png)
-
-^ _Work on Level of Detail_
+_Work on Level of Detail_
 
 [Veloren][veloren] is an open world, open-source voxel RPG
 inspired by Dwarf Fortress and Cube World.
@@ -434,8 +433,7 @@ Main updates:
 ### gfx-rs and wgpu news
 
 ![Deeper game](deeper.png)
-
-^ _[deeper] uses wgpu for rendering_
+_[deeper] uses wgpu for rendering_
 
 [gfx-hal-0.5](https://github.com/gfx-rs/gfx/) was released!
 Improvements done in March:
@@ -519,8 +517,7 @@ Some of this month's updates:
 ### [Nannou v0.13][nannou-post]
 
 ![Daily Sketch 0114 by Mactuitui](nannou.png)
-
-^ _Daily Sketch 0114 by Mactuitui_
+_Daily Sketch 0114 by Mactuitui_
 
 [Nannou][nannou] is a creative coding framework that aims to make it easy
 for artists to express themselves with simple, fast, reliable code.
@@ -585,8 +582,9 @@ connection management, packet signaling, and packet acknowledgement are
 features already implemented. Examples for getting started are provided
 on the [crates.io page](netstack).
 
-Version 0.3.0 adds basic monitoring functionality along with traits `ClientMonitor` and
-`ServerMonitor`. A work-in-progress prometheus exporter has also been added in this version.
+Version 0.3.0 adds basic monitoring functionality
+along with traits `ClientMonitor` and `ServerMonitor`.
+A work-in-progress prometheus exporter has also been added in this version.
 
 Issues and contributions can be made to [Netstack's github repository](netstack-github).
 Work in progress documentation is available on [Netstack's docs.rs](netstack-docs).

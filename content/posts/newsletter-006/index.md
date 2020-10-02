@@ -4,8 +4,6 @@ date = 2020-02-16
 transparent = true
 +++
 
-<!-- markdownlint-disable no-trailing-punctuation -->
-
 Welcome to the sixth issue of the Rust GameDev Workgroup’s
 monthly newsletter.
 
@@ -247,7 +245,8 @@ _Discussions:
 ["Snake Game With Rust, JavaScript, and WebAssembly"][snake-course].
 
 > We will learn how to export API implemented with Rust to JavaScript app.
-> We will get to know canvas rendering, applications of vectors, and basics of game development.
+> We will get to know canvas rendering, applications of vectors,
+> and basics of game development.
 
 At the moment, the series consists of six articles (of eight planned):
 
@@ -378,7 +377,8 @@ Full January's devlogs:
 
 [Another entry for the Games Made Quick jam from @Mistodon][split-twitter].
 
-[Split][split-itch] is a game about outrunning a supernova and using time travel to improve your chances.
+[Split][split-itch] is a game about outrunning a supernova
+and using time travel to improve your chances.
 
 > In the middle of using time travel to research a dying star,
 > you find yourself fleeing from a supernova.
@@ -565,7 +565,8 @@ integrated into Unreal Engine.
 >
 > - Compiling a Rust crate as an Unreal Engine Module
 > - C++ Unreal modules linking to our Rust crate
-> - Automatic rebuilding C++ and binaries that depend on Rust code when that Rust code changes
+> - Automatic rebuilding C++ and binaries that depend on Rust code
+>   when that Rust code changes
 
 _Discussions:
 [/r/rust](https://reddit.com/r/rust/comments/emp0su/proof_of_concept_rust_code_in_unreal_engine)_
@@ -696,7 +697,8 @@ fn example() {
 
 [The Roguelike Tutorial][rl-book] continues to grow:
 chapter [#70 "Missiles and Ranged Attacks"][rl-book-70] was added to the book.
-It adds targeting, ranged weaponry, AI that shoots back, and projectile particles to the mix.
+It adds targeting, ranged weaponry, AI that shoots back,
+and projectile particles to the mix.
 
 [Check out an online demo here.][rl-book-70-demo]
 
@@ -836,8 +838,7 @@ Btw, [@resinten] continues working on a luminance-based game:
 ### [SPIR-Q][spir-q] v0.4.1
 
 ![Example walking an entry point of a SPIR-V file](spir-q.png)
-
-^ _Example walking an entry point of a SPIR-V file_
+_Example walking an entry point of a SPIR-V file_
 
 [SPIR-Q][spir-q] is a lightweight [SPIR-V] query library.
 This month v0.2..v0.4.1 versions were released:

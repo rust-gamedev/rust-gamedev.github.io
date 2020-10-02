@@ -7,6 +7,11 @@ li {
     margin: 15px 0;
 }
 
+pre > code {
+    // To avoid grey background on code blocks.
+    background-color: inherit;
+}
+
 .intro {
     color: #ffffff;
     background-color: $brand-color;
@@ -94,4 +99,13 @@ a.btn {
         color: lighten($background-color, 10);
         border-color: $brand-color;
     }
+}
+
+// A hack for image captions.
+// See https://stackoverflow.com/questions/19331362/using-an-image-caption-in-markdown-jekyll
+img + em,
+a:first-child + em:last-child {
+    display: block;
+    text-align: center;
+    color: $grey-color;
 }

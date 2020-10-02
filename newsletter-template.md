@@ -20,7 +20,14 @@ Want to get involved? [Join the Rust GameDev working group!][join]
 [Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
-## News and Blog Posts
+- [Game Updates](#game-updates)
+- [Learning Material Updates](#learning-material-updates)
+- [Library & Tooling Updates](#library-tooling-updates)
+- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
+- [Meeting Minutes](#meeting-minutes)
+- [Requests for Contribution](#requests-for-contribution)
+- [Jobs](#jobs)
+- [Bonus](#bonus)
 
 <!--
 8-12 important news with their own sections.
@@ -30,6 +37,7 @@ Ideal section structure is:
 ### [Title]
 
 ![image/GIF description](image link)
+_image caption_
 
 A paragraph or two with a summary and [useful links].
 
@@ -44,15 +52,11 @@ _Discussions:
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
-### Other News
+## Game Updates
 
-<!--
-Special section for other news (up to 15) in a one-liner format:
-- Main link,
-- short summary,
-- optional discussion links (in square brackets),
-- optional small image.
--->
+## Learning Material Updates
+
+## Library & Tooling Updates
 
 ## Popular Workgroup Issues in Github
 
@@ -70,6 +74,10 @@ or [join the next meeting][join].
 ## Requests for Contribution
 
 <!-- Links to "good first issue"-labels or direct links to specific tasks -->
+
+## Jobs
+
+<!-- An optional section for new jobs related to Rust gamedev -->
 
 ## Bonus
 

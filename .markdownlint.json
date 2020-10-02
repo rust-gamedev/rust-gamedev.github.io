@@ -1,0 +1,12 @@
+{
+    "line-length": {
+        "line_length": 80,
+        "code_blocks": false
+    },
+    "ul-style": {
+        "style": "dash"
+    },
+    "no-trailing-punctuation": {
+        "punctuation": ".,;:。，；："
+    }
+}

@@ -5,8 +5,6 @@ transparent = true
 aliases = ["/2019/11/027/newsletter-003", "2019/11/07/newsletter-003.html"]
 +++
 
-<!-- markdownlint-disable no-trailing-punctuation -->
-
 Welcome to the third issue of the Rust GameDev Workgroup’s
 monthly newsletter.
 
@@ -133,12 +131,15 @@ it's pretty active.
 [veloren-survey]: https://veloren.net/devblog-36/#player-survey
 [veloren-video]: https://www.youtube.com/watch?v=iwP7SXdWcTg
 
-### [PF Sandbox][pf-sandbox]
+### [Canon Collision][canon-collision]
 
 ![Exported models with textureas and skeletal animations](pf-sandbox.jpg)
 
-[PF Sandbox][pf-sandbox] by [@rukai] is a platform fighter sandbox featuring:
-in game Fighter and Stage Editor, replays, and TAS tools.
+[Canon Collision][canon-collision] by [@rukai] is an Undertale + Homestuck
+fan-made platform fighter with powerful tools for modding.
+It was forked from another project of rukai's
+[PF Sandbox](https://github.com/rukai/PF_Sandbox) so he could focus on making
+a game rather then an engine.
 
 This month,
 [exporting and hot-reloading assets from blender](https://twitter.com/thisIsRukai/status/1180477120113340417),
@@ -147,7 +148,7 @@ This month,
 and [animations](https://twitter.com/thisIsRukai/status/1188261107124727808)
 were added to the project.
 
-[pf-sandbox]:https://github.com/rukai/PF_Sandbox
+[canon-collision]:https://canoncollision.com
 [@rukai]: https://twitter.com/thisIsRukai
 
 ### [Antorum][antorum]
@@ -323,8 +324,8 @@ non-ascii code input, new icons, bugfixes, and better translations.
 
 ### [Godot][godot] and Rust
 
-- ["Rendering a 2D game in 3D"](https://medium.com/@recallsingularity/rendering-a-2d-game-in-3d-bd24ddbee6eb) -
-  [Tom Leys] is working on a “The Recall Singularity” [Godot][godot]/Rust game
+- ["Rendering a 2D game in 3D"](https://medium.com/@recallsingularity/rendering-a-2d-game-in-3d-bd24ddbee6eb)
+  \- [Tom Leys] is working on a “The Recall Singularity” [Godot][godot]/Rust game
   about designing autonomous factory ships and stations
   and this month they published
   a post about evolution of the game's rendering.
@@ -338,7 +339,10 @@ non-ascii code input, new icons, bugfixes, and better translations.
   character physics, weapon system, cameras, animations system,
   dynamic damage system.
 
-- ["Pong Clone in Godot Using 'gdnative' Rust Bindings"](https://reddit.com/r/godot/comments/dfam0p/i_made_a_pong_clone_in_godot_using_the_gdnative) - [@you-win] couldn't find any full game examples that used [godot-rust] so they made their own \[[source code](https://github.com/you-win/godot-pong-rust)].
+- ["Pong Clone in Godot Using 'gdnative' Rust Bindings"](https://reddit.com/r/godot/comments/dfam0p/i_made_a_pong_clone_in_godot_using_the_gdnative)
+  \- [@you-win] couldn't find any full game examples that used [godot-rust]
+  so they made their own
+  \[[source code](https://github.com/you-win/godot-pong-rust)].
 
 [godot]: https://godotengine.org
 [Tom Leys]: https://twitter.com/RecallSingular1
@@ -520,8 +524,7 @@ Also, see this GameDev WG tracker/complaint issue:
 ### [RLSL][rlsl]: a Rust to SPIR-V Compiler
 
 ![RLSL code sample](rlsl-example.png)
-
-^ _a simple fragment shader that renders a red circle (temporary syntax)_
+_a simple fragment shader that renders a red circle (temporary syntax)_
 
 This month, [@MaikKlein_DEV] gave a talk at
 [The Khronos Group](https://www.khronos.org)'s meetup in Munich
@@ -555,8 +558,7 @@ _Discussions:
 ### [gfx-rs v0.4][gfx-v0-4]
 
 ![sailor screenshot: vector terrain map and some basic UI](sailor.png)
-
-^ _a screenshot from [Yatekii/sailor] - a wgpu-based sailing navigation application_
+_a screenshot from [Yatekii/sailor] - a wgpu-based sailing navigation application_
 
 [gfx-rs v0.4 was released](https://reddit.com/r/rust/comments/dm89t2/gfxhal_version_04_release):
 major changes were described in [the last blog post](https://gfx-rs.github.io/2019/10/01/update.html),
@@ -682,8 +684,7 @@ _Discussions:
 ### [cyclone-physics-rs]
 
 [![cyclone physics demo](cyclone-physics-demo.gif)][cyclone-video-demo]
-
-^ _a little demo of "particle" simulation_
+_a little demo of "particle" simulation_
 
 [cyclone-physics-rs] by [@heyrutvik] a new WIP game physics engine
 based on the ["Game Physics Engine Development" book][cyclone-physics-book].
@@ -776,7 +777,8 @@ _Discussions:
 - [specs] and its related repositories [awesome-specs], [hibitset] and [shred]
   were moved to [Amethyst organization] \[[URLO][specs-moved]].
 
-- [amethyst_physics v0.1.1 was released](https://www.reddit.com/r/rust_gamedev/comments/dm3jsf/amethyst_v011_contacts_events): now it's possible to fetch Rigid body contacts events.
+- [amethyst_physics v0.1.1 was released](https://www.reddit.com/r/rust_gamedev/comments/dm3jsf/amethyst_v011_contacts_events):
+  now it's possible to fetch Rigid body contacts events.
 
 - [@_AndreaCatania] published two video tutorials:
 
