@@ -64,7 +64,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### pGLOWrpg
 
-![pGLOWrpg banner](https://github.com/roalyr/pglowrpg/blob/master/doc/images/pglowrpg_banner.png)
+![pGLOWrpg banner](pglowrpg_banner.png)
 
 The [@pGLOWrpg] (Procedurally Generated Living Open World RPG) is a long-term
 project in development by [@Roal_Yr], which aims to be a text-based game with
