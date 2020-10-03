@@ -61,7 +61,38 @@ If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
 ## Game Updates
+### pGLOWrpg
 
+![pGLOWrpg banner](https://github.com/roalyr/pglowrpg/blob/master/doc/images/pglowrpg_banner.png)
+
+The [@pGLOWrpg] (Procedurally Generated Living Open World RPG) is a long-term
+project in development by [@Roal_Yr], which aims to be a text-based game with
+maximum portability and accessibility and focus on interactions and emergent
+narrative.
+
+The pGLOWrpg meets its first official anniversary on September the 15th and goes
+public at [pGLOWrpg repo]!
+
+For the past month the main focus of the
+development was on:
+
+- Improving the UI.
+- Major refactoring.
+- Unification of I/O means.
+- Making things ready for publication.
+
+Main features of reported version are:
+
+- Ability to generate one or many worlds from customizable presets.
+- Ability to have output in both raw (b/w .png) and colorized images.
+- Generated data is as follows: terrain, watermask, biomes, rivers, geological regions,
+rainfall and temperature.
+
+For main feature reports and dev blogs follow [@pGLOWrpg] on Twitter.
+
+[@Roal_Yr]: https://twitter.com/Roal_Yr
+[@pGLOWrpg]: https://twitter.com/pglowrpg
+[pGLOWrpg repo]: https://github.com/roalyr/pglowrpg
 ## Learning Material Updates
 
 ## Library & Tooling Updates
