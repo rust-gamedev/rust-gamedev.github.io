@@ -66,6 +66,23 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
+### [This Month in Mun][mun-september]
+
+[![Mun logo](mun-logo.png)][Mun]
+
+[Mun] is a scripting language for gamedev focused on quick iteration times
+that is written in Rust.
+
+[September updates][mun-september] include:
+
+- on-going work for multi-file projects;
+- build pipeline improvements;
+- bug fixes in the Mun compiler and C++ bindings;
+- a lot of refactors and quality of life improvements.
+
+[Mun]: https://mun-lang.org
+[mun-september]: https://mun-lang.org/blog/2020/10/01/this-month-september/
+
 ## Popular Workgroup Issues in Github
 
 ## Requests for Contribution
