@@ -71,12 +71,12 @@ only interact with items that match your current color.
 
 Changes since the last update:
 
-* The circuit level has been reworked
-    * It's now split into three different levels
-    * The puzzles are better tutorialized, and there are more of them
-* A tiny amount of screen shake was added to the game
-* Work has begun on a couple of new levels for the ice biome
-    * In this biome, you have to learn to predict the behavior of these little crabs to solve the puzzles:
+- The circuit level has been reworked
+    - It's now split into three different levels
+    - The puzzles are better tutorialized, and there are more of them
+- A tiny amount of screen shake was added to the game
+- Work has begun on a couple of new levels for the ice biome
+    - In this biome, you have to learn to predict the behavior of these little crabs to solve the puzzles:
 
 ![Ice Biome](way-of-rhea-ice-biome.png)
 ![Snowcrab](way-of-rhea-snowcrab.png)
