@@ -83,7 +83,7 @@ in real time.
 
 In practice, this means that the expensive light transport calculations are performed
 in a precomputation step, which relies on - among others - [embree-rs](https://github.com/Twinklebear/embree-rs),
-and [nalgebra](https://github.com/dimforge/nalgebra), and produces a compressed
+and [nalgebra](https://github.com/dimforge/nalgebra) to produce a compressed
 representation of the scene that is then used for lighting reconstruction at runtime.
 
 Check out [the reddit post](https://www.reddit.com/r/rust_gamedev/comments/ixocl2/real_time_diffuse_global_illumination_for_static/)
