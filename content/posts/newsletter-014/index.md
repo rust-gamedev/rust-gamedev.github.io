@@ -64,6 +64,26 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Learning Material Updates
 
+### Rust, gamedev, ECS, and bevy
+
+![Bevy hello world code snippet and two game screenshots, one displaying two
+blue spheres in a grey canvas and another one displaying a gameboy colored tile
+game](ecs-bevy-tutorial.png)
+
+[@hugopeixoto](https://twitter.com/hugopeixoto) released a couple of blog posts
+on ECS and Bevy, including a tutorial on how to get started.
+
+The [first part](https://hugopeixoto.net/articles/rust-gamedev-ecs-bevy.html)
+gives us an in depth overview of what ECS. It starts with pseudocode for an
+object oriented approach and goes through several iterations until we get to
+the ECS paradigm.
+
+The [second
+part](https://hugopeixoto.net/articles/rust-gamedev-ecs-bevy-p2.html) is a
+tutorial on how to use [bevy](https://bevyengine.org/), a data driven game
+engine built in Rust. It goes over the basic features of the engine, using the
+example presented in the first part.
+
 ## Library & Tooling Updates
 
 ## Popular Workgroup Issues in Github
