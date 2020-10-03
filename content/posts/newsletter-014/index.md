@@ -62,6 +62,19 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### Citybound
+
+![Live editing of procedural architecture rules](citybound.png)
+
+[Citybound] is a city simulation and city building game. This month,
+[Anselm Eickhoff] published [a small demo] of his domain specific language
+for procedural architecture, which is interpreted by Rust and now supports
+hot-code reload of building rules in the running game.
+
+[Citybound]: https://aeplay.org/citybound
+[Anselm Eickhoff]: https://twitter.com/ae_play
+[a small demo]: https://www.reddit.com/r/Citybound/comments/j2xg2s/sneak_peek_custom_procedural_architecture/
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
