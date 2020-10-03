@@ -61,6 +61,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
 ## Game Updates
+
 ### pGLOWrpg
 
 ![pGLOWrpg banner](https://github.com/roalyr/pglowrpg/blob/master/doc/images/pglowrpg_banner.png)
@@ -93,6 +94,7 @@ For main feature reports and dev blogs follow [@pGLOWrpg] on Twitter.
 [@Roal_Yr]: https://twitter.com/Roal_Yr
 [@pGLOWrpg]: https://twitter.com/pglowrpg
 [pGLOWrpg repo]: https://github.com/roalyr/pglowrpg
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
