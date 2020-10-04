@@ -62,6 +62,19 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### Oh no, Lava!
+
+![shooting water into lava](ohnolava_troligtvis.gif)
+
+"Oh no, Lava!" by [@captainfleppo] is the working title
+of a platforming game which take inspiration
+from an old iOS game created back in 2014. The game is running with [Bevy][bevy]
+as its core. The gameplay isn't there yet, but you as a player need to jump on
+furnitures, collect coins and fight lava/fire based enemies with your water gun.
+
+[@captainfleppo]: https://twitter.com/captainfleppo
+[bevy]: https://bevyengine.org
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
