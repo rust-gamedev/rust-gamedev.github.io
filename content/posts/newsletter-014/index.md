@@ -62,6 +62,19 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### Oh no, Lava!
+
+![shooting water into lava](ohnolava_troligtvis.gif)
+
+"Oh no, Lava!" by [@captainfleppo] is the working title
+of a platforming game which take inspiration
+from an old iOS game created back in 2014. The game is running with [Bevy][bevy]
+as its core. The gameplay isn't there yet, but you as a player need to jump on
+furnitures, collect coins and fight lava/fire based enemies with your water gun.
+
+[@captainfleppo]: https://twitter.com/captainfleppo
+[bevy]: https://bevyengine.org
+
 ### [BUGOUT]
 
 ![Play Go against AI and friends on the web](BUGOUT.jpg)
@@ -90,6 +103,30 @@ prior to Jan 1, 2021.
 ## Learning Material Updates
 
 ## Library & Tooling Updates
+
+### [gfx-rs] and [gfx-portability]
+
+![gfx-rs logo](gfx-logo.png)
+
+[gfx-portability] is a Vulkan portability implementation based on [gfx-rs].
+It's basically a drop-in implementation of Vulkan on top of Metal and D3D12,
+useful on platforms that don't have native Vulkan support, or buggy drivers.
+
+It released version [0.8.1](https://github.com/gfx-rs/portability/releases/tag/0.8.1)
+with official support for the new [KHR portability extension][khr-portability],
+as well as a few other extensions, plus a number of correctness fixes.
+
+gfx-rs team asks Rust users of Vulkano, Ash, and other Vulkan-only wrappers to try
+out the gfx-portability as a solution on macOS and relevant Windows 10 platforms.
+
+In [gfx-rs] itself, the DX12 backend, and the descriptor indexing feature support
+got improved. There has been a push to get DX11 backend in a solid shape,
+and it can now run [vange-rs] pretty well 🎉.
+
+[gfx-rs]: https://github.com/gfx-rs/gfx
+[gfx-portability]: https://github.com/gfx-rs/portability
+[khr-portability]: https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_KHR_portability_subset.html
+[vange-rs]: https://github.com/kvark/vange-rs
 
 ## Popular Workgroup Issues in Github
 
