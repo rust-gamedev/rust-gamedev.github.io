@@ -68,12 +68,12 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [audir]
 
-`audir` is a low level audio library supporting Windows (WASAPI), Linux (Pulse)
+[audir] is a low level audio library supporting Windows (WASAPI), Linux (Pulse)
 and Android (OpenSLES & AAudio).
 
 It aims at provide a minimal and mostly unsafe but feature-rich API on top of
 common audio backends with focus on gaming applications. The initial release
-version `0.1.0` provides basic recording and playback support for all available
+version 0.1.0 provides basic recording and playback support for all available
 backends, including a small music player example!
 
 Currently looking into coupling with [dasp] for dsp audio graphs to provide
