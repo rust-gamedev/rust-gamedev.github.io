@@ -72,14 +72,14 @@ with OpenStreetMap coverage can be used!
 
 Some of this month's updates:
 
-- finished support for driving on the left side of the road
-- isometric buildings and support for textures by [Michael][mkirk]
+- finished support for driving on the left side of the road;
+- isometric buildings and support for textures by [Michael][mkirk];
 - a flurry of major UI updates, thanks to the return of the project's UX
-  designer
-- an option to disable parking simulation, to workaround missing data
-- alleyways imported from OSM
+  designer;
+- an option to disable parking simulation, to workaround missing data.
+- alleyways imported from OSM;
 - more realistic traffic signal timing constraints, thanks to
-  [Sam][NoSuchThingAsRandom], a new contributor
+  [Sam][NoSuchThingAsRandom], a new contributor.
 
 [abstreet]: https://abstreet.org
 [mkirk]: https://github.com/michaelkirk
