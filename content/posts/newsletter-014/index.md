@@ -66,11 +66,11 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
-### FemtoVG
+### [FemtoVG]
 
 ![femtovg](femtovg.png)
 
-[FemtoVG] is a 2D canvas API in Rust, based on [nanovg](https://github.com/memononen/nanovg).
+[FemtoVG] is a 2D canvas API in Rust, based on [nanovg].
 
 Currently, FemtoVG uses OpenGL as a rendering backend. A Metal backend is 95%
 done, and a wgpu backend is on the roadmap. The project is definitely looking
@@ -79,9 +79,14 @@ for contributors.
 Unlike NanoVG, FemtoVG has full text-shaping support thanks to harfbuzz.
 
 FemtoVG, just like the original NanoVG, is based on the _stencil-then-cover_
-approach presented in [GPU-accelerated Path Rendering](https://github.com/femtovg/femtovg/blob/master/assets/gpupathrender.pdf).
+approach presented in [GPU-accelerated Path Rendering][gpupathrender.pdf].
 
-Join the [Discord channel](https://discord.gg/V69VdVu) or follow [FemtoVG on twitter](https://twitter.com/femtovg).
+Join the [Discord channel](https://discord.gg/V69VdVu)
+or follow [FemtoVG on twitter](https://twitter.com/femtovg).
+
+[FemtoVG]: https://github.com/femtovg/femtovg
+[nanovg]: https://github.com/memononen/nanovg
+[gpupathrender.pdf]: https://github.com/femtovg/femtovg/blob/master/assets/gpupathrender.pdf
 
 ## Popular Workgroup Issues in Github
 
