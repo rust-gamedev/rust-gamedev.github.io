@@ -68,6 +68,8 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [gfx-rs] and [gfx-portability]
 
+![gfx-rs logo](gfx-logo.png)
+
 [gfx-portability] is a Vulkan portability implementation based on [gfx-rs].
 It's basically a drop-in implementation of Vulkan on top of Metal and D3D12,
 useful on platforms that don't have native Vulkan support, or buggy drivers.
