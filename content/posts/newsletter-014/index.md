@@ -150,6 +150,29 @@ combine it with cargo build scripts and create a compile-time preprocessing tool
 [tera]: https://tera.netlify.app
 [OpenGL Preprocessor for Rust]: https://codecrash.me/an-opengl-preprocessor-for-rust
 
+### Rust, Gamedev, ECS, and Bevy
+
+![Bevy hello world code snippet and two game screenshots, one displaying two
+blue spheres in a grey canvas and another one displaying a gameboy colored tile
+game](ecs-bevy-tutorial.png)
+
+[@hugopeixoto] released a couple of blog posts on ECS and Bevy,
+including a tutorial on how to get started.
+
+- The [first part][hugopeixoto-p1] gives us an in depth overview of what ECS.
+  It starts with pseudocode for an object oriented approach
+  and goes through several iterations until we get to the ECS paradigm.
+
+- The [second part][hugopeixoto-p2] is a tutorial on how to use [bevy],
+  a data driven game engine built in Rust.
+  It goes over the basic features of the engine,
+  using the example presented in the first part.
+
+[@hugopeixoto]: https://twitter.com/hugopeixoto
+[hugopeixoto-p1]: https://hugopeixoto.net/articles/rust-gamedev-ecs-bevy.html
+[hugopeixoto-p2]: https://hugopeixoto.net/articles/rust-gamedev-ecs-bevy-p2.html
+[bevy]: https://bevyengine.org
+
 ## Library & Tooling Updates
 
 ### [Thunderdome]
