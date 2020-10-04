@@ -164,7 +164,6 @@ Tetris Bane is open source under the MIT license.
 macOS and Linux.
 [Source code](https://github.com/andii1701/tetris-bane)
 
-
 ## Learning Material Updates
 
 ### [OpenGL Preprocessor for Rust]
