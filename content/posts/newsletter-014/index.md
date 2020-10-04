@@ -102,7 +102,7 @@ _Discussions:
 
 ### [Thunderdome]
 
-[Thunderdome] is a ~gladitorial~ generational arena library inspired by
+[Thunderdome] is a ~~gladitorial~~ generational arena library inspired by
 [generational-arena], [slotmap], and [slab]. It provides constant time
 insertion, lookup, and removal via small (8 byte) keys that stay 8 bytes when
 wrapped in `Option<T>`.
