@@ -152,7 +152,7 @@ prior to Jan 1, 2021.
 
 ![Screenshot of an in-progress game of Project YAWC](project_yawc.png)
 
-Project YAWC is an in-progress Advance-Wars style tactics game being developed
+Project YAWC is an in-progress Advance-Wars style strategy game being developed
 by junkmail using [ggez] as a framework. The game is currently in a closed alpha
 state with working netplay. September saw the release of version A2, including
 revamped netcode and the full core set of units.
