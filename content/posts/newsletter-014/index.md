@@ -28,9 +28,8 @@ Feel free to send PRs about your own projects!
 Table of contents:
 
 - [Game Updates](#game-updates)
-  - [Tetris Bane](#tetris-bane)
 - [Learning Material Updates](#learning-material-updates)
-- [Library & Tooling Updates](#library--tooling-updates)
+- [Library & Tooling Updates](#library-tooling-updates)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Requests for Contribution](#requests-for-contribution)
 - [Jobs](#jobs)
@@ -151,13 +150,18 @@ prior to Jan 1, 2021.
 
 ### Tetris Bane
 
-![Tetris Bane](bane_mode.png)
+![Tetris Bane](tetris-bane.png)
 
-A Tetris clone that mixes things up with multiple game modes. There's a hard bane mode, classic mode for the purists, ultra hard metal mode and a chill mode. Tetris Bane challenges you to get more then 2 lines in metal mode. Tetris Bane uses [rust-sdl2](https://github.com/Rust-SDL2/rust-sdl2).
+A Tetris clone that mixes things up with multiple game modes. There's
+a hard bane mode, classic mode for the purists, ultra hard metal mode
+and a chill mode. Tetris Bane challenges you to get more then 2 lines
+in metal mode. Tetris Bane uses
+[rust-sdl2](https://github.com/Rust-SDL2/rust-sdl2).
 
 Tetris Bane is open source under the MIT license.
 
-[Download](https://andrew-jones.itch.io/tetris-bane) game for win32, macOS and Linux.
+[Download](https://andrew-jones.itch.io/tetris-bane) game for win32,
+macOS and Linux.
 [Source code](https://github.com/andii1701/tetris-bane)
 
 
