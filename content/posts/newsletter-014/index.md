@@ -75,6 +75,31 @@ furnitures, collect coins and fight lava/fire based enemies with your water gun.
 [@captainfleppo]: https://twitter.com/captainfleppo
 [bevy]: https://bevyengine.org
 
+### [BUGOUT]
+
+![Play Go against AI and friends on the web](BUGOUT.jpg)
+_Playing KataGo AI in 9x9_
+
+[BUGOUT] is a web application which allows you to play Go/Baduk/Weiqi
+against a leading AI ([KataGo]).
+It provides a multiplayer mode so that you can play other humans,
+either by joining a public queue or sharing a private URL to your friend.
+
+The user interface is lifted from [Sabaki].
+
+The initial installation's AI is powered by an energy-efficient
+[dev board][nv-devboard].
+
+BUGOUT is marching actively toward production, at which point the
+team will publish the website address and invite users.
+The author anticipates being finished with the production release
+prior to Jan 1, 2021.
+
+[BUGOUT]: https://github.com/Terkwood/BUGOUT
+[KataGo]: https://github.com/lightvector/KataGo
+[Sabaki]: https://github.com/SabakiHQ/Sabaki
+[nv-devboard]: https://developer.nvidia.com/embedded/jetson-nano-developer-kit
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
