@@ -245,6 +245,28 @@ _Discussions:
 [Rust 1.46.0]: https://blog.rust-lang.org/2020/08/27/Rust-1.46.0.html
 [mint]: https://github.com/kvark/mint
 
+### [FemtoVG]
+
+![femtovg](femtovg.png)
+
+[FemtoVG] is a 2D canvas API in Rust, based on [nanovg].
+
+Currently, FemtoVG uses OpenGL as a rendering backend. A Metal backend is 95%
+done, and a wgpu backend is on the roadmap. The project is definitely looking
+for contributors.
+
+Unlike NanoVG, FemtoVG has full text-shaping support thanks to harfbuzz.
+
+FemtoVG, just like the original NanoVG, is based on the _stencil-then-cover_
+approach presented in [GPU-accelerated Path Rendering][gpupathrender.pdf].
+
+Join the [Discord channel](https://discord.gg/V69VdVu)
+or follow [FemtoVG on twitter](https://twitter.com/femtovg).
+
+[FemtoVG]: https://github.com/femtovg/femtovg
+[nanovg]: https://github.com/memononen/nanovg
+[gpupathrender.pdf]: https://github.com/femtovg/femtovg/blob/master/assets/gpupathrender.pdf
+
 ### [gfx-rs] and [gfx-portability]
 
 ![gfx-rs logo](gfx-logo.png)
