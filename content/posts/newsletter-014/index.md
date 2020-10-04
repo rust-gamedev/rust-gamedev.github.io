@@ -62,43 +62,72 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Mimas]
+
+![Mimas screenshot](mimas.png)
+
+[Mimas] is a WIP voxel engine and game, inspired by Minetest and Minecraft.
+It's been in development since almost 2 years, and has recently seen a public
+prototype release 0.4.0.
+
+Several of the features that have already been implemented as of Oct 1st:
+
+- Procedural map generation with hilly landscape, trees, flowers, water and caves
+- Map manipulation (removal/addition of blocks)
+- Crafting
+- Chests
+- Textures (taken from the Minetest project, under CC-BY-SA license)
+- Tools
+- QUIC based network protocol with SRP based authentication
+- Multiplayer: chat, (hardcoded) avatars
+- Ability to add custom content (e.g. blocks) using a toml format
+
+Imgur screenshot [gallery].
+
+[Mimas]: https://github.com/est31/mimas
+[gallery]: https://imgur.com/a/vvo7len
+
+### Oh no, Lava!
+
+![shooting water into lava](ohnolava_troligtvis.gif)
+
+"Oh no, Lava!" by [@captainfleppo] is the working title
+of a platforming game which take inspiration
+from an old iOS game created back in 2014. The game is running with [Bevy][bevy]
+as its core. The gameplay isn't there yet, but you as a player need to jump on
+furnitures, collect coins and fight lava/fire based enemies with your water gun.
+
+[@captainfleppo]: https://twitter.com/captainfleppo
+[bevy]: https://bevyengine.org
+
+### [BUGOUT]
+
+![Play Go against AI and friends on the web](BUGOUT.jpg)
+_Playing KataGo AI in 9x9_
+
+[BUGOUT] is a web application which allows you to play Go/Baduk/Weiqi
+against a leading AI ([KataGo]).
+It provides a multiplayer mode so that you can play other humans,
+either by joining a public queue or sharing a private URL to your friend.
+
+The user interface is lifted from [Sabaki].
+
+The initial installation's AI is powered by an energy-efficient
+[dev board][nv-devboard].
+
+BUGOUT is marching actively toward production, at which point the
+team will publish the website address and invite users.
+The author anticipates being finished with the production release
+prior to Jan 1, 2021.
+
+[BUGOUT]: https://github.com/Terkwood/BUGOUT
+[KataGo]: https://github.com/lightvector/KataGo
+[Sabaki]: https://github.com/SabakiHQ/Sabaki
+[nv-devboard]: https://developer.nvidia.com/embedded/jetson-nano-developer-kit
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
-
-### [Crevice]
-
-[Crevice] is a library that helps define GLSL-compatible (std140) structs for
-use in uniform and storage buffers. It uses new `const fn` capabilities
-stabilized in [Rust 1.46.0] to align types with explicitly zeroed padding.
-
-Crevice depends heavily on [mint] to support almost any Rust math library. It
-also contains helpers for safely sizing and writing buffers, making dynamic
-buffer layout a breeze.
-
-```rust
-#[derive(AsStd140)]
-struct MainUniform {
-    orientation: mint::ColumnMatrix3<f32>,
-    position: mint::Vector3<f32>,
-    scale: f32,
-}
-
-let value = MainUniform {
-    orientation: cgmath::Matrix3::identity().into(),
-    position: [1.0, 2.0, 3.0].into(),
-    scale: 4.0,
-};
-
-upload_data_to_gpu(value.as_std140().as_bytes());
-```
-
-_Discussions:
-[twitter](https://twitter.com/LPGhatguy/status/1308499131212599296)_
-
-[Crevice]: https://github.com/LPGhatguy/crevice
-[Rust 1.46.0]: https://blog.rust-lang.org/2020/08/27/Rust-1.46.0.html
-[mint]: https://github.com/kvark/mint
 
 ### [Thunderdome]
 
@@ -142,6 +171,64 @@ _Discussions:
 [slotmap]: https://crates.io/crates/slotmap
 [slab]: https://crates.io/crates/slab
 [ABA Problem]: https://en.wikipedia.org/wiki/ABA_problem
+
+### [Crevice]
+
+[Crevice] is a library that helps define GLSL-compatible (std140) structs for
+use in uniform and storage buffers. It uses new `const fn` capabilities
+stabilized in [Rust 1.46.0] to align types with explicitly zeroed padding.
+
+Crevice depends heavily on [mint] to support almost any Rust math library. It
+also contains helpers for safely sizing and writing buffers, making dynamic
+buffer layout a breeze.
+
+```rust
+#[derive(AsStd140)]
+struct MainUniform {
+    orientation: mint::ColumnMatrix3<f32>,
+    position: mint::Vector3<f32>,
+    scale: f32,
+}
+
+let value = MainUniform {
+    orientation: cgmath::Matrix3::identity().into(),
+    position: [1.0, 2.0, 3.0].into(),
+    scale: 4.0,
+};
+
+upload_data_to_gpu(value.as_std140().as_bytes());
+```
+
+_Discussions:
+[twitter](https://twitter.com/LPGhatguy/status/1308499131212599296)_
+
+[Crevice]: https://github.com/LPGhatguy/crevice
+[Rust 1.46.0]: https://blog.rust-lang.org/2020/08/27/Rust-1.46.0.html
+[mint]: https://github.com/kvark/mint
+
+### [gfx-rs] and [gfx-portability]
+
+![gfx-rs logo](gfx-logo.png)
+
+[gfx-portability] is a Vulkan portability implementation based on [gfx-rs].
+It's basically a drop-in implementation of Vulkan on top of Metal and D3D12,
+useful on platforms that don't have native Vulkan support, or buggy drivers.
+
+It released version [0.8.1](https://github.com/gfx-rs/portability/releases/tag/0.8.1)
+with official support for the new [KHR portability extension][khr-portability],
+as well as a few other extensions, plus a number of correctness fixes.
+
+gfx-rs team asks Rust users of Vulkano, Ash, and other Vulkan-only wrappers to try
+out the gfx-portability as a solution on macOS and relevant Windows 10 platforms.
+
+In [gfx-rs] itself, the DX12 backend, and the descriptor indexing feature support
+got improved. There has been a push to get DX11 backend in a solid shape,
+and it can now run [vange-rs] pretty well 🎉.
+
+[gfx-rs]: https://github.com/gfx-rs/gfx
+[gfx-portability]: https://github.com/gfx-rs/portability
+[khr-portability]: https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_KHR_portability_subset.html
+[vange-rs]: https://github.com/kvark/vange-rs
 
 ## Popular Workgroup Issues in Github
 
