@@ -64,7 +64,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Learning Material Updates
 
-### [An OpenGL preprocessor for Rust]
+### [OpenGL Preprocessor for Rust]
 
 With the full power of Cargo build scripts and [Tera], you can create an advanced
 GLSL preprocessor which can generate code conditionally, in loops, and even
@@ -85,7 +85,7 @@ web-pages preprocessing, we can borrow such technology for our needs,
 combine it with cargo build scripts and create a compile-time preprocessing tool.
 
 [tera]: https://tera.netlify.app
-[An OpenGL preprocessor for Rust]: https://codecrash.me/an-opengl-preprocessor-for-rust
+[OpenGL Preprocessor for Rust]: https://codecrash.me/an-opengl-preprocessor-for-rust
 
 ## Library & Tooling Updates
 
