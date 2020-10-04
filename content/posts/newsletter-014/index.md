@@ -51,7 +51,7 @@ _Discussions:
 [twitter](https://twitter.com/todo/status/123456)_
 
 [Title]: https://first.link
-[useful links]: https://other.link
+[useful links]: https://other.link`
 ```
 
 Discussion links are added only if they contain
@@ -64,25 +64,28 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Learning Material Updates
 
-### Rust, gamedev, ECS, and bevy
+### Rust, Gamedev, ECS, and Bevy
 
 ![Bevy hello world code snippet and two game screenshots, one displaying two
 blue spheres in a grey canvas and another one displaying a gameboy colored tile
 game](ecs-bevy-tutorial.png)
 
-[@hugopeixoto](https://twitter.com/hugopeixoto) released a couple of blog posts
-on ECS and Bevy, including a tutorial on how to get started.
+[@hugopeixoto] released a couple of blog posts on ECS and Bevy,
+including a tutorial on how to get started.
 
-The [first part](https://hugopeixoto.net/articles/rust-gamedev-ecs-bevy.html)
-gives us an in depth overview of what ECS. It starts with pseudocode for an
-object oriented approach and goes through several iterations until we get to
-the ECS paradigm.
+- The [first part][hugopeixoto-p1] gives us an in depth overview of what ECS.
+  It starts with pseudocode for an object oriented approach
+  and goes through several iterations until we get to the ECS paradigm.
 
-The [second
-part](https://hugopeixoto.net/articles/rust-gamedev-ecs-bevy-p2.html) is a
-tutorial on how to use [bevy](https://bevyengine.org/), a data driven game
-engine built in Rust. It goes over the basic features of the engine, using the
-example presented in the first part.
+- The [second part][hugopeixoto-p2] is a tutorial on how to use [bevy],
+  a data driven game engine built in Rust.
+  It goes over the basic features of the engine,
+  using the example presented in the first part.
+
+[@hugopeixoto]: https://twitter.com/hugopeixoto
+[hugopeixoto-p1]: https://hugopeixoto.net/articles/rust-gamedev-ecs-bevy.html
+[hugopeixoto-p2]: https://hugopeixoto.net/articles/rust-gamedev-ecs-bevy-p2.html
+[bevy]: https://bevyengine.org
 
 ## Library & Tooling Updates
 
