@@ -51,7 +51,7 @@ _Discussions:
 [twitter](https://twitter.com/todo/status/123456)_
 
 [Title]: https://first.link
-[useful links]: https://other.link`
+[useful links]: https://other.link
 ```
 
 Discussion links are added only if they contain
