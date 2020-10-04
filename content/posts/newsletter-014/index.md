@@ -81,8 +81,8 @@ as well as a few other extensions, plus a number of correctness fixes.
 gfx-rs team asks Rust users of Vulkano, Ash, and other Vulkan-only wrappers to try
 out the gfx-portability as a solution on macOS and relevant Windows 10 platforms.
 
-In [gfx-rs] itself, the DX12 backend, and the descriptor indexing feature support got
-improved. There has been a push to get DX11 backend in a solid shape,
+In [gfx-rs] itself, the DX12 backend, and the descriptor indexing feature support
+got improved. There has been a push to get DX11 backend in a solid shape,
 and it can now run [vange-rs] pretty well 🎉.
 
 [gfx-rs]: https://github.com/gfx-rs/gfx
