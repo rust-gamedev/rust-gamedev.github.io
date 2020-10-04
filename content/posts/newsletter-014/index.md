@@ -177,15 +177,18 @@ including a tutorial on how to get started.
 
 ### [rg3d][rg3d]
 
+[![rg3d](rg3d.jpg)][rg3d_twitter]
+
+Check video on [twitter][rg3d_twitter].
+
 rg3d is a game engine that aims to be easy to use and provide large set
 out-of-box features. Since May it has gained a lot of new features:
 
 - Render to texture - it is possible to render scenes into textures.
 - Added support for scenes made in rusty-editor.
 - Added sprite graph node.
-- Improved documentation.
+- Improved performance and documentation.
 - Added simple lightmapper (still WIP).
-- Performance improvements.
 - Added new UI widgets and features:
   - Message box - classic message box with different combinations of buttons.
   - Wrap panel - arranges its children by rows or columns with wrapping.
@@ -197,6 +200,7 @@ out-of-box features. Since May it has gained a lot of new features:
 - Other small fixes and improvements.
 
 [rg3d]: https://github.com/mrDIMAS/rg3d
+[rg3d_twitter]: https://twitter.com/DmitryS36934349/status/1312836831390687232
 
 ### [rusty-editor][rusty editor]
 
@@ -205,8 +209,7 @@ out-of-box features. Since May it has gained a lot of new features:
 rusty-editor is a scene editor for rg3d engine. Since May it has gained
 few new features:
 
-- Asset browser
-- Asset previewer
+- Asset browser + Asset previewer
 - Multiselection
 - Improved properties editor.
 - Other small fixes and improvements.
