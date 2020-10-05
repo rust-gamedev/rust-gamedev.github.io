@@ -64,23 +64,24 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [Way of Rhea]
 
-[![Way of Rhea](way-of-rhea-header.jpg)][Way of Rhea]
+[![Way of Rhea logo](way-of-rhea-header.jpg)][Way of Rhea]
 
 [Way of Rhea] is a puzzle platformer that takes place in a world where you can
 only interact with items that match your current color.
-
 Changes since the last update:
 
-- The circuit level has been reworked
-  - It's now split into three different levels
-  - The puzzles are better tutorialized, and there are more of them
-- A tiny amount of screen shake was added to the game
-- Work has begun on a couple of new levels for the ice biome
-  - In this biome, you have to learn to predict the behavior of these little
-    crabs to solve the puzzles:
+- The circuit level has been reworked:
+  it's now split into three different levels
+  and the puzzles are better tutorialized, and there are more of them.
+- A tiny amount of screen shake was added to the game.
+- Work has begun on a couple of new levels for the ice biome:
 
-![Ice Biome](way-of-rhea-ice-biome.png)
-![Snowcrab](way-of-rhea-snowcrab.png)
+  ![Ice Biome](way-of-rhea-ice-biome.png)
+
+  In this biome, you have to learn to predict the behavior of these little
+  crabs to solve the puzzles:
+
+  ![Snowcrab](way-of-rhea-snowcrab.png)
 
 Follow [@AnthropicSt] or [@masonremaley] on Twitter or
 [sign up for the mailing list][anthropic-newsletter] for updates.
