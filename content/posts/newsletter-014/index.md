@@ -148,21 +148,24 @@ prior to Jan 1, 2021.
 [Sabaki]: https://github.com/SabakiHQ/Sabaki
 [nv-devboard]: https://developer.nvidia.com/embedded/jetson-nano-developer-kit
 
-### Tetris Bane
+### [Tetris Bane][tetris-bane]
 
 ![Tetris Bane](tetris-bane.png)
 
-A Tetris clone that mixes things up with multiple game modes. There's
-a hard bane mode, classic mode for the purists, ultra hard metal mode
-and a chill mode. Tetris Bane challenges you to get more then 2 lines
-in metal mode. Tetris Bane uses
-[rust-sdl2](https://github.com/Rust-SDL2/rust-sdl2).
+[Tetris Bane][tetris-bane] is an open-source Tetris clone
+that mixes things up with multiple game modes.
+There's a hard bane mode, classic mode for the purists,
+ultra hard metal mode, and a chill mode.
+Tetris Bane challenges you to get more then 2 lines in metal mode.
 
-Tetris Bane is open source under the MIT license.
+You can [download][tetris-bane] the game for Windows, macOS and Linux.
 
-[Download](https://andrew-jones.itch.io/tetris-bane) game for win32,
-macOS and Linux.
-[Source code](https://github.com/andii1701/tetris-bane)
+The game is written using [rust-sdl2].
+[The source code is available here.][tetris-bane-src]
+
+[tetris-bane]: https://andrew-jones.itch.io/tetris-bane
+[tetris-bane-src]: https://github.com/andii1701/tetris-bane
+[rust-sdl2]: https://github.com/Rust-SDL2/rust-sdl2
 
 ## Learning Material Updates
 
