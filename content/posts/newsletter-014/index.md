@@ -127,16 +127,22 @@ Imgur screenshot [gallery].
 
 ![NoxFuturaScreenshot](noxfutura.png)
 
-[Nox Futura] is a long-term passion project, a Dwarf-Fortress and RimWorld inspired base building game. Voxel engine with integrated models, porting from a C++ version. It's just emerging from a back-end rewrite bringing in goodness from Legion 0.3 and WGPU 0.6. [The project's repo is public][noxfutura-src].
+[Nox Futura] is a long-term passion project, a Dwarf-Fortress and RimWorld
+inspired base building game. Voxel engine with integrated models, porting
+from a C++ version. It's just emerging from a back-end rewrite bringing in
+goodness from Legion 0.3 and WGPU 0.6.
+
+[The project's repo is public][noxfutura-src].
 
 Currently working:
 
 - Procedural generation of the planet, based on layered 3D Perlin noise.
-- Voxelized landblocks with a chunking system for dynamic changes. Full Dwarf Fortress style "layering" - so you can carve out interiors, caves and similar within a larger map region.
-- Dynamic settler generation, different hairstyles, clothes, professions, skin types, etc.
-- Large scale foliage/vegetation (decent FPS with a few thousand trees and foliage items).
-- Dynamic lighting. Time-based sun position and entities can add lights to the scene.
-- Data-driven design, pretty much everything is defined in RAW files - so its moddable out of the box.
+- Voxelized landblocks with a chunking system for dynamic changes.
+- Full Dwarf Fortress style "layering".
+- Dynamic settler generation, hair, clothes, professions, skin types, etc.
+- Large scale foliage/vegetation (a few thousand trees and foliage).
+- Dynamic lighting. Time-based sun position and entities can add lights.
+- Data-driven design, pretty much everything is defined in RAW files.
 - Early job system, including lumberjacking and workshop placement.
 
 [noxfutura-src]: https://github.com/thebracket/noxfutura
@@ -277,7 +283,10 @@ including a tutorial on how to get started.
 [bracket-lib] (previously `rltk_rs`) by [@blackfuture]
 is a Rust implementation of [C++ Roguelike Toolkit][rltk-cpp].
 
-Bracket-lib is going through a stability pass, focusing on freezing the API. It will be featured in the author's upcoming book, *Hands-on Rust: Effective Learning through 2D Game Development and Play* - which should be going into early access/beta in time for the next newsletter.
+Bracket-lib is going through a stability pass, focusing on freezing the API.
+It will be featured in the author's upcoming book:
+*Hands-on Rust: Effective Learning through 2D Game Development and Play*.
+The book should be going into early access/beta in time for the next newsletter.
 
 [bracket-lib]: https://github.com/thebracket/bracket-lib
 
