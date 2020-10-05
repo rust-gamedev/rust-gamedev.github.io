@@ -446,6 +446,45 @@ extensions for Tetra. This includes:
 [puppetmaster]: https://github.com/puppetmaster-
 [tetrapack]: https://github.com/puppetmaster-/tetrapack
 
+### [rg3d][rg3d]
+
+[![a scene with lightning and a hi-poly character model](rg3d.jpg)][rg3d_twitter]
+_Click to watch a [video demo of one of the new examples][rg3d_twitter]._
+
+[rg3d] is a game engine that aims to be easy to use and provide large set
+of out-of-box features. Some of the recent updates:
+
+- Render to texture - it is possible to render scenes into textures.
+- Added support for scenes made in [rusty-editor].
+- Added sprite graph node.
+- Added simple lightmapper (still WIP).
+- Added new UI widgets and features:
+  - Message box - classic message box with different combinations of buttons.
+  - Wrap panel - arranges its children by rows or columns with wrapping.
+  - File browser - a browser for file system.
+  - Color picker - classic HSV+RGB+Alpha color picker.
+  - "Bring into view" for scroll panel.
+  - Replaced font rasterizer by fontdue.
+  - Improved hotkeys in text box.
+- Improved performance and documentation.
+
+[rg3d]: https://github.com/mrDIMAS/rg3d
+[rg3d_twitter]: https://twitter.com/DmitryS36934349/status/1312836831390687232
+
+### [rusty-editor]
+
+![rusty editor](rusty_editor.jpg)
+
+[rusty-editor] is a scene editor for the [rg3d] engine.
+Some of the recently added features:
+
+- asset browser + asset previewer,
+- multiselection,
+- improved properties editor,
+- lots of other small improvements and fixes.
+
+[rusty-editor]: https://github.com/mrDIMAS/rusty-editor
+
 ## Popular Workgroup Issues in Github
 
 ## Requests for Contribution
