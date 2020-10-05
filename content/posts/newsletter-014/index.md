@@ -235,6 +235,22 @@ revamped netcode and the full core set of units.
 
 ## Learning Material Updates
 
+### [Is it easy to draw a line?][Lines]
+
+![hexagonal strategy map with region borders](lines_hexstrat.jpeg)
+_Example of result chains._
+
+A small note by [@VladZhukov0] about drawing lines and chains
+with signed distance fields.
+The resulted lines are nice looking on edges and have rounded corners.
+Chains for this article assumed to be opaque.
+
+Check out the [online demo](https://pum-purum-pum-pum.github.io/lines/)
+and its [source code](https://github.com/pum-purum-pum-pum/Lines).
+
+[Lines]: https://vladjuckov.github.io/hqlines/
+[@VladZhukov0]: https://twitter.com/VladZhukov0
+
 ### [OpenGL Preprocessor for Rust]
 
 With the full power of Cargo build scripts and [Tera], you can create an advanced
