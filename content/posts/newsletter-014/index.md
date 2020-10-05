@@ -233,6 +233,24 @@ revamped netcode and the full core set of units.
 
 [ggez]: https://ggez.rs/
 
+### [Akigi][akigi]
+
+[Akigi][akigi] is a WIP online multiplayer game.
+
+In September, lots of work was done on terrain sculpting systems. Another tool
+was added, allowing material painting onto the terrain. Along with the scenery
+placement tool, there are now three separate tools in the editor's arsenal.
+
+- [Terrain Edit Layers](https://devjournal.akigi.com/september-2020/083-2020-09-06.html#terrain-edit-layers)
+
+Full devlogs:
+[#083](https://devjournal.akigi.com/september-2020/083-2020-09-06.html),
+[#084](https://devjournal.akigi.com/september-2020/084-2020-09-13.html),
+[#085](https://devjournal.akigi.com/september-2020/085-2020-09-20.html),
+[#086](https://devjournal.akigi.com/september-2020/086-2020-09-27.html).
+
+[akigi]: https://akigi.com
+
 ## Learning Material Updates
 
 ### [OpenGL Preprocessor for Rust]
