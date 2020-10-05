@@ -418,6 +418,34 @@ _Discussions:
 [Riddle]: https://github.com/vickles/riddle
 [riddle-docs]: https://vickles.github.io/riddle/0.1.0/riddle
 
+### Tetra
+
+[Tetra] is a simple 2D game framework, inspired by XNA and Raylib. This month,
+version [0.5][tetra-05] was released, featuring:
+
+- Cargo feature flags, allowing you to remove unused functionality and
+  shrink your build
+- Relative mouse events and infinite mouse movement (allowing for FPS-style
+  control schemes)
+- Extra methods for getting and setting the state of a playing sound
+
+For full details and a list of breaking changes, see the [changelog][tetra-changelog].
+
+Additionally, this month [puppetmaster] released [tetrapack], a set of useful
+extensions for Tetra. This includes:
+
+- Helpful timer types
+- Looping background music
+- Custom mouse cursors
+- Input utility functions
+- Tilemaps and tile animations
+
+[tetra]: https://github.com/17cupsofcoffee/tetra
+[tetra-05]: https://twitter.com/17cupsofcoffee/status/1301210538299609088
+[tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
+[puppetmaster]: https://github.com/puppetmaster-
+[tetrapack]: https://github.com/puppetmaster-/tetrapack
+
 ## Popular Workgroup Issues in Github
 
 ## Requests for Contribution
