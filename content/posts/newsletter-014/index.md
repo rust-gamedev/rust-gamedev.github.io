@@ -85,6 +85,48 @@ Some of this month's updates:
 [mkirk]: https://github.com/michaelkirk
 [NoSuchThingAsRandom]: https://github.com/NoSuchThingAsRandom/
 
+### [Way of Rhea]
+
+[![Way of Rhea logo](way-of-rhea-header.jpg)][Way of Rhea]
+
+[Way of Rhea] is a puzzle platformer that takes place in a world where you can
+only interact with items that match your current color.
+Changes since the last update:
+
+- The circuit level has been reworked:
+  it's now split into three different levels
+  and the puzzles are better tutorialized, and there are more of them.
+- A tiny amount of screen shake was added to the game.
+- Work has begun on a couple of new levels for the ice biome:
+
+  ![Ice Biome](way-of-rhea-ice-biome.png)
+
+  In this biome, you have to learn to predict the behavior of these little
+  crabs to solve the puzzles:
+
+  ![Snowcrab](way-of-rhea-snowcrab.png)
+
+Follow [@AnthropicSt] or [@masonremaley] on Twitter or
+[sign up for the mailing list][anthropic-newsletter] for updates.
+
+[Way of Rhea]: https://store.steampowered.com/app/1110620/Way_of_Rhea/
+[@AnthropicSt]: https://twitter.com/anthropicst
+[@masonremaley]: https://twitter.com/masonremaley
+[anthropic-newsletter]: https://www.anthropicstudios.com/newsletter/signup/tech
+
+### [Citybound]
+
+![Live editing of procedural architecture rules](citybound.png)
+
+[Citybound] is a city simulation and city building game. This month,
+[Anselm Eickhoff] published [a small demo] of his domain specific language
+for procedural architecture, which is interpreted by Rust and now supports
+hot-code reload of building rules in the running game.
+
+[Citybound]: https://aeplay.org/citybound
+[Anselm Eickhoff]: https://twitter.com/ae_play
+[a small demo]: https://reddit.com/r/Citybound/comments/j2xg2s/sneak_peek_custom_procedural_architecture
+
 ### [Mimas]
 
 ![Mimas screenshot](mimas.png)
@@ -109,6 +151,38 @@ Imgur screenshot [gallery].
 
 [Mimas]: https://github.com/est31/mimas
 [gallery]: https://imgur.com/a/vvo7len
+
+### pGLOWrpg
+
+![pGLOWrpg banner](pglowrpg_banner.png)
+
+The [@pGLOWrpg] (Procedurally Generated Living Open World RPG) is a long-term
+project in development by [@Roal_Yr], which aims to be a text-based game with
+maximum portability and accessibility and focus on interactions and emergent
+narrative.
+
+The pGLOWrpg meets its first official anniversary on September the 15th
+and goes public at [pGLOWrpg repo]!
+
+For the past month the main focus of the development was on:
+
+- Improving the UI.
+- Major refactoring.
+- Unification of I/O means.
+- Making things ready for publication.
+
+Main features of reported version are:
+
+- Ability to generate one or many worlds from customizable presets.
+- Ability to have output in both raw (b/w .png) and colorized images.
+- Generated data is as follows: terrain, watermask, biomes, rivers, geological regions,
+  rainfall and temperature.
+
+For main feature reports and dev blogs follow [@pGLOWrpg] on Twitter.
+
+[@Roal_Yr]: https://twitter.com/Roal_Yr
+[@pGLOWrpg]: https://twitter.com/pglowrpg
+[pGLOWrpg repo]: https://github.com/roalyr/pglowrpg
 
 ### Oh no, Lava!
 
@@ -167,7 +241,58 @@ The game is written using [rust-sdl2].
 [tetris-bane-src]: https://github.com/andii1701/tetris-bane
 [rust-sdl2]: https://github.com/Rust-SDL2/rust-sdl2
 
+### Project YAWC
+
+![Screenshot of an in-progress game of Project YAWC](project_yawc.png)
+
+Project YAWC is an in-progress Advance-Wars style strategy game being developed
+by junkmail using [ggez] as a framework. The game is currently in a closed alpha
+state with working netplay. September saw the release of version A2, including
+revamped netcode and the full core set of units.
+
+[ggez]: https://ggez.rs/
+
+### [space_shooter_rs]
+
+![space_shooter_rs_gameplay](space_shooter_rs.gif)
+
+[space_shooter_rs] is a 2D shooter game made with the [Amethyst] game engine.
+It is inspired by games like Raiden and the Binding of Isaac.
+
+In September, [Micah Tigley] joined the project and has been collaborating with
+[Carlo Supina] to refactor a significant chunk of the codebase. Lots of work has
+been on collision detection, combat, and movement. This will allow for easier
+future development.
+
+Both developers wrote about the work and their experiences developing space_shooter_rs:
+
+- [How to Revive a Dead Project][carlo-blog-post]
+- [Collaborating on Amethyst showcase project: space_shooter_rs][micah-blog-post]
+
+[space_shooter_rs]: https://github.com/amethyst/space_shooter_rs
+[Amethyst]: https://amethyst.rs
+[Carlo Supina]: https://twitter.com/carlosupina
+[Micah Tigley]: https://twitter.com/micah_tigley
+[carlo-blog-post]: https://micronote.tech/2020/10/How-to-Revive-a-Dead-Project
+[micah-blog-post]: https://mtigley.dev/posts/contributing_to_spaceshooter_rs
+
 ## Learning Material Updates
+
+### [Is it easy to draw a line?][Lines]
+
+![hexagonal strategy map with region borders](lines_hexstrat.jpeg)
+_Example of result chains._
+
+A small note by [@VladZhukov0] about drawing lines and chains
+with signed distance fields.
+The resulted lines are nice looking on edges and have rounded corners.
+Chains for this article assumed to be opaque.
+
+Check out the [online demo](https://pum-purum-pum-pum.github.io/lines/)
+and its [source code](https://github.com/pum-purum-pum-pum/Lines).
+
+[Lines]: https://vladjuckov.github.io/hqlines/
+[@VladZhukov0]: https://twitter.com/VladZhukov0
 
 ### [OpenGL Preprocessor for Rust]
 
@@ -259,6 +384,23 @@ _Discussions:
 [slotmap]: https://crates.io/crates/slotmap
 [slab]: https://crates.io/crates/slab
 [ABA Problem]: https://en.wikipedia.org/wiki/ABA_problem
+
+### [This Month in Mun][mun-september]
+
+[![Mun logo](mun-logo.png)][Mun]
+
+[Mun] is a scripting language for gamedev focused on quick iteration times
+that is written in Rust.
+
+[September updates][mun-september] include:
+
+- on-going work for multi-file projects;
+- build pipeline improvements;
+- bug fixes in the Mun compiler and C++ bindings;
+- a lot of refactors and quality of life improvements.
+
+[Mun]: https://mun-lang.org
+[mun-september]: https://mun-lang.org/blog/2020/10/01/this-month-september/
 
 ### [audir]
 
@@ -376,6 +518,73 @@ _Discussions:
 
 [Riddle]: https://github.com/vickles/riddle
 [riddle-docs]: https://vickles.github.io/riddle/0.1.0/riddle
+
+### Tetra
+
+[Tetra] is a simple 2D game framework, inspired by XNA and Raylib. This month,
+version [0.5][tetra-05] was released, featuring:
+
+- Cargo feature flags, allowing you to remove unused functionality and
+  shrink your build
+- Relative mouse events and infinite mouse movement (allowing for FPS-style
+  control schemes)
+- Extra methods for getting and setting the state of a playing sound
+
+For full details and a list of breaking changes, see the [changelog][tetra-changelog].
+
+Additionally, this month [puppetmaster] released [tetrapack], a set of useful
+extensions for Tetra. This includes:
+
+- Helpful timer types
+- Looping background music
+- Custom mouse cursors
+- Input utility functions
+- Tilemaps and tile animations
+
+[tetra]: https://github.com/17cupsofcoffee/tetra
+[tetra-05]: https://twitter.com/17cupsofcoffee/status/1301210538299609088
+[tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
+[puppetmaster]: https://github.com/puppetmaster-
+[tetrapack]: https://github.com/puppetmaster-/tetrapack
+
+### [rg3d][rg3d]
+
+[![a scene with lightning and a hi-poly character model](rg3d.jpg)][rg3d_twitter]
+_Click to watch a [video demo of one of the new examples][rg3d_twitter]._
+
+[rg3d] is a game engine that aims to be easy to use and provide large set
+of out-of-box features. Some of the recent updates:
+
+- Render to texture - it is possible to render scenes into textures.
+- Added support for scenes made in [rusty-editor].
+- Added sprite graph node.
+- Added simple lightmapper (still WIP).
+- Added new UI widgets and features:
+  - Message box - classic message box with different combinations of buttons.
+  - Wrap panel - arranges its children by rows or columns with wrapping.
+  - File browser - a browser for file system.
+  - Color picker - classic HSV+RGB+Alpha color picker.
+  - "Bring into view" for scroll panel.
+  - Replaced font rasterizer by fontdue.
+  - Improved hotkeys in text box.
+- Improved performance and documentation.
+
+[rg3d]: https://github.com/mrDIMAS/rg3d
+[rg3d_twitter]: https://twitter.com/DmitryS36934349/status/1312836831390687232
+
+### [rusty-editor]
+
+![rusty editor](rusty_editor.jpg)
+
+[rusty-editor] is a scene editor for the [rg3d] engine.
+Some of the recently added features:
+
+- asset browser + asset previewer,
+- multiselection,
+- improved properties editor,
+- lots of other small improvements and fixes.
+
+[rusty-editor]: https://github.com/mrDIMAS/rusty-editor
 
 ## Popular Workgroup Issues in Github
 
