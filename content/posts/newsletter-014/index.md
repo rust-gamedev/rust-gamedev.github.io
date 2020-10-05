@@ -204,6 +204,28 @@ revamped netcode and the full core set of units.
 
 [ggez]: https://ggez.rs/
 
+### Recall Singularity
+
+![Demo of the basic ship collision](recall_singularity.png) _A ray-traced
+selection of modules_
+
+The Recall Singularity is a game about designing autonomous factory ships and
+stations created by [Tom Leys][Tom Leys]. This month a new devlog was posted:
+["Recall Singularity in Sep 2020"][recall-s-sept-text].
+
+You can also check out a [status update and progress video
+here][recall-s-sept-video].
+
+Summary:
+
+- Improving the robustness of the game core and networking
+- Preliminary factory features
+- Optimizing network encoding
+
+[Tom Leys]: https://twitter.com/RecallSingular1 [recall-s-sept-text]:
+https://medium.com/@recallsingularity/recall-singularity-in-sep-2020-e2f33a85fd7c
+[recall-s-sept-video]: https://www.youtube.com/watch?v=kUIiU9LtOFY
+
 ## Learning Material Updates
 
 ### [OpenGL Preprocessor for Rust]
