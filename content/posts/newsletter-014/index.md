@@ -64,7 +64,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [Is it easy to draw a line?][Lines]
 
-![image/GIF description](lines_hexstrat.jpeg)
+![hexagonal strategy map with region borders](lines_hexstrat.jpeg)
 _Example of result chains._
 
 A small note by [@VladZhukov0] about drawing lines and chains
