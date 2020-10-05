@@ -273,6 +273,23 @@ _Discussions:
 [slab]: https://crates.io/crates/slab
 [ABA Problem]: https://en.wikipedia.org/wiki/ABA_problem
 
+### [This Month in Mun][mun-september]
+
+[![Mun logo](mun-logo.png)][Mun]
+
+[Mun] is a scripting language for gamedev focused on quick iteration times
+that is written in Rust.
+
+[September updates][mun-september] include:
+
+- on-going work for multi-file projects;
+- build pipeline improvements;
+- bug fixes in the Mun compiler and C++ bindings;
+- a lot of refactors and quality of life improvements.
+
+[Mun]: https://mun-lang.org
+[mun-september]: https://mun-lang.org/blog/2020/10/01/this-month-september/
+
 ### [audir]
 
 [audir] is a low level audio library supporting Windows (WASAPI), Linux (Pulse)
