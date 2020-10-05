@@ -85,6 +85,35 @@ Some of this month's updates:
 [mkirk]: https://github.com/michaelkirk
 [NoSuchThingAsRandom]: https://github.com/NoSuchThingAsRandom/
 
+### [Way of Rhea]
+
+[![Way of Rhea logo](way-of-rhea-header.jpg)][Way of Rhea]
+
+[Way of Rhea] is a puzzle platformer that takes place in a world where you can
+only interact with items that match your current color.
+Changes since the last update:
+
+- The circuit level has been reworked:
+  it's now split into three different levels
+  and the puzzles are better tutorialized, and there are more of them.
+- A tiny amount of screen shake was added to the game.
+- Work has begun on a couple of new levels for the ice biome:
+
+  ![Ice Biome](way-of-rhea-ice-biome.png)
+
+  In this biome, you have to learn to predict the behavior of these little
+  crabs to solve the puzzles:
+
+  ![Snowcrab](way-of-rhea-snowcrab.png)
+
+Follow [@AnthropicSt] or [@masonremaley] on Twitter or
+[sign up for the mailing list][anthropic-newsletter] for updates.
+
+[Way of Rhea]: https://store.steampowered.com/app/1110620/Way_of_Rhea/
+[@AnthropicSt]: https://twitter.com/anthropicst
+[@masonremaley]: https://twitter.com/masonremaley
+[anthropic-newsletter]: https://www.anthropicstudios.com/newsletter/signup/tech
+
 ### [Citybound]
 
 ![Live editing of procedural architecture rules](citybound.png)
