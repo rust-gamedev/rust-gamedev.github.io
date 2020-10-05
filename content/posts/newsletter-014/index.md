@@ -71,11 +71,10 @@ project in development by [@Roal_Yr], which aims to be a text-based game with
 maximum portability and accessibility and focus on interactions and emergent
 narrative.
 
-The pGLOWrpg meets its first official anniversary on September the 15th and goes
-public at [pGLOWrpg repo]!
+The pGLOWrpg meets its first official anniversary on September the 15th
+and goes public at [pGLOWrpg repo]!
 
-For the past month the main focus of the
-development was on:
+For the past month the main focus of the development was on:
 
 - Improving the UI.
 - Major refactoring.
@@ -87,7 +86,7 @@ Main features of reported version are:
 - Ability to generate one or many worlds from customizable presets.
 - Ability to have output in both raw (b/w .png) and colorized images.
 - Generated data is as follows: terrain, watermask, biomes, rivers, geological regions,
-rainfall and temperature.
+  rainfall and temperature.
 
 For main feature reports and dev blogs follow [@pGLOWrpg] on Twitter.
 
