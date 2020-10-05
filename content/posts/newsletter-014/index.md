@@ -233,6 +233,30 @@ revamped netcode and the full core set of units.
 
 [ggez]: https://ggez.rs/
 
+### [space_shooter_rs]
+
+![space_shooter_rs_gameplay](space_shooter_rs.gif)
+
+[space_shooter_rs] is a 2D shooter game made with the [Amethyst] game engine.
+It is inspired by games like Raiden and the Binding of Isaac.
+
+In September, [Micah Tigley] joined the project and has been collaborating with
+[Carlo Supina] to refactor a significant chunk of the codebase. Lots of work has
+been on collision detection, combat, and movement. This will allow for easier
+future development.
+
+Both developers wrote about the work and their experiences developing space_shooter_rs:
+
+- [How to Revive a Dead Project][carlo-blog-post]
+- [Collaborating on Amethyst showcase project: space_shooter_rs][micah-blog-post]
+
+[space_shooter_rs]: https://github.com/amethyst/space_shooter_rs
+[Amethyst]: https://amethyst.rs
+[Carlo Supina]: https://twitter.com/carlosupina
+[Micah Tigley]: https://twitter.com/micah_tigley
+[carlo-blog-post]: https://micronote.tech/2020/10/How-to-Revive-a-Dead-Project
+[micah-blog-post]: https://mtigley.dev/posts/contributing_to_spaceshooter_rs
+
 ## Learning Material Updates
 
 ### [Is it easy to draw a line?][Lines]
