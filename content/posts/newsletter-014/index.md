@@ -62,6 +62,29 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [A/B Street][abstreet]
+
+![Isometric buildings and textured areas](abstreet.png)
+
+[A/B Street][abstreet] is a traffic simulation game exploring how small changes
+to roads affect cyclists, transit users, pedestrians, and drivers. Any city
+with OpenStreetMap coverage can be used!
+
+Some of this month's updates:
+
+- finished support for driving on the left side of the road;
+- isometric buildings and support for textures by [Michael][mkirk];
+- a flurry of major UI updates, thanks to the return of the project's UX
+  designer;
+- an option to disable parking simulation, to workaround missing data.
+- alleyways imported from OSM;
+- more realistic traffic signal timing constraints, thanks to
+  [Sam][NoSuchThingAsRandom], a new contributor.
+
+[abstreet]: https://abstreet.org
+[mkirk]: https://github.com/michaelkirk
+[NoSuchThingAsRandom]: https://github.com/NoSuchThingAsRandom/
+
 ### [Mimas]
 
 ![Mimas screenshot](mimas.png)
@@ -86,6 +109,38 @@ Imgur screenshot [gallery].
 
 [Mimas]: https://github.com/est31/mimas
 [gallery]: https://imgur.com/a/vvo7len
+
+### pGLOWrpg
+
+![pGLOWrpg banner](pglowrpg_banner.png)
+
+The [@pGLOWrpg] (Procedurally Generated Living Open World RPG) is a long-term
+project in development by [@Roal_Yr], which aims to be a text-based game with
+maximum portability and accessibility and focus on interactions and emergent
+narrative.
+
+The pGLOWrpg meets its first official anniversary on September the 15th
+and goes public at [pGLOWrpg repo]!
+
+For the past month the main focus of the development was on:
+
+- Improving the UI.
+- Major refactoring.
+- Unification of I/O means.
+- Making things ready for publication.
+
+Main features of reported version are:
+
+- Ability to generate one or many worlds from customizable presets.
+- Ability to have output in both raw (b/w .png) and colorized images.
+- Generated data is as follows: terrain, watermask, biomes, rivers, geological regions,
+  rainfall and temperature.
+
+For main feature reports and dev blogs follow [@pGLOWrpg] on Twitter.
+
+[@Roal_Yr]: https://twitter.com/Roal_Yr
+[@pGLOWrpg]: https://twitter.com/pglowrpg
+[pGLOWrpg repo]: https://github.com/roalyr/pglowrpg
 
 ### Oh no, Lava!
 
@@ -124,6 +179,17 @@ prior to Jan 1, 2021.
 [KataGo]: https://github.com/lightvector/KataGo
 [Sabaki]: https://github.com/SabakiHQ/Sabaki
 [nv-devboard]: https://developer.nvidia.com/embedded/jetson-nano-developer-kit
+
+### Project YAWC
+
+![Screenshot of an in-progress game of Project YAWC](project_yawc.png)
+
+Project YAWC is an in-progress Advance-Wars style strategy game being developed
+by junkmail using [ggez] as a framework. The game is currently in a closed alpha
+state with working netplay. September saw the release of version A2, including
+revamped netcode and the full core set of units.
+
+[ggez]: https://ggez.rs/
 
 ## Learning Material Updates
 
@@ -217,6 +283,23 @@ _Discussions:
 [slotmap]: https://crates.io/crates/slotmap
 [slab]: https://crates.io/crates/slab
 [ABA Problem]: https://en.wikipedia.org/wiki/ABA_problem
+
+### [This Month in Mun][mun-september]
+
+[![Mun logo](mun-logo.png)][Mun]
+
+[Mun] is a scripting language for gamedev focused on quick iteration times
+that is written in Rust.
+
+[September updates][mun-september] include:
+
+- on-going work for multi-file projects;
+- build pipeline improvements;
+- bug fixes in the Mun compiler and C++ bindings;
+- a lot of refactors and quality of life improvements.
+
+[Mun]: https://mun-lang.org
+[mun-september]: https://mun-lang.org/blog/2020/10/01/this-month-september/
 
 ### [audir]
 
@@ -334,6 +417,34 @@ _Discussions:
 
 [Riddle]: https://github.com/vickles/riddle
 [riddle-docs]: https://vickles.github.io/riddle/0.1.0/riddle
+
+### Tetra
+
+[Tetra] is a simple 2D game framework, inspired by XNA and Raylib. This month,
+version [0.5][tetra-05] was released, featuring:
+
+- Cargo feature flags, allowing you to remove unused functionality and
+  shrink your build
+- Relative mouse events and infinite mouse movement (allowing for FPS-style
+  control schemes)
+- Extra methods for getting and setting the state of a playing sound
+
+For full details and a list of breaking changes, see the [changelog][tetra-changelog].
+
+Additionally, this month [puppetmaster] released [tetrapack], a set of useful
+extensions for Tetra. This includes:
+
+- Helpful timer types
+- Looping background music
+- Custom mouse cursors
+- Input utility functions
+- Tilemaps and tile animations
+
+[tetra]: https://github.com/17cupsofcoffee/tetra
+[tetra-05]: https://twitter.com/17cupsofcoffee/status/1301210538299609088
+[tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
+[puppetmaster]: https://github.com/puppetmaster-
+[tetrapack]: https://github.com/puppetmaster-/tetrapack
 
 ### [rg3d][rg3d]
 
