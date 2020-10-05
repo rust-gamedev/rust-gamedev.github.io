@@ -64,20 +64,19 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [Is it easy to draw a line?][Lines]
 
-![image/GIF description](lines_hexstrat.png)
-_Example of result chains_
-A small note about drawing lines and chains with signed distance fields.
+![image/GIF description](lines_hexstrat.jpeg)
+_Example of result chains._
+
+A small note by [@VladZhukov0] about drawing lines and chains
+with signed distance fields.
 The resulted lines are nice looking on edges and have rounded corners.
 Chains for this article assumed to be opaque.
 
-[Online demo](https://pum-purum-pum-pum.github.io/lines/)
-
-[Source code](https://github.com/pum-purum-pum-pum/Lines)
-
-Discussions:
-[twitter](https://twitter.com/VladZhukov0/status/1309843665594925058)
+Check out the [online demo](https://pum-purum-pum-pum.github.io/lines/)
+and its [source code](https://github.com/pum-purum-pum-pum/Lines).
 
 [Lines]: https://vladjuckov.github.io/hqlines/
+[@VladZhukov0]: https://twitter.com/VladZhukov0
 
 ## Learning Material Updates
 
