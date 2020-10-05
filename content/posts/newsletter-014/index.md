@@ -267,6 +267,20 @@ or follow [FemtoVG on twitter](https://twitter.com/femtovg).
 [nanovg]: https://github.com/memononen/nanovg
 [gpupathrender.pdf]: https://github.com/femtovg/femtovg/blob/master/assets/gpupathrender.pdf
 
+### [rg3d]
+
+[rg3d][rg3d] has been featured in the newsletter several times at this point.
+But for the uninitiated, [rg3d][rg3d] is a 3d game engine in Rust.
+This past month, rg3d has seen a big rise in popularity. After it was features on [hacker news][hnrg3d], the project gained over 1100 GitHub stars.
+The project now also has a Discord channel [rg3ddiscord][rg3ddiscord].
+
+![rg3d shooter](rg3d.shooter.jpg)
+![rg3d editor](rg3d.editor.png)
+
+[rg3d]: https://github.com/mrDIMAS/rg3d
+[hnrg3d]: https://news.ycombinator.com/item?id=24517824
+[rg3ddiscord]: https://discord.gg/xENF5Uh
+
 ### [gfx-rs] and [gfx-portability]
 
 ![gfx-rs logo](gfx-logo.png)
