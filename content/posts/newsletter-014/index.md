@@ -62,6 +62,58 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Veloren][veloren]
+
+![Landscape](veloren_river.png)
+_Deer by the riverside_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In September, Veloren hit 5000 commits to the main repo! A privilege escalation
+bug was found in the game. It was quickly patched, and a PSA was sent out to
+notify server owners of its presence. A Discord bot was created to help manage a
+testing server. Airshipper, Veloren's launcher, saw the release of version
+0.4.0. Lots of work is going on to improve the state of Veloren's server
+infrastructure. A stress test was run with 15 players to see how smaller server
+could handle running the game.
+
+Improvements were made to the chunk compression which resulted in a ~7x memory
+reduction in their storage. The settings menu has been overhauled, along with
+many other elements of the UI. A stone golem boss was merged, adding a new boss
+to dungeons. Work has been done on beam weapons and collisions, resulting in a
+significantly improved healing sceptre.
+
+You can read more about some specific topics from September:
+
+- [Compilation Breakdown](https://veloren.net/devblog-84#compilation-breakdown-by-angelonfira)
+- [Improved Server Metrics](https://veloren.net/devblog-85#improved-server-metrics-to-improve-server-performance-by-xmac94x)
+- [PSA: Privilege Escalation bug](https://veloren.net/devblog-86#psa-privilege-escalation-bug)
+- [Animation Changes](https://veloren.net/devblog-86#animation-changes-by-slipped)
+- [Attack Updates](https://veloren.net/devblog-86#attack-updates-by-sam)
+- [Beam Collisions](https://veloren.net/devblog-86#beam-collisions-by-sam)
+- [Sceptre Rework](https://veloren.net/devblog-87#sceptre-rework-by-sam)
+- [Memory Optimizations](https://veloren.net/devblog-87#memory-optimizations-by-sharp)
+- [Art Blog #7](https://www.patreon.com/posts/art-blog-no-7-41635011)
+
+September's full weekly devlogs: "This Week In Veloren...":
+[#84](https://veloren.net/devblog-84),
+[#85](https://veloren.net/devblog-85),
+[#86](https://veloren.net/devblog-86),
+[#87](https://veloren.net/devblog-87).
+
+![Healing sceptre](veloren_night.png)
+_A reprise from hunting at night_
+
+In October, Veloren will keep pushing towards more scalable infrastructure.
+Tests are happening to move towards a Kubernetes cluster to manage more
+infrascture from code. Optimizations will keep coming in as we find places to
+improve. 0.8 may release sometime this month, however the exact date is yet to
+be set.
+
+[veloren]: https://veloren.net
+[veloren-interview]: https://rustgamedev.com/episodes/interview-with-team-veloren
+
 ### [A/B Street][abstreet]
 
 ![Isometric buildings and textured areas](abstreet.png)
