@@ -101,8 +101,7 @@ Changes since the last update:
 - In this biome, you have to learn to predict the behavior of the
   crabs to solve the puzzles
 
- [![Ice Biome](way-of-rhea-ice-biome-thumbnail.png)](way-of-rhea-ice-biome.png)
- [![Snowcrab](way-of-rhea-snowcrab-thumbnail.png)](way-of-rhea-snowcrab.png)
+![Ice Biome](way-of-rhea-ice-biome-snowcrab.png)
 
 Follow [@AnthropicSt] or [@masonremaley] on Twitter or
 [sign up for the mailing list][anthropic-newsletter] for updates.
