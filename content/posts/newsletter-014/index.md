@@ -236,12 +236,9 @@ revamped netcode and the full core set of units.
 ### [Akigi][akigi]
 
 [Akigi][akigi] is a WIP online multiplayer game.
-
 In September, lots of work was done on terrain sculpting systems. Another tool
 was added, allowing material painting onto the terrain. Along with the scenery
 placement tool, there are now three separate tools in the editor's arsenal.
-
-- [Terrain Edit Layers](https://devjournal.akigi.com/september-2020/083-2020-09-06.html#terrain-edit-layers)
 
 Full devlogs:
 [#083](https://devjournal.akigi.com/september-2020/083-2020-09-06.html),
