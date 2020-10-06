@@ -654,6 +654,72 @@ extensions for Tetra. This includes:
 [puppetmaster]: https://github.com/puppetmaster-
 [tetrapack]: https://github.com/puppetmaster-/tetrapack
 
+### [Bevy Engine v0.2][bevy-0-2]
+
+[![bevy logo](bevy_logo.png)][bevy]
+
+[Bevy][bevy] is a refreshingly simple data-driven game engine built in Rust.
+It is [free and open source][bevy-repo] forever!
+
+This month, thanks to 87 contributors, 174 pull requests, and their
+[generous sponsors][bevy-sponsors], Bevy 0.2 was released. You can view the
+[full Bevy 0.2 announcement here][bevy-0-2]. Here are some highlights:
+
+- Async Task System: Bevy now has a brand new async-friendly task system,
+  which enables the creation of context-specific task pools. For example, you might
+  have separate pools for compute, IO, networking, etc. This also provides the
+  flexibility to load balance work appropriately according to work type and/or priority.
+  This new task system completely replaces Rayon and the cpu usage wins were huge!
+- Initial Web Platform Support: (A subset of) Bevy now runs on the web using
+  WebAssembly/WASM! Specifically, Bevy apps can run Bevy ECS schedules, react to
+  input events, create an empty canvas (using winit), and a few other things. This
+  is a huge first step, but it is important to call out that there are still a
+  number of missing pieces, such as 2D/3D rendering, multi-threading, and sound.
+- Parallel Queries: Systems that use queries already run in parallel,
+  but before this change the queries themselves could not be iterated in parallel.
+  Bevy 0.2 adds the ability to easily iterate queries in parallel, which builds on
+  top of the new Async Task System.
+- Transform System Rewrite: Bevy's old transform system used separate
+  `Translation`, `Rotation`, and `Scale` components as the "source of truth",
+  which were then synced to a `LocalTransform` component after each update. There
+  are Good Reasons™ to use this approach, but it created a "lag" between the
+  calculated LocalTransform and the source components and dataflow between components
+  is hard to reason about. This problem was resolved by making a newer, simpler
+  transform system that uses a consolidated `Transform` type.  
+- Joystick/Gamepad Input: The Bevy Input plugin now has cross-platform support
+  for most controllers thanks to the gilrs library!
+- Bevy ECS Performance Improvements: generational entity IDs,
+  read-only queries, lock-free world APIs, direct component lookup.
+
+Community plugin updates:
+
+- [bevy_rapier](https://github.com/dimforge/bevy_rapier):
+  Rapier Physics' official Bevy plugin was updated to support Bevy 0.2.
+- [bevy_ninepatch](https://crates.io/crates/bevy_ninepatch):
+  Display 9-Patch UI elements, where you can specify how
+  different parts of a PNG should grow.
+- [bevy_mod_picking](https://github.com/aevyrie/bevy_mod_picking): 3d cursor
+  picking and highlighting.
+- [bevy_contrib_colors](https://crates.io/crates/bevy_contrib_colors):
+  A simple color library.
+- [bevy_input_map](https://crates.io/crates/bevy_prototype_input_map):
+  Converts user inputs from different input hardware into game specific actions.
+  Ex: keyboard "Space" or joystick "A" can be mapped to a "Jump" Action.
+- [bevy_prototype_lyon](https://github.com/Nilirad/bevy_prototype_lyon):
+  Draw 2D shapes, like triangles, circles, and beziers.
+- [bevy_contrib_inspector](https://github.com/jakobhellermann/bevy-contrib-inspector):
+  Visually edit fields of your bevy resources in a browser or native view.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/iw1yyp/bevy_02),
+[hacker news](https://news.ycombinator.com/item?id=24530698),
+[twitter](https://twitter.com/cart_cart/status/1307445918535315456)_
+
+[bevy]: https://bevyengine.org
+[bevy-repo]: https://github.com/bevyengine/bevy
+[bevy-0-2]: https://bevyengine.org/news/bevy-0-2
+[bevy-sponsors]: https://github.com/sponsors/cart
+
 ### [rg3d][rg3d]
 
 [![a scene with lightning and a hi-poly character model](rg3d.jpg)][rg3d_twitter]
