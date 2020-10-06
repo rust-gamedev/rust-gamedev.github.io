@@ -244,14 +244,14 @@ September's full weekly devlogs: "This Week In Veloren...":
 [#86](https://veloren.net/devblog-86),
 [#87](https://veloren.net/devblog-87).
 
+![Healing sceptre](veloren_night.png)
+_A reprise from hunting at night_
+
 In October, Veloren will keep pushing towards more scalable infrastructure.
 Tests are happening to move towards a Kubernetes cluster to manage more
 infrascture from code. Optimizations will keep coming in as we find places to
 improve. 0.8 may release sometime this month, however the exact date is yet to
 be set.
-
-![Healing sceptre](veloren_night.png)
-_A reprise from hunting at night_
 
 [veloren]: https://veloren.net
 [veloren-interview]: https://rustgamedev.com/episodes/interview-with-team-veloren
