@@ -123,29 +123,30 @@ Imgur screenshot [gallery].
 [Mimas]: https://github.com/est31/mimas
 [gallery]: https://imgur.com/a/vvo7len
 
-### Nox Futura (Rust Edition)
+### [Nox Futura (Rust Edition)][noxfutura]
 
-![NoxFuturaScreenshot](noxfutura.png)
+![Gameplay screenshots](noxfutura.jpeg)
 
-Nox Futura is a long-term passion project, a Dwarf-Fortress and RimWorld
-inspired base building game. Voxel engine with integrated models, porting
-from a C++ version. It's just emerging from a back-end rewrite bringing in
-goodness from Legion 0.3 and WGPU 0.6.
+[Nox Futura][noxfutura] by [@blackfuture]
+is an open-source long-term passion project,
+a Dwarf-Fortress and RimWorld inspired base building game.
 
-[The project's repo is public][noxfutura-src].
+Some of the [recent updates][noxfutura-reddit]:
 
-Currently working:
+- The WGPU-based rendered is undergoing a major restructure.
+- The game was updated to Legion 0.3 - it required rewriting a lot of code,
+  but the new syntax sugar is a joy to use, and the backend is even faster now.
+- The Greedy Voxel algorithm was significantly improved.
+- OBJ models are now supported - useful for things like tree/vegetation geometry,
+  which can now use a stylized low-poly graphic without the added weight
+  of a bunch of cubes.
+- Palette-based rendering - the output system is now constrained
+  to a 256 color palette, mostly to play with stylized 3D rendering.
+- New format for data files that combines multiple RON objects in one place.
 
-- Procedural generation of the planet, based on layered 3D Perlin noise.
-- Voxelized landblocks with a chunking system for dynamic changes.
-- Full Dwarf Fortress style "layering".
-- Dynamic settler generation, hair, clothes, professions, skin types, etc.
-- Large scale foliage/vegetation (a few thousand trees and foliage).
-- Dynamic lighting. Time-based sun position and entities can add lights.
-- Data-driven design, pretty much everything is defined in RAW files.
-- Early job system, including lumberjacking and workshop placement.
-
-[noxfutura-src]: https://github.com/thebracket/noxfutura
+[noxfutura]: https://github.com/thebracket/noxfutura
+[thebracket]: https://bracketproductions.com
+[noxfutura-reddit]: https://reddit.com/r/roguelikedev/comments/ivgdnj/sharing_saturday_329/g5t5lo0
 
 ### pGLOWrpg
 
@@ -277,6 +278,8 @@ including a tutorial on how to get started.
 [bevy]: https://bevyengine.org
 
 ## Library & Tooling Updates
+
+<!-- TODO! -->
 
 ### [Bracket-Lib]
 
