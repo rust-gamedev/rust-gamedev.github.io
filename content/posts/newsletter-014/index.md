@@ -123,11 +123,11 @@ Imgur screenshot [gallery].
 [Mimas]: https://github.com/est31/mimas
 [gallery]: https://imgur.com/a/vvo7len
 
-### [Nox Futura]
+### Nox Futura (Rust Edition)
 
 ![NoxFuturaScreenshot](noxfutura.png)
 
-[Nox Futura] is a long-term passion project, a Dwarf-Fortress and RimWorld
+Nox Futura is a long-term passion project, a Dwarf-Fortress and RimWorld
 inspired base building game. Voxel engine with integrated models, porting
 from a C++ version. It's just emerging from a back-end rewrite bringing in
 goodness from Legion 0.3 and WGPU 0.6.
@@ -289,6 +289,8 @@ It will be featured in the author's upcoming book:
 The book should be going into early access/beta in time for the next newsletter.
 
 [bracket-lib]: https://github.com/thebracket/bracket-lib
+[@blackfuture]: https://patreon.com/blackfuture
+[rltk-cpp]: https://github.com/thebracket/rltk
 
 ### [Thunderdome]
 
