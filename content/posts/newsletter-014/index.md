@@ -102,7 +102,7 @@ Changes since the last update:
   crabs to solve the puzzles
 
  [![Ice Biome](way-of-rhea-ice-biome-thumbnail.png)](way-of-rhea-ice-biome.png)
- [![Snowcrab](way-of-rhea-snowcrab-thumbnail.png)](way-of-rhea-snowcrab.png)
+ [![Snowcrab](way-of-rhea-snowcrab-thumbnail-fix-cache.png)](way-of-rhea-snowcrab.png)
 
 Follow [@AnthropicSt] or [@masonremaley] on Twitter or
 [sign up for the mailing list][anthropic-newsletter] for updates.
