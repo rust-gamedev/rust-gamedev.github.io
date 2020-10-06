@@ -204,6 +204,31 @@ Imgur screenshot [gallery].
 [Mimas]: https://github.com/est31/mimas
 [gallery]: https://imgur.com/a/vvo7len
 
+### [Nox Futura (Rust Edition)][noxfutura]
+
+![Gameplay screenshots](noxfutura.jpeg)
+
+[Nox Futura][noxfutura] by [@blackfuture]
+is an open-source long-term passion project,
+a Dwarf-Fortress and RimWorld inspired base building game.
+
+Some of the [recent updates][noxfutura-reddit]:
+
+- The WGPU-based rendered is undergoing a major restructure.
+- The game was updated to Legion 0.3 - it required rewriting a lot of code,
+  but the new syntax sugar is a joy to use, and the backend is even faster now.
+- The Greedy Voxel algorithm was significantly improved.
+- OBJ models are now supported - useful for things like tree/vegetation geometry,
+  which can now use a stylized low-poly graphic without the added weight
+  of a bunch of cubes.
+- Palette-based rendering - the output system is now constrained
+  to a 256 color palette, mostly to play with stylized 3D rendering.
+- New format for data files that combines multiple RON objects in one place.
+
+[noxfutura]: https://github.com/thebracket/noxfutura
+[thebracket]: https://bracketproductions.com
+[noxfutura-reddit]: https://reddit.com/r/roguelikedev/comments/ivgdnj/sharing_saturday_329/g5t5lo0
+
 ### pGLOWrpg
 
 ![pGLOWrpg banner](pglowrpg_banner.png)
@@ -625,6 +650,20 @@ _Discussions:
 
 [Riddle]: https://github.com/vickles/riddle
 [riddle-docs]: https://vickles.github.io/riddle/0.1.0/riddle
+
+### [Bracket-Lib]
+
+[bracket-lib] (previously `rltk_rs`) by [@blackfuture]
+is a Rust implementation of [C++ Roguelike Toolkit][rltk-cpp].
+
+Bracket-lib is going through a stability pass, focusing on freezing the API.
+It will be featured in the author's upcoming book:
+*Hands-on Rust: Effective Learning through 2D Game Development and Play*.
+The book should be going into early access/beta in time for the next newsletter.
+
+[bracket-lib]: https://github.com/thebracket/bracket-lib
+[@blackfuture]: https://patreon.com/blackfuture
+[rltk-cpp]: https://github.com/thebracket/rltk
 
 ### Tetra
 
