@@ -179,6 +179,28 @@ hot-code reload of building rules in the running game.
 [Anselm Eickhoff]: https://twitter.com/ae_play
 [a small demo]: https://reddit.com/r/Citybound/comments/j2xg2s/sneak_peek_custom_procedural_architecture
 
+### Recall Singularity
+
+![Demo of the basic ship collision](recall_singularity.png)
+_A ray-traced selection of modules_
+
+The Recall Singularity is a game about designing autonomous factory ships and
+stations created by [Tom Leys].
+
+This month a new devlog was posted:
+["Recall Singularity in Sep 2020"][recall-s-sept-text].
+You can also check out a [status update and progress video here][recall-s-sept-video].
+
+Updates include:
+
+- Improving the robustness of the game core and networking.
+- Ship sections and standalone ships.
+- Different synchronization algorithms for different game modes.
+
+[Tom Leys]: https://twitter.com/RecallSingular1
+[recall-s-sept-text]: https://medium.com/@recallsingularity/recall-singularity-in-sep-2020-e2f33a85fd7c
+[recall-s-sept-video]: https://youtube.com/watch?v=kUIiU9LtOFY
+
 ### [Mimas]
 
 ![Mimas screenshot](mimas.png)
