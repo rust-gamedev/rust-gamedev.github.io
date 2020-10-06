@@ -279,22 +279,6 @@ including a tutorial on how to get started.
 
 ## Library & Tooling Updates
 
-<!-- TODO! -->
-
-### [Bracket-Lib]
-
-[bracket-lib] (previously `rltk_rs`) by [@blackfuture]
-is a Rust implementation of [C++ Roguelike Toolkit][rltk-cpp].
-
-Bracket-lib is going through a stability pass, focusing on freezing the API.
-It will be featured in the author's upcoming book:
-*Hands-on Rust: Effective Learning through 2D Game Development and Play*.
-The book should be going into early access/beta in time for the next newsletter.
-
-[bracket-lib]: https://github.com/thebracket/bracket-lib
-[@blackfuture]: https://patreon.com/blackfuture
-[rltk-cpp]: https://github.com/thebracket/rltk
-
 ### [Thunderdome]
 
 [Thunderdome] is a ~~gladitorial~~ generational arena library inspired by
@@ -471,6 +455,20 @@ _Discussions:
 
 [Riddle]: https://github.com/vickles/riddle
 [riddle-docs]: https://vickles.github.io/riddle/0.1.0/riddle
+
+### [Bracket-Lib]
+
+[bracket-lib] (previously `rltk_rs`) by [@blackfuture]
+is a Rust implementation of [C++ Roguelike Toolkit][rltk-cpp].
+
+Bracket-lib is going through a stability pass, focusing on freezing the API.
+It will be featured in the author's upcoming book:
+*Hands-on Rust: Effective Learning through 2D Game Development and Play*.
+The book should be going into early access/beta in time for the next newsletter.
+
+[bracket-lib]: https://github.com/thebracket/bracket-lib
+[@blackfuture]: https://patreon.com/blackfuture
+[rltk-cpp]: https://github.com/thebracket/rltk
 
 ### Tetra
 
