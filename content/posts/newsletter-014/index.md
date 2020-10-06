@@ -197,6 +197,21 @@ furnitures, collect coins and fight lava/fire based enemies with your water gun.
 [@captainfleppo]: https://twitter.com/captainfleppo
 [bevy]: https://bevyengine.org
 
+### [Akigi][akigi]
+
+[Akigi][akigi] is a WIP online multiplayer game.
+In September, lots of work was done on terrain sculpting systems. Another tool
+was added, allowing material painting onto the terrain. Along with the scenery
+placement tool, there are now three separate tools in the editor's arsenal.
+
+Full devlogs:
+[#083](https://devjournal.akigi.com/september-2020/083-2020-09-06.html),
+[#084](https://devjournal.akigi.com/september-2020/084-2020-09-13.html),
+[#085](https://devjournal.akigi.com/september-2020/085-2020-09-20.html),
+[#086](https://devjournal.akigi.com/september-2020/086-2020-09-27.html).
+
+[akigi]: https://akigi.com
+
 ### [BUGOUT]
 
 ![Play Go against AI and friends on the web](BUGOUT.jpg)
@@ -222,6 +237,25 @@ prior to Jan 1, 2021.
 [Sabaki]: https://github.com/SabakiHQ/Sabaki
 [nv-devboard]: https://developer.nvidia.com/embedded/jetson-nano-developer-kit
 
+### [Tetris Bane][tetris-bane]
+
+![Tetris Bane](tetris-bane.png)
+
+[Tetris Bane][tetris-bane] is an open-source Tetris clone
+that mixes things up with multiple game modes.
+There's a hard bane mode, classic mode for the purists,
+ultra hard metal mode, and a chill mode.
+Tetris Bane challenges you to get more then 2 lines in metal mode.
+
+You can [download][tetris-bane] the game for Windows, macOS and Linux.
+
+The game is written using [rust-sdl2].
+[The source code is available here.][tetris-bane-src]
+
+[tetris-bane]: https://andrew-jones.itch.io/tetris-bane
+[tetris-bane-src]: https://github.com/andii1701/tetris-bane
+[rust-sdl2]: https://github.com/Rust-SDL2/rust-sdl2
+
 ### Project YAWC
 
 ![Screenshot of an in-progress game of Project YAWC](project_yawc.png)
@@ -233,22 +267,47 @@ revamped netcode and the full core set of units.
 
 [ggez]: https://ggez.rs/
 
-### [Akigi][akigi]
+### [space_shooter_rs]
 
-[Akigi][akigi] is a WIP online multiplayer game.
-In September, lots of work was done on terrain sculpting systems. Another tool
-was added, allowing material painting onto the terrain. Along with the scenery
-placement tool, there are now three separate tools in the editor's arsenal.
+![space_shooter_rs_gameplay](space_shooter_rs.gif)
 
-Full devlogs:
-[#083](https://devjournal.akigi.com/september-2020/083-2020-09-06.html),
-[#084](https://devjournal.akigi.com/september-2020/084-2020-09-13.html),
-[#085](https://devjournal.akigi.com/september-2020/085-2020-09-20.html),
-[#086](https://devjournal.akigi.com/september-2020/086-2020-09-27.html).
+[space_shooter_rs] is a 2D shooter game made with the [Amethyst] game engine.
+It is inspired by games like Raiden and the Binding of Isaac.
 
-[akigi]: https://akigi.com
+In September, [Micah Tigley] joined the project and has been collaborating with
+[Carlo Supina] to refactor a significant chunk of the codebase. Lots of work has
+been on collision detection, combat, and movement. This will allow for easier
+future development.
+
+Both developers wrote about the work and their experiences developing space_shooter_rs:
+
+- [How to Revive a Dead Project][carlo-blog-post]
+- [Collaborating on Amethyst showcase project: space_shooter_rs][micah-blog-post]
+
+[space_shooter_rs]: https://github.com/amethyst/space_shooter_rs
+[Amethyst]: https://amethyst.rs
+[Carlo Supina]: https://twitter.com/carlosupina
+[Micah Tigley]: https://twitter.com/micah_tigley
+[carlo-blog-post]: https://micronote.tech/2020/10/How-to-Revive-a-Dead-Project
+[micah-blog-post]: https://mtigley.dev/posts/contributing_to_spaceshooter_rs
 
 ## Learning Material Updates
+
+### [Is it easy to draw a line?][Lines]
+
+![hexagonal strategy map with region borders](lines_hexstrat.jpeg)
+_Example of result chains._
+
+A small note by [@VladZhukov0] about drawing lines and chains
+with signed distance fields.
+The resulted lines are nice looking on edges and have rounded corners.
+Chains for this article assumed to be opaque.
+
+Check out the [online demo](https://pum-purum-pum-pum.github.io/lines/)
+and its [source code](https://github.com/pum-purum-pum-pum/Lines).
+
+[Lines]: https://vladjuckov.github.io/hqlines/
+[@VladZhukov0]: https://twitter.com/VladZhukov0
 
 ### [OpenGL Preprocessor for Rust]
 
@@ -295,6 +354,20 @@ including a tutorial on how to get started.
 [hugopeixoto-p1]: https://hugopeixoto.net/articles/rust-gamedev-ecs-bevy.html
 [hugopeixoto-p2]: https://hugopeixoto.net/articles/rust-gamedev-ecs-bevy-p2.html
 [bevy]: https://bevyengine.org
+
+### [Flappy Bird in Bevy][bevy-flappy-video]
+
+[![tantan preview](tantan_bevy.png)][bevy-flappy-video]
+
+[@TantanDev] is back with [another video][bevy-flappy-video]!
+In this one, they made a Flappy Bird clone using Bevy
+and shared their experience programming with it.
+
+The source code [can be found here][bevy-flappy-src].
+
+[@TantanDev]: https://twitter.com/TantanDev
+[bevy-flappy-video]: https://youtube.com/watch?v=Qjc0V58lB7A
+[bevy-flappy-src]: https://github.com/TanTanDev/flappy_bevy
 
 ## Library & Tooling Updates
 
