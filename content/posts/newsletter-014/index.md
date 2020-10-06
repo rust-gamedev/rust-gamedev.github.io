@@ -340,6 +340,20 @@ including a tutorial on how to get started.
 [hugopeixoto-p2]: https://hugopeixoto.net/articles/rust-gamedev-ecs-bevy-p2.html
 [bevy]: https://bevyengine.org
 
+### [Flappy Bird in Bevy][bevy-flappy-video]
+
+[![tantan preview](tantan_bevy.png)][bevy-flappy-video]
+
+[@TantanDev] is back with [another video][bevy-flappy-video]!
+In this one, they made a Flappy Bird clone using Bevy
+and shared their experience programming with it.
+
+The source code [can be found here][bevy-flappy-src].
+
+[@TantanDev]: https://twitter.com/TantanDev
+[bevy-flappy-video]: https://youtube.com/watch?v=Qjc0V58lB7A
+[bevy-flappy-src]: https://github.com/TanTanDev/flappy_bevy
+
 ## Library & Tooling Updates
 
 ### [Thunderdome]
