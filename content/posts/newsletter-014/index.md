@@ -62,6 +62,58 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Veloren][veloren]
+
+![Landscape](veloren_river.png)
+_Deer by the riverside_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In September, Veloren hit 5000 commits to the main repo! A privilege escalation
+bug was found in the game. It was quickly patched, and a PSA was sent out to
+notify server owners of its presence. A Discord bot was created to help manage a
+testing server. Airshipper, Veloren's launcher, saw the release of version
+0.4.0. Lots of work is going on to improve the state of Veloren's server
+infrastructure. A stress test was run with 15 players to see how smaller server
+could handle running the game.
+
+Improvements were made to the chunk compression which resulted in a ~7x memory
+reduction in their storage. The settings menu has been overhauled, along with
+many other elements of the UI. A stone golem boss was merged, adding a new boss
+to dungeons. Work has been done on beam weapons and collisions, resulting in a
+significantly improved healing sceptre.
+
+You can read more about some specific topics from September:
+
+- [Compilation Breakdown](https://veloren.net/devblog-84#compilation-breakdown-by-angelonfira)
+- [Improved Server Metrics](https://veloren.net/devblog-85#improved-server-metrics-to-improve-server-performance-by-xmac94x)
+- [PSA: Privilege Escalation bug](https://veloren.net/devblog-86#psa-privilege-escalation-bug)
+- [Animation Changes](https://veloren.net/devblog-86#animation-changes-by-slipped)
+- [Attack Updates](https://veloren.net/devblog-86#attack-updates-by-sam)
+- [Beam Collisions](https://veloren.net/devblog-86#beam-collisions-by-sam)
+- [Sceptre Rework](https://veloren.net/devblog-87#sceptre-rework-by-sam)
+- [Memory Optimizations](https://veloren.net/devblog-87#memory-optimizations-by-sharp)
+- [Art Blog #7](https://www.patreon.com/posts/art-blog-no-7-41635011)
+
+September's full weekly devlogs: "This Week In Veloren...":
+[#84](https://veloren.net/devblog-84),
+[#85](https://veloren.net/devblog-85),
+[#86](https://veloren.net/devblog-86),
+[#87](https://veloren.net/devblog-87).
+
+![Healing sceptre](veloren_night.png)
+_A reprise from hunting at night_
+
+In October, Veloren will keep pushing towards more scalable infrastructure.
+Tests are happening to move towards a Kubernetes cluster to manage more
+infrascture from code. Optimizations will keep coming in as we find places to
+improve. 0.8 may release sometime this month, however the exact date is yet to
+be set.
+
+[veloren]: https://veloren.net
+[veloren-interview]: https://rustgamedev.com/episodes/interview-with-team-veloren
+
 ### [A/B Street][abstreet]
 
 ![Isometric buildings and textured areas](abstreet.png)
@@ -85,6 +137,35 @@ Some of this month's updates:
 [mkirk]: https://github.com/michaelkirk
 [NoSuchThingAsRandom]: https://github.com/NoSuchThingAsRandom/
 
+### [Way of Rhea]
+
+[![Way of Rhea logo](way-of-rhea-header.jpg)][Way of Rhea]
+
+[Way of Rhea] is a puzzle platformer that takes place in a world where you can
+only interact with items that match your current color.
+Changes since the last update:
+
+- The circuit level has been reworked:
+  it's now split into three different levels
+  and the puzzles are better tutorialized, and there are more of them.
+- A tiny amount of screen shake was added to the game.
+- Work has begun on a couple of new levels for the ice biome:
+
+  ![Ice Biome](way-of-rhea-ice-biome.png)
+
+  In this biome, you have to learn to predict the behavior of these little
+  crabs to solve the puzzles:
+
+  ![Snowcrab](way-of-rhea-snowcrab.png)
+
+Follow [@AnthropicSt] or [@masonremaley] on Twitter or
+[sign up for the mailing list][anthropic-newsletter] for updates.
+
+[Way of Rhea]: https://store.steampowered.com/app/1110620/Way_of_Rhea/
+[@AnthropicSt]: https://twitter.com/anthropicst
+[@masonremaley]: https://twitter.com/masonremaley
+[anthropic-newsletter]: https://www.anthropicstudios.com/newsletter/signup/tech
+
 ### [Citybound]
 
 ![Live editing of procedural architecture rules](citybound.png)
@@ -97,6 +178,28 @@ hot-code reload of building rules in the running game.
 [Citybound]: https://aeplay.org/citybound
 [Anselm Eickhoff]: https://twitter.com/ae_play
 [a small demo]: https://reddit.com/r/Citybound/comments/j2xg2s/sneak_peek_custom_procedural_architecture
+
+### Recall Singularity
+
+![Demo of the basic ship collision](recall_singularity.png)
+_A ray-traced selection of modules_
+
+The Recall Singularity is a game about designing autonomous factory ships and
+stations created by [Tom Leys].
+
+This month a new devlog was posted:
+["Recall Singularity in Sep 2020"][recall-s-sept-text].
+You can also check out a [status update and progress video here][recall-s-sept-video].
+
+Updates include:
+
+- Improving the robustness of the game core and networking.
+- Ship sections and standalone ships.
+- Different synchronization algorithms for different game modes.
+
+[Tom Leys]: https://twitter.com/RecallSingular1
+[recall-s-sept-text]: https://medium.com/@recallsingularity/recall-singularity-in-sep-2020-e2f33a85fd7c
+[recall-s-sept-video]: https://youtube.com/watch?v=kUIiU9LtOFY
 
 ### [Mimas]
 
@@ -122,6 +225,31 @@ Imgur screenshot [gallery].
 
 [Mimas]: https://github.com/est31/mimas
 [gallery]: https://imgur.com/a/vvo7len
+
+### [Nox Futura (Rust Edition)][noxfutura]
+
+![Gameplay screenshots](noxfutura.jpeg)
+
+[Nox Futura][noxfutura] by [@blackfuture]
+is an open-source long-term passion project,
+a Dwarf-Fortress and RimWorld inspired base building game.
+
+Some of the [recent updates][noxfutura-reddit]:
+
+- The WGPU-based rendered is undergoing a major restructure.
+- The game was updated to Legion 0.3 - it required rewriting a lot of code,
+  but the new syntax sugar is a joy to use, and the backend is even faster now.
+- The Greedy Voxel algorithm was significantly improved.
+- OBJ models are now supported - useful for things like tree/vegetation geometry,
+  which can now use a stylized low-poly graphic without the added weight
+  of a bunch of cubes.
+- Palette-based rendering - the output system is now constrained
+  to a 256 color palette, mostly to play with stylized 3D rendering.
+- New format for data files that combines multiple RON objects in one place.
+
+[noxfutura]: https://github.com/thebracket/noxfutura
+[thebracket]: https://bracketproductions.com
+[noxfutura-reddit]: https://reddit.com/r/roguelikedev/comments/ivgdnj/sharing_saturday_329/g5t5lo0
 
 ### pGLOWrpg
 
@@ -168,6 +296,21 @@ furnitures, collect coins and fight lava/fire based enemies with your water gun.
 [@captainfleppo]: https://twitter.com/captainfleppo
 [bevy]: https://bevyengine.org
 
+### [Akigi][akigi]
+
+[Akigi][akigi] is a WIP online multiplayer game.
+In September, lots of work was done on terrain sculpting systems. Another tool
+was added, allowing material painting onto the terrain. Along with the scenery
+placement tool, there are now three separate tools in the editor's arsenal.
+
+Full devlogs:
+[#083](https://devjournal.akigi.com/september-2020/083-2020-09-06.html),
+[#084](https://devjournal.akigi.com/september-2020/084-2020-09-13.html),
+[#085](https://devjournal.akigi.com/september-2020/085-2020-09-20.html),
+[#086](https://devjournal.akigi.com/september-2020/086-2020-09-27.html).
+
+[akigi]: https://akigi.com
+
 ### [BUGOUT]
 
 ![Play Go against AI and friends on the web](BUGOUT.jpg)
@@ -193,6 +336,25 @@ prior to Jan 1, 2021.
 [Sabaki]: https://github.com/SabakiHQ/Sabaki
 [nv-devboard]: https://developer.nvidia.com/embedded/jetson-nano-developer-kit
 
+### [Tetris Bane][tetris-bane]
+
+![Tetris Bane](tetris-bane.png)
+
+[Tetris Bane][tetris-bane] is an open-source Tetris clone
+that mixes things up with multiple game modes.
+There's a hard bane mode, classic mode for the purists,
+ultra hard metal mode, and a chill mode.
+Tetris Bane challenges you to get more then 2 lines in metal mode.
+
+You can [download][tetris-bane] the game for Windows, macOS and Linux.
+
+The game is written using [rust-sdl2].
+[The source code is available here.][tetris-bane-src]
+
+[tetris-bane]: https://andrew-jones.itch.io/tetris-bane
+[tetris-bane-src]: https://github.com/andii1701/tetris-bane
+[rust-sdl2]: https://github.com/Rust-SDL2/rust-sdl2
+
 ### Project YAWC
 
 ![Screenshot of an in-progress game of Project YAWC](project_yawc.png)
@@ -204,29 +366,47 @@ revamped netcode and the full core set of units.
 
 [ggez]: https://ggez.rs/
 
-### Recall Singularity
+### [space_shooter_rs]
 
-![Demo of the basic ship collision](recall_singularity.png)
-_A ray-traced selection of modules_
+![space_shooter_rs_gameplay](space_shooter_rs.gif)
 
-The Recall Singularity is a game about designing autonomous factory ships and
-stations created by [Tom Leys].
+[space_shooter_rs] is a 2D shooter game made with the [Amethyst] game engine.
+It is inspired by games like Raiden and the Binding of Isaac.
 
-This month a new devlog was posted:
-["Recall Singularity in Sep 2020"][recall-s-sept-text].
-You can also check out a [status update and progress video here][recall-s-sept-video].
+In September, [Micah Tigley] joined the project and has been collaborating with
+[Carlo Supina] to refactor a significant chunk of the codebase. Lots of work has
+been on collision detection, combat, and movement. This will allow for easier
+future development.
 
-Updates include:
+Both developers wrote about the work and their experiences developing space_shooter_rs:
 
-- Improving the robustness of the game core and networking.
-- Ship sections and standalone ships.
-- Different synchronization algorithms for different game modes.
+- [How to Revive a Dead Project][carlo-blog-post]
+- [Collaborating on Amethyst showcase project: space_shooter_rs][micah-blog-post]
 
-[Tom Leys]: https://twitter.com/RecallSingular1
-[recall-s-sept-text]: https://medium.com/@recallsingularity/recall-singularity-in-sep-2020-e2f33a85fd7c
-[recall-s-sept-video]: https://youtube.com/watch?v=kUIiU9LtOFY
+[space_shooter_rs]: https://github.com/amethyst/space_shooter_rs
+[Amethyst]: https://amethyst.rs
+[Carlo Supina]: https://twitter.com/carlosupina
+[Micah Tigley]: https://twitter.com/micah_tigley
+[carlo-blog-post]: https://micronote.tech/2020/10/How-to-Revive-a-Dead-Project
+[micah-blog-post]: https://mtigley.dev/posts/contributing_to_spaceshooter_rs
 
 ## Learning Material Updates
+
+### [Is it easy to draw a line?][Lines]
+
+![hexagonal strategy map with region borders](lines_hexstrat.jpeg)
+_Example of result chains._
+
+A small note by [@VladZhukov0] about drawing lines and chains
+with signed distance fields.
+The resulted lines are nice looking on edges and have rounded corners.
+Chains for this article assumed to be opaque.
+
+Check out the [online demo](https://pum-purum-pum-pum.github.io/lines/)
+and its [source code](https://github.com/pum-purum-pum-pum/Lines).
+
+[Lines]: https://vladjuckov.github.io/hqlines/
+[@VladZhukov0]: https://twitter.com/VladZhukov0
 
 ### [OpenGL Preprocessor for Rust]
 
@@ -273,6 +453,46 @@ including a tutorial on how to get started.
 [hugopeixoto-p1]: https://hugopeixoto.net/articles/rust-gamedev-ecs-bevy.html
 [hugopeixoto-p2]: https://hugopeixoto.net/articles/rust-gamedev-ecs-bevy-p2.html
 [bevy]: https://bevyengine.org
+
+### [Flappy Bird in Bevy][bevy-flappy-video]
+
+[![tantan preview](tantan_bevy.png)][bevy-flappy-video]
+
+[@TantanDev] is back with [another video][bevy-flappy-video]!
+In this one, they made a Flappy Bird clone using Bevy
+and shared their experience programming with it.
+
+The source code [can be found here][bevy-flappy-src].
+
+[@TantanDev]: https://twitter.com/TantanDev
+[bevy-flappy-video]: https://youtube.com/watch?v=Qjc0V58lB7A
+[bevy-flappy-src]: https://github.com/TanTanDev/flappy_bevy
+
+### [Real-Time Global Illumination in WGPU][gi-post]
+
+[![diff-gi-gif](diff-gi.gif)][gi-post]
+_Infinite light bounces in Cornell Box_
+
+[DI2edd] shared his [real-time diffuse global illumination demo on /r/rust_gamedev][gi-post].
+It's written in 100% Rust and uses WGPU for graphics, proving that the API
+is an excellent choice even for advanced computer graphics applications.
+
+The technique provides real time global illumination for static lambertian
+geometry, and is the implementation of the 2017 paper ["Real-time Global
+Illumination by Precomputed Local Reconstruction
+from Sparse Radiance Probes"](https://arisilvennoinen.github.io/Projects/RTGI/index.html),
+which proposes a spherical harmonics-based approach to solve the rendering equation
+in real time.
+
+In practice, this means that the expensive light transport calculations are performed
+in a precomputation step, which relies on - among others - [embree-rs],
+and [nalgebra] to produce a compressed
+representation of the scene that is then used for lighting reconstruction at runtime.
+
+[gi-post]: https://reddit.com/r/rust_gamedev/comments/ixocl2/real_time_diffuse_global_illumination
+[DI2edd]: https://reddit.com/u/DI2edd
+[embree-rs]: https://github.com/Twinklebear/embree-rs
+[nalgebra]: https://github.com/dimforge/nalgebra
 
 ## Library & Tooling Updates
 
@@ -453,6 +673,20 @@ _Discussions:
 [Riddle]: https://github.com/vickles/riddle
 [riddle-docs]: https://vickles.github.io/riddle/0.1.0/riddle
 
+### [Bracket-Lib]
+
+[bracket-lib] (previously `rltk_rs`) by [@blackfuture]
+is a Rust implementation of [C++ Roguelike Toolkit][rltk-cpp].
+
+Bracket-lib is going through a stability pass, focusing on freezing the API.
+It will be featured in the author's upcoming book:
+*Hands-on Rust: Effective Learning through 2D Game Development and Play*.
+The book should be going into early access/beta in time for the next newsletter.
+
+[bracket-lib]: https://github.com/thebracket/bracket-lib
+[@blackfuture]: https://patreon.com/blackfuture
+[rltk-cpp]: https://github.com/thebracket/rltk
+
 ### Tetra
 
 [Tetra] is a simple 2D game framework, inspired by XNA and Raylib. This month,
@@ -480,6 +714,72 @@ extensions for Tetra. This includes:
 [tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
 [puppetmaster]: https://github.com/puppetmaster-
 [tetrapack]: https://github.com/puppetmaster-/tetrapack
+
+### [Bevy Engine v0.2][bevy-0-2]
+
+[![bevy logo](bevy_logo.png)][bevy]
+
+[Bevy][bevy] is a refreshingly simple data-driven game engine built in Rust.
+It is [free and open source][bevy-repo] forever!
+
+This month, thanks to 87 contributors, 174 pull requests, and their
+[generous sponsors][bevy-sponsors], Bevy 0.2 was released. You can view the
+[full Bevy 0.2 announcement here][bevy-0-2]. Here are some highlights:
+
+- Async Task System: Bevy now has a brand new async-friendly task system,
+  which enables the creation of context-specific task pools. For example, you might
+  have separate pools for compute, IO, networking, etc. This also provides the
+  flexibility to load balance work appropriately according to work type and/or priority.
+  This new task system completely replaces Rayon and the cpu usage wins were huge!
+- Initial Web Platform Support: (A subset of) Bevy now runs on the web using
+  WebAssembly/WASM! Specifically, Bevy apps can run Bevy ECS schedules, react to
+  input events, create an empty canvas (using winit), and a few other things. This
+  is a huge first step, but it is important to call out that there are still a
+  number of missing pieces, such as 2D/3D rendering, multi-threading, and sound.
+- Parallel Queries: Systems that use queries already run in parallel,
+  but before this change the queries themselves could not be iterated in parallel.
+  Bevy 0.2 adds the ability to easily iterate queries in parallel, which builds on
+  top of the new Async Task System.
+- Transform System Rewrite: Bevy's old transform system used separate
+  `Translation`, `Rotation`, and `Scale` components as the "source of truth",
+  which were then synced to a `LocalTransform` component after each update. There
+  are Good Reasons™ to use this approach, but it created a "lag" between the
+  calculated LocalTransform and the source components and dataflow between components
+  is hard to reason about. This problem was resolved by making a newer, simpler
+  transform system that uses a consolidated `Transform` type.  
+- Joystick/Gamepad Input: The Bevy Input plugin now has cross-platform support
+  for most controllers thanks to the gilrs library!
+- Bevy ECS Performance Improvements: generational entity IDs,
+  read-only queries, lock-free world APIs, direct component lookup.
+
+Community plugin updates:
+
+- [bevy_rapier](https://github.com/dimforge/bevy_rapier):
+  Rapier Physics' official Bevy plugin was updated to support Bevy 0.2.
+- [bevy_ninepatch](https://crates.io/crates/bevy_ninepatch):
+  Display 9-Patch UI elements, where you can specify how
+  different parts of a PNG should grow.
+- [bevy_mod_picking](https://github.com/aevyrie/bevy_mod_picking): 3d cursor
+  picking and highlighting.
+- [bevy_contrib_colors](https://crates.io/crates/bevy_contrib_colors):
+  A simple color library.
+- [bevy_input_map](https://crates.io/crates/bevy_prototype_input_map):
+  Converts user inputs from different input hardware into game specific actions.
+  Ex: keyboard "Space" or joystick "A" can be mapped to a "Jump" Action.
+- [bevy_prototype_lyon](https://github.com/Nilirad/bevy_prototype_lyon):
+  Draw 2D shapes, like triangles, circles, and beziers.
+- [bevy_contrib_inspector](https://github.com/jakobhellermann/bevy-contrib-inspector):
+  Visually edit fields of your bevy resources in a browser or native view.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/iw1yyp/bevy_02),
+[hacker news](https://news.ycombinator.com/item?id=24530698),
+[twitter](https://twitter.com/cart_cart/status/1307445918535315456)_
+
+[bevy]: https://bevyengine.org
+[bevy-repo]: https://github.com/bevyengine/bevy
+[bevy-0-2]: https://bevyengine.org/news/bevy-0-2
+[bevy-sponsors]: https://github.com/sponsors/cart
 
 ### [rg3d][rg3d]
 
