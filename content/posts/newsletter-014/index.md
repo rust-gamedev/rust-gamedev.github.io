@@ -64,15 +64,14 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Learning Material Updates
 
-### Real Time Global Illumination in Wgpu
+### [Real-Time Global Illumination in WGPU][gi-post]
 
-![diff-gi-gif](diff-gi.gif)
+[![diff-gi-gif](diff-gi.gif)][gi-post]
 _Infinite light bounces in Cornell Box_
 
-Reddit user [u/DI2edd](https://reddit.com/u/DI2edd) recently showcased his latest
-creation on the popular platform: the demo is written in 100% Rust and uses Wgpu
-for graphics, proving that the API is an excellent choice even for advanced
-computer graphics applications.
+[DI2edd] shared his [real-time diffuse global illumination demo on /r/rust_gamedev][gi-post].
+It's written in 100% Rust and uses WGPU for graphics, proving that the API
+is an excellent choice even for advanced computer graphics applications.
 
 The technique provides real time global illumination for static lambertian
 geometry, and is the implementation of the 2017 paper ["Real-time Global
@@ -82,12 +81,14 @@ which proposes a spherical harmonics-based approach to solve the rendering equat
 in real time.
 
 In practice, this means that the expensive light transport calculations are performed
-in a precomputation step, which relies on - among others - [embree-rs](https://github.com/Twinklebear/embree-rs),
-and [nalgebra](https://github.com/dimforge/nalgebra) to produce a compressed
+in a precomputation step, which relies on - among others - [embree-rs],
+and [nalgebra] to produce a compressed
 representation of the scene that is then used for lighting reconstruction at runtime.
 
-Check out [the reddit post](https://www.reddit.com/r/rust_gamedev/comments/ixocl2/real_time_diffuse_global_illumination_for_static/)
-for more information.
+[gi-post]: https://reddit.com/r/rust_gamedev/comments/ixocl2/real_time_diffuse_global_illumination
+[DI2edd]: https://reddit.com/u/DI2edd
+[embree-rs]: https://github.com/Twinklebear/embree-rs
+[nalgebra]: https://github.com/dimforge/nalgebra
 
 ## Library & Tooling Updates
 
