@@ -698,19 +698,16 @@ game framework build on top of [miniquad].
 
 This month 0.3 preview was released, featuring:
 
-- better [documentation page][macroquad-doc] on docs.rs,
-- screen reading shaders: [article][article-screen-reading],
-- updated "shadertoy", small interactive glsl playground, example
+- Improved [documentation][macroquad-doc] on docs.rs.
+- Screen reading shaders and a [tutorial about them][article-screen-reading].
+- Updated "shadertoy" - small interactive glsl playground - example.
+  Check out the [web demo][shadertoy-web] and its [source code][shadertoy-src]:
 
-  Try the [web demo][shadertoy-web] ([source code][shadertoy-src]).
+  [![shadertoy](shadertoy.gif)][shadertoy-web]
 
-  ![shadertoy](./shadertoy.gif)
-
-------
-
-- [@not-fl3] (the main developer of all current *quad projects)
-  [have been added to the GitHub sponsors][sponsors]
-  Check the *quads pitch and plans on the [sponsors] page!
+Also, [@not-fl3] (the main developer of all current \*quad projects)
+[has been added to the GitHub Sponsors][sponsors]:
+check the the project's story, vision, and roadmap.
 
 [macroquad]: https://github.com/not-fl3/macroquad
 [miniquad]: https://github.com/not-fl3/miniquad
