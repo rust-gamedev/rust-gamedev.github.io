@@ -689,7 +689,7 @@ The book should be going into early access/beta in time for the next newsletter.
 
 ### [macroquad]
 
-![quadgames](quadgames.gif)
+[![quadgames](quadgames.gif)][sponsors]
 _Games built with miniquad/macroquad._
 
 [macroquad] by [@fedor_games] is a cross-platform
@@ -700,14 +700,17 @@ This month 0.3 preview was released, featuring:
 
 - better [documentation page][macroquad-doc] on docs.rs,
 - screen reading shaders: [article][article-screen-reading],
-- updated "shadertoy" example: small interactive glsl playground:
+- updated "shadertoy", small interactive glsl playground, example
 
-  ![shadertoy](./shadertoy.png)
-  
   Try the [web demo][shadertoy-web] ([source code][shadertoy-src]).
 
+  ![shadertoy](./shadertoy.gif)
+
+------
+
 - [@not-fl3] (the main developer of all current *quad projects)
-  [have been added to the GitHub sponsors](https://github.com/sponsors/not-fl3).
+  [have been added to the GitHub sponsors][sponsors]
+  Check the *quads pitch and plans on the [sponsors] page!
 
 [macroquad]: https://github.com/not-fl3/macroquad
 [miniquad]: https://github.com/not-fl3/miniquad
@@ -717,6 +720,7 @@ This month 0.3 preview was released, featuring:
 [macroquad-doc]: https://docs.rs/macroquad/0.3.0-alpha.0/macroquad/index.html
 [@fedor_games]: https://twitter.com/fedor_games
 [@not-fl3]: https://github.com/not-fl3
+[sponsors]: https://github.com/sponsors/not-fl3
 
 ### Tetra
 
