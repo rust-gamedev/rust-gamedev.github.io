@@ -125,7 +125,7 @@ Some of this month's updates:
 - isometric buildings and support for textures by [Michael][mkirk];
 - a flurry of major UI updates, thanks to the return of the project's UX
   designer;
-- an option to disable parking simulation, to workaround missing data.
+- an option to disable parking simulation, to workaround missing data;
 - alleyways imported from OSM;
 - more realistic traffic signal timing constraints, thanks to
   [Sam][NoSuchThingAsRandom], a new contributor.
@@ -807,7 +807,7 @@ or follow [FemtoVG on twitter](https://twitter.com/femtovg).
 
 [gfx-portability] is a Vulkan portability implementation based on [gfx-rs].
 It's basically a drop-in implementation of Vulkan on top of Metal and D3D12,
-useful on platforms that don't have native Vulkan support, or buggy drivers.
+useful on platforms that don't have native Vulkan support, or have buggy drivers.
 
 It released version [0.8.1](https://github.com/gfx-rs/portability/releases/tag/0.8.1)
 with official support for the new [KHR portability extension][khr-portability],
