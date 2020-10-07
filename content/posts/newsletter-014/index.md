@@ -1,8 +1,7 @@
 +++
 title = "This Month in Rust GameDev #14 - September 2020"
-date = 2020-10-05
+date = 2020-10-07
 transparent = true
-draft = true
 +++
 
 Welcome to the 14th issue of the Rust GameDev Workgroup's
@@ -180,7 +179,7 @@ Changes since the last update:
   In this biome, you have to learn to predict the behavior of the
   crabs to solve the puzzles.
 
-![Ice Biome](way-of-rhea-ice-biome-snowcrab.png)
+  ![Ice Biome](way-of-rhea-ice-biome-snowcrab.png)
 
 Follow [@AnthropicSt] or [@masonremaley] on Twitter or
 [sign up for the mailing list][anthropic-newsletter] for updates.
@@ -233,7 +232,7 @@ Updates include:
 It's been in development since almost 2 years, and has recently seen a public
 prototype release 0.4.0.
 
-Several of the features that have already been implemented as of Oct 1st:
+Several of the features that have already been implemented:
 
 - Procedural map generation with hilly landscape, trees, flowers, water and caves
 - Map manipulation (removal/addition of blocks)
