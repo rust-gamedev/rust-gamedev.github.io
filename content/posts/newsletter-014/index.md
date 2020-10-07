@@ -389,6 +389,37 @@ Both developers wrote about the work and their experiences developing space_shoo
 
 ## Learning Material Updates
 
+### [So You Want to Live-Reload Rust][fasterthanlime-post]
+
+![cool bear with glasses](cool-bear.png)
+_Cool bear_
+
+[@fasterthanlime] published a giant blog post
+["So you want to live-reload Rust"][fasterthanlime-post]
+\- a very deep techincal dive into reloading a dylib
+and a bunch of related issues.
+Lots of interesting insights for folks who want
+to better understand nuances of hot reloading.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/j0ajdy/so_you_want_to_livereload_rust)_
+
+[fasterthanlime-post]: https://fasterthanli.me/articles/so-you-want-to-live-reload-rust
+[@fasterthanlime]: https://fasterthanli.me/
+
+### [Learn WGPU][learn-wgpu]
+
+This month [@sothr] released another chapter
+of the ["Learn WGPU"][learn-wgpu] tutoral:
+["Threading WGPU Resource Loading with Rayon"][learn-wgpu-threading].
+
+Also, the whole tutorial [was upgraded to WGPU v0.6][learn-wgpu-upgrade].
+
+[@sothr]: https://github.com/sothr
+[learn-wgpu]: https://sotrh.github.io/learn-wgpu
+[learn-wgpu-threading]: https://sotrh.github.io/learn-wgpu/intermediate/tutorial13-threading
+[learn-wgpu-upgrade]: https://sotrh.github.io/learn-wgpu/news/#_0-6
+
 ### [Is it easy to draw a line?][Lines]
 
 ![hexagonal strategy map with region borders](lines_hexstrat.jpeg)
