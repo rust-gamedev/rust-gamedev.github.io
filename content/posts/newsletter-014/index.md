@@ -804,6 +804,39 @@ The book should be going into early access/beta in time for the next newsletter.
 [@blackfuture]: https://patreon.com/blackfuture
 [rltk-cpp]: https://github.com/thebracket/rltk
 
+### [macroquad]
+
+[![quadgames](quadgames.gif)][sponsors]
+_Games built with miniquad/macroquad._
+
+[macroquad] by [@fedor_games] is a cross-platform
+(Windows/Linux/macOS/Android/iOS/WASM)
+game framework build on top of [miniquad].
+
+This month 0.3 preview was released, featuring:
+
+- Improved [documentation][macroquad-doc] on docs.rs.
+- Screen reading shaders and a [tutorial about them][article-screen-reading].
+- Updated "shadertoy" - small interactive glsl playground - example.
+  Check out the [web demo][shadertoy-web] and its [source code][shadertoy-src].
+
+  [![shadertoy](shadertoy.gif)][shadertoy-web]
+
+Also, [@not-fl3] (the main developer of all current \*quad projects)
+has been added to the GitHub Sponsors.
+Check out the project's story, vision, and roadmap
+on the new [sponsors page][sponsors]!
+
+[macroquad]: https://github.com/not-fl3/macroquad
+[miniquad]: https://github.com/not-fl3/miniquad
+[article-screen-reading]: https://not-fl3.github.io/platformer-book/screen-reading.html
+[shadertoy-web]: https://not-fl3.github.io/miniquad-samples/shadertoy.html
+[shadertoy-src]: https://not-fl3.github.io/miniquad-samples/shadertoy.html
+[macroquad-doc]: https://docs.rs/macroquad/0.3.0-alpha.0/macroquad/index.html
+[@fedor_games]: https://twitter.com/fedor_games
+[@not-fl3]: https://github.com/not-fl3
+[sponsors]: https://github.com/sponsors/not-fl3
+
 ### [Tetra]
 
 [Tetra] is a simple 2D game framework, inspired by XNA and Raylib. This month,
