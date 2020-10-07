@@ -177,8 +177,8 @@ Changes since the last update:
   and the puzzles are better tutorialized, and there are more of them.
 - A tiny amount of screen shake was added to the game.
 - Work has begun on a couple of new levels for the ice biome
-- In this biome, you have to learn to predict the behavior of the
-  crabs to solve the puzzles
+  In this biome, you have to learn to predict the behavior of the
+  crabs to solve the puzzles.
 
 ![Ice Biome](way-of-rhea-ice-biome-snowcrab.png)
 
@@ -487,7 +487,7 @@ Also, the whole tutorial [was upgraded to WGPU v0.6][learn-wgpu-upgrade].
 [learn-wgpu-threading]: https://sotrh.github.io/learn-wgpu/intermediate/tutorial13-threading
 [learn-wgpu-upgrade]: https://sotrh.github.io/learn-wgpu/news/#_0-6
 
-### [Is it easy to draw a line?][Lines]
+### [Is It Easy to Draw a Line?][Lines]
 
 ![hexagonal strategy map with region borders](lines_hexstrat.jpeg)
 _Example of result chains._
@@ -888,7 +888,7 @@ on the new [sponsors page][sponsors]!
 [miniquad]: https://github.com/not-fl3/miniquad
 [article-screen-reading]: https://not-fl3.github.io/platformer-book/screen-reading.html
 [shadertoy-web]: https://not-fl3.github.io/miniquad-samples/shadertoy.html
-[shadertoy-src]: https://not-fl3.github.io/miniquad-samples/shadertoy.html
+[shadertoy-src]: https://github.com/not-fl3/macroquad/blob/master/examples/shadertoy.rs
 [macroquad-doc]: https://docs.rs/macroquad/0.3.0-alpha.0/macroquad/index.html
 [@fedor_games]: https://twitter.com/fedor_games
 [@not-fl3]: https://github.com/not-fl3
@@ -993,7 +993,7 @@ _Discussions:
 [![a scene with lightning and a hi-poly character model](rg3d.jpg)][rg3d_twitter]
 _Click to watch a [video demo of one of the new examples][rg3d_twit]._
 
-[rg3d] by is a game engine that aims to be easy to use and provide large set
+[rg3d] is a game engine that aims to be easy to use and provide large set
 of out-of-box features. Some of the recent updates:
 
 - Render to texture - it is possible to render scenes into textures.
