@@ -104,8 +104,8 @@ _A reprise from hunting at night_
 
 In October, Veloren will keep pushing towards more scalable infrastructure.
 Tests are happening to move towards a Kubernetes cluster to manage more
-infrascture from code. Optimizations will keep coming in as we find places to
-improve. 0.8 may release sometime this month, however the exact date is yet to
+infrastructure from code. Optimizations will keep coming in as we find places to
+improve. 0.8 may release sometime this month, however, the exact date is yet to
 be set.
 
 [veloren]: https://veloren.net
@@ -155,7 +155,7 @@ Some of the updates from [the September devlog][garden-devlog]:
 
 [galangua] by [@tyfkda] is a dynamic 2D shoot 'em up game,
 written in Rust using SDL2.
-It works on desktop as well as in the browser.
+It works on the desktop as well as in the browser.
 
 [The source code is available here.][tetris-bane-src]
 
@@ -229,12 +229,12 @@ Updates include:
 ![Mimas screenshot](mimas.png)
 
 [Mimas] is a WIP voxel engine and game, inspired by Minetest and Minecraft.
-It's been in development since almost 2 years, and has recently seen a public
+It's been in development for almost 2 years and has recently seen a public
 prototype release 0.4.0.
 
-Several of the features that have already been implemented as of Oct 1st:
+Several of the urrent features:
 
-- Procedural map generation with hilly landscape, trees, flowers, water and caves
+- Procedural map generation with hilly landscape, trees, flowers, water, and caves
 - Map manipulation (removal/addition of blocks)
 - Crafting
 - Chests
@@ -293,12 +293,12 @@ For the past month the main focus of the development was on:
 - Unification of I/O means.
 - Making things ready for publication.
 
-Main features of reported version are:
+Main features of the reported version are:
 
 - Ability to generate one or many worlds from customizable presets.
 - Ability to have output in both raw (b/w .png) and colorized images.
 - Generated data is as follows: terrain, watermask, biomes, rivers, geological regions,
-  rainfall and temperature.
+  rainfall, and temperature.
 
 For main feature reports and dev blogs follow [@pGLOWrpg] on Twitter.
 
@@ -314,7 +314,7 @@ For main feature reports and dev blogs follow [@pGLOWrpg] on Twitter.
 of a platforming game which take inspiration
 from an old iOS game created back in 2014. The game is running with [Bevy][bevy]
 as its core. The gameplay isn't there yet, but you as a player need to jump on
-furnitures, collect coins and fight lava/fire based enemies with your water gun.
+furnitures, collect coins, and fight lava/fire based enemies with your water gun.
 
 [@captainfleppo]: https://twitter.com/captainfleppo
 [bevy]: https://bevyengine.org
@@ -332,7 +332,8 @@ Some of the recent updates:
 - Push bombs are more useful now: they still don't cause direct damage,
   but [now they can push away other bombs too][zemeroth-bombs].
 - [All the assets sources are merged into the main repository][zemeroth-assets]
-  and the project now uses [resvg] insted of console Inkscape for svg->png rendering.
+  and the project now uses [resvg] instead of console Inkscape
+  for svg->png rendering.
 - Abilities [don't have parameters now][zemeroth-abilities].
 - Dynamic depth-sorting [was implemented][zemeroth-zsort].
 - The work on adding sounds continues:
@@ -452,7 +453,7 @@ _Cool bear_
 
 [@fasterthanlime] published a giant blog post
 ["So you want to live-reload Rust"][fasterthanlime-post]
-\- a very deep techincal dive into reloading a dylib
+\- a very deep technical dive into reloading a dylib
 and a bunch of related issues.
 Lots of interesting insights for folks who want
 to better understand nuances of hot reloading.
@@ -476,7 +477,7 @@ as a hot-reloadable code logic at runtime without restarting the host process.
 ### [Learn WGPU][learn-wgpu]
 
 This month [@sothr] released another chapter
-of the ["Learn WGPU"][learn-wgpu] tutoral:
+of the ["Learn WGPU"][learn-wgpu] tutorial:
 ["Threading WGPU Resource Loading with Rayon"][learn-wgpu-threading].
 
 Also, the whole tutorial [was upgraded to WGPU v0.6][learn-wgpu-upgrade].
@@ -494,7 +495,7 @@ _Example of result chains._
 A small note by [@VladZhukov0] about drawing lines and chains
 with signed distance fields.
 The resulted lines are nice looking on edges and have rounded corners.
-Chains for this article assumed to be opaque.
+Chains for this article are assumed to be opaque.
 
 Check out the [online demo](https://pum-purum-pum-pum.github.io/lines/)
 and its [source code](https://github.com/pum-purum-pum-pum/Lines).
@@ -734,7 +735,7 @@ that is written in Rust.
 [audir] is a low level audio library supporting Windows (WASAPI), Linux (Pulse)
 and Android (OpenSLES & AAudio).
 
-It aims at provide a minimal and mostly unsafe but feature-rich API on top of
+It aims at providing a minimal and mostly unsafe but feature-rich API on top of
 common audio backends with focus on gaming applications. The initial release
 version 0.1.0 provides basic recording and playback support for all available
 backends, including a small music player example!
@@ -836,7 +837,7 @@ input, audio, image loading/manipulation and provides a basic wgpu based 2D
 renderer.
 The [docs][riddle-docs] contain runnable examples for most methods and types.
 
-The goal is to provide a stable foundation, resillient to developments in the Rust
+The goal is to provide a stable foundation, resilient to developments in the Rust
 gamedev ecosystem, on which games, custom engines, and other media applications can
 be built.
 
@@ -873,7 +874,7 @@ This month 0.3 preview was released, featuring:
 
 - Improved [documentation][macroquad-doc] on docs.rs.
 - Screen reading shaders and a [tutorial about them][article-screen-reading].
-- Updated "shadertoy" - small interactive glsl playground - example.
+- Updated "shadertoy" - small interactive GLSL playground - example.
   Check out the [web demo][shadertoy-web] and its [source code][shadertoy-src].
 
   [![shadertoy](shadertoy.gif)][shadertoy-web]
