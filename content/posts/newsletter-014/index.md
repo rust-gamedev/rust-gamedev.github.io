@@ -135,6 +135,35 @@ Some of this month's updates:
 [mkirk]: https://github.com/michaelkirk
 [NoSuchThingAsRandom]: https://github.com/NoSuchThingAsRandom/
 
+### [Garden][garden]
+
+![screenshot: trees and water](garden.jpeg)
+
+[Garden][garden] is an upcoming game centered around growing realistic plants.
+Some of the updates from [the September devlog][garden-devlog]:
+
+- The project switched to Nvidia’s PhysX from a custom physics engine.
+- More accurate plant clone placement.
+- Significant rendering performance improvements.
+- Work on saving and loading system has begun.
+
+[garden]: https://epcc.itch.io/garden
+[garden-devlog]: https://cyberplant.xyz/posts/september/
+
+### [galangua]
+
+![screenshot](galangua.png)
+
+[galangua] by [@tyfkda] is a dynamic 2D shoot 'em up game,
+written in Rust using SDL2.
+It works on desktop as well as in the browser.
+
+[The source code is available here.][tetris-bane-src]
+
+[galangua]: https://tyfkda.github.io/galangua/
+[galangua-src]: https://github.com/tyfkda/galangua
+[@tyfkda]: https://twitter.com/tyfkda
+
 ### [Way of Rhea]
 
 [![Way of Rhea logo](way-of-rhea-header.jpg)][Way of Rhea]
