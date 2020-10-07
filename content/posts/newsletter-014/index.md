@@ -407,6 +407,16 @@ _Discussions:
 [fasterthanlime-post]: https://fasterthanli.me/articles/so-you-want-to-live-reload-rust
 [@fasterthanlime]: https://fasterthanli.me/
 
+### [rust-wasm-hotreload]
+
+[rust-wasm-hotreload] by [@ShekoHex] is a PoC of using WebAssemply
+as a hot-reloadable code logic at runtime without restarting the host process.
+[Check out a video demo here][rust-wasm-hotreload-video].
+
+[@ShekoHex]: https://twitter.com/ShekoHex
+[rust-wasm-hotreload]: https://github.com/shekohex/rust-wasm-hotreload
+[rust-wasm-hotreload-video]: https://twitter.com/ShekoHex/status/1302973994417651714
+
 ### [Learn WGPU][learn-wgpu]
 
 This month [@sothr] released another chapter
@@ -524,6 +534,27 @@ representation of the scene that is then used for lighting reconstruction at run
 
 ## Library & Tooling Updates
 
+### [legion v0.3][legion-0-3]
+
+![Benchmarks](legion_violin.png)
+
+[Legion][legion] is among Rust's fastest and most powerful ECS libraries.
+After months in development, v0.3 has finally been released to crates.io.
+This is a huge release amounting to a near total rewrite of the library
+and a major step towards a stable 1.0 release.
+
+[Check out the v0.3 announcement post][legion-0-3]
+for an overview of the new API and all the updates.
+
+The project's repo has also been moved to the Amethyst org
+to reflect its close collaboration with the Amethyst community.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/io6evk/legion_v03)_
+
+[legion]: https://github.com/amethyst/legion
+[legion-0-3]: https://amethyst.rs/posts/legion-ecs-v0.3
+
 ### [Thunderdome]
 
 [Thunderdome] is a ~~gladitorial~~ generational arena library inspired by
@@ -566,6 +597,64 @@ _Discussions:
 [slotmap]: https://crates.io/crates/slotmap
 [slab]: https://crates.io/crates/slab
 [ABA Problem]: https://en.wikipedia.org/wiki/ABA_problem
+
+### [Fontdue]
+
+[Fontdue] is a simple, no_std, pure Rust, TrueType & OpenType
+font rasterizer and layout tool.
+It strives to make interacting with fonts as fast as possible,
+and currently has the lowest end to end latency for a font rasterizer.
+
+Fontdue depends on [ttf-parser] for parsing fonts,
+which supports a wide range of TrueType and OpenType features.
+
+A non-goal of this library is to be allocation free and have a fast,
+"zero cost" initial load.
+Fontdue does make allocations and depends on the alloc crate.
+Fonts are fully parsed on creation and relevant information is stored
+in a more convenient to access format.
+Unlike other font libraries, the font structures have no lifetime dependencies
+since it allocates its own space.
+
+Project's roadmap:
+
+- v1.0: fontdue is designed to be a replacement for
+  rusttype, ab_glyph, parts of glyph_brush, and glyph_brush_layout.
+  This is a class of font libraries that don't tackle shaping.
+- v2.0: Shaping - the complex layout of text such as Arabic and Devanagari
+  \- will be added.
+  There are two potential pure Rust libraries (allsorts or rustybuzz)
+  that are candidates for providing a shaping backend to Fontdue,
+  but are relatively immature right now.
+
+_Discussions: [/r/rust](https://reddit.com/r/rust/comments/ilnd41/fontdue)_
+
+[Fontdue]: https://github.com/mooman219/fontdue
+[ttf-parser]: https://github.com/RazrFalcon/ttf-parser
+
+### [ultraviolet v0.6][ultraviolet-v0-6]
+
+[ultraviolet] by [@fu5ha] is a crate for computer-graphics
+and games-related linear algebra, but _fast_,
+both in terms of productivity and in terms of runtime performance.
+
+This month [ultraviolet v0.6][ultraviolet-v0-6] was released.
+Updates include:
+
+- Support for 256-bit wide AVX vectors and instructions
+  as well as 128-bit wide SSE instructions which were already supported.
+- Support for f64/double precision floats under the f64 feature,
+  including f64x2 and f64x4 SIMD-accelerated types.
+- Support for [mint] for most scalar types.
+- Lots of smaller API and performance improvements.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/ir24mp/announcing_ultraviolet_06)_
+
+[ultraviolet]: https://crates.io/crates/ultraviolet
+[ultraviolet-v0-6]: https://fusha.moe/blog/posts/ultraviolet-0.6
+[@fu5ha]: https://twitter.com/fu5ha
+[mint]: https://github.com/kvark/mint
 
 ### [This Month in Mun][mun-september]
 
@@ -748,7 +837,7 @@ on the new [sponsors page][sponsors]!
 [@not-fl3]: https://github.com/not-fl3
 [sponsors]: https://github.com/sponsors/not-fl3
 
-### Tetra
+### [Tetra]
 
 [Tetra] is a simple 2D game framework, inspired by XNA and Raylib. This month,
 version [0.5][tetra-05] was released, featuring:
@@ -845,9 +934,9 @@ _Discussions:
 ### [rg3d][rg3d]
 
 [![a scene with lightning and a hi-poly character model](rg3d.jpg)][rg3d_twitter]
-_Click to watch a [video demo of one of the new examples][rg3d_twitter]._
+_Click to watch a [video demo of one of the new examples][rg3d_twit]._
 
-[rg3d] is a game engine that aims to be easy to use and provide large set
+[rg3d] by is a game engine that aims to be easy to use and provide large set
 of out-of-box features. Some of the recent updates:
 
 - Render to texture - it is possible to render scenes into textures.
@@ -864,8 +953,13 @@ of out-of-box features. Some of the recent updates:
   - Improved hotkeys in text box.
 - Improved performance and documentation.
 
+Join the [rg3d's Discord channel][rg3d_discord]
+or follow [Dmitry Stepanov on twitter][rg3d_twitter].
+
 [rg3d]: https://github.com/mrDIMAS/rg3d
-[rg3d_twitter]: https://twitter.com/DmitryS36934349/status/1312836831390687232
+[rg3d_twit]: https://twitter.com/DmitryS36934349/status/1312836831390687232
+[rg3d_discord]: https://discord.gg/xENF5Uh
+[rg3d_twitter]: https://twitter.com/DmitryS36934349
 
 ### [rusty-editor]
 
@@ -880,6 +974,25 @@ Some of the recently added features:
 - lots of other small improvements and fixes.
 
 [rusty-editor]: https://github.com/mrDIMAS/rusty-editor
+
+### [godot-rust][godot-rust-site] v0.9
+
+![cute logo](godot.png)
+
+[godot-rust][godot-rust-site] provides high-level Rust bindings
+to the [Godot game engine][godot].
+
+This month [v0.9 was released][godot-rust-v0-9].
+Besides lots of quality-of-life improvements, this update brings a massive
+redesign of the API in order to solve long-standing soundness problems.
+As there're numerous breaking changes,
+a [chapter about migration from 0.8][godot-rust-migration] was added
+to the user guide.
+
+[godot]: http://godotengine.org
+[godot-rust-site]: https://godot-rust.github.io/
+[godot-rust-v0-9]: https://godot-rust.github.io/release-notes/0-9-0/
+[godot-rust-migration]: https://godot-rust.github.io/book/migrating-0-8.html
 
 ## Popular Workgroup Issues in Github
 
