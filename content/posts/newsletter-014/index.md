@@ -1,8 +1,7 @@
 +++
 title = "This Month in Rust GameDev #14 - September 2020"
-date = 2020-10-05
+date = 2020-10-07
 transparent = true
-draft = true
 +++
 
 Welcome to the 14th issue of the Rust GameDev Workgroup's
@@ -32,8 +31,6 @@ Table of contents:
 - [Library & Tooling Updates](#library-tooling-updates)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Requests for Contribution](#requests-for-contribution)
-- [Jobs](#jobs)
-- [Bonus](#bonus)
 
 <!--
 Ideal section structure is:
@@ -107,8 +104,8 @@ _A reprise from hunting at night_
 
 In October, Veloren will keep pushing towards more scalable infrastructure.
 Tests are happening to move towards a Kubernetes cluster to manage more
-infrascture from code. Optimizations will keep coming in as we find places to
-improve. 0.8 may release sometime this month, however the exact date is yet to
+infrastructure from code. Optimizations will keep coming in as we find places to
+improve. 0.8 may release sometime this month, however, the exact date is yet to
 be set.
 
 [veloren]: https://veloren.net
@@ -128,7 +125,7 @@ Some of this month's updates:
 - isometric buildings and support for textures by [Michael][mkirk];
 - a flurry of major UI updates, thanks to the return of the project's UX
   designer;
-- an option to disable parking simulation, to workaround missing data.
+- an option to disable parking simulation, to workaround missing data;
 - alleyways imported from OSM;
 - more realistic traffic signal timing constraints, thanks to
   [Sam][NoSuchThingAsRandom], a new contributor.
@@ -136,6 +133,35 @@ Some of this month's updates:
 [abstreet]: https://abstreet.org
 [mkirk]: https://github.com/michaelkirk
 [NoSuchThingAsRandom]: https://github.com/NoSuchThingAsRandom/
+
+### [Garden][garden]
+
+![screenshot: trees and water](garden.jpeg)
+
+[Garden][garden] is an upcoming game centered around growing realistic plants.
+Some of the updates from [the September devlog][garden-devlog]:
+
+- The project switched to Nvidia’s PhysX from a custom physics engine.
+- More accurate plant clone placement.
+- Significant rendering performance improvements.
+- Work on saving and loading system has begun.
+
+[garden]: https://epcc.itch.io/garden
+[garden-devlog]: https://cyberplant.xyz/posts/september/
+
+### [galangua]
+
+![screenshot](galangua.png)
+
+[galangua] by [@tyfkda] is a dynamic 2D shoot 'em up game,
+written in Rust using SDL2.
+It works on the desktop as well as in the browser.
+
+[The source code is available here.][tetris-bane-src]
+
+[galangua]: https://tyfkda.github.io/galangua/
+[galangua-src]: https://github.com/tyfkda/galangua
+[@tyfkda]: https://twitter.com/tyfkda
 
 ### [Way of Rhea]
 
@@ -150,10 +176,10 @@ Changes since the last update:
   and the puzzles are better tutorialized, and there are more of them.
 - A tiny amount of screen shake was added to the game.
 - Work has begun on a couple of new levels for the ice biome
-- In this biome, you have to learn to predict the behavior of the
-  crabs to solve the puzzles
+  In this biome, you have to learn to predict the behavior of the
+  crabs to solve the puzzles.
 
-![Ice Biome](way-of-rhea-ice-biome-snowcrab.png)
+  ![Ice Biome](way-of-rhea-ice-biome-snowcrab.png)
 
 Follow [@AnthropicSt] or [@masonremaley] on Twitter or
 [sign up for the mailing list][anthropic-newsletter] for updates.
@@ -203,12 +229,12 @@ Updates include:
 ![Mimas screenshot](mimas.png)
 
 [Mimas] is a WIP voxel engine and game, inspired by Minetest and Minecraft.
-It's been in development since almost 2 years, and has recently seen a public
+It's been in development for almost 2 years and has recently seen a public
 prototype release 0.4.0.
 
-Several of the features that have already been implemented as of Oct 1st:
+Several of the urrent features:
 
-- Procedural map generation with hilly landscape, trees, flowers, water and caves
+- Procedural map generation with hilly landscape, trees, flowers, water, and caves
 - Map manipulation (removal/addition of blocks)
 - Crafting
 - Chests
@@ -267,12 +293,12 @@ For the past month the main focus of the development was on:
 - Unification of I/O means.
 - Making things ready for publication.
 
-Main features of reported version are:
+Main features of the reported version are:
 
 - Ability to generate one or many worlds from customizable presets.
 - Ability to have output in both raw (b/w .png) and colorized images.
 - Generated data is as follows: terrain, watermask, biomes, rivers, geological regions,
-  rainfall and temperature.
+  rainfall, and temperature.
 
 For main feature reports and dev blogs follow [@pGLOWrpg] on Twitter.
 
@@ -288,10 +314,41 @@ For main feature reports and dev blogs follow [@pGLOWrpg] on Twitter.
 of a platforming game which take inspiration
 from an old iOS game created back in 2014. The game is running with [Bevy][bevy]
 as its core. The gameplay isn't there yet, but you as a player need to jump on
-furnitures, collect coins and fight lava/fire based enemies with your water gun.
+furnitures, collect coins, and fight lava/fire based enemies with your water gun.
 
 [@captainfleppo]: https://twitter.com/captainfleppo
 [bevy]: https://bevyengine.org
+
+### [Zemeroth][zemeroth]
+
+![Summoner imps throw a swordsman around](zemeroth_chain.gif)
+_Be careful with chained reaction attacks!_
+
+[Zemeroth][zemeroth] by [@ozkriff] is a minimalistic 2D turn-based tactical game.
+Some of the recent updates:
+
+- The game now [stores simulated text lifetimes][zemeroth-text] for each tile
+  during the event processing to reduce popup text overlapping.
+- Push bombs are more useful now: they still don't cause direct damage,
+  but [now they can push away other bombs too][zemeroth-bombs].
+- [All the assets sources are merged into the main repository][zemeroth-assets]
+  and the project now uses [resvg] instead of console Inkscape
+  for svg->png rendering.
+- Abilities [don't have parameters now][zemeroth-abilities].
+- Dynamic depth-sorting [was implemented][zemeroth-zsort].
+- The work on adding sounds continues:
+  check out the [video of the first results][zemeroth-audio] 🔊.
+- Smaller UI improvements and bugfixes.
+
+[zemeroth]: https://github.com/ozkriff/zemeroth
+[@ozkriff]: https://twitter.com/ozkriff
+[zemeroth-bombs]: https://twitter.com/ozkriff/status/1304458740758970368
+[zemeroth-abilities]: https://twitter.com/ozkriff/status/1300817277714075648
+[zemeroth-assets]: https://twitter.com/ozkriff/status/1297239743269412864
+[zemeroth-zsort]: https://twitter.com/ozkriff/status/1310603877507620865
+[zemeroth-text]: https://twitter.com/ozkriff/status/1306651821314891776
+[zemeroth-audio]: https://twitter.com/ozkriff/status/1303736184045174785
+[resvg]: https://lib.rs/resvg
 
 ### [Akigi][akigi]
 
@@ -396,7 +453,7 @@ _Cool bear_
 
 [@fasterthanlime] published a giant blog post
 ["So you want to live-reload Rust"][fasterthanlime-post]
-\- a very deep techincal dive into reloading a dylib
+\- a very deep technical dive into reloading a dylib
 and a bunch of related issues.
 Lots of interesting insights for folks who want
 to better understand nuances of hot reloading.
@@ -420,7 +477,7 @@ as a hot-reloadable code logic at runtime without restarting the host process.
 ### [Learn WGPU][learn-wgpu]
 
 This month [@sothr] released another chapter
-of the ["Learn WGPU"][learn-wgpu] tutoral:
+of the ["Learn WGPU"][learn-wgpu] tutorial:
 ["Threading WGPU Resource Loading with Rayon"][learn-wgpu-threading].
 
 Also, the whole tutorial [was upgraded to WGPU v0.6][learn-wgpu-upgrade].
@@ -430,7 +487,7 @@ Also, the whole tutorial [was upgraded to WGPU v0.6][learn-wgpu-upgrade].
 [learn-wgpu-threading]: https://sotrh.github.io/learn-wgpu/intermediate/tutorial13-threading
 [learn-wgpu-upgrade]: https://sotrh.github.io/learn-wgpu/news/#_0-6
 
-### [Is it easy to draw a line?][Lines]
+### [Is It Easy to Draw a Line?][Lines]
 
 ![hexagonal strategy map with region borders](lines_hexstrat.jpeg)
 _Example of result chains._
@@ -438,7 +495,7 @@ _Example of result chains._
 A small note by [@VladZhukov0] about drawing lines and chains
 with signed distance fields.
 The resulted lines are nice looking on edges and have rounded corners.
-Chains for this article assumed to be opaque.
+Chains for this article are assumed to be opaque.
 
 Check out the [online demo](https://pum-purum-pum-pum.github.io/lines/)
 and its [source code](https://github.com/pum-purum-pum-pum/Lines).
@@ -678,7 +735,7 @@ that is written in Rust.
 [audir] is a low level audio library supporting Windows (WASAPI), Linux (Pulse)
 and Android (OpenSLES & AAudio).
 
-It aims at provide a minimal and mostly unsafe but feature-rich API on top of
+It aims at providing a minimal and mostly unsafe but feature-rich API on top of
 common audio backends with focus on gaming applications. The initial release
 version 0.1.0 provides basic recording and playback support for all available
 backends, including a small music player example!
@@ -751,7 +808,7 @@ or follow [FemtoVG on twitter](https://twitter.com/femtovg).
 
 [gfx-portability] is a Vulkan portability implementation based on [gfx-rs].
 It's basically a drop-in implementation of Vulkan on top of Metal and D3D12,
-useful on platforms that don't have native Vulkan support, or buggy drivers.
+useful on platforms that don't have native Vulkan support, or have buggy drivers.
 
 It released version [0.8.1](https://github.com/gfx-rs/portability/releases/tag/0.8.1)
 with official support for the new [KHR portability extension][khr-portability],
@@ -780,7 +837,7 @@ input, audio, image loading/manipulation and provides a basic wgpu based 2D
 renderer.
 The [docs][riddle-docs] contain runnable examples for most methods and types.
 
-The goal is to provide a stable foundation, resillient to developments in the Rust
+The goal is to provide a stable foundation, resilient to developments in the Rust
 gamedev ecosystem, on which games, custom engines, and other media applications can
 be built.
 
@@ -817,7 +874,7 @@ This month 0.3 preview was released, featuring:
 
 - Improved [documentation][macroquad-doc] on docs.rs.
 - Screen reading shaders and a [tutorial about them][article-screen-reading].
-- Updated "shadertoy" - small interactive glsl playground - example.
+- Updated "shadertoy" - small interactive GLSL playground - example.
   Check out the [web demo][shadertoy-web] and its [source code][shadertoy-src].
 
   [![shadertoy](shadertoy.gif)][shadertoy-web]
@@ -831,7 +888,7 @@ on the new [sponsors page][sponsors]!
 [miniquad]: https://github.com/not-fl3/miniquad
 [article-screen-reading]: https://not-fl3.github.io/platformer-book/screen-reading.html
 [shadertoy-web]: https://not-fl3.github.io/miniquad-samples/shadertoy.html
-[shadertoy-src]: https://not-fl3.github.io/miniquad-samples/shadertoy.html
+[shadertoy-src]: https://github.com/not-fl3/macroquad/blob/master/examples/shadertoy.rs
 [macroquad-doc]: https://docs.rs/macroquad/0.3.0-alpha.0/macroquad/index.html
 [@fedor_games]: https://twitter.com/fedor_games
 [@not-fl3]: https://github.com/not-fl3
@@ -936,7 +993,7 @@ _Discussions:
 [![a scene with lightning and a hi-poly character model](rg3d.jpg)][rg3d_twitter]
 _Click to watch a [video demo of one of the new examples][rg3d_twit]._
 
-[rg3d] by is a game engine that aims to be easy to use and provide large set
+[rg3d] is a game engine that aims to be easy to use and provide large set
 of out-of-box features. Some of the recent updates:
 
 - Render to texture - it is possible to render scenes into textures.
@@ -996,6 +1053,12 @@ to the user guide.
 
 ## Popular Workgroup Issues in Github
 
+- [rust-gamedev/wg](https://github.com/rust-gamedev/wg):
+  - [#21 "Planning a survey for Rust game developers"](https://github.com/rust-gamedev/wg/issues/21);
+  - [#93 "Consider creating a game math library benchmark for the working group"](https://github.com/rust-gamedev/wg/issues/93);
+- [rust-gamedev/ecs_bench_suite](https://github.com/rust-gamedev/ecs_bench_suite):
+  - [#13 "How results will be updated?"](https://github.com/rust-gamedev/ecs_bench_suite/issues/13);
+
 ## Requests for Contribution
 
 <!-- Links to "good first issue"-labels or direct links to specific tasks -->
@@ -1026,15 +1089,6 @@ to the user guide.
 [mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
 [simm-issues]: https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue
 [bevy-issues]: https://github.com/bevyengine/bevy/labels/good%20first%20issue
-
-## Jobs
-
-<!-- An optional section for new jobs related to Rust gamedev -->
-
-## Bonus
-
-<!-- Bonus section to make the newsletter more interesting
-and highlight events from the past. -->
 
 ------
 
