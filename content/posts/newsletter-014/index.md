@@ -320,6 +320,36 @@ furnitures, collect coins and fight lava/fire based enemies with your water gun.
 [@captainfleppo]: https://twitter.com/captainfleppo
 [bevy]: https://bevyengine.org
 
+### [Zemeroth][zemeroth]
+
+![Summoner imps throw a swordsman around](zemeroth_chain.gif)
+_Be careful with chained reaction attacks!_
+
+[Zemeroth][zemeroth] by [@ozkriff] is a minimalistic 2D turn-based tactical game.
+Some of the recent updates:
+
+- The game now [stores simulated text lifetimes][zemeroth-text] for each tile
+  during the event processing to reduce popup text overlapping.
+- Push bombs are more useful now: they still don't cause direct damage,
+  but [now they can push away other bombs too][zemeroth-bombs].
+- [All the assets sources are merged into the main repository][zemeroth-assets]
+  and the project now uses [resvg] insted of console Inkscape for svg->png rendering.
+- Abilities [don't have parameters now][zemeroth-abilities].
+- Dynamic depth-sorting [was implemented][zemeroth-zsort].
+- The work on adding sounds continues:
+  check out the [video of the first results][zemeroth-audio] 🔊.
+- Smaller UI improvements and bugfixes.
+
+[zemeroth]: https://github.com/ozkriff/zemeroth
+[@ozkriff]: https://twitter.com/ozkriff
+[zemeroth-bombs]: https://twitter.com/ozkriff/status/1304458740758970368
+[zemeroth-abilities]: https://twitter.com/ozkriff/status/1300817277714075648
+[zemeroth-assets]: https://twitter.com/ozkriff/status/1297239743269412864
+[zemeroth-zsort]: https://twitter.com/ozkriff/status/1310603877507620865
+[zemeroth-text]: https://twitter.com/ozkriff/status/1306651821314891776
+[zemeroth-audio]: https://twitter.com/ozkriff/status/1303736184045174785
+[resvg]: https://lib.rs/resvg
+
 ### [Akigi][akigi]
 
 [Akigi][akigi] is a WIP online multiplayer game.
