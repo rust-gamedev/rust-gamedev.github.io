@@ -689,30 +689,34 @@ The book should be going into early access/beta in time for the next newsletter.
 
 ### [macroquad]
 
-[macroquad] by [@fedor_games] is cross-platform (Windows/Linux/macOS/Android/IOS/WASM) game framework build on top of [miniquad].
+![quadgames](quadgames.gif)
+_Games built with miniquad/macroquad._
 
-![quadgames](./quadgames.gif)
+[macroquad] by [@fedor_games] is a cross-platform
+(Windows/Linux/macOS/Android/iOS/WASM)
+game framework build on top of [miniquad].
 
 This month 0.3 preview was released, featuring:
-- better [documentation page] on docs.rs
-- screen reading shaders: [article][article-screen-reading]
-- updated "shadertoy" example: small interactive glsl playground  
-![shadertoy](./shadertoy.png)  
-Try [web demo][shadertoy-web]  
-[Source][shadertoy-source]
 
-- [@not-fl3](https://github.com/not-fl3)
-  (the main developer of all the current *quad projects)
-  [have been added to the GitHub sponsors](https://github.com/sponsors/not-fl3)
+- better [documentation page][macroquad-doc] on docs.rs,
+- screen reading shaders: [article][article-screen-reading],
+- updated "shadertoy" example: small interactive glsl playground:
 
+  ![shadertoy](./shadertoy.png)
+  
+  Try the [web demo][shadertoy-web] ([source code][shadertoy-src]).
+
+- [@not-fl3] (the main developer of all current *quad projects)
+  [have been added to the GitHub sponsors](https://github.com/sponsors/not-fl3).
 
 [macroquad]: https://github.com/not-fl3/macroquad
 [miniquad]: https://github.com/not-fl3/miniquad
 [article-screen-reading]: https://not-fl3.github.io/platformer-book/screen-reading.html
 [shadertoy-web]: https://not-fl3.github.io/miniquad-samples/shadertoy.html
 [shadertoy-src]: https://not-fl3.github.io/miniquad-samples/shadertoy.html
-[documentation page]: https://docs.rs/macroquad/0.3.0-alpha.0/macroquad/index.html
+[macroquad-doc]: https://docs.rs/macroquad/0.3.0-alpha.0/macroquad/index.html
 [@fedor_games]: https://twitter.com/fedor_games
+[@not-fl3]: https://github.com/not-fl3
 
 ### Tetra
 
