@@ -701,13 +701,14 @@ This month 0.3 preview was released, featuring:
 - Improved [documentation][macroquad-doc] on docs.rs.
 - Screen reading shaders and a [tutorial about them][article-screen-reading].
 - Updated "shadertoy" - small interactive glsl playground - example.
-  Check out the [web demo][shadertoy-web] and its [source code][shadertoy-src]:
+  Check out the [web demo][shadertoy-web] and its [source code][shadertoy-src].
 
   [![shadertoy](shadertoy.gif)][shadertoy-web]
 
 Also, [@not-fl3] (the main developer of all current \*quad projects)
-[has been added to the GitHub Sponsors][sponsors]:
-check the the project's story, vision, and roadmap.
+has been added to the GitHub Sponsors.
+Check out the project's story, vision, and roadmap
+on the new [sponsors page][sponsors]!
 
 [macroquad]: https://github.com/not-fl3/macroquad
 [miniquad]: https://github.com/not-fl3/miniquad
