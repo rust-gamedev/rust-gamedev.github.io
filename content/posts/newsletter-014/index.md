@@ -157,7 +157,7 @@ Some of the updates from [the September devlog][garden-devlog]:
 written in Rust using SDL2.
 It works on the desktop as well as in the browser.
 
-[The source code is available here.][tetris-bane-src]
+[The source code is available here.][galangua-src]
 
 [galangua]: https://tyfkda.github.io/galangua/
 [galangua-src]: https://github.com/tyfkda/galangua
