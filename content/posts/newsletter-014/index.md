@@ -232,7 +232,7 @@ Updates include:
 It's been in development for almost 2 years and has recently seen a public
 prototype release 0.4.0.
 
-Several of the urrent features:
+Several of the current features:
 
 - Procedural map generation with hilly landscape, trees, flowers, water, and caves
 - Map manipulation (removal/addition of blocks)
