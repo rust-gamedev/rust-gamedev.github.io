@@ -6,16 +6,25 @@ draft = true
 
 <!-- Check the post with markdownlint-->
 
-Welcome to the {TODO}th issue of the Rust GameDev Workgroup’s
+Welcome to the {TODO}th issue of the Rust GameDev Workgroup's
 monthly newsletter.
-
 [Rust] is a systems language pursuing the trifecta:
 safety, concurrency, and speed.
 These goals are well-aligned with game development.
-
 We hope to build an inviting ecosystem for anyone wishing
 to use Rust in their development process!
 Want to get involved? [Join the Rust GameDev working group!][join]
+
+You can follow the newsletter creation process
+by watching [the coordination issues][coordination].
+Want something mentioned in the next newsletter?
+[Send us a pull request][pr].
+Feel free to send PRs about your own projects!
+
+[Rust]: https://rust-lang.org
+[join]: https://github.com/rust-gamedev/wg#join-the-fun
+[pr]: https://github.com/rust-gamedev/rust-gamedev.github.io
+[coordination]: https://github.com/rust-gamedev/rust-gamedev.github.io/issues?q=label%3Acoordination
 
 [Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
@@ -30,7 +39,6 @@ Want to get involved? [Join the Rust GameDev working group!][join]
 - [Bonus](#bonus)
 
 <!--
-8-12 important news with their own sections.
 Ideal section structure is:
 
 ```
