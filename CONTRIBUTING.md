@@ -139,7 +139,7 @@ Please, try to maintain a consistent style with the rest of the newsletter.
 - Don't use fourth-level headers.
   Divide a section into subsections using a `------` line if needed.
 
-- Avoid using blold, italic, etc rich formatting if possible.
+- Avoid using bold, italic, etc rich formatting if possible.
 
 - Write from a third-person perspective even if you're writing
   about your project's updates.

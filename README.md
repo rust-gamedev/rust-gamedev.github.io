@@ -8,7 +8,7 @@ To contribute to the newsletter, please see [CONTRIBUTING].
 
 ## Building from Source
 
-The site is build and deployed automatically from the repo (see .github/workflows/ci.yml).
+The site is built and deployed automatically from the repo (see .github/workflows/ci.yml).
 
 To preview/experiment locally:
 
