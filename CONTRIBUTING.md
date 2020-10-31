@@ -103,7 +103,7 @@ Please, try to maintain a consistent style with the rest of the newsletter.
   just by scrolling through the issue.
 
   But please don't make the sections too long/detailed,
-  otherwise, the newsletter as a whole will too bloated.
+  otherwise, the newsletter as a whole will become too bloated.
   It's not a strict limit, but please try to keep the sections under 200 words.
 
 - Games are quite visual-oriented media
@@ -132,7 +132,7 @@ Please, try to maintain a consistent style with the rest of the newsletter.
 
 - Keep in mind that more than half of readers consume the newsletter
   using mobile devices.
-  So try to avoid things that doesn't work well with small screens:
+  So try to avoid things that don't work well with small screens:
   nested lists, long titles, images with important small details,
   code blocks with long lines, etc.
 
@@ -144,7 +144,7 @@ Please, try to maintain a consistent style with the rest of the newsletter.
 - Write from a third-person perspective even if you're writing
   about your project's updates.
 
-- Use singular "they" if you're not sure what are the person's pronouns.
+- Use singular "they" if you're not sure what the person's pronouns are.
 
 - If the project was already featured in the newsletter,
   use a one-sentence description at the beginning of the section
@@ -229,6 +229,6 @@ they are easier to fix for coordinators than issues with the content itself.
 [md-reflinks]: https://www.markdownguide.org/basic-syntax/#reference-style-links
 
 Ping the coordinators in the current coordination issue
-or WG's Discord channel if there're any questions.
+or WG's Discord channel if there are any questions.
 If something in this guide is unclear file an issue
 and we'll try to improve it.
