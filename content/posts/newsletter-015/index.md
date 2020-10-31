@@ -60,6 +60,38 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [pGLOWrpg]
+
+![pGLOWrpg current image](pglowrpg.gif)
+
+The [pGLOWrpg] (Procedurally Generated Living Open World RPG) is a long-term
+project in development by [@Roal_Yr]. The main goals are:
+
+- High replayability.
+- Focus on interactions.
+- Full-scale living world.
+- Maximum portability (any device that can compile and run Rust in CLI).
+- Accessibility (narrative text interface for [voice input and text-to-speech output](https://youtu.be/_jgzAddgEPU)).
+- Story writing mode (in a very long perspective).
+
+For the past month the main focus of the development was on:
+
+- Improving the UI.
+- Implementing the input autocomplete system.
+- Implementing save data import and parsing.
+- Implementing world navigation system.
+- Implementing rudimentary CLI graphics (for debugging and some future use).
+
+Main features of reported (pre-alpha) version are:
+
+- Ability to generate and explore one or many worlds (see previous news).
+
+For main feature reports and dev blogs follow [@pGLOWrpg twitter] on Twitter.
+
+[@Roal_Yr]: https://twitter.com/Roal_Yr
+[@pGLOWrpg twitter]: https://twitter.com/pglowrpg
+[pGLOWrpg]: https://github.com/roalyr/pglowrpg
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
