@@ -64,6 +64,29 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
+### Ajour - A World of Warcraft addon manager
+
+[![Ajour Banner](ajour-banner.jpg)][Ajour]
+
+[Ajour] is a World of Warcraft addon manager written in Rust using [Iced] as GUI
+library. The project is completely advertisement free, privacy respecting and
+open source.
+
+October updates include:
+
+- Catalog support for installing addons.
+- Beta, PTR support.
+- Release channels on addons.
+- CLI options to run Ajour headless.
+- Community driven API.
+
+Join the [Discord server](https://discord.com/invite/ajour) and say hi.
+
+[![Ajour UI](ajour-ui.png)][Ajour]
+
+[Ajour]: http://getajour.com/ 
+[Iced]: https://github.com/hecrj/iced/
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
