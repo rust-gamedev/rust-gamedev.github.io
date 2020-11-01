@@ -64,6 +64,23 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
+### [gfx-rs] news
+
+gfx-rs support for D3D has been improved. [@kvark] landed a few critical fixes
+in the DX12 backend, including the proper handle freeing, compressed textures
+support, blend factors, and debug markers.
+
+[@cwfitzerald] brought DX11 backend practically to the 1st tier with titanic
+work spread over a dozen of pull requests.
+It is now able to run [bve-reborn] correctly:
+
+![bve-reborn on dx11](bve-reborn-dx11.jpeg)
+
+[gfx-rs]: https://github.com/gfx-rs/gfx
+[@kvark]: https://github.com/kvark
+[@cwfitzerald]: https://github.com/cwfitzgerald
+[bve-reborn]: https://github.com/BVE-Reborn/bve-reborn
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
