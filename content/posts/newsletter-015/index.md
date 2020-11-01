@@ -84,7 +84,7 @@ Join the [Discord server](https://discord.com/invite/ajour) and say hi.
 
 [![Ajour UI](ajour-ui.png)][Ajour]
 
-[Ajour]: https://getajour.com/ 
+[Ajour]: https://getajour.com/
 [Iced]: https://github.com/hecrj/iced/
 
 ## Popular Workgroup Issues in Github
