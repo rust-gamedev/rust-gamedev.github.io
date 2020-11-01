@@ -60,13 +60,13 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
-### [Antorum Online]
+### Antorum Online
 
 ![Antorum Online Screenshot](antorum-online-10-29-2020.jpg)
 
 Antorum Online is a micro-multiplayer online role-playing game by [@dooskington](https://twitter.com/dooskington).
 The game server is written in Rust, and the current "official" client is being
-developed in Unity. The server can be self-hosted,and the network protocol is
+developed in Unity. The server can be self-hosted, and the network protocol is
 open, so even custom clients that adhere to the protocol can connect and play.
 
 Two more devlogs were published this month, regarding work done to implement
