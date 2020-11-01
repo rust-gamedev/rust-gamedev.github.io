@@ -69,6 +69,7 @@ The game server is written in Rust, and the current "official" client is being d
 and the network protocol is open, so even custom clients that adhere to the protocol can connect and play.
 
 Two more devlogs were published this month, regarding work done to implement shops, character creation, and a few other features:
+
 - [21: Belmart, Shops, And Bartering](https://ratwizard.dev/dev-log/antorum/21)
 - [22: Character Creation And Customization](https://ratwizard.dev/dev-log/antorum/22)
 
