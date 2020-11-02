@@ -60,7 +60,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
-### Power Kick
+### [Power Kick][itch-io-power-kick-link]
 
 ![Power Kick](./power-kick-shot.png)
 
@@ -72,7 +72,6 @@ The game have 20 stages and in stage 10 and 20 you will have to f
 Can be played solo on the web through WebAssembly or up to two players (first player with the keyboard and the second one with a joypad) in the downloadable version.
 The development took around two weeks thanks to MacroQuad and Hecs.
 
-Can be donwloaded and played at [itch.io][itch-io-power-kick-link]
 [itch-io-power-kick-link]: https://kakoeimon.itch.io/power-kick
 
 ## Learning Material Updates
