@@ -62,17 +62,12 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [pGLOWrpg]
 
-![pGLOWrpg current image](pglowrpg.gif)
+![walking through a forest](pglowrpg.gif)
 
-The [pGLOWrpg] (Procedurally Generated Living Open World RPG) is a long-term
-project in development by [@Roal_Yr]. The main goals are:
-
-- High replayability.
-- Focus on interactions.
-- Full-scale living world.
-- Maximum portability (any device that can compile and run Rust in CLI).
-- Accessibility (narrative text interface for [voice input and text-to-speech output](https://youtu.be/_jgzAddgEPU)).
-- Story writing mode (in a very long perspective).
+The [@pGLOWrpg] (Procedurally Generated Living Open World RPG) is a long-term
+project in development by [@Roal_Yr], which aims to be a text-based game with
+maximum portability and [accessibility](https://youtu.be/_jgzAddgEPU)
+and focus on replayability, interactions, and emergent narrative.
 
 For the past month the main focus of the development was on:
 
