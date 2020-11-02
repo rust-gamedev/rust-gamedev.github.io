@@ -60,7 +60,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
-### [Power Kick][itch-io-power-kick-link]
+### [Power Kick][power-kick-link]
 
 ![Power Kick](./power-kick-shot.png)
 
@@ -70,11 +70,12 @@ Your task is hit the enemies till they get dizzy and then kick them
 The game have 20 stages and in stage 10 and 20 you will have to face a helicopter boss.
 
 Can be played solo on the web through WebAssembly or up to two players (first player with the keyboard and the second one with a joypad) in the downloadable version.
+
 The development took around two weeks thanks to [MacroQuad][macroquad-power-kick] and [Hecs][hecs-power-kick].
 
 [macroquad-power-kick]: https://github.com/not-fl3/macroquad
 [hecs-power-kick]: https://crates.io/crates/hecs
-[itch-io-power-kick-link]: https://kakoeimon.itch.io/power-kick
+[power-kick-link]: https://kakoeimon.itch.io/power-kick
 
 ## Learning Material Updates
 
