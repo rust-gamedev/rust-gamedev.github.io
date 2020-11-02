@@ -62,6 +62,27 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Learning Material Updates
 
+### How to: WGPU + Winit + ECS + Pixels
+
+[@nyxtom](https://twitter.com/nyxtom) published several articles on game
+development for Entity-Component-Systems, Windowing and Event Loops, and WGPU.
+
+- [ECS in Rust](https://nyxtom.dev/2020/10/06/ecs-in-rust/)
+
+    written as a high level introduction to entity component systems and
+    using the [hecs](https://github.com/Ralith/hecs) crate.
+
+- [Winit and Pixels](https://nyxtom.dev/2020/10/07/winit-rust/)
+
+    introduces cross platform window management/event loops and provides a
+    tutorial for writing simple pixel graphics and 2d game development using
+    the [Pixels](https://github.com/parasyte/pixels) crate (based on WGPU).
+
+- [Framebuffers, WGPU and Rust](https://nyxtom.dev/2020/10/08/framebuffers/)
+
+    an in depth analysis of high level graphics terminology and a full length
+    tutorial for setting up the api and clearing the screen with WGPU.
+
 ## Library & Tooling Updates
 
 ## Popular Workgroup Issues in Github
