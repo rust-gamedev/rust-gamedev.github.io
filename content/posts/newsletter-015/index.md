@@ -78,7 +78,7 @@ See also [the recent video][egregoria-video] showcasing very basic AI.
 
 _Discussions:
 [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/jkcllc/egregoria_devblog_6_island_generation_daynight/),
-[Discord][https://discord.gg/CAaZhUJ]_
+[Discord](https://discord.gg/CAaZhUJ)_
 
 [Egregoria]: https://github.com/Uriopass/Egregoria
 [egregoria-blog-post]: http://douady.paris/blog/egregoria_6.html
