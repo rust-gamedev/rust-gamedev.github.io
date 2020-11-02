@@ -60,6 +60,33 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [pGLOWrpg]
+
+![walking through a forest](pglowrpg.gif)
+
+The [@pGLOWrpg] (Procedurally Generated Living Open World RPG) is a long-term
+project in development by [@Roal_Yr], which aims to be a text-based game with
+maximum portability and [accessibility](https://youtu.be/_jgzAddgEPU)
+and focus on replayability, interactions, and emergent narrative.
+
+For the past month the main focus of the development was on:
+
+- Improving the UI.
+- Implementing the input autocomplete system.
+- Implementing save data import and parsing.
+- Implementing world navigation system.
+- Implementing rudimentary CLI graphics (for debugging and some future use).
+
+Main features of reported (pre-alpha) version are:
+
+- Ability to generate and explore one or many worlds (see previous news).
+
+For main feature reports and dev blogs follow [@pGLOWrpg] on Twitter.
+
+[@Roal_Yr]: https://twitter.com/Roal_Yr
+[@pGLOWrpg]: https://twitter.com/pglowrpg
+[pGLOWrpg]: https://github.com/roalyr/pglowrpg
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
