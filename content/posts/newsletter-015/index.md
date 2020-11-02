@@ -62,6 +62,19 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Learning Material Updates
 
+### [How to: Rust + SDL2 + OpenGL on the web][how-to-rust-sdl2-opengl-post]
+
+[@Therocode] published an [article][how-to-rust-sdl2-opengl-post] that
+explains how to port games to the web using Emscripten.
+It is not only useful if you have an existing game to port, but
+also if you are looking for a starting point for a new application.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/jmeqan/how_to_rust_sdl2_opengl_on_the_web)_
+
+[how-to-rust-sdl2-opengl-post]: https://blog.therocode.net/2020/10/a-guide-to-rust-sdl2-emscripten
+[@Therocode]: https://twitter.com/therocode
+
 ## Library & Tooling Updates
 
 ## Popular Workgroup Issues in Github
