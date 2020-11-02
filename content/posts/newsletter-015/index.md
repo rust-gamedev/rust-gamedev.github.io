@@ -86,10 +86,10 @@ Main features of reported (pre-alpha) version are:
 
 - Ability to generate and explore one or many worlds (see previous news).
 
-For main feature reports and dev blogs follow [@pGLOWrpg twitter] on Twitter.
+For main feature reports and dev blogs follow [@pGLOWrpg] on Twitter.
 
 [@Roal_Yr]: https://twitter.com/Roal_Yr
-[@pGLOWrpg twitter]: https://twitter.com/pglowrpg
+[@pGLOWrpg]: https://twitter.com/pglowrpg
 [pGLOWrpg]: https://github.com/roalyr/pglowrpg
 
 ## Learning Material Updates
