@@ -60,7 +60,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
-### [Power Kick][power-kick-link]
+### [Power Kick]
 
 ![Power Kick](./power-kick-shot.png)
 
@@ -75,7 +75,7 @@ The development took around two weeks thanks to [MacroQuad][macroquad-po
 
 [macroquad-power-kick]: https://github.com/not-fl3/macroquad
 [hecs-power-kick]: https://crates.io/crates/hecs
-[power-kick-link]: https://kakoeimon.itch.io/power-kick
+[power kick]: https://kakoeimon.itch.io/power-kick
 
 ## Learning Material Updates
 
