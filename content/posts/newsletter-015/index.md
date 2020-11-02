@@ -62,6 +62,18 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Learning Material Updates
 
+### [Creating a Snake Clone in Bevy]
+
+![Snake clone tutorial output](bevy_snake.gif)
+_Gameplay of snake clone_
+
+Bevy is a rapidly growing game engine written in rust. This tutorial walks
+through creating a snake clone, introducing bevy concepts on the way. The
+tutorial covers resources, systems, timers, entities, components, materials,
+creating a grid system, and spawning/despawning entities.
+
+[Creating a Snake Clone in Bevy]: https://mbuffett.com/posts/bevy-snake-tutorial/
+
 ## Library & Tooling Updates
 
 ## Popular Workgroup Issues in Github
