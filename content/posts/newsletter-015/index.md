@@ -60,6 +60,21 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### Power Kick
+
+![Power Kick](./power-kick-shot.png)
+
+Power Kick is an one screen platform game inspired by similar old arcade games like Bubble Bobble and SnowBros. 
+Your task is hit the enemies till they get dizzy and then kick them out of their misery to proceed to the next stage. The kicked enemies will hit the colliding enemies with a possibility to create a chain reaction (similar to the pushed snowball in SnowBros).
+
+The game have 20 stages and in stage 10 and 20 you will have to face a helicopter boss.
+
+Can be played solo on the web through WebAssembly or up to two players (first player with the keyboard and the second one with a joypad) in the downloadable version.
+The development took around two weeks thanks to MacroQuad and Hecs.
+
+Can be donwloaded and played at [itch.io][itch-io-power-kick-link]
+[itch-io-power-kick-link]: https://kakoeimon.itch.io/power-kick
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
