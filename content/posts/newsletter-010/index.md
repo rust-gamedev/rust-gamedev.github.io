@@ -64,8 +64,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ### [Veloren][veloren]
 
 ![Buildings](veloren1.png)
-
-^ _The new repo banner_
+_The new repo banner_
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.
@@ -80,8 +79,7 @@ account][veloren-opencollective], and you can donate towards our infrastructure
 costs. GamingOnLinux [wrote an article][gamingonlinux] on Veloren's development.
 
 [![0.6 release trailer](veloren_trailer.gif)](https://www.youtube.com/watch?v=kjDFVgWYMd4)
-
-^ _0.6 release trailer. Click for the full video!_
+_0.6 release trailer. Click for the full video!_
 
 Here is the May changelog:
 
@@ -115,8 +113,7 @@ of 0.7, and what they wanted to achieve:
 > interact with the game UI to do this.
 
 ![Welcome to Veloren](veloren2.png)
-
-^ _Welcome to Veloren! From the 0.6 release party_
+_Welcome to Veloren! From the 0.6 release party_
 
 You can read more about some specific topics from May:
 
@@ -216,8 +213,7 @@ Some of the updates:
 ### [Sandbox]
 
 [![Sandbox gameplay demo](sandbox.jpeg)](https://streamable.com/0bhbol#)
-
-^ _click to see a gameplay demo_
+_click to see a gameplay demo_
 
 [Sandbox] is a falling sand game by JMS55 that provides a variety of fun
 particle types to place, and then you get to watch the resulting interactions!
@@ -324,8 +320,7 @@ Follow [@seratonik] on Twitter for updates.
 ### [Crate Before Attack][cratebeforeattack-site]
 
 [![screenshot: decision tree and goal distance map in the background](crate_before_attack.png)][cratebeforeattack-site]
-
-^ _Decision tree and goal distance map in the background_
+_Decision tree and goal distance map in the background_
 
 [Crate Before Attack][cratebeforeattack-site] by [koalefant (@CrateAttack)][@CrateAttack]
 is a realtime/turn-based multiplayer game where frogs combat their friends
@@ -391,8 +386,7 @@ the first time. Be sure to check out the [Github repo][digescape-github].
 ### [Akigi][akigi]
 
 ![cat model](akigi1.png)
-
-^ _Completed cat model with rigging_
+_Completed cat model with rigging_
 
 > [Akigi][akigi] is a magical multiplayer online world where humans aren't the
 > only intelligent animals. Akigi is a solo project, and the developer hopes to
@@ -426,8 +420,7 @@ Full devlogs:
 ### Nox Futura: Rust Edition
 
 ![worldgen menu](nox-f.png)
-
-^ _Worldgen menu_
+_Worldgen menu_
 
 [Herbert Wolverson][thebracket]
 (the author of [bracket-lib] and [the Rust Roguelike Tutorial][rl-book])
@@ -646,8 +639,7 @@ _Discussions:
 ### NodeFX
 
 [![NodeFX](nodefx.png)][NodeFXTweet]
-
-^ _Click the image to see the animated version_
+_Click the image to see the animated version_
 
 Project "NodeFX" by [Christian Vallentin (@MrVallentin)][@MrVallentin]
 is an unnamed node-based tool for creating GLSL shaders in real-time,

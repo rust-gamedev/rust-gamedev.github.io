@@ -131,12 +131,15 @@ it's pretty active.
 [veloren-survey]: https://veloren.net/devblog-36/#player-survey
 [veloren-video]: https://www.youtube.com/watch?v=iwP7SXdWcTg
 
-### [PF Sandbox][pf-sandbox]
+### [Canon Collision][canon-collision]
 
 ![Exported models with textureas and skeletal animations](pf-sandbox.jpg)
 
-[PF Sandbox][pf-sandbox] by [@rukai] is a platform fighter sandbox featuring:
-in game Fighter and Stage Editor, replays, and TAS tools.
+[Canon Collision][canon-collision] by [@rukai] is an Undertale + Homestuck
+fan-made platform fighter with powerful tools for modding.
+It was forked from another project of rukai's
+[PF Sandbox](https://github.com/rukai/PF_Sandbox) so he could focus on making
+a game rather then an engine.
 
 This month,
 [exporting and hot-reloading assets from blender](https://twitter.com/thisIsRukai/status/1180477120113340417),
@@ -145,7 +148,7 @@ This month,
 and [animations](https://twitter.com/thisIsRukai/status/1188261107124727808)
 were added to the project.
 
-[pf-sandbox]:https://github.com/rukai/PF_Sandbox
+[canon-collision]:https://canoncollision.com
 [@rukai]: https://twitter.com/thisIsRukai
 
 ### [Antorum][antorum]
@@ -521,8 +524,7 @@ Also, see this GameDev WG tracker/complaint issue:
 ### [RLSL][rlsl]: a Rust to SPIR-V Compiler
 
 ![RLSL code sample](rlsl-example.png)
-
-^ _a simple fragment shader that renders a red circle (temporary syntax)_
+_a simple fragment shader that renders a red circle (temporary syntax)_
 
 This month, [@MaikKlein_DEV] gave a talk at
 [The Khronos Group](https://www.khronos.org)'s meetup in Munich
@@ -556,8 +558,7 @@ _Discussions:
 ### [gfx-rs v0.4][gfx-v0-4]
 
 ![sailor screenshot: vector terrain map and some basic UI](sailor.png)
-
-^ _a screenshot from [Yatekii/sailor] - a wgpu-based sailing navigation application_
+_a screenshot from [Yatekii/sailor] - a wgpu-based sailing navigation application_
 
 [gfx-rs v0.4 was released](https://reddit.com/r/rust/comments/dm89t2/gfxhal_version_04_release):
 major changes were described in [the last blog post](https://gfx-rs.github.io/2019/10/01/update.html),
@@ -683,8 +684,7 @@ _Discussions:
 ### [cyclone-physics-rs]
 
 [![cyclone physics demo](cyclone-physics-demo.gif)][cyclone-video-demo]
-
-^ _a little demo of "particle" simulation_
+_a little demo of "particle" simulation_
 
 [cyclone-physics-rs] by [@heyrutvik] a new WIP game physics engine
 based on the ["Game Physics Engine Development" book][cyclone-physics-book].

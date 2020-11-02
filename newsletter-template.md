@@ -6,30 +6,46 @@ draft = true
 
 <!-- Check the post with markdownlint-->
 
-Welcome to the {TODO}th issue of the Rust GameDev Workgroup’s
+Welcome to the {TODO}th issue of the Rust GameDev Workgroup's
 monthly newsletter.
-
 [Rust] is a systems language pursuing the trifecta:
 safety, concurrency, and speed.
 These goals are well-aligned with game development.
-
 We hope to build an inviting ecosystem for anyone wishing
 to use Rust in their development process!
 Want to get involved? [Join the Rust GameDev working group!][join]
 
+You can follow the newsletter creation process
+by watching [the coordination issues][coordination].
+Want something mentioned in the next newsletter?
+[Send us a pull request][pr].
+Feel free to send PRs about your own projects!
+
+[Rust]: https://rust-lang.org
+[join]: https://github.com/rust-gamedev/wg#join-the-fun
+[pr]: https://github.com/rust-gamedev/rust-gamedev.github.io
+[coordination]: https://github.com/rust-gamedev/rust-gamedev.github.io/issues?q=label%3Acoordination
+
 [Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
-## News and Blog Posts
+- [Game Updates](#game-updates)
+- [Learning Material Updates](#learning-material-updates)
+- [Library & Tooling Updates](#library-tooling-updates)
+- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
+- [Meeting Minutes](#meeting-minutes)
+- [Requests for Contribution](#requests-for-contribution)
+- [Jobs](#jobs)
+- [Bonus](#bonus)
 
 <!--
-8-12 important news with their own sections.
 Ideal section structure is:
 
 ```
 ### [Title]
 
 ![image/GIF description](image link)
+_image caption_
 
 A paragraph or two with a summary and [useful links].
 
@@ -44,15 +60,11 @@ _Discussions:
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
-### Other News
+## Game Updates
 
-<!--
-Special section for other news (up to 15) in a one-liner format:
-- Main link,
-- short summary,
-- optional discussion links (in square brackets),
-- optional small image.
--->
+## Learning Material Updates
+
+## Library & Tooling Updates
 
 ## Popular Workgroup Issues in Github
 
