@@ -105,25 +105,19 @@ of a different size to the input. Swizzles are implemented with SIMD
 instructions where possible, e.g. for the `Vec4` type.
 
 ```rust
-use glam::*;
-
-let v = Vec4::new(1.0, 2.0, 3.0, 4.0);
+let v = vec4(1.0, 2.0, 3.0, 4.0);
 
 // Reverse elements of `v`, if SIMD is supported this will use a vector shuffle.
 let wzyx = v.wzyx();
-assert_eq!(Vec4::new(4.0, 3.0, 2.0, 1.0), wzyx);
 
 // Swizzle the yzw elements of `v` into a `Vec3`
 let yzw = v.yzw();
-assert_eq!(Vec3::new(2.0, 3.0, 4.0), yzw);
 
 // You can swizzle from a `Vec4` to a `Vec2`
 let xy = v.xy();
-assert_eq!(Vec2::new(1.0, 2.0), xy);
 
 // And back again
 let yyxx = xy.yyxx();
-assert_eq!(Vec4::new(2.0, 2.0, 1.0, 1.0), yyxx);
 ```
 
 [no_std] support was added, using [libm] for math functions that are not
