@@ -64,7 +64,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
-### Ajour - A World of Warcraft addon manager
+### Ajour - World of Warcraft Addon Manager
 
 [![Ajour Banner](ajour-banner.jpg)][Ajour]
 
