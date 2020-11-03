@@ -60,11 +60,11 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
-### [Power Kick](https://kakoeimon.itch.io/power-kick)
+### [Power Kick]
 
-![Power Kick](./power-kick-shot.png)
+![Power Kick](power-kick-shot.png)
 
-Power Kick is an one screen platform game inspired by similar old arcade games
+[Power Kick] is an one screen platform game inspired by similar old arcade games
 like Bubble Bobble and SnowBros.
 Your task is to hit the enemies till they get dizzy and then kick them out of
 their misery to proceed to the next stage. The kicked enemies will hit the
@@ -74,14 +74,14 @@ colliding enemies with a possibility to create a chain reaction
 The game have 20 stages and in stage 10 and 20 you will face a helicopter boss.
 
 Can be played solo on the web through WebAssembly or up to two players
-in the downloadable version.
-First player with the keyboard and the second one with a joypad. 
+in the downloadable version:
+first player with the keyboard and the second one with a joypad.
 
-The development took around two weeks thanks to 
-[MacroQuad][macroquad-power-kick] and [Hecs][hecs-power-kick].
+The development took around two weeks thanks to [macroquad] and [hecs].
 
-[macroquad-power-kick]: https://github.com/not-fl3/macroquad
-[hecs-power-kick]: https://crates.io/crates/hecs
+[Power Kick]: https://kakoeimon.itch.io/power-kick
+[macroquad]: https://github.com/not-fl3/macroquad
+[hecs]: https://crates.io/crates/hecs
 
 ## Learning Material Updates
 
