@@ -67,23 +67,25 @@ If needed, a section can be split into subsections with a "------" delimiter.
 [Egregoria]'s objective is to become a granular society simulation,
 filled with fully autonomous agents interacting with their world in real time.
 
-The [6th devlog][egregoria-blog-post] was published. Updates include
+The [6th devlog][egregoria-blog-post] was published. Updates include:
 
- - Island generation
- - Day/night cycle
- - Human AI via utilitary systems
- - Specs to [legion 0.3][legion-github] port
+- Island generation.
+- Day/night cycle.
+- Human AI via utilitary systems.
+- Specs to [legion 0.3][legion-github] port.
 
 See also [the recent video][egregoria-video] showcasing very basic AI.
 
+Join [Egregoria's Discord server][egregoria-discord].
+
 _Discussions:
-[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/jkcllc/egregoria_devblog_6_island_generation_daynight/),
-[Discord](https://discord.gg/CAaZhUJ)_
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/jkcllc/egregoria_devblog_6)_
 
 [Egregoria]: https://github.com/Uriopass/Egregoria
 [egregoria-blog-post]: http://douady.paris/blog/egregoria_6.html
 [legion-github]: https://github.com/amethyst/legion
 [egregoria-video]: https://www.youtube.com/watch?v=mfvAuvC-XLg
+[egregoria-discord]: https://discord.gg/CAaZhUJ
 
 ## Learning Material Updates
 
