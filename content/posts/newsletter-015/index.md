@@ -161,9 +161,9 @@ For full details and a list of breaking changes, see the [changelog][tetra-chang
 
 ### [ogmo3]
 
-[ogmo3] is a Rust crate for parsing projects and levels created with [Ogmo Editor 3].
-It is loosely modeled after `ogmo-3-lib`, the Haxe reference implementation of
-an Ogmo level parser.
+[ogmo3] is a Rust crate for parsing projects and levels created with
+[Ogmo Editor 3]. It is loosely modeled after `ogmo-3-lib`, the Haxe reference
+implementation of an Ogmo level parser.
 
 This month, it was released onto crates.io for the first time, and a
 [full example][ogmo3-sample] was added, showing how a simple project can be
