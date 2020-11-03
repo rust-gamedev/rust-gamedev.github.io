@@ -87,9 +87,157 @@ _Discussions:
 [egregoria-video]: https://www.youtube.com/watch?v=mfvAuvC-XLg
 [egregoria-discord]: https://discord.gg/CAaZhUJ
 
+### Worship The Sun
+
+![Worship The Sun](worship-sun.jpg)
+_One of the many unique and confounding puzzles in the game_
+
+Worship The Sun is a dark, mysterious 2D puzzle-platform game with computer
+science themes. It introduces the player to a rich language of puzzle elements
+and challenges them to solve difficult puzzles that require experimentation,
+comprehension and internalisation of the game's mechanics.
+
+The game is built using a custom engine that sits on top of [legion][legion],
+[wgpu][wgpu] and a handful of other crates. It features dynamic lighting, a
+flexible particle system, bespoke collision behaviour and a Vim-inspired level
+editor. The majority of game assets are hand drawn in [Procreate][procreate]
+and painstakingly animated.
+
+The game is a few months into development with a release target of late 2021.
+You can read about how swimming was added to the game in [GameDev Note 1:
+Taking the Plunge][plunge] which contains a sneak peek at some of the levels.
+For updates and possible playtesting opportunities, follow
+[@chrispatuzzo][chrispatuzzo] and a [/r/WorshipTheSunGame] subreddit.
+
+[legion]: https://github.com/amethyst/legion
+[wgpu]: https://github.com/gfx-rs/wgpu
+[procreate]: https://procreate.art/
+[plunge]: https://tuzz.tech/blog/taking-the-plunge
+[chrispatuzzo]: https://twitter.com/chrispatuzzo
+[/r/WorshipTheSunGame]: https://reddit.com/r/WorshipTheSunGame
+
+### [Camp Misty]
+
+![Camp Misty Title Screen](camp-misty.PNG)
+
+[Camp Misty] is an asymmetric
+multiplayer game played on the command line. The game is played with two
+people. One of the players is a helpless victim searching for car parts. If
+they find all of the parts, they can repair their car and escape the camp. The
+other player is a ruthless killer who is trying to hunt down the victim.
+
+The game was created as a learning exercise in about two weeks by
+[@ReeCocho], with contributions from the many helpful members of [/r/rust].
+
+[Camp Misty]: https://github.com/ReeCocho/camp-misty
+[@ReeCocho]: https://github.com/ReeCocho
+[/r/rust]: https://reddit.com/r/rust
+
+### [Antorum Online]
+
+![A small marketplace area with a few merchants](antorum-online-10-29-2020.jpg)
+
+Antorum Online is a micro-multiplayer online role-playing game by [@dooskington].
+The game server is written in Rust, and the current "official" client is being
+developed in Unity. The server can be self-hosted, and the network protocol is
+open, so even custom clients that adhere to the protocol can connect and play.
+
+Two more devlogs were published this month, regarding work done to implement
+shops, character creation, and a few other features:
+
+- [21: Belmart, Shops, And Bartering](https://ratwizard.dev/dev-log/antorum/21)
+- [22: Character Creation And Customization](https://ratwizard.dev/dev-log/antorum/22)
+
+[Antorum Online]: https://ratwizard.dev/dev-log/antorum
+[@dooskington]: https://twitter.com/dooskington
+
+### [pGLOWrpg]
+
+![walking through a forest](pglowrpg.gif)
+
+The [@pGLOWrpg] (Procedurally Generated Living Open World RPG) is a long-term
+project in development by [@Roal_Yr], which aims to be a text-based game with
+maximum portability and [accessibility](https://youtu.be/_jgzAddgEPU)
+and focus on replayability, interactions, and emergent narrative.
+
+For the past month the main focus of the development was on:
+
+- Improving the UI.
+- Implementing the input autocomplete system.
+- Implementing save data import and parsing.
+- Implementing world navigation system.
+- Implementing rudimentary CLI graphics (for debugging and some future use).
+
+Main features of reported (pre-alpha) version are:
+
+- Ability to generate and explore one or many worlds (see previous news).
+
+For main feature reports and dev blogs follow [@pGLOWrpg] on Twitter.
+
+[@Roal_Yr]: https://twitter.com/Roal_Yr
+[@pGLOWrpg]: https://twitter.com/pglowrpg
+[pGLOWrpg]: https://github.com/roalyr/pglowrpg
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
+
+### [This Month in Mun][mun-october]
+
+[![Mun logo](mun-logo.png)][Mun]
+
+[Mun] is a scripting language for gamedev focused on quick iteration times
+that is written in Rust.
+
+[October updates][mun-october] include:
+
+- a plugin for mdbook to test Mun code;
+- support for modules and visibility;
+- the ability to generate enum ABI types;
+- bug fixes and other improvements.
+
+[Mun]: https://mun-lang.org
+[mun-october]: https://mun-lang.org/blog/2020/10/31/this-month-october
+
+### [gfx-rs]
+
+gfx-rs support for D3D has been improved. [@kvark] landed a few critical fixes
+in the DX12 backend, including the proper handle freeing, compressed textures
+support, blend factors, and debug markers.
+
+[@cwfitzerald] brought DX11 backend practically to the 1st tier with titanic
+work spread over a dozen of pull requests.
+It is now able to run [bve-reborn] correctly:
+
+![bve-reborn on dx11](bve-reborn-dx11.jpg)
+
+[gfx-rs]: https://github.com/gfx-rs/gfx
+[@kvark]: https://github.com/kvark
+[@cwfitzerald]: https://github.com/cwfitzgerald
+[bve-reborn]: https://github.com/BVE-Reborn/bve-reborn
+
+### Ajour - World of Warcraft Addon Manager
+
+[![Ajour Banner](ajour-banner.jpg)][Ajour]
+
+[Ajour] is a World of Warcraft addon manager written in Rust using [Iced] as GUI
+library. The project is completely advertisement free, privacy respecting and
+open source.
+
+October updates include:
+
+- Catalog support for installing addons.
+- Beta, PTR support.
+- Release channels on addons.
+- CLI options to run Ajour headless.
+- Community driven API.
+
+Join the [Discord server](https://discord.com/invite/ajour) and say hi.
+
+[![Ajour UI](ajour-ui.png)][Ajour]
+
+[Ajour]: https://getajour.com
+[Iced]: https://github.com/hecrj/iced
 
 ## Popular Workgroup Issues in Github
 
