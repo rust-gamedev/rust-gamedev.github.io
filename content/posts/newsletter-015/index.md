@@ -166,6 +166,21 @@ Join the [Discord server](https://discord.com/invite/ajour) and say hi.
 [Ajour]: https://getajour.com
 [Iced]: https://github.com/hecrj/iced
 
+### [Proton][Proton-Github] 5.13-1
+In addition to adding Linux Support for more Windows-exclusive games, 
+Valve Software's wine-based translation layer for Linux: Proton now 
+includes Rust as part of its build system. 
+[Media Converter][Proton-Media-Converter-Github], is a Proton module 
+written in Rust as a gstreamer plugin to convert certain media encodings 
+from one format to another.
+
+Doucmentation for building Proton is available on [Github][Proton-Github]. 
+Further documentation on Media Converter and its source code is available
+on the module's [repository][Proton-Media-Converter-Github]
+
+[Proton-Github]: https://github.com/ValveSoftware/Proton
+[Proton-Media-Converter-Github]: https://github.com/ValveSoftware/Proton/tree/proton_5.13/media-converter
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
