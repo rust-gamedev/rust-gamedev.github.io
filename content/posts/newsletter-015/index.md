@@ -167,6 +167,7 @@ Join the [Discord server](https://discord.com/invite/ajour) and say hi.
 [Iced]: https://github.com/hecrj/iced
 
 ### [Proton][Proton-Github] 5.13-1
+
 In addition to adding Linux Support for more Windows-exclusive games,
 Valve Software's wine-based translation layer for Linux: Proton now
 includes Rust as part of its build system.
