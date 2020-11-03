@@ -91,6 +91,30 @@ For main feature reports and dev blogs follow [@pGLOWrpg] on Twitter.
 
 ## Library & Tooling Updates
 
+### [rust-psp]
+
+![tetris-on-rust-psp](rust-psp-tetris-small.jpg)
+
+Move over Tetris Effect and Tetris 99, the first game has been created with
+[rust-psp], and it's [Tetris]! This was a big step because it proves that
+[rust-psp] is ready for game development, even though we are still `#![no_std]`.
+`std` support is a work in progress, and we are always open to new contributors
+to the library, the tooling, or people who want to make PSP games in Rust.
+
+Another development for [rust-psp] this month is that we have been [reverse
+ engineering] the Sony library for the hardware vector floating point unit of the
+PSP. All the vector and matrix operations provided by the Sony library have been
+PR'ed to our main repo, and there are still more functions to come.
+
+To stay up to date on [rust-psp] development, you can join us on [Discord]
+or follow [@sajattack] on Twitter.
+
+[rust-psp]: https://github.com/overdrivenpotato/rust-psp
+[Tetris]: https://github.com/sajattack/rust-psp/tree/tetris/examples/tetris
+[reverse engineering]: https://psp.re
+[Discord]: https://discord.gg/tvGzD4GqvF
+[@sajattack]: https://twitter.com/sajattack
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
