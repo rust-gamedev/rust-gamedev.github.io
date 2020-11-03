@@ -62,7 +62,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### Worship The Sun
 
-![Worship The Sun](worship_the_sun.jpg)
+![Worship The Sun](worship-sun.jpg)
 _One of the many unique and confounding puzzles in the game_
 
 Worship The Sun is a dark, mysterious 2D puzzle-platform game with computer
