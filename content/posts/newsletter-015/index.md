@@ -201,6 +201,22 @@ For main feature reports and dev blogs follow [@pGLOWrpg] on Twitter.
 [@pGLOWrpg]: https://twitter.com/pglowrpg
 [pGLOWrpg]: https://github.com/roalyr/pglowrpg
 
+### [Weegames][weegames-itch]
+
+[![Weegames](weegames.png)][weegames-video]
+
+^ _Click to see [a demo video][weegames-video]_
+
+[Weegames][weegames-itch] is a fast-paced minigame collection. There are now
+40 minigames in the collection. New features in the latest release include
+boss games and high scores.
+
+[The source code is available here][weegames-repository].
+
+[weegames-itch]: https://yeahross.itch.io/weegames
+[weegames-repository]: https://github.com/yeahross0/weegames
+[weegames-video]: https://youtu.be/sstqGppo7L4
+
 ## Learning Material Updates
 
 ### How to: WGPU + Winit + ECS + Pixels
