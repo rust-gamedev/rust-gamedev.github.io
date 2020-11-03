@@ -143,7 +143,6 @@ It is now able to run [bve-reborn] correctly:
 [@cwfitzerald]: https://github.com/cwfitzgerald
 [bve-reborn]: https://github.com/BVE-Reborn/bve-reborn
 
-
 ### [Tetra]
 
 [Tetra] is a simple 2D game framework, inspired by XNA and Raylib. This month,
@@ -163,12 +162,12 @@ For full details and a list of breaking changes, see the [changelog][tetra-chang
 ### [ogmo3]
 
 [ogmo3] is a Rust crate for parsing projects and levels created with [Ogmo Editor 3].
-It is loosely modeled after `ogmo-3-lib`, the Haxe reference implementation of an
-Ogmo level parser.
+It is loosely modeled after `ogmo-3-lib`, the Haxe reference implementation of
+an Ogmo level parser.
 
 This month, it was released onto crates.io for the first time, and a
-[full example][ogmo3-sample] was added, showing how a simple project can be loaded
-into a game engine.
+[full example][ogmo3-sample] was added, showing how a simple project can be
+loadedinto a game engine.
 
 [ogmo3]: https://github.com/17cupsofcoffee/ogmo3
 [Ogmo Editor 3]: https://ogmo-editor-3.github.io/
