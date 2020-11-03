@@ -200,6 +200,18 @@ development for Entity-Component-Systems, Windowing and Event Loops, and WGPU.
 [hecs]: https://github.com/Ralith/hecs
 [pixels]: https://github.com/parasyte/pixels
 
+### [Creating a Snake Clone in Bevy]
+
+![Snake clone tutorial output](bevy_snake.gif)
+_Gameplay of snake clone_
+
+Bevy is a rapidly growing game engine written in Rust. This tutorial walks
+through creating a snake clone, introducing Bevy concepts on the way. The
+tutorial covers resources, systems, timers, entities, components, materials,
+creating a grid system, and spawning/despawning entities.
+
+[Creating a Snake Clone in Bevy]: https://mbuffett.com/posts/bevy-snake-tutorial/
+
 ### [How to: Rust + SDL2 + OpenGL on the web][how-to-rust-sdl2-opengl-post]
 
 [@Therocode] published an [article][how-to-rust-sdl2-opengl-post] that
