@@ -62,23 +62,23 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [Power Kick](https://kakoeimon.itch.io/power-kick)
 
-![Power Kick](./power-kick-shot.png)
+![Power Kick](./power-kick-shot.png)
 
-Power Kick is an one screen platform game inspired by similar old arcade games
-like Bubble Bobble and SnowBros.
-Your task is to hit the enemies till they get dizzy and then kick them out of
-their misery to proceed to the next stage. The kicked enemies will hit the
-colliding enemies with a possibility to create a chain reaction
-(similar to the pushed snowball in SnowBros).
+Power Kick is an one screen platform game inspired by similar old arcade games
+like Bubble Bobble and SnowBros.
+Your task is to hit the enemies till they get dizzy and then kick them out of
+their misery to proceed to the next stage. The kicked enemies will hit the
+colliding enemies with a possibility to create a chain reaction
+(similar to the pushed snowball in SnowBros).
 
-The game have 20 stages and in stage 10 and 20 you will face a helicopter boss.
+The game have 20 stages and in stage 10 and 20 you will face a helicopter boss.
 
-Can be played solo on the web through WebAssembly or up to two players
-in the downloadable version.
-First player with the keyboard and the second one with a joypad. 
+Can be played solo on the web through WebAssembly or up to two players
+in the downloadable version.
+First player with the keyboard and the second one with a joypad. 
 
-The development took around two weeks thanks to 
-[MacroQuad][macroquad-power-kick] and [Hecs][hecs-power-kick].
+The development took around two weeks thanks to 
+[MacroQuad][macroquad-power-kick] and [Hecs][hecs-power-kick].
 
 [macroquad-power-kick]: https://github.com/not-fl3/macroquad
 [hecs-power-kick]: https://crates.io/crates/hecs
