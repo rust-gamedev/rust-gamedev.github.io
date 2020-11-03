@@ -203,7 +203,7 @@ For main feature reports and dev blogs follow [@pGLOWrpg] on Twitter.
 
 ### [Weegames][weegames-itch]
 
-[![Weegames](weegames.png)][weegames-video]
+[![Jumping across walls minigame](weegames.png)][weegames-video]
 
 ^ _Click to see [a demo video][weegames-video]_
 
