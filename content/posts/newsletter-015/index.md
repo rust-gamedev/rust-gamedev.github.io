@@ -82,14 +82,14 @@ Taking the Plunge][plunge] which contains a sneak peek at some of the levels.
 For updates and possible playtesting opportunities, follow
 [@chrispatuzzo][chrispatuzzo].
 
-_Discussions:
-[/r/WorshipTheSunGame](https://reddit.com/r/WorshipTheSunGame)_
+A [/r/WorshipTheSunGame] subreddit was launched to discuss the project.
 
 [legion]: https://github.com/amethyst/legion
 [wgpu]: https://github.com/gfx-rs/wgpu
 [procreate]: https://procreate.art/
 [plunge]: https://tuzz.tech/blog/taking-the-plunge
 [chrispatuzzo]: https://twitter.com/chrispatuzzo
+[/r/WorshipTheSunGame]: https://reddit.com/r/WorshipTheSunGame
 
 ## Learning Material Updates
 
