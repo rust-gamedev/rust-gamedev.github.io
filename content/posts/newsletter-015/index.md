@@ -178,6 +178,37 @@ For main feature reports and dev blogs follow [@pGLOWrpg] on Twitter.
 [@pGLOWrpg]: https://twitter.com/pglowrpg
 [pGLOWrpg]: https://github.com/roalyr/pglowrpg
 
+### [Space Shooter]
+
+![space shooter boss fight](space_shooter_11-03-2020.gif)
+
+The [Space Shooter] project is a game in development by [Carlo Supina] and
+[Micah Tigley]. It is a 2D "shoot-em-up" game that takes place in space and is
+inspired by games like [Raiden] and [Binding of Isaac].
+
+Recent development has been focused on creating an online book for documentation
+for the game. While still a work in progress, the following content is now
+available:
+
+- [Gameplay]
+- [Contributing Code]
+- [Adding Items]
+
+If you're interested in hearing about planning
+an effective code refactor for a project using ECS, make sure to check out
+[How to Revive a Dead Rust Project] at [RustFest Global 2020].
+
+[Space Shooter]: https://github.com/amethyst/space_shooter_rs
+[Carlo Supina]: https://twitter.com/carlosupina
+[Micah Tigley]: https://twitter.com/micah_tigley
+[Raiden]: https://wikipedia.org/wiki/Raiden_(video_game)
+[Binding of Isaac]: https://wikipedia.org/wiki/The_Binding_of_Isaac_(video_game)
+[Gameplay]: https://amethyst.github.io/space_shooter_rs/gameplay.html
+[Contributing Code]: https://amethyst.github.io/space_shooter_rs/contributing.html
+[Adding Items]: https://amethyst.github.io/space_shooter_rs/add_item.html
+[RustFest Global 2020]: https://rustfest.global/
+[How to Revive a Dead Rust Project]: https://rustfest.global/session/22-project-necromancy-how-to-revive-a-dead-rust-project/
+
 ## Learning Material Updates
 
 ### How to: WGPU + Winit + ECS + Pixels
