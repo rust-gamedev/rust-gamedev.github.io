@@ -180,6 +180,26 @@ For main feature reports and dev blogs follow [@pGLOWrpg] on Twitter.
 
 ## Learning Material Updates
 
+### How to: WGPU + Winit + ECS + Pixels
+
+[@nyxtom] published several articles on game
+development for Entity-Component-Systems, Windowing and Event Loops, and WGPU.
+
+- [ECS in Rust](https://nyxtom.dev/2020/10/06/ecs-in-rust/) -
+  written as a high level introduction to entity component systems and
+  using the [hecs] crate.
+- [Winit and Pixels](https://nyxtom.dev/2020/10/07/winit-rust/) -
+  introduces cross platform window management/event loops and provides a
+  tutorial for writing simple pixel graphics and 2d game development using
+  the [pixels] crate (based on WGPU).
+- [Framebuffers, WGPU and Rust](https://nyxtom.dev/2020/10/08/framebuffers/) -
+  an in depth analysis of high level graphics terminology and a full length
+  tutorial for setting up the api and clearing the screen with WGPU.
+
+[@nyxtom]: https://twitter.com/nyxtom
+[hecs]: https://github.com/Ralith/hecs
+[pixels]: https://github.com/parasyte/pixels
+
 ### [How to: Rust + SDL2 + OpenGL on the web][how-to-rust-sdl2-opengl-post]
 
 [@Therocode] published an [article][how-to-rust-sdl2-opengl-post] that
