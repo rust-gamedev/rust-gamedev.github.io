@@ -80,9 +80,7 @@ The game is a few months into development with a release target of late 2021.
 You can read about how swimming was added to the game in [GameDev Note 1:
 Taking the Plunge][plunge] which contains a sneak peek at some of the levels.
 For updates and possible playtesting opportunities, follow
-[@chrispatuzzo][chrispatuzzo].
-
-A [/r/WorshipTheSunGame] subreddit was launched to discuss the project.
+[@chrispatuzzo][chrispatuzzo] and a [/r/WorshipTheSunGame] subreddit.
 
 [legion]: https://github.com/amethyst/legion
 [wgpu]: https://github.com/gfx-rs/wgpu
