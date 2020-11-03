@@ -60,7 +60,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
-### [Camp Misty]
+### [Camp Misty](https://github.com/ReeCocho/camp-misty)
 
 ![Camp Misty Title Screen](camp-misty.PNG)
 
