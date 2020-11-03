@@ -91,6 +91,23 @@ For main feature reports and dev blogs follow [@pGLOWrpg] on Twitter.
 
 ## Library & Tooling Updates
 
+### [This Month in Mun][mun-october]
+
+[![Mun logo](mun-logo.png)][Mun]
+
+[Mun] is a scripting language for gamedev focused on quick iteration times
+that is written in Rust.
+
+[October updates][mun-october] include:
+
+- a plugin for mdbook to test Mun code;
+- support for modules and visibility;
+- the ability to generate enum ABI types;
+- bug fixes and other improvements.
+
+[Mun]: https://mun-lang.org
+[mun-october]: https://mun-lang.org/blog/2020/10/31/this-month-october
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
