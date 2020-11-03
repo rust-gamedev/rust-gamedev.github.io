@@ -151,6 +151,29 @@ shops, character creation, and a few other features:
 [Antorum Online]: https://ratwizard.dev/dev-log/antorum
 [@dooskington]: https://twitter.com/dooskington
 
+### [Power Kick]
+
+![Power Kick](power-kick-shot.png)
+
+[Power Kick] is an one screen platform game inspired by similar old arcade games
+like Bubble Bobble and SnowBros.
+Your task is to hit the enemies till they get dizzy and then kick them out of
+their misery to proceed to the next stage. The kicked enemies will hit the
+colliding enemies with a possibility to create a chain reaction
+(similar to the pushed snowball in SnowBros).
+
+The game have 20 stages and in stage 10 and 20 you will face a helicopter boss.
+
+Can be played solo on the web through WebAssembly or up to two players
+in the downloadable version:
+first player with the keyboard and the second one with a joypad.
+
+The development took around two weeks thanks to [macroquad] and [hecs].
+
+[Power Kick]: https://kakoeimon.itch.io/power-kick
+[macroquad]: https://github.com/not-fl3/macroquad
+[hecs]: https://crates.io/crates/hecs
+
 ### [pGLOWrpg]
 
 ![walking through a forest](pglowrpg.gif)
