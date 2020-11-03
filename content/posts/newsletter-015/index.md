@@ -183,6 +183,28 @@ Join the [Discord server](https://discord.com/invite/ajour) and say hi.
 [Ajour]: https://getajour.com
 [Iced]: https://github.com/hecrj/iced
 
+### [A/B Street][abstreet]
+
+![A/B Street on the web](abstreet.png)
+
+[A/B Street][abstreet] is a traffic simulation game exploring how small changes
+to roads affect cyclists, transit users, pedestrians, and drivers. Any city
+with OpenStreetMap coverage can be used!
+
+Some of this month's updates:
+
+- [web version][abstreet-web] launched, powered by `winit`, `glow`, and other
+  dependencies having support for WebAssembly;
+- an [OpenStreetMap viewer][abstreet-osm] with 100 cities imported;
+- "thought bubbles" for cars looking for parking, by [Michael][mkirk];
+- slow portions of a trip highlighted in the info panel, by [Sam][NoSuchThingAsRandom];
+
+[abstreet]: https://abstreet.org
+[abstreet-web]: http://abstreet.s3-website.us-east-2.amazonaws.com/dev/
+[abstreet-osm]: http://abstreet.s3-website.us-east-2.amazonaws.com/osm_demo/
+[mkirk]: https://github.com/michaelkirk
+[NoSuchThingAsRandom]: https://github.com/NoSuchThingAsRandom/
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
