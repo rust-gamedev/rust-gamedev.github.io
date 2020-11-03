@@ -143,6 +143,29 @@ It is now able to run [bve-reborn] correctly:
 [@cwfitzerald]: https://github.com/cwfitzgerald
 [bve-reborn]: https://github.com/BVE-Reborn/bve-reborn
 
+### Ajour - World of Warcraft Addon Manager
+
+[![Ajour Banner](ajour-banner.jpg)][Ajour]
+
+[Ajour] is a World of Warcraft addon manager written in Rust using [Iced] as GUI
+library. The project is completely advertisement free, privacy respecting and
+open source.
+
+October updates include:
+
+- Catalog support for installing addons.
+- Beta, PTR support.
+- Release channels on addons.
+- CLI options to run Ajour headless.
+- Community driven API.
+
+Join the [Discord server](https://discord.com/invite/ajour) and say hi.
+
+[![Ajour UI](ajour-ui.png)][Ajour]
+
+[Ajour]: https://getajour.com
+[Iced]: https://github.com/hecrj/iced
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
