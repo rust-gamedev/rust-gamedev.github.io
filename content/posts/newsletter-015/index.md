@@ -60,6 +60,35 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### Worship The Sun
+
+![Worship The Sun](worship-sun.jpg)
+_One of the many unique and confounding puzzles in the game_
+
+Worship The Sun is a dark, mysterious 2D puzzle-platform game with computer
+science themes. It introduces the player to a rich language of puzzle elements
+and challenges them to solve difficult puzzles that require experimentation,
+comprehension and internalisation of the game's mechanics.
+
+The game is built using a custom engine that sits on top of [legion][legion],
+[wgpu][wgpu] and a handful of other crates. It features dynamic lighting, a
+flexible particle system, bespoke collision behaviour and a Vim-inspired level
+editor. The majority of game assets are hand drawn in [Procreate][procreate]
+and painstakingly animated.
+
+The game is a few months into development with a release target of late 2021.
+You can read about how swimming was added to the game in [GameDev Note 1:
+Taking the Plunge][plunge] which contains a sneak peek at some of the levels.
+For updates and possible playtesting opportunities, follow
+[@chrispatuzzo][chrispatuzzo] and a [/r/WorshipTheSunGame] subreddit.
+
+[legion]: https://github.com/amethyst/legion
+[wgpu]: https://github.com/gfx-rs/wgpu
+[procreate]: https://procreate.art/
+[plunge]: https://tuzz.tech/blog/taking-the-plunge
+[chrispatuzzo]: https://twitter.com/chrispatuzzo
+[/r/WorshipTheSunGame]: https://reddit.com/r/WorshipTheSunGame
+
 ### [Camp Misty]
 
 ![Camp Misty Title Screen](camp-misty.PNG)
