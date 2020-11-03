@@ -60,19 +60,22 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
-### [Camp Misty](https://github.com/ReeCocho/camp-misty)
+### [Camp Misty]
 
 ![Camp Misty Title Screen](camp-misty.PNG)
 
-[Camp Misty](https://github.com/ReeCocho/camp-misty) is an asymmetric
+[Camp Misty] is an asymmetric
 multiplayer game played on the command line. The game is played with two
 people. One of the players is a helpless victim searching for car parts. If
 they find all of the parts, they can repair their car and escape the camp. The
 other player is a ruthless killer who is trying to hunt down the victim.
 
 The game was created as a learning exercise in about two weeks by
-[@ReeCocho](https://github.com/ReeCocho/), with contributions from the many
-helpful members of the [Rust subreddit](https://www.reddit.com/r/rust/).
+[@ReeCocho], with contributions from the many helpful members of [/r/rust].
+
+[Camp Misty]: https://github.com/ReeCocho/camp-misty
+[@ReeCocho]: https://github.com/ReeCocho
+[/r/rust]: https://reddit.com/r/rust
 
 ### [Antorum Online]
 
