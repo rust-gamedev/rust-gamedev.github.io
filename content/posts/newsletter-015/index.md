@@ -345,6 +345,15 @@ Notable changes:
 [canon-collision]:https://canoncollision.com
 [@rukai]: https://twitter.com/thisIsRukai
 
+### [Project YAWC]
+
+![An in-progress game of Project YAWC.](yawc.png)
+
+Project YAWC is a turn-based strategy game in the style of Advance Wars in
+development by junkmail. October saw the release of Alpha 3, including
+dynamically generated info cards and minor networking changes. For inquiries or
+if you are interested in playtesting, contact projectyawc(at)gmail.com.
+
 ## Learning Material Updates
 
 ### How to: WGPU + Winit + ECS + Pixels
@@ -435,11 +444,11 @@ There were a lot of additions in this update and a small breaking change.
 
   ```rust
   let v = vec4(1.0, 2.0, 3.0, 4.0);
-  
+
   // Reverse elements of `v`.
   // If SIMD is supported this will use a vector shuffle.
   let wzyx = v.wzyx();
-  
+
   let yzw = v.yzw(); // Swizzle the yzw elements of `v` into a `Vec3`
   let xy = v.xy(); // You can swizzle from a `Vec4` to a `Vec2`
   let yyxx = xy.yyxx(); // And back again
