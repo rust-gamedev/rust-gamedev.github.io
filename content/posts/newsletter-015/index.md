@@ -287,6 +287,47 @@ Notable changes:
 [canon-collision]:https://canoncollision.com
 [@rukai]: https://twitter.com/thisIsRukai
 
+### [Veloren][veloren]
+
+![Landscape](veloren_clouds.png)
+_Endless mountains to explore_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In October, lots of work was done on the UI, and a buff system. There was an
+overhaul done to the staff item that gives it new primary and secondary attacks.
+There has also been work done on the axe and bow. The cloud system was
+overhauled and brought a cheaper way to compute the 3D noise that the system uses.
+The skill bar was overhauled to implement a new design that could handle the new
+buff system. This was also the first overhaul in over a year. A SFX system is in
+the works to allow effects to be mapped to blocks, for sounds like crickets or
+birds.
+
+You can read more about some specific topics from October:
+
+- [Modelling Process](https://veloren.net/devblog-88#gemu)
+- [Staff Overhaul](https://veloren.net/devblog-89#staff-overhaul-by-sam)
+- [New Skillbar and Buffs Visuals](https://veloren.net/devblog-89#new-skillbar-and-buffs-visuals-pfau)
+- [Cloud Improvements](https://veloren.net/devblog-90#cloud-improvements-by-zesterer)
+- [Buffs](https://veloren.net/devblog-91#buffs-by-sam)
+- [Alignment and Hostility](https://veloren.net/devblog-91#alignment-and-hostility-by-adam)
+- [Fixing CI](https://veloren.net/devblog-91#fixing-ci-by-xmac94x)
+
+October's full weekly devlogs: "This Week In Veloren...":
+[#88](https://veloren.net/devblog-88),
+[#89](https://veloren.net/devblog-89),
+[#90](https://veloren.net/devblog-90),
+[#91](https://veloren.net/devblog-91).
+
+In November, Veloren will release 0.8. Veloren will also be speaking at
+MiniDebConf on November 22nd.
+
+![Healing sceptre](veloren_wolves.png)
+_Team hunt_
+
+[veloren]: https://veloren.net
+
 ## Learning Material Updates
 
 ### How to: WGPU + Winit + ECS + Pixels
