@@ -349,10 +349,11 @@ Notable changes:
 
 ![Sun Prison gameplay](sun_prison.gif)
 
-[Sun Prison][sun_prison] by [Dima Lazarev][@ropewalker] is a WIP turn-based meditation on 
-Rubik's cube, [Sokoban][bevy_sokoban], and roguelikes, being implemented with [Bevy engine][bevy]. 
-The game is in the very early stages of development, but it is already 
-possible to get lost in the dark or to be eaten by zombies.
+[Sun Prison][sun_prison] by [Dima Lazarev][@ropewalker] is a WIP turn-based
+meditation on Rubik's cube, [Sokoban][bevy_sokoban], and roguelikes, being
+implemented with [Bevy engine][bevy]. The game is in the very early stages of
+development, but it is already possible to get lost in the dark or to be eaten
+by zombies.
 
 Updates are posted on [Twitter][@ropewalker]: [1][sun_prison_twitter_1], [2][sun_prison_twitter_2], [3][sun_prison_twitter_3], [4][sun_prison_twitter_4].
 
