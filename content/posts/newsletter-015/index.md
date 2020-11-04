@@ -60,6 +60,142 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Egregoria]
+
+![Egregoria roads at night](egregoria.jpg)
+
+[Egregoria]'s objective is to become a granular society simulation,
+filled with fully autonomous agents interacting with their world in real time.
+
+The [6th devlog][egregoria-blog-post] was published. Updates include:
+
+- Island generation.
+- Day/night cycle.
+- Human AI via utilitary systems.
+- Specs to [legion 0.3][legion-github] port.
+
+See also [the recent video][egregoria-video] showcasing very basic AI.
+
+Join [Egregoria's Discord server][egregoria-discord].
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/jkcllc/egregoria_devblog_6)_
+
+[Egregoria]: https://github.com/Uriopass/Egregoria
+[egregoria-blog-post]: http://douady.paris/blog/egregoria_6.html
+[legion-github]: https://github.com/amethyst/legion
+[egregoria-video]: https://www.youtube.com/watch?v=mfvAuvC-XLg
+[egregoria-discord]: https://discord.gg/CAaZhUJ
+
+### [A/B Street][abstreet]
+
+![A/B Street on the web](abstreet.png)
+
+[A/B Street][abstreet] is a traffic simulation game exploring how small changes
+to roads affect cyclists, transit users, pedestrians, and drivers. Any city
+with OpenStreetMap coverage can be used!
+
+Some of this month's updates:
+
+- [web version][abstreet-web] launched, powered by `winit`, `glow`, and other
+  dependencies having support for WebAssembly;
+- an [OpenStreetMap viewer][abstreet-osm] with 100 cities imported;
+- "thought bubbles" for cars looking for parking, by [Michael][mkirk];
+- slow portions of a trip highlighted in the info panel, by [Sam][NoSuchThingAsRandom];
+
+[abstreet]: https://abstreet.org
+[abstreet-web]: http://abstreet.s3-website.us-east-2.amazonaws.com/dev/
+[abstreet-osm]: http://abstreet.s3-website.us-east-2.amazonaws.com/osm_demo/
+[mkirk]: https://github.com/michaelkirk
+[NoSuchThingAsRandom]: https://github.com/NoSuchThingAsRandom/
+
+### Worship The Sun
+
+![Worship The Sun](worship-sun.jpg)
+_One of the many unique and confounding puzzles in the game_
+
+Worship The Sun is a dark, mysterious 2D puzzle-platform game with computer
+science themes. It introduces the player to a rich language of puzzle elements
+and challenges them to solve difficult puzzles that require experimentation,
+comprehension and internalisation of the game's mechanics.
+
+The game is built using a custom engine that sits on top of [legion][legion],
+[wgpu][wgpu] and a handful of other crates. It features dynamic lighting, a
+flexible particle system, bespoke collision behaviour and a Vim-inspired level
+editor. The majority of game assets are hand drawn in [Procreate][procreate]
+and painstakingly animated.
+
+The game is a few months into development with a release target of late 2021.
+You can read about how swimming was added to the game in [GameDev Note 1:
+Taking the Plunge][plunge] which contains a sneak peek at some of the levels.
+For updates and possible playtesting opportunities, follow
+[@chrispatuzzo][chrispatuzzo] and a [/r/WorshipTheSunGame] subreddit.
+
+[legion]: https://github.com/amethyst/legion
+[wgpu]: https://github.com/gfx-rs/wgpu
+[procreate]: https://procreate.art/
+[plunge]: https://tuzz.tech/blog/taking-the-plunge
+[chrispatuzzo]: https://twitter.com/chrispatuzzo
+[/r/WorshipTheSunGame]: https://reddit.com/r/WorshipTheSunGame
+
+### [Camp Misty]
+
+![Camp Misty Title Screen](camp-misty.PNG)
+
+[Camp Misty] is an asymmetric
+multiplayer game played on the command line. The game is played with two
+people. One of the players is a helpless victim searching for car parts. If
+they find all of the parts, they can repair their car and escape the camp. The
+other player is a ruthless killer who is trying to hunt down the victim.
+
+The game was created as a learning exercise in about two weeks by
+[@ReeCocho], with contributions from the many helpful members of [/r/rust].
+
+[Camp Misty]: https://github.com/ReeCocho/camp-misty
+[@ReeCocho]: https://github.com/ReeCocho
+[/r/rust]: https://reddit.com/r/rust
+
+### [Antorum Online]
+
+![A small marketplace area with a few merchants](antorum-online-10-29-2020.jpg)
+
+Antorum Online is a micro-multiplayer online role-playing game by [@dooskington].
+The game server is written in Rust, and the current "official" client is being
+developed in Unity. The server can be self-hosted, and the network protocol is
+open, so even custom clients that adhere to the protocol can connect and play.
+
+Two more devlogs were published this month, regarding work done to implement
+shops, character creation, and a few other features:
+
+- [21: Belmart, Shops, And Bartering](https://ratwizard.dev/dev-log/antorum/21)
+- [22: Character Creation And Customization](https://ratwizard.dev/dev-log/antorum/22)
+
+[Antorum Online]: https://ratwizard.dev/dev-log/antorum
+[@dooskington]: https://twitter.com/dooskington
+
+### [Power Kick]
+
+![Power Kick](power-kick-shot.png)
+
+[Power Kick] is an one screen platform game inspired by similar old arcade games
+like Bubble Bobble and SnowBros.
+Your task is to hit the enemies till they get dizzy and then kick them out of
+their misery to proceed to the next stage. The kicked enemies will hit the
+colliding enemies with a possibility to create a chain reaction
+(similar to the pushed snowball in SnowBros).
+
+The game have 20 stages and in stage 10 and 20 you will face a helicopter boss.
+
+Can be played solo on the web through WebAssembly or up to two players
+in the downloadable version:
+first player with the keyboard and the second one with a joypad.
+
+The development took around two weeks thanks to [macroquad] and [hecs].
+
+[Power Kick]: https://kakoeimon.itch.io/power-kick
+[macroquad]: https://github.com/not-fl3/macroquad
+[hecs]: https://crates.io/crates/hecs
+
 ### [pGLOWrpg]
 
 ![walking through a forest](pglowrpg.gif)
@@ -87,9 +223,143 @@ For main feature reports and dev blogs follow [@pGLOWrpg] on Twitter.
 [@pGLOWrpg]: https://twitter.com/pglowrpg
 [pGLOWrpg]: https://github.com/roalyr/pglowrpg
 
+### [Space Shooter]
+
+![space shooter boss fight](space_shooter_11-03-2020.gif)
+
+The [Space Shooter] project is a game in development by [Carlo Supina] and
+[Micah Tigley]. It is a 2D "shoot-em-up" game that takes place in space and is
+inspired by games like [Raiden] and [Binding of Isaac].
+
+Recent development has been focused on creating an online book for documentation
+for the game. While still a work in progress, the following content is now
+available:
+
+- [Gameplay]
+- [Contributing Code]
+- [Adding Items]
+
+If you're interested in hearing about planning
+an effective code refactor for a project using ECS, make sure to check out
+[How to Revive a Dead Rust Project] at [RustFest Global 2020].
+
+[Space Shooter]: https://github.com/amethyst/space_shooter_rs
+[Carlo Supina]: https://twitter.com/carlosupina
+[Micah Tigley]: https://twitter.com/micah_tigley
+[Raiden]: https://wikipedia.org/wiki/Raiden_(video_game)
+[Binding of Isaac]: https://wikipedia.org/wiki/The_Binding_of_Isaac_(video_game)
+[Gameplay]: https://amethyst.github.io/space_shooter_rs/gameplay.html
+[Contributing Code]: https://amethyst.github.io/space_shooter_rs/contributing.html
+[Adding Items]: https://amethyst.github.io/space_shooter_rs/add_item.html
+[RustFest Global 2020]: https://rustfest.global/
+[How to Revive a Dead Rust Project]: https://rustfest.global/session/22-project-necromancy-how-to-revive-a-dead-rust-project/
+
+### [Weegames][weegames-itch]
+
+[![Jumping across walls minigame](weegames.png)][weegames-video]
+_Click to see [a demo video][weegames-video]_
+
+[Weegames][weegames-itch] ([source code][weegames-repository])
+is a fast-paced minigame collection.
+
+There are now 40 minigames in the collection.
+New features in the latest release include boss games and high scores.
+
+[weegames-itch]: https://yeahross.itch.io/weegames
+[weegames-repository]: https://github.com/yeahross0/weegames
+[weegames-video]: https://youtu.be/sstqGppo7L4
+
+### [Canon Collision][canon-collision]
+
+![gameplay](canon_collision.gif)
+
+[Canon Collision][canon-collision] by [@rukai] is an Undertale + Homestuck
+fan-made platform fighter with powerful tools for modding.
+
+This month, he completed the abstractions needed for character specific logic.
+Notable changes:
+
+- [toriel's fireball](https://twitter.com/thisIsRukai/status/1302250049972314112)
+- [wobbly fireball shaders](https://twitter.com/thisIsRukai/status/1299311125285142529)
+- [items that can be picked up and thrown](https://twitter.com/thisIsRukai/status/1297507398693736448)
+- [character specific logic](https://twitter.com/thisIsRukai/status/1314872752642297856)
+
+[canon-collision]:https://canoncollision.com
+[@rukai]: https://twitter.com/thisIsRukai
+
 ## Learning Material Updates
 
+### How to: WGPU + Winit + ECS + Pixels
+
+[@nyxtom] published several articles on game
+development for Entity-Component-Systems, Windowing and Event Loops, and WGPU.
+
+- [ECS in Rust](https://nyxtom.dev/2020/10/06/ecs-in-rust/) -
+  written as a high level introduction to entity component systems and
+  using the [hecs] crate.
+- [Winit and Pixels](https://nyxtom.dev/2020/10/07/winit-rust/) -
+  introduces cross platform window management/event loops and provides a
+  tutorial for writing simple pixel graphics and 2d game development using
+  the [pixels] crate (based on WGPU).
+- [Framebuffers, WGPU and Rust](https://nyxtom.dev/2020/10/08/framebuffers/) -
+  an in depth analysis of high level graphics terminology and a full length
+  tutorial for setting up the api and clearing the screen with WGPU.
+
+[@nyxtom]: https://twitter.com/nyxtom
+[hecs]: https://github.com/Ralith/hecs
+[pixels]: https://github.com/parasyte/pixels
+
+### [Creating a Snake Clone in Bevy]
+
+![Snake clone tutorial output](bevy_snake.gif)
+_Gameplay of snake clone_
+
+Bevy is a rapidly growing game engine written in Rust. This tutorial walks
+through creating a snake clone, introducing Bevy concepts on the way. The
+tutorial covers resources, systems, timers, entities, components, materials,
+creating a grid system, and spawning/despawning entities.
+
+[Creating a Snake Clone in Bevy]: https://mbuffett.com/posts/bevy-snake-tutorial/
+
+### [How to: Rust + SDL2 + OpenGL on the web][how-to-rust-sdl2-opengl-post]
+
+[@Therocode] published an [article][how-to-rust-sdl2-opengl-post] that
+explains how to port games to the web using Emscripten.
+It is not only useful if you have an existing game to port, but
+also if you are looking for a starting point for a new application.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/jmeqan/how_to_rust_sdl2_opengl_on_the_web)_
+
+[how-to-rust-sdl2-opengl-post]: https://blog.therocode.net/2020/10/a-guide-to-rust-sdl2-emscripten
+[@Therocode]: https://twitter.com/therocode
+
 ## Library & Tooling Updates
+
+### [rust-psp]
+
+![tetris on rust-psp](rust-psp-tetris-small.jpg)
+
+Move over Tetris Effect and Tetris 99, the first game has been created with
+[rust-psp], and it's [Tetris]! This was a big step because it proves that
+rust-psp is ready for game development, even though it's still `#![no_std]`.
+`std` support is a work in progress, and the project is always open to new
+contributors to the library, the tooling, or people who want to make PSP games
+in Rust.
+
+Another development for rust-psp this month is [reverse engineering]
+of the Sony library for the hardware vector floating point unit of the PSP.
+All the vector and matrix operations provided by the Sony library have been
+PR'ed to rust-psp's main repo, and there are still more functions to come.
+
+To stay up to date on [rust-psp] development, you can join the project's [Discord]
+or follow [@sajattack] on Twitter.
+
+[rust-psp]: https://github.com/overdrivenpotato/rust-psp
+[Tetris]: https://github.com/sajattack/rust-psp/tree/tetris/examples/tetris
+[reverse engineering]: https://psp.re
+[Discord]: https://discord.gg/tvGzD4GqvF
+[@sajattack]: https://twitter.com/sajattack
 
 ### [glam] v0.10.0
 
@@ -130,6 +400,109 @@ For a full list of changes see the [glam changelog].
 [libm]: https://github.com/rust-lang/libm
 [bytemuck]: https://docs.rs/bytemuck
 [glam changelog]: https://github.com/bitshifter/glam-rs/blob/master/CHANGELOG.md
+
+### [This Month in Mun][mun-october]
+
+[![Mun logo](mun-logo.png)][Mun]
+
+[Mun] is a scripting language for gamedev focused on quick iteration times
+that is written in Rust.
+
+[October updates][mun-october] include:
+
+- a plugin for mdbook to test Mun code;
+- support for modules and visibility;
+- the ability to generate enum ABI types;
+- bug fixes and other improvements.
+
+[Mun]: https://mun-lang.org
+[mun-october]: https://mun-lang.org/blog/2020/10/31/this-month-october
+
+### [gfx-rs]
+
+gfx-rs support for D3D has been improved. [@kvark] landed a few critical fixes
+in the DX12 backend, including the proper handle freeing, compressed textures
+support, blend factors, and debug markers.
+
+[@cwfitzerald] brought DX11 backend practically to the 1st tier with titanic
+work spread over a dozen of pull requests.
+It is now able to run [bve-reborn] correctly:
+
+![bve-reborn on dx11](bve-reborn-dx11.jpg)
+
+[gfx-rs]: https://github.com/gfx-rs/gfx
+[@kvark]: https://github.com/kvark
+[@cwfitzerald]: https://github.com/cwfitzgerald
+[bve-reborn]: https://github.com/BVE-Reborn/bve-reborn
+
+### [Tetra]
+
+[Tetra] is a simple 2D game framework, inspired by XNA and Raylib. This month,
+versions 0.5.1 and 0.5.2 were released, fulfilling some long-standing feature
+requests:
+
+- Custom error types can now be used in your game loop
+- Custom shaders gained support for multiple texture samplers and color uniforms
+- Methods were added to `Texture` and `Canvas` for writing pixel data at runtime
+- Various helpful `std` traits were implemented for `Color`
+
+For full details and a list of breaking changes, see the [changelog][tetra-changelog].
+
+[tetra]: https://github.com/17cupsofcoffee/tetra
+[tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
+
+### [ogmo3]
+
+[ogmo3] is a Rust crate for parsing projects and levels created with
+[Ogmo Editor 3]. It is loosely modeled after `ogmo-3-lib`, the Haxe reference
+implementation of an Ogmo level parser.
+
+This month, it was released onto crates.io for the first time, and a
+[full example][ogmo3-sample] was added, showing how a simple project can be
+loadedinto a game engine.
+
+[ogmo3]: https://github.com/17cupsofcoffee/ogmo3
+[Ogmo Editor 3]: https://ogmo-editor-3.github.io/
+[ogmo3-sample]: https://github.com/17cupsofcoffee/ogmo3/blob/main/examples/sample.rs
+
+### Ajour - World of Warcraft Addon Manager
+
+[![Ajour Banner](ajour-banner.jpg)][Ajour]
+
+[Ajour] is a World of Warcraft addon manager written in Rust using [Iced] as GUI
+library. The project is completely advertisement free, privacy respecting and
+open source.
+
+October updates include:
+
+- Catalog support for installing addons.
+- Beta, PTR support.
+- Release channels on addons.
+- CLI options to run Ajour headless.
+- Community driven API.
+
+Join the [Discord server](https://discord.com/invite/ajour) and say hi.
+
+[![Ajour UI](ajour-ui.png)][Ajour]
+
+[Ajour]: https://getajour.com
+[Iced]: https://github.com/hecrj/iced
+
+### [Proton][Proton-Github] 5.13-1
+
+In addition to adding Linux Support for more Windows-exclusive games,
+Valve Software's wine-based translation layer for Linux: Proton now
+includes Rust as part of its build system.
+[Media Converter][Proton-Media-Converter-Github], is a Proton module
+written in Rust as a gstreamer plugin to convert certain media encodings
+from one format to another.
+
+Doucmentation for building Proton is available on [Github][Proton-Github].
+Further documentation on Media Converter and its source code is available
+on the module's [repository][Proton-Media-Converter-Github]
+
+[Proton-Github]: https://github.com/ValveSoftware/Proton
+[Proton-Media-Converter-Github]: https://github.com/ValveSoftware/Proton/tree/proton_5.13/media-converter
 
 ## Popular Workgroup Issues in Github
 
