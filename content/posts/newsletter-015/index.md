@@ -105,7 +105,7 @@ in Rust.
 Another development for rust-psp this month is [reverse engineering]
 of the Sony library for the hardware vector floating point unit of the PSP.
 All the vector and matrix operations provided by the Sony library have been
-PR'ed to our main repo, and there are still more functions to come.
+PR'ed to rust-psp's main repo, and there are still more functions to come.
 
 To stay up to date on [rust-psp] development, you can join the project's [Discord]
 or follow [@sajattack] on Twitter.
