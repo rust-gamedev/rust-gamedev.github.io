@@ -361,6 +361,46 @@ or follow [@sajattack] on Twitter.
 [Discord]: https://discord.gg/tvGzD4GqvF
 [@sajattack]: https://twitter.com/sajattack
 
+### [glam] v0.10.0
+
+[glam] is a simple and fast linear algebra crate for games and graphics.
+
+This month v0.10.0 was released.
+There were a lot of additions in this update and a small breaking change.
+
+- The return type of `Vec4::truncate()` was changed from `Vec3A` to `Vec3` which
+  is a breaking change and thus the version jumped from 0.9 to 0.10.
+- Vector swizzle functions similar to those found in [GLSL] were added. Swizzle
+  functions allow a vectors elements to be reordered. The result can be a vector
+  of a different size to the input. Swizzles are implemented with SIMD
+  instructions where possible, e.g. for the `Vec4` type.
+
+  ```rust
+  let v = vec4(1.0, 2.0, 3.0, 4.0);
+  
+  // Reverse elements of `v`.
+  // If SIMD is supported this will use a vector shuffle.
+  let wzyx = v.wzyx();
+  
+  let yzw = v.yzw(); // Swizzle the yzw elements of `v` into a `Vec3`
+  let xy = v.xy(); // You can swizzle from a `Vec4` to a `Vec2`
+  let yyxx = xy.yyxx(); // And back again
+  ```
+
+- [no_std] support was added, using [libm] for math functions that are not
+  implemented in `core`.
+- Optional support for the [bytemuck] crate was added, this allows appropriate
+  glam types to be cast into `&[u8]`.
+
+For a full list of changes see the [glam changelog].
+
+[glam]: https://github.com/bitshifter/glam-rs
+[GLSL]: https://www.khronos.org/opengl/wiki/Data_Type_(GLSL)#Swizzling
+[no_std]: https://rust-embedded.github.io/book/intro/no-std.html
+[libm]: https://github.com/rust-lang/libm
+[bytemuck]: https://docs.rs/bytemuck
+[glam changelog]: https://github.com/bitshifter/glam-rs/blob/master/CHANGELOG.md
+
 ### [This Month in Mun][mun-october]
 
 [![Mun logo](mun-logo.png)][Mun]
