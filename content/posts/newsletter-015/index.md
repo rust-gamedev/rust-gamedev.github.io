@@ -345,6 +345,26 @@ Notable changes:
 [canon-collision]:https://canoncollision.com
 [@rukai]: https://twitter.com/thisIsRukai
 
+### [Sun Prison][sun_prison]
+
+![Sun Prison gameplay](sun_prison.gif)
+
+[Sun Prison][sun_prison] by [Dima Lazarev][@ropewalker] is a WIP turn-based meditation on 
+Rubik's cube, [Sokoban][bevy_sokoban], and roguelikes, being implemented with [Bevy engine][bevy]. 
+The game is in the very early stages of development, but it is already 
+possible to get lost in the dark or to be eaten by zombies.
+
+Updates are posted on [Twitter][@ropewalker]: [1][sun_prison_twitter_1], [2][sun_prison_twitter_2], [3][sun_prison_twitter_3], [4][sun_prison_twitter_4].
+
+[sun_prison]:https://github.com/ropewalker/sun_prison
+[bevy_sokoban]:https://github.com/ropewalker/bevy_sokoban/
+[bevy]:https://bevyengine.org/
+[@ropewalker]:https://twitter.com/dmitrywithouti
+[sun_prison_twitter_1]:https://twitter.com/dmitrywithouti/status/1296702950811852800
+[sun_prison_twitter_2]:https://twitter.com/dmitrywithouti/status/1309025584039768064
+[sun_prison_twitter_3]:https://twitter.com/dmitrywithouti/status/1309982656260648960
+[sun_prison_twitter_4]:https://twitter.com/dmitrywithouti/status/1323871189618614272
+
 ## Learning Material Updates
 
 ### How to: WGPU + Winit + ECS + Pixels
