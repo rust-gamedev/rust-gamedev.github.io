@@ -546,6 +546,33 @@ on the module's [repository][Proton-Media-Converter-Github]
 [Proton-Github]: https://github.com/ValveSoftware/Proton
 [Proton-Media-Converter-Github]: https://github.com/ValveSoftware/Proton/tree/proton_5.13/media-converter
 
+### [rg3d]
+
+[![a scene with lightning and a hi-poly character model](rg3d.jpg)][rg3d_twit]
+
+[rg3d] is a game engine that aims to be easy to use and provide large set
+of out-of-box features. Some of the recent updates:
+
+- Implemented fully asynchronous resource loading.
+- Added compressed textures support (DXT1, DTX3, DTX5).
+- Added filtering and wrapping options for textures.
+- Added sky box.
+- Added texture import options for resource manager.
+- All dependencies were moved to rg3d workspace, so there is no need to
+  manually download them when working with the latest version of the engine.
+- Extracted HRTF code in the separate [crate][hrtf], so it could be used
+  without rg3d.
+- Lots of other bugfixes and improvements.
+
+Join the [rg3d's Discord channel][rg3d_discord]
+or follow [Dmitry Stepanov on twitter][rg3d_twitter].
+
+[rg3d]: https://github.com/mrDIMAS/rg3d
+[hrtf]: https://github.com/mrDIMAS/hrtf
+[rg3d_twit]: https://twitter.com/DmitryS36934349/status/1312836831390687232
+[rg3d_discord]: https://discord.gg/xENF5Uh
+[rg3d_twitter]: https://twitter.com/DmitryS36934349
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
