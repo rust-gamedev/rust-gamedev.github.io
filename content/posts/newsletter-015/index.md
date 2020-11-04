@@ -492,6 +492,43 @@ loadedinto a game engine.
 [Ogmo Editor 3]: https://ogmo-editor-3.github.io/
 [ogmo3-sample]: https://github.com/17cupsofcoffee/ogmo3/blob/main/examples/sample.rs
 
+### [Wilds]
+
+![Demo: sponza atrium](wilds.1.png)
+
+[Wilds] is very early in development game engine.
+
+It features a renderer that uses Vulkan [ray-tracing extension] supported
+by NVidia RTX cards and future AMD cards.
+
+Screenshot above is rendered using [DDGI] technique implemented exclusively
+with Rust and GLSL for shaders.
+In the whole scene there is only one directional light source - "sun" -
+and no "ambient" light.
+All geometry in viewport is shadowed from "sun" and is lit with diffuse
+illumination.
+
+To keep things as simple as possible the engine uses [Hecs] - minimalistic
+ECS library.
+Assets are loaded asynchronously using [Goods] asset manager.
+
+Traditional rasteriazation rendering pipeline and support [wgpu] backend are planned
+to support wider range of platforms/hardware.
+
+Implementing GUI system and basic editor is also a priority goal.
+
+Follow progress [on Twitter](https://twitter.com/zakarum4).
+Contributions and feedback are always welcome.
+
+[Wilds]: https://github.com/zakarumych/wilds
+[ray-tracing extension]: https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_KHR_ray_tracing.html
+[DDGI]: https://morgan3d.github.io/articles/2019-04-01-ddgi/
+[Hecs]: https://lib.rs/crates/hecs
+[Goods]: https://github.com/zakarumych/goods
+[~~Shave more yaks~~]: https://github.com/zakarumych/gpu-alloc
+[Rapier]: https://rapier.rs
+[Wgpu]: https://wgpu.rs
+
 ### [Arsenal]
 
 ![text logo](arsenal.png)
