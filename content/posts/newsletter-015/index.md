@@ -87,6 +87,28 @@ _Discussions:
 [egregoria-video]: https://www.youtube.com/watch?v=mfvAuvC-XLg
 [egregoria-discord]: https://discord.gg/CAaZhUJ
 
+### [A/B Street][abstreet]
+
+![A/B Street on the web](abstreet.png)
+
+[A/B Street][abstreet] is a traffic simulation game exploring how small changes
+to roads affect cyclists, transit users, pedestrians, and drivers. Any city
+with OpenStreetMap coverage can be used!
+
+Some of this month's updates:
+
+- [web version][abstreet-web] launched, powered by `winit`, `glow`, and other
+  dependencies having support for WebAssembly;
+- an [OpenStreetMap viewer][abstreet-osm] with 100 cities imported;
+- "thought bubbles" for cars looking for parking, by [Michael][mkirk];
+- slow portions of a trip highlighted in the info panel, by [Sam][NoSuchThingAsRandom];
+
+[abstreet]: https://abstreet.org
+[abstreet-web]: http://abstreet.s3-website.us-east-2.amazonaws.com/dev/
+[abstreet-osm]: http://abstreet.s3-website.us-east-2.amazonaws.com/osm_demo/
+[mkirk]: https://github.com/michaelkirk
+[NoSuchThingAsRandom]: https://github.com/NoSuchThingAsRandom/
+
 ### Worship The Sun
 
 ![Worship The Sun](worship-sun.jpg)
@@ -201,6 +223,37 @@ For main feature reports and dev blogs follow [@pGLOWrpg] on Twitter.
 [@pGLOWrpg]: https://twitter.com/pglowrpg
 [pGLOWrpg]: https://github.com/roalyr/pglowrpg
 
+### [Space Shooter]
+
+![space shooter boss fight](space_shooter_11-03-2020.gif)
+
+The [Space Shooter] project is a game in development by [Carlo Supina] and
+[Micah Tigley]. It is a 2D "shoot-em-up" game that takes place in space and is
+inspired by games like [Raiden] and [Binding of Isaac].
+
+Recent development has been focused on creating an online book for documentation
+for the game. While still a work in progress, the following content is now
+available:
+
+- [Gameplay]
+- [Contributing Code]
+- [Adding Items]
+
+If you're interested in hearing about planning
+an effective code refactor for a project using ECS, make sure to check out
+[How to Revive a Dead Rust Project] at [RustFest Global 2020].
+
+[Space Shooter]: https://github.com/amethyst/space_shooter_rs
+[Carlo Supina]: https://twitter.com/carlosupina
+[Micah Tigley]: https://twitter.com/micah_tigley
+[Raiden]: https://wikipedia.org/wiki/Raiden_(video_game)
+[Binding of Isaac]: https://wikipedia.org/wiki/The_Binding_of_Isaac_(video_game)
+[Gameplay]: https://amethyst.github.io/space_shooter_rs/gameplay.html
+[Contributing Code]: https://amethyst.github.io/space_shooter_rs/contributing.html
+[Adding Items]: https://amethyst.github.io/space_shooter_rs/add_item.html
+[RustFest Global 2020]: https://rustfest.global/
+[How to Revive a Dead Rust Project]: https://rustfest.global/session/22-project-necromancy-how-to-revive-a-dead-rust-project/
+
 ### [Weegames][weegames-itch]
 
 [![Jumping across walls minigame](weegames.png)][weegames-video]
@@ -215,6 +268,24 @@ New features in the latest release include boss games and high scores.
 [weegames-itch]: https://yeahross.itch.io/weegames
 [weegames-repository]: https://github.com/yeahross0/weegames
 [weegames-video]: https://youtu.be/sstqGppo7L4
+
+### [Canon Collision][canon-collision]
+
+![gameplay](canon_collision.gif)
+
+[Canon Collision][canon-collision] by [@rukai] is an Undertale + Homestuck
+fan-made platform fighter with powerful tools for modding.
+
+This month, he completed the abstractions needed for character specific logic.
+Notable changes:
+
+- [toriel's fireball](https://twitter.com/thisIsRukai/status/1302250049972314112)
+- [wobbly fireball shaders](https://twitter.com/thisIsRukai/status/1299311125285142529)
+- [items that can be picked up and thrown](https://twitter.com/thisIsRukai/status/1297507398693736448)
+- [character specific logic](https://twitter.com/thisIsRukai/status/1314872752642297856)
+
+[canon-collision]:https://canoncollision.com
+[@rukai]: https://twitter.com/thisIsRukai
 
 ## Learning Material Updates
 
@@ -264,6 +335,31 @@ _Discussions:
 [@Therocode]: https://twitter.com/therocode
 
 ## Library & Tooling Updates
+
+### [rust-psp]
+
+![tetris on rust-psp](rust-psp-tetris-small.jpg)
+
+Move over Tetris Effect and Tetris 99, the first game has been created with
+[rust-psp], and it's [Tetris]! This was a big step because it proves that
+rust-psp is ready for game development, even though it's still `#![no_std]`.
+`std` support is a work in progress, and the project is always open to new
+contributors to the library, the tooling, or people who want to make PSP games
+in Rust.
+
+Another development for rust-psp this month is [reverse engineering]
+of the Sony library for the hardware vector floating point unit of the PSP.
+All the vector and matrix operations provided by the Sony library have been
+PR'ed to rust-psp's main repo, and there are still more functions to come.
+
+To stay up to date on [rust-psp] development, you can join the project's [Discord]
+or follow [@sajattack] on Twitter.
+
+[rust-psp]: https://github.com/overdrivenpotato/rust-psp
+[Tetris]: https://github.com/sajattack/rust-psp/tree/tetris/examples/tetris
+[reverse engineering]: https://psp.re
+[Discord]: https://discord.gg/tvGzD4GqvF
+[@sajattack]: https://twitter.com/sajattack
 
 ### [This Month in Mun][mun-october]
 
@@ -351,6 +447,22 @@ Join the [Discord server](https://discord.com/invite/ajour) and say hi.
 
 [Ajour]: https://getajour.com
 [Iced]: https://github.com/hecrj/iced
+
+### [Proton][Proton-Github] 5.13-1
+
+In addition to adding Linux Support for more Windows-exclusive games,
+Valve Software's wine-based translation layer for Linux: Proton now
+includes Rust as part of its build system.
+[Media Converter][Proton-Media-Converter-Github], is a Proton module
+written in Rust as a gstreamer plugin to convert certain media encodings
+from one format to another.
+
+Doucmentation for building Proton is available on [Github][Proton-Github].
+Further documentation on Media Converter and its source code is available
+on the module's [repository][Proton-Media-Converter-Github]
+
+[Proton-Github]: https://github.com/ValveSoftware/Proton
+[Proton-Media-Converter-Github]: https://github.com/ValveSoftware/Proton/tree/proton_5.13/media-converter
 
 ## Popular Workgroup Issues in Github
 
