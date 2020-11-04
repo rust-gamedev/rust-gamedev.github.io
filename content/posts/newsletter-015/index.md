@@ -138,6 +138,23 @@ For updates and possible playtesting opportunities, follow
 [chrispatuzzo]: https://twitter.com/chrispatuzzo
 [/r/WorshipTheSunGame]: https://reddit.com/r/WorshipTheSunGame
 
+### [Akigi][akigi]
+
+[Akigi][akigi] is a WIP online multiplayer game.
+
+In October, more progress was made on the editor tool for placing entity spawn
+points. Work was started on prototyping the hunting skill. Functionality was
+added to allow focusing for TextAreas in the user interface. Improvements were
+made to the engine's asset management code to make it more generalized.
+
+Full devlogs:
+[#087](https://devjournal.akigi.com/october-2020/087-2020-10-04.html),
+[#088](https://devjournal.akigi.com/october-2020/088-2020-10-11.html),
+[#089](https://devjournal.akigi.com/october-2020/089-2020-10-18.html),
+[#090](https://devjournal.akigi.com/october-2020/090-2020-10-25.html).
+
+[akigi]: https://akigi.com
+
 ### [Camp Misty]
 
 ![Camp Misty Title Screen](camp-misty.PNG)
@@ -333,23 +350,6 @@ _Discussions:
 
 [how-to-rust-sdl2-opengl-post]: https://blog.therocode.net/2020/10/a-guide-to-rust-sdl2-emscripten
 [@Therocode]: https://twitter.com/therocode
-
-### [Akigi][akigi]
-
-[Akigi][akigi] is a WIP online multiplayer game.
-
-In October, more progress was made on the editor tool for placing entity spawn
-points. Work was started on prototyping the hunting skill. Functionality was
-added to allow focusing for TextAreas in the user interface. Improvements were
-made to the engine's asset management code to make it more generalized.
-
-Full devlogs:
-[#087](https://devjournal.akigi.com/october-2020/087-2020-10-04.html),
-[#088](https://devjournal.akigi.com/october-2020/088-2020-10-11.html),
-[#089](https://devjournal.akigi.com/october-2020/089-2020-10-18.html),
-[#090](https://devjournal.akigi.com/october-2020/090-2020-10-25.html).
-
-[akigi]: https://akigi.com
 
 ## Library & Tooling Updates
 
