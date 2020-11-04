@@ -435,6 +435,33 @@ It is now able to run [bve-reborn] correctly:
 [@cwfitzerald]: https://github.com/cwfitzgerald
 [bve-reborn]: https://github.com/BVE-Reborn/bve-reborn
 
+### [rg3d]
+
+[![a scene with lightning and a hi-poly character model](rg3d.jpg)][rg3d_twit]
+
+[rg3d] is a game engine that aims to be easy to use and provide large set
+of out-of-box features. Some of the recent updates:
+
+- Implemented fully asynchronous resource loading.
+- Added compressed textures support (DXT1, DTX3, DTX5).
+- Added filtering and wrapping options for textures.
+- Added sky box.
+- Added texture import options for resource manager.
+- All dependencies were moved to rg3d workspace, so there is no need to
+  manually download them when working with the latest version of the engine.
+- Extracted HRTF code in the separate [crate][hrtf], so it could be used
+  without rg3d.
+- Lots of other bugfixes and improvements.
+
+Join the [rg3d's Discord channel][rg3d_discord]
+or follow [Dmitry Stepanov on twitter][rg3d_twitter].
+
+[rg3d]: https://github.com/mrDIMAS/rg3d
+[hrtf]: https://github.com/mrDIMAS/hrtf
+[rg3d_twit]: https://twitter.com/DmitryS36934349/status/1312836831390687232
+[rg3d_discord]: https://discord.gg/xENF5Uh
+[rg3d_twitter]: https://twitter.com/DmitryS36934349
+
 ### [Tetra]
 
 [Tetra] is a simple 2D game framework, inspired by XNA and Raylib. This month,
@@ -501,6 +528,48 @@ Contributions and feedback are always welcome.
 [~~Shave more yaks~~]: https://github.com/zakarumych/gpu-alloc
 [Rapier]: https://rapier.rs
 [Wgpu]: https://wgpu.rs
+
+### [Arsenal]
+
+![text logo](arsenal.png)
+
+[Arsenal] is a [Blender] game engine built on Rust and the [Bevy] game engine.
+Arsenal's goal is to bring the ability to makes games of any scale to game
+developers and artists of any experience level.
+
+In the last month Arsenal has gotten back into full steam development with the
+goal to produce an Arsenal 0.2 release that you can make simple games with.
+Development has focused thus far on the all-important scripting interface
+necessary to be able to make games without re-compiling the engine. Great
+progress has been made on a Bevy [pull request][bevy_dynamic_pr] to facilitate
+dynamic components and systems, and the first efforts have been started to
+leverage that functionality to enable scripting with Python.
+
+Weekly Arsenal development updates are made in the [Arsenal channel] on
+[Katharostech.com], including the updates for this month:
+
+- [Arsenal Development: Week 1 of Full Time Dev][arsenal_dev_week_1]
+- [Arsenal Development: Week 2 - Bevy Benchmarks][arsenal_dev_week_2]
+- [Arsenal Development: Week 3 - Nailing Down Dynamic ECS][arsenal_dev_week_3]
+- [Arsenal Development: Week 4 - Lock Free Dynamic Queries][arsenal_dev_week_4]
+
+You can check the [project's workboard][arsenal-workboard],
+provide feedback [on the issues][arsenal-issues],
+and support the authors at [Github Sponsors page][arsenal-sponsors].
+
+[arsenal]: https://github.com/katharostech/arsenal
+[blender]: https://blender.org
+[bevy]: https://bevyengine.org
+[bevy_dynamic_pr]: https://github.com/bevyengine/bevy/pull/623
+[katharostech.com]: https://katharostech.com
+[arsenal channel]: https://katharostech.com/tag/arsenal
+[arsenal_dev_week_1]: https://katharostech.com/post/arsenal-development-week-1-of-full-time-dev
+[arsenal_dev_week_2]: https://katharostech.com/post/arsenal-development-week-2-bevy-benchmarks
+[arsenal_dev_week_3]: https://katharostech.com/post/arsenal-development-week-3-nailing-down-dynamic
+[arsenal_dev_week_4]: https://katharostech.com/post/arsenal-development-week-4-lock-free-dynamic-queries
+[arsenal-workboard]: https://github.com/katharostech/arsenal/projects/1
+[arsenal-issues]: https://github.com/katharostech/arsenal/issues
+[arsenal-sponsors]: https://github.com/sponsors/katharostech
 
 ### Ajour - World of Warcraft Addon Manager
 
