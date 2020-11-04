@@ -116,6 +116,7 @@ There were a lot of additions in this update and a small breaking change.
   let xy = v.xy(); // You can swizzle from a `Vec4` to a `Vec2`
   let yyxx = xy.yyxx(); // And back again
   ```
+
 - [no_std] support was added, using [libm] for math functions that are not
   implemented in `core`.
 - Optional support for the [bytemuck] crate was added, this allows appropriate
