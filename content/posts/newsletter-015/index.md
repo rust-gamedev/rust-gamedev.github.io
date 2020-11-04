@@ -485,17 +485,10 @@ To keep things as simple as possible the engine uses [Hecs] - minimalistic
 ECS library.
 Assets are loaded asynchronously using [Goods] asset manager.
 
-Future plans:
+Traditional rasteriazation rendering pipeline and support [wgpu] backend are planned
+to support wider range of platforms/hardware.
 
-- [~~Shave more yaks~~]
-- Add reflections
-- Traditional rasterization rendering pipeline
-- Integrate with [Rapier]
-- Support [Wgpu] backend as Vulkan is not universally available
-- GUI
-- Editor
-- Support more platforms
-- Contribute more in rust and rust-gamedev ecosystem
+Implementing GUI system and basic editor is also a priority goal.
 
 Follow progress [on Twitter](https://twitter.com/zakarum4).
 Contributions and feedback are always welcome.
