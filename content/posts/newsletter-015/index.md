@@ -204,14 +204,13 @@ For main feature reports and dev blogs follow [@pGLOWrpg] on Twitter.
 ### [Weegames][weegames-itch]
 
 [![Jumping across walls minigame](weegames.png)][weegames-video]
+_Click to see [a demo video][weegames-video]_
 
-^ _Click to see [a demo video][weegames-video]_
+[Weegames][weegames-itch] ([source code][weegames-repository])
+is a fast-paced minigame collection.
 
-[Weegames][weegames-itch] is a fast-paced minigame collection. There are now
-40 minigames in the collection. New features in the latest release include
-boss games and high scores.
-
-[The source code is available here][weegames-repository].
+There are now 40 minigames in the collection.
+New features in the latest release include boss games and high scores.
 
 [weegames-itch]: https://yeahross.itch.io/weegames
 [weegames-repository]: https://github.com/yeahross0/weegames
