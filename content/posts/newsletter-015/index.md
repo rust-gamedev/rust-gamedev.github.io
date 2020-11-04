@@ -345,7 +345,7 @@ Notable changes:
 [canon-collision]:https://canoncollision.com
 [@rukai]: https://twitter.com/thisIsRukai
 
-### [Project YAWC]
+### Project YAWC
 
 ![An in-progress game of Project YAWC.](yawc.png)
 
