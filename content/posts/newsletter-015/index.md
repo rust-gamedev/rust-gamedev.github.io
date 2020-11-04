@@ -355,7 +355,8 @@ implemented with [Bevy engine][bevy]. The game is in the very early stages of
 development, but it is already possible to get lost in the dark or to be eaten
 by zombies.
 
-Updates are posted on [Twitter][@ropewalker]: [1][sun_prison_twitter_1], [2][sun_prison_twitter_2], [3][sun_prison_twitter_3], [4][sun_prison_twitter_4].
+Updates are posted on [Twitter][@ropewalker]: [1][sun_prison_twitter_1], [2]
+[sun_prison_twitter_2], [3][sun_prison_twitter_3], [4][sun_prison_twitter_4].
 
 [sun_prison]:https://github.com/ropewalker/sun_prison
 [bevy_sokoban]:https://github.com/ropewalker/bevy_sokoban/
