@@ -289,7 +289,7 @@ Notable changes:
 
 ### [Veloren][veloren]
 
-![Landscape](veloren_clouds.png)
+![Landscape](veloren_clouds.jpeg)
 _Endless mountains to explore_
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
@@ -323,7 +323,7 @@ October's full weekly devlogs: "This Week In Veloren...":
 In November, Veloren will release 0.8. Veloren will also be speaking at
 MiniDebConf on November 22nd.
 
-![Healing sceptre](veloren_wolves.png)
+![Healing sceptre](veloren_wolves.jpeg)
 _Team hunt_
 
 [veloren]: https://veloren.net
