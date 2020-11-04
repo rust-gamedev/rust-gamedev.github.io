@@ -254,6 +254,24 @@ an effective code refactor for a project using ECS, make sure to check out
 [RustFest Global 2020]: https://rustfest.global/
 [How to Revive a Dead Rust Project]: https://rustfest.global/session/22-project-necromancy-how-to-revive-a-dead-rust-project/
 
+### [Canon Collision][canon-collision]
+
+![gameplay](canon_collision.gif)
+
+[Canon Collision][canon-collision] by [@rukai] is an Undertale + Homestuck
+fan-made platform fighter with powerful tools for modding.
+
+This month, he completed the abstractions needed for character specific logic.
+Notable changes:
+
+- [toriel's fireball](https://twitter.com/thisIsRukai/status/1302250049972314112)
+- [wobbly fireball shaders](https://twitter.com/thisIsRukai/status/1299311125285142529)
+- [items that can be picked up and thrown](https://twitter.com/thisIsRukai/status/1297507398693736448)
+- [character specific logic](https://twitter.com/thisIsRukai/status/1314872752642297856)
+
+[canon-collision]:https://canoncollision.com
+[@rukai]: https://twitter.com/thisIsRukai
+
 ## Learning Material Updates
 
 ### How to: WGPU + Winit + ECS + Pixels
