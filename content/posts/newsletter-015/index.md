@@ -254,6 +254,21 @@ an effective code refactor for a project using ECS, make sure to check out
 [RustFest Global 2020]: https://rustfest.global/
 [How to Revive a Dead Rust Project]: https://rustfest.global/session/22-project-necromancy-how-to-revive-a-dead-rust-project/
 
+### [Weegames][weegames-itch]
+
+[![Jumping across walls minigame](weegames.png)][weegames-video]
+_Click to see [a demo video][weegames-video]_
+
+[Weegames][weegames-itch] ([source code][weegames-repository])
+is a fast-paced minigame collection.
+
+There are now 40 minigames in the collection.
+New features in the latest release include boss games and high scores.
+
+[weegames-itch]: https://yeahross.itch.io/weegames
+[weegames-repository]: https://github.com/yeahross0/weegames
+[weegames-video]: https://youtu.be/sstqGppo7L4
+
 ### [Canon Collision][canon-collision]
 
 ![gameplay](canon_collision.gif)
