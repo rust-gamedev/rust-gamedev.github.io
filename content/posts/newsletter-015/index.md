@@ -338,31 +338,37 @@ _Discussions:
 
 ### [Wilds]
 
-![Wilds Engine](./wilds.1.png)
+![Demo: sponza atrium](wilds.1.png)
 
 [Wilds] is very early in development game engine.
 
-It features a renderer that uses Vulkan [ray-tracing extension] supported by NVidia RTX cards and future AMD cards.
+It features a renderer that uses Vulkan [ray-tracing extension] supported
+by NVidia RTX cards and future AMD cards.
 
-Screenshot above is rendered using [DDGI] technique implemented exclusively with Rust and GLSL for shaders.
-In the whole scene there is only one directional light source - "sun" - and no "ambient" light.
-All geometry in viewport is shadowed from "sun" and is lit with diffuse illumination.
+Screenshot above is rendered using [DDGI] technique implemented exclusively
+with Rust and GLSL for shaders.
+In the whole scene there is only one directional light source - "sun" -
+and no "ambient" light.
+All geometry in viewport is shadowed from "sun" and is lit with diffuse
+illumination.
 
-To keep things as simple as possible the engine uses [Hecs] - minimalistic ECS library.
+To keep things as simple as possible the engine uses [Hecs] - minimalistic
+ECS library.
 Assets are loaded asynchronously using [Goods] asset manager.
 
 Future plans:
-  * [~~Shave more yaks~~]
-  * Add reflections
-  * Traditional rasterization rendering pipeline
-  * Integrate with [Rapier]
-  * Support [Wgpu] backend as Vulkan is not universally available
-  * GUI
-  * Editor
-  * Support more platforms
-  * Contribute more in rust and rust-gamedev ecosystem
 
-Follow progress [on twitter](https://twitter.com/zakarum4).
+- [~~Shave more yaks~~]
+- Add reflections
+- Traditional rasterization rendering pipeline
+- Integrate with [Rapier]
+- Support [Wgpu] backend as Vulkan is not universally available
+- GUI
+- Editor
+- Support more platforms
+- Contribute more in rust and rust-gamedev ecosystem
+
+Follow progress [on Twitter](https://twitter.com/zakarum4).
 Contributions and feedback are always welcome.
 
 [Wilds]: https://github.com/zakarumych/wilds
@@ -371,8 +377,8 @@ Contributions and feedback are always welcome.
 [Hecs]: https://lib.rs/crates/hecs
 [Goods]: https://github.com/zakarumych/goods
 [~~Shave more yaks~~]: https://github.com/zakarumych/gpu-alloc
-[Rapier]: https://rapier.rs/
-[Wgpu]: https://wgpu.rs/
+[Rapier]: https://rapier.rs
+[Wgpu]: https://wgpu.rs
 
 ### [rust-psp]
 
