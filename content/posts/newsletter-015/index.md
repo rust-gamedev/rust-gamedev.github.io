@@ -345,6 +345,28 @@ Notable changes:
 [canon-collision]:https://canoncollision.com
 [@rukai]: https://twitter.com/thisIsRukai
 
+### [rymd]
+
+![rymd animated combat](rymd_2020_11_05.gif)
+
+[rymd] by [@_profan] is a space shooter prototype made with [macroquad].
+
+Intended as a test platform for trying out rust for prototyping games and
+particularly for game AI programming purposes.
+
+Development started end of October, recent additions include:
+
+- Basic enemy AI behaviour mostly based on steering behaviours.
+- Possibly the world's most nauseating physics driven camera.
+- Too many particles.
+
+_Discussions:
+[twitter](https://twitter.com/_profan/status/1324466942128828416)_
+
+[macroquad]: https://github.com/not-fl3/macroquad
+[@_profan]: https://twitter.com/_profan
+[rymd]: https://profan.itch.io/rymd
+
 ## Learning Material Updates
 
 ### How to: WGPU + Winit + ECS + Pixels
