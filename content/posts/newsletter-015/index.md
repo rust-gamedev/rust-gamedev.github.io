@@ -419,6 +419,33 @@ or follow [@sajattack] on Twitter.
 [Discord]: https://discord.gg/tvGzD4GqvF
 [@sajattack]: https://twitter.com/sajattack
 
+### [skyline-rs]
+
+[skyline-rs] by [@jam1garner] is a project seeking to allow Rust code to
+unofficially use the Nintendo Switch SDK focused on modding.
+
+This month, [@jam1garner] made a blog post, [Rust for Modding Smash Ultimate],
+focused on detailing why Rust was such a good fit for modding games on the
+Switch and his experience porting Rust to the Nintendo Switch. It also features
+updates regarding:
+
+- Crates for working with Nintendo and Namco textures formats ([bntx] and
+[nutexb])
+- An auto-updater client and server for Rustaceans writing Switch mods
+- The introduction of [skyline-web], a new library for working with the Switch's
+web browser
+- Additions to the [skyline fork] of the Rust standard library
+
+_Discussions:
+[twitter](https://twitter.com/jam1garner/status/1316503470447435780)_
+
+[skyline-rs]: https://github.com/ultimate-research/skyline-rs
+[@jam1garner]: https://twitter.com/jam1garner
+[Rust for Modding Smash Ultimate]: https://jam1.re/blog/rust-for-game-modding
+[skyline fork]: https://github.com/jam1garner/rust-std-skyline
+[bntx]: https://github.com/jam1garner/bntx
+[nutexb]: https://github.com/jam1garner/nutexb
+
 ### [glam] v0.10.0
 
 [glam] is a simple and fast linear algebra crate for games and graphics.
