@@ -520,6 +520,51 @@ or follow [Dmitry Stepanov on twitter][rg3d_twitter].
 [rg3d_discord]: https://discord.gg/xENF5Uh
 [rg3d_twitter]: https://twitter.com/DmitryS36934349
 
+### [miniquad]
+
+![miniquad_wayland](miniquad_wayland.gif)
+_Miniquad compiled from scratch and runned on wayland._
+
+[miniquad] is cross-platform windowing and rendering library.   
+
+This month two big PRs got into final review stage:
+- native wayland support [PR][wayland-pr]. As usual, no third-party dependencies or C code involved. Clean build time for wayland examples are about 3s.  
+- Metal backend [PR][metal-pr] showed good signs of life, [quad] and [offscreen] examples got successefully runned with metal.
+
+[miniquad]: https://github.com/not-fl3/miniquad
+[wayland-pr]: https://github.com/not-fl3/miniquad/pull/152
+[metal-pr]: https://github.com/not-fl3/miniquad/pull/135
+[quad]: https://github.com/not-fl3/miniquad/blob/master/examples/quad.rs
+[offscreen]: https://github.com/not-fl3/miniquad/blob/master/examples/offscreen.rs
+
+### [macroquad]
+
+![macroquad-gif](macroquad.gif)
+_Macroquad-particles real-life example_
+
+[macroquad] is a cross-platform (Windows/Linux/macOS/Android/iOS/WASM)
+game framework built on top of [miniquad].
+
+This month was about polishing 0.3-alpha version.
+Important things that got fixed:  
+- Text rendering was reimplemented with [fontdue]. [Example][macroquad-text-src], [Web demo](macroquad-text-web).  
+- Android resources system got fixed, long-term [issue][android-resources-issues] got closed.  
+- Particle system got released. [Example][particles-src], [Web demo](particles-web-demo).   
+
+And special shutout goes to [donuts] game.  
+[donuts] is a simple game made in couple of days, like a jam game.  
+It is a really good showcase of macroquad approach on simple game code and allowing hardcode and hacks for empowering gameplay experiments.  
+
+[macroquad]: https://github.com/not-fl3/macroquad
+[miniquad]: https://github.com/not-fl3/miniquad
+[macroquad-text-src]: https://github.com/not-fl3/macroquad/blob/master/examples/text.rs
+[macroquad-text-web]: https://not-fl3.github.io/miniquad-samples/macroquad_text.html
+[particles-src]: https://github.com/not-fl3/macroquad/blob/master/particles/examples/particles.rs
+[particles-web]: https://not-fl3.github.io/miniquad-samples/particles.html
+[fontdue]: https://github.com/mooman219/fontdue
+[android-resources-issues]: https://github.com/not-fl3/macroquad/issues/45
+[donuts]: https://github.com/cedric-h/donuts
+
 ### [Tetra]
 
 [Tetra] is a simple 2D game framework, inspired by XNA and Raylib. This month,
