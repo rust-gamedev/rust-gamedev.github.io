@@ -688,23 +688,21 @@ production-ready.
 
 Here is a description of the project:
 
-```
-Historically in games, GPU programming has been done through writing either HLSL,
-or to a lesser extent GLSL. These are simple programming languages that have
-evolved along with rendering APIs over the years. However, as game engines have
-evolved, these languages have failed to provide mechanisms for dealing with
-large codebases, and have generally stayed behind the curve compared to other
-programming languages.
+> Historically in games, GPU programming has been done through writing either
+> HLSL, or to a lesser extent GLSL. These are simple programming languages that
+> have evolved along with rendering APIs over the years. However, as game engines
+> have evolved, these languages have failed to provide mechanisms for dealing with
+> large codebases, and have generally stayed behind the curve compared to other
+> programming languages.
 
-In part this is because it's a niche language for a niche market, and in part
-this has been because the industry as a whole has sunk quite a lot of time and
-effort into the status quo. While over-all better alternatives to both languages
-exist, none of them are in a place to replace HLSL or GLSL. Either because they
-are vendor locked, or because they don't support the traditional graphics
-pipeline. Examples of this include CUDA and OpenCL. And while attempts have been
-made to create language in this space, none of them have gained any notable
-traction in the gamedev community.
-```
+> In part this is because it's a niche language for a niche market, and in part
+> this has been because the industry as a whole has sunk quite a lot of time and
+> effort into the status quo. While over-all better alternatives to both languages
+> exist, none of them are in a place to replace HLSL or GLSL. Either because they
+> are vendor locked, or because they don't support the traditional graphics
+> pipeline. Examples of this include CUDA and OpenCL. And while attempts have been
+> made to create language in this space, none of them have gained any notable
+> traction in the gamedev community.
 
 [RustGPU-Github]: https://github.com/ValveSoftware/Proton
 [RustGPU-Twitter]: https://twitter.com/repi/status/1319274584915365888
