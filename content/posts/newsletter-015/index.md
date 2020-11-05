@@ -673,16 +673,18 @@ on the module's [repository][Proton-Media-Converter-Github]
 ![Rust GPU Sky](rustgpu.jpg)
 _Sky example in Rust GPU_
 
-Rust GPU is a very early stage project to make Rust a first-class language and
-ecosystem for building GPU code.
+Rust GPU is a project backed by [Embark Studios][RustGPU-Embark] to make Rust a
+first-class language and ecosystem for building GPU code.
 
-[Rust GPU released v0.1 in October][RustGPU-Twitter], and has already garnered
-over 2000 stars on Github. There are also threads about it [on Hacker
-News][RustGPU-HackerNews] and [Reddit][RustGPU-Reddit]. Currently, compiling and
-running very simple shaders works, and a significant portion of the core library
-also compiles. However, many things aren't implemented yet: for example, loops
-and switches aren't supported yet! That means that while being technically
-usable, Rust GPU is far from being production-ready.
+Although still in very early stages of development, [Rust GPU released v0.1 in
+October][RustGPU-Twitter], and has already garnered over 2000 stars on Github.
+There are also threads about it [on Hacker News][RustGPU-HackerNews] and
+[Reddit][RustGPU-Reddit]. Currently, compiling and running very simple shaders
+works, and a significant portion of the core library also compiles. However,
+many things aren't implemented yet: for example, while-loops and if-statements
+work, but for-loops, iterators, and match/switch aren't supported yet! That
+means that while being technically usable, Rust GPU is far from being
+production-ready.
 
 Here is a description of the project:
 
@@ -708,6 +710,7 @@ traction in the gamedev community.
 [RustGPU-Twitter]: https://twitter.com/repi/status/1319274584915365888
 [RustGPU-HackerNews]: https://news.ycombinator.com/item?id=24858172
 [RustGPU-Reddit]: https://www.reddit.com/r/rust/comments/jg056t/introducing_rustgpu_v01_embarkstudiosrustgpu/
+[RustGPU-Embark]: https://www.embark-studios.com/
 
 ## Popular Workgroup Issues in Github
 
