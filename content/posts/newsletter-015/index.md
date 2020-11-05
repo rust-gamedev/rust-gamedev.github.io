@@ -668,6 +668,47 @@ on the module's [repository][Proton-Media-Converter-Github]
 [Proton-Github]: https://github.com/ValveSoftware/Proton
 [Proton-Media-Converter-Github]: https://github.com/ValveSoftware/Proton/tree/proton_5.13/media-converter
 
+### [Rust GPU][RustGPU-Github] v0.1
+
+![Rust GPU Sky](rustgpu.jpg)
+_Sky example in Rust GPU_
+
+Rust GPU is a very early stage project to make Rust a first-class language and
+ecosystem for building GPU code.
+
+[Rust GPU released v0.1 in October][RustGPU-Twitter], and has already garnered
+over 2000 stars on Github. There are also threads about it [on Hacker
+News][RustGPU-HackerNews] and [Reddit][RustGPU-Reddit]. Currently, compiling and
+running very simple shaders works, and a significant portion of the core library
+also compiles. However, many things aren't implemented yet: for example, loops
+and switches aren't supported yet! That means that while being technically
+usable, Rust GPU is far from being production-ready.
+
+Here is a description of the project:
+
+```
+Historically in games, GPU programming has been done through writing either HLSL,
+or to a lesser extent GLSL. These are simple programming languages that have
+evolved along with rendering APIs over the years. However, as game engines have
+evolved, these languages have failed to provide mechanisms for dealing with
+large codebases, and have generally stayed behind the curve compared to other
+programming languages.
+
+In part this is because it's a niche language for a niche market, and in part
+this has been because the industry as a whole has sunk quite a lot of time and
+effort into the status quo. While over-all better alternatives to both languages
+exist, none of them are in a place to replace HLSL or GLSL. Either because they
+are vendor locked, or because they don't support the traditional graphics
+pipeline. Examples of this include CUDA and OpenCL. And while attempts have been
+made to create language in this space, none of them have gained any notable
+traction in the gamedev community.
+```
+
+[RustGPU-Github]: https://github.com/ValveSoftware/Proton
+[RustGPU-Twitter]: https://twitter.com/repi/status/1319274584915365888
+[RustGPU-HackerNews]: https://news.ycombinator.com/item?id=24858172
+[RustGPU-Reddit]: https://www.reddit.com/r/rust/comments/jg056t/introducing_rustgpu_v01_embarkstudiosrustgpu/
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
