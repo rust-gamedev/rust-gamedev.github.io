@@ -196,6 +196,26 @@ Full devlogs:
 
 [akigi]: https://akigi.com
 
+### [Sun Prison][sun_prison]
+
+![Sun Prison gameplay](sun_prison.gif)
+
+[Sun Prison][sun_prison] by [Dima Lazarev][@ropewalker] is a WIP turn-based
+meditation on Rubik's cube, [Sokoban][bevy_sokoban], and roguelikes, being
+implemented with [Bevy engine][bevy].
+The game is in the very early stages of development,
+but it is already possible to [get lost in the dark][sun_prison_twit_1]
+or to be [eaten by zombies][sun_prison_twit_2].
+
+Follow [@dmitrywithouti] on Twitter for updates.
+
+[sun_prison]: https://github.com/ropewalker/sun_prison
+[bevy_sokoban]: https://github.com/ropewalker/bevy_sokoban
+[bevy]: https://bevyengine.org
+[@ropewalker]: https://twitter.com/dmitrywithouti
+[sun_prison_twit_1]: https://twitter.com/dmitrywithouti/status/1309025584039768064
+[sun_prison_twit_2]: https://twitter.com/dmitrywithouti/status/1309982656260648960
+
 ### [Camp Misty]
 
 ![Camp Misty Title Screen](camp-misty.PNG)
@@ -344,26 +364,6 @@ Notable changes:
 
 [canon-collision]:https://canoncollision.com
 [@rukai]: https://twitter.com/thisIsRukai
-
-### [Sun Prison][sun_prison]
-
-![Sun Prison gameplay](sun_prison.gif)
-
-[Sun Prison][sun_prison] by [Dima Lazarev][@ropewalker] is a WIP turn-based
-meditation on Rubik's cube, [Sokoban][bevy_sokoban], and roguelikes, being
-implemented with [Bevy engine][bevy].
-The game is in the very early stages of development,
-but it is already possible to [get lost in the dark][sun_prison_twit_1]
-or to be [eaten by zombies][sun_prison_twit_2].
-
-Follow [@dmitrywithouti] on Twitter for updates.
-
-[sun_prison]: https://github.com/ropewalker/sun_prison
-[bevy_sokoban]: https://github.com/ropewalker/bevy_sokoban
-[bevy]: https://bevyengine.org
-[@ropewalker]: https://twitter.com/dmitrywithouti
-[sun_prison_twit_1]: https://twitter.com/dmitrywithouti/status/1309025584039768064
-[sun_prison_twit_2]: https://twitter.com/dmitrywithouti/status/1309982656260648960
 
 ## Learning Material Updates
 
