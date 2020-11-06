@@ -455,11 +455,11 @@ There were a lot of additions in this update and a small breaking change.
 
   ```rust
   let v = vec4(1.0, 2.0, 3.0, 4.0);
-  
+
   // Reverse elements of `v`.
   // If SIMD is supported this will use a vector shuffle.
   let wzyx = v.wzyx();
-  
+
   let yzw = v.yzw(); // Swizzle the yzw elements of `v` into a `Vec3`
   let xy = v.xy(); // You can swizzle from a `Vec4` to a `Vec2`
   let yyxx = xy.yyxx(); // And back again
@@ -512,6 +512,23 @@ It is now able to run [bve-reborn] correctly:
 [@kvark]: https://github.com/kvark
 [@cwfitzerald]: https://github.com/cwfitzgerald
 [bve-reborn]: https://github.com/BVE-Reborn/bve-reborn
+
+### [ggez][ggez-github] 0.6 Call for Contributions
+
+The `ggez` game library traditionally tries to make at least one release
+at the end of each year, and that is fast approaching.  While the
+graphics engine rewrite is still a work in progress, there's plenty of
+other useful updates to be made.  Bugfixes, dependency updates and other
+ergonomic fixes are all on the table.  A lot of work has already been
+done: removing `nalgebra` from the public API in favor of just using
+`mint`, re-working some dependencies to improve build times, and
+updating and cleaning up a pile of minor issues.  However, there's still
+about a hundred accumulated bugs and PR's to triage and figure out, and
+a lot of testing to do.  Please help!  The release checklist is
+available [here][ggez-release-checklist].
+
+[ggez-github]: https://github.com/ggez/ggez/
+[ggez-release-checklist]: https://github.com/ggez/ggez/milestone/6
 
 ### [rg3d]
 
