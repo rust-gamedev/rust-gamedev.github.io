@@ -254,6 +254,24 @@ The development took around two weeks thanks to [macroquad] and [hecs].
 [macroquad]: https://github.com/not-fl3/macroquad
 [hecs]: https://crates.io/crates/hecs
 
+### [rymd]
+
+![rymd animated combat](rymd_2020_11_05.gif)
+
+[rymd] by [@_profan] is a space shooter prototype made with [macroquad].
+Intended as a test platform for trying out rust for prototyping games and
+particularly for game AI programming purposes.
+
+Development started at the end of October, recent additions include:
+
+- Basic enemy AI behaviour mostly based on steering behaviours.
+- Possibly the world's most nauseating physics driven camera.
+- Too many particles.
+
+[macroquad]: https://github.com/not-fl3/macroquad
+[@_profan]: https://twitter.com/_profan
+[rymd]: https://profan.itch.io/rymd
+
 ### [pGLOWrpg]
 
 ![walking through a forest](pglowrpg.gif)
@@ -344,24 +362,6 @@ Notable changes:
 
 [canon-collision]:https://canoncollision.com
 [@rukai]: https://twitter.com/thisIsRukai
-
-### [rymd]
-
-![rymd animated combat](rymd_2020_11_05.gif)
-
-[rymd] by [@_profan] is a space shooter prototype made with [macroquad].
-Intended as a test platform for trying out rust for prototyping games and
-particularly for game AI programming purposes.
-
-Development started at the end of October, recent additions include:
-
-- Basic enemy AI behaviour mostly based on steering behaviours.
-- Possibly the world's most nauseating physics driven camera.
-- Too many particles.
-
-[macroquad]: https://github.com/not-fl3/macroquad
-[@_profan]: https://twitter.com/_profan
-[rymd]: https://profan.itch.io/rymd
 
 ## Learning Material Updates
 
