@@ -287,6 +287,15 @@ shops, character creation, and a few other features:
 [Antorum Online]: https://ratwizard.dev/dev-log/antorum
 [@dooskington]: https://twitter.com/dooskington
 
+### Project YAWC
+
+![An in-progress game of Project YAWC.](yawc.png)
+
+Project YAWC is a turn-based strategy game in the style of Advance Wars in
+development by junkmail. October saw the release of Alpha 3, including
+dynamically generated info cards and minor networking changes. For inquiries or
+if you are interested in playtesting, contact projectyawc(at)gmail.com.
+
 ### [Power Kick]
 
 ![Power Kick](power-kick-shot.png)
