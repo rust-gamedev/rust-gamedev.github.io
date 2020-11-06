@@ -524,6 +524,7 @@ robotics written in Rust.
 
 [This month][rapier-october] the version 0.3.0 has been released with exciting
 new features:
+
 - cylinders and cones as collider shapes;
 - collision groups (with bit masks) and collision filters (with callbacks)
   for deciding what pairs of colliders can touch;
