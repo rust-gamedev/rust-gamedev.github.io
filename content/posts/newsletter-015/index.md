@@ -235,7 +235,9 @@ more features that an actual game would have.
 The game is also continually optimized to run on less powerful GPUs, 
 so that everyone can enjoy it.
 
-- **Ability to create a near-infinite variety of plant species**
+The following changes occured in October:
+
+- **Supporting the creation of a near-infinite variety of plant species**
     
     Achieved through treating branch segments as Markov chains (enabling 
     different growth speeds and probabilities for other segment types' 
@@ -263,13 +265,12 @@ so that everyone can enjoy it.
 
 Follow the developers [@logicsoup] and [@epcc10] on Twitter for more updates.
 
-Full devlog: [October 2020]
+[Read the full devlog][latest devlog]
 
 [garden]: https://www.cyberplant.xyz
 [@logicsoup]: https://twitter.com/logicsoup
 [@epcc10]: https://twitter.com/epcc10
 [latest devlog]: https://cyberplant.xyz/posts/october_2020/
-[October 2020]: https://cyberplant.xyz/posts/october_2020/
 
 ### [Akigi][akigi]
 
