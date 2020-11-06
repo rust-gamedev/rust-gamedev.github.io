@@ -200,7 +200,7 @@ Full devlogs:
 
 ![Sun Prison gameplay](sun_prison.gif)
 
-[Sun Prison][sun_prison] by [Dima Lazarev][@ropewalker] is a WIP turn-based
+[Sun Prison][sun_prison] by [Dima Lazarev][@dmitrywithouti] is a WIP turn-based
 meditation on Rubik's cube, [Sokoban][bevy_sokoban], and roguelikes, being
 implemented with [Bevy engine][bevy].
 The game is in the very early stages of development,
@@ -212,7 +212,7 @@ Follow [@dmitrywithouti] on Twitter for updates.
 [sun_prison]: https://github.com/ropewalker/sun_prison
 [bevy_sokoban]: https://github.com/ropewalker/bevy_sokoban
 [bevy]: https://bevyengine.org
-[@ropewalker]: https://twitter.com/dmitrywithouti
+[@dmitrywithouti]: https://twitter.com/dmitrywithouti
 [sun_prison_twit_1]: https://twitter.com/dmitrywithouti/status/1309025584039768064
 [sun_prison_twit_2]: https://twitter.com/dmitrywithouti/status/1309982656260648960
 
