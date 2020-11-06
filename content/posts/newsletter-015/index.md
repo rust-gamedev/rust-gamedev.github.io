@@ -101,6 +101,42 @@ _Team hunt_
 
 [veloren]: https://veloren.net
 
+### [Crate Before Attack][cba-site]
+
+[![Leaderboard Histogram](crate-before-attack.gif)][cba-site]
+_Interactive Histogram with Race Results_
+
+[Crate Before Attack][cba-site] by [koalefant (@CrateAttack)][@CrateAttack]
+is a skill-based multiplayer game where frogs fight and race using their sticky
+tongues as grappling hooks.
+
+A [browser build][cba-play] can be played online.
+
+Changes since last update:
+
+- Added a global leaderboard that visualizes Race and Training results in an
+  interactive histogram.
+- Tweaked frogs physics to make them more bouncy, added an option that would
+  keep tongue connected as long as a key is being pressed.
+- [Online Ghosts][cba-youtube-ghosts] were added. One can now compete with real
+  players instead of AI when playing Race mode.
+- Improved load-times: level graphics is now quantized with an 8-bit palette,
+  signed distance fields that are used for collisions are now generated offline.
+  Downloads are cached in an IndexedDB, so subsequent starts are even faster.
+- Multiple bugs were fixed.
+
+More details are in [September][cba-september-update] and
+[October][cba-october-update] DevLog entries and in
+[YouTube-channel][cba-youtube].
+
+[cba-site]: https://cratebeforeattack.com
+[cba-youtube-ghosts]: https://youtu.be/j87I8akUTkc
+[cba-youtube]: https://www.youtube.com/channel/UC_xMilPTLuuE5iLs1Ml9zow
+[cba-play]: https://cratebeforeattack.com/play
+[cba-september-update]: https://cratebeforeattack.com/posts/20201001-september-update
+[cba-october-update]: https://cratebeforeattack.com/posts/20201029-october-update
+[@CrateAttack]: https://twitter.com/CrateAttack
+
 ### [Egregoria]
 
 ![Egregoria roads at night](egregoria.jpg)
