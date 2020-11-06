@@ -493,7 +493,7 @@ It is now able to run [bve-reborn] correctly:
 [@cwfitzerald]: https://github.com/cwfitzgerald
 [bve-reborn]: https://github.com/BVE-Reborn/bve-reborn
 
-### [ggez][ggez-github] 0.6 call for contributions
+### [ggez][ggez-github] 0.6 Call for Contributions
 
 The `ggez` game library traditionally tries to make at least one release
 at the end of each year, and that is fast approaching.  While the
