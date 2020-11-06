@@ -356,7 +356,7 @@ The game is in the very early stages of development,
 but it is already possible to [get lost in the dark][sun_prison_twit_1]
 or to be [eaten by zombies][sun_prison_twit_2].
 
-For updates  follow [@ropewalker] on Twitter.
+Follow [@dmitrywithouti] on Twitter for updates.
 
 [sun_prison]: https://github.com/ropewalker/sun_prison
 [bevy_sokoban]: https://github.com/ropewalker/bevy_sokoban
