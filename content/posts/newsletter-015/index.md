@@ -218,50 +218,43 @@ For updates and possible playtesting opportunities, follow
 ### [Garden][garden]
 
 ![Garden](garden_scaled_1.png)
-_A couple of trees growing and basking in the sun where every leaf is simulated_
+_A couple of trees growing and basking in the sun_
 
 [Garden][garden] is a procedural tree-growing, strategical ecosystem-restoration 
 and biological simulation game with an infinite amount of plant species where 
 every leaf is simulated, and the natural resources are scarce. 
-Every specimen is unique, as the plant growth depends on the light individual 
-leaves receive, surrounding obstacles, and much more. 
-The player has to balance many complex mechanics to sustain plant life and go 
-forward in the game. 
+Every specimen is unique, as the plants grow by responding to the live changes in
+the environment. 
+The player has to balance many complex mechanics to sustain life and go 
+forward in the game.
 
 The game and the custom engine are developed in Rust with an OpenGL backend.
 Garden developers (temporary name) are preparing for a demo release in a couple
-of months by tying everything together into a coherent experience and adding 
-more features that an actual game would have.
+of months by tying everything together into a coherent experience.
 The game is also continually optimized to run on less powerful GPUs, 
 so that everyone can enjoy it.
 
 The following changes occured in October:
 
-- **Supporting the creation of a near-infinite variety of plant species**
+- Supporting the creation of a near-infinite variety of plant species
     
     Achieved through treating branch segments as Markov chains (enabling 
     different growth speeds and probabilities for other segment types' 
-    growth from one another) and simulating photosynthesis in the plant as an 
+    growth from one another) and simulating photosynthesis as an 
     electrical circuit (enabling sugar storage in the form of root vegetables, 
     for example). 
 
     *Read the detailed 
     step-by-step explanation in the 
     [latest devlog].*
-- **Concrete brick destruction mechanics**
+- Concrete brick destruction mechanics
 
-    In the absence of fertile ground, concrete bricks can be broken down into
-    rubble, where seedlings can grow and flourish into trees. Dust particles for
+    Dust particles for
     the animation that appears upon breaking, as well as the debris, were also
     added to the game.
-- **Almost completed saving and loading**
-
-    Saving and loading work for most parts of the game, but it's a large-scale 
-    architectural task for such a complex game (with nuances around physics 
-    and plant data), so it's not complete yet.
-
-- **The addition of a watering can**
-- **Smoother soil and debris outlines**
+- Saving and loading are almost complete
+- The addition of a watering can
+- Smoother soil and debris outlines
 
 Follow the developers [@logicsoup] and [@epcc10] on Twitter for more updates.
 
