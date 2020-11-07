@@ -970,6 +970,31 @@ on the module's [repository][Proton-Media-Converter-Github]
 [Proton-Github]: https://github.com/ValveSoftware/Proton
 [Proton-Media-Converter-Github]: https://github.com/ValveSoftware/Proton/tree/proton_5.13/media-converter
 
+### [building-blocks](https://github.com/bonsairobo/building-blocks)
+
+[Building Blocks](https://github.com/bonsairobo/building-blocks)
+by [@bonsairobo](https://github.com/bonsairobo) is an engine-agnostic voxel
+library that implements real-time data structures and algorithms for:
+- edits on compressed maps
+- meshing
+- search
+- collisions
+
+![Meshing Example](https://i.imgur.com/IZwfRHc.gif)
+
+The library has recently seen two releases:
+- [v0.1.0](https://github.com/bonsairobo/building-blocks/releases/tag/v0.1.0)
+- [v0.2.0](https://github.com/bonsairobo/building-blocks/releases/tag/v0.2.0)
+
+To prove out the functionality of the library, we've ported the
+[voxel-mapper](https://github.com/amethyst/voxel-mapper) project to use
+building-blocks instead of ilattice3. This resulted in improved performance
+and memory usage when doing large edits and working with large maps.
+
+![Terraforming](https://github.com/amethyst/voxel-mapper/blob/master/screenshots/smooth_editing_small.gif)
+
+Join the discussion on [Discord](https://discord.gg/CnTNjwb).
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
