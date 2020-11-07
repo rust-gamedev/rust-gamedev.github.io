@@ -822,6 +822,34 @@ and follow [@BevyEngine on Twitter][bevy-twitter].
 [bevy-reddit]: https://reddit.com/r/bevy
 [bevy-twitter]: https://twitter.com/BevyEngine
 
+### [physme]
+
+[Physme] is not your typical physics engine. It doesn't exactly simulate
+real world physics and it never will. Instead it has only two goals:
+
+- To provide satisfying real-time dynamics for 2D and 3D games
+- To have a simple to use API
+
+Physme will only work with [bevy] and is not made to support other game
+engines.
+
+The current release supports bevy 0.2, but work is being done to support
+bevy 0.3.
+
+The current feature set includes:
+
+- Rigid bodies
+- Multiple colliders per body
+- Static and semikinematic bodies
+- Sensor bodies
+- Oriented bounding boxes
+- Fixed, mechanical and spring joints
+- Broad phase
+
+All of the above listed features are supported in both 2D and 3D.
+
+[physme]: https://github.com/walterpie/physme
+
 ### [Tetra]
 
 [Tetra] is a simple 2D game framework, inspired by XNA and Raylib. This month,
