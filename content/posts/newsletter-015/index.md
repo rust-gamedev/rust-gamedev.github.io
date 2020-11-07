@@ -975,6 +975,7 @@ on the module's [repository][Proton-Media-Converter-Github]
 [Building Blocks](https://github.com/bonsairobo/building-blocks)
 by [@bonsairobo](https://github.com/bonsairobo) is an engine-agnostic voxel
 library that implements real-time data structures and algorithms for:
+
 - edits on compressed maps
 - meshing
 - search
@@ -983,6 +984,7 @@ library that implements real-time data structures and algorithms for:
 ![Meshing Example](https://i.imgur.com/IZwfRHc.gif)
 
 The library has recently seen two releases:
+
 - [v0.1.0](https://github.com/bonsairobo/building-blocks/releases/tag/v0.1.0)
 - [v0.2.0](https://github.com/bonsairobo/building-blocks/releases/tag/v0.2.0)
 
