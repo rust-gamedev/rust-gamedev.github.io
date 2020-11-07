@@ -666,6 +666,61 @@ available [here][ggez-release-checklist].
 [ggez-github]: https://github.com/ggez/ggez/
 [ggez-release-checklist]: https://github.com/ggez/ggez/milestone/6
 
+### [miniquad]
+
+![miniquad_wayland](miniquad_wayland.gif)
+_Miniquad compiled from scratch and running on Wayland._
+
+[miniquad] is cross-platform windowing and rendering library.
+
+This month two big PRs got into the final review stage:
+
+- [Native Wayland support][wayland-pr]:
+  as usual, no third-party dependencies or C code involved;
+  Clean build time for Wayland examples are about 3s.
+- [The Metal backend PR][metal-pr] showed good signs of life,
+  [quad] and [offscreen] examples got successefully run on Metal.
+
+[miniquad]: https://github.com/not-fl3/miniquad
+[wayland-pr]: https://github.com/not-fl3/miniquad/pull/152
+[metal-pr]: https://github.com/not-fl3/miniquad/pull/135
+[quad]: https://github.com/not-fl3/miniquad/blob/master/examples/quad.rs
+[offscreen]: https://github.com/not-fl3/miniquad/blob/master/examples/offscreen.rs
+
+### [macroquad]
+
+![macroquad-gif](macroquad.gif)
+_Macroquad-particles real-life example_
+
+[macroquad] is a cross-platform (Windows/Linux/macOS/Android/iOS/WASM)
+game framework built on top of [miniquad].
+
+This month was about polishing 0.3-alpha version.
+Important things that got fixed:
+
+- Text rendering was reimplemented with [fontdue]:
+  [example][macroquad-text-src], [web demo][macroquad-text-web].
+- A long-term [issue with Android resources system][android-resources-issues]
+  got fixed.
+- Particle system was released:
+  [example][particles-src], [web demo][particles-web-demo].
+
+And special shutout goes to [donuts] game by [@cedric-h] - a simple game
+made in couple of days, like a jam game.
+It's a really good showcase of macroquad's approach on simple game code
+that allows hardcoding and hacks for empowering gameplay experiments.
+
+[macroquad]: https://github.com/not-fl3/macroquad
+[miniquad]: https://github.com/not-fl3/miniquad
+[macroquad-text-src]: https://github.com/not-fl3/macroquad/blob/master/examples/text.rs
+[macroquad-text-web]: https://not-fl3.github.io/miniquad-samples/macroquad_text.html
+[particles-src]: https://github.com/not-fl3/macroquad/blob/master/particles/examples/particles.rs
+[particles-web]: https://not-fl3.github.io/miniquad-samples/particles.html
+[fontdue]: https://github.com/mooman219/fontdue
+[android-resources-issues]: https://github.com/not-fl3/macroquad/issues/45
+[donuts]: https://github.com/cedric-h/donuts
+[@cedric-h]: https://github.com/cedric-h
+
 ### [rg3d]
 
 [![a scene with lightning and a hi-poly character model](rg3d.jpg)][rg3d_twit]
