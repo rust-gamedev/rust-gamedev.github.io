@@ -583,6 +583,38 @@ For a full list of changes see the [glam changelog].
 [bytemuck]: https://docs.rs/bytemuck
 [glam changelog]: https://github.com/bitshifter/glam-rs/blob/master/CHANGELOG.md
 
+### [Rapier]
+
+[![Rapier logo](rapier-logo.svg)][Rapier]
+
+[Rapier] is a set of 2D and 3D physics engines for games, animation and
+robotics written in Rust.
+
+[This month][rapier-october] the version 0.3.0 has been released with exciting
+new features:
+
+- cylinders and cones as collider shapes;
+- collision groups (with bit masks) and collision filters (with callbacks)
+  for deciding what pairs of colliders can touch;
+- the ability to set the mass of rigid-bodies explicitly;
+- linear and angular damping, to progressively slow down rigid-bodies;
+- the ability so attach some user-defined data (of type `u128`) to any
+  collider or rigid-body.
+
+[![Rapier features](rapier-demo.gif)][rapier-demo]
+
+The [bevy_rapier] plugin for the Bevy game engine has been updated to support
+all the aforementioned features.
+
+Finally, a [continuous benchmarking][cont-bench] infrastructure has been set
+up to make sure performances regressions can be detected early.
+
+[Rapier]: https://rapier.rs
+[rapier-october]: https://www.dimforge.com/blog/2020/11/01/this-month-in-dimforge/
+[rapier-demo]: https://twitter.com/dimforge/status/1321138642778206211
+[bevy_rapier]: https://www.rapier.rs/docs/user_guides/rust_bevy_plugin/getting_started
+[cont-bench]: https://www.dimforge.com/blog/2020/10/01/this-month-in-dimforge#rapier-continuous-benchmarking
+
 ### [This Month in Mun][mun-october]
 
 [![Mun logo](mun-logo.png)][Mun]
