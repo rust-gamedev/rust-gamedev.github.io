@@ -620,6 +620,80 @@ or follow [Dmitry Stepanov on twitter][rg3d_twitter].
 [rg3d_discord]: https://discord.gg/xENF5Uh
 [rg3d_twitter]: https://twitter.com/DmitryS36934349
 
+### [Bevy Engine v0.3][bevy-0-3]
+
+[![bevy logo](bevy_logo.png)][bevy]
+
+[Bevy][bevy] is a refreshingly simple data-driven game engine built in Rust.
+It is [free and open source][bevy-repo] forever!
+
+This month, thanks to 59 contributors, 122 pull requests, and their
+[generous sponsors][bevy-sponsors], Bevy 0.3 was released. You can view the
+[full Bevy 0.3 announcement here][bevy-0-3]. Here are some highlights:
+
+- Initial Android and iOS support
+- Asset system improvements:
+  - Asset handle eeference counting
+  - Asset loaders can now load multiple assets
+  - Sub asset loading
+  - Asset dependencies
+- GLTF scene loader
+- Bevy ECS improvements
+  - Query ergonomics: query.iter() returns a real iterator now!
+  - 100% lockless parallel ECS
+  - Performance improvements
+  - Thread local resources
+- Flexible mesh vertex attributes and index buffer specialization
+- WASM asset loading, touch input, transform re-rewrite, gamepad settings,
+  plugin Groups, dynamic Window Settings, documentation search-ability.
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/jnirl3/bevy_03/),
+[hacker news](https://news.ycombinator.com/item?id=24983956),
+[twitter](https://twitter.com/cart_cart/status/1323731853304422400)_
+
+[bevy]: https://bevyengine.org
+[bevy-repo]: https://github.com/bevyengine/bevy
+[bevy-0-3]: https://bevyengine.org/news/bevy-0-3
+[bevy-sponsors]: https://github.com/sponsors/cart
+
+------
+
+Community updates:
+
+- [bevy_rapier 0.5](https://rapier.rs/docs/user_guides/rust_bevy_plugin/getting_started):
+  The Rapier Physics project released updates to their official Bevy plugins, which
+  add support for Bevy 0.3 as well as the latest Rapier features
+  [announced here](https://www.dimforge.com/blog/2020/11/01/this-month-in-dimforge).
+- [bevy_easings](https://crates.io/crates/bevy_easings):
+  A plugin for easing a component value to another value, mainly used
+  to animate transition between two transforms, but usable for other components.
+- [bevy_miniquad](https://github.com/smokku/bevy_miniquad):
+  A plugin replacing winit windowing and render pipeline with
+  [miniquad](https://github.com/not-fl3/miniquad) library.
+- [physme](https://github.com/walterpie/physme):
+  A simplistic physics engine for both 2D and 3D simulation.
+  Physically inaccurate, but feels satisfying and is easy to use.
+- [bevy_networking_turbulence](https://github.com/smokku/bevy_networking_turbulence):
+  Networking plugin running on [naia-socket](https://github.com/naia-rs/naia-socket)
+  and [turbulence](https://github.com/kyren/turbulence) libraries.
+- [Making a Snake Clone](https://mbuffett.com/posts/bevy-snake-tutorial/):
+  Walkthrough on how to make a snake clone.
+- [bevy_tilemap](https://github.com/joshuajbouw/bevy_tilemap):
+  A plugin with generic types for rendering multi-threaded chunk-based tile
+  maps.
+- [Keep Inside](https://github.com/davidB/ld47_keep_inside):
+  A solo pong on a circle (made for Ludum Dare 47)
+- [Keep Moving and Nobody Burns](https://github.com/mockersf/kmanb):
+  A bomberman against time (made for Ludum Dare 47)
+
+Join the Bevy's [Discord][bevy-discord], [/r/bevy subreddit][bevy-reddit],
+and follow [@BevyEngine on Twitter][bevy-twitter].
+
+[bevy-discord]: https://discord.com/invite/gMUk5Ph
+[bevy-reddit]: https://reddit.com/r/bevy
+[bevy-twitter]: https://twitter.com/BevyEngine
+
 ### [Tetra]
 
 [Tetra] is a simple 2D game framework, inspired by XNA and Raylib. This month,
