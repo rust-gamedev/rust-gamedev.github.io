@@ -101,6 +101,42 @@ _Team hunt_
 
 [veloren]: https://veloren.net
 
+### [Crate Before Attack][cba-site]
+
+[![Leaderboard Histogram](crate-before-attack.gif)][cba-site]
+_Interactive Histogram with Race Results_
+
+[Crate Before Attack][cba-site] by [koalefant (@CrateAttack)][@CrateAttack]
+is a skill-based multiplayer game where frogs fight and race using their sticky
+tongues as grappling hooks.
+
+A [browser build][cba-play] can be played online.
+
+Changes since last update:
+
+- Added a global leaderboard that visualizes Race and Training results in an
+  interactive histogram.
+- Tweaked frogs physics to make them more bouncy, added an option that would
+  keep tongue connected as long as a key is being pressed.
+- [Online Ghosts][cba-youtube-ghosts] were added. One can now compete with real
+  players instead of AI when playing Race mode.
+- Improved load-times: level graphics is now quantized with an 8-bit palette,
+  signed distance fields that are used for collisions are now generated offline.
+  Downloads are cached in an IndexedDB, so subsequent starts are even faster.
+- Multiple bugs were fixed.
+
+More details are in [September][cba-september-update] and
+[October][cba-october-update] DevLog entries and in
+[YouTube-channel][cba-youtube].
+
+[cba-site]: https://cratebeforeattack.com
+[cba-youtube-ghosts]: https://youtu.be/j87I8akUTkc
+[cba-youtube]: https://www.youtube.com/channel/UC_xMilPTLuuE5iLs1Ml9zow
+[cba-play]: https://cratebeforeattack.com/play
+[cba-september-update]: https://cratebeforeattack.com/posts/20201001-september-update
+[cba-october-update]: https://cratebeforeattack.com/posts/20201029-october-update
+[@CrateAttack]: https://twitter.com/CrateAttack
+
 ### [Egregoria]
 
 ![Egregoria roads at night](egregoria.jpg)
@@ -196,6 +232,26 @@ Full devlogs:
 
 [akigi]: https://akigi.com
 
+### [Sun Prison][sun_prison]
+
+![Sun Prison gameplay](sun_prison.gif)
+
+[Sun Prison][sun_prison] by [Dima Lazarev][@dmitrywithouti] is a WIP turn-based
+meditation on Rubik's cube, [Sokoban][bevy_sokoban], and roguelikes, being
+implemented with [Bevy engine][bevy].
+The game is in the very early stages of development,
+but it is already possible to [get lost in the dark][sun_prison_twit_1]
+or to be [eaten by zombies][sun_prison_twit_2].
+
+Follow [@dmitrywithouti] on Twitter for updates.
+
+[sun_prison]: https://github.com/ropewalker/sun_prison
+[bevy_sokoban]: https://github.com/ropewalker/bevy_sokoban
+[bevy]: https://bevyengine.org
+[@dmitrywithouti]: https://twitter.com/dmitrywithouti
+[sun_prison_twit_1]: https://twitter.com/dmitrywithouti/status/1309025584039768064
+[sun_prison_twit_2]: https://twitter.com/dmitrywithouti/status/1309982656260648960
+
 ### [Camp Misty]
 
 ![Camp Misty Title Screen](camp-misty.PNG)
@@ -231,6 +287,29 @@ shops, character creation, and a few other features:
 [Antorum Online]: https://ratwizard.dev/dev-log/antorum
 [@dooskington]: https://twitter.com/dooskington
 
+### [The Honor Sagas][honor-sagas]
+
+![game's banner](honor.png)
+
+[The Honor Sagas][honor-sagas] is an early-in-development 2d MMORPG project.
+October was the first month of development, and [@ectonDev] wrote
+[a postmortem][honor-sagas-postmortem] of the progress made while participating
+in [#Devtober][devtober].
+
+[honor-sagas]: https://khonsulabs.itch.io/honorsagas
+[honor-sagas-postmortem]: https://khonsulabs.itch.io/honorsagas/devlog/192252/the-honor-sagas-devtober-postmortem
+[devtober]: https://itch.io/jam/devtober-2020
+[@ectonDev]: https://twitter.com/ectonDev
+
+### Project YAWC
+
+![An in-progress game of Project YAWC.](yawc.png)
+
+Project YAWC is a turn-based strategy game in the style of Advance Wars in
+development by junkmail. October saw the release of Alpha 3, including
+dynamically generated info cards and minor networking changes. For inquiries or
+if you are interested in playtesting, contact projectyawc(at)gmail.com.
+
 ### [Power Kick]
 
 ![Power Kick](power-kick-shot.png)
@@ -253,6 +332,24 @@ The development took around two weeks thanks to [macroquad] and [hecs].
 [Power Kick]: https://kakoeimon.itch.io/power-kick
 [macroquad]: https://github.com/not-fl3/macroquad
 [hecs]: https://crates.io/crates/hecs
+
+### [rymd]
+
+![rymd animated combat](rymd_2020_11_05.gif)
+
+[rymd] by [@_profan] is a space shooter prototype made with [macroquad].
+Intended as a test platform for trying out rust for prototyping games and
+particularly for game AI programming purposes.
+
+Development started at the end of October, recent additions include:
+
+- Basic enemy AI behaviour mostly based on steering behaviours.
+- Possibly the world's most nauseating physics driven camera.
+- Too many particles.
+
+[macroquad]: https://github.com/not-fl3/macroquad
+[@_profan]: https://twitter.com/_profan
+[rymd]: https://profan.itch.io/rymd
 
 ### [pGLOWrpg]
 
@@ -419,6 +516,33 @@ or follow [@sajattack] on Twitter.
 [Discord]: https://discord.gg/tvGzD4GqvF
 [@sajattack]: https://twitter.com/sajattack
 
+### [skyline-rs]
+
+![SSB & Rust logos](smash_x_rust.png)
+
+[skyline-rs] by [@jam1garner] is a project seeking to allow Rust code to
+unofficially use the Nintendo Switch SDK focused on modding.
+
+This month, [@jam1garner] made a blog post, [Rust for Modding Smash Ultimate],
+focused on detailing why Rust was such a good fit for modding games on the
+Switch and his experience porting Rust to the Nintendo Switch.
+It also features updates regarding:
+
+- Crates for working with Nintendo and Namco textures formats
+  ([bntx] and [nutexb]).
+- An auto-updater client and server for Rustaceans writing Switch mods.
+- The introduction of [skyline-web], a new library for working
+  with the Switch's web browser.
+- Additions to the [skyline fork] of the Rust standard library.
+
+[skyline-rs]: https://github.com/ultimate-research/skyline-rs
+[skyline-web]: https://github.com/skyline-rs/skyline-web
+[@jam1garner]: https://twitter.com/jam1garner
+[Rust for Modding Smash Ultimate]: https://jam1.re/blog/rust-for-game-modding
+[skyline fork]: https://github.com/jam1garner/rust-std-skyline
+[bntx]: https://github.com/jam1garner/bntx
+[nutexb]: https://github.com/jam1garner/nutexb
+
 ### [glam] v0.10.0
 
 [glam] is a simple and fast linear algebra crate for games and graphics.
@@ -435,11 +559,11 @@ There were a lot of additions in this update and a small breaking change.
 
   ```rust
   let v = vec4(1.0, 2.0, 3.0, 4.0);
-  
+
   // Reverse elements of `v`.
   // If SIMD is supported this will use a vector shuffle.
   let wzyx = v.wzyx();
-  
+
   let yzw = v.yzw(); // Swizzle the yzw elements of `v` into a `Vec3`
   let xy = v.xy(); // You can swizzle from a `Vec4` to a `Vec2`
   let yyxx = xy.yyxx(); // And back again
@@ -458,6 +582,38 @@ For a full list of changes see the [glam changelog].
 [libm]: https://github.com/rust-lang/libm
 [bytemuck]: https://docs.rs/bytemuck
 [glam changelog]: https://github.com/bitshifter/glam-rs/blob/master/CHANGELOG.md
+
+### [Rapier]
+
+[![Rapier logo](rapier-logo.svg)][Rapier]
+
+[Rapier] is a set of 2D and 3D physics engines for games, animation and
+robotics written in Rust.
+
+[This month][rapier-october] the version 0.3.0 has been released with exciting
+new features:
+
+- cylinders and cones as collider shapes;
+- collision groups (with bit masks) and collision filters (with callbacks)
+  for deciding what pairs of colliders can touch;
+- the ability to set the mass of rigid-bodies explicitly;
+- linear and angular damping, to progressively slow down rigid-bodies;
+- the ability so attach some user-defined data (of type `u128`) to any
+  collider or rigid-body.
+
+[![Rapier features](rapier-demo.gif)][rapier-demo]
+
+The [bevy_rapier] plugin for the Bevy game engine has been updated to support
+all the aforementioned features.
+
+Finally, a [continuous benchmarking][cont-bench] infrastructure has been set
+up to make sure performances regressions can be detected early.
+
+[Rapier]: https://rapier.rs
+[rapier-october]: https://www.dimforge.com/blog/2020/11/01/this-month-in-dimforge/
+[rapier-demo]: https://twitter.com/dimforge/status/1321138642778206211
+[bevy_rapier]: https://www.rapier.rs/docs/user_guides/rust_bevy_plugin/getting_started
+[cont-bench]: https://www.dimforge.com/blog/2020/10/01/this-month-in-dimforge#rapier-continuous-benchmarking
 
 ### [This Month in Mun][mun-october]
 
@@ -493,32 +649,22 @@ It is now able to run [bve-reborn] correctly:
 [@cwfitzerald]: https://github.com/cwfitzgerald
 [bve-reborn]: https://github.com/BVE-Reborn/bve-reborn
 
-### [rg3d]
+### [ggez][ggez-github] 0.6 Call for Contributions
 
-[![a scene with lightning and a hi-poly character model](rg3d.jpg)][rg3d_twit]
+The `ggez` game library traditionally tries to make at least one release
+at the end of each year, and that is fast approaching.  While the
+graphics engine rewrite is still a work in progress, there's plenty of
+other useful updates to be made.  Bugfixes, dependency updates and other
+ergonomic fixes are all on the table.  A lot of work has already been
+done: removing `nalgebra` from the public API in favor of just using
+`mint`, re-working some dependencies to improve build times, and
+updating and cleaning up a pile of minor issues.  However, there's still
+about a hundred accumulated bugs and PR's to triage and figure out, and
+a lot of testing to do.  Please help!  The release checklist is
+available [here][ggez-release-checklist].
 
-[rg3d] is a game engine that aims to be easy to use and provide large set
-of out-of-box features. Some of the recent updates:
-
-- Implemented fully asynchronous resource loading.
-- Added compressed textures support (DXT1, DTX3, DTX5).
-- Added filtering and wrapping options for textures.
-- Added sky box.
-- Added texture import options for resource manager.
-- All dependencies were moved to rg3d workspace, so there is no need to
-  manually download them when working with the latest version of the engine.
-- Extracted HRTF code in the separate [crate][hrtf], so it could be used
-  without rg3d.
-- Lots of other bugfixes and improvements.
-
-Join the [rg3d's Discord channel][rg3d_discord]
-or follow [Dmitry Stepanov on twitter][rg3d_twitter].
-
-[rg3d]: https://github.com/mrDIMAS/rg3d
-[hrtf]: https://github.com/mrDIMAS/hrtf
-[rg3d_twit]: https://twitter.com/DmitryS36934349/status/1312836831390687232
-[rg3d_discord]: https://discord.gg/xENF5Uh
-[rg3d_twitter]: https://twitter.com/DmitryS36934349
+[ggez-github]: https://github.com/ggez/ggez/
+[ggez-release-checklist]: https://github.com/ggez/ggez/milestone/6
 
 ### [miniquad]
 
@@ -574,6 +720,107 @@ that allows hardcoding and hacks for empowering gameplay experiments.
 [android-resources-issues]: https://github.com/not-fl3/macroquad/issues/45
 [donuts]: https://github.com/cedric-h/donuts
 [@cedric-h]: https://github.com/cedric-h
+
+### [rg3d]
+
+[![a scene with lightning and a hi-poly character model](rg3d.jpg)][rg3d_twit]
+
+[rg3d] is a game engine that aims to be easy to use and provide large set
+of out-of-box features. Some of the recent updates:
+
+- Implemented fully asynchronous resource loading.
+- Added compressed textures support (DXT1, DTX3, DTX5).
+- Added filtering and wrapping options for textures.
+- Added sky box.
+- Added texture import options for resource manager.
+- All dependencies were moved to rg3d workspace, so there is no need to
+  manually download them when working with the latest version of the engine.
+- Extracted HRTF code in the separate [crate][hrtf], so it could be used
+  without rg3d.
+- Lots of other bugfixes and improvements.
+
+Join the [rg3d's Discord channel][rg3d_discord]
+or follow [Dmitry Stepanov on twitter][rg3d_twitter].
+
+[rg3d]: https://github.com/mrDIMAS/rg3d
+[hrtf]: https://github.com/mrDIMAS/hrtf
+[rg3d_twit]: https://twitter.com/DmitryS36934349/status/1312836831390687232
+[rg3d_discord]: https://discord.gg/xENF5Uh
+[rg3d_twitter]: https://twitter.com/DmitryS36934349
+
+### [Bevy Engine v0.3][bevy-0-3]
+
+[![bevy logo](bevy_logo.png)][bevy]
+
+[Bevy][bevy] is a refreshingly simple data-driven game engine built in Rust.
+It is [free and open source][bevy-repo] forever!
+
+This month, thanks to 59 contributors, 122 pull requests, and their
+[generous sponsors][bevy-sponsors], Bevy 0.3 was released. You can view the
+[full Bevy 0.3 announcement here][bevy-0-3]. Here are some highlights:
+
+- Initial Android and iOS support
+- Asset system improvements:
+  - Asset handle eeference counting
+  - Asset loaders can now load multiple assets
+  - Sub asset loading
+  - Asset dependencies
+- GLTF scene loader
+- Bevy ECS improvements
+  - Query ergonomics: query.iter() returns a real iterator now!
+  - 100% lockless parallel ECS
+  - Performance improvements
+  - Thread local resources
+- Flexible mesh vertex attributes and index buffer specialization
+- WASM asset loading, touch input, transform re-rewrite, gamepad settings,
+  plugin Groups, dynamic Window Settings, documentation search-ability.
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/jnirl3/bevy_03/),
+[hacker news](https://news.ycombinator.com/item?id=24983956),
+[twitter](https://twitter.com/cart_cart/status/1323731853304422400)_
+
+[bevy]: https://bevyengine.org
+[bevy-repo]: https://github.com/bevyengine/bevy
+[bevy-0-3]: https://bevyengine.org/news/bevy-0-3
+[bevy-sponsors]: https://github.com/sponsors/cart
+
+------
+
+Community updates:
+
+- [bevy_rapier 0.5](https://rapier.rs/docs/user_guides/rust_bevy_plugin/getting_started):
+  The Rapier Physics project released updates to their official Bevy plugins, which
+  add support for Bevy 0.3 as well as the latest Rapier features
+  [announced here](https://www.dimforge.com/blog/2020/11/01/this-month-in-dimforge).
+- [bevy_easings](https://crates.io/crates/bevy_easings):
+  A plugin for easing a component value to another value, mainly used
+  to animate transition between two transforms, but usable for other components.
+- [bevy_miniquad](https://github.com/smokku/bevy_miniquad):
+  A plugin replacing winit windowing and render pipeline with
+  [miniquad](https://github.com/not-fl3/miniquad) library.
+- [physme](https://github.com/walterpie/physme):
+  A simplistic physics engine for both 2D and 3D simulation.
+  Physically inaccurate, but feels satisfying and is easy to use.
+- [bevy_networking_turbulence](https://github.com/smokku/bevy_networking_turbulence):
+  Networking plugin running on [naia-socket](https://github.com/naia-rs/naia-socket)
+  and [turbulence](https://github.com/kyren/turbulence) libraries.
+- [Making a Snake Clone](https://mbuffett.com/posts/bevy-snake-tutorial/):
+  Walkthrough on how to make a snake clone.
+- [bevy_tilemap](https://github.com/joshuajbouw/bevy_tilemap):
+  A plugin with generic types for rendering multi-threaded chunk-based tile
+  maps.
+- [Keep Inside](https://github.com/davidB/ld47_keep_inside):
+  A solo pong on a circle (made for Ludum Dare 47)
+- [Keep Moving and Nobody Burns](https://github.com/mockersf/kmanb):
+  A bomberman against time (made for Ludum Dare 47)
+
+Join the Bevy's [Discord][bevy-discord], [/r/bevy subreddit][bevy-reddit],
+and follow [@BevyEngine on Twitter][bevy-twitter].
+
+[bevy-discord]: https://discord.com/invite/gMUk5Ph
+[bevy-reddit]: https://reddit.com/r/bevy
+[bevy-twitter]: https://twitter.com/BevyEngine
 
 ### [Tetra]
 
