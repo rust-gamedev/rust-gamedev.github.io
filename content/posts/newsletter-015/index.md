@@ -347,10 +347,12 @@ Notable changes:
 
 ### [The Honor Sagas][honor-sagas]
 
+![game's banner](honor.png)
+
 [The Honor Sagas][honor-sagas] is an early-in-development 2d MMORPG project.
-October was the first month of development, and [@ecton] wrote [a
-postmortem][honor-sagas-postmortem] of the progress made while participating in
-[#Devtober][devtober].
+October was the first month of development, and [@ectonDev] wrote
+[a postmortem][honor-sagas-postmortem] of the progress made while participating
+in [#Devtober][devtober].
 
 [honor-sagas]: https://khonsulabs.itch.io/honorsagas
 [honor-sagas-postmortem]: https://khonsulabs.itch.io/honorsagas/devlog/192252/the-honor-sagas-devtober-postmortem
