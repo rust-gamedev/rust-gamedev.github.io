@@ -668,7 +668,7 @@ on the module's [repository][Proton-Media-Converter-Github]
 [Proton-Github]: https://github.com/ValveSoftware/Proton
 [Proton-Media-Converter-Github]: https://github.com/ValveSoftware/Proton/tree/proton_5.13/media-converter
 
-### [Bevy Engine][bevy-0-3]
+### [Bevy Engine v0.3][bevy-0-3]
 
 [![bevy logo](bevy_logo.png)][bevy]
 
@@ -679,61 +679,68 @@ This month, thanks to 59 contributors, 122 pull requests, and their
 [generous sponsors][bevy-sponsors], Bevy 0.3 was released. You can view the
 [full Bevy 0.3 announcement here][bevy-0-3]. Here are some highlights:
 
-- Initial Android Support
-- Initial iOS Support
-- Asset System Improvements:
-  - Asset Handle Reference Counting
-  - Asset Loaders can now load multiple assets
+- Initial Android and iOS support
+- Asset system improvements:
+  - Asset handle eeference counting
+  - Asset loaders can now load multiple assets
   - Sub asset loading
   - Asset dependencies
-- GLTF Scene Loader
-- Bevy ECS Improvements
-  - Query Ergonomics: query.iter() returns a real iterator now!
+- GLTF scene loader
+- Bevy ECS improvements
+  - Query ergonomics: query.iter() returns a real iterator now!
   - 100% lockless parallel ECS
   - Performance improvements
   - Thread local resources
-- Flexible Mesh Vertex Attributes and Index Buffer specialization
-- WASM Asset Loading, Touch Input, Transform Re-Rewrite, Gamepad Settings,
-Plugin Groups, Dynamic Window Settings, Documentation Search-Ability
+- Flexible mesh vertex attributes and index buffer specialization
+- WASM asset loading, touch input, transform re-rewrite, gamepad settings,
+  plugin Groups, dynamic Window Settings, documentation search-ability.
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/jnirl3/bevy_03/),
+[hacker news](https://news.ycombinator.com/item?id=24983956),
+[twitter](https://twitter.com/cart_cart/status/1323731853304422400)_
 
 [bevy]: https://bevyengine.org
 [bevy-repo]: https://github.com/bevyengine/bevy
 [bevy-0-3]: https://bevyengine.org/news/bevy-0-3
 [bevy-sponsors]: https://github.com/sponsors/cart
 
-Community Updates:
+------
+
+Community updates:
 
 - [bevy_rapier 0.5](https://rapier.rs/docs/user_guides/rust_bevy_plugin/getting_started):
-The Rapier Physics project released updates to their official Bevy plugins, which
-add support for Bevy 0.3 as well as the latest Rapier features [announced here](https://www.dimforge.com/blog/2020/11/01/this-month-in-dimforge)
-- [bevy_easings](https://crates.io/crates/bevy_easings): A plugin for easing a
-component value to another value, mainly used to animate transition between two
-transforms, but usable for other components.
-- [bevy_miniquad](https://github.com/smokku/bevy_miniquad): A plugin replacing
-winit windowing and render pipeline with [miniquad](https://github.com/not-fl3/miniquad)
-library.
-- [physme](https://github.com/walterpie/physme): A simplistic physics engine for
-both 2D and 3D simulation. Physically inaccurate, but feels satisfying and is
-easy to use.
+  The Rapier Physics project released updates to their official Bevy plugins, which
+  add support for Bevy 0.3 as well as the latest Rapier features
+  [announced here](https://www.dimforge.com/blog/2020/11/01/this-month-in-dimforge).
+- [bevy_easings](https://crates.io/crates/bevy_easings):
+  A plugin for easing a component value to another value, mainly used
+  to animate transition between two transforms, but usable for other components.
+- [bevy_miniquad](https://github.com/smokku/bevy_miniquad):
+  A plugin replacing winit windowing and render pipeline with
+  [miniquad](https://github.com/not-fl3/miniquad) library.
+- [physme](https://github.com/walterpie/physme):
+  A simplistic physics engine for both 2D and 3D simulation.
+  Physically inaccurate, but feels satisfying and is easy to use.
 - [bevy_networking_turbulence](https://github.com/smokku/bevy_networking_turbulence):
-Networking plugin running on [naia-socket](https://github.com/naia-rs/naia-socket)
-and [turbulence](https://github.com/kyren/turbulence) libraries.
-- [Making a Snake Clone](https://mbuffett.com/posts/bevy-snake-tutorial/): Walkthrough
-on how to make a snake clone
-- [bevy_tilemap](https://github.com/joshuajbouw/bevy_tilemap): A plugin with generic
-types for rendering multi-threaded chunk-based tile maps.
-- [Keep Inside](https://github.com/davidB/ld47_keep_inside): A solo pong on a
-circle (made for Ludum Dare 47)
-- [Keep Moving and Nobody Burns](https://github.com/mockersf/kmanb): A bomberman
-against time (made for Ludum Dare 47)
+  Networking plugin running on [naia-socket](https://github.com/naia-rs/naia-socket)
+  and [turbulence](https://github.com/kyren/turbulence) libraries.
+- [Making a Snake Clone](https://mbuffett.com/posts/bevy-snake-tutorial/):
+  Walkthrough on how to make a snake clone.
+- [bevy_tilemap](https://github.com/joshuajbouw/bevy_tilemap):
+  A plugin with generic types for rendering multi-threaded chunk-based tile
+  maps.
+- [Keep Inside](https://github.com/davidB/ld47_keep_inside):
+  A solo pong on a circle (made for Ludum Dare 47)
+- [Keep Moving and Nobody Burns](https://github.com/mockersf/kmanb):
+  A bomberman against time (made for Ludum Dare 47)
 
-Official Communities: [discord](https://discord.com/invite/gMUk5Ph), [reddit](https://www.reddit.com/r/bevy),
-[twitter](https://twitter.com/BevyEngine)
+Join the Bevy's [Discord][bevy-discord], [/r/bevy subreddit][bevy-reddit],
+and follow [@BevyEngine on Twitter][bevy-twitter].
 
-_Discussions:
-[/r/rust](https://www.reddit.com/r/rust/comments/jnirl3/bevy_03/),
-[hacker news](https://news.ycombinator.com/item?id=24983956),
-[twitter](https://twitter.com/cart_cart/status/1323731853304422400)_
+[bevy-discord]: https://discord.com/invite/gMUk5Ph
+[bevy-reddit]: https://reddit.com/r/bevy
+[bevy-twitter]: https://twitter.com/BevyEngine
 
 ## Popular Workgroup Issues in Github
 
