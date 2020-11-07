@@ -231,6 +231,20 @@ shops, character creation, and a few other features:
 [Antorum Online]: https://ratwizard.dev/dev-log/antorum
 [@dooskington]: https://twitter.com/dooskington
 
+### [The Honor Sagas][honor-sagas]
+
+![game's banner](honor.png)
+
+[The Honor Sagas][honor-sagas] is an early-in-development 2d MMORPG project.
+October was the first month of development, and [@ectonDev] wrote
+[a postmortem][honor-sagas-postmortem] of the progress made while participating
+in [#Devtober][devtober].
+
+[honor-sagas]: https://khonsulabs.itch.io/honorsagas
+[honor-sagas-postmortem]: https://khonsulabs.itch.io/honorsagas/devlog/192252/the-honor-sagas-devtober-postmortem
+[devtober]: https://itch.io/jam/devtober-2020
+[@ectonDev]: https://twitter.com/ectonDev
+
 ### [Power Kick]
 
 ![Power Kick](power-kick-shot.png)
@@ -344,20 +358,6 @@ Notable changes:
 
 [canon-collision]:https://canoncollision.com
 [@rukai]: https://twitter.com/thisIsRukai
-
-### [The Honor Sagas][honor-sagas]
-
-![game's banner](honor.png)
-
-[The Honor Sagas][honor-sagas] is an early-in-development 2d MMORPG project.
-October was the first month of development, and [@ectonDev] wrote
-[a postmortem][honor-sagas-postmortem] of the progress made while participating
-in [#Devtober][devtober].
-
-[honor-sagas]: https://khonsulabs.itch.io/honorsagas
-[honor-sagas-postmortem]: https://khonsulabs.itch.io/honorsagas/devlog/192252/the-honor-sagas-devtober-postmortem
-[devtober]: https://itch.io/jam/devtober-2020
-[@ectonDev]: https://twitter.com/ectonDev
 
 ## Learning Material Updates
 
