@@ -700,6 +700,34 @@ that is written in Rust.
 [Mun]: https://mun-lang.org
 [mun-october]: https://mun-lang.org/blog/2020/10/31/this-month-october
 
+### [building-blocks]
+
+![Meshing Example](building-blocks.gif)
+
+[Building Blocks][building-blocks] by [@bonsairobo]
+is an engine-agnostic voxel library that implements real-time data structures
+and algorithms for: edits on compressed maps, meshing, search, and collisions.
+
+The library has recently seen two releases:
+
+- [v0.1.0 release notes][building-blocks-v0-1]
+- [v0.2.0 release notes][building-blocks-v0-2]
+
+To prove out the functionality of the library, the [voxel-mapper]
+project was ported to use building-blocks instead of ilattice3.
+This resulted in improved performance and memory usage
+when doing large edits and working with large maps:
+
+![Terraforming demo](voxel-mapper.gif)
+
+Join [Building Blocks's Discord server](https://discord.gg/CnTNjwb).
+
+[building-blocks]: https://github.com/bonsairobo/building-blocks
+[@bonsairobo]: https://github.com/bonsairobo
+[voxel-mapper]: https://github.com/amethyst/voxel-mapper
+[building-blocks-v0-1]: https://github.com/bonsairobo/building-blocks/releases/tag/v0.1.0
+[building-blocks-v0-2]: https://github.com/bonsairobo/building-blocks/releases/tag/v0.2.0
+
 ### [gfx-rs]
 
 gfx-rs support for D3D has been improved. [@kvark] landed a few critical fixes
