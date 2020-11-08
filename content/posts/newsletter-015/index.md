@@ -665,6 +665,29 @@ For a full list of changes see the [glam changelog].
 [bytemuck]: https://docs.rs/bytemuck
 [glam changelog]: https://github.com/bitshifter/glam-rs/blob/master/CHANGELOG.md
 
+### [density-mesh]
+
+![output example](density-mesh.png)
+
+[density-mesh] by [@PsichiX] is an image density/height map to mesh generator.
+It consists of two crates:
+
+- density-mesh-core - generates mesh from density map.
+- density-mesh-image - generates density map from image.
+
+Typical use case would be to use two of them to create mesh from images
+but in case you have your own image handler, you can stick to the core module
+and produce density maps by yourself.
+
+There's also a [CLI tool][density-mesh-cli].
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/j73ijj/densitymesh_image_to_2d_mesh_converter)_
+
+[density-mesh]: https://github.com/PsichiX/density-mesh
+[density-mesh-cli]: https://github.com/PsichiX/density-mesh#cli
+[@PsichiX]: https://github.com/PsichiX
+
 ### [Rapier]
 
 [![Rapier logo](rapier-logo.svg)][Rapier]
