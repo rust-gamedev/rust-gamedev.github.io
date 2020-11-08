@@ -572,7 +572,9 @@ Here are some of the games made with Rust:
 - ["Soy Content"][ld-soy] by [@walterpie] made with Bevy
   ([source code][ld-soy-src]).
 
-  > A simple game in which you have to go to the store and buy some soy milk.
+  > A misleading puzzle game with a twist.
+  > Find your way in a non-euclidean maze of interconnected rooms.
+  > Warning: Game doesn't contain any Soy.
 
   ![gameplay](ld47-soy.png)
 
