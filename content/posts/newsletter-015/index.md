@@ -557,6 +557,26 @@ or follow [@sajattack] on Twitter.
 [Discord]: https://discord.gg/tvGzD4GqvF
 [@sajattack]: https://twitter.com/sajattack
 
+### [gbemu]
+
+![screenshot](gbemu.png)
+
+[gbemu] by [@BlueBlazin] is a Gameboy/Gameboy Color Emulator which
+[runs in the browser][gbemu-web].
+
+> ... I wrote the emu just for myself as a learning experience.
+> So it's lacking in a lot of features you'd expect from one made
+> for others to use, and it's also not mobile friendly unfortunately
+> (but I'll work on that soon).
+> Still, it may be of some interest to someone here :D
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/j8vw84/i_made_a_gameboygameboy_color_emulator)_
+
+[gbemu]: https://github.com/BlueBlazin/gbemu
+[gbemu-web]: https://gbemu.netlify.app
+[@BlueBlazin]: https://github.com/BlueBlazin
+
 ### [skyline-rs]
 
 ![SSB & Rust logos](smash_x_rust.png)
