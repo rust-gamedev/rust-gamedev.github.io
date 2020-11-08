@@ -220,50 +220,41 @@ For updates and possible playtesting opportunities, follow
 ![Garden](garden_scaled_1.png)
 _A couple of trees growing and basking in the sun_
 
-[Garden][garden] is a procedural tree-growing, strategical ecosystem-restoration 
-and biological simulation game with an infinite amount of plant species where 
-every leaf is simulated, and the natural resources are scarce. 
+[Garden][garden] is a procedural tree-growing, strategical ecosystem-restoration
+and biological simulation game with an infinite amount of plant species where
+every leaf is simulated, and the natural resources are scarce.
 Every specimen is unique, as the plants grow by responding to the live changes in
-the environment. 
-The player has to balance many complex mechanics to sustain life and go 
+the environment.
+The player has to balance many complex mechanics to sustain life and go
 forward in the game.
-
 The game and the custom engine are developed in Rust with an OpenGL backend.
+
 Garden developers (temporary name) are preparing for a demo release in a couple
 of months by tying everything together into a coherent experience.
-The game is also continually optimized to run on less powerful GPUs, 
+The game is also continually optimized to run on less powerful GPUs,
 so that everyone can enjoy it.
 
-The following changes occured in October:
+Some of the [updates from the October devlog][garden-devlog]:
 
-- Supporting the creation of a near-infinite variety of plant species
-    
-    Achieved through treating branch segments as Markov chains (enabling 
-    different growth speeds and probabilities for other segment types' 
-    growth from one another) and simulating photosynthesis as an 
-    electrical circuit (enabling sugar storage in the form of root vegetables, 
-    for example). 
-
-    *Read the detailed 
-    step-by-step explanation in the 
-    [latest devlog].*
-- Concrete brick destruction mechanics
-
-    Dust particles for
-    the animation that appears upon breaking, as well as the debris, were also
-    added to the game.
-- Saving and loading are almost complete
-- The addition of a watering can
-- Smoother soil and debris outlines
+- Near-infinite variety of plant species
+  achieved through treating branch segments as Markov chains
+  (enabling different growth speeds and probabilities
+  for other segment types' growth from one another)
+  and simulating photosynthesis as an electrical circuit
+  (enabling sugar storage in the form of root vegetables, for example).
+- Concrete brick destruction mechanics was implemented.
+  Dust particles for the animation that appears upon breaking,
+  as well as the debris, were also added to the game.
+- Saving and loading are almost complete.
+- A watering can was added.
+- Smoother soil and debris outlines.
 
 Follow the developers [@logicsoup] and [@epcc10] on Twitter for more updates.
-
-[Read the full devlog][latest devlog]
 
 [garden]: https://www.cyberplant.xyz
 [@logicsoup]: https://twitter.com/logicsoup
 [@epcc10]: https://twitter.com/epcc10
-[latest devlog]: https://cyberplant.xyz/posts/october_2020/
+[garden-devlog]: https://cyberplant.xyz/posts/october_2020
 
 ### [Akigi][akigi]
 
