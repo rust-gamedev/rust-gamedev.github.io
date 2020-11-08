@@ -668,25 +668,25 @@ on the module's [repository][Proton-Media-Converter-Github]
 [Proton-Github]: https://github.com/ValveSoftware/Proton
 [Proton-Media-Converter-Github]: https://github.com/ValveSoftware/Proton/tree/proton_5.13/media-converter
 
-### [Rust GPU][RustGPU-Github] v0.1
+### [Rust GPU v0.1][rustgpu-v0.1]
 
 ![Rust GPU Sky](rustgpu.jpg)
 _Sky example in Rust GPU_
 
-Rust GPU is a project backed by [Embark Studios][RustGPU-Embark] to make Rust a
-first-class language and ecosystem for building GPU code.
+[Rust GPU][rustgpu] is a project backed by [Embark Studios][embark]
+to make Rust a first-class language and ecosystem for building GPU code.
 
-Although still in very early stages of development, [Rust GPU released v0.1 in
-October][RustGPU-Twitter], and has already garnered over 2000 stars on Github.
-There are also threads about it [on Hacker News][RustGPU-HackerNews] and
-[Reddit][RustGPU-Reddit]. Currently, compiling and running very simple shaders
+Although still in very early stages of development,
+[Rust GPU released v0.1 in October][rustgpu-v0.1],
+and has already garnered over 2000 stars on Github.
+Currently, compiling and running very simple shaders
 works, and a significant portion of the core library also compiles. However,
 many things aren't implemented yet: for example, while-loops and if-statements
 work, but for-loops, iterators, and match/switch aren't supported yet! That
 means that while being technically usable, Rust GPU is far from being
 production-ready.
 
-Here is a description of the project:
+Motivation behind the project:
 
 > Historically in games, GPU programming has been done through writing either
 > HLSL, or to a lesser extent GLSL. These are simple programming languages that
@@ -704,11 +704,31 @@ Here is a description of the project:
 > made to create language in this space, none of them have gained any notable
 > traction in the gamedev community.
 
-[RustGPU-Github]: https://github.com/EmbarkStudios/rust-gpu
-[RustGPU-Twitter]: https://twitter.com/repi/status/1319274584915365888
-[RustGPU-HackerNews]: https://news.ycombinator.com/item?id=24858172
-[RustGPU-Reddit]: https://www.reddit.com/r/rust/comments/jg056t/introducing_rustgpu_v01_embarkstudiosrustgpu/
-[RustGPU-Embark]: https://www.embark-studios.com/
+The code for the sky example above:
+
+```rust
+#[spirv(entry = "fragment")]
+pub fn main_fs(input: Input<Vec4>, mut output: Output<Vec4>) {
+    let dir: Vec3 = input.load().truncate();
+    let cs_pos = Vec4(dir.0, -dir.1, 1.0, 1.0);
+    let ws_pos = {
+        let p = clip_to_world.mul_vec4(cs_pos);
+        p.truncate() / p.3
+    };
+    let dir = (ws_pos - eye_pos).normalize();
+    let color = sky(dir, sun_pos); // evaluate Preetham sky model
+    output.store(color.extend(0.0))
+}
+```
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/jg056t/introducing_rustgpu_v01),
+[Hacker News](https://news.ycombinator.com/item?id=24858172),
+[Twitter](https://twitter.com/repi/status/1319274584915365888)_
+
+[rustgpu]: https://github.com/EmbarkStudios/rust-gpu
+[rustgpu-v0.1]: https://github.com/EmbarkStudios/rust-gpu/releases/tag/v0.1
+[embark]: https://www.embark-studios.com/
 
 ## Popular Workgroup Issues in Github
 
