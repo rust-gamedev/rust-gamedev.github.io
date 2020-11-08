@@ -633,6 +633,28 @@ creating a grid system, and spawning/despawning entities.
 
 [Creating a Snake Clone in Bevy]: https://mbuffett.com/posts/bevy-snake-tutorial/
 
+### Rust FFI: Microsoft Flight Simulator SDK
+
+[![Preview](video-ffi-msfs.jpg)][msfs-video-1]
+
+[@ryan_levick] made two livestreams about Rust FFI and SDK for
+Microsoft Flight Simulator 2020.
+You can watch recordings here:
+
+- [Part 1][msfs-video-1]: bindgen, C ABIs, linkers, and more.
+- [Part 2][msfs-video-2]: more high level concerns like API design
+  and making an idiomatic API.
+
+Subscribe to [@ryanlevick on Twitch][ryanlevick-twitch] for future streams.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/j92jc0/rust_ffi_microsoft_flight_simulator_sdk_part_1)_
+
+[@ryan_levick]: twitter.com/ryan_levick
+[ryanlevick-twitch]: https://twitch.tv/ryanlevick
+[msfs-video-1]: https://youtube.com/watch?v=jNNz4h3iIlw
+[msfs-video-2]: https://youtube.com/watch?v=ugiR9M16fwg
+
 ### [How to: Rust + SDL2 + OpenGL on the web][how-to-rust-sdl2-opengl-post]
 
 [@Therocode] published an [article][how-to-rust-sdl2-opengl-post] that
