@@ -620,12 +620,11 @@ up to make sure performances regressions can be detected early.
 [Physme] is not your typical physics engine. It doesn't exactly simulate
 real world physics and it never will. Instead it has only two goals:
 
-- To provide satisfying real-time dynamics for 2D and 3D games
-- To have a simple to use API
+- To provide satisfying real-time dynamics for 2D and 3D games.
+- To have a simple to use API.
 
 Physme will only work with [bevy] and is not made to support other game
 engines.
-
 The current release supports bevy 0.2, but work is being done to support
 bevy 0.3.
 
