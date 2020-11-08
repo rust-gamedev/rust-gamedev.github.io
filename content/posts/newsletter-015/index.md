@@ -500,6 +500,105 @@ _Discussions:
 [@joshikatsu]: https://twitter.com/joshikatsu
 [galaxy-sim-wiki]: https://en.wikipedia.org/wiki/Barnes-Hut_simulation
 
+### Ludum Dare 47
+
+[Ludum Dare][ld] is a regular game jam event,
+during which developers create games from scratch in a weekend
+based on a theme suggested by the community.
+
+LD47's theme was "Stuck in a loop".
+Here are some of the games made with Rust:
+
+- ["The Island"][ld-island] by [@kuviman]
+  ([source code][ld-island-src]).
+
+  > A multiplayer online sandbox game.
+  > Explore, craft, and try to escape the island
+  > (spoiler: you can not, you are stuck in a loop).
+  > The world regenerates where you dont see.
+
+  Check out the devlog post:
+  ["LudumDare 47 - The Island"][ld-island-post].
+
+  ![gameplay](ld47-island.gif)
+
+- ["Time Ghosts"][ld-ghosts] by [@Healthire]
+  ([source code][ld-ghosts-src]).
+
+  > You have a limited time to collect the next part for the Machine,
+  > when 12 seconds have passed time rewinds and you have to start over.
+  > But don’t worry, your past self is still around
+  > to repeat your past actions.
+
+  ![gameplay](ld47-time-ghosts.png)
+
+- ["Quantum Loops"][ld-quantum] by [@necauqua]
+  ([source code][ld-quantum-src]).
+
+  > There is a particle forced to exist in a quantum loop
+  > and it really hates being real!
+  > Disrupt the quantum levels with most efficient use of your energy
+  > to let it escape back into nothing!
+
+  ![gameplay](ld47-quantum-loops.png)
+
+- ["Keep Inside"][ld-keep-inside] by [@davidB] made with Bevy
+  ([source code][ld-keep-inside-src]).
+
+  > A solo pong on a circle.
+
+  ![gameplay](ld47-keep-inside.gif)
+
+- ["Keep Moving and Nobody Burns"][ld-nobody-burns-src] by [@FrancoisMockers]
+  made with Bevy ([source code][ld-nobody-burns-src]).
+
+  > Aim for the high score while avoid getting burned either
+  > by that big wall of fire or by your own bombs!
+  > Every round, the game will get harder, but you will earn more points.
+  > To help you, blowing up those crates may drop bonus
+  > that will make your bombs more useful.
+
+  ![gameplay](ld47-nobody-burns.png)
+
+- ["Bloody Baron"][ld-baron] by [@torresguilherme]
+  ([source code][ld-baron-src]).
+
+  > You’re in a building with 9 other people, and one of them is a brutal killer.
+  > Don’t get caught by them, and use your abilities and your logic skills
+  > to solve the mystery and vote the right person in the trial!
+
+  ![gameplay](ld47-bloody-baron.png)
+
+- ["Soy Content"][ld-soy] by [@walterpie] made with Bevy
+  ([source code][ld-soy-src]).
+
+  > A simple game in which you have to go to the store and buy some soy milk.
+
+  ![gameplay](ld47-soy.png)
+
+[ld]: https://ldjam.com/events/ludum-dare/47
+[ld-island]: https://ldjam.com/events/ludum-dare/47/the-island
+[ld-island-src]: https://github.com/kuviman/ludumdare47
+[ld-island-post]: https://blog.kuviman.com/2020/10/18/ludumdare47.html
+[@kuviman]: https://github.com/kuviman
+[ld-ghosts]: https://ldjam.com/events/ludum-dare/47/time-ghosts
+[ld-ghosts-src]: https://github.com/Healthire/ld47
+[@Healthire]: https://twitter.com/Healthire
+[ld-quantum]: https://ldjam.com/events/ludum-dare/47/quantum-loops
+[ld-quantum-src]: https://github.com/necauqua/quantum-loops
+[@necauqua]: https://twitter.com/necauqua
+[ld-keep-inside]: https://ldjam.com/events/ludum-dare/47/keep-inside
+[ld-keep-inside-src]: https://github.com/davidB/ld47_keep_inside
+[@davidB]: https://github.com/davidB
+[ld-nobody-burns-src]: https://github.com/mockersf/kmanb
+[@FrancoisMockers]: https://twitter.com/FrancoisMockers
+[ld-baron]: https://ldjam.com/events/ludum-dare/47/bloody-baron
+[ld-baron-src]: https://github.com/torresguilherme/bloody-baron
+[@torresguilherme]: https://github.com/torresguilherme
+[ld-soy]: https://ldjam.com/events/ludum-dare/47/soy-content
+[ld-soy-src]: https://github.com/walterpie/ldjam-47
+[@walterpie]: https://github.com/walterpie
+
 ## Learning Material Updates
 
 ### How to: WGPU + Winit + ECS + Pixels
