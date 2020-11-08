@@ -540,7 +540,7 @@ Here are some of the games made with Rust:
   > Disrupt the quantum levels with most efficient use of your energy
   > to let it escape back into nothing!
 
-  ![gameplay](ld47-quantum-loops.png)
+  ![gameplay](ld47-quantum-loops.gif)
 
 - ["Keep Inside"][ld-keep-inside] by [@davidB] made with Bevy
   ([source code][ld-keep-inside-src]).
