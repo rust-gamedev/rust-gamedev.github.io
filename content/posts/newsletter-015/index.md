@@ -1049,6 +1049,48 @@ Contributions and feedback are always welcome.
 [Rapier]: https://rapier.rs
 [Wgpu]: https://wgpu.rs
 
+### [fastnbt & fastanvil][fastnbt]
+
+![output example](fastnbt.png)
+
+[fastnbt] by [@owengage] is a fast parsing library
+for Minecraft's NBT and Anvil formats.
+
+The project consists of several crates:
+
+- fastnbt - fast deserializer and parser for Minecraft: Java Edition's
+  NBT data format.
+- fastanvil - for rendering Minecraft worlds to maps.
+- fastnbt-tools - various tools for NBT/Anvil, notably a map renderer.
+- anvil-wasm - an entirely in-the-browser map renderer.
+  Demo at [owengage.com/anvil][anvil].
+
+The project supports only the latest version of Minecraft (1.16 at the moment).
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/jj6k9b/any_minecraft_fans)_
+
+[fastnbt]: https://github.com/owengage/fastnbt
+[@owengage]: https://github.com/owengage
+[anvil]: https://owengage.com/anvil
+
+### mcproto
+
+mcproto by [@Twister915] is an implementation of the Minecraft multiplayer
+network protocol in Rust. It consists of three crates:
+
+- [mcproto-rs] - the protocol itself,
+- [mctokio] - tokio I/O stuff,
+- [rustcord] - a layer 7 server-switching proxy implementation (WIP).
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/jcbawo/the_entire_minecraft_protocol_in_rust)_
+
+[mcproto-rs]: https://github.com/Twister915/mcproto-rs
+[mctokio]: https://github.com/Twister915/mctokio
+[rustcord]: https://github.com/Twister915/rustcord
+[@Twister915]: https://github.com/Twister915
+
 ### Ajour - World of Warcraft Addon Manager
 
 [![Ajour Banner](ajour-banner.jpg)][Ajour]
