@@ -930,48 +930,6 @@ Contributions and feedback are always welcome.
 [Rapier]: https://rapier.rs
 [Wgpu]: https://wgpu.rs
 
-### [Arsenal]
-
-![text logo](arsenal.png)
-
-[Arsenal] is a [Blender] game engine built on Rust and the [Bevy] game engine.
-Arsenal's goal is to bring the ability to makes games of any scale to game
-developers and artists of any experience level.
-
-In the last month Arsenal has gotten back into full steam development with the
-goal to produce an Arsenal 0.2 release that you can make simple games with.
-Development has focused thus far on the all-important scripting interface
-necessary to be able to make games without re-compiling the engine. Great
-progress has been made on a Bevy [pull request][bevy_dynamic_pr] to facilitate
-dynamic components and systems, and the first efforts have been started to
-leverage that functionality to enable scripting with Python.
-
-Weekly Arsenal development updates are made in the [Arsenal channel] on
-[Katharostech.com], including the updates for this month:
-
-- [Arsenal Development: Week 1 of Full Time Dev][arsenal_dev_week_1]
-- [Arsenal Development: Week 2 - Bevy Benchmarks][arsenal_dev_week_2]
-- [Arsenal Development: Week 3 - Nailing Down Dynamic ECS][arsenal_dev_week_3]
-- [Arsenal Development: Week 4 - Lock Free Dynamic Queries][arsenal_dev_week_4]
-
-You can check the [project's workboard][arsenal-workboard],
-provide feedback [on the issues][arsenal-issues],
-and support the authors at [Github Sponsors page][arsenal-sponsors].
-
-[arsenal]: https://github.com/katharostech/arsenal
-[blender]: https://blender.org
-[bevy]: https://bevyengine.org
-[bevy_dynamic_pr]: https://github.com/bevyengine/bevy/pull/623
-[katharostech.com]: https://katharostech.com
-[arsenal channel]: https://katharostech.com/tag/arsenal
-[arsenal_dev_week_1]: https://katharostech.com/post/arsenal-development-week-1-of-full-time-dev
-[arsenal_dev_week_2]: https://katharostech.com/post/arsenal-development-week-2-bevy-benchmarks
-[arsenal_dev_week_3]: https://katharostech.com/post/arsenal-development-week-3-nailing-down-dynamic
-[arsenal_dev_week_4]: https://katharostech.com/post/arsenal-development-week-4-lock-free-dynamic-queries
-[arsenal-workboard]: https://github.com/katharostech/arsenal/projects/1
-[arsenal-issues]: https://github.com/katharostech/arsenal/issues
-[arsenal-sponsors]: https://github.com/sponsors/katharostech
-
 ### Ajour - World of Warcraft Addon Manager
 
 [![Ajour Banner](ajour-banner.jpg)][Ajour]
