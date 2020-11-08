@@ -704,7 +704,7 @@ Here is a description of the project:
 > made to create language in this space, none of them have gained any notable
 > traction in the gamedev community.
 
-[RustGPU-Github]: https://github.com/ValveSoftware/Proton
+[RustGPU-Github]: https://github.com/EmbarkStudios/rust-gpu
 [RustGPU-Twitter]: https://twitter.com/repi/status/1319274584915365888
 [RustGPU-HackerNews]: https://news.ycombinator.com/item?id=24858172
 [RustGPU-Reddit]: https://www.reddit.com/r/rust/comments/jg056t/introducing_rustgpu_v01_embarkstudiosrustgpu/
