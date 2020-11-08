@@ -970,32 +970,33 @@ on the module's [repository][Proton-Media-Converter-Github]
 [Proton-Github]: https://github.com/ValveSoftware/Proton
 [Proton-Media-Converter-Github]: https://github.com/ValveSoftware/Proton/tree/proton_5.13/media-converter
 
-### [building-blocks](https://github.com/bonsairobo/building-blocks)
+### [building-blocks]
 
-[Building Blocks](https://github.com/bonsairobo/building-blocks)
-by [@bonsairobo](https://github.com/bonsairobo) is an engine-agnostic voxel
-library that implements real-time data structures and algorithms for:
+![Meshing Example](building-blocks.gif)
 
-- edits on compressed maps
-- meshing
-- search
-- collisions
-
-![Meshing Example](https://i.imgur.com/IZwfRHc.gif)
+[Building Blocks][building-blocks] by [@bonsairobo]
+is an engine-agnostic voxel library that implements real-time data structures
+and algorithms for: edits on compressed maps, meshing, search, and collisions.
 
 The library has recently seen two releases:
 
-- [v0.1.0](https://github.com/bonsairobo/building-blocks/releases/tag/v0.1.0)
-- [v0.2.0](https://github.com/bonsairobo/building-blocks/releases/tag/v0.2.0)
+- [v0.1.0 release notes][building-blocks-v0-1]
+- [v0.2.0 release notes][building-blocks-v0-2]
 
-To prove out the functionality of the library, we've ported the
-[voxel-mapper](https://github.com/amethyst/voxel-mapper) project to use
-building-blocks instead of ilattice3. This resulted in improved performance
-and memory usage when doing large edits and working with large maps.
+To prove out the functionality of the library, the [voxel-mapper]
+project was ported to use building-blocks instead of ilattice3.
+This resulted in improved performance and memory usage
+when doing large edits and working with large maps:
 
-![Terraforming](https://github.com/amethyst/voxel-mapper/blob/master/screenshots/smooth_editing_small.gif)
+![Terraforming demo](voxel-mapper.gif)
 
-Join the discussion on [Discord](https://discord.gg/CnTNjwb).
+Join [Building Blocks's Discord server](https://discord.gg/CnTNjwb).
+
+[building-blocks]: https://github.com/bonsairobo/building-blocks
+[@bonsairobo]: https://github.com/bonsairobo
+[voxel-mapper]: https://github.com/amethyst/voxel-mapper
+[building-blocks-v0-1]: https://github.com/bonsairobo/building-blocks/releases/tag/v0.1.0
+[building-blocks-v0-2]: https://github.com/bonsairobo/building-blocks/releases/tag/v0.2.0
 
 ## Popular Workgroup Issues in Github
 
