@@ -483,6 +483,23 @@ Notable changes:
 [canon-collision]:https://canoncollision.com
 [@rukai]: https://twitter.com/thisIsRukai
 
+### [galaxy-sim.github.io]
+
+![Simulation demo](galaxy-sim.gif)
+
+[galaxy-sim.github.io] ([source][galaxy-sim-repo]) by [@zephybite] and [@joshikatsu]
+is a colliding galaxies simulation based on [Barnes-Hut and direct algorithms][galaxy-sim-wiki].
+The project is written using Rust, ThreeJS, and WASM.
+
+_Discussions:
+[Twitter](https://twitter.com/zephybite/status/1311384855276470272)_
+
+[galaxy-sim.github.io]: https://galaxy-sim.github.io
+[galaxy-sim-repo]: https://github.com/Katsutoshii/barnes-hut-rs
+[@zephybite]: https://twitter.com/zephybite
+[@joshikatsu]: https://twitter.com/joshikatsu
+[galaxy-sim-wiki]: https://en.wikipedia.org/wiki/Barnes-Hut_simulation
+
 ## Learning Material Updates
 
 ### How to: WGPU + Winit + ECS + Pixels
