@@ -604,6 +604,27 @@ It also features updates regarding:
 [bntx]: https://github.com/jam1garner/bntx
 [nutexb]: https://github.com/jam1garner/nutexb
 
+### [shared-arena]
+
+[shared-arena] by [@0x5eb] is a thread-safe & efficient memory pool.
+Memory pools are usefull for speeding up dynamic (de)allocation
+of large amounts of data of the same size.
+
+shared-arena provides three memory pools with different trade-offs:
+
+![SharedArena, Arena, Pool](shared-arena.png)
+
+The crate uses unsafe in a few places,
+but the code is covered by the miri interpreter, valgrind and 3 sanitizers
+(address, leak and memory) [on each commit][shared-arena-ga].
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/jddens/announcing_shared_arena)_
+
+[shared-arena]: https://github.com/sebastiencs/shared-arena
+[shared-arena-ga]: https://github.com/sebastiencs/shared-arena/blob/master/.github/workflows
+[@0x5eb]: https://twitter.com/0x5eb
+
 ### [glam] v0.10.0
 
 [glam] is a simple and fast linear algebra crate for games and graphics.
