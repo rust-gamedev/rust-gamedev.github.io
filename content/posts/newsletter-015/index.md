@@ -1024,6 +1024,68 @@ on the module's [repository][Proton-Media-Converter-Github]
 [Proton-Github]: https://github.com/ValveSoftware/Proton
 [Proton-Media-Converter-Github]: https://github.com/ValveSoftware/Proton/tree/proton_5.13/media-converter
 
+### [Rust GPU v0.1][rustgpu-v0.1]
+
+![Rust GPU Sky](rustgpu.jpg)
+_Sky example in Rust GPU_
+
+[Rust GPU][rustgpu] is a project backed by [Embark Studios][embark]
+to make Rust a first-class language and ecosystem for building GPU code.
+
+Although still in very early stages of development,
+[Rust GPU released v0.1 in October][rustgpu-v0.1],
+and has already garnered over 2000 stars on Github.
+Currently, compiling and running very simple shaders
+works, and a significant portion of the core library also compiles. However,
+many things aren't implemented yet: for example, while-loops and if-statements
+work, but for-loops, iterators, and match/switch aren't supported yet! That
+means that while being technically usable, Rust GPU is far from being
+production-ready.
+
+Motivation behind the project:
+
+> Historically in games, GPU programming has been done through writing either
+> HLSL, or to a lesser extent GLSL. These are simple programming languages that
+> have evolved along with rendering APIs over the years. However, as game engines
+> have evolved, these languages have failed to provide mechanisms for dealing with
+> large codebases, and have generally stayed behind the curve compared to other
+> programming languages.
+>
+> In part this is because it's a niche language for a niche market, and in part
+> this has been because the industry as a whole has sunk quite a lot of time and
+> effort into the status quo. While over-all better alternatives to both languages
+> exist, none of them are in a place to replace HLSL or GLSL. Either because they
+> are vendor locked, or because they don't support the traditional graphics
+> pipeline. Examples of this include CUDA and OpenCL. And while attempts have been
+> made to create language in this space, none of them have gained any notable
+> traction in the gamedev community.
+
+The code for the sky example above:
+
+```rust
+#[spirv(entry = "fragment")]
+pub fn main_fs(input: Input<Vec4>, mut output: Output<Vec4>) {
+    let dir: Vec3 = input.load().truncate();
+    let cs_pos = Vec4(dir.0, -dir.1, 1.0, 1.0);
+    let ws_pos = {
+        let p = clip_to_world.mul_vec4(cs_pos);
+        p.truncate() / p.3
+    };
+    let dir = (ws_pos - eye_pos).normalize();
+    let color = sky(dir, sun_pos); // evaluate Preetham sky model
+    output.store(color.extend(0.0))
+}
+```
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/jg056t/introducing_rustgpu_v01),
+[Hacker News](https://news.ycombinator.com/item?id=24858172),
+[Twitter](https://twitter.com/repi/status/1319274584915365888)_
+
+[rustgpu]: https://github.com/EmbarkStudios/rust-gpu
+[rustgpu-v0.1]: https://github.com/EmbarkStudios/rust-gpu/releases/tag/v0.1
+[embark]: https://www.embark-studios.com/
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
