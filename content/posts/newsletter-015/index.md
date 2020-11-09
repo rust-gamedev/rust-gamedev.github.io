@@ -26,6 +26,7 @@ Feel free to send PRs about your own projects!
 
 Table of contents:
 
+- [Annual Survey from the Rust GameDev WG](#annual-survey-from-the-rust-gamedev-wg)
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Library & Tooling Updates](#library-tooling-updates)
@@ -53,6 +54,16 @@ _Discussions:
 
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
+
+## [Annual Survey from the Rust GameDev WG][survey]
+
+As we did [last year][survey-prev], we are once again running
+a Rust Game Development Ecosystem Survey. It'll only take 10 minutes,
+and your responses help us better understand the state of our ecosystem
+and where we should try to focus our collective efforts.
+
+[survey]: https://surveymonkey.com/r/F2JYRFF
+[survey-prev]: https://rust-gamedev.github.io/posts/survey-01
 
 ## Game Updates
 
