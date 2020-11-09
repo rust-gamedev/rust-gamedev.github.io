@@ -697,6 +697,26 @@ or follow [@sajattack] on Twitter.
 [Discord]: https://discord.gg/tvGzD4GqvF
 [@sajattack]: https://twitter.com/sajattack
 
+### [gbemu]
+
+![screenshot](gbemu.png)
+
+[gbemu] by [@BlueBlazin] is a Gameboy/Gameboy Color Emulator which
+[runs in the browser][gbemu-web].
+
+> ... I wrote the emu just for myself as a learning experience.
+> So it's lacking in a lot of features you'd expect from one made
+> for others to use, and it's also not mobile friendly unfortunately
+> (but I'll work on that soon).
+> Still, it may be of some interest to someone here :D
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/j8vw84/i_made_a_gameboygameboy_color_emulator)_
+
+[gbemu]: https://github.com/BlueBlazin/gbemu
+[gbemu-web]: https://gbemu.netlify.app
+[@BlueBlazin]: https://github.com/BlueBlazin
+
 ### [skyline-rs]
 
 ![SSB & Rust logos](smash_x_rust.png)
@@ -723,6 +743,27 @@ It also features updates regarding:
 [skyline fork]: https://github.com/jam1garner/rust-std-skyline
 [bntx]: https://github.com/jam1garner/bntx
 [nutexb]: https://github.com/jam1garner/nutexb
+
+### [shared-arena]
+
+[shared-arena] by [@0x5eb] is a thread-safe & efficient memory pool.
+Memory pools are usefull for speeding up dynamic (de)allocation
+of large amounts of data of the same size.
+
+shared-arena provides three memory pools with different trade-offs:
+
+![SharedArena, Arena, Pool](shared-arena.png)
+
+The crate uses unsafe in a few places,
+but the code is covered by the miri interpreter, valgrind and 3 sanitizers
+(address, leak and memory) [on each commit][shared-arena-ga].
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/jddens/announcing_shared_arena)_
+
+[shared-arena]: https://github.com/sebastiencs/shared-arena
+[shared-arena-ga]: https://github.com/sebastiencs/shared-arena/blob/master/.github/workflows
+[@0x5eb]: https://twitter.com/0x5eb
 
 ### [glam] v0.10.0
 
@@ -763,6 +804,29 @@ For a full list of changes see the [glam changelog].
 [libm]: https://github.com/rust-lang/libm
 [bytemuck]: https://docs.rs/bytemuck
 [glam changelog]: https://github.com/bitshifter/glam-rs/blob/master/CHANGELOG.md
+
+### [density-mesh]
+
+![output example](density-mesh.png)
+
+[density-mesh] by [@PsichiX] is an image density/height map to mesh generator.
+It consists of two crates:
+
+- density-mesh-core - generates mesh from density map.
+- density-mesh-image - generates density map from image.
+
+Typical use case would be to use two of them to create mesh from images
+but in case you have your own image handler, you can stick to the core module
+and produce density maps by yourself.
+
+There's also a [CLI tool][density-mesh-cli].
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/j73ijj/densitymesh_image_to_2d_mesh_converter)_
+
+[density-mesh]: https://github.com/PsichiX/density-mesh
+[density-mesh-cli]: https://github.com/PsichiX/density-mesh#cli
+[@PsichiX]: https://github.com/PsichiX
 
 ### [Rapier]
 
@@ -1124,6 +1188,48 @@ Contributions and feedback are always welcome.
 [~~Shave more yaks~~]: https://github.com/zakarumych/gpu-alloc
 [Rapier]: https://rapier.rs
 [Wgpu]: https://wgpu.rs
+
+### [fastnbt & fastanvil][fastnbt]
+
+![output example](fastnbt.png)
+
+[fastnbt] by [@owengage] is a fast parsing library
+for Minecraft's NBT and Anvil formats.
+
+The project consists of several crates:
+
+- fastnbt - fast deserializer and parser for Minecraft: Java Edition's
+  NBT data format.
+- fastanvil - for rendering Minecraft worlds to maps.
+- fastnbt-tools - various tools for NBT/Anvil, notably a map renderer.
+- anvil-wasm - an entirely in-the-browser map renderer.
+  Demo at [owengage.com/anvil][anvil].
+
+The project supports only the latest version of Minecraft (1.16 at the moment).
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/jj6k9b/any_minecraft_fans)_
+
+[fastnbt]: https://github.com/owengage/fastnbt
+[@owengage]: https://github.com/owengage
+[anvil]: https://owengage.com/anvil
+
+### mcproto
+
+mcproto by [@Twister915] is an implementation of the Minecraft multiplayer
+network protocol in Rust. It consists of three crates:
+
+- [mcproto-rs] - the protocol itself,
+- [mctokio] - tokio I/O stuff,
+- [rustcord] - a layer 7 server-switching proxy implementation (WIP).
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/jcbawo/the_entire_minecraft_protocol_in_rust)_
+
+[mcproto-rs]: https://github.com/Twister915/mcproto-rs
+[mctokio]: https://github.com/Twister915/mctokio
+[rustcord]: https://github.com/Twister915/rustcord
+[@Twister915]: https://github.com/Twister915
 
 ### Ajour - World of Warcraft Addon Manager
 
