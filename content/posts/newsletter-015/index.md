@@ -1282,9 +1282,9 @@ Although still in very early stages of development,
 [Rust GPU released v0.1 in October][rustgpu-v0.1],
 and has already garnered over 2000 stars on Github.
 Currently, compiling and running very simple shaders
-works, and a significant portion of the core library also compiles. However,
-many things aren't implemented yet: for example, while-loops and if-statements
-work, but for-loops, iterators, and match/switch aren't supported yet! That
+works, and a significant portion of the core library also compiles. While things
+like if-statements and while-loops are working, many things aren't implemented yet.
+For example, for-loops, iterators and match/switch aren't supported yet. That
 means that while being technically usable, Rust GPU is far from being
 production-ready.
 
