@@ -1,11 +1,8 @@
 +++
 title = "This Month in Rust GameDev #15 - October 2020"
-date = 2020-11-03
+date = 2020-11-09
 transparent = true
-draft = true
 +++
-
-<!-- Check the post with markdownlint-->
 
 Welcome to the 15th issue of the Rust GameDev Workgroup's
 monthly newsletter.
@@ -27,14 +24,14 @@ Feel free to send PRs about your own projects!
 [pr]: https://github.com/rust-gamedev/rust-gamedev.github.io
 [coordination]: https://github.com/rust-gamedev/rust-gamedev.github.io/issues?q=label%3Acoordination
 
+Table of contents:
+
+- [Annual Survey from the Rust GameDev WG](#annual-survey-from-the-rust-gamedev-wg)
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Library & Tooling Updates](#library-tooling-updates)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
-- [Meeting Minutes](#meeting-minutes)
 - [Requests for Contribution](#requests-for-contribution)
-- [Jobs](#jobs)
-- [Bonus](#bonus)
 
 <!--
 Ideal section structure is:
@@ -57,6 +54,16 @@ _Discussions:
 
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
+
+## [Annual Survey from the Rust GameDev WG][survey]
+
+As we did [last year][survey-prev], we are once again running
+a Rust Game Development Ecosystem Survey. It'll only take 10 minutes,
+and your responses help us better understand the state of our ecosystem
+and where we should try to focus our collective efforts.
+
+[survey]: https://surveymonkey.com/r/F2JYRFF
+[survey-prev]: https://rust-gamedev.github.io/posts/survey-01
 
 ## Game Updates
 
@@ -112,7 +119,7 @@ tongues as grappling hooks.
 
 A [browser build][cba-play] can be played online.
 
-Changes since last update:
+Changes since the last update:
 
 - Added a global leaderboard that visualizes Race and Training results in an
   interactive histogram.
@@ -142,13 +149,13 @@ More details are in [September][cba-september-update] and
 ![Egregoria roads at night](egregoria.jpg)
 
 [Egregoria]'s objective is to become a granular society simulation,
-filled with fully autonomous agents interacting with their world in real time.
+filled with fully autonomous agents interacting with their world in real-time.
 
 The [6th devlog][egregoria-blog-post] was published. Updates include:
 
 - Island generation.
 - Day/night cycle.
-- Human AI via utilitary systems.
+- Human AI via utility systems.
 - Specs to [legion 0.3][legion-github] port.
 
 See also [the recent video][egregoria-video] showcasing very basic AI.
@@ -288,7 +295,6 @@ Follow [@dmitrywithouti] on Twitter for updates.
 
 [sun_prison]: https://github.com/ropewalker/sun_prison
 [bevy_sokoban]: https://github.com/ropewalker/bevy_sokoban
-[bevy]: https://bevyengine.org
 [@dmitrywithouti]: https://twitter.com/dmitrywithouti
 [sun_prison_twit_1]: https://twitter.com/dmitrywithouti/status/1309025584039768064
 [sun_prison_twit_2]: https://twitter.com/dmitrywithouti/status/1309982656260648960
@@ -355,23 +361,22 @@ if you are interested in playtesting, contact projectyawc(at)gmail.com.
 
 ![Power Kick](power-kick-shot.png)
 
-[Power Kick] is an one screen platform game inspired by similar old arcade games
+[Power Kick] is a one screen platform game inspired by similar old arcade games
 like Bubble Bobble and SnowBros.
 Your task is to hit the enemies till they get dizzy and then kick them out of
 their misery to proceed to the next stage. The kicked enemies will hit the
 colliding enemies with a possibility to create a chain reaction
 (similar to the pushed snowball in SnowBros).
 
-The game have 20 stages and in stage 10 and 20 you will face a helicopter boss.
+The game has 20 stages and in stage 10 and 20 you will face a helicopter boss.
 
 Can be played solo on the web through WebAssembly or up to two players
 in the downloadable version:
-first player with the keyboard and the second one with a joypad.
+the first player with the keyboard and the second one with a joypad.
 
 The development took around two weeks thanks to [macroquad] and [hecs].
 
 [Power Kick]: https://kakoeimon.itch.io/power-kick
-[macroquad]: https://github.com/not-fl3/macroquad
 [hecs]: https://crates.io/crates/hecs
 
 ### [rymd]
@@ -388,7 +393,6 @@ Development started at the end of October, recent additions include:
 - Possibly the world's most nauseating physics-driven camera.
 - Too many particles.
 
-[macroquad]: https://github.com/not-fl3/macroquad
 [@_profan]: https://twitter.com/_profan
 [rymd]: https://profan.itch.io/rymd
 
@@ -409,7 +413,7 @@ For the past month the main focus of the development was on:
 - Implementing world navigation system.
 - Implementing rudimentary CLI graphics (for debugging and some future use).
 
-Main features of reported (pre-alpha) version are:
+Main features of the reported (pre-alpha) version are:
 
 - Ability to generate and explore one or many worlds (see previous news).
 
@@ -472,7 +476,7 @@ New features in the latest release include boss games and high scores.
 [Canon Collision][canon-collision] by [@rukai] is an Undertale + Homestuck
 fan-made platform fighter with powerful tools for modding.
 
-This month, he completed the abstractions needed for character specific logic.
+This month, he completed the abstractions needed for character-specific logic.
 Notable changes:
 
 - [toriel's fireball](https://twitter.com/thisIsRukai/status/1302250049972314112)
@@ -480,7 +484,7 @@ Notable changes:
 - [items that can be picked up and thrown](https://twitter.com/thisIsRukai/status/1297507398693736448)
 - [character specific logic](https://twitter.com/thisIsRukai/status/1314872752642297856)
 
-[canon-collision]:https://canoncollision.com
+[canon-collision]: https://canoncollision.com
 [@rukai]: https://twitter.com/thisIsRukai
 
 ### [galaxy-sim.github.io]
@@ -515,7 +519,7 @@ Here are some of the games made with Rust:
   > A multiplayer online sandbox game.
   > Explore, craft, and try to escape the island
   > (spoiler: you can not, you are stuck in a loop).
-  > The world regenerates where you dont see.
+  > The world regenerates where you don't see.
 
   Check out the devlog post:
   ["LudumDare 47 - The Island"][ld-island-post].
@@ -616,11 +620,10 @@ development for Entity-Component-Systems, Windowing and Event Loops, and WGPU.
   tutorial for writing simple pixel graphics and 2d game development using
   the [pixels] crate (based on WGPU).
 - [Framebuffers, WGPU and Rust](https://nyxtom.dev/2020/10/08/framebuffers/) -
-  an in depth analysis of high level graphics terminology and a full length
+  an in-depth analysis of high-level graphics terminology and a full length
   tutorial for setting up the api and clearing the screen with WGPU.
 
 [@nyxtom]: https://twitter.com/nyxtom
-[hecs]: https://github.com/Ralith/hecs
 [pixels]: https://github.com/parasyte/pixels
 
 ### [Creating a Snake Clone in Bevy]
@@ -644,7 +647,7 @@ Microsoft Flight Simulator 2020.
 You can watch recordings here:
 
 - [Part 1][msfs-video-1]: bindgen, C ABIs, linkers, and more.
-- [Part 2][msfs-video-2]: more high level concerns like API design
+- [Part 2][msfs-video-2]: more high-level concerns like API design
   and making an idiomatic API.
 
 Subscribe to [@ryanlevick on Twitch][ryanlevick-twitch] for future streams.
@@ -657,7 +660,7 @@ _Discussions:
 [msfs-video-1]: https://youtube.com/watch?v=jNNz4h3iIlw
 [msfs-video-2]: https://youtube.com/watch?v=ugiR9M16fwg
 
-### [How to: Rust + SDL2 + OpenGL on the web][how-to-rust-sdl2-opengl-post]
+### [How to: Rust + SDL2 + OpenGL on the Web][how-to-rust-sdl2-opengl-post]
 
 [@Therocode] published an [article][how-to-rust-sdl2-opengl-post] that
 explains how to port games to the web using Emscripten.
@@ -706,7 +709,7 @@ or follow [@sajattack] on Twitter.
 
 > ... I wrote the emu just for myself as a learning experience.
 > So it's lacking in a lot of features you'd expect from one made
-> for others to use, and it's also not mobile friendly unfortunately
+> for others to use, and it's also not mobile-friendly unfortunately
 > (but I'll work on that soon).
 > Still, it may be of some interest to someone here :D
 
@@ -747,7 +750,7 @@ It also features updates regarding:
 ### [shared-arena]
 
 [shared-arena] by [@0x5eb] is a thread-safe & efficient memory pool.
-Memory pools are usefull for speeding up dynamic (de)allocation
+Memory pools are useful for speeding up dynamic (de)allocation
 of large amounts of data of the same size.
 
 shared-arena provides three memory pools with different trade-offs:
@@ -775,7 +778,7 @@ There were a lot of additions in this update and a small breaking change.
 - The return type of `Vec4::truncate()` was changed from `Vec3A` to `Vec3` which
   is a breaking change and thus the version jumped from 0.9 to 0.10.
 - Vector swizzle functions similar to those found in [GLSL] were added. Swizzle
-  functions allow a vectors elements to be reordered. The result can be a vector
+  functions allow a vector's elements to be reordered. The result can be a vector
   of a different size to the input. Swizzles are implemented with SIMD
   instructions where possible, e.g. for the `Vec4` type.
 
@@ -815,7 +818,7 @@ It consists of two crates:
 - density-mesh-core - generates mesh from density map.
 - density-mesh-image - generates density map from image.
 
-Typical use case would be to use two of them to create mesh from images
+A typical use case would be to use two of them to create mesh from images
 but in case you have your own image handler, you can stick to the core module
 and produce density maps by yourself.
 
@@ -843,7 +846,7 @@ new features:
   for deciding what pairs of colliders can touch;
 - the ability to set the mass of rigid-bodies explicitly;
 - linear and angular damping, to progressively slow down rigid-bodies;
-- the ability so attach some user-defined data (of type `u128`) to any
+- the ability to attach some user-defined data (of type `u128`) to any
   collider or rigid-body.
 
 [![Rapier features](rapier-demo.gif)][rapier-demo]
@@ -852,7 +855,7 @@ The [bevy_rapier] plugin for the Bevy game engine has been updated to support
 all the aforementioned features.
 
 Finally, a [continuous benchmarking][cont-bench] infrastructure has been set
-up to make sure performances regressions can be detected early.
+up to make sure performance regressions can be detected early.
 
 [Rapier]: https://rapier.rs
 [rapier-october]: https://www.dimforge.com/blog/2020/11/01/this-month-in-dimforge/
@@ -863,7 +866,7 @@ up to make sure performances regressions can be detected early.
 ### [physme]
 
 [Physme] is not your typical physics engine. It doesn't exactly simulate
-real world physics and it never will. Instead it has only two goals:
+real world physics and it never will. Instead, it has only two goals:
 
 - To provide satisfying real-time dynamics for 2D and 3D games.
 - To have a simple to use API.
@@ -883,7 +886,7 @@ The current feature set includes:
 - Fixed, mechanical and spring joints
 - Broad phase
 
-All of the above listed features are supported in both 2D and 3D.
+All of the above-listed features are supported in both 2D and 3D.
 
 [physme]: https://github.com/walterpie/physme
 
@@ -979,7 +982,7 @@ This month two big PRs got into the final review stage:
   as usual, no third-party dependencies or C code involved;
   Clean build time for Wayland examples are about 3s.
 - [The Metal backend PR][metal-pr] showed good signs of life,
-  [quad] and [offscreen] examples got successefully run on Metal.
+  [quad] and [offscreen] examples got successfully run on Metal.
 
 [miniquad]: https://github.com/not-fl3/miniquad
 [wayland-pr]: https://github.com/not-fl3/miniquad/pull/152
@@ -1005,13 +1008,12 @@ Important things that got fixed:
 - Particle system was released:
   [example][particles-src], [web demo][particles-web-demo].
 
-And special shutout goes to [donuts] game by [@cedric-h] - a simple game
-made in couple of days, like a jam game.
-It's a really good showcase of macroquad's approach on simple game code
+And special shoutout goes to [donuts] game by [@cedric-h] - a simple game
+made in a couple of days, like a jam game.
+It's a really good showcase of macroquad's approach to simple game code
 that allows hardcoding and hacks for empowering gameplay experiments.
 
 [macroquad]: https://github.com/not-fl3/macroquad
-[miniquad]: https://github.com/not-fl3/miniquad
 [macroquad-text-src]: https://github.com/not-fl3/macroquad/blob/master/examples/text.rs
 [macroquad-text-web]: https://not-fl3.github.io/miniquad-samples/macroquad_text.html
 [particles-src]: https://github.com/not-fl3/macroquad/blob/master/particles/examples/particles.rs
@@ -1061,7 +1063,7 @@ This month, thanks to 59 contributors, 122 pull requests, and their
 
 - Initial Android and iOS support
 - Asset system improvements:
-  - Asset handle eeference counting
+  - Asset handle reference counting
   - Asset loaders can now load multiple assets
   - Sub asset loading
   - Asset dependencies
@@ -1146,7 +1148,7 @@ implementation of an Ogmo level parser.
 
 This month, it was released onto crates.io for the first time, and a
 [full example][ogmo3-sample] was added, showing how a simple project can be
-loadedinto a game engine.
+loaded into a game engine.
 
 [ogmo3]: https://github.com/17cupsofcoffee/ogmo3
 [Ogmo Editor 3]: https://ogmo-editor-3.github.io/
@@ -1160,7 +1162,6 @@ loadedinto a game engine.
 
 It features a renderer that uses Vulkan [ray-tracing extension] supported
 by NVidia RTX cards and future AMD cards.
-
 Screenshot above is rendered using [DDGI] technique implemented exclusively
 with Rust and GLSL for shaders.
 In the whole scene there is only one directional light source - "sun" -
@@ -1183,7 +1184,6 @@ Contributions and feedback are always welcome.
 [Wilds]: https://github.com/zakarumych/wilds
 [ray-tracing extension]: https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_KHR_ray_tracing.html
 [DDGI]: https://morgan3d.github.io/articles/2019-04-01-ddgi/
-[Hecs]: https://lib.rs/crates/hecs
 [Goods]: https://github.com/zakarumych/goods
 [~~Shave more yaks~~]: https://github.com/zakarumych/gpu-alloc
 [Rapier]: https://rapier.rs
@@ -1231,7 +1231,7 @@ _Discussions:
 [rustcord]: https://github.com/Twister915/rustcord
 [@Twister915]: https://github.com/Twister915
 
-### Ajour - World of Warcraft Addon Manager
+### [Ajour] - World of Warcraft Addon Manager
 
 [![Ajour Banner](ajour-banner.jpg)][Ajour]
 
@@ -1263,7 +1263,7 @@ includes Rust as part of its build system.
 written in Rust as a gstreamer plugin to convert certain media encodings
 from one format to another.
 
-Doucmentation for building Proton is available on [Github][Proton-Github].
+Documentation for building Proton is available on [Github][Proton-Github].
 Further documentation on Media Converter and its source code is available
 on the module's [repository][Proton-Media-Converter-Github]
 
@@ -1288,7 +1288,7 @@ For example, for-loops, iterators and match/switch aren't supported yet. That
 means that while being technically usable, Rust GPU is far from being
 production-ready.
 
-Motivation behind the project:
+The motivation behind the project:
 
 > Historically in games, GPU programming has been done through writing either
 > HLSL, or to a lesser extent GLSL. These are simple programming languages that
@@ -1336,27 +1336,44 @@ _Discussions:
 
 <!-- Up to 10 links to interesting issues -->
 
-## Meeting Minutes
-
-<!-- Up to 10 most important notes + a link to the full details -->
-
-[See all meeting issues][label_meeting] including full text notes
-or [join the next meeting][join].
-
-[label_meeting]: https://github.com/rust-gamedev/wg/issues?q=label%3Ameeting
+- [rust-gamedev/rust-gamedev.github.io](https://github.com/rust-gamedev/rust-gamedev.github.io):
+  - [#269 "Proper style guide/contributing guidelines"](https://github.com/rust-gamedev/rust-gamedev.github.io/issues/269);
+- [rust-gamedev/wg](https://github.com/rust-gamedev/wg):
+  - [#21 "Planning a survey for Rust game developers"](https://github.com/rust-gamedev/wg/issues/21);
+  - [#94 "raw-window-handle maintenance"](https://github.com/rust-gamedev/wg/issues/94);
+- [rust-gamedev/ecs_bench_suite](https://github.com/rust-gamedev/ecs_bench_suite):
+  - [#14 "Also benchmark in debug mode"](https://github.com/rust-gamedev/ecs_bench_suite/issues/14);
 
 ## Requests for Contribution
 
 <!-- Links to "good first issue"-labels or direct links to specific tasks -->
 
-## Jobs
+- [Embark's open issues][embark-open-issues] ([embark.rs]).
+- [winit's "Good first issue" and “help wanted” issues][winit-issues].
+- [gfx-rs's "contributor-friendly" issues][gfx-issues].
+- [wgpu's "help wanted" issues][wgpu-help-wanted].
+- [luminance's "low hanging fruit" issues][luminance-fruits].
+- [ggez's "good first issue" issues][ggez-issues].
+- [Veloren's "beginner" issues][veloren-beginner].
+- [Amethyst's "good first issue" issues][amethyst-issues].
+- [A/B Street's "good first issue" issues][abstreet-issues].
+- [Mun's "good first issue" issues][mun-issues].
+- [SIMple Mechanic's good first issues][simm-issues].
+- [Bevy's "good first issue" issues][bevy-issues].
 
-<!-- An optional section for new jobs related to Rust gamedev -->
-
-## Bonus
-
-<!-- Bonus section to make the newsletter more interesting
-and highlight events from the past. -->
+[embark.rs]: https://embark.rs
+[embark-open-issues]: https://github.com/search?q=user:EmbarkStudios+state:open
+[winit-issues]: https://github.com/rust-windowing/winit/issues?utf8=✓&q=is%3Aissue+is%3Aopen+label%3A%22status%3A+help+wanted%22+label%3A%22Good+first+issue%22
+[gfx-issues]: https://github.com/gfx-rs/gfx/issues?q=is%3Aissue+is%3Aopen+label%3Acontributor-friendly
+[wgpu-help-wanted]: https://github.com/gfx-rs/wgpu-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
+[luminance-fruits]: https://github.com/phaazon/luminance-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22low+hanging+fruit%22
+[ggez-issues]: https://github.com/ggez/ggez/labels/%2AGOOD%20FIRST%20ISSUE%2A
+[veloren-beginner]: https://gitlab.com/veloren/veloren/issues?label_name=beginner
+[amethyst-issues]: https://github.com/amethyst/amethyst/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[abstreet-issues]: https://github.com/dabreegster/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
+[simm-issues]: https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue
+[bevy-issues]: https://github.com/bevyengine/bevy/labels/good%20first%20issue
 
 ------
 
