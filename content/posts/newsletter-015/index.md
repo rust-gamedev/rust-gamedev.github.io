@@ -194,11 +194,11 @@ _One of the many unique and confounding puzzles in the game_
 Worship The Sun is a dark, mysterious 2D puzzle-platform game with computer
 science themes. It introduces the player to a rich language of puzzle elements
 and challenges them to solve difficult puzzles that require experimentation,
-comprehension and internalisation of the game's mechanics.
+comprehension, and internalisation of the game's mechanics.
 
 The game is built using a custom engine that sits on top of [legion][legion],
-[wgpu][wgpu] and a handful of other crates. It features dynamic lighting, a
-flexible particle system, bespoke collision behaviour and a Vim-inspired level
+[wgpu][wgpu], and a handful of other crates. It features dynamic lighting, a
+flexible particle system, bespoke collision behaviour, and a Vim-inspired level
 editor. The majority of game assets are hand drawn in [Procreate][procreate]
 and painstakingly animated.
 
@@ -385,7 +385,7 @@ particularly for game AI programming purposes.
 Development started at the end of October, recent additions include:
 
 - Basic enemy AI behaviour mostly based on steering behaviours.
-- Possibly the world's most nauseating physics driven camera.
+- Possibly the world's most nauseating physics-driven camera.
 - Too many particles.
 
 [macroquad]: https://github.com/not-fl3/macroquad
@@ -756,7 +756,7 @@ shared-arena provides three memory pools with different trade-offs:
 
 The crate uses unsafe in a few places,
 but the code is covered by the miri interpreter, valgrind and 3 sanitizers
-(address, leak and memory) [on each commit][shared-arena-ga].
+(address, leak, and memory) [on each commit][shared-arena-ga].
 
 _Discussions:
 [/r/rust](https://reddit.com/r/rust/comments/jddens/announcing_shared_arena)_
@@ -954,7 +954,7 @@ It is now able to run [bve-reborn] correctly:
 The `ggez` game library traditionally tries to make at least one release
 at the end of each year, and that is fast approaching.  While the
 graphics engine rewrite is still a work in progress, there's plenty of
-other useful updates to be made.  Bugfixes, dependency updates and other
+other useful updates to be made.  Bugfixes, dependency updates, and other
 ergonomic fixes are all on the table.  A lot of work has already been
 done: removing `nalgebra` from the public API in favor of just using
 `mint`, re-working some dependencies to improve build times, and
@@ -1236,7 +1236,7 @@ _Discussions:
 [![Ajour Banner](ajour-banner.jpg)][Ajour]
 
 [Ajour] is a World of Warcraft addon manager written in Rust using [Iced] as GUI
-library. The project is completely advertisement free, privacy respecting and
+library. The project is completely advertisement free, privacy respecting, and
 open source.
 
 October updates include:
