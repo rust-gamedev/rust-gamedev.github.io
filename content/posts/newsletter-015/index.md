@@ -483,6 +483,124 @@ Notable changes:
 [canon-collision]:https://canoncollision.com
 [@rukai]: https://twitter.com/thisIsRukai
 
+### [galaxy-sim.github.io]
+
+![Simulation demo](galaxy-sim.gif)
+
+[galaxy-sim.github.io] ([source][galaxy-sim-repo]) by [@zephybite] and [@joshikatsu]
+is a colliding galaxies simulation based on [Barnes-Hut and direct algorithms][galaxy-sim-wiki].
+The project is written using Rust, ThreeJS, and WASM.
+
+_Discussions:
+[Twitter](https://twitter.com/zephybite/status/1311384855276470272)_
+
+[galaxy-sim.github.io]: https://galaxy-sim.github.io
+[galaxy-sim-repo]: https://github.com/Katsutoshii/barnes-hut-rs
+[@zephybite]: https://twitter.com/zephybite
+[@joshikatsu]: https://twitter.com/joshikatsu
+[galaxy-sim-wiki]: https://en.wikipedia.org/wiki/Barnes-Hut_simulation
+
+### Ludum Dare 47
+
+[Ludum Dare][ld] is a regular game jam event,
+during which developers create games from scratch in a weekend
+based on a theme suggested by the community.
+
+LD47's theme was "Stuck in a loop".
+Here are some of the games made with Rust:
+
+- ["The Island"][ld-island] by [@kuviman]
+  ([source code][ld-island-src]).
+
+  > A multiplayer online sandbox game.
+  > Explore, craft, and try to escape the island
+  > (spoiler: you can not, you are stuck in a loop).
+  > The world regenerates where you dont see.
+
+  Check out the devlog post:
+  ["LudumDare 47 - The Island"][ld-island-post].
+
+  ![gameplay](ld47-island.gif)
+
+- ["Time Ghosts"][ld-ghosts] by [@Healthire]
+  ([source code][ld-ghosts-src]).
+
+  > You have a limited time to collect the next part for the Machine,
+  > when 12 seconds have passed time rewinds and you have to start over.
+  > But don’t worry, your past self is still around
+  > to repeat your past actions.
+
+  ![gameplay](ld47-time-ghosts.png)
+
+- ["Quantum Loops"][ld-quantum] by [@necauqua]
+  ([source code][ld-quantum-src]).
+
+  > There is a particle forced to exist in a quantum loop
+  > and it really hates being real!
+  > Disrupt the quantum levels with most efficient use of your energy
+  > to let it escape back into nothing!
+
+  ![gameplay](ld47-quantum-loops.gif)
+
+- ["Keep Inside"][ld-keep-inside] by [@davidB] made with Bevy
+  ([source code][ld-keep-inside-src]).
+
+  > A solo pong on a circle.
+
+  ![gameplay](ld47-keep-inside.gif)
+
+- ["Keep Moving and Nobody Burns"][ld-nobody-burns-src] by [@FrancoisMockers]
+  made with Bevy ([source code][ld-nobody-burns-src]).
+
+  > Aim for the high score while avoid getting burned either
+  > by that big wall of fire or by your own bombs!
+  > Every round, the game will get harder, but you will earn more points.
+  > To help you, blowing up those crates may drop bonus
+  > that will make your bombs more useful.
+
+  ![gameplay](ld47-nobody-burns.png)
+
+- ["Bloody Baron"][ld-baron] by [@torresguilherme]
+  ([source code][ld-baron-src]).
+
+  > You’re in a building with 9 other people, and one of them is a brutal killer.
+  > Don’t get caught by them, and use your abilities and your logic skills
+  > to solve the mystery and vote the right person in the trial!
+
+  ![gameplay](ld47-bloody-baron.png)
+
+- ["Soy Content"][ld-soy] by [@walterpie] made with Bevy
+  ([source code][ld-soy-src]).
+
+  > A misleading puzzle game with a twist.
+  > Find your way in a non-euclidean maze of interconnected rooms.
+  > Warning: Game doesn't contain any Soy.
+
+  ![gameplay](ld47-soy.png)
+
+[ld]: https://ldjam.com/events/ludum-dare/47
+[ld-island]: https://ldjam.com/events/ludum-dare/47/the-island
+[ld-island-src]: https://github.com/kuviman/ludumdare47
+[ld-island-post]: https://blog.kuviman.com/2020/10/18/ludumdare47.html
+[@kuviman]: https://github.com/kuviman
+[ld-ghosts]: https://ldjam.com/events/ludum-dare/47/time-ghosts
+[ld-ghosts-src]: https://github.com/Healthire/ld47
+[@Healthire]: https://twitter.com/Healthire
+[ld-quantum]: https://ldjam.com/events/ludum-dare/47/quantum-loops
+[ld-quantum-src]: https://github.com/necauqua/quantum-loops
+[@necauqua]: https://twitter.com/necauqua
+[ld-keep-inside]: https://ldjam.com/events/ludum-dare/47/keep-inside
+[ld-keep-inside-src]: https://github.com/davidB/ld47_keep_inside
+[@davidB]: https://github.com/davidB
+[ld-nobody-burns-src]: https://github.com/mockersf/kmanb
+[@FrancoisMockers]: https://twitter.com/FrancoisMockers
+[ld-baron]: https://ldjam.com/events/ludum-dare/47/bloody-baron
+[ld-baron-src]: https://github.com/torresguilherme/bloody-baron
+[@torresguilherme]: https://github.com/torresguilherme
+[ld-soy]: https://ldjam.com/events/ludum-dare/47/soy-content
+[ld-soy-src]: https://github.com/walterpie/ldjam-47
+[@walterpie]: https://github.com/walterpie
+
 ## Learning Material Updates
 
 ### How to: WGPU + Winit + ECS + Pixels
@@ -516,6 +634,28 @@ tutorial covers resources, systems, timers, entities, components, materials,
 creating a grid system, and spawning/despawning entities.
 
 [Creating a Snake Clone in Bevy]: https://mbuffett.com/posts/bevy-snake-tutorial/
+
+### Rust FFI: Microsoft Flight Simulator SDK
+
+[![Preview](video-ffi-msfs.jpg)][msfs-video-1]
+
+[@ryan_levick] made two livestreams about Rust FFI and SDK for
+Microsoft Flight Simulator 2020.
+You can watch recordings here:
+
+- [Part 1][msfs-video-1]: bindgen, C ABIs, linkers, and more.
+- [Part 2][msfs-video-2]: more high level concerns like API design
+  and making an idiomatic API.
+
+Subscribe to [@ryanlevick on Twitch][ryanlevick-twitch] for future streams.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/j92jc0/rust_ffi_microsoft_flight_simulator_sdk_part_1)_
+
+[@ryan_levick]: twitter.com/ryan_levick
+[ryanlevick-twitch]: https://twitch.tv/ryanlevick
+[msfs-video-1]: https://youtube.com/watch?v=jNNz4h3iIlw
+[msfs-video-2]: https://youtube.com/watch?v=ugiR9M16fwg
 
 ### [How to: Rust + SDL2 + OpenGL on the web][how-to-rust-sdl2-opengl-post]
 
