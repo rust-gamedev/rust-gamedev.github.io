@@ -249,7 +249,7 @@ Some of the [updates from the October devlog][garden-devlog]:
   for other segment types' growth from one another)
   and simulating photosynthesis as an electrical circuit
   (enabling sugar storage in the form of root vegetables, for example).
-- Concrete brick destruction mechanics was implemented.
+- Concrete brick destruction mechanics were implemented.
   Dust particles for the animation that appears upon breaking,
   as well as the debris, were also added to the game.
 - Saving and loading are almost complete.
