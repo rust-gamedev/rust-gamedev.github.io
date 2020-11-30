@@ -77,18 +77,22 @@ It has a handful of features that make it stand out:
 - No schema restrictions
 - HashMap support out of the box
 - Trait object support through the [`rkyv_dyn`] crate
-- Validation through the [`bytecheck`] crate, suitable for untrusted and potentially malicious data
+- Validation through the [`bytecheck`] crate, suitable for untrusted and
+potentially malicious data
 - Safe mutable archives with pinning
 
-Reddit user [vlmutolo] also made a [toy benchmark] comparing rkyv against serde and bincode and found that rkyv had promising initial numbers:
+Reddit user [vlmutolo] also made a [toy benchmark] comparing rkyv against serde
+and bincode and found that rkyv had promising initial numbers:
 
-```
+```text
 serialize (bincode):    89 ns/iter
 serialize (rkyv):       86 ns/iter
 
 deserialize (bincode):  118 ns/iter
 deserialize (rkyv):     16 ns/iter
 ```
+
+A write-up on the [architecture and internals of rkyv] is also available.
 
 _Discussions:
 [/r/rust (v0.1)](https://www.reddit.com/r/rust/comments/jss6h4/rkyv_a_zerocopy_deserialization_framework_for_rust/),
@@ -99,6 +103,7 @@ _Discussions:
 [`bytecheck`]: https://github.com/djkoloski/bytecheck
 [vlmutolo]: https://www.reddit.com/r/rust/comments/jx32e8/rkyv_02_and_bytecheck_validation_mutable_archives/gcyfoqc
 [toy benchmark]: https://git.sr.ht/~vlmutolo/rkyv-bench/tree/master/src/main.rs
+[architecture and internals of rkyv]: https://davidkoloski.me/blog/rkyv-architecture/
 
 ## Popular Workgroup Issues in Github
 
