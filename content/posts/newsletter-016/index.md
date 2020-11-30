@@ -86,7 +86,7 @@ details and a list of breaking changes, see the [changelog][tetra-changelog].
 [ogmo3] is a Rust crate for parsing projects and levels created with
 [Ogmo Editor 3]. This month, version 0.1 was released, adding serialization
 support, and helper methods for unpacking layer data. The [sample code][ogmo3-sample]
-has also been updated to show the new helpers in action. 
+has also been updated to show the new helpers in action.
 
 [ogmo3]: https://github.com/17cupsofcoffee/ogmo3
 [Ogmo Editor 3]: https://ogmo-editor-3.github.io/
