@@ -67,6 +67,15 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
+### [gfx-rs]
+
+![gfx-picture](https://gfx-rs.github.io/img/wgpu-big-picture.svg)
+
+The gfx-rs team has published a [gfx-post] providing the overview
+of all projects in the works, and how they are connected to each other.
+
+[gfx-post]: https://gfx-rs.github.io/2020/11/16/big-picture.html
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
