@@ -67,6 +67,39 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
+### [rkyv]
+
+[rkyv] is a zero-copy deserialization framework for Rust. It's similar to
+FlatBuffers and Cap'n Proto and can be used for data storage and messaging.
+
+It has a handful of features that make it stand out:
+
+- No schema restrictions
+- HashMap support out of the box
+- Trait object support through the [`rkyv_dyn`] crate
+- Validation through the [`bytecheck`] crate, suitable for untrusted and potentially malicious data
+- Safe mutable archives with pinning
+
+Reddit user [vlmutolo] also made a [toy benchmark] comparing rkyv against serde and bincode and found that rkyv had promising initial numbers:
+
+```
+serialize (bincode):    89 ns/iter
+serialize (rkyv):       86 ns/iter
+
+deserialize (bincode):  118 ns/iter
+deserialize (rkyv):     16 ns/iter
+```
+
+_Discussions:
+[/r/rust (v0.1)](https://www.reddit.com/r/rust/comments/jss6h4/rkyv_a_zerocopy_deserialization_framework_for_rust/),
+[/r/rust (v0.2)](https://www.reddit.com/r/rust/comments/jx32e8/rkyv_02_and_bytecheck_validation_mutable_archives/)_
+
+[rkyv]: https://github.com/djkoloski/rkyv
+[`rkyv_dyn`]: https://docs.rs/rkyv_dyn
+[`bytecheck`]: https://github.com/djkoloski/bytecheck
+[vlmutolo]: https://www.reddit.com/r/rust/comments/jx32e8/rkyv_02_and_bytecheck_validation_mutable_archives/gcyfoqc
+[toy benchmark]: https://git.sr.ht/~vlmutolo/rkyv-bench/tree/master/src/main.rs
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
