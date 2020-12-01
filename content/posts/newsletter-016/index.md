@@ -65,6 +65,19 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Learning Material Updates
 
+### [Chess game in Rust using Bevy]
+
+![Tutorial result](bevy_chess.gif)
+_Chess gameplay_
+
+[@guimcaballero] published a tutorial on using Bevy 0.3 to make a Chess clone in
+3d. Most of the concepts are explained along the way, from how to load meshes to
+how to select pieces and board squares, using [bevy_mod_picking].
+
+[Chess game in Rust using Bevy]: https://caballerocoll.com/blog/bevy-chess-tutorial/
+[@guimcaballero]: https://twitter.com/guimcaballero
+[bevy_mod_picking]: https://github.com/aevyrie/bevy_mod_picking/
+
 ## Library & Tooling Updates
 
 ## Popular Workgroup Issues in Github
