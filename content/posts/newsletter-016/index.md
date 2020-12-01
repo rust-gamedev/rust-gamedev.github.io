@@ -63,6 +63,26 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+
+
+### Shotcaller
+
+![Shotcaller dual frontend](shotcaller-2guis.png)
+_ASCII and sprites versions of Shotcaller interface._
+
+A moddable RTS/MOBA game made with bracket-lib and specs.
+
+Frontend-agnostic, currently supporting ASCII and sprites rendering.
+
+Contributions welcome:  Try [add a new Leader](https://github.com/amethyst/shotcaller/issues/6).
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust_gamedev/comments/k1hpc4/shotcaller_mobagame_v031_asciisprite_dualfrontend/),
+[twitter](https://twitter.com/AmethystEngine/status/1331994516761550850)_
+
+[Shotcaller]: https://github.com/amethyst/shotcaller
+
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
