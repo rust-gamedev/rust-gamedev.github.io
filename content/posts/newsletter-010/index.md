@@ -618,7 +618,7 @@ _Discussions:
 
 ### [Point of WebGPU on Native][wgpu-post]
 
-![wgpu-rs logo](wgpu-logo.png)
+![wgpu-rs logo](../shared/wgpu-logo.png)
 
 This month, [@kvark] shared their vision of
 [why WebGPU on native platforms is important][wgpu-post].
@@ -783,7 +783,7 @@ It's a port of [anokhee/visual-synthesizer] to Rust.
 
 ### [This Month in Mun][mun-may]
 
-[![Mun logo](mun-logo.png)][Mun]
+[![Mun logo](../shared/mun-logo.png)][Mun]
 
 [Mun] is a scripting language for gamedev focused on quick iteration times
 that is written in Rust.
@@ -868,7 +868,7 @@ features:
 
 ### [Oxygengine]
 
-![Oxygengine logo](oxygengine-dark-logo.svg)
+![Oxygengine logo](../shared/oxygengine-dark-logo.svg)
 
 The main goal of this month changes was to fix most problematic bugs and finally
 add a feature to support custom fonts assets. While not all bugs could be fixed
@@ -896,7 +896,7 @@ follow project on GitHub and see [Oxygengine Project board](oxygengine-project).
 
 ### [Amethyst][amethyst]
 
-[![Amethyst logo](amethyst-logo.png)][amethyst]
+[![Amethyst logo](../shared/amethyst-logo.png)][amethyst]
 
 - [`rlua`] is now part of the Amethyst organization.
 

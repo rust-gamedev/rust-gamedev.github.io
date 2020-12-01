@@ -622,7 +622,7 @@ make some cool stuff. See for example these [examples][three-d-examples].
 
 ### This Month in Mun
 
-[![Mun logo](mun-logo.png)][Mun]
+[![Mun logo](../shared/mun-logo.png)][Mun]
 
 [Mun] is a scripting language for gamedev focused on quick iteration times
 that is written in Rust.
@@ -646,7 +646,7 @@ Their [March updates][mun-march] include:
 
 ### [Oxygengine][oxygengine]
 
-![Oxygengine logo](oxygengine-dark-logo.svg)
+![Oxygengine logo](../shared/oxygengine-dark-logo.svg)
 
 This month Oxygengine creator [published plans][oxygengine_plans] for the future
 of the engine, where he explains the long term goal of the project that explains
@@ -671,7 +671,7 @@ Browser:
 
 ### [Amethyst][amethyst]
 
-[![Amethyst logo](amethyst-logo.png)][amethyst]
+[![Amethyst logo](../shared/amethyst-logo.png)][amethyst]
 
 - [Ametyst 0.15.0 was released][amethyst_release]:
 

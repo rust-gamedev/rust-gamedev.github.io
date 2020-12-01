@@ -215,7 +215,7 @@ _Discussions:
 
 ### [Amethyst's Activity Report][amethyst news]
 
-![amethyst logo](/amethyst-logo.png)
+![amethyst logo](../shared/amethyst-logo.png)
 
 - [Amethyst v0.12 quietly released](https://github.com/amethyst/amethyst/releases/tag/v0.12.0)
   and now the project moves to two-week release cycle.
@@ -265,7 +265,7 @@ by [Carlo Supina](https://twitter.com/carlosupina)
 
 ### [Embark's Rust Open-Source Crates and Ecosystem Tracking](http://embark.rs)
 
-![Embark logo](embark-logo-bg.jpg)
+![Embark logo](../shared/embark-logo-bg.jpg)
 
 A quote from the announcement:
 
@@ -447,7 +447,7 @@ Special section for other news (up to 15) in a one-liner format:
   of [Robo Instructus], [Alex Butler] released a few more versions
   that fix some bugs, improve performance, scoring and UI.
 
-  ![RoboInstructus logo from Steam](roboinstructus.jpg)
+  ![RoboInstructus logo from Steam](../shared/roboinstructus.jpg)
 - [@Remco](https://twitter.com/wodannson) shared on Twitter
   [a video of hot reloading demonstration](https://twitter.com/wodannson/status/1157472538622078976)
   \[[/r/rust](https://reddit.com/r/rust/comments/cldaew/hot_reloading_of_function_bodies_in_rust),

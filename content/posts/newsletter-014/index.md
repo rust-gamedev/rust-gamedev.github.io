@@ -715,7 +715,7 @@ _Discussions:
 
 ### [This Month in Mun][mun-september]
 
-[![Mun logo](mun-logo.png)][Mun]
+[![Mun logo](../shared/mun-logo.png)][Mun]
 
 [Mun] is a scripting language for gamedev focused on quick iteration times
 that is written in Rust.
@@ -804,7 +804,7 @@ or follow [FemtoVG on twitter](https://twitter.com/femtovg).
 
 ### [gfx-rs] and [gfx-portability]
 
-![gfx-rs logo](gfx-logo.png)
+![gfx-rs logo](../shared/gfx-logo.png)
 
 [gfx-portability] is a Vulkan portability implementation based on [gfx-rs].
 It's basically a drop-in implementation of Vulkan on top of Metal and D3D12,
@@ -924,7 +924,7 @@ extensions for Tetra. This includes:
 
 ### [Bevy Engine v0.2][bevy-0-2]
 
-[![bevy logo](bevy_logo.png)][bevy]
+[![bevy logo](../shared/bevy-logo.png)][bevy]
 
 [Bevy][bevy] is a refreshingly simple data-driven game engine built in Rust.
 It is [free and open source][bevy-repo] forever!

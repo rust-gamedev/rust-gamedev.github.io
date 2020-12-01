@@ -620,7 +620,7 @@ by [@PsichiX] is a GlobalGameJam game written using [Oxygengine].
 
 ### [Robo Instructus]
 
-[![logo](roboinstructus.jpg)][Robo Instructus]
+[![logo](../shared/roboinstructus.jpg)][Robo Instructus]
 
 [Alex Butler] continues to polish their "[Robo Instructus]" puzzle game -
 [1.23 and 1.24 versions were released][robo-news]:
@@ -960,7 +960,7 @@ This month [glium v0.26 was released][glium-v0-26]:
 
 ### [gfx] & [wgpu]
 
-![wgpu-rs logo](wgpu-logo.png)
+![wgpu-rs logo](../shared/wgpu-logo.png)
 
 Here're some of the [gfx]/[wgpu] ecosystem February updates:
 
@@ -1068,7 +1068,7 @@ Some of the updates:
 
 ### [Oxygengine][oxygengine]
 
-![Oxygengine logo](oxygengine-dark-logo.svg)
+![Oxygengine logo](../shared/oxygengine-dark-logo.svg)
 
 This month [Oxygengine][oxygengine] got new version 0.7.0 with
 [Visual Novel and Animation][oxygengine-vn-anim-ann]

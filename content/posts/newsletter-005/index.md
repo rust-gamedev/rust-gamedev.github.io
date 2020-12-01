@@ -295,7 +295,7 @@ _Discussions:
 
 ### [Robo Instructus]
 
-[![logo](roboinstructus.jpg)][Robo Instructus]
+[![logo](../shared/roboinstructus.jpg)][Robo Instructus]
 
 [Alex Butler] continues to polish their "[Robo Instructus]" puzzle game -
 [1.18, 1.19, and 1.20 versions were released][robo-news]:
@@ -643,7 +643,7 @@ _Discussions:
 
 ### [Oxygengine][oxygengine] v0.5
 
-![Oxygengine logo](oxygengine-dark-logo.svg)
+![Oxygengine logo](../shared/oxygengine-dark-logo.svg)
 
 [Oxygengine][oxygengine] is
 "the hottest HTML5 + WASM game engine for games written in Rust with web-sys".
@@ -665,7 +665,7 @@ _Discussions:
 
 ### [This Month in Mun - December 2019][mun-dec-2019]
 
-![Mun logo](mun_logo.png)
+![Mun logo](../shared/mun-logo.png)
 
 [Mun] is a scripting language for gamedev focused on quick iteration times
 that is written in Rust.
@@ -785,7 +785,7 @@ _Discussions:
 
 ### [Embark: Developer Newsletter 002][embark-2]
 
-![Embark's logo](embark.png)
+![Embark's logo](../shared/embark.png)
 
 [Embark] posted [the second issue of their newsletter][embark-2].
 Here're some of the Rust news from it:

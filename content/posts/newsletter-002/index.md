@@ -189,7 +189,7 @@ Updates include:
 
 ### [gfx-rs & wgpu-rs: Project Update][gfx-post]
 
-[![gfx-rs rusty logo](gfx-logo.png)][gfx-post]
+[![gfx-rs rusty logo](../shared/gfx-logo.png)][gfx-post]
 
 [gfx-rs] is a Rust project aiming to make low-level GPU programming
 portable with low overhead.
@@ -217,7 +217,7 @@ _Discussions:
 
 ### [Mun][mun] and Hot Reloading Experiments
 
-![Mun text logo](mun-logo.png)
+![Mun logo](../shared/mun-logo.png)
 
 [Mun][mun] is a scripting language for gamedev
 focused on quick iteration times that is written in Rust.
@@ -381,7 +381,7 @@ _Discussions:
 
 ### [Amethyst][amethyst]
 
-![amethyst logo](/amethyst-logo.png)
+![amethyst logo](../shared/amethyst-logo.png)
 
 [Amethyst][amethyst] is a game engine and tool-set
 for ambitious game developers.

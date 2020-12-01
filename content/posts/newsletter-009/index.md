@@ -785,7 +785,7 @@ for the gfx-hal API.
 
 ### [Oxygengine]
 
-![Oxygengine logo](oxygengine-dark-logo.svg)
+![Oxygengine logo](../shared/oxygengine-dark-logo.svg)
 
 This month [@PsichiX] - creator of the [Oxygengine] game engine - made
 further progress with the Ignite game editor, a hub application for game making
@@ -976,7 +976,7 @@ Main changes:
 
 ### [Amethyst][amethyst]
 
-[![Amethyst logo](amethyst-logo.png)][amethyst]
+[![Amethyst logo](../shared/amethyst-logo.png)][amethyst]
 
 - Early [WASM support][amethyst_wasm_support] exists on the
   [`wasm` branch][amethyst_wasm_branch].
@@ -1008,7 +1008,7 @@ Main changes:
 
 ### This Month in Mun
 
-[![Mun logo](mun-logo.png)][Mun]
+[![Mun logo](../shared/mun-logo.png)][Mun]
 
 [Mun] is a scripting language for gamedev focused on quick iteration times
 that is written in Rust.

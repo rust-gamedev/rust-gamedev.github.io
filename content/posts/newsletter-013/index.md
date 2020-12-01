@@ -534,7 +534,7 @@ _Discussions:
 
 ### [Rapier: 2D and 3D Physics Engines Focused on Performance][rapier-august]
 
-[![Rapier logo](rapier-logo.svg)][Rapier]
+[![Rapier logo](../shared/rapier-logo.svg)][Rapier]
 
 [Rapier] is a new set of 2D and 3D physics engines written 100% in Rust.
 It is 5 to 10 times faster than [nphysics], close to the performances of the
@@ -640,7 +640,7 @@ integrate it with the existing ecosystem - are greatly appreciated.
 
 ### [This Month in Mun][mun-august]
 
-[![Mun logo](mun-logo.png)][Mun]
+[![Mun logo](../shared/mun-logo.png)][Mun]
 
 [Mun] is a scripting language for gamedev focused on quick iteration times
 that is written in Rust.
@@ -872,7 +872,7 @@ make the library engine-agnostic. Contributions are welcome!
 
 ### [Bevy Engine][bevy]
 
-[![bevy logo](bevy_logo.png)](https://bevyengine.org/)
+[![bevy logo](../shared/bevy-logo.png)](https://bevyengine.org/)
 
 [Bevy][bevy] by [@cart] is a brand new, refreshingly simple data-driven
 game engine built in Rust. It aims to be:
@@ -1070,7 +1070,7 @@ You can follow development at [@PistonDeveloper at Twitter].
 
 ### [Amethyst v0.15.1][amethyst-v0-15-1-post]
 
-![logo](amethyst-logo.png)
+![logo](../shared/amethyst-logo.png)
 
 [Amethyst][amethyst] is a game engine and tool-set
 for ambitious game developers.

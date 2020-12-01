@@ -833,7 +833,7 @@ _Discussions:
 
 ### [Rapier]
 
-[![Rapier logo](rapier-logo.svg)][Rapier]
+[![Rapier logo](../shared/rapier-logo.svg)][Rapier]
 
 [Rapier] is a set of 2D and 3D physics engines for games, animation and
 robotics written in Rust.
@@ -892,7 +892,7 @@ All of the above-listed features are supported in both 2D and 3D.
 
 ### [This Month in Mun][mun-october]
 
-[![Mun logo](mun-logo.png)][Mun]
+[![Mun logo](../shared/mun-logo.png)][Mun]
 
 [Mun] is a scripting language for gamedev focused on quick iteration times
 that is written in Rust.
@@ -1114,7 +1114,7 @@ or follow [Dmitry Stepanov on twitter][rg3d_twitter].
 
 ### [Bevy Engine v0.3][bevy-0-3]
 
-[![bevy logo](bevy_logo.png)][bevy]
+[![bevy logo](../shared/bevy-logo.png)][bevy]
 
 [Bevy][bevy] is a refreshingly simple data-driven game engine built in Rust.
 It is [free and open source][bevy-repo] forever!

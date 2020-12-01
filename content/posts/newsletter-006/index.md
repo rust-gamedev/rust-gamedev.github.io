@@ -421,7 +421,7 @@ This month, [@dooskington] published a bunch of devlogs:
 
 ### [Amethyst] Games
 
-[![Amethyst logo](amethyst-logo.png)][Amethyst]
+[![Amethyst logo](../shared/amethyst-logo.png)][Amethyst]
 
 - [Realm.One][realm.one] is a new open-source tile-based game
   written using the Amethyst game engine.
@@ -872,7 +872,7 @@ _Discussions:
 
 ### [Oxygengine][oxygengine]
 
-![Oxygengine logo](oxygengine-dark-logo.svg)
+![Oxygengine logo](../shared/oxygengine-dark-logo.svg)
 
 This month [Oxygengine][oxygengine] got
 [JavaScript scripting interface][oxygengine-js-ann]
@@ -928,7 +928,7 @@ _Discussions:
 
 ### [This Month in Mun - January 2020][mun-january]
 
-[![Mun logo](mun-logo.png)][Mun]
+[![Mun logo](../shared/mun-logo.png)][Mun]
 
 [Mun] is a scripting language for gamedev focused
 on quick iteration times that is written in Rust.

@@ -737,7 +737,7 @@ _Discussions:
 
 ### [This Month in Mun][mun-july]
 
-[![Mun logo](mun-logo.png)][Mun]
+[![Mun logo](../shared/mun-logo.png)][Mun]
 
 [Mun] is a scripting language for gamedev focused on quick iteration times
 that is written in Rust.
@@ -1075,7 +1075,7 @@ or [join the next meeting][join].
 
   Btw, Embark are also [looking for Software Engineer interns][embark-job-intern].
 
-  ![Embark's logo](embark-logo-bg.jpg)
+  ![Embark's logo](../shared/embark-logo-bg.jpg)
 
 [Embark]: https://www.embark-studios.com
 [embark-job]: https://www.embark-studios.com/jobs/910166-open-source-engineer

@@ -532,7 +532,7 @@ that is based on [ultraviolet].
 
 ### [Mun v0.1][mun-v0-1]
 
-![Mun logo](mun_logo.png)
+![Mun logo](../shared/mun-logo.png)
 
 [Mun][mun] is a scripting language for gamedev focused
 on quick iteration times that is written in Rust.
@@ -623,7 +623,7 @@ Also, [Cryptowatch is now sponsoring the development of Iced!][iced-crypto]
 
 ### Embark's Stockholm Rust Meetup and Newsletter
 
-![Embark logo white on black](embark.png)
+![Embark logo white on black](../shared/embark.png)
 
 Videos from [Embark]'s Stockholm Rust Meetup arrived:
 
@@ -694,7 +694,7 @@ Check out the [online Demo][rust-nes-demo].
 
 ### Amethyst
 
-![Amethyst logo](amethyst-logo.png)
+![Amethyst logo](../shared/amethyst-logo.png)
 
 - [Blaine Price] is working on a “The Ten Top” game and shared a
   ["Rustlang Up Some Grub at The Ten Top"](https://blaineprice.me/posts/rustlang-up-some-grub)

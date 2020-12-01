@@ -772,7 +772,7 @@ _Discussions:
 
 ### Amethyst
 
-![amethyst logo](/amethyst-logo.png)
+![amethyst logo](../shared/amethyst-logo.png)
 
 - [specs] and its related repositories [awesome-specs], [hibitset] and [shred]
   were moved to [Amethyst organization] \[[URLO][specs-moved]].
