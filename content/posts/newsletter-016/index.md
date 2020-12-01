@@ -67,14 +67,28 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
-### [gfx-rs]
+### [gfx-rs] and [wgpu]
 
 ![gfx-picture](https://gfx-rs.github.io/img/wgpu-big-picture.svg)
 
 The gfx-rs team has published a [gfx-post] providing the overview
 of all projects in the works, and how they are connected to each other.
 
+[wgpu] has moved from [gfx-extras] to the new [gpu-alloc] and [gpu-descriptor]
+libraries by [@zakarumych]. These are backend-agnostic, which allows `wgpu`
+to now depend on `gfx-hal` directly without intermediates. Patching [gfx-rs]
+will now be easier, without the need to release every little change.
+
+Finally, all the latest [wgpu] code has landed into Gecko, and new
+features and fixes are implemented in Firefox. That allows it to run
+most of the updated [WebGPU samples].
+
+[gfx-rs]: https://github.com/gfx-rs/gfx
+[wgpu]: https://github.com/gfx-rs/wgpu
 [gfx-post]: https://gfx-rs.github.io/2020/11/16/big-picture.html
+[gfx-extras]: https://github.com/gfx-rs/gfx-extras
+[@zakarumych]: https://github.com/zakarumych/
+[WebGPU samples](https://austineng.github.io/webgpu-samples/)
 
 ## Popular Workgroup Issues in Github
 
