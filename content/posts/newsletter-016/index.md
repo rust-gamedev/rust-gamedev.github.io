@@ -67,21 +67,21 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### Learn Wgpu News
 
-Development of new tutorial content has slowed down due to wgpu still being in 
-development. @sotrh has committed to continue maintaining the project through 
-the comming version changes, and plans to add more new content when the API 
-solidifies. He with the help of other contributors such as GitHub user 
-@kanerogers worked through a series of issues to polish the repository before 
-the content freeze. In addition to that he added a 
+Development of new tutorial content has slowed down due to wgpu still being in
+development. @sotrh has committed to continue maintaining the project through
+the comming version changes, and plans to add more new content when the API
+solidifies. He with the help of other contributors such as GitHub user
+@kanerogers worked through a series of issues to polish the repository before
+the content freeze. In addition to that he added a
 [compute pipeline](https://sotrh.github.io/learn-wgpu/showcase/compute)
-showcase and an 
+showcase and an
 [imgui](https://sotrh.github.io/learn-wgpu/showcase/imgui-demo/) showcase.
 
-In other news @sotrh has started a [patreon](https://patreon.com/sotrh) to 
-help fund research and development on the Learn Wgpu site as well as other wgpu 
+In other news @sotrh has started a [patreon](https://patreon.com/sotrh) to
+help fund research and development on the Learn Wgpu site as well as other wgpu
 related projects.
 
-You can learn more 
+You can learn more
 [on the Learn Wgpu news page](https://sotrh.github.io/learn-wgpu/news)
 
 ## Library & Tooling Updates
