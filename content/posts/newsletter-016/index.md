@@ -67,6 +67,32 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
+### [profiling]
+
+This month, [profiling] was released on crates.io. This crate provides a very thin 
+abstraction over instrumented profiling crates like `puffin`, `optick`, `tracy`, and
+`superluminal-perf`.
+
+Mark up your code like this:
+
+```rust
+#[profiling::function]
+fn some_function() {
+    burn_time(5);
+
+    for i in 0..5 {
+        profiling::scope!("Looped Operation");
+        burn_time(1);
+    }
+}
+```
+
+And get visualizations like this (`optick` and `puffin` shown):
+
+[![Screenshot of Optick Profiler](optick-small.png)](optick.jpeg)
+
+[profiling]: https://crates.io/crates/profiling
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
