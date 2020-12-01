@@ -69,9 +69,9 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [profiling]
 
-This month, [profiling] was released on crates.io. This crate provides a very thin 
-abstraction over instrumented profiling crates like `puffin`, `optick`, `tracy`, and
-`superluminal-perf`.
+This month, [profiling] was released on crates.io. This crate provides a very
+thin abstraction over instrumented profiling crates like `puffin`, `optick`,
+`tracy`, and `superluminal-perf`.
 
 Mark up your code like this:
 
