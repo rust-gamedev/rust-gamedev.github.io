@@ -83,8 +83,6 @@ _Discussions:
 [github repo]: https://github.com/IanTayler/fbsim
 [Ian Tayler]: https://iantayler.com
 [tutorial]: https://iantayler.com/2020/11/22/fbsim-football-playing-ai-agents-in-rust/
-
-
 ## Learning Material Updates
 
 ## Library & Tooling Updates
