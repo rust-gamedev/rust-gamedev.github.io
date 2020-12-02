@@ -357,6 +357,39 @@ rich text (bold, italic, underline, size and some layout improvements).
 [KAS-text]: https://github.com/kas-gui/kas-text
 [@dhardy]: https://github.com/dhardy
 
+### [Dotrix]
+
+![Animated low-poly character rendered by Dotrix](dotrix-rendering.png)
+_A screenshot of running low-poly female model_
+
+The goal of [Dotrix] is to become a 3D engine for the new RPG project. The
+engine is free and open source, delivering a set of common high-level features
+like skeletal animation, skybox, terrain, camera controlling, input mapping and
+many others. It is built on top of the
+[wgpu](https://github.com/gfx-rs/wgpu-rs/) with an ECS core which is a part of
+the engine.
+
+Currently supported features:
+
+- Linear ECS with systems as simple functions, that can have optional context
+- Import of textures from PNG files
+- Import of multiple assets from GLTF files (textures, meshes, skins and
+animations)
+- FPS and delta time counters
+- Rendering of meshes and simple scenes with light and camera controls
+- Rendering of skeletal animations
+- 3 showcase demo applications
+
+Next in sprint:
+
+- Input management and mapping
+- Full camera control with mouse
+- Skybox renderer
+
+[Dotrix]: https://github.com/lowenware/dotrix
+[Developer's Twitter]: https://twitter.com/lowenware
+[Developer's Discrod]: https://discord.gg/DrzwBysNRd
+
 ### [Tetra]
 
 [Tetra] is a simple 2D game framework, inspired by XNA and Raylib. This month,
