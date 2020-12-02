@@ -67,6 +67,32 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
+### [rib]
+
+![rib](rib.gif)
+
+Parsing a 3D model file and understand the different links between bone matrices,
+keyframes and vertices is a task that can take a lot of time and motivation of
+the developer. On top of that, combining the different bone transform matrices
+for the current frame is often error prone.
+
+[rib] is an attempt to tackle these problems and might help you save time.
+Current features of [rib] include:
+
+- Support of collada files coming from the latest Blender version.
+- Precomputation of the bone matrices expressed in the world space so that you
+  just have to pass it to your shader for traditional GPU skinning.
+- Interpolation between keyframes
+- (De)/serialization in binary thanks to [bincode]
+
+[rib] can be greatly extended, for example with the support of other format
+handling skeleton data, such as the [glTF] format.
+Contributions are more than welcome.
+
+[rib]: https://github.com/bmatthieu3/rib
+[bincode]: https://github.com/servo/bincode
+[glTF]: https://github.com/KhronosGroup/glTF/blob/master/README.md
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
