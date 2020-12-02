@@ -80,7 +80,7 @@ out of individual sounds, tween easing, panning support, and workflow improvemen
 [@tesselode]: https://twitter.com/tesselode
 
 _Discussions:
-[/r/rust](https://www.reddit.com/r/rust/comments/jxd9zz/announcing_kira_dynamic_audio_library_for_games/),
+[/r/rust](https://reddit.com/r/rust/comments/jxd9zz/announcing_kira_dynamic_audio_library_for_games/),
 [twitter](https://twitter.com/tesselode/status/1329559760111357954)_
 
 ## Popular Workgroup Issues in Github
