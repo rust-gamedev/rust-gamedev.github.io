@@ -67,6 +67,22 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
+### [Kira]
+
+[Kira] by [@tesselode] is an audio library designed to help create expressive
+audio for games. It aims to fill the holes in many game engines' built-in audio
+APIs with features for creating seamless music loops and scripting audio events.
+
+v0.2.0 is coming out soon with an Arrangements feature for creating complex pieces
+out of individual sounds, tween easing, panning support, and workflow improvements.
+
+[Kira]: https://github.com/tesselode/kira
+[@tesselode]: https://twitter.com/tesselode
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/jxd9zz/announcing_kira_dynamic_audio_library_for_games/),
+[twitter](https://twitter.com/tesselode/status/1329559760111357954)_
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
