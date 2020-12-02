@@ -79,7 +79,7 @@ engine to support named zones on the map.
 - [24: Fishing](https://ratwizard.dev/dev-log/antorum/24)
 - [25: Zones](https://ratwizard.dev/dev-log/antorum/25)
 
-[Antorum Online Development Feed]: https://ratwizard.dev/dev-log/antorum
+[Antorum Online]: https://ratwizard.dev/antorum
 [@dooskington]: https://twitter.com/dooskington
 
 ## Learning Material Updates
