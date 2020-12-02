@@ -63,6 +63,24 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Antorum Online]
+
+![Two players fishing at the beach](antorum-online-11-25-2020.gif)
+
+Antorum Online is a micro-multiplayer online role-playing game by [@dooskington].
+The game server is written in Rust, and the official client is being developed in Unity.
+
+Many important changes and new features were implemented this month. Players can now
+harvest plants and go fishing! There were also some tweaks to the world engine to
+support named zones on the map.
+
+- [23: Herbology](https://ratwizard.dev/dev-log/antorum/23)
+- [24: Fishing](https://ratwizard.dev/dev-log/antorum/24)
+- [25: Zones](https://ratwizard.dev/dev-log/antorum/25)
+
+[Antorum Online Development Feed]: https://ratwizard.dev/dev-log/antorum
+[@dooskington]: https://twitter.com/dooskington
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
