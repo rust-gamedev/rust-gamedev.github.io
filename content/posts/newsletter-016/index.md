@@ -67,6 +67,18 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
+### [F1 Telemetry TUI]
+
+![f1-telemetry-tui](https://user-images.githubusercontent.com/6572635/97776468-db1daa00-1b9a-11eb-8d4b-af0b540a9930.gif)
+
+[F1 Telemetry TUI] by [@aldidana] is a Terminal Telemetry for F1 Video Games
+
+[F1 Telemetry TUI]: https://github.com/aldidana/f1-telemetry-tui
+[@aldidana]: https://github.com/aldidana
+
+_Discussions:
+[twitter](https://twitter.com/aldidana/status/1323185465319596032)_
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
