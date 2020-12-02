@@ -63,6 +63,27 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [rymd]
+
+![rymd animated combat v2](rymd_2020_12_02.gif)
+
+[rymd] by [@_profan] is a space shooter prototype made with [macroquad].
+
+Intended as a test platform for trying out rust for prototyping games and
+particularly for game AI programming purposes.
+
+Development started at the end of October, recent additions include:
+
+- Dynamic ship debris based on slicing source sprites into chunks.
+- New hostile ship type, (ranger), which fires seeking missiles.
+- New support ship type, (tech), which repairs friendly ships.
+- Toggleable hitbox visualization.
+- Still far too many particles.
+
+[macroquad]: https://github.com/not-fl3/macroquad
+[@_profan]: https://twitter.com/_profan
+[rymd]: https://profan.itch.io/rymd
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
