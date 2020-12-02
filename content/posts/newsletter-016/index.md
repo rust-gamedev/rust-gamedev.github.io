@@ -67,6 +67,34 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
+### [rg3d]
+
+[![a scene with lightning and multiple hi-poly character models](rg3d_instancing.jpg)][rg3d_twit]
+
+[rg3d] is a game engine that aims to be easy to use and provide large set
+of out-of-box features. Some of the recent updates:
+
+- Migrated to nalgebra from custom linear algebra.
+- Replaced custom physics engine with Rapier.
+- Implemented sound backend for macOS.
+- Environment mapping - now objects can have reflections.
+- Implemented geometry instancing - now you can render tons of objects with
+low overhead.
+- Performance improvements.
+- Added [gobo] for spot lights.
+- Added CPU lightmapper - it is possible now to "bake" static lighting
+into a texture to improve performance.
+- Lots of other bugfixes and improvements.
+
+Join the [rg3d's Discord channel][rg3d_discord]
+or follow [Dmitry Stepanov on twitter][rg3d_twitter].
+
+[rg3d]: https://github.com/mrDIMAS/rg3d
+[rg3d_twit]: https://twitter.com/DmitryS36934349/status/1328797761874046977
+[rg3d_discord]: https://discord.gg/xENF5Uh
+[rg3d_twitter]: https://twitter.com/DmitryS36934349
+[gobo]: https://en.wikipedia.org/wiki/Gobo_(lighting)
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
