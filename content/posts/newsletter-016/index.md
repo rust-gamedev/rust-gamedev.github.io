@@ -71,10 +71,10 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ![rib](rib.gif)
 
-Parsing a 3D model file and understand the different links between bone matrices,
-keyframes and vertices is a task that can take a lot of time and motivation of
-the developer. On top of that, combining the different bone transform matrices
-for the current frame is often error prone.
+Parsing a 3D model file and understanding the different links between bone
+matrices, keyframes and vertices is a task that can take a lot of time and
+motivation of the developer. On top of that, combining the different bone
+transform matrices for the current frame is often error prone.
 
 [rib] is an attempt to tackle these problems and might help you save time.
 Current features of [rib] include:
