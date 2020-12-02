@@ -67,6 +67,29 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
+### [bevmnist][bevmnist-itch.io]
+
+![demo of running inferences for all digits](bevmnist.gif)
+_Running through all digits_
+
+[bevmnist][bevmnist-itch.io] by [@FrancoisMockers] is a PoC for running
+inferences from a neural network in a game made with [bevy], that can run in
+WASM (source code on [github][bevmnist-github]).
+
+Using [tract], the goal was to test running neural network inferences from a
+game. [MNIST handwritten digits classification][MNIST] is the "hello world" of
+neural networks, and has small enough networks available in [onnx] format that
+can run in real time in WASM. This project also has github actions that will
+build and release a [bevy] game to itch.io for Linux, macOS, Windows and WASM.
+
+[bevmnist-github]: https://github.com/vleue/bevmnist
+[bevmnist-itch.io]: https://vleue.itch.io/bevmnist-poc
+[@FrancoisMockers]: https://twitter.com/FrancoisMockers
+[MNIST]: http://yann.lecun.com/exdb/mnist/
+[onnx]: https://onnx.ai
+[bevy]: https://bevyengine.org
+[tract]: https://github.com/sonos/tract
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
