@@ -63,6 +63,32 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Game Off 2020][go-2020]
+
+[Game Off][go-2020] is an annual game jam, where participants spend the month
+of November creating games based on a secret theme.
+
+Game Off 2020 theme was "MOONSHOT".
+Here are some of the games made with Rust:
+
+- ["War of the Moons"][go-wotm] by [@FrancoisMockers]
+    ([source code][go-wotm-src]).
+
+  > Your goal is to conquer the planet, but it's not possible until you
+  > control all the moons. The end result is not completly what I wanted,
+  > but it was a nice occasion to try [rapier] for physics and [lyon] to draw
+  > shapes from [bevy].
+
+  ![gameplay](go-wotm.png)
+
+[go-2020]: https://itch.io/jam/game-off-2020
+[go-wotm]: https://vleue.itch.io/wotm
+[go-wotm-src]: https://github.com/mockersf/wotm
+[@FrancoisMockers]: https://twitter.com/FrancoisMockers
+[rapier]: https://rapier.rs
+[lyon]: https://github.com/nical/lyon
+[bevy]: https://bevyengine.org
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
