@@ -75,10 +75,10 @@ If needed, a section can be split into subsections with a "------" delimiter.
 along getting everything prepared for a 0.6 release at the end of 2020,
 and a lot of work has been done in the last month:
 
- * All major dependencies have been updated, including a long-overdue
-   update to `winit` 0.23
- * Over a dozen pull requests have been merged, large and small
- * A bunch of old issues have been cleaned up
+- All major dependencies have been updated, including a long-overdue
+  update to `winit` 0.23
+- Over a dozen pull requests have been merged, large and small
+- A bunch of old issues have been cleaned up
 
 Major features to look forward to include far better math performance, a
 `MeshBatch` type, better ergonomics on Linux Wayland, and more.  There's
