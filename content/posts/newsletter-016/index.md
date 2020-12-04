@@ -63,6 +63,23 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [A/B Street][abstreet]
+
+![15 minute tool](abstreet.png)
+
+[A/B Street][abstreet] is a traffic simulation game exploring how small changes
+to roads affect cyclists, transit users, pedestrians, and drivers. Any city
+with OpenStreetMap coverage can be used!
+
+Some of this month's updates:
+
+- started a new tool to explore 15-minute neighborhoods;
+- simpler process for [importing new cities][abstreet-new-cities];
+- large internal refactoring for the GUI and initializing the simulation;
+
+[abstreet]: https://abstreet.org
+[abstreet-new-cities]: https://dabreegster.github.io/abstreet/howto/new_city.html
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
