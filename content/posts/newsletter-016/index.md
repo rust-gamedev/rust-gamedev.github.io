@@ -69,7 +69,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [gfx-rs] and [wgpu]
 
-![gfx-picture](https://gfx-rs.github.io/img/wgpu-big-picture.svg)
+![gfx-picture](wgpu-big-picture.svg)
 
 The gfx-rs team has published a [gfx-post] providing the overview
 of all projects in the works, and how they are connected to each other.
