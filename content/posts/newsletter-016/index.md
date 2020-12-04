@@ -32,16 +32,13 @@ Feel free to send PRs about your own projects!
 
 Table of contents:
 
+- [Last Call for Rust GameDev Survey](#last-call-for-rust-gamedev-survey)
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Library & Tooling Updates](#library-tooling-updates)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Requests for Contribution](#requests-for-contribution)
 - [Jobs](#jobs)
-
-## Last call for Gamedev Survey
-
-Our annual [Rust Game Development Ecosystem Survey](https://surveymonkey.com/r/F2JYRFF) will be closed on Sunday at the end of this week, 6. December 2020. It'll only take 10 minutes, and your responses help us better understand the state of our ecosystem and where we should try to focus our collective efforts.
 
 <!--
 Ideal section structure is:
@@ -64,6 +61,16 @@ _Discussions:
 
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
+
+## Last Call for [Rust GameDev Survey][survey]
+
+Our annual [Rust Game Development Ecosystem Survey][survey] will be closed
+on Sunday at the end of this week, 6. December 2020.
+It'll only take 10 minutes, and your responses help us
+better understand the state of our ecosystem and where we
+should try to focus our collective efforts.
+
+[survey]: https://surveymonkey.com/r/F2JYRFF
 
 ## Game Updates
 
