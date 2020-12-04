@@ -82,6 +82,29 @@ Some of this month's updates:
 
 ## Learning Material Updates
 
+### [Learn Wgpu][learn-wgpu]
+
+Development of new tutorial content has slowed down due to wgpu still being in
+development. [@sotrh] has committed to continue maintaining the project through
+the comming version changes, and plans to add more new content when the API
+solidifies. He with the help of other contributors such as GitHub user
+[@kanerogers] worked through a series of issues to polish the repository before
+the content freeze.
+In addition to that he added a [compute pipeline showcase][learn-wgpu-compute]
+and an [imgui showcase][learn-wgpu-imgui].
+
+In other news @sotrh has started a [Patreon][@sotrh] to help fund research
+and development on the Learn Wgpu site as well as other wgpu related projects.
+
+You can learn more [on the Learn Wgpu news page][learn-wgpu-news].
+
+[learn-wgpu]: https://sotrh.github.io/learn-wgpu
+[learn-wgpu-compute]: https://sotrh.github.io/learn-wgpu/showcase/compute
+[learn-wgpu-imgui]: https://sotrh.github.io/learn-wgpu/showcase/imgui-demo
+[learn-wgpu-news]: https://sotrh.github.io/learn-wgpu/news
+[@sotrh]: https://patreon.com/sotrh
+[@kanerogers]: https://github.com/kanerogers
+
 ## Library & Tooling Updates
 
 ### [rkyv]
