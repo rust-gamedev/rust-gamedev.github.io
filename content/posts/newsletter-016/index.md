@@ -92,6 +92,31 @@ most of the updated [WebGPU samples][wgpu-samples].
 [gpu-descriptor]: https://github.com/zakarumych/gpu-descriptor
 [wgpu-samples]: https://austineng.github.io/webgpu-samples
 
+### [Tetra]
+
+[Tetra] is a simple 2D game framework, inspired by XNA and Raylib. This month,
+versions 0.5.3 and 0.5.4 were released, with some frequently requested features:
+
+- A `Mesh` API, allowing users to create arbitary 2D geometry
+- Experimental support for high-DPI rendering
+
+There has also been numerous bug fixes and documentation improvements. For full
+details and a list of breaking changes, see the [changelog][tetra-changelog].
+
+[tetra]: https://github.com/17cupsofcoffee/tetra
+[tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
+
+### [ogmo3]
+
+[ogmo3] is a Rust crate for parsing projects and levels created with
+[Ogmo Editor 3]. This month, version 0.1 was released, adding serialization
+support, and helper methods for unpacking layer data. The [sample code][ogmo3-sample]
+has also been updated to show the new helpers in action.
+
+[ogmo3]: https://github.com/17cupsofcoffee/ogmo3
+[Ogmo Editor 3]: https://ogmo-editor-3.github.io/
+[ogmo3-sample]: https://github.com/17cupsofcoffee/ogmo3/blob/main/examples/sample.rs
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
