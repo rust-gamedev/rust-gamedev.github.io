@@ -105,6 +105,56 @@ _Discussions:
 [toy benchmark]: https://git.sr.ht/~vlmutolo/rkyv-bench/tree/master/src/main.rs
 [architecture and internals of rkyv]: https://davidkoloski.me/blog/rkyv-architecture/
 
+### [gfx-rs] and [wgpu]
+
+![gfx-picture](wgpu-big-picture.svg)
+
+The gfx-rs team has published a post ["The Big Picture"][gfx-post] providing
+the overview of all projects in the works, and how they are connected to each other.
+
+[wgpu] has moved from [gfx-extras] to the new [gpu-alloc] and [gpu-descriptor]
+libraries by [@zakarumych]. These are backend-agnostic, which allows `wgpu`
+to now depend on `gfx-hal` directly without intermediates. Patching [gfx-rs]
+will now be easier, without the need to release every little change.
+
+Finally, all the latest [wgpu] code has landed into Gecko, and new
+features and fixes are implemented in Firefox. That allows it to run
+most of the updated [WebGPU samples][wgpu-samples].
+
+[gfx-rs]: https://github.com/gfx-rs/gfx
+[wgpu]: https://github.com/gfx-rs/wgpu
+[gfx-post]: https://gfx-rs.github.io/2020/11/16/big-picture.html
+[gfx-extras]: https://github.com/gfx-rs/gfx-extras
+[@zakarumych]: https://github.com/zakarumych
+[gpu-alloc]: https://github.com/zakarumych/gpu-alloc
+[gpu-descriptor]: https://github.com/zakarumych/gpu-descriptor
+[wgpu-samples]: https://austineng.github.io/webgpu-samples
+
+### [Tetra]
+
+[Tetra] is a simple 2D game framework, inspired by XNA and Raylib. This month,
+versions 0.5.3 and 0.5.4 were released, with some frequently requested features:
+
+- A `Mesh` API, allowing users to create arbitary 2D geometry
+- Experimental support for high-DPI rendering
+
+There has also been numerous bug fixes and documentation improvements. For full
+details and a list of breaking changes, see the [changelog][tetra-changelog].
+
+[tetra]: https://github.com/17cupsofcoffee/tetra
+[tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
+
+### [ogmo3]
+
+[ogmo3] is a Rust crate for parsing projects and levels created with
+[Ogmo Editor 3]. This month, version 0.1 was released, adding serialization
+support, and helper methods for unpacking layer data. The [sample code][ogmo3-sample]
+has also been updated to show the new helpers in action.
+
+[ogmo3]: https://github.com/17cupsofcoffee/ogmo3
+[Ogmo Editor 3]: https://ogmo-editor-3.github.io/
+[ogmo3-sample]: https://github.com/17cupsofcoffee/ogmo3/blob/main/examples/sample.rs
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
