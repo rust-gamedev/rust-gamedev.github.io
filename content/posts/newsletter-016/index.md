@@ -114,6 +114,19 @@ _Discussions:
 
 ## Learning Material Updates
 
+### [ECS scheduler thoughts, part 1]
+
+[@Ratys] wrote an article about system schedulers in [ECS]. It contains
+an overview of the scheduling problem itself, covers the constraints a solution
+to it should consider, and dissects schedulers of [Bevy] engine and [`yaks`] as
+examples.
+
+[ECS scheduler thoughts, part 1]: https://ratysz.github.io/article/scheduling-1/
+[@Ratys]: https://twitter.com/ratysz
+[ECS]: https://en.wikipedia.org/wiki/Entity_component_system
+[Bevy]: https://bevyengine.org/
+[`yaks`]: https://crates.io/crates/yaks
+
 ### [Chess game in Rust using Bevy]
 
 ![Tutorial result](bevy_chess.gif)
