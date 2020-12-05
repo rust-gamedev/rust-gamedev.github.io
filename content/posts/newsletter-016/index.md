@@ -73,11 +73,11 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 [F1 Telemetry TUI] by [@aldidana] is a terminal telemetry tool for F1 video games.
 
+_Discussions:
+[Twitter](https://twitter.com/aldidana/status/1323185465319596032)_
+
 [F1 Telemetry TUI]: https://github.com/aldidana/f1-telemetry-tui
 [@aldidana]: https://github.com/aldidana
-
-_Discussions:
-[twitter](https://twitter.com/aldidana/status/1323185465319596032)_
 
 ## Popular Workgroup Issues in Github
 
