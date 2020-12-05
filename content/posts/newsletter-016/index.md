@@ -63,25 +63,28 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
-
-
-### Shotcaller
+### [Shotcaller]
 
 ![Shotcaller dual frontend](shotcaller-2guis.png)
 _ASCII and sprites versions of Shotcaller interface._
 
-A moddable RTS/MOBA game made with bracket-lib and specs.
+[Shotcaller] is a moddable RTS/MOBA game made with bracket-lib and specs.
 
-Frontend-agnostic, currently supporting ASCII and sprites rendering.
+This month [v0.3.1][shotcaller-v0-3-1] version was released.
+Some of the updates:
 
-Contributions welcome:  Try [add a new Leader](https://github.com/amethyst/shotcaller/issues/6).
+- Kenney's micro-roguelike tileset was added.
+- Leaders now have an item inventory.
+- A handling system of stats effectors for items.
+- New tutorials about creating leaders and items.
+- A [fully functional web version][shotcaller-web], including tileset.
 
-_Discussions:
-[/r/rust](https://www.reddit.com/r/rust_gamedev/comments/k1hpc4/shotcaller_mobagame_v031_asciisprite_dualfrontend/),
-[twitter](https://twitter.com/AmethystEngine/status/1331994516761550850)_
+Contributions welcome: [try add a new Leader][shotcaller-issue-leader].
 
 [Shotcaller]: https://github.com/amethyst/shotcaller
-
+[shotcaller-v0-3-1]: https://github.com/amethyst/shotcaller/releases/tag/0.3.1
+[shotcaller-web]: https://shotcaller.jojolepro.com/
+[shotcaller-issue-leader]: https://github.com/amethyst/shotcaller/issues/6
 
 ## Learning Material Updates
 
