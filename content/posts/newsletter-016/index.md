@@ -91,6 +91,27 @@ Some of this month's updates:
 [abstreet]: https://abstreet.org
 [abstreet-new-cities]: https://dabreegster.github.io/abstreet/howto/new_city.html
 
+### FBSim
+
+![FBSim initial version](fbsim.png)
+_FBSim running with default agents._
+
+[FBSim] by [Ian Tayler] is a football/soccer game where you program the
+players using Rust and try to beat a team controlled by another AI.
+
+You can follow the [tutorial] for implementing your own simple AI for FBSim,
+or you can look at the code directly, which can be found on the
+[github repo]. FBSim is at an early stage of development so issues and
+comments are welcome!
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/jz4x1f/fbsim/)_
+
+[FBSim]: https://github.com/IanTayler/fbsim
+[github repo]: https://github.com/IanTayler/fbsim
+[Ian Tayler]: https://iantayler.com
+[tutorial]: https://iantayler.com/2020/11/22/fbsim-football-playing-ai-agents-in-rust/
+
 ### [Shotcaller]
 
 ![Shotcaller dual frontend](shotcaller-2guis.png)
@@ -115,6 +136,19 @@ Contributions welcome: [try add a new Leader][shotcaller-issue-leader].
 [shotcaller-issue-leader]: https://github.com/amethyst/shotcaller/issues/6
 
 ## Learning Material Updates
+
+### [ECS scheduler thoughts, part 1]
+
+[@Ratys] wrote an article about system schedulers in [ECS]. It contains
+an overview of the scheduling problem itself, covers the constraints a solution
+to it should consider, and dissects schedulers of [Bevy] engine and [`yaks`] as
+examples.
+
+[ECS scheduler thoughts, part 1]: https://ratysz.github.io/article/scheduling-1/
+[@Ratys]: https://twitter.com/ratysz
+[ECS]: https://en.wikipedia.org/wiki/Entity_component_system
+[Bevy]: https://bevyengine.org/
+[`yaks`]: https://crates.io/crates/yaks
 
 ### [Chess game in Rust using Bevy]
 
@@ -218,6 +252,48 @@ _Discussions:
 [toy benchmark]: https://git.sr.ht/~vlmutolo/rkyv-bench/tree/master/src/main.rs
 [architecture and internals of rkyv]: https://davidkoloski.me/blog/rkyv-architecture/
 
+### [rib]
+
+![rib](rib.gif)
+
+Parsing a 3D model file and understanding the different links between bone
+matrices, keyframes and vertices is a task that can take a lot of time and
+motivation of the developer. On top of that, combining the different bone
+transform matrices for the current frame is often error prone.
+
+[rib] is an attempt to tackle these problems and might help you save time.
+Current features of [rib] include:
+
+- Support of collada files coming from the latest Blender version.
+- Precomputation of the bone matrices expressed in the world space so that you
+  just have to pass it to your shader for traditional GPU skinning.
+- Interpolation between keyframes
+- (De)/serialization in binary thanks to [bincode]
+
+[rib] can be greatly extended, for example with the support of other format
+handling skeleton data, such as the [glTF] format.
+Contributions are more than welcome.
+
+[rib]: https://github.com/bmatthieu3/rib
+[bincode]: https://github.com/servo/bincode
+[glTF]: https://github.com/KhronosGroup/glTF/blob/master/README.md
+
+### [Kira]
+
+[Kira] by [@tesselode] is an audio library designed to help create expressive
+audio for games. It aims to fill the holes in many game engines' built-in audio
+APIs with features for creating seamless music loops and scripting audio events.
+
+v0.2.0 is coming out soon with an Arrangements feature for creating complex pieces
+out of individual sounds, tween easing, panning support, and workflow improvements.
+
+[Kira]: https://github.com/tesselode/kira
+[@tesselode]: https://twitter.com/tesselode
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/jxd9zz/announcing_kira_dynamic_audio_library_for_games/),
+[twitter](https://twitter.com/tesselode/status/1329559760111357954)_
+
 ### [gfx-rs] and [wgpu]
 
 ![gfx-picture](wgpu-big-picture.svg)
@@ -243,6 +319,25 @@ most of the updated [WebGPU samples][wgpu-samples].
 [gpu-descriptor]: https://github.com/zakarumych/gpu-descriptor
 [wgpu-samples]: https://austineng.github.io/webgpu-samples
 
+### [KAS] v0.6 and [KAS-text] v0.2
+
+![KAS markdown](kas-markdown.png)
+_Markdown parsing demo_
+
+[KAS] by [@dhardy] is a general purpose UI toolkit; its
+initial aim is "old school" desktop apps with good keyboard and touchscreen
+support. Unlike many modern immediate-mode UIs, KAS's widgets retain state,
+allowing minimal per-frame updates. KAS supports embedded WebGPU graphics now,
+and plans to support embedded usage and additional rendering systems.
+
+[KAS-text] v0.2 saw a significant revision to its API, including support for
+rich text (bold, italic, underline, size and some layout improvements).
+[KAS] v0.6 pulls in those changes and adds a few fixes and QoL improvements.
+
+[KAS]: https://github.com/kas-gui/kas
+[KAS-text]: https://github.com/kas-gui/kas-text
+[@dhardy]: https://github.com/dhardy
+
 ### [Tetra]
 
 [Tetra] is a simple 2D game framework, inspired by XNA and Raylib. This month,
@@ -267,6 +362,41 @@ has also been updated to show the new helpers in action.
 [ogmo3]: https://github.com/17cupsofcoffee/ogmo3
 [Ogmo Editor 3]: https://ogmo-editor-3.github.io/
 [ogmo3-sample]: https://github.com/17cupsofcoffee/ogmo3/blob/main/examples/sample.rs
+
+### [F1 Telemetry TUI]
+
+![f1-telemetry-tui](f1-tui.gif)
+
+[F1 Telemetry TUI] by [@aldidana] is a terminal telemetry tool for F1 video games.
+
+_Discussions:
+[Twitter](https://twitter.com/aldidana/status/1323185465319596032)_
+
+[F1 Telemetry TUI]: https://github.com/aldidana/f1-telemetry-tui
+[@aldidana]: https://github.com/aldidana
+
+### [bevmnist][bevmnist-itch.io]
+
+![demo of running inferences for all digits](bevmnist.gif)
+_Running through all digits_
+
+[bevmnist][bevmnist-itch.io] by [@FrancoisMockers] is a PoC for running
+inferences from a neural network in a game made with [bevy], that can run in
+WASM (source code on [github][bevmnist-github]).
+
+Using [tract], the goal was to test running neural network inferences from a
+game. [MNIST handwritten digits classification][MNIST] is the "hello world" of
+neural networks, and has small enough networks available in [onnx] format that
+can run in real time in WASM. This project also has github actions that will
+build and release a [bevy] game to itch.io for Linux, macOS, Windows and WASM.
+
+[bevmnist-github]: https://github.com/vleue/bevmnist
+[bevmnist-itch.io]: https://vleue.itch.io/bevmnist-poc
+[@FrancoisMockers]: https://twitter.com/FrancoisMockers
+[MNIST]: http://yann.lecun.com/exdb/mnist/
+[onnx]: https://onnx.ai
+[bevy]: https://bevyengine.org
+[tract]: https://github.com/sonos/tract
 
 ## Popular Workgroup Issues in Github
 
