@@ -112,6 +112,62 @@ _Discussions:
 [Ian Tayler]: https://iantayler.com
 [tutorial]: https://iantayler.com/2020/11/22/fbsim-football-playing-ai-agents-in-rust/
 
+### [Veloren][veloren]
+
+![Landscape](veloren_fly.jpg)
+_Endless mountains to explore_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In November, Veloren released 0.8! This is the largest version yet, with over
+50k lines of code added. GamingOnLinux wrote [an
+article][veloren-gamingonlinux-article] about the release. You can see the [full
+changelog here][veloren-0.8-changelog]. Veloren also spoke at MiniDebConf #2,
+you can watch [the recording here][veloren-minidebconf-talk]. In November, many
+improvements were made to the UI, with map and buff updates. During the 0.8 code
+freeze, many networking and combat bugs were fixed. The Veloren 0.8 release
+party took place on the 28th and saw a peak of 112 players online, doubling the
+previous record.
+
+[![Youtube preview img](veloren-gameplay-video.gif)][veloren-0.8-gameplay]
+_0.8 gameplay video_
+
+You can read more about specific topics from November:
+
+- [First Time Contributing](https://veloren.net/devblog-92#first-time-contributing-by-ubruntu)
+- [Community Spotlight](https://veloren.net/devblog-92#community-spotlight-kalculate)
+- [Performance Analysis](https://veloren.net/devblog-93#performance-analysis-with-xmac94x)
+- [0.8 Release Schedule](https://veloren.net/devblog-94#0-8-release-schedule)
+- [Veloren Trailer Competition](https://veloren.net/devblog-94#veloren-screenshot-trailer-competition)
+- [Chest of Goodies](https://veloren.net/devblog-94#chest-of-goodies-by-zesterer)
+- [Iced Transition](https://veloren.net/devblog-94#iced-transition-by-imbris)
+- [Particle Improvements](https://veloren.net/devblog-95#particle-improvements-by-timo)
+- [Animal Attacks and AI](https://veloren.net/devblog-95#animal-attacks-and-ai-by-slipped-and-james)
+- [Veloren 0.8 Launch](https://veloren.net/devblog-96#veloren-0-8-launch)
+- [What People Are Saying About The Launch](https://veloren.net/devblog-96#what-people-are-saying-about-the-launch)
+- [Idea Drop](https://veloren.net/devblog-96#idea-drop-by-u-o11c)
+
+November's full weekly devlogs: "This Week In Veloren...":
+[#92](https://veloren.net/devblog-92/),
+[#93](https://veloren.net/devblog-93/),
+[#94](https://veloren.net/devblog-94/),
+[#95](https://veloren.net/devblog-95/),
+[#96](https://veloren.net/devblog-96/),
+
+In December, work will begin on 0.9. There are some discussions about larger
+refactors in the codebase. Many new developers have joined and are getting up to
+speed on contributing. Veloren will also reach its 100th blog post!
+
+![Healing sceptre](veloren_adventure.jpg)
+_The start of an adventure_
+
+[veloren]: https://veloren.net
+[veloren-0.8-changelog]: https://gitlab.com/veloren/veloren/-/blob/master/CHANGELOG.md#080-2020-11-28
+[veloren-minidebconf-talk]: https://www.youtube.com/watch?v=76FPpOnshNw
+[veloren-gamingonlinux-article]: https://www.gamingonlinux.com/2020/11/inspired-by-the-likes-of-cube-world-open-source-rpg-veloren-has-the-biggest-update-yet
+[veloren-0.8-gameplay]: https://www.youtube.com/watch?v=TMYfrdiEJw4
+
 ## Learning Material Updates
 
 ### [ECS scheduler thoughts, part 1]
