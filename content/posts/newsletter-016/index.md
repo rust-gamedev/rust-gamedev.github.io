@@ -91,6 +91,27 @@ Some of this month's updates:
 [abstreet]: https://abstreet.org
 [abstreet-new-cities]: https://dabreegster.github.io/abstreet/howto/new_city.html
 
+### FBSim
+
+![FBSim initial version](fbsim.png)
+_FBSim running with default agents._
+
+[FBSim] by [Ian Tayler] is a football/soccer game where you program the
+players using Rust and try to beat a team controlled by another AI.
+
+You can follow the [tutorial] for implementing your own simple AI for FBSim,
+or you can look at the code directly, which can be found on the
+[github repo]. FBSim is at an early stage of development so issues and
+comments are welcome!
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/jz4x1f/fbsim/)_
+
+[FBSim]: https://github.com/IanTayler/fbsim
+[github repo]: https://github.com/IanTayler/fbsim
+[Ian Tayler]: https://iantayler.com
+[tutorial]: https://iantayler.com/2020/11/22/fbsim-football-playing-ai-agents-in-rust/
+
 ## Learning Material Updates
 
 ### [Chess game in Rust using Bevy]
