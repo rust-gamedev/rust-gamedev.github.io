@@ -220,6 +220,25 @@ most of the updated [WebGPU samples][wgpu-samples].
 [gpu-descriptor]: https://github.com/zakarumych/gpu-descriptor
 [wgpu-samples]: https://austineng.github.io/webgpu-samples
 
+### [KAS] v0.6 and [KAS-text] v0.2
+
+![KAS markdown](kas-markdown.png)
+_Markdown parsing demo_
+
+[KAS] by [@dhardy] is a general purpose UI toolkit; its
+initial aim is "old school" desktop apps with good keyboard and touchscreen
+support. Unlike many modern immediate-mode UIs, KAS's widgets retain state,
+allowing minimal per-frame updates. KAS supports embedded WebGPU graphics now,
+and plans to support embedded usage and additional rendering systems.
+
+[KAS-text] v0.2 saw a significant revision to its API, including support for
+rich text (bold, italic, underline, size and some layout improvements).
+[KAS] v0.6 pulls in those changes and adds a few fixes and QoL improvements.
+
+[KAS]: https://github.com/kas-gui/kas
+[KAS-text]: https://github.com/kas-gui/kas-text
+[@dhardy]: https://github.com/dhardy
+
 ### [Tetra]
 
 [Tetra] is a simple 2D game framework, inspired by XNA and Raylib. This month,
