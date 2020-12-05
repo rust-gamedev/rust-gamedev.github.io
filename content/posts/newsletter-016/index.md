@@ -69,7 +69,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [F1 Telemetry TUI]
 
-![f1-telemetry-tui](https://user-images.githubusercontent.com/6572635/97776468-db1daa00-1b9a-11eb-8d4b-af0b540a9930.gif)
+![f1-telemetry-tui](f1-tui.gif)
 
 [F1 Telemetry TUI] by [@aldidana] is a terminal telemetry tool for F1 video games.
 
