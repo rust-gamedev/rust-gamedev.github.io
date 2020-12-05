@@ -216,6 +216,22 @@ _Discussions:
 [toy benchmark]: https://git.sr.ht/~vlmutolo/rkyv-bench/tree/master/src/main.rs
 [architecture and internals of rkyv]: https://davidkoloski.me/blog/rkyv-architecture/
 
+### [Kira]
+
+[Kira] by [@tesselode] is an audio library designed to help create expressive
+audio for games. It aims to fill the holes in many game engines' built-in audio
+APIs with features for creating seamless music loops and scripting audio events.
+
+v0.2.0 is coming out soon with an Arrangements feature for creating complex pieces
+out of individual sounds, tween easing, panning support, and workflow improvements.
+
+[Kira]: https://github.com/tesselode/kira
+[@tesselode]: https://twitter.com/tesselode
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/jxd9zz/announcing_kira_dynamic_audio_library_for_games/),
+[twitter](https://twitter.com/tesselode/status/1329559760111357954)_
+
 ### [gfx-rs] and [wgpu]
 
 ![gfx-picture](wgpu-big-picture.svg)
