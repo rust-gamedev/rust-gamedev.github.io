@@ -301,6 +301,18 @@ has also been updated to show the new helpers in action.
 [Ogmo Editor 3]: https://ogmo-editor-3.github.io/
 [ogmo3-sample]: https://github.com/17cupsofcoffee/ogmo3/blob/main/examples/sample.rs
 
+### [F1 Telemetry TUI]
+
+![f1-telemetry-tui](f1-tui.gif)
+
+[F1 Telemetry TUI] by [@aldidana] is a terminal telemetry tool for F1 video games.
+
+_Discussions:
+[Twitter](https://twitter.com/aldidana/status/1323185465319596032)_
+
+[F1 Telemetry TUI]: https://github.com/aldidana/f1-telemetry-tui
+[@aldidana]: https://github.com/aldidana
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
