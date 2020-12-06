@@ -338,6 +338,34 @@ rich text (bold, italic, underline, size and some layout improvements).
 [KAS-text]: https://github.com/kas-gui/kas-text
 [@dhardy]: https://github.com/dhardy
 
+### [miniquad]
+
+![miniquad_wayland](miniquad_kms.gif)
+_Miniquad running on raspberry pi 4 with a SPI screen._
+ 
+ [miniquad] is cross-platform windowing and rendering library.
+
+This month [KMS] [PR][kms-pr] landed on miniquad. Now miniquad can run on without neither X11 or Wayland, right on the linux kernel with KMS. 
+
+[miniquad]: https://github.com/not-fl3/miniquad
+[KMS]: https://www.kernel.org/doc/html/v4.15/gpu/drm-kms.html
+[kms-pr]: https://github.com/not-fl3/miniquad/pull/158
+
+### [macroquad]
+
+![macroquad_particles](macroquad_particles.gif)
+_Small editor footage._
+
+[macroquad] is a cross-platform (Windows/Linux/macOS/Android/iOS/WASM)
+game framework built on top of [miniquad].
+
+This month macroquad got particle system editor aiming for simple 2d pixel-art style effects.  
+Try it out online: [macroquad-particles]
+
+[macroquad]: https://github.com/not-fl3/macroquad
+[macroquad-particles]: https://fedorgames.itch.io/macroquad-particles
+
+
 ### [Tetra]
 
 [Tetra] is a simple 2D game framework, inspired by XNA and Raylib. This month,
