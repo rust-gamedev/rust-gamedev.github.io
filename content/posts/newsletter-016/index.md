@@ -175,6 +175,31 @@ Contributions welcome: [try add a new Leader][shotcaller-issue-leader].
 [shotcaller-web]: https://shotcaller.jojolepro.com/
 [shotcaller-issue-leader]: https://github.com/amethyst/shotcaller/issues/6
 
+### [Space Shooter]
+
+![space_shooter_rs gameplay](space_shooter_12-03-2020.gif)
+
+The [Space Shooter] project is a game in development by [Carlo Supina] and
+[Micah Tigley]. It is a 2D "shoot-em-up" game that takes place in space and is
+inspired by games like [Raiden] and [Binding of Isaac].
+
+Exciting new additions have been made in November!
+
+- Micah added a ["paused" text overlay] to provide visual indication for when
+  the game is paused.
+- Carlo added a [new armor system] that gives a chance for destroyed enemies to
+  drop armor consumables that can block a single hit from any damage source.
+- Work on a new [Missile Launcher enemy] has begun!
+
+[Space Shooter]: https://github.com/amethyst/space_shooter_rs
+[Carlo Supina]: https://twitter.com/carlosupina
+[Micah Tigley]: https://twitter.com/micah_tigley
+[Raiden]: https://wikipedia.org/wiki/Raiden_(video_game)
+[Binding of Isaac]: https://wikipedia.org/wiki/The_Binding_of_Isaac_(video_game)
+["paused" text overlay]: https://snipboard.io/ql60oz.jpg
+[new armor system]: https://twitter.com/carlosupina/status/1331680041453953025
+[Missile Launcher enemy]: https://github.com/amethyst/space_shooter_rs/pull/93
+
 ## Learning Material Updates
 
 ### [ECS scheduler thoughts, part 1]
