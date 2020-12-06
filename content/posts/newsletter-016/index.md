@@ -69,22 +69,23 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [ggez]
 
-![ggez bunnymark - 60,000 buns at 60 FPS](ggez-bun.png)
+![lot's of overlapping bunnies](ggez-bun.png)
+_ggez bunnymark - 60,000 buns at 60 FPS_
 
-[ggez] is a 2D game framework inspired by Love2D.  We're chugging
+[ggez] is a 2D game framework inspired by Love2D. The project is chugging
 along getting everything prepared for a 0.6 release at the end of 2020,
 and a lot of work has been done in the last month:
 
 - All major dependencies have been updated, including a long-overdue
-  update to `winit` 0.23
-- Over a dozen pull requests have been merged, large and small
-- A bunch of old issues have been cleaned up
+  update to `winit` 0.23.
+- Over a dozen pull requests have been merged, large and small.
+- A bunch of old issues have been cleaned up.
 
 Major features to look forward to include far better math performance, a
-`MeshBatch` type, better ergonomics on Linux Wayland, and more.  There's
-lots of work still to be done though.  A bunch of issues are out of date
+`MeshBatch` type, better ergonomics on Linux Wayland, and more. There's
+lots of work still to be done though. A bunch of issues are out of date
 and need triage, docs need to be proofread, and especially examples need
-be updated and tested on every platform imaginable.  Try out the `devel`
+be updated and tested on every platform imaginable. Try out the `devel`
 branch and give it a go!
 
 [ggez]: https://github.com/ggez/ggez/
