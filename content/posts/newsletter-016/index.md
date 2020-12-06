@@ -363,6 +363,34 @@ has also been updated to show the new helpers in action.
 [Ogmo Editor 3]: https://ogmo-editor-3.github.io/
 [ogmo3-sample]: https://github.com/17cupsofcoffee/ogmo3/blob/main/examples/sample.rs
 
+### [rg3d]
+
+[![a scene with lightning and multiple hi-poly character models](rg3d_instancing.jpg)][rg3d_twit]
+
+[rg3d] is a game engine that aims to be easy to use and provide large set
+of out-of-box features. Some of the recent updates:
+
+- Migrated to nalgebra from custom linear algebra.
+- Replaced custom physics engine with Rapier.
+- Implemented sound backend for macOS.
+- Environment mapping - now objects can have reflections.
+- Implemented geometry instancing - now you can render tons of objects with
+low overhead.
+- Performance improvements.
+- Added [gobo] for spot lights.
+- Added CPU lightmapper - it is possible now to "bake" static lighting
+into a texture to improve performance.
+- Lots of other bugfixes and improvements.
+
+Join the [rg3d's Discord channel][rg3d_discord]
+or follow [Dmitry Stepanov on twitter][rg3d_twitter].
+
+[rg3d]: https://github.com/mrDIMAS/rg3d
+[rg3d_twit]: https://twitter.com/DmitryS36934349/status/1328797761874046977
+[rg3d_discord]: https://discord.gg/xENF5Uh
+[rg3d_twitter]: https://twitter.com/DmitryS36934349
+[gobo]: https://en.wikipedia.org/wiki/Gobo_(lighting)
+
 ### [F1 Telemetry TUI]
 
 ![f1-telemetry-tui](f1-tui.gif)
