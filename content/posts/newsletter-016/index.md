@@ -450,9 +450,10 @@ build and release a [bevy] game to itch.io for Linux, macOS, Windows and WASM.
 
 ![text logo](podcast.jpeg)
 
-In [episode 3](https://rustgamedev.com/episodes/interview-with-chris-parsons) we chat to [Chris Parsons](https://chrismdp.com)
-about procedural history generation, custom game engines, the business of indie games development and
-lessons learned from shipping his first title, [Sol Trader](http://soltrader.net).
+In [episode 3](https://rustgamedev.com/episodes/interview-with-chris-parsons) we chat to
+[Chris Parsons](https://chrismdp.com) about procedural history generation, custom game engines,
+the business of indie games development and lessons learned from shipping his first title,
+[Sol Trader](http://soltrader.net).
 
 Listen and Subscribe from the following platforms:
 [Rust Game Dev Podcast (simplecast)](https://rustgamedev.com/),
