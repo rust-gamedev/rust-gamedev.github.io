@@ -445,6 +445,20 @@ build and release a [bevy] game to itch.io for Linux, macOS, Windows and WASM.
 [bevy]: https://bevyengine.org
 [tract]: https://github.com/sonos/tract
 
+### [Terra Mach][terramach]
+
+![Dashboard demo](terramach.gif)
+_Terra Mach dashboard demo_
+
+Terra Mach is a mapping frontend system to build graphical interfaces for
+devices. It focuses on experiences around statistical data (graphs, diagrams),
+mapping, and user input. When it comes to user experience, elements a user
+interacts with are flexible enough to build many common experiences. Terra Mach
+is highly inspired by Flutter. It leverages graphics library Skia to enable
+highly performant 2D graphics.
+
+[terramach]: https://github.com/lykhonis/terramach
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
