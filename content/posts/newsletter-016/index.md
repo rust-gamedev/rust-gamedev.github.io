@@ -32,6 +32,7 @@ Feel free to send PRs about your own projects!
 
 Table of contents:
 
+- [Rust GameDev Podcast](#rust-gamedev-podcast)
 - [Last Call for Rust GameDev Survey](#last-call-for-rust-gamedev-survey)
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
@@ -61,6 +62,26 @@ _Discussions:
 
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
+
+## [Rust GameDev Podcast #3][podcast-3]
+
+![text logo](podcast.jpeg)
+
+[The third episode][podcast-3] is an interview with [Chris Parsons] about
+procedural history generation, custom game engines, the business
+of indie games development and lessons learned from shipping his first title,
+[Sol Trader].
+
+Listen and Subscribe from the following platforms:
+[Rust GameDev Podcast (simplecast)](https://rustgamedev.com/),
+[Apple Podcasts](https://podcasts.apple.com/gb/podcast/rust-game-dev/id1526304768),
+[Spotify](https://open.spotify.com/show/7HRfGnTcXkLkQd9fxJbDGj),
+[RSS Feed](https://feeds.simplecast.com/C6NQglnL),
+[Google Podcasts](https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zaW1wbGVjYXN0LmNvbS9DNk5RZ2xuTA).
+
+[podcast-3]: https://rustgamedev.com/episodes/interview-with-chris-parsons
+[Chris Parsons]: https://chrismdp.com
+[Sol Trader]: http://soltrader.net
 
 ## Last Call for [Rust GameDev Survey][survey]
 
