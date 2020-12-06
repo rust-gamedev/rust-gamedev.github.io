@@ -36,6 +36,7 @@ Table of contents:
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Library & Tooling Updates](#library-tooling-updates)
+- [Rust GameDev Podcast](#rust-gamedev-podcast)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Requests for Contribution](#requests-for-contribution)
 - [Jobs](#jobs)
@@ -444,6 +445,21 @@ build and release a [bevy] game to itch.io for Linux, macOS, Windows and WASM.
 [onnx]: https://onnx.ai
 [bevy]: https://bevyengine.org
 [tract]: https://github.com/sonos/tract
+
+## Rust GameDev Podcast
+
+![text logo](podcast.jpeg)
+
+In [episode 3](https://rustgamedev.com/episodes/interview-with-chris-parsons) we chat to [Chris Parsons](https://chrismdp.com)
+about procedural history generation, custom game engines, the business of indie games development and
+lessons learned from shipping his first title, [Sol Trader](http://soltrader.net).
+
+Listen and Subscribe from the following platforms:
+[Rust Game Dev Podcast (simplecast)](https://rustgamedev.com/),
+[Apple Podcasts](https://podcasts.apple.com/gb/podcast/rust-game-dev/id1526304768),
+[Spotify](https://open.spotify.com/show/7HRfGnTcXkLkQd9fxJbDGj),
+[RSS Feed](https://feeds.simplecast.com/C6NQglnL),
+[Google Podcasts](https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zaW1wbGVjYXN0LmNvbS9DNk5RZ2xuTA).
 
 ## Popular Workgroup Issues in Github
 
