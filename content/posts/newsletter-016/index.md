@@ -368,6 +368,23 @@ _Discussions:
 [toy benchmark]: https://git.sr.ht/~vlmutolo/rkyv-bench/tree/master/src/main.rs
 [architecture and internals of rkyv]: https://davidkoloski.me/blog/rkyv-architecture/
 
+### [assets_manager] v0.4
+
+[assets_manager] provides an convenient way to work with external files, making
+ressources caching and hot-reloading easy and straightforward.
+
+This month was released version 0.4.0, bringing loads of improvements.
+
+- A `Source` trait, to load assets from anywhere. It makes the crate usable in
+  WebAssembly.
+- Assets that can load other assets, with a transparent integration with
+  hot-reloading. Using a manifest file has never been so easy !
+- Improved perfomances
+- See the [full changelog][assets_manager_log] for more informations.
+
+[assets_manager]: https://github.com/a1phyr/assets_manager
+[assets_manager_log]: https://github.com/a1phyr/assets_manager/releases/tag/v0.4.0
+
 ### [rib]
 
 ![rib](rib.gif)
