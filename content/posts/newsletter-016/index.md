@@ -579,6 +579,40 @@ most of the updated [WebGPU samples][wgpu-samples].
 [gpu-descriptor]: https://github.com/zakarumych/gpu-descriptor
 [wgpu-samples]: https://austineng.github.io/webgpu-samples
 
+### [Iced] v0.2
+
+![Iced - Game of Life example](iced-game-of-life.gif)
+_The new [Game of Life example], made with Iced_
+
+Iced is an experimental cross-platform GUI library focused on simplicity and
+type-safety. Inspired by [Elm].
+
+[A new minor version] was released this month containing a bunch of
+improvements:
+
+- An OpenGL renderer powered by [`glow`] and [`glutin`]. It is an alternative to
+  the default [`wgpu`] renderer.
+- A trait-based approach to react to mouse and keyboard interactions in the
+  `Canvas` widget.
+- Basic overlay support, allowing the superposition of interactive widgets on
+  top of other widgets.
+- A drop-down selector widget built on top of the overlay support.
+- A widget that displays a QR code, powered by [`qrcode`].
+- Additional internal enhancements, like event capturing and a faster event
+  loop.
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/k1hkxq/iced_a_crossplatform_gui_library_new_release/)_
+
+[A new minor version]: https://github.com/hecrj/iced/pull/637
+[Iced]: https://github.com/hecrj/iced
+[Game of Life example]: https://github.com/hecrj/iced/tree/0.2/examples/game_of_life
+[Elm]: https://elm-lang.org
+[`glow`]: https://github.com/grovesNL/glow
+[`glutin`]: https://github.com/rust-windowing/glutin
+[`qrcode`]: https://github.com/kennytm/qrcode-rust
+[`wgpu`]: https://github.com/gfx-rs/wgpu-rs
+
 ### [KAS] v0.6 and [KAS-text] v0.2
 
 ![KAS markdown](kas-markdown.png)
