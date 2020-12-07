@@ -347,7 +347,7 @@ _Miniquad running on raspberry pi 4 with a SPI screen._
 
 This month [KMS] [PR][kms-pr] landed on miniquad.
 Now miniquad can run on without neither X11 or Wayland,
-right on the linux kernel with KMS. 
+right on the linux kernel with KMS.
 
 [miniquad]: https://github.com/not-fl3/miniquad
 [KMS]: https://www.kernel.org/doc/html/v4.15/gpu/drm-kms.html
@@ -366,7 +366,6 @@ style effects: [try it out online here][macroquad-particles].
 
 [macroquad]: https://github.com/not-fl3/macroquad
 [macroquad-particles]: https://fedorgames.itch.io/macroquad-particles
-
 
 ### [Tetra]
 
