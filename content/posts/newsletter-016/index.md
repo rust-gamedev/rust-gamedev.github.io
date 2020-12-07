@@ -498,6 +498,20 @@ This month was released version 0.4.0, bringing loads of improvements.
 [assets_manager]: https://github.com/a1phyr/assets_manager
 [assets_manager_log]: https://github.com/a1phyr/assets_manager/releases/tag/v0.4.0
 
+### [Terra Mach][terramach]
+
+![Dashboard demo](terramach.gif)
+_Terra Mach dashboard demo_
+
+[Terra Mach][terramach] is a mapping frontend system to build graphical interfaces
+for devices. It focuses on experiences around statistical data (graphs, diagrams),
+mapping, and user input. When it comes to user experience, elements a user
+interacts with are flexible enough to build many common experiences. Terra Mach
+is highly inspired by Flutter. It leverages graphics library Skia to enable
+highly performant 2D graphics.
+
+[terramach]: https://github.com/lykhonis/terramach
+
 ### [rib]
 
 ![rib](rib.gif)
