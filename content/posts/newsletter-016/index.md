@@ -342,10 +342,12 @@ rich text (bold, italic, underline, size and some layout improvements).
 
 ![miniquad_wayland](miniquad_kms.gif)
 _Miniquad running on raspberry pi 4 with a SPI screen._
- 
- [miniquad] is cross-platform windowing and rendering library.
 
-This month [KMS] [PR][kms-pr] landed on miniquad. Now miniquad can run on without neither X11 or Wayland, right on the linux kernel with KMS. 
+[miniquad] is cross-platform windowing and rendering library.
+
+This month [KMS] [PR][kms-pr] landed on miniquad.
+Now miniquad can run on without neither X11 or Wayland,
+right on the linux kernel with KMS. 
 
 [miniquad]: https://github.com/not-fl3/miniquad
 [KMS]: https://www.kernel.org/doc/html/v4.15/gpu/drm-kms.html
@@ -359,8 +361,8 @@ _Small editor footage._
 [macroquad] is a cross-platform (Windows/Linux/macOS/Android/iOS/WASM)
 game framework built on top of [miniquad].
 
-This month macroquad got particle system editor aiming for simple 2d pixel-art style effects.  
-Try it out online: [macroquad-particles]
+This month macroquad got particle system editor aiming for simple 2d pixel-art
+style effects: [try it out online here][macroquad-particles].
 
 [macroquad]: https://github.com/not-fl3/macroquad
 [macroquad-particles]: https://fedorgames.itch.io/macroquad-particles
