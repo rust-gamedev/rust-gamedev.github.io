@@ -512,6 +512,28 @@ highly performant 2D graphics.
 
 [terramach]: https://github.com/lykhonis/terramach
 
+### [glam]
+
+[glam] is a simple and fast linear algebra crate for games and graphics.
+
+This month version 0.11.2 was released. There were a number of important changes
+since the last newsletter.
+
+The vector accessor methods for setting and getting individual vector elements
+were replaced with direct access support. This means that now instead of needing
+to use `.x()`, `.set_x(x)` or `.mut_x() = x` the element may be accessed
+directly via `.x = x` and so on.
+
+The reason that this was not done originally was that some types are backed by
+SIMD types which do not support direct access. For these types direct access is
+now supported with `Deref` and `DerefMut` implementations.
+
+The direct access support was added in version 0.10.1 along side the accessor
+methods. The accessor methods were deprecated in 0.10.2 and  have been removed
+in 0.11.0.
+
+[glam]: https://github.com/bitshifter/glam-rs
+
 ### [rib]
 
 ![rib](rib.gif)
@@ -804,28 +826,6 @@ build and release a [bevy] game to itch.io for Linux, macOS, Windows and WASM.
 [onnx]: https://onnx.ai
 [bevy]: https://bevyengine.org
 [tract]: https://github.com/sonos/tract
-
-### [glam]
-
-[glam] is a simple and fast linear algebra crate for games and graphics.
-
-This month version 0.11.2 was released. There were a number of important changes
-since the last newsletter.
-
-The vector accessor methods for setting and getting individual vector elements
-were replaced with direct access support. This means that now instead of needing
-to use `.x()`, `.set_x(x)` or `.mut_x() = x` the element may be accessed
-directly via `.x = x` and so on.
-
-The reason that this was not done originally was that some types are backed by
-SIMD types which do not support direct access. For these types direct access is
-now supported with `Deref` and `DerefMut` implementations.
-
-The direct access support was added in version 0.10.1 along side the accessor
-methods. The accessor methods were deprecated in 0.10.2 and  have been removed
-in 0.11.0.
-
-[glam]: https://github.com/bitshifter/glam-rs
 
 ## Popular Workgroup Issues in Github
 
