@@ -202,6 +202,31 @@ Exciting new additions have been made in November!
 
 ## Learning Material Updates
 
+### [Hands-on Rust][hands-on-rust]
+
+[![Hands-On Rust](hands-on-rust.jpg)][hands-on-rust]
+
+["Hands-on Rust: Effective Learning through 2D Game Development and Play"][hands-on-rust]
+by Herbert Wolverson is now in beta. The book teaches Rust through game development
+examples, and is targeted at readers who have some experience with writing code
+in other languages. It teaches beginner to intermediate-level Rust. It also teaches
+high-level gamedev concepts, notably Entity-Component System (ECS) theory.
+
+After walking you through installing Rust, a few simple examples teach the language
+basics. Then you put these together to make "Flappy Dragon" - a simple Flappy Bird
+clone. The book then changes gear and begins to build a dungeon crawler (roguelike)
+with tile graphics. The first beta walks you through the basics, "Flappy Dragon"
+and making an ECS-based dungeon crawler skeleton - focused on teaching basic Rust,
+ECS composition and control flow. Beta 2 added health, a heads-up display, combat
+and win/lose conditions - focused on making the user comfortable with Rust's
+amazing iterator system. Beta 3 will add fields-of-view, more dungeon designs and
+map theming - focused on teaching trait use and creation.
+
+Beta 1 launched November 11th, Beta 2 launched November 25th. The next beta is
+expected December 8th.
+
+[hands-on-rust]: https://pragprog.com/titles/hwrust/hands-on-rust/
+
 ### [ECS scheduler thoughts, part 1]
 
 [@Ratys] wrote an article about system schedulers in [ECS]. It contains
