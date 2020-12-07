@@ -318,6 +318,7 @@ _Discussions:
 [architecture and internals of rkyv]: https://davidkoloski.me/blog/rkyv-architecture/
 
 ### [Rapier]
+
 [![Rapier logo](rapier-logo.svg)][Rapier]
 
 [Rapier] is a set of 2D and 3D physics engines for games, animation and
@@ -344,26 +345,29 @@ all the aforementioned features. In addition, it supports:
 
 - the automatic removal of rigid-bodies, colliders, and joints when the entity
   they are attached to are removed from the Bevy ECS.
-- the ability to attach multiple colliders to a single rigid-body using Bevy Hierarchy.
-
+- the ability to attach multiple colliders to a single rigid-body using Bevy
+  Hierarchy.
 
 [Rapier]: https://rapier.rs
 [rapier-november]: https://www.dimforge.com/blog/2020/12/01/this-month-in-dimforge/
 [bevy_rapier]: https://www.rapier.rs/docs/user_guides/rust_bevy_plugin/getting_started
 
 ### [Salva]
+
 [![Salva logo](salva-logo.svg)][Salva]
 
 [Salva] is a set of 2D and 3D particle-based fluids simulation engines for
 games and animation written in Rust.
 
-Starting [this month][salva-november] Salva 0.5.0 no longer supports [nphysics] for
-simulating rigid-bodies. Instead, it implements two-ways coupling with [Rapier]
-(see the [demo](https://twitter.com/dimforge/status/1329467380158898183)).
+Starting [this month][salva-november] Salva 0.5.0 no longer supports
+[nphysics] for simulating rigid-bodies. Instead, it implements two-ways
+coupling with [Rapier] (see the
+[demo](https://twitter.com/dimforge/status/1329467380158898183)).
 
-In addition to the Rapier integration, it is now possible to query Salva to retrieve
-all the fluid particles located inside an AABB. This can be useful for, e.g., spawning
-new particles ensuring there isn't anything there already.
+In addition to the Rapier integration, it is now possible to query Salva
+to retrieve all the fluid particles located inside an AABB. This can be
+useful for, e.g., spawning new particles ensuring there isn't anything
+there already.
 
 [Salva]: https://salva.rs
 [salva-november]: https://www.dimforge.com/blog/2020/12/01/this-month-in-dimforge/
