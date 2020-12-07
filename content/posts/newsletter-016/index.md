@@ -187,6 +187,30 @@ engine to support named zones on the map.
 [Antorum Online]: https://ratwizard.dev/antorum
 [@dooskington]: https://twitter.com/dooskington
 
+### [Akigi][akigi]
+
+![Akiki butcher](akigi_butcher.jpg)
+_Akigi butcher skill_
+
+[Akigi][akigi] is a WIP online multiplayer game.
+
+In November, focus was put on gameplay. Prototyping of a butcher skill was done,
+which will allow for animals to be turned into raw resources. Support for
+rendering shadows in the MetalRenderer was added, bringing it one step closer to
+the WebGlRenderer. Lots of work was put into the ability to fire a bow. This
+spanned a few weeks, however enough functionaly was added for it to feel like a
+solid part of gameplay. It still requires some polish, however, which will be
+the focus of the beginning of December.
+
+Full devlogs:
+[#091](https://devjournal.akigi.com/november-2020/091-2020-11-01.html),
+[#092](https://devjournal.akigi.com/november-2020/092-2020-11-08.html),
+[#093](https://devjournal.akigi.com/november-2020/093-2020-11-15.html),
+[#094](https://devjournal.akigi.com/november-2020/094-2020-11-22.html),
+[#095](https://devjournal.akigi.com/november-2020/095-2020-11-29.html).
+
+[akigi]: https://akigi.com
+
 ### [rymd]
 
 ![rymd animated combat v2](rymd_2020_12_02.gif)
