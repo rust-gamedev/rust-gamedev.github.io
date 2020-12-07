@@ -32,6 +32,7 @@ Feel free to send PRs about your own projects!
 
 Table of contents:
 
+- [Rust GameDev Podcast](#rust-gamedev-podcast)
 - [Last Call for Rust GameDev Survey](#last-call-for-rust-gamedev-survey)
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
@@ -62,6 +63,26 @@ _Discussions:
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
+## [Rust GameDev Podcast #3][podcast-3]
+
+![text logo](podcast.jpeg)
+
+[The third episode][podcast-3] is an interview with [Chris Parsons] about
+procedural history generation, custom game engines, the business
+of indie games development and lessons learned from shipping his first title,
+[Sol Trader].
+
+Listen and Subscribe from the following platforms:
+[Rust GameDev Podcast (simplecast)](https://rustgamedev.com/),
+[Apple Podcasts](https://podcasts.apple.com/gb/podcast/rust-game-dev/id1526304768),
+[Spotify](https://open.spotify.com/show/7HRfGnTcXkLkQd9fxJbDGj),
+[RSS Feed](https://feeds.simplecast.com/C6NQglnL),
+[Google Podcasts](https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zaW1wbGVjYXN0LmNvbS9DNk5RZ2xuTA).
+
+[podcast-3]: https://rustgamedev.com/episodes/interview-with-chris-parsons
+[Chris Parsons]: https://chrismdp.com
+[Sol Trader]: http://soltrader.net
+
 ## Last Call for [Rust GameDev Survey][survey]
 
 Our annual [Rust Game Development Ecosystem Survey][survey] will be closed
@@ -90,6 +111,62 @@ Some of this month's updates:
 
 [abstreet]: https://abstreet.org
 [abstreet-new-cities]: https://dabreegster.github.io/abstreet/howto/new_city.html
+
+### [Veloren][veloren]
+
+![Landscape](veloren_fly.jpg)
+_Endless mountains to explore_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In November, Veloren released 0.8! This is the largest version yet, with over
+50k lines of code added. GamingOnLinux wrote [an
+article][veloren-gamingonlinux-article] about the release. You can see the [full
+changelog here][veloren-0.8-changelog]. Veloren also spoke at MiniDebConf #2,
+you can watch [the recording here][veloren-minidebconf-talk]. In November, many
+improvements were made to the UI, with map and buff updates. During the 0.8 code
+freeze, many networking and combat bugs were fixed. The Veloren 0.8 release
+party took place on the 28th and saw a peak of 112 players online, doubling the
+previous record.
+
+[![Youtube preview img](veloren-gameplay-video.gif)][veloren-0.8-gameplay]
+_0.8 gameplay video_
+
+You can read more about specific topics from November:
+
+- [First Time Contributing](https://veloren.net/devblog-92#first-time-contributing-by-ubruntu)
+- [Community Spotlight](https://veloren.net/devblog-92#community-spotlight-kalculate)
+- [Performance Analysis](https://veloren.net/devblog-93#performance-analysis-with-xmac94x)
+- [0.8 Release Schedule](https://veloren.net/devblog-94#0-8-release-schedule)
+- [Veloren Trailer Competition](https://veloren.net/devblog-94#veloren-screenshot-trailer-competition)
+- [Chest of Goodies](https://veloren.net/devblog-94#chest-of-goodies-by-zesterer)
+- [Iced Transition](https://veloren.net/devblog-94#iced-transition-by-imbris)
+- [Particle Improvements](https://veloren.net/devblog-95#particle-improvements-by-timo)
+- [Animal Attacks and AI](https://veloren.net/devblog-95#animal-attacks-and-ai-by-slipped-and-james)
+- [Veloren 0.8 Launch](https://veloren.net/devblog-96#veloren-0-8-launch)
+- [What People Are Saying About The Launch](https://veloren.net/devblog-96#what-people-are-saying-about-the-launch)
+- [Idea Drop](https://veloren.net/devblog-96#idea-drop-by-u-o11c)
+
+November's full weekly devlogs: "This Week In Veloren...":
+[#92](https://veloren.net/devblog-92/),
+[#93](https://veloren.net/devblog-93/),
+[#94](https://veloren.net/devblog-94/),
+[#95](https://veloren.net/devblog-95/),
+[#96](https://veloren.net/devblog-96/),
+
+In December, work will begin on 0.9. There are some discussions about larger
+refactors in the codebase. Many new developers have joined and are getting up to
+speed on contributing. Veloren will also reach its 100th blog post!
+
+![Healing sceptre](veloren_adventure.jpg)
+_The start of an adventure_
+
+[veloren]: https://veloren.net
+[veloren-0.8-changelog]: https://gitlab.com/veloren/veloren/-/blob/master/CHANGELOG.md#080-2020-11-28
+[veloren-minidebconf-talk]: https://www.youtube.com/watch?v=76FPpOnshNw
+[veloren-gamingonlinux-article]: https://www.gamingonlinux.com/2020/11/inspired-by-the-likes-of-cube-world-open-source-rpg-veloren-has-the-biggest-update-yet
+[veloren-0.8-gameplay]: https://www.youtube.com/watch?v=TMYfrdiEJw4
 
 ### FBSim
 
@@ -130,6 +207,30 @@ engine to support named zones on the map.
 
 [Antorum Online]: https://ratwizard.dev/antorum
 [@dooskington]: https://twitter.com/dooskington
+
+### [Akigi][akigi]
+
+![Akiki butcher](akigi_butcher.jpg)
+_Akigi butcher skill_
+
+[Akigi][akigi] is a WIP online multiplayer game.
+
+In November, focus was put on gameplay. Prototyping of a butcher skill was done,
+which will allow for animals to be turned into raw resources. Support for
+rendering shadows in the MetalRenderer was added, bringing it one step closer to
+the WebGlRenderer. Lots of work was put into the ability to fire a bow. This
+spanned a few weeks, however enough functionaly was added for it to feel like a
+solid part of gameplay. It still requires some polish, however, which will be
+the focus of the beginning of December.
+
+Full devlogs:
+[#091](https://devjournal.akigi.com/november-2020/091-2020-11-01.html),
+[#092](https://devjournal.akigi.com/november-2020/092-2020-11-08.html),
+[#093](https://devjournal.akigi.com/november-2020/093-2020-11-15.html),
+[#094](https://devjournal.akigi.com/november-2020/094-2020-11-22.html),
+[#095](https://devjournal.akigi.com/november-2020/095-2020-11-29.html).
+
+[akigi]: https://akigi.com
 
 ### [rymd]
 
@@ -200,7 +301,58 @@ Exciting new additions have been made in November!
 [new armor system]: https://twitter.com/carlosupina/status/1331680041453953025
 [Missile Launcher enemy]: https://github.com/amethyst/space_shooter_rs/pull/93
 
+### [Game Off 2020][go-2020]
+
+[Game Off][go-2020] is an annual game jam, where participants spend the month
+of November creating games based on a secret theme.
+
+Game Off 2020 theme was "MOONSHOT".
+Here are some of the games made with Rust:
+
+- ["War of the Moons"][go-wotm] by [@FrancoisMockers]
+  ([source code][go-wotm-src]).
+
+  > Your goal is to conquer the planet, but it's not possible until you
+  > control all the moons. The end result is not completly what I wanted,
+  > but it was a nice occasion to try [rapier] for physics and [lyon] to draw
+  > shapes from [bevy].
+
+  ![gameplay](go-wotm.png)
+
+[go-2020]: https://itch.io/jam/game-off-2020
+[go-wotm]: https://vleue.itch.io/wotm
+[go-wotm-src]: https://github.com/mockersf/wotm
+[@FrancoisMockers]: https://twitter.com/FrancoisMockers
+[rapier]: https://rapier.rs
+[lyon]: https://github.com/nical/lyon
+[bevy]: https://bevyengine.org
+
 ## Learning Material Updates
+
+### [Hands-on Rust][hands-on-rust]
+
+[![Hands-On Rust](hands-on-rust.jpg)][hands-on-rust]
+
+["Hands-on Rust: Effective Learning through 2D Game Development and Play"][hands-on-rust]
+by Herbert Wolverson is now in beta. The book teaches Rust through game development
+examples, and is targeted at readers who have some experience with writing code
+in other languages. It teaches beginner to intermediate-level Rust. It also teaches
+high-level gamedev concepts, notably Entity-Component System (ECS) theory.
+
+After walking you through installing Rust, a few simple examples teach the language
+basics. Then you put these together to make "Flappy Dragon" - a simple Flappy Bird
+clone. The book then changes gear and begins to build a dungeon crawler (roguelike)
+with tile graphics. The first beta walks you through the basics, "Flappy Dragon"
+and making an ECS-based dungeon crawler skeleton - focused on teaching basic Rust,
+ECS composition and control flow. Beta 2 added health, a heads-up display, combat
+and win/lose conditions - focused on making the user comfortable with Rust's
+amazing iterator system. Beta 3 will add fields-of-view, more dungeon designs and
+map theming - focused on teaching trait use and creation.
+
+Beta 1 launched November 11th, Beta 2 launched November 25th. The next beta is
+expected December 8th.
+
+[hands-on-rust]: https://pragprog.com/titles/hwrust/hands-on-rust/
 
 ### [ECS scheduler thoughts, part 1]
 
@@ -252,6 +404,18 @@ You can learn more [on the Learn Wgpu news page][learn-wgpu-news].
 [@kanerogers]: https://github.com/kanerogers
 
 ## Library & Tooling Updates
+
+### [cargo-mobile]
+
+[![Bevy's Breakout example running on an iPhone XR](cargo-mobile.jpg)][cargo-mobile]
+_Bevy's Breakout example running on an iPhone XR_
+
+[cargo-mobile] is a tool created by [Brainium Studios] to simplify Rust mobile
+development. It generates Xcode and Android Studio projects, and provides handy
+commands for building and deploying apps to iOS and Android devices.
+
+[cargo-mobile]: https://dev.brainiumstudios.com/2020/11/24/cargo-mobile.html
+[Brainium Studios]: http://www.brainiumstudios.com/site/index.html
 
 ### [profiling]
 
@@ -316,6 +480,59 @@ _Discussions:
 [vlmutolo]: https://www.reddit.com/r/rust/comments/jx32e8/rkyv_02_and_bytecheck_validation_mutable_archives/gcyfoqc
 [toy benchmark]: https://git.sr.ht/~vlmutolo/rkyv-bench/tree/master/src/main.rs
 [architecture and internals of rkyv]: https://davidkoloski.me/blog/rkyv-architecture/
+
+### [assets_manager] v0.4
+
+[assets_manager] provides an convenient way to work with external files, making
+ressources caching and hot-reloading easy and straightforward.
+
+This month was released version 0.4.0, bringing loads of improvements.
+
+- A `Source` trait, to load assets from anywhere. It makes the crate usable in
+  WebAssembly.
+- Assets that can load other assets, with a transparent integration with
+  hot-reloading. Using a manifest file has never been so easy !
+- Improved perfomances
+- See the [full changelog][assets_manager_log] for more informations.
+
+[assets_manager]: https://github.com/a1phyr/assets_manager
+[assets_manager_log]: https://github.com/a1phyr/assets_manager/releases/tag/v0.4.0
+
+### [Terra Mach][terramach]
+
+![Dashboard demo](terramach.gif)
+_Terra Mach dashboard demo_
+
+[Terra Mach][terramach] is a mapping frontend system to build graphical interfaces
+for devices. It focuses on experiences around statistical data (graphs, diagrams),
+mapping, and user input. When it comes to user experience, elements a user
+interacts with are flexible enough to build many common experiences. Terra Mach
+is highly inspired by Flutter. It leverages graphics library Skia to enable
+highly performant 2D graphics.
+
+[terramach]: https://github.com/lykhonis/terramach
+
+### [glam]
+
+[glam] is a simple and fast linear algebra crate for games and graphics.
+
+This month version 0.11.2 was released. There were a number of important changes
+since the last newsletter.
+
+The vector accessor methods for setting and getting individual vector elements
+were replaced with direct access support. This means that now instead of needing
+to use `.x()`, `.set_x(x)` or `.mut_x() = x` the element may be accessed
+directly via `.x = x` and so on.
+
+The reason that this was not done originally was that some types are backed by
+SIMD types which do not support direct access. For these types direct access is
+now supported with `Deref` and `DerefMut` implementations.
+
+The direct access support was added in version 0.10.1 along side the accessor
+methods. The accessor methods were deprecated in 0.10.2 and  have been removed
+in 0.11.0.
+
+[glam]: https://github.com/bitshifter/glam-rs
 
 ### [Rapier]
 
@@ -441,6 +658,40 @@ most of the updated [WebGPU samples][wgpu-samples].
 [gpu-descriptor]: https://github.com/zakarumych/gpu-descriptor
 [wgpu-samples]: https://austineng.github.io/webgpu-samples
 
+### [Iced] v0.2
+
+![Iced - Game of Life example](iced-game-of-life.gif)
+_The new [Game of Life example], made with Iced_
+
+Iced is an experimental cross-platform GUI library focused on simplicity and
+type-safety. Inspired by [Elm].
+
+[A new minor version] was released this month containing a bunch of
+improvements:
+
+- An OpenGL renderer powered by [`glow`] and [`glutin`]. It is an alternative to
+  the default [`wgpu`] renderer.
+- A trait-based approach to react to mouse and keyboard interactions in the
+  `Canvas` widget.
+- Basic overlay support, allowing the superposition of interactive widgets on
+  top of other widgets.
+- A drop-down selector widget built on top of the overlay support.
+- A widget that displays a QR code, powered by [`qrcode`].
+- Additional internal enhancements, like event capturing and a faster event
+  loop.
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/k1hkxq/iced_a_crossplatform_gui_library_new_release/)_
+
+[A new minor version]: https://github.com/hecrj/iced/pull/637
+[Iced]: https://github.com/hecrj/iced
+[Game of Life example]: https://github.com/hecrj/iced/tree/0.2/examples/game_of_life
+[Elm]: https://elm-lang.org
+[`glow`]: https://github.com/grovesNL/glow
+[`glutin`]: https://github.com/rust-windowing/glutin
+[`qrcode`]: https://github.com/kennytm/qrcode-rust
+[`wgpu`]: https://github.com/gfx-rs/wgpu-rs
+
 ### [KAS] v0.6 and [KAS-text] v0.2
 
 ![KAS markdown](kas-markdown.png)
@@ -459,6 +710,35 @@ rich text (bold, italic, underline, size and some layout improvements).
 [KAS]: https://github.com/kas-gui/kas
 [KAS-text]: https://github.com/kas-gui/kas-text
 [@dhardy]: https://github.com/dhardy
+
+### [miniquad]
+
+![miniquad_wayland](miniquad_kms.gif)
+_Miniquad running on raspberry pi 4 with a SPI screen._
+
+[miniquad] is cross-platform windowing and rendering library.
+
+This month [KMS] [PR][kms-pr] landed on miniquad.
+Now miniquad can run on without neither X11 or Wayland,
+right on the linux kernel with KMS.
+
+[miniquad]: https://github.com/not-fl3/miniquad
+[KMS]: https://www.kernel.org/doc/html/v4.15/gpu/drm-kms.html
+[kms-pr]: https://github.com/not-fl3/miniquad/pull/158
+
+### [macroquad]
+
+![macroquad_particles](macroquad_particles.gif)
+_Small editor footage._
+
+[macroquad] is a cross-platform (Windows/Linux/macOS/Android/iOS/WASM)
+game framework built on top of [miniquad].
+
+This month macroquad got particle system editor aiming for simple 2d pixel-art
+style effects: [try it out online here][macroquad-particles].
+
+[macroquad]: https://github.com/not-fl3/macroquad
+[macroquad-particles]: https://fedorgames.itch.io/macroquad-particles
 
 ### [Dotrix]
 
