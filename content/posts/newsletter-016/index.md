@@ -271,6 +271,20 @@ _Discussions:
 [toy benchmark]: https://git.sr.ht/~vlmutolo/rkyv-bench/tree/master/src/main.rs
 [architecture and internals of rkyv]: https://davidkoloski.me/blog/rkyv-architecture/
 
+### [Terra Mach][terramach]
+
+![Dashboard demo](terramach.gif)
+_Terra Mach dashboard demo_
+
+[Terra Mach][terramach] is a mapping frontend system to build graphical interfaces
+for devices. It focuses on experiences around statistical data (graphs, diagrams),
+mapping, and user input. When it comes to user experience, elements a user
+interacts with are flexible enough to build many common experiences. Terra Mach
+is highly inspired by Flutter. It leverages graphics library Skia to enable
+highly performant 2D graphics.
+
+[terramach]: https://github.com/lykhonis/terramach
+
 ### [rib]
 
 ![rib](rib.gif)
@@ -444,20 +458,6 @@ build and release a [bevy] game to itch.io for Linux, macOS, Windows and WASM.
 [onnx]: https://onnx.ai
 [bevy]: https://bevyengine.org
 [tract]: https://github.com/sonos/tract
-
-### [Terra Mach][terramach]
-
-![Dashboard demo](terramach.gif)
-_Terra Mach dashboard demo_
-
-Terra Mach is a mapping frontend system to build graphical interfaces for
-devices. It focuses on experiences around statistical data (graphs, diagrams),
-mapping, and user input. When it comes to user experience, elements a user
-interacts with are flexible enough to build many common experiences. Terra Mach
-is highly inspired by Flutter. It leverages graphics library Skia to enable
-highly performant 2D graphics.
-
-[terramach]: https://github.com/lykhonis/terramach
 
 ## Popular Workgroup Issues in Github
 
