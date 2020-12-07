@@ -884,6 +884,15 @@ build and release a [bevy] game to itch.io for Linux, macOS, Windows and WASM.
 [bevy]: https://bevyengine.org
 [tract]: https://github.com/sonos/tract
 
+### [winit]
+
+[winit] is looking for a new web platform maintainer! If you're
+interested, or know anyone who is, you can reach out via the
+[tracking issue][call for web maintainer].
+
+[winit]: https://github.com/rust-windowing/winit
+[call for web maintainer]: https://github.com/rust-windowing/winit/issues/1777
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
