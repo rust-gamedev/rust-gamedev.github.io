@@ -304,6 +304,18 @@ You can learn more [on the Learn Wgpu news page][learn-wgpu-news].
 
 ## Library & Tooling Updates
 
+### [cargo-mobile]
+
+[![Bevy's Breakout example running on an iPhone XR](cargo-mobile.jpg)][cargo-mobile]
+_Bevy's Breakout example running on an iPhone XR_
+
+[cargo-mobile] is a tool created by [Brainium Studios] to simplify Rust mobile
+development. It generates Xcode and Android Studio projects, and provides handy
+commands for building and deploying apps to iOS and Android devices.
+
+[cargo-mobile]: https://dev.brainiumstudios.com/2020/11/24/cargo-mobile.html
+[Brainium Studios]: http://www.brainiumstudios.com/site/index.html
+
 ### [profiling]
 
 This month, [profiling] was released on crates.io. This crate provides a very
