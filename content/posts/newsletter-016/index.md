@@ -91,6 +91,62 @@ Some of this month's updates:
 [abstreet]: https://abstreet.org
 [abstreet-new-cities]: https://dabreegster.github.io/abstreet/howto/new_city.html
 
+### [Veloren][veloren]
+
+![Landscape](veloren_fly.jpg)
+_Endless mountains to explore_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In November, Veloren released 0.8! This is the largest version yet, with over
+50k lines of code added. GamingOnLinux wrote [an
+article][veloren-gamingonlinux-article] about the release. You can see the [full
+changelog here][veloren-0.8-changelog]. Veloren also spoke at MiniDebConf #2,
+you can watch [the recording here][veloren-minidebconf-talk]. In November, many
+improvements were made to the UI, with map and buff updates. During the 0.8 code
+freeze, many networking and combat bugs were fixed. The Veloren 0.8 release
+party took place on the 28th and saw a peak of 112 players online, doubling the
+previous record.
+
+[![Youtube preview img](veloren-gameplay-video.gif)][veloren-0.8-gameplay]
+_0.8 gameplay video_
+
+You can read more about specific topics from November:
+
+- [First Time Contributing](https://veloren.net/devblog-92#first-time-contributing-by-ubruntu)
+- [Community Spotlight](https://veloren.net/devblog-92#community-spotlight-kalculate)
+- [Performance Analysis](https://veloren.net/devblog-93#performance-analysis-with-xmac94x)
+- [0.8 Release Schedule](https://veloren.net/devblog-94#0-8-release-schedule)
+- [Veloren Trailer Competition](https://veloren.net/devblog-94#veloren-screenshot-trailer-competition)
+- [Chest of Goodies](https://veloren.net/devblog-94#chest-of-goodies-by-zesterer)
+- [Iced Transition](https://veloren.net/devblog-94#iced-transition-by-imbris)
+- [Particle Improvements](https://veloren.net/devblog-95#particle-improvements-by-timo)
+- [Animal Attacks and AI](https://veloren.net/devblog-95#animal-attacks-and-ai-by-slipped-and-james)
+- [Veloren 0.8 Launch](https://veloren.net/devblog-96#veloren-0-8-launch)
+- [What People Are Saying About The Launch](https://veloren.net/devblog-96#what-people-are-saying-about-the-launch)
+- [Idea Drop](https://veloren.net/devblog-96#idea-drop-by-u-o11c)
+
+November's full weekly devlogs: "This Week In Veloren...":
+[#92](https://veloren.net/devblog-92/),
+[#93](https://veloren.net/devblog-93/),
+[#94](https://veloren.net/devblog-94/),
+[#95](https://veloren.net/devblog-95/),
+[#96](https://veloren.net/devblog-96/),
+
+In December, work will begin on 0.9. There are some discussions about larger
+refactors in the codebase. Many new developers have joined and are getting up to
+speed on contributing. Veloren will also reach its 100th blog post!
+
+![Healing sceptre](veloren_adventure.jpg)
+_The start of an adventure_
+
+[veloren]: https://veloren.net
+[veloren-0.8-changelog]: https://gitlab.com/veloren/veloren/-/blob/master/CHANGELOG.md#080-2020-11-28
+[veloren-minidebconf-talk]: https://www.youtube.com/watch?v=76FPpOnshNw
+[veloren-gamingonlinux-article]: https://www.gamingonlinux.com/2020/11/inspired-by-the-likes-of-cube-world-open-source-rpg-veloren-has-the-biggest-update-yet
+[veloren-0.8-gameplay]: https://www.youtube.com/watch?v=TMYfrdiEJw4
+
 ### FBSim
 
 ![FBSim initial version](fbsim.png)
@@ -111,6 +167,46 @@ _Discussions:
 [github repo]: https://github.com/IanTayler/fbsim
 [Ian Tayler]: https://iantayler.com
 [tutorial]: https://iantayler.com/2020/11/22/fbsim-football-playing-ai-agents-in-rust/
+
+### [Antorum Online]
+
+![Two players fishing at the beach](antorum-online-11-25-2020.gif)
+
+Antorum Online is a micro-multiplayer online role-playing game by [@dooskington].
+The game server is written in Rust, and the official client is being developed in
+Unity.
+
+Many important changes and new features were implemented this month. Players can
+now harvest plants and go fishing! There were also some tweaks to the world
+engine to support named zones on the map.
+
+- [23: Herbology](https://ratwizard.dev/dev-log/antorum/23)
+- [24: Fishing](https://ratwizard.dev/dev-log/antorum/24)
+- [25: Zones](https://ratwizard.dev/dev-log/antorum/25)
+
+[Antorum Online]: https://ratwizard.dev/antorum
+[@dooskington]: https://twitter.com/dooskington
+
+### [rymd]
+
+![rymd animated combat v2](rymd_2020_12_02.gif)
+
+[rymd] by [@_profan] is a space shooter prototype made with [macroquad].
+
+Intended as a test platform for trying out rust for prototyping games and
+particularly for game AI programming purposes.
+
+Development started at the end of October, recent additions include:
+
+- Dynamic ship debris based on slicing source sprites into chunks.
+- New hostile ship type, (ranger), which fires seeking missiles.
+- New support ship type, (tech), which repairs friendly ships.
+- Toggleable hitbox visualization.
+- Still far too many particles.
+
+[macroquad]: https://github.com/not-fl3/macroquad
+[@_profan]: https://twitter.com/_profan
+[rymd]: https://profan.itch.io/rymd
 
 ### [Shotcaller]
 
@@ -135,7 +231,83 @@ Contributions welcome: [try add a new Leader][shotcaller-issue-leader].
 [shotcaller-web]: https://shotcaller.jojolepro.com/
 [shotcaller-issue-leader]: https://github.com/amethyst/shotcaller/issues/6
 
+### [Space Shooter]
+
+![space_shooter_rs gameplay](space_shooter_12-03-2020.gif)
+
+The [Space Shooter] project is a game in development by [Carlo Supina] and
+[Micah Tigley]. It is a 2D "shoot-em-up" game that takes place in space and is
+inspired by games like [Raiden] and [Binding of Isaac].
+
+Exciting new additions have been made in November!
+
+- Micah added a ["paused" text overlay] to provide visual indication for when
+  the game is paused.
+- Carlo added a [new armor system] that gives a chance for destroyed enemies to
+  drop armor consumables that can block a single hit from any damage source.
+- Work on a new [Missile Launcher enemy] has begun!
+
+[Space Shooter]: https://github.com/amethyst/space_shooter_rs
+[Carlo Supina]: https://twitter.com/carlosupina
+[Micah Tigley]: https://twitter.com/micah_tigley
+[Raiden]: https://wikipedia.org/wiki/Raiden_(video_game)
+[Binding of Isaac]: https://wikipedia.org/wiki/The_Binding_of_Isaac_(video_game)
+["paused" text overlay]: https://snipboard.io/ql60oz.jpg
+[new armor system]: https://twitter.com/carlosupina/status/1331680041453953025
+[Missile Launcher enemy]: https://github.com/amethyst/space_shooter_rs/pull/93
+
+### [Game Off 2020][go-2020]
+
+[Game Off][go-2020] is an annual game jam, where participants spend the month
+of November creating games based on a secret theme.
+
+Game Off 2020 theme was "MOONSHOT".
+Here are some of the games made with Rust:
+
+- ["War of the Moons"][go-wotm] by [@FrancoisMockers]
+  ([source code][go-wotm-src]).
+
+  > Your goal is to conquer the planet, but it's not possible until you
+  > control all the moons. The end result is not completly what I wanted,
+  > but it was a nice occasion to try [rapier] for physics and [lyon] to draw
+  > shapes from [bevy].
+
+  ![gameplay](go-wotm.png)
+
+[go-2020]: https://itch.io/jam/game-off-2020
+[go-wotm]: https://vleue.itch.io/wotm
+[go-wotm-src]: https://github.com/mockersf/wotm
+[@FrancoisMockers]: https://twitter.com/FrancoisMockers
+[rapier]: https://rapier.rs
+[lyon]: https://github.com/nical/lyon
+[bevy]: https://bevyengine.org
+
 ## Learning Material Updates
+
+### [Hands-on Rust][hands-on-rust]
+
+[![Hands-On Rust](hands-on-rust.jpg)][hands-on-rust]
+
+["Hands-on Rust: Effective Learning through 2D Game Development and Play"][hands-on-rust]
+by Herbert Wolverson is now in beta. The book teaches Rust through game development
+examples, and is targeted at readers who have some experience with writing code
+in other languages. It teaches beginner to intermediate-level Rust. It also teaches
+high-level gamedev concepts, notably Entity-Component System (ECS) theory.
+
+After walking you through installing Rust, a few simple examples teach the language
+basics. Then you put these together to make "Flappy Dragon" - a simple Flappy Bird
+clone. The book then changes gear and begins to build a dungeon crawler (roguelike)
+with tile graphics. The first beta walks you through the basics, "Flappy Dragon"
+and making an ECS-based dungeon crawler skeleton - focused on teaching basic Rust,
+ECS composition and control flow. Beta 2 added health, a heads-up display, combat
+and win/lose conditions - focused on making the user comfortable with Rust's
+amazing iterator system. Beta 3 will add fields-of-view, more dungeon designs and
+map theming - focused on teaching trait use and creation.
+
+Beta 1 launched November 11th, Beta 2 launched November 25th. The next beta is
+expected December 8th.
+
+[hands-on-rust]: https://pragprog.com/titles/hwrust/hands-on-rust/
 
 ### [ECS scheduler thoughts, part 1]
 
@@ -187,6 +359,18 @@ You can learn more [on the Learn Wgpu news page][learn-wgpu-news].
 [@kanerogers]: https://github.com/kanerogers
 
 ## Library & Tooling Updates
+
+### [cargo-mobile]
+
+[![Bevy's Breakout example running on an iPhone XR](cargo-mobile.jpg)][cargo-mobile]
+_Bevy's Breakout example running on an iPhone XR_
+
+[cargo-mobile] is a tool created by [Brainium Studios] to simplify Rust mobile
+development. It generates Xcode and Android Studio projects, and provides handy
+commands for building and deploying apps to iOS and Android devices.
+
+[cargo-mobile]: https://dev.brainiumstudios.com/2020/11/24/cargo-mobile.html
+[Brainium Studios]: http://www.brainiumstudios.com/site/index.html
 
 ### [profiling]
 
@@ -251,6 +435,23 @@ _Discussions:
 [vlmutolo]: https://www.reddit.com/r/rust/comments/jx32e8/rkyv_02_and_bytecheck_validation_mutable_archives/gcyfoqc
 [toy benchmark]: https://git.sr.ht/~vlmutolo/rkyv-bench/tree/master/src/main.rs
 [architecture and internals of rkyv]: https://davidkoloski.me/blog/rkyv-architecture/
+
+### [assets_manager] v0.4
+
+[assets_manager] provides an convenient way to work with external files, making
+ressources caching and hot-reloading easy and straightforward.
+
+This month was released version 0.4.0, bringing loads of improvements.
+
+- A `Source` trait, to load assets from anywhere. It makes the crate usable in
+  WebAssembly.
+- Assets that can load other assets, with a transparent integration with
+  hot-reloading. Using a manifest file has never been so easy !
+- Improved perfomances
+- See the [full changelog][assets_manager_log] for more informations.
+
+[assets_manager]: https://github.com/a1phyr/assets_manager
+[assets_manager_log]: https://github.com/a1phyr/assets_manager/releases/tag/v0.4.0
 
 ### [rib]
 
@@ -367,6 +568,39 @@ style effects: [try it out online here][macroquad-particles].
 [macroquad]: https://github.com/not-fl3/macroquad
 [macroquad-particles]: https://fedorgames.itch.io/macroquad-particles
 
+### [Dotrix]
+
+![Animated low-poly character rendered by Dotrix](dotrix-rendering.png)
+_A screenshot of running low-poly female model_
+
+The goal of [Dotrix] is to become a 3D engine for the new RPG project. The
+engine is free and open source, delivering a set of common high-level features
+like skeletal animation, skybox, terrain, camera controlling, input mapping and
+many others. It is built on top of the
+[wgpu](https://github.com/gfx-rs/wgpu-rs/) with an ECS core which is a part of
+the engine.
+
+Currently supported features:
+
+- Linear ECS with systems as simple functions, that can have optional context
+- Import of textures from PNG files
+- Import of multiple assets from GLTF files (textures, meshes, skins and
+animations)
+- FPS and delta time counters
+- Rendering of meshes and simple scenes with light and camera controls
+- Rendering of skeletal animations
+- 3 showcase demo applications
+
+Next in sprint:
+
+- Input management and mapping
+- Full camera control with mouse
+- Skybox renderer
+
+[Dotrix]: https://github.com/lowenware/dotrix
+[Developer's Twitter]: https://twitter.com/lowenware
+[Developer's Discrod]: https://discord.gg/DrzwBysNRd
+
 ### [Tetra]
 
 [Tetra] is a simple 2D game framework, inspired by XNA and Raylib. This month,
@@ -391,6 +625,57 @@ has also been updated to show the new helpers in action.
 [ogmo3]: https://github.com/17cupsofcoffee/ogmo3
 [Ogmo Editor 3]: https://ogmo-editor-3.github.io/
 [ogmo3-sample]: https://github.com/17cupsofcoffee/ogmo3/blob/main/examples/sample.rs
+
+### [ggez]
+
+![lot's of overlapping bunnies](ggez-bun.png)
+_ggez bunnymark - 60,000 buns at 60 FPS_
+
+[ggez] is a 2D game framework inspired by Love2D. The project is chugging
+along getting everything prepared for a 0.6 release at the end of 2020,
+and a lot of work has been done in the last month:
+
+- All major dependencies have been updated, including a long-overdue
+  update to `winit` 0.23.
+- Over a dozen pull requests have been merged, large and small.
+- A bunch of old issues have been cleaned up.
+
+Major features to look forward to include far better math performance, a
+`MeshBatch` type, better ergonomics on Linux Wayland, and more. There's
+lots of work still to be done though. A bunch of issues are out of date
+and need triage, docs need to be proofread, and especially examples need
+be updated and tested on every platform imaginable. Try out the `devel`
+branch and give it a go!
+
+[ggez]: https://github.com/ggez/ggez/
+
+### [rg3d]
+
+[![a scene with lightning and multiple hi-poly character models](rg3d_instancing.jpg)][rg3d_twit]
+
+[rg3d] is a game engine that aims to be easy to use and provide large set
+of out-of-box features. Some of the recent updates:
+
+- Migrated to nalgebra from custom linear algebra.
+- Replaced custom physics engine with Rapier.
+- Implemented sound backend for macOS.
+- Environment mapping - now objects can have reflections.
+- Implemented geometry instancing - now you can render tons of objects with
+low overhead.
+- Performance improvements.
+- Added [gobo] for spot lights.
+- Added CPU lightmapper - it is possible now to "bake" static lighting
+into a texture to improve performance.
+- Lots of other bugfixes and improvements.
+
+Join the [rg3d's Discord channel][rg3d_discord]
+or follow [Dmitry Stepanov on twitter][rg3d_twitter].
+
+[rg3d]: https://github.com/mrDIMAS/rg3d
+[rg3d_twit]: https://twitter.com/DmitryS36934349/status/1328797761874046977
+[rg3d_discord]: https://discord.gg/xENF5Uh
+[rg3d_twitter]: https://twitter.com/DmitryS36934349
+[gobo]: https://en.wikipedia.org/wiki/Gobo_(lighting)
 
 ### [F1 Telemetry TUI]
 
