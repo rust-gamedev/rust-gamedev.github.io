@@ -819,6 +819,24 @@ rich text (bold, italic, underline, size and some layout improvements).
 [KAS-text]: https://github.com/kas-gui/kas-text
 [@dhardy]: https://github.com/dhardy
 
+### [Egui][egui] v0.4
+
+![online demo](egui.png)
+
+[Egui] is a highly portable immediate mode GUI library in pure Rust.
+This month a [v0.4.0 version][egui-v0-4] was released
+with much improved text editing, and many bugfixes.
+Check out an [updated online demo][egui-demo].
+
+Also, [egui_web] v0.4.0 was released, with a simple fetch API \-
+[online example][egui-web-example].
+
+[Egui]: https://github.com/emilk/egui
+[egui-demo]: https://emilk.github.io/egui
+[egui_web]: https://lib.rs/egui_web
+[egui-web-example]: https://emilk.github.io/egui/example.html
+[egui-v0-4]: https://github.com/emilk/egui/blob/master/CHANGELOG.md#040---2020-11-28
+
 ### [miniquad]
 
 ![miniquad_wayland](miniquad_kms.gif)
