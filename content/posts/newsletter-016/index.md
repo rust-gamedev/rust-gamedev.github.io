@@ -554,9 +554,9 @@ _Discussions:
 ### [assets_manager] v0.4
 
 [assets_manager] provides a convenient way to work with external files, making
-ressources caching and hot-reloading easy and straightforward.
+resources caching and hot-reloading easy and straightforward.
 
-This month was released version 0.4.0, bringing loads of improvements.
+Version 0.4.0 was released this month, bringing loads of improvements.
 
 - A `Source` trait, to load assets from anywhere. It makes the crate usable in
   WebAssembly.
