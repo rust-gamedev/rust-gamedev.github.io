@@ -619,6 +619,29 @@ interested, or know anyone who is, you can reach out via the
 [winit]: https://github.com/rust-windowing/winit
 [winit-call]: https://github.com/rust-windowing/winit/issues/1777
 
+### [Fluffl][fluffl]
+
+[Fluffl][fluffl] is a WIP generic media layer for graphics, IO, and audio
+for desktop and the browser.
+
+> The only reason I wrote this crate at all was because I personally wanted
+> to just have a generic interface were I can just write my OpenGL apps once
+> and have that build to both desktop and the browser
+> with little to no modification to source code.
+
+Two demos are aviable atm:
+
+- Basic graphics (using raw opengl via "glow" crate) and audio demo:
+  [here][fluffl-demo-1].
+- Breakout clone demo: [here][fluffl-demo-2].
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust_gamedev/comments/jthdoq/fluffl_a_multimedia_layer)_
+
+[fluffl]: https://github.com/K-C-DaCosta/fluffl
+[fluffl-demo-1]: https://k-c-dacosta.github.io/wasm_bins/examples/audio_ex_1/
+[fluffl-demo-2]: https://k-c-dacosta.github.io/wasm_bins/examples/brick_demo/
+
 ### [Rapier]
 
 [![Rapier logo](rapier-logo.svg)][Rapier]
