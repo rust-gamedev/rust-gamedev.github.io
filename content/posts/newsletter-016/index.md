@@ -534,6 +534,17 @@ in 0.11.0.
 
 [glam]: https://github.com/bitshifter/glam-rs
 
+### [winit]
+
+[winit] is a cross-platform window creation and event loop management library.
+
+winit is looking for a new web platform maintainer! If you're
+interested, or know anyone who is, you can reach out via the
+[tracking issue][winit-call].
+
+[winit]: https://github.com/rust-windowing/winit
+[winit-call]: https://github.com/rust-windowing/winit/issues/1777
+
 ### [Rapier]
 
 [![Rapier logo](rapier-logo.svg)][Rapier]
@@ -883,17 +894,6 @@ build and release a [bevy] game to itch.io for Linux, macOS, Windows and WASM.
 [onnx]: https://onnx.ai
 [bevy]: https://bevyengine.org
 [tract]: https://github.com/sonos/tract
-
-### [winit]
-
-[winit] is a cross-platform window creation and event loop management library.
-
-winit is looking for a new web platform maintainer! If you're
-interested, or know anyone who is, you can reach out via the
-[tracking issue][winit-call].
-
-[winit]: https://github.com/rust-windowing/winit
-[winit-call]: https://github.com/rust-windowing/winit/issues/1777
 
 ## Popular Workgroup Issues in Github
 
