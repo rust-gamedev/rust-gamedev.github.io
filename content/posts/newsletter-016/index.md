@@ -913,6 +913,20 @@ details and a list of breaking changes, see the [changelog][tetra-changelog].
 [tetra]: https://github.com/17cupsofcoffee/tetra
 [tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
 
+### [Old Gods][old-gods]
+
+![logo](old-gods-logo.png)
+
+[Old Gods][old-gods] is an WIP game engine meant for games
+targeting the web and SDL2.
+It reads Tiled map files into a specs based entity component system.
+Rendering is handled by HtmlCanvasElement or the built in SDL2 renderer.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/k25hh8/the_old_gods_game_engine)_
+
+[old-gods]: https://github.com/schell/old-gods
+
 ### [ogmo3]
 
 [ogmo3] is a Rust crate for parsing projects and levels created with
