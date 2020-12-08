@@ -303,6 +303,8 @@ Exciting new additions have been made in November!
 
 ### [Game Off 2020][go-2020]
 
+![game off logo](gh-gameoff.png)
+
 [Game Off][go-2020] is an annual game jam, where participants spend the month
 of November creating games based on a secret theme.
 
@@ -310,7 +312,7 @@ Game Off 2020 theme was "MOONSHOT".
 Here are some of the games made with Rust:
 
 - ["War of the Moons"][go-wotm] by [@FrancoisMockers]
-  ([source code][go-wotm-src]).
+  made with [bevy] ([source code][go-wotm-src]).
 
   > Your goal is to conquer the planet, but it's not possible until you
   > control all the moons. The end result is not completly what I wanted,
@@ -319,6 +321,28 @@ Here are some of the games made with Rust:
 
   ![gameplay](go-wotm.png)
 
+- ["Starlight 1961"][go-starlight1961] by [@grzi]
+  made with [amethyst] ([source code][go-starlight-src]).
+
+  > A die and retry landing game where you control a spaceship, its fuel and health
+  > inside 10 different levels. Each level is made up of ennemies (cannons,
+  > plasma doors, saw blades, etc.), bonuses (fuel, health) and coins.
+
+  [@grzi] also published a devlog post:
+  ["My journey into Github GameOff 2020"][go-starlight-post].
+
+  ![gameplay](starlight-1961.png)
+
+- ["Everfight"][go-everfight] by [@SnoozeTime]
+  made with [luminance] ([source code][go-everfight-src]).
+
+  > Battle hordes of human spaceships in order to reach the moon.
+  > Wave after wave, the enemy becomes stronger.
+  > Unlock infinite mode once you finished the game and try to beat
+  > your personal record.
+
+  ![gameplay](everfight.jpg)
+
 [go-2020]: https://itch.io/jam/game-off-2020
 [go-wotm]: https://vleue.itch.io/wotm
 [go-wotm-src]: https://github.com/mockersf/wotm
@@ -326,21 +350,15 @@ Here are some of the games made with Rust:
 [rapier]: https://rapier.rs
 [lyon]: https://github.com/nical/lyon
 [bevy]: https://bevyengine.org
-
-- ["Starlight 1961"][go-starlight1961] by [@grzi]
-  ([source code][go-starlight-src]).
-
-  > A die and retry landing game where you control a spaceship, its fuel and health
-  > inside 10 different levels. Each level is made up of ennemies (cannons,
-  > plasma doors, saw blades, etc.), bonuses (fuel, health) and coins.
-  > It was made with [amethyst]
-
-  ![gameplay](starlight-1961.png)
-
-[go-starlight1961]: https://itch.io/jam/game-off-2020/rate/837014
-[go-starlight-src]: https://github.com/grzi/starlight-1961
+[go-starlight1961]: https://grzi.itch.io/starlight-1961
 [@grzi]: https://twitter.com/JeremyThulliez
+[go-starlight-src]: https://github.com/grzi/starlight-1961
+[go-starlight-post]: https://www.wootlab.io/blog/my-journey-into-github-gameoff-2020
 [amethyst]: https://amethyst.rs
+[go-everfight]: https://snoozetime.itch.io/everfight-gameoff2020
+[go-everfight-src]: https://github.com/SnoozeTime/spacegame
+[luminance]: https://github.com/phaazon/luminance-rs
+[@SnoozeTime]: https://github.com/SnoozeTime
 
 ## Learning Material Updates
 
@@ -368,6 +386,47 @@ Beta 1 launched November 11th, Beta 2 launched November 25th. The next beta is
 expected December 8th.
 
 [hands-on-rust]: https://pragprog.com/titles/hwrust/hands-on-rust/
+
+### [Why Rust is the Future of GameDev][why-rust-future]
+
+[@thefuntastic] published an article detailing why Rust has the potential
+to be significant for the future of programming in games:
+the origins of the language, overview of the main technical features,
+why Rust's popularity grows, the state of the ecosystem,
+main challenges lying ahead, and links
+to some Rust gamedev resources and communities.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/jqux1s/why_rust_is_the_future_of_game_development),
+[hacker news](https://news.ycombinator.com/item?id=25037147)_
+
+[why-rust-future]: https://thefuntastic.com/blog/why-rust-is-the-future-game-dev
+[@thefuntastic]: https://thefuntastic.com
+
+### [How to Build a Multiplayer Game][talk-dns2utf8-video]
+
+[![A screenshot from the talk](talk-multiplayer-game.jpg)][talk-dns2utf8-video]
+_You can [watch the recording here][talk-dns2utf8-video]._
+
+This month, [@dns2utf8] gave a [talk][talk-dns2utf8-video] about
+how to build a multiplayer game with actix-web that people with
+any modern browser shipping JavaScript, Canvas Context2D and Websocket can play.
+
+> How coding a system with so many independently moving parts is less about
+> the bits and bytes but more about the high-level capabilities rust offers.
+> In this talk Stefan Schindler @dns2utf8 focused on how he designed
+> the whole system from concept to implementation including
+> hosting it on a CO2 neutral server.
+
+You can play the MultiPlayer Snake game itself on [mps.estada.ch].
+
+Also, a [follow-up text note][talk-dns2utf8-followup] was released.
+
+[@dns2utf8]: https://twitter.com/dns2utf8
+[talk-dns2utf8-video]: https://youtube.com/watch?v=Yb-QR3Vm3sk
+[talk-dns2utf8-followup]: https://estada.ch/2020/11/2/how-to-build-a-multiplayer-game-rustfest-global-2020-pre-event
+[rustfest.global]: https://rustfest.global
+[mps.estada.ch]: https://mps.estada.ch
 
 ### [ECS scheduler thoughts, part 1]
 
