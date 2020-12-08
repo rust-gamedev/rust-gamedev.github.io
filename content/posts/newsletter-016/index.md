@@ -989,6 +989,26 @@ or follow [Dmitry Stepanov on twitter][rg3d_twitter].
 [rg3d_twitter]: https://twitter.com/DmitryS36934349
 [gobo]: https://en.wikipedia.org/wiki/Gobo_(lighting)
 
+### [Another World Suite][another-world-suite]
+
+![multiple windows with asm and sprites](aws.png)
+_debugger and resource viewer_
+
+[Another World Suite][another-world-suite] by [@c_botana] is a Rust
+implementation of the ["Another World"][another-world] ("Out of This World" in USA)
+game engine, compiled to WebAssembly to run it in the web.
+It also includes a debugger and a resources viewer.
+
+[Try it out here!][another-world-suite-web]
+
+_Discussions:
+[Twitter](https://twitter.com/c_botana/status/1327593089989554178)_
+
+[@c_botana]: https://cesarbotana.com/
+[another-world-suite]: https://github.com/malandrin/another-world-suite
+[another-world-suite-web]: https://malandrin.github.io/another-world-suite
+[another-world]: https://en.wikipedia.org/wiki/Another_World_(video_game)
+
 ### [F1 Telemetry TUI]
 
 ![f1-telemetry-tui](f1-tui.gif)
