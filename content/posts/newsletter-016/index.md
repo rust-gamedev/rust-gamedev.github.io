@@ -1,11 +1,8 @@
 +++
 title = "This Month in Rust GameDev #16 - November 2020"
-date = 2020-12-02
+date = 2020-12-08
 transparent = true
-draft = true
 +++
-
-<!-- Check the post with markdownlint-->
 
 Welcome to the 16th issue of the Rust GameDev Workgroup's
 monthly newsletter.
@@ -39,7 +36,6 @@ Table of contents:
 - [Library & Tooling Updates](#library-tooling-updates)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Requests for Contribution](#requests-for-contribution)
-- [Jobs](#jobs)
 
 <!--
 Ideal section structure is:
@@ -86,7 +82,7 @@ Listen and Subscribe from the following platforms:
 ## Last Call for [Rust GameDev Survey][survey]
 
 Our annual [Rust Game Development Ecosystem Survey][survey] will be closed
-on Sunday at the end of this week, 6. December 2020.
+at the end of this week, 11. December 2020.
 It'll only take 10 minutes, and your responses help us
 better understand the state of our ecosystem and where we
 should try to focus our collective efforts.
@@ -105,9 +101,9 @@ with OpenStreetMap coverage can be used!
 
 Some of this month's updates:
 
-- started a new tool to explore 15-minute neighborhoods;
-- simpler process for [importing new cities][abstreet-new-cities];
-- large internal refactoring for the GUI and initializing the simulation;
+- A new tool to explore 15-minute neighborhoods was started.
+- Simpler process for [importing new cities][abstreet-new-cities].
+- Large internal refactoring for the GUI and initializing the simulation.
 
 [abstreet]: https://abstreet.org
 [abstreet-new-cities]: https://dabreegster.github.io/abstreet/howto/new_city.html
@@ -153,7 +149,7 @@ November's full weekly devlogs: "This Week In Veloren...":
 [#93](https://veloren.net/devblog-93/),
 [#94](https://veloren.net/devblog-94/),
 [#95](https://veloren.net/devblog-95/),
-[#96](https://veloren.net/devblog-96/),
+[#96](https://veloren.net/devblog-96/).
 
 In December, work will begin on 0.9. There are some discussions about larger
 refactors in the codebase. Many new developers have joined and are getting up to
@@ -168,7 +164,7 @@ _The start of an adventure_
 [veloren-gamingonlinux-article]: https://www.gamingonlinux.com/2020/11/inspired-by-the-likes-of-cube-world-open-source-rpg-veloren-has-the-biggest-update-yet
 [veloren-0.8-gameplay]: https://www.youtube.com/watch?v=TMYfrdiEJw4
 
-### FBSim
+### [FBSim]
 
 ![FBSim initial version](fbsim.png)
 _FBSim running with default agents._
@@ -193,7 +189,7 @@ _Discussions:
 
 ![Two players fishing at the beach](antorum-online-11-25-2020.gif)
 
-Antorum Online is a micro-multiplayer online role-playing game by [@dooskington].
+[Antorum Online] is a micro-multiplayer online role-playing game by [@dooskington].
 The game server is written in Rust, and the official client is being developed in
 Unity.
 
@@ -219,7 +215,7 @@ In November, focus was put on gameplay. Prototyping of a butcher skill was done,
 which will allow for animals to be turned into raw resources. Support for
 rendering shadows in the MetalRenderer was added, bringing it one step closer to
 the WebGlRenderer. Lots of work was put into the ability to fire a bow. This
-spanned a few weeks, however enough functionaly was added for it to feel like a
+spanned a few weeks, however enough functionality was added for it to feel like a
 solid part of gameplay. It still requires some polish, however, which will be
 the focus of the beginning of December.
 
@@ -241,7 +237,7 @@ Full devlogs:
 Intended as a test platform for trying out rust for prototyping games and
 particularly for game AI programming purposes.
 
-Development started at the end of October, recent additions include:
+Recent updates include:
 
 - Dynamic ship debris based on slicing source sprites into chunks.
 - New hostile ship type, (ranger), which fires seeking missiles.
@@ -286,7 +282,7 @@ inspired by games like [Raiden] and [Binding of Isaac].
 
 Exciting new additions have been made in November!
 
-- Micah added a ["paused" text overlay] to provide visual indication for when
+- Micah added a ["paused" text overlay] to provide a visual indication for when
   the game is paused.
 - Carlo added a [new armor system] that gives a chance for destroyed enemies to
   drop armor consumables that can block a single hit from any damage source.
@@ -315,7 +311,7 @@ Here are some of the games made with Rust:
   made with [bevy] ([source code][go-wotm-src]).
 
   > Your goal is to conquer the planet, but it's not possible until you
-  > control all the moons. The end result is not completly what I wanted,
+  > control all the moons. The end result is not completely what I wanted,
   > but it was a nice occasion to try [rapier] for physics and [lyon] to draw
   > shapes from [bevy].
 
@@ -325,7 +321,7 @@ Here are some of the games made with Rust:
   made with [amethyst] ([source code][go-starlight-src]).
 
   > A die and retry landing game where you control a spaceship, its fuel and health
-  > inside 10 different levels. Each level is made up of ennemies (cannons,
+  > inside 10 different levels. Each level is made up of enemies (cannons,
   > plasma doors, saw blades, etc.), bonuses (fuel, health) and coins.
 
   [@grzi] also published a devlog post:
@@ -458,7 +454,7 @@ how to select pieces and board squares, using [bevy_mod_picking].
 
 Development of new tutorial content has slowed down due to wgpu still being in
 development. [@sotrh] has committed to continue maintaining the project through
-the comming version changes, and plans to add more new content when the API
+the coming version changes, and plans to add more new content when the API
 solidifies. He with the help of other contributors such as GitHub user
 [@kanerogers] worked through a series of issues to polish the repository before
 the content freeze.
@@ -524,12 +520,12 @@ FlatBuffers and Cap'n Proto and can be used for data storage and messaging.
 
 It has a handful of features that make it stand out:
 
-- No schema restrictions
-- HashMap support out of the box
-- Trait object support through the [`rkyv_dyn`] crate
+- No schema restrictions.
+- HashMap support out of the box.
+- Trait object support through the [`rkyv_dyn`] crate.
 - Validation through the [`bytecheck`] crate, suitable for untrusted and
-potentially malicious data
-- Safe mutable archives with pinning
+  potentially malicious data.
+- Safe mutable archives with pinning.
 
 Reddit user [vlmutolo] also made a [toy benchmark] comparing rkyv against serde
 and bincode and found that rkyv had promising initial numbers:
@@ -545,29 +541,29 @@ deserialize (rkyv):     16 ns/iter
 A write-up on the [architecture and internals of rkyv] is also available.
 
 _Discussions:
-[/r/rust (v0.1)](https://www.reddit.com/r/rust/comments/jss6h4/rkyv_a_zerocopy_deserialization_framework_for_rust/),
-[/r/rust (v0.2)](https://www.reddit.com/r/rust/comments/jx32e8/rkyv_02_and_bytecheck_validation_mutable_archives/)_
+[/r/rust (v0.1)](https://reddit.com/r/rust/comments/jss6h4/rkyv),
+[/r/rust (v0.2)](https://reddit.com/r/rust/comments/jx32e8/rkyv_02)_
 
 [rkyv]: https://github.com/djkoloski/rkyv
 [`rkyv_dyn`]: https://docs.rs/rkyv_dyn
 [`bytecheck`]: https://github.com/djkoloski/bytecheck
-[vlmutolo]: https://www.reddit.com/r/rust/comments/jx32e8/rkyv_02_and_bytecheck_validation_mutable_archives/gcyfoqc
+[vlmutolo]: https://reddit.com/r/rust/comments/jx32e8/rkyv_02_and_bytecheck_validation_mutable_archives/gcyfoqc
 [toy benchmark]: https://git.sr.ht/~vlmutolo/rkyv-bench/tree/master/src/main.rs
 [architecture and internals of rkyv]: https://davidkoloski.me/blog/rkyv-architecture/
 
 ### [assets_manager] v0.4
 
-[assets_manager] provides an convenient way to work with external files, making
-ressources caching and hot-reloading easy and straightforward.
+[assets_manager] provides a convenient way to work with external files, making
+resources caching and hot-reloading easy and straightforward.
 
-This month was released version 0.4.0, bringing loads of improvements.
+Version 0.4.0 was released this month, bringing loads of improvements.
 
 - A `Source` trait, to load assets from anywhere. It makes the crate usable in
   WebAssembly.
 - Assets that can load other assets, with a transparent integration with
-  hot-reloading. Using a manifest file has never been so easy !
-- Improved perfomances
-- See the [full changelog][assets_manager_log] for more informations.
+  hot-reloading. Using a manifest file has never been so easy!
+- Improved performance.
+- See the [full changelog][assets_manager_log] for more information.
 
 [assets_manager]: https://github.com/a1phyr/assets_manager
 [assets_manager_log]: https://github.com/a1phyr/assets_manager/releases/tag/v0.4.0
@@ -586,7 +582,7 @@ highly performant 2D graphics.
 
 [terramach]: https://github.com/lykhonis/terramach
 
-### [glam]
+### [glam] v0.11.2
 
 [glam] is a simple and fast linear algebra crate for games and graphics.
 
@@ -618,6 +614,29 @@ interested, or know anyone who is, you can reach out via the
 
 [winit]: https://github.com/rust-windowing/winit
 [winit-call]: https://github.com/rust-windowing/winit/issues/1777
+
+### [Fluffl][fluffl]
+
+[Fluffl][fluffl] is a WIP generic media layer for graphics, IO, and audio
+for desktop and the browser.
+
+> The only reason I wrote this crate at all was because I personally wanted
+> to just have a generic interface were I can just write my OpenGL apps once
+> and have that build to both desktop and the browser
+> with little to no modification to source code.
+
+Two demos are available atm:
+
+- Basic graphics (using raw OpenGL via the "glow" crate) and audio demo:
+  [here][fluffl-demo-1].
+- Breakout clone demo: [here][fluffl-demo-2].
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust_gamedev/comments/jthdoq/fluffl_a_multimedia_layer)_
+
+[fluffl]: https://github.com/K-C-DaCosta/fluffl
+[fluffl-demo-1]: https://k-c-dacosta.github.io/wasm_bins/examples/audio_ex_1/
+[fluffl-demo-2]: https://k-c-dacosta.github.io/wasm_bins/examples/brick_demo/
 
 ### [Rapier]
 
@@ -691,8 +710,8 @@ Current features of [rib] include:
 - Support of collada files coming from the latest Blender version.
 - Precomputation of the bone matrices expressed in the world space so that you
   just have to pass it to your shader for traditional GPU skinning.
-- Interpolation between keyframes
-- (De)/serialization in binary thanks to [bincode]
+- Interpolation between keyframes.
+- (De)/serialization in binary thanks to [bincode].
 
 [rib] can be greatly extended, for example with the support of other format
 handling skeleton data, such as the [glTF] format.
@@ -716,7 +735,7 @@ out of individual sounds, tween easing, panning support, and workflow improvemen
 
 _Discussions:
 [/r/rust](https://reddit.com/r/rust/comments/jxd9zz/announcing_kira_dynamic_audio_library_for_games/),
-[twitter](https://twitter.com/tesselode/status/1329559760111357954)_
+[Twitter](https://twitter.com/tesselode/status/1329559760111357954)_
 
 ### [gfx-rs] and [wgpu]
 
@@ -766,7 +785,7 @@ improvements:
   loop.
 
 _Discussions:
-[/r/rust](https://www.reddit.com/r/rust/comments/k1hkxq/iced_a_crossplatform_gui_library_new_release/)_
+[/r/rust](https://reddit.com/r/rust/comments/k1hkxq/iced_a_crossplatform_gui_library_new_release)_
 
 [A new minor version]: https://github.com/hecrj/iced/pull/637
 [Iced]: https://github.com/hecrj/iced
@@ -782,7 +801,7 @@ _Discussions:
 ![KAS markdown](kas-markdown.png)
 _Markdown parsing demo_
 
-[KAS] by [@dhardy] is a general purpose UI toolkit; its
+[KAS] by [@dhardy] is a general-purpose UI toolkit; its
 initial aim is "old school" desktop apps with good keyboard and touchscreen
 support. Unlike many modern immediate-mode UIs, KAS's widgets retain state,
 allowing minimal per-frame updates. KAS supports embedded WebGPU graphics now,
@@ -796,6 +815,24 @@ rich text (bold, italic, underline, size and some layout improvements).
 [KAS-text]: https://github.com/kas-gui/kas-text
 [@dhardy]: https://github.com/dhardy
 
+### [Egui][egui] v0.4
+
+![online demo](egui.png)
+
+[Egui] is a highly portable immediate mode GUI library in pure Rust.
+This month a [v0.4.0 version][egui-v0-4] was released
+with much-improved text editing, and many bugfixes.
+Check out an [updated online demo][egui-demo].
+
+Also, [egui_web] v0.4.0 was released, with a simple fetch API \-
+[online example][egui-web-example].
+
+[Egui]: https://github.com/emilk/egui
+[egui-demo]: https://emilk.github.io/egui
+[egui_web]: https://lib.rs/egui_web
+[egui-web-example]: https://emilk.github.io/egui/example.html
+[egui-v0-4]: https://github.com/emilk/egui/blob/master/CHANGELOG.md#040---2020-11-28
+
 ### [miniquad]
 
 ![miniquad_wayland](miniquad_kms.gif)
@@ -805,7 +842,7 @@ _Miniquad running on raspberry pi 4 with a SPI screen._
 
 This month [KMS] [PR][kms-pr] landed on miniquad.
 Now miniquad can run on without neither X11 or Wayland,
-right on the linux kernel with KMS.
+right on the Linux kernel with KMS.
 
 [miniquad]: https://github.com/not-fl3/miniquad
 [KMS]: https://www.kernel.org/doc/html/v4.15/gpu/drm-kms.html
@@ -833,26 +870,25 @@ _A screenshot of running low-poly female model_
 The goal of [Dotrix] is to become a 3D engine for the new RPG project. The
 engine is free and open source, delivering a set of common high-level features
 like skeletal animation, skybox, terrain, camera controlling, input mapping and
-many others. It is built on top of the
-[wgpu](https://github.com/gfx-rs/wgpu-rs/) with an ECS core which is a part of
-the engine.
+many others. It is built on top of the [wgpu] with an ECS core
+which is a part of the engine.
 
 Currently supported features:
 
-- Linear ECS with systems as simple functions, that can have optional context
-- Import of textures from PNG files
+- Linear ECS with systems as simple functions, that can have optional context.
+- Import of textures from PNG files.
 - Import of multiple assets from GLTF files (textures, meshes, skins and
-animations)
-- FPS and delta time counters
-- Rendering of meshes and simple scenes with light and camera controls
-- Rendering of skeletal animations
-- 3 showcase demo applications
+  animations).
+- FPS and delta time counters.
+- Rendering of meshes and simple scenes with light and camera controls.
+- Rendering of skeletal animations.
+- 3 showcase demo applications.
 
 Next in sprint:
 
-- Input management and mapping
-- Full camera control with mouse
-- Skybox renderer
+- Input management and mapping;
+- Full camera control with mouse;
+- Skybox renderer.
 
 [Dotrix]: https://github.com/lowenware/dotrix
 [Developer's Twitter]: https://twitter.com/lowenware
@@ -863,7 +899,7 @@ Next in sprint:
 [Tetra] is a simple 2D game framework, inspired by XNA and Raylib. This month,
 versions 0.5.3 and 0.5.4 were released, with some frequently requested features:
 
-- A `Mesh` API, allowing users to create arbitary 2D geometry
+- A `Mesh` API, allowing users to create arbitrary 2D geometry
 - Experimental support for high-DPI rendering
 
 There has also been numerous bug fixes and documentation improvements. For full
@@ -871,6 +907,20 @@ details and a list of breaking changes, see the [changelog][tetra-changelog].
 
 [tetra]: https://github.com/17cupsofcoffee/tetra
 [tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
+
+### [Old Gods][old-gods]
+
+![logo](old-gods-logo.png)
+
+[Old Gods][old-gods] is an WIP game engine meant for games
+targeting the web and SDL2.
+It reads Tiled map files into a specs based entity component system.
+Rendering is handled by HtmlCanvasElement or the built-in SDL2 renderer.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/k25hh8/the_old_gods_game_engine)_
+
+[old-gods]: https://github.com/schell/old-gods
 
 ### [ogmo3]
 
@@ -885,7 +935,7 @@ has also been updated to show the new helpers in action.
 
 ### [ggez]
 
-![lot's of overlapping bunnies](ggez-bun.png)
+![lots of overlapping bunnies](ggez-bun.png)
 _ggez bunnymark - 60,000 buns at 60 FPS_
 
 [ggez] is a 2D game framework inspired by Love2D. The project is chugging
@@ -904,11 +954,12 @@ and need triage, docs need to be proofread, and especially examples need
 be updated and tested on every platform imaginable. Try out the `devel`
 branch and give it a go!
 
-[ggez]: https://github.com/ggez/ggez/
+[ggez]: https://github.com/ggez/ggez
 
 ### [rg3d]
 
 [![a scene with lightning and multiple hi-poly character models](rg3d_instancing.jpg)][rg3d_twit]
+_Geometry instancing demo._
 
 [rg3d] is a game engine that aims to be easy to use and provide large set
 of out-of-box features. Some of the recent updates:
@@ -918,21 +969,40 @@ of out-of-box features. Some of the recent updates:
 - Implemented sound backend for macOS.
 - Environment mapping - now objects can have reflections.
 - Implemented geometry instancing - now you can render tons of objects with
-low overhead.
+  low overhead.
 - Performance improvements.
 - Added [gobo] for spot lights.
 - Added CPU lightmapper - it is possible now to "bake" static lighting
-into a texture to improve performance.
-- Lots of other bugfixes and improvements.
+  into a texture to improve performance.
 
 Join the [rg3d's Discord channel][rg3d_discord]
-or follow [Dmitry Stepanov on twitter][rg3d_twitter].
+or follow [Dmitry Stepanov on Twitter][rg3d_twitter].
 
 [rg3d]: https://github.com/mrDIMAS/rg3d
 [rg3d_twit]: https://twitter.com/DmitryS36934349/status/1328797761874046977
 [rg3d_discord]: https://discord.gg/xENF5Uh
 [rg3d_twitter]: https://twitter.com/DmitryS36934349
 [gobo]: https://en.wikipedia.org/wiki/Gobo_(lighting)
+
+### [Another World Suite][another-world-suite]
+
+![multiple windows with asm and sprites](aws.png)
+_debugger and resource viewer_
+
+[Another World Suite][another-world-suite] by [@c_botana] is a Rust
+implementation of the ["Another World"][another-world] ("Out of This World" in USA)
+game engine, compiled to WebAssembly to run it in the web.
+It also includes a debugger and a resources viewer.
+
+[Try it out here!][another-world-suite-web]
+
+_Discussions:
+[Twitter](https://twitter.com/c_botana/status/1327593089989554178)_
+
+[@c_botana]: https://cesarbotana.com/
+[another-world-suite]: https://github.com/malandrin/another-world-suite
+[another-world-suite-web]: https://malandrin.github.io/another-world-suite
+[another-world]: https://en.wikipedia.org/wiki/Another_World_(video_game)
 
 ### [F1 Telemetry TUI]
 
@@ -973,15 +1043,38 @@ build and release a [bevy] game to itch.io for Linux, macOS, Windows and WASM.
 
 <!-- Up to 10 links to interesting issues -->
 
+- [rust-gamedev/wg](https://github.com/rust-gamedev/wg):
+  - [#96 "New WG members"](https://github.com/rust-gamedev/wg/issues/96);
+
 ## Requests for Contribution
 
 <!-- Links to "good first issue"-labels or direct links to specific tasks -->
 
-- [winit is seeking new maintainers][winit-call];
+- [winit is seeking new maintainers][winit-call].
+- [Embark's open issues][embark-open-issues] ([embark.rs]).
+- [gfx-rs's "contributor-friendly" issues][gfx-issues].
+- [wgpu's "help wanted" issues][wgpu-help-wanted].
+- [luminance's "low hanging fruit" issues][luminance-fruits].
+- [ggez's "good first issue" issues][ggez-issues].
+- [Veloren's "beginner" issues][veloren-beginner].
+- [Amethyst's "good first issue" issues][amethyst-issues].
+- [A/B Street's "good first issue" issues][abstreet-issues].
+- [Mun's "good first issue" issues][mun-issues].
+- [SIMple Mechanic's good first issues][simm-issues].
+- [Bevy's "good first issue" issues][bevy-issues].
 
-## Jobs
-
-<!-- An optional section for new jobs related to Rust gamedev -->
+[embark.rs]: https://embark.rs
+[embark-open-issues]: https://github.com/search?q=user:EmbarkStudios+state:open
+[gfx-issues]: https://github.com/gfx-rs/gfx/issues?q=is%3Aissue+is%3Aopen+label%3Acontributor-friendly
+[wgpu-help-wanted]: https://github.com/gfx-rs/wgpu-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
+[luminance-fruits]: https://github.com/phaazon/luminance-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22low+hanging+fruit%22
+[ggez-issues]: https://github.com/ggez/ggez/labels/%2AGOOD%20FIRST%20ISSUE%2A
+[veloren-beginner]: https://gitlab.com/veloren/veloren/issues?label_name=beginner
+[amethyst-issues]: https://github.com/amethyst/amethyst/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[abstreet-issues]: https://github.com/dabreegster/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
+[simm-issues]: https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue
+[bevy-issues]: https://github.com/bevyengine/bevy/labels/good%20first%20issue
 
 ------
 
