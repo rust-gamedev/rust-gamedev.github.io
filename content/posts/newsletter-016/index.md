@@ -886,12 +886,14 @@ build and release a [bevy] game to itch.io for Linux, macOS, Windows and WASM.
 
 ### [winit]
 
-[winit] is looking for a new web platform maintainer! If you're
+[winit] is a cross-platform window creation and event loop management library.
+
+winit is looking for a new web platform maintainer! If you're
 interested, or know anyone who is, you can reach out via the
-[tracking issue][call for web maintainer].
+[tracking issue][winit-call].
 
 [winit]: https://github.com/rust-windowing/winit
-[call for web maintainer]: https://github.com/rust-windowing/winit/issues/1777
+[winit-call]: https://github.com/rust-windowing/winit/issues/1777
 
 ## Popular Workgroup Issues in Github
 
