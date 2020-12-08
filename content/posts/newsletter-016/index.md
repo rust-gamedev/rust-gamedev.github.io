@@ -327,6 +327,21 @@ Here are some of the games made with Rust:
 [lyon]: https://github.com/nical/lyon
 [bevy]: https://bevyengine.org
 
+- ["Starlight 1961"][go-starlight1961] by [@grzi]
+  ([source code][go-starlight-src]).
+
+  > A die and retry landing game where you control a spaceship, its fuel and health
+  > inside 10 different levels. Each level is made up of ennemies (cannons,
+  > plasma doors, saw blades, etc.), bonuses (fuel, health) and coins.
+  > It was made with [amethyst]
+
+  ![gameplay](starlight-1961.png)
+
+[go-starlight1961]: https://itch.io/jam/game-off-2020/rate/837014
+[go-starlight-src]: https://github.com/grzi/starlight-1961
+[@grzi]: https://twitter.com/JeremyThulliez
+[amethyst]: https://amethyst.rs
+
 ## Learning Material Updates
 
 ### [Hands-on Rust][hands-on-rust]
