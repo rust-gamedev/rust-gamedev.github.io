@@ -1,11 +1,8 @@
 +++
 title = "This Month in Rust GameDev #16 - November 2020"
-date = 2020-12-02
+date = 2020-12-08
 transparent = true
-draft = true
 +++
-
-<!-- Check the post with markdownlint-->
 
 Welcome to the 16th issue of the Rust GameDev Workgroup's
 monthly newsletter.
