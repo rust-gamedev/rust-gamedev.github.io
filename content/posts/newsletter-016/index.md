@@ -82,7 +82,7 @@ Listen and Subscribe from the following platforms:
 ## Last Call for [Rust GameDev Survey][survey]
 
 Our annual [Rust Game Development Ecosystem Survey][survey] will be closed
-on in the end of this week, 11. December 2020.
+at the end of this week, 11. December 2020.
 It'll only take 10 minutes, and your responses help us
 better understand the state of our ecosystem and where we
 should try to focus our collective efforts.
