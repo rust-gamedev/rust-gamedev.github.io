@@ -903,6 +903,8 @@ build and release a [bevy] game to itch.io for Linux, macOS, Windows and WASM.
 
 <!-- Links to "good first issue"-labels or direct links to specific tasks -->
 
+- [winit is seeking new maintainers][winit-call];
+
 ## Jobs
 
 <!-- An optional section for new jobs related to Rust gamedev -->
