@@ -969,11 +969,11 @@ of out-of-box features. Some of the recent updates:
 - Implemented sound backend for macOS.
 - Environment mapping - now objects can have reflections.
 - Implemented geometry instancing - now you can render tons of objects with
-low overhead.
+  low overhead.
 - Performance improvements.
 - Added [gobo] for spot lights.
 - Added CPU lightmapper - it is possible now to "bake" static lighting
-into a texture to improve performance.
+  into a texture to improve performance.
 
 Join the [rg3d's Discord channel][rg3d_discord]
 or follow [Dmitry Stepanov on Twitter][rg3d_twitter].
