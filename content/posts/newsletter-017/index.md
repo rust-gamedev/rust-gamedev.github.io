@@ -65,7 +65,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [Way of Rhea has a Discord!][wor-discord]
 
-[![New Way of Rhea assets](way-of-rhea.gif)][wor-discord]
+![New Way of Rhea assets](way-of-rhea.gif)
 _Updated visuals for interactive items._
 
 [Way of Rhea][wor-website] is a puzzle platformer that takes place in a world where you can only interact with objects that match your current color. The game is being developed in a custom built Rust game engine and hot swappable scripting language.
