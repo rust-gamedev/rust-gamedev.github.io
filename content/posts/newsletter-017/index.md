@@ -74,6 +74,7 @@ is being developed in a custom built Rust game engine and hot swappable
 scripting language.
 
 This month's updates:
+
 - More progress has been made on the hub world! The game is no longer fully
   linear.
 - All interactive elements are getting a visual update, pictured above.
