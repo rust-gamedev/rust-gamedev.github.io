@@ -73,10 +73,13 @@ where you can only interact with objects that match your current color. The game
 is being developed in a custom built Rust game engine and hot swappable
 scripting language.
 
-If you're interested in staying up to date with Way of Rhea, you can [join the
-developer's discord][wor-discord]. The server includes a `#tech` channel where
-the developer is more than happy to chat about what's going on behind the
-scenes.
+This month's updates:
+- More progress has been made on the hub world! The game is no longer fully
+  linear.
+- All interactive elements are getting a visual update, pictured above.
+- The devs have created [a Discord server][wor-discord] where you can hang out,
+  stay up to date on the latest developments, and if you're interested, chat
+  about the implementation (see the `#tech` channel.)
 
 [wor-discord]: https://discord.gg/JGeVt5XwPP
 [wor-website]: https://anthropicstudios.com/way-of-rhea
