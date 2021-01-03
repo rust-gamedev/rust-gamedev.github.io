@@ -89,6 +89,32 @@ This month's updates:
 
 ## Library & Tooling Updates
 
+### [rpt: a rust path tracer](https://github.com/ekzhang/rpt/)
+
+![demo renders](rpt-collage.jpg)
+_Sample images rendered by path tracing._
+
+[rpt] by [@ekzhang] is a physically based, CPU-only rendering engine written in
+Rust. It uses path tracing to generate realistic images of 3D scenes.
+
+There's a lot of features, including kd-tree mesh acceleration, physical
+material properties (microfacet BSDF with multiple importance sampling), HDRI
+environment maps, OBJ/MTL/STL files, depth of field, and particle physics
+simulation.
+
+It's also parallelized with [rayon] and available as a library on [crates.io].
+The entire source code, including code for the above examples and more, is very
+short (~3K SLOC). Future directions include extending the renderer with
+bidirectional path tracing and other features.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/k81wwi/rpt_v01/)_
+
+[rpt]: https://github.com/ekzhang/rpt
+[@ekzhang]: https://www.ekzhang.com/
+[rayon]: https://github.com/rayon-rs/rayon
+[crates.io]: https://crates.io/
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
