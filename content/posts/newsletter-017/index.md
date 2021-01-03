@@ -70,7 +70,7 @@ _Updated visuals for interactive items._
 
 [Way of Rhea][wor-website] is a puzzle platformer that takes place in a world where you can only interact with objects that match your current color. The game is being developed in a custom built Rust game engine and hot swappable scripting language.
 
-If you're interested in staying up to date with Way of Rhea, you can [join the developer's discord][wor-discord]. The server includes a #tech channel where the developer is more than happy to chat about what's going on behind the scenes.
+If you're interested in staying up to date with Way of Rhea, you can [join the developer's discord][wor-discord]. The server includes a `#tech` channel where the developer is more than happy to chat about what's going on behind the scenes.
 
 [wor-discord]: https://discord.gg/JGeVt5XwPP
 [wor-website]: https://anthropicstudios.com/way-of-rhea
