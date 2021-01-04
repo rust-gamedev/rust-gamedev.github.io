@@ -87,6 +87,32 @@ This month's updates:
 
 ## Learning Material Updates
 
+### [How to Revive a Dead Rust Project][rustfest-talk]
+
+[![RustFest Sketchnote](how-to-revive-a-dead-rust-project.jpg)][rustfest-talk]
+_Drawing by [Carlo Gilmar][visual_partner]. Click to [watch the talk.][rustfest-talk]_
+
+At [RustFest Global 2020], [@micah_tigley] and [@carlosupina] talked about their
+experiences collaborating together to revive the [space_shooter_rs] project through
+effective planning, refactoring, and documentation. The video was recently
+[released on YouTube][talk-tweet] in December!
+
+Since then, both developers have been working away on improving the
+game. Some updates include:
+
+- [Adding debug lines for hitboxes][debug-lines]
+- [Creating configurations files to store player variables][player-config]
+
+[@micah_tigley]: https://twitter.com/micah_tigley
+[@carlosupina]: https://twitter.com/carlosupina
+[RustFest Global 2020]: https://rustfest.global/
+[rustfest-talk]: https://www.youtube.com/watch?v=qoCryIy4bFE
+[visual_partner]: https://twitter.com/visual_partner
+[talk-tweet]: https://twitter.com/carlosupina/status/1341763006716407808
+[space_shooter_rs]: https://github.com/amethyst/space_shooter_rs
+[debug-lines]: https://twitter.com/carlosupina/status/1335289462738259974
+[player-config]: https://github.com/amethyst/space_shooter_rs/pull/101
+
 ## Library & Tooling Updates
 
 ## Popular Workgroup Issues in Github
