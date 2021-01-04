@@ -89,6 +89,21 @@ This month's updates:
 
 ## Library & Tooling Updates
 
+### [Tetra]
+
+[Tetra] is a simple 2D game framework, inspired by XNA and Raylib. This month,
+versions 0.5.5 and 0.5.6 were released, with various improvements:
+
+- Customizable `Mesh` colors and winding orders
+- Enabling/disabling the user's screen saver
+- Improved CPU usage on some devices
+
+For full details and a list of breaking changes, see the
+[changelog][tetra-changelog].
+
+[tetra]: https://github.com/17cupsofcoffee/tetra
+[tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
