@@ -85,6 +85,21 @@ This month's updates:
 [wor-discord]: https://discord.gg/JGeVt5XwPP
 [wor-website]: https://anthropicstudios.com/way-of-rhea
 
+### [15-minute Santa][15m-santa]
+
+![15-minute Santa](santa.png)
+
+In [15-minute Santa][15m-santa], you deliver presents around a city, occasionally stopping at a restaurant to refuel -- biking uphill in the snow isn't easy! The game uses real data from OpenStreetMap and local GIS sources to know where shops, single-family homes, and apartments are located. In places where zoning rules keep people separated from food, Santa will have a hard time.
+
+15-minute Santa was created by the [A/B Street](abstreet) team as an experiment to see how quickly we could build a simple arcade game that gets people thinking about how their city is designed. [The code](santa-code) doesn't make use of an entity-component system or an existing engine, and animation and particle effects don't use a custom shader. The game runs natively on Linux, Mac, and Windows, and on web browsers. There are instructions for modding the game and adding your own city!
+
+A/B Street updates will return next month. In the meantime, please comment on the [2021 roadmap](abstreet-roadmap).
+
+[15m-santa]: http://santa.abstreet.org
+[abstreet]: https://abstreet.org
+[santa-code]: https://github.com/dabreegster/abstreet/tree/master/santa/src/
+[abstreet-roadmap]: https://docs.google.com/document/d/1oV4mdtb0ve-wf0HqbEvR9IwXLIkTeDu8a3UnJxnr2F0/edit?usp=sharing
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
