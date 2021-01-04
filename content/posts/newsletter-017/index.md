@@ -104,6 +104,21 @@ For full details and a list of breaking changes, see the
 [tetra]: https://github.com/17cupsofcoffee/tetra
 [tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
 
+### [starframe]
+
+![Current state of starframe graphics and physics](starframe.gif)
+
+[starframe] by [@moletrooper] is a work-in-progress game engine
+for physics-y sidescrolling 2D games. This month, a new, more versatile
+constraint solver was used to add friction and basic joints. Collision
+detection accuracy and overall stability were also improved.
+
+_Discussions:
+[twitter](https://twitter.com/moletrooper/status/1338066680724008960)_
+
+[starframe]: https://github.com/moletrooper/starframe
+[@moletrooper]: https://twitter.com/moletrooper
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
