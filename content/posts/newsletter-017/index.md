@@ -104,6 +104,21 @@ For full details and a list of breaking changes, see the
 [tetra]: https://github.com/17cupsofcoffee/tetra
 [tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
 
+### [Egui]
+
+![Egui emojis](egui.gif)
+_Some of the supported emojis in the [online demo][demo]._
+
+[Egui] is an easy-to-use GUI in pure Rust. Egui can be integrated into a game engine, or used standalone with the help of [eframe].
+This month versions 0.5, 0.6 and 0.7 were released with many improvements,
+including custom fonts, emojis and improved layout engine ([full changelog][changelog]).
+
+[Egui]: https://github.com/emilk/egui
+[demo]: https://emilk.github.io/egui
+[eframe]: https://lib.rs/eframe
+[egui_template]: https://github.com/emilk/egui_template
+[changelog]: https://github.com/emilk/egui/blob/master/CHANGELOG.md
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
