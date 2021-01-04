@@ -85,6 +85,19 @@ This month's updates:
 [wor-discord]: https://discord.gg/JGeVt5XwPP
 [wor-website]: https://anthropicstudios.com/way-of-rhea
 
+### Weegames
+
+![Four Weegames minigames](weegames.jpg)
+
+[Weegames][weegames-itch] is a fast-paced minigame collection.
+
+The game now has a [web demo][weegames-itch] ([source][weegames-demo-source])
+made with macroquad.
+Sound was recently added to the demo using the quad-snd library.
+
+[weegames-itch]: https://yeahross.itch.io/weegames
+[weegames-demo-source]: https://github.com/yeahross0/Weegames-Demo
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
