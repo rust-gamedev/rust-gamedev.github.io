@@ -85,6 +85,28 @@ This month's updates:
 [wor-discord]: https://discord.gg/JGeVt5XwPP
 [wor-website]: https://anthropicstudios.com/way-of-rhea
 
+### [Egregoria]
+
+![Egregoria farm and flour factory at night](egregoria.jpg)
+
+[Egregoria]'s objective is to become a granular society simulation,
+filled with fully autonomous agents interacting with their world in real time.
+The city should evolve by itself and form interesting patterns.
+
+The [7th devlog][egregoria-blog-post] was published. Celebrating the first
+anniversary of the project! Updates include:
+
+- A summary of Egregoria's progress and ambition.
+- Music and sounds.
+- Basic economy design.
+- A specialized gridlock detection algorithm.
+
+Join [Egregoria's Discord server][egregoria-discord].
+
+[Egregoria]: https://github.com/Uriopass/Egregoria
+[egregoria-blog-post]: http://douady.paris/blog/egregoria_7.html
+[egregoria-discord]: https://discord.gg/CAaZhUJ
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
