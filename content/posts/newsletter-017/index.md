@@ -108,8 +108,8 @@ For full details and a list of breaking changes, see the
 
 ![Rust Graphics Playground Demo](rust-graphics-playground.gif)
 
-The [Rust Graphics Playground][rust-graphics-playground] is a small tool that 
-allows you to create and share miniature graphics demos in Rust that will run 
+The [Rust Graphics Playground][rust-graphics-playground] is a small tool that
+allows you to create and share miniature graphics demos in Rust that will run
 in the browser. Here are a few examples of what you can make:
 
 - [3D Spinning Triangle][spinning-triangle]
