@@ -87,6 +87,36 @@ This month's updates:
 
 ## Learning Material Updates
 
+### [Nannou: creative coding with Rust][mactuitui-talk]
+
+[![A screenshot from the talk](nannou_creative_coding.jpg)][mactuitui-talk]
+_You can [watch the recording here][mactuitui-talk]._
+
+[Alexis André][@mactuitui] gave a [talk][mactuitui-talk] at
+[GitHub Universe][mactuitui-github-universe] about working with Rust
+and [Nannou][mactuitui-nannou-website], an open-source creative-coding
+framework.
+
+> Alexis André is an artist, researcher and designer aiming at redefining
+> entertainment. In this golden age of computation and data overflow,
+> why is our entertainment still designed to be consumed in a passive
+> way? A few media are offering interactive experiences, but none of
+> them are designed specifically for you. In this live demo, Alexis
+> will create a sketch from scratch for participants to experience
+> what it's like working with Nannou and Rust.
+
+The code is available at [GitHub][mactuitui-repository].
+
+_Discussions:
+[twitter][mactuitui-discussion]_
+
+[@mactuitui]: https://twitter.com/mactuitui
+[mactuitui-talk]: https://www.youtube.com/watch?v=Ml6tpyTyXhM
+[mactuitui-repository]: https://github.com/MacTuitui/nannou-universe
+[mactuitui-discussion]: https://twitter.com/MacTuitui/status/1339863034991276035
+[mactuitui-nannou-website]: https://nannou.cc
+[mactuitui-github-universe]: https://githubuniverse.com/Nannou-creative-coding-with-Rust/
+
 ## Library & Tooling Updates
 
 ### [Tetra]
