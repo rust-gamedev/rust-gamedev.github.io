@@ -109,7 +109,8 @@ For full details and a list of breaking changes, see the
 ![Egui emojis](egui.gif)
 _Some of the supported emojis in the [online demo][demo]._
 
-[Egui] is an easy-to-use GUI in pure Rust. Egui can be integrated into a game engine, or used standalone with the help of [eframe].
+[Egui] is an easy-to-use GUI in pure Rust.
+Egui can be integrated into a game engine, or used standalone with the help of [eframe].
 This month versions 0.5, 0.6 and 0.7 were released with many improvements,
 including custom fonts, emojis and improved layout engine ([full changelog][changelog]).
 
