@@ -103,7 +103,7 @@ the language's hardest topics (i.e. ownership, lifetimes, modules, etc.)
 in a real-world application.
 
 _Discussions:
-[danlogs' Discord](https://discord.com/invite/fSWE49H),and
+[danlogs' Discord](https://discord.com/invite/fSWE49H) and
 [danlogs' Twitter](https://twitter.com/danologue)_
 
 [Building Pikachu Volleyball]: https://github.com/danbugs/danlogs/tree/master/rust/projects/pikachu_volleyball
