@@ -93,6 +93,7 @@ _Pew pew!_
 [Cheese] is a small Real Time Strategy game created for the
 [GitHub Game Off 2020]. It was written using a 'low-level gamedev stack'
 consisting of:
+
 - [wgpu-rs] for rendering,
 - [gltf] models,
 - [wgpu_glyph] for text rendering
