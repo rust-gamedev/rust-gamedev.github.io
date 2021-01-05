@@ -85,6 +85,34 @@ This month's updates:
 [wor-discord]: https://discord.gg/JGeVt5XwPP
 [wor-website]: https://anthropicstudios.com/way-of-rhea
 
+### [Cheese]
+
+![A screenshot of some mice shooting other mice](cheese-screenshot.png)
+_Pew pew!_
+
+[Cheese] is a small Real Time Strategy game created for the
+[GitHub Game Off 2020]. It was written using a 'low-level gamedev stack'
+consisting of:
+- [wgpu-rs] for rendering,
+- [gltf] models,
+- [wgpu_glyph] for text rendering
+- [legion] for ECS
+- and [lyon_tessellation] for rendering 2D UI elements.
+
+The game is in a finished state, but it would be relatively easy to add new
+features such as unit types and buildings.
+
+Check out the source code at [github.com/expenses/cheese].
+
+[Cheese]: https://expenses.itch.io/cheese
+[GitHub Game Off 2020]: https://itch.io/jam/game-off-2020
+[wgpu-rs]: https://github.com/gfx-rs/wgpu-rs
+[gltf]: https://crates.io/crates/gltf
+[wgpu_glyph]: https://crates.io/crates/wgpu_glyph
+[legion]: https://crates.io/crates/legion
+[lyon_tessellation]: https://crates.io/crates/lyon_tessellation
+[github.com/expenses/cheese]: https://github.com/expenses/cheese
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
