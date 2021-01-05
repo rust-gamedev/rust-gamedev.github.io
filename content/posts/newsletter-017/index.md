@@ -85,6 +85,39 @@ This month's updates:
 [wor-discord]: https://discord.gg/JGeVt5XwPP
 [wor-website]: https://anthropicstudios.com/way-of-rhea
 
+### [FreeNukum][fn]
+
+![The first original Duke Nukem 1 level in FreeNukum](freenukum.png)
+
+[FreeNukum][fn] is a free software clone of the 1991 DOS game *Duke Nukem
+1* jump'n run by [@silwol]. Development of the game started in 2007, back
+then it was written in C using SDL1. In 2020, the codebase was gradually
+migrated to Rust, after that it got updated to SDL2. The first version
+fully implemented in Rust was [released to crates.io][fn-crates-io] and
+[announced on reddit][fn-reddit-announce] in December 2020.
+
+Some of this month's changes:
+
+- Add controller support.
+- Add some of the actors found in the original game.
+- The hero can do somersaults when jumping with boots.
+
+![FreeNukum showing the hero making somersaults](freenukum-somersaults.gif)
+
+Other news:
+
+- [Wiki page screenshots][fn-screenshots] has been created.
+- [Matrix chat room][fn-matrix-chat] is available.
+- [ChangeLog][fn-changelog].
+
+[fn]: https://gitlab.com/silwol/freenukum
+[fn-reddit-announce]: https://reddit.com/r/rust_gamedev/comments/k9dw50/freenukum
+[fn-crates-io]: https://crates.io/crates/freenukum
+[fn-screenshots]: https://gitlab.com/silwol/freenukum/-/wikis/FreeNukum-Screenshots
+[fn-matrix-chat]: https://matrix.to/#/#freenukum:matrix.org
+[fn-changelog]: https://gitlab.com/silwol/freenukum/-/blob/main/CHANGELOG.md
+[@silwol]: https://chaos.social/@silwol
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
