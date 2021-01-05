@@ -85,6 +85,24 @@ This month's updates:
 [wor-discord]: https://discord.gg/JGeVt5XwPP
 [wor-website]: https://anthropicstudios.com/way-of-rhea
 
+### [Antorum]
+
+![A view of a beach area on Antorum Isle](antorum-12-30-2020.jpg)
+
+[Antorum] is a micro-multiplayer online role-playing game by [@dooskington].
+The game server is written in Rust, and the official client is being developed
+in Unity.
+
+December was an important month for the game. Along with tons of little fixes
+and changes, major features such as NPC Dialog were finally implemented! Check
+out the dev logs for more info.
+
+- [26: Various Improvements](https://ratwizard.dev/dev-log/antorum/26)
+- [27: The Big 2020 End-Of-Year Update](https://ratwizard.dev/dev-log/antorum/27)
+
+[Antorum]: https://ratwizard.dev/dev-log/antorum
+[@dooskington]: https://twitter.com/dooskington
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
