@@ -89,11 +89,23 @@ This month's updates:
 
 ![15-minute Santa](santa.png)
 
-In [15-minute Santa][15m-santa], you deliver presents around a city, occasionally stopping at a restaurant to refuel -- biking uphill in the snow isn't easy! The game uses real data from OpenStreetMap and local GIS sources to know where shops, single-family homes, and apartments are located. In places where zoning rules keep people separated from food, Santa will have a hard time.
+In [15-minute Santa][15m-santa], you deliver presents around a city,
+occasionally stopping at a restaurant to refuel -- biking uphill in the snow
+isn't easy! The game uses real data from OpenStreetMap and local GIS sources to
+know where shops, single-family homes, and apartments are located. In places
+where zoning rules keep people separated from food, Santa will have a hard
+time.
 
-15-minute Santa was created by the [A/B Street](abstreet) team as an experiment to see how quickly we could build a simple arcade game that gets people thinking about how their city is designed. [The code](santa-code) doesn't make use of an entity-component system or an existing engine, and animation and particle effects don't use a custom shader. The game runs natively on Linux, Mac, and Windows, and on web browsers. There are instructions for modding the game and adding your own city!
+15-minute Santa was created by the [A/B Street](abstreet) team as an experiment
+to see how quickly we could build a simple arcade game that gets people
+thinking about how their city is designed. [The code](santa-code) doesn't make
+use of an entity-component system or an existing engine, and animation and
+particle effects don't use a custom shader. The game runs natively on Linux,
+Mac, and Windows, and on web browsers. There are instructions for modding the
+game and adding your own city!
 
-A/B Street updates will return next month. In the meantime, please comment on the [2021 roadmap](abstreet-roadmap).
+A/B Street updates will return next month. In the meantime, please comment on
+the [2021 roadmap](abstreet-roadmap).
 
 [15m-santa]: http://santa.abstreet.org
 [abstreet]: https://abstreet.org
