@@ -89,6 +89,28 @@ This month's updates:
 
 ## Library & Tooling Updates
 
+### [rust-gpu]
+
+![A collage of various shadertoy.com shaders built with rust-gpu.](https://user-images.githubusercontent.com/1262692/101198544-e8c7c300-3663-11eb-9e33-f901ac80cd13.png)
+_Various shaders from shadertoy.com ported to Rust and built with rust-gpu._
+
+[rust-gpu] is a new codegen backend by Embark Studios for Rust, aimed at making
+Rust a first class language for writing GPU shaders! This past month was the
+release of rust-gpu 0.2, including a tonne of new features and capabilities.
+
+Some of the highlights include:
+
+- [You can build and test your shaders on the web.][rust-gpu-web] Thanks to SHADERed.
+- [Support for accessing and sampling textures.][rust-gpu-textures]
+- [Initial support for compute shaders][rust-gpu-compute]
+- [Rust's new `asm!` macro now supports writing SPIR-V][rust-gpu-asm]
+
+[rust-gpu]: https://github.com/EmbarkStudios/rust-gpu
+[rust-gpu-web]: https://shadered.org/blog?id=4
+[rust-gpu-textures]: https://github.com/EmbarkStudios/rust-gpu/pull/276
+[rust-gpu-compute]: https://github.com/EmbarkStudios/rust-gpu/pull/195
+[rust-gpu-asm]: https://github.com/EmbarkStudios/rust-gpu/pull/254
+
 ### [Tetra]
 
 [Tetra] is a simple 2D game framework, inspired by XNA and Raylib. This month,
