@@ -85,6 +85,18 @@ This month's updates:
 [wor-discord]: https://discord.gg/JGeVt5XwPP
 [wor-website]: https://anthropicstudios.com/way-of-rhea
 
+### Harvest Hero
+![Harvest Hero Gameplay](harvest_hero_snippet.gif)
+Harvest Hero by [@bombfuse_dev](https://twitter.com/bombfuse_dev)
+
+Harvest Hero is an arcade/roguelike game. Harvest crops and whack those pesky Groobles!
+
+This month in development:
+
+* Began working with some artists to provide a music and pixelart makeover
+* Added a new level type called "Harvest Defense"
+* Added some quality of life features like background music and sfx volume control
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
