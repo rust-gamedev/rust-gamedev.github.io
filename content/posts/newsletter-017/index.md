@@ -87,6 +87,25 @@ This month's updates:
 
 ## Learning Material Updates
 
+### [Creative coding in Rust: re-creating a retro screensaver][timclicks-session]
+
+[![A screenshot from the coding sesion](retro_screensaver.jpg)][timclicks-session]
+_You can [watch the recording here][timclicks-session]._
+
+[@timClicks] live streamed a coding session featuring
+[Nannou][timclicks-nannou], an open-source creative-coding framework,
+which is used to recreate the Mystify screensaver that appeared in Windows 3.1.
+
+_Discussions:
+[/r/rust][timclicks-reddit],
+[twitter][timclicks-tweet]_
+
+[@timClicks]: https://twitter.com/timClicks
+[timclicks-session]: https://www.youtube.com/watch?v=d9lsT4kJo44
+[timclicks-tweet]: https://twitter.com/timClicks/status/1327789155930128387
+[timclicks-reddit]: https://www.reddit.com/r/rust/comments/jxhozr/creative_coding_in_rust_recreating_a_retro/
+[timclicks-nannou]: https://nannou.cc
+
 ## Library & Tooling Updates
 
 ### [Tetra]
