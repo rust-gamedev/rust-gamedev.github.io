@@ -85,6 +85,47 @@ This month's updates:
 [wor-discord]: https://discord.gg/JGeVt5XwPP
 [wor-website]: https://anthropicstudios.com/way-of-rhea
 
+### Swoop
+
+![Doing donuts while being overtaken](swoop.gif)
+_Getting lapped by purple? - don't worry, it happens to everyone_
+
+They say it takes about 10 years for a developer to go from first
+wanting to create a game to actually releasing one. I first started
+making games in about 2010 and and [Swoop][swoop-itch] is the only
+hobby game that I've finished outside of game jams. Part of that is
+because it's simple, and I refused to accept any "wouldn't it be nice
+to also do XYZ" ideas after the initial concept was solidified.
+
+Every time you use a game engine it brings with it a lot of cognitive
+overhead: how does resource management work, how do I force the physics
+to not glitch out, and why oh why don't the UI elements line up
+properly... I've tried to make games in a variety of engines, but
+invariably got frustrated. So I decided to throw out the engine and
+find out what makes game-making so complex. It turns out that the stuff
+below the game engine is only slightly less friendly than the stuff above
+it. It's all just maths, logic, state handling and a bunch of new
+terminology. If you've got a small game project and are feeling adventurous,
+I highly suggest trying to make an engineless game. Just don't get carried
+away and try make it generic. You have to realize you are making a single
+specific game.
+
+This game is both [open source][swoop-source] and I [wrote about the
+process of making it][swoop-building]. You can also play the prototype
+version done in [shadertoy][swoop-shadertoy]. All up this game was a
+large experiment: I'm not all that familiar with rust, it was my first
+go at targetting WASM, I've never used webGL before, and my linear
+algebra is worse than I thought. I think in future games I'll use at
+least a math library to make my life easier..... What's next for me?
+Well, I'm taking a look at 3D and [raymarching giant
+caves][swoop-next].
+
+[swoop-itch]: https://sdfgeoff.itch.io/swoop
+[swoop-source]: https://github.com/sdfgeoff/wasm_minigames
+[swoop-shadertoy]: https://www.shadertoy.com/view/WlScWd
+[swoop-building]: https://sdfgeoff.github.io/wasm_minigames/a_first_game_swoop.html
+[swoop-next]: https://www.shadertoy.com/view/tltyRB
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
