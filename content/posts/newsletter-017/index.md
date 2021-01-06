@@ -100,7 +100,7 @@ and Android.
 Changes done during last month:
 
 - [Made an Android port with full touchscreen controls.](https://www.reddit.com/r/rust/comments/kh79r1/made_my_rust_remake_of_cave_story_engine_run_on/)
-- Started work on Lua API, meant for building custom stuff on top of the 
+- Started work on Lua API, meant for building custom stuff on top of the
   engine.
 - Started work on pushing our changes upstream and moving back to mainline
   versions of crates.
