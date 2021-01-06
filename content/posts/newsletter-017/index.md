@@ -85,6 +85,26 @@ This month's updates:
 [wor-discord]: https://discord.gg/JGeVt5XwPP
 [wor-website]: https://anthropicstudios.com/way-of-rhea
 
+
+### doukutsu-rs
+
+[doukutsu-rs][drs-repo] is a remake of [Cave Story](https://en.wikipedia.org/wiki/Cave_Story) engine, meant to be a drop-in replacement for the original game 
+executable (both freeware and commercial version), focused on being a portable modding tool (most Cave Story mods patch the executable directly, including machine code editing/assembly hacks) and adding various visual and gameplay-related enhancements.
+
+Built mainly using modified [ggez](https://ggez.rs/) crate, runs on desktop and Android.
+
+Changes done during last month:
+- [Made an Android port with full touchscreen controls.](https://www.reddit.com/r/rust/comments/kh79r1/made_my_rust_remake_of_cave_story_engine_run_on/)
+- Started work on Lua API, meant for building custom stuff on top of the engine.
+- Started work on pushing our changes upstream and moving back to mainline versions of crates.
+- Improvements to the Organya player (a simple synthetiser that plays the in-game music using a set of 100 waves and 6 drum samples).
+- Added a bunch of missing NPCs, bosses and other stuff.
+- Redesigned the way how game loop works, in preparation for adding networked multiplayer support.
+- Countless bug fixes.
+
+[drs-discord]: https://discord.gg/fbRsNNB
+[drs-repo]: https://github.com/doukutsu-rs/doukutsu-rs
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
