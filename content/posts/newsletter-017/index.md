@@ -87,6 +87,8 @@ This month's updates:
 
 ### doukutsu-rs
 
+![d-rs grasstown screenshot](https://i.imgur.com/U7cwKY2.png)
+
 [doukutsu-rs][drs-repo] is a remake of [Cave Story](https://en.wikipedia.org/wiki/Cave_Story)
 engine, meant to be a drop-in replacement for the original game executable
 (both freeware and commercial version), focused on being a portable modding
