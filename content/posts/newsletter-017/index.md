@@ -104,6 +104,18 @@ For full details and a list of breaking changes, see the
 [tetra]: https://github.com/17cupsofcoffee/tetra
 [tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
 
+### [SPIR-Q]
+
+[SPIR-Q] is a light-weight SPIR-V query library which supports one-pass shader
+parsing and reflection. The latest release, version 0.4.10, introduced customized
+shader auditing by allowing the users to hook and to inspect the instructions
+SPIR-Q has worked on, while with all access to its reflection intermediates.
+
+For more information, please refer to [the original post][spirq-reddit].
+
+[SPIR-Q]: https://github.com/penguinliong/spirq-rs
+[spirq-reddit]: https://www.reddit.com/r/rust_gamedev/comments/kgv4gh/spirq_0410_customized_shader_reflection_no_hassle
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
