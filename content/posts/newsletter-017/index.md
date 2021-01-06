@@ -68,8 +68,10 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ![Demo](beziers.gif)
 Demo is availiable [here](https://pum-purum-pum-pum.github.io/bezier/)
 
-A short note by [@VladZhukov0](https://twitter.com/VladZhukov0) about drawing Bezier curves (strokes) with signed distance fields. 
-Continuation of [note](https://vladjuckov.github.io/hqlines/) about drawing lines with signed distance fields
+A short note by [@VladZhukov0](https://twitter.com/VladZhukov0)
+about drawing Bezier curves (strokes) with signed distance fields.
+Continuation of [note](https://vladjuckov.github.io/hqlines/)
+about drawing lines with signed distance fields
 
 [bezier_article]: https://vladjuckov.github.io/beziers-sdf/
 
