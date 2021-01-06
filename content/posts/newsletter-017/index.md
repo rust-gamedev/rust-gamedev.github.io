@@ -96,6 +96,7 @@ audio for games. It aims to fill the holes in many game engines' built-in audio
 APIs with features for creating seamless music loops and scripting audio events.
 
 Kira v0.2.0 and v0.3.0 were released recently with quite a few improvements:
+
 - Arrangements for stitching together multiple sounds and better seamless looping
 - Per-sequence custom event types
 - Groups for controlling multiple instances at a time
