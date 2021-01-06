@@ -104,6 +104,142 @@ For full details and a list of breaking changes, see the
 [tetra]: https://github.com/17cupsofcoffee/tetra
 [tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
 
+### [Bevy Engine v0.4][bevy-0-4]
+
+[![bevy logo](bevy_logo.png)][bevy]
+
+[Bevy][bevy] is a refreshingly simple data-driven game engine built in Rust.
+It is [free and open source][bevy-repo] forever!
+
+This month, thanks to 66 contributors, 178 pull requests, and their
+[generous sponsors][bevy-sponsors], Bevy 0.4 was released. You can view the
+[full Bevy 0.4 announcement here][bevy-0-4]. Here are some highlights:
+
+- WASM + WebGL2
+  - Bevy now has a WebGL2 render backend!
+- Cross Platform Main Function
+  - By adding `#[bevy_main]` to your main function,
+    you can now publish the same app code to Windows, MacOS, Linux, Android, iOS,
+    and Web.
+- Live Shader Reloading
+  - Changes to shaders are automatically recompiled and reloaded at runtime for
+    fast iteration cycles
+- ECS Improvements
+  - Flexible System Parameters
+    - You can now specify system parameters in any order
+    - Improved compile times
+    - _Much_ simpler IntoSystem implementation
+    - Easily define your own system parameters
+  - Improved Query Filter API
+    - Filters are now defined separately from components and read more naturally
+  - System Inputs, Outputs, and Chaining
+    - This allows interesting behaviors, such as system error handlers
+- Schedule V2
+  - Custom Stages: implement your own stage logic
+  - Run Criteria: only run stages when a certain criteria is met
+  - Fixed Timestep: stages can now be run on a fixed timestep
+  - Typed Stage Builders: ergonomically interact with custom stages
+- States
+  - By popular demand, Bevy now supports States. These are logical "app states"
+    that allow you to enable/disable systems according to the state your app is in.
+- GLTF Improvements
+  - Camera Importing
+  - Automatic pixel format conversion for images loaded from a GLTF
+  - Default material loading
+  - Hierarchy Fixes
+- Spawn Scenes as children
+  - Scenes can now be spawned as children, which allows transforming them via
+    their parent
+- Dynamic Linking
+  - You can now force Bevy to dynamically link, which cuts compile times significantly
+    An example that compiles in ~1.4 seconds now compiles in ~0.5 seconds!  
+- Text Layout Improvements
+  - Migrated text layout to `glyph_brush_layout`, which resolved a number of text
+    bugs
+- Renderer Optimization
+  - Made most of the cpu render logic incremental, which cut frame time by 2-4x
+  - Optimized text rendering, cutting frame time by ~3x
+- Reflection API
+  - Created a new general-purpose Rust reflection api, which enables interacting
+    with Rust types dynamically. This replaced the `bevy_property` and `bevy_type_registry`
+    systems
+- 3D Texture Assets
+- Logging and Profiling
+  - Bevy now has a new LogPlugin, which uses the `tracing` crate internally
+  - Created a custom android logcat `tracing` backend
+  - Visualizing Bevy system execution is now possible using tracing-chrome
+- HIDPI
+  - Bevy now handles HIDPI displays properly / displays crisp 2x renders in
+    most cases
+- Timer Improvements
+  - Quality-of-life improvements: pausing, field accessor methods, ergonomics improvements,
+    and internal refactoring / code quality
+- Task System
+  - Improved performance (~20% in the Breakout example) and resolved a
+    deadlock in single-thread task pools.
+- Apple Silicon support
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/kge7zy/bevy_04/),
+[hacker news](https://news.ycombinator.com/item?id=25480321),
+[twitter](https://twitter.com/cart_cart/status/1340376850560905218)_
+
+[bevy]: https://bevyengine.org
+[bevy-repo]: https://github.com/bevyengine/bevy
+[bevy-0-4]: https://bevyengine.org/news/bevy-0-4
+[bevy-sponsors]: https://github.com/sponsors/cart
+
+Join Bevy's [Discord][bevy-discord], [/r/bevy subreddit][bevy-reddit],
+and follow [@BevyEngine on Twitter][bevy-twitter].
+
+[bevy-discord]: https://discord.com/invite/gMUk5Ph
+[bevy-reddit]: https://reddit.com/r/bevy
+[bevy-twitter]: https://twitter.com/BevyEngine
+
+------
+
+Community Plugin Updates:
+
+- [bevy_webgl2](https://github.com/mrk-its/bevy_webgl2):
+  WebGL2 renderer plugin for WASM target
+- [bevy_rapier](https://github.com/dimforge/bevy_rapier):
+  Rapier Physics' official Bevy plugin was updated to support Bevy 0.4.
+- [bevy_megaui](https://github.com/mvlabat/bevy_megaui): A plugin for
+  [megaui](https://crates.io/crates/megaui) integration into Bevy
+- [bevy_prototype_inline_assets](https://crates.io/crates/bevy_prototype_inline_assets):
+  A simple plugin for bundling assets into your binary.
+- [bevy_doryen](https://github.com/smokku/bevy_doryen): A plugin integrating Bevy
+  ECS with [doryen-rs](https://github.com/jice-nospam/doryen-rs) Ascii
+  roguelike library.
+- [bevy_discovery](https://crates.io/crates/bevy_discovery): Automatically detects
+  and registers systems for you.
+- [bevy_prototype_parallax](https://github.com/btrepp/bevy-prototype-parallax):
+  A parallax scrolling background plugin.
+- [Kurinji](https://crates.io/crates/kurinji): Input Map for bevy. Converts user
+  input from different input hardware into game specific actions, eg. keyboard
+  "Space" or joystick "A" can be mapped to "Jump" Action.  This allows decoupling
+  of the game code from device specific input api.
+- [bevy-earcutr](https://github.com/frewsxcv/bevy-earcutr): Draw polygons
+- [bevy_stl](https://github.com/nilclass/bevy_stl): STL mesh asset loader plugin
+
+Community Tutorial Updates:
+
+- [Making Chess Clone in 3D](https://caballerocoll.com/blog/bevy-chess-tutorial):
+  Walkthrough on how to make a Chess Clone with 3D pieces
+- [0.3 to 0.4 Migration Guide](https://sburris.xyz/posts/bevy-update-0-4/)
+- [Bevy Chinese Website(Bevy中文网)](https://bevyengine-cn.github.io/): Translate
+  official website and The Bevy Book in Chinese
+
+Community Game Updates:
+
+- [Robbo](https://github.com/mrk-its/bevy-robbo):
+  Bevy port of great 8-bit Atari game, working native and in the browser
+- [SiO2](https://github.com/dmitriy-shmilo/sio2): A simple powder toy clone
+- [snake_bevy](https://github.com/mtKeller/snake_bevy): It's Snake!
+- [DJMcNab/life-rs](https://github.com/DJMcNab/life-rs): Bevy reproduction of the
+  rules of [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
+  on a randomised board. Alternative implementation: [Byteron/life-rs](https://github.com/Byteron/life-rs).
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
