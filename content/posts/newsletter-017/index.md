@@ -89,9 +89,9 @@ This month's updates:
 
 ### [Undergrad Thesis on game scripting for Legion]
 
-In december 2020, [@pablodiegoss] and [@rodrigocam] presented their undergrad
-thesis where they created a proof-of-concept scripting system for the Legion ECS
-, called [Legion Script]. Legion is being currently integrated into the
+In December 2020, [@pablodiegoss] and [@rodrigocam] presented their undergrad
+thesis where they created a proof-of-concept scripting system for the Legion ECS,
+called [Legion Script]. Legion is being currently integrated into the
 [Amethyst Game Engine], and this contribution might be included in future
  releases.
 
