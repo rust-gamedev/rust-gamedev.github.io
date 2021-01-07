@@ -177,6 +177,19 @@ game. Some updates include:
 
 ## Library & Tooling Updates
 
+### [raw-gl-context]
+
+[raw-gl-context] is a cross-platform library for OpenGL context creation which
+had its initial release in December. raw-gl-context works in any situation
+where a [RawWindowHandle] is available, so it can be used with [winit] and
+other windowing libraries that provide one, as well as in more diverse
+situations such as audio plugins. Currently supported platforms are Windows,
+macOS, and X11.
+
+[raw-gl-context]: https://github.com/glowcoil/raw-gl-context
+[RawWindowHandle]: https://github.com/rust-windowing/raw-window-handle
+[winit]: https://github.com/rust-windowing/winit
+
 ### [Egui]
 
 ![Egui emojis](egui.gif)
