@@ -85,6 +85,31 @@ This month's updates:
 [wor-discord]: https://discord.gg/JGeVt5XwPP
 [wor-website]: https://anthropicstudios.com/way-of-rhea
 
+### [Akigi][akigi]
+
+[Akigi][akigi] is a work-in-progress multiplayer online game world. Akigi
+is being developed by [@chinedufn] for the web and desktop using a custom
+Rust game engine.
+
+![Moving while attacking](akigi.gif)
+_Moving while attacking. Don't look at the shoulders._
+
+In December:
+
+- Added [support for additive animation blending][aiming] in order to be
+  able to aim bows.
+
+- Added a somewhat operational [skill progress meter][skill-progress].
+
+- Started a [discussion on Reddit][learning-art] about learning art as
+  a programmer.
+
+[akigi]: https://akigi.com
+[skill-progress]: https://devjournal.akigi.com/december-2020/097-2020-12-13.html
+[aiming]: https://devjournal.akigi.com/december-2020/099-2020-12-27.html#aiming
+[learning-art]: https://www.reddit.com/r/gamedev/comments/k8i773/how_i_a_mere_programmer_am_learning_to_make_game/
+[@chinedufn]: https://chinedufn.com
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
