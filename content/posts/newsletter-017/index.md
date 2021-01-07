@@ -63,18 +63,6 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
-### [Drawing Bezier curves with SDFs][bezier_article]
-
-![Demo](beziers.gif)
-Demo is availiable [here](https://pum-purum-pum-pum.github.io/bezier/)
-
-A short note by [@VladZhukov0](https://twitter.com/VladZhukov0)
-about drawing Bezier curves (strokes) with signed distance fields.
-Continuation of [note](https://vladjuckov.github.io/hqlines/)
-about drawing lines with signed distance fields
-
-[bezier_article]: https://vladjuckov.github.io/beziers-sdf/
-
 ### [Way of Rhea has a Discord!][wor-discord]
 
 ![New Way of Rhea assets](way-of-rhea.gif)
@@ -98,6 +86,18 @@ This month's updates:
 [wor-website]: https://anthropicstudios.com/way-of-rhea
 
 ## Learning Material Updates
+
+### [Drawing Bezier curves with SDFs][bezier_article]
+
+![Demo](beziers.gif)
+Demo is availiable [here](https://pum-purum-pum-pum.github.io/bezier/)
+
+A short note by [@VladZhukov0](https://twitter.com/VladZhukov0)
+about drawing Bezier curves (strokes) with signed distance fields.
+Continuation of [note](https://vladjuckov.github.io/hqlines/)
+about drawing lines with signed distance fields
+
+[bezier_article]: https://vladjuckov.github.io/beziers-sdf/
 
 ## Library & Tooling Updates
 
