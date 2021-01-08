@@ -177,6 +177,22 @@ game. Some updates include:
 
 ## Library & Tooling Updates
 
+### [Egui]
+
+![Egui emojis](egui.gif)
+_Some of the supported emojis in the [online demo][demo]._
+
+[Egui] is an easy-to-use GUI in pure Rust.
+Egui can be integrated into a game engine, or used standalone with the help of [eframe].
+This month versions 0.5, 0.6 and 0.7 were released with many improvements,
+including custom fonts, emojis and improved layout engine ([full changelog][changelog]).
+
+[Egui]: https://github.com/emilk/egui
+[demo]: https://emilk.github.io/egui
+[eframe]: https://lib.rs/eframe
+[egui_template]: https://github.com/emilk/egui_template
+[changelog]: https://github.com/emilk/egui/blob/master/CHANGELOG.md
+
 ### [Tetra]
 
 [Tetra] is a simple 2D game framework, inspired by XNA and Raylib. This month,
