@@ -218,7 +218,7 @@ _Discussions:
 [rayon]: https://github.com/rayon-rs/rayon
 [crates.io]: https://crates.io/
 
-### [Termite SIMD]: Melt Your CPU
+### [Thermite SIMD]: Melt Your CPU
 
 Thermite is a WIP SIMD library focused on providing portable SIMD (Single
 Instruction, Multiple Data) acceleration of SoA (Structure of Arrays)
