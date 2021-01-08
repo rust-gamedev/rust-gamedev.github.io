@@ -134,6 +134,19 @@ Join [Egregoria's Discord server][egregoria-discord].
 [egregoria-blog-post]: http://douady.paris/blog/egregoria_7.html
 [egregoria-discord]: https://discord.gg/CAaZhUJ
 
+### [Weegames][weegames-itch]
+
+![Four Weegames minigames](weegames.jpg)
+
+[Weegames][weegames-itch] is a fast-paced minigame collection.
+
+The game now has a [web demo][weegames-itch] ([source][weegames-demo-source])
+made with macroquad.
+Sound was recently added to the demo using the quad-snd library.
+
+[weegames-itch]: https://yeahross.itch.io/weegames
+[weegames-demo-source]: https://github.com/yeahross0/Weegames-Demo
+
 ## Learning Material Updates
 
 ### [How to Revive a Dead Rust Project][rustfest-talk]
