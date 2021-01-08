@@ -771,6 +771,29 @@ _Discussions:
 [starframe]: https://github.com/moletrooper/starframe
 [@moletrooper]: https://twitter.com/moletrooper
 
+### [Dotrix]
+
+[![Dotrix in December](dotrix-in-december.gif)][dotrix-video]
+
+Last month [Dotrix] got a major features boost that made the engine ready for
+3D games development. To demonstrate the features, the [demo example][dotrix-demo]
+was turned into an all-in-one proof-of-concept application.
+You can see the full version on [YouTube][dotrix-video].
+
+In less than 300 lines of Rust code (including comments) you can get a game
+prototype with an animated character, that you can control using your keyboard
+and mouse, run it across some flat terrain, surrounded by a skybox with a
+light source.
+
+Join the [Löwenware's Discord channel][lowenware-discord]
+or follow [@lowenware on Twitter][@lowenware].
+
+[dotrix]: https://github.com/lowenware/dotrix
+[lowenware-discord]: https://discord.com/invite/DrzwBysNRd
+[@lowenware]: https://twitter.com/lowenware
+[dotrix-demo]: https://github.com/lowenware/dotrix/blob/main/examples/demo/demo.rs
+[dotrix-video]: https://youtu.be/KXOr_KxMNWM
+
 ### [rpt]: Rust Path Tracer
 
 ![demo renders](rpt-collage.jpg)
