@@ -85,6 +85,35 @@ This month's updates:
 [wor-discord]: https://discord.gg/JGeVt5XwPP
 [wor-website]: https://anthropicstudios.com/way-of-rhea
 
+### [Vollmond][vollmond-itch]
+
+![Vollmond preview](vollmond-preview.png)
+
+[Vollmond][vollmond-itch] a small non violent adventure in the style of Zelda 2.
+You as a player are cursed and must find 4 ingredients for the famous
+`Moonshot` disenchantment potion.
+
+It was initially created for the Github Game Off 2020 Jam to gain experience
+with WASM and [macroquad]. This month a post jam version was released.
+
+It contains:
+
+- implementation of user feedback
+- adding music and sound effects
+
+The [source code][vollmond-source] is available and includes the following
+technical implementations:
+
+- drawing and modifying multilayer tilemap
+- tile-based animation and collisionlogic
+- tweening und timer
+- 4-way top-down and sideways player movement
+- independent game scenes
+
+[vollmond-itch]: https://puppetmaster.itch.io/vollmond
+[vollmond-source]: https://github.com/puppetmaster-/vollmond
+[macroquad]: https://github.com/not-fl3/macroquad
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
