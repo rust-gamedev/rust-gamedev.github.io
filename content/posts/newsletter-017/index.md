@@ -218,6 +218,28 @@ _Discussions:
 [rayon]: https://github.com/rayon-rs/rayon
 [crates.io]: https://crates.io/
 
+### [Termite SIMD]: Melt Your CPU
+
+Thermite is a WIP SIMD library focused on providing portable SIMD (Single
+Instruction, Multiple Data) acceleration of SoA (Structure of Arrays)
+algorithms, using consistent-length SIMD vectors for lockstep iteration and
+computation. Extensive research and work has gone into minimizing wasted CPU
+cycles and making the most out of what your CPU can do.
+
+The goal of Thermite is to provide highly optimized feature-rich backends for
+SSE2, SSE4.2, AVX and AVX2, with planned support for AVX512, ARM/Aarch64 NEON,
+and WASM SIMD extensions. In addition to that, Thermite will include a highly
+optimized vectorized math library with many special math functions and
+algorithms, specialized for both single and double precision.
+
+Thermite has been worked on for a little over a month now. The AVX2 backend and
+vectorized math library almost fully implemented. Pre-AVX2/WASM/ARM backends are
+a work in progress. The latest documentation is available
+[here][thermite-documentation].
+
+[thermite-documentation]: https://raygon-renderer.github.io/thermite/
+[Termite SIMD]: https://github.com/raygon-renderer/thermite
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
