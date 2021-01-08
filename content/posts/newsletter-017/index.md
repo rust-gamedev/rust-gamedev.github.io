@@ -89,7 +89,7 @@ This month's updates:
 
 ![Vollmond preview](vollmond-preview.png)
 
-[Vollmond][vollmond-itch] a small non violent adventure in the style of Zelda 2.
+[Vollmond][vollmond-itch] is a small non-violent adventure in the style of Zelda 2.
 You as a player are cursed and must find 4 ingredients for the famous
 `Moonshot` disenchantment potion.
 
