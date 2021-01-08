@@ -89,7 +89,7 @@ This month's updates:
 
 ## Library & Tooling Updates
 
-### [rpt: a rust path tracer](https://github.com/ekzhang/rpt/)
+### [rpt]: Rust Path Tracer
 
 ![demo renders](rpt-collage.jpg)
 _Sample images rendered by path tracing._
@@ -108,7 +108,7 @@ short (~3K SLOC). Future directions include extending the renderer with
 bidirectional path tracing and other features.
 
 _Discussions:
-[/r/rust](https://reddit.com/r/rust/comments/k81wwi/rpt_v01/)_
+[/r/rust](https://reddit.com/r/rust/comments/k81wwi/rpt_v01)_
 
 [rpt]: https://github.com/ekzhang/rpt
 [@ekzhang]: https://www.ekzhang.com/
