@@ -238,7 +238,7 @@ a work in progress. The latest documentation is available
 [here][thermite-documentation].
 
 [thermite-documentation]: https://raygon-renderer.github.io/thermite/
-[Termite SIMD]: https://github.com/raygon-renderer/thermite
+[Thermite SIMD]: https://github.com/raygon-renderer/thermite
 
 ## Popular Workgroup Issues in Github
 
