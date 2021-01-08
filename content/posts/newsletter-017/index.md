@@ -104,6 +104,26 @@ For full details and a list of breaking changes, see the
 [tetra]: https://github.com/17cupsofcoffee/tetra
 [tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
 
+### [Dotrix]
+
+![Dotrix in December](dotrix-in-december.gif)
+
+Last month [Dotrix] got a major features boost that made the engine ready for 3D games
+development. To demonstrate the features, we have turned our
+[demo](https://github.com/lowenware/dotrix/blob/main/examples/demo/demo.rs) example into an
+all-in-one proof-of-concept application.
+You can see the full version on [YouTube](https://youtu.be/KXOr_KxMNWM).
+
+In less than 300 lines of Rust code (including comments) you can get a game
+prototype with an animated character, that you can control using your keyboard and mouse, run
+it across some flat terrain, surrounded by a skybox with a light source.
+
+_Follow us on [Twitter](https://twitter.com/lowenware)_
+
+_Join our [Discord](https://discord.com/invite/DrzwBysNRd)_
+
+[dotrix]: https://github.com/lowenware/dotrix
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
