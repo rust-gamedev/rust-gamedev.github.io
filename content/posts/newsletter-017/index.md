@@ -175,6 +175,33 @@ game. Some updates include:
 [debug-lines]: https://twitter.com/carlosupina/status/1335289462738259974
 [player-config]: https://github.com/amethyst/space_shooter_rs/pull/101
 
+### [Building Pikachu Volleyball][pikachu-video]
+
+[![YouTube Preview: Video thumbnail with a crab and text](pikachu0.png)][pikachu-video]
+_Click to [watch the video on YouTube][pikachu-video]_
+
+[Building Pikachu Volleyball][pikachu-video] by [@danlogs] is the latest episode
+of a video series inspired by Shing Lyu's book [Practical Rust Projects][amazon-book].
+Here, [@danlogs] re-creates the Pikachu spin-off game from 1997
+by Satoshi Takenouchi - Pikachu Volleyball.
+
+Apart from being a good way for aspiring game developers to start
+understanding the gist of game dev with Rust, this video also displays some of
+the language's hardest topics (i.e. ownership, lifetimes, modules, etc.)
+in a real-world application.
+
+[The source code is available here.][pikachu-src]
+
+Join the [danlogs's Discord channel][danlogs-discord]
+or follow [@danologue on Twitter][@danologue].
+
+[pikachu-src]: https://github.com/danbugs/danlogs/tree/master/rust/projects/pikachu_volleyball
+[pikachu-video]: https://youtube.com/watch?v=Z1sxCC0CDts
+[@danlogs]: http://youtube.com/c/danlogs
+[amazon-book]: https://amazon.com/Practical-Rust-Projects-Computing-Applications/dp/1484255984
+[danlogs-discord]: https://discord.com/invite/fSWE49H
+[@danologue]: https://twitter.com/danologue
+
 ## Library & Tooling Updates
 
 ### [Egui]
