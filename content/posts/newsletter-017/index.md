@@ -88,15 +88,18 @@ This month's updates:
 ### Harvest Hero
 
 ![Harvest Hero Gameplay](harvest_hero_snippet.gif)
-Harvest Hero by [@bombfuse_dev](https://twitter.com/bombfuse_dev)
+_Harvest crops and whack those pesky Groobles!_
 
-Harvest Hero is an arcade/roguelike game. Harvest crops and whack those pesky Groobles!
-
+Harvest Hero by [@bombfuse_dev] is an arcade/roguelike game.
 This month in development:
 
-- Began working with some artists to provide a music and pixelart makeover
-- Added a new level type called "Harvest Defense"
-- Added some quality of life features like background music and sfx volume control
+- A new level type called "Harvest Defense" was added.
+- Some quality of life features like background music and sfx volume control
+  were added.
+- The devs began working with some artists to provide a music
+  and pixelart makeover.
+
+[@bombfuse_dev]: https://twitter.com/bombfuse_dev
 
 ## Learning Material Updates
 
