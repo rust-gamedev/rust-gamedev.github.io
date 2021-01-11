@@ -147,6 +147,24 @@ Sound was recently added to the demo using the quad-snd library.
 [weegames-itch]: https://yeahross.itch.io/weegames
 [weegames-demo-source]: https://github.com/yeahross0/Weegames-Demo
 
+### [A Zombie Shooter Game][a-zombie-shooter-game]
+
+[![Demo](a-zombie-shooter-game-demo.gif)][a-zombie-shooter-game-youtube]
+_Demo on YouTube_
+
+[A Zombie Shooter Game][a-zombie-shooter-game] is a work-in-progress multiplayer top-down shooter. Actually, it's a Rust port of my old Java game its goal was very simple - to shoot zombies chasing after you. The game has several advantages, like high-quality bullet ballistics and geocentric camera rotation relative to the player.
+
+This month's updates:
+- Added dummy AI.
+- Projectiles (shooting) synchronization over network.
+- Collision detection.
+
+_Discussions:
+[github](https://github.com/aunmag/shooter-rust/discussions)_
+
+[a-zombie-shooter-game]: https://github.com/aunmag/shooter-rust
+[a-zombie-shooter-game-youtube]: https://youtu.be/9o6KjlwKyGo
+
 ## Learning Material Updates
 
 ### [How to Revive a Dead Rust Project][rustfest-talk]
