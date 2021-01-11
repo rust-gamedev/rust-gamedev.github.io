@@ -279,7 +279,8 @@ _Discussions:
 ### [rg3d]
 
 [![rusty-editor screenshot](rusty-editor.jpg)][rg3d_twit]
-_A level made in [rusty-editor][rusty_editor] which a native scene editor for rg3d game engine._
+_A level made in [rusty-editor][rusty_editor] which a native scene editor
+for rg3d game engine._
 
 [rg3d] is a game engine that aims to be easy to use and provide large set
 of out-of-box features. Some of the recent updates:
@@ -294,7 +295,8 @@ of out-of-box features. Some of the recent updates:
 - rg3d-sound is now able to manage multiple contexts
 - [hrtf][hrtf] crate now has 2 times better performance
 - Added support for 64-bit FBX format (version 7500+)
-- rusty-editor now has [navigation meshes][rusty_editor_navmesh] and particle systems editor
+- rusty-editor now has [navigation meshes][rusty_editor_navmesh] and
+  particle systems editor
 - Lots of other small fixes and improvements
 
 Join the [rg3d's Discord channel][rg3d_discord]
