@@ -152,7 +152,11 @@ Sound was recently added to the demo using the quad-snd library.
 [![Demo](a-zombie-shooter-game-demo.gif)][a-zombie-shooter-game-youtube]
 _Demo on YouTube_
 
-[A Zombie Shooter Game][a-zombie-shooter-game] is a work-in-progress multiplayer top-down shooter. Actually, it's a Rust port of my old Java game its goal was very simple - to shoot zombies chasing after you. The game has several advantages, like high-quality bullet ballistics and geocentric camera rotation relative to the player.
+[A Zombie Shooter Game][a-zombie-shooter-game] is a work-in-progress multiplayer
+top-down shooter. Actually, it's a Rust port of my old Java game its goal was
+very simple - to shoot zombies chasing after you. The game has several
+advantages, like high-quality bullet ballistics and geocentric camera rotation
+relative to the player.
 
 This month's updates:
 
