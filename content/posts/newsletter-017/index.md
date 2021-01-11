@@ -255,8 +255,9 @@ _Discussions:
 ![demo renders](rpt-collage.jpg)
 _Sample images rendered by path tracing._
 
-[rpt] by [@ekzhang] is a physically based, CPU-only rendering engine written in
-Rust. It uses path tracing to generate realistic images of 3D scenes.
+[rpt] by [@ekzhang] and [@scanhex] is a physically based, CPU-only rendering
+engine written in Rust. It uses path tracing to generate realistic images of 3D
+scenes.
 
 There's a lot of features, including kd-tree mesh acceleration, physical
 material properties (microfacet BSDF with multiple importance sampling), HDRI
@@ -273,6 +274,7 @@ _Discussions:
 
 [rpt]: https://github.com/ekzhang/rpt
 [@ekzhang]: https://www.ekzhang.com/
+[@scanhex]: https://github.com/scanhex
 [rayon]: https://github.com/rayon-rs/rayon
 [crates.io]: https://crates.io/
 
