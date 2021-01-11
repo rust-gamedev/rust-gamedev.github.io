@@ -134,6 +134,22 @@ Join [Egregoria's Discord server][egregoria-discord].
 [egregoria-blog-post]: http://douady.paris/blog/egregoria_7.html
 [egregoria-discord]: https://discord.gg/CAaZhUJ
 
+### Harvest Hero
+
+![Harvest Hero Gameplay](harvest_hero_snippet.gif)
+_Harvest crops and whack those pesky Groobles!_
+
+Harvest Hero by [@bombfuse_dev] is an arcade/roguelike game.
+This month in development:
+
+- A new level type called "Harvest Defense" was added.
+- Some quality of life features like background music and sfx volume control
+  were added.
+- The devs began working with some artists to provide a music
+  and pixelart makeover.
+
+[@bombfuse_dev]: https://twitter.com/bombfuse_dev
+
 ### [Weegames][weegames-itch]
 
 ![Four Weegames minigames](weegames.jpg)
