@@ -85,9 +85,233 @@ This month's updates:
 [wor-discord]: https://discord.gg/JGeVt5XwPP
 [wor-website]: https://anthropicstudios.com/way-of-rhea
 
+### [15-minute Santa][15m-santa]
+
+![15-minute Santa](santa.png)
+
+In [15-minute Santa][15m-santa], you deliver presents around a city,
+occasionally stopping at a restaurant to refuel -- biking uphill in the snow
+isn't easy! The game uses real data from OpenStreetMap and local GIS sources to
+know where shops, single-family homes, and apartments are located. In places
+where zoning rules keep people separated from food, Santa will have a hard
+time.
+
+15-minute Santa was created by the [A/B Street](abstreet) team as an experiment
+to see how quickly we could build a simple arcade game that gets people
+thinking about how their city is designed. [The code](santa-code) doesn't make
+use of an entity-component system or an existing engine, and animation and
+particle effects don't use a custom shader. The game runs natively on Linux,
+Mac, and Windows, and on web browsers. There are instructions for modding the
+game and adding your own city!
+
+A/B Street updates will return next month. In the meantime, please comment on
+the [2021 roadmap](abstreet-roadmap).
+
+[15m-santa]: http://santa.abstreet.org
+[abstreet]: https://abstreet.org
+[santa-code]: https://github.com/dabreegster/abstreet/tree/master/santa/src/
+[abstreet-roadmap]: https://docs.google.com/document/d/1oV4mdtb0ve-wf0HqbEvR9IwXLIkTeDu8a3UnJxnr2F0/edit?usp=sharing
+
+### [Egregoria]
+
+![Egregoria farm and flour factory at night](egregoria.jpg)
+
+[Egregoria]'s objective is to become a granular society simulation,
+filled with fully autonomous agents interacting with their world in real time.
+The city should evolve by itself and form interesting patterns.
+
+The [7th devlog][egregoria-blog-post] was published. Celebrating the first
+anniversary of the project! Updates include:
+
+- A summary of Egregoria's progress and ambition.
+- Music and sounds.
+- Basic economy design.
+- A specialized gridlock detection algorithm.
+
+Join [Egregoria's Discord server][egregoria-discord].
+
+[Egregoria]: https://github.com/Uriopass/Egregoria
+[egregoria-blog-post]: http://douady.paris/blog/egregoria_7.html
+[egregoria-discord]: https://discord.gg/CAaZhUJ
+
+### [Antorum]
+
+![A view of a beach area on Antorum Isle](antorum-12-30-2020.jpg)
+
+[Antorum] is a micro-multiplayer online role-playing game by [@dooskington].
+The game server is written in Rust, and the official client is being developed
+in Unity.
+
+December was an important month for the game. Along with tons of little fixes
+and changes, major features such as NPC Dialog were finally implemented! Check
+out the dev logs for more info.
+
+- [26: Various Improvements](https://ratwizard.dev/dev-log/antorum/26)
+- [27: The Big 2020 End-Of-Year Update](https://ratwizard.dev/dev-log/antorum/27)
+
+[Antorum]: https://ratwizard.dev/dev-log/antorum
+[@dooskington]: https://twitter.com/dooskington
+
+### Harvest Hero
+
+![Harvest Hero Gameplay](harvest_hero_snippet.gif)
+_Harvest crops and whack those pesky Groobles!_
+
+Harvest Hero by [@bombfuse_dev] is an arcade/roguelike game.
+This month in development:
+
+- A new level type called "Harvest Defense" was added.
+- Some quality of life features like background music and sfx volume control
+  were added.
+- The devs began working with some artists to provide a music
+  and pixelart makeover.
+
+[@bombfuse_dev]: https://twitter.com/bombfuse_dev
+
+### [Weegames][weegames-itch]
+
+![Four Weegames minigames](weegames.jpg)
+
+[Weegames][weegames-itch] is a fast-paced minigame collection.
+
+The game now has a [web demo][weegames-itch] ([source][weegames-demo-source])
+made with macroquad.
+Sound was recently added to the demo using the quad-snd library.
+
+[weegames-itch]: https://yeahross.itch.io/weegames
+[weegames-demo-source]: https://github.com/yeahross0/Weegames-Demo
+
+### [Cheese]
+
+![A screenshot of some mice shooting other mice](cheese-screenshot.png)
+_Pew pew!_
+
+[Cheese] is a small Real Time Strategy game created for the
+[GitHub Game Off 2020]. It was written using a 'low-level gamedev stack'
+consisting of:
+
+- [wgpu-rs] for rendering,
+- [gltf] models,
+- [wgpu_glyph] for text rendering
+- [legion] for ECS
+- and [lyon_tessellation] for rendering 2D UI elements.
+
+The game is in a finished state, but it would be relatively easy to add new
+features such as unit types and buildings.
+
+Check out the source code at [github.com/expenses/cheese].
+
+[Cheese]: https://expenses.itch.io/cheese
+[GitHub Game Off 2020]: https://itch.io/jam/game-off-2020
+[wgpu-rs]: https://github.com/gfx-rs/wgpu-rs
+[gltf]: https://crates.io/crates/gltf
+[wgpu_glyph]: https://crates.io/crates/wgpu_glyph
+[legion]: https://crates.io/crates/legion
+[lyon_tessellation]: https://crates.io/crates/lyon_tessellation
+[github.com/expenses/cheese]: https://github.com/expenses/cheese
+
 ## Learning Material Updates
 
+### [How to Revive a Dead Rust Project][rustfest-talk]
+
+[![RustFest Sketchnote](how-to-revive-a-dead-rust-project.jpg)][rustfest-talk]
+_Drawing by [Carlo Gilmar][visual_partner]. Click to [watch the talk.][rustfest-talk]_
+
+At [RustFest Global 2020], [@micah_tigley] and [@carlosupina] talked about their
+experiences collaborating together to revive the [space_shooter_rs] project through
+effective planning, refactoring, and documentation. The video was recently
+[released on YouTube][talk-tweet] in December!
+
+Since then, both developers have been working away on improving the
+game. Some updates include:
+
+- [Adding debug lines for hitboxes][debug-lines]
+- [Creating configurations files to store player variables][player-config]
+
+[@micah_tigley]: https://twitter.com/micah_tigley
+[@carlosupina]: https://twitter.com/carlosupina
+[RustFest Global 2020]: https://rustfest.global/
+[rustfest-talk]: https://www.youtube.com/watch?v=qoCryIy4bFE
+[visual_partner]: https://twitter.com/visual_partner
+[talk-tweet]: https://twitter.com/carlosupina/status/1341763006716407808
+[space_shooter_rs]: https://github.com/amethyst/space_shooter_rs
+[debug-lines]: https://twitter.com/carlosupina/status/1335289462738259974
+[player-config]: https://github.com/amethyst/space_shooter_rs/pull/101
+
+### [Building Pikachu Volleyball][pikachu-video]
+
+[![YouTube Preview: Video thumbnail with a crab and text](pikachu0.png)][pikachu-video]
+_Click to [watch the video on YouTube][pikachu-video]_
+
+[Building Pikachu Volleyball][pikachu-video] by [@danlogs] is the latest episode
+of a video series inspired by Shing Lyu's book [Practical Rust Projects][amazon-book].
+Here, [@danlogs] re-creates the Pikachu spin-off game from 1997
+by Satoshi Takenouchi - Pikachu Volleyball.
+
+Apart from being a good way for aspiring game developers to start
+understanding the gist of game dev with Rust, this video also displays some of
+the language's hardest topics (i.e. ownership, lifetimes, modules, etc.)
+in a real-world application.
+
+[The source code is available here.][pikachu-src]
+
+Join the [danlogs's Discord channel][danlogs-discord]
+or follow [@danologue on Twitter][@danologue].
+
+[pikachu-src]: https://github.com/danbugs/danlogs/tree/master/rust/projects/pikachu_volleyball
+[pikachu-video]: https://youtube.com/watch?v=Z1sxCC0CDts
+[@danlogs]: http://youtube.com/c/danlogs
+[amazon-book]: https://amazon.com/Practical-Rust-Projects-Computing-Applications/dp/1484255984
+[danlogs-discord]: https://discord.com/invite/fSWE49H
+[@danologue]: https://twitter.com/danologue
+
+### [Nannou: Creative Coding with Rust][mactuitui-talk]
+
+[![A screenshot from the talk](nannou_creative_coding.jpg)][mactuitui-talk]
+_You can [watch the recording here][mactuitui-talk]._
+
+[Alexis André][@mactuitui] gave a [talk][mactuitui-talk] at
+[GitHub Universe][mactuitui-github-universe] about working with Rust
+and [Nannou][mactuitui-nannou-website], an open-source creative-coding
+framework.
+
+> Alexis André is an artist, researcher and designer aiming at redefining
+> entertainment. In this golden age of computation and data overflow,
+> why is our entertainment still designed to be consumed in a passive
+> way? A few media are offering interactive experiences, but none of
+> them are designed specifically for you. In this live demo, Alexis
+> will create a sketch from scratch for participants to experience
+> what it's like working with Nannou and Rust.
+
+The code is available at [GitHub][mactuitui-repository].
+
+_Discussions:
+[Twitter][mactuitui-discussion]_
+
+[@mactuitui]: https://twitter.com/mactuitui
+[mactuitui-talk]: https://www.youtube.com/watch?v=Ml6tpyTyXhM
+[mactuitui-repository]: https://github.com/MacTuitui/nannou-universe
+[mactuitui-discussion]: https://twitter.com/MacTuitui/status/1339863034991276035
+[mactuitui-nannou-website]: https://nannou.cc
+[mactuitui-github-universe]: https://githubuniverse.com/Nannou-creative-coding-with-Rust/
+
 ## Library & Tooling Updates
+
+### [Egui]
+
+![Egui emojis](egui.gif)
+_Some of the supported emojis in the [online demo][demo]._
+
+[Egui] is an easy-to-use GUI in pure Rust.
+Egui can be integrated into a game engine, or used standalone with the help of [eframe].
+This month versions 0.5, 0.6 and 0.7 were released with many improvements,
+including custom fonts, emojis and improved layout engine ([full changelog][changelog]).
+
+[Egui]: https://github.com/emilk/egui
+[demo]: https://emilk.github.io/egui
+[eframe]: https://lib.rs/eframe
+[egui_template]: https://github.com/emilk/egui_template
+[changelog]: https://github.com/emilk/egui/blob/master/CHANGELOG.md
 
 ### [Tetra]
 
@@ -103,6 +327,49 @@ For full details and a list of breaking changes, see the
 
 [tetra]: https://github.com/17cupsofcoffee/tetra
 [tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
+
+### [starframe]
+
+![Current state of starframe graphics and physics](starframe.gif)
+
+[starframe] by [@moletrooper] is a work-in-progress game engine
+for physics-y sidescrolling 2D games. This month, a new, more versatile
+constraint solver was used to add friction and basic joints. Collision
+detection accuracy and overall stability were also improved.
+
+_Discussions:
+[twitter](https://twitter.com/moletrooper/status/1338066680724008960)_
+
+[starframe]: https://github.com/moletrooper/starframe
+[@moletrooper]: https://twitter.com/moletrooper
+
+### [rpt]: Rust Path Tracer
+
+![demo renders](rpt-collage.jpg)
+_Sample images rendered by path tracing._
+
+[rpt] by [@ekzhang] and [@scanhex] is a physically based, CPU-only rendering
+engine written in Rust. It uses path tracing to generate realistic images of 3D
+scenes.
+
+There's a lot of features, including kd-tree mesh acceleration, physical
+material properties (microfacet BSDF with multiple importance sampling), HDRI
+environment maps, OBJ/MTL/STL files, depth of field, and particle physics
+simulation.
+
+It's also parallelized with [rayon] and available as a library on [crates.io].
+The entire source code, including code for the above examples and more, is very
+short (~3K SLOC). Future directions include extending the renderer with
+bidirectional path tracing and other features.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/k81wwi/rpt_v01)_
+
+[rpt]: https://github.com/ekzhang/rpt
+[@ekzhang]: https://www.ekzhang.com/
+[@scanhex]: https://github.com/scanhex
+[rayon]: https://github.com/rayon-rs/rayon
+[crates.io]: https://crates.io/
 
 ### [Rust Graphics Playground][rust-graphics-playground]
 
