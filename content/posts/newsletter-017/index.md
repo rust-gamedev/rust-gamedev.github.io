@@ -297,6 +297,30 @@ _Discussions:
 
 ## Library & Tooling Updates
 
+### [Kira]
+
+[Kira] by [@tesselode] is an audio library designed to help create expressive
+audio for games. It aims to fill the holes in many game engines' built-in audio
+APIs with features for creating seamless music loops and scripting audio events.
+
+Kira v0.2.0 and v0.3.0 were released recently with quite a few improvements:
+
+- Arrangements for stitching together multiple sounds and better seamless looping
+- Per-sequence custom event types
+- Groups for controlling multiple instances at a time
+- Audio streams for sending arbitrary audio data to the mixer
+- Lots of smaller features and workflow improvements
+
+Kira v0.4.0 is in the works with an API refactor, serde support for config
+structs, and WASM support.
+
+[Kira]: https://github.com/tesselode/kira
+[@tesselode]: https://twitter.com/tesselode
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/kkf1jz/kira_game_audio_library_v030_persequence_custom/),
+[Twitter](https://twitter.com/tesselode/status/1342878087990685700)_
+
 ### [Egui]
 
 ![Egui emojis](egui.gif)
