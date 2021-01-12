@@ -112,6 +112,28 @@ the [2021 roadmap](abstreet-roadmap).
 [santa-code]: https://github.com/dabreegster/abstreet/tree/master/santa/src/
 [abstreet-roadmap]: https://docs.google.com/document/d/1oV4mdtb0ve-wf0HqbEvR9IwXLIkTeDu8a3UnJxnr2F0/edit?usp=sharing
 
+### [Egregoria]
+
+![Egregoria farm and flour factory at night](egregoria.jpg)
+
+[Egregoria]'s objective is to become a granular society simulation,
+filled with fully autonomous agents interacting with their world in real time.
+The city should evolve by itself and form interesting patterns.
+
+The [7th devlog][egregoria-blog-post] was published. Celebrating the first
+anniversary of the project! Updates include:
+
+- A summary of Egregoria's progress and ambition.
+- Music and sounds.
+- Basic economy design.
+- A specialized gridlock detection algorithm.
+
+Join [Egregoria's Discord server][egregoria-discord].
+
+[Egregoria]: https://github.com/Uriopass/Egregoria
+[egregoria-blog-post]: http://douady.paris/blog/egregoria_7.html
+[egregoria-discord]: https://discord.gg/CAaZhUJ
+
 ### [doukutsu-rs][drs-repo]
 
 ![d-rs grasstown screenshot](doukutsu-rs.png)
@@ -144,28 +166,6 @@ Changes done during the last month:
 [cave-story]: https://en.wikipedia.org/wiki/Cave_Story
 [ggez]: https://ggez.rs
 [drs-android]: https://reddit.com/r/rust/comments/kh79r1/made_my_rust_remake_of_cave_story
-
-### [Egregoria]
-
-![Egregoria farm and flour factory at night](egregoria.jpg)
-
-[Egregoria]'s objective is to become a granular society simulation,
-filled with fully autonomous agents interacting with their world in real time.
-The city should evolve by itself and form interesting patterns.
-
-The [7th devlog][egregoria-blog-post] was published. Celebrating the first
-anniversary of the project! Updates include:
-
-- A summary of Egregoria's progress and ambition.
-- Music and sounds.
-- Basic economy design.
-- A specialized gridlock detection algorithm.
-
-Join [Egregoria's Discord server][egregoria-discord].
-
-[Egregoria]: https://github.com/Uriopass/Egregoria
-[egregoria-blog-post]: http://douady.paris/blog/egregoria_7.html
-[egregoria-discord]: https://discord.gg/CAaZhUJ
 
 ### [Weegames][weegames-itch]
 
