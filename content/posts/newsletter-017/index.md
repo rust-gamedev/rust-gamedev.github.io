@@ -90,14 +90,16 @@ This month's updates:
 ### [Drawing Bezier curves with SDFs][bezier_article]
 
 ![Demo](beziers.gif)
-Demo is availiable [here](https://pum-purum-pum-pum.github.io/bezier/)
+_The demo is availiable [here][bezier_demo]_
 
-A short note by [@VladZhukov0](https://twitter.com/VladZhukov0)
-about drawing Bezier curves (strokes) with signed distance fields.
-Continuation of [note](https://vladjuckov.github.io/hqlines/)
-about drawing lines with signed distance fields
+A short note by [@VladZhukov0] about drawing Bezier curves (strokes)
+with signed distance fields.
+Continuation of a [previous note][hqlines] about drawing lines with SDF.
 
-[bezier_article]: https://vladjuckov.github.io/beziers-sdf/
+[bezier_article]: https://vladjuckov.github.io/beziers-sdf
+[bezier_demo]: https://pum-purum-pum-pum.github.io/bezier
+[@VladZhukov0]: https://twitter.com/VladZhukov0
+[hqlines]: https://vladjuckov.github.io/hqlines
 
 ## Library & Tooling Updates
 
