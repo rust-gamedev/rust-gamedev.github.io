@@ -488,6 +488,43 @@ For full details and a list of breaking changes, see the
 [tetra]: https://github.com/17cupsofcoffee/tetra
 [tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
 
+### [macroquad]
+
+![macroquad_profiling](macroquad-profiling.gif)
+_Macroquad-profiler footage._
+
+[macroquad] is a cross-platform (Windows/Linux/macOS/Android/iOS/WASM)
+game framework built on top of [miniquad].
+This month's updates:
+
+- The source code of the previously announced [particles editor][particles-web]
+  got [released][particles-source].
+
+- A new `telemetry` module was introduced exposing
+  the frame timing data to any third-party visualisation tool.
+  For in-game profiling data visualisation the `macroquad-profiler` crate
+  is available.
+
+  [A new book chapter "Profiling" was released][profiling-blog]
+  with more information on the subject.
+
+- `physics-platformer` is a new optional crate based on Maddy Thorson's
+  ["Celeste and TowerFall Physics" blogpost][celeste-physics] on platformers physics:
+  [web demo][platformer-web], [source code][platformer-source].
+
+- Also, macroquad was featured in the episode
+  of the [Rust GameDev Podcast][macroquad-interview].
+
+[macroquad-interview]: https://rustgamedev.com/episodes/interview-with-fedor-logachev
+[platformer-source]: https://github.com/not-fl3/macroquad/blob/master/examples/platformer.rs
+[platformer-web]: https://not-fl3.github.io/miniquad-samples/platformer.html
+[celeste-physics]: https://maddythorson.medium.com/celeste-and-towerfall-physics-d24bd2ae0fc5
+[miniquad]: https://github.com/not-fl3/miniquad
+[macroquad]: https://github.com/not-fl3/macroquad
+[particles-web]: https://fedorgames.itch.io/macroquad-particles
+[particles-source]: https://github.com/not-fl3/particles-editor
+[profiling-blog]: https://not-fl3.github.io/platformer-book/profiling.html
+
 ### [starframe]
 
 ![Current state of starframe graphics and physics](starframe.gif)
