@@ -205,6 +205,39 @@ Join [Egregoria's Discord server][egregoria-discord].
 [egregoria-blog-post]: http://douady.paris/blog/egregoria_7.html
 [egregoria-discord]: https://discord.gg/CAaZhUJ
 
+### [doukutsu-rs][drs-repo]
+
+![d-rs grasstown screenshot](doukutsu-rs.png)
+
+[doukutsu-rs][drs-repo] is a remake of [Cave Story][cave-story] engine,
+meant to be a drop-in replacement for the original game executable
+(both freeware and commercial version), focused on being a portable modding
+tool (most Cave Story mods patch the executable directly, including machine
+code editing/assembly hacks) and adding various visual and gameplay-related
+enhancements.
+
+Built mainly using modified [ggez] crate, runs on desktop and Android.
+
+Changes done during the last month:
+
+- [An Android port with full touchscreen controls][drs-android].
+- Work has been started on Lua API, meant for building custom stuff
+  on top of the engine.
+- Work started on pushing the project's changes upstream and moving back
+  to mainline versions of crates.
+- Improvements to the Organya player (a simple synthetiser that plays the
+  in-game music using a set of 100 waves and 6 drum samples).
+- A bunch of missing NPCs, bosses and other stuff were added.
+- The way how game loop works was redesigned, in preparation
+  for adding networked multiplayer support.
+- Countless bug fixes.
+
+[drs-discord]: https://discord.gg/fbRsNNB
+[drs-repo]: https://github.com/doukutsu-rs/doukutsu-rs
+[cave-story]: https://en.wikipedia.org/wiki/Cave_Story
+[ggez]: https://ggez.rs
+[drs-android]: https://reddit.com/r/rust/comments/kh79r1/made_my_rust_remake_of_cave_story
+
 ### [Antorum]
 
 ![A view of a beach area on Antorum Isle](antorum-12-30-2020.jpg)
