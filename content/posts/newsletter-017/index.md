@@ -336,6 +336,23 @@ or follow [@danologue on Twitter][@danologue].
 [danlogs-discord]: https://discord.com/invite/fSWE49H
 [@danologue]: https://twitter.com/danologue
 
+### [Creative Coding in Rust: Re-creating Retro Screensaver][timclicks-session]
+
+[![A screenshot from the coding sesion](retro_screensaver.jpg)][timclicks-session]
+_You can [watch the recording here][timclicks-session]._
+
+[@timClicks] live streamed a coding session featuring
+[Nannou][timclicks-nannou], an open-source creative-coding framework,
+which is used to recreate the Mystify screensaver that appeared in Windows 3.1.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/jxhozr/creative_coding_in_rust),
+[Twitter](https://twitter.com/timClicks/status/1327789155930128387)_
+
+[@timClicks]: https://twitter.com/timClicks
+[timclicks-session]: https://youtube.com/watch?v=d9lsT4kJo44
+[timclicks-nannou]: https://nannou.cc
+
 ### [Nannou: Creative Coding with Rust][mactuitui-talk]
 
 [![A screenshot from the talk](nannou_creative_coding.jpg)][mactuitui-talk]
