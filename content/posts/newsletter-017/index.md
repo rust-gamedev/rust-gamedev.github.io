@@ -474,6 +474,29 @@ in [this Amethyst forum thread][thesis-thread].
 
 ## Library & Tooling Updates
 
+### [This Month in Mun][mun-december]
+
+[![Mun logo](mun-logo.png)][Mun]
+
+[Mun] is a scripting language for gamedev focused on quick iteration times
+that is written in Rust.
+
+November went by without the usual monthly update from the Mun team, as they
+were unable to make much headway. Instead they posted a slightly different
+[blog][mun-november], expressing their desire to add a third developer to the
+Mun Core Team, whom they are willing to fund themselves - albeit a token
+amount.
+
+The team was able to start ramping back up during the holiday; those
+[December updates][mun-december] include:
+
+- language support for `use` statements;
+- Rust version updates and bugfixes.
+
+[Mun]: https://mun-lang.org
+[mun-november]: https://mun-lang.org/blog/2020/12/07/this-month-november
+[mun-december]: https://mun-lang.org/blog/2021/01/05/this-month-december
+
 ### [Kira]
 
 [Kira] by [@tesselode] is an audio library designed to help create expressive
