@@ -85,11 +85,9 @@ This month's updates:
 [wor-discord]: https://discord.gg/JGeVt5XwPP
 [wor-website]: https://anthropicstudios.com/way-of-rhea
 
-
-
 ### [Shotcaller]
 
-![Shotcaller dual frontend](/Users/erlend/Documents/GitHub/rust-gamedev.github.io/content/posts/newsletter-016/shotcaller-2guis.png)
+![Shotcaller dual frontend](shotcaller-2guis.png)
 _ASCII and sprites versions of Shotcaller interface._
 
 [Shotcaller] is a moddable RTS/MOBA game made with bracket-lib.
@@ -100,7 +98,7 @@ No new release is out yet, but several major updates happened:
 - [TreePerson](https://github.com/amethyst/shotcaller/pull/24) leader added.
 - [Generic Leader 2](https://github.com/amethyst/shotcaller/pull/25) pending.
 - More documentation.
-- Moved from specs to our own, heavily specs-based plank_ecs.
+- The game moved from specs to their own, heavily specs-based plank_ecs.
 
 Contributions welcome: [try add a new Leader][shotcaller-issue-leader].
 
