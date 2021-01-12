@@ -101,9 +101,9 @@ release of rust-gpu 0.2, including a tonne of new features and capabilities.
 Some of the highlights include:
 
 - [You can build and test your shaders on the web.][rust-gpu-web] Thanks to SHADERed.
-- [Support for accessing and sampling textures.][rust-gpu-textures]
-- [Initial support for compute shaders][rust-gpu-compute]
-- [Rust's new `asm!` macro now supports writing SPIR-V][rust-gpu-asm]
+- [Support for accessing and sampling textures][rust-gpu-textures].
+- [Initial support for compute shaders][rust-gpu-compute].
+- [Rust's new `asm!` macro now supports writing SPIR-V][rust-gpu-asm].
 
 [rust-gpu]: https://github.com/EmbarkStudios/rust-gpu
 [rust-gpu-web]: https://shadered.org/blog?id=4
