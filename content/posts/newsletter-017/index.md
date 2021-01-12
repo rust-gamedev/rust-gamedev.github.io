@@ -91,7 +91,7 @@ This month's updates:
 
 ### [rust-gpu]
 
-![A collage of various shadertoy.com shaders built with rust-gpu.](https://user-images.githubusercontent.com/1262692/101198544-e8c7c300-3663-11eb-9e33-f901ac80cd13.png)
+![A collage of various shadertoy.com shaders built with rust-gpu.](rust-gpu-shaders.jpeg)
 _Various shaders from shadertoy.com ported to Rust and built with rust-gpu._
 
 [rust-gpu] is a new codegen backend by Embark Studios for Rust, aimed at making
