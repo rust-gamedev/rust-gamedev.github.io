@@ -365,6 +365,34 @@ Check out the source code at [github.com/expenses/cheese].
 [lyon_tessellation]: https://crates.io/crates/lyon_tessellation
 [github.com/expenses/cheese]: https://github.com/expenses/cheese
 
+### [Vollmond][vollmond]
+
+![Vollmond preview](vollmond-preview.png)
+
+[Vollmond][vollmond] is a small non-violent adventure in the style of Zelda 2.
+You as a player are cursed and must find 4 ingredients for the famous
+`Moonshot` disenchantment potion.
+
+It was initially created for the Github Game Off 2020 Jam to gain experience
+with WASM and [macroquad]. This month a post jam version was released.
+It contains:
+
+- implementation of user feedback,
+- adding music and sound effects.
+
+The [source code][vollmond-source] is available and includes the following
+technical implementations:
+
+- drawing and modifying multilayer tilemap,
+- tile-based animation and collisionlogic,
+- tweening und timer,
+- 4-way top-down and sideways player movement,
+- independent game scenes.
+
+[vollmond]: https://puppetmaster.itch.io/vollmond
+[vollmond-source]: https://github.com/puppetmaster-/vollmond
+[macroquad]: https://github.com/not-fl3/macroquad
+
 ## Learning Material Updates
 
 ### [How to Revive a Dead Rust Project][rustfest-talk]
