@@ -418,6 +418,28 @@ _Discussions:
 [/r/rust](https://www.reddit.com/r/rust/comments/kkf1jz/kira_game_audio_library_v030_persequence_custom/),
 [Twitter](https://twitter.com/tesselode/status/1342878087990685700)_
 
+### [rust-gpu]
+
+![A collage of various shadertoy.com shaders built with rust-gpu.](rust-gpu-shaders.jpeg)
+_Various shaders from shadertoy.com ported to Rust and built with rust-gpu._
+
+[rust-gpu] is a new codegen backend by Embark Studios for Rust, aimed at making
+Rust a first class language for writing GPU shaders! This past month was the
+release of rust-gpu 0.2, including a tonne of new features and capabilities.
+
+Some of the highlights include:
+
+- [You can build and test your shaders on the web.][rust-gpu-web] Thanks to SHADERed.
+- [Support for accessing and sampling textures][rust-gpu-textures].
+- [Initial support for compute shaders][rust-gpu-compute].
+- [Rust's new `asm!` macro now supports writing SPIR-V][rust-gpu-asm].
+
+[rust-gpu]: https://github.com/EmbarkStudios/rust-gpu
+[rust-gpu-web]: https://shadered.org/blog?id=4
+[rust-gpu-textures]: https://github.com/EmbarkStudios/rust-gpu/pull/276
+[rust-gpu-compute]: https://github.com/EmbarkStudios/rust-gpu/pull/195
+[rust-gpu-asm]: https://github.com/EmbarkStudios/rust-gpu/pull/254
+
 ### [Egui]
 
 ![Egui emojis](egui.gif)
