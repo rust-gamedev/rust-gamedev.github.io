@@ -93,89 +93,68 @@ _A village over the river_
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.
 
-In December, Veloren released its 100th devblog! This edition included sections
-from 20 contributors, making it by far the longest devblog yet. Lots of work was
-done on the economic simulation. Gliders physics were overhauled, and new models
-were created for it. Reflective water was added to the level of detail system,
-making far-off lakes look much better. A plugin system is in the prototyping
-phase. This will eventually allow mods to be added to the game. Skill trees are
-making progress as well, and a crafting overhaul is in the works. Trees are
-moving towards becoming procedurally generated. An aura system was added for
-radial buffs around entities, for example, being near a fireplace now allows you
-to heal.
+In December, Veloren [released its 100th devblog][veloren-blog-100]!
+This edition included sections about all aspects of the project
+from 20 contributors, making it by far the longest Veloren devblog yet:
 
-[![Youtube preview img](veloren-glider.gif)][veloren-0.8-gameplay]
-_New glider physics video_
+- [A journey to implement a controller support with gilrs][veloren-gilrs].
+- Two sections about modelling: [by @Gemu][veloren-modelling-1]
+  and [by @Snowram][veloren-modelling-2].
+- [Veloren's database persistence and inventory improvements][veloren-persistence].
+- [Combat improvements: new weapon skills, better AI, and a poise system][veloren-combat].
+- [Network analysis and an overview of new Network Backend][veloren-net].
+- Overviews of [the state of graphics and UI][veloren-graphics],
+  [the graphical future of the game][veloren-graphic-future],
+  and [UI progress][veloren-ui].
+- [Procedural generation of unique, good looking, and fun to climb trees][veloren-trees].
+- [New website design prototypes][veloren-site].
+- And lots of other interesting sections with updates
+  and personal contributors' stories.
 
-You can read more about specific topics from December:
+Other December updates include:
 
-[Worldgen Meeting][veloren-1] |
-[Economic Simulation Pt.1][veloren-2] |
-[Economic Simulation Pt.2][veloren-3] |
-[Blog Preface][veloren-4] |
-[A Veloren Short Story][veloren-5] |
-[UI Progress][veloren-6] |
-[Glider Physics][veloren-7] |
-[Controller Support][veloren-8] |
-[Modeling Pt.1][veloren-9] |
-[Modeling Pt.2][veloren-10] |
-[Persistence and Inventory][veloren-11] |
-[Combat Improvements][veloren-12] |
-[Starting With Audio][veloren-13] |
-[Network Analysis][veloren-14] |
-[The State of Graphics and UI][veloren-15] |
-[Skill Trees][veloren-16] |
-[Procedural Trees][veloren-17] |
-[New Website Design][veloren-18] |
-[Why Veloren is Special to Me][veloren-19] |
-[Getting Into RTSim][veloren-20] |
-[Finding Veloren][veloren-21] |
-[New Developer Experience][veloren-22] |
-[Looking to the Graphical Future][veloren-23] |
-[Combat System Design][veloren-24]
+- Lots of work on the economic simulation:
+  [part 1][veloren-econ-1], [part 2][veloren-econ-2].
+- [Reflective water was added to the level of detail system][veloren-98-contributors],
+  making far-off lakes look much better.
+- A plugin system is in the prototyping phase.
+  This will eventually allow mods to be added to the game.
+- An aura system was added for radial buffs around entities, for example,
+  being near a fireplace now allows you to heal.
 
 December's full weekly devlogs: "This Week In Veloren...":
-[#97](https://veloren.net/devblog-97/),
-[#98](https://veloren.net/devblog-98/),
-[#99](https://veloren.net/devblog-99/),
-[#100](https://veloren.net/devblog-100/),
+[#97](https://veloren.net/devblog-97),
+[#98](https://veloren.net/devblog-98),
+[#99](https://veloren.net/devblog-99),
+[#100](https://veloren.net/devblog-100).
+
+[![Youtube preview img](veloren-glider.gif)][veloren-0.8-gameplay]
+_[New glider physics][veloren-glider] video_
 
 In January, work will continue on 0.9. Work will be done on economic simulation,
 world simulation, and combat systems. New developers are joining the project
 every month, and development is moving forward quickly.
 
-![Healing sceptre](veloren2.jpg)
-_The village of Mast overlooking the cove_
-
-[veloren-1]: https://veloren-net/devblog-97#worldgen-meeting-by-zesterer
-[veloren-2]: https://veloren-net/devblog-98#economic-simulation-update-by-christof
-[veloren-3]: https://veloren-net/devblog-99#economic-simulation-by-christof
-[veloren-4]: https://veloren-net/devblog-100#preface-by-angelonfira
-[veloren-5]: https://veloren-net/devblog-100#a-veloren-short-story-by-zesterer
-[veloren-6]: https://veloren-net/devblog-100#ui-progress-by-pfau
-[veloren-7]: https://veloren-net/devblog-100#glider-physics-by-slipped
-[veloren-8]: https://veloren-net/devblog-100#mckol-s-veloren-journey
-[veloren-9]: https://veloren-net/devblog-100#modeling-with-gemu
-[veloren-10]: https://veloren-net/devblog-100#modeling-with-snowram
-[veloren-11]: https://veloren-net/devblog-100#work-by-xvar
-[veloren-12]: https://veloren-net/devblog-100#combat-improvements-by-james
-[veloren-13]: https://veloren-net/devblog-100#starting-with-audio-by-badbbad
-[veloren-14]: https://veloren-net/devblog-100#network-analysis-by-xmac94x
-[veloren-15]: https://veloren-net/devblog-100#the-state-of-graphics-and-ui-by-imbris
-[veloren-16]: https://veloren-net/devblog-100#skill-trees-by-sam
-[veloren-17]: https://veloren-net/devblog-100#procedural-trees-by-ccgauche
-[veloren-18]: https://veloren-net/devblog-100#new-website-design-by-songtronix
-[veloren-19]: https://veloren-net/devblog-100#why-veloren-is-special-to-me-by-christof
-[veloren-20]: https://veloren-net/devblog-100#getting-into-rtsim-by-ubruntu
-[veloren-21]: https://veloren-net/devblog-100#finding-veloren-by-yusdacra
-[veloren-22]: https://veloren-net/devblog-100#new-developer-experience-by-entropy
-[veloren-23]: https://veloren-net/devblog-100#looking-to-the-graphical-future-by-sharp
-[veloren-24]: https://veloren-net/devblog-100#combat-system-design-by-silentium
 [veloren]: https://veloren.net
+[veloren-blog-100]: https://veloren.net/devblog-100
+[veloren-98-contributors]: https://veloren.net/devblog-98/#contributor-work
+[veloren-econ-1]: https://veloren.net/devblog-98#economic-simulation-update-by-christof
+[veloren-econ-2]: https://veloren.net/devblog-99#economic-simulation-by-christof
+[veloren-ui]: https://veloren.net/devblog-100#ui-progress-by-pfau
+[veloren-glider]: https://veloren.net/devblog-100#glider-physics-by-slipped
+[veloren-gilrs]: https://veloren.net/devblog-100#mckol-s-veloren-journey
+[veloren-modelling-1]: https://veloren.net/devblog-100#modeling-with-gemu
+[veloren-modelling-2]: https://veloren.net/devblog-100#modeling-with-snowram
+[veloren-persistence]: https://veloren.net/devblog-100#work-by-xvar
+[veloren-combat]: https://veloren.net/devblog-100#combat-improvements-by-james
+[veloren-net]: https://veloren.net/devblog-100#network-analysis-by-xmac94x
+[veloren-graphics]: https://veloren.net/devblog-100#the-state-of-graphics-and-ui-by-imbris
+[veloren-trees]: https://veloren.net/devblog-100#procedural-trees-by-ccgauche
+[veloren-site]: https://veloren.net/devblog-100#new-website-design-by-songtronix
+[veloren-graphic-future]: https://veloren.net/devblog-100#looking-to-the-graphical-future-by-sharp
 [veloren-0.8-changelog]: https://gitlab.com/veloren/veloren/-/blob/master/CHANGELOG.md#080-2020-11-28
-[veloren-minidebconf-talk]: https://www.youtube.com/watch?v=76FPpOnshNw
-[veloren-gamingonlinux-article]: https://www.gamingonlinux.com/2020/11/inspired-by-the-likes-of-cube-world-open-source-rpg-veloren-has-the-biggest-update-yet
-[veloren-0.8-gameplay]: https://www.youtube.com/watch?v=8WWVe1cIu7I
+[veloren-minidebconf-talk]: https://youtube.com/watch?v=76FPpOnshNw
+[veloren-0.8-gameplay]: https://youtube.com/watch?v=8WWVe1cIu7I
 
 ## Learning Material Updates
 
