@@ -112,36 +112,38 @@ the [2021 roadmap](abstreet-roadmap).
 [santa-code]: https://github.com/dabreegster/abstreet/tree/master/santa/src/
 [abstreet-roadmap]: https://docs.google.com/document/d/1oV4mdtb0ve-wf0HqbEvR9IwXLIkTeDu8a3UnJxnr2F0/edit?usp=sharing
 
-### doukutsu-rs
+### [doukutsu-rs][drs-repo]
 
 ![d-rs grasstown screenshot](doukutsu-rs.png)
 
-[doukutsu-rs][drs-repo] is a remake of [Cave Story](https://en.wikipedia.org/wiki/Cave_Story)
-engine, meant to be a drop-in replacement for the original game executable
+[doukutsu-rs][drs-repo] is a remake of [Cave Story][cave-story] engine,
+meant to be a drop-in replacement for the original game executable
 (both freeware and commercial version), focused on being a portable modding
 tool (most Cave Story mods patch the executable directly, including machine
 code editing/assembly hacks) and adding various visual and gameplay-related
 enhancements.
 
-Built mainly using modified [ggez](https://ggez.rs/) crate, runs on desktop
-and Android.
+Built mainly using modified [ggez] crate, runs on desktop and Android.
 
-Changes done during last month:
+Changes done during the last month:
 
-- [Made an Android port with full touchscreen controls.](https://www.reddit.com/r/rust/comments/kh79r1/made_my_rust_remake_of_cave_story_engine_run_on/)
-- Started work on Lua API, meant for building custom stuff on top of the
-  engine.
-- Started work on pushing our changes upstream and moving back to mainline
-  versions of crates.
+- [An Android port with full touchscreen controls][drs-android].
+- Work has been started on Lua API, meant for building custom stuff
+  on top of the engine.
+- Work started on pushing the project's changes upstream and moving back
+  to mainline versions of crates.
 - Improvements to the Organya player (a simple synthetiser that plays the
   in-game music using a set of 100 waves and 6 drum samples).
-- Added a bunch of missing NPCs, bosses and other stuff.
-- Redesigned the way how game loop works, in preparation for adding networked
-  multiplayer support.
+- A bunch of missing NPCs, bosses and other stuff were added.
+- The way how game loop works was redesigned, in preparation
+  for adding networked multiplayer support.
 - Countless bug fixes.
 
 [drs-discord]: https://discord.gg/fbRsNNB
 [drs-repo]: https://github.com/doukutsu-rs/doukutsu-rs
+[cave-story]: https://en.wikipedia.org/wiki/Cave_Story
+[ggez]: https://ggez.rs
+[drs-android]: https://reddit.com/r/rust/comments/kh79r1/made_my_rust_remake_of_cave_story
 
 ### [Egregoria]
 
