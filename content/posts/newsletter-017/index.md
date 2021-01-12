@@ -416,6 +416,20 @@ _Discussions:
 [timclicks-session]: https://youtube.com/watch?v=d9lsT4kJo44
 [timclicks-nannou]: https://nannou.cc
 
+### [Drawing Bezier curves with SDFs][bezier_article]
+
+![Demo](beziers.gif)
+_The demo is availiable [here][bezier_demo]_
+
+A short note by [@VladZhukov0] about drawing Bezier curves (strokes)
+with signed distance fields.
+Continuation of a [previous note][hqlines] about drawing lines with SDF.
+
+[bezier_article]: https://vladjuckov.github.io/beziers-sdf
+[bezier_demo]: https://pum-purum-pum-pum.github.io/bezier
+[@VladZhukov0]: https://twitter.com/VladZhukov0
+[hqlines]: https://vladjuckov.github.io/hqlines
+
 ### [Nannou: Creative Coding with Rust][mactuitui-talk]
 
 [![A screenshot from the talk](nannou_creative_coding.jpg)][mactuitui-talk]
