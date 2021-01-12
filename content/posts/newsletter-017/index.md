@@ -344,11 +344,11 @@ Check out the source code at [github.com/expenses/cheese].
 [lyon_tessellation]: https://crates.io/crates/lyon_tessellation
 [github.com/expenses/cheese]: https://github.com/expenses/cheese
 
-### [Vollmond][vollmond-itch]
+### [Vollmond][vollmond]
 
 ![Vollmond preview](vollmond-preview.png)
 
-[Vollmond][vollmond-itch] is a small non-violent adventure in the style of Zelda 2.
+[Vollmond][vollmond] is a small non-violent adventure in the style of Zelda 2.
 You as a player are cursed and must find 4 ingredients for the famous
 `Moonshot` disenchantment potion.
 
@@ -368,7 +368,7 @@ technical implementations:
 - 4-way top-down and sideways player movement,
 - independent game scenes.
 
-[vollmond-itch]: https://puppetmaster.itch.io/vollmond
+[vollmond]: https://puppetmaster.itch.io/vollmond
 [vollmond-source]: https://github.com/puppetmaster-/vollmond
 [macroquad]: https://github.com/not-fl3/macroquad
 
