@@ -366,6 +366,32 @@ _Discussions:
 [mactuitui-nannou-website]: https://nannou.cc
 [mactuitui-github-universe]: https://githubuniverse.com/Nannou-creative-coding-with-Rust/
 
+### [Undergrad Thesis on Game Scripting for Legion][legion-script]
+
+In December 2020, [@pablodiegoss] and [@rodrigocam] presented their undergrad
+thesis where they created a proof-of-concept scripting system for the Legion ECS,
+called [Legion Script][legion-script].
+Legion is being currently integrated into the [Amethyst game engine][amethyst],
+and this contribution might be included in future releases.
+
+With [Legion Script][legion-script], it is possible to declare, write and read
+components into Legion using Python scripts.
+However, this project exports an API which can be evolved
+for other languages and interpreters.
+
+Since then, both developers have been sharing their work and receiving feedbacks
+for the project while planning the next steps for the code, which is available
+at [GitHub][legion-script].
+
+The PDF version of the thesis could be found
+in [this Amethyst forum thread][thesis-thread].
+
+[legion-script]: https://github.com/redcodestudios/legion_script
+[@pablodiegoss]: https://github.com/pablodiegoss
+[@rodrigocam]: https://github.com/rodrigocam
+[amethyst]: https://github.com/amethyst/amethyst
+[thesis-thread]: https://community.amethyst.rs/t/undergrad-thesis-on-game-scripting-for-legion/1753
+
 ## Library & Tooling Updates
 
 ### [Kira]
