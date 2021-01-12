@@ -104,13 +104,14 @@ Since then, both developers have been sharing their work and receiving feedbacks
 for the project while planning the next steps for the code, which is available
 at [GitHub][legion-script].
 
-_Discussions:
-[Amethyst forum](https://community.amethyst.rs/t/undergrad-thesis-on-game-scripting-for-legion/1753)_
+The PDF version of the thesis could be found
+in [this Amethyst forum thread][thesis-thread].
 
 [legion-script]: https://github.com/redcodestudios/legion_script
 [@pablodiegoss]: https://github.com/pablodiegoss
 [@rodrigocam]: https://github.com/rodrigocam
 [amethyst]: https://github.com/amethyst/amethyst
+[thesis-thread]: https://community.amethyst.rs/t/undergrad-thesis-on-game-scripting-for-legion/1753
 
 ## Library & Tooling Updates
 
