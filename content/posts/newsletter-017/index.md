@@ -521,6 +521,18 @@ _Discussions:
 [/r/rust](https://www.reddit.com/r/rust/comments/kkf1jz/kira_game_audio_library_v030_persequence_custom/),
 [Twitter](https://twitter.com/tesselode/status/1342878087990685700)_
 
+### [SPIR-Q] v0.4.10
+
+[SPIR-Q] is a light-weight SPIR-V query library which supports one-pass shader
+parsing and reflection. The latest release, version 0.4.10, introduced customized
+shader auditing by allowing the users to hook and to inspect the instructions
+SPIR-Q has worked on, while with all access to its reflection intermediates.
+
+For more information, please refer to [the original post][spirq-reddit].
+
+[SPIR-Q]: https://github.com/penguinliong/spirq-rs
+[spirq-reddit]: https://reddit.com/r/rust_gamedev/comments/kgv4gh/spirq_0410
+
 ### [rust-gpu]
 
 ![A collage of various shadertoy.com shaders built with rust-gpu.](rust-gpu-shaders.jpeg)
