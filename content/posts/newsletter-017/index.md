@@ -111,23 +111,27 @@ _Macroquad-profiler footage._
 
 [macroquad] is a cross-platform (Windows/Linux/macOS/Android/iOS/WASM)
 game framework built on top of [miniquad].
+This month's updates:
 
-*Macroquad-particles*: [particles editor][particles-web] source code got
-[released][particles-source].
+- The source code of the previously announced [particles editor][particles-web]
+  got [released][particles-source].
 
-*Macroquad-profiler*: new `telemetry` module was introduced exposing some frame
-timing data to any third-party visualisation tool. For in-game profiling data
-visualisation `macroquad-profiler` crate is available.  
-[Blog post on profiling in macroquad][profiling-blog]
+- A new `telemetry` module was introduced exposing
+  the frame timing data to any third-party visualisation tool.
+  For in-game profiling data visualisation the `macroquad-profiler` crate
+  is available.
 
-*Physics-platformer*: new optional crate based on Maddy Thorson's [Celeste and
-TowerFall Physics blogpost][celeste-physics] on platformers physics.
-[Web demo][platformer-web], [source-code][platformer-source]  
+  [A new book chapter "Profiling" was released][profiling-blog]
+  with more information on the subject.
 
-*Podcast*: Macroquad was featured in the episode of the [Rust Game Dev Podcast][macroquad-interview]
+- `physics-platformer` is a new optional crate based on Maddy Thorson's
+  ["Celeste and TowerFall Physics" blogpost][celeste-physics] on platformers physics:
+  [web demo][platformer-web], [source code][platformer-source].
+
+- Also, macroquad was featured in the episode
+  of the [Rust GameDev Podcast][macroquad-interview].
 
 [macroquad-interview]: https://rustgamedev.com/episodes/interview-with-fedor-logachev
-
 [platformer-source]: https://github.com/not-fl3/macroquad/blob/master/examples/platformer.rs
 [platformer-web]: https://not-fl3.github.io/miniquad-samples/platformer.html
 [celeste-physics]: https://maddythorson.medium.com/celeste-and-towerfall-physics-d24bd2ae0fc5
