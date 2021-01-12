@@ -315,6 +315,27 @@ Sound was recently added to the demo using the quad-snd library.
 [weegames-itch]: https://yeahross.itch.io/weegames
 [weegames-demo-source]: https://github.com/yeahross0/Weegames-Demo
 
+### [Shotcaller]
+
+![Shotcaller dual frontend](shotcaller-2guis.png)
+_ASCII and sprites versions of Shotcaller interface._
+
+[Shotcaller] is a moddable RTS/MOBA game made with bracket-lib.
+
+No new release is out yet, but several major updates happened:
+
+- [Basic AI profiles](https://github.com/amethyst/shotcaller/pull/19) for leaders.
+- [TreePerson](https://github.com/amethyst/shotcaller/pull/24) leader added.
+- [Generic Leader 2](https://github.com/amethyst/shotcaller/pull/25) pending.
+- More documentation.
+- The game moved from specs to their own, heavily specs-based plank_ecs.
+
+Contributions welcome: [try add a new Leader][shotcaller-issue-leader].
+
+[Shotcaller]: https://github.com/amethyst/shotcaller
+[shotcaller-web]: https://shotcaller.jojolepro.com/
+[shotcaller-issue-leader]: https://github.com/amethyst/shotcaller/issues/6
+
 ### [Cheese]
 
 ![A screenshot of some mice shooting other mice](cheese-screenshot.png)
