@@ -85,9 +85,393 @@ This month's updates:
 [wor-discord]: https://discord.gg/JGeVt5XwPP
 [wor-website]: https://anthropicstudios.com/way-of-rhea
 
+### [Veloren][veloren]
+
+![Landscape](veloren1.jpg)
+_A village over the river_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In December, Veloren [released its 100th devblog][veloren-blog-100]!
+This edition included sections about all aspects of the project
+from 20 contributors, making it by far the longest Veloren devblog yet:
+
+- [A journey to implement a controller support with gilrs][veloren-gilrs].
+- Two sections about modelling: [by @Gemu][veloren-modelling-1]
+  and [by @Snowram][veloren-modelling-2].
+- [Veloren's database persistence and inventory improvements][veloren-persistence].
+- [Combat improvements: new weapon skills, better AI, and a poise system][veloren-combat].
+- [Network analysis and an overview of new Network Backend][veloren-net].
+- Overviews of [the state of graphics and UI][veloren-graphics],
+  [the graphical future of the game][veloren-graphic-future],
+  and [UI progress][veloren-ui].
+- [Procedural generation of unique, good looking, and fun to climb trees][veloren-trees].
+- [New website design prototypes][veloren-site].
+- And lots of other interesting sections with updates
+  and personal contributors' stories.
+
+Other December updates include:
+
+- Lots of work on the economic simulation:
+  [part 1][veloren-econ-1], [part 2][veloren-econ-2].
+- [Reflective water was added to the level of detail system][veloren-98-contributors],
+  making far-off lakes look much better.
+- A plugin system is in the prototyping phase.
+  This will eventually allow mods to be added to the game.
+- An aura system was added for radial buffs around entities, for example,
+  being near a fireplace now allows you to heal.
+
+December's full weekly devlogs: "This Week In Veloren...":
+[#97](https://veloren.net/devblog-97),
+[#98](https://veloren.net/devblog-98),
+[#99](https://veloren.net/devblog-99),
+[#100](https://veloren.net/devblog-100).
+
+[![Youtube preview img](veloren-glider.gif)][veloren-0.8-gameplay]
+_[New glider physics][veloren-glider] video_
+
+In January, work will continue on 0.9. Work will be done on economic simulation,
+world simulation, and combat systems. New developers are joining the project
+every month, and development is moving forward quickly.
+
+[veloren]: https://veloren.net
+[veloren-blog-100]: https://veloren.net/devblog-100
+[veloren-98-contributors]: https://veloren.net/devblog-98/#contributor-work
+[veloren-econ-1]: https://veloren.net/devblog-98#economic-simulation-update-by-christof
+[veloren-econ-2]: https://veloren.net/devblog-99#economic-simulation-by-christof
+[veloren-ui]: https://veloren.net/devblog-100#ui-progress-by-pfau
+[veloren-glider]: https://veloren.net/devblog-100#glider-physics-by-slipped
+[veloren-gilrs]: https://veloren.net/devblog-100#mckol-s-veloren-journey
+[veloren-modelling-1]: https://veloren.net/devblog-100#modeling-with-gemu
+[veloren-modelling-2]: https://veloren.net/devblog-100#modeling-with-snowram
+[veloren-persistence]: https://veloren.net/devblog-100#work-by-xvar
+[veloren-combat]: https://veloren.net/devblog-100#combat-improvements-by-james
+[veloren-net]: https://veloren.net/devblog-100#network-analysis-by-xmac94x
+[veloren-graphics]: https://veloren.net/devblog-100#the-state-of-graphics-and-ui-by-imbris
+[veloren-trees]: https://veloren.net/devblog-100#procedural-trees-by-ccgauche
+[veloren-site]: https://veloren.net/devblog-100#new-website-design-by-songtronix
+[veloren-graphic-future]: https://veloren.net/devblog-100#looking-to-the-graphical-future-by-sharp
+[veloren-0.8-changelog]: https://gitlab.com/veloren/veloren/-/blob/master/CHANGELOG.md#080-2020-11-28
+[veloren-minidebconf-talk]: https://youtube.com/watch?v=76FPpOnshNw
+[veloren-0.8-gameplay]: https://youtube.com/watch?v=8WWVe1cIu7I
+
+### [15-minute Santa][15m-santa]
+
+![15-minute Santa](santa.png)
+
+In [15-minute Santa][15m-santa], you deliver presents around a city,
+occasionally stopping at a restaurant to refuel -- biking uphill in the snow
+isn't easy! The game uses real data from OpenStreetMap and local GIS sources to
+know where shops, single-family homes, and apartments are located. In places
+where zoning rules keep people separated from food, Santa will have a hard
+time.
+
+15-minute Santa was created by the [A/B Street](abstreet) team as an experiment
+to see how quickly we could build a simple arcade game that gets people
+thinking about how their city is designed. [The code](santa-code) doesn't make
+use of an entity-component system or an existing engine, and animation and
+particle effects don't use a custom shader. The game runs natively on Linux,
+Mac, and Windows, and on web browsers. There are instructions for modding the
+game and adding your own city!
+
+A/B Street updates will return next month. In the meantime, please comment on
+the [2021 roadmap](abstreet-roadmap).
+
+[15m-santa]: http://santa.abstreet.org
+[abstreet]: https://abstreet.org
+[santa-code]: https://github.com/dabreegster/abstreet/tree/master/santa/src/
+[abstreet-roadmap]: https://docs.google.com/document/d/1oV4mdtb0ve-wf0HqbEvR9IwXLIkTeDu8a3UnJxnr2F0/edit?usp=sharing
+
+### [Egregoria]
+
+![Egregoria farm and flour factory at night](egregoria.jpg)
+
+[Egregoria]'s objective is to become a granular society simulation,
+filled with fully autonomous agents interacting with their world in real time.
+The city should evolve by itself and form interesting patterns.
+
+The [7th devlog][egregoria-blog-post] was published. Celebrating the first
+anniversary of the project! Updates include:
+
+- A summary of Egregoria's progress and ambition.
+- Music and sounds.
+- Basic economy design.
+- A specialized gridlock detection algorithm.
+
+Join [Egregoria's Discord server][egregoria-discord].
+
+[Egregoria]: https://github.com/Uriopass/Egregoria
+[egregoria-blog-post]: http://douady.paris/blog/egregoria_7.html
+[egregoria-discord]: https://discord.gg/CAaZhUJ
+
+### [Antorum]
+
+![A view of a beach area on Antorum Isle](antorum-12-30-2020.jpg)
+
+[Antorum] is a micro-multiplayer online role-playing game by [@dooskington].
+The game server is written in Rust, and the official client is being developed
+in Unity.
+
+December was an important month for the game. Along with tons of little fixes
+and changes, major features such as NPC Dialog were finally implemented! Check
+out the dev logs for more info.
+
+- [26: Various Improvements](https://ratwizard.dev/dev-log/antorum/26)
+- [27: The Big 2020 End-Of-Year Update](https://ratwizard.dev/dev-log/antorum/27)
+
+[Antorum]: https://ratwizard.dev/dev-log/antorum
+[@dooskington]: https://twitter.com/dooskington
+
+### Harvest Hero
+
+![Harvest Hero Gameplay](harvest_hero_snippet.gif)
+_Harvest crops and whack those pesky Groobles!_
+
+Harvest Hero by [@bombfuse_dev] is an arcade/roguelike game.
+This month in development:
+
+- A new level type called "Harvest Defense" was added.
+- Some quality of life features like background music and sfx volume control
+  were added.
+- The devs began working with some artists to provide a music
+  and pixelart makeover.
+
+[@bombfuse_dev]: https://twitter.com/bombfuse_dev
+
+### [Weegames][weegames-itch]
+
+![Four Weegames minigames](weegames.jpg)
+
+[Weegames][weegames-itch] is a fast-paced minigame collection.
+
+The game now has a [web demo][weegames-itch] ([source][weegames-demo-source])
+made with macroquad.
+Sound was recently added to the demo using the quad-snd library.
+
+[weegames-itch]: https://yeahross.itch.io/weegames
+[weegames-demo-source]: https://github.com/yeahross0/Weegames-Demo
+
+### [Cheese]
+
+![A screenshot of some mice shooting other mice](cheese-screenshot.png)
+_Pew pew!_
+
+[Cheese] is a small Real Time Strategy game created for the
+[GitHub Game Off 2020]. It was written using a 'low-level gamedev stack'
+consisting of:
+
+- [wgpu-rs] for rendering,
+- [gltf] models,
+- [wgpu_glyph] for text rendering
+- [legion] for ECS
+- and [lyon_tessellation] for rendering 2D UI elements.
+
+The game is in a finished state, but it would be relatively easy to add new
+features such as unit types and buildings.
+
+Check out the source code at [github.com/expenses/cheese].
+
+[Cheese]: https://expenses.itch.io/cheese
+[GitHub Game Off 2020]: https://itch.io/jam/game-off-2020
+[wgpu-rs]: https://github.com/gfx-rs/wgpu-rs
+[gltf]: https://crates.io/crates/gltf
+[wgpu_glyph]: https://crates.io/crates/wgpu_glyph
+[legion]: https://crates.io/crates/legion
+[lyon_tessellation]: https://crates.io/crates/lyon_tessellation
+[github.com/expenses/cheese]: https://github.com/expenses/cheese
+
 ## Learning Material Updates
 
+### [How to Revive a Dead Rust Project][rustfest-talk]
+
+[![RustFest Sketchnote](how-to-revive-a-dead-rust-project.jpg)][rustfest-talk]
+_Drawing by [Carlo Gilmar][visual_partner]. Click to [watch the talk.][rustfest-talk]_
+
+At [RustFest Global 2020], [@micah_tigley] and [@carlosupina] talked about their
+experiences collaborating together to revive the [space_shooter_rs] project through
+effective planning, refactoring, and documentation. The video was recently
+[released on YouTube][talk-tweet] in December!
+
+Since then, both developers have been working away on improving the
+game. Some updates include:
+
+- [Adding debug lines for hitboxes][debug-lines]
+- [Creating configurations files to store player variables][player-config]
+
+[@micah_tigley]: https://twitter.com/micah_tigley
+[@carlosupina]: https://twitter.com/carlosupina
+[RustFest Global 2020]: https://rustfest.global/
+[rustfest-talk]: https://www.youtube.com/watch?v=qoCryIy4bFE
+[visual_partner]: https://twitter.com/visual_partner
+[talk-tweet]: https://twitter.com/carlosupina/status/1341763006716407808
+[space_shooter_rs]: https://github.com/amethyst/space_shooter_rs
+[debug-lines]: https://twitter.com/carlosupina/status/1335289462738259974
+[player-config]: https://github.com/amethyst/space_shooter_rs/pull/101
+
+### [Building Pikachu Volleyball][pikachu-video]
+
+[![YouTube Preview: Video thumbnail with a crab and text](pikachu0.png)][pikachu-video]
+_Click to [watch the video on YouTube][pikachu-video]_
+
+[Building Pikachu Volleyball][pikachu-video] by [@danlogs] is the latest episode
+of a video series inspired by Shing Lyu's book [Practical Rust Projects][amazon-book].
+Here, [@danlogs] re-creates the Pikachu spin-off game from 1997
+by Satoshi Takenouchi - Pikachu Volleyball.
+
+Apart from being a good way for aspiring game developers to start
+understanding the gist of game dev with Rust, this video also displays some of
+the language's hardest topics (i.e. ownership, lifetimes, modules, etc.)
+in a real-world application.
+
+[The source code is available here.][pikachu-src]
+
+Join the [danlogs's Discord channel][danlogs-discord]
+or follow [@danologue on Twitter][@danologue].
+
+[pikachu-src]: https://github.com/danbugs/danlogs/tree/master/rust/projects/pikachu_volleyball
+[pikachu-video]: https://youtube.com/watch?v=Z1sxCC0CDts
+[@danlogs]: http://youtube.com/c/danlogs
+[amazon-book]: https://amazon.com/Practical-Rust-Projects-Computing-Applications/dp/1484255984
+[danlogs-discord]: https://discord.com/invite/fSWE49H
+[@danologue]: https://twitter.com/danologue
+
+### [Creative Coding in Rust: Re-creating Retro Screensaver][timclicks-session]
+
+[![A screenshot from the coding sesion](retro_screensaver.jpg)][timclicks-session]
+_You can [watch the recording here][timclicks-session]._
+
+[@timClicks] live streamed a coding session featuring
+[Nannou][timclicks-nannou], an open-source creative-coding framework,
+which is used to recreate the Mystify screensaver that appeared in Windows 3.1.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/jxhozr/creative_coding_in_rust),
+[Twitter](https://twitter.com/timClicks/status/1327789155930128387)_
+
+[@timClicks]: https://twitter.com/timClicks
+[timclicks-session]: https://youtube.com/watch?v=d9lsT4kJo44
+[timclicks-nannou]: https://nannou.cc
+
+### [Nannou: Creative Coding with Rust][mactuitui-talk]
+
+[![A screenshot from the talk](nannou_creative_coding.jpg)][mactuitui-talk]
+_You can [watch the recording here][mactuitui-talk]._
+
+[Alexis André][@mactuitui] gave a [talk][mactuitui-talk] at
+[GitHub Universe][mactuitui-github-universe] about working with Rust
+and [Nannou][mactuitui-nannou-website], an open-source creative-coding
+framework.
+
+> Alexis André is an artist, researcher and designer aiming at redefining
+> entertainment. In this golden age of computation and data overflow,
+> why is our entertainment still designed to be consumed in a passive
+> way? A few media are offering interactive experiences, but none of
+> them are designed specifically for you. In this live demo, Alexis
+> will create a sketch from scratch for participants to experience
+> what it's like working with Nannou and Rust.
+
+The code is available at [GitHub][mactuitui-repository].
+
+_Discussions:
+[Twitter][mactuitui-discussion]_
+
+[@mactuitui]: https://twitter.com/mactuitui
+[mactuitui-talk]: https://www.youtube.com/watch?v=Ml6tpyTyXhM
+[mactuitui-repository]: https://github.com/MacTuitui/nannou-universe
+[mactuitui-discussion]: https://twitter.com/MacTuitui/status/1339863034991276035
+[mactuitui-nannou-website]: https://nannou.cc
+[mactuitui-github-universe]: https://githubuniverse.com/Nannou-creative-coding-with-Rust/
+
+### [Undergrad Thesis on Game Scripting for Legion][legion-script]
+
+In December 2020, [@pablodiegoss] and [@rodrigocam] presented their undergrad
+thesis where they created a proof-of-concept scripting system for the Legion ECS,
+called [Legion Script][legion-script].
+Legion is being currently integrated into the [Amethyst game engine][amethyst],
+and this contribution might be included in future releases.
+
+With [Legion Script][legion-script], it is possible to declare, write and read
+components into Legion using Python scripts.
+However, this project exports an API which can be evolved
+for other languages and interpreters.
+
+Since then, both developers have been sharing their work and receiving feedbacks
+for the project while planning the next steps for the code, which is available
+at [GitHub][legion-script].
+
+The PDF version of the thesis could be found
+in [this Amethyst forum thread][thesis-thread].
+
+[legion-script]: https://github.com/redcodestudios/legion_script
+[@pablodiegoss]: https://github.com/pablodiegoss
+[@rodrigocam]: https://github.com/rodrigocam
+[amethyst]: https://github.com/amethyst/amethyst
+[thesis-thread]: https://community.amethyst.rs/t/undergrad-thesis-on-game-scripting-for-legion/1753
+
 ## Library & Tooling Updates
+
+### [Kira]
+
+[Kira] by [@tesselode] is an audio library designed to help create expressive
+audio for games. It aims to fill the holes in many game engines' built-in audio
+APIs with features for creating seamless music loops and scripting audio events.
+
+Kira v0.2.0 and v0.3.0 were released recently with quite a few improvements:
+
+- Arrangements for stitching together multiple sounds and better seamless looping
+- Per-sequence custom event types
+- Groups for controlling multiple instances at a time
+- Audio streams for sending arbitrary audio data to the mixer
+- Lots of smaller features and workflow improvements
+
+Kira v0.4.0 is in the works with an API refactor, serde support for config
+structs, and WASM support.
+
+[Kira]: https://github.com/tesselode/kira
+[@tesselode]: https://twitter.com/tesselode
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/kkf1jz/kira_game_audio_library_v030_persequence_custom/),
+[Twitter](https://twitter.com/tesselode/status/1342878087990685700)_
+
+### [rust-gpu]
+
+![A collage of various shadertoy.com shaders built with rust-gpu.](rust-gpu-shaders.jpeg)
+_Various shaders from shadertoy.com ported to Rust and built with rust-gpu._
+
+[rust-gpu] is a new codegen backend by Embark Studios for Rust, aimed at making
+Rust a first class language for writing GPU shaders! This past month was the
+release of rust-gpu 0.2, including a tonne of new features and capabilities.
+
+Some of the highlights include:
+
+- [You can build and test your shaders on the web.][rust-gpu-web] Thanks to SHADERed.
+- [Support for accessing and sampling textures][rust-gpu-textures].
+- [Initial support for compute shaders][rust-gpu-compute].
+- [Rust's new `asm!` macro now supports writing SPIR-V][rust-gpu-asm].
+
+[rust-gpu]: https://github.com/EmbarkStudios/rust-gpu
+[rust-gpu-web]: https://shadered.org/blog?id=4
+[rust-gpu-textures]: https://github.com/EmbarkStudios/rust-gpu/pull/276
+[rust-gpu-compute]: https://github.com/EmbarkStudios/rust-gpu/pull/195
+[rust-gpu-asm]: https://github.com/EmbarkStudios/rust-gpu/pull/254
+
+### [Egui]
+
+![Egui emojis](egui.gif)
+_Some of the supported emojis in the [online demo][demo]._
+
+[Egui] is an easy-to-use GUI in pure Rust.
+Egui can be integrated into a game engine, or used standalone with the help of [eframe].
+This month versions 0.5, 0.6 and 0.7 were released with many improvements,
+including custom fonts, emojis and improved layout engine ([full changelog][changelog]).
+
+[Egui]: https://github.com/emilk/egui
+[demo]: https://emilk.github.io/egui
+[eframe]: https://lib.rs/eframe
+[egui_template]: https://github.com/emilk/egui_template
+[changelog]: https://github.com/emilk/egui/blob/master/CHANGELOG.md
 
 ### [Tetra]
 
@@ -140,6 +524,74 @@ This month's updates:
 [particles-web]: https://fedorgames.itch.io/macroquad-particles
 [particles-source]: https://github.com/not-fl3/particles-editor
 [profiling-blog]: https://not-fl3.github.io/platformer-book/profiling.html
+
+### [starframe]
+
+![Current state of starframe graphics and physics](starframe.gif)
+
+[starframe] by [@moletrooper] is a work-in-progress game engine
+for physics-y sidescrolling 2D games. This month, a new, more versatile
+constraint solver was used to add friction and basic joints. Collision
+detection accuracy and overall stability were also improved.
+
+_Discussions:
+[twitter](https://twitter.com/moletrooper/status/1338066680724008960)_
+
+[starframe]: https://github.com/moletrooper/starframe
+[@moletrooper]: https://twitter.com/moletrooper
+
+### [rpt]: Rust Path Tracer
+
+![demo renders](rpt-collage.jpg)
+_Sample images rendered by path tracing._
+
+[rpt] by [@ekzhang] and [@scanhex] is a physically based, CPU-only rendering
+engine written in Rust. It uses path tracing to generate realistic images of 3D
+scenes.
+
+There's a lot of features, including kd-tree mesh acceleration, physical
+material properties (microfacet BSDF with multiple importance sampling), HDRI
+environment maps, OBJ/MTL/STL files, depth of field, and particle physics
+simulation.
+
+It's also parallelized with [rayon] and available as a library on [crates.io].
+The entire source code, including code for the above examples and more, is very
+short (~3K SLOC). Future directions include extending the renderer with
+bidirectional path tracing and other features.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/k81wwi/rpt_v01)_
+
+[rpt]: https://github.com/ekzhang/rpt
+[@ekzhang]: https://www.ekzhang.com/
+[@scanhex]: https://github.com/scanhex
+[rayon]: https://github.com/rayon-rs/rayon
+[crates.io]: https://crates.io/
+
+### [Rust Graphics Playground][rust-graphics-playground]
+
+![Rust Graphics Playground Demo](rust-graphics-playground.gif)
+
+The [Rust Graphics Playground][rust-graphics-playground] is a small tool that
+allows you to create and share miniature graphics demos in Rust that will run
+in the browser. Here are a few examples of what you can make:
+
+- [3D Spinning Triangle][spinning-triangle]
+- [3D Spinning Cube][spinning-cube]
+- [Serpinski Triangle][serpinski-triangle]
+- [Serpinski Carpet][serpinski-carpet]
+
+The [source code][graphics-playground-source] is available online.
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/kk6i38/write_mini_graphics_demos_in_rust_in_the_browser/)_
+
+[rust-graphics-playground]: http://playground.meteorlinker.com
+[spinning-triangle]: http://playground.meteorlinker.com/?share=1
+[spinning-cube]: http://playground.meteorlinker.com/?share=864
+[serpinski-triangle]: http://playground.meteorlinker.com/?share=682
+[serpinski-carpet]: http://playground.meteorlinker.com/?share=1054
+[graphics-playground-source]: https://gitlab.com/DixieDev/rust-graphics-playground
 
 ## Popular Workgroup Issues in Github
 
