@@ -256,6 +256,30 @@ out the dev logs for more info.
 [Antorum]: https://ratwizard.dev/dev-log/antorum
 [@dooskington]: https://twitter.com/dooskington
 
+### [A Zombie Shooter Game][zombie-shooter]
+
+[![Demo](a-zombie-shooter-game-demo.gif)][zombie-shooter-youtube]
+_Watch a [video demo on YouTube][zombie-shooter-youtube]_
+
+[A Zombie Shooter Game][zombie-shooter] is a work-in-progress multiplayer
+top-down shooter. Actually, it's a Rust port of an old Java game with
+a very simple goal - to shoot zombies chasing after you.
+The game has several
+advantages, like high-quality bullet ballistics and geocentric camera rotation
+relative to the player.
+
+This month's updates:
+
+- Dummy AI.
+- Projectiles (shooting) synchronization over network.
+- Collision detection.
+
+You can discuss the project at [its GitHub forum][zombie-shooter-forum].
+
+[zombie-shooter]: https://github.com/aunmag/shooter-rust
+[zombie-shooter-youtube]: https://youtu.be/9o6KjlwKyGo
+[zombie-shooter-forum]: https://github.com/aunmag/shooter-rust/discussions
+
 ### Harvest Hero
 
 ![Harvest Hero Gameplay](harvest_hero_snippet.gif)
