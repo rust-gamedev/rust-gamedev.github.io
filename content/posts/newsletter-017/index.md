@@ -94,20 +94,23 @@ Rust game engine.
 ![Moving while attacking](akigi.gif)
 _Moving while attacking. Don't look at the shoulders._
 
-In December:
+December updates include:
 
-- Added [support for additive animation blending][aiming] in order to be
-  able to aim bows.
+- [Support for additive animation blending][aiming] was added
+  in order to be able to aim bows.
+- A somewhat operational [skill progress meter][skill-progress] was added.
+- A [discussion on Reddit][learning-art] about learning art as a programmer.
 
-- Added a somewhat operational [skill progress meter][skill-progress].
-
-- Started a [discussion on Reddit][learning-art] about learning art as
-  a programmer.
+Full December's devlogs:
+[#96](https://devjournal.akigi.com/december-2020/096-2020-12-06.html),
+[#97](https://devjournal.akigi.com/december-2020/097-2020-12-13.html),
+[#98](https://devjournal.akigi.com/december-2020/098-2020-12-20.html),
+[#99](https://devjournal.akigi.com/december-2020/099-2020-12-27.html).
 
 [akigi]: https://akigi.com
 [skill-progress]: https://devjournal.akigi.com/december-2020/097-2020-12-13.html
 [aiming]: https://devjournal.akigi.com/december-2020/099-2020-12-27.html#aiming
-[learning-art]: https://www.reddit.com/r/gamedev/comments/k8i773/how_i_a_mere_programmer_am_learning_to_make_game/
+[learning-art]: https://reddit.com/r/gamedev/comments/k8i773/how_i_a_mere_programmer_am_learning
 [@chinedufn]: https://chinedufn.com
 
 ## Learning Material Updates
