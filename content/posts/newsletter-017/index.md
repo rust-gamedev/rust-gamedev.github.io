@@ -397,10 +397,9 @@ technical implementations:
 
 ![openEtG login screen](openEtG.jpg)
 
-openEtG is an open source engine that is an HTML5 successor to the original
-[Elements the Game][Elements], featuring additional cards and balance. In
-December, 10k lines of JavaScript source were rewritten in Rust. Here is a small
-exerpt from the writeup:
+[openEtG] is an open source engine that is an HTML5 successor to the original
+[Elements the Game][Elements], featuring additional cards and balance.
+In December, 10k lines of JavaScript source were rewritten in Rust:
 
 > Overall I've been brainstorming this change for a couple years. So I'd already
 > shifted from a classical OOP mess with Shield/Weapon/Pillar inheriting from
@@ -412,9 +411,9 @@ exerpt from the writeup:
 
 You can read the full openEtG December writeup [here][openEtG-writeup].
 
-[openEtG]: https://etg.dek.im/
-[Elements]: http://elementsthegame.com/
-[openEtG-writeup]: https://www.reddit.com/r/rust/comments/k3jy5g/i_rewrote_10k_lines_of_js_into_rust_over_the_last/
+[openEtG]: https://etg.dek.im
+[Elements]: http://elementsthegame.com
+[openEtG-writeup]: https://reddit.com/r/rust/comments/k3jy5g/i_rewrote_10k_lines_of_js_into_rust
 
 ## Learning Material Updates
 
