@@ -352,6 +352,17 @@ For full details and a list of breaking changes, see the
 [tetra]: https://github.com/17cupsofcoffee/tetra
 [tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
 
+### [ggez]
+
+[ggez] is a lightweight game framework for making 2D games with minimum
+friction. Work has continued towards the next stable release,
+incorporating last-minute API changes and fixes. The intended plan is
+to freeze the API this month and make a release candidate for people to
+play with it and try it out, then fix bugs and incorporate feedback into
+a 0.6.0 release.
+
+[ggez]: https://github.com/ggez/ggez
+
 ### [starframe]
 
 ![Current state of starframe graphics and physics](starframe.gif)
@@ -419,17 +430,6 @@ _Discussions:
 [serpinski-triangle]: http://playground.meteorlinker.com/?share=682
 [serpinski-carpet]: http://playground.meteorlinker.com/?share=1054
 [graphics-playground-source]: https://gitlab.com/DixieDev/rust-graphics-playground
-
-### [ggez]
-
-[ggez] is a lightweight game framework for making 2D games with minimum
-friction.  Work has continued towards the next stable release,
-incorporating last-minute API changes and fixes.  The intended plan is
-to freeze the API this month and make a release candidate for people to
-play with it and try it out, then fix bugs and incorporate feedback into
-a 0.6.0 release.
-
-[ggez]: https://github.com/ggez/ggez
 
 ## Popular Workgroup Issues in Github
 
