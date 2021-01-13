@@ -858,6 +858,30 @@ _Discussions:
 [serpinski-carpet]: http://playground.meteorlinker.com/?share=1054
 [graphics-playground-source]: https://gitlab.com/DixieDev/rust-graphics-playground
 
+### [Polyhedron-ops]
+
+![polyhedron render](polyhedron.jpg)
+_Some brutalist polyhedron; rendered with 3Delight and post processed in Darktable._
+
+This crate implements the Conway Polyhedron Operators and their extensions by
+George W. Hart and others. It is based on Kit Wallace’s OpenSCAD code. As
+OpenSCAD Language is functional it lends itself well to translation into
+functional Rust. The internal representation uses mesh buffers. These need
+furter preprocessing before they can be sent to a GPU but are almost fine to
+send to an offline renderer, as-is. Bevy is used to render the mesh.
+
+```rust
+// Conway notation: gapcD
+let polyhedron = Polyhedron::dodecahedron()
+    .chamfer(None, true)
+    .propellor(None, true)
+    .ambo(None, true)
+    .gyro(None, None, true)
+    .finalize();
+```
+
+[Polyhedron-ops]: https://github.com/virtualritz/polyhedron-ops/
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
