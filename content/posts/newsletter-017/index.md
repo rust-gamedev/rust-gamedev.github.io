@@ -393,6 +393,29 @@ technical implementations:
 [vollmond-source]: https://github.com/puppetmaster-/vollmond
 [macroquad]: https://github.com/not-fl3/macroquad
 
+### [openEtG]
+
+![openEtG login screen](openEtG.jpg)
+
+openEtG is an open source engine that is an HTML5 successor to the original
+[Elements the Game][Elements], featuring additional cards and balance. In
+December, 10k lines of JavaScript source were rewritten in Rust. Here is a small
+exerpt from the writeup:
+
+> Overall I've been brainstorming this change for a couple years. So I'd already
+> shifted from a classical OOP mess with Shield/Weapon/Pillar inheriting from
+> Permanent to one where everything is a Thing. This also made sense because in
+> openEtG there's spells like Flying Weapon which convert the player's weapon
+> into a creature. So before I'd create a new Creature filled in with stats from
+> original weapon, whereas now it's mostly just moving the instance into a
+> creature slot & updating its type tag.
+
+You can read the full openEtG December writeup [here][openEtG-writeup].
+
+[openEtG]: https://etg.dek.im/
+[Elements]: http://elementsthegame.com/
+[openEtG-writeup]: https://www.reddit.com/r/rust/comments/k3jy5g/i_rewrote_10k_lines_of_js_into_rust_over_the_last/
+
 ## Learning Material Updates
 
 ### [How to Revive a Dead Rust Project][rustfest-talk]
