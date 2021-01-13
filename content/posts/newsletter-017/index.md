@@ -699,6 +699,41 @@ This month's updates:
 [particles-source]: https://github.com/not-fl3/particles-editor
 [profiling-blog]: https://not-fl3.github.io/platformer-book/profiling.html
 
+### [rg3d]
+
+[![rusty-editor screenshot](rusty-editor.jpg)][rg3d_twit]
+_A level made in [rusty-editor][rusty_editor] which a native scene editor
+for rg3d game engine._
+
+[rg3d] is a game engine that aims to be easy to use and provide large set
+of out-of-box features. Some of the recent updates:
+
+- Improved [dark UI theme][rg3d_dark_theme]
+- Added verbosity levels for logger
+- Improved lightmap quality
+- Added proper syncing between physics and scene graph
+- Improved examples
+- Added cylinder emitter for particle systems
+- Improved lots of UI widgets and added VectorImage widget
+- rg3d-sound is now able to manage multiple contexts
+- [hrtf][hrtf] crate now has 2 times better performance
+- Added support for 64-bit FBX format (version 7500+)
+- rusty-editor now has [navigation meshes][rusty_editor_navmesh] and
+  particle systems editor
+- Lots of other small fixes and improvements
+
+Join the [rg3d's Discord channel][rg3d_discord]
+or follow [Dmitry Stepanov on Twitter][rg3d_twitter].
+
+[rg3d]: https://github.com/mrDIMAS/rg3d
+[rg3d_twit]: https://twitter.com/DmitryNStepanov/status/1336802725007396865
+[rg3d_discord]: https://discord.gg/xENF5Uh
+[rg3d_twitter]: https://twitter.com/DmitryNStepanov
+[rusty_editor_navmesh]: https://twitter.com/DmitryNStepanov/status/1343288956704743425
+[rg3d_dark_theme]: https://twitter.com/DmitryNStepanov/status/1340755066068889603
+[rusty_editor]: https://github.com/mrDIMAS/rusty-editor
+[hrtf]: https://github.com/mrDIMAS/hrtf
+
 ### [starframe]
 
 ![Current state of starframe graphics and physics](starframe.gif)
