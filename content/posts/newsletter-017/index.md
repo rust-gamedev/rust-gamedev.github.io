@@ -630,6 +630,45 @@ _Discussions:
 [/r/rust](https://www.reddit.com/r/rust/comments/kkf1jz/kira_game_audio_library_v030_persequence_custom/),
 [Twitter](https://twitter.com/tesselode/status/1342878087990685700)_
 
+### [polyhedron-ops]
+
+![polyhedron render](polyhedron.jpg)
+_Some brutalist polyhedron; rendered with 3Delight and post processed in Darktable._
+
+[polyhedron-ops] implements the [Conway Polyhedron Operators][polyhedron-wiki]
+and their extensions by George W. Hart and others.
+
+It is based on Kit Wallace’s OpenSCAD code.
+As OpenSCAD Language is functional it lends itself well
+to translation into functional Rust:
+
+```rust
+// Conway notation: gapcD
+let polyhedron = Polyhedron::dodecahedron()
+    .chamfer(None, true)
+    .propellor(None, true)
+    .ambo(None, true)
+    .gyro(None, None, true)
+    .finalize();
+// Export as ./polyhedron-gapcD.obj
+polyhedron.write_to_obj(&Path::new("."), false);
+```
+
+The internal representation uses mesh buffers that need furter preprocessing
+before they can be sent to a GPU
+but are almost fine to send to an offline renderer, as-is.
+
+Optionally enabled features include:
+
+- Converting a polyhedron [into a bevy Mesh][polyhedron-bevy].
+- Sending a polyhedron to an offline renderer via the [nsi] crate.
+- Writing data out as Wavefront OBJ.
+
+[polyhedron-ops]: https://github.com/virtualritz/polyhedron-ops
+[polyhedron-wiki]: http://en.wikipedia.org/wiki/Conway_polyhedron_notation
+[polyhedron-bevy]: https://github.com/virtualritz/polyhedron-ops/blob/76a0c4b83examples/bevy/bevy.rs
+[nsi]: https://crates.io/crates/nsi
+
 ### [raw-gl-context]
 
 [raw-gl-context] is a cross-platform library for OpenGL context creation which
