@@ -251,8 +251,12 @@ _Discussions:
 
 ### [textyle]
 
-Textyle by Stefan Devai is a simple web-based tilemap editor for 2D games built
-using React JS and Rust (WASM). You can try it out now [in the browser][textyle-browser].
+![Screenshot with a simple settlement map](textyle.png)
+
+Textyle by [Stefan Devai][@stefandevai] is a simple web-based tilemap editor
+for 2D games built using React JS and Rust (WASM).
+
+You can try it out now [in the browser][textyle-browser].
 
 Textyle aims to simplify and speed up the process of making tilemaps for your
 games. Running on the web means that you don't have to download any additional
@@ -265,8 +269,12 @@ however, most of the features in the roadmap will take advantage of Rust and
 WASM. The project is in its initial stages of development, expect great
 improvements to come!
 
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/khl8jq/textyle)_
+
 [textyle]: https://github.com/stefandevai/textyle
-[textyle-browser]: https://textyle.app/edit/#/
+[textyle-browser]: https://textyle.app/edit
+[@stefandevai]: https://github.com/stefandevai
 
 ## Popular Workgroup Issues in Github
 
