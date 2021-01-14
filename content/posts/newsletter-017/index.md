@@ -28,6 +28,7 @@ Feel free to send PRs about your own projects!
 
 Table of contents:
 
+- [Rust Gamedev Meetup](#rust-gamedev-meetup)
 - [Rust GameDev Podcast](#rust-gamedev-podcast)
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
@@ -56,6 +57,22 @@ _Discussions:
 
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
+
+## Rust Gamedev Meetup
+
+![invitation card](meetup.png)
+
+The Rust Gamedev meetup will happen on the second Saturday of every month
+at 16:00 GMT+0. The meetup will be an opportunity to chat with others
+from the Rust game development community and see what people are working on.
+
+The meetup will take place on the [Rust Gamedev Discord server][meetup].
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/ksflbm/the_first_rust_gamedev_meetup),
+[Twitter](https://twitter.com/rust_gamedev/status/1347286339079860225)_
+
+[meetup]: https://discord.gg/yNtPTb2
 
 ## [Rust GameDev Podcast #4][podcast-4]
 
