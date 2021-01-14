@@ -918,6 +918,95 @@ or follow [@lowenware on Twitter][@lowenware].
 [dotrix-demo]: https://github.com/lowenware/dotrix/blob/main/examples/demo/demo.rs
 [dotrix-video]: https://youtu.be/KXOr_KxMNWM
 
+### [Bevy Engine v0.4][bevy-0-4]
+
+[![bevy logo](bevy_logo.png)][bevy]
+
+[Bevy][bevy] is a refreshingly simple data-driven game engine built in Rust.
+It is [free and open source][bevy-repo] forever!
+
+This month, thanks to 66 contributors, 178 pull requests, and their
+[generous sponsors][bevy-sponsors], Bevy 0.4 was released. You can view the
+[full Bevy 0.4 announcement here][bevy-0-4]. Here are some highlights:
+
+- a WebGL2 render backend;
+- cross platform main function: `#[bevy_main]`;
+- live shader reloading;
+- Schedule v2 with custom stages, run criteria, fixed timestep,
+  and typed stage builders;
+- States that allow you to enable/disable systems
+  according to the state your app is in;
+- scenes can now be spawned as children;
+- dynamic linking that significantly cuts compile times.
+- a new general-purpose Rust reflection API;
+- 3D texture assets;
+- HIDPI fixes;
+- GLTF, timer, text layout, task system, logging & profiling improvements;
+- ECS improvements: flexible system parameters, improved query filter API,
+  and system inputs/outputs/chaining;
+- Apple Silicon support!
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/kge7zy/bevy_04/),
+[hacker news](https://news.ycombinator.com/item?id=25480321),
+[Twitter](https://twitter.com/cart_cart/status/1340376850560905218)_
+
+[bevy]: https://bevyengine.org
+[bevy-repo]: https://github.com/bevyengine/bevy
+[bevy-0-4]: https://bevyengine.org/news/bevy-0-4
+[bevy-sponsors]: https://github.com/sponsors/cart
+
+------
+
+Community plugin updates:
+
+- [bevy_webgl2](https://github.com/mrk-its/bevy_webgl2):
+  WebGL2 renderer plugin for WASM target.
+- [bevy_rapier](https://github.com/dimforge/bevy_rapier):
+  Rapier Physics' official Bevy plugin was updated to support Bevy 0.4.
+- [bevy_megaui](https://github.com/mvlabat/bevy_megaui): A plugin for
+  [megaui](https://crates.io/crates/megaui) integration into Bevy.
+- [bevy_prototype_inline_assets](https://crates.io/crates/bevy_prototype_inline_assets):
+  A simple plugin for bundling assets into your binary.
+- [bevy_doryen](https://github.com/smokku/bevy_doryen): A plugin integrating Bevy.
+  ECS with [doryen-rs](https://github.com/jice-nospam/doryen-rs) Ascii
+  roguelike library.
+- [bevy_discovery](https://crates.io/crates/bevy_discovery): Automatically detects
+  and registers systems for you.
+- [bevy_prototype_parallax](https://github.com/btrepp/bevy-prototype-parallax):
+  A parallax scrolling background plugin.
+- [Kurinji](https://crates.io/crates/kurinji): Input Map for bevy. Converts user
+  input from different input hardware into game specific actions, eg. keyboard
+  "Space" or joystick "A" can be mapped to "Jump" Action.  This allows decoupling
+  of the game code from device specific input api.
+- [bevy-earcutr](https://github.com/frewsxcv/bevy-earcutr): Draw polygons.
+- [bevy_stl](https://github.com/nilclass/bevy_stl): STL mesh asset loader plugin.
+
+Community tutorial updates:
+
+- [Making Chess Clone in 3D](https://caballerocoll.com/blog/bevy-chess-tutorial):
+  Walkthrough on how to make a Chess Clone with 3D pieces.
+- [0.3 to 0.4 Migration Guide](https://sburris.xyz/posts/bevy-update-0-4/).
+- [Bevy Chinese Website(Bevy中文网)](https://bevyengine-cn.github.io/): Translate
+  official website and The Bevy Book in Chinese.
+
+Community game updates:
+
+- [Robbo](https://github.com/mrk-its/bevy-robbo):
+  Bevy port of great 8-bit Atari game, working native and in the browser.
+- [SiO2](https://github.com/dmitriy-shmilo/sio2): A simple powder toy clone.
+- [snake_bevy](https://github.com/mtKeller/snake_bevy): It's Snake!
+- [DJMcNab/life-rs](https://github.com/DJMcNab/life-rs): Bevy reproduction of the
+  rules of [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
+  on a randomised board. Alternative implementation: [Byteron/life-rs](https://github.com/Byteron/life-rs).
+
+Join Bevy's [Discord][bevy-discord], [/r/bevy subreddit][bevy-reddit],
+and follow [@BevyEngine on Twitter][bevy-twitter].
+
+[bevy-discord]: https://discord.com/invite/gMUk5Ph
+[bevy-reddit]: https://reddit.com/r/bevy
+[bevy-twitter]: https://twitter.com/BevyEngine
+
 ### [rpt]: Rust Path Tracer
 
 ![demo renders](rpt-collage.jpg)
