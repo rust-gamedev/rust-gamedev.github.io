@@ -204,7 +204,7 @@ the [2021 roadmap](abstreet-roadmap).
 [15m-santa]: http://santa.abstreet.org
 [abstreet]: https://abstreet.org
 [santa-code]: https://github.com/dabreegster/abstreet/tree/master/santa/src/
-[abstreet-roadmap]: https://docs.google.com/document/d/1oV4mdtb0ve-wf0HqbEvR9IwXLIkTeDu8a3UnJxnr2F0/edit?usp=sharing
+[abstreet-roadmap]: https://docs.google.com/document/d/1oV4mdtb0ve-wf0HqbEvR9IwXLIkTeDu8a3UnJxnr2F0
 
 ### [Egregoria]
 
@@ -248,9 +248,9 @@ Changes done during the last month:
   on top of the engine.
 - Work started on pushing the project's changes upstream and moving back
   to mainline versions of crates.
-- Improvements to the Organya player (a simple synthetiser that plays the
+- Improvements to the Organya player (a simple synthesizer that plays the
   in-game music using a set of 100 waves and 6 drum samples).
-- A bunch of missing NPCs, bosses and other stuff were added.
+- A bunch of missing NPCs, bosses, and other stuff were added.
 - The way how game loop works was redesigned, in preparation
   for adding networked multiplayer support.
 - Countless bug fixes.
@@ -273,8 +273,8 @@ December was an important month for the game. Along with tons of little fixes
 and changes, major features such as NPC Dialog were finally implemented! Check
 out the dev logs for more info.
 
-- [26: Various Improvements](https://ratwizard.dev/dev-log/antorum/26)
-- [27: The Big 2020 End-Of-Year Update](https://ratwizard.dev/dev-log/antorum/27)
+- [#26: Various Improvements](https://ratwizard.dev/dev-log/antorum/26);
+- [#27: The Big 2020 End-Of-Year Update](https://ratwizard.dev/dev-log/antorum/27);
 
 [Antorum]: https://ratwizard.dev/dev-log/antorum
 [@dooskington]: https://twitter.com/dooskington
@@ -349,7 +349,7 @@ written in Rust from scratch.
 > I've never used WebGL before, and my linear algebra is worse than I thought.
 
 [The source code is available here][swoop-source] and
-you can also read about about the process of making the game
+you can also read about the process of making the game
 here: ["WASM Games From Scratch"][swoop-book].
 
 You can also play the game's [prototype version done in shadertoy][swoop-shadertoy]
@@ -513,7 +513,7 @@ The [source code][vollmond-source] is available and includes the following
 technical implementations:
 
 - drawing and modifying multilayer tilemap,
-- tile-based animation and collisionlogic,
+- tile-based animation and collision logic,
 - tweening und timer,
 - 4-way top-down and sideways player movement,
 - independent game scenes.
@@ -597,7 +597,7 @@ _Discussions:
 ### [Drawing Bezier curves with SDFs][bezier_article]
 
 ![Demo](beziers.gif)
-_The demo is availiable [here][bezier_demo]_
+_The demo is available [here][bezier_demo]_
 
 A short note by [@VladZhukov0] about drawing Bezier curves (strokes)
 with signed distance fields.
@@ -618,7 +618,7 @@ _You can [watch the recording here][mactuitui-talk]._
 and [Nannou][mactuitui-nannou-website], an open-source creative-coding
 framework.
 
-> Alexis André is an artist, researcher and designer aiming at redefining
+> Alexis André is an artist, researcher, and designer aiming at redefining
 > entertainment. In this golden age of computation and data overflow,
 > why is our entertainment still designed to be consumed in a passive
 > way? A few media are offering interactive experiences, but none of
@@ -648,10 +648,10 @@ and this contribution might be included in future releases.
 
 With [Legion Script][legion-script], it is possible to declare, write and read
 components into Legion using Python scripts.
-However, this project exports an API which can be evolved
+However, this project exports an API that can be evolved
 for other languages and interpreters.
 
-Since then, both developers have been sharing their work and receiving feedbacks
+Since then, both developers have been sharing their work and receiving feedback
 for the project while planning the next steps for the code, which is available
 at [GitHub][legion-script].
 
@@ -695,7 +695,7 @@ of building the abovementioned web game [Swoop][swoop-itch] from scratch:
 > Game engines are huge behemoths, and contain algorithms
 > for handling everything and the kitchen sink.
 > While that's normally good, if you want to do something small,
-> or possibly do something outside the bounds of a normal game enine,
+> or possibly do something outside the bounds of a normal game engine,
 > you suddenly have to learn how to do everything yourself.
 >
 > Or perhaps you just like the "type it and run" style of development
@@ -707,9 +707,9 @@ of building the abovementioned web game [Swoop][swoop-itch] from scratch:
 
 Some of the topics covered by the book:
 
-- Building for WASM, event handling, WebGL and shader basics.
+- Building for WASM, event handling, WebGL, and shader basics.
 - Map generation using a Fourier series.
-- Camera positioning and drawing a map, ships and engine trails.
+- Camera positioning and drawing a map, ships, and engine trails.
 - Ship physics and simple AI.
 
 [wasm-scratch-book]: https://sdfgeoff.github.io/wasm_minigames
@@ -721,7 +721,7 @@ Some of the topics covered by the book:
 Thermite is a WIP SIMD library focused on providing portable SIMD (Single
 Instruction, Multiple Data) acceleration of SoA (Structure of Arrays)
 algorithms, using consistent-length SIMD vectors for lockstep iteration and
-computation. Extensive research and work has gone into minimizing wasted CPU
+computation. Extensive research and work have gone into minimizing wasted CPU
 cycles and making the most out of what your CPU can do.
 
 The goal of Thermite is to provide highly optimized feature-rich backends for
@@ -731,7 +731,7 @@ optimized vectorized math library with many special math functions and
 algorithms, specialized for both single and double precision.
 
 Thermite has been worked on for a little over a month now. The AVX2 backend and
-vectorized math library almost fully implemented. Pre-AVX2/WASM/ARM backends are
+vectorized math library are almost fully implemented. Pre-AVX2/WASM/ARM backends are
 a work in progress. The latest documentation is available
 [here][thermite-documentation].
 
@@ -821,7 +821,7 @@ Optionally enabled features include:
 
 [polyhedron-ops]: https://github.com/virtualritz/polyhedron-ops
 [polyhedron-wiki]: http://en.wikipedia.org/wiki/Conway_polyhedron_notation
-[polyhedron-bevy]: https://github.com/virtualritz/polyhedron-ops/blob/76a0c4b83examples/bevy/bevy.rs
+[polyhedron-bevy]: https://github.com/virtualritz/polyhedron-ops/blob/76a0c4b83/examples/bevy/bevy.rs
 [nsi]: https://crates.io/crates/nsi
 
 ### [raw-gl-context]
@@ -953,25 +953,25 @@ This month's updates:
 ### [rg3d]
 
 [![rusty-editor screenshot](rusty-editor.jpg)][rg3d_twit]
-_A level made in [rusty-editor][rusty_editor] which a native scene editor
-for rg3d game engine._
+_A level made in [rusty-editor][rusty_editor] which is a native scene editor
+for the rg3d game engine._
 
 [rg3d] is a game engine that aims to be easy to use and provide large set
 of out-of-box features. Some of the recent updates:
 
-- Improved [dark UI theme][rg3d_dark_theme]
-- Added verbosity levels for logger
-- Improved lightmap quality
-- Added proper syncing between physics and scene graph
-- Improved examples
-- Added cylinder emitter for particle systems
-- Improved lots of UI widgets and added VectorImage widget
-- rg3d-sound is now able to manage multiple contexts
-- [hrtf][hrtf] crate now has 2 times better performance
-- Added support for 64-bit FBX format (version 7500+)
+- Improved [dark UI theme][rg3d_dark_theme].
+- Added verbosity levels for logger.
+- Improved lightmap quality.
+- Added proper syncing between physics and scene graph.
+- Improved examples.
+- Added cylinder emitter for particle systems.
+- Improved lots of UI widgets and added VectorImage widget.
+- rg3d-sound is now able to manage multiple contexts.
+- [hrtf][hrtf] crate now has 2 times better performance.
+- Added support for 64-bit FBX format (version 7500+).
 - rusty-editor now has [navigation meshes][rusty_editor_navmesh] and
-  particle systems editor
-- Lots of other small fixes and improvements
+  particle systems editor.
+- Lots of other small fixes and improvements.
 
 Join the [rg3d's Discord channel][rg3d_discord]
 or follow [Dmitry Stepanov on Twitter][rg3d_twitter].
@@ -1004,7 +1004,7 @@ _Discussions:
 
 [![Dotrix in December](dotrix-in-december.gif)][dotrix-video]
 
-Last month [Dotrix] got a major features boost that made the engine ready for
+Last month [Dotrix] got a major feature boost that made the engine ready for
 3D games development. To demonstrate the features, the [demo example][dotrix-demo]
 was turned into an all-in-one proof-of-concept application.
 You can see the full version on [YouTube][dotrix-video].
@@ -1169,7 +1169,7 @@ _Discussions:
 
 ### [Rust Graphics Playground][rust-graphics-playground]
 
-![Rust Graphics Playground Demo](rust-graphics-playground.gif)
+[![Rust Graphics Playground Demo](rust-graphics-playground.gif)][rust-graphics-playground]
 
 The [Rust Graphics Playground][rust-graphics-playground] is a small tool that
 allows you to create and share miniature graphics demos in Rust that will run
@@ -1183,7 +1183,7 @@ in the browser. Here are a few examples of what you can make:
 The [source code][graphics-playground-source] is available online.
 
 _Discussions:
-[/r/rust](https://www.reddit.com/r/rust/comments/kk6i38/write_mini_graphics_demos_in_rust_in_the_browser/)_
+[/r/rust](https://reddit.com/r/rust/comments/kk6i38/write_mini_graphics_demos_in_rust_in_the_browser)_
 
 [rust-graphics-playground]: http://playground.meteorlinker.com
 [spinning-triangle]: http://playground.meteorlinker.com/?share=1
