@@ -32,6 +32,7 @@ Feel free to send PRs about your own projects!
 
 Table of contents:
 
+- [Rust GameDev Podcast](#rust-gamedev-podcast)
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Library & Tooling Updates](#library-tooling-updates)
@@ -60,6 +61,32 @@ _Discussions:
 
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
+
+## [Rust GameDev Podcast #4][podcast-4]
+
+![text logo](podcast.jpeg)
+
+[The 4th podcast episode][podcast-4] is an interview with [Fedor Logachev][@fedor_games],
+creator of the [macroquad] and [miniquad] games libraries.
+
+> We discuss the libraries' features, development, and plans for the future
+> as well as the accompanying book and games project that will act
+> as both an introduction to Rust games development and the Macroquad library.
+
+Listen and subscribe from the following platforms:
+[Rust GameDev Podcast (simplecast)](https://rustgamedev.com/),
+[Apple Podcasts](https://podcasts.apple.com/gb/podcast/rust-game-dev/id1526304768),
+[Spotify](https://open.spotify.com/show/7HRfGnTcXkLkQd9fxJbDGj),
+[RSS Feed](https://feeds.simplecast.com/C6NQglnL),
+[Google Podcasts](https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zaW1wbGVjYXN0LmNvbS9DNk5RZ2xuTA).
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/kit4pa/rustgamedev_podcast_4_fedor_logachev)_
+
+[podcast-4]: https://rustgamedev.com/episodes/interview-with-fedor-logachev
+[@fedor_games]: https://twitter.com/fedor_games
+[macroquad]: https://github.com/not-fl3/macroquad
+[miniquad]: https://github.com/not-fl3/miniquad
 
 ## Game Updates
 
