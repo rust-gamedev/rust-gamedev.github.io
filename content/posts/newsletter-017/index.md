@@ -85,48 +85,69 @@ This month's updates:
 [wor-discord]: https://discord.gg/JGeVt5XwPP
 [wor-website]: https://anthropicstudios.com/way-of-rhea
 
-### Swoop
+### [Swoop][swoop-itch]
 
 ![Doing donuts while being overtaken](swoop.gif)
 _Getting lapped by purple? - don't worry, it happens to everyone_
 
-They say it takes about 10 years for a developer to go from first
-wanting to create a game to actually releasing one. I first started
-making games in about 2010 and and [Swoop][swoop-itch] is the only
-hobby game that I've finished outside of game jams. Part of that is
-because it's simple, and I refused to accept any "wouldn't it be nice
-to also do XYZ" ideas after the initial concept was solidified.
+[Swoop][swoop-itch] by [@sdfgeoff] is a procedural racing web game
+written in Rust from scratch.
 
-Every time you use a game engine it brings with it a lot of cognitive
-overhead: how does resource management work, how do I force the physics
-to not glitch out, and why oh why don't the UI elements line up
-properly... I've tried to make games in a variety of engines, but
-invariably got frustrated. So I decided to throw out the engine and
-find out what makes game-making so complex. It turns out that the stuff
-below the game engine is only slightly less friendly than the stuff above
-it. It's all just maths, logic, state handling and a bunch of new
-terminology. If you've got a small game project and are feeling adventurous,
-I highly suggest trying to make an engineless game. Just don't get carried
-away and try make it generic. You have to realize you are making a single
-specific game.
+> I've tried to make games in a variety of engines, but invariably got frustrated.
+> So I decided to throw out the engine and find out what makes game-making so complex.
+> It turns out that the stuff below the game engine is only slightly less friendly
+> than the stuff above it.
+>
+> All up this game was a large experiment:
+> I'm not all that familiar with Rust, it was my first go at targetting WASM,
+> I've never used WebGL before, and my linear algebra is worse than I thought.
 
-This game is both [open source][swoop-source] and I [wrote about the
-process of making it][swoop-building]. You can also play the prototype
-version done in [shadertoy][swoop-shadertoy]. All up this game was a
-large experiment: I'm not all that familiar with rust, it was my first
-go at targetting WASM, I've never used webGL before, and my linear
-algebra is worse than I thought. I think in future games I'll use at
-least a math library to make my life easier..... What's next for me?
-Well, I'm taking a look at 3D and [raymarching giant
-caves][swoop-next].
+[The source code is available here][swoop-source] and
+you can also read about about the process of making the game
+here: ["WASM Games From Scratch"][swoop-book].
+
+You can also play the game's [prototype version done in shadertoy][swoop-shadertoy]
+and check out a [prototype of the next @sdfgeoff's project][swoop-next]
+that is based on raymarching giant caves.
 
 [swoop-itch]: https://sdfgeoff.itch.io/swoop
 [swoop-source]: https://github.com/sdfgeoff/wasm_minigames
-[swoop-shadertoy]: https://www.shadertoy.com/view/WlScWd
-[swoop-building]: https://sdfgeoff.github.io/wasm_minigames/a_first_game_swoop.html
-[swoop-next]: https://www.shadertoy.com/view/tltyRB
+[swoop-shadertoy]: https://shadertoy.com/view/WlScWd
+[swoop-book]: https://sdfgeoff.github.io/wasm_minigames/a_first_game_swoop.html
+[swoop-next]: https://shadertoy.com/view/tltyRB
+[@sdfgeoff]: https://github.com/sdfgeoff
 
 ## Learning Material Updates
+
+### [WASM Games From Scratch][wasm-scratch-book]
+
+![sprite transformation explanations](wasm_sprite_transform.svg)
+
+[@sdfgeoff] published a book that describes the process
+of building the abovementioned web game [Swoop][swoop-itch] from scratch:
+["WASM Games From Scratch"][wasm-scratch-book].
+
+> Game engines are huge behemoths, and contain algorithms
+> for handling everything and the kitchen sink.
+> While that's normally good, if you want to do something small,
+> or possibly do something outside the bounds of a normal game enine,
+> you suddenly have to learn how to do everything yourself.
+>
+> Or perhaps you just like the "type it and run" style of development
+> for shadertoy shaders and want something similar
+> that you can host on your system as (pretty much) a single file.
+>
+> Either way, this book chronicles my adventures
+> into creating WASM games from scratch in Rust.
+
+Some of the topics covered by the book:
+
+- Building for WASM, event handling, WebGL and shader basics.
+- Map generation using a Fourier series.
+- Camera positioning and drawing a map, ships and engine trails.
+- Ship physics and simple AI.
+
+[wasm-scratch-book]: https://sdfgeoff.github.io/wasm_minigames
 
 ## Library & Tooling Updates
 
