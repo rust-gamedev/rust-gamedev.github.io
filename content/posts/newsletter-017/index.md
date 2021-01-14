@@ -664,6 +664,26 @@ in [this Amethyst forum thread][thesis-thread].
 [amethyst]: https://github.com/amethyst/amethyst
 [thesis-thread]: https://community.amethyst.rs/t/undergrad-thesis-on-game-scripting-for-legion/1753
 
+### [Triangle from Scratch][tri-scratch]
+
+[Triangle from Scratch][tri-scratch] ([source code][tri-scratch-src])
+is a new tutorial series by [@Lokathor]
+about drawing a triangle without using any outside crates.
+So far there's just one article for opening a window using the Win32 API,
+but more subjects and on more platforms will be added over time.
+From the author:
+
+> The point isn't that we specifically care about drawing the triangle.
+> That's just a goal that's easy to grasp.
+> The point is that we're doing it with no dependencies as a way
+> to get ourselves to learn about low level OS interaction details as we go.
+> That said, the "no crates" rule is for educational purposes only;
+> please feel free to use crates in normal situations.
+
+[tri-scratch]: https://rust-tutorials.github.io/triangle-from-scratch
+[tri-scratch-src]: https://github.com/rust-tutorials/triangle-from-scratch
+[@Lokathor]: https://twitter.com/Lokathor
+
 ### [WASM Games From Scratch][wasm-scratch-book]
 
 ![sprite transformation explanations](wasm_sprite_transform.svg)
