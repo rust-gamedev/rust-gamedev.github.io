@@ -731,8 +731,8 @@ optimized vectorized math library with many special math functions and
 algorithms, specialized for both single and double precision.
 
 Thermite has been worked on for a little over a month now. The AVX2 backend and
-vectorized math library are almost fully implemented. Pre-AVX2/WASM/ARM backends are
-a work in progress. The latest documentation is available
+vectorized math library are almost fully implemented. Pre-AVX2/WASM/ARM backends
+are a work in progress. The latest documentation is available
 [here][thermite-documentation].
 
 [thermite-documentation]: https://raygon-renderer.github.io/thermite/
