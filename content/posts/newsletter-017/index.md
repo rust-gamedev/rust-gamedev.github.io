@@ -1,8 +1,7 @@
 +++
 title = "This Month in Rust GameDev #17 - December 2020"
-date = 2021-01-04
+date = 2021-01-14
 transparent = true
-draft = true
 +++
 
 Welcome to the 17th issue of the Rust GameDev Workgroup's
