@@ -1089,7 +1089,7 @@ Community plugin updates:
   [megaui](https://crates.io/crates/megaui) integration into Bevy.
 - [bevy_prototype_inline_assets](https://crates.io/crates/bevy_prototype_inline_assets):
   A simple plugin for bundling assets into your binary.
-- [bevy_doryen](https://github.com/smokku/bevy_doryen): A plugin integrating Bevy.
+- [bevy_doryen](https://github.com/smokku/bevy_doryen): A plugin integrating Bevy
   ECS with [doryen-rs](https://github.com/jice-nospam/doryen-rs) Ascii
   roguelike library.
 - [bevy_discovery](https://crates.io/crates/bevy_discovery): Automatically detects
