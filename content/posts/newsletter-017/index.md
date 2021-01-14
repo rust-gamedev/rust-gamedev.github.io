@@ -1,11 +1,8 @@
 +++
 title = "This Month in Rust GameDev #17 - December 2020"
-date = 2021-01-04
+date = 2021-01-14
 transparent = true
-draft = true
 +++
-
-<!-- Check the post with markdownlint-->
 
 Welcome to the 17th issue of the Rust GameDev Workgroup's
 monthly newsletter.
@@ -26,18 +23,18 @@ Feel free to send PRs about your own projects!
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 [pr]: https://github.com/rust-gamedev/rust-gamedev.github.io
 [coordination]: https://github.com/rust-gamedev/rust-gamedev.github.io/issues?q=label%3Acoordination
-
 [Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
 Table of contents:
 
+- [Rust Gamedev Meetup](#rust-gamedev-meetup)
+- [Rust GameDev Podcast](#rust-gamedev-podcast)
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Library & Tooling Updates](#library-tooling-updates)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Requests for Contribution](#requests-for-contribution)
-- [Jobs](#jobs)
 
 <!--
 Ideal section structure is:
@@ -60,6 +57,48 @@ _Discussions:
 
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
+
+## Rust Gamedev Meetup
+
+![invitation card](meetup.png)
+
+The Rust Gamedev meetup will happen on the second Saturday of every month
+at 16:00 GMT+0. The meetup will be an opportunity to chat with others
+from the Rust game development community and see what people are working on.
+
+The meetup will take place on the [Rust Gamedev Discord server][meetup].
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/ksflbm/the_first_rust_gamedev_meetup),
+[Twitter](https://twitter.com/rust_gamedev/status/1347286339079860225)_
+
+[meetup]: https://discord.gg/yNtPTb2
+
+## [Rust GameDev Podcast #4][podcast-4]
+
+![text logo](podcast.jpeg)
+
+[The 4th podcast episode][podcast-4] is an interview with [Fedor Logachev][@fedor_games],
+creator of the [macroquad] and [miniquad] games libraries.
+
+> We discuss the libraries' features, development, and plans for the future
+> as well as the accompanying book and games project that will act
+> as both an introduction to Rust games development and the Macroquad library.
+
+Listen and subscribe from the following platforms:
+[Rust GameDev Podcast (simplecast)](https://rustgamedev.com/),
+[Apple Podcasts](https://podcasts.apple.com/gb/podcast/rust-game-dev/id1526304768),
+[Spotify](https://open.spotify.com/show/7HRfGnTcXkLkQd9fxJbDGj),
+[RSS Feed](https://feeds.simplecast.com/C6NQglnL),
+[Google Podcasts](https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zaW1wbGVjYXN0LmNvbS9DNk5RZ2xuTA).
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/kit4pa/rustgamedev_podcast_4_fedor_logachev)_
+
+[podcast-4]: https://rustgamedev.com/episodes/interview-with-fedor-logachev
+[@fedor_games]: https://twitter.com/fedor_games
+[macroquad]: https://github.com/not-fl3/macroquad
+[miniquad]: https://github.com/not-fl3/miniquad
 
 ## Game Updates
 
@@ -181,7 +220,7 @@ the [2021 roadmap](abstreet-roadmap).
 [15m-santa]: http://santa.abstreet.org
 [abstreet]: https://abstreet.org
 [santa-code]: https://github.com/dabreegster/abstreet/tree/master/santa/src/
-[abstreet-roadmap]: https://docs.google.com/document/d/1oV4mdtb0ve-wf0HqbEvR9IwXLIkTeDu8a3UnJxnr2F0/edit?usp=sharing
+[abstreet-roadmap]: https://docs.google.com/document/d/1oV4mdtb0ve-wf0HqbEvR9IwXLIkTeDu8a3UnJxnr2F0
 
 ### [Egregoria]
 
@@ -225,9 +264,9 @@ Changes done during the last month:
   on top of the engine.
 - Work started on pushing the project's changes upstream and moving back
   to mainline versions of crates.
-- Improvements to the Organya player (a simple synthetiser that plays the
+- Improvements to the Organya player (a simple synthesizer that plays the
   in-game music using a set of 100 waves and 6 drum samples).
-- A bunch of missing NPCs, bosses and other stuff were added.
+- A bunch of missing NPCs, bosses, and other stuff were added.
 - The way how game loop works was redesigned, in preparation
   for adding networked multiplayer support.
 - Countless bug fixes.
@@ -250,8 +289,8 @@ December was an important month for the game. Along with tons of little fixes
 and changes, major features such as NPC Dialog were finally implemented! Check
 out the dev logs for more info.
 
-- [26: Various Improvements](https://ratwizard.dev/dev-log/antorum/26)
-- [27: The Big 2020 End-Of-Year Update](https://ratwizard.dev/dev-log/antorum/27)
+- [#26: Various Improvements](https://ratwizard.dev/dev-log/antorum/26);
+- [#27: The Big 2020 End-Of-Year Update](https://ratwizard.dev/dev-log/antorum/27);
 
 [Antorum]: https://ratwizard.dev/dev-log/antorum
 [@dooskington]: https://twitter.com/dooskington
@@ -326,7 +365,7 @@ written in Rust from scratch.
 > I've never used WebGL before, and my linear algebra is worse than I thought.
 
 [The source code is available here][swoop-source] and
-you can also read about about the process of making the game
+you can also read about the process of making the game
 here: ["WASM Games From Scratch"][swoop-book].
 
 You can also play the game's [prototype version done in shadertoy][swoop-shadertoy]
@@ -490,7 +529,7 @@ The [source code][vollmond-source] is available and includes the following
 technical implementations:
 
 - drawing and modifying multilayer tilemap,
-- tile-based animation and collisionlogic,
+- tile-based animation and collision logic,
 - tweening und timer,
 - 4-way top-down and sideways player movement,
 - independent game scenes.
@@ -574,7 +613,7 @@ _Discussions:
 ### [Drawing Bezier curves with SDFs][bezier_article]
 
 ![Demo](beziers.gif)
-_The demo is availiable [here][bezier_demo]_
+_The demo is available [here][bezier_demo]_
 
 A short note by [@VladZhukov0] about drawing Bezier curves (strokes)
 with signed distance fields.
@@ -595,7 +634,7 @@ _You can [watch the recording here][mactuitui-talk]._
 and [Nannou][mactuitui-nannou-website], an open-source creative-coding
 framework.
 
-> Alexis André is an artist, researcher and designer aiming at redefining
+> Alexis André is an artist, researcher, and designer aiming at redefining
 > entertainment. In this golden age of computation and data overflow,
 > why is our entertainment still designed to be consumed in a passive
 > way? A few media are offering interactive experiences, but none of
@@ -625,10 +664,10 @@ and this contribution might be included in future releases.
 
 With [Legion Script][legion-script], it is possible to declare, write and read
 components into Legion using Python scripts.
-However, this project exports an API which can be evolved
+However, this project exports an API that can be evolved
 for other languages and interpreters.
 
-Since then, both developers have been sharing their work and receiving feedbacks
+Since then, both developers have been sharing their work and receiving feedback
 for the project while planning the next steps for the code, which is available
 at [GitHub][legion-script].
 
@@ -641,6 +680,26 @@ in [this Amethyst forum thread][thesis-thread].
 [amethyst]: https://github.com/amethyst/amethyst
 [thesis-thread]: https://community.amethyst.rs/t/undergrad-thesis-on-game-scripting-for-legion/1753
 
+### [Triangle from Scratch][tri-scratch]
+
+[Triangle from Scratch][tri-scratch] ([source code][tri-scratch-src])
+is a new tutorial series by [@Lokathor]
+about drawing a triangle without using any outside crates.
+So far there's just one article for opening a window using the Win32 API,
+but more subjects and on more platforms will be added over time.
+From the author:
+
+> The point isn't that we specifically care about drawing the triangle.
+> That's just a goal that's easy to grasp.
+> The point is that we're doing it with no dependencies as a way
+> to get ourselves to learn about low level OS interaction details as we go.
+> That said, the "no crates" rule is for educational purposes only;
+> please feel free to use crates in normal situations.
+
+[tri-scratch]: https://rust-tutorials.github.io/triangle-from-scratch
+[tri-scratch-src]: https://github.com/rust-tutorials/triangle-from-scratch
+[@Lokathor]: https://twitter.com/Lokathor
+
 ### [WASM Games From Scratch][wasm-scratch-book]
 
 ![sprite transformation explanations](wasm_sprite_transform.svg)
@@ -652,7 +711,7 @@ of building the abovementioned web game [Swoop][swoop-itch] from scratch:
 > Game engines are huge behemoths, and contain algorithms
 > for handling everything and the kitchen sink.
 > While that's normally good, if you want to do something small,
-> or possibly do something outside the bounds of a normal game enine,
+> or possibly do something outside the bounds of a normal game engine,
 > you suddenly have to learn how to do everything yourself.
 >
 > Or perhaps you just like the "type it and run" style of development
@@ -664,9 +723,9 @@ of building the abovementioned web game [Swoop][swoop-itch] from scratch:
 
 Some of the topics covered by the book:
 
-- Building for WASM, event handling, WebGL and shader basics.
+- Building for WASM, event handling, WebGL, and shader basics.
 - Map generation using a Fourier series.
-- Camera positioning and drawing a map, ships and engine trails.
+- Camera positioning and drawing a map, ships, and engine trails.
 - Ship physics and simple AI.
 
 [wasm-scratch-book]: https://sdfgeoff.github.io/wasm_minigames
@@ -678,7 +737,7 @@ Some of the topics covered by the book:
 Thermite is a WIP SIMD library focused on providing portable SIMD (Single
 Instruction, Multiple Data) acceleration of SoA (Structure of Arrays)
 algorithms, using consistent-length SIMD vectors for lockstep iteration and
-computation. Extensive research and work has gone into minimizing wasted CPU
+computation. Extensive research and work have gone into minimizing wasted CPU
 cycles and making the most out of what your CPU can do.
 
 The goal of Thermite is to provide highly optimized feature-rich backends for
@@ -688,8 +747,8 @@ optimized vectorized math library with many special math functions and
 algorithms, specialized for both single and double precision.
 
 Thermite has been worked on for a little over a month now. The AVX2 backend and
-vectorized math library almost fully implemented. Pre-AVX2/WASM/ARM backends are
-a work in progress. The latest documentation is available
+vectorized math library are almost fully implemented. Pre-AVX2/WASM/ARM backends
+are a work in progress. The latest documentation is available
 [here][thermite-documentation].
 
 [thermite-documentation]: https://raygon-renderer.github.io/thermite/
@@ -778,7 +837,7 @@ Optionally enabled features include:
 
 [polyhedron-ops]: https://github.com/virtualritz/polyhedron-ops
 [polyhedron-wiki]: http://en.wikipedia.org/wiki/Conway_polyhedron_notation
-[polyhedron-bevy]: https://github.com/virtualritz/polyhedron-ops/blob/76a0c4b83examples/bevy/bevy.rs
+[polyhedron-bevy]: https://github.com/virtualritz/polyhedron-ops/blob/76a0c4b83/examples/bevy/bevy.rs
 [nsi]: https://crates.io/crates/nsi
 
 ### [raw-gl-context]
@@ -910,25 +969,25 @@ This month's updates:
 ### [rg3d]
 
 [![rusty-editor screenshot](rusty-editor.jpg)][rg3d_twit]
-_A level made in [rusty-editor][rusty_editor] which a native scene editor
-for rg3d game engine._
+_A level made in [rusty-editor][rusty_editor] which is a native scene editor
+for the rg3d game engine._
 
 [rg3d] is a game engine that aims to be easy to use and provide large set
 of out-of-box features. Some of the recent updates:
 
-- Improved [dark UI theme][rg3d_dark_theme]
-- Added verbosity levels for logger
-- Improved lightmap quality
-- Added proper syncing between physics and scene graph
-- Improved examples
-- Added cylinder emitter for particle systems
-- Improved lots of UI widgets and added VectorImage widget
-- rg3d-sound is now able to manage multiple contexts
-- [hrtf][hrtf] crate now has 2 times better performance
-- Added support for 64-bit FBX format (version 7500+)
+- Improved [dark UI theme][rg3d_dark_theme].
+- Added verbosity levels for logger.
+- Improved lightmap quality.
+- Added proper syncing between physics and scene graph.
+- Improved examples.
+- Added cylinder emitter for particle systems.
+- Improved lots of UI widgets and added VectorImage widget.
+- rg3d-sound is now able to manage multiple contexts.
+- [hrtf][hrtf] crate now has 2 times better performance.
+- Added support for 64-bit FBX format (version 7500+).
 - rusty-editor now has [navigation meshes][rusty_editor_navmesh] and
-  particle systems editor
-- Lots of other small fixes and improvements
+  particle systems editor.
+- Lots of other small fixes and improvements.
 
 Join the [rg3d's Discord channel][rg3d_discord]
 or follow [Dmitry Stepanov on Twitter][rg3d_twitter].
@@ -961,7 +1020,7 @@ _Discussions:
 
 [![Dotrix in December](dotrix-in-december.gif)][dotrix-video]
 
-Last month [Dotrix] got a major features boost that made the engine ready for
+Last month [Dotrix] got a major feature boost that made the engine ready for
 3D games development. To demonstrate the features, the [demo example][dotrix-demo]
 was turned into an all-in-one proof-of-concept application.
 You can see the full version on [YouTube][dotrix-video].
@@ -991,21 +1050,21 @@ This month, thanks to 66 contributors, 178 pull requests, and their
 [generous sponsors][bevy-sponsors], Bevy 0.4 was released. You can view the
 [full Bevy 0.4 announcement here][bevy-0-4]. Here are some highlights:
 
-- a WebGL2 render backend;
-- cross platform main function: `#[bevy_main]`;
-- live shader reloading;
+- A WebGL2 render backend.
+- Cross platform main function: `#[bevy_main]`.
+- Live shader reloading.
 - Schedule v2 with custom stages, run criteria, fixed timestep,
-  and typed stage builders;
+  and typed stage builders.
 - States that allow you to enable/disable systems
-  according to the state your app is in;
-- scenes can now be spawned as children;
-- dynamic linking that significantly cuts compile times.
-- a new general-purpose Rust reflection API;
-- 3D texture assets;
-- HIDPI fixes;
-- GLTF, timer, text layout, task system, logging & profiling improvements;
+  according to the state your app is in.
+- Scenes can now be spawned as children.
+- Dynamic linking that significantly cuts compile times.
+- A new general-purpose Rust reflection API.
+- 3D texture assets.
+- HIDPI fixes.
+- GLTF, timer, text layout, task system, logging & profiling improvements.
 - ECS improvements: flexible system parameters, improved query filter API,
-  and system inputs/outputs/chaining;
+  and system inputs/outputs/chaining.
 - Apple Silicon support!
 
 _Discussions:
@@ -1030,7 +1089,7 @@ Community plugin updates:
   [megaui](https://crates.io/crates/megaui) integration into Bevy.
 - [bevy_prototype_inline_assets](https://crates.io/crates/bevy_prototype_inline_assets):
   A simple plugin for bundling assets into your binary.
-- [bevy_doryen](https://github.com/smokku/bevy_doryen): A plugin integrating Bevy.
+- [bevy_doryen](https://github.com/smokku/bevy_doryen): A plugin integrating Bevy
   ECS with [doryen-rs](https://github.com/jice-nospam/doryen-rs) Ascii
   roguelike library.
 - [bevy_discovery](https://crates.io/crates/bevy_discovery): Automatically detects
@@ -1126,7 +1185,7 @@ _Discussions:
 
 ### [Rust Graphics Playground][rust-graphics-playground]
 
-![Rust Graphics Playground Demo](rust-graphics-playground.gif)
+[![Rust Graphics Playground Demo](rust-graphics-playground.gif)][rust-graphics-playground]
 
 The [Rust Graphics Playground][rust-graphics-playground] is a small tool that
 allows you to create and share miniature graphics demos in Rust that will run
@@ -1140,7 +1199,7 @@ in the browser. Here are a few examples of what you can make:
 The [source code][graphics-playground-source] is available online.
 
 _Discussions:
-[/r/rust](https://www.reddit.com/r/rust/comments/kk6i38/write_mini_graphics_demos_in_rust_in_the_browser/)_
+[/r/rust](https://reddit.com/r/rust/comments/kk6i38/write_mini_graphics_demos_in_rust_in_the_browser)_
 
 [rust-graphics-playground]: http://playground.meteorlinker.com
 [spinning-triangle]: http://playground.meteorlinker.com/?share=1
@@ -1153,13 +1212,46 @@ _Discussions:
 
 <!-- Up to 10 links to interesting issues -->
 
+- [rust-gamedev/rust-gamedev.github.io](https://github.com/rust-gamedev/rust-gamedev.github.io):
+  - [#406 "Separate category for engines vs libraries/tools"](https://github.com/rust-gamedev/rust-gamedev.github.io/issues/406);
+- [rust-gamedev/wg](https://github.com/rust-gamedev/wg):
+  - [#18 "Set up a gamedev usergroup on users.rust-lang.org"](https://github.com/rust-gamedev/wg/issues/18);
+  - [#23 "A pure rust SPIRV generator"](https://github.com/rust-gamedev/wg/issues/23);
+  - [#94 "raw-window-handle maintenance"](https://github.com/rust-gamedev/wg/issues/94);
+  - [#97 "WG brand update proposal"](https://github.com/rust-gamedev/wg/issues/97);
+  - [#98 "Monthly Rust Gamedev Meetup"](https://github.com/rust-gamedev/wg/issues/98);
+  - [#99 "Official Rust Gamedev Discord"](https://github.com/rust-gamedev/wg/issues/99);
+
 ## Requests for Contribution
 
 <!-- Links to "good first issue"-labels or direct links to specific tasks -->
 
-## Jobs
+- [winit is seeking new maintainers][winit-call].
+- [Embark's open issues][embark-open-issues] ([embark.rs]).
+- [gfx-rs's "contributor-friendly" issues][gfx-issues].
+- [wgpu's "help wanted" issues][wgpu-help-wanted].
+- [luminance's "low hanging fruit" issues][luminance-fruits].
+- [ggez's "good first issue" issues][ggez-issues].
+- [Veloren's "beginner" issues][veloren-beginner].
+- [Amethyst's "good first issue" issues][amethyst-issues].
+- [A/B Street's "good first issue" issues][abstreet-issues].
+- [Mun's "good first issue" issues][mun-issues].
+- [SIMple Mechanic's good first issues][simm-issues].
+- [Bevy's "good first issue" issues][bevy-issues].
 
-<!-- An optional section for new jobs related to Rust gamedev -->
+[embark.rs]: https://embark.rs
+[embark-open-issues]: https://github.com/search?q=user:EmbarkStudios+state:open
+[gfx-issues]: https://github.com/gfx-rs/gfx/issues?q=is%3Aissue+is%3Aopen+label%3Acontributor-friendly
+[wgpu-help-wanted]: https://github.com/gfx-rs/wgpu-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
+[luminance-fruits]: https://github.com/phaazon/luminance-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22low+hanging+fruit%22
+[ggez-issues]: https://github.com/ggez/ggez/labels/%2AGOOD%20FIRST%20ISSUE%2A
+[veloren-beginner]: https://gitlab.com/veloren/veloren/issues?label_name=beginner
+[amethyst-issues]: https://github.com/amethyst/amethyst/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[abstreet-issues]: https://github.com/dabreegster/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
+[simm-issues]: https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue
+[bevy-issues]: https://github.com/bevyengine/bevy/labels/good%20first%20issue
+[winit-call]: https://github.com/rust-windowing/winit/issues/1777
 
 ------
 
