@@ -5,8 +5,6 @@ transparent = true
 draft = true
 +++
 
-<!-- Check the post with markdownlint-->
-
 Welcome to the 17th issue of the Rust GameDev Workgroup's
 monthly newsletter.
 [Rust] is a systems language pursuing the trifecta:
@@ -26,7 +24,6 @@ Feel free to send PRs about your own projects!
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 [pr]: https://github.com/rust-gamedev/rust-gamedev.github.io
 [coordination]: https://github.com/rust-gamedev/rust-gamedev.github.io/issues?q=label%3Acoordination
-
 [Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
@@ -38,7 +35,6 @@ Table of contents:
 - [Library & Tooling Updates](#library-tooling-updates)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Requests for Contribution](#requests-for-contribution)
-- [Jobs](#jobs)
 
 <!--
 Ideal section structure is:
@@ -1180,13 +1176,46 @@ _Discussions:
 
 <!-- Up to 10 links to interesting issues -->
 
+- [rust-gamedev/rust-gamedev.github.io](https://github.com/rust-gamedev/rust-gamedev.github.io):
+  - [#406 "Separate category for engines vs libraries/tools"](https://github.com/rust-gamedev/rust-gamedev.github.io/issues/406);
+- [rust-gamedev/wg](https://github.com/rust-gamedev/wg):
+  - [#18 "Set up a gamedev usergroup on users.rust-lang.org"](https://github.com/rust-gamedev/wg/issues/18);
+  - [#23 "A pure rust SPIRV generator"](https://github.com/rust-gamedev/wg/issues/23);
+  - [#94 "raw-window-handle maintenance"](https://github.com/rust-gamedev/wg/issues/94);
+  - [#97 "WG brand update proposal"](https://github.com/rust-gamedev/wg/issues/97);
+  - [#98 "Monthly Rust Gamedev Meetup"](https://github.com/rust-gamedev/wg/issues/98);
+  - [#99 "Official Rust Gamedev Discord"](https://github.com/rust-gamedev/wg/issues/99);
+
 ## Requests for Contribution
 
 <!-- Links to "good first issue"-labels or direct links to specific tasks -->
 
-## Jobs
+- [winit is seeking new maintainers][winit-call].
+- [Embark's open issues][embark-open-issues] ([embark.rs]).
+- [gfx-rs's "contributor-friendly" issues][gfx-issues].
+- [wgpu's "help wanted" issues][wgpu-help-wanted].
+- [luminance's "low hanging fruit" issues][luminance-fruits].
+- [ggez's "good first issue" issues][ggez-issues].
+- [Veloren's "beginner" issues][veloren-beginner].
+- [Amethyst's "good first issue" issues][amethyst-issues].
+- [A/B Street's "good first issue" issues][abstreet-issues].
+- [Mun's "good first issue" issues][mun-issues].
+- [SIMple Mechanic's good first issues][simm-issues].
+- [Bevy's "good first issue" issues][bevy-issues].
 
-<!-- An optional section for new jobs related to Rust gamedev -->
+[embark.rs]: https://embark.rs
+[embark-open-issues]: https://github.com/search?q=user:EmbarkStudios+state:open
+[gfx-issues]: https://github.com/gfx-rs/gfx/issues?q=is%3Aissue+is%3Aopen+label%3Acontributor-friendly
+[wgpu-help-wanted]: https://github.com/gfx-rs/wgpu-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
+[luminance-fruits]: https://github.com/phaazon/luminance-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22low+hanging+fruit%22
+[ggez-issues]: https://github.com/ggez/ggez/labels/%2AGOOD%20FIRST%20ISSUE%2A
+[veloren-beginner]: https://gitlab.com/veloren/veloren/issues?label_name=beginner
+[amethyst-issues]: https://github.com/amethyst/amethyst/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[abstreet-issues]: https://github.com/dabreegster/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
+[simm-issues]: https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue
+[bevy-issues]: https://github.com/bevyengine/bevy/labels/good%20first%20issue
+[winit-call]: https://github.com/rust-windowing/winit/issues/1777
 
 ------
 
