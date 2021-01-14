@@ -1033,21 +1033,21 @@ This month, thanks to 66 contributors, 178 pull requests, and their
 [generous sponsors][bevy-sponsors], Bevy 0.4 was released. You can view the
 [full Bevy 0.4 announcement here][bevy-0-4]. Here are some highlights:
 
-- a WebGL2 render backend;
-- cross platform main function: `#[bevy_main]`;
-- live shader reloading;
+- A WebGL2 render backend.
+- Cross platform main function: `#[bevy_main]`.
+- Live shader reloading.
 - Schedule v2 with custom stages, run criteria, fixed timestep,
-  and typed stage builders;
+  and typed stage builders.
 - States that allow you to enable/disable systems
-  according to the state your app is in;
-- scenes can now be spawned as children;
-- dynamic linking that significantly cuts compile times.
-- a new general-purpose Rust reflection API;
-- 3D texture assets;
-- HIDPI fixes;
-- GLTF, timer, text layout, task system, logging & profiling improvements;
+  according to the state your app is in.
+- Scenes can now be spawned as children.
+- Dynamic linking that significantly cuts compile times.
+- A new general-purpose Rust reflection API.
+- 3D texture assets.
+- HIDPI fixes.
+- GLTF, timer, text layout, task system, logging & profiling improvements.
 - ECS improvements: flexible system parameters, improved query filter API,
-  and system inputs/outputs/chaining;
+  and system inputs/outputs/chaining.
 - Apple Silicon support!
 
 _Discussions:
