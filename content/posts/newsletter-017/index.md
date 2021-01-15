@@ -206,16 +206,16 @@ know where shops, single-family homes, and apartments are located. In places
 where zoning rules keep people separated from food, Santa will have a hard
 time.
 
-15-minute Santa was created by the [A/B Street](abstreet) team as an experiment
+15-minute Santa was created by the [A/B Street][abstreet] team as an experiment
 to see how quickly we could build a simple arcade game that gets people
-thinking about how their city is designed. [The code](santa-code) doesn't make
+thinking about how their city is designed. [The code][santa-code] doesn't make
 use of an entity-component system or an existing engine, and animation and
 particle effects don't use a custom shader. The game runs natively on Linux,
 Mac, and Windows, and on web browsers. There are instructions for modding the
 game and adding your own city!
 
 A/B Street updates will return next month. In the meantime, please comment on
-the [2021 roadmap](abstreet-roadmap).
+the [2021 roadmap][abstreet-roadmap].
 
 [15m-santa]: http://santa.abstreet.org
 [abstreet]: https://abstreet.org
