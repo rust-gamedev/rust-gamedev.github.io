@@ -31,6 +31,7 @@ Table of contents:
 
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
+- [Engine Updates](#engine-updates)
 - [Library & Tooling Updates](#library-tooling-updates)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Requests for Contribution](#requests-for-contribution)
@@ -77,7 +78,7 @@ The project is still at a “very” early stage of development (Dec. 2020).
 
 ## Learning Material Updates
 
-## Library & Tooling Updates
+## Engine Updates
 
 ### [Tetra]
 
@@ -97,6 +98,8 @@ planned for some time in February!
 [tetra]: https://github.com/17cupsofcoffee/tetra
 [tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
 [tetra-06-changelog]: https://github.com/17cupsofcoffee/tetra/blob/0.6/CHANGELOG.md
+
+## Library & Tooling Updates
 
 ## Popular Workgroup Issues in Github
 
