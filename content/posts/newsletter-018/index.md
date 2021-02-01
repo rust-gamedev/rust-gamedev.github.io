@@ -76,6 +76,25 @@ The project is still at a “very” early stage of development (Dec. 2020).
 
 [teki]:https://github.com/o2sh/teki
 
+### [Antorum]
+
+![Some players hanging out next to the bank Vault in Belmart](antorum-2-1-2021.jpg)
+_Hanging out by the vault_
+
+[Antorum] is a micro-multiplayer online role-playing game by [@dooskington].
+The game server is written in Rust, and the official client is being developed
+in Unity.
+
+Banking was implemented this month! Players can now store their items and wealth
+in a safe place. Additionally, the concept of "item combinations" was implemented,
+bringing more interesting crafting scenarios into the game.
+
+- [#28: Banking](https://ratwizard.dev/dev-log/antorum/28);
+- [#29: Item Combinations](https://ratwizard.dev/dev-log/antorum/29);
+
+[Antorum]: https://ratwizard.dev/dev-log/antorum
+[@dooskington]: https://twitter.com/dooskington
+
 ## Learning Material Updates
 
 ## Engine Updates
