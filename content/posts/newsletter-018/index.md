@@ -31,6 +31,7 @@ Table of contents:
 
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
+- [Engine Updates](#engine-updates)
 - [Library & Tooling Updates](#library-tooling-updates)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Requests for Contribution](#requests-for-contribution)
@@ -76,6 +77,27 @@ The project is still at a “very” early stage of development (Dec. 2020).
 [teki]:https://github.com/o2sh/teki
 
 ## Learning Material Updates
+
+## Engine Updates
+
+### [Tetra]
+
+[Tetra] is a simple 2D game framework, inspired by XNA and Raylib. This month,
+versions 0.5.7 and 0.5.8 were released, with various changes:
+
+- Basic multisampled anti-aliasing support (with further improvements to come)
+- Functions for generating primitive shape meshes
+- A more flexible `Rectangle` type
+- Lots of bug fixes and docs improvements
+
+For full details, see the [changelog][tetra-changelog].
+
+Additionally, work on [version 0.6][tetra-06-changelog] has begun, with a release
+planned for some time in February!
+
+[tetra]: https://github.com/17cupsofcoffee/tetra
+[tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
+[tetra-06-changelog]: https://github.com/17cupsofcoffee/tetra/blob/0.6/CHANGELOG.md
 
 ## Library & Tooling Updates
 
