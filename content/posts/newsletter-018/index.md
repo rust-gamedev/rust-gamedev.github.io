@@ -79,6 +79,25 @@ The project is still at a “very” early stage of development (Dec. 2020).
 
 ## Library & Tooling Updates
 
+### [Tetra]
+
+[Tetra] is a simple 2D game framework, inspired by XNA and Raylib. This month,
+versions 0.5.7 and 0.5.8 were released, with various changes:
+
+- Basic multisampled anti-aliasing support (with further improvements to come)
+- Functions for generating primitive shape meshes
+- A more flexible `Rectangle` type
+- Lots of bug fixes and docs improvements
+
+For full details, see the [changelog][tetra-changelog].
+
+Additionally, work on [version 0.6][tetra-06-changelog] has begun, with a release
+planned for some time in February!
+
+[tetra]: https://github.com/17cupsofcoffee/tetra
+[tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
+[tetra-06-changelog]: https://github.com/17cupsofcoffee/tetra/blob/0.6/CHANGELOG.md
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
