@@ -63,6 +63,32 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
+### [`ggez`](ggez)
+
+![ggez logo](../newsletter-005/ggez-logo-maroon-full.svg)
+
+`ggez` is a lightweight cross-platform game framework for making 2D
+games with minimum friction.
+
+The zero'th release candidate for version 0.6.0 has been released and
+there has been no particularly horrific outcry of people's games
+exploding.  A first release candidate with a pile of medium-sized bug
+fixes should be coming quite soon, hopefully followed by a full release.
+Special thanks to the contributors who helped hunt bugs and organize
+PR's to get this version out the door:
+
+ * PSteinhaus
+ * Manghi
+ * AaronM04
+ * Systemcluster
+
+_Discussions: [/r/rust_gamedev](ggez-reddit), [Issue tracker](ggez-github)
+
+[ggez]: https://crates.io/crates/ggez
+[ggez-reddit]: https://reddit.com/r/rust_gamedev
+[ggez-github]: https://github.com/ggez/ggez/issues
+
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
