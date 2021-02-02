@@ -149,6 +149,24 @@ planned for some time in February!
 
 ## Library & Tooling Updates
 
+### [`bevy_ldtk`]
+
+![LDtk Map Running in Bevy](./bevy_ldtk.jpg)
+_( Tileset from ["Cavernas"] by Adam Saltsman )_
+
+[`bevy_ldtk`] is a Bevy plugin for loading [LDtk] tilemaps.
+
+It features:
+
+- An efficient renderer that only uses 4 vertices per map layer
+- Hot reloading through the Bevy asset server integration
+- Heavily commented code to help others who want to see how to make their own
+  tilemap renderers
+
+[`bevy_ldtk`]: https://github.com/katharostech/bevy_ldtk
+[ldtk]: https://ldtk.io
+["cavernas"]: https://adamatomic.itch.io/cavernas
+
 ### [rkyv]
 
 [rkyv] is a zero-copy deserialization framework for Rust. It's similar to
