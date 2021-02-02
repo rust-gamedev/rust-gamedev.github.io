@@ -124,6 +124,50 @@ bringing more interesting crafting scenarios into the game.
 [Antorum]: https://ratwizard.dev/dev-log/antorum
 [@dooskington]: https://twitter.com/dooskington
 
+### [SeniorSKY]
+
+![SeniorSKY](3.png)
+
+_Over the mountains in Slovakia_
+
+[SeniorSKY]
+is a flight simulator using Vulkan API, developed by [@pmathia0].
+
+As an aerospace engineering student with many virtual flying hours in commercial
+simulators under his belt, Peter has always been interested how things work under
+the hood. 
+
+The development of SeniorSKY started as a hobby project during university
+studies. Initially, Peter had been using C++ for development of the main
+application. However, he later started experimenting with Rust language.
+Rust was used back then only for some utilities, which, for example, converts
+real-world heightmaps from DTED2 format into Khronos KTX2.
+
+In winter of 2020, the decision has been made to port the whole SeniorSKY
+application and associated utilities into Rust.
+
+As mentioned before, SeniorSKY uses real-world elevation data with 1 arc
+second precision and can render the whole globe with real dimensions.
+The program uses some commonly known techniques to improve precision
+of depth buffer and vertex data. During the flight, the terrain tiles are loaded
+dynamically based on real GPS coordinates of airplane, with a decreasing level of detail,
+based on distance from the camera. This is achieved using a combination
+of a terrain-quad-tree and GPU tessellation.
+
+SeniorSKY also implements basic rendering of sky, atmosphere and fog.
+
+To be able to simulate a flight, SeniorSKY temporarily integrates 3rd party
+flight dynamics engine called JSBSim. Meanwhile, development of own, custom
+flight dynamics engine is already in progress.
+
+The project serves Peter
+as a playground to learn and implement various techniques, from real-world
+globe, 3D terrain, through rendering of fonts, UI, up to the implementation
+of custom physics and flight dynamics.
+
+[SeniorSKY]: https://youtube.com/playlist?list=PLMmaJuk-D7iaObZyhyvc83tNwpx3ghzkY
+[@pmathia0]: https://twitter.com/pmathia0
+
 ## Learning Material Updates
 
 ## Engine Updates
