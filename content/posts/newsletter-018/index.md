@@ -29,6 +29,7 @@ Feel free to send PRs about your own projects!
 
 Table of contents:
 
+- [Rust GameDev Podcast](#rust-gamedev-podcast)
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
@@ -57,6 +58,30 @@ _Discussions:
 
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
+
+## [Rust GameDev Podcast][podcast-5]
+
+![text logo](podcast.jpeg)
+
+[The 5th podcast episode][podcast-5] is an interview with
+[Alex Ene][@_AlexEne_] creator of an upcoming dwarven simulation
+game, [Dwarf World][dwarf-world].
+
+> In this weeks episode, Richard and Forest chat to Alex Ene,
+> creator of the dwarven simulation game, Dwarf World.
+> We cover writing custom engines, unit testing, build
+> systems and picking the right frameworks for your game.
+
+Listen and subscribe from the following platforms:
+[Rust GameDev Podcast (simplecast)](https://rustgamedev.com/),
+[Apple Podcasts](https://podcasts.apple.com/gb/podcast/rust-game-dev/id1526304768),
+[Spotify](https://open.spotify.com/show/7HRfGnTcXkLkQd9fxJbDGj),
+[RSS Feed](https://feeds.simplecast.com/C6NQglnL),
+[Google Podcasts](https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zaW1wbGVjYXN0LmNvbS9DNk5RZ2xuTA).
+
+[podcast-5]: https://rustgamedev.com/episodes/interview-with-alex-ene
+[@_AlexEne_]: https://twitter.com/_Alex_Ene_
+[dwarf-world]: https://dwarf.world
 
 ## Game Updates
 
