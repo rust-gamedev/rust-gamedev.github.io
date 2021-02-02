@@ -149,6 +149,16 @@ planned for some time in February!
 
 ## Library & Tooling Updates
 
+### [`LDtk-rs`]
+
+[`LDtk-rs`] is a Rust crate for reading the [LDtk] map file format. The bindings
+to the LDtk format are 100% automatically generated from the LDtk JSON Schema,
+with the option to download the latest JSON Schema at build time for automatic
+updates.
+
+[`LDtk-rs`]: https://github.com/katharostech/ldtk-rs
+[LDtk]: https://ldtk.io
+
 ### [`bevy_ldtk`]
 
 ![LDtk Map Running in Bevy](./bevy_ldtk.jpg)
@@ -191,6 +201,20 @@ date around mid-February.
 [rkyv]: https://github.com/djkoloski/rkyv
 [rkyv-book]: https://djkoloski.github.io/rkyv
 [rkyv-v0.4]: https://github.com/djkoloski/rkyv/milestone/5
+
+### [kira]
+
+[kira] by [@tesselode] is a game audio library tailored to composers and other
+people who need expressive audio.
+
+v0.4.0 was released with a new wasm32 support, a new handle-based API, improved
+error handling, and serde support for sequences, arrangements, and most config structs.
+
+_Discussions: [/r/rust](https://www.reddit.com/r/rust/comments/l3ma3d/kira_game_audio_library_v040_wasm_support_serde/),
+[Twitter](https://twitter.com/tesselode/status/1353111739433410560)_
+
+[Kira]: https://github.com/tesselode/kira
+[@tesselode]: https://twitter.com/tesselode
 
 ## Popular Workgroup Issues in Github
 
