@@ -241,6 +241,24 @@ _Discussions: [/r/rust](https://www.reddit.com/r/rust/comments/l3ma3d/kira_game_
 [Kira]: https://github.com/tesselode/kira
 [@tesselode]: https://twitter.com/tesselode
 
+### [gfx-rs] and [wgpu-rs]
+
+![Spaceship](wgpu-spaceship.jpg)
+
+The community managed to squeeze the v0.7 releases out
+at the end of the month. See the detailed notes on [gfx blog post].
+
+The highlight of the show is about shaders. Most of wgpu-rs shaders are
+now written in [WGSL],
+and gfx-rs community is inviting Rust game/graphics developers to evaluate if
+[naga] could fulfill their shader translation needs in the future.
+
+[gfx-rs]: https://github.com/gfx-rs/gfx
+[wgpu-rs]: https://github.com/gfx-rs/wgpu-rs
+[gfx blog post]: https://gfx-rs.github.io/2021/02/02/release-0.7.html
+[WGSL]: https://gpuweb.github.io/gpuweb/wgsl.html
+[naga]: https://github.com/gfx-rs/naga
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
