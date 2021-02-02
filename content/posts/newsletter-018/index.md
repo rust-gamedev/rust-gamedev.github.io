@@ -60,7 +60,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
-### [Teki (敵)](teki)
+### [Teki (敵)][teki]
 
 ![teki preview](teki.gif)
 
@@ -74,7 +74,7 @@ a.k.a danmaku 弾幕 - literally "barrage" or "bullet curtain" in japanese.
 
 The project is still at a “very” early stage of development (Dec. 2020).
 
-[teki]:https://github.com/o2sh/teki
+[teki]: https://github.com/o2sh/teki
 
 ### [Antorum]
 
