@@ -131,7 +131,7 @@ bringing more interesting crafting scenarios into the game.
 _Over the mountains in Slovakia_
 
 [SeniorSKY]
-is a flight simulator using Vulkan API, developed by [@pmathia0].
+is a flight simulator which uses Vulkan API, developed by [@pmathia0].
 
 As an aerospace engineering student with many virtual flying hours in commercial
 simulators under his belt, Peter has always been interested how things work under
