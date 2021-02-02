@@ -127,7 +127,6 @@ bringing more interesting crafting scenarios into the game.
 ### [SeniorSKY]
 
 ![SeniorSKY](3.png)
-
 _Over the mountains in Slovakia_
 
 [SeniorSKY]
@@ -135,7 +134,7 @@ is a flight simulator which uses Vulkan API, developed by [@pmathia0].
 
 As an aerospace engineering student with many virtual flying hours in commercial
 simulators under his belt, Peter has always been interested how things work under
-the hood. 
+the hood.
 
 The development of SeniorSKY started as a hobby project during university
 studies. Initially, Peter had been using C++ for development of the main
@@ -150,9 +149,9 @@ As mentioned before, SeniorSKY uses real-world elevation data with 1 arc
 second precision and can render the whole globe with real dimensions.
 The program uses some commonly known techniques to improve precision
 of depth buffer and vertex data. During the flight, the terrain tiles are loaded
-dynamically based on real GPS coordinates of airplane, with a decreasing level of detail,
-based on distance from the camera. This is achieved using a combination
-of a terrain-quad-tree and GPU tessellation.
+dynamically based on real GPS coordinates of airplane, with a decreasing
+level of detail, based on distance from the camera. This is achieved using
+a combination of a terrain-quad-tree and GPU tessellation.
 
 SeniorSKY also implements basic rendering of sky, atmosphere and fog.
 
