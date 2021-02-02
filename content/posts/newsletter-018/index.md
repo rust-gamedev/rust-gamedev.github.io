@@ -174,6 +174,20 @@ date around mid-February.
 [rkyv-book]: https://djkoloski.github.io/rkyv
 [rkyv-v0.4]: https://github.com/djkoloski/rkyv/milestone/5
 
+### [kira]
+
+[kira] by [@tesselode] is a game audio library tailored to composers and other
+people who need expressive audio.
+
+v0.4.0 was released with a new wasm32 support, a new handle-based API, improved
+error handling, and serde support for sequences, arrangements, and most config structs.
+
+_Discussions: [/r/rust](https://www.reddit.com/r/rust/comments/l3ma3d/kira_game_audio_library_v040_wasm_support_serde/),
+[Twitter](https://twitter.com/tesselode/status/1353111739433410560)_
+
+[Kira]: https://github.com/tesselode/kira
+[@tesselode]: https://twitter.com/tesselode
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
