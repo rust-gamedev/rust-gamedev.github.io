@@ -105,6 +105,32 @@ The project is still at a “very” early stage of development (Dec. 2020).
 [Legion]: https://crates.io/crates/legion
 [wasm-pack]: https://rustwasm.github.io/wasm-pack
 
+### Paddlers
+
+![A happy duck and sign showing: Paddlers version 0.2.0](paddlers_v0.2.jpeg)
+
+[Paddlers] ([GitHub][paddlers-gh], [Online Demo][paddlers-demo]) by [@jakmeier]
+is an MMORTS for the browser, developed as an experimental hobby project.
+
+This month, version 0.2.0 has been released, which removes all dependencies to
+[Stdweb] and [Quicksilver] while keeping the game itself virtually unchanged.
+In the process, a part of the code of Paddlers moved to [Paddle], a new
+framework for 2D browser games running on desktop and mobile phones.
+More details on that are available [here][paddlers-article].
+
+
+Many new features for Paddle and Paddlers are already in the pipeline, so stay
+tuned for more exciting updates in the next monthly newsletter!
+
+[Paddlers]: https://paddlers.ch
+[paddlers-gh]: https://github.com/jakmeier/paddlers-browser-game
+[paddlers-demo]: https://demo.paddlers.ch
+[@jakmeier]: https://github.com/jakmeier
+[stdweb]: https://github.com/koute/stdweb
+[Quicksilver]: https://github.com/ryanisaacg/quicksilver
+[paddle]: https://github.com/jakmeier/paddle
+[paddlers-article]: https://www.jakobmeier.ch/blogging/Paddlers_5.html
+
 ### [Antorum]
 
 ![Some players hanging out next to the bank Vault in Belmart](antorum-2-1-2021.jpg)
