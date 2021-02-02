@@ -149,6 +149,16 @@ planned for some time in February!
 
 ## Library & Tooling Updates
 
+### [`LDtk-rs`]
+
+[`LDtk-rs`] is a Rust crate for reading the [LDtk] map file format. The bindings
+to the LDtk format are 100% automatically generated from the LDtk JSON Schema,
+with the option to download the latest JSON Schema at build time for automatic
+updates.
+
+[`LDtk-rs`]: https://github.com/katharostech/ldtk-rs
+[LDtk]: https://ldtk.io
+
 ### [rkyv]
 
 [rkyv] is a zero-copy deserialization framework for Rust. It's similar to
