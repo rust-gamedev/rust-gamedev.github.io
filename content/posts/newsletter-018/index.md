@@ -118,7 +118,6 @@ In the process, a part of the code of Paddlers moved to [Paddle], a new
 framework for 2D browser games running on desktop and mobile phones.
 More details on that are available [here][paddlers-article].
 
-
 Many new features for Paddle and Paddlers are already in the pipeline, so stay
 tuned for more exciting updates in the next monthly newsletter!
 
