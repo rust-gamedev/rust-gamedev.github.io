@@ -89,10 +89,9 @@ Listen and subscribe from the following platforms:
 
 ![teki preview](teki.gif)
 
-[Teki][teki] is a free and open-source fangame of the [Tōhō](https://en.wikipedia.org/wiki/Touhou_Project)
-series using [SDL2](https://github.com/Rust-SDL2/rust-sdl2) and [Legion](https://crates.io/crates/legion)
-for ECS. Thanks to WebAssembly - via [wasm-pack](https://rustwasm.github.io/wasm-pack/)
--, teki can be played [online](https://o2sh.github.io/teki/).
+[Teki][teki] is a free and open-source fangame of the [Tōhō] series
+using [SDL2] and [Legion] for ECS. Thanks to WebAssembly - via [wasm-pack]
+\-, teki can be played [online][teki-online].
 
 It is aimed to be a shoot ’em up game with "lots of bullets"
 a.k.a danmaku 弾幕 - literally "barrage" or "bullet curtain" in japanese.
@@ -100,6 +99,11 @@ a.k.a danmaku 弾幕 - literally "barrage" or "bullet curtain" in japanese.
 The project is still at a “very” early stage of development (Dec. 2020).
 
 [teki]: https://github.com/o2sh/teki
+[teki-online]: https://o2sh.github.io/teki
+[Tōhō]: https://en.wikipedia.org/wiki/Touhou_Project
+[SDL2]: https://github.com/Rust-SDL2/rust-sdl2
+[Legion]: https://crates.io/crates/legion
+[wasm-pack]: https://rustwasm.github.io/wasm-pack
 
 ### [Antorum]
 
@@ -129,10 +133,10 @@ bringing more interesting crafting scenarios into the game.
 [Tetra] is a simple 2D game framework, inspired by XNA and Raylib. This month,
 versions 0.5.7 and 0.5.8 were released, with various changes:
 
-- Basic multisampled anti-aliasing support (with further improvements to come)
-- Functions for generating primitive shape meshes
-- A more flexible `Rectangle` type
-- Lots of bug fixes and docs improvements
+- Basic multisampled anti-aliasing support (with further improvements to come).
+- Functions for generating primitive shape meshes.
+- A more flexible `Rectangle` type.
+- Lots of bug fixes and docs improvements.
 
 For full details, see the [changelog][tetra-changelog].
 
@@ -153,15 +157,15 @@ FlatBuffers and Cap'n Proto and can be used for data storage and messaging.
 Version 0.3 was released this month and brought some highly-requested features:
 
 - A new hashmap implementation using perfect hashing to decrease memory usage
-  and fix portability issues
+  and fix portability issues.
 - The `Unarchive` trait to enable more traditional data deserialization for
-  archived types
-- Improved validation performance
-- Better error messages and API ergonomics
+  archived types.
+- Improved validation performance.
+- Better error messages and API ergonomics.
 - A [book][rkyv-book] with more narrative documentation on architecture and
-  internals
+  internals.
 - More tests and realistic benchmarks against other popular serialization
-  frameworks
+  frameworks.
 
 The next update will be [v0.4][rkyv-v0.4] and is on the way soon with a release
 date around mid-February.
