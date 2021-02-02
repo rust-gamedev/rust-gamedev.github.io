@@ -101,6 +101,31 @@ planned for some time in February!
 
 ## Library & Tooling Updates
 
+### [rkyv]
+
+[rkyv] is a zero-copy deserialization framework for Rust. It's similar to
+FlatBuffers and Cap'n Proto and can be used for data storage and messaging.
+
+Version 0.3 was released this month and brought some highly-requested features:
+
+- A new hashmap implementation using perfect hashing to decrease memory usage
+  and fix portability issues
+- The `Unarchive` trait to enable more traditional data deserialization for
+  archived types
+- Improved validation performance
+- Better error messages and API ergonomics
+- A [book][rkyv-book] with more narrative documentation on architecture and
+  internals
+- More tests and realistic benchmarks against other popular serialization
+  frameworks
+
+The next update will be [v0.4][rkyv-v0.4] and is on the way soon with a release
+date around mid-February.
+
+[rkyv]: https://github.com/djkoloski/rkyv
+[rkyv-book]: https://djkoloski.github.io/rkyv
+[rkyv-v0.4]: https://github.com/djkoloski/rkyv/milestone/5
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
