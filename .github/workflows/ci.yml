@@ -21,17 +21,6 @@ jobs:
       with:
         args: '.'
         config: '.markdownlint.json'
-    - name: Comment if lints failed
-      if: failure() && github.base_ref # base_ref is only set for PRs 
-      uses: actions/github-script@v3
-      with:
-        script: |
-          github.issues.createComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.issue.number,
-              body: "It looks like the MarkdownLint checks for this PR have failed. Please take a look at the 'Checks' tab to see what needs changing."
-          });
     - name: Install Zola
       run: curl -L ${BASE_URL}/${VERS}/zola-${VERS}-${ARCH}.tar.gz | tar -xz
     - run: ./zola --version

@@ -105,6 +105,51 @@ The project is still at a “very” early stage of development (Dec. 2020).
 [Legion]: https://crates.io/crates/legion
 [wasm-pack]: https://rustwasm.github.io/wasm-pack
 
+### [A/B Street]
+
+![A/B Street in Cambridge](abstreet.gif)
+
+[A/B Street] by [@dabreegster] is a traffic simulation game exploring how small
+changes to roads affect cyclists, transit users, pedestrians, and drivers, with
+suppot for any city with OpenStreetMap coverage.
+
+In January, [Bruce] implemented variable traffic signal timing, dedicated
+cycle-paths and pedestrian plazas were imported, [Michael] and [Yuwen]
+overhauled the UI buttons, and we finished day/night toggling. Loading on the
+[web][abst-web] and starting scenarios is also much faster!
+
+[A/B Street]: https://github.com/a-b-street/abstreet
+[@dabreegster]: https://twitter.com/CarlinoDustin
+[Bruce]: https://github.com/BruceBrown
+[Michael]: https://github.com/michaelkirk
+[Yuwen]: https://www.yuwen-li.com/
+[abst-web]: http://abstreet.s3-website.us-east-2.amazonaws.com/dev/game/?--dev&cambridge/maps/great_kneighton.bin
+
+### Paddlers
+
+![A happy duck and sign showing: Paddlers version 0.2.0](paddlers_v0.2.jpeg)
+
+[Paddlers] ([GitHub][paddlers-gh], [Online Demo][paddlers-demo]) by [@jakmeier]
+is an MMORTS for the browser, developed as an experimental hobby project.
+
+This month, version 0.2.0 has been released, which removes all dependencies to
+[Stdweb] and [Quicksilver] while keeping the game itself virtually unchanged.
+In the process, a part of the code of Paddlers moved to [Paddle], a new
+framework for 2D browser games running on desktop and mobile phones.
+More details on that are available [here][paddlers-article].
+
+Many new features for Paddle and Paddlers are already in the pipeline, so stay
+tuned for more exciting updates in the next monthly newsletter!
+
+[Paddlers]: https://paddlers.ch
+[paddlers-gh]: https://github.com/jakmeier/paddlers-browser-game
+[paddlers-demo]: https://demo.paddlers.ch
+[@jakmeier]: https://github.com/jakmeier
+[stdweb]: https://github.com/koute/stdweb
+[Quicksilver]: https://github.com/ryanisaacg/quicksilver
+[paddle]: https://github.com/jakmeier/paddle
+[paddlers-article]: https://www.jakobmeier.ch/blogging/Paddlers_5.html
+
 ### [Antorum]
 
 ![Some players hanging out next to the bank Vault in Belmart](antorum-2-1-2021.jpg)
@@ -154,6 +199,20 @@ flight dynamics is already in progress.
 [SeniorSKY]: https://youtube.com/playlist?list=PLMmaJuk-D7iaObZyhyvc83tNwpx3ghzkY
 [@pmathia0]: https://twitter.com/pmathia0
 
+### Flesh
+
+![flesh preview](flesh.gif)
+_Inside flesh_
+
+Flesh by [@im_oab] is a 2d-horizontal shmup game with hand-drawn animation
+and implement using tetra. It still in the development stage but have
+a release date set in October 2021.
+
+This game takes place inside the flesh of mysterious organisms that players will
+fight through multiple levels to get out.
+
+[@im_oab]: https://twitter.com/im_oab
+
 ## Learning Material Updates
 
 ## Engine Updates
@@ -188,6 +247,24 @@ updates.
 
 [`LDtk-rs`]: https://github.com/katharostech/ldtk-rs
 [LDtk]: https://ldtk.io
+
+### [`bevy_ldtk`]
+
+![LDtk Map Running in Bevy](./bevy_ldtk.jpg)
+_( Tileset from ["Cavernas"] by Adam Saltsman )_
+
+[`bevy_ldtk`] is a Bevy plugin for loading [LDtk] tilemaps.
+
+It features:
+
+- An efficient renderer that only uses 4 vertices per map layer
+- Hot reloading through the Bevy asset server integration
+- Heavily commented code to help others who want to see how to make their own
+  tilemap renderers
+
+[`bevy_ldtk`]: https://github.com/katharostech/bevy_ldtk
+[ldtk]: https://ldtk.io
+["cavernas"]: https://adamatomic.itch.io/cavernas
 
 ### [rkyv]
 
@@ -228,6 +305,24 @@ _Discussions: [/r/rust](https://www.reddit.com/r/rust/comments/l3ma3d/kira_game_
 [Kira]: https://github.com/tesselode/kira
 [@tesselode]: https://twitter.com/tesselode
 
+### [gfx-rs] and [wgpu-rs]
+
+![Spaceship](wgpu-spaceship.jpg)
+
+The community managed to squeeze the v0.7 releases out
+at the end of the month. See the detailed notes on [gfx blog post].
+
+The highlight of the show is about shaders. Most of wgpu-rs shaders are
+now written in [WGSL],
+and gfx-rs community is inviting Rust game/graphics developers to evaluate if
+[naga] could fulfill their shader translation needs in the future.
+
+[gfx-rs]: https://github.com/gfx-rs/gfx
+[wgpu-rs]: https://github.com/gfx-rs/wgpu-rs
+[gfx blog post]: https://gfx-rs.github.io/2021/02/02/release-0.7.html
+[WGSL]: https://gpuweb.github.io/gpuweb/wgsl.html
+[naga]: https://github.com/gfx-rs/naga
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
@@ -256,7 +351,7 @@ _Discussions: [/r/rust](https://www.reddit.com/r/rust/comments/l3ma3d/kira_game_
 [ggez-issues]: https://github.com/ggez/ggez/labels/%2AGOOD%20FIRST%20ISSUE%2A
 [veloren-beginner]: https://gitlab.com/veloren/veloren/issues?label_name=beginner
 [amethyst-issues]: https://github.com/amethyst/amethyst/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
-[abstreet-issues]: https://github.com/dabreegster/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[abstreet-issues]: https://github.com/a-b-street/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
 [mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
 [simm-issues]: https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue
 [bevy-issues]: https://github.com/bevyengine/bevy/labels/good%20first%20issue
