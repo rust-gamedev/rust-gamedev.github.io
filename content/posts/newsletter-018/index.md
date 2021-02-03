@@ -234,6 +234,31 @@ which will be released in the Steam.
 
 ## Engine Updates
 
+### [`ggez`](ggez)
+
+![ggez logo](../newsletter-005/ggez-logo-maroon-full.svg)
+
+`ggez` is a lightweight cross-platform game framework for making 2D
+games with minimum friction.
+
+The zero'th release candidate for version 0.6.0 has been released and
+there has been no particularly horrific outcry of people's games
+exploding.  A first release candidate with a pile of medium-sized bug
+fixes should be coming in early February, hopefully soon followed by a
+full release.  Special thanks to the contributors who helped hunt bugs
+and organize PR's to get this version out the door:
+
+- PSteinhaus
+- Manghi
+- AaronM04
+- Systemcluster
+- Andy-Python-Programmer
+
+_Discussions: [Issue tracker](ggez-github)_
+
+[ggez]: https://crates.io/crates/ggez
+[ggez-github]: https://github.com/ggez/ggez/milestone/6
+
 ### [Tetra]
 
 [Tetra] is a simple 2D game framework, inspired by XNA and Raylib. This month,
