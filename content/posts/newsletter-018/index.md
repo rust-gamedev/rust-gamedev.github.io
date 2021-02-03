@@ -377,6 +377,20 @@ It features:
 [ldtk]: https://ldtk.io
 ["cavernas"]: https://adamatomic.itch.io/cavernas
 
+### [egui]
+
+![egui widget gallery](egui_0.8.0.gif)
+_Some of the supported widgets in the new grid layout._
+
+[egui] is a simple, fast, and highly portable immediate mode GUI library.
+This month [version 0.8] of egui was released with a new grid layout,
+new look, and many smaller fixes and improvements.
+You can try out egui in the [online demo].
+
+[egui]: https://github.com/emilk/egui
+[online demo]: https://emilk.github.io/egui
+[version 0.8]: https://github.com/emilk/egui/blob/master/CHANGELOG.md#080---2021-01-17---grid-layout--new-visual-style
+
 ### [rkyv]
 
 [rkyv] is a zero-copy deserialization framework for Rust. It's similar to
