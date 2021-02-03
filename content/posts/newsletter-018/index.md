@@ -230,12 +230,12 @@ which will be released in the Steam.
 [Station Iapetus]: https://github.com/mrDIMAS/StationIapetus
 [si-youtube]: https://www.youtube.com/watch?v=JCH2U5JOMlU
 
-### [Dwarf world][dwarf-world]
+### [Dwarf World][dwarf-world]
 
-![Dwarf world](dwarfworld_lights.gif)
+![Dwarf World](dwarfworld_lights.gif)
 
-[Dwarf World] by [Alex Ene][@_AlexEne_] has added a couple of updates and
-improvements:  
+[Dwarf World][dwarf-world] by [Alex Ene][@_AlexEne_] has added a couple
+of updates and improvements:  
 
 - Dynamic ligths and light propagation so deeper caves are darker.
 - An in-game feedback button that people can use to report bugs or
