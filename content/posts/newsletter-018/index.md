@@ -169,6 +169,36 @@ bringing more interesting crafting scenarios into the game.
 [Antorum]: https://ratwizard.dev/dev-log/antorum
 [@dooskington]: https://twitter.com/dooskington
 
+### [SeniorSKY]
+
+![SeniorSKY](3.png)
+_Over the mountains in Slovakia_
+
+[SeniorSKY]
+is a flight simulator which uses Vulkan API, developed by [@pmathia0].
+
+As an aerospace engineering student, Peter has always been interested how
+a flight simulator works under the hood.
+
+The development of SeniorSKY started as a hobby project during university
+studies.
+
+SeniorSKY uses real-world elevation data with 1 arc
+second precision and can render the whole globe in real dimensions.
+During the flight, the terrain tiles are loaded dynamically based
+on real GPS coordinates of airplane, with a decreasing level of detail
+further from the camera. This is achieved using a combination
+of a terrain-quad-tree and GPU tessellation.
+
+SeniorSKY also implements basic rendering of sky, atmosphere and fog.
+
+To be able to simulate a flight, the application temporarily integrates 3rd party
+flight dynamics engine called JSBSim. Meanwhile, development of own, custom
+flight dynamics is already in progress.
+
+[SeniorSKY]: https://youtube.com/playlist?list=PLMmaJuk-D7iaObZyhyvc83tNwpx3ghzkY
+[@pmathia0]: https://twitter.com/pmathia0
+
 ### Flesh
 
 ![flesh preview](flesh.gif)
