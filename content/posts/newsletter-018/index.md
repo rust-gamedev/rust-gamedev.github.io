@@ -351,7 +351,7 @@ of out-of-box features. Some of the recent updates:
 
 - Improved animation blending state machines.
 - Added ability to copy nodes in-place.
-- Fixed clipping issues in the UI. 
+- Fixed clipping issues in the UI.
 - Reduced number of draw calls for UI by 70%.
 - Fixed text measurement in the UI.
 - Added opacity for UI widgets.
