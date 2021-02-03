@@ -77,17 +77,16 @@ fixes should be coming in early February, hopefully soon followed by a
 full release.  Special thanks to the contributors who helped hunt bugs
 and organize PR's to get this version out the door:
 
- * PSteinhaus
- * Manghi
- * AaronM04
- * Systemcluster
- * Andy-Python-Programmer
+ - PSteinhaus
+ - Manghi
+ - AaronM04
+ - Systemcluster
+ - Andy-Python-Programmer
 
-_Discussions: [/r/rust_gamedev](ggez-reddit), [Issue tracker](ggez-github)_
+_Discussions: [Issue tracker](ggez-github)_
 
 [ggez]: https://crates.io/crates/ggez
-[ggez-reddit]: https://reddit.com/r/rust_gamedev
-[ggez-github]: https://github.com/ggez/ggez/issues
+[ggez-github]: https://github.com/ggez/ggez/milestone/6
 
 
 ## Popular Workgroup Issues in Github
