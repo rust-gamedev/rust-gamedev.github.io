@@ -105,6 +105,25 @@ The project is still at a “very” early stage of development (Dec. 2020).
 [Legion]: https://crates.io/crates/legion
 [wasm-pack]: https://rustwasm.github.io/wasm-pack
 
+### [Fishgame][fishgame]
+
+![Fishgame gameplay](fishgame.gif)
+_Fish game gameplay footage._
+
+[Fishgame][fishgame] is an online multiplayer game, created in a
+collaboration between [Nakama][nakama], an open-source scalable game
+server, and the [Macroquad](https://github.com/not-fl3/macroquad/) game engine.
+
+The game is going to showcase nakama multiplayer capabilities for the rust
+language world.
+
+This month the game got a public, multiplayer HTML5 build. [Play it online!][fishgame-itch]
+
+[fishgame]: https://github.com/heroiclabs/fishgame-macroquad
+[fishgame-itch]: https://fedorgames.itch.io/fish-game?secret=UAVcggHn332a
+[nakama]: https://heroiclabs.com/
+[macroquad]: https://github.com/not-fl3/macroquad
+
 ### [Oicana][oicana]
 
 ![oicana game play](oicana.png)
