@@ -110,17 +110,17 @@ The project is still at a “very” early stage of development (Dec. 2020).
 ![oicana game play](oicana.png)
 _Solving puzzles to build towers_
 
-[Oicana][oicana] is a tower defense game with puzzle aspects submitted to Mini 
-jam 71 [on itch][oicana-itch] by [M1nd0fRafa3l][rafael-itch] and 
-[@nikl_me][nikl-twitter]. The game was written using the Rust game engine 
-[Bevy][bevy]. 
+[Oicana][oicana] is a tower defense game with puzzle aspects submitted to Mini
+jam 71 [on itch][oicana-itch] by [M1nd0fRafa3l][rafael-itch] and
+[@nikl_me][nikl-twitter]. The game was written using the Rust game engine
+[Bevy][bevy].
 
-Colorless puzzle pieces try to reach your base. Your towers have to shoot at 
-the pieces to uncover their color. After defeating a piece, it will try to run 
+Colorless puzzle pieces try to reach your base. Your towers have to shoot at
+the pieces to uncover their color. After defeating a piece, it will try to run
 away and you should catch it to upgrade your towers or build new ones.
 
-Following the game jam the tower upgrades where improved and game audio was 
-changed to use [Kira][kira-sound] via an 
+Following the game jam the tower upgrades where improved and game audio was
+changed to use [Kira][kira-sound] via an
 [experimental bevy plugin][kira-plugin].
 
 [oicana]: https://github.com/NiklasEi/oicana
@@ -128,8 +128,8 @@ changed to use [Kira][kira-sound] via an
 [bevy]: https://bevyengine.org/
 [kira-sound]: https://github.com/tesselode/kira
 [kira-plugin]: https://github.com/NiklasEi/bevy_kira_audio
-[rafael-itch]: [https://itch.io/profile/m1nd0frafa3l]
-[nikl-twitter]: [https://twitter.com/nikl_me]
+[rafael-itch]: https://itch.io/profile/m1nd0frafa3l
+[nikl-twitter]: https://twitter.com/nikl_me
 
 ### [A/B Street]
 
