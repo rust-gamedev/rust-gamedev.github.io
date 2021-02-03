@@ -73,16 +73,17 @@ games with minimum friction.
 The zero'th release candidate for version 0.6.0 has been released and
 there has been no particularly horrific outcry of people's games
 exploding.  A first release candidate with a pile of medium-sized bug
-fixes should be coming quite soon, hopefully followed by a full release.
-Special thanks to the contributors who helped hunt bugs and organize
-PR's to get this version out the door:
+fixes should be coming in early February, hopefully soon followed by a
+full release.  Special thanks to the contributors who helped hunt bugs
+and organize PR's to get this version out the door:
 
  * PSteinhaus
  * Manghi
  * AaronM04
  * Systemcluster
+ * Andy-Python-Programmer
 
-_Discussions: [/r/rust_gamedev](ggez-reddit), [Issue tracker](ggez-github)
+_Discussions: [/r/rust_gamedev](ggez-reddit), [Issue tracker](ggez-github)_
 
 [ggez]: https://crates.io/crates/ggez
 [ggez-reddit]: https://reddit.com/r/rust_gamedev
