@@ -105,7 +105,6 @@ The project is still at a “very” early stage of development (Dec. 2020).
 [Legion]: https://crates.io/crates/legion
 [wasm-pack]: https://rustwasm.github.io/wasm-pack
 
-
 ### [Oicana][oicana]
 
 ![oicana game play](oicana.png)
@@ -132,6 +131,51 @@ changed to use [Kira][kira-sound] via an
 [rafael-itch]: [https://itch.io/profile/m1nd0frafa3l]
 [nikl-twitter]: [https://twitter.com/nikl_me]
 
+### [A/B Street]
+
+![A/B Street in Cambridge](abstreet.gif)
+
+[A/B Street] by [@dabreegster] is a traffic simulation game exploring how small
+changes to roads affect cyclists, transit users, pedestrians, and drivers, with
+suppot for any city with OpenStreetMap coverage.
+
+In January, [Bruce] implemented variable traffic signal timing, dedicated
+cycle-paths and pedestrian plazas were imported, [Michael] and [Yuwen]
+overhauled the UI buttons, and we finished day/night toggling. Loading on the
+[web][abst-web] and starting scenarios is also much faster!
+
+[A/B Street]: https://github.com/a-b-street/abstreet
+[@dabreegster]: https://twitter.com/CarlinoDustin
+[Bruce]: https://github.com/BruceBrown
+[Michael]: https://github.com/michaelkirk
+[Yuwen]: https://www.yuwen-li.com/
+[abst-web]: http://abstreet.s3-website.us-east-2.amazonaws.com/dev/game/?--dev&cambridge/maps/great_kneighton.bin
+
+### Paddlers
+
+![A happy duck and sign showing: Paddlers version 0.2.0](paddlers_v0.2.jpeg)
+
+[Paddlers] ([GitHub][paddlers-gh], [Online Demo][paddlers-demo]) by [@jakmeier]
+is an MMORTS for the browser, developed as an experimental hobby project.
+
+This month, version 0.2.0 has been released, which removes all dependencies to
+[Stdweb] and [Quicksilver] while keeping the game itself virtually unchanged.
+In the process, a part of the code of Paddlers moved to [Paddle], a new
+framework for 2D browser games running on desktop and mobile phones.
+More details on that are available [here][paddlers-article].
+
+Many new features for Paddle and Paddlers are already in the pipeline, so stay
+tuned for more exciting updates in the next monthly newsletter!
+
+[Paddlers]: https://paddlers.ch
+[paddlers-gh]: https://github.com/jakmeier/paddlers-browser-game
+[paddlers-demo]: https://demo.paddlers.ch
+[@jakmeier]: https://github.com/jakmeier
+[stdweb]: https://github.com/koute/stdweb
+[Quicksilver]: https://github.com/ryanisaacg/quicksilver
+[paddle]: https://github.com/jakmeier/paddle
+[paddlers-article]: https://www.jakobmeier.ch/blogging/Paddlers_5.html
+
 ### [Antorum]
 
 ![Some players hanging out next to the bank Vault in Belmart](antorum-2-1-2021.jpg)
@@ -151,9 +195,116 @@ bringing more interesting crafting scenarios into the game.
 [Antorum]: https://ratwizard.dev/dev-log/antorum
 [@dooskington]: https://twitter.com/dooskington
 
+### [SeniorSKY]
+
+![SeniorSKY](3.png)
+_Over the mountains in Slovakia_
+
+[SeniorSKY]
+is a flight simulator which uses Vulkan API, developed by [@pmathia0].
+
+As an aerospace engineering student, Peter has always been interested how
+a flight simulator works under the hood.
+
+The development of SeniorSKY started as a hobby project during university
+studies.
+
+SeniorSKY uses real-world elevation data with 1 arc
+second precision and can render the whole globe in real dimensions.
+During the flight, the terrain tiles are loaded dynamically based
+on real GPS coordinates of airplane, with a decreasing level of detail
+further from the camera. This is achieved using a combination
+of a terrain-quad-tree and GPU tessellation.
+
+SeniorSKY also implements basic rendering of sky, atmosphere and fog.
+
+To be able to simulate a flight, the application temporarily integrates 3rd party
+flight dynamics engine called JSBSim. Meanwhile, development of own, custom
+flight dynamics is already in progress.
+
+[SeniorSKY]: https://youtube.com/playlist?list=PLMmaJuk-D7iaObZyhyvc83tNwpx3ghzkY
+[@pmathia0]: https://twitter.com/pmathia0
+
+### Flesh
+
+![flesh preview](flesh.gif)
+_Inside flesh_
+
+Flesh by [@im_oab] is a 2d-horizontal shmup game with hand-drawn animation
+and implement using tetra. It still in the development stage but have
+a release date set in October 2021.
+
+This game takes place inside the flesh of mysterious organisms that players will
+fight through multiple levels to get out.
+
+[@im_oab]: https://twitter.com/im_oab
+
+### [Station Iapetus]
+
+[![Station Iapetus Youtube](station-iapetus-youtube.jpg)][si-youtube]
+_Check [gameplay video][si-youtube] on YouTube_
+
+[Station Iapetus][Station Iapetus] by [@mrDIMAS]
+is a 3rd person shooter on the space prison Iapetus near the Saturn.
+
+The game based on [rg3d] game engine and is meant to be the proof that
+rg3d is ready for commercial production. The game is a commercial project
+which will be released in the Steam.
+
+[@mrDIMAS]: https://github.com/mrDIMAS
+[rg3d]: https://github.com/mrDIMAS/rg3d
+[Station Iapetus]: https://github.com/mrDIMAS/StationIapetus
+[si-youtube]: https://www.youtube.com/watch?v=JCH2U5JOMlU
+
+### [Bounty Bros.]
+
+[![Bounty Bros. Video](./bounty-bros.jpg)][bounty_bros_video]
+_First pass character controller video_
+
+[Bounty Bros.] is a prototype dungeon crawler game in the spirit of _Legend of
+Zelda: Link to the Past_. The game is being developed by [Katharos Technology]
+as a playground for a future commercial game, along with a custom 2D engine
+built on top of [Bevy].
+
+The engine, which is unnamed so far, will be Open Sourced soon and will be
+designed to make it very easy to make games with a similar gameplay and style,
+primarily by simply writing YAML configuration files and integrating with
+[LDtk].
+
+[katharos technology]: https://katharostech.com
+[bounty bros.]: https://katharostech.com/post/bounty-bros-prototype-game
+[bounty_bros_video]: https://katharostech.com/post/bounty-bros-prototype-game#video
+[bevy]: https://bevyengine.org
+[ldtk]: https://ldtk.io
+
 ## Learning Material Updates
 
 ## Engine Updates
+
+### [`ggez`](ggez)
+
+![ggez logo](../newsletter-005/ggez-logo-maroon-full.svg)
+
+`ggez` is a lightweight cross-platform game framework for making 2D
+games with minimum friction.
+
+The zero'th release candidate for version 0.6.0 has been released and
+there has been no particularly horrific outcry of people's games
+exploding.  A first release candidate with a pile of medium-sized bug
+fixes should be coming in early February, hopefully soon followed by a
+full release.  Special thanks to the contributors who helped hunt bugs
+and organize PR's to get this version out the door:
+
+- PSteinhaus
+- Manghi
+- AaronM04
+- Systemcluster
+- Andy-Python-Programmer
+
+_Discussions: [Issue tracker](ggez-github)_
+
+[ggez]: https://crates.io/crates/ggez
+[ggez-github]: https://github.com/ggez/ggez/milestone/6
 
 ### [Tetra]
 
@@ -243,6 +394,57 @@ _Discussions: [/r/rust](https://www.reddit.com/r/rust/comments/l3ma3d/kira_game_
 [Kira]: https://github.com/tesselode/kira
 [@tesselode]: https://twitter.com/tesselode
 
+### [gfx-rs] and [wgpu-rs]
+
+![Spaceship](wgpu-spaceship.jpg)
+
+The community managed to squeeze the v0.7 releases out
+at the end of the month. See the detailed notes on [gfx blog post].
+
+The highlight of the show is about shaders. Most of wgpu-rs shaders are
+now written in [WGSL],
+and gfx-rs community is inviting Rust game/graphics developers to evaluate if
+[naga] could fulfill their shader translation needs in the future.
+
+[gfx-rs]: https://github.com/gfx-rs/gfx
+[wgpu-rs]: https://github.com/gfx-rs/wgpu-rs
+[gfx blog post]: https://gfx-rs.github.io/2021/02/02/release-0.7.html
+[WGSL]: https://gpuweb.github.io/gpuweb/wgsl.html
+[naga]: https://github.com/gfx-rs/naga
+
+### [rg3d]
+
+![rusty-editor screenshot](rusty-editor.jpg)
+_A level made in [rusty-editor][rusty_editor] which is a native scene editor
+for the rg3d game engine._
+
+[rg3d] is a game engine that aims to be easy to use and provide large set
+of out-of-box features. Some of the recent updates:
+
+- Improved animation blending state machines.
+- Added ability to copy nodes in-place.
+- Fixed clipping issues in the UI.
+- Reduced number of draw calls for UI by 70%.
+- Fixed text measurement in the UI.
+- Added opacity for UI widgets.
+- Fixed layout of Scroll- and Wrap- panels.
+- Fixed light scatter issues for spot lights.
+- Added support for transparent meshes.
+- Migrated to rapier 0.5.
+- Fixed animation signal handling when animation playing in reverse.
+- Animation tracks now are able to filter position/scale/rotation.
+- Fixed sprite rendering.
+- Improved copy/paste in rusty-editor.
+- Lots of other small fixes and improvements.
+
+Join the [rg3d's Discord channel][rg3d_discord]
+or follow [Dmitry Stepanov on Twitter][rg3d_twitter].
+
+[rg3d]: https://github.com/mrDIMAS/rg3d
+[rg3d_discord]: https://discord.gg/xENF5Uh
+[rg3d_twitter]: https://twitter.com/DmitryNStepanov
+[rusty_editor]: https://github.com/mrDIMAS/rusty-editor
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
@@ -271,7 +473,7 @@ _Discussions: [/r/rust](https://www.reddit.com/r/rust/comments/l3ma3d/kira_game_
 [ggez-issues]: https://github.com/ggez/ggez/labels/%2AGOOD%20FIRST%20ISSUE%2A
 [veloren-beginner]: https://gitlab.com/veloren/veloren/issues?label_name=beginner
 [amethyst-issues]: https://github.com/amethyst/amethyst/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
-[abstreet-issues]: https://github.com/dabreegster/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[abstreet-issues]: https://github.com/a-b-street/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
 [mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
 [simm-issues]: https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue
 [bevy-issues]: https://github.com/bevyengine/bevy/labels/good%20first%20issue
