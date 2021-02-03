@@ -230,6 +230,24 @@ which will be released in the Steam.
 [Station Iapetus]: https://github.com/mrDIMAS/StationIapetus
 [si-youtube]: https://www.youtube.com/watch?v=JCH2U5JOMlU
 
+### Stellary 2
+
+![Stellary 2 Banner](stellary_2_banner.jpg)
+
+Stellary 2 by [@CoffeJunkStudio](https://twitter.com/CoffeJunkStudio) is a 3D
+real-time artillery game in which the player has to destroy all enemy planets in
+order to defend his own from extinction.
+
+Based on the [SimJam 2020](https://itch.io/jam/dogpit-sim-jam) Game
+"[Stellary](https://coffejunkstudio.itch.io/stellary)", the studio is now
+working on this sequel with their self-developed "Sphere Engine". It will
+feature an underlying physically based gravity simulation, powering the space
+battles in different solar systems. You can find regular updates on
+[Twitter](https://twitter.com/CoffeJunkStudio).
+
+By the way: "Stellary 2" is just a working title, feel free to drop them a PM on
+Twitter if you have a flash of inspiration!
+
 ## Learning Material Updates
 
 ## Engine Updates
