@@ -213,6 +213,23 @@ fight through multiple levels to get out.
 
 [@im_oab]: https://twitter.com/im_oab
 
+### [Station Iapetus]
+
+[![Station Iapetus Youtube](station-iapetus-youtube.jpg)][si-youtube]
+_Check [gameplay video][si-youtube] on YouTube_
+
+[Station Iapetus][Station Iapetus] by [@mrDIMAS]
+is a 3rd person shooter on the space prison Iapetus near the Saturn.
+
+The game based on [rg3d] game engine and is meant to be the proof that
+rg3d is ready for commercial production. The game is a commercial project
+which will be released in the Steam.
+
+[@mrDIMAS]: https://github.com/mrDIMAS
+[rg3d]: https://github.com/mrDIMAS/rg3d
+[Station Iapetus]: https://github.com/mrDIMAS/StationIapetus
+[si-youtube]: https://www.youtube.com/watch?v=JCH2U5JOMlU
+
 ## Learning Material Updates
 
 ## Engine Updates
@@ -322,6 +339,39 @@ and gfx-rs community is inviting Rust game/graphics developers to evaluate if
 [gfx blog post]: https://gfx-rs.github.io/2021/02/02/release-0.7.html
 [WGSL]: https://gpuweb.github.io/gpuweb/wgsl.html
 [naga]: https://github.com/gfx-rs/naga
+
+### [rg3d]
+
+![rusty-editor screenshot](rusty-editor.jpg)
+_A level made in [rusty-editor][rusty_editor] which is a native scene editor
+for the rg3d game engine._
+
+[rg3d] is a game engine that aims to be easy to use and provide large set
+of out-of-box features. Some of the recent updates:
+
+- Improved animation blending state machines.
+- Added ability to copy nodes in-place.
+- Fixed clipping issues in the UI. 
+- Reduced number of draw calls for UI by 70%.
+- Fixed text measurement in the UI.
+- Added opacity for UI widgets.
+- Fixed layout of Scroll- and Wrap- panels.
+- Fixed light scatter issues for spot lights.
+- Added support for transparent meshes.
+- Migrated to rapier 0.5.
+- Fixed animation signal handling when animation playing in reverse.
+- Animation tracks now are able to filter position/scale/rotation.
+- Fixed sprite rendering.
+- Improved copy/paste in rusty-editor.
+- Lots of other small fixes and improvements.
+
+Join the [rg3d's Discord channel][rg3d_discord]
+or follow [Dmitry Stepanov on Twitter][rg3d_twitter].
+
+[rg3d]: https://github.com/mrDIMAS/rg3d
+[rg3d_discord]: https://discord.gg/xENF5Uh
+[rg3d_twitter]: https://twitter.com/DmitryNStepanov
+[rusty_editor]: https://github.com/mrDIMAS/rusty-editor
 
 ## Popular Workgroup Issues in Github
 
