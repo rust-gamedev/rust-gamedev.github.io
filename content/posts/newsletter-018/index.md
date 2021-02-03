@@ -154,11 +154,11 @@ bringing more interesting crafting scenarios into the game.
 ![flesh preview](flesh.gif)
 _Inside flesh_
 
-Flesh by [@im_oab] is a 2d-horizontal shmup game with hand-drawn animation 
-and implement using tetra. It still in the development stage but have 
-a release date set in October 2021. 
+Flesh by [@im_oab] is a 2d-horizontal shmup game with hand-drawn animation
+and implement using tetra. It still in the development stage but have
+a release date set in October 2021.
 
-This game takes place inside the flesh of mysterious organisms that players will 
+This game takes place inside the flesh of mysterious organisms that players will
 fight through multiple levels to get out.
 
 [@im_oab]: https://twitter.com/im_oab
