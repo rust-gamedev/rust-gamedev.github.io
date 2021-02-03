@@ -181,7 +181,7 @@ As an aerospace engineering student, Peter has always been interested how
 a flight simulator works under the hood.
 
 The development of SeniorSKY started as a hobby project during university
-studies. 
+studies.
 
 SeniorSKY uses real-world elevation data with 1 arc
 second precision and can render the whole globe in real dimensions.
