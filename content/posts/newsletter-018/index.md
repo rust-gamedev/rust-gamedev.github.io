@@ -113,7 +113,7 @@ _Solving puzzles to build towers_
 
 [Oicana][oicana] is a tower defense game with puzzle aspects submitted to Mini 
 jam 71 [on itch][oicana-itch] by [M1nd0fRafa3l][rafael-itch] and 
-[@nikl_me][nikl-twitter]. The game was written using the rust game engine 
+[@nikl_me][nikl-twitter]. The game was written using the Rust game engine 
 [Bevy][bevy]. 
 
 Colorless puzzle pieces try to reach your base. Your towers have to shoot at 
