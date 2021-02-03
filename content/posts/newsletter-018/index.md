@@ -105,6 +105,26 @@ The project is still at a “very” early stage of development (Dec. 2020).
 [Legion]: https://crates.io/crates/legion
 [wasm-pack]: https://rustwasm.github.io/wasm-pack
 
+### [A/B Street]
+
+![A/B Street in Cambridge](abstreet.gif)
+
+[A/B Street] by [@dabreegster] is a traffic simulation game exploring how small
+changes to roads affect cyclists, transit users, pedestrians, and drivers, with
+suppot for any city with OpenStreetMap coverage.
+
+In January, [Bruce] implemented variable traffic signal timing, dedicated
+cycle-paths and pedestrian plazas were imported, [Michael] and [Yuwen]
+overhauled the UI buttons, and we finished day/night toggling. Loading on the
+[web][abst-web] and starting scenarios is also much faster!
+
+[A/B Street]: https://github.com/a-b-street/abstreet
+[@dabreegster]: https://twitter.com/CarlinoDustin
+[Bruce]: https://github.com/BruceBrown
+[Michael]: https://github.com/michaelkirk
+[Yuwen]: https://www.yuwen-li.com/
+[abst-web]: http://abstreet.s3-website.us-east-2.amazonaws.com/dev/game/?--dev&cambridge/maps/great_kneighton.bin
+
 ### Paddlers
 
 ![A happy duck and sign showing: Paddlers version 0.2.0](paddlers_v0.2.jpeg)
@@ -301,7 +321,7 @@ and gfx-rs community is inviting Rust game/graphics developers to evaluate if
 [ggez-issues]: https://github.com/ggez/ggez/labels/%2AGOOD%20FIRST%20ISSUE%2A
 [veloren-beginner]: https://gitlab.com/veloren/veloren/issues?label_name=beginner
 [amethyst-issues]: https://github.com/amethyst/amethyst/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
-[abstreet-issues]: https://github.com/dabreegster/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[abstreet-issues]: https://github.com/a-b-street/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
 [mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
 [simm-issues]: https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue
 [bevy-issues]: https://github.com/bevyengine/bevy/labels/good%20first%20issue
