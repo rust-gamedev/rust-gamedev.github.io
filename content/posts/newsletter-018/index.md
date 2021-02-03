@@ -263,7 +263,7 @@ which will be released in the Steam.
 [Dwarf World][dwarf-world] by [Alex Ene][@_AlexEne_] has added a couple
 of updates and improvements:  
 
-- Dynamic ligths and light propagation so deeper caves are darker.
+- Dynamic lights and light propagation so deeper caves are darker.
 - An in-game feedback button that people can use to report bugs or
 just give general feedback.
 - All random numbers are from seeded generators so it makes bugs easier
