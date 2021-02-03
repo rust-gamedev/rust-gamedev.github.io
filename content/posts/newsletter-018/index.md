@@ -230,6 +230,31 @@ which will be released in the Steam.
 [Station Iapetus]: https://github.com/mrDIMAS/StationIapetus
 [si-youtube]: https://www.youtube.com/watch?v=JCH2U5JOMlU
 
+### [Dwarf world][dwarf-world]
+
+![Dwarf world](dwarfworld_lights.gif)
+
+[Dwarf World] by [Alex Ene][@_AlexEne_] has added a couple of updates and
+improvements:  
+
+- Dynamic ligths and light propagation so deeper caves are darker.
+- An in-game feedback button that people can use to report bugs or
+just give general feedback.
+- All random numbers are from seeded generators so it makes bugs easier
+to reproduce.
+- A big chunk of a replay system is finished.
+This should help a lot with reproducing issues. Plus, it's really fun to watch.
+- Bug fixes and performance improvements, mostly related to
+rendering and culling systems.
+
+If you're interested in keeping a closer eye on the project and monitor
+it's progress,
+you can join the game's [discord channel][dwarf-world-discord].
+That's where the pre-alpha builds will drop there once they are
+ready to be seen by a wider audience.
+
+[dwarf-world-discord]: https://discord.gg/vsRCxnY
+
 ## Learning Material Updates
 
 ## Engine Updates
