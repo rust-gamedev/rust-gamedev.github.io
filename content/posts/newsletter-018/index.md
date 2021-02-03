@@ -105,6 +105,32 @@ The project is still at a “very” early stage of development (Dec. 2020).
 [Legion]: https://crates.io/crates/legion
 [wasm-pack]: https://rustwasm.github.io/wasm-pack
 
+### [Oicana][oicana]
+
+![oicana game play](oicana.png)
+_Solving puzzles to build towers_
+
+[Oicana][oicana] is a tower defense game with puzzle aspects submitted to Mini
+jam 71 [on itch][oicana-itch] by [M1nd0fRafa3l][rafael-itch] and
+[@nikl_me][nikl-twitter]. The game was written using the Rust game engine
+[Bevy][bevy].
+
+Colorless puzzle pieces try to reach your base. Your towers have to shoot at
+the pieces to uncover their color. After defeating a piece, it will try to run
+away and you should catch it to upgrade your towers or build new ones.
+
+Following the game jam the tower upgrades where improved and game audio was
+changed to use [Kira][kira-sound] via an
+[experimental bevy plugin][kira-plugin].
+
+[oicana]: https://github.com/NiklasEi/oicana
+[oicana-itch]: https://niklme.itch.io/oicana
+[bevy]: https://bevyengine.org/
+[kira-sound]: https://github.com/tesselode/kira
+[kira-plugin]: https://github.com/NiklasEi/bevy_kira_audio
+[rafael-itch]: https://itch.io/profile/m1nd0frafa3l
+[nikl-twitter]: https://twitter.com/nikl_me
+
 ### [A/B Street]
 
 ![A/B Street in Cambridge](abstreet.gif)
@@ -255,6 +281,49 @@ ready to be seen by a wider audience.
 
 [dwarf-world-discord]: https://discord.gg/vsRCxnY
 
+### Stellary 2
+
+![Stellary 2 Banner](stellary_2_banner.jpg)
+
+Stellary 2 by [@CoffeJunkStudio][coffe-junk-studio] is a 3D
+real-time artillery game in which the player has to destroy all enemy planets in
+order to defend his own from extinction.
+
+Based on the [SimJam 2020][simjam-2020] game
+"[Stellary][stellary]", the studio is now
+working on this sequel with their self-developed "Sphere Engine". It will
+feature an underlying physically based gravity simulation, powering the space
+battles in different solar systems. You can find regular updates on
+[Twitter][coffe-junk-studio].
+
+By the way: "Stellary 2" is just a working title, feel free to drop them a PM on
+Twitter if you have a flash of inspiration!
+
+[coffe-junk-studio]: https://twitter.com/CoffeJunkStudio
+[simjam-2020]: https://itch.io/jam/dogpit-sim-jam
+[stellary]: https://coffejunkstudio.itch.io/stellary
+
+### [Bounty Bros.]
+
+[![Bounty Bros. Video](./bounty-bros.jpg)][bounty_bros_video]
+_First pass character controller video_
+
+[Bounty Bros.] is a prototype dungeon crawler game in the spirit of _Legend of
+Zelda: Link to the Past_. The game is being developed by [Katharos Technology]
+as a playground for a future commercial game, along with a custom 2D engine
+built on top of [Bevy].
+
+The engine, which is unnamed so far, will be Open Sourced soon and will be
+designed to make it very easy to make games with a similar gameplay and style,
+primarily by simply writing YAML configuration files and integrating with
+[LDtk].
+
+[katharos technology]: https://katharostech.com
+[bounty bros.]: https://katharostech.com/post/bounty-bros-prototype-game
+[bounty_bros_video]: https://katharostech.com/post/bounty-bros-prototype-game#video
+[bevy]: https://bevyengine.org
+[ldtk]: https://ldtk.io
+
 ## Learning Material Updates
 
 ## Engine Updates
@@ -332,6 +401,20 @@ It features:
 [`bevy_ldtk`]: https://github.com/katharostech/bevy_ldtk
 [ldtk]: https://ldtk.io
 ["cavernas"]: https://adamatomic.itch.io/cavernas
+
+### [egui]
+
+![egui widget gallery](egui_0.8.0.gif)
+_Some of the supported widgets in the new grid layout._
+
+[egui] is a simple, fast, and highly portable immediate mode GUI library.
+This month [version 0.8] of egui was released with a new grid layout,
+new look, and many smaller fixes and improvements.
+You can try out egui in the [online demo].
+
+[egui]: https://github.com/emilk/egui
+[online demo]: https://emilk.github.io/egui
+[version 0.8]: https://github.com/emilk/egui/blob/master/CHANGELOG.md#080---2021-01-17---grid-layout--new-visual-style
 
 ### [rkyv]
 
