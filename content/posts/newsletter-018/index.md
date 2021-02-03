@@ -231,11 +231,11 @@ fixes should be coming in early February, hopefully soon followed by a
 full release.  Special thanks to the contributors who helped hunt bugs
 and organize PR's to get this version out the door:
 
- - PSteinhaus
- - Manghi
- - AaronM04
- - Systemcluster
- - Andy-Python-Programmer
+- PSteinhaus
+- Manghi
+- AaronM04
+- Systemcluster
+- Andy-Python-Programmer
 
 _Discussions: [Issue tracker](ggez-github)_
 
