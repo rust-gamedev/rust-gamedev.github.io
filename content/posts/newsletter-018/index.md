@@ -105,6 +105,26 @@ The project is still at a “very” early stage of development (Dec. 2020).
 [Legion]: https://crates.io/crates/legion
 [wasm-pack]: https://rustwasm.github.io/wasm-pack
 
+### [A/B Street]
+
+![A/B Street in Cambridge](abstreet.gif)
+
+[A/B Street] by [@dabreegster] is a traffic simulation game exploring how small
+changes to roads affect cyclists, transit users, pedestrians, and drivers, with
+suppot for any city with OpenStreetMap coverage.
+
+In January, [Bruce] implemented variable traffic signal timing, dedicated
+cycle-paths and pedestrian plazas were imported, [Michael] and [Yuwen]
+overhauled the UI buttons, and we finished day/night toggling. Loading on the
+[web][abst-web] and starting scenarios is also much faster!
+
+[A/B Street]: https://github.com/a-b-street/abstreet
+[@dabreegster]: https://twitter.com/CarlinoDustin
+[Bruce]: https://github.com/BruceBrown
+[Michael]: https://github.com/michaelkirk
+[Yuwen]: https://www.yuwen-li.com/
+[abst-web]: http://abstreet.s3-website.us-east-2.amazonaws.com/dev/game/?--dev&cambridge/maps/great_kneighton.bin
+
 ### Paddlers
 
 ![A happy duck and sign showing: Paddlers version 0.2.0](paddlers_v0.2.jpeg)
@@ -149,25 +169,19 @@ bringing more interesting crafting scenarios into the game.
 [Antorum]: https://ratwizard.dev/dev-log/antorum
 [@dooskington]: https://twitter.com/dooskington
 
-### [A/B Street]
+### Flesh
 
-![A/B Street in Cambridge](abstreet.gif)
+![flesh preview](flesh.gif)
+_Inside flesh_
 
-[A/B Street] by [@dabreegster] is a traffic simulation game exploring how small
-changes to roads affect cyclists, transit users, pedestrians, and drivers, with
-suppot for any city with OpenStreetMap coverage.
+Flesh by [@im_oab] is a 2d-horizontal shmup game with hand-drawn animation
+and implement using tetra. It still in the development stage but have
+a release date set in October 2021.
 
-In January, [Bruce] implemented variable traffic signal timing, dedicated
-cycle-paths and pedestrian plazas were imported, [Michael] and [Yuwen]
-overhauled the UI buttons, and we finished day/night toggling. Loading on the
-[web][abst-web] and starting scenarios is also much faster!
+This game takes place inside the flesh of mysterious organisms that players will
+fight through multiple levels to get out.
 
-[A/B Street]: https://github.com/a-b-street/abstreet
-[@dabreegster]: https://twitter.com/CarlinoDustin
-[Bruce]: https://github.com/BruceBrown
-[Michael]: https://github.com/michaelkirk
-[Yuwen]: https://www.yuwen-li.com/
-[abst-web]: http://abstreet.s3-website.us-east-2.amazonaws.com/dev/game/?--dev&cambridge/maps/great_kneighton.bin
+[@im_oab]: https://twitter.com/im_oab
 
 ## Learning Material Updates
 
