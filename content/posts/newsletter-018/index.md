@@ -230,6 +230,27 @@ which will be released in the Steam.
 [Station Iapetus]: https://github.com/mrDIMAS/StationIapetus
 [si-youtube]: https://www.youtube.com/watch?v=JCH2U5JOMlU
 
+### [Bounty Bros.]
+
+[![Bounty Bros. Video](./bounty-bros.jpg)][bounty_bros_video]
+_First pass character controller video_
+
+[Bounty Bros.] is a prototype dungeon crawler game in the spirit of _Legend of
+Zelda: Link to the Past_. The game is being developed by [Katharos Technology]
+as a playground for a future commercial game, along with a custom 2D engine
+built on top of [Bevy].
+
+The engine, which is unnamed so far, will be Open Sourced soon and will be
+designed to make it very easy to make games with a similar gameplay and style,
+primarily by simply writing YAML configuration files and integrating with
+[LDtk].
+
+[katharos technology]: https://katharostech.com
+[bounty bros.]: https://katharostech.com/post/bounty-bros-prototype-game
+[bounty_bros_video]: https://katharostech.com/post/bounty-bros-prototype-game#video
+[bevy]: https://bevyengine.org
+[ldtk]: https://ldtk.io
+
 ## Learning Material Updates
 
 ## Engine Updates
