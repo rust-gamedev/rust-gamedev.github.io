@@ -345,8 +345,8 @@ primarily by simply writing YAML configuration files and integrating with
 
 ### [Theta Wave]
 
- [![Homing Missiles](theta_wave_homing_missiles.gif)][Theta Wave]
- _Homing missiles pursue the closest player entity_
+[![Homing Missiles](theta_wave_homing_missiles.gif)][Theta Wave]
+_Homing missiles pursue the closest player entity_
 
  A real name was finally chosen for space_shooter_rs! [Theta Wave] is a space
  shooter game by developers [@micah_tigley] and [@carlosupina]. It is one of
