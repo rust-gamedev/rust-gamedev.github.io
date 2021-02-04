@@ -280,7 +280,7 @@ which will be released in the Steam.
 ![Dwarf World](dwarfworld_lights.gif)
 
 [Dwarf World][dwarf-world] by [Alex Ene][@_AlexEne_] has added a couple
-of updates and improvements:  
+of updates and improvements:
 
 - Dynamic lights and light propagation so deeper caves are darker.
 - An in-game feedback button that people can use to report bugs or
@@ -360,7 +360,40 @@ _Homing missiles pursue the closest player entity_
 [@carlosupina]: https://twitter.com/carlosupina
 [Amethyst Engine]: https://amethyst.rs/
 
+### [Way of Rhea][wor-site]
+
+![Way of Rhea screenshot](wor.jpg)
+
+Way of Rhea is a picturesque puzzle game that lets you correct your mistakes.
+Change your color, teleport past the colored gates, master the color powered
+circuits, and befriend the color changing crabs—but don't let them out!
+
+This month's major updates include:
+
+- Autosave support
+- Steam cloud support
+- A free demo was released as part of Boston FIG (no longer available)
+- In game audio options
+- A new level featuring a new puzzle mechanic
+- An [updated trailer][wor-trailer]
+
+[wor-site]: https://www.anthropicstudios.com/way-of-rhea
+[wor-trailer]: https://www.youtube.com/watch?v=PRifdHcaswc
+
 ## Learning Material Updates
+
+### [Exploring WebSocket with Rust and Tide]
+
+![tic-tac-tide img](tic-tac-tide.png)
+
+An exploration post on how to use WebSockets with [Tide] framework by creating
+a simple tic-tac-toc game. It's focused on how to implement `ws` to enable all
+time of real time apps (and games) with Rust and Tide.
+You can also play [tic-tac-tide] online.
+
+[Exploring WebSocket with Rust and Tide]: https://javierviola.com/post/exploring-websocket-with-rust-and-tide/
+[Tide]: https://github.com/http-rs/tide
+[tic-tac-tide]: https://tic-tac-tide.labs.javierviola.com/
 
 ## Engine Updates
 
