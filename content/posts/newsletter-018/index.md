@@ -280,7 +280,7 @@ which will be released in the Steam.
 ![Dwarf World](dwarfworld_lights.gif)
 
 [Dwarf World][dwarf-world] by [Alex Ene][@_AlexEne_] has added a couple
-of updates and improvements:  
+of updates and improvements:
 
 - Dynamic lights and light propagation so deeper caves are darker.
 - An in-game feedback button that people can use to report bugs or
@@ -344,6 +344,10 @@ primarily by simply writing YAML configuration files and integrating with
 [ldtk]: https://ldtk.io
 
 ## Learning Material Updates
+
+### [Exploring WebSocket with Rust and Tide](https://javierviola.com/post/exploring-websocket-with-rust-and-tide/)
+
+An exploration post on how to use WebSockets with [Tide](https://github.com/http-rs/tide) framework by creating a simple tic-tac-toc game. It's focused on how to implement `ws` to enable all time of real time apps (and games) with Rust and Tide.
 
 ## Engine Updates
 
