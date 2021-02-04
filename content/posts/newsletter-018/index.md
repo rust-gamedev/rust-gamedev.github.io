@@ -347,7 +347,7 @@ primarily by simply writing YAML configuration files and integrating with
 
 ### [Exploring WebSocket with Rust and Tide](https://javierviola.com/post/exploring-websocket-with-rust-and-tide/)
 
-An exploration post on how to use WebSockets with [Tide](https://github.com/http-rs/tide) framework by creating a simple tic-tac-toc game. It's focused on how to implement `ws` to enable all time of real time apps (and games) with Rust and Tide.
+An exploration post on how to use WebSockets with [Tide](https://github.com/http-rs/tide) framework by creating a simple tic-tac-toc game. It's focused on how to implement `ws` to enable all time of real time apps (and games) with Rust and Tide. You can also [play online](https://tic-tac-tide.labs.javierviola.com/).
 
 ## Engine Updates
 
