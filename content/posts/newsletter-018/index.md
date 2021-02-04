@@ -343,6 +343,23 @@ primarily by simply writing YAML configuration files and integrating with
 [bevy]: https://bevyengine.org
 [ldtk]: https://ldtk.io
 
+### [Theta Wave]
+
+[![Homing Missiles](theta_wave_homing_missiles.gif)][Theta Wave]
+_Homing missiles pursue the closest player entity_
+
+ A real name was finally chosen for space_shooter_rs! [Theta Wave] is a space
+ shooter game by developers [@micah_tigley] and [@carlosupina]. It is one of
+ the showcase games for the [Amethyst Engine]. In the past month, they have
+ been focused on improving the motion system for the game. The improvements
+ allowed them to begin adding more interesting behavior for moving entities.
+ Missiles were changed to home to the player.
+
+[Theta Wave]: https://github.com/amethyst/theta-wave
+[@micah_tigley]: https://twitter.com/micah_tigley
+[@carlosupina]: https://twitter.com/carlosupina
+[Amethyst Engine]: https://amethyst.rs/
+
 ### [Way of Rhea][wor-site]
 
 ![Way of Rhea screenshot](wor.jpg)
