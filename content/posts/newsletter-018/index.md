@@ -343,6 +343,26 @@ primarily by simply writing YAML configuration files and integrating with
 [bevy]: https://bevyengine.org
 [ldtk]: https://ldtk.io
 
+### [Way of Rhea][wor-site]
+
+![Way of Rhea screenshot](wor.jpg)
+
+Way of Rhea is a picturesque puzzle game that lets you correct your mistakes.
+Change your color, teleport past the colored gates, master the color powered
+circuits, and befriend the color changing crabs—but don't let them out!
+
+This month's major updates include:
+
+- Autosave support
+- Steam cloud support
+- A free demo was released as part of Boston FIG (no longer available)
+- In game audio options
+- A new level featuring a new puzzle mechanic
+- An [updated trailer][wor-trailer]
+
+[wor-site]: https://www.anthropicstudios.com/way-of-rhea
+[wor-trailer]: https://www.youtube.com/watch?v=PRifdHcaswc
+
 ## Learning Material Updates
 
 ## Engine Updates
