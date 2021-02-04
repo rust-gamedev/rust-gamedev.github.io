@@ -356,7 +356,6 @@ You can also play [tic-tac-tide] online.
 [Tide]: https://github.com/http-rs/tide
 [tic-tac-tide]: https://tic-tac-tide.labs.javierviola.com/
 
-
 ## Engine Updates
 
 ### [`ggez`](ggez)
