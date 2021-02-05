@@ -489,6 +489,21 @@ It features:
 [ldtk]: https://ldtk.io
 ["cavernas"]: https://adamatomic.itch.io/cavernas
 
+### [imgui-rs]
+
+![imgui drag drop example](imgui-rs.gif)
+_Drag and Drop and the new Drawing Api at Work in 0.7.0_
+
+[imgui-rs] is the Rust bindings for the ubiquitous immediate mode GUI library,
+Dear ImGui.
+Under new maintainence, [version 0.7] has been released, which features a new
+API for raw draw calls, support for ergonomic Drag and Drop, and tons of improvements.
+Notably, many functions were made `inline` and/or `const`, including the `im_str!`
+macro.
+
+[imgui-rs]: https://github.com/imgui-rs/imgui-rs
+[version 0.7]: https://github.com/imgui-rs/imgui-rs/releases/tag/v0.7.0
+
 ### [egui]
 
 ![egui widget gallery](egui_0.8.0.gif)
