@@ -575,6 +575,24 @@ or follow [Dmitry Stepanov on Twitter][rg3d_twitter].
 [rg3d_twitter]: https://twitter.com/DmitryNStepanov
 [rusty_editor]: https://github.com/mrDIMAS/rusty-editor
 
+### [This Month in Mun][mun-january]
+
+[![Mun logo](mun-logo.png)][Mun]
+
+[Mun] is a scripting language for gamedev focused on quick iteration times
+that is written in Rust.
+
+Revitalized from the holiday break, the Mun core team got cracking; those
+[January updates][mun-january] include:
+
+- a ton of new language server features;
+- the ability to emit IR;
+- better documentation;
+- bug fixes and other improvements.
+
+[Mun]: https://mun-lang.org
+[mun-january]: https://mun-lang.org/blog/2021/02/05/this-month-january
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
