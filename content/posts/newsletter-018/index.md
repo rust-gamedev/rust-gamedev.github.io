@@ -31,9 +31,36 @@ Table of contents:
 
 - [Rust GameDev Podcast](#rust-gamedev-podcast)
 - [Game Updates](#game-updates)
+  - [Teki (敵)](#teki-敵)
+  - [Fishgame](#fishgame)
+  - [Oicana](#oicana)
+  - [[A/B Street]](#ab-street)
+  - [Paddlers](#paddlers)
+  - [[Antorum]](#antorum)
+  - [[SeniorSKY]](#seniorsky)
+  - [Flesh](#flesh)
+  - [[Station Iapetus]](#station-iapetus)
+  - [Harvest Hero](#harvest-hero)
+  - [Dwarf World](#dwarf-world)
+  - [Stellary 2](#stellary-2)
+  - [[Bounty Bros.]](#bounty-bros)
+  - [[Theta Wave]](#theta-wave)
+  - [Way of Rhea](#way-of-rhea)
 - [Learning Material Updates](#learning-material-updates)
+  - [[Exploring WebSocket with Rust and Tide]](#exploring-websocket-with-rust-and-tide)
 - [Engine Updates](#engine-updates)
-- [Library & Tooling Updates](#library-tooling-updates)
+  - [`ggez`](#ggez)
+  - [[Tetra]](#tetra)
+- [Library & Tooling Updates](#library--tooling-updates)
+  - [[`LDtk-rs`]](#ldtk-rs)
+  - [[`bevy_ldtk`]](#bevy_ldtk)
+  - [[imgui-rs]](#imgui-rs)
+  - [[egui]](#egui)
+  - [[rkyv]](#rkyv)
+  - [[kira]](#kira)
+  - [[gfx-rs] and [wgpu-rs]](#gfx-rs-and-wgpu-rs)
+  - [[rg3d]](#rg3d)
+  - [This Month in Mun](#this-month-in-mun)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Requests for Contribution](#requests-for-contribution)
 
@@ -488,6 +515,21 @@ It features:
 [`bevy_ldtk`]: https://github.com/katharostech/bevy_ldtk
 [ldtk]: https://ldtk.io
 ["cavernas"]: https://adamatomic.itch.io/cavernas
+
+### [imgui-rs]
+
+![imgui drag drop example](imgui-rs.gif)
+_Drag and Drop and the new Drawing Api at Work in 0.7.0_
+
+[imgui-rs] is the Rust bindings for the ubiquitous immediate mode GUI library,
+Dear ImGui.
+Under new maintainence, [version 0.7] has been released, which features a new
+API for raw draw calls, support for ergonomic Drag and Drop, and tons of improvements.
+Notably, many functions were made `inline` and/or `const`, including the `im_str!`
+macro.
+
+[imgui-rs]: https://github.com/imgui-rs/imgui-rs
+[version 0.7]: https://github.com/imgui-rs/imgui-rs/releases/tag/v0.7.0
 
 ### [egui]
 
