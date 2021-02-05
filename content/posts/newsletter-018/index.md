@@ -27,7 +27,6 @@ Feel free to send PRs about your own projects!
 [Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
-
 Table of contents:
 
 - [Rust GameDev Podcast](#rust-gamedev-podcast)
