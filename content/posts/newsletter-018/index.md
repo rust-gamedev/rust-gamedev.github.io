@@ -403,30 +403,36 @@ This month's major updates include:
 ![Custom art assets for Shotcaller](shotcaller-full.png)
 _An art mockup of some Shotcaller action._
 
-[Shotcaller] is a minimalistic MOBA. It focuses strictly on macro-play with
-few actions-per-minute, leaving only room for grand strategy decisions.
+[Shotcaller] ([Discord][shotcaller-Discord]) is a minimalistic MOBA
+that focuses strictly on macro-play with few actions-per-minute,
+leaving only room for grand strategy decisions.
+The game is made with [bracket-lib], a [custom game engine][jojolepro/minigene]
+and [Plank ECS][planks_ecs].
 
-The game is made with [bracket-lib](https://github.com/thebracket/bracket-lib)
-and our own [custom game engine](https://github.com/jojolepro/minigene) and
-[Plank ECS](https://www.jojolepro.com/blog/2021-01-13_planks_ecs/).
+Recent updates include:
 
-- [Released v0.4.0](https://www.reddit.com/r/rust_gamedev/comments/kveih9/shotcaller_mobagame_v040_new_leaders_ui/);
+- [Version v0.4.0 was released][shotcaller-v0.4.0].
 - First batch of custom art assets completed; will be implemented
   in the month to come.
-- [Alchemist leader](https://github.com/amethyst/shotcaller/pull/29)
-- [Axe leader](https://github.com/amethyst/shotcaller/pull/30)
-- [Rubick leader](https://github.com/amethyst/shotcaller/pull/34)
-- [Centaur leader](https://github.com/amethyst/shotcaller/pull/36)
-- [Bristleback leader](https://github.com/amethyst/shotcaller/pull/40)
-- [Shadow Fiend leader](https://github.com/amethyst/shotcaller/pull/35)
-- [Added gold system](https://github.com/amethyst/shotcaller/pull/31)
+- New leaders:
+  [Alchemist](https://github.com/amethyst/shotcaller/pull/29),
+  [Axe](https://github.com/amethyst/shotcaller/pull/30),
+  [Rubick](https://github.com/amethyst/shotcaller/pull/34),
+  [Centaur](https://github.com/amethyst/shotcaller/pull/36),
+  [Bristleback](https://github.com/amethyst/shotcaller/pull/40),
+  [Shadow Fiend](https://github.com/amethyst/shotcaller/pull/35).
+- [Gold system](https://github.com/amethyst/shotcaller/pull/31).
 - [Headless option](https://github.com/amethyst/shotcaller/pull/44)
-  (in preparation for AI/ML experimenting)
-- [Added Fog of War](https://github.com/amethyst/shotcaller/pull/41)
-- [Mouse support](https://github.com/amethyst/shotcaller/pull/46)
+  (in preparation for AI/ML experimenting).
+- [Fog of War](https://github.com/amethyst/shotcaller/pull/41).
+- [Mouse support](https://github.com/amethyst/shotcaller/pull/46).
 
 [Shotcaller]: https://github.com/amethyst/shotcaller
-[#shotcaller (Discord)]: https://discord.gg/qvJyTYM
+[shotcaller-Discord]: https://discord.gg/qvJyTYM
+[bracket-lib]: https://github.com/thebracket/bracket-lib
+[jojolepro/minigene]: https://github.com/jojolepro/minigene
+[planks_ecs]: https://www.jojolepro.com/blog/2021-01-13_planks_ecs
+[shotcaller-v0.4.0]: https://reddit.com/r/rust_gamedev/comments/kveih9/shotcaller_mobagame_v040
 
 ## Learning Material Updates
 
