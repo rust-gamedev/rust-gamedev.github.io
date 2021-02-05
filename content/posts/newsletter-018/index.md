@@ -424,6 +424,21 @@ Two extensive chapters were added this month:
 [tri-scratch-gl-win]: https://rust-tutorials.github.io/triangle-from-scratch/loading_opengl/win32.html
 [tri-scratch-gl-wasm]: https://rust-tutorials.github.io/triangle-from-scratch/web_stuff/web_gl_with_bare_wasm.html
 
+### [Setting a Rust Executable's Icon in Windows][win-icon]
+
+![Windows taskbar with Way of Rhea icon on the right](win-icons-task-bar.png)
+_[Way of Rhea][wor-site]'s icon in the taskbar_
+
+[Anthropic Studios][anthropic] has [shared an article][win-icon] about
+manually using `rc.exe` and embedding the resulting `.res` into your app
+to set your game's system icon on Windows.
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/kraink/setting_a_rust_executables_icon_in_win)_
+
+[win-icon]: https://anthropicstudios.com/2021/01/05/setting-a-rust-windows-exe-icon
+[anthropic]: https://anthropicstudios.com
+
 ### [Exploring WebSocket with Rust and Tide]
 
 ![tic-tac-tide img](tic-tac-tide.png)
