@@ -554,6 +554,20 @@ You can try out egui in the [online demo].
 [online demo]: https://emilk.github.io/egui
 [version 0.8]: https://github.com/emilk/egui/blob/master/CHANGELOG.md#080---2021-01-17---grid-layout--new-visual-style
 
+### [`bevy_egui`]
+
+![bevy_egui screenshot](bevy_egui.png)
+
+[`bevy_egui`] provides a [Egui](https://github.com/emilk/egui) integration
+for the [Bevy](https://github.com/bevyengine/bevy) game engine.
+It supports [`bevy_webgl2`] and implements the full set of Egui features
+(such as clipboard and opening URLs).
+
+Try out the [online demo](https://mvlabat.github.io/bevy_egui_web_showcase/index.html).
+
+[`bevy_egui`]: https://github.com/mvlabat/bevy_egui
+[`bevy_webgl2`]: https://github.com/mrk-its/bevy_webgl2
+
 ### [rkyv]
 
 [rkyv] is a zero-copy deserialization framework for Rust. It's similar to
