@@ -278,17 +278,21 @@ which will be released in the Steam.
 ### Harvest Hero
 
 ![Harvest Hero Screenshot](harvest_hero.png)
-[Harvest Hero](https://discord.gg/3NU5tYwRxJ) by [@bombfuse_dev](https://twitter.com/bombfuse_dev)
 
-- Art update thanks to [@ddooby](https://twitter.com/ddoobysnax)
+Harvest Hero ([Discord][harvest-hero-discord]) by [@bombfuse_dev]
+is an arcade/roguelike game built on top of [Emerald].
+This month's updates include:
 
-- Adding map templates for better designed maps
+- Art update thanks to [@ddooby].
+- Map templates for better designed maps.
+- A shop system for buying abilities/enchantments.
+- SFX were added to bring some more life to the game.
 
-- Adding a shop system for buying abilities/enchantments
+[harvest-hero-discord]: https://discord.gg/3NU5tYwRxJ
+[@bombfuse_dev]: https://twitter.com/bombfuse_dev
+[Emerald]: https://github.com/Bombfuse/emerald
+[@ddooby]: https://twitter.com/ddoobysnax
 
-- Adding SFX to bring some more life to the game
-
-Harvest Hero is built on top of [Emerald](https://github.com/Bombfuse/emerald).
 
 ### [Dwarf World][dwarf-world]
 
