@@ -398,6 +398,42 @@ This month's major updates include:
 [wor-site]: https://www.anthropicstudios.com/way-of-rhea
 [wor-trailer]: https://www.youtube.com/watch?v=PRifdHcaswc
 
+### [Shotcaller]
+
+![Custom art assets for Shotcaller](shotcaller-full.png)
+_An art mockup of some Shotcaller action._
+
+[Shotcaller] ([Discord][shotcaller-Discord]) is a minimalistic MOBA
+that focuses strictly on macro-play with few actions-per-minute,
+leaving only room for grand strategy decisions.
+The game is made with [bracket-lib], a [custom game engine][jojolepro/minigene]
+and [Plank ECS][planks_ecs].
+
+Recent updates include:
+
+- [Version v0.4.0 was released][shotcaller-v0.4.0].
+- First batch of custom art assets completed; will be implemented
+  in the month to come.
+- New leaders:
+  [Alchemist](https://github.com/amethyst/shotcaller/pull/29),
+  [Axe](https://github.com/amethyst/shotcaller/pull/30),
+  [Rubick](https://github.com/amethyst/shotcaller/pull/34),
+  [Centaur](https://github.com/amethyst/shotcaller/pull/36),
+  [Bristleback](https://github.com/amethyst/shotcaller/pull/40),
+  [Shadow Fiend](https://github.com/amethyst/shotcaller/pull/35).
+- [Gold system](https://github.com/amethyst/shotcaller/pull/31).
+- [Headless option](https://github.com/amethyst/shotcaller/pull/44)
+  (in preparation for AI/ML experimenting).
+- [Fog of War](https://github.com/amethyst/shotcaller/pull/41).
+- [Mouse support](https://github.com/amethyst/shotcaller/pull/46).
+
+[Shotcaller]: https://github.com/amethyst/shotcaller
+[shotcaller-Discord]: https://discord.gg/qvJyTYM
+[bracket-lib]: https://github.com/thebracket/bracket-lib
+[jojolepro/minigene]: https://github.com/jojolepro/minigene
+[planks_ecs]: https://www.jojolepro.com/blog/2021-01-13_planks_ecs
+[shotcaller-v0.4.0]: https://reddit.com/r/rust_gamedev/comments/kveih9/shotcaller_mobagame_v040
+
 ## Learning Material Updates
 
 ### [Exploring WebSocket with Rust and Tide]
