@@ -275,6 +275,24 @@ which will be released in the Steam.
 [Station Iapetus]: https://github.com/mrDIMAS/StationIapetus
 [si-youtube]: https://www.youtube.com/watch?v=JCH2U5JOMlU
 
+### Harvest Hero
+
+![Harvest Hero Screenshot](harvest_hero.png)
+
+Harvest Hero ([Discord][harvest-hero-discord]) by [@bombfuse_dev]
+is an arcade/roguelike game built on top of [Emerald].
+This month's updates include:
+
+- Art update thanks to [@ddooby].
+- Map templates for better designed maps.
+- A shop system for buying abilities/enchantments.
+- SFX were added to bring some more life to the game.
+
+[harvest-hero-discord]: https://discord.gg/3NU5tYwRxJ
+[@bombfuse_dev]: https://twitter.com/bombfuse_dev
+[Emerald]: https://github.com/Bombfuse/emerald
+[@ddooby]: https://twitter.com/ddoobysnax
+
 ### [Dwarf World][dwarf-world]
 
 ![Dwarf World](dwarfworld_lights.gif)
