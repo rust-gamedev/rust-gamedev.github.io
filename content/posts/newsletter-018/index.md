@@ -676,6 +676,23 @@ Revitalized from the holiday break, the Mun core team got cracking; those
 [Mun]: https://mun-lang.org
 [mun-january]: https://mun-lang.org/blog/2021/02/05/this-month-january
 
+### [Dotrix]
+
+![Dotrix in January](dotrix-in-january.png)
+
+[Dotrix] got an official [egui] support and a new example demonstrating various
+engine features and controls. The next big milestone for [Dotrix] developers is
+a terrain engine and editor, also made with [egui]. Some progress you can
+already find on [YouTube][lowenware-youtube].
+
+Join the [Löwenware's Discord channel][lowenware-discord]
+or follow [@lowenware on Twitter][@lowenware].
+
+[dotrix]: https://dotrix.rs
+[lowenware-discord]: https://discord.com/invite/DrzwBysNRd
+[lowenware-youtube]: https://www.youtube.com/channel/UCdriNXRizbBFQhqZefaw44A
+[@lowenware]: https://twitter.com/lowenware
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
