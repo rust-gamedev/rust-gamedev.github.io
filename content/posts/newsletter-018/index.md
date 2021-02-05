@@ -408,6 +408,22 @@ Recent [beta releases][beta-books] added the following chapters:
 [bracket-lib]: https://github.com/thebracket/bracket-lib
 [rl-book]: https://bfnightly.bracketproductions.com/rustbook
 
+### [Triangle from Scratch][tri-scratch]
+
+[Triangle from Scratch][tri-scratch] ([source code][tri-scratch-src])
+is a WIP tutorial series by [@Lokathor] about drawing a triangle
+without using any outside crates.
+Two extensive chapters were added this month:
+
+- ["Loading OpenGL with Win32 API"][tri-scratch-gl-win];
+- ["WebGL with bare WASM"][tri-scratch-gl-wasm].
+
+[tri-scratch]: https://rust-tutorials.github.io/triangle-from-scratch
+[tri-scratch-src]: https://github.com/rust-tutorials/triangle-from-scratch
+[@Lokathor]: https://twitter.com/Lokathor
+[tri-scratch-gl-win]: https://rust-tutorials.github.io/triangle-from-scratch/loading_opengl/win32.html
+[tri-scratch-gl-wasm]: https://rust-tutorials.github.io/triangle-from-scratch/web_stuff/web_gl_with_bare_wasm.html
+
 ### [Exploring WebSocket with Rust and Tide]
 
 ![tic-tac-tide img](tic-tac-tide.png)
