@@ -293,7 +293,6 @@ This month's updates include:
 [Emerald]: https://github.com/Bombfuse/emerald
 [@ddooby]: https://twitter.com/ddoobysnax
 
-
 ### [Dwarf World][dwarf-world]
 
 ![Dwarf World](dwarfworld_lights.gif)
