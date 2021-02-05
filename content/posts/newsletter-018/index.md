@@ -398,6 +398,28 @@ This month's major updates include:
 [wor-site]: https://www.anthropicstudios.com/way-of-rhea
 [wor-trailer]: https://www.youtube.com/watch?v=PRifdHcaswc
 
+### [Zemeroth][zemeroth]
+
+[![Some generic gameplay demo](zemeroth.gif)][zemeroth-audio]
+_Click to [watch a footage with sound][zemeroth-audio] 🔊_
+
+[Zemeroth][zemeroth] by [@ozkriff] is a minimalistic 2D turn-based tactical game.
+Some of the recent updates:
+
+- The game [was migrated from good-web-game to macroquad][zemeroth-macroquad]
+  and converted to explicit async aseets loading.
+- Proper [sound effects & music were added][zemeroth-audio]
+  using the [quad-snd] library ([more details][zemeroth-audio-details]).
+
+The final preparations for v0.7 are wrapping up!
+
+[zemeroth]: https://github.com/ozkriff/zemeroth
+[@ozkriff]: https://twitter.com/ozkriff
+[zemeroth-macroquad]: https://twitter.com/ozkriff/status/1332031459985682436
+[zemeroth-audio]: https://twitter.com/ozkriff/status/1341052260885942272
+[zemeroth-audio-details]: https://twitter.com/ozkriff/status/1346422661187035136
+[quad-snd]: https://github.com/not-fl3/quad-snd
+
 ## Learning Material Updates
 
 ### [Exploring WebSocket with Rust and Tide]
