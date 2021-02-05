@@ -27,40 +27,14 @@ Feel free to send PRs about your own projects!
 [Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
+
 Table of contents:
 
 - [Rust GameDev Podcast](#rust-gamedev-podcast)
 - [Game Updates](#game-updates)
-  - [Teki (敵)](#teki-敵)
-  - [Fishgame](#fishgame)
-  - [Oicana](#oicana)
-  - [[A/B Street]](#ab-street)
-  - [Paddlers](#paddlers)
-  - [[Antorum]](#antorum)
-  - [[SeniorSKY]](#seniorsky)
-  - [Flesh](#flesh)
-  - [[Station Iapetus]](#station-iapetus)
-  - [Harvest Hero](#harvest-hero)
-  - [Dwarf World](#dwarf-world)
-  - [Stellary 2](#stellary-2)
-  - [[Bounty Bros.]](#bounty-bros)
-  - [[Theta Wave]](#theta-wave)
-  - [Way of Rhea](#way-of-rhea)
 - [Learning Material Updates](#learning-material-updates)
-  - [[Exploring WebSocket with Rust and Tide]](#exploring-websocket-with-rust-and-tide)
 - [Engine Updates](#engine-updates)
-  - [`ggez`](#ggez)
-  - [[Tetra]](#tetra)
-- [Library & Tooling Updates](#library--tooling-updates)
-  - [[`LDtk-rs`]](#ldtk-rs)
-  - [[`bevy_ldtk`]](#bevy_ldtk)
-  - [[imgui-rs]](#imgui-rs)
-  - [[egui]](#egui)
-  - [[rkyv]](#rkyv)
-  - [[kira]](#kira)
-  - [[gfx-rs] and [wgpu-rs]](#gfx-rs-and-wgpu-rs)
-  - [[rg3d]](#rg3d)
-  - [This Month in Mun](#this-month-in-mun)
+- [Library & Tooling Updates](#library-tooling-updates)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Requests for Contribution](#requests-for-contribution)
 
