@@ -436,6 +436,63 @@ Recent updates include:
 
 ## Learning Material Updates
 
+### [Hands-on Rust][hands-on-rust]
+
+[![book cover](hands-on-rust.jpg)][hands-on-rust]
+
+["Hands-on Rust: Effective Learning through 2D Game Development and Play"][hands-on-rust]
+is a book by [Herbert Wolverson][thebracket]
+(the author of [bracket-lib] and [the Rust Roguelike Tutorial][rl-book]):
+make fun games as you learn Rust through a series of hands-on gamedev tutorials
+and real-world use of core language skills.
+
+Recent [beta releases][beta-books] added the following chapters:
+
+- \#10: Fields of View;
+- \#11: More Interesting Dungeons;
+- \#12: Map Themes;
+- \#13: Inventory and Power Ups;
+- \#14: Deeper Dungeons;
+- \#15: Combat Systems and Loot;
+- \#16: Final Steps and Finishing Touches.
+
+[hands-on-rust]: https://pragprog.com/titles/hwrust/hands-on-rust
+[thebracket]: https://bracketproductions.com
+[beta-books]: https://pragprog.com/support/#beta-books
+[bracket-lib]: https://github.com/thebracket/bracket-lib
+[rl-book]: https://bfnightly.bracketproductions.com/rustbook
+
+### [Triangle from Scratch][tri-scratch]
+
+[Triangle from Scratch][tri-scratch] ([source code][tri-scratch-src])
+is a WIP tutorial series by [@Lokathor] about drawing a triangle
+without using any outside crates.
+Two extensive chapters were added this month:
+
+- ["Loading OpenGL with Win32 API"][tri-scratch-gl-win];
+- ["WebGL with bare WASM"][tri-scratch-gl-wasm].
+
+[tri-scratch]: https://rust-tutorials.github.io/triangle-from-scratch
+[tri-scratch-src]: https://github.com/rust-tutorials/triangle-from-scratch
+[@Lokathor]: https://twitter.com/Lokathor
+[tri-scratch-gl-win]: https://rust-tutorials.github.io/triangle-from-scratch/loading_opengl/win32.html
+[tri-scratch-gl-wasm]: https://rust-tutorials.github.io/triangle-from-scratch/web_stuff/web_gl_with_bare_wasm.html
+
+### [Setting a Rust Executable's Icon in Windows][win-icon]
+
+![Windows taskbar with Way of Rhea icon on the right](win-icons-task-bar.png)
+_[Way of Rhea][wor-site]'s icon in the taskbar_
+
+[Anthropic Studios][anthropic] has [shared an article][win-icon] about
+manually using `rc.exe` and embedding the resulting `.res` into your app
+to set your game's system icon on Windows.
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/kraink/setting_a_rust_executables_icon_in_win)_
+
+[win-icon]: https://anthropicstudios.com/2021/01/05/setting-a-rust-windows-exe-icon
+[anthropic]: https://anthropicstudios.com
+
 ### [Exploring WebSocket with Rust and Tide]
 
 ![tic-tac-tide img](tic-tac-tide.png)
