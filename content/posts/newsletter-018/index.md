@@ -88,7 +88,7 @@ Listen and subscribe from the following platforms:
 ![Gamedev meetup poster](gamedev-meetup.png)
 
 The first iteration of the Rust Gamedev Meetup happened in January. It was an
-oppertunity for developers to show of what Rust projects they've been working on
+opportunity for developers to show of what Rust projects they've been working on
 in the game ecosystem. Developers showed off physics engines, custom build
 tools, renderers, and more. You can watch the recording of the meetup [here on
 Youtube][gamedev-meetup-video]. The next meetup will take place 13th of February
