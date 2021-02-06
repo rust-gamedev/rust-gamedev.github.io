@@ -83,6 +83,22 @@ Listen and subscribe from the following platforms:
 [@_AlexEne_]: https://twitter.com/_Alex_Ene_
 [dwarf-world]: https://dwarf.world
 
+## Rust GameDev Meetup
+
+![Gamedev meetup poster](gamedev-meetup.png)
+
+The first iteration of the Rust Gamedev Meetup happened in January. It was an
+opportunity for developers to show of what Rust projects they've been working on
+in the game ecosystem. Developers showed off physics engines, custom build
+tools, renderers, and more. You can watch the recording of the meetup [here on
+Youtube][gamedev-meetup-video]. The next meetup will take place 13th of February
+at 16:00 GMT on the [Rust Gamedev Discord server][rust-gamedev-discord], and can
+also be [streamed on Twitch][rust-gamedev-twitch].
+
+[gamedev-meetup-video]: https://www.youtube.com/watch?v=2L3w3UiEzAk
+[rust-gamedev-discord]: https://discord.gg/yNtPTb2
+[rust-gamedev-twitch]: https://www.twitch.tv/rustgamedevmeetup
+
 ## Game Updates
 
 ### [Teki (敵)][teki]
