@@ -775,6 +775,105 @@ Revitalized from the holiday break, the Mun core team got cracking; those
 [Mun]: https://mun-lang.org
 [mun-january]: https://mun-lang.org/blog/2021/02/05/this-month-january
 
+### [GameLisp][gamelisp] v0.2
+
+![logo](glisp-logo.png)
+
+[GameLisp][gamelisp] ([source code][gamelisp-src],
+[playground][gamelisp-playground]) by [@fleabitdev]
+is a scripting language designed specifically for Rust game development.
+
+This month, version 0.2.0 has been released. Some of the updates:
+
+- Any `'static` Rust type, including types defined by external crates,
+  can now be moved onto the garbage-collected heap and manipulated
+  by GameLisp scripts.
+- Rust data on the garbage-collected heap can now contain pointers to other
+  garbage-collected data, by implementing a `trace()` method.
+- Version 0.1 could only bind non-capturing Rust closures, but closures
+  which capture `'static` data are now fully supported.
+- Rust function pointers can now be passed directly to GameLisp,
+  rather than using the `rfn!` macro.
+  The clunky `lib!` and `rdata!` macros have also been removed.
+- Updated documentation starting from the ["Rust Bindings"][gamelisp-doc-bindings]
+  chapter.
+
+For full details, see the [changelog][gamelisp-changelog].
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/kp77vw/version_02_of_gamelisp)_
+
+[gamelisp]: https://gamelisp.rs
+[gamelisp-src]: https://github.com/fleabitdev/glsp
+[gamelisp-playground]: https://gamelisp.rs/playground
+[gamelisp-changelog]: https://github.com/fleabitdev/glsp/blob/master/CHANGELOG.md
+[@fleabitdev]: https://twitter.com/fleabitdev
+[gamelisp-doc-bindings]: <https://gamelisp.rs/reference/rust-bindings.html>
+
+### [chess-engine]
+
+![cli + web version](chess.png)
+_Console and web clients for the chess-engine_
+
+[chess-engine] by [@adam-mcdaniel] is a pure Rust, no-std, dependency-free
+chess engine built to run anywhere.
+
+> I love chess a lot. It's definitely one of my favorite games ever.
+> However, I've always been disappointed when trying to write programs
+> that play chess digitally (particularly in a compiled language).
+> Although several amazing engines exist, it's near impossible to find
+> a neat library for chess-related-programming that runs on everything.
+>
+> [chess-engine] is a solution to my problem.
+> If you want a chess engine that runs on embedded devices, the terminal,
+> [the desktop (with a gui)][chess-gui], and [the web][chess-web],
+> this is probably your best bet.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/l65e86/a_nostd_chess_engine)_
+
+[@adam-mcdaniel]: https://github.com/adam-mcdaniel
+[chess-engine]: https://github.com/adam-mcdaniel/chess-engine
+[chess-gui]: https://github.com/adam-mcdaniel/chess-engine/tree/main/examples/chess-gui
+[chess-web]: https://adam-mcdaniel.github.io/chess-engine/docs/book/index.html#average-ai
+
+### [dcli]
+
+![plaintext tables](dcliah.png)
+_Example of dcliah output_
+
+[dcli] by [Mike Chambers][@mikechambers] is a library and a collection
+of utilities&apps that provide a command line interface (CLI) for viewing
+player stats and data from Destiny 2, using the [Destiny 2 API][destiny-api]:
+
+- dclis - retrieves primary platform and membership ids for Destiny 2 players.
+- dclim - manages and syncs the remote Destiny 2 API manifest database.
+- dclias - downloads and syncs Destiny 2 Crucible activity history
+  into a local sqlite3 database file.
+- dclic - retrieves character ids for the specified member.
+- dclims - searches the Destiny 2 manifest by hash ids (from API calls).
+- dclitime - generates date / time stamps for Destiny 2 weekly event moments.
+- dclia - displays information on player's current activity within Destiny 2.
+- dcliah - displays Destiny 2 activity history and stats.
+- dcliad - displays Destiny 2 Crucible activity / match details.
+
+[dcli]: https://github.com/mikechambers/dcli
+[@mikechambers]: www.mikechambers.com
+[destiny-api]: https://github.com/Bungie-net/api
+
+### Rust Support in [Shader Playground][shader-playground]
+
+![source code in rust, compiler options, and spircv-coross output](shaderplay.jpeg)
+
+[Shader Playground][shader-playground] ([source code][shader-playground-src])
+by [@tgjones] now allows you to try out writing shaders in Rust
+(using [rust-gpu]) without downloading or building anything.
+
+[@tgjones]: https://github.com/tgjones
+[shader-playground]: http://shader-playground.timjones.io
+[shader-playground-src]: https://github.com/tgjones/shader-playground
+[rust-gpu]: https://github.com/EmbarkStudios/rust-gpu
+
 ### [Dimforge][dimforge]
 
 [![Dimforge](dimforge.png)][dimforge]
