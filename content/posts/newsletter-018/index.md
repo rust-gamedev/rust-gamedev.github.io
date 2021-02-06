@@ -424,6 +424,42 @@ January's full weekly devlogs: "This Week In Veloren...":
 
 [veloren]: https://veloren.net
 
+### [Shotcaller]
+
+![Custom art assets for Shotcaller](shotcaller-full.png)
+_An art mockup of some Shotcaller action._
+
+[Shotcaller] ([Discord][shotcaller-Discord]) is a minimalistic MOBA
+that focuses strictly on macro-play with few actions-per-minute,
+leaving only room for grand strategy decisions.
+The game is made with [bracket-lib], a [custom game engine][jojolepro/minigene]
+and [Plank ECS][planks_ecs].
+
+Recent updates include:
+
+- [Version v0.4.0 was released][shotcaller-v0.4.0].
+- First batch of custom art assets completed; will be implemented
+  in the month to come.
+- New leaders:
+  [Alchemist](https://github.com/amethyst/shotcaller/pull/29),
+  [Axe](https://github.com/amethyst/shotcaller/pull/30),
+  [Rubick](https://github.com/amethyst/shotcaller/pull/34),
+  [Centaur](https://github.com/amethyst/shotcaller/pull/36),
+  [Bristleback](https://github.com/amethyst/shotcaller/pull/40),
+  [Shadow Fiend](https://github.com/amethyst/shotcaller/pull/35).
+- [Gold system](https://github.com/amethyst/shotcaller/pull/31).
+- [Headless option](https://github.com/amethyst/shotcaller/pull/44)
+  (in preparation for AI/ML experimenting).
+- [Fog of War](https://github.com/amethyst/shotcaller/pull/41).
+- [Mouse support](https://github.com/amethyst/shotcaller/pull/46).
+
+[Shotcaller]: https://github.com/amethyst/shotcaller
+[shotcaller-Discord]: https://discord.gg/qvJyTYM
+[bracket-lib]: https://github.com/thebracket/bracket-lib
+[jojolepro/minigene]: https://github.com/jojolepro/minigene
+[planks_ecs]: https://www.jojolepro.com/blog/2021-01-13_planks_ecs
+[shotcaller-v0.4.0]: https://reddit.com/r/rust_gamedev/comments/kveih9/shotcaller_mobagame_v040
+
 ## Learning Material Updates
 
 ### [Exploring WebSocket with Rust and Tide]
@@ -543,6 +579,20 @@ You can try out egui in the [online demo].
 [egui]: https://github.com/emilk/egui
 [online demo]: https://emilk.github.io/egui
 [version 0.8]: https://github.com/emilk/egui/blob/master/CHANGELOG.md#080---2021-01-17---grid-layout--new-visual-style
+
+### [`bevy_egui`]
+
+![bevy_egui screenshot](bevy_egui.png)
+
+[`bevy_egui`] provides a [Egui](https://github.com/emilk/egui) integration
+for the [Bevy](https://github.com/bevyengine/bevy) game engine.
+It supports [`bevy_webgl2`] and implements the full set of Egui features
+(such as clipboard and opening URLs).
+
+Try out the [online demo](https://mvlabat.github.io/bevy_egui_web_showcase/index.html).
+
+[`bevy_egui`]: https://github.com/mvlabat/bevy_egui
+[`bevy_webgl2`]: https://github.com/mrk-its/bevy_webgl2
 
 ### [rkyv]
 
