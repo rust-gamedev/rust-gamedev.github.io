@@ -676,6 +676,21 @@ Revitalized from the holiday break, the Mun core team got cracking; those
 [Mun]: https://mun-lang.org
 [mun-january]: https://mun-lang.org/blog/2021/02/05/this-month-january
 
+### [Dimforge][dimforge]
+
+[![Dimforge](dimforge.png)][dimforge]
+
+[Dimforge][dimforge] creates open-source Rust crates for numerical simulation.
+In January, updates were made to Dimforge projects: Rapier, Salva, Parry,
+nalgebra, and Simba. Parry was announced, the successor of ncollide for 2D and
+3D collision-detection in Rust. The new version of Rapier brings many new
+features, including the ability to use custom shapes, as well as convex
+polygons/polyhedrons for 2D and 3D respectivly. You can read about all of the
+changes in the January edition of ["This Month In Dimforge"][dimforge-update].
+
+[dimforge]: https://www.dimforge.com/
+[dimforge-update]: https://www.dimforge.com/blog/2021/01/29/this-month-in-dimforge/
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
