@@ -83,6 +83,22 @@ Listen and subscribe from the following platforms:
 [@_AlexEne_]: https://twitter.com/_Alex_Ene_
 [dwarf-world]: https://dwarf.world
 
+## Rust GameDev Meetup
+
+![Gamedev meetup poster](gamedev-meetup.png)
+
+The first iteration of the Rust Gamedev Meetup happened in January. It was an
+opportunity for developers to show of what Rust projects they've been working on
+in the game ecosystem. Developers showed off physics engines, custom build
+tools, renderers, and more. You can watch the recording of the meetup [here on
+Youtube][gamedev-meetup-video]. The next meetup will take place 13th of February
+at 16:00 GMT on the [Rust Gamedev Discord server][rust-gamedev-discord], and can
+also be [streamed on Twitch][rust-gamedev-twitch].
+
+[gamedev-meetup-video]: https://www.youtube.com/watch?v=2L3w3UiEzAk
+[rust-gamedev-discord]: https://discord.gg/yNtPTb2
+[rust-gamedev-twitch]: https://www.twitch.tv/rustgamedevmeetup
+
 ## Game Updates
 
 ### [Teki (敵)][teki]
@@ -398,6 +414,32 @@ This month's major updates include:
 [wor-site]: https://www.anthropicstudios.com/way-of-rhea
 [wor-trailer]: https://www.youtube.com/watch?v=PRifdHcaswc
 
+### [Veloren][veloren]
+
+![Veloren Snow](veloren-snow.gif)
+_Let it snow!_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In January, lots of work was done on new models that make the world feel more
+alive. Work was done on economic simulation, and many of the blog posts
+highlight this progress. This includes trading between sites, and professions.
+Skill trees were completed, and are now in the game.
+
+Large changes are being implemented to the CI system to reduce build times. Work
+has been ongoing on improving the Veloren wiki, with many contributors adding to
+it. In February, a meeting will be held to discuss the 0.9 release, with does
+not yet have a release date.
+
+January's full weekly devlogs: "This Week In Veloren...":
+[#101](https://veloren.net/devblog-101),
+[#102](https://veloren.net/devblog-102),
+[#103](https://veloren.net/devblog-103),
+[#104](https://veloren.net/devblog-104).
+
+[veloren]: https://veloren.net
+
 ### [Shotcaller]
 
 ![Custom art assets for Shotcaller](shotcaller-full.png)
@@ -435,6 +477,63 @@ Recent updates include:
 [shotcaller-v0.4.0]: https://reddit.com/r/rust_gamedev/comments/kveih9/shotcaller_mobagame_v040
 
 ## Learning Material Updates
+
+### [Hands-on Rust][hands-on-rust]
+
+[![book cover](hands-on-rust.jpg)][hands-on-rust]
+
+["Hands-on Rust: Effective Learning through 2D Game Development and Play"][hands-on-rust]
+is a book by [Herbert Wolverson][thebracket]
+(the author of [bracket-lib] and [the Rust Roguelike Tutorial][rl-book]):
+make fun games as you learn Rust through a series of hands-on gamedev tutorials
+and real-world use of core language skills.
+
+Recent [beta releases][beta-books] added the following chapters:
+
+- \#10: Fields of View;
+- \#11: More Interesting Dungeons;
+- \#12: Map Themes;
+- \#13: Inventory and Power Ups;
+- \#14: Deeper Dungeons;
+- \#15: Combat Systems and Loot;
+- \#16: Final Steps and Finishing Touches.
+
+[hands-on-rust]: https://pragprog.com/titles/hwrust/hands-on-rust
+[thebracket]: https://bracketproductions.com
+[beta-books]: https://pragprog.com/support/#beta-books
+[bracket-lib]: https://github.com/thebracket/bracket-lib
+[rl-book]: https://bfnightly.bracketproductions.com/rustbook
+
+### [Triangle from Scratch][tri-scratch]
+
+[Triangle from Scratch][tri-scratch] ([source code][tri-scratch-src])
+is a WIP tutorial series by [@Lokathor] about drawing a triangle
+without using any outside crates.
+Two extensive chapters were added this month:
+
+- ["Loading OpenGL with Win32 API"][tri-scratch-gl-win];
+- ["WebGL with bare WASM"][tri-scratch-gl-wasm].
+
+[tri-scratch]: https://rust-tutorials.github.io/triangle-from-scratch
+[tri-scratch-src]: https://github.com/rust-tutorials/triangle-from-scratch
+[@Lokathor]: https://twitter.com/Lokathor
+[tri-scratch-gl-win]: https://rust-tutorials.github.io/triangle-from-scratch/loading_opengl/win32.html
+[tri-scratch-gl-wasm]: https://rust-tutorials.github.io/triangle-from-scratch/web_stuff/web_gl_with_bare_wasm.html
+
+### [Setting a Rust Executable's Icon in Windows][win-icon]
+
+![Windows taskbar with Way of Rhea icon on the right](win-icons-task-bar.png)
+_[Way of Rhea][wor-site]'s icon in the taskbar_
+
+[Anthropic Studios][anthropic] has [shared an article][win-icon] about
+manually using `rc.exe` and embedding the resulting `.res` into your app
+to set your game's system icon on Windows.
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/kraink/setting_a_rust_executables_icon_in_win)_
+
+[win-icon]: https://anthropicstudios.com/2021/01/05/setting-a-rust-windows-exe-icon
+[anthropic]: https://anthropicstudios.com
 
 ### [Exploring WebSocket with Rust and Tide]
 
@@ -553,6 +652,20 @@ You can try out egui in the [online demo].
 [egui]: https://github.com/emilk/egui
 [online demo]: https://emilk.github.io/egui
 [version 0.8]: https://github.com/emilk/egui/blob/master/CHANGELOG.md#080---2021-01-17---grid-layout--new-visual-style
+
+### [`bevy_egui`]
+
+![bevy_egui screenshot](bevy_egui.png)
+
+[`bevy_egui`] provides a [Egui](https://github.com/emilk/egui) integration
+for the [Bevy](https://github.com/bevyengine/bevy) game engine.
+It supports [`bevy_webgl2`] and implements the full set of Egui features
+(such as clipboard and opening URLs).
+
+Try out the [online demo](https://mvlabat.github.io/bevy_egui_web_showcase/index.html).
+
+[`bevy_egui`]: https://github.com/mvlabat/bevy_egui
+[`bevy_webgl2`]: https://github.com/mrk-its/bevy_webgl2
 
 ### [rkyv]
 
@@ -760,6 +873,36 @@ by [@tgjones] now allows you to try out writing shaders in Rust
 [shader-playground]: http://shader-playground.timjones.io
 [shader-playground-src]: https://github.com/tgjones/shader-playground
 [rust-gpu]: https://github.com/EmbarkStudios/rust-gpu
+
+### [Dimforge][dimforge]
+
+[![Dimforge](dimforge.png)][dimforge]
+
+[Dimforge][dimforge] creates open-source Rust crates for numerical simulation.
+In January, updates were made to Dimforge projects: Rapier, Salva, Parry,
+nalgebra, and Simba. Parry was announced, the successor of ncollide for 2D and
+3D collision-detection in Rust. The new version of Rapier brings many new
+features, including the ability to use custom shapes, as well as convex
+polygons/polyhedrons for 2D and 3D respectivly. You can read about all of the
+changes in the January edition of ["This Month In Dimforge"][dimforge-update].
+
+[dimforge]: https://www.dimforge.com/
+[dimforge-update]: https://www.dimforge.com/blog/2021/01/29/this-month-in-dimforge/
+
+### [Dotrix]
+
+![Fox model and egui controls for camera, light, etc](dotrix-in-january.png)
+
+[Dotrix] ([Discord][lowenware-discord], [Twitter][@lowenware]) got an official
+[egui] support and a new example demonstrating various
+engine features and controls. The next big milestone for [Dotrix] developers is
+a terrain engine and editor, also made with [egui]. Some progress you can
+already find on [YouTube][lowenware-youtube].
+
+[Dotrix]: https://dotrix.rs
+[lowenware-discord]: https://discord.com/invite/DrzwBysNRd
+[lowenware-youtube]: https://youtube.com/channel/UCdriNXRizbBFQhqZefaw44A
+[@lowenware]: https://twitter.com/lowenware
 
 ## Popular Workgroup Issues in Github
 
