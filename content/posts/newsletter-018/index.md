@@ -30,6 +30,7 @@ Feel free to send PRs about your own projects!
 Table of contents:
 
 - [Rust GameDev Podcast](#rust-gamedev-podcast)
+- [Rust GameDev Meetup](#rust-gamedev-meetup)
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
@@ -140,6 +141,53 @@ This month the game got a public, multiplayer HTML5 build. [Play it online!][fis
 [nakama]: https://heroiclabs.com/
 [macroquad]: https://github.com/not-fl3/macroquad
 
+### [Station Iapetus]
+
+[![Station Iapetus Youtube](station-iapetus-youtube.jpg)][si-youtube]
+_Check [gameplay video][si-youtube] on YouTube_
+
+[Station Iapetus][Station Iapetus] by [@mrDIMAS]
+is a 3rd person shooter on the space prison Iapetus near the Saturn.
+
+The game based on [rg3d] game engine and is meant to be the proof that
+rg3d is ready for commercial production. The game is a commercial project
+which will be released in the Steam.
+
+[@mrDIMAS]: https://github.com/mrDIMAS
+[rg3d]: https://github.com/mrDIMAS/rg3d
+[Station Iapetus]: https://github.com/mrDIMAS/StationIapetus
+[si-youtube]: https://www.youtube.com/watch?v=JCH2U5JOMlU
+
+### [SeniorSKY]
+
+![SeniorSKY](3.png)
+_Over the mountains in Slovakia_
+
+[SeniorSKY]
+is a flight simulator which uses Vulkan API, developed by [@pmathia0].
+
+As an aerospace engineering student, Peter has always been interested how
+a flight simulator works under the hood.
+
+The development of SeniorSKY started as a hobby project during university
+studies.
+
+SeniorSKY uses real-world elevation data with 1 arc
+second precision and can render the whole globe in real dimensions.
+During the flight, the terrain tiles are loaded dynamically based
+on real GPS coordinates of airplane, with a decreasing level of detail
+further from the camera. This is achieved using a combination
+of a terrain-quad-tree and GPU tessellation.
+
+SeniorSKY also implements basic rendering of sky, atmosphere and fog.
+
+To be able to simulate a flight, the application temporarily integrates 3rd party
+flight dynamics engine called JSBSim. Meanwhile, development of own, custom
+flight dynamics is already in progress.
+
+[SeniorSKY]: https://youtube.com/playlist?list=PLMmaJuk-D7iaObZyhyvc83tNwpx3ghzkY
+[@pmathia0]: https://twitter.com/pmathia0
+
 ### [Oicana][oicana]
 
 ![oicana game play](oicana.png)
@@ -165,6 +213,41 @@ changed to use [Kira][kira-sound] via an
 [kira-plugin]: https://github.com/NiklasEi/bevy_kira_audio
 [rafael-itch]: https://itch.io/profile/m1nd0frafa3l
 [nikl-twitter]: https://twitter.com/nikl_me
+
+### [Bounty Bros.]
+
+[![Bounty Bros. Video](./bounty-bros.jpg)][bounty_bros_video]
+_First pass character controller video_
+
+[Bounty Bros.] is a prototype dungeon crawler game in the spirit of _Legend of
+Zelda: Link to the Past_. The game is being developed by [Katharos Technology]
+as a playground for a future commercial game, along with a custom 2D engine
+built on top of [Bevy].
+
+The engine, which is unnamed so far, will be Open Sourced soon and will be
+designed to make it very easy to make games with a similar gameplay and style,
+primarily by simply writing YAML configuration files and integrating with
+[LDtk].
+
+[katharos technology]: https://katharostech.com
+[bounty bros.]: https://katharostech.com/post/bounty-bros-prototype-game
+[bounty_bros_video]: https://katharostech.com/post/bounty-bros-prototype-game#video
+[bevy]: https://bevyengine.org
+[ldtk]: https://ldtk.io
+
+### Flesh
+
+![flesh preview](flesh.gif)
+_Inside flesh_
+
+Flesh by [@im_oab] is a 2d-horizontal shmup game with hand-drawn animation
+and implement using tetra. It still in the development stage but have
+a release date set in October 2021.
+
+This game takes place inside the flesh of mysterious organisms that players will
+fight through multiple levels to get out.
+
+[@im_oab]: https://twitter.com/im_oab
 
 ### [A/B Street]
 
@@ -230,67 +313,6 @@ bringing more interesting crafting scenarios into the game.
 [Antorum]: https://ratwizard.dev/dev-log/antorum
 [@dooskington]: https://twitter.com/dooskington
 
-### [SeniorSKY]
-
-![SeniorSKY](3.png)
-_Over the mountains in Slovakia_
-
-[SeniorSKY]
-is a flight simulator which uses Vulkan API, developed by [@pmathia0].
-
-As an aerospace engineering student, Peter has always been interested how
-a flight simulator works under the hood.
-
-The development of SeniorSKY started as a hobby project during university
-studies.
-
-SeniorSKY uses real-world elevation data with 1 arc
-second precision and can render the whole globe in real dimensions.
-During the flight, the terrain tiles are loaded dynamically based
-on real GPS coordinates of airplane, with a decreasing level of detail
-further from the camera. This is achieved using a combination
-of a terrain-quad-tree and GPU tessellation.
-
-SeniorSKY also implements basic rendering of sky, atmosphere and fog.
-
-To be able to simulate a flight, the application temporarily integrates 3rd party
-flight dynamics engine called JSBSim. Meanwhile, development of own, custom
-flight dynamics is already in progress.
-
-[SeniorSKY]: https://youtube.com/playlist?list=PLMmaJuk-D7iaObZyhyvc83tNwpx3ghzkY
-[@pmathia0]: https://twitter.com/pmathia0
-
-### Flesh
-
-![flesh preview](flesh.gif)
-_Inside flesh_
-
-Flesh by [@im_oab] is a 2d-horizontal shmup game with hand-drawn animation
-and implement using tetra. It still in the development stage but have
-a release date set in October 2021.
-
-This game takes place inside the flesh of mysterious organisms that players will
-fight through multiple levels to get out.
-
-[@im_oab]: https://twitter.com/im_oab
-
-### [Station Iapetus]
-
-[![Station Iapetus Youtube](station-iapetus-youtube.jpg)][si-youtube]
-_Check [gameplay video][si-youtube] on YouTube_
-
-[Station Iapetus][Station Iapetus] by [@mrDIMAS]
-is a 3rd person shooter on the space prison Iapetus near the Saturn.
-
-The game based on [rg3d] game engine and is meant to be the proof that
-rg3d is ready for commercial production. The game is a commercial project
-which will be released in the Steam.
-
-[@mrDIMAS]: https://github.com/mrDIMAS
-[rg3d]: https://github.com/mrDIMAS/rg3d
-[Station Iapetus]: https://github.com/mrDIMAS/StationIapetus
-[si-youtube]: https://www.youtube.com/watch?v=JCH2U5JOMlU
-
 ### Harvest Hero
 
 ![Harvest Hero Screenshot](harvest_hero.png)
@@ -355,27 +377,6 @@ Twitter if you have a flash of inspiration!
 [coffe-junk-studio]: https://twitter.com/CoffeJunkStudio
 [simjam-2020]: https://itch.io/jam/dogpit-sim-jam
 [stellary]: https://coffejunkstudio.itch.io/stellary
-
-### [Bounty Bros.]
-
-[![Bounty Bros. Video](./bounty-bros.jpg)][bounty_bros_video]
-_First pass character controller video_
-
-[Bounty Bros.] is a prototype dungeon crawler game in the spirit of _Legend of
-Zelda: Link to the Past_. The game is being developed by [Katharos Technology]
-as a playground for a future commercial game, along with a custom 2D engine
-built on top of [Bevy].
-
-The engine, which is unnamed so far, will be Open Sourced soon and will be
-designed to make it very easy to make games with a similar gameplay and style,
-primarily by simply writing YAML configuration files and integrating with
-[LDtk].
-
-[katharos technology]: https://katharostech.com
-[bounty bros.]: https://katharostech.com/post/bounty-bros-prototype-game
-[bounty_bros_video]: https://katharostech.com/post/bounty-bros-prototype-game#video
-[bevy]: https://bevyengine.org
-[ldtk]: https://ldtk.io
 
 ### [Theta Wave]
 
@@ -616,135 +617,20 @@ planned for some time in February!
 [tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
 [tetra-06-changelog]: https://github.com/17cupsofcoffee/tetra/blob/0.6/CHANGELOG.md
 
-## Library & Tooling Updates
+### [Dotrix]
 
-### [`LDtk-rs`]
+![Fox model and egui controls for camera, light, etc](dotrix-in-january.png)
 
-[`LDtk-rs`] is a Rust crate for reading the [LDtk] map file format. The bindings
-to the LDtk format are 100% automatically generated from the LDtk JSON Schema,
-with the option to download the latest JSON Schema at build time for automatic
-updates.
+[Dotrix] ([Discord][lowenware-discord], [Twitter][@lowenware]) got an official
+[egui] support and a new example demonstrating various
+engine features and controls. The next big milestone for [Dotrix] developers is
+a terrain engine and editor, also made with [egui]. Some progress you can
+already find on [YouTube][lowenware-youtube].
 
-[`LDtk-rs`]: https://github.com/katharostech/ldtk-rs
-[LDtk]: https://ldtk.io
-
-### [`bevy_ldtk`]
-
-![LDtk Map Running in Bevy](./bevy_ldtk.jpg)
-_( Tileset from ["Cavernas"] by Adam Saltsman )_
-
-[`bevy_ldtk`] is a Bevy plugin for loading [LDtk] tilemaps.
-
-It features:
-
-- An efficient renderer that only uses 4 vertices per map layer
-- Hot reloading through the Bevy asset server integration
-- Heavily commented code to help others who want to see how to make their own
-  tilemap renderers
-
-[`bevy_ldtk`]: https://github.com/katharostech/bevy_ldtk
-[ldtk]: https://ldtk.io
-["cavernas"]: https://adamatomic.itch.io/cavernas
-
-### [imgui-rs]
-
-![imgui drag drop example](imgui-rs.gif)
-_Drag and Drop and the new Drawing Api at Work in 0.7.0_
-
-[imgui-rs] is the Rust bindings for the ubiquitous immediate mode GUI library,
-Dear ImGui.
-Under new maintainence, [version 0.7] has been released, which features a new
-API for raw draw calls, support for ergonomic Drag and Drop, and tons of improvements.
-Notably, many functions were made `inline` and/or `const`, including the `im_str!`
-macro.
-
-[imgui-rs]: https://github.com/imgui-rs/imgui-rs
-[version 0.7]: https://github.com/imgui-rs/imgui-rs/releases/tag/v0.7.0
-
-### [egui]
-
-![egui widget gallery](egui_0.8.0.gif)
-_Some of the supported widgets in the new grid layout._
-
-[egui] is a simple, fast, and highly portable immediate mode GUI library.
-This month [version 0.8] of egui was released with a new grid layout,
-new look, and many smaller fixes and improvements.
-You can try out egui in the [online demo].
-
-[egui]: https://github.com/emilk/egui
-[online demo]: https://emilk.github.io/egui
-[version 0.8]: https://github.com/emilk/egui/blob/master/CHANGELOG.md#080---2021-01-17---grid-layout--new-visual-style
-
-### [`bevy_egui`]
-
-![bevy_egui screenshot](bevy_egui.png)
-
-[`bevy_egui`] provides a [Egui](https://github.com/emilk/egui) integration
-for the [Bevy](https://github.com/bevyengine/bevy) game engine.
-It supports [`bevy_webgl2`] and implements the full set of Egui features
-(such as clipboard and opening URLs).
-
-Try out the [online demo](https://mvlabat.github.io/bevy_egui_web_showcase/index.html).
-
-[`bevy_egui`]: https://github.com/mvlabat/bevy_egui
-[`bevy_webgl2`]: https://github.com/mrk-its/bevy_webgl2
-
-### [rkyv]
-
-[rkyv] is a zero-copy deserialization framework for Rust. It's similar to
-FlatBuffers and Cap'n Proto and can be used for data storage and messaging.
-
-Version 0.3 was released this month and brought some highly-requested features:
-
-- A new hashmap implementation using perfect hashing to decrease memory usage
-  and fix portability issues.
-- The `Unarchive` trait to enable more traditional data deserialization for
-  archived types.
-- Improved validation performance.
-- Better error messages and API ergonomics.
-- A [book][rkyv-book] with more narrative documentation on architecture and
-  internals.
-- More tests and realistic benchmarks against other popular serialization
-  frameworks.
-
-The next update will be [v0.4][rkyv-v0.4] and is on the way soon with a release
-date around mid-February.
-
-[rkyv]: https://github.com/djkoloski/rkyv
-[rkyv-book]: https://djkoloski.github.io/rkyv
-[rkyv-v0.4]: https://github.com/djkoloski/rkyv/milestone/5
-
-### [kira]
-
-[kira] by [@tesselode] is a game audio library tailored to composers and other
-people who need expressive audio.
-
-v0.4.0 was released with a new wasm32 support, a new handle-based API, improved
-error handling, and serde support for sequences, arrangements, and most config structs.
-
-_Discussions: [/r/rust](https://www.reddit.com/r/rust/comments/l3ma3d/kira_game_audio_library_v040_wasm_support_serde/),
-[Twitter](https://twitter.com/tesselode/status/1353111739433410560)_
-
-[Kira]: https://github.com/tesselode/kira
-[@tesselode]: https://twitter.com/tesselode
-
-### [gfx-rs] and [wgpu-rs]
-
-![Spaceship](wgpu-spaceship.jpg)
-
-The community managed to squeeze the v0.7 releases out
-at the end of the month. See the detailed notes on [gfx blog post].
-
-The highlight of the show is about shaders. Most of wgpu-rs shaders are
-now written in [WGSL],
-and gfx-rs community is inviting Rust game/graphics developers to evaluate if
-[naga] could fulfill their shader translation needs in the future.
-
-[gfx-rs]: https://github.com/gfx-rs/gfx
-[wgpu-rs]: https://github.com/gfx-rs/wgpu-rs
-[gfx blog post]: https://gfx-rs.github.io/2021/02/02/release-0.7.html
-[WGSL]: https://gpuweb.github.io/gpuweb/wgsl.html
-[naga]: https://github.com/gfx-rs/naga
+[Dotrix]: https://dotrix.rs
+[lowenware-discord]: https://discord.com/invite/DrzwBysNRd
+[lowenware-youtube]: https://youtube.com/channel/UCdriNXRizbBFQhqZefaw44A
+[@lowenware]: https://twitter.com/lowenware
 
 ### [rg3d]
 
@@ -778,6 +664,33 @@ or follow [Dmitry Stepanov on Twitter][rg3d_twitter].
 [rg3d_discord]: https://discord.gg/xENF5Uh
 [rg3d_twitter]: https://twitter.com/DmitryNStepanov
 [rusty_editor]: https://github.com/mrDIMAS/rusty-editor
+
+## Library & Tooling Updates
+
+### [rkyv]
+
+[rkyv] is a zero-copy deserialization framework for Rust. It's similar to
+FlatBuffers and Cap'n Proto and can be used for data storage and messaging.
+
+Version 0.3 was released this month and brought some highly-requested features:
+
+- A new hashmap implementation using perfect hashing to decrease memory usage
+  and fix portability issues.
+- The `Unarchive` trait to enable more traditional data deserialization for
+  archived types.
+- Improved validation performance.
+- Better error messages and API ergonomics.
+- A [book][rkyv-book] with more narrative documentation on architecture and
+  internals.
+- More tests and realistic benchmarks against other popular serialization
+  frameworks.
+
+The next update will be [v0.4][rkyv-v0.4] and is on the way soon with a release
+date around mid-February.
+
+[rkyv]: https://github.com/djkoloski/rkyv
+[rkyv-book]: https://djkoloski.github.io/rkyv
+[rkyv-v0.4]: https://github.com/djkoloski/rkyv/milestone/5
 
 ### [This Month in Mun][mun-january]
 
@@ -831,6 +744,124 @@ _Discussions:
 [gamelisp-changelog]: https://github.com/fleabitdev/glsp/blob/master/CHANGELOG.md
 [@fleabitdev]: https://twitter.com/fleabitdev
 [gamelisp-doc-bindings]: <https://gamelisp.rs/reference/rust-bindings.html>
+
+### [`LDtk-rs`]
+
+[`LDtk-rs`] is a Rust crate for reading the [LDtk] map file format. The bindings
+to the LDtk format are 100% automatically generated from the LDtk JSON Schema,
+with the option to download the latest JSON Schema at build time for automatic
+updates.
+
+[`LDtk-rs`]: https://github.com/katharostech/ldtk-rs
+[LDtk]: https://ldtk.io
+
+### [`bevy_ldtk`]
+
+![LDtk Map Running in Bevy](./bevy_ldtk.jpg)
+_( Tileset from ["Cavernas"] by Adam Saltsman )_
+
+[`bevy_ldtk`] is a Bevy plugin for loading [LDtk] tilemaps.
+
+It features:
+
+- An efficient renderer that only uses 4 vertices per map layer
+- Hot reloading through the Bevy asset server integration
+- Heavily commented code to help others who want to see how to make their own
+  tilemap renderers
+
+[`bevy_ldtk`]: https://github.com/katharostech/bevy_ldtk
+[ldtk]: https://ldtk.io
+["cavernas"]: https://adamatomic.itch.io/cavernas
+
+### [kira]
+
+[kira] by [@tesselode] is a game audio library tailored to composers and other
+people who need expressive audio.
+
+v0.4.0 was released with a new wasm32 support, a new handle-based API, improved
+error handling, and serde support for sequences, arrangements, and most config structs.
+
+_Discussions: [/r/rust](https://www.reddit.com/r/rust/comments/l3ma3d/kira_game_audio_library_v040_wasm_support_serde/),
+[Twitter](https://twitter.com/tesselode/status/1353111739433410560)_
+
+[Kira]: https://github.com/tesselode/kira
+[@tesselode]: https://twitter.com/tesselode
+
+### [Dimforge][dimforge]
+
+[![Dimforge](dimforge.png)][dimforge]
+
+[Dimforge][dimforge] creates open-source Rust crates for numerical simulation.
+In January, updates were made to Dimforge projects: Rapier, Salva, Parry,
+nalgebra, and Simba. Parry was announced, the successor of ncollide for 2D and
+3D collision-detection in Rust. The new version of Rapier brings many new
+features, including the ability to use custom shapes, as well as convex
+polygons/polyhedrons for 2D and 3D respectivly. You can read about all of the
+changes in the January edition of ["This Month In Dimforge"][dimforge-update].
+
+[dimforge]: https://www.dimforge.com/
+[dimforge-update]: https://www.dimforge.com/blog/2021/01/29/this-month-in-dimforge/
+
+### [gfx-rs] and [wgpu-rs]
+
+![Spaceship](wgpu-spaceship.jpg)
+
+The community managed to squeeze the v0.7 releases out
+at the end of the month. See the detailed notes on [gfx blog post].
+
+The highlight of the show is about shaders. Most of wgpu-rs shaders are
+now written in [WGSL],
+and gfx-rs community is inviting Rust game/graphics developers to evaluate if
+[naga] could fulfill their shader translation needs in the future.
+
+[gfx-rs]: https://github.com/gfx-rs/gfx
+[wgpu-rs]: https://github.com/gfx-rs/wgpu-rs
+[gfx blog post]: https://gfx-rs.github.io/2021/02/02/release-0.7.html
+[WGSL]: https://gpuweb.github.io/gpuweb/wgsl.html
+[naga]: https://github.com/gfx-rs/naga
+
+### [imgui-rs]
+
+![imgui drag drop example](imgui-rs.gif)
+_Drag and Drop and the new Drawing Api at Work in 0.7.0_
+
+[imgui-rs] is the Rust bindings for the ubiquitous immediate mode GUI library,
+Dear ImGui.
+Under new maintainence, [version 0.7] has been released, which features a new
+API for raw draw calls, support for ergonomic Drag and Drop, and tons of improvements.
+Notably, many functions were made `inline` and/or `const`, including the `im_str!`
+macro.
+
+[imgui-rs]: https://github.com/imgui-rs/imgui-rs
+[version 0.7]: https://github.com/imgui-rs/imgui-rs/releases/tag/v0.7.0
+
+### [egui]
+
+![egui widget gallery](egui_0.8.0.gif)
+_Some of the supported widgets in the new grid layout._
+
+[egui] is a simple, fast, and highly portable immediate mode GUI library.
+This month [version 0.8] of egui was released with a new grid layout,
+new look, and many smaller fixes and improvements.
+You can try out egui in the [online demo].
+
+[egui]: https://github.com/emilk/egui
+[online demo]: https://emilk.github.io/egui
+[version 0.8]: https://github.com/emilk/egui/blob/master/CHANGELOG.md#080---2021-01-17---grid-layout--new-visual-style
+
+### [`bevy_egui`]
+
+![bevy_egui screenshot](bevy_egui.png)
+
+[`bevy_egui`] provides a [Egui](https://github.com/emilk/egui) integration
+for the [Bevy](https://github.com/bevyengine/bevy) game engine.
+It supports [`bevy_webgl2`] and implements the full set of Egui features
+(such as clipboard and opening URLs).
+
+Try out the [online demo](https://mvlabat.github.io/bevy_egui_web_showcase/index.html).
+
+[`bevy_egui`]: https://github.com/mvlabat/bevy_egui
+[`bevy_webgl2`]: https://github.com/mrk-its/bevy_webgl2
 
 ### [chess-engine]
 
@@ -895,36 +926,6 @@ by [@tgjones] now allows you to try out writing shaders in Rust
 [shader-playground]: http://shader-playground.timjones.io
 [shader-playground-src]: https://github.com/tgjones/shader-playground
 [rust-gpu]: https://github.com/EmbarkStudios/rust-gpu
-
-### [Dimforge][dimforge]
-
-[![Dimforge](dimforge.png)][dimforge]
-
-[Dimforge][dimforge] creates open-source Rust crates for numerical simulation.
-In January, updates were made to Dimforge projects: Rapier, Salva, Parry,
-nalgebra, and Simba. Parry was announced, the successor of ncollide for 2D and
-3D collision-detection in Rust. The new version of Rapier brings many new
-features, including the ability to use custom shapes, as well as convex
-polygons/polyhedrons for 2D and 3D respectivly. You can read about all of the
-changes in the January edition of ["This Month In Dimforge"][dimforge-update].
-
-[dimforge]: https://www.dimforge.com/
-[dimforge-update]: https://www.dimforge.com/blog/2021/01/29/this-month-in-dimforge/
-
-### [Dotrix]
-
-![Fox model and egui controls for camera, light, etc](dotrix-in-january.png)
-
-[Dotrix] ([Discord][lowenware-discord], [Twitter][@lowenware]) got an official
-[egui] support and a new example demonstrating various
-engine features and controls. The next big milestone for [Dotrix] developers is
-a terrain engine and editor, also made with [egui]. Some progress you can
-already find on [YouTube][lowenware-youtube].
-
-[Dotrix]: https://dotrix.rs
-[lowenware-discord]: https://discord.com/invite/DrzwBysNRd
-[lowenware-youtube]: https://youtube.com/channel/UCdriNXRizbBFQhqZefaw44A
-[@lowenware]: https://twitter.com/lowenware
 
 ## Popular Workgroup Issues in Github
 
