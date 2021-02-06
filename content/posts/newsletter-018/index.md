@@ -1,8 +1,7 @@
 +++
 title = "This Month in Rust GameDev #18 - January 2021"
-date = 2021-02-08
+date = 2021-02-06
 transparent = true
-draft = true
 +++
 
 Welcome to the 18th issue of the Rust GameDev Workgroup's
@@ -29,7 +28,7 @@ Feel free to send PRs about your own projects!
 
 Table of contents:
 
-- [Rust GameDev Podcast](#rust-gamedev-podcast)
+- [Rust GameDev Podcast](#rust-gamedev-podcast-5)
 - [Rust GameDev Meetup](#rust-gamedev-meetup)
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
@@ -60,7 +59,7 @@ _Discussions:
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
-## [Rust GameDev Podcast][podcast-5]
+## [Rust GameDev Podcast \#5][podcast-5]
 
 ![text logo](podcast.jpeg)
 
@@ -68,10 +67,10 @@ If needed, a section can be split into subsections with a "------" delimiter.
 [Alex Ene][@_AlexEne_] creator of an upcoming dwarven simulation
 game, [Dwarf World][dwarf-world].
 
-> In this weeks episode, Richard and Forest chat to Alex Ene,
+> In this week's episode, Richard and Forest chat to Alex Ene,
 > creator of the dwarven simulation game, Dwarf World.
 > We cover writing custom engines, unit testing, build
-> systems and picking the right frameworks for your game.
+> systems, and picking the right frameworks for your game.
 
 Listen and subscribe from the following platforms:
 [Rust GameDev Podcast (simplecast)](https://rustgamedev.com/),
@@ -92,7 +91,9 @@ The first iteration of the Rust Gamedev Meetup happened in January. It was an
 opportunity for developers to show of what Rust projects they've been working on
 in the game ecosystem. Developers showed off physics engines, custom build
 tools, renderers, and more. You can watch the recording of the meetup [here on
-Youtube][gamedev-meetup-video]. The next meetup will take place 13th of February
+Youtube][gamedev-meetup-video].
+
+The next meetup will take place 13th of February
 at 16:00 GMT on the [Rust Gamedev Discord server][rust-gamedev-discord], and can
 also be [streamed on Twitch][rust-gamedev-twitch].
 
@@ -143,15 +144,15 @@ This month the game got a public, multiplayer HTML5 build. [Play it online!][fis
 
 ### [Station Iapetus]
 
-[![Station Iapetus Youtube](station-iapetus-youtube.jpg)][si-youtube]
+[![Station Iapetus Youtube](station-iapetus-youtube.JPG)][si-youtube]
 _Check [gameplay video][si-youtube] on YouTube_
 
 [Station Iapetus][Station Iapetus] by [@mrDIMAS]
 is a 3rd person shooter on the space prison Iapetus near the Saturn.
 
-The game based on [rg3d] game engine and is meant to be the proof that
+The game is based on the [rg3d] game engine and is meant to be the proof that
 rg3d is ready for commercial production. The game is a commercial project
-which will be released in the Steam.
+which will be released in Steam.
 
 [@mrDIMAS]: https://github.com/mrDIMAS
 [rg3d]: https://github.com/mrDIMAS/rg3d
@@ -165,10 +166,8 @@ _Over the mountains in Slovakia_
 
 [SeniorSKY]
 is a flight simulator which uses Vulkan API, developed by [@pmathia0].
-
 As an aerospace engineering student, Peter has always been interested how
 a flight simulator works under the hood.
-
 The development of SeniorSKY started as a hobby project during university
 studies.
 
@@ -214,14 +213,15 @@ changed to use [Kira][kira-sound] via an
 [rafael-itch]: https://itch.io/profile/m1nd0frafa3l
 [nikl-twitter]: https://twitter.com/nikl_me
 
-### [Bounty Bros.]
+### [Bounty Bros.][bounty-bros]
 
-[![Bounty Bros. Video](./bounty-bros.jpg)][bounty_bros_video]
+[![Bounty Bros. Video](bounty-bros.jpg)][bounty_bros_video]
 _First pass character controller video_
 
-[Bounty Bros.] is a prototype dungeon crawler game in the spirit of _Legend of
-Zelda: Link to the Past_. The game is being developed by [Katharos Technology]
-as a playground for a future commercial game, along with a custom 2D engine
+[Bounty Bros.][bounty-bros] is a prototype dungeon crawler game
+in the spirit of "Legend of Zelda: Link to the Past".
+The game is being developed by [Katharos Technology] as a playground
+for a future commercial game, along with a custom 2D engine
 built on top of [Bevy].
 
 The engine, which is unnamed so far, will be Open Sourced soon and will be
@@ -230,17 +230,17 @@ primarily by simply writing YAML configuration files and integrating with
 [LDtk].
 
 [katharos technology]: https://katharostech.com
-[bounty bros.]: https://katharostech.com/post/bounty-bros-prototype-game
+[bounty-bros]: https://katharostech.com/post/bounty-bros-prototype-game
 [bounty_bros_video]: https://katharostech.com/post/bounty-bros-prototype-game#video
-[bevy]: https://bevyengine.org
-[ldtk]: https://ldtk.io
+[Bevy]: https://bevyengine.org
+[LDtk]: https://ldtk.io
 
 ### Flesh
 
 ![flesh preview](flesh.gif)
 _Inside flesh_
 
-Flesh by [@im_oab] is a 2d-horizontal shmup game with hand-drawn animation
+Flesh by [@im_oab] is a 2D-horizontal shmup game with hand-drawn animation
 and implement using tetra. It still in the development stage but have
 a release date set in October 2021.
 
@@ -335,8 +335,8 @@ This month's updates include:
 
 ![Dwarf World](dwarfworld_lights.gif)
 
-[Dwarf World][dwarf-world] by [Alex Ene][@_AlexEne_] has added a couple
-of updates and improvements:
+[Dwarf World][dwarf-world] ([Discord][dwarf-world-discord])
+by [Alex Ene][@_AlexEne_] has added a couple of updates and improvements:
 
 - Dynamic lights and light propagation so deeper caves are darker.
 - An in-game feedback button that people can use to report bugs or
@@ -401,16 +401,16 @@ _Homing missiles pursue the closest player entity_
 
 Way of Rhea is a picturesque puzzle game that lets you correct your mistakes.
 Change your color, teleport past the colored gates, master the color powered
-circuits, and befriend the color changing crabs—but don't let them out!
+circuits, and befriend the color changing crabs-but don't let them out!
 
 This month's major updates include:
 
-- Autosave support
-- Steam cloud support
-- A free demo was released as part of Boston FIG (no longer available)
-- In game audio options
-- A new level featuring a new puzzle mechanic
-- An [updated trailer][wor-trailer]
+- Autosave support.
+- Steam cloud support.
+- A free demo was released as part of Boston FIG (no longer available).
+- In game audio options.
+- A new level featuring a new puzzle mechanic.
+- An [updated trailer][wor-trailer].
 
 [wor-site]: https://www.anthropicstudios.com/way-of-rhea
 [wor-trailer]: https://www.youtube.com/watch?v=PRifdHcaswc
@@ -486,7 +486,7 @@ _Click to [watch a footage with sound][zemeroth-audio] 🔊_
 Some of the recent updates:
 
 - The game [was migrated from good-web-game to macroquad][zemeroth-macroquad]
-  and converted to explicit async aseets loading.
+  and converted to explicit async assets loading.
 - Proper [sound effects & music were added][zemeroth-audio]
   using the [quad-snd] library ([more details][zemeroth-audio-details]).
 
@@ -573,27 +573,22 @@ You can also play [tic-tac-tide] online.
 
 ## Engine Updates
 
-### [`ggez`](ggez)
+### [ggez]
 
 ![ggez logo](../newsletter-005/ggez-logo-maroon-full.svg)
 
-`ggez` is a lightweight cross-platform game framework for making 2D
+[ggez] is a lightweight cross-platform game framework for making 2D
 games with minimum friction.
 
 The zero'th release candidate for version 0.6.0 has been released and
 there has been no particularly horrific outcry of people's games
-exploding.  A first release candidate with a pile of medium-sized bug
+exploding. A first release candidate with a pile of medium-sized bug
 fixes should be coming in early February, hopefully soon followed by a
-full release.  Special thanks to the contributors who helped hunt bugs
+full release. [Feedback is welcome][ggez-github]!
+
+Special thanks to the contributors who helped hunt bugs
 and organize PR's to get this version out the door:
-
-- PSteinhaus
-- Manghi
-- AaronM04
-- Systemcluster
-- Andy-Python-Programmer
-
-_Discussions: [Issue tracker](ggez-github)_
+@PSteinhaus, @Manghi, @AaronM04, @Systemcluster, and @Andy-Python-Programmer!
 
 [ggez]: https://crates.io/crates/ggez
 [ggez-github]: https://github.com/ggez/ggez/milestone/6
@@ -638,27 +633,24 @@ already find on [YouTube][lowenware-youtube].
 _A level made in [rusty-editor][rusty_editor] which is a native scene editor
 for the rg3d game engine._
 
-[rg3d] is a game engine that aims to be easy to use and provide large set
+[rg3d] ([Discord][rg3d_discord], [Twitter][rg3d_twitter])
+is a game engine that aims to be easy to use and provide large set
 of out-of-box features. Some of the recent updates:
 
-- Improved animation blending state machines.
-- Added ability to copy nodes in-place.
-- Fixed clipping issues in the UI.
-- Reduced number of draw calls for UI by 70%.
-- Fixed text measurement in the UI.
-- Added opacity for UI widgets.
-- Fixed layout of Scroll- and Wrap- panels.
-- Fixed light scatter issues for spot lights.
-- Added support for transparent meshes.
-- Migrated to rapier 0.5.
-- Fixed animation signal handling when animation playing in reverse.
+- Animation blending state machines were improved.
+- It's now possible to copy nodes in-place.
+- The number of draw calls for UI was reduced by 70%.
+- Fixed clipping issues and text measurement in the UI.
+- Opacity for UI widgets was added.
+- Layout of Scroll- and Wrap- panels was fixed.
+- Light scatter issues for spot lights were fixed.
+- Support for transparent meshes.
+- Migration to rapier 0.5.
+- Animation signal handling is fixed when animation playing in reverse.
 - Animation tracks now are able to filter position/scale/rotation.
-- Fixed sprite rendering.
+- Sprite rendering fixes.
 - Improved copy/paste in rusty-editor.
 - Lots of other small fixes and improvements.
-
-Join the [rg3d's Discord channel][rg3d_discord]
-or follow [Dmitry Stepanov on Twitter][rg3d_twitter].
 
 [rg3d]: https://github.com/mrDIMAS/rg3d
 [rg3d_discord]: https://discord.gg/xENF5Uh
@@ -745,31 +737,31 @@ _Discussions:
 [@fleabitdev]: https://twitter.com/fleabitdev
 [gamelisp-doc-bindings]: <https://gamelisp.rs/reference/rust-bindings.html>
 
-### [`LDtk-rs`]
+### [LDtk-rs]
 
-[`LDtk-rs`] is a Rust crate for reading the [LDtk] map file format. The bindings
+[LDtk-rs] is a Rust crate for reading the [LDtk] map file format. The bindings
 to the LDtk format are 100% automatically generated from the LDtk JSON Schema,
 with the option to download the latest JSON Schema at build time for automatic
 updates.
 
-[`LDtk-rs`]: https://github.com/katharostech/ldtk-rs
+[LDtk-rs]: https://github.com/katharostech/ldtk-rs
 [LDtk]: https://ldtk.io
 
-### [`bevy_ldtk`]
+### [bevy_ldtk]
 
 ![LDtk Map Running in Bevy](./bevy_ldtk.jpg)
-_( Tileset from ["Cavernas"] by Adam Saltsman )_
+_Tileset from ["Cavernas"] by Adam Saltsman_
 
-[`bevy_ldtk`] is a Bevy plugin for loading [LDtk] tilemaps.
+[bevy_ldtk] is a Bevy plugin for loading [LDtk] tilemaps.
 
 It features:
 
-- An efficient renderer that only uses 4 vertices per map layer
-- Hot reloading through the Bevy asset server integration
+- An efficient renderer that only uses 4 vertices per map layer.
+- Hot reloading through the Bevy asset server integration.
 - Heavily commented code to help others who want to see how to make their own
-  tilemap renderers
+  tilemap renderers.
 
-[`bevy_ldtk`]: https://github.com/katharostech/bevy_ldtk
+[bevy_ldtk]: https://github.com/katharostech/bevy_ldtk
 [ldtk]: https://ldtk.io
 ["cavernas"]: https://adamatomic.itch.io/cavernas
 
@@ -792,15 +784,21 @@ _Discussions: [/r/rust](https://www.reddit.com/r/rust/comments/l3ma3d/kira_game_
 [![Dimforge](dimforge.png)][dimforge]
 
 [Dimforge][dimforge] creates open-source Rust crates for numerical simulation.
-In January, updates were made to Dimforge projects: Rapier, Salva, Parry,
-nalgebra, and Simba. Parry was announced, the successor of ncollide for 2D and
-3D collision-detection in Rust. The new version of Rapier brings many new
-features, including the ability to use custom shapes, as well as convex
-polygons/polyhedrons for 2D and 3D respectivly. You can read about all of the
-changes in the January edition of ["This Month In Dimforge"][dimforge-update].
+Some of the January updates:
 
-[dimforge]: https://www.dimforge.com/
-[dimforge-update]: https://www.dimforge.com/blog/2021/01/29/this-month-in-dimforge/
+- [Parry] was announced, the successor of ncollide for 2D and
+  3D collision-detection in Rust.
+- The new version of [Rapier] brings many new features,
+  including the ability to use custom shapes,
+  as well as convex polygons/polyhedrons for 2D and 3D respectively.
+
+You can read about all of the changes in the January edition of
+["This Month In Dimforge"][dimforge-update].
+
+[dimforge]: https://dimforge.com/
+[dimforge-update]: https://dimforge.com/blog/2021/01/29/this-month-in-dimforge
+[Parry]: https://parry.rs
+[Rapier]: https://rapier.rs
 
 ### [gfx-rs] and [wgpu-rs]
 
@@ -827,7 +825,7 @@ _Drag and Drop and the new Drawing Api at Work in 0.7.0_
 
 [imgui-rs] is the Rust bindings for the ubiquitous immediate mode GUI library,
 Dear ImGui.
-Under new maintainence, [version 0.7] has been released, which features a new
+Under new maintenance, [version 0.7] has been released, which features a new
 API for raw draw calls, support for ergonomic Drag and Drop, and tons of improvements.
 Notably, many functions were made `inline` and/or `const`, including the `im_str!`
 macro.
@@ -841,6 +839,7 @@ macro.
 _Some of the supported widgets in the new grid layout._
 
 [egui] is a simple, fast, and highly portable immediate mode GUI library.
+
 This month [version 0.8] of egui was released with a new grid layout,
 new look, and many smaller fixes and improvements.
 You can try out egui in the [online demo].
@@ -849,19 +848,19 @@ You can try out egui in the [online demo].
 [online demo]: https://emilk.github.io/egui
 [version 0.8]: https://github.com/emilk/egui/blob/master/CHANGELOG.md#080---2021-01-17---grid-layout--new-visual-style
 
-### [`bevy_egui`]
+### [bevy_egui]
 
 ![bevy_egui screenshot](bevy_egui.png)
 
-[`bevy_egui`] provides a [Egui](https://github.com/emilk/egui) integration
+[bevy_egui] provides a [Egui](https://github.com/emilk/egui) integration
 for the [Bevy](https://github.com/bevyengine/bevy) game engine.
-It supports [`bevy_webgl2`] and implements the full set of Egui features
+It supports [bevy_webgl2] and implements the full set of Egui features
 (such as clipboard and opening URLs).
 
 Try out the [online demo](https://mvlabat.github.io/bevy_egui_web_showcase/index.html).
 
-[`bevy_egui`]: https://github.com/mvlabat/bevy_egui
-[`bevy_webgl2`]: https://github.com/mrk-its/bevy_webgl2
+[bevy_egui]: https://github.com/mvlabat/bevy_egui
+[bevy_webgl2]: https://github.com/mrk-its/bevy_webgl2
 
 ### [chess-engine]
 
@@ -930,6 +929,14 @@ by [@tgjones] now allows you to try out writing shaders in Rust
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
+
+- [rust-gamedev/rust-gamedev.github.io](https://github.com/rust-gamedev/rust-gamedev.github.io):
+  - [#406 "Separate category for engines vs libraries/tools"](https://github.com/rust-gamedev/rust-gamedev.github.io/issues/406);
+  - [#454 "Newsletter: new format and more delegation"](https://github.com/rust-gamedev/rust-gamedev.github.io/issues/454);
+- [rust-gamedev/wg](https://github.com/rust-gamedev/wg):
+  - [#98 "Monthly Rust Gamedev Meetup"](https://github.com/rust-gamedev/wg/issues/98);
+  - [#100 "Physiology simulation"](https://github.com/rust-gamedev/wg/issues/100);
+  - [#101 "[Proposal] Abstract plane geometry library for GUI projects"](https://github.com/rust-gamedev/wg/issues/101);
 
 ## Requests for Contribution
 
