@@ -80,7 +80,7 @@ Listen and subscribe from the following platforms:
 [Google Podcasts](https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zaW1wbGVjYXN0LmNvbS9DNk5RZ2xuTA).
 
 [podcast-5]: https://rustgamedev.com/episodes/interview-with-alex-ene
-[@_AlexEne_]: https://twitter.com/_Alex_Ene_
+[@_AlexEne_]: https://twitter.com/_AlexEne_
 [dwarf-world]: https://dwarf.world
 
 ## Rust GameDev Meetup
