@@ -398,6 +398,32 @@ This month's major updates include:
 [wor-site]: https://www.anthropicstudios.com/way-of-rhea
 [wor-trailer]: https://www.youtube.com/watch?v=PRifdHcaswc
 
+### [Veloren][veloren]
+
+![Veloren Snow](veloren-snow.gif)
+_Let it snow!_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In January, lots of work was done on new models that make the world feel more
+alive. Work was done on economic simulation, and many of the blog posts
+highlight this progress. This includes trading between sites, and professions.
+Skill trees were completed, and are now in the game.
+
+Large changes are being implemented to the CI system to reduce build times. Work
+has been ongoing on improving the Veloren wiki, with many contributors adding to
+it. In February, a meeting will be held to discuss the 0.9 release, with does
+not yet have a release date.
+
+January's full weekly devlogs: "This Week In Veloren...":
+[#101](https://veloren.net/devblog-101),
+[#102](https://veloren.net/devblog-102),
+[#103](https://veloren.net/devblog-103),
+[#104](https://veloren.net/devblog-104).
+
+[veloren]: https://veloren.net
+
 ### [Shotcaller]
 
 ![Custom art assets for Shotcaller](shotcaller-full.png)
