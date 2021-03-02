@@ -66,9 +66,9 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
-### [wgpu-rs], [gfx-rs], and [naga]
+### [wgpu-rs]
 
-wgpu-rs (WebGPU implementation and API in Rust):
+wgpu-rs is a WebGPU implementation and API in Rust.
 
 - "wgpu-core"-0.7.1 was published with fixes
 - API updated for blending states, cull faces, vertex formats.
@@ -80,7 +80,11 @@ wgpu-rs (WebGPU implementation and API in Rust):
 - SPIRV-Cross was made optional, which was useful for Deno in order to
   work around the linking conflict with "rusty_v8".
 
-gfx-rs (portable low-level graphics abstraction layer):
+[wgpu-rs]: https://github.com/gfx-rs/wgpu-rs
+
+### [gfx-rs]
+
+gfx-rs is a portable low-level graphics abstraction layer.
 
 - API got `PhysicalDeviceProperties` containing limits and properties of
   physical devices that are not opt-in.
@@ -89,7 +93,11 @@ gfx-rs (portable low-level graphics abstraction layer):
 - DX12 understood more limits.
 - GL backend fixed WebGL initialization and EGL library discovery.
 
-naga (shader translation infrastructure):
+[gfx-rs]: https://github.com/gfx-rs/gfx
+
+### [naga]
+
+naga is the shader translation library/tool.
 
 - versions 0.3.1 and 0.3.2 were published with fixes
 - API additions:
@@ -106,8 +114,6 @@ naga (shader translation infrastructure):
   - `convert` example was removed in favor of the default binary target
   - produced native shaders are now validated on CI using platform tools
 
-[gfx-rs]: https://github.com/gfx-rs/gfx
-[wgpu-rs]: https://github.com/gfx-rs/wgpu-rs
 [naga]: https://github.com/gfx-rs/naga
 
 ## Popular Workgroup Issues in Github
