@@ -66,6 +66,47 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library & Tooling Updates
 
+### [wgpu-rs], [gfx-rs], and [naga]
+
+wgpu-rs (WebGPU implementation and API in Rust):
+  - "wgpu-core"-0.7.1 was published with fixes
+  - API updated for blending states, cull faces, vertex formats.
+  - zero-initialization of buffers upon use.
+  - validation of texture bindings, index formats for strip topologies.
+  - binding tracker was rewritten with test-ability in mind, bugs fixed.
+  - the player learned to resize the window properly. API traces can now
+    be replayed on Linux even when swapchain recreation events are present.
+  - SPIRV-Cross was made optional, which was useful for Deno in order to
+    work around the linking conflict with "rusty_v8".
+
+gfx-rs (portable low-level graphics abstraction layer):
+  - API got `PhysicalDeviceProperties` containing limits and properties of
+    physical devices that are not opt-in.
+  - SPIRV-Cross dependency was made optional, while Naga is required.
+  - Vulkan backend learned to target Vulkan 1.1 and 1.2 internally.
+  - DX12 understood more limits.
+  - GL backend fixed WebGL initialization and EGL library discovery.
+
+naga (shader translation infrastructure):
+  - versions 0.3.1 and 0.3.2 were published with fixes
+  - API additions:
+    - function calls turned into statements
+    - image queries
+    - image stores
+    - rudimentary push constants support
+  - validation:
+    - control flow uniformity requirements
+    - type validation was rewritten and improved
+    - gathering of the image-sampler pairs
+  - backends: lots of fixes and filling of the gaps
+  - infrastructure:
+    - `convert` example was removed in favor of the default binary target
+    - produced native shaders are now validated on CI using platform tools
+
+[gfx-rs]: https://github.com/gfx-rs/gfx
+[wgpu-rs]: https://github.com/gfx-rs/wgpu-rs
+[naga]: https://github.com/gfx-rs/naga
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
