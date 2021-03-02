@@ -108,6 +108,31 @@ For more details, see the [changelog][tetra-changelog], or
 
 ## Library & Tooling Updates
 
+### [rkyv]
+
+[rkyv] is a zero-copy deserialization framework for Rust. It's similar to
+FlatBuffers and Cap'n Proto and can be used for data storage and messaging.
+
+[Version 0.4][rkyv-v0.4] was released this month and brought some big changes
+and improvements:
+
+- Major traits have been refactored and renamed to clarify their roles
+- Shared pointers (`Rc`, `Arc`, `Weak`) can now be serialized, deserialized,
+  and validated with correct ownership semantics
+- Serialization, deserialization, and validation all now support custom contexts
+- Greatly improved support for 32- and 64-bit archives by implementing Archive
+  for `usize` and `isize`
+- More comprehensive documentation in the [book][rkyv-book]
+
+This release completes the project's initial feature set, and a
+[request for feedback][rkyv-request-for-feedback] has been opened to help with
+future project planning.
+
+[rkyv]: https://github.com/djkoloski/rkyv
+[rkyv-v0.4]: https://github.com/djkoloski/rkyv/releases/tag/v0.4.0
+[rkyv-book]: https://djkoloski.github.io/rkyv
+[rkyv-request-for-feedback]: https://github.com/djkoloski/rkyv/issues/67
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
