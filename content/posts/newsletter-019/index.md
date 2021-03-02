@@ -69,6 +69,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ### [wgpu-rs], [gfx-rs], and [naga]
 
 wgpu-rs (WebGPU implementation and API in Rust):
+
   - "wgpu-core"-0.7.1 was published with fixes
   - API updated for blending states, cull faces, vertex formats.
   - zero-initialization of buffers upon use.
@@ -80,6 +81,7 @@ wgpu-rs (WebGPU implementation and API in Rust):
     work around the linking conflict with "rusty_v8".
 
 gfx-rs (portable low-level graphics abstraction layer):
+
   - API got `PhysicalDeviceProperties` containing limits and properties of
     physical devices that are not opt-in.
   - SPIRV-Cross dependency was made optional, while Naga is required.
@@ -88,6 +90,7 @@ gfx-rs (portable low-level graphics abstraction layer):
   - GL backend fixed WebGL initialization and EGL library discovery.
 
 naga (shader translation infrastructure):
+
   - versions 0.3.1 and 0.3.2 were published with fixes
   - API additions:
     - function calls turned into statements
