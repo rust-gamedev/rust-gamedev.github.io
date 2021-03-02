@@ -60,6 +60,30 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Teki (敵)][teki]
+
+![teki preview](teki.gif)
+
+[Teki][teki] is a free and open-source fangame of the [Tōhō] series
+using [SDL2] and [Legion] for ECS. It is aimed to be a shoot ’em up game with
+ "lots of bullets" a.k.a danmaku 弾幕 - literally "barrage" or "bullet curtain" in
+  Japanese.
+
+The project is still at a “very” early stage of development (Dec. 2020).
+
+This month's updates include:
+
+- New enemy type: BigFairy
+- New Special Card: Stellar Vortex
+- Add Yin Yang orbs
+
+[teki]: https://github.com/o2sh/teki
+[teki-online]: https://o2sh.github.io/teki
+[Tōhō]: https://en.wikipedia.org/wiki/Touhou_Project
+[SDL2]: https://github.com/Rust-SDL2/rust-sdl2
+[Legion]: https://crates.io/crates/legion
+[wasm-pack]: https://rustwasm.github.io/wasm-pack
+
 ## Learning Material Updates
 
 ## Engine Updates
