@@ -64,6 +64,26 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Engine Updates
 
+### [Tetra]
+
+![Tetra's demo game](./tetra.png)
+_Tetra's demo game_
+
+[Tetra] is a simple 2D game framework, inspired by XNA, Love2D and Raylib.
+This month, version 0.6 was released, with some big changes and features:
+
+- A simpler drawing API
+- Less global state for mesh drawing
+- Multisampled canvases
+- Better font rendering
+
+For more details, see the [changelog][tetra-changelog], or
+[17cupsofcoffee's twitter thread][tetra-twitter] about the release.
+
+[tetra]: https://github.com/17cupsofcoffee/tetra
+[tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
+[tetra-twitter]: https://twitter.com/17cupsofcoffee/status/1357750836370284544
+
 ## Library & Tooling Updates
 
 ## Popular Workgroup Issues in Github
