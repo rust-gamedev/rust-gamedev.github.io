@@ -66,8 +66,8 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 [Teki][teki] is a free and open-source fangame of the [Tōhō] series
 using [SDL2] and [Legion] for ECS. It is aimed to be a shoot ’em up game with
- "lots of bullets" a.k.a danmaku 弾幕 - literally "barrage" or "bullet curtain" in
-  Japanese.
+"lots of bullets" a.k.a danmaku 弾幕 - literally "barrage" or "bullet curtain" in
+Japanese.
 
 The project is still at a “very” early stage of development (Dec. 2020).
 
