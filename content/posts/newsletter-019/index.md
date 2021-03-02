@@ -82,6 +82,26 @@ This month's updates include:
 [SDL2]: https://github.com/Rust-SDL2/rust-sdl2
 [Legion]: https://crates.io/crates/legion
 
+### [Theta Wave]
+
+[![Homing Missiles](theta_wave.gif)][Theta Wave]
+_Homing missiles periodically spawn from missile launcher enemies_
+
+[Theta Wave] is a space shooter game by developers [@micah_tigley] and
+[@carlosupina]. It is one of the showcase games for the [Amethyst Engine].
+In the past month, they have been focusing on refactoring the motion system
+to make the code more approachable to other contributors.
+
+Notable changes:
+
+- Missiles now spawn from missile launcher enemies
+- Cursed background slowly fades in over the course of the level
+
+[Theta Wave]: https://github.com/amethyst/theta-wave
+[@micah_tigley]: https://twitter.com/micah_tigley
+[@carlosupina]: https://twitter.com/carlosupina
+[Amethyst Engine]: https://amethyst.rs/
+
 ## Learning Material Updates
 
 ## Engine Updates
