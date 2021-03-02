@@ -78,11 +78,9 @@ This month's updates include:
 - Add Yin Yang orbs
 
 [teki]: https://github.com/o2sh/teki
-[teki-online]: https://o2sh.github.io/teki
 [Tōhō]: https://en.wikipedia.org/wiki/Touhou_Project
 [SDL2]: https://github.com/Rust-SDL2/rust-sdl2
 [Legion]: https://crates.io/crates/legion
-[wasm-pack]: https://rustwasm.github.io/wasm-pack
 
 ## Learning Material Updates
 
