@@ -73,9 +73,9 @@ The project is still at a “very” early stage of development (Dec. 2020).
 
 This month's updates include:
 
-- New enemy type: BigFairy
-- New Special Card: Stellar Vortex
-- Add Yin Yang orbs
+- New enemy type: big fairy
+- New special card: Stellar Vortex
+- Add yin yang orbs
 
 [teki]: https://github.com/o2sh/teki
 [Tōhō]: https://en.wikipedia.org/wiki/Touhou_Project
