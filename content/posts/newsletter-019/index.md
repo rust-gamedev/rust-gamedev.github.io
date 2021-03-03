@@ -66,7 +66,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 _Title screen + gameplay_
 
 Flesh by [@im_oab] is a 2D-horizontal shmup game with hand-drawn animation and
-organic/fleshy theme. It implement using [tetra]. This month update include:
+organic/fleshy theme. It is implemented using [tetra]. This month update include:
 
 - Add title screen.
 - Support gamepad.
