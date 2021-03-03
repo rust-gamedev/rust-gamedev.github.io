@@ -74,9 +74,52 @@ organic/fleshy theme. This month update include:
 
 [@im_oab]: https://twitter.com/im_oab
 
+### [Teki (敵)][teki]
+
+![teki preview](teki.gif)
+
+[Teki][teki] is a free and open-source fangame of the [Tōhō] series
+using [SDL2] and [Legion] for ECS. It is aimed to be a shoot ’em up game with
+"lots of bullets" a.k.a danmaku 弾幕 - literally "barrage" or "bullet curtain" in
+Japanese.
+
+The project is still at a “very” early stage of development (Dec. 2020).
+
+This month's updates include:
+
+- New enemy type: big fairy
+- New special card: Stellar Vortex
+- Add yin yang orbs
+
+[teki]: https://github.com/o2sh/teki
+[Tōhō]: https://en.wikipedia.org/wiki/Touhou_Project
+[SDL2]: https://github.com/Rust-SDL2/rust-sdl2
+[Legion]: https://crates.io/crates/legion
+
+
 ## Learning Material Updates
 
 ## Engine Updates
+
+### [Tetra]
+
+![Tetra's demo game](./tetra.png)
+_Tetra's demo game_
+
+[Tetra] is a simple 2D game framework, inspired by XNA, Love2D and Raylib.
+This month, version 0.6 was released, with some big changes and features:
+
+- A simpler drawing API
+- Less global state for mesh drawing
+- Multisampled canvases
+- Better font rendering
+
+For more details, see the [changelog][tetra-changelog], or
+[17cupsofcoffee's twitter thread][tetra-twitter] about the release.
+
+[tetra]: https://github.com/17cupsofcoffee/tetra
+[tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
+[tetra-twitter]: https://twitter.com/17cupsofcoffee/status/1357750836370284544
 
 ## Library & Tooling Updates
 
