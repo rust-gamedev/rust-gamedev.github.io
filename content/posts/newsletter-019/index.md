@@ -60,6 +60,20 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### Flesh
+
+![flesh preview](flesh.gif)
+_Title screen + gameplay_
+
+Flesh by [@im_oab] is a 2D-horizontal shmup game with hand-drawn animation and
+organic/fleshy theme. This month update include:
+
+- Add title screen.
+- Support gamepad.
+- Add new enemy types for first level include mid-boss.
+
+[@im_oab]: https://twitter.com/im_oab
+
 ## Learning Material Updates
 
 ## Engine Updates
