@@ -113,7 +113,7 @@ For more details, see the [changelog][tetra-changelog], or
 ![Screenshot from Rafx Rendering Framework](rafx-screenshot.png)
 
 Rafx is a multi-backend renderer that prioritizes performance, flexibility,
-and productivity. It optionally integrates with the [distill][rafx-distill] 
+and productivity. It optionally integrates with the [distill][rafx-distill]
 asset pipeline to provide workflows and tools suitable for real-world projects
 with multidisciplinary teams. Rafx is divided into three tiers of
 functionality:
