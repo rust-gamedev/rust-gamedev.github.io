@@ -97,6 +97,28 @@ This month's updates include:
 [SDL2]: https://github.com/Rust-SDL2/rust-sdl2
 [Legion]: https://crates.io/crates/legion
 
+### [Paddlers]
+
+![A brightly colored scene with a grass field, a river, and some happy ducks.](paddlers_0.2.1.jpg)
+
+[Paddlers] ([GitHub][paddlers-gh], [Online Demo][paddlers-demo]) by [@jakmeier]
+is an experimental MMORTS with the backend and the web client all written in
+Rust.
+
+February gave birth to Paddlers release 0.2.1 and a ton of new game mechanics.
+It features a skill map, quests, and a refreshed take on the tower defense
+aspect of the game. On top of that, the rendering engine (part of the
+[Paddle][paddle] framework) has been reworked and now allows for custom
+shaders. Read all about this month's changes in this
+[article][paddlers-article] released on the developer's private website.
+
+[Paddlers]: https://paddlers.ch
+[paddlers-gh]: https://github.com/jakmeier/paddlers-browser-game
+[paddlers-demo]: https://demo.paddlers.ch
+[@jakmeier]: https://github.com/jakmeier
+[paddle]: https://github.com/jakmeier/paddle
+[paddlers-article]: https://www.jakobmeier.ch/blogging/Paddlers_6.html
+
 ### [Theta Wave]
 
 [![Homing Missiles](theta_wave.gif)][Theta Wave]
