@@ -113,9 +113,10 @@ For more details, see the [changelog][tetra-changelog], or
 ![Screenshot from Rafx Rendering Framework](rafx-screenshot.png)
 
 Rafx is a multi-backend renderer that prioritizes performance, flexibility,
-and productivity. It optionally integrates with the distill asset pipeline
-to provide workflows and tools suitable for real-world projects with
-multidisciplinary teams. Rafx is divided into three tiers of functionality:
+and productivity. It optionally integrates with the [distill][rafx-distill] 
+asset pipeline to provide workflows and tools suitable for real-world projects
+with multidisciplinary teams. Rafx is divided into three tiers of
+functionality:
 
 `rafx-api` provides a custom GPU API abstraction layer that currently supports
 vulkan and metal. It has a reduced API footprint that is easily supported
@@ -159,6 +160,7 @@ More information about rafx:
 [rafx-api-triangle-example]: https://github.com/aclysma/rafx/blob/master/rafx/examples/api_triangle/api_triangle.rs
 [rafx-gdc-2015]: http://advances.realtimerendering.com/destiny/gdc_2015/Tatarchuk_GDC_2015__Destiny_Renderer_web.pdf
 [rafx-gdc-2017]: https://www.gdcvault.com/play/1024612/FrameGraph-Extensible-Rendering-Architecture-in
+[rafx-distill]: https://github.com/amethyst/distill
 
 ### [basis-universal-rs]
 
