@@ -60,9 +60,107 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### Flesh
+
+![flesh preview](flesh.gif)
+_Title screen + gameplay_
+
+Flesh by [@im_oab] is a 2D-horizontal shmup game with hand-drawn animation and
+organic/fleshy theme. It is implemented using [tetra]. This month update include:
+
+- Add title screen.
+- Support gamepad.
+- Add new enemy types for first level include mid-boss.
+
+[@im_oab]: https://twitter.com/im_oab
+[tetra]: https://github.com/17cupsofcoffee/tetra
+
+### [Teki (敵)][teki]
+
+![teki preview](teki.gif)
+
+[Teki][teki] is a free and open-source fangame of the [Tōhō] series
+using [SDL2] and [Legion] for ECS. It is aimed to be a shoot ’em up game with
+"lots of bullets" a.k.a danmaku 弾幕 - literally "barrage" or "bullet curtain" in
+Japanese.
+
+The project is still at a “very” early stage of development (Dec. 2020).
+
+This month's updates include:
+
+- New enemy type: big fairy
+- New special card: Stellar Vortex
+- Add yin yang orbs
+
+[teki]: https://github.com/o2sh/teki
+[Tōhō]: https://en.wikipedia.org/wiki/Touhou_Project
+[SDL2]: https://github.com/Rust-SDL2/rust-sdl2
+[Legion]: https://crates.io/crates/legion
+
+### [Theta Wave]
+
+[![Homing Missiles](theta_wave.gif)][Theta Wave]
+_Homing missiles periodically spawn from missile launcher enemies_
+
+[Theta Wave] is a space shooter game by developers [@micah_tigley] and
+[@carlosupina]. It is one of the showcase games for the [Amethyst Engine].
+In the past month, they have been focusing on refactoring the motion system
+to make the code more approachable to other contributors.
+
+Notable changes:
+
+- Missiles now spawn from missile launcher enemies
+- Cursed background slowly fades in over the course of the level
+
+[Theta Wave]: https://github.com/amethyst/theta-wave
+[@micah_tigley]: https://twitter.com/micah_tigley
+[@carlosupina]: https://twitter.com/carlosupina
+[Amethyst Engine]: https://amethyst.rs/
+
 ## Learning Material Updates
 
 ## Engine Updates
+
+### [Tetra]
+
+![Tetra's demo game](./tetra.png)
+_Tetra's demo game_
+
+[Tetra] is a simple 2D game framework, inspired by XNA, Love2D and Raylib.
+This month, version 0.6 was released, with some big changes and features:
+
+- A simpler drawing API
+- Less global state for mesh drawing
+- Multisampled canvases
+- Better font rendering
+
+For more details, see the [changelog][tetra-changelog], or
+[17cupsofcoffee's twitter thread][tetra-twitter] about the release.
+
+[tetra]: https://github.com/17cupsofcoffee/tetra
+[tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
+[tetra-twitter]: https://twitter.com/17cupsofcoffee/status/1357750836370284544
+
+### [A/B Street]
+
+![Separate cyclepaths in A/B Street](./abstreet.png)
+
+[A/B Street] by [@dabreegster] is a traffic simulation game exploring how small
+changes to roads affect cyclists, transit users, pedestrians, and drivers, with
+suppot for any city with OpenStreetMap coverage.
+
+In February, [Bruce] implemented lagging green traffic signals, [Michael] and
+[Yuwen] released the new day UI theme, more cyclepaths and service roads were
+imported for all maps, and we added loads of maps, a new per-country picker UI,
+and dynamic font loading. Try out [Taipei] in the web browser to see all of
+this in action!
+
+[A/B Street]: https://github.com/a-b-street/abstreet
+[@dabreegster]: https://twitter.com/CarlinoDustin
+[Bruce]: https://github.com/BruceBrown
+[Michael]: https://github.com/michaelkirk
+[Yuwen]: https://www.yuwen-li.com/
+[Taipei]: http://abstreet.s3-website.us-east-2.amazonaws.com/dev/game/?--dev&tw/taipei/maps/center.bin
 
 ## Library & Tooling Updates
 
@@ -100,21 +198,42 @@ gfx-rs is a portable low-level graphics abstraction layer.
 naga is the shader translation library/tool.
 
 - versions 0.3.1 and 0.3.2 were published with fixes
-- API additions:
-  - function calls turned into statements
-  - image queries
-  - image stores
-  - rudimentary push constants support
-- validation:
-  - control flow uniformity requirements
-  - type validation was rewritten and improved
-  - gathering of the image-sampler pairs
+- API: function calls turned into statements, image queries and stores,
+  understanding of push constants.
+- validation: type validation was re-written and improved, new control flow
+  analysis was added to check for uniformity requirements. In addition,
+  this step now collects the image-sampler pairs used by the module.
 - backends: lots of fixes and filling of the gaps
-- infrastructure:
-  - `convert` example was removed in favor of the default binary target
-  - produced native shaders are now validated on CI using platform tools
+- infrastructure: `convert` example was removed in favor of the default
+  binary target. The native shaders (produced by the snapshot tests)
+  got validated on CI using platform tools.
 
 [naga]: https://github.com/gfx-rs/naga
+
+### [rkyv]
+
+[rkyv] is a zero-copy deserialization framework for Rust. It's similar to
+FlatBuffers and Cap'n Proto and can be used for data storage and messaging.
+
+[Version 0.4][rkyv-v0.4] was released this month and brought some big changes
+and improvements:
+
+- Major traits have been refactored and renamed to clarify their roles
+- Shared pointers (`Rc`, `Arc`, `Weak`) can now be serialized, deserialized,
+  and validated with correct ownership semantics
+- Serialization, deserialization, and validation all now support custom contexts
+- Greatly improved support for 32- and 64-bit archives by implementing Archive
+  for `usize` and `isize`
+- More comprehensive documentation in the [book][rkyv-book]
+
+This release completes the project's initial feature set, and a
+[request for feedback][rkyv-request-for-feedback] has been opened to help with
+future project planning.
+
+[rkyv]: https://github.com/djkoloski/rkyv
+[rkyv-v0.4]: https://github.com/djkoloski/rkyv/releases/tag/v0.4.0
+[rkyv-book]: https://djkoloski.github.io/rkyv
+[rkyv-request-for-feedback]: https://github.com/djkoloski/rkyv/issues/67
 
 ## Popular Workgroup Issues in Github
 
