@@ -126,6 +126,27 @@ For more details, see the [changelog][tetra-changelog], or
 [tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
 [tetra-twitter]: https://twitter.com/17cupsofcoffee/status/1357750836370284544
 
+### [A/B Street]
+
+![Separate cyclepaths in A/B Street](./abstreet.png)
+
+[A/B Street] by [@dabreegster] is a traffic simulation game exploring how small
+changes to roads affect cyclists, transit users, pedestrians, and drivers, with
+suppot for any city with OpenStreetMap coverage.
+
+In February, [Bruce] implemented lagging green traffic signals, [Michael] and
+[Yuwen] released the new day UI theme, more cyclepaths and service roads were
+imported for all maps, and we added loads of maps, a new per-country picker UI,
+and dynamic font loading. Try out [Taipei] in the web browser to see all of
+this in action!
+
+[A/B Street]: https://github.com/a-b-street/abstreet
+[@dabreegster]: https://twitter.com/CarlinoDustin
+[Bruce]: https://github.com/BruceBrown
+[Michael]: https://github.com/michaelkirk
+[Yuwen]: https://www.yuwen-li.com/
+[Taipei]: http://abstreet.s3-website.us-east-2.amazonaws.com/dev/game/?--dev&tw/taipei/maps/center.bin
+
 ## Library & Tooling Updates
 
 ### [rkyv]
