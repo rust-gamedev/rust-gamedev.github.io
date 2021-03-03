@@ -96,7 +96,6 @@ This month's updates include:
 [SDL2]: https://github.com/Rust-SDL2/rust-sdl2
 [Legion]: https://crates.io/crates/legion
 
-
 ## Learning Material Updates
 
 ## Engine Updates
