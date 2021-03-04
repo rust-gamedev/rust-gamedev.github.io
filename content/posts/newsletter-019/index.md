@@ -186,6 +186,23 @@ this in action!
 
 ## Library & Tooling Updates
 
+### [egui]
+
+![The plot thickens](egui-plot.gif)
+
+[egui] by [@emilk] is an easy-to-use immediate mode GUI library in pure Rust.
+
+This month [versions 0.9 and 0.10] of egui were released with many
+improvements big and small, including a 2D plot, more text styles,
+disabling widgets and improved documentation.
+
+You can try out egui in the [online demo].
+
+[egui]: https://github.com/emilk/egui
+[online demo]: https://emilk.github.io/egui
+[versions 0.9 and 0.10]: https://github.com/emilk/egui/blob/master/CHANGELOG.md
+[@emilk]: https://twitter.com/ernerfeldt
+
 ### [rkyv]
 
 [rkyv] is a zero-copy deserialization framework for Rust. It's similar to
