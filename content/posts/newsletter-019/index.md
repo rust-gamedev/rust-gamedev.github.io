@@ -117,20 +117,21 @@ Notable changes:
 [@carlosupina]: https://twitter.com/carlosupina
 [Amethyst Engine]: https://amethyst.rs/
 
-### Project YAWC
+### [Project YAWC][yawc-twitter]
 
-![A screenshot from a game of Project YAWC.](./yawc_n19.png)
+![A screenshot from a game of Project YAWC.](yawc_n19.png)
 
-Project YAWC is a turn-based strategy game in development by junkmail. February
-saw the release of Alpha 4, bringing special units and auctions to determine
+[Project YAWC][yawc-twitter] is a turn-based strategy game in development by junkmail.
+February saw the release of Alpha 4, bringing special units and auctions to determine
 ownership of special units, as well as changes to netcode, balance, and UI.
 
-Those interested in participating in the alpha test should fill out this [form].
-To learn more, you can follow the new [Twitter] or send an e-mail to
-projectyawc@gmail.com.
+Those interested in participating in the alpha test should fill out this
+[form][yawc-form].
+To learn more, you can follow the new [@projectyawc][yawc-twitter] Twitter
+or send an e-mail to projectyawc@gmail.com.
 
-[form]: https://forms.gle/tzP6oRaJmApgMyrj7
-[Twitter]: https://twitter.com/projectyawc
+[yawc-form]: https://forms.gle/tzP6oRaJmApgMyrj7
+[yawc-twitter]: https://twitter.com/projectyawc
 
 ## Learning Material Updates
 
