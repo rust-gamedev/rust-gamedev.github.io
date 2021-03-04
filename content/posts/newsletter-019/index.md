@@ -97,6 +97,28 @@ This month's updates include:
 [SDL2]: https://github.com/Rust-SDL2/rust-sdl2
 [Legion]: https://crates.io/crates/legion
 
+### [Paddlers]
+
+![A brightly colored scene with a grass field, a river, and some happy ducks.](paddlers_0.2.1.jpg)
+
+[Paddlers] ([GitHub][paddlers-gh], [Online Demo][paddlers-demo]) by [@jakmeier]
+is an experimental MMORTS with the backend and the web client all written in
+Rust.
+
+February gave birth to Paddlers release 0.2.1 and a ton of new game mechanics.
+It features a skill map, quests, and a refreshed take on the tower defense
+aspect of the game. On top of that, the rendering engine (part of the
+[Paddle][paddle] framework) has been reworked and now allows for custom
+shaders. Read all about this month's changes in this
+[article][paddlers-article] released on the developer's private website.
+
+[Paddlers]: https://paddlers.ch
+[paddlers-gh]: https://github.com/jakmeier/paddlers-browser-game
+[paddlers-demo]: https://demo.paddlers.ch
+[@jakmeier]: https://github.com/jakmeier
+[paddle]: https://github.com/jakmeier/paddle
+[paddlers-article]: https://www.jakobmeier.ch/blogging/Paddlers_6.html
+
 ### [Theta Wave]
 
 [![Homing Missiles](theta_wave.gif)][Theta Wave]
@@ -210,6 +232,23 @@ naga is the shader translation library/tool.
 
 [naga]: https://github.com/gfx-rs/naga
 
+### [egui]
+
+![The plot thickens](egui-plot.gif)
+
+[egui] by [@emilk] is an easy-to-use immediate mode GUI library in pure Rust.
+
+This month [versions 0.9 and 0.10] of egui were released with many
+improvements big and small, including a 2D plot, more text styles,
+disabling widgets and improved documentation.
+
+You can try out egui in the [online demo].
+
+[egui]: https://github.com/emilk/egui
+[online demo]: https://emilk.github.io/egui
+[versions 0.9 and 0.10]: https://github.com/emilk/egui/blob/master/CHANGELOG.md
+[@emilk]: https://twitter.com/ernerfeldt
+
 ### [rkyv]
 
 [rkyv] is a zero-copy deserialization framework for Rust. It's similar to
@@ -234,6 +273,26 @@ future project planning.
 [rkyv-v0.4]: https://github.com/djkoloski/rkyv/releases/tag/v0.4.0
 [rkyv-book]: https://djkoloski.github.io/rkyv
 [rkyv-request-for-feedback]: https://github.com/djkoloski/rkyv/issues/67
+
+### [This Month in Mun][mun-february]
+
+[![Mun logo](mun-logo.png)][Mun]
+
+[Mun] is a scripting language for gamedev focused on quick iteration times
+that is written in Rust.
+
+It's been a long time coming, but the Mun Core Team is closing in on the finish
+line for Mun v0.3. They are only a couple of pull requests away from locking
+the build for bug fixes and documentation. The [February updates][mun-february]
+include:
+
+- `use` statements language support;
+- incremental file updates for the language server;
+- LLVM 11 support;
+- bug fixes and other improvements.
+
+[Mun]: https://mun-lang.org
+[mun-february]: https://mun-lang.org/blog/2021/03/04/this-month-february
 
 ## Popular Workgroup Issues in Github
 
