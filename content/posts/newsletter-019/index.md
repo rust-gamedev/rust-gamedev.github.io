@@ -128,10 +128,11 @@ Stellary 2 by [@CoffeJunkStudio][coffe-junk-studio] is a 3D
 real-time space shooter in which the player has to prevail against enemy space ships.
 
 The latest updates include:
-* Players’ space ships
-* Prediction of the rocket trajectory
-* [Energy budget][stellary2-aml-tweet]
-* Weapon enhancements ([trident laser][stellary2-trident-laser-tweet] & [missile splitting][stellary2-missile-splitting-tweet])
+
+- Players’ space ships
+- Prediction of the rocket trajectory
+- [Energy budget][stellary2-aml-tweet]
+- Weapon enhancements ([trident laser][stellary2-trident-laser-tweet] & [missile splitting][stellary2-missile-splitting-tweet])
 
 [coffe-junk-studio]: https://twitter.com/CoffeJunkStudio
 [stellary2-aml-tweet]: https://twitter.com/CoffeJunkStudio/status/1360637714660548618
