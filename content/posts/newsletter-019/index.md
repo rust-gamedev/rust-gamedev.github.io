@@ -117,6 +117,36 @@ Notable changes:
 [@carlosupina]: https://twitter.com/carlosupina
 [Amethyst Engine]: https://amethyst.rs/
 
+### [Veloren][veloren]
+
+![Lush forest](veloren.jpg)
+_A lush forest to explore_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In February, lots of work has been done on worldsim, with travelling merchants
+being worked on. Some experiments have been happening on procedurally generating
+giant trees. Lots is being done on the combat end, with dual wielding and
+modular weapons being a big focus. Player trading was also implemented, which
+allows items to be shared on the server. A large internal shift is being made
+from diesel to rusqlite.
+
+A rework of attacks was done to allow their effects to be more dynamic. Lots of
+work has been done on the art team, with new weapon models, new mobs like fish.
+Some quality of life improvements were added, like humanoids automatically
+deploying gliders while falling to avoid fall damage. CI changes were made to
+finally have the Github mirror update periodically without error from LFS
+storage. In March, Veloren will release 0.9.
+
+February's full weekly devlogs: "This Week In Veloren...":
+[#105](https://veloren.net/devblog-105),
+[#106](https://veloren.net/devblog-106),
+[#107](https://veloren.net/devblog-107),
+[#108](https://veloren.net/devblog-108).
+
+[veloren]: https://veloren.net
+
 ## Learning Material Updates
 
 ## Engine Updates
