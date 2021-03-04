@@ -1,11 +1,8 @@
 +++
 title = "This Month in Rust GameDev #15 - October 2020"
-date = 2020-11-03
+date = 2020-11-09
 transparent = true
-draft = true
 +++
-
-<!-- Check the post with markdownlint-->
 
 Welcome to the 15th issue of the Rust GameDev Workgroup's
 monthly newsletter.
@@ -27,14 +24,14 @@ Feel free to send PRs about your own projects!
 [pr]: https://github.com/rust-gamedev/rust-gamedev.github.io
 [coordination]: https://github.com/rust-gamedev/rust-gamedev.github.io/issues?q=label%3Acoordination
 
+Table of contents:
+
+- [Annual Survey from the Rust GameDev WG](#annual-survey-from-the-rust-gamedev-wg)
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Library & Tooling Updates](#library-tooling-updates)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
-- [Meeting Minutes](#meeting-minutes)
 - [Requests for Contribution](#requests-for-contribution)
-- [Jobs](#jobs)
-- [Bonus](#bonus)
 
 <!--
 Ideal section structure is:
@@ -57,6 +54,16 @@ _Discussions:
 
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
+
+## [Annual Survey from the Rust GameDev WG][survey]
+
+As we did [last year][survey-prev], we are once again running
+a Rust Game Development Ecosystem Survey. It'll only take 10 minutes,
+and your responses help us better understand the state of our ecosystem
+and where we should try to focus our collective efforts.
+
+[survey]: https://surveymonkey.com/r/F2JYRFF
+[survey-prev]: https://rust-gamedev.github.io/posts/survey-01
 
 ## Game Updates
 
@@ -101,18 +108,54 @@ _Team hunt_
 
 [veloren]: https://veloren.net
 
+### [Crate Before Attack][cba-site]
+
+[![Leaderboard Histogram](crate-before-attack.gif)][cba-site]
+_Interactive Histogram with Race Results_
+
+[Crate Before Attack][cba-site] by [koalefant (@CrateAttack)][@CrateAttack]
+is a skill-based multiplayer game where frogs fight and race using their sticky
+tongues as grappling hooks.
+
+A [browser build][cba-play] can be played online.
+
+Changes since the last update:
+
+- Added a global leaderboard that visualizes Race and Training results in an
+  interactive histogram.
+- Tweaked frogs physics to make them more bouncy, added an option that would
+  keep tongue connected as long as a key is being pressed.
+- [Online Ghosts][cba-youtube-ghosts] were added. One can now compete with real
+  players instead of AI when playing Race mode.
+- Improved load-times: level graphics is now quantized with an 8-bit palette,
+  signed distance fields that are used for collisions are now generated offline.
+  Downloads are cached in an IndexedDB, so subsequent starts are even faster.
+- Multiple bugs were fixed.
+
+More details are in [September][cba-september-update] and
+[October][cba-october-update] DevLog entries and in
+[YouTube-channel][cba-youtube].
+
+[cba-site]: https://cratebeforeattack.com
+[cba-youtube-ghosts]: https://youtu.be/j87I8akUTkc
+[cba-youtube]: https://www.youtube.com/channel/UC_xMilPTLuuE5iLs1Ml9zow
+[cba-play]: https://cratebeforeattack.com/play
+[cba-september-update]: https://cratebeforeattack.com/posts/20201001-september-update
+[cba-october-update]: https://cratebeforeattack.com/posts/20201029-october-update
+[@CrateAttack]: https://twitter.com/CrateAttack
+
 ### [Egregoria]
 
 ![Egregoria roads at night](egregoria.jpg)
 
 [Egregoria]'s objective is to become a granular society simulation,
-filled with fully autonomous agents interacting with their world in real time.
+filled with fully autonomous agents interacting with their world in real-time.
 
 The [6th devlog][egregoria-blog-post] was published. Updates include:
 
 - Island generation.
 - Day/night cycle.
-- Human AI via utilitary systems.
+- Human AI via utility systems.
 - Specs to [legion 0.3][legion-github] port.
 
 See also [the recent video][egregoria-video] showcasing very basic AI.
@@ -158,11 +201,11 @@ _One of the many unique and confounding puzzles in the game_
 Worship The Sun is a dark, mysterious 2D puzzle-platform game with computer
 science themes. It introduces the player to a rich language of puzzle elements
 and challenges them to solve difficult puzzles that require experimentation,
-comprehension and internalisation of the game's mechanics.
+comprehension, and internalisation of the game's mechanics.
 
 The game is built using a custom engine that sits on top of [legion][legion],
-[wgpu][wgpu] and a handful of other crates. It features dynamic lighting, a
-flexible particle system, bespoke collision behaviour and a Vim-inspired level
+[wgpu][wgpu], and a handful of other crates. It features dynamic lighting, a
+flexible particle system, bespoke collision behaviour, and a Vim-inspired level
 editor. The majority of game assets are hand drawn in [Procreate][procreate]
 and painstakingly animated.
 
@@ -178,6 +221,47 @@ For updates and possible playtesting opportunities, follow
 [plunge]: https://tuzz.tech/blog/taking-the-plunge
 [chrispatuzzo]: https://twitter.com/chrispatuzzo
 [/r/WorshipTheSunGame]: https://reddit.com/r/WorshipTheSunGame
+
+### [Garden][garden]
+
+![Garden](garden_scaled_1.png)
+_A couple of trees growing and basking in the sun_
+
+[Garden][garden] is a procedural tree-growing, strategical ecosystem-restoration
+and biological simulation game with an infinite amount of plant species where
+every leaf is simulated, and the natural resources are scarce.
+Every specimen is unique, as the plants grow by responding to the live changes in
+the environment.
+The player has to balance many complex mechanics to sustain life and go
+forward in the game.
+The game and the custom engine are developed in Rust with an OpenGL backend.
+
+Garden developers (temporary name) are preparing for a demo release in a couple
+of months by tying everything together into a coherent experience.
+The game is also continually optimized to run on less powerful GPUs,
+so that everyone can enjoy it.
+
+Some of the [updates from the October devlog][garden-devlog]:
+
+- Near-infinite variety of plant species
+  achieved through treating branch segments as Markov chains
+  (enabling different growth speeds and probabilities
+  for other segment types' growth from one another)
+  and simulating photosynthesis as an electrical circuit
+  (enabling sugar storage in the form of root vegetables, for example).
+- Concrete brick destruction mechanics were implemented.
+  Dust particles for the animation that appears upon breaking,
+  as well as the debris, were also added to the game.
+- Saving and loading are almost complete.
+- A watering can was added.
+- Smoother soil and debris outlines.
+
+Follow the developers [@logicsoup] and [@epcc10] on Twitter for more updates.
+
+[garden]: https://www.cyberplant.xyz
+[@logicsoup]: https://twitter.com/logicsoup
+[@epcc10]: https://twitter.com/epcc10
+[garden-devlog]: https://cyberplant.xyz/posts/october_2020
 
 ### [Akigi][akigi]
 
@@ -195,6 +279,25 @@ Full devlogs:
 [#090](https://devjournal.akigi.com/october-2020/090-2020-10-25.html).
 
 [akigi]: https://akigi.com
+
+### [Sun Prison][sun_prison]
+
+![Sun Prison gameplay](sun_prison.gif)
+
+[Sun Prison][sun_prison] by [Dima Lazarev][@dmitrywithouti] is a WIP turn-based
+meditation on Rubik's cube, [Sokoban][bevy_sokoban], and roguelikes, being
+implemented with [Bevy engine][bevy].
+The game is in the very early stages of development,
+but it is already possible to [get lost in the dark][sun_prison_twit_1]
+or to be [eaten by zombies][sun_prison_twit_2].
+
+Follow [@dmitrywithouti] on Twitter for updates.
+
+[sun_prison]: https://github.com/ropewalker/sun_prison
+[bevy_sokoban]: https://github.com/ropewalker/bevy_sokoban
+[@dmitrywithouti]: https://twitter.com/dmitrywithouti
+[sun_prison_twit_1]: https://twitter.com/dmitrywithouti/status/1309025584039768064
+[sun_prison_twit_2]: https://twitter.com/dmitrywithouti/status/1309982656260648960
 
 ### [Camp Misty]
 
@@ -231,28 +334,67 @@ shops, character creation, and a few other features:
 [Antorum Online]: https://ratwizard.dev/dev-log/antorum
 [@dooskington]: https://twitter.com/dooskington
 
+### [The Honor Sagas][honor-sagas]
+
+![game's banner](honor.png)
+
+[The Honor Sagas][honor-sagas] is an early-in-development 2d MMORPG project.
+October was the first month of development, and [@ectonDev] wrote
+[a postmortem][honor-sagas-postmortem] of the progress made while participating
+in [#Devtober][devtober].
+
+[honor-sagas]: https://khonsulabs.itch.io/honorsagas
+[honor-sagas-postmortem]: https://khonsulabs.itch.io/honorsagas/devlog/192252/the-honor-sagas-devtober-postmortem
+[devtober]: https://itch.io/jam/devtober-2020
+[@ectonDev]: https://twitter.com/ectonDev
+
+### Project YAWC
+
+![An in-progress game of Project YAWC.](yawc.png)
+
+Project YAWC is a turn-based strategy game in the style of Advance Wars in
+development by junkmail. October saw the release of Alpha 3, including
+dynamically generated info cards and minor networking changes. For inquiries or
+if you are interested in playtesting, contact projectyawc(at)gmail.com.
+
 ### [Power Kick]
 
 ![Power Kick](power-kick-shot.png)
 
-[Power Kick] is an one screen platform game inspired by similar old arcade games
+[Power Kick] is a one screen platform game inspired by similar old arcade games
 like Bubble Bobble and SnowBros.
 Your task is to hit the enemies till they get dizzy and then kick them out of
 their misery to proceed to the next stage. The kicked enemies will hit the
 colliding enemies with a possibility to create a chain reaction
 (similar to the pushed snowball in SnowBros).
 
-The game have 20 stages and in stage 10 and 20 you will face a helicopter boss.
+The game has 20 stages and in stage 10 and 20 you will face a helicopter boss.
 
 Can be played solo on the web through WebAssembly or up to two players
 in the downloadable version:
-first player with the keyboard and the second one with a joypad.
+the first player with the keyboard and the second one with a joypad.
 
 The development took around two weeks thanks to [macroquad] and [hecs].
 
 [Power Kick]: https://kakoeimon.itch.io/power-kick
-[macroquad]: https://github.com/not-fl3/macroquad
 [hecs]: https://crates.io/crates/hecs
+
+### [rymd]
+
+![rymd animated combat](rymd_2020_11_05.gif)
+
+[rymd] by [@_profan] is a space shooter prototype made with [macroquad].
+Intended as a test platform for trying out rust for prototyping games and
+particularly for game AI programming purposes.
+
+Development started at the end of October, recent additions include:
+
+- Basic enemy AI behaviour mostly based on steering behaviours.
+- Possibly the world's most nauseating physics-driven camera.
+- Too many particles.
+
+[@_profan]: https://twitter.com/_profan
+[rymd]: https://profan.itch.io/rymd
 
 ### [pGLOWrpg]
 
@@ -271,7 +413,7 @@ For the past month the main focus of the development was on:
 - Implementing world navigation system.
 - Implementing rudimentary CLI graphics (for debugging and some future use).
 
-Main features of reported (pre-alpha) version are:
+Main features of the reported (pre-alpha) version are:
 
 - Ability to generate and explore one or many worlds (see previous news).
 
@@ -334,7 +476,7 @@ New features in the latest release include boss games and high scores.
 [Canon Collision][canon-collision] by [@rukai] is an Undertale + Homestuck
 fan-made platform fighter with powerful tools for modding.
 
-This month, he completed the abstractions needed for character specific logic.
+This month, he completed the abstractions needed for character-specific logic.
 Notable changes:
 
 - [toriel's fireball](https://twitter.com/thisIsRukai/status/1302250049972314112)
@@ -342,17 +484,126 @@ Notable changes:
 - [items that can be picked up and thrown](https://twitter.com/thisIsRukai/status/1297507398693736448)
 - [character specific logic](https://twitter.com/thisIsRukai/status/1314872752642297856)
 
-[canon-collision]:https://canoncollision.com
+[canon-collision]: https://canoncollision.com
 [@rukai]: https://twitter.com/thisIsRukai
 
-### Project YAWC
+### [galaxy-sim.github.io]
 
-![An in-progress game of Project YAWC.](yawc.png)
+![Simulation demo](galaxy-sim.gif)
 
-Project YAWC is a turn-based strategy game in the style of Advance Wars in
-development by junkmail. October saw the release of Alpha 3, including
-dynamically generated info cards and minor networking changes. For inquiries or
-if you are interested in playtesting, contact projectyawc(at)gmail.com.
+[galaxy-sim.github.io] ([source][galaxy-sim-repo]) by [@zephybite] and [@joshikatsu]
+is a colliding galaxies simulation based on [Barnes-Hut and direct algorithms][galaxy-sim-wiki].
+The project is written using Rust, ThreeJS, and WASM.
+
+_Discussions:
+[Twitter](https://twitter.com/zephybite/status/1311384855276470272)_
+
+[galaxy-sim.github.io]: https://galaxy-sim.github.io
+[galaxy-sim-repo]: https://github.com/Katsutoshii/barnes-hut-rs
+[@zephybite]: https://twitter.com/zephybite
+[@joshikatsu]: https://twitter.com/joshikatsu
+[galaxy-sim-wiki]: https://en.wikipedia.org/wiki/Barnes-Hut_simulation
+
+### Ludum Dare 47
+
+[Ludum Dare][ld] is a regular game jam event,
+during which developers create games from scratch in a weekend
+based on a theme suggested by the community.
+
+LD47's theme was "Stuck in a loop".
+Here are some of the games made with Rust:
+
+- ["The Island"][ld-island] by [@kuviman]
+  ([source code][ld-island-src]).
+
+  > A multiplayer online sandbox game.
+  > Explore, craft, and try to escape the island
+  > (spoiler: you can not, you are stuck in a loop).
+  > The world regenerates where you don't see.
+
+  Check out the devlog post:
+  ["LudumDare 47 - The Island"][ld-island-post].
+
+  ![gameplay](ld47-island.gif)
+
+- ["Time Ghosts"][ld-ghosts] by [@Healthire]
+  ([source code][ld-ghosts-src]).
+
+  > You have a limited time to collect the next part for the Machine,
+  > when 12 seconds have passed time rewinds and you have to start over.
+  > But don’t worry, your past self is still around
+  > to repeat your past actions.
+
+  ![gameplay](ld47-time-ghosts.png)
+
+- ["Quantum Loops"][ld-quantum] by [@necauqua]
+  ([source code][ld-quantum-src]).
+
+  > There is a particle forced to exist in a quantum loop
+  > and it really hates being real!
+  > Disrupt the quantum levels with most efficient use of your energy
+  > to let it escape back into nothing!
+
+  ![gameplay](ld47-quantum-loops.gif)
+
+- ["Keep Inside"][ld-keep-inside] by [@davidB] made with Bevy
+  ([source code][ld-keep-inside-src]).
+
+  > A solo pong on a circle.
+
+  ![gameplay](ld47-keep-inside.gif)
+
+- ["Keep Moving and Nobody Burns"][ld-nobody-burns-src] by [@FrancoisMockers]
+  made with Bevy ([source code][ld-nobody-burns-src]).
+
+  > Aim for the high score while avoid getting burned either
+  > by that big wall of fire or by your own bombs!
+  > Every round, the game will get harder, but you will earn more points.
+  > To help you, blowing up those crates may drop bonus
+  > that will make your bombs more useful.
+
+  ![gameplay](ld47-nobody-burns.png)
+
+- ["Bloody Baron"][ld-baron] by [@torresguilherme]
+  ([source code][ld-baron-src]).
+
+  > You’re in a building with 9 other people, and one of them is a brutal killer.
+  > Don’t get caught by them, and use your abilities and your logic skills
+  > to solve the mystery and vote the right person in the trial!
+
+  ![gameplay](ld47-bloody-baron.png)
+
+- ["Soy Content"][ld-soy] by [@walterpie] made with Bevy
+  ([source code][ld-soy-src]).
+
+  > A misleading puzzle game with a twist.
+  > Find your way in a non-euclidean maze of interconnected rooms.
+  > Warning: Game doesn't contain any Soy.
+
+  ![gameplay](ld47-soy.png)
+
+[ld]: https://ldjam.com/events/ludum-dare/47
+[ld-island]: https://ldjam.com/events/ludum-dare/47/the-island
+[ld-island-src]: https://github.com/kuviman/ludumdare47
+[ld-island-post]: https://blog.kuviman.com/2020/10/18/ludumdare47.html
+[@kuviman]: https://github.com/kuviman
+[ld-ghosts]: https://ldjam.com/events/ludum-dare/47/time-ghosts
+[ld-ghosts-src]: https://github.com/Healthire/ld47
+[@Healthire]: https://twitter.com/Healthire
+[ld-quantum]: https://ldjam.com/events/ludum-dare/47/quantum-loops
+[ld-quantum-src]: https://github.com/necauqua/quantum-loops
+[@necauqua]: https://twitter.com/necauqua
+[ld-keep-inside]: https://ldjam.com/events/ludum-dare/47/keep-inside
+[ld-keep-inside-src]: https://github.com/davidB/ld47_keep_inside
+[@davidB]: https://github.com/davidB
+[ld-nobody-burns-src]: https://github.com/mockersf/kmanb
+[@FrancoisMockers]: https://twitter.com/FrancoisMockers
+[ld-baron]: https://ldjam.com/events/ludum-dare/47/bloody-baron
+[ld-baron-src]: https://github.com/torresguilherme/bloody-baron
+[@torresguilherme]: https://github.com/torresguilherme
+[ld-soy]: https://ldjam.com/events/ludum-dare/47/soy-content
+[ld-soy-src]: https://github.com/walterpie/ldjam-47
+[@walterpie]: https://github.com/walterpie
 
 ## Learning Material Updates
 
@@ -369,11 +620,10 @@ development for Entity-Component-Systems, Windowing and Event Loops, and WGPU.
   tutorial for writing simple pixel graphics and 2d game development using
   the [pixels] crate (based on WGPU).
 - [Framebuffers, WGPU and Rust](https://nyxtom.dev/2020/10/08/framebuffers/) -
-  an in depth analysis of high level graphics terminology and a full length
+  an in-depth analysis of high-level graphics terminology and a full length
   tutorial for setting up the api and clearing the screen with WGPU.
 
 [@nyxtom]: https://twitter.com/nyxtom
-[hecs]: https://github.com/Ralith/hecs
 [pixels]: https://github.com/parasyte/pixels
 
 ### [Creating a Snake Clone in Bevy]
@@ -388,7 +638,29 @@ creating a grid system, and spawning/despawning entities.
 
 [Creating a Snake Clone in Bevy]: https://mbuffett.com/posts/bevy-snake-tutorial/
 
-### [How to: Rust + SDL2 + OpenGL on the web][how-to-rust-sdl2-opengl-post]
+### Rust FFI: Microsoft Flight Simulator SDK
+
+[![Preview](video-ffi-msfs.jpg)][msfs-video-1]
+
+[@ryan_levick] made two livestreams about Rust FFI and SDK for
+Microsoft Flight Simulator 2020.
+You can watch recordings here:
+
+- [Part 1][msfs-video-1]: bindgen, C ABIs, linkers, and more.
+- [Part 2][msfs-video-2]: more high-level concerns like API design
+  and making an idiomatic API.
+
+Subscribe to [@ryanlevick on Twitch][ryanlevick-twitch] for future streams.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/j92jc0/rust_ffi_microsoft_flight_simulator_sdk_part_1)_
+
+[@ryan_levick]: twitter.com/ryan_levick
+[ryanlevick-twitch]: https://twitch.tv/ryanlevick
+[msfs-video-1]: https://youtube.com/watch?v=jNNz4h3iIlw
+[msfs-video-2]: https://youtube.com/watch?v=ugiR9M16fwg
+
+### [How to: Rust + SDL2 + OpenGL on the Web][how-to-rust-sdl2-opengl-post]
 
 [@Therocode] published an [article][how-to-rust-sdl2-opengl-post] that
 explains how to port games to the web using Emscripten.
@@ -428,6 +700,74 @@ or follow [@sajattack] on Twitter.
 [Discord]: https://discord.gg/tvGzD4GqvF
 [@sajattack]: https://twitter.com/sajattack
 
+### [gbemu]
+
+![screenshot](gbemu.png)
+
+[gbemu] by [@BlueBlazin] is a Gameboy/Gameboy Color Emulator which
+[runs in the browser][gbemu-web].
+
+> ... I wrote the emu just for myself as a learning experience.
+> So it's lacking in a lot of features you'd expect from one made
+> for others to use, and it's also not mobile-friendly unfortunately
+> (but I'll work on that soon).
+> Still, it may be of some interest to someone here :D
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/j8vw84/i_made_a_gameboygameboy_color_emulator)_
+
+[gbemu]: https://github.com/BlueBlazin/gbemu
+[gbemu-web]: https://gbemu.netlify.app
+[@BlueBlazin]: https://github.com/BlueBlazin
+
+### [skyline-rs]
+
+![SSB & Rust logos](smash_x_rust.png)
+
+[skyline-rs] by [@jam1garner] is a project seeking to allow Rust code to
+unofficially use the Nintendo Switch SDK focused on modding.
+
+This month, [@jam1garner] made a blog post, [Rust for Modding Smash Ultimate],
+focused on detailing why Rust was such a good fit for modding games on the
+Switch and his experience porting Rust to the Nintendo Switch.
+It also features updates regarding:
+
+- Crates for working with Nintendo and Namco textures formats
+  ([bntx] and [nutexb]).
+- An auto-updater client and server for Rustaceans writing Switch mods.
+- The introduction of [skyline-web], a new library for working
+  with the Switch's web browser.
+- Additions to the [skyline fork] of the Rust standard library.
+
+[skyline-rs]: https://github.com/ultimate-research/skyline-rs
+[skyline-web]: https://github.com/skyline-rs/skyline-web
+[@jam1garner]: https://twitter.com/jam1garner
+[Rust for Modding Smash Ultimate]: https://jam1.re/blog/rust-for-game-modding
+[skyline fork]: https://github.com/jam1garner/rust-std-skyline
+[bntx]: https://github.com/jam1garner/bntx
+[nutexb]: https://github.com/jam1garner/nutexb
+
+### [shared-arena]
+
+[shared-arena] by [@0x5eb] is a thread-safe & efficient memory pool.
+Memory pools are useful for speeding up dynamic (de)allocation
+of large amounts of data of the same size.
+
+shared-arena provides three memory pools with different trade-offs:
+
+![SharedArena, Arena, Pool](shared-arena.png)
+
+The crate uses unsafe in a few places,
+but the code is covered by the miri interpreter, valgrind and 3 sanitizers
+(address, leak, and memory) [on each commit][shared-arena-ga].
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/jddens/announcing_shared_arena)_
+
+[shared-arena]: https://github.com/sebastiencs/shared-arena
+[shared-arena-ga]: https://github.com/sebastiencs/shared-arena/blob/master/.github/workflows
+[@0x5eb]: https://twitter.com/0x5eb
+
 ### [glam] v0.10.0
 
 [glam] is a simple and fast linear algebra crate for games and graphics.
@@ -438,7 +778,7 @@ There were a lot of additions in this update and a small breaking change.
 - The return type of `Vec4::truncate()` was changed from `Vec3A` to `Vec3` which
   is a breaking change and thus the version jumped from 0.9 to 0.10.
 - Vector swizzle functions similar to those found in [GLSL] were added. Swizzle
-  functions allow a vectors elements to be reordered. The result can be a vector
+  functions allow a vector's elements to be reordered. The result can be a vector
   of a different size to the input. Swizzles are implemented with SIMD
   instructions where possible, e.g. for the `Vec4` type.
 
@@ -468,6 +808,88 @@ For a full list of changes see the [glam changelog].
 [bytemuck]: https://docs.rs/bytemuck
 [glam changelog]: https://github.com/bitshifter/glam-rs/blob/master/CHANGELOG.md
 
+### [density-mesh]
+
+![output example](density-mesh.png)
+
+[density-mesh] by [@PsichiX] is an image density/height map to mesh generator.
+It consists of two crates:
+
+- density-mesh-core - generates mesh from density map.
+- density-mesh-image - generates density map from image.
+
+A typical use case would be to use two of them to create mesh from images
+but in case you have your own image handler, you can stick to the core module
+and produce density maps by yourself.
+
+There's also a [CLI tool][density-mesh-cli].
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/j73ijj/densitymesh_image_to_2d_mesh_converter)_
+
+[density-mesh]: https://github.com/PsichiX/density-mesh
+[density-mesh-cli]: https://github.com/PsichiX/density-mesh#cli
+[@PsichiX]: https://github.com/PsichiX
+
+### [Rapier]
+
+[![Rapier logo](rapier-logo.svg)][Rapier]
+
+[Rapier] is a set of 2D and 3D physics engines for games, animation and
+robotics written in Rust.
+
+[This month][rapier-october] the version 0.3.0 has been released with exciting
+new features:
+
+- cylinders and cones as collider shapes;
+- collision groups (with bit masks) and collision filters (with callbacks)
+  for deciding what pairs of colliders can touch;
+- the ability to set the mass of rigid-bodies explicitly;
+- linear and angular damping, to progressively slow down rigid-bodies;
+- the ability to attach some user-defined data (of type `u128`) to any
+  collider or rigid-body.
+
+[![Rapier features](rapier-demo.gif)][rapier-demo]
+
+The [bevy_rapier] plugin for the Bevy game engine has been updated to support
+all the aforementioned features.
+
+Finally, a [continuous benchmarking][cont-bench] infrastructure has been set
+up to make sure performance regressions can be detected early.
+
+[Rapier]: https://rapier.rs
+[rapier-october]: https://www.dimforge.com/blog/2020/11/01/this-month-in-dimforge/
+[rapier-demo]: https://twitter.com/dimforge/status/1321138642778206211
+[bevy_rapier]: https://www.rapier.rs/docs/user_guides/rust_bevy_plugin/getting_started
+[cont-bench]: https://www.dimforge.com/blog/2020/10/01/this-month-in-dimforge#rapier-continuous-benchmarking
+
+### [physme]
+
+[Physme] is not your typical physics engine. It doesn't exactly simulate
+real world physics and it never will. Instead, it has only two goals:
+
+- To provide satisfying real-time dynamics for 2D and 3D games.
+- To have a simple to use API.
+
+Physme will only work with [bevy] and is not made to support other game
+engines.
+The current release supports bevy 0.2, but work is being done to support
+bevy 0.3.
+
+The current feature set includes:
+
+- Rigid bodies
+- Multiple colliders per body
+- Static and semikinematic bodies
+- Sensor bodies
+- Oriented bounding boxes
+- Fixed, mechanical and spring joints
+- Broad phase
+
+All of the above-listed features are supported in both 2D and 3D.
+
+[physme]: https://github.com/walterpie/physme
+
 ### [This Month in Mun][mun-october]
 
 [![Mun logo](mun-logo.png)][Mun]
@@ -485,6 +907,96 @@ that is written in Rust.
 [Mun]: https://mun-lang.org
 [mun-october]: https://mun-lang.org/blog/2020/10/31/this-month-october
 
+### [building-blocks]
+
+![Meshing Example](building-blocks.gif)
+
+[Building Blocks][building-blocks] by [@bonsairobo]
+is an engine-agnostic voxel library that implements real-time data structures
+and algorithms for: edits on compressed maps, meshing, search, and collisions.
+
+The library has recently seen two releases:
+
+- [v0.1.0 release notes][building-blocks-v0-1]
+- [v0.2.0 release notes][building-blocks-v0-2]
+
+To prove out the functionality of the library, the [voxel-mapper]
+project was ported to use building-blocks instead of ilattice3.
+This resulted in improved performance and memory usage
+when doing large edits and working with large maps:
+
+![Terraforming demo](voxel-mapper.gif)
+
+Join [Building Blocks's Discord server](https://discord.gg/CnTNjwb).
+
+[building-blocks]: https://github.com/bonsairobo/building-blocks
+[@bonsairobo]: https://github.com/bonsairobo
+[voxel-mapper]: https://github.com/amethyst/voxel-mapper
+[building-blocks-v0-1]: https://github.com/bonsairobo/building-blocks/releases/tag/v0.1.0
+[building-blocks-v0-2]: https://github.com/bonsairobo/building-blocks/releases/tag/v0.2.0
+
+### [Rust GPU v0.1][rustgpu-v0.1]
+
+![Rust GPU Sky](rustgpu.jpg)
+_Sky example in Rust GPU_
+
+[Rust GPU][rustgpu] is a project backed by [Embark Studios][embark]
+to make Rust a first-class language and ecosystem for building GPU code.
+
+Although still in very early stages of development,
+[Rust GPU released v0.1 in October][rustgpu-v0.1],
+and has already garnered over 2000 stars on Github.
+Currently, compiling and running very simple shaders
+works, and a significant portion of the core library also compiles. While things
+like if-statements and while-loops are working, many things aren't implemented yet.
+For example, for-loops, iterators and match/switch aren't supported yet. That
+means that while being technically usable, Rust GPU is far from being
+production-ready.
+
+The motivation behind the project:
+
+> Historically in games, GPU programming has been done through writing either
+> HLSL, or to a lesser extent GLSL. These are simple programming languages that
+> have evolved along with rendering APIs over the years. However, as game engines
+> have evolved, these languages have failed to provide mechanisms for dealing with
+> large codebases, and have generally stayed behind the curve compared to other
+> programming languages.
+>
+> In part this is because it's a niche language for a niche market, and in part
+> this has been because the industry as a whole has sunk quite a lot of time and
+> effort into the status quo. While over-all better alternatives to both languages
+> exist, none of them are in a place to replace HLSL or GLSL. Either because they
+> are vendor locked, or because they don't support the traditional graphics
+> pipeline. Examples of this include CUDA and OpenCL. And while attempts have been
+> made to create language in this space, none of them have gained any notable
+> traction in the gamedev community.
+
+The code for the sky example above:
+
+```rust
+#[spirv(entry = "fragment")]
+pub fn main_fs(input: Input<Vec4>, mut output: Output<Vec4>) {
+    let dir: Vec3 = input.load().truncate();
+    let cs_pos = Vec4(dir.0, -dir.1, 1.0, 1.0);
+    let ws_pos = {
+        let p = clip_to_world.mul_vec4(cs_pos);
+        p.truncate() / p.3
+    };
+    let dir = (ws_pos - eye_pos).normalize();
+    let color = sky(dir, sun_pos); // evaluate Preetham sky model
+    output.store(color.extend(0.0))
+}
+```
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/jg056t/introducing_rustgpu_v01),
+[Hacker News](https://news.ycombinator.com/item?id=24858172),
+[Twitter](https://twitter.com/repi/status/1319274584915365888)_
+
+[rustgpu]: https://github.com/EmbarkStudios/rust-gpu
+[rustgpu-v0.1]: https://github.com/EmbarkStudios/rust-gpu/releases/tag/v0.1
+[embark]: https://www.embark-studios.com/
+
 ### [gfx-rs]
 
 gfx-rs support for D3D has been improved. [@kvark] landed a few critical fixes
@@ -501,6 +1013,77 @@ It is now able to run [bve-reborn] correctly:
 [@kvark]: https://github.com/kvark
 [@cwfitzerald]: https://github.com/cwfitzgerald
 [bve-reborn]: https://github.com/BVE-Reborn/bve-reborn
+
+### [ggez][ggez-github] 0.6 Call for Contributions
+
+The `ggez` game library traditionally tries to make at least one release
+at the end of each year, and that is fast approaching.  While the
+graphics engine rewrite is still a work in progress, there's plenty of
+other useful updates to be made.  Bugfixes, dependency updates, and other
+ergonomic fixes are all on the table.  A lot of work has already been
+done: removing `nalgebra` from the public API in favor of just using
+`mint`, re-working some dependencies to improve build times, and
+updating and cleaning up a pile of minor issues.  However, there's still
+about a hundred accumulated bugs and PR's to triage and figure out, and
+a lot of testing to do.  Please help!  The release checklist is
+available [here][ggez-release-checklist].
+
+[ggez-github]: https://github.com/ggez/ggez/
+[ggez-release-checklist]: https://github.com/ggez/ggez/milestone/6
+
+### [miniquad]
+
+![miniquad_wayland](miniquad_wayland.gif)
+_Miniquad compiled from scratch and running on Wayland._
+
+[miniquad] is cross-platform windowing and rendering library.
+
+This month two big PRs got into the final review stage:
+
+- [Native Wayland support][wayland-pr]:
+  as usual, no third-party dependencies or C code involved;
+  Clean build time for Wayland examples are about 3s.
+- [The Metal backend PR][metal-pr] showed good signs of life,
+  [quad] and [offscreen] examples got successfully run on Metal.
+
+[miniquad]: https://github.com/not-fl3/miniquad
+[wayland-pr]: https://github.com/not-fl3/miniquad/pull/152
+[metal-pr]: https://github.com/not-fl3/miniquad/pull/135
+[quad]: https://github.com/not-fl3/miniquad/blob/master/examples/quad.rs
+[offscreen]: https://github.com/not-fl3/miniquad/blob/master/examples/offscreen.rs
+
+### [macroquad]
+
+![macroquad-gif](macroquad.gif)
+_Macroquad-particles real-life example_
+
+[macroquad] is a cross-platform (Windows/Linux/macOS/Android/iOS/WASM)
+game framework built on top of [miniquad].
+
+This month was about polishing 0.3-alpha version.
+Important things that got fixed:
+
+- Text rendering was reimplemented with [fontdue]:
+  [example][macroquad-text-src], [web demo][macroquad-text-web].
+- A long-term [issue with Android resources system][android-resources-issues]
+  got fixed.
+- Particle system was released:
+  [example][particles-src], [web demo][particles-web-demo].
+
+And special shoutout goes to [donuts] game by [@cedric-h] - a simple game
+made in a couple of days, like a jam game.
+It's a really good showcase of macroquad's approach to simple game code
+that allows hardcoding and hacks for empowering gameplay experiments.
+
+[macroquad]: https://github.com/not-fl3/macroquad
+[macroquad-text-src]: https://github.com/not-fl3/macroquad/blob/master/examples/text.rs
+[macroquad-text-web]: https://not-fl3.github.io/miniquad-samples/macroquad_text.html
+[particles-src]: https://github.com/not-fl3/macroquad/blob/master/particles/examples/particles.rs
+[particles-web]: https://not-fl3.github.io/miniquad-samples/particles.html
+[fontdue]: https://github.com/mooman219/fontdue
+[android-resources-issues]: https://github.com/not-fl3/macroquad/issues/45
+[donuts]: https://github.com/cedric-h/donuts
+[@cedric-h]: https://github.com/cedric-h
 
 ### [rg3d]
 
@@ -529,6 +1112,80 @@ or follow [Dmitry Stepanov on twitter][rg3d_twitter].
 [rg3d_discord]: https://discord.gg/xENF5Uh
 [rg3d_twitter]: https://twitter.com/DmitryS36934349
 
+### [Bevy Engine v0.3][bevy-0-3]
+
+[![bevy logo](bevy_logo.png)][bevy]
+
+[Bevy][bevy] is a refreshingly simple data-driven game engine built in Rust.
+It is [free and open source][bevy-repo] forever!
+
+This month, thanks to 59 contributors, 122 pull requests, and their
+[generous sponsors][bevy-sponsors], Bevy 0.3 was released. You can view the
+[full Bevy 0.3 announcement here][bevy-0-3]. Here are some highlights:
+
+- Initial Android and iOS support
+- Asset system improvements:
+  - Asset handle reference counting
+  - Asset loaders can now load multiple assets
+  - Sub asset loading
+  - Asset dependencies
+- GLTF scene loader
+- Bevy ECS improvements
+  - Query ergonomics: query.iter() returns a real iterator now!
+  - 100% lockless parallel ECS
+  - Performance improvements
+  - Thread local resources
+- Flexible mesh vertex attributes and index buffer specialization
+- WASM asset loading, touch input, transform re-rewrite, gamepad settings,
+  plugin Groups, dynamic Window Settings, documentation search-ability.
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/jnirl3/bevy_03/),
+[hacker news](https://news.ycombinator.com/item?id=24983956),
+[twitter](https://twitter.com/cart_cart/status/1323731853304422400)_
+
+[bevy]: https://bevyengine.org
+[bevy-repo]: https://github.com/bevyengine/bevy
+[bevy-0-3]: https://bevyengine.org/news/bevy-0-3
+[bevy-sponsors]: https://github.com/sponsors/cart
+
+------
+
+Community updates:
+
+- [bevy_rapier 0.5](https://rapier.rs/docs/user_guides/rust_bevy_plugin/getting_started):
+  The Rapier Physics project released updates to their official Bevy plugins, which
+  add support for Bevy 0.3 as well as the latest Rapier features
+  [announced here](https://www.dimforge.com/blog/2020/11/01/this-month-in-dimforge).
+- [bevy_easings](https://crates.io/crates/bevy_easings):
+  A plugin for easing a component value to another value, mainly used
+  to animate transition between two transforms, but usable for other components.
+- [bevy_miniquad](https://github.com/smokku/bevy_miniquad):
+  A plugin replacing winit windowing and render pipeline with
+  [miniquad](https://github.com/not-fl3/miniquad) library.
+- [physme](https://github.com/walterpie/physme):
+  A simplistic physics engine for both 2D and 3D simulation.
+  Physically inaccurate, but feels satisfying and is easy to use.
+- [bevy_networking_turbulence](https://github.com/smokku/bevy_networking_turbulence):
+  Networking plugin running on [naia-socket](https://github.com/naia-rs/naia-socket)
+  and [turbulence](https://github.com/kyren/turbulence) libraries.
+- [Making a Snake Clone](https://mbuffett.com/posts/bevy-snake-tutorial/):
+  Walkthrough on how to make a snake clone.
+- [bevy_tilemap](https://github.com/joshuajbouw/bevy_tilemap):
+  A plugin with generic types for rendering multi-threaded chunk-based tile
+  maps.
+- [Keep Inside](https://github.com/davidB/ld47_keep_inside):
+  A solo pong on a circle (made for Ludum Dare 47)
+- [Keep Moving and Nobody Burns](https://github.com/mockersf/kmanb):
+  A bomberman against time (made for Ludum Dare 47)
+
+Join the Bevy's [Discord][bevy-discord], [/r/bevy subreddit][bevy-reddit],
+and follow [@BevyEngine on Twitter][bevy-twitter].
+
+[bevy-discord]: https://discord.com/invite/gMUk5Ph
+[bevy-reddit]: https://reddit.com/r/bevy
+[bevy-twitter]: https://twitter.com/BevyEngine
+
 ### [Tetra]
 
 [Tetra] is a simple 2D game framework, inspired by XNA and Raylib. This month,
@@ -553,7 +1210,7 @@ implementation of an Ogmo level parser.
 
 This month, it was released onto crates.io for the first time, and a
 [full example][ogmo3-sample] was added, showing how a simple project can be
-loadedinto a game engine.
+loaded into a game engine.
 
 [ogmo3]: https://github.com/17cupsofcoffee/ogmo3
 [Ogmo Editor 3]: https://ogmo-editor-3.github.io/
@@ -567,7 +1224,6 @@ loadedinto a game engine.
 
 It features a renderer that uses Vulkan [ray-tracing extension] supported
 by NVidia RTX cards and future AMD cards.
-
 Screenshot above is rendered using [DDGI] technique implemented exclusively
 with Rust and GLSL for shaders.
 In the whole scene there is only one directional light source - "sun" -
@@ -590,60 +1246,59 @@ Contributions and feedback are always welcome.
 [Wilds]: https://github.com/zakarumych/wilds
 [ray-tracing extension]: https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_KHR_ray_tracing.html
 [DDGI]: https://morgan3d.github.io/articles/2019-04-01-ddgi/
-[Hecs]: https://lib.rs/crates/hecs
 [Goods]: https://github.com/zakarumych/goods
 [~~Shave more yaks~~]: https://github.com/zakarumych/gpu-alloc
 [Rapier]: https://rapier.rs
 [Wgpu]: https://wgpu.rs
 
-### [Arsenal]
+### [fastnbt & fastanvil][fastnbt]
 
-![text logo](arsenal.png)
+![output example](fastnbt.png)
 
-[Arsenal] is a [Blender] game engine built on Rust and the [Bevy] game engine.
-Arsenal's goal is to bring the ability to makes games of any scale to game
-developers and artists of any experience level.
+[fastnbt] by [@owengage] is a fast parsing library
+for Minecraft's NBT and Anvil formats.
 
-In the last month Arsenal has gotten back into full steam development with the
-goal to produce an Arsenal 0.2 release that you can make simple games with.
-Development has focused thus far on the all-important scripting interface
-necessary to be able to make games without re-compiling the engine. Great
-progress has been made on a Bevy [pull request][bevy_dynamic_pr] to facilitate
-dynamic components and systems, and the first efforts have been started to
-leverage that functionality to enable scripting with Python.
+The project consists of several crates:
 
-Weekly Arsenal development updates are made in the [Arsenal channel] on
-[Katharostech.com], including the updates for this month:
+- fastnbt - fast deserializer and parser for Minecraft: Java Edition's
+  NBT data format.
+- fastanvil - for rendering Minecraft worlds to maps.
+- fastnbt-tools - various tools for NBT/Anvil, notably a map renderer.
+- anvil-wasm - an entirely in-the-browser map renderer.
+  Demo at [owengage.com/anvil][anvil].
 
-- [Arsenal Development: Week 1 of Full Time Dev][arsenal_dev_week_1]
-- [Arsenal Development: Week 2 - Bevy Benchmarks][arsenal_dev_week_2]
-- [Arsenal Development: Week 3 - Nailing Down Dynamic ECS][arsenal_dev_week_3]
-- [Arsenal Development: Week 4 - Lock Free Dynamic Queries][arsenal_dev_week_4]
+The project supports only the latest version of Minecraft (1.16 at the moment).
 
-You can check the [project's workboard][arsenal-workboard],
-provide feedback [on the issues][arsenal-issues],
-and support the authors at [Github Sponsors page][arsenal-sponsors].
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/jj6k9b/any_minecraft_fans)_
 
-[arsenal]: https://github.com/katharostech/arsenal
-[blender]: https://blender.org
-[bevy]: https://bevyengine.org
-[bevy_dynamic_pr]: https://github.com/bevyengine/bevy/pull/623
-[katharostech.com]: https://katharostech.com
-[arsenal channel]: https://katharostech.com/tag/arsenal
-[arsenal_dev_week_1]: https://katharostech.com/post/arsenal-development-week-1-of-full-time-dev
-[arsenal_dev_week_2]: https://katharostech.com/post/arsenal-development-week-2-bevy-benchmarks
-[arsenal_dev_week_3]: https://katharostech.com/post/arsenal-development-week-3-nailing-down-dynamic
-[arsenal_dev_week_4]: https://katharostech.com/post/arsenal-development-week-4-lock-free-dynamic-queries
-[arsenal-workboard]: https://github.com/katharostech/arsenal/projects/1
-[arsenal-issues]: https://github.com/katharostech/arsenal/issues
-[arsenal-sponsors]: https://github.com/sponsors/katharostech
+[fastnbt]: https://github.com/owengage/fastnbt
+[@owengage]: https://github.com/owengage
+[anvil]: https://owengage.com/anvil
 
-### Ajour - World of Warcraft Addon Manager
+### mcproto
+
+mcproto by [@Twister915] is an implementation of the Minecraft multiplayer
+network protocol in Rust. It consists of three crates:
+
+- [mcproto-rs] - the protocol itself,
+- [mctokio] - tokio I/O stuff,
+- [rustcord] - a layer 7 server-switching proxy implementation (WIP).
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/jcbawo/the_entire_minecraft_protocol_in_rust)_
+
+[mcproto-rs]: https://github.com/Twister915/mcproto-rs
+[mctokio]: https://github.com/Twister915/mctokio
+[rustcord]: https://github.com/Twister915/rustcord
+[@Twister915]: https://github.com/Twister915
+
+### [Ajour] - World of Warcraft Addon Manager
 
 [![Ajour Banner](ajour-banner.jpg)][Ajour]
 
 [Ajour] is a World of Warcraft addon manager written in Rust using [Iced] as GUI
-library. The project is completely advertisement free, privacy respecting and
+library. The project is completely advertisement free, privacy respecting, and
 open source.
 
 October updates include:
@@ -670,7 +1325,7 @@ includes Rust as part of its build system.
 written in Rust as a gstreamer plugin to convert certain media encodings
 from one format to another.
 
-Doucmentation for building Proton is available on [Github][Proton-Github].
+Documentation for building Proton is available on [Github][Proton-Github].
 Further documentation on Media Converter and its source code is available
 on the module's [repository][Proton-Media-Converter-Github]
 
@@ -681,27 +1336,44 @@ on the module's [repository][Proton-Media-Converter-Github]
 
 <!-- Up to 10 links to interesting issues -->
 
-## Meeting Minutes
-
-<!-- Up to 10 most important notes + a link to the full details -->
-
-[See all meeting issues][label_meeting] including full text notes
-or [join the next meeting][join].
-
-[label_meeting]: https://github.com/rust-gamedev/wg/issues?q=label%3Ameeting
+- [rust-gamedev/rust-gamedev.github.io](https://github.com/rust-gamedev/rust-gamedev.github.io):
+  - [#269 "Proper style guide/contributing guidelines"](https://github.com/rust-gamedev/rust-gamedev.github.io/issues/269);
+- [rust-gamedev/wg](https://github.com/rust-gamedev/wg):
+  - [#21 "Planning a survey for Rust game developers"](https://github.com/rust-gamedev/wg/issues/21);
+  - [#94 "raw-window-handle maintenance"](https://github.com/rust-gamedev/wg/issues/94);
+- [rust-gamedev/ecs_bench_suite](https://github.com/rust-gamedev/ecs_bench_suite):
+  - [#14 "Also benchmark in debug mode"](https://github.com/rust-gamedev/ecs_bench_suite/issues/14);
 
 ## Requests for Contribution
 
 <!-- Links to "good first issue"-labels or direct links to specific tasks -->
 
-## Jobs
+- [Embark's open issues][embark-open-issues] ([embark.rs]).
+- [winit's "Good first issue" and “help wanted” issues][winit-issues].
+- [gfx-rs's "contributor-friendly" issues][gfx-issues].
+- [wgpu's "help wanted" issues][wgpu-help-wanted].
+- [luminance's "low hanging fruit" issues][luminance-fruits].
+- [ggez's "good first issue" issues][ggez-issues].
+- [Veloren's "beginner" issues][veloren-beginner].
+- [Amethyst's "good first issue" issues][amethyst-issues].
+- [A/B Street's "good first issue" issues][abstreet-issues].
+- [Mun's "good first issue" issues][mun-issues].
+- [SIMple Mechanic's good first issues][simm-issues].
+- [Bevy's "good first issue" issues][bevy-issues].
 
-<!-- An optional section for new jobs related to Rust gamedev -->
-
-## Bonus
-
-<!-- Bonus section to make the newsletter more interesting
-and highlight events from the past. -->
+[embark.rs]: https://embark.rs
+[embark-open-issues]: https://github.com/search?q=user:EmbarkStudios+state:open
+[winit-issues]: https://github.com/rust-windowing/winit/issues?utf8=✓&q=is%3Aissue+is%3Aopen+label%3A%22status%3A+help+wanted%22+label%3A%22Good+first+issue%22
+[gfx-issues]: https://github.com/gfx-rs/gfx/issues?q=is%3Aissue+is%3Aopen+label%3Acontributor-friendly
+[wgpu-help-wanted]: https://github.com/gfx-rs/wgpu-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
+[luminance-fruits]: https://github.com/phaazon/luminance-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22low+hanging+fruit%22
+[ggez-issues]: https://github.com/ggez/ggez/labels/%2AGOOD%20FIRST%20ISSUE%2A
+[veloren-beginner]: https://gitlab.com/veloren/veloren/issues?label_name=beginner
+[amethyst-issues]: https://github.com/amethyst/amethyst/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[abstreet-issues]: https://github.com/dabreegster/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
+[simm-issues]: https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue
+[bevy-issues]: https://github.com/bevyengine/bevy/labels/good%20first%20issue
 
 ------
 
@@ -713,12 +1385,9 @@ Want something mentioned in the next newsletter?
 Also, subscribe to [@rust_gamedev on Twitter][@rust_gamedev]
 or [/r/rust_gamedev subreddit][/r/rust_gamedev] if you want to receive fresh news!
 
-<!--
-TODO: Add real links and un-comment once this post is published
 **Discussions of this post**:
-[/r/rust](TODO),
-[twitter](TODO).
--->
+[/r/rust](https://reddit.com/r/rust/comments/jr2170/this_month_in_rust_gamedev_15_october_2020),
+[twitter](https://twitter.com/rust_gamedev/status/1325853594512396289).
 
 [/r/rust_gamedev]: https://reddit.com/r/rust_gamedev
 [@rust_gamedev]: https://twitter.com/rust_gamedev

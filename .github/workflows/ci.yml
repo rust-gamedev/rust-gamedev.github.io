@@ -1,6 +1,9 @@
 name: Zola
 
-on: [push, pull_request]
+on:
+  push:
+    branches: source
+  pull_request:
 
 jobs:
   zola:

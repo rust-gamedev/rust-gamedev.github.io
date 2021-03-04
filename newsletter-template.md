@@ -31,6 +31,7 @@ Feel free to send PRs about your own projects!
 
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
+- [Engine Updates](#engine-updates)
 - [Library & Tooling Updates](#library-tooling-updates)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Meeting Minutes](#meeting-minutes)
@@ -61,6 +62,8 @@ If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
 ## Game Updates
+
+## Engine Updates
 
 ## Learning Material Updates
 
