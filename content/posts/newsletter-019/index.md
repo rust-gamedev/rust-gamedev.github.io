@@ -181,7 +181,6 @@ You can try out egui in the [online demo].
 [versions 0.9 and 0.10]: https://github.com/emilk/egui/blob/master/CHANGELOG.md
 [@emilk]: https://twitter.com/ernerfeldt
 
-
 ### [rkyv]
 
 [rkyv] is a zero-copy deserialization framework for Rust. It's similar to
