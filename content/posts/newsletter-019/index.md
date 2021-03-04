@@ -119,6 +119,25 @@ shaders. Read all about this month's changes in this
 [paddle]: https://github.com/jakmeier/paddle
 [paddlers-article]: https://www.jakobmeier.ch/blogging/Paddlers_6.html
 
+### Stellary 2
+
+[![Stellary 2 Anti-Missile Laser](stellary2-anti-missile-laser.gif)][stellary2-aml-tweet]
+_▶️ Click to [watch the full video][stellary2-aml-tweet]_
+
+Stellary 2 by [@CoffeJunkStudio][coffe-junk-studio] is a 3D
+real-time space shooter in which the player has to prevail against enemy space ships.
+
+The latest updates include:
+* Players’ space ships
+* Prediction of the rocket trajectory
+* [Energy budget][stellary2-aml-tweet]
+* Weapon enhancements ([trident laser][stellary2-trident-laser-tweet] & [missile splitting][stellary2-missile-splitting-tweet])
+
+[coffe-junk-studio]: https://twitter.com/CoffeJunkStudio
+[stellary2-aml-tweet]: https://twitter.com/CoffeJunkStudio/status/1360637714660548618
+[stellary2-trident-laser-tweet]: https://twitter.com/CoffeJunkStudio/status/1358437135230119936
+[stellary2-missile-splitting-tweet]: https://twitter.com/CoffeJunkStudio/status/1365666841838952450
+
 ### [Theta Wave]
 
 [![Homing Missiles](theta_wave.gif)][Theta Wave]
