@@ -189,6 +189,26 @@ future project planning.
 [rkyv-book]: https://djkoloski.github.io/rkyv
 [rkyv-request-for-feedback]: https://github.com/djkoloski/rkyv/issues/67
 
+### [This Month in Mun][mun-february]
+
+[![Mun logo](mun-logo.png)][Mun]
+
+[Mun] is a scripting language for gamedev focused on quick iteration times
+that is written in Rust.
+
+It's been a long time coming, but the Mun Core Team is closing in on the finish
+line for Mun v0.3. They are only a couple of pull requests away from locking
+the build for bug fixes and documentation. The [February updates][mun-february]
+include:
+
+- `use` statements language support;
+- incremental file updates for the language server;
+- LLVM 11 support;
+- bug fixes and other improvements.
+
+[Mun]: https://mun-lang.org
+[mun-february]: https://mun-lang.org/blog/2021/03/04/this-month-february
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
