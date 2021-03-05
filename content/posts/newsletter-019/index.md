@@ -75,6 +75,24 @@ organic/fleshy theme. It is implemented using [tetra]. This month update include
 [@im_oab]: https://twitter.com/im_oab
 [tetra]: https://github.com/17cupsofcoffee/tetra
 
+### [Fishgame][fishgame]
+
+![Fishgame gui](fishgame.gif)
+_Fish game UI._
+
+[Fishgame][fishgame] [(web build)][fishgame-itch] is an online multiplayer game,
+created in a collaboration between [Nakama][nakama], an open-source scalable
+game server, and the [Macroquad](https://github.com/not-fl3/macroquad/) game
+engine.
+
+This month fishgame utilized new macroquad's UI system and got the title screen
+and better login screen.
+
+[fishgame]: https://github.com/heroiclabs/fishgame-macroquad
+[fishgame-itch]: https://fedorgames.itch.io/fish-game?secret=UAVcggHn332a
+[nakama]: https://heroiclabs.com/
+[macroquad]: https://github.com/not-fl3/macroquad
+
 ### [Teki (敵)][teki]
 
 ![teki preview](teki.gif)
