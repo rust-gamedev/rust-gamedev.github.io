@@ -150,7 +150,7 @@ circuits, and befriend the crabs-but don't let them out!
 This month's major updates include:
 
 - New puzzles
-- Support for standard video settings (see [here](wor-fs-exclusive-blog))
+- Support for standard video settings (see [here][wor-fs-exclusive-blog])
 - The new promotional art shown above
 
 [wor-site]: https://store.steampowered.com/app/1110620/Way_of_Rhea/
