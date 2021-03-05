@@ -97,6 +97,28 @@ This month's updates include:
 [SDL2]: https://github.com/Rust-SDL2/rust-sdl2
 [Legion]: https://crates.io/crates/legion
 
+### [Paddlers]
+
+![A brightly colored scene with a grass field, a river, and some happy ducks.](paddlers_0.2.1.jpg)
+
+[Paddlers] ([GitHub][paddlers-gh], [Online Demo][paddlers-demo]) by [@jakmeier]
+is an experimental MMORTS with the backend and the web client all written in
+Rust.
+
+February gave birth to Paddlers release 0.2.1 and a ton of new game mechanics.
+It features a skill map, quests, and a refreshed take on the tower defense
+aspect of the game. On top of that, the rendering engine (part of the
+[Paddle][paddle] framework) has been reworked and now allows for custom
+shaders. Read all about this month's changes in this
+[article][paddlers-article] released on the developer's private website.
+
+[Paddlers]: https://paddlers.ch
+[paddlers-gh]: https://github.com/jakmeier/paddlers-browser-game
+[paddlers-demo]: https://demo.paddlers.ch
+[@jakmeier]: https://github.com/jakmeier
+[paddle]: https://github.com/jakmeier/paddle
+[paddlers-article]: https://www.jakobmeier.ch/blogging/Paddlers_6.html
+
 ### [Theta Wave]
 
 [![Homing Missiles](theta_wave.gif)][Theta Wave]
@@ -147,6 +169,22 @@ February's full weekly devlogs: "This Week In Veloren...":
 
 [veloren]: https://veloren.net
 
+### [Project YAWC][yawc-twitter]
+
+![A screenshot from a game of Project YAWC.](yawc_n19.png)
+
+[Project YAWC][yawc-twitter] is a turn-based strategy game in development by junkmail.
+February saw the release of Alpha 4, bringing special units and auctions to determine
+ownership of special units, as well as changes to netcode, balance, and UI.
+
+Those interested in participating in the alpha test should fill out this
+[form][yawc-form].
+To learn more, you can follow the new [@projectyawc][yawc-twitter] Twitter
+or send an e-mail to projectyawc@gmail.com.
+
+[yawc-form]: https://forms.gle/tzP6oRaJmApgMyrj7
+[yawc-twitter]: https://twitter.com/projectyawc
+
 ## Learning Material Updates
 
 ## Engine Updates
@@ -194,6 +232,99 @@ this in action!
 
 ## Library & Tooling Updates
 
+### [Rafx][rafx-github]
+
+![Screenshot from Rafx Rendering Framework](rafx-screenshot.png)
+
+Rafx is a multi-backend renderer that optionally integrates with the
+[distill][rafx-distill] asset pipeline. Rafx is divided into three tiers of
+functionality:
+
+`rafx-api` provides a custom GPU API abstraction layer that currently supports
+vulkan and metal. ([API in rust psuedocode][rafx-api-design])
+
+`rafx-framework` builds on the API layer using ideas found in modern shipping
+AAA titles. Rendering is pipelined in a separate thread in three phases, using
+jobs to extract data from the main thread, process the data on the render
+thread, and write the draw calls to command buffers.
+[[Tatarchuk 2015][rafx-gdc-2015]] A render graph ensures correct
+synchronization. [[O'Donnell 2017][rafx-gdc-2017]] The framework also provides
+a material abstraction and shader pipeline.
+
+`rafx-assets` adds integration with the [distill][rafx-distill] asset pipeline.
+This ensures that when an asset like a mesh is loaded, other related assets
+like textures/material/vertex data are loaded. By integrating with distill,
+rafx provides advanced features like streaming live asset updates to remote
+devices.
+
+More information about rafx:
+
+- [Github][rafx-github]
+- [Documentation][rafx-documentation]
+- [Why Rafx?][why-rafx] (includes similarities/differences with other rust
+  and non-rust alternatives)
+
+[rafx-github]: https://github.com/aclysma/rafx
+[rafx-documentation]: https://github.com/aclysma/rafx/blob/master/docs/index.md
+[why-rafx]: https://github.com/aclysma/rafx/blob/master/docs/why_rafx.md
+[rafx-api-design]: https://github.com/aclysma/rafx/blob/master/docs/api/api_design_in_rust_psuedocode.rs
+[rafx-api-triangle-example]: https://github.com/aclysma/rafx/blob/master/rafx/examples/api_triangle/api_triangle.rs
+[rafx-gdc-2015]: http://advances.realtimerendering.com/destiny/gdc_2015/Tatarchuk_GDC_2015__Destiny_Renderer_web.pdf
+[rafx-gdc-2017]: https://www.gdcvault.com/play/1024612/FrameGraph-Extensible-Rendering-Architecture-in
+[rafx-distill]: https://github.com/amethyst/distill
+
+### [basis-universal-rs]
+
+`basis-universal` provides bindings for [Binomial LLC][binomial-llc]'s
+[Basis Universal texture codec][basis-universal-upstream].
+
+Basis Universal is a state-of-the art
+[supercompressed][basis-universal-supercompression] texture codec that
+was recently [open-sourced][basis-universal-open-sourced] by Binomial in
+partnership with Google. It was
+[contributed][basis-universal-contributed-kronos] to the Khronos glTF
+3D Transmission Open Standard.
+
+The library has two primary uses:
+
+- Compresses and encode textures "offline" to a custom format
+- Transcoding: Unpack the custom format directly to GPU-friendly compressed
+  formats. The final format can be chosen at game runtime to be compatible
+  with available GPU hardware.
+
+Basis universal format can also store mipmapped textures and cubemaps,
+neither of which is possible with "normal" file formats. Mipmaps can be
+generated by the library during compression.
+
+Compression is very slow (around 7-10s for a 2k texture) but transcoding is
+relatively fast (around 5-40ms for a 2k texture depending on quality). Memory
+savings at runtime are generally >= 75% (depending on the transcode format
+and quality)
+
+[binomial-llc]: http://www.binomial.info
+[basis-universal-rs]: https://github.com/aclysma/basis-universal-rs
+[basis-universal-upstream]: https://github.com/BinomialLLC/basis_universal
+[basis-universal-supercompression]: http://gamma.cs.unc.edu/GST/gst.pdf
+[basis-universal-open-sourced]: https://opensource.googleblog.com/2019/05/google-and-binomial-partner-to-open.html
+[basis-universal-contributed-kronos]: https://www.khronos.org/blog/google-and-binomial-contribute-basis-universal-texture-format-to-khronos-gltf-3d-transmission-open-standard
+
+### [egui]
+
+![The plot thickens](egui-plot.gif)
+
+[egui] by [@emilk] is an easy-to-use immediate mode GUI library in pure Rust.
+
+This month [versions 0.9 and 0.10] of egui were released with many
+improvements big and small, including a 2D plot, more text styles,
+disabling widgets and improved documentation.
+
+You can try out egui in the [online demo].
+
+[egui]: https://github.com/emilk/egui
+[online demo]: https://emilk.github.io/egui
+[versions 0.9 and 0.10]: https://github.com/emilk/egui/blob/master/CHANGELOG.md
+[@emilk]: https://twitter.com/ernerfeldt
+
 ### [rkyv]
 
 [rkyv] is a zero-copy deserialization framework for Rust. It's similar to
@@ -218,6 +349,26 @@ future project planning.
 [rkyv-v0.4]: https://github.com/djkoloski/rkyv/releases/tag/v0.4.0
 [rkyv-book]: https://djkoloski.github.io/rkyv
 [rkyv-request-for-feedback]: https://github.com/djkoloski/rkyv/issues/67
+
+### [This Month in Mun][mun-february]
+
+[![Mun logo](mun-logo.png)][Mun]
+
+[Mun] is a scripting language for gamedev focused on quick iteration times
+that is written in Rust.
+
+It's been a long time coming, but the Mun Core Team is closing in on the finish
+line for Mun v0.3. They are only a couple of pull requests away from locking
+the build for bug fixes and documentation. The [February updates][mun-february]
+include:
+
+- `use` statements language support;
+- incremental file updates for the language server;
+- LLVM 11 support;
+- bug fixes and other improvements.
+
+[Mun]: https://mun-lang.org
+[mun-february]: https://mun-lang.org/blog/2021/03/04/this-month-february
 
 ## Popular Workgroup Issues in Github
 
