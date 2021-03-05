@@ -161,6 +161,23 @@ Notable changes:
 [@carlosupina]: https://twitter.com/carlosupina
 [Amethyst Engine]: https://amethyst.rs/
 
+### [Way of Rhea][wor-site]
+
+![Way of Rhea screenshot](wor-capsule.png)
+
+Way of Rhea is a picturesque puzzle game that lets you correct your mistakes.
+Change your color, teleport past the colored gates, master the color powered
+circuits, and befriend the crabs-but don't let them out!
+
+This month's major updates include:
+
+- New puzzles
+- Support for standard video settings (see [here][wor-fs-exclusive-blog])
+- The new promotional art shown above
+
+[wor-site]: https://store.steampowered.com/app/1110620/Way_of_Rhea/
+[wor-fs-exclusive-blog]: https://www.anthropicstudios.com/2021/02/20/fullscreen-exclusive-is-a-lie/
+
 ### [Station Iapetus]
 
 [![Station Iapetus Youtube](station-iapetus-youtube.JPG)][si-youtube]
