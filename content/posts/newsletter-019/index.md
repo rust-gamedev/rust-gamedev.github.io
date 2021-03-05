@@ -144,7 +144,7 @@ Notable changes:
 ### [Fullscreen Exclusive Is A Lie (...sort of)][fs-exclusive]
 
 ![Way of Rhea's video settings](wor-video-settings.jpg)
-_[Way of Rhea][wor-site]'s icon in the taskbar_
+_[Way of Rhea][wor-site]'s video settings_
 
 [Anthropic Studios][anthropic] has [shared an article][fs-exclusive] walking through what they learned from implementing fullscreen exclusivity in their Rust game engine.
 
@@ -153,6 +153,7 @@ _Discussions:
 
 [fs-exclusive]: https://www.anthropicstudios.com/2021/02/20/fullscreen-exclusive-is-a-lie/
 [anthropic]: https://anthropicstudios.com
+[wor-site]: https://store.steampowered.com/app/1110620/Way_of_Rhea/
 
 ## Engine Updates
 
