@@ -161,6 +161,29 @@ Notable changes:
 [@carlosupina]: https://twitter.com/carlosupina
 [Amethyst Engine]: https://amethyst.rs/
 
+### [Station Iapetus]
+
+[![Station Iapetus Youtube](station-iapetus-youtube.JPG)][si-youtube]
+_Check [gameplay video][si-youtube] on YouTube_
+
+[Station Iapetus][Station Iapetus] by [@mrDIMAS]
+is a 3rd person shooter on the space prison Iapetus near the Saturn.
+
+- New inventory (check the video)
+- Ability to throw grenades
+- Splash damage
+- More textures and materials
+- Hit boxes for bots and player
+- Better bots navigation
+- Laser sight improvements
+- Weapon display now shows bullet and grenades count
+- Lots of other small fixes and improvements
+
+[@mrDIMAS]: https://github.com/mrDIMAS
+[rg3d]: https://github.com/mrDIMAS/rg3d
+[Station Iapetus]: https://github.com/mrDIMAS/StationIapetus
+[si-youtube]: https://www.youtube.com/watch?v=cagT0GbiLxY
+
 ### [Veloren][veloren]
 
 ![Lush forest](veloren.jpg)
@@ -230,6 +253,34 @@ For more details, see the [changelog][tetra-changelog], or
 [tetra]: https://github.com/17cupsofcoffee/tetra
 [tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
 [tetra-twitter]: https://twitter.com/17cupsofcoffee/status/1357750836370284544
+
+### [rg3d]
+
+[![rg3d Youtube](rg3d-youtube.JPG)][rg3d-youtube]
+_Check [navmesh agent navigation][rg3d-youtube] on YouTube_
+
+[rg3d] ([Discord][rg3d_discord], [Twitter][rg3d_twitter])
+is a game engine that aims to be easy to use and provide large set
+of out-of-box features. Some of the recent updates:
+
+- Ability to render UI instances in a texture
+- FBX name validator
+- Fast Approximate Anti-Aliasing (FXAA)
+- Integrity checks for resource inheritance
+- Nodes now can be tagged
+- Animation blending machine now has BlendAnimationsByIndex node
+- Multi-directional binding between physics and graph
+- SceneDrawingContext improvements: draw_capsule, draw_capsule segment
+- Performance statistics for scenes
+- ColorGradient improvements
+- [Path smoothing for navmesh agent][navmesh]
+- Lots of other small fixes and improvements.
+
+[rg3d]: https://github.com/mrDIMAS/rg3d
+[rg3d_discord]: https://discord.gg/xENF5Uh
+[rg3d_twitter]: https://twitter.com/DmitryNStepanov
+[navmesh]: https://www.youtube.com/watch?v=tqFdQ5OPB1I
+[rg3d-youtube]: https://www.youtube.com/watch?v=tqFdQ5OPB1I
 
 ### [A/B Street]
 
