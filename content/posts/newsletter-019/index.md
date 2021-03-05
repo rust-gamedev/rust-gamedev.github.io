@@ -143,6 +143,33 @@ Notable changes:
 
 ## Engine Updates
 
+### [macroquad]
+
+![macroquad_gui](macroquad_skins.gif)
+_Macroquad-UI runtime GUI skins configuration._
+
+[macroquad] is a cross-platform (Windows/Linux/macOS/Android/iOS/WASM)
+game framework built on top of [miniquad].  
+
+This month biggest update: Macroquad got its own fully skinnable and
+customizable immediate mode UI system 🎉.  
+The new system took origins from heavily refactored [megaui] and support
+custom font sizes, fonts and skins for each UI element.  
+While work is still in progress, all important decisions were made and
+implementation [PR][macroquad-ui-pr] got merged.
+
+Minor updates:
+
+- [Textures support][macroquad-textures-pr] for macroquad materials
+- Experimental 2D pan/zoom camera [implementation][macroquad-camera-pr]
+
+[megaui]: https://github.com/not-fl3/megaui
+[miniquad]: https://github.com/not-fl3/miniquad
+[macroquad]: https://github.com/not-fl3/macroquad
+[macroquad-ui-pr]: https://github.com/not-fl3/macroquad/pull/156
+[macroquad-textures-pr]: https://github.com/not-fl3/macroquad/pull/152
+[macroquad-camera-pr]: https://github.com/not-fl3/macroquad/pull/146
+
 ### [Tetra]
 
 ![Tetra's demo game](./tetra.png)
