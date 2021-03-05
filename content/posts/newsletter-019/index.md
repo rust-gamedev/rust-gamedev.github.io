@@ -232,6 +232,23 @@ or send an e-mail to projectyawc@gmail.com.
 
 ## Learning Material Updates
 
+### [Fullscreen Exclusive Is A Lie (...sort of)][fs-exclusive]
+
+![Way of Rhea's video settings](wor-video-settings.jpg)
+_[Way of Rhea][wor-site]'s video settings_
+
+[Anthropic Studios][anthropic] has [shared an article][fs-exclusive] walking
+through what they learned from implementing fullscreen exclusivity in their Rust
+game engine and testing the fullscreen exclusive implementation of existing
+games on a variety of hardware.
+
+_Discussions:
+[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/lokeml/fullscreen_exclusive_is_a_lie_sort_of)_
+
+[fs-exclusive]: https://www.anthropicstudios.com/2021/02/20/fullscreen-exclusive-is-a-lie/
+[anthropic]: https://anthropicstudios.com
+[wor-site]: https://store.steampowered.com/app/1110620/Way_of_Rhea/
+
 ## Engine Updates
 
 ### [Tetra]
