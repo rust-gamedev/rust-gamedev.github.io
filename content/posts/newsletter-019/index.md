@@ -141,6 +141,19 @@ Notable changes:
 
 ## Learning Material Updates
 
+### [Rhythm game in Rust using Bevy]
+
+![Rhythm game demo](bevy-rhythm-game.gif)
+_Rhythm game demo_
+
+[Rhythm game in Rust using Bevy] is an introductory tutorial for Bevy made 
+by [@guimcaballero]. It guides through how to use Bevy to develop a Rhythm 
+game, including how to play audio, use GLSL shaders, and make a simple menu
+screen.
+
+[Rhythm game in Rust using Bevy]: https://caballerocoll.com/blog/bevy-rhythm-game/
+[@guimcaballero]: https://twitter.com/GuimCaballero
+
 ## Engine Updates
 
 ### [Tetra]
