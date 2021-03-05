@@ -75,6 +75,24 @@ organic/fleshy theme. It is implemented using [tetra]. This month update include
 [@im_oab]: https://twitter.com/im_oab
 [tetra]: https://github.com/17cupsofcoffee/tetra
 
+### [Fishgame][fishgame]
+
+![Fishgame gui](fishgame.gif)
+_Fish game UI._
+
+[Fishgame][fishgame] [(web build)][fishgame-itch] is an online multiplayer game,
+created in a collaboration between [Nakama][nakama], an open-source scalable
+game server, and the [Macroquad](https://github.com/not-fl3/macroquad/) game
+engine.
+
+This month fishgame utilized new macroquad's UI system and got the title screen
+and better login screen.
+
+[fishgame]: https://github.com/heroiclabs/fishgame-macroquad
+[fishgame-itch]: https://fedorgames.itch.io/fish-game?secret=UAVcggHn332a
+[nakama]: https://heroiclabs.com/
+[macroquad]: https://github.com/not-fl3/macroquad
+
 ### [Teki (敵)][teki]
 
 ![teki preview](teki.gif)
@@ -119,6 +137,28 @@ shaders. Read all about this month's changes in this
 [paddle]: https://github.com/jakmeier/paddle
 [paddlers-article]: https://www.jakobmeier.ch/blogging/Paddlers_6.html
 
+### Stellary 2
+
+[![Stellary 2 Anti-Missile Laser](stellary2-anti-missile-laser.gif)][stellary2-aml-tweet]
+_▶️ Click to [watch the full video][stellary2-aml-tweet]_
+
+Stellary 2 by [@CoffeJunkStudio][coffe-junk-studio] is a 3D
+real-time space shooter in which the player has to prevail against enemy space
+ships.
+
+The latest updates include:
+
+- Players’ space ships
+- Prediction of the rocket trajectory
+- [Energy budget][stellary2-aml-tweet]
+- Weapon enhancements ([trident laser][stellary2-trident-laser-tweet] &
+[missile splitting][stellary2-missile-splitting-tweet])
+
+[coffe-junk-studio]: https://twitter.com/CoffeJunkStudio
+[stellary2-aml-tweet]: https://twitter.com/CoffeJunkStudio/status/1360637714660548618
+[stellary2-trident-laser-tweet]: https://twitter.com/CoffeJunkStudio/status/1358437135230119936
+[stellary2-missile-splitting-tweet]: https://twitter.com/CoffeJunkStudio/status/1365666841838952450
+
 ### [Theta Wave]
 
 [![Homing Missiles](theta_wave.gif)][Theta Wave]
@@ -139,7 +179,110 @@ Notable changes:
 [@carlosupina]: https://twitter.com/carlosupina
 [Amethyst Engine]: https://amethyst.rs/
 
+### [Way of Rhea][wor-site]
+
+![Way of Rhea screenshot](wor-capsule.png)
+
+Way of Rhea is a picturesque puzzle game that lets you correct your mistakes.
+Change your color, teleport past the colored gates, master the color powered
+circuits, and befriend the crabs-but don't let them out!
+
+This month's major updates include:
+
+- New puzzles
+- Support for standard video settings (see [here][wor-fs-exclusive-blog])
+- The new promotional art shown above
+
+[wor-site]: https://store.steampowered.com/app/1110620/Way_of_Rhea/
+[wor-fs-exclusive-blog]: https://www.anthropicstudios.com/2021/02/20/fullscreen-exclusive-is-a-lie/
+
+### [Station Iapetus]
+
+[![Station Iapetus Youtube](station-iapetus-youtube.JPG)][si-youtube]
+_Check [gameplay video][si-youtube] on YouTube_
+
+[Station Iapetus][Station Iapetus] by [@mrDIMAS]
+is a 3rd person shooter on the space prison Iapetus near the Saturn.
+
+- New inventory (check the video)
+- Ability to throw grenades
+- Splash damage
+- More textures and materials
+- Hit boxes for bots and player
+- Better bots navigation
+- Laser sight improvements
+- Weapon display now shows bullet and grenades count
+- Lots of other small fixes and improvements
+
+[@mrDIMAS]: https://github.com/mrDIMAS
+[rg3d]: https://github.com/mrDIMAS/rg3d
+[Station Iapetus]: https://github.com/mrDIMAS/StationIapetus
+[si-youtube]: https://www.youtube.com/watch?v=cagT0GbiLxY
+
+### [Veloren][veloren]
+
+![Lush forest](veloren.jpg)
+_A lush forest to explore_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In February, lots of work has been done on worldsim, with travelling merchants
+being worked on. Some experiments have been happening on procedurally generating
+giant trees. Lots is being done on the combat end, with dual wielding and
+modular weapons being a big focus. Player trading was also implemented, which
+allows items to be shared on the server. A large internal shift is being made
+from diesel to rusqlite.
+
+A rework of attacks was done to allow their effects to be more dynamic. Lots of
+work has been done on the art team, with new weapon models, new mobs like fish.
+Some quality of life improvements were added, like humanoids automatically
+deploying gliders while falling to avoid fall damage. CI changes were made to
+finally have the Github mirror update periodically without error from LFS
+storage. In March, Veloren will release 0.9.
+
+February's full weekly devlogs: "This Week In Veloren...":
+[#105](https://veloren.net/devblog-105),
+[#106](https://veloren.net/devblog-106),
+[#107](https://veloren.net/devblog-107),
+[#108](https://veloren.net/devblog-108).
+
+[veloren]: https://veloren.net
+
+### [Project YAWC][yawc-twitter]
+
+![A screenshot from a game of Project YAWC.](yawc_n19.png)
+
+[Project YAWC][yawc-twitter] is a turn-based strategy game in development by junkmail.
+February saw the release of Alpha 4, bringing special units and auctions to determine
+ownership of special units, as well as changes to netcode, balance, and UI.
+
+Those interested in participating in the alpha test should fill out this
+[form][yawc-form].
+To learn more, you can follow the new [@projectyawc][yawc-twitter] Twitter
+or send an e-mail to projectyawc@gmail.com.
+
+[yawc-form]: https://forms.gle/tzP6oRaJmApgMyrj7
+[yawc-twitter]: https://twitter.com/projectyawc
+
 ## Learning Material Updates
+
+### [Fullscreen Exclusive Is A Lie (...sort of)][fs-exclusive]
+
+![Way of Rhea's video settings](wor-video-settings.jpg)
+_[Way of Rhea][wor-site]'s video settings_
+
+[Anthropic Studios][anthropic] has [shared an article][fs-exclusive] walking
+through what they learned from implementing fullscreen exclusivity in their Rust
+game engine and testing the fullscreen exclusive implementation of existing
+games on a variety of hardware.
+
+_Discussions:
+[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/lokeml/fullscreen_exclusive_is_a_lie_sort_of)_
+
+[fs-exclusive]: https://www.anthropicstudios.com/2021/02/20/fullscreen-exclusive-is-a-lie/
+[anthropic]: https://anthropicstudios.com
+[wor-site]: https://store.steampowered.com/app/1110620/Way_of_Rhea/
 
 ### [Rhythm game in Rust using Bevy]
 
@@ -155,6 +298,33 @@ screen.
 [@guimcaballero]: https://twitter.com/GuimCaballero
 
 ## Engine Updates
+
+### [macroquad]
+
+![macroquad_gui](macroquad_skins.gif)
+_Macroquad-UI runtime GUI skins configuration._
+
+[macroquad] is a cross-platform (Windows/Linux/macOS/Android/iOS/WASM)
+game framework built on top of [miniquad].  
+
+This month biggest update: Macroquad got its own fully skinnable and
+customizable immediate mode UI system 🎉.  
+The new system took origins from heavily refactored [megaui] and support
+custom font sizes, fonts and skins for each UI element.  
+While work is still in progress, all important decisions were made and
+implementation [PR][macroquad-ui-pr] got merged.
+
+Minor updates:
+
+- [Textures support][macroquad-textures-pr] for macroquad materials
+- Experimental 2D pan/zoom camera [implementation][macroquad-camera-pr]
+
+[megaui]: https://github.com/not-fl3/megaui
+[miniquad]: https://github.com/not-fl3/miniquad
+[macroquad]: https://github.com/not-fl3/macroquad
+[macroquad-ui-pr]: https://github.com/not-fl3/macroquad/pull/156
+[macroquad-textures-pr]: https://github.com/not-fl3/macroquad/pull/152
+[macroquad-camera-pr]: https://github.com/not-fl3/macroquad/pull/146
 
 ### [Tetra]
 
@@ -175,6 +345,34 @@ For more details, see the [changelog][tetra-changelog], or
 [tetra]: https://github.com/17cupsofcoffee/tetra
 [tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
 [tetra-twitter]: https://twitter.com/17cupsofcoffee/status/1357750836370284544
+
+### [rg3d]
+
+[![rg3d Youtube](rg3d-youtube.JPG)][rg3d-youtube]
+_Check [navmesh agent navigation][rg3d-youtube] on YouTube_
+
+[rg3d] ([Discord][rg3d_discord], [Twitter][rg3d_twitter])
+is a game engine that aims to be easy to use and provide large set
+of out-of-box features. Some of the recent updates:
+
+- Ability to render UI instances in a texture
+- FBX name validator
+- Fast Approximate Anti-Aliasing (FXAA)
+- Integrity checks for resource inheritance
+- Nodes now can be tagged
+- Animation blending machine now has BlendAnimationsByIndex node
+- Multi-directional binding between physics and graph
+- SceneDrawingContext improvements: draw_capsule, draw_capsule segment
+- Performance statistics for scenes
+- ColorGradient improvements
+- [Path smoothing for navmesh agent][navmesh]
+- Lots of other small fixes and improvements.
+
+[rg3d]: https://github.com/mrDIMAS/rg3d
+[rg3d_discord]: https://discord.gg/xENF5Uh
+[rg3d_twitter]: https://twitter.com/DmitryNStepanov
+[navmesh]: https://www.youtube.com/watch?v=tqFdQ5OPB1I
+[rg3d-youtube]: https://www.youtube.com/watch?v=tqFdQ5OPB1I
 
 ### [A/B Street]
 
@@ -198,6 +396,82 @@ this in action!
 [Taipei]: http://abstreet.s3-website.us-east-2.amazonaws.com/dev/game/?--dev&tw/taipei/maps/center.bin
 
 ## Library & Tooling Updates
+
+### [Rafx][rafx-github]
+
+![Screenshot from Rafx Rendering Framework](rafx-screenshot.png)
+
+Rafx is a multi-backend renderer that optionally integrates with the
+[distill][rafx-distill] asset pipeline. Rafx is divided into three tiers of
+functionality:
+
+`rafx-api` provides a custom GPU API abstraction layer that currently supports
+vulkan and metal. ([API in rust psuedocode][rafx-api-design])
+
+`rafx-framework` builds on the API layer using ideas found in modern shipping
+AAA titles. Rendering is pipelined in a separate thread in three phases, using
+jobs to extract data from the main thread, process the data on the render
+thread, and write the draw calls to command buffers.
+[[Tatarchuk 2015][rafx-gdc-2015]] A render graph ensures correct
+synchronization. [[O'Donnell 2017][rafx-gdc-2017]] The framework also provides
+a material abstraction and shader pipeline.
+
+`rafx-assets` adds integration with the [distill][rafx-distill] asset pipeline.
+This ensures that when an asset like a mesh is loaded, other related assets
+like textures/material/vertex data are loaded. By integrating with distill,
+rafx provides advanced features like streaming live asset updates to remote
+devices.
+
+More information about rafx:
+
+- [Github][rafx-github]
+- [Documentation][rafx-documentation]
+- [Why Rafx?][why-rafx] (includes similarities/differences with other rust
+  and non-rust alternatives)
+
+[rafx-github]: https://github.com/aclysma/rafx
+[rafx-documentation]: https://github.com/aclysma/rafx/blob/master/docs/index.md
+[why-rafx]: https://github.com/aclysma/rafx/blob/master/docs/why_rafx.md
+[rafx-api-design]: https://github.com/aclysma/rafx/blob/master/docs/api/api_design_in_rust_psuedocode.rs
+[rafx-api-triangle-example]: https://github.com/aclysma/rafx/blob/master/rafx/examples/api_triangle/api_triangle.rs
+[rafx-gdc-2015]: http://advances.realtimerendering.com/destiny/gdc_2015/Tatarchuk_GDC_2015__Destiny_Renderer_web.pdf
+[rafx-gdc-2017]: https://www.gdcvault.com/play/1024612/FrameGraph-Extensible-Rendering-Architecture-in
+[rafx-distill]: https://github.com/amethyst/distill
+
+### [basis-universal-rs]
+
+`basis-universal` provides bindings for [Binomial LLC][binomial-llc]'s
+[Basis Universal texture codec][basis-universal-upstream].
+
+Basis Universal is a state-of-the art
+[supercompressed][basis-universal-supercompression] texture codec that
+was recently [open-sourced][basis-universal-open-sourced] by Binomial in
+partnership with Google. It was
+[contributed][basis-universal-contributed-kronos] to the Khronos glTF
+3D Transmission Open Standard.
+
+The library has two primary uses:
+
+- Compresses and encode textures "offline" to a custom format
+- Transcoding: Unpack the custom format directly to GPU-friendly compressed
+  formats. The final format can be chosen at game runtime to be compatible
+  with available GPU hardware.
+
+Basis universal format can also store mipmapped textures and cubemaps,
+neither of which is possible with "normal" file formats. Mipmaps can be
+generated by the library during compression.
+
+Compression is very slow (around 7-10s for a 2k texture) but transcoding is
+relatively fast (around 5-40ms for a 2k texture depending on quality). Memory
+savings at runtime are generally >= 75% (depending on the transcode format
+and quality)
+
+[binomial-llc]: http://www.binomial.info
+[basis-universal-rs]: https://github.com/aclysma/basis-universal-rs
+[basis-universal-upstream]: https://github.com/BinomialLLC/basis_universal
+[basis-universal-supercompression]: http://gamma.cs.unc.edu/GST/gst.pdf
+[basis-universal-open-sourced]: https://opensource.googleblog.com/2019/05/google-and-binomial-partner-to-open.html
+[basis-universal-contributed-kronos]: https://www.khronos.org/blog/google-and-binomial-contribute-basis-universal-texture-format-to-khronos-gltf-3d-transmission-open-standard
 
 ### [egui]
 
