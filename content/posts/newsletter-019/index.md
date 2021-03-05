@@ -167,6 +167,7 @@ Notable changes since last month:
 - performance optimizations
 
 Short-term plans:
+
 - replace imgui-rs by egui
 - implement sun position based on datetime
 - add terrain bump-maps to visualize gravel
