@@ -119,6 +119,28 @@ shaders. Read all about this month's changes in this
 [paddle]: https://github.com/jakmeier/paddle
 [paddlers-article]: https://www.jakobmeier.ch/blogging/Paddlers_6.html
 
+### Stellary 2
+
+[![Stellary 2 Anti-Missile Laser](stellary2-anti-missile-laser.gif)][stellary2-aml-tweet]
+_▶️ Click to [watch the full video][stellary2-aml-tweet]_
+
+Stellary 2 by [@CoffeJunkStudio][coffe-junk-studio] is a 3D
+real-time space shooter in which the player has to prevail against enemy space
+ships.
+
+The latest updates include:
+
+- Players’ space ships
+- Prediction of the rocket trajectory
+- [Energy budget][stellary2-aml-tweet]
+- Weapon enhancements ([trident laser][stellary2-trident-laser-tweet] &
+[missile splitting][stellary2-missile-splitting-tweet])
+
+[coffe-junk-studio]: https://twitter.com/CoffeJunkStudio
+[stellary2-aml-tweet]: https://twitter.com/CoffeJunkStudio/status/1360637714660548618
+[stellary2-trident-laser-tweet]: https://twitter.com/CoffeJunkStudio/status/1358437135230119936
+[stellary2-missile-splitting-tweet]: https://twitter.com/CoffeJunkStudio/status/1365666841838952450
+
 ### [Theta Wave]
 
 [![Homing Missiles](theta_wave.gif)][Theta Wave]
@@ -161,6 +183,52 @@ is a 3rd person shooter on the space prison Iapetus near the Saturn.
 [rg3d]: https://github.com/mrDIMAS/rg3d
 [Station Iapetus]: https://github.com/mrDIMAS/StationIapetus
 [si-youtube]: https://www.youtube.com/watch?v=cagT0GbiLxY
+
+### [Veloren][veloren]
+
+![Lush forest](veloren.jpg)
+_A lush forest to explore_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In February, lots of work has been done on worldsim, with travelling merchants
+being worked on. Some experiments have been happening on procedurally generating
+giant trees. Lots is being done on the combat end, with dual wielding and
+modular weapons being a big focus. Player trading was also implemented, which
+allows items to be shared on the server. A large internal shift is being made
+from diesel to rusqlite.
+
+A rework of attacks was done to allow their effects to be more dynamic. Lots of
+work has been done on the art team, with new weapon models, new mobs like fish.
+Some quality of life improvements were added, like humanoids automatically
+deploying gliders while falling to avoid fall damage. CI changes were made to
+finally have the Github mirror update periodically without error from LFS
+storage. In March, Veloren will release 0.9.
+
+February's full weekly devlogs: "This Week In Veloren...":
+[#105](https://veloren.net/devblog-105),
+[#106](https://veloren.net/devblog-106),
+[#107](https://veloren.net/devblog-107),
+[#108](https://veloren.net/devblog-108).
+
+[veloren]: https://veloren.net
+
+### [Project YAWC][yawc-twitter]
+
+![A screenshot from a game of Project YAWC.](yawc_n19.png)
+
+[Project YAWC][yawc-twitter] is a turn-based strategy game in development by junkmail.
+February saw the release of Alpha 4, bringing special units and auctions to determine
+ownership of special units, as well as changes to netcode, balance, and UI.
+
+Those interested in participating in the alpha test should fill out this
+[form][yawc-form].
+To learn more, you can follow the new [@projectyawc][yawc-twitter] Twitter
+or send an e-mail to projectyawc@gmail.com.
+
+[yawc-form]: https://forms.gle/tzP6oRaJmApgMyrj7
+[yawc-twitter]: https://twitter.com/projectyawc
 
 ## Learning Material Updates
 
@@ -236,6 +304,82 @@ this in action!
 [Taipei]: http://abstreet.s3-website.us-east-2.amazonaws.com/dev/game/?--dev&tw/taipei/maps/center.bin
 
 ## Library & Tooling Updates
+
+### [Rafx][rafx-github]
+
+![Screenshot from Rafx Rendering Framework](rafx-screenshot.png)
+
+Rafx is a multi-backend renderer that optionally integrates with the
+[distill][rafx-distill] asset pipeline. Rafx is divided into three tiers of
+functionality:
+
+`rafx-api` provides a custom GPU API abstraction layer that currently supports
+vulkan and metal. ([API in rust psuedocode][rafx-api-design])
+
+`rafx-framework` builds on the API layer using ideas found in modern shipping
+AAA titles. Rendering is pipelined in a separate thread in three phases, using
+jobs to extract data from the main thread, process the data on the render
+thread, and write the draw calls to command buffers.
+[[Tatarchuk 2015][rafx-gdc-2015]] A render graph ensures correct
+synchronization. [[O'Donnell 2017][rafx-gdc-2017]] The framework also provides
+a material abstraction and shader pipeline.
+
+`rafx-assets` adds integration with the [distill][rafx-distill] asset pipeline.
+This ensures that when an asset like a mesh is loaded, other related assets
+like textures/material/vertex data are loaded. By integrating with distill,
+rafx provides advanced features like streaming live asset updates to remote
+devices.
+
+More information about rafx:
+
+- [Github][rafx-github]
+- [Documentation][rafx-documentation]
+- [Why Rafx?][why-rafx] (includes similarities/differences with other rust
+  and non-rust alternatives)
+
+[rafx-github]: https://github.com/aclysma/rafx
+[rafx-documentation]: https://github.com/aclysma/rafx/blob/master/docs/index.md
+[why-rafx]: https://github.com/aclysma/rafx/blob/master/docs/why_rafx.md
+[rafx-api-design]: https://github.com/aclysma/rafx/blob/master/docs/api/api_design_in_rust_psuedocode.rs
+[rafx-api-triangle-example]: https://github.com/aclysma/rafx/blob/master/rafx/examples/api_triangle/api_triangle.rs
+[rafx-gdc-2015]: http://advances.realtimerendering.com/destiny/gdc_2015/Tatarchuk_GDC_2015__Destiny_Renderer_web.pdf
+[rafx-gdc-2017]: https://www.gdcvault.com/play/1024612/FrameGraph-Extensible-Rendering-Architecture-in
+[rafx-distill]: https://github.com/amethyst/distill
+
+### [basis-universal-rs]
+
+`basis-universal` provides bindings for [Binomial LLC][binomial-llc]'s
+[Basis Universal texture codec][basis-universal-upstream].
+
+Basis Universal is a state-of-the art
+[supercompressed][basis-universal-supercompression] texture codec that
+was recently [open-sourced][basis-universal-open-sourced] by Binomial in
+partnership with Google. It was
+[contributed][basis-universal-contributed-kronos] to the Khronos glTF
+3D Transmission Open Standard.
+
+The library has two primary uses:
+
+- Compresses and encode textures "offline" to a custom format
+- Transcoding: Unpack the custom format directly to GPU-friendly compressed
+  formats. The final format can be chosen at game runtime to be compatible
+  with available GPU hardware.
+
+Basis universal format can also store mipmapped textures and cubemaps,
+neither of which is possible with "normal" file formats. Mipmaps can be
+generated by the library during compression.
+
+Compression is very slow (around 7-10s for a 2k texture) but transcoding is
+relatively fast (around 5-40ms for a 2k texture depending on quality). Memory
+savings at runtime are generally >= 75% (depending on the transcode format
+and quality)
+
+[binomial-llc]: http://www.binomial.info
+[basis-universal-rs]: https://github.com/aclysma/basis-universal-rs
+[basis-universal-upstream]: https://github.com/BinomialLLC/basis_universal
+[basis-universal-supercompression]: http://gamma.cs.unc.edu/GST/gst.pdf
+[basis-universal-open-sourced]: https://opensource.googleblog.com/2019/05/google-and-binomial-partner-to-open.html
+[basis-universal-contributed-kronos]: https://www.khronos.org/blog/google-and-binomial-contribute-basis-universal-texture-format-to-khronos-gltf-3d-transmission-open-standard
 
 ### [egui]
 
