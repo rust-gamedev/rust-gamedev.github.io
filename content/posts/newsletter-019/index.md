@@ -115,6 +115,27 @@ This month's updates include:
 [SDL2]: https://github.com/Rust-SDL2/rust-sdl2
 [Legion]: https://crates.io/crates/legion
 
+### [Harvest Hero][discord]
+
+![harvest hero preview](harvest_hero.gif)
+
+[Harvest Hero][discord] is undergoing a shop system rework. But,
+we are still implementing new abilities!
+Use Zhebnog's Hourglass to stop time and get weird.
+
+Built on top of [Emerald][emerald] by [Bombfuse][twitter].
+
+This month's updates include:
+
+- Added "Flame Guard" enchantment
+- Added "Zhebnog's Hourglass" ability
+- Began work on a new main menu
+- Implemented a functional shop system
+
+[discord]: https://discord.gg/CJRbxQn3d9
+[twitter]: https://twitter.com/bombfuse_dev
+[emerald]: https://github.com/Bombfuse/emerald
+
 ### [Paddlers]
 
 ![A brightly colored scene with a grass field, a river, and some happy ducks.](paddlers_0.2.1.jpg)
