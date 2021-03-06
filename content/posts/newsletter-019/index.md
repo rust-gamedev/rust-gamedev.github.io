@@ -221,6 +221,42 @@ Notable changes:
 [@carlosupina]: https://twitter.com/carlosupina
 [Amethyst Engine]: https://amethyst.rs/
 
+### [SeniorSKY]
+
+![SeniorSKY](senior_sky.png)
+_Rising sun_
+
+[SeniorSKY]
+is a flight simulator which uses Vulkan API, developed by [@pmathia0].
+As an aerospace engineering student, Peter has always been interested how
+a flight simulator works under the hood.
+The development of SeniorSKY started as a hobby project during university
+studies.
+
+SeniorSKY uses real-world elevation data with 1 arc
+second precision and can render the whole globe in real dimensions.
+During the flight, the terrain tiles are loaded dynamically based
+on real GPS coordinates of airplane, with a decreasing level of detail
+further from the camera. This is achieved using a combination
+of a terrain-quad-tree and GPU tessellation.
+
+Notable changes since last month:
+
+- atmoshperic scattering
+- improved fog
+- FXAA + HDR tonemapping
+- terrain data preprocessing using compute shaders
+- performance optimizations
+
+Short-term plans:
+
+- replace imgui-rs by egui
+- implement sun position based on datetime
+- add terrain bump-maps to visualize gravel
+
+[SeniorSKY]: https://youtube.com/playlist?list=PLMmaJuk-D7iaObZyhyvc83tNwpx3ghzkY
+[@pmathia0]: https://twitter.com/pmathia0
+
 ### [Way of Rhea][wor-site]
 
 ![Way of Rhea screenshot](wor-capsule.png)
