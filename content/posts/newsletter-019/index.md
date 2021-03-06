@@ -119,8 +119,8 @@ This month's updates include:
 
 ![harvest hero preview](harvest_hero.gif)
 
-[Harvest Hero][discord] is still undergoing a lot of changes, including a shop and inventory rework.
-We are still implementing new abilities!
+[Harvest Hero][discord] is undergoing a shop system rework. But,
+we are still implementing new abilities!
 Use Zhebnog's Hourglass to stop time and get weird.
 
 Built on top of [Emerald][emerald] by [Bombfuse][twitter].
