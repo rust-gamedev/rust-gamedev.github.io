@@ -418,6 +418,52 @@ this in action!
 
 ## Library & Tooling Updates
 
+### [wgpu-rs]
+
+wgpu-rs is a WebGPU implementation and API in Rust.
+
+- "wgpu-core"-0.7.1 was published with fixes
+- API updated for blending states, cull faces, vertex formats.
+- zero-initialization of buffers upon use.
+- validation of texture bindings, index formats for strip topologies.
+- binding tracker was rewritten with test-ability in mind, bugs fixed.
+- the player learned to resize the window properly. API traces can now
+  be replayed on Linux even when swapchain recreation events are present.
+- SPIRV-Cross was made optional, which was useful for Deno in order to
+  work around the linking conflict with "rusty_v8".
+
+[wgpu-rs]: https://github.com/gfx-rs/wgpu-rs
+
+### [gfx-rs]
+
+gfx-rs is a portable low-level graphics abstraction layer.
+
+- API got `PhysicalDeviceProperties` containing limits and properties of
+  physical devices that are not opt-in.
+- SPIRV-Cross dependency was made optional, while Naga is required.
+- Vulkan backend learned to target Vulkan 1.1 and 1.2 internally.
+- DX12 understood more limits.
+- GL backend fixed WebGL initialization and EGL library discovery.
+
+[gfx-rs]: https://github.com/gfx-rs/gfx
+
+### [naga]
+
+naga is the shader translation library/tool.
+
+- versions 0.3.1 and 0.3.2 were published with fixes
+- API: function calls turned into statements, image queries and stores,
+  understanding of push constants.
+- validation: type validation was re-written and improved, new control flow
+  analysis was added to check for uniformity requirements. In addition,
+  this step now collects the image-sampler pairs used by the module.
+- backends: lots of fixes and filling of the gaps
+- infrastructure: `convert` example was removed in favor of the default
+  binary target. The native shaders (produced by the snapshot tests)
+  got validated on CI using platform tools.
+
+[naga]: https://github.com/gfx-rs/naga
+
 ### [Rafx][rafx-github]
 
 ![Screenshot from Rafx Rendering Framework](rafx-screenshot.png)
