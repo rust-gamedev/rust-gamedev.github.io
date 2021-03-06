@@ -416,6 +416,25 @@ of out-of-box features. Some of the recent updates:
 [navmesh]: https://www.youtube.com/watch?v=tqFdQ5OPB1I
 [rg3d-youtube]: https://www.youtube.com/watch?v=tqFdQ5OPB1I
 
+### [Dotrix]
+
+![Dotrix Light Demo](dotrix-light-demo.png)
+_Demo application demonstrating light rendering_
+
+[Dotrix] ([YouTube][lowenware_youtube], [Discord][lowenware_discord])
+by [@lowenware] is an ECS based 3D game engine with renderer built around the
+[wgpu-rs].
+
+This month [Dotrix] 0.3 was released on
+[crates.io](https://crates.io/crates/dotrix) with the complete
+[API documentation](https://docs.rs/dotrix/0.3.0/dotrix/), major light
+components update, wireframes and mouse ray modules.
+
+[Dotrix]: https://github.com/lowenware/dotrix
+[lowenware_discord]: https://discord.com/invite/DrzwBysNRd
+[lowenware_youtube]: https://youtube.com/channel/UCdriNXRizbBFQhqZefaw44A
+[@lowenware]: https://twitter.com/lowenware
+
 ## Library & Tooling Updates
 
 ### [wgpu-rs]
