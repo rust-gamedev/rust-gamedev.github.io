@@ -383,12 +383,12 @@ screen.
 _Macroquad-UI runtime GUI skins configuration._
 
 [macroquad] is a cross-platform (Windows/Linux/macOS/Android/iOS/WASM)
-game framework built on top of [miniquad].  
+game framework built on top of [miniquad].
 
 This month biggest update: Macroquad got its own fully skinnable and
-customizable immediate mode UI system 🎉.  
+customizable immediate mode UI system 🎉.
 The new system took origins from heavily refactored [megaui] and support
-custom font sizes, fonts and skins for each UI element.  
+custom font sizes, fonts and skins for each UI element.
 While work is still in progress, all important decisions were made and
 implementation [PR][macroquad-ui-pr] got merged.
 
@@ -451,6 +451,25 @@ of out-of-box features. Some of the recent updates:
 [rg3d_twitter]: https://twitter.com/DmitryNStepanov
 [navmesh]: https://www.youtube.com/watch?v=tqFdQ5OPB1I
 [rg3d-youtube]: https://www.youtube.com/watch?v=tqFdQ5OPB1I
+
+### [Antorum Online]
+
+![A player standing in front of a giant crab](antorum-2-21-2021.jpg)
+_Challenging Kroob_
+
+[Antorum Online] is a micro-multiplayer online role-playing game by [@dooskington].
+The game server is written in Rust, and the official client is being developed
+in Unity.
+
+The Armorcrafting, Weaponcrafting, and Salvaging skills were implemented this month!
+Players can now craft gear in town using materials gathered out in the world. They
+can also break down old or unwanted gear to recycle it.
+
+- [#30: Crafting And Salvaging](https://ratwizard.dev/dev-log/antorum/30);
+
+[Antorum Online]: https://ratwizard.dev/dev-log/antorum
+[@dooskington]: https://twitter.com/dooskington
+
 
 ## Library & Tooling Updates
 
