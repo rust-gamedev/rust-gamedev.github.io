@@ -375,6 +375,24 @@ screen.
 [Rhythm game in Rust using Bevy]: https://caballerocoll.com/blog/bevy-rhythm-game/
 [@guimcaballero]: https://twitter.com/GuimCaballero
 
+### [Antorum Online]
+
+![A player standing in front of a giant crab](antorum-2-21-2021.jpg)
+_Challenging Kroob_
+
+[Antorum Online] is a micro-multiplayer online role-playing game by [@dooskington].
+The game server is written in Rust, and the official client is being developed
+in Unity.
+
+The Armorcrafting, Weaponcrafting, and Salvaging skills were implemented this month!
+Players can now craft gear in town using materials gathered out in the world. They
+can also break down old or unwanted gear to recycle it.
+
+- [#30: Crafting And Salvaging](https://ratwizard.dev/dev-log/antorum/30);
+
+[Antorum Online]: https://ratwizard.dev/dev-log/antorum
+[@dooskington]: https://twitter.com/dooskington
+
 ## Engine Updates
 
 ### [macroquad]
@@ -452,23 +470,24 @@ of out-of-box features. Some of the recent updates:
 [navmesh]: https://www.youtube.com/watch?v=tqFdQ5OPB1I
 [rg3d-youtube]: https://www.youtube.com/watch?v=tqFdQ5OPB1I
 
-### [Antorum Online]
+### [Dotrix]
 
-![A player standing in front of a giant crab](antorum-2-21-2021.jpg)
-_Challenging Kroob_
+![Dotrix Light Demo](dotrix-light-demo.png)
+_Demo application demonstrating light rendering_
 
-[Antorum Online] is a micro-multiplayer online role-playing game by [@dooskington].
-The game server is written in Rust, and the official client is being developed
-in Unity.
+[Dotrix] ([YouTube][lowenware_youtube], [Discord][lowenware_discord])
+by [@lowenware] is an ECS based 3D game engine with renderer built around the
+[wgpu-rs].
 
-The Armorcrafting, Weaponcrafting, and Salvaging skills were implemented this month!
-Players can now craft gear in town using materials gathered out in the world. They
-can also break down old or unwanted gear to recycle it.
+This month [Dotrix] 0.3 was released on
+[crates.io](https://crates.io/crates/dotrix) with the complete
+[API documentation](https://docs.rs/dotrix/0.3.0/dotrix/), major light
+components update, wireframes and mouse ray modules.
 
-- [#30: Crafting And Salvaging](https://ratwizard.dev/dev-log/antorum/30);
-
-[Antorum Online]: https://ratwizard.dev/dev-log/antorum
-[@dooskington]: https://twitter.com/dooskington
+[Dotrix]: https://github.com/lowenware/dotrix
+[lowenware_discord]: https://discord.com/invite/DrzwBysNRd
+[lowenware_youtube]: https://youtube.com/channel/UCdriNXRizbBFQhqZefaw44A
+[@lowenware]: https://twitter.com/lowenware
 
 ## Library & Tooling Updates
 
@@ -517,6 +536,30 @@ naga is the shader translation library/tool.
   got validated on CI using platform tools.
 
 [naga]: https://github.com/gfx-rs/naga
+
+### [Distill][distill-github]
+
+Distill is an asset pipeline for games, reading artist-friendly formats
+from disk, processing them into your engine-ready formats,
+and delivering them to your game runtime.
+Distill handles dependencies between assets, import & build caching,
+cross-device hot reloading during development, packing assets for a
+shippable game build, and more.
+
+Distill's design is inspired by Unity's asset system and
+[Frostbite's Scaling the Pipeline][distill-scaling-the-pipeline].
+Distill leverages purity in the functional-programming sense to deliver a
+robust and scalable experience for the asset processing pipeline.
+With [LMDB][distill-lmdb] backing storage of metadata, Distill is able to
+avoid blocking asset loading while assets are being imported which eliminates
+the most common frustration with existing commercial offerings. Additionally,
+Distill is able to provide fully consistent snapshots of asset metadata to
+readers over [capnp-rpc][distill-capnp-rpc].
+
+[distill-capnp-rpc]: https://github.com/capnproto/capnproto-rust
+[distill-lmdb]: https://symas.com/lmdb/
+[distill-scaling-the-pipeline]: https://media.contentapi.ea.com/content/dam/eacom/frostbite/files/scaling-the-pipeline.pptx
+[distill-github]: https://github.com/amethyst/distill
 
 ### [Rafx][rafx-github]
 
@@ -655,6 +698,22 @@ include:
 
 [Mun]: https://mun-lang.org
 [mun-february]: https://mun-lang.org/blog/2021/03/04/this-month-february
+
+### [wasm_plugin]
+
+[wasm_plugin] is a new low-ish level tool for easily hosting WASM based
+plugins for modding or scripting.
+
+It consists of two crates:
+
+- [wasm_plugin_host] which wraps a wasmer instance with methods for calling
+  functions on the guest plugin.
+- [wasm_plugin_guest] which provides an attribute macro to easily export
+  functions to the host.
+
+[wasm_plugin]: https://github.com/alec-deason/wasm_plugin
+[wasm_plugin_host]: https://lib.rs/crates/wasm_plugin_host
+[wasm_plugin_guest]: https://lib.rs/crates/wasm_plugin_guest
 
 ## Popular Workgroup Issues in Github
 
