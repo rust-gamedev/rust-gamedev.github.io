@@ -375,6 +375,24 @@ screen.
 [Rhythm game in Rust using Bevy]: https://caballerocoll.com/blog/bevy-rhythm-game/
 [@guimcaballero]: https://twitter.com/GuimCaballero
 
+### [Antorum Online]
+
+![A player standing in front of a giant crab](antorum-2-21-2021.jpg)
+_Challenging Kroob_
+
+[Antorum Online] is a micro-multiplayer online role-playing game by [@dooskington].
+The game server is written in Rust, and the official client is being developed
+in Unity.
+
+The Armorcrafting, Weaponcrafting, and Salvaging skills were implemented this month!
+Players can now craft gear in town using materials gathered out in the world. They
+can also break down old or unwanted gear to recycle it.
+
+- [#30: Crafting And Salvaging](https://ratwizard.dev/dev-log/antorum/30);
+
+[Antorum Online]: https://ratwizard.dev/dev-log/antorum
+[@dooskington]: https://twitter.com/dooskington
+
 ## Engine Updates
 
 ### [macroquad]
