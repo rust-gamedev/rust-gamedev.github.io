@@ -646,9 +646,9 @@ plugins for modding or scripting.
 It consists of two crates:
 
 - [wasm_plugin_host] which wraps a wasmer instance with methods for calling
-functions on the guest plugin.
+  functions on the guest plugin.
 - [wasm_plugin_guest] which provides an attribute macro to easily export
-functions to the host.
+  functions to the host.
 
 [wasm_plugin]: https://github.com/alec-deason/wasm_plugin
 [wasm_plugin_host]: https://lib.rs/crates/wasm_plugin_host
