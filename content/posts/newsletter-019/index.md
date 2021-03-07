@@ -524,7 +524,6 @@ readers over [capnp-rpc][distill-capnp-rpc].
 [distill-scaling-the-pipeline]: https://media.contentapi.ea.com/content/dam/eacom/frostbite/files/scaling-the-pipeline.pptx
 [distill-github]: https://github.com/amethyst/distill
 
-
 ### [Rafx][rafx-github]
 
 ![Screenshot from Rafx Rendering Framework](rafx-screenshot.png)
