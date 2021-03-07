@@ -519,6 +519,30 @@ naga is the shader translation library/tool.
 
 [naga]: https://github.com/gfx-rs/naga
 
+### [Distill][distill-github]
+
+Distill is an asset pipeline for games, reading artist-friendly formats
+from disk, processing them into your engine-ready formats,
+and delivering them to your game runtime.
+Distill handles dependencies between assets, import & build caching,
+cross-device hot reloading during development, packing assets for a
+shippable game build, and more.
+
+Distill's design is inspired by Unity's asset system and
+[Frostbite's Scaling the Pipeline][distill-scaling-the-pipeline].
+Distill leverages purity in the functional-programming sense to deliver a
+robust and scalable experience for the asset processing pipeline.
+With [LMDB][distill-lmdb] backing storage of metadata, Distill is able to
+avoid blocking asset loading while assets are being imported which eliminates
+the most common frustration with existing commercial offerings. Additionally,
+Distill is able to provide fully consistent snapshots of asset metadata to
+readers over [capnp-rpc][distill-capnp-rpc].
+
+[distill-capnp-rpc]: https://github.com/capnproto/capnproto-rust
+[distill-lmdb]: https://symas.com/lmdb/
+[distill-scaling-the-pipeline]: https://media.contentapi.ea.com/content/dam/eacom/frostbite/files/scaling-the-pipeline.pptx
+[distill-github]: https://github.com/amethyst/distill
+
 ### [Rafx][rafx-github]
 
 ![Screenshot from Rafx Rendering Framework](rafx-screenshot.png)
