@@ -470,7 +470,6 @@ can also break down old or unwanted gear to recycle it.
 [Antorum Online]: https://ratwizard.dev/dev-log/antorum
 [@dooskington]: https://twitter.com/dooskington
 
-
 ## Library & Tooling Updates
 
 ### [wgpu-rs]
