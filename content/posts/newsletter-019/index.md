@@ -657,6 +657,22 @@ include:
 [Mun]: https://mun-lang.org
 [mun-february]: https://mun-lang.org/blog/2021/03/04/this-month-february
 
+### [wasm_plugin]
+
+[wasm_plugin] is a new low-ish level tool for easily hosting WASM based
+plugins for modding or scripting.
+
+It consists of two crates:
+
+- [wasm_plugin_host] which wraps a wasmer instance with methods for calling
+  functions on the guest plugin.
+- [wasm_plugin_guest] which provides an attribute macro to easily export
+  functions to the host.
+
+[wasm_plugin]: https://github.com/alec-deason/wasm_plugin
+[wasm_plugin_host]: https://lib.rs/crates/wasm_plugin_host
+[wasm_plugin_guest]: https://lib.rs/crates/wasm_plugin_guest
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
