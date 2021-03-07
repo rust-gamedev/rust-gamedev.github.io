@@ -393,6 +393,21 @@ screen.
 [Rhythm game in Rust using Bevy]: https://caballerocoll.com/blog/bevy-rhythm-game/
 [@guimcaballero]: https://twitter.com/GuimCaballero
 
+### [godot-vs-rapier]
+
+![demo that first show godot's physics and than switches to rapier](godot-vs-rapier.gif)
+
+[godot-vs-rapier] by [@extrawurst][@extrawurst] is
+a project that compares [Godot]'s built-in physics against [Rapier][rapier].
+
+_Discussions:
+[r/godot](https://reddit.com/r/godot/comments/lauj7e/godot_physics_vs_gdnative)_
+
+[@extrawurst]: https://twitter.com/extrawurst
+[godot-vs-rapier]: https://github.com/extrawurst/godot-vs-rapier
+[rapier]: https://rapier.rs
+[Godot]: https://godot-rust.github.io
+
 ## Engine Updates
 
 ### [macroquad]
