@@ -798,6 +798,14 @@ the development strategy to focus on a 0.1 MVP release ASAP:
 
 <!-- Up to 10 links to interesting issues -->
 
+- [rust-gamedev/rust-gamedev.github.io](https://github.com/rust-gamedev/rust-gamedev.github.io):
+  - [#406 "Separate category for engines vs libraries/tools"](https://github.com/rust-gamedev/rust-gamedev.github.io/issues/406);
+  - [#454 "Newsletter: new format and more delegation"](https://github.com/rust-gamedev/rust-gamedev.github.io/issues/454);
+- [rust-gamedev/wg](https://github.com/rust-gamedev/wg):
+  - [#98 "Monthly Rust Gamedev Meetup"](https://github.com/rust-gamedev/wg/issues/98);
+  - [#100 "Physiology simulation"](https://github.com/rust-gamedev/wg/issues/100);
+  - [#101 "[Proposal] Abstract plane geometry library for GUI projects"](https://github.com/rust-gamedev/wg/issues/101);
+
 ## Requests for Contribution
 
 <!-- Links to "good first issue"-labels or direct links to specific tasks -->
