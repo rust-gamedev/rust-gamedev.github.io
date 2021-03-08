@@ -86,7 +86,8 @@ working on, fill out [this form][gamedev-meetup-form].
 _Title screen + gameplay_
 
 Flesh by [@im_oab] is a 2D-horizontal shmup game with hand-drawn animation and
-organic/fleshy theme. It is implemented using [tetra]. This month's updates include:
+organic/fleshy theme. It is implemented using [tetra]. This month's updates
+include:
 
 - Added title screen
 - Support gamepad
@@ -117,9 +118,9 @@ and improve the login screen.
 
 ![teki preview](teki.gif)
 
-[Teki][teki] is a free and open-source fangame of the [Tōhō] series
-using [SDL2] and [Legion] for ECS. It is aimed to be a shoot ’em up game with
-"lots of bullets" a.k.a danmaku 弾幕 - literally "barrage" or "bullet curtain" in
+[Teki][teki] is a free and open-source fangame of the [Tōhō] series using [SDL2]
+and [Legion] for ECS. It is aimed to be a shoot ’em up game with "lots of
+bullets" a.k.a danmaku 弾幕 - literally "barrage" or "bullet curtain" in
 Japanese.
 
 The project is still at a “very” early stage of development (Dec. 2020).
@@ -139,9 +140,8 @@ This month's updates include:
 
 ![harvest hero preview](harvest_hero.gif)
 
-[Harvest Hero][discord] is undergoing a shop system rework. But,
-we are still implementing new abilities!
-Use Zhebnog's Hourglass to stop time and get weird.
+[Harvest Hero][discord] is undergoing a shop system rework. But, we are still
+implementing new abilities! Use Zhebnog's Hourglass to stop time and get weird.
 
 Built on top of [Emerald][emerald] by [Bombfuse][twitter].
 
@@ -167,8 +167,8 @@ support for any city with OpenStreetMap coverage.
 In February, [Bruce] implemented lagging green traffic signals, [Michael] and
 [Yuwen] released the new day UI theme. More cycle paths and service roads were
 imported for all maps, and we added loads of maps, a new per-country picker UI,
-and dynamic font loading. Try out [Taipei] in the web browser to see all of
-this in action!
+and dynamic font loading. Try out [Taipei] in the web browser to see all of this
+in action!
 
 [A/B Street]: https://github.com/a-b-street/abstreet
 [@dabreegster]: https://twitter.com/CarlinoDustin
@@ -188,9 +188,9 @@ Rust.
 February gave birth to Paddlers release 0.2.1 and a ton of new game mechanics.
 It features a skill map, quests, and a refreshed take on the tower defense
 aspect of the game. On top of that, the rendering engine (part of the
-[Paddle][paddle] framework) has been reworked and now allows for custom
-shaders. Read all about this month's changes in this
-[article][paddlers-article] released on the developer's private website.
+[Paddle][paddle] framework) has been reworked and now allows for custom shaders.
+Read all about this month's changes in this [article][paddlers-article] released
+on the developer's private website.
 
 [Paddlers]: https://paddlers.ch
 [paddlers-gh]: https://github.com/jakmeier/paddlers-browser-game
@@ -204,17 +204,16 @@ shaders. Read all about this month's changes in this
 [![Stellary 2 Anti-Missile Laser](stellary2-anti-missile-laser.gif)][stellary2-aml-tweet]
 _▶️ Click to [watch the full video][stellary2-aml-tweet]_
 
-Stellary 2 by [@CoffeJunkStudio][coffe-junk-studio] is a 3D
-real-time space shooter in which the player has to prevail against enemy space
-ships.
+Stellary 2 by [@CoffeJunkStudio][coffe-junk-studio] is a 3D real-time space
+shooter in which the player has to prevail against enemy space ships.
 
 The latest updates include:
 
 - Players’ space ships
 - Prediction of the rocket trajectory
 - [Energy budget][stellary2-aml-tweet]
-- Weapon enhancements ([trident laser][stellary2-trident-laser-tweet] &
-  [missile splitting][stellary2-missile-splitting-tweet])
+- Weapon enhancements ([trident laser][stellary2-trident-laser-tweet] & [missile
+  splitting][stellary2-missile-splitting-tweet])
 
 [coffe-junk-studio]: https://twitter.com/CoffeJunkStudio
 [stellary2-aml-tweet]: https://twitter.com/CoffeJunkStudio/status/1360637714660548618
@@ -227,9 +226,9 @@ The latest updates include:
 _Homing missiles periodically spawn from missile launcher enemies_
 
 [Theta Wave] is a space shooter game by developers [@micah_tigley] and
-[@carlosupina]. It is one of the showcase games for the [Amethyst Engine].
-In the past month, they have been focusing on refactoring the motion system
-to make the code more approachable to other contributors.
+[@carlosupina]. It is one of the showcase games for the [Amethyst Engine]. In
+the past month, they have been focusing on refactoring the motion system to make
+the code more approachable to other contributors.
 
 Notable changes:
 
@@ -246,19 +245,16 @@ Notable changes:
 ![SeniorSKY](senior_sky.png)
 _Rising sun_
 
-[SeniorSKY]
-is a flight simulator that uses the Vulkan API, developed by [@pmathia0].
-As an aerospace engineering student, Peter has always been interested in how
-a flight simulator works under the hood.
-The development of SeniorSKY started as a hobby project during university
-studies.
+[SeniorSKY] is a flight simulator that uses the Vulkan API, developed by
+[@pmathia0]. As an aerospace engineering student, Peter has always been
+interested in how a flight simulator works under the hood. The development of
+SeniorSKY started as a hobby project during university studies.
 
-SeniorSKY uses real-world elevation data with 1 arc
-second precision and can render the whole globe in real dimensions.
-During the flight, the terrain tiles are loaded dynamically based
-on real GPS coordinates of airplane, with a decreasing level of detail
-further from the camera. This is achieved using a combination
-of a terrain-quad-tree and GPU tessellation.
+SeniorSKY uses real-world elevation data with 1 arc second precision and can
+render the whole globe in real dimensions. During the flight, the terrain tiles
+are loaded dynamically based on real GPS coordinates of airplane, with a
+decreasing level of detail further from the camera. This is achieved using a
+combination of a terrain-quad-tree and GPU tessellation.
 
 Notable changes since last month:
 
@@ -299,8 +295,8 @@ This month's major updates include:
 [![Station Iapetus Youtube](station-iapetus-youtube.JPG)][si-youtube]
 _Check [gameplay video][si-youtube] on YouTube_
 
-[Station Iapetus][Station Iapetus] by [@mrDIMAS]
-is a 3rd person shooter on the space prison Iapetus near the Saturn.
+[Station Iapetus][Station Iapetus] by [@mrDIMAS] is a 3rd person shooter on the
+space prison Iapetus near the Saturn.
 
 - New inventory (check the video)
 - Ability to throw grenades
@@ -351,14 +347,14 @@ February's full weekly devlogs: "This Week In Veloren...":
 
 ![A screenshot from a game of Project YAWC.](yawc_n19.png)
 
-[Project YAWC][yawc-twitter] is a turn-based strategy game in development by junkmail.
-February saw the release of Alpha 4, bringing special units and auctions to determine
-ownership of special units, as well as changes to netcode, balance, and UI.
+[Project YAWC][yawc-twitter] is a turn-based strategy game in development by
+junkmail. February saw the release of Alpha 4, bringing special units and
+auctions to determine ownership of special units, as well as changes to netcode,
+balance, and UI.
 
 Those interested in participating in the alpha test should fill out this
-[form][yawc-form].
-To learn more, you can follow the new [@projectyawc][yawc-twitter] Twitter
-or send an e-mail to projectyawc@gmail.com.
+[form][yawc-form]. To learn more, you can follow the new
+[@projectyawc][yawc-twitter] Twitter or send an e-mail to projectyawc@gmail.com.
 
 [yawc-form]: https://forms.gle/tzP6oRaJmApgMyrj7
 [yawc-twitter]: https://twitter.com/projectyawc
@@ -368,13 +364,13 @@ or send an e-mail to projectyawc@gmail.com.
 ![A player standing in front of a giant crab](antorum-2-21-2021.jpg)
 _Challenging Kroob_
 
-[Antorum Online] is a micro-multiplayer online role-playing game by [@dooskington].
-The game server is written in Rust, and the official client is being developed
-in Unity.
+[Antorum Online] is a micro-multiplayer online role-playing game by
+[@dooskington]. The game server is written in Rust, and the official client is
+being developed in Unity.
 
-The Armorcrafting, Weaponcrafting, and Salvaging skills were implemented this month!
-Players can now craft gear in town using materials gathered out in the world. They
-can also break down old or unwanted gear to recycle it.
+The Armorcrafting, Weaponcrafting, and Salvaging skills were implemented this
+month! Players can now craft gear in town using materials gathered out in the
+world. They can also break down old or unwanted gear to recycle it.
 
 - [#30: Crafting And Salvaging](https://ratwizard.dev/dev-log/antorum/30);
 
@@ -405,20 +401,20 @@ _Discussions:
 ![Rhythm game demo](bevy-rhythm-game.gif)
 _Rhythm game demo_
 
-[Rhythm game in Rust using Bevy] is an introductory tutorial for Bevy made
-by [@guimcaballero]. It guides through how to use Bevy to develop a Rhythm
-game, including how to play audio, use GLSL shaders, and make a simple menu
-screen.
+[Rhythm game in Rust using Bevy] is an introductory tutorial for Bevy made by
+[@guimcaballero]. It guides through how to use Bevy to develop a Rhythm game,
+including how to play audio, use GLSL shaders, and make a simple menu screen.
 
 [Rhythm game in Rust using Bevy]: https://caballerocoll.com/blog/bevy-rhythm-game/
 [@guimcaballero]: https://twitter.com/GuimCaballero
 
 ### [godot-vs-rapier]
 
-![demo that first show godot's physics and than switches to rapier](godot-vs-rapier.gif)
+![demo that first show godot's physics and than switches to
+rapier](godot-vs-rapier.gif)
 
-[godot-vs-rapier] by [@extrawurst][@extrawurst] is
-a project that compares [Godot]'s built-in physics against [Rapier][rapier].
+[godot-vs-rapier] by [@extrawurst][@extrawurst] is a project that compares
+[Godot]'s built-in physics against [Rapier][rapier].
 
 _Discussions:
 [r/godot](https://reddit.com/r/godot/comments/lauj7e/godot_physics_vs_gdnative)_
@@ -435,13 +431,13 @@ _Discussions:
 ![macroquad_gui](macroquad_skins.gif)
 _Macroquad-UI runtime GUI skins configuration._
 
-[macroquad] is a cross-platform (Windows/Linux/macOS/Android/iOS/WASM)
-game framework built on top of [miniquad].  
+[macroquad] is a cross-platform (Windows/Linux/macOS/Android/iOS/WASM) game
+framework built on top of [miniquad].  
 
 This month biggest update: Macroquad got its own fully skinnable and
 customizable immediate mode UI system 🎉.  
-The new system took origins from heavily refactored [megaui] and support
-custom font sizes, fonts and skins for each UI element.  
+The new system took origins from heavily refactored [megaui] and support custom
+font sizes, fonts and skins for each UI element.  
 While work is still in progress, all important decisions were made and
 implementation [PR][macroquad-ui-pr] got merged.
 
@@ -462,16 +458,16 @@ Minor updates:
 ![Tetra's demo game](./tetra.png)
 _Tetra's demo game_
 
-[Tetra] is a simple 2D game framework, inspired by XNA, Love2D, and Raylib.
-This month, version 0.6 was released, with some big changes and features:
+[Tetra] is a simple 2D game framework, inspired by XNA, Love2D, and Raylib. This
+month, version 0.6 was released, with some big changes and features:
 
 - A simpler drawing API
 - Less global state for mesh drawing
 - Multisampled canvases
 - Better font rendering
 
-For more details, see the [changelog][tetra-changelog], or
-[17cupsofcoffee's twitter thread][tetra-twitter] about the release.
+For more details, see the [changelog][tetra-changelog], or [17cupsofcoffee's
+twitter thread][tetra-twitter] about the release.
 
 [tetra]: https://github.com/17cupsofcoffee/tetra
 [tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
@@ -482,9 +478,9 @@ For more details, see the [changelog][tetra-changelog], or
 [![rg3d Youtube](rg3d-youtube.JPG)][rg3d-youtube]
 _Check [navmesh agent navigation][rg3d-youtube] on YouTube_
 
-[rg3d] ([Discord][rg3d_discord], [Twitter][rg3d_twitter])
-is a game engine that aims to be easy to use and provide a large set
-of out-of-box features. Some of the recent updates:
+[rg3d] ([Discord][rg3d_discord], [Twitter][rg3d_twitter]) is a game engine that
+aims to be easy to use and provide a large set of out-of-box features. Some of
+the recent updates:
 
 - Ability to render UI instances in a texture
 - FBX name validator
@@ -510,14 +506,14 @@ of out-of-box features. Some of the recent updates:
 ![Dotrix Light Demo](dotrix-light-demo.png)
 _Demo application demonstrating light rendering_
 
-[Dotrix] ([YouTube][lowenware_youtube], [Discord][lowenware_discord])
-by [@lowenware] is an ECS based 3D game engine with renderer built around the
+[Dotrix] ([YouTube][lowenware_youtube], [Discord][lowenware_discord]) by
+[@lowenware] is an ECS based 3D game engine with renderer built around the
 [wgpu-rs].
 
 This month [Dotrix] 0.3 was released on
-[crates.io](https://crates.io/crates/dotrix) with the complete
-[API documentation](https://docs.rs/dotrix/0.3.0/dotrix/), major light
-components update, wireframes, and mouse ray modules.
+[crates.io](https://crates.io/crates/dotrix) with the complete [API
+documentation](https://docs.rs/dotrix/0.3.0/dotrix/), major light components
+update, wireframes, and mouse ray modules.
 
 [Dotrix]: https://github.com/lowenware/dotrix
 [lowenware_discord]: https://discord.com/invite/DrzwBysNRd
@@ -535,10 +531,10 @@ wgpu-rs is a WebGPU implementation and API in Rust.
 - Zero-initialization of buffers upon use
 - Validation of texture bindings, index formats for strip topologies
 - Binding tracker was rewritten with test-ability in mind, bugs fixed
-- The player learned to resize the window properly. API traces can now
-  be replayed on Linux even when swapchain recreation events are present
-- SPIRV-Cross was made optional, which was useful for Deno in order to
-  work around the linking conflict with "rusty_v8"
+- The player learned to resize the window properly. API traces can now be
+  replayed on Linux even when swapchain recreation events are present
+- SPIRV-Cross was made optional, which was useful for Deno in order to work
+  around the linking conflict with "rusty_v8"
 
 [wgpu-rs]: https://github.com/gfx-rs/wgpu-rs
 
@@ -563,33 +559,31 @@ naga is the shader translation library/tool.
 - API: function calls turned into statements, image queries , and stores,
   understanding of push constants.
 - Validation: type validation was re-written and improved, new control flow
-  analysis was added to check for uniformity requirements. In addition,
-  this step now collects the image-sampler pairs used by the module.
+  analysis was added to check for uniformity requirements. In addition, this
+  step now collects the image-sampler pairs used by the module.
 - Backends: lots of fixes and filling of the gaps
-- Infrastructure: `convert` example was removed in favor of the default
-  binary target. The native shaders (produced by the snapshot tests)
-  got validated on CI using platform tools.
+- Infrastructure: `convert` example was removed in favor of the default binary
+  target. The native shaders (produced by the snapshot tests) got validated on
+  CI using platform tools.
 
 [naga]: https://github.com/gfx-rs/naga
 
 ### [Distill][distill-github]
 
-Distill is an asset pipeline for games, reading artist-friendly formats
-from disk, processing them into your engine-ready formats,
-and delivering them to your game runtime.
-Distill handles dependencies between assets, import & build caching,
-cross-device hot reloading during development, packing assets for a
+Distill is an asset pipeline for games, reading artist-friendly formats from
+disk, processing them into your engine-ready formats, and delivering them to
+your game runtime. Distill handles dependencies between assets, import & build
+caching, cross-device hot reloading during development, packing assets for a
 shippable game build, and more.
 
-Distill's design is inspired by Unity's asset system and
-[Frostbite's Scaling the Pipeline][distill-scaling-the-pipeline].
-Distill leverages purity in the functional-programming sense to deliver a
-robust and scalable experience for the asset processing pipeline.
-With [LMDB][distill-lmdb] backing storage of metadata, Distill is able to
-avoid blocking asset loading while assets are being imported which eliminates
-the most common frustration with existing commercial offerings. Additionally,
-Distill is able to provide fully consistent snapshots of asset metadata to
-readers over [capnp-rpc][distill-capnp-rpc].
+Distill's design is inspired by Unity's asset system and [Frostbite's Scaling
+the Pipeline][distill-scaling-the-pipeline]. Distill leverages purity in the
+functional-programming sense to deliver a robust and scalable experience for the
+asset processing pipeline. With [LMDB][distill-lmdb] backing storage of
+metadata, Distill is able to avoid blocking asset loading while assets are being
+imported which eliminates the most common frustration with existing commercial
+offerings. Additionally, Distill is able to provide fully consistent snapshots
+of asset metadata to readers over [capnp-rpc][distill-capnp-rpc].
 
 [distill-capnp-rpc]: https://github.com/capnproto/capnproto-rust
 [distill-lmdb]: https://symas.com/lmdb/
@@ -610,23 +604,22 @@ Vulkan and metal. ([API in rust psuedocode][rafx-api-design])
 `rafx-framework` builds on the API layer using ideas found in modern shipping
 AAA titles. Rendering is pipelined in a separate thread in three phases, using
 jobs to extract data from the main thread, process the data on the render
-thread, and write the draw calls to command buffers.
-[[Tatarchuk 2015][rafx-gdc-2015]] A render graph ensures correct
-synchronization. [[O'Donnell 2017][rafx-gdc-2017]] The framework also provides
-a material abstraction and shader pipeline.
+thread, and write the draw calls to command buffers. [[Tatarchuk
+2015][rafx-gdc-2015]] A render graph ensures correct synchronization.
+[[O'Donnell 2017][rafx-gdc-2017]] The framework also provides a material
+abstraction and shader pipeline.
 
 `rafx-assets` adds integration with the [distill][rafx-distill] asset pipeline.
-This ensures that when an asset like a mesh is loaded, other related assets
-like textures/material/vertex data are loaded. By integrating with Distill,
-rafx provides advanced features like streaming live asset updates to remote
-devices.
+This ensures that when an asset like a mesh is loaded, other related assets like
+textures/material/vertex data are loaded. By integrating with Distill, rafx
+provides advanced features like streaming live asset updates to remote devices.
 
 More information about rafx:
 
 - [Github][rafx-github]
 - [Documentation][rafx-documentation]
-- [Why Rafx?][why-rafx] (includes similarities/differences with other rust
-  and non-rust alternatives)
+- [Why Rafx?][why-rafx] (includes similarities/differences with other rust and
+  non-rust alternatives)
 
 [rafx-github]: https://github.com/aclysma/rafx
 [rafx-documentation]: https://github.com/aclysma/rafx/blob/master/docs/index.md
@@ -639,31 +632,30 @@ More information about rafx:
 
 ### [basis-universal-rs]
 
-`basis-universal` provides bindings for [Binomial LLC][binomial-llc]'s
-[Basis Universal texture codec][basis-universal-upstream].
+`basis-universal` provides bindings for [Binomial LLC][binomial-llc]'s [Basis
+Universal texture codec][basis-universal-upstream].
 
 Basis Universal is a state-of-the-art
-[supercompressed][basis-universal-supercompression] texture codec that
-was recently [open-sourced][basis-universal-open-sourced] by Binomial in
-partnership with Google. It was
-[contributed][basis-universal-contributed-kronos] to the Khronos glTF
-3D Transmission Open Standard.
+[supercompressed][basis-universal-supercompression] texture codec that was
+recently [open-sourced][basis-universal-open-sourced] by Binomial in partnership
+with Google. It was [contributed][basis-universal-contributed-kronos] to the
+Khronos glTF 3D Transmission Open Standard.
 
 The library has two primary uses:
 
 - Compresses and encode textures "offline" to a custom format
 - Transcoding: Unpack the custom format directly to GPU-friendly compressed
-  formats. The final format can be chosen at game runtime to be compatible
-  with available GPU hardware.
+  formats. The final format can be chosen at game runtime to be compatible with
+  available GPU hardware.
 
-Basis universal format can also store mipmapped textures and cubemaps,
-neither of which is possible with "normal" file formats. Mipmaps can be
-generated by the library during compression.
+Basis universal format can also store mipmapped textures and cubemaps, neither
+of which is possible with "normal" file formats. Mipmaps can be generated by the
+library during compression.
 
 Compression is very slow (around 7-10s for a 2k texture) but transcoding is
 relatively fast (around 5-40ms for a 2k texture depending on quality). Memory
-savings at runtime are generally >= 75% (depending on the transcode format
-and quality)
+savings at runtime are generally >= 75% (depending on the transcode format and
+quality)
 
 [binomial-llc]: http://www.binomial.info
 [basis-universal-rs]: https://github.com/aclysma/basis-universal-rs
@@ -678,9 +670,9 @@ and quality)
 
 [egui] by [@emilk] is an easy-to-use immediate mode GUI library in pure Rust.
 
-This month [versions 0.9 and 0.10] of egui were released with many
-improvements big and small, including a 2D plot, more text styles,
-disabling widgets and improved documentation.
+This month [versions 0.9 and 0.10] of egui were released with many improvements
+big and small, including a 2D plot, more text styles, disabling widgets and
+improved documentation.
 
 You can try out egui in the [online demo].
 
@@ -714,16 +706,16 @@ FlatBuffers and Cap'n Proto and can be used for data storage and messaging.
 and improvements:
 
 - Major traits have been refactored and renamed to clarify their roles
-- Shared pointers (`Rc`, `Arc`, `Weak`) can now be serialized, deserialized,
-  and validated with correct ownership semantics
+- Shared pointers (`Rc`, `Arc`, `Weak`) can now be serialized, deserialized, and
+  validated with correct ownership semantics
 - Serialization, deserialization, and validation all now support custom contexts
 - Greatly improved support for 32- and 64-bit archives by implementing Archive
   for `usize` and `isize`
 - More comprehensive documentation in the [book][rkyv-book]
 
-This release completes the project's initial feature set, and a
-[request for feedback][rkyv-request-for-feedback] has been opened to help with
-future project planning.
+This release completes the project's initial feature set, and a [request for
+feedback][rkyv-request-for-feedback] has been opened to help with future project
+planning.
 
 [rkyv]: https://github.com/djkoloski/rkyv
 [rkyv-v0.4]: https://github.com/djkoloski/rkyv/releases/tag/v0.4.0
@@ -734,12 +726,12 @@ future project planning.
 
 [![Mun logo](mun-logo.png)][Mun]
 
-[Mun] is a scripting language for gamedev focused on quick iteration times
-that is written in Rust.
+[Mun] is a scripting language for gamedev focused on quick iteration times that
+is written in Rust.
 
 It's been a long time coming, but the Mun Core Team is closing in on the finish
-line for Mun v0.3. They are only a couple of pull requests away from locking
-the build for bug fixes and documentation. The [February updates][mun-february]
+line for Mun v0.3. They are only a couple of pull requests away from locking the
+build for bug fixes and documentation. The [February updates][mun-february]
 include:
 
 - `use` statements language support;
@@ -752,8 +744,8 @@ include:
 
 ### [wasm_plugin]
 
-[wasm_plugin] is a new low-ish level tool for easily hosting WASM based
-plugins for modding or scripting.
+[wasm_plugin] is a new low-ish level tool for easily hosting WASM based plugins
+for modding or scripting.
 
 It consists of two crates:
 
