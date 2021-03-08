@@ -214,7 +214,7 @@ The latest updates include:
 - Prediction of the rocket trajectory
 - [Energy budget][stellary2-aml-tweet]
 - Weapon enhancements ([trident laser][stellary2-trident-laser-tweet] &
-[missile splitting][stellary2-missile-splitting-tweet])
+  [missile splitting][stellary2-missile-splitting-tweet])
 
 [coffe-junk-studio]: https://twitter.com/CoffeJunkStudio
 [stellary2-aml-tweet]: https://twitter.com/CoffeJunkStudio/status/1360637714660548618
