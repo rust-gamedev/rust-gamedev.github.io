@@ -436,8 +436,8 @@ framework built on top of [miniquad].
 
 This month biggest update: Macroquad got its own fully skinnable and
 customizable immediate mode UI system 🎉.  
-The new system took origins from heavily refactored [megaui] and support custom
-font sizes, fonts and skins for each UI element.  
+The new system took its origins from a heavily refactored [megaui] and supports
+custom font sizes, fonts and skins for each UI element.  
 While work is still in progress, all important decisions were made and
 implementation [PR][macroquad-ui-pr] got merged.
 
