@@ -522,6 +522,111 @@ update, wireframes, and mouse ray modules.
 
 ## Library & Tooling Updates
 
+### [Rafx][rafx-github]
+
+![Screenshot from Rafx Rendering Framework](rafx-screenshot.png)
+
+Rafx is a multi-backend renderer that optionally integrates with the
+[distill][rafx-distill] asset pipeline. Rafx is divided into three tiers of
+functionality:
+
+`rafx-api` provides a custom GPU API abstraction layer that currently supports
+Vulkan and metal. ([API in rust psuedocode][rafx-api-design])
+
+`rafx-framework` builds on the API layer using ideas found in modern shipping
+AAA titles. Rendering is pipelined in a separate thread in three phases, using
+jobs to extract data from the main thread, process the data on the render
+thread, and write the draw calls to command buffers. [[Tatarchuk
+2015][rafx-gdc-2015]] A render graph ensures correct synchronization.
+[[O'Donnell 2017][rafx-gdc-2017]] The framework also provides a material
+abstraction and shader pipeline.
+
+`rafx-assets` adds integration with the [distill][rafx-distill] asset pipeline.
+This ensures that when an asset like a mesh is loaded, other related assets like
+textures/material/vertex data are loaded. By integrating with Distill, rafx
+provides advanced features like streaming live asset updates to remote devices.
+
+More information about rafx:
+
+- [Github][rafx-github]
+- [Documentation][rafx-documentation]
+- [Why Rafx?][why-rafx] (includes similarities/differences with other rust and
+  non-rust alternatives)
+
+[rafx-github]: https://github.com/aclysma/rafx
+[rafx-documentation]: https://github.com/aclysma/rafx/blob/master/docs/index.md
+[why-rafx]: https://github.com/aclysma/rafx/blob/master/docs/why_rafx.md
+[rafx-api-design]: https://github.com/aclysma/rafx/blob/master/docs/api/api_design_in_rust_psuedocode.rs
+[rafx-api-triangle-example]: https://github.com/aclysma/rafx/blob/master/rafx/examples/api_triangle/api_triangle.rs
+[rafx-gdc-2015]: http://advances.realtimerendering.com/destiny/gdc_2015/Tatarchuk_GDC_2015__Destiny_Renderer_web.pdf
+[rafx-gdc-2017]: https://www.gdcvault.com/play/1024612/FrameGraph-Extensible-Rendering-Architecture-in
+[rafx-distill]: https://github.com/amethyst/distill
+
+### [egui]
+
+![The plot thickens](egui-plot.gif)
+
+[egui] by [@emilk] is an easy-to-use immediate mode GUI library in pure Rust.
+
+This month [versions 0.9 and 0.10] of egui were released with many improvements
+big and small, including a 2D plot, more text styles, disabling widgets and
+improved documentation.
+
+You can try out egui in the [online demo].
+
+[egui]: https://github.com/emilk/egui
+[online demo]: https://emilk.github.io/egui
+[versions 0.9 and 0.10]: https://github.com/emilk/egui/blob/master/CHANGELOG.md
+[@emilk]: https://twitter.com/ernerfeldt
+
+### [This Month in Mun][mun-february]
+
+[![Mun logo](mun-logo.png)][Mun]
+
+[Mun] is a scripting language for gamedev focused on quick iteration times that
+is written in Rust.
+
+It's been a long time coming, but the Mun Core Team is closing in on the finish
+line for Mun v0.3. They are only a couple of pull requests away from locking the
+build for bug fixes and documentation. The [February updates][mun-february]
+include:
+
+- `use` statements language support;
+- Incremental file updates for the language server;
+- LLVM 11 support;
+- Bug fixes and other improvements.
+
+[Mun]: https://mun-lang.org
+[mun-february]: https://mun-lang.org/blog/2021/03/04/this-month-february
+
+### [Graphite][graphite-repo]
+
+![Graphite GUI](graphite.png)
+_Progress on the GUI_
+
+[Graphite][graphite-repo] ([GitHub][graphite-repo], [Discord][graphite-discord],
+[Twitter](https://twitter.com/GraphiteEditor)) is an in-progress vector and
+raster graphics editor built on a nondestructive node-based workflow.
+
+Since February's Rust Gamedev Meetup [which announced][graphite-video] the
+Graphite vision and attracted tremendous interest, community advise has shifted
+the development strategy to focus on a 0.1 MVP release ASAP:
+
+- The past year's in-development custom GUI has been shelved in lieu of an
+  interim web GUI. Graphite intends to natively support Windows, Mac, Linux, and
+  Web. This change unblocks core application development but means Graphite is
+  Web-only until the Rust GUI ecosystem matures. Good progress this month has
+  been made building the web GUI with [Vue](https://vuejs.org/).
+- Graphite 0.1 will now support only vector editing. This defers the large
+  complexity of the graph render engine required for node-based raster editing.
+  It should be less difficult to first focus on building a vector editor that
+  improves upon the UX of Illustrator and Inkscape.
+
+[graphite-repo]: https://github.com/GraphiteEditor/Graphite
+[graphite-discord]: https://github.com/GraphiteEditor/Graphite/blob/master/README.md#discord
+[graphite-twitter]: https://twitter.com/GraphiteEditor
+[graphite-video]: https://www.youtube.com/watch?v=Ea4Wt_FgEEw&t=563s
+
 ### [wgpu-rs]
 
 wgpu-rs is a WebGPU implementation and API in Rust.
@@ -590,46 +695,6 @@ of asset metadata to readers over [capnp-rpc][distill-capnp-rpc].
 [distill-scaling-the-pipeline]: https://media.contentapi.ea.com/content/dam/eacom/frostbite/files/scaling-the-pipeline.pptx
 [distill-github]: https://github.com/amethyst/distill
 
-### [Rafx][rafx-github]
-
-![Screenshot from Rafx Rendering Framework](rafx-screenshot.png)
-
-Rafx is a multi-backend renderer that optionally integrates with the
-[distill][rafx-distill] asset pipeline. Rafx is divided into three tiers of
-functionality:
-
-`rafx-api` provides a custom GPU API abstraction layer that currently supports
-Vulkan and metal. ([API in rust psuedocode][rafx-api-design])
-
-`rafx-framework` builds on the API layer using ideas found in modern shipping
-AAA titles. Rendering is pipelined in a separate thread in three phases, using
-jobs to extract data from the main thread, process the data on the render
-thread, and write the draw calls to command buffers. [[Tatarchuk
-2015][rafx-gdc-2015]] A render graph ensures correct synchronization.
-[[O'Donnell 2017][rafx-gdc-2017]] The framework also provides a material
-abstraction and shader pipeline.
-
-`rafx-assets` adds integration with the [distill][rafx-distill] asset pipeline.
-This ensures that when an asset like a mesh is loaded, other related assets like
-textures/material/vertex data are loaded. By integrating with Distill, rafx
-provides advanced features like streaming live asset updates to remote devices.
-
-More information about rafx:
-
-- [Github][rafx-github]
-- [Documentation][rafx-documentation]
-- [Why Rafx?][why-rafx] (includes similarities/differences with other rust and
-  non-rust alternatives)
-
-[rafx-github]: https://github.com/aclysma/rafx
-[rafx-documentation]: https://github.com/aclysma/rafx/blob/master/docs/index.md
-[why-rafx]: https://github.com/aclysma/rafx/blob/master/docs/why_rafx.md
-[rafx-api-design]: https://github.com/aclysma/rafx/blob/master/docs/api/api_design_in_rust_psuedocode.rs
-[rafx-api-triangle-example]: https://github.com/aclysma/rafx/blob/master/rafx/examples/api_triangle/api_triangle.rs
-[rafx-gdc-2015]: http://advances.realtimerendering.com/destiny/gdc_2015/Tatarchuk_GDC_2015__Destiny_Renderer_web.pdf
-[rafx-gdc-2017]: https://www.gdcvault.com/play/1024612/FrameGraph-Extensible-Rendering-Architecture-in
-[rafx-distill]: https://github.com/amethyst/distill
-
 ### [basis-universal-rs]
 
 `basis-universal` provides bindings for [Binomial LLC][binomial-llc]'s [Basis
@@ -663,23 +728,6 @@ quality)
 [basis-universal-supercompression]: http://gamma.cs.unc.edu/GST/gst.pdf
 [basis-universal-open-sourced]: https://opensource.googleblog.com/2019/05/google-and-binomial-partner-to-open.html
 [basis-universal-contributed-kronos]: https://www.khronos.org/blog/google-and-binomial-contribute-basis-universal-texture-format-to-khronos-gltf-3d-transmission-open-standard
-
-### [egui]
-
-![The plot thickens](egui-plot.gif)
-
-[egui] by [@emilk] is an easy-to-use immediate mode GUI library in pure Rust.
-
-This month [versions 0.9 and 0.10] of egui were released with many improvements
-big and small, including a 2D plot, more text styles, disabling widgets and
-improved documentation.
-
-You can try out egui in the [online demo].
-
-[egui]: https://github.com/emilk/egui
-[online demo]: https://emilk.github.io/egui
-[versions 0.9 and 0.10]: https://github.com/emilk/egui/blob/master/CHANGELOG.md
-[@emilk]: https://twitter.com/ernerfeldt
 
 ### [bevy_egui]
 
@@ -722,26 +770,6 @@ planning.
 [rkyv-book]: https://djkoloski.github.io/rkyv
 [rkyv-request-for-feedback]: https://github.com/djkoloski/rkyv/issues/67
 
-### [This Month in Mun][mun-february]
-
-[![Mun logo](mun-logo.png)][Mun]
-
-[Mun] is a scripting language for gamedev focused on quick iteration times that
-is written in Rust.
-
-It's been a long time coming, but the Mun Core Team is closing in on the finish
-line for Mun v0.3. They are only a couple of pull requests away from locking the
-build for bug fixes and documentation. The [February updates][mun-february]
-include:
-
-- `use` statements language support;
-- Incremental file updates for the language server;
-- LLVM 11 support;
-- Bug fixes and other improvements.
-
-[Mun]: https://mun-lang.org
-[mun-february]: https://mun-lang.org/blog/2021/03/04/this-month-february
-
 ### [wasm_plugin]
 
 [wasm_plugin] is a new low-ish level tool for easily hosting WASM based plugins
@@ -757,34 +785,6 @@ It consists of two crates:
 [wasm_plugin]: https://github.com/alec-deason/wasm_plugin
 [wasm_plugin_host]: https://lib.rs/crates/wasm_plugin_host
 [wasm_plugin_guest]: https://lib.rs/crates/wasm_plugin_guest
-
-### [Graphite][graphite-repo]
-
-![Graphite GUI](graphite.png)
-_Progress on the GUI_
-
-[Graphite][graphite-repo] ([GitHub][graphite-repo], [Discord][graphite-discord],
-[Twitter](https://twitter.com/GraphiteEditor)) is an in-progress vector and
-raster graphics editor built on a nondestructive node-based workflow.
-
-Since February's Rust Gamedev Meetup [which announced][graphite-video] the
-Graphite vision and attracted tremendous interest, community advise has shifted
-the development strategy to focus on a 0.1 MVP release ASAP:
-
-- The past year's in-development custom GUI has been shelved in lieu of an
-  interim web GUI. Graphite intends to natively support Windows, Mac, Linux, and
-  Web. This change unblocks core application development but means Graphite is
-  Web-only until the Rust GUI ecosystem matures. Good progress this month has
-  been made building the web GUI with [Vue](https://vuejs.org/).
-- Graphite 0.1 will now support only vector editing. This defers the large
-  complexity of the graph render engine required for node-based raster editing.
-  It should be less difficult to first focus on building a vector editor that
-  improves upon the UX of Illustrator and Inkscape.
-
-[graphite-repo]: https://github.com/GraphiteEditor/Graphite
-[graphite-discord]: https://github.com/GraphiteEditor/Graphite/blob/master/README.md#discord
-[graphite-twitter]: https://twitter.com/GraphiteEditor
-[graphite-video]: https://www.youtube.com/watch?v=Ea4Wt_FgEEw&t=563s
 
 ## Popular Workgroup Issues in Github
 
