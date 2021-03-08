@@ -140,8 +140,9 @@ This month's updates include:
 
 ![harvest hero preview](harvest_hero.gif)
 
-[Harvest Hero][discord] is undergoing a shop system rework. But, we are still
-implementing new abilities! Use Zhebnog's Hourglass to stop time and get weird.
+[Harvest Hero][discord] is undergoing a shop system rework. However, new
+abilities are still being implemented. You can now use Zhebnog's Hourglass to
+stop time and get weird.
 
 Built on top of [Emerald][emerald] by [Bombfuse][twitter].
 
