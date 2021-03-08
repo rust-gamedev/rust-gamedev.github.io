@@ -86,11 +86,11 @@ working on, fill out [this form][gamedev-meetup-form].
 _Title screen + gameplay_
 
 Flesh by [@im_oab] is a 2D-horizontal shmup game with hand-drawn animation and
-organic/fleshy theme. It is implemented using [tetra]. This month update include:
+organic/fleshy theme. It is implemented using [tetra]. This month's updates include:
 
-- Add title screen.
-- Support gamepad.
-- Add new enemy types for first level include mid-boss.
+- Added title screen
+- Support gamepad
+- Add new enemy types for first level include mid-boss
 
 [@im_oab]: https://twitter.com/im_oab
 [tetra]: https://github.com/17cupsofcoffee/tetra
@@ -105,8 +105,8 @@ created in a collaboration between [Nakama][nakama], an open-source scalable
 game server, and the [Macroquad](https://github.com/not-fl3/macroquad/) game
 engine.
 
-This month fishgame utilized new macroquad's UI system and got the title screen
-and better login screen.
+This month fishgame utilized macroquad's new UI system and to add a title screen
+and improve the login screen.
 
 [fishgame]: https://github.com/heroiclabs/fishgame-macroquad
 [fishgame-itch]: https://fedorgames.itch.io/fish-game?secret=UAVcggHn332a
@@ -162,10 +162,10 @@ This month's updates include:
 
 [A/B Street] by [@dabreegster] is a traffic simulation game exploring how small
 changes to roads affect cyclists, transit users, pedestrians, and drivers, with
-suppot for any city with OpenStreetMap coverage.
+support for any city with OpenStreetMap coverage.
 
 In February, [Bruce] implemented lagging green traffic signals, [Michael] and
-[Yuwen] released the new day UI theme, more cyclepaths and service roads were
+[Yuwen] released the new day UI theme. More cycle paths and service roads were
 imported for all maps, and we added loads of maps, a new per-country picker UI,
 and dynamic font loading. Try out [Taipei] in the web browser to see all of
 this in action!
@@ -247,8 +247,8 @@ Notable changes:
 _Rising sun_
 
 [SeniorSKY]
-is a flight simulator which uses Vulkan API, developed by [@pmathia0].
-As an aerospace engineering student, Peter has always been interested how
+is a flight simulator that uses the Vulkan API, developed by [@pmathia0].
+As an aerospace engineering student, Peter has always been interested in how
 a flight simulator works under the hood.
 The development of SeniorSKY started as a hobby project during university
 studies.
@@ -262,11 +262,11 @@ of a terrain-quad-tree and GPU tessellation.
 
 Notable changes since last month:
 
-- atmoshperic scattering
-- improved fog
-- FXAA + HDR tonemapping
-- terrain data preprocessing using compute shaders
-- performance optimizations
+- Atmospheric scattering
+- Improved fog
+- FXAA + HDR tone mapping
+- Terrain data preprocessing using compute shaders
+- Performance optimizations
 
 Short-term plans:
 
@@ -282,7 +282,7 @@ Short-term plans:
 ![Way of Rhea screenshot](wor-capsule.png)
 
 Way of Rhea is a picturesque puzzle game that lets you correct your mistakes.
-Change your color, teleport past the colored gates, master the color powered
+Change your color, teleport past the colored gates, master the color-powered
 circuits, and befriend the crabs-but don't let them out!
 
 This month's major updates include:
@@ -306,7 +306,7 @@ is a 3rd person shooter on the space prison Iapetus near the Saturn.
 - Ability to throw grenades
 - Splash damage
 - More textures and materials
-- Hit boxes for bots and player
+- Hitboxes for bots and player
 - Better bots navigation
 - Laser sight improvements
 - Weapon display now shows bullet and grenades count
@@ -462,7 +462,7 @@ Minor updates:
 ![Tetra's demo game](./tetra.png)
 _Tetra's demo game_
 
-[Tetra] is a simple 2D game framework, inspired by XNA, Love2D and Raylib.
+[Tetra] is a simple 2D game framework, inspired by XNA, Love2D, and Raylib.
 This month, version 0.6 was released, with some big changes and features:
 
 - A simpler drawing API
@@ -483,7 +483,7 @@ For more details, see the [changelog][tetra-changelog], or
 _Check [navmesh agent navigation][rg3d-youtube] on YouTube_
 
 [rg3d] ([Discord][rg3d_discord], [Twitter][rg3d_twitter])
-is a game engine that aims to be easy to use and provide large set
+is a game engine that aims to be easy to use and provide a large set
 of out-of-box features. Some of the recent updates:
 
 - Ability to render UI instances in a texture
@@ -517,7 +517,7 @@ by [@lowenware] is an ECS based 3D game engine with renderer built around the
 This month [Dotrix] 0.3 was released on
 [crates.io](https://crates.io/crates/dotrix) with the complete
 [API documentation](https://docs.rs/dotrix/0.3.0/dotrix/), major light
-components update, wireframes and mouse ray modules.
+components update, wireframes, and mouse ray modules.
 
 [Dotrix]: https://github.com/lowenware/dotrix
 [lowenware_discord]: https://discord.com/invite/DrzwBysNRd
@@ -531,14 +531,14 @@ components update, wireframes and mouse ray modules.
 wgpu-rs is a WebGPU implementation and API in Rust.
 
 - "wgpu-core"-0.7.1 was published with fixes
-- API updated for blending states, cull faces, vertex formats.
-- zero-initialization of buffers upon use.
-- validation of texture bindings, index formats for strip topologies.
-- binding tracker was rewritten with test-ability in mind, bugs fixed.
-- the player learned to resize the window properly. API traces can now
-  be replayed on Linux even when swapchain recreation events are present.
+- API updated for blending states, cull faces, vertex formats
+- Zero-initialization of buffers upon use
+- Validation of texture bindings, index formats for strip topologies
+- Binding tracker was rewritten with test-ability in mind, bugs fixed
+- The player learned to resize the window properly. API traces can now
+  be replayed on Linux even when swapchain recreation events are present
 - SPIRV-Cross was made optional, which was useful for Deno in order to
-  work around the linking conflict with "rusty_v8".
+  work around the linking conflict with "rusty_v8"
 
 [wgpu-rs]: https://github.com/gfx-rs/wgpu-rs
 
@@ -559,14 +559,14 @@ gfx-rs is a portable low-level graphics abstraction layer.
 
 naga is the shader translation library/tool.
 
-- versions 0.3.1 and 0.3.2 were published with fixes
-- API: function calls turned into statements, image queries and stores,
+- Versions 0.3.1 and 0.3.2 were published with fixes
+- API: function calls turned into statements, image queries , and stores,
   understanding of push constants.
-- validation: type validation was re-written and improved, new control flow
+- Validation: type validation was re-written and improved, new control flow
   analysis was added to check for uniformity requirements. In addition,
   this step now collects the image-sampler pairs used by the module.
-- backends: lots of fixes and filling of the gaps
-- infrastructure: `convert` example was removed in favor of the default
+- Backends: lots of fixes and filling of the gaps
+- Infrastructure: `convert` example was removed in favor of the default
   binary target. The native shaders (produced by the snapshot tests)
   got validated on CI using platform tools.
 
@@ -605,7 +605,7 @@ Rafx is a multi-backend renderer that optionally integrates with the
 functionality:
 
 `rafx-api` provides a custom GPU API abstraction layer that currently supports
-vulkan and metal. ([API in rust psuedocode][rafx-api-design])
+Vulkan and metal. ([API in rust psuedocode][rafx-api-design])
 
 `rafx-framework` builds on the API layer using ideas found in modern shipping
 AAA titles. Rendering is pipelined in a separate thread in three phases, using
@@ -617,7 +617,7 @@ a material abstraction and shader pipeline.
 
 `rafx-assets` adds integration with the [distill][rafx-distill] asset pipeline.
 This ensures that when an asset like a mesh is loaded, other related assets
-like textures/material/vertex data are loaded. By integrating with distill,
+like textures/material/vertex data are loaded. By integrating with Distill,
 rafx provides advanced features like streaming live asset updates to remote
 devices.
 
@@ -642,7 +642,7 @@ More information about rafx:
 `basis-universal` provides bindings for [Binomial LLC][binomial-llc]'s
 [Basis Universal texture codec][basis-universal-upstream].
 
-Basis Universal is a state-of-the art
+Basis Universal is a state-of-the-art
 [supercompressed][basis-universal-supercompression] texture codec that
 was recently [open-sourced][basis-universal-open-sourced] by Binomial in
 partnership with Google. It was
@@ -743,9 +743,9 @@ the build for bug fixes and documentation. The [February updates][mun-february]
 include:
 
 - `use` statements language support;
-- incremental file updates for the language server;
+- Incremental file updates for the language server;
 - LLVM 11 support;
-- bug fixes and other improvements.
+- Bug fixes and other improvements.
 
 [Mun]: https://mun-lang.org
 [mun-february]: https://mun-lang.org/blog/2021/03/04/this-month-february
