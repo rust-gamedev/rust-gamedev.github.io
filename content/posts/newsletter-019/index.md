@@ -609,7 +609,7 @@ _Progress on the GUI_
 raster graphics editor built on a nondestructive node-based workflow.
 
 Since February's Rust Gamedev Meetup [which announced][graphite-video] the
-Graphite vision and attracted tremendous interest, community advise has shifted
+Graphite vision has attracted tremendous interest, community advice has shifted
 the development strategy to focus on a 0.1 MVP release ASAP:
 
 - The past year's in-development custom GUI has been shelved in lieu of an
