@@ -106,7 +106,7 @@ created in a collaboration between [Nakama][nakama], an open-source scalable
 game server, and the [Macroquad](https://github.com/not-fl3/macroquad/) game
 engine.
 
-This month fishgame utilized macroquad's new UI system and to add a title screen
+This month fishgame utilized macroquad's new UI system to add a title screen
 and improve the login screen.
 
 [fishgame]: https://github.com/heroiclabs/fishgame-macroquad
