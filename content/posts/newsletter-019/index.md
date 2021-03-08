@@ -637,36 +637,6 @@ More information about rafx:
 [rafx-gdc-2017]: https://www.gdcvault.com/play/1024612/FrameGraph-Extensible-Rendering-Architecture-in
 [rafx-distill]: https://github.com/amethyst/distill
 
-### [Graphite](https://www.graphite.design)
-
-![Static UI mockup showing a raster workflow](graphite-mockup-2021-03-07.jpg)
-_Static UI mockup showing a raster workflow_
-
-[Graphite](https://www.graphite.design)
-([GitHub](https://github.com/GraphiteEditor/Graphite),
-[Discord](
-  https://github.com/GraphiteEditor/Graphite/blob/master/README.md#discord
-),
-[Twitter](https://twitter.com/GraphiteEditor))
-is a vector and raster graphics editor built on a nondestructive node-based
-workflow.
-
-Since February's Rust Gamedev Meetup
-[which announced](https://www.youtube.com/watch?v=Ea4Wt_FgEEw&t=563s)
-the Graphite vision and attracted tremendous interest, community advise has
-shifted the development strategy to focus on a 0.1 MVP release ASAP:
-
-- The past year's in-development custom GUI has been shelved in lieu of an
-interim web GUI. Graphite intends to natively support Windows, Mac, Linux, and
-Web. This change unblocks core application development but means Graphite is
-Web-only until the Rust GUI ecosystem matures.
-[Good progress](https://files.keavon.com/-/FamiliarChiefPiranha/capture.png)
-this month has been made building the web GUI with [Vue](https://vuejs.org/).
-- Graphite 0.1 will now support only vector editing. This defers the large
-complexity of the graph render engine required for node-based raster editing.
-It should be less difficult to first focus on building a vector editor that
-improves upon the UX of Illustrator and Inkscape.
-
 ### [basis-universal-rs]
 
 `basis-universal` provides bindings for [Binomial LLC][binomial-llc]'s
@@ -779,6 +749,34 @@ It consists of two crates:
 [wasm_plugin]: https://github.com/alec-deason/wasm_plugin
 [wasm_plugin_host]: https://lib.rs/crates/wasm_plugin_host
 [wasm_plugin_guest]: https://lib.rs/crates/wasm_plugin_guest
+
+### [Graphite][graphite-repo]
+
+![Graphite GUI](graphite.png)
+_Progress on the GUI_
+
+[Graphite][graphite-repo] ([GitHub][graphite-repo], [Discord][graphite-discord],
+[Twitter](https://twitter.com/GraphiteEditor)) is an in-progress vector and
+raster graphics editor built on a nondestructive node-based workflow.
+
+Since February's Rust Gamedev Meetup [which announced][graphite-video] the
+Graphite vision and attracted tremendous interest, community advise has shifted
+the development strategy to focus on a 0.1 MVP release ASAP:
+
+- The past year's in-development custom GUI has been shelved in lieu of an
+  interim web GUI. Graphite intends to natively support Windows, Mac, Linux, and
+  Web. This change unblocks core application development but means Graphite is
+  Web-only until the Rust GUI ecosystem matures. Good progress this month has
+  been made building the web GUI with [Vue](https://vuejs.org/).
+- Graphite 0.1 will now support only vector editing. This defers the large
+  complexity of the graph render engine required for node-based raster editing.
+  It should be less difficult to first focus on building a vector editor that
+  improves upon the UX of Illustrator and Inkscape.
+
+[graphite-repo]: https://github.com/GraphiteEditor/Graphite
+[graphite-discord]: https://github.com/GraphiteEditor/Graphite/blob/master/README.md#discord
+[graphite-twitter]: https://twitter.com/GraphiteEditor
+[graphite-video]: https://www.youtube.com/watch?v=Ea4Wt_FgEEw&t=563s
 
 ## Popular Workgroup Issues in Github
 
