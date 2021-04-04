@@ -103,6 +103,38 @@ New Updates:
 
 ## Library & Tooling Updates
 
+### [wgpu]
+
+![voxel bunny on wgpu](wgpu-conservative-bunny.png)
+Voxel Bunny rendering with conservative rasterization
+
+[wgpu] is a [WebGPU] implementation in Rust. It is safe, efficient,
+and portable: can target both native (Vulkan/D3D/Metal) and the Web.
+
+Most progress in April was focused around [WGSL] shaders and validation.
+[naga] has seen a lot of improvements in the SPIR-V and WGSL parsing, as well
+as backend code generation. Most importantly, it now fully validates both
+statements and expressions. No more accidental foot shots from adding vec2
+and vec3 in the shaders!
+
+The last and the biggest (in terms of shader complexity) example - "water"
+has been successfully ported to WGSL 🎉.
+
+A small addition to our native-only features - conservative rasterization
+feature - was added by [@wumpf] and demonstrated on a voxel bunny 🐇
+
+Finally, there is a blog post on Mozilla [graphics team blog] about the
+progress using [wgpu] in Gecko.
+
+_Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/mgvd8d/last_big_wgpurs_example_shaders_are_fully_ported/)_
+
+[naga]: https://github.com/gfx-rs/naga
+[wgpu]: https://github.com/gfx-rs/wgpu
+[WebGPU]: https://gpuweb.github.io/gpuweb/
+[WGSL]: https://gpuweb.github.io/gpuweb/wgsl/
+[@wumpf]: https://github.com/Wumpf
+[graphics team blog]: https://mozillagfx.wordpress.com/2021/03/10/webgpu-progress/
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
