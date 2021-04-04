@@ -66,6 +66,39 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Engine Updates
 
+### Emerald
+
+![emerald_logo](./em_desktop_icon.png)
+
+[Emerald][emerald_github] by [@bombfuse][bombfuse_twitter]
+is a 2D game engine focused on being as portable as possible.
+
+The ultimate goal of Emerald is to be a fully
+featured engine that you can slap onto any
+device with relative ease.
+It's currently able to run on WASM,
+Raspberry Pi, Mac, Windows, and Linux
+thanks to [miniquad][miniquad_git].
+
+Features:
+
+- Physics via [rapier2d][rapier_2d]
+- ECS via [hecs][hecs_git]
+- Font rendering via [fontdue][fontdue_git]
+
+New Updates:
+
+- Rendering to textures
+- [WASM game sample][em_wasm_example]
+
+[bombfuse_twitter]: https://twitter.com/bombfuse_dev
+[emerald_github]: https://github.com/Bombfuse/emerald
+[rapier_2d]: https://github.com/dimforge/rapier
+[miniquad_git]: https://github.com/not-fl3/miniquad
+[em_wasm_example]: https://bombfuse.itch.io/him-character-demo-harvest-hero
+[hecs_git]: https://github.com/Ralith/hecs
+[fontdue_git]: https://github.com/mooman219/fontdue
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
