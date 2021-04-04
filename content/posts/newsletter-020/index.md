@@ -64,11 +64,11 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
-### [pGLOWrpg](pglowrpg-github)
+### [pGLOWrpg][pglowrpg-github]
 
 ![Improved text rendering](pglowrpg_progress.jpg)
 
-[pGLOWrpg](pglowrpg-github) by [@Roal_Yr]
+[pGLOWrpg][pglowrpg-github] by [@Roal_Yr]
 is a Procedurally Generated Living Open World RPG,
 a long-term project in development, which aims to be a narrative text-based game
 with maximum portability and accessibility.
@@ -79,7 +79,7 @@ Recent updates include:
 - Switching to .ron file format for storing configs and strings.
 - Implementing individual strings coloring for better visual perception.
 
-_Discussions: [Twiter](pglowrpg-twitter)_
+_Discussions: [Twitter][pglowrpg-twitter]_
 
 [@Roal_Yr]: https://twitter.com/Roal_Yr
 [pglowrpg-twitter]: https://twitter.com/pglowrpg
