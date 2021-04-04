@@ -68,7 +68,8 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ![Improved text rendering](pglowrpg_progress.jpg)
 
-[pGLOWrpg](pglowrpg-github) by [@Roal_Yr] is a Procedurally Generated Living Open World RPG,
+[pGLOWrpg](pglowrpg-github) by [@Roal_Yr]
+is a Procedurally Generated Living Open World RPG,
 a long-term project in development, which aims to be a narrative text-based game
 with maximum portability and accessibility.
 
@@ -83,7 +84,7 @@ _Discussions: [Twiter](pglowrpg-twitter)_
 [@Roal_Yr]: https://twitter.com/Roal_Yr
 [pglowrpg-twitter]: https://twitter.com/pglowrpg
 [pglowrpg-github]: https://github.com/roalyr/pglowrpg
- 
+
 ## Engine Updates
 
 ## Learning Material Updates
