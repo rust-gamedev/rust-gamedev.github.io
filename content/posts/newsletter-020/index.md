@@ -66,6 +66,29 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Engine Updates
 
+### [Starframe]
+
+![Current state of starframe graphics and physics](starframe.gif)
+
+[Starframe] by [@moletrooper] is a work-in-progress game engine for physics-y
+sidescrolling 2D games.
+
+This month, its physics engine was revamped once more (for the last time,
+hopefully), implementing a modern solver method called Extended Position-Based
+Dynamics. Also, [a blog post][sf-blog-post] was published, covering the
+development of the physics engine so far in a great deal of mathematical
+detail.
+
+_Discussions:
+[twitter (physics update)][sf-update-tweet],
+[twitter (blog post)][sf-blog-tweet]_
+
+[starframe]: https://github.com/moletrooper/starframe
+[@moletrooper]: https://twitter.com/moletrooper
+[sf-blog-post]: https://moletrooper.github.io/blog/2021/03/starframe-devlog-constraints/
+[sf-blog-tweet]: https://twitter.com/moletrooper/status/1377273607450136576
+[sf-update-tweet]: https://twitter.com/moletrooper/status/1360723470414450688
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
