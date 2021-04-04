@@ -88,7 +88,7 @@ The last and the biggest (in terms of shader complexity) example - "water"
 has been successfully ported to WGSL 🎉.
 
 A small addition to our native-only features - conservative rasterization
-feature - was added by [@wumpf] and demonstrated on a voxel bunny :rabbit2:
+feature - was added by [@wumpf] and demonstrated on a voxel bunny 🐇
 
 Finally, there is a blog post on Mozilla [graphics team blog] about the
 progress using [wgpu] in Gecko.
