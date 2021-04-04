@@ -85,7 +85,7 @@ statements and expressions. No more accidental foot shots from adding vec2
 and vec3 in the shaders!
 
 The last and the biggest (in terms of shader complexity) example - "water"
-has been successfully ported to WGSL :tada:.
+has been successfully ported to WGSL 🎉.
 
 A small addition to our native-only features - conservative rasterization
 feature - was added by [@wumpf] and demonstrated on a voxel bunny :rabbit2:
