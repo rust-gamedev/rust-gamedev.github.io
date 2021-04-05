@@ -237,6 +237,30 @@ _Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/m
 [@wumpf]: https://github.com/Wumpf
 [graphics team blog]: https://mozillagfx.wordpress.com/2021/03/10/webgpu-progress/
 
+### [WhatTheFrame]
+
+![whattheframe gui](whattheframe.png)
+
+[WhatTheFrame] by [@JMS55]
+is a frame-based cpu profiler crate along with a [GTK] ([gtk4-rs]) based GUI.
+
+This project aims to answer the question: Which frames of my game are slow, and why?
+
+It aims to be simple to use, consisting of only 3 functions: Call `let _r = Profiler::new_frame()`
+at the start of each frame, `let _r = Profiler::new_task("task_name")` whenever you
+want to profile a task, and finally `Profiler::end_profiling()` once at the end.
+
+You can then open the resulting `.wtf` profile in the GUI and analyze the results.
+
+This month was spent designing and implementing both the GUI and profiler crate.
+The core functionality of both programs are complete, and all that remains is
+cleanup, tweaks, optimization, and finally packaging the GUI up.
+
+[WhatTheFrame]: https://github.com/JMS55/whattheframe
+[@JMS55]: https://github.com/JMS55
+[GTK]: https://gtk.org/
+[gtk4-rs]: https://github.com/gtk-rs/gtk4-rs#gtk4-rs-
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
