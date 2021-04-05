@@ -93,6 +93,53 @@ A stress test is scheduled for 2021-04-17 17:30 UTC and everyone is invited to j
 [sm64js-server]: https://github.com/sm64js/sm64js-mmo-server
 [net64-blog]: https://net64-mod.github.io/blog/sm64js/
 
+### [Bounty Bros.][bounty_bros]
+
+[![bounty-bros-character-on-map](./bounty_bros.png)][bounty_bros_webgame]
+_Click the image to play the game in your browser!_
+
+[Bounty Bros.][bounty_bros] is a prototype game similar to the old Legend of
+Zelda® games developed by [Katharos Technology][katharostech] as a testing
+ground for a future commercial game.
+
+In the last 2 months Bounty Bros. has gotten a lot of updates. Now you can [play
+the game][bounty_bros_webgame] right inside of your browser on desktop or mobile
+devices!
+
+- You can no longer walk through walls or objects
+- You can now walk into buildings
+- The camera follows the player without passing beyond the map borders
+- Rendering is now scaled pixel-perfect
+- Mobile touch controls were added
+- There is a new [retro mode][bounty_bros_retro_mode] that tries to make it it
+  look like the game is running on an old CRT television.
+
+All of the source code, excluding assets and artwork, was also made available
+and split into two independent projects.
+
+These projects were released under the
+[Katharos License][katharos_license]. This license has moral and ethical
+implications that you may or may not agree with, so please read it before making
+use of these projects:
+
+- [Bevy Retro][bevy_retro]: A Bevy plugin for pixel-perfect games
+- [Skip'n Go][skipngo]: A simple game engine for making top-down pixel games
+
+You can read the full update in the [Blog Post][bounty_bros_blog_post].
+
+_Discussions: [Skip'n Go on GitHub][skipngo_discussions], [Bevy Retro on GitHub][bevy_retro_discussions]_
+
+[bevy_retro]: https://github.com/katharostech/bevy_retro
+[bevy_retro_discussions]: https://github.com/katharostech/bevy_retro/discussions
+[katharostech]: https://katharostech.com
+[skipngo]: https://github.com/katharostech/skipngo
+[skipngo_discussions]: https://github.com/katharostech/skipngo/discussions
+[bounty_bros]: https://katharostech.com/post/bounty-bros-on-web
+[bounty_bros_webgame]: https://skipngo.katharostech.com/?asset_url=https://bounty-bros.skipngo.katharostech.com/
+[bounty_bros_blog_post]: https://katharostech.com/post/bounty-bros-on-web
+[bounty_bros_retro_mode]: https://skipngo.katharostech.com/?asset_url=https://bounty-bros.skipngo.katharostech.com/&enable_crt=true&pixel_aspect_ratio=1.3
+[katharos_license]: https://github.com/katharostech/katharos-license
+
 ### [pGLOWrpg][pglowrpg-github]
 
 ![Improved text rendering](pglowrpg_progress.jpg)
