@@ -155,6 +155,17 @@ of the past 6 months of development.
 [egregoria-discord]: https://discord.gg/CAaZhUJ
 [egregoria-youtube]: https://youtu.be/qH2SKWbRV5I
 
+### [Gargoyle's Quest]
+
+![Gargoyle's Quest](gargoyles_quest.png)
+
+[Gargoyle's Quest](https://github.com/ShamylZakariya/Platformer) by
+[@ShamylZakariya] is an implementation of level one of the 1990 [Gameboy
+platformer](https://en.wikipedia.org/wiki/Gargoyle%27s_Quest) built using
+[wgpu](https://github.com/gfx-rs/wgpu-rs).
+
+[@ShamylZakariya]: https://github.com/ShamylZakariya
+
 ## Engine Updates
 
 ### [Starframe]
