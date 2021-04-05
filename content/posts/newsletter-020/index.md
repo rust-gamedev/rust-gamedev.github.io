@@ -64,7 +64,121 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [pGLOWrpg][pglowrpg-github]
+
+![Improved text rendering](pglowrpg_progress.jpg)
+
+[pGLOWrpg][pglowrpg-github] by [@Roal_Yr]
+is a Procedurally Generated Living Open World RPG,
+a long-term project in development, which aims to be a narrative text-based game
+with maximum portability and accessibility.
+
+Recent updates include:
+
+- Reformatting a print interface, making it very easy to link text UI and code.
+- Switching to .ron file format for storing configs and strings.
+- Implementing individual strings coloring for better visual perception.
+
+_Discussions: [Twitter][pglowrpg-twitter]_
+
+[@Roal_Yr]: https://twitter.com/Roal_Yr
+[pglowrpg-twitter]: https://twitter.com/pglowrpg
+[pglowrpg-github]: https://github.com/roalyr/pglowrpg
+
+### [Orbital Decay][orbital-decay]
+
+![Orbital Decay](orbital-decay.gif)
+_Orbital Decay gameplay_
+
+[Orbital Decay][orbital-decay] by [@stevebob] is an
+[open-source][orbital-decay-source] turn-based tactical roguelike with a focus
+on ranged combat.  Deal enough damage to enemies to get through their armour
+without breaching the hull of the station, or risk being pulled into the void.
+It was made for the [7 Day Roguelike 2021][7drl-2021] game jam.
+
+Traverse a procedurally-generated space station to reach the fuel bay on the
+5th floor. Choose your weapons and upgrades wisely to make it past the
+station's former crew - now a horde of ravenous undead.
+
+Read more about Orbital Decay on its [development blog][orbital-decay-blog].
+
+[orbital-decay]: https://gridbugs.itch.io/orbital-decay
+[orbital-decay-source]: https://github.com/stevebob/orbital-decay
+[@stevebob]: https://github.com/stevebob
+[7drl-2021]: https://itch.io/jam/7drl-challenge-2021
+[orbital-decay-blog]: https://www.gridbugs.org/7drl2021-day7/
+
+### [A/B Street]
+
+![Elevation data in A/B Street](./abstreet.jpg)
+
+[A/B Street] by [@dabreegster] is a traffic simulation game exploring how small
+changes to roads affect cyclists, transit users, pedestrians, and drivers, with
+support for any city with OpenStreetMap coverage.
+
+In March, elevation data courtesy of [Eldan] was imported, letting cycling
+speeds uphill be adjusted. Importing any area from OpenStreetMap can now be
+done from the UI with no command-line experience, and custom travel demand
+models based on UK-wide census data can now be generated. Some important
+simulation fixes for roundabouts improve gridlock, and [Michael] and [Yuwen]
+helped adjust the UI panel layout for smaller screens.
+
+[A/B Street]: https://github.com/a-b-street/abstreet
+[@dabreegster]: https://twitter.com/CarlinoDustin
+[Eldan]: https://github.com/eldang/
+[Michael]: https://github.com/michaelkirk
+[Yuwen]: https://www.yuwen-li.com/
+
+### [Egregoria]
+
+![Egregoria city at dawn](egregoria.jpg)
+
+[Egregoria] ([GitHub][Egregoria], [Discord][egregoria-discord])
+by [@Uriopass]
+is a simulation oriented city builder that tries
+to replicate modern society as well as possible.
+
+The [8th devlog][egregoria-blog-post] was published.
+Updates include:
+
+- Multiplayer based on deterministic lockstep
+- Economy revamp inspired by Anno 1800
+- Infinite world using procedural generation
+- Many more QoL features
+
+See also the [YouTube summary video][egregoria-youtube]
+of the past 6 months of development.
+
+[Egregoria]: https://github.com/Uriopass/Egregoria
+[@Uriopass]: https://github.com/Uriopass
+[egregoria-blog-post]: https://douady.paris/blog/egregoria_8.html
+[egregoria-discord]: https://discord.gg/CAaZhUJ
+[egregoria-youtube]: https://youtu.be/qH2SKWbRV5I
+
 ## Engine Updates
+
+### [Starframe]
+
+![Current state of starframe graphics and physics](starframe.gif)
+
+[Starframe] by [@moletrooper] is a work-in-progress game engine for physics-y
+sidescrolling 2D games.
+
+This month, its physics engine was revamped once more (for the last time,
+hopefully), implementing a modern solver method called Extended Position-Based
+Dynamics. Also, [a blog post][sf-blog-post] was published, covering the
+development of the physics engine so far in a great deal of mathematical
+detail.
+
+_Discussions:
+[twitter (physics update)][sf-update-tweet],
+[twitter (blog post)][sf-blog-tweet]_
+
+[starframe]: https://github.com/moletrooper/starframe
+[@moletrooper]: https://twitter.com/moletrooper
+[sf-blog-post]: https://moletrooper.github.io/blog/2021/03/starframe-devlog-constraints/
+[sf-blog-tweet]: https://twitter.com/moletrooper/status/1377273607450136576
+[sf-update-tweet]: https://twitter.com/moletrooper/status/1360723470414450688
 
 ### Emerald
 
@@ -100,6 +214,41 @@ New Updates:
 [fontdue_git]: https://github.com/mooman219/fontdue
 
 ## Learning Material Updates
+
+### [Reverse-Engineering NES Tetris to add Hard Drop][tetris-hard-drop]
+
+![NES Tetris with Hard Drop and Ghost Piece](tetris-hard-drop.gif) _NES Tetris
+with Hard Drop and Ghost Piece_
+
+A [blog post][tetris-hard-drop] describing the process of reverse-engineering
+the rendering and input-handling logic in the NES version of Tetris, and using
+a [rust embedded domain-specific language][tetris-hard-drop-dsl-example] to
+make a [patching tool][tetris-hard-drop-patch-tool] that generates code (6502
+machine code) to add hard drop (instantly dropping the current piece) and to
+render a ghost piece (the dotted outline showing where the current piece will
+land).
+
+The patching tool uses the crate
+[mos6502_assembler][tetris-hard-drop-assembler] to specify 6502 assembly in
+rust and generate machine code. Many of the reverse-engineering experiments
+were done using [this rust NES emulator][tetris-hard-drop-nes-emulator].  The
+result is available as an [IPS Patch][tetris-hard-drop-ips-patch].
+
+_Discussions: [Hacker News](https://news.ycombinator.com/item?id=26530604),
+[/r/rust](https://reddit.com/r/rust/comments/ma6jqz/using_a_rust_dsl_to_add_hard_drop_to_nes_tetris/)_
+
+[tetris-hard-drop]:
+https://www.gridbugs.org/reverse-engineering-nes-tetris-to-add-hard-drop/
+[tetris-hard-drop-nes-emulator]:
+https://github.com/stevebob/mos6502/tree/master/nes-emulator
+[tetris-hard-drop-assembler]:
+https://github.com/stevebob/mos6502/tree/master/assembler
+[tetris-hard-drop-ips-patch]:
+https://github.com/stevebob/mos6502/raw/master/tetris-hard-drop-patcher/tetris-hard-drop.ips
+[tetris-hard-drop-patch-tool]:
+https://github.com/stevebob/mos6502/tree/master/tetris-hard-drop-patcher
+[tetris-hard-drop-dsl-example]:
+https://github.com/stevebob/mos6502/blob/master/tetris-hard-drop-patcher/src/main.rs#L23
 
 ## Library & Tooling Updates
 
@@ -161,6 +310,30 @@ includes more options for HDR tonemapping.
 [rafx]: https://github.com/aclysma/rafx
 [rafx-distill]: https://github.com/amethyst/distill
 [rafx-ldtk]: https://ldtk.io
+
+### [WhatTheFrame]
+
+![whattheframe gui](whattheframe.png)
+
+[WhatTheFrame] by [@JMS55]
+is a frame-based cpu profiler crate along with a [GTK] ([gtk4-rs]) based GUI.
+
+This project aims to answer the question: Which frames of my game are slow, and why?
+
+It aims to be simple to use, consisting of only 3 functions: Call `let _r = Profiler::new_frame()`
+at the start of each frame, `let _r = Profiler::new_task("task_name")` whenever you
+want to profile a task, and finally `Profiler::end_profiling()` once at the end.
+
+You can then open the resulting `.wtf` profile in the GUI and analyze the results.
+
+This month was spent designing and implementing both the GUI and profiler crate.
+The core functionality of both programs are complete, and all that remains is
+cleanup, tweaks, optimization, and finally packaging the GUI up.
+
+[WhatTheFrame]: https://github.com/JMS55/whattheframe
+[@JMS55]: https://github.com/JMS55
+[GTK]: https://gtk.org/
+[gtk4-rs]: https://github.com/gtk-rs/gtk4-rs#gtk4-rs-
 
 ## Popular Workgroup Issues in Github
 
