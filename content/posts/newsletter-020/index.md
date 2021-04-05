@@ -146,8 +146,8 @@ layer to the library, `rafx-renderer`. It provides a plugin system, simplifying
 framework setup in a project.
 
 The demo now includes a tilemap renderer that integrates with the [LDTK level
-editor][rafx-ldtk]. The `distill` integration processes the level files offline for very
-efficient loading/rendering at runtime.
+editor][rafx-ldtk]. The `distill` integration processes the level files offline
+for very efficient loading/rendering at runtime.
 
 Sprite rendering in general is also much faster now. Scenes with 40k-100k
 sprites can render at 60fps (measured on M1 mini) depending on
