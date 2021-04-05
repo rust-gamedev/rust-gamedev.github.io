@@ -108,6 +108,29 @@ Read more about Orbital Decay on its [development blog][orbital-decay-blog].
 [7drl-2021]: https://itch.io/jam/7drl-challenge-2021
 [orbital-decay-blog]: https://www.gridbugs.org/7drl2021-day7/
 
+### Stellary 2
+
+[![Stellary 2 Anti-Missile Laser](stellary2-centered-view.gif)][stellary2-ppcv-tweet]
+_▶️ Click to [watch the full video][stellary2-ppcv-tweet]_
+
+Stellary 2 by [@CoffeJunkStudio][coffe-junk-studio] is a 3D real-time space
+shooter in which the player has to control his spaceship to colonize each planet
+in the solar system.
+
+In the last month, the game concept has been overhauled. Most importantly:
+
+- Planets become inhabitable over time, starting with the outermost one in order
+to bring head-to-head matches to an end eventually.
+- Full focus on multiplayer, including AIs
+- Players can’t die mid-game anymore. When defeated, they re-spawn and lose a
+colony for it (if they have one) instead of dying. This prevents long waiting
+times when playing against friends.
+
+You can follow the development of Stellary 2 on [Twitter][coffe-junk-studio].
+
+[coffe-junk-studio]: https://twitter.com/CoffeJunkStudio
+[stellary2-ppcv-tweet]: https://twitter.com/CoffeJunkStudio/status/1378719827347509249
+
 ### [A/B Street]
 
 ![Elevation data in A/B Street](./abstreet.jpg)
