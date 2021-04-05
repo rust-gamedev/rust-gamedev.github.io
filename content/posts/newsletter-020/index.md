@@ -197,10 +197,10 @@ _Enemies can now be easily spawned in formations_
 
 [Theta Wave] is an open-source space shooter game by developers [@micah_tigley] and
 [@carlosupina]. It is one of the showcase games for the [Amethyst Engine]. In
-the past month, the "Foundations" update was released which included numerous
+the past month, the ["Foundations"] update was released which included numerous
 refactors that improved the accessibility of contributing to the game.
 
-They are now working on the "Formations" update which will organize how
+They are now working on the ["Formations"] update which will organize how
 waves of enemies are spawned into the game.
 
 Notable changes:
