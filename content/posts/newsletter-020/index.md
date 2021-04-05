@@ -108,6 +108,27 @@ Read more about Orbital Decay on its [development blog][orbital-decay-blog].
 [7drl-2021]: https://itch.io/jam/7drl-challenge-2021
 [orbital-decay-blog]: https://www.gridbugs.org/7drl2021-day7/
 
+### [A/B Street]
+
+![Elevation data in A/B Street](./abstreet.jpg)
+
+[A/B Street] by [@dabreegster] is a traffic simulation game exploring how small
+changes to roads affect cyclists, transit users, pedestrians, and drivers, with
+support for any city with OpenStreetMap coverage.
+
+In March, elevation data courtesy of [Eldan] was imported, letting cycling
+speeds uphill be adjusted. Importing any area from OpenStreetMap can now be
+done from the UI with no command-line experience, and custom travel demand
+models based on UK-wide census data can now be generated. Some important
+simulation fixes for roundabouts improve gridlock, and [Michael] and [Yuwen]
+helped adjust the UI panel layout for smaller screens.
+
+[A/B Street]: https://github.com/a-b-street/abstreet
+[@dabreegster]: https://twitter.com/CarlinoDustin
+[Eldan]: https://github.com/eldang/
+[Michael]: https://github.com/michaelkirk
+[Yuwen]: https://www.yuwen-li.com/
+
 ### [Egregoria]
 
 ![Egregoria city at dawn](egregoria.jpg)
