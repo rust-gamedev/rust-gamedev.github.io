@@ -268,7 +268,7 @@ The library is currently considered completed, which means that all planned
 features are implemented, tested and benchmarked. Future updates will focus on
 performance improvements and usability improvements.
 
-[Planck ECS] is also used in [Shotcaller] which is featured in this newsletter
+[Planck ECS] is also used in [Shotcaller][planck_shotcaller] which is featured in this newsletter
 too.
 
 You can read more about the library on the [Blog][planck_blog] and on
@@ -278,6 +278,7 @@ _Discussions: [/r/rust][planck_reddit], Discord: jojolepro#8057_
 
 [@jojolepro]: https://github.com/jojolepro
 [Planck ECS]: https://github.com/jojolepro/planck_ecs
+[planck_shotcaller]: https://github.com/amethyst/shotcaller
 [planck_blog]: https://jojolepro.com/blog/2021-01-13_planck_ecs/
 [planck_patreon]: https://patreon.com/jojolepro
 [planck_reddit]: https://www.reddit.com/r/rust/comments/m73ema/yet_another_ecs_library_except_much_safer/
