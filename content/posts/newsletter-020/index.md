@@ -108,6 +108,32 @@ Read more about Orbital Decay on its [development blog][orbital-decay-blog].
 [7drl-2021]: https://itch.io/jam/7drl-challenge-2021
 [orbital-decay-blog]: https://www.gridbugs.org/7drl2021-day7/
 
+### [Egregoria]
+
+![Egregoria city at dawn](egregoria.jpg)
+
+[Egregoria] ([GitHub][Egregoria], [Discord][egregoria-discord])
+by [@Uriopass]
+is a simulation oriented city builder that tries
+to replicate modern society as well as possible.
+
+The [8th devlog][egregoria-blog-post] was published.
+Updates include:
+
+- Multiplayer based on deterministic lockstep
+- Economy revamp inspired by Anno 1800
+- Infinite world using procedural generation
+- Many more QoL features
+
+See also the [YouTube summary video][egregoria-youtube]
+of the past 6 months of development.
+
+[Egregoria]: https://github.com/Uriopass/Egregoria
+[@Uriopass]: https://github.com/Uriopass
+[egregoria-blog-post]: https://douady.paris/blog/egregoria_8.html
+[egregoria-discord]: https://discord.gg/CAaZhUJ
+[egregoria-youtube]: https://youtu.be/qH2SKWbRV5I
+
 ## Engine Updates
 
 ### [Starframe]
