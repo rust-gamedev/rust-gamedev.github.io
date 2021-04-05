@@ -270,6 +270,22 @@ New Updates:
 
 ## Learning Material Updates
 
+### [Bevy Cheatbook: Major Overhaul for Bevy 0.5][bevy_cheatbook]
+
+The Unofficial Bevy Cheatbook by @jamadazi is a practical reference book for
+the [Bevy Game Engine][bevy]. It teaches programming patterns, features, and
+solutions to common problems. Written to be concise and easy to learn from.
+
+The book recently got a major overhaul for the big new Bevy 0.5 release. Many
+pages were expanded or rewritten, new content added, and community feedback
+addressed.
+
+If you are interested in Bevy, this book is now one of the most detailed
+learning resources. Have fun making cool things with Bevy!
+
+[bevy_cheatbook]: https://bevy-cheatbook.github.io
+[bevy]: https://bevyengine.org
+
 ### [Reverse-Engineering NES Tetris to add Hard Drop][tetris-hard-drop]
 
 ![NES Tetris with Hard Drop and Ghost Piece](tetris-hard-drop.gif) _NES Tetris
