@@ -120,11 +120,11 @@ in the solar system.
 In the last month, the game concept has been overhauled. Most importantly:
 
 - Planets become inhabitable over time, starting with the outermost one in order
-to bring head-to-head matches to an end eventually.
+  to bring head-to-head matches to an end eventually.
 - Full focus on multiplayer, including AIs
 - Players can’t die mid-game anymore. When defeated, they re-spawn and lose a
-colony for it (if they have one) instead of dying. This prevents long waiting
-times when playing against friends.
+  colony for it (if they have one) instead of dying. This prevents long waiting
+  times when playing against friends.
 
 You can follow the development of Stellary 2 on [Twitter][coffe-junk-studio].
 
