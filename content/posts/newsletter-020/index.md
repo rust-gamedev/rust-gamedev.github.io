@@ -157,6 +157,26 @@ of the past 6 months of development.
 
 ## Engine Updates
 
+### [Tetra]
+
+[Tetra] is a simple 2D game framework, inspired by XNA, Love2D, and Raylib. This
+month, versions 0.6.1 and 0.6.2 were released, featuring:
+
+- Support for blend modes and premultiplied alpha
+- Scissor rectangles (useful for UI rendering)
+- Word wrapping for text
+- More events and methods for tracking/controlling the window's state
+- Bugfixes and docs improvements
+
+For more details, see the [changelog][tetra-changelog].
+
+Additionally, a [template repository][tetra-template] has been created,
+demonstrating some useful patterns for structuring a Tetra project.
+
+[Tetra]: https://github.com/17cupsofcoffee/tetra
+[tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
+[tetra-template]: https://twitter.com/17cupsofcoffee/status/1357750836370284544
+
 ### [Starframe]
 
 ![Current state of starframe graphics and physics](starframe.gif)
