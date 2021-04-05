@@ -145,8 +145,8 @@ is a frame-based cpu profiler crate along with a [GTK] ([gtk4-rs]) based GUI.
 This project aims to answer the question: Which frames of my game are slow, and why?
 
 It aims to be simple to use, consisting of only 3 functions: Call `let _r = Profiler::new_frame()`
-at the start of each frame, `let _r = Profiler::new_task("task_name")` whenever you want to profile
-a task, and finally `Profiler::end_profiling()` once at the end.
+at the start of each frame, `let _r = Profiler::new_task("task_name")` whenever you
+want to profile a task, and finally `Profiler::end_profiling()` once at the end.
 
 You can then open the resulting `.wtf` profile in the GUI and analyze the results.
 
