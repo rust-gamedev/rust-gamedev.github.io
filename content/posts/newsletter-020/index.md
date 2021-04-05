@@ -64,6 +64,29 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Orbital Decay][orbital-decay]
+
+![Orbital Decay](orbital-decay.gif)
+_Orbital Decay gameplay_
+
+[Orbital Decay][orbital-decay] by [@stevebob] is an
+[open-source][orbital-decay-source] turn-based tactical roguelike with a focus
+on ranged combat.  Deal enough damage to enemies to get through their armour
+without breaching the hull of the station, or risk being pulled into the void.
+It was made for the [7 Day Roguelike 2021][7drl-2021] game jam.
+
+Traverse a procedurally-generated space station to reach the fuel bay on the
+5th floor. Choose your weapons and upgrades wisely to make it past the
+station's former crew - now a horde of ravenous undead.
+
+Read more about Orbital Decay on its [development blog][orbital-decay-blog].
+
+[orbital-decay]: https://gridbugs.itch.io/orbital-decay
+[orbital-decay-source]: https://github.com/stevebob/orbital-decay
+[@stevebob]: https://github.com/stevebob
+[7drl-2021]: https://itch.io/jam/7drl-challenge-2021
+[orbital-decay-blog]: https://www.gridbugs.org/7drl2021-day7/
+
 ## Engine Updates
 
 ### Emerald
