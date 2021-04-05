@@ -260,7 +260,7 @@ https://github.com/stevebob/mos6502/blob/master/tetris-hard-drop-patcher/src/mai
 [Patreon][planck_patreon]) by [@jojolepro]
 is a brand new minimalist and safe ECS library.
 
-The 1.0 released happened in the past month, featuring: various fixes,
+The 1.0 release happened in the past month, featuring: various fixes,
 quality of life improvements, removal of unsafe code and completion of tests and
 documentation.
 
