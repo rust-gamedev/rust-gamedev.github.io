@@ -305,6 +305,19 @@ https://github.com/stevebob/mos6502/tree/master/tetris-hard-drop-patcher
 [tetris-hard-drop-dsl-example]:
 https://github.com/stevebob/mos6502/blob/master/tetris-hard-drop-patcher/src/main.rs#L23
 
+### [Bevy game template][bevy-game-template]
+
+[Bevy game template][bevy-game-template] by [@nikl_me][nikl_twitter]
+is a template repository for a Bevy game.
+
+The goal is to present a possible structure for Bevy games and at the
+same time reduce the amount of copy paste when starting a new project.
+The repository includes a GitHub workflow for Linux, MacOS, and Windows builds
+(WASM will be supported soon) and comes with a small, opinionated example game.
+
+[bevy-game-template]:https://github.com/NiklasEi/bevy_game_template
+[nikl_twitter]: https://twitter.com/nikl_me
+
 ## Library & Tooling Updates
 
 ### [Planck ECS]
