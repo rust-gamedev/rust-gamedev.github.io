@@ -173,7 +173,7 @@ For more details, see the [changelog][tetra-changelog].
 Additionally, a [template repository][tetra-template] has been created,
 demonstrating some useful patterns for structuring a Tetra project.
 
-[tetra]: https://github.com/17cupsofcoffee/tetra
+[Tetra]: https://github.com/17cupsofcoffee/tetra
 [tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
 [tetra-template]: https://twitter.com/17cupsofcoffee/status/1357750836370284544
 
