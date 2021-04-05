@@ -138,7 +138,7 @@ _Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/m
 ### [rafx]
 
 ![rafx tilemap rendering](rafx-tilemap-rendering.png)
-Rafx rendering an example tilemap from [LDTK level editor][rafx-ldtk]
+_Rafx rendering an example tilemap from [LDTK level editor][rafx-ldtk]_
 
 Rafx is a multi-backend renderer that optionally integrates with the
 [distill][rafx-distill] asset pipeline. This month, we introduced a fourth
