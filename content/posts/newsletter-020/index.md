@@ -69,7 +69,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ![Orbital Decay](orbital-decay.gif)
 _Orbital Decay gameplay_
 
-[Orbital Decay][orbital-decay] by [@stevebob][] is an
+[Orbital Decay][orbital-decay] by [@stevebob] is an
 [open-source][orbital-decay-source] turn-based tactical roguelike with a focus
 on ranged combat.  Deal enough damage to enemies to get through their armour
 without breaching the hull of the station, or risk being pulled into the void.
