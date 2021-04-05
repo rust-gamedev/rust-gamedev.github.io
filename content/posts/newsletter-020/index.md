@@ -159,8 +159,8 @@ of the past 6 months of development.
 
 ![Gargoyle's Quest](gargoyles_quest.png)
 
-[Gargoyle's Quest] by [@ShamylZakariya] is an implementation of level one of the 1990
-[Gameboy platformer][gargoyle-wiki] built using [wgpu].
+[Gargoyle's Quest] by [@ShamylZakariya] is an implementation of level one
+of the 1990 [Gameboy platformer][gargoyle-wiki] built using [wgpu].
 
 [Gargoyle's Quest]: https://github.com/ShamylZakariya/Platformer
 [@ShamylZakariya]: https://github.com/ShamylZakariya
