@@ -412,24 +412,29 @@ includes more options for HDR tonemapping.
 
 ### [rkyv]
 
-[rkyv] is a zero-copy deserialization framework for Rust. It's similar to FlatBuffers and Cap'n
-Proto and can be used for data storage and messaging.
+[rkyv] is a zero-copy deserialization framework for Rust. It's similar to FlatBuffers
+and Cap'n Proto and can be used for data storage and messaging.
 
-A [benchmark][rust-serialization-benchmark] was put together to compare rkyv against other leading
-serialization solutions and gather feedback and use cases for development. A
-[summary and analysis][rkyv-is-faster-than] of the results is also available.
+A [benchmark][rust-serialization-benchmark] was put together to compare rkyv
+against other leading serialization solutions and gather feedback and use
+cases for development. A [summary and analysis][rkyv-is-faster-than] of the
+results is also available.
 
-Version 0.5 is hot off the presses and rolls up features from the 0.4 development cycle:
+Version 0.5 is hot off the presses and rolls up features from the 0.4
+development cycle:
 
-- Derive macros can now implement `PartialEq` and `PartialOrd` between archived and unarchived types
-- Custom type bounds for serialization and deserialization can be added with derive attributes
-- Helper types like [AlignedVec][rkyv-AlignedVec] and [Infallible][rkyv-Infallible] were introduced
-  to improve ergonomics
+- Derive macros can now implement `PartialEq` and `PartialOrd` between
+  archived and unarchived types
+- Custom type bounds for serialization and deserialization can be added
+  with derive attributes
+- Helper types like [AlignedVec][rkyv-AlignedVec] and
+  [Infallible][rkyv-Infallible] were introduced to improve ergonomics
 - `const_generics` are now enabled by default
 - Helper functions have been added to make getting root objects easier
 - Several bugfixes and performance improvements
 
-A [feedback issue][rkyv-feedback] is still open for providing feedback on further development.
+A [feedback issue][rkyv-feedback] is still open for providing feedback on
+further development.
 
 [rkyv]: https://github.com/djkoloski/rkyv
 [rust-serialization-benchmark]: https://github.com/djkoloski/rust_serialization_benchmark
