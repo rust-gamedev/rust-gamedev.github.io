@@ -268,8 +268,8 @@ The library is currently considered completed, which means that all planned
 features are implemented, tested and benchmarked. Future updates will focus on
 performance improvements and usability improvements.
 
-[Planck ECS] is also used in [Shotcaller][planck_shotcaller] which is featured in this newsletter
-too.
+[Planck ECS] is also used in [Shotcaller][planck_shotcaller] which is featured in
+this newsletter too.
 
 You can read more about the library on the [Blog][planck_blog] and on
 [GitHub][Planck ECS].
