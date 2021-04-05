@@ -124,6 +124,41 @@ New Updates:
 
 ## Learning Material Updates
 
+### [Reverse-Engineering NES Tetris to add Hard Drop][tetris-hard-drop]
+
+![NES Tetris with Hard Drop and Ghost Piece](tetris-hard-drop.gif) _NES Tetris
+with Hard Drop and Ghost Piece_
+
+A [blog post][tetris-hard-drop] describing the process of reverse-engineering
+the rendering and input-handling logic in the NES version of Tetris, and using
+a [rust embedded domain-specific language][tetris-hard-drop-dsl-example] to
+make a [patching tool][tetris-hard-drop-patch-tool] that generates code (6502
+machine code) to add hard drop (instantly dropping the current piece) and to
+render a ghost piece (the dotted outline showing where the current piece will
+land).
+
+The patching tool uses the crate
+[mos6502_assembler][tetris-hard-drop-assembler] to specify 6502 assembly in
+rust and generate machine code. Many of the reverse-engineering experiments
+were done using [this rust NES emulator][tetris-hard-drop-nes-emulator].  The
+result is available as an [IPS Patch][tetris-hard-drop-ips-patch].
+
+_Discussions: [Hacker News](https://news.ycombinator.com/item?id=26530604),
+[/r/rust](https://reddit.com/r/rust/comments/ma6jqz/using_a_rust_dsl_to_add_hard_drop_to_nes_tetris/)_
+
+[tetris-hard-drop]:
+https://www.gridbugs.org/reverse-engineering-nes-tetris-to-add-hard-drop/
+[tetris-hard-drop-nes-emulator]:
+https://github.com/stevebob/mos6502/tree/master/nes-emulator
+[tetris-hard-drop-assembler]:
+https://github.com/stevebob/mos6502/tree/master/assembler
+[tetris-hard-drop-ips-patch]:
+https://github.com/stevebob/mos6502/raw/master/tetris-hard-drop-patcher/tetris-hard-drop.ips
+[tetris-hard-drop-patch-tool]:
+https://github.com/stevebob/mos6502/tree/master/tetris-hard-drop-patcher
+[tetris-hard-drop-dsl-example]:
+https://github.com/stevebob/mos6502/blob/master/tetris-hard-drop-patcher/src/main.rs#L23
+
 ## Library & Tooling Updates
 
 ### [wgpu]
