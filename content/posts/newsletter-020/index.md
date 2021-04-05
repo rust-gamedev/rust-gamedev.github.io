@@ -284,6 +284,33 @@ _Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/m
 [@wumpf]: https://github.com/Wumpf
 [graphics team blog]: https://mozillagfx.wordpress.com/2021/03/10/webgpu-progress/
 
+### [rafx]
+
+![rafx tilemap rendering](rafx-tilemap-rendering.png)
+_Rafx rendering an example tilemap from [LDTK level editor][rafx-ldtk]_
+
+Rafx is a multi-backend renderer that optionally integrates with the
+[distill][rafx-distill] asset pipeline. This month, we introduced a fourth
+layer to the library, `rafx-renderer`. It provides a plugin system, simplifying
+framework setup in a project.
+
+The demo now includes a tilemap renderer that integrates with the [LDTK level
+editor][rafx-ldtk]. The `distill` integration processes the level files offline
+for very efficient loading/rendering at runtime.
+
+Sprite rendering in general is also much faster now. Scenes with 40k-100k
+sprites can render at 60fps (measured on M1 mini) depending on
+transparency/distinct Z values in the scene. New examples demonstrate tilemap
+and sprite rendering.
+
+Early work was also done to reuse descriptor sets across frames and reduce
+dynamic memory allocation when working with descriptor sets. Rafx also
+includes more options for HDR tonemapping.
+
+[rafx]: https://github.com/aclysma/rafx
+[rafx-distill]: https://github.com/amethyst/distill
+[rafx-ldtk]: https://ldtk.io
+
 ### [WhatTheFrame]
 
 ![whattheframe gui](whattheframe.png)
