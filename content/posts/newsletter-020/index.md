@@ -434,6 +434,23 @@ cleanup, tweaks, optimization, and finally packaging the GUI up.
 [GTK]: https://gtk.org/
 [gtk4-rs]: https://github.com/gtk-rs/gtk4-rs#gtk4-rs-
 
+### [FemtoVG]
+
+![femtovg](femtovg.png)
+
+FemtoVG is a 2D canvas like vector graphics library based on nanovg that has
+been previously featured in this newsletter.
+
+This month, the FemtoVG team has implemented a new rendering backend based on
+the `wgpu` framework. This work is being done in this [fork][femtovg-fork] of
+FemtoVG and will be merged into the main repo soon. The team is currently
+looking for users to try out the new backend and provide feedback.
+
+Join the [FemtoVG Discord channel](https://discord.gg/V69VdVu).
+
+[FemtoVG]: https://github.com/femtovg/femtovg
+[femtovg-fork]: https://github.com/adamnemecek/femtovg
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
