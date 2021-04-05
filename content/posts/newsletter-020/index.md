@@ -192,7 +192,7 @@ of the 1990 [Gameboy platformer][gargoyle-wiki] built using [wgpu].
 
 ### [Theta Wave]
 
-[![Enemy Formations](theta_wave.gif)][Theta Wave]
+[![Enemy Formations](theta-wave.gif)][Theta Wave]
 _Enemies can now be easily spawned in formations_
 
 [Theta Wave] is an open-source space shooter game by developers [@micah_tigley] and
