@@ -318,6 +318,18 @@ The repository includes a GitHub workflow for Linux, MacOS, and Windows builds
 [bevy-game-template]:https://github.com/NiklasEi/bevy_game_template
 [nikl_twitter]: https://twitter.com/nikl_me
 
+### [Tutorial: Writing a tiny Entity Component System in Rust][ecs-in-rust]
+
+[@kettlecorn][kettlecorn_twitter] wrote a beginner-friendly [tutorial][ecs-in-rust] that dives into the
+inner workings of the Entity-Component-System pattern.
+The tutorial walks through a minimalist ECS implementatation to illustrate how the pattern works, and
+why it's useful.
+
+*Discussion: [/r/rust](https://www.reddit.com/r/rust/comments/m88ywa/tutorial_writing_a_tiny_entity_component_system/)*
+
+[kettlecorn_twitter]: https://twitter.com/kettlecorn
+[ecs-in-rust]:https://ianjk.com/ecs-in-rust/
+
 ## Library & Tooling Updates
 
 ### [Planck ECS]
