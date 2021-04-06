@@ -208,7 +208,7 @@ New features include:
 - The blending of multiple surveys
 - The support of FITS file images
 
-For more information, see my [talk][adass-talk] done at the ADASS 2020
+For more information, see a [talk][adass-talk] done at the ADASS 2020
 conference. A web page is also available [here][al-test-url] for you to test.
 You are also very welcolme to contribute to the project by e.g. posting issues
 on our github.
