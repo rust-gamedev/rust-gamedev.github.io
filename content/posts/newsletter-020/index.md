@@ -697,6 +697,21 @@ _Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/m
 [@wumpf]: https://github.com/Wumpf
 [graphics team blog]: https://mozillagfx.wordpress.com/2021/03/10/webgpu-progress/
 
+### [smaa-rs]
+
+The [smaa-rs] library provides fast and high quality post-process
+anti-aliaising using the [SMAA algorithm]. It is designed to be
+easy to integrate into other [wgpu] applications with only a few
+added lines of code.
+
+The 0.2 series released this month includes a steamlined API
+which makes it easier to enable/disable anti-aliasing via a
+configuration setting. Currently SMAA 1x is supported with
+SMAA S2x likely to be added depending on interest.
+
+[smaa-rs]: https://github.com/fintelia/smaa-rs
+[SMAA algorithm]: http://www.iryoku.com/smaa/
+
 ### [rafx]
 
 ![rafx tilemap rendering](rafx-tilemap-rendering.png)
