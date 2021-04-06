@@ -219,6 +219,40 @@ of the 1990 [Gameboy platformer][gargoyle-wiki] built using [wgpu].
 [gargoyle-wiki]: https://en.wikipedia.org/wiki/Gargoyle%27s_Quest
 [wgpu]: https://github.com/gfx-rs/wgpu-rs
 
+### [Veloren][veloren]
+
+![Airship](veloren.jpg)
+_Waiting for the airship to land_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In March, Veloren released 0.9. Lots of work throughout the month was put
+towards preparing for this. NPC merchants and trading was merged. Many changes
+were made to combat, including buffs and combat. Player-to-player trading was
+also implemented. Lots of work was done in optimizing Veloren. This included
+significantly improving how long physics was talking, and network improvements.
+Metrics tracking was also overhauled to better track the different systems in
+Veloren. Pathfinding is also working through an overhaul. A large feature
+implemented in March was Airships being merged into the game. This prompted a
+redo of how physics in the game is handled.
+
+A survey was sent out in preparation for the release. A lot of information was
+gathered about how players experience Veloren, and the items they like or don't
+like. These can all be ready in [devblog #112](https://veloren.net/devblog-112).
+This was followed up by the 0.9 release, which turned out to be the largest yet.
+At peak, 133 players joined the main server. There were problems throughout the
+release party relating to networking, as well as our tick performance.
+
+March's full weekly devlogs: "This Week In Veloren...":
+[#109](https://veloren.net/devblog-109),
+[#110](https://veloren.net/devblog-110),
+[#111](https://veloren.net/devblog-111),
+[#112](https://veloren.net/devblog-112).
+[#113](https://veloren.net/devblog-113).
+
+[veloren]: https://veloren.net
+
 ### [Theta Wave]
 
 [![Enemy Formations](theta-wave.gif)][Theta Wave]
