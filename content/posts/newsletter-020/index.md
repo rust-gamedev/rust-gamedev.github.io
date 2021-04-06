@@ -64,6 +64,35 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [SM64JS][sm64js]
+
+![Super Mario 64 JavaScript](sm64js.jpg)
+
+[SM64JS][sm64js] ([GitHub][sm64js-github], [Discord][sm64js-discord]) is a rewrite
+of the decompilation project of Super Mario 64 in JavaScript with a strong focus
+on massive multiplayer online.
+The [backend][sm64js-server] recently has been rewritten in Rust by [@marior]
+and is now live.
+
+You can find more information about it in [this recent blog post][net64-blog],
+where the developers of a similar mod called Net64 are talking
+about several decompilation projects.
+
+Some of the most recent additions are:
+
+- Carts and gliders
+- Health bars
+- More visuals with butterflies and fishes
+
+A stress test is scheduled for 2021-04-17 17:30 UTC and everyone is invited to join.
+
+[@marior]: https://twitter.com/marior_dev
+[sm64js]: https://sm64js.com
+[sm64js-github]: https://github.com/sm64js/sm64js
+[sm64js-discord]: https://discord.gg/7UaDnJt
+[sm64js-server]: https://github.com/sm64js/sm64js-mmo-server
+[net64-blog]: https://net64-mod.github.io/blog/sm64js/
+
 ### [pGLOWrpg][pglowrpg-github]
 
 ![Improved text rendering](pglowrpg_progress.jpg)
