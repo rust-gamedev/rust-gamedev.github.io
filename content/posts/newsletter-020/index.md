@@ -275,6 +275,35 @@ _Discussions: [Discord][hh_disc], [Twitter][bmb_twitter]_
 [nano-ogmo]: https://github.com/Bombfuse/nano-ogmo
 [gag_demo]: https://bombfuse.itch.io/him-character-demo-harvest-hero
 
+### [Aladin Lite]
+
+![Mars with a RdBu colormap](aladin_lite_mars_RdBu_cm.gif)
+_Mars heightmap with a RdBu colormap rendered with Aladin Lite v3_
+
+[Aladin Lite] is a spatial image survey visualizer developed by the [Astronomical
+Observatory of Strasbourg] in France. Since its first release in 2013,
+[Aladin Lite] has been used by astronomers as well as amateurs that
+are curious about exploring the sky.
+
+Originally developed using 2D Javascript canvas, its core has been fully
+rewritten in Rust and WebGL2 using [wasm-bindgen].
+New features include:
+
+- The support of multiple allsky projections (mercator, aitoff, ...)
+- The blending of multiple surveys
+- The support of FITS file images
+
+For more information, see a [talk][adass-talk] done at the ADASS 2020
+conference. A web page is also available [here][al-test-url] for you to test.
+You are also very welcolme to contribute to the project by e.g. posting issues
+on our github.
+
+[Astronomical Observatory of Strasbourg]: https://cds.u-strasbg.fr/index-fr.gml
+[Aladin Lite]: https://github.com/cds-astro/aladin-lite/tree/develop
+[wasm-bindgen]: https://github.com/rustwasm/wasm-bindgen
+[adass-talk]: https://www.youtube.com/watch?v=TILtJOiiRoc
+[al-test-url]: https://bmatthieu3.github.io/hips_webgl_renderer/index.html
+
 ### [Portal Explorer][portal-explorer]
 
 !["Portal in portal" scene](./portal-explorer.png)
@@ -377,6 +406,22 @@ New Updates:
 
 ## Learning Material Updates
 
+### [Bevy Cheatbook: Major Overhaul for Bevy 0.5][bevy_cheatbook]
+
+The Unofficial Bevy Cheatbook by @jamadazi is a practical reference book for
+the [Bevy Game Engine][bevy]. It teaches programming patterns, features, and
+solutions to common problems. Written to be concise and easy to learn from.
+
+The book recently got a major overhaul for the big new Bevy 0.5 release. Many
+pages were expanded or rewritten, new content added, and community feedback
+addressed.
+
+If you are interested in Bevy, this book is now one of the most detailed
+learning resources. Have fun making cool things with Bevy!
+
+[bevy_cheatbook]: https://bevy-cheatbook.github.io
+[bevy]: https://bevyengine.org
+
 ### [Reverse-Engineering NES Tetris to add Hard Drop][tetris-hard-drop]
 
 ![NES Tetris with Hard Drop and Ghost Piece](tetris-hard-drop.gif) _NES Tetris
@@ -425,6 +470,20 @@ The repository includes a GitHub workflow for Linux, MacOS, and Windows builds
 [bevy-game-template]:https://github.com/NiklasEi/bevy_game_template
 [nikl_twitter]: https://twitter.com/nikl_me
 
+### [Tutorial: Writing a tiny Entity Component System in Rust][ecs-in-rust]
+
+[@kettlecorn][kettlecorn_twitter] wrote
+a beginner-friendly [tutorial][ecs-in-rust] that dives into the
+inner workings of the Entity-Component-System pattern.
+The tutorial walks through a minimalist ECS
+implementatation to illustrate how the pattern works, and
+why it's useful.
+
+*Discussion: [/r/rust](https://www.reddit.com/r/rust/comments/m88ywa/tutorial_writing_a_tiny_entity_component_system/)*
+
+[kettlecorn_twitter]: https://twitter.com/kettlecorn
+[ecs-in-rust]:https://ianjk.com/ecs-in-rust/
+
 ## Library & Tooling Updates
 
 ### [kira]
@@ -440,6 +499,40 @@ _Discussions: [/r/rust](https://www.reddit.com/r/rust/comments/m0llxm/kira_game_
 
 [Kira]: https://github.com/tesselode/kira
 [@tesselode]: https://twitter.com/tesselode
+
+### [Bevy Retro][bevy_retro]
+
+![pixel-perfect-collision-demo](./bevy_retro.gif)
+_Pixel-perfect collision [example][bevy_retro_collision_example]_
+
+[Bevy Retro][bevy_retro] is a new [Bevy] plugin designed for making pixel-perfect
+games.
+
+This project was released under the [Katharos License][katharos_license]. This
+license has moral and ethical implications that you may or may not agree with,
+so please read it before making use of this project.
+
+Bevy Retro features:
+
+- Web and desktop support out of the box
+  - It even runs in Safari on iOS!
+- Integer pixel coordinates
+  - No need to round floats to keep pixels aligned!
+- Support for sprites, sprite sheets and animations
+- A super simple hierarchy system
+- A custom, scaled, pixel-perfect renderer with three camera modes: fixed width,
+  fixed height, and letter-boxed
+- An [LDtk](https://ldtk.io) map loading plugin
+- Pixel-perfect collision detection
+- Support for post-processing effects using custom shaders or the built-in CRT filter
+- Support for custom pixel aspect ratios
+
+_Discussions: [GitHub](https://github.com/katharostech/bevy_retro/discussions)_
+
+[bevy_retro]: https://github.com/katharostech/bevy_retro
+[Bevy]: https://bevyengine.org
+[katharos_license]: https://github.com/katharostech/katharos-license
+[bevy_retro_collision_example]: https://github.com/katharostech/bevy_retro/tree/master/examples#collisions
 
 ### [Planck ECS]
 
@@ -587,6 +680,41 @@ cleanup, tweaks, optimization, and finally packaging the GUI up.
 [@JMS55]: https://github.com/JMS55
 [GTK]: https://gtk.org/
 [gtk4-rs]: https://github.com/gtk-rs/gtk4-rs#gtk4-rs-
+
+### [Bitmapflow]
+
+![Bitmapflow interpolating a walking mech animation](bitmapflow.gif)
+_Bitmapflow interpolating a walking mech animation_
+
+Bitmapflow ([GitHub][Bitmapflow-GitHub]) by [@bauxitedev] is a tool to help you
+generate [inbetweens] for animated sprites. In other words, it makes your
+animations smoother. It uses [optical flow] to try to guess how the pixels move
+between frames, and blends them accordingly. The results are far from perfect,
+and probably require some editing by hand afterwards, but it can produce decent
+results.
+
+It supports loading and saving animated gifs, spritesheets and individual
+frames.
+
+The tool is written using godot-rust and executables are available for Windows,
+although Linux support will be coming soon. (If you compile the program from
+source, it already works on Linux.)
+
+A full demonstration and walkthrough of the program is available on
+[YouTube][Bitmapflow-Youtube].
+
+You can try it out yourself on [itch.io][Bitmapflow-Itch].
+
+_Discussions: [/r/rust_gamedev][Bitmapflow-Reddit]_
+
+[Bitmapflow]: https://github.com/Bauxitedev/bitmapflow
+[Bitmapflow-GitHub]: https://github.com/Bauxitedev/bitmapflow
+[Bitmapflow-Youtube]: https://www.youtube.com/watch?v=rC359dDAMiI
+[Bitmapflow-Reddit]: https://www.reddit.com/r/rust_gamedev/comments/mjw90q/introducing_bitmapflow_a_tool_to_generate/
+[Bitmapflow-Itch]: https://bauxite.itch.io/bitmapflow
+[@bauxitedev]: https://twitter.com/bauxitedev
+[inbetweens]: https://en.wikipedia.org/wiki/Inbetweening
+[optical flow]: https://en.wikipedia.org/wiki/Optical_flow
 
 ### [FemtoVG]
 
