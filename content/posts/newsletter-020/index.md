@@ -64,6 +64,35 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [SM64JS][sm64js]
+
+![Super Mario 64 JavaScript](sm64js.jpg)
+
+[SM64JS][sm64js] ([GitHub][sm64js-github], [Discord][sm64js-discord]) is a rewrite
+of the decompilation project of Super Mario 64 in JavaScript with a strong focus
+on massive multiplayer online.
+The [backend][sm64js-server] recently has been rewritten in Rust by [@marior]
+and is now live.
+
+You can find more information about it in [this recent blog post][net64-blog],
+where the developers of a similar mod called Net64 are talking
+about several decompilation projects.
+
+Some of the most recent additions are:
+
+- Carts and gliders
+- Health bars
+- More visuals with butterflies and fishes
+
+A stress test is scheduled for 2021-04-17 17:30 UTC and everyone is invited to join.
+
+[@marior]: https://twitter.com/marior_dev
+[sm64js]: https://sm64js.com
+[sm64js-github]: https://github.com/sm64js/sm64js
+[sm64js-discord]: https://discord.gg/7UaDnJt
+[sm64js-server]: https://github.com/sm64js/sm64js-mmo-server
+[net64-blog]: https://net64-mod.github.io/blog/sm64js/
+
 ### [pGLOWrpg][pglowrpg-github]
 
 ![Improved text rendering](pglowrpg_progress.jpg)
@@ -189,6 +218,32 @@ of the 1990 [Gameboy platformer][gargoyle-wiki] built using [wgpu].
 [@ShamylZakariya]: https://github.com/ShamylZakariya
 [gargoyle-wiki]: https://en.wikipedia.org/wiki/Gargoyle%27s_Quest
 [wgpu]: https://github.com/gfx-rs/wgpu-rs
+
+### [Theta Wave]
+
+[![Enemy Formations](theta-wave.gif)][Theta Wave]
+_Enemies can now be easily spawned in formations_
+
+[Theta Wave] is an open-source space shooter game by developers [@micah_tigley] and
+[@carlosupina]. It is one of the showcase games for the [Amethyst Engine]. In
+the past month, the ["Foundations"] update was released which included numerous
+refactors that improved the accessibility of contributing to the game.
+
+They are now working on the ["Formations"] update which will organize how
+waves of enemies are spawned into the game.
+
+Notable changes:
+
+- Formations can be defined in a data file
+- New `InvasionFormation` phase where formations of enemies are spawned from
+a pool of formations
+
+[Theta Wave]: https://github.com/amethyst/theta-wave
+[@micah_tigley]: https://twitter.com/micah_tigley
+[@carlosupina]: https://twitter.com/carlosupina
+[Amethyst Engine]: https://amethyst.rs/
+["Foundations"]: https://github.com/amethyst/theta-wave/releases/tag/v0.1.4
+["Formations"]: https://github.com/amethyst/theta-wave/projects/2
 
 ### [Harvest Hero][hh_disc]
 
@@ -350,6 +405,20 @@ The repository includes a GitHub workflow for Linux, MacOS, and Windows builds
 
 ## Library & Tooling Updates
 
+### [kira]
+
+[kira] by [@tesselode] is a game audio library tailored to composers and other
+people who need expressive audio.
+
+v0.5.0 was released with mixer send tracks, new effects, and playback position tracking
+for instances, as well as a variety of smaller improvements.
+
+_Discussions: [/r/rust](https://www.reddit.com/r/rust/comments/m0llxm/kira_game_audio_library_v050_playback_position/),
+[Twitter](https://twitter.com/tesselode/status/1368984205947006976)_
+
+[Kira]: https://github.com/tesselode/kira
+[@tesselode]: https://twitter.com/tesselode
+
 ### [Planck ECS]
 
 ![planck logo](planck_ecs.png)
@@ -440,6 +509,39 @@ includes more options for HDR tonemapping.
 [rafx-distill]: https://github.com/amethyst/distill
 [rafx-ldtk]: https://ldtk.io
 
+### [rkyv]
+
+[rkyv] is a zero-copy deserialization framework for Rust. It's similar to FlatBuffers
+and Cap'n Proto and can be used for data storage and messaging.
+
+A [benchmark][rust-serialization-benchmark] was put together to compare rkyv
+against other leading serialization solutions and gather feedback and use
+cases for development. A [summary and analysis][rkyv-is-faster-than] of the
+results is also available.
+
+Version 0.5 is hot off the presses and rolls up features from the 0.4
+development cycle:
+
+- Derive macros can now implement `PartialEq` and `PartialOrd` between
+  archived and unarchived types
+- Custom type bounds for serialization and deserialization can be added
+  with derive attributes
+- Helper types like [AlignedVec][rkyv-AlignedVec] and
+  [Infallible][rkyv-Infallible] were introduced to improve ergonomics
+- `const_generics` are now enabled by default
+- Helper functions have been added to make getting root objects easier
+- Several bugfixes and performance improvements
+
+A [feedback issue][rkyv-feedback] is still open for providing feedback on
+further development.
+
+[rkyv]: https://github.com/djkoloski/rkyv
+[rust-serialization-benchmark]: https://github.com/djkoloski/rust_serialization_benchmark
+[rkyv-is-faster-than]: https://davidkoloski.me/blog/rkyv-is-faster-than
+[rkyv-AlignedVec]: https://docs.rs/rkyv/0.5.0/rkyv/struct.AlignedVec.html
+[rkyv-Infallible]: https://docs.rs/rkyv/0.5.0/rkyv/struct.Infallible.html
+[rkyv-feedback]: https://github.com/djkoloski/rkyv/issues/67
+
 ### [WhatTheFrame]
 
 ![whattheframe gui](whattheframe.png)
@@ -463,6 +565,23 @@ cleanup, tweaks, optimization, and finally packaging the GUI up.
 [@JMS55]: https://github.com/JMS55
 [GTK]: https://gtk.org/
 [gtk4-rs]: https://github.com/gtk-rs/gtk4-rs#gtk4-rs-
+
+### [FemtoVG]
+
+![femtovg](femtovg.png)
+
+FemtoVG is a 2D canvas like vector graphics library based on nanovg that has
+been previously featured in this newsletter.
+
+This month, the FemtoVG team has implemented a new rendering backend based on
+the `wgpu` framework. This work is being done in this [fork][femtovg-fork] of
+FemtoVG and will be merged into the main repo soon. The team is currently
+looking for users to try out the new backend and provide feedback.
+
+Join the [FemtoVG Discord channel](https://discord.gg/V69VdVu).
+
+[FemtoVG]: https://github.com/femtovg/femtovg
+[femtovg-fork]: https://github.com/adamnemecek/femtovg
 
 ## Popular Workgroup Issues in Github
 
