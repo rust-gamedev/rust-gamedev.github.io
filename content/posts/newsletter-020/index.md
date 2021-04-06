@@ -664,7 +664,6 @@ and achieves a close match to reference path-tracing.
 Kajiya is still in its infancy, and not yet available to the public, but you
 can get glimpses of its development by following the author on [Twitter][h3r2tic-twitter].
 
-[Kajiya]: http://example.com
 [ash]: https://github.com/MaikKlein/ash
 [hassle-rs]: https://github.com/Traverse-Research/hassle-rs
 [gltf-rs]: https://github.com/gltf-rs/gltf
