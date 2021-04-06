@@ -767,6 +767,18 @@ Join the [FemtoVG Discord channel](https://discord.gg/V69VdVu).
 [FemtoVG]: https://github.com/femtovg/femtovg
 [femtovg-fork]: https://github.com/adamnemecek/femtovg
 
+### [egui-macroquad]
+
+![Code example of usage of this library.](egui-macroquad.png)
+_Code example of usage of this library._
+
+[egui-macroquad] is a small library to use [egui][egui-git] inside of
+[macroquad][macroquad-git]. It consists only of two functions.
+
+[egui-macroquad]: https://github.com/optozorax/egui-macroquad
+[macroquad-git]: https://github.com/not-fl3/macroquad
+[egui-git]: https://github.com/emilk/egui
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
