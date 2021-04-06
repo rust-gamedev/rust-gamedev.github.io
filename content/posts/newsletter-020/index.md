@@ -219,6 +219,32 @@ of the 1990 [Gameboy platformer][gargoyle-wiki] built using [wgpu].
 [gargoyle-wiki]: https://en.wikipedia.org/wiki/Gargoyle%27s_Quest
 [wgpu]: https://github.com/gfx-rs/wgpu-rs
 
+### [Theta Wave]
+
+[![Enemy Formations](theta-wave.gif)][Theta Wave]
+_Enemies can now be easily spawned in formations_
+
+[Theta Wave] is an open-source space shooter game by developers [@micah_tigley] and
+[@carlosupina]. It is one of the showcase games for the [Amethyst Engine]. In
+the past month, the ["Foundations"] update was released which included numerous
+refactors that improved the accessibility of contributing to the game.
+
+They are now working on the ["Formations"] update which will organize how
+waves of enemies are spawned into the game.
+
+Notable changes:
+
+- Formations can be defined in a data file
+- New `InvasionFormation` phase where formations of enemies are spawned from
+a pool of formations
+
+[Theta Wave]: https://github.com/amethyst/theta-wave
+[@micah_tigley]: https://twitter.com/micah_tigley
+[@carlosupina]: https://twitter.com/carlosupina
+[Amethyst Engine]: https://amethyst.rs/
+["Foundations"]: https://github.com/amethyst/theta-wave/releases/tag/v0.1.4
+["Formations"]: https://github.com/amethyst/theta-wave/projects/2
+
 ## Engine Updates
 
 ### [Tetra]
