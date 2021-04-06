@@ -304,6 +304,28 @@ on our github.
 [adass-talk]: https://www.youtube.com/watch?v=TILtJOiiRoc
 [al-test-url]: https://bmatthieu3.github.io/hips_webgl_renderer/index.html
 
+### [Portal Explorer][portal-explorer]
+
+!["Portal in portal" scene](./portal-explorer.png)
+_"Portal in portal" scene_
+
+[Portal Explorer][portal-explorer] by [@optozorax][optozorax-twitter] is a web
+visualizator of mind-blowing portals.
+
+In Portal Explorer you can view how interesting portals are constructed, and
+visually explore their properties by moving and rotating them. This program
+doesn't work well on mobile, better opened from PC. The most interesting
+scene is [portal in portal][portal-in-portal].
+
+Created using ray-tracing in shaders, engine is [macroquad][macroquad-git],
+interface is [egui][egui-git].
+
+[portal-explorer]: https://github.com/optozorax/portal
+[optozorax-twitter]: https://twitter.com/optozorax
+[portal-in-portal]: https://optozorax.github.io/portal/?scene=portal_in_portal
+[macroquad-git]: https://github.com/not-fl3/macroquad
+[egui-git]: https://github.com/emilk/egui
+
 ## Engine Updates
 
 ### [Tetra]
