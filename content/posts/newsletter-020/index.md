@@ -320,6 +320,20 @@ The repository includes a GitHub workflow for Linux, MacOS, and Windows builds
 
 ## Library & Tooling Updates
 
+### [kira]
+
+[kira] by [@tesselode] is a game audio library tailored to composers and other
+people who need expressive audio.
+
+v0.5.0 was released with mixer send tracks, new effects, and playback position tracking
+for instances, as well as a variety of smaller improvements.
+
+_Discussions: [/r/rust](https://www.reddit.com/r/rust/comments/m0llxm/kira_game_audio_library_v050_playback_position/),
+[Twitter](https://twitter.com/tesselode/status/1368984205947006976)_
+
+[Kira]: https://github.com/tesselode/kira
+[@tesselode]: https://twitter.com/tesselode
+
 ### [Planck ECS]
 
 ![planck logo](planck_ecs.png)
