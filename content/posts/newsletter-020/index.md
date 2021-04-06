@@ -245,6 +245,36 @@ a pool of formations
 ["Foundations"]: https://github.com/amethyst/theta-wave/releases/tag/v0.1.4
 ["Formations"]: https://github.com/amethyst/theta-wave/projects/2
 
+### [Harvest Hero][hh_disc]
+
+![harvest_hero_level](./harvest_hero_level_making.gif)
+
+[Harvest Hero][hh_disc] by [@bombfuse][bmb_twitter]
+is an arcade/roguelite where you whack Groobles.
+
+Harvest Hero has undergone a large change, migrating
+from semi-randomly generated levels to handcrafted levels
+that are randomly selected throughout your playthrough.
+
+This means using [Ogmo][ogmo] to design levels,
+and using [nano-ogmo][nano-ogmo] to import them.
+
+Built on top of [Emerald](#Emerald).
+
+Updates:
+
+- General UI update
+- Importing ogmo levels via nano-ogmo
+- [April Fools demo][gag_demo]
+
+_Discussions: [Discord][hh_disc], [Twitter][bmb_twitter]_
+
+[hh_disc]: https://discord.gg/CJRbxQn3d9
+[bmb_twitter]: https://twitter.com/bombfuse_dev
+[ogmo]: https://ogmo-editor-3.github.io/
+[nano-ogmo]: https://github.com/Bombfuse/nano-ogmo
+[gag_demo]: https://bombfuse.itch.io/him-character-demo-harvest-hero
+
 ## Engine Updates
 
 ### [Tetra]
