@@ -219,6 +219,40 @@ of the 1990 [Gameboy platformer][gargoyle-wiki] built using [wgpu].
 [gargoyle-wiki]: https://en.wikipedia.org/wiki/Gargoyle%27s_Quest
 [wgpu]: https://github.com/gfx-rs/wgpu-rs
 
+### [Veloren][veloren]
+
+![Airship](veloren.jpg)
+_Waiting for the airship to land_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In March, Veloren released 0.9. Lots of work throughout the month was put
+towards preparing for this. NPC merchants and trading was merged. Many changes
+were made to combat, including buffs and combat. Player-to-player trading was
+also implemented. Lots of work was done in optimizing Veloren. This included
+significantly improving how long physics was talking, and network improvements.
+Metrics tracking was also overhauled to better track the different systems in
+Veloren. Pathfinding is also working through an overhaul. A large feature
+implemented in March was Airships being merged into the game. This prompted a
+redo of how physics in the game is handled.
+
+A survey was sent out in preparation for the release. A lot of information was
+gathered about how players experience Veloren, and the items they like or don't
+like. These can all be ready in [devblog #112](https://veloren.net/devblog-112).
+This was followed up by the 0.9 release, which turned out to be the largest yet.
+At peak, 133 players joined the main server. There were problems throughout the
+release party relating to networking, as well as our tick performance.
+
+March's full weekly devlogs: "This Week In Veloren...":
+[#109](https://veloren.net/devblog-109),
+[#110](https://veloren.net/devblog-110),
+[#111](https://veloren.net/devblog-111),
+[#112](https://veloren.net/devblog-112).
+[#113](https://veloren.net/devblog-113).
+
+[veloren]: https://veloren.net
+
 ### [Theta Wave]
 
 [![Enemy Formations](theta-wave.gif)][Theta Wave]
@@ -274,6 +308,84 @@ _Discussions: [Discord][hh_disc], [Twitter][bmb_twitter]_
 [ogmo]: https://ogmo-editor-3.github.io/
 [nano-ogmo]: https://github.com/Bombfuse/nano-ogmo
 [gag_demo]: https://bombfuse.itch.io/him-character-demo-harvest-hero
+
+### [Station Iapetus]
+
+[![Station Iapetus Youtube](station-iapetus-youtube.png)][si-youtube]
+_Check [gameplay video][si-youtube] on YouTube_
+
+[Station Iapetus][Station Iapetus] by [@mrDIMAS] is a 3rd person shooter on the
+prison Iapetus near the Saturn.
+
+- Inventory fixes and improvements
+- Splash damage for grenades
+- Weapon recoil
+- More items
+- Bots now hear player
+- More assets
+- First level improvements
+- Procedural animation of impact for bots
+- More sounds
+- Separate scene for menu with music
+- Pause game when in menu
+- More switches in options menu
+- Turrets
+
+[@mrDIMAS]: https://github.com/mrDIMAS
+[rg3d]: https://github.com/mrDIMAS/rg3d
+[Station Iapetus]: https://github.com/mrDIMAS/StationIapetus
+[si-youtube]: https://www.youtube.com/watch?v=O_ETjSkVBME
+
+### [Aladin Lite]
+
+![Mars with a RdBu colormap](aladin_lite_mars_RdBu_cm.gif)
+_Mars heightmap with a RdBu colormap rendered with Aladin Lite v3_
+
+[Aladin Lite] is a spatial image survey visualizer developed by the [Astronomical
+Observatory of Strasbourg] in France. Since its first release in 2013,
+[Aladin Lite] has been used by astronomers as well as amateurs that
+are curious about exploring the sky.
+
+Originally developed using 2D Javascript canvas, its core has been fully
+rewritten in Rust and WebGL2 using [wasm-bindgen].
+New features include:
+
+- The support of multiple allsky projections (mercator, aitoff, ...)
+- The blending of multiple surveys
+- The support of FITS file images
+
+For more information, see a [talk][adass-talk] done at the ADASS 2020
+conference. A web page is also available [here][al-test-url] for you to test.
+You are also very welcolme to contribute to the project by e.g. posting issues
+on our github.
+
+[Astronomical Observatory of Strasbourg]: https://cds.u-strasbg.fr/index-fr.gml
+[Aladin Lite]: https://github.com/cds-astro/aladin-lite/tree/develop
+[wasm-bindgen]: https://github.com/rustwasm/wasm-bindgen
+[adass-talk]: https://www.youtube.com/watch?v=TILtJOiiRoc
+[al-test-url]: https://bmatthieu3.github.io/hips_webgl_renderer/index.html
+
+### [Portal Explorer][portal-explorer]
+
+!["Portal in portal" scene](./portal-explorer.png)
+_"Portal in portal" scene_
+
+[Portal Explorer][portal-explorer] by [@optozorax][optozorax-twitter] is a web
+visualizator of mind-blowing portals.
+
+In Portal Explorer you can view how interesting portals are constructed, and
+visually explore their properties by moving and rotating them. This program
+doesn't work well on mobile, better opened from PC. The most interesting
+scene is [portal in portal][portal-in-portal].
+
+Created using ray-tracing in shaders, engine is [macroquad][macroquad-git],
+interface is [egui][egui-git].
+
+[portal-explorer]: https://github.com/optozorax/portal
+[optozorax-twitter]: https://twitter.com/optozorax
+[portal-in-portal]: https://optozorax.github.io/portal/?scene=portal_in_portal
+[macroquad-git]: https://github.com/not-fl3/macroquad
+[egui-git]: https://github.com/emilk/egui
 
 ## Engine Updates
 
@@ -352,6 +464,45 @@ New Updates:
 [em_wasm_example]: https://bombfuse.itch.io/him-character-demo-harvest-hero
 [hecs_git]: https://github.com/Ralith/hecs
 [fontdue_git]: https://github.com/mooman219/fontdue
+
+### [rg3d]
+
+![rg3d Youtube](rg3d_logo.png)
+
+[rg3d] ([Discord][rg3d_discord], [Twitter][rg3d_twitter]) is a game engine that
+aims to be easy to use and provide a large set of out-of-box features. Some of
+the recent updates:
+
+- Context menus and tooltips (huge thanks to [MinusGix])
+- Performance improvements for UI
+- Parallax Mapping
+- Ability to enable/disable scenes
+- Expansion strategies for TreeView
+- LOD system fixes
+- Graphical fixes
+- First version of engine's architecture overview
+- Various bug fixes and small improvements
+
+[Editor][rusty-editor] updates:
+
+- Ability to edit collision groups and mask for colliders
+- Ability to clear command stack
+- Ability to change render path for meshes
+- LOD editor
+- "Collapse All", "Expand All", "Locate Selection" buttons for world outliner
+- "Fit Collider" feature fixes
+- Picking fixes
+- Change selection when paste from clipboard
+- "Slow" and "Fast" camera movement modifiers
+- Navmesh selection fixes
+- Simple TBN visualizer
+- Parallax mapping switch in settings
+
+[rg3d]: https://github.com/mrDIMAS/rg3d
+[rg3d_discord]: https://discord.gg/xENF5Uh
+[rg3d_twitter]: https://twitter.com/DmitryNStepanov
+[rusty-editor]: https://github.com/mrDIMAS/rusty-editor
+[MinusGix]: https://github.com/MinusGix
 
 ## Learning Material Updates
 
@@ -630,6 +781,41 @@ cleanup, tweaks, optimization, and finally packaging the GUI up.
 [GTK]: https://gtk.org/
 [gtk4-rs]: https://github.com/gtk-rs/gtk4-rs#gtk4-rs-
 
+### [Bitmapflow]
+
+![Bitmapflow interpolating a walking mech animation](bitmapflow.gif)
+_Bitmapflow interpolating a walking mech animation_
+
+Bitmapflow ([GitHub][Bitmapflow-GitHub]) by [@bauxitedev] is a tool to help you
+generate [inbetweens] for animated sprites. In other words, it makes your
+animations smoother. It uses [optical flow] to try to guess how the pixels move
+between frames, and blends them accordingly. The results are far from perfect,
+and probably require some editing by hand afterwards, but it can produce decent
+results.
+
+It supports loading and saving animated gifs, spritesheets and individual
+frames.
+
+The tool is written using godot-rust and executables are available for Windows,
+although Linux support will be coming soon. (If you compile the program from
+source, it already works on Linux.)
+
+A full demonstration and walkthrough of the program is available on
+[YouTube][Bitmapflow-Youtube].
+
+You can try it out yourself on [itch.io][Bitmapflow-Itch].
+
+_Discussions: [/r/rust_gamedev][Bitmapflow-Reddit]_
+
+[Bitmapflow]: https://github.com/Bauxitedev/bitmapflow
+[Bitmapflow-GitHub]: https://github.com/Bauxitedev/bitmapflow
+[Bitmapflow-Youtube]: https://www.youtube.com/watch?v=rC359dDAMiI
+[Bitmapflow-Reddit]: https://www.reddit.com/r/rust_gamedev/comments/mjw90q/introducing_bitmapflow_a_tool_to_generate/
+[Bitmapflow-Itch]: https://bauxite.itch.io/bitmapflow
+[@bauxitedev]: https://twitter.com/bauxitedev
+[inbetweens]: https://en.wikipedia.org/wiki/Inbetweening
+[optical flow]: https://en.wikipedia.org/wiki/Optical_flow
+
 ### [FemtoVG]
 
 ![femtovg](femtovg.png)
@@ -646,6 +832,18 @@ Join the [FemtoVG Discord channel](https://discord.gg/V69VdVu).
 
 [FemtoVG]: https://github.com/femtovg/femtovg
 [femtovg-fork]: https://github.com/adamnemecek/femtovg
+
+### [egui-macroquad]
+
+![Code example of usage of this library.](egui-macroquad.png)
+_Code example of usage of this library._
+
+[egui-macroquad] is a small library to use [egui][egui-git] inside of
+[macroquad][macroquad-git]. It consists only of two functions.
+
+[egui-macroquad]: https://github.com/optozorax/egui-macroquad
+[macroquad-git]: https://github.com/not-fl3/macroquad
+[egui-git]: https://github.com/emilk/egui
 
 ### Kajiya
 
@@ -667,7 +865,7 @@ can get glimpses of its development by following the author on [Twitter][h3r2tic
 [ash]: https://github.com/MaikKlein/ash
 [hassle-rs]: https://github.com/Traverse-Research/hassle-rs
 [gltf-rs]: https://github.com/gltf-rs/gltf
-[@h3r2tic]: https://github.com/h3r2tic/
+[@h3r2tic]: https://github.com/h3r2tic
 [h3r2tic-twitter]: https://twitter.com/h3r2tic
 
 ## Popular Workgroup Issues in Github
