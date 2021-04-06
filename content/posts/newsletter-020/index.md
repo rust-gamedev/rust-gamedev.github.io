@@ -204,7 +204,7 @@ that are randomly selected throughout your playthrough.
 This means using [Ogmo][ogmo] to design levels,
 and using [nano-ogmo][nano-ogmo] to import them.
 
-Built on top of [Emerald](#Emerald)
+Built on top of [Emerald](#Emerald).
 
 Updates:
 
