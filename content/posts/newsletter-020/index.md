@@ -288,7 +288,7 @@ prison Iapetus near the Saturn.
 - Weapon recoil
 - More items
 - Bots now hear player
-- More assets 
+- More assets
 - First level improvements
 - Procedural animation of impact for bots
 - More sounds
