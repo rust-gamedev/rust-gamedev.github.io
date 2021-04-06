@@ -845,6 +845,29 @@ _Code example of usage of this library._
 [macroquad-git]: https://github.com/not-fl3/macroquad
 [egui-git]: https://github.com/emilk/egui
 
+### Kajiya
+
+![A race car in its natural habitat inspired by the Cornell Box](kajiya.gif)
+
+Kajiya by [@h3r2tic]
+is a real-time global illumination renderer.
+
+It utilizes Vulkan Ray Tracing via [ash][ash] and [hassle-rs][hassle-rs] to
+implement multi-bounce light transport in fully dynamic scenes. By shooting
+only two rays per pixel on average, it keeps performance high; thanks to a
+voxel-based light cache and extensive spatio-temporal filtering, it keeps
+noise low. It supports physically-based rendering of [GLTF][gltf-rs] scenes,
+and achieves a close match to reference path-tracing.
+
+Kajiya is still in its infancy, and not yet available to the public, but you
+can get glimpses of its development by following the author on [Twitter][h3r2tic-twitter].
+
+[ash]: https://github.com/MaikKlein/ash
+[hassle-rs]: https://github.com/Traverse-Research/hassle-rs
+[gltf-rs]: https://github.com/gltf-rs/gltf
+[@h3r2tic]: https://github.com/h3r2tic
+[h3r2tic-twitter]: https://twitter.com/h3r2tic
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
