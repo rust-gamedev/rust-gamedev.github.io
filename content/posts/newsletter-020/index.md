@@ -190,6 +190,35 @@ of the 1990 [Gameboy platformer][gargoyle-wiki] built using [wgpu].
 [gargoyle-wiki]: https://en.wikipedia.org/wiki/Gargoyle%27s_Quest
 [wgpu]: https://github.com/gfx-rs/wgpu-rs
 
+### [Aladin Lite]
+
+![Mars with a RdBu colormap](aladin_lite_mars_RdBu_cm.gif)
+_Mars heightmap with a RdBu colormap rendered with Aladin Lite v3_
+
+[Aladin Lite] is a spatial image survey visualizer developed by the [Astronomical
+Observatory of Strasbourg] in France. Since its first release in 2013,
+[Aladin Lite] has been used by astronomers as well as amateurs that
+are curious about exploring the sky.
+
+Originally developed using 2D Javascript canvas, its core has been fully
+rewritten in Rust and WebGL2 using [wasm-bindgen].
+New features include:
+
+- The support of multiple allsky projections (mercator, aitoff, ...)
+- The blending of multiple surveys
+- The support of FITS file images
+
+For more information, see my [talk][adass-talk] done at the ADASS 2020
+conference. A web page is also available [here][al-test-url] for you to test.
+You are also very welcolme to contribute to the project by e.g. posting issues
+on our github.
+
+[Astronomical Observatory of Strasbourg]: https://cds.u-strasbg.fr/index-fr.gml
+[Aladin Lite]: https://github.com/cds-astro/aladin-lite/tree/develop
+[wasm-bindgen]: https://github.com/rustwasm/wasm-bindgen
+[adass-talk]: https://www.youtube.com/watch?v=TILtJOiiRoc
+[al-test-url]: https://bmatthieu3.github.io/hips_webgl_renderer/index.html
+
 ## Engine Updates
 
 ### [Tetra]
