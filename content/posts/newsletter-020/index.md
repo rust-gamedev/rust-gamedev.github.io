@@ -449,6 +449,40 @@ _Discussions: [/r/rust](https://www.reddit.com/r/rust/comments/m0llxm/kira_game_
 [Kira]: https://github.com/tesselode/kira
 [@tesselode]: https://twitter.com/tesselode
 
+### [Bevy Retro][bevy_retro]
+
+![pixel-perfect-collision-demo](./bevy_retro.gif)
+_Pixel-perfect collision [example][bevy_retro_collision_example]_
+
+[Bevy Retro][bevy_retro] is a new [Bevy] plugin designed for making pixel-perfect
+games.
+
+This project was released under the [Katharos License][katharos_license]. This
+license has moral and ethical implications that you may or may not agree with,
+so please read it before making use of this project.
+
+Bevy Retro features:
+
+- Web and desktop support out of the box
+  - It even runs in Safari on iOS!
+- Integer pixel coordinates
+  - No need to round floats to keep pixels aligned!
+- Support for sprites, sprite sheets and animations
+- A super simple hierarchy system
+- A custom, scaled, pixel-perfect renderer with three camera modes: fixed width,
+  fixed height, and letter-boxed
+- An [LDtk](https://ldtk.io) map loading plugin
+- Pixel-perfect collision detection
+- Support for post-processing effects using custom shaders or the built-in CRT filter
+- Support for custom pixel aspect ratios
+
+_Discussions: [GitHub](https://github.com/katharostech/bevy_retro/discussions)_
+
+[bevy_retro]: https://github.com/katharostech/bevy_retro
+[Bevy]: https://bevyengine.org
+[katharos_license]: https://github.com/katharostech/katharos-license
+[bevy_retro_collision_example]: https://github.com/katharostech/bevy_retro/tree/master/examples#collisions
+
 ### [Planck ECS]
 
 ![planck logo](planck_ecs.png)
