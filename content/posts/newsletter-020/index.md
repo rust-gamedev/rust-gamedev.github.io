@@ -434,6 +434,41 @@ cleanup, tweaks, optimization, and finally packaging the GUI up.
 [GTK]: https://gtk.org/
 [gtk4-rs]: https://github.com/gtk-rs/gtk4-rs#gtk4-rs-
 
+### [Bitmapflow]
+
+![Bitmapflow interpolating a walking mech animation](bitmapflow.gif)
+_Bitmapflow interpolating a walking mech animation_
+
+Bitmapflow ([GitHub][Bitmapflow-GitHub]) by [@bauxitedev] is a tool to help you
+generate [inbetweens] for animated sprites. In other words, it makes your
+animations smoother. It uses [optical flow] to try to guess how the pixels move
+between frames, and blends them accordingly. The results are far from perfect,
+and probably require some editing by hand afterwards, but it can produce decent
+results.
+
+It supports loading and saving animated gifs, spritesheets and individual
+frames.
+
+The tool is written using godot-rust and executables are available for Windows,
+although Linux support will be coming soon. (If you compile the program from
+source, it already works on Linux.)
+
+A full demonstration and walkthrough of the program is available on
+[YouTube][Bitmapflow-Youtube].
+
+You can try it out yourself on [itch.io][Bitmapflow-Itch].
+
+_Discussions: [/r/rust_gamedev][Bitmapflow-Reddit]_
+
+[Bitmapflow]: https://github.com/Bauxitedev/bitmapflow
+[Bitmapflow-GitHub]: https://github.com/Bauxitedev/bitmapflow
+[Bitmapflow-Youtube]: https://www.youtube.com/watch?v=rC359dDAMiI
+[Bitmapflow-Reddit]: https://www.reddit.com/r/rust_gamedev/comments/mjw90q/introducing_bitmapflow_a_tool_to_generate/
+[Bitmapflow-Itch]: https://bauxite.itch.io/bitmapflow
+[@bauxitedev]: https://twitter.com/bauxitedev
+[inbetweens]: https://en.wikipedia.org/wiki/Inbetweening
+[optical flow]: https://en.wikipedia.org/wiki/Optical_flow
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
