@@ -320,9 +320,11 @@ The repository includes a GitHub workflow for Linux, MacOS, and Windows builds
 
 ### [Tutorial: Writing a tiny Entity Component System in Rust][ecs-in-rust]
 
-[@kettlecorn][kettlecorn_twitter] wrote a beginner-friendly [tutorial][ecs-in-rust] that dives into the
+[@kettlecorn][kettlecorn_twitter] wrote
+a beginner-friendly [tutorial][ecs-in-rust] that dives into the
 inner workings of the Entity-Component-System pattern.
-The tutorial walks through a minimalist ECS implementatation to illustrate how the pattern works, and
+The tutorial walks through a minimalist ECS
+implementatation to illustrate how the pattern works, and
 why it's useful.
 
 *Discussion: [/r/rust](https://www.reddit.com/r/rust/comments/m88ywa/tutorial_writing_a_tiny_entity_component_system/)*
