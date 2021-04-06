@@ -280,13 +280,13 @@ _Discussions: [Discord][hh_disc], [Twitter][bmb_twitter]_
 !["Portal in portal" scene](./portal-explorer.png)
 _"Portal in portal" scene_
 
-[Portal Explorer][portal-explorer] by [@optozorax][optozorax-twitter] is web
+[Portal Explorer][portal-explorer] by [@optozorax][optozorax-twitter] is a web
 visualizator of mind-blowing portals.
 
-In Portal Explorer you can view how interesting portals is constructed, and
+In Portal Explorer you can view how interesting portals are constructed, and
 visually explore their properties by moving and rotating them. This program
-doesn't work well on mobile, better open from PC. Most interesting scene is
-[portal in portal][portal-in-portal].
+doesn't work well on mobile, better opened from PC. The most interesting
+scene is [portal in portal][portal-in-portal].
 
 Created using ray-tracing in shaders, engine is [macroquad][macroquad-git],
 interface is [egui][egui-git].
