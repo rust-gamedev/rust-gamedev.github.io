@@ -283,9 +283,9 @@ _"Portal in portal" scene_
 [Portal Explorer][portal-explorer] by [@optozorax][optozorax-twitter] is web
 visualizator of mind-blowing portals.
 
-In Portal Explorer you can view how interesting portals is constructed, and 
-visually explore their properties by moving and rotating them. This program 
-doesn't work well on mobile, better open from PC. Most interesting scene is 
+In Portal Explorer you can view how interesting portals is constructed, and
+visually explore their properties by moving and rotating them. This program
+doesn't work well on mobile, better open from PC. Most interesting scene is
 [portal in portal][portal-in-portal].
 
 Created using ray-tracing in shaders, engine is [macroquad][macroquad-git],
