@@ -668,6 +668,7 @@ can get glimpses of its development by following the author on [Twitter][h3r2tic
 [ash]: https://github.com/MaikKlein/ash
 [hassle-rs]: https://github.com/Traverse-Research/hassle-rs
 [gltf-rs]: https://github.com/gltf-rs/gltf
+[@h3r2tic]: https://github.com/h3r2tic/
 [h3r2tic-twitter]: https://twitter.com/h3r2tic
 
 ## Popular Workgroup Issues in Github
