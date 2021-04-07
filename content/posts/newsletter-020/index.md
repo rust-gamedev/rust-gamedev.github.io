@@ -93,6 +93,53 @@ A stress test is scheduled for 2021-04-17 17:30 UTC and everyone is invited to j
 [sm64js-server]: https://github.com/sm64js/sm64js-mmo-server
 [net64-blog]: https://net64-mod.github.io/blog/sm64js/
 
+### [Bounty Bros.][bounty_bros]
+
+[![bounty-bros-character-on-map](./bounty_bros.png)][bounty_bros_webgame]
+_Click the image to play the game in your browser!_
+
+[Bounty Bros.][bounty_bros] is a prototype game similar to the old Legend of
+Zelda® games developed by [Katharos Technology][katharostech] as a testing
+ground for a future commercial game.
+
+In the last 2 months Bounty Bros. has gotten a lot of updates. Now you can [play
+the game][bounty_bros_webgame] right inside of your browser on desktop or mobile
+devices!
+
+- You can no longer walk through walls or objects
+- You can now walk into buildings
+- The camera follows the player without passing beyond the map borders
+- Rendering is now scaled pixel-perfect
+- Mobile touch controls were added
+- There is a new [retro mode][bounty_bros_retro_mode] that tries to make it it
+  look like the game is running on an old CRT television.
+
+All of the source code, excluding assets and artwork, was also made available
+and split into two independent projects.
+
+These projects were released under the
+[Katharos License][katharos_license]. This license has moral and ethical
+implications that you may or may not agree with, so please read it before making
+use of these projects:
+
+- [Bevy Retro][bevy_retro]: A Bevy plugin for pixel-perfect games
+- [Skip'n Go][skipngo]: A simple game engine for making top-down pixel games
+
+You can read the full update in the [Blog Post][bounty_bros_blog_post].
+
+_Discussions: [Skip'n Go on GitHub][skipngo_discussions], [Bevy Retro on GitHub][bevy_retro_discussions]_
+
+[bevy_retro]: https://github.com/katharostech/bevy_retro
+[bevy_retro_discussions]: https://github.com/katharostech/bevy_retro/discussions
+[katharostech]: https://katharostech.com
+[skipngo]: https://github.com/katharostech/skipngo
+[skipngo_discussions]: https://github.com/katharostech/skipngo/discussions
+[bounty_bros]: https://katharostech.com/post/bounty-bros-on-web
+[bounty_bros_webgame]: https://skipngo.katharostech.com/?asset_url=https://bounty-bros.skipngo.katharostech.com/
+[bounty_bros_blog_post]: https://katharostech.com/post/bounty-bros-on-web
+[bounty_bros_retro_mode]: https://skipngo.katharostech.com/?asset_url=https://bounty-bros.skipngo.katharostech.com/&enable_crt=true&pixel_aspect_ratio=1.3
+[katharos_license]: https://github.com/katharostech/katharos-license
+
 ### [pGLOWrpg][pglowrpg-github]
 
 ![Improved text rendering](pglowrpg_progress.jpg)
@@ -387,6 +434,30 @@ interface is [egui][egui-git].
 [macroquad-git]: https://github.com/not-fl3/macroquad
 [egui-git]: https://github.com/emilk/egui
 
+### [Name Needed][name-needed]
+
+![Wandering agents hauling items around and digging](name-needed.gif)
+_Agents wandering around, hauling items and digging blocks_
+
+[Name Needed][name-needed] by [@DomWilliams0][domwilliams-github] is a one man
+effort to produce an open source, intuitive and high performance Dwarf
+Fortress-esque game.
+
+The engine is custom, built with SDL2 and OpenGL. It's still early days, but
+steady progress has been made over the last 18 months. The developer aims to
+release occasional technical devlogs about interesting parts of the engine,
+which so far include:
+
+- [Long term vision and goals][name-needed-devlog0]
+- [High level engine architecture][name-needed-devlog1]
+- [Intelligent entity behaviors][name-needed-devlog2]
+
+[name-needed]: https://github.com/DomWilliams0/name-needed
+[domwilliams-github]: https://github.com/DomWilliams0
+[name-needed-devlog0]: https://domwillia.ms/devlog0/
+[name-needed-devlog1]: https://domwillia.ms/devlog2/
+[name-needed-devlog2]: https://domwillia.ms/devlog4/
+
 ## Engine Updates
 
 ### [Tetra]
@@ -680,6 +751,25 @@ adopted by bevy.
 
 [hecs]: https://github.com/Ralith/hecs
 
+### [Quinn]
+
+[Quinn] is an async-friendly implementation of the state-of-the-art QUIC
+transport protocol soon to be standardized by the IETF.
+
+QUIC is a uniquely versatile foundation for building application protocols. Its
+support for low-latency communication, multiplexing, fine-grained reliability,
+and security make an excellent basis for real-time game networking, providing an
+array of powerful primitives unavailable on UDP or TCP.
+
+[Quinn 0.7][quinn_release] introduces support for Tokio 1.0 and many
+optimizations and bug fixes, and updates to [draft 32][quic_32] of the proposed
+standard. With last call underway in the IETF, we expect to release an
+implementation of the final standard soon with no major changes.
+
+[Quinn]: https://github.com/quinn-rs/quinn
+[quinn_release]: https://github.com/quinn-rs/quinn/releases/tag/0.7.0
+[quic_32]: https://tools.ietf.org/html/draft-ietf-quic-transport-32
+
 ### [wgpu]
 
 ![voxel bunny on wgpu](wgpu-conservative-bunny.png)
@@ -711,6 +801,21 @@ _Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/m
 [WGSL]: https://gpuweb.github.io/gpuweb/wgsl/
 [@wumpf]: https://github.com/Wumpf
 [graphics team blog]: https://mozillagfx.wordpress.com/2021/03/10/webgpu-progress/
+
+### [smaa-rs]
+
+The [smaa-rs] library provides fast and high quality post-process
+anti-aliaising using the [SMAA algorithm]. It is designed to be
+easy to integrate into other [wgpu] applications with only a few
+added lines of code.
+
+The 0.2 series released this month includes a steamlined API
+which makes it easier to enable/disable anti-aliasing via a
+configuration setting. Currently SMAA 1x is supported with
+SMAA S2x likely to be added depending on interest.
+
+[smaa-rs]: https://github.com/fintelia/smaa-rs
+[SMAA algorithm]: http://www.iryoku.com/smaa/
 
 ### [rafx]
 
