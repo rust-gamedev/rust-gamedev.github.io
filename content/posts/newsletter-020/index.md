@@ -688,14 +688,14 @@ _Discussions: [/r/rust][planck_reddit], Discord: jojolepro#8057_
 
 ### [nakama-rs]
 
-[nakama-rs] is a pure rust implementation of [Nakama] protocol.
+[nakama-rs] is a pure Rust implementation of the [Nakama] protocol.
 
 [Nakama] is an open-source server designed to power modern games and apps.
 Features include user accounts, chat, social, matchmaker, realtime multiplayer,
 and much [more][heroiclabs].
 
-Being pure rust, [nakama-rs] brings the full API and socket options to any
-platform rust work on.
+Being pure Rust, [nakama-rs] brings the full API and socket options to any
+platform Rust works on.
 
 [nakama]: https://github.com/heroiclabs/nakama
 [heroiclabs]: https://heroiclabs.com
