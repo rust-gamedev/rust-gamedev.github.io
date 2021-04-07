@@ -885,9 +885,7 @@ that you can view [here](https://www.youtube.com/watch?v=fCP8xZYJiSI).
 
 [Release Notes](https://github.com/bonsairobo/building-blocks/releases/tag/v0.6.0)
 
-Discussions:
-
-[/r/rust](https://www.reddit.com/r/rust_gamedev/comments/ma76je/buildingblocks_v060_multichannel_storage_and/)
+_Discussions: [/r/rust](https://www.reddit.com/r/rust_gamedev/comments/ma76je/buildingblocks_v060_multichannel_storage_and/)_
 
 ## Popular Workgroup Issues in Github
 
