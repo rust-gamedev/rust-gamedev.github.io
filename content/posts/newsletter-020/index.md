@@ -326,7 +326,7 @@ interface is [egui][egui-git].
 [macroquad-git]: https://github.com/not-fl3/macroquad
 [egui-git]: https://github.com/emilk/egui
 
-### [Name Needed](name-needed)
+### [Name Needed][name-needed]
 
 ![Wandering agents hauling items around and digging](name-needed.gif)
 _Agents wandering around, hauling items and digging blocks_
