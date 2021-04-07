@@ -207,6 +207,27 @@ of the past 6 months of development.
 [egregoria-discord]: https://discord.gg/CAaZhUJ
 [egregoria-youtube]: https://youtu.be/qH2SKWbRV5I
 
+### [Fishgame][fishgame]
+
+![Fishgame](fishgame.gif)
+_Game footage with the new weapon._
+
+[Fishgame][fishgame] [(web build)][fishgame-itch] is an online multiplayer game,
+created in a collaboration between [Nakama][nakama], an open-source scalable
+game server, and the [Macroquad](https://github.com/not-fl3/macroquad/) game
+engine.
+
+This month fishgame migrated to [nakama-rs] (featured in this newsletter as
+well).
+
+Also a second weapon, the sword, was added to the game.
+
+[fishgame]: https://github.com/heroiclabs/fishgame-macroquad
+[fishgame-itch]: https://fedorgames.itch.io/fish-game?secret=UAVcggHn332a
+[nakama]: https://heroiclabs.com/
+[macroquad]: https://github.com/not-fl3/macroquad
+[nakama-rs]: https://github.com/not-fl3/nakama-rs
+
 ### [Gargoyle's Quest]
 
 ![Gargoyle's Quest](gargoyles_quest.png)
