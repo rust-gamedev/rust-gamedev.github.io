@@ -89,6 +89,35 @@ _Discussions: [Twitter][minewars-twitter], [Reddit][minewars-reddit]_
 [minewars-reddit]: https://reddit.com/r/minewars
 [bevy]: https://bevyengine.org
 
+### [SM64JS][sm64js]
+
+![Super Mario 64 JavaScript](sm64js.jpg)
+
+[SM64JS][sm64js] ([GitHub][sm64js-github], [Discord][sm64js-discord]) is a rewrite
+of the decompilation project of Super Mario 64 in JavaScript with a strong focus
+on massive multiplayer online.
+The [backend][sm64js-server] recently has been rewritten in Rust by [@marior]
+and is now live.
+
+You can find more information about it in [this recent blog post][net64-blog],
+where the developers of a similar mod called Net64 are talking
+about several decompilation projects.
+
+Some of the most recent additions are:
+
+- Carts and gliders
+- Health bars
+- More visuals with butterflies and fishes
+
+A stress test is scheduled for 2021-04-17 17:30 UTC and everyone is invited to join.
+
+[@marior]: https://twitter.com/marior_dev
+[sm64js]: https://sm64js.com
+[sm64js-github]: https://github.com/sm64js/sm64js
+[sm64js-discord]: https://discord.gg/7UaDnJt
+[sm64js-server]: https://github.com/sm64js/sm64js-mmo-server
+[net64-blog]: https://net64-mod.github.io/blog/sm64js/
+
 ### [pGLOWrpg][pglowrpg-github]
 
 ![Improved text rendering](pglowrpg_progress.jpg)
@@ -215,6 +244,174 @@ of the 1990 [Gameboy platformer][gargoyle-wiki] built using [wgpu].
 [gargoyle-wiki]: https://en.wikipedia.org/wiki/Gargoyle%27s_Quest
 [wgpu]: https://github.com/gfx-rs/wgpu-rs
 
+### [Veloren][veloren]
+
+![Airship](veloren.jpg)
+_Waiting for the airship to land_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In March, Veloren released 0.9. Lots of work throughout the month was put
+towards preparing for this. NPC merchants and trading was merged. Many changes
+were made to combat, including buffs and combat. Player-to-player trading was
+also implemented. Lots of work was done in optimizing Veloren. This included
+significantly improving how long physics was talking, and network improvements.
+Metrics tracking was also overhauled to better track the different systems in
+Veloren. Pathfinding is also working through an overhaul. A large feature
+implemented in March was Airships being merged into the game. This prompted a
+redo of how physics in the game is handled.
+
+A survey was sent out in preparation for the release. A lot of information was
+gathered about how players experience Veloren, and the items they like or don't
+like. These can all be ready in [devblog #112](https://veloren.net/devblog-112).
+This was followed up by the 0.9 release, which turned out to be the largest yet.
+At peak, 133 players joined the main server. There were problems throughout the
+release party relating to networking, as well as our tick performance.
+
+March's full weekly devlogs: "This Week In Veloren...":
+[#109](https://veloren.net/devblog-109),
+[#110](https://veloren.net/devblog-110),
+[#111](https://veloren.net/devblog-111),
+[#112](https://veloren.net/devblog-112).
+[#113](https://veloren.net/devblog-113).
+
+[veloren]: https://veloren.net
+
+### [Theta Wave]
+
+[![Enemy Formations](theta-wave.gif)][Theta Wave]
+_Enemies can now be easily spawned in formations_
+
+[Theta Wave] is an open-source space shooter game by developers [@micah_tigley] and
+[@carlosupina]. It is one of the showcase games for the [Amethyst Engine]. In
+the past month, the ["Foundations"] update was released which included numerous
+refactors that improved the accessibility of contributing to the game.
+
+They are now working on the ["Formations"] update which will organize how
+waves of enemies are spawned into the game.
+
+Notable changes:
+
+- Formations can be defined in a data file
+- New `InvasionFormation` phase where formations of enemies are spawned from
+a pool of formations
+
+[Theta Wave]: https://github.com/amethyst/theta-wave
+[@micah_tigley]: https://twitter.com/micah_tigley
+[@carlosupina]: https://twitter.com/carlosupina
+[Amethyst Engine]: https://amethyst.rs/
+["Foundations"]: https://github.com/amethyst/theta-wave/releases/tag/v0.1.4
+["Formations"]: https://github.com/amethyst/theta-wave/projects/2
+
+### [Harvest Hero][hh_disc]
+
+![harvest_hero_level](./harvest_hero_level_making.gif)
+
+[Harvest Hero][hh_disc] by [@bombfuse][bmb_twitter]
+is an arcade/roguelite where you whack Groobles.
+
+Harvest Hero has undergone a large change, migrating
+from semi-randomly generated levels to handcrafted levels
+that are randomly selected throughout your playthrough.
+
+This means using [Ogmo][ogmo] to design levels,
+and using [nano-ogmo][nano-ogmo] to import them.
+
+Built on top of [Emerald](#Emerald).
+
+Updates:
+
+- General UI update
+- Importing ogmo levels via nano-ogmo
+- [April Fools demo][gag_demo]
+
+_Discussions: [Discord][hh_disc], [Twitter][bmb_twitter]_
+
+[hh_disc]: https://discord.gg/CJRbxQn3d9
+[bmb_twitter]: https://twitter.com/bombfuse_dev
+[ogmo]: https://ogmo-editor-3.github.io/
+[nano-ogmo]: https://github.com/Bombfuse/nano-ogmo
+[gag_demo]: https://bombfuse.itch.io/him-character-demo-harvest-hero
+
+### [Station Iapetus]
+
+[![Station Iapetus Youtube](station-iapetus-youtube.png)][si-youtube]
+_Check [gameplay video][si-youtube] on YouTube_
+
+[Station Iapetus][Station Iapetus] by [@mrDIMAS] is a 3rd person shooter on the
+prison Iapetus near the Saturn.
+
+- Inventory fixes and improvements
+- Splash damage for grenades
+- Weapon recoil
+- More items
+- Bots now hear player
+- More assets
+- First level improvements
+- Procedural animation of impact for bots
+- More sounds
+- Separate scene for menu with music
+- Pause game when in menu
+- More switches in options menu
+- Turrets
+
+[@mrDIMAS]: https://github.com/mrDIMAS
+[rg3d]: https://github.com/mrDIMAS/rg3d
+[Station Iapetus]: https://github.com/mrDIMAS/StationIapetus
+[si-youtube]: https://www.youtube.com/watch?v=O_ETjSkVBME
+
+### [Aladin Lite]
+
+![Mars with a RdBu colormap](aladin_lite_mars_RdBu_cm.gif)
+_Mars heightmap with a RdBu colormap rendered with Aladin Lite v3_
+
+[Aladin Lite] is a spatial image survey visualizer developed by the [Astronomical
+Observatory of Strasbourg] in France. Since its first release in 2013,
+[Aladin Lite] has been used by astronomers as well as amateurs that
+are curious about exploring the sky.
+
+Originally developed using 2D Javascript canvas, its core has been fully
+rewritten in Rust and WebGL2 using [wasm-bindgen].
+New features include:
+
+- The support of multiple allsky projections (mercator, aitoff, ...)
+- The blending of multiple surveys
+- The support of FITS file images
+
+For more information, see a [talk][adass-talk] done at the ADASS 2020
+conference. A web page is also available [here][al-test-url] for you to test.
+You are also very welcolme to contribute to the project by e.g. posting issues
+on our github.
+
+[Astronomical Observatory of Strasbourg]: https://cds.u-strasbg.fr/index-fr.gml
+[Aladin Lite]: https://github.com/cds-astro/aladin-lite/tree/develop
+[wasm-bindgen]: https://github.com/rustwasm/wasm-bindgen
+[adass-talk]: https://www.youtube.com/watch?v=TILtJOiiRoc
+[al-test-url]: https://bmatthieu3.github.io/hips_webgl_renderer/index.html
+
+### [Portal Explorer][portal-explorer]
+
+!["Portal in portal" scene](./portal-explorer.png)
+_"Portal in portal" scene_
+
+[Portal Explorer][portal-explorer] by [@optozorax][optozorax-twitter] is a web
+visualizator of mind-blowing portals.
+
+In Portal Explorer you can view how interesting portals are constructed, and
+visually explore their properties by moving and rotating them. This program
+doesn't work well on mobile, better opened from PC. The most interesting
+scene is [portal in portal][portal-in-portal].
+
+Created using ray-tracing in shaders, engine is [macroquad][macroquad-git],
+interface is [egui][egui-git].
+
+[portal-explorer]: https://github.com/optozorax/portal
+[optozorax-twitter]: https://twitter.com/optozorax
+[portal-in-portal]: https://optozorax.github.io/portal/?scene=portal_in_portal
+[macroquad-git]: https://github.com/not-fl3/macroquad
+[egui-git]: https://github.com/emilk/egui
+
 ## Engine Updates
 
 ### [Tetra]
@@ -293,7 +490,62 @@ New Updates:
 [hecs_git]: https://github.com/Ralith/hecs
 [fontdue_git]: https://github.com/mooman219/fontdue
 
+### [rg3d]
+
+![rg3d Youtube](rg3d_logo.png)
+
+[rg3d] ([Discord][rg3d_discord], [Twitter][rg3d_twitter]) is a game engine that
+aims to be easy to use and provide a large set of out-of-box features. Some of
+the recent updates:
+
+- Context menus and tooltips (huge thanks to [MinusGix])
+- Performance improvements for UI
+- Parallax Mapping
+- Ability to enable/disable scenes
+- Expansion strategies for TreeView
+- LOD system fixes
+- Graphical fixes
+- First version of engine's architecture overview
+- Various bug fixes and small improvements
+
+[Editor][rusty-editor] updates:
+
+- Ability to edit collision groups and mask for colliders
+- Ability to clear command stack
+- Ability to change render path for meshes
+- LOD editor
+- "Collapse All", "Expand All", "Locate Selection" buttons for world outliner
+- "Fit Collider" feature fixes
+- Picking fixes
+- Change selection when paste from clipboard
+- "Slow" and "Fast" camera movement modifiers
+- Navmesh selection fixes
+- Simple TBN visualizer
+- Parallax mapping switch in settings
+
+[rg3d]: https://github.com/mrDIMAS/rg3d
+[rg3d_discord]: https://discord.gg/xENF5Uh
+[rg3d_twitter]: https://twitter.com/DmitryNStepanov
+[rusty-editor]: https://github.com/mrDIMAS/rusty-editor
+[MinusGix]: https://github.com/MinusGix
+
 ## Learning Material Updates
+
+### [Bevy Cheatbook: Major Overhaul for Bevy 0.5][bevy_cheatbook]
+
+The Unofficial Bevy Cheatbook by @jamadazi is a practical reference book for
+the [Bevy Game Engine][bevy]. It teaches programming patterns, features, and
+solutions to common problems. Written to be concise and easy to learn from.
+
+The book recently got a major overhaul for the big new Bevy 0.5 release. Many
+pages were expanded or rewritten, new content added, and community feedback
+addressed.
+
+If you are interested in Bevy, this book is now one of the most detailed
+learning resources. Have fun making cool things with Bevy!
+
+[bevy_cheatbook]: https://bevy-cheatbook.github.io
+[bevy]: https://bevyengine.org
 
 ### [Reverse-Engineering NES Tetris to add Hard Drop][tetris-hard-drop]
 
@@ -330,7 +582,82 @@ https://github.com/stevebob/mos6502/tree/master/tetris-hard-drop-patcher
 [tetris-hard-drop-dsl-example]:
 https://github.com/stevebob/mos6502/blob/master/tetris-hard-drop-patcher/src/main.rs#L23
 
+### [Bevy game template][bevy-game-template]
+
+[Bevy game template][bevy-game-template] by [@nikl_me][nikl_twitter]
+is a template repository for a Bevy game.
+
+The goal is to present a possible structure for Bevy games and at the
+same time reduce the amount of copy paste when starting a new project.
+The repository includes a GitHub workflow for Linux, MacOS, and Windows builds
+(WASM will be supported soon) and comes with a small, opinionated example game.
+
+[bevy-game-template]:https://github.com/NiklasEi/bevy_game_template
+[nikl_twitter]: https://twitter.com/nikl_me
+
+### [Tutorial: Writing a tiny Entity Component System in Rust][ecs-in-rust]
+
+[@kettlecorn][kettlecorn_twitter] wrote
+a beginner-friendly [tutorial][ecs-in-rust] that dives into the
+inner workings of the Entity-Component-System pattern.
+The tutorial walks through a minimalist ECS
+implementatation to illustrate how the pattern works, and
+why it's useful.
+
+*Discussion: [/r/rust](https://www.reddit.com/r/rust/comments/m88ywa/tutorial_writing_a_tiny_entity_component_system/)*
+
+[kettlecorn_twitter]: https://twitter.com/kettlecorn
+[ecs-in-rust]:https://ianjk.com/ecs-in-rust/
+
 ## Library & Tooling Updates
+
+### [kira]
+
+[kira] by [@tesselode] is a game audio library tailored to composers and other
+people who need expressive audio.
+
+v0.5.0 was released with mixer send tracks, new effects, and playback position tracking
+for instances, as well as a variety of smaller improvements.
+
+_Discussions: [/r/rust](https://www.reddit.com/r/rust/comments/m0llxm/kira_game_audio_library_v050_playback_position/),
+[Twitter](https://twitter.com/tesselode/status/1368984205947006976)_
+
+[Kira]: https://github.com/tesselode/kira
+[@tesselode]: https://twitter.com/tesselode
+
+### [Bevy Retro][bevy_retro]
+
+![pixel-perfect-collision-demo](./bevy_retro.gif)
+_Pixel-perfect collision [example][bevy_retro_collision_example]_
+
+[Bevy Retro][bevy_retro] is a new [Bevy] plugin designed for making pixel-perfect
+games.
+
+This project was released under the [Katharos License][katharos_license]. This
+license has moral and ethical implications that you may or may not agree with,
+so please read it before making use of this project.
+
+Bevy Retro features:
+
+- Web and desktop support out of the box
+  - It even runs in Safari on iOS!
+- Integer pixel coordinates
+  - No need to round floats to keep pixels aligned!
+- Support for sprites, sprite sheets and animations
+- A super simple hierarchy system
+- A custom, scaled, pixel-perfect renderer with three camera modes: fixed width,
+  fixed height, and letter-boxed
+- An [LDtk](https://ldtk.io) map loading plugin
+- Pixel-perfect collision detection
+- Support for post-processing effects using custom shaders or the built-in CRT filter
+- Support for custom pixel aspect ratios
+
+_Discussions: [GitHub](https://github.com/katharostech/bevy_retro/discussions)_
+
+[bevy_retro]: https://github.com/katharostech/bevy_retro
+[Bevy]: https://bevyengine.org
+[katharos_license]: https://github.com/katharostech/katharos-license
+[bevy_retro_collision_example]: https://github.com/katharostech/bevy_retro/tree/master/examples#collisions
 
 ### [Planck ECS]
 
@@ -422,6 +749,39 @@ includes more options for HDR tonemapping.
 [rafx-distill]: https://github.com/amethyst/distill
 [rafx-ldtk]: https://ldtk.io
 
+### [rkyv]
+
+[rkyv] is a zero-copy deserialization framework for Rust. It's similar to FlatBuffers
+and Cap'n Proto and can be used for data storage and messaging.
+
+A [benchmark][rust-serialization-benchmark] was put together to compare rkyv
+against other leading serialization solutions and gather feedback and use
+cases for development. A [summary and analysis][rkyv-is-faster-than] of the
+results is also available.
+
+Version 0.5 is hot off the presses and rolls up features from the 0.4
+development cycle:
+
+- Derive macros can now implement `PartialEq` and `PartialOrd` between
+  archived and unarchived types
+- Custom type bounds for serialization and deserialization can be added
+  with derive attributes
+- Helper types like [AlignedVec][rkyv-AlignedVec] and
+  [Infallible][rkyv-Infallible] were introduced to improve ergonomics
+- `const_generics` are now enabled by default
+- Helper functions have been added to make getting root objects easier
+- Several bugfixes and performance improvements
+
+A [feedback issue][rkyv-feedback] is still open for providing feedback on
+further development.
+
+[rkyv]: https://github.com/djkoloski/rkyv
+[rust-serialization-benchmark]: https://github.com/djkoloski/rust_serialization_benchmark
+[rkyv-is-faster-than]: https://davidkoloski.me/blog/rkyv-is-faster-than
+[rkyv-AlignedVec]: https://docs.rs/rkyv/0.5.0/rkyv/struct.AlignedVec.html
+[rkyv-Infallible]: https://docs.rs/rkyv/0.5.0/rkyv/struct.Infallible.html
+[rkyv-feedback]: https://github.com/djkoloski/rkyv/issues/67
+
 ### [WhatTheFrame]
 
 ![whattheframe gui](whattheframe.png)
@@ -445,6 +805,93 @@ cleanup, tweaks, optimization, and finally packaging the GUI up.
 [@JMS55]: https://github.com/JMS55
 [GTK]: https://gtk.org/
 [gtk4-rs]: https://github.com/gtk-rs/gtk4-rs#gtk4-rs-
+
+### [Bitmapflow]
+
+![Bitmapflow interpolating a walking mech animation](bitmapflow.gif)
+_Bitmapflow interpolating a walking mech animation_
+
+Bitmapflow ([GitHub][Bitmapflow-GitHub]) by [@bauxitedev] is a tool to help you
+generate [inbetweens] for animated sprites. In other words, it makes your
+animations smoother. It uses [optical flow] to try to guess how the pixels move
+between frames, and blends them accordingly. The results are far from perfect,
+and probably require some editing by hand afterwards, but it can produce decent
+results.
+
+It supports loading and saving animated gifs, spritesheets and individual
+frames.
+
+The tool is written using godot-rust and executables are available for Windows,
+although Linux support will be coming soon. (If you compile the program from
+source, it already works on Linux.)
+
+A full demonstration and walkthrough of the program is available on
+[YouTube][Bitmapflow-Youtube].
+
+You can try it out yourself on [itch.io][Bitmapflow-Itch].
+
+_Discussions: [/r/rust_gamedev][Bitmapflow-Reddit]_
+
+[Bitmapflow]: https://github.com/Bauxitedev/bitmapflow
+[Bitmapflow-GitHub]: https://github.com/Bauxitedev/bitmapflow
+[Bitmapflow-Youtube]: https://www.youtube.com/watch?v=rC359dDAMiI
+[Bitmapflow-Reddit]: https://www.reddit.com/r/rust_gamedev/comments/mjw90q/introducing_bitmapflow_a_tool_to_generate/
+[Bitmapflow-Itch]: https://bauxite.itch.io/bitmapflow
+[@bauxitedev]: https://twitter.com/bauxitedev
+[inbetweens]: https://en.wikipedia.org/wiki/Inbetweening
+[optical flow]: https://en.wikipedia.org/wiki/Optical_flow
+
+### [FemtoVG]
+
+![femtovg](femtovg.png)
+
+FemtoVG is a 2D canvas like vector graphics library based on nanovg that has
+been previously featured in this newsletter.
+
+This month, the FemtoVG team has implemented a new rendering backend based on
+the `wgpu` framework. This work is being done in this [fork][femtovg-fork] of
+FemtoVG and will be merged into the main repo soon. The team is currently
+looking for users to try out the new backend and provide feedback.
+
+Join the [FemtoVG Discord channel](https://discord.gg/V69VdVu).
+
+[FemtoVG]: https://github.com/femtovg/femtovg
+[femtovg-fork]: https://github.com/adamnemecek/femtovg
+
+### [egui-macroquad]
+
+![Code example of usage of this library.](egui-macroquad.png)
+_Code example of usage of this library._
+
+[egui-macroquad] is a small library to use [egui][egui-git] inside of
+[macroquad][macroquad-git]. It consists only of two functions.
+
+[egui-macroquad]: https://github.com/optozorax/egui-macroquad
+[macroquad-git]: https://github.com/not-fl3/macroquad
+[egui-git]: https://github.com/emilk/egui
+
+### Kajiya
+
+![A race car in its natural habitat inspired by the Cornell Box](kajiya.gif)
+
+Kajiya by [@h3r2tic]
+is a real-time global illumination renderer.
+
+It utilizes Vulkan Ray Tracing via [ash][ash] and [hassle-rs][hassle-rs] to
+implement multi-bounce light transport in fully dynamic scenes. By shooting
+only two rays per pixel on average, it keeps performance high; thanks to a
+voxel-based light cache and extensive spatio-temporal filtering, it keeps
+noise low. It supports physically-based rendering of [GLTF][gltf-rs] scenes,
+and achieves a close match to reference path-tracing.
+
+Kajiya is still in its infancy, and not yet available to the public, but you
+can get glimpses of its development by following the author on [Twitter][h3r2tic-twitter].
+
+[ash]: https://github.com/MaikKlein/ash
+[hassle-rs]: https://github.com/Traverse-Research/hassle-rs
+[gltf-rs]: https://github.com/gltf-rs/gltf
+[@h3r2tic]: https://github.com/h3r2tic
+[h3r2tic-twitter]: https://twitter.com/h3r2tic
 
 ## Popular Workgroup Issues in Github
 
