@@ -434,6 +434,30 @@ interface is [egui][egui-git].
 [macroquad-git]: https://github.com/not-fl3/macroquad
 [egui-git]: https://github.com/emilk/egui
 
+### [Name Needed][name-needed]
+
+![Wandering agents hauling items around and digging](name-needed.gif)
+_Agents wandering around, hauling items and digging blocks_
+
+[Name Needed][name-needed] by [@DomWilliams0][domwilliams-github] is a one man
+effort to produce an open source, intuitive and high performance Dwarf
+Fortress-esque game.
+
+The engine is custom, built with SDL2 and OpenGL. It's still early days, but
+steady progress has been made over the last 18 months. The developer aims to
+release occasional technical devlogs about interesting parts of the engine,
+which so far include:
+
+- [Long term vision and goals][name-needed-devlog0]
+- [High level engine architecture][name-needed-devlog1]
+- [Intelligent entity behaviors][name-needed-devlog2]
+
+[name-needed]: https://github.com/DomWilliams0/name-needed
+[domwilliams-github]: https://github.com/DomWilliams0
+[name-needed-devlog0]: https://domwillia.ms/devlog0/
+[name-needed-devlog1]: https://domwillia.ms/devlog2/
+[name-needed-devlog2]: https://domwillia.ms/devlog4/
+
 ## Engine Updates
 
 ### [Tetra]
