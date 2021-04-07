@@ -675,8 +675,8 @@ support for low-latency communication, multiplexing, fine-grained reliability,
 and security make an excellent basis for real-time game networking, providing an
 array of powerful primitives unavailable on UDP or TCP.
 
-[Quinn 0.7](quinn_release) introduces support for Tokio 1.0 and many
-optimizations and bug fixes, and updates to [draft 32](quic_32) of the proposed
+[Quinn 0.7][quinn_release] introduces support for Tokio 1.0 and many
+optimizations and bug fixes, and updates to [draft 32][quic_32] of the proposed
 standard. With last call underway in the IETF, we expect to release an
 implementation of the final standard soon with no major changes.
 
