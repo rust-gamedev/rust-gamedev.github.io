@@ -868,19 +868,20 @@ can get glimpses of its development by following the author on [Twitter][h3r2tic
 [@h3r2tic]: https://github.com/h3r2tic
 [h3r2tic-twitter]: https://twitter.com/h3r2tic
 
-
 ### building-blocks v0.6.0
 
 ![LOD Terrain](https://media.githubusercontent.com/media/bonsairobo/building-blocks/main/examples/screenshots/lod_terrain.png)
 
-In v0.6.0, the building-blocks voxel library brings a couple important features for scaling up to large maps:
+In v0.6.0, the building-blocks voxel library brings a couple important features
+for scaling up to large maps:
 
 - pyramids for level of detail
 - multichannel arrays
 
-There is still much work to be done to optimize the voxel mesh LOD at large scales and improve the
-cosmetics of LOD transitions, but the preliminary work has allowed us to demonstrate the feasibility
-of this approach with a new demo that you can view [here](https://www.youtube.com/watch?v=fCP8xZYJiSI).
+There is still much work to be done to optimize the voxel mesh LOD at large
+scales and improve the cosmetics of LOD transitions, but the preliminary work
+has allowed us to demonstrate the feasibility of this approach with a new demo
+that you can view [here](https://www.youtube.com/watch?v=fCP8xZYJiSI).
 
 [Release Notes](https://github.com/bonsairobo/building-blocks/releases/tag/v0.6.0)
 
