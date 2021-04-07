@@ -1020,7 +1020,7 @@ wireframes, timer improvements, and more!
 
 _Discussions:
 [/r/rust](https://www.reddit.com/r/rust/comments/mljg39/bevy_05/),
-[hacker news](https://news.ycombinator.com/item?id=26716166)
+[hacker news](https://news.ycombinator.com/item?id=26716166),
 [twitter](https://twitter.com/cart_cart/status/1379514923819012097)_
 
 [bevy]: [https://bevyengine.org/]
