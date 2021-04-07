@@ -665,6 +665,25 @@ _Discussions: [/r/rust][planck_reddit], Discord: jojolepro#8057_
 [planck_patreon]: https://patreon.com/jojolepro
 [planck_reddit]: https://www.reddit.com/r/rust/comments/m73ema/yet_another_ecs_library_except_much_safer/
 
+### [Quinn]
+
+[Quinn] is an async-friendly implementation of the state-of-the-art QUIC
+transport protocol soon to be standardized by the IETF.
+
+QUIC is a uniquely versatile foundation for building application protocols. Its
+support for low-latency communication, multiplexing, fine-grained reliability,
+and security make an excellent basis for real-time game networking, providing an
+array of powerful primitives unavailable on UDP or TCP.
+
+[Quinn 0.7](quinn_release) introduces support for Tokio 1.0 and many
+optimizations and bug fixes, and updates to [draft 32](quic_32) of the proposed
+standard. With last call underway in the IETF, we expect to release an
+implementation of the final standard soon with no major changes.
+
+[Quinn]: https://github.com/quinn-rs/quinn
+[quinn_release]: https://github.com/quinn-rs/quinn/releases/tag/0.7.0
+[quic_32]: https://tools.ietf.org/html/draft-ietf-quic-transport-32
+
 ### [wgpu]
 
 ![voxel bunny on wgpu](wgpu-conservative-bunny.png)
