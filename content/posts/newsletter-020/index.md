@@ -64,6 +64,29 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [MineWars][minewars]
+
+![MineWars Game Screenshot](minewars.jpg)
+
+[MineWars][minewars] ([Twitter][minewars-twitter], [Reddit][minewars-reddit])
+by @jamadazi is Minesweeper reimagined as a Multiplayer Real Time Strategy!
+
+Capture mines. Move them around. Cause explosion chains. Take out enemy mines.
+Defend your Cities. Fight for territory. Eliminate other players. Play on a
+procedurally-generated map.
+
+The game has been privately in development for many months and was just
+announced publicly. The project is currently working towards an alpha release
+for public playtesting. Read the announcement on the [website][minewars] for
+more information.
+
+Made in the [Bevy Game Engine][bevy].
+
+[minewars]: https://minewars.cc
+[minewars-twitter]: https://twitter.com/MineWarsGame
+[minewars-reddit]: https://reddit.com/r/minewars
+[bevy]: https://bevyengine.org
+
 ### [SM64JS][sm64js]
 
 ![Super Mario 64 JavaScript](sm64js.jpg)
@@ -92,6 +115,53 @@ A stress test is scheduled for 2021-04-17 17:30 UTC and everyone is invited to j
 [sm64js-discord]: https://discord.gg/7UaDnJt
 [sm64js-server]: https://github.com/sm64js/sm64js-mmo-server
 [net64-blog]: https://net64-mod.github.io/blog/sm64js/
+
+### [Bounty Bros.][bounty_bros]
+
+[![bounty-bros-character-on-map](./bounty_bros.png)][bounty_bros_webgame]
+_Click the image to play the game in your browser!_
+
+[Bounty Bros.][bounty_bros] is a prototype game similar to the old Legend of
+Zelda® games developed by [Katharos Technology][katharostech] as a testing
+ground for a future commercial game.
+
+In the last 2 months Bounty Bros. has gotten a lot of updates. Now you can [play
+the game][bounty_bros_webgame] right inside of your browser on desktop or mobile
+devices!
+
+- You can no longer walk through walls or objects
+- You can now walk into buildings
+- The camera follows the player without passing beyond the map borders
+- Rendering is now scaled pixel-perfect
+- Mobile touch controls were added
+- There is a new [retro mode][bounty_bros_retro_mode] that tries to make it it
+  look like the game is running on an old CRT television.
+
+All of the source code, excluding assets and artwork, was also made available
+and split into two independent projects.
+
+These projects were released under the
+[Katharos License][katharos_license]. This license has moral and ethical
+implications that you may or may not agree with, so please read it before making
+use of these projects:
+
+- [Bevy Retro][bevy_retro]: A Bevy plugin for pixel-perfect games
+- [Skip'n Go][skipngo]: A simple game engine for making top-down pixel games
+
+You can read the full update in the [Blog Post][bounty_bros_blog_post].
+
+_Discussions: [Skip'n Go on GitHub][skipngo_discussions], [Bevy Retro on GitHub][bevy_retro_discussions]_
+
+[bevy_retro]: https://github.com/katharostech/bevy_retro
+[bevy_retro_discussions]: https://github.com/katharostech/bevy_retro/discussions
+[katharostech]: https://katharostech.com
+[skipngo]: https://github.com/katharostech/skipngo
+[skipngo_discussions]: https://github.com/katharostech/skipngo/discussions
+[bounty_bros]: https://katharostech.com/post/bounty-bros-on-web
+[bounty_bros_webgame]: https://skipngo.katharostech.com/?asset_url=https://bounty-bros.skipngo.katharostech.com/
+[bounty_bros_blog_post]: https://katharostech.com/post/bounty-bros-on-web
+[bounty_bros_retro_mode]: https://skipngo.katharostech.com/?asset_url=https://bounty-bros.skipngo.katharostech.com/&enable_crt=true&pixel_aspect_ratio=1.3
+[katharos_license]: https://github.com/katharostech/katharos-license
 
 ### [pGLOWrpg][pglowrpg-github]
 
@@ -408,6 +478,30 @@ interface is [egui][egui-git].
 [macroquad-git]: https://github.com/not-fl3/macroquad
 [egui-git]: https://github.com/emilk/egui
 
+### [Name Needed][name-needed]
+
+![Wandering agents hauling items around and digging](name-needed.gif)
+_Agents wandering around, hauling items and digging blocks_
+
+[Name Needed][name-needed] by [@DomWilliams0][domwilliams-github] is a one man
+effort to produce an open source, intuitive and high performance Dwarf
+Fortress-esque game.
+
+The engine is custom, built with SDL2 and OpenGL. It's still early days, but
+steady progress has been made over the last 18 months. The developer aims to
+release occasional technical devlogs about interesting parts of the engine,
+which so far include:
+
+- [Long term vision and goals][name-needed-devlog0]
+- [High level engine architecture][name-needed-devlog1]
+- [Intelligent entity behaviors][name-needed-devlog2]
+
+[name-needed]: https://github.com/DomWilliams0/name-needed
+[domwilliams-github]: https://github.com/DomWilliams0
+[name-needed-devlog0]: https://domwillia.ms/devlog0/
+[name-needed-devlog1]: https://domwillia.ms/devlog2/
+[name-needed-devlog2]: https://domwillia.ms/devlog4/
+
 ## Engine Updates
 
 ### [Tetra]
@@ -686,6 +780,40 @@ _Discussions: [/r/rust][planck_reddit], Discord: jojolepro#8057_
 [planck_patreon]: https://patreon.com/jojolepro
 [planck_reddit]: https://www.reddit.com/r/rust/comments/m73ema/yet_another_ecs_library_except_much_safer/
 
+### [hecs]
+
+[hecs] is a fast, lightweight, and unopinionated archetypal ECS library.
+
+Version 0.5 introduces a column-major serialization mode. This imitates the
+in-memory data layout, enabling higher performance than the already-fast
+row-major serialization mode. Because columnar layout places similar data
+nearby, it also improves the effectiveness of compression.
+
+Other changes include major optimizations to spawning entities and
+adding/removing components, inspired by the archetype graph model recently
+adopted by bevy.
+
+[hecs]: https://github.com/Ralith/hecs
+
+### [Quinn]
+
+[Quinn] is an async-friendly implementation of the state-of-the-art QUIC
+transport protocol soon to be standardized by the IETF.
+
+QUIC is a uniquely versatile foundation for building application protocols. Its
+support for low-latency communication, multiplexing, fine-grained reliability,
+and security make an excellent basis for real-time game networking, providing an
+array of powerful primitives unavailable on UDP or TCP.
+
+[Quinn 0.7][quinn_release] introduces support for Tokio 1.0 and many
+optimizations and bug fixes, and updates to [draft 32][quic_32] of the proposed
+standard. With last call underway in the IETF, we expect to release an
+implementation of the final standard soon with no major changes.
+
+[Quinn]: https://github.com/quinn-rs/quinn
+[quinn_release]: https://github.com/quinn-rs/quinn/releases/tag/0.7.0
+[quic_32]: https://tools.ietf.org/html/draft-ietf-quic-transport-32
+
 ### [nakama-rs]
 
 [nakama-rs] is a pure Rust implementation of the [Nakama] protocol.
@@ -732,6 +860,21 @@ _Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/m
 [WGSL]: https://gpuweb.github.io/gpuweb/wgsl/
 [@wumpf]: https://github.com/Wumpf
 [graphics team blog]: https://mozillagfx.wordpress.com/2021/03/10/webgpu-progress/
+
+### [smaa-rs]
+
+The [smaa-rs] library provides fast and high quality post-process
+anti-aliaising using the [SMAA algorithm]. It is designed to be
+easy to integrate into other [wgpu] applications with only a few
+added lines of code.
+
+The 0.2 series released this month includes a steamlined API
+which makes it easier to enable/disable anti-aliasing via a
+configuration setting. Currently SMAA 1x is supported with
+SMAA S2x likely to be added depending on interest.
+
+[smaa-rs]: https://github.com/fintelia/smaa-rs
+[SMAA algorithm]: http://www.iryoku.com/smaa/
 
 ### [rafx]
 
@@ -903,6 +1046,29 @@ can get glimpses of its development by following the author on [Twitter][h3r2tic
 [gltf-rs]: https://github.com/gltf-rs/gltf
 [@h3r2tic]: https://github.com/h3r2tic
 [h3r2tic-twitter]: https://twitter.com/h3r2tic
+
+### [building-blocks] v0.6.0
+
+![LOD Terrain](building-blocks-lod-terrain.jpg)
+
+In v0.6.0, the [building-blocks] voxel library brings a couple important features
+for scaling up to large maps:
+
+- pyramids for level of detail
+- multichannel arrays
+
+There is still much work to be done to optimize the voxel mesh LOD at large
+scales and improve the cosmetics of LOD transitions, but the preliminary work
+has allowed us to demonstrate the feasibility of this approach with a new demo
+that you can view [here](https://youtube.com/watch?v=fCP8xZYJiSI).
+
+Full release notes are available on [here][blocks-notes].
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust_gamedev/comments/ma76je/buildingblocks_v060)_
+
+[blocks-notes]: https://github.com/bonsairobo/building-blocks/releases/tag/v0.6.0
+[building-blocks]: https://github.com/bonsairobo/building-blocks
 
 ## Popular Workgroup Issues in Github
 
