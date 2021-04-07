@@ -619,6 +619,46 @@ the recent updates:
 [rusty-editor]: https://github.com/mrDIMAS/rusty-editor
 [MinusGix]: https://github.com/MinusGix
 
+### [Bevy v0.5][bevy-blog]
+
+![PBR material example](bevy_pbr.png)
+_Material grid with varying PBR properties_
+
+[Bevy][bevy] is a refreshingly simple data-driven game engine built in Rust. It is
+[free and open source][bevy-git] forever!
+
+Bevy 0.5 was a massive community effort. You can check out the
+[full release blog post here][bevy-blog], but here are some highlights:
+
+- Physically Based Rendering (PBR)
+- GLTF Improvements, such as support for PBR textures and a new top-level GLTF
+  asset type
+- Bevy ECS V2: a complete rewrite of the Bevy ECS core with a hybrid component
+  storage model, Archetype Graphs, stateful queries, and across-the-board performance
+  improvements
+- A brand new Parallel System Executor packed with features: explicit system
+  dependencies, system labels, system sets, improved run criteria,
+  and increased parallelism
+- Reliable change detection: efficiently query changes to any component or
+  resource at any point in time (even across frames)
+- State System Rewrite: a new stack-based state system that makes running systems
+  for different states (ex: menus vs in-game) much easier.
+- Rich text: style text "spans" with different colors / fonts while still
+  respecting layout
+- HIDPI text: render crisp text at any resolution
+- 2D world space text, world to screen space conversions, 2d/3d orthographic
+  camera improvements, render layers, sprite flipping, improved color space handling,
+  wireframes, timer improvements, and more!
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/mljg39/bevy_05),
+[Hacker News](https://news.ycombinator.com/item?id=26716166),
+[Twitter](https://twitter.com/cart_cart/status/1379514923819012097)_
+
+[bevy]: https://bevyengine.org
+[bevy-git]: https://github.com/bevyengine/bevy
+[bevy-blog]: https://bevyengine.org/news/bevy-0-5
+
 ## Learning Material Updates
 
 ### [Bevy Cheatbook: Major Overhaul for Bevy 0.5][bevy_cheatbook]
