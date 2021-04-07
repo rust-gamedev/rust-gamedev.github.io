@@ -64,6 +64,29 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [MineWars][minewars]
+
+![MineWars Game Screenshot](minewars.jpg)
+
+[MineWars][minewars] ([Twitter][minewars-twitter], [Reddit][minewars-reddit])
+by @jamadazi is Minesweeper reimagined as a Multiplayer Real Time Strategy!
+
+Capture mines. Move them around. Cause explosion chains. Take out enemy mines.
+Defend your Cities. Fight for territory. Eliminate other players. Play on a
+procedurally-generated map.
+
+The game has been privately in development for many months and was just
+announced publicly. The project is currently working towards an alpha release
+for public playtesting. Read the announcement on the [website][minewars] for
+more information.
+
+Made in the [Bevy Game Engine][bevy].
+
+[minewars]: https://minewars.cc
+[minewars-twitter]: https://twitter.com/MineWarsGame
+[minewars-reddit]: https://reddit.com/r/minewars
+[bevy]: https://bevyengine.org
+
 ### [SM64JS][sm64js]
 
 ![Super Mario 64 JavaScript](sm64js.jpg)
@@ -253,6 +276,27 @@ of the past 6 months of development.
 [egregoria-blog-post]: https://douady.paris/blog/egregoria_8.html
 [egregoria-discord]: https://discord.gg/CAaZhUJ
 [egregoria-youtube]: https://youtu.be/qH2SKWbRV5I
+
+### [Fishgame][fishgame]
+
+![Fishgame](fishgame.gif)
+_Game footage with the new weapon._
+
+[Fishgame][fishgame] [(web build)][fishgame-itch] is an online multiplayer game,
+created in a collaboration between [Nakama][nakama], an open-source scalable
+game server, and the [Macroquad](https://github.com/not-fl3/macroquad/) game
+engine.
+
+This month fishgame migrated to [nakama-rs] (featured in this newsletter as
+well).
+
+Also a second weapon, the sword, was added to the game.
+
+[fishgame]: https://github.com/heroiclabs/fishgame-macroquad
+[fishgame-itch]: https://fedorgames.itch.io/fish-game?secret=UAVcggHn332a
+[nakama]: https://heroiclabs.com/
+[macroquad]: https://github.com/not-fl3/macroquad
+[nakama-rs]: https://github.com/not-fl3/nakama-rs
 
 ### [Gargoyle's Quest]
 
@@ -575,6 +619,46 @@ the recent updates:
 [rusty-editor]: https://github.com/mrDIMAS/rusty-editor
 [MinusGix]: https://github.com/MinusGix
 
+### [Bevy v0.5][bevy-blog]
+
+![PBR material example](bevy_pbr.png)
+_Material grid with varying PBR properties_
+
+[Bevy][bevy] is a refreshingly simple data-driven game engine built in Rust. It is
+[free and open source][bevy-git] forever!
+
+Bevy 0.5 was a massive community effort. You can check out the
+[full release blog post here][bevy-blog], but here are some highlights:
+
+- Physically Based Rendering (PBR)
+- GLTF Improvements, such as support for PBR textures and a new top-level GLTF
+  asset type
+- Bevy ECS V2: a complete rewrite of the Bevy ECS core with a hybrid component
+  storage model, Archetype Graphs, stateful queries, and across-the-board performance
+  improvements
+- A brand new Parallel System Executor packed with features: explicit system
+  dependencies, system labels, system sets, improved run criteria,
+  and increased parallelism
+- Reliable change detection: efficiently query changes to any component or
+  resource at any point in time (even across frames)
+- State System Rewrite: a new stack-based state system that makes running systems
+  for different states (ex: menus vs in-game) much easier.
+- Rich text: style text "spans" with different colors / fonts while still
+  respecting layout
+- HIDPI text: render crisp text at any resolution
+- 2D world space text, world to screen space conversions, 2d/3d orthographic
+  camera improvements, render layers, sprite flipping, improved color space handling,
+  wireframes, timer improvements, and more!
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/mljg39/bevy_05),
+[Hacker News](https://news.ycombinator.com/item?id=26716166),
+[Twitter](https://twitter.com/cart_cart/status/1379514923819012097)_
+
+[bevy]: https://bevyengine.org
+[bevy-git]: https://github.com/bevyengine/bevy
+[bevy-blog]: https://bevyengine.org/news/bevy-0-5
+
 ## Learning Material Updates
 
 ### [Bevy Cheatbook: Major Overhaul for Bevy 0.5][bevy_cheatbook]
@@ -769,6 +853,21 @@ implementation of the final standard soon with no major changes.
 [Quinn]: https://github.com/quinn-rs/quinn
 [quinn_release]: https://github.com/quinn-rs/quinn/releases/tag/0.7.0
 [quic_32]: https://tools.ietf.org/html/draft-ietf-quic-transport-32
+
+### [nakama-rs]
+
+[nakama-rs] is a pure Rust implementation of the [Nakama] protocol.
+
+[Nakama] is an open-source server designed to power modern games and apps.
+Features include user accounts, chat, social, matchmaker, realtime multiplayer,
+and much [more][heroiclabs].
+
+Being pure Rust, [nakama-rs] brings the full API and socket options to any
+platform Rust works on.
+
+[nakama]: https://github.com/heroiclabs/nakama
+[heroiclabs]: https://heroiclabs.com
+[nakama-rs]: https://github.com/not-fl3/nakama-rs
 
 ### [wgpu]
 
@@ -988,45 +1087,28 @@ can get glimpses of its development by following the author on [Twitter][h3r2tic
 [@h3r2tic]: https://github.com/h3r2tic
 [h3r2tic-twitter]: https://twitter.com/h3r2tic
 
-### [Bevy Engine v0.5][bevy]
+### [building-blocks] v0.6.0
 
-![PBR material example](bevy_pbr.png)
-_Material grid with varying PBR properties_
+![LOD Terrain](building-blocks-lod-terrain.jpg)
 
-[Bevy][bevy] is a refreshingly simple data-driven game engine built in Rust. It is
-[free and open source][bevy-git] forever!
+In v0.6.0, the [building-blocks] voxel library brings a couple important features
+for scaling up to large maps:
 
-Bevy 0.5 was a massive community effort. You can check out the
-[full release blog post here][bevy-blog], but here are some highlights:
+- pyramids for level of detail
+- multichannel arrays
 
-- Physically Based Rendering (PBR)
-- GLTF Improvements, such as support for PBR textures and a new top-level GLTF
-  asset type
-- Bevy ECS V2: a complete rewrite of the Bevy ECS core with a hybrid component
-  storage model, Archetype Graphs, stateful queries, and across-the-board performance
-  improvements
-- A brand new Parallel System Executor packed with features: explicit system
-  dependencies, system labels, system sets, improved run criteria,
-  and increased parallelism
-- Reliable change detection: efficiently query changes to any component or
-  resource at any point in time (even across frames)
-- State System Rewrite: a new stack-based state system that makes running systems
-  for different states (ex: menus vs in-game) much easier.
-- Rich text: style text "spans" with different colors / fonts while still
-  respecting layout
-- HIDPI text: render crisp text at any resolution
-- 2D world space text, world to screen space conversions, 2d/3d orthographic
-  camera improvements, render layers, sprite flipping, improved color space handling,
-  wireframes, timer improvements, and more!
+There is still much work to be done to optimize the voxel mesh LOD at large
+scales and improve the cosmetics of LOD transitions, but the preliminary work
+has allowed us to demonstrate the feasibility of this approach with a new demo
+that you can view [here](https://youtube.com/watch?v=fCP8xZYJiSI).
+
+Full release notes are available on [here][blocks-notes].
 
 _Discussions:
-[/r/rust](https://reddit.com/r/rust/comments/mljg39/bevy_05),
-[Hacker News](https://news.ycombinator.com/item?id=26716166),
-[Twitter](https://twitter.com/cart_cart/status/1379514923819012097)_
+[/r/rust](https://reddit.com/r/rust_gamedev/comments/ma76je/buildingblocks_v060)_
 
-[bevy]: https://bevyengine.org
-[bevy-git]: https://github.com/bevyengine/bevy
-[bevy-blog]: https://bevyengine.org/news/bevy-0-5
+[blocks-notes]: https://github.com/bonsairobo/building-blocks/releases/tag/v0.6.0
+[building-blocks]: https://github.com/bonsairobo/building-blocks
 
 ## Popular Workgroup Issues in Github
 
