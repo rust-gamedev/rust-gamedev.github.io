@@ -988,6 +988,45 @@ can get glimpses of its development by following the author on [Twitter][h3r2tic
 [@h3r2tic]: https://github.com/h3r2tic
 [h3r2tic-twitter]: https://twitter.com/h3r2tic
 
+### [Bevy Engine v0.5][bevy]
+
+![PBR material example](bevy_pbr.png)
+_Material grid with varying PBR properties_
+
+[Bevy][bevy] is a refreshingly simple data-driven game engine built in Rust. It is
+[free and open source][bevy-git] forever!
+
+Bevy 0.5 was a massive community effort. You can check out the
+[full release blog post here][bevy-blog], but here are some highlights:
+
+- Physically Based Rendering (PBR)
+- GLTF Improvements, such as support for PBR textures and a new top-level GLTF
+asset type
+- Bevy ECS V2: a complete rewrite of the Bevy ECS core with a hybrid component
+storage model, Archetype Graphs, stateful queries, and across-the-board performance
+improvements
+- A brand new Parallel System Executor packed with features: explicit system
+dependencies, system labels, system sets, improved run criteria, and increased parallelism
+- Reliable change detection: efficiently query changes to any component or
+resource at any point in time (even across frames)
+- State System Rewrite: a new stack-based state system that makes running systems
+for different states (ex: menus vs in-game) much easier.
+- Rich text: style text "spans" with different colors / fonts while still
+respecting layout
+- HIDPI text: render crisp text at any resolution
+- 2D world space text, world to screen space conversions, 2d/3d orthographic
+camera improvements, render layers, sprite flipping, improved color space handling,
+wireframes, timer improvements, and more!
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/mljg39/bevy_05/),
+[hacker news](https://news.ycombinator.com/item?id=26716166)
+[twitter](https://twitter.com/cart_cart/status/1379514923819012097)_
+
+[bevy]: [https://bevyengine.org/]
+[bevy-git]: [https://github.com/bevyengine/bevy]
+[bevy-blog]: [https://bevyengine.org/news/bevy-0-5/]
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
