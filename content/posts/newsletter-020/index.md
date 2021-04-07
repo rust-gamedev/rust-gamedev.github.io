@@ -665,6 +665,21 @@ _Discussions: [/r/rust][planck_reddit], Discord: jojolepro#8057_
 [planck_patreon]: https://patreon.com/jojolepro
 [planck_reddit]: https://www.reddit.com/r/rust/comments/m73ema/yet_another_ecs_library_except_much_safer/
 
+### [hecs]
+
+[hecs] is a fast, lightweight, and unopinionated archetypal ECS library.
+
+Version 0.5 introduces a column-major serialization mode. This imitates the
+in-memory data layout, enabling higher performance than the already-fast
+row-major serialization mode. Because columnar layout places similar data
+nearby, it also improves the effectiveness of compression.
+
+Other changes include major optimizations to spawning entities and
+adding/removing components, inspired by the archetype graph model recently
+adopted by bevy.
+
+[hecs]: https://github.com/Ralith/hecs
+
 ### [wgpu]
 
 ![voxel bunny on wgpu](wgpu-conservative-bunny.png)
