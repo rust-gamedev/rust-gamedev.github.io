@@ -64,6 +64,31 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [MineWars][minewars]
+
+![MineWars Game Screenshot](minewars.jpg)
+
+[MineWars][minewars] by @jamadazi is Minesweeper reimagined as a Multiplayer
+Real Time Strategy!
+
+Capture mines. Move them around. Cause explosion chains. Take out enemy mines.
+Defend your Cities. Fight for territory. Eliminate other players. Play on a
+procedurally-generated map.
+
+The game has been privately in development for many months and was just
+announced publicly. The project is currently working towards an alpha release
+for public playtesting. Read the announcement on the [website][minewars] for
+more information.
+
+Made in the [Bevy Game Engine][bevy].
+
+_Discussions: [Twitter][minewars-twitter], [Reddit][minewars-reddit]_
+
+[minewars]: https://minewars.cc
+[minewars-twitter]: https://twitter.com/MineWarsGame
+[minewars-reddit]: https://reddit.com/r/minewars
+[bevy]: https://bevyengine.org
+
 ### [pGLOWrpg][pglowrpg-github]
 
 ![Improved text rendering](pglowrpg_progress.jpg)
