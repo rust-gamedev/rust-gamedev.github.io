@@ -277,6 +277,27 @@ of the past 6 months of development.
 [egregoria-discord]: https://discord.gg/CAaZhUJ
 [egregoria-youtube]: https://youtu.be/qH2SKWbRV5I
 
+### [Fishgame][fishgame]
+
+![Fishgame](fishgame.gif)
+_Game footage with the new weapon._
+
+[Fishgame][fishgame] [(web build)][fishgame-itch] is an online multiplayer game,
+created in a collaboration between [Nakama][nakama], an open-source scalable
+game server, and the [Macroquad](https://github.com/not-fl3/macroquad/) game
+engine.
+
+This month fishgame migrated to [nakama-rs] (featured in this newsletter as
+well).
+
+Also a second weapon, the sword, was added to the game.
+
+[fishgame]: https://github.com/heroiclabs/fishgame-macroquad
+[fishgame-itch]: https://fedorgames.itch.io/fish-game?secret=UAVcggHn332a
+[nakama]: https://heroiclabs.com/
+[macroquad]: https://github.com/not-fl3/macroquad
+[nakama-rs]: https://github.com/not-fl3/nakama-rs
+
 ### [Gargoyle's Quest]
 
 ![Gargoyle's Quest](gargoyles_quest.png)
@@ -792,6 +813,21 @@ implementation of the final standard soon with no major changes.
 [Quinn]: https://github.com/quinn-rs/quinn
 [quinn_release]: https://github.com/quinn-rs/quinn/releases/tag/0.7.0
 [quic_32]: https://tools.ietf.org/html/draft-ietf-quic-transport-32
+
+### [nakama-rs]
+
+[nakama-rs] is a pure Rust implementation of the [Nakama] protocol.
+
+[Nakama] is an open-source server designed to power modern games and apps.
+Features include user accounts, chat, social, matchmaker, realtime multiplayer,
+and much [more][heroiclabs].
+
+Being pure Rust, [nakama-rs] brings the full API and socket options to any
+platform Rust works on.
+
+[nakama]: https://github.com/heroiclabs/nakama
+[heroiclabs]: https://heroiclabs.com
+[nakama-rs]: https://github.com/not-fl3/nakama-rs
 
 ### [wgpu]
 
