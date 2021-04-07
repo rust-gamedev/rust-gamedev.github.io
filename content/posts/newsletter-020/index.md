@@ -868,11 +868,11 @@ can get glimpses of its development by following the author on [Twitter][h3r2tic
 [@h3r2tic]: https://github.com/h3r2tic
 [h3r2tic-twitter]: https://twitter.com/h3r2tic
 
-### building-blocks v0.6.0
+### [building-blocks] v0.6.0
 
-![LOD Terrain](https://media.githubusercontent.com/media/bonsairobo/building-blocks/main/examples/screenshots/lod_terrain.png)
+![LOD Terrain](building-blocks-lod-terrain.jpg)
 
-In v0.6.0, the building-blocks voxel library brings a couple important features
+In v0.6.0, the [building-blocks] voxel library brings a couple important features
 for scaling up to large maps:
 
 - pyramids for level of detail
@@ -881,11 +881,15 @@ for scaling up to large maps:
 There is still much work to be done to optimize the voxel mesh LOD at large
 scales and improve the cosmetics of LOD transitions, but the preliminary work
 has allowed us to demonstrate the feasibility of this approach with a new demo
-that you can view [here](https://www.youtube.com/watch?v=fCP8xZYJiSI).
+that you can view [here](https://youtube.com/watch?v=fCP8xZYJiSI).
 
-[Release Notes](https://github.com/bonsairobo/building-blocks/releases/tag/v0.6.0)
+Full release notes are available on [here][blocks-notes].
 
-_Discussions: [/r/rust](https://www.reddit.com/r/rust_gamedev/comments/ma76je/buildingblocks_v060_multichannel_storage_and/)_
+_Discussions:
+[/r/rust](https://reddit.com/r/rust_gamedev/comments/ma76je/buildingblocks_v060)_
+
+[blocks-notes]: https://github.com/bonsairobo/building-blocks/releases/tag/v0.6.0
+[building-blocks]: https://github.com/bonsairobo/building-blocks
 
 ## Popular Workgroup Issues in Github
 
