@@ -511,9 +511,8 @@ _Way of Rhea logo_
 Solve mind bending color puzzles, unlock new areas of a vibrant hub world, and
 talk to NPCs to unravel the mysteries of a world you left behind!
 
-Way of Rhea is being produced by [@masonremaley](mason-remaley).
-
-Latest Way of Rhea developments:
+Way of Rhea is being produced by [@masonremaley](mason-remaley). Latest Way of
+Rhea developments:
 
 - A free demo was distributed as part of [Indie Maker Syndicate][wor-ims]'s
 online event
@@ -525,13 +524,13 @@ communicating the game's mechanics][wor-visual-mechanics]
 directly to [Way of Rhea's Discord][wor-discord]
 - Work has begun on a dialog system for chatting w/ NPCs!
 
-- [wor][https://store.steampowered.com/app/1110620?utm_campaign=tmirgd&utm_source=n20]
-- [mason-remaley][https://twitter.com/masonremaley]
-- [wor-visual-mechanics][https://twitter.com/masonremaley/status/1375534918646763528]
-- [wor-ims][https://indiemakersyndicate.com/]
-- [wor-art][https://twitter.com/masonremaley/status/1377693351198216193]
-- [wor-art-tools][https://twitter.com/masonremaley/status/1377736615997636611]
-- [wor-discord][https://discord.gg/JGeVt5XwPP]
+[wor]: https://store.steampowered.com/app/1110620?utm_campaign=tmirgd&utm_source=n20
+[mason-remaley]: https://twitter.com/masonremaley
+[wor-visual-mechanics]: https://twitter.com/masonremaley/status/1375534918646763528
+[wor-ims]: https://indiemakersyndicate.com/
+[wor-art]: https://twitter.com/masonremaley/status/1377693351198216193
+[wor-art-tools]: https://twitter.com/masonremaley/status/1377736615997636611
+[wor-discord]: https://discord.gg/JGeVt5XwPP
 
 [wor-art]: https://twitter.com/masonremaley/status/1377693351198216193
 
