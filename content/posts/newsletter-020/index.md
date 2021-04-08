@@ -622,7 +622,6 @@ the recent updates:
 ### [Oxygengine v0.16.0][oxygengine-git]
 
 ![Oxygengine + RAUI integration](oxygengine-raui-integration.gif)
-
 _Integration of RAUI (UI/UX) crate with Oxygengine game engine_
 
 [Oxygengine][oxygengine-git] by [@PsichiX][psichix-twitter] is the hottest
@@ -1118,14 +1117,12 @@ can get glimpses of its development by following the author on [Twitter][h3r2tic
 ### [RAUI v0.28.1][raui-git]
 
 ![RAUI + Tetra TODO app](raui-tetra-todo-app-material-ui.gif)
-
 _RAUI + Tetra TODO app demo_
 
 [RAUI][raui-git] by [@PsichiX][psichix-twitter] is a Renderer Agnostic User
 Interface crate that is based on declarative mode UI composition similar to
 React.js and UE4 Slate system.
 
-This update is focused on:
 - Advanced navigation system mainly for the use in [Oxygengine][oxygengine-git]
   game engine.
 - [Tesselation renderer][raui-tesselation] module to allow buildings
