@@ -1160,6 +1160,38 @@ _Discussions:
 [blocks-notes]: https://github.com/bonsairobo/building-blocks/releases/tag/v0.6.0
 [building-blocks]: https://github.com/bonsairobo/building-blocks
 
+### [Graphite][graphite-repo]
+
+!["Graphite" drawn using the circles and rectangles of the new tool drawing system](graphite-tool-system-progress.png)
+_"Graphite" drawn using the circles and rectangles of the new tool drawing
+system_
+
+Graphite ([GitHub][graphite-repo], [Discord][graphite-discord],
+[Twitter](https://twitter.com/GraphiteEditor)) is an in-progress vector and
+raster graphics editor built on a nondestructive node-based workflow.
+
+The team has grown from 1 to 5 in the past month and major progress was made
+building core architectural Rust code. A large accomplishment was designing the
+[software architecture diagram][graphite-architecture].
+
+The current editor now has functional Select, Rectangle, and Ellipse tools
+thanks to the newly-added tool state machine and SVG viewport drawing. The UI
+now also implements tool-related icons and buttons, bringing it closer to
+parity with the design mockup. The team also set up a Web/Rust-WASM build
+system, GitHub CI to confirm PRs compile, and put together
+[starter documentation][graphite-docs] for the codebase, UX design, and manual.
+
+Graphite is making rapid progress towards becoming a nondestructive, procedural
+graphics editor suitable of replacing traditional 2D DCC applications. Please
+[join the Discord][graphite-discord]— and consider asking for a tour of the
+code and how you can help!
+
+[graphite-repo]: https://github.com/GraphiteEditor/Graphite
+[graphite-discord]: https://github.com/GraphiteEditor/Graphite/blob/master/README.md#discord
+[graphite-twitter]: https://twitter.com/GraphiteEditor
+[graphite-architecture]: https://files.keavon.com/-/CostlyViolentPurplemarten/Architecture_Diagram.png
+[graphite-docs]: https://github.com/GraphiteEditor/Graphite/blob/master/docs/index.md
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
