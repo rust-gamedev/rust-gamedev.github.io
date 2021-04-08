@@ -504,9 +504,9 @@ which so far include:
 
 ### [Way of Rhea][wor]
 
-![Way of Rhea on Steam](wor-capsule.png)
+[![Way of Rhea on Steam](wor-capsule.png)][wor]
 
-[Way of Rhea](wor) is a picturesque puzzle platformer—without the platforming.
+[Way of Rhea][wor] is a picturesque puzzle platformer—without the platforming.
 Solve mind bending color puzzles, unlock new areas of a vibrant hub world, and
 talk to NPCs to unravel the mysteries of a world you left behind!
 
