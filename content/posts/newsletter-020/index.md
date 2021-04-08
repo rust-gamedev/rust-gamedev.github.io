@@ -619,6 +619,33 @@ the recent updates:
 [rusty-editor]: https://github.com/mrDIMAS/rusty-editor
 [MinusGix]: https://github.com/MinusGix
 
+### [Oxygengine v0.16.0][oxygengine-git]
+
+![Oxygengine + RAUI integration](oxygengine-raui-integration.gif)
+_Integration of RAUI (UI/UX) crate with Oxygengine game engine_
+
+[Oxygengine][oxygengine-git] by [@PsichiX][psichix-twitter] is the hottest
+HTML5 + WASM game engine for games written in Rust with web-sys.
+The goal of this project is to combine professional game development tools under
+one highly modular toolset.
+
+- Version 0.16.0 was focused on integration of [RAUI][raui-git] crate into the
+engine to allow building rich UI/UX experience for your games using declarative
+mode UI composition (which now makes currently used simple UI Elements feature
+deprecated and it's gonna be removed at some point in the near future).
+- In addition to that [basic web game demo][oxygengine-basic-demo]
+and [pokemon-like RPG demo][oxygengine-rpg-demo] were enhanced with new UI showing
+how to build UI/UX with RAUI.
+- Next months will be focused on making RPG showing
+full potential of what you can do with RAUI in Oxygengine, as well as remaking
+Visual Novel module to be entirely based on RAUI in a way similar to how RenPy
+is made!
+
+[psichix-twitter]: https://twitter.com/psichix
+[oxygengine-git]: https://github.com/PsichiX/Oxygengine
+[oxygengine-basic-demo]: https://github.com/PsichiX/Oxygengine/tree/master/demos/basic-web-game
+[oxygengine-rpg-demo]: https://github.com/PsichiX/Oxygengine/tree/master/demos/pokemon
+
 ### [Bevy v0.5][bevy-blog]
 
 ![PBR material example](bevy_pbr.png)
@@ -1086,6 +1113,29 @@ can get glimpses of its development by following the author on [Twitter][h3r2tic
 [gltf-rs]: https://github.com/gltf-rs/gltf
 [@h3r2tic]: https://github.com/h3r2tic
 [h3r2tic-twitter]: https://twitter.com/h3r2tic
+
+### [RAUI v0.28.1][raui-git]
+
+![RAUI + Tetra TODO app](raui-tetra-todo-app-material-ui.gif)
+_RAUI + Tetra TODO app demo_
+
+[RAUI][raui-git] by [@PsichiX][psichix-twitter] is a Renderer Agnostic User
+Interface crate that is based on declarative mode UI composition similar to
+React.js and UE4 Slate system.
+
+- Advanced navigation system mainly for the use in [Oxygengine][oxygengine-git]
+  game engine.
+- [Tesselation renderer][raui-tesselation] module to allow buildings
+  Vertex + Index + Batch buffers for backends that allows to render meshes.
+- [Tetra integration][raui-tetra] crate that allows use of RAUI with [Tetra][Tetra]
+  game framework.
+- Porting [demos][raui-demos] to Tetra which became one of two mainly supported
+  backends for RAUI.
+
+[raui-git]: https://github.com/PsichiX/raui
+[raui-tesselation]: https://github.com/PsichiX/raui/tree/master/raui-tesselate-renderer
+[raui-tetra]: https://github.com/PsichiX/raui/tree/master/raui-tetra-renderer
+[raui-demos]: https://github.com/PsichiX/raui/tree/master/demos
 
 ### [building-blocks] v0.6.0
 
