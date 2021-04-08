@@ -505,13 +505,12 @@ which so far include:
 ### [Way of Rhea][wor]
 
 ![Way of Rhea on Steam](wor-capsule.png)
-_Way of Rhea logo_
 
 [Way of Rhea](wor) is a picturesque puzzle platformer—without the platforming.
 Solve mind bending color puzzles, unlock new areas of a vibrant hub world, and
 talk to NPCs to unravel the mysteries of a world you left behind!
 
-Way of Rhea is being produced by [@masonremaley](mason-remaley). Latest Way of
+Way of Rhea is being produced by [@masonremaley][mason-remaley]. Latest Way of
 Rhea developments:
 
 - A free demo was distributed as part of [Indie Maker Syndicate][wor-ims]'s
@@ -521,7 +520,8 @@ communicating the game's mechanics][wor-visual-mechanics]
 - Progress is being made adding [new artwork][wor-art] to the game
 - Tools for laying out artwork in game were [improved][wor-art-tools]
 - A crash reporter was implemented to give players the option to report issues
-directly to [Way of Rhea's Discord][wor-discord]
+directly to [Way of Rhea's Discord][wor-discord]. A writeup will be posted
+explaining how it works soon!
 - Work has begun on a dialog system for chatting w/ NPCs!
 
 [wor]: https://store.steampowered.com/app/1110620?utm_campaign=tmirgd&utm_source=n20
