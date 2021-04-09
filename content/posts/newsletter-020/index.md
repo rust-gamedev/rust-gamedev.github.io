@@ -227,6 +227,102 @@ Read more about Orbital Decay on its [development blog][orbital-decay-blog].
 [7drl-2021]: https://itch.io/jam/7drl-challenge-2021
 [orbital-decay-blog]: https://www.gridbugs.org/7drl2021-day7/
 
+### [Disguiser][disguiser]
+
+![Title card with game name and a big mansion](disguiser.png)
+
+[Disguiser][disguiser] ([itch.io][disguiser-itch], [source code][disguiser-src])
+by [@mcneja]
+is a coffee-break turn-based stealth game inspired by Thief that
+was made for the [7 Day Roguelike 2021][7drl-2021] game jam.
+The randomly-generated mansions are loosely based on Chinese courtyard houses,
+with symmetry, enclosed gardens, and a public-to-private gradient
+from the entrance northward.
+
+The development process is documented in
+a [bunch of devlog posts][disguiser-blog-tag].
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/m5tjbs/7drl_in_rust)_
+
+[disguiser]: https://mcneja.github.io/disguiser
+[disguiser-blog-tag]: http://playtechs.blogspot.com/search/label/2021-7drl
+[disguiser-itch]: https://mcneja.itch.io/disguiser-2021-7drl
+[disguiser-src]: https://github.com/mcneja/disguiser
+[@mcneja]: http://playtechs.blogspot.com
+
+### [secbot][secbot-itch]
+
+![a screenshot with in-game message](secbot.jpg)
+
+[secbot][secbot-itch] ([web version][secbot-web], [souce code][secbot-src])
+by [Herbert Wolverson][thebracket] is another 7DRL submission:
+
+> The idea behind SecBot is that an outpost has ceased communications,
+> so the morally dubious Bracket Corporation dispatch a security bot
+> to find out what happened.
+> Upon arrival, it becomes clear that things aren't going well for the colony
+> \- so the player rushes around collecting colonists
+> and shepherding them back to the spaceship.
+> I tried to bake some narrative/flavor into the game,
+> and create a fun game you can enjoy over a coffee-break.
+
+Btw, Herbert is going to give a "Learning Rust With Game Development" talk
+at [Rust Meetup Linz on April 22][rust-linz].
+
+[secbot-itch]: https://thebracket.itch.io/secbot
+[secbot-web]: http://bfnightly.bracketproductions.com/secbot2021
+[secbot-src]: https://github.com/thebracket/secbot-2021-7drl
+[rust-linz]: https://rust-linz.at
+[thebracket]: https://bracketproductions.com
+
+### [rusty-bomber]
+
+![gameplay screenshot wthh an explosion](rusty-bomber.png)
+
+[rusty-bomber] ([source code][rusty-bomber-src]) by [@rgripper] and [@Cupnfish]
+is a BomberMan clone written using Bevy & Rapier that works on desktop and web.
+
+Check out the [devlog][rusty-bomber-devlog] for more details about
+the project's internals.
+
+[@Cupnfish]: https://github.com/Cupnfish
+[@rgripper]: https://github.com/rgripper
+[rusty-bomber]: https://rgripper.github.io/rusty-bomber
+[rusty-bomber-src]: https://github.com/rgripper/rusty-bomber
+[rusty-bomber-devlog]: https://github.com/rgripper/rusty-bomber/blob/548d50470/blog/blog.md
+
+### [Outer Wonders][outer-wonders-intro]
+
+![Bibi rolling around](outer-wonders.gif)
+
+[Outer Wonders][outer-wonders-intro] by the [Utopixel Studio][utopixel]
+is a pixelart puzzle-based adventure game built using SDL2.
+
+> Explore a world of fantasy in Outer Wonders.
+> Play as Bibi, the cute round monkey, unveil the natural wonders surrounding
+> your native village, and unravel their mysteries in this
+> ecological puzzle-based adventure game.
+
+March was mostly about various preparations for the upcoming playable demo release.
+Some of the recent updates:
+
+- More lively in-game environments.
+- Scripted cutscenes.
+- Translations.
+- [Linux support progress][outer-wonders-blog1].
+- [Lot's of level and technical testing][outer-wonders-blog2].
+- The playable demo [will be released on April 16][outer-wonders-blog3].
+
+[You can read the full March devlogs here][outer-wonders-blog].
+
+[outer-wonders-blog]: https://utopixel.games/en/blog
+[outer-wonders-intro]: https://utopixel.games/en/blog/introducing-outer-wonders
+[utopixel]: https://twitter.com/utopixel
+[outer-wonders-blog1]: https://utopixel.games/en/blog/building-outer-wonders-for-multiple-platforms
+[outer-wonders-blog2]: https://utopixel.games/en/blog/testing-outer-wonders-demo-before-release
+[outer-wonders-blog3]: https://utopixel.games/en/blog/outer-wonders-demo-release-on-april-16
+
 ### Stellary 2
 
 [![Stellary 2 Anti-Missile Laser](stellary2-centered-view.gif)][stellary2-ppcv-tweet]
