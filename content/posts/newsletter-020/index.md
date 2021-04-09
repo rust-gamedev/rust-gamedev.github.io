@@ -963,6 +963,89 @@ scripting language, and game design of programming puzzles.
 
 ## Library & Tooling Updates
 
+### [genesis]
+
+[genesis] by [@StygianLightning] is a library for generating statically-typed
+ECS worlds by using a procedural macro.
+
+Unlike other ECS libraries and frameworks, which do dynamic borrow-checking
+at runtime, you define all your components upfront and generate
+a completely statically typed ECS, with borrow checking done at compile time.
+Gone are the days of passing a World between functions,
+only to encounter a dynamic borrow checking problem!
+
+genesis is a lightweight ECS library that doesn't provide any scheduling capabilities.
+Instead, you can query the storage for each component type directly.
+
+[genesis]: https://github.com/StygianLightning/genesis
+[@StygianLightning]: https://github.com/StygianLightning
+
+### [Shipyard v0.5][shipyard-0-5]
+
+[Shipyard] by [@leudz] is an ECS library built on top of sparse sets
+and focused on usability and speed.
+
+Main changes of the [latest version][shipyard-0-5]:
+
+- The `system!` macro, packs, and `Shiperator` trait were removed.
+- Bulk add entity - faster way than adding entities one by one.
+- Accurate modification tracking by default.
+- No more `try_*` - now all functions that can fail because of storage access
+  return a Result while almost all others panic.
+- More flexible workload building and debugging.
+- Customizable views and storages.
+- Significant performance improvements.
+
+[Shipyard]: https://crates.io/crates/shipyard
+[shipyard-0-5]: https://users.rust-lang.org/t/shipyard-0-5-release/57203
+[@leudz]: https://github.com/leudz
+
+### [gba] v0.4
+
+[gba] is a crate for making GBA games with Rust.
+This month it was updated to 0.4!
+It's using the new `thumbv4-none-eabi` target, and has
+an overall simpler build process than before.
+
+The project is still a work in progress, but if you've wanted to try
+an embedded experience this is an easy way to test the waters.
+No hardware required!
+Compiled binaries can be run in a GBA emulator just fine.
+
+[gba]: https://github.com/rust-console/gba
+
+### [rust-gpu v0.3][rust-gpu-v0-3]
+
+![A Sci-Fi helmet model](grr-gltf.jpg)
+_The Khronos Sci-Fi helmet model in a [glTF model viewer][grr-gltf]
+created by [@msiglreith] using rust-gpu_
+
+[rust-gpu] is a new codegen backend by Embark Studios for Rust, aimed at making
+Rust a first class language for writing GPU shaders!
+This past month was the [release of rust-gpu v0.3][rust-gpu-v0-3].
+Some of the highlights:
+
+- A lot of technical debt that was visible to users
+  (such as #[allow(unused_attributes)]) was removed.
+- rust-gpu now also supports basic ADT enums and has a whole inference pass
+  for storage class variables.
+- All Embark's shaders for their internal engine
+  [are now written in Rust](https://twitter.com/repi/status/1365256477569667075)
+  \- no more GLSL/HLSL, just Rust for all CPU & GPU code!
+
+Full release notes are available [here][rust-gpu-v0-3].
+
+For more information on how to get started with using rust-gpu in your projects,
+check out [the Rust-GPU Dev Guide](https://embarkstudios.github.io/rust-gpu/book/).
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/lxpcc2/announcing_rustgpu_v03)_
+
+[rust-gpu]: https://shader.rs
+[rust-gpu-v0-3]: https://github.com/EmbarkStudios/rust-gpu/releases/tag/v0.3.0
+[grr-gltf]: https://github.com/msiglreith/grr-gltf
+[@msiglreith]: https://github.com/msiglreith
+
 ### [kira]
 
 [kira] by [@tesselode] is a game audio library tailored to composers and other
