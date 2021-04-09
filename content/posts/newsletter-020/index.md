@@ -817,6 +817,26 @@ Instead, you can query the storage for each component type directly.
 [genesis]: https://github.com/StygianLightning/genesis
 [@StygianLightning]: https://github.com/StygianLightning
 
+### [Shipyard v0.5][shipyard-0-5]
+
+[Shipyard] by [@leudz] is an ECS library built on top of sparse sets
+and focused on usability and speed.
+
+Main changes of the [latest version][shipyard-0-5]:
+
+- The `system!` macro, packs, and `Shiperator` trait were removed.
+- Bulk add entity - faster way than adding entities one by one.
+- Accurate modification tracking by default.
+- No more `try_*` - now all functions that can fail because of storage access
+  return a Result while almost all others panic.
+- More flexible workload building and debugging.
+- Customizable views and storages.
+- Significant performance improvements.
+
+[Shipyard]: https://crates.io/crates/shipyard
+[shipyard-0-5]: https://users.rust-lang.org/t/shipyard-0-5-release/57203
+[@leudz]: https://github.com/leudz
+
 ### [kira]
 
 [kira] by [@tesselode] is a game audio library tailored to composers and other
