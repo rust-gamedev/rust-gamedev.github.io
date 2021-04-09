@@ -107,7 +107,6 @@ Some of the most recent additions are:
 - Health meters
 - More visuals with butterflies and fish
 
-
 A stress test is scheduled for 2021-04-17 17:30 UTC and everyone is invited to join.
 
 [@marior]: https://twitter.com/marior_dev
