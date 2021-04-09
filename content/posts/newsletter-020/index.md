@@ -87,11 +87,11 @@ Made in the [Bevy Game Engine][bevy].
 [minewars-reddit]: https://reddit.com/r/minewars
 [bevy]: https://bevyengine.org
 
-### [SM64JS][sm64js]
+### [sm64js][sm64js]
 
 ![Super Mario 64 JavaScript](sm64js.jpg)
 
-[SM64JS][sm64js] ([GitHub][sm64js-github], [Discord][sm64js-discord]) is a rewrite
+[sm64js][sm64js] ([GitHub][sm64js-github], [Discord][sm64js-discord]) is a rewrite
 of the decompilation project of Super Mario 64 in JavaScript with a strong focus
 on massive multiplayer online.
 The [backend][sm64js-server] recently has been rewritten in Rust by [@marior]
@@ -104,8 +104,8 @@ about several decompilation projects.
 Some of the most recent additions are:
 
 - Karts and gliders
-- Health bars
-- More visuals with butterflies and fishes
+- Health meters
+- More visuals with butterflies and fish
 
 A stress test is scheduled for 2021-04-17 17:30 UTC and everyone is invited to join.
 
