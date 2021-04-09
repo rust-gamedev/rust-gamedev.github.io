@@ -66,7 +66,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ![Gamedev meetup poster](gamedev-meetup.png)
 
-The second Rust Gamedev Meetup happened in February. It was an opportunity for
+The third Rust Gamedev Meetup happened in March. It was an opportunity for
 developers to show off what Rust projects they've been working on in the game
 ecosystem. Developers showed off game engine demos, in-game playthroughs,
 tooling, and more. You can watch the recording of the meetup [here on
