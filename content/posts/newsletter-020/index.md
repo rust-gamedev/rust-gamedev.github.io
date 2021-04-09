@@ -815,6 +815,22 @@ So far three parts were released:
 [rg3d-tut2]: https://rg3d.rs/tutorials/2021/03/09/tutorial2.html
 [rg3d-tut3]: https://rg3d.rs/tutorials/2021/03/11/tutorial3.html
 
+### [Using Tests to Speed Up Your Feedback Loop][tdd-feedback]
+
+![Tile map with basic agents and resources](robotcards.png)
+
+[@philipk] shared a [blog post][tdd-feedback] about using tests not only
+for verifying correctness, but also for faster feedback loops in some
+circumstances. [RobotCards] - a WIP game that uses the Legion ECS -
+is used as a practical example.
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/man8u1/using_tests_to_speed_up_your_feedback_loop)_
+
+[@philipk]: https://github.com/philipk
+[tdd-feedback]: https://philipk.github.io/devblog/blog/tdd-gamedev-feedback-loop
+[RobotCards]: https://philipk.github.io/devblog/robotcards
+
 ## Library & Tooling Updates
 
 ### [kira]
