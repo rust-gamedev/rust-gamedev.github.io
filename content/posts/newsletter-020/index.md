@@ -272,6 +272,37 @@ the project's internals.
 [rusty-bomber-src]: https://github.com/rgripper/rusty-bomber
 [rusty-bomber-devlog]: https://github.com/rgripper/rusty-bomber/blob/548d50470/blog/blog.md
 
+### [Outer Wonders][outer-wonders-intro]
+
+![Bibi rolling around](outer-wonders.gif)
+
+[Outer Wonders][outer-wonders-intro] by the [Utopixel Studio][utopixel]
+is a pixelart puzzle-based adventure game built using SDL2.
+
+> Explore a world of fantasy in Outer Wonders.
+> Play as Bibi, the cute round monkey, unveil the natural wonders surrounding
+> your native village, and unravel their mysteries in this
+> ecological puzzle-based adventure game.
+
+March was mostly about various preparations for the upcoming playable demo release.
+Some of the recent updates:
+
+- More lively in-game environments.
+- Scripted cutscenes.
+- Translations.
+- [Linux support progress][outer-wonders-blog1].
+- [Lot's of level and technical testing][outer-wonders-blog2].
+- The playable demo [will be released on April 16][outer-wonders-blog3].
+
+[You can read the full March devlogs here][outer-wonders-blog].
+
+[outer-wonders-blog]: https://utopixel.games/en/blog
+[outer-wonders-intro]: https://utopixel.games/en/blog/introducing-outer-wonders
+[utopixel]: https://twitter.com/utopixel
+[outer-wonders-blog1]: https://utopixel.games/en/blog/building-outer-wonders-for-multiple-platforms
+[outer-wonders-blog2]: https://utopixel.games/en/blog/testing-outer-wonders-demo-before-release
+[outer-wonders-blog3]: https://utopixel.games/en/blog/outer-wonders-demo-release-on-april-16
+
 ### Stellary 2
 
 [![Stellary 2 Anti-Missile Laser](stellary2-centered-view.gif)][stellary2-ppcv-tweet]
