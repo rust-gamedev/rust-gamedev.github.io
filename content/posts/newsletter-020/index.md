@@ -837,6 +837,20 @@ Main changes of the [latest version][shipyard-0-5]:
 [shipyard-0-5]: https://users.rust-lang.org/t/shipyard-0-5-release/57203
 [@leudz]: https://github.com/leudz
 
+### [gba] v0.4
+
+[gba] is a crate for making GBA games with Rust.
+This month it was updated to 0.4!
+It's using the new `thumbv4-none-eabi` target, and has
+an overall simpler build process than before.
+
+The project is still a work in progress, but if you've wanted to try
+an embedded experience this is an easy way to test the waters.
+No hardware required!
+Compiled binaries can be run in a GBA emulator just fine.
+
+[gba]: https://github.com/rust-console/gba
+
 ### [kira]
 
 [kira] by [@tesselode] is a game audio library tailored to composers and other
