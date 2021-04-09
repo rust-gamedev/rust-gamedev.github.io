@@ -914,6 +914,53 @@ why it's useful.
 [kettlecorn_twitter]: https://twitter.com/kettlecorn
 [ecs-in-rust]:https://ianjk.com/ecs-in-rust/
 
+### Writing a 3D Shooter using rg3d
+
+[![Demo of the third part: shooting at a moving zombie](rg3d-tut.jpg)][rg3d-tut3]
+
+[@mrDIMAS] started a tutorial series about making a 3D shooter
+using the [rg3d] game engine.
+So far three parts were released:
+
+- ["Character Controller"][rg3d-tut1] - engine & editor basics,
+  simple character controller.
+- ["Weapons"][rg3d-tut2] - player weapon with recoil and simple impact effect.
+- ["Bots, AI"][rg3d-tut3] - bots, actor animations, and a simple AI.
+
+[rg3d-tut1]: https://rg3d.rs/tutorials/2021/03/05/tutorial1.html
+[rg3d-tut2]: https://rg3d.rs/tutorials/2021/03/09/tutorial2.html
+[rg3d-tut3]: https://rg3d.rs/tutorials/2021/03/11/tutorial3.html
+
+### [Using Tests to Speed Up Your Feedback Loop][tdd-feedback]
+
+![Tile map with basic agents and resources](robotcards.png)
+
+[@philipk] shared a [blog post][tdd-feedback] about using tests not only
+for verifying correctness, but also for faster feedback loops in some
+circumstances. [RobotCards] - a WIP game that uses the Legion ECS -
+is used as a practical example.
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/man8u1/using_tests_to_speed_up_your_feedback_loop)_
+
+[@philipk]: https://github.com/philipk
+[tdd-feedback]: https://philipk.github.io/devblog/blog/tdd-gamedev-feedback-loop
+[RobotCards]: https://philipk.github.io/devblog/robotcards
+
+### [Robo Instructus Is a Coding Game Built Entirely in Rust][robo-article]
+
+![A screenshot from the middle of the game](robo.jpg)
+
+This month Tammy Xu published an article about [Alex Butler]'s two-year journey
+of creating [Robo Instructus][robo].
+The article touches lots of topics like:
+why a custom game engine in Rust was choosen, design of the custom
+scripting language, and game design of programming puzzles.
+
+[robo-article]: https://builtin.com/software-engineering-perspectives/rust-puzzle-game
+[Alex Butler]: https://twitter.com/bigabgames
+[robo]: https://store.steampowered.com/app/1032170/Robo_Instructus
+
 ## Library & Tooling Updates
 
 ### [kira]
