@@ -831,6 +831,20 @@ _Discussions:
 [tdd-feedback]: https://philipk.github.io/devblog/blog/tdd-gamedev-feedback-loop
 [RobotCards]: https://philipk.github.io/devblog/robotcards
 
+### [Robo Instructus Is a Coding Game Built Entirely in Rust][robo-article]
+
+![A screenshot from the middle of the game](robo.jpg)
+
+This month Tammy Xu published an article about [Alex Butler]'s two-year journey
+of creating [Robo Instructus][robo].
+The article touches lots of topics like:
+why a custom game engine in Rust was choosen, design of the custom
+scripting language, and game design of programming puzzles.
+
+[robo-article]: https://builtin.com/software-engineering-perspectives/rust-puzzle-game
+[Alex Butler]: https://twitter.com/bigabgames
+[robo]: https://store.steampowered.com/app/1032170/Robo_Instructus
+
 ## Library & Tooling Updates
 
 ### [kira]
