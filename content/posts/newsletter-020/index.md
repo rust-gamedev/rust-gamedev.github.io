@@ -207,6 +207,30 @@ Read more about Orbital Decay on its [development blog][orbital-decay-blog].
 [7drl-2021]: https://itch.io/jam/7drl-challenge-2021
 [orbital-decay-blog]: https://www.gridbugs.org/7drl2021-day7/
 
+### [Disguiser][disguiser]
+
+![Title card with game name and a big mansion](disguiser.png)
+
+[Disguiser][disguiser] ([itch.io][disguiser-itch], [source code][disguiser-src])
+by [@mcneja]
+is a coffee-break turn-based stealth game inspired by Thief that
+was made for the [7 Day Roguelike 2021][7drl-2021] game jam.
+The randomly-generated mansions are loosely based on Chinese courtyard houses,
+with symmetry, enclosed gardens, and a public-to-private gradient
+from the entrance northward.
+
+The development process is documented in
+a [bunch of devlog posts][disguiser-blog-tag].
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/m5tjbs/7drl_in_rust)_
+
+[disguiser]: https://mcneja.github.io/disguiser
+[disguiser-blog-tag]: http://playtechs.blogspot.com/search/label/2021-7drl
+[disguiser-itch]: https://mcneja.itch.io/disguiser-2021-7drl
+[disguiser-src]: https://github.com/mcneja/disguiser
+[@mcneja]: http://playtechs.blogspot.com
+
 ### Stellary 2
 
 [![Stellary 2 Anti-Missile Laser](stellary2-centered-view.gif)][stellary2-ppcv-tweet]
