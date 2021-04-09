@@ -256,6 +256,22 @@ at [Rust Meetup Linz on April 22][rust-linz].
 [rust-linz]: https://rust-linz.at
 [thebracket]: https://bracketproductions.com
 
+### [rusty-bomber]
+
+![gameplay screenshot wthh an explosion](rusty-bomber.png)
+
+[rusty-bomber] ([source code][rusty-bomber-src]) by [@rgripper] and [@Cupnfish]
+is a BomberMan clone written using Bevy & Rapier that works on desktop and web.
+
+Check out the [devlog][rusty-bomber-devlog] for more details about
+the project's internals.
+
+[@Cupnfish]: https://github.com/Cupnfish
+[@rgripper]: https://github.com/rgripper
+[rusty-bomber]: https://rgripper.github.io/rusty-bomber
+[rusty-bomber-src]: https://github.com/rgripper/rusty-bomber
+[rusty-bomber-devlog]: https://github.com/rgripper/rusty-bomber/blob/548d50470/blog/blog.md
+
 ### Stellary 2
 
 [![Stellary 2 Anti-Missile Laser](stellary2-centered-view.gif)][stellary2-ppcv-tweet]
