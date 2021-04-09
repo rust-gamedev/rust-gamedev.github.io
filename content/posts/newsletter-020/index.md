@@ -800,6 +800,23 @@ why it's useful.
 
 ## Library & Tooling Updates
 
+### [genesis]
+
+[genesis] by [@StygianLightning] is a library for generating statically-typed
+ECS worlds by using a procedural macro.
+
+Unlike other ECS libraries and frameworks, which do dynamic borrow-checking
+at runtime, you define all your components upfront and generate
+a completely statically typed ECS, with borrow checking done at compile time.
+Gone are the days of passing a World between functions,
+only to encounter a dynamic borrow checking problem!
+
+genesis is a lightweight ECS library that doesn't provide any scheduling capabilities.
+Instead, you can query the storage for each component type directly.
+
+[genesis]: https://github.com/StygianLightning/genesis
+[@StygianLightning]: https://github.com/StygianLightning
+
 ### [kira]
 
 [kira] by [@tesselode] is a game audio library tailored to composers and other
