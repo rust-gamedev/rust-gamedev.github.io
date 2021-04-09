@@ -231,6 +231,31 @@ _Discussions:
 [disguiser-src]: https://github.com/mcneja/disguiser
 [@mcneja]: http://playtechs.blogspot.com
 
+### [secbot][secbot-itch]
+
+![a screenshot with in-game message](secbot.jpg)
+
+[secbot][secbot-itch] ([web version][secbot-web], [souce code][secbot-src])
+by [Herbert Wolverson][thebracket] is another 7DRL submission:
+
+> The idea behind SecBot is that an outpost has ceased communications,
+> so the morally dubious Bracket Corporation dispatch a security bot
+> to find out what happened.
+> Upon arrival, it becomes clear that things aren't going well for the colony
+> \- so the player rushes around collecting colonists
+> and shepherding them back to the spaceship.
+> I tried to bake some narrative/flavor into the game,
+> and create a fun game you can enjoy over a coffee-break.
+
+Btw, Herbert is going to give a "Learning Rust With Game Development" talk
+at [Rust Meetup Linz on April 22][rust-linz].
+
+[secbot-itch]: https://thebracket.itch.io/secbot
+[secbot-web]: http://bfnightly.bracketproductions.com/secbot2021
+[secbot-src]: https://github.com/thebracket/secbot-2021-7drl
+[rust-linz]: https://rust-linz.at
+[thebracket]: https://bracketproductions.com
+
 ### Stellary 2
 
 [![Stellary 2 Anti-Missile Laser](stellary2-centered-view.gif)][stellary2-ppcv-tweet]
