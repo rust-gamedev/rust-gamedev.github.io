@@ -62,6 +62,26 @@ _Discussions:
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
+## Rust GameDev Meetup
+
+![Gamedev meetup poster](gamedev-meetup.png)
+
+The third Rust Gamedev Meetup happened in March. It was an opportunity for
+developers to show off what Rust projects they've been working on in the game
+ecosystem. Developers showed off game engine demos, in-game playthroughs,
+tooling, and more. You can watch the recording of the meetup [here on
+Youtube][gamedev-meetup-video].
+
+The next meetup will take place on the 10th of April at 16:00 GMT on the [Rust
+Gamedev Discord server][rust-gamedev-discord], and can also be [streamed on
+Twitch][rust-gamedev-twitch]. If you would like to show off what you've been
+working on, fill out [this form][gamedev-meetup-form].
+
+[gamedev-meetup-form]: https://forms.gle/BS1zCyZaiUFSUHxe6
+[gamedev-meetup-video]: https://www.youtube.com/watch?v=gqCxt8XL92o
+[rust-gamedev-discord]: https://discord.gg/yNtPTb2
+[rust-gamedev-twitch]: https://www.twitch.tv/rustgamedevmeetup
+
 ## Game Updates
 
 ### [MineWars][minewars]
