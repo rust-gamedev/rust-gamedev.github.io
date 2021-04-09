@@ -136,73 +136,111 @@ A stress test is scheduled for 2021-04-17 17:30 UTC and everyone is invited to j
 [sm64js-server]: https://github.com/sm64js/sm64js-mmo-server
 [net64-blog]: https://net64-mod.github.io/blog/sm64js/
 
-### [Bounty Bros.][bounty_bros]
+### [Outer Wonders][outer-wonders-intro]
 
-[![bounty-bros-character-on-map](./bounty_bros.png)][bounty_bros_webgame]
-_Click the image to play the game in your browser!_
+![Bibi rolling around](outer-wonders.gif)
 
-[Bounty Bros.][bounty_bros] is a prototype game similar to the old Legend of
-Zelda® games developed by [Katharos Technology][katharostech] as a testing
-ground for a future commercial game.
+[Outer Wonders][outer-wonders-intro] by the [Utopixel Studio][utopixel]
+is a pixelart puzzle-based adventure game built using SDL2.
 
-In the last 2 months Bounty Bros. has gotten a lot of updates. Now you can [play
-the game][bounty_bros_webgame] right inside of your browser on desktop or mobile
-devices!
+> Explore a world of fantasy in Outer Wonders.
+> Play as Bibi, the cute round monkey, unveil the natural wonders surrounding
+> your native village, and unravel their mysteries in this
+> ecological puzzle-based adventure game.
 
-- You can no longer walk through walls or objects
-- You can now walk into buildings
-- The camera follows the player without passing beyond the map borders
-- Rendering is now scaled pixel-perfect
-- Mobile touch controls were added
-- There is a new [retro mode][bounty_bros_retro_mode] that tries to make it it
-  look like the game is running on an old CRT television.
+March was mostly about various preparations for the upcoming playable demo release.
+Some of the recent updates:
 
-All of the source code, excluding assets and artwork, was also made available
-and split into two independent projects.
+- More lively in-game environments.
+- Scripted cutscenes.
+- Translations.
+- [Linux support progress][outer-wonders-blog1].
+- [Lot's of level and technical testing][outer-wonders-blog2].
+- The playable demo [will be released on April 16][outer-wonders-blog3].
 
-These projects were released under the
-[Katharos License][katharos_license]. This license has moral and ethical
-implications that you may or may not agree with, so please read it before making
-use of these projects:
+[You can read the full March devlogs here][outer-wonders-blog].
 
-- [Bevy Retro][bevy_retro]: A Bevy plugin for pixel-perfect games
-- [Skip'n Go][skipngo]: A simple game engine for making top-down pixel games
+[outer-wonders-blog]: https://utopixel.games/en/blog
+[outer-wonders-intro]: https://utopixel.games/en/blog/introducing-outer-wonders
+[utopixel]: https://twitter.com/utopixel
+[outer-wonders-blog1]: https://utopixel.games/en/blog/building-outer-wonders-for-multiple-platforms
+[outer-wonders-blog2]: https://utopixel.games/en/blog/testing-outer-wonders-demo-before-release
+[outer-wonders-blog3]: https://utopixel.games/en/blog/outer-wonders-demo-release-on-april-16
 
-You can read the full update in the [Blog Post][bounty_bros_blog_post].
+### [Aladin Lite]
 
-_Discussions: [Skip'n Go on GitHub][skipngo_discussions], [Bevy Retro on GitHub][bevy_retro_discussions]_
+![Mars with a RdBu colormap](aladin_lite_mars_RdBu_cm.gif)
+_Mars heightmap with a RdBu colormap rendered with Aladin Lite v3_
 
-[bevy_retro]: https://github.com/katharostech/bevy_retro
-[bevy_retro_discussions]: https://github.com/katharostech/bevy_retro/discussions
-[katharostech]: https://katharostech.com
-[skipngo]: https://github.com/katharostech/skipngo
-[skipngo_discussions]: https://github.com/katharostech/skipngo/discussions
-[bounty_bros]: https://katharostech.com/post/bounty-bros-on-web
-[bounty_bros_webgame]: https://skipngo.katharostech.com/?asset_url=https://bounty-bros.skipngo.katharostech.com/
-[bounty_bros_blog_post]: https://katharostech.com/post/bounty-bros-on-web
-[bounty_bros_retro_mode]: https://skipngo.katharostech.com/?asset_url=https://bounty-bros.skipngo.katharostech.com/&enable_crt=true&pixel_aspect_ratio=1.3
-[katharos_license]: https://github.com/katharostech/katharos-license
+[Aladin Lite] is a spatial image survey visualizer developed by the [Astronomical
+Observatory of Strasbourg] in France. Since its first release in 2013,
+[Aladin Lite] has been used by astronomers as well as amateurs that
+are curious about exploring the sky.
 
-### [pGLOWrpg][pglowrpg-github]
+Originally developed using 2D Javascript canvas, its core has been fully
+rewritten in Rust and WebGL2 using [wasm-bindgen].
+New features include:
 
-![Improved text rendering](pglowrpg_progress.jpg)
+- The support of multiple allsky projections (mercator, aitoff, ...)
+- The blending of multiple surveys
+- The support of FITS file images
 
-[pGLOWrpg][pglowrpg-github] by [@Roal_Yr]
-is a Procedurally Generated Living Open World RPG,
-a long-term project in development, which aims to be a narrative text-based game
-with maximum portability and accessibility.
+For more information, see a [talk][adass-talk] done at the ADASS 2020
+conference. A web page is also available [here][al-test-url] for you to test.
+You are also very welcolme to contribute to the project by e.g. posting issues
+on our github.
 
-Recent updates include:
+[Astronomical Observatory of Strasbourg]: https://cds.u-strasbg.fr/index-fr.gml
+[Aladin Lite]: https://github.com/cds-astro/aladin-lite/tree/develop
+[wasm-bindgen]: https://github.com/rustwasm/wasm-bindgen
+[adass-talk]: https://www.youtube.com/watch?v=TILtJOiiRoc
+[al-test-url]: https://bmatthieu3.github.io/hips_webgl_renderer/index.html
 
-- Reformatting a print interface, making it very easy to link text UI and code.
-- Switching to .ron file format for storing configs and strings.
-- Implementing individual strings coloring for better visual perception.
+### [Portal Explorer][portal-explorer]
 
-_Discussions: [Twitter][pglowrpg-twitter]_
+!["Portal in portal" scene](./portal-explorer.png)
+_"Portal in portal" scene_
 
-[@Roal_Yr]: https://twitter.com/Roal_Yr
-[pglowrpg-twitter]: https://twitter.com/pglowrpg
-[pglowrpg-github]: https://github.com/roalyr/pglowrpg
+[Portal Explorer][portal-explorer] by [@optozorax][optozorax-twitter] is a web
+visualizator of mind-blowing portals.
+
+In Portal Explorer you can view how interesting portals are constructed, and
+visually explore their properties by moving and rotating them. This program
+doesn't work well on mobile, better opened from PC. The most interesting
+scene is [portal in portal][portal-in-portal].
+
+Created using ray-tracing in shaders, engine is [macroquad][macroquad-git],
+interface is [egui][egui-git].
+
+[portal-explorer]: https://github.com/optozorax/portal
+[optozorax-twitter]: https://twitter.com/optozorax
+[portal-in-portal]: https://optozorax.github.io/portal/?scene=portal_in_portal
+[macroquad-git]: https://github.com/not-fl3/macroquad
+[egui-git]: https://github.com/emilk/egui
+
+### [Name Needed][name-needed]
+
+![Wandering agents hauling items around and digging](name-needed.gif)
+_Agents wandering around, hauling items and digging blocks_
+
+[Name Needed][name-needed] by [@DomWilliams0][domwilliams-github] is a one man
+effort to produce an open source, intuitive and high performance Dwarf
+Fortress-esque game.
+
+The engine is custom, built with SDL2 and OpenGL. It's still early days, but
+steady progress has been made over the last 18 months. The developer aims to
+release occasional technical devlogs about interesting parts of the engine,
+which so far include:
+
+- [Long term vision and goals][name-needed-devlog0]
+- [High level engine architecture][name-needed-devlog1]
+- [Intelligent entity behaviors][name-needed-devlog2]
+
+[name-needed]: https://github.com/DomWilliams0/name-needed
+[domwilliams-github]: https://github.com/DomWilliams0
+[name-needed-devlog0]: https://domwillia.ms/devlog0/
+[name-needed-devlog1]: https://domwillia.ms/devlog2/
+[name-needed-devlog2]: https://domwillia.ms/devlog4/
 
 ### [Orbital Decay][orbital-decay]
 
@@ -276,6 +314,74 @@ at [Rust Meetup Linz on April 22][rust-linz].
 [rust-linz]: https://rust-linz.at
 [thebracket]: https://bracketproductions.com
 
+### [Bounty Bros.][bounty_bros]
+
+[![bounty-bros-character-on-map](./bounty_bros.png)][bounty_bros_webgame]
+_Click the image to play the game in your browser!_
+
+[Bounty Bros.][bounty_bros] is a prototype game similar to the old Legend of
+Zelda® games developed by [Katharos Technology][katharostech] as a testing
+ground for a future commercial game.
+
+In the last 2 months Bounty Bros. has gotten a lot of updates. Now you can [play
+the game][bounty_bros_webgame] right inside of your browser on desktop or mobile
+devices!
+
+- You can no longer walk through walls or objects
+- You can now walk into buildings
+- The camera follows the player without passing beyond the map borders
+- Rendering is now scaled pixel-perfect
+- Mobile touch controls were added
+- There is a new [retro mode][bounty_bros_retro_mode] that tries to make it it
+  look like the game is running on an old CRT television.
+
+All of the source code, excluding assets and artwork, was also made available
+and split into two independent projects.
+
+These projects were released under the
+[Katharos License][katharos_license]. This license has moral and ethical
+implications that you may or may not agree with, so please read it before making
+use of these projects:
+
+- [Bevy Retro][bevy_retro]: A Bevy plugin for pixel-perfect games
+- [Skip'n Go][skipngo]: A simple game engine for making top-down pixel games
+
+You can read the full update in the [Blog Post][bounty_bros_blog_post].
+
+_Discussions: [Skip'n Go on GitHub][skipngo_discussions], [Bevy Retro on GitHub][bevy_retro_discussions]_
+
+[bevy_retro]: https://github.com/katharostech/bevy_retro
+[bevy_retro_discussions]: https://github.com/katharostech/bevy_retro/discussions
+[katharostech]: https://katharostech.com
+[skipngo]: https://github.com/katharostech/skipngo
+[skipngo_discussions]: https://github.com/katharostech/skipngo/discussions
+[bounty_bros]: https://katharostech.com/post/bounty-bros-on-web
+[bounty_bros_webgame]: https://skipngo.katharostech.com/?asset_url=https://bounty-bros.skipngo.katharostech.com/
+[bounty_bros_blog_post]: https://katharostech.com/post/bounty-bros-on-web
+[bounty_bros_retro_mode]: https://skipngo.katharostech.com/?asset_url=https://bounty-bros.skipngo.katharostech.com/&enable_crt=true&pixel_aspect_ratio=1.3
+[katharos_license]: https://github.com/katharostech/katharos-license
+
+### [pGLOWrpg][pglowrpg-github]
+
+![Improved text rendering](pglowrpg_progress.jpg)
+
+[pGLOWrpg][pglowrpg-github] by [@Roal_Yr]
+is a Procedurally Generated Living Open World RPG,
+a long-term project in development, which aims to be a narrative text-based game
+with maximum portability and accessibility.
+
+Recent updates include:
+
+- Reformatting a print interface, making it very easy to link text UI and code.
+- Switching to .ron file format for storing configs and strings.
+- Implementing individual strings coloring for better visual perception.
+
+_Discussions: [Twitter][pglowrpg-twitter]_
+
+[@Roal_Yr]: https://twitter.com/Roal_Yr
+[pglowrpg-twitter]: https://twitter.com/pglowrpg
+[pglowrpg-github]: https://github.com/roalyr/pglowrpg
+
 ### [rusty-bomber]
 
 ![gameplay screenshot wthh an explosion](rusty-bomber.png)
@@ -291,37 +397,6 @@ the project's internals.
 [rusty-bomber]: https://rgripper.github.io/rusty-bomber
 [rusty-bomber-src]: https://github.com/rgripper/rusty-bomber
 [rusty-bomber-devlog]: https://github.com/rgripper/rusty-bomber/blob/548d50470/blog/blog.md
-
-### [Outer Wonders][outer-wonders-intro]
-
-![Bibi rolling around](outer-wonders.gif)
-
-[Outer Wonders][outer-wonders-intro] by the [Utopixel Studio][utopixel]
-is a pixelart puzzle-based adventure game built using SDL2.
-
-> Explore a world of fantasy in Outer Wonders.
-> Play as Bibi, the cute round monkey, unveil the natural wonders surrounding
-> your native village, and unravel their mysteries in this
-> ecological puzzle-based adventure game.
-
-March was mostly about various preparations for the upcoming playable demo release.
-Some of the recent updates:
-
-- More lively in-game environments.
-- Scripted cutscenes.
-- Translations.
-- [Linux support progress][outer-wonders-blog1].
-- [Lot's of level and technical testing][outer-wonders-blog2].
-- The playable demo [will be released on April 16][outer-wonders-blog3].
-
-[You can read the full March devlogs here][outer-wonders-blog].
-
-[outer-wonders-blog]: https://utopixel.games/en/blog
-[outer-wonders-intro]: https://utopixel.games/en/blog/introducing-outer-wonders
-[utopixel]: https://twitter.com/utopixel
-[outer-wonders-blog1]: https://utopixel.games/en/blog/building-outer-wonders-for-multiple-platforms
-[outer-wonders-blog2]: https://utopixel.games/en/blog/testing-outer-wonders-demo-before-release
-[outer-wonders-blog3]: https://utopixel.games/en/blog/outer-wonders-demo-release-on-april-16
 
 ### Stellary 2
 
@@ -393,6 +468,18 @@ of the past 6 months of development.
 [egregoria-discord]: https://discord.gg/CAaZhUJ
 [egregoria-youtube]: https://youtu.be/qH2SKWbRV5I
 
+### [Gargoyle's Quest]
+
+![Gargoyle's Quest](gargoyles_quest.png)
+
+[Gargoyle's Quest] by [@ShamylZakariya] is an implementation of level one
+of the 1990 [Gameboy platformer][gargoyle-wiki] built using [wgpu].
+
+[Gargoyle's Quest]: https://github.com/ShamylZakariya/Platformer
+[@ShamylZakariya]: https://github.com/ShamylZakariya
+[gargoyle-wiki]: https://en.wikipedia.org/wiki/Gargoyle%27s_Quest
+[wgpu]: https://github.com/gfx-rs/wgpu-rs
+
 ### [Fishgame][fishgame]
 
 ![Fishgame](fishgame.gif)
@@ -413,18 +500,6 @@ Also a second weapon, the sword, was added to the game.
 [nakama]: https://heroiclabs.com/
 [macroquad]: https://github.com/not-fl3/macroquad
 [nakama-rs]: https://github.com/not-fl3/nakama-rs
-
-### [Gargoyle's Quest]
-
-![Gargoyle's Quest](gargoyles_quest.png)
-
-[Gargoyle's Quest] by [@ShamylZakariya] is an implementation of level one
-of the 1990 [Gameboy platformer][gargoyle-wiki] built using [wgpu].
-
-[Gargoyle's Quest]: https://github.com/ShamylZakariya/Platformer
-[@ShamylZakariya]: https://github.com/ShamylZakariya
-[gargoyle-wiki]: https://en.wikipedia.org/wiki/Gargoyle%27s_Quest
-[wgpu]: https://github.com/gfx-rs/wgpu-rs
 
 ### [Veloren][veloren]
 
@@ -542,81 +617,6 @@ prison Iapetus near the Saturn.
 [rg3d]: https://github.com/mrDIMAS/rg3d
 [Station Iapetus]: https://github.com/mrDIMAS/StationIapetus
 [si-youtube]: https://www.youtube.com/watch?v=O_ETjSkVBME
-
-### [Aladin Lite]
-
-![Mars with a RdBu colormap](aladin_lite_mars_RdBu_cm.gif)
-_Mars heightmap with a RdBu colormap rendered with Aladin Lite v3_
-
-[Aladin Lite] is a spatial image survey visualizer developed by the [Astronomical
-Observatory of Strasbourg] in France. Since its first release in 2013,
-[Aladin Lite] has been used by astronomers as well as amateurs that
-are curious about exploring the sky.
-
-Originally developed using 2D Javascript canvas, its core has been fully
-rewritten in Rust and WebGL2 using [wasm-bindgen].
-New features include:
-
-- The support of multiple allsky projections (mercator, aitoff, ...)
-- The blending of multiple surveys
-- The support of FITS file images
-
-For more information, see a [talk][adass-talk] done at the ADASS 2020
-conference. A web page is also available [here][al-test-url] for you to test.
-You are also very welcolme to contribute to the project by e.g. posting issues
-on our github.
-
-[Astronomical Observatory of Strasbourg]: https://cds.u-strasbg.fr/index-fr.gml
-[Aladin Lite]: https://github.com/cds-astro/aladin-lite/tree/develop
-[wasm-bindgen]: https://github.com/rustwasm/wasm-bindgen
-[adass-talk]: https://www.youtube.com/watch?v=TILtJOiiRoc
-[al-test-url]: https://bmatthieu3.github.io/hips_webgl_renderer/index.html
-
-### [Portal Explorer][portal-explorer]
-
-!["Portal in portal" scene](./portal-explorer.png)
-_"Portal in portal" scene_
-
-[Portal Explorer][portal-explorer] by [@optozorax][optozorax-twitter] is a web
-visualizator of mind-blowing portals.
-
-In Portal Explorer you can view how interesting portals are constructed, and
-visually explore their properties by moving and rotating them. This program
-doesn't work well on mobile, better opened from PC. The most interesting
-scene is [portal in portal][portal-in-portal].
-
-Created using ray-tracing in shaders, engine is [macroquad][macroquad-git],
-interface is [egui][egui-git].
-
-[portal-explorer]: https://github.com/optozorax/portal
-[optozorax-twitter]: https://twitter.com/optozorax
-[portal-in-portal]: https://optozorax.github.io/portal/?scene=portal_in_portal
-[macroquad-git]: https://github.com/not-fl3/macroquad
-[egui-git]: https://github.com/emilk/egui
-
-### [Name Needed][name-needed]
-
-![Wandering agents hauling items around and digging](name-needed.gif)
-_Agents wandering around, hauling items and digging blocks_
-
-[Name Needed][name-needed] by [@DomWilliams0][domwilliams-github] is a one man
-effort to produce an open source, intuitive and high performance Dwarf
-Fortress-esque game.
-
-The engine is custom, built with SDL2 and OpenGL. It's still early days, but
-steady progress has been made over the last 18 months. The developer aims to
-release occasional technical devlogs about interesting parts of the engine,
-which so far include:
-
-- [Long term vision and goals][name-needed-devlog0]
-- [High level engine architecture][name-needed-devlog1]
-- [Intelligent entity behaviors][name-needed-devlog2]
-
-[name-needed]: https://github.com/DomWilliams0/name-needed
-[domwilliams-github]: https://github.com/DomWilliams0
-[name-needed-devlog0]: https://domwillia.ms/devlog0/
-[name-needed-devlog1]: https://domwillia.ms/devlog2/
-[name-needed-devlog2]: https://domwillia.ms/devlog4/
 
 ### [Way of Rhea][wor]
 
@@ -836,6 +836,20 @@ _Discussions:
 
 ## Learning Material Updates
 
+### [Robo Instructus Is a Coding Game Built Entirely in Rust][robo-article]
+
+![A screenshot from the middle of the game](robo.jpg)
+
+This month Tammy Xu published an article about [Alex Butler]'s two-year journey
+of creating [Robo Instructus][robo].
+The article touches lots of topics like:
+why a custom game engine in Rust was choosen, design of the custom
+scripting language, and game design of programming puzzles.
+
+[robo-article]: https://builtin.com/software-engineering-perspectives/rust-puzzle-game
+[Alex Butler]: https://twitter.com/bigabgames
+[robo]: https://store.steampowered.com/app/1032170/Robo_Instructus
+
 ### [Bevy Cheatbook: Major Overhaul for Bevy 0.5][bevy_cheatbook]
 
 The Unofficial Bevy Cheatbook by @jamadazi is a practical reference book for
@@ -851,6 +865,19 @@ learning resources. Have fun making cool things with Bevy!
 
 [bevy_cheatbook]: https://bevy-cheatbook.github.io
 [bevy]: https://bevyengine.org
+
+### [Bevy game template][bevy-game-template]
+
+[Bevy game template][bevy-game-template] by [@nikl_me][nikl_twitter]
+is a template repository for a Bevy game.
+
+The goal is to present a possible structure for Bevy games and at the
+same time reduce the amount of copy paste when starting a new project.
+The repository includes a GitHub workflow for Linux, MacOS, and Windows builds
+(WASM will be supported soon) and comes with a small, opinionated example game.
+
+[bevy-game-template]:https://github.com/NiklasEi/bevy_game_template
+[nikl_twitter]: https://twitter.com/nikl_me
 
 ### [Reverse-Engineering NES Tetris to add Hard Drop][tetris-hard-drop]
 
@@ -886,19 +913,6 @@ https://github.com/stevebob/mos6502/raw/master/tetris-hard-drop-patcher/tetris-h
 https://github.com/stevebob/mos6502/tree/master/tetris-hard-drop-patcher
 [tetris-hard-drop-dsl-example]:
 https://github.com/stevebob/mos6502/blob/master/tetris-hard-drop-patcher/src/main.rs#L23
-
-### [Bevy game template][bevy-game-template]
-
-[Bevy game template][bevy-game-template] by [@nikl_me][nikl_twitter]
-is a template repository for a Bevy game.
-
-The goal is to present a possible structure for Bevy games and at the
-same time reduce the amount of copy paste when starting a new project.
-The repository includes a GitHub workflow for Linux, MacOS, and Windows builds
-(WASM will be supported soon) and comes with a small, opinionated example game.
-
-[bevy-game-template]:https://github.com/NiklasEi/bevy_game_template
-[nikl_twitter]: https://twitter.com/nikl_me
 
 ### [Tutorial: Writing a tiny Entity Component System in Rust][ecs-in-rust]
 
@@ -947,20 +961,6 @@ _Discussions:
 [tdd-feedback]: https://philipk.github.io/devblog/blog/tdd-gamedev-feedback-loop
 [RobotCards]: https://philipk.github.io/devblog/robotcards
 
-### [Robo Instructus Is a Coding Game Built Entirely in Rust][robo-article]
-
-![A screenshot from the middle of the game](robo.jpg)
-
-This month Tammy Xu published an article about [Alex Butler]'s two-year journey
-of creating [Robo Instructus][robo].
-The article touches lots of topics like:
-why a custom game engine in Rust was choosen, design of the custom
-scripting language, and game design of programming puzzles.
-
-[robo-article]: https://builtin.com/software-engineering-perspectives/rust-puzzle-game
-[Alex Butler]: https://twitter.com/bigabgames
-[robo]: https://store.steampowered.com/app/1032170/Robo_Instructus
-
 ## Library & Tooling Updates
 
 ### [genesis]
@@ -1000,6 +1000,85 @@ Main changes of the [latest version][shipyard-0-5]:
 [shipyard-0-5]: https://users.rust-lang.org/t/shipyard-0-5-release/57203
 [@leudz]: https://github.com/leudz
 
+### [Planck ECS]
+
+![planck logo](planck_ecs.png)
+
+[Planck ECS] ([GitHub][Planck ECS], [Blog][planck_blog],
+[Patreon][planck_patreon]) by [@jojolepro]
+is a brand new minimalist and safe ECS library.
+
+The 1.0 release happened in the past month, featuring: various fixes,
+quality of life improvements, removal of unsafe code and completion of tests and
+documentation.
+
+The library is currently considered completed, which means that all planned
+features are implemented, tested and benchmarked. Future updates will focus on
+performance improvements and usability improvements.
+
+[Planck ECS] is also used in [Shotcaller][planck_shotcaller] which is featured in
+this newsletter too.
+
+You can read more about the library on the [Blog][planck_blog] and on
+[GitHub][Planck ECS].
+
+_Discussions: [/r/rust][planck_reddit], Discord: jojolepro#8057_
+
+[@jojolepro]: https://github.com/jojolepro
+[Planck ECS]: https://github.com/jojolepro/planck_ecs
+[planck_shotcaller]: https://github.com/amethyst/shotcaller
+[planck_blog]: https://jojolepro.com/blog/2021-01-13_planck_ecs/
+[planck_patreon]: https://patreon.com/jojolepro
+[planck_reddit]: https://www.reddit.com/r/rust/comments/m73ema/yet_another_ecs_library_except_much_safer/
+
+### [hecs] v0.5
+
+[hecs] is a fast, lightweight, and unopinionated archetypal ECS library.
+
+Version 0.5 introduces a column-major serialization mode. This imitates the
+in-memory data layout, enabling higher performance than the already-fast
+row-major serialization mode. Because columnar layout places similar data
+nearby, it also improves the effectiveness of compression.
+
+Other changes include major optimizations to spawning entities and
+adding/removing components, inspired by the archetype graph model recently
+adopted by bevy.
+
+[hecs]: https://github.com/Ralith/hecs
+
+### [rkyv] v0.5
+
+[rkyv] is a zero-copy deserialization framework for Rust. It's similar to FlatBuffers
+and Cap'n Proto and can be used for data storage and messaging.
+
+A [benchmark][rust-serialization-benchmark] was put together to compare rkyv
+against other leading serialization solutions and gather feedback and use
+cases for development. A [summary and analysis][rkyv-is-faster-than] of the
+results is also available.
+
+Version 0.5 is hot off the presses and rolls up features from the 0.4
+development cycle:
+
+- Derive macros can now implement `PartialEq` and `PartialOrd` between
+  archived and unarchived types
+- Custom type bounds for serialization and deserialization can be added
+  with derive attributes
+- Helper types like [AlignedVec][rkyv-AlignedVec] and
+  [Infallible][rkyv-Infallible] were introduced to improve ergonomics
+- `const_generics` are now enabled by default
+- Helper functions have been added to make getting root objects easier
+- Several bugfixes and performance improvements
+
+A [feedback issue][rkyv-feedback] is still open for providing feedback on
+further development.
+
+[rkyv]: https://github.com/djkoloski/rkyv
+[rust-serialization-benchmark]: https://github.com/djkoloski/rust_serialization_benchmark
+[rkyv-is-faster-than]: https://davidkoloski.me/blog/rkyv-is-faster-than
+[rkyv-AlignedVec]: https://docs.rs/rkyv/0.5.0/rkyv/struct.AlignedVec.html
+[rkyv-Infallible]: https://docs.rs/rkyv/0.5.0/rkyv/struct.Infallible.html
+[rkyv-feedback]: https://github.com/djkoloski/rkyv/issues/67
+
 ### [gba] v0.4
 
 [gba] is a crate for making GBA games with Rust.
@@ -1013,6 +1092,101 @@ No hardware required!
 Compiled binaries can be run in a GBA emulator just fine.
 
 [gba]: https://github.com/rust-console/gba
+
+### [kira]
+
+[kira] by [@tesselode] is a game audio library tailored to composers and other
+people who need expressive audio.
+
+v0.5.0 was released with mixer send tracks, new effects, and playback position tracking
+for instances, as well as a variety of smaller improvements.
+
+_Discussions: [/r/rust](https://www.reddit.com/r/rust/comments/m0llxm/kira_game_audio_library_v050_playback_position/),
+[Twitter](https://twitter.com/tesselode/status/1368984205947006976)_
+
+[Kira]: https://github.com/tesselode/kira
+[@tesselode]: https://twitter.com/tesselode
+
+### [Quinn] v0.7
+
+[Quinn] is an async-friendly implementation of the state-of-the-art QUIC
+transport protocol soon to be standardized by the IETF.
+
+QUIC is a uniquely versatile foundation for building application protocols. Its
+support for low-latency communication, multiplexing, fine-grained reliability,
+and security make an excellent basis for real-time game networking, providing an
+array of powerful primitives unavailable on UDP or TCP.
+
+[Quinn 0.7][quinn_release] introduces support for Tokio 1.0 and many
+optimizations and bug fixes, and updates to [draft 32][quic_32] of the proposed
+standard. With last call underway in the IETF, we expect to release an
+implementation of the final standard soon with no major changes.
+
+[Quinn]: https://github.com/quinn-rs/quinn
+[quinn_release]: https://github.com/quinn-rs/quinn/releases/tag/0.7.0
+[quic_32]: https://tools.ietf.org/html/draft-ietf-quic-transport-32
+
+### [nakama-rs]
+
+[nakama-rs] is a pure Rust implementation of the [Nakama] protocol.
+
+[Nakama] is an open-source server designed to power modern games and apps.
+Features include user accounts, chat, social, matchmaker, realtime multiplayer,
+and much [more][heroiclabs].
+
+Being pure Rust, [nakama-rs] brings the full API and socket options to any
+platform Rust works on.
+
+[nakama]: https://github.com/heroiclabs/nakama
+[heroiclabs]: https://heroiclabs.com
+[nakama-rs]: https://github.com/not-fl3/nakama-rs
+
+### [smaa-rs]
+
+The [smaa-rs] library provides fast and high quality post-process
+anti-aliaising using the [SMAA algorithm]. It is designed to be
+easy to integrate into other [wgpu] applications with only a few
+added lines of code.
+
+The 0.2 series released this month includes a steamlined API
+which makes it easier to enable/disable anti-aliasing via a
+configuration setting. Currently SMAA 1x is supported with
+SMAA S2x likely to be added depending on interest.
+
+[smaa-rs]: https://github.com/fintelia/smaa-rs
+[SMAA algorithm]: http://www.iryoku.com/smaa/
+
+### [wgpu]
+
+![voxel bunny on wgpu](wgpu-conservative-bunny.png)
+Voxel Bunny rendering with conservative rasterization
+
+[wgpu] is a [WebGPU] implementation in Rust. It is safe, efficient,
+and portable: can target both native (Vulkan/D3D/Metal) and the Web.
+
+Most progress in April was focused around [WGSL] shaders and validation.
+[naga] has seen a lot of improvements in the SPIR-V and WGSL parsing, as well
+as backend code generation. Most importantly, it now fully validates both
+statements and expressions. No more accidental foot shots from adding vec2
+and vec3 in the shaders!
+
+The last and the biggest (in terms of shader complexity) example - "water"
+has been successfully ported to WGSL 🎉.
+
+A small addition to our native-only features - conservative rasterization
+feature - was added by [@wumpf] and demonstrated on a voxel bunny 🐇
+
+Finally, there is a blog post on Mozilla [graphics team blog] about the
+progress using [wgpu] in Gecko.
+
+_Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/mgvd8d/last_big_wgpurs_example_shaders_are_fully_ported/)_
+
+[naga]: https://github.com/gfx-rs/naga
+[wgpu]: https://github.com/gfx-rs/wgpu
+[WebGPU]: https://gpuweb.github.io/gpuweb/
+[WGSL]: https://gpuweb.github.io/gpuweb/wgsl/
+[@wumpf]: https://github.com/Wumpf
+[graphics team blog]: https://mozillagfx.wordpress.com/2021/03/10/webgpu-progress/
 
 ### [rust-gpu v0.3][rust-gpu-v0-3]
 
@@ -1046,19 +1220,71 @@ _Discussions:
 [grr-gltf]: https://github.com/msiglreith/grr-gltf
 [@msiglreith]: https://github.com/msiglreith
 
-### [kira]
+### [rafx]
 
-[kira] by [@tesselode] is a game audio library tailored to composers and other
-people who need expressive audio.
+![rafx tilemap rendering](rafx-tilemap-rendering.png)
+_Rafx rendering an example tilemap from [LDTK level editor][rafx-ldtk]_
 
-v0.5.0 was released with mixer send tracks, new effects, and playback position tracking
-for instances, as well as a variety of smaller improvements.
+Rafx is a multi-backend renderer that optionally integrates with the
+[distill][rafx-distill] asset pipeline. This month, we introduced a fourth
+layer to the library, `rafx-renderer`. It provides a plugin system, simplifying
+framework setup in a project.
 
-_Discussions: [/r/rust](https://www.reddit.com/r/rust/comments/m0llxm/kira_game_audio_library_v050_playback_position/),
-[Twitter](https://twitter.com/tesselode/status/1368984205947006976)_
+The demo now includes a tilemap renderer that integrates with the [LDTK level
+editor][rafx-ldtk]. The `distill` integration processes the level files offline
+for very efficient loading/rendering at runtime.
 
-[Kira]: https://github.com/tesselode/kira
-[@tesselode]: https://twitter.com/tesselode
+Sprite rendering in general is also much faster now. Scenes with 40k-100k
+sprites can render at 60fps (measured on M1 mini) depending on
+transparency/distinct Z values in the scene. New examples demonstrate tilemap
+and sprite rendering.
+
+Early work was also done to reuse descriptor sets across frames and reduce
+dynamic memory allocation when working with descriptor sets. Rafx also
+includes more options for HDR tonemapping.
+
+[rafx]: https://github.com/aclysma/rafx
+[rafx-distill]: https://github.com/amethyst/distill
+[rafx-ldtk]: https://ldtk.io
+
+### [FemtoVG]
+
+![femtovg](femtovg.png)
+
+FemtoVG is a 2D canvas like vector graphics library based on nanovg that has
+been previously featured in this newsletter.
+
+This month, the FemtoVG team has implemented a new rendering backend based on
+the `wgpu` framework. This work is being done in this [fork][femtovg-fork] of
+FemtoVG and will be merged into the main repo soon. The team is currently
+looking for users to try out the new backend and provide feedback.
+
+Join the [FemtoVG Discord channel](https://discord.gg/V69VdVu).
+
+[FemtoVG]: https://github.com/femtovg/femtovg
+[femtovg-fork]: https://github.com/adamnemecek/femtovg
+
+### Kajiya
+
+![A race car in its natural habitat inspired by the Cornell Box](kajiya.gif)
+
+Kajiya by [@h3r2tic] is a real-time global illumination renderer.
+
+It utilizes Vulkan Ray Tracing via [ash][ash] and [hassle-rs][hassle-rs] to
+implement multi-bounce light transport in fully dynamic scenes. By shooting
+only two rays per pixel on average, it keeps performance high; thanks to a
+voxel-based light cache and extensive spatio-temporal filtering, it keeps
+noise low. It supports physically-based rendering of [GLTF][gltf-rs] scenes,
+and achieves a close match to reference path-tracing.
+
+Kajiya is still in its infancy, and not yet available to the public, but you
+can get glimpses of its development by following the author on [Twitter][h3r2tic-twitter].
+
+[ash]: https://github.com/MaikKlein/ash
+[hassle-rs]: https://github.com/Traverse-Research/hassle-rs
+[gltf-rs]: https://github.com/gltf-rs/gltf
+[@h3r2tic]: https://github.com/h3r2tic
+[h3r2tic-twitter]: https://twitter.com/h3r2tic
 
 ### [Bevy Retro][bevy_retro]
 
@@ -1094,192 +1320,63 @@ _Discussions: [GitHub](https://github.com/katharostech/bevy_retro/discussions)_
 [katharos_license]: https://github.com/katharostech/katharos-license
 [bevy_retro_collision_example]: https://github.com/katharostech/bevy_retro/tree/master/examples#collisions
 
-### [Planck ECS]
+### [RAUI v0.28.1][raui-git]
 
-![planck logo](planck_ecs.png)
+![RAUI + Tetra TODO app](raui-tetra-todo-app-material-ui.gif)
+_RAUI + Tetra TODO app demo_
 
-[Planck ECS] ([GitHub][Planck ECS], [Blog][planck_blog],
-[Patreon][planck_patreon]) by [@jojolepro]
-is a brand new minimalist and safe ECS library.
+[RAUI][raui-git] by [@PsichiX][psichix-twitter] is a Renderer Agnostic User
+Interface crate that is based on declarative mode UI composition similar to
+React.js and UE4 Slate system.
 
-The 1.0 release happened in the past month, featuring: various fixes,
-quality of life improvements, removal of unsafe code and completion of tests and
-documentation.
+- Advanced navigation system mainly for the use in [Oxygengine][oxygengine-git]
+  game engine.
+- [Tesselation renderer][raui-tesselation] module to allow buildings
+  Vertex + Index + Batch buffers for backends that allows to render meshes.
+- [Tetra integration][raui-tetra] crate that allows use of RAUI with [Tetra][Tetra]
+  game framework.
+- Porting [demos][raui-demos] to Tetra which became one of two mainly supported
+  backends for RAUI.
 
-The library is currently considered completed, which means that all planned
-features are implemented, tested and benchmarked. Future updates will focus on
-performance improvements and usability improvements.
+[raui-git]: https://github.com/PsichiX/raui
+[raui-tesselation]: https://github.com/PsichiX/raui/tree/master/raui-tesselate-renderer
+[raui-tetra]: https://github.com/PsichiX/raui/tree/master/raui-tetra-renderer
+[raui-demos]: https://github.com/PsichiX/raui/tree/master/demos
 
-[Planck ECS] is also used in [Shotcaller][planck_shotcaller] which is featured in
-this newsletter too.
+### [egui-macroquad]
 
-You can read more about the library on the [Blog][planck_blog] and on
-[GitHub][Planck ECS].
+![Code example of usage of this library.](egui-macroquad.png)
+_Code example of usage of this library._
 
-_Discussions: [/r/rust][planck_reddit], Discord: jojolepro#8057_
+[egui-macroquad] is a small library to use [egui][egui-git] inside of
+[macroquad][macroquad-git]. It consists only of two functions.
 
-[@jojolepro]: https://github.com/jojolepro
-[Planck ECS]: https://github.com/jojolepro/planck_ecs
-[planck_shotcaller]: https://github.com/amethyst/shotcaller
-[planck_blog]: https://jojolepro.com/blog/2021-01-13_planck_ecs/
-[planck_patreon]: https://patreon.com/jojolepro
-[planck_reddit]: https://www.reddit.com/r/rust/comments/m73ema/yet_another_ecs_library_except_much_safer/
+[egui-macroquad]: https://github.com/optozorax/egui-macroquad
+[macroquad-git]: https://github.com/not-fl3/macroquad
+[egui-git]: https://github.com/emilk/egui
 
-### [hecs]
+### [building-blocks] v0.6.0
 
-[hecs] is a fast, lightweight, and unopinionated archetypal ECS library.
+![LOD Terrain](building-blocks-lod-terrain.jpg)
 
-Version 0.5 introduces a column-major serialization mode. This imitates the
-in-memory data layout, enabling higher performance than the already-fast
-row-major serialization mode. Because columnar layout places similar data
-nearby, it also improves the effectiveness of compression.
+In v0.6.0, the [building-blocks] voxel library brings a couple important features
+for scaling up to large maps:
 
-Other changes include major optimizations to spawning entities and
-adding/removing components, inspired by the archetype graph model recently
-adopted by bevy.
+- pyramids for level of detail
+- multichannel arrays
 
-[hecs]: https://github.com/Ralith/hecs
+There is still much work to be done to optimize the voxel mesh LOD at large
+scales and improve the cosmetics of LOD transitions, but the preliminary work
+has allowed us to demonstrate the feasibility of this approach with a new demo
+that you can view [here](https://youtube.com/watch?v=fCP8xZYJiSI).
 
-### [Quinn]
+Full release notes are available on [here][blocks-notes].
 
-[Quinn] is an async-friendly implementation of the state-of-the-art QUIC
-transport protocol soon to be standardized by the IETF.
+_Discussions:
+[/r/rust](https://reddit.com/r/rust_gamedev/comments/ma76je/buildingblocks_v060)_
 
-QUIC is a uniquely versatile foundation for building application protocols. Its
-support for low-latency communication, multiplexing, fine-grained reliability,
-and security make an excellent basis for real-time game networking, providing an
-array of powerful primitives unavailable on UDP or TCP.
-
-[Quinn 0.7][quinn_release] introduces support for Tokio 1.0 and many
-optimizations and bug fixes, and updates to [draft 32][quic_32] of the proposed
-standard. With last call underway in the IETF, we expect to release an
-implementation of the final standard soon with no major changes.
-
-[Quinn]: https://github.com/quinn-rs/quinn
-[quinn_release]: https://github.com/quinn-rs/quinn/releases/tag/0.7.0
-[quic_32]: https://tools.ietf.org/html/draft-ietf-quic-transport-32
-
-### [nakama-rs]
-
-[nakama-rs] is a pure Rust implementation of the [Nakama] protocol.
-
-[Nakama] is an open-source server designed to power modern games and apps.
-Features include user accounts, chat, social, matchmaker, realtime multiplayer,
-and much [more][heroiclabs].
-
-Being pure Rust, [nakama-rs] brings the full API and socket options to any
-platform Rust works on.
-
-[nakama]: https://github.com/heroiclabs/nakama
-[heroiclabs]: https://heroiclabs.com
-[nakama-rs]: https://github.com/not-fl3/nakama-rs
-
-### [wgpu]
-
-![voxel bunny on wgpu](wgpu-conservative-bunny.png)
-Voxel Bunny rendering with conservative rasterization
-
-[wgpu] is a [WebGPU] implementation in Rust. It is safe, efficient,
-and portable: can target both native (Vulkan/D3D/Metal) and the Web.
-
-Most progress in April was focused around [WGSL] shaders and validation.
-[naga] has seen a lot of improvements in the SPIR-V and WGSL parsing, as well
-as backend code generation. Most importantly, it now fully validates both
-statements and expressions. No more accidental foot shots from adding vec2
-and vec3 in the shaders!
-
-The last and the biggest (in terms of shader complexity) example - "water"
-has been successfully ported to WGSL 🎉.
-
-A small addition to our native-only features - conservative rasterization
-feature - was added by [@wumpf] and demonstrated on a voxel bunny 🐇
-
-Finally, there is a blog post on Mozilla [graphics team blog] about the
-progress using [wgpu] in Gecko.
-
-_Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/mgvd8d/last_big_wgpurs_example_shaders_are_fully_ported/)_
-
-[naga]: https://github.com/gfx-rs/naga
-[wgpu]: https://github.com/gfx-rs/wgpu
-[WebGPU]: https://gpuweb.github.io/gpuweb/
-[WGSL]: https://gpuweb.github.io/gpuweb/wgsl/
-[@wumpf]: https://github.com/Wumpf
-[graphics team blog]: https://mozillagfx.wordpress.com/2021/03/10/webgpu-progress/
-
-### [smaa-rs]
-
-The [smaa-rs] library provides fast and high quality post-process
-anti-aliaising using the [SMAA algorithm]. It is designed to be
-easy to integrate into other [wgpu] applications with only a few
-added lines of code.
-
-The 0.2 series released this month includes a steamlined API
-which makes it easier to enable/disable anti-aliasing via a
-configuration setting. Currently SMAA 1x is supported with
-SMAA S2x likely to be added depending on interest.
-
-[smaa-rs]: https://github.com/fintelia/smaa-rs
-[SMAA algorithm]: http://www.iryoku.com/smaa/
-
-### [rafx]
-
-![rafx tilemap rendering](rafx-tilemap-rendering.png)
-_Rafx rendering an example tilemap from [LDTK level editor][rafx-ldtk]_
-
-Rafx is a multi-backend renderer that optionally integrates with the
-[distill][rafx-distill] asset pipeline. This month, we introduced a fourth
-layer to the library, `rafx-renderer`. It provides a plugin system, simplifying
-framework setup in a project.
-
-The demo now includes a tilemap renderer that integrates with the [LDTK level
-editor][rafx-ldtk]. The `distill` integration processes the level files offline
-for very efficient loading/rendering at runtime.
-
-Sprite rendering in general is also much faster now. Scenes with 40k-100k
-sprites can render at 60fps (measured on M1 mini) depending on
-transparency/distinct Z values in the scene. New examples demonstrate tilemap
-and sprite rendering.
-
-Early work was also done to reuse descriptor sets across frames and reduce
-dynamic memory allocation when working with descriptor sets. Rafx also
-includes more options for HDR tonemapping.
-
-[rafx]: https://github.com/aclysma/rafx
-[rafx-distill]: https://github.com/amethyst/distill
-[rafx-ldtk]: https://ldtk.io
-
-### [rkyv]
-
-[rkyv] is a zero-copy deserialization framework for Rust. It's similar to FlatBuffers
-and Cap'n Proto and can be used for data storage and messaging.
-
-A [benchmark][rust-serialization-benchmark] was put together to compare rkyv
-against other leading serialization solutions and gather feedback and use
-cases for development. A [summary and analysis][rkyv-is-faster-than] of the
-results is also available.
-
-Version 0.5 is hot off the presses and rolls up features from the 0.4
-development cycle:
-
-- Derive macros can now implement `PartialEq` and `PartialOrd` between
-  archived and unarchived types
-- Custom type bounds for serialization and deserialization can be added
-  with derive attributes
-- Helper types like [AlignedVec][rkyv-AlignedVec] and
-  [Infallible][rkyv-Infallible] were introduced to improve ergonomics
-- `const_generics` are now enabled by default
-- Helper functions have been added to make getting root objects easier
-- Several bugfixes and performance improvements
-
-A [feedback issue][rkyv-feedback] is still open for providing feedback on
-further development.
-
-[rkyv]: https://github.com/djkoloski/rkyv
-[rust-serialization-benchmark]: https://github.com/djkoloski/rust_serialization_benchmark
-[rkyv-is-faster-than]: https://davidkoloski.me/blog/rkyv-is-faster-than
-[rkyv-AlignedVec]: https://docs.rs/rkyv/0.5.0/rkyv/struct.AlignedVec.html
-[rkyv-Infallible]: https://docs.rs/rkyv/0.5.0/rkyv/struct.Infallible.html
-[rkyv-feedback]: https://github.com/djkoloski/rkyv/issues/67
+[blocks-notes]: https://github.com/bonsairobo/building-blocks/releases/tag/v0.6.0
+[building-blocks]: https://github.com/bonsairobo/building-blocks
 
 ### [WhatTheFrame]
 
@@ -1340,104 +1437,6 @@ _Discussions: [/r/rust_gamedev][Bitmapflow-Reddit]_
 [inbetweens]: https://en.wikipedia.org/wiki/Inbetweening
 [optical flow]: https://en.wikipedia.org/wiki/Optical_flow
 
-### [FemtoVG]
-
-![femtovg](femtovg.png)
-
-FemtoVG is a 2D canvas like vector graphics library based on nanovg that has
-been previously featured in this newsletter.
-
-This month, the FemtoVG team has implemented a new rendering backend based on
-the `wgpu` framework. This work is being done in this [fork][femtovg-fork] of
-FemtoVG and will be merged into the main repo soon. The team is currently
-looking for users to try out the new backend and provide feedback.
-
-Join the [FemtoVG Discord channel](https://discord.gg/V69VdVu).
-
-[FemtoVG]: https://github.com/femtovg/femtovg
-[femtovg-fork]: https://github.com/adamnemecek/femtovg
-
-### [egui-macroquad]
-
-![Code example of usage of this library.](egui-macroquad.png)
-_Code example of usage of this library._
-
-[egui-macroquad] is a small library to use [egui][egui-git] inside of
-[macroquad][macroquad-git]. It consists only of two functions.
-
-[egui-macroquad]: https://github.com/optozorax/egui-macroquad
-[macroquad-git]: https://github.com/not-fl3/macroquad
-[egui-git]: https://github.com/emilk/egui
-
-### Kajiya
-
-![A race car in its natural habitat inspired by the Cornell Box](kajiya.gif)
-
-Kajiya by [@h3r2tic]
-is a real-time global illumination renderer.
-
-It utilizes Vulkan Ray Tracing via [ash][ash] and [hassle-rs][hassle-rs] to
-implement multi-bounce light transport in fully dynamic scenes. By shooting
-only two rays per pixel on average, it keeps performance high; thanks to a
-voxel-based light cache and extensive spatio-temporal filtering, it keeps
-noise low. It supports physically-based rendering of [GLTF][gltf-rs] scenes,
-and achieves a close match to reference path-tracing.
-
-Kajiya is still in its infancy, and not yet available to the public, but you
-can get glimpses of its development by following the author on [Twitter][h3r2tic-twitter].
-
-[ash]: https://github.com/MaikKlein/ash
-[hassle-rs]: https://github.com/Traverse-Research/hassle-rs
-[gltf-rs]: https://github.com/gltf-rs/gltf
-[@h3r2tic]: https://github.com/h3r2tic
-[h3r2tic-twitter]: https://twitter.com/h3r2tic
-
-### [RAUI v0.28.1][raui-git]
-
-![RAUI + Tetra TODO app](raui-tetra-todo-app-material-ui.gif)
-_RAUI + Tetra TODO app demo_
-
-[RAUI][raui-git] by [@PsichiX][psichix-twitter] is a Renderer Agnostic User
-Interface crate that is based on declarative mode UI composition similar to
-React.js and UE4 Slate system.
-
-- Advanced navigation system mainly for the use in [Oxygengine][oxygengine-git]
-  game engine.
-- [Tesselation renderer][raui-tesselation] module to allow buildings
-  Vertex + Index + Batch buffers for backends that allows to render meshes.
-- [Tetra integration][raui-tetra] crate that allows use of RAUI with [Tetra][Tetra]
-  game framework.
-- Porting [demos][raui-demos] to Tetra which became one of two mainly supported
-  backends for RAUI.
-
-[raui-git]: https://github.com/PsichiX/raui
-[raui-tesselation]: https://github.com/PsichiX/raui/tree/master/raui-tesselate-renderer
-[raui-tetra]: https://github.com/PsichiX/raui/tree/master/raui-tetra-renderer
-[raui-demos]: https://github.com/PsichiX/raui/tree/master/demos
-
-### [building-blocks] v0.6.0
-
-![LOD Terrain](building-blocks-lod-terrain.jpg)
-
-In v0.6.0, the [building-blocks] voxel library brings a couple important features
-for scaling up to large maps:
-
-- pyramids for level of detail
-- multichannel arrays
-
-There is still much work to be done to optimize the voxel mesh LOD at large
-scales and improve the cosmetics of LOD transitions, but the preliminary work
-has allowed us to demonstrate the feasibility of this approach with a new demo
-that you can view [here](https://youtube.com/watch?v=fCP8xZYJiSI).
-
-Full release notes are available on [here][blocks-notes].
-
-_Discussions:
-[/r/rust](https://reddit.com/r/rust_gamedev/comments/ma76je/buildingblocks_v060)_
-
-[blocks-notes]: https://github.com/bonsairobo/building-blocks/releases/tag/v0.6.0
-[building-blocks]: https://github.com/bonsairobo/building-blocks
-
 ### [Graphite][graphite-repo]
 
 !["Graphite" drawn using the circles and rectangles of the new tool drawing system](graphite-tool-system-progress.png)
@@ -1461,7 +1460,7 @@ system, GitHub CI to confirm PRs compile, and put together
 
 Graphite is making rapid progress towards becoming a nondestructive, procedural
 graphics editor suitable of replacing traditional 2D DCC applications. Please
-[join the Discord][graphite-discord]— and consider asking for a tour of the
+[join the Discord][graphite-discord] - and consider asking for a tour of the
 code and how you can help!
 
 [graphite-repo]: https://github.com/GraphiteEditor/Graphite
