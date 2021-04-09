@@ -103,7 +103,7 @@ about several decompilation projects.
 
 Some of the most recent additions are:
 
-- Carts and gliders
+- Karts and gliders
 - Health bars
 - More visuals with butterflies and fishes
 
