@@ -851,6 +851,38 @@ Compiled binaries can be run in a GBA emulator just fine.
 
 [gba]: https://github.com/rust-console/gba
 
+### [rust-gpu v0.3][rust-gpu-v0-3]
+
+![A Sci-Fi helmet model](grr-gltf.jpg)
+_The Khronos Sci-Fi helmet model in a [glTF model viewer][grr-gltf]
+created by [@msiglreith] using rust-gpu_
+
+[rust-gpu] is a new codegen backend by Embark Studios for Rust, aimed at making
+Rust a first class language for writing GPU shaders!
+This past month was the [release of rust-gpu v0.3][rust-gpu-v0-3].
+Some of the highlights:
+
+- A lot of technical debt that was visible to users
+  (such as #[allow(unused_attributes)]) was removed.
+- rust-gpu now also supports basic ADT enums and has a whole inference pass
+  for storage class variables.
+- All Embark's shaders for their internal engine
+  [are now written in Rust](https://twitter.com/repi/status/1365256477569667075)
+  \- no more GLSL/HLSL, just Rust for all CPU & GPU code!
+
+Full release notes are available [here][rust-gpu-v0-3].
+
+For more information on how to get started with using rust-gpu in your projects,
+check out [the Rust-GPU Dev Guide](https://embarkstudios.github.io/rust-gpu/book/).
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/lxpcc2/announcing_rustgpu_v03)_
+
+[rust-gpu]: https://shader.rs
+[rust-gpu-v0-3]: https://github.com/EmbarkStudios/rust-gpu/releases/tag/v0.3.0
+[grr-gltf]: https://github.com/msiglreith/grr-gltf
+[@msiglreith]: https://github.com/msiglreith
+
 ### [kira]
 
 [kira] by [@tesselode] is a game audio library tailored to composers and other
