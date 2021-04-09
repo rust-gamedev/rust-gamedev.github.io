@@ -798,6 +798,23 @@ why it's useful.
 [kettlecorn_twitter]: https://twitter.com/kettlecorn
 [ecs-in-rust]:https://ianjk.com/ecs-in-rust/
 
+### Writing a 3D Shooter using rg3d
+
+[![Demo of the third part: shooting at a moving zombie](rg3d-tut.jpg)][rg3d-tut3]
+
+[@mrDIMAS] started a tutorial series about making a 3D shooter
+using the [rg3d] game engine.
+So far three parts were released:
+
+- ["Character Controller"][rg3d-tut1] - engine & editor basics,
+  simple character controller.
+- ["Weapons"][rg3d-tut2] - player weapon with recoil and simple impact effect.
+- ["Bots, AI"][rg3d-tut3] - bots, actor animations, and a simple AI.
+
+[rg3d-tut1]: https://rg3d.rs/tutorials/2021/03/05/tutorial1.html
+[rg3d-tut2]: https://rg3d.rs/tutorials/2021/03/09/tutorial2.html
+[rg3d-tut3]: https://rg3d.rs/tutorials/2021/03/11/tutorial3.html
+
 ## Library & Tooling Updates
 
 ### [kira]
