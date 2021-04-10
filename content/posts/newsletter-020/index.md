@@ -182,7 +182,7 @@ New features include:
 For more information, see a [talk][adass-talk] done at the ADASS 2020
 conference. A web page is also available [here][al-test-url] for you to test.
 You are also very welcolme to contribute to the project by e.g. posting issues
-on our github.
+on the project's github.
 
 [Astronomical Observatory of Strasbourg]: https://cds.u-strasbg.fr/index-fr.gml
 [Aladin Lite]: https://github.com/cds-astro/aladin-lite/tree/develop
@@ -582,7 +582,7 @@ Updates:
 ### [Station Iapetus]
 
 [![Station Iapetus Youtube](station-iapetus-youtube.png)][si-youtube]
-_Check [gameplay video][si-youtube] on YouTube_
+_Click on the iamge to see the gameplay video on YouTube_
 
 [Station Iapetus][Station Iapetus] by [@mrDIMAS] is a 3rd person shooter on the
 prison Iapetus near the Saturn.
@@ -695,9 +695,9 @@ thanks to [miniquad][miniquad_git].
 Features include physics via [rapier2d][rapier_2d],
 ECS via [hecs][hecs_git], and font rendering via [fontdue][fontdue_git].
 
-New Updates:
+Recent updates:
 
-- rendering to textures
+- Rendering to textures was added ([example][em_render_texture_example]).
 - [WASM game sample][em_wasm_example].
 
 [bombfuse_twitter]: https://twitter.com/bombfuse_dev
@@ -705,6 +705,7 @@ New Updates:
 [rapier_2d]: https://github.com/dimforge/rapier
 [miniquad_git]: https://github.com/not-fl3/miniquad
 [em_wasm_example]: https://bombfuse.itch.io/him-character-demo-harvest-hero
+[em_render_texture_example]: https://github.com/Bombfuse/emerald/blob/eb38d868a/examples/render_to_texture.rs
 [hecs_git]: https://github.com/Ralith/hecs
 [fontdue_git]: https://github.com/mooman219/fontdue
 
@@ -1136,7 +1137,7 @@ SMAA S2x likely to be added depending on interest.
 ### [wgpu]
 
 ![voxel bunny on wgpu](wgpu-conservative-bunny.png)
-Voxel Bunny rendering with conservative rasterization
+_Voxel Bunny rendering with conservative rasterization_
 
 [wgpu] is a [WebGPU] implementation in Rust. It is safe, efficient,
 and portable: can target both native (Vulkan/D3D/Metal) and the Web.
@@ -1178,7 +1179,7 @@ This past month was the [release of rust-gpu v0.3][rust-gpu-v0-3].
 Some of the highlights:
 
 - A lot of technical debt that was visible to users
-  (such as #[allow(unused_attributes)]) was removed.
+  (such as `#[allow(unused_attributes)]`) was removed.
 - rust-gpu now also supports basic ADT enums and has a whole inference pass
   for storage class variables.
 - All Embark's shaders for their internal engine
@@ -1233,7 +1234,7 @@ FemtoVG is a 2D canvas like vector graphics library based on nanovg that has
 been previously featured in this newsletter.
 
 This month, the FemtoVG team has implemented a new rendering backend based on
-the `wgpu` framework. This work is being done in this [fork][femtovg-fork] of
+the `wgpu` library. This work is being done in this [fork][femtovg-fork] of
 FemtoVG and will be merged into the main repo soon. The team is currently
 looking for users to try out the new backend and provide feedback.
 
