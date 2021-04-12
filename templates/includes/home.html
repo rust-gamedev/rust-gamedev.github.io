@@ -26,14 +26,25 @@
 <div class="home wrapper">
     <h2 class="post-list-heading">{{ section.title | default(value="Latest News") }}</h2>
     
-    {% set posts = get_section(path="posts/_index.md") %}
+    {% set posts = get_section(path="news/_index.md") %}
+    {% set pages = posts.pages | slice(end=config.extra.home.max_posts) %}
+    {{ macros::post_list(posts=pages, placeholder="None yet - stay tuned for updates and announcements!") }}
+
+    <h2 class="post-list-heading">{{ section.title | default(value="Latest Blog Posts") }}</h2>
+
+    {% set posts = get_section(path="blog/_index.md") %}
     {% set pages = posts.pages | slice(end=config.extra.home.max_posts) %}
     {{ macros::post_list(posts=pages, placeholder="None yet - stay tuned for updates and announcements!") }}
 
     <p class="feed-subscribe">
         {% if pages | length > 0 %}
-        <a class="btn" id="all-news" href="{{ get_url(path='posts/') }}">
+        <a class="btn" id="all-news" href="{{ get_url(path='news/') }}">
             All News
+        </a>
+        {% endif %}
+        {% if pages | length > 0 %}
+        <a class="btn" id="all-blog-posts" href="{{ get_url(path='blog/') }}">
+            All Blog Posts
         </a>
         {% endif %}
         <a href="{{ get_url(path='rss.xml') }}">
