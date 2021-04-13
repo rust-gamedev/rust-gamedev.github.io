@@ -1,6 +1,6 @@
 title = "Rust Game Development Working Group"
 description = "Stay up to date with the progress and recent developments in the Rust Game Development Working Group."
-base_url = "https://rust-gamedev.github.io/"
+base_url = "https://gamedev.rs/"
 default_language = "en"
 compile_sass = true
 highlight_code = true
