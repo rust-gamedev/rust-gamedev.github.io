@@ -62,12 +62,12 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
-### The Process
+### [The Process]
 
 ![Animated image showcasing the test map in The Process](the_process.gif)
 _The new test map in The Process_
 
-The Process (https://twitter.com/PlayTheProcess/) by @setzer22 is an upcoming
+[The Process] by @setzer22 is an upcoming
 game about factory building, process management and carrot production, built
 with Rust using the Godot game engine!
 
@@ -91,6 +91,8 @@ for updates!
 _Discussions:
 [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/mopoxk/showcasing_my_game_the_process_built_with_rust/),
 [Twitter](https://twitter.com/PlayTheProcess)_
+
+[The Process]: https://twitter.com/PlayTheProcess/
 
 ### [pGLOWrpg][pglowrpg-github]
 
