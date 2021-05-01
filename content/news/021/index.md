@@ -117,6 +117,31 @@ _Discussions: [Twitter][pglowrpg-twitter]_
 [pglowrpg-twitter]: https://twitter.com/pglowrpg
 [pglowrpg-github]: https://github.com/roalyr/pglowrpg
 
+### [Taipo][taipo-itch]
+
+[![Screenshot of Taipo showing a variety of towers and enemies](taipo.png)][taipo-itch]
+_Click the image to play the game in your desktop browser!_
+
+Taipo ([itch.io][taipo-itch], [GitHub][taipo-github]) by [@rparrett]
+is a Tower Defense game that's controlled solely by typing words and phrases.
+
+Taipo is intended to be a thin veneer of a game over a tool for practicing
+Japanese, but there's an English mode as well. Gameplay sessions are short and
+the game is playable in a desktop web browser.
+
+Taipo was built with [Bevy 0.5][taipo-bevy] with web builds made possible by
+[bevy_webgl2] and [bevy_kira_audio]. Taipo is also supported by these great
+projects: [bevy_tiled], [bevy_asset_ron].
+
+[taipo-itch]: https://euclidean-whale.itch.io/taipo
+[taipo-github]: https://github.com/rparrett/taipo
+[taipo-bevy]: https://bevyengine.org
+[bevy_webgl2]: https://github.com/mrk-its/bevy_webgl2
+[bevy_asset_ron]: https://github.com/jamadazi/bevy_asset_ron
+[bevy_tiled]: https://github.com/stararawn/bevy_tiled
+[bevy_kira_audio]: https://github.com/NiklasEi/bevy_kira_audio
+[@rparrett]: https://github.com/rparrett
+
 ## Engine Updates
 
 ## Learning Material Updates
