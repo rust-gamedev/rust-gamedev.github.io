@@ -81,7 +81,7 @@ This last month was focused on implementing the following features:
 
 - A [test map](https://twitter.com/PlayTheProcess/status/1381648397569036291) to
   ensure all corners of the codebase are working
-- Improved player mobility by introducing a 
+- Improved player mobility by introducing a
   [grappling hook](https://www.reddit.com/r/rust_gamedev/comments/mztqhy/added_a_grappling_hook_to_my_game_built_with_rust/)
 
 The game has been in active development for over a year and is now approaching
