@@ -228,6 +228,30 @@ GUI.
 
 [KindNES]: https://github.com/henryksloan/kind-nes/releases/tag/v0.9.1-beta
 [@henryksloan]: https://github.com/henryksloan
+### [rafx]
+
+![rafx-webgl-demo](rafx-webgl1-demo.png)
+_Rafx WebGL 1.0 support, [click for live demo][rafx-webgl-demo]!_
+
+Rafx is a multi-backend renderer that optionally integrates with the
+[distill][rafx-distill] asset pipeline. This month, we added frustum
+culling and a new OpenGL ES 2.0/WebGL 1.0 backend.
+
+[@dvd] revived the `rafx-visibility` crate and implemented frustum culling.
+This vastly reduces the draw call count in demo scenes. This also included
+a clean-up of the demo to improve consistency between implementation of the
+various rendering features (i.e. meshes, text etc.)
+
+[@aclysma] implemented a new OpenGL ES 2.0 backend. By supporting ES2, rafx
+can now be used with almost any mobile device or within any browser ([~98%
+coverage][rafx-webgl-caniuse].)
+
+[rafx]: https://github.com/aclysma/rafx
+[rafx-webgl-demo]: https://aclysma.github.io/rafx/demo-web/index.html
+[rafx-distill]: https://github.com/amethyst/distill
+[rafx-webgl-caniuse]: https://caniuse.com/?search=webgl
+[@aclysma]: https://github.com/aclysma
+[@dvd]: https://github.com/DavidVonDerau
 
 ## Popular Workgroup Issues in Github
 
