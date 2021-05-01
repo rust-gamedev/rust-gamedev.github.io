@@ -92,6 +92,29 @@ _Discussions:
 [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/mopoxk/showcasing_my_game_the_process_built_with_rust/),
 [Twitter](https://twitter.com/PlayTheProcess)_
 
+### [pGLOWrpg][pglowrpg-github]
+
+![Improved text rendering](pglowrpg_progress.jpg)
+
+[pGLOWrpg][pglowrpg-github] by [@Roal_Yr]
+is a Procedurally Generated Living Open World RPG,
+a long-term project in development, which aims to be a narrative text-based game
+with maximum portability and accessibility.
+
+Recent updates include:
+
+- Finished implementing new printing interface.
+- Different types of text: normal, announcement, banner, etc.
+- Text color scheme in separate .ron preset file.
+- Text wrap implemented.
+- Fallback modes for text printing implemented.
+
+_Discussions: [Twitter][pglowrpg-twitter]_
+
+[@Roal_Yr]: https://twitter.com/Roal_Yr
+[pglowrpg-twitter]: https://twitter.com/pglowrpg
+[pglowrpg-github]: https://github.com/roalyr/pglowrpg
+
 ## Engine Updates
 
 ## Learning Material Updates
