@@ -235,8 +235,8 @@ GUI.
 _Rafx WebGL 1.0 support, [click for live demo][rafx-webgl-demo]!_
 
 Rafx is a multi-backend renderer that optionally integrates with the
-[distill][rafx-distill] asset pipeline. This month, we added frustum
-culling and a new OpenGL ES 2.0/WebGL 1.0 backend.
+[distill][rafx-distill] asset pipeline. This month, frustum culling
+and a new OpenGL ES 2.0/WebGL 1.0 backend were added.
 
 [@dvd] revived the `rafx-visibility` crate and implemented frustum culling.
 Frustum culling greatly reduces draw call counts, improving frame rate
