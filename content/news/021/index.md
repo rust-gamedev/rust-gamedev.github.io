@@ -142,9 +142,46 @@ projects: [bevy_tiled], [bevy_asset_ron].
 [bevy_kira_audio]: https://github.com/NiklasEi/bevy_kira_audio
 [@rparrett]: https://github.com/rparrett
 
+### [Way of Rhea][wor]
+
+[![Way of Rhea on Steam](wor-ice.jpg)][wor]
+
+[Way of Rhea][wor] is a picturesque puzzle platformer—without the platforming.
+Solve mind bending color puzzles, unlock new areas of a vibrant hub world, and
+talk to NPCs to unravel the mysteries of a world you left behind!
+
+Way of Rhea is being produced by [@masonremaley][mason-remaley]. Latest Way of
+Rhea developments:
+
+- A [hierarchy tree view][wor-hierarchy] was added to the editor to make getting art into the game easier
+- Work is wrapping up getting [art into the first snow crab level!][wor-art]
+- [@masonremaley][mason-remaley] wrote up [an article walking through how the Way of Rhea crash reporter works][wor-crash-reporter]
+- [Carolyn Whitmeyer][carolyn-whitmeyer], the game's artist, released [a demo real including some content from Way of Rhea](https://twitter.com/masonremaley/status/1387102693626421254)
+
+[wor]: https://store.steampowered.com/app/1110620?utm_campaign=tmirgd&utm_source=n21
+[wor-art]: https://twitter.com/AnthropicSt/status/1388907046574215172
+[wor-hierarchy]: https://twitter.com/AnthropicSt/status/1387947007508160517
+[mason-remaley]: https://twitter.com/masonremaley
+[wor-crash-reporter]: https://www.anthropicstudios.com/2021/03/05/crash-reporter/
+[carolyn-whitmeyer]: https://www.instagram.com/cw_visuals_insta/
+[wor-cw-demo-reel]: https://twitter.com/masonremaley/status/1387102693626421254
+[wor-discord]: https://discord.gg/JGeVt5XwPP
+
 ## Engine Updates
 
 ## Learning Material Updates
+
+### [How To Write a Crash Reporter][crash-reporter]
+
+![How To Write a Crash Reporter](wor-crash-reporter.jpg)
+
+[@masonremaley][mason-remaley] wrote an article walking through [Way of Rhea's][wor] crash reporter implementation.
+
+The article covers how to detect a crash, how to report a crash via chat services like Discord or Slack, and how to implement a robust native UI on Windows to handle requesting user consent to file the report, as well as some design considerations.
+
+[crash-reporter]: https://www.anthropicstudios.com/2021/03/05/crash-reporter/
+[mason-remaley]: https://twitter.com/masonremaley
+[wor]: https://store.steampowered.com/app/1110620?utm_campaign=tmirgd&utm_source=n21
 
 ## Library & Tooling Updates
 
