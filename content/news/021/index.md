@@ -170,6 +170,26 @@ On the infrastructure side, [wgpu] integrated [profiling] and got the first
 [gfx-release-blog]: https://gfx-rs.github.io/2021/04/30/release-0.8.html
 [naga perf numbers]: https://github.com/gfx-rs/wgpu-rs/discussions/879
 
+### [KindNES]
+
+![Super Mario Bros. running in KindNES](kindnes.png)
+
+[KindNES] by [@henryksloan]
+is a new NES emulator that supports sound, controllers, and
+much of the NES library.
+
+KindNES is designed to strike a balance between performance, hardware accuracy,
+and code clarity. It directly emulates the CPU, graphics, and sound of the NES
+with minimal approximation. The code is intended to pair well with the NESdev
+wiki as a resource for learning about the NES.
+
+KindNES is in a playable state, and is approaching a release version.
+Features planned before release include saving and an improved cross-platform
+GUI.
+
+[KindNES]: https://github.com/henryksloan/kind-nes/releases/tag/v0.9.1-beta
+[@henryksloan]: https://github.com/henryksloan
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
