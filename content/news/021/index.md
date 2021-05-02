@@ -148,6 +148,28 @@ projects: [bevy_tiled], [bevy_asset_ron].
 
 ## Library & Tooling Updates
 
+### [wgpu]-0.8
+
+![Screenshot of tree rendering](wgpu-tree.png)
+
+[wgpu] is a [WebGPU] implementation in Rust. It is safe, efficient,
+and portable: can target both native (Vulkan/D3D/Metal) and the Web.
+
+The team has rolled out gfx-hal-0.8 and wgpu-0.8 updates on crates!
+Read [gfx-release-blog] for more details.
+
+In April, the team implemented more validation on both the host and the shader
+sides. [Naga]'s coverage of SPIR-V and MSL features is also greately improved.
+
+On the infrastructure side, [wgpu] integrated [profiling] and got the first
+[naga performance] numbers, which looked promising.
+
+[wgpu]: https://github.com/gfx-rs/wgpu
+[naga]: https://github.com/gfx-rs/naga
+[profiling]: https://github.com/aclysma/profiling
+[gfx-release-blog]: https://gfx-rs.github.io/2021/04/30/release-0.8.html
+[naga perf numbers]: https://github.com/gfx-rs/wgpu-rs/discussions/879
+
 ### [KindNES]
 
 ![Super Mario Bros. running in KindNES](kindnes.png)
