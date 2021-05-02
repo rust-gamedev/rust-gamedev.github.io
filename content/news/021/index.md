@@ -171,7 +171,7 @@ talk to NPCs to unravel the mysteries of a world you left behind!
 Way of Rhea is being produced by [@masonremaley][mason-remaley]. Latest Way of
 Rhea developments:
 
-- A [hierarchy tree view][wor-hierarchy] was added to the editor to make getting 
+- A [hierarchy tree view][wor-hierarchy] was added to the editor to make getting
 art into the game easier
 - Work is wrapping up getting [art into the first snow crab level!][wor-art]
 - [@masonremaley][mason-remaley] wrote up [an article walking through how the
