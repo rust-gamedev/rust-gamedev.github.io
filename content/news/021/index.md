@@ -230,7 +230,7 @@ GUI.
 [@henryksloan]: https://github.com/henryksloan
 ### [rafx]
 
-![rafx-webgl-demo](rafx-webgl1-demo.png)
+[![Rafx WebGL 1.0 Demo](rafx-webgl1-demo.png)][rafx-webgl-demo]
 _Rafx WebGL 1.0 support, [click for live demo][rafx-webgl-demo]!_
 
 Rafx is a multi-backend renderer that optionally integrates with the
