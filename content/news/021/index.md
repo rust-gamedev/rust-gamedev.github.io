@@ -228,6 +228,7 @@ GUI.
 
 [KindNES]: https://github.com/henryksloan/kind-nes/releases/tag/v0.9.1-beta
 [@henryksloan]: https://github.com/henryksloan
+
 ### [rafx]
 
 [![Rafx WebGL 1.0 Demo](rafx-webgl1-demo.png)][rafx-webgl-demo]
