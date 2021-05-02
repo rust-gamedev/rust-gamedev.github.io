@@ -153,10 +153,13 @@ talk to NPCs to unravel the mysteries of a world you left behind!
 Way of Rhea is being produced by [@masonremaley][mason-remaley]. Latest Way of
 Rhea developments:
 
-- A [hierarchy tree view][wor-hierarchy] was added to the editor to make getting art into the game easier
+- A [hierarchy tree view][wor-hierarchy] was added to the editor to make getting 
+art into the game easier
 - Work is wrapping up getting [art into the first snow crab level!][wor-art]
-- [@masonremaley][mason-remaley] wrote up [an article walking through how the Way of Rhea crash reporter works][wor-crash-reporter]
-- [Carolyn Whitmeyer][carolyn-whitmeyer], the game's artist, released [a demo real including some content from Way of Rhea](https://twitter.com/masonremaley/status/1387102693626421254)
+- [@masonremaley][mason-remaley] wrote up [an article walking through how the
+Way of Rhea crash reporter works][wor-crash-reporter]
+- [Carolyn Whitmeyer][carolyn-whitmeyer], the game's artist, released [a demo
+real including some content from Way of Rhea](https://twitter.com/masonremaley/status/1387102693626421254)
 
 [wor]: https://store.steampowered.com/app/1110620?utm_campaign=tmirgd&utm_source=n21
 [wor-art]: https://twitter.com/AnthropicSt/status/1388907046574215172
@@ -175,9 +178,13 @@ Rhea developments:
 
 ![How To Write a Crash Reporter](wor-crash-reporter.jpg)
 
-[@masonremaley][mason-remaley] wrote an article walking through [Way of Rhea's][wor] crash reporter implementation.
+[@masonremaley][mason-remaley] wrote [an article](crash-reporter) walking
+through [Way of Rhea's][wor] crash reporter implementation.
 
-The article covers how to detect a crash, how to report a crash via chat services like Discord or Slack, and how to implement a robust native UI on Windows to handle requesting user consent to file the report, as well as some design considerations.
+The article covers how to detect a crash, how to report a crash via chat
+services like Discord or Slack, and how to implement a robust native UI on
+Windows to handle requesting user consent to file the report, as well as some
+design considerations.
 
 [crash-reporter]: https://www.anthropicstudios.com/2021/03/05/crash-reporter/
 [mason-remaley]: https://twitter.com/masonremaley
