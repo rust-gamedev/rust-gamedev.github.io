@@ -238,9 +238,10 @@ Rafx is a multi-backend renderer that optionally integrates with the
 culling and a new OpenGL ES 2.0/WebGL 1.0 backend.
 
 [@dvd] revived the `rafx-visibility` crate and implemented frustum culling.
-This vastly reduces the draw call count in demo scenes. This also included
-a clean-up of the demo to improve consistency between implementation of the
-various rendering features (i.e. meshes, text etc.)
+Frustum culling greatly reduces draw call counts, improving frame rate
+in certain scenes. The changes also improve consistency between various
+rendering feature implementations (i.e. meshes, text etc.) and avoid running
+the extract-prepare-submit pipeline on entities that are not visible.
 
 [@aclysma] implemented a new OpenGL ES 2.0 backend. By supporting ES2, rafx
 can now be used with almost any mobile device or within any browser ([~98%
