@@ -229,6 +229,20 @@ GUI.
 [KindNES]: https://github.com/henryksloan/kind-nes/releases/tag/v0.9.1-beta
 [@henryksloan]: https://github.com/henryksloan
 
+### [profiling]
+
+[![Screenshot of Optick Profiler](profiling.png)](profiling.png)
+
+This month, version 1.0 of [profiling] was released on crates.io. 🎉 🎉
+
+This crate provides a very thin abstraction over instrumented profiling crates
+like `puffin`, `optick`, `tracing`, `tracy`, and `superluminal-perf`.
+
+Profiling is used by multiple projects including `gfx-hal`, `rafx`, and
+`wgpu`.
+
+[profiling]: https://crates.io/crates/profiling
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
