@@ -142,6 +142,26 @@ projects: [bevy_tiled], [bevy_asset_ron].
 [bevy_kira_audio]: https://github.com/NiklasEi/bevy_kira_audio
 [@rparrett]: https://github.com/rparrett
 
+### [KindNES]
+
+![Super Mario Bros. running in KindNES](kindnes.png)
+
+[KindNES] by [@henryksloan]
+is a new NES emulator that supports sound, controllers, and
+much of the NES library.
+
+KindNES is designed to strike a balance between performance, hardware accuracy,
+and code clarity. It directly emulates the CPU, graphics, and sound of the NES
+with minimal approximation. The code is intended to pair well with the NESdev
+wiki as a resource for learning about the NES.
+
+KindNES is in a playable state, and is approaching a release version.
+Features planned before release include saving and an improved cross-platform
+GUI.
+
+[KindNES]: https://github.com/henryksloan/kind-nes/releases/tag/v0.9.1-beta
+[@henryksloan]: https://github.com/henryksloan
+
 ## Engine Updates
 
 ## Learning Material Updates
