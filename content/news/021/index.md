@@ -62,6 +62,24 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [LD48: Micronaut][micronaut-itch]
+
+[![GIF showing Micronaut's primary level recursion mechanic](micronaut.gif)][micronaut-itch]
+_Micronaut features a deep recursive level layout_
+
+Micronaut is a small puzzle platformer by [@Healthire] made in 48 hours for the
+Ludum Dare 48 Compo. Run and jump your way through a recursive level layout to
+reach the end. Cross platform for native and web, with source available on
+[GitHub][micronaut-github].
+
+_Discussions: [Twitter][micronaut-twitter], [ldjam.com][micronaut-ldjam]_
+
+[@Healthire]: https://twitter.com/healthire
+[micronaut-github]: https://github.com/Healthire/ld48
+[micronaut-itch]: https://healthire.itch.io/micronaut
+[micronaut-twitter]: https://twitter.com/healthire/status/1386468257125830662
+[micronaut-ldjam]: https://ldjam.com/events/ludum-dare/48/micronaut
+
 ### [The Process]
 
 ![Animated image showcasing the test map in The Process](the_process.gif)
@@ -172,6 +190,27 @@ real including some content from Way of Rhea](https://twitter.com/masonremaley/s
 
 ## Engine Updates
 
+### [Tetra]
+
+[Tetra] is a simple 2D game framework, inspired by XNA, Love2D, and Raylib. This
+month, version 0.6.3 was released, featuring:
+
+- BMFont support
+- An `ImageData` type for loading and manipulating images on the CPU
+- More color utilities, including shortcuts for premultiplied alpha
+- Bugfixes and docs improvements
+
+For more details, see the [changelog][tetra-changelog].
+
+Additionally, [Tetra's website][tetra-website] has been updated to make it easier
+to read and contribute to. The site features tutorials, guides and FAQs on how to
+use Tetra effectively, as well as a showcase of cool projects made using the
+framework - additions are welcomed!
+
+[Tetra]: https://github.com/17cupsofcoffee/tetra
+[tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md#063---2021-04-09
+[tetra-website]: https://tetra.seventeencups.net/
+
 ## Learning Material Updates
 
 ### [How To Write a Crash Reporter][crash-reporter]
@@ -191,6 +230,62 @@ design considerations.
 [wor]: https://store.steampowered.com/app/1110620?utm_campaign=tmirgd&utm_source=n21
 
 ## Library & Tooling Updates
+
+### [wgpu]-0.8
+
+![Screenshot of tree rendering](wgpu-tree.png)
+
+[wgpu] is a [WebGPU] implementation in Rust. It is safe, efficient,
+and portable: can target both native (Vulkan/D3D/Metal) and the Web.
+
+The team has rolled out gfx-hal-0.8 and wgpu-0.8 updates on crates!
+Read [gfx-release-blog] for more details.
+
+In April, the team implemented more validation on both the host and the shader
+sides. [Naga]'s coverage of SPIR-V and MSL features is also greately improved.
+
+On the infrastructure side, [wgpu] integrated [profiling] and got the first
+[naga performance] numbers, which looked promising.
+
+[wgpu]: https://github.com/gfx-rs/wgpu
+[naga]: https://github.com/gfx-rs/naga
+[profiling]: https://github.com/aclysma/profiling
+[gfx-release-blog]: https://gfx-rs.github.io/2021/04/30/release-0.8.html
+[naga perf numbers]: https://github.com/gfx-rs/wgpu-rs/discussions/879
+
+### [KindNES]
+
+![Super Mario Bros. running in KindNES](kindnes.png)
+
+[KindNES] by [@henryksloan]
+is a new NES emulator that supports sound, controllers, and
+much of the NES library.
+
+KindNES is designed to strike a balance between performance, hardware accuracy,
+and code clarity. It directly emulates the CPU, graphics, and sound of the NES
+with minimal approximation. The code is intended to pair well with the NESdev
+wiki as a resource for learning about the NES.
+
+KindNES is in a playable state, and is approaching a release version.
+Features planned before release include saving and an improved cross-platform
+GUI.
+
+[KindNES]: https://github.com/henryksloan/kind-nes/releases/tag/v0.9.1-beta
+[@henryksloan]: https://github.com/henryksloan
+
+### [profiling]
+
+[![Screenshot of Optick Profiler](profiling.png)](profiling.png)
+
+This month, version 1.0 of [profiling] was released on crates.io. 🎉 🎉
+
+This crate provides a very thin abstraction over instrumented profiling crates
+like `puffin`, `optick`, `tracing`, `tracy`, and `superluminal-perf`.
+
+Profiling is used by multiple projects including `gfx-hal`, `rafx`, and
+`wgpu`.
+
+[profiling]: https://crates.io/crates/profiling
 
 ## Popular Workgroup Issues in Github
 
