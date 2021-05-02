@@ -142,6 +142,12 @@ projects: [bevy_tiled], [bevy_asset_ron].
 [bevy_kira_audio]: https://github.com/NiklasEi/bevy_kira_audio
 [@rparrett]: https://github.com/rparrett
 
+## Engine Updates
+
+## Learning Material Updates
+
+## Library & Tooling Updates
+
 ### [KindNES]
 
 ![Super Mario Bros. running in KindNES](kindnes.png)
@@ -161,12 +167,6 @@ GUI.
 
 [KindNES]: https://github.com/henryksloan/kind-nes/releases/tag/v0.9.1-beta
 [@henryksloan]: https://github.com/henryksloan
-
-## Engine Updates
-
-## Learning Material Updates
-
-## Library & Tooling Updates
 
 ## Popular Workgroup Issues in Github
 
