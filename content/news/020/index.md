@@ -1143,7 +1143,7 @@ _Voxel Bunny rendering with conservative rasterization_
 [wgpu] is a [WebGPU] implementation in Rust. It is safe, efficient,
 and portable: can target both native (Vulkan/D3D/Metal) and the Web.
 
-Most progress in April was focused around [WGSL] shaders and validation.
+Most progress in March was focused around [WGSL] shaders and validation.
 [naga] has seen a lot of improvements in the SPIR-V and WGSL parsing, as well
 as backend code generation. Most importantly, it now fully validates both
 statements and expressions. No more accidental foot shots from adding vec2
