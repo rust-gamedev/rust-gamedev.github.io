@@ -241,12 +241,13 @@ culling and a new OpenGL ES 2.0/WebGL 1.0 backend.
 [@dvd] revived the `rafx-visibility` crate and implemented frustum culling.
 Frustum culling greatly reduces draw call counts, improving frame rate
 in certain scenes. The changes also improve consistency between various
-rendering feature implementations (i.e. meshes, text etc.) and avoid running
+rendering feature implementations (i.e. meshes, text etc.) and avoids running
 the extract-prepare-submit pipeline on entities that are not visible.
 
-[@aclysma] implemented a new OpenGL ES 2.0 backend. By supporting ES2, rafx
-can now be used with almost any mobile device or within any browser ([~98%
-coverage][rafx-webgl-caniuse].)
+[@aclysma] implemented an OpenGL ES 2.0 backend. While ES2 cannot support all
+funcionality in `rafx-api`, it provides very broad compatibility. This means
+the core functionality of rafx-api can be used with almost any mobile device
+or browser ([~98% web coverage][rafx-webgl-caniuse].)
 
 [rafx]: https://github.com/aclysma/rafx
 [rafx-webgl-demo]: https://aclysma.github.io/rafx/demo-web/index.html
