@@ -69,10 +69,10 @@ _Micronaut features a deep recursive level layout_
 
 Micronaut is a small puzzle platformer by [@Healthire] made in 48 hours for the
 Ludum Dare 48 Compo. Run and jump your way through a recursive level layout to
-reach the end. Cross platform for native and web.
+reach the end. Cross platform for native and web, with source available on
+[GitHub][micronaut-github].
 
-_Discussions: [Twitter][micronaut-twitter] [ldjam][micronaut-ldjam]
-[Github][micronaut-github]_
+_Discussions: [Twitter][micronaut-twitter], [ldjam.com][micronaut-ldjam]_
 
 [@Healthire]: https://twitter.com/healthire
 [micronaut-github]: https://github.com/Healthire/ld48
