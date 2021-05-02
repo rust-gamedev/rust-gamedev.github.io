@@ -62,6 +62,24 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [LD48: Micronaut][micronaut-itch]
+
+[![GIF showing Micronaut's primary level recursion mechanic](micronaut.gif)][micronaut-itch]
+_Micronaut features a deep recursive level layout_
+
+Micronaut is a small puzzle platformer by [@Healthire] made in 48 hours for the
+Ludum Dare 48 Compo. Run and jump your way through a recursive level layout to
+reach the end. Cross platform for native and web.
+
+_Discussions: [Twitter][micronaut-twitter] [ldjam][micronaut-ldjam]
+[Github][micronaut-github]_
+
+[@Healthire]: https://twitter.com/healthire
+[micronaut-github]: https://github.com/Healthire/ld48
+[micronaut-itch]: https://healthire.itch.io/micronaut
+[micronaut-twitter]: https://twitter.com/healthire/status/1386468257125830662
+[micronaut-ldjam]: https://ldjam.com/events/ludum-dare/48/micronaut
+
 ### [The Process]
 
 ![Animated image showcasing the test map in The Process](the_process.gif)
