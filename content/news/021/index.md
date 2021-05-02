@@ -162,6 +162,27 @@ projects: [bevy_tiled], [bevy_asset_ron].
 
 ## Engine Updates
 
+### [Tetra]
+
+[Tetra] is a simple 2D game framework, inspired by XNA, Love2D, and Raylib. This
+month, version 0.6.3 was released, featuring:
+
+- BMFont support
+- An `ImageData` type for loading and manipulating images on the CPU
+- More color utilities, including shortcuts for premultiplied alpha
+- Bugfixes and docs improvements
+
+For more details, see the [changelog][tetra-changelog].
+
+Additionally, [Tetra's website][tetra-website] has been updated to make it easier
+to read and contribute to. The site features tutorials, guides and FAQs on how to
+use Tetra effectively, as well as a showcase of cool projects made using the
+framework - additions are welcomed!
+
+[Tetra]: https://github.com/17cupsofcoffee/tetra
+[tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md#063---2021-04-09
+[tetra-website]: https://tetra.seventeencups.net/
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
