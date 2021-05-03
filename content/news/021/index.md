@@ -176,6 +176,9 @@ art into the game easier
 - Work is wrapping up getting [art into the first snow crab level!][wor-art]
 - [@masonremaley][mason-remaley] wrote up [an article walking through how the
 Way of Rhea crash reporter works][wor-crash-reporter]
+- [@masonremaley][mason-remaley] is mixing signed distance fields, bézier
+curves, and art by [Carolyn Whitmeyer][carolyn-whitmeyer] to create
+[procedural vines][wor-vines]
 - [Carolyn Whitmeyer][carolyn-whitmeyer], the game's artist, released [a demo
 real including some content from Way of Rhea](https://twitter.com/masonremaley/status/1387102693626421254)
 
@@ -186,7 +189,7 @@ real including some content from Way of Rhea](https://twitter.com/masonremaley/s
 [wor-crash-reporter]: https://www.anthropicstudios.com/2021/03/05/crash-reporter/
 [carolyn-whitmeyer]: https://www.instagram.com/cw_visuals_insta/
 [wor-cw-demo-reel]: https://twitter.com/masonremaley/status/1387102693626421254
-[wor-discord]: https://discord.gg/JGeVt5XwPP
+[wor-vines]: https://twitter.com/masonremaley/status/1389070879536173056
 
 ## Engine Updates
 
