@@ -180,7 +180,7 @@ Way of Rhea crash reporter works][wor-crash-reporter]
 curves, and art by [Carolyn Whitmeyer][carolyn-whitmeyer] to create
 [procedural vines][wor-vines]
 - [Carolyn Whitmeyer][carolyn-whitmeyer], the game's artist, released [a demo
-real including some content from Way of Rhea](https://twitter.com/masonremaley/status/1387102693626421254)
+real including some content from Way of Rhea][wor-cw-demo-reel]
 
 [wor]: https://store.steampowered.com/app/1110620?utm_campaign=tmirgd&utm_source=n21
 [wor-art]: https://twitter.com/AnthropicSt/status/1388907046574215172
