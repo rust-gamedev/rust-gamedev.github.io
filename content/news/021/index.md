@@ -176,6 +176,37 @@ four usability study sessions and adjusted the UI accordingly.
 [A/B Street]: https://github.com/a-b-street/abstreet
 [@dabreegster]: https://twitter.com/CarlinoDustin
 
+### [Way of Rhea][wor]
+
+[![Way of Rhea on Steam](wor-ice.jpg)][wor]
+
+[Way of Rhea][wor] is a picturesque puzzle platformer—without the platforming.
+Solve mind bending color puzzles, unlock new areas of a vibrant hub world, and
+talk to NPCs to unravel the mysteries of a world you left behind!
+
+Way of Rhea is being produced by [@masonremaley][mason-remaley]. Latest Way of
+Rhea developments:
+
+- A [hierarchy tree view][wor-hierarchy] was added to the editor to make getting
+  art into the game easier.
+- Work is wrapping up getting [art into the first snow crab level!][wor-art]
+- [@masonremaley][mason-remaley] wrote up [an article walking through how the
+  Way of Rhea crash reporter works][wor-crash-reporter].
+- [@masonremaley][mason-remaley] is mixing signed distance fields, bézier
+  curves, and art by [Carolyn Whitmeyer][carolyn-whitmeyer] to create
+  [procedural vines][wor-vines].
+- [Carolyn Whitmeyer][carolyn-whitmeyer], the game's artist, released [a demo
+  real including some content from Way of Rhea][wor-cw-demo-reel].
+
+[wor]: https://store.steampowered.com/app/1110620?utm_campaign=tmirgd&utm_source=n21
+[wor-art]: https://twitter.com/AnthropicSt/status/1388907046574215172
+[wor-hierarchy]: https://twitter.com/AnthropicSt/status/1387947007508160517
+[mason-remaley]: https://twitter.com/masonremaley
+[wor-crash-reporter]: https://www.anthropicstudios.com/2021/03/05/crash-reporter/
+[carolyn-whitmeyer]: https://www.instagram.com/cw_visuals_insta/
+[wor-cw-demo-reel]: https://twitter.com/masonremaley/status/1387102693626421254
+[wor-vines]: https://twitter.com/masonremaley/status/1389070879536173056
+
 ## Engine Updates
 
 ### [Tetra]
@@ -200,6 +231,22 @@ framework - additions are welcomed!
 [tetra-website]: https://tetra.seventeencups.net/
 
 ## Learning Material Updates
+
+### [How To Write a Crash Reporter][crash-reporter]
+
+![How To Write a Crash Reporter](wor-crash-reporter.jpg)
+
+[@masonremaley][mason-remaley] wrote [an article](crash-reporter) walking
+through [Way of Rhea's][wor] crash reporter implementation.
+
+The article covers how to detect a crash, how to report a crash via chat
+services like Discord or Slack, and how to implement a robust native UI on
+Windows to handle requesting user consent to file the report, as well as some
+design considerations.
+
+[crash-reporter]: https://www.anthropicstudios.com/2021/03/05/crash-reporter/
+[mason-remaley]: https://twitter.com/masonremaley
+[wor]: https://store.steampowered.com/app/1110620?utm_campaign=tmirgd&utm_source=n21
 
 ## Library & Tooling Updates
 
