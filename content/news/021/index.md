@@ -172,15 +172,15 @@ Way of Rhea is being produced by [@masonremaley][mason-remaley]. Latest Way of
 Rhea developments:
 
 - A [hierarchy tree view][wor-hierarchy] was added to the editor to make getting
-  art into the game easier
+  art into the game easier.
 - Work is wrapping up getting [art into the first snow crab level!][wor-art]
 - [@masonremaley][mason-remaley] wrote up [an article walking through how the
-  Way of Rhea crash reporter works][wor-crash-reporter]
+  Way of Rhea crash reporter works][wor-crash-reporter].
 - [@masonremaley][mason-remaley] is mixing signed distance fields, bézier
   curves, and art by [Carolyn Whitmeyer][carolyn-whitmeyer] to create
-  [procedural vines][wor-vines]
+  [procedural vines][wor-vines].
 - [Carolyn Whitmeyer][carolyn-whitmeyer], the game's artist, released [a demo
-  real including some content from Way of Rhea][wor-cw-demo-reel]
+  real including some content from Way of Rhea][wor-cw-demo-reel].
 
 [wor]: https://store.steampowered.com/app/1110620?utm_campaign=tmirgd&utm_source=n21
 [wor-art]: https://twitter.com/AnthropicSt/status/1388907046574215172
