@@ -237,9 +237,11 @@ framework - additions are welcomed!
 [![Rust LA talk screenshot](rust-la.png)][rust-la]
 _Click on the image to watch the talk_
 
-As part of April's Rust LA meetup, [Andrea Pessino][rad-andrea] gave
-a talk on how [Ready at Dawn][rad] uses Rust effectively
-to build games.
+As part of April's Rust LA meetup, [Andrea Pessino][rad-andrea] from
+[Ready at Dawn][rad] gave a talk examining how to increase Rust adoption
+among game developers and performance-centric developers, giving
+practical, actionable advice to those who hit early bumps in their
+Rust discovery.
 
 [rust-la]: https://www.youtube.com/watch?v=TJ3w-pZ7FMI
 [rad-andrea]: https://twitter.com/AndreaPessino
