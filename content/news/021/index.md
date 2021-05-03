@@ -327,11 +327,13 @@ assert_eq!(executor.step(), false);
 ```
 
 [simple-async-local-executor] by [Enlightware]
-is a single-threaded polling-based executor suitable for use in games, embedded systems or WASM.
+is a single-threaded polling-based executor suitable for use in games, embedded
+systems or WASM.
 
-This executor can be useful when the number of tasks is small or if a small percentage is blocked.
-Being polling-based, in the general case it trades off efficiency for simplicity and
-does not require any concurrency primitives such as `Arc`, etc.
+This executor can be useful when the number of tasks is small or
+if a small percentage is blocked. Being polling-based, in the general
+case it trades off efficiency for simplicity and does not require any
+concurrency primitives such as `Arc`, etc.
 
 [simple-async-local-executor]: https://github.com/enlightware/simple-async-local-executor
 [Enlightware]: https://enlightware.ch
