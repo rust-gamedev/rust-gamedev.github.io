@@ -333,6 +333,38 @@ Profiling is used by multiple projects including `gfx-hal`, `rafx`, and
 
 [profiling]: https://crates.io/crates/profiling
 
+### [simple-async-local-executor]
+
+```rust
+let executor = Executor::default();
+let events = [executor.create_event_handle(), executor.create_event_handle()];
+
+async fn wait_event(events: [EventHandle; 2], executor: Executor) {
+    executor.event(&events[0]).await;
+    executor.event(&events[1]).await;
+}
+
+executor.spawn(wait_event(events.clone(), executor.clone()));
+assert_eq!(executor.step(), true);
+assert_eq!(executor.step(), true);
+executor.notify_event(&events[0]);
+assert_eq!(executor.step(), true);
+executor.notify_event(&events[1]);
+assert_eq!(executor.step(), false);
+```
+
+[simple-async-local-executor] by [Enlightware]
+is a single-threaded polling-based executor suitable for use in games, embedded
+systems or WASM.
+
+This executor can be useful when the number of tasks is small or
+if a small percentage is blocked. Being polling-based, in the general
+case it trades off efficiency for simplicity and does not require any
+concurrency primitives such as `Arc`, etc.
+
+[simple-async-local-executor]: https://github.com/enlightware/simple-async-local-executor
+[Enlightware]: https://enlightware.ch
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
