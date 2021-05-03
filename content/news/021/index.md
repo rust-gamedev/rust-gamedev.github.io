@@ -160,6 +160,22 @@ projects: [bevy_tiled], [bevy_asset_ron].
 [bevy_kira_audio]: https://github.com/NiklasEi/bevy_kira_audio
 [@rparrett]: https://github.com/rparrett
 
+### [A/B Street]
+
+![Consolidated intersections in A/B Street](abstreet.png)
+
+[A/B Street] by [@dabreegster] is a traffic simulation game exploring how small
+changes to roads affect cyclists, transit users, pedestrians, and drivers, with
+support for any city with OpenStreetMap coverage.
+
+In April, a new road editor was prototyped, letting the number and width of
+lanes be changed. Initial installation and downloading new maps is now simpler.
+Slowly, complex intersections are being handled better. The team also completed
+four usability study sessions and adjusted the UI accordingly.
+
+[A/B Street]: https://github.com/a-b-street/abstreet
+[@dabreegster]: https://twitter.com/CarlinoDustin
+
 ## Engine Updates
 
 ### [Tetra]
