@@ -292,6 +292,33 @@ GUI.
 [KindNES]: https://github.com/henryksloan/kind-nes/releases/tag/v0.9.1-beta
 [@henryksloan]: https://github.com/henryksloan
 
+### [rafx]
+
+[![Rafx WebGL 1.0 Demo](rafx-webgl1-demo.png)][rafx-webgl-demo]
+_Rafx WebGL 1.0 support, [click for live demo][rafx-webgl-demo]!_
+
+Rafx is a multi-backend renderer that optionally integrates with the
+[distill][rafx-distill] asset pipeline. This month, frustum culling
+and a new OpenGL ES 2.0/WebGL 1.0 backend were added.
+
+[@dvd] revived the `rafx-visibility` crate and implemented frustum culling.
+Frustum culling greatly reduces draw call counts, improving frame rate
+in certain scenes. The changes also improve consistency between various
+rendering feature implementations (i.e. meshes, text etc.) and avoids running
+the extract-prepare-submit pipeline on entities that are not visible.
+
+[@aclysma] implemented an OpenGL ES 2.0 backend. While ES2 cannot support all
+funcionality in `rafx-api`, it provides very broad compatibility. This means
+the core functionality of rafx-api can be used with almost any mobile device
+or browser ([~98% web coverage][rafx-webgl-caniuse].)
+
+[rafx]: https://github.com/aclysma/rafx
+[rafx-webgl-demo]: https://aclysma.github.io/rafx/demo-web/index.html
+[rafx-distill]: https://github.com/amethyst/distill
+[rafx-webgl-caniuse]: https://caniuse.com/?search=webgl
+[@aclysma]: https://github.com/aclysma
+[@dvd]: https://github.com/DavidVonDerau
+
 ### [profiling]
 
 [![Screenshot of Optick Profiler](profiling.png)](profiling.png)
