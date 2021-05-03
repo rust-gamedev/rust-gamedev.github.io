@@ -232,6 +232,21 @@ framework - additions are welcomed!
 
 ## Learning Material Updates
 
+### [Rust LA Meetup: Happiness in Rust][rust-la]
+
+[![Rust LA talk screenshot](rust-la.png)][rust-la]
+_Click on the image to watch the talk_
+
+As part of April's Rust LA meetup, [Andrea Pessino][rad-andrea] from
+[Ready at Dawn][rad] gave a talk examining how to increase Rust adoption
+among game developers and performance-centric developers, giving
+practical, actionable advice to those who hit early bumps in their
+Rust discovery.
+
+[rust-la]: https://www.youtube.com/watch?v=TJ3w-pZ7FMI
+[rad-andrea]: https://twitter.com/AndreaPessino
+[rad]: http://www.readyatdawn.com/
+
 ### [How To Write a Crash Reporter][crash-reporter]
 
 ![How To Write a Crash Reporter](wor-crash-reporter.jpg)
