@@ -220,8 +220,8 @@ enjoys rolling in straight lines. Explore a whimsical nature where
 altering the environment is key to progress, and solve puzzles to protect
 its wonders.
 
-In April, Utopixel released the first playable demo of Outer Wonders
-for Windows and Linux on [itch.io]! In order to achieve this, the Utopixel
+In April, [Utopixel] released the first playable demo of [Outer Wonders]
+for Windows and Linux on [itch.io]! In order to achieve this, the [Utopixel]
 team:
 
 - Added a cutscene and a tutorial level at the beginning of the demo campaign.
