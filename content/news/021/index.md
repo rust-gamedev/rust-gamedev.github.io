@@ -60,6 +60,26 @@ _Discussions:
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
+## Rust GameDev Meetup
+
+![Gamedev meetup poster](gamedev-meetup.png)
+
+The fourth Rust Gamedev Meetup happened in April. It was an opportunity for
+developers to show off what Rust projects they've been working on in the game
+ecosystem. This month, we heard a talk about threading in WASM, profiling,
+getting a game ready for release, and much more. You can watch the recording of
+the meetup [here on Youtube][gamedev-meetup-video].
+
+The next meetup will take place on the 8th of May at 16:00 GMT on the [Rust
+Gamedev Discord server][rust-gamedev-discord], and can also be [streamed on
+Twitch][rust-gamedev-twitch]. If you would like to show off what you've been
+working on, fill out [this form][gamedev-meetup-form].
+
+[gamedev-meetup-form]: https://forms.gle/BS1zCyZaiUFSUHxe6
+[gamedev-meetup-video]: https://www.youtube.com/watch?v=XE0lH0tlbBs
+[rust-gamedev-discord]: https://discord.gg/yNtPTb2
+[rust-gamedev-twitch]: https://twitch.tv/rustgamedevmeetup
+
 ## Game Updates
 
 ### [LD48: Micronaut][micronaut-itch]
