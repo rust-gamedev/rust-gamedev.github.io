@@ -100,6 +100,29 @@ _Discussions: [Twitter][micronaut-twitter], [ldjam.com][micronaut-ldjam]_
 [micronaut-twitter]: https://twitter.com/healthire/status/1386468257125830662
 [micronaut-ldjam]: https://ldjam.com/events/ludum-dare/48/micronaut
 
+### [Fish game]
+
+![Fish game](fishgame.gif)
+
+[Fish game] is an online multiplayer game,
+created in a collaboration between [Nakama][nakama], an open-source scalable
+game server, and the [Macroquad][macroquad] game engine.
+
+This month:
+
+- [Fish game tutorial] got published.  
+The tutorial breaks down the game codebase into steps, from setting
+up an empty macroquad project into building a platformer game. And
+than turn it into a multiplayer game with Nakama.
+
+- [Web build][fishgame-itch] got live on itch.io
+
+[Fish game]: https://github.com/heroiclabs/fishgame-macroquad
+[fishgame-itch]: https://fedorgames.itch.io/fish-game
+[nakama]: https://heroiclabs.com/
+[macroquad]: https://github.com/not-fl3/macroquad
+[Fish game tutorial]: https://heroiclabs.com/blog/tutorials/rust-fishgame/
+
 ### [The Process]
 
 ![Animated image showcasing the test map in The Process](the_process.gif)
