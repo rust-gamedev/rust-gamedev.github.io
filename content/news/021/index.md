@@ -60,6 +60,26 @@ _Discussions:
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
+## Rust GameDev Meetup
+
+![Gamedev meetup poster](gamedev-meetup.png)
+
+The fourth Rust Gamedev Meetup happened in April. It was an opportunity for
+developers to show off what Rust projects they've been working on in the game
+ecosystem. This month, we heard a talk about threading in WASM, profiling,
+getting a game ready for release, and much more. You can watch the recording of
+the meetup [here on Youtube][gamedev-meetup-video].
+
+The next meetup will take place on the 8th of May at 16:00 GMT on the [Rust
+Gamedev Discord server][rust-gamedev-discord], and can also be [streamed on
+Twitch][rust-gamedev-twitch]. If you would like to show off what you've been
+working on, fill out [this form][gamedev-meetup-form].
+
+[gamedev-meetup-form]: https://forms.gle/BS1zCyZaiUFSUHxe6
+[gamedev-meetup-video]: https://www.youtube.com/watch?v=XE0lH0tlbBs
+[rust-gamedev-discord]: https://discord.gg/yNtPTb2
+[rust-gamedev-twitch]: https://twitch.tv/rustgamedevmeetup
+
 ## Game Updates
 
 ### [LD48: Micronaut][micronaut-itch]
@@ -234,6 +254,40 @@ April's full weekly devlogs: "This Week In Veloren...":
 
 [veloren]: https://veloren.net
 
+### [Outer Wonders]
+
+![Animation showing Bibi, the main protagonist of Outer Wonders,
+jumping from a treetop through a hole, rolling from obstacle to obstacle
+at the bottom of the tree, and then leaning on a coiled snake to jump back
+up to the other side of the treetop and continue its way](outer-wonders.gif)
+
+[Outer Wonders] is a colorful, pixel art, puzzle-based adventure game
+developed by [Utopixel] where you play as Bibi, a cute round monkey who
+enjoys rolling in straight lines. Explore a whimsical nature where
+altering the environment is key to progress, and solve puzzles to protect
+its wonders.
+
+In April, [Utopixel] released the first playable demo of [Outer Wonders]
+for Windows and Linux on [itch.io]! In order to achieve this, the [Utopixel]
+team:
+
+- Added a cutscene and a tutorial level at the beginning of the demo campaign.
+- Integrated sound effects for interaction with the environment and the UI.
+- Finished implementing full support for Linux on [itch.io] through a portable
+  build of the game.
+- Polished the menus by adding a "_Press any key to continue_" prompt on game
+  startup, as well as a confirmation prompt for all quit buttons.
+- Tested the demo thoroughly on both Windows and Linux to fix all bugs
+  and level design issues.
+
+_Discussions:
+[/r/rust](https://www.reddit.com/mx3enm),
+[Twitter](https://twitter.com/utopixel/status/1385632054021345289)_
+
+[Outer Wonders]: https://utopixel.itch.io/outer-wonders
+[Utopixel]: https://utopixel.games
+[itch.io]: https://utopixel.itch.io/outer-wonders
+
 ## Engine Updates
 
 ### [Tetra]
@@ -256,6 +310,29 @@ framework - additions are welcomed!
 [Tetra]: https://github.com/17cupsofcoffee/tetra
 [tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md#063---2021-04-09
 [tetra-website]: https://tetra.seventeencups.net/
+
+### [Oxygengine v0.19.1][oxygengine-git]
+
+![Oxygengine UI splash screen](oxygengine-ui-splash-screen.gif)
+_Making splash screens in Oxygengine with RAUI_
+
+[Oxygengine][oxygengine-git] by [@PsichiX][psichix-twitter] is the hottest
+HTML5 + WASM game engine for games written in Rust with web-sys.
+The goal of this project is to combine professional game development tools under
+one highly modular toolset.
+
+This month's changes include:
+
+- Fixed bugs with rendering images on Firefox browser.
+- Added support for filters.
+- Updated [RAUI][raui-git] dependency to improve UI.
+- Added support for image smoothing render command.
+- Added [puzzle game demo WIP][oxygengine-puzzle-demo] that shows how to use RAUI
+  to make for example fancy splash screens with RAUI.
+
+[psichix-twitter]: https://twitter.com/psichix
+[oxygengine-git]: https://github.com/PsichiX/Oxygengine
+[oxygengine-puzzle-demo]: https://github.com/PsichiX/Oxygengine/tree/master/demos/soulhunter
 
 ## Learning Material Updates
 
@@ -360,6 +437,27 @@ or browser ([~98% web coverage][rafx-webgl-caniuse].)
 [rafx-webgl-caniuse]: https://caniuse.com/?search=webgl
 [@aclysma]: https://github.com/aclysma
 [@dvd]: https://github.com/DavidVonDerau
+
+### [RAUI v0.34.0][raui-git]
+
+![RAUI Scroll Box](raui-scroll-box.gif)
+_RAUI Scroll Box_
+
+[RAUI][raui-git] by [@PsichiX][psichix-twitter] is a Renderer Agnostic User
+Interface crate that is based on declarative mode UI composition similar to
+React.js and UE4 Slate system.
+
+This month's changes include:
+
+- Moved from `widget_hooks!` and `widget_component!` to `#[pre_hooks]`and
+  `#[post_hooks]` macros.
+- Added `PropsData` and `MessageData` derive macros.
+- Improved support for Scroll Box widgets to allow frictionless usage.
+- Added use of Scroll Box in [TODO demo app][raui-todo-app] to demonstrate how
+  to use it.
+
+[raui-git]: https://github.com/PsichiX/raui
+[raui-todo-app]: https://github.com/PsichiX/raui/tree/master/demos/todo-app
 
 ### [profiling]
 
