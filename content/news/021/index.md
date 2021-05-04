@@ -240,6 +240,8 @@ HTML5 + WASM game engine for games written in Rust with web-sys.
 The goal of this project is to combine professional game development tools under
 one highly modular toolset.
 
+This month's changes include:
+
 - Fixed bugs with rendering images on Firefox browser.
 - Added support for filters.
 - Updated [RAUI][raui-git] dependency to improve UI.
