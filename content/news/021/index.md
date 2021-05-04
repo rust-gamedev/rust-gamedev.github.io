@@ -380,6 +380,24 @@ concurrency primitives such as `Arc`, etc.
 [simple-async-local-executor]: https://github.com/enlightware/simple-async-local-executor
 [Enlightware]: https://enlightware.ch
 
+### [bevy_egui]
+
+[![bevy_egui multiple windows support GIF](egui.gif)][bevy_egui]
+
+[bevy_egui] provides an [Egui](https://github.com/emilk/egui) integration
+for the [Bevy](https://github.com/bevyengine/bevy) game engine.
+It supports [bevy_webgl2] and implements the full set of Egui features
+(such as clipboard and opening URLs).
+
+In April, [version 0.4] was released, providing an integration with
+Egui 0.11 and implementing multiple windows support.
+
+Try out the [online demo](https://mvlabat.github.io/bevy_egui_web_showcase/index.html).
+
+[bevy_egui]: https://github.com/mvlabat/bevy_egui
+[bevy_webgl2]: https://github.com/mrk-its/bevy_webgl2
+[version 0.4]: https://github.com/mvlabat/bevy_egui/blob/main/CHANGELOG.md
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
