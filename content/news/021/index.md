@@ -227,6 +227,33 @@ Rhea developments:
 [wor-cw-demo-reel]: https://twitter.com/masonremaley/status/1387102693626421254
 [wor-vines]: https://twitter.com/masonremaley/status/1389070879536173056
 
+### [Veloren][veloren]
+
+![Airship](veloren.jpg)
+_A mist rolling over the land_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In April, work started on 0.10. Work is being done on combat, with new models
+being created for enemies, animations being refined, and new player gear being
+added. The trading and economic systems have continued progress at a good pace.
+The music system was expanded to support combat music.
+
+Veloren's financial state was overhauled to examine previous expenses, and
+prepare for provisioning the dedicated server. Functionality was added to switch
+between server-authoratative and client-authoratative physics. Skeletons for
+big-winged creatures were added. Data being sent over the network is being
+optimized to reduce the amount of bandwidth players have to use.
+
+April's full weekly devlogs: "This Week In Veloren...":
+[#114](https://veloren.net/devblog-114),
+[#115](https://veloren.net/devblog-115),
+[#116](https://veloren.net/devblog-116).
+[#117](https://veloren.net/devblog-117).
+
+[veloren]: https://veloren.net
+
 ### [Outer Wonders]
 
 ![Animation showing Bibi, the main protagonist of Outer Wonders,
