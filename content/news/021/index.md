@@ -366,6 +366,8 @@ _RAUI Scroll Box_
 Interface crate that is based on declarative mode UI composition similar to
 React.js and UE4 Slate system.
 
+This month's changes include:
+
 - Moved from `widget_hooks!` and `widget_component!` to `#[pre_hooks]`and
   `#[post_hooks]` macros.
 - Added `PropsData` and `MessageData` derive macros.
