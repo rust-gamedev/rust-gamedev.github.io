@@ -383,9 +383,10 @@ In April, the team implemented more validation on both the host and the shader
 sides. [Naga]'s coverage of SPIR-V and MSL features is also greately improved.
 
 On the infrastructure side, [wgpu] integrated [profiling] and got the first
-[naga performance] numbers, which looked promising.
+[naga performance][naga perf numbers] numbers, which looked promising.
 
 [wgpu]: https://github.com/gfx-rs/wgpu
+[webgpu]: https://gpuweb.github.io/gpuweb/
 [naga]: https://github.com/gfx-rs/naga
 [profiling]: https://github.com/aclysma/profiling
 [gfx-release-blog]: https://gfx-rs.github.io/2021/04/30/release-0.8.html
