@@ -528,7 +528,7 @@ Try out the [online demo](https://mvlabat.github.io/bevy_egui_web_showcase/index
 ![Screenshot of Pong with debugger](chip-8-rs.jpg)
 _Debugging Pong_
 
-Chip-8-rs (https://github.com/JonathanMurray/chip-8-rs) by @jonathanmurray is
+[Chip-8-rs][chip-8-rs] by @jonathanmurray is
 a _CHIP-8_ emulator with some basic debugging functionality.
 
 When running a game through the emulator, CHIP-8 instructions are listed
@@ -538,6 +538,8 @@ through a program one instruction at a time, to better understand how it
 works (or doesn't work!).
 
 See it in action here: https://youtu.be/nVDJ5PZpPfI?t=72
+
+[chip-8-rs]: https://github.com/JonathanMurray/chip-8-rs
 
 ## Popular Workgroup Issues in Github
 
