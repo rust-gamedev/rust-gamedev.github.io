@@ -537,9 +537,10 @@ running at a very low clock-frequency (and pausing/resuming) you can step
 through a program one instruction at a time, to better understand how it
 works (or doesn't work!).
 
-See it in action here: https://youtu.be/nVDJ5PZpPfI?t=72
+See it in action on [YouTube][chip-8-rs-video].
 
 [chip-8-rs]: https://github.com/JonathanMurray/chip-8-rs
+[chip-8-rs-video]: https://youtu.be/nVDJ5PZpPfI?t=72
 
 ## Popular Workgroup Issues in Github
 
