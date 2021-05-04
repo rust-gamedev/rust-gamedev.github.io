@@ -207,6 +207,40 @@ Rhea developments:
 [wor-cw-demo-reel]: https://twitter.com/masonremaley/status/1387102693626421254
 [wor-vines]: https://twitter.com/masonremaley/status/1389070879536173056
 
+### [Outer Wonders]
+
+![Animation showing Bibi, the main protagonist of Outer Wonders,
+jumping from a treetop through a hole, rolling from obstacle to obstacle
+at the bottom of the tree, and then leaning on a coiled snake to jump back
+up to the other side of the treetop and continue its way](outer-wonders.gif)
+
+[Outer Wonders] is a colorful, pixel art, puzzle-based adventure game
+developed by [Utopixel] where you play as Bibi, a cute round monkey who
+enjoys rolling in straight lines. Explore a whimsical nature where
+altering the environment is key to progress, and solve puzzles to protect
+its wonders.
+
+In April, Utopixel released the first playable demo of Outer Wonders
+for Windows and Linux on [itch.io]! In order to achieve this, the Utopixel
+team:
+
+- Added a cutscene and a tutorial level at the beginning of the demo campaign.
+- Integrated sound effects for interaction with the environment and the UI.
+- Finished implementing full support for Linux on [itch.io] through a portable
+  build of the game.
+- Polished the menus by adding a "_Press any key to continue_" prompt on game
+  startup, as well as a confirmation prompt for all quit buttons.
+- Tested the demo thoroughly on both Windows and Linux to fix all bugs
+  and level design issues.
+
+_Discussions:
+[/r/rust](https://www.reddit.com/mx3enm),
+[Twitter](https://twitter.com/utopixel/status/1385632054021345289)_
+
+[Outer Wonders]: https://utopixel.itch.io/outer-wonders
+[Utopixel]: https://utopixel.games
+[itch.io]: https://utopixel.itch.io/outer-wonders
+
 ## Engine Updates
 
 ### [Tetra]
