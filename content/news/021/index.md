@@ -230,6 +230,29 @@ framework - additions are welcomed!
 [tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md#063---2021-04-09
 [tetra-website]: https://tetra.seventeencups.net/
 
+### [Oxygengine v0.19.1][oxygengine-git]
+
+![Oxygengine UI splash screen](oxygengine-ui-splash-screen.gif)
+_Making splash screens in Oxygengine with RAUI_
+
+[Oxygengine][oxygengine-git] by [@PsichiX][psichix-twitter] is the hottest
+HTML5 + WASM game engine for games written in Rust with web-sys.
+The goal of this project is to combine professional game development tools under
+one highly modular toolset.
+
+This month's changes include:
+
+- Fixed bugs with rendering images on Firefox browser.
+- Added support for filters.
+- Updated [RAUI][raui-git] dependency to improve UI.
+- Added support for image smoothing render command.
+- Added [puzzle game demo WIP][oxygengine-puzzle-demo] that shows how to use RAUI
+  to make for example fancy splash screens with RAUI.
+
+[psichix-twitter]: https://twitter.com/psichix
+[oxygengine-git]: https://github.com/PsichiX/Oxygengine
+[oxygengine-puzzle-demo]: https://github.com/PsichiX/Oxygengine/tree/master/demos/soulhunter
+
 ## Learning Material Updates
 
 ### [Rust LA Meetup: Happiness in Rust][rust-la]
@@ -333,6 +356,27 @@ or browser ([~98% web coverage][rafx-webgl-caniuse].)
 [rafx-webgl-caniuse]: https://caniuse.com/?search=webgl
 [@aclysma]: https://github.com/aclysma
 [@dvd]: https://github.com/DavidVonDerau
+
+### [RAUI v0.34.0][raui-git]
+
+![RAUI Scroll Box](raui-scroll-box.gif)
+_RAUI Scroll Box_
+
+[RAUI][raui-git] by [@PsichiX][psichix-twitter] is a Renderer Agnostic User
+Interface crate that is based on declarative mode UI composition similar to
+React.js and UE4 Slate system.
+
+This month's changes include:
+
+- Moved from `widget_hooks!` and `widget_component!` to `#[pre_hooks]`and
+  `#[post_hooks]` macros.
+- Added `PropsData` and `MessageData` derive macros.
+- Improved support for Scroll Box widgets to allow frictionless usage.
+- Added use of Scroll Box in [TODO demo app][raui-todo-app] to demonstrate how
+  to use it.
+
+[raui-git]: https://github.com/PsichiX/raui
+[raui-todo-app]: https://github.com/PsichiX/raui/tree/master/demos/todo-app
 
 ### [profiling]
 
