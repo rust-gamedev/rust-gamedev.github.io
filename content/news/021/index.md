@@ -112,10 +112,10 @@ This month:
 
 - [Fish game tutorial] got published.  
 The tutorial breaks down the game codebase into steps, from setting
-up an empty macroquad project into building a platformer game. And
-than turn it into a multiplayer game with Nakama.
+up an empty macroquad project into building a platformer game, and
+then turning it into a multiplayer game with Nakama.
 
-- [Web build][fishgame-itch] got live on itch.io
+- [Web build][fishgame-itch] went live on itch.io
 
 [Fish game]: https://github.com/heroiclabs/fishgame-macroquad
 [fishgame-itch]: https://fedorgames.itch.io/fish-game
