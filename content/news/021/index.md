@@ -601,6 +601,26 @@ See it in action on [YouTube][chip-8-rs-video].
 [chip-8-rs]: https://github.com/JonathanMurray/chip-8-rs
 [chip-8-rs-video]: https://youtu.be/nVDJ5PZpPfI?t=72
 
+### [wasm_plugin]
+
+[wasm_plugin][wasm_plugin] by @alec-deason is a
+low-ish level tool for easily hosting WASM based plugins for modding or scripting.
+
+The latest version now supports calling host functions from the plugin and more
+flexible serialization which allows plugins to be written in languages other
+than Rust.
+
+It consists of two crates:
+
+- [wasm_plugin_host] which wraps a wasmer instance with methods for calling
+  functions on the guest plugin.
+- [wasm_plugin_guest] which provides an attribute macro to easily import and
+- export functions to the host.
+
+[wasm_plugin]: https://github.com/alec-deason/wasm_plugin
+[wasm_plugin_host]: https://lib.rs/crates/wasm_plugin_host
+[wasm_plugin_guest]: https://lib.rs/crates/wasm_plugin_guest
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
