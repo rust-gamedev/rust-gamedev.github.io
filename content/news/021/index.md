@@ -290,6 +290,21 @@ _Discussions:
 
 ## Engine Updates
 
+### [macroquad]
+
+[![macroquad](macroquad.png)][macroquad.rs]
+
+[macroquad] is a cross-platform (Windows/Linux/macOS/Android/iOS/WASM) game
+framework built on top of [miniquad].  
+
+This month macroquad finally got out of alpha and `0.3` got released!  
+All the examples with both sources and interactive wasm versions may
+be found on [the new macroquad website][macroquad.rs].  
+
+[miniquad]: https://github.com/not-fl3/miniquad
+[macroquad]: https://github.com/not-fl3/macroquad
+[macroquad.rs]: https://macroquad.rs
+
 ### [Tetra]
 
 [Tetra] is a simple 2D game framework, inspired by XNA, Love2D, and Raylib. This
