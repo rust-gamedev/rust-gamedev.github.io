@@ -581,7 +581,6 @@ See it in action on [YouTube][chip-8-rs-video].
 [chip-8-rs]: https://github.com/JonathanMurray/chip-8-rs
 [chip-8-rs-video]: https://youtu.be/nVDJ5PZpPfI?t=72
 
-
 ### [wasm_plugin]
 
 [wasm_plugin][wasm_plugin] by @alec-deason is
