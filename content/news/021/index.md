@@ -583,7 +583,7 @@ See it in action on [YouTube][chip-8-rs-video].
 
 ### [wasm_plugin]
 
-[wasm_plugin][wasm_plugin] by @alec-deason is
+[wasm_plugin][wasm_plugin] by @alec-deason is a
 low-ish level tool for easily hosting WASM based plugins for modding or scripting.
 
 The latest version now supports calling host functions from the plugin and more
