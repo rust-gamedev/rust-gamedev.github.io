@@ -311,6 +311,26 @@ _Discussions:
 [Utopixel]: https://utopixel.games
 [itch.io]: https://utopixel.itch.io/outer-wonders
 
+### [Theta Wave]
+
+[![Enemy Formations](theta-wave.gif)][Theta Wave]
+_Mobs may now be spawned in predefined formations_
+
+[Theta Wave] is an open-source space shooter game by developers [@micah_tigley] and
+[@carlosupina]. It is one of the showcase games for the [Amethyst Engine]. In
+the past month, the ["Formations"] update was released which organized how mobs
+are spawned in different phases of the level.
+
+They are now working on the ["Loot"] update which will enhance how loot drops
+are rolled, spawned, and how their effects are applied to the game.
+
+[Theta Wave]: https://github.com/amethyst/theta-wave
+[@micah_tigley]: https://twitter.com/micah_tigley
+[@carlosupina]: https://twitter.com/carlosupina
+[Amethyst Engine]: https://amethyst.rs/
+["Formations"]: https://github.com/amethyst/theta-wave/releases/tag/v0.1.5
+["Loot"]: https://github.com/amethyst/theta-wave/projects/4
+
 ## Engine Updates
 
 ### [macroquad]
