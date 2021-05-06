@@ -331,6 +331,18 @@ are rolled, spawned, and how their effects are applied to the game.
 ["Formations"]: https://github.com/amethyst/theta-wave/releases/tag/v0.1.5
 ["Loot"]: https://github.com/amethyst/theta-wave/projects/4
 
+### Project YAWC
+
+![A demonstration of the Project YAWC map editor](project_yawc_map_edotpr.png)
+
+Project YAWC is a turn-based strategy game built in GGEZ, being developed by junkmail.
+
+April saw the release of Alpha 5, including the integrated map editor, alongside balance changes and unit additions.
+
+_Discussions:
+[Twitter](https://twitter.com/ProjectYawc)
+[Alpha Access Request Form](https://forms.gle/w22ohPGNk58fo9bv6)
+
 ## Engine Updates
 
 ### [macroquad]
