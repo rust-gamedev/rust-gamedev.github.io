@@ -649,6 +649,33 @@ It consists of two crates:
 [wasm_plugin_host]: https://lib.rs/crates/wasm_plugin_host
 [wasm_plugin_guest]: https://lib.rs/crates/wasm_plugin_guest
 
+### [nalgebra]
+
+![nalgebra](https://www.nalgebra.org/img/logo_nalgebra.svg)
+
+[nalgebra] ([GitHub], [Discord]) by [Dimforge] is a general-purpose
+linear-algebra library.
+
+With its version 0.26, [nalgebra] replaced the use of [generic-arrays] by
+regular Rust arrays using const-generics. See the [blog-post] to get all
+the details! In particular, this results in significant benefits:
+
+- Simpler generic programming with statically-sized vectors/matrices.
+- Much simpler debugging: inspect the content of vectors/matrices more easily.
+- Vectors and matrices with dimensions known at compile-time can be
+  constructed in a const-fn context.
+
+_Discussions: [/r/rust], [Twitter]_
+
+[nalgebra]: http://nalgebra.org
+[GitHub]: http://github.com/dimforge/nalgebra
+[Discord]: http://discord.gg/vt9DJSW
+[Dimforge]: http://dimforge.com
+[generic-arrays]: https://docs.rs/generic-array/0.14.4/generic_array/
+[blog-post]: https://www.dimforge.com/blog/2021/04/12/integrating-const-generics-to-nalgebra/
+[/r/rust]: https://www.reddit.com/r/rust/comments/mph8jr/integrating_constgenerics_to_nalgebra_026/
+[Twitter]: https://twitter.com/dimforge/status/1381643543626842114
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
