@@ -123,6 +123,20 @@ This month:
 [macroquad]: https://github.com/not-fl3/macroquad
 [Fish game tutorial]: https://heroiclabs.com/blog/tutorials/rust-fishgame/
 
+### Project YAWC
+
+![A demonstration of the Project YAWC map editor](project_yawc_map_editor.png)
+
+Project YAWC is a turn-based strategy game built in GGEZ, being developed
+by junkmail.
+
+April saw the release of Alpha 5, including the integrated map editor, alongside
+balance changes and unit additions.
+
+_Contact:
+[Twitter](https://twitter.com/ProjectYawc),
+[Alpha Access Request Form](https://forms.gle/w22ohPGNk58fo9bv6)_
+
 ### [The Process]
 
 ![Animated image showcasing the test map in The Process](the_process.gif)
