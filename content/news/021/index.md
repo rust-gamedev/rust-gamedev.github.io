@@ -596,6 +596,20 @@ Try out the [online demo](https://mvlabat.github.io/bevy_egui_web_showcase/index
 [bevy_webgl2]: https://github.com/mrk-its/bevy_webgl2
 [version 0.4]: https://github.com/mvlabat/bevy_egui/blob/main/CHANGELOG.md
 
+### [puffin_egui]
+
+![puffin_egui](puffin_egui.gif)
+
+[puffin_egui] by [@emilk] is an easy-to-use integration
+of the [puffin] profiler for the [egui] GUI library.
+
+It has never been easier to add an in-game flamegraph profiler to your game!
+
+[puffin_egui]: https://github.com/emilk/puffin_egui
+[puffin]: https://github.com/emilk/puffin
+[egui]: https://github.com/emilk/egui
+[@emilk]: https://twitter.com/ernerfeldt
+
 ### [chip-8-rs]
 
 ![Screenshot of Pong with debugger](chip-8-rs.jpg)
