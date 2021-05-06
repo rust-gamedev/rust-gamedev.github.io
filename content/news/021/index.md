@@ -82,6 +82,26 @@ working on, fill out [this form][gamedev-meetup-form].
 
 ## Game Updates
 
+### [MineWars][minewars]
+
+![MineWars Game Screenshot](minewars.jpg)
+
+[MineWars][minewars] ([Twitter][minewars-twitter], [Reddit][minewars-reddit])
+by @jamadazi is Minesweeper reimagined as a Multiplayer Real Time Strategy!
+
+First announced publicly last month, the project is working towards an alpha
+release for public playtesting. This month's progress has been mostly internal
+refactoring to be able to support networked multiplayer fully. The next steps
+are to implement the remaining core game mechanics. The client implementation
+may be changed to use the new `bevy_ecs_tilemap` crate.
+
+Made in the [Bevy Game Engine][bevy].
+
+[minewars]: https://minewars.cc
+[minewars-twitter]: https://twitter.com/MineWarsGame
+[minewars-reddit]: https://reddit.com/r/minewars
+[bevy]: https://bevyengine.org
+
 ### [LD48: Micronaut][micronaut-itch]
 
 [![GIF showing Micronaut's primary level recursion mechanic](micronaut.gif)][micronaut-itch]
