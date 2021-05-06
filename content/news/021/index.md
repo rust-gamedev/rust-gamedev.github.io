@@ -100,6 +100,26 @@ _Discussions: [Twitter][micronaut-twitter], [ldjam.com][micronaut-ldjam]_
 [micronaut-twitter]: https://twitter.com/healthire/status/1386468257125830662
 [micronaut-ldjam]: https://ldjam.com/events/ludum-dare/48/micronaut
 
+### [MineWars][minewars]
+
+![MineWars Game Screenshot](minewars.jpg)
+
+[MineWars][minewars] ([Twitter][minewars-twitter], [Reddit][minewars-reddit])
+by @jamadazi is Minesweeper reimagined as a Multiplayer Real Time Strategy!
+
+First announced publicly last month, the project is working towards an alpha
+release for public playtesting. This month's progress has been mostly internal
+refactoring to be able to support networked multiplayer fully. The next steps
+are to implement the remaining core game mechanics. The client implementation
+may be changed to use the new `bevy_ecs_tilemap` crate.
+
+Made in the [Bevy Game Engine][bevy].
+
+[minewars]: https://minewars.cc
+[minewars-twitter]: https://twitter.com/MineWarsGame
+[minewars-reddit]: https://reddit.com/r/minewars
+[bevy]: https://bevyengine.org
+
 ### [Fish game]
 
 ![Fish game](fishgame.gif)
