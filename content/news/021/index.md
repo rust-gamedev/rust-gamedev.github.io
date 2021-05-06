@@ -110,7 +110,7 @@ game server, and the [Macroquad][macroquad] game engine.
 
 This month:
 
-- [Fish game tutorial] got published.  
+- [Fish game tutorial] got published.
   The tutorial breaks down the game codebase into steps, from setting
   up an empty macroquad project into building a platformer game, and
   then turning it into a multiplayer game with Nakama.
@@ -338,11 +338,11 @@ are rolled, spawned, and how their effects are applied to the game.
 [![macroquad](macroquad.png)][macroquad.rs]
 
 [macroquad] is a cross-platform (Windows/Linux/macOS/Android/iOS/WASM) game
-framework built on top of [miniquad].  
+framework built on top of [miniquad].
 
-This month macroquad finally got out of alpha and `0.3` got released!  
+This month macroquad finally got out of alpha and `0.3` got released!
 All the examples with both sources and interactive wasm versions may
-be found on [the new macroquad website][macroquad.rs].  
+be found on [the new macroquad website][macroquad.rs].
 
 [miniquad]: https://github.com/not-fl3/miniquad
 [macroquad]: https://github.com/not-fl3/macroquad
@@ -581,6 +581,20 @@ Try out the [online demo](https://mvlabat.github.io/bevy_egui_web_showcase/index
 [bevy_egui]: https://github.com/mvlabat/bevy_egui
 [bevy_webgl2]: https://github.com/mrk-its/bevy_webgl2
 [version 0.4]: https://github.com/mvlabat/bevy_egui/blob/main/CHANGELOG.md
+
+### [puffin_egui]
+
+![puffin_egui](puffin_egui.gif)
+
+[puffin_egui] by [@emilk] is an easy-to-use integration
+of the [puffin] profiler for the [egui] GUI library.
+
+It has never been easier to add an in-game flamegraph profiler to your game!
+
+[puffin_egui]: https://github.com/emilk/puffin_egui
+[puffin]: https://github.com/emilk/puffin
+[egui]: https://github.com/emilk/egui
+[@emilk]: https://twitter.com/ernerfeldt
 
 ### [chip-8-rs]
 
