@@ -82,6 +82,24 @@ working on, fill out [this form][gamedev-meetup-form].
 
 ## Game Updates
 
+### [LD48: Micronaut][micronaut-itch]
+
+[![GIF showing Micronaut's primary level recursion mechanic](micronaut.gif)][micronaut-itch]
+_Micronaut features a deep recursive level layout_
+
+Micronaut is a small puzzle platformer by [@Healthire] made in 48 hours for the
+Ludum Dare 48 Compo. Run and jump your way through a recursive level layout to
+reach the end. Cross platform for native and web, with source available on
+[GitHub][micronaut-github].
+
+_Discussions: [Twitter][micronaut-twitter], [ldjam.com][micronaut-ldjam]_
+
+[@Healthire]: https://twitter.com/healthire
+[micronaut-github]: https://github.com/Healthire/ld48
+[micronaut-itch]: https://healthire.itch.io/micronaut
+[micronaut-twitter]: https://twitter.com/healthire/status/1386468257125830662
+[micronaut-ldjam]: https://ldjam.com/events/ludum-dare/48/micronaut
+
 ### [MineWars][minewars]
 
 ![MineWars Game Screenshot](minewars.jpg)
@@ -101,24 +119,6 @@ Made in the [Bevy Game Engine][bevy].
 [minewars-twitter]: https://twitter.com/MineWarsGame
 [minewars-reddit]: https://reddit.com/r/minewars
 [bevy]: https://bevyengine.org
-
-### [LD48: Micronaut][micronaut-itch]
-
-[![GIF showing Micronaut's primary level recursion mechanic](micronaut.gif)][micronaut-itch]
-_Micronaut features a deep recursive level layout_
-
-Micronaut is a small puzzle platformer by [@Healthire] made in 48 hours for the
-Ludum Dare 48 Compo. Run and jump your way through a recursive level layout to
-reach the end. Cross platform for native and web, with source available on
-[GitHub][micronaut-github].
-
-_Discussions: [Twitter][micronaut-twitter], [ldjam.com][micronaut-ldjam]_
-
-[@Healthire]: https://twitter.com/healthire
-[micronaut-github]: https://github.com/Healthire/ld48
-[micronaut-itch]: https://healthire.itch.io/micronaut
-[micronaut-twitter]: https://twitter.com/healthire/status/1386468257125830662
-[micronaut-ldjam]: https://ldjam.com/events/ludum-dare/48/micronaut
 
 ### [Fish game]
 
