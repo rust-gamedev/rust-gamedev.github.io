@@ -134,7 +134,7 @@ April saw the release of Alpha 5, including the integrated map editor, alongside
 balance changes and unit additions.
 
 _Contact:
-[Twitter](https://twitter.com/ProjectYawc), 
+[Twitter](https://twitter.com/ProjectYawc),
 [Alpha Access Request Form](https://forms.gle/w22ohPGNk58fo9bv6)_
 
 ### [The Process]
