@@ -331,6 +331,27 @@ are rolled, spawned, and how their effects are applied to the game.
 ["Formations"]: https://github.com/amethyst/theta-wave/releases/tag/v0.1.5
 ["Loot"]: https://github.com/amethyst/theta-wave/projects/4
 
+### [Station Iapetus]
+
+![Station Iapetus Youtube](station-iapetus.jpg)
+
+[Station Iapetus][Station Iapetus] by [@mrDIMAS] is a 3rd person shooter on the
+prison Iapetus near the Saturn.
+This month's updates include:
+
+- New level (lab)
+- More assets
+- Performance improvements
+- Bots now able to use weapons
+- Melee attacks are much harder to avoid now
+- Bots drop items
+- Journal
+
+[@mrDIMAS]: https://github.com/mrDIMAS
+[rg3d]: https://github.com/mrDIMAS/rg3d
+[Station Iapetus]: https://github.com/mrDIMAS/StationIapetus
+[si-youtube]: https://youtube.com/watch?v=O_ETjSkVBME
+
 ## Engine Updates
 
 ### [macroquad]
@@ -391,6 +412,25 @@ This month's changes include:
 [psichix-twitter]: https://twitter.com/psichix
 [oxygengine-git]: https://github.com/PsichiX/Oxygengine
 [oxygengine-puzzle-demo]: https://github.com/PsichiX/Oxygengine/tree/master/demos/soulhunter
+
+### [rg3d]
+
+![rg3d Youtube](rg3d_logo.png)
+
+[rg3d] ([Discord][rg3d_discord], [Twitter][rg3d_twitter]) is a game engine that
+aims to be easy to use and provide a large set of out-of-box features. Some of
+the recent engine updates:
+
+- WebAssembly support ([check online demo][rg3d_wasm_demo])
+- Proc-macro for Visit trait
+- On-demand texture compression
+- Performace improvements
+- Various bug fixes and small improvements.
+
+[rg3d]: https://github.com/mrDIMAS/rg3d
+[rg3d_discord]: https://discord.gg/xENF5Uh
+[rg3d_twitter]: https://twitter.com/DmitryNStepanov
+[rg3d_wasm_demo]: https://rg3d.rs/assets/webexample/index.html
 
 ## Learning Material Updates
 
