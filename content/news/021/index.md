@@ -341,7 +341,7 @@ April saw the release of Alpha 5, including the integrated map editor, alongside
 
 _Discussions:
 [Twitter](https://twitter.com/ProjectYawc)
-[Alpha Access Request Form](https://forms.gle/w22ohPGNk58fo9bv6)
+[Alpha Access Request Form](https://forms.gle/w22ohPGNk58fo9bv6)_
 
 ## Engine Updates
 
