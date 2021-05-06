@@ -544,6 +544,38 @@ GUI.
 [KindNES]: https://github.com/henryksloan/kind-nes/releases/tag/v0.9.1-beta
 [@henryksloan]: https://github.com/henryksloan
 
+### [opensubdiv-petite]
+
+![Low poly car model](opensubdiv-petite.jpg)
+_Low poly car with three levels of Catmull-Clark subdivision applied._
+
+[Opensubdiv-petite] is a high level, selective, oxidized wrapper around Pixar’s
+[OpenSubdiv] [sudivison surface] meshing and evaluation library. OpenSubdiv allows
+for real time updates of the subdivided mesh if the topology of the control mesh
+is stable (e.g. a deforming character in a game).
+
+The crate comes with a trait for converting into a `bevy::Mesh` and a [`bevy` example].
+
+This is an early release. None of the GPU acceleration backends are yet
+exposed on the Rust side. Contact [@virtualritz] is you want to help out with
+that.
+
+His [`tobj` fork] also has a bunch new features that help loading OBJ files for
+use with opensubdiv-petite. E.g. merging disconnected vertices during import.
+
+The car model above was borrowed from [@quaternius] low poly
+[car collection on itch.io].
+
+[OpenSubdiv]: https://graphics.pixar.com/opensubdiv/docs/intro.html
+[opensubdiv-petite]: https://crates.io/crates/opensubdiv-petite
+[sudivison surface]: https://en.wikipedia.org/wiki/Subdivision_surface
+[`bevy` example]: https://github.com/virtualritz/opensubdiv-petite/blob/master/opensubdiv-petite/examples/bevy.rs
+[`tobj` fork]: https://github.com/virtualritz/tobj
+[@virtualritz]: https://github.com/virtualritz
+[@quaternius]: https://www.patreon.com/quaternius
+[car collection on itch.io]: https://quaternius.itch.io/lowpoly-cars
+
+
 ### [rafx]
 
 [![Rafx WebGL 1.0 Demo](rafx-webgl1-demo.png)][rafx-webgl-demo]
