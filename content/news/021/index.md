@@ -110,7 +110,7 @@ game server, and the [Macroquad][macroquad] game engine.
 
 This month:
 
-- [Fish game tutorial] got published.  
+- [Fish game tutorial] got published.
   The tutorial breaks down the game codebase into steps, from setting
   up an empty macroquad project into building a platformer game, and
   then turning it into a multiplayer game with Nakama.
@@ -338,11 +338,11 @@ are rolled, spawned, and how their effects are applied to the game.
 [![macroquad](macroquad.png)][macroquad.rs]
 
 [macroquad] is a cross-platform (Windows/Linux/macOS/Android/iOS/WASM) game
-framework built on top of [miniquad].  
+framework built on top of [miniquad].
 
-This month macroquad finally got out of alpha and `0.3` got released!  
+This month macroquad finally got out of alpha and `0.3` got released!
 All the examples with both sources and interactive wasm versions may
-be found on [the new macroquad website][macroquad.rs].  
+be found on [the new macroquad website][macroquad.rs].
 
 [miniquad]: https://github.com/not-fl3/miniquad
 [macroquad]: https://github.com/not-fl3/macroquad
@@ -563,6 +563,20 @@ concurrency primitives such as `Arc`, etc.
 
 [simple-async-local-executor]: https://github.com/enlightware/simple-async-local-executor
 [Enlightware]: https://enlightware.ch
+
+### [egui]
+
+[egui] by [@emilk] is an easy-to-use immediate mode GUI library in pure Rust.
+
+This month [version 0.11] of egui was released, with many improvements,
+including optimized to run almost twice as fast!
+
+You can try out egui in the [online demo].
+
+[egui]: https://github.com/emilk/egui
+[online demo]: https://emilk.github.io/egui
+[versions 0.11]: https://github.com/emilk/egui/blob/master/CHANGELOG.md
+[@emilk]: https://twitter.com/ernerfeldt
 
 ### [bevy_egui]
 
