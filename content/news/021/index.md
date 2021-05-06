@@ -575,7 +575,7 @@ You can try out egui in the [online demo].
 
 [egui]: https://github.com/emilk/egui
 [online demo]: https://emilk.github.io/egui
-[versions 0.11]: https://github.com/emilk/egui/blob/master/CHANGELOG.md
+[version 0.11]: https://github.com/emilk/egui/blob/master/CHANGELOG.md
 [@emilk]: https://twitter.com/ernerfeldt
 
 ### [bevy_egui]
