@@ -333,7 +333,7 @@ are rolled, spawned, and how their effects are applied to the game.
 
 ### Project YAWC
 
-![A demonstration of the Project YAWC map editor](project_yawc_map_edotpr.png)
+![A demonstration of the Project YAWC map editor](project_yawc_map_editor.png)
 
 Project YAWC is a turn-based strategy game built in GGEZ, being developed by junkmail.
 
