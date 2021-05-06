@@ -333,7 +333,7 @@ are rolled, spawned, and how their effects are applied to the game.
 
 ### [Station Iapetus]
 
-![Station Iapetus Youtube](station-iapetus.jpg)
+[![Station Iapetus Youtube](station-iapetus.jpg)][si-youtube]
 
 [Station Iapetus][Station Iapetus] by [@mrDIMAS] is a 3rd person shooter on the
 prison Iapetus near the Saturn.
@@ -415,7 +415,7 @@ This month's changes include:
 
 ### [rg3d]
 
-![rg3d Youtube](rg3d_logo.png)
+![rg3d](rg3d_logo.png)
 
 [rg3d] ([Discord][rg3d_discord], [Twitter][rg3d_twitter]) is a game engine that
 aims to be easy to use and provide a large set of out-of-box features. Some of
