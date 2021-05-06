@@ -466,6 +466,38 @@ the recent engine updates:
 [rg3d_twitter]: https://twitter.com/DmitryNStepanov
 [rg3d_wasm_demo]: https://rg3d.rs/assets/webexample/index.html
 
+### [Arcana]
+
+Arcana is new game engine built with focus on ease of use without compromising on level of control.\
+The engine is aimed to support wide variety of games,\
+from pixel-art to fully ray-traced,\
+from single-player puzzles to online strategies.
+
+It is at very early stage, not all necessary subsystems are done and code is in flux.
+
+The engine already can be used to build demos like this:
+
+![arcana](tanks.gif)
+
+This particular demo has been coded in single evening,\
+together with sprite sheet loading and sprite animations which will be integrated into the engine later.\
+Default 2D renderer renders sprites with auto-batching, so all sprites are rendered in single instanced draw call.
+
+3D examples are coming.
+
+Rendering is done with [`sierra`] - Vulkan-like graphics API with batteries included.
+
+Arcana uses [`hecs`] as ECS and rolls its own simplistic `System` trait to define and run systems, once per frame or with fixed steps.
+
+[`rapier`] physics is integrated for 2D case, but system is opt-in.
+
+Stay tuned for updates.
+
+[Arcana]: https://github.com/zakarumych/arcana
+[`sierra`]: https://github.com/zakarumych/sierra
+[`hecs`]: https://crates.io/crates/hecs
+[`rapier`]: https://rapier.rs/docs/
+
 ## Learning Material Updates
 
 ### [Rust LA Meetup: Happiness in Rust][rust-la]
