@@ -468,28 +468,34 @@ the recent engine updates:
 
 ### [Arcana]
 
-Arcana is new game engine built with focus on ease of use without compromising on level of control.\
-The engine is aimed to support wide variety of games,\
-from pixel-art to fully ray-traced,\
+Arcana is new game engine built with focus on ease of use
+without compromising on level of control.\
+The engine is aimed to support wide variety of games,
+from pixel-art to fully ray-traced,
 from single-player puzzles to online strategies.
 
-It is at very early stage, not all necessary subsystems are done and code is in flux.
+It is at very early stage, not all necessary subsystems are done
+and code is in flux.
 
 The engine already can be used to build demos like this:
 
 ![arcana](tanks.gif)
 
 This particular demo has been coded in single evening,\
-together with sprite sheet loading and sprite animations which will be integrated into the engine later.\
-Default 2D renderer renders sprites with auto-batching, so all sprites are rendered in single instanced draw call.
+together with sprite sheet loading and sprite animations
+which will be integrated into the engine later.
 
-3D examples are coming.
+Default 2D renderer renders sprites with auto-batching,
+so all sprites are rendered in single instanced draw call,
+allowing rendering millions of sprites in one frame.
 
-Rendering is done with [`sierra`] - Vulkan-like graphics API with batteries included.
+Rendering is done with [`sierra`] - Vulkan-like graphics API with
+batteries included.
 
-Arcana uses [`hecs`] as ECS and rolls its own simplistic `System` trait to define and run systems, once per frame or with fixed steps.
+Arcana uses [`hecs`] as ECS and rolls its own simplistic `System` trait
+to define and run systems, once per frame or with fixed steps.
 
-[`rapier`] physics is integrated for 2D case, but system is opt-in.
+[`rapier`] physics is integrated for 2D case, but system is kept opt-in.
 
 Stay tuned for updates.
 
