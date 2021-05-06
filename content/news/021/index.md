@@ -127,9 +127,11 @@ This month:
 
 ![A demonstration of the Project YAWC map editor](project_yawc_map_editor.png)
 
-Project YAWC is a turn-based strategy game built in GGEZ, being developed by junkmail.
+Project YAWC is a turn-based strategy game built in GGEZ, being developed
+by junkmail.
 
-April saw the release of Alpha 5, including the integrated map editor, alongside balance changes and unit additions.
+April saw the release of Alpha 5, including the integrated map editor, alongside
+balance changes and unit additions.
 
 _Contact:
 [Twitter](https://twitter.com/ProjectYawc), 
