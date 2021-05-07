@@ -468,20 +468,20 @@ the recent engine updates:
 
 ### [Arcana]
 
-Arcana is new game engine built with focus on ease of use
+Arcana is a new game engine built with focus on ease of use
 without compromising on level of control.\
-The engine is aimed to support wide variety of games,
+The engine is aimed to support a wide variety of games,
 from pixel-art to fully ray-traced,
 from single-player puzzles to online strategies.
 
-It is at very early stage, not all necessary subsystems are done
+It is at a very early stage, not all necessary subsystems are done
 and code is in flux.
 
 The engine already can be used to build demos like this:
 
 ![arcana](tanks.gif)
 
-This particular demo has been coded in single evening,\
+This particular demo has been coded in a single evening,
 together with sprite sheet loading and sprite animations
 which will be integrated into the engine later.
 
@@ -495,7 +495,7 @@ batteries included.
 Arcana uses [`hecs`] as ECS and rolls its own simplistic `System` trait
 to define and run systems, once per frame or with fixed steps.
 
-[`rapier`] physics is integrated for 2D case, but system is kept opt-in.
+[`rapier`] physics is integrated for 2D cases, but system is kept opt-in.
 
 Stay tuned for updates.
 
