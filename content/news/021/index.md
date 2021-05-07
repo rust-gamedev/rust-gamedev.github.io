@@ -100,6 +100,28 @@ _Discussions: [Twitter][micronaut-twitter], [ldjam.com][micronaut-ldjam]_
 [micronaut-twitter]: https://twitter.com/healthire/status/1386468257125830662
 [micronaut-ldjam]: https://ldjam.com/events/ludum-dare/48/micronaut
 
+### [LD48: The Submariner][submariner-itch]
+
+[![GIF of a submarine firing torpedoes at vicious attacking fish.](submariner.gif)][submariner-itch]
+
+[The Submariner][submariner-itch] is a minimalist action
+game made by [@kettlecorn] for the Ludum Dare 48 Compo. Dive
+deep into the murky depths, defend yourself with torpedoes,
+and try to find a way home!
+
+The Submariner was made with the [Macroquad][macroquad] game engine
+and [hecs] was used as the Entity-Component-System (ECS) data structure.
+
+[_Click here to play the Submariner in your browser_][submariner-itch]
+
+_Discussions: [ldjam.com][submariner-ldjam]_
+
+[@kettlecorn]: https://twitter.com/kettlecorn
+[submariner-github]: https://github.com/kettle11/LD48
+[submariner-itch]: https://kettlecorn.itch.io/submariner
+[submariner-ldjam]:https://ldjam.com/events/ludum-dare/48/the-submariner
+[hecs]:https://github.com/Ralith/hecs
+
 ### [LD48: Depth-First Search][dfs-ldjam]
 
 ![Depth-First Search's title card](dfs.jpg)
