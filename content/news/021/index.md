@@ -100,6 +100,26 @@ _Discussions: [Twitter][micronaut-twitter], [ldjam.com][micronaut-ldjam]_
 [micronaut-twitter]: https://twitter.com/healthire/status/1386468257125830662
 [micronaut-ldjam]: https://ldjam.com/events/ludum-dare/48/micronaut
 
+### [LD48: Depth-First Search][dfs-ldjam]
+
+![Depth-First Search's title card](dfs.jpg)
+
+[Depth-First Search][dfs-ldjam] by [@LPGhatguy] and [@evaeraevaera] is a space
+dogfighting game made in 72 hours for the Ludum Dare 48 Jam. Travel alone to the
+center of the galaxy, battling space pirates, alien eyeballs, and more.
+
+The game was made possible by [wgpu], [egui], [rapier], [hecs], and many more
+Rust community libraries!
+
+_Discussions: [ldjam.com][dfs-ldjam], [Twitter][dfs-twitter]_
+
+[@LPGhatguy]: https://twitter.com/LPGhatguy
+[@evaeraevaera]: https://twitter.com/evaeraeveara
+[dfs-ldjam]: https://ldjam.com/events/ludum-dare/48/depth-first-search
+[dfs-twitter]: https://twitter.com/evaeraevaera/status/1386863330355257346
+[rapier]: https://github.com/dimforge/rapier
+[hecs]: https://github.com/Ralith/hecs
+
 ### [MineWars][minewars]
 
 ![MineWars Game Screenshot](minewars.jpg)
