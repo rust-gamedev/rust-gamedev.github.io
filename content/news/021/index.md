@@ -510,6 +510,23 @@ the recent engine updates:
 
 ## Learning Material Updates
 
+### [Bevy Cheatbook][bevy_cheatbook]
+
+The Unofficial Bevy Cheatbook by @jamadazi is a practical book for learning the
+[Bevy Game Engine][bevy].
+
+The book recently got an assortment of improvements and new content, including
+a detailed page about [input handling][bevy_cheatbook_input] and a chapter about
+[browser games using WASM][bevy_cheatbook_wasm] (written with help from @Zaszi).
+
+The author now has a [GitHub Sponsors][jamadazi_ghsponsors], support them!
+
+[bevy_cheatbook]: https://bevy-cheatbook.github.io
+[bevy_cheatbook_input]: https://bevy-cheatbook.github.io/features/input-handling.html
+[bevy_cheatbook_wasm]: https://bevy-cheatbook.github.io/platforms/wasm.html
+[jamadazi_ghsponsors]: https://github.com/sponsors/jamadazi
+[bevy]: https://bevyengine.org
+
 ### [Rust LA Meetup: Happiness in Rust][rust-la]
 
 [![Rust LA talk screenshot](rust-la.png)][rust-la]
