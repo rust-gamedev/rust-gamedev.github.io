@@ -28,6 +28,8 @@ Feel free to send PRs about your own projects!
 [Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
+- [Rust GameDev Meetup](#rust-gamedev-meetup)
+- [gamedev.rs](#gamedev-rs)
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
@@ -79,6 +81,25 @@ working on, fill out [this form][gamedev-meetup-form].
 [gamedev-meetup-video]: https://www.youtube.com/watch?v=XE0lH0tlbBs
 [rust-gamedev-discord]: https://discord.gg/yNtPTb2
 [rust-gamedev-twitch]: https://twitch.tv/rustgamedevmeetup
+
+## gamedev.rs
+
+As you may have noticed, [rust-gamedev.github.io](https://rust-gamedev.github.io)
+(this site) got an awesome custom domain: [gamedev.rs](https://gamedev.rs)!
+We've been looking for a good & available domain a [long time][gamedev-rs-233].
+Huge thanks to Juratech Systems for donating their domain
+to the Rust GameDev WG! ❤️
+
+We've also [switched to a more compact URL scheme][gamedev-rs-586]
+with separate categories for [the newsletter](https://gamedev.rs/news)
+and [other posts](https://gamedev.rs/blog).
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/mq6mmj/rustgamedevgithubio_is_now_gamedevrs),
+[Twitter](https://twitter.com/ozkriff/status/1382016040662614017)_
+
+[gamedev-rs-233]: https://github.com/rust-gamedev/rust-gamedev.github.io/issues/233
+[gamedev-rs-586]: https://github.com/rust-gamedev/rust-gamedev.github.io/pull/586
 
 ## Game Updates
 
