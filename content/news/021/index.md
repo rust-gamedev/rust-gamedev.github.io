@@ -468,8 +468,11 @@ the recent engine updates:
 
 ### [Arcana]
 
+![arcana](tanks.gif)
+_A demo Arcana game_
+
 Arcana is a new game engine built with focus on ease of use
-without compromising on level of control.\
+without compromising on level of control.
 The engine is aimed to support a wide variety of games,
 from pixel-art to fully ray-traced,
 from single-player puzzles to online strategies.
@@ -477,11 +480,7 @@ from single-player puzzles to online strategies.
 It is at a very early stage, not all necessary subsystems are done
 and code is in flux.
 
-The engine already can be used to build demos like this:
-
-![arcana](tanks.gif)
-
-This particular demo has been coded in a single evening,
+The demo shown above was coded in a single evening,
 together with sprite sheet loading and sprite animations
 which will be integrated into the engine later.
 
