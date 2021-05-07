@@ -633,6 +633,17 @@ design considerations.
 [mason-remaley]: https://twitter.com/masonremaley
 [wor]: https://store.steampowered.com/app/1110620?utm_campaign=tmirgd&utm_source=n21
 
+### [awesome-quads]
+
+![logo](quads.png)
+
+[awesome-quads] is a curated list of links to [miniquad]/[macroquad]-related
+code & resources: libraries&plugins, games, examples, apps, docs, etc.
+The list has more than 40 links atm:
+feel free to write a PR if something isn't mentioned yet.
+
+[awesome-quads]: https://github.com/ozkriff/awesome-quads
+
 ## Library & Tooling Updates
 
 ### [wgpu]-0.8
