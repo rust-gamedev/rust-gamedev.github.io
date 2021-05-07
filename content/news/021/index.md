@@ -564,6 +564,23 @@ The author now has a [GitHub Sponsors][jamadazi_ghsponsors], support them!
 [jamadazi_ghsponsors]: https://github.com/sponsors/jamadazi
 [bevy]: https://bevyengine.org
 
+### [Rust Linz: Learning Rust with Game Development][rust-linz]
+
+[![Rust Linz talk screenshot](rust-linz.png)][rust-linz]
+_Click on the image to watch the talk_
+
+As part of April's Rust Linz meetup, [Herbert Wolverson][rust-linz-hw]
+gave a talk about using game development as a means of learning
+Rust, stepping through the creation of Flappy Dragon - a simple game
+used in his book 'Hands-On Rust' to teach the language basics.
+
+'Hands-On Rust' is currently available for 50% off, via a coupon
+posted on the [author's twitter][rust-linz-coupon].
+
+[rust-linz]: https://www.youtube.com/watch?v=79GyLlXAk-0
+[rust-linz-hw]: https://twitter.com/herberticus
+[rust-linz-coupon]: https://twitter.com/herberticus/status/1387090355250675716
+
 ### [Rust LA Meetup: Happiness in Rust][rust-la]
 
 [![Rust LA talk screenshot](rust-la.png)][rust-la]
@@ -583,7 +600,8 @@ Rust discovery.
 
 ![How To Write a Crash Reporter](wor-crash-reporter.jpg)
 
-[@masonremaley][mason-remaley] wrote [an article](crash-reporter) walking
+[@masonremaley][mason-remaley] wrote [an article](crash-reporter) walking![Uploading rust-linz.png…]()
+
 through [Way of Rhea's][wor] crash reporter implementation.
 
 The article covers how to detect a crash, how to report a crash via chat
