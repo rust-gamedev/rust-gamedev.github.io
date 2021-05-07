@@ -104,8 +104,8 @@ _Discussions: [Twitter][micronaut-twitter], [ldjam.com][micronaut-ldjam]_
 
 [![GIF of a submarine firing torpedoes at vicious attacking fish.](submariner.gif)][submariner-itch]
 
-[The Submariner][submariner-itch] is a minimalist action 
-game made by [@kettlecorn] for the Ludum Dare 48 Compo. Dive 
+[The Submariner][submariner-itch] is a minimalist action
+game made by [@kettlecorn] for the Ludum Dare 48 Compo. Dive
 deep into the murky depths, defend yourself with torpedoes,
 and try to find a way home!
 
