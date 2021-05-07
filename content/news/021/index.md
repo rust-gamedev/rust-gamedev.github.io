@@ -471,7 +471,7 @@ the recent engine updates:
 ![arcana](tanks.gif)
 _A demo Arcana game_
 
-Arcana is a new game engine built with focus on ease of use
+[Arcana] is a new game engine built with focus on ease of use
 without compromising on level of control.
 The engine is aimed to support a wide variety of games,
 from pixel-art to fully ray-traced,
