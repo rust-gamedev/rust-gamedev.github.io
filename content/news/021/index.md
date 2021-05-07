@@ -572,9 +572,9 @@ _Click on the image to watch the talk_
 As part of April's Rust Linz meetup, [Herbert Wolverson][rust-linz-hw]
 gave a talk about using game development as a means of learning
 Rust, stepping through the creation of Flappy Dragon - a simple game
-used in his book 'Hands-On Rust' to teach the language basics.
+used in his book *Hands-On Rust* to teach the language basics.
 
-'Hands-On Rust' is currently available for 50% off, via a coupon
+*Hands-On Rust* is currently available for 50% off, via a coupon
 posted on the [author's twitter][rust-linz-coupon].
 
 [rust-linz]: https://www.youtube.com/watch?v=79GyLlXAk-0
