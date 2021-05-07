@@ -575,7 +575,6 @@ The car model above was borrowed from [@quaternius] low poly
 [@quaternius]: https://www.patreon.com/quaternius
 [car collection on itch.io]: https://quaternius.itch.io/lowpoly-cars
 
-
 ### [rafx]
 
 [![Rafx WebGL 1.0 Demo](rafx-webgl1-demo.png)][rafx-webgl-demo]
