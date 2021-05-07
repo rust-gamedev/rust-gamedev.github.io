@@ -600,8 +600,7 @@ Rust discovery.
 
 ![How To Write a Crash Reporter](wor-crash-reporter.jpg)
 
-[@masonremaley][mason-remaley] wrote [an article](crash-reporter) walking![Uploading rust-linz.png…]()
-
+[@masonremaley][mason-remaley] wrote [an article](crash-reporter) walking
 through [Way of Rhea's][wor] crash reporter implementation.
 
 The article covers how to detect a crash, how to report a crash via chat
