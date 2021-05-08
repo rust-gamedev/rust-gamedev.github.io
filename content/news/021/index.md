@@ -586,6 +586,27 @@ The author now has a [GitHub Sponsors][jamadazi_ghsponsors], support them!
 [jamadazi_ghsponsors]: https://github.com/sponsors/jamadazi
 [bevy]: https://bevyengine.org
 
+### [Shooting Gallery Game in Rust and Bevy in 5 Hours][bevy-5h-video]
+
+[![preview](bevy-shoot-video.jpg)][bevy-5h-video]
+
+[@camsjams] released [a video][bevy-5h-video] about
+developing a shooting gallery using Bevy
+to demonstrate 2D games with multiple layers of depth.
+Some of the features covered in the video:
+
+- Basic UI with score and countdown clock.
+- 2D shooting with moving set pieces - clouds, grass, water.
+- Tracking of target hits, each target having their own unique
+  movement speed and points.
+- Game over state when clock runs out.
+
+[The full source is available here][bevy-5h-src].
+
+[bevy-5h-video]: https://youtube.com/watch?v=T1ZT0EkzvgI
+[@camsjams]: https://twitter.com/camsjams
+[bevy-5h-src]: https://github.com/camsjams/rust-2d-shooting-gallery
+
 ### [Rust Linz: Learning Rust with Game Development][rust-linz]
 
 [![Rust Linz talk screenshot](rust-linz.png)][rust-linz]
