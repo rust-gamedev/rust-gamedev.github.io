@@ -133,7 +133,7 @@ and try to find a way home!
 The Submariner was made with the [Macroquad][macroquad] game engine
 and [hecs] was used as the Entity-Component-System (ECS) data structure.
 
-[_Click here to play the Submariner in your browser_][submariner-itch]
+[Click here to play the Submariner in your browser.][submariner-itch]
 
 _Discussions: [ldjam.com][submariner-ldjam]_
 
@@ -210,15 +210,14 @@ This month:
 
 ![A demonstration of the Project YAWC map editor](project_yawc_map_editor.png)
 
-Project YAWC is a turn-based strategy game built in GGEZ, being developed
-by junkmail.
+Project YAWC ([Twitter](https://twitter.com/ProjectYawc)) is a turn-based
+strategy game built in GGEZ, being developed by junkmail.
 
 April saw the release of Alpha 5, including the integrated map editor, alongside
 balance changes and unit additions.
 
-_Contact:
-[Twitter](https://twitter.com/ProjectYawc),
-[Alpha Access Request Form](https://forms.gle/w22ohPGNk58fo9bv6)_
+An [alpha access request form](https://forms.gle/w22ohPGNk58fo9bv6) is available,
+if you want to try it out.
 
 ### [The Process]
 
