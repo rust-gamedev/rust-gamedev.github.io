@@ -545,19 +545,14 @@ The demo shown above was coded in a single evening,
 together with sprite sheet loading and sprite animations
 which will be integrated into the engine later.
 
-Default 2D renderer renders sprites with auto-batching,
+The default 2D renderer renders sprites with auto-batching,
 so all sprites are rendered in single instanced draw call,
-allowing rendering millions of sprites in one frame.
-
-Rendering is done with [`sierra`] - Vulkan-like graphics API with
-batteries included.
-
-Arcana uses [`hecs`] as ECS and rolls its own simplistic `System` trait
-to define and run systems, once per frame or with fixed steps.
-
-[`rapier`] physics is integrated for 2D cases, but system is kept opt-in.
-
-Stay tuned for updates.
+allowing rendering millions of sprites in one frame. Rendering
+is done with [`sierra`] - a Vulkan-like graphics API with
+batteries included. The engine also uses [`hecs`] as its ECS,
+and rolls its own simplistic `System` trait to define and run
+systems, once per frame or with fixed steps. [`rapier`] physics
+is integrated for 2D cases, but this system is kept opt-in.
 
 [Arcana]: https://github.com/zakarumych/arcana
 [`sierra`]: https://github.com/zakarumych/sierra
