@@ -183,7 +183,7 @@ This month:
 [fishgame-itch]: https://fedorgames.itch.io/fish-game
 [nakama]: https://heroiclabs.com/
 [macroquad]: https://github.com/not-fl3/macroquad
-[Fish game tutorial]: https://heroiclabs.com/blog/tutorials/rust-fishgame/
+[Fish game tutorial]: https://macroquad.rs/tutorials/fish-tutorial/
 
 ### Project YAWC
 
@@ -439,11 +439,12 @@ framework built on top of [miniquad].
 
 This month macroquad finally got out of alpha and `0.3` got released!
 All the examples with both sources and interactive wasm versions may
-be found on [the new macroquad website][macroquad.rs].
+be found on [the new macroquad website][macroquad_examples].
 
 [miniquad]: https://github.com/not-fl3/miniquad
 [macroquad]: https://github.com/not-fl3/macroquad
-[macroquad.rs]: https://macroquad.rs
+[macroquad.rs]: https://macroquad.rs/
+[macroquad_examples]: https://macroquad.rs/examples
 
 ### [Tetra]
 
