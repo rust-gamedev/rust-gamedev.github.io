@@ -638,7 +638,7 @@ design considerations.
 ![logo](quads.png)
 
 [awesome-quads] is a curated list of links to [miniquad]/[macroquad]-related
-code & resources: libraries&plugins, games, examples, apps, docs, etc.
+code & resources: libraries & plugins, games, examples, apps, docs, etc.
 The list has more than 40 links atm:
 feel free to write a PR if something isn't mentioned yet.
 
