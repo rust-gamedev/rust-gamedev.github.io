@@ -607,6 +607,20 @@ Some of the features covered in the video:
 [@camsjams]: https://twitter.com/camsjams
 [bevy-5h-src]: https://github.com/camsjams/rust-2d-shooting-gallery
 
+### [Learning OpenGL in 7 days using Rust][tantan-video]
+
+[![video preview](tantan-preview.jpg)][tantan-video]
+
+[TanTan] released a [video][tantan-video] about making a water shader,
+loading 3D models, creating a beautiful transition shader
+using glium and macroquad.
+The water & transition shader is open source and can be found
+[here][mq-tantan-toolbox].
+
+[TanTan]: https://twitter.com/TantanDev
+[tantan-video]: https://youtube.com/watch?v=KEQIWqSq42k
+[mq-tantan-toolbox]: https://github.com/TanTanDev/macroquad_tantan_toolbox
+
 ### [Rust Linz: Learning Rust with Game Development][rust-linz]
 
 [![Rust Linz talk screenshot](rust-linz.png)][rust-linz]
