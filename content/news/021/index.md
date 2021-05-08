@@ -133,7 +133,7 @@ and try to find a way home!
 The Submariner was made with the [Macroquad][macroquad] game engine
 and [hecs] was used as the Entity-Component-System (ECS) data structure.
 
-[_Click here to play the Submariner in your browser_][submariner-itch]
+[Click here to play the Submariner in your browser.][submariner-itch]
 
 _Discussions: [ldjam.com][submariner-ldjam]_
 
@@ -210,15 +210,14 @@ This month:
 
 ![A demonstration of the Project YAWC map editor](project_yawc_map_editor.png)
 
-Project YAWC is a turn-based strategy game built in GGEZ, being developed
-by junkmail.
+Project YAWC ([Twitter](https://twitter.com/ProjectYawc)) is a turn-based
+strategy game built in GGEZ, being developed by junkmail.
 
 April saw the release of Alpha 5, including the integrated map editor, alongside
 balance changes and unit additions.
 
-_Contact:
-[Twitter](https://twitter.com/ProjectYawc),
-[Alpha Access Request Form](https://forms.gle/w22ohPGNk58fo9bv6)_
+An [alpha access request form](https://forms.gle/w22ohPGNk58fo9bv6) is available,
+if you want to try it out.
 
 ### [The Process]
 
@@ -256,7 +255,7 @@ _Discussions:
 
 ![Improved text rendering](pglowrpg_progress.jpg)
 
-[pGLOWrpg][pglowrpg-github] by [@Roal_Yr]
+pGLOWrpg ([GitHub][pglowrpg-github], [Twitter][pglowrpg-twitter]) by [@Roal_Yr]
 is a Procedurally Generated Living Open World RPG,
 a long-term project in development, which aims to be a narrative text-based game
 with maximum portability and accessibility.
@@ -268,8 +267,6 @@ Recent updates include:
 - Text color scheme in separate .ron preset file.
 - Text wrap implemented.
 - Fallback modes for text printing implemented.
-
-_Discussions: [Twitter][pglowrpg-twitter]_
 
 [@Roal_Yr]: https://twitter.com/Roal_Yr
 [pglowrpg-twitter]: https://twitter.com/pglowrpg
@@ -548,19 +545,14 @@ The demo shown above was coded in a single evening,
 together with sprite sheet loading and sprite animations
 which will be integrated into the engine later.
 
-Default 2D renderer renders sprites with auto-batching,
+The default 2D renderer renders sprites with auto-batching,
 so all sprites are rendered in single instanced draw call,
-allowing rendering millions of sprites in one frame.
-
-Rendering is done with [`sierra`] - Vulkan-like graphics API with
-batteries included.
-
-Arcana uses [`hecs`] as ECS and rolls its own simplistic `System` trait
-to define and run systems, once per frame or with fixed steps.
-
-[`rapier`] physics is integrated for 2D cases, but system is kept opt-in.
-
-Stay tuned for updates.
+allowing rendering millions of sprites in one frame. Rendering
+is done with [`sierra`] - a Vulkan-like graphics API with
+batteries included. The engine also uses [`hecs`] as its ECS,
+and rolls its own simplistic `System` trait to define and run
+systems, once per frame or with fixed steps. [`rapier`] physics
+is integrated for 2D cases, but this system is kept opt-in.
 
 [Arcana]: https://github.com/zakarumych/arcana
 [`sierra`]: https://github.com/zakarumych/sierra
