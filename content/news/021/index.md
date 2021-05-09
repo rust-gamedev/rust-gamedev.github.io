@@ -954,6 +954,36 @@ _Discussions: [/r/rust], [Twitter]_
 [/r/rust]: https://www.reddit.com/r/rust/comments/mph8jr/integrating_constgenerics_to_nalgebra_026/
 [Twitter]: https://twitter.com/dimforge/status/1381643543626842114
 
+### [Graphite][graphite-repo]
+
+![Ferris drawn in Graphite using the new drawing tools - Art credit: Uriopass](graphite-ferris.png)
+_Ferris drawn in Graphite using the new drawing tools - Art credit: Uriopass_
+
+Graphite ([GitHub][graphite-repo], [Discord][graphite-discord],
+[Twitter](https://twitter.com/GraphiteEditor)) is an in-progress vector and
+raster graphics editor built on a nondestructive node-based workflow.
+
+The team size has doubled in the past month— thank you to the new contributors!
+Since then, systems related to editor tools and data flow were added.
+The editor now has proper input behavior on the existing Rectangle and Ellipse Tools
+plus the new Shape and Line Tools while holding modifier keys.
+Pen Tool implementation has begun, supporting polylines.
+Shapes are now drawn with live previews.
+
+Additional work has gone into improving render performance, building the color
+system in the Rust backend, and adding initial support for displaying shapes
+in the Layer Tree panel. [Try it right now in your browser.][graphite-live-demo]
+
+Graphite is making rapid progress towards becoming a nondestructive, procedural
+graphics editor suitable of replacing traditional 2D DCC applications. Please
+[join the Discord][graphite-discord] - and consider asking for a tour of the
+code and how you can help!
+
+[graphite-repo]: https://github.com/GraphiteEditor/Graphite
+[graphite-discord]: https://github.com/GraphiteEditor/Graphite/blob/master/README.md#discord
+[graphite-twitter]: https://twitter.com/GraphiteEditor
+[graphite-live-demo]: https://editor.graphite.design/
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
