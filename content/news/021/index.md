@@ -966,7 +966,7 @@ GUI.
 _Debugging Pong_
 
 [Chip-8-rs][chip-8-rs] by @jonathanmurray is
-a _CHIP-8_ emulator with some basic debugging functionality.
+a CHIP-8 emulator with some basic debugging functionality.
 
 When running a game through the emulator, CHIP-8 instructions are listed
 next to the main display, with the currently executed one highlighted. By
