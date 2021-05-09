@@ -644,7 +644,7 @@ Rust discovery.
 
 ![How To Write a Crash Reporter](wor-crash-reporter.jpg)
 
-[@masonremaley][mason-remaley] wrote [an article](crash-reporter) walking
+[@masonremaley][mason-remaley] wrote [an article][crash-reporter] walking
 through [Way of Rhea's][wor] crash reporter implementation.
 
 The article covers how to detect a crash, how to report a crash via chat
@@ -1018,13 +1018,10 @@ Want something mentioned in the next newsletter?
 Also, subscribe to [@rust_gamedev on Twitter][@rust_gamedev]
 or [/r/rust_gamedev subreddit][/r/rust_gamedev] if you want to receive fresh news!
 
-<!--
-TODO: Add real links and un-comment once this post is published
 **Discuss this post on**:
-[/r/rust](TODO),
-[Twitter](TODO),
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/n8g79b/this_month_in_rust_gamedev_21_april_2021),
+[Twitter](https://twitter.com/rust_gamedev/status/1391415309421187076),
 [Discord](https://discord.gg/yNtPTb2).
--->
 
 [/r/rust_gamedev]: https://reddit.com/r/rust_gamedev
 [@rust_gamedev]: https://twitter.com/rust_gamedev
