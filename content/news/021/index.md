@@ -354,7 +354,7 @@ The music system was expanded to support combat music.
 
 Veloren's financial state was overhauled to examine previous expenses, and
 prepare for provisioning the dedicated server. Functionality was added to switch
-between server-authoratative and client-authoratative physics. Skeletons for
+between server-authoritative and client-authoritative physics. Skeletons for
 big-winged creatures were added. Data being sent over the network is being
 optimized to reduce the amount of bandwidth players have to use.
 
@@ -425,7 +425,7 @@ are rolled, spawned, and how their effects are applied to the game.
 [![Station Iapetus Youtube](station-iapetus.jpg)][si-youtube]
 
 [Station Iapetus][Station Iapetus] by [@mrDIMAS] is a 3rd person shooter on the
-prison Iapetus near the Saturn.
+prison Iapetus near Saturn.
 This month's updates include:
 
 - New level (lab)
@@ -514,7 +514,7 @@ the recent engine updates:
 - WebAssembly support ([check online demo][rg3d_wasm_demo])
 - Proc-macro for Visit trait
 - On-demand texture compression
-- Performace improvements
+- Performance improvements
 - Various bug fixes and small improvements.
 
 [rg3d]: https://github.com/mrDIMAS/rg3d
