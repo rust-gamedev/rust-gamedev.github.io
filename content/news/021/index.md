@@ -692,25 +692,32 @@ On the infrastructure side, [wgpu] integrated [profiling] and got the first
 [gfx-release-blog]: https://gfx-rs.github.io/2021/04/30/release-0.8.html
 [naga perf numbers]: https://github.com/gfx-rs/wgpu-rs/discussions/879
 
-### [KindNES]
+### [nalgebra]
 
-![Super Mario Bros. running in KindNES](kindnes.png)
+![nalgebra](https://www.nalgebra.org/img/logo_nalgebra.svg)
 
-[KindNES] by [@henryksloan]
-is a new NES emulator that supports sound, controllers, and
-much of the NES library.
+[nalgebra] ([GitHub], [Discord]) by [Dimforge] is a general-purpose
+linear-algebra library.
 
-KindNES is designed to strike a balance between performance, hardware accuracy,
-and code clarity. It directly emulates the CPU, graphics, and sound of the NES
-with minimal approximation. The code is intended to pair well with the NESdev
-wiki as a resource for learning about the NES.
+With its version 0.26, [nalgebra] replaced the use of [generic-arrays] by
+regular Rust arrays using const-generics. See the [blog-post] to get all
+the details! In particular, this results in significant benefits:
 
-KindNES is in a playable state, and is approaching a release version.
-Features planned before release include saving and an improved cross-platform
-GUI.
+- Simpler generic programming with statically-sized vectors/matrices.
+- Much simpler debugging: inspect the content of vectors/matrices more easily.
+- Vectors and matrices with dimensions known at compile-time can be
+  constructed in a const-fn context.
 
-[KindNES]: https://github.com/henryksloan/kind-nes/releases/tag/v0.9.1-beta
-[@henryksloan]: https://github.com/henryksloan
+_Discussions: [/r/rust], [Twitter]_
+
+[nalgebra]: http://nalgebra.org
+[GitHub]: http://github.com/dimforge/nalgebra
+[Discord]: http://discord.gg/vt9DJSW
+[Dimforge]: http://dimforge.com
+[generic-arrays]: https://docs.rs/generic-array/0.14.4/generic_array/
+[blog-post]: https://www.dimforge.com/blog/2021/04/12/integrating-const-generics-to-nalgebra/
+[/r/rust]: https://www.reddit.com/r/rust/comments/mph8jr/integrating_constgenerics_to_nalgebra_026/
+[Twitter]: https://twitter.com/dimforge/status/1381643543626842114
 
 ### [opensubdiv-petite]
 
@@ -742,6 +749,118 @@ The car model above was borrowed from [@quaternius] low poly
 [@virtualritz]: https://github.com/virtualritz
 [@quaternius]: https://www.patreon.com/quaternius
 [car collection on itch.io]: https://quaternius.itch.io/lowpoly-cars
+
+### [profiling]
+
+[![Screenshot of Optick Profiler](profiling.png)](profiling.png)
+
+This month, version 1.0 of [profiling] was released on crates.io. 🎉 🎉
+
+This crate provides a very thin abstraction over instrumented profiling crates
+like `puffin`, `optick`, `tracing`, `tracy`, and `superluminal-perf`.
+
+Profiling is used by multiple projects including `gfx-hal`, `rafx`, and
+`wgpu`.
+
+[profiling]: https://crates.io/crates/profiling
+
+### [simple-async-local-executor]
+
+```rust
+let executor = Executor::default();
+let events = [executor.create_event_handle(), executor.create_event_handle()];
+
+async fn wait_event(events: [EventHandle; 2], executor: Executor) {
+    executor.event(&events[0]).await;
+    executor.event(&events[1]).await;
+}
+
+executor.spawn(wait_event(events.clone(), executor.clone()));
+assert_eq!(executor.step(), true);
+assert_eq!(executor.step(), true);
+executor.notify_event(&events[0]);
+assert_eq!(executor.step(), true);
+executor.notify_event(&events[1]);
+assert_eq!(executor.step(), false);
+```
+
+[simple-async-local-executor] by [Enlightware]
+is a single-threaded polling-based executor suitable for use in games, embedded
+systems or WASM.
+
+This executor can be useful when the number of tasks is small or
+if a small percentage is blocked. Being polling-based, in the general
+case it trades off efficiency for simplicity and does not require any
+concurrency primitives such as `Arc`, etc.
+
+[simple-async-local-executor]: https://github.com/enlightware/simple-async-local-executor
+[Enlightware]: https://enlightware.ch
+
+### [wasm_plugin]
+
+[wasm_plugin][wasm_plugin] by @alec-deason is a
+low-ish level tool for easily hosting WASM based plugins for modding or scripting.
+
+The latest version now supports calling host functions from the plugin and more
+flexible serialization which allows plugins to be written in languages other
+than Rust.
+
+It consists of two crates:
+
+- [wasm_plugin_host] which wraps a wasmer instance with methods for calling
+  functions on the guest plugin.
+- [wasm_plugin_guest] which provides an attribute macro to easily import and
+- export functions to the host.
+
+[wasm_plugin]: https://github.com/alec-deason/wasm_plugin
+[wasm_plugin_host]: https://lib.rs/crates/wasm_plugin_host
+[wasm_plugin_guest]: https://lib.rs/crates/wasm_plugin_guest
+
+### [egui]
+
+[egui] by [@emilk] is an easy-to-use immediate mode GUI library in pure Rust.
+
+This month [version 0.11] of egui was released, with many improvements,
+including optimized to run almost twice as fast!
+
+You can try out egui in the [online demo].
+
+[egui]: https://github.com/emilk/egui
+[online demo]: https://emilk.github.io/egui
+[version 0.11]: https://github.com/emilk/egui/blob/master/CHANGELOG.md
+[@emilk]: https://twitter.com/ernerfeldt
+
+### [bevy_egui]
+
+[![bevy_egui multiple windows support GIF](egui.gif)][bevy_egui]
+
+[bevy_egui] provides an [Egui](https://github.com/emilk/egui) integration
+for the [Bevy](https://github.com/bevyengine/bevy) game engine.
+It supports [bevy_webgl2] and implements the full set of Egui features
+(such as clipboard and opening URLs).
+
+In April, [version 0.4] was released, providing an integration with
+Egui 0.11 and implementing multiple windows support.
+
+Try out the [online demo](https://mvlabat.github.io/bevy_egui_web_showcase/index.html).
+
+[bevy_egui]: https://github.com/mvlabat/bevy_egui
+[bevy_webgl2]: https://github.com/mrk-its/bevy_webgl2
+[version 0.4]: https://github.com/mvlabat/bevy_egui/blob/main/CHANGELOG.md
+
+### [puffin_egui]
+
+![puffin_egui](puffin_egui.gif)
+
+[puffin_egui] by [@emilk] is an easy-to-use integration
+of the [puffin] profiler for the [egui] GUI library.
+
+It has never been easier to add an in-game flamegraph profiler to your game!
+
+[puffin_egui]: https://github.com/emilk/puffin_egui
+[puffin]: https://github.com/emilk/puffin
+[egui]: https://github.com/emilk/egui
+[@emilk]: https://twitter.com/ernerfeldt
 
 ### [rafx]
 
@@ -791,164 +910,6 @@ This month's changes include:
 [raui-git]: https://github.com/PsichiX/raui
 [raui-todo-app]: https://github.com/PsichiX/raui/tree/master/demos/todo-app
 
-### [profiling]
-
-[![Screenshot of Optick Profiler](profiling.png)](profiling.png)
-
-This month, version 1.0 of [profiling] was released on crates.io. 🎉 🎉
-
-This crate provides a very thin abstraction over instrumented profiling crates
-like `puffin`, `optick`, `tracing`, `tracy`, and `superluminal-perf`.
-
-Profiling is used by multiple projects including `gfx-hal`, `rafx`, and
-`wgpu`.
-
-[profiling]: https://crates.io/crates/profiling
-
-### [simple-async-local-executor]
-
-```rust
-let executor = Executor::default();
-let events = [executor.create_event_handle(), executor.create_event_handle()];
-
-async fn wait_event(events: [EventHandle; 2], executor: Executor) {
-    executor.event(&events[0]).await;
-    executor.event(&events[1]).await;
-}
-
-executor.spawn(wait_event(events.clone(), executor.clone()));
-assert_eq!(executor.step(), true);
-assert_eq!(executor.step(), true);
-executor.notify_event(&events[0]);
-assert_eq!(executor.step(), true);
-executor.notify_event(&events[1]);
-assert_eq!(executor.step(), false);
-```
-
-[simple-async-local-executor] by [Enlightware]
-is a single-threaded polling-based executor suitable for use in games, embedded
-systems or WASM.
-
-This executor can be useful when the number of tasks is small or
-if a small percentage is blocked. Being polling-based, in the general
-case it trades off efficiency for simplicity and does not require any
-concurrency primitives such as `Arc`, etc.
-
-[simple-async-local-executor]: https://github.com/enlightware/simple-async-local-executor
-[Enlightware]: https://enlightware.ch
-
-### [egui]
-
-[egui] by [@emilk] is an easy-to-use immediate mode GUI library in pure Rust.
-
-This month [version 0.11] of egui was released, with many improvements,
-including optimized to run almost twice as fast!
-
-You can try out egui in the [online demo].
-
-[egui]: https://github.com/emilk/egui
-[online demo]: https://emilk.github.io/egui
-[version 0.11]: https://github.com/emilk/egui/blob/master/CHANGELOG.md
-[@emilk]: https://twitter.com/ernerfeldt
-
-### [bevy_egui]
-
-[![bevy_egui multiple windows support GIF](egui.gif)][bevy_egui]
-
-[bevy_egui] provides an [Egui](https://github.com/emilk/egui) integration
-for the [Bevy](https://github.com/bevyengine/bevy) game engine.
-It supports [bevy_webgl2] and implements the full set of Egui features
-(such as clipboard and opening URLs).
-
-In April, [version 0.4] was released, providing an integration with
-Egui 0.11 and implementing multiple windows support.
-
-Try out the [online demo](https://mvlabat.github.io/bevy_egui_web_showcase/index.html).
-
-[bevy_egui]: https://github.com/mvlabat/bevy_egui
-[bevy_webgl2]: https://github.com/mrk-its/bevy_webgl2
-[version 0.4]: https://github.com/mvlabat/bevy_egui/blob/main/CHANGELOG.md
-
-### [puffin_egui]
-
-![puffin_egui](puffin_egui.gif)
-
-[puffin_egui] by [@emilk] is an easy-to-use integration
-of the [puffin] profiler for the [egui] GUI library.
-
-It has never been easier to add an in-game flamegraph profiler to your game!
-
-[puffin_egui]: https://github.com/emilk/puffin_egui
-[puffin]: https://github.com/emilk/puffin
-[egui]: https://github.com/emilk/egui
-[@emilk]: https://twitter.com/ernerfeldt
-
-### [chip-8-rs]
-
-![Screenshot of Pong with debugger](chip-8-rs.jpg)
-_Debugging Pong_
-
-[Chip-8-rs][chip-8-rs] by @jonathanmurray is
-a _CHIP-8_ emulator with some basic debugging functionality.
-
-When running a game through the emulator, CHIP-8 instructions are listed
-next to the main display, with the currently executed one highlighted. By
-running at a very low clock-frequency (and pausing/resuming) you can step
-through a program one instruction at a time, to better understand how it
-works (or doesn't work!).
-
-See it in action on [YouTube][chip-8-rs-video].
-
-[chip-8-rs]: https://github.com/JonathanMurray/chip-8-rs
-[chip-8-rs-video]: https://youtu.be/nVDJ5PZpPfI?t=72
-
-### [wasm_plugin]
-
-[wasm_plugin][wasm_plugin] by @alec-deason is a
-low-ish level tool for easily hosting WASM based plugins for modding or scripting.
-
-The latest version now supports calling host functions from the plugin and more
-flexible serialization which allows plugins to be written in languages other
-than Rust.
-
-It consists of two crates:
-
-- [wasm_plugin_host] which wraps a wasmer instance with methods for calling
-  functions on the guest plugin.
-- [wasm_plugin_guest] which provides an attribute macro to easily import and
-- export functions to the host.
-
-[wasm_plugin]: https://github.com/alec-deason/wasm_plugin
-[wasm_plugin_host]: https://lib.rs/crates/wasm_plugin_host
-[wasm_plugin_guest]: https://lib.rs/crates/wasm_plugin_guest
-
-### [nalgebra]
-
-![nalgebra](https://www.nalgebra.org/img/logo_nalgebra.svg)
-
-[nalgebra] ([GitHub], [Discord]) by [Dimforge] is a general-purpose
-linear-algebra library.
-
-With its version 0.26, [nalgebra] replaced the use of [generic-arrays] by
-regular Rust arrays using const-generics. See the [blog-post] to get all
-the details! In particular, this results in significant benefits:
-
-- Simpler generic programming with statically-sized vectors/matrices.
-- Much simpler debugging: inspect the content of vectors/matrices more easily.
-- Vectors and matrices with dimensions known at compile-time can be
-  constructed in a const-fn context.
-
-_Discussions: [/r/rust], [Twitter]_
-
-[nalgebra]: http://nalgebra.org
-[GitHub]: http://github.com/dimforge/nalgebra
-[Discord]: http://discord.gg/vt9DJSW
-[Dimforge]: http://dimforge.com
-[generic-arrays]: https://docs.rs/generic-array/0.14.4/generic_array/
-[blog-post]: https://www.dimforge.com/blog/2021/04/12/integrating-const-generics-to-nalgebra/
-[/r/rust]: https://www.reddit.com/r/rust/comments/mph8jr/integrating_constgenerics_to_nalgebra_026/
-[Twitter]: https://twitter.com/dimforge/status/1381643543626842114
-
 ### [Graphite][graphite-repo]
 
 ![Ferris drawn in Graphite using the new drawing tools - Art credit: Uriopass](graphite-ferris.png)
@@ -978,6 +939,45 @@ code and how you can help!
 [graphite-discord]: https://github.com/GraphiteEditor/Graphite/blob/master/README.md#discord
 [graphite-twitter]: https://twitter.com/GraphiteEditor
 [graphite-live-demo]: https://editor.graphite.design/
+
+### [KindNES]
+
+![Super Mario Bros. running in KindNES](kindnes.png)
+
+[KindNES] by [@henryksloan]
+is a new NES emulator that supports sound, controllers, and
+much of the NES library.
+
+KindNES is designed to strike a balance between performance, hardware accuracy,
+and code clarity. It directly emulates the CPU, graphics, and sound of the NES
+with minimal approximation. The code is intended to pair well with the NESdev
+wiki as a resource for learning about the NES.
+
+KindNES is in a playable state, and is approaching a release version.
+Features planned before release include saving and an improved cross-platform
+GUI.
+
+[KindNES]: https://github.com/henryksloan/kind-nes/releases/tag/v0.9.1-beta
+[@henryksloan]: https://github.com/henryksloan
+
+### [chip-8-rs]
+
+![Screenshot of Pong with debugger](chip-8-rs.jpg)
+_Debugging Pong_
+
+[Chip-8-rs][chip-8-rs] by @jonathanmurray is
+a _CHIP-8_ emulator with some basic debugging functionality.
+
+When running a game through the emulator, CHIP-8 instructions are listed
+next to the main display, with the currently executed one highlighted. By
+running at a very low clock-frequency (and pausing/resuming) you can step
+through a program one instruction at a time, to better understand how it
+works (or doesn't work!).
+
+See it in action on [YouTube][chip-8-rs-video].
+
+[chip-8-rs]: https://github.com/JonathanMurray/chip-8-rs
+[chip-8-rs-video]: https://youtu.be/nVDJ5PZpPfI?t=72
 
 ## Requests for Contribution
 
