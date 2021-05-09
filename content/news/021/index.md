@@ -680,7 +680,7 @@ The team has rolled out gfx-hal-0.8 and wgpu-0.8 updates on crates!
 Read [gfx-release-blog] for more details.
 
 In April, the team implemented more validation on both the host and the shader
-sides. [Naga]'s coverage of SPIR-V and MSL features is also greately improved.
+sides. [Naga]'s coverage of SPIR-V and MSL features is also greatly improved.
 
 On the infrastructure side, [wgpu] integrated [profiling] and got the first
 [naga performance][naga perf numbers] numbers, which looked promising.
@@ -759,7 +759,7 @@ rendering feature implementations (i.e. meshes, text etc.) and avoids running
 the extract-prepare-submit pipeline on entities that are not visible.
 
 [@aclysma] implemented an OpenGL ES 2.0 backend. While ES2 cannot support all
-funcionality in `rafx-api`, it provides very broad compatibility. This means
+functionality in `rafx-api`, it provides very broad compatibility. This means
 the core functionality of rafx-api can be used with almost any mobile device
 or browser ([~98% web coverage][rafx-webgl-caniuse].)
 
