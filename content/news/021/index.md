@@ -1,8 +1,7 @@
 +++
 title = "This Month in Rust GameDev #21 - April 2021"
-date = 2021-05-04
+date = 2021-05-09
 transparent = true
-draft = true
 +++
 
 Welcome to the 21st issue of the Rust GameDev Workgroup's
@@ -34,11 +33,7 @@ Feel free to send PRs about your own projects!
 - [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
 - [Library & Tooling Updates](#library-tooling-updates)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
-- [Meeting Minutes](#meeting-minutes)
 - [Requests for Contribution](#requests-for-contribution)
-- [Jobs](#jobs)
-- [Bonus](#bonus)
 
 <!--
 Ideal section structure is:
@@ -72,10 +67,10 @@ ecosystem. This month, we heard a talk about threading in WASM, profiling,
 getting a game ready for release, and much more. You can watch the recording of
 the meetup [here on Youtube][gamedev-meetup-video].
 
-The next meetup will take place on the 8th of May at 16:00 GMT on the [Rust
+The meetups take place on the second Saturday every month via the [Rust
 Gamedev Discord server][rust-gamedev-discord], and can also be [streamed on
 Twitch][rust-gamedev-twitch]. If you would like to show off what you've been
-working on, fill out [this form][gamedev-meetup-form].
+working on in a future meetup, fill out [this form][gamedev-meetup-form].
 
 [gamedev-meetup-form]: https://forms.gle/BS1zCyZaiUFSUHxe6
 [gamedev-meetup-video]: https://www.youtube.com/watch?v=XE0lH0tlbBs
@@ -359,7 +354,7 @@ The music system was expanded to support combat music.
 
 Veloren's financial state was overhauled to examine previous expenses, and
 prepare for provisioning the dedicated server. Functionality was added to switch
-between server-authoratative and client-authoratative physics. Skeletons for
+between server-authoritative and client-authoritative physics. Skeletons for
 big-winged creatures were added. Data being sent over the network is being
 optimized to reduce the amount of bandwidth players have to use.
 
@@ -430,7 +425,7 @@ are rolled, spawned, and how their effects are applied to the game.
 [![Station Iapetus Youtube](station-iapetus.jpg)][si-youtube]
 
 [Station Iapetus][Station Iapetus] by [@mrDIMAS] is a 3rd person shooter on the
-prison Iapetus near the Saturn.
+prison Iapetus near Saturn.
 This month's updates include:
 
 - New level (lab)
@@ -519,7 +514,7 @@ the recent engine updates:
 - WebAssembly support ([check online demo][rg3d_wasm_demo])
 - Proc-macro for Visit trait
 - On-demand texture compression
-- Performace improvements
+- Performance improvements
 - Various bug fixes and small improvements.
 
 [rg3d]: https://github.com/mrDIMAS/rg3d
@@ -685,7 +680,7 @@ The team has rolled out gfx-hal-0.8 and wgpu-0.8 updates on crates!
 Read [gfx-release-blog] for more details.
 
 In April, the team implemented more validation on both the host and the shader
-sides. [Naga]'s coverage of SPIR-V and MSL features is also greately improved.
+sides. [Naga]'s coverage of SPIR-V and MSL features is also greatly improved.
 
 On the infrastructure side, [wgpu] integrated [profiling] and got the first
 [naga performance][naga perf numbers] numbers, which looked promising.
@@ -697,25 +692,32 @@ On the infrastructure side, [wgpu] integrated [profiling] and got the first
 [gfx-release-blog]: https://gfx-rs.github.io/2021/04/30/release-0.8.html
 [naga perf numbers]: https://github.com/gfx-rs/wgpu-rs/discussions/879
 
-### [KindNES]
+### [nalgebra]
 
-![Super Mario Bros. running in KindNES](kindnes.png)
+![nalgebra](https://www.nalgebra.org/img/logo_nalgebra.svg)
 
-[KindNES] by [@henryksloan]
-is a new NES emulator that supports sound, controllers, and
-much of the NES library.
+[nalgebra] ([GitHub], [Discord]) by [Dimforge] is a general-purpose
+linear-algebra library.
 
-KindNES is designed to strike a balance between performance, hardware accuracy,
-and code clarity. It directly emulates the CPU, graphics, and sound of the NES
-with minimal approximation. The code is intended to pair well with the NESdev
-wiki as a resource for learning about the NES.
+With its version 0.26, [nalgebra] replaced the use of [generic-arrays] by
+regular Rust arrays using const-generics. See the [blog-post] to get all
+the details! In particular, this results in significant benefits:
 
-KindNES is in a playable state, and is approaching a release version.
-Features planned before release include saving and an improved cross-platform
-GUI.
+- Simpler generic programming with statically-sized vectors/matrices.
+- Much simpler debugging: inspect the content of vectors/matrices more easily.
+- Vectors and matrices with dimensions known at compile-time can be
+  constructed in a const-fn context.
 
-[KindNES]: https://github.com/henryksloan/kind-nes/releases/tag/v0.9.1-beta
-[@henryksloan]: https://github.com/henryksloan
+_Discussions: [/r/rust], [Twitter]_
+
+[nalgebra]: http://nalgebra.org
+[GitHub]: http://github.com/dimforge/nalgebra
+[Discord]: http://discord.gg/vt9DJSW
+[Dimforge]: http://dimforge.com
+[generic-arrays]: https://docs.rs/generic-array/0.14.4/generic_array/
+[blog-post]: https://www.dimforge.com/blog/2021/04/12/integrating-const-generics-to-nalgebra/
+[/r/rust]: https://www.reddit.com/r/rust/comments/mph8jr/integrating_constgenerics_to_nalgebra_026/
+[Twitter]: https://twitter.com/dimforge/status/1381643543626842114
 
 ### [opensubdiv-petite]
 
@@ -747,54 +749,6 @@ The car model above was borrowed from [@quaternius] low poly
 [@virtualritz]: https://github.com/virtualritz
 [@quaternius]: https://www.patreon.com/quaternius
 [car collection on itch.io]: https://quaternius.itch.io/lowpoly-cars
-
-### [rafx]
-
-[![Rafx WebGL 1.0 Demo](rafx-webgl1-demo.png)][rafx-webgl-demo]
-_Rafx WebGL 1.0 support, [click for live demo][rafx-webgl-demo]!_
-
-Rafx is a multi-backend renderer that optionally integrates with the
-[distill][rafx-distill] asset pipeline. This month, frustum culling
-and a new OpenGL ES 2.0/WebGL 1.0 backend were added.
-
-[@dvd] revived the `rafx-visibility` crate and implemented frustum culling.
-Frustum culling greatly reduces draw call counts, improving frame rate
-in certain scenes. The changes also improve consistency between various
-rendering feature implementations (i.e. meshes, text etc.) and avoids running
-the extract-prepare-submit pipeline on entities that are not visible.
-
-[@aclysma] implemented an OpenGL ES 2.0 backend. While ES2 cannot support all
-funcionality in `rafx-api`, it provides very broad compatibility. This means
-the core functionality of rafx-api can be used with almost any mobile device
-or browser ([~98% web coverage][rafx-webgl-caniuse].)
-
-[rafx]: https://github.com/aclysma/rafx
-[rafx-webgl-demo]: https://aclysma.github.io/rafx/demo-web/index.html
-[rafx-distill]: https://github.com/amethyst/distill
-[rafx-webgl-caniuse]: https://caniuse.com/?search=webgl
-[@aclysma]: https://github.com/aclysma
-[@dvd]: https://github.com/DavidVonDerau
-
-### [RAUI v0.34.0][raui-git]
-
-![RAUI Scroll Box](raui-scroll-box.gif)
-_RAUI Scroll Box_
-
-[RAUI][raui-git] by [@PsichiX][psichix-twitter] is a Renderer Agnostic User
-Interface crate that is based on declarative mode UI composition similar to
-React.js and UE4 Slate system.
-
-This month's changes include:
-
-- Moved from `widget_hooks!` and `widget_component!` to `#[pre_hooks]`and
-  `#[post_hooks]` macros.
-- Added `PropsData` and `MessageData` derive macros.
-- Improved support for Scroll Box widgets to allow frictionless usage.
-- Added use of Scroll Box in [TODO demo app][raui-todo-app] to demonstrate how
-  to use it.
-
-[raui-git]: https://github.com/PsichiX/raui
-[raui-todo-app]: https://github.com/PsichiX/raui/tree/master/demos/todo-app
 
 ### [profiling]
 
@@ -842,6 +796,26 @@ concurrency primitives such as `Arc`, etc.
 [simple-async-local-executor]: https://github.com/enlightware/simple-async-local-executor
 [Enlightware]: https://enlightware.ch
 
+### [wasm_plugin]
+
+[wasm_plugin][wasm_plugin] by @alec-deason is a
+low-ish level tool for easily hosting WASM based plugins for modding or scripting.
+
+The latest version now supports calling host functions from the plugin and more
+flexible serialization which allows plugins to be written in languages other
+than Rust.
+
+It consists of two crates:
+
+- [wasm_plugin_host] which wraps a wasmer instance with methods for calling
+  functions on the guest plugin.
+- [wasm_plugin_guest] which provides an attribute macro to easily import and
+- export functions to the host.
+
+[wasm_plugin]: https://github.com/alec-deason/wasm_plugin
+[wasm_plugin_host]: https://lib.rs/crates/wasm_plugin_host
+[wasm_plugin_guest]: https://lib.rs/crates/wasm_plugin_guest
+
 ### [egui]
 
 [egui] by [@emilk] is an easy-to-use immediate mode GUI library in pure Rust.
@@ -888,71 +862,53 @@ It has never been easier to add an in-game flamegraph profiler to your game!
 [egui]: https://github.com/emilk/egui
 [@emilk]: https://twitter.com/ernerfeldt
 
-### [chip-8-rs]
+### [rafx]
 
-![Screenshot of Pong with debugger](chip-8-rs.jpg)
-_Debugging Pong_
+[![Rafx WebGL 1.0 Demo](rafx-webgl1-demo.png)][rafx-webgl-demo]
+_Rafx WebGL 1.0 support, [click for live demo][rafx-webgl-demo]!_
 
-[Chip-8-rs][chip-8-rs] by @jonathanmurray is
-a _CHIP-8_ emulator with some basic debugging functionality.
+Rafx is a multi-backend renderer that optionally integrates with the
+[distill][rafx-distill] asset pipeline. This month, frustum culling
+and a new OpenGL ES 2.0/WebGL 1.0 backend were added.
 
-When running a game through the emulator, CHIP-8 instructions are listed
-next to the main display, with the currently executed one highlighted. By
-running at a very low clock-frequency (and pausing/resuming) you can step
-through a program one instruction at a time, to better understand how it
-works (or doesn't work!).
+[@dvd] revived the `rafx-visibility` crate and implemented frustum culling.
+Frustum culling greatly reduces draw call counts, improving frame rate
+in certain scenes. The changes also improve consistency between various
+rendering feature implementations (i.e. meshes, text etc.) and avoids running
+the extract-prepare-submit pipeline on entities that are not visible.
 
-See it in action on [YouTube][chip-8-rs-video].
+[@aclysma] implemented an OpenGL ES 2.0 backend. While ES2 cannot support all
+functionality in `rafx-api`, it provides very broad compatibility. This means
+the core functionality of rafx-api can be used with almost any mobile device
+or browser ([~98% web coverage][rafx-webgl-caniuse].)
 
-[chip-8-rs]: https://github.com/JonathanMurray/chip-8-rs
-[chip-8-rs-video]: https://youtu.be/nVDJ5PZpPfI?t=72
+[rafx]: https://github.com/aclysma/rafx
+[rafx-webgl-demo]: https://aclysma.github.io/rafx/demo-web/index.html
+[rafx-distill]: https://github.com/amethyst/distill
+[rafx-webgl-caniuse]: https://caniuse.com/?search=webgl
+[@aclysma]: https://github.com/aclysma
+[@dvd]: https://github.com/DavidVonDerau
 
-### [wasm_plugin]
+### [RAUI v0.34.0][raui-git]
 
-[wasm_plugin][wasm_plugin] by @alec-deason is a
-low-ish level tool for easily hosting WASM based plugins for modding or scripting.
+![RAUI Scroll Box](raui-scroll-box.gif)
+_RAUI Scroll Box_
 
-The latest version now supports calling host functions from the plugin and more
-flexible serialization which allows plugins to be written in languages other
-than Rust.
+[RAUI][raui-git] by [@PsichiX][psichix-twitter] is a Renderer Agnostic User
+Interface crate that is based on declarative mode UI composition similar to
+React.js and UE4 Slate system.
 
-It consists of two crates:
+This month's changes include:
 
-- [wasm_plugin_host] which wraps a wasmer instance with methods for calling
-  functions on the guest plugin.
-- [wasm_plugin_guest] which provides an attribute macro to easily import and
-- export functions to the host.
+- Moved from `widget_hooks!` and `widget_component!` to `#[pre_hooks]`and
+  `#[post_hooks]` macros.
+- Added `PropsData` and `MessageData` derive macros.
+- Improved support for Scroll Box widgets to allow frictionless usage.
+- Added use of Scroll Box in [TODO demo app][raui-todo-app] to demonstrate how
+  to use it.
 
-[wasm_plugin]: https://github.com/alec-deason/wasm_plugin
-[wasm_plugin_host]: https://lib.rs/crates/wasm_plugin_host
-[wasm_plugin_guest]: https://lib.rs/crates/wasm_plugin_guest
-
-### [nalgebra]
-
-![nalgebra](https://www.nalgebra.org/img/logo_nalgebra.svg)
-
-[nalgebra] ([GitHub], [Discord]) by [Dimforge] is a general-purpose
-linear-algebra library.
-
-With its version 0.26, [nalgebra] replaced the use of [generic-arrays] by
-regular Rust arrays using const-generics. See the [blog-post] to get all
-the details! In particular, this results in significant benefits:
-
-- Simpler generic programming with statically-sized vectors/matrices.
-- Much simpler debugging: inspect the content of vectors/matrices more easily.
-- Vectors and matrices with dimensions known at compile-time can be
-  constructed in a const-fn context.
-
-_Discussions: [/r/rust], [Twitter]_
-
-[nalgebra]: http://nalgebra.org
-[GitHub]: http://github.com/dimforge/nalgebra
-[Discord]: http://discord.gg/vt9DJSW
-[Dimforge]: http://dimforge.com
-[generic-arrays]: https://docs.rs/generic-array/0.14.4/generic_array/
-[blog-post]: https://www.dimforge.com/blog/2021/04/12/integrating-const-generics-to-nalgebra/
-[/r/rust]: https://www.reddit.com/r/rust/comments/mph8jr/integrating_constgenerics_to_nalgebra_026/
-[Twitter]: https://twitter.com/dimforge/status/1381643543626842114
+[raui-git]: https://github.com/PsichiX/raui
+[raui-todo-app]: https://github.com/PsichiX/raui/tree/master/demos/todo-app
 
 ### [Graphite][graphite-repo]
 
@@ -963,7 +919,7 @@ Graphite ([GitHub][graphite-repo], [Discord][graphite-discord],
 [Twitter](https://twitter.com/GraphiteEditor)) is an in-progress vector and
 raster graphics editor built on a nondestructive node-based workflow.
 
-The team size has doubled in the past month— thank you to the new contributors!
+The team size has doubled in the past month — thank you to the new contributors!
 Since then, systems related to editor tools and data flow were added.
 The editor now has proper input behavior on the existing Rectangle and Ellipse Tools
 plus the new Shape and Line Tools while holding modifier keys.
@@ -984,31 +940,73 @@ code and how you can help!
 [graphite-twitter]: https://twitter.com/GraphiteEditor
 [graphite-live-demo]: https://editor.graphite.design/
 
-## Popular Workgroup Issues in Github
+### [KindNES]
 
-<!-- Up to 10 links to interesting issues -->
+![Super Mario Bros. running in KindNES](kindnes.png)
 
-## Meeting Minutes
+[KindNES] by [@henryksloan]
+is a new NES emulator that supports sound, controllers, and
+much of the NES library.
 
-<!-- Up to 10 most important notes + a link to the full details -->
+KindNES is designed to strike a balance between performance, hardware accuracy,
+and code clarity. It directly emulates the CPU, graphics, and sound of the NES
+with minimal approximation. The code is intended to pair well with the NESdev
+wiki as a resource for learning about the NES.
 
-[See all meeting issues][label_meeting] including full text notes
-or [join the next meeting][join].
+KindNES is in a playable state, and is approaching a release version.
+Features planned before release include saving and an improved cross-platform
+GUI.
 
-[label_meeting]: https://github.com/rust-gamedev/wg/issues?q=label%3Ameeting
+[KindNES]: https://github.com/henryksloan/kind-nes/releases/tag/v0.9.1-beta
+[@henryksloan]: https://github.com/henryksloan
+
+### [chip-8-rs]
+
+![Screenshot of Pong with debugger](chip-8-rs.jpg)
+_Debugging Pong_
+
+[Chip-8-rs][chip-8-rs] by @jonathanmurray is
+a _CHIP-8_ emulator with some basic debugging functionality.
+
+When running a game through the emulator, CHIP-8 instructions are listed
+next to the main display, with the currently executed one highlighted. By
+running at a very low clock-frequency (and pausing/resuming) you can step
+through a program one instruction at a time, to better understand how it
+works (or doesn't work!).
+
+See it in action on [YouTube][chip-8-rs-video].
+
+[chip-8-rs]: https://github.com/JonathanMurray/chip-8-rs
+[chip-8-rs-video]: https://youtu.be/nVDJ5PZpPfI?t=72
 
 ## Requests for Contribution
 
-<!-- Links to "good first issue"-labels or direct links to specific tasks -->
+- [femtovg is looking for help with the wgpu backend][femtovg-help].
+- [Embark's open issues][embark-open-issues] ([embark.rs]).
+- [gfx-rs's "contributor-friendly" issues][gfx-issues].
+- [wgpu's "help wanted" issues][wgpu-help-wanted].
+- [luminance's "low hanging fruit" issues][luminance-fruits].
+- [ggez's "good first issue" issues][ggez-issues].
+- [Veloren's "beginner" issues][veloren-beginner].
+- [Amethyst's "good first issue" issues][amethyst-issues].
+- [A/B Street's "good first issue" issues][abstreet-issues].
+- [Mun's "good first issue" issues][mun-issues].
+- [SIMple Mechanic's good first issues][simm-issues].
+- [Bevy's "good first issue" issues][bevy-issues].
 
-## Jobs
-
-<!-- An optional section for new jobs related to Rust gamedev -->
-
-## Bonus
-
-<!-- Bonus section to make the newsletter more interesting
-and highlight events from the past. -->
+[femtovg-help]: https://reddit.com/r/rust/comments/mfuo4m/femtovg_2d_vector_graphics_crate_is_looking_for
+[embark.rs]: https://embark.rs
+[embark-open-issues]: https://github.com/search?q=user:EmbarkStudios+state:open
+[gfx-issues]: https://github.com/gfx-rs/gfx/issues?q=is%3Aissue+is%3Aopen+label%3Acontributor-friendly
+[wgpu-help-wanted]: https://github.com/gfx-rs/wgpu-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
+[luminance-fruits]: https://github.com/phaazon/luminance-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22low+hanging+fruit%22
+[ggez-issues]: https://github.com/ggez/ggez/labels/%2AGOOD%20FIRST%20ISSUE%2A
+[veloren-beginner]: https://gitlab.com/veloren/veloren/issues?label_name=beginner
+[amethyst-issues]: https://github.com/amethyst/amethyst/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[abstreet-issues]: https://github.com/a-b-street/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
+[simm-issues]: https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue
+[bevy-issues]: https://github.com/bevyengine/bevy/labels/good%20first%20issue
 
 ------
 
