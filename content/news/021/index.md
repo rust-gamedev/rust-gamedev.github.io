@@ -858,7 +858,7 @@ of the [puffin] profiler for the [egui] GUI library.
 It has never been easier to add an in-game flamegraph profiler to your game!
 
 [puffin_egui]: https://github.com/emilk/puffin_egui
-[puffin]: https://github.com/emilk/puffin
+[puffin]: https://github.com/EmbarkStudios/puffin
 [egui]: https://github.com/emilk/egui
 [@emilk]: https://twitter.com/ernerfeldt
 
