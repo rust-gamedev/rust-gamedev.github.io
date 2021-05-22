@@ -3,8 +3,8 @@
 Thank you for contributing to the newsletter! 💖
 
 - [Writing Newsletter Sections](#writing-newsletter-sections)
-    - [Templates](#templates)
-    - [Style Guidelines](#style-guidelines)
+  - [Templates](#templates)
+  - [Style Guidelines](#style-guidelines)
 - [Becoming an Editor](#becoming-an-editor)
 
 ## Writing Newsletter Sections
@@ -85,22 +85,22 @@ _Discussions: [/r/rust_gamedev](link), [Twitter](link), [etc](link)_
 ### Style Guidelines
 
 - Run [MarkdownLint] against your changes with [our config][md-config].
-    - Most editors have a MarkdownLint plugin available
-      (e.g. [VS Code][md-vscode], [Sublime Text][md-sublime],
-      [Vim][md-vim]).
+  - Most editors have a MarkdownLint plugin available
+    (e.g. [VS Code][md-vscode], [Sublime Text][md-sublime],
+    [Vim][md-vim]).
 - Write in third-person perspective.
 - Lines should be no more than 80 characters long.
 - The rendered text should be under 1000 characters, and under 6
   paragraphs - this doesn't include markup/links/etc.
 - Do not use rich formatting (bold, italics, etc).
 - Avoid having multiple/nested bullet points.
-    - This guideline may be relaxed if your project has multiple parts that
-      aren't independent enough for their own sections.
+  - This guideline may be relaxed if your project has multiple parts that
+    aren't independent enough for their own sections.
 - Only include one image (<300kb) or GIF (<2.5mb).
-    - Images should be placed before text, with an optional caption and
-      mandatory alternate text for accessibility.
-    - Unless essential to demonstrating your project, prefer static images
-      over GIFs, to keep the file size down.
+  - Images should be placed before text, with an optional caption and
+    mandatory alternate text for accessibility.
+  - Unless essential to demonstrating your project, prefer static images
+    over GIFs, to keep the file size down.
 - Use singular 'they' if you’re not sure what someone's pronouns are.
 - If a project has been featured in previous newsletters, try to focus on
   what's new rather than repeating previous content.
@@ -128,16 +128,17 @@ you!
 
 Editors have two main responsibilities:
 
-* Gathering news and links over the course of the month
-* Reviewing, fixing and merging PRs
+- Gathering news and links over the course of the month
+- Reviewing, fixing and merging PRs
 
-Each month, one of the editors will be designated as the 'lead editor'. Their additional responsibilities are:
+Each month, one of the editors will be designated as the 'lead editor'. Their additional
+responsibilities are:
 
-* Creating and maintaining the coordination issue
-* Preparing the final draft
-* Publishing the newsletter
-* Linking to the newsletter on social media
-* Creating the files for next month's newsletter
+- Creating and maintaining the coordination issue
+- Preparing the final draft
+- Publishing the newsletter
+- Linking to the newsletter on social media
+- Creating the files for next month's newsletter
 
 The lead editor role rotates every month, to spread the workload fairly, but
 you can opt out if you want.
