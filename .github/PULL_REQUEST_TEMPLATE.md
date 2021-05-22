@@ -1,3 +1,3 @@
-Please, read the [contributing guidelines][contributing] before submitting a PR.
+<!-- Please, insert the parent issue's id below. Example: "_Part of #589_" -->
 
-[contributing]: https://github.com/rust-gamedev/rust-gamedev.github.io/blob/source/CONTRIBUTING.md
+_Part of #TODO_
