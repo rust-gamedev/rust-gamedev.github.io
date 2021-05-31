@@ -56,6 +56,35 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Veloren][veloren]
+
+![Airship](veloren.jpg) _The beginning of an exciting journey_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+Veloren's 3rd birthday was at the end of May, on the 25th! During the month,
+lots of systems were overhauled. Music changes were made to only play certain
+tracks in certain areas. Econsim was optimized, and many bugs were fixed. The
+minimap was overhauled, with many quality-of-life and visual improvements.
+Terrain compression speed was worked on, with many trials of different
+compression techniques.
+
+The large physics overhaul was merged, and lots of patches are being added to
+issues that popped up from it. You can see a small flight in action
+[here][veloren-glider]. Dungeons have been balanced, and many weapons have also
+seen changes. In June, 0.10 will be released.
+
+May's full weekly devlogs: "This Week In Veloren...":
+[#118](https://veloren.net/devblog-118),
+[#119](https://veloren.net/devblog-119),
+[#120](https://veloren.net/devblog-120).
+[#121](https://veloren.net/devblog-121).
+[#122](https://veloren.net/devblog-122).
+
+[veloren]: https://veloren.net
+[veloren-glider]: https://www.reddit.com/r/Veloren/comments/nc4tvo/i_cant_believe_how_beautiful_this_game_is/
+
 ## Engine Updates
 
 ## Learning Material Updates
