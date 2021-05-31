@@ -64,16 +64,16 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [naga]
 
+![Dota2 running on Naga](gfx-dota2-naga.jpg)
+
 Naga is a shader translation library in pure Rust, aiming to replace
 glsl-to-spirv and SPIRV-Cross.
 
-![Dota2 running on Naga](gfx-dota2-naga.jpg)
-
-In April we shared a glimpse of the performance difference with SPIRV-Cross
-on a single pipeline creation. In May, we did a full-fledged Dota2 run on
-[gfx-portability] without SPIRV-Cross. All shader translation done by [naga],
-roughly 4x as fast as the C++ alternative (with no pipeline caching involved).
-Read more on [gfx-naga-blog].
+In April the gfx-rs team shared a glimpse of the performance difference with
+SPIRV-Cross on a single pipeline creation. In May, they did a full-fledged
+Dota2 run on [gfx-portability] without SPIRV-Cross. All shader translation was
+done by [naga], roughly 4x as fast as the C++ alternative
+(with no pipeline caching involved). Read more on [gfx-naga-blog].
 
 [naga]: https://github.com/gfx-rs/naga
 [gfx-portability]: https://github.com/gfx-rs/portability
