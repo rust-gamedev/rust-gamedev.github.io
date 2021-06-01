@@ -78,8 +78,8 @@ seen changes. In June, 0.10 will be released.
 May's full weekly devlogs: "This Week In Veloren...":
 [#118](https://veloren.net/devblog-118),
 [#119](https://veloren.net/devblog-119),
-[#120](https://veloren.net/devblog-120).
-[#121](https://veloren.net/devblog-121).
+[#120](https://veloren.net/devblog-120),
+[#121](https://veloren.net/devblog-121),
 [#122](https://veloren.net/devblog-122).
 
 [veloren]: https://veloren.net
