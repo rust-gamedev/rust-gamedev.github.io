@@ -58,6 +58,15 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Engine Updates
 
+### [Rustcraft][rustcraft]
+
+![rustcraft-img](rustcraft.png)
+
+[Rustcraft][rustcraft] by [@dskart]
+is Rustcraft a simple Minecraft engine written in rust using wgpu. 
+
+[rustcraft]: https://github.com/dskart/rustcraft
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
