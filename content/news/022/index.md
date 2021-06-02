@@ -116,7 +116,7 @@ Recent updates include:
 - Implemented entity system draft.
 - Sanitized coordinate systems everywhere (ooof!)
 - Much refactoring.
-- Resumed river generation developmeng.
+- Resumed river generation development.
 
 _Discussions: [Twitter][pglowrpg-twitter]_
 
