@@ -12,6 +12,20 @@ pre > code {
     background-color: inherit;
 }
 
+.site-header {
+    // To avoid a thick black line on top of the page.
+    border-top: none;
+
+    // To center the site's title.
+    text-align: center;
+}
+
+.site-title {
+    // To center the site's title.
+    float: none;
+    padding: 0;
+}
+
 .intro {
     color: #ffffff;
     background-color: $brand-color;

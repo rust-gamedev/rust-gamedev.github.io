@@ -25,17 +25,18 @@
 
 <div class="home wrapper">
     <h2 class="post-list-heading">{{ section.title | default(value="Latest News") }}</h2>
-    
-    {% set posts = get_section(path="posts/_index.md") %}
-    {% set pages = posts.pages | slice(end=config.extra.home.max_posts) %}
-    {{ macros::post_list(posts=pages, placeholder="None yet - stay tuned for updates and announcements!") }}
+    {% set posts_news = get_section(path="news/_index.md") %}
+    {% set pages_news = posts_news.pages | slice(end=config.extra.home.max_posts) %}
+    {{ macros::post_list(posts=pages_news, placeholder="None yet - stay tuned for updates and announcements!") }}
+
+    <h2 class="post-list-heading">{{ section.title | default(value="Latest Blog Posts") }}</h2>
+    {% set posts_blog = get_section(path="blog/_index.md") %}
+    {% set pages_blog = posts_blog.pages | slice(end=config.extra.home.max_posts) %}
+    {{ macros::post_list(posts=pages_blog, placeholder="None yet - stay tuned for updates and announcements!") }}
 
     <p class="feed-subscribe">
-        {% if pages | length > 0 %}
-        <a class="btn" id="all-news" href="{{ get_url(path='posts/') }}">
-            All News
-        </a>
-        {% endif %}
+        <a class="btn" id="all-news" href="{{ get_url(path='news/') }}">All News</a>
+        <a class="btn" id="all-blog-posts" href="{{ get_url(path='blog/') }}">All Blog Posts</a>
         <a href="{{ get_url(path='rss.xml') }}">
             <svg class="svg-icon orange"><use xlink:href="{{ get_url(path='minima-social-icons.svg#rss') }}"></use></svg><span>Subscribe</span>
         </a>
