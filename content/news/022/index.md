@@ -56,6 +56,22 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### Flesh
+
+![flesh preview](flesh.gif)
+_a new enemy_
+
+Flesh by [@im_oab] is a 2D-horizontal shmup game with hand-drawn animation and
+organic/fleshy theme. It is implemented using [Tetra]. This month's updates
+include:
+
+- Add (internal use) level editor.
+- Add new enemy types.
+- Prepare to release a short demo next month for collecting feedback.
+
+[@im_oab]: https://twitter.com/im_oab
+[Tetra]: https://github.com/17cupsofcoffee/tetra
+
 ### [Veloren][veloren]
 
 ![Airship](veloren.jpg) _The beginning of an exciting journey_
