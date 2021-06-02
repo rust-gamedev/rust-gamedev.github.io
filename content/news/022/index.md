@@ -103,8 +103,8 @@ May's full weekly devlogs: "This Week In Veloren...":
 
 ### [The Process]
 
-![Animated image showing a small factory in the middle of the game island](the_process.gif)
-_This factory has never looked livelier!_
+![Animated image showing a small factory in the middle of the game
+island](the_process.gif) _This factory has never looked livelier!_
 
 [The Process] by @setzer22 is an upcoming game about factory building, process
 management and carrot production, built with Rust using the Godot game engine!
@@ -112,10 +112,15 @@ management and carrot production, built with Rust using the Godot game engine!
 This month has been focused on improving the game's UI and extending the machine
 logistics system, but there was also room for a few cosmetic improvements:
 
-- Improved visualization of connections in the [logistic network](https://twitter.com/PlayTheProcess/status/1391484080798281728).
-- Implemented configurable filters for machines to build a [sorting machine](https://twitter.com/PlayTheProcess/status/1392894719311613953)!
-- New materials and [terrain shader](https://twitter.com/PlayTheProcess/status/1396175924652019718).
-- [Trees and dynamically updating grass](https://twitter.com/PlayTheProcess/status/1399774534417498121) using instanced rendering.
+- Improved visualization of connections in the [logistic
+  network](https://twitter.com/PlayTheProcess/status/1391484080798281728).
+- Implemented configurable filters for machines to build a [sorting
+  machine](https://twitter.com/PlayTheProcess/status/1392894719311613953)!
+- New materials and [terrain
+  shader](https://twitter.com/PlayTheProcess/status/1396175924652019718).
+- [Trees and dynamically updating
+  grass](https://twitter.com/PlayTheProcess/status/1399774534417498121) using
+  instanced rendering.
 
 _Discussions:
 [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/nbmfvz/better_logistics_in_the_process_made_with_godot/),
