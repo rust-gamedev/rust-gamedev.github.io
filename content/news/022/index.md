@@ -63,7 +63,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ![rustcraft-img](rustcraft.png)
 
 [Rustcraft][rustcraft] by [@dskart]
-is Rustcraft a simple Minecraft engine written in rust using wgpu. 
+is a simple Minecraft engine written in Rust using wgpu. 
 
 [rustcraft]: https://github.com/dskart/rustcraft
 
