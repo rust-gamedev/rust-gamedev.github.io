@@ -103,8 +103,8 @@ May's full weekly devlogs: "This Week In Veloren...":
 
 ### [The Process]
 
-![Animated image showing a small factory in the middle of the game
-island](the_process.gif) _This factory has never looked livelier!_
+![Animated image showing a small factory in the middle of the game island](the_process.gif)
+_This factory has never looked livelier!_
 
 [The Process] by @setzer22 is an upcoming game about factory building, process
 management and carrot production, built with Rust using the Godot game engine!
