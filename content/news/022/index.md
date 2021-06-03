@@ -146,6 +146,37 @@ done by [naga], roughly 4x as fast as the C++ alternative
 [gfx-portability]: https://github.com/gfx-rs/portability
 [gfx-naga-blog]: https://gfx-rs.github.io/2021/05/09/dota2-msl-compilation.html
 
+### [Bevy Retro][bevy_retro]
+
+![ui-example](bevy-retro.gif)
+_Bevy Retro UI example_
+
+[Bevy Retro][bevy_retro] is a [Bevy] plugin designed for making pixel-perfect
+games as easily as possible.
+
+This project was released under the [Katharos License][katharos_license]. This
+license has moral and ethical implications that you may or may not agree with,
+so please read it before making use of this project.
+
+In the last two months Bevy Retro has gained a few new features, the biggest of
+which being an integration with the [RAUI]  UI library ( also featured in this
+newsletter ), allowing you to design fully-fledged user interface for Bevy Retro
+games. Additional features added were:
+
+- A simple sound playing API
+- Text rendering for the BDF font format
+- Custom render hook support allowing you to use raw [Luminance] API calls to render
+  anything you want into the low-resolution framebuffer
+
+You can ask questions or give feedback for Bevy Retro
+[on GitHub](https://github.com/katharostech/bevy_retro/discussions).
+
+[bevy_retro]: https://github.com/katharostech/bevy_retro
+[Bevy]: https://bevyengine.org
+[katharos_license]: https://github.com/katharostech/katharos-license
+[Luminance]: https://github.com/phaazon/luminance-rs
+[RAUI]: https://raui-labs.github.io/raui/
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
