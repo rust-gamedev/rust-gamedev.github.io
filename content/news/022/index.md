@@ -148,7 +148,7 @@ done by [naga], roughly 4x as fast as the C++ alternative
 
 ### [rafx]
 
-![Rafx Wireframe Demo](rafx-wireframe-demo.jpg)]
+![Rafx Wireframe Demo](rafx-wireframe-demo.jpg)
 _Demo with wireframes enabled_
 
 Rafx is a multi-backend renderer that optionally integrates with the
