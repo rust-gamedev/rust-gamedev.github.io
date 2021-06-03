@@ -129,6 +129,24 @@ multiple turn lanes, U-turns, and stop signs much better.
 
 ## Library & Tooling Updates
 
+### [egui]
+
+![egui](egui.gif)
+
+[egui] by [@emilk] is an easy-to-use immediate mode GUI library in pure Rust.
+
+This month [version 0.12] of egui was released, with improved plots,
+multitouch, user memory stores, window pivots, and more.
+
+You can try out egui in the [online demo].
+
+_Discussions: [/r/rust](https://www.reddit.com/r/rust/comments/n9f6vt/announcing_egui_012_the_simple_gui_library/)
+
+[egui]: https://github.com/emilk/egui
+[online demo]: https://emilk.github.io/egui
+[version 0.12]: https://github.com/emilk/egui/blob/master/CHANGELOG.md
+[@emilk]: https://twitter.com/ernerfeldt
+
 ### [naga]
 
 ![Dota2 running on Naga](gfx-dota2-naga.jpg)
