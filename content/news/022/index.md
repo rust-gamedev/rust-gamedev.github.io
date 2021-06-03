@@ -160,7 +160,7 @@ them easier to implement while supporting concurrent execution and reducing
 dynamic allocation. They also integrate with a visibility system to ensure that
 off-screen objects are not processed.
 
-[@aclysma] continued work on OpenGL ES 2.0/3.0 backends and documentated
+[@aclysma] continued work on OpenGL ES 2.0/3.0 backends and documented
 [implementation details][rafx-implementation-details] of currently available
 rendering backends.
 
