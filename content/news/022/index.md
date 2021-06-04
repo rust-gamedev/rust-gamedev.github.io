@@ -125,11 +125,12 @@ multiple turn lanes, U-turns, and stop signs much better.
 
 ### Harvest Hero & Harvest Hero Origins
 
-![Harvest Hero Origins supports local multiplayer](./hho_2.gif)
+![Harvest Hero Origins supports local multiplayer](./hho.gif)
 
-Harvest Hero is currently on hold for now. After I formed
-[Gemdrop Games], I've decided
-that I really want to ensure that [Emerald] can withstand cross publishing.
+Harvest Hero is currently on hold for now. After
+[Gemdrop Games] was formed, it was decided
+that [Emerald] needed to be tested to ensure it can withstand cross
+publishing.
 This means creating a smaller game in the
 engine in order to figure out the publishing process for
 Steam, Itch, Nintendo Switch, etc. and guarantee it's viable.
