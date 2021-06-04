@@ -216,17 +216,19 @@ and breaking blocks.
 
 ## Learning Material Updates
 
+### [LD48: Rusty MMO in 48 Hours][ld48-mmo]
 
-### LD48: Rusty MMO in 48 Hours
 ![A screenshot of Dig World gameplay](https://img.itch.zone/aW1nLzYwMDQyNzkucG5n/original/VNIJnu.png)
+
 @kuviman wrote a devlog about his experience writing a video game in Rust.
 
-He needed to make a game in just 48 hours for the Ludum Dare 48 (LD48) game jam, so he chose a simple theme: digging. 
+He needed to make a game in just 48 hours for the Ludum Dare 48 (LD48) game jam, so he chose a simple theme: digging.
+
 20 hours later, he had a full-fledged MMO - complete with hackers!
 
 _Discussion: [r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/nhdwky/i_used_rust_to_make_an_mmo_in_48_hours_for/?utm_source=share&utm_medium=web2x&context=3)_
 
-So I made an MMO in 48 hours: https://kuviman.itch.io/dig-world/devlog/255566/so-i-made-an-mmo-in-48-hours
+[ld48-mmo]: https://kuviman.itch.io/dig-world/devlog/255566/so-i-made-an-mmo-in-48-hours
 ## Library & Tooling Updates
 
 ### [egui]
