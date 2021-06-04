@@ -287,6 +287,23 @@ You can ask questions or give feedback for Bevy Retro
 [Luminance]: https://github.com/phaazon/luminance-rs
 [RAUI]: https://raui-labs.github.io/raui/
 
+### [Texture Generator]
+
+![A tilemap with procedural textures](texture-generator.png)
+_A preview to version 0.5 with furniture_
+
+[Texture Generator] by [Orchaldir] is a library to generate textures,
+and a library to use those textures to render tilemaps.
+Both libraries can generate color & depth images and
+support post processing effects like lighting & ambient occlusion.
+For randomness the instance id (e.g. the 145th brick) and/or the tile id are hashed.
+
+The [current release] focuses on furniture.
+
+[Texture Generator]: https://github.com/Orchaldir/texture_generator
+[Orchaldir]: https://github.com/Orchaldir
+[current release]: https://github.com/Orchaldir/texture_generator/projects/8
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
