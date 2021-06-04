@@ -173,6 +173,33 @@ _Discussions: [Twitter][pglowrpg-twitter]_
 [pglowrpg-twitter]: https://twitter.com/pglowrpg
 [pglowrpg-github]: https://github.com/roalyr/pglowrpg
 
+### [Bounty Bros.][bounty_bros]
+
+[![bounty-bros-title-screen](bounty-bros.png)][bounty_bros_webgame]
+_Click the image to play the game in your browser!_
+
+[Bounty Bros.][bounty_bros] is a prototype game, similar to the old Legend of
+Zelda® games, developed by [Katharos Technology][katharostech] as a testing
+ground for a future commercial game.
+
+The last two months of development was primarily focused on sound and user
+interface:
+
+- Music will play in different areas of the map and fade in when walking into
+  an area with different music.
+- In-game UI is now functional including a new start menu and a simple settings
+  menu to toggle the CRT filter and pixel aspect ratio.
+- The web-player now has a simple loading icon instead of a solid black screen.
+
+The web version was re-built and published under a new link so you can [try it
+in your browser][bounty_bros_webgame].
+
+You can read the full update in the [Blog Post][bounty_bros].
+
+[bounty_bros]: https://katharostech.com/post/bounty-bros-update-3-sound-and-ui
+[bounty_bros_webgame]: https://katharostech.github.io/skipngo_pre-releases/refs/tags/pre-release-1/?asset_url=https://katharostech.github.io/bounty-bros_pre-releases/1
+[katharostech]: https://katharostech.com
+
 ## Engine Updates
 
 ### [Rustcraft][rustcraft]
