@@ -381,6 +381,27 @@ a libretro core, and using wgpu instead of sdl for the native GUI and debugger.
 
 [nestadia]: https://github.com/zer0x64/nestadia
 
+### [tobj][tobj]
+
+`tobj` by [@Twinklebear] and [@virtualritz] is a simple and lightweight
+option for loading OBJ files. `tobj` was originally written inspired by
+[@syoyo]'s tinyobjloader, to provide a similar lightweight and easy to integrate
+API for loading OBJ files in Rust.
+
+While initially targeted at realtime rendering applications, `tobj` has gained
+more advanced importer functionality required for offline rendering,
+simulation, and modeling applications, through recent work by [@virtualritz].
+These features provide support for merging vertices to avoid discontinuities
+in simulation packages and reordering vertices to allow omitting the
+index buffer. This features have been added while preserving the original
+lightweight API design goal of `tobj`, making it a useful crate for a range of
+applications loading with OBJ files.
+
+[tobj]: https://github.com/Twinklebear/tobj
+[@Twinklebear]: https://github.com/Twinklebear/ 
+[@virtualritz]: https://github.com/virtualritz
+[@syoyo]: https://github.com/syoyo
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
