@@ -214,6 +214,33 @@ _Discussions: [Twitter][pglowrpg-twitter]_
 [pglowrpg-twitter]: https://twitter.com/pglowrpg
 [pglowrpg-github]: https://github.com/roalyr/pglowrpg
 
+### [Bounty Bros.][bounty_bros]
+
+[![bounty-bros-title-screen](bounty-bros.png)][bounty_bros_webgame]
+_Click the image to play the game in your browser!_
+
+[Bounty Bros.][bounty_bros] is a prototype game, similar to the old Legend of
+Zelda® games, developed by [Katharos Technology][katharostech] as a testing
+ground for a future commercial game.
+
+The last two months of development was primarily focused on sound and user
+interface:
+
+- Music will play in different areas of the map and fade in when walking into
+  an area with different music.
+- In-game UI is now functional including a new start menu and a simple settings
+  menu to toggle the CRT filter and pixel aspect ratio.
+- The web-player now has a simple loading icon instead of a solid black screen.
+
+The web version was re-built and published under a new link so you can [try it
+in your browser][bounty_bros_webgame].
+
+You can read the full update in the [Blog Post][bounty_bros].
+
+[bounty_bros]: https://katharostech.com/post/bounty-bros-update-3-sound-and-ui
+[bounty_bros_webgame]: https://katharostech.github.io/skipngo_pre-releases/refs/tags/pre-release-1/?asset_url=https://katharostech.github.io/bounty-bros_pre-releases/1
+[katharostech]: https://katharostech.com
+
 ## Engine Updates
 
 ### [Rustcraft][rustcraft]
@@ -369,6 +396,31 @@ extend the `asset` attribute to allow loading more complex assets. Stay tuned!
 [bevy_asset_loader]: https://github.com/NiklasEi/bevy_asset_loader
 [bevy]: https://github.com/bevyengine/bevy
 [@nikl_me]: https://twitter.com/nikl_me
+
+### [Nestadia][nestadia]
+
+![Zelda running on Nestadia](nestadia.png)
+
+[Nestadia][nestadia] by [@zer0x64], [@junior-n30] and [@CBenoit] is a
+server-based NES emulator.
+
+Nestadia was written as a reverse engineering and memory exploitation challenge
+for NorthSec CTF 2021, a cybersecurity competition. Contestants were required to
+reverse-engineer the emulator and ultimately write a Tool Assisted Speedrun to
+run arbitrary code inside a provided ROM.
+
+After the competition, the code was open-sourced and cleaned up to remove
+references to the competition. The developers intend on fixing more bugsand
+adding more features in the near future.
+
+Some interesting features of this emulator are its server-based nature, and the
+no_std core which means that the emulator can be built and ran pretty much
+anywhere without much work.
+
+Incoming improvements include online multiplayer, sound, a WASM port, porting to
+a libretro core, and using wgpu instead of sdl for the native GUI and debugger.
+
+[nestadia]: https://github.com/zer0x64/nestadia
 
 ## Popular Workgroup Issues in Github
 
