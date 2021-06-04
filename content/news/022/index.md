@@ -398,7 +398,7 @@ lightweight API design goal of `tobj`, making it a useful crate for a range of
 applications loading with OBJ files.
 
 [tobj]: https://github.com/Twinklebear/tobj
-[@Twinklebear]: https://github.com/Twinklebear/ 
+[@Twinklebear]: https://github.com/Twinklebear/
 [@virtualritz]: https://github.com/virtualritz
 [@syoyo]: https://github.com/syoyo
 
