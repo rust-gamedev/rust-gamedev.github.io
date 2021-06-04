@@ -101,6 +101,55 @@ May's full weekly devlogs: "This Week In Veloren...":
 [veloren]: https://veloren.net
 [veloren-glider]: https://www.reddit.com/r/Veloren/comments/nc4tvo/i_cant_believe_how_beautiful_this_game_is/
 
+### [A/B Street]
+
+![Most of West Seattle has poor access to public libraries](abstreet.png)
+
+[A/B Street] by [@dabreegster] is a traffic simulation game exploring how small
+changes to roads affect cyclists, transit users, pedestrians, and drivers, with
+support for any city with OpenStreetMap coverage. The project aims to engage
+more citizens with transportation planning, letting people advocate for real
+changes they want to see.
+
+In May, travel time stopped being the only "score" for how well road changes
+work. Risk exposure of cyclists crossing dangerous intersections or travelling
+in front of high-speed traffic is now measured, with lots of data visualization
+work by Michael. Trevor also revived the 15-minute isochrone tool, finding
+areas of a city without easy access to education, hospitals, or other
+facilities. We also moved the map import process, with over 100 supported maps,
+to the cloud from a single poor laptop. OpenStreetMap importing now handles
+multiple turn lanes, U-turns, and stop signs much better.
+
+[A/B Street]: https://github.com/a-b-street/abstreet
+[@dabreegster]: https://twitter.com/CarlinoDustin
+
+### [The Process]
+
+![Animated image showing a small factory in the middle of the game island](the_process.gif)
+_This factory has never looked livelier!_
+
+[The Process] by @setzer22 is an upcoming game about factory building, process
+management and carrot production, built with Rust using the Godot game engine!
+
+This month has been focused on improving the game's UI and extending the machine
+logistics system, but there was also room for a few cosmetic improvements:
+
+- Improved visualization of connections in the [logistic
+  network](https://twitter.com/PlayTheProcess/status/1391484080798281728).
+- Implemented configurable filters for machines to build a [sorting
+  machine](https://twitter.com/PlayTheProcess/status/1392894719311613953)!
+- New materials and [terrain
+  shader](https://twitter.com/PlayTheProcess/status/1396175924652019718).
+- [Trees and dynamically updating
+  grass](https://twitter.com/PlayTheProcess/status/1399774534417498121) using
+  instanced rendering.
+
+_Discussions:
+[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/nbmfvz/better_logistics_in_the_process_made_with_godot/),
+[Twitter](https://twitter.com/PlayTheProcess/status/1391484080798281728)_
+
+[The Process]: https://twitter.com/PlayTheProcess/
+
 ### [pGLOWrpg][pglowrpg-github]
 
 ![Game features](pglowrpg_progress.gif)
@@ -125,6 +174,18 @@ _Discussions: [Twitter][pglowrpg-twitter]_
 [pglowrpg-github]: https://github.com/roalyr/pglowrpg
 
 ## Engine Updates
+
+### [Rustcraft][rustcraft]
+
+![rustcraft-img](rustcraft.png)
+
+[Rustcraft][rustcraft] by [@dskart]
+is a simple Minecraft engine written in Rust using wgpu.
+
+It handles infinite world generation using gradient noise as well as placing
+and breaking blocks.
+
+[rustcraft]: https://github.com/dskart/rustcraft
 
 ## Learning Material Updates
 
