@@ -140,7 +140,7 @@ multitouch, user memory stores, window pivots, and more.
 
 You can try out egui in the [online demo].
 
-_Discussions: [/r/rust](https://www.reddit.com/r/rust/comments/n9f6vt/announcing_egui_012_the_simple_gui_library/)
+_Discussions: [/r/rust](https://www.reddit.com/r/rust/comments/n9f6vt/announcing_egui_012_the_simple_gui_library/)_
 
 [egui]: https://github.com/emilk/egui
 [online demo]: https://emilk.github.io/egui
