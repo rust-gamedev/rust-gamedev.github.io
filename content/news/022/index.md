@@ -163,6 +163,9 @@ inserted into Bevy's ECS as resources. Afterwards, the `AssetLoader` will
 switch into a second configurable app state. At this point, your app can use
 the asset collections that now contain loaded asset handles.
 
+Currently, a single file always corresponds to one asset and more complex
+assets like e.g. `TextureAtlas` are not yet supported. There are plans to
+extend the `asset` attribute to allow loading more complex assets. Stay tuned!
 
 [bevy_asset_loader]: https://github.com/NiklasEi/bevy_asset_loader
 [bevy]: https://github.com/bevyengine/bevy
