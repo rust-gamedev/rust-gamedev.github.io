@@ -146,6 +146,20 @@ done by [naga], roughly 4x as fast as the C++ alternative
 [gfx-portability]: https://github.com/gfx-rs/portability
 [gfx-naga-blog]: https://gfx-rs.github.io/2021/05/09/dota2-msl-compilation.html
 
+### [Texture Generator]
+
+![A tilemap with procedural textures](texture-generator.png)
+_A preview to version 0.5 with furniture_
+
+[Texture Generator] by [Orchaldir] is a library to generate textures,
+and a 2.library to use those textures to render tilemaps.
+
+The [current release] focuses on furniture.
+
+[Texture Generator]: https://github.com/Orchaldir/texture_generator
+[Orchaldir]: https://github.com/Orchaldir
+[current release]: https://github.com/Orchaldir/texture_generator/projects/8
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
