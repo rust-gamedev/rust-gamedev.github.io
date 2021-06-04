@@ -185,6 +185,36 @@ done by [naga], roughly 4x as fast as the C++ alternative
 [gfx-portability]: https://github.com/gfx-rs/portability
 [gfx-naga-blog]: https://gfx-rs.github.io/2021/05/09/dota2-msl-compilation.html
 
+### [rafx]
+
+![Rafx Wireframe Demo](rafx-wireframe-demo.jpg)
+_Demo with wireframes enabled_
+
+Rafx is a multi-backend renderer that optionally integrates with the
+[distill][rafx-distill] asset pipeline.
+
+This month, [@dvd] completed work on the new job system. It implements three
+steps: extract, prepare, and write. These jobs are now more structured, making
+them easier to implement while supporting concurrent execution and reducing
+dynamic allocation. They also integrate with a visibility system to ensure that
+off-screen objects are not processed.
+
+[@aclysma] continued work on OpenGL ES 2.0/3.0 backends and documented
+[implementation details][rafx-implementation-details] of currently available
+rendering backends.
+
+Additionally, some rendering features were improved and added: mesh rendering
+now uses an instance-rate vertex buffer instead of per-object uniforms,
+improving performance. Rendering features now support wireframe and untextured
+rendering modes. An egui render feature was added, and the demo now uses egui
+instead of imgui.
+
+[rafx]: https://github.com/aclysma/rafx
+[rafx-distill]: https://github.com/amethyst/distill
+[rafx-implementation-details]: https://github.com/aclysma/rafx/tree/master/docs/api/backends
+[@aclysma]: https://github.com/aclysma
+[@dvd]: https://github.com/DavidVonDerau
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
