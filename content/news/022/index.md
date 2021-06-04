@@ -125,6 +125,18 @@ multiple turn lanes, U-turns, and stop signs much better.
 
 ## Engine Updates
 
+### [Rustcraft][rustcraft]
+
+![rustcraft-img](rustcraft.png)
+
+[Rustcraft][rustcraft] by [@dskart]
+is a simple Minecraft engine written in Rust using wgpu.
+
+It handles infinite world generation using gradient noise as well as placing
+and breaking blocks.
+
+[rustcraft]: https://github.com/dskart/rustcraft
+
 ## Learning Material Updates
 
 ## Library & Tooling Updates
