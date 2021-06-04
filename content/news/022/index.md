@@ -329,6 +329,31 @@ extend the `asset` attribute to allow loading more complex assets. Stay tuned!
 [bevy]: https://github.com/bevyengine/bevy
 [@nikl_me]: https://twitter.com/nikl_me
 
+### [Nestadia][nestadia]
+
+![Zelda running on Nestadia](nestadia.png)
+
+[Nestadia][nestadia] by [@zer0x64], [@junior-n30] and [@CBenoit] is a
+server-based NES emulator.
+
+Nestadia was written as a reverse engineering and memory exploitation challenge
+for NorthSec CTF 2021, a cybersecurity competition. Contestants were required to
+reverse-engineer the emulator and ultimately write a Tool Assisted Speedrun to
+run arbitrary code inside a provided ROM.
+
+After the competition, the code was open-sourced and cleaned up to remove
+references to the competition. The developers intend on fixing more bugsand
+adding more features in the near future.
+
+Some interesting features of this emulator are its server-based nature, and the
+no_std core which means that the emulator can be built and ran pretty much
+anywhere without much work.
+
+Incoming improvements include online multiplayer, sound, a WASM port, porting to
+a libretro core, and using wgpu instead of sdl for the native GUI and debugger.
+
+[nestadia]: https://github.com/zer0x64/nestadia
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
