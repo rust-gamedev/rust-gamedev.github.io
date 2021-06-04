@@ -139,7 +139,7 @@ This resulted in the birth of [Harvest Hero Origins], a small wave
 defense arcade game with local co-op! Join the [Gemdrop Games Discord]
 to stay up to date with these games.
 
-Features
+Features:
 
 - Story Mode
 - Survival Mode (with local co-op)
