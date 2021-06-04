@@ -153,6 +153,9 @@ _A preview to version 0.5 with furniture_
 
 [Texture Generator] by [Orchaldir] is a library to generate textures,
 and a 2.library to use those textures to render tilemaps.
+Both libraries can generate color & depth images and
+support post processing effects like lighting & ambient occlusion.
+For randomness the instance id (e.g. the 145th brick) and/or the tile id are hashed.
 
 The [current release] focuses on furniture.
 
