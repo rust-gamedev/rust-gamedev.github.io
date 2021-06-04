@@ -123,6 +123,32 @@ multiple turn lanes, U-turns, and stop signs much better.
 [A/B Street]: https://github.com/a-b-street/abstreet
 [@dabreegster]: https://twitter.com/CarlinoDustin
 
+### Harvest Hero & Harvest Hero Origins
+
+![Harvest Hero Origins supports local multiplayer](./hho_2.gif)
+
+Harvest Hero is currently on hold for now. After I formed
+[Gemdrop Games], I've decided
+that I really want to ensure that [Emerald] can withstand cross publishing.
+This means creating a smaller game in the
+engine in order to figure out the publishing process for
+Steam, Itch, Nintendo Switch, etc. and guarantee it's viable.
+
+This resulted in the birth of [Harvest Hero Origins], a small wave
+defense arcade game with local co-op! Join the [Gemdrop Games Discord]
+to stay up to date with these games.
+
+Features
+- Story Mode
+- Survival Mode (with local co-op)
+    - Unlockable skins
+    - 2 unlockable playable characters
+
+[Emerald]: https://github.com/Bombfuse/emerald
+[Harvest Hero Origins]: https://gemdrop-games.itch.io/harvest-hero-origins
+[Gemdrop Games]: https://twitter.com/GemdropGames
+[Gemdrop Games Discord]: https://discord.gg/CJRbxQn3d9
+
 ## Engine Updates
 
 ## Learning Material Updates
