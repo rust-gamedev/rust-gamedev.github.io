@@ -150,6 +150,29 @@ _Discussions:
 
 [The Process]: https://twitter.com/PlayTheProcess/
 
+### [pGLOWrpg][pglowrpg-github]
+
+![Game features](pglowrpg_progress.gif)
+
+[pGLOWrpg][pglowrpg-github] by [@Roal_Yr]
+is a Procedurally Generated Living Open World RPG,
+a long-term project in development, which aims to be a narrative text-based game
+with maximum portability and accessibility.
+
+Recent updates include:
+
+- Implemented dev features test arena.
+- Implemented entity system draft.
+- Sanitized coordinate systems everywhere (ooof!)
+- Much refactoring.
+- Resumed river generation development.
+
+_Discussions: [Twitter][pglowrpg-twitter]_
+
+[@Roal_Yr]: https://twitter.com/Roal_Yr
+[pglowrpg-twitter]: https://twitter.com/pglowrpg
+[pglowrpg-github]: https://github.com/roalyr/pglowrpg
+
 ## Engine Updates
 
 ### [Rustcraft][rustcraft]
