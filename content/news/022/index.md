@@ -146,6 +146,28 @@ done by [naga], roughly 4x as fast as the C++ alternative
 [gfx-portability]: https://github.com/gfx-rs/portability
 [gfx-naga-blog]: https://gfx-rs.github.io/2021/05/09/dota2-msl-compilation.html
 
+### [bevy_asset_loader]
+
+![Configuring two asset collections](bevy_asset_loader.png)
+
+`bevy_asset_loader` by [@nikl_me] is a plugin for [Bevy][bevy] apps aiming to
+improve a common pattern for asset-loading. The boilerplate required to load
+assets during a "loading state" is reduced to a minimum. At the same time, the
+plugin brings together the internal names of assets and their filepath, making
+it easier to add new assets and to keep an overview over already existing ones.
+
+The library introduces the `AssetCollection` trait that can be derived. Any
+number of asset collections can be loaded by a single `AssetLoader` during a
+configured app state. When all assets are loaded, the collections will be
+inserted into Bevy's ECS as resources. Afterwards, the `AssetLoader` will
+switch into a second configurable app state. At this point, your app can use
+the asset collections that now contain loaded asset handles.
+
+
+[bevy_asset_loader]: https://github.com/NiklasEi/bevy_asset_loader
+[bevy]: https://github.com/bevyengine/bevy
+[@nikl_me]: https://twitter.com/nikl_me
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
