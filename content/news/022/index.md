@@ -136,7 +136,7 @@ enjoys rolling in straight lines. Explore a whimsical nature where
 altering the environment is key to progress, and solve puzzles to protect
 its wonders.
 
-Outer Wonders can be downloaded for Linux and Windows from [itch.io].
+Outer Wonders can be downloaded for Linux and Windows from [itch.io][ow-itchio].
 
 May was mostly dedicated to code cleaning, small improvements, as well as
 blogging and community building. Updates of the month include:
@@ -146,9 +146,10 @@ blogging and community building. Updates of the month include:
 - Added support for menu navigation using the D-Pad alongside the existing
   analog stick support.
 - Published a blog post about building Outer Wonders for Linux/itch.io
-  ([english], [french]).
-- Posted weekly puzzles [#16], [#17], [#18] and [#19] on social media
-  for players wishing to give puzzles a try prior to downloading the game.
+  ([english][ow-bp-english], [french][ow-bp-french]).
+- Posted weekly puzzles [#16][ow-p16], [#17][ow-p17], [#18][ow-p18] and
+  [#19][ow-p19] on social media for players wishing to give puzzles a
+  try prior to downloading the game.
 
 _Discussions:
 [/r/rust_gamedev](https://www.reddit.com/nfgxjl),
@@ -156,13 +157,13 @@ _Discussions:
 
 [Outer Wonders]: https://utopixel.itch.io/outer-wonders
 [Utopixel]: https://utopixel.games
-[itch.io]: https://utopixel.itch.io/outer-wonders
-[english]: https://utopixel.games/en/blog/building-outer-wonders-for-linux/
-[french]: https://utopixel.games/fr/blog/adaptation-outer-wonders-linux/
-[#16]: https://twitter.com/utopixel/status/1389984537170620422
-[#17]: https://twitter.com/utopixel/status/1392526232596541449
-[#18]: https://twitter.com/utopixel/status/1395079712020602884
-[#19]: https://twitter.com/utopixel/status/1397614237187551237
+[ow-itchio]: https://utopixel.itch.io/outer-wonders
+[ow-bp-english]: https://utopixel.games/en/blog/building-outer-wonders-for-linux/
+[ow-bp-french]: https://utopixel.games/fr/blog/adaptation-outer-wonders-linux/
+[ow-p16]: https://twitter.com/utopixel/status/1389984537170620422
+[ow-p17]: https://twitter.com/utopixel/status/1392526232596541449
+[ow-p18]: https://twitter.com/utopixel/status/1395079712020602884
+[ow-p19]: https://twitter.com/utopixel/status/1397614237187551237
 
 ### [The Process]
 
