@@ -139,10 +139,11 @@ defense arcade game with local co-op! Join the [Gemdrop Games Discord]
 to stay up to date with these games.
 
 Features
+
 - Story Mode
 - Survival Mode (with local co-op)
-    - Unlockable skins
-    - 2 unlockable playable characters
+  - Unlockable skins
+  - 2 unlockable playable characters
 
 [Emerald]: https://github.com/Bombfuse/emerald
 [Harvest Hero Origins]: https://gemdrop-games.itch.io/harvest-hero-origins
