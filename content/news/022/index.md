@@ -123,11 +123,91 @@ multiple turn lanes, U-turns, and stop signs much better.
 [A/B Street]: https://github.com/a-b-street/abstreet
 [@dabreegster]: https://twitter.com/CarlinoDustin
 
+### [The Process]
+
+![Animated image showing a small factory in the middle of the game island](the_process.gif)
+_This factory has never looked livelier!_
+
+[The Process] by @setzer22 is an upcoming game about factory building, process
+management and carrot production, built with Rust using the Godot game engine!
+
+This month has been focused on improving the game's UI and extending the machine
+logistics system, but there was also room for a few cosmetic improvements:
+
+- Improved visualization of connections in the [logistic
+  network](https://twitter.com/PlayTheProcess/status/1391484080798281728).
+- Implemented configurable filters for machines to build a [sorting
+  machine](https://twitter.com/PlayTheProcess/status/1392894719311613953)!
+- New materials and [terrain
+  shader](https://twitter.com/PlayTheProcess/status/1396175924652019718).
+- [Trees and dynamically updating
+  grass](https://twitter.com/PlayTheProcess/status/1399774534417498121) using
+  instanced rendering.
+
+_Discussions:
+[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/nbmfvz/better_logistics_in_the_process_made_with_godot/),
+[Twitter](https://twitter.com/PlayTheProcess/status/1391484080798281728)_
+
+[The Process]: https://twitter.com/PlayTheProcess/
+
+### [pGLOWrpg][pglowrpg-github]
+
+![Game features](pglowrpg_progress.gif)
+
+[pGLOWrpg][pglowrpg-github] by [@Roal_Yr]
+is a Procedurally Generated Living Open World RPG,
+a long-term project in development, which aims to be a narrative text-based game
+with maximum portability and accessibility.
+
+Recent updates include:
+
+- Implemented dev features test arena.
+- Implemented entity system draft.
+- Sanitized coordinate systems everywhere (ooof!)
+- Much refactoring.
+- Resumed river generation development.
+
+_Discussions: [Twitter][pglowrpg-twitter]_
+
+[@Roal_Yr]: https://twitter.com/Roal_Yr
+[pglowrpg-twitter]: https://twitter.com/pglowrpg
+[pglowrpg-github]: https://github.com/roalyr/pglowrpg
+
 ## Engine Updates
+
+### [Rustcraft][rustcraft]
+
+![rustcraft-img](rustcraft.png)
+
+[Rustcraft][rustcraft] by [@dskart]
+is a simple Minecraft engine written in Rust using wgpu.
+
+It handles infinite world generation using gradient noise as well as placing
+and breaking blocks.
+
+[rustcraft]: https://github.com/dskart/rustcraft
 
 ## Learning Material Updates
 
 ## Library & Tooling Updates
+
+### [egui]
+
+![egui](egui.gif)
+
+[egui] by [@emilk] is an easy-to-use immediate mode GUI library in pure Rust.
+
+This month [version 0.12] of egui was released, with improved plots,
+multitouch, user memory stores, window pivots, and more.
+
+You can try out egui in the [online demo].
+
+_Discussions: [/r/rust](https://www.reddit.com/r/rust/comments/n9f6vt/announcing_egui_012_the_simple_gui_library/)_
+
+[egui]: https://github.com/emilk/egui
+[online demo]: https://emilk.github.io/egui
+[version 0.12]: https://github.com/emilk/egui/blob/master/CHANGELOG.md
+[@emilk]: https://twitter.com/ernerfeldt
 
 ### [naga]
 
@@ -145,6 +225,36 @@ done by [naga], roughly 4x as fast as the C++ alternative
 [naga]: https://github.com/gfx-rs/naga
 [gfx-portability]: https://github.com/gfx-rs/portability
 [gfx-naga-blog]: https://gfx-rs.github.io/2021/05/09/dota2-msl-compilation.html
+
+### [rafx]
+
+![Rafx Wireframe Demo](rafx-wireframe-demo.jpg)
+_Demo with wireframes enabled_
+
+Rafx is a multi-backend renderer that optionally integrates with the
+[distill][rafx-distill] asset pipeline.
+
+This month, [@dvd] completed work on the new job system. It implements three
+steps: extract, prepare, and write. These jobs are now more structured, making
+them easier to implement while supporting concurrent execution and reducing
+dynamic allocation. They also integrate with a visibility system to ensure that
+off-screen objects are not processed.
+
+[@aclysma] continued work on OpenGL ES 2.0/3.0 backends and documented
+[implementation details][rafx-implementation-details] of currently available
+rendering backends.
+
+Additionally, some rendering features were improved and added: mesh rendering
+now uses an instance-rate vertex buffer instead of per-object uniforms,
+improving performance. Rendering features now support wireframe and untextured
+rendering modes. An egui render feature was added, and the demo now uses egui
+instead of imgui.
+
+[rafx]: https://github.com/aclysma/rafx
+[rafx-distill]: https://github.com/amethyst/distill
+[rafx-implementation-details]: https://github.com/aclysma/rafx/tree/master/docs/api/backends
+[@aclysma]: https://github.com/aclysma
+[@dvd]: https://github.com/DavidVonDerau
 
 ### [Bevy Retro][bevy_retro]
 
