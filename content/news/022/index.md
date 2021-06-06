@@ -105,6 +105,14 @@ May's full weekly devlogs: "This Week In Veloren...":
 
 ## Learning Material Updates
 
+### Learn WGPU updated to wgpu 0.8 and WGSL
+
+After some GLSL issues trying to update Learn WGPU to version 0.8, @sotrh decided
+to migrate to WGSL. This update was a lot of work, but relatively painless. As a
+result, `shaderc` is no longer a dependency.
+
+Checkout more at [here](https://sotrh.github.io/learn-wgpu/news/)
+
 ## Library & Tooling Updates
 
 ### [naga]
