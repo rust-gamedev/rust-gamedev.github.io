@@ -216,6 +216,34 @@ You can read the full update in the [Blog Post][bounty_bros].
 [bounty_bros_webgame]: https://katharostech.github.io/skipngo_pre-releases/refs/tags/pre-release-1/?asset_url=https://katharostech.github.io/bounty-bros_pre-releases/1
 [katharostech]: https://katharostech.com
 
+### Harvest Hero & Harvest Hero Origins
+
+![Harvest Hero Origins supports local multiplayer](./hho.gif)
+
+Harvest Hero is currently on hold for now. After
+[Gemdrop Games] was formed, it was decided
+that [Emerald] needed to be tested to ensure it can withstand cross
+publishing.
+This means creating a smaller game in the
+engine in order to figure out the publishing process for
+Steam, Itch, Nintendo Switch, etc. and guarantee it's viable.
+
+This resulted in the birth of [Harvest Hero Origins], a small wave
+defense arcade game with local co-op! Join the [Gemdrop Games Discord]
+to stay up to date with these games.
+
+Features:
+
+- Story Mode
+- Survival Mode (with local co-op)
+  - Unlockable skins
+  - 2 unlockable playable characters
+
+[Emerald]: https://github.com/Bombfuse/emerald
+[Harvest Hero Origins]: https://gemdrop-games.itch.io/harvest-hero-origins
+[Gemdrop Games]: https://twitter.com/GemdropGames
+[Gemdrop Games Discord]: https://discord.gg/CJRbxQn3d9
+
 ## Engine Updates
 
 ### [Rustcraft][rustcraft]
