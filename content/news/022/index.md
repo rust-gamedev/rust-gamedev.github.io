@@ -216,6 +216,21 @@ and breaking blocks.
 
 ## Learning Material Updates
 
+### [Video: 1 Year of Rust Game Development]
+
+[![1 year of rust gamedev thumbnail](1_year_of_rust_gamedev.png)][video: 1 year of rust game development]
+_Video thumbnail_
+
+[@tantan] published a [video] about
+the projects he made during his first year of learning Rust.
+He also talks about why he likes the rust programming language and community.
+
+_Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/n4o197/)_
+
+[video: 1 year of rust game development]: https://youtu.be/ZltAssmicsM
+[@tantan]: https://twitter.com/TanTanDev
+[video]: https://www.youtube.com/watch?v=ZltAssmicsM
+
 ## Library & Tooling Updates
 
 ### [egui]
