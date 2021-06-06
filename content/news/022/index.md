@@ -123,48 +123,6 @@ multiple turn lanes, U-turns, and stop signs much better.
 [A/B Street]: https://github.com/a-b-street/abstreet
 [@dabreegster]: https://twitter.com/CarlinoDustin
 
-### [Outer Wonders]
-
-![Animation showing Bibi, the main protagonist of Outer Wonders,
-starting from the top entrance of a puzzle, rolling from obstacle
-to obstacle, leaning on on bushes, flowers and trees to reach
-the bottom exit of the puzzle](outer-wonders.gif)
-
-[Outer Wonders] is a colorful, pixel art, puzzle-based adventure game
-developed by [Utopixel] where you play as Bibi, a cute round monkey who
-enjoys rolling in straight lines. Explore a whimsical nature where
-altering the environment is key to progress, and solve puzzles to protect
-its wonders.
-
-Outer Wonders can be downloaded for Linux and Windows from [itch.io][ow-itchio].
-
-May was mostly dedicated to code cleaning, small improvements, as well as
-blogging and community building. Updates of the month include:
-
-- Refactored UI code to streamline menu stacking and ease the implementation
-  of an upcoming options menu.
-- Added support for menu navigation using the D-Pad alongside the existing
-  analog stick support.
-- Published a blog post about building Outer Wonders for Linux/itch.io
-  ([english][ow-bp-english], [french][ow-bp-french]).
-- Posted weekly puzzles [#16][ow-p16], [#17][ow-p17], [#18][ow-p18] and
-  [#19][ow-p19] on social media for players wishing to give puzzles a
-  try prior to downloading the game.
-
-_Discussions:
-[/r/rust_gamedev](https://www.reddit.com/nfgxjl),
-[Hacker News](https://news.ycombinator.com/item?id=27244017)_
-
-[Outer Wonders]: https://utopixel.itch.io/outer-wonders
-[Utopixel]: https://utopixel.games
-[ow-itchio]: https://utopixel.itch.io/outer-wonders
-[ow-bp-english]: https://utopixel.games/en/blog/building-outer-wonders-for-linux/
-[ow-bp-french]: https://utopixel.games/fr/blog/adaptation-outer-wonders-linux/
-[ow-p16]: https://twitter.com/utopixel/status/1389984537170620422
-[ow-p17]: https://twitter.com/utopixel/status/1392526232596541449
-[ow-p18]: https://twitter.com/utopixel/status/1395079712020602884
-[ow-p19]: https://twitter.com/utopixel/status/1397614237187551237
-
 ### [The Process]
 
 ![Animated image showing a small factory in the middle of the game island](the_process.gif)
@@ -241,6 +199,48 @@ You can read the full update in the [Blog Post][bounty_bros].
 [bounty_bros]: https://katharostech.com/post/bounty-bros-update-3-sound-and-ui
 [bounty_bros_webgame]: https://katharostech.github.io/skipngo_pre-releases/refs/tags/pre-release-1/?asset_url=https://katharostech.github.io/bounty-bros_pre-releases/1
 [katharostech]: https://katharostech.com
+
+### [Outer Wonders]
+
+![Animation showing Bibi, the main protagonist of Outer Wonders,
+starting from the top entrance of a puzzle, rolling from obstacle
+to obstacle, leaning on on bushes, flowers and trees to reach
+the bottom exit of the puzzle](outer-wonders.gif)
+
+[Outer Wonders] is a colorful, pixel art, puzzle-based adventure game
+developed by [Utopixel] where you play as Bibi, a cute round monkey who
+enjoys rolling in straight lines. Explore a whimsical nature where
+altering the environment is key to progress, and solve puzzles to protect
+its wonders.
+
+Outer Wonders can be downloaded for Linux and Windows from [itch.io][ow-itchio].
+
+May was mostly dedicated to code cleaning, small improvements, as well as
+blogging and community building. Updates of the month include:
+
+- Refactored UI code to streamline menu stacking and ease the implementation
+  of an upcoming options menu.
+- Added support for menu navigation using the D-Pad alongside the existing
+  analog stick support.
+- Published a blog post about building Outer Wonders for Linux/itch.io
+  ([english][ow-bp-english], [french][ow-bp-french]).
+- Posted weekly puzzles [#16][ow-p16], [#17][ow-p17], [#18][ow-p18] and
+  [#19][ow-p19] on social media for players wishing to give puzzles a
+  try prior to downloading the game.
+
+_Discussions:
+[/r/rust_gamedev](https://www.reddit.com/nfgxjl),
+[Hacker News](https://news.ycombinator.com/item?id=27244017)_
+
+[Outer Wonders]: https://utopixel.itch.io/outer-wonders
+[Utopixel]: https://utopixel.games
+[ow-itchio]: https://utopixel.itch.io/outer-wonders
+[ow-bp-english]: https://utopixel.games/en/blog/building-outer-wonders-for-linux/
+[ow-bp-french]: https://utopixel.games/fr/blog/adaptation-outer-wonders-linux/
+[ow-p16]: https://twitter.com/utopixel/status/1389984537170620422
+[ow-p17]: https://twitter.com/utopixel/status/1392526232596541449
+[ow-p18]: https://twitter.com/utopixel/status/1395079712020602884
+[ow-p19]: https://twitter.com/utopixel/status/1397614237187551237
 
 ## Engine Updates
 
