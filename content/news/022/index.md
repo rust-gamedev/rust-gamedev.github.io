@@ -54,6 +54,22 @@ _Discussions:
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
+## Rust GameDev Meetup
+
+![Gamedev meetup poster](gamedev-meetup.png)
+
+The fifth Rust Gamedev Meetup happened in May. You can watch the recording of
+the meetup [here on Youtube][gamedev-meetup-video]. The meetups take place on
+the second Saturday every month via the [Rust Gamedev Discord
+server][rust-gamedev-discord], and can also be [streamed on
+Twitch][rust-gamedev-twitch]. If you would like to show off what you've been
+working on in a future meetup, fill out [this form][gamedev-meetup-form].
+
+[gamedev-meetup-form]: https://forms.gle/BS1zCyZaiUFSUHxe6
+[gamedev-meetup-video]: https://www.youtube.com/watch?v=6drrul3p_hU
+[rust-gamedev-discord]: https://discord.gg/yNtPTb2
+[rust-gamedev-twitch]: https://twitch.tv/rustgamedevmeetup
+
 ## Game Updates
 
 ### Flesh
@@ -200,6 +216,76 @@ You can read the full update in the [Blog Post][bounty_bros].
 [bounty_bros_webgame]: https://katharostech.github.io/skipngo_pre-releases/refs/tags/pre-release-1/?asset_url=https://katharostech.github.io/bounty-bros_pre-releases/1
 [katharostech]: https://katharostech.com
 
+### Harvest Hero & Harvest Hero Origins
+
+![Harvest Hero Origins supports local multiplayer](./hho.gif)
+
+Harvest Hero is currently on hold for now. After
+[Gemdrop Games] was formed, it was decided
+that [Emerald] needed to be tested to ensure it can withstand cross
+publishing.
+This means creating a smaller game in the
+engine in order to figure out the publishing process for
+Steam, Itch, Nintendo Switch, etc. and guarantee it's viable.
+
+This resulted in the birth of [Harvest Hero Origins], a small wave
+defense arcade game with local co-op! Join the [Gemdrop Games Discord]
+to stay up to date with these games.
+
+Features:
+
+- Story Mode
+- Survival Mode (with local co-op)
+  - Unlockable skins
+  - 2 unlockable playable characters
+
+[Emerald]: https://github.com/Bombfuse/emerald
+[Harvest Hero Origins]: https://gemdrop-games.itch.io/harvest-hero-origins
+[Gemdrop Games]: https://twitter.com/GemdropGames
+[Gemdrop Games Discord]: https://discord.gg/CJRbxQn3d9
+
+### [Outer Wonders]
+
+![Animation showing Bibi, the main protagonist of Outer Wonders,
+starting from the top entrance of a puzzle, rolling from obstacle
+to obstacle, leaning on on bushes, flowers and trees to reach
+the bottom exit of the puzzle](outer-wonders.gif)
+
+[Outer Wonders] is a colorful, pixel art, puzzle-based adventure game
+developed by [Utopixel] where you play as Bibi, a cute round monkey who
+enjoys rolling in straight lines. Explore a whimsical nature where
+altering the environment is key to progress, and solve puzzles to protect
+its wonders.
+
+Outer Wonders can be downloaded for Linux and Windows from [itch.io][ow-itchio].
+
+May was mostly dedicated to code cleaning, small improvements, as well as
+blogging and community building. Updates of the month include:
+
+- Refactored UI code to streamline menu stacking and ease the implementation
+  of an upcoming options menu.
+- Added support for menu navigation using the D-Pad alongside the existing
+  analog stick support.
+- Published a blog post about building Outer Wonders for Linux/itch.io
+  ([english][ow-bp-english], [french][ow-bp-french]).
+- Posted weekly puzzles [#16][ow-p16], [#17][ow-p17], [#18][ow-p18] and
+  [#19][ow-p19] on social media for players wishing to give puzzles a
+  try prior to downloading the game.
+
+_Discussions:
+[/r/rust_gamedev](https://www.reddit.com/nfgxjl),
+[Hacker News](https://news.ycombinator.com/item?id=27244017)_
+
+[Outer Wonders]: https://utopixel.itch.io/outer-wonders
+[Utopixel]: https://utopixel.games
+[ow-itchio]: https://utopixel.itch.io/outer-wonders
+[ow-bp-english]: https://utopixel.games/en/blog/building-outer-wonders-for-linux/
+[ow-bp-french]: https://utopixel.games/fr/blog/adaptation-outer-wonders-linux/
+[ow-p16]: https://twitter.com/utopixel/status/1389984537170620422
+[ow-p17]: https://twitter.com/utopixel/status/1392526232596541449
+[ow-p18]: https://twitter.com/utopixel/status/1395079712020602884
+[ow-p19]: https://twitter.com/utopixel/status/1397614237187551237
+
 ### [Theta Wave]
 
 [![Blast Repeller](theta-wave.gif)][Theta Wave]
@@ -238,6 +324,21 @@ and breaking blocks.
 [rustcraft]: https://github.com/dskart/rustcraft
 
 ## Learning Material Updates
+
+### [LD48: Rusty MMO in 48 Hours][ld48-mmo]
+
+![A screenshot of Dig World gameplay](https://img.itch.zone/aW1nLzYwMDQyNzkucG5n/original/VNIJnu.png)
+
+@kuviman wrote a devlog about his experience writing a video game in Rust.
+
+He needed to make a game in just 48 hours for the Ludum Dare 48 (LD48)
+game jam, so he chose a simple theme: digging.
+
+20 hours later, he had a full-fledged MMO - complete with hackers!
+
+_Discussion: [r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/nhdwky/i_used_rust_to_make_an_mmo_in_48_hours_for/?utm_source=share&utm_medium=web2x&context=3)_
+
+[ld48-mmo]: https://kuviman.itch.io/dig-world/devlog/255566/so-i-made-an-mmo-in-48-hours
 
 ## Library & Tooling Updates
 
@@ -403,6 +504,27 @@ Incoming improvements include online multiplayer, sound, a WASM port, porting to
 a libretro core, and using wgpu instead of sdl for the native GUI and debugger.
 
 [nestadia]: https://github.com/zer0x64/nestadia
+
+### [tobj][tobj]
+
+`tobj` by [@Twinklebear] and [@virtualritz] is a simple and lightweight
+option for loading OBJ files. `tobj` was originally written inspired by
+[@syoyo]'s tinyobjloader, to provide a similar lightweight and easy to integrate
+API for loading OBJ files in Rust.
+
+While initially targeted at realtime rendering applications, `tobj` has gained
+more advanced importer functionality required for offline rendering,
+simulation, and modeling applications, through recent work by [@virtualritz].
+These features provide support for merging vertices to avoid discontinuities
+in simulation packages and reordering vertices to allow omitting the
+index buffer. This features have been added while preserving the original
+lightweight API design goal of `tobj`, making it a useful crate for a range of
+applications loading with OBJ files.
+
+[tobj]: https://github.com/Twinklebear/tobj
+[@Twinklebear]: https://github.com/Twinklebear/
+[@virtualritz]: https://github.com/virtualritz
+[@syoyo]: https://github.com/syoyo
 
 ## Popular Workgroup Issues in Github
 
