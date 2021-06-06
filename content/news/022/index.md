@@ -200,6 +200,29 @@ You can read the full update in the [Blog Post][bounty_bros].
 [bounty_bros_webgame]: https://katharostech.github.io/skipngo_pre-releases/refs/tags/pre-release-1/?asset_url=https://katharostech.github.io/bounty-bros_pre-releases/1
 [katharostech]: https://katharostech.com
 
+### [Theta Wave]
+
+[![Blast Repeller](theta-wave.gif)][Theta Wave]
+_The Blast Repeller item pushes blasts away from the player_
+
+[Theta Wave] is an open-source space shooter game by developers [@micah_tigley] and
+[@carlosupina]. It is one of the showcase games for the [Amethyst Engine]. In
+the past month, the ["Loot"] update was released which enhanced how loot drops
+are rolled, spawned, and how their effects are applied to the game. The Loot update
+also added an attraction system which allows for entities to repel or attract
+other entities.
+
+Now an ["Organization"] update is in progress for Theta Wave. This update will
+divide Theta Wave into two workspaces, a library and a binary. This update will also
+add documentation comments for all of the library's features.
+
+[Theta Wave]: https://github.com/amethyst/theta-wave
+[@micah_tigley]: https://twitter.com/micah_tigley
+[@carlosupina]: https://twitter.com/carlosupina
+[Amethyst Engine]: https://amethyst.rs/
+["Loot"]: https://github.com/amethyst/theta-wave/releases/tag/v0.1.6
+["Organization"]: https://github.com/amethyst/theta-wave/projects/5
+
 ## Engine Updates
 
 ### [Rustcraft][rustcraft]
