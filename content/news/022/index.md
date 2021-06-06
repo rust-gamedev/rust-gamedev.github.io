@@ -173,7 +173,6 @@ _Discussions: [Twitter][pglowrpg-twitter]_
 [pglowrpg-twitter]: https://twitter.com/pglowrpg
 [pglowrpg-github]: https://github.com/roalyr/pglowrpg
 
-
 ### Project YAWC
 
 ![A map in Project YAWC being built.](unbroken_lynx.PNG)
