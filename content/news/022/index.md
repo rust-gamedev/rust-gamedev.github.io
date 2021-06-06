@@ -221,7 +221,7 @@ and breaking blocks.
 [![1 year of rust gamedev thumbnail](1_year_of_rust_gamedev.png)][video: 1 year of rust game development]
 _Video thumbnail_
 
-[@tantan] published a [video] about
+[@tantan] published a [video][video: 1 year of rust game development] about
 the projects he made during his first year of learning Rust.
 He also talks about why he likes the rust programming language and community.
 
@@ -229,7 +229,6 @@ _Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/n
 
 [video: 1 year of rust game development]: https://youtu.be/ZltAssmicsM
 [@tantan]: https://twitter.com/TanTanDev
-[video]: https://www.youtube.com/watch?v=ZltAssmicsM
 
 ## Library & Tooling Updates
 
