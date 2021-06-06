@@ -173,6 +173,20 @@ _Discussions: [Twitter][pglowrpg-twitter]_
 [pglowrpg-twitter]: https://twitter.com/pglowrpg
 [pglowrpg-github]: https://github.com/roalyr/pglowrpg
 
+
+### Project YAWC
+
+![A map in Project YAWC being built.](unbroken_lynx.png)
+
+Project YAWC ([Twitter](https://twitter.com/ProjectYawc)) is a turn-based
+strategy game built in GGEZ, being developed by junkmail.
+
+May saw the release of Alpha 5.4, including interface improvements,
+balance changes, new units, new maps and netcode improvements.
+
+An [alpha access request form](https://forms.gle/w22ohPGNk58fo9bv6) is available,
+if you want to try it out.
+
 ### [Bounty Bros.][bounty_bros]
 
 [![bounty-bros-title-screen](bounty-bros.png)][bounty_bros_webgame]
