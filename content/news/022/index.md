@@ -216,6 +216,22 @@ and breaking blocks.
 
 ## Learning Material Updates
 
+### [Video: voxel engine with rust and wgpu-rs]
+
+[![Video: voxel engine with rust and wgpu-rs](voxel_engine_wgpu.png)][video: voxel engine with rust and wgpu-rs]
+_Video thumbnail_
+
+[@tantan] published a [video][video_voxel_engine_rust_wgpu] about
+how he made a voxel engine written in Rust using wgpu.
+The source code is released on [github][voxel_engine_github]
+
+_Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/nn0j5l/i_made_a_voxel_engine_with_rust_and_wgpurs)_
+
+[video: voxel engine with rust and wgpu-rs]: https://www.youtube.com/watch?v=96ht7rd3Y5I
+[@tantan]: https://twitter.com/TanTanDev
+[video_voxel_engine_rust_wgpu]: https://www.youtube.com/watch?v=96ht7rd3Y5I
+[voxel_engine_github]: https://github.com/TanTanDev/first_voxel_engine
+
 ## Library & Tooling Updates
 
 ### [egui]
