@@ -176,7 +176,7 @@ _Discussions: [Twitter][pglowrpg-twitter]_
 
 ### Project YAWC
 
-![A map in Project YAWC being built.](unbroken_lynx.png)
+![A map in Project YAWC being built.](unbroken_lynx.PNG)
 
 Project YAWC ([Twitter](https://twitter.com/ProjectYawc)) is a turn-based
 strategy game built in GGEZ, being developed by junkmail.
