@@ -54,6 +54,22 @@ _Discussions:
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
+## Rust GameDev Meetup
+
+![Gamedev meetup poster](gamedev-meetup.png)
+
+The fifth Rust Gamedev Meetup happened in May. You can watch the recording of
+the meetup [here on Youtube][gamedev-meetup-video]. The meetups take place on
+the second Saturday every month via the [Rust Gamedev Discord
+server][rust-gamedev-discord], and can also be [streamed on
+Twitch][rust-gamedev-twitch]. If you would like to show off what you've been
+working on in a future meetup, fill out [this form][gamedev-meetup-form].
+
+[gamedev-meetup-form]: https://forms.gle/BS1zCyZaiUFSUHxe6
+[gamedev-meetup-video]: https://www.youtube.com/watch?v=6drrul3p_hU
+[rust-gamedev-discord]: https://discord.gg/yNtPTb2
+[rust-gamedev-twitch]: https://twitch.tv/rustgamedevmeetup
+
 ## Game Updates
 
 ### Flesh
@@ -173,6 +189,19 @@ _Discussions: [Twitter][pglowrpg-twitter]_
 [pglowrpg-twitter]: https://twitter.com/pglowrpg
 [pglowrpg-github]: https://github.com/roalyr/pglowrpg
 
+### Project YAWC
+
+![A map in Project YAWC being built.](unbroken_lynx.png)
+
+Project YAWC ([Twitter](https://twitter.com/ProjectYawc)) is a turn-based
+strategy game built in GGEZ, being developed by junkmail.
+
+May saw the release of Alpha 5.4, including interface improvements,
+balance changes, new units, new maps and netcode improvements.
+
+An [alpha access request form](https://forms.gle/w22ohPGNk58fo9bv6) is available,
+if you want to try it out.
+
 ### [Bounty Bros.][bounty_bros]
 
 [![bounty-bros-title-screen](bounty-bros.png)][bounty_bros_webgame]
@@ -200,6 +229,99 @@ You can read the full update in the [Blog Post][bounty_bros].
 [bounty_bros_webgame]: https://katharostech.github.io/skipngo_pre-releases/refs/tags/pre-release-1/?asset_url=https://katharostech.github.io/bounty-bros_pre-releases/1
 [katharostech]: https://katharostech.com
 
+### Harvest Hero & Harvest Hero Origins
+
+![Harvest Hero Origins supports local multiplayer](./hho.gif)
+
+Harvest Hero is currently on hold for now. After
+[Gemdrop Games] was formed, it was decided
+that [Emerald] needed to be tested to ensure it can withstand cross
+publishing.
+This means creating a smaller game in the
+engine in order to figure out the publishing process for
+Steam, Itch, Nintendo Switch, etc. and guarantee it's viable.
+
+This resulted in the birth of [Harvest Hero Origins], a small wave
+defense arcade game with local co-op! Join the [Gemdrop Games Discord]
+to stay up to date with these games.
+
+Features:
+
+- Story Mode
+- Survival Mode (with local co-op)
+  - Unlockable skins
+  - 2 unlockable playable characters
+
+[Emerald]: https://github.com/Bombfuse/emerald
+[Harvest Hero Origins]: https://gemdrop-games.itch.io/harvest-hero-origins
+[Gemdrop Games]: https://twitter.com/GemdropGames
+[Gemdrop Games Discord]: https://discord.gg/CJRbxQn3d9
+
+### [Outer Wonders]
+
+![Animation showing Bibi, the main protagonist of Outer Wonders,
+starting from the top entrance of a puzzle, rolling from obstacle
+to obstacle, leaning on on bushes, flowers and trees to reach
+the bottom exit of the puzzle](outer-wonders.gif)
+
+[Outer Wonders] is a colorful, pixel art, puzzle-based adventure game
+developed by [Utopixel] where you play as Bibi, a cute round monkey who
+enjoys rolling in straight lines. Explore a whimsical nature where
+altering the environment is key to progress, and solve puzzles to protect
+its wonders.
+
+Outer Wonders can be downloaded for Linux and Windows from [itch.io][ow-itchio].
+
+May was mostly dedicated to code cleaning, small improvements, as well as
+blogging and community building. Updates of the month include:
+
+- Refactored UI code to streamline menu stacking and ease the implementation
+  of an upcoming options menu.
+- Added support for menu navigation using the D-Pad alongside the existing
+  analog stick support.
+- Published a blog post about building Outer Wonders for Linux/itch.io
+  ([english][ow-bp-english], [french][ow-bp-french]).
+- Posted weekly puzzles [#16][ow-p16], [#17][ow-p17], [#18][ow-p18] and
+  [#19][ow-p19] on social media for players wishing to give puzzles a
+  try prior to downloading the game.
+
+_Discussions:
+[/r/rust_gamedev](https://www.reddit.com/nfgxjl),
+[Hacker News](https://news.ycombinator.com/item?id=27244017)_
+
+[Outer Wonders]: https://utopixel.itch.io/outer-wonders
+[Utopixel]: https://utopixel.games
+[ow-itchio]: https://utopixel.itch.io/outer-wonders
+[ow-bp-english]: https://utopixel.games/en/blog/building-outer-wonders-for-linux/
+[ow-bp-french]: https://utopixel.games/fr/blog/adaptation-outer-wonders-linux/
+[ow-p16]: https://twitter.com/utopixel/status/1389984537170620422
+[ow-p17]: https://twitter.com/utopixel/status/1392526232596541449
+[ow-p18]: https://twitter.com/utopixel/status/1395079712020602884
+[ow-p19]: https://twitter.com/utopixel/status/1397614237187551237
+
+### [Theta Wave]
+
+[![Blast Repeller](theta-wave.gif)][Theta Wave]
+_The Blast Repeller item pushes blasts away from the player_
+
+[Theta Wave] is an open-source space shooter game by developers [@micah_tigley] and
+[@carlosupina]. It is one of the showcase games for the [Amethyst Engine]. In
+the past month, the ["Loot"] update was released which enhanced how loot drops
+are rolled, spawned, and how their effects are applied to the game. The Loot update
+also added an attraction system which allows for entities to repel or attract
+other entities.
+
+Now an ["Organization"] update is in progress for Theta Wave. This update will
+divide Theta Wave into two workspaces, a library and a binary. This update will also
+add documentation comments for all of the library's features.
+
+[Theta Wave]: https://github.com/amethyst/theta-wave
+[@micah_tigley]: https://twitter.com/micah_tigley
+[@carlosupina]: https://twitter.com/carlosupina
+[Amethyst Engine]: https://amethyst.rs/
+["Loot"]: https://github.com/amethyst/theta-wave/releases/tag/v0.1.6
+["Organization"]: https://github.com/amethyst/theta-wave/projects/5
+
 ## Engine Updates
 
 ### [Rustcraft][rustcraft]
@@ -216,6 +338,24 @@ and breaking blocks.
 
 ## Learning Material Updates
 
+### [Voxel Engine with Rust and wgpu-rs][voxel_engine_video]
+
+[![Youtube preview](voxel_engine_wgpu.jpg)][voxel_engine_video]
+
+[@TanTanDev] published a [video][voxel_engine_video] about
+how he made a voxel engine written in Rust using wgpu.
+
+Currently voxel rendering, chunk management, flying camera,
+and simple lightning are implemented.
+The source code is released on [github][voxel_engine_github].
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/nn0j5l/i_made_a_voxel_engine_with_rust_and_wgpurs)_
+
+[@TanTanDev]: https://twitter.com/TanTanDev
+[voxel_engine_video]: https://youtube.com/watch?v=96ht7rd3Y5I
+[voxel_engine_github]: https://github.com/TanTanDev/first_voxel_engine
+
 ### [1 Year of Rust Game Development][video-1-year-of-rust-gamedev]
 
 [![YouTube thumbnail](1_year_of_rust_gamedev.png)][video-1-year-of-rust-gamedev]
@@ -228,6 +368,21 @@ _Discussions: [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/n4o19
 
 [video-1-year-of-rust-gamedev]: https://youtu.be/ZltAssmicsM
 [@TanTanDev]: https://twitter.com/TanTanDev
+
+### [LD48: Rusty MMO in 48 Hours][ld48-mmo]
+
+![A screenshot of Dig World gameplay](https://img.itch.zone/aW1nLzYwMDQyNzkucG5n/original/VNIJnu.png)
+
+@kuviman wrote a devlog about his experience writing a video game in Rust.
+
+He needed to make a game in just 48 hours for the Ludum Dare 48 (LD48)
+game jam, so he chose a simple theme: digging.
+
+20 hours later, he had a full-fledged MMO - complete with hackers!
+
+_Discussion: [r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/nhdwky/i_used_rust_to_make_an_mmo_in_48_hours_for/?utm_source=share&utm_medium=web2x&context=3)_
+
+[ld48-mmo]: https://kuviman.itch.io/dig-world/devlog/255566/so-i-made-an-mmo-in-48-hours
 
 ## Library & Tooling Updates
 
@@ -393,6 +548,59 @@ Incoming improvements include online multiplayer, sound, a WASM port, porting to
 a libretro core, and using wgpu instead of sdl for the native GUI and debugger.
 
 [nestadia]: https://github.com/zer0x64/nestadia
+
+### [tobj][tobj]
+
+`tobj` by [@Twinklebear] and [@virtualritz] is a simple and lightweight
+option for loading OBJ files. `tobj` was originally written inspired by
+[@syoyo]'s tinyobjloader, to provide a similar lightweight and easy to integrate
+API for loading OBJ files in Rust.
+
+While initially targeted at realtime rendering applications, `tobj` has gained
+more advanced importer functionality required for offline rendering,
+simulation, and modeling applications, through recent work by [@virtualritz].
+These features provide support for merging vertices to avoid discontinuities
+in simulation packages and reordering vertices to allow omitting the
+index buffer. This features have been added while preserving the original
+lightweight API design goal of `tobj`, making it a useful crate for a range of
+applications loading with OBJ files.
+
+[tobj]: https://github.com/Twinklebear/tobj
+[@Twinklebear]: https://github.com/Twinklebear/
+[@virtualritz]: https://github.com/virtualritz
+[@syoyo]: https://github.com/syoyo
+
+### [Graphite][graphite-repo]
+
+![Piet Mondrian's artwork replicated in Graphite using the new color picker](graphite-piet.png)
+_Piet Mondrian's artwork replicated in Graphite using the new color picker_
+
+Graphite ([GitHub][graphite-repo], [Discord][graphite-discord],
+[Twitter](https://twitter.com/GraphiteEditor)) is an in-development vector and
+raster graphics editor built on a nondestructive node-based workflow.
+
+In the past month, new frontend features have mostly closed the gap for a
+visually-complete UI while a major Rust backend refactor took place.
+
+A new frontend system for floating menus was added to draw menus over the UI,
+like dropdown menu input widgets and popovers to display the new color picker.
+Also the application menu bar was built with working buttons for the new Undo
+and Export SVG actions.
+
+A large refactor in the Rust backend created a simpler communication strategy
+between all components in the software stack and a standard method of handling
+user inputs.
+
+[Try it right now in your browser.][graphite-live-demo] Graphite is making
+rapid progress towards becoming a nondestructive, procedural graphics editor
+suitable of replacing traditional 2D DCC applications. Please
+[join the Discord][graphite-discord] - and consider asking for a tour of the
+code and how you can help!
+
+[graphite-repo]: https://github.com/GraphiteEditor/Graphite
+[graphite-discord]: https://github.com/GraphiteEditor/Graphite/blob/master/README.md#discord
+[graphite-twitter]: https://twitter.com/GraphiteEditor
+[graphite-live-demo]: https://editor.graphite.design/
 
 ## Popular Workgroup Issues in Github
 
