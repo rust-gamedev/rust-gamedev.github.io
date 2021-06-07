@@ -470,11 +470,11 @@ design”.
 evaluated as 3D meshes with aribitrary precision.
 
 One could e.g. use this for a compact definition of a game’s levels and mesh
-them adaptively on the fly, during loading. With a density suitable for the
+them adaptively, on the fly, during loading. With a density suitable for the
 machine/GPU running the game.
 
 F-reps can also be sliced into polylines/vectors or bitmaps – e.g. for deriving
-[level sets][level-set] or for SLA/DLP printing.
+[level sets][level-set] or for SLA/DLP 3D printing.
 
 [libfive]: https://github.com/virtualritz/libfive-rs/tree/master/libfive/
 [libfive-orig]: https://libfive.com/
