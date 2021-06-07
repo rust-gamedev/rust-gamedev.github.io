@@ -356,6 +356,19 @@ _Discussions:
 [voxel_engine_video]: https://youtube.com/watch?v=96ht7rd3Y5I
 [voxel_engine_github]: https://github.com/TanTanDev/first_voxel_engine
 
+### [1 Year of Rust Game Development][video-1-year-of-rust-gamedev]
+
+[![YouTube thumbnail](1_year_of_rust_gamedev.png)][video-1-year-of-rust-gamedev]
+
+[Another video][video-1-year-of-rust-gamedev] by [@TanTanDev] is about
+the projects he made during his first year of learning Rust.
+He also talks about why he likes the Rust programming language and community.
+
+_Discussions: [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/n4o197)_
+
+[video-1-year-of-rust-gamedev]: https://youtu.be/ZltAssmicsM
+[@TanTanDev]: https://twitter.com/TanTanDev
+
 ### [LD48: Rusty MMO in 48 Hours][ld48-mmo]
 
 ![A screenshot of Dig World gameplay](https://img.itch.zone/aW1nLzYwMDQyNzkucG5n/original/VNIJnu.png)
