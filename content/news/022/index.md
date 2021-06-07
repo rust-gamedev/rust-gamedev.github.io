@@ -288,6 +288,23 @@ _Discussions:
 
 ## Engine Updates
 
+### [Tetra]
+
+[Tetra] is a simple 2D game framework, inspired by XNA, Love2D, and Raylib. This
+month, versions 0.6.4 and 0.6.5 were released, featuring:
+
+- Stencil buffers
+- Basic instanced mesh rendering
+- Methods for reading textures back to the CPU (e.g. for screenshots)
+- Support for passing slices/arrays as shader uniforms
+- More utility methods for working with high-DPI displays
+- Various bugfixes and docs improvements
+
+For more details, see the [changelog][tetra-changelog].
+
+[Tetra]: https://github.com/17cupsofcoffee/tetra
+[tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
+
 ### [Rustcraft][rustcraft]
 
 ![rustcraft-img](rustcraft.png)
