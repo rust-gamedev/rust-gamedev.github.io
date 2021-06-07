@@ -503,6 +503,38 @@ applications loading with OBJ files.
 [@virtualritz]: https://github.com/virtualritz
 [@syoyo]: https://github.com/syoyo
 
+### [Graphite][graphite-repo]
+
+![Piet Mondrian's artwork replicated in Graphite using the new color picker](graphite-piet.png)
+_Piet Mondrian's artwork replicated in Graphite using the new color picker_
+
+Graphite ([GitHub][graphite-repo], [Discord][graphite-discord],
+[Twitter](https://twitter.com/GraphiteEditor)) is an in-development vector and
+raster graphics editor built on a nondestructive node-based workflow.
+
+In the past month, new frontend features have mostly closed the gap for a
+visually-complete UI while a major Rust backend refactor took place.
+
+A new frontend system for floating menus was added to draw menus over the UI,
+like dropdown menu input widgets and popovers to display the new color picker.
+Also the application menu bar was built with working buttons for the new Undo
+and Export SVG actions.
+
+A large refactor in the Rust backend created a simpler communication strategy
+between all components in the software stack and a standard method of handling
+user inputs.
+
+[Try it right now in your browser.][graphite-live-demo] Graphite is making
+rapid progress towards becoming a nondestructive, procedural graphics editor
+suitable of replacing traditional 2D DCC applications. Please
+[join the Discord][graphite-discord] - and consider asking for a tour of the
+code and how you can help!
+
+[graphite-repo]: https://github.com/GraphiteEditor/Graphite
+[graphite-discord]: https://github.com/GraphiteEditor/Graphite/blob/master/README.md#discord
+[graphite-twitter]: https://twitter.com/GraphiteEditor
+[graphite-live-demo]: https://editor.graphite.design/
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
