@@ -353,7 +353,6 @@ and breaking blocks.
 
 [rustcraft]: https://github.com/dskart/rustcraft
 
-
 ### [rg3d]
 
 ![rg3d](rg3d_terrain.jpg)
@@ -390,7 +389,6 @@ rusty-editor updates:
 [rg3d_discord]: https://discord.gg/xENF5Uh
 [rg3d_twitter]: https://twitter.com/DmitryNStepanov
 [rg3d_terrain_reddit]: https://www.reddit.com/r/rust/comments/nlnfdb/timelapse_of_terrain_editing_in_rustyeditor_which/
-
 
 ## Learning Material Updates
 
