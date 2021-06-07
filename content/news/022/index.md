@@ -338,6 +338,24 @@ and breaking blocks.
 
 ## Learning Material Updates
 
+### [Voxel Engine with Rust and wgpu-rs][voxel_engine_video]
+
+[![Youtube preview](voxel_engine_wgpu.jpg)][voxel_engine_video]
+
+[@TanTanDev] published a [video][voxel_engine_video] about
+how he made a voxel engine written in Rust using wgpu.
+
+Currently voxel rendering, chunk management, flying camera,
+and simple lightning are implemented.
+The source code is released on [github][voxel_engine_github].
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/nn0j5l/i_made_a_voxel_engine_with_rust_and_wgpurs)_
+
+[@TanTanDev]: https://twitter.com/TanTanDev
+[voxel_engine_video]: https://youtube.com/watch?v=96ht7rd3Y5I
+[voxel_engine_github]: https://github.com/TanTanDev/first_voxel_engine
+
 ### [LD48: Rusty MMO in 48 Hours][ld48-mmo]
 
 ![A screenshot of Dig World gameplay](https://img.itch.zone/aW1nLzYwMDQyNzkucG5n/original/VNIJnu.png)
