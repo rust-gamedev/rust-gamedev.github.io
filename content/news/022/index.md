@@ -392,6 +392,19 @@ rusty-editor updates:
 
 ## Learning Material Updates
 
+### [Learn WGPU Updated to wgpu 0.8 and WGSL][learn-wgpu-news]
+
+After some GLSL issues trying to update the ["Learn WGPU"][learn-wgpu] tutorial
+to version WGPU 0.8, [@sotrh] decided to migrate to WGSL.
+This update was a lot of work, but relatively painless.
+As a result, `shaderc` is no longer a dependency.
+
+Checkout more at [here][learn-wgpu-news].
+
+[@sotrh]: https://patreon.com/sotrh
+[learn-wgpu]: https://sotrh.github.io/learn-wgpu
+[learn-wgpu-news]: https://sotrh.github.io/learn-wgpu/news/#_0-8-and-wgsl
+
 ### [Voxel Engine with Rust and wgpu-rs][voxel_engine_video]
 
 [![Youtube preview](voxel_engine_wgpu.jpg)][voxel_engine_video]
