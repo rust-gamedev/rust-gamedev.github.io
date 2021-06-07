@@ -353,6 +353,45 @@ and breaking blocks.
 
 [rustcraft]: https://github.com/dskart/rustcraft
 
+
+### [rg3d]
+
+![rg3d](rg3d_terrain.jpg)
+
+[rg3d] ([Discord][rg3d_discord], [Twitter][rg3d_twitter]) is a game engine that
+aims to be easy to use and provide a large set of out-of-box features. Some of
+the recent engine updates:
+
+- Initial 2D support (with lighting and physics)
+- Multi-layer terrains ([check this video][rg3d_terrain_reddit])
+- Load balancer for texture uploader
+- Customizable vertex format
+- Instanced rendering fixes
+- Menu items now can work without backing Menu widget
+- Shadows fix for spotlights
+- Selection improvements for Tree widget
+- Continuous integration
+- Basic Framework that hides engine initialization and game loop
+- Performance improvements
+- "Save" mode for FileSelector and FileBrowser widgets
+- Various bug fixes and small improvements.
+
+rusty-editor updates:
+
+- Context menu for world outliner items
+- Terrain editor
+- Grid snapping for Move interaction mode
+- Fixes for Move interaction mode in case of compex hierarchies
+- Continuous integration
+- Settings window refactoring + improvements
+- Box selection mode bug fixes
+
+[rg3d]: https://github.com/mrDIMAS/rg3d
+[rg3d_discord]: https://discord.gg/xENF5Uh
+[rg3d_twitter]: https://twitter.com/DmitryNStepanov
+[rg3d_terrain_reddit]: https://www.reddit.com/r/rust/comments/nlnfdb/timelapse_of_terrain_editing_in_rustyeditor_which/
+
+
 ## Learning Material Updates
 
 ### [Voxel Engine with Rust and wgpu-rs][voxel_engine_video]
