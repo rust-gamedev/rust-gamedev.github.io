@@ -462,14 +462,14 @@ extend the `asset` attribute to allow loading more complex assets. Stay tuned!
 ![CSG difference operation with a sphere and three cylinders](libfive.png)
 
 `libfive` by [@virtualritz] is a safe, oxidized wrapper around
-[Matt Keeter][@mkeeter]’s [`libfive`][libfive-orig] – a ”library and set of
+[Matt Keeter][@mkeeter]'s [`libfive`][libfive-orig] – a "library and set of
 tools for solid modeling especially suited for parametric and procedural
-design”.
+design".
 
 `libfive` is based on [functional representation][f-rep] (f-rep). F-reps can be
 evaluated as 3D meshes with aribitrary precision.
 
-One could e.g. use this for a compact definition of a game’s levels and mesh
+One could e.g. use this for a compact definition of a game's levels and mesh
 them adaptively, on the fly, during loading. With a density suitable for the
 machine/GPU running the game.
 
