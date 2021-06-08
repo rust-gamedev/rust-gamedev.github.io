@@ -459,7 +459,7 @@ _Discussion: [r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/nhd
 
 The video walks through implementing a "reset game" UI button in Bevy 0.5 by taking advantage of Bevy's event system for reading and writing a ResetGameEvent. We also cover recursively despawning entities and sprites.
 
-_Discussion: [Twitter][2048-bevy-twitter]
+_Discussion: [Twitter][2048-bevy-twitter]_
 
 [2048-bevy-youtube]: https://youtube.com/watch?v=4TJsEXupFso
 [2048-bevy-twitter]: https://twitter.com/chrisbiscardi/status/1397291221702254595
