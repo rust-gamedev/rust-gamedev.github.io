@@ -455,7 +455,7 @@ _Discussion: [r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/nhd
 
 ![YouTube Card](2048-bevy-reset-game-events.png)
 
-[@christopherbiscardi] published an video about using Bevy's event readers and writers to implement a reset game button for a 2048 clone.
+[@chrisbiscardi] published an video about using Bevy's event readers and writers to implement a reset game button for a 2048 clone.
 
 The video walks through implementing a "reset game" UI button in Bevy 0.5 by taking advantage of Bevy's event system for reading and writing a ResetGameEvent. We also cover recursively despawning entities and sprites.
 
@@ -463,6 +463,7 @@ _Discussion: [Twitter][2048-bevy-twitter]
 
 [2048-bevy-youtube]: https://youtube.com/watch?v=4TJsEXupFso
 [2048-bevy-twitter]: https://twitter.com/chrisbiscardi/status/1397291221702254595
+[@chrisbiscardi]: https://twitter.com/chrisbiscardi
 
 ## Library & Tooling Updates
 
