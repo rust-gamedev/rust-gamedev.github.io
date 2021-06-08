@@ -189,6 +189,19 @@ _Discussions: [Twitter][pglowrpg-twitter]_
 [pglowrpg-twitter]: https://twitter.com/pglowrpg
 [pglowrpg-github]: https://github.com/roalyr/pglowrpg
 
+### Project YAWC
+
+![A map in Project YAWC being built.](unbroken_lynx.png)
+
+Project YAWC ([Twitter](https://twitter.com/ProjectYawc)) is a turn-based
+strategy game built in GGEZ, being developed by junkmail.
+
+May saw the release of Alpha 5.4, including interface improvements,
+balance changes, new units, new maps and netcode improvements.
+
+An [alpha access request form](https://forms.gle/w22ohPGNk58fo9bv6) is available,
+if you want to try it out.
+
 ### [Bounty Bros.][bounty_bros]
 
 [![bounty-bros-title-screen](bounty-bros.png)][bounty_bros_webgame]
@@ -286,7 +299,47 @@ _Discussions:
 [ow-p18]: https://twitter.com/utopixel/status/1395079712020602884
 [ow-p19]: https://twitter.com/utopixel/status/1397614237187551237
 
+### [Theta Wave]
+
+[![Blast Repeller](theta-wave.gif)][Theta Wave]
+_The Blast Repeller item pushes blasts away from the player_
+
+[Theta Wave] is an open-source space shooter game by developers [@micah_tigley] and
+[@carlosupina]. It is one of the showcase games for the [Amethyst Engine]. In
+the past month, the ["Loot"] update was released which enhanced how loot drops
+are rolled, spawned, and how their effects are applied to the game. The Loot update
+also added an attraction system which allows for entities to repel or attract
+other entities.
+
+Now an ["Organization"] update is in progress for Theta Wave. This update will
+divide Theta Wave into two workspaces, a library and a binary. This update will also
+add documentation comments for all of the library's features.
+
+[Theta Wave]: https://github.com/amethyst/theta-wave
+[@micah_tigley]: https://twitter.com/micah_tigley
+[@carlosupina]: https://twitter.com/carlosupina
+[Amethyst Engine]: https://amethyst.rs/
+["Loot"]: https://github.com/amethyst/theta-wave/releases/tag/v0.1.6
+["Organization"]: https://github.com/amethyst/theta-wave/projects/5
+
 ## Engine Updates
+
+### [Tetra]
+
+[Tetra] is a simple 2D game framework, inspired by XNA, Love2D, and Raylib. This
+month, versions 0.6.4 and 0.6.5 were released, featuring:
+
+- Stencil buffers
+- Basic instanced mesh rendering
+- Methods for reading textures back to the CPU (e.g. for screenshots)
+- Support for passing slices/arrays as shader uniforms
+- More utility methods for working with high-DPI displays
+- Various bugfixes and docs improvements
+
+For more details, see the [changelog][tetra-changelog].
+
+[Tetra]: https://github.com/17cupsofcoffee/tetra
+[tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
 
 ### [Rustcraft][rustcraft]
 
@@ -300,7 +353,88 @@ and breaking blocks.
 
 [rustcraft]: https://github.com/dskart/rustcraft
 
+### [rg3d]
+
+![rg3d](rg3d_terrain.jpg)
+
+[rg3d] ([Discord][rg3d_discord], [Twitter][rg3d_twitter]) is a game engine that
+aims to be easy to use and provide a large set of out-of-box features. Some of
+the recent engine updates:
+
+- Initial 2D support (with lighting and physics)
+- Multi-layer terrains ([check this video][rg3d_terrain_reddit])
+- Load balancer for texture uploader
+- Customizable vertex format
+- Instanced rendering fixes
+- Menu items now can work without backing Menu widget
+- Shadows fix for spotlights
+- Selection improvements for Tree widget
+- Continuous integration
+- Basic Framework that hides engine initialization and game loop
+- Performance improvements
+- "Save" mode for FileSelector and FileBrowser widgets
+- Various bug fixes and small improvements.
+
+rusty-editor updates:
+
+- Context menu for world outliner items
+- Terrain editor
+- Grid snapping for Move interaction mode
+- Fixes for Move interaction mode in case of compex hierarchies
+- Continuous integration
+- Settings window refactoring + improvements
+- Box selection mode bug fixes
+
+[rg3d]: https://github.com/mrDIMAS/rg3d
+[rg3d_discord]: https://discord.gg/xENF5Uh
+[rg3d_twitter]: https://twitter.com/DmitryNStepanov
+[rg3d_terrain_reddit]: https://www.reddit.com/r/rust/comments/nlnfdb/timelapse_of_terrain_editing_in_rustyeditor_which/
+
 ## Learning Material Updates
+
+### [Learn WGPU Updated to wgpu 0.8 and WGSL][learn-wgpu-news]
+
+After some GLSL issues trying to update the ["Learn WGPU"][learn-wgpu] tutorial
+to version WGPU 0.8, [@sotrh] decided to migrate to WGSL.
+This update was a lot of work, but relatively painless.
+As a result, `shaderc` is no longer a dependency.
+
+Checkout more at [here][learn-wgpu-news].
+
+[@sotrh]: https://patreon.com/sotrh
+[learn-wgpu]: https://sotrh.github.io/learn-wgpu
+[learn-wgpu-news]: https://sotrh.github.io/learn-wgpu/news/#_0-8-and-wgsl
+
+### [Voxel Engine with Rust and wgpu-rs][voxel_engine_video]
+
+[![Youtube preview](voxel_engine_wgpu.jpg)][voxel_engine_video]
+
+[@TanTanDev] published a [video][voxel_engine_video] about
+how he made a voxel engine written in Rust using wgpu.
+
+Currently voxel rendering, chunk management, flying camera,
+and simple lightning are implemented.
+The source code is released on [github][voxel_engine_github].
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/nn0j5l/i_made_a_voxel_engine_with_rust_and_wgpurs)_
+
+[@TanTanDev]: https://twitter.com/TanTanDev
+[voxel_engine_video]: https://youtube.com/watch?v=96ht7rd3Y5I
+[voxel_engine_github]: https://github.com/TanTanDev/first_voxel_engine
+
+### [1 Year of Rust Game Development][video-1-year-of-rust-gamedev]
+
+[![YouTube thumbnail](1_year_of_rust_gamedev.png)][video-1-year-of-rust-gamedev]
+
+[Another video][video-1-year-of-rust-gamedev] by [@TanTanDev] is about
+the projects he made during his first year of learning Rust.
+He also talks about why he likes the Rust programming language and community.
+
+_Discussions: [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/n4o197)_
+
+[video-1-year-of-rust-gamedev]: https://youtu.be/ZltAssmicsM
+[@TanTanDev]: https://twitter.com/TanTanDev
 
 ### [LD48: Rusty MMO in 48 Hours][ld48-mmo]
 
@@ -502,6 +636,38 @@ applications loading with OBJ files.
 [@Twinklebear]: https://github.com/Twinklebear/
 [@virtualritz]: https://github.com/virtualritz
 [@syoyo]: https://github.com/syoyo
+
+### [Graphite][graphite-repo]
+
+![Piet Mondrian's artwork replicated in Graphite using the new color picker](graphite-piet.png)
+_Piet Mondrian's artwork replicated in Graphite using the new color picker_
+
+Graphite ([GitHub][graphite-repo], [Discord][graphite-discord],
+[Twitter](https://twitter.com/GraphiteEditor)) is an in-development vector and
+raster graphics editor built on a nondestructive node-based workflow.
+
+In the past month, new frontend features have mostly closed the gap for a
+visually-complete UI while a major Rust backend refactor took place.
+
+A new frontend system for floating menus was added to draw menus over the UI,
+like dropdown menu input widgets and popovers to display the new color picker.
+Also the application menu bar was built with working buttons for the new Undo
+and Export SVG actions.
+
+A large refactor in the Rust backend created a simpler communication strategy
+between all components in the software stack and a standard method of handling
+user inputs.
+
+[Try it right now in your browser.][graphite-live-demo] Graphite is making
+rapid progress towards becoming a nondestructive, procedural graphics editor
+suitable of replacing traditional 2D DCC applications. Please
+[join the Discord][graphite-discord] - and consider asking for a tour of the
+code and how you can help!
+
+[graphite-repo]: https://github.com/GraphiteEditor/Graphite
+[graphite-discord]: https://github.com/GraphiteEditor/Graphite/blob/master/README.md#discord
+[graphite-twitter]: https://twitter.com/GraphiteEditor
+[graphite-live-demo]: https://editor.graphite.design/
 
 ### [Libfive][libfive]
 
