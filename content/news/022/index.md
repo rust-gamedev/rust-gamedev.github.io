@@ -449,7 +449,17 @@ game jam, so he chose a simple theme: digging.
 
 _Discussion: [r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/nhdwky/i_used_rust_to_make_an_mmo_in_48_hours_for/?utm_source=share&utm_medium=web2x&context=3)_
 
-[ld48-mmo]: https://kuviman.itch.io/dig-world/devlog/255566/so-i-made-an-mmo-in-48-hours
+[ld48-mmo]:
+https://kuviman.itch.io/dig-world/devlog/255566/so-i-made-an-mmo-in-48-hours
+
+### [State of Rust in Unreal Engine][rust_in_unreal]
+
+[This Reddit post][rust_in_unreal] discusses the current state of using Rust in
+the Unreal Engine. It concluedes that although there are several ways that Rust
+could interact with the engine, all are still forced to use C++ to bootstrap
+these operations.
+
+[rust_in_unreal]: https://www.reddit.com/r/rust_gamedev/comments/n9v8m9/rust_in_unreal_engine_may_2021_summary/
 
 ## Library & Tooling Updates
 
