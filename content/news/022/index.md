@@ -455,7 +455,7 @@ https://kuviman.itch.io/dig-world/devlog/255566/so-i-made-an-mmo-in-48-hours
 ### [State of Rust in Unreal Engine][rust_in_unreal]
 
 [This Reddit post][rust_in_unreal] discusses the current state of using Rust in
-the Unreal Engine. It concluedes that although there are several ways that Rust
+the Unreal Engine. It concludes that although there are several ways that Rust
 could interact with the engine, all are still forced to use C++ to bootstrap
 these operations.
 
