@@ -1,8 +1,7 @@
 +++
 title = "This Month in Rust GameDev #22 - May 2021"
-date = 2021-06-01
+date = 2021-06-09
 transparent = true
-draft = true
 +++
 
 Welcome to the 22nd issue of the Rust GameDev Workgroup's
