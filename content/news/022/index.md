@@ -453,7 +453,7 @@ _Discussion: [r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/nhd
 
 ### [2048: Using an event system to reset the game][2048-bevy-youtube]
 
-![YouTube Card](2048-bevy-reset-game-events.png)
+[![YouTube Card](2048-bevy-reset-game-events.png)][2048-bevy-youtube]
 
 [@chrisbiscardi] published [a video][2048-bevy-youtube] about using Bevy's event
 readers and writers to implement a reset game button for a 2048 clone.
