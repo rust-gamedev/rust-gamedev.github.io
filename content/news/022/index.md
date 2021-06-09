@@ -30,7 +30,8 @@ Feel free to send PRs about your own projects!
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
-- [Library & Tooling Updates](#library-tooling-updates)
+- [Tooling Updates](#tooling-updates)
+- [Library Updates](#library-updates)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Meeting Minutes](#meeting-minutes)
 - [Requests for Contribution](#requests-for-contribution)
@@ -411,6 +412,31 @@ rusty-editor updates:
 [rg3d_twitter]: https://twitter.com/DmitryNStepanov
 [rg3d_terrain_reddit]: https://www.reddit.com/r/rust/comments/nlnfdb/timelapse_of_terrain_editing_in_rustyeditor_which/
 
+### [Nestadia][nestadia]
+
+![Zelda running on Nestadia](nestadia.png)
+
+[Nestadia][nestadia] by [@zer0x64], [@junior-n30] and [@CBenoit] is a
+server-based NES emulator.
+
+Nestadia was written as a reverse engineering and memory exploitation challenge
+for NorthSec CTF 2021, a cybersecurity competition. Contestants were required to
+reverse-engineer the emulator and ultimately write a Tool Assisted Speedrun to
+run arbitrary code inside a provided ROM.
+
+After the competition, the code was open-sourced and cleaned up to remove
+references to the competition. The developers intend on fixing more bugsand
+adding more features in the near future.
+
+Some interesting features of this emulator are its server-based nature, and the
+no_std core which means that the emulator can be built and ran pretty much
+anywhere without much work.
+
+Incoming improvements include online multiplayer, sound, a WASM port, porting to
+a libretro core, and using wgpu instead of sdl for the native GUI and debugger.
+
+[nestadia]: https://github.com/zer0x64/nestadia
+
 ## Learning Material Updates
 
 ### [Learn WGPU Updated to wgpu 0.8 and WGSL][learn-wgpu-news]
@@ -499,7 +525,41 @@ _Discussion: [Twitter][2048-bevy-twitter]_
 [2048-bevy-twitter]: https://twitter.com/chrisbiscardi/status/1397291221702254595
 [@chrisbiscardi]: https://twitter.com/chrisbiscardi
 
-## Library & Tooling Updates
+## Tooling Updates
+
+### [Graphite][graphite-repo]
+
+![Piet Mondrian's artwork replicated in Graphite using the new color picker](graphite-piet.png)
+_Piet Mondrian's artwork replicated in Graphite using the new color picker_
+
+Graphite ([GitHub][graphite-repo], [Discord][graphite-discord],
+[Twitter](https://twitter.com/GraphiteEditor)) is an in-development vector and
+raster graphics editor built on a nondestructive node-based workflow.
+
+In the past month, new frontend features have mostly closed the gap for a
+visually-complete UI while a major Rust backend refactor took place.
+
+A new frontend system for floating menus was added to draw menus over the UI,
+like dropdown menu input widgets and popovers to display the new color picker.
+Also the application menu bar was built with working buttons for the new Undo
+and Export SVG actions.
+
+A large refactor in the Rust backend created a simpler communication strategy
+between all components in the software stack and a standard method of handling
+user inputs.
+
+[Try it right now in your browser.][graphite-live-demo] Graphite is making
+rapid progress towards becoming a nondestructive, procedural graphics editor
+suitable of replacing traditional 2D DCC applications. Please
+[join the Discord][graphite-discord] - and consider asking for a tour of the
+code and how you can help!
+
+[graphite-repo]: https://github.com/GraphiteEditor/Graphite
+[graphite-discord]: https://github.com/GraphiteEditor/Graphite/blob/master/README.md#discord
+[graphite-twitter]: https://twitter.com/GraphiteEditor
+[graphite-live-demo]: https://editor.graphite.design/
+
+## Library Updates
 
 ### [Dimforge][dimforge]
 
@@ -669,31 +729,6 @@ extend the `asset` attribute to allow loading more complex assets. Stay tuned!
 [bevy]: https://github.com/bevyengine/bevy
 [@nikl_me]: https://twitter.com/nikl_me
 
-### [Nestadia][nestadia]
-
-![Zelda running on Nestadia](nestadia.png)
-
-[Nestadia][nestadia] by [@zer0x64], [@junior-n30] and [@CBenoit] is a
-server-based NES emulator.
-
-Nestadia was written as a reverse engineering and memory exploitation challenge
-for NorthSec CTF 2021, a cybersecurity competition. Contestants were required to
-reverse-engineer the emulator and ultimately write a Tool Assisted Speedrun to
-run arbitrary code inside a provided ROM.
-
-After the competition, the code was open-sourced and cleaned up to remove
-references to the competition. The developers intend on fixing more bugsand
-adding more features in the near future.
-
-Some interesting features of this emulator are its server-based nature, and the
-no_std core which means that the emulator can be built and ran pretty much
-anywhere without much work.
-
-Incoming improvements include online multiplayer, sound, a WASM port, porting to
-a libretro core, and using wgpu instead of sdl for the native GUI and debugger.
-
-[nestadia]: https://github.com/zer0x64/nestadia
-
 ### [tobj][tobj]
 
 `tobj` by [@Twinklebear] and [@virtualritz] is a simple and lightweight
@@ -714,38 +749,6 @@ applications loading with OBJ files.
 [@Twinklebear]: https://github.com/Twinklebear/
 [@virtualritz]: https://github.com/virtualritz
 [@syoyo]: https://github.com/syoyo
-
-### [Graphite][graphite-repo]
-
-![Piet Mondrian's artwork replicated in Graphite using the new color picker](graphite-piet.png)
-_Piet Mondrian's artwork replicated in Graphite using the new color picker_
-
-Graphite ([GitHub][graphite-repo], [Discord][graphite-discord],
-[Twitter](https://twitter.com/GraphiteEditor)) is an in-development vector and
-raster graphics editor built on a nondestructive node-based workflow.
-
-In the past month, new frontend features have mostly closed the gap for a
-visually-complete UI while a major Rust backend refactor took place.
-
-A new frontend system for floating menus was added to draw menus over the UI,
-like dropdown menu input widgets and popovers to display the new color picker.
-Also the application menu bar was built with working buttons for the new Undo
-and Export SVG actions.
-
-A large refactor in the Rust backend created a simpler communication strategy
-between all components in the software stack and a standard method of handling
-user inputs.
-
-[Try it right now in your browser.][graphite-live-demo] Graphite is making
-rapid progress towards becoming a nondestructive, procedural graphics editor
-suitable of replacing traditional 2D DCC applications. Please
-[join the Discord][graphite-discord] - and consider asking for a tour of the
-code and how you can help!
-
-[graphite-repo]: https://github.com/GraphiteEditor/Graphite
-[graphite-discord]: https://github.com/GraphiteEditor/Graphite/blob/master/README.md#discord
-[graphite-twitter]: https://twitter.com/GraphiteEditor
-[graphite-live-demo]: https://editor.graphite.design/
 
 ### [Libfive][libfive]
 
