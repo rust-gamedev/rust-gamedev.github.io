@@ -790,19 +790,6 @@ with zero-cost abstraction.
 [nvtx-rs]: https://github.com/simbleau/nvtx-rs
 [@simbleau]: https://github.com/simbleau
 
-## Popular Workgroup Issues in Github
-
-<!-- Up to 10 links to interesting issues -->
-
-## Meeting Minutes
-
-<!-- Up to 10 most important notes + a link to the full details -->
-
-[See all meeting issues][label_meeting] including full text notes
-or [join the next meeting][join].
-
-[label_meeting]: https://github.com/rust-gamedev/wg/issues?q=label%3Ameeting
-
 ## Requests for Contribution
 
 <!-- https://www.reddit.com/r/rust_gamedev/search?q=help&restrict_sr=1 -->
