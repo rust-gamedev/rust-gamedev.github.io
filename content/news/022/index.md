@@ -32,11 +32,7 @@ Feel free to send PRs about your own projects!
 - [Engine Updates](#engine-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
-- [Meeting Minutes](#meeting-minutes)
 - [Requests for Contribution](#requests-for-contribution)
-- [Jobs](#jobs)
-- [Bonus](#bonus)
 
 <!--
 Ideal section structure is:
@@ -367,7 +363,7 @@ For more details, see the [changelog][tetra-changelog].
 
 ![rustcraft-img](rustcraft.png)
 
-[Rustcraft][rustcraft] by [@dskart]
+[Rustcraft][rustcraft] by @dskart
 is a simple Minecraft engine written in Rust using wgpu.
 
 It handles infinite world generation using gradient noise as well as placing
@@ -416,7 +412,7 @@ rusty-editor updates:
 
 ![Zelda running on Nestadia](nestadia.png)
 
-[Nestadia][nestadia] by [@zer0x64], [@junior-n30] and [@CBenoit] is a
+[Nestadia][nestadia] by @zer0x64, @junior-n30 and @CBenoit is a
 server-based NES emulator.
 
 Nestadia was written as a reverse engineering and memory exploitation challenge
@@ -494,7 +490,7 @@ game jam, so he chose a simple theme: digging.
 
 20 hours later, he had a full-fledged MMO - complete with hackers!
 
-_Discussion: [r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/nhdwky/i_used_rust_to_make_an_mmo_in_48_hours_for/?utm_source=share&utm_medium=web2x&context=3)_
+_Discussion: [r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/nhdwky/i_used_rust_to_make_an_mmo_in_48_hours_for)_
 
 [ld48-mmo]:
 https://kuviman.itch.io/dig-world/devlog/255566/so-i-made-an-mmo-in-48-hours
