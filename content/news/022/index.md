@@ -774,6 +774,24 @@ F-reps can also be sliced into polylines/vectors or bitmaps – e.g. for derivin
 [f-rep]: https://en.wikipedia.org/wiki/Function_representation
 [level-set]: https://en.wikipedia.org/wiki/Level_set
 
+### [nvtx-rs]
+
+![A screenshot of NVIDIA NSight Systems with only one sections measured](nvtx.png)
+_Watching the profile in NVIDIA NSight Systems_
+
+NVIDIA® Tools Extension SDK (NVTX) is a C-based API for annotating events,
+code ranges, and resources in your applications.
+[nvtx-rs] by [@simbleau] is a safe rust wrapper for it.
+
+The intent is to safely wrap the NVTX library in rusty fashion
+to provide a proper cross-platform library for GPU and CPU profiling.
+Ideally this library would be used in benchmarking rust applications
+and performing research on rust projects such as a GPU analysis
+with zero-cost abstraction.
+
+[nvtx-rs]: https://github.com/simbleau/nvtx-rs
+[@simbleau]: https://github.com/simbleau
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
