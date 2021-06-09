@@ -197,7 +197,7 @@ Project YAWC ([Twitter](https://twitter.com/ProjectYawc)) is a turn-based
 strategy game built in GGEZ, being developed by junkmail.
 
 May saw the release of Alpha 5.4, including interface improvements,
-balance changes, new units, new maps and netcode improvements.
+balance changes, new units, new maps, and netcode improvements.
 
 An [alpha access request form](https://forms.gle/w22ohPGNk58fo9bv6) is available,
 if you want to try it out.
@@ -218,7 +218,7 @@ interface:
   an area with different music.
 - In-game UI is now functional including a new start menu and a simple settings
   menu to toggle the CRT filter and pixel aspect ratio.
-- The web-player now has a simple loading icon instead of a solid black screen.
+- The web player now has a simple loading icon instead of a solid black screen.
 
 The web version was re-built and published under a new link so you can [try it
 in your browser][bounty_bros_webgame].
@@ -239,7 +239,7 @@ that [Emerald] needed to be tested to ensure it can withstand cross
 publishing.
 This means creating a smaller game in the
 engine in order to figure out the publishing process for
-Steam, Itch, Nintendo Switch, etc. and guarantee it's viable.
+Steam, Itch, Nintendo Switch, and guarantee its viability.
 
 This resulted in the birth of [Harvest Hero Origins], a small wave
 defense arcade game with local co-op! Join the [Gemdrop Games Discord]
@@ -261,7 +261,7 @@ Features:
 
 ![Animation showing Bibi, the main protagonist of Outer Wonders,
 starting from the top entrance of a puzzle, rolling from obstacle
-to obstacle, leaning on on bushes, flowers and trees to reach
+to obstacle, leaning on bushes, flowers, and trees to reach
 the bottom exit of the puzzle](outer-wonders.gif)
 
 [Outer Wonders] is a colorful, pixel art, puzzle-based adventure game
@@ -329,12 +329,12 @@ _The Blast Repeller item pushes blasts away from the player_
 [Theta Wave] is an open-source space shooter game by developers [@micah_tigley] and
 [@carlosupina]. It is one of the showcase games for the [Amethyst Engine]. In
 the past month, the ["Loot"] update was released which enhanced how loot drops
-are rolled, spawned, and how their effects are applied to the game. The Loot update
-also added an attraction system which allows for entities to repel or attract
+are rolled, spawned, and how their effects are applied to the game. The Loot Update
+also added an attraction system that allows for entities to repel or attract
 other entities.
 
 Now an ["Organization"] update is in progress for Theta Wave. This update will
-divide Theta Wave into two workspaces, a library and a binary. This update will also
+divide Theta Wave into two workspaces; a library and a binary. This update will also
 add documentation comments for all of the library's features.
 
 [Theta Wave]: https://github.com/amethyst/theta-wave
@@ -356,7 +356,7 @@ month, versions 0.6.4 and 0.6.5 were released, featuring:
 - Methods for reading textures back to the CPU (e.g. for screenshots)
 - Support for passing slices/arrays as shader uniforms
 - More utility methods for working with high-DPI displays
-- Various bugfixes and docs improvements
+- Various bug fixes and docs improvements
 
 For more details, see the [changelog][tetra-changelog].
 
@@ -402,7 +402,7 @@ rusty-editor updates:
 - Context menu for world outliner items
 - Terrain editor
 - Grid snapping for Move interaction mode
-- Fixes for Move interaction mode in case of compex hierarchies
+- Fixes for Move interaction mode in case of complex hierarchies
 - Continuous integration
 - Settings window refactoring + improvements
 - Box selection mode bug fixes
@@ -425,7 +425,7 @@ reverse-engineer the emulator and ultimately write a Tool Assisted Speedrun to
 run arbitrary code inside a provided ROM.
 
 After the competition, the code was open-sourced and cleaned up to remove
-references to the competition. The developers intend on fixing more bugsand
+references to the competition. The developers intend on fixing more bugs and
 adding more features in the near future.
 
 Some interesting features of this emulator are its server-based nature, and the
@@ -460,7 +460,7 @@ Checkout more at [here][learn-wgpu-news].
 how he made a voxel engine written in Rust using wgpu.
 
 Currently voxel rendering, chunk management, flying camera,
-and simple lightning are implemented.
+and simple lightning is implemented.
 The source code is released on [github][voxel_engine_github].
 
 _Discussions:
@@ -537,11 +537,11 @@ Graphite ([GitHub][graphite-repo], [Discord][graphite-discord],
 raster graphics editor built on a nondestructive node-based workflow.
 
 In the past month, new frontend features have mostly closed the gap for a
-visually-complete UI while a major Rust backend refactor took place.
+visually complete UI while a major Rust backend refactor took place.
 
 A new frontend system for floating menus was added to draw menus over the UI,
 like dropdown menu input widgets and popovers to display the new color picker.
-Also the application menu bar was built with working buttons for the new Undo
+Also, the application menu bar was built with working buttons for the new Undo
 and Export SVG actions.
 
 A large refactor in the Rust backend created a simpler communication strategy
@@ -549,8 +549,8 @@ between all components in the software stack and a standard method of handling
 user inputs.
 
 [Try it right now in your browser.][graphite-live-demo] Graphite is making
-rapid progress towards becoming a nondestructive, procedural graphics editor
-suitable of replacing traditional 2D DCC applications. Please
+rapid progress towards becoming a non-destructive, procedural graphics editor
+suitable for replacing traditional 2D DCC applications. Please
 [join the Discord][graphite-discord] - and consider asking for a tour of the
 code and how you can help!
 
@@ -668,9 +668,9 @@ This project was released under the [Katharos License][katharos_license]. This
 license has moral and ethical implications that you may or may not agree with,
 so please read it before making use of this project.
 
-In the last two months Bevy Retro has gained a few new features, the biggest of
-which being an integration with the [RAUI]  UI library ( also featured in this
-newsletter ), allowing you to design fully-fledged user interface for Bevy Retro
+In the last two months, Bevy Retro has gained a few new features, the biggest of
+which is an integration with the [RAUI]  UI library ( also featured in this
+newsletter ), allowing you to design a fully-fledged user interface for Bevy Retro
 games. Additional features added were:
 
 - A simple sound playing API
@@ -695,8 +695,8 @@ _A preview to version 0.5 with furniture_
 [Texture Generator] by [Orchaldir] is a library to generate textures,
 and a library to use those textures to render tilemaps.
 Both libraries can generate color & depth images and
-support post processing effects like lighting & ambient occlusion.
-For randomness the instance id (e.g. the 145th brick) and/or the tile id are hashed.
+support post-processing effects like lighting & ambient occlusion.
+For randomness, the instance id (e.g. the 145th brick) and/or the tile id are hashed.
 
 The [current release] focuses on furniture.
 
@@ -721,7 +721,7 @@ inserted into Bevy's ECS as resources. Afterwards, the `AssetLoader` will
 switch into a second configurable app state. At this point, your app can use
 the asset collections that now contain loaded asset handles.
 
-Currently, a single file always corresponds to one asset and more complex
+Currently, a single file always corresponds to one asset, and more complex
 assets like e.g. `TextureAtlas` are not yet supported. There are plans to
 extend the `asset` attribute to allow loading more complex assets. Stay tuned!
 
@@ -741,7 +741,7 @@ more advanced importer functionality required for offline rendering,
 simulation, and modeling applications, through recent work by [@virtualritz].
 These features provide support for merging vertices to avoid discontinuities
 in simulation packages and reordering vertices to allow omitting the
-index buffer. This features have been added while preserving the original
+index buffer. These features have been added while preserving the original
 lightweight API design goal of `tobj`, making it a useful crate for a range of
 applications loading with OBJ files.
 
