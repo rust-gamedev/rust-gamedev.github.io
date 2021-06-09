@@ -669,6 +669,32 @@ code and how you can help!
 [graphite-twitter]: https://twitter.com/GraphiteEditor
 [graphite-live-demo]: https://editor.graphite.design/
 
+### [Libfive][libfive]
+
+![CSG difference operation with a sphere and three cylinders](libfive.png)
+
+`libfive` by [@virtualritz] is a safe, oxidized wrapper around
+[Matt Keeter][@mkeeter]'s [`libfive`][libfive-orig] – a "library and set of
+tools for solid modeling especially suited for parametric and procedural
+design".
+
+`libfive` is based on [functional representation][f-rep] (f-rep). F-reps can be
+evaluated as 3D meshes with aribitrary precision.
+
+One could e.g. use this for a compact definition of a game's levels and mesh
+them adaptively, on the fly, during loading. With a density suitable for the
+machine/GPU running the game.
+
+F-reps can also be sliced into polylines/vectors or bitmaps – e.g. for deriving
+[level sets][level-set] or for SLA/DLP 3D printing.
+
+[libfive]: https://github.com/virtualritz/libfive-rs/tree/master/libfive/
+[libfive-orig]: https://libfive.com/
+[@virtualritz]: https://github.com/virtualritz/
+[@mkeeter]: https://github.com/mkeeter/
+[f-rep]: https://en.wikipedia.org/wiki/Function_representation
+[level-set]: https://en.wikipedia.org/wiki/Level_set
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
