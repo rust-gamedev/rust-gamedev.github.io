@@ -461,6 +461,23 @@ these operations.
 
 [rust_in_unreal]: https://www.reddit.com/r/rust_gamedev/comments/n9v8m9/rust_in_unreal_engine_may_2021_summary/
 
+### [2048: Using an event system to reset the game][2048-bevy-youtube]
+
+[![YouTube Card](2048-bevy-reset-game-events.png)][2048-bevy-youtube]
+
+[@chrisbiscardi] published [a video][2048-bevy-youtube] about using Bevy's event
+readers and writers to implement a reset game button for a 2048 clone.
+
+The video walks through implementing a "reset game" UI button in Bevy 0.5 by taking
+advantage of Bevy's event system for reading and writing a ResetGameEvent. It also
+covers recursively despawning entities and sprites.
+
+_Discussion: [Twitter][2048-bevy-twitter]_
+
+[2048-bevy-youtube]: https://youtube.com/watch?v=4TJsEXupFso
+[2048-bevy-twitter]: https://twitter.com/chrisbiscardi/status/1397291221702254595
+[@chrisbiscardi]: https://twitter.com/chrisbiscardi
+
 ## Library & Tooling Updates
 
 ### [egui]
