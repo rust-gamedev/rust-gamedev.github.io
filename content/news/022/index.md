@@ -502,6 +502,36 @@ _Discussion: [Twitter][2048-bevy-twitter]_
 
 ## Library & Tooling Updates
 
+### [Dimforge][dimforge]
+
+[![Dimforge logo](dimforge.png)][dimforge]
+
+[Dimforge][dimforge] creates open-source Rust crates for numerical simulation.
+Some of the [recent updates][dimforge-update]:
+
+- [Rapier] v0.9 brings user-defined storages, colliders not attached
+  to any rigid-body, velocity-based kinematic bodies,
+  and a lot of [other improvements][rapier-v0-9].
+- bevy_rapier v0.10 was completely rewritten using
+  the new user-defined storages to become
+  significantly more ergonomic and "bevy-native" feel.
+- New exhaustive user-guides for [Rapier][guide-rapier]
+  and [bevy_rapier][guide-bevy_rapier] were written.
+  They cover all the available features of Rapier, excepted details about
+  implementing your own custom storage for colliders and rigid-bodies.
+- The [JS bindings for Rapier][rapier-js] have been updated to use Rapier 0.9.
+- nalgebra v0.26 and v0.27 got [const-generics support][na-const]
+  and macros for constructing matrices/vectors/points in a convenient way.
+
+[dimforge]: https://dimforge.com
+[dimforge-update]: https://dimforge.com/blog/2021/06/06/this-month-in-dimforge
+[Rapier]: https://rapier.rs
+[rapier-v0-9]: https://github.com/dimforge/rapier/blob/master/CHANGELOG.md#v090
+[rapier-js]: https://github.com/dimforge/rapier.js
+[guide-rapier]: https://www.rapier.rs/docs/user_guides/rust/getting_started
+[guide-bevy_rapier]: https://www.rapier.rs/docs/user_guides/rust_bevy_plugin/getting_started_bevy
+[na-const]: https://www.dimforge.com/blog/2021/04/12/integrating-const-generics-to-nalgebra
+
 ### [egui]
 
 ![egui](egui.gif)
