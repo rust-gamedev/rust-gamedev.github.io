@@ -1,8 +1,7 @@
 +++
 title = "This Month in Rust GameDev #22 - May 2021"
-date = 2021-06-01
+date = 2021-06-09
 transparent = true
-draft = true
 +++
 
 Welcome to the 22nd issue of the Rust GameDev Workgroup's
@@ -31,12 +30,9 @@ Feel free to send PRs about your own projects!
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
-- [Library & Tooling Updates](#library-tooling-updates)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
-- [Meeting Minutes](#meeting-minutes)
+- [Tooling Updates](#tooling-updates)
+- [Library Updates](#library-updates)
 - [Requests for Contribution](#requests-for-contribution)
-- [Jobs](#jobs)
-- [Bonus](#bonus)
 
 <!--
 Ideal section structure is:
@@ -197,7 +193,7 @@ Project YAWC ([Twitter](https://twitter.com/ProjectYawc)) is a turn-based
 strategy game built in GGEZ, being developed by junkmail.
 
 May saw the release of Alpha 5.4, including interface improvements,
-balance changes, new units, new maps and netcode improvements.
+balance changes, new units, new maps, and netcode improvements.
 
 An [alpha access request form](https://forms.gle/w22ohPGNk58fo9bv6) is available,
 if you want to try it out.
@@ -218,7 +214,7 @@ interface:
   an area with different music.
 - In-game UI is now functional including a new start menu and a simple settings
   menu to toggle the CRT filter and pixel aspect ratio.
-- The web-player now has a simple loading icon instead of a solid black screen.
+- The web player now has a simple loading icon instead of a solid black screen.
 
 The web version was re-built and published under a new link so you can [try it
 in your browser][bounty_bros_webgame].
@@ -239,7 +235,7 @@ that [Emerald] needed to be tested to ensure it can withstand cross
 publishing.
 This means creating a smaller game in the
 engine in order to figure out the publishing process for
-Steam, Itch, Nintendo Switch, etc. and guarantee it's viable.
+Steam, Itch, Nintendo Switch, and guarantee its viability.
 
 This resulted in the birth of [Harvest Hero Origins], a small wave
 defense arcade game with local co-op! Join the [Gemdrop Games Discord]
@@ -261,7 +257,7 @@ Features:
 
 ![Animation showing Bibi, the main protagonist of Outer Wonders,
 starting from the top entrance of a puzzle, rolling from obstacle
-to obstacle, leaning on on bushes, flowers and trees to reach
+to obstacle, leaning on bushes, flowers, and trees to reach
 the bottom exit of the puzzle](outer-wonders.gif)
 
 [Outer Wonders] is a colorful, pixel art, puzzle-based adventure game
@@ -329,12 +325,12 @@ _The Blast Repeller item pushes blasts away from the player_
 [Theta Wave] is an open-source space shooter game by developers [@micah_tigley] and
 [@carlosupina]. It is one of the showcase games for the [Amethyst Engine]. In
 the past month, the ["Loot"] update was released which enhanced how loot drops
-are rolled, spawned, and how their effects are applied to the game. The Loot update
-also added an attraction system which allows for entities to repel or attract
+are rolled, spawned, and how their effects are applied to the game. The Loot Update
+also added an attraction system that allows for entities to repel or attract
 other entities.
 
 Now an ["Organization"] update is in progress for Theta Wave. This update will
-divide Theta Wave into two workspaces, a library and a binary. This update will also
+divide Theta Wave into two workspaces; a library and a binary. This update will also
 add documentation comments for all of the library's features.
 
 [Theta Wave]: https://github.com/amethyst/theta-wave
@@ -356,7 +352,7 @@ month, versions 0.6.4 and 0.6.5 were released, featuring:
 - Methods for reading textures back to the CPU (e.g. for screenshots)
 - Support for passing slices/arrays as shader uniforms
 - More utility methods for working with high-DPI displays
-- Various bugfixes and docs improvements
+- Various bug fixes and docs improvements
 
 For more details, see the [changelog][tetra-changelog].
 
@@ -367,7 +363,7 @@ For more details, see the [changelog][tetra-changelog].
 
 ![rustcraft-img](rustcraft.png)
 
-[Rustcraft][rustcraft] by [@dskart]
+[Rustcraft][rustcraft] by @dskart
 is a simple Minecraft engine written in Rust using wgpu.
 
 It handles infinite world generation using gradient noise as well as placing
@@ -402,7 +398,7 @@ rusty-editor updates:
 - Context menu for world outliner items
 - Terrain editor
 - Grid snapping for Move interaction mode
-- Fixes for Move interaction mode in case of compex hierarchies
+- Fixes for Move interaction mode in case of complex hierarchies
 - Continuous integration
 - Settings window refactoring + improvements
 - Box selection mode bug fixes
@@ -411,6 +407,31 @@ rusty-editor updates:
 [rg3d_discord]: https://discord.gg/xENF5Uh
 [rg3d_twitter]: https://twitter.com/DmitryNStepanov
 [rg3d_terrain_reddit]: https://www.reddit.com/r/rust/comments/nlnfdb/timelapse_of_terrain_editing_in_rustyeditor_which/
+
+### [Nestadia][nestadia]
+
+![Zelda running on Nestadia](nestadia.png)
+
+[Nestadia][nestadia] by @zer0x64, @junior-n30 and @CBenoit is a
+server-based NES emulator.
+
+Nestadia was written as a reverse engineering and memory exploitation challenge
+for NorthSec CTF 2021, a cybersecurity competition. Contestants were required to
+reverse-engineer the emulator and ultimately write a Tool Assisted Speedrun to
+run arbitrary code inside a provided ROM.
+
+After the competition, the code was open-sourced and cleaned up to remove
+references to the competition. The developers intend on fixing more bugs and
+adding more features in the near future.
+
+Some interesting features of this emulator are its server-based nature, and the
+no_std core which means that the emulator can be built and ran pretty much
+anywhere without much work.
+
+Incoming improvements include online multiplayer, sound, a WASM port, porting to
+a libretro core, and using wgpu instead of sdl for the native GUI and debugger.
+
+[nestadia]: https://github.com/zer0x64/nestadia
 
 ## Learning Material Updates
 
@@ -435,7 +456,7 @@ Checkout more at [here][learn-wgpu-news].
 how he made a voxel engine written in Rust using wgpu.
 
 Currently voxel rendering, chunk management, flying camera,
-and simple lightning are implemented.
+and simple lightning is implemented.
 The source code is released on [github][voxel_engine_github].
 
 _Discussions:
@@ -469,7 +490,7 @@ game jam, so he chose a simple theme: digging.
 
 20 hours later, he had a full-fledged MMO - complete with hackers!
 
-_Discussion: [r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/nhdwky/i_used_rust_to_make_an_mmo_in_48_hours_for/?utm_source=share&utm_medium=web2x&context=3)_
+_Discussion: [r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/nhdwky/i_used_rust_to_make_an_mmo_in_48_hours_for)_
 
 [ld48-mmo]:
 https://kuviman.itch.io/dig-world/devlog/255566/so-i-made-an-mmo-in-48-hours
@@ -500,7 +521,41 @@ _Discussion: [Twitter][2048-bevy-twitter]_
 [2048-bevy-twitter]: https://twitter.com/chrisbiscardi/status/1397291221702254595
 [@chrisbiscardi]: https://twitter.com/chrisbiscardi
 
-## Library & Tooling Updates
+## Tooling Updates
+
+### [Graphite][graphite-repo]
+
+![Piet Mondrian's artwork replicated in Graphite using the new color picker](graphite-piet.png)
+_Piet Mondrian's artwork replicated in Graphite using the new color picker_
+
+Graphite ([GitHub][graphite-repo], [Discord][graphite-discord],
+[Twitter](https://twitter.com/GraphiteEditor)) is an in-development vector and
+raster graphics editor built on a nondestructive node-based workflow.
+
+In the past month, new frontend features have mostly closed the gap for a
+visually complete UI while a major Rust backend refactor took place.
+
+A new frontend system for floating menus was added to draw menus over the UI,
+like dropdown menu input widgets and popovers to display the new color picker.
+Also, the application menu bar was built with working buttons for the new Undo
+and Export SVG actions.
+
+A large refactor in the Rust backend created a simpler communication strategy
+between all components in the software stack and a standard method of handling
+user inputs.
+
+[Try it right now in your browser.][graphite-live-demo] Graphite is making
+rapid progress towards becoming a non-destructive, procedural graphics editor
+suitable for replacing traditional 2D DCC applications. Please
+[join the Discord][graphite-discord] - and consider asking for a tour of the
+code and how you can help!
+
+[graphite-repo]: https://github.com/GraphiteEditor/Graphite
+[graphite-discord]: https://github.com/GraphiteEditor/Graphite/blob/master/README.md#discord
+[graphite-twitter]: https://twitter.com/GraphiteEditor
+[graphite-live-demo]: https://editor.graphite.design/
+
+## Library Updates
 
 ### [Dimforge][dimforge]
 
@@ -609,9 +664,9 @@ This project was released under the [Katharos License][katharos_license]. This
 license has moral and ethical implications that you may or may not agree with,
 so please read it before making use of this project.
 
-In the last two months Bevy Retro has gained a few new features, the biggest of
-which being an integration with the [RAUI]  UI library ( also featured in this
-newsletter ), allowing you to design fully-fledged user interface for Bevy Retro
+In the last two months, Bevy Retro has gained a few new features, the biggest of
+which is an integration with the [RAUI]  UI library ( also featured in this
+newsletter ), allowing you to design a fully-fledged user interface for Bevy Retro
 games. Additional features added were:
 
 - A simple sound playing API
@@ -636,8 +691,8 @@ _A preview to version 0.5 with furniture_
 [Texture Generator] by [Orchaldir] is a library to generate textures,
 and a library to use those textures to render tilemaps.
 Both libraries can generate color & depth images and
-support post processing effects like lighting & ambient occlusion.
-For randomness the instance id (e.g. the 145th brick) and/or the tile id are hashed.
+support post-processing effects like lighting & ambient occlusion.
+For randomness, the instance id (e.g. the 145th brick) and/or the tile id are hashed.
 
 The [current release] focuses on furniture.
 
@@ -662,38 +717,13 @@ inserted into Bevy's ECS as resources. Afterwards, the `AssetLoader` will
 switch into a second configurable app state. At this point, your app can use
 the asset collections that now contain loaded asset handles.
 
-Currently, a single file always corresponds to one asset and more complex
+Currently, a single file always corresponds to one asset, and more complex
 assets like e.g. `TextureAtlas` are not yet supported. There are plans to
 extend the `asset` attribute to allow loading more complex assets. Stay tuned!
 
 [bevy_asset_loader]: https://github.com/NiklasEi/bevy_asset_loader
 [bevy]: https://github.com/bevyengine/bevy
 [@nikl_me]: https://twitter.com/nikl_me
-
-### [Nestadia][nestadia]
-
-![Zelda running on Nestadia](nestadia.png)
-
-[Nestadia][nestadia] by [@zer0x64], [@junior-n30] and [@CBenoit] is a
-server-based NES emulator.
-
-Nestadia was written as a reverse engineering and memory exploitation challenge
-for NorthSec CTF 2021, a cybersecurity competition. Contestants were required to
-reverse-engineer the emulator and ultimately write a Tool Assisted Speedrun to
-run arbitrary code inside a provided ROM.
-
-After the competition, the code was open-sourced and cleaned up to remove
-references to the competition. The developers intend on fixing more bugsand
-adding more features in the near future.
-
-Some interesting features of this emulator are its server-based nature, and the
-no_std core which means that the emulator can be built and ran pretty much
-anywhere without much work.
-
-Incoming improvements include online multiplayer, sound, a WASM port, porting to
-a libretro core, and using wgpu instead of sdl for the native GUI and debugger.
-
-[nestadia]: https://github.com/zer0x64/nestadia
 
 ### [tobj][tobj]
 
@@ -707,7 +737,7 @@ more advanced importer functionality required for offline rendering,
 simulation, and modeling applications, through recent work by [@virtualritz].
 These features provide support for merging vertices to avoid discontinuities
 in simulation packages and reordering vertices to allow omitting the
-index buffer. This features have been added while preserving the original
+index buffer. These features have been added while preserving the original
 lightweight API design goal of `tobj`, making it a useful crate for a range of
 applications loading with OBJ files.
 
@@ -715,38 +745,6 @@ applications loading with OBJ files.
 [@Twinklebear]: https://github.com/Twinklebear/
 [@virtualritz]: https://github.com/virtualritz
 [@syoyo]: https://github.com/syoyo
-
-### [Graphite][graphite-repo]
-
-![Piet Mondrian's artwork replicated in Graphite using the new color picker](graphite-piet.png)
-_Piet Mondrian's artwork replicated in Graphite using the new color picker_
-
-Graphite ([GitHub][graphite-repo], [Discord][graphite-discord],
-[Twitter](https://twitter.com/GraphiteEditor)) is an in-development vector and
-raster graphics editor built on a nondestructive node-based workflow.
-
-In the past month, new frontend features have mostly closed the gap for a
-visually-complete UI while a major Rust backend refactor took place.
-
-A new frontend system for floating menus was added to draw menus over the UI,
-like dropdown menu input widgets and popovers to display the new color picker.
-Also the application menu bar was built with working buttons for the new Undo
-and Export SVG actions.
-
-A large refactor in the Rust backend created a simpler communication strategy
-between all components in the software stack and a standard method of handling
-user inputs.
-
-[Try it right now in your browser.][graphite-live-demo] Graphite is making
-rapid progress towards becoming a nondestructive, procedural graphics editor
-suitable of replacing traditional 2D DCC applications. Please
-[join the Discord][graphite-discord] - and consider asking for a tour of the
-code and how you can help!
-
-[graphite-repo]: https://github.com/GraphiteEditor/Graphite
-[graphite-discord]: https://github.com/GraphiteEditor/Graphite/blob/master/README.md#discord
-[graphite-twitter]: https://twitter.com/GraphiteEditor
-[graphite-live-demo]: https://editor.graphite.design/
 
 ### [Libfive][libfive]
 
@@ -792,31 +790,34 @@ with zero-cost abstraction.
 [nvtx-rs]: https://github.com/simbleau/nvtx-rs
 [@simbleau]: https://github.com/simbleau
 
-## Popular Workgroup Issues in Github
-
-<!-- Up to 10 links to interesting issues -->
-
-## Meeting Minutes
-
-<!-- Up to 10 most important notes + a link to the full details -->
-
-[See all meeting issues][label_meeting] including full text notes
-or [join the next meeting][join].
-
-[label_meeting]: https://github.com/rust-gamedev/wg/issues?q=label%3Ameeting
-
 ## Requests for Contribution
 
-<!-- Links to "good first issue"-labels or direct links to specific tasks -->
+<!-- https://www.reddit.com/r/rust_gamedev/search?q=help&restrict_sr=1 -->
 
-## Jobs
+- [Backroll-rs, a new networking library][backroll-rs].
+- [Embark's open issues][embark-open-issues] ([embark.rs]).
+- [gfx-rs's "contributor-friendly" issues][gfx-issues].
+- [luminance's "low hanging fruit" issues][luminance-fruits].
+- [ggez's "good first issue" issues][ggez-issues].
+- [Veloren's "beginner" issues][veloren-beginner].
+- [Amethyst's "good first issue" issues][amethyst-issues].
+- [A/B Street's "good first issue" issues][abstreet-issues].
+- [Mun's "good first issue" issues][mun-issues].
+- [SIMple Mechanic's good first issues][simm-issues].
+- [Bevy's "good first issue" issues][bevy-issues].
 
-<!-- An optional section for new jobs related to Rust gamedev -->
-
-## Bonus
-
-<!-- Bonus section to make the newsletter more interesting
-and highlight events from the past. -->
+[backroll-rs]: https://github.com/HouraiTeahouse/backroll-rs/issues
+[embark.rs]: https://embark.rs
+[embark-open-issues]: https://github.com/search?q=user:EmbarkStudios+state:open
+[gfx-issues]: https://github.com/gfx-rs/gfx/issues?q=is%3Aissue+is%3Aopen+label%3Acontributor-friendly
+[luminance-fruits]: https://github.com/phaazon/luminance-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22low+hanging+fruit%22
+[ggez-issues]: https://github.com/ggez/ggez/labels/%2AGOOD%20FIRST%20ISSUE%2A
+[veloren-beginner]: https://gitlab.com/veloren/veloren/issues?label_name=beginner
+[amethyst-issues]: https://github.com/amethyst/amethyst/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[abstreet-issues]: https://github.com/a-b-street/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
+[simm-issues]: https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue
+[bevy-issues]: https://github.com/bevyengine/bevy/labels/good%20first%20issue
 
 ------
 
