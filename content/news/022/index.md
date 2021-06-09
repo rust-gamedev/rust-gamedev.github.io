@@ -299,6 +299,28 @@ _Discussions:
 [ow-p18]: https://twitter.com/utopixel/status/1395079712020602884
 [ow-p19]: https://twitter.com/utopixel/status/1397614237187551237
 
+### [rpg-cli]
+
+![agent stats and a fight with a spider in ~/dev/facundoolano](rpg-cli.png)
+
+[rpg-cli] by [@facundoolano] is a bare-bones JRPG-inspired terminal game.
+It can work as an alternative to cd where you randomly encounter enemies
+as you change directories.
+The game features:
+
+- Character stats and leveling system.
+- Automatic turn-based combat.
+- Item and equipment support.
+- 15+ enemy classes.
+- Permadeath with item recovering.
+- Run and bribe to escape battles.
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/nktk1y/rpgcli_your_filesystem_as_a_dungeon)_
+
+[rpg-cli]: https://github.com/facundoolano/rpg-cli
+[@facundoolano]: https://github.com/facundoolano
+
 ### [Theta Wave]
 
 [![Blast Repeller](theta-wave.gif)][Theta Wave]
