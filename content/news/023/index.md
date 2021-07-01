@@ -35,6 +35,8 @@ Feel free to send PRs about your own projects!
 - [Engine Updates](#engine-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Library & Tooling Updates](#library--tooling-updates)
+  - [bevy_midi](#bevy_midi)
+  - [bevy_config_cam](#bevy_config_cam)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Meeting Minutes](#meeting-minutes)
 - [Requests for Contribution](#requests-for-contribution)
@@ -92,6 +94,7 @@ making of [video](https://youtube.com/watch?v=3TOEZ7krhvI) on YouTube.
 
 ## Library & Tooling Updates
 
+### bevy_midi
 [![bevy_midi logo](bevy_midi_logo.svg)](https://github.com/BlackPhlox/bevy_midi)
 
 [bevy_midi](https://github.com/BlackPhlox/bevy_midi) by [@BlackPhlox](https://github.com/BlackPhlox) is a new bevy plugin that uses [midir](https://github.com/Boddlnagg/midir) to interact with the bevy game engine.
@@ -102,6 +105,7 @@ Here is one of the examples which you can use a midi controller to play piano wi
 
 The plugins is still in its infancy. So it still has some performance issues, so any feedback and contributions is highly appreciated.
 
+### bevy_config_cam
 [![bevy_config_cam logo](bevy_config_cam_logo.svg)](https://github.com/BlackPhlox/bevy_config_cam)
 
 [bevy_config_cam](https://github.com/BlackPhlox/bevy_config_cam) by [@BlackPhlox](https://github.com/BlackPhlox) is an all-in-one purpose camera/player controller for bevy. 
