@@ -31,9 +31,11 @@ Feel free to send PRs about your own projects!
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
 - [Game Updates](#game-updates)
-- [Learning Material Updates](#learning-material-updates)
+  - [Open Combat](#open-combat)
 - [Engine Updates](#engine-updates)
-- [Library & Tooling Updates](#library-tooling-updates)
+- [Learning Material Updates](#learning-material-updates)
+- [Library & Tooling Updates](#library--tooling-updates)
+  - [[bevy_midi]](#bevy_midi)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Meeting Minutes](#meeting-minutes)
 - [Requests for Contribution](#requests-for-contribution)
@@ -90,6 +92,20 @@ making of [video](https://youtube.com/watch?v=3TOEZ7krhvI) on YouTube.
 ## Learning Material Updates
 
 ## Library & Tooling Updates
+
+### [bevy_midi]
+
+![bevy_midi logo](bevy_midi_logo.svg)
+
+[bevy_midi](https://github.com/BlackPhlox/bevy_midi) by [@BlackPhlox](https://github.com/BlackPhlox) is a bevy plugin that uses midir to interact with the bevy game engine.
+
+Something about bevy_osc.
+
+Demo.
+
+Improvements and contribution.
+
+
 
 ## Popular Workgroup Issues in Github
 
