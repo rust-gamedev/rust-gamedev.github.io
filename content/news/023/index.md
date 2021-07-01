@@ -35,7 +35,6 @@ Feel free to send PRs about your own projects!
 - [Engine Updates](#engine-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Library & Tooling Updates](#library--tooling-updates)
-  - [[bevy_midi]](#bevy_midi)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Meeting Minutes](#meeting-minutes)
 - [Requests for Contribution](#requests-for-contribution)
@@ -93,19 +92,24 @@ making of [video](https://youtube.com/watch?v=3TOEZ7krhvI) on YouTube.
 
 ## Library & Tooling Updates
 
-### [bevy_midi]
+[![bevy_midi logo](bevy_midi_logo.svg)](https://github.com/BlackPhlox/bevy_midi)
 
-![bevy_midi logo](bevy_midi_logo.svg)
+[bevy_midi](https://github.com/BlackPhlox/bevy_midi) by [@BlackPhlox](https://github.com/BlackPhlox) is a new bevy plugin that uses [midir](https://github.com/Boddlnagg/midir) to interact with the bevy game engine.
 
-[bevy_midi](https://github.com/BlackPhlox/bevy_midi) by [@BlackPhlox](https://github.com/BlackPhlox) is a bevy plugin that uses midir to interact with the bevy game engine.
+It started out with [bevy_osc](https://github.com/BlackPhlox/bevy_osc) as a proof-of-concept interfacing with [nannou_osc](https://github.com/nannou-org/nannou_osc) and using other osc software to communicate with bevy. Soon, realizing that nannou_osc is not that different how you interfaces with midi, bevy_midi was born.
 
-Something about bevy_osc.
+Here is one of the examples which you can use a midi controller to play piano with:
 
-Demo.
+The plugins is still in its infancy. So it still has some performance issues, so any feedback and contributions is highly appreciated.
 
-Improvements and contribution.
+[![bevy_config_cam logo](bevy_config_cam_logo.svg)](https://github.com/BlackPhlox/bevy_config_cam)
 
+[bevy_config_cam](https://github.com/BlackPhlox/bevy_config_cam) by [@BlackPhlox](https://github.com/BlackPhlox) is an all-in-one purpose camera/player controller for bevy. 
 
+With focus on plug-and-play, flexibility and ease of use, this bevy plugin is for anyone who is prototyping in 3D and doesn't want the hassle of programming a player-controller from scratch. 
+Instantly switch between camera modes such as Tracking to Topdown, Follow Behind, FPS and Free and more. 
+
+The plugins is very new. So any feedback and contributions is highly appreciated.
 
 ## Popular Workgroup Issues in Github
 
