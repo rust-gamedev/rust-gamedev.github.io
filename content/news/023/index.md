@@ -64,6 +64,14 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### taileater
+
+![logo of a pixellated snake attempting to eat it's own tail](taileater.gif)
+
+taileater ([itch.io](https://szunami.itch.io/taileater), [github](https://github.com/szunami/taileater/)) is a open source puzzle game in which you eat your own tail to win.
+
+The game is programmed in Rust using the Bevy engine.
+
 ## Engine Updates
 
 ## Learning Material Updates
