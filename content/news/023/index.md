@@ -64,6 +64,27 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Open Combat][opencombat]
+
+![Open Combat logo](open_combat.jpg)
+
+[Open Combat][opencombat]
+([/r/OpenCombatGame](https://reddit.com/r/OpenCombatGame),
+[Discord](https://discord.gg/YD2V7XsBQZ),
+[Forum](https://discourse.opencombat.bux.fr/))
+is a real time tactical game directly inspired from
+[Close Combat Series](https://en.wikipedia.org/wiki/Close_Combat_(series)).
+The player takes control of soldier units and orders them to win the battles
+from a top down 2D view.
+
+The project recently started with Rust language after a Python language proof of
+concept in 2017. More info is available at [opencombat.bux.fr][opencombat],
+and you can find a
+[presentation](https://youtube.com/watch?v=pxVgjBKXlIw) video and a game
+making of [video](https://youtube.com/watch?v=3TOEZ7krhvI) on YouTube.
+
+[opencombat]: https://opencombat.bux.fr
+
 ## Engine Updates
 
 ## Learning Material Updates
