@@ -101,10 +101,9 @@ making of [video](https://youtube.com/watch?v=3TOEZ7krhvI) on YouTube.
 
 It started out with [bevy_osc](https://github.com/BlackPhlox/bevy_osc) as a proof-of-concept interfacing with [nannou_osc](https://github.com/nannou-org/nannou_osc) and using other osc software to communicate with bevy. Soon, realizing that nannou_osc is not that different how you interfaces with midi, bevy_midi was born.
 
-Here is one of the examples which you can use a midi controller to play piano with:
+Here is one of the examples which you can use a midi controller to play piano with ([audio](https://discord.com/channels/691052431525675048/692648638823923732/857177113923682304)):
 
 https://user-images.githubusercontent.com/25123512/124200245-1fb86700-dad5-11eb-88a8-67bfef473bec.mp4
-
 
 The plugins is still in its infancy. So it still has some performance issues, so any feedback and contributions is highly appreciated.
 
