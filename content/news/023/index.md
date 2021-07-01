@@ -224,6 +224,43 @@ projects. Pure Rust Vulkan allocators with support for erupt have been released.
 [erupt]: https://gitlab.com/Friz64/erupt
 [@Friz64]: https://blog.friz64.de/about
 
+### [glutin] (and [winit])
+
+![Animated image showing a window that is opened with a spinning cursor on top](winit-bug-1.gif)
+_This cursor may be waiting in vain, but your patience shall be rewarded._
+
+[glutin] is a low-level library for OpenGL context creation, written in pure Rust.
+[glutin] uses and re-exports [winit], which handles window creation and management,
+as well as various input devices.
+
+glutin 0.27.0 makes glutin use the latest version of winit (0.25.0), which was
+released around a month prior to glutin 0.27.0. Usually, we try to keep glutin
+synced with winit, but we couldn't quite manage to do it this time since the person
+who'd usually take responsibility for releasing a new version of glutin was
+unavailable, and no-one had the role of "back-up releaser". [@maroider] has offered
+to fill this role for now.
+
+The upgrade to winit 0.25.0 brings with it a slew of bufixes, a couple of new
+features, and a single breaking change to
+[`WindowBuilderExtMacOS::with_activation_policy`], which has been replaced by
+[`EventLoopExtMacOS::set_activation_policy`].
+
+Notable new features include [`Window::drag_window`], [`Window::is_maximized`], and
+a default menu bar on macOS. We also fixed a couple of long-standing bugs in winit
+on Windows that we're sure many of you have noticed. In fact, one of them is
+displayed in the gif at the top of this section: sometimes, the "wait" cursor would
+be displayed upon the initial creation of the window, even though there was nothing
+to "wait" for. For a full list of changes, refer to [winit's changelog].
+
+[glutin]: https://github.com/rust-windowing/glutin
+[winit]: https://github.com/rust-windowing/winit
+[@maroider]: https://github.com/maroider
+[`WindowBuilderExtMacOS::with_activation_policy`]: https://docs.rs/winit/0.24.0/x86_64-apple-darwin/winit/platform/macos/trait.WindowBuilderExtMacOS.html#tymethod.with_activation_policy
+[`EventLoopExtMacOS::set_activation_policy`]: https://docs.rs/winit/0.25.0/x86_64-apple-darwin/winit/platform/macos/trait.EventLoopExtMacOS.html#tymethod.set_activation_policy
+[`Window::drag_window`]: https://docs.rs/winit/0.25.0/x86_64-apple-darwin/winit/window/struct.Window.html#method.drag_window
+[`Window::is_maximized`]: https://docs.rs/winit/0.25.0/x86_64-apple-darwin/winit/window/struct.Window.html#method.is_maximized
+[winit's changelog]: https://github.com/rust-windowing/winit/blob/master/CHANGELOG.md#0250-2021-05-15
+
 ### [wgpu] family re-union
 
 ![wgpu family reunion](wgpu-family-reunion.svg)
