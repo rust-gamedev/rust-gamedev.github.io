@@ -103,6 +103,9 @@ It started out with [bevy_osc](https://github.com/BlackPhlox/bevy_osc) as a proo
 
 Here is one of the examples which you can use a midi controller to play piano with:
 
+https://user-images.githubusercontent.com/25123512/124200245-1fb86700-dad5-11eb-88a8-67bfef473bec.mp4
+
+
 The plugins is still in its infancy. So it still has some performance issues, so any feedback and contributions is highly appreciated.
 
 ### bevy_config_cam
