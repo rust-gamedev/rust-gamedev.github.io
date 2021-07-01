@@ -114,7 +114,7 @@ The plugins is still in its infancy. So it still has some performance issues, so
 [bevy_config_cam](https://github.com/BlackPhlox/bevy_config_cam) by [@BlackPhlox](https://github.com/BlackPhlox) is an all-in-one purpose camera/player controller for bevy. 
 
 With focus on plug-and-play, flexibility and ease of use, this bevy plugin is for anyone who is prototyping in 3D and doesn't want the hassle of programming a player-controller from scratch. 
-Instantly switch between camera modes such as Tracking to Topdown, Follow Behind, FPS and Free and more. 
+Instantly switch between camera modes such as Tracking to Topdown, Follow Behind, FPS and Free and more.
 
 The plugins is very new. So any feedback and contributions is highly appreciated.
 
