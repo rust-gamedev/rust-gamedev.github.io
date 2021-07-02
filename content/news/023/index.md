@@ -91,6 +91,24 @@ making of [video](https://youtube.com/watch?v=3TOEZ7krhvI) on YouTube.
 
 ## Library & Tooling Updates
 
+### [backroll-rs] and [GGRS]
+
+[backroll-rs] by TODO is a pure Rust implementation of the [GGPO] rollback networking library.
+[GGRS] (Good Game Rollback System) by [@g_schup] also is a pure Rust implementation of [GGPO]. 
+
+{TODO explain rollback shortly}
+
+{TODO explain differences between libraries}
+
+If you are interested in integrating rollback networking into your game or just want to chat with other rollback developers (not limited to Rust), check out the [GGPO Developers Discord]!
+
+[backroll-rs]: https://github.com/HouraiTeahouse/backroll-rs
+[backroll-rs Discord]: TODO
+[GGPO Developers Discord]: https://discord.gg/8FKKhCRCCE
+[GGRS]: https://github.com/gschup/ggrs
+[GGPO]: https://www.ggpo.net/
+[@g_schup]: https://twitter.com/g_schup
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
