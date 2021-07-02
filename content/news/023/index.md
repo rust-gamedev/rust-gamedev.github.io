@@ -106,8 +106,7 @@ and a sample application written in [ggez](https://crates.io/crates/ggez).
 _Discussions: [/r/rust_gamedev](
 https://www.reddit.com/r/rust\_gamedev/comments/nx79kq/)_
 
-[A Trig-less Line of Sight Algorithm for 2D Games]: 
-https://basstabs.github.io/2d-line-of-sight/
+[lineofsight]: https://basstabs.github.io/2d-line-of-sight/
  
 ## Library & Tooling Updates
 
