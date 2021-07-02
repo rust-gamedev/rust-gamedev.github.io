@@ -94,6 +94,7 @@ making of [video](https://youtube.com/watch?v=3TOEZ7krhvI) on YouTube.
 ### [backroll-rs] and [GGRS]
 
 [backroll-rs] by TODO is a pure Rust implementation of the [GGPO] rollback networking library.
+
 [GGRS] (Good Game Rollback System) by [@g_schup] also is a pure Rust implementation of [GGPO]. 
 
 {TODO explain rollback shortly}
