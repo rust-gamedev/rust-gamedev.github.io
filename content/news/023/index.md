@@ -93,13 +93,12 @@ making of [video](https://youtube.com/watch?v=3TOEZ7krhvI) on YouTube.
 
 ![2D Sight Example](lineofsight.png)
 
-[@basstabs] published a [tutorial](
-https://basstabs.github.io/2d-line-of-sight/) which explains how to write a 
+[@basstabs] published a tutorial which explains how to write a
 line of sight algorithm for 2D games in Rust without using trigonometry or
 square roots. It includes vector diagrams and typset math to explain the ideas
 behind each stage of the algorithm, source code for each step, tests to verify
 accuracy of the methods, and suggestions for further improvements.
-Additionally, the 
+Additionally, the
 [repository](https://github.com/basstabs/2d-line-of-sight) contains benchmarks
 and a sample application written in [ggez](https://crates.io/crates/ggez).
 
@@ -107,7 +106,8 @@ _Discussions: [/r/rust_gamedev](
 https://www.reddit.com/r/rust\_gamedev/comments/nx79kq/)_
 
 [lineofsight]: https://basstabs.github.io/2d-line-of-sight/
- 
+[@basstabs]: https://github.com/basstabs
+
 ## Library & Tooling Updates
 
 ### [erupt]
