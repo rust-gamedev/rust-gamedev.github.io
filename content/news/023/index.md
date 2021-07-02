@@ -124,7 +124,7 @@ GGRS is recommended as a learning recource and entry point,
 with a plethora of internal documentation and explanation.
 
 The main requirement to make use of both presented libraries is determinism 
-in your game exection. Resimulation requires that the result of progressing 
+in your game execution. Resimulation requires that the result of progressing 
 the game state depending on the given inputs yield the exact same results 
 every time. Additionally, you need to be able to load, save and progress 
 your gamestate without rendering the outcome.
