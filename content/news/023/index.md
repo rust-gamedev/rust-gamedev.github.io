@@ -93,7 +93,7 @@ making of [video](https://youtube.com/watch?v=3TOEZ7krhvI) on YouTube.
 
 ### [backroll-rs] and [GGRS]
 
-[backroll-rs] ([Discord](https://discord.gg/VuZhs9V), 
+[backroll-rs] ([Discord](https://discord.gg/VuZhs9V),
 [crates.io](https://crates.io/crates/backroll)) by [@james7132] and
 [GGRS]([crates.io](https://crates.io/crates/ggrs)) by [@g_schup] are pure
 Rust implementations of the [GGPO] rollback networking library.
