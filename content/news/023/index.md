@@ -118,9 +118,10 @@ implementation as well as helpful resources for developers.
 backroll-rs features an added abstraction for the transportation layer and 
 also provides a bevy plugin, [bevy-backroll]. GGRS replaces the 
 C-style callback API of GGPO with a simpler, more understandable control flow. 
-The authors of both libraries recommend backroll-rs, as it is currently 
-more actively collaborated on. GGRS is recommended as a learning recource 
-and entry point, with a plethora of internal documentation and explanation.
+The authors of both libraries recommend backroll-rs for developement, 
+as it is currently more actively collaborated on. 
+GGRS is recommended as a learning recource and entry point, 
+with a plethora of internal documentation and explanation.
 
 The main requirement to make use of both presented libraries is determinism 
 in your game exection. Resimulation requires that the result of progressing 
