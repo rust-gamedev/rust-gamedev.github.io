@@ -88,7 +88,8 @@ making of [video](https://youtube.com/watch?v=3TOEZ7krhvI) on YouTube.
 ### [The Hat Chooses the Wizard][hatchooseswizard]
 
 ![Level 1-4 of the game "The Hat Chooses the Wizard" running on a Game Boy
-Advance](hatchooseswizard.jpg) _Runs on real hardware!_
+Advance](hatchooseswizard.jpg)
+_Runs on real hardware!_
 
 The Hat Chooses the Wizard is a 2D platformer for the Game Boy Advance.
 
