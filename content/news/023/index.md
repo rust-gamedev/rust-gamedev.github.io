@@ -95,7 +95,7 @@ making of [video](https://youtube.com/watch?v=3TOEZ7krhvI) on YouTube.
 
 [@basstabs] published a tutorial which explains how to write a
 line of sight algorithm for 2D games in Rust without using trigonometry or
-square roots. It includes vector diagrams and typset math to explain the ideas
+square roots. It includes vector diagrams and typeset math to explain the ideas
 behind each stage of the algorithm, source code for each step, tests to verify
 accuracy of the methods, and suggestions for further improvements.
 Additionally, the
