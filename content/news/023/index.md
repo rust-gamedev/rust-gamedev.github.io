@@ -114,6 +114,26 @@ If you are interested in integrating rollback networking into your game or just 
 [@g_schup]: https://twitter.com/
 [@james7132]: https://twitter.com/james7132
 
+### [erupt]
+
+![erupt logo](erupt.svg)
+
+[erupt] by [@Friz64] provides bindings to the Vulkan API.
+
+Since being last mentioned in the newsletter shortly after its release, erupt
+has undergone significant development. The generator, erupt's heart, has been
+rewritten from scratch with the aim to improve maintainability. On top of that,
+many bugs were fixed, the function loader was rewritten and usability was
+improved while always keeping up to date with the latest Vulkan Headers as best
+as possible.
+
+The ecosystem has gained traction, with many people using the crate for their
+projects. Pure Rust Vulkan allocators with support for erupt have been released.
+
+[erupt]: https://gitlab.com/Friz64/erupt
+[@Friz64]: https://blog.friz64.de/about
+
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
