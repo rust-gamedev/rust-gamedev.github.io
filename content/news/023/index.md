@@ -93,12 +93,12 @@ making of [video](https://youtube.com/watch?v=3TOEZ7krhvI) on YouTube.
 
 ### [backroll-rs] and [GGRS]
 
+[backroll-rs] ([Discord](https://discord.gg/VuZhs9V), [crates.io](https://crates.io/crates/backroll)) by [@james7132] and [GGRS] ([crates.io](https://crates.io/crates/ggrs)) by [@g_schup] are pure Rust implementations of the [GGPO] rollback networking library.
+
 ![Evo Moment 37](rollback.jpg)
 _[Evo Moment 37](https://www.youtube.com/watch?v=JzS96auqau0): Only offline or with rollback!_
 
-[backroll-rs] ([Discord]) by [@james7132] and [GGRS] by [@g_schup] are pure Rust implementations of the [GGPO] rollback networking library.
-
-Rollback networking is a peer-to-peer network protocol specifically designed to hide network latency in fast-paced games with precise inputs and high execution requirements. Traditional techniques account for network transmission time by delaying the game execution, resulting in a sluggish game-feel. Rollback networking uses input prediction and speculative execution instead. Upon receiving correct inputs from remote clients, resimulation of incorrect game frames occurs. This allows for gameplay that "feels just like offline". The open source standard for rollback netcode [GGPO] is used in many successful games like Skullgirls, Guilty Gear XX Accent Core +R, Fightcade and more. For further explanation about rollback, [click here](https://ki.infil.net/w02-netcode.html).
+Rollback networking is a peer-to-peer network protocol designed to hide network latency in fast-paced games with precise inputs. Traditional techniques account for network transmission time by delaying the game execution, resulting in a sluggish game-feel. Rollback networking uses input prediction and speculative execution instead. Upon receiving inputs from remote clients, resimulation of incorrect game states occurs. This allows for gameplay that "feels just like offline". The open source standard for rollback netcode [GGPO] is used in successful games like Skullgirls, Guilty Gear XX Accent Core +R or Fightcade. For further explanation about rollback, [click here](https://ki.infil.net/w02-netcode.html).
 
 Two projects in Rust were independently created to provide a working implementation as well as helpful resources for developers. backroll-rs features an added abstraction for the transportation layer and also provides a bevy plugin, [bevy-backroll]. GGRS focusses on replacing the C-style callback API of GGPO with a simpler, more understandable control flow. The authors of both libraries recommend backroll-rs, as it is currently more actively collaborated on. GGRS is recommended as a learning recource, with a plethora of internal documentation and explanation.
 
@@ -108,7 +108,6 @@ If you are interested in integrating rollback networking into your game or just 
 
 [backroll-rs]: https://github.com/HouraiTeahouse/backroll-rs
 [bevy-backroll]: https://github.com/HouraiTeahouse/backroll-rs/tree/main/bevy_backroll
-[Discord]: https://discord.gg/VuZhs9V
 [GGPO Developers Discord]: https://discord.gg/8FKKhCRCCE
 [GGRS]: https://github.com/gschup/ggrs
 [GGPO]: https://www.ggpo.net/
