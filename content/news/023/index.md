@@ -115,23 +115,24 @@ projects. Pure Rust Vulkan allocators with support for erupt have been released.
 ![wgpu family reunion](wgpu-family-reunion.svg)
 
 [wgpu] is a [WebGPU] implementation in Rust. It is safe, efficient,
-and portable: can target both native and the Web.
+and portable: it can target both native and the Web.
 
 [Family reunion] is by far the biggest change in `wgpu` project since
 the inception. First, the Rust API of [wgpu-rs] was moved to the main
-[wgpu] repository. Whole code base was relicensed under MIT/Apache2.
+[wgpu] repository. Second, the whole base was relicensed under MIT/Apache2.
 
 [gfx-hal] - the Vulkan Portability-like graphics API abstraction -
 was detached from the project. Instead `wgpu` got its own in-house unsafe
-abstraction called "wgpu-hal" developed within [wgpu] repository.
+abstraction called "wgpu-hal" developed within the [wgpu] repository.
 
 The team released [wgpu-0.9] right before this transition, to give the new
 graphics infrastructure more time to take shape. At the time of writing,
-supported backends included Vulkan, Metal, and OpenGL ES3.
+supported backends on the new HAL include Vulkan, Metal, and OpenGL ES3.
 
 Finally, the testing infrastructure received a major ugrade. It started
 rendering the examples on the available adapters and compraring the results
 with reference images.
+This includes automatic testing using software adapters on CI.
 
 [wgpu]: https://github.com/gfx-rs/wgpu
 [wgpu-rs]: https://github.com/gfx-rs/wgpu-rs
