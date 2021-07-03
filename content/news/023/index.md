@@ -85,6 +85,28 @@ making of [video](https://youtube.com/watch?v=3TOEZ7krhvI) on YouTube.
 
 [opencombat]: https://opencombat.bux.fr
 
+### [Dango]
+
+[![Dango bouncing and jumping around](dango.gif)][Dango]
+_Cute rice dumplings_
+
+[Dango] ([Github](dango-github)) is a little multiplayer blob physics sandbox
+made by [@ErnWong] as a tribute to the [Dango Daikazoku][dango-daikazoku] from
+[Clannad]. It was made using various libraries from the Rust community,
+including the [Bevy] game engine, the [NPhysics] physics engine, and the
+[CrystalOrb] networking library. To avoid the costs of running a server, Dango
+currently runs the server in the browser and generates a unique URL that lets
+other players to join using WebRTC.
+
+[Dango]: http://ernestwong.nz/dango-tribute/server/
+[dango-github]: https://github.com/ErnWong/dango-tribute
+[@ErnWong]: https://github.com/ErnWong
+[dango-daikazoku]: https://www.youtube.com/watch?v=XXDxZ0YGWG8
+[Clannad]: https://en.wikipedia.org/wiki/List_of_Clannad_episodes
+[Bevy]: https://bevyengine.org/
+[NPhysics]: https://nphysics.org/
+[CrystalOrb]: https://github.com/ErnWong/crystalorb
+
 ## Engine Updates
 
 ## Learning Material Updates
@@ -109,6 +131,35 @@ projects. Pure Rust Vulkan allocators with support for erupt have been released.
 
 [erupt]: https://gitlab.com/Friz64/erupt
 [@Friz64]: https://blog.friz64.de/about
+
+### [CrystalOrb]
+
+[![CrystalOrb demo animation](crystalorb.gif)][crystalorb-demo]
+_Interactive [demo][crystalorb-demo] that uses the [Rapier] physics engine._
+
+[CrystalOrb] by [@ErnWong] is a new networking library that aims to help
+fast-paced client-server games synchronize their game state across multiple
+clients. Just like [backroll-rs] and [GGRS], each CrystalOrb client predicts
+the next game state without waiting for other remote players' inputs to arrive.
+Unlike backroll-rs's and GGRS's peer-to-peer approach, CrystalOrb relies on
+having a server to send snapshots of the entire game state to each client, and
+each client unconditionally rolls-back to that snapshot. Although this may lead
+to higher network and memory usage, it means that CrystalOrb clients can join
+and leave at any time, and games that cannot guarantee full-determinism can
+still work with CrystalOrb.
+
+This library was written as a learning exercise for the author, and as such,
+the author warns that this library may not be suitable for serious games.
+
+There is an [interactive demo][crystalorb-demo] of CrystalOrb (shown in the
+above GIF) that features the [Rapier] physics engine.
+
+[CrystalOrb]: https://github.com/ErnWong/crystalorb
+[@ErnWong]: https://github.com/ErnWong
+[crystalorb-demo]: https://ernestwong.nz/crystalorb/demo
+[backroll-rs]: https://github.com/HouraiTeahouse/backroll-rs
+[GGRS]: https://github.com/gschup/ggrs
+[Rapier]: https://rapier.rs/
 
 ## Popular Workgroup Issues in Github
 
