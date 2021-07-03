@@ -151,8 +151,8 @@ still work with CrystalOrb.
 This library was written as a learning exercise for the author, and as such,
 the author warns that this library may not be suitable for serious games.
 
-There is an [interactive demo][crystalorb-demo] of CrystalOrb (shown in the
-above GIF) that features the [Rapier] physics engine.
+There is an [interactive demo][crystalorb-demo] of CrystalOrb that features the
+[Rapier] physics engine.
 
 [CrystalOrb]: https://github.com/ErnWong/crystalorb
 [@ErnWong]: https://github.com/ErnWong
