@@ -138,7 +138,7 @@ check out the [GGPO Developers Discord]!
 [GGPO Developers Discord]: https://discord.gg/8FKKhCRCCE
 [GGRS]: https://github.com/gschup/ggrs
 [GGPO]: https://www.ggpo.net/
-[@g_schup]: https://twitter.com/
+[@g_schup]: https://twitter.com/g_schup
 [@james7132]: https://twitter.com/james7132
 
 ### [erupt]
