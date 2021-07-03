@@ -90,7 +90,7 @@ making of [video](https://youtube.com/watch?v=3TOEZ7krhvI) on YouTube.
 [![Dango bouncing and jumping around](dango.gif)][Dango]
 _Cute rice dumplings_
 
-[Dango] ([Github](dango-github)) is a little multiplayer blob physics sandbox
+[Dango] ([GitHub][dango-github]) is a little multiplayer blob physics sandbox
 made by [@ErnWong] as a tribute to the [Dango Daikazoku][dango-daikazoku] from
 [Clannad]. It was made using various libraries from the Rust community,
 including the [Bevy] game engine, the [NPhysics] physics engine, and the
