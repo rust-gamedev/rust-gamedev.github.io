@@ -130,6 +130,33 @@ telnet protocols and TLS connections to name a few.
 [lua]: https://www.lua.org/
 [speechd]: https://freebsoft.org/speechd
 
+### [The Hat Chooses the Wizard][hatchooseswizard]
+
+![Level 1-4 of the game "The Hat Chooses the Wizard" running on a Game Boy
+Advance](hatchooseswizard.jpg)
+_Runs on real hardware!_
+
+The Hat Chooses the Wizard is a 2D platformer for the Game Boy Advance.
+
+It was made for this year's Game Maker's Toolkit (GMTK) game jam with the theme
+joined together and came in the top 25% of over 5800 entries. The game plays
+over 12 levels with the core mechanic being to throw your hat and then
+accelerate towards it. You can play it on a web based emulator embedded on the
+[itch][hatchooseswizard] page.
+
+The game is written in pure Rust and uses [agb][agblibrary] to
+interface with the hardware. The library is designed to allow you to write games
+without needing a detailed understanding of the hardware while still giving full
+access to all of its capabilities. It is under active development with
+plenty more features on the way.
+
+You can find the source code for the game [here][hatchooseswizardsource] and all
+feedback is welcome.
+
+[hatchooseswizard]: https://lostimmortal.itch.io/the-hat-chooses-the-wizard
+[hatchooseswizardsource]: https://github.com/corwinkuiper/joinedtogether
+[agblibrary]: https://github.com/corwinkuiper/agb
+
 ## Engine Updates
 
 ## Learning Material Updates
