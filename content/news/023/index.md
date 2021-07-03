@@ -92,7 +92,7 @@ making of [video](https://youtube.com/watch?v=3TOEZ7krhvI) on YouTube.
 [Blightmud][blightmud] ([Discord](https://discord.gg/qnxgUC5)) is a mud client
 for the terminal inspired by [tintin++][tintin] and [tinyfugue][tinyfugue]
 allowing users to connect and get immersed in the worlds offered by text based
-online multi user dungeons known as *muds*.
+online multi user dungeons known as muds.
 
 The project was birthed in April of 2020 and has come a long way since.  It now
 offers granular scripting access using [lua][lua], plugin handling, built in
