@@ -64,6 +64,24 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Themengi]
+![User highlighting objects in the game world and parsing the phrase
+"dang puru rupuu kythengi" into the action "open", object "door", and mods
+"red" and "left".](themengi.gif)
+_Demonstration of natural language parser with temporary words and grammar._
+
+Themengi ([Website](https://vgel.me/themengi/),
+[Discord](https://discord.gg/GpparbnXPC),
+[Twitter](https://twitter.com/voooooogel)) is a puzzle adventure game where you
+learn an alien language, with completely unknown words and grammar, to navigate
+the world and find your way home.
+
+This month the [first devlog](https://www.youtube.com/watch?v=gtIphiK7tMs) for
+Themengi was published, discussing its natural language parser using
+Head-Driven Phrase Structure Grammar, the choice to use Bevy, a texture
+upscaling technique for faithful pixel art rendering, and implementing an
+outline shader in the Bevy render pipeline.
+
 ### [Open Combat][opencombat]
 
 ![Open Combat logo](open_combat.jpg)
