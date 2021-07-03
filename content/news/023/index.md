@@ -64,6 +64,31 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Egregoria]
+
+![Egregoria in 3D](egregoria.jpg)
+
+[Egregoria] ([GitHub][Egregoria], [Discord][egregoria-discord])
+by [@Uriopass]
+is a simulation oriented city builder that tries
+to replicate modern society as well as possible.
+
+It recently upgraded from a 2D top-down view to a
+3D third-person camera as seen in the screenshot above.
+
+Elevated roads and bridges are now possible, allowing to build
+[complex highway interchanges][highway-screenshot].
+
+Some technical details around the renderer with more screenshots,
+along with an architectural overview of the project can be read in the
+[9th devlog][egregoria-blog-post].
+
+[Egregoria]: https://github.com/Uriopass/Egregoria
+[@Uriopass]: https://github.com/Uriopass
+[egregoria-blog-post]: https://douady.paris/blog/egregoria_9.html
+[egregoria-discord]: https://discord.gg/CAaZhUJ
+[highway-screenshot]: http://douady.paris/blog/img/blog_9/interchange.jpg
+
 ### [Open Combat][opencombat]
 
 ![Open Combat logo](open_combat.jpg)
@@ -84,6 +109,26 @@ and you can find a
 making of [video](https://youtube.com/watch?v=3TOEZ7krhvI) on YouTube.
 
 [opencombat]: https://opencombat.bux.fr
+
+### [Blightmud][blightmud]
+
+![Blightmud logo](blightmud.png)
+
+[Blightmud][blightmud] ([Discord](https://discord.gg/qnxgUC5)) is a mud client
+for the terminal inspired by [tintin++][tintin] and [tinyfugue][tinyfugue]
+allowing users to connect and get immersed in the worlds offered by text based
+online multi user dungeons known as muds.
+
+The project was birthed in April of 2020 and has come a long way since.  It now
+offers granular scripting access using [lua][lua], plugin handling, built in
+text-to-speech (via [Speech dispatcher][speechd]), split view scrolling, modern
+telnet protocols and TLS connections to name a few.
+
+[blightmud]: https://github.com/Blightmud/Blightmud
+[tintin]: https://tintin.mudhalla.net/
+[tinyfugue]: http://tinyfugue.sourceforge.net/
+[lua]: https://www.lua.org/
+[speechd]: https://freebsoft.org/speechd
 
 ### [The Hat Chooses the Wizard][hatchooseswizard]
 
@@ -115,6 +160,25 @@ feedback is welcome.
 ## Engine Updates
 
 ## Learning Material Updates
+
+### [A Trig-less Line of Sight Algorithm for 2D Games][lineofsight]
+
+![2D Sight Example](lineofsight.png)
+
+[@basstabs] published a tutorial which explains how to write a
+line of sight algorithm for 2D games in Rust without using trigonometry or
+square roots. It includes vector diagrams and typeset math to explain the ideas
+behind each stage of the algorithm, source code for each step, tests to verify
+accuracy of the methods, and suggestions for further improvements.
+Additionally, the
+[repository](https://github.com/basstabs/2d-line-of-sight) contains benchmarks
+and a sample application written in [ggez](https://crates.io/crates/ggez).
+
+_Discussions: [/r/rust_gamedev](
+https://www.reddit.com/r/rust\_gamedev/comments/nx79kq/)_
+
+[lineofsight]: https://basstabs.github.io/2d-line-of-sight/
+[@basstabs]: https://github.com/basstabs
 
 ## Library & Tooling Updates
 
