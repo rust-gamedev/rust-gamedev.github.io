@@ -134,6 +134,25 @@ telnet protocols and TLS connections to name a few.
 
 ## Learning Material Updates
 
+### [A Trig-less Line of Sight Algorithm for 2D Games][lineofsight]
+
+![2D Sight Example](lineofsight.png)
+
+[@basstabs] published a tutorial which explains how to write a
+line of sight algorithm for 2D games in Rust without using trigonometry or
+square roots. It includes vector diagrams and typeset math to explain the ideas
+behind each stage of the algorithm, source code for each step, tests to verify
+accuracy of the methods, and suggestions for further improvements.
+Additionally, the
+[repository](https://github.com/basstabs/2d-line-of-sight) contains benchmarks
+and a sample application written in [ggez](https://crates.io/crates/ggez).
+
+_Discussions: [/r/rust_gamedev](
+https://www.reddit.com/r/rust\_gamedev/comments/nx79kq/)_
+
+[lineofsight]: https://basstabs.github.io/2d-line-of-sight/
+[@basstabs]: https://github.com/basstabs
+
 ## Library & Tooling Updates
 
 ### [erupt]
