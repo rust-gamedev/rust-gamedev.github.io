@@ -64,6 +64,31 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Egregoria]
+
+![Egregoria in 3D](egregoria.jpg)
+
+[Egregoria] ([GitHub][Egregoria], [Discord][egregoria-discord])
+by [@Uriopass]
+is a simulation oriented city builder that tries
+to replicate modern society as well as possible.
+
+It recently upgraded from a 2D top-down view to a
+3D third-person camera as seen in the screenshot above.
+
+Elevated roads and bridges are now possible, allowing to build
+[complex highway interchanges][highway-screenshot].
+
+Some technical details around the renderer with more screenshots,
+along with an architectural overview of the project can be read in the
+[9th devlog][egregoria-blog-post].
+
+[Egregoria]: https://github.com/Uriopass/Egregoria
+[@Uriopass]: https://github.com/Uriopass
+[egregoria-blog-post]: https://douady.paris/blog/egregoria_9.html
+[egregoria-discord]: https://discord.gg/CAaZhUJ
+[highway-screenshot]: http://douady.paris/blog/img/blog_9/interchange.jpg
+
 ### [Open Combat][opencombat]
 
 ![Open Combat logo](open_combat.jpg)
