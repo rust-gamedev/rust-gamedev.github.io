@@ -110,6 +110,22 @@ projects. Pure Rust Vulkan allocators with support for erupt have been released.
 [erupt]: https://gitlab.com/Friz64/erupt
 [@Friz64]: https://blog.friz64.de/about
 
+### [egui-tetra]
+
+[egui-tetra] ([GitHub]) by [@tesselode] is a library that integrates [egui], an
+immediate mode GUI library, with [Tetra], a 2D game framework.
+
+egui-tetra provides helpers for integrating egui with Tetra's event loop and
+rendering the GUI.
+
+_Discussions: [/r/rust](https://www.reddit.com/r/rust/comments/o8jbmg/eguitetra_v010_egui_integration_and_helpers_for/)_
+
+[egui-tetra]: https://crates.io/crates/egui-tetra
+[GitHub]: https://github.com/tesselode/egui-tetra
+[@tesselode]: https://twitter.com/tesselode
+[egui]: https://crates.io/crates/egui
+[Tetra]: https://crates.io/crates/tetra
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
