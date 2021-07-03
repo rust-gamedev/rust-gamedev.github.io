@@ -129,7 +129,7 @@ The team released [wgpu-0.9] right before this transition, to give the new
 graphics infrastructure more time to take shape. At the time of writing,
 supported backends on the new HAL include Vulkan, Metal, and OpenGL ES3.
 
-Finally, the testing infrastructure received a major ugrade. It started
+Finally, the testing infrastructure received a major upgrade. It started
 rendering the examples on the available adapters and compraring the results
 with reference images.
 This includes automatic testing using software adapters on CI.
