@@ -260,7 +260,7 @@ This includes automatic testing using software adapters on CI.
 
 _A scene exported via blender with animated camera motion, [watch the demo on youtube][rafx-youtube-video]!_
 
-Rafx is a multi-backend renderer that optionally integrates with the
+[Rafx][rafx] is a multi-backend renderer that optionally integrates with the
 [distill][rafx-distill] asset pipeline.
 
 This month, the asset pipeline received almost all the attention. A custom
