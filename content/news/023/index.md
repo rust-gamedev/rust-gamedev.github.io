@@ -141,8 +141,9 @@ _Interactive [demo][crystalorb-demo] that uses the [Rapier] physics engine._
 fast-paced client-server games synchronize their game state across multiple
 clients. Just like [backroll-rs] and [GGRS], each CrystalOrb client predicts
 the next game state without waiting for other remote players' inputs to arrive.
-Unlike backroll-rs's and GGRS's peer-to-peer approach, CrystalOrb relies on
-having a server to send snapshots of the entire game state to each client, and
+Unlike backroll-rs's and GGRS's peer-to-peer approach which only send input
+data between its peers, CrystalOrb relies on having a server to send
+authoritative snapshots of the entire game state to each client. In response,
 each client unconditionally rolls-back to that snapshot. Although this may lead
 to higher network and memory usage, it means that CrystalOrb clients can join
 and leave at any time, and games that cannot guarantee full-determinism can
