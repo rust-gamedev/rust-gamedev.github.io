@@ -111,9 +111,7 @@ Soon, realizing that nannou_osc is not that different
 how you interfaces with midi, bevy_midi was born.
 
 Here is one of the examples which you can use a midi controller
-to play piano with ([audio](https://discord.com/channels/691052431525675048/692648638823923732/857177113923682304)):
-
-[https://user-images.githubusercontent.com/25123512/124200245-1fb86700-dad5-11eb-88a8-67bfef473bec.mp4]()
+to play piano with ([audio](https://discord.com/channels/691052431525675048/692648638823923732/857177113923682304)): [Video](https://user-images.githubusercontent.com/25123512/124200245-1fb86700-dad5-11eb-88a8-67bfef473bec.mp4)
 
 The plugins is still in its infancy.
 So it still has some performance issues, so
@@ -122,7 +120,7 @@ any feedback and contributions is highly appreciated.
 
 [![bevy_config_cam logo](bevy_config_cam_logo.svg)](https://github.com/BlackPhlox/bevy_config_cam)
 
-[bevy_config_cam](https://github.com/BlackPhlox/bevy_config_cam) by[@BlackPhlox](https://github.com/BlackPhlox)
+[bevy_config_cam](https://github.com/BlackPhlox/bevy_config_cam) by [@BlackPhlox](https://github.com/BlackPhlox)
 is an all-in-one purpose camera/player controller for bevy. 
 
 With focus on plug-and-play,flexibility and ease of use, this bevy plugin is
