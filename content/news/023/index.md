@@ -180,6 +180,20 @@ outline shader in the Bevy render pipeline.
 [themengi-twitter]: https://twitter.com/voooooogel
 [themengi-video]: https://youtube.com/watch?v=gtIphiK7tMs
 
+### [Weegames]
+
+![Weegames menu](weegames.jpg)
+
+[Weegames][weegames-itch] is a fast-paced minigame collection.
+The web version now has a counter which tells you how many
+of the 41 minigames you've played. Also, the game shows
+a newly-added loading screen while downloading the
+initial assets.
+
+Note: These updates have not yet been rolled out to the
+downloadable Windows version.
+
+
 ## Engine Updates
 
 ## Learning Material Updates
