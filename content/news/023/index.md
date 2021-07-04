@@ -264,7 +264,7 @@ This includes automatic testing using software adapters on CI.
 
 It started out with [bevy_osc] as a
 proof-of-concept interfacing with
-[nannou_osc](https://github.com/nannou-org/nannou_osc)
+[nannou_osc]
 and using other osc software to communicate with bevy.
 Soon, realizing that nannou_osc is not that different
 how you interfaces with midi, bevy_midi was born.
@@ -278,6 +278,7 @@ any feedback and contributions is highly appreciated.
 
 [bevy_midi]: https://github.com/BlackPhlox/bevy_midi
 [bevy_osc]: https://github.com/BlackPhlox/bevy_osc
+[nannou_osc]: https://github.com/nannou-org/nannou_osc
 [midir]: https://github.com/Boddlnagg/midir
 [demo_audio]: https://discord.com/channels/691052431525675048/692648638823923732/857177113923682304
 [@BlackPhlox]: https://github.com/BlackPhlox
