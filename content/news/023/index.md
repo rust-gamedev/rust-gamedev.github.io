@@ -95,35 +95,42 @@ making of [video](https://youtube.com/watch?v=3TOEZ7krhvI) on YouTube.
 ## Library & Tooling Updates
 
 ### bevy_midi
+
 [![bevy_midi logo](bevy_midi_logo.svg)](https://github.com/BlackPhlox/bevy_midi)
 
-[bevy_midi](https://github.com/BlackPhlox/bevy_midi) by [@BlackPhlox](https://github.com/BlackPhlox) is a new bevy plugin that uses [midir](https://github.com/Boddlnagg/midir) to interact with the bevy game engine.
+[bevy_midi](https://github.com/BlackPhlox/bevy_midi) by 
+[@BlackPhlox](https://github.com/BlackPhlox) is a new bevy plugin that uses 
+[midir](https://github.com/Boddlnagg/midir) to 
+interact with the bevy game engine.
 
 It started out with [bevy_osc](https://github.com/BlackPhlox/bevy_osc) as a
-proof-of-concept interfacing with [nannou_osc](https://github.com/nannou-org/nannou_osc) 
-and using other osc software to communicate with bevy. 
-Soon, realizing that nannou_osc is not that different 
+proof-of-concept interfacing with
+[nannou_osc](https://github.com/nannou-org/nannou_osc)
+and using other osc software to communicate with bevy.
+Soon, realizing that nannou_osc is not that different
 how you interfaces with midi, bevy_midi was born.
 
-Here is one of the examples which you can use a midi controller 
+Here is one of the examples which you can use a midi controller
 to play piano with ([audio](https://discord.com/channels/691052431525675048/692648638823923732/857177113923682304)):
 
-https://user-images.githubusercontent.com/25123512/124200245-1fb86700-dad5-11eb-88a8-67bfef473bec.mp4
+[https://user-images.githubusercontent.com/25123512/124200245-1fb86700-dad5-11eb-88a8-67bfef473bec.mp4]()
 
-The plugins is still in its infancy. 
-So it still has some performance issues, so 
+The plugins is still in its infancy.
+So it still has some performance issues, so
 any feedback and contributions is highly appreciated.
 ### bevy_config_cam
+
 [![bevy_config_cam logo](bevy_config_cam_logo.svg)](https://github.com/BlackPhlox/bevy_config_cam)
 
-[bevy_config_cam](https://github.com/BlackPhlox/bevy_config_cam) by [@BlackPhlox](https://github.com/BlackPhlox) is an all-in-one purpose camera/player controller for bevy. 
+[bevy_config_cam](https://github.com/BlackPhlox/bevy_config_cam) by[@BlackPhlox](https://github.com/BlackPhlox)
+is an all-in-one purpose camera/player controller for bevy. 
 
-With focus on plug-and-play, flexibility and ease of use, this bevy plugin is
+With focus on plug-and-play,flexibility and ease of use, this bevy plugin is
 for anyone who is prototyping in 3D and doesn't want the hassle of programming
-a player-controller from scratch. Instantly switch between camera modes such as
+a player-controller from scratch.Instantly switch between camera modes such as
 Tracking to Topdown, Follow Behind, FPS and Free and more.
 
-The plugins is very new. 
+The plugins is very new.
 So any feedback and contributions is highly appreciated.
 
 ## Popular Workgroup Issues in Github
