@@ -30,6 +30,7 @@ Feel free to send PRs about your own projects!
 [Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
+<!-- no toc -->
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
@@ -253,6 +254,51 @@ This includes automatic testing using software adapters on CI.
 [gfx-hal]: https://github.com/gfx-rs/gfx
 [wgpu-0.9]: https://crates.io/crates/wgpu/0.9.0
 [Family reunion]: https://github.com/gfx-rs/wgpu/milestone/9?closed=1
+
+### [bevy_midi]
+
+![bevy_midi logo](bevy_midi_logo.svg)
+
+[bevy_midi] by [@BlackPhlox] is a new bevy plugin that uses
+[midir] to interact with the bevy game engine.
+
+It started out with [bevy_osc] as a
+proof-of-concept interfacing with
+[nannou_osc](https://github.com/nannou-org/nannou_osc)
+and using other osc software to communicate with bevy.
+Soon, realizing that nannou_osc is not that different
+how you interfaces with midi, bevy_midi was born.
+
+Here is one of the examples which you can use a midi controller
+to play piano with [demo_audio].
+
+The plugins is still in its infancy.
+So it still has some performance issues, so
+any feedback and contributions is highly appreciated.
+
+[bevy_midi]: https://github.com/BlackPhlox/bevy_midi
+[bevy_osc]: https://github.com/BlackPhlox/bevy_osc
+[midir]: https://github.com/Boddlnagg/midir
+[demo_audio]: https://discord.com/channels/691052431525675048/692648638823923732/857177113923682304
+[@BlackPhlox]: https://github.com/BlackPhlox
+
+### [bevy_config_cam]
+
+![bevy_config_cam logo](bevy_config_cam_logo.svg)
+
+[bevy_config_cam] by [@BlackPhlox]
+is an all-in-one purpose camera/player controller for bevy. 
+
+With focus on plug-and-play,flexibility and ease of use, this bevy plugin is
+for anyone who is prototyping in 3D and doesn't want the hassle of programming
+a player-controller from scratch.Instantly switch between camera modes such as
+Tracking to Topdown, Follow Behind, FPS and Free and more.
+
+The plugins is very new.
+So any feedback and contributions is highly appreciated.
+
+[bevy_config_cam]: https://github.com/BlackPhlox/bevy_config_cam
+[@BlackPhlox]: https://github.com/BlackPhlox
 
 ## Popular Workgroup Issues in Github
 
