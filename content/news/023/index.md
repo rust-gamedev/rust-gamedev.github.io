@@ -288,7 +288,7 @@ any feedback and contributions is highly appreciated.
 ![bevy_config_cam logo](bevy_config_cam_logo.svg)
 
 [bevy_config_cam] by [@BlackPhlox]
-is an all-in-one purpose camera/player controller for bevy. 
+is an all-in-one purpose camera/player controller for bevy.
 
 With focus on plug-and-play,flexibility and ease of use, this bevy plugin is
 for anyone who is prototyping in 3D and doesn't want the hassle of programming
