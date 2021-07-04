@@ -180,6 +180,21 @@ outline shader in the Bevy render pipeline.
 [themengi-twitter]: https://twitter.com/voooooogel
 [themengi-video]: https://youtube.com/watch?v=gtIphiK7tMs
 
+### [Hyper Farmer][hyperfarmer-itch]
+
+![Hyper Farmer logo](hyperfarmer.png)
+
+The dubiously named [Hyper Farmer][hyperfarmer-itch] was made for the GMTK Game Jam
+using the Bevy engine. For some reason the player has to pick up all the hay from
+their fields using a giant laser slung between two tractors. Apart from the
+[bevy_game_template][bevy_game_template], all the artwork, music and code was
+made over about 24 hours. The game can be played in the
+[browser][hyperfarmer-itch], and native builds are available on [github releases][hyperfarmer].
+
+[bevy_game_template]: https://github.com/NiklasEi/bevy_game_template
+[hyperfarmer]: https://github.com/will-hart/cloud-surfer
+[hyperfarmer-itch]: https://wilsk.itch.io/hyper-farmer
+
 ## Engine Updates
 
 ## Learning Material Updates
