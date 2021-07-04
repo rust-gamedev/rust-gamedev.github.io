@@ -203,6 +203,16 @@ https://www.reddit.com/r/rust\_gamedev/comments/nx79kq/)_
 [lineofsight]: https://basstabs.github.io/2d-line-of-sight/
 [@basstabs]: https://github.com/basstabs
 
+### [Writing the Bevy Retro Renderer][bevy_retro_renderer]
+
+[@katharostech] published an article about their experiences writing the render
+for [Bevy Retro][bevy_retro]. They walk through the different strategies and APIs
+they tried and explain why they wrote their own renderer in the first place.
+
+[bevy_retro_renderer]: https://katharostech.com/post/writing-bevy-retros-renderer
+[bevy_retro]: https://github.com/katharostech/bevy_retrograde
+[@katharostech]: https://github.com/katharostech
+
 ## Library & Tooling Updates
 
 ### [erupt]
