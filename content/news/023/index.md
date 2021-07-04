@@ -89,7 +89,7 @@ making of [video](https://youtube.com/watch?v=3TOEZ7krhvI) on YouTube.
 
 ![projectris](https://user-images.githubusercontent.com/3229981/124354085-0c81c600-dbbf-11eb-8b87-02b8f9f1feaf.png)
 
-Projectris is a like Tetris, but in 2D and 3D at the same time. As the 3D piece
+Projectris is like Tetris, but in 2D and 3D at the same time. As the 3D piece
 falls, you can manipulate it, but all that matters are the shadows it casts on
 the 2D game boards on either side, each of which is played independently.
 
