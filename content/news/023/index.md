@@ -180,7 +180,7 @@ outline shader in the Bevy render pipeline.
 [themengi-twitter]: https://twitter.com/voooooogel
 [themengi-video]: https://youtube.com/watch?v=gtIphiK7tMs
 
-### [Weegames]
+### [Weegames][weegames-itch]
 
 ![Weegames menu](weegames.jpg)
 
