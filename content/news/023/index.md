@@ -193,6 +193,8 @@ initial assets.
 Note: These updates have not yet been rolled out to the
 downloadable Windows version.
 
+[weegames-itch]: https://yeahross.itch.io/weegames
+
 
 ## Engine Updates
 
