@@ -195,7 +195,6 @@ downloadable Windows version.
 
 [weegames-itch]: https://yeahross.itch.io/weegames
 
-
 ## Engine Updates
 
 ## Learning Material Updates
