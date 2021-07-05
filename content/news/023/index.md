@@ -110,6 +110,27 @@ making of [video](https://youtube.com/watch?v=3TOEZ7krhvI) on YouTube.
 
 [opencombat]: https://opencombat.bux.fr
 
+### [Battleship.rs](https://github.com/deepu105/battleship-rs)
+
+![Battleship gameplay](battleship.gif)
+
+[Battleship.rs](https://github.com/deepu105/battleship-rs) by
+[Deepu](https://twitter.com/deepu105) is an open source Battleship game for
+the terminal built in Rust using the [tui-rs](https://github.com/fdehau/tui-rs)
+crate.
+
+The game uses different ship shapes, unlike the traditional vertical/horizontal
+shapes, and has multiple game rules to choose from. There are two difficulty
+levels as well. The game is supported in Linux, Mac and Docker.
+
+If you have docker installed, you can play the game instantly by running
+
+```bash
+docker run --rm -it deepu105/battleship:main
+```
+
+The next iteration would be to support a WebAssembly version of the same.
+
 ### [Blightmud][blightmud]
 
 ![Blightmud logo](blightmud.png)
