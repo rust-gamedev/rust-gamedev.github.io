@@ -180,6 +180,40 @@ outline shader in the Bevy render pipeline.
 [themengi-twitter]: https://twitter.com/voooooogel
 [themengi-video]: https://youtube.com/watch?v=gtIphiK7tMs
 
+### [Veloren][veloren]
+
+![Cave run](veloren.png) _Turns out the cave wasn't empty_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In June, Veloren released 0.10. During the release party, some of the developers
+joined a voice call to stream the game and answer some questions about
+development. You can watch that stream [here][veloren-stream]. A lot of metrics
+were recorded during the launch, and you can read about them in [blog
+#124][veloren-124]. At peak, 118 players were playing at the same time during
+the launch.
+
+The plugins system recieved a tutorial about how to get started. Caves were
+overhauled with lots of new content. Veloren has officially moved fully over to
+wgpu, which you can read all about in [blog #125][veloren-125]. Work has been
+done on hot reloading for easier access of assets in game. Lots of new models
+were added to the game, and bosses in dungeons are being overhauled with more
+skills to diversify combat.
+
+June's full weekly devlogs: "This Week In Veloren...":
+[#123][veloren-123],
+[#124][veloren-124],
+[#125][veloren-125],
+[#126][veloren-126].
+
+[veloren]: https://veloren.net
+[veloren-stream]: https://www.youtube.com/watch?v=NMvEhymkqUw
+[veloren-123]: https://veloren.net/devblog-123
+[veloren-124]: https://veloren.net/devblog-124
+[veloren-125]: https://veloren.net/devblog-125
+[veloren-126]: https://veloren.net/devblog-126
+
 ## Engine Updates
 
 ## Learning Material Updates
