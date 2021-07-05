@@ -33,7 +33,8 @@ Feel free to send PRs about your own projects!
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
-- [Library & Tooling Updates](#library-tooling-updates)
+- [Tooling Updates](#tooling-updates)
+- [Library Updates](#library-updates)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Meeting Minutes](#meeting-minutes)
 - [Requests for Contribution](#requests-for-contribution)
@@ -246,7 +247,9 @@ https://www.reddit.com/r/rust\_gamedev/comments/nx79kq/)_
 [lineofsight]: https://basstabs.github.io/2d-line-of-sight/
 [@basstabs]: https://github.com/basstabs
 
-## Library & Tooling Updates
+## Tooling Updates
+
+## Library Updates
 
 ### [backroll-rs] and [GGRS]
 
