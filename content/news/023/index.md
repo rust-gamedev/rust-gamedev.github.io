@@ -284,6 +284,38 @@ or the [source code on Github][Sugarcubes source].
 [Sugarcubes source]: https://github.com/henryksloan/sugarcubes
 [@henryksloan]: https://github.com/henryksloan
 
+### [Graphite][graphite-repo]
+
+![Geometric cherry tree artwork by BillyDM, winner of last month's first Graphite art contest](graphite-cherry-tree.png)
+_Geometric cherry tree artwork by BillyDM, winner of last month's first Graphite art contest_
+
+Graphite ([GitHub][graphite-repo], [Discord][graphite-discord],
+[Twitter](https://twitter.com/GraphiteEditor)) is an in-development vector and
+raster graphics editor built on a nondestructive node-based workflow.
+
+Since last newsletter, the editor as received the ability to select layers via
+the layer panel and by clicking or dragging a box selection in the
+viewport. Selected layers can be deleted, duplicated, and copy/pasted.
+
+It is now possible to create, edit, and close multiple documents in their own
+editor tabs. Additional frontend cleanup and polish has also improved many
+parts of the editor experience.
+
+Lastly, support for transforms was added to the layers and document, paving
+the way for moving/scaling/rotating layers and the whole document within the
+viewport.
+
+[Try it right now in your browser.][graphite-live-demo] Graphite is making
+rapid progress towards becoming a nondestructive, procedural graphics editor
+suitable of replacing traditional 2D DCC applications. Please
+[join the Discord][graphite-discord] - and consider asking for a tour of the
+code and how you can help!
+
+[graphite-repo]: https://github.com/GraphiteEditor/Graphite
+[graphite-discord]: https://discord.graphite.design
+[graphite-twitter]: https://twitter.com/GraphiteEditor
+[graphite-live-demo]: https://editor.graphite.design
+
 ## Library Updates
 
 ### [backroll-rs] and [GGRS]
