@@ -190,9 +190,9 @@ Fortress and Cube World.
 In June, Veloren released 0.10. During the release party, some of the developers
 joined a voice call to stream the game and answer some questions about
 development. You can watch that stream [here][veloren-stream]. A lot of metrics
-were recorded during the launch, and you can read about them in [blog
-#124][veloren-124]. At peak, 118 players were playing at the same time during
-the launch.
+were recorded during the launch, and you can read about them in
+[blog #124][veloren-124]. At peak, 118 players were playing at the same
+time during the launch.
 
 The plugins system recieved a tutorial about how to get started. Caves were
 overhauled with lots of new content. Veloren has officially moved fully over to
