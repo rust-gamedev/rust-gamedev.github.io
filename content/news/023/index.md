@@ -180,6 +180,21 @@ outline shader in the Bevy render pipeline.
 [themengi-twitter]: https://twitter.com/voooooogel
 [themengi-video]: https://youtube.com/watch?v=gtIphiK7tMs
 
+### Flesh
+
+![flesh preview](flesh.gif)
+_demo build_
+
+Flesh by [@im_oab] is a 2D-horizontal shmup game with hand-drawn animation and
+organic/fleshy theme. It is implemented using [Tetra]. This month's updates
+include:
+
+- released internal demo build includes development journal. [google's drive]
+
+[@im_oab]: https://twitter.com/im_oab
+[Tetra]: https://github.com/17cupsofcoffee/tetra
+[google's drive]: https://drive.google.com/drive/folders/1CppHsiteHDNofsVo2wHNNz_3E9YuK4Ay
+
 ## Engine Updates
 
 ## Learning Material Updates
