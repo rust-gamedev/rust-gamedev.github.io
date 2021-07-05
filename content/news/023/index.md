@@ -184,8 +184,8 @@ outline shader in the Bevy render pipeline.
 
 
 ### thRustEngine - with simple shooter game demo
-
-This is a simple descent or quake style shooter being written to test and develop an engine named [thRustEngine]. The current repo is a placeholder. It currently loads wavefront.OBJ, and Quake1,Quake3 BSP worlds, which it converts to an internal format for collision and culling. It uses clustered forward+ dynamic lighting. The exact direction the project takes depends on community feedback (shared engine crate vs possible game to be sold on an appstore). The current intention is to find a few close collaborators. The current pubilc repo is a placeholder. Demos: [free quake map demo] [custom map demo] Also see the [reddit thread]
+![thRustEngine screenshot](thrustengine_screenshot.jpg)
+This is a simple descent or quake style shooter being written to test and develop an engine named [thRustEngine]. The current repo is a placeholder. It currently loads wavefront.OBJ, and Quake1,Quake3 BSP worlds, which it converts to an internal format for collision and culling. It uses clustered forward+ dynamic lighting. The direction the project takes depends on community feedback (a public crate is planned, the current repo is a placeholder). The current intention is to find a few close collaborators. demo videos: [free quake map demo] [custom map demo] Also see the [reddit thread]
 
 [thrustEngine]: https://github.com/experiment9123/thrustengine
 [free quake map demo]: https://vimeo.com/569777592
