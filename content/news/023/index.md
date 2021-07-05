@@ -266,7 +266,7 @@ rusty-editor updates:
 
 - Ability to add/remove/edit sound sources
 - Model import dialog window.
-- Embed and fonts icons in the binary, which makes package distribution 
+- Embed and fonts icons in the binary, which makes package distribution
 easier.
 - `.deb` and `.rpm` packages for Linux
 - Camera fix + ability to preview scene cameras
