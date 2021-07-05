@@ -286,8 +286,10 @@ or the [source code on Github][Sugarcubes source].
 
 ### [Graphite][graphite-repo]
 
-![Geometric cherry tree artwork by BillyDM, winner of last month's first Graphite art contest](graphite-cherry-tree.png)
-_Geometric cherry tree artwork by BillyDM, winner of last month's first Graphite art contest_
+![Geometric cherry tree artwork by BillyDM, winner of last month's first
+Graphite art contest](graphite-cherry-tree.png)
+_Geometric cherry tree artwork by BillyDM, winner of last month's first
+Graphite art contest_
 
 Graphite ([GitHub][graphite-repo], [Discord][graphite-discord],
 [Twitter](https://twitter.com/GraphiteEditor)) is an in-development vector and
