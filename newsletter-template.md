@@ -4,6 +4,8 @@ transparent = true
 draft = true
 +++
 
+<!-- no toc -->
+
 <!-- Check the post with markdownlint-->
 
 Welcome to the {TODO}th issue of the Rust GameDev Workgroup's
