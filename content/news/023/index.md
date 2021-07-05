@@ -400,6 +400,38 @@ This includes automatic testing using software adapters on CI.
 [wgpu-0.9]: https://crates.io/crates/wgpu/0.9.0
 [Family reunion]: https://github.com/gfx-rs/wgpu/milestone/9?closed=1
 
+### [rafx]
+
+[![Rafx Flythrough Demo](rafx-flythrough-demo.jpg)][rafx-youtube-video]
+
+_A scene exported via blender with animated camera motion, [watch the demo on youtube][rafx-youtube-video]!_
+
+[Rafx][rafx] is a multi-backend renderer that optionally integrates with the
+[distill][rafx-distill] asset pipeline.
+
+This month, the asset pipeline received almost all the attention. A custom
+blender add-on was prototyped, and several project layouts were tested to
+decide on "best practices" to recommend for anyone that wants to use `rafx`
+with 3d assets.
+
+Using a custom add-on will enable a workflow that supports large scenes with
+many assets. The add-on currently exports textures, materials, meshes, models
+(a collection of meshes of varying LOD levels), and prefabs (a list of lights,
+meshes, etc. to place in the world).
+
+Some commercial art packs with varying art styles and complexity have been
+ported to this pipeline, and one of them was loaded into the demo. A
+fly-through camera was animated and exported out as json to demonstrate the
+scene.
+
+After prototyping is complete, details and lessons learned will be
+shared in hopes that it will be helpful to other projects in the rust
+community, even if they do not use rafx directly.
+
+[rafx]: https://github.com/aclysma/rafx
+[rafx-youtube-video]: https://www.youtube.com/watch?v=HlJsgbGyl0I
+[rafx-distill]: https://github.com/amethyst/distill
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
