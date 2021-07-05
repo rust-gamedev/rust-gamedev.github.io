@@ -182,25 +182,30 @@ outline shader in the Bevy render pipeline.
 
 ## Engine Updates
 
-
 ### thRustEngine - with simple shooter game demo
 
 ![thRustEngine screenshot](thrustengine_screenshot.jpg)
 
-This is a simple descent/quake style shooter written to demo [thRustEngine]. The current repo is a placeholder.
+This is a simple descent/quake style shooter written to demo
+[thRustEngine]. The current repo is a placeholder.
 
-It loads wavefront.OBJ, and Quake1,Quake3 BSP worlds, converted to an internal format for collision and rendering.
-It uses clustered forward+ dynamic lighting and normal maps, and loads textures asynchronously.
+It loads wavefront.OBJ, and Quake1/Quake3 BSP worlds, converted to
+an internal format for collision and rendering. It uses clustered
+forward+ dynamic lighting and normal maps, and loads textures
+asynchronously.
 
-The future direction depends on community feedback (a public shared crate is planned). The current intention is to find a few close collaborators.
+The future direction depends on community feedback (a public shared
+crate is planned). The current intention is to find a few close
+collaborators.
 
-Demo videos: [free quake map demo]; [custom map demo]; Also see the [reddit thread]
+Demo videos: [free quake map demo]; [custom map demo]
+
+_Discussions:
+[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/obj38y/rust_shooter_another_little_update/)_
 
 [thrustEngine]: https://github.com/experiment9123/thrustengine
 [free quake map demo]: https://vimeo.com/569777592
 [custom map demo]: https://vimeo.com/570798468
-[reddit thread]: https://www.reddit.com/r/rust_gamedev/comments/obj38y/rust_shooter_another_little_update/
-
 
 ## Learning Material Updates
 
