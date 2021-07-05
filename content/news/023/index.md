@@ -229,8 +229,8 @@ projects. Pure Rust Vulkan allocators with support for erupt have been released.
 ![Rusty Slider code block example](rustyslider.png)
 _Supports syntax highlighting of code blocks_
 
-[Rusty Slider] ([https://github.com/ollej/rusty-slider], [Discord], [Twitter])
-by [@ollej] is a markdown slideshow viewer written with macroquad.
+[Rusty Slider], by [@ollej](https://twitter.com/ollej) is a markdown slideshow viewer
+written with macroquad.
 
 The game engine Macroquad can be used for more than just games. It’s also a
 great way to quickly build multi-platform tools with graphics.
