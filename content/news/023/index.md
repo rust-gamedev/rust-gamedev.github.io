@@ -241,6 +241,41 @@ made over about 24 hours. The game can be played in the
 
 ## Engine Updates
 
+### [rg3d]
+
+![rg3d](rg3d_logo.png)
+
+[rg3d] ([Discord][rg3d_discord], [Twitter][rg3d_twitter]) is a game engine that
+aims to be easy to use and provide a large set of out-of-box features. Some of
+the recent engine updates:
+
+- Initial support for custom rendering techniques.
+- Word-based wrapping for FormattedText.
+- Ability to specify material search options when loading a model.
+- Render sky box in a single draw call.
+- Fix for resource management issues.
+- Fix for FBX loader in case of invalid mappings.
+- Fix for triangulator.
+- Physics for terrains.
+- Heightfield visualization.
+- Ability to pause sound contexts.
+- `editable` flag for text boxes.
+- Various bug fixes and small improvements.
+
+rusty-editor updates:
+
+- Ability to add/remove/edit sound sources
+- Model import dialog window.
+- Embed and fonts icons in the binary, which makes package distribution 
+easier.
+- `.deb` and `.rpm` packages for Linux
+- Camera fix + ability to preview scene cameras
+- Icons for "shapeless" (lights, sound sources) objects in the scene.
+
+[rg3d]: https://github.com/mrDIMAS/rg3d
+[rg3d_discord]: https://discord.gg/xENF5Uh
+[rg3d_twitter]: https://twitter.com/DmitryNStepanov
+
 ## Learning Material Updates
 
 ### [A Trig-less Line of Sight Algorithm for 2D Games][lineofsight]
