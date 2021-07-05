@@ -33,7 +33,8 @@ Feel free to send PRs about your own projects!
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
-- [Library & Tooling Updates](#library-tooling-updates)
+- [Tooling Updates](#tooling-updates)
+- [Library Updates](#library-updates)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Meeting Minutes](#meeting-minutes)
 - [Requests for Contribution](#requests-for-contribution)
@@ -110,6 +111,27 @@ making of [video](https://youtube.com/watch?v=3TOEZ7krhvI) on YouTube.
 
 [opencombat]: https://opencombat.bux.fr
 
+### [Battleship.rs](https://github.com/deepu105/battleship-rs)
+
+![Battleship gameplay](battleship.gif)
+
+[Battleship.rs](https://github.com/deepu105/battleship-rs) by
+[Deepu](https://twitter.com/deepu105) is an open source Battleship game for
+the terminal built in Rust using the [tui-rs](https://github.com/fdehau/tui-rs)
+crate.
+
+The game uses different ship shapes, unlike the traditional vertical/horizontal
+shapes, and has multiple game rules to choose from. There are two difficulty
+levels as well. The game is supported in Linux, Mac and Docker.
+
+If you have docker installed, you can play the game instantly by running
+
+```bash
+docker run --rm -it deepu105/battleship:main
+```
+
+The next iteration would be to support a WebAssembly version of the same.
+
 ### [Blightmud][blightmud]
 
 ![Blightmud logo](blightmud.png)
@@ -180,6 +202,28 @@ outline shader in the Bevy render pipeline.
 [themengi-twitter]: https://twitter.com/voooooogel
 [themengi-video]: https://youtube.com/watch?v=gtIphiK7tMs
 
+### [Dango]
+
+[![Dango bouncing and jumping around](dango.gif)][Dango]
+_Cute rice dumplings_
+
+[Dango] ([GitHub][dango-github]) is a little multiplayer blob physics sandbox
+made by [@ErnWong] as a tribute to the [Dango Daikazoku][dango-daikazoku] from
+[Clannad]. It was made using various libraries from the Rust community,
+including the [Bevy] game engine, the [NPhysics] physics engine, and the
+[CrystalOrb] networking library. To avoid the costs of running a server, Dango
+currently runs the server in the browser and generates a unique URL that lets
+other players to join using WebRTC.
+
+[Dango]: http://ernestwong.nz/dango-tribute/server/
+[dango-github]: https://github.com/ErnWong/dango-tribute
+[@ErnWong]: https://github.com/ErnWong
+[dango-daikazoku]: https://www.youtube.com/watch?v=XXDxZ0YGWG8
+[Clannad]: https://en.wikipedia.org/wiki/List_of_Clannad_episodes
+[Bevy]: https://bevyengine.org/
+[NPhysics]: https://nphysics.org/
+[CrystalOrb]: https://github.com/ErnWong/crystalorb
+
 ### [Hyper Farmer][hyperfarmer-itch]
 
 ![Hyper Farmer logo](hyperfarmer.png)
@@ -218,7 +262,109 @@ https://www.reddit.com/r/rust\_gamedev/comments/nx79kq/)_
 [lineofsight]: https://basstabs.github.io/2d-line-of-sight/
 [@basstabs]: https://github.com/basstabs
 
-## Library & Tooling Updates
+## Tooling Updates
+
+### [Sugarcubes]
+
+![Sugarcubes Example](sugarcubes.png)
+
+[Sugarcubes] by [@henryksloan] is a tool for designing and testing automata.
+
+Sugarcubes allows for easy creation of models used in the theory of computing.
+It is designed to be a more intuitive and useful alternative to JFLAP,
+the most popular tool for designing automata and formal languages.
+It uses macroquad for the editor, and egui for the toolbars. Sugarcubes
+currently features a fully functional finite automaton editor and simulator,
+and many other models, editing features and simulations are planned.
+
+You can check out a [live WASM demo here][Sugarcubes],
+or the [source code on Github][Sugarcubes source].
+
+[Sugarcubes]: https://henryksloan.github.io/sugarcubes/
+[Sugarcubes source]: https://github.com/henryksloan/sugarcubes
+[@henryksloan]: https://github.com/henryksloan
+
+## Library Updates
+
+### [backroll-rs] and [GGRS]
+
+[backroll-rs] ([Discord](https://discord.gg/VuZhs9V),
+[crates.io](https://crates.io/crates/backroll)) by [@james7132] and
+[GGRS]([crates.io](https://crates.io/crates/ggrs)) by [@g_schup] are pure
+Rust implementations of the [GGPO] rollback networking library.
+
+![Evo Moment 37](rollback.jpg)
+_[Evo Moment 37](https://www.youtube.com/watch?v=JzS96auqau0):
+Only offline or with rollback!_
+
+Rollback networking is a peer-to-peer network technique designed to hide
+network latency in fast-paced games with precise inputs. Traditional techniques
+account for network transmission time by delaying the game execution, resulting
+in a sluggish game-feel. Rollback uses input prediction and speculative
+execution instead. Upon receiving inputs from remote clients, resimulation of
+incorrect game states occurs. This allows for gameplay that "feels just
+like offline". The open source standard for rollback netcode [GGPO] is used
+in successful games like Skullgirls, Guilty Gear XX Accent Core +R or
+Fightcade. For further explanation about rollback,
+[click here](https://ki.infil.net/w02-netcode.html).
+
+Two projects in Rust were independently created to provide a working
+implementation as well as helpful resources for developers.
+backroll-rs features an added abstraction for the transportation layer and
+also provides a bevy plugin, [bevy-backroll]. GGRS replaces the
+C-style callback API of GGPO with a simpler, more understandable control flow.
+The authors of both libraries recommend backroll-rs for developement,
+as it is currently more actively collaborated on.
+GGRS is recommended as a learning recource and entry point,
+with a plethora of internal documentation and explanation.
+
+The main requirement to make use of both presented libraries is determinism
+in your game execution. Resimulation requires that the result of progressing
+the game state depending on the given inputs yield the exact same results
+every time. Additionally, you need to be able to load, save and progress
+your gamestate without rendering the outcome.
+
+If you are interested in integrating rollback networking into your game or
+just want to chat with other rollback developers (not limited to Rust),
+check out the [GGPO Developers Discord]!
+
+[backroll-rs]: https://github.com/HouraiTeahouse/backroll-rs
+[bevy-backroll]: https://github.com/HouraiTeahouse/backroll-rs/tree/main/bevy_backroll
+[GGPO Developers Discord]: https://discord.gg/8FKKhCRCCE
+[GGRS]: https://github.com/gschup/ggrs
+[GGPO]: https://www.ggpo.net/
+[@g_schup]: https://twitter.com/g_schup
+[@james7132]: https://twitter.com/james7132
+
+### [CrystalOrb]
+
+[![CrystalOrb demo animation](crystalorb.gif)][crystalorb-demo]
+_Interactive [demo][crystalorb-demo] that uses the [Rapier] physics engine._
+
+[CrystalOrb] by [@ErnWong] is a new networking library that aims to help
+fast-paced client-server games synchronize their game state across multiple
+clients. Just like [backroll-rs] and [GGRS], each CrystalOrb client predicts
+the next game state without waiting for other remote players' inputs to arrive.
+Unlike backroll-rs's and GGRS's peer-to-peer approach which only send input
+data between its peers, CrystalOrb relies on having a server to send
+authoritative snapshots of the entire game state to each client. In response,
+each client unconditionally rolls-back to that snapshot. Although this may lead
+to higher network and memory usage, it means that CrystalOrb clients can join
+and leave at any time, and games that cannot guarantee full-determinism can
+still work with CrystalOrb.
+
+This library was written as a learning exercise for the author, and as such,
+the author warns that this library may not be suitable for serious games.
+
+There is an [interactive demo][crystalorb-demo] of CrystalOrb that features the
+[Rapier] physics engine.
+
+[CrystalOrb]: https://github.com/ErnWong/crystalorb
+[@ErnWong]: https://github.com/ErnWong
+[crystalorb-demo]: https://ernestwong.nz/crystalorb/demo
+[backroll-rs]: https://github.com/HouraiTeahouse/backroll-rs
+[GGRS]: https://github.com/gschup/ggrs
+[Rapier]: https://rapier.rs
 
 ### [erupt]
 
@@ -268,6 +414,38 @@ This includes automatic testing using software adapters on CI.
 [gfx-hal]: https://github.com/gfx-rs/gfx
 [wgpu-0.9]: https://crates.io/crates/wgpu/0.9.0
 [Family reunion]: https://github.com/gfx-rs/wgpu/milestone/9?closed=1
+
+### [rafx]
+
+[![Rafx Flythrough Demo](rafx-flythrough-demo.jpg)][rafx-youtube-video]
+
+_A scene exported via blender with animated camera motion, [watch the demo on youtube][rafx-youtube-video]!_
+
+[Rafx][rafx] is a multi-backend renderer that optionally integrates with the
+[distill][rafx-distill] asset pipeline.
+
+This month, the asset pipeline received almost all the attention. A custom
+blender add-on was prototyped, and several project layouts were tested to
+decide on "best practices" to recommend for anyone that wants to use `rafx`
+with 3d assets.
+
+Using a custom add-on will enable a workflow that supports large scenes with
+many assets. The add-on currently exports textures, materials, meshes, models
+(a collection of meshes of varying LOD levels), and prefabs (a list of lights,
+meshes, etc. to place in the world).
+
+Some commercial art packs with varying art styles and complexity have been
+ported to this pipeline, and one of them was loaded into the demo. A
+fly-through camera was animated and exported out as json to demonstrate the
+scene.
+
+After prototyping is complete, details and lessons learned will be
+shared in hopes that it will be helpful to other projects in the rust
+community, even if they do not use rafx directly.
+
+[rafx]: https://github.com/aclysma/rafx
+[rafx-youtube-video]: https://www.youtube.com/watch?v=HlJsgbGyl0I
+[rafx-distill]: https://github.com/amethyst/distill
 
 ## Popular Workgroup Issues in Github
 
