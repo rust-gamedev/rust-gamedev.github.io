@@ -224,6 +224,22 @@ other players to join using WebRTC.
 [NPhysics]: https://nphysics.org/
 [CrystalOrb]: https://github.com/ErnWong/crystalorb
 
+### [FishGame][fishgame-itch]
+
+![FishGame](fish.gif)
+
+[FishGame][fishgame-itch] is a multiplayer brawler game made in [macroquad].
+
+FishGame started as a [nakama-rs] showcase, but now its getting more life as
+an independent game. To make a transistion from a techno demo to a real game
+lots of playtesting and fine-tuning happened this month. Most noticable
+improvements: a new physics system with throwable everything and a new
+zoom-to-fit camera system.
+
+[fishgame-itch]: https://fedorgames.itch.io/fish-game
+[macroquad]: https://github.com/not-fl3/macroquad
+[nakama-rs]: https://github.com/heroiclabs/nakama-rs
+
 ### [Hyper Farmer][hyperfarmer-itch]
 
 ![Hyper Farmer logo](hyperfarmer.png)
