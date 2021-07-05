@@ -249,6 +249,26 @@ https://www.reddit.com/r/rust\_gamedev/comments/nx79kq/)_
 
 ## Tooling Updates
 
+### [Sugarcubes]
+
+![Sugarcubes Example](sugarcubes.png)
+
+[Sugarcubes] by [@henryksloan] is a tool for designing and testing automata.
+
+Sugarcubes allows for easy creation of models used in the theory of computing.
+It is designed to be a more intuitive and useful alternative to JFLAP,
+the most popular tool for designing automata and formal languages.
+It uses macroquad for the editor, and egui for the toolbars. Sugarcubes
+currently features a fully functional finite automaton editor and simulator,
+and many other models, editing features and simulations are planned.
+
+You can check out a [live WASM demo here][Sugarcubes],
+or the [source code on Github][Sugarcubes source].
+
+[Sugarcubes]: https://henryksloan.github.io/sugarcubes/
+[Sugarcubes source]: https://github.com/henryksloan/sugarcubes
+[@henryksloan]: https://github.com/henryksloan
+
 ## Library Updates
 
 ### [backroll-rs] and [GGRS]
