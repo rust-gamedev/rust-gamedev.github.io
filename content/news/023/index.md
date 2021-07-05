@@ -194,7 +194,7 @@ It uses clustered forward+ dynamic lighting and normal maps, and loads textures 
 
 The future direction depends on community feedback (a public shared crate is planned). The current intention is to find a few close collaborators.
 
-Demo videos: [free quake map demo] [custom map demo]; Also see the [reddit thread]
+Demo videos: [free quake map demo]; [custom map demo]; Also see the [reddit thread]
 
 [thrustEngine]: https://github.com/experiment9123/thrustengine
 [free quake map demo]: https://vimeo.com/569777592
