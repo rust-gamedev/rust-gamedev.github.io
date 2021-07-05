@@ -64,6 +64,31 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Egregoria]
+
+![Egregoria in 3D](egregoria.jpg)
+
+[Egregoria] ([GitHub][Egregoria], [Discord][egregoria-discord])
+by [@Uriopass]
+is a simulation oriented city builder that tries
+to replicate modern society as well as possible.
+
+It recently upgraded from a 2D top-down view to a
+3D third-person camera as seen in the screenshot above.
+
+Elevated roads and bridges are now possible, allowing to build
+[complex highway interchanges][highway-screenshot].
+
+Some technical details around the renderer with more screenshots,
+along with an architectural overview of the project can be read in the
+[9th devlog][egregoria-blog-post].
+
+[Egregoria]: https://github.com/Uriopass/Egregoria
+[@Uriopass]: https://github.com/Uriopass
+[egregoria-blog-post]: https://douady.paris/blog/egregoria_9.html
+[egregoria-discord]: https://discord.gg/CAaZhUJ
+[highway-screenshot]: http://douady.paris/blog/img/blog_9/interchange.jpg
+
 ### [Open Combat][opencombat]
 
 ![Open Combat logo](open_combat.jpg)
@@ -105,9 +130,98 @@ implement before this is a real game:
 
 [Github](https://github.com/bonsairobo/projectris)
 
+### [Blightmud][blightmud]
+
+![Blightmud logo](blightmud.png)
+
+[Blightmud][blightmud] ([Discord](https://discord.gg/qnxgUC5)) is a mud client
+for the terminal inspired by [tintin++][tintin] and [tinyfugue][tinyfugue]
+allowing users to connect and get immersed in the worlds offered by text based
+online multi user dungeons known as muds.
+
+The project was birthed in April of 2020 and has come a long way since.  It now
+offers granular scripting access using [lua][lua], plugin handling, built in
+text-to-speech (via [Speech dispatcher][speechd]), split view scrolling, modern
+telnet protocols and TLS connections to name a few.
+
+[blightmud]: https://github.com/Blightmud/Blightmud
+[tintin]: https://tintin.mudhalla.net/
+[tinyfugue]: http://tinyfugue.sourceforge.net/
+[lua]: https://www.lua.org/
+[speechd]: https://freebsoft.org/speechd
+
+### [The Hat Chooses the Wizard][hatchooseswizard]
+
+![Level 1-4 of the game "The Hat Chooses the Wizard" running on a Game Boy
+Advance](hatchooseswizard.jpg)
+_Runs on real hardware!_
+
+The Hat Chooses the Wizard is a 2D platformer for the Game Boy Advance.
+
+It was made for this year's Game Maker's Toolkit (GMTK) game jam with the theme
+joined together and came in the top 25% of over 5800 entries. The game plays
+over 12 levels with the core mechanic being to throw your hat and then
+accelerate towards it. You can play it on a web based emulator embedded on the
+[itch][hatchooseswizard] page.
+
+The game is written in pure Rust and uses [agb][agblibrary] to
+interface with the hardware. The library is designed to allow you to write games
+without needing a detailed understanding of the hardware while still giving full
+access to all of its capabilities. It is under active development with
+plenty more features on the way.
+
+You can find the source code for the game [here][hatchooseswizardsource] and all
+feedback is welcome.
+
+[hatchooseswizard]: https://lostimmortal.itch.io/the-hat-chooses-the-wizard
+[hatchooseswizardsource]: https://github.com/corwinkuiper/joinedtogether
+[agblibrary]: https://github.com/corwinkuiper/agb
+
+### [Themengi]
+
+![User highlighting objects in the game world and parsing the phrase
+"dang puru rupuu kythengi" into the action "open", object "door", and mods
+"red" and "left".](themengi.gif)
+_Demonstration of natural language parser with temporary words and grammar._
+
+[Themengi] ([Discord][themengi-discord], [Twitter][themengi-twitter])
+is a puzzle adventure game where you learn an alien language,
+with completely unknown words and grammar, to navigate the world
+and find your way home.
+
+This month the [first devlog][themengi-video] for
+Themengi was published, discussing its natural language parser using
+Head-Driven Phrase Structure Grammar, the choice to use Bevy, a texture
+upscaling technique for faithful pixel art rendering, and implementing an
+outline shader in the Bevy render pipeline.
+
+[Themengi]: https://vgel.me/themengi
+[themengi-discord]: https://discord.gg/GpparbnXPC
+[themengi-twitter]: https://twitter.com/voooooogel
+[themengi-video]: https://youtube.com/watch?v=gtIphiK7tMs
+
 ## Engine Updates
 
 ## Learning Material Updates
+
+### [A Trig-less Line of Sight Algorithm for 2D Games][lineofsight]
+
+![2D Sight Example](lineofsight.png)
+
+[@basstabs] published a tutorial which explains how to write a
+line of sight algorithm for 2D games in Rust without using trigonometry or
+square roots. It includes vector diagrams and typeset math to explain the ideas
+behind each stage of the algorithm, source code for each step, tests to verify
+accuracy of the methods, and suggestions for further improvements.
+Additionally, the
+[repository](https://github.com/basstabs/2d-line-of-sight) contains benchmarks
+and a sample application written in [ggez](https://crates.io/crates/ggez).
+
+_Discussions: [/r/rust_gamedev](
+https://www.reddit.com/r/rust\_gamedev/comments/nx79kq/)_
+
+[lineofsight]: https://basstabs.github.io/2d-line-of-sight/
+[@basstabs]: https://github.com/basstabs
 
 ## Library & Tooling Updates
 
@@ -144,6 +258,36 @@ Several example controllers are provided as well:
 - First Person
 - Orbit
 - Unreal Engine Viewport
+
+### [wgpu] family re-union
+
+![wgpu family reunion](wgpu-family-reunion.svg)
+
+[wgpu] is a [WebGPU] implementation in Rust. It is safe, efficient,
+and portable: it can target both native and the Web.
+
+[Family reunion] is by far the biggest change in `wgpu` project since
+the inception. First, the Rust API of [wgpu-rs] was moved to the main
+[wgpu] repository. Second, the whole base was relicensed under MIT/Apache2.
+
+[gfx-hal] - the Vulkan Portability-like graphics API abstraction -
+was detached from the project. Instead `wgpu` got its own in-house unsafe
+abstraction called "wgpu-hal" developed within the [wgpu] repository.
+
+The team released [wgpu-0.9] right before this transition, to give the new
+graphics infrastructure more time to take shape. At the time of writing,
+supported backends on the new HAL include Vulkan, Metal, and OpenGL ES3.
+
+Finally, the testing infrastructure received a major upgrade. It started
+rendering the examples on the available adapters and compraring the results
+with reference images.
+This includes automatic testing using software adapters on CI.
+
+[wgpu]: https://github.com/gfx-rs/wgpu
+[wgpu-rs]: https://github.com/gfx-rs/wgpu-rs
+[gfx-hal]: https://github.com/gfx-rs/gfx
+[wgpu-0.9]: https://crates.io/crates/wgpu/0.9.0
+[Family reunion]: https://github.com/gfx-rs/wgpu/milestone/9?closed=1
 
 ## Popular Workgroup Issues in Github
 
