@@ -198,10 +198,10 @@ The future direction depends on community feedback (a public shared
 crate is planned). The current intention is to find a few close
 collaborators.
 
-Demo videos: [free quake map demo]; [custom map demo]
+Demo videos: [free quake map demo], [custom map demo].
 
 _Discussions:
-[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/obj38y/rust_shooter_another_little_update/)_
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/obj38y/rust_shooter_another_little_update)_
 
 [thrustEngine]: https://github.com/experiment9123/thrustengine
 [free quake map demo]: https://vimeo.com/569777592
