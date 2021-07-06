@@ -638,6 +638,19 @@ So any feedback and contributions is highly appreciated.
 [bevy_config_cam]: https://github.com/BlackPhlox/bevy_config_cam
 [@BlackPhlox]: https://github.com/BlackPhlox
 
+### [assets_manager]
+
+[assets_manager] provides easy file loading and caching, with a focus on
+hot-reloading.
+
+In June was released version 0.5.0, which came with many new features.
+`assets_manager` has now built-in support for loading sounds and images, and
+Zip archive were added as a new source to load assets from. Additionally, the
+API around directories was reworked to be more powerful, and performances were
+improved a bit.
+
+[assets_manager]: https://github.com/a1phyr/assets_manager
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
