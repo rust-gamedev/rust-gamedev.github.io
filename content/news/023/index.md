@@ -255,6 +255,20 @@ downloadable Windows version.
 
 [weegames-itch]: https://yeahross.itch.io/weegames
 
+### Flesh
+
+![flesh preview](flesh.gif)
+_demo build_
+
+Flesh by [@im_oab] is a 2D-horizontal shmup game with hand-drawn animation and
+organic/fleshy theme. It is implemented using [Tetra]. This month, an internal
+demo build was released, with a development journal available on
+[Google Drive][flesh-gdrive].
+
+[@im_oab]: https://twitter.com/im_oab
+[Tetra]: https://github.com/17cupsofcoffee/tetra
+[flesh-gdrive]: https://drive.google.com/drive/folders/1CppHsiteHDNofsVo2wHNNz_3E9YuK4Ay
+
 ## Engine Updates
 
 ## Learning Material Updates
