@@ -300,6 +300,34 @@ or the [source code on Github][Sugarcubes source].
 [Sugarcubes source]: https://github.com/henryksloan/sugarcubes
 [@henryksloan]: https://github.com/henryksloan
 
+### [Rusty Slider]
+
+![Rusty Slider code block example](rustyslider.png)
+_Supports syntax highlighting of code blocks_
+
+[Rusty Slider] by [@ollej] is a markdown slideshow viewer
+written with macroquad.
+
+The game engine Macroquad can be used for more than just games. It’s also a
+great way to quickly build multi-platform tools with graphics.
+
+It’s possible to write presentations in plain text using Markdown. The
+application runs natively on all major platforms, and can also be used within
+a browser.
+
+- Supports headers, bold/italic, blockquotes, lists, and code blocks with
+  syntax highlighting.
+- Automatically change slides.
+- Themes separated from content.
+- Toggle a CRT shader.
+
+The latest feature added was to execute bash code blocks. The output of the
+execution will be shown below the code block. This is meant to be used for
+demo purposes, to show actual results of commands.
+
+[Rusty Slider]: https://ollej.github.io/rusty-slider
+[@ollej]: https://twitter.com/ollej
+
 ## Library Updates
 
 ### [backroll-rs] and [GGRS]
@@ -400,34 +428,6 @@ projects. Pure Rust Vulkan allocators with support for erupt have been released.
 
 [erupt]: https://gitlab.com/Friz64/erupt
 [@Friz64]: https://blog.friz64.de/about
-
-### [Rusty Slider]
-
-![Rusty Slider code block example](rustyslider.png)
-_Supports syntax highlighting of code blocks_
-
-[Rusty Slider] by [@ollej] is a markdown slideshow viewer
-written with macroquad.
-
-The game engine Macroquad can be used for more than just games. It’s also a
-great way to quickly build multi-platform tools with graphics.
-
-It’s possible to write presentations in plain text using Markdown. The
-application runs natively on all major platforms, and can also be used within
-a browser.
-
-- Supports headers, bold/italic, blockquotes, lists, and code blocks with
-  syntax highlighting.
-- Automatically change slides.
-- Themes separated from content.
-- Toggle a CRT shader.
-
-The latest feature added was to execute bash code blocks. The output of the
-execution will be shown below the code block. This is meant to be used for
-demo purposes, to show actual results of commands.
-
-[Rusty Slider]: https://ollej.github.io/rusty-slider
-[@ollej]: https://twitter.com/ollej
 
 ### [wgpu] family re-union
 
