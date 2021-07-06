@@ -271,6 +271,31 @@ demo build was released, with a development journal available on
 
 ## Engine Updates
 
+### thRustEngine - with simple shooter game demo
+
+![thRustEngine screenshot](thrustengine_screenshot.jpg)
+
+This is a simple descent/quake style shooter written to demo
+[thRustEngine]. The current repo is a placeholder.
+
+It loads wavefront.OBJ, and Quake1/Quake3 BSP worlds, converted to
+an internal format for collision and rendering. It uses clustered
+forward+ dynamic lighting and normal maps, and loads textures
+asynchronously.
+
+The future direction depends on community feedback (a public shared
+crate is planned). The current intention is to find a few close
+collaborators.
+
+Demo videos: [free quake map demo], [custom map demo].
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/obj38y/rust_shooter_another_little_update)_
+
+[thrustEngine]: https://github.com/experiment9123/thrustengine
+[free quake map demo]: https://vimeo.com/569777592
+[custom map demo]: https://vimeo.com/570798468
+
 ## Learning Material Updates
 
 ### [A Trig-less Line of Sight Algorithm for 2D Games][lineofsight]
