@@ -239,6 +239,33 @@ made over about 24 hours. The game can be played in the
 [hyperfarmer]: https://github.com/will-hart/cloud-surfer
 [hyperfarmer-itch]: https://wilsk.itch.io/hyper-farmer
 
+### [Way of Rhea][wor]
+
+[![Way of Rhea on Steam](wor-dialogue.jpg)][wor]
+
+[Way of Rhea][wor] is a picturesque puzzle platformer—without the platforming.
+Solve mind bending color puzzles, unlock new areas of a vibrant hub world, and
+talk to NPCs to unravel the mysteries of a world you left behind!
+
+Way of Rhea is being produced by [@masonremaley][mason-remaley]. Latest Way of
+Rhea developments:
+
+- Most biomes now have narrative arcs, experienced in part through the
+[new dialogue system](wor-speech-bubble)
+- [@masonremaley][mason-remaley] published
+[a blog post, *When to Rewrite*][wor-when-to-rewrite] outlining how he views the
+rewrite vs improve tradeoff in the Way of Rhea engine
+- Controller support was added, controls glyphs shown in game automatically
+reflect the most recently used input device
+- Fixes a bug reported by multiple users where undo/redo resulted in a temporary
+slowdown due to a lack of communication with the sleep system
+- More puzzles!
+
+[wor]: https://store.steampowered.com/app/1110620?utm_campaign=tmirgd&utm_source=n23
+[wor-when-to-rewrite]: https://www.anthropicstudios.com/2021/06/25/when-to-rewrite/
+[wor-speech-bubble]: https://twitter.com/masonremaley/status/1400189924889042944
+[mason-remaley]: https://twitter.com/masonremaley
+
 ## Engine Updates
 
 ## Learning Material Updates
@@ -261,6 +288,21 @@ https://www.reddit.com/r/rust\_gamedev/comments/nx79kq/)_
 
 [lineofsight]: https://basstabs.github.io/2d-line-of-sight/
 [@basstabs]: https://github.com/basstabs
+
+### [When to Rewrite][when-to-rewrite]
+
+![when-to-rewrite](when-to-rewrite.jpg)
+
+[@masonremaley][mason-remaley] wrote [an article][when to rewrite] offering an
+opinion on rewrites vs incremental migrations informed by his work on the
+[Way of Rhea](wor) engine.
+
+> A working system is a valuable asset. It works. It lets you test new ideas
+> cheaply. Don't take that for granted.
+
+[when-to-rewrite]: https://www.anthropicstudios.com/2021/06/25/when-to-rewrite/
+[mason-remaley]: https://twitter.com/masonremaley
+[wor]: https://store.steampowered.com/app/1110620?utm_campaign=tmirgd&utm_source=n23
 
 ## Tooling Updates
 
