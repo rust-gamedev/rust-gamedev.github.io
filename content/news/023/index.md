@@ -268,14 +268,14 @@ Way of Rhea is being produced by [@masonremaley][mason-remaley]. Latest Way of
 Rhea developments:
 
 - Most biomes now have narrative arcs, experienced in part through the
-  [new dialogue system][wor-speech-bubble]
+  [new dialogue system][wor-speech-bubble].
 - [@masonremaley][mason-remaley] published
   [a blog post, *When to Rewrite*][wor-when-to-rewrite] outlining how he views the
-  rewrite vs improve tradeoff in the Way of Rhea engine
+  rewrite vs improve tradeoff in the Way of Rhea engine.
 - Controller support was added, controls glyphs shown in game automatically
-  reflect the most recently used input device
+  reflect the most recently used input device.
 - Fixes a player reported bug where undo/redo resulted in a temporary slowdown
-  due to a lack of communication with the sleep system
+  due to a lack of communication with the sleep system.
 - More puzzles!
 
 [wor]: https://store.steampowered.com/app/1110620
