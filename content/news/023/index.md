@@ -30,6 +30,7 @@ Feel free to send PRs about your own projects!
 [Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
+<!-- no toc -->
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
@@ -239,7 +240,95 @@ made over about 24 hours. The game can be played in the
 [hyperfarmer]: https://github.com/will-hart/cloud-surfer
 [hyperfarmer-itch]: https://wilsk.itch.io/hyper-farmer
 
+### [Weegames][weegames-itch]
+
+![Weegames menu](weegames.jpg)
+
+[Weegames][weegames-itch] is a fast-paced minigame collection.
+The web version now has a counter which tells you how many
+of the 41 minigames you've played. Also, the game shows
+a newly-added loading screen while downloading the
+initial assets.
+
+Note: These updates have not yet been rolled out to the
+downloadable Windows version.
+
+[weegames-itch]: https://yeahross.itch.io/weegames
+
+### Flesh
+
+![flesh preview](flesh.gif)
+_demo build_
+
+Flesh by [@im_oab] is a 2D-horizontal shmup game with hand-drawn animation and
+organic/fleshy theme. It is implemented using [Tetra]. This month, an internal
+demo build was released, with a development journal available on
+[Google Drive][flesh-gdrive].
+
+[@im_oab]: https://twitter.com/im_oab
+[Tetra]: https://github.com/17cupsofcoffee/tetra
+[flesh-gdrive]: https://drive.google.com/drive/folders/1CppHsiteHDNofsVo2wHNNz_3E9YuK4Ay
+
+### [Veloren][veloren]
+
+![Cave run](veloren.png) _Turns out the cave wasn't empty_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In June, Veloren released 0.10. During the release party, some of the developers
+joined a voice call to stream the game and answer some questions about
+development. You can watch that stream [here][veloren-stream]. A lot of metrics
+were recorded during the launch, and you can read about them in
+[blog #124][veloren-124]. At peak, 118 players were playing at the same
+time during the launch.
+
+The plugins system recieved a tutorial about how to get started. Caves were
+overhauled with lots of new content. Veloren has officially moved fully over to
+wgpu, which you can read all about in [blog #125][veloren-125]. Work has been
+done on hot reloading for easier access of assets in game. Lots of new models
+were added to the game, and bosses in dungeons are being overhauled with more
+skills to diversify combat.
+
+June's full weekly devlogs: "This Week In Veloren...":
+[#123][veloren-123],
+[#124][veloren-124],
+[#125][veloren-125],
+[#126][veloren-126].
+
+[veloren]: https://veloren.net
+[veloren-stream]: https://www.youtube.com/watch?v=NMvEhymkqUw
+[veloren-123]: https://veloren.net/devblog-123
+[veloren-124]: https://veloren.net/devblog-124
+[veloren-125]: https://veloren.net/devblog-125
+[veloren-126]: https://veloren.net/devblog-126
+
 ## Engine Updates
+
+### thRustEngine - with simple shooter game demo
+
+![thRustEngine screenshot](thrustengine_screenshot.jpg)
+
+This is a simple descent/quake style shooter written to demo
+[thRustEngine]. The current repo is a placeholder.
+
+It loads wavefront.OBJ, and Quake1/Quake3 BSP worlds, converted to
+an internal format for collision and rendering. It uses clustered
+forward+ dynamic lighting and normal maps, and loads textures
+asynchronously.
+
+The future direction depends on community feedback (a public shared
+crate is planned). The current intention is to find a few close
+collaborators.
+
+Demo videos: [free quake map demo], [custom map demo].
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/obj38y/rust_shooter_another_little_update)_
+
+[thrustEngine]: https://github.com/experiment9123/thrustengine
+[free quake map demo]: https://vimeo.com/569777592
+[custom map demo]: https://vimeo.com/570798468
 
 ## Learning Material Updates
 
@@ -262,6 +351,16 @@ https://www.reddit.com/r/rust\_gamedev/comments/nx79kq/)_
 [lineofsight]: https://basstabs.github.io/2d-line-of-sight/
 [@basstabs]: https://github.com/basstabs
 
+### [Writing the Bevy Retro Renderer][bevy_retro_renderer]
+
+[@katharostech] published an article about their experiences writing the render
+for [Bevy Retro][bevy_retro]. They walk through the different strategies and APIs
+they tried and explain why they wrote their own renderer in the first place.
+
+[bevy_retro_renderer]: https://katharostech.com/post/writing-bevy-retros-renderer
+[bevy_retro]: https://github.com/katharostech/bevy_retrograde
+[@katharostech]: https://github.com/katharostech
+
 ## Tooling Updates
 
 ### [Sugarcubes]
@@ -283,6 +382,34 @@ or the [source code on Github][Sugarcubes source].
 [Sugarcubes]: https://henryksloan.github.io/sugarcubes/
 [Sugarcubes source]: https://github.com/henryksloan/sugarcubes
 [@henryksloan]: https://github.com/henryksloan
+
+### [Rusty Slider]
+
+![Rusty Slider code block example](rustyslider.png)
+_Supports syntax highlighting of code blocks_
+
+[Rusty Slider] by [@ollej] is a markdown slideshow viewer
+written with macroquad.
+
+The game engine Macroquad can be used for more than just games. It’s also a
+great way to quickly build multi-platform tools with graphics.
+
+It’s possible to write presentations in plain text using Markdown. The
+application runs natively on all major platforms, and can also be used within
+a browser.
+
+- Supports headers, bold/italic, blockquotes, lists, and code blocks with
+  syntax highlighting.
+- Automatically change slides.
+- Themes separated from content.
+- Toggle a CRT shader.
+
+The latest feature added was to execute bash code blocks. The output of the
+execution will be shown below the code block. This is meant to be used for
+demo purposes, to show actual results of commands.
+
+[Rusty Slider]: https://ollej.github.io/rusty-slider
+[@ollej]: https://twitter.com/ollej
 
 ### [Graphite][graphite-repo]
 
@@ -479,6 +606,83 @@ community, even if they do not use rafx directly.
 [rafx]: https://github.com/aclysma/rafx
 [rafx-youtube-video]: https://www.youtube.com/watch?v=HlJsgbGyl0I
 [rafx-distill]: https://github.com/amethyst/distill
+
+### [egui-tetra]
+
+[egui-tetra] ([GitHub][egui-github) by [@tesselode] is a library
+that integrates [egui], an immediate mode GUI library,
+with [Tetra], a 2D game framework.
+
+egui-tetra provides helpers for integrating egui with Tetra's event loop and
+rendering the GUI.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/o8jbmg/eguitetra_v010_egui_integration)_
+
+[egui-tetra]: https://crates.io/crates/egui-tetra
+[egui-github]: https://github.com/tesselode/egui-tetra
+[@tesselode]: https://twitter.com/tesselode
+[egui]: https://crates.io/crates/egui
+[Tetra]: https://crates.io/crates/tetra
+
+### [bevy_midi]
+
+![bevy_midi logo](bevy_midi_logo.svg)
+
+[bevy_midi] by [@BlackPhlox] is a new bevy plugin that uses
+[midir] to interact with the bevy game engine.
+
+It started out with [bevy_osc] as a
+proof-of-concept interfacing with
+[nannou_osc]
+and using other osc software to communicate with bevy.
+Soon, realizing that nannou_osc is not that different
+how you interfaces with midi, bevy_midi was born.
+
+Here is one of the examples which you can use a midi controller
+to play piano with [demo_audio].
+
+The plugins is still in its infancy.
+So it still has some performance issues, so
+any feedback and contributions is highly appreciated.
+
+[bevy_midi]: https://github.com/BlackPhlox/bevy_midi
+[bevy_osc]: https://github.com/BlackPhlox/bevy_osc
+[nannou_osc]: https://github.com/nannou-org/nannou_osc
+[midir]: https://github.com/Boddlnagg/midir
+[demo_audio]: https://discord.com/channels/691052431525675048/692648638823923732/857177113923682304
+[@BlackPhlox]: https://github.com/BlackPhlox
+
+### [bevy_config_cam]
+
+![bevy_config_cam logo](bevy_config_cam_logo.svg)
+
+[bevy_config_cam] by [@BlackPhlox]
+is an all-in-one purpose camera/player controller for bevy.
+
+With focus on plug-and-play,flexibility and ease of use, this bevy plugin is
+for anyone who is prototyping in 3D and doesn't want the hassle of programming
+a player-controller from scratch.Instantly switch between camera modes such as
+Tracking to Topdown, Follow Behind, FPS and Free and more.
+
+The plugins is very new.
+So any feedback and contributions is highly appreciated.
+
+[bevy_config_cam]: https://github.com/BlackPhlox/bevy_config_cam
+[@BlackPhlox]: https://github.com/BlackPhlox
+
+### [assets_manager]
+
+[assets_manager] provides easy file loading and caching, with a focus on
+hot-reloading.
+
+In June was released version 0.5.0, which came with many new features.
+`assets_manager` has now built-in support for loading sounds and images, and
+Zip archive were added as a new source to load assets from. Additionally, the
+API around directories was reworked to be more powerful, and performances were
+improved a bit.
+
+[assets_manager]: https://github.com/a1phyr/assets_manager
 
 ## Popular Workgroup Issues in Github
 
