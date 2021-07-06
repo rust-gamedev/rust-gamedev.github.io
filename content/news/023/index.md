@@ -229,7 +229,7 @@ projects. Pure Rust Vulkan allocators with support for erupt have been released.
 ![Rusty Slider code block example](rustyslider.png)
 _Supports syntax highlighting of code blocks_
 
-[Rusty Slider], by [@ollej](https://twitter.com/ollej) is a markdown slideshow viewer
+[Rusty Slider] by [@ollej] is a markdown slideshow viewer
 written with macroquad.
 
 The game engine Macroquad can be used for more than just games. It’s also a
@@ -240,7 +240,7 @@ application runs natively on all major platforms, and can also be used within
 a browser.
 
 - Supports headers, bold/italic, blockquotes, lists, and code blocks with
-syntax highlighting.
+  syntax highlighting.
 - Automatically change slides.
 - Themes separated from content.
 - Toggle a CRT shader.
@@ -249,9 +249,8 @@ The latest feature added was to execute bash code blocks. The output of the
 execution will be shown below the code block. This is meant to be used for
 demo purposes, to show actual results of commands.
 
-_Discussions: [/r/rust_gamedev](link), [Twitter](https://twitter.com/ollej)_
-
-[Rusty Slider]: https://ollej.github.io/rusty-slider/
+[Rusty Slider]: https://ollej.github.io/rusty-slider
+[@ollej]: https://twitter.com/ollej
 
 ### [wgpu] family re-union
 
