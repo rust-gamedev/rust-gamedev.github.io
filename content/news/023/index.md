@@ -286,8 +286,7 @@ or the [source code on Github][Sugarcubes source].
 
 ### [Graphite][graphite-repo]
 
-![Geometric cherry tree artwork by BillyDM, winner of last month's first
-Graphite art contest](graphite-cherry-tree.png)
+![Geometric cherry tree](graphite-cherry-tree.png)
 _Geometric cherry tree artwork by BillyDM, winner of last month's first
 Graphite art contest_
 
@@ -295,7 +294,7 @@ Graphite ([GitHub][graphite-repo], [Discord][graphite-discord],
 [Twitter](https://twitter.com/GraphiteEditor)) is an in-development vector and
 raster graphics editor built on a nondestructive node-based workflow.
 
-Since last newsletter, the editor as received the ability to select layers via
+Since last newsletter, the editor has received the ability to select layers via
 the layer panel and by clicking or dragging a box selection in the
 viewport. Selected layers can be deleted, duplicated, and copy/pasted.
 
