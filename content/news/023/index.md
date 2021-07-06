@@ -240,6 +240,21 @@ made over about 24 hours. The game can be played in the
 [hyperfarmer]: https://github.com/will-hart/cloud-surfer
 [hyperfarmer-itch]: https://wilsk.itch.io/hyper-farmer
 
+### [Weegames][weegames-itch]
+
+![Weegames menu](weegames.jpg)
+
+[Weegames][weegames-itch] is a fast-paced minigame collection.
+The web version now has a counter which tells you how many
+of the 41 minigames you've played. Also, the game shows
+a newly-added loading screen while downloading the
+initial assets.
+
+Note: These updates have not yet been rolled out to the
+downloadable Windows version.
+
+[weegames-itch]: https://yeahross.itch.io/weegames
+
 ## Engine Updates
 
 ## Learning Material Updates
