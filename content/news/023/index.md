@@ -257,8 +257,8 @@ Rhea developments:
 rewrite vs improve tradeoff in the Way of Rhea engine
 - Controller support was added, controls glyphs shown in game automatically
 reflect the most recently used input device
-- Fixes a bug reported by multiple users where undo/redo resulted in a temporary
-slowdown due to a lack of communication with the sleep system
+- Fixes a player reported bug where undo/redo resulted in a temporary slowdown
+due to a lack of communication with the sleep system
 - More puzzles!
 
 [wor]: https://store.steampowered.com/app/1110620?utm_campaign=tmirgd&utm_source=n23
@@ -291,11 +291,11 @@ https://www.reddit.com/r/rust\_gamedev/comments/nx79kq/)_
 
 ### [When to Rewrite][when-to-rewrite]
 
-![when-to-rewrite](when-to-rewrite.jpg)
+[![when-to-rewrite](when-to-rewrite.jpg)][when-to-rewrite]
 
-[@masonremaley][mason-remaley] wrote [an article][when to rewrite] offering an
+[@masonremaley][mason-remaley] wrote [a blog post][when-to-rewrite] offering an
 opinion on rewrites vs incremental migrations informed by his work on the
-[Way of Rhea](wor) engine.
+[Way of Rhea][wor] engine.
 
 > A working system is a valuable asset. It works. It lets you test new ideas
 > cheaply. Don't take that for granted.
