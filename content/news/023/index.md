@@ -268,17 +268,17 @@ Way of Rhea is being produced by [@masonremaley][mason-remaley]. Latest Way of
 Rhea developments:
 
 - Most biomes now have narrative arcs, experienced in part through the
-[new dialogue system][wor-speech-bubble]
+  [new dialogue system][wor-speech-bubble]
 - [@masonremaley][mason-remaley] published
-[a blog post, *When to Rewrite*][wor-when-to-rewrite] outlining how he views the
-rewrite vs improve tradeoff in the Way of Rhea engine
+  [a blog post, *When to Rewrite*][wor-when-to-rewrite] outlining how he views the
+  rewrite vs improve tradeoff in the Way of Rhea engine
 - Controller support was added, controls glyphs shown in game automatically
-reflect the most recently used input device
+  reflect the most recently used input device
 - Fixes a player reported bug where undo/redo resulted in a temporary slowdown
-due to a lack of communication with the sleep system
+  due to a lack of communication with the sleep system
 - More puzzles!
 
-[wor]: https://store.steampowered.com/app/1110620?utm_campaign=tmirgd&utm_source=n23
+[wor]: https://store.steampowered.com/app/1110620
 [wor-when-to-rewrite]: https://www.anthropicstudios.com/2021/06/25/when-to-rewrite/
 [wor-speech-bubble]: https://twitter.com/masonremaley/status/1400189924889042944
 [mason-remaley]: https://twitter.com/masonremaley
@@ -405,12 +405,12 @@ opinion on rewrites vs incremental migrations informed by his work on the
 > A working system is a valuable asset. It works. It lets you test new ideas
 > cheaply. Don't take that for granted.
 
-_Discussions: [/r/rust_gamedev](
-https://www.reddit.com/r/rust_gamedev/comments/o8dy0r/when_to_rewrite/)_
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/o8dy0r/when_to_rewrite)_
 
 [when-to-rewrite]: https://www.anthropicstudios.com/2021/06/25/when-to-rewrite/
 [mason-remaley]: https://twitter.com/masonremaley
-[wor]: https://store.steampowered.com/app/1110620?utm_campaign=tmirgd&utm_source=n23
+[wor]: https://store.steampowered.com/app/1110620
 
 ### [Writing the Bevy Retro Renderer][bevy_retro_renderer]
 
