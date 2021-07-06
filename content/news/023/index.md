@@ -295,10 +295,13 @@ https://www.reddit.com/r/rust\_gamedev/comments/nx79kq/)_
 
 [@masonremaley][mason-remaley] wrote [a blog post][when-to-rewrite] offering an
 opinion on rewrites vs incremental migrations informed by his work on the
-[Way of Rhea][wor] engine.
+[Way of Rhea][wor]	 engine.
 
 > A working system is a valuable asset. It works. It lets you test new ideas
 > cheaply. Don't take that for granted.
+
+_Discussions: [/r/rust_gamedev](
+https://www.reddit.com/r/rust_gamedev/comments/o8dy0r/when_to_rewrite/)_
 
 [when-to-rewrite]: https://www.anthropicstudios.com/2021/06/25/when-to-rewrite/
 [mason-remaley]: https://twitter.com/masonremaley
