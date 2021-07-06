@@ -366,6 +366,24 @@ There is an [interactive demo][crystalorb-demo] of CrystalOrb that features the
 [GGRS]: https://github.com/gschup/ggrs
 [Rapier]: https://rapier.rs
 
+### [egui]
+
+![egui](egui.gif)
+
+[egui] by [@emilk] is an easy-to-use immediate mode GUI library in pure Rust.
+
+This month [version 0.13] of egui was released, with a new visual style,
+resizable panels, more powerful plots, and more.
+
+You can try out egui in the [online demo].
+
+_Discussions: [/r/rust](https://www.reddit.com/r/rust/comments/o76y9x/announcing_egui_013_the_simple_gui_library/)_
+
+[egui]: https://github.com/emilk/egui
+[online demo]: https://emilk.github.io/egui
+[version 0.13]: https://github.com/emilk/egui/blob/master/CHANGELOG.md
+[@emilk]: https://twitter.com/ernerfeldt
+
 ### [erupt]
 
 ![erupt logo](erupt.svg)
