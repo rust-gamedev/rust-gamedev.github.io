@@ -251,7 +251,7 @@ Way of Rhea is being produced by [@masonremaley][mason-remaley]. Latest Way of
 Rhea developments:
 
 - Most biomes now have narrative arcs, experienced in part through the
-[new dialogue system](wor-speech-bubble)
+[new dialogue system][wor-speech-bubble]
 - [@masonremaley][mason-remaley] published
 [a blog post, *When to Rewrite*][wor-when-to-rewrite] outlining how he views the
 rewrite vs improve tradeoff in the Way of Rhea engine
