@@ -447,6 +447,24 @@ community, even if they do not use rafx directly.
 [rafx-youtube-video]: https://www.youtube.com/watch?v=HlJsgbGyl0I
 [rafx-distill]: https://github.com/amethyst/distill
 
+### [egui-tetra]
+
+[egui-tetra] ([GitHub][egui-github) by [@tesselode] is a library
+that integrates [egui], an immediate mode GUI library,
+with [Tetra], a 2D game framework.
+
+egui-tetra provides helpers for integrating egui with Tetra's event loop and
+rendering the GUI.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/o8jbmg/eguitetra_v010_egui_integration)_
+
+[egui-tetra]: https://crates.io/crates/egui-tetra
+[egui-github]: https://github.com/tesselode/egui-tetra
+[@tesselode]: https://twitter.com/tesselode
+[egui]: https://crates.io/crates/egui
+[Tetra]: https://crates.io/crates/tetra
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
