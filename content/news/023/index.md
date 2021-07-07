@@ -533,6 +533,17 @@ they tried and explain why they wrote their own renderer in the first place.
 [bevy_retro]: https://github.com/katharostech/bevy_retrograde
 [@katharostech]: https://github.com/katharostech
 
+### [Game Development with Rust][medium_rust_gamedev]
+
+[@thebracket] published an article on the current state of Rust Game Development. It
+covers a few games and engines made in Rust, links to some resources for integrating
+Rust into major game engines (Unity and Unreal). The article then links to some
+tutorials and resources for learning Rust game development at different skill and
+experience levels.
+
+[medium_rust_gamedev]: https://medium.com/pragmatic-programmers/game-development-with-rust-31147f7b6096
+[@thebracket]: https://github.com/thebracket/
+
 ## Tooling Updates
 
 ### [Sugarcubes]
