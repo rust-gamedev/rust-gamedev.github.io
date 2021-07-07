@@ -546,7 +546,12 @@ game development at different skill and experience levels.
 
 ### [How to make plugins system with Rust and WebAssembly][devblog.arcana.rs]
 
-[@zakarumych] published an article about their experience creating fully safe plugins system using plugins compiled to WebAssembly. It provides reasoning for choosing WASM in specific scenario and contains strategies for interacting with WASM modules embedded into application, including dealing with dynamic memory of the module, string and array operations, function pointers etc.
+[@zakarumych] published an article about their experience creating
+fully safe plugins system using plugins compiled to WebAssembly.\
+It provides reasoning for choosing WASM in specific scenario
+and contains strategies for interacting with WASM modules embedded into application,\
+including dealing with dynamic memory of the module,
+string and array operations, function pointers etc.
 
 [devblog.arcana.rs]: https://devblog.arcana.rs/how-to-make-plugins-system-with-rust-and-webassembly
 [@zakarumych]: https://github.com/zakarumych/
