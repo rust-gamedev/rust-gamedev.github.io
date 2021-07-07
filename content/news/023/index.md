@@ -556,6 +556,19 @@ string and array operations, function pointers etc.
 [devblog.arcana.rs]: https://devblog.arcana.rs/how-to-make-plugins-system-with-rust-and-webassembly
 [@zakarumych]: https://github.com/zakarumych/
 
+### [Getting Started with ECS using Planck ECS][planck-tutorial]
+
+![planck logo](planck_ecs.png)
+
+[planck_ecs] by [@jojolepro] is a minimalist and safe ECS library.
+
+This month [@jojolepro] released a [tutorial][planck-tutorial]
+that describes how to use ECSes in general and [planck_ecs] specifically.
+
+[planck-tutorial]: https://jojolepro.com/blog/2021-06-01_getting_started_with_ecs
+[planck_ecs]: https://github.com/jojolepro/planck_ecs
+[@jojolepro]: https://patreon.com/jojolepro
+
 ## Tooling Updates
 
 ### [Sugarcubes]
