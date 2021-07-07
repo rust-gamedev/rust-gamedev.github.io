@@ -229,8 +229,9 @@ other players to join using WebRTC.
 ![The new terrain editor in The Process](the_process.gif)
 _Building the world, one voxel at a time_
 
-[The Process] by @setzer22 is an upcoming game about factory building, process
-management and carrot production, built with Rust using the Godot game engine!
+[The Process] by @setzer22 is an upcoming game about factory building,
+process management, and carrot production,
+built with Rust using the Godot game engine!
 
 In this month, the main focus has been towards the addition of a new terrain
 editor to speed up the creation of game levels. Terrain meshes are built using
@@ -251,10 +252,9 @@ This month has seen the following changes and improvements:
   [movement](https://twitter.com/PlayTheProcess/status/1411410261651738635).
 
 _Discussions:
-[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/o3o8d0/experimenting_with_the_building_blocks_crate_for/),
-[Twitter](https://twitter.com/PlayTheProcess)_
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/o3o8d0/experimenting_with_the_building_blocks_crate)_
 
-[The Process]: https://twitter.com/PlayTheProcess/
+[The Process]: https://twitter.com/PlayTheProcess
 
 ## Engine Updates
 
