@@ -362,6 +362,24 @@ June's full weekly devlogs: "This Week In Veloren...":
 [veloren-125]: https://veloren.net/devblog-125
 [veloren-126]: https://veloren.net/devblog-126
 
+### [Projectris][projectris]
+
+![projectris](projectris.png)
+
+[Projectris][projectris] is like Tetris, but in 2D and 3D at the same time.
+As the 3D piece falls, you can manipulate it, but all that matters
+are the shadows it casts on the 2D game boards on either side,
+each of which is played independently.
+
+While the full concept is already prototyped, there are still many features to
+implement before this is a real game:
+scoreboard, increasing fall speed, game over, JUICE.
+
+[@bonsairobo] is not actively working on this, but is
+[happy to accept PRs][projectris].
+
+[projectris]: https://github.com/bonsairobo/projectris
+
 ## Engine Updates
 
 ### thRustEngine - with simple shooter game demo
@@ -674,6 +692,25 @@ projects. Pure Rust Vulkan allocators with support for erupt have been released.
 
 [erupt]: https://gitlab.com/Friz64/erupt
 [@Friz64]: https://blog.friz64.de/about
+
+### [smooth-bevy-cameras]
+
+[smooth-bevy-cameras] by [@bonsairobo] is a small plugin for Bevy Engine that
+makes it simple to have [exponentially smoothed] camera transforms in your game.
+Just add a new bundle to your camera entity,
+and rather than updating a `Transform` directly, you can just update the `eye`
+and `target` values of a `LookTransform`, which will be automatically
+synchronized to the `Transform`.
+
+Several example controllers are provided as well:
+
+- First Person
+- Orbit
+- Unreal Engine Viewport
+
+[smooth-bevy-cameras]: https://github.com/bonsairobo/smooth-bevy-cameras
+[@bonsairobo]: https://github.com/bonsairobo
+[exponentially smoothed]: https://en.wikipedia.org/wiki/Exponential_smoothing
 
 ### [wgpu] family re-union
 
