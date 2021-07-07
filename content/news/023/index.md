@@ -64,6 +64,22 @@ _Discussions:
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
+## Rust GameDev Meetup
+
+![Gamedev meetup poster](gamedev-meetup.png)
+
+The sixth Rust Gamedev Meetup happened in June. You can watch the recording of
+the meetup [here on Youtube][gamedev-meetup-video]. The meetups take place on
+the second Saturday every month via the [Rust Gamedev Discord
+server][rust-gamedev-discord], and are also [streamed on
+Twitch][rust-gamedev-twitch]. If you would like to show off what you've been
+working on in a future meetup, fill out [this form][gamedev-meetup-form].
+
+[gamedev-meetup-form]: https://forms.gle/BS1zCyZaiUFSUHxe6
+[gamedev-meetup-video]: https://www.youtube.com/watch?v=Wuwxh958P6I
+[rust-gamedev-discord]: https://discord.gg/yNtPTb2
+[rust-gamedev-twitch]: https://twitch.tv/rustgamedevmeetup
+
 ## Game Updates
 
 ### [Egregoria]
