@@ -246,18 +246,18 @@ features, and a single breaking change to
 [`EventLoopExtMacOS::set_activation_policy`]. For a full list of changes, refer
 to [winit's changelog].
 
-------
-
 The departure and disappearance of a couple of maintainers has left winit in need
 of someone knowledgeable with X11 in order to review pull requests and address
 various issues. Other backends also need some more love, but X11 is the most
 pressing.
 
-We could also use more helping hands in general, in anything from mapping out
-platform differences and triaging bugs to reviewing PRs and tackling outstanding
-issues. We'd also be happy to have you even if all you do is answer platform-specific
-questions for us. If you're interested, come say hi in our [matrix] channel or on
-any of the [other services] we've bridged with matrix.
+The project could also use more helping hands in general, in anything from
+mapping out platform differences and triaging bugs to reviewing PRs
+and tackling outstanding issues.
+The current maintainers would also be happy to have you even if
+all you do is answer platform-specific questions for them.
+If you're interested, come say hi in their [matrix] channel or on
+any of the [other services] bridged with matrix.
 
 [in vain]: https://github.com/rust-windowing/winit/issues/1682
 [glutin]: https://github.com/rust-windowing/glutin
