@@ -390,6 +390,38 @@ scoreboard, increasing fall speed, game over, JUICE.
 
 [projectris]: https://github.com/bonsairobo/projectris
 
+### [The Process]
+
+![The new terrain editor in The Process](the_process.gif)
+_Building the world, one voxel at a time_
+
+[The Process] by @setzer22 is an upcoming game about factory building,
+process management, and carrot production,
+built with Rust using the Godot game engine!
+
+In this month, the main focus has been towards the addition of a new terrain
+editor to speed up the creation of game levels. Terrain meshes are built using
+smooth voxels using the implementation in the [building
+blocks](https://docs.rs/building_blocks_core) crate.
+
+This month has seen the following changes and improvements:
+
+- The new [terrain
+  editor](https://twitter.com/PlayTheProcess/status/1406707803637551107), with a
+  minimalistic GUI built in Godot itself.
+- A new [island](https://gfycat.com/talkativeneatcatfish), fully made and
+  procedurally textured with the new editor
+- Implemented random factory maintenance
+  [events](https://twitter.com/PlayTheProcess/status/1403986026402619393).
+- Migration of several old GDScript code into Rust, using the ECS pattern, like
+  the system for character
+  [movement](https://twitter.com/PlayTheProcess/status/1411410261651738635).
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/o3o8d0/experimenting_with_the_building_blocks_crate)_
+
+[The Process]: https://twitter.com/PlayTheProcess
+
 ## Engine Updates
 
 ### thRustEngine - with simple shooter game demo
