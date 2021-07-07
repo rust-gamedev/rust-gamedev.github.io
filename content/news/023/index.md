@@ -721,6 +721,51 @@ There is an [interactive demo][crystalorb-demo] of CrystalOrb that features the
 [GGRS]: https://github.com/gschup/ggrs
 [Rapier]: https://rapier.rs
 
+### [glutin] (and [winit])
+
+![Animated image showing a window that is opened with a spinning cursor on top](winit-bug-1.gif)
+_This cursor may be waiting [in vain], but your patience shall be rewarded._
+
+[glutin] is a low-level library for OpenGL context creation, written in pure Rust.
+[glutin] uses and re-exports [winit], which handles window creation and management,
+as well as various input devices.
+
+This month, glutin 0.27.0 was released, which makes glutin use the latest version
+of winit (0.25.0), which was released around a month prior to glutin 0.27.0. Usually,
+we try to keep glutin synced with winit, but we couldn't quite manage to do it this
+time since the person who'd usually take responsibility for releasing a new version
+of glutin was unavailable, and no-one had the role of "back-up releaser".
+[@maroider] has offered to fill this role for now.
+
+The upgrade to winit 0.25.0 brings with it a slew of bufixes, a couple of new
+features, and a single breaking change to
+[`WindowBuilderExtMacOS::with_activation_policy`], which has been replaced by
+[`EventLoopExtMacOS::set_activation_policy`]. For a full list of changes, refer
+to [winit's changelog].
+
+The departure and disappearance of a couple of maintainers has left winit in need
+of someone knowledgeable with X11 in order to review pull requests and address
+various issues. Other backends also need some more love, but X11 is the most
+pressing.
+
+The project could also use more helping hands in general, in anything from
+mapping out platform differences and triaging bugs to reviewing PRs
+and tackling outstanding issues.
+The current maintainers would also be happy to have you even if
+all you do is answer platform-specific questions for them.
+If you're interested, come say hi in their [matrix] channel or on
+any of the [other services] bridged with matrix.
+
+[in vain]: https://github.com/rust-windowing/winit/issues/1682
+[glutin]: https://github.com/rust-windowing/glutin
+[winit]: https://github.com/rust-windowing/winit
+[@maroider]: https://github.com/maroider
+[`WindowBuilderExtMacOS::with_activation_policy`]: https://docs.rs/winit/0.24.0/x86_64-apple-darwin/winit/platform/macos/trait.WindowBuilderExtMacOS.html#tymethod.with_activation_policy
+[`EventLoopExtMacOS::set_activation_policy`]: https://docs.rs/winit/0.25.0/x86_64-apple-darwin/winit/platform/macos/trait.EventLoopExtMacOS.html#tymethod.set_activation_policy
+[winit's changelog]: https://github.com/rust-windowing/winit/blob/master/CHANGELOG.md#0250-2021-05-15
+[matrix]: https://matrix.to/#/#Glutin:matrix.org
+[other services]: https://github.com/rust-windowing/winit#contact-us
+
 ### [egui]
 
 ![egui](egui.gif)
