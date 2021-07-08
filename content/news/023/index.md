@@ -600,6 +600,19 @@ string and array operations, function pointers etc.
 [devblog.arcana.rs]: https://devblog.arcana.rs/how-to-make-plugins-system-with-rust-and-webassembly
 [@zakarumych]: https://github.com/zakarumych/
 
+### [Getting Started with ECS using Planck ECS][planck-tutorial]
+
+![planck logo](planck_ecs.png)
+
+[planck_ecs] by [@jojolepro] is a minimalist and safe ECS library.
+
+This month [@jojolepro] released a [tutorial][planck-tutorial]
+that describes how to use ECSes in general and [planck_ecs] specifically.
+
+[planck-tutorial]: https://jojolepro.com/blog/2021-06-01_getting_started_with_ecs
+[planck_ecs]: https://github.com/jojolepro/planck_ecs
+[@jojolepro]: https://patreon.com/jojolepro
+
 ## Tooling Updates
 
 ### [Sugarcubes]
@@ -682,6 +695,31 @@ code and how you can help!
 [graphite-discord]: https://discord.graphite.design
 [graphite-twitter]: https://twitter.com/GraphiteEditor
 [graphite-live-demo]: https://editor.graphite.design
+
+### [texture_generator] v0.5
+
+![A black&white top-down image of some building](texture_generator.png)
+_An depth image example_
+
+[texture_generator] by [Orchaldir] is a library to generate textures,
+and a library to use those textures to render tilemaps.
+
+This month the v0.5 version was release. Some of the updates:
+
+- The editor was switched to [Iced].
+- Layered textures.
+- Door handles.
+- More options for depth calculation: depth gradient along X or Y
+  and barrel shape.
+- Furniture can now have a fixed size or fill the selected area
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/nz5ban/i_switched_my_tilemap_editor_to_iced)_
+
+[texture_generator]: https://github.com/Orchaldir/texture_generator
+[Orchaldir]: https://github.com/Orchaldir
+[texgen-v0-5]: https://github.com/Orchaldir/texture_generator/releases/tag/v0.5.0
+[Iced]: https://github.com/hecrj/iced
 
 ## Library Updates
 
