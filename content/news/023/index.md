@@ -1,13 +1,11 @@
 +++
 title = "This Month in Rust GameDev #23 - June 2021"
-date = 2021-07-01
+date = 2021-07-08
 transparent = true
-draft = true
+draft = false
 +++
 
-<!-- Check the post with markdownlint-->
-
-Welcome to the {TODO}th issue of the Rust GameDev Workgroup's
+Welcome to the 23rd issue of the Rust GameDev Workgroup's
 monthly newsletter.
 [Rust] is a systems language pursuing the trifecta:
 safety, concurrency, and speed.
@@ -36,11 +34,7 @@ Feel free to send PRs about your own projects!
 - [Engine Updates](#engine-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
-- [Meeting Minutes](#meeting-minutes)
 - [Requests for Contribution](#requests-for-contribution)
-- [Jobs](#jobs)
-- [Bonus](#bonus)
 
 <!--
 Ideal section structure is:
@@ -125,7 +119,7 @@ along with an architectural overview of the project can be read in the
 ([/r/OpenCombatGame](https://reddit.com/r/OpenCombatGame),
 [Discord](https://discord.gg/YD2V7XsBQZ),
 [Forum](https://discourse.opencombat.bux.fr/))
-is a real time tactical game directly inspired from
+is a real time tactical game directly inspired by
 [Close Combat Series](https://en.wikipedia.org/wiki/Close_Combat_(series)).
 The player takes control of soldier units and orders them to win the battles
 from a top down 2D view.
@@ -171,7 +165,7 @@ online multi user dungeons known as muds.
 The project was birthed in April of 2020 and has come a long way since.  It now
 offers granular scripting access using [lua][lua], plugin handling, built in
 text-to-speech (via [Speech dispatcher][speechd]), split view scrolling, modern
-telnet protocols and TLS connections to name a few.
+telnet protocols, and TLS connections to name a few.
 
 [blightmud]: https://github.com/Blightmud/Blightmud
 [tintin]: https://tintin.mudhalla.net/
@@ -190,7 +184,7 @@ The Hat Chooses the Wizard is a 2D platformer for the Game Boy Advance.
 It was made for this year's Game Maker's Toolkit (GMTK) game jam with the theme
 joined together and came in the top 25% of over 5800 entries. The game plays
 over 12 levels with the core mechanic being to throw your hat and then
-accelerate towards it. You can play it on a web based emulator embedded on the
+accelerate towards it. You can play it on a web-based emulator embedded on the
 [itch][hatchooseswizard] page.
 
 The game is written in pure Rust and uses [agb][agblibrary] to
@@ -259,7 +253,7 @@ other players to join using WebRTC.
 
 FishGame started as a [nakama-rs] showcase, but now it's getting more life as
 an independent game. To make a transition from a tech demo to a real game,
-lots of playtesting and fine-tuning happened this month. Most noticable
+lots of playtesting and fine-tuning happened this month. Most noticeable
 improvements: a new physics system with throwable everything and a new
 zoom-to-fit camera system.
 
@@ -272,11 +266,12 @@ zoom-to-fit camera system.
 ![Hyper Farmer logo](hyperfarmer.png)
 
 The dubiously named [Hyper Farmer][hyperfarmer-itch] was made for the GMTK Game Jam
-using the Bevy engine. For some reason the player has to pick up all the hay from
+using the Bevy engine. For some reason, the player has to pick up all the hay from
 their fields using a giant laser slung between two tractors. Apart from the
-[bevy_game_template][bevy_game_template], all the artwork, music and code was
+[bevy_game_template][bevy_game_template], all the artwork, music, and code was
 made over about 24 hours. The game can be played in the
-[browser][hyperfarmer-itch], and native builds are available on [github releases][hyperfarmer].
+[browser][hyperfarmer-itch], and native builds are available
+on [github releases][hyperfarmer].
 
 [bevy_game_template]: https://github.com/NiklasEi/bevy_game_template
 [hyperfarmer]: https://github.com/will-hart/cloud-surfer
@@ -286,8 +281,8 @@ made over about 24 hours. The game can be played in the
 
 [![Way of Rhea on Steam](wor-dialogue.jpg)][wor]
 
-[Way of Rhea][wor] is a picturesque puzzle platformer—without the platforming.
-Solve mind bending color puzzles, unlock new areas of a vibrant hub world, and
+[Way of Rhea][wor] is a picturesque puzzle platformer-without the platforming.
+Solve mind-bending color puzzles, unlock new areas of a vibrant hub world, and
 talk to NPCs to unravel the mysteries of a world you left behind!
 
 Way of Rhea is being produced by [@masonremaley][mason-remaley]. Latest Way of
@@ -352,7 +347,7 @@ were recorded during the launch, and you can read about them in
 [blog #124][veloren-124]. At peak, 118 players were playing at the same
 time during the launch.
 
-The plugins system recieved a tutorial about how to get started. Caves were
+The plugins system received a tutorial about how to get started. Caves were
 overhauled with lots of new content. Veloren has officially moved fully over to
 wgpu, which you can read all about in [blog #125][veloren-125]. Work has been
 done on hot reloading for easier access of assets in game. Lots of new models
@@ -442,7 +437,7 @@ about reaching the delicious cupcake across your spaceship.
 Made for the GMTK Game Jam.
 
 > You play as a cute alien, who has a limited amount of steps.
-> He turns green when he can walk freely, but once he rans out of steps,
+> He turns green when he can walk freely, but once he runs out of steps,
 > he becomes red and can only push on crates.
 > Luckily, some crates contain +1 or +2 steps for him,
 > as long as he can push one into a laser.
@@ -491,7 +486,7 @@ _Discussions:
 
 [thrustEngine]: https://github.com/experiment9123/thrustengine
 [free quake map demo]: https://vimeo.com/569777592
-[custom map demo]: https://vimeo.com/570798468
+[custom map demo]: https://vimeo.com/572436649
 
 ### [rg3d]
 
@@ -534,17 +529,17 @@ rusty-editor updates:
 
 ![2D Sight Example](lineofsight.png)
 
-[@basstabs] published a tutorial which explains how to write a
+[@basstabs] published a tutorial that explains how to write a
 line of sight algorithm for 2D games in Rust without using trigonometry or
 square roots. It includes vector diagrams and typeset math to explain the ideas
 behind each stage of the algorithm, source code for each step, tests to verify
-accuracy of the methods, and suggestions for further improvements.
+the accuracy of the methods, and suggestions for further improvements.
 Additionally, the
 [repository](https://github.com/basstabs/2d-line-of-sight) contains benchmarks
 and a sample application written in [ggez](https://crates.io/crates/ggez).
 
-_Discussions: [/r/rust_gamedev](
-https://www.reddit.com/r/rust\_gamedev/comments/nx79kq/)_
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/nx79kq/)_
 
 [lineofsight]: https://basstabs.github.io/2d-line-of-sight/
 [@basstabs]: https://github.com/basstabs
@@ -591,11 +586,12 @@ game development at different skill and experience levels.
 ### [How to make plugins system with Rust and WebAssembly][devblog.arcana.rs]
 
 [@zakarumych] published an article about their experience creating
-fully safe plugins system using plugins compiled to WebAssembly.\
+a fully safe plugins system using plugins compiled to WebAssembly.
 It provides reasoning for choosing WASM in specific scenario
-and contains strategies for interacting with WASM modules embedded into application,\
+and contains strategies for interacting with WASM modules embedded
+into an application,
 including dealing with dynamic memory of the module,
-string and array operations, function pointers etc.
+string and array operations, function pointers, etc.
 
 [devblog.arcana.rs]: https://devblog.arcana.rs/how-to-make-plugins-system-with-rust-and-webassembly
 [@zakarumych]: https://github.com/zakarumych/
@@ -671,7 +667,7 @@ Graphite art contest_
 
 Graphite ([GitHub][graphite-repo], [Discord][graphite-discord],
 [Twitter](https://twitter.com/GraphiteEditor)) is an in-development vector and
-raster graphics editor built on a nondestructive node-based workflow.
+raster graphics editor built on a non-destructive node-based workflow.
 
 Since last newsletter, the editor has received the ability to select layers via
 the layer panel and by clicking or dragging a box selection in the
@@ -686,7 +682,7 @@ the way for moving/scaling/rotating layers and the whole document within the
 viewport.
 
 [Try it right now in your browser.][graphite-live-demo] Graphite is making
-rapid progress towards becoming a nondestructive, procedural graphics editor
+rapid progress towards becoming a non-destructive, procedural graphics editor
 suitable of replacing traditional 2D DCC applications. Please
 [join the Discord][graphite-discord] - and consider asking for a tour of the
 code and how you can help!
@@ -704,7 +700,7 @@ _An depth image example_
 [texture_generator] by [Orchaldir] is a library to generate textures,
 and a library to use those textures to render tilemaps.
 
-This month the v0.5 version was release. Some of the updates:
+This month the v0.5 version was released. Some of the updates:
 
 - The editor was switched to [Iced].
 - Layered textures.
@@ -750,9 +746,9 @@ implementation as well as helpful resources for developers.
 backroll-rs features an added abstraction for the transportation layer and
 also provides a bevy plugin, [bevy-backroll]. GGRS replaces the
 C-style callback API of GGPO with a simpler, more understandable control flow.
-The authors of both libraries recommend backroll-rs for developement,
+The authors of both libraries recommend backroll-rs for development,
 as it is currently more actively collaborated on.
-GGRS is recommended as a learning recource and entry point,
+GGRS is recommended as a learning resource and entry point,
 with a plethora of internal documentation and explanation.
 
 The main requirement to make use of both presented libraries is determinism
@@ -819,10 +815,10 @@ time since the person who'd usually take responsibility for releasing a new vers
 of glutin was unavailable, and no-one had the role of "back-up releaser".
 [@maroider] has offered to fill this role for now.
 
-The upgrade to winit 0.25.0 brings with it a slew of bufixes, a couple of new
+The upgrade to winit 0.25.0 brings with it a slew of bugfixes, a couple of new
 features, and a single breaking change to
-[`WindowBuilderExtMacOS::with_activation_policy`], which has been replaced by
-[`EventLoopExtMacOS::set_activation_policy`]. For a full list of changes, refer
+[WindowBuilderExtMacOS::with_activation_policy], which has been replaced by
+[EventLoopExtMacOS::set_activation_policy]. For a full list of changes, refer
 to [winit's changelog].
 
 The departure and disappearance of a couple of maintainers has left winit in need
@@ -842,8 +838,8 @@ any of the [other services] bridged with matrix.
 [glutin]: https://github.com/rust-windowing/glutin
 [winit]: https://github.com/rust-windowing/winit
 [@maroider]: https://github.com/maroider
-[`WindowBuilderExtMacOS::with_activation_policy`]: https://docs.rs/winit/0.24.0/x86_64-apple-darwin/winit/platform/macos/trait.WindowBuilderExtMacOS.html#tymethod.with_activation_policy
-[`EventLoopExtMacOS::set_activation_policy`]: https://docs.rs/winit/0.25.0/x86_64-apple-darwin/winit/platform/macos/trait.EventLoopExtMacOS.html#tymethod.set_activation_policy
+[WindowBuilderExtMacOS::with_activation_policy]: https://docs.rs/winit/0.24.0/x86_64-apple-darwin/winit/platform/macos/trait.WindowBuilderExtMacOS.html#tymethod.with_activation_policy
+[EventLoopExtMacOS::set_activation_policy]: https://docs.rs/winit/0.25.0/x86_64-apple-darwin/winit/platform/macos/trait.EventLoopExtMacOS.html#tymethod.set_activation_policy
 [winit's changelog]: https://github.com/rust-windowing/winit/blob/master/CHANGELOG.md#0250-2021-05-15
 [matrix]: https://matrix.to/#/#Glutin:matrix.org
 [other services]: https://github.com/rust-windowing/winit#contact-us
@@ -859,7 +855,8 @@ resizable panels, more powerful plots, and more.
 
 You can try out egui in the [online demo].
 
-_Discussions: [/r/rust](https://www.reddit.com/r/rust/comments/o76y9x/announcing_egui_013_the_simple_gui_library/)_
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/o76y9x/announcing_egui_013)_
 
 [egui]: https://github.com/emilk/egui
 [online demo]: https://emilk.github.io/egui
@@ -906,17 +903,17 @@ Several example controllers are provided as well:
 
 ### [wgpu] family re-union
 
-![wgpu family reunion](wgpu-family-reunion.svg)
+![wgpu family reunion](wgpu-family-reunion.jpg)
 
 [wgpu] is a [WebGPU] implementation in Rust. It is safe, efficient,
 and portable: it can target both native and the Web.
 
-[Family reunion] is by far the biggest change in `wgpu` project since
+[Family reunion] is by far the biggest change in wgpu project since
 the inception. First, the Rust API of [wgpu-rs] was moved to the main
 [wgpu] repository. Second, the whole base was relicensed under MIT/Apache2.
 
 [gfx-hal] - the Vulkan Portability-like graphics API abstraction -
-was detached from the project. Instead `wgpu` got its own in-house unsafe
+was detached from the project. Instead, wgpu got its own in-house unsafe
 abstraction called "wgpu-hal" developed within the [wgpu] repository.
 
 The team released [wgpu-0.9] right before this transition, to give the new
@@ -924,7 +921,7 @@ graphics infrastructure more time to take shape. At the time of writing,
 supported backends on the new HAL include Vulkan, Metal, and OpenGL ES3.
 
 Finally, the testing infrastructure received a major upgrade. It started
-rendering the examples on the available adapters and compraring the results
+rendering the examples on the available adapters and comparing the results
 with reference images.
 This includes automatic testing using software adapters on CI.
 
@@ -933,11 +930,11 @@ This includes automatic testing using software adapters on CI.
 [gfx-hal]: https://github.com/gfx-rs/gfx
 [wgpu-0.9]: https://crates.io/crates/wgpu/0.9.0
 [Family reunion]: https://github.com/gfx-rs/wgpu/milestone/9?closed=1
+[WebGPU]: https://www.w3.org/TR/webgpu/
 
 ### [rafx]
 
 [![Rafx Flythrough Demo](rafx-flythrough-demo.jpg)][rafx-youtube-video]
-
 _A scene exported via blender with animated camera motion, [watch the demo on youtube][rafx-youtube-video]!_
 
 [Rafx][rafx] is a multi-backend renderer that optionally integrates with the
@@ -968,7 +965,7 @@ community, even if they do not use rafx directly.
 
 ### [egui-tetra]
 
-[egui-tetra] ([GitHub][egui-github) by [@tesselode] is a library
+[egui-tetra] ([GitHub][egui-github]) by [@tesselode] is a library
 that integrates [egui], an immediate mode GUI library,
 with [Tetra], a 2D game framework.
 
@@ -992,18 +989,17 @@ _Discussions:
 [midir] to interact with the bevy game engine.
 
 It started out with [bevy_osc] as a
-proof-of-concept interfacing with
-[nannou_osc]
+proof-of-concept interfacing with [nannou_osc]
 and using other osc software to communicate with bevy.
 Soon, realizing that nannou_osc is not that different
-how you interfaces with midi, bevy_midi was born.
+from how you interface with midi, bevy_midi was born.
 
 Here is one of the examples which you can use a midi controller
 to play piano with [demo_audio].
 
-The plugins is still in its infancy.
+The plugin is still in its infancy.
 So it still has some performance issues, so
-any feedback and contributions is highly appreciated.
+any feedback and contributions are highly appreciated.
 
 [bevy_midi]: https://github.com/BlackPhlox/bevy_midi
 [bevy_osc]: https://github.com/BlackPhlox/bevy_osc
@@ -1019,13 +1015,13 @@ any feedback and contributions is highly appreciated.
 [bevy_config_cam] by [@BlackPhlox]
 is an all-in-one purpose camera/player controller for bevy.
 
-With focus on plug-and-play,flexibility and ease of use, this bevy plugin is
+With focus on plug-and-play, flexibility and ease of use, this bevy plugin is
 for anyone who is prototyping in 3D and doesn't want the hassle of programming
-a player-controller from scratch.Instantly switch between camera modes such as
+a player-controller from scratch. Instantly switch between camera modes such as
 Tracking to Topdown, Follow Behind, FPS and Free and more.
 
-The plugins is very new.
-So any feedback and contributions is highly appreciated.
+The plugin is very new.
+So any feedback and contributions are highly appreciated.
 
 [bevy_config_cam]: https://github.com/BlackPhlox/bevy_config_cam
 [@BlackPhlox]: https://github.com/BlackPhlox
@@ -1043,31 +1039,36 @@ improved a bit.
 
 [assets_manager]: https://github.com/a1phyr/assets_manager
 
-## Popular Workgroup Issues in Github
-
-<!-- Up to 10 links to interesting issues -->
-
-## Meeting Minutes
-
-<!-- Up to 10 most important notes + a link to the full details -->
-
-[See all meeting issues][label_meeting] including full text notes
-or [join the next meeting][join].
-
-[label_meeting]: https://github.com/rust-gamedev/wg/issues?q=label%3Ameeting
-
 ## Requests for Contribution
 
 <!-- Links to "good first issue"-labels or direct links to specific tasks -->
 
-## Jobs
+- [winit's "difficulty: easy" issues][embark-open-issues].
+- [Backroll-rs, a new networking library][backroll-rs].
+- [Embark's open issues][embark-open-issues] ([embark.rs]).
+- [wgpu-rs's "help wanted" issues][wgpu-issues].
+- [luminance's "low hanging fruit" issues][luminance-fruits].
+- [ggez's "good first issue" issues][ggez-issues].
+- [Veloren's "beginner" issues][veloren-beginner].
+- [Amethyst's "good first issue" issues][amethyst-issues].
+- [A/B Street's "good first issue" issues][abstreet-issues].
+- [Mun's "good first issue" issues][mun-issues].
+- [SIMple Mechanic's good first issues][simm-issues].
+- [Bevy's "good first issue" issues][bevy-issues].
 
-<!-- An optional section for new jobs related to Rust gamedev -->
-
-## Bonus
-
-<!-- Bonus section to make the newsletter more interesting
-and highlight events from the past. -->
+[winit-issues]: https://github.com/rust-windowing/winit/issues?q=is%3Aopen+is%3Aissue+label%3A%22difficulty%3A+easy%22
+[backroll-rs]: https://github.com/HouraiTeahouse/backroll-rs/issues
+[embark.rs]: https://embark.rs
+[embark-open-issues]: https://github.com/search?q=user:EmbarkStudios+state:open
+[wgpu-issues]: https://github.com/gfx-rs/wgpu/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
+[luminance-fruits]: https://github.com/phaazon/luminance-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22low+hanging+fruit%22
+[ggez-issues]: https://github.com/ggez/ggez/labels/%2AGOOD%20FIRST%20ISSUE%2A
+[veloren-beginner]: https://gitlab.com/veloren/veloren/issues?label_name=beginner
+[amethyst-issues]: https://github.com/amethyst/amethyst/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[abstreet-issues]: https://github.com/a-b-street/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
+[simm-issues]: https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue
+[bevy-issues]: https://github.com/bevyengine/bevy/labels/good%20first%20issue
 
 ------
 
