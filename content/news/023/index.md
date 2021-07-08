@@ -486,7 +486,7 @@ _Discussions:
 
 [thrustEngine]: https://github.com/experiment9123/thrustengine
 [free quake map demo]: https://vimeo.com/569777592
-[custom map demo]: https://vimeo.com/570798468
+[custom map demo]: https://vimeo.com/572436649
 
 ### [rg3d]
 
