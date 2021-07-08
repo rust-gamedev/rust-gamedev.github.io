@@ -1043,7 +1043,7 @@ improved a bit.
 
 <!-- Links to "good first issue"-labels or direct links to specific tasks -->
 
-- [winit's "difficulty: easy" issues][embark-open-issues].
+- [winit's "difficulty: easy" issues][winit-issues].
 - [Backroll-rs, a new networking library][backroll-rs].
 - [Embark's open issues][embark-open-issues] ([embark.rs]).
 - [wgpu-rs's "help wanted" issues][wgpu-issues].
