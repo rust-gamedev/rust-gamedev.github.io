@@ -1046,7 +1046,7 @@ improved a bit.
 - [winit's "difficulty: easy" issues][embark-open-issues].
 - [Backroll-rs, a new networking library][backroll-rs].
 - [Embark's open issues][embark-open-issues] ([embark.rs]).
-- [gfx-rs's "contributor-friendly" issues][gfx-issues].
+- [wgpu-rs's "help wanted" issues][wgpu-issues].
 - [luminance's "low hanging fruit" issues][luminance-fruits].
 - [ggez's "good first issue" issues][ggez-issues].
 - [Veloren's "beginner" issues][veloren-beginner].
@@ -1060,7 +1060,7 @@ improved a bit.
 [backroll-rs]: https://github.com/HouraiTeahouse/backroll-rs/issues
 [embark.rs]: https://embark.rs
 [embark-open-issues]: https://github.com/search?q=user:EmbarkStudios+state:open
-[gfx-issues]: https://github.com/gfx-rs/gfx/issues?q=is%3Aissue+is%3Aopen+label%3Acontributor-friendly
+[wgpu-issues]: https://github.com/gfx-rs/wgpu/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
 [luminance-fruits]: https://github.com/phaazon/luminance-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22low+hanging+fruit%22
 [ggez-issues]: https://github.com/ggez/ggez/labels/%2AGOOD%20FIRST%20ISSUE%2A
 [veloren-beginner]: https://gitlab.com/veloren/veloren/issues?label_name=beginner
