@@ -539,7 +539,7 @@ Additionally, the
 and a sample application written in [ggez](https://crates.io/crates/ggez).
 
 _Discussions:
-[/r/rust_gamedev](https://reddit.com/r/rust\_gamedev/comments/nx79kq/)_
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/nx79kq/)_
 
 [lineofsight]: https://basstabs.github.io/2d-line-of-sight/
 [@basstabs]: https://github.com/basstabs
