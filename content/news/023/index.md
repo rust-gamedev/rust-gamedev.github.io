@@ -422,6 +422,50 @@ _Discussions:
 
 [The Process]: https://twitter.com/PlayTheProcess
 
+### [Not Snake][not-snake]
+
+![cube map, low poly dog and giant snake](notsnake.png)
+
+[Not Snake][not-snake] is a snake game in 3D with a twist:
+you're the snake's food!
+
+Check out the web version on the [game's itch.io page][not-snake].
+
+[not-snake]: https://ramirezmike2.itch.io/not-snake
+
+### [Space:CAKES][cakes]
+
+![screenshot](cakes.png)
+
+[Space:CAKES][cakes] is a sliding, repeating and funky puzzler
+about reaching the delicious cupcake across your spaceship.
+Made for the GMTK Game Jam.
+
+> You play as a cute alien, who has a limited amount of steps.
+> He turns green when he can walk freely, but once he rans out of steps,
+> he becomes red and can only push on crates.
+> Luckily, some crates contain +1 or +2 steps for him,
+> as long as he can push one into a laser.
+
+[cakes]: https://noxim.itch.io/spacecakes
+
+### [sokoban-sokoban]
+
+![screenshot](sokoban-sokoban.png)
+
+[sokoban-sokoban] ([source code][sokoban-sokoban-src]) by [@trouv]
+is a sokoban-like puzzle game made in 48 hours for the GMTK 2021 game jam.
+
+> Somebody messed up the graveyard! You can fix it, but your movements
+> are joined together.
+> More specifically, the location of the gravestones in the level's movement
+> table determines which movements are joined to which.
+> When two movements are "joined", the associated input performs BOTH movements!
+
+[sokoban-sokoban]: https://trouv.itch.io/sokoban-sokoban
+[sokoban-sokoban-src]: https://github.com/Trouv/sokoban-sokoban
+[@trouv]: https://trouv.itch.io
+
 ## Engine Updates
 
 ### thRustEngine - with simple shooter game demo
