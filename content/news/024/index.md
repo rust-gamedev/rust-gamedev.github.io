@@ -67,6 +67,25 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Wicked Potions][wicked_potions]
+
+![Screenshot of the game](wicked_potions.png)
+_Match ingredients to brew wicked potions_
+
+[Wicked Potions][wicked_potions] is a match-three game developed by [@nikl_me] and [jennifervphan] for the [Bored Pixels Jam 8][bored-pixels-jam-8]. We wrote the game using the [Bevy game engine][bevy] and created all textures and audio.
+
+The main focus of the game during the one-week jam period were the assets. After the voting period, we will extend the game mechanics and story a bit more.
+
+[The code for the game is available on GitHub][wicked_potions_repo].
+
+
+[jennifervphan]: https://itch.io/profile/jennifervphan
+[bored-pixels-jam-8]: https://itch.io/jam/bored-pixels-jam-8
+[wicked_potions]: https://niklme.itch.io/wicked-potions
+[bevy]: https://github.com/bevyengine/bevy
+[@nikl_me]: https://twitter.com/nikl_me
+[wicked_potions_repo]: https://github.com/NiklasEi/wicked_potions
+
 ## Engine Updates
 
 ## Learning Material Updates
