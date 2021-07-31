@@ -67,17 +67,72 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Veloren][veloren]
+
+![Llama ride](veloren.png) _Out for a llama ride_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In July, work focused on larger tasks that tend to come up between versions.
+Optimizations were made for networking with compression, and message queue
+improvements ([devblog #127][veloren-127]). Modular weapons are in the works, which
+will allow for much more dynamic ways to choose what you fight with. The project
+also hit 300k lines of code.
+
+Many contributors are working on the art and asset front, with lots of new SFX,
+models, and UI elements making their way into the game. Caves are also getting a
+lot of love, and a bloom feature is being integrated. Some members broke down
+what they plan to have done by the 0.11 release at the beginning of September,
+and you can read about that in [devblog #130][veloren-130].
+
+July's full weekly devlogs: "This Week In Veloren...":
+[#127][veloren-127],
+[#128][veloren-128],
+[#129][veloren-129],
+[#130][veloren-130].
+
+[veloren]: https://veloren.net
+[veloren-127]: https://veloren.net/devblog-127
+[veloren-128]: https://veloren.net/devblog-128
+[veloren-129]: https://veloren.net/devblog-129
+[veloren-130]: https://veloren.net/devblog-130
+
+### [Harvest Hero Origins](https://store.steampowered.com/app/1651500/Harvest_Hero_Origins/)
+
+![hho_header](./hho_header.png)
+
+Harvest Hero Origins is an arcade wave defense game by [Gemdrop Games][gemdrop],
+built in Rust on top of [Emerald]. A [Steam][hho-steam] page has recently been
+made and the game is set to release sometime at the end of this summer.
+
+Battle the oncoming waves of enemies with a friend in local co-op, unlock
+new playable characters and skins, and make your way to the top of the
+leaderboard!
+
+Additionally, HHO will be at [PAXWest](https://west.paxsite.com/)
+this year, so come check out their booth
+if you'll be there!
+
+[gemdrop]: https://twitter.com/GemdropGames
+[hho-steam]: https://store.steampowered.com/app/1651500/Harvest_Hero_Origins/
+[Emerald]: https://github.com/Bombfuse/emerald
+
 ### [Wicked Potions][wicked_potions]
 
 ![Screenshot of the game](wicked_potions.png)
 _Match ingredients to brew wicked potions_
 
-[Wicked Potions][wicked_potions] is a match-three game developed by [@nikl_me] and [jennifervphan] for the [Bored Pixels Jam 8][bored-pixels-jam-8]. We wrote the game using the [Bevy game engine][bevy] and created all textures and audio.
+[Wicked Potions][wicked_potions] is a match-three game developed by
+[@nikl_me] and [jennifervphan] for the [Bored Pixels Jam 8][bored-pixels-jam-8].
+They wrote the game using the [Bevy game engine][bevy] and created all of the
+textures and audio.
 
-The main focus of the game during the one-week jam period were the assets. After the voting period, we will extend the game mechanics and story a bit more.
+The main focus of the game during the one-week jam period were the assets.
+After the voting period, the developers plan to extend the game mechanics
+and story a bit more.
 
 [The code for the game is available on GitHub][wicked_potions_repo].
-
 
 [jennifervphan]: https://itch.io/profile/jennifervphan
 [bored-pixels-jam-8]: https://itch.io/jam/bored-pixels-jam-8
@@ -87,6 +142,25 @@ The main focus of the game during the one-week jam period were the assets. After
 [wicked_potions_repo]: https://github.com/NiklasEi/wicked_potions
 
 ## Engine Updates
+
+### [Emerald]
+
+![Emerald logo](./em_logo.svg)
+
+[Emerald] is a 2D portable game engine aiming to export to every
+possible target: Windows, Linux, macOS, Android, iOS, Xbox,
+Playstation, Nintendo Switch.
+
+In addition to being portable, [Emerald] aims to be easy to use
+while providing quality features like built-in physics and
+Aseprite integration.
+
+If any of this sounds good to you, and you'd like to be a part of it,
+[Emerald] welcomes all contributors to help make an extremely portable
+game engine! Join them on their [Discord server][emerald-discord].
+
+[Emerald]: https://github.com/Bombfuse/emerald
+[emerald-discord]: https://discord.gg/NHsz38AhkD
 
 ## Learning Material Updates
 
