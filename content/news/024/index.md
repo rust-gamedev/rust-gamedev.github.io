@@ -76,7 +76,7 @@ Fortress and Cube World.
 
 In July, work focused on larger tasks that tend to come up between versions.
 Optimizations were made for networking with compression, and message queue
-improvements ([devblog #127](#127)). Modular weapons are in the works, which
+improvements ([devblog #127][veloren-127]). Modular weapons are in the works, which
 will allow for much more dynamic ways to choose what you fight with. The project
 also hit 300k lines of code.
 
@@ -84,7 +84,7 @@ Many contributors are working on the art and asset front, with lots of new SFX,
 models, and UI elements making their way into the game. Caves are also getting a
 lot of love, and a bloom feature is being integrated. Some members broke down
 what they plan to have done by the 0.11 release at the beginning of September,
-and you can read about that in [devblog #130](130).
+and you can read about that in [devblog #130][veloren-130].
 
 July's full weekly devlogs: "This Week In Veloren...":
 [#127][veloren-127],
