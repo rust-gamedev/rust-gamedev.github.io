@@ -80,7 +80,7 @@ new playable characters and skins, and make your way to the top of the
 leaderboard!
 
 Additionally, HHO will be at [PAXWest](https://west.paxsite.com/)
-this year, so come checkout our booth
+this year, so come check out their booth
 if you'll be there!
 
 [gemdrop]: https://twitter.com/GemdropGames
