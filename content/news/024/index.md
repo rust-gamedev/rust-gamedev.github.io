@@ -76,10 +76,11 @@ of [Emerald]. A [steam] page has recently been made and the game is
 set to release sometime at the end of this summer.
 
 Battle the oncoming waves of enemies with a friend in local co-op, unlock
-new playable characters and skins, and make your way to the top of the 
+new playable characters and skins, and make your way to the top of the
 leaderboard!
 
-Additionally, HHO will be at [PAXWest](https://west.paxsite.com/) this year, so come checkout our booth
+Additionally, HHO will be at [PAXWest](https://west.paxsite.com/)
+this year, so come checkout our booth
 if you'll be there!
 
 - [Steam](https://store.steampowered.com/app/1651500/Harvest_Hero_Origins/)
@@ -100,7 +101,7 @@ possible target: Windows, Linux, macOS, Android, iOS, Xbox,
 Playstation, Nintendo Switch.
 
 In addition to being portable, [Emerald] aims to be easy to use
-while providing quality features like built-in physics and 
+while providing quality features like built-in physics and
 Aseprite integration.
 
 If any of this sounds good to you, and you'd like to be a part of it,
