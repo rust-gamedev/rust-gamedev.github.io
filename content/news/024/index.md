@@ -75,6 +75,27 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library Updates
 
+### [discord-sdk]
+
+[discord-sdk] is an open source implementation of the [Discord Game SDK] by
+[Embark Studios](https://embark.dev).
+
+This month saw the release of the initial [`0.1.0`](https://github.com/EmbarkStudios/discord-sdk/blob/main/CHANGELOG.md#010---2021-07-21)
+(and [`0.1.1`](https://github.com/EmbarkStudios/discord-sdk/blob/main/CHANGELOG.md#011---2021-07-28))
+version of the crate, which implements initial support for:
+
+- [Activities](https://discord.com/developers/docs/game-sdk/activities)
+- [Lobbies](https://discord.com/developers/docs/game-sdk/lobbies)
+- [Overlay](https://discord.com/developers/docs/game-sdk/overlay)
+- [Relationships](https://discord.com/developers/docs/game-sdk/relationships)
+- [Users](https://discord.com/developers/docs/game-sdk/users)
+- Application registration (so your game can be launched by Discord)
+
+The API is still rough, but should be in a good enough state to try out!
+
+[discord-sdk]: https://github.com/EmbarkStudios/discord-sdk
+[Discord Game SDK]: https://discord.com/developers/docs/game-sdk/sdk-starter-guide
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
