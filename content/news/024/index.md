@@ -71,8 +71,8 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ![hho_header](./hho_header.png)
 
-Harvest Hero Origins is an arcade wave defense game, built in rust on top
-of [Emerald]. A [steam] page has recently been made and the game is
+Harvest Hero Origins is an arcade wave defense game, built in Rust on top
+of [Emerald]. A [Steam][hho-steam] page has recently been made and the game is
 set to release sometime at the end of this summer.
 
 Battle the oncoming waves of enemies with a friend in local co-op, unlock
@@ -83,18 +83,18 @@ Additionally, HHO will be at [PAXWest](https://west.paxsite.com/)
 this year, so come checkout our booth
 if you'll be there!
 
-- [Steam](https://store.steampowered.com/app/1651500/Harvest_Hero_Origins/)
+- [Steam][hho-steam]
 - [Twitter](https://twitter.com/GemdropGames)
 - [Emerald]
 
-[steam]: https://store.steampowered.com/app/1651500/Harvest_Hero_Origins/
+[hho-steam]: https://store.steampowered.com/app/1651500/Harvest_Hero_Origins/
 [Emerald]: https://github.com/Bombfuse/emerald
 
 ## Engine Updates
 
 ### [Emerald]
 
-![logo](./em_logo.svg)
+![Emerald logo](./em_logo.svg)
 
 [Emerald] is a 2d portable game engine aiming to export to every
 possible target: Windows, Linux, macOS, Android, iOS, Xbox,
@@ -109,10 +109,10 @@ If any of this sounds good to you, and you'd like to be a part of it,
 game engine!
 
 - [Github](https://github.com/Bombfuse/emerald)
-- [Discord]
+- [Discord][emerald-discord]
 
 [Emerald]: https://github.com/Bombfuse/emerald
-[Discord]: https://discord.gg/NHsz38AhkD
+[emerald-discord]: https://discord.gg/NHsz38AhkD
 
 ## Learning Material Updates
 
