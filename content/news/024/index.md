@@ -140,6 +140,19 @@ The API is still rough, but should be in a good enough state to try out!
 [discord-sdk]: https://github.com/EmbarkStudios/discord-sdk
 [Discord Game SDK]: https://discord.com/developers/docs/game-sdk/sdk-starter-guide
 
+### [Throne]
+
+![Throne](Throne.png)
+
+[Throne] is a new scripting language for game prototyping and story logic. The
+language is rule-based, which allows certain types of logic to be expressed more
+concisely than using an object-based language, while remaining fast to execute
+and easy to embed in an existing engine. Throne can be experimented with in the
+web [playground].
+
+[Throne]: https://github.com/t-mw/throne
+[playground]: https://t-mw.github.io/throne-playground/
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
