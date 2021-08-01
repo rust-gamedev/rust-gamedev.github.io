@@ -304,6 +304,23 @@ accumulate stories of wgpu users and their interesting projects.
 [Release of v0.9 and the Future of wgpu]: https://gfx-rs.github.io/2021/07/16/release-0.9-future.html
 [Franzplot]: https://gfx-rs.github.io/stories/franzplot.html
 
+### [GGRS]
+
+![GGRS](./ggrs_logo.png)
+
+[GGRS] by [@g_schup] is a reimagination of the [GGPO] P2P rollback network SDK
+written in 100% safe Rust.
+
+The freshly released version 0.4 comes with tons of fixes for P2P sessions with
+up to four players and any number of spectators. More importantly, the repository
+now features a [tutorial] and full game [examples] for every type of session.
+
+[GGRS]: https://github.com/gschup/ggrs
+[GGPO]: https://www.ggpo.net/
+[@g_schup]: https://twitter.com/g_schup
+[tutorial]: https://github.com/gschup/ggrs/blob/main/TUTORIAL.md
+[examples]: https://github.com/gschup/ggrs/tree/main/examples
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
