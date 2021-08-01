@@ -141,6 +141,58 @@ and story a bit more.
 [@nikl_me]: https://twitter.com/nikl_me
 [wicked_potions_repo]: https://github.com/NiklasEi/wicked_potions
 
+### [The Process]
+
+![Showcase image for the new inventory UI in The Process](the_process.gif)
+_The godot_egui backend powering a new inventory UI for The Process_
+
+[The Process] by @setzer22 is an upcoming game about factory building,
+process management, and carrot production,
+built with Rust using the Godot game engine!
+
+Continuing with last month's migration of old GDScript code to ECS in Rust, this
+month's main focus has been on porting the GUI code. This has resulted in
+the birth of a Godot integration for [egui](https://docs.rs/egui/) that now
+powers the game's interface.
+
+This month has seen the following changes and improvements:
+
+- Finished migration of character controller code to ECS style. Now with [300%
+  more jumps!](https://twitter.com/PlayTheProcess/status/1413081233396011012)
+- Implemented [better ambient
+  lighting](https://twitter.com/PlayTheProcess/status/1413943539160031246) and
+  enable using different skies for radiance and display. This required a [forked
+  godot version](https://github.com/setzer22/godot/tree/feature/cosmetic_sky).
+- Implement a [new inventory and
+  toolbar](https://twitter.com/PlayTheProcess/status/1417774452012724226)
+  interface using egui.
+- Integrated the [puffin
+  profiler](https://twitter.com/PlayTheProcess/status/1420277428199559174) into
+  the game using the godot_egui integration.
+
+[The Process]: https://twitter.com/PlayTheProcess
+
+### [Robo Instructus: 2 Years Old][robo-year]
+
+![game logo + OS logos](robo-os.jpg)
+
+Two years ago [Alex Butler] released the "[Robo Instructus][robo-site]" puzzle game
+on [Steam][robo-steam] & [itch.io][robo-itch].
+
+This month Alex released a devlog post ["Robo Instructus: 2 Years Old"][robo-year]
+about how well the game did in the last year:
+Sales by platform/country/OS, player feedback & reviews, etc.
+
+The game also continues to receive updates, the latest [1.33 version][robo-1-33]
+includes full 简体中文 & Español language support.
+
+[Alex Butler]: https://twitter.com/bigabgames
+[robo-site]: https://www.roboinstruct.us
+[robo-steam]: https://store.steampowered.com/app/1032170/Robo_Instructus
+[robo-itch]: https://bigabgames.itch.io/robo-instructus
+[robo-year]: https://blog.roboinstruct.us/2021/07/16/2-years-later.html
+[robo-1-33]: https://store.steampowered.com/news/app/1032170/view/2998819983294763294
+
 ## Engine Updates
 
 ### [Emerald]
@@ -201,6 +253,30 @@ web [playground].
 
 [Throne]: https://github.com/t-mw/throne
 [playground]: https://t-mw.github.io/throne-playground/
+
+### [godot_egui]
+
+![godot_egui](godot_egui.gif)
+
+[godot_egui] is an integration of the [egui](https://github.com/emilk/egui)
+crate for the Godot engine using Rust, enabling highly dynamic and performant
+user interfaces in an immediate-mode style in Godot.
+
+Godot has a great GUI system, so why use `godot_egui` instead? A more in-depth
+rationale can be found in the crate's README, but the main reason is to provide
+a GUI system for godot-rust games that is closer to Rust's data driven
+philosophy.
+
+Unlike other egui integrations, `godot_egui` has the special feature of being
+embedded as a custom Godot scene tree node. This effectively allows combining
+Godot's retained mode UI and container-based placement with the simplicity of
+immediate-mode style GUI code of `egui`, getting the best of both worlds.
+
+The [github repository](https://github.com/setzer22/godot-egui) has an example
+project and usage instructions to get you started with immediate-mode GUI
+programming with Godot and Rust!
+
+[godot_egui]: https://docs.rs/godot_egui/
 
 ### [wgpu]
 
