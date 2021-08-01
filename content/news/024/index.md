@@ -141,6 +141,27 @@ and story a bit more.
 [@nikl_me]: https://twitter.com/nikl_me
 [wicked_potions_repo]: https://github.com/NiklasEi/wicked_potions
 
+### [Robo Instructus: 2 Years Old][robo-year]
+
+![game logo + OS logos](robo-os.jpg)
+
+Two years ago [Alex Butler] released the "[Robo Instructus][robo-site]" puzzle game
+on [Steam][robo-steam] & [itch.io][robo-itch].
+
+This month Alex released a devlog post ["Robo Instructus: 2 Years Old"][robo-year]
+about how well the game did in the last year:
+Sales by platform/country/OS, player feedback & reviews, etc.
+
+The game also continues to receive updates, the latest [1.33 version][robo-1-33]
+includes full 简体中文 & Español language support.
+
+[Alex Butler]: https://twitter.com/bigabgames
+[robo-site]: https://www.roboinstruct.us
+[robo-steam]: https://store.steampowered.com/app/1032170/Robo_Instructus
+[robo-itch]: https://bigabgames.itch.io/robo-instructus
+[robo-year]: https://blog.roboinstruct.us/2021/07/16/2-years-later.html
+[robo-1-33]: https://store.steampowered.com/news/app/1032170/view/2998819983294763294
+
 ## Engine Updates
 
 ### [Emerald]
