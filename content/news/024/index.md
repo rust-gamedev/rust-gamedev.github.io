@@ -278,6 +278,32 @@ programming with Godot and Rust!
 
 [godot_egui]: https://docs.rs/godot_egui/
 
+### [wgpu]
+
+![Franzplot on wgpu](./franzplot_scene.gif)
+
+Following the [Family Reunion] initiative, [wgpu] team has been busy rebuilding
+the graphics infrastructure. The new D3D12 backend has been merged, which
+concludes the trip of moving (or rewriting?) all of the implementation into
+Rust. In addition to a "lean and mean" implementation of the host API side,
+which turned out to match the WebGPU API very well, the new backend works with
+[naga] exclusively for generation of HLSL shaders.
+This is in contrast with gfx-backend-dx12, which only supported SPIRV-Cross.
+
+The team also wrote the blog post [Release of v0.9 and the Future of wgpu].
+One of the interesting bits is `gfx` repository switching to
+maintenance mode.
+
+Last but not the least, Francesco Cattoglio described their adventure
+with rewriting [Franzplot] on a new blog hosted by the wgpu team. This blog will
+accumulate stories of wgpu users and their interesting projects.
+
+[wgpu]: https://github.com/gfx-rs/wgpu
+[naga]: https://github.com/gfx-rs/naga
+[Family Reunion]: https://gamedev.rs/news/023/#wgpu-family-re-union
+[Release of v0.9 and the Future of wgpu]: https://gfx-rs.github.io/2021/07/16/release-0.9-future.html
+[Franzplot]: https://gfx-rs.github.io/stories/franzplot.html
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
