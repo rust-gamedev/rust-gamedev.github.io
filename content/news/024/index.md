@@ -193,6 +193,33 @@ includes full 简体中文 & Español language support.
 [robo-year]: https://blog.roboinstruct.us/2021/07/16/2-years-later.html
 [robo-1-33]: https://store.steampowered.com/news/app/1032170/view/2998819983294763294
 
+### [Fish Fight][fish-fight]
+
+![New weapons](fishfight_weapons.png)
+
+Fish Fight is a continuation of the demo project known as Fish Game - made by
+the same team of people (@fedor_games & @erlend_sh), now operating as
+independents. Our goal is to make a published game written entirely in Rust and
+made as openly as possible.
+Hoping to go public with the open source repo within a month or so.
+
+Changes and improvements from the last month:
+
+- Loads of new weapons added:
+  - Mind-controlled Jellyfish
+  - Kick-bombs (bomberman-style)
+  - Cursed Skull
+  - Handcannon
+  - Gatling gun
+  - Sproingers
+  - Pirate Boots
+  - ..and more!
+- Whole new Environmentals system added for map-wide events (mass-shark attack
+  incoming!)
+- Physics doc & improvements
+
+[Twitter](https://twitter.com/fishfightgame)
+
 ## Engine Updates
 
 ### [Emerald]
