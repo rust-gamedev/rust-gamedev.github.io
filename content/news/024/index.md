@@ -214,12 +214,12 @@ which turned out to match the WebGPU API very well, the new backend works with
 [naga] exclusively for generation of HLSL shaders.
 This is in contrast with gfx-backend-dx12, which only supported SPIRV-Cross.
 
-The team wrote the blog post [Release of v0.9 and the Future of wgpu].
+The team also wrote the blog post [Release of v0.9 and the Future of wgpu].
 One of the interesting bits is `gfx` repository switching to
 maintenance mode.
 
-The last but not the least, Francesco Cattoglio described their adventure
-with rewriting [Franzplot] on a new blog hosted by wgpu team. This blog will
+Last but not the least, Francesco Cattoglio described their adventure
+with rewriting [Franzplot] on a new blog hosted by the wgpu team. This blog will
 accumulate stories of wgpu users and their interesting projects.
 
 [wgpu]: https://github.com/gfx-rs/wgpu
