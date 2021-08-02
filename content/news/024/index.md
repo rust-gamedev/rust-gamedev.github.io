@@ -242,6 +242,21 @@ game engine! Join them on their [Discord server][emerald-discord].
 [Emerald]: https://github.com/Bombfuse/emerald
 [emerald-discord]: https://discord.gg/NHsz38AhkD
 
+### [Starframe]
+
+![Demonstration of Starframe's new rope physics](starframe.gif)
+
+[Starframe] by [@moletrooper] is a work-in-progress game engine for physics-y
+sidescrolling 2D games.
+
+This month's noteworthy development was [particle-based ropes][sf-ropes-tweet]
+capable of full two-way coupling with rigid bodies, demonstrated above.
+Capsule-shaped colliders were also added.
+
+[starframe]: https://github.com/MoleTrooper/starframe/
+[@moletrooper]: https://twitter.com/moletrooper
+[sf-ropes-tweet]: https://twitter.com/moletrooper/status/1421204030441889792
+
 ## Learning Material Updates
 
 ## Tooling Updates
