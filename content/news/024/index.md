@@ -197,11 +197,12 @@ includes full 简体中文 & Español language support.
 
 ![New weapons](fishfight_weapons.png)
 
-Fish Fight is a continuation of the demo project known as Fish Game - made by
-the same team of people (@fedor_games & @erlend_sh), now operating as
-independents. Our goal is to make a published game written entirely in Rust and
-made as openly as possible.
-Hoping to go public with the open source repo within a month or so.
+Fish Fight ([Twitter][fish-fight]) is a continuation of the demo project
+known as Fish Game - made by the same team of people (@fedor_games and
+@erlend_sh), now operating as independents. Their goal is to make a
+published game, written entirely in Rust and developed as openly as
+possible. They are hoping to go public with the open source repo
+within a month or so.
 
 Changes and improvements from the last month:
 
@@ -218,7 +219,7 @@ Changes and improvements from the last month:
   incoming!)
 - Physics doc & improvements
 
-[Twitter](https://twitter.com/fishfightgame)
+[fish-fight]: https://twitter.com/fishfightgame
 
 ## Engine Updates
 
