@@ -321,7 +321,7 @@ dungeon crawler (roguelike) with tile graphics.
 Outside of the USA, Hands-on Rust is available through ["Amazon"][hands-on-amazon].
 
 Herbert also published the first ["Hands-on Rust bonus content"][hands-on-flappy].
-The bonus content extends Flappy Dragon to include smooth movement and 
+The bonus content extends Flappy Dragon to include smooth movement and
 animated sprites.
 
 [hands-on-rust]: https://pragprog.com/titles/hwrust/hands-on-rust/
