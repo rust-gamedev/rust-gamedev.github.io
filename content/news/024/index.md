@@ -65,7 +65,64 @@ _Discussions:
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
+## Rust GameDev Meetup
+
+![Gamedev meetup poster](gamedev-meetup.png)
+
+The seventh Rust Gamedev Meetup happened in July. You can watch the recording of
+the meetup [here on Youtube][gamedev-meetup-video]. The meetups take place on
+the second Saturday every month via the [Rust Gamedev Discord
+server][rust-gamedev-discord], and are also [streamed on
+Twitch][rust-gamedev-twitch]. If you would like to show off what you've been
+working on at the next meetup on [August 14th][rust-meetup-august-time], fill
+out [this form][gamedev-meetup-form].
+
+[gamedev-meetup-form]: https://forms.gle/BS1zCyZaiUFSUHxe6
+[gamedev-meetup-video]: https://www.youtube.com/watch?v=0cefGQyZXH4
+[rust-gamedev-discord]: https://discord.gg/yNtPTb2
+[rust-gamedev-twitch]: https://twitch.tv/rustgamedevmeetup
+[rust-meetup-august-time]: https://everytimezone.com/s/391b6160
+
 ## Game Updates
+
+### [Shroom Kingdom][shroom-kingdom]
+
+![Shroom Kingdom Asset Extractor](shroom-kingdom.gif)
+_Extracting the game assets_
+
+Shroom Kingdom ([GitHub][shrm-github], [Discord][shrm-discord], [Twitter][shrm-twitter])
+is an upcoming play-to-earn video game built with web technologies
+running on the [NEAR Blockchain][near-blockchain].
+In a recent [blog post][shrm-blog] you can read the motivation behind this.
+
+You can play with your favorite plumber brothers.
+Build your own levels or play levels from others.
+Every level built on Shroom Kingdom is stored
+on the blockchain as an NFT.
+
+By playing the game you can either actively earn SHRM tokens via participating
+in game activities or earn them passively, if other people play or like your levels.
+The SHRM token will be used to acquire in-game purchases such as unlocking new
+building blocks or increasing level upload limits.
+
+You can either extract existing assets from Super Mario Maker 2 or use
+compatible game mod files from e.g. [Gamebanana][gamebanana].
+The asset extractor is already working, but support for more file types
+needs to be added.
+
+The game will likely be built with [Bevy][bevy]
+and [Rapier][rapier] compiled to WebAssembly.
+Next steps include developing a Proof of Concept.
+
+[shroom-kingdom]: https://shroomkingdom.net/
+[shrm-github]: https://github.com/Shroom-Kingdom
+[shrm-discord]: https://discord.gg/SPZsgSe
+[shrm-twitter]: https://twitter.com/shrm_kingdom
+[shrm-blog]: https://net64-mod.github.io/blog/shroom-kingdom/
+[near-blockchain]: https://near.org
+[gamebanana]: https://gamebanana.com/
+[bevy]: https://bevyengine.org/
+[rapier]: https://rapier.rs/
 
 ### [Veloren][veloren]
 
@@ -287,6 +344,30 @@ The API is still rough, but should be in a good enough state to try out!
 
 [discord-sdk]: https://github.com/EmbarkStudios/discord-sdk
 [Discord Game SDK]: https://discord.com/developers/docs/game-sdk/sdk-starter-guide
+
+### [rkyv]
+
+[rkyv] is a zero-copy deserialization framework for Rust. It's an alternative
+to serde that makes it easy to quickly and safely load data into memory.
+
+This month, rkyv 0.7 was released with many new features:
+
+- [Endian-agnostic serialization][rkyv_rend]
+- [Greatly improved performance][rust_serde_bench]
+- Enhanced `no_std` support
+- [Wrapper types][rkyv_wrapper_types]
+- [A new `BTreeMap` implementation][rkyv_btree_map]
+- Reduced dependencies
+- Support for some common external crates
+
+The full changelog can be found on the [release page][rkyv_0.7].
+
+[rkyv]: https://github.com/rkyv/rkyv
+[rkyv_rend]: https://github.com/rkyv/rend
+[rust_serde_bench]: https://github.com/djkoloski/rust_serialization_benchmark
+[rkyv_wrapper_types]: https://docs.rs/rkyv/0.7.4/rkyv/with/index.html
+[rkyv_btree_map]: https://docs.rs/rkyv/0.7.4/rkyv/collections/btree_map/index.html
+[rkyv_0.7]: https://github.com/rkyv/rkyv/releases/tag/v0.7.0
 
 ### [Throne]
 
