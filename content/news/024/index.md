@@ -72,7 +72,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ![Shroom Kingdom Asset Extractor](shroom-kingdom.gif)
 _Extracting the game assets_
 
-Shroom Kingdom ([GitHub][shrom-github], [Discord][shrm-discord], [Twitter][shrm-twitter])
+Shroom Kingdom ([GitHub][shrm-github], [Discord][shrm-discord], [Twitter][shrm-twitter])
 is an upcoming play-to-earn video game built with web technologies
 running on the [NEAR Blockchain][near-blockchain].
 In a recent [blog post][shrm-blog] you can read the motivation behind this.
