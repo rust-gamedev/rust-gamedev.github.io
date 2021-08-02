@@ -67,6 +67,45 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Shroom Kingdom][shroom-kingdom]
+
+![Shroom Kingdom Asset Extractor](shroom-kingdom.gif)
+_Extracting the game assets_
+
+Shroom Kingdom ([GitHub][shrm-github], [Discord][shrm-discord], [Twitter][shrm-twitter])
+is an upcoming play-to-earn video game built with web technologies
+running on the [NEAR Blockchain][near-blockchain].
+In a recent [blog post][shrm-blog] you can read the motivation behind this.
+
+You can play with your favorite plumber brothers.
+Build your own levels or play levels from others.
+Every level built on Shroom Kingdom is stored
+on the blockchain as an NFT.
+
+By playing the game you can either actively earn SHRM tokens via participating
+in game activities or earn them passively, if other people play or like your levels.
+The SHRM token will be used to acquire in-game purchases such as unlocking new
+building blocks or increasing level upload limits.
+
+You can either extract existing assets from Super Mario Maker 2 or use
+compatible game mod files from e.g. [Gamebanana][gamebanana].
+The asset extractor is already working, but support for more file types
+needs to be added.
+
+The game will likely be built with [Bevy][bevy]
+and [Rapier][rapier] compiled to WebAssembly.
+Next steps include developing a Proof of Concept.
+
+[shroom-kingdom]: https://shroomkingdom.net/
+[shrm-github]: https://github.com/Shroom-Kingdom
+[shrm-discord]: https://discord.gg/SPZsgSe
+[shrm-twitter]: https://twitter.com/shrm_kingdom
+[shrm-blog]: https://net64-mod.github.io/blog/shroom-kingdom/
+[near-blockchain]: https://near.org
+[gamebanana]: https://gamebanana.com/
+[bevy]: https://bevyengine.org/
+[rapier]: https://rapier.rs/
+
 ### [Veloren][veloren]
 
 ![Llama ride](veloren.png) _Out for a llama ride_
