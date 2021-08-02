@@ -318,11 +318,11 @@ language basics. Then you put these together to make "Flappy Dragon" - a
 simple Flappy Bird clone. The book then changes gear and begins to build a
 dungeon crawler (roguelike) with tile graphics.
 
-Outside of the USA, Hands-on Rust is available through [hands-on-amazon].
+Outside of the USA, Hands-on Rust is available through ["Amazon"][hands-on-amazon].
 
-Herbert also published the first Hands-on Rust bonus content,
-[hands-on-flappy]. The bonus content extends Flappy Dragon to include smooth
-movement and animates sprites.
+Herbert also published the first ["Hands-on Rust bonus content"][hands-on-flappy].
+The bonus content extends Flappy Dragon to include smooth movement and 
+animated sprites.
 
 [hands-on-rust]: https://pragprog.com/titles/hwrust/hands-on-rust/
 [hands-on-amazon]: https://www.amazon.com/dp/1680508164
