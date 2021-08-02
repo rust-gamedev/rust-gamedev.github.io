@@ -269,6 +269,30 @@ The API is still rough, but should be in a good enough state to try out!
 [discord-sdk]: https://github.com/EmbarkStudios/discord-sdk
 [Discord Game SDK]: https://discord.com/developers/docs/game-sdk/sdk-starter-guide
 
+### [rkyv]
+
+[rkyv] is a zero-copy deserialization framework for Rust. It's an alternative
+to serde that makes it easy to quickly and safely load data into memory.
+
+This month, rkyv 0.7 was released with many new features:
+
+- [Endian-agnostic serialization][rkyv_rend]
+- [Greatly improved performance][rust_serde_bench]
+- Enhanced `no_std` support
+- [Wrapper types][rkyv_wrapper_types]
+- [A new `BTreeMap` implementation][rkyv_btree_map]
+- Reduced dependencies
+- Support for some common external crates
+
+The full changelog can be found on the [release page][rkyv_0.7].
+
+[rkyv]: https://github.com/rkyv/rkyv
+[rkyv_rend]: https://github.com/rkyv/rend
+[rust_serde_bench]: https://github.com/djkoloski/rust_serialization_benchmark
+[rkyv_wrapper_types]: https://docs.rs/rkyv/0.7.4/rkyv/with/index.html
+[rkyv_btree_map]: https://docs.rs/rkyv/0.7.4/rkyv/collections/btree_map/index.html
+[rkyv_0.7]: https://github.com/rkyv/rkyv/releases/tag/v0.7.0
+
 ### [Throne]
 
 ![Throne](Throne.png)
