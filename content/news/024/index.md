@@ -301,6 +301,33 @@ game engine! Join them on their [Discord server][emerald-discord].
 
 ## Learning Material Updates
 
+### [Hands-on Rust][hands-on-rust]
+
+[![Hands-On Rust](hands-on-rust-live.jpg)][hands-on-rust]
+
+["Hands-on Rust: Effective Learning through 2D Game Development and Play"][hands-on-rust]
+by Herbert Wolverson is now in print, as a full color paperback and ebook.
+The book teaches Rust through game development examples, and is targeted at
+readers who have some experience with writing code in other languages. It
+teaches beginner to intermediate-level Rust. Hands-on Rust also teaches
+high-level game development concepts, notably Entity-Component System (ECS)
+theory.
+
+After walking you through installing Rust, a few simple examples teach the
+language basics. Then you put these together to make "Flappy Dragon" - a
+simple Flappy Bird clone. The book then changes gear and begins to build a
+dungeon crawler (roguelike) with tile graphics.
+
+Outside of the USA, Hands-on Rust is available through [Amazon][hands-on-amazon].
+
+Herbert also published the first ["Hands-on Rust bonus content"][hands-on-flappy].
+The bonus content extends Flappy Dragon to include smooth movement and
+animated sprites.
+
+[hands-on-rust]: https://pragprog.com/titles/hwrust/hands-on-rust/
+[hands-on-amazon]: https://www.amazon.com/dp/1680508164
+[hands-on-flappy]: https://medium.com/pragmatic-programmers/flappy-dragon-rust-647e91a34dd4
+
 ## Tooling Updates
 
 ## Library Updates
