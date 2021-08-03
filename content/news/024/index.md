@@ -280,25 +280,6 @@ Changes and improvements from the last month:
 
 ## Engine Updates
 
-### [Emerald]
-
-![Emerald logo](./em_logo.svg)
-
-[Emerald] is a 2D portable game engine aiming to export to every
-possible target: Windows, Linux, macOS, Android, iOS, Xbox,
-Playstation, Nintendo Switch.
-
-In addition to being portable, [Emerald] aims to be easy to use
-while providing quality features like built-in physics and
-Aseprite integration.
-
-If any of this sounds good to you, and you'd like to be a part of it,
-[Emerald] welcomes all contributors to help make an extremely portable
-game engine! Join them on their [Discord server][emerald-discord].
-
-[Emerald]: https://github.com/Bombfuse/emerald
-[emerald-discord]: https://discord.gg/NHsz38AhkD
-
 ### [ggez]
 
 ![ggez logo](../005/ggez-logo-maroon-full.svg)
@@ -323,7 +304,68 @@ issue](https://github.com/ggez/ggez/issues/875).
 
 [ggez]: https://github.com/ggez
 
+### [Emerald]
+
+![Emerald logo](./em_logo.svg)
+
+[Emerald] is a 2D portable game engine aiming to export to every
+possible target: Windows, Linux, macOS, Android, iOS, Xbox,
+Playstation, Nintendo Switch.
+
+In addition to being portable, [Emerald] aims to be easy to use
+while providing quality features like built-in physics and
+Aseprite integration.
+
+If any of this sounds good to you, and you'd like to be a part of it,
+[Emerald] welcomes all contributors to help make an extremely portable
+game engine! Join them on their [Discord server][emerald-discord].
+
+[Emerald]: https://github.com/Bombfuse/emerald
+[emerald-discord]: https://discord.gg/NHsz38AhkD
+
+### [Starframe]
+
+![Demonstration of Starframe's new rope physics](starframe.gif)
+
+[Starframe] by [@moletrooper] is a work-in-progress game engine for physics-y
+sidescrolling 2D games.
+
+This month's noteworthy development was [particle-based ropes][sf-ropes-tweet]
+capable of full two-way coupling with rigid bodies, demonstrated above.
+Capsule-shaped colliders were also added.
+
+[starframe]: https://github.com/MoleTrooper/starframe/
+[@moletrooper]: https://twitter.com/moletrooper
+[sf-ropes-tweet]: https://twitter.com/moletrooper/status/1421204030441889792
+
 ## Learning Material Updates
+
+### [Hands-on Rust][hands-on-rust]
+
+[![Hands-On Rust](hands-on-rust-live.jpg)][hands-on-rust]
+
+["Hands-on Rust: Effective Learning through 2D Game Development and Play"][hands-on-rust]
+by Herbert Wolverson is now in print, as a full color paperback and ebook.
+The book teaches Rust through game development examples, and is targeted at
+readers who have some experience with writing code in other languages. It
+teaches beginner to intermediate-level Rust. Hands-on Rust also teaches
+high-level game development concepts, notably Entity-Component System (ECS)
+theory.
+
+After walking you through installing Rust, a few simple examples teach the
+language basics. Then you put these together to make "Flappy Dragon" - a
+simple Flappy Bird clone. The book then changes gear and begins to build a
+dungeon crawler (roguelike) with tile graphics.
+
+Outside of the USA, Hands-on Rust is available through [Amazon][hands-on-amazon].
+
+Herbert also published the first ["Hands-on Rust bonus content"][hands-on-flappy].
+The bonus content extends Flappy Dragon to include smooth movement and
+animated sprites.
+
+[hands-on-rust]: https://pragprog.com/titles/hwrust/hands-on-rust/
+[hands-on-amazon]: https://www.amazon.com/dp/1680508164
+[hands-on-flappy]: https://medium.com/pragmatic-programmers/flappy-dragon-rust-647e91a34dd4
 
 ## Tooling Updates
 
