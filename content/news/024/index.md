@@ -299,6 +299,28 @@ game engine! Join them on their [Discord server][emerald-discord].
 [Emerald]: https://github.com/Bombfuse/emerald
 [emerald-discord]: https://discord.gg/NHsz38AhkD
 
+### [ggez]
+
+![ggez logo](../005/ggez-logo-maroon-full.svg)
+
+`ggez` 0.6 has been released!  `ggez` is a lightweight cross-platform
+game framework for making 2D games with minimum friction, with an API
+inspired by Love2D.
+
+This release includes many additions, improvements, and bug fixes,
+including a `MeshBatch` type for drawing many instances of the same
+geometry, improvements to canvas drawing, updated `winit` dependencies
+that function more smoothly on Linux under Wayland, better error
+handling, and more.  The whole changelog is available
+[here](https://github.com/ggez/ggez/blob/0.6.0/CHANGELOG.md).
+
+More importantly, `ggez` is now maintained by a group of volunteers,
+with the original maintainer stepping down from active development after
+over four years.  The new maintainers are mostly responsible for the 0.6
+release, and will hopefully be bringing good ideas and tech to the
+library for years to come.  For details, see [this github
+issue](https://github.com/ggez/ggez/issues/875).
+
 ## Learning Material Updates
 
 ## Tooling Updates
