@@ -321,6 +321,8 @@ release, and will hopefully be bringing good ideas and tech to the
 library for years to come.  For details, see [this github
 issue](https://github.com/ggez/ggez/issues/875).
 
+[ggez]: https://github.com/ggez
+
 ## Learning Material Updates
 
 ## Tooling Updates
