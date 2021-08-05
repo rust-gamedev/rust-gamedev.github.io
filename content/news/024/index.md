@@ -509,8 +509,8 @@ This month saw the initial
 release of the project, as well as announcement blog posts from project
 co-founders [Embark Studios] and [Google Cloud]:
 
-* [Embark Studios: Say hi to Quilkin, an open-source UDP proxy][embark-announce]
-* [Google Cloud: Introducing Quilkin: open-source UDP proxies built for game server communication][gcp-announce]
+- [Embark Studios: Say hi to Quilkin, an open-source UDP proxy][embark-announce]
+- [Google Cloud: Introducing Quilkin: open-source UDP proxies built for game server communication][gcp-announce]
 
 Quilkin is being actively developed and would love contributors and feedback.
 Please join the [Discord](https://discord.gg/mfBNZjBDnc),
