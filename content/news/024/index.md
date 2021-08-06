@@ -496,6 +496,46 @@ now features a [tutorial] and full game [examples] for every type of session.
 [tutorial]: https://github.com/gschup/ggrs/blob/main/TUTORIAL.md
 [examples]: https://github.com/gschup/ggrs/tree/main/examples
 
+### [Bevy Retrograde][bevy_retrograde]
+
+![physics example](./bevy-retrograde.gif)
+_Bevy Retrograde Physics Map example_
+
+[Bevy Retrograde][bevy_retrograde] (formerly Bevy Retro) is a [Bevy] plugin
+designed for making pixel-perfect games as easily as possible.
+
+This project was released under the [Katharos License][katharos_license]. This
+license has moral and ethical implications that you may or may not agree with,
+so please read it before making use of this project.
+
+In the last two months, Bevy Retrograde has gotten a major update and is also on
+crates.io for the first time!
+
+- The transform system was migrated to use Bevy's own transform system.
+- The pixel-perfect alignment restriction can now be optionally disabled on a
+  per-sprite basis. This makes it possible to do smooth character and projectile
+  movement if desired.
+- The [Heron] physics engine ( which is powered by Rapier ) was integrated, with
+  a custom extension for automatically creating collision shapes from sprite
+  outlines.
+- It was decided to start work on migrating Bevy Retrograde to use Bevy's own
+  rendering abstraction, making it compatible with the larger Bevy rendering
+  ecosystem. This will hopefully be finished in the next release.
+
+More information can be found in the Bevy Retrograde
+[release notes][bevy_retrograde_release_notes].
+
+You can ask questions or give feedback for Bevy Retrograde
+[on GitHub][bevy_retrograde_discussions].
+
+[Heron]: https://github.com/jcornaz/heron
+[bounty_bros_blog_post]: https://katharostech.com/post/bounty-bros-update-4-physics-damage-pathfinding
+[bevy_retrograde_release_notes]: https://github.com/katharostech/bevy_retrograde/releases/tag/v0.2.0
+[bevy_retrograde]: https://github.com/katharostech/bevy_retro
+[Bevy]: https://bevyengine.org
+[katharos_license]: https://github.com/katharostech/katharos-license
+[bevy_retrograde_discussions]: https://github.com/katharostech/bevy_retro/discussions
+
 ### [Quilkin]
 
 ![Quilkin](quilkin.png)
