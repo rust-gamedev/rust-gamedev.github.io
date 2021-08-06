@@ -496,6 +496,33 @@ now features a [tutorial] and full game [examples] for every type of session.
 [tutorial]: https://github.com/gschup/ggrs/blob/main/TUTORIAL.md
 [examples]: https://github.com/gschup/ggrs/tree/main/examples
 
+### [Quilkin]
+
+![Quilkin](quilkin.png)
+
+[Quilkin] is a non-transparent UDP proxy specifically designed for use with
+large scale multiplayer dedicated game server deployments, to ensure security,
+access control, telemetry data, metrics and more.
+
+This month saw the initial
+[0.1.0](https://github.com/googleforgames/quilkin/releases/tag/v0.1.0)
+release of the project, as well as announcement blog posts from project
+co-founders [Embark Studios] and [Google Cloud]:
+
+- [Embark Studios: Say hi to Quilkin, an open-source UDP proxy][embark-announce]
+- [Google Cloud: Introducing Quilkin: open-source UDP proxies built for game server communication][gcp-announce]
+
+Quilkin is being actively developed and would love contributors and feedback.
+Please join the [Discord](https://discord.gg/mfBNZjBDnc),
+[mailing list](https://groups.google.com/forum/#!forum/quilkin-discuss) or
+follow the project on [Twitter](https://twitter.com/quilkindev).
+
+[Quilkin]: https://github.com/googleforgames/quilkin
+[Google Cloud]: http://cloud.google.com/gaming
+[Embark Studios]:(https://embark.dev)
+[embark-announce]: https://medium.com/embarkstudios/say-hi-to-quilkin-an-open-source-udp-proxy-88577c795204
+[gcp-announce]: https://cloud.google.com/blog/products/gaming/introducing-quilkin
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
