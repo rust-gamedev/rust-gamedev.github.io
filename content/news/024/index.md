@@ -280,6 +280,30 @@ Changes and improvements from the last month:
 
 ## Engine Updates
 
+### [ggez]
+
+![ggez logo](../005/ggez-logo-maroon-full.svg)
+
+`ggez` 0.6 has been released!  `ggez` is a lightweight cross-platform
+game framework for making 2D games with minimum friction, with an API
+inspired by Love2D.
+
+This release includes many additions, improvements, and bug fixes,
+including a `MeshBatch` type for drawing many instances of the same
+geometry, improvements to canvas drawing, updated `winit` dependencies
+that function more smoothly on Linux under Wayland, better error
+handling, and more.  The whole changelog is available
+[here](https://github.com/ggez/ggez/blob/0.6.0/CHANGELOG.md).
+
+More importantly, `ggez` is now maintained by a group of volunteers,
+with the original maintainer stepping down from active development after
+over four years.  The new maintainers are mostly responsible for the 0.6
+release, and will hopefully be bringing good ideas and tech to the
+library for years to come.  For details, see [this github
+issue](https://github.com/ggez/ggez/issues/875).
+
+[ggez]: https://github.com/ggez
+
 ### [Emerald]
 
 ![Emerald logo](./em_logo.svg)
@@ -299,7 +323,49 @@ game engine! Join them on their [Discord server][emerald-discord].
 [Emerald]: https://github.com/Bombfuse/emerald
 [emerald-discord]: https://discord.gg/NHsz38AhkD
 
+### [Starframe]
+
+![Demonstration of Starframe's new rope physics](starframe.gif)
+
+[Starframe] by [@moletrooper] is a work-in-progress game engine for physics-y
+sidescrolling 2D games.
+
+This month's noteworthy development was [particle-based ropes][sf-ropes-tweet]
+capable of full two-way coupling with rigid bodies, demonstrated above.
+Capsule-shaped colliders were also added.
+
+[starframe]: https://github.com/MoleTrooper/starframe/
+[@moletrooper]: https://twitter.com/moletrooper
+[sf-ropes-tweet]: https://twitter.com/moletrooper/status/1421204030441889792
+
 ## Learning Material Updates
+
+### [Hands-on Rust][hands-on-rust]
+
+[![Hands-On Rust](hands-on-rust-live.jpg)][hands-on-rust]
+
+["Hands-on Rust: Effective Learning through 2D Game Development and Play"][hands-on-rust]
+by Herbert Wolverson is now in print, as a full color paperback and ebook.
+The book teaches Rust through game development examples, and is targeted at
+readers who have some experience with writing code in other languages. It
+teaches beginner to intermediate-level Rust. Hands-on Rust also teaches
+high-level game development concepts, notably Entity-Component System (ECS)
+theory.
+
+After walking you through installing Rust, a few simple examples teach the
+language basics. Then you put these together to make "Flappy Dragon" - a
+simple Flappy Bird clone. The book then changes gear and begins to build a
+dungeon crawler (roguelike) with tile graphics.
+
+Outside of the USA, Hands-on Rust is available through [Amazon][hands-on-amazon].
+
+Herbert also published the first ["Hands-on Rust bonus content"][hands-on-flappy].
+The bonus content extends Flappy Dragon to include smooth movement and
+animated sprites.
+
+[hands-on-rust]: https://pragprog.com/titles/hwrust/hands-on-rust/
+[hands-on-amazon]: https://www.amazon.com/dp/1680508164
+[hands-on-flappy]: https://medium.com/pragmatic-programmers/flappy-dragon-rust-647e91a34dd4
 
 ## Tooling Updates
 
@@ -435,7 +501,7 @@ now features a [tutorial] and full game [examples] for every type of session.
 ![physics example](./bevy-retrograde.gif)
 _Bevy Retrograde Physics Map example_
 
-[Bevy Retrograde][bevy_retrograde] ( formerly Bevy Retro ) is a [Bevy] plugin
+[Bevy Retrograde][bevy_retrograde] (formerly Bevy Retro) is a [Bevy] plugin
 designed for making pixel-perfect games as easily as possible.
 
 This project was released under the [Katharos License][katharos_license]. This
@@ -469,6 +535,33 @@ You can ask questions or give feedback for Bevy Retrograde
 [Bevy]: https://bevyengine.org
 [katharos_license]: https://github.com/katharostech/katharos-license
 [bevy_retrograde_discussions]: https://github.com/katharostech/bevy_retro/discussions
+
+### [Quilkin]
+
+![Quilkin](quilkin.png)
+
+[Quilkin] is a non-transparent UDP proxy specifically designed for use with
+large scale multiplayer dedicated game server deployments, to ensure security,
+access control, telemetry data, metrics and more.
+
+This month saw the initial
+[0.1.0](https://github.com/googleforgames/quilkin/releases/tag/v0.1.0)
+release of the project, as well as announcement blog posts from project
+co-founders [Embark Studios] and [Google Cloud]:
+
+- [Embark Studios: Say hi to Quilkin, an open-source UDP proxy][embark-announce]
+- [Google Cloud: Introducing Quilkin: open-source UDP proxies built for game server communication][gcp-announce]
+
+Quilkin is being actively developed and would love contributors and feedback.
+Please join the [Discord](https://discord.gg/mfBNZjBDnc),
+[mailing list](https://groups.google.com/forum/#!forum/quilkin-discuss) or
+follow the project on [Twitter](https://twitter.com/quilkindev).
+
+[Quilkin]: https://github.com/googleforgames/quilkin
+[Google Cloud]: http://cloud.google.com/gaming
+[Embark Studios]:(https://embark.dev)
+[embark-announce]: https://medium.com/embarkstudios/say-hi-to-quilkin-an-open-source-udp-proxy-88577c795204
+[gcp-announce]: https://cloud.google.com/blog/products/gaming/introducing-quilkin
 
 ## Popular Workgroup Issues in Github
 
