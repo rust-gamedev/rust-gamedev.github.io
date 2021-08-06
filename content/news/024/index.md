@@ -278,6 +278,32 @@ Changes and improvements from the last month:
 
 [fish-fight]: https://twitter.com/fishfightgame
 
+### [Bounty Bros.][bounty_bros]
+
+[![bounty-bros-title-screen](bounty-bros.jpg)][bounty_bros_webgame]
+_Click the image to play the game in your browser!_
+
+[Bounty Bros.][bounty_bros] is a prototype, top-down adventure game, developed
+by [Katharos Technology][katharostech] as a testing ground for a future
+commercial game.
+
+The last two months of development added lots of new features:
+
+- Integrated a new physics system and character controller that allows for smoother
+  character movement.
+- Added a new damage system and made cactuses hurt the player.
+- Added a life bar and a game over screen.
+- Added a pause menu and a fullscreen button.
+- Started work on enemy pathfinding.
+
+All the new features can be tested in the latest [web demo][bounty_bros_webgame],
+and the [blog post][bounty_bros] has the full details of what's new and what's
+coming next!
+
+[bounty_bros]: https://katharostech.com/post/bounty-bros-update-4-physics-damage-pathfinding
+[bounty_bros_webgame]: https://katharostech.github.io/skipngo_pre-releases/refs/tags/pre-release-2/?asset_url=https://katharostech.github.io/bounty-bros_pre-releases/2
+[katharostech]: https://katharostech.com
+
 ## Engine Updates
 
 ### [ggez]
