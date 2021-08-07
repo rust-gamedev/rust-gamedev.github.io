@@ -393,6 +393,15 @@ animated sprites.
 [hands-on-amazon]: https://www.amazon.com/dp/1680508164
 [hands-on-flappy]: https://medium.com/pragmatic-programmers/flappy-dragon-rust-647e91a34dd4
 
+### [Writing an RPG using rg3d][writing-an-rpg-using-rg3d]
+
+Dimitry Stepanov (aka @mrDIMAS) published a tutorial series about
+making an RPG in Rust using the rg3d game engine. In part one of the series,
+he builds a character controller from scratch. While that may not sound very exciting,
+it's still a great way to learn the basics of rg3d and Rust gamedev in general!
+
+[writing-an-rpg-using-rg3d]: https://rg3d.rs/tutorials/2021/07/09/rpg-tutorial1.html
+
 ## Tooling Updates
 
 ## Library Updates
