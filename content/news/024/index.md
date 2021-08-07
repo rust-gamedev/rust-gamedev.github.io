@@ -591,10 +591,10 @@ follow the project on [Twitter](https://twitter.com/quilkindev).
 
 ### [Asset handling in Bevy apps][asset_handling_post]
 
-[@nikl_me] wrote a [blog post][asset_handling_post] about creating [bevy_asset_loader], 
-a plugin to simplify asset handling in [Bevy][bevy] applications.
-The post outlines how bevy_asset_loader can be used and discusses
-future improvements to the crate.
+[@nikl_me] wrote a [blog post][asset_handling_post] about creating
+[bevy_asset_loader], a plugin to simplify asset handling in [Bevy][bevy]
+applications. The post outlines how bevy_asset_loader can be used and
+discusses future improvements to the crate.
 
 [asset_handling_post]: https://www.nikl.me/blog/2021/asset-handling-in-bevy-apps/
 [bevy_asset_loader]: https://github.com/NiklasEi/bevy_asset_loader
