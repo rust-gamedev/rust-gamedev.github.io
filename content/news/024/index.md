@@ -349,6 +349,37 @@ game engine! Join them on their [Discord server][emerald-discord].
 [Emerald]: https://github.com/Bombfuse/emerald
 [emerald-discord]: https://discord.gg/NHsz38AhkD
 
+### [Graphite][graphite-repo]
+
+![Graphite logo](graphite_scream.png)
+_A recreation of "The Scream" in Graphite by Norgate_
+
+Graphite ([GitHub][graphite-repo], [Discord][graphite-discord],
+[Twitter](https://twitter.com/GraphiteEditor)) is an in-development vector and
+raster graphics editor built on a non-destructive node-based workflow.
+
+In the past month, the editor has gained numerous vector editing features,
+including moving layers with the keyboard or mouse, filling and copying colors,
+flipping and aligning selected layers, and setting blend modes and layer
+opacity.
+
+Scrollbars, rulers, and thumbnails are now functional. Full screen support has
+been added, along with a hotkey to center the artwork. An options bar with
+tool-specific settings and actions has been implemented, currently allowing
+the number of sides of a polygon to be selected. The order of layers can now be
+changed using hotkeys.
+
+[Try it right now in your browser.][graphite-live-demo] Graphite is making
+rapid progress towards becoming a non-destructive, procedural graphics editor
+suitable of replacing traditional 2D DCC applications. The release of Graphite
+0.1 is anticipated in the coming month; come
+[join the Discord][graphite-discord] to help make it happen!
+
+[graphite-repo]: https://github.com/GraphiteEditor/Graphite
+[graphite-discord]: https://discord.graphite.design
+[graphite-twitter]: https://twitter.com/GraphiteEditor
+[graphite-live-demo]: https://editor.graphite.design
+
 ### [Starframe]
 
 ![Demonstration of Starframe's new rope physics](starframe.gif)
