@@ -400,7 +400,7 @@ making an RPG in Rust using the rg3d game engine. In part one of the series,
 he builds a character controller from scratch. While that may not sound very exciting,
 it's still a great way to learn the basics of rg3d and Rust gamedev in general!
 
-[writing-an-rpg-using-rg3d]: http://example.com
+[writing-an-rpg-using-rg3d]: https://rg3d.rs/tutorials/2021/07/09/rpg-tutorial1.html
 
 ## Tooling Updates
 
