@@ -285,12 +285,12 @@ _Left: Theta Wave with Amethyst, Right: Theta Wave with Bevy (so far)_
 
 [Theta Wave] is an open-source space shooter game by developers [@micah_tigley] and
 [@carlosupina]. It is one of the showcase games for the [Amethyst Engine]. In
-the past month, we finished the ["Organization"] update and
+the past month, they finished the ["Organization"] update and
 made the decision to start working on porting the game to the Bevy engine. You can
-find the Bevy version of Theta wave [here][Bevy Theta Wave].
+find the Bevy version of Theta Wave [here][Bevy Theta Wave].
 
-Progress on this port is going strong you find the issue for the port
-[here][Bevy Port Issue].
+Progress on this port is going strong - you can find the GitHub issue for
+the port [here][Bevy Port Issue].
 
 [Bevy Port Issue]: https://github.com/thetawavegame/thetawave/issues/2
 [Bevy Theta Wave]: https://github.com/thetawavegame/thetawave
