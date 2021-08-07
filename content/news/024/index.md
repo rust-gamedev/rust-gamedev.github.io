@@ -589,7 +589,7 @@ follow the project on [Twitter](https://twitter.com/quilkindev).
 [embark-announce]: https://medium.com/embarkstudios/say-hi-to-quilkin-an-open-source-udp-proxy-88577c795204
 [gcp-announce]: https://cloud.google.com/blog/products/gaming/introducing-quilkin
 
-### [Asset handling in Bevy apps][asset_handling_post]
+### [bevy_asset_loader]
 
 [@nikl_me] wrote a [blog post][asset_handling_post] about creating
 [bevy_asset_loader], a plugin to simplify asset handling in [Bevy][bevy]
