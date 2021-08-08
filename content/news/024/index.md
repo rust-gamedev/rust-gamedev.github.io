@@ -287,7 +287,7 @@ Changes and improvements from the last month:
 
 [fish-fight]: https://twitter.com/fishfightgame
 [@fedor_games]: https://twitter.com/fedor_games
-[@erland_sh]: https://twitter.com/erlend_sh
+[@erlend_sh]: https://twitter.com/erlend_sh
 
 ### [Theta Wave]
 
