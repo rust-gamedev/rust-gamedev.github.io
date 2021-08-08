@@ -380,8 +380,8 @@ issue](https://github.com/ggez/ggez/issues/875).
 
 ### [Macroquad]
 
-![Zemeroth on Google Play](zemeroth.jpg)
-_Zemeroth is the first ever Macroquad game published on Google Play!_
+![Zemeroth running on Android](macroquad.jpg)
+_A Macroquad game ([Zemeroth](#zemeroth)) running on Android!_
 
 [Macroquad] is a cross-platform game framework, inspired heavily by Raylib.
 
@@ -723,7 +723,7 @@ discusses future improvements to the crate.
 - [winit's "difficulty: easy" issues][winit-issues].
 - [Backroll-rs, a new networking library][backroll-rs].
 - [Embark's open issues][embark-open-issues] ([embark.rs]).
-- [wgpu-rs's "help wanted" issues][wgpu-issues].
+- [wgpu's "help wanted" issues][wgpu-issues].
 - [luminance's "low hanging fruit" issues][luminance-fruits].
 - [ggez's "good first issue" issues][ggez-issues].
 - [Veloren's "beginner" issues][veloren-beginner].
