@@ -765,7 +765,6 @@ TODO: Add real links and un-comment once this post is published
 [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/p0hgsy/this_month_in_rust_gamedev_24_july_2021/),
 [Twitter](https://twitter.com/rust_gamedev/status/1424398304700420102).
 
-
 [/r/rust_gamedev]: https://reddit.com/r/rust_gamedev
 [@rust_gamedev]: https://twitter.com/rust_gamedev
 [pr]: https://github.com/rust-gamedev/rust-gamedev.github.io
