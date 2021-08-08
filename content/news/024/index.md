@@ -155,6 +155,20 @@ July's full weekly devlogs: "This Week In Veloren...":
 [veloren-129]: https://veloren.net/devblog-129
 [veloren-130]: https://veloren.net/devblog-130
 
+### [Zemeroth]
+
+![Zemeroth on Google Play](zemeroth.jpg)
+
+[Zemeroth] is a turn-based hexagonal tactics game, developed by [@ozkriff].
+
+This month, an early access version of the game was released as a free
+download on [Google Play][zemeroth-google] - if you have an Android
+device, give it a try!
+
+[zemeroth]: https://github.com/ozkriff/zemeroth/
+[@ozkriff]: https://twitter.com/ozkriff
+[zemeroth-google]: https://play.google.com/store/apps/details?id=rust.zemeroth
+
 ### [Harvest Hero Origins](https://store.steampowered.com/app/1651500/Harvest_Hero_Origins/)
 
 ![hho_header](./hho_header.png)
@@ -326,6 +340,19 @@ coming next!
 [bounty_bros_webgame]: https://katharostech.github.io/skipngo_pre-releases/refs/tags/pre-release-2/?asset_url=https://katharostech.github.io/bounty-bros_pre-releases/2
 [katharostech]: https://katharostech.com
 
+### [Flesh]
+
+![Flesh screenshot](flesh.jpg)
+
+[Flesh] is a 2D horizontal SHMUP by [@Im_Oab], with a hand-drawn animation style
+and an organic/fleshy theme.
+
+This month, a [Steam page][flesh] was published for the game - it can now be
+wishlisted, ahead of a planned release later this year!
+
+[Flesh]: https://store.steampowered.com/app/1660850/Flesh/
+[@Im_Oab]: https://twitter.com/Im_Oab/
+
 ## Engine Updates
 
 ### [ggez]
@@ -351,6 +378,21 @@ library for years to come.  For details, see [this github
 issue](https://github.com/ggez/ggez/issues/875).
 
 [ggez]: https://github.com/ggez
+
+### [Macroquad]
+
+![Zemeroth on Google Play](zemeroth.jpg)
+_Zemeroth is the first ever Macroquad game published on Google Play!_
+
+[Macroquad] is a cross-platform game framework, inspired heavily by Raylib.
+
+This month, a [new tutorial][macroquad-android] was published on the
+Macroquad website, showing how a game written with the framework can be
+ported to Android. It details all of the steps, from building to packaging
+for a release on Google Play.
+
+[macroquad]: https://github.com/not-fl3/macroquad
+[macroquad-android]: https://macroquad.rs/tutorials/android/
 
 ### [Emerald]
 
