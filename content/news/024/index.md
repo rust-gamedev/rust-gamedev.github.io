@@ -1,8 +1,7 @@
 +++
 title = "This Month in Rust GameDev #24 - July 2021"
-date = 2021-08-01
+date = 2021-08-08
 transparent = true
-draft = true
 +++
 
 <!-- no toc -->
@@ -37,11 +36,7 @@ Feel free to send PRs about your own projects!
 - [Engine Updates](#engine-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
-- [Meeting Minutes](#meeting-minutes)
 - [Requests for Contribution](#requests-for-contribution)
-- [Jobs](#jobs)
-- [Bonus](#bonus)
 
 <!--
 Ideal section structure is:
@@ -84,45 +79,6 @@ out [this form][gamedev-meetup-form].
 [rust-meetup-august-time]: https://everytimezone.com/s/391b6160
 
 ## Game Updates
-
-### [Shroom Kingdom][shroom-kingdom]
-
-![Shroom Kingdom Asset Extractor](shroom-kingdom.gif)
-_Extracting the game assets_
-
-Shroom Kingdom ([GitHub][shrm-github], [Discord][shrm-discord], [Twitter][shrm-twitter])
-is an upcoming play-to-earn video game built with web technologies
-running on the [NEAR Blockchain][near-blockchain].
-In a recent [blog post][shrm-blog] you can read the motivation behind this.
-
-You can play with your favorite plumber brothers.
-Build your own levels or play levels from others.
-Every level built on Shroom Kingdom is stored
-on the blockchain as an NFT.
-
-By playing the game you can either actively earn SHRM tokens via participating
-in game activities or earn them passively, if other people play or like your levels.
-The SHRM token will be used to acquire in-game purchases such as unlocking new
-building blocks or increasing level upload limits.
-
-You can either extract existing assets from Super Mario Maker 2 or use
-compatible game mod files from e.g. [Gamebanana][gamebanana].
-The asset extractor is already working, but support for more file types
-needs to be added.
-
-The game will likely be built with [Bevy][bevy]
-and [Rapier][rapier] compiled to WebAssembly.
-Next steps include developing a Proof of Concept.
-
-[shroom-kingdom]: https://shroomkingdom.net/
-[shrm-github]: https://github.com/Shroom-Kingdom
-[shrm-discord]: https://discord.gg/SPZsgSe
-[shrm-twitter]: https://twitter.com/shrm_kingdom
-[shrm-blog]: https://net64-mod.github.io/blog/shroom-kingdom/
-[near-blockchain]: https://near.org
-[gamebanana]: https://gamebanana.com/
-[bevy]: https://bevyengine.org/
-[rapier]: https://rapier.rs/
 
 ### [Veloren][veloren]
 
@@ -188,6 +144,45 @@ if you'll be there!
 [gemdrop]: https://twitter.com/GemdropGames
 [hho-steam]: https://store.steampowered.com/app/1651500/Harvest_Hero_Origins/
 [Emerald]: https://github.com/Bombfuse/emerald
+
+### [Shroom Kingdom][shroom-kingdom]
+
+![Shroom Kingdom Asset Extractor](shroom-kingdom.gif)
+_Extracting the game assets_
+
+Shroom Kingdom ([GitHub][shrm-github], [Discord][shrm-discord], [Twitter][shrm-twitter])
+is an upcoming play-to-earn video game built with web technologies
+running on the [NEAR Blockchain][near-blockchain].
+In a recent [blog post][shrm-blog] you can read the motivation behind this.
+
+You can play with your favorite plumber brothers.
+Build your own levels or play levels from others.
+Every level built on Shroom Kingdom is stored
+on the blockchain as an NFT.
+
+By playing the game you can either actively earn SHRM tokens via participating
+in game activities or earn them passively, if other people play or like your levels.
+The SHRM token will be used to acquire in-game purchases such as unlocking new
+building blocks or increasing level upload limits.
+
+You can either extract existing assets from Super Mario Maker 2 or use
+compatible game mod files from e.g. [Gamebanana][gamebanana].
+The asset extractor is already working, but support for more file types
+needs to be added.
+
+The game will likely be built with [Bevy][bevy]
+and [Rapier][rapier] compiled to WebAssembly.
+Next steps include developing a Proof of Concept.
+
+[shroom-kingdom]: https://shroomkingdom.net/
+[shrm-github]: https://github.com/Shroom-Kingdom
+[shrm-discord]: https://discord.gg/SPZsgSe
+[shrm-twitter]: https://twitter.com/shrm_kingdom
+[shrm-blog]: https://net64-mod.github.io/blog/shroom-kingdom/
+[near-blockchain]: https://near.org
+[gamebanana]: https://gamebanana.com/
+[bevy]: https://bevyengine.org/
+[rapier]: https://rapier.rs/
 
 ### [Wicked Potions][wicked_potions]
 
@@ -712,31 +707,36 @@ discusses future improvements to the crate.
 [bevy]: https://github.com/bevyengine/bevy
 [@nikl_me]: https://twitter.com/nikl_me
 
-## Popular Workgroup Issues in Github
-
-<!-- Up to 10 links to interesting issues -->
-
-## Meeting Minutes
-
-<!-- Up to 10 most important notes + a link to the full details -->
-
-[See all meeting issues][label_meeting] including full text notes
-or [join the next meeting][join].
-
-[label_meeting]: https://github.com/rust-gamedev/wg/issues?q=label%3Ameeting
-
 ## Requests for Contribution
 
 <!-- Links to "good first issue"-labels or direct links to specific tasks -->
 
-## Jobs
+- [winit's "difficulty: easy" issues][winit-issues].
+- [Backroll-rs, a new networking library][backroll-rs].
+- [Embark's open issues][embark-open-issues] ([embark.rs]).
+- [wgpu-rs's "help wanted" issues][wgpu-issues].
+- [luminance's "low hanging fruit" issues][luminance-fruits].
+- [ggez's "good first issue" issues][ggez-issues].
+- [Veloren's "beginner" issues][veloren-beginner].
+- [Amethyst's "good first issue" issues][amethyst-issues].
+- [A/B Street's "good first issue" issues][abstreet-issues].
+- [Mun's "good first issue" issues][mun-issues].
+- [SIMple Mechanic's good first issues][simm-issues].
+- [Bevy's "good first issue" issues][bevy-issues].
 
-<!-- An optional section for new jobs related to Rust gamedev -->
-
-## Bonus
-
-<!-- Bonus section to make the newsletter more interesting
-and highlight events from the past. -->
+[winit-issues]: https://github.com/rust-windowing/winit/issues?q=is%3Aopen+is%3Aissue+label%3A%22difficulty%3A+easy%22
+[backroll-rs]: https://github.com/HouraiTeahouse/backroll-rs/issues
+[embark.rs]: https://embark.rs
+[embark-open-issues]: https://github.com/search?q=user:EmbarkStudios+state:open
+[wgpu-issues]: https://github.com/gfx-rs/wgpu/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
+[luminance-fruits]: https://github.com/phaazon/luminance-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22low+hanging+fruit%22
+[ggez-issues]: https://github.com/ggez/ggez/labels/%2AGOOD%20FIRST%20ISSUE%2A
+[veloren-beginner]: https://gitlab.com/veloren/veloren/issues?label_name=beginner
+[amethyst-issues]: https://github.com/amethyst/amethyst/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[abstreet-issues]: https://github.com/a-b-street/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
+[simm-issues]: https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue
+[bevy-issues]: https://github.com/bevyengine/bevy/labels/good%20first%20issue
 
 ------
 
