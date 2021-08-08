@@ -391,8 +391,16 @@ Macroquad website, showing how a game written with the framework can be
 ported to Android. It details all of the steps, from building to packaging
 for a release on Google Play.
 
+In other news, Macroquad used to depend on rodio+cpal for audio on 
+native platforms, custom WebAudio implementation for web and a custom 
+abstraction on top of both.  
+This month macroquad's audio system got reimplemented on top of raw 
+OS APIs - Alsa, OpenSLES, CoreAudio and wasapi. And moved away to 
+a crate: [quad-snd].
+
 [macroquad]: https://github.com/not-fl3/macroquad
 [macroquad-android]: https://macroquad.rs/tutorials/android/
+[quad-snd]: https://github.com/not-fl3/quad-snd
 
 ### [Emerald]
 
