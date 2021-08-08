@@ -759,10 +759,12 @@ or [/r/rust_gamedev subreddit][/r/rust_gamedev] if you want to receive fresh new
 
 <!--
 TODO: Add real links and un-comment once this post is published
-**Discussions of this post**:
-[/r/rust](TODO),
-[twitter](TODO).
 -->
+**Discussions of this post**:
+[/r/rust](https://www.reddit.com/r/rust/comments/p0hgjw/this_month_in_rust_gamedev_24_july_2021/),
+[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/p0hgsy/this_month_in_rust_gamedev_24_july_2021/),
+[Twitter](https://twitter.com/rust_gamedev/status/1424398304700420102).
+
 
 [/r/rust_gamedev]: https://reddit.com/r/rust_gamedev
 [@rust_gamedev]: https://twitter.com/rust_gamedev
