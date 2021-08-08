@@ -272,6 +272,7 @@ within a month or so.
 
 Changes and improvements from the last month:
 
+- [Pre-alpha trailer released!][twitter-trailer]
 - Loads of new weapons added:
   - Mind-controlled Jellyfish
   - Kick-bombs (bomberman-style)
@@ -288,6 +289,7 @@ Changes and improvements from the last month:
 [fish-fight]: https://twitter.com/fishfightgame
 [@fedor_games]: https://twitter.com/fedor_games
 [@erlend_sh]: https://twitter.com/erlend_sh
+[twitter-trailer]: https://twitter.com/fishfightgame/status/1424084016467226624
 
 ### [Theta Wave]
 
