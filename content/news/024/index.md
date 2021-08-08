@@ -463,14 +463,17 @@ animated sprites.
 
 ### [Writing an RPG using rg3d][writing-an-rpg-using-rg3d]
 
-![rg3d RPG screenshot](rg3d.jpg)
+[![rg3d RPG screenshot](rg3d.jpg)][rg3d-video]
+_[Click here][rg3d-video] to see a video of the character controller in action!_
 
-Dimitry Stepanov (aka @mrDIMAS) published a tutorial series about
+Dimitry Stepanov (aka @mrDIMAS) published a
+[tutorial series][writing-an-rpg-using-rg3d] about
 making an RPG in Rust using the rg3d game engine. In part one of the series,
 he builds a character controller from scratch. While that may not sound very exciting,
 it's still a great way to learn the basics of rg3d and Rust gamedev in general!
 
 [writing-an-rpg-using-rg3d]: https://rg3d.rs/tutorials/2021/07/09/rpg-tutorial1.html
+[rg3d-video]: https://www.youtube.com/watch?v=l2ZbDpoIdqk
 
 ## Tooling Updates
 
