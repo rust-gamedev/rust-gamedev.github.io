@@ -392,11 +392,11 @@ ported to Android. It details all of the steps, from building to packaging
 for a release on Google Play.
 
 In other news, Macroquad used to depend on rodio+cpal for audio on 
-native platforms, custom WebAudio implementation for web and a custom 
-abstraction on top of both.  
-This month macroquad's audio system got reimplemented on top of raw 
-OS APIs - Alsa, OpenSLES, CoreAudio and wasapi. And moved away to 
-a crate: [quad-snd].
+native platforms and a custom WebAudio implementation for web, with a custom 
+abstraction on top of both. This month, Macroquad's audio system was
+reimplemented on top of raw 
+OS APIs - ALSA, OpenSLES, CoreAudio and WASAPI. This functionality has been
+extracted into a crate: [quad-snd].
 
 [macroquad]: https://github.com/not-fl3/macroquad
 [macroquad-android]: https://macroquad.rs/tutorials/android/
