@@ -264,8 +264,8 @@ includes full 简体中文 & Español language support.
 ![New weapons](fishfight_weapons.png)
 
 Fish Fight ([Twitter][fish-fight]) is a continuation of the demo project
-known as Fish Game - made by the same team of people (@fedor_games and
-@erlend_sh), now operating as independents. Their goal is to make a
+known as Fish Game - made by the same team of people ([@fedor_games] and
+[@erlend_sh]), now operating as independents. Their goal is to make a
 published game, written entirely in Rust and developed as openly as
 possible. They are hoping to go public with the open source repo
 within a month or so.
@@ -286,6 +286,8 @@ Changes and improvements from the last month:
 - Physics doc & improvements
 
 [fish-fight]: https://twitter.com/fishfightgame
+[@fedor_games]: https://twitter.com/fedor_games
+[@erland_sh]: https://twitter.com/erlend_sh
 
 ### [Theta Wave]
 
@@ -454,6 +456,8 @@ animated sprites.
 
 ### [Writing an RPG using rg3d][writing-an-rpg-using-rg3d]
 
+![rg3d RPG screenshot](rg3d.jpg)
+
 Dimitry Stepanov (aka @mrDIMAS) published a tutorial series about
 making an RPG in Rust using the rg3d game engine. In part one of the series,
 he builds a character controller from scratch. While that may not sound very exciting,
@@ -618,7 +622,7 @@ now features a [tutorial] and full game [examples] for every type of session.
 [GGRS]: https://github.com/gschup/ggrs
 [GGPO]: https://www.ggpo.net/
 [@g_schup]: https://twitter.com/g_schup
-[tutorial]: https://github.com/gschup/ggrs/blob/main/TUTORIAL.md
+[tutorial]: https://gschup.github.io/ggrs/docs/getting-started/quick-start/
 [examples]: https://github.com/gschup/ggrs/tree/main/examples
 
 ### [Bevy Retrograde][bevy_retrograde]
