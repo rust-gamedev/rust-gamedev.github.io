@@ -67,6 +67,34 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Pixie Wrangler]
+
+[![Screenshot of Pixie Wrangler showing pixies traveling along paths drawn
+by the player.](pixie_wrangler.png)][pw-itch]
+_Click the image to play the game in your desktop browser!_
+
+Pixie Wrangler ([itch.io][pw-itch], [GitHub][pw-github]) by [@rparrett]
+is a puzzle game reminiscent of old school printed circuit board design
+software.
+
+Help the Pixies get from their outputs to their inputs while doing battle
+with the intentionally less-than-ergonomic circuit design software. Pixie
+Wrangler is currently a prototype, but includes 9 complete levels.
+
+Pixie Wrangler was built with [Bevy 0.5] with support from these other great
+projects: [bevy_webgl2], [bevy_prototype_lyon], [bevy_asset_ron],
+[bevy_easings].
+
+[Pixie Wrangler]: https://euclidean-whale.itch.io/pixie-wrangler
+[pw-itch]: https://euclidean-whale.itch.io/pixie-wrangler
+[pw-github]: https://github.com/rparrett/pixie_wrangler
+[Bevy 0.5]: https://bevyengine.org/
+[bevy_webgl2]: https://github.com/mrk-its/bevy_webgl2
+[bevy_prototype_lyon]: https://github.com/Nilirad/bevy_prototype_lyon
+[bevy_asset_ron]: https://github.com/inodentry/bevy_asset_ron
+[bevy_easings]: https://github.com/mockersf/bevy_extra/tree/master/bevy_easings
+[@rparrett]: https://github.com/rparrett
+
 ## Engine Updates
 
 ## Learning Material Updates
