@@ -75,6 +75,37 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library Updates
 
+### [GGRS]
+
+![GGRS](./ggrs_logo.png)
+
+[GGRS] by [@g_schup] is a reimagination of the [GGPO] P2P rollback network SDK
+written in 100% safe Rust.
+
+Since the last update, GGRS has released version 0.4.4 and received
+performance updates and fixes, such as a
+[sparse saving feature](https://gschup.github.io/ggrs/blog/sparse-saving/).
+The authors also proudly present [bevy_GGRS]!
+
+bevy_GGRS is a plugin to integrate GGRS easily into the popular game engine
+[bevy]. It features autmatic saving and loading of components and resources
+defined by the user through bevy's reflection tools.
+The plugin is currently in development and uses features that have not
+been released in bevy 0.5. With bevy 0.6 on the horizon, bevy_GGRS is
+planning to publish to [crates.io](https://crates.io), as well.
+
+If you are interested in developing with GGRS, check the following resources:
+
+- [quick start guide](https://gschup.github.io/ggrs/docs/getting-started/quick-start/)
+- [GGRS examples](https://github.com/gschup/ggrs/tree/main/examples)
+- [bevy_GGRS examples](https://github.com/gschup/bevy_ggrs/tree/main/examples)
+
+[GGRS]: https://github.com/gschup/ggrs
+[bevy_ggrs]: https://github.com/gschup/bevy_ggrs
+[bevy]: https://bevyengine.org/
+[GGPO]: https://www.ggpo.net/
+[@g_schup]: https://twitter.com/g_schup
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
