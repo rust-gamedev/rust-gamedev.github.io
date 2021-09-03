@@ -67,6 +67,12 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [What's the word](https://vrixyz.itch.io/whats-the-word)
+
+A UI-based game in which you tap (or miss) buttons.
+
+It's at the prototype stage, let it demonstrate how *small* you can scope your project for a game jam !
+
 ## Engine Updates
 
 ## Learning Material Updates
