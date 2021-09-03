@@ -95,6 +95,29 @@ projects: [bevy_webgl2], [bevy_prototype_lyon], [bevy_asset_ron],
 [bevy_easings]: https://github.com/mockersf/bevy_extra/tree/master/bevy_easings
 [@rparrett]: https://github.com/rparrett
 
+### Liminal Lab 000
+
+[![Screenshot of Liminal Lab 000 showing a white-walled laboratory test chamber
+with buttons on the floor, lights on the wall, and a dark cube levitating
+overhead.](liminal_lab_000.png)][ll000-live]
+_Click the image to play the game in your desktop browser!_
+
+Liminal Lab 000 ([live version][ll000-live]) by [@pebaz] is a tiny,
+minimalistic puzzle game with 1 puzzle designed around the concept of
+[Liminal Spaces][liminality]. Liminal Spaces could be described as the spaces
+between spaces and are usually abandoned places where life once thrived. These
+spaces are somehow familiar to the viewer but the viewer has never been there.
+The unsettling feeling of being alone comes from the realization that the
+viewer does not belong in that space but is merely passing through it.
+
+Liminal Lab 000 was built using [Macroquad][macroquad], utilizes voxel
+rendering with 8x8x8 chunks, and is hosted on Google Firebase Hosting.
+
+[ll000-live]: https://pebazium.web.app/
+[@pebaz]: https://github.com/Pebaz
+[liminality]: https://aesthetics.fandom.com/wiki/Liminal_Space
+[macroquad]: https://github.com/not-fl3/macroquad
+
 ## Engine Updates
 
 ## Learning Material Updates
