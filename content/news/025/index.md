@@ -104,11 +104,11 @@ _Click the image to play the game in your desktop browser!_
 
 Liminal Lab 000 ([live version][ll000-live]) by [@pebaz] is a tiny,
 minimalistic puzzle game with 1 puzzle designed around the concept of
-[Liminal Spaces][liminality]. Liminal Spaces could be described as the spaces
-between spaces and are usually abandoned places where life once thrived. These
-spaces are somehow familiar to the viewer but the viewer has never been there.
-The unsettling feeling of being alone comes from the realization that the
-viewer does not belong in that space but is merely passing through it.
+[Liminal Spaces][liminality]. Liminal Spaces are usually abandoned,
+transitional places where life once thrived. These spaces are somehow familiar
+to the viewer but the viewer has never been there. The unsettling feeling of
+being alone comes from the realization that the viewer does not belong in that
+space but is merely passing through it.
 
 Liminal Lab 000 was built using [Macroquad][macroquad], utilizes voxel
 rendering with 8x8x8 chunks, and is hosted on Google Firebase Hosting.
