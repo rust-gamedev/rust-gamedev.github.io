@@ -138,6 +138,40 @@ as well as [in the browser](rec-wars-web).
 [rec-wars-web]: https://martin-t.gitlab.io/gitlab-pages/rec-wars/macroquad.html
 [macroquad]: https://github.com/not-fl3/macroquad
 
+### [Vehicle Evolver Deluxe]
+
+![Vehicle Evolver Deluxe in action, showing multiple vehicles attempting to
+complete an obstacle course](vehicle_evolver_deluxe.gif)
+_Vehicle Evolver Deluxe in action!_
+
+[Vehicle Evolver Deluxe]
+([GitHub](https://github.com/Bauxitedev/vehicle_evolver_deluxe),
+[Twitter](https://twitter.com/bauxitedev/status/1423916614651678722)) by
+[@bauxitedev] is a simulation that runs in your browser, using AI (to be
+specific: [genetic algorithms](https://en.wikipedia.org/wiki/Genetic_algorithm))
+to try to build better and better vehicles. The vehicles have to overcome an
+obstacle course, starting with some slight hills, followed by steeper hills, and
+finally some jumps. The vehicles are made out of panels and wheels, connected
+together, similar to the game
+[Besiege](https://store.steampowered.com/app/346010/Besiege/), except in 2D. It
+was built using Rust and the Bevy game engine.
+
+[Try the live web demo
+here.](https://bauxitedev.github.io/vehicle_evolver_deluxe/index.html) (It needs
+a relatively fast computer, on mobile browsers it'll run really slow.)
+
+[There is also an in-depth explanation available on how it works internally, in
+the form of an educational video.](https://www.youtube.com/watch?v=DlRNdCCSSyo)
+
+_Discussions:
+[/r/rust](http://redd.it/ozpa6q),
+[Twitter](https://twitter.com/bauxitedev/status/1423916614651678722)_
+
+[Vehicle Evolver Deluxe]:
+https://bauxitedev.github.io/vehicle_evolver_deluxe/index.html
+[@bauxitedev]:
+https://twitter.com/bauxitedev
+
 ## Engine Updates
 
 ## Learning Material Updates
