@@ -118,6 +118,26 @@ the [Rusty Vangers] game (the new working title) was published on Itch.io.
 [WGSL-related blog post]: https://vange.rs/2021/08/25/pure-rust.html
 [Rusty Vangers]: https://kvark.itch.io/vangers
 
+### [RecWars]
+
+[![RecWars screenshot](rec-wars.png)](rec-wars-web)
+_Click the image to play in your browser_
+
+[RecWars] by @martin-t is a free and open source Rust clone of [RecWar],
+a top down vehicle shooter.
+
+The game is a work-in-progress, this month it gained splitscreen for 2 players
+and an in-game console to change cvars - you can edit any
+of the configuration variables that define its gameplay balance while playing.
+
+RecWars uses the [macroquad] engine so it can be played on the desktop
+as well as [in the browser](rec-wars-web).
+
+[RecWars]: https://github.com/martin-t/rec-wars
+[RecWar]: https://github.com/martin-t/rec-wars#the-original-game
+[rec-wars-web]: https://martin-t.gitlab.io/gitlab-pages/rec-wars/macroquad.html
+[macroquad]: https://github.com/not-fl3/macroquad
+
 ## Engine Updates
 
 ## Learning Material Updates
