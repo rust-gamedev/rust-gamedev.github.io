@@ -95,32 +95,6 @@ projects: [bevy_webgl2], [bevy_prototype_lyon], [bevy_asset_ron],
 [bevy_easings]: https://github.com/mockersf/bevy_extra/tree/master/bevy_easings
 [@rparrett]: https://github.com/rparrett
 
-### Liminal Lab 000
-
-[![Screenshot of Liminal Lab 000 showing a white-walled laboratory test chamber
-with buttons on the floor, lights on the wall, and a dark cube levitating
-overhead.](liminal_lab_000.png)][ll000-live]
-_Click the image to play the game in your desktop browser!_
-
-Liminal Lab 000 ([live version][ll000-live]) by [@pebaz] is a tiny,
-minimalistic puzzle game with 1 puzzle designed around the concept of
-[Liminal Spaces][liminality]. Liminal Spaces are usually abandoned,
-transitional places where life once thrived. These spaces are somehow familiar
-to the viewer but the viewer has never been there. The unsettling feeling of
-being alone comes from the realization that the viewer does not belong in that
-space but is merely passing through it.
-
-Liminal Lab 000 was built using [Macroquad][macroquad], utilizes voxel
-rendering with 8x8x8 chunks, and is hosted on Google Firebase Hosting.
-
-_Discussions: [/r/rust_gamedev][liminal-reddit]_
-
-[ll000-live]: https://pebazium.web.app/
-[@pebaz]: https://github.com/Pebaz
-[liminality]: https://aesthetics.fandom.com/wiki/Liminal_Space
-[macroquad]: https://github.com/not-fl3/macroquad
-[liminal-reddit]: https://www.reddit.com/r/rust_gamedev/comments/ouu7xk/liminal_lab_000_my_first_ever_3d_game/
-
 ### [vange-rs]
 
 ![Vange-rs on wgpu-0.10](vangers-wgpu0.10.png)
@@ -163,6 +137,32 @@ as well as [in the browser](rec-wars-web).
 [RecWar]: https://github.com/martin-t/rec-wars#the-original-game
 [rec-wars-web]: https://martin-t.gitlab.io/gitlab-pages/rec-wars/macroquad.html
 [macroquad]: https://github.com/not-fl3/macroquad
+
+### Liminal Lab 000
+
+[![Screenshot of Liminal Lab 000 showing a white-walled laboratory test chamber
+with buttons on the floor, lights on the wall, and a dark cube levitating
+overhead.](liminal_lab_000.png)][ll000-live]
+_Click the image to play the game in your desktop browser!_
+
+Liminal Lab 000 ([live version][ll000-live]) by [@pebaz] is a tiny,
+minimalistic puzzle game with 1 puzzle designed around the concept of
+[Liminal Spaces][liminality]. Liminal Spaces are usually abandoned,
+transitional places where life once thrived. These spaces are somehow familiar
+to the viewer but the viewer has never been there. The unsettling feeling of
+being alone comes from the realization that the viewer does not belong in that
+space but is merely passing through it.
+
+Liminal Lab 000 was built using [Macroquad][macroquad], utilizes voxel
+rendering with 8x8x8 chunks, and is hosted on Google Firebase Hosting.
+
+_Discussions: [/r/rust_gamedev][liminal-reddit]_
+
+[ll000-live]: https://pebazium.web.app/
+[@pebaz]: https://github.com/Pebaz
+[liminality]: https://aesthetics.fandom.com/wiki/Liminal_Space
+[macroquad]: https://github.com/not-fl3/macroquad
+[liminal-reddit]: https://www.reddit.com/r/rust_gamedev/comments/ouu7xk/liminal_lab_000_my_first_ever_3d_game/
 
 ## Engine Updates
 
