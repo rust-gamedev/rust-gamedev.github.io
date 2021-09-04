@@ -111,9 +111,9 @@ being alone comes from the realization that the viewer does not belong in that
 space but is merely passing through it.
 
 Liminal Lab 000 was built using [Macroquad][macroquad], utilizes voxel
-rendering with 8x8x8 chunks, and is hosted on Google Firebase Hosting. More
-information about the game can be found on the initial
-[Reddit discussion][liminal-reddit].
+rendering with 8x8x8 chunks, and is hosted on Google Firebase Hosting.
+
+_Discussions: [/r/rust_gamedev][liminal-reddit]_
 
 [ll000-live]: https://pebazium.web.app/
 [@pebaz]: https://github.com/Pebaz
