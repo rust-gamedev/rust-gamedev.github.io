@@ -95,6 +95,109 @@ projects: [bevy_webgl2], [bevy_prototype_lyon], [bevy_asset_ron],
 [bevy_easings]: https://github.com/mockersf/bevy_extra/tree/master/bevy_easings
 [@rparrett]: https://github.com/rparrett
 
+### [vange-rs]
+
+![Vange-rs on wgpu-0.10](vangers-wgpu0.10.png)
+_vange-rs on wgpu-0.10_
+
+Vange-rs is a rewrite of the iconic Vangers game from 1998 in Rust,
+heavily utilizing GPU for rendering.
+
+The rendering engine has seen a major upgrade. Essential shaders were
+rewritten into [WGSL], which streamlined the shader pipelines and culled out
+the dependency tree.
+Code was ported on the latest [wgpu]-0.10 release and helped identify a few issues.
+Most importantly, this change made the game able to finally be distributed,
+and maybe even compiled for the Web in the future.
+Read more on the [WGSL-related blog post].
+
+In order to make advantage of the new superpowers,
+the [Rusty Vangers] game (the new working title) was published on Itch.io.
+
+[vange-rs]: https://github.com/kvark/vange-rs
+[WGSL-related blog post]: https://vange.rs/2021/08/25/pure-rust.html
+[Rusty Vangers]: https://kvark.itch.io/vangers
+
+### [RecWars]
+
+[![RecWars screenshot](rec-wars.png)](rec-wars-web)
+_Click the image to play in your browser_
+
+[RecWars] by @martin-t is a free and open source Rust clone of [RecWar],
+a top down vehicle shooter.
+
+The game is a work-in-progress, this month it gained splitscreen for 2 players
+and an in-game console to change cvars - you can edit any
+of the configuration variables that define its gameplay balance while playing.
+
+RecWars uses the [macroquad] engine so it can be played on the desktop
+as well as [in the browser](rec-wars-web).
+
+[RecWars]: https://github.com/martin-t/rec-wars
+[RecWar]: https://github.com/martin-t/rec-wars#the-original-game
+[rec-wars-web]: https://martin-t.gitlab.io/gitlab-pages/rec-wars/macroquad.html
+[macroquad]: https://github.com/not-fl3/macroquad
+
+### [Vehicle Evolver Deluxe]
+
+![Vehicle Evolver Deluxe in action, showing multiple vehicles attempting to
+complete an obstacle course](vehicle_evolver_deluxe.gif)
+_Vehicle Evolver Deluxe in action!_
+
+[Vehicle Evolver Deluxe]
+([GitHub](https://github.com/Bauxitedev/vehicle_evolver_deluxe),
+[Twitter](https://twitter.com/bauxitedev/status/1423916614651678722)) by
+[@bauxitedev] is a simulation that runs in your browser, using AI (to be
+specific: [genetic algorithms](https://en.wikipedia.org/wiki/Genetic_algorithm))
+to try to build better and better vehicles. The vehicles have to overcome an
+obstacle course, starting with some slight hills, followed by steeper hills, and
+finally some jumps. The vehicles are made out of panels and wheels, connected
+together, similar to the game
+[Besiege](https://store.steampowered.com/app/346010/Besiege/), except in 2D. It
+was built using Rust and the Bevy game engine.
+
+[Try the live web demo
+here.](https://bauxitedev.github.io/vehicle_evolver_deluxe/index.html) (It needs
+a relatively fast computer, on mobile browsers it'll run really slow.)
+
+[There is also an in-depth explanation available on how it works internally, in
+the form of an educational video.](https://www.youtube.com/watch?v=DlRNdCCSSyo)
+
+_Discussions:
+[/r/rust](http://redd.it/ozpa6q),
+[Twitter](https://twitter.com/bauxitedev/status/1423916614651678722)_
+
+[Vehicle Evolver Deluxe]:
+https://bauxitedev.github.io/vehicle_evolver_deluxe/index.html
+[@bauxitedev]:
+https://twitter.com/bauxitedev
+
+### Liminal Lab 000
+
+[![Screenshot of Liminal Lab 000 showing a white-walled laboratory test chamber
+with buttons on the floor, lights on the wall, and a dark cube levitating
+overhead.](liminal_lab_000.png)][ll000-live]
+_Click the image to play the game in your desktop browser!_
+
+Liminal Lab 000 ([live version][ll000-live]) by [@pebaz] is a tiny,
+minimalistic puzzle game with 1 puzzle designed around the concept of
+[Liminal Spaces][liminality]. Liminal Spaces are usually abandoned,
+transitional places where life once thrived. These spaces are somehow familiar
+to the viewer but the viewer has never been there. The unsettling feeling of
+being alone comes from the realization that the viewer does not belong in that
+space but is merely passing through it.
+
+Liminal Lab 000 was built using [Macroquad][macroquad], utilizes voxel
+rendering with 8x8x8 chunks, and is hosted on Google Firebase Hosting.
+
+_Discussions: [/r/rust_gamedev][liminal-reddit]_
+
+[ll000-live]: https://pebazium.web.app/
+[@pebaz]: https://github.com/Pebaz
+[liminality]: https://aesthetics.fandom.com/wiki/Liminal_Space
+[macroquad]: https://github.com/not-fl3/macroquad
+[liminal-reddit]: https://www.reddit.com/r/rust_gamedev/comments/ouu7xk/liminal_lab_000_my_first_ever_3d_game/
+
 ### [Not Snake][not-snake]
 
 ![Level example from Not Snake](notsnake.png)
@@ -180,6 +283,34 @@ If you are interested in developing with GGRS, check the following resources:
 [bevy]: https://bevyengine.org/
 [GGPO]: https://www.ggpo.net/
 [@g_schup]: https://twitter.com/g_schup
+
+### [wgpu]-0.10
+
+![Rend3 on wgpu-0.10](./rend3-wgpu0.10.jpg)
+_unannounced engine on wgpu-0.10_
+
+The team has released wgpu-0.10 with a fully rewritten graphics abstraction
+("wgpu-hal" instead of "gfx-hal"), as well as [naga] version 0.6.
+Read more in [Release of a Pure-Rust v0.10 and a Call For Testing].
+
+There were a few issues spotted, but overall it went smooth for such a big change.
+User libraries were quick to update: [iced#1000], [kas#241], [pixels#187], and others.
+
+On the shader side, in addition to improved validation, hundreds of fixes to the
+produced outputs, the atomic operations are now supported when using [WGSL] sources.
+
+The release comes at a cost of DX11 backend, which isn't there comparing to wgpu-0.9.
+On the plus side, the new GL backend performs much better. It runs most of the examples,
+and has been successfully tested on Raspberry Pi-3.
+Still more work ahead to make it solid, and to support WebGL2 properly.
+
+[wgpu]: https://github.com/gfx-rs/wgpu
+[naga]: https://github.com/gfx-rs/naga
+[Release of a Pure-Rust v0.10 and a Call For Testing]: https://gfx-rs.github.io/2021/08/18/release-0.10.html
+[iced#1000]: https://github.com/hecrj/iced/pull/1000
+[kas#241]: https://github.com/kas-gui/kas/pull/241
+[pixels#187]: https://github.com/parasyte/pixels/pull/187
+[WGSL]: https://gpuweb.github.io/gpuweb/wgsl/
 
 ## Popular Workgroup Issues in Github
 
