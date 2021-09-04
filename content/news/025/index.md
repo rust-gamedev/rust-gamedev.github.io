@@ -95,6 +95,55 @@ projects: [bevy_webgl2], [bevy_prototype_lyon], [bevy_asset_ron],
 [bevy_easings]: https://github.com/mockersf/bevy_extra/tree/master/bevy_easings
 [@rparrett]: https://github.com/rparrett
 
+### [Not Snake][not-snake]
+
+![Level example from Not Snake](notsnake.png)
+
+Not Snake ([GitHub][notsnakegit], [Itch][not-snake]) by [Michael Ramirez]
+is a 3D snake game where you don't play as the snake.
+
+Not Snake was developed using the [Bevy game engine][bevy-notsnake]. 
+It was completed and [released for free][not-snake] in August 
+and can be played on Windows, Linux, MacOS and in browser 
+(Chrome recommended) although there are fewer audio/performance 
+issues running the executables versus the browser version.
+
+There have been several large changes since the last update in June
+including adding new levels, new music and adding a narrator who 
+does an OK job of keeping score.
+
+_Discussions: 
+[/r/rust_gamedev](https://www.reddit.com/p8fdfn), 
+[/r/indiegames](https://www.reddit.com/p9cx15)_
+
+[not-snake]: https://ramirezmike2.itch.io/not-snake 
+[Michael Ramirez]: https://github.com/ramirezmike 
+[bevy-notsnake]: https://bevyengine.org
+[notsnakegit]: https://github.com/ramirezmike/not_snake_game 
+
+### [A Day at the Movies][dayatmovies]
+
+![Screenshot of "A Day at the Movies"](adayatthemovies.png)
+_The kids getting ready to sneak into a movie_
+
+"A Day at the Movies" 
+([GitHub][dayatmoviesgit], [Itch][dayatmovies]) by [Michael Ramirez]
+is a short game about stealth, movies and friendship.
+
+"A Day at the Movies" was made using the [Bevy game engine][bevy-movieday]
+in 7 days as part of the Rusty Jam.
+Despite the placeholder art and lack of audio, it can be played 
+from start-to-finish and is literally guaranteed to bring a
+smile to all who play it. Just make sure to follow the instructions
+on how to get into the "Ferris the Crab" movie room.
+
+It's playable in browser on [itch][dayatmovies] and the code can
+be viewed on [GitHub][dayatmoviesgit].
+
+[dayatmovies]: https://ramirezmike2.itch.io/a-day-at-the-movies 
+[dayatmoviesgit]: https://github.com/ramirezmike/rust_gamejam_0821 
+[bevy-movieday]: https://bevyengine.org
+
 ## Engine Updates
 
 ## Learning Material Updates
