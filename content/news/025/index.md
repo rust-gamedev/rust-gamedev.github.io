@@ -121,6 +121,49 @@ _Discussions: [/r/rust_gamedev][liminal-reddit]_
 [macroquad]: https://github.com/not-fl3/macroquad
 [liminal-reddit]: https://www.reddit.com/r/rust_gamedev/comments/ouu7xk/liminal_lab_000_my_first_ever_3d_game/
 
+### [vange-rs]
+
+![Vange-rs on wgpu-0.10](vangers-wpgu0.10.png)
+_vange-rs on wgpu-0.10_
+
+Vange-rs is a rewrite of the iconic Vangers game from 1998 in Rust,
+heavily utilizing GPU for rendering.
+
+The rendering engine has seen a major upgrade. Essential shaders were
+rewritten into [WGSL], which streamlined the shader pipelines and culled out
+the dependency tree.
+Code was ported on the latest [wgpu]-0.10 release and helped identify a few issues.
+Most importantly, this change made the game able to finally be distributed,
+and maybe even compiled for the Web in the future.
+Read more on the [WGSL-related blog post].
+
+In order to make advantage of the new superpowers,
+the [Rusty Vangers] game (the new working title) was published on Itch.io.
+
+[vange-rs]: https://github.com/kvark/vange-rs
+[WGSL-related blog post]: https://vange.rs/2021/08/25/pure-rust.html
+[Rusty Vangers]: https://kvark.itch.io/vangers
+
+### [RecWars]
+
+[![RecWars screenshot](rec-wars.png)](rec-wars-web)
+_Click the image to play in your browser_
+
+[RecWars] by @martin-t is a free and open source Rust clone of [RecWar],
+a top down vehicle shooter.
+
+The game is a work-in-progress, this month it gained splitscreen for 2 players
+and an in-game console to change cvars - you can edit any
+of the configuration variables that define its gameplay balance while playing.
+
+RecWars uses the [macroquad] engine so it can be played on the desktop
+as well as [in the browser](rec-wars-web).
+
+[RecWars]: https://github.com/martin-t/rec-wars
+[RecWar]: https://github.com/martin-t/rec-wars#the-original-game
+[rec-wars-web]: https://martin-t.gitlab.io/gitlab-pages/rec-wars/macroquad.html
+[macroquad]: https://github.com/not-fl3/macroquad
+
 ## Engine Updates
 
 ## Learning Material Updates
@@ -159,6 +202,34 @@ If you are interested in developing with GGRS, check the following resources:
 [bevy]: https://bevyengine.org/
 [GGPO]: https://www.ggpo.net/
 [@g_schup]: https://twitter.com/g_schup
+
+### [wgpu]-0.10
+
+![Rend3 on wgpu-0.10](./rend3-wgpu0.10.jpg)
+_unannounced engine on wgpu-0.10_
+
+The team has released wgpu-0.10 with a fully rewritten graphics abstraction
+("wgpu-hal" instead of "gfx-hal"), as well as [naga] version 0.6.
+Read more in [Release of a Pure-Rust v0.10 and a Call For Testing].
+
+There were a few issues spotted, but overall it went smooth for such a big change.
+User libraries were quick to update: [iced#1000], [kas#241], [pixels#187], and others.
+
+On the shader side, in addition to improved validation, hundreds of fixes to the
+produced outputs, the atomic operations are now supported when using [WGSL] sources.
+
+The release comes at a cost of DX11 backend, which isn't there comparing to wgpu-0.9.
+On the plus side, the new GL backend performs much better. It runs most of the examples,
+and has been successfully tested on Raspberry Pi-3.
+Still more work ahead to make it solid, and to support WebGL2 properly.
+
+[wgpu]: https://github.com/gfx-rs/wgpu
+[naga]: https://github.com/gfx-rs/naga
+[Release of a Pure-Rust v0.10 and a Call For Testing]: https://gfx-rs.github.io/2021/08/18/release-0.10.html
+[iced#1000]: https://github.com/hecrj/iced/pull/1000
+[kas#241]: https://github.com/kas-gui/kas/pull/241
+[pixels#187]: https://github.com/parasyte/pixels/pull/187
+[WGSL]: https://gpuweb.github.io/gpuweb/wgsl/
 
 ## Popular Workgroup Issues in Github
 
