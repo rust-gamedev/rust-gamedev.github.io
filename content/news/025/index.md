@@ -123,7 +123,7 @@ _Discussions: [/r/rust_gamedev][liminal-reddit]_
 
 ### [vange-rs]
 
-![Vange-rs on wgpu-0.10](vangers-wpgu0.10.png)
+![Vange-rs on wgpu-0.10](vangers-wgpu0.10.png)
 _vange-rs on wgpu-0.10_
 
 Vange-rs is a rewrite of the iconic Vangers game from 1998 in Rust,
