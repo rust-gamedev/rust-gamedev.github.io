@@ -67,6 +67,57 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Pixie Wrangler]
+
+[![Screenshot of Pixie Wrangler showing pixies traveling along paths drawn
+by the player.](pixie_wrangler.png)][pw-itch]
+_Click the image to play the game in your desktop browser!_
+
+Pixie Wrangler ([itch.io][pw-itch], [GitHub][pw-github]) by [@rparrett]
+is a puzzle game reminiscent of old school printed circuit board design
+software.
+
+Help the Pixies get from their outputs to their inputs while doing battle
+with the intentionally less-than-ergonomic circuit design software. Pixie
+Wrangler is currently a prototype, but includes 9 complete levels.
+
+Pixie Wrangler was built with [Bevy 0.5] with support from these other great
+projects: [bevy_webgl2], [bevy_prototype_lyon], [bevy_asset_ron],
+[bevy_easings].
+
+[Pixie Wrangler]: https://euclidean-whale.itch.io/pixie-wrangler
+[pw-itch]: https://euclidean-whale.itch.io/pixie-wrangler
+[pw-github]: https://github.com/rparrett/pixie_wrangler
+[Bevy 0.5]: https://bevyengine.org/
+[bevy_webgl2]: https://github.com/mrk-its/bevy_webgl2
+[bevy_prototype_lyon]: https://github.com/Nilirad/bevy_prototype_lyon
+[bevy_asset_ron]: https://github.com/inodentry/bevy_asset_ron
+[bevy_easings]: https://github.com/mockersf/bevy_extra/tree/master/bevy_easings
+[@rparrett]: https://github.com/rparrett
+
+### [vange-rs]
+
+![Vange-rs on wgpu-0.10](./vangers-wgpu0.10.png)
+_vange-rs on wgpu-0.10_
+
+Vange-rs is a rewrite of the iconic Vangers game from 1998 in Rust,
+heavily utilizing GPU for rendering.
+
+The rendering engine has seen a major upgrade. Essential shaders were
+rewritten into [WGSL], which streamlined the shader pipelines and culled out
+the dependency tree.
+Code was ported on the latest [wgpu]-0.10 release and helped identify a few issues.
+Most importantly, this change made the game able to finally be distributed,
+and maybe even compiled for the Web in the future.
+Read more on the [WGSL-related blog post].
+
+In order to make advantage of the new superpowers,
+the [Rusty Vangers] game (the new working title) was published on Itch.io.
+
+[vange-rs]: https://github.com/kvark/vange-rs
+[WGSL-related blog post]: https://vange.rs/2021/08/25/pure-rust.html
+[Rusty Vangers]: https://kvark.itch.io/vangers
+
 ### [RecWars]
 
 [![RecWars screenshot](rec-wars.png)](rec-wars-web)
@@ -94,6 +145,65 @@ as well as [in the browser](rec-wars-web).
 ## Tooling Updates
 
 ## Library Updates
+
+### [GGRS]
+
+![GGRS](./ggrs_logo.png)
+
+[GGRS] by [@g_schup] is a reimagination of the [GGPO] P2P rollback network SDK
+written in 100% safe Rust.
+
+Since the last update, GGRS has released version 0.4.4 and received
+performance updates and fixes, such as a
+[sparse saving feature](https://gschup.github.io/ggrs/blog/sparse-saving/).
+The authors also proudly present [bevy_GGRS]!
+
+bevy_GGRS is a plugin to integrate GGRS easily into the popular game engine
+[bevy]. It features autmatic saving and loading of components and resources
+defined by the user through bevy's reflection tools.
+The plugin is currently in development and uses features that have not
+been released in bevy 0.5. With bevy 0.6 on the horizon, bevy_GGRS is
+planning to publish to [crates.io](https://crates.io), as well.
+
+If you are interested in developing with GGRS, check the following resources:
+
+- [quick start guide](https://gschup.github.io/ggrs/docs/getting-started/quick-start/)
+- [GGRS examples](https://github.com/gschup/ggrs/tree/main/examples)
+- [bevy_GGRS examples](https://github.com/gschup/bevy_ggrs/tree/main/examples)
+
+[GGRS]: https://github.com/gschup/ggrs
+[bevy_ggrs]: https://github.com/gschup/bevy_ggrs
+[bevy]: https://bevyengine.org/
+[GGPO]: https://www.ggpo.net/
+[@g_schup]: https://twitter.com/g_schup
+
+### [wgpu]-0.10
+
+![Rend3 on wgpu-0.10](./rend3-wgpu0.10.jpg)
+_unannounced engine on wgpu-0.10_
+
+The team has released wgpu-0.10 with a fully rewritten graphics abstraction
+("wgpu-hal" instead of "gfx-hal"), as well as [naga] version 0.6.
+Read more in [Release of a Pure-Rust v0.10 and a Call For Testing].
+
+There were a few issues spotted, but overall it went smooth for such a big change.
+User libraries were quick to update: [iced#1000], [kas#241], [pixels#187], and others.
+
+On the shader side, in addition to improved validation, hundreds of fixes to the
+produced outputs, the atomic operations are now supported when using [WGSL] sources.
+
+The release comes at a cost of DX11 backend, which isn't there comparing to wgpu-0.9.
+On the plus side, the new GL backend performs much better. It runs most of the examples,
+and has been successfully tested on Raspberry Pi-3.
+Still more work ahead to make it solid, and to support WebGL2 properly.
+
+[wgpu]: https://github.com/gfx-rs/wgpu
+[naga]: https://github.com/gfx-rs/naga
+[Release of a Pure-Rust v0.10 and a Call For Testing]: https://gfx-rs.github.io/2021/08/18/release-0.10.html
+[iced#1000]: https://github.com/hecrj/iced/pull/1000
+[kas#241]: https://github.com/kas-gui/kas/pull/241
+[pixels#187]: https://github.com/parasyte/pixels/pull/187
+[WGSL]: https://gpuweb.github.io/gpuweb/wgsl/
 
 ## Popular Workgroup Issues in Github
 
