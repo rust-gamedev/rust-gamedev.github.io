@@ -113,8 +113,9 @@ or [/r/rust_gamedev subreddit][/r/rust_gamedev] if you want to receive fresh new
 <!--
 TODO: Add real links and un-comment once this post is published
 **Discussions of this post**:
-[/r/rust](TODO),
-[twitter](TODO).
+[/r/rust_gamedev](TODO),
+[Twitter](TODO),
+[Discord](https://discord.gg/yNtPTb2).
 -->
 
 [/r/rust_gamedev]: https://reddit.com/r/rust_gamedev

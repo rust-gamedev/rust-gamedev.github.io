@@ -1,8 +1,7 @@
 +++
 title = "This Month in Rust GameDev #24 - July 2021"
-date = 2021-08-01
+date = 2021-08-08
 transparent = true
-draft = true
 +++
 
 <!-- no toc -->
@@ -37,11 +36,7 @@ Feel free to send PRs about your own projects!
 - [Engine Updates](#engine-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
-- [Meeting Minutes](#meeting-minutes)
 - [Requests for Contribution](#requests-for-contribution)
-- [Jobs](#jobs)
-- [Bonus](#bonus)
 
 <!--
 Ideal section structure is:
@@ -85,6 +80,71 @@ out [this form][gamedev-meetup-form].
 
 ## Game Updates
 
+### [Veloren][veloren]
+
+![Llama ride](veloren.png) _Out for a llama ride_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In July, work focused on larger tasks that tend to come up between versions.
+Optimizations were made for networking with compression, and message queue
+improvements ([devblog #127][veloren-127]). Modular weapons are in the works, which
+will allow for much more dynamic ways to choose what you fight with. The project
+also hit 300k lines of code.
+
+Many contributors are working on the art and asset front, with lots of new SFX,
+models, and UI elements making their way into the game. Caves are also getting a
+lot of love, and a bloom feature is being integrated. Some members broke down
+what they plan to have done by the 0.11 release at the beginning of September,
+and you can read about that in [devblog #130][veloren-130].
+
+July's full weekly devlogs: "This Week In Veloren...":
+[#127][veloren-127],
+[#128][veloren-128],
+[#129][veloren-129],
+[#130][veloren-130].
+
+[veloren]: https://veloren.net
+[veloren-127]: https://veloren.net/devblog-127
+[veloren-128]: https://veloren.net/devblog-128
+[veloren-129]: https://veloren.net/devblog-129
+[veloren-130]: https://veloren.net/devblog-130
+
+### [Zemeroth]
+
+![Zemeroth on Google Play](zemeroth.jpg)
+
+[Zemeroth] is a turn-based hexagonal tactics game, developed by [@ozkriff].
+
+This month, an early access version of the game was released as a free
+download on [Google Play][zemeroth-google] - if you have an Android
+device, give it a try!
+
+[zemeroth]: https://github.com/ozkriff/zemeroth/
+[@ozkriff]: https://twitter.com/ozkriff
+[zemeroth-google]: https://play.google.com/store/apps/details?id=rust.zemeroth
+
+### [Harvest Hero Origins](https://store.steampowered.com/app/1651500/Harvest_Hero_Origins/)
+
+![hho_header](./hho_header.png)
+
+Harvest Hero Origins is an arcade wave defense game by [Gemdrop Games][gemdrop],
+built in Rust on top of [Emerald]. A [Steam][hho-steam] page has recently been
+made and the game is set to release sometime at the end of this summer.
+
+Battle the oncoming waves of enemies with a friend in local co-op, unlock
+new playable characters and skins, and make your way to the top of the
+leaderboard!
+
+Additionally, HHO will be at [PAXWest](https://west.paxsite.com/)
+this year, so come check out their booth
+if you'll be there!
+
+[gemdrop]: https://twitter.com/GemdropGames
+[hho-steam]: https://store.steampowered.com/app/1651500/Harvest_Hero_Origins/
+[Emerald]: https://github.com/Bombfuse/emerald
+
 ### [Shroom Kingdom][shroom-kingdom]
 
 ![Shroom Kingdom Asset Extractor](shroom-kingdom.gif)
@@ -123,57 +183,6 @@ Next steps include developing a Proof of Concept.
 [gamebanana]: https://gamebanana.com/
 [bevy]: https://bevyengine.org/
 [rapier]: https://rapier.rs/
-
-### [Veloren][veloren]
-
-![Llama ride](veloren.png) _Out for a llama ride_
-
-[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
-Fortress and Cube World.
-
-In July, work focused on larger tasks that tend to come up between versions.
-Optimizations were made for networking with compression, and message queue
-improvements ([devblog #127][veloren-127]). Modular weapons are in the works, which
-will allow for much more dynamic ways to choose what you fight with. The project
-also hit 300k lines of code.
-
-Many contributors are working on the art and asset front, with lots of new SFX,
-models, and UI elements making their way into the game. Caves are also getting a
-lot of love, and a bloom feature is being integrated. Some members broke down
-what they plan to have done by the 0.11 release at the beginning of September,
-and you can read about that in [devblog #130][veloren-130].
-
-July's full weekly devlogs: "This Week In Veloren...":
-[#127][veloren-127],
-[#128][veloren-128],
-[#129][veloren-129],
-[#130][veloren-130].
-
-[veloren]: https://veloren.net
-[veloren-127]: https://veloren.net/devblog-127
-[veloren-128]: https://veloren.net/devblog-128
-[veloren-129]: https://veloren.net/devblog-129
-[veloren-130]: https://veloren.net/devblog-130
-
-### [Harvest Hero Origins](https://store.steampowered.com/app/1651500/Harvest_Hero_Origins/)
-
-![hho_header](./hho_header.png)
-
-Harvest Hero Origins is an arcade wave defense game by [Gemdrop Games][gemdrop],
-built in Rust on top of [Emerald]. A [Steam][hho-steam] page has recently been
-made and the game is set to release sometime at the end of this summer.
-
-Battle the oncoming waves of enemies with a friend in local co-op, unlock
-new playable characters and skins, and make your way to the top of the
-leaderboard!
-
-Additionally, HHO will be at [PAXWest](https://west.paxsite.com/)
-this year, so come check out their booth
-if you'll be there!
-
-[gemdrop]: https://twitter.com/GemdropGames
-[hho-steam]: https://store.steampowered.com/app/1651500/Harvest_Hero_Origins/
-[Emerald]: https://github.com/Bombfuse/emerald
 
 ### [Wicked Potions][wicked_potions]
 
@@ -255,14 +264,15 @@ includes full 简体中文 & Español language support.
 ![New weapons](fishfight_weapons.png)
 
 Fish Fight ([Twitter][fish-fight]) is a continuation of the demo project
-known as Fish Game - made by the same team of people (@fedor_games and
-@erlend_sh), now operating as independents. Their goal is to make a
+known as Fish Game - made by the same team of people ([@fedor_games] and
+[@erlend_sh]), now operating as independents. Their goal is to make a
 published game, written entirely in Rust and developed as openly as
 possible. They are hoping to go public with the open source repo
 within a month or so.
 
 Changes and improvements from the last month:
 
+- [Pre-alpha trailer released!][twitter-trailer]
 - Loads of new weapons added:
   - Mind-controlled Jellyfish
   - Kick-bombs (bomberman-style)
@@ -277,6 +287,9 @@ Changes and improvements from the last month:
 - Physics doc & improvements
 
 [fish-fight]: https://twitter.com/fishfightgame
+[@fedor_games]: https://twitter.com/fedor_games
+[@erlend_sh]: https://twitter.com/erlend_sh
+[twitter-trailer]: https://twitter.com/fishfightgame/status/1424084016467226624
 
 ### [Theta Wave]
 
@@ -326,6 +339,19 @@ coming next!
 [bounty_bros_webgame]: https://katharostech.github.io/skipngo_pre-releases/refs/tags/pre-release-2/?asset_url=https://katharostech.github.io/bounty-bros_pre-releases/2
 [katharostech]: https://katharostech.com
 
+### [Flesh]
+
+![Flesh screenshot](flesh.jpg)
+
+[Flesh] is a 2D horizontal SHMUP by [@Im_Oab], with a hand-drawn animation style
+and an organic/fleshy theme.
+
+This month, a [Steam page][flesh] was published for the game - it can now be
+wishlisted, ahead of a planned release later this year!
+
+[Flesh]: https://store.steampowered.com/app/1660850/Flesh/
+[@Im_Oab]: https://twitter.com/Im_Oab/
+
 ## Engine Updates
 
 ### [ggez]
@@ -351,6 +377,28 @@ library for years to come.  For details, see [this github
 issue](https://github.com/ggez/ggez/issues/875).
 
 [ggez]: https://github.com/ggez
+
+### [Macroquad]
+
+![Zemeroth running on Android](macroquad.jpg)
+_A Macroquad game ([Zemeroth](#zemeroth)) running on Android!_
+
+[Macroquad] is a cross-platform game framework, inspired heavily by Raylib.
+
+This month, a [new tutorial][macroquad-android] was published on the
+Macroquad website, showing how a game written with the framework can be
+ported to Android. It details all of the steps, from building to packaging
+for a release on Google Play.
+
+In other news, Macroquad used to depend on rodio+cpal for audio on
+native platforms and a custom WebAudio implementation for web, with a custom
+abstraction on top of both. This month, Macroquad's audio system was
+reimplemented on top of raw OS APIs - ALSA, OpenSLES, CoreAudio and WASAPI.
+This functionality has now been extracted into a crate: [quad-snd].
+
+[macroquad]: https://github.com/not-fl3/macroquad
+[macroquad-android]: https://macroquad.rs/tutorials/android/
+[quad-snd]: https://github.com/not-fl3/quad-snd
 
 ### [Emerald]
 
@@ -417,14 +465,50 @@ animated sprites.
 
 ### [Writing an RPG using rg3d][writing-an-rpg-using-rg3d]
 
-Dimitry Stepanov (aka @mrDIMAS) published a tutorial series about
+[![rg3d RPG screenshot](rg3d.jpg)][rg3d-video]
+_[Click here][rg3d-video] to see a video of the character controller in action!_
+
+Dimitry Stepanov (aka @mrDIMAS) published a
+[tutorial series][writing-an-rpg-using-rg3d] about
 making an RPG in Rust using the rg3d game engine. In part one of the series,
 he builds a character controller from scratch. While that may not sound very exciting,
 it's still a great way to learn the basics of rg3d and Rust gamedev in general!
 
 [writing-an-rpg-using-rg3d]: https://rg3d.rs/tutorials/2021/07/09/rpg-tutorial1.html
+[rg3d-video]: https://www.youtube.com/watch?v=l2ZbDpoIdqk
 
 ## Tooling Updates
+
+### [Graphite][graphite-repo]
+
+![Graphite logo](graphite_scream.png)
+_A recreation of "The Scream" in Graphite by Norgate_
+
+Graphite ([GitHub][graphite-repo], [Discord][graphite-discord],
+[Twitter](https://twitter.com/GraphiteEditor)) is an in-development vector and
+raster graphics editor built on a non-destructive node-based workflow.
+
+In the past month, the editor has gained numerous vector editing features,
+including moving layers with the keyboard or mouse, filling and copying colors,
+flipping and aligning selected layers, and setting blend modes and layer
+opacity.
+
+Scrollbars, rulers, and thumbnails are now functional. Full screen support has
+been added, along with a hotkey to center the artwork. An options bar with
+tool-specific settings and actions has been implemented, currently allowing
+the number of sides of a polygon to be selected. The order of layers can now be
+changed using hotkeys.
+
+[Try it right now in your browser.][graphite-live-demo] Graphite is making
+rapid progress towards becoming a non-destructive, procedural graphics editor
+suitable of replacing traditional 2D DCC applications. The release of Graphite
+0.1 is anticipated in the coming month; come
+[join the Discord][graphite-discord] to help make it happen!
+
+[graphite-repo]: https://github.com/GraphiteEditor/Graphite
+[graphite-discord]: https://discord.graphite.design
+[graphite-twitter]: https://twitter.com/GraphiteEditor
+[graphite-live-demo]: https://editor.graphite.design
 
 ## Library Updates
 
@@ -550,7 +634,7 @@ now features a [tutorial] and full game [examples] for every type of session.
 [GGRS]: https://github.com/gschup/ggrs
 [GGPO]: https://www.ggpo.net/
 [@g_schup]: https://twitter.com/g_schup
-[tutorial]: https://github.com/gschup/ggrs/blob/main/TUTORIAL.md
+[tutorial]: https://gschup.github.io/ggrs/docs/getting-started/quick-start/
 [examples]: https://github.com/gschup/ggrs/tree/main/examples
 
 ### [Bevy Retrograde][bevy_retrograde]
@@ -632,31 +716,36 @@ discusses future improvements to the crate.
 [bevy]: https://github.com/bevyengine/bevy
 [@nikl_me]: https://twitter.com/nikl_me
 
-## Popular Workgroup Issues in Github
-
-<!-- Up to 10 links to interesting issues -->
-
-## Meeting Minutes
-
-<!-- Up to 10 most important notes + a link to the full details -->
-
-[See all meeting issues][label_meeting] including full text notes
-or [join the next meeting][join].
-
-[label_meeting]: https://github.com/rust-gamedev/wg/issues?q=label%3Ameeting
-
 ## Requests for Contribution
 
 <!-- Links to "good first issue"-labels or direct links to specific tasks -->
 
-## Jobs
+- [winit's "difficulty: easy" issues][winit-issues].
+- [Backroll-rs, a new networking library][backroll-rs].
+- [Embark's open issues][embark-open-issues] ([embark.rs]).
+- [wgpu's "help wanted" issues][wgpu-issues].
+- [luminance's "low hanging fruit" issues][luminance-fruits].
+- [ggez's "good first issue" issues][ggez-issues].
+- [Veloren's "beginner" issues][veloren-beginner].
+- [Amethyst's "good first issue" issues][amethyst-issues].
+- [A/B Street's "good first issue" issues][abstreet-issues].
+- [Mun's "good first issue" issues][mun-issues].
+- [SIMple Mechanic's good first issues][simm-issues].
+- [Bevy's "good first issue" issues][bevy-issues].
 
-<!-- An optional section for new jobs related to Rust gamedev -->
-
-## Bonus
-
-<!-- Bonus section to make the newsletter more interesting
-and highlight events from the past. -->
+[winit-issues]: https://github.com/rust-windowing/winit/issues?q=is%3Aopen+is%3Aissue+label%3A%22difficulty%3A+easy%22
+[backroll-rs]: https://github.com/HouraiTeahouse/backroll-rs/issues
+[embark.rs]: https://embark.rs
+[embark-open-issues]: https://github.com/search?q=user:EmbarkStudios+state:open
+[wgpu-issues]: https://github.com/gfx-rs/wgpu/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
+[luminance-fruits]: https://github.com/phaazon/luminance-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22low+hanging+fruit%22
+[ggez-issues]: https://github.com/ggez/ggez/labels/%2AGOOD%20FIRST%20ISSUE%2A
+[veloren-beginner]: https://gitlab.com/veloren/veloren/issues?label_name=beginner
+[amethyst-issues]: https://github.com/amethyst/amethyst/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[abstreet-issues]: https://github.com/a-b-street/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
+[simm-issues]: https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue
+[bevy-issues]: https://github.com/bevyengine/bevy/labels/E-Good-First-Issue
 
 ------
 
@@ -670,10 +759,11 @@ or [/r/rust_gamedev subreddit][/r/rust_gamedev] if you want to receive fresh new
 
 <!--
 TODO: Add real links and un-comment once this post is published
-**Discussions of this post**:
-[/r/rust](TODO),
-[twitter](TODO).
 -->
+**Discussions of this post**:
+[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/p0hgsy/this_month_in_rust_gamedev_24_july_2021/),
+[Twitter](https://twitter.com/rust_gamedev/status/1424398304700420102),
+[Discord](https://discord.gg/yNtPTb2).
 
 [/r/rust_gamedev]: https://reddit.com/r/rust_gamedev
 [@rust_gamedev]: https://twitter.com/rust_gamedev
