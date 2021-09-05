@@ -69,9 +69,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [What's the word](https://vrixyz.itch.io/whats-the-word)
 
-A UI-based game in which you tap (or miss) buttons.
-
-It's at the prototype stage, let it demonstrate how *small* you can scope your project for a game jam !
+A UI-based game in which you tap (or miss) buttons. Created with [Bevy engine](https://bevyengine.org/) and [egui](https://github.com/mvlabat/bevy_egui), let it demonstrate how *small* you can scope your project for a [(Rusty) game jam](https://itch.io/jam/rusty-jam/results)!
 
 ## Engine Updates
 
