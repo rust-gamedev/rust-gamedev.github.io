@@ -331,7 +331,7 @@ Progress on this port is going strong - you can find the GitHub issue for
 the port [here][Bevy Port Issue].
 
 _Discussions:
-[Twitter](https://twitter.com/carlosupina/status/1432039838463705090)  
+[Twitter](https://twitter.com/carlosupina/status/1432039838463705090)_  
 
 [Bevy Port Issue]: https://github.com/thetawavegame/thetawave/issues/2
 [Theta Wave]: https://github.com/thetawavegame/thetawave
