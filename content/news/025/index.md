@@ -298,6 +298,32 @@ lesson that often has to be relearned the hard way.
 
 ## Learning Material Updates
 
+### [Rewriting my mobile game in Rust targeting WASM][panda-doodle-blog-post]
+
+![Panda Doodle logo](panda-doodle.png)
+
+[@lucamoller][@lucamoller] published [a blog post][panda-doodle-blog-post]
+describing his experience trying to learn Rust by working on a hobby project to
+migrate his mobile game from a native C++ implementation to a Rust-based one
+targetting WASM.
+
+The post is written in a storytelling manner going through the author's
+motivations to work on this project and the main challenges they faced while
+learning Rust and implementing a game using WASM.
+
+The resulting game, [Panda Doodle][panda-doodle-game], runs smoothly on mobile
+device browsers, and the [source code][panda-doodle-source-code] was open
+sourced to help inspire other developers that wish to venture into implementing
+WASM-based games in Rust.
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/oxqofv/show_rrust_rewriting_my_mobile_game_in_rust/)_
+
+[panda-doodle-blog-post]: https://lucamoller.medium.com/rewriting-my-mobile-game-in-rust-targeting-wasm-1f9f82751830
+[panda-doodle-game]: https://pandadoodle.lucamoller.com/
+[panda-doodle-source-code]: https://github.com/lucamoller/pandadoodle-rust-wasm
+[@lucamoller]: https://github.com/lucamoller
+
 ## Tooling Updates
 
 ## Library Updates
