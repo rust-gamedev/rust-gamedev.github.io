@@ -265,6 +265,57 @@ It's playable in browser on [itch][dayatmovies] and the code can be viewed on
 
 ## Engine Updates
 
+### [rg3d]
+
+![rg3d](rg3d_logo.png)
+
+[rg3d] ([Discord][rg3d_discord], [Twitter][rg3d_twitter]) is a game engine that
+aims to be easy to use and provide a large set of out-of-box features. 
+
+[![rg3d feature highlights](rg3d-feature-highlights.png)][rg3d_fh]
+__Engine feature highlights__
+
+Check out the video about the engine made by [@GameFromScratch][gfs_channel],
+an article could be found [here][gfs_article] 
+
+[![rg3d feature highlights](rg3d-gfs.png)][rg3d_gfs]
+__A video by [@GameFromScratch][gfs_channel]__
+
+Some of the recent engine updates:
+
+- Physically-based rendering (PBR).
+- Custom shaders and materials.
+- High dynamic range rendering.
+- Tone mapping.
+- Color grading.
+- Gamma correction.
+- Manual + Auto exposure for camera.
+- Emission maps.
+- Deferred decals.
+- Curve editor widget.
+- Behavior trees.
+- Custom curves supports.
+- Ability to create sound engine without a sound device.
+- Asset management improvements.
+- Mask char for TextBox and FormattedText.
+- Ability to change path of resources.
+- Improvements for FileSelector widget.
+- Various fixes for scene resolving stage.
+- Provide a way to alter control flow of event loop in `Framework`.
+- A way to create custom particle set in `ParticleSystem`.
+- `#[visit(option)]` attribute for Visit proc macro.
+- Ability to pause particle systems.
+- UI performance improvements.
+- Other various fixes and improvements.
+
+[rg3d]: https://github.com/mrDIMAS/rg3d
+[rg3d_discord]: https://discord.gg/xENF5Uh
+[rg3d_twitter]: https://twitter.com/DmitryNStepanov
+[rg3d_fh]: https://www.youtube.com/watch?v=N8kmZ9aBtZs
+[rg3d_gfs]: https://www.youtube.com/watch?v=mzshg_0ZvLk 
+[gfs_channel]: https://www.youtube.com/channel/UCr-5TdGkKszdbboXXsFZJTQ
+[gfs_article]: https://gamefromscratch.com/rg3d-open-source-rust-3d-game-engine/
+
 ## Learning Material Updates
 
 ## Tooling Updates
