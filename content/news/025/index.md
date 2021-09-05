@@ -317,6 +317,27 @@ Read the [dev blog][triplehex-blog] for more info, follow
 [triplehex-twitter]: https://twitter.com/triplehexdev
 [shattersong-discord]: https://discord.gg/K5RHxVEK6F
 
+### [Theta Wave]
+
+[![Theta Wave Mobs]](theta-wave.gif)][Theta Wave]
+_All mobs ported to Bevy Theta Wave_
+
+[Theta Wave] is an open-source space shooter game by developers [@micah_tigley] and
+[@carlosupina]. In the past month, they have been working towards porting Theta
+Wave to the Bevy Engine. Most of the work this month has been focused
+on implementing all of the existing mobs in Bevy and Rapier.
+
+Progress on this port is going strong - you can find the GitHub issue for
+the port [here][Bevy Port Issue].
+
+_Discussions:
+[Twitter](https://twitter.com/carlosupina/status/1432039838463705090)  
+
+[Bevy Port Issue]: https://github.com/thetawavegame/thetawave/issues/2
+[Theta Wave]: https://github.com/thetawavegame/thetawave
+[@micah_tigley]: https://twitter.com/micah_tigley
+[@carlosupina]: https://twitter.com/carlosupina
+
 ## Engine Updates
 
 ## Learning Material Updates
