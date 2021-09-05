@@ -278,9 +278,9 @@ parts of the codebase to make adding new content more ergonomic. We tested
 out the new organization by adding a new monster type from scratch (pictured
 above).
 
-Read the [dev blog](triplehex-blog) for more info, follow
-[@triplehex](triplehex-twitter) on twitter for updates, and join the
-[shattersong discord](shattersong-discord) for questions!
+Read the [dev blog][triplehex-blog] for more info, follow
+[@triplehex][triplehex-twitter] on twitter for updates, and join the
+[shattersong discord][shattersong-discord] for questions!
 
 [triplehex-blog]: https://triplehex.dev/shattersong-online/
 [triplehex-twitter]: https://twitter.com/triplehexdev
