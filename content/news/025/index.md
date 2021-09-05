@@ -319,7 +319,7 @@ Read the [dev blog][triplehex-blog] for more info, follow
 
 ### [Theta Wave]
 
-[![Theta Wave Mobs]](theta-wave.gif)][Theta Wave]
+[![Theta Wave Mobs](theta-wave.gif)][Theta Wave]
 _All mobs ported to Bevy Theta Wave_
 
 [Theta Wave] is an open-source space shooter game by developers [@micah_tigley] and
