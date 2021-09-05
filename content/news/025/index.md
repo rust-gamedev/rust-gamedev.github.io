@@ -270,13 +270,13 @@ It's playable in browser on [itch][dayatmovies] and the code can be viewed on
 ![rg3d](rg3d_logo.png)
 
 [rg3d] ([Discord][rg3d_discord], [Twitter][rg3d_twitter]) is a game engine that
-aims to be easy to use and provide a large set of out-of-box features. 
+aims to be easy to use and provide a large set of out-of-box features.
 
 [![rg3d feature highlights](rg3d-feature-highlights.png)][rg3d_fh]
 __Engine feature highlights__
 
 Check out the video about the engine made by [@GameFromScratch][gfs_channel],
-an article could be found [here][gfs_article] 
+an article could be found [here][gfs_article]
 
 [![rg3d feature highlights](rg3d-gfs.png)][rg3d_gfs]
 __A video by [@GameFromScratch][gfs_channel]__
@@ -312,7 +312,7 @@ Some of the recent engine updates:
 [rg3d_discord]: https://discord.gg/xENF5Uh
 [rg3d_twitter]: https://twitter.com/DmitryNStepanov
 [rg3d_fh]: https://www.youtube.com/watch?v=N8kmZ9aBtZs
-[rg3d_gfs]: https://www.youtube.com/watch?v=mzshg_0ZvLk 
+[rg3d_gfs]: https://www.youtube.com/watch?v=mzshg_0ZvLk
 [gfs_channel]: https://www.youtube.com/channel/UCr-5TdGkKszdbboXXsFZJTQ
 [gfs_article]: https://gamefromscratch.com/rg3d-open-source-rust-3d-game-engine/
 
