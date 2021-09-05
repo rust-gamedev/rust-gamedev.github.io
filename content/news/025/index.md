@@ -138,7 +138,7 @@ the [Rusty Vangers] game (the new working title) was published on Itch.io.
 
 ### [RecWars]
 
-[![RecWars screenshot](rec-wars.png)](rec-wars-web)
+[![RecWars screenshot](rec-wars.png)][rec-wars-web]
 _Click the image to play in your browser_
 
 [RecWars] by @martin-t is a free and open source Rust clone of [RecWar],
@@ -149,7 +149,7 @@ and an in-game console to change cvars - you can edit any
 of the configuration variables that define its gameplay balance while playing.
 
 RecWars uses the [macroquad] engine so it can be played on the desktop
-as well as [in the browser](rec-wars-web).
+as well as [in the browser][rec-wars-web].
 
 [RecWars]: https://github.com/martin-t/rec-wars
 [RecWar]: https://github.com/martin-t/rec-wars#the-original-game
