@@ -294,6 +294,46 @@ lesson that often has to be relearned the hard way.
 [tiled]: https://crates.io/crates/tiled
 [shipyard]: https://crates.io/crates/shipyard
 
+[bevy-engine]: https://bevyengine.org/
+[rusty-jam-21]: https://itch.io/jam/rusty-jam
+[mud-itch]: https://sheepyhead.itch.io/murder-user-dungeon
+[mud-github]: https://github.com/TheRealTeamFReSh/MurderUserDungeon
+[nightlyside]: https://nightlyside.github.io/
+[cdsupina]: https://github.com/cdsupina
+[sheepyhead]: https://github.com/Sheepyhead
+
+### [Murder-User Dungeon][murder-user-dungeon]
+
+![Murder-User Dungeon gameplay screenshots](mud_screenshots.png)
+
+Murder-User Dungeo (MUD) ([GitHub](mud-github), [Itch](mud-itch)) by [@Nightlyside](nightlyside), [@cdsupina](cdsupina), [@Shippyhead](sheepyhead)
+is a 2d game made for the [Rusty Jam 21](rusty-jam-21) in just one week with the theme "*Illusion of security*".
+
+> Tony is a young man. Finally having his own apartment is a good thing! He will learn how to live by himself and how to enjoy the small things in life like playing on his old retro computer: the Astaria 3600 running SafeOS 3.1.
+>
+> However, you will quickly realize that the internet is not so friendly. You will meet new people in the Labyrinth(TM) game, and not being friendly to them can have a serious impact on your real life!
+>
+> In Murder-User Dungeon you will juggle between exploring the Labyrinth(TM) game in your console, hiding from vengeful gamers, and making sure you fulfill your human needs.
+>
+> To win the game, you must reach the end of the Labyrinth(TM)! 
+
+The theme of the gamejam was "Illusion of Safety". We wanted to make the player feel that they were safe in their appartment at first, however as the game goes on and the player makes enemies of other gamers in the Labyrinth, they risk them coming to their apartment to get revenge.
+
+This game was made in only a week. We split development of the game, so that each one of us could work independently on seperate features. While [@cdsupina](cdsupina) worked on the needs system and the graphics, [@Sheepyhead](sheepyhead) worked on the UI and menus, and [@Nightlyside](nightlyside) worked on the console and Labyrinth gameplay.
+
+We learned a lot during this week of developement, noteably that we would had to have been more organized to reach all of the goals that we set for the game.
+
+MUD was developed using the [Bevy game engine](bevy-engine), Rapier2D for collisions, Aseprite for the graphics, and a lot of free assets from the internet (which are credited at the end of the game's description).
+
+Feel free to play the game and give us feedback! Linux and Windows builds are available on the Itch page. 
+
+_Discussions: 
+[r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/pddreu/rusty_jam_submission_murderuser_dungeon/)  
+[r/rust](https://www.reddit.com/r/rust/comments/pddyv5/rusty_jam_submission_murderuser_dungeon/)  
+[Rusty Jam Discord](https://discord.gg/KkeMUu5kxH)  
+
+Murder-User Dungeon: https://sheepyhead.itch.io/murder-user-dungeon
+
 ### Shattersong Online
 
 ![Screenshot of Shattersong Online showing a a portal leading between two
