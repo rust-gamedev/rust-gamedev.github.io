@@ -263,6 +263,51 @@ It's playable in browser on [itch][dayatmovies] and the code can be viewed on
 [dayatmoviesgit]: https://github.com/ramirezmike/rust_gamejam_0821
 [bevy-movieday]: https://bevyengine.org
 
+### [The Process]
+
+![An animated gif showing a machine setup to smelt iron ore](the_process.gif) _A
+smelter factory setup in The Process_
+
+[The Process] by @setzer22 is an upcoming game about factory building, process
+management, and carrot production, built with Rust using the Godot game engine!
+
+This month has seen a lot of activity: More improvements to the level editor,
+in-game assets and general gameplay improvements. But the main focus has been on
+a new building system with improved ergonomics. The game is now approaching a
+point where all the core mechanics for the factory simulation are in place, but
+more in-game content and assets are still required reaching the first playable
+demo.
+
+This month the game has seen the following changes and improvements:
+
+- New assets like
+  [wooden planks](https://twitter.com/PlayTheProcess/status/1423712530267054086),
+  [machine parts](https://twitter.com/PlayTheProcess/status/1433160712231297027)
+  and
+  [mashed carrot cans](https://twitter.com/PlayTheProcess/status/1434466387787923456),
+  with their in-game recipes.
+- A new machine, the
+  [centrifuge](https://twitter.com/PlayTheProcess/status/1430923976574910466)
+- A new system to tweak properties with
+  [OSD sliders](https://twitter.com/PlayTheProcess/status/1424638751041536001)
+  to speed-up iteration times. Short explanation
+  [here](https://twitter.com/PlayTheProcess/status/1424638756246675459).
+- A new egui-powered
+  [main menu](https://twitter.com/PlayTheProcess/status/1425785805453373444)
+  for the main game screen.
+- Improvements to the building system:
+  [ghost markers](https://twitter.com/PlayTheProcess/status/1427560636289069059),
+  [ramps](https://twitter.com/PlayTheProcess/status/1428300028712558595),
+  [walls](https://twitter.com/PlayTheProcess/status/1429391914130882564),
+  [machines](https://twitter.com/PlayTheProcess/status/1430229400923119621)
+  and
+  [conveyor belts](https://twitter.com/PlayTheProcess/status/1430479444213485574)!
+
+_Discussions:
+[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/p7ccad/a_3d_building_system_overhaul_for_the_process/)_
+
+[The Process]: https://twitter.com/PlayTheProcess
+
 ## Engine Updates
 
 ## Learning Material Updates
@@ -329,6 +374,30 @@ Still more work ahead to make it solid, and to support WebGL2 properly.
 [kas#241]: https://github.com/kas-gui/kas/pull/241
 [pixels#187]: https://github.com/parasyte/pixels/pull/187
 [WGSL]: https://gpuweb.github.io/gpuweb/wgsl/
+
+### [godot-egui]-0.1.8
+
+![An animation showing godot-egui running as a plugin inside the editor](godot_egui.gif)
+_You can now use egui to make Godot editor extensions!_
+
+The [egui](https://github.com/emilk/egui) backend for
+[godot-rust](https://github.com/godot-rust/godot-rust) is improving fast. Some
+bugs have been ironed out during this past month, and the integration has got
+several features:
+
+- The repository now includes an example of how to setup egui to create
+  [Godot editor plugins](https://twitter.com/PlayTheProcess/status/1431660162587275267).
+  Contribution by @jacobsky.
+- Custom font support by drag & dropping font files right from Godot editor.
+- Updated crate to match latest egui 0.14.2
+- Configurable texture filtering.
+- Several bugfixes and improvements.
+
+Additionally, a new [theme
+editor](https://github.com/setzer22/godot-egui/issues/5) is in the works, which
+hopefully will be helpful to other egui backends as well!
+
+[godot-egui]: https://github.com/setzer22/godot-egui
 
 ## Popular Workgroup Issues in Github
 
