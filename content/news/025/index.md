@@ -263,6 +263,37 @@ It's playable in browser on [itch][dayatmovies] and the code can be viewed on
 [dayatmoviesgit]: https://github.com/ramirezmike/rust_gamejam_0821
 [bevy-movieday]: https://bevyengine.org
 
+### [Sombervale]
+
+![Screenshot of Sombervale depicting the starting location](./sombervale.png)
+
+Sombervale ([GitHub][sv-gh], [itch.io][sv-itch], [Twitch][sv-twitch]) by
+[@blipjoy] is a game built in seven days for Rusty Jam. It is styled like an
+old handheld game with a 160x128 screen resolution and 16-color palette.
+
+The top 3 things that went well for this project were the art, tilemap support,
+and ECS. On the art side, the silhouettes in the background turned out better
+than expected. The back lighting (or at least the impression of back lighting)
+looks quite nice, even in motion. Tilemap support was added near the end of the
+jam built on [tiled]. It catapulted development progress from seeing major
+changes every day to making major changes every hour. [shipyard] is the Entity
+Component System crate used in Sombervale. This had a tricky learning curve, but
+simplified complex interactions between entities.
+
+Something that went poorly was choosing a scope that couldn't possibly be
+completed on time. As usual, everything turned into a stretch goal! Secondly, a
+lot of time was allocated to features that didn't make the cut. Much of this
+was a result of trying to be perfect instead of efficient. It's a good game jam
+lesson that often has to be relearned the hard way.
+
+[Sombervale]: https://blipjoy.itch.io/sombervale
+[sv-gh]: https://github.com/blipjoy/sombervale
+[sv-itch]: https://blipjoy.itch.io/sombervale
+[sv-twitch]: https://www.twitch.tv/blipjoy
+[@blipjoy]: https://github.com/blipjoy
+[tiled]: https://crates.io/crates/tiled
+[shipyard]: https://crates.io/crates/shipyard
+
 ## Engine Updates
 
 ## Learning Material Updates
