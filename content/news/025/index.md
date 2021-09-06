@@ -321,9 +321,10 @@ Read the [dev blog][triplehex-blog] for more info, follow
 
 ![Screenshot of fishfight.org website](fishfight-website.png)
 
-[As promised](https://fishfight.itch.io/ff/devlog/281554/fish-fight-reloaded), after months of private prototyping together with a growing number
-of early invitees, we're finally ready to make our code and community channels
-available to the general public. We also launched our website!
+[As promised](https://fishfight.itch.io/ff/devlog/281554/fish-fight-reloaded),
+after months of private prototyping of early invitees, the Fish Fight devs are
+finally ready to make their code and community channels available to the
+general public. They also launched their website!
 
 - [Announcement post][fish-announce]
 - [GitHub repo][fish-github] (MIT/Apache)
