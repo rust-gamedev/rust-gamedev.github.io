@@ -317,6 +317,33 @@ Read the [dev blog][triplehex-blog] for more info, follow
 [triplehex-twitter]: https://twitter.com/triplehexdev
 [shattersong-discord]: https://discord.gg/K5RHxVEK6F
 
+### [TO BE DIRE][tbd-itch]
+
+![TO BE DIRE cover art](TO_BE_DIRE.png)
+
+TO BE DIRE by [@mdaffin], [@TimeLark] and [@septum], is a prototype survival
+game made in a week with [Bevy][tbd-bevy] for the first [Rusty Jam][tbd-jam].
+
+The main idea behind the design of TO BE DIRE is venturing out of the safe zone
+in order to survive, adding elements of gameplay like gathering resources,
+and maintaining the player character health and hunger, that are common
+for the genre, finally having the implementation of the monsters and
+fear system as a way to futher address the first Rusty Jam's theme
+"Illusion of Security".
+[Read more about TO BE DIRE's design in the issues at GitLab][tbd-issues].
+
+Download the game at [itch.io][tbd-itch] (available for Linux and Windows)
+and/or get the source code at [GitLab][tbd-gitlab].
+
+[tbd-itch]: https://septum.itch.io/to-be-dire
+[tbd-gitlab]: https://gitlab.com/mdaffin/tbd
+[tbd-issues]: https://gitlab.com/mdaffin/tbd/-/issues?scope=all&state=closed
+[tbd-jam]: https://itch.io/jam/rusty-jam
+[tbd-bevy]: https://bevyengine.org
+[@mdaffin]: https://mdaffin.itch.io
+[@TimeLark]: https://timelark.itch.io
+[@septum]: https://septum.itch.io
+
 ## Engine Updates
 
 ## Learning Material Updates
