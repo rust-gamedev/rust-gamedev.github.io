@@ -317,6 +317,26 @@ Read the [dev blog][triplehex-blog] for more info, follow
 [triplehex-twitter]: https://twitter.com/triplehexdev
 [shattersong-discord]: https://discord.gg/K5RHxVEK6F
 
+### Fish Fight
+
+![Screenshot of fishfight.org website](fishfight-website.png)
+
+[As promised](https://fishfight.itch.io/ff/devlog/281554/fish-fight-reloaded), after months of private prototyping together with a growing number
+of early invitees, we're finally ready to make our code and community channels
+available to the general public. We also launched our website!
+
+- [Announcement post][fish-announce]
+- [GitHub repo][fish-github] (MIT/Apache)
+- [Discord server][fish-discord]
+- [Design doc][fish-designdoc]
+- [fishfight.org][fish-website]
+
+[fish-announce]: https://fishfight.itch.io/ff/devlog/291737/fish-fight-is-open-source
+[fish-github]: https://github.com/fishfight/FishFight
+[fish-discord]: https://discord.gg/4smxjcheE5
+[fish-designdoc]: https://www.notion.so/erlendsh/Fish-Fight-1647ed74217e4e38a59bd28f4f5bc81a
+[fish-website]: https://fishfight.org/
+
 ## Engine Updates
 
 ## Learning Material Updates
