@@ -466,6 +466,27 @@ has been announced. The NFT will only be acquirable for a limited amount of time
 [shrm-nft-airdrop]: https://shroomkingdom.net/blog/nft-airdrop/
 [near-blockchain]: https://near.org
 
+### Fish Fight
+
+![Screenshot of fishfight.org website](fishfight-website.png)
+
+[As promised](https://fishfight.itch.io/ff/devlog/281554/fish-fight-reloaded),
+after months of private prototyping of early invitees, the Fish Fight devs are
+finally ready to make their code and community channels available to the
+general public. They also launched their website!
+
+- [Announcement post][fish-announce]
+- [GitHub repo][fish-github] (MIT/Apache)
+- [Discord server][fish-discord]
+- [Design doc][fish-designdoc]
+- [fishfight.org][fish-website]
+
+[fish-announce]: https://fishfight.itch.io/ff/devlog/291737/fish-fight-is-open-source
+[fish-github]: https://github.com/fishfight/FishFight
+[fish-discord]: https://discord.gg/4smxjcheE5
+[fish-designdoc]: https://www.notion.so/erlendsh/Fish-Fight-1647ed74217e4e38a59bd28f4f5bc81a
+[fish-website]: https://fishfight.org/
+
 ## Engine Updates
 
 ## Learning Material Updates
