@@ -435,6 +435,37 @@ _Discussions:
 [@micah_tigley]: https://twitter.com/micah_tigley
 [@carlosupina]: https://twitter.com/carlosupina
 
+### [Shroom Kingdom][shroom-kingdom]
+
+![SHRM token distribution](shroom-kingdom.png)
+_SHRM token distribution_
+
+Shroom Kingdom ([GitHub][shrm-github], [Discord][shrm-discord], [Twitter][shrm-twitter])
+is an upcoming play-to-earn video game built with web technologies
+running on the [NEAR Blockchain][near-blockchain].
+
+This month the [whitepaper draft][shrm-whitepaper] has been published and a lot
+of thoughts have been put into the token economics and how to integrate the game
+with the blockchain. The Shroom Kingdom DAO (Decentralised Autonomous
+Organization) is looking for self motivated people, who want to help build the
+project. DAO members will be rewarded with the $SHRM token, which will soon be
+launched on the NEAR mainnet after the final feedback round from NEAR core team
+members.
+
+A Proof of Concept has also been published for the app, which will be built with
+Bevy and Rapier compiled to WebAssembly and which uses React for the GUI.
+
+To incentivise early adoption of the project, an [NFT airdrop][shrm-nft-airdrop]
+has been announced. The NFT will only be acquirable for a limited amount of time.
+
+[shroom-kingdom]: https://shroomkingdom.net/
+[shrm-github]: https://github.com/Shroom-Kingdom
+[shrm-discord]: https://discord.gg/SPZsgSe
+[shrm-twitter]: https://twitter.com/shrm_kingdom
+[shrm-whitepaper]: https://whitepaper.shroomkingdom.net/
+[shrm-nft-airdrop]: https://shroomkingdom.net/blog/nft-airdrop/
+[near-blockchain]: https://near.org
+
 ## Engine Updates
 
 ## Learning Material Updates
