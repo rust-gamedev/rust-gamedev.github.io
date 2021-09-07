@@ -349,6 +349,37 @@ _Discussions:
 
 ## Tooling Updates
 
+### [Graphite][graphite-repo]
+
+![Graphite alpha teaser](graphite_alpha.png)
+_Graphite Alpha - Coming very soon_
+
+Graphite ([GitHub][graphite-repo], [Discord][graphite-discord],
+[Twitter](https://twitter.com/GraphiteEditor)) is an in-development vector and
+raster graphics editor built on a non-destructive node-based workflow.
+
+Work has progressed on features for the imminent Alpha release. A project
+website has been designed and will launch this month. Crucial user-facing
+features have been added: saving/opening documents; a bug report dialog for
+panics; an auto-generated list of dependency license notices; and a new
+undo/redo system.
+
+The new Path Tool shows Bézier anchor/control points (soon to be draggable).
+Rendering performance is much better and scrollbars now work with the infinite
+canvas. There's a new bounding box around selected shapes that are
+transformable with Blender-inspired <kbd>G</kbd>/<kbd>R</kbd>/<kbd>S</kbd>
+keys.
+
+[Try it right now in your browser.][graphite-live-demo] Graphite is making
+rapid progress towards becoming a non-destructive, procedural graphics editor
+suitable of replacing traditional 2D DCC applications. The public alpha release
+is coming very soon. [Join the Discord][graphite-discord] and get involved!
+
+[graphite-repo]: https://github.com/GraphiteEditor/Graphite
+[graphite-discord]: https://discord.graphite.design
+[graphite-twitter]: https://twitter.com/GraphiteEditor
+[graphite-live-demo]: https://editor.graphite.design
+
 ## Library Updates
 
 ### [GGRS]
