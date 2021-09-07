@@ -294,6 +294,29 @@ lesson that often has to be relearned the hard way.
 [tiled]: https://crates.io/crates/tiled
 [shipyard]: https://crates.io/crates/shipyard
 
+### Shattersong Online
+
+![Screenshot of Shattersong Online showing a a portal leading between two
+shards](shattersong.png)
+
+Shattersong Online is an online sandbox game written in Rust, with the goal of
+supporting thousands of players in a shared universe, with hundreds of players
+per shard. In game portals let players travel between shards hosted on separate
+physical servers.
+
+Since the initial announcement in July we have worked on restructuring large
+parts of the codebase to make adding new content more ergonomic. We tested
+out the new organization by adding a new monster type from scratch (pictured
+above).
+
+Read the [dev blog][triplehex-blog] for more info, follow
+[@triplehex][triplehex-twitter] on twitter for updates, and join the
+[shattersong discord][shattersong-discord] for questions!
+
+[triplehex-blog]: https://triplehex.dev/shattersong-online/
+[triplehex-twitter]: https://twitter.com/triplehexdev
+[shattersong-discord]: https://discord.gg/K5RHxVEK6F
+
 ### [Murder-User Dungeon][murder-user-dungeon]
 
 ![Murder-User Dungeon gameplay screenshots](mud_screenshots.png)
@@ -345,29 +368,6 @@ _Discussions:
 [nightlyside]: https://nightlyside.github.io/
 [cdsupina]: https://github.com/cdsupina
 [sheepyhead]: https://github.com/Sheepyhead
-
-### Shattersong Online
-
-![Screenshot of Shattersong Online showing a a portal leading between two
-shards](shattersong.png)
-
-Shattersong Online is an online sandbox game written in Rust, with the goal of
-supporting thousands of players in a shared universe, with hundreds of players
-per shard. In game portals let players travel between shards hosted on separate
-physical servers.
-
-Since the initial announcement in July we have worked on restructuring large
-parts of the codebase to make adding new content more ergonomic. We tested
-out the new organization by adding a new monster type from scratch (pictured
-above).
-
-Read the [dev blog][triplehex-blog] for more info, follow
-[@triplehex][triplehex-twitter] on twitter for updates, and join the
-[shattersong discord][shattersong-discord] for questions!
-
-[triplehex-blog]: https://triplehex.dev/shattersong-online/
-[triplehex-twitter]: https://twitter.com/triplehexdev
-[shattersong-discord]: https://discord.gg/K5RHxVEK6F
 
 ## Engine Updates
 
