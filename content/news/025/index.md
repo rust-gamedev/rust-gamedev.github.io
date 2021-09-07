@@ -434,31 +434,33 @@ in Rust.
 Rx is a pixel art editor/animator written in Rust in about 12K LOC, which
 combines a vim-like modal interface with a cursor-based editor.
 
-* Website: [https://rx.cloudhead.io](https://rx.cloudhead.io)
-* Code: <https://github.com/cloudhead/rx>
-* Community: [Discord](https://discord.gg/xHggPjfsS9)
-* Download: [rx-0.5.2-x86_64.AppImage][rx_download]
+- Website: [https://rx.cloudhead.io](https://rx.cloudhead.io)
+- Code: <https://github.com/cloudhead/rx>
+- Community: [Discord](https://discord.gg/xHggPjfsS9)
+- Download: [rx-0.5.2-x86_64.AppImage][rx_download]
 
 Release v0.5 was just published with the following new features and updates:
 
-* New tool `:flood`, for filling an area with color
-* New brush mode `line`, for drawing straight lines
-* New command `:selection/flip <axis>` to flip the current selection
-* New command `:export <resize> <path>`, eg. `:export @2x meme.gif`
-* New command `:p/write <file>` to save the color palette to a file
-* New command `:p/sample` to sample view colors into palette
-* New command `:p/sort` to sort the palette colors
-* New command `:p/gradient` to add a color gradient to the palette
-* New setting `:p/height` to set the palette height in cells
-* Move between frames with `h` and `l` keys
-* Use *pan* tool in help mode
-* Fix command key ':' for non-ANSI layouts
-* Implement new command parser based on `memoir`
-* Add compatibility for non x86-64 systems
-* Support pasting from clipboard in command-line
-* Support character inputs in key mappings, eg. `map '?' :help`
-* Skip unreadable files when reading a directory
-* New, smoother animation rendering
+```markdown
+- New tool `:flood`, for filling an area with color
+- New brush mode `line`, for drawing straight lines
+- New command `:selection/flip <axis>` to flip the current selection
+- New command `:export <resize> <path>`, eg. `:export @2x meme.gif`
+- New command `:p/write <file>` to save the color palette to a file
+- New command `:p/sample` to sample view colors into palette
+- New command `:p/sort` to sort the palette colors
+- New command `:p/gradient` to add a color gradient to the palette
+- New setting `:p/height` to set the palette height in cells
+- Move between frames with `h` and `l` keys
+- Use *pan* tool in help mode
+- Fix command key ':' for non-ANSI layouts
+- Implement new command parser based on `memoir`
+- Add compatibility for non x86-64 systems
+- Support pasting from clipboard in command-line
+- Support character inputs in key mappings, eg. `map '?' :help`
+- Skip unreadable files when reading a directory
+- New, smoother animation rendering
+```
 
 [rx]: https://rx.cloudhead.io
 [rx_discord]: https://discord.gg/xHggPjfsS9
