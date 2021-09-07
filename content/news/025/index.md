@@ -303,7 +303,7 @@ Murder-User Dungeon (MUD) ([GitHub](mud-github), [Itch](mud-itch)) by
 is a 2D game made for the [Rusty Jam 21](rusty-jam-21) in just one week with the
 theme "*Illusion of Security*".
 
-> Tony is a young man. Finally having his own apartment is a good thing! He will 
+> Tony is a young man. Finally having his own apartment is a good thing! He will
 > learn how to live by himself and how to enjoy the small things in life like
 > playing on his old retro computer: the Astaria 3600 running SafeOS 3.1.
 >
@@ -311,11 +311,11 @@ theme "*Illusion of Security*".
 > meet new people in the Labyrinth(TM) game, and not being friendly to them can have
 > a serious impact on your real life!
 >
-> In Murder-User Dungeon you will juggle between exploring the Labyrinth(TM) game 
+> In Murder-User Dungeon you will juggle between exploring the Labyrinth(TM) game
 > in your console, hiding from vengeful gamers, and making sure you fulfill your human
 > needs.
 >
-> To win the game, you must reach the end of the Labyrinth(TM)! 
+> To win the game, you must reach the end of the Labyrinth(TM)!
 
 The developers aimed to make the player feel that they were safe in their appartment at
 first - however as the game goes on and the player makes enemies of other gamers in the
@@ -333,8 +333,8 @@ at the end of the game's description).
 Linux and Windows builds are available on the Itch page, and feedback is welcomed!
 
 _Discussions: 
-[r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/pddreu/rusty_jam_submission_murderuser_dungeon/)  
-[r/rust](https://www.reddit.com/r/rust/comments/pddyv5/rusty_jam_submission_murderuser_dungeon/)  
+[r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/pddreu/rusty_jam_submission_murderuser_dungeon/),
+[r/rust](https://www.reddit.com/r/rust/comments/pddyv5/rusty_jam_submission_murderuser_dungeon/),
 [Rusty Jam Discord](https://discord.gg/KkeMUu5kxH)_
 
 [murder-user-dungeon]: https://sheepyhead.itch.io/murder-user-dungeon
