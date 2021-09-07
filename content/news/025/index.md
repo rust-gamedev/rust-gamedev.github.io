@@ -514,6 +514,41 @@ and/or get the source code at [GitLab][tbd-gitlab].
 [@TimeLark]: https://timelark.itch.io
 [@septum]: https://septum.itch.io
 
+### [Veloren][veloren]
+
+![Exploring dungeons](veloren.jpg) _Exploring the caves_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In August, lots of preparation was done to get Veloren ready for the 0.11
+release coming in September. Work was done on refactoring parts of the codebase,
+and making server administration more ergonomic. Towers were added, which allow
+for above-ground dungeons. Skill trees were tweaked for better progression.
+Modular weapons had a heavy amount of work put into them and were recently
+merged. Work was done to prevent the camera from clipping through walls as much.
+
+Improvements were made to the physics system, as well as other optimizations to
+the real-time simulation system. Terrain persistence was completed and is now
+being tested on the main server. Balancing was done to loot tables, and more
+animations were added to characters. In September, 0.11 will be released. Come
+out to the [release party on the 11th at 18:00 UTC][veloren-release-event]!
+
+August's full weekly devlogs: "This Week In Veloren...":
+[#131][veloren-131],
+[#132][veloren-132],
+[#133][veloren-133],
+[#134][veloren-134],
+[#135][veloren-135].
+
+[veloren]: https://veloren.net
+[veloren-131]: https://veloren.net/devblog-131
+[veloren-132]: https://veloren.net/devblog-132
+[veloren-133]: https://veloren.net/devblog-133
+[veloren-134]: https://veloren.net/devblog-134
+[veloren-135]: https://veloren.net/devblog-135
+[veloren-release-event]: https://opencollective.com/veloren/events/veloren-0-11-release-party-05c1a306
+
 ## Engine Updates
 
 ## Learning Material Updates
