@@ -263,6 +263,60 @@ It's playable in browser on [itch][dayatmovies] and the code can be viewed on
 [dayatmoviesgit]: https://github.com/ramirezmike/rust_gamejam_0821
 [bevy-movieday]: https://bevyengine.org
 
+### [Sombervale]
+
+![Screenshot of Sombervale depicting the starting location](./sombervale.png)
+
+Sombervale ([GitHub][sv-gh], [itch.io][sv-itch], [Twitch][sv-twitch]) by
+[@blipjoy] is a game built in seven days for Rusty Jam. It is styled like an
+old handheld game with a 160x128 screen resolution and 16-color palette.
+
+The top 3 things that went well for this project were the art, tilemap support,
+and ECS. On the art side, the silhouettes in the background turned out better
+than expected. The back lighting (or at least the impression of back lighting)
+looks quite nice, even in motion. Tilemap support was added near the end of the
+jam built on [tiled]. It catapulted development progress from seeing major
+changes every day to making major changes every hour. [shipyard] is the Entity
+Component System crate used in Sombervale. This had a tricky learning curve, but
+simplified complex interactions between entities.
+
+Something that went poorly was choosing a scope that couldn't possibly be
+completed on time. As usual, everything turned into a stretch goal! Secondly, a
+lot of time was allocated to features that didn't make the cut. Much of this
+was a result of trying to be perfect instead of efficient. It's a good game jam
+lesson that often has to be relearned the hard way.
+
+[Sombervale]: https://blipjoy.itch.io/sombervale
+[sv-gh]: https://github.com/blipjoy/sombervale
+[sv-itch]: https://blipjoy.itch.io/sombervale
+[sv-twitch]: https://www.twitch.tv/blipjoy
+[@blipjoy]: https://github.com/blipjoy
+[tiled]: https://crates.io/crates/tiled
+[shipyard]: https://crates.io/crates/shipyard
+
+### Shattersong Online
+
+![Screenshot of Shattersong Online showing a a portal leading between two
+shards](shattersong.png)
+
+Shattersong Online is an online sandbox game written in Rust, with the goal of
+supporting thousands of players in a shared universe, with hundreds of players
+per shard. In game portals let players travel between shards hosted on separate
+physical servers.
+
+Since the initial announcement in July we have worked on restructuring large
+parts of the codebase to make adding new content more ergonomic. We tested
+out the new organization by adding a new monster type from scratch (pictured
+above).
+
+Read the [dev blog][triplehex-blog] for more info, follow
+[@triplehex][triplehex-twitter] on twitter for updates, and join the
+[shattersong discord][shattersong-discord] for questions!
+
+[triplehex-blog]: https://triplehex.dev/shattersong-online/
+[triplehex-twitter]: https://twitter.com/triplehexdev
+[shattersong-discord]: https://discord.gg/K5RHxVEK6F
+
 ### [The Process]
 
 ![An animated gif showing a machine setup to smelt iron ore](the_process.gif) _A
@@ -311,6 +365,32 @@ _Discussions:
 ## Engine Updates
 
 ## Learning Material Updates
+
+### [Rewriting my mobile game in Rust targeting WASM][panda-doodle-blog-post]
+
+![Panda Doodle logo](panda-doodle.png)
+
+[@lucamoller][@lucamoller] published [a blog post][panda-doodle-blog-post]
+describing his experience trying to learn Rust by working on a hobby project to
+migrate his mobile game from a native C++ implementation to a Rust-based one
+targetting WASM.
+
+The post is written in a storytelling manner going through the author's
+motivations to work on this project and the main challenges they faced while
+learning Rust and implementing a game using WASM.
+
+The resulting game, [Panda Doodle][panda-doodle-game], runs smoothly on mobile
+device browsers, and the [source code][panda-doodle-source-code] was open
+sourced to help inspire other developers that wish to venture into implementing
+WASM-based games in Rust.
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/oxqofv/show_rrust_rewriting_my_mobile_game_in_rust/)_
+
+[panda-doodle-blog-post]: https://lucamoller.medium.com/rewriting-my-mobile-game-in-rust-targeting-wasm-1f9f82751830
+[panda-doodle-game]: https://pandadoodle.lucamoller.com/
+[panda-doodle-source-code]: https://github.com/lucamoller/pandadoodle-rust-wasm
+[@lucamoller]: https://github.com/lucamoller
 
 ## Tooling Updates
 
