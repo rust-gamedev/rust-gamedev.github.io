@@ -367,8 +367,7 @@ undo/redo system.
 The new Path Tool shows Bézier anchor/control points (soon to be draggable).
 Rendering performance is much better and scrollbars now work with the infinite
 canvas. There's a new bounding box around selected shapes that are
-transformable with Blender-inspired <kbd>G</kbd>/<kbd>R</kbd>/<kbd>S</kbd>
-keys.
+transformable with Blender-inspired [G]/[R]/[S] keys.
 
 [Try it right now in your browser.][graphite-live-demo] Graphite is making
 rapid progress towards becoming a non-destructive, procedural graphics editor
