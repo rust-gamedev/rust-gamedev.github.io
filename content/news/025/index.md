@@ -65,6 +65,30 @@ _Discussions:
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
+## Rusty Jam
+
+![Rusty Jam Site](rusty-jam.png)
+
+The first (unofficial) Rust Game Jam just completed! The [Rusty
+Jam][rusty-jam-homepage] is a game jam to work on games made completely in Rust.
+19 games were completed and submitted over the one-week jam. The games were
+rated by the community, and the top three games were:
+
+- First place: [Winter][rusty-jam-first-place] by MrRafael
+- Second place: [Murder User Dungeon][rusty-jam-second-place] by Sheepyhead,
+  cdsupina, and Nightlyside
+- Third place: [To be Dire][rusty-jam-third-place] by septum
+
+The Rusty Jam will be back, so stay tuned on the [Rusty Jam Discord
+Server][rusty-jam-server] for more updates!
+
+[rusty-jam-homepage]: https://itch.io/jam/rusty-jam
+[rusty-jam-entries]: https://itch.io/jam/rusty-jam/entries
+[rusty-jam-first-place]: https://mrrafael.itch.io/winter
+[rusty-jam-second-place]: https://sheepyhead.itch.io/murder-user-dungeon
+[rusty-jam-third-place]: https://septum.itch.io/to-be-dire
+[rusty-jam-server]: https://discord.gg/jZtz6y9gCJ
+
 ## Rust GameDev Meetup
 
 ![Gamedev meetup poster](gamedev-meetup.png)
