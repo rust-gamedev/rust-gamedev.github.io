@@ -317,6 +317,155 @@ Read the [dev blog][triplehex-blog] for more info, follow
 [triplehex-twitter]: https://twitter.com/triplehexdev
 [shattersong-discord]: https://discord.gg/K5RHxVEK6F
 
+### [The Process]
+
+![An animated gif showing a machine setup to smelt iron ore](the_process.gif) _A
+smelter factory setup in The Process_
+
+[The Process] by @setzer22 is an upcoming game about factory building, process
+management, and carrot production, built with Rust using the Godot game engine!
+
+This month has seen a lot of activity: More improvements to the level editor,
+in-game assets and general gameplay improvements. But the main focus has been on
+a new building system with improved ergonomics. The game is now approaching a
+point where all the core mechanics for the factory simulation are in place, but
+more in-game content and assets are still required reaching the first playable
+demo.
+
+This month the game has seen the following changes and improvements:
+
+- New assets like
+  [wooden planks](https://twitter.com/PlayTheProcess/status/1423712530267054086),
+  [machine parts](https://twitter.com/PlayTheProcess/status/1433160712231297027)
+  and
+  [mashed carrot cans](https://twitter.com/PlayTheProcess/status/1434466387787923456),
+  with their in-game recipes.
+- A new machine, the
+  [centrifuge](https://twitter.com/PlayTheProcess/status/1430923976574910466)
+- A new system to tweak properties with
+  [OSD sliders](https://twitter.com/PlayTheProcess/status/1424638751041536001)
+  to speed-up iteration times. Short explanation
+  [here](https://twitter.com/PlayTheProcess/status/1424638756246675459).
+- A new egui-powered
+  [main menu](https://twitter.com/PlayTheProcess/status/1425785805453373444)
+  for the main game screen.
+- Improvements to the building system:
+  [ghost markers](https://twitter.com/PlayTheProcess/status/1427560636289069059),
+  [ramps](https://twitter.com/PlayTheProcess/status/1428300028712558595),
+  [walls](https://twitter.com/PlayTheProcess/status/1429391914130882564),
+  [machines](https://twitter.com/PlayTheProcess/status/1430229400923119621)
+  and
+  [conveyor belts](https://twitter.com/PlayTheProcess/status/1430479444213485574)!
+
+_Discussions:
+[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/p7ccad/a_3d_building_system_overhaul_for_the_process/)_
+
+[The Process]: https://twitter.com/PlayTheProcess
+
+### [Murder-User Dungeon][murder-user-dungeon]
+
+![Murder-User Dungeon gameplay screenshots](mud_screenshots.png)
+
+Murder-User Dungeon (MUD) ([GitHub](mud-github), [Itch](mud-itch)) by
+[@Nightlyside](nightlyside), [@cdsupina](cdsupina), [@Shippyhead](sheepyhead)
+is a 2D game made for the [Rusty Jam 21](rusty-jam-21) in just one week with the
+theme "*Illusion of Security*".
+
+> Tony is a young man. Finally having his own apartment is a good thing! He will
+> learn how to live by himself and how to enjoy the small things in life like
+> playing on his old retro computer: the Astaria 3600 running SafeOS 3.1.
+>
+> However, you will quickly realize that the internet is not so friendly. You will
+> meet new people in the Labyrinth(TM) game, and not being friendly to them can have
+> a serious impact on your real life!
+>
+> In Murder-User Dungeon you will juggle between exploring the Labyrinth(TM) game
+> in your console, hiding from vengeful gamers, and making sure you fulfill your
+> human needs.
+>
+> To win the game, you must reach the end of the Labyrinth(TM)!
+
+The developers aimed to make the player feel that they were safe in their apartment
+atfirst - however as the game goes on and the player makes enemies of other gamers
+in the Labyrinth, they risk them coming to their apartment to get revenge.
+
+The team split development of the game, so that each member could work
+independently on seperate features. While [@cdsupina](cdsupina) worked on the
+needs system and the graphics, [@Sheepyhead](sheepyhead) worked on the UI and
+menus, and [@Nightlyside](nightlyside) worked on the console and Labyrinth gameplay.
+
+MUD was developed using the [Bevy game engine](bevy-engine), Rapier2D for collisions,
+Aseprite for the graphics, and a lot of free assets from the internet (which are
+credited at the end of the game's description).
+
+Linux and Windows builds are available on the Itch page, and feedback is welcomed!
+
+_Discussions:
+[r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/pddreu/rusty_jam_submission_murderuser_dungeon/),
+[r/rust](https://www.reddit.com/r/rust/comments/pddyv5/rusty_jam_submission_murderuser_dungeon/),
+[Rusty Jam Discord](https://discord.gg/KkeMUu5kxH)_
+
+[murder-user-dungeon]: https://sheepyhead.itch.io/murder-user-dungeon
+[bevy-engine]: https://bevyengine.org/
+[rusty-jam-21]: https://itch.io/jam/rusty-jam
+[mud-itch]: https://sheepyhead.itch.io/murder-user-dungeon
+[mud-github]: https://github.com/TheRealTeamFReSh/MurderUserDungeon
+[nightlyside]: https://nightlyside.github.io/
+[cdsupina]: https://github.com/cdsupina
+[sheepyhead]: https://github.com/Sheepyhead
+
+### [Theta Wave]
+
+[![Theta Wave Mobs](theta-wave.gif)][Theta Wave]
+_All mobs ported to Bevy Theta Wave_
+
+[Theta Wave] is an open-source space shooter game by developers [@micah_tigley] and
+[@carlosupina]. In the past month, they have been working towards porting Theta
+Wave to the Bevy Engine. Most of the work this month has been focused
+on implementing all of the existing mobs in Bevy and Rapier.
+
+Progress on this port is going strong - you can find the GitHub issue for
+the port [here][Bevy Port Issue].
+
+_Discussions:
+[Twitter](https://twitter.com/carlosupina/status/1432039838463705090)_  
+
+[Bevy Port Issue]: https://github.com/thetawavegame/thetawave/issues/2
+[Theta Wave]: https://github.com/thetawavegame/thetawave
+[@micah_tigley]: https://twitter.com/micah_tigley
+[@carlosupina]: https://twitter.com/carlosupina
+
+### [Shroom Kingdom][shroom-kingdom]
+
+![SHRM token distribution](shroom-kingdom.png)
+_SHRM token distribution_
+
+Shroom Kingdom ([GitHub][shrm-github], [Discord][shrm-discord], [Twitter][shrm-twitter])
+is an upcoming play-to-earn video game built with web technologies
+running on the [NEAR Blockchain][near-blockchain].
+
+This month the [whitepaper draft][shrm-whitepaper] has been published and a lot
+of thoughts have been put into the token economics and how to integrate the game
+with the blockchain. The Shroom Kingdom DAO (Decentralised Autonomous
+Organization) is looking for self motivated people, who want to help build the
+project. DAO members will be rewarded with the $SHRM token, which will soon be
+launched on the NEAR mainnet after the final feedback round from NEAR core team
+members.
+
+A Proof of Concept has also been published for the app, which will be built with
+Bevy and Rapier compiled to WebAssembly and which uses React for the GUI.
+
+To incentivise early adoption of the project, an [NFT airdrop][shrm-nft-airdrop]
+has been announced. The NFT will only be acquirable for a limited amount of time.
+
+[shroom-kingdom]: https://shroomkingdom.net/
+[shrm-github]: https://github.com/Shroom-Kingdom
+[shrm-discord]: https://discord.gg/SPZsgSe
+[shrm-twitter]: https://twitter.com/shrm_kingdom
+[shrm-whitepaper]: https://whitepaper.shroomkingdom.net/
+[shrm-nft-airdrop]: https://shroomkingdom.net/blog/nft-airdrop/
+[near-blockchain]: https://near.org
+
 ### Fish Fight
 
 ![Screenshot of fishfight.org website](fishfight-website.png)
@@ -369,6 +518,36 @@ _Discussions:
 [@lucamoller]: https://github.com/lucamoller
 
 ## Tooling Updates
+
+### [Graphite][graphite-repo]
+
+![Graphite alpha teaser](graphite_alpha.png)
+_Graphite Alpha - Coming very soon_
+
+Graphite ([GitHub][graphite-repo], [Discord][graphite-discord],
+[Twitter](https://twitter.com/GraphiteEditor)) is an in-development vector and
+raster graphics editor built on a non-destructive node-based workflow.
+
+Work has progressed on features for the imminent Alpha release. A project
+website has been designed and will launch this month. Crucial user-facing
+features have been added: saving/opening documents; a bug report dialog for
+panics; an auto-generated list of dependency license notices; and a new
+undo/redo system.
+
+The new Path Tool shows Bézier anchor/control points (soon to be draggable).
+Rendering performance is much better and scrollbars now work with the infinite
+canvas. There's a new bounding box around selected shapes that are
+transformable with Blender-inspired [G]/[R]/[S] keys.
+
+[Try it right now in your browser.][graphite-live-demo] Graphite is making
+rapid progress towards becoming a non-destructive, procedural graphics editor
+suitable of replacing traditional 2D DCC applications. The public alpha release
+is coming very soon. [Join the Discord][graphite-discord] and get involved!
+
+[graphite-repo]: https://github.com/GraphiteEditor/Graphite
+[graphite-discord]: https://discord.graphite.design
+[graphite-twitter]: https://twitter.com/GraphiteEditor
+[graphite-live-demo]: https://editor.graphite.design
 
 ## Library Updates
 
@@ -430,6 +609,30 @@ Still more work ahead to make it solid, and to support WebGL2 properly.
 [kas#241]: https://github.com/kas-gui/kas/pull/241
 [pixels#187]: https://github.com/parasyte/pixels/pull/187
 [WGSL]: https://gpuweb.github.io/gpuweb/wgsl/
+
+### [godot-egui]-0.1.8
+
+![An animation showing godot-egui running as a plugin inside the editor](godot_egui.gif)
+_You can now use egui to make Godot editor extensions!_
+
+The [egui](https://github.com/emilk/egui) backend for
+[godot-rust](https://github.com/godot-rust/godot-rust) is improving fast. Some
+bugs have been ironed out during this past month, and the integration has got
+several features:
+
+- The repository now includes an example of how to setup egui to create
+  [Godot editor plugins](https://twitter.com/PlayTheProcess/status/1431660162587275267).
+  Contribution by @jacobsky.
+- Custom font support by drag & dropping font files right from Godot editor.
+- Updated crate to match latest egui 0.14.2
+- Configurable texture filtering.
+- Several bugfixes and improvements.
+
+Additionally, a new [theme
+editor](https://github.com/setzer22/godot-egui/issues/5) is in the works, which
+hopefully will be helpful to other egui backends as well!
+
+[godot-egui]: https://github.com/setzer22/godot-egui
 
 ## Popular Workgroup Issues in Github
 
