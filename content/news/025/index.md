@@ -585,19 +585,13 @@ jam][whats-the-word-results]!
 
 ### [rg3d]
 
-![rg3d](rg3d_logo.png)
-
 [rg3d] ([Discord][rg3d_discord], [Twitter][rg3d_twitter]) is a game engine that
-aims to be easy to use and provide a large set of out-of-the-box features.
+aims to be easy to use and provide a large set of out-of-the-box features. [A
+video][rg3d_fh] was released with updates from version 0.22. [Another
+video][rg3d_gfs] about the engine made by [@GameFromScratch][gfs_channel], with
+the accompanying article that can be found [here][gfs_article].
 
 [![rg3d feature highlights](rg3d-feature-highlights.png)][rg3d_fh]
-__Engine feature highlights__
-
-Check out the video about the engine made by [@GameFromScratch][gfs_channel], an
-article could be found [here][gfs_article].
-
-[![rg3d feature highlights](rg3d-gfs.png)][rg3d_gfs]
-__A video by [@GameFromScratch][gfs_channel]__
 
 Lots has been happening with recent rg3d engine development.  Physically-based
 rendering (PBR) was added. High dynamic range rendering is now supported, along
