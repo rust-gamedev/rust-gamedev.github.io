@@ -105,8 +105,8 @@ out [this form][gamedev-meetup-form].
 ### [Pixie Wrangler]
 
 [![Screenshot of Pixie Wrangler showing pixies traveling along paths drawn by
-the player.](pixie_wrangler.png)][pw-itch] _Click the image to play the game in
-your desktop browser!_
+the player.](pixie_wrangler.png)][pw-itch]
+_Click the image to play the game in your desktop browser!_
 
 Pixie Wrangler ([itch.io][pw-itch], [GitHub][pw-github]) by [@rparrett] is a
 puzzle game reminiscent of old school printed circuit board design software.
