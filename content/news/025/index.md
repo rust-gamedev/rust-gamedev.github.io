@@ -70,7 +70,8 @@ rated by the community, and the top three games were:
 - First place: [Winter][rusty-jam-first-place] by MrRafael
 - Second place: [Murder User Dungeon][rusty-jam-second-place] by Sheepyhead,
   cdsupina, and Nightlyside
-- Third place: [To be Dire][rusty-jam-third-place] by septum
+- Third place: [To be Dire][rusty-jam-third-place] by mdaffin, TimeLark and
+  septum
 
 The Rusty Jam will be back, so stay tuned on the [Rusty Jam Discord
 Server][rusty-jam-server] for more updates!
