@@ -89,8 +89,8 @@ Server][rusty-jam-server] for more updates!
 
 ![Gamedev meetup poster](gamedev-meetup.png)
 
-The eighth Rust Gamedev Meetup happened in August. You can watch the recording of
-the meetup [here on Youtube][gamedev-meetup-video]. The meetups take place on
+The eighth Rust Gamedev Meetup happened in August. You can watch the recording
+of the meetup [here on Youtube][gamedev-meetup-video]. The meetups take place on
 the second Saturday every month via the [Rust Gamedev Discord
 server][rust-gamedev-discord], and are also [streamed on
 Twitch][rust-gamedev-twitch]. If you would like to show off what you've been
@@ -107,17 +107,16 @@ out [this form][gamedev-meetup-form].
 
 ### [Pixie Wrangler]
 
-[![Screenshot of Pixie Wrangler showing pixies traveling along paths drawn
-by the player.](pixie_wrangler.png)][pw-itch]
-_Click the image to play the game in your desktop browser!_
+[![Screenshot of Pixie Wrangler showing pixies traveling along paths drawn by
+the player.](pixie_wrangler.png)][pw-itch] _Click the image to play the game in
+your desktop browser!_
 
-Pixie Wrangler ([itch.io][pw-itch], [GitHub][pw-github]) by [@rparrett]
-is a puzzle game reminiscent of old school printed circuit board design
-software.
+Pixie Wrangler ([itch.io][pw-itch], [GitHub][pw-github]) by [@rparrett] is a
+puzzle game reminiscent of old school printed circuit board design software.
 
-Help the Pixies get from their outputs to their inputs while doing battle
-with the intentionally less-than-ergonomic circuit design software. Pixie
-Wrangler is currently a prototype, but includes 9 complete levels.
+Help the Pixies get from their outputs to their inputs while doing battle with
+the intentionally less-than-ergonomic circuit design software. Pixie Wrangler is
+currently a prototype, but includes 9 complete levels.
 
 Pixie Wrangler was built with [Bevy 0.5] with support from these other great
 projects: [bevy_webgl2], [bevy_prototype_lyon], [bevy_asset_ron],
@@ -138,19 +137,18 @@ projects: [bevy_webgl2], [bevy_prototype_lyon], [bevy_asset_ron],
 ![Vange-rs on wgpu-0.10](vangers-wgpu0.10.png)
 _vange-rs on wgpu-0.10_
 
-Vange-rs is a rewrite of the iconic Vangers game from 1998 in Rust,
-heavily utilizing GPU for rendering.
+Vange-rs is a rewrite of the iconic Vangers game from 1998 in Rust, heavily
+utilizing GPU for rendering.
 
-The rendering engine has seen a major upgrade. Essential shaders were
-rewritten into [WGSL], which streamlined the shader pipelines and culled out
-the dependency tree.
-Code was ported on the latest [wgpu]-0.10 release and helped identify a few issues.
-Most importantly, this change made the game able to finally be distributed,
-and maybe even compiled for the Web in the future.
-Read more on the [WGSL-related blog post].
+The rendering engine has seen a major upgrade. Essential shaders were rewritten
+into [WGSL], which streamlined the shader pipelines and culled out the
+dependency tree. Code was ported on the latest [wgpu]-0.10 release and helped
+identify a few issues. Most importantly, this change made the game able to
+finally be distributed, and maybe even compiled for the Web in the future. Read
+more on the [WGSL-related blog post].
 
-In order to make advantage of the new superpowers,
-the [Rusty Vangers] game (the new working title) was published on Itch.io.
+In order to make advantage of the new superpowers, the [Rusty Vangers] game (the
+new working title) was published on Itch.io.
 
 [vange-rs]: https://github.com/kvark/vange-rs
 [WGSL-related blog post]: https://vange.rs/2021/08/25/pure-rust.html
@@ -158,18 +156,18 @@ the [Rusty Vangers] game (the new working title) was published on Itch.io.
 
 ### [RecWars]
 
-[![RecWars screenshot](rec-wars.png)][rec-wars-web]
-_Click the image to play in your browser_
+[![RecWars screenshot](rec-wars.png)][rec-wars-web] _Click the image to play in
+your browser_
 
-[RecWars] by @martin-t is a free and open source Rust clone of [RecWar],
-a top down vehicle shooter.
+[RecWars] by @martin-t is a free and open source Rust clone of [RecWar], a top
+down vehicle shooter.
 
 The game is a work-in-progress, this month it gained splitscreen for 2 players
-and an in-game console to change cvars - you can edit any
-of the configuration variables that define its gameplay balance while playing.
+and an in-game console to change cvars - you can edit any of the configuration
+variables that define its gameplay balance while playing.
 
-RecWars uses the [macroquad] engine so it can be played on the desktop
-as well as [in the browser][rec-wars-web].
+RecWars uses the [macroquad] engine so it can be played on the desktop as well
+as [in the browser][rec-wars-web].
 
 [RecWars]: https://github.com/martin-t/rec-wars
 [RecWar]: https://github.com/martin-t/rec-wars#the-original-game
@@ -214,19 +212,19 @@ https://twitter.com/bauxitedev
 
 [![Screenshot of Liminal Lab 000 showing a white-walled laboratory test chamber
 with buttons on the floor, lights on the wall, and a dark cube levitating
-overhead.](liminal_lab_000.png)][ll000-live]
-_Click the image to play the game in your desktop browser!_
+overhead.](liminal_lab_000.png)][ll000-live] _Click the image to play the game
+in your desktop browser!_
 
-Liminal Lab 000 ([live version][ll000-live]) by [@pebaz] is a tiny,
-minimalistic puzzle game with 1 puzzle designed around the concept of
-[Liminal Spaces][liminality]. Liminal Spaces are usually abandoned,
-transitional places where life once thrived. These spaces are somehow familiar
-to the viewer but the viewer has never been there. The unsettling feeling of
-being alone comes from the realization that the viewer does not belong in that
-space but is merely passing through it.
+Liminal Lab 000 ([live version][ll000-live]) by [@pebaz] is a tiny, minimalistic
+puzzle game with 1 puzzle designed around the concept of [Liminal
+Spaces][liminality]. Liminal Spaces are usually abandoned, transitional places
+where life once thrived. These spaces are somehow familiar to the viewer but the
+viewer has never been there. The unsettling feeling of being alone comes from
+the realization that the viewer does not belong in that space but is merely
+passing through it.
 
-Liminal Lab 000 was built using [Macroquad][macroquad], utilizes voxel
-rendering with 8x8x8 chunks, and is hosted on Google Firebase Hosting.
+Liminal Lab 000 was built using [Macroquad][macroquad], utilizes voxel rendering
+with 8x8x8 chunks, and is hosted on Google Firebase Hosting.
 
 _Discussions: [/r/rust_gamedev][liminal-reddit]_
 
@@ -240,8 +238,8 @@ _Discussions: [/r/rust_gamedev][liminal-reddit]_
 
 ![Level example from Not Snake](notsnake.png)
 
-Not Snake ([GitHub][notsnakegit], [Itch][not-snake]) by [Michael Ramirez]
-is a 3D snake game where you don't play as the snake.
+Not Snake ([GitHub][notsnakegit], [Itch][not-snake]) by [Michael Ramirez] is a
+3D snake game where you don't play as the snake.
 
 Not Snake was developed using the [Bevy game engine][bevy-notsnake]. It was
 completed and [released for free][not-snake] in August and can be played on
@@ -288,8 +286,8 @@ It's playable in browser on [itch][dayatmovies] and the code can be viewed on
 ![Screenshot of Sombervale depicting the starting location](./sombervale.png)
 
 Sombervale ([GitHub][sv-gh], [itch.io][sv-itch], [Twitch][sv-twitch]) by
-[@blipjoy] is a game built in seven days for Rusty Jam. It is styled like an
-old handheld game with a 160x128 screen resolution and 16-color palette.
+[@blipjoy] is a game built in seven days for Rusty Jam. It is styled like an old
+handheld game with a 160x128 screen resolution and 16-color palette.
 
 The top 3 things that went well for this project were the art, tilemap support,
 and ECS. On the art side, the silhouettes in the background turned out better
@@ -302,8 +300,8 @@ simplified complex interactions between entities.
 
 Something that went poorly was choosing a scope that couldn't possibly be
 completed on time. As usual, everything turned into a stretch goal! Secondly, a
-lot of time was allocated to features that didn't make the cut. Much of this
-was a result of trying to be perfect instead of efficient. It's a good game jam
+lot of time was allocated to features that didn't make the cut. Much of this was
+a result of trying to be perfect instead of efficient. It's a good game jam
 lesson that often has to be relearned the hard way.
 
 [Sombervale]: https://blipjoy.itch.io/sombervale
@@ -325,9 +323,8 @@ per shard. In game portals let players travel between shards hosted on separate
 physical servers.
 
 Since the initial announcement in July we have worked on restructuring large
-parts of the codebase to make adding new content more ergonomic. We tested
-out the new organization by adding a new monster type from scratch (pictured
-above).
+parts of the codebase to make adding new content more ergonomic. We tested out
+the new organization by adding a new monster type from scratch (pictured above).
 
 Read the [dev blog][triplehex-blog] for more info, follow
 [@triplehex][triplehex-twitter] on twitter for updates, and join the
@@ -387,38 +384,41 @@ _Discussions:
 ![Murder-User Dungeon gameplay screenshots](mud_screenshots.png)
 
 Murder-User Dungeon (MUD) ([GitHub](mud-github), [Itch](mud-itch)) by
-[@Nightlyside](nightlyside), [@cdsupina](cdsupina), [@Shippyhead](sheepyhead)
-is a 2D game made for the [Rusty Jam 21](rusty-jam-21) in just one week with the
+[@Nightlyside](nightlyside), [@cdsupina](cdsupina), [@Shippyhead](sheepyhead) is
+a 2D game made for the [Rusty Jam 21](rusty-jam-21) in just one week with the
 theme "*Illusion of Security*".
 
 > Tony is a young man. Finally having his own apartment is a good thing! He will
 > learn how to live by himself and how to enjoy the small things in life like
 > playing on his old retro computer: the Astaria 3600 running SafeOS 3.1.
 >
-> However, you will quickly realize that the internet is not so friendly. You will
-> meet new people in the Labyrinth(TM) game, and not being friendly to them can have
-> a serious impact on your real life!
+> However, you will quickly realize that the internet is not so friendly. You
+> will meet new people in the Labyrinth(TM) game, and not being friendly to them
+> can have a serious impact on your real life!
 >
-> In Murder-User Dungeon you will juggle between exploring the Labyrinth(TM) game
-> in your console, hiding from vengeful gamers, and making sure you fulfill your
-> human needs.
+> In Murder-User Dungeon you will juggle between exploring the Labyrinth(TM)
+> game in your console, hiding from vengeful gamers, and making sure you fulfill
+> your human needs.
 >
 > To win the game, you must reach the end of the Labyrinth(TM)!
 
-The developers aimed to make the player feel that they were safe in their apartment
-atfirst - however as the game goes on and the player makes enemies of other gamers
-in the Labyrinth, they risk them coming to their apartment to get revenge.
+The developers aimed to make the player feel that they were safe in their
+apartment at first - however as the game goes on and the player makes enemies of
+other gamers in the Labyrinth, they risk them coming to their apartment to get
+revenge.
 
 The team split development of the game, so that each member could work
 independently on seperate features. While [@cdsupina](cdsupina) worked on the
 needs system and the graphics, [@Sheepyhead](sheepyhead) worked on the UI and
-menus, and [@Nightlyside](nightlyside) worked on the console and Labyrinth gameplay.
+menus, and [@Nightlyside](nightlyside) worked on the console and Labyrinth
+gameplay.
 
-MUD was developed using the [Bevy game engine](bevy-engine), Rapier2D for collisions,
-Aseprite for the graphics, and a lot of free assets from the internet (which are
-credited at the end of the game's description).
+MUD was developed using the [Bevy game engine](bevy-engine), Rapier2D for
+collisions, Aseprite for the graphics, and a lot of free assets from the
+internet (which are credited at the end of the game's description).
 
-Linux and Windows builds are available on the Itch page, and feedback is welcomed!
+Linux and Windows builds are available on the Itch page, and feedback is
+welcomed!
 
 _Discussions:
 [r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/pddreu/rusty_jam_submission_murderuser_dungeon/),
@@ -439,13 +439,13 @@ _Discussions:
 [![Theta Wave Mobs](theta-wave.gif)][Theta Wave]
 _All mobs ported to Bevy Theta Wave_
 
-[Theta Wave] is an open-source space shooter game by developers [@micah_tigley] and
-[@carlosupina]. In the past month, they have been working towards porting Theta
-Wave to the Bevy Engine. Most of the work this month has been focused
-on implementing all of the existing mobs in Bevy and Rapier.
+[Theta Wave] is an open-source space shooter game by developers [@micah_tigley]
+and [@carlosupina]. In the past month, they have been working towards porting
+Theta Wave to the Bevy Engine. Most of the work this month has been focused on
+implementing all of the existing mobs in Bevy and Rapier.
 
-Progress on this port is going strong - you can find the GitHub issue for
-the port [here][Bevy Port Issue].
+Progress on this port is going strong - you can find the GitHub issue for the
+port [here][Bevy Port Issue].
 
 _Discussions:
 [Twitter](https://twitter.com/carlosupina/status/1432039838463705090)_  
@@ -460,9 +460,9 @@ _Discussions:
 ![SHRM token distribution](shroom-kingdom.png)
 _SHRM token distribution_
 
-Shroom Kingdom ([GitHub][shrm-github], [Discord][shrm-discord], [Twitter][shrm-twitter])
-is an upcoming play-to-earn video game built with web technologies
-running on the [NEAR Blockchain][near-blockchain].
+Shroom Kingdom ([GitHub][shrm-github], [Discord][shrm-discord],
+[Twitter][shrm-twitter]) is an upcoming play-to-earn video game built with web
+technologies running on the [NEAR Blockchain][near-blockchain].
 
 This month the [whitepaper draft][shrm-whitepaper] has been published and a lot
 of thoughts have been put into the token economics and how to integrate the game
@@ -476,7 +476,8 @@ A Proof of Concept has also been published for the app, which will be built with
 Bevy and Rapier compiled to WebAssembly and which uses React for the GUI.
 
 To incentivise early adoption of the project, an [NFT airdrop][shrm-nft-airdrop]
-has been announced. The NFT will only be acquirable for a limited amount of time.
+has been announced. The NFT will only be acquirable for a limited amount of
+time.
 
 [shroom-kingdom]: https://shroomkingdom.net/
 [shrm-github]: https://github.com/Shroom-Kingdom
@@ -492,8 +493,8 @@ has been announced. The NFT will only be acquirable for a limited amount of time
 
 [As promised](https://fishfight.itch.io/ff/devlog/281554/fish-fight-reloaded),
 after months of private prototyping of early invitees, the Fish Fight devs are
-finally ready to make their code and community channels available to the
-general public. They also launched their website!
+finally ready to make their code and community channels available to the general
+public. They also launched their website!
 
 - [Announcement post][fish-announce]
 - [GitHub repo][fish-github] (MIT/Apache)
@@ -515,12 +516,11 @@ TO BE DIRE by [@mdaffin], [@TimeLark] and [@septum], is a prototype survival
 game made in a week with [Bevy][tbd-bevy] for the first [Rusty Jam][tbd-jam].
 
 The main idea behind the design of TO BE DIRE is venturing out of the safe zone
-in order to survive, adding elements of gameplay like gathering resources,
-and maintaining the player character health and hunger, that are common
-for the genre, finally having the implementation of the monsters and
-fear system as a way to futher address the first Rusty Jam's theme
-"Illusion of Security".
-[Read more about TO BE DIRE's design in the issues at GitLab][tbd-issues].
+in order to survive, adding elements of gameplay like gathering resources, and
+maintaining the player character health and hunger, that are common for the
+genre, finally having the implementation of the monsters and fear system as a
+way to futher address the first Rusty Jam's theme "Illusion of Security". [Read
+more about TO BE DIRE's design in the issues at GitLab][tbd-issues].
 
 Download the game at [itch.io][tbd-itch] (available for Linux and Windows)
 and/or get the source code at [GitLab][tbd-gitlab].
@@ -595,8 +595,8 @@ aims to be easy to use and provide a large set of out-of-the-box features.
 [![rg3d feature highlights](rg3d-feature-highlights.png)][rg3d_fh]
 __Engine feature highlights__
 
-Check out the video about the engine made by [@GameFromScratch][gfs_channel],
-an article could be found [here][gfs_article].
+Check out the video about the engine made by [@GameFromScratch][gfs_channel], an
+article could be found [here][gfs_article].
 
 [![rg3d feature highlights](rg3d-gfs.png)][rg3d_gfs]
 __A video by [@GameFromScratch][gfs_channel]__
@@ -685,13 +685,13 @@ undo/redo system.
 
 The new Path Tool shows Bézier anchor/control points (soon to be draggable).
 Rendering performance is much better and scrollbars now work with the infinite
-canvas. There's a new bounding box around selected shapes that are
-transformable with Blender-inspired [G]/[R]/[S] keys.
+canvas. There's a new bounding box around selected shapes that are transformable
+with Blender-inspired [G]/[R]/[S] keys.
 
-[Try it right now in your browser.][graphite-live-demo] Graphite is making
-rapid progress towards becoming a non-destructive, procedural graphics editor
-suitable of replacing traditional 2D DCC applications. The public alpha release
-is coming very soon. [Join the Discord][graphite-discord] and get involved!
+[Try it right now in your browser.][graphite-live-demo] Graphite is making rapid
+progress towards becoming a non-destructive, procedural graphics editor suitable
+of replacing traditional 2D DCC applications. The public alpha release is coming
+very soon. [Join the Discord][graphite-discord] and get involved!
 
 [graphite-repo]: https://github.com/GraphiteEditor/Graphite
 [graphite-discord]: https://discord.graphite.design
@@ -750,17 +750,17 @@ Release v0.5 was just published with the following new features and updates:
 [GGRS] by [@g_schup] is a reimagination of the [GGPO] P2P rollback network SDK
 written in 100% safe Rust.
 
-Since the last update, GGRS has released version 0.4.4 and received
-performance updates and fixes, such as a
-[sparse saving feature](https://gschup.github.io/ggrs/blog/sparse-saving/).
-The authors also proudly present [bevy_GGRS]!
+Since the last update, GGRS has released version 0.4.4 and received performance
+updates and fixes, such as a [sparse saving
+feature](https://gschup.github.io/ggrs/blog/sparse-saving/). The authors also
+proudly present [bevy_GGRS]!
 
 bevy_GGRS is a plugin to integrate GGRS easily into the popular game engine
 [bevy]. It features autmatic saving and loading of components and resources
-defined by the user through bevy's reflection tools.
-The plugin is currently in development and uses features that have not
-been released in bevy 0.5. With bevy 0.6 on the horizon, bevy_GGRS is
-planning to publish to [crates.io](https://crates.io), as well.
+defined by the user through bevy's reflection tools. The plugin is currently in
+development and uses features that have not been released in bevy 0.5. With bevy
+0.6 on the horizon, bevy_GGRS is planning to publish to
+[crates.io](https://crates.io), as well.
 
 If you are interested in developing with GGRS, check the following resources:
 
@@ -780,19 +780,21 @@ If you are interested in developing with GGRS, check the following resources:
 _unannounced engine on wgpu-0.10_
 
 The team has released wgpu-0.10 with a fully rewritten graphics abstraction
-("wgpu-hal" instead of "gfx-hal"), as well as [naga] version 0.6.
-Read more in [Release of a Pure-Rust v0.10 and a Call For Testing].
+("wgpu-hal" instead of "gfx-hal"), as well as [naga] version 0.6. Read more in
+[Release of a Pure-Rust v0.10 and a Call For Testing].
 
-There were a few issues spotted, but overall it went smooth for such a big change.
-User libraries were quick to update: [iced#1000], [kas#241], [pixels#187], and others.
+There were a few issues spotted, but overall it went smooth for such a big
+change. User libraries were quick to update: [iced#1000], [kas#241],
+[pixels#187], and others.
 
 On the shader side, in addition to improved validation, hundreds of fixes to the
-produced outputs, the atomic operations are now supported when using [WGSL] sources.
+produced outputs, the atomic operations are now supported when using [WGSL]
+sources.
 
-The release comes at a cost of DX11 backend, which isn't there comparing to wgpu-0.9.
-On the plus side, the new GL backend performs much better. It runs most of the examples,
-and has been successfully tested on Raspberry Pi-3.
-Still more work ahead to make it solid, and to support WebGL2 properly.
+The release comes at a cost of DX11 backend, which isn't there comparing to
+wgpu-0.9. On the plus side, the new GL backend performs much better. It runs
+most of the examples, and has been successfully tested on Raspberry Pi-3. Still
+more work ahead to make it solid, and to support WebGL2 properly.
 
 [wgpu]: https://github.com/gfx-rs/wgpu
 [naga]: https://github.com/gfx-rs/naga
