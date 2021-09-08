@@ -881,13 +881,10 @@ Also, subscribe to [@rust_gamedev on Twitter][@rust_gamedev]
 or the [/r/rust_gamedev subreddit][/r/rust_gamedev] if you want to receive fresh
 news and updates about the ecosystem every day!
 
-<!--
-TODO: Add real links and un-comment once this post is published
 **Discussions of this post**:
-[/r/rust_gamedev](TODO),
-[Twitter](TODO),
+[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/pki6iw/this_month_in_rust_gamedev_25_august_2021/),
+[Twitter](https://twitter.com/rust_gamedev/status/1435700216510943234),
 [Discord](https://discord.gg/yNtPTb2).
--->
 
 [/r/rust_gamedev]: https://reddit.com/r/rust_gamedev
 [@rust_gamedev]: https://twitter.com/rust_gamedev
