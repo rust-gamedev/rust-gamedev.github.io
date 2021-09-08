@@ -381,9 +381,9 @@ _Discussions:
 
 ![Murder-User Dungeon gameplay screenshots](mud_screenshots.png)
 
-Murder-User Dungeon (MUD) ([GitHub](mud-github), [Itch](mud-itch)) by
-[@Nightlyside](nightlyside), [@cdsupina](cdsupina), [@Shippyhead](sheepyhead) is
-a 2D game made for the [Rusty Jam 21](rusty-jam-21) in just one week with the
+Murder-User Dungeon (MUD) ([GitHub][mud-github], [Itch][mud-itch]) by
+[@Nightlyside][nightlyside], [@cdsupina][cdsupina], [@Shippyhead][sheepyhead] is
+a 2D game made for the [Rusty Jam 21][rusty-jam-21] in just one week with the
 theme "*Illusion of Security*".
 
 > Tony is a young man. Finally having his own apartment is a good thing! He will
@@ -406,12 +406,12 @@ other gamers in the Labyrinth, they risk them coming to their apartment to get
 revenge.
 
 The team split development of the game, so that each member could work
-independently on separate features. While [@cdsupina](cdsupina) worked on the
-needs system and the graphics, [@Sheepyhead](sheepyhead) worked on the UI and
-menus, and [@Nightlyside](nightlyside) worked on the console and Labyrinth
+independently on separate features. While [@cdsupina][cdsupina] worked on the
+needs system and the graphics, [@Sheepyhead][sheepyhead] worked on the UI and
+menus, and [@Nightlyside][nightlyside] worked on the console and Labyrinth
 gameplay.
 
-MUD was developed using the [Bevy game engine](bevy-engine), Rapier2D for
+MUD was developed using the [Bevy game engine][bevy-engine], Rapier2D for
 collisions, Aseprite for the graphics, and a lot of free assets from the
 internet (which are credited at the end of the game's description).
 
