@@ -381,9 +381,9 @@ _Discussions:
 
 ![Murder-User Dungeon gameplay screenshots](mud_screenshots.png)
 
-Murder-User Dungeon (MUD) ([GitHub](mud-github), [Itch](mud-itch)) by
-[@Nightlyside](nightlyside), [@cdsupina](cdsupina), [@Shippyhead](sheepyhead) is
-a 2D game made for the [Rusty Jam 21](rusty-jam-21) in just one week with the
+Murder-User Dungeon (MUD) ([GitHub][mud-github], [Itch][mud-itch]) by
+[@Nightlyside][nightlyside], [@cdsupina][cdsupina], [@Shippyhead][sheepyhead] is
+a 2D game made for the [Rusty Jam 21][rusty-jam-21] in just one week with the
 theme "*Illusion of Security*".
 
 > Tony is a young man. Finally having his own apartment is a good thing! He will
@@ -406,12 +406,12 @@ other gamers in the Labyrinth, they risk them coming to their apartment to get
 revenge.
 
 The team split development of the game, so that each member could work
-independently on separate features. While [@cdsupina](cdsupina) worked on the
-needs system and the graphics, [@Sheepyhead](sheepyhead) worked on the UI and
-menus, and [@Nightlyside](nightlyside) worked on the console and Labyrinth
+independently on separate features. While [@cdsupina][cdsupina] worked on the
+needs system and the graphics, [@Sheepyhead][sheepyhead] worked on the UI and
+menus, and [@Nightlyside][nightlyside] worked on the console and Labyrinth
 gameplay.
 
-MUD was developed using the [Bevy game engine](bevy-engine), Rapier2D for
+MUD was developed using the [Bevy game engine][bevy-engine], Rapier2D for
 collisions, Aseprite for the graphics, and a lot of free assets from the
 internet (which are credited at the end of the game's description).
 
@@ -881,13 +881,10 @@ Also, subscribe to [@rust_gamedev on Twitter][@rust_gamedev]
 or the [/r/rust_gamedev subreddit][/r/rust_gamedev] if you want to receive fresh
 news and updates about the ecosystem every day!
 
-<!--
-TODO: Add real links and un-comment once this post is published
 **Discussions of this post**:
-[/r/rust_gamedev](TODO),
-[Twitter](TODO),
+[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/pki6iw/this_month_in_rust_gamedev_25_august_2021/),
+[Twitter](https://twitter.com/rust_gamedev/status/1435700216510943234),
 [Discord](https://discord.gg/yNtPTb2).
--->
 
 [/r/rust_gamedev]: https://reddit.com/r/rust_gamedev
 [@rust_gamedev]: https://twitter.com/rust_gamedev
