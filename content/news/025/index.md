@@ -89,7 +89,7 @@ Server][rusty-jam-server] for more updates!
 The eighth Rust Gamedev Meetup happened in August. You can watch the recording
 of the meetup [here on Youtube][gamedev-meetup-video]. The meetups take place on
 the second Saturday every month via the [Rust Gamedev Discord
-server][rust-gamedev-discord], and are also [streamed on
+server][rust-gamedev-discord] and are also [streamed on
 Twitch][rust-gamedev-twitch]. If you would like to show off what you've been
 working on at the next meetup on [September 11th][rust-meetup-sept-time], fill
 out [this form][gamedev-meetup-form].
@@ -144,7 +144,7 @@ identify a few issues. Most importantly, this change made the game able to
 finally be distributed, and maybe even compiled for the Web in the future. Read
 more on the [WGSL-related blog post].
 
-In order to make advantage of the new superpowers, the [Rusty Vangers] game (the
+In order to take advantage of the new superpowers, the [Rusty Vangers] game (the
 new working title) was published on Itch.io.
 
 [vange-rs]: https://github.com/kvark/vange-rs
@@ -159,7 +159,7 @@ your browser_
 [RecWars] by @martin-t is a free and open source Rust clone of [RecWar], a top
 down vehicle shooter.
 
-The game is a work-in-progress, this month it gained splitscreen for 2 players
+The game is a work-in-progress, this month it gained split-screen for 2 players
 and an in-game console to change cvars - you can edit any of the configuration
 variables that define its gameplay balance while playing.
 
@@ -191,7 +191,7 @@ was built using Rust and the Bevy game engine.
 
 [Try the live web demo
 here.](https://bauxitedev.github.io/vehicle_evolver_deluxe/index.html) (It needs
-a relatively fast computer, on mobile browsers it'll run really slow.)
+a relatively fast computer, on mobile browsers, it'll run really slow.)
 
 [There is also an in-depth explanation available on how it works internally, in
 the form of an educational video.](https://www.youtube.com/watch?v=DlRNdCCSSyo)
@@ -240,12 +240,12 @@ Not Snake ([GitHub][notsnakegit], [Itch][not-snake]) by [Michael Ramirez] is a
 
 Not Snake was developed using the [Bevy game engine][bevy-notsnake]. It was
 completed and [released for free][not-snake] in August and can be played on
-Windows, Linux, MacOS and in browser (Chrome recommended) although there are
+Windows, Linux, MacOS, and in browser (Chrome recommended) although there are
 fewer audio/performance issues running the executables versus the browser
 version.
 
 There have been several large changes since the last update in June including
-adding new levels, new music and adding a narrator who does an OK job of keeping
+adding new levels, new music, and adding a narrator who does an OK job of keeping
 score.
 
 _Discussions:
@@ -263,7 +263,7 @@ _Discussions:
 _The kids getting ready to sneak into a movie_
 
 "A Day at the Movies" ([GitHub][dayatmoviesgit], [Itch][dayatmovies]) by
-[Michael Ramirez] is a short game about stealth, movies and friendship.
+[Michael Ramirez] is a short game about stealth, movies, and friendship.
 
 "A Day at the Movies" was made using the [Bevy game engine][bevy-movieday] in 7
 days as part of the Rusty Jam. Despite the placeholder art and lack of audio, it
@@ -271,7 +271,7 @@ can be played from start-to-finish and is literally guaranteed to bring a smile
 to all who play it. Just make sure to follow the instructions on how to get into
 the "Ferris the Crab" movie room.
 
-It's playable in browser on [itch][dayatmovies] and the code can be viewed on
+It's playable in-browser on [itch][dayatmovies] and the code can be viewed on
 [GitHub][dayatmoviesgit].
 
 [dayatmovies]: https://ramirezmike2.itch.io/a-day-at-the-movies
@@ -288,7 +288,7 @@ handheld game with a 160x128 screen resolution and 16-color palette.
 
 The top 3 things that went well for this project were the art, tilemap support,
 and ECS. On the art side, the silhouettes in the background turned out better
-than expected. The back lighting (or at least the impression of back lighting)
+than expected. The backlighting (or at least the impression of backlighting)
 looks quite nice, even in motion. Tilemap support was added near the end of the
 jam built on [tiled]. It catapulted development progress from seeing major
 changes every day to making major changes every hour. [shipyard] is the Entity
@@ -311,15 +311,15 @@ lesson that often has to be relearned the hard way.
 
 ### Shattersong Online
 
-![Screenshot of Shattersong Online showing a a portal leading between two
+![Screenshot of Shattersong Online showing a portal leading between two
 shards](shattersong.png)
 
 Shattersong Online is an online sandbox game written in Rust, with the goal of
 supporting thousands of players in a shared universe, with hundreds of players
-per shard. In game portals let players travel between shards hosted on separate
+per shard. In-game portals let players travel between shards hosted on separate
 physical servers.
 
-Since the initial announcement in July we have worked on restructuring large
+Since the initial announcement in July, we have worked on restructuring large
 parts of the codebase to make adding new content more ergonomic. We tested out
 the new organization by adding a new monster type from scratch (pictured above).
 
@@ -340,10 +340,10 @@ smelter factory setup in The Process_
 management, and carrot production, built with Rust using the Godot game engine!
 
 This month has seen a lot of activity: More improvements to the level editor,
-in-game assets and general gameplay improvements. But the main focus has been on
+in-game assets, and general gameplay improvements. But the main focus has been on
 a new building system with improved ergonomics. The game is now approaching a
 point where all the core mechanics for the factory simulation are in place, but
-more in-game content and assets are still required reaching the first playable
+more in-game content and assets are still required to reach the first playable
 demo.
 
 This month the game has seen the following changes and improvements:
@@ -358,7 +358,7 @@ This month the game has seen the following changes and improvements:
   [centrifuge](https://twitter.com/PlayTheProcess/status/1430923976574910466)
 - A new system to tweak properties with
   [OSD sliders](https://twitter.com/PlayTheProcess/status/1424638751041536001)
-  to speed-up iteration times. Short explanation
+  to speed up iteration times. Short explanation
   [here](https://twitter.com/PlayTheProcess/status/1424638756246675459).
 - A new egui-powered
   [main menu](https://twitter.com/PlayTheProcess/status/1425785805453373444)
@@ -394,7 +394,7 @@ theme "*Illusion of Security*".
 > can have a serious impact on your real life!
 >
 > In Murder-User Dungeon you will juggle between exploring the Labyrinth(TM)
-> game in your console, hiding from vengeful gamers, and making sure you fulfill
+> game in your console, hiding from vengeful gamers and making sure you fulfill
 > your human needs.
 >
 > To win the game, you must reach the end of the Labyrinth(TM)!
@@ -405,7 +405,7 @@ other gamers in the Labyrinth, they risk them coming to their apartment to get
 revenge.
 
 The team split development of the game, so that each member could work
-independently on seperate features. While [@cdsupina](cdsupina) worked on the
+independently on separate features. While [@cdsupina](cdsupina) worked on the
 needs system and the graphics, [@Sheepyhead](sheepyhead) worked on the UI and
 menus, and [@Nightlyside](nightlyside) worked on the console and Labyrinth
 gameplay.
@@ -464,7 +464,7 @@ technologies running on the [NEAR Blockchain][near-blockchain].
 This month the [whitepaper draft][shrm-whitepaper] has been published and a lot
 of thoughts have been put into the token economics and how to integrate the game
 with the blockchain. The Shroom Kingdom DAO (Decentralised Autonomous
-Organization) is looking for self motivated people, who want to help build the
+Organization) is looking for self-motivated people, who want to help build the
 project. DAO members will be rewarded with the $SHRM token, which will soon be
 launched on the NEAR mainnet after the final feedback round from NEAR core team
 members.
@@ -514,9 +514,9 @@ game made in a week with [Bevy][tbd-bevy] for the first [Rusty Jam][tbd-jam].
 
 The main idea behind the design of TO BE DIRE is venturing out of the safe zone
 in order to survive, adding elements of gameplay like gathering resources, and
-maintaining the player character health and hunger, that are common for the
+maintaining the player character health and hunger, which are common for the
 genre, finally having the implementation of the monsters and fear system as a
-way to futher address the first Rusty Jam's theme "Illusion of Security". [Read
+way to further address the first Rusty Jam's theme "Illusion of Security". [Read
 more about TO BE DIRE's design in the issues at GitLab][tbd-issues].
 
 Download the game at [itch.io][tbd-itch] (available for Linux and Windows)
@@ -687,7 +687,7 @@ with Blender-inspired [G]/[R]/[S] keys.
 
 [Try it right now in your browser.][graphite-live-demo] Graphite is making rapid
 progress towards becoming a non-destructive, procedural graphics editor suitable
-of replacing traditional 2D DCC applications. The public alpha release is coming
+for replacing traditional 2D DCC applications. The public alpha release is coming
 very soon. [Join the Discord][graphite-discord] and get involved!
 
 [graphite-repo]: https://github.com/GraphiteEditor/Graphite
@@ -753,7 +753,7 @@ feature](https://gschup.github.io/ggrs/blog/sparse-saving/). The authors also
 proudly present [bevy_GGRS]!
 
 bevy_GGRS is a plugin to integrate GGRS easily into the popular game engine
-[bevy]. It features autmatic saving and loading of components and resources
+[bevy]. It features automatic saving and loading of components and resources
 defined by the user through bevy's reflection tools. The plugin is currently in
 development and uses features that have not been released in bevy 0.5. With bevy
 0.6 on the horizon, bevy_GGRS is planning to publish to
@@ -790,7 +790,7 @@ sources.
 
 The release comes at a cost of DX11 backend, which isn't there comparing to
 wgpu-0.9. On the plus side, the new GL backend performs much better. It runs
-most of the examples, and has been successfully tested on Raspberry Pi-3. Still
+most of the examples, and has been successfully tested on Raspberry Pi-3. Still,
 more work ahead to make it solid, and to support WebGL2 properly.
 
 [wgpu]: https://github.com/gfx-rs/wgpu
