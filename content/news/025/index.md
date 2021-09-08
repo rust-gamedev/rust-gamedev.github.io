@@ -679,16 +679,11 @@ very soon. [Join the Discord][graphite-discord] and get involved!
 
 ![rx](rx_logo.png)
 
-[rx] by [@cloudhead][cloudhead] is a modern and minimalist pixel editor written
-in Rust.
+[rx] ([website][rx-website], [code][rx-code], [community][rx-discord]) by
+[@cloudhead][cloudhead] is a modern and minimalist pixel editor written in Rust.
 
 Rx is a pixel art editor/animator written in Rust in about 12K LOC, which
 combines a vim-like modal interface with a cursor-based editor.
-
-- Website: [https://rx.cloudhead.io](https://rx.cloudhead.io)
-- Code: <https://github.com/cloudhead/rx>
-- Community: [Discord](https://discord.gg/xHggPjfsS9)
-- Download: [rx-0.5.2-x86_64.AppImage][rx_download]
 
 Release v0.5 was just published. There are several new commands that help with
 color palettes. A flood fill tool has been added. You can now move between
@@ -698,8 +693,9 @@ was added for pasting from the clipboard into the command line. Animation
 rendering is now a lot smoother.
 
 [rx]: https://rx.cloudhead.io
-[rx_discord]: https://discord.gg/xHggPjfsS9
-[rx_download]: https://github.com/cloudhead/rx/releases/download/v0.5.2/rx-0.5.2-x86_64.AppImage
+[rx-website]: https://rx.cloudhead.io
+[rx-code]: https://github.com/cloudhead/rx
+[rx-discord]: https://discord.gg/xHggPjfsS9
 [cloudhead]: https://twitter.com/cloudhead
 
 ## Library Updates
