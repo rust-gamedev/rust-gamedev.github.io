@@ -830,6 +830,25 @@ hopefully will be helpful to other egui backends as well!
 
 [godot-egui]: https://github.com/setzer22/godot-egui
 
+## [Dimforge][dimforge]
+
+[![Dimforge logo](dimforge.png)][dimforge]
+
+[Dimforge][dimforge] creates open-source Rust crates for numerical simulation.
+Some of the [recent updates][dimforge-update]:
+
+- [New user-guide for Rapier’s JS bindings][rapier-js-docs].
+- [nalgebra] v0.29 brings better soundness and non-Copy types support.
+- [Rapier] 0.11 brings a full set of joint limits.
+- The work on unbreakable reduced-coordinates joints for Rapier
+  is also in progress.
+
+[dimforge]: https://dimforge.com
+[dimforge-update]: https://dimforge.com/blog/2021/08/15/the-last-two-months-in-dimforge
+[Rapier]: https://rapier.rs
+[rapier-js-docs]: https://rapier.rs/docs/user_guides/javascript/getting_started_js
+[nalgebra]: https://nalgebra.org
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
