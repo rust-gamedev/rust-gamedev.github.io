@@ -599,34 +599,13 @@ article could be found [here][gfs_article].
 [![rg3d feature highlights](rg3d-gfs.png)][rg3d_gfs]
 __A video by [@GameFromScratch][gfs_channel]__
 
-Some of the recent engine updates:
-
-```markdown
-- Physically-based rendering (PBR).
-- Custom shaders and materials.
-- High dynamic range rendering.
-- Tone mapping.
-- Color grading.
-- Gamma correction.
-- Manual + Auto exposure for camera.
-- Emission maps.
-- Deferred decals.
-- Curve editor widget.
-- Behavior trees.
-- Custom curves supports.
-- Ability to create sound engine without a sound device.
-- Asset management improvements.
-- Mask char for TextBox and FormattedText.
-- Ability to change path of resources.
-- Improvements for FileSelector widget.
-- Various fixes for scene resolving stage.
-- Provide a way to alter control flow of event loop in `Framework`.
-- A way to create custom particle set in `ParticleSystem`.
-- `#[visit(option)]` attribute for Visit proc macro.
-- Ability to pause particle systems.
-- UI performance improvements.
-- Other various fixes and improvements.
-```
+Lots has been happening with recent rg3d engine development.  Physically-based
+rendering (PBR) was added. High dynamic range rendering is now supported, along
+with tone mapping, color grading, and gamma correction. Manual and auto-exposure
+functionality was added for cameras. There is now a widget for editing curves,
+and it supports custom curves. Lots of usability improvements were made, such as
+begin able to change the path of resources, UI performance gains, and better
+ways to manage assets.
 
 [rg3d]: https://github.com/mrDIMAS/rg3d
 [rg3d_discord]: https://discord.gg/xENF5Uh
@@ -711,28 +690,12 @@ combines a vim-like modal interface with a cursor-based editor.
 - Community: [Discord](https://discord.gg/xHggPjfsS9)
 - Download: [rx-0.5.2-x86_64.AppImage][rx_download]
 
-Release v0.5 was just published with the following new features and updates:
-
-```markdown
-- New tool `:flood`, for filling an area with color
-- New brush mode `line`, for drawing straight lines
-- New command `:selection/flip <axis>` to flip the current selection
-- New command `:export <resize> <path>`, eg. `:export @2x meme.gif`
-- New command `:p/write <file>` to save the color palette to a file
-- New command `:p/sample` to sample view colors into palette
-- New command `:p/sort` to sort the palette colors
-- New command `:p/gradient` to add a color gradient to the palette
-- New setting `:p/height` to set the palette height in cells
-- Move between frames with `h` and `l` keys
-- Use *pan* tool in help mode
-- Fix command key ':' for non-ANSI layouts
-- Implement new command parser based on `memoir`
-- Add compatibility for non x86-64 systems
-- Support pasting from clipboard in command-line
-- Support character inputs in key mappings, eg. `map '?' :help`
-- Skip unreadable files when reading a directory
-- New, smoother animation rendering
-```
+Release v0.5 was just published. There are several new commands that help with
+color palettes. A flood fill tool has been added. You can now move between
+frames with the `h` and `l` keys. The command key `:` has been fixed to help
+with non-ANSI layouts. Compatability was added for non x86_64 systems. Support
+was added for pasting from the clipboard into the command line. Animation
+rendering is now a lot smoother.
 
 [rx]: https://rx.cloudhead.io
 [rx_discord]: https://discord.gg/xHggPjfsS9
