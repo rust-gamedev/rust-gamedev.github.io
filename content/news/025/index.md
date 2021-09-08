@@ -573,6 +573,20 @@ August's full weekly devlogs: "This Week In Veloren...":
 [veloren-135]: https://veloren.net/devblog-135
 [veloren-release-event]: https://opencollective.com/veloren/events/veloren-0-11-release-party-05c1a306
 
+### [What's the word][whats-the-word]
+
+![What's the word](whats-the-word.gif)
+
+A UI-based game in which you tap (or miss) buttons. Created with [Bevy
+engine][whats-the-word-bevy] and [egui][whats-the-word-egui], it demonstrates
+how _small_ you can scope your project for a [(Rusty) game
+jam][whats-the-word-results]!
+
+[whats-the-word]: https://vrixyz.itch.io/whats-the-word
+[whats-the-word-bevy]: https://bevyengine.org/
+[whats-the-word-egui]: https://github.com/mvlabat/bevy_egui
+[whats-the-word-results]: https://itch.io/jam/rusty-jam/results
+
 ## Engine Updates
 
 ### [rg3d]
