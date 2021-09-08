@@ -582,6 +582,34 @@ jam][whats-the-word-results]!
 [whats-the-word-egui]: https://github.com/mvlabat/bevy_egui
 [whats-the-word-results]: https://itch.io/jam/rusty-jam/results
 
+## [Humankind's Encyclopedia][humankind-twi]
+
+![Humankind's logo](humankind-wiki.jpeg)
+
+[Humankind] is a Civilization-like game from [Amplitude Studios],
+out of Early Access a few weeks ago.
+While the game itself isn't written in Rust,
+its [gorgeous encyclopedia][humankind-wiki] and persona sharing service
+[are written using rocket.rs][humankind-twi].
+
+Since the encyclopedia has a big constraint of being used inside an embedded
+in-game browser that has a bit of performance issues with full JS frameworks
+the team opted for server-side rendering with the [Tera] template framework.
+
+> I had people working on that without any prior rust experience,
+> and they were ready to code in no time thanks to good language documentation
+> & useful compiler messages.
+>
+> We didn't do anything particularly complex, but the safety of Rust combined
+> with performance enabled us to make this run for way less $$.
+> You don't have to do complex system programming to profit from Rust's benefits.
+
+[Humankind]: https://store.steampowered.com/app/1124300/HUMANKIND
+[humankind-twi]: https://twitter.com/SobertKaos/status/1429812457820786694
+[humankind-wiki]: https://humankind-encyclopedia.games2gether.com/en-us
+[Amplitude Studios]: https://www.amplitude-studios.com
+[Tera]: https://github.com/Keats/tera
+
 ## Engine Updates
 
 ### [rg3d]
@@ -779,6 +807,25 @@ editor](https://github.com/setzer22/godot-egui/issues/5) is in the works, which
 hopefully will be helpful to other egui backends as well!
 
 [godot-egui]: https://github.com/setzer22/godot-egui
+
+## [Dimforge][dimforge]
+
+[![Dimforge logo](dimforge.png)][dimforge]
+
+[Dimforge][dimforge] creates open-source Rust crates for numerical simulation.
+Some of the [recent updates][dimforge-update]:
+
+- [New user-guide for Rapier’s JS bindings][rapier-js-docs].
+- [nalgebra] v0.29 brings better soundness and non-Copy types support.
+- [Rapier] 0.11 brings a full set of joint limits.
+- The work on unbreakable reduced-coordinates joints for Rapier
+  is also in progress.
+
+[dimforge]: https://dimforge.com
+[dimforge-update]: https://dimforge.com/blog/2021/08/15/the-last-two-months-in-dimforge
+[Rapier]: https://rapier.rs
+[rapier-js-docs]: https://rapier.rs/docs/user_guides/javascript/getting_started_js
+[nalgebra]: https://nalgebra.org
 
 ## Popular Workgroup Issues in Github
 
