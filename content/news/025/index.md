@@ -1,8 +1,7 @@
 +++
 title = "This Month in Rust GameDev #25 - August 2021"
-date = 2021-09-01
+date = 2021-09-08
 transparent = true
-draft = true
 +++
 
 <!-- no toc -->
@@ -28,9 +27,6 @@ Feel free to send PRs about your own projects!
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 [pr]: https://github.com/rust-gamedev/rust-gamedev.github.io
 [coordination]: https://github.com/rust-gamedev/rust-gamedev.github.io/issues?q=label%3Acoordination
-
-[Rust]: https://rust-lang.org
-[join]: https://github.com/rust-gamedev/wg#join-the-fun
 
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
