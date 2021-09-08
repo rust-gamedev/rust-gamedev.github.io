@@ -587,6 +587,34 @@ jam][whats-the-word-results]!
 [whats-the-word-egui]: https://github.com/mvlabat/bevy_egui
 [whats-the-word-results]: https://itch.io/jam/rusty-jam/results
 
+## [Humankind's Encyclopedia][humankind-twi]
+
+![Humankind's logo](humankind-wiki.jpeg)
+
+[Humankind] is a Civilization-like game from [Amplitude Studios],
+out of Early Access a few weeks ago.
+While the game itself isn't written in Rust,
+its [gorgeous encyclopedia][humankind-wiki] and persona sharing service
+[are written using rocket.rs][humankind-twi].
+
+Since the encyclopedia has a big constraint of being used inside an embedded
+in-game browser that has a bit of performance issues with full JS frameworks
+the team opted for server-side rendering with the [Tera] template framework.
+
+> I had people working on that without any prior rust experience,
+> and they were ready to code in no time thanks to good language documentation
+> & useful compiler messages.
+>
+> We didn't do anything particularly complex, but the safety of Rust combined
+> with performance enabled us to make this run for way less $$.
+> You don't have to do complex system programming to profit from Rust's benefits.
+
+[Humankind]: https://store.steampowered.com/app/1124300/HUMANKIND
+[humankind-twi]: https://twitter.com/SobertKaos/status/1429812457820786694
+[humankind-wiki]: https://humankind-encyclopedia.games2gether.com/en-us
+[Amplitude Studios]: https://www.amplitude-studios.com
+[Tera]: https://github.com/Keats/tera
+
 ## Engine Updates
 
 ### [rg3d]
