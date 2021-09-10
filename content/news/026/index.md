@@ -1,6 +1,7 @@
 +++
-title = "This Month in Rust GameDev #{TODO} - {TODO} {TODO}"
+title = "This Month in Rust GameDev #26 - September 2021"
 transparent = true
+date = 2021-10-04
 draft = true
 +++
 
@@ -8,7 +9,7 @@ draft = true
 
 <!-- Check the post with markdownlint-->
 
-Welcome to the {TODO}th issue of the Rust GameDev Workgroup's
+Welcome to the 26th issue of the Rust GameDev Workgroup's
 monthly newsletter.
 [Rust] is a systems language pursuing the trifecta:
 safety, concurrency, and speed.
@@ -99,6 +100,9 @@ or [join the next meeting][join].
 
 <!-- Bonus section to make the newsletter more interesting
 and highlight events from the past. -->
+
+<!-- TODO: browse previous newsletter coord-issues and select some cool section
+that wasn't written. -->
 
 ------
 
