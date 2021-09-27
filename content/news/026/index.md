@@ -89,13 +89,14 @@ functionality.
 With only [a single change in boilerplate code] many `ggez` 0.6 games can now be
 directly ported to `good-web-game`. Yet, it's no drop in replacement for `ggez`
 as several key differences remain:
+
 1. Audio support is still very limited, but will hopefully be improved soon by
 moving to the latest version of `quad-snd`
 2. On web and mobile assets can currently only be loaded by bundling them into
 a `tar` file, which is then embedded
 3. While support for reading files on web and mobile is planned, writing access
 will not be available, as it's not portable to Wasm
-4. Due to `good-web-game` not using `winit` much of its functionality (i.e. 
+4. Due to `good-web-game` not using `winit` much of its functionality (i.e.
 changing window position, setting a custom icon, etc.) is not
 available in `good-web-game`
 5. As `miniquad` supports WebGL1 shaders are limited to GLSL100
