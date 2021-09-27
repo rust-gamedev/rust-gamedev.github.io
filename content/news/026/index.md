@@ -69,6 +69,49 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Engine Updates
 
+### [good-web-game]
+
+[`good-web-game`] has been released on crates.io, together with [`ggez`] 0.6.1!
+`ggez` is a lightweight cross-platform game framework for making 2D games
+with minimum friction, with an API inspired by Love2D. `good-web-game` is a
+subset of ggez, which is based upon [`miniquad`] and can therefore run natively
+on the web, mobile and of course desktop as well.
+
+![supported platforms](supported_platforms.svg)
+
+`good-web-game` was originally created to run [Zemeroth] on the web. However,
+as Zemeroth switched from using `ggez` to [`macroquad`] the project was
+discontinued, until recently. In search of [a new graphics backend for ggez]
+the ggez team now picked up development again and released a massive update,
+updating `good-web-game` for compatability to `ggez` 0.6, expanding its
+functionality.
+
+With only [a single change in boilerplate code] many `ggez` 0.6 games can now be
+directly ported to `good-web-game`. Yet, it's no drop in replacement for `ggez`
+as several key differences remain:
+1. Audio support is still very limited, but will hopefully be improved soon by
+moving to the latest version of `quad-snd`
+2. On web and mobile assets can currently only be loaded by bundling them into
+a `tar` file, which is then embedded
+3. While support for reading files on web and mobile is planned, writing access
+will not be available, as it's not portable to Wasm
+4. Due to `good-web-game` not using `winit` much of its functionality (i.e. 
+changing window position, setting a custom icon, etc.) is not
+available in `good-web-game`
+5. As `miniquad` supports WebGL1 shaders are limited to GLSL100
+
+For [a full list of differences] check the repository.
+
+[good-web-game]: https://github.com/ggez/good-web-game
+[`good-web-game`]: https://github.com/ggez/good-web-game
+[`ggez`]: https://github.com/ggez/ggez
+[`miniquad`]: https://github.com/not-fl3/miniquad
+[Zemeroth]: https://ozkriff.itch.io/zemeroth
+[`macroquad`]: https://github.com/not-fl3/macroquad/
+[a new graphics backend for ggez]: https://github.com/ggez/ggez/issues/962
+[a single change in boilerplate code]: https://github.com/PSteinhaus/PSteinhaus.github.io/blob/main/ggez/web-examples/README.md#ggez-animation-example
+[a full list of differences]: https://github.com/ggez/good-web-game#differences
+
 ## Learning Material Updates
 
 ## Tooling Updates
