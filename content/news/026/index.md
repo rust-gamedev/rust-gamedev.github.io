@@ -88,20 +88,7 @@ functionality.
 
 With only [a single change in boilerplate code] many `ggez` 0.6 games can now be
 directly ported to `good-web-game`. Yet, it's no drop in replacement for `ggez`
-as several key differences remain:
-
-1. Audio support is still very limited, but will hopefully be improved soon by
-moving to the latest version of `quad-snd`
-2. On web and mobile assets can currently only be loaded by bundling them into
-a `tar` file, which is then embedded
-3. While support for reading files on web and mobile is planned, writing access
-will not be available, as it's not portable to Wasm
-4. Due to `good-web-game` not using `winit` much of its functionality (i.e.
-changing window position, setting a custom icon, etc.) is not
-available in `good-web-game`
-5. As `miniquad` supports WebGL1 shaders are limited to GLSL100
-
-For [a full list of differences] check the repository.
+as [several key differences remain].
 
 [good-web-game]: https://github.com/ggez/good-web-game
 [`good-web-game`]: https://github.com/ggez/good-web-game
@@ -111,7 +98,7 @@ For [a full list of differences] check the repository.
 [`macroquad`]: https://github.com/not-fl3/macroquad/
 [a new graphics backend for ggez]: https://github.com/ggez/ggez/issues/962
 [a single change in boilerplate code]: https://github.com/PSteinhaus/PSteinhaus.github.io/blob/main/ggez/web-examples/README.md#ggez-animation-example
-[a full list of differences]: https://github.com/ggez/good-web-game#differences
+[several key differences remain]: https://github.com/ggez/good-web-game#differences
 
 ## Learning Material Updates
 
