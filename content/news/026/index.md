@@ -69,6 +69,37 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Engine Updates
 
+### [good-web-game]
+
+![supported platforms](supported_platforms.svg)
+
+[`good-web-game`] has been released on crates.io, together with [`ggez`] 0.6.1!
+`ggez` is a lightweight cross-platform game framework for making 2D games
+with minimum friction, with an API inspired by Love2D. `good-web-game` is a
+subset of ggez, which is based upon [`miniquad`] and can therefore run natively
+on the web, mobile and of course desktop as well.
+
+`good-web-game` was originally created to run [Zemeroth] on the web. However,
+as Zemeroth switched from using `ggez` to [`macroquad`] the project was
+discontinued, until recently. In search of [a new graphics backend for ggez]
+the ggez team now picked up development again and released a massive update,
+updating `good-web-game` for compatability to `ggez` 0.6, expanding its
+functionality.
+
+With only [a single change in boilerplate code] many `ggez` 0.6 games can now be
+directly ported to `good-web-game`. Yet, it's no drop in replacement for `ggez`
+as [several key differences remain].
+
+[good-web-game]: https://github.com/ggez/good-web-game
+[`good-web-game`]: https://github.com/ggez/good-web-game
+[`ggez`]: https://github.com/ggez/ggez
+[`miniquad`]: https://github.com/not-fl3/miniquad
+[Zemeroth]: https://ozkriff.itch.io/zemeroth
+[`macroquad`]: https://github.com/not-fl3/macroquad/
+[a new graphics backend for ggez]: https://github.com/ggez/ggez/issues/962
+[a single change in boilerplate code]: https://github.com/PSteinhaus/PSteinhaus.github.io/blob/main/ggez/web-examples/README.md#ggez-animation-example
+[several key differences remain]: https://github.com/ggez/good-web-game#differences
+
 ## Learning Material Updates
 
 ## Tooling Updates
