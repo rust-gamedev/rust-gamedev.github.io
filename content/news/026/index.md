@@ -71,13 +71,13 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [good-web-game]
 
+![supported platforms](supported_platforms.svg)
+
 [`good-web-game`] has been released on crates.io, together with [`ggez`] 0.6.1!
 `ggez` is a lightweight cross-platform game framework for making 2D games
 with minimum friction, with an API inspired by Love2D. `good-web-game` is a
 subset of ggez, which is based upon [`miniquad`] and can therefore run natively
 on the web, mobile and of course desktop as well.
-
-![supported platforms](supported_platforms.svg)
 
 `good-web-game` was originally created to run [Zemeroth] on the web. However,
 as Zemeroth switched from using `ggez` to [`macroquad`] the project was
