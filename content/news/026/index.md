@@ -84,7 +84,6 @@ which helps us plan the next hero in the full release of the game.
 Harvest Hero Origins is still planned to release by the end of 2021,
 please wishlist on [steam] and I hope you're looking forward to it!
 
-
 _Discussions:
 [discord](https://discord.gg/CJRbxQn3d9)_
 
@@ -93,7 +92,6 @@ _built on [Emerald]_
 [Emerald]: https://github.com/Bombfuse/emerald
 [Gemdrop Games]: https://twitter.com/GemdropGames
 [steam]: https://store.steampowered.com/app/1651500/Harvest_Hero_Origins/
-
 
 ## Engine Updates
 
@@ -129,33 +127,36 @@ as [several key differences remain].
 [several key differences remain]: https://github.com/ggez/good-web-game#differences
 
 ### [Emerald]
+
 ![hotreload](emd_texture_hotreload.gif)
 _Built in texture hot reloading, just call `emd.loader().hotreload()`_
 
 The core principal of Emerald is to be super portable and easy-to-use.
 
 [Emerald] has slowly been growing, both in contributor size and feature sets
-recently. If any of this interests you and you'd like to contribute, [feel free to grab
-a task](https://github.com/Bombfuse/emerald/issues), fork and PR!
+recently. If any of this interests you and you'd like to contribute,
+[feel free to graba task](https://github.com/Bombfuse/emerald/issues),
+fork and PR!
 
 New Features
+
 - Texture hot reloading
-    - COMING SOON - Sound hot reloading
+  - COMING SOON - Sound hot reloading
 - Cross-platform file saving/loading
-    - This is essential for games, basically allows the user to save
+  - This is essential for games, basically allows the user to save
     their files to the platform specific save directory.
 
 Currently Support Platforms
+
 - Windows
 - Linux (WIP gamepad support)
-    - [GameShell](http://imgur.com/a/8cWxOPs)
+  - [GameShell](http://imgur.com/a/8cWxOPs)
 - MacOS (WIP gamepad support)
 - Web (WIP Audio)
 - Android (WIP audio, gamepad Support)
-    - [WearOS](https://twitter.com/bombfuse_dev/status/1444100458260299778)
+  - [WearOS](https://twitter.com/bombfuse_dev/status/1444100458260299778)
 
 [Emerald]: https://github.com/Bombfuse/emerald
-
 
 ## Learning Material Updates
 
