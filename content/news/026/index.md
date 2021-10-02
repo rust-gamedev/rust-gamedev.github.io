@@ -67,6 +67,34 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Harvest Hero Origins @ PAX West 2021](https://store.steampowered.com/app/1651500/Harvest_Hero_Origins/)
+
+![hho @ pax](./hho_pax.jpg)
+_Gemdrop Games booth at PAX West 2021_
+
+Hey there rustaceans, [Gemdrop Games] recently took
+Harvest Hero Origins to PAX West 2021.
+We had a very positive response from most of the players!
+
+Being able to watch people play the game was extremely valuable, we were
+able to see pain points in UI/UX design and can now fix them without worry.
+We were also able to see what players find fun about controlling each hero,
+which helps us plan the next hero in the full release of the game.
+
+Harvest Hero Origins is still planned to release by the end of 2021,
+please wishlist on [steam] and I hope you're looking forward to it!
+
+
+_Discussions:
+[discord](https://discord.gg/CJRbxQn3d9)_
+
+_built on [Emerald]_
+
+[Emerald]: https://github.com/Bombfuse/emerald
+[Gemdrop Games]: https://twitter.com/GemdropGames
+[steam]: https://store.steampowered.com/app/1651500/Harvest_Hero_Origins/
+
+
 ## Engine Updates
 
 ### [good-web-game]
@@ -99,6 +127,35 @@ as [several key differences remain].
 [a new graphics backend for ggez]: https://github.com/ggez/ggez/issues/962
 [a single change in boilerplate code]: https://github.com/PSteinhaus/PSteinhaus.github.io/blob/main/ggez/web-examples/README.md#ggez-animation-example
 [several key differences remain]: https://github.com/ggez/good-web-game#differences
+
+### [Emerald]
+![hotreload](emd_texture_hotreload.gif)
+_Built in texture hot reloading, just call `emd.loader().hotreload()`_
+
+The core principal of Emerald is to be super portable and easy-to-use.
+
+[Emerald] has slowly been growing, both in contributor size and feature sets
+recently. If any of this interests you and you'd like to contribute, [feel free to grab
+a task](https://github.com/Bombfuse/emerald/issues), fork and PR!
+
+New Features
+- Texture hot reloading
+    - COMING SOON - Sound hot reloading
+- Cross-platform file saving/loading
+    - This is essential for games, basically allows the user to save
+    their files to the platform specific save directory.
+
+Currently Support Platforms
+- Windows
+- Linux (WIP gamepad support)
+    - [GameShell](http://imgur.com/a/8cWxOPs)
+- MacOS (WIP gamepad support)
+- Web (WIP Audio)
+- Android (WIP audio, gamepad Support)
+    - [WearOS](https://twitter.com/bombfuse_dev/status/1444100458260299778)
+
+[Emerald]: https://github.com/Bombfuse/emerald
+
 
 ## Learning Material Updates
 
