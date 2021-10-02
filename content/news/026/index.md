@@ -67,6 +67,19 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Weegames][weegames-itch]
+
+![Handful of minigames including hedgehogs and raspberries](weegames.jpg)
+
+[Weegames][weegames-itch] is a fast-paced minigame collection.
+The Windows version of the game has been rewritten to use Macroquad,
+so now the web and downloadable versions of the game share the same codebase.
+Development for the web version has moved to the
+[Weegames Github][weegames-github] repository.
+
+[weegames-itch]: https://yeahross.itch.io/weegames
+[weegames-github]: https://github.com/yeahross0/weegames
+
 ## Engine Updates
 
 ## Learning Material Updates
