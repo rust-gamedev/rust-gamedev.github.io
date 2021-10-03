@@ -98,6 +98,44 @@ Development for the web version has moved to the
 [weegames-itch]: https://yeahross.itch.io/weegames
 [weegames-github]: https://github.com/yeahross0/weegames
 
+### [Veloren][veloren]
+
+![An odd structure in the woods](veloren.jpg) _An odd structure in the woods_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In September, Veloren hosted its larges release party ever! At peak, 181 players
+were playing on the server together. You can read about all the changes to 0.11
+in [the release blog][veloren-011-release-blog], and be sure to watch the
+[release trailer][veloren-011-trailer]!. During the release party, several devs
+spoke about the changes, which you can watch [here][veloren-011-dev-chats]. This
+release party was the first one to handle the high player load with no issues,
+and give hope for much larger servers in the future.
+
+Shaderc was replaced with Naga early on in the month. This was the result of
+over a year of work. Hitboxes are in the process of being overhauled to handle
+non-cylidrical targets better. Improvements were made to how the cursor selects
+objects in game. As always, lots of experiemental work is being done to the
+economic system. Cultist raiders were added, which mean that raiding parties
+will now attack nearby settlements. This is a great example of how the realtime
+simulation is starting to become more visible to players.
+
+September's full weekly devlogs: "This Week In Veloren...":
+[#136][veloren-136],
+[#137][veloren-137],
+[#138][veloren-138],
+[#139][veloren-139].
+
+[veloren]: https://veloren.net
+[veloren-136]: https://veloren.net/devblog-136
+[veloren-137]: https://veloren.net/devblog-137
+[veloren-138]: https://veloren.net/devblog-138
+[veloren-139]: https://veloren.net/devblog-139
+[veloren-011-trailer]: https://www.youtube.com/watch?v=l1oOjvaWJlw
+[veloren-011-dev-chats]:https://www.youtube.com/watch?v=J5Xz-vbE27Q
+[veloren-011-release-blog]: https://veloren.net/release-0-11/
+
 ## Engine Updates
 
 ### [good-web-game]
