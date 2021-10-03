@@ -113,7 +113,7 @@ via [Deno]. This will ensure correctness down the road when we reach a
 decent level of coverage. Read more on [gfx-rs blog].
 
 ![Deno with wgpu crown](deno-wgpu.png)
-deno-wgpu
+_deno-wgpu_
 
 Aside from that, wgpu team has been pumping out patches. In fact, wgpu-0.10 is
 easily the most patched release of all!
@@ -154,7 +154,8 @@ or [join the next meeting][join].
 It happened! Check out the talks:
 
 - [gfx-rs lessons learned][rgm1-video] - @kvark, [slides][rgm1-slides]
-- [rend3 Architecture: Efficient, Customizable Rendering][rgm2-video] - @cwfitzgerald, [slides][rgm2-slides]
+- [rend3 Architecture: Efficient, Customizable Rendering][rgm2-video] -
+@cwfitzgerald, [slides][rgm2-slides]
 - [Blub - Interactive GPU fluid solver][rgm3-video] - @wumpf, [slides][rgm3-slides]
 
 Learn more at the [gfx meetup repo].
