@@ -160,6 +160,10 @@ It happened! Check out the talks:
 Learn more at the [gfx meetup repo].
 Thanks everyone for tuning in and helping to make this happen!
 
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/q08byh/videos_from_rust_graphics_meetup_1),
+[twitter](https://twitter.com/rust_gamedev/status/1444326130035666953)_
+
 [rgm1-video]: https://www.youtube.com/watch?v=m0JgF5Wb-dA
 [rgm1-slides]: https://github.com/gfx-rs/meetup/blob/main/Meeting01/GfxLessonsLearned.pdf
 [rgm2-video]: https://www.youtube.com/watch?v=F0wGz5UJTrY
