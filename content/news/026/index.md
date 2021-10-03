@@ -106,6 +106,26 @@ as [several key differences remain].
 
 ## Library Updates
 
+### [wgpu]
+
+[wgpu] has set up the infrastructure to run WebGPU proper tests on its CI,
+via [Deno]. This will ensure correctness down the road when we reach a
+decent level of coverage. Read more on [gfx-rs blog].
+
+![Deno with wgpu crown](deno-wgpu.png)
+deno-wgpu
+
+Aside from that, wgpu team has been pumping out patches. In fact, wgpu-0.10 is
+easily the most patched release of all!
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/ppgb2l/wgpu_alliance_with_deno/),
+[twitter](https://mobile.twitter.com/deno_land/status/1438573126670028801)_
+
+[wgpu]: https://github.com/gfx-rs/wgpu
+[Deno]: https://github.com/denoland/deno
+[gfx-rs blog]: https://gfx-rs.github.io/2021/09/16/deno-webgpu.html
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
@@ -128,6 +148,25 @@ or [join the next meeting][join].
 <!-- An optional section for new jobs related to Rust gamedev -->
 
 ## Bonus
+
+### Rust Graphics Meetup 1
+
+It happened! Check out the talks:
+
+- [gfx-rs lessons learned][rgm1-video] - @kvark, [slides][rgm1-slides]
+- [rend3 Architecture: Efficient, Customizable Rendering][rgm2-video] - @cwfitzgerald, [slides][rgm2-slides]
+- [Blub - Interactive GPU fluid solver][rgm3-video] - @wumpf, [slides][rgm3-slides]
+
+Learn more at the [gfx meetup repo].
+Thanks everyone for tuning in and helping to make this happen!
+
+[rgm1-video]: https://www.youtube.com/watch?v=m0JgF5Wb-dA
+[rgm1-slides]: https://github.com/gfx-rs/meetup/blob/main/Meeting01/GfxLessonsLearned.pdf
+[rgm2-video]: https://www.youtube.com/watch?v=F0wGz5UJTrY
+[rgm2-slides]: https://github.com/gfx-rs/meetup/blob/main/Meeting01/rend3s_Architecture_-_Efficient_Customizable_Rendering.pdf
+[rgm3-video]: https://www.youtube.com/watch?v=Yzr9va5UtiE
+[rgm3-slides]: https://github.com/gfx-rs/meetup/blob/main/Meeting01/Blub_-_Quick_tour_through_a_GPU_fluid_solver.pdf
+[gfx meetup repo]: https://github.com/gfx-rs/meetup#meetup-1-october-2nd-2021--1600-gmt
 
 <!-- Bonus section to make the newsletter more interesting
 and highlight events from the past. -->
