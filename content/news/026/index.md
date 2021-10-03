@@ -151,7 +151,10 @@ or [join the next meeting][join].
 
 ### Rust Graphics Meetup 1
 
-It happened! Check out the talks:
+The Rust Graphics Meetup is an online gathering where rustaceans share
+technical details of their work related to graphics and compute,
+not affiliated to any particular stack.
+The pilot edition has happened on Oct 2nd! Check out the talks:
 
 - [gfx-rs lessons learned][rgm1-video] - @kvark, [slides][rgm1-slides]
 - [rend3 Architecture: Efficient, Customizable Rendering][rgm2-video] -
