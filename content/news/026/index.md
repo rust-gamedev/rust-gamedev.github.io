@@ -175,6 +175,44 @@ as [several key differences remain].
 
 ## Library Updates
 
+### [godot-rust](https://github.com/godot-rust/godot-rust)
+
+![godot-rust logo](godot-rust.png)
+
+godot-rust ([GitHub][gd-github], [Discord][gd-discord], [Twitter][gd-twitter])
+is a Rust library that provides bindings for the Godot game engine.
+
+In the last month, a lot of documentation has been added to the book. The new
+entries in [FAQ][gd-faq], [Recipes][gd-recipes] and [Game Architecture][gd-arch]
+don't focus on specific APIs, but put them into a bigger context and highlight
+typical challenges encountered in practice.
+
+Besides smaller bugfixes, the library itself added support for `serde`
+serialization of core types ([#743][gd-743], thanks to Waridley).
+
+In terms of automation and tooling, September was a very productive month:
+
+- Translation of Godot's documentation based on `[bbcode]` to RustDoc with
+  intra-doc links, making Godot APIs much more readable and discoverable.
+
+- Refactoring of GitHub Actions CI, allowing quick and precise feedback for
+  contributors.
+
+- Automation of latest documentation, now hosted under
+  [godot-rust.github.io/docs][gd-docs].
+
+As the godot-rust community keeps growing, the project can now be found
+[on Twitter][gd-twitter] with the GodotRust handle.
+
+[gd-faq]: https://godot-rust.github.io/book/faq.html
+[gd-recipes]: https://godot-rust.github.io/book/recipes.html
+[gd-arch]: https://godot-rust.github.io/book/gdnative-overview/architecture.html
+[gd-743]: https://github.com/godot-rust/godot-rust/pull/743
+[gd-docs]: https://godot-rust.github.io/docs
+[gd-github]: https://github.com/godot-rust/godot-rust
+[gd-discord]: https://discord.com/invite/FNudpBD
+[gd-twitter]: https://twitter.com/GodotRust
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
