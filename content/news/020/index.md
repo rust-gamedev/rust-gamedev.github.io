@@ -75,7 +75,7 @@ working on, fill out [this form][gamedev-meetup-form].
 [gamedev-meetup-form]: https://forms.gle/BS1zCyZaiUFSUHxe6
 [gamedev-meetup-video]: https://youtube.com/watch?v=gqCxt8XL92o
 [rust-gamedev-discord]: https://discord.gg/yNtPTb2
-[rust-gamedev-twitch]: https://twitch.tv/rustgamedevmeetup
+[rust-gamedev-twitch]: https://twitch.tv/rustgamedev
 
 ## Game Updates
 

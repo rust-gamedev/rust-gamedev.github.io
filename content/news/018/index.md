@@ -100,7 +100,7 @@ also be [streamed on Twitch][rust-gamedev-twitch].
 
 [gamedev-meetup-video]: https://www.youtube.com/watch?v=2L3w3UiEzAk
 [rust-gamedev-discord]: https://discord.gg/yNtPTb2
-[rust-gamedev-twitch]: https://www.twitch.tv/rustgamedevmeetup
+[rust-gamedev-twitch]: https://www.twitch.tv/rustgamedev
 
 ## Game Updates
 
