@@ -74,15 +74,15 @@ _Gemdrop Games booth at PAX West 2021_
 
 Hey there rustaceans, [Gemdrop Games] recently took
 Harvest Hero Origins to PAX West 2021.
-We had a very positive response from most of the players!
+They had a very positive response from most of the players!
 
-Being able to watch people play the game was extremely valuable, we were
+Being able to watch people play the game was extremely valuable, they were
 able to see pain points in UI/UX design and can now fix them without worry.
-We were also able to see what players find fun about controlling each hero,
-which helps us plan the next hero in the full release of the game.
+They were also able to see what players find fun about controlling each hero,
+which helps them plan the next hero in the full release of the game.
 
 Harvest Hero Origins is still planned to release by the end of 2021,
-please wishlist on [steam] and I hope you're looking forward to it!
+please wishlist on [steam] and they hope you're looking forward to it!
 
 _Discussions:
 [discord](https://discord.gg/CJRbxQn3d9)_
@@ -150,11 +150,11 @@ Currently Support Platforms
 
 - Windows
 - Linux (WIP gamepad support)
-  - [GameShell](http://imgur.com/a/8cWxOPs)
+- [GameShell](http://imgur.com/a/8cWxOPs)
 - MacOS (WIP gamepad support)
 - Web (WIP Audio)
 - Android (WIP audio, gamepad Support)
-  - [WearOS](https://twitter.com/bombfuse_dev/status/1444100458260299778)
+- [WearOS](https://twitter.com/bombfuse_dev/status/1444100458260299778)
 
 [Emerald]: https://github.com/Bombfuse/emerald
 
