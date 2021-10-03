@@ -65,7 +65,38 @@ _Discussions:
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
+## Rust GameDev Meetup
+
+![Gamedev meetup poster](../025/gamedev-meetup.png)
+
+The ninth Rust Gamedev Meetup happened in September. You can watch the recording
+of the meetup [here on Youtube][gamedev-meetup-video]. The meetups take place on
+the second Saturday every month via the [Rust Gamedev Discord
+server][rust-gamedev-discord] and are also [streamed on
+Twitch][rust-gamedev-twitch]. If you would like to show off what you've been
+working on at the next meetup on [October 9th][rust-meetup-oct-time], fill out
+[this form][gamedev-meetup-form].
+
+[gamedev-meetup-form]: https://forms.gle/BS1zCyZaiUFSUHxe6
+[gamedev-meetup-video]: https://youtu.be/TH3AErcNcTY
+[rust-gamedev-discord]: https://discord.gg/yNtPTb2
+[rust-gamedev-twitch]: https://twitch.tv/rustgamedev
+[rust-meetup-oct-time]: https://everytimezone.com/s/aa44ac42
+
 ## Game Updates
+
+### [Weegames][weegames-itch]
+
+![Handful of minigames including hedgehogs and raspberries](weegames.jpg)
+
+[Weegames][weegames-itch] is a fast-paced minigame collection.
+The Windows version of the game has been rewritten to use Macroquad,
+so now the web and downloadable versions of the game share the same codebase.
+Development for the web version has moved to the
+[Weegames Github][weegames-github] repository.
+
+[weegames-itch]: https://yeahross.itch.io/weegames
+[weegames-github]: https://github.com/yeahross0/weegames
 
 ### [Veloren][veloren]
 
