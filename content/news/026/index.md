@@ -67,6 +67,30 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [BITGUN][bitgun-steam]
+
+[![Gameplay screenshot with lots of zombies and a zombie boss](bitgun.jpeg)][bitgun-steam]
+
+BITGUN ([Steam][bitgun-steam], [Twitter][bitgun-twitter],
+[Discord][bitgun-discord]) by [@LogLogGames][bitgun-twitter] is an action
+roguelike zombie shooter with lots of blood and guns, similar to games like
+Hotline Miami, Nuclear Throne and Heat Signature. The game is built using Godot
+and Rust (via [godot-rust][bitgun-godot-rust]).
+
+They recently re-worked the in-game UI using [egui][bitgun-egui] with
+[godot-egui][bitgun-godot-egui], allowing much easier custom widgets such as
+[drag & drop on items between inventory slots][bitgun-inventory].
+
+_Discussions: [Twitter][bitgun-inventory], [Discord][bitgun-discord]_
+
+[bitgun-steam]: https://store.steampowered.com/app/1673940/BITGUN/
+[bitgun-twitter]: https://twitter.com/logloggames
+[bitgun-discord]: https://discord.gg/XrGZQkq
+[bitgun-godot-rust]: https://godot-rust.github.io/
+[bitgun-egui]: https://github.com/emilk/egui
+[bitgun-godot-egui]: https://github.com/setzer22/godot-egui
+[bitgun-inventory]: https://twitter.com/LogLogGames/status/1444072221681635333
+
 ## Engine Updates
 
 ### [good-web-game]
