@@ -108,7 +108,7 @@ Fortress and Cube World.
 In September, Veloren hosted its larges release party ever! At peak, 181 players
 were playing on the server together. You can read about all the changes to 0.11
 in [the release blog][veloren-011-release-blog], and be sure to watch the
-[release trailer][veloren-011-trailer]!. During the release party, several devs
+[release trailer][veloren-011-trailer]! During the release party, several devs
 spoke about the changes, which you can watch [here][veloren-011-dev-chats]. This
 release party was the first one to handle the high player load with no issues,
 and give hope for much larger servers in the future.
@@ -169,12 +169,6 @@ as [several key differences remain].
 [a single change in boilerplate code]: https://github.com/PSteinhaus/PSteinhaus.github.io/blob/main/ggez/web-examples/README.md#ggez-animation-example
 [several key differences remain]: https://github.com/ggez/good-web-game#differences
 
-## Learning Material Updates
-
-## Tooling Updates
-
-## Library Updates
-
 ### [godot-rust](https://github.com/godot-rust/godot-rust)
 
 ![godot-rust logo](godot-rust.png)
@@ -212,6 +206,12 @@ As the godot-rust community keeps growing, the project can now be found
 [gd-github]: https://github.com/godot-rust/godot-rust
 [gd-discord]: https://discord.com/invite/FNudpBD
 [gd-twitter]: https://twitter.com/GodotRust
+
+## Learning Material Updates
+
+## Tooling Updates
+
+## Library Updates
 
 ## Popular Workgroup Issues in Github
 
