@@ -136,6 +136,28 @@ September's full weekly devlogs: "This Week In Veloren...":
 [veloren-011-dev-chats]:https://www.youtube.com/watch?v=J5Xz-vbE27Q
 [veloren-011-release-blog]: https://veloren.net/release-0-11/
 
+### [Molecoole]
+
+![Connecting to different atoms](molecoole_first.gif)
+
+Molecoole is a topdown action roguelite where you connect with different atoms to create the strongest Molecoole to defeat the baddies!
+by two brothers: [Márton] and [Dániel]
+
+In Molecoole the strongest focus is about making different combos by connecting atoms.
+The original version was made in Unity for a game jam
+but they decided to make an actual game out of it using the Bevy engine.
+It currently includes their own implementation for 2D animation, collision detection, particles.
+In September one of the main areas was making the game nicer to play, so they introduced the
+[ezing] crate and also implemented slowing the [game time].
+They are using the [LDtk] editor to make the level sections
+for the procedural generation.
+
+[Márton](https://twitter.com/kiss_mrton)
+[Dániel](https://twitter.com/FrenetiqDan)
+[ezing](https://github.com/michaelfairley/ezing)
+[game time](https://twitter.com/kiss_mrton/status/1434189320865341444)
+[LDtk](https://ldtk.io/)
+
 ## Engine Updates
 
 ### [good-web-game]
