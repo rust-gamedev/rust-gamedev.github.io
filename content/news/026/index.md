@@ -213,6 +213,32 @@ As the godot-rust community keeps growing, the project can now be found
 [gd-discord]: https://discord.com/invite/FNudpBD
 [gd-twitter]: https://twitter.com/GodotRust
 
+### bevy_verlet
+
+![bevy_verlet](bevy_verlet.gif)
+
+`bevy_verlet` ([Github][bv_github]) is a lib for projects using [Bevy Engine][bv_bevy] providing a plugin to use
+[verlet Integration][bv_wikipedia] physics.
+Very useful for Cloth simulation and joints, and less expensive than complex physics engine, it is a nice addition to 2D or 3D projects.
+Making good use of the Entity-Component-System architecture of the bevy engine, any entity can become a `VerletPoint` and have physics applied to it.
+
+The lib also provides *sticks* which constraint the points in order to create strings or cloth.
+
+Modulable, you may customize the physics precision (iterations), the gravity, and the physics time step to use.
+
+Not yet available on crates.io, the lib will be released after a few missing features are provided:
+- Primitive collision
+- Object batching (optimization)
+- Global documentation
+
+You may contact the author on twitter [@ManevilleF][ManevilleF] or join the [discussion][bv_discussion]
+
+[bv_github]: https://github.com/ManevilleF/bevy_verlet
+[bv_discussion]: https://twitter.com/ManevilleF/status/1437350669858611202?s=20
+[ManevilleF]: https://twitter.com/ManevilleF
+[bv_bevy]: https://bevyengine.org/
+[bv_wikipedia]: https://en.wikipedia.org/wiki/Verlet_integration
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
