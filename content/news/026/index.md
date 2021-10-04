@@ -119,7 +119,7 @@ iterating over queries which match certain patterns described by the user, at
 the cost of a performance penalty when inserting or removing components from
 these storages.
 
-To get started with [Sparsey] check out the [Sparsey Cheat Sheet] and the 
+To get started with [Sparsey], check out the [Sparsey Cheat Sheet] and the 
 [examples on GitHub]!
 
 [Sparsey]: https://github.com/LechintanTudor/sparsey
