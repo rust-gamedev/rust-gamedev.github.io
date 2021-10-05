@@ -209,6 +209,17 @@ As the godot-rust community keeps growing, the project can now be found
 
 ## Learning Material Updates
 
+### Learn WGPU Updated: No more swap chains!
+
+As part of the update to 0.10 the wgpu team removed the `SwapChain` from the
+API. The `surface` will now be used to retrieve textures to render to wrapped
+in `SurfaceTexture`s. You configure the `Surface` in a similar way to how you
+would configure the `SwapChain` except the struct is now called
+`SurfaceConfiguration` instead of `SwapChainDescriptor`. If you want to know
+more, you can check [the tutorial].
+
+[the tutorial]: https://sotrh.github.io/learn-wgpu/news
+
 ## Tooling Updates
 
 ## Library Updates
