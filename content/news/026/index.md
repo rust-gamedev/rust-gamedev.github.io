@@ -209,6 +209,22 @@ As the godot-rust community keeps growing, the project can now be found
 
 ## Learning Material Updates
 
+### [GDC Talk by Dan Olson][dan-olson-twitter]
+
+[Dan Olson][dan-olson-twitter] gave a talk at the Game Developers Conference in
+July about using Rust for game tooling. The talk describes how Rust is being
+integrated at Treyarch. Dan gives a "sales pitch" about several Rust benefits,
+and goes over several case studies about where it is used. It makes appearances
+in the Treyarch image packer, and is used in 3 major tools, and around 20
+smaller one-off tools. Around 120k lines of Rust code have been written for the
+projects. If you have a GDC Vault account, you can watch [the
+video][gdc-vault-video]. If you don't, you can still read [the
+slides][gdc-vault-slides].
+
+[dan-olson-twitter]: https://twitter.com/olson_dan/status/1438600242962698256
+[gdc-vault-video]: https://gdcvault.com/play/1027315
+[dan-olson-slides]: https://research.activision.com/publications/2021/09/the-rust-programming-language-for-game-tooling
+
 ## Tooling Updates
 
 ## Library Updates
