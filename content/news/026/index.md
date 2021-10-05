@@ -136,6 +136,46 @@ September's full weekly devlogs: "This Week In Veloren...":
 [veloren-011-dev-chats]:https://www.youtube.com/watch?v=J5Xz-vbE27Q
 [veloren-011-release-blog]: https://veloren.net/release-0-11/
 
+### [Circle Race]
+
+![circle race](circle-race.jpg)
+
+Game made by [@kuviman] for [TriJam 135], where you need to create a game in 3 hours.
+The theme was "Circles"
+
+You are a circle. Connected with two other "thruster" circles. Inside a circle.
+Consisting of "tire" circles.
+Circle around it to see what best time you can circle.
+
+Made using [@kuviman]'s own engine [geng].
+
+_Discussions:
+[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/phyn7z/circle_race_game_made_in_3_hours_for_trijam/)_
+
+[Circle Race]: https://kuviman.itch.io/circle-race
+[@kuviman]: https://github.com/kuviman
+[TriJam 135]: https://itch.io/jam/trijam-135
+[geng]: https://github.com/kuviman/geng/
+
+### [Monke Pizza]
+
+![monke pizza](monke-pizza.jpg)
+
+Game made by [@kuviman] for [VimJam 2].
+The theme was "Boss" and limitation was "On the edge".
+
+Online multiplayer monke pizza restaurant simulator.
+
+You are always on the edge of being fired.
+That is if you work here.
+Otherwise you are on the edge of being hired.
+Because that is how BOSS is bossing.
+
+Made using [@kuviman]'s own engine [geng].
+
+[Monke Pizza]: https://kuviman.itch.io/monke-pizza
+[VimJam 2]: https://itch.io/jam/vimjam2
+
 ## Engine Updates
 
 ### [good-web-game]
