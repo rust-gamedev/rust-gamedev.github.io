@@ -211,6 +211,20 @@ As the godot-rust community keeps growing, the project can now be found
 
 ## Tooling Updates
 
+### [Borderland 3 Save Editor][borderlands-save-github]
+
+![borderlands save editor](borderlands-save.png)
+
+The [Borderland 3 Save Editor][borderlands-save-github] by [ZakisM] is a tool to
+help you modify your Borderlands 3 Saves and Profiles. Currently it runs on
+Windows, Mac OS and Linux. It supports modifying PC saves as well as decrypted
+PS4 saves (and converting between them). It uses the the [iced GUI
+framework][borderlands-iced].
+
+[ZakisM]: https://github.com/ZakisM
+[borderlands-iced]: https://github.com/iced-rs/iced
+[borderlands-save-github]: https://github.com/ZakisM/bl3_save_edit
+
 ## Library Updates
 
 ## Popular Workgroup Issues in Github
