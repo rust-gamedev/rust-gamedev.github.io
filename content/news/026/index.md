@@ -136,6 +136,27 @@ September's full weekly devlogs: "This Week In Veloren...":
 [veloren-011-dev-chats]:https://www.youtube.com/watch?v=J5Xz-vbE27Q
 [veloren-011-release-blog]: https://veloren.net/release-0-11/
 
+### Idu
+
+![idu](idu.jpg) _The Idu titlescreen_
+
+Idu by [logicsoup] is an upcoming game centered around growing realistic plants.
+
+In September, the project previously codenamed "garden" has been renamed to
+"idu"! In Idu, every plant is continuously formed by the simulation. There are
+unique responses from a plant's surroundings and your care. Simulated leaves and
+shoots grow into plants with a mind of their own. Here is the changelog of Demo Version
+4:
+
+- Fixed freezing when help menu was displayed
+- Added support for all older Ubuntu versions from 16.04
+- Fixed crashing when roots extended over the world border
+- Pressing ESC in menus acts as a back button
+- Fixed the issue where pruning didn't work on the first day after loading the game
+- Fixed the game choosing integrated GPU even when a discrete one was available
+
+[logicsoup]: https://twitter.com/logicsoup
+
 ## Engine Updates
 
 ### [good-web-game]
