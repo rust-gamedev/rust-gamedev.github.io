@@ -140,12 +140,10 @@ September's full weekly devlogs: "This Week In Veloren...":
 
 ![circle race](circle-race.jpg)
 
-Game made by [@kuviman] for [TriJam 135], where you need to create a game in 3 hours.
-The theme was "Circles"
-
-You are a circle. Connected with two other "thruster" circles. Inside a circle.
-Consisting of "tire" circles.
-Circle around it to see what best time you can circle.
+Circle Race was made by [@kuviman] for [TriJam 135], where you needed to create
+a game in three hours. The theme was "Circles". You are a circle, connected with
+two other "thruster" circles. You play inside a circle, consisting of "tire"
+circles. Circle around it to find your best circle time!
 
 Made using [@kuviman]'s own engine [geng].
 
