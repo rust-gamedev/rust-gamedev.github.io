@@ -159,15 +159,12 @@ _Discussions:
 
 ![monke pizza](monke-pizza.jpg)
 
-Game made by [@kuviman] for [VimJam 2].
-The theme was "Boss" and limitation was "On the edge".
+Game made by [@kuviman] for [VimJam 2]. The theme for this jam was "Boss" and
+the limitation was "On The Edge".
 
-Online multiplayer monke pizza restaurant simulator.
-
-You are always on the edge of being fired.
-That is if you work here.
-Otherwise you are on the edge of being hired.
-Because that is how BOSS is bossing.
+Monke Pizza is an online multiplayer monke pizza restaurant simulator. You are
+always on the edge of being fired. That is *if* you work here. Otherwise you are
+on the edge of being hired. Because that is how BOSS is bossing.
 
 Made using [@kuviman]'s own engine [geng].
 
