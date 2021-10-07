@@ -83,6 +83,38 @@ working on at the next meetup on [October 9th][rust-meetup-oct-time], fill out
 [rust-gamedev-twitch]: https://twitch.tv/rustgamedev
 [rust-meetup-oct-time]: https://everytimezone.com/s/aa44ac42
 
+## Rust Graphics Meetup \#1
+
+![logo](graphics-meetup.png)
+
+The Rust Graphics Meetup is an online gathering where rustaceans share
+technical details of their work related to graphics and compute,
+not affiliated to any particular stack.
+The pilot edition has happened on Oct 2nd! Check out the talks:
+
+- [gfx-rs Lessons Learned][rgm1-video] - [@kvark], [slides][rgm1-slides].
+- [rend3 Architecture: Efficient, Customizable Rendering][rgm2-video] -
+  [@cwfitzgerald], [slides][rgm2-slides].
+- [Blub - Interactive GPU Fluid Solver][rgm3-video] - [@wumpf], [slides][rgm3-slides].
+
+Learn more at the [gfx meetup repo].
+Thanks everyone for tuning in and helping to make this happen!
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/q08byh/videos_from_rust_graphics_meetup_1),
+[Twitter](https://twitter.com/rust_gamedev/status/1444326130035666953)_
+
+[rgm1-video]: https://youtube.com/watch?v=m0JgF5Wb-dA
+[rgm1-slides]: https://github.com/gfx-rs/meetup/blob/main/Meeting01/GfxLessonsLearned.pdf
+[rgm2-video]: https://youtube.com/watch?v=F0wGz5UJTrY
+[rgm2-slides]: https://github.com/gfx-rs/meetup/blob/main/Meeting01/rend3s_Architecture_-_Efficient_Customizable_Rendering.pdf
+[rgm3-video]: https://youtube.com/watch?v=Yzr9va5UtiE
+[rgm3-slides]: https://github.com/gfx-rs/meetup/blob/main/Meeting01/Blub_-_Quick_tour_through_a_GPU_fluid_solver.pdf
+[gfx meetup repo]: https://github.com/gfx-rs/meetup
+[@kvark]: https://github.com/kvark
+[@cwfitzgerald]: https://github.com/cwfitzgerald
+[@wumpf]: https://github.com/wumpf
+
 ## Game Updates
 
 ### [Weegames][weegames-itch]
@@ -268,6 +300,29 @@ fork and PR!
 ## Tooling Updates
 
 ## Library Updates
+
+### [wgpu]
+
+![Deno with wgpu crown](deno-wgpu.png)
+_deno-wgpu_
+
+[wgpu] is a cross-platform, safe, pure-rust graphics API that runs natively
+on Vulkan, Metal, D3D12, D3D11, and OpenGLES; and on top of WebGPU on wasm.
+
+wgpu has set up the infrastructure to run WebGPU proper tests on its CI,
+via [Deno]. This will ensure correctness down the road when we reach a
+decent level of coverage. Read more on [gfx-rs blog].
+
+Aside from that, wgpu team has been pumping out patches. In fact, wgpu-0.10 is
+easily the most patched release of all!
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/ppgb2l/wgpu_alliance_with_deno),
+[Twitter](https://twitter.com/deno_land/status/1438573126670028801)_
+
+[wgpu]: https://github.com/gfx-rs/wgpu
+[Deno]: https://github.com/denoland/deno
+[gfx-rs blog]: https://gfx-rs.github.io/2021/09/16/deno-webgpu.html
 
 ## Popular Workgroup Issues in Github
 
