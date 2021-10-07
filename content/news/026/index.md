@@ -145,8 +145,9 @@ _It's a good day for fishing..._
 The game server is written in Rust, and the official client is being developed
 in Unity.
 
-A few new features and lots of fixes were released to players this month, including Item Enchantments and the Mining skill!
-Crafting has been expanded as well, and there are a ton of new monsters to fight and gear pieces to create.
+A few new features and lots of fixes were released to players this month, including
+Item Enchantments and the Mining skill! Crafting has been expanded as well, and
+there are a ton of new monsters to fight and gear pieces to create.
 
 - [#36: Item Enchantments](https://ratwizard.dev/dev-log/antorum/36)
 - [#37: Audio Sources And Other Stuff](https://ratwizard.dev/dev-log/antorum/37)
