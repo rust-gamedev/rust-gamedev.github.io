@@ -67,15 +67,17 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Rust Graphics Meetup \#1
 
+![logo](graphics-meetup.png)
+
 The Rust Graphics Meetup is an online gathering where rustaceans share
 technical details of their work related to graphics and compute,
 not affiliated to any particular stack.
 The pilot edition has happened on Oct 2nd! Check out the talks:
 
-- [gfx-rs Lessons Learned][rgm1-video] - @kvark, [slides][rgm1-slides].
+- [gfx-rs Lessons Learned][rgm1-video] - [@kvark], [slides][rgm1-slides].
 - [rend3 Architecture: Efficient, Customizable Rendering][rgm2-video] -
-  @cwfitzgerald, [slides][rgm2-slides].
-- [Blub - Interactive GPU Fluid Solver][rgm3-video] - @wumpf, [slides][rgm3-slides].
+  [@cwfitzgerald], [slides][rgm2-slides].
+- [Blub - Interactive GPU Fluid Solver][rgm3-video] - [@wumpf], [slides][rgm3-slides].
 
 Learn more at the [gfx meetup repo].
 Thanks everyone for tuning in and helping to make this happen!
@@ -90,7 +92,10 @@ _Discussions:
 [rgm2-slides]: https://github.com/gfx-rs/meetup/blob/main/Meeting01/rend3s_Architecture_-_Efficient_Customizable_Rendering.pdf
 [rgm3-video]: https://youtube.com/watch?v=Yzr9va5UtiE
 [rgm3-slides]: https://github.com/gfx-rs/meetup/blob/main/Meeting01/Blub_-_Quick_tour_through_a_GPU_fluid_solver.pdf
-[gfx meetup repo]: https://github.com/gfx-rs/meetup#meetup-1-october-2nd-2021--1600-gmt
+[gfx meetup repo]: https://github.com/gfx-rs/meetup
+[@kvark]: https://github.com/kvark
+[@cwfitzgerald]: https://github.com/cwfitzgerald
+[@wumpf]: https://github.com/wumpf
 
 ## Game Updates
 
