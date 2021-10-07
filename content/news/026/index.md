@@ -108,19 +108,22 @@ as [several key differences remain].
 
 ### [wgpu]
 
-[wgpu] has set up the infrastructure to run WebGPU proper tests on its CI,
-via [Deno]. This will ensure correctness down the road when we reach a
-decent level of coverage. Read more on [gfx-rs blog].
-
 ![Deno with wgpu crown](deno-wgpu.png)
 _deno-wgpu_
+
+[wgpu] is a cross-platform, safe, pure-rust graphics API that runs natively
+on Vulkan, Metal, D3D12, D3D11, and OpenGLES; and on top of WebGPU on wasm.
+
+wgpu has set up the infrastructure to run WebGPU proper tests on its CI,
+via [Deno]. This will ensure correctness down the road when we reach a
+decent level of coverage. Read more on [gfx-rs blog].
 
 Aside from that, wgpu team has been pumping out patches. In fact, wgpu-0.10 is
 easily the most patched release of all!
 
 _Discussions:
-[/r/rust](https://www.reddit.com/r/rust/comments/ppgb2l/wgpu_alliance_with_deno/),
-[twitter](https://mobile.twitter.com/deno_land/status/1438573126670028801)_
+[/r/rust](https://reddit.com/r/rust/comments/ppgb2l/wgpu_alliance_with_deno),
+[twitter](https://twitter.com/deno_land/status/1438573126670028801)_
 
 [wgpu]: https://github.com/gfx-rs/wgpu
 [Deno]: https://github.com/denoland/deno
