@@ -136,6 +136,25 @@ September's full weekly devlogs: "This Week In Veloren...":
 [veloren-011-dev-chats]:https://www.youtube.com/watch?v=J5Xz-vbE27Q
 [veloren-011-release-blog]: https://veloren.net/release-0-11/
 
+### [Antorum Online]
+
+![Some players fishing at the beach](antorum.jpg)
+_It's a good day for fishing..._
+
+[Antorum Online] is a micro-multiplayer online role-playing game by [@dooskington].
+The game server is written in Rust, and the official client is being developed
+in Unity.
+
+A few new features and lots of fixes were released to players this month, including Item Enchantments and the Mining skill!
+Crafting has been expanded as well, and there are a ton of new monsters to fight and gear pieces to create.
+
+- [#36: Item Enchantments](https://ratwizard.dev/dev-log/antorum/36)
+- [#37: Audio Sources And Other Stuff](https://ratwizard.dev/dev-log/antorum/37)
+- [#38: Mining](https://ratwizard.dev/dev-log/antorum/38)
+
+[Antorum Online]: https://ratwizard.dev/dev-log/antorum
+[@dooskington]: https://twitter.com/dooskington
+
 ## Engine Updates
 
 ### [good-web-game]
