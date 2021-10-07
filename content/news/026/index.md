@@ -24,12 +24,11 @@ Want something mentioned in the next newsletter?
 [Send us a pull request][pr].
 Feel free to send PRs about your own projects!
 
-[Rust]: https://rust-lang.org
+[rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 [pr]: https://github.com/rust-gamedev/rust-gamedev.github.io
 [coordination]: https://github.com/rust-gamedev/rust-gamedev.github.io/issues?q=label%3Acoordination
-
-[Rust]: https://rust-lang.org
+[rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
 - [Game Updates](#game-updates)
@@ -133,7 +132,7 @@ September's full weekly devlogs: "This Week In Veloren...":
 [veloren-138]: https://veloren.net/devblog-138
 [veloren-139]: https://veloren.net/devblog-139
 [veloren-011-trailer]: https://www.youtube.com/watch?v=l1oOjvaWJlw
-[veloren-011-dev-chats]:https://www.youtube.com/watch?v=J5Xz-vbE27Q
+[veloren-011-dev-chats]: https://www.youtube.com/watch?v=J5Xz-vbE27Q
 [veloren-011-release-blog]: https://veloren.net/release-0-11/
 
 ### [Harvest Hero Origins][hho] @ PAX West 2021
@@ -158,7 +157,7 @@ which helps with the next hero planning in the full release of the game.
 Harvest Hero Origins is still planned to release by the end of 2021,
 please wishlist it on [Steam][hho]!
 
-[Emerald]: https://github.com/Bombfuse/emerald
+[emerald]: https://github.com/Bombfuse/emerald
 [gemdrop]: https://twitter.com/GemdropGames
 [hho]: https://store.steampowered.com/app/1651500/Harvest_Hero_Origins
 [hho_pax]: https://twitter.com/GemdropGames/status/1433819047481659394
@@ -190,7 +189,7 @@ as [several key differences remain].
 [`good-web-game`]: https://github.com/ggez/good-web-game
 [`ggez`]: https://github.com/ggez/ggez
 [`miniquad`]: https://github.com/not-fl3/miniquad
-[Zemeroth]: https://ozkriff.itch.io/zemeroth
+[zemeroth]: https://ozkriff.itch.io/zemeroth
 [`macroquad`]: https://github.com/not-fl3/macroquad/
 [a new graphics backend for ggez]: https://github.com/ggez/ggez/issues/962
 [a single change in boilerplate code]: https://github.com/PSteinhaus/PSteinhaus.github.io/blob/main/ggez/web-examples/README.md#ggez-animation-example
@@ -260,7 +259,7 @@ recently. If any of this interests you and you'd like to contribute,
 [feel free to grab a task](https://github.com/Bombfuse/emerald/issues),
 fork and PR!
 
-[Emerald]: https://github.com/Bombfuse/emerald
+[emerald]: https://github.com/Bombfuse/emerald
 [bombfuse_twi]: https://twitter.com/bombfuse_dev
 
 ## Learning Material Updates
@@ -268,6 +267,27 @@ fork and PR!
 ## Tooling Updates
 
 ## Library Updates
+
+### [imgui-rs][imgui-rs]
+
+[imgui-rs][imgui-rs] is the Rust bindings for the Dear ImGui framework,
+allowing users to easily build up complex debug widgets and tools.
+
+In [v0.8.0][v0.8.0], the library's API continued its overhaul to both be more
+similar to the C++ API while feeling like native Rust. Specifically,
+the odious `im_str!` macro was deprectaed -- using inline strings directly
+(and anything `AsRef<str>`) simply works. Most functions also make extensive
+use of RAII-style drop tokens to track `begin`/`end` calls.
+Lastly, we updated to current Dear ImGui v1.84, and bound to the new APIs,
+including the new Tables API.
+
+`imgui-rs` is continuing to rapidly change. Over the last few months, the number
+of PRs and issues submitted has increased, as, hopefully, many are
+giving the library another look. These changes are improving in `v0.9.0`. We
+welcome users to work off the `main` branch as we continue to improve the library.
+
+[imgui-rs]: https://github.com/imgui-rs/imgui-rs
+[v0.8.0]: https://github.com/imgui-rs/imgui-rs/releases/tag/v0.8.0
 
 ## Popular Workgroup Issues in Github
 
@@ -298,7 +318,7 @@ and highlight events from the past. -->
 <!-- TODO: browse previous newsletter coord-issues and select some cool section
 that wasn't written. -->
 
-------
+---
 
 That's all news for today, thanks for reading!
 
