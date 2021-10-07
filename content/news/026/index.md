@@ -279,13 +279,8 @@ similar to the C++ API while feeling like native Rust. Specifically,
 the odious `im_str!` macro was deprectaed -- using inline strings directly
 (and anything `AsRef<str>`) simply works. Most functions also make extensive
 use of RAII-style drop tokens to track `begin`/`end` calls.
-Lastly, we updated to current Dear ImGui v1.84, and bound to the new APIs,
+Lastly, updated to current Dear ImGui v1.84, and bound to the new APIs,
 including the new Tables API.
-
-`imgui-rs` is continuing to rapidly change. Over the last few months, the number
-of PRs and issues submitted has increased, as, hopefully, many are
-giving the library another look. These changes are improving in `v0.9.0`. We
-welcome users to work off the `main` branch as we continue to improve the library.
 
 [imgui-rs]: https://github.com/imgui-rs/imgui-rs
 [v0.8.0]: https://github.com/imgui-rs/imgui-rs/releases/tag/v0.8.0
