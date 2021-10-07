@@ -85,31 +85,32 @@ working on at the next meetup on [October 9th][rust-meetup-oct-time], fill out
 
 ## Game Updates
 
-### [Harvest Hero Origins @ PAX West 2021](https://store.steampowered.com/app/1651500/Harvest_Hero_Origins/)
+### [Harvest Hero Origins][hho] @ PAX West 2021
 
-![hho @ pax](./hho_pax.jpg)
+![hho @ pax](hho_pax.jpg)
 _Gemdrop Games booth at PAX West 2021_
 
-Hey there rustaceans, [Gemdrop Games] recently took
-Harvest Hero Origins to PAX West 2021.
-They had a very positive response from most of the players!
+[Harvest Hero Origins][hho]
+([Discord](https://discord.gg/CJRbxQn3d9),
+[Twitter](https://twitter.com/GemdropGames))
+is an arcade wave defense game by [Gemdrop Games][gemdrop],
+built in Rust on top of [Emerald].
 
-Being able to watch people play the game was extremely valuable, they were
-able to see pain points in UI/UX design and can now fix them without worry.
+Gemdrop Games recently took Harvest Hero Origins to [PAX West 2021][hho_pax]
+and had a very positive response from most of the players!
+Being able to watch people play the game was extremely valuable,
+the developers were able to see pain points in UI/UX design
+and can now fix them without worry.
 They were also able to see what players find fun about controlling each hero,
-which helps them plan the next hero in the full release of the game.
+which helps with the next hero planning in the full release of the game.
 
 Harvest Hero Origins is still planned to release by the end of 2021,
-please wishlist on [steam] and they hope you're looking forward to it!
-
-_Discussions:
-[discord](https://discord.gg/CJRbxQn3d9)_
-
-_built on [Emerald]_
+please wishlist it on [Steam][hho]!
 
 [Emerald]: https://github.com/Bombfuse/emerald
-[Gemdrop Games]: https://twitter.com/GemdropGames
-[steam]: https://store.steampowered.com/app/1651500/Harvest_Hero_Origins/
+[gemdrop]: https://twitter.com/GemdropGames
+[hho]: https://store.steampowered.com/app/1651500/Harvest_Hero_Origins
+[hho_pax]: https://twitter.com/GemdropGames/status/1433819047481659394
 
 ### [Weegames][weegames-itch]
 
@@ -200,32 +201,29 @@ as [several key differences remain].
 ![hotreload](emd_texture_hotreload.gif)
 _Built in texture hot reloading, just call `emd.loader().hotreload()`_
 
-The core principal of Emerald is to be super portable and easy-to-use.
+[Emerald] by [@bombfuse][bombfuse_twi]
+is a 2D game engine focused on being super portable and easy-to-use.
+
+Currently supported platforms are:
+Windows, Linux (WIP gamepad support), macOS (WIP gamepad support),
+Web (WIP Audio), Android (WIP audio, gamepad Support),
+[GameShell](http://imgur.com/a/8cWxOPs),
+and even [WearOS](https://twitter.com/bombfuse_dev/status/1444100458260299778)!
+
+Recently added features include:
+
+- Texture hot reloading (sound hot reloading is coming soon!).
+- Cross-platform file saving/loading.
+  This is essential for games, basically allows the user to save
+  their files to the platform specific save directory.
 
 [Emerald] has slowly been growing, both in contributor size and feature sets
 recently. If any of this interests you and you'd like to contribute,
-[feel free to graba task](https://github.com/Bombfuse/emerald/issues),
+[feel free to grab a task](https://github.com/Bombfuse/emerald/issues),
 fork and PR!
 
-New Features
-
-- Texture hot reloading
-  - COMING SOON - Sound hot reloading
-- Cross-platform file saving/loading
-  - This is essential for games, basically allows the user to save
-    their files to the platform specific save directory.
-
-Currently Support Platforms
-
-- Windows
-- Linux (WIP gamepad support)
-- [GameShell](http://imgur.com/a/8cWxOPs)
-- MacOS (WIP gamepad support)
-- Web (WIP Audio)
-- Android (WIP audio, gamepad Support)
-- [WearOS](https://twitter.com/bombfuse_dev/status/1444100458260299778)
-
 [Emerald]: https://github.com/Bombfuse/emerald
+[bombfuse_twi]: https://twitter.com/bombfuse_dev
 
 ## Learning Material Updates
 
