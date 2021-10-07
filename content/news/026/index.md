@@ -24,11 +24,12 @@ Want something mentioned in the next newsletter?
 [Send us a pull request][pr].
 Feel free to send PRs about your own projects!
 
-[rust]: https://rust-lang.org
+[Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 [pr]: https://github.com/rust-gamedev/rust-gamedev.github.io
 [coordination]: https://github.com/rust-gamedev/rust-gamedev.github.io/issues?q=label%3Acoordination
-[rust]: https://rust-lang.org
+
+[Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
 - [Game Updates](#game-updates)
@@ -132,7 +133,7 @@ September's full weekly devlogs: "This Week In Veloren...":
 [veloren-138]: https://veloren.net/devblog-138
 [veloren-139]: https://veloren.net/devblog-139
 [veloren-011-trailer]: https://www.youtube.com/watch?v=l1oOjvaWJlw
-[veloren-011-dev-chats]: https://www.youtube.com/watch?v=J5Xz-vbE27Q
+[veloren-011-dev-chats]:https://www.youtube.com/watch?v=J5Xz-vbE27Q
 [veloren-011-release-blog]: https://veloren.net/release-0-11/
 
 ### [Harvest Hero Origins][hho] @ PAX West 2021
@@ -157,7 +158,7 @@ which helps with the next hero planning in the full release of the game.
 Harvest Hero Origins is still planned to release by the end of 2021,
 please wishlist it on [Steam][hho]!
 
-[emerald]: https://github.com/Bombfuse/emerald
+[Emerald]: https://github.com/Bombfuse/emerald
 [gemdrop]: https://twitter.com/GemdropGames
 [hho]: https://store.steampowered.com/app/1651500/Harvest_Hero_Origins
 [hho_pax]: https://twitter.com/GemdropGames/status/1433819047481659394
@@ -189,7 +190,7 @@ as [several key differences remain].
 [`good-web-game`]: https://github.com/ggez/good-web-game
 [`ggez`]: https://github.com/ggez/ggez
 [`miniquad`]: https://github.com/not-fl3/miniquad
-[zemeroth]: https://ozkriff.itch.io/zemeroth
+[Zemeroth]: https://ozkriff.itch.io/zemeroth
 [`macroquad`]: https://github.com/not-fl3/macroquad/
 [a new graphics backend for ggez]: https://github.com/ggez/ggez/issues/962
 [a single change in boilerplate code]: https://github.com/PSteinhaus/PSteinhaus.github.io/blob/main/ggez/web-examples/README.md#ggez-animation-example
@@ -259,7 +260,7 @@ recently. If any of this interests you and you'd like to contribute,
 [feel free to grab a task](https://github.com/Bombfuse/emerald/issues),
 fork and PR!
 
-[emerald]: https://github.com/Bombfuse/emerald
+[Emerald]: https://github.com/Bombfuse/emerald
 [bombfuse_twi]: https://twitter.com/bombfuse_dev
 
 ## Learning Material Updates
@@ -318,7 +319,7 @@ and highlight events from the past. -->
 <!-- TODO: browse previous newsletter coord-issues and select some cool section
 that wasn't written. -->
 
----
+------
 
 That's all news for today, thanks for reading!
 
