@@ -244,7 +244,7 @@ is a 2D game engine focused on being super portable and easy-to-use.
 
 Currently supported platforms are:
 Windows, Linux (WIP gamepad support), macOS (WIP gamepad support),
-Web (WIP Audio), Android (WIP audio, gamepad Support),
+Web, Android (WIP audio, gamepad Support),
 [GameShell](http://imgur.com/a/8cWxOPs),
 and even [WearOS](https://twitter.com/bombfuse_dev/status/1444100458260299778)!
 
