@@ -136,6 +136,33 @@ September's full weekly devlogs: "This Week In Veloren...":
 [veloren-011-dev-chats]:https://www.youtube.com/watch?v=J5Xz-vbE27Q
 [veloren-011-release-blog]: https://veloren.net/release-0-11/
 
+### [Harvest Hero Origins][hho] @ PAX West 2021
+
+![hho @ pax](hho_pax.jpg)
+_Gemdrop Games booth at PAX West 2021_
+
+[Harvest Hero Origins][hho]
+([Discord](https://discord.gg/CJRbxQn3d9),
+[Twitter](https://twitter.com/GemdropGames))
+is an arcade wave defense game by [Gemdrop Games][gemdrop],
+built in Rust on top of [Emerald].
+
+Gemdrop Games recently took Harvest Hero Origins to [PAX West 2021][hho_pax]
+and had a very positive response from most of the players!
+Being able to watch people play the game was extremely valuable,
+the developers were able to see pain points in UI/UX design
+and can now fix them without worry.
+They were also able to see what players find fun about controlling each hero,
+which helps with the next hero planning in the full release of the game.
+
+Harvest Hero Origins is still planned to release by the end of 2021,
+please wishlist it on [Steam][hho]!
+
+[Emerald]: https://github.com/Bombfuse/emerald
+[gemdrop]: https://twitter.com/GemdropGames
+[hho]: https://store.steampowered.com/app/1651500/Harvest_Hero_Origins
+[hho_pax]: https://twitter.com/GemdropGames/status/1433819047481659394
+
 ## Engine Updates
 
 ### [good-web-game]
@@ -206,6 +233,35 @@ As the godot-rust community keeps growing, the project can now be found
 [gd-github]: https://github.com/godot-rust/godot-rust
 [gd-discord]: https://discord.com/invite/FNudpBD
 [gd-twitter]: https://twitter.com/GodotRust
+
+### [Emerald]
+
+![hotreload](emd_texture_hotreload.gif)
+_Built in texture hot reloading, just call `emd.loader().hotreload()`_
+
+[Emerald] by [@bombfuse][bombfuse_twi]
+is a 2D game engine focused on being super portable and easy-to-use.
+
+Currently supported platforms are:
+Windows, Linux (WIP gamepad support), macOS (WIP gamepad support),
+Web, Android (WIP audio, gamepad Support),
+[GameShell](http://imgur.com/a/8cWxOPs),
+and even [WearOS](https://twitter.com/bombfuse_dev/status/1444100458260299778)!
+
+Recently added features include:
+
+- Texture hot reloading (sound hot reloading is coming soon!).
+- Cross-platform file saving/loading.
+  This is essential for games, basically allows the user to save
+  their files to the platform specific save directory.
+
+[Emerald] has slowly been growing, both in contributor size and feature sets
+recently. If any of this interests you and you'd like to contribute,
+[feel free to grab a task](https://github.com/Bombfuse/emerald/issues),
+fork and PR!
+
+[Emerald]: https://github.com/Bombfuse/emerald
+[bombfuse_twi]: https://twitter.com/bombfuse_dev
 
 ## Learning Material Updates
 
