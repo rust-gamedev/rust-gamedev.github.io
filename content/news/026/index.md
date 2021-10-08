@@ -266,6 +266,41 @@ procedural generation.
 [game time]: https://twitter.com/kiss_mrton/status/1434189320865341444
 [LDtk]: https://ldtk.io
 
+### [Circle Race]
+
+![circle race](circle-race.jpg)
+
+Circle Race was made by [@kuviman] for [TriJam 135], where you needed to create
+a game in three hours. The theme was "Circles". You are a circle, connected with
+two other "thruster" circles. You play inside a circle, consisting of "tire"
+circles. Circle around it to find your best circle time!
+
+Made using [@kuviman]'s own engine [geng].
+
+_Discussions:
+[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/phyn7z/circle_race_game_made_in_3_hours_for_trijam/)_
+
+[Circle Race]: https://kuviman.itch.io/circle-race
+[@kuviman]: https://github.com/kuviman
+[TriJam 135]: https://itch.io/jam/trijam-135
+[geng]: https://github.com/kuviman/geng/
+
+### [Monke Pizza]
+
+![monke pizza](monke-pizza.jpg)
+
+Game made by [@kuviman] for [VimJam 2]. The theme for this jam was "Boss" and
+the limitation was "On The Edge".
+
+Monke Pizza is an online multiplayer monke pizza restaurant simulator. You are
+always on the edge of being fired. That is *if* you work here. Otherwise you are
+on the edge of being hired. Because that is how BOSS is bossing.
+
+Made using [@kuviman]'s own engine [geng].
+
+[Monke Pizza]: https://kuviman.itch.io/monke-pizza
+[VimJam 2]: https://itch.io/jam/vimjam2
+
 ## Engine Updates
 
 ### [good-web-game]
