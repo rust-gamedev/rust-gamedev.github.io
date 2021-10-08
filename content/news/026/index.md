@@ -32,6 +32,7 @@ Feel free to send PRs about your own projects!
 [Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
+- [Rust GameDev Podcast](#rust-gamedev-podcast-6)
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
@@ -83,7 +84,86 @@ working on at the next meetup on [October 9th][rust-meetup-oct-time], fill out
 [rust-gamedev-twitch]: https://twitch.tv/rustgamedev
 [rust-meetup-oct-time]: https://everytimezone.com/s/aa44ac42
 
+## Rust Graphics Meetup \#1
+
+![logo](graphics-meetup.png)
+
+The Rust Graphics Meetup is an online gathering where rustaceans share
+technical details of their work related to graphics and compute,
+not affiliated to any particular stack.
+The pilot edition has happened on Oct 2nd! Check out the talks:
+
+- [gfx-rs Lessons Learned][rgm1-video] - [@kvark], [slides][rgm1-slides].
+- [rend3 Architecture: Efficient, Customizable Rendering][rgm2-video] -
+  [@cwfitzgerald], [slides][rgm2-slides].
+- [Blub - Interactive GPU Fluid Solver][rgm3-video] - [@wumpf], [slides][rgm3-slides].
+
+Learn more at the [gfx meetup repo].
+Thanks everyone for tuning in and helping to make this happen!
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/q08byh/videos_from_rust_graphics_meetup_1),
+[Twitter](https://twitter.com/rust_gamedev/status/1444326130035666953)_
+
+[rgm1-video]: https://youtube.com/watch?v=m0JgF5Wb-dA
+[rgm1-slides]: https://github.com/gfx-rs/meetup/blob/main/Meeting01/GfxLessonsLearned.pdf
+[rgm2-video]: https://youtube.com/watch?v=F0wGz5UJTrY
+[rgm2-slides]: https://github.com/gfx-rs/meetup/blob/main/Meeting01/rend3s_Architecture_-_Efficient_Customizable_Rendering.pdf
+[rgm3-video]: https://youtube.com/watch?v=Yzr9va5UtiE
+[rgm3-slides]: https://github.com/gfx-rs/meetup/blob/main/Meeting01/Blub_-_Quick_tour_through_a_GPU_fluid_solver.pdf
+[gfx meetup repo]: https://github.com/gfx-rs/meetup
+[@kvark]: https://github.com/kvark
+[@cwfitzgerald]: https://github.com/cwfitzgerald
+[@wumpf]: https://github.com/wumpf
+
+## [Rust GameDev Podcast #6][podcast-6]
+
+![text logo](podcast.jpeg)
+
+[The sixth episode][podcast-6] is an interview with Remco and Basz, creators of
+[Mun][mun]. Programming language creation is discussed, along with challenges
+and what future developments are incoming from the [Mun project][mun].
+
+Listen and Subscribe from the following platforms:
+[Rust GameDev Podcast (simplecast)][gamedev-podcast-site],
+[Apple Podcasts][gamedev-podcast-apple],
+[Spotify][gamedev-podcast-spotify],
+[RSS Feed][gamedev-podcast-rss],
+[Google Podcasts][gamedev-podcast-google].
+
+[podcast-6]: https://rustgamedev.com/episodes/interview-with-remco-and-basz
+[mun]: https://mun-lang.org/
+[gamedev-podcast-site]: https://rustgamedev.com/
+[gamedev-podcast-apple]: https://podcasts.apple.com/gb/podcast/rust-game-dev/id1526304768
+[gamedev-podcast-spotify]: https://open.spotify.com/show/7HRfGnTcXkLkQd9fxJbDGj
+[gamedev-podcast-rss]: https://feeds.simplecast.com/C6NQglnL
+[gamedev-podcast-google]: https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zaW1wbGVjYXN0LmNvbS9DNk5RZ2xuTA
+
 ## Game Updates
+
+### [BITGUN][bitgun-steam]
+
+[![Gameplay screenshot with lots of zombies and a zombie boss](bitgun.jpeg)][bitgun-steam]
+
+BITGUN ([Steam][bitgun-steam], [Twitter][bitgun-twitter],
+[Discord][bitgun-discord]) by [@LogLogGames][bitgun-twitter] is an action
+roguelike zombie shooter with lots of blood and guns, similar to games like
+Hotline Miami, Nuclear Throne and Heat Signature. The game is built using Godot
+and Rust (via [godot-rust][bitgun-godot-rust]).
+
+They recently re-worked the in-game UI using [egui][bitgun-egui] with
+[godot-egui][bitgun-godot-egui], allowing much easier custom widgets such as
+[drag & drop on items between inventory slots][bitgun-inventory].
+
+_Discussions: [Twitter][bitgun-inventory]_
+
+[bitgun-steam]: https://store.steampowered.com/app/1673940/BITGUN/
+[bitgun-twitter]: https://twitter.com/logloggames
+[bitgun-discord]: https://discord.gg/XrGZQkq
+[bitgun-godot-rust]: https://godot-rust.github.io/
+[bitgun-egui]: https://github.com/emilk/egui
+[bitgun-godot-egui]: https://github.com/setzer22/godot-egui
+[bitgun-inventory]: https://twitter.com/LogLogGames/status/1444072221681635333
 
 ### [Weegames][weegames-itch]
 
@@ -108,7 +188,7 @@ Fortress and Cube World.
 In September, Veloren hosted its larges release party ever! At peak, 181 players
 were playing on the server together. You can read about all the changes to 0.11
 in [the release blog][veloren-011-release-blog], and be sure to watch the
-[release trailer][veloren-011-trailer]!. During the release party, several devs
+[release trailer][veloren-011-trailer]! During the release party, several devs
 spoke about the changes, which you can watch [here][veloren-011-dev-chats]. This
 release party was the first one to handle the high player load with no issues,
 and give hope for much larger servers in the future.
@@ -135,6 +215,33 @@ September's full weekly devlogs: "This Week In Veloren...":
 [veloren-011-trailer]: https://www.youtube.com/watch?v=l1oOjvaWJlw
 [veloren-011-dev-chats]:https://www.youtube.com/watch?v=J5Xz-vbE27Q
 [veloren-011-release-blog]: https://veloren.net/release-0-11/
+
+### [Harvest Hero Origins][hho] @ PAX West 2021
+
+![hho @ pax](hho_pax.jpg)
+_Gemdrop Games booth at PAX West 2021_
+
+[Harvest Hero Origins][hho]
+([Discord](https://discord.gg/CJRbxQn3d9),
+[Twitter](https://twitter.com/GemdropGames))
+is an arcade wave defense game by [Gemdrop Games][gemdrop],
+built in Rust on top of [Emerald].
+
+Gemdrop Games recently took Harvest Hero Origins to [PAX West 2021][hho_pax]
+and had a very positive response from most of the players!
+Being able to watch people play the game was extremely valuable,
+the developers were able to see pain points in UI/UX design
+and can now fix them without worry.
+They were also able to see what players find fun about controlling each hero,
+which helps with the next hero planning in the full release of the game.
+
+Harvest Hero Origins is still planned to release by the end of 2021,
+please wishlist it on [Steam][hho]!
+
+[Emerald]: https://github.com/Bombfuse/emerald
+[gemdrop]: https://twitter.com/GemdropGames
+[hho]: https://store.steampowered.com/app/1651500/Harvest_Hero_Origins
+[hho_pax]: https://twitter.com/GemdropGames/status/1433819047481659394
 
 ## Engine Updates
 
@@ -168,12 +275,6 @@ as [several key differences remain].
 [a new graphics backend for ggez]: https://github.com/ggez/ggez/issues/962
 [a single change in boilerplate code]: https://github.com/PSteinhaus/PSteinhaus.github.io/blob/main/ggez/web-examples/README.md#ggez-animation-example
 [several key differences remain]: https://github.com/ggez/good-web-game#differences
-
-## Learning Material Updates
-
-## Tooling Updates
-
-## Library Updates
 
 ### [godot-rust](https://github.com/godot-rust/godot-rust)
 
@@ -213,6 +314,88 @@ As the godot-rust community keeps growing, the project can now be found
 [gd-discord]: https://discord.com/invite/FNudpBD
 [gd-twitter]: https://twitter.com/GodotRust
 
+### [Emerald]
+
+![hotreload](emd_texture_hotreload.gif)
+_Built in texture hot reloading, just call `emd.loader().hotreload()`_
+
+[Emerald] by [@bombfuse][bombfuse_twi]
+is a 2D game engine focused on being super portable and easy-to-use.
+
+Currently supported platforms are:
+Windows, Linux (WIP gamepad support), macOS (WIP gamepad support),
+Web, Android (WIP audio, gamepad Support),
+[GameShell](http://imgur.com/a/8cWxOPs),
+and even [WearOS](https://twitter.com/bombfuse_dev/status/1444100458260299778)!
+
+Recently added features include:
+
+- Texture hot reloading (sound hot reloading is coming soon!).
+- Cross-platform file saving/loading.
+  This is essential for games, basically allows the user to save
+  their files to the platform specific save directory.
+
+[Emerald] has slowly been growing, both in contributor size and feature sets
+recently. If any of this interests you and you'd like to contribute,
+[feel free to grab a task](https://github.com/Bombfuse/emerald/issues),
+fork and PR!
+
+[Emerald]: https://github.com/Bombfuse/emerald
+[bombfuse_twi]: https://twitter.com/bombfuse_dev
+
+### [Starframe]
+
+![physically-connected groups of primitives are framed with rectangles](starframe-islands.jpeg)
+_Grouping bodies into disjoint "islands"_
+
+[Starframe] by [@moletrooper] is a work-in-progress game engine for physics-y
+sidescrolling 2D games.
+
+This month, a lot of work was done on optimizing the physics engine.
+Most importantly, [spatial partitioning was added][sf-grid-tweet] to speed up
+collision detection. Also notably, [a graph algorithm was
+implemented][sf-island-tweet] to divide the world into disjoint islands,
+enabling some parallelism and skipping of computations.
+
+Starframe's physics is now very close to game-ready, and it no longer makes
+sense to work on the engine without a concrete project to use it.
+Thus, work has begun on a platformer based around connecting things with ropes.
+More details to be shown soonish!
+
+[Starframe]: https://github.com/MoleTrooper/starframe/
+[@moletrooper]: https://twitter.com/moletrooper
+[sf-grid-tweet]: https://twitter.com/moletrooper/status/1432441648890449920
+[sf-island-tweet]: https://twitter.com/moletrooper/status/1438877808412008450
+
+## Learning Material Updates
+
+## Tooling Updates
+
+## Library Updates
+
+### [wgpu]
+
+![Deno with wgpu crown](deno-wgpu.png)
+_deno-wgpu_
+
+[wgpu] is a cross-platform, safe, pure-rust graphics API that runs natively
+on Vulkan, Metal, D3D12, D3D11, and OpenGLES; and on top of WebGPU on wasm.
+
+wgpu has set up the infrastructure to run WebGPU proper tests on its CI,
+via [Deno]. This will ensure correctness down the road when we reach a
+decent level of coverage. Read more on [gfx-rs blog].
+
+Aside from that, wgpu team has been pumping out patches. In fact, wgpu-0.10 is
+easily the most patched release of all!
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/ppgb2l/wgpu_alliance_with_deno),
+[Twitter](https://twitter.com/deno_land/status/1438573126670028801)_
+
+[wgpu]: https://github.com/gfx-rs/wgpu
+[Deno]: https://github.com/denoland/deno
+[gfx-rs blog]: https://gfx-rs.github.io/2021/09/16/deno-webgpu.html
+
 ### [Matchbox]
 
 ![matchbox demo screenshot: Waiting for 3 more players](matchbox.png)
@@ -224,19 +407,19 @@ The goal is to enable low-latency multiplayer games written in Rust WASM.
 Matchbox consists of:
 
 - A tiny signalling server, [`matchbox_server`], which acts as a rendezvous
-point. It helps peers discover each other and deal with NAT traversal in order
-to establish more direct ways of communication.
+  point. It helps peers discover each other and deal with NAT traversal in order
+  to establish more direct ways of communication.
 - A crate, [`matchbox_socket`], which handles connecting to a signalling server
-and establishing a WebRTC data channel between each connected peer.
+  and establishing a WebRTC data channel between each connected peer.
 - A [demo/template project][matchbox_demo] using [Bevy](https://bevyengine.org)
-and [GGRS] to implement a web game with peer-to-peer rollback netcode. A live
-version is hosted [here][helsing_box_game].
+  and [GGRS] to implement a web game with peer-to-peer rollback netcode. A live
+  version is hosted [here][helsing_box_game].
 
-More info is available in the [repository][Matchbox] and [introductory blog
-post][matchbox_intro].
+More info is available in the [repository][Matchbox] and
+[introductory blog post][matchbox_intro].
 
 _Discussions:
-[/r/rust](https://www.reddit.com/r/rust/comments/pmsynh/introducing_matchbox_painless_peertopeer_webrtc/),
+[/r/rust](https://reddit.com/r/rust/comments/pmsynh/introducing_matchbox_painless_peertopeer_webrtc),
 [twitter](https://twitter.com/jkhelsing/status/1437044006068830215)_
 
 [Matchbox]: https://github.com/johanhelsing/matchbox
@@ -246,7 +429,7 @@ _Discussions:
 [matchbox_demo]: https://github.com/johanhelsing/matchbox/tree/main/matchbox_demo
 [helsing_box_game]: https://helsing.studio/box_game
 [@jkhelsing]: https://twitter.com/jkhelsing
-[GGRS]: https://gschup.github.io/ggrs/
+[GGRS]: https://gschup.github.io/ggrs
 
 ## Popular Workgroup Issues in Github
 
