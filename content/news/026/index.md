@@ -276,7 +276,7 @@ allowing users to easily build up complex debug widgets and tools.
 
 In [v0.8.0][v0.8.0], the library's API continued its overhaul to both be more
 similar to the C++ API while feeling like native Rust. Specifically,
-the odious `im_str!` macro was deprectaed -- using inline strings directly
+the odious `im_str!` macro was deprecated -- using inline strings directly
 (and anything `AsRef<str>`) simply works. Most functions also make extensive
 use of RAII-style drop tokens to track `begin`/`end` calls.
 Lastly, updated to current Dear ImGui v1.84, and bound to the new APIs,
