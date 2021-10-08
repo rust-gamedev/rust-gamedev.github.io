@@ -343,6 +343,30 @@ fork and PR!
 [Emerald]: https://github.com/Bombfuse/emerald
 [bombfuse_twi]: https://twitter.com/bombfuse_dev
 
+### [Starframe]
+
+![physically-connected groups of primitives are framed with rectangles](starframe-islands.jpeg)
+_Grouping bodies into disjoint "islands"_
+
+[Starframe] by [@moletrooper] is a work-in-progress game engine for physics-y
+sidescrolling 2D games.
+
+This month, a lot of work was done on optimizing the physics engine.
+Most importantly, [spatial partitioning was added][sf-grid-tweet] to speed up
+collision detection. Also notably, [a graph algorithm was
+implemented][sf-island-tweet] to divide the world into disjoint islands,
+enabling some parallelism and skipping of computations.
+
+Starframe's physics is now very close to game-ready, and it no longer makes
+sense to work on the engine without a concrete project to use it.
+Thus, work has begun on a platformer based around connecting things with ropes.
+More details to be shown soonish!
+
+[Starframe]: https://github.com/MoleTrooper/starframe/
+[@moletrooper]: https://twitter.com/moletrooper
+[sf-grid-tweet]: https://twitter.com/moletrooper/status/1432441648890449920
+[sf-island-tweet]: https://twitter.com/moletrooper/status/1438877808412008450
+
 ## Learning Material Updates
 
 ## Tooling Updates
