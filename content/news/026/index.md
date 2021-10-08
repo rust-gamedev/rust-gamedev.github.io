@@ -32,6 +32,7 @@ Feel free to send PRs about your own projects!
 [Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
+- [Rust GameDev Podcast](#rust-gamedev-podcast-6)
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
@@ -114,6 +115,29 @@ _Discussions:
 [@kvark]: https://github.com/kvark
 [@cwfitzgerald]: https://github.com/cwfitzgerald
 [@wumpf]: https://github.com/wumpf
+
+## [Rust GameDev Podcast #6][podcast-6]
+
+![text logo](podcast.jpeg)
+
+[The sixth episode][podcast-6] is an interview with Remco and Basz, creators of
+[Mun][mun]. Programming language creation is discussed, along with challenges
+and what future developments are incoming from the [Mun project][mun].
+
+Listen and Subscribe from the following platforms:
+[Rust GameDev Podcast (simplecast)][gamedev-podcast-site],
+[Apple Podcasts][gamedev-podcast-apple],
+[Spotify][gamedev-podcast-spotify],
+[RSS Feed][gamedev-podcast-rss],
+[Google Podcasts][gamedev-podcast-google].
+
+[podcast-6]: https://rustgamedev.com/episodes/interview-with-remco-and-basz
+[mun]: https://mun-lang.org/
+[gamedev-podcast-site]: https://rustgamedev.com/
+[gamedev-podcast-apple]: https://podcasts.apple.com/gb/podcast/rust-game-dev/id1526304768
+[gamedev-podcast-spotify]: https://open.spotify.com/show/7HRfGnTcXkLkQd9fxJbDGj
+[gamedev-podcast-rss]: https://feeds.simplecast.com/C6NQglnL
+[gamedev-podcast-google]: https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zaW1wbGVjYXN0LmNvbS9DNk5RZ2xuTA
 
 ## Game Updates
 
