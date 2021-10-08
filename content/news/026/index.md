@@ -66,11 +66,11 @@ _Discussions:
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
-## Rust GameDev Podcast #6
+## [Rust GameDev Podcast #6][podcast-6]
 
-![text logo](../016/podcast.jpeg)
+![text logo](podcast.jpeg)
 
-[The sixth episode][podcast-6] is an interview with Remco and Basz, cretors of
+[The sixth episode][podcast-6] is an interview with Remco and Basz, creators of
 [Mun][mun]. Programming language creation is discussed, along with challenges
 and what future developments are incoming from the [Mun project][mun].
 
