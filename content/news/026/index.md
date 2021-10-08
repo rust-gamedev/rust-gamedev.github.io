@@ -431,6 +431,27 @@ _Discussions:
 [@jkhelsing]: https://twitter.com/jkhelsing
 [GGRS]: https://gschup.github.io/ggrs
 
+### [Sparsey]
+
+[Sparsey] by [@LechintanTudor] is a new sparse set-based Entity Component System
+(ECS) with component storage grouping, granular component change detection,
+fallible systems and beautiful syntax.
+
+The goal of [Sparsey] is to provide a sparse set-based ECS which fully takes
+advantage of its core data structure. An example of this is component storage
+grouping, a feature which allows getting the best performance possible when
+iterating over queries which match certain patterns described by the user, at
+the cost of a performance penalty when inserting or removing components from
+these storages.
+
+To get started with [Sparsey], check out the [Sparsey Cheat Sheet] and the
+[examples on GitHub]!
+
+[Sparsey]: https://github.com/LechintanTudor/sparsey
+[@LechintanTudor]: https://github.com/LechintanTudor
+[Sparsey Cheat Sheet]: https://github.com/LechintanTudor/sparsey/blob/master/guides/cheat_sheet.md
+[examples on GitHub]: https://github.com/LechintanTudor/sparsey/tree/master/examples
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
