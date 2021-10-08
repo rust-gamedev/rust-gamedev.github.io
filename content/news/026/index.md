@@ -171,6 +171,9 @@ as [several key differences remain].
 
 ### [Starframe]
 
+![physically-connected groups of primitives are framed with rectangles](starframe-islands.jpeg)
+_Grouping bodies into disjoint "islands"_
+
 [Starframe] by [@moletrooper] is a work-in-progress game engine for physics-y
 sidescrolling 2D games.
 
