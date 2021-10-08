@@ -475,6 +475,20 @@ If you don't, you can still read [the slides][dan-olson-slides].
 
 ## Tooling Updates
 
+### [Borderlands 3 Save Editor][borderlands-save-github]
+
+![borderlands save editor](borderlands-save.png)
+
+The [Borderlands 3 Save Editor][borderlands-save-github] by [ZakisM] is a tool to
+help you modify your Borderlands 3 Saves and Profiles. Currently it runs on
+Windows, Mac OS and Linux. It supports modifying PC saves as well as decrypted
+PS4 saves (and converting between them). It uses the [iced GUI
+framework][borderlands-iced].
+
+[ZakisM]: https://github.com/ZakisM
+[borderlands-iced]: https://github.com/iced-rs/iced
+[borderlands-save-github]: https://github.com/ZakisM/bl3_save_edit
+
 ## Library Updates
 
 ### [wgpu]
