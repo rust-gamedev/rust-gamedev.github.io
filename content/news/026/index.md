@@ -614,6 +614,18 @@ You may contact the author on Twitter [@ManevilleF][ManevilleF] or join the
 [bv_bevy]: https://bevyengine.org/
 [bv_wikipedia]: https://en.wikipedia.org/wiki/Verlet_integration
 
+### [hecs]
+
+[hecs] is a fast, lightweight, and unopinionated archetypal ECS library.
+
+Version 0.6 introduces `PreparedQuery`, allowing query set-up cost to be
+amortized across multiple invocations. `EntityRef`'s API was expanded to include
+a single-entity `query` method, and now exposes the referenced entity's
+handle. Finally, `World::spawn_batch` and `reserve` were optimized for better
+performance when called repeatedly.
+
+[hecs]: https://github.com/Ralith/hecs
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
