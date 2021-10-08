@@ -452,6 +452,37 @@ To get started with [Sparsey], check out the [Sparsey Cheat Sheet] and the
 [Sparsey Cheat Sheet]: https://github.com/LechintanTudor/sparsey/blob/master/guides/cheat_sheet.md
 [examples on GitHub]: https://github.com/LechintanTudor/sparsey/tree/master/examples
 
+### [bevy_verlet]
+
+![bevy_verlet](bevy_verlet.gif)
+
+[bevy_verlet] is a lib for projects using [Bevy Engine][bv_bevy]
+providing a plugin to use [verlet Integration][bv_wikipedia]
+physics. Very useful for Cloth simulation and joints, and less expensive than
+complex physics engine, it is a nice addition to 2D or 3D projects. Making good
+use of the Entity-Component-System architecture of the bevy engine, any entity
+can become a `VerletPoint` and have physics applied to it.
+
+The crate also provides *sticks* which constrains the points in order to create
+strings or cloth. With its modularity, you may customize the physics precision
+(iterations), the gravity, and the physics time step to use.
+
+Not yet available on crates.io, the lib will be released after a few missing
+features are provided:
+
+- Primitive collision
+- Object batching (optimization)
+- Global documentation
+
+You may contact the author on Twitter [@ManevilleF][ManevilleF] or join the
+[discussion][bv_discussion].
+
+[bevy_verlet]: https://github.com/ManevilleF/bevy_verlet
+[bv_discussion]: https://twitter.com/ManevilleF/status/1437350669858611202?s=20
+[ManevilleF]: https://twitter.com/ManevilleF
+[bv_bevy]: https://bevyengine.org/
+[bv_wikipedia]: https://en.wikipedia.org/wiki/Verlet_integration
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
