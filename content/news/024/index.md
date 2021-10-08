@@ -75,7 +75,7 @@ out [this form][gamedev-meetup-form].
 [gamedev-meetup-form]: https://forms.gle/BS1zCyZaiUFSUHxe6
 [gamedev-meetup-video]: https://www.youtube.com/watch?v=0cefGQyZXH4
 [rust-gamedev-discord]: https://discord.gg/yNtPTb2
-[rust-gamedev-twitch]: https://twitch.tv/rustgamedevmeetup
+[rust-gamedev-twitch]: https://twitch.tv/rustgamedev
 [rust-meetup-august-time]: https://everytimezone.com/s/391b6160
 
 ## Game Updates
