@@ -138,10 +138,10 @@ September's full weekly devlogs: "This Week In Veloren...":
 
 ### Idu
 
-![idu](idu.jpg) _The Idu titlescreen_
+![idu's titlescreen](idu.jpg)
 
-Idu ([Discord][idu-discord]) by [logicsoup] is an upcoming game
-centered around growing realistic plants.
+Idu ([Discord][idu-discord]) by [@logicsoup] and [@epcc10]
+is an upcoming game centered around growing realistic plants.
 
 In September, the project previously codenamed "garden" has been renamed to
 "idu"! In Idu, every plant is continuously formed by the simulation. There are
@@ -156,7 +156,11 @@ shoots grow into plants with a mind of their own. Here is the changelog of Demo 
 - Fixed the issue where pruning didn't work on the first day after loading the game
 - Fixed the game choosing integrated GPU even when a discrete one was available
 
-[logicsoup]: https://twitter.com/logicsoup
+A playable alpha demo has been released and is freely available
+at [Idu's Discord server's #demo-download channel][idu-discord]!
+
+[@logicsoup]: https://twitter.com/logicsoup
+[@epcc10]: https://twitter.com/epcc10
 [idu-discord]: https://discord.gg/PR3GgYYkym
 
 ## Engine Updates
