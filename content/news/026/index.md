@@ -236,10 +236,10 @@ to user interface without sacrificing performance or customizability.
 It comes with PBR materials and render routine out of the box and utilizes
 GPU culling to enable incredible performance with such a simple API.
 
-We have many fun things in the pipeline including a full custom shader
+There're many fun things in the pipeline including a full custom shader
 system, both cpu and gpu side optimization, and more rendering features.
 
-We have published [v0.1][rend3-crates] on crates.io
+The [v0.1 version][rend3-crates] was published on crates.io
 ([docs](rend3-docs) and [examples](rend3-examples)) and v0.2 is going
 to be coming out very soon.
 
