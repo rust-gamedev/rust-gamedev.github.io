@@ -681,6 +681,22 @@ to be coming out very soon.
 [rend3-github]: https://github.com/BVE-Reborn/rend3
 [rend3-crates]: https://crates.io/crates/rend3
 
+### [imgui-rs][imgui-rs] v0.8
+
+[imgui-rs][imgui-rs] is the Rust bindings for the Dear ImGui framework,
+allowing users to easily build up complex debug widgets and tools.
+
+In [v0.8.0][v0.8.0], the library's API continued its overhaul to both be more
+similar to the C++ API while feeling like native Rust. Specifically,
+the odious `im_str!` macro was deprecated -- using inline strings directly
+(and anything `AsRef<str>`) simply works. Most functions also make extensive
+use of RAII-style drop tokens to track `begin`/`end` calls.
+Lastly, it was updated to use current Dear ImGui v1.84, and bound to
+the new APIs, including the new Tables API.
+
+[imgui-rs]: https://github.com/imgui-rs/imgui-rs
+[v0.8.0]: https://github.com/imgui-rs/imgui-rs/releases/tag/v0.8.0
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
