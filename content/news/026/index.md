@@ -396,6 +396,41 @@ _Discussions:
 [Deno]: https://github.com/denoland/deno
 [gfx-rs blog]: https://gfx-rs.github.io/2021/09/16/deno-webgpu.html
 
+### [Matchbox]
+
+![matchbox demo screenshot: Waiting for 3 more players](matchbox.png)
+
+Matchbox by [@jkhelsing] is a new peer-to-peer networking project for
+establishing unreliable, unordered connections between peers on the internet.
+The goal is to enable low-latency multiplayer games written in Rust WASM.
+
+Matchbox consists of:
+
+- A tiny signalling server, [`matchbox_server`], which acts as a rendezvous
+  point. It helps peers discover each other and deal with NAT traversal in order
+  to establish more direct ways of communication.
+- A crate, [`matchbox_socket`], which handles connecting to a signalling server
+  and establishing a WebRTC data channel between each connected peer.
+- A [demo/template project][matchbox_demo] using [Bevy](https://bevyengine.org)
+  and [GGRS] to implement a web game with peer-to-peer rollback netcode. A live
+  version is hosted [here][helsing_box_game].
+
+More info is available in the [repository][Matchbox] and
+[introductory blog post][matchbox_intro].
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/pmsynh/introducing_matchbox_painless_peertopeer_webrtc),
+[twitter](https://twitter.com/jkhelsing/status/1437044006068830215)_
+
+[Matchbox]: https://github.com/johanhelsing/matchbox
+[matchbox_intro]: https://johanhelsing.studio/posts/introducing-matchbox
+[`matchbox_socket`]: https://crates.io/crates/matchbox_socket
+[`matchbox_server`]: https://crates.io/crates/matchbox_server
+[matchbox_demo]: https://github.com/johanhelsing/matchbox/tree/main/matchbox_demo
+[helsing_box_game]: https://helsing.studio/box_game
+[@jkhelsing]: https://twitter.com/jkhelsing
+[GGRS]: https://gschup.github.io/ggrs
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
