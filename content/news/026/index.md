@@ -484,7 +484,6 @@ If you don't, you can still read [the slides][dan-olson-slides].
 [gdc-vault-video]: https://gdcvault.com/play/1027315
 [dan-olson-slides]: https://research.activision.com/publications/2021/09/the-rust-programming-language-for-game-tooling
 
-
 ## Tooling Updates
 
 ## Library Updates
