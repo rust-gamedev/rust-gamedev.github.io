@@ -454,19 +454,6 @@ More details to be shown soonish!
 
 ## Learning Material Updates
 
-### [Learn Wgpu][learn-wgpu] Updated: No More Swap Chains!
-
-As part of the update to 0.10, the wgpu team removed the `SwapChain` from the
-API. The `Surface` will now be used to retrieve textures to render to wrapped
-in `SurfaceTexture`s. You configure the `Surface` in a similar way to how you
-would configure the `SwapChain`, except the struct is now called
-`SurfaceConfiguration` instead of `SwapChainDescriptor`.
-
-If you want to know more, you can check [the tutorial's news page][learn-wgpu-news].
-
-[learn-wgpu]: https://sotrh.github.io/learn-wgpu
-[learn-wgpu-news]: https://sotrh.github.io/learn-wgpu/news
-
 ### GDC: Rust for Game Tooling by [Dan Olson][dan-olson-twitter]
 
 ![Title card](gdc-talk.jpg)
@@ -485,6 +472,19 @@ If you don't, you can still read [the slides][dan-olson-slides].
 [dan-olson-twitter]: https://twitter.com/olson_dan/status/1438600242962698256
 [gdc-vault-video]: https://gdcvault.com/play/1027315
 [dan-olson-slides]: https://research.activision.com/publications/2021/09/the-rust-programming-language-for-game-tooling
+
+### [Learn Wgpu][learn-wgpu] Updated: No More Swap Chains!
+
+As part of the update to 0.10, the wgpu team removed the `SwapChain` from the
+API. The `Surface` will now be used to retrieve textures to render to wrapped
+in `SurfaceTexture`s. You configure the `Surface` in a similar way to how you
+would configure the `SwapChain`, except the struct is now called
+`SurfaceConfiguration` instead of `SwapChainDescriptor`.
+
+If you want to know more, you can check [the tutorial's news page][learn-wgpu-news].
+
+[learn-wgpu]: https://sotrh.github.io/learn-wgpu
+[learn-wgpu-news]: https://sotrh.github.io/learn-wgpu/news
 
 ## Tooling Updates
 
