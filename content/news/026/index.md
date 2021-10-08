@@ -224,11 +224,9 @@ complex physics engine, it is a nice addition to 2D or 3D projects. Making good
 use of the Entity-Component-System architecture of the bevy engine, any entity
 can become a `VerletPoint` and have physics applied to it.
 
-The lib also provides *sticks* which constraint the points in order to create
-strings or cloth.
-
-Modulable, you may customize the physics precision (iterations), the gravity,
-and the physics time step to use.
+The lib also provides *sticks* which constrains the points in order to create
+strings or cloth. With its modularity, you may customize the physics precision
+(iterations), the gravity, and the physics time step to use.
 
 Not yet available on crates.io, the lib will be released after a few missing
 features are provided:
