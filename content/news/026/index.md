@@ -136,7 +136,7 @@ September's full weekly devlogs: "This Week In Veloren...":
 [veloren-011-dev-chats]:https://www.youtube.com/watch?v=J5Xz-vbE27Q
 [veloren-011-release-blog]: https://veloren.net/release-0-11/
 
-### [Molecoole]
+### Molecoole
 
 ![Connecting to different atoms](molecoole_first.gif)
 
@@ -153,11 +153,11 @@ play, so they introduced the [ezing] crate and also implemented slowing the
 [game time]. They are using the [LDtk] editor to make the level sections for the
 procedural generation.
 
-[Márton](https://twitter.com/kiss_mrton)
-[Dániel](https://twitter.com/FrenetiqDan)
-[ezing](https://github.com/michaelfairley/ezing)
-[game time](https://twitter.com/kiss_mrton/status/1434189320865341444)
-[LDtk](https://ldtk.io/)
+[Márton]: https://twitter.com/kiss_mrton
+[Dániel]: https://twitter.com/FrenetiqDan
+[ezing]: https://github.com/michaelfairley/ezing
+[game time]: https://twitter.com/kiss_mrton/status/1434189320865341444
+[LDtk]: https://ldtk.io
 
 ## Engine Updates
 
