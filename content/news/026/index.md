@@ -472,6 +472,35 @@ More details to be shown soonish!
 [sf-grid-tweet]: https://twitter.com/moletrooper/status/1432441648890449920
 [sf-island-tweet]: https://twitter.com/moletrooper/status/1438877808412008450
 
+### [Arcana]
+
+![two synchronized views on tanks players-controlled tanks shooting each other
+](arcana-tanks-multiplayer.gif)
+_Two clients connected to the same server_
+
+[Arcana] is ECS based game engine focused on simplicity and performance.
+
+It recently got huge progress towards multiplayer support.
+Traditional client-server systems were added and used in the ["Tanks" example][arcana-tanks].
+
+Clients send only command queue to the server and server sends game world updates
+to the clients. Engine supports multiple players per client.
+For example players may be added for each active input device.
+
+To allow wide variety of genres player is not attached to one specific entity
+and may control many.
+In RTS player may control all their units and will send commands for each one.
+
+Gameplay system that consumes commands doesn't even need to be aware of netcode.
+Either way it just drains command queue of an entity and utilizes them.
+That system must not be run on clients at all.
+
+[Arcana] is very early work-in-progress and may not always work
+out-of-the-box atm, but stability improvements are expected next month.
+
+[Arcana]: https://github.com/zakarumych/arcana
+[arcana-tanks]: https://github.com/zakarumych/arcana/tree/master/examples/tanks
+
 ## Learning Material Updates
 
 ### GDC: Rust for Game Tooling by [Dan Olson][dan-olson-twitter]
