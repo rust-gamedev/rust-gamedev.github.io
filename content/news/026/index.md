@@ -746,6 +746,52 @@ showing step by step process of how one could build them on their own.
 [emergent-git]: https://github.com/PsichiX/emergent/
 [emergent-book]: https://psichix.github.io/emergent/
 
+### [pixels] v0.6
+
+![Pixels logo](pixels.png)
+
+[pixels] by [@parasyte] is a tiny hardware-accelerated pixel frame buffer
+based on wgpu. It gives you a pixel buffer and you can poke colors into it
+(on the CPU side). The buffer is uploaded to the GPU as a texture,
+and all scaling and clipping is handled by a default shader.
+For additional control, you can add your own custom shaders for pre- and post-processing.
+
+The v0.6 release adds support for wgpu 0.10 which is a huge improvement.
+The only breaking changes are reexports and an error variant name change.
+In most cases, this upgrade is a drop-in replacement.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/pganne/pixels_060_release_announcement)_
+
+[pixels]: https://github.com/parasyte/pixels
+[@parasyte]: https://github.com/parasyte
+
+### [KAS] GUI v0.10
+
+![a window with many widgets and tabs](kas-demo.gif)
+_Widget gallery demo_
+
+[KAS] by [@dhardy] is a general-purpose retained UI toolkit.
+This month v0.10 was released:
+
+- KAS now supports dynamic linking, allowing faster builds.
+  Additionally using a faster linker (lld or mold) allows 6x improvement
+  on re-build speed for the Gallery example.
+- Keyboard navigation has been revised to match standard desktop GUIs.
+- Themes have been improved, with (better) shadows under pop-up menus
+  and (on one theme) under buttons.
+- Crates have been reshuffled so that now (most) users only depend on kas.
+- OpenGL on Linux is supported (mostly thanks to WGPU improvements).
+- KAS-text now exposes its `fontdb::Database`, allowing text in SVGs.
+
+Also, the author notes that this may be the last release of [KAS]
+because of the lack of interest to the project.
+
+_Discussions: [/r/rust](https://reddit.com/r/rust/comments/pjlb92/kas_gui_v010)_
+
+[KAS]: https://github.com/kas-gui/kas
+[@dhardy]: https://github.com/dhardy
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
