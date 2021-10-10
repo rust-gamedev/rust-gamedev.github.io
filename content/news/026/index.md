@@ -521,6 +521,36 @@ out-of-the-box atm, but stability improvements are expected next month.
 [Arcana]: https://github.com/zakarumych/arcana
 [arcana-tanks]: https://github.com/zakarumych/arcana/tree/master/examples/tanks
 
+### [rg3d] v0.23
+
+[![rg3d 0.23 feature highlights video](rg3d_video.jpg)][rg3d_0_23_video]
+_A feature highlights [video][rg3d_0_23_video]_
+
+[rg3d] ([Discord][rg3d_discord], [Twitter][rg3d_twitter], [Patreon][rg3d_patreon])
+is a game engine that aims to be easy to use and provide a large
+set of out-of-the-box features.
+This month [v0.23 was released][rg3d_0_23_post]. Some of the updates:
+
+- Physically based rendering (PBR) with metallic workflow.
+- High dynamic range (HDR) rendering pipeline & textures.
+- Custom shaders and materials.
+- Emission maps - allows you defining glowing parts using emission map.
+- Gamma correction, manual/auto exposure, and color grading.
+- Lots of the editor's improvenents: material editor,
+  unified material pipeline for terrains, improved inspector, etc.
+
+Check out the [blog post][rg3d_0_23_post] or
+the [feature highlights video][rg3d_0_23_video] for more info.
+
+[rg3d]: https://github.com/mrDIMAS/rg3d
+[rg3d_discord]: https://discord.gg/xENF5Uh
+[rg3d_twitter]: https://twitter.com/DmitryNStepanov
+[rg3d_patreon]: https://www.patreon.com/mrdimas
+[rg3d_0_23_post]: https://rg3d.rs/general/2021/09/13/0.23-feature-highlights.html
+[rg3d_0_23_video]: https://youtube.com/watch?v=3tOdwmRWLKw
+
+_Discussions: [/r/rust](https://reddit.com/r/rust/comments/pnhbe4/media_rg3d_023)_
+
 ## Learning Material Updates
 
 ### GDC: Rust for Game Tooling by [Dan Olson][dan-olson-twitter]
