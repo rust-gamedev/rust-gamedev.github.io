@@ -348,6 +348,26 @@ there are a ton of new monsters to fight and gear pieces to create.
 [Antorum Online]: https://ratwizard.dev/dev-log/antorum
 [@dooskington]: https://twitter.com/dooskington
 
+### [rpg-cli] v1.0
+
+![agent stats and a fight with a spider in ~/dev/facundoolano](rpg-cli.png)
+
+[rpg-cli] by [@facundoolano] is a minimalist computer RPG written in Rust.
+Its command-line interface can be used as a cd replacement
+where you randomly encounter enemies as you change directories.
+
+This month, the v1.0 version was released.
+Some of the [updates][rpg-cli-releases]:
+
+- New magic rings.
+- A bunch of new quests including ring-related ones.
+- Stat increasing stones.
+- Sorcerer enemy class.
+
+[rpg-cli]: https://github.com/facundoolano/rpg-cli
+[rpg-cli-releases]: https://github.com/facundoolano/rpg-cli/releases
+[@facundoolano]: https://github.com/facundoolano
+
 ## Engine Updates
 
 ### [good-web-game]
@@ -500,6 +520,64 @@ out-of-the-box atm, but stability improvements are expected next month.
 
 [Arcana]: https://github.com/zakarumych/arcana
 [arcana-tanks]: https://github.com/zakarumych/arcana/tree/master/examples/tanks
+
+### [rg3d] v0.23
+
+[![rg3d 0.23 feature highlights video](rg3d_video.jpg)][rg3d_0_23_video]
+_A feature highlights [video][rg3d_0_23_video]_
+
+[rg3d] ([Discord][rg3d_discord], [Twitter][rg3d_twitter], [Patreon][rg3d_patreon])
+is a game engine that aims to be easy to use and provide a large
+set of out-of-the-box features.
+This month [v0.23 was released][rg3d_0_23_post]. Some of the updates:
+
+- Physically based rendering (PBR) with metallic workflow.
+- High dynamic range (HDR) rendering pipeline & textures.
+- Custom shaders and materials.
+- Emission maps - allows you defining glowing parts using emission map.
+- Gamma correction, manual/auto exposure, and color grading.
+- Lots of the editor's improvenents: material editor,
+  unified material pipeline for terrains, improved inspector, etc.
+
+Check out the [blog post][rg3d_0_23_post] or
+the [feature highlights video][rg3d_0_23_video] for more info.
+
+[rg3d]: https://github.com/mrDIMAS/rg3d
+[rg3d_discord]: https://discord.gg/xENF5Uh
+[rg3d_twitter]: https://twitter.com/DmitryNStepanov
+[rg3d_patreon]: https://www.patreon.com/mrdimas
+[rg3d_0_23_post]: https://rg3d.rs/general/2021/09/13/0.23-feature-highlights.html
+[rg3d_0_23_video]: https://youtube.com/watch?v=3tOdwmRWLKw
+
+_Discussions: [/r/rust](https://reddit.com/r/rust/comments/pnhbe4/media_rg3d_023)_
+
+### [Rust RPG Toolkit][rpg_rk]
+
+![A dialogue window](capstone.png)
+_[Capstone] - a WIP game that uses Rust RPG Toolkit_
+
+[Rust RPG Toolkit][rpg_rk] by [@olefasting] is an engine for creating
+highly customizable and user modable action 2D action RPG's using Rust amd JSON.
+
+The project started out as a part of the [Capstone] game but was separated
+as it grew in scope.
+It uses JSON files for most of its game data and resources specification,
+so that games can be created with very little interaction with the Rust code.
+This has the benefit of making the end product very easy to modify,
+both for non-developers involved in the development process, and by end users.
+Modification can be done either by modifying a game's data files directly,
+or by creating user modules, which are supported out-of-the-box.
+
+Note that this is in early and very heavy development: the API is subject to
+constant change, as it has newly transitioned from being a game project
+to a library.
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/pcrddz/rpg_toolkit)_
+
+[rpg_rk]: https://github.com/olefasting/rust_rpg_toolkit
+[@olefasting]: https://github.com/olefasting
+[Capstone]: https://www.reddit.com/r/rust_gamedev/comments/paz35s/capstone
 
 ## Learning Material Updates
 
@@ -745,6 +823,37 @@ showing step by step process of how one could build them on their own.
 [psichix-twitter]: https://twitter.com/psichix
 [emergent-git]: https://github.com/PsichiX/emergent/
 [emergent-book]: https://psichix.github.io/emergent/
+
+### [hexagonal_pathfinding_astar]
+
+```plain
+                                        _______
+                                       /   E   \
+                               _______/  (4,3)  \
+                              /       \   W:3   /
+                      _______/  (3,2)  \_______/
+                     /       \   W:1   /
+                    /  (2,2)  \_______/
+                    \   W:3   /
+                     \_______/
+                     /       \
+             _______/  (2,1)  \
+            /       \   W:3   /
+    _______/  (1,0)  \_______/
+   /   S   \   W:4   /
+  /  (0,0)  \_______/
+  \   W:6   /
+   \_______/
+```
+
+[hexagonal_pathfinding_astar] is an implementation of the A-Star pathfinding algorithm
+tailored for traversing a bespoke collection of weighted hexagons.
+It's intended to calculate the most optimal path to a target hexagon where you're
+traversing from the centre of one hexagon to the next along a line orthogonal
+to a hexagon edge.
+Check out the project's [README][hexagonal_pathfinding_astar] for more info.
+
+[hexagonal_pathfinding_astar]: https://github.com/BlondeBurrito/hexagonal_pathfinding_astar
 
 ### [pixels] v0.6
 
