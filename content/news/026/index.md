@@ -663,6 +663,26 @@ You may contact the author on Twitter [@ManevilleF][ManevilleF] or join the
 [bv_bevy]: https://bevyengine.org/
 [bv_wikipedia]: https://en.wikipedia.org/wiki/Verlet_integration
 
+### [Emergent AI][emergent-git]
+
+![Utility AI](emergent-ai.gif)
+_Example of game behavior using Utility AI_
+
+[Emergent AI][emergent-git] by [@PsichiX][psichix-twitter] is a new crate designed
+to provide modern AI solutions for games written in Rust. Its highly modularized
+and hierarchical architecture allows users to express a wide range of AI behaviors
+complexity, from small scale, to big scale, allowing user to pick proper solution
+to each AI problem using smaller building blocks.
+
+Along with the library, there is an
+["Emergent AI - Smart agents and events for games"][emergent-book] book being
+written with goal to explain in-depth to readers how modern AI systems works and
+showing step by step process of how one could build them on their own.
+
+[psichix-twitter]: https://twitter.com/psichix
+[emergent-git]: https://github.com/PsichiX/emergent/
+[emergent-book]: https://psichix.github.io/emergent/
+
 ### [hecs]
 
 [hecs] is a fast, lightweight, and unopinionated archetypal ECS library.
