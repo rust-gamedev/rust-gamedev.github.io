@@ -565,11 +565,12 @@ It uses JSON files for most of its game data and resources specification,
 so that games can be created with very little interaction with the Rust code.
 This has the benefit of making the end product very easy to modify,
 both for non-developers involved in the development process, and by end users.
-Modification can be done, either by modifying a game's data files directly,
-or by creating user modules, which are supported, out-of-the-box.
+Modification can be done either by modifying a game's data files directly,
+or by creating user modules, which are supported out-of-the-box.
 
-Note that this in early and very heavy development: API is subject to constant
-change, as it has newly transitioned from being a game project to a library.
+Note that this is in early and very heavy development: the API is subject to
+constant change, as it has newly transitioned from being a game project
+to a library.
 
 _Discussions:
 [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/pcrddz/rpg_toolkit)_
