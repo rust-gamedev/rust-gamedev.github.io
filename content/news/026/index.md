@@ -348,6 +348,26 @@ there are a ton of new monsters to fight and gear pieces to create.
 [Antorum Online]: https://ratwizard.dev/dev-log/antorum
 [@dooskington]: https://twitter.com/dooskington
 
+### [rpg-cli] v1.0
+
+![agent stats and a fight with a spider in ~/dev/facundoolano](rpg-cli.png)
+
+[rpg-cli] by [@facundoolano] is a minimalist computer RPG written in Rust.
+Its command-line interface can be used as a cd replacement
+where you randomly encounter enemies as you change directories.
+
+This month, the v1.0 version was released.
+Some of the [updates][rpg-cli-releases]:
+
+- New magic rings.
+- A bunch of new quests including ring-related ones.
+- Stat increasing stones.
+- Sorcerer enemy class.
+
+[rpg-cli]: https://github.com/facundoolano/rpg-cli
+[rpg-cli-releases]: https://github.com/facundoolano/rpg-cli/releases
+[@facundoolano]: https://github.com/facundoolano
+
 ## Engine Updates
 
 ### [good-web-game]
