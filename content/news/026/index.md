@@ -68,7 +68,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Rust GameDev Meetup
 
-![Gamedev meetup poster](../025/gamedev-meetup.png)
+![Gamedev meetup poster](gamedev-meetup.png)
 
 The ninth Rust Gamedev Meetup happened in September. You can watch the recording
 of the meetup [here on Youtube][gamedev-meetup-video]. The meetups take place on
