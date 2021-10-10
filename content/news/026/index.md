@@ -823,6 +823,37 @@ showing step by step process of how one could build them on their own.
 [emergent-git]: https://github.com/PsichiX/emergent/
 [emergent-book]: https://psichix.github.io/emergent/
 
+### [hexagonal_pathfinding_astar]
+
+```plain
+                                        _______
+                                       /   E   \
+                               _______/  (4,3)  \
+                              /       \   W:3   /
+                      _______/  (3,2)  \_______/
+                     /       \   W:1   /
+                    /  (2,2)  \_______/
+                    \   W:3   /
+                     \_______/
+                     /       \
+             _______/  (2,1)  \
+            /       \   W:3   /
+    _______/  (1,0)  \_______/
+   /   S   \   W:4   /
+  /  (0,0)  \_______/
+  \   W:6   /
+   \_______/
+```
+
+[hexagonal_pathfinding_astar] is an implementation of the A-Star pathfinding algorithm
+tailored for traversing a bespoke collection of weighted hexagons.
+It's intended to calculate the most optimal path to a target hexagon where you're
+traversing from the centre of one hexagon to the next along a line orthogonal
+to a hexagon edge.
+Check out the project's [README][hexagonal_pathfinding_astar] for more info.
+
+[hexagonal_pathfinding_astar]: https://github.com/BlondeBurrito/hexagonal_pathfinding_astar
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
