@@ -1,13 +1,10 @@
 +++
 title = "This Month in Rust GameDev #26 - September 2021"
 transparent = true
-date = 2021-10-04
-draft = true
+date = 2021-10-10
 +++
 
 <!-- no toc -->
-
-<!-- Check the post with markdownlint-->
 
 Welcome to the 26th issue of the Rust GameDev Workgroup's
 monthly newsletter.
@@ -32,17 +29,17 @@ Feel free to send PRs about your own projects!
 [Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
-- [Rust GameDev Podcast](#rust-gamedev-podcast-6)
+- [Rust GameDev Meetup](#rust-gamedev-meetup)
+- [Rust Graphics Meetup \#1](#rust-graphics-meetup-1)
+- [Rust GameDev Podcast \#6](#rust-gamedev-podcast-6)
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
-- [Meeting Minutes](#meeting-minutes)
 - [Requests for Contribution](#requests-for-contribution)
-- [Jobs](#jobs)
-- [Bonus](#bonus)
+- [Discussions](#discussions)
 
 <!--
 Ideal section structure is:
@@ -148,7 +145,7 @@ Listen and Subscribe from the following platforms:
 BITGUN ([Steam][bitgun-steam], [Twitter][bitgun-twitter],
 [Discord][bitgun-discord]) by [@LogLogGames][bitgun-twitter] is an action
 roguelike zombie shooter with lots of blood and guns, similar to games like
-Hotline Miami, Nuclear Throne and Heat Signature. The game is built using Godot
+Hotline Miami, Nuclear Throne, and Heat Signature. The game is built using Godot
 and Rust (via [godot-rust][bitgun-godot-rust]).
 
 They recently re-worked the in-game UI using [egui][bitgun-egui] with
@@ -185,7 +182,7 @@ Development for the web version has moved to the
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.
 
-In September, Veloren hosted its larges release party ever! At peak, 181 players
+In September, Veloren hosted its largest release party ever! At peak, 181 players
 were playing on the server together. You can read about all the changes to 0.11
 in [the release blog][veloren-011-release-blog], and be sure to watch the
 [release trailer][veloren-011-trailer]! During the release party, several devs
@@ -195,9 +192,9 @@ and give hope for much larger servers in the future.
 
 Shaderc was replaced with Naga early on in the month. This was the result of
 over a year of work. Hitboxes are in the process of being overhauled to handle
-non-cylidrical targets better. Improvements were made to how the cursor selects
-objects in game. As always, lots of experiemental work is being done to the
-economic system. Cultist raiders were added, which mean that raiding parties
+non-cylindrical targets better. Improvements were made to how the cursor selects
+objects in game. As always, lots of experimental work is being done to the
+economic system. Cultist raiders were added, which means that raiding parties
 will now attack nearby settlements. This is a great example of how the realtime
 simulation is starting to become more visible to players.
 
@@ -293,7 +290,7 @@ Game made by [@kuviman] for [VimJam 2]. The theme for this jam was "Boss" and
 the limitation was "On The Edge".
 
 Monke Pizza is an online multiplayer monke pizza restaurant simulator. You are
-always on the edge of being fired. That is *if* you work here. Otherwise you are
+always on the edge of being fired. That is *if* you work here. Otherwise, you are
 on the edge of being hired. Because that is how BOSS is bossing.
 
 Made using [@kuviman]'s own engine [geng].
@@ -374,29 +371,28 @@ Some of the [updates][rpg-cli-releases]:
 
 ![supported platforms](supported_platforms.svg)
 
-[`good-web-game`] has been released on crates.io, together with [`ggez`] 0.6.1!
-`ggez` is a lightweight cross-platform game framework for making 2D games
-with minimum friction, with an API inspired by Love2D. `good-web-game` is a
-subset of ggez, which is based upon [`miniquad`] and can therefore run natively
+[good-web-game] has been released on crates.io, together with [ggez] 0.6.1!
+ggez is a lightweight cross-platform game framework for making 2D games
+with minimum friction, with an API inspired by Love2D. good-web-game is a
+subset of ggez, which is based upon [miniquad] and can therefore run natively
 on the web, mobile and of course desktop as well.
 
-`good-web-game` was originally created to run [Zemeroth] on the web. However,
-as Zemeroth switched from using `ggez` to [`macroquad`] the project was
+good-web-game was originally created to run [Zemeroth] on the web. However,
+as Zemeroth switched from using ggez to [macroquad] the project was
 discontinued, until recently. In search of [a new graphics backend for ggez]
 the ggez team now picked up development again and released a massive update,
-updating `good-web-game` for compatability to `ggez` 0.6, expanding its
+updating good-web-game for compatability to ggez 0.6, expanding its
 functionality.
 
-With only [a single change in boilerplate code] many `ggez` 0.6 games can now be
-directly ported to `good-web-game`. Yet, it's no drop in replacement for `ggez`
+With only [a single change in boilerplate code] many ggez 0.6 games can now be
+directly ported to good-web-game. Yet, it's no drop in replacement for ggez
 as [several key differences remain].
 
 [good-web-game]: https://github.com/ggez/good-web-game
-[`good-web-game`]: https://github.com/ggez/good-web-game
-[`ggez`]: https://github.com/ggez/ggez
-[`miniquad`]: https://github.com/not-fl3/miniquad
+[ggez]: https://github.com/ggez/ggez
+[miniquad]: https://github.com/not-fl3/miniquad
 [Zemeroth]: https://ozkriff.itch.io/zemeroth
-[`macroquad`]: https://github.com/not-fl3/macroquad/
+[macroquad]: https://github.com/not-fl3/macroquad/
 [a new graphics backend for ggez]: https://github.com/ggez/ggez/issues/962
 [a single change in boilerplate code]: https://github.com/PSteinhaus/PSteinhaus.github.io/blob/main/ggez/web-examples/README.md#ggez-animation-example
 [several key differences remain]: https://github.com/ggez/good-web-game#differences
@@ -505,14 +501,14 @@ Traditional client-server systems were added and used in the ["Tanks" example][a
 
 Clients send only command queue to the server and server sends game world updates
 to the clients. Engine supports multiple players per client.
-For example players may be added for each active input device.
+For example, players may be added for each active input device.
 
 To allow wide variety of genres player is not attached to one specific entity
 and may control many.
 In RTS player may control all their units and will send commands for each one.
 
 Gameplay system that consumes commands doesn't even need to be aware of netcode.
-Either way it just drains command queue of an entity and utilizes them.
+Either way, it just drains command queue of an entity and utilizes them.
 That system must not be run on clients at all.
 
 [Arcana] is very early work-in-progress and may not always work
@@ -534,9 +530,9 @@ This month [v0.23 was released][rg3d_0_23_post]. Some of the updates:
 - Physically based rendering (PBR) with metallic workflow.
 - High dynamic range (HDR) rendering pipeline & textures.
 - Custom shaders and materials.
-- Emission maps - allows you defining glowing parts using emission map.
+- Emission maps - allows you to define glowing parts using emission map.
 - Gamma correction, manual/auto exposure, and color grading.
-- Lots of the editor's improvenents: material editor,
+- Lots of the editor's improvements: material editor,
   unified material pipeline for terrains, improved inspector, etc.
 
 Check out the [blog post][rg3d_0_23_post] or
@@ -561,7 +557,7 @@ highly customizable and user modable action 2D action RPG's using Rust amd JSON.
 
 The project started out as a part of the [Capstone] game but was separated
 as it grew in scope.
-It uses JSON files for most of its game data and resources specification,
+It uses JSON files for most of its game data and resources specification
 so that games can be created with very little interaction with the Rust code.
 This has the benefit of making the end product very easy to modify,
 both for non-developers involved in the development process, and by end users.
@@ -619,15 +615,15 @@ If you want to know more, you can check [the tutorial's news page][learn-wgpu-ne
 
 ![borderlands save editor](borderlands-save.png)
 
-The [Borderlands 3 Save Editor][borderlands-save-github] by [ZakisM] is a tool to
-help you modify your Borderlands 3 Saves and Profiles. Currently it runs on
-Windows, Mac OS and Linux. It supports modifying PC saves as well as decrypted
-PS4 saves (and converting between them). It uses the [iced GUI
-framework][borderlands-iced].
+The [Borderlands 3 Save Editor][borderlands-save-github] by [ZakisM]
+is a tool to help you modify your Borderlands 3 Saves and Profiles
+written using [Iced]. Currently, it runs on Windows, Mac OS and Linux.
+It supports modifying PC saves as well as decrypted PS4 saves
+(and converting between them).
 
 [ZakisM]: https://github.com/ZakisM
-[borderlands-iced]: https://github.com/iced-rs/iced
 [borderlands-save-github]: https://github.com/ZakisM/bl3_save_edit
+[Iced]: https://github.com/iced-rs/iced
 
 ## Library Updates
 
@@ -664,7 +660,7 @@ The goal is to enable low-latency multiplayer games written in Rust WASM.
 
 Matchbox consists of:
 
-- A tiny signalling server, [`matchbox_server`], which acts as a rendezvous
+- A tiny signaling server, [`matchbox_server`], which acts as a rendezvous
   point. It helps peers discover each other and deal with NAT traversal in order
   to establish more direct ways of communication.
 - A crate, [`matchbox_socket`], which handles connecting to a signalling server
@@ -698,7 +694,7 @@ fallible systems and beautiful syntax.
 The goal of [Sparsey] is to provide a sparse set-based ECS which fully takes
 advantage of its core data structure. An example of this is component storage
 grouping, a feature which allows getting the best performance possible when
-iterating over queries which match certain patterns described by the user, at
+iterating over queries that match certain patterns described by the user, at
 the cost of a performance penalty when inserting or removing components from
 these storages.
 
@@ -905,30 +901,55 @@ _Discussions: [/r/rust](https://reddit.com/r/rust/comments/pjlb92/kas_gui_v010)_
 
 <!-- Up to 10 links to interesting issues -->
 
-## Meeting Minutes
+- [rust-gamedev/rust-gamedev.github.io](https://github.com/rust-gamedev/rust-gamedev.github.io):
+  - [#636 "Better solution for hosting images (or the site as a whole)?"](https://github.com/rust-gamedev/rust-gamedev.github.io/issues/636);
+  - [#785 "Discussions section"](https://github.com/rust-gamedev/rust-gamedev.github.io/issues/785).
+- [rust-gamedev/wg](https://github.com/rust-gamedev/wg):
+  - [#90 "Rust on Consoles"](https://github.com/rust-gamedev/wg/issues/90);
+  - [#113 "Rust GameDev Community Assets Store"](https://github.com/rust-gamedev/wg/discussions/113);
+  - [#115 "Official WG meeting"](https://github.com/rust-gamedev/wg/discussions/115).
 
-<!-- Up to 10 most important notes + a link to the full details -->
+## Discussions
 
-[See all meeting issues][label_meeting] including full text notes
-or [join the next meeting][join].
-
-[label_meeting]: https://github.com/rust-gamedev/wg/issues?q=label%3Ameeting
+- [/r/rust_gamedev](https://reddit.com/r/rust_gamedev):
+  - ["Is WGSL a good choice?"](https://reddit.com/r/rust_gamedev/comments/pvbv50/is_wgsl_a_good_choice).
+  - ["Unity files patent for ECS in game engines that would probably affect
+    many Rust ECS crates, including Bevy's"](https://reddit.com/r/rust/comments/pjtpkj/unity_files_patent_for_ecs).
 
 ## Requests for Contribution
 
 <!-- Links to "good first issue"-labels or direct links to specific tasks -->
 
-## Jobs
+- [Graphite is looking for contributors][graphite-contribute] to help reach
+  the 0.1 Alpha release and are participating as a [Hacktoberfest] project.
+- [winit's "difficulty: easy" issues][winit-issues].
+- [Backroll-rs, a new networking library][backroll-rs].
+- [Embark's open issues][embark-open-issues] ([embark.rs]).
+- [wgpu's "help wanted" issues][wgpu-issues].
+- [luminance's "low hanging fruit" issues][luminance-fruits].
+- [ggez's "good first issue" issues][ggez-issues].
+- [Veloren's "beginner" issues][veloren-beginner].
+- [Amethyst's "good first issue" issues][amethyst-issues].
+- [A/B Street's "good first issue" issues][abstreet-issues].
+- [Mun's "good first issue" issues][mun-issues].
+- [SIMple Mechanic's good first issues][simm-issues].
+- [Bevy's "good first issue" issues][bevy-issues].
 
-<!-- An optional section for new jobs related to Rust gamedev -->
-
-## Bonus
-
-<!-- Bonus section to make the newsletter more interesting
-and highlight events from the past. -->
-
-<!-- TODO: browse previous newsletter coord-issues and select some cool section
-that wasn't written. -->
+[graphite-contribute]: https://github.com/GraphiteEditor/Graphite/issues/202
+[winit-issues]: https://github.com/rust-windowing/winit/issues?q=is%3Aopen+is%3Aissue+label%3A%22difficulty%3A+easy%22
+[backroll-rs]: https://github.com/HouraiTeahouse/backroll-rs/issues
+[embark.rs]: https://embark.rs
+[embark-open-issues]: https://github.com/search?q=user:EmbarkStudios+state:open
+[wgpu-issues]: https://github.com/gfx-rs/wgpu/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
+[luminance-fruits]: https://github.com/phaazon/luminance-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22low+hanging+fruit%22
+[ggez-issues]: https://github.com/ggez/ggez/labels/%2AGOOD%20FIRST%20ISSUE%2A
+[veloren-beginner]: https://gitlab.com/veloren/veloren/issues?label_name=beginner
+[amethyst-issues]: https://github.com/amethyst/amethyst/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[abstreet-issues]: https://github.com/a-b-street/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
+[simm-issues]: https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue
+[bevy-issues]: https://github.com/bevyengine/bevy/labels/E-Good-First-Issue
+[Hacktoberfest]: https://hacktoberfest.digitalocean.com/
 
 ------
 
