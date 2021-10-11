@@ -745,20 +745,20 @@ performance when called repeatedly.
 
 [hecs]: https://github.com/Ralith/hecs
 
-### [ktx2](ktx2-github)
+### [ktx2][ktx2-github]
 
 A revamped and refactored version of @F3kilo's ktx2-reader,
 this serves as a parsing library for the texture container format
 of ktx2. This format allows you to store textures in formats that
 GPU apis directly accept, without decoding costs. For more information,
-[read the docs](ktx2-docs).
+[read the docs][ktx2-docs].
 
 ktx2 writing support will come a future release.
 
 [ktx2-github]: https://github.com/BVE-Reborn/ktx2
 [ktx2-docs]: https://docs.rs/ktx2
 
-### [rend3](rend3-github)
+### [rend3][rend3-github]
 
 ![rend3 sci-fi base scene](rend3-scifi.jpg)
 _rend3 rendering a complex scene_
@@ -772,7 +772,7 @@ There're many fun things in the pipeline including a full custom shader
 system, both cpu and gpu side optimization, and more rendering features.
 
 The [v0.1 version][rend3-crates] was published on crates.io
-([docs](rend3-docs) and [examples](rend3-examples)) and v0.2 is going
+([docs][rend3-docs] and [examples][rend3-examples]) and v0.2 is going
 to be coming out very soon.
 
 [rend3-docs]: https://docs.rs/rend3
