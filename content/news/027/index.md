@@ -91,7 +91,8 @@ or [join the next meeting][join].
 
 ## Discussions
 
-<!-- Links to handpicked reddit/twitter/urlo/etc threads that provide useful information -->
+<!-- Links to handpicked reddit/twitter/urlo/etc threads that provide
+useful information -->
 
 ## Requests for Contribution
 
