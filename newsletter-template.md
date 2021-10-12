@@ -27,7 +27,6 @@ Feel free to send PRs about your own projects!
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 [pr]: https://github.com/rust-gamedev/rust-gamedev.github.io
 [coordination]: https://github.com/rust-gamedev/rust-gamedev.github.io/issues?q=label%3Acoordination
-
 [Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
@@ -38,6 +37,7 @@ Feel free to send PRs about your own projects!
 - [Library Updates](#library-updates)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Meeting Minutes](#meeting-minutes)
+- [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
 - [Jobs](#jobs)
 - [Bonus](#bonus)
@@ -86,6 +86,10 @@ If needed, a section can be split into subsections with a "------" delimiter.
 or [join the next meeting][join].
 
 [label_meeting]: https://github.com/rust-gamedev/wg/issues?q=label%3Ameeting
+
+## Discussions
+
+<!-- Links to handpicked reddit/twitter/urlo/etc threads that provide useful information -->
 
 ## Requests for Contribution
 
