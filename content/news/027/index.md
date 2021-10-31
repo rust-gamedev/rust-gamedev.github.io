@@ -89,7 +89,7 @@ small update to improve the UI and fix a few bugs.
 ### [Tetra] 0.6.6
 
 [Tetra] is a simple 2D game framework, inspired by XNA, Love2D, and Raylib. After
-a few quiet months, version 0.0.6 has been released, featuring:
+a few quiet months, version 0.6.6 has been released, featuring:
 
 - A big overhaul of the keyboard API, with better support for international
   layouts
