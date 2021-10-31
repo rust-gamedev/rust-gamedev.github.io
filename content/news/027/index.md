@@ -73,7 +73,8 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ![Lonely Star screenshot](lonely-star.png)
 
 [Lonely Star] is a 2D 'endless runner' game by [@17cupsofcoffee], featuring
-simple generative music. It was built with [Tetra] back in February 2020, for Weekly Game Jam 135.
+simple generative music. It was built with [Tetra] back in February 2020,
+for Weekly Game Jam 135.
 
 This month, it was made [open-source][lonely-star-source], and received a
 small update to improve the UI and fix a few bugs.
