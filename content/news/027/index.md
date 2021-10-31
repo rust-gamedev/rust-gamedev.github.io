@@ -109,6 +109,20 @@ For more details, see the [changelog][tetra-changelog].
 
 ## Library Updates
 
+### [SPV]
+
+![SPV-0.1.0 screenshot](https://user-images.githubusercontent.com/23136737/139598984-4fcb2c74-4d65-4214-ae6c-f5a64276dacb.png)
+
+[SPV] by [Albin Sjögren]
+is a calculator utility for working with atronomical position and velocity data.
+
+Development originally started 2 months back for an ongoing school project. Since the opensource release most if not all bugs have been found and removed, we are now on our second UI interface and our plan for the future is clearly marked. Among our future plans is to make a crate version of SPV available mid november so have an eye out for that. For any feature requests you can either contact me on [discord] or [github].
+
+[SPV]: https://github.com/AlbinSjoegren/SPV
+[discord]: https://discordapp.com/users/258254056185659392
+[github]: https://github.com/AlbinSjoegren
+[Albin Sjögren]: https://github.com/AlbinSjoegren
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
