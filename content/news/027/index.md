@@ -36,12 +36,18 @@ Feel free to send PRs about your own projects!
 
 ### [Graph Game](https://vrixyz.github.io/graph_nav/)
 
-![image/gameplay of the game: circle moving through a graph of colorful triangles, fleeing red cirles](graph_game.gif)
+![image/gameplay of the game: circle and triangles](graph_game.gif)
 _Navigating the graph map can be stressful_
 
-The [Graph Game](https://github.com/Vrixyz/graph_nav) uses [bevy engine](https://bevyengine.org/), you can play it from [browser](https://vrixyz.github.io/graph_nav/) 🕹️, click on colored triangles, guess the rules and survive as long as possible!
+The [Graph Game](https://github.com/Vrixyz/graph_nav) uses
+[bevy engine](https://bevyengine.org/), you can play it from
+[browser](https://vrixyz.github.io/graph_nav/) 🕹️, click on colored triangles,
+guess the rules and survive as long as possible!
 
-Be warned, the development just began, and the future of the project is not clear, feel free to come discuss 💬 with the developer on [Discord](https://discord.gg/ZeRkj8pD4n).
+Be warned, the development just began,
+and the future of the project is not clear,
+feel free to come discuss 💬 with the developer on
+[Discord](https://discord.gg/ZeRkj8pD4n).
 
 - [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
