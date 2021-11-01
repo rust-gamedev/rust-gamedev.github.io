@@ -68,22 +68,6 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
-### [Lonely Star]
-
-![Lonely Star screenshot](lonely-star.png)
-
-[Lonely Star] is a 2D 'endless runner' game by [@17cupsofcoffee], featuring
-simple generative music. It was built with [Tetra] back in February 2020,
-for Weekly Game Jam 135.
-
-This month, it was made [open-source][lonely-star-source], and received a
-small update to improve the UI and fix a few bugs.
-
-[Lonely Star]: https://17cupsofcoffee.itch.io/lonely-star
-[Tetra]: https://github.com/17cupsofcoffee/tetra
-[@17cupsofcoffee]: https://twitter.com/17cupsofcoffee
-[lonely-star-source]: https://github.com/17cupsofcoffee/lonely-star
-
 ### [LibraCity] - city planning on a needle!
 
 ![LibraCity screenshot](libracity.png)
@@ -101,6 +85,40 @@ The code source is freely [available on GitHub](https://github.com/djeedai/libra
 [Ludum Dare 49]: https://ldjam.com/events/ludum-dare/49/libra-city
 [@djeedai]: https://twitter.com/djeedai
 [Bevy Engine]: https://bevyengine.org/
+
+### [Lonely Star]
+
+![Lonely Star screenshot](lonely-star.png)
+
+[Lonely Star] is a 2D 'endless runner' game by [@17cupsofcoffee], featuring
+simple generative music. It was built with [Tetra] back in February 2020,
+for Weekly Game Jam 135.
+
+This month, it was made [open-source][lonely-star-source], and received a
+small update to improve the UI and fix a few bugs.
+
+[Lonely Star]: https://17cupsofcoffee.itch.io/lonely-star
+[Tetra]: https://github.com/17cupsofcoffee/tetra
+[@17cupsofcoffee]: https://twitter.com/17cupsofcoffee
+[lonely-star-source]: https://github.com/17cupsofcoffee/lonely-star
+
+### [Graph Game]
+
+![image/gameplay of the game: circle and triangles](graph_game.gif)
+_Navigating the graph map can be stressful_
+
+[Graph Game] ([GitHub][graph-game-github])
+uses [Bevy](https://bevyengine.org/) as its engine. You can play it from your
+[browser](https://vrixyz.github.io/graph_nav/) - click on colored triangles,
+guess the rules and survive as long as possible!
+
+Development has just begun, and the future of the project is not clear -
+the developer welcomes you to come and discuss next steps on the game's
+[Discord server][graph-game-discord].
+
+[Graph Game]: https://vrixyz.github.io/graph_nav/
+[graph-game-github]: https://github.com/Vrixyz/graph_nav
+[graph-game-discord]: https://discord.gg/ZeRkj8pD4n
 
 ## Engine Updates
 
