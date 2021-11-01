@@ -68,22 +68,6 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
-### [Lonely Star]
-
-![Lonely Star screenshot](lonely-star.png)
-
-[Lonely Star] is a 2D 'endless runner' game by [@17cupsofcoffee], featuring
-simple generative music. It was built with [Tetra] back in February 2020,
-for Weekly Game Jam 135.
-
-This month, it was made [open-source][lonely-star-source], and received a
-small update to improve the UI and fix a few bugs.
-
-[Lonely Star]: https://17cupsofcoffee.itch.io/lonely-star
-[Tetra]: https://github.com/17cupsofcoffee/tetra
-[@17cupsofcoffee]: https://twitter.com/17cupsofcoffee
-[lonely-star-source]: https://github.com/17cupsofcoffee/lonely-star
-
 ### [The Process]
 
 ![An animated gif showing an engineer shooting rockets](the_process.gif)
@@ -112,7 +96,88 @@ This month the game has seen the following changes and improvements:
 
 [The Process]: https://twitter.com/PlayTheProcess
 
+### [LibraCity] - city planning on a needle!
+
+![LibraCity screenshot](libracity.png)
+
+[LibraCity] is a puzzle city planning game by [@djeedai] where you need to build
+a city while balancing it on a needle (the center of the board). It was built for
+[Ludum Dare 49] using the [Bevy Engine], and is a first-time use of the engine.
+
+Post-jam, a webassembly version was added and published, which now allows
+[playing the game online](https://djeedai.github.io/libracity/).
+
+The code source is freely [available on GitHub](https://github.com/djeedai/libracity).
+
+[LibraCity]: https://djeedai.github.io/libracity/
+[Ludum Dare 49]: https://ldjam.com/events/ludum-dare/49/libra-city
+[@djeedai]: https://twitter.com/djeedai
+[Bevy Engine]: https://bevyengine.org/
+
+### [Lonely Star]
+
+![Lonely Star screenshot](lonely-star.png)
+
+[Lonely Star] is a 2D 'endless runner' game by [@17cupsofcoffee], featuring
+simple generative music. It was built with [Tetra] back in February 2020,
+for Weekly Game Jam 135.
+
+This month, it was made [open-source][lonely-star-source], and received a
+small update to improve the UI and fix a few bugs.
+
+[Lonely Star]: https://17cupsofcoffee.itch.io/lonely-star
+[Tetra]: https://github.com/17cupsofcoffee/tetra
+[@17cupsofcoffee]: https://twitter.com/17cupsofcoffee
+[lonely-star-source]: https://github.com/17cupsofcoffee/lonely-star
+
+### [Graph Game]
+
+![image/gameplay of the game: circle and triangles](graph_game.gif)
+_Navigating the graph map can be stressful_
+
+[Graph Game] ([GitHub][graph-game-github])
+uses [Bevy](https://bevyengine.org/) as its engine. You can play it from your
+[browser](https://vrixyz.github.io/graph_nav/) - click on colored triangles,
+guess the rules and survive as long as possible!
+
+Development has just begun, and the future of the project is not clear -
+the developer welcomes you to come and discuss next steps on the game's
+[Discord server][graph-game-discord].
+
+[Graph Game]: https://vrixyz.github.io/graph_nav/
+[graph-game-github]: https://github.com/Vrixyz/graph_nav
+[graph-game-discord]: https://discord.gg/ZeRkj8pD4n
+
 ## Engine Updates
+
+### [All is Cubes][All is Cubes] 0.3.0
+
+[![Screenshot of All is Cubes][all-is-cubes-screen]][all-is-cubes-screen]
+
+All is Cubes ([GitHub][All is Cubes], [Crates.io][all-is-cubes-cr]) by [kpreid]
+is a game/engine for worlds made of blocks made of voxels. It is intended to be
+usable both as an engine or rendering library, or as a game with built-in
+editor/programming functionality (genre(s) to be determined). While the project
+is still highly incomplete and API-unstable, the 0.3.0 release marks a lot of
+now-usable functionality ([changelog][all-is-cubes-changelog]):
+
+- UI: mouselook, multiple example scenes, inventory with stacks, and rendering
+  to image files.
+- Simulation/mechanics: character collision against arbitrary voxel shapes,
+  much-improved light propagation, transactional state updates (all-or-nothing,
+  internally order-independent), and “behaviors” attached to game objects for
+  scripting/animation.
+- Rendering: high-voxel-count blocks (incomplete, but usable for text as seen in
+  the above screenshot), “smooth lighting” (interpolated across faces), frustum
+  culling, and correct sRGB-versus-linear color handling.
+
+The next planned milestone is saving/loading.
+
+[All is Cubes]: https://github.com/kpreid/all-is-cubes/
+[all-is-cubes-cr]: https://crates.io/crates/all-is-cubes
+[all-is-cubes-screen]: all-is-cubes.jpg
+[all-is-cubes-changelog]: https://github.com/kpreid/all-is-cubes/blob/main/CHANGELOG.md#030-2021-10-09
+[kpreid]: https://github.com/kpreid
 
 ### [Tetra] 0.6.6
 
@@ -136,6 +201,36 @@ For more details, see the [changelog][tetra-changelog].
 ## Tooling Updates
 
 ## Library Updates
+
+### [wgpu]-0.11 release
+
+![bevy webgl2 via wgpu](bevy-webgl2.png)
+_experimental Bevy branch running on WebGL2 via wgpu_
+
+The team is happy to announce the release of wgpu-0.11 and naga-0.7.
+Details can be found on the [gfx-rs blog]. The most exciting feature
+is WebGL2 support. With some caveats, users no longer need to wait for
+WebGPU in the browsers in order to deploy on the Web. Support is still
+a bit rough, and patches come out regularly, but most examples work.
+
+@kvark also visited [Rust LA Meetup] to [talk about Naga]
+and the history of processing shaders with Rust.
+
+[wgpu]: https://github.com/gfx-rs/wgpu
+[gfx-rs blog]: https://gfx-rs.github.io/2021/10/07/release-0.11.html
+[Rust LA Meetup]: https://rustlang.la/
+[talk about Naga]: https://vimeo.com/632377558
+
+### [hecs_rapier] 0.11.0
+
+[hecs_rapier] is a physics engine for hecs ECS.
+It is a direct port of [bevy_rapier2d].
+
+Recent development added joints and physics_hooks support.
+This makes `hecs_rapier` feature complete, with `bevy_rapier2d` feature parity.
+
+[hecs_rapier]: https://github.com/smokku/hecs_rapier
+[bevy_rapier2d]: https://github.com/dimforge/bevy_rapier
 
 ## Popular Workgroup Issues in Github
 
