@@ -115,7 +115,7 @@ graphics engine and multiplayer networking code.
 Recent developments include:
 
 - Engine/game code split
-- Command line interface
+- Command Line Interface
 - [Rhai] scripting
 - `hecs_rapier` integration
 - Key/mouse-binding support
