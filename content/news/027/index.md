@@ -193,6 +193,17 @@ and the history of processing shaders with Rust.
 [Rust LA Meetup]: https://rustlang.la/
 [talk about Naga]: https://vimeo.com/632377558
 
+### [hecs_rapier] 0.11.0
+
+[hecs_rapier] is a physics engine for hecs ECS.
+It is a direct port of [bevy_rapier2d].
+
+Recent development added joints and physics_hooks support.
+This makes `hecs_rapier` feature complete, with `bevy_rapier2d` feature parity.
+
+[hecs_rapier]: https://github.com/smokku/hecs_rapier
+[bevy_rapier2d]: https://github.com/dimforge/bevy_rapier
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
