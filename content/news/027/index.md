@@ -120,6 +120,33 @@ the developer welcomes you to come and discuss next steps on the game's
 [graph-game-github]: https://github.com/Vrixyz/graph_nav
 [graph-game-discord]: https://discord.gg/ZeRkj8pD4n
 
+### [Way of Rhea]
+
+![way of rhea capsule image](wor-capsule.jpg)
+
+[Way of Rhea][wor] is a puzzle adventure with hard puzzles and forgiving mechanics. Way of Rhea is being produced by [@masonremaley][wor-mason-remaley].
+
+Latest developments:
+
+- Way of Rhea now has a [free demo available on Steam][wor]
+- Way of Rhea was shown at [PAX West][wor-pax-west] this year (as were a couple other Rust games!)
+  - Way of Rhea will also be showcased at [MAGWest][wor-magwest] this year
+- [A new trailer was published][wor-trailer], showing off new level art
+- Additional animation work, [visuals][wor-wildlife], and puzzles have been added to the game
+- Improvements were made to the undo system, the dialogue system was made friendlier in response to user feedback
+- Improvements were made to the tutorial level
+- Some proton compatibility problems were fixed, some visual glitches were fixed, support was added for adaptvie vsync
+
+You can stay up to date on the latest developments of Way of Rhea by [following on Steam][wor], or signing up for [the mailing list.][wor-newsletter]
+
+[wor]: https://store.steampowered.com/app/1110620/Way_of_Rhea/?utm_campaign=tmirgd&utm_source=n27
+[wor-mason-remaley]: https://twitter.com/masonremaley
+[wor-pax-west]: https://west.paxsite.com/
+[wor-magwest]: https://www.magwest.org/
+[wor-trailer]: https://www.youtube.com/watch?v=46ELQYaH0uw
+[wor-wildlife]: https://twitter.com/AnthropicSt/status/1448056148138119169
+[wor-newsletter]: https://www.anthropicstudios.com/newsletter/signup
+
 ## Engine Updates
 
 ### [All is Cubes][All is Cubes] 0.3.0
