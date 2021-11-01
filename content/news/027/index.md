@@ -125,7 +125,7 @@ Recent developments include:
 - Refactored code to build on `hecs` ECS
 - ECS entities debug UI
 
-The developers have also written a blog post:
+The developer have also written a blog post:
 '_[Engine and scripting](https://abadcafe.wordpress.com/2021/11/01/engine-and-scripting/)_'
 
 [Soldank]: https://github.com/smokku/soldank
