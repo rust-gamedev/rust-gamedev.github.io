@@ -84,6 +84,34 @@ small update to improve the UI and fix a few bugs.
 [@17cupsofcoffee]: https://twitter.com/17cupsofcoffee
 [lonely-star-source]: https://github.com/17cupsofcoffee/lonely-star
 
+### [The Process]
+
+![An animated gif showing an engineer shooting rockets](the_process.gif)
+_Firing Carrockets™!_
+
+[The Process] by @setzer22 is an upcoming game about factory building, process
+management, and carrot production, built with Rust using the Godot game engine!
+
+For the past two months the project has seen some slow but steady progress. Work
+has started towards a simple combat system that will have the engineers fighting
+hordes of robots to defend their factories.
+
+This month the game has seen the following changes and improvements:
+
+- New assets like
+  [a robot enemy](https://twitter.com/PlayTheProcess/status/1436722776186966023)
+  (concept by @Kath_Art_ic, modelling by @mkdirsrc),
+  [a shoulder mounted gun](https://twitter.com/PlayTheProcess/status/1439970905220960259)
+  and
+  [new machine icons](https://twitter.com/PlayTheProcess/status/1455232744573788162).
+- A new system to attach armor-like models to in-game characters.
+- Foundations of a combat system.
+- Carrockets™! 🥕🚀 [(1)](https://twitter.com/PlayTheProcess/status/1445098719326658562)
+  and
+  [(2)](https://twitter.com/PlayTheProcess/status/1454787650657951745)
+
+[The Process]: https://twitter.com/PlayTheProcess
+
 ## Engine Updates
 
 ### [Tetra] 0.6.6
