@@ -109,6 +109,25 @@ For more details, see the [changelog][tetra-changelog].
 
 ## Library Updates
 
+### [wgpu]-0.11 release
+
+![bevy webgl2 via wgpu](bevy-webgl2.png)
+_experimental Bevy branch running on WebGL2 via wgpu_
+
+The team is happy to announce the release of wgpu-0.11 and naga-0.7.
+Details can be found on the [gfx-rs blog]. The most exciting feature
+is WebGL2 support. With some caveats, users no longer need to wait for
+WebGPU in the browsers in order to deploy on the Web. Support is still
+a bit rough, and patches come out regularly, but most examples work.
+
+@kvark also visited [Rust LA Meetup] to [talk about Naga]
+and the history of processing shaders with Rust.
+
+[wgpu]: https://github.com/gfx-rs/wgpu
+[gfx-rs blog]: https://gfx-rs.github.io/2021/10/07/release-0.11.html
+[Rust LA Meetup]: https://rustlang.la/
+[talk about Naga]: https://vimeo.com/632377558
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
