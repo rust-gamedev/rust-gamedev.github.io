@@ -68,6 +68,22 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Lonely Star]
+
+![Lonely Star screenshot](lonely-star.png)
+
+[Lonely Star] is a 2D 'endless runner' game by [@17cupsofcoffee], featuring
+simple generative music. It was built with [Tetra] back in February 2020,
+for Weekly Game Jam 135.
+
+This month, it was made [open-source][lonely-star-source], and received a
+small update to improve the UI and fix a few bugs.
+
+[Lonely Star]: https://17cupsofcoffee.itch.io/lonely-star
+[Tetra]: https://github.com/17cupsofcoffee/tetra
+[@17cupsofcoffee]: https://twitter.com/17cupsofcoffee
+[lonely-star-source]: https://github.com/17cupsofcoffee/lonely-star
+
 ### [Graph Game](https://vrixyz.github.io/graph_nav/)
 
 ![image/gameplay of the game: circle and triangles](graph_game.gif)
@@ -84,6 +100,23 @@ feel free to come discuss 💬 with the developer on
 [Discord](https://discord.gg/ZeRkj8pD4n).
 
 ## Engine Updates
+
+### [Tetra] 0.6.6
+
+[Tetra] is a simple 2D game framework, inspired by XNA, Love2D, and Raylib. After
+a few quiet months, version 0.6.6 has been released, featuring:
+
+- A big overhaul of the keyboard API, with better support for international
+  layouts
+- Lots of new functions for manipulating the game window
+- A long-requested [ECS example][tetra-ecs]
+- Bugfixes and docs improvements
+
+For more details, see the [changelog][tetra-changelog].
+
+[Tetra]: https://github.com/17cupsofcoffee/tetra
+[tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
+[tetra-ecs]: https://github.com/17cupsofcoffee/tetra/blob/main/examples/ecs.rs
 
 ## Learning Material Updates
 
