@@ -101,6 +101,7 @@ the developer welcomes you to come and discuss next steps on the game's
 [Graph Game]: https://vrixyz.github.io/graph_nav/
 [graph-game-github]: https://github.com/Vrixyz/graph_nav
 [graph-game-discord]: https://discord.gg/ZeRkj8pD4n
+
 ## Engine Updates
 
 ### [Tetra] 0.6.6
