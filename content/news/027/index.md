@@ -84,21 +84,23 @@ small update to improve the UI and fix a few bugs.
 [@17cupsofcoffee]: https://twitter.com/17cupsofcoffee
 [lonely-star-source]: https://github.com/17cupsofcoffee/lonely-star
 
-### [Graph Game](https://vrixyz.github.io/graph_nav/)
+### [Graph Game]
 
 ![image/gameplay of the game: circle and triangles](graph_game.gif)
 _Navigating the graph map can be stressful_
 
-The [Graph Game](https://github.com/Vrixyz/graph_nav) uses
-[bevy engine](https://bevyengine.org/), you can play it from
-[browser](https://vrixyz.github.io/graph_nav/) 🕹️, click on colored triangles,
+[Graph Game] ([GitHub][graph-game-github])
+uses [Bevy](https://bevyengine.org/) as its engine. You can play it from your
+[browser](https://vrixyz.github.io/graph_nav/) - click on colored triangles,
 guess the rules and survive as long as possible!
 
-Be warned, the development just began,
-and the future of the project is not clear,
-feel free to come discuss 💬 with the developer on
-[Discord](https://discord.gg/ZeRkj8pD4n).
+Development has just begun, and the future of the project is not clear -
+the developer welcomes you to come and discuss next steps on the game's
+[Discord server][graph-game-discord].
 
+[Graph Game]: https://vrixyz.github.io/graph_nav/
+[graph-game-github]: https://github.com/Vrixyz/graph_nav
+[graph-game-discord]: https://discord.gg/ZeRkj8pD4n
 ## Engine Updates
 
 ### [Tetra] 0.6.6
