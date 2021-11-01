@@ -122,6 +122,35 @@ the developer welcomes you to come and discuss next steps on the game's
 
 ## Engine Updates
 
+### [All is Cubes][All is Cubes] 0.3.0
+
+[![Screenshot of All is Cubes][all-is-cubes-screen]][all-is-cubes-screen]
+
+All is Cubes ([GitHub][All is Cubes], [Crates.io][all-is-cubes-cr]) by [kpreid]
+is a game/engine for worlds made of blocks made of voxels. It is intended to be
+usable both as an engine or rendering library, or as a game with built-in
+editor/programming functionality (genre(s) to be determined). While the project
+is still highly incomplete and API-unstable, the 0.3.0 release marks a lot of
+now-usable functionality ([changelog][all-is-cubes-changelog]):
+
+- UI: mouselook, multiple example scenes, inventory with stacks, and rendering
+  to image files.
+- Simulation/mechanics: character collision against arbitrary voxel shapes,
+  much-improved light propagation, transactional state updates (all-or-nothing,
+  internally order-independent), and “behaviors” attached to game objects for
+  scripting/animation.
+- Rendering: high-voxel-count blocks (incomplete, but usable for text as seen in
+  the above screenshot), “smooth lighting” (interpolated across faces), frustum
+  culling, and correct sRGB-versus-linear color handling.
+
+The next planned milestone is saving/loading.
+
+[All is Cubes]: https://github.com/kpreid/all-is-cubes/
+[all-is-cubes-cr]: https://crates.io/crates/all-is-cubes
+[all-is-cubes-screen]: all-is-cubes.jpg
+[all-is-cubes-changelog]: https://github.com/kpreid/all-is-cubes/blob/main/CHANGELOG.md#030-2021-10-09
+[kpreid]: https://github.com/kpreid
+
 ### [Tetra] 0.6.6
 
 [Tetra] is a simple 2D game framework, inspired by XNA, Love2D, and Raylib. After
