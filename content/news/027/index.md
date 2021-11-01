@@ -68,6 +68,24 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [LibraCity] - city planning on a needle!
+
+![LibraCity screenshot](libracity.png)
+
+[LibraCity] is a puzzle city planning game by [@djeedai] where you need to build
+a city while balancing it on a needle (the center of the board). It was built for
+[Ludum Dare 49] using the [Bevy Engine], and is a first-time use of the engine.
+
+Post-jam, a webassembly version was added and published, which now allows
+[playing the game online](https://djeedai.github.io/libracity/).
+
+The code source is freely [available on GitHub](https://github.com/djeedai/libracity).
+
+[LibraCity]: https://djeedai.github.io/libracity/
+[Ludum Dare 49]: https://ldjam.com/events/ludum-dare/49/libra-city
+[@djeedai]: https://twitter.com/djeedai
+[Bevy Engine]: https://bevyengine.org/
+
 ### [Lonely Star]
 
 ![Lonely Star screenshot](lonely-star.png)
