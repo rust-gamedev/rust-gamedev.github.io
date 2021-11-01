@@ -88,25 +88,27 @@ small update to improve the UI and fix a few bugs.
 
 ![Soldank](https://raw.githubusercontent.com/smokku/soldank/master/sshot.png)
 
-[Soldank] ([GitHub](https://github.com/smokku/soldank), [Discord](https://discord.gg/cTaC4UtqE6))
-by [@smokku](https://twitter.com/smokkku) is an open source clone of [Soldat] engine.
-It aims for full compatibility with original game files, mods and gameplay with modernized
+[Soldank] ([GitHub](https://github.com/smokku/soldank),
+[Discord](https://discord.gg/cTaC4UtqE6)) by [@smokku](https://twitter.com/smokkku)
+is an open source clone of [Soldat] engine. It aims for full compatibility
+with original game files, mods and gameplay with modernized
 graphics engine and multiplayer networking code.
 
 Recent developments include:
 
-- Engine/Game code split
-- Command Line Interface
+- Engine/game code split
+- Command line interface
 - [Rhai] scripting
 - `hecs_rapier` integration
-- key/mouse-binding support
+- Key/mouse-binding support
 - Soldat's `.cfg` files support
 - Custom debug shapes rendering
 - Performance degradation fix
 - Refactored code to build on `hecs` ECS
 - ECS entities debug UI
 
-_Blog post: [Engine and scripting](https://abadcafe.wordpress.com/2021/11/01/engine-and-scripting/)_
+The developers have also written a blog post:
+'_[Engine and scripting](https://abadcafe.wordpress.com/2021/11/01/engine-and-scripting/)_'
 
 [Soldank]: https://github.com/smokku/soldank
 [Soldat]: http://soldat.pl/
