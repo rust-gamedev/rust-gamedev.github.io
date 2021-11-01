@@ -1,6 +1,7 @@
 +++
-title = "This Month in Rust GameDev #{TODO} - {TODO} {TODO}"
+title = "This Month in Rust GameDev #27 - October 2021"
 transparent = true
+date = 2021-11-04
 draft = true
 +++
 
@@ -8,7 +9,7 @@ draft = true
 
 <!-- Check the post with markdownlint-->
 
-Welcome to the {TODO}th issue of the Rust GameDev Workgroup's
+Welcome to the 27th issue of the Rust GameDev Workgroup's
 monthly newsletter.
 [Rust] is a systems language pursuing the trifecta:
 safety, concurrency, and speed.
@@ -27,6 +28,7 @@ Feel free to send PRs about your own projects!
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 [pr]: https://github.com/rust-gamedev/rust-gamedev.github.io
 [coordination]: https://github.com/rust-gamedev/rust-gamedev.github.io/issues?q=label%3Acoordination
+
 [Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
@@ -66,7 +68,40 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Lonely Star]
+
+![Lonely Star screenshot](lonely-star.png)
+
+[Lonely Star] is a 2D 'endless runner' game by [@17cupsofcoffee], featuring
+simple generative music. It was built with [Tetra] back in February 2020,
+for Weekly Game Jam 135.
+
+This month, it was made [open-source][lonely-star-source], and received a
+small update to improve the UI and fix a few bugs.
+
+[Lonely Star]: https://17cupsofcoffee.itch.io/lonely-star
+[Tetra]: https://github.com/17cupsofcoffee/tetra
+[@17cupsofcoffee]: https://twitter.com/17cupsofcoffee
+[lonely-star-source]: https://github.com/17cupsofcoffee/lonely-star
+
 ## Engine Updates
+
+### [Tetra] 0.6.6
+
+[Tetra] is a simple 2D game framework, inspired by XNA, Love2D, and Raylib. After
+a few quiet months, version 0.6.6 has been released, featuring:
+
+- A big overhaul of the keyboard API, with better support for international
+  layouts
+- Lots of new functions for manipulating the game window
+- A long-requested [ECS example][tetra-ecs]
+- Bugfixes and docs improvements
+
+For more details, see the [changelog][tetra-changelog].
+
+[Tetra]: https://github.com/17cupsofcoffee/tetra
+[tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
+[tetra-ecs]: https://github.com/17cupsofcoffee/tetra/blob/main/examples/ecs.rs
 
 ## Learning Material Updates
 
