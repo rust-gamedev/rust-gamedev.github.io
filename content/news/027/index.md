@@ -120,9 +120,9 @@ the developer welcomes you to come and discuss next steps on the game's
 [graph-game-github]: https://github.com/Vrixyz/graph_nav
 [graph-game-discord]: https://discord.gg/ZeRkj8pD4n
 
-### [Way of Rhea]
+### [Way of Rhea][wor]
 
-![way of rhea capsule image](wor-capsule.jpg)
+![way of rhea capsule image](wor-capsule.jpg)]
 
 [Way of Rhea][wor] is a puzzle adventure with hard puzzles and forgiving mechanics. It is being produced by [@masonremaley][wor-mason-remaley].
 
@@ -131,7 +131,7 @@ Latest developments:
 - Way of Rhea now has a [free demo available on Steam][wor]
 - Way of Rhea was shown at [PAX West][wor-pax-west] this year (as were a couple
  other Rust games!), and will also be showcased at [MAGWest][wor-magwest]
-- [A new trailer][wor-trailer] showing off new level art has been released
+- A new trailer showing off new level art [was published][wor-trailer]
 - Additional animation work, [visuals][wor-wildlife], and puzzles have been
 added to the game
 - Improvements were made to the undo system, the tutorial level, and the
@@ -140,7 +140,7 @@ dialogue system in response to user feedback
 fixed, and support was added for adaptvie vsync
 
 You can stay up to date on the latest developments of Way of Rhea by
-[following on Steam][wor], or signing up for
+[following it on Steam][wor], or signing up for
 [the mailing list.][wor-newsletter]
 
 [wor]: https://store.steampowered.com/app/1110620/Way_of_Rhea/?utm_campaign=tmirgd&utm_source=n27
