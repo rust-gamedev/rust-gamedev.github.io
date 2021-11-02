@@ -33,10 +33,18 @@ Feel free to send PRs about your own projects!
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
 - [Game Updates](#game-updates)
-- [Learning Material Updates](#learning-material-updates)
+  - [[LibraCity] - city planning on a needle!](#libracity---city-planning-on-a-needle)
+  - [[Lonely Star]](#lonely-star)
+  - [[Graph Game]](#graph-game)
 - [Engine Updates](#engine-updates)
+  - [All is Cubes 0.3.0](#all-is-cubes-030)
+  - [[Tetra] 0.6.6](#tetra-066)
+- [Learning Material Updates](#learning-material-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
+  - [[wgpu]-0.11 release](#wgpu-011-release)
+  - [[hecs_rapier] 0.11.0](#hecs_rapier-0110)
+  - [godot-rust](#godot-rust)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Meeting Minutes](#meeting-minutes)
 - [Discussions](#discussions)
@@ -238,6 +246,10 @@ to include it.
 
 [gd-book-projects]: https://godot-rust.github.io/book/projects.html
 
+[gd-docs]: https://godot-rust.github.io/docs
+[gd-github]: https://github.com/godot-rust/godot-rust
+[gd-discord]: https://discord.com/invite/FNudpBD
+[gd-twitter]: https://twitter.com/GodotRust
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
