@@ -122,7 +122,7 @@ the developer welcomes you to come and discuss next steps on the game's
 
 ### [Way of Rhea][wor]
 
-![way of rhea capsule image](wor-capsule.jpg)]
+![way of rhea capsule image](wor-capsule.jpg)
 
 [Way of Rhea][wor] is a puzzle adventure with hard puzzles and forgiving
 mechanics. It is being produced by [@masonremaley][wor-mason-remaley].
