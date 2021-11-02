@@ -102,6 +102,36 @@ small update to improve the UI and fix a few bugs.
 [@17cupsofcoffee]: https://twitter.com/17cupsofcoffee
 [lonely-star-source]: https://github.com/17cupsofcoffee/lonely-star
 
+### [Soldank]
+
+![Soldank](https://raw.githubusercontent.com/smokku/soldank/master/sshot.png)
+
+[Soldank] ([GitHub](https://github.com/smokku/soldank),
+[Discord](https://discord.gg/cTaC4UtqE6)) by [@smokku](https://twitter.com/smokkku)
+is an open source clone of [Soldat] engine. It aims for full compatibility
+with original game files, mods and gameplay with modernized
+graphics engine and multiplayer networking code.
+
+Recent developments include:
+
+- Engine/game code split
+- Command Line Interface
+- [Rhai] scripting
+- `hecs_rapier` integration
+- Key/mouse-binding support
+- Soldat's `.cfg` files support
+- Custom debug shapes rendering
+- Performance degradation fix
+- Refactored code to build on `hecs` ECS
+- ECS entities debug UI
+
+The developer have also written a blog post:
+'_[Engine and scripting](https://abadcafe.wordpress.com/2021/11/01/engine-and-scripting/)_'
+
+[Soldank]: https://github.com/smokku/soldank
+[Soldat]: http://soldat.pl/
+[Rhai]: http://rhai.rs/
+
 ### [Graph Game]
 
 ![image/gameplay of the game: circle and triangles](graph_game.gif)
