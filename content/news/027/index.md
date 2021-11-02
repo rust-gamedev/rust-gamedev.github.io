@@ -33,10 +33,18 @@ Feel free to send PRs about your own projects!
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
 - [Game Updates](#game-updates)
-- [Learning Material Updates](#learning-material-updates)
+  - [[LibraCity] - city planning on a needle!](#libracity---city-planning-on-a-needle)
+  - [[Lonely Star]](#lonely-star)
+  - [[Graph Game]](#graph-game)
 - [Engine Updates](#engine-updates)
+  - [All is Cubes 0.3.0](#all-is-cubes-030)
+  - [[Tetra] 0.6.6](#tetra-066)
+- [Learning Material Updates](#learning-material-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
+  - [[wgpu]-0.11 release](#wgpu-011-release)
+  - [[hecs_rapier] 0.11.0](#hecs_rapier-0110)
+  - [godot-rust](#godot-rust)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Meeting Minutes](#meeting-minutes)
 - [Discussions](#discussions)
@@ -203,6 +211,42 @@ This makes `hecs_rapier` feature complete, with `bevy_rapier2d` feature parity.
 
 [hecs_rapier]: https://github.com/smokku/hecs_rapier
 [bevy_rapier2d]: https://github.com/dimforge/bevy_rapier
+
+
+### [godot-rust](https://github.com/godot-rust/godot-rust)
+
+![godot-rust logo](godot-rust.png)
+
+godot-rust ([GitHub][gd-github], [Discord][gd-discord], [Twitter][gd-twitter])
+is a Rust library that provides bindings for the Godot game engine.
+
+Recent developments have added [foundational support to async][gd-async] 
+that enables users to make use of the Rust async runtimes with the Godot Engine
+(thanks to chitoyuu for the PR)
+
+In addition to the foundational support, lyonbeckers was kind enough to
+include a [new recipe in the User Guide][gd-async-recipe] that covers
+how to configure async with `tokio`.
+
+The team also merged several smaller bug fixes in [#791][gd-791], [#795][gd-795],
+and [#800][gd-800] and is making steady progress towards version 0.10.0.
+
+Finally, the team has recently added [third party project][gd-book-projects] 
+section in the book to help promote games, applications, and libraries/tools
+that are working with godot-rust. If you have a project that you would like to
+be included, please feel free to reach out to our team and we'd be happy
+to include it.
+
+
+[gd-async]: https://github.com/godot-rust/godot-rust/pull/804
+[gd-async-recipe]: https://github.com/godot-rust/book/pull/44
+
+[gd-800]: https://github.com/godot-rust/godot-rust/pull/800 
+[gd-795]: https://github.com/godot-rust/godot-rust/pull/795
+[gd-791]: https://github.com/godot-rust/godot-rust/pull/791
+[gd-788]: https://github.com/godot-rust/godot-rust/pull/788
+
+[gd-book-projects]: https://godot-rust.github.io/book/projects.html
 
 ## Popular Workgroup Issues in Github
 
