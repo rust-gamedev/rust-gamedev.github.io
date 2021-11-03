@@ -33,18 +33,10 @@ Feel free to send PRs about your own projects!
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
 - [Game Updates](#game-updates)
-  - [[LibraCity] - city planning on a needle!](#libracity---city-planning-on-a-needle)
-  - [[Lonely Star]](#lonely-star)
-  - [[Graph Game]](#graph-game)
 - [Engine Updates](#engine-updates)
-  - [All is Cubes 0.3.0](#all-is-cubes-030)
-  - [[Tetra] 0.6.6](#tetra-066)
 - [Learning Material Updates](#learning-material-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
-  - [[wgpu]-0.11 release](#wgpu-011-release)
-  - [[hecs_rapier] 0.11.0](#hecs_rapier-0110)
-  - [godot-rust](#godot-rust)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Meeting Minutes](#meeting-minutes)
 - [Discussions](#discussions)
