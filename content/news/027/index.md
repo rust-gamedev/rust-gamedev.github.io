@@ -262,12 +262,12 @@ This makes `hecs_rapier` feature complete, with `bevy_rapier2d` feature parity.
 [hecs_rapier]: https://github.com/smokku/hecs_rapier
 [bevy_rapier2d]: https://github.com/dimforge/bevy_rapier
 
-### [Bevy Pen Tool](https://github.com/eliotbo/bevy_pen_tool)
+### [Bevy Pen Tool][bevy-pen-tool]
 
 ![bevy_pen_tool2](bevy_pen_tool2.gif)
 
 Bevy Pen Tool is a plugin that helps developers make 2D paths using
-Bezier curves. Its user interface provides functionality for
+Bezier curves. Its user interface provides functionality for:
 
 - spawning Bezier curves,
 - moving end points and control points of Bezier curves,
@@ -282,7 +282,9 @@ Bezier curves. Its user interface provides functionality for
 
 A stable version of Bevy Pen Tool should come out as a crate shortly
 after Bevy 0.6 shows up. Here is a link to the [repo for more
-information](https://github.com/eliotbo/bevy_pen_tool).
+information][bevy-pen-tool].
+
+[bevy-pen-tool]: https://github.com/eliotbo/bevy_pen_tool
 
 ## Popular Workgroup Issues in Github
 
