@@ -294,6 +294,37 @@ This makes `hecs_rapier` feature complete, with `bevy_rapier2d` feature parity.
 [hecs_rapier]: https://github.com/smokku/hecs_rapier
 [bevy_rapier2d]: https://github.com/dimforge/bevy_rapier
 
+### [bevy_verlet]
+
+![bevy_verlet](bevy_verlet.gif)
+[![Crates.io](https://img.shields.io/crates/v/bevy_verlet.svg)](https://crates.io/crates/bevy_verlet)
+
+[bevy_verlet] is a lib for projects using [Bevy Engine][bv_bevy]
+providing a plugin to use [verlet Integration][bv_wikipedia]
+physics. Very useful for Cloth simulation and joints, and less expensive than
+complex physics engine, it is a nice addition to 2D or 3D projects. Making good
+use of the Entity-Component-System architecture of the bevy engine, any entity
+can become a `VerletPoint` and have physics applied to it.
+
+The crate also provides *sticks* which constrains the points in order to create
+strings or cloth. With its modularity, you may customize the physics precision
+(iterations), the gravity, and the physics time step to use.
+
+New features:
+- Query parallel batching and custom batching size
+- Global documentation
+- Fixed issues with timesteps
+- Improved examples
+
+You may contact the author on Twitter [@ManevilleF][ManevilleF] or join the
+[discussion][bv_discussion].
+
+[bevy_verlet]: https://github.com/ManevilleF/bevy_verlet
+[bv_discussion]: https://twitter.com/ManevilleF/status/1437350669858611202?s=20
+[ManevilleF]: https://twitter.com/ManevilleF
+[bv_bevy]: https://bevyengine.org/
+[bv_wikipedia]: https://en.wikipedia.org/wiki/Verlet_integration
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
