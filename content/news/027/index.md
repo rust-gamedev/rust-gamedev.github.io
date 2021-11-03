@@ -231,7 +231,7 @@ to include it.
 [gd-async]: https://github.com/godot-rust/godot-rust/pull/804
 [gd-async-recipe]: https://github.com/godot-rust/book/pull/44
 
-[gd-800]: https://github.com/godot-rust/godot-rust/pull/800 
+[gd-800]: https://github.com/godot-rust/godot-rust/pull/800
 [gd-795]: https://github.com/godot-rust/godot-rust/pull/795
 [gd-791]: https://github.com/godot-rust/godot-rust/pull/791
 [gd-788]: https://github.com/godot-rust/godot-rust/pull/788
