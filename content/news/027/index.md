@@ -109,7 +109,7 @@ For more details, see the [changelog][tetra-changelog].
 
 ### [SPV]
 
-![SPV-0.1.0 screenshot](https://user-images.githubusercontent.com/23136737/139598984-4fcb2c74-4d65-4214-ae6c-f5a64276dacb.png)
+![SPV-0.1.0 screenshot](spv-0.1.0.png)
 
 [SPV] by [Albin Sjögren]
 is a calculator utility for working with astronomical position and velocity data.
