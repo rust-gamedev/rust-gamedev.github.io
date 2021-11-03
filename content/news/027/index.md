@@ -116,7 +116,17 @@ For more details, see the [changelog][tetra-changelog].
 [SPV] by [Albin Sjögren]
 is a calculator utility for working with atronomical position and velocity data.
 
-Development originally started 2 months back for an ongoing school project. Since the opensource release most if not all bugs have been found and removed, we are now on our second UI interface and our plan for the future is clearly marked. Among our future plans is to make a crate version of SPV available mid november so have an eye out for that. For any feature requests you can either contact me on [discord] or [github].
+What was added for the first alpha release:
+- A new UI
+- Corrected vector normalizing
+- JSON and TXT exporting
+
+The primary features that are being worked on:
+- A crate version
+- Output filestrcuture
+- Batch processing 
+
+For any feature requests reach out on [discord] or [github].
 
 [SPV]: https://github.com/AlbinSjoegren/SPV
 [discord]: https://discordapp.com/users/258254056185659392
