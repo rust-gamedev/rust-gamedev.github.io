@@ -211,7 +211,7 @@ This makes `hecs_rapier` feature complete, with `bevy_rapier2d` feature parity.
 godot-rust ([GitHub][gd-github], [Discord][gd-discord], [Twitter][gd-twitter])
 is a Rust library that provides bindings for the Godot game engine.
 
-Recent developments have added [foundational support to async][gd-async] 
+Recent developments have added [foundational support to async][gd-async]
 that enables users to make use of the Rust async runtimes with the Godot Engine
 (thanks to chitoyuu for the PR).
 
@@ -222,7 +222,7 @@ how to configure async with `tokio`.
 The team also merged several smaller bug fixes in [#791][gd-791], [#795][gd-795],
 and [#800][gd-800] and is making steady progress towards version 0.10.0.
 
-Finally, the team has recently added [third party project][gd-book-projects] 
+Finally, the team has recently added [third party project][gd-book-projects]
 section in the book to help promote games, applications, and libraries/tools
 that are working with godot-rust. If you have a project that you would like to
 be included, please feel free to reach out to our team and we'd be happy
