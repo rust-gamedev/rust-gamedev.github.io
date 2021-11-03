@@ -227,6 +227,7 @@ section in the book to help promote games, applications, and libraries/tools
 that are working with godot-rust. If you have a project that you would like to
 be included, please feel free to reach out to our team and we'd be happy
 to include it.
+
 [gd-async]: https://github.com/godot-rust/godot-rust/pull/804
 [gd-async-recipe]: https://github.com/godot-rust/book/pull/44
 
