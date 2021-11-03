@@ -204,7 +204,6 @@ This makes `hecs_rapier` feature complete, with `bevy_rapier2d` feature parity.
 [hecs_rapier]: https://github.com/smokku/hecs_rapier
 [bevy_rapier2d]: https://github.com/dimforge/bevy_rapier
 
-
 ### [godot-rust](https://github.com/godot-rust/godot-rust)
 
 ![godot-rust logo](godot-rust.png)
@@ -214,7 +213,7 @@ is a Rust library that provides bindings for the Godot game engine.
 
 Recent developments have added [foundational support to async][gd-async] 
 that enables users to make use of the Rust async runtimes with the Godot Engine
-(thanks to chitoyuu for the PR)
+(thanks to chitoyuu for the PR).
 
 In addition to the foundational support, lyonbeckers was kind enough to
 include a [new recipe in the User Guide][gd-async-recipe] that covers
@@ -228,8 +227,6 @@ section in the book to help promote games, applications, and libraries/tools
 that are working with godot-rust. If you have a project that you would like to
 be included, please feel free to reach out to our team and we'd be happy
 to include it.
-
-
 [gd-async]: https://github.com/godot-rust/godot-rust/pull/804
 [gd-async-recipe]: https://github.com/godot-rust/book/pull/44
 
