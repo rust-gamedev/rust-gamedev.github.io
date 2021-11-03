@@ -112,7 +112,7 @@ For more details, see the [changelog][tetra-changelog].
 ![SPV-0.1.0 screenshot](https://user-images.githubusercontent.com/23136737/139598984-4fcb2c74-4d65-4214-ae6c-f5a64276dacb.png)
 
 [SPV] by [Albin Sjögren]
-is a calculator utility for working with atronomical position and velocity data.
+is a calculator utility for working with astronomical position and velocity data.
 
 What was added for the first alpha release:
 
@@ -123,7 +123,7 @@ What was added for the first alpha release:
 The primary features that are being worked on:
 
 - A crate version
-- Output filestrcuture
+- Output file structure
 - Batch processing
 
 For any feature requests, reach out to the developer on [Discord][spv-discord]
