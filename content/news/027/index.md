@@ -124,7 +124,7 @@ The primary features that are being worked on:
 
 - A crate version
 - Output filestrcuture
-- Batch processing 
+- Batch processing
 
 For any feature requests, reach out to the developer on [Discord][spv-discord]
 or [GitHub][spv].
