@@ -68,6 +68,52 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [The Process]
+
+![An animated gif showing an engineer shooting rockets](the_process.gif)
+_Firing Carrockets™!_
+
+[The Process] by @setzer22 is an upcoming game about factory building, process
+management, and carrot production, built with Rust using the Godot game engine!
+
+For the past two months the project has seen some slow but steady progress. Work
+has started towards a simple combat system that will have the engineers fighting
+hordes of robots to defend their factories.
+
+This month the game has seen the following changes and improvements:
+
+- New assets like
+  [a robot enemy](https://twitter.com/PlayTheProcess/status/1436722776186966023)
+  (concept by @Kath_Art_ic, modelling by @mkdirsrc),
+  [a shoulder mounted gun](https://twitter.com/PlayTheProcess/status/1439970905220960259)
+  and
+  [new machine icons](https://twitter.com/PlayTheProcess/status/1455232744573788162).
+- A new system to attach armor-like models to in-game characters.
+- Foundations of a combat system.
+- Carrockets™! 🥕🚀 [(1)](https://twitter.com/PlayTheProcess/status/1445098719326658562)
+  and
+  [(2)](https://twitter.com/PlayTheProcess/status/1454787650657951745)
+
+[The Process]: https://twitter.com/PlayTheProcess
+
+### [LibraCity] - city planning on a needle!
+
+![LibraCity screenshot](libracity.png)
+
+[LibraCity] is a puzzle city planning game by [@djeedai] where you need to build
+a city while balancing it on a needle (the center of the board). It was built for
+[Ludum Dare 49] using the [Bevy Engine], and is a first-time use of the engine.
+
+Post-jam, a webassembly version was added and published, which now allows
+[playing the game online](https://djeedai.github.io/libracity/).
+
+The code source is freely [available on GitHub](https://github.com/djeedai/libracity).
+
+[LibraCity]: https://djeedai.github.io/libracity/
+[Ludum Dare 49]: https://ldjam.com/events/ludum-dare/49/libra-city
+[@djeedai]: https://twitter.com/djeedai
+[Bevy Engine]: https://bevyengine.org/
+
 ### [Lonely Star]
 
 ![Lonely Star screenshot](lonely-star.png)
@@ -84,7 +130,116 @@ small update to improve the UI and fix a few bugs.
 [@17cupsofcoffee]: https://twitter.com/17cupsofcoffee
 [lonely-star-source]: https://github.com/17cupsofcoffee/lonely-star
 
+### [Soldank]
+
+![Soldank](https://raw.githubusercontent.com/smokku/soldank/master/sshot.png)
+
+[Soldank] ([GitHub](https://github.com/smokku/soldank),
+[Discord](https://discord.gg/cTaC4UtqE6)) by [@smokku](https://twitter.com/smokkku)
+is an open source clone of [Soldat] engine. It aims for full compatibility
+with original game files, mods and gameplay with modernized
+graphics engine and multiplayer networking code.
+
+Recent developments include:
+
+- Engine/game code split
+- Command Line Interface
+- [Rhai] scripting
+- `hecs_rapier` integration
+- Key/mouse-binding support
+- Soldat's `.cfg` files support
+- Custom debug shapes rendering
+- Performance degradation fix
+- Refactored code to build on `hecs` ECS
+- ECS entities debug UI
+
+The developer have also written a blog post:
+'_[Engine and scripting](https://abadcafe.wordpress.com/2021/11/01/engine-and-scripting/)_'
+
+[Soldank]: https://github.com/smokku/soldank
+[Soldat]: http://soldat.pl/
+[Rhai]: http://rhai.rs/
+
+### [Graph Game]
+
+![image/gameplay of the game: circle and triangles](graph_game.gif)
+_Navigating the graph map can be stressful_
+
+[Graph Game] ([GitHub][graph-game-github])
+uses [Bevy](https://bevyengine.org/) as its engine. You can play it from your
+[browser](https://vrixyz.github.io/graph_nav/) - click on colored triangles,
+guess the rules and survive as long as possible!
+
+Development has just begun, and the future of the project is not clear -
+the developer welcomes you to come and discuss next steps on the game's
+[Discord server][graph-game-discord].
+
+[Graph Game]: https://vrixyz.github.io/graph_nav/
+[graph-game-github]: https://github.com/Vrixyz/graph_nav
+[graph-game-discord]: https://discord.gg/ZeRkj8pD4n
+
+### [Way of Rhea][wor]
+
+![way of rhea capsule image](wor-capsule.jpg)
+
+[Way of Rhea][wor] is a puzzle adventure with hard puzzles and forgiving
+mechanics. It is being produced by [@masonremaley][wor-mason-remaley].
+
+Latest developments:
+
+- Way of Rhea now has a [free demo available on Steam][wor]
+- Way of Rhea was shown at [PAX West][wor-pax-west] this year (as were a couple
+ other Rust games!), and will also be showcased at [MAGWest][wor-magwest]
+- A new trailer showing off new level art [was published][wor-trailer]
+- Additional animation work, [visuals][wor-wildlife], and puzzles have been
+added to the game
+- Improvements were made to the undo system, the tutorial level, and the
+dialogue system in response to user feedback
+- Some Proton compatibility problems were fixed, some visual glitches were
+fixed, and support was added for adaptvie vsync
+
+You can stay up to date on the latest developments of Way of Rhea by
+[following it on Steam][wor], or signing up for
+[the mailing list.][wor-newsletter]
+
+[wor]: https://store.steampowered.com/app/1110620/Way_of_Rhea/?utm_campaign=tmirgd&utm_source=n27
+[wor-mason-remaley]: https://twitter.com/masonremaley
+[wor-pax-west]: https://west.paxsite.com/
+[wor-magwest]: https://www.magwest.org/
+[wor-trailer]: https://www.youtube.com/watch?v=46ELQYaH0uw
+[wor-wildlife]: https://twitter.com/AnthropicSt/status/1448056148138119169
+[wor-newsletter]: https://www.anthropicstudios.com/newsletter/signup
+
 ## Engine Updates
+
+### [All is Cubes][All is Cubes] 0.3.0
+
+[![Screenshot of All is Cubes][all-is-cubes-screen]][all-is-cubes-screen]
+
+All is Cubes ([GitHub][All is Cubes], [Crates.io][all-is-cubes-cr]) by [kpreid]
+is a game/engine for worlds made of blocks made of voxels. It is intended to be
+usable both as an engine or rendering library, or as a game with built-in
+editor/programming functionality (genre(s) to be determined). While the project
+is still highly incomplete and API-unstable, the 0.3.0 release marks a lot of
+now-usable functionality ([changelog][all-is-cubes-changelog]):
+
+- UI: mouselook, multiple example scenes, inventory with stacks, and rendering
+  to image files.
+- Simulation/mechanics: character collision against arbitrary voxel shapes,
+  much-improved light propagation, transactional state updates (all-or-nothing,
+  internally order-independent), and “behaviors” attached to game objects for
+  scripting/animation.
+- Rendering: high-voxel-count blocks (incomplete, but usable for text as seen in
+  the above screenshot), “smooth lighting” (interpolated across faces), frustum
+  culling, and correct sRGB-versus-linear color handling.
+
+The next planned milestone is saving/loading.
+
+[All is Cubes]: https://github.com/kpreid/all-is-cubes/
+[all-is-cubes-cr]: https://crates.io/crates/all-is-cubes
+[all-is-cubes-screen]: all-is-cubes.jpg
+[all-is-cubes-changelog]: https://github.com/kpreid/all-is-cubes/blob/main/CHANGELOG.md#030-2021-10-09
+[kpreid]: https://github.com/kpreid
 
 ### [Tetra] 0.6.6
 
@@ -108,6 +263,36 @@ For more details, see the [changelog][tetra-changelog].
 ## Tooling Updates
 
 ## Library Updates
+
+### [wgpu]-0.11 release
+
+![bevy webgl2 via wgpu](bevy-webgl2.png)
+_experimental Bevy branch running on WebGL2 via wgpu_
+
+The team is happy to announce the release of wgpu-0.11 and naga-0.7.
+Details can be found on the [gfx-rs blog]. The most exciting feature
+is WebGL2 support. With some caveats, users no longer need to wait for
+WebGPU in the browsers in order to deploy on the Web. Support is still
+a bit rough, and patches come out regularly, but most examples work.
+
+@kvark also visited [Rust LA Meetup] to [talk about Naga]
+and the history of processing shaders with Rust.
+
+[wgpu]: https://github.com/gfx-rs/wgpu
+[gfx-rs blog]: https://gfx-rs.github.io/2021/10/07/release-0.11.html
+[Rust LA Meetup]: https://rustlang.la/
+[talk about Naga]: https://vimeo.com/632377558
+
+### [hecs_rapier] 0.11.0
+
+[hecs_rapier] is a physics engine for hecs ECS.
+It is a direct port of [bevy_rapier2d].
+
+Recent development added joints and physics_hooks support.
+This makes `hecs_rapier` feature complete, with `bevy_rapier2d` feature parity.
+
+[hecs_rapier]: https://github.com/smokku/hecs_rapier
+[bevy_rapier2d]: https://github.com/dimforge/bevy_rapier
 
 ## Popular Workgroup Issues in Github
 
