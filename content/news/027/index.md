@@ -297,6 +297,7 @@ This makes `hecs_rapier` feature complete, with `bevy_rapier2d` feature parity.
 ### [bevy_verlet]
 
 ![bevy_verlet](bevy_verlet.gif)
+
 [![Crates.io](https://img.shields.io/crates/v/bevy_verlet.svg)](https://crates.io/crates/bevy_verlet)
 
 [bevy_verlet] is a lib for projects using [Bevy Engine][bv_bevy]
@@ -311,6 +312,7 @@ strings or cloth. With its modularity, you may customize the physics precision
 (iterations), the gravity, and the physics time step to use.
 
 New features:
+
 - Query parallel batching and custom batching size
 - Global documentation
 - Fixed issues with timesteps
