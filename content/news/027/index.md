@@ -294,6 +294,44 @@ This makes `hecs_rapier` feature complete, with `bevy_rapier2d` feature parity.
 [hecs_rapier]: https://github.com/smokku/hecs_rapier
 [bevy_rapier2d]: https://github.com/dimforge/bevy_rapier
 
+### [godot-rust](https://github.com/godot-rust/godot-rust)
+
+![godot-rust logo](godot-rust.png)
+
+godot-rust ([GitHub][gd-github], [Discord][gd-discord], [Twitter][gd-twitter])
+is a Rust library that provides bindings for the Godot game engine.
+
+Recent developments have added [foundational support to async][gd-async]
+that enables users to make use of the Rust async runtimes with the Godot Engine
+(thanks to chitoyuu for the PR).
+
+In addition to the foundational support, lyonbeckers was kind enough to
+include a [new recipe in the User Guide][gd-async-recipe] that covers
+how to configure async with `tokio`.
+
+The team also merged several smaller bug fixes in [#791][gd-791], [#795][gd-795],
+and [#800][gd-800] and is making steady progress towards version 0.10.0.
+
+Finally, the team has recently added a [third party project][gd-book-projects]
+section in the book to help promote games, applications, and libraries/tools
+that are working with godot-rust. If you have a project that you would like to
+be included, please feel free to reach out to the godot-rust team.
+
+[gd-async]: https://github.com/godot-rust/godot-rust/pull/804
+[gd-async-recipe]: https://github.com/godot-rust/book/pull/44
+
+[gd-800]: https://github.com/godot-rust/godot-rust/pull/800
+[gd-795]: https://github.com/godot-rust/godot-rust/pull/795
+[gd-791]: https://github.com/godot-rust/godot-rust/pull/791
+[gd-788]: https://github.com/godot-rust/godot-rust/pull/788
+
+[gd-book-projects]: https://godot-rust.github.io/book/projects.html
+
+[gd-docs]: https://godot-rust.github.io/docs
+[gd-github]: https://github.com/godot-rust/godot-rust
+[gd-discord]: https://discord.com/invite/FNudpBD
+[gd-twitter]: https://twitter.com/GodotRust
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
