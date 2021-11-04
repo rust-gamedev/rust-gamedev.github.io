@@ -294,6 +294,23 @@ This makes `hecs_rapier` feature complete, with `bevy_rapier2d` feature parity.
 [hecs_rapier]: https://github.com/smokku/hecs_rapier
 [bevy_rapier2d]: https://github.com/dimforge/bevy_rapier
 
+### [bevy_atmosphere] 0.1.1
+
+![dawn in bevy_atmosphere](bevy_atmosphere.png)
+
+[bevy_atmosphere] ([GitHub][bevy_atmosphere]) by @JonahPlusPlus
+is a procedural sky plugin for Bevy.
+
+By adding the `AtmospherePlugin`, users get a skybox around the camera in their scene.
+Users can also set the appearance of the sky adding a `AtmosphereMat` resource.
+
+0.1.0 and 0.1.1 have been released on [crates.io](https://crates.io/crates/bevy_atmosphere)
+
+0.1.1 changes the default position of the sun to be in the sky,
+so only the plugin is needed to get a Unity-like sky
+
+[bevy_atmosphere]: https://github.com/JonahPlusPlus/bevy_atmosphere
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
