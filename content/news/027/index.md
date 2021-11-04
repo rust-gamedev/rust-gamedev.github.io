@@ -133,6 +133,25 @@ is available [here][chaos-theory-src] and
 [chaos-theory-src]: https://github.com/necauqua/chaos-theory
 [chaos-theory-engine-src]: https://github.com/necauqua/ld-game-engine
 
+### [Me And My Unicycle]
+
+![Me And My Unicycle screenshot](me_and_my_unicycle_cover.png)
+_Can you handle this unstable ride?_
+
+[Me And My Unicycle] is a 2D physics game by [@nikl_me] submitted to Ludum
+Dare 49. It is build with [Bevy] and [the code can be found on GitHub][mamu-source].
+
+Following the LD49 theme "unstable", the game is about riding a unicycle
+with challenging controls. Try making it through each level without falling.
+
+All assets are self-made. The developer had a lot of fun recording audio and
+sound effects!
+
+[Me And My Unicycle]: https://niklme.itch.io/me-and-my-unicycle
+[Bevy]: https://github.com/bevyengine/bevy
+[@nikl_me]: https://twitter.com/nikl_me
+[mamu-source]: https://github.com/NiklasEi/me_and_my_unicycle
+
 ### [Lonely Star]
 
 ![Lonely Star screenshot](lonely-star.png)
@@ -281,6 +300,32 @@ For more details, see the [changelog][tetra-changelog].
 
 ## Tooling Updates
 
+### [SPV]
+
+![SPV-0.1.0 screenshot](spv-0.1.0.png)
+
+[SPV] by [Albin Sjögren]
+is a calculator utility for working with astronomical position and velocity data.
+
+What was added for the first alpha release:
+
+- A new UI
+- Corrected vector normalizing
+- JSON and TXT exporting
+
+The primary features that are being worked on:
+
+- A crate version
+- Output file structure
+- Batch processing
+
+For any feature requests, reach out to the developer on [Discord][spv-discord]
+or [GitHub][spv].
+
+[SPV]: https://github.com/AlbinSjoegren/SPV
+[spv-discord]: https://discordapp.com/users/258254056185659392
+[Albin Sjögren]: https://github.com/AlbinSjoegren
+
 ## Library Updates
 
 ### [wgpu]-0.11 release
@@ -312,6 +357,114 @@ This makes `hecs_rapier` feature complete, with `bevy_rapier2d` feature parity.
 
 [hecs_rapier]: https://github.com/smokku/hecs_rapier
 [bevy_rapier2d]: https://github.com/dimforge/bevy_rapier
+
+### [bevy_kira_audio]
+
+[bevy_kira_audio] is a [Bevy] plugin that integrates the audio library [Kira]
+into [Bevy] applications.
+
+In the latest version `0.6.0`, you can load files with custom semantic
+durations and play looped audio with an intro. The plugin now also cleans up
+old sound instances. Following Bevy, [bevy_kira_audio] is now licensed under
+dual MIT + Apache 2.0, and the library will no longer crash on systems without
+an audio device.
+
+[bevy_kira_audio]: https://github.com/NiklasEi/bevy_kira_audio
+[Bevy]: https://github.com/bevyengine/bevy
+[Kira]: https://github.com/tesselode/kira
+
+### [bevy_verlet]
+
+![bevy_verlet](bevy_verlet.gif)
+
+[bevy_verlet] is a lib for projects using [Bevy Engine][bv_bevy]
+providing a plugin to use [verlet integration][bv_wikipedia]
+physics. Very useful for cloth simulation and joints, and less expensive than
+complex physics engine, it is a nice addition to 2D or 3D projects. Making good
+use of the Entity-Component-System architecture of the bevy engine, any entity
+can become a `VerletPoint` and have physics applied to it.
+
+The crate also provides *sticks* which constrains the points in order to create
+strings or cloth. With its modularity, you may customize the physics precision
+(iterations), the gravity, and the physics time step to use.
+
+New features:
+
+- Query parallel batching and custom batching size
+- Global documentation
+- Fixed issues with timesteps
+- Improved examples
+
+You may contact the author on Twitter at [@ManevilleF][ManevilleF] or join the
+[discussion][bv_discussion].
+
+[bevy_verlet]: https://github.com/ManevilleF/bevy_verlet
+[bv_discussion]: https://twitter.com/ManevilleF/status/1437350669858611202?s=20
+[ManevilleF]: https://twitter.com/ManevilleF
+[bv_bevy]: https://bevyengine.org/
+[bv_wikipedia]: https://en.wikipedia.org/wiki/Verlet_integration
+
+### [Bevy Pen Tool][bevy-pen-tool]
+
+![bevy_pen_tool2](bevy_pen_tool2.gif)
+
+Bevy Pen Tool is a plugin that helps developers make 2D paths using
+Bezier curves. Its user interface provides functionality for:
+
+- spawning Bezier curves,
+- moving end points and control points of Bezier curves,
+- linking individual Bezier curves to each other,
+- grouping curves,
+- saving and loading paths as look-up tables
+    (typically for animations and agent movement),
+- generating arbitrary 2D meshes that fill the interior of a path
+    using the Lyon crate,
+- generating a mesh that follows a path like a road,
+- saving meshes and roads in ".obj" format,
+
+A stable version of Bevy Pen Tool should come out as a crate shortly
+after Bevy 0.6 shows up. Here is a link to the [repo for more
+information][bevy-pen-tool].
+
+[bevy-pen-tool]: https://github.com/eliotbo/bevy_pen_tool
+
+### [godot-rust](https://github.com/godot-rust/godot-rust)
+
+![godot-rust logo](godot-rust.png)
+
+godot-rust ([GitHub][gd-github], [Discord][gd-discord], [Twitter][gd-twitter])
+is a Rust library that provides bindings for the Godot game engine.
+
+Recent developments have added [foundational support to async][gd-async]
+that enables users to make use of the Rust async runtimes with the Godot Engine
+(thanks to chitoyuu for the PR).
+
+In addition to the foundational support, lyonbeckers was kind enough to
+include a [new recipe in the User Guide][gd-async-recipe] that covers
+how to configure async with `tokio`.
+
+The team also merged several smaller bug fixes in [#791][gd-791], [#795][gd-795],
+and [#800][gd-800] and is making steady progress towards version 0.10.0.
+
+Finally, the team has recently added a [third party project][gd-book-projects]
+section in the book to help promote games, applications, and libraries/tools
+that are working with godot-rust. If you have a project that you would like to
+be included, please feel free to reach out to the godot-rust team.
+
+[gd-async]: https://github.com/godot-rust/godot-rust/pull/804
+[gd-async-recipe]: https://github.com/godot-rust/book/pull/44
+
+[gd-800]: https://github.com/godot-rust/godot-rust/pull/800
+[gd-795]: https://github.com/godot-rust/godot-rust/pull/795
+[gd-791]: https://github.com/godot-rust/godot-rust/pull/791
+[gd-788]: https://github.com/godot-rust/godot-rust/pull/788
+
+[gd-book-projects]: https://godot-rust.github.io/book/projects.html
+
+[gd-docs]: https://godot-rust.github.io/docs
+[gd-github]: https://github.com/godot-rust/godot-rust
+[gd-discord]: https://discord.com/invite/FNudpBD
+[gd-twitter]: https://twitter.com/GodotRust
 
 ## Popular Workgroup Issues in Github
 
