@@ -262,6 +262,32 @@ For more details, see the [changelog][tetra-changelog].
 
 ## Tooling Updates
 
+### [SPV]
+
+![SPV-0.1.0 screenshot](spv-0.1.0.png)
+
+[SPV] by [Albin Sjögren]
+is a calculator utility for working with astronomical position and velocity data.
+
+What was added for the first alpha release:
+
+- A new UI
+- Corrected vector normalizing
+- JSON and TXT exporting
+
+The primary features that are being worked on:
+
+- A crate version
+- Output file structure
+- Batch processing
+
+For any feature requests, reach out to the developer on [Discord][spv-discord]
+or [GitHub][spv].
+
+[SPV]: https://github.com/AlbinSjoegren/SPV
+[spv-discord]: https://discordapp.com/users/258254056185659392
+[Albin Sjögren]: https://github.com/AlbinSjoegren
+
 ## Library Updates
 
 ### [wgpu]-0.11 release
