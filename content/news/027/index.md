@@ -178,6 +178,38 @@ the developer welcomes you to come and discuss next steps on the game's
 [graph-game-github]: https://github.com/Vrixyz/graph_nav
 [graph-game-discord]: https://discord.gg/ZeRkj8pD4n
 
+### [Way of Rhea][wor]
+
+![way of rhea capsule image](wor-capsule.jpg)
+
+[Way of Rhea][wor] is a puzzle adventure with hard puzzles and forgiving
+mechanics. It is being produced by [@masonremaley][wor-mason-remaley].
+
+Latest developments:
+
+- Way of Rhea now has a [free demo available on Steam][wor]
+- Way of Rhea was shown at [PAX West][wor-pax-west] this year (as were a couple
+ other Rust games!), and will also be showcased at [MAGWest][wor-magwest]
+- A new trailer showing off new level art [was published][wor-trailer]
+- Additional animation work, [visuals][wor-wildlife], and puzzles have been
+added to the game
+- Improvements were made to the undo system, the tutorial level, and the
+dialogue system in response to user feedback
+- Some Proton compatibility problems were fixed, some visual glitches were
+fixed, and support was added for adaptvie vsync
+
+You can stay up to date on the latest developments of Way of Rhea by
+[following it on Steam][wor], or signing up for
+[the mailing list.][wor-newsletter]
+
+[wor]: https://store.steampowered.com/app/1110620/Way_of_Rhea/?utm_campaign=tmirgd&utm_source=n27
+[wor-mason-remaley]: https://twitter.com/masonremaley
+[wor-pax-west]: https://west.paxsite.com/
+[wor-magwest]: https://www.magwest.org/
+[wor-trailer]: https://www.youtube.com/watch?v=46ELQYaH0uw
+[wor-wildlife]: https://twitter.com/AnthropicSt/status/1448056148138119169
+[wor-newsletter]: https://www.anthropicstudios.com/newsletter/signup
+
 ## Engine Updates
 
 ### [All is Cubes][All is Cubes] 0.3.0
@@ -285,6 +317,44 @@ after Bevy 0.6 shows up. Here is a link to the [repo for more
 information][bevy-pen-tool].
 
 [bevy-pen-tool]: https://github.com/eliotbo/bevy_pen_tool
+
+### [godot-rust](https://github.com/godot-rust/godot-rust)
+
+![godot-rust logo](godot-rust.png)
+
+godot-rust ([GitHub][gd-github], [Discord][gd-discord], [Twitter][gd-twitter])
+is a Rust library that provides bindings for the Godot game engine.
+
+Recent developments have added [foundational support to async][gd-async]
+that enables users to make use of the Rust async runtimes with the Godot Engine
+(thanks to chitoyuu for the PR).
+
+In addition to the foundational support, lyonbeckers was kind enough to
+include a [new recipe in the User Guide][gd-async-recipe] that covers
+how to configure async with `tokio`.
+
+The team also merged several smaller bug fixes in [#791][gd-791], [#795][gd-795],
+and [#800][gd-800] and is making steady progress towards version 0.10.0.
+
+Finally, the team has recently added a [third party project][gd-book-projects]
+section in the book to help promote games, applications, and libraries/tools
+that are working with godot-rust. If you have a project that you would like to
+be included, please feel free to reach out to the godot-rust team.
+
+[gd-async]: https://github.com/godot-rust/godot-rust/pull/804
+[gd-async-recipe]: https://github.com/godot-rust/book/pull/44
+
+[gd-800]: https://github.com/godot-rust/godot-rust/pull/800
+[gd-795]: https://github.com/godot-rust/godot-rust/pull/795
+[gd-791]: https://github.com/godot-rust/godot-rust/pull/791
+[gd-788]: https://github.com/godot-rust/godot-rust/pull/788
+
+[gd-book-projects]: https://godot-rust.github.io/book/projects.html
+
+[gd-docs]: https://godot-rust.github.io/docs
+[gd-github]: https://github.com/godot-rust/godot-rust
+[gd-discord]: https://discord.com/invite/FNudpBD
+[gd-twitter]: https://twitter.com/GodotRust
 
 ## Popular Workgroup Issues in Github
 
