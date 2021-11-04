@@ -114,6 +114,25 @@ The code source is freely [available on GitHub](https://github.com/djeedai/libra
 [@djeedai]: https://twitter.com/djeedai
 [Bevy Engine]: https://bevyengine.org/
 
+### [Chaos Theory] - gamified double pendulum simulator
+
+![Chaos Theory Gif](chaos-theory.gif)
+
+[Chaos Theory] is a tiny HTML5 game by [@necauqua] where you can draw and
+simulate pendulums with a few goals and restrictions per level.
+It was done for [Ludum Dare 49][Chaos Theory] with a help of a small custom
+engine with Rust being compiled to WASM and drawing shapes to an HTML5 canvas.
+
+You can play the game [online][chaos-theory-online], and the source code
+is available [here][chaos-theory-src] and
+[here][chaos-theory-engine-src].
+
+[Chaos Theory]: https://ldjam.com/events/ludum-dare/49/chaos-theory-1
+[@necauqua]: https://twitter.com/necauqua
+[chaos-theory-online]: https://ld49.necauqua.dev
+[chaos-theory-src]: https://github.com/necauqua/chaos-theory
+[chaos-theory-engine-src]: https://github.com/necauqua/ld-game-engine
+
 ### [Lonely Star]
 
 ![Lonely Star screenshot](lonely-star.png)
