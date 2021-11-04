@@ -311,6 +311,99 @@ so only the plugin is needed to get a Unity-like sky.
 
 [bevy_atmosphere]: https://github.com/JonahPlusPlus/bevy_atmosphere
 
+### [bevy_verlet]
+
+![bevy_verlet](bevy_verlet.gif)
+
+[bevy_verlet] is a lib for projects using [Bevy Engine][bv_bevy]
+providing a plugin to use [verlet integration][bv_wikipedia]
+physics. Very useful for cloth simulation and joints, and less expensive than
+complex physics engine, it is a nice addition to 2D or 3D projects. Making good
+use of the Entity-Component-System architecture of the bevy engine, any entity
+can become a `VerletPoint` and have physics applied to it.
+
+The crate also provides *sticks* which constrains the points in order to create
+strings or cloth. With its modularity, you may customize the physics precision
+(iterations), the gravity, and the physics time step to use.
+
+New features:
+
+- Query parallel batching and custom batching size
+- Global documentation
+- Fixed issues with timesteps
+- Improved examples
+
+You may contact the author on Twitter at [@ManevilleF][ManevilleF] or join the
+[discussion][bv_discussion].
+
+[bevy_verlet]: https://github.com/ManevilleF/bevy_verlet
+[bv_discussion]: https://twitter.com/ManevilleF/status/1437350669858611202?s=20
+[ManevilleF]: https://twitter.com/ManevilleF
+[bv_bevy]: https://bevyengine.org/
+[bv_wikipedia]: https://en.wikipedia.org/wiki/Verlet_integration
+
+### [Bevy Pen Tool][bevy-pen-tool]
+
+![bevy_pen_tool2](bevy_pen_tool2.gif)
+
+Bevy Pen Tool is a plugin that helps developers make 2D paths using
+Bezier curves. Its user interface provides functionality for:
+
+- spawning Bezier curves,
+- moving end points and control points of Bezier curves,
+- linking individual Bezier curves to each other,
+- grouping curves,
+- saving and loading paths as look-up tables
+    (typically for animations and agent movement),
+- generating arbitrary 2D meshes that fill the interior of a path
+    using the Lyon crate,
+- generating a mesh that follows a path like a road,
+- saving meshes and roads in ".obj" format,
+
+A stable version of Bevy Pen Tool should come out as a crate shortly
+after Bevy 0.6 shows up. Here is a link to the [repo for more
+information][bevy-pen-tool].
+
+[bevy-pen-tool]: https://github.com/eliotbo/bevy_pen_tool
+
+### [godot-rust](https://github.com/godot-rust/godot-rust)
+
+![godot-rust logo](godot-rust.png)
+
+godot-rust ([GitHub][gd-github], [Discord][gd-discord], [Twitter][gd-twitter])
+is a Rust library that provides bindings for the Godot game engine.
+
+Recent developments have added [foundational support to async][gd-async]
+that enables users to make use of the Rust async runtimes with the Godot Engine
+(thanks to chitoyuu for the PR).
+
+In addition to the foundational support, lyonbeckers was kind enough to
+include a [new recipe in the User Guide][gd-async-recipe] that covers
+how to configure async with `tokio`.
+
+The team also merged several smaller bug fixes in [#791][gd-791], [#795][gd-795],
+and [#800][gd-800] and is making steady progress towards version 0.10.0.
+
+Finally, the team has recently added a [third party project][gd-book-projects]
+section in the book to help promote games, applications, and libraries/tools
+that are working with godot-rust. If you have a project that you would like to
+be included, please feel free to reach out to the godot-rust team.
+
+[gd-async]: https://github.com/godot-rust/godot-rust/pull/804
+[gd-async-recipe]: https://github.com/godot-rust/book/pull/44
+
+[gd-800]: https://github.com/godot-rust/godot-rust/pull/800
+[gd-795]: https://github.com/godot-rust/godot-rust/pull/795
+[gd-791]: https://github.com/godot-rust/godot-rust/pull/791
+[gd-788]: https://github.com/godot-rust/godot-rust/pull/788
+
+[gd-book-projects]: https://godot-rust.github.io/book/projects.html
+
+[gd-docs]: https://godot-rust.github.io/docs
+[gd-github]: https://github.com/godot-rust/godot-rust
+[gd-discord]: https://discord.com/invite/FNudpBD
+[gd-twitter]: https://twitter.com/GodotRust
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
