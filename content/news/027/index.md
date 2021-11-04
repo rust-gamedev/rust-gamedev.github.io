@@ -304,10 +304,10 @@ is a procedural sky plugin for Bevy.
 By adding the `AtmospherePlugin`, users get a skybox around the camera in their scene.
 Users can also set the appearance of the sky adding a `AtmosphereMat` resource.
 
-0.1.0 and 0.1.1 have been released on [crates.io](https://crates.io/crates/bevy_atmosphere)
+0.1.0 and 0.1.1 have been released on [crates.io](https://crates.io/crates/bevy_atmosphere).
 
 0.1.1 changes the default position of the sun to be in the sky,
-so only the plugin is needed to get a Unity-like sky
+so only the plugin is needed to get a Unity-like sky.
 
 [bevy_atmosphere]: https://github.com/JonahPlusPlus/bevy_atmosphere
 
