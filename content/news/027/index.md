@@ -117,7 +117,6 @@ The code source is freely [available on GitHub](https://github.com/djeedai/libra
 ### [Me And My Unicycle]
 
 ![Me And My Unicycle screenshot](me_and_my_unicycle_cover.png)
-
 _Can you handle this unstable ride?_
 
 [Me And My Unicycle] is a 2D physics game by [@nikl_me] submitted to Ludum
