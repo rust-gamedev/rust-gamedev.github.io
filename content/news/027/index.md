@@ -320,6 +320,21 @@ This makes `hecs_rapier` feature complete, with `bevy_rapier2d` feature parity.
 [hecs_rapier]: https://github.com/smokku/hecs_rapier
 [bevy_rapier2d]: https://github.com/dimforge/bevy_rapier
 
+### [bevy_kira_audio]
+
+[bevy_kira_audio] is a [Bevy] plugin that integrates the audio library [Kira]
+into [Bevy] applications.
+
+In the latest version `0.6.0`, you can load files with custom semantic
+durations and play looped audio with an intro. The plugin now also cleans up
+old sound instances. Following Bevy, [bevy_kira_audio] is now licensed under
+dual MIT + Apache 2.0, and the library will no longer crash on systems without
+an audio device.
+
+[bevy_kira_audio]: https://github.com/NiklasEi/bevy_kira_audio
+[Bevy]: https://github.com/bevyengine/bevy
+[Kira]: https://github.com/tesselode/kira
+
 ### [bevy_verlet]
 
 ![bevy_verlet](bevy_verlet.gif)
