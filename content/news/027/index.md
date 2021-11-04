@@ -241,6 +241,7 @@ be included, please feel free to reach out to the godot-rust team.
 [gd-github]: https://github.com/godot-rust/godot-rust
 [gd-discord]: https://discord.com/invite/FNudpBD
 [gd-twitter]: https://twitter.com/GodotRust
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
