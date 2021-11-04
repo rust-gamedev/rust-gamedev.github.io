@@ -316,7 +316,7 @@ New features:
 - Fixed issues with timesteps
 - Improved examples
 
-You may contact the author on Twitter [@ManevilleF][ManevilleF] or join the
+You may contact the author on Twitter at [@ManevilleF][ManevilleF] or join the
 [discussion][bv_discussion].
 
 [bevy_verlet]: https://github.com/ManevilleF/bevy_verlet
