@@ -298,11 +298,9 @@ This makes `hecs_rapier` feature complete, with `bevy_rapier2d` feature parity.
 
 ![bevy_verlet](bevy_verlet.gif)
 
-[![Crates.io](https://img.shields.io/crates/v/bevy_verlet.svg)](https://crates.io/crates/bevy_verlet)
-
 [bevy_verlet] is a lib for projects using [Bevy Engine][bv_bevy]
-providing a plugin to use [verlet Integration][bv_wikipedia]
-physics. Very useful for Cloth simulation and joints, and less expensive than
+providing a plugin to use [verlet integration][bv_wikipedia]
+physics. Very useful for cloth simulation and joints, and less expensive than
 complex physics engine, it is a nice addition to 2D or 3D projects. Making good
 use of the Entity-Component-System architecture of the bevy engine, any entity
 can become a `VerletPoint` and have physics applied to it.
