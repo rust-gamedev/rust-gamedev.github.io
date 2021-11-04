@@ -33,18 +33,10 @@ Feel free to send PRs about your own projects!
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
 - [Game Updates](#game-updates)
-  - [[LibraCity] - city planning on a needle!](#libracity---city-planning-on-a-needle)
-  - [[Lonely Star]](#lonely-star)
-  - [[Graph Game]](#graph-game)
-- [Engine Updates](#engine-updates)
-  - [All is Cubes 0.3.0](#all-is-cubes-030)
-  - [[Tetra] 0.6.6](#tetra-066)
 - [Learning Material Updates](#learning-material-updates)
+- [Engine Updates](#engine-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
-  - [[wgpu]-0.11 release](#wgpu-011-release)
-  - [[hecs_rapier] 0.11.0](#hecs_rapier-0110)
-  - [godot-rust](#godot-rust)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Meeting Minutes](#meeting-minutes)
 - [Discussions](#discussions)
@@ -230,11 +222,10 @@ how to configure async with `tokio`.
 The team also merged several smaller bug fixes in [#791][gd-791], [#795][gd-795],
 and [#800][gd-800] and is making steady progress towards version 0.10.0.
 
-Finally, the team has recently added [third party project][gd-book-projects]
+Finally, the team has recently added a [third party project][gd-book-projects]
 section in the book to help promote games, applications, and libraries/tools
 that are working with godot-rust. If you have a project that you would like to
-be included, please feel free to reach out to our team and we'd be happy
-to include it.
+be included, please feel free to reach out to the godot-rust team.
 
 [gd-async]: https://github.com/godot-rust/godot-rust/pull/804
 [gd-async-recipe]: https://github.com/godot-rust/book/pull/44
