@@ -133,6 +133,27 @@ sound effects!
 [@nikl_me]: https://twitter.com/nikl_me
 [mamu-source]: https://github.com/NiklasEi/me_and_my_unicycle
 
+### [Berry Run]
+
+![berry](berrycover.png)
+
+[Berry Run] is a community stream meme game by [@bombfuse_dev] built on top of
+[Emerald Engine]. It's centered around the Twitch streamer [@berrybebopboy] and
+was built in about 2 days.
+
+Help Berry run as far as they can without tripping and falling!
+
+> Dodge the babies (no kids, no babies), evade the grannies
+> (they're heading to the grand canyon),
+> and don't touch belf (belf is sacred).
+> Also a bunch of dunces left their logs and rocks lying around,
+> better not to touch those, it would be rude to touch someone's logs and rocks.
+
+[Berry Run]: https://bombfuse.itch.io/berry-run/
+[Emerald Engine]: https://github.com/Bombfuse/emerald
+[@bombfuse_dev]: https://twitter.com/bombfuse_dev
+[@berrybebopboy]: https://twitter.com/berrybebopboy
+
 ### [Lonely Star]
 
 ![Lonely Star screenshot](lonely-star.png)
