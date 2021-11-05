@@ -114,7 +114,7 @@ The code source is freely [available on GitHub](https://github.com/djeedai/libra
 [@djeedai]: https://twitter.com/djeedai
 [Bevy Engine]: https://bevyengine.org/
 
-### [Berry Run] - !!! PLAY IN YOUR BROSWER NOW !!!
+### [Berry Run]
 
 ![berry](berrycover.png)
 
