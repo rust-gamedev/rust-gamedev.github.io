@@ -447,6 +447,26 @@ be included, please feel free to reach out to the godot-rust team.
 [gd-discord]: https://discord.com/invite/FNudpBD
 [gd-twitter]: https://twitter.com/GodotRust
 
+### [Sparsey]
+
+[Sparsey] by [@LechintanTudor] is a sparse set-based Entity Component System
+(ECS) with component storage grouping, granular component change detection,
+fallible systems and beautiful syntax.
+
+The latest release (0.4) adds support for optional system parameters, which
+allows `Option<Res<T>>` and `Option<ResMut<T>>` to be used in system functions.
+
+This release also features a refactored `ComponentStorage` which makes adding,
+removing and swapping components faster, swapping being especially important
+since it enables component grouping, a features that makes certain queries
+specified by the user extremely fast.
+
+Finally, some implementation details were hidden from the public API and the
+`#[must_use]` attribute was added to functions whose results should not be 
+discarded.
+
+[Sparsey]: https://github.com/LechintanTudor/sparsey
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
