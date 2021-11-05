@@ -33,10 +33,27 @@ Feel free to send PRs about your own projects!
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
 - [Game Updates](#game-updates)
-- [Learning Material Updates](#learning-material-updates)
+  - [[The Process]](#the-process)
+  - [[LibraCity] - city planning on a needle!](#libracity---city-planning-on-a-needle)
+  - [[Me And My Unicycle]](#me-and-my-unicycle)
+  - [[Lonely Star]](#lonely-star)
+  - [[Soldank]](#soldank)
+  - [[Graph Game]](#graph-game)
+  - [Way of Rhea](#way-of-rhea)
+  - [Crunda](#crunda)
 - [Engine Updates](#engine-updates)
+  - [All is Cubes 0.3.0](#all-is-cubes-030)
+  - [[Tetra] 0.6.6](#tetra-066)
+- [Learning Material Updates](#learning-material-updates)
 - [Tooling Updates](#tooling-updates)
+  - [[SPV]](#spv)
 - [Library Updates](#library-updates)
+  - [[wgpu]-0.11 release](#wgpu-011-release)
+  - [[hecs_rapier] 0.11.0](#hecs_rapier-0110)
+  - [[bevy_kira_audio]](#bevy_kira_audio)
+  - [[bevy_verlet]](#bevy_verlet)
+  - [Bevy Pen Tool](#bevy-pen-tool)
+  - [godot-rust](#godot-rust)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Meeting Minutes](#meeting-minutes)
 - [Discussions](#discussions)
@@ -228,6 +245,20 @@ You can stay up to date on the latest developments of Way of Rhea by
 [wor-trailer]: https://www.youtube.com/watch?v=46ELQYaH0uw
 [wor-wildlife]: https://twitter.com/AnthropicSt/status/1448056148138119169
 [wor-newsletter]: https://www.anthropicstudios.com/newsletter/signup
+
+### [Crunda][crunda page]
+
+![image/crunda gameplay](crunda.gif)
+
+[Crunda][crunda page] is a game created in 48 hours for Ludum Dare 49.
+
+Its unique wobbly planets are controlled by a rust library.   
+
+Crunda was created by [Dan Slocombe], came third, and was rated the most fun competition game! The [sources can be found here][crunda source].
+
+[crunda page]: https://ldjam.com/events/ludum-dare/49/crunda
+[crunda source]: https://github.com/danslocombe/crunda_ludum_dare_49
+[Dan Slocombe]: https://twitter.com/SLCMB/
 
 ## Engine Updates
 
