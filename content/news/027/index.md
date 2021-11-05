@@ -84,6 +84,7 @@ future.
 
 Early Access release on Steam is expected in mid 2022.
 You can follow the project on:
+
 - [Facebook](https://www.facebook.com/HydrofoilGenerationSailing)
 - [Discord](https://discord.gg/DtKgt2duAy)
 
