@@ -114,6 +114,65 @@ The code source is freely [available on GitHub](https://github.com/djeedai/libra
 [@djeedai]: https://twitter.com/djeedai
 [Bevy Engine]: https://bevyengine.org/
 
+### [Chaos Theory] - gamified double pendulum simulator
+
+![Chaos Theory Gif](chaos-theory.gif)
+
+[Chaos Theory] is a tiny HTML5 game by [@necauqua] where you can draw and
+simulate pendulums with a few goals and restrictions per level.
+It was done for [Ludum Dare 49][Chaos Theory] with a help of a small custom
+engine with Rust being compiled to WASM and drawing shapes to an HTML5 canvas.
+
+You can play the game [online][chaos-theory-online], and the source code
+is available [here][chaos-theory-src] and
+[here][chaos-theory-engine-src].
+
+[Chaos Theory]: https://ldjam.com/events/ludum-dare/49/chaos-theory-1
+[@necauqua]: https://twitter.com/necauqua
+[chaos-theory-online]: https://ld49.necauqua.dev
+[chaos-theory-src]: https://github.com/necauqua/chaos-theory
+[chaos-theory-engine-src]: https://github.com/necauqua/ld-game-engine
+
+### [Me And My Unicycle]
+
+![Me And My Unicycle screenshot](me_and_my_unicycle_cover.png)
+_Can you handle this unstable ride?_
+
+[Me And My Unicycle] is a 2D physics game by [@nikl_me] submitted to Ludum
+Dare 49. It is build with [Bevy] and [the code can be found on GitHub][mamu-source].
+
+Following the LD49 theme "unstable", the game is about riding a unicycle
+with challenging controls. Try making it through each level without falling.
+
+All assets are self-made. The developer had a lot of fun recording audio and
+sound effects!
+
+[Me And My Unicycle]: https://niklme.itch.io/me-and-my-unicycle
+[Bevy]: https://github.com/bevyengine/bevy
+[@nikl_me]: https://twitter.com/nikl_me
+[mamu-source]: https://github.com/NiklasEi/me_and_my_unicycle
+
+### [Berry Run]
+
+![berry](berrycover.png)
+
+[Berry Run] is a community stream meme game by [@bombfuse_dev] built on top of
+[Emerald Engine]. It's centered around the Twitch streamer [@berrybebopboy] and
+was built in about 2 days.
+
+Help Berry run as far as they can without tripping and falling!
+
+> Dodge the babies (no kids, no babies), evade the grannies
+> (they're heading to the grand canyon),
+> and don't touch belf (belf is sacred).
+> Also a bunch of dunces left their logs and rocks lying around,
+> better not to touch those, it would be rude to touch someone's logs and rocks.
+
+[Berry Run]: https://bombfuse.itch.io/berry-run/
+[Emerald Engine]: https://github.com/Bombfuse/emerald
+[@bombfuse_dev]: https://twitter.com/bombfuse_dev
+[@berrybebopboy]: https://twitter.com/berrybebopboy
+
 ### [Lonely Star]
 
 ![Lonely Star screenshot](lonely-star.png)
@@ -262,6 +321,32 @@ For more details, see the [changelog][tetra-changelog].
 
 ## Tooling Updates
 
+### [SPV]
+
+![SPV-0.1.0 screenshot](spv-0.1.0.png)
+
+[SPV] by [Albin Sjögren]
+is a calculator utility for working with astronomical position and velocity data.
+
+What was added for the first alpha release:
+
+- A new UI
+- Corrected vector normalizing
+- JSON and TXT exporting
+
+The primary features that are being worked on:
+
+- A crate version
+- Output file structure
+- Batch processing
+
+For any feature requests, reach out to the developer on [Discord][spv-discord]
+or [GitHub][spv].
+
+[SPV]: https://github.com/AlbinSjoegren/SPV
+[spv-discord]: https://discordapp.com/users/258254056185659392
+[Albin Sjögren]: https://github.com/AlbinSjoegren
+
 ## Library Updates
 
 ### [wgpu]-0.11 release
@@ -310,6 +395,21 @@ Users can also set the appearance of the sky adding a `AtmosphereMat` resource.
 so only the plugin is needed to get a Unity-like sky.
 
 [bevy_atmosphere]: https://github.com/JonahPlusPlus/bevy_atmosphere
+
+### [bevy_kira_audio]
+
+[bevy_kira_audio] is a [Bevy] plugin that integrates the audio library [Kira]
+into [Bevy] applications.
+
+In the latest version `0.6.0`, you can load files with custom semantic
+durations and play looped audio with an intro. The plugin now also cleans up
+old sound instances. Following Bevy, [bevy_kira_audio] is now licensed under
+dual MIT + Apache 2.0, and the library will no longer crash on systems without
+an audio device.
+
+[bevy_kira_audio]: https://github.com/NiklasEi/bevy_kira_audio
+[Bevy]: https://github.com/bevyengine/bevy
+[Kira]: https://github.com/tesselode/kira
 
 ### [bevy_verlet]
 
