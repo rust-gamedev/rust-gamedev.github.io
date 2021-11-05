@@ -114,6 +114,25 @@ The code source is freely [available on GitHub](https://github.com/djeedai/libra
 [@djeedai]: https://twitter.com/djeedai
 [Bevy Engine]: https://bevyengine.org/
 
+### [Me And My Unicycle]
+
+![Me And My Unicycle screenshot](me_and_my_unicycle_cover.png)
+_Can you handle this unstable ride?_
+
+[Me And My Unicycle] is a 2D physics game by [@nikl_me] submitted to Ludum
+Dare 49. It is build with [Bevy] and [the code can be found on GitHub][mamu-source].
+
+Following the LD49 theme "unstable", the game is about riding a unicycle
+with challenging controls. Try making it through each level without falling.
+
+All assets are self-made. The developer had a lot of fun recording audio and
+sound effects!
+
+[Me And My Unicycle]: https://niklme.itch.io/me-and-my-unicycle
+[Bevy]: https://github.com/bevyengine/bevy
+[@nikl_me]: https://twitter.com/nikl_me
+[mamu-source]: https://github.com/NiklasEi/me_and_my_unicycle
+
 ### [Berry Run]
 
 ![berry](berrycover.png)
@@ -134,25 +153,6 @@ Help Berry run as far as they can without tripping and falling!
 [Emerald Engine]: https://github.com/Bombfuse/emerald
 [@bombfuse_dev]: https://twitter.com/bombfuse_dev
 [@berrybebopboy]: https://twitter.com/berrybebopboy
-
-### [Me And My Unicycle]
-
-![Me And My Unicycle screenshot](me_and_my_unicycle_cover.png)
-_Can you handle this unstable ride?_
-
-[Me And My Unicycle] is a 2D physics game by [@nikl_me] submitted to Ludum
-Dare 49. It is build with [Bevy] and [the code can be found on GitHub][mamu-source].
-
-Following the LD49 theme "unstable", the game is about riding a unicycle
-with challenging controls. Try making it through each level without falling.
-
-All assets are self-made. The developer had a lot of fun recording audio and
-sound effects!
-
-[Me And My Unicycle]: https://niklme.itch.io/me-and-my-unicycle
-[Bevy]: https://github.com/bevyengine/bevy
-[@nikl_me]: https://twitter.com/nikl_me
-[mamu-source]: https://github.com/NiklasEi/me_and_my_unicycle
 
 ### [Lonely Star]
 
