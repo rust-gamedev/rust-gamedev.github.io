@@ -229,6 +229,25 @@ You can stay up to date on the latest developments of Way of Rhea by
 [wor-wildlife]: https://twitter.com/AnthropicSt/status/1448056148138119169
 [wor-newsletter]: https://www.anthropicstudios.com/newsletter/signup
 
+### [PaddlePunks][paddlepunks-itch]
+
+![Animated gameplay that looks like pong mixed with an anime fighting game](paddlepunks-gameplay.gif)
+_A round between a player and the AI set to Hard_
+
+PaddlePunks is a versus tennis game by [Felix Windström][paddlepunks-twitter]
+with a diverse cast of characters and playstyles and online play with rollback
+netcode. The game takes cues from both fighting games and arcade classics, and
+besides netplay supports local play against another human or several levels of
+AI.
+
+You can download and play the game now on [itch.io][paddlepunks-itch], or
+join the [discord][paddlepunks-discord] to chat with the developer and other
+players. Updates are also posted to [Twitter][paddlepunks-twitter].
+
+[paddlepunks-twitter]: https://twitter.com/sov_gott_games
+[paddlepunks-itch]: https://sovgott.itch.io/paddlepunks
+[paddlepunks-discord]: https://discord.gg/cpPDeVcWxc
+
 ## Engine Updates
 
 ### [All is Cubes][All is Cubes] 0.3.0
