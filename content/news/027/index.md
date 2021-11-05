@@ -118,7 +118,8 @@ The code source is freely [available on GitHub](https://github.com/djeedai/libra
 
 ![berry](berrycover.png)
 
-[Berry Run] is a bad game by [@bombfuse_dev] built on top of [Emerald Engine], follow them on twitter, they're cool.
+[Berry Run] is a bad game by [@bombfuse_dev] built on top of
+[Emerald Engine], follow them on twitter, they're cool.
 
 "Dodge the babies (no kids, no babies), evade the grannies
 (they're heading to the grand canyon),
