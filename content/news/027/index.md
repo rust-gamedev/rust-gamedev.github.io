@@ -114,6 +114,22 @@ The code source is freely [available on GitHub](https://github.com/djeedai/libra
 [@djeedai]: https://twitter.com/djeedai
 [Bevy Engine]: https://bevyengine.org/
 
+### [Berry Run] - !!! PLAY IN YOUR BROSWER NOW !!!
+
+![berry](berrycover.png)
+
+[Berry Run] is a bad game by [@bombfuse_dev] built on top of [Emerald Engine], follow them on twitter, they're cool.
+
+"Dodge the babies (no kids, no babies), evade the grannies
+(they're heading to the grand canyon),
+and don't touch belf (belf is sacred).
+Also a bunch of dunces left their logs and rocks lying around,
+better not to touch those, it would be rude to touch someone's logs and rocks."
+
+[Berry Run]: https://bombfuse.itch.io/berry-run/
+[Emerald Engine]: https://github.com/Bombfuse/emerald
+[@bombfuse_dev]: https://twitter.com/bombfuse_dev
+
 ### [Lonely Star]
 
 ![Lonely Star screenshot](lonely-star.png)
