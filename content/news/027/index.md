@@ -114,6 +114,25 @@ The code source is freely [available on GitHub](https://github.com/djeedai/libra
 [@djeedai]: https://twitter.com/djeedai
 [Bevy Engine]: https://bevyengine.org/
 
+### [Chaos Theory] - gamified double pendulum simulator
+
+![Chaos Theory Gif](chaos-theory.gif)
+
+[Chaos Theory] is a tiny HTML5 game by [@necauqua] where you can draw and
+simulate pendulums with a few goals and restrictions per level.
+It was done for [Ludum Dare 49][Chaos Theory] with a help of a small custom
+engine with Rust being compiled to WASM and drawing shapes to an HTML5 canvas.
+
+You can play the game [online][chaos-theory-online], and the source code
+is available [here][chaos-theory-src] and
+[here][chaos-theory-engine-src].
+
+[Chaos Theory]: https://ldjam.com/events/ludum-dare/49/chaos-theory-1
+[@necauqua]: https://twitter.com/necauqua
+[chaos-theory-online]: https://ld49.necauqua.dev
+[chaos-theory-src]: https://github.com/necauqua/chaos-theory
+[chaos-theory-engine-src]: https://github.com/necauqua/ld-game-engine
+
 ### [Me And My Unicycle]
 
 ![Me And My Unicycle screenshot](me_and_my_unicycle_cover.png)
@@ -147,6 +166,27 @@ most fun competition game! The [sources can be found here][crunda source].
 [crunda page]: https://ldjam.com/events/ludum-dare/49/crunda
 [crunda source]: https://github.com/danslocombe/crunda_ludum_dare_49
 [Dan Slocombe]: https://twitter.com/SLCMB/
+
+### [Berry Run]
+
+![berry](berrycover.png)
+
+[Berry Run] is a community stream meme game by [@bombfuse_dev] built on top of
+[Emerald Engine]. It's centered around the Twitch streamer [@berrybebopboy] and
+was built in about 2 days.
+
+Help Berry run as far as they can without tripping and falling!
+
+> Dodge the babies (no kids, no babies), evade the grannies
+> (they're heading to the grand canyon),
+> and don't touch belf (belf is sacred).
+> Also a bunch of dunces left their logs and rocks lying around,
+> better not to touch those, it would be rude to touch someone's logs and rocks.
+
+[Berry Run]: https://bombfuse.itch.io/berry-run/
+[Emerald Engine]: https://github.com/Bombfuse/emerald
+[@bombfuse_dev]: https://twitter.com/bombfuse_dev
+[@berrybebopboy]: https://twitter.com/berrybebopboy
 
 ### [Lonely Star]
 
@@ -353,6 +393,23 @@ This makes `hecs_rapier` feature complete, with `bevy_rapier2d` feature parity.
 
 [hecs_rapier]: https://github.com/smokku/hecs_rapier
 [bevy_rapier2d]: https://github.com/dimforge/bevy_rapier
+
+### [bevy_atmosphere] 0.1.1
+
+![dawn in bevy_atmosphere](bevy_atmosphere.png)
+
+[bevy_atmosphere] ([GitHub][bevy_atmosphere]) by @JonahPlusPlus
+is a procedural sky plugin for Bevy.
+
+By adding the `AtmospherePlugin`, users get a skybox around the camera in their scene.
+Users can also set the appearance of the sky adding a `AtmosphereMat` resource.
+
+0.1.0 and 0.1.1 have been released on [crates.io](https://crates.io/crates/bevy_atmosphere).
+
+0.1.1 changes the default position of the sun to be in the sky,
+so only the plugin is needed to get a Unity-like sky.
+
+[bevy_atmosphere]: https://github.com/JonahPlusPlus/bevy_atmosphere
 
 ### [bevy_kira_audio]
 
