@@ -303,6 +303,40 @@ players. Updates are also posted to [Twitter][paddlepunks-twitter].
 [paddlepunks-itch]: https://sovgott.itch.io/paddlepunks
 [paddlepunks-discord]: https://discord.gg/cpPDeVcWxc
 
+### [Veloren][veloren]
+
+![An early-morning sunrise](veloren.jpg) _An early-morning sunrise_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In October, Veloren hit 10,000 commits, as well as 10,000 members on the Discord
+server! Shrubs got added, along with improvements to rivers, and the
+addition of waterfalls. There have been efforts to diagnose some network issues
+that have been causing downloads to not work for some people. Crafting is going
+through overhauls on the backend. [New aurora shaders][veloren-aurora-video]
+were added as well.
+
+Initial ideas are being discussed to try and improve the
+amount of asset files that have to be downloaded with each update of the game,
+which will help improve the 200MB that has to be downloaded after each nightly
+update. New jewelery has been added, and sneaking is being improved to make
+agents in the game react better to it. Ongoing worldgen improvemnts are also
+being made as we head into November.
+
+October's full weekly devlogs: "This Week In Veloren...":
+[#140][veloren-140],
+[#141][veloren-141],
+[#142][veloren-142],
+[#143][veloren-143].
+
+[veloren]: https://veloren.net
+[veloren-140]: https://veloren.net/devblog-140
+[veloren-141]: https://veloren.net/devblog-141
+[veloren-142]: https://veloren.net/devblog-142
+[veloren-143]: https://veloren.net/devblog-143
+[veloren-aurora-video]: https://www.youtube.com/watch?v=60kt915avjI
+
 ## Engine Updates
 
 ### [All is Cubes][All is Cubes] 0.3.0
