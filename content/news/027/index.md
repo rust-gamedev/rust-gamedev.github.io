@@ -152,6 +152,21 @@ sound effects!
 [@nikl_me]: https://twitter.com/nikl_me
 [mamu-source]: https://github.com/NiklasEi/me_and_my_unicycle
 
+### [Crunda][crunda page]
+
+![image/crunda gameplay](crunda.gif)
+
+[Crunda][crunda page] is a game created in 48 hours for Ludum Dare 49.
+
+Its unique wobbly planets are controlled by a Rust library.
+
+Crunda was created by [Dan Slocombe], came third, and was rated the
+most fun competition game! The [sources can be found here][crunda source].
+
+[crunda page]: https://ldjam.com/events/ludum-dare/49/crunda
+[crunda source]: https://github.com/danslocombe/crunda_ludum_dare_49
+[Dan Slocombe]: https://twitter.com/SLCMB/
+
 ### [Berry Run]
 
 ![berry](berrycover.png)
