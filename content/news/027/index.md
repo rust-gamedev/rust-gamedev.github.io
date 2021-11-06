@@ -241,7 +241,7 @@ besides netplay supports local play against another human or several levels of
 AI.
 
 You can download and play the game now on [itch.io][paddlepunks-itch], or
-join the [discord][paddlepunks-discord] to chat with the developer and other
+join the [Discord][paddlepunks-discord] to chat with the developer and other
 players. Updates are also posted to [Twitter][paddlepunks-twitter].
 
 [paddlepunks-twitter]: https://twitter.com/sov_gott_games
