@@ -462,10 +462,11 @@ since it enables component grouping, a features that makes certain queries
 specified by the user extremely fast.
 
 Finally, some implementation details were hidden from the public API and the
-`#[must_use]` attribute was added to functions whose results should not be 
+`#[must_use]` attribute was added to functions whose results should not be
 discarded.
 
 [Sparsey]: https://github.com/LechintanTudor/sparsey
+[@LechintanTudor]: https://github.com/LechintanTudor
 
 ## Popular Workgroup Issues in Github
 
