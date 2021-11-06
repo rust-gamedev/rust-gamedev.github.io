@@ -158,7 +158,7 @@ sound effects!
 
 [Crunda][crunda page] is a game created in 48 hours for Ludum Dare 49.
 
-Its unique wobbly planets are controlled by a Rust library.   
+Its unique wobbly planets are controlled by a Rust library.
 
 Crunda was created by [Dan Slocombe], came third, and was rated the
 most fun competition game! The [sources can be found here][crunda source].
