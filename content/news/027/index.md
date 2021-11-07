@@ -72,9 +72,10 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ![hgs_screen](hydrofoil1_1024.png)
 
-[Hydrofoil Generation Sailing] is a realistic sailing/foiling inshore simulator
-in development for PC/Steam that will put you in the driving seat of modern
-competitive sailing.
+[Hydrofoil Generation Sailing] ([Facebook](https://www.facebook.com/HydrofoilGenerationSailing),
+[Discord](https://discord.gg/DtKgt2duAy)) is a realistic sailing/foiling
+inshore simulator in development for PC/Steam that will put you in the
+driving seat of modern competitive sailing.
 
 The game is the brain child of industry veteran Stefano Casillo
 (of Assetto Corsa fame) and features a custom made 3D engine based on DirectX11
@@ -85,8 +86,6 @@ guarantee an easier port to platform such as Steam Deck or even mobile in the
 future.
 
 Early Access release on Steam is expected in mid 2022.
-You can follow the project on [Facebook](https://www.facebook.com/HydrofoilGenerationSailing)
-and [Discord](https://discord.gg/DtKgt2duAy).
 
 [Hydrofoil Generation Sailing]: https://www.facebook.com/HydrofoilGenerationSailing/
 
