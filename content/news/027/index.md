@@ -32,17 +32,15 @@ Feel free to send PRs about your own projects!
 [Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
+- [Rust GameDev Meetup](#rust-gamedev-meetup)
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Meeting Minutes](#meeting-minutes)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
-- [Jobs](#jobs)
-- [Bonus](#bonus)
 
 <!--
 Ideal section structure is:
@@ -344,7 +342,8 @@ players. Updates are also posted to [Twitter][paddlepunks-twitter].
 
 ### [Veloren][veloren]
 
-![An early-morning sunrise](veloren.jpg) _An early-morning sunrise_
+![An early-morning sunrise](veloren.jpg)
+_An early-morning sunrise_
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.
@@ -377,6 +376,20 @@ October's full weekly devlogs: "This Week In Veloren...":
 [veloren-aurora-video]: https://www.youtube.com/watch?v=60kt915avjI
 
 ## Engine Updates
+
+### [Amethyst - Starting Fresh][amethyst]
+
+![amethyst logo](/amethyst-logo.png)
+
+This month, the developers of the Amethyst game engine
+[announced that they would be winding down development][amethyst].
+
+The Amethyst Foundation, however, lives on! It will be shifting focus
+to support the wider Rust game development ecosystem, through
+engine-agnostic libraries, curated guides/lists, and more inititives yet
+to be announced.
+
+[amethyst]: https://amethyst.rs/posts/amethyst--starting-fresh
 
 ### [All is Cubes][All is Cubes] 0.3.0
 
@@ -425,6 +438,22 @@ For more details, see the [changelog][tetra-changelog].
 [tetra-ecs]: https://github.com/17cupsofcoffee/tetra/blob/main/examples/ecs.rs
 
 ## Learning Material Updates
+
+### [GameDev Mini Symposium][gms-talk]
+
+[![An early-morning sunrise](gms-talk.png)][gms-talk]
+_Click the image to watch the talk_
+
+Back in September, the University of Glasgow's GameLab held a 'GameDev Mini
+Symposium' online. One of the featured speakers was
+[Herbert Wolverson][the-bracket], writer of '[Hands-on Rust][hands-on-rust]',
+who gave a talk on using Rust for game development.
+
+This talk is now available to [view on Herbert's YouTube channel][gms-talk].
+
+[the-bracket]: https://twitter.com/herberticus
+[hands-on-rust]: https://pragprog.com/titles/hwrust/hands-on-rust/
+[gms-talk]: https://www.youtube.com/watch?v=OzUsPi4kHes
 
 ## Tooling Updates
 
@@ -661,36 +690,58 @@ be included, please feel free to reach out to the godot-rust team.
 [gd-discord]: https://discord.com/invite/FNudpBD
 [gd-twitter]: https://twitter.com/GodotRust
 
-## Popular Workgroup Issues in Github
-
-<!-- Up to 10 links to interesting issues -->
-
 ## Meeting Minutes
 
-<!-- Up to 10 most important notes + a link to the full details -->
+There is currently discussion ongoing around bringing back the
+Rust GameDev Working Group's regular meetings.
 
-[See all meeting issues][label_meeting] including full text notes
-or [join the next meeting][join].
-
-[label_meeting]: https://github.com/rust-gamedev/wg/issues?q=label%3Ameeting
+If you are interested in getting involved, please join the
+[discussion thread](https://github.com/rust-gamedev/wg/discussions/115)
+on the working group's issue tracker!
 
 ## Discussions
 
-<!-- Links to handpicked reddit/twitter/urlo/etc threads that provide
-useful information -->
+### [Async Game Server Design][async-game-server]
+
+On the Rust user forum, there was [a post][async-game-server]
+asking how to use async/await (more specifically, `tokio` and
+`tokio_tungstenite`) to develop a multiplayer game server.
+The responses contain some useful ideas and advice which
+may come in useful for other people's projects!
+
+[async-game-server]: https://users.rust-lang.org/t/tokio-tungstenite-async-game-server-design/65996
 
 ## Requests for Contribution
 
-<!-- Links to "good first issue"-labels or direct links to specific tasks -->
+- [Graphite is looking for contributors][graphite-contribute] to help reach
+  the 0.1 Alpha release.
+- [winit's "difficulty: easy" issues][winit-issues].
+- [Backroll-rs, a new networking library][backroll-rs].
+- [Embark's open issues][embark-open-issues] ([embark.rs]).
+- [wgpu's "help wanted" issues][wgpu-issues].
+- [luminance's "low hanging fruit" issues][luminance-fruits].
+- [ggez's "good first issue" issues][ggez-issues].
+- [Veloren's "beginner" issues][veloren-beginner].
+- [Amethyst's "good first issue" issues][amethyst-issues].
+- [A/B Street's "good first issue" issues][abstreet-issues].
+- [Mun's "good first issue" issues][mun-issues].
+- [SIMple Mechanic's good first issues][simm-issues].
+- [Bevy's "good first issue" issues][bevy-issues].
 
-## Jobs
-
-<!-- An optional section for new jobs related to Rust gamedev -->
-
-## Bonus
-
-<!-- Bonus section to make the newsletter more interesting
-and highlight events from the past. -->
+[graphite-contribute]: https://github.com/GraphiteEditor/Graphite/issues/202
+[winit-issues]: https://github.com/rust-windowing/winit/issues?q=is%3Aopen+is%3Aissue+label%3A%22difficulty%3A+easy%22
+[backroll-rs]: https://github.com/HouraiTeahouse/backroll-rs/issues
+[embark.rs]: https://embark.rs
+[embark-open-issues]: https://github.com/search?q=user:EmbarkStudios+state:open
+[wgpu-issues]: https://github.com/gfx-rs/wgpu/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
+[luminance-fruits]: https://github.com/phaazon/luminance-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22low+hanging+fruit%22
+[ggez-issues]: https://github.com/ggez/ggez/labels/%2AGOOD%20FIRST%20ISSUE%2A
+[veloren-beginner]: https://gitlab.com/veloren/veloren/issues?label_name=beginner
+[amethyst-issues]: https://github.com/amethyst/amethyst/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[abstreet-issues]: https://github.com/a-b-street/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
+[simm-issues]: https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue
+[bevy-issues]: https://github.com/bevyengine/bevy/labels/E-Good-First-Issue
 
 ------
 
