@@ -475,6 +475,35 @@ and the history of processing shaders with Rust.
 [Rust LA Meetup]: https://rustlang.la/
 [talk about Naga]: https://vimeo.com/632377558
 
+### [rend3]-0.2 Release
+
+![rend3-scifi](rend3-scifi.jpg)
+_Improved shadows and rendering with rend3 0.2_
+
+rend3 is a 3D rendering library that focuses on having an easy to use interface
+without sacrificing performance or customizability.
+
+As part of their monthly release schedule, the developers are excited to
+announce the release of rend3-0.2. The most prominent change is the ability
+to use fully customizable materials. Any combination of data and textures can
+now be used as a material for custom render routines. This unties the user
+from PBR-based materials.
+
+Along with the customizability that comes with this change, the CPU time
+required to render a complex scene is 7x less due to highly optimal data
+structures. For more information see [this talk][rend3-perf-talk] at the Rust
+graphics meetup.
+
+The [v0.2 version][rend3-crates] was published on crates.io
+([docs][rend3-docs] and [examples][rend3-examples]). The 0.3 release is
+just a week away and further improves customizability.
+
+[rend3]: https://github.com/BVE-Reborn/rend3
+[rend3-perf-talk]: https://www.youtube.com/watch?v=F0wGz5UJTrY
+[rend3-docs]: https://docs.rs/rend3
+[rend3-examples]: https://github.com/BVE-Reborn/rend3/tree/v0.2/examples
+[rend3-crates]: https://crates.io/crates/rend3
+
 ### [hecs_rapier] 0.11.0
 
 [hecs_rapier] is a physics engine for hecs ECS.
