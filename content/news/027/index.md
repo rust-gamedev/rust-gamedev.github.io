@@ -706,7 +706,7 @@ On the Rust user forum, there was [a post][async-game-server]
 asking how to use async/await (more specifically, `tokio` and
 `tokio_tungstenite`) to develop a multiplayer game server.
 The responses contain some useful ideas and advice which
-may come in useful for other people's projects!
+may be helpful for other people's projects!
 
 [async-game-server]: https://users.rust-lang.org/t/tokio-tungstenite-async-game-server-design/65996
 
