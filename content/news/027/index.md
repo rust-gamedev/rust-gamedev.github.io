@@ -1,8 +1,7 @@
 +++
 title = "This Month in Rust GameDev #27 - October 2021"
 transparent = true
-date = 2021-11-04
-draft = true
+date = 2021-11-07
 +++
 
 <!-- no toc -->
@@ -707,7 +706,7 @@ On the Rust user forum, there was [a post][async-game-server]
 asking how to use async/await (more specifically, `tokio` and
 `tokio_tungstenite`) to develop a multiplayer game server.
 The responses contain some useful ideas and advice which
-may come in useful for other people's projects!
+may be helpful for other people's projects!
 
 [async-game-server]: https://users.rust-lang.org/t/tokio-tungstenite-async-game-server-design/65996
 
