@@ -12,7 +12,7 @@ The site is built and deployed automatically from the repo (see .github/workflow
 
 To preview/experiment locally:
 
-1) [Install Zola][zola-get].
+1) [Install Zola 0.14.1][zola-get].
 2) Run `zola serve --drafts` and open the link.
 
 [zola-get]: https://getzola.org/documentation/getting-started/installation
