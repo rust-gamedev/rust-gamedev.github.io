@@ -531,7 +531,7 @@ It has a handful of features that make it stand out:
 Reddit user [vlmutolo] also made a [toy benchmark] comparing rkyv against serde
 and bincode and found that rkyv had promising initial numbers:
 
-```
+```txt
 serialize (bincode):    89 ns/iter
 serialize (rkyv):       86 ns/iter
 
