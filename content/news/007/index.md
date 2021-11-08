@@ -196,7 +196,7 @@ is a large part of what is needed for The Content Update.
 
 Here is the February changelog:
 
-```text
+```txt
 - Fixed NPCs attacking the player forever after killing them
 - Extend run sfx to small animals to prevent sneak attacks by geese
 - Added sfx for wielding/unwielding weapons
