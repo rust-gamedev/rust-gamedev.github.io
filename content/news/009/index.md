@@ -495,7 +495,7 @@ more alive.
 
 Here is the April changelog:
 
-```text
+```
 - Complete rewrite of the combat system into a state machine
 - Abilities like Dash and Triplestrike
 - Fireball explosions

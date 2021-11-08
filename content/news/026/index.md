@@ -818,7 +818,7 @@ showing step by step process of how one could build them on their own.
 
 ### [hexagonal_pathfinding_astar]
 
-```plain
+```
                                         _______
                                        /   E   \
                                _______/  (4,3)  \

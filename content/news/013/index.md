@@ -1016,7 +1016,7 @@ using `#` as a prefix.
 Here is an example of this feature is being tested in
 an experimental offline 3D renderer (not open sourced):
 
-```text
+```
 // Called by `set_simple(scene: _, sdf: _, id: _)`.
 dyon_fn!{fn set_simple__scene_sdf_id(
     scene: #&mut SimpleScene,

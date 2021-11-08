@@ -3,9 +3,11 @@ description = "Stay up to date with the progress and recent developments in the 
 base_url = "https://gamedev.rs/"
 default_language = "en"
 compile_sass = true
-highlight_code = true
 generate_feed = true
 feed_filename = "rss.xml"
+
+[markdown]
+highlight_code = true
 
 [extra]
 date_format = "%F"
