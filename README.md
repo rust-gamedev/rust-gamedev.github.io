@@ -8,14 +8,16 @@ To contribute to the newsletter, please see [CONTRIBUTING].
 
 ## Building from Source
 
-The site is built and deployed automatically from the repo (see .github/workflows/ci.yml).
+The site is built and deployed automatically from the repo (see
+[.github/workflows/ci.yml][ci]).
 
 To preview/experiment locally:
 
-1) [Install Zola 0.14.1][zola-get].
+1) [Install Zola][zola-get]. Make sure to use 0.14.1, to match [our CI config][ci]!
 2) Run `zola serve --drafts` and open the link.
 
 [zola-get]: https://getzola.org/documentation/getting-started/installation
+[ci]: https://github.com/rust-gamedev/rust-gamedev.github.io/blob/source/.github/workflows/ci.yml
 
 ## License
 
