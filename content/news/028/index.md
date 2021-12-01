@@ -324,6 +324,60 @@ e.g. `Option<Entity>` will not consume additional space.
 [hecs]: https://github.com/Ralith/hecs
 [hecs-changelog]: https://github.com/Ralith/hecs/blob/master/CHANGELOG.md#071
 
+### [godot-rust](https://github.com/godot-rust/godot-rust)
+
+![godot-rust logo](godot-rust.png)
+
+godot-rust ([GitHub][gd-github], [Discord][gd-discord], [Twitter][gd-twitter])
+is a Rust library that provides bindings for the Godot game engine.
+
+November has been a month of refactoring for godot-rust. The API was cleaned up
+across different locations, reducing confusion and making the library more accessible.
+
+The module simplification ([#811][gd-811]) continued initial efforts on the
+module structure, such as shorter paths and avoidance of redundant re-exports.
+The improvements are best expressed as a picture -- these are differences
+between version v0.9.3 and now:
+
+![module before/after](godot-rust-modules.png)
+
+In a similar vein, several core symbols were renamed for consistency
+([#815][gd-815]). Examples include:
+
+- `RefInstance` -> `TInstance`
+- `TypedArray` -> `PoolArray`
+- `ThreadAccess` -> `Ownership`
+- `RefKind` -> `Memory`
+
+Another refactoring affects the `Variant` conversion methods ([#819][gd-819]).
+Instead of `Variant::to_i64()` which may silently fail and return a default
+value (Godot behavior), the recommended method is now `Variant::to<T>()`. This
+enables genericity and is more idiomatic in Rust, returning an `Option` to
+indicate success or failure.
+
+As a binding to a C++ library, one topic godot-rust has to deal with is the use
+of `unsafe`, which sometimes boils down to a trade-off between safety and
+ease-of-use. Even though Rust provides basic guidelines, there are different
+philosophies on their execution, see [The CXX Debate][gd-cxx] for an example.
+To discuss how APIs interacting with Godot can as ergonomic as possible while
+preserving safety, [issue #808][gd-808] was opened.
+
+Smaller changes include safety bugfixes ([#795][gd-795]) or a
+`GodotString::format()` method ([#816][gd-816]).
+
+[gd-795]: https://github.com/godot-rust/godot-rust/pull/795
+[gd-808]: https://github.com/godot-rust/godot-rust/pull/808
+[gd-811]: https://github.com/godot-rust/godot-rust/pull/811
+[gd-815]: https://github.com/godot-rust/godot-rust/pull/815
+[gd-816]: https://github.com/godot-rust/godot-rust/pull/816
+[gd-819]: https://github.com/godot-rust/godot-rust/pull/819
+
+[gd-cxx]: https://steveklabnik.com/writing/the-cxx-debate
+
+[gd-github]: https://github.com/godot-rust/godot-rust
+[gd-discord]: https://discord.com/invite/FNudpBD
+[gd-twitter]: https://twitter.com/GodotRust
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
