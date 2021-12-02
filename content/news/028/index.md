@@ -68,7 +68,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Engine Updates
 
-### [Tetra] 0.6.6
+### [Tetra] 0.6.7
 
 [Tetra] is a simple 2D game framework, inspired by XNA, Love2D, and Raylib. This
 month, version 0.6.7 was released, featuring:
