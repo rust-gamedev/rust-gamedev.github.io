@@ -74,6 +74,21 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library Updates
 
+### [Pixels] 0.8.0 👾
+
+[Pixels] is a tiny hardware-accelerated pixel framebuffer. Its goals include
+pixel-perfect rendering and custom shader pipelines for textures with direct
+pixel access. It's perfect for making 2D animations, games, and emulators.
+
+Version 0.8.0 was released this month, bringing highly anticipated support for
+WASM targets, as well as support for Raspberry Pi 4. A [minimal example for web
+browsers][pixels-web] is included to get you started. Full details are available
+in the [release notes][pixels-changelog].
+
+[pixels]: https://github.com/parasyte/pixels
+[pixels-changelog]: https://github.com/parasyte/pixels/releases/tag/0.8.0
+[pixels-web]: https://github.com/parasyte/pixels/tree/0.8.0/examples/minimal-web
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
