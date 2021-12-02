@@ -69,7 +69,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ### Flesh
 
 ![flesh preview](flesh.gif)
-_melee_
+_The melee weapon in action_
 
 [Flesh] by [@im_oab] is a 2D-horizontal shmup game with hand-drawn animation and
 organic/fleshy theme. It is implemented using [Tetra]. This month's updates
