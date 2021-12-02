@@ -66,6 +66,20 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Fish Fight: The Prequel][]
+
+[![fishfight](fishfight.gif)][fishfight-steam]
+
+Fish Fight is a fast-paced 2D brawler game, played by 1-4 players online
+or on a shared screen, built with [macroquad] game engine.
+
+This month it got the trailer and the game is now available to
+wishlist on [steam][fishfight-steam]!
+
+[macroquad]: https://github.com/not-fl3/macroquad
+[fishfight-github]: https://github.com/FishFight/FishFightThePrequel
+[fishfight-steam]: https://store.steampowered.com/app/1771640/Fish_Fight_The_Prequel/
+
 ## Engine Updates
 
 ## Learning Material Updates
