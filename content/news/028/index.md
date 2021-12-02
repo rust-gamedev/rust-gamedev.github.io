@@ -66,6 +66,22 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### Flesh
+
+![flesh preview](flesh.gif)
+_melee_
+
+[Flesh] by [@im_oab] is a 2D-horizontal shmup game with hand-drawn animation and
+organic/fleshy theme. It is implemented using [Tetra]. This month's updates
+include:
+
+- Support different types of ships that players can choose.
+- Add a melee weapon.
+
+[Flesh]: https://store.steampowered.com/app/1660850/Flesh/
+[@im_oab]: https://twitter.com/im_oab
+[Tetra]: https://github.com/17cupsofcoffee/tetra
+
 ## Engine Updates
 
 ## Learning Material Updates
