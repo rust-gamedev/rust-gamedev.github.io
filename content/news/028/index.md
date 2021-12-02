@@ -70,6 +70,42 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Learning Material Updates
 
+### [The Raytracer Challenge][raytracer-challenge-github]
+
+![The Raytracer Challenge](the-raytracer-challenge.jpg)
+
+[The Raytracer Challenge][raytracer-challenge-github] is a project with the goal
+to write a raytracer from scratch in rust, while showing each step of the way
+[as a weekly live coding session][raytracer-challenge-playlist]. Everything is
+documented, starting with implementing [Vectors][raytracer-challenge-vector] and
+[Matrices][raytracer-challenge-matrix] all the way to creating [Phong
+Lighting][raytracer-challenge-phong].
+
+November has been a busy month for the project with a lot visual changes in the
+raytraced results:
+
+- A [camera][raytracer-challenge-camera] was added to allow arbitrary views on
+  the [World][raytracer-challenge-world].
+
+- [Basic animation support][raytracer-challenge-animation] came along allowing
+  the easy creation of video sequences.
+
+- More realistic and life like scenes due to [Shadow
+  Casting][raytracer-challenge-shadows].
+
+- As a new basic body type [Planes][raytracer-challenge-planes] came to life.
+
+[raytracer-challenge-github]: https://github.com/jakobwesthoff/the_ray_tracer_challenge_in_rust
+[raytracer-challenge-playlist]: https://www.youtube.com/playlist?list=PLy68GuC77sUTyOUvDhVboQoOlHoa4XrSO
+[raytracer-challenge-vector]: https://youtu.be/xGEDQXBMdV4
+[raytracer-challenge-matrix]: https://youtu.be/RYALPW0pJr4
+[raytracer-challenge-phong]: https://youtu.be/HSgS_NQob2I
+[raytracer-challenge-camera]: https://youtu.be/izzp4xZfcHI
+[raytracer-challenge-world]: https://youtu.be/1l54RUGigtk
+[raytracer-challenge-animation]: https://youtu.be/3LinpB7ns60
+[raytracer-challenge-shadows]: https://youtu.be/agqAUa1qgGo
+[raytracer-challenge-planes]: https://youtu.be/4y1aRPiH9Ko
+
 ## Tooling Updates
 
 ## Library Updates
