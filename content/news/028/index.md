@@ -75,13 +75,13 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ![The Raytracer Challenge](the-raytracer-challenge.jpg)
 
 [The Raytracer Challenge][raytracer-challenge-github] is a project with the goal
-to write a raytracer from scratch in rust, while showing each step of the way
+to write a raytracer from scratch in Rust, while showing each step of the way
 [as a weekly live coding session][raytracer-challenge-playlist]. Everything is
 documented, starting with implementing [Vectors][raytracer-challenge-vector] and
 [Matrices][raytracer-challenge-matrix] all the way to creating [Phong
 Lighting][raytracer-challenge-phong].
 
-November has been a busy month for the project with a lot visual changes in the
+November has been a busy month for the project with lots of visual changes in the
 raytraced results:
 
 - A [camera][raytracer-challenge-camera] was added to allow arbitrary views on
@@ -90,7 +90,7 @@ raytraced results:
 - [Basic animation support][raytracer-challenge-animation] came along allowing
   the easy creation of video sequences.
 
-- More realistic and life like scenes due to [Shadow
+- More realistic and life-like scenes due to [Shadow
   Casting][raytracer-challenge-shadows].
 
 - As a new basic body type [Planes][raytracer-challenge-planes] came to life.
