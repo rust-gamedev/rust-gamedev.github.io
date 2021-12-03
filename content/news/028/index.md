@@ -31,6 +31,17 @@ Feel free to send PRs about your own projects!
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
 - [Game Updates](#game-updates)
+
+### Country Slice
+
+![godot-rust logo](country_slice_gif.gif)
+
+[Country Slice](https://github.com/anopara/country-slice) is [@anastasiaopara](https://twitter.com/anastasiaopara/)'s hobby procedural diorama exploration.
+
+Country Slice uses [Bevy Engine](https://github.com/bevyengine/bevy) for entity management, and it has recently been ported to OpenGL (using [gl-rs](https://github.com/brendanzab/gl-rs/tree/master/gl) and [glutin](https://github.com/rust-windowing/glutin)). The project is being developed openly, with source code available on [github](https://github.com/anopara/country-slice). 
+
+You can follow the development of Country Slice on [Twitter](https://twitter.com/anastasiaopara/).
+
 - [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
 - [Tooling Updates](#tooling-updates)
