@@ -34,7 +34,7 @@ Feel free to send PRs about your own projects!
 
 ### Country Slice
 
-![godot-rust logo](country_slice_gif.gif)
+![country-slice-gif](country_slice_gif.gif)
 
 [Country Slice](https://github.com/anopara/country-slice) is [@anastasiaopara](https://twitter.com/anastasiaopara/)'s hobby procedural diorama exploration.
 
