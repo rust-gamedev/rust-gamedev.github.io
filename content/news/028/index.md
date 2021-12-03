@@ -36,9 +36,9 @@ Feel free to send PRs about your own projects!
 
 ![country-slice-gif](country_slice_gif.gif)
 
-[Country Slice](https://github.com/anopara/country-slice) is [@anastasiaopara](https://twitter.com/anastasiaopara/)'s hobby procedural diorama exploration.
+[Country Slice](https://github.com/anopara/country-slice) is [@anastasiaopara](https://twitter.com/anastasiaopara/)'s hobby project, where users can draw a small scene, and their input is amplified with real-time procedural geometry generation.
 
-Country Slice uses [Bevy Engine](https://github.com/bevyengine/bevy) for entity management, and it has recently been ported to OpenGL (using [gl-rs](https://github.com/brendanzab/gl-rs/tree/master/gl) and [glutin](https://github.com/rust-windowing/glutin)). The project is being developed openly, with source code available on [github](https://github.com/anopara/country-slice). 
+Country Slice uses [Bevy Engine](https://github.com/bevyengine/bevy) for entity management, and has recently [been ported to OpenGL](https://twitter.com/anastasiaopara/status/1464304076074672144?s=20) (using [gl-rs](https://github.com/brendanzab/gl-rs/tree/master/gl) and [glutin](https://github.com/rust-windowing/glutin)). It is being developed openly on [GitHub](https://github.com/anopara/country-slice). 
 
 You can follow the development of Country Slice on [Twitter](https://twitter.com/anastasiaopara/).
 
