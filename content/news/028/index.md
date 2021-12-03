@@ -66,6 +66,23 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [BENDYWORM]
+
+![An animation of a platformer where the entire world bends around you](bendyworm.gif)
+_Watch out! The entire world bends around you!_
+
+BENDYWORM ([GitHub][BENDYWORM-github], [Twitter](https://twitter.com/bauxitedev/status/1466034866122891266), by [@bauxitedev](https://twitter.com/bauxitedev)) is a platformer with a twist: the entire world bends and twists around you as your progress through the level. Why? Because you're inside of a gigantic worm, and worms are bendy.
+
+The game was made for GitHub Game Off 2021, and uses `godot-rust` behind the scenes.
+
+The game is available for free on [itch.io][BENDYWORM-itch.io], and the source code is available on [GitHub][BENDYWORM-github].  (Windows only for now, Linux build available soon)
+
+_Discussions: [/r/rust/](https://www.reddit.com/r/rust/comments/r742z1/bendyworm_a_platformer_where_the_entire_world/), [Twitter](https://twitter.com/bauxitedev/status/1466034866122891266)_
+
+[BENDYWORM]: https://bauxite.itch.io/bendyworm
+[BENDYWORM-itch.io]: https://bauxite.itch.io/bendyworm
+[BENDYWORM-github]: https://github.com/Bauxitedev/bendyworm
+
 ## Engine Updates
 
 ## Learning Material Updates
