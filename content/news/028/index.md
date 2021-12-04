@@ -239,6 +239,21 @@ raytraced results:
 
 ## Library Updates
 
+### [hecs]
+
+[hecs] is a fast, lightweight, and unopinionated archetypal ECS library.
+
+[Version 0.7](hecs-changelog) introduces several new features, including two new
+query combinators, a `CommandBuffer` for recording operations to be applied to a
+`World` at a future time, accessors for efficient random access within columns,
+and a variant of `EntityBuilder` that clones its components and can therefore be
+spawned from repeatedly. Other improvements include compatibility with 32-bit
+MIPS and PPC, and introduction of a niche to `Entity` so that
+e.g. `Option<Entity>` will not consume additional space.
+
+[hecs]: https://github.com/Ralith/hecs
+[hecs-changelog]: https://github.com/Ralith/hecs/blob/master/CHANGELOG.md#071
+
 ### [Pixels] 0.8.0 👾
 
 [Pixels] is a tiny hardware-accelerated pixel framebuffer. Its goals include
