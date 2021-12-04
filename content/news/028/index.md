@@ -135,6 +135,30 @@ They also worked on a [tutorial][bitgun-tutorial].
 [bitgun-missions]: https://twitter.com/LogLogGames/status/1464009563976392713?s=20
 [bitgun-tutorial]: https://twitter.com/LogLogGames/status/1461898845810348033?s=20
 
+### Country Slice
+
+![country-slice-gif](country_slice_gif.gif)
+
+[Country Slice][country-slice-github] is
+[@anastasiaopara][country-slice-twitter]'s hobby project, where users can draw a
+small scene, and their input is amplified with real-time procedural geometry
+generation.
+
+Country Slice uses [Bevy Engine][bevy-link] for entity management, and has
+recently [been ported to OpenGL][country-slice-twitter-opengl] (using
+[gl-rs][gl-rs-link] and [glutin][glutin-link]). It is being developed openly on
+[GitHub][country-slice-github].
+
+You can follow the development of Country Slice on
+[Twitter][country-slice-twitter].
+
+[country-slice-github]: https://github.com/anopara/country-slice
+[country-slice-twitter]: https://twitter.com/anastasiaopara/
+[country-slice-twitter-opengl]: https://twitter.com/anastasiaopara/status/1464304076074672144?s=20
+[bevy-link]: https://github.com/bevyengine/bevy
+[gl-rs-link]: https://github.com/brendanzab/gl-rs/tree/master/gl
+[glutin-link]: https://github.com/rust-windowing/glutin
+
 ## Engine Updates
 
 ### [Tetra] 0.6.7
