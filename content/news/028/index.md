@@ -36,11 +36,18 @@ Feel free to send PRs about your own projects!
 
 ![country-slice-gif](country_slice_gif.gif)
 
-[Country Slice](https://github.com/anopara/country-slice) is [@anastasiaopara](https://twitter.com/anastasiaopara/)'s hobby project, where users can draw a small scene, and their input is amplified with real-time procedural geometry generation.
+[Country Slice][country-slice-github] is [@anastasiaopara][country-slice-twitter]'s hobby project, where users can draw a small scene, and their input is amplified with real-time procedural geometry generation.
 
-Country Slice uses [Bevy Engine](https://github.com/bevyengine/bevy) for entity management, and has recently [been ported to OpenGL](https://twitter.com/anastasiaopara/status/1464304076074672144?s=20) (using [gl-rs](https://github.com/brendanzab/gl-rs/tree/master/gl) and [glutin](https://github.com/rust-windowing/glutin)). It is being developed openly on [GitHub](https://github.com/anopara/country-slice). 
+Country Slice uses [Bevy Engine][bevy-link] for entity management, and has recently [been ported to OpenGL][country-slice-twitter-opengl] (using [gl-rs][gl-rs-link] and [glutin][glutin-link]). It is being developed openly on [GitHub][country-slice-github]. 
 
-You can follow the development of Country Slice on [Twitter](https://twitter.com/anastasiaopara/).
+You can follow the development of Country Slice on [Twitter][country-slice-twitter].
+
+[country-slice-github]: https://github.com/anopara/country-slice
+[country-slice-twitter]: https://twitter.com/anastasiaopara/
+[country-slice-twitter-opengl]: https://twitter.com/anastasiaopara/status/1464304076074672144?s=20
+[bevy-link]: https://github.com/bevyengine/bevy
+[gl-rs-link]: https://github.com/brendanzab/gl-rs/tree/master/gl
+[glutin-link]: https://github.com/rust-windowing/glutin
 
 - [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
