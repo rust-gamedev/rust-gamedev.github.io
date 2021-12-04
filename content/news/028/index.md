@@ -146,7 +146,7 @@ Fortress and Cube World.
 In November, Veloren started a new initiative to help new developers learn more
 about the code base; the Veloren Reading Club. You can watch the
 [first][veloren-reading-club-1] and [second][veloren-reading-club-2] sessions
-now. Hats were merged, and  a major rewrite of the server-hosting section of the
+now. Hats were merged, and a major rewrite of the server-hosting section of the
 book happened. New textures were made for item drops. Some concept art was
 created for what massive cities could looks like. Dynamic weather was added, and
 you can [watch that in action][veloren-rain-storm].
