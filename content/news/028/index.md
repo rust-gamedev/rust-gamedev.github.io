@@ -144,19 +144,20 @@ _A merchant paused in their travels_
 Fortress and Cube World.
 
 In November, Veloren started a new initiative to help new developers learn more
-about the code base; the Veloren Reading Club. You can watch the
+about the codebase; the Veloren Reading Club. You can watch the
 [first][veloren-reading-club-1] and [second][veloren-reading-club-2] sessions
 now. Hats were merged, and a major rewrite of the server-hosting section of the
 book happened. New textures were made for item drops. Some concept art was
-created for what massive cities could looks like. Dynamic weather was added, and
+created for what massive cities could look like. Dynamic weather was added, and
 you can [watch that in action][veloren-rain-storm].
 
 Experience sharing went through a large overhaul to evenly distribute EXP gained
 across groups. The difficulty of dungeons was adjusted to be more balanced for
 new players. Persistence was added to skills, and measures were put in place to
-help with future migrations to new skill trees. Site2 works was done to help
-make structures more dynamic by adding more parameters that can be adjusted. In
-December, Veloren will release 0.12, hopefully with some holiday spirit!
+help with future migrations to new skill trees. Work was done on site2, the
+system that is used to generate structures in a procedural way. This will help
+make the variance more dynamic by adding more parameters that can be adjusted.
+In December, Veloren will release 0.12, hopefully with some holiday spirit!
 
 November's full weekly devlogs: "This Week In Veloren...":
 [#144][veloren-144],
