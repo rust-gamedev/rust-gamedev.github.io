@@ -82,6 +82,22 @@ include:
 [@im_oab]: https://twitter.com/im_oab
 [Tetra]: https://github.com/17cupsofcoffee/tetra
 
+### [One-Click Ninja]
+
+![Screenshot of One-Click Ninja](one-click-ninja.png)
+_Screenshot of One-Click Ninja_
+
+One-Click Ninja is a rhythm game made in 10 days for [1-Button Jam 2021],
+written in Rust using the [Bevy] engine.
+
+The source is available MIT licensed on [GitHub][One-Click Ninja], and
+you can [play in your browser on itch.io][One-Click Ninja itch.io].
+
+[One-Click Ninja]: https://github.com/fluffysquirrels/one-click-ninja
+[One-Click Ninja itch.io]: https://fluffysquirrels.itch.io/one-click-ninja
+[1-Button Jam 2021]: https://itch.io/jam/1-button-jam-2021
+[Bevy]: https://bevyengine.org
+
 ## Engine Updates
 
 ### [Tetra] 0.6.7
