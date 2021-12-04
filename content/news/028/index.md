@@ -98,6 +98,20 @@ you can [play in your browser on itch.io][One-Click Ninja itch.io].
 [1-Button Jam 2021]: https://itch.io/jam/1-button-jam-2021
 [Bevy]: https://bevyengine.org
 
+### [Fish Fight: The Prequel][fishfight-steam]
+
+[![fishfight](fishfight.gif)][fishfight-steam]
+
+Fish Fight is a fast-paced 2D brawler game, played by 1-4 players online
+or on a shared screen, built with [macroquad] game engine.
+
+This month it got a trailer, and the game is now available to
+wishlist on [Steam][fishfight-steam]!
+
+[macroquad]: https://github.com/not-fl3/macroquad
+[fishfight-github]: https://github.com/FishFight/FishFightThePrequel
+[fishfight-steam]: https://store.steampowered.com/app/1771640/Fish_Fight_The_Prequel/
+
 ## Engine Updates
 
 ### [Tetra] 0.6.7
