@@ -39,9 +39,9 @@ Feel free to send PRs about your own projects!
 [Country Slice][country-slice-github] is [@anastasiaopara][country-slice-twitter]'s hobby project,
 where users can draw a small scene, and their input is amplified with real-time procedural geometry generation.
 
-Country Slice uses [Bevy Engine][bevy-link] for entity management, and has recently 
-[been ported to OpenGL][country-slice-twitter-opengl] (using [gl-rs][gl-rs-link] and [glutin][glutin-link]). 
-It is being developed openly on [GitHub][country-slice-github]. 
+Country Slice uses [Bevy Engine][bevy-link] for entity management, and has recently
+[been ported to OpenGL][country-slice-twitter-opengl] (using [gl-rs][gl-rs-link] and [glutin][glutin-link]).
+It is being developed openly on [GitHub][country-slice-github].
 
 You can follow the development of Country Slice on [Twitter][country-slice-twitter].
 
