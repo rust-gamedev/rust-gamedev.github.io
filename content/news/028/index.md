@@ -300,8 +300,8 @@ in the [release notes][pixels-changelog].
 [Quinn] is an async-enabled implementation of the state-of-the-art IETF QUIC
 transport protocol, a robust foundation for real-time networking.
 
-[Quinn 0.8](quinn_release) introduces support for the final QUIC 1 specification
-defined in [RFC 9000](RFC9000). Other highlights include an improved CUBIC
+[Quinn 0.8][quinn_release] introduces support for the final QUIC 1 specification
+defined in [RFC 9000][RFC9000]. Other highlights include an improved CUBIC
 congestion controller, a more ergonomic configuration API, and numerous
 performance and robustness improvements.
 
