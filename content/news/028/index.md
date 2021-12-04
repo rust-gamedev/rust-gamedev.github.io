@@ -272,7 +272,7 @@ performance and robustness improvements.
 
 [hecs] is a fast, lightweight, and unopinionated archetypal ECS library.
 
-[Version 0.7](hecs-changelog) introduces several new features, including two new
+[Version 0.7][hecs-changelog] introduces several new features, including two new
 query combinators, a `CommandBuffer` for recording operations to be applied to a
 `World` at a future time, accessors for efficient random access within columns,
 and a variant of `EntityBuilder` that clones its components and can therefore be
