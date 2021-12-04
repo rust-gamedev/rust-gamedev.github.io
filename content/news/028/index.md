@@ -112,6 +112,29 @@ wishlist on [Steam][fishfight-steam]!
 [fishfight-github]: https://github.com/FishFight/FishFightThePrequel
 [fishfight-steam]: https://store.steampowered.com/app/1771640/Fish_Fight_The_Prequel/
 
+### [BITGUN][bitgun-steam]
+
+[![Gameplay screenshot with lots of zombies in a tunnel](bitgun-zombies.jpeg)][bitgun-steam]
+
+BITGUN ([Steam][bitgun-steam], [Twitter][bitgun-twitter],
+[Discord][bitgun-discord]) by [@LogLogGames][bitgun-twitter] is an action
+roguelike zombie shooter with lots of blood. The game is built using Godot
+and Rust (via [godot-rust][bitgun-godot-rust]).
+
+They recently implemented a mission system, where you can select one of
+[three types of missions][bitgun-missions] to go to from the central camp.
+One is to defend supplies from horde of zombies, second is to search
+a facility for some object or clear all the zombies and the last one
+is to fight your way through a tunnel full of spiders and other enemies!
+They also worked on a [tutorial][bitgun-tutorial].
+
+[bitgun-steam]: https://store.steampowered.com/app/1673940/BITGUN/
+[bitgun-twitter]: https://twitter.com/logloggames
+[bitgun-discord]: https://discord.gg/XrGZQkq
+[bitgun-godot-rust]: https://godot-rust.github.io/
+[bitgun-missions]: https://twitter.com/LogLogGames/status/1464009563976392713?s=20
+[bitgun-tutorial]: https://twitter.com/LogLogGames/status/1461898845810348033?s=20
+
 ## Engine Updates
 
 ### [Tetra] 0.6.7
