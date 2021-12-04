@@ -177,6 +177,47 @@ You can follow the development of Country Slice on
 [gl-rs-link]: https://github.com/brendanzab/gl-rs/tree/master/gl
 [glutin-link]: https://github.com/rust-windowing/glutin
 
+### [Veloren][veloren]
+
+![Travelling merchant](veloren.jpg)
+_A merchant paused in their travels_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In November, Veloren started a new initiative to help new developers learn more
+about the codebase; the Veloren Reading Club. You can watch the
+[first][veloren-reading-club-1] and [second][veloren-reading-club-2] sessions
+now. Hats were merged, and a major rewrite of the server-hosting section of the
+book happened. New textures were made for item drops. Some concept art was
+created for what massive cities could look like. Dynamic weather was added, and
+you can [watch that in action][veloren-rain-storm].
+
+Experience sharing went through a large overhaul to evenly distribute EXP gained
+across groups. The difficulty of dungeons was adjusted to be more balanced for
+new players. Persistence was added to skills, and measures were put in place to
+help with future migrations to new skill trees. Work was done on site2, the
+system that is used to generate structures in a procedural way. This will help
+make the variance more dynamic by adding more parameters that can be adjusted.
+In December, Veloren will release 0.12, hopefully with some holiday spirit!
+
+November's full weekly devlogs: "This Week In Veloren...":
+[#144][veloren-144],
+[#145][veloren-145],
+[#146][veloren-146],
+[#147][veloren-147],
+[#148][veloren-148].
+
+[veloren]: https://veloren.net
+[veloren-144]: https://veloren.net/devblog-144
+[veloren-145]: https://veloren.net/devblog-145
+[veloren-146]: https://veloren.net/devblog-146
+[veloren-147]: https://veloren.net/devblog-147
+[veloren-148]: https://veloren.net/devblog-148
+[veloren-reading-club-1]: https://www.youtube.com/watch?v=DpXwYEe_LWo
+[veloren-reading-club-2]: https://www.youtube.com/watch?v=n8XayRvVBEs
+[veloren-rain-storm]: https://www.youtube.com/watch?v=MZwfaohynvc
+
 ## Engine Updates
 
 ### [Tetra] 0.6.7
