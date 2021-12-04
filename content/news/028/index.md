@@ -326,20 +326,18 @@ e.g. `Option<Entity>` will not consume additional space.
 
 ### [godot-rust](https://github.com/godot-rust/godot-rust)
 
-![godot-rust logo](godot-rust.png)
+![module before/after](godot-rust-modules.png)
 
 godot-rust ([GitHub][gd-github], [Discord][gd-discord], [Twitter][gd-twitter])
 is a Rust library that provides bindings for the Godot game engine.
 
 November has been a month of refactoring for godot-rust. The API was cleaned up
-across different locations, reducing confusion and making the library more accessible.
-
-The module simplification ([#811][gd-811]) continued initial efforts on the
+across different locations, reducing confusion and making the library more
+accessible. The module simplification ([#811][gd-811]) continued initial efforts
+on the
 module structure, such as shorter paths and avoidance of redundant re-exports.
 The improvements are best expressed as a picture -- these are differences
 between version v0.9.3 and now:
-
-![module before/after](godot-rust-modules.png)
 
 In a similar vein, several core symbols were renamed for consistency
 ([#815][gd-815]). Examples include:
