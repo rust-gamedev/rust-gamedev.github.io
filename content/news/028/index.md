@@ -137,7 +137,7 @@ They also worked on a [tutorial][bitgun-tutorial].
 
 ### [Halloween Mahjong Solitaire][mahjong-github]
 
-![Halloween Mahjong Solitaire screenshot](https://user-images.githubusercontent.com/61752540/144722844-de0511a0-0f7b-4006-9d64-680b6406d984.png)
+![Halloween Mahjong Solitaire screenshot](mahjong-screenshot.png)
 _Screenshot of Halloween Mahjong Solitaire_
 
 Halloween Mahjong Solitaire ([GitHub][mahjong-github]) by [@Syn-Nine][synnine-twitter]
