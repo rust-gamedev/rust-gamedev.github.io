@@ -68,6 +68,24 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Engine Updates
 
+### [Tetra] 0.6.7
+
+[Tetra] is a simple 2D game framework, inspired by XNA, Love2D, and Raylib. This
+month, version 0.6.7 was released, featuring:
+
+- Updates to the gamepad backend, adding rumble support for a much wider variety
+  of controllers (including DualShock 4s)
+- Various bugfixes and docs improvements
+
+For more details, see the [changelog][tetra-changelog].
+
+Additionally, development has begun on version 0.7 - check out
+[the planned features and changes][tetra-07], and feel free to suggest more!
+
+[Tetra]: https://github.com/17cupsofcoffee/tetra
+[tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
+[tetra-07]: https://github.com/17cupsofcoffee/tetra/issues/297
+
 ## Learning Material Updates
 
 ## Tooling Updates
