@@ -254,6 +254,20 @@ in the [release notes][pixels-changelog].
 [pixels-changelog]: https://github.com/parasyte/pixels/releases/tag/0.8.0
 [pixels-web]: https://github.com/parasyte/pixels/tree/0.8.0/examples/minimal-web
 
+### [Quinn]
+
+[Quinn] is an async-enabled implementation of the state-of-the-art IETF QUIC
+transport protocol, a robust foundation for real-time networking.
+
+[Quinn 0.8](quinn_release) introduces support for the final QUIC 1 specification
+defined in [RFC 9000](RFC9000). Other highlights include an improved CUBIC
+congestion controller, a more ergonomic configuration API, and numerous
+performance and robustness improvements.
+
+[Quinn]: https://github.com/quinn-rs/quinn
+[RFC9000]: https://www.rfc-editor.org/rfc/rfc9000.html
+[quinn_release]: https://github.com/quinn-rs/quinn/releases/tag/0.8.0
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
