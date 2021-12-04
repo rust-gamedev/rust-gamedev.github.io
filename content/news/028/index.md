@@ -135,6 +135,26 @@ They also worked on a [tutorial][bitgun-tutorial].
 [bitgun-missions]: https://twitter.com/LogLogGames/status/1464009563976392713?s=20
 [bitgun-tutorial]: https://twitter.com/LogLogGames/status/1461898845810348033?s=20
 
+### [Halloween Mahjong Solitaire][mahjong-github]
+
+![Halloween Mahjong Solitaire screenshot](https://user-images.githubusercontent.com/61752540/144722844-de0511a0-0f7b-4006-9d64-680b6406d984.png)
+_Screenshot of Halloween Mahjong Solitaire_
+
+Halloween Mahjong Solitaire ([GitHub][mahjong-github]) by [@Syn-Nine][synnine-twitter]
+is a game created by Syn9 for [Game Developers Refuge 4x4x4 Challenge], October 2021.
+
+The challenge was to create a Halloween themed game based on four emojis. In
+this case the chosen emoji combination was: skull_and_crossbones, bat,
+game_die, and shinto_shrine (☠️ 🦇 🎲 ⛩️).
+
+The game is part of an open source repository of several mini-games that use
+Syn9's [Rust Mini Game Framework][mgfw].
+
+[mahjong-github]: https://github.com/Syn-Nine/rust-mini-games/tree/main/2d-games/mahjong
+[synnine-twitter]: https://twitter.com/Syn9Dev
+[Game Developers Refuge 4x4x4 Challenge]: http://noop.rocks/gdr/viewtopic.php?f=2&t=70
+[mgfw]: https://github.com/Syn-Nine/mgfw
+
 ## Engine Updates
 
 ### [Tetra] 0.6.7
