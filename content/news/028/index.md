@@ -64,6 +64,24 @@ _Discussions:
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
+## Rust GameDev Meetup
+
+![Gamedev meetup poster](gamedev-meetup.png)
+
+The eleventh Rust Gamedev Meetup happened in November. You can watch the recording
+of the meetup [here on Youtube][gamedev-meetup-video]. The meetups take place on
+the second Saturday every month via the [Rust Gamedev Discord
+server][rust-gamedev-discord] and are also [streamed on
+Twitch][rust-gamedev-twitch]. If you would like to show off what you've been
+working on at the next meetup on [December 11th][rust-meetup-dec-time], fill
+out [this form][gamedev-meetup-form].
+
+[gamedev-meetup-video]: https://youtu.be/nLyiLnC5mn4
+[rust-gamedev-discord]: https://discord.gg/yNtPTb2
+[rust-gamedev-twitch]: https://twitch.tv/rustgamedev
+[gamedev-meetup-form]: https://forms.gle/BS1zCyZaiUFSUHxe6
+[rust-meetup-dec-time]: https://everytimezone.com/s/bb9cdaec
+
 ## Game Updates
 
 ### Flesh
@@ -134,6 +152,30 @@ They also worked on a [tutorial][bitgun-tutorial].
 [bitgun-godot-rust]: https://godot-rust.github.io/
 [bitgun-missions]: https://twitter.com/LogLogGames/status/1464009563976392713?s=20
 [bitgun-tutorial]: https://twitter.com/LogLogGames/status/1461898845810348033?s=20
+
+### Country Slice
+
+![country-slice-gif](country_slice_gif.gif)
+
+[Country Slice][country-slice-github] is
+[@anastasiaopara][country-slice-twitter]'s hobby project, where users can draw a
+small scene, and their input is amplified with real-time procedural geometry
+generation.
+
+Country Slice uses [Bevy Engine][bevy-link] for entity management, and has
+recently [been ported to OpenGL][country-slice-twitter-opengl] (using
+[gl-rs][gl-rs-link] and [glutin][glutin-link]). It is being developed openly on
+[GitHub][country-slice-github].
+
+You can follow the development of Country Slice on
+[Twitter][country-slice-twitter].
+
+[country-slice-github]: https://github.com/anopara/country-slice
+[country-slice-twitter]: https://twitter.com/anastasiaopara/
+[country-slice-twitter-opengl]: https://twitter.com/anastasiaopara/status/1464304076074672144?s=20
+[bevy-link]: https://github.com/bevyengine/bevy
+[gl-rs-link]: https://github.com/brendanzab/gl-rs/tree/master/gl
+[glutin-link]: https://github.com/rust-windowing/glutin
 
 ### [Veloren][veloren]
 
@@ -252,6 +294,35 @@ in the [release notes][pixels-changelog].
 [pixels]: https://github.com/parasyte/pixels
 [pixels-changelog]: https://github.com/parasyte/pixels/releases/tag/0.8.0
 [pixels-web]: https://github.com/parasyte/pixels/tree/0.8.0/examples/minimal-web
+
+### [Quinn]
+
+[Quinn] is an async-enabled implementation of the state-of-the-art IETF QUIC
+transport protocol, a robust foundation for real-time networking.
+
+[Quinn 0.8](quinn_release) introduces support for the final QUIC 1 specification
+defined in [RFC 9000](RFC9000). Other highlights include an improved CUBIC
+congestion controller, a more ergonomic configuration API, and numerous
+performance and robustness improvements.
+
+[Quinn]: https://github.com/quinn-rs/quinn
+[RFC9000]: https://www.rfc-editor.org/rfc/rfc9000.html
+[quinn_release]: https://github.com/quinn-rs/quinn/releases/tag/0.8.0
+
+### [hecs]
+
+[hecs] is a fast, lightweight, and unopinionated archetypal ECS library.
+
+[Version 0.7][hecs-changelog] introduces several new features, including two new
+query combinators, a `CommandBuffer` for recording operations to be applied to a
+`World` at a future time, accessors for efficient random access within columns,
+and a variant of `EntityBuilder` that clones its components and can therefore be
+spawned from repeatedly. Other improvements include compatibility with 32-bit
+MIPS and PPC, and introduction of a niche to `Entity` so that
+e.g. `Option<Entity>` will not consume additional space.
+
+[hecs]: https://github.com/Ralith/hecs
+[hecs-changelog]: https://github.com/Ralith/hecs/blob/master/CHANGELOG.md#071
 
 ## Popular Workgroup Issues in Github
 
