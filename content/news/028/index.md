@@ -345,6 +345,24 @@ raytraced results:
 
 ## Tooling Updates
 
+### [SPV]
+
+![SPV-0.3.5 screenshot](spv-0.3.5.png)
+
+[SPV] by [Albin Sjögren]
+is a calculator utility for working with astronomical position and velocity data.
+
+In the last month, a relative position and velocity calculation system has been added. This is due to the inaccuracy of astronomic data. With this new method that relies on the orbital elements of two body systems getting data for multibody simulation is now possible.
+
+Apart from this new equation set, [SPV] now also has a more standard color scheme based on the one GitHub uses. This month also came with numerous bug fixes and a more concrete plan for future development.
+
+For any feature requests, reach out to the developer on [Discord][spv-discord]
+or [GitHub][spv].
+
+[SPV]: https://github.com/AlbinSjoegren/SPV
+[spv-discord]: https://discordapp.com/users/258254056185659392
+[Albin Sjögren]: https://github.com/AlbinSjoegren
+
 ## Library Updates
 
 ### [Pixels] 0.8.0 👾
