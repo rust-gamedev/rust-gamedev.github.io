@@ -324,6 +324,46 @@ e.g. `Option<Entity>` will not consume additional space.
 [hecs]: https://github.com/Ralith/hecs
 [hecs-changelog]: https://github.com/Ralith/hecs/blob/master/CHANGELOG.md#071
 
+### [godot-rust](https://github.com/godot-rust/godot-rust)
+
+![module before/after](godot-rust-modules.png)
+
+godot-rust ([GitHub][gd-github], [Discord][gd-discord], [Twitter][gd-twitter])
+is a Rust library that provides bindings for the Godot game engine.
+
+November has been a month of refactoring for godot-rust. The API was cleaned up
+across different locations, reducing confusion and making the library more
+accessible:
+
+- The module simplification ([#811][gd-811]) continued initial efforts on the
+  module structure, such as shorter paths and avoidance of redundant re-exports.
+  Some differences between v0.9.3 and now can be seen in the above picture.
+- Several core symbols were renamed for consistency ([#815][gd-815]):
+  `RefInstance` -> `TInstance` and `TypedArray` -> `PoolArray`, among others.
+- Another refactoring affects the `Variant` conversion methods ([#819][gd-819]).
+  Instead of `Variant::to_i64()` which may silently fail and return a default
+  value (Godot behavior), the recommended method is now `Variant::to<T>()`. This
+  enables genericity and is more idiomatic in Rust, returning an `Option` to
+  indicate success or failure.
+
+As a binding to a C++ library, one topic godot-rust has to deal with is the use
+of `unsafe`, which sometimes boils down to a trade-off between safety and
+ease-of-use. Even though Rust provides basic guidelines, there are different
+philosophies on their execution, see [The CXX Debate][gd-cxx] for an example.
+To discuss how APIs interacting with Godot can as ergonomic as possible while
+preserving safety, [issue #808][gd-808] was opened.
+
+[gd-808]: https://github.com/godot-rust/godot-rust/pull/808
+[gd-811]: https://github.com/godot-rust/godot-rust/pull/811
+[gd-815]: https://github.com/godot-rust/godot-rust/pull/815
+[gd-819]: https://github.com/godot-rust/godot-rust/pull/819
+
+[gd-cxx]: https://steveklabnik.com/writing/the-cxx-debate
+
+[gd-github]: https://github.com/godot-rust/godot-rust
+[gd-discord]: https://discord.com/invite/FNudpBD
+[gd-twitter]: https://twitter.com/GodotRust
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
