@@ -316,6 +316,26 @@ You will be able to follow the progress of the port Mondays and Fridays on
 [hgs_trailer]: https://youtu.be/CfmCLr19Hbs
 [hgs_twitch]: https://www.twitch.tv/kunosstefano
 
+### Idu
+
+![idu's new sprinkler in action](idu.gif)
+
+Idu ([Discord][idu-discord]) by [@logicsoup] and [@epcc10]
+is an upcoming game centered around growing realistic plants.
+
+In November, a new major update was released that overhauled the automatic
+watering system. In addition, an automatic stair builder and a grass
+cutting tool was added to reduce the tediousness of these common tasks.
+
+A free playable alpha demo is available
+at [Idu's Discord server's #demo-download channel][idu-discord]!
+Updates are posted to their [Youtube][idu-youtube] as well.
+
+[@logicsoup]: https://twitter.com/logicsoup
+[@epcc10]: https://twitter.com/epcc10
+[idu-discord]: https://discord.gg/PR3GgYYkym
+[idu-youtube]: https://www.youtube.com/channel/UC1JmPXgbR5R2dCsM_QJGe1w
+
 ## Engine Updates
 
 ### [Tetra] 0.6.7
