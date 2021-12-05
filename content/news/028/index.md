@@ -227,11 +227,11 @@ from different atoms. Each atom has a unique ability providing
 tons of variety between playthroughs.
 It's made using the [Bevy Engine](https://github.com/bevyengine/bevy).
 
-This month Molecoole launched it's [steam page][molecoole-steam]!
+This month Molecoole launched its [Steam page][molecoole-steam]!
 They also added [new weapons][weapon-twitter] and
 new [bosses][boss-twitter].
 
-In december their main focus will be on audio, and polishing the game.
+In December their main focus will be on audio, and polishing the game.
 
 [molecoole-steam]: https://store.steampowered.com/app/1792170/Molecoole/
 [weapon-twitter]: https://twitter.com/kiss_mrton/status/1459567092995403776
