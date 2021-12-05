@@ -153,6 +153,26 @@ They also worked on a [tutorial][bitgun-tutorial].
 [bitgun-missions]: https://twitter.com/LogLogGames/status/1464009563976392713?s=20
 [bitgun-tutorial]: https://twitter.com/LogLogGames/status/1461898845810348033?s=20
 
+### [Halloween Mahjong Solitaire][mahjong-github]
+
+![Halloween Mahjong Solitaire screenshot](mahjong-screenshot.png)
+_Screenshot of Halloween Mahjong Solitaire_
+
+Halloween Mahjong Solitaire ([GitHub][mahjong-github]) by [@Syn-Nine][synnine-twitter]
+is a game created by Syn9 for [Game Developers Refuge 4x4x4 Challenge], October 2021.
+
+The challenge was to create a Halloween themed game based on four emojis. In
+this case the chosen emoji combination was: skull_and_crossbones, bat,
+game_die, and shinto_shrine (☠️ 🦇 🎲 ⛩️).
+
+The game is part of an open source repository of several mini-games that use
+Syn9's [Rust Mini Game Framework][mgfw].
+
+[mahjong-github]: https://github.com/Syn-Nine/rust-mini-games/tree/main/2d-games/mahjong
+[synnine-twitter]: https://twitter.com/Syn9Dev
+[Game Developers Refuge 4x4x4 Challenge]: http://noop.rocks/gdr/viewtopic.php?f=2&t=70
+[mgfw]: https://github.com/Syn-Nine/mgfw
+
 ### Country Slice
 
 ![country-slice-gif](country_slice_gif.gif)
@@ -248,6 +268,53 @@ You will be able to follow the progress of the port Mondays and Fridays on
 [hgs_steam]: https://store.steampowered.com/app/1448820/Hydrofoil_Generation/
 [hgs_trailer]: https://youtu.be/CfmCLr19Hbs
 [hgs_twitch]: https://www.twitch.tv/kunosstefano
+
+### [BENDYWORM]
+
+![An animation of a platformer where the entire world bends around
+you](bendyworm.gif) _Watch out! The entire world bends around you!_
+
+BENDYWORM ([GitHub][BENDYWORM-github], [Twitter][BENDYWORM-twitter], by
+[@bauxitedev][BENDYWORM-bauxitedev]) is a platformer with a twist:
+the entire world bends and twists around you as your progress through the
+level. Why? Because you're inside of a gigantic worm, and worms are bendy.
+
+The game was made for GitHub Game Off 2021, and uses `godot-rust` behind the
+scenes.
+
+The game is available for free on [itch.io][BENDYWORM-itch.io], and the source
+code is available on [GitHub][BENDYWORM-github].  (Windows only for now, Linux
+build available soon)
+
+_Discussions:
+[/r/rust/][BENDYWORM-reddit],
+[Twitter][BENDYWORM-twitter]_
+
+[BENDYWORM]: https://bauxite.itch.io/bendyworm
+[BENDYWORM-bauxitedev]: https://twitter.com/bauxitedev
+[BENDYWORM-twitter]: https://twitter.com/bauxitedev/status/1466034866122891266
+[BENDYWORM-itch.io]: https://bauxite.itch.io/bendyworm
+[BENDYWORM-github]: https://github.com/Bauxitedev/bendyworm
+[BENDYWORM-reddit]: https://www.reddit.com/r/rust/comments/r742z1/
+
+### [Molecoole][molecoole-steam]
+
+[![A molecoole and some enemies](molecoole.png)][molecoole-steam]
+
+Molecoole is a top-down shooter roguelike where you build your character
+from different atoms. Each atom has a unique ability providing
+tons of variety between playthroughs.
+It's made using the [Bevy Engine](https://github.com/bevyengine/bevy).
+
+This month Molecoole launched its [Steam page][molecoole-steam]!
+They also added [new weapons][weapon-twitter] and
+new [bosses][boss-twitter].
+
+In December their main focus will be on audio, and polishing the game.
+
+[molecoole-steam]: https://store.steampowered.com/app/1792170/Molecoole/
+[weapon-twitter]: https://twitter.com/kiss_mrton/status/1459567092995403776
+[boss-twitter]: https://twitter.com/kiss_mrton/status/1457022034949689351
 
 ## Engine Updates
 
@@ -354,6 +421,46 @@ e.g. `Option<Entity>` will not consume additional space.
 
 [hecs]: https://github.com/Ralith/hecs
 [hecs-changelog]: https://github.com/Ralith/hecs/blob/master/CHANGELOG.md#071
+
+### [godot-rust](https://github.com/godot-rust/godot-rust)
+
+![module before/after](godot-rust-modules.png)
+
+godot-rust ([GitHub][gd-github], [Discord][gd-discord], [Twitter][gd-twitter])
+is a Rust library that provides bindings for the Godot game engine.
+
+November has been a month of refactoring for godot-rust. The API was cleaned up
+across different locations, reducing confusion and making the library more
+accessible:
+
+- The module simplification ([#811][gd-811]) continued initial efforts on the
+  module structure, such as shorter paths and avoidance of redundant re-exports.
+  Some differences between v0.9.3 and now can be seen in the above picture.
+- Several core symbols were renamed for consistency ([#815][gd-815]):
+  `RefInstance` -> `TInstance` and `TypedArray` -> `PoolArray`, among others.
+- Another refactoring affects the `Variant` conversion methods ([#819][gd-819]).
+  Instead of `Variant::to_i64()` which may silently fail and return a default
+  value (Godot behavior), the recommended method is now `Variant::to<T>()`. This
+  enables genericity and is more idiomatic in Rust, returning an `Option` to
+  indicate success or failure.
+
+As a binding to a C++ library, one topic godot-rust has to deal with is the use
+of `unsafe`, which sometimes boils down to a trade-off between safety and
+ease-of-use. Even though Rust provides basic guidelines, there are different
+philosophies on their execution, see [The CXX Debate][gd-cxx] for an example.
+To discuss how APIs interacting with Godot can as ergonomic as possible while
+preserving safety, [issue #808][gd-808] was opened.
+
+[gd-808]: https://github.com/godot-rust/godot-rust/pull/808
+[gd-811]: https://github.com/godot-rust/godot-rust/pull/811
+[gd-815]: https://github.com/godot-rust/godot-rust/pull/815
+[gd-819]: https://github.com/godot-rust/godot-rust/pull/819
+
+[gd-cxx]: https://steveklabnik.com/writing/the-cxx-debate
+
+[gd-github]: https://github.com/godot-rust/godot-rust
+[gd-discord]: https://discord.com/invite/FNudpBD
+[gd-twitter]: https://twitter.com/GodotRust
 
 ## Popular Workgroup Issues in Github
 
