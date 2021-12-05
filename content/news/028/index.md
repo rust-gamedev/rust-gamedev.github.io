@@ -333,25 +333,18 @@ is a Rust library that provides bindings for the Godot game engine.
 
 November has been a month of refactoring for godot-rust. The API was cleaned up
 across different locations, reducing confusion and making the library more
-accessible. The module simplification ([#811][gd-811]) continued initial efforts
-on the
-module structure, such as shorter paths and avoidance of redundant re-exports.
-The improvements are best expressed as a picture -- these are differences
-between version v0.9.3 and now:
+accessible:
 
-In a similar vein, several core symbols were renamed for consistency
-([#815][gd-815]). Examples include:
-
-- `RefInstance` -> `TInstance`
-- `TypedArray` -> `PoolArray`
-- `ThreadAccess` -> `Ownership`
-- `RefKind` -> `Memory`
-
-Another refactoring affects the `Variant` conversion methods ([#819][gd-819]).
-Instead of `Variant::to_i64()` which may silently fail and return a default
-value (Godot behavior), the recommended method is now `Variant::to<T>()`. This
-enables genericity and is more idiomatic in Rust, returning an `Option` to
-indicate success or failure.
+- The module simplification ([#811][gd-811]) continued initial efforts on the
+  module structure, such as shorter paths and avoidance of redundant re-exports.
+  Some differences between v0.9.3 and now can be seen in the above picture.
+- Several core symbols were renamed for consistency ([#815][gd-815]):
+  `RefInstance` -> `TInstance` and `TypedArray` -> `PoolArray`, among others.
+- Another refactoring affects the `Variant` conversion methods ([#819][gd-819]).
+  Instead of `Variant::to_i64()` which may silently fail and return a default
+  value (Godot behavior), the recommended method is now `Variant::to<T>()`. This
+  enables genericity and is more idiomatic in Rust, returning an `Option` to
+  indicate success or failure.
 
 As a binding to a C++ library, one topic godot-rust has to deal with is the use
 of `unsafe`, which sometimes boils down to a trade-off between safety and
@@ -360,14 +353,9 @@ philosophies on their execution, see [The CXX Debate][gd-cxx] for an example.
 To discuss how APIs interacting with Godot can as ergonomic as possible while
 preserving safety, [issue #808][gd-808] was opened.
 
-Smaller changes include safety bugfixes ([#795][gd-795]) or a
-`GodotString::format()` method ([#816][gd-816]).
-
-[gd-795]: https://github.com/godot-rust/godot-rust/pull/795
 [gd-808]: https://github.com/godot-rust/godot-rust/pull/808
 [gd-811]: https://github.com/godot-rust/godot-rust/pull/811
 [gd-815]: https://github.com/godot-rust/godot-rust/pull/815
-[gd-816]: https://github.com/godot-rust/godot-rust/pull/816
 [gd-819]: https://github.com/godot-rust/godot-rust/pull/819
 
 [gd-cxx]: https://steveklabnik.com/writing/the-cxx-debate
