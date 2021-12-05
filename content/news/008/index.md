@@ -348,7 +348,7 @@ Networking is also being reworked from the ground up.
 
 Here is the March changelog:
 
-```text
+```txt
 - Added sfx for wielding/unwielding weapons
 - Fixed NPCs attacking the player forever after killing them
 - Added sfx for collecting, dropping and using inventory items

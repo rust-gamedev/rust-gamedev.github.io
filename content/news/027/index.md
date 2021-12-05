@@ -1,8 +1,7 @@
 +++
 title = "This Month in Rust GameDev #27 - October 2021"
 transparent = true
-date = 2021-11-04
-draft = true
+date = 2021-11-07
 +++
 
 <!-- no toc -->
@@ -32,17 +31,15 @@ Feel free to send PRs about your own projects!
 [Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
+- [Rust GameDev Meetup](#rust-gamedev-meetup)
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Meeting Minutes](#meeting-minutes)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
-- [Jobs](#jobs)
-- [Bonus](#bonus)
 
 <!--
 Ideal section structure is:
@@ -65,6 +62,24 @@ _Discussions:
 
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
+
+## Rust GameDev Meetup
+
+![Gamedev meetup poster](gamedev-meetup.png)
+
+The tenth Rust Gamedev Meetup happened in October. You can watch the recording
+of the meetup [here on Youtube][gamedev-meetup-video]. The meetups take place on
+the second Saturday every month via the [Rust Gamedev Discord
+server][rust-gamedev-discord] and are also [streamed on
+Twitch][rust-gamedev-twitch]. If you would like to show off what you've been
+working on at the next meetup on [November 13th][rust-meetup-oct-time], fill
+out [this form][gamedev-meetup-form].
+
+[gamedev-meetup-video]: https://youtu.be/ta2HY4lD3iM
+[rust-gamedev-discord]: https://discord.gg/yNtPTb2
+[rust-gamedev-twitch]: https://twitch.tv/rustgamedev
+[gamedev-meetup-form]: https://forms.gle/BS1zCyZaiUFSUHxe6
+[rust-meetup-oct-time]: https://everytimezone.com/s/1f02d66b
 
 ## Game Updates
 
@@ -135,6 +150,25 @@ The code source is freely [available on GitHub](https://github.com/djeedai/libra
 [@djeedai]: https://twitter.com/djeedai
 [Bevy Engine]: https://bevyengine.org/
 
+### [Chaos Theory] - gamified double pendulum simulator
+
+![Chaos Theory Gif](chaos-theory.gif)
+
+[Chaos Theory] is a tiny HTML5 game by [@necauqua] where you can draw and
+simulate pendulums with a few goals and restrictions per level.
+It was done for [Ludum Dare 49][Chaos Theory] with a help of a small custom
+engine with Rust being compiled to WASM and drawing shapes to an HTML5 canvas.
+
+You can play the game [online][chaos-theory-online], and the source code
+is available [here][chaos-theory-src] and
+[here][chaos-theory-engine-src].
+
+[Chaos Theory]: https://ldjam.com/events/ludum-dare/49/chaos-theory-1
+[@necauqua]: https://twitter.com/necauqua
+[chaos-theory-online]: https://ld49.necauqua.dev
+[chaos-theory-src]: https://github.com/necauqua/chaos-theory
+[chaos-theory-engine-src]: https://github.com/necauqua/ld-game-engine
+
 ### [Me And My Unicycle]
 
 ![Me And My Unicycle screenshot](me_and_my_unicycle_cover.png)
@@ -153,6 +187,42 @@ sound effects!
 [Bevy]: https://github.com/bevyengine/bevy
 [@nikl_me]: https://twitter.com/nikl_me
 [mamu-source]: https://github.com/NiklasEi/me_and_my_unicycle
+
+### [Crunda][crunda page]
+
+![image/crunda gameplay](crunda.gif)
+
+[Crunda][crunda page] is a game created in 48 hours for Ludum Dare 49.
+
+Its unique wobbly planets are controlled by a Rust library.
+
+Crunda was created by [Dan Slocombe], came third, and was rated the
+most fun competition game! The [sources can be found here][crunda source].
+
+[crunda page]: https://ldjam.com/events/ludum-dare/49/crunda
+[crunda source]: https://github.com/danslocombe/crunda_ludum_dare_49
+[Dan Slocombe]: https://twitter.com/SLCMB/
+
+### [Berry Run]
+
+![berry](berrycover.png)
+
+[Berry Run] is a community stream meme game by [@bombfuse_dev] built on top of
+[Emerald Engine]. It's centered around the Twitch streamer [@berrybebopboy] and
+was built in about 2 days.
+
+Help Berry run as far as they can without tripping and falling!
+
+> Dodge the babies (no kids, no babies), evade the grannies
+> (they're heading to the grand canyon),
+> and don't touch belf (belf is sacred).
+> Also a bunch of dunces left their logs and rocks lying around,
+> better not to touch those, it would be rude to touch someone's logs and rocks.
+
+[Berry Run]: https://bombfuse.itch.io/berry-run/
+[Emerald Engine]: https://github.com/Bombfuse/emerald
+[@bombfuse_dev]: https://twitter.com/bombfuse_dev
+[@berrybebopboy]: https://twitter.com/berrybebopboy
 
 ### [Lonely Star]
 
@@ -250,7 +320,75 @@ You can stay up to date on the latest developments of Way of Rhea by
 [wor-wildlife]: https://twitter.com/AnthropicSt/status/1448056148138119169
 [wor-newsletter]: https://www.anthropicstudios.com/newsletter/signup
 
+### [PaddlePunks][paddlepunks-itch]
+
+![Animated gameplay that looks like pong mixed with an anime fighting game](paddlepunks-gameplay.gif)
+_A round between a player and the AI set to Hard_
+
+PaddlePunks is a versus tennis game by [Felix Windström][paddlepunks-twitter]
+with a diverse cast of characters and playstyles and online play with rollback
+netcode. The game takes cues from both fighting games and arcade classics, and
+besides netplay supports local play against another human or several levels of
+AI.
+
+You can download and play the game now on [itch.io][paddlepunks-itch], or
+join the [Discord][paddlepunks-discord] to chat with the developer and other
+players. Updates are also posted to [Twitter][paddlepunks-twitter].
+
+[paddlepunks-twitter]: https://twitter.com/sov_gott_games
+[paddlepunks-itch]: https://sovgott.itch.io/paddlepunks
+[paddlepunks-discord]: https://discord.gg/cpPDeVcWxc
+
+### [Veloren][veloren]
+
+![An early-morning sunrise](veloren.jpg)
+_An early-morning sunrise_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In October, Veloren hit 10,000 commits, as well as 10,000 members on the Discord
+server! Shrubs got added, along with improvements to rivers, and the
+addition of waterfalls. There have been efforts to diagnose some network issues
+that have been causing downloads to not work for some people. Crafting is going
+through overhauls on the backend. [New aurora shaders][veloren-aurora-video]
+were added as well.
+
+Initial ideas are being discussed to try and improve the
+amount of asset files that have to be downloaded with each update of the game,
+which will help improve the 200MB that has to be downloaded after each nightly
+update. New jewelery has been added, and sneaking is being improved to make
+agents in the game react better to it. Ongoing worldgen improvemnts are also
+being made as we head into November.
+
+October's full weekly devlogs: "This Week In Veloren...":
+[#140][veloren-140],
+[#141][veloren-141],
+[#142][veloren-142],
+[#143][veloren-143].
+
+[veloren]: https://veloren.net
+[veloren-140]: https://veloren.net/devblog-140
+[veloren-141]: https://veloren.net/devblog-141
+[veloren-142]: https://veloren.net/devblog-142
+[veloren-143]: https://veloren.net/devblog-143
+[veloren-aurora-video]: https://www.youtube.com/watch?v=60kt915avjI
+
 ## Engine Updates
+
+### [Amethyst - Starting Fresh][amethyst]
+
+![amethyst logo](/amethyst-logo.png)
+
+This month, the developers of the Amethyst game engine
+[announced that they would be winding down development][amethyst].
+
+The Amethyst Foundation, however, lives on! It will be shifting focus
+to support the wider Rust game development ecosystem, through
+engine-agnostic libraries, curated guides/lists, and more inititives yet
+to be announced.
+
+[amethyst]: https://amethyst.rs/posts/amethyst--starting-fresh
 
 ### [All is Cubes][All is Cubes] 0.3.0
 
@@ -299,6 +437,22 @@ For more details, see the [changelog][tetra-changelog].
 [tetra-ecs]: https://github.com/17cupsofcoffee/tetra/blob/main/examples/ecs.rs
 
 ## Learning Material Updates
+
+### [GameDev Mini Symposium][gms-talk]
+
+[![An early-morning sunrise](gms-talk.png)][gms-talk]
+_Click the image to watch the talk_
+
+Back in September, the University of Glasgow's GameLab held a 'GameDev Mini
+Symposium' online. One of the featured speakers was
+[Herbert Wolverson][the-bracket], writer of '[Hands-on Rust][hands-on-rust]',
+who gave a talk on using Rust for game development.
+
+This talk is now available to [view on Herbert's YouTube channel][gms-talk].
+
+[the-bracket]: https://twitter.com/herberticus
+[hands-on-rust]: https://pragprog.com/titles/hwrust/hands-on-rust/
+[gms-talk]: https://www.youtube.com/watch?v=OzUsPi4kHes
 
 ## Tooling Updates
 
@@ -349,6 +503,35 @@ and the history of processing shaders with Rust.
 [Rust LA Meetup]: https://rustlang.la/
 [talk about Naga]: https://vimeo.com/632377558
 
+### [rend3]-0.2 Release
+
+![rend3-scifi](rend3-scifi.jpg)
+_Improved shadows and rendering with rend3 0.2_
+
+rend3 is a 3D rendering library that focuses on having an easy to use interface
+without sacrificing performance or customizability.
+
+As part of their monthly release schedule, the developers are excited to
+announce the release of rend3-0.2. The most prominent change is the ability
+to use fully customizable materials. Any combination of data and textures can
+now be used as a material for custom render routines. This unties the user
+from PBR-based materials.
+
+Along with the customizability that comes with this change, the CPU time
+required to render a complex scene is 7x less due to highly optimal data
+structures. For more information see [this talk][rend3-perf-talk] at the Rust
+graphics meetup.
+
+The [v0.2 version][rend3-crates] was published on crates.io
+([docs][rend3-docs] and [examples][rend3-examples]). The 0.3 release is
+just a week away and further improves customizability.
+
+[rend3]: https://github.com/BVE-Reborn/rend3
+[rend3-perf-talk]: https://www.youtube.com/watch?v=F0wGz5UJTrY
+[rend3-docs]: https://docs.rs/rend3
+[rend3-examples]: https://github.com/BVE-Reborn/rend3/tree/v0.2/examples
+[rend3-crates]: https://crates.io/crates/rend3
+
 ### [hecs_rapier] 0.11.0
 
 [hecs_rapier] is a physics engine for hecs ECS.
@@ -359,6 +542,23 @@ This makes `hecs_rapier` feature complete, with `bevy_rapier2d` feature parity.
 
 [hecs_rapier]: https://github.com/smokku/hecs_rapier
 [bevy_rapier2d]: https://github.com/dimforge/bevy_rapier
+
+### [bevy_atmosphere] 0.1.1
+
+![dawn in bevy_atmosphere](bevy_atmosphere.png)
+
+[bevy_atmosphere] ([GitHub][bevy_atmosphere]) by @JonahPlusPlus
+is a procedural sky plugin for Bevy.
+
+By adding the `AtmospherePlugin`, users get a skybox around the camera in their scene.
+Users can also set the appearance of the sky adding a `AtmosphereMat` resource.
+
+0.1.0 and 0.1.1 have been released on [crates.io](https://crates.io/crates/bevy_atmosphere).
+
+0.1.1 changes the default position of the sun to be in the sky,
+so only the plugin is needed to get a Unity-like sky.
+
+[bevy_atmosphere]: https://github.com/JonahPlusPlus/bevy_atmosphere
 
 ### [bevy_kira_audio]
 
@@ -430,6 +630,27 @@ information][bevy-pen-tool].
 
 [bevy-pen-tool]: https://github.com/eliotbo/bevy_pen_tool
 
+### [Sparsey]
+
+[Sparsey] by [@LechintanTudor] is a sparse set-based Entity Component System
+(ECS) with component storage grouping, granular component change detection,
+fallible systems and beautiful syntax.
+
+The latest release (0.4) adds support for optional system parameters, which
+allows `Option<Res<T>>` and `Option<ResMut<T>>` to be used in system functions.
+
+This release also features a refactored `ComponentStorage` which makes adding,
+removing and swapping components faster, swapping being especially important
+since it enables component grouping, a features that makes certain queries
+specified by the user extremely fast.
+
+Finally, some implementation details were hidden from the public API and the
+`#[must_use]` attribute was added to functions whose results should not be
+discarded.
+
+[Sparsey]: https://github.com/LechintanTudor/sparsey
+[@LechintanTudor]: https://github.com/LechintanTudor
+
 ### [godot-rust](https://github.com/godot-rust/godot-rust)
 
 ![godot-rust logo](godot-rust.png)
@@ -468,36 +689,58 @@ be included, please feel free to reach out to the godot-rust team.
 [gd-discord]: https://discord.com/invite/FNudpBD
 [gd-twitter]: https://twitter.com/GodotRust
 
-## Popular Workgroup Issues in Github
-
-<!-- Up to 10 links to interesting issues -->
-
 ## Meeting Minutes
 
-<!-- Up to 10 most important notes + a link to the full details -->
+There is currently discussion ongoing around bringing back the
+Rust GameDev Working Group's regular meetings.
 
-[See all meeting issues][label_meeting] including full text notes
-or [join the next meeting][join].
-
-[label_meeting]: https://github.com/rust-gamedev/wg/issues?q=label%3Ameeting
+If you are interested in getting involved, please join the
+[discussion thread](https://github.com/rust-gamedev/wg/discussions/115)
+on the working group's issue tracker!
 
 ## Discussions
 
-<!-- Links to handpicked reddit/twitter/urlo/etc threads that provide
-useful information -->
+### [Async Game Server Design][async-game-server]
+
+On the Rust user forum, there was [a post][async-game-server]
+asking how to use async/await (more specifically, `tokio` and
+`tokio_tungstenite`) to develop a multiplayer game server.
+The responses contain some useful ideas and advice which
+may be helpful for other people's projects!
+
+[async-game-server]: https://users.rust-lang.org/t/tokio-tungstenite-async-game-server-design/65996
 
 ## Requests for Contribution
 
-<!-- Links to "good first issue"-labels or direct links to specific tasks -->
+- [Graphite is looking for contributors][graphite-contribute] to help reach
+  the 0.1 Alpha release.
+- [winit's "difficulty: easy" issues][winit-issues].
+- [Backroll-rs, a new networking library][backroll-rs].
+- [Embark's open issues][embark-open-issues] ([embark.rs]).
+- [wgpu's "help wanted" issues][wgpu-issues].
+- [luminance's "low hanging fruit" issues][luminance-fruits].
+- [ggez's "good first issue" issues][ggez-issues].
+- [Veloren's "beginner" issues][veloren-beginner].
+- [Amethyst's "good first issue" issues][amethyst-issues].
+- [A/B Street's "good first issue" issues][abstreet-issues].
+- [Mun's "good first issue" issues][mun-issues].
+- [SIMple Mechanic's good first issues][simm-issues].
+- [Bevy's "good first issue" issues][bevy-issues].
 
-## Jobs
-
-<!-- An optional section for new jobs related to Rust gamedev -->
-
-## Bonus
-
-<!-- Bonus section to make the newsletter more interesting
-and highlight events from the past. -->
+[graphite-contribute]: https://github.com/GraphiteEditor/Graphite/issues/202
+[winit-issues]: https://github.com/rust-windowing/winit/issues?q=is%3Aopen+is%3Aissue+label%3A%22difficulty%3A+easy%22
+[backroll-rs]: https://github.com/HouraiTeahouse/backroll-rs/issues
+[embark.rs]: https://embark.rs
+[embark-open-issues]: https://github.com/search?q=user:EmbarkStudios+state:open
+[wgpu-issues]: https://github.com/gfx-rs/wgpu/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
+[luminance-fruits]: https://github.com/phaazon/luminance-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22low+hanging+fruit%22
+[ggez-issues]: https://github.com/ggez/ggez/labels/%2AGOOD%20FIRST%20ISSUE%2A
+[veloren-beginner]: https://gitlab.com/veloren/veloren/issues?label_name=beginner
+[amethyst-issues]: https://github.com/amethyst/amethyst/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[abstreet-issues]: https://github.com/a-b-street/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
+[simm-issues]: https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue
+[bevy-issues]: https://github.com/bevyengine/bevy/labels/E-Good-First-Issue
 
 ------
 
@@ -509,13 +752,10 @@ Want something mentioned in the next newsletter?
 Also, subscribe to [@rust_gamedev on Twitter][@rust_gamedev]
 or [/r/rust_gamedev subreddit][/r/rust_gamedev] if you want to receive fresh news!
 
-<!--
-TODO: Add real links and un-comment once this post is published
 **Discuss this post on**:
-[/r/rust_gamedev](TODO),
-[Twitter](TODO),
+[/r/rust_gamedev](https://www.reddit.com/r/rust/comments/qoy5rv/this_month_in_rust_gamedev_27_october_2021/),
+[Twitter](https://twitter.com/rust_gamedev/status/1457461009833238528),
 [Discord](https://discord.gg/yNtPTb2).
--->
 
 [/r/rust_gamedev]: https://reddit.com/r/rust_gamedev
 [@rust_gamedev]: https://twitter.com/rust_gamedev

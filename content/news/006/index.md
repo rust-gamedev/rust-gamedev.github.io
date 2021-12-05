@@ -109,7 +109,7 @@ It was also the first anniversary of This Week in Veloren!
 There has been a devblog each week since the end of January last year.
 Here are some of the big changes in this release:
 
-```text
+```txt
 - Added initial region system implementation
 - Added moon and clouds
 - Added proper SFX system

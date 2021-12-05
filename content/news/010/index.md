@@ -737,7 +737,7 @@ Also, check out a new "Game of Life" demo [here][iced-life].
 
 ### [beehive]
 
-```text
+```txt
        yz +Y
        __
    yx /  \ xz +X

@@ -748,7 +748,7 @@ increased incremental build time, and build artifacts size.
 nanoserde may be useful when the whole game has less than a minute
 clean build time and spending ~40s on serde is unreasonable.
 
-```text
+```txt
 > cargo tree
 nanoserde v0.1.0 (/../nanoserde)
 └── nanoserde-derive v0.1.0 (/../nanoserde/derive)
