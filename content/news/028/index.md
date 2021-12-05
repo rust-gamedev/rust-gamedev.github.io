@@ -225,7 +225,7 @@ November's full weekly devlogs: "This Week In Veloren...":
 Molecoole is a top-down shooter roguelike where you build your character
 from different atoms. Each atom has a unique ability providing
 tons of variety between playthroughs.
-It's made using the [Bevy engine][https://github.com/bevyengine/bevy].
+It's made using the [Bevy Engine](https://github.com/bevyengine/bevy).
 
 This month Molecoole launched it's [steam page][molecoole-steam]!
 They also added [new weapons][weapon-twitter] and
