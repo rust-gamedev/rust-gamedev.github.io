@@ -345,6 +345,28 @@ raytraced results:
 
 ## Tooling Updates
 
+### [PickPicPack] 0.1.6
+![PcikPicPack 0.1.6](pickpicpack_0.1.6.gif)
+
+[PickPicPack] ([GitHub][PPP_github], [Gumroad][PPP_gumroad]) 
+by [@p4ymak][p4ymak_www] is a tiny yet powerful utility for packing images
+into rectangles with arbitrary aspect ratio.
+
+It is useful for creating mood boards, daily art reports, presentations
+and other collages.
+
+Features so far:
+- Interactive loading
+- Scaling images to equal size
+- Optional Margin between images
+- Custom Aspect Ratio - now you can set aspect ratio by text in any form
+- CLI - You can use it without GUI and embed to your project manager tool 
+
+[PickPicPack]: http://www.p43d.com/pickpicpack
+[PPP_github]: https://github.com/p4ymak/pickpicpack
+[PPP_gumroad]: https://p4ymak.gumroad.com/l/pickpicpack
+[p4ymak_www]: http://www.p43d.com/p4ymak
+
 ## Library Updates
 
 ### [Pixels] 0.8.0 👾
