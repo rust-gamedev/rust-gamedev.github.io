@@ -266,6 +266,25 @@ _Discussions:
 [BENDYWORM-github]: https://github.com/Bauxitedev/bendyworm
 [BENDYWORM-reddit]: https://www.reddit.com/r/rust/comments/r742z1/
 
+### [Molecoole][molecoole-steam]
+
+[![A molecoole and some enemies](molecoole.png)][molecoole-steam]
+
+Molecoole is a top-down shooter roguelike where you build your character
+from different atoms. Each atom has a unique ability providing
+tons of variety between playthroughs.
+It's made using the [Bevy Engine](https://github.com/bevyengine/bevy).
+
+This month Molecoole launched its [Steam page][molecoole-steam]!
+They also added [new weapons][weapon-twitter] and
+new [bosses][boss-twitter].
+
+In December their main focus will be on audio, and polishing the game.
+
+[molecoole-steam]: https://store.steampowered.com/app/1792170/Molecoole/
+[weapon-twitter]: https://twitter.com/kiss_mrton/status/1459567092995403776
+[boss-twitter]: https://twitter.com/kiss_mrton/status/1457022034949689351
+
 ## Engine Updates
 
 ### [Tetra] 0.6.7
