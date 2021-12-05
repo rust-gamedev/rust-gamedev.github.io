@@ -218,6 +218,25 @@ November's full weekly devlogs: "This Week In Veloren...":
 [veloren-reading-club-2]: https://www.youtube.com/watch?v=n8XayRvVBEs
 [veloren-rain-storm]: https://www.youtube.com/watch?v=MZwfaohynvc
 
+### [Molecoole][molecoole-steam]
+
+[![A molecoole and some enemies](molecoole.png)][molecoole-steam]
+
+Molecoole is a top-down shooter roguelike where you build your character
+from different atoms. Each atom has a unique ability providing
+tons of variety between playthroughs.
+It's made using the [Bevy engine][https://github.com/bevyengine/bevy].
+
+This month Molecoole launched it's [steam page][molecoole-steam]!
+They also added [new weapons][weapon-twitter] and
+new [bosses][boss-twitter].
+
+In december their main focus will be on audio, and polishing the game.
+
+[molecoole-steam]: https://store.steampowered.com/app/1792170/Molecoole/
+[weapon-twitter]: https://twitter.com/kiss_mrton/status/1459567092995403776
+[boss-twitter]: https://twitter.com/kiss_mrton/status/1457022034949689351
+
 ## Engine Updates
 
 ### [Tetra] 0.6.7
