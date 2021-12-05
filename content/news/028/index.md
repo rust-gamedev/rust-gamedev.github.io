@@ -218,6 +218,35 @@ November's full weekly devlogs: "This Week In Veloren...":
 [veloren-reading-club-2]: https://www.youtube.com/watch?v=n8XayRvVBEs
 [veloren-rain-storm]: https://www.youtube.com/watch?v=MZwfaohynvc
 
+### [Hydrofoil Generation]
+
+![hgs_screen](hgs5.png)
+
+[Hydrofoil Generation] ([Facebook](https://www.facebook.com/HydrofoilGenerationSailing),
+[Discord](https://discord.gg/DtKgt2duAy)) is a realistic sailing/foiling
+inshore simulator in development for PC/Steam that will put you in the
+driving seat of modern competitive sailing.
+
+November was dedicated to the launch of the [Steam Store][hgs_steam] page and associated
+[trailer][hgs_trailer] showcasing Hydrofoil Generation's custom Rust engine in motion
+for the first time. Your chance to Wishlist a Rust made engine on Steam is now a reality.
+
+Constant tweaks to the boat behavior and addition of gameplay features are ongoing as the
+planned Q2 2022 Steam Early Access release gets closer and closer.
+
+December 2022 will see an attempt to port the rendering backend of the game from DirectX 11
+to WGPU in order to widen the number of platforms reacheable with a particular interest in
+the Steam Deck that seems to offer the perfect controller layout for such a demanding simulation
+as Hydrofoil Generation.
+
+You will be able to follow the progress of the port on [Twitch][hgs_twitch] on Mondays and
+Fridays.
+
+[Hydrofoil Generation]: https://hydrofoil-generation.com/
+[hgs_steam]: https://store.steampowered.com/app/1448820/Hydrofoil_Generation/
+[hgs_trailer]: https://youtu.be/CfmCLr19Hbs
+[hgs_twitch]: https://www.twitch.tv/kunosstefano
+
 ## Engine Updates
 
 ### [Tetra] 0.6.7
