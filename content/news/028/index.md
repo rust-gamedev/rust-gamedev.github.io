@@ -336,6 +336,35 @@ Additionally, development has begun on version 0.7 - check out
 [tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
 [tetra-07]: https://github.com/17cupsofcoffee/tetra/issues/297
 
+### [Oxygengine] v0.24.0
+
+![Oxygengine RPG game template](https://raw.githubusercontent.com/PsichiX/Oxygengine/master/media/oxygengine-overworld.gif)
+
+The hottest HTML5 + WASM game engine for games written in Rust with web-sys.
+
+[@PsichiX], the creator of [Oxygengine], spent last two months on making:
+
+- First few chapters of the book explaining how Oxygengine works in:
+  [Oxygengine Essentials Book][oxygengine-book].
+- New Hardware-Accelerated renderer based on Material Graphs (to allow making
+  faster and better quality game visuals - more about that in
+  [Material Graph based rendering][oxygengine-material-graph] chapter).
+- New Overworld game module (which aims to provide all essential features needed
+  by RPG game developers, to let them focus on making an actual game).
+- New AI feature module (WIP) that integrates [Emergent AI][emergent] crate with
+  the engine.
+
+All these changes marks the beggining of stabilizing phase of the engine, API
+more or less won't change much, now the focus is put entirely on the features
+that will push progress towards Ignite visual game editor for artists and game
+designers to use.
+
+[Oxygengine]: https://github.com/PsichiX/Oxygengine
+[@PsichiX]: https://twitter.com/PsichiX
+[oxygengine-book]: https://psichix.github.io/Oxygengine/
+[oxygengine-material-graph]: https://psichix.github.io/Oxygengine/concepts/ha-renderer/introduction.html#material-graph-based-rendering
+[emergent]: https://github.com/PsichiX/emergent
+
 ## Learning Material Updates
 
 ### [The Raytracer Challenge][raytracer-challenge-github]
@@ -446,6 +475,21 @@ e.g. `Option<Entity>` will not consume additional space.
 
 [hecs]: https://github.com/Ralith/hecs
 [hecs-changelog]: https://github.com/Ralith/hecs/blob/master/CHANGELOG.md#071
+
+### [NavMesh] v0.12.1
+
+NavMesh crate is a path finding library for 2D and 3D games.
+
+This month changes by [@PsichiX]:
+
+- Added NavGrid structure to find paths on grids.
+- Added NavFreeGrid structure to find paths on cells put in free layout manner
+  (used for example on clusters of cells rather than condensed grid).
+- Added NavIslands structure to allow hierarchical path finding (used for
+  example with streamed navigation islands, such as other path finding
+  structures).
+
+[NavMesh]: https://github.com/PsichiX/navmesh
 
 ### [godot-rust](https://github.com/godot-rust/godot-rust)
 
