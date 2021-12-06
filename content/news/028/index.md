@@ -285,6 +285,37 @@ In December their main focus will be on audio, and polishing the game.
 [weapon-twitter]: https://twitter.com/kiss_mrton/status/1459567092995403776
 [boss-twitter]: https://twitter.com/kiss_mrton/status/1457022034949689351
 
+### [Hydrofoil Generation]
+
+![hgs_screen](hgs5.jpg)
+
+[Hydrofoil Generation] ([Facebook][hgs_facebook],
+[Discord][hgs_discord]) is a realistic sailing/foiling
+inshore simulator in development for PC/Steam that will put you in the
+driving seat of modern competitive sailing.
+
+November was dedicated to the launch of the [Steam Store][hgs_steam] page and associated
+[trailer][hgs_trailer] showcasing Hydrofoil Generation's custom Rust engine in motion
+for the first time.
+Constant tweaks to the boat behavior and addition of gameplay features are
+ongoing as the planned Q2 2022 Steam Early Access release gets closer
+and closer.
+
+December 2021 will see an attempt to port the rendering backend of the game
+from DirectX 11 to WGPU in order to widen the number of platforms reacheable
+with a particular interest in the Steam Deck that seems to offer the perfect
+controller layout for such a demanding simulation as Hydrofoil Generation.
+
+You will be able to follow the progress of the port Mondays and Fridays on
+[Twitch][hgs_twitch].
+
+[Hydrofoil Generation]: https://hydrofoil-generation.com/
+[hgs_facebook]: https://www.facebook.com/HydrofoilGenerationSailing/
+[hgs_discord]: https://discord.gg/DtKgt2duAy/
+[hgs_steam]: https://store.steampowered.com/app/1448820/Hydrofoil_Generation/
+[hgs_trailer]: https://youtu.be/CfmCLr19Hbs
+[hgs_twitch]: https://www.twitch.tv/kunosstefano
+
 ## Engine Updates
 
 ### [Tetra] 0.6.7
@@ -344,6 +375,31 @@ raytraced results:
 [raytracer-challenge-planes]: https://youtu.be/4y1aRPiH9Ko
 
 ## Tooling Updates
+
+### [SPV]
+
+![SPV-0.3.5 screenshot](spv-0.3.5.png)
+
+[SPV] by [Albin Sjögren]
+is a calculator utility for working with astronomical position and velocity data.
+
+In the last month, a relative position and velocity
+calculation system has been added.
+This is due to the inaccuracy of astronomic data.
+With this new method that relies on the orbital elements of
+two body systems getting data for multibody simulation is now possible.
+
+Apart from this new equation set, [SPV] now also has a more standard
+color scheme based on the one GitHub uses.
+This month also came with numerous bug fixes and a more
+concrete plan for future development.
+
+For any feature requests, reach out to the developer on [Discord][spv-discord]
+or [GitHub][spv].
+
+[SPV]: https://github.com/AlbinSjoegren/SPV
+[spv-discord]: https://discordapp.com/users/258254056185659392
+[Albin Sjögren]: https://github.com/AlbinSjoegren
 
 ### [PickPicPack] 0.1.6
 
