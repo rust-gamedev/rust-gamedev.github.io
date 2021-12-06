@@ -346,7 +346,7 @@ The hottest HTML5 + WASM game engine for games written in Rust with web-sys.
 
 - First few chapters of the book explaining how Oxygengine works in:
   [Oxygengine Essentials Book][oxygengine-book].
-- New Hardware-Accelerated renderer based on Material Graphs (to allow making
+- New hardware-accelerated renderer based on Material Graphs (to allow making
   faster and better quality game visuals - more about that in
   [Material Graph based rendering][oxygengine-material-graph] chapter).
 - New Overworld game module (which aims to provide all essential features needed
@@ -355,10 +355,10 @@ The hottest HTML5 + WASM game engine for games written in Rust with web-sys.
   the engine.
 - Plugin-based asset pipeline as well as support for LDtk software projects.
 
-All these changes marks the beggining of stabilizing phase of the engine, API
-more or less won't change much, now the focus is put entirely on the features
-that will push progress towards Ignite visual game editor for artists and game
-designers to use.
+All these changes marks the beginning of stabilizing phase of the engine.
+The API more or less won't change much - now the focus is put entirely on
+the features that will push progress towards the Ignite visual game editor 
+for artists and game designers to use.
 
 [Oxygengine]: https://github.com/PsichiX/Oxygengine
 [@PsichiX]: https://twitter.com/PsichiX
