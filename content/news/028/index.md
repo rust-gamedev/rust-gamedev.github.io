@@ -357,7 +357,7 @@ The hottest HTML5 + WASM game engine for games written in Rust with web-sys.
 
 All these changes marks the beginning of stabilizing phase of the engine.
 The API more or less won't change much - now the focus is put entirely on
-the features that will push progress towards the Ignite visual game editor 
+the features that will push progress towards the Ignite visual game editor
 for artists and game designers to use.
 
 [Oxygengine]: https://github.com/PsichiX/Oxygengine
