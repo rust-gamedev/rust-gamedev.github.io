@@ -353,6 +353,7 @@ The hottest HTML5 + WASM game engine for games written in Rust with web-sys.
   by RPG game developers, to let them focus on making an actual game).
 - New AI feature module (WIP) that integrates [Emergent AI][emergent] crate with
   the engine.
+- Plugin-based asset pipeline as well as support for LDtk software projects.
 
 All these changes marks the beggining of stabilizing phase of the engine, API
 more or less won't change much, now the focus is put entirely on the features
