@@ -338,7 +338,7 @@ Additionally, development has begun on version 0.7 - check out
 
 ### [Oxygengine] v0.24.0
 
-![Oxygengine RPG game template](https://raw.githubusercontent.com/PsichiX/Oxygengine/38c9818069771afcdb7f98eb3c9ee8acf9d4db86/media/oxygengine-overworld.gif)
+![Oxygengine RPG game template](oxygengine-overworld.gif)
 
 The hottest HTML5 + WASM game engine for games written in Rust with web-sys.
 
