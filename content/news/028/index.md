@@ -479,6 +479,36 @@ Features so far:
 [PPP_gumroad]: https://p4ymak.gumroad.com/l/pickpicpack
 [p4ymak_www]: http://www.p43d.com/p4ymak
 
+### [Graphite][graphite-repo]
+
+![Graphite](graphite_splash.png)
+
+Graphite ([GitHub][graphite-repo], [Discord][graphite-discord],
+[Twitter][graphite-twitter]) is an in-development vector and
+raster graphics editor built on a non-destructive node-based workflow.
+
+The previously announced Alpha release was delayed as core devs returned to
+school— January is the new goal. Development now continues to pick up speed.
+Design of the project website has continued for its launch soon, alongside the
+Alpha release.
+
+The project upgraded to the Rust 2021 edition and made big improvements to the
+frontend TypeScript and web infrastructure. The editor UI is now fully
+responsive at small window sizes. Unsaved document tabs display an `*` and warn
+before closing the window. Ruler measurements now move and scale with the
+document. And the new snapping system helps draw/move shapes aligned with
+others.
+
+[Try it right now in your browser.][graphite-live-demo] Graphite is making
+steady progress towards becoming a non-destructive, procedural graphics editor
+suitable for replacing traditional 2D DCC applications.
+[Join the Discord][graphite-discord] and get involved!
+
+[graphite-repo]: https://github.com/GraphiteEditor/Graphite
+[graphite-discord]: https://discord.graphite.design
+[graphite-twitter]: https://twitter.com/GraphiteEditor
+[graphite-live-demo]: https://editor.graphite.design
+
 ## Library Updates
 
 ### [Pixels] 0.8.0 👾
