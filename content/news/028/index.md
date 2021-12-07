@@ -477,21 +477,6 @@ e.g. `Option<Entity>` will not consume additional space.
 [hecs]: https://github.com/Ralith/hecs
 [hecs-changelog]: https://github.com/Ralith/hecs/blob/master/CHANGELOG.md#071
 
-### [NavMesh] v0.12.1
-
-NavMesh crate is a path finding library for 2D and 3D games.
-
-This month changes by [@PsichiX]:
-
-- Added NavGrid structure to find paths on grids.
-- Added NavFreeGrid structure to find paths on cells put in free layout manner
-  (used for example on clusters of cells rather than condensed grid).
-- Added NavIslands structure to allow hierarchical path finding (used for
-  example with streamed navigation islands, such as other path finding
-  structures).
-
-[NavMesh]: https://github.com/PsichiX/navmesh
-
 ### [godot-rust](https://github.com/godot-rust/godot-rust)
 
 ![module before/after](godot-rust-modules.png)
@@ -531,6 +516,21 @@ preserving safety, [issue #808][gd-808] was opened.
 [gd-github]: https://github.com/godot-rust/godot-rust
 [gd-discord]: https://discord.com/invite/FNudpBD
 [gd-twitter]: https://twitter.com/GodotRust
+
+### [NavMesh] v0.12.1
+
+NavMesh crate is a path finding library for 2D and 3D games.
+
+This month changes by [@PsichiX]:
+
+- Added NavGrid structure to find paths on grids.
+- Added NavFreeGrid structure to find paths on cells put in free layout manner
+  (used for example on clusters of cells rather than condensed grid).
+- Added NavIslands structure to allow hierarchical path finding (used for
+  example with streamed navigation islands, such as other path finding
+  structures).
+
+[NavMesh]: https://github.com/PsichiX/navmesh
 
 ## Popular Workgroup Issues in Github
 
