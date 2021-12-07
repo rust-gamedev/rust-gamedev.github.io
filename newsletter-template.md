@@ -35,6 +35,7 @@ Feel free to send PRs about your own projects!
 - [Engine Updates](#engine-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
+- [Other News](#other-news)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Meeting Minutes](#meeting-minutes)
 - [Discussions](#discussions)
@@ -77,6 +78,10 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
+
+## Other News
+
+<!-- One-liners for plan items that haven't got their own sections. -->
 
 ## Meeting Minutes
 

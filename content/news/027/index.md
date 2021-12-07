@@ -37,6 +37,7 @@ Feel free to send PRs about your own projects!
 - [Engine Updates](#engine-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
+- [Other News](#other-news)
 - [Meeting Minutes](#meeting-minutes)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
@@ -688,6 +689,73 @@ be included, please feel free to reach out to the godot-rust team.
 [gd-github]: https://github.com/godot-rust/godot-rust
 [gd-discord]: https://discord.com/invite/FNudpBD
 [gd-twitter]: https://twitter.com/GodotRust
+
+## Other News
+
+<!-- One-liners for plan items that haven't got their own sections. -->
+
+- Other game updates:
+  - LD49 [Unbalanced Brawl](https://ldjam.com/events/ludum-dare/49/unbalanced-brawl)
+    ([GitHub](https://github.com/yopox/LD49))
+    is an autochess with ever-changing rules in the shop.
+  - LD49 [Chevalchemy](https://ldjam.com/events/ludum-dare/49/chevalchemy-a-hoof-of-concept)
+    ([GitHub](https://github.com/xlambein/ldjam49)) is a game where you play
+    as a horse alchemist working for the great Neighcolas Flamel.
+  - LD49 [Proc Spider](https://ldjam.com/events/ludum-dare/49/procedural-spider)
+    ([GitHub](https://github.com/darthdeus/procedural-spider))
+    is a small game where you play a big spider chasing small spiders.
+  - [mk48.io] ([GitHub](https://github.com/SoftbearStudios/mk48)) is
+    an online multiplayer naval combat game, in which you take command
+    of a ship and sail your way to victory.
+  - Tweets about [Bitgun] progress:
+    [new inventory and weapon systems](https://twitter.com/LogLogGames/status/1449485172114591749),
+    [new item pickup](https://twitter.com/LogLogGames/status/1449742242734772225),
+    [jumping zombies](https://twitter.com/LogLogGames/status/1450922044065992708),
+    [death animation](https://twitter.com/LogLogGames/status/1451088866052489218).
+  - [An update about the progress of Rust version of Nox Futura][noxfutura-devlog].
+  - [A Recall Singularity][recall] shared a [YouTube video](https://youtube.com/watch?v=nsjnCZslNdg)
+    that shows new shooting sounds, camera movement, and asteroid dragging.
+- Other learning material updates:
+  - [A video by TanTan](https://youtube.com/watch?v=G-IuH6R-yD8)
+    about rewriting a voxel game three times: in Unity, Rust (no engine) and Bevy.
+- Other engine updates:
+  - [A recording of the first rg3d live-coding stream](https://reddit.com/r/rust/comments/qena0b/media_rg3d_game_engine_live_coding).
+  - The first prototype of [VNgine] - Visual Novel Engine -
+    [was announced on /r/rust](https://reddit.com/r/rust/comments/pyvcen/first_prototype_of_vngine).
+  - Also, a general purpose graphics engine [Blue Engine][blue-engine]
+    [was announced on /r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/q4rana/blue_engine).
+- Other tooling updates:
+  - [Fearless-NES] is a NES emulator written using egui, macroquad, and GilRs.
+  - [FishSteam] is a tool for deploying SteamWorks-enabled steam builds
+    for Windows/macOS/Linux without SteamWorks SDK on a CI.
+- Other library updates:
+  - [Crevice v0.8](https://github.com/LPGhatguy/crevice/blob/main/CHANGELOG.md#080---2021-10-26)
+    brings a direct support for many math libraries
+    and allows to generate GLSL source from structs.
+  - [SPV] 0.0.6 is the second pre-alpha release of a celestial object position
+    and velocity calculator.
+  - [Thunderdome] generational arena library released
+    [0.4..0.5 versions](https://github.com/LPGhatguy/thunderdome/blob/main/CHANGELOG.md).
+  - [egui 0.15](https://reddit.com/r/rust/comments/qeue67/announcing_egui_015) brings:
+    syntax highlighting, horizontal scrolling, new monospace font,
+    and a new opt-in glow backend for eframe.
+  - [New puffin-egui/puffin-viewer](https://twitter.com/ernerfeldt/status/1447961523696066564)
+    allows selection and manipulation of multiple frames.
+  - [Shalrath] is a fully-safe Rust representation and nom parser for Quake map files.
+
+[Bitgun]: https://store.steampowered.com/app/1673940/BITGUN
+[@LogLogGames]: https://twitter.com/LogLogGames
+[noxfutura-devlog]: https://reddit.com/r/roguelikedev/comments/pqbvv1/sharing_saturday_380/hdbx5xt
+[mk48.io]: https://mk48.io
+[recall]: https://twitter.com/RecallSingular1
+[Fearless-NES]: https://github.com/TomasKralCZ/Fearless-NES
+[FishSteam]: https://github.com/not-fl3/FishFight-The-Prequel/tree/main/fishsteam
+[VNgine]: https://gitlab.com/porky11/vngine-rs
+[blue-engine]: https://github.com/ElhamAryanpur/BlueEngine
+[Crevice]: https://github.com/LPGhatguy/crevice
+[SPV]: https://github.com/AlbinSjoegren/SPV
+[Thunderdome]: https://github.com/LPGhatguy/thunderdome/blob/main/CHANGELOG.md
+[Shalrath]: https://github.com/QodotPlugin/shalrath
 
 ## Meeting Minutes
 

@@ -316,6 +316,26 @@ You will be able to follow the progress of the port Mondays and Fridays on
 [hgs_trailer]: https://youtu.be/CfmCLr19Hbs
 [hgs_twitch]: https://www.twitch.tv/kunosstefano
 
+### Idu
+
+![idu's new sprinkler in action](idu.gif)
+
+Idu ([Discord][idu-discord]) by [@logicsoup] and [@epcc10]
+is an upcoming game centered around growing realistic plants.
+
+In November, a new major update was released that overhauled the automatic
+watering system. In addition, an automatic stair builder and a grass
+cutting tool was added to reduce the tediousness of these common tasks.
+
+A free playable alpha demo is available
+at [Idu's Discord server's #demo-download channel][idu-discord]!
+Updates are posted to their [Youtube][idu-youtube] as well.
+
+[@logicsoup]: https://twitter.com/logicsoup
+[@epcc10]: https://twitter.com/epcc10
+[idu-discord]: https://discord.gg/PR3GgYYkym
+[idu-youtube]: https://www.youtube.com/channel/UC1JmPXgbR5R2dCsM_QJGe1w
+
 ## Engine Updates
 
 ### [Tetra] 0.6.7
@@ -335,6 +355,36 @@ Additionally, development has begun on version 0.7 - check out
 [Tetra]: https://github.com/17cupsofcoffee/tetra
 [tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
 [tetra-07]: https://github.com/17cupsofcoffee/tetra/issues/297
+
+### [Oxygengine] v0.24.0
+
+![Oxygengine RPG game template](oxygengine-overworld.gif)
+
+The hottest HTML5 + WASM game engine for games written in Rust with web-sys.
+
+[@PsichiX], the creator of [Oxygengine], spent last two months on making:
+
+- First few chapters of the book explaining how Oxygengine works in:
+  [Oxygengine Essentials Book][oxygengine-book].
+- New hardware-accelerated renderer based on Material Graphs (to allow making
+  faster and better quality game visuals - more about that in
+  [Material Graph based rendering][oxygengine-material-graph] chapter).
+- New Overworld game module (which aims to provide all essential features needed
+  by RPG game developers, to let them focus on making an actual game).
+- New AI feature module (WIP) that integrates [Emergent AI][emergent] crate with
+  the engine.
+- Plugin-based asset pipeline as well as support for LDtk software projects.
+
+All these changes marks the beginning of stabilizing phase of the engine.
+The API more or less won't change much - now the focus is put entirely on
+the features that will push progress towards the Ignite visual game editor
+for artists and game designers to use.
+
+[Oxygengine]: https://github.com/PsichiX/Oxygengine
+[@PsichiX]: https://twitter.com/PsichiX
+[oxygengine-book]: https://psichix.github.io/Oxygengine/
+[oxygengine-material-graph]: https://psichix.github.io/Oxygengine/concepts/ha-renderer/introduction.html#material-graph-based-rendering
+[emergent]: https://github.com/PsichiX/emergent
 
 ## Learning Material Updates
 
@@ -400,6 +450,34 @@ or [GitHub][spv].
 [SPV]: https://github.com/AlbinSjoegren/SPV
 [spv-discord]: https://discordapp.com/users/258254056185659392
 [Albin Sjögren]: https://github.com/AlbinSjoegren
+
+### [PickPicPack] 0.1.6
+
+![PickPicPack 0.1.6](pickpicpack_0.1.6.gif)
+
+[PickPicPack] ([GitHub][PPP_github], [Gumroad][PPP_gumroad])
+by [@p4ymak][p4ymak_www] is a tiny yet powerful utility for packing images
+into rectangles with arbitrary aspect ratio.
+
+It is useful for creating mood boards, daily art reports, presentations
+and other collages.
+
+Features so far:
+
+- Interactive loading
+
+- Scaling images to equal size
+
+- Optional Margin between images
+
+- Custom Aspect Ratio - now you can set aspect ratio by text in any form
+
+- CLI - You can use it without GUI and embed to your project manager tool
+
+[PickPicPack]: http://www.p43d.com/pickpicpack
+[PPP_github]: https://github.com/p4ymak/pickpicpack
+[PPP_gumroad]: https://p4ymak.gumroad.com/l/pickpicpack
+[p4ymak_www]: http://www.p43d.com/p4ymak
 
 ### [Graphite][graphite-repo]
 
@@ -516,6 +594,21 @@ preserving safety, [issue #808][gd-808] was opened.
 [gd-github]: https://github.com/godot-rust/godot-rust
 [gd-discord]: https://discord.com/invite/FNudpBD
 [gd-twitter]: https://twitter.com/GodotRust
+
+### [NavMesh] v0.12.1
+
+NavMesh crate is a path finding library for 2D and 3D games.
+
+This month changes by [@PsichiX]:
+
+- Added NavGrid structure to find paths on grids.
+- Added NavFreeGrid structure to find paths on cells put in free layout manner
+  (used for example on clusters of cells rather than condensed grid).
+- Added NavIslands structure to allow hierarchical path finding (used for
+  example with streamed navigation islands, such as other path finding
+  structures).
+
+[NavMesh]: https://github.com/PsichiX/navmesh
 
 ## Popular Workgroup Issues in Github
 
