@@ -2,6 +2,7 @@
 title = "This Month in Rust GameDev #28 - November 2021"
 transparent = true
 draft = true
+date = 2021-12-07
 +++
 
 <!-- no toc -->
@@ -514,13 +515,15 @@ suitable for replacing traditional 2D DCC applications.
 [![youtube preview: modelling tree's branches using ball as a cursor](solid-editor.jpg)][solid-video]
 _A [demo video][solid-video] of using the editor_
 
-[Solid Editor][solid] is [Solid Engine][solid-engine]'s custom built voxel graphics editor.
+[Solid Editor][solid] is [Solid Engine][solid-engine]'s custom built
+voxel graphics editor.
 It is designed to be a key part of the engine's asset pipeline,
 enabling creation of game-ready voxel graphics assets.
 Since the engine part is pretty far from being done, the author decided
 to release this editor as a standalone application.
 
-> Besides being natively compatible with Solid Engine, the editor sports some generally interesting and unique features.
+> Besides being natively compatible with Solid Engine, the editor sports
+> some generally interesting and unique features.
 >
 > - True WYSIWYG editing. The editor scene is rendered using Solid Engine's
 >   path tracer in real time, yielding realistic lighting while editing.
