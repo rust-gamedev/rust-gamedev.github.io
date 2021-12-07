@@ -406,7 +406,7 @@ or [GitHub][spv].
 ![Graphite](graphite_splash.png)
 
 Graphite ([GitHub][graphite-repo], [Discord][graphite-discord],
-[Twitter](https://twitter.com/GraphiteEditor)) is an in-development vector and
+[Twitter][graphite-twitter]) is an in-development vector and
 raster graphics editor built on a non-destructive node-based workflow.
 
 The previously announced Alpha release was delayed as core devs returned to
