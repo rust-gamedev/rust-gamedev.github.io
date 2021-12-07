@@ -628,6 +628,17 @@ or [join the next meeting][join].
 <!-- Links to handpicked reddit/twitter/urlo/etc threads that provide
 useful information -->
 
+- [/r/rust_gamedev](https://reddit.com/r/rust_gamedev):
+  - ["Using an ECS as a general-purpose storage container?"](
+    https://reddit.com/r/rust_gamedev/comments/qkb77k/ecs_as_general_container)
+  - ["Where to start?"](https://reddit.com/r/rust_gamedev/comments/qmdw2a/where_to_start)
+  - ["status of wasm32 support in existing game frameworks/engines"](
+    https://reddit.com/r/rust_gamedev/comments/qzhx8u/status_of_wasm32_support)
+  - ["Can Rust do what any C++ game server can at a similar speed?"](
+    https://reddit.com/r/rust_gamedev/comments/qze1v0/can_rust_do_what_c_server_can)
+  - ["Developing a cross-platform game for browser, Ios, and Android using rust?"](
+    https://reddit.com/r/rust_gamedev/comments/r0yia7/crossplatform_game_browser_ios)
+
 ## Requests for Contribution
 
 <!-- Links to "good first issue"-labels or direct links to specific tasks -->
