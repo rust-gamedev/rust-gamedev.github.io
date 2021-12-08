@@ -239,8 +239,8 @@ November's full weekly devlogs: "This Week In Veloren...":
 ![An animation of a platformer where the entire world bends around
 you](bendyworm.gif) _Watch out! The entire world bends around you!_
 
-BENDYWORM ([GitHub][BENDYWORM-github], [Twitter][BENDYWORM-twitter], by
-[@bauxitedev][BENDYWORM-bauxitedev]) is a platformer with a twist: the entire
+BENDYWORM ([GitHub][BENDYWORM-github], [Twitter][BENDYWORM-twitter]) by
+[@bauxitedev][BENDYWORM-bauxitedev] is a platformer with a twist: the entire
 world bends and twists around you as your progress through the level. Why?
 Because you're inside of a gigantic worm, and worms are bendy.
 
