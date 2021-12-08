@@ -612,9 +612,9 @@ This month changes by [@PsichiX]:
 
 ### [Rust CUDA]
 
-[Rust CUDA] by [Riccardo D'Ambrosio] is a newly-released project with the goal
-of making Rust a Tier-1 language for fast GPU computing. There are still many
-bugs, and it's in an early stage.
+[Rust CUDA] by [Riccardo D'Ambrosio] is a [newly-released
+project][rust-cuda-announcement] with the goal of making Rust a Tier-1 language
+for fast GPU computing. There are still many bugs, and it's in an early stage.
 
 With this release comes a few crates. [rustc_codegen_nvvm] for compiling Rust to
 CUDA PTX code using rustc's custom codegen mechanisms and the libnvvm CUDA
