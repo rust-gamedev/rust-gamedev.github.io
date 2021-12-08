@@ -801,18 +801,35 @@ system. There are many other works in progress.
 [rust-cuda-github]: https://github.com/Rust-GPU/Rust-CUDA
 [rust-cuda-announcement]: https://www.reddit.com/r/rust/comments/qzv428/announcing_the_rust_cuda_project_an_ecosystem_of/
 
-## Popular Workgroup Issues in Github
+## Other News
 
-<!-- Up to 10 links to interesting issues -->
+<!-- One-liners for plan items that haven't got their own sections. -->
 
-## Meeting Minutes
+- Other game updates:
+  - [Rust Shooter] is a first person shooter.
+  - [Way of Rhea] is a puzzle platformer with a focus on the puzzle side.
+  - [Necrophaser] is a recently alpha-released Top-Down Shooter made with Bevy
+  - [Stellary 2] is space game made in a custom engine
+  - [Endless Trial] is a 2D bullet-hell game made in Tetra
+- Other learning material updates:
+  - [GBA From Scratch] is a tutorial on how to code for the Game Boy Advance using Rust.
+  - [Ping Pong Tutorial] is a walkthrough on creating a ping pong game in Rust.
+- Other engine updates:
+  - [rg3d] is a 3D game engine.
+  - [mini/macroquad] is a game engine.
+- Other library updates:
+  - [natura] is a spring animation library.
 
-<!-- Up to 10 most important notes + a link to the full details -->
-
-[See all meeting issues][label_meeting] including full text notes
-or [join the next meeting][join].
-
-[label_meeting]: https://github.com/rust-gamedev/wg/issues?q=label%3Ameeting
+[Rust Shooter]: https://reddit.com/r/rust_gamedev/comments/r06n8o/rust_shooter_another_update
+[Way of Rhea]: https://twitter.com/AnthropicSt
+[Necrophaser]: https://reddit.com/r/rust_gamedev/comments/ql65sw/alpha_release_of_necrophaser
+[Stellary 2]: https://twitter.com/CoffeJunkStudio/status/1459493244648280071
+[Endless Trial]: https://reddit.com/r/rust_gamedev/comments/qw5e36/endless_trial_simple_2d_bullethell_game
+[GBA From Scratch]: https://lokathor.github.io/gba-from-scratch/introduction.html
+[Ping Pong Tutorial]: https://phychic-owl.medium.com/rust-project-ping-pong-game-665766cc45ed
+[rg3d]: https://twitter.com/DmitryNStepanov/status/1456338636790697986
+[mini/macroquad]: https://twitter.com/fedor_games/status/1462804219719831552
+[natura]: https://github.com/ziyasal/natura
 
 ## Discussions
 
@@ -832,16 +849,35 @@ useful information -->
 
 ## Requests for Contribution
 
-<!-- Links to "good first issue"-labels or direct links to specific tasks -->
+- [Graphite is looking for contributors][graphite-contribute] to help reach
+  the 0.1 Alpha release.
+- [winit's "difficulty: easy" issues][winit-issues].
+- [Backroll-rs, a new networking library][backroll-rs].
+- [Embark's open issues][embark-open-issues] ([embark.rs]).
+- [wgpu's "help wanted" issues][wgpu-issues].
+- [luminance's "low hanging fruit" issues][luminance-fruits].
+- [ggez's "good first issue" issues][ggez-issues].
+- [Veloren's "beginner" issues][veloren-beginner].
+- [Amethyst's "good first issue" issues][amethyst-issues].
+- [A/B Street's "good first issue" issues][abstreet-issues].
+- [Mun's "good first issue" issues][mun-issues].
+- [SIMple Mechanic's good first issues][simm-issues].
+- [Bevy's "good first issue" issues][bevy-issues].
 
-## Jobs
-
-<!-- An optional section for new jobs related to Rust gamedev -->
-
-## Bonus
-
-<!-- Bonus section to make the newsletter more interesting
-and highlight events from the past. -->
+[graphite-contribute]: https://github.com/GraphiteEditor/Graphite/issues/202
+[winit-issues]: https://github.com/rust-windowing/winit/issues?q=is%3Aopen+is%3Aissue+label%3A%22difficulty%3A+easy%22
+[backroll-rs]: https://github.com/HouraiTeahouse/backroll-rs/issues
+[embark.rs]: https://embark.rs
+[embark-open-issues]: https://github.com/search?q=user:EmbarkStudios+state:open
+[wgpu-issues]: https://github.com/gfx-rs/wgpu/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
+[luminance-fruits]: https://github.com/phaazon/luminance-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22low+hanging+fruit%22
+[ggez-issues]: https://github.com/ggez/ggez/labels/%2AGOOD%20FIRST%20ISSUE%2A
+[veloren-beginner]: https://gitlab.com/veloren/veloren/issues?label_name=beginner
+[amethyst-issues]: https://github.com/amethyst/amethyst/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[abstreet-issues]: https://github.com/a-b-street/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
+[simm-issues]: https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue
+[bevy-issues]: https://github.com/bevyengine/bevy/labels/E-Good-First-Issue
 
 ------
 
