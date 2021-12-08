@@ -321,7 +321,7 @@ watering system. In addition, an automatic stair builder and a grass cutting
 tool was added to reduce the tediousness of these common tasks.
 
 A free playable alpha demo is available at [Idu's Discord server's
-#demo-download channel][idu-discord]! Updates are posted to their
+demo-download channel][idu-discord]! Updates are posted to their
 [Youtube][idu-youtube] as well.
 
 [@logicsoup]: https://twitter.com/logicsoup
