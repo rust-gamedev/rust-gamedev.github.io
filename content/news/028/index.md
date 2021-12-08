@@ -381,6 +381,40 @@ players.
 [paddlepunks-discord]: https://discord.gg/cpPDeVcWxc
 [paddlepunks-rustfest]: https://watch.rustfest.global/
 
+### [Shroom Kingdom][shroom-kingdom]
+
+Shroom Kingdom ([GitHub][shrm-github], [Discord][shrm-discord],
+[Twitter][shrm-twitter]) is an upcoming play-to-earn video game built with web
+technologies running on the [NEAR Blockchain][near-blockchain].
+It is a 2D platformer, where players can also build their own levels
+and share them with others.
+
+Currently a prototype of the game is in development.
+The game is written with the [Bevy game engine][bevy]
+and the [Rapier physics engine][rapier] and is compiled to WebAssembly.
+The prototype is still very basic, but you can already place and remove blocks
+and have a feeling about the physics recreation of the original games.
+
+In the past months there also has been the SHRM token launch and a
+[token airdrop][shrm-airdrop] for NEAR early adopters. The [Shroom Kingdom DAO][shrm-dao]
+is looking for people, who want to become involved and get paid with
+their very own token.
+
+To onboard new users to blockchain gaming, a [linkdrop campaign][shrm-linkdrop]
+is currently in development, where people can claim a small amount of
+NEAR token to create their own wallet.
+
+[shroom-kingdom]: https://shroomkingdom.net/
+[shrm-github]: https://github.com/Shroom-Kingdom
+[shrm-discord]: https://discord.gg/SPZsgSe
+[shrm-twitter]: https://twitter.com/shrm_kingdom
+[near-blockchain]: https://near.org
+[bevy]: https://bevyengine.org/
+[rapier]: https://rapier.rs/
+[shrm-airdrop]: https://twitter.com/shrm_kingdom/status/1450362543608901634?s=20
+[shrm-dao]: https://whitepaper.shroomkingdom.net/8_DAO.html
+[shrm-linkdrop]: https://linkdrop.shroomkingdom.net/
+
 ## Engine Updates
 
 ### [Tetra] 0.6.7
