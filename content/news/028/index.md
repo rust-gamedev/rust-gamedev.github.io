@@ -461,7 +461,7 @@ artists and game designers to use.
 
 ### [The Raytracer Challenge][raytracer-challenge-github]
 
-![The Raytracer Challenge](the-raytracer-challenge.jpg)
+[![The Raytracer Challenge](the-raytracer-challenge.jpg)][raytracer-challenge-playlist]
 
 [The Raytracer Challenge][raytracer-challenge-github] is a project with the goal
 to write a raytracer from scratch in Rust, while showing each step of the way
