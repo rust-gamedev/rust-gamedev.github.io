@@ -424,6 +424,23 @@ raytraced results:
 [raytracer-challenge-shadows]: https://youtu.be/agqAUa1qgGo
 [raytracer-challenge-planes]: https://youtu.be/4y1aRPiH9Ko
 
+### [Rustacean Station 48][rustacean-station-48]
+
+![Rustacean Station Logo](rustacean-station.jpeg)
+
+The [Rustacean Station][rustacean-station] is a podcast about the Rust language.
+
+In November, [Herbert Wolverson][herbert-wolverson] [was
+interviewed][rustacean-station-48] about game development in Rust. In this
+episode, lots is discussed about existing game development engines, and how Rust
+is breaking into this space with engines like Bevy, Amethyst, and RG3D. There is
+also a discussion on the Entity Component System paradigm in comparison to
+Object Oriented Programming.
+
+[herbert-wolverson]: https://twitter.com/herberticus
+[rustacean-station]: https://rustacean-station.org/
+[rustacean-station-48]: https://rustacean-station.org/episode/048-herbert-wolverson/
+
 ### [Rust on the GPU][raph-blog-post]
 
 In [this blog post][raph-blog-post], [Raph Levien] describes the current state
@@ -490,6 +507,36 @@ Features so far:
 [PPP_github]: https://github.com/p4ymak/pickpicpack
 [PPP_gumroad]: https://p4ymak.gumroad.com/l/pickpicpack
 [p4ymak_www]: http://www.p43d.com/p4ymak
+
+### [Graphite][graphite-repo]
+
+![Graphite](graphite_splash.png)
+
+Graphite ([GitHub][graphite-repo], [Discord][graphite-discord],
+[Twitter][graphite-twitter]) is an in-development vector and
+raster graphics editor built on a non-destructive node-based workflow.
+
+The previously announced Alpha release was delayed as core devs returned to
+school— January is the new goal. Development now continues to pick up speed.
+Design of the project website has continued for its launch soon, alongside the
+Alpha release.
+
+The project upgraded to the Rust 2021 edition and made big improvements to the
+frontend TypeScript and web infrastructure. The editor UI is now fully
+responsive at small window sizes. Unsaved document tabs display an `*` and warn
+before closing the window. Ruler measurements now move and scale with the
+document. And the new snapping system helps draw/move shapes aligned with
+others.
+
+[Try it right now in your browser.][graphite-live-demo] Graphite is making
+steady progress towards becoming a non-destructive, procedural graphics editor
+suitable for replacing traditional 2D DCC applications.
+[Join the Discord][graphite-discord] and get involved!
+
+[graphite-repo]: https://github.com/GraphiteEditor/Graphite
+[graphite-discord]: https://discord.graphite.design
+[graphite-twitter]: https://twitter.com/GraphiteEditor
+[graphite-live-demo]: https://editor.graphite.design
 
 ## Library Updates
 
@@ -609,6 +656,17 @@ or [join the next meeting][join].
 
 <!-- Links to handpicked reddit/twitter/urlo/etc threads that provide
 useful information -->
+
+- [/r/rust_gamedev](https://reddit.com/r/rust_gamedev):
+  - ["Using an ECS as a general-purpose storage container?"](
+    https://reddit.com/r/rust_gamedev/comments/qkb77k/ecs_as_general_container)
+  - ["Where to start?"](https://reddit.com/r/rust_gamedev/comments/qmdw2a/where_to_start)
+  - ["status of wasm32 support in existing game frameworks/engines"](
+    https://reddit.com/r/rust_gamedev/comments/qzhx8u/status_of_wasm32_support)
+  - ["Can Rust do what any C++ game server can at a similar speed?"](
+    https://reddit.com/r/rust_gamedev/comments/qze1v0/can_rust_do_what_c_server_can)
+  - ["Developing a cross-platform game for browser, Ios, and Android using rust?"](
+    https://reddit.com/r/rust_gamedev/comments/r0yia7/crossplatform_game_browser_ios)
 
 ## Requests for Contribution
 
