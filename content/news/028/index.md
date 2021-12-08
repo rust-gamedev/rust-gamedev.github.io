@@ -801,6 +801,37 @@ system. There are many other works in progress.
 [rust-cuda-github]: https://github.com/Rust-GPU/Rust-CUDA
 [rust-cuda-announcement]: https://www.reddit.com/r/rust/comments/qzv428/announcing_the_rust_cuda_project_an_ecosystem_of/
 
+
+## Other News
+
+<!-- One-liners for plan items that haven't got their own sections. -->
+
+- Other game updates:
+  - [Rust Shooter] is a first person shooter.
+  - [Way of Rhea] is a puzzle platformer with a focus on the puzzle side.
+  - [Necrophaser] is a recently alpha-released Top-Down Shooter made with Bevy
+  - [Stellary 2] is space game made in a custom engine
+  - [Endless Trial] is a 2D bullet-hell game made in Tetra
+- Other learning material updates:
+  - [GBA From Scratch] is a tutorial on how to code for the Game Boy Advance using Rust.
+  - [Ping Pong Tutorial] is a walkthrough on creating a ping pong game in Rust.
+- Other engine updates:
+  - [rg3d] is a 3D game engine.
+  - [mini/macroquad] is a game engine.
+- Other library updates:
+  - [natura] is a spring animation library.
+
+[Rust Shooter]: https://reddit.com/r/rust_gamedev/comments/r06n8o/rust_shooter_another_update
+[Way of Rhea]: https://twitter.com/AnthropicSt
+[Necrophaser]: https://reddit.com/r/rust_gamedev/comments/ql65sw/alpha_release_of_necrophaser
+[Stellary 2]: https://twitter.com/CoffeJunkStudio/status/1459493244648280071
+[Endless Trial]: https://reddit.com/r/rust_gamedev/comments/qw5e36/endless_trial_simple_2d_bullethell_game
+[GBA From Scratch]: https://lokathor.github.io/gba-from-scratch/introduction.html
+[Ping Pong Tutorial]: https://phychic-owl.medium.com/rust-project-ping-pong-game-665766cc45ed
+[rg3d]: https://twitter.com/DmitryNStepanov/status/1456338636790697986
+[mini/macroquad]: https://twitter.com/fedor_games/status/1462804219719831552
+[natura]: https://github.com/ziyasal/natura
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
