@@ -154,8 +154,8 @@ tunnel full of spiders and other enemies! They also worked on a
 _Screenshot of Halloween Mahjong Solitaire_
 
 Halloween Mahjong Solitaire ([GitHub][mahjong-github]) by
-[@Syn-Nine][synnine-twitter] is a game created by Syn9 for [Game Developers
-Refuge 4x4x4 Challenge], October 2021.
+[@Syn-Nine][synnine-twitter] is a game created for the [Game Developers
+Refuge 4x4x4 Challenge] in October 2021.
 
 The challenge was to create a Halloween themed game based on four emojis. In
 this case the chosen emoji combination was: skull_and_crossbones, bat, game_die,
