@@ -789,9 +789,9 @@ This month changes by [@PsichiX]:
 
 [NavMesh]: https://github.com/PsichiX/navmesh
 
-### [Rust CUDA]
+### [Rust CUDA][rust-cuda-github]
 
-[Rust CUDA] by [Riccardo D'Ambrosio] is a [newly-released
+[Rust CUDA][rust-cuda-github] by [Riccardo D'Ambrosio] is a [newly-released
 project][rust-cuda-announcement] with the goal of making Rust a Tier-1 language
 for fast GPU computing. There are still many bugs, and it's in an early stage.
 
