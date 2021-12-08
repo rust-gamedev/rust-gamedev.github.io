@@ -424,6 +424,23 @@ raytraced results:
 [raytracer-challenge-shadows]: https://youtu.be/agqAUa1qgGo
 [raytracer-challenge-planes]: https://youtu.be/4y1aRPiH9Ko
 
+### [Rustacean Station 48][rustacean-station-48]
+
+![Rustacean Station Logo](rustacean-station.jpeg)
+
+The [Rustacean Station][rustacean-station] is a podcast about the Rust language.
+
+In November, [Herbert Wolverson][herbert-wolverson] [was
+interviewed][rustacean-station-48] about game development in Rust. In this
+episode, lots is discussed about existing game development engines, and how Rust
+is breaking into this space with engines like Bevy, Amethyst, and RG3D. There is
+also a discussion on the Entity Component System paradigm in comparison to
+Object Oriented Programming.
+
+[herbert-wolverson]: https://twitter.com/herberticus
+[rustacean-station]: https://rustacean-station.org/
+[rustacean-station-48]: https://rustacean-station.org/episode/048-herbert-wolverson/
+
 ## Tooling Updates
 
 ### [SPV]
