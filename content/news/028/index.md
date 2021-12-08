@@ -460,6 +460,18 @@ Object Oriented Programming.
 [rustacean-station]: https://rustacean-station.org/
 [rustacean-station-48]: https://rustacean-station.org/episode/048-herbert-wolverson/
 
+### [Rust on the GPU][raph-blog-post]
+
+In [this blog post][raph-blog-post], [Raph Levien] describes the current state
+of coding on a graphics card. The post describes how going about writing custom
+code still induces many issues in this day and age, and what modern technologies
+can be used to help make this easier. [Rust-gpu] is mentioned as a possible way
+to write compute shaders in a "real language".
+
+[Rust-gpu]: https://github.com/EmbarkStudios/rust-gpu
+[Raph Levien]: https://levien.com/
+[raph-blog-post]: https://raphlinus.github.io/gpu/2021/11/17/prefix-sum-portable.html
+
 ## Tooling Updates
 
 ### [SPV]
