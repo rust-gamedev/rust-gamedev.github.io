@@ -336,6 +336,25 @@ Updates are posted to their [Youtube][idu-youtube] as well.
 [idu-discord]: https://discord.gg/PR3GgYYkym
 [idu-youtube]: https://www.youtube.com/channel/UC1JmPXgbR5R2dCsM_QJGe1w
 
+### [Combine&Conquer][cnc-logs]
+
+![items moving through the belt](cac-crossing.png)
+
+Combine&Conquer by [Martin Buck][@I3ck] is a WIP strategy game
+about automation similar to Satisfactory or Factorio.
+
+This month Martin finished [writing a detailed devlog][cnc-logs] for the project
+from first commit up until now.
+A few dozens of short posts cover variuos topics including:
+simulation of arms and conveyor belts with moving items, blueprints,
+testing, rendering, save and load, tech tree and research, and multiplayer.
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/qj03ji/cnc)_
+
+[cnc-logs]: https://buckmartin.de/combine-and-conquer.html
+[@I3ck]: https://github.com/I3ck
+
 ## Engine Updates
 
 ### [Tetra] 0.6.7
