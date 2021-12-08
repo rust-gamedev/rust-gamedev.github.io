@@ -426,6 +426,8 @@ raytraced results:
 
 ### [Rustacean Station 48][rustacean-station-48]
 
+![Rustacean Station Logo](rustacean-station.jpeg)
+
 The [Rustacean Station][rustacean-station] is a podcast about the Rust language.
 
 In November, [Herbert Wolverson][herbert-wolverson] [was
