@@ -357,14 +357,17 @@ _Discussions:
 
 ### [PaddlePunks][paddlepunks-itch]
 
-![Pong, but one of the characters rewinds time to figure out which of the other player's ballusions is actually real](paddlepunks-rewind.gif)
-_One of the characters can spend super meter to rewind time, this is strong but pretty situational._
+![Pong, but one of the characters rewinds time to figure out which of the
+other player's ballusions is actually real](paddlepunks-rewind.gif)
+_One of the characters can spend super meter to rewind time, this is strong
+but pretty situational._
 
 PaddlePunks is a versus tennis game by [Felix Windström][paddlepunks-twitter]
 with a diverse cast of characters and playstyles and online play with rollback
 netcode.
 
-Latest developments: 
+Latest developments:
+
 - Some engine work to improve performance on laptops with integrated GPUs
 - Balance updates to make the skeleton less overbearing
 - Presented the game at [Rustfest][paddlepunks-rustfest] in an interactive session.
