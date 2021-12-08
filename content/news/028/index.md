@@ -424,6 +424,23 @@ raytraced results:
 [raytracer-challenge-shadows]: https://youtu.be/agqAUa1qgGo
 [raytracer-challenge-planes]: https://youtu.be/4y1aRPiH9Ko
 
+### [Rustacean Station 48][rustacean-station-48]
+
+![Rustacean Station Logo](rustacean-station.jpeg)
+
+The [Rustacean Station][rustacean-station] is a podcast about the Rust language.
+
+In November, [Herbert Wolverson][herbert-wolverson] [was
+interviewed][rustacean-station-48] about game development in Rust. In this
+episode, lots is discussed about existing game development engines, and how Rust
+is breaking into this space with engines like Bevy, Amethyst, and RG3D. There is
+also a discussion on the Entity Component System paradigm in comparison to
+Object Oriented Programming.
+
+[herbert-wolverson]: https://twitter.com/herberticus
+[rustacean-station]: https://rustacean-station.org/
+[rustacean-station-48]: https://rustacean-station.org/episode/048-herbert-wolverson/
+
 ### [Rust Roguelike Tutorial][rl-tut]
 
 ![ascii map and ui](rl-tut.jpg)
@@ -541,6 +558,44 @@ suitable for replacing traditional 2D DCC applications.
 [graphite-discord]: https://discord.graphite.design
 [graphite-twitter]: https://twitter.com/GraphiteEditor
 [graphite-live-demo]: https://editor.graphite.design
+
+### [Solid Editor][solid]
+
+[![youtube preview: modelling tree's branches using ball as a cursor](solid-editor.jpg)][solid-video]
+_A [demo video][solid-video] of using the editor_
+
+[Solid Editor][solid] is [Solid Engine][solid-engine]'s custom built
+voxel graphics editor.
+It is designed to be a key part of the engine's asset pipeline,
+enabling creation of game-ready voxel graphics assets.
+Since the engine part is pretty far from being done, the author decided
+to release this editor as a standalone application.
+
+> Besides being natively compatible with Solid Engine, the editor sports
+> some generally interesting and unique features.
+>
+> - True WYSIWYG editing. The editor scene is rendered using Solid Engine's
+>   path tracer in real time, yielding realistic lighting while editing.
+> - The possibility to edit voxels directly in 3D, by using any
+>   brightly colored ball as a 3D pointing device.
+>   Read more about the [Ball Pointer][solid-ball].
+> - A novel approach to editor tools.
+>   Instead of many different tools with overlapping functionality
+>   (e.g. "draw square" vs. "select square", or "bucket fill" vs. "magic wand")
+>   there is only one, a versatile Selection tool.
+>   Different effects can be applied to the selected voxels,
+>   producing the same results as regular editor tools.
+>   Combined with real-time effect preview, the user experience is very similar
+>   to that of classic graphics editors, with the added benefit
+>   of being able to tweak every edit before applying it.
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/qrsu1n/solid_editor_a_voxel_editor)_
+
+[solid]: https://solidengine.org/solid-editor
+[solid-engine]: https://solidengine.org
+[solid-video]: https://youtube.com/watch?v=GuVM3W9Pfdg
+[solid-ball]: https://solidengine.org/ball-pointer
 
 ## Library Updates
 
@@ -660,6 +715,17 @@ or [join the next meeting][join].
 
 <!-- Links to handpicked reddit/twitter/urlo/etc threads that provide
 useful information -->
+
+- [/r/rust_gamedev](https://reddit.com/r/rust_gamedev):
+  - ["Using an ECS as a general-purpose storage container?"](
+    https://reddit.com/r/rust_gamedev/comments/qkb77k/ecs_as_general_container)
+  - ["Where to start?"](https://reddit.com/r/rust_gamedev/comments/qmdw2a/where_to_start)
+  - ["status of wasm32 support in existing game frameworks/engines"](
+    https://reddit.com/r/rust_gamedev/comments/qzhx8u/status_of_wasm32_support)
+  - ["Can Rust do what any C++ game server can at a similar speed?"](
+    https://reddit.com/r/rust_gamedev/comments/qze1v0/can_rust_do_what_c_server_can)
+  - ["Developing a cross-platform game for browser, Ios, and Android using rust?"](
+    https://reddit.com/r/rust_gamedev/comments/r0yia7/crossplatform_game_browser_ios)
 
 ## Requests for Contribution
 
