@@ -803,8 +803,6 @@ system. There are many other works in progress.
 
 ## Other News
 
-<!-- One-liners for plan items that haven't got their own sections. -->
-
 - Other game updates:
   - [Rust Shooter] is a first person shooter.
   - [Way of Rhea] is a puzzle platformer with a focus on the puzzle side.
@@ -812,7 +810,8 @@ system. There are many other works in progress.
   - [Stellary 2] is space game made in a custom engine
   - [Endless Trial] is a 2D bullet-hell game made in Tetra
 - Other learning material updates:
-  - [GBA From Scratch] is a tutorial on how to code for the Game Boy Advance using Rust.
+  - [GBA From Scratch] is a tutorial on how to code for the Game Boy Advance
+    using Rust.
   - [Ping Pong Tutorial] is a walkthrough on creating a ping pong game in Rust.
 - Other engine updates:
   - [rg3d] is a 3D game engine.
