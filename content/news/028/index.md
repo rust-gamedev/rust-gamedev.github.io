@@ -665,6 +665,34 @@ This month changes by [@PsichiX]:
 
 [NavMesh]: https://github.com/PsichiX/navmesh
 
+### [Rust CUDA]
+
+[Rust CUDA] by [Riccardo D'Ambrosio] is a [newly-released
+project][rust-cuda-announcement] with the goal of making Rust a Tier-1 language
+for fast GPU computing. There are still many bugs, and it's in an early stage.
+
+With this release comes a few crates. [rustc_codegen_nvvm] for compiling Rust to
+CUDA PTX code using rustc's custom codegen mechanisms and the libnvvm CUDA
+library. [cust] for actually executing the PTX is a high-level wrapper for the
+CUDA Driver API. [cuda_builder] for easily building GPU crates. [cuda_std] is
+the GPU-side standard library which complements rustc_codegen_nvvm. [gpu_rand]
+is a GPU-friendly random number generation. [nvvm] is high-level bindings to
+libnvvm, and [ptx_compiler] is high-level bindings to the PTX compiler APIs,
+which are currently incomplete. [find_cuda_helper] is for finding CUDA on the
+system. There are many other works in progress.
+
+[rustc_codegen_nvvm]: https://crates.io/crates/rustc_codegen_nvvm
+[cust]: https://crates.io/crates/cust
+[cuda_builder]: https://crates.io/crates/cuda_builder
+[cuda_std]: https://crates.io/crates/cuda_std
+[gpu_rand]: https://crates.io/crates/gpu_rand
+[nvvm]: https://crates.io/crates/nvvm
+[ptx_compiler]: https://crates.io/crates/ptx_compiler
+[find_cuda_helper]: https://crates.io/crates/find_cuda_helper
+[Riccardo D'Ambrosio]: https://github.com/RDambrosio016
+[rust-cuda-github]: https://github.com/Rust-GPU/Rust-CUDA
+[rust-cuda-announcement]: https://www.reddit.com/r/rust/comments/qzv428/announcing_the_rust_cuda_project_an_ecosystem_of/
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
