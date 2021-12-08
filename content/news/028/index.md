@@ -526,6 +526,44 @@ suitable for replacing traditional 2D DCC applications.
 [graphite-twitter]: https://twitter.com/GraphiteEditor
 [graphite-live-demo]: https://editor.graphite.design
 
+### [Solid Editor][solid]
+
+[![youtube preview: modelling tree's branches using ball as a cursor](solid-editor.jpg)][solid-video]
+_A [demo video][solid-video] of using the editor_
+
+[Solid Editor][solid] is [Solid Engine][solid-engine]'s custom built
+voxel graphics editor.
+It is designed to be a key part of the engine's asset pipeline,
+enabling creation of game-ready voxel graphics assets.
+Since the engine part is pretty far from being done, the author decided
+to release this editor as a standalone application.
+
+> Besides being natively compatible with Solid Engine, the editor sports
+> some generally interesting and unique features.
+>
+> - True WYSIWYG editing. The editor scene is rendered using Solid Engine's
+>   path tracer in real time, yielding realistic lighting while editing.
+> - The possibility to edit voxels directly in 3D, by using any
+>   brightly colored ball as a 3D pointing device.
+>   Read more about the [Ball Pointer][solid-ball].
+> - A novel approach to editor tools.
+>   Instead of many different tools with overlapping functionality
+>   (e.g. "draw square" vs. "select square", or "bucket fill" vs. "magic wand")
+>   there is only one, a versatile Selection tool.
+>   Different effects can be applied to the selected voxels,
+>   producing the same results as regular editor tools.
+>   Combined with real-time effect preview, the user experience is very similar
+>   to that of classic graphics editors, with the added benefit
+>   of being able to tweak every edit before applying it.
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/qrsu1n/solid_editor_a_voxel_editor)_
+
+[solid]: https://solidengine.org/solid-editor
+[solid-engine]: https://solidengine.org
+[solid-video]: https://youtube.com/watch?v=GuVM3W9Pfdg
+[solid-ball]: https://solidengine.org/ball-pointer
+
 ## Library Updates
 
 ### [Pixels] 0.8.0 👾
