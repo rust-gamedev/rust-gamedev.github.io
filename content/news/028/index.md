@@ -8,20 +8,15 @@ date = 2021-12-08
 
 <!-- Check the post with markdownlint-->
 
-Welcome to the 28th issue of the Rust GameDev Workgroup's
-monthly newsletter.
-[Rust] is a systems language pursuing the trifecta:
-safety, concurrency, and speed.
-These goals are well-aligned with game development.
-We hope to build an inviting ecosystem for anyone wishing
-to use Rust in their development process!
+Welcome to the 28th issue of the Rust GameDev Workgroup's monthly newsletter.
+[Rust] is a systems language pursuing the trifecta: safety, concurrency, and
+speed. These goals are well-aligned with game development. We hope to build an
+inviting ecosystem for anyone wishing to use Rust in their development process!
 Want to get involved? [Join the Rust GameDev working group!][join]
 
-You can follow the newsletter creation process
-by watching [the coordination issues][coordination].
-Want something mentioned in the next newsletter?
-[Send us a pull request][pr].
-Feel free to send PRs about your own projects!
+You can follow the newsletter creation process by watching [the coordination
+issues][coordination]. Want something mentioned in the next newsletter? [Send us
+a pull request][pr]. Feel free to send PRs about your own projects!
 
 [Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
@@ -68,13 +63,13 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ![Gamedev meetup poster](gamedev-meetup.png)
 
-The eleventh Rust Gamedev Meetup happened in November. You can watch the recording
-of the meetup [here on Youtube][gamedev-meetup-video]. The meetups take place on
-the second Saturday every month via the [Rust Gamedev Discord
+The eleventh Rust Gamedev Meetup happened in November. You can watch the
+recording of the meetup [here on Youtube][gamedev-meetup-video]. The meetups
+take place on the second Saturday every month via the [Rust Gamedev Discord
 server][rust-gamedev-discord] and are also [streamed on
 Twitch][rust-gamedev-twitch]. If you would like to show off what you've been
-working on at the next meetup on [December 11th][rust-meetup-dec-time], fill
-out [this form][gamedev-meetup-form].
+working on at the next meetup on [December 11th][rust-meetup-dec-time], fill out
+[this form][gamedev-meetup-form].
 
 [gamedev-meetup-video]: https://youtu.be/nLyiLnC5mn4
 [rust-gamedev-discord]: https://discord.gg/yNtPTb2
@@ -108,8 +103,8 @@ _Screenshot of One-Click Ninja_
 One-Click Ninja is a rhythm game made in 10 days for [1-Button Jam 2021],
 written in Rust using the [Bevy] engine.
 
-The source is available MIT licensed on [GitHub][One-Click Ninja], and
-you can [play in your browser on itch.io][One-Click Ninja itch.io].
+The source is available MIT licensed on [GitHub][One-Click Ninja], and you can
+[play in your browser on itch.io][One-Click Ninja itch.io].
 
 [One-Click Ninja]: https://github.com/fluffysquirrels/one-click-ninja
 [One-Click Ninja itch.io]: https://fluffysquirrels.itch.io/one-click-ninja
@@ -120,11 +115,11 @@ you can [play in your browser on itch.io][One-Click Ninja itch.io].
 
 [![fishfight](fishfight.gif)][fishfight-steam]
 
-Fish Fight is a fast-paced 2D brawler game, played by 1-4 players online
-or on a shared screen, built with [macroquad] game engine.
+Fish Fight is a fast-paced 2D brawler game, played by 1-4 players online or on a
+shared screen, built with [macroquad] game engine.
 
-This month it got a trailer, and the game is now available to
-wishlist on [Steam][fishfight-steam]!
+This month it got a trailer, and the game is now available to wishlist on
+[Steam][fishfight-steam]!
 
 [macroquad]: https://github.com/not-fl3/macroquad
 [fishfight-github]: https://github.com/FishFight/FishFightThePrequel
@@ -136,15 +131,15 @@ wishlist on [Steam][fishfight-steam]!
 
 BITGUN ([Steam][bitgun-steam], [Twitter][bitgun-twitter],
 [Discord][bitgun-discord]) by [@LogLogGames][bitgun-twitter] is an action
-roguelike zombie shooter with lots of blood. The game is built using Godot
-and Rust (via [godot-rust][bitgun-godot-rust]).
+roguelike zombie shooter with lots of blood. The game is built using Godot and
+Rust (via [godot-rust][bitgun-godot-rust]).
 
-They recently implemented a mission system, where you can select one of
-[three types of missions][bitgun-missions] to go to from the central camp.
-One is to defend supplies from horde of zombies, second is to search
-a facility for some object or clear all the zombies and the last one
-is to fight your way through a tunnel full of spiders and other enemies!
-They also worked on a [tutorial][bitgun-tutorial].
+They recently implemented a mission system, where you can select one of [three
+types of missions][bitgun-missions] to go to from the central camp. One is to
+defend supplies from horde of zombies, second is to search a facility for some
+object or clear all the zombies and the last one is to fight your way through a
+tunnel full of spiders and other enemies! They also worked on a
+[tutorial][bitgun-tutorial].
 
 [bitgun-steam]: https://store.steampowered.com/app/1673940/BITGUN/
 [bitgun-twitter]: https://twitter.com/logloggames
@@ -158,12 +153,13 @@ They also worked on a [tutorial][bitgun-tutorial].
 ![Halloween Mahjong Solitaire screenshot](mahjong-screenshot.png)
 _Screenshot of Halloween Mahjong Solitaire_
 
-Halloween Mahjong Solitaire ([GitHub][mahjong-github]) by [@Syn-Nine][synnine-twitter]
-is a game created by Syn9 for [Game Developers Refuge 4x4x4 Challenge], October 2021.
+Halloween Mahjong Solitaire ([GitHub][mahjong-github]) by
+[@Syn-Nine][synnine-twitter] is a game created by Syn9 for [Game Developers
+Refuge 4x4x4 Challenge], October 2021.
 
 The challenge was to create a Halloween themed game based on four emojis. In
-this case the chosen emoji combination was: skull_and_crossbones, bat,
-game_die, and shinto_shrine (☠️ 🦇 🎲 ⛩️).
+this case the chosen emoji combination was: skull_and_crossbones, bat, game_die,
+and shinto_shrine (☠️ 🦇 🎲 ⛩️).
 
 The game is part of an open source repository of several mini-games that use
 Syn9's [Rust Mini Game Framework][mgfw].
@@ -244,9 +240,9 @@ November's full weekly devlogs: "This Week In Veloren...":
 you](bendyworm.gif) _Watch out! The entire world bends around you!_
 
 BENDYWORM ([GitHub][BENDYWORM-github], [Twitter][BENDYWORM-twitter], by
-[@bauxitedev][BENDYWORM-bauxitedev]) is a platformer with a twist:
-the entire world bends and twists around you as your progress through the
-level. Why? Because you're inside of a gigantic worm, and worms are bendy.
+[@bauxitedev][BENDYWORM-bauxitedev]) is a platformer with a twist: the entire
+world bends and twists around you as your progress through the level. Why?
+Because you're inside of a gigantic worm, and worms are bendy.
 
 The game was made for GitHub Game Off 2021, and uses `godot-rust` behind the
 scenes.
@@ -270,14 +266,13 @@ _Discussions:
 
 [![A molecoole and some enemies](molecoole.png)][molecoole-steam]
 
-Molecoole is a top-down shooter roguelike where you build your character
-from different atoms. Each atom has a unique ability providing
-tons of variety between playthroughs.
-It's made using the [Bevy Engine](https://github.com/bevyengine/bevy).
+Molecoole is a top-down shooter roguelike where you build your character from
+different atoms. Each atom has a unique ability providing tons of variety
+between playthroughs. It's made using the [Bevy
+Engine](https://github.com/bevyengine/bevy).
 
-This month Molecoole launched its [Steam page][molecoole-steam]!
-They also added [new weapons][weapon-twitter] and
-new [bosses][boss-twitter].
+This month Molecoole launched its [Steam page][molecoole-steam]! They also added
+[new weapons][weapon-twitter] and new [bosses][boss-twitter].
 
 In December their main focus will be on audio, and polishing the game.
 
@@ -289,22 +284,20 @@ In December their main focus will be on audio, and polishing the game.
 
 ![hgs_screen](hgs5.jpg)
 
-[Hydrofoil Generation] ([Facebook][hgs_facebook],
-[Discord][hgs_discord]) is a realistic sailing/foiling
-inshore simulator in development for PC/Steam that will put you in the
-driving seat of modern competitive sailing.
+[Hydrofoil Generation] ([Facebook][hgs_facebook], [Discord][hgs_discord]) is a
+realistic sailing/foiling inshore simulator in development for PC/Steam that
+will put you in the driving seat of modern competitive sailing.
 
-November was dedicated to the launch of the [Steam Store][hgs_steam] page and associated
-[trailer][hgs_trailer] showcasing Hydrofoil Generation's custom Rust engine in motion
-for the first time.
-Constant tweaks to the boat behavior and addition of gameplay features are
-ongoing as the planned Q2 2022 Steam Early Access release gets closer
-and closer.
+November was dedicated to the launch of the [Steam Store][hgs_steam] page and
+associated [trailer][hgs_trailer] showcasing Hydrofoil Generation's custom Rust
+engine in motion for the first time. Constant tweaks to the boat behavior and
+addition of gameplay features are ongoing as the planned Q2 2022 Steam Early
+Access release gets closer and closer.
 
-December 2021 will see an attempt to port the rendering backend of the game
-from DirectX 11 to WGPU in order to widen the number of platforms reacheable
-with a particular interest in the Steam Deck that seems to offer the perfect
-controller layout for such a demanding simulation as Hydrofoil Generation.
+December 2021 will see an attempt to port the rendering backend of the game from
+DirectX 11 to WGPU in order to widen the number of platforms reacheable with a
+particular interest in the Steam Deck that seems to offer the perfect controller
+layout for such a demanding simulation as Hydrofoil Generation.
 
 You will be able to follow the progress of the port Mondays and Fridays on
 [Twitch][hgs_twitch].
@@ -320,16 +313,16 @@ You will be able to follow the progress of the port Mondays and Fridays on
 
 ![idu's new sprinkler in action](idu.gif)
 
-Idu ([Discord][idu-discord]) by [@logicsoup] and [@epcc10]
-is an upcoming game centered around growing realistic plants.
+Idu ([Discord][idu-discord]) by [@logicsoup] and [@epcc10] is an upcoming game
+centered around growing realistic plants.
 
 In November, a new major update was released that overhauled the automatic
-watering system. In addition, an automatic stair builder and a grass
-cutting tool was added to reduce the tediousness of these common tasks.
+watering system. In addition, an automatic stair builder and a grass cutting
+tool was added to reduce the tediousness of these common tasks.
 
-A free playable alpha demo is available
-at [Idu's Discord server's #demo-download channel][idu-discord]!
-Updates are posted to their [Youtube][idu-youtube] as well.
+A free playable alpha demo is available at [Idu's Discord server's
+#demo-download channel][idu-discord]! Updates are posted to their
+[Youtube][idu-youtube] as well.
 
 [@logicsoup]: https://twitter.com/logicsoup
 [@epcc10]: https://twitter.com/epcc10
@@ -340,13 +333,12 @@ Updates are posted to their [Youtube][idu-youtube] as well.
 
 ![items moving through the belt](cac-crossing.png)
 
-Combine&Conquer by [Martin Buck][@I3ck] is a WIP strategy game
-about automation similar to Satisfactory or Factorio.
+Combine&Conquer by [Martin Buck][@I3ck] is a WIP strategy game about automation
+similar to Satisfactory or Factorio.
 
 This month Martin finished [writing a detailed devlog][cnc-logs] for the project
-from first commit up until now.
-A few dozens of short posts cover variuos topics including:
-simulation of arms and conveyor belts with moving items, blueprints,
+from first commit up until now. A few dozens of short posts cover variuos topics
+including: simulation of arms and conveyor belts with moving items, blueprints,
 testing, rendering, save and load, tech tree and research, and multiplayer.
 
 _Discussions:
@@ -357,10 +349,10 @@ _Discussions:
 
 ### [PaddlePunks][paddlepunks-itch]
 
-![Pong, but one of the characters rewinds time to figure out which of the
-other player's ballusions is actually real](paddlepunks-rewind.gif)
-_One of the characters can spend super meter to rewind time, this is strong
-but pretty situational._
+![Pong, but one of the characters rewinds time to figure out which of the other
+player's ballusions is actually real](paddlepunks-rewind.gif) _One of the
+characters can spend super meter to rewind time, this is strong but pretty
+situational._
 
 PaddlePunks is a versus tennis game by [Felix Windström][paddlepunks-twitter]
 with a diverse cast of characters and playstyles and online play with rollback
@@ -370,11 +362,11 @@ Latest developments:
 
 - Some engine work to improve performance on laptops with integrated GPUs
 - Balance updates to make the skeleton less overbearing
-- Presented the game at [Rustfest][paddlepunks-rustfest] in an interactive session.
+- Presented the game at [Rustfest][paddlepunks-rustfest] in an interactive
+  session.
 
-You can download and play the game now on [itch.io][paddlepunks-itch], or
-join the [Discord][paddlepunks-discord] to chat with the developer and other
-players.
+You can download and play the game now on [itch.io][paddlepunks-itch], or join
+the [Discord][paddlepunks-discord] to chat with the developer and other players.
 
 [paddlepunks-twitter]: https://twitter.com/sov_gott_games
 [paddlepunks-itch]: https://sovgott.itch.io/paddlepunks
@@ -385,24 +377,24 @@ players.
 
 Shroom Kingdom ([GitHub][shrm-github], [Discord][shrm-discord],
 [Twitter][shrm-twitter]) is an upcoming play-to-earn video game built with web
-technologies running on the [NEAR Blockchain][near-blockchain].
-It is a 2D platformer, where players can also build their own levels
-and share them with others.
+technologies running on the [NEAR Blockchain][near-blockchain]. It is a 2D
+platformer, where players can also build their own levels and share them with
+others.
 
-Currently a prototype of the game is in development.
-The game is written with the [Bevy game engine][bevy]
-and the [Rapier physics engine][rapier] and is compiled to WebAssembly.
-The prototype is still very basic, but you can already place and remove blocks
-and have a feeling about the physics recreation of the original games.
+Currently a prototype of the game is in development. The game is written with
+the [Bevy game engine][bevy] and the [Rapier physics engine][rapier] and is
+compiled to WebAssembly. The prototype is still very basic, but you can already
+place and remove blocks and have a feeling about the physics recreation of the
+original games.
 
-In the past months there also has been the SHRM token launch and a
-[token airdrop][shrm-airdrop] for NEAR early adopters. The [Shroom Kingdom DAO][shrm-dao]
-is looking for people, who want to become involved and get paid with
-their very own token.
+In the past months there also has been the SHRM token launch and a [token
+airdrop][shrm-airdrop] for NEAR early adopters. The [Shroom Kingdom
+DAO][shrm-dao] is looking for people, who want to become involved and get paid
+with their very own token.
 
 To onboard new users to blockchain gaming, a [linkdrop campaign][shrm-linkdrop]
-is currently in development, where people can claim a small amount of
-NEAR token to create their own wallet.
+is currently in development, where people can claim a small amount of NEAR token
+to create their own wallet.
 
 [shroom-kingdom]: https://shroomkingdom.net/
 [shrm-github]: https://github.com/Shroom-Kingdom
@@ -428,8 +420,8 @@ month, version 0.6.7 was released, featuring:
 
 For more details, see the [changelog][tetra-changelog].
 
-Additionally, development has begun on version 0.7 - check out
-[the planned features and changes][tetra-07], and feel free to suggest more!
+Additionally, development has begun on version 0.7 - check out [the planned
+features and changes][tetra-07], and feel free to suggest more!
 
 [Tetra]: https://github.com/17cupsofcoffee/tetra
 [tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
@@ -443,21 +435,21 @@ The hottest HTML5 + WASM game engine for games written in Rust with web-sys.
 
 [@PsichiX], the creator of [Oxygengine], spent last two months on making:
 
-- First few chapters of the book explaining how Oxygengine works in:
-  [Oxygengine Essentials Book][oxygengine-book].
+- First few chapters of the book explaining how Oxygengine works in: [Oxygengine
+  Essentials Book][oxygengine-book].
 - New hardware-accelerated renderer based on Material Graphs (to allow making
-  faster and better quality game visuals - more about that in
-  [Material Graph based rendering][oxygengine-material-graph] chapter).
+  faster and better quality game visuals - more about that in [Material Graph
+  based rendering][oxygengine-material-graph] chapter).
 - New Overworld game module (which aims to provide all essential features needed
   by RPG game developers, to let them focus on making an actual game).
 - New AI feature module (WIP) that integrates [Emergent AI][emergent] crate with
   the engine.
 - Plugin-based asset pipeline as well as support for LDtk software projects.
 
-All these changes marks the beginning of stabilizing phase of the engine.
-The API more or less won't change much - now the focus is put entirely on
-the features that will push progress towards the Ignite visual game editor
-for artists and game designers to use.
+All these changes marks the beginning of stabilizing phase of the engine. The
+API more or less won't change much - now the focus is put entirely on the
+features that will push progress towards the Ignite visual game editor for
+artists and game designers to use.
 
 [Oxygengine]: https://github.com/PsichiX/Oxygengine
 [@PsichiX]: https://twitter.com/PsichiX
@@ -478,8 +470,8 @@ documented, starting with implementing [Vectors][raytracer-challenge-vector] and
 [Matrices][raytracer-challenge-matrix] all the way to creating [Phong
 Lighting][raytracer-challenge-phong].
 
-November has been a busy month for the project with lots of visual changes in the
-raytraced results:
+November has been a busy month for the project with lots of visual changes in
+the raytraced results:
 
 - A [camera][raytracer-challenge-camera] was added to allow arbitrary views on
   the [World][raytracer-challenge-world].
@@ -537,10 +529,10 @@ to write compute shaders in a "real language".
 ![ascii map and ui](rl-tut.jpg)
 _A nasty demon monster at the exit to Abyss_
 
-[The Roguelike Tutorial][rl-tut] by [@herberticus] got
-a [new 75th (!) chapter][rl-tut-new] that shows
-how to generate a chaotic Voronoi-based city plaza inhabited by dark elves
-and adds a new big demon enemy to guard the Abyss portal.
+[The Roguelike Tutorial][rl-tut] by [@herberticus] got a [new 75th (!)
+chapter][rl-tut-new] that shows how to generate a chaotic Voronoi-based city
+plaza inhabited by dark elves and adds a new big demon enemy to guard the Abyss
+portal.
 
 > You can battle your way down to the Dark Elf Plaza,
 > and find the gateway to Abyss - but only if you can evade a hulking demon
@@ -556,10 +548,10 @@ and adds a new big demon enemy to guard the Abyss portal.
 ![A screenshot of a game in a browser](hor-bonus.jpg)
 _A Dungeon Crawler running in a browser_
 
-Another update from [@herberticus] is a bonus article for the
-[Hands-on Rust][hor] book: ["Run Your Rust Games in a Browser"][hor-bonus]
-that guides the reader though the basics of building and publishing
-[bracket-lib] games in WebAssembly.
+Another update from [@herberticus] is a bonus article for the [Hands-on
+Rust][hor] book: ["Run Your Rust Games in a Browser"][hor-bonus] that guides the
+reader though the basics of building and publishing [bracket-lib] games in
+WebAssembly.
 
 [hor-bonus]: https://hands-on-rust.com/2021/11/06/run-your-rust-games-in-a-browser-hands-on-rust-bonus-content/
 [hor]: https://hands-on-rust.com
@@ -571,19 +563,17 @@ that guides the reader though the basics of building and publishing
 
 ![SPV-0.3.5 screenshot](spv-0.3.5.png)
 
-[SPV] by [Albin Sjögren]
-is a calculator utility for working with astronomical position and velocity data.
+[SPV] by [Albin Sjögren] is a calculator utility for working with astronomical
+position and velocity data.
 
-In the last month, a relative position and velocity
-calculation system has been added.
-This is due to the inaccuracy of astronomic data.
-With this new method that relies on the orbital elements of
-two body systems getting data for multibody simulation is now possible.
+In the last month, a relative position and velocity calculation system has been
+added. This is due to the inaccuracy of astronomic data. With this new method
+that relies on the orbital elements of two body systems getting data for
+multibody simulation is now possible.
 
-Apart from this new equation set, [SPV] now also has a more standard
-color scheme based on the one GitHub uses.
-This month also came with numerous bug fixes and a more
-concrete plan for future development.
+Apart from this new equation set, [SPV] now also has a more standard color
+scheme based on the one GitHub uses. This month also came with numerous bug
+fixes and a more concrete plan for future development.
 
 For any feature requests, reach out to the developer on [Discord][spv-discord]
 or [GitHub][spv].
@@ -596,23 +586,19 @@ or [GitHub][spv].
 
 ![PickPicPack 0.1.6](pickpicpack_0.1.6.gif)
 
-[PickPicPack] ([GitHub][PPP_github], [Gumroad][PPP_gumroad])
-by [@p4ymak][p4ymak_www] is a tiny yet powerful utility for packing images
-into rectangles with arbitrary aspect ratio.
+[PickPicPack] ([GitHub][PPP_github], [Gumroad][PPP_gumroad]) by
+[@p4ymak][p4ymak_www] is a tiny yet powerful utility for packing images into
+rectangles with arbitrary aspect ratio.
 
-It is useful for creating mood boards, daily art reports, presentations
-and other collages.
+It is useful for creating mood boards, daily art reports, presentations and
+other collages.
 
 Features so far:
 
 - Interactive loading
-
 - Scaling images to equal size
-
 - Optional Margin between images
-
 - Custom Aspect Ratio - now you can set aspect ratio by text in any form
-
 - CLI - You can use it without GUI and embed to your project manager tool
 
 [PickPicPack]: http://www.p43d.com/pickpicpack
@@ -625,8 +611,8 @@ Features so far:
 ![Graphite](graphite_splash.png)
 
 Graphite ([GitHub][graphite-repo], [Discord][graphite-discord],
-[Twitter][graphite-twitter]) is an in-development vector and
-raster graphics editor built on a non-destructive node-based workflow.
+[Twitter][graphite-twitter]) is an in-development vector and raster graphics
+editor built on a non-destructive node-based workflow.
 
 The previously announced Alpha release was delayed as core devs returned to
 school— January is the new goal. Development now continues to pick up speed.
@@ -642,8 +628,8 @@ others.
 
 [Try it right now in your browser.][graphite-live-demo] Graphite is making
 steady progress towards becoming a non-destructive, procedural graphics editor
-suitable for replacing traditional 2D DCC applications.
-[Join the Discord][graphite-discord] and get involved!
+suitable for replacing traditional 2D DCC applications. [Join the
+Discord][graphite-discord] and get involved!
 
 [graphite-repo]: https://github.com/GraphiteEditor/Graphite
 [graphite-discord]: https://discord.graphite.design
@@ -655,30 +641,28 @@ suitable for replacing traditional 2D DCC applications.
 [![youtube preview: modelling tree's branches using ball as a cursor](solid-editor.jpg)][solid-video]
 _A [demo video][solid-video] of using the editor_
 
-[Solid Editor][solid] is [Solid Engine][solid-engine]'s custom built
-voxel graphics editor.
-It is designed to be a key part of the engine's asset pipeline,
-enabling creation of game-ready voxel graphics assets.
-Since the engine part is pretty far from being done, the author decided
-to release this editor as a standalone application.
+[Solid Editor][solid] is [Solid Engine][solid-engine]'s custom built voxel
+graphics editor. It is designed to be a key part of the engine's asset pipeline,
+enabling creation of game-ready voxel graphics assets. Since the engine part is
+pretty far from being done, the author decided to release this editor as a
+standalone application.
 
-> Besides being natively compatible with Solid Engine, the editor sports
-> some generally interesting and unique features.
+> Besides being natively compatible with Solid Engine, the editor sports some
+> generally interesting and unique features.
 >
-> - True WYSIWYG editing. The editor scene is rendered using Solid Engine's
->   path tracer in real time, yielding realistic lighting while editing.
-> - The possibility to edit voxels directly in 3D, by using any
->   brightly colored ball as a 3D pointing device.
->   Read more about the [Ball Pointer][solid-ball].
-> - A novel approach to editor tools.
->   Instead of many different tools with overlapping functionality
->   (e.g. "draw square" vs. "select square", or "bucket fill" vs. "magic wand")
->   there is only one, a versatile Selection tool.
->   Different effects can be applied to the selected voxels,
->   producing the same results as regular editor tools.
->   Combined with real-time effect preview, the user experience is very similar
->   to that of classic graphics editors, with the added benefit
->   of being able to tweak every edit before applying it.
+> - True WYSIWYG editing. The editor scene is rendered using Solid Engine's path
+>   tracer in real time, yielding realistic lighting while editing.
+> - The possibility to edit voxels directly in 3D, by using any brightly colored
+>   ball as a 3D pointing device. Read more about the [Ball
+>   Pointer][solid-ball].
+> - A novel approach to editor tools. Instead of many different tools with
+>   overlapping functionality (e.g. "draw square" vs. "select square", or
+>   "bucket fill" vs. "magic wand") there is only one, a versatile Selection
+>   tool. Different effects can be applied to the selected voxels, producing the
+>   same results as regular editor tools. Combined with real-time effect
+>   preview, the user experience is very similar to that of classic graphics
+>   editors, with the added benefit of being able to tweak every edit before
+>   applying it.
 
 _Discussions:
 [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/qrsu1n/solid_editor_a_voxel_editor)_
@@ -728,8 +712,8 @@ query combinators, a `CommandBuffer` for recording operations to be applied to a
 `World` at a future time, accessors for efficient random access within columns,
 and a variant of `EntityBuilder` that clones its components and can therefore be
 spawned from repeatedly. Other improvements include compatibility with 32-bit
-MIPS and PPC, and introduction of a niche to `Entity` so that
-e.g. `Option<Entity>` will not consume additional space.
+MIPS and PPC, and introduction of a niche to `Entity` so that e.g.
+`Option<Entity>` will not consume additional space.
 
 [hecs]: https://github.com/Ralith/hecs
 [hecs-changelog]: https://github.com/Ralith/hecs/blob/master/CHANGELOG.md#071
@@ -759,8 +743,8 @@ accessible:
 As a binding to a C++ library, one topic godot-rust has to deal with is the use
 of `unsafe`, which sometimes boils down to a trade-off between safety and
 ease-of-use. Even though Rust provides basic guidelines, there are different
-philosophies on their execution, see [The CXX Debate][gd-cxx] for an example.
-To discuss how APIs interacting with Godot can as ergonomic as possible while
+philosophies on their execution, see [The CXX Debate][gd-cxx] for an example. To
+discuss how APIs interacting with Godot can as ergonomic as possible while
 preserving safety, [issue #808][gd-808] was opened.
 
 [gd-808]: https://github.com/godot-rust/godot-rust/pull/808
