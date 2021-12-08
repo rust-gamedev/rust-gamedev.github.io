@@ -336,6 +336,25 @@ Updates are posted to their [Youtube][idu-youtube] as well.
 [idu-discord]: https://discord.gg/PR3GgYYkym
 [idu-youtube]: https://www.youtube.com/channel/UC1JmPXgbR5R2dCsM_QJGe1w
 
+### [Combine&Conquer][cnc-logs]
+
+![items moving through the belt](cac-crossing.png)
+
+Combine&Conquer by [Martin Buck][@I3ck] is a WIP strategy game
+about automation similar to Satisfactory or Factorio.
+
+This month Martin finished [writing a detailed devlog][cnc-logs] for the project
+from first commit up until now.
+A few dozens of short posts cover variuos topics including:
+simulation of arms and conveyor belts with moving items, blueprints,
+testing, rendering, save and load, tech tree and research, and multiplayer.
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/qj03ji/cnc)_
+
+[cnc-logs]: https://buckmartin.de/combine-and-conquer.html
+[@I3ck]: https://github.com/I3ck
+
 ## Engine Updates
 
 ### [Tetra] 0.6.7
@@ -440,6 +459,18 @@ Object Oriented Programming.
 [herbert-wolverson]: https://twitter.com/herberticus
 [rustacean-station]: https://rustacean-station.org/
 [rustacean-station-48]: https://rustacean-station.org/episode/048-herbert-wolverson/
+
+### [Rust on the GPU][raph-blog-post]
+
+In [this blog post][raph-blog-post], [Raph Levien] describes the current state
+of coding on a graphics card. The post describes how going about writing custom
+code still induces many issues in this day and age, and what modern technologies
+can be used to help make this easier. [Rust-gpu] is mentioned as a possible way
+to write compute shaders in a "real language".
+
+[Rust-gpu]: https://github.com/EmbarkStudios/rust-gpu
+[Raph Levien]: https://levien.com/
+[raph-blog-post]: https://raphlinus.github.io/gpu/2021/11/17/prefix-sum-portable.html
 
 ### [Rust Roguelike Tutorial][rl-tut]
 
@@ -697,6 +728,34 @@ This month changes by [@PsichiX]:
   structures).
 
 [NavMesh]: https://github.com/PsichiX/navmesh
+
+### [Rust CUDA]
+
+[Rust CUDA] by [Riccardo D'Ambrosio] is a [newly-released
+project][rust-cuda-announcement] with the goal of making Rust a Tier-1 language
+for fast GPU computing. There are still many bugs, and it's in an early stage.
+
+With this release comes a few crates. [rustc_codegen_nvvm] for compiling Rust to
+CUDA PTX code using rustc's custom codegen mechanisms and the libnvvm CUDA
+library. [cust] for actually executing the PTX is a high-level wrapper for the
+CUDA Driver API. [cuda_builder] for easily building GPU crates. [cuda_std] is
+the GPU-side standard library which complements rustc_codegen_nvvm. [gpu_rand]
+is a GPU-friendly random number generation. [nvvm] is high-level bindings to
+libnvvm, and [ptx_compiler] is high-level bindings to the PTX compiler APIs,
+which are currently incomplete. [find_cuda_helper] is for finding CUDA on the
+system. There are many other works in progress.
+
+[rustc_codegen_nvvm]: https://crates.io/crates/rustc_codegen_nvvm
+[cust]: https://crates.io/crates/cust
+[cuda_builder]: https://crates.io/crates/cuda_builder
+[cuda_std]: https://crates.io/crates/cuda_std
+[gpu_rand]: https://crates.io/crates/gpu_rand
+[nvvm]: https://crates.io/crates/nvvm
+[ptx_compiler]: https://crates.io/crates/ptx_compiler
+[find_cuda_helper]: https://crates.io/crates/find_cuda_helper
+[Riccardo D'Ambrosio]: https://github.com/RDambrosio016
+[rust-cuda-github]: https://github.com/Rust-GPU/Rust-CUDA
+[rust-cuda-announcement]: https://www.reddit.com/r/rust/comments/qzv428/announcing_the_rust_cuda_project_an_ecosystem_of/
 
 ## Popular Workgroup Issues in Github
 
