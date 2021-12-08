@@ -472,6 +472,39 @@ to write compute shaders in a "real language".
 [Raph Levien]: https://levien.com/
 [raph-blog-post]: https://raphlinus.github.io/gpu/2021/11/17/prefix-sum-portable.html
 
+### [Rust Roguelike Tutorial][rl-tut]
+
+![ascii map and ui](rl-tut.jpg)
+_A nasty demon monster at the exit to Abyss_
+
+[The Roguelike Tutorial][rl-tut] by [@herberticus] got
+a [new 75th (!) chapter][rl-tut-new] that shows
+how to generate a chaotic Voronoi-based city plaza inhabited by dark elves
+and adds a new big demon enemy to guard the Abyss portal.
+
+> You can battle your way down to the Dark Elf Plaza,
+> and find the gateway to Abyss - but only if you can evade a hulking demon
+> and a horde of elves---with very little in the way of help offered.
+> Next up, we'll begin to build the Abyss.
+
+[@herberticus]: https://twitter.com/herberticus
+[rl-tut]: http://bfnightly.bracketproductions.com/rustbook
+[rl-tut-new]: http://bfnightly.bracketproductions.com/rustbook/chapter_75.html
+
+### [Hands-on Rust][hor]
+
+![A screenshot of a game in a browser](hor-bonus.jpg)
+_A Dungeon Crawler running in a browser_
+
+Another update from [@herberticus] is a bonus article for the
+[Hands-on Rust][hor] book: ["Run Your Rust Games in a Browser"][hor-bonus]
+that guides the reader though the basics of building and publishing
+[bracket-lib] games in WebAssembly.
+
+[hor-bonus]: https://hands-on-rust.com/2021/11/06/run-your-rust-games-in-a-browser-hands-on-rust-bonus-content/
+[hor]: https://hands-on-rust.com
+[bracket-lib]: https://github.com/amethyst/bracket-lib
+
 ## Tooling Updates
 
 ### [SPV]
