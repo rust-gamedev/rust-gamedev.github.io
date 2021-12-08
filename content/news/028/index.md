@@ -355,6 +355,32 @@ _Discussions:
 [cnc-logs]: https://buckmartin.de/combine-and-conquer.html
 [@I3ck]: https://github.com/I3ck
 
+### [PaddlePunks][paddlepunks-itch]
+
+![Pong, but one of the characters rewinds time to figure out which of the
+other player's ballusions is actually real](paddlepunks-rewind.gif)
+_One of the characters can spend super meter to rewind time, this is strong
+but pretty situational._
+
+PaddlePunks is a versus tennis game by [Felix Windström][paddlepunks-twitter]
+with a diverse cast of characters and playstyles and online play with rollback
+netcode.
+
+Latest developments:
+
+- Some engine work to improve performance on laptops with integrated GPUs
+- Balance updates to make the skeleton less overbearing
+- Presented the game at [Rustfest][paddlepunks-rustfest] in an interactive session.
+
+You can download and play the game now on [itch.io][paddlepunks-itch], or
+join the [Discord][paddlepunks-discord] to chat with the developer and other
+players.
+
+[paddlepunks-twitter]: https://twitter.com/sov_gott_games
+[paddlepunks-itch]: https://sovgott.itch.io/paddlepunks
+[paddlepunks-discord]: https://discord.gg/cpPDeVcWxc
+[paddlepunks-rustfest]: https://watch.rustfest.global/
+
 ## Engine Updates
 
 ### [Tetra] 0.6.7
