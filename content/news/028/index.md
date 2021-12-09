@@ -1,7 +1,7 @@
 +++
 title = "This Month in Rust GameDev #28 - November 2021"
 transparent = true
-date = 2021-12-08
+date = 2021-12-09
 +++
 
 <!-- no toc -->
