@@ -85,7 +85,7 @@ working on at the next meetup on [December 11th][rust-meetup-dec-time], fill out
 _The melee weapon in action_
 
 [Flesh] by [@im_oab] is a 2D-horizontal shmup game with hand-drawn animation and
-organic/fleshy theme. It is implemented using [Tetra]. This month's updates
+an organic/fleshy theme. It is implemented using [Tetra]. This month's updates
 include:
 
 - Support different types of ships that players can choose.
@@ -136,7 +136,7 @@ Rust (via [godot-rust][bitgun-godot-rust]).
 
 They recently implemented a mission system, where you can select one of [three
 types of missions][bitgun-missions] to go to from the central camp. One is to
-defend supplies from horde of zombies, second is to search a facility for some
+defend supplies from a horde of zombies, the second is to search a facility for some
 object or clear all the zombies and the last one is to fight your way through a
 tunnel full of spiders and other enemies! They also worked on a
 [tutorial][bitgun-tutorial].
@@ -157,7 +157,7 @@ Halloween Mahjong Solitaire ([GitHub][mahjong-github]) by
 [@Syn-Nine][synnine-twitter] is a game created for the [Game Developers
 Refuge 4x4x4 Challenge] in October 2021.
 
-The challenge was to create a Halloween themed game based on four emojis. In
+The challenge was to create a Halloween-themed game based on four emojis. In
 this case the chosen emoji combination was: skull_and_crossbones, bat, game_die,
 and shinto_shrine (☠️ 🦇 🎲 ⛩️).
 
@@ -213,7 +213,7 @@ Experience sharing went through a large overhaul to evenly distribute EXP gained
 across groups. The difficulty of dungeons was adjusted to be more balanced for
 new players. Persistence was added to skills, and measures were put in place to
 help with future migrations to new skill trees. Work was done on site2, the
-system that is used to generate structures in a procedural way. This will help
+system that is used to generate structures procedurally. This will help
 make the variance more dynamic by adding more parameters that can be adjusted.
 In December, Veloren will release 0.12, hopefully with some holiday spirit!
 
@@ -267,14 +267,14 @@ _Discussions:
 [![A molecoole and some enemies](molecoole.png)][molecoole-steam]
 
 Molecoole is a top-down shooter roguelike where you build your character from
-different atoms. Each atom has a unique ability providing tons of variety
+different atoms. Each atom has a unique ability to provide tons of variety
 between playthroughs. It's made using the [Bevy
 Engine](https://github.com/bevyengine/bevy).
 
 This month Molecoole launched its [Steam page][molecoole-steam]! They also added
 [new weapons][weapon-twitter] and new [bosses][boss-twitter].
 
-In December their main focus will be on audio, and polishing the game.
+In December their main focus will be on audio and polishing the game.
 
 [molecoole-steam]: https://store.steampowered.com/app/1792170/Molecoole/
 [weapon-twitter]: https://twitter.com/kiss_mrton/status/1459567092995403776
@@ -295,7 +295,7 @@ addition of gameplay features are ongoing as the planned Q2 2022 Steam Early
 Access release gets closer and closer.
 
 December 2021 will see an attempt to port the rendering backend of the game from
-DirectX 11 to WGPU in order to widen the number of platforms reacheable with a
+DirectX 11 to WGPU to widen the number of platforms reachable with a
 particular interest in the Steam Deck that seems to offer the perfect controller
 layout for such a demanding simulation as Hydrofoil Generation.
 
@@ -317,7 +317,7 @@ Idu ([Discord][idu-discord]) by [@logicsoup] and [@epcc10] is an upcoming game
 centered around growing realistic plants.
 
 In November, a new major update was released that overhauled the automatic
-watering system. In addition, an automatic stair builder and a grass cutting
+watering system. In addition, an automatic stair builder and a grass-cutting
 tool was added to reduce the tediousness of these common tasks.
 
 A free playable alpha demo is available at [Idu's Discord server's
@@ -337,8 +337,8 @@ Combine&Conquer by [Martin Buck][@I3ck] is a WIP strategy game about automation
 similar to Satisfactory or Factorio.
 
 This month Martin finished [writing a detailed devlog][cnc-logs] for the project
-from first commit up until now. A few dozens of short posts cover variuos topics
-including: simulation of arms and conveyor belts with moving items, blueprints,
+from the first commit up until now. A few dozen short posts cover various topics
+including simulation of arms and conveyor belts with moving items, blueprints,
 testing, rendering, save and load, tech tree and research, and multiplayer.
 
 _Discussions:
@@ -381,13 +381,13 @@ technologies running on the [NEAR Blockchain][near-blockchain]. It is a 2D
 platformer, where players can also build their own levels and share them with
 others.
 
-Currently a prototype of the game is in development. The game is written with
+Currently, a prototype of the game is in development. The game is written with
 the [Bevy game engine][bevy] and the [Rapier physics engine][rapier] and is
 compiled to WebAssembly. The prototype is still very basic, but you can already
 place and remove blocks and have a feeling about the physics recreation of the
 original games.
 
-In the past months there also has been the SHRM token launch and a [token
+In the past months, there also has been the SHRM token launch and a [token
 airdrop][shrm-airdrop] for NEAR early adopters. The [Shroom Kingdom
 DAO][shrm-dao] is looking for people, who want to become involved and get paid
 with their very own token.
@@ -433,7 +433,7 @@ features and changes][tetra-07], and feel free to suggest more!
 
 The hottest HTML5 + WASM game engine for games written in Rust with web-sys.
 
-[@PsichiX], the creator of [Oxygengine], spent last two months on making:
+[@PsichiX], the creator of [Oxygengine], spent the last two months on making:
 
 - First few chapters of the book explaining how Oxygengine works in: [Oxygengine
   Essentials Book][oxygengine-book].
@@ -446,7 +446,7 @@ The hottest HTML5 + WASM game engine for games written in Rust with web-sys.
   the engine.
 - Plugin-based asset pipeline as well as support for LDtk software projects.
 
-All these changes marks the beginning of stabilizing phase of the engine. The
+All of these changes mark the beginning of stabilizing phase of the engine. The
 API more or less won't change much - now the focus is put entirely on the
 features that will push progress towards the Ignite visual game editor for
 artists and game designers to use.
@@ -550,7 +550,7 @@ _A Dungeon Crawler running in a browser_
 
 Another update from [@herberticus] is a bonus article for the [Hands-on
 Rust][hor] book: ["Run Your Rust Games in a Browser"][hor-bonus] that guides the
-reader though the basics of building and publishing [bracket-lib] games in
+reader through the basics of building and publishing [bracket-lib] games in
 WebAssembly.
 
 [hor-bonus]: https://hands-on-rust.com/2021/11/06/run-your-rust-games-in-a-browser-hands-on-rust-bonus-content/
@@ -597,9 +597,9 @@ Features so far:
 
 - Interactive loading
 - Scaling images to equal size
-- Optional Margin between images
-- Custom Aspect Ratio - now you can set aspect ratio by text in any form
-- CLI - You can use it without GUI and embed to your project manager tool
+- Optional margin between images
+- Custom aspect ratio; now you can set aspect ratio by text in any form
+- CLI; you can use it without GUI and embed it into your project manager tool
 
 [PickPicPack]: http://www.p43d.com/pickpicpack
 [PPP_github]: https://github.com/p4ymak/pickpicpack
@@ -615,7 +615,7 @@ Graphite ([GitHub][graphite-repo], [Discord][graphite-discord],
 editor built on a non-destructive node-based workflow.
 
 The previously announced Alpha release was delayed as core devs returned to
-school— January is the new goal. Development now continues to pick up speed.
+school - January is the new goal. Development now continues to pick up speed.
 Design of the project website has continued for its launch soon, alongside the
 Alpha release.
 
@@ -641,9 +641,9 @@ Discord][graphite-discord] and get involved!
 [![youtube preview: modelling tree's branches using ball as a cursor](solid-editor.jpg)][solid-video]
 _A [demo video][solid-video] of using the editor_
 
-[Solid Editor][solid] is [Solid Engine][solid-engine]'s custom built voxel
+[Solid Editor][solid] is [Solid Engine][solid-engine]'s custom-built voxel
 graphics editor. It is designed to be a key part of the engine's asset pipeline,
-enabling creation of game-ready voxel graphics assets. Since the engine part is
+enabling the creation of game-ready voxel graphics assets. Since the engine part is
 pretty far from being done, the author decided to release this editor as a
 standalone application.
 
@@ -651,7 +651,7 @@ standalone application.
 > generally interesting and unique features.
 >
 > - True WYSIWYG editing. The editor scene is rendered using Solid Engine's path
->   tracer in real time, yielding realistic lighting while editing.
+>   tracer in real-time, yielding realistic lighting while editing.
 > - The possibility to edit voxels directly in 3D, by using any brightly colored
 >   ball as a 3D pointing device. Read more about the [Ball
 >   Pointer][solid-ball].
@@ -680,7 +680,7 @@ _Discussions:
 pixel-perfect rendering and custom shader pipelines for textures with direct
 pixel access. It's perfect for making 2D animations, games, and emulators.
 
-Version 0.8.0 was released this month, bringing highly anticipated support for
+Version 0.8.0 was released this month, bringing highly-anticipated support for
 WASM targets, as well as support for Raspberry Pi 4. A [minimal example for web
 browsers][pixels-web] is included to get you started. Full details are available
 in the [release notes][pixels-changelog].
@@ -744,7 +744,7 @@ As a binding to a C++ library, one topic godot-rust has to deal with is the use
 of `unsafe`, which sometimes boils down to a trade-off between safety and
 ease-of-use. Even though Rust provides basic guidelines, there are different
 philosophies on their execution, see [The CXX Debate][gd-cxx] for an example. To
-discuss how APIs interacting with Godot can as ergonomic as possible while
+discuss how APIs interacting with Godot can be as ergonomic as possible while
 preserving safety, [issue #808][gd-808] was opened.
 
 [gd-808]: https://github.com/godot-rust/godot-rust/pull/808
@@ -760,15 +760,15 @@ preserving safety, [issue #808][gd-808] was opened.
 
 ### [NavMesh] v0.12.1
 
-NavMesh crate is a path finding library for 2D and 3D games.
+NavMesh crate is a pathfinding library for 2D and 3D games.
 
 This month changes by [@PsichiX]:
 
 - Added NavGrid structure to find paths on grids.
 - Added NavFreeGrid structure to find paths on cells put in free layout manner
-  (used for example on clusters of cells rather than condensed grid).
-- Added NavIslands structure to allow hierarchical path finding (used for
-  example with streamed navigation islands, such as other path finding
+  (used for example on clusters of cells rather than the condensed grid).
+- Added NavIslands structure to allow hierarchical pathfinding (used for
+  example with streamed navigation islands, such as other pathfinding
   structures).
 
 [NavMesh]: https://github.com/PsichiX/navmesh
@@ -804,10 +804,10 @@ system. There are many other works in progress.
 ## Other News
 
 - Other game updates:
-  - [Rust Shooter] is a first person shooter.
+  - [Rust Shooter] is a first-person shooter.
   - [Way of Rhea] is a puzzle platformer with a focus on the puzzle side.
   - [Necrophaser] is a recently alpha-released Top-Down Shooter made with Bevy
-  - [Stellary 2] is space game made in a custom engine
+  - [Stellary 2] is a space game made in a custom engine
   - [Endless Trial] is a 2D bullet-hell game made in Tetra
 - Other learning material updates:
   - [GBA From Scratch] is a tutorial on how to code for the Game Boy Advance
