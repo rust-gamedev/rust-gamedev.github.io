@@ -890,7 +890,7 @@ or [/r/rust_gamedev subreddit][/r/rust_gamedev] if you want to receive fresh new
 
 **Discuss this post on**:
 [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/rcmz17/this_month_in_rust_gamedev_28_november_2021/),
-[Twitter](https://twitter.com/rust_gamedev/status/1469009470420398082).
+[Twitter](https://twitter.com/rust_gamedev/status/1469009470420398082),
 [Discord](https://discord.gg/yNtPTb2).
 
 [/r/rust_gamedev]: https://reddit.com/r/rust_gamedev
