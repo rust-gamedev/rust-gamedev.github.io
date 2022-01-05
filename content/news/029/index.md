@@ -69,6 +69,25 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Engine Updates
 
+### [Rusty Engine 3.0]
+
+![image/GIF description](rusty_engine3.png)
+_The "Road Race" game prototype running under Rusty Engine 3.0_
+
+[Rusty Engine] is a game engine for people who are learning Rust.
+
+Version 3.0 is a large release with many breaking changes. Notable new features include: [a full tutorial], custom asset loading (sprites, sounds, fonts), customizable game state, an interactive collider creator, and much more. See [the changelog for 3.0] for the full details.
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/rwyrqx/rusty_engine_30/),
+[twitter](https://twitter.com/nathanstocks/status/1476724623903367168)_
+
+[Rusty Engine 3.0]: https://github.com/CleanCut/rusty_engine/blob/main/CHANGELOG.md#300---2021-12-30
+[Rusty Engine]: https://github.com/CleanCut/rusty_engine
+[a full tutorial]: https://cleancut.github.io/rusty_engine/
+[the changelog for 3.0]: https://github.com/CleanCut/rusty_engine/blob/main/CHANGELOG.md#300---2021-12-30
+
+
 ## Learning Material Updates
 
 ## Tooling Updates
