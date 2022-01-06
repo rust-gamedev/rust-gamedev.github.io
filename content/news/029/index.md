@@ -71,7 +71,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [Rusty Engine 3.0]
 
-![image/GIF description](rusty_engine3.png)
+![An example Rusty Engine game](rusty_engine3.png)
 _The "Road Race" game prototype running under Rusty Engine 3.0_
 
 [Rusty Engine] by [Nathan Stocks] is a game engine for people who are learning Rust.
