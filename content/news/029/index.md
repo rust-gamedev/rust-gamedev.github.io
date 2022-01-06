@@ -82,7 +82,7 @@ used for emulators, software renderers, 2D pixel art games, and desktop
 utilities.
 
 Version 0.9.0 brings a few breaking changes. Notably `wgpu` was updated to
-0.12 and we now require Edition 2021. Full details are available in the
+0.12 and it now requires Edition 2021. Full details are available in the
 [release notes][pixels-changelog].
 
 [pixels]: https://github.com/parasyte/pixels
