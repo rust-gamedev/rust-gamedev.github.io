@@ -96,11 +96,11 @@ game in development to help work out new features for Syn9's
 
 This month's progress included:
 
-* prototyping tilemap and frame-based animation to make a simple walkaround
+- prototyping tilemap and frame-based animation to make a simple walkaround
 engine
-* creating a general purpose maze generation algorithm and porting random world
+- creating a general purpose maze generation algorithm and porting random world
 map generation from C++ to Rust
-* creating new sprite artwork and animation, as well as mocking up the battle
+- creating new sprite artwork and animation, as well as mocking up the battle
 system
 
 The gameplay and art is influenced by games such as Final Fantasy VI and Lufia
