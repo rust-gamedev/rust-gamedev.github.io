@@ -85,7 +85,7 @@ In addition to built-in support for new formats like WebP, glTF and fonts,
 hot-reloading is now supported for custom asset sources.
 
 These features led to a new crate: [ggez-assets_manager], whose goal is to ease
-use of assets_manager with ggez engine !
+use of assets_manager with ggez engine!
 
 [assets_manager]: https://github.com/a1phyr/assets_manager/
 [version 0.7]: https://github.com/a1phyr/assets_manager/releases/tag/0.7.0
