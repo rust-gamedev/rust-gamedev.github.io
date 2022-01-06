@@ -66,6 +66,36 @@ If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
 ## Game Updates
+### [Tet-Rust][tetrust-github]
+
+![Tet-Rust screenshot](tet-rust-1-sm.gif)
+_Screenshot of Tet-Rust_
+
+Tet-Rust ([GitHub][tetrust-github]) by
+[@Syn-Nine][synnine-twitter] is a mini game based on the famous falling puzzle block game.
+
+The game was created to exercise Syn9's [Rust Mini Game Framework][mgfw] and is part of an open source [repository][s9-minigame-repo] of several mini-games that use this framework.
+
+[tetrust-github]: https://github.com/Syn-Nine/rust-mini-games/tree/main/2d-games/tet-rust
+[synnine-twitter]: https://twitter.com/Syn9Dev
+[mgfw]: https://github.com/Syn-Nine/mgfw
+[s9-minigame-repo]: https://github.com/Syn-Nine/rust-mini-games/
+
+
+
+### The Beast of Monte Carlo
+
+![The Beast of Monte Carlo Screenshot](bomc-shots.png)
+_Screenshot of The Beast of Monte Carlo_
+
+The Beast of Monte Carlo by [@Syn-Nine][synnine-twitter] is a mini role-playing game in development to help work out new features for Syn9's [Rust Mini Game Framework][mgfw].
+
+This month's progress included:
+- prototyping tilemap and frame-based animation to make a simple walkaround engine
+- creating a general purpose maze generation algorithm and porting random world map generation from C++ to Rust
+- creating new sprite artwork and animation, as well as mocking up the battle system
+
+The gameplay and art is influenced by games such as Final Fantasy VI and Lufia II with a heavy focus on procedural content generation.
 
 ## Engine Updates
 
