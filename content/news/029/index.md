@@ -91,7 +91,6 @@ _Discussions:
 [the changelog for 3.0]: https://github.com/CleanCut/rusty_engine/blob/main/CHANGELOG.md#300---2021-12-30
 [Nathan Stocks]: https://github.com/CleanCut
 
-
 ## Learning Material Updates
 
 ## Tooling Updates
