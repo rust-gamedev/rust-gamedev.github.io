@@ -77,7 +77,7 @@ _The "Road Race" game prototype running under Rusty Engine 3.0_
 [Rusty Engine] by [Nathan Stocks] is a game engine for people who are learning Rust.
 
 Version 3.0 is a large release with many breaking changes. Notable new features
-include: [a full tutorial], custom asset loading (sprites, sounds, fonts), 
+include: [a full tutorial], custom asset loading (sprites, sounds, fonts),
 customizable game state, an interactive collider creator, and much more.
 See [the changelog for 3.0] for the full details.
 
