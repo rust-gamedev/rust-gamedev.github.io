@@ -74,7 +74,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ![image/GIF description](rusty_engine3.png)
 _The "Road Race" game prototype running under Rusty Engine 3.0_
 
-[Rusty Engine] is a game engine for people who are learning Rust.
+[Rusty Engine] by [Nathan Stocks] is a game engine for people who are learning Rust.
 
 Version 3.0 is a large release with many breaking changes. Notable new features include: [a full tutorial], custom asset loading (sprites, sounds, fonts), customizable game state, an interactive collider creator, and much more. See [the changelog for 3.0] for the full details.
 
@@ -86,6 +86,7 @@ _Discussions:
 [Rusty Engine]: https://github.com/CleanCut/rusty_engine
 [a full tutorial]: https://cleancut.github.io/rusty_engine/
 [the changelog for 3.0]: https://github.com/CleanCut/rusty_engine/blob/main/CHANGELOG.md#300---2021-12-30
+[Nathan Stocks]: https://github.com/CleanCut
 
 
 ## Learning Material Updates
