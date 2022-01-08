@@ -29,6 +29,7 @@ Feel free to send PRs about your own projects!
 
 Table of contents:
 
+- [Rust GameDev Podcast #4](#rust-gamedev-podcast-4)
 - [Rust Gamedev Meetup](#rust-gamedev-meetup)
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
