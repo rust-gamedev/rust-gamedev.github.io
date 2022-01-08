@@ -30,7 +30,6 @@ Feel free to send PRs about your own projects!
 
 Table of contents:
 
-- [Rust GameDev Podcast](#rust-gamedev-podcast)
 - [Last Call for Rust GameDev Survey](#last-call-for-rust-gamedev-survey)
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
