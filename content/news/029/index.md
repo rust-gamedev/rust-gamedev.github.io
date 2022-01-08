@@ -23,11 +23,11 @@ Want something mentioned in the next newsletter?
 [Send us a pull request][pr].
 Feel free to send PRs about your own projects!
 
-[Rust]: https://rust-lang.org
+[rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 [pr]: https://github.com/rust-gamedev/rust-gamedev.github.io
 [coordination]: https://github.com/rust-gamedev/rust-gamedev.github.io/issues?q=label%3Acoordination
-[Rust]: https://rust-lang.org
+[rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
 - [Game Updates](#game-updates)
@@ -75,6 +75,19 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library Updates
 
+### [bevy-remote-devtools]
+
+![Demo of the tauri based development app](bevy-remote-devtools.gif)
+
+[bevy-remote-devtools] is a plugin and UI application for the [Bevy] game engine allowing to view entities and their components, asset resources like meshes, events from the [tracing] crate and system timings using a very basic profiler. It also supports all of that over network so debugging can be done from any remote machine and vice versa.
+
+The first release of the 0.1 version comes with basic support for the above mentioned features. It contains a plugin for [Bevy] that will extend you application with a small REST HTTP API that can be consumed by the included [Tauri] based UI application.
+
+[bevy-remote-devtools]: https://github.com/reneeichhorn/bevy-remote-devtools
+[bevy]: https://github.com/bevyengine/bevy
+[tracing]: https://github.com/tokio-rs/tracing
+[tauri]: https://tauri.studio/en/
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
@@ -110,7 +123,7 @@ useful information -->
 <!-- Bonus section to make the newsletter more interesting
 and highlight events from the past. -->
 
-------
+---
 
 That's all news for today, thanks for reading!
 
