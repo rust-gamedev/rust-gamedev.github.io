@@ -177,6 +177,19 @@ Entry point vert_main at Vertex is invalid:
 [gfx-rs blog]: https://gfx-rs.github.io/2021/12/25/this-year.html
 [wgpu reddit discussion]: https://www.reddit.com/r/rust_gamedev/comments/rjci2n/wgpu012_is_released/
 
+### [Pixels] 0.9.0 👾
+
+[Pixels] is a tiny hardware-accelerated pixel frame buffer. It is popularly
+used for emulators, software renderers, 2D pixel art games, and desktop
+utilities.
+
+Version 0.9.0 brings a few breaking changes. Notably `wgpu` was updated to
+0.12 and it now requires Edition 2021. Full details are available in the
+[release notes][pixels-changelog].
+
+[pixels]: https://github.com/parasyte/pixels
+[pixels-changelog]: https://github.com/parasyte/pixels/releases/tag/0.9.0
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
