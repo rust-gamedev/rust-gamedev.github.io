@@ -97,6 +97,22 @@ _Discussions:
 
 ## Library Updates
 
+### [assets_manager]
+
+[assets_manager] provides a high-level API to load and cache external resources
+with a focus on performance and hot-reloading.
+
+In addition to built-in support for new formats like WebP, glTF and fonts,
+[version 0.7] brings a few quality of life improvements. Additionnally,
+hot-reloading is now supported for custom asset sources.
+
+These features led to a new crate: [ggez-assets_manager], whose goal is to ease
+use of assets_manager with ggez engine!
+
+[assets_manager]: https://github.com/a1phyr/assets_manager/
+[version 0.7]: https://github.com/a1phyr/assets_manager/releases/tag/0.7.0
+[ggez-assets_manager]: https://github.com/a1phyr/ggez-assets_manager/
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
