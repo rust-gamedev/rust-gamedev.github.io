@@ -75,6 +75,32 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library Updates
 
+### [bevy_proto]
+
+![YAML configuration files for bevy_proto](bevy_proto.png)
+
+[bevy_proto] is a small plugin for the [Bevy] game engine, allowing entities to
+be defined in their own config files (called "Prototypes"). These config files
+are then read into a resource that you can use to spawn their pre-defined
+entities from within any Bevy system.
+
+The recently released 0.2 version, adds a templating feature (as suggested
+by [@chrisburnor](https://github.com/chrisburnor)). This new feature allows any
+entity prototype to define one or more templates, from which it will inherit
+additional component definitions (including those from a template's templates).
+
+This makes defining many entities with common functionality (such as enemy types
+or weapons) much easier and reduces code duplication for an overall better
+experience.
+
+For more info, check out
+the [original PR](https://github.com/MrGVSV/bevy_proto/pull/2), or explore
+the [assets](https://github.com/MrGVSV/bevy_proto/tree/main/assets)
+and [examples](https://github.com/MrGVSV/bevy_proto/tree/main/examples) folders.
+
+[bevy_proto]: https://github.com/MrGVSV/bevy_proto
+[Bevy]: https://github.com/bevyengine/bevy
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
