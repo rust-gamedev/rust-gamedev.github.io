@@ -152,6 +152,31 @@ use of assets_manager with ggez engine!
 [version 0.7]: https://github.com/a1phyr/assets_manager/releases/tag/0.7.0
 [ggez-assets_manager]: https://github.com/a1phyr/ggez-assets_manager/
 
+### [wgpu]-0.12 release
+
+![albedo pathtracer](wgpu-pathtracer.png)
+_experimental pathtracer on wgpu from @llamajestic_
+
+The team concluded 2021 with the release of wgpu-0.12 and naga-0.8.
+Details can be found on the [gfx-rs blog] and [wgpu reddit discussion].
+Lots of fixes are shipped alongside one much-awaited improvement:
+the error messages from validating shaders were finally made readable:
+
+```rust
+   ┌─ interpolate.wgsl:21:25
+   │
+21 │    out.linear_centroid = vec2<f32>(64.0, 125.0, 1.0);
+   │                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ naga::Expression [16]
+
+Entry point vert_main at Vertex is invalid: 
+        Expression [16] is invalid
+        Composing expects 2 components but 3 were given
+```
+
+[wgpu]: https://github.com/gfx-rs/wgpu
+[gfx-rs blog]: https://gfx-rs.github.io/2021/12/25/this-year.html
+[wgpu reddit discussion]: https://www.reddit.com/r/rust_gamedev/comments/rjci2n/wgpu012_is_released/
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
