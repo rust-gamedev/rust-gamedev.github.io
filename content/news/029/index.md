@@ -106,6 +106,21 @@ system
 The gameplay and art is influenced by games such as Final Fantasy VI and Lufia
 II with a heavy focus on procedural content generation.
 
+### Country Slice
+
+![Country Slice](country_slice.gif)
+
+[Country Slice][country-slice-github] is
+[@anastasiaopara][country-slice-twitter]'s hobby project, where users can draw a
+small scene, and their input is amplified with real-time procedural geometry
+generation.
+
+This month, [@anastasiaopara][country-slice-twitter] added support for drawing
+paths that, if intersected with walls, automatically generate arches.
+
+[country-slice-github]: https://github.com/anopara/country-slice
+[country-slice-twitter]: https://twitter.com/anastasiaopara/
+
 ## Engine Updates
 
 ### [Rusty Engine 3.0]
