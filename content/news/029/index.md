@@ -75,7 +75,8 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [Blackjack]
 
-![Animated gif showcasing the main features of Blackjack](blackjack.gif)
+![Blackjack demo: Connecting visual nodes and tweaking various parameters to
+procedurally generate a beveled box in real-time](blackjack.gif)
 
 [Blackjack] by @setzer22 is a new procedural modelling application made in Rust,
 using `rend3`, `wgpu` and `egui`. It follows the steps of applications like
