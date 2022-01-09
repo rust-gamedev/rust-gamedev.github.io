@@ -117,7 +117,7 @@ generation.
 
 This month's biggest update was adding an ability to draw
 paths that, if intersected with walls, automatically generate arches. You can
-read a twitter thread that brifly covers how it 
+read a twitter thread that brifly covers how it
 [was optimized to run in 1-2ms][country-slice-twitter-opt].
 
 [country-slice-github]: https://github.com/anopara/country-slice
