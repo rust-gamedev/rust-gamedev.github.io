@@ -158,6 +158,31 @@ _Discussions:
 
 ## Tooling Updates
 
+### [Blackjack]
+
+![Blackjack demo: Connecting visual nodes and tweaking various parameters to
+procedurally generate a beveled box in real-time](blackjack.gif)
+
+[Blackjack] by @setzer22 is a new procedural modelling application made in Rust,
+using `rend3`, `wgpu` and `egui`. It follows the steps of applications like
+Houdini, or Blender's geometry nodes project and provides a node-based
+environment to compose procedural recipes to create 3d models.
+
+The project was recently announced, and an official open-source release is
+planned during the following month. Here's a highlight of the upcoming features:
+
+- A node-based editor to compose operations like 3d math, vertex/edge/face
+  selections and mesh edit operations.
+- Several polygon edit operations like bevel, chamfer and extrude.
+- Viewport display with support for displaying primitive ids and triangle
+  half-edge winding.
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/rufvlc/meet_blackjack),
+[/r/rust](https://reddit.com/r/rust/comments/rug24x/media_meet_blackjack)_
+
+[Blackjack](https://github.com/setzer22/blackjack)
+
 ## Library Updates
 
 ### [assets_manager]
