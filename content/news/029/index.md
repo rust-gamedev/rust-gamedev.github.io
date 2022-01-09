@@ -112,14 +112,17 @@ II with a heavy focus on procedural content generation.
 
 [Country Slice][country-slice-github] is
 [@anastasiaopara][country-slice-twitter]'s hobby project, where users can draw a
-small scene, and their input is amplified with real-time procedural geometry
+small scene, and their input is amplified with real-time procedural
 generation.
 
-This month, [@anastasiaopara][country-slice-twitter] added support for drawing
-paths that, if intersected with walls, automatically generate arches.
+This month's biggest update was adding an ability to draw
+paths that, if intersected with walls, automatically generate arches. You can
+read a twitter thread that brifly covers how it [was optimized to run in 1-2ms][country-slice-twitter-opt].
 
 [country-slice-github]: https://github.com/anopara/country-slice
 [country-slice-twitter]: https://twitter.com/anastasiaopara/
+[country-slice-twitter-opt]: https://twitter.com/anastasiaopara/status/1472627194409230343?s=20
+[country-slice-twitter-rust-houdini]: https://twitter.com/anastasiaopara/status/1477570256180817924?s=20
 
 ## Engine Updates
 
