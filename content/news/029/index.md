@@ -190,6 +190,34 @@ Version 0.9.0 brings a few breaking changes. Notably `wgpu` was updated to
 [pixels]: https://github.com/parasyte/pixels
 [pixels-changelog]: https://github.com/parasyte/pixels/releases/tag/0.9.0
 
+### [kajiya]
+
+![A rendering of a warmly-lit ruins environment](kajiya.jpg)
+
+[kajiya] ([Discord][kajiya_discord])
+by [@h3r2tic] is an experimental real-time global illumination
+renderer made with Vulkan, and utilizing [rust-gpu][rust-gpu].
+
+Last month the project was released into open source along with
+a tiny sample: [Cornell McRay t'Racing][cornell-mcray].
+
+The renderer is permissively licensed, and includes several cutting-edge
+algorithms, including ray-traced effects.
+It isn’t built to ship games (yet), but serves as a convenient
+platform for learning and research.
+
+_Discussions:
+[medium](https://medium.com/embarkstudios/homegrown-rendering-with-rust-1e39068e56a7),
+[r/rust](https://www.reddit.com/r/rust/comments/rkqmk3/homegrown_rendering_with_rust/),
+[twitter (kajiya)](https://twitter.com/h3r2tic/status/1472957370972127233),
+[twitter (cornell-mcray)](https://twitter.com/h3r2tic/status/1473856011941425155)._
+
+[kajiya_discord]: https://discord.gg/dAuKfZS
+[cornell-mcray]: https://github.com/h3r2tic/cornell-mcray/
+[kajiya]: https://github.com/EmbarkStudios/kajiya/
+[rust-gpu]: https://github.com/EmbarkStudios/rust-gpu
+[@h3r2tic]: https://github.com/h3r2tic
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
