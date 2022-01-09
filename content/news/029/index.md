@@ -67,6 +67,45 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Tet-Rust][tetrust-github]
+
+![Tet-Rust screenshot](tet-rust-1-sm.gif)
+_Screenshot of Tet-Rust_
+
+Tet-Rust ([GitHub][tetrust-github]) by
+[@Syn-Nine][synnine-twitter] is a mini game based on the famous falling puzzle
+block game.
+
+The game was created to exercise Syn9's [Rust Mini Game Framework][mgfw] and is
+part of an open source [repository][s9-minigame-repo] of several mini-games
+that use this framework.
+
+[tetrust-github]: https://github.com/Syn-Nine/rust-mini-games/tree/main/2d-games/tet-rust
+[synnine-twitter]: https://twitter.com/Syn9Dev
+[mgfw]: https://github.com/Syn-Nine/mgfw
+[s9-minigame-repo]: https://github.com/Syn-Nine/rust-mini-games/
+
+### The Beast of Monte Carlo
+
+![The Beast of Monte Carlo Screenshot](bomc-shots.png)
+_Screenshot of The Beast of Monte Carlo_
+
+The Beast of Monte Carlo by [@Syn-Nine][synnine-twitter] is a mini role-playing
+game in development to help work out new features for Syn9's
+[Rust Mini Game Framework][mgfw].
+
+This month's progress included:
+
+- prototyping tilemap and frame-based animation to make a simple walkaround
+engine
+- creating a general purpose maze generation algorithm and porting random world
+map generation from C++ to Rust
+- creating new sprite artwork and animation, as well as mocking up the battle
+system
+
+The gameplay and art is influenced by games such as Final Fantasy VI and Lufia
+II with a heavy focus on procedural content generation.
+
 ### [10x Sprint Master]
 
 ![In-game screenshot of 10x Sprint Master,
@@ -93,11 +132,87 @@ about the game's technical and social dimensions.
 
 ## Engine Updates
 
+### [Rusty Engine 3.0]
+
+![An example Rusty Engine game](rusty_engine3.png)
+_The "Road Race" game prototype running under Rusty Engine 3.0_
+
+[Rusty Engine] by [Nathan Stocks] is a game engine for people who are learning Rust.
+
+Version 3.0 is a large release with many breaking changes. Notable new features
+include: [a full tutorial], custom asset loading (sprites, sounds, fonts),
+customizable game state, an interactive collider creator, and much more.
+See [the changelog for 3.0] for the full details.
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/rwyrqx/rusty_engine_30/),
+[twitter](https://twitter.com/nathanstocks/status/1476724623903367168)_
+
+[Rusty Engine 3.0]: https://github.com/CleanCut/rusty_engine/blob/main/CHANGELOG.md#300---2021-12-30
+[Rusty Engine]: https://github.com/CleanCut/rusty_engine
+[a full tutorial]: https://cleancut.github.io/rusty_engine/
+[the changelog for 3.0]: https://github.com/CleanCut/rusty_engine/blob/main/CHANGELOG.md#300---2021-12-30
+[Nathan Stocks]: https://github.com/CleanCut
+
 ## Learning Material Updates
 
 ## Tooling Updates
 
 ## Library Updates
+
+### [assets_manager]
+
+[assets_manager] provides a high-level API to load and cache external resources
+with a focus on performance and hot-reloading.
+
+In addition to built-in support for new formats like WebP, glTF and fonts,
+[version 0.7] brings a few quality of life improvements. Additionnally,
+hot-reloading is now supported for custom asset sources.
+
+These features led to a new crate: [ggez-assets_manager], whose goal is to ease
+use of assets_manager with ggez engine!
+
+[assets_manager]: https://github.com/a1phyr/assets_manager/
+[version 0.7]: https://github.com/a1phyr/assets_manager/releases/tag/0.7.0
+[ggez-assets_manager]: https://github.com/a1phyr/ggez-assets_manager/
+
+### [wgpu]-0.12 release
+
+![albedo pathtracer](wgpu-pathtracer.png)
+_experimental pathtracer on wgpu from @llamajestic_
+
+The team concluded 2021 with the release of wgpu-0.12 and naga-0.8.
+Details can be found on the [gfx-rs blog] and [wgpu reddit discussion].
+Lots of fixes are shipped alongside one much-awaited improvement:
+the error messages from validating shaders were finally made readable:
+
+```rust
+   ┌─ interpolate.wgsl:21:25
+   │
+21 │    out.linear_centroid = vec2<f32>(64.0, 125.0, 1.0);
+   │                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ naga::Expression [16]
+
+Entry point vert_main at Vertex is invalid: 
+        Expression [16] is invalid
+        Composing expects 2 components but 3 were given
+```
+
+[wgpu]: https://github.com/gfx-rs/wgpu
+[gfx-rs blog]: https://gfx-rs.github.io/2021/12/25/this-year.html
+[wgpu reddit discussion]: https://www.reddit.com/r/rust_gamedev/comments/rjci2n/wgpu012_is_released/
+
+### [Pixels] 0.9.0 👾
+
+[Pixels] is a tiny hardware-accelerated pixel frame buffer. It is popularly
+used for emulators, software renderers, 2D pixel art games, and desktop
+utilities.
+
+Version 0.9.0 brings a few breaking changes. Notably `wgpu` was updated to
+0.12 and it now requires Edition 2021. Full details are available in the
+[release notes][pixels-changelog].
+
+[pixels]: https://github.com/parasyte/pixels
+[pixels-changelog]: https://github.com/parasyte/pixels/releases/tag/0.9.0
 
 ## Popular Workgroup Issues in Github
 
