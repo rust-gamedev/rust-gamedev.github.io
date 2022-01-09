@@ -93,12 +93,10 @@ planned during the following month. Here's a highlight of the upcoming features:
   half-edge winding.
 
 _Discussions:
-[/r/rust_gamedev][blackjack-rust-gamedev],
-[/r/rust][blackjack-rust],
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/rufvlc/meet_blackjack),
+[/r/rust](https://reddit.com/r/rust/comments/rug24x/media_meet_blackjack)_
 
 [Blackjack](https://github.com/setzer22/blackjack)
-[blackjack-rust-gamedev](https://www.reddit.com/r/rust_gamedev/comments/rufvlc/meet_blackjack_a_3d_procedural_modelling/)
-[blackjack-rust](https://github.com/setzer22/blackjack)
 
 ## Library Updates
 
