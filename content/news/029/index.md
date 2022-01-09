@@ -122,7 +122,6 @@ read a twitter thread that brifly covers how it [was optimized to run in 1-2ms][
 [country-slice-github]: https://github.com/anopara/country-slice
 [country-slice-twitter]: https://twitter.com/anastasiaopara/
 [country-slice-twitter-opt]: https://twitter.com/anastasiaopara/status/1472627194409230343?s=20
-[country-slice-twitter-rust-houdini]: https://twitter.com/anastasiaopara/status/1477570256180817924?s=20
 
 ## Engine Updates
 
