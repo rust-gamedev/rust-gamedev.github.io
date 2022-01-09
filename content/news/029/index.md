@@ -106,6 +106,30 @@ system
 The gameplay and art is influenced by games such as Final Fantasy VI and Lufia
 II with a heavy focus on procedural content generation.
 
+### [10x Sprint Master]
+
+![In-game screenshot of 10x Sprint Master,
+depicting a project workboard and two team members.](10xsprintmaster.png)
+
+[10x Sprint Master] ([GitHub][10xsprintmaster-github]) by [@E_net4]
+is a simulation game where you play the role of
+a software development lead engineer.
+Write tasks, coordinate a team of developers,
+fix bugs and manage feature delivery,
+while trying to mitigate the torments of technical debt.
+
+The game was submitted to GitHub Game Off 2021,
+and was written using [Yew] with graphics done in pure HTML and CSS.
+
+The author also published a [blog post on Dev.to][10xsprintmaster-dev]
+about the game's technical and social dimensions.
+
+[10xsprintmaster-github]: https://github.com/Enet4/10xSprintMaster
+[10x Sprint Master]: https://e-net4.itch.io/10x-sprint-master
+[Yew]: https://yew.rs
+[@E_net4]: https://twitter.com/E_net4
+[10xsprintmaster-dev]: https://dev.to/e_net4/10x-sprint-master-a-technical-and-social-experiment-ahp
+
 ## Engine Updates
 
 ### [Rusty Engine 3.0]
