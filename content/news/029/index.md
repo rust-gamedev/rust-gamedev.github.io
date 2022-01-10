@@ -77,7 +77,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [Shard]
 
-[Shard] ([GitHub]) by @HindrikStegenga]
+[Shard] ([GitHub]) by @HindrikStegenga
 is an Archetype-based Entity Component System implemented in Rust.
 
 Version 0.2 is a complete rewrite of the ECS, with the main new feature that it supports no_std environments.
