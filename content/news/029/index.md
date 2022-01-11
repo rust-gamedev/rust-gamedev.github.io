@@ -266,6 +266,37 @@ _Discussions:
 
 [Blackjack](https://github.com/setzer22/blackjack)
 
+### [Graphite][graphite-repo]
+
+![Graphite](graphite_splash.png)
+
+Graphite ([GitHub][graphite-repo], [Discord][graphite-discord],
+[Twitter][graphite-twitter]) is an in-development vector and raster graphics
+editor built on a non-destructive node-based workflow.
+
+The completion of [Sprint 10][graphite-sprint-10] wraps up a productive month
+of features and stability improvements. Documents persist page reloads via
+IndexedDB browser storage. The layer panel got some love. Vector anchor points
+can be dragged (beginnings of the Path/Pen Tools). Per-tool footer bar hints
+teach possible user input actions. And a big code cleanup/refactor took place
+behind the scenes.
+
+Additional new features and QoL improvements: artboards, panel resizing, the
+Navigate Tool, outline view mode, support for touch input and non-Latin
+keyboards, an *About Graphite* dialog with version info, plus dozens of bugs
+and crashes were resolved.
+
+[Try it right now in your browser.][graphite-live-demo] Graphite is making
+steady progress towards becoming a non-destructive, procedural graphics editor
+suitable for replacing traditional 2D DCC applications. [Join the
+Discord][graphite-discord] and get involved!
+
+[graphite-repo]: https://github.com/GraphiteEditor/Graphite
+[graphite-discord]: https://discord.graphite.design
+[graphite-twitter]: https://twitter.com/GraphiteEditor
+[graphite-live-demo]: https://editor.graphite.design
+[graphite-sprint-10]: https://github.com/GraphiteEditor/Graphite/milestone/10?closed=1
+
 ## Library Updates
 
 ### [assets_manager]
