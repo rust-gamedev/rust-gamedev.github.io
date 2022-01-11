@@ -145,6 +145,25 @@ about the game's technical and social dimensions.
 [@E_net4]: https://twitter.com/E_net4
 [10xsprintmaster-dev]: https://dev.to/e_net4/10x-sprint-master-a-technical-and-social-experiment-ahp
 
+### [Molecoole][molecoole-steam]
+
+[![A molecoole with tons of cannons](molecoole1.png)][molecoole-steam]
+
+Molecoole is a top-down shooter roguelike where you build your character
+from different atoms. Each atom has a unique ability providing
+tons of variety between playthroughs.
+It's made using the [Bevy Engine](https://github.com/bevyengine/bevy).
+
+This month Molecoole devs focused on
+adding more [variety][variety-twitter]: different enemies, atoms etc...
+
+They also launched their first teaser [video][teaser-twitter],
+it gives us a glimpse into 3 different bioms, bosses, enemies and more.
+
+[molecoole-steam]: https://store.steampowered.com/app/1792170/Molecoole/
+[variety-twitter]: https://twitter.com/kiss_mrton/status/1473725282918014977
+[teaser-twitter]: https://twitter.com/kiss_mrton/status/1467242884927614976
+
 ## Engine Updates
 
 ### [Rusty Engine 3.0]
