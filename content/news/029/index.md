@@ -213,6 +213,27 @@ read a twitter thread that brifly covers how it
 [country-slice-twitter]: https://twitter.com/anastasiaopara/
 [country-slice-twitter-opt]: https://twitter.com/anastasiaopara/status/1472627194409230343
 
+### Fish Fight
+
+![Fish demo scene](fishfight-poster.png)
+
+Fish Fight ([GitHub][fish-github], [Discord][fish-discord],
+[website][fish-website])
+
+Fish Fight is a tactical 2D shooter, played by up to 4 players.
+It is also a 2D-pixels-platformer game engine optimized for modding.
+
+In-game level editor was [released][fish-editor], along with an [editor tutorial][fish-tutorial].
+A retrospective devlog was posted: [Fish Fight's past, present, and future][fish-announce].
+
+[fish-github]: https://github.com/fishfight/FishFight
+[fish-discord]: https://discord.gg/4smxjcheE5
+[fish-website]: https://fishfight.org/
+[duck-game]: https://store.steampowered.com/app/312530/Duck_Game/
+[fish-editor]: https://github.com/fishfight/FishFight/releases/tag/v0.3
+[fish-tutorial]: https://fishfight.github.io/FishFight/editor.html
+[fish-announce]: https://spicylobster.itch.io/fishfight/devlog/332434/fish-fights-past-present-and-future
+
 ## Engine Updates
 
 ### [Rusty Engine 3.0]
