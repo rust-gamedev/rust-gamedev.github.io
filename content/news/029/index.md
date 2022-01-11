@@ -82,8 +82,9 @@ is an Archetype-based Entity Component System implemented in Rust.
 
 Version 0.2 is a complete rewrite of the ECS, with the main new feature that it supports no_std environments.
 
-_Discussions: [/r/rust](https://www.reddit.com/r/rust/comments/r6mn0g/announcing_shard_020_the_no_std_entity_component/)_
+_Discussions: [/r/rust]_
 
+[/r/rust]: https://www.reddit.com/r/rust/comments/r6mn0g/announcing_shard_020_the_no_std_entity_component/
 [Shard]: https://github.com/HindrikStegenga/Shard
 [Github]: https://github.com/HindrikStegenga/Shard
 
