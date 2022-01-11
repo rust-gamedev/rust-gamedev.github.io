@@ -30,6 +30,7 @@ Feel free to send PRs about your own projects!
 [Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
+- [Rust GameDev Meetup](#rust-gamedev-meetup)
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
@@ -64,6 +65,20 @@ _Discussions:
 
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
+
+## Rust GameDev Meetup
+
+![Gamedev meetup poster](gamedev-meetup.png)
+
+The thirteenth Rust Gamedev Meetup happened in December. You can watch the
+recording of the meetup [here on Youtube][gamedev-meetup-video]. The meetups
+take place on the second Saturday every month via the [Rust Gamedev Discord
+server][rust-gamedev-discord] and are also [streamed on
+Twitch][rust-gamedev-twitch].
+
+[gamedev-meetup-video]: https://youtu.be/S7aoi_4a2uE
+[rust-gamedev-discord]: https://discord.gg/yNtPTb2
+[rust-gamedev-twitch]: https://twitch.tv/rustgamedev
 
 ## Game Updates
 
@@ -106,6 +121,30 @@ system
 The gameplay and art is influenced by games such as Final Fantasy VI and Lufia
 II with a heavy focus on procedural content generation.
 
+### [10x Sprint Master]
+
+![In-game screenshot of 10x Sprint Master,
+depicting a project workboard and two team members.](10xsprintmaster.png)
+
+[10x Sprint Master] ([GitHub][10xsprintmaster-github]) by [@E_net4]
+is a simulation game where you play the role of
+a software development lead engineer.
+Write tasks, coordinate a team of developers,
+fix bugs and manage feature delivery,
+while trying to mitigate the torments of technical debt.
+
+The game was submitted to GitHub Game Off 2021,
+and was written using [Yew] with graphics done in pure HTML and CSS.
+
+The author also published a [blog post on Dev.to][10xsprintmaster-dev]
+about the game's technical and social dimensions.
+
+[10xsprintmaster-github]: https://github.com/Enet4/10xSprintMaster
+[10x Sprint Master]: https://e-net4.itch.io/10x-sprint-master
+[Yew]: https://yew.rs
+[@E_net4]: https://twitter.com/E_net4
+[10xsprintmaster-dev]: https://dev.to/e_net4/10x-sprint-master-a-technical-and-social-experiment-ahp
+
 ## Engine Updates
 
 ### [Rusty Engine 3.0]
@@ -133,6 +172,31 @@ _Discussions:
 ## Learning Material Updates
 
 ## Tooling Updates
+
+### [Blackjack]
+
+![Blackjack demo: Connecting visual nodes and tweaking various parameters to
+procedurally generate a beveled box in real-time](blackjack.gif)
+
+[Blackjack] by @setzer22 is a new procedural modelling application made in Rust,
+using `rend3`, `wgpu` and `egui`. It follows the steps of applications like
+Houdini, or Blender's geometry nodes project and provides a node-based
+environment to compose procedural recipes to create 3d models.
+
+The project was recently announced, and an official open-source release is
+planned during the following month. Here's a highlight of the upcoming features:
+
+- A node-based editor to compose operations like 3d math, vertex/edge/face
+  selections and mesh edit operations.
+- Several polygon edit operations like bevel, chamfer and extrude.
+- Viewport display with support for displaying primitive ids and triangle
+  half-edge winding.
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/rufvlc/meet_blackjack),
+[/r/rust](https://reddit.com/r/rust/comments/rug24x/media_meet_blackjack)_
+
+[Blackjack](https://github.com/setzer22/blackjack)
 
 ## Library Updates
 
@@ -189,6 +253,32 @@ Version 0.9.0 brings a few breaking changes. Notably `wgpu` was updated to
 
 [pixels]: https://github.com/parasyte/pixels
 [pixels-changelog]: https://github.com/parasyte/pixels/releases/tag/0.9.0
+
+### [bevy_proto]
+
+![YAML configuration files for bevy_proto](bevy_proto.png)
+
+[bevy_proto] is a small plugin for the [Bevy] game engine, allowing entities to
+be defined in their own config files (called "Prototypes"). These config files
+are then read into a resource that you can use to spawn their pre-defined
+entities from within any Bevy system.
+
+The recently released 0.2 version, adds a templating feature (as suggested
+by [@chrisburnor](https://github.com/chrisburnor)). This new feature allows any
+entity prototype to define one or more templates, from which it will inherit
+additional component definitions (including those from a template's templates).
+
+This makes defining many entities with common functionality (such as enemy types
+or weapons) much easier and reduces code duplication for an overall better
+experience.
+
+For more info, check out
+the [original PR](https://github.com/MrGVSV/bevy_proto/pull/2), or explore
+the [assets](https://github.com/MrGVSV/bevy_proto/tree/main/assets)
+and [examples](https://github.com/MrGVSV/bevy_proto/tree/main/examples) folders.
+
+[bevy_proto]: https://github.com/MrGVSV/bevy_proto
+[Bevy]: https://github.com/bevyengine/bevy
 
 ### [bevy-remote-devtools]
 

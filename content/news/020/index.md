@@ -31,8 +31,6 @@ Feel free to send PRs about your own projects!
 - [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
 - [Library & Tooling Updates](#library-tooling-updates)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
-- [Meeting Minutes](#meeting-minutes)
 - [Requests for Contribution](#requests-for-contribution)
 
 <!--
@@ -559,7 +557,7 @@ Notable changes:
 
 [Harvest Hero][hh_disc] ([Discord][hh_disc], [Twitter][bmb_twitter])
 by [@bombfuse][bmb_twitter] is an arcade/roguelite where you whack Groobles.
-Built on top of [Emerald](#Emerald).
+Built on top of [Emerald](#emerald).
 
 Harvest Hero has undergone a large change, migrating
 from semi-randomly generated levels to handcrafted levels
