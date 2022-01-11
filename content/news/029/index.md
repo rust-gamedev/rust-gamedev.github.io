@@ -280,6 +280,26 @@ and [examples](https://github.com/MrGVSV/bevy_proto/tree/main/examples) folders.
 [bevy_proto]: https://github.com/MrGVSV/bevy_proto
 [Bevy]: https://github.com/bevyengine/bevy
 
+### [bevy-remote-devtools]
+
+![Demo of the Tauri based development app](bevy-remote-devtools.gif)
+
+[bevy-remote-devtools] is a plugin and UI application for the [Bevy] game
+engine allowing to view entities and their components, asset resources
+like meshes, events from the [tracing] crate and system timings using a
+very basic profiler. It also supports all of that over network so
+debugging can be done from any remote machine and vice versa.
+
+The first release of the 0.1 version comes with basic support for the
+aforementioned features. It contains a plugin for [Bevy] that will extend
+you application with a small REST HTTP API that can be consumed by the
+included [Tauri] based UI application.
+
+[bevy-remote-devtools]: https://github.com/reneeichhorn/bevy-remote-devtools
+[Bevy]: https://github.com/bevyengine/bevy
+[tracing]: https://github.com/tokio-rs/tracing
+[Tauri]: https://tauri.studio/en/
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
