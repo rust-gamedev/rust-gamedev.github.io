@@ -218,7 +218,7 @@ read a twitter thread that brifly covers how it
 ![Fish demo scene](fishfight-poster.png)
 
 Fish Fight ([GitHub][fish-github], [Discord][fish-discord],
-[website][fish-website]) 
+[website][fish-website])
 
 Fish Fight is a tactical 2D shooter, played by up to 4 players.
 It is also a 2D-pixels-platformer game engine optimized for modding.
