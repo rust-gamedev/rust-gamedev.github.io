@@ -30,6 +30,7 @@ Feel free to send PRs about your own projects!
 [Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
+- [Rust GameDev Meetup](#rust-gamedev-meetup)
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
@@ -64,6 +65,20 @@ _Discussions:
 
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
+
+## Rust GameDev Meetup
+
+![Gamedev meetup poster](gamedev-meetup.png)
+
+The thirteenth Rust Gamedev Meetup happened in December. You can watch the
+recording of the meetup [here on Youtube][gamedev-meetup-video]. The meetups
+take place on the second Saturday every month via the [Rust Gamedev Discord
+server][rust-gamedev-discord] and are also [streamed on
+Twitch][rust-gamedev-twitch].
+
+[gamedev-meetup-video]: https://youtu.be/S7aoi_4a2uE
+[rust-gamedev-discord]: https://discord.gg/yNtPTb2
+[rust-gamedev-twitch]: https://twitch.tv/rustgamedev
 
 ## Game Updates
 
@@ -129,6 +144,25 @@ about the game's technical and social dimensions.
 [Yew]: https://yew.rs
 [@E_net4]: https://twitter.com/E_net4
 [10xsprintmaster-dev]: https://dev.to/e_net4/10x-sprint-master-a-technical-and-social-experiment-ahp
+
+### [Molecoole][molecoole-steam]
+
+[![A molecoole with tons of cannons](molecoole1.png)][molecoole-steam]
+
+Molecoole is a top-down shooter roguelike where you build your character
+from different atoms. Each atom has a unique ability providing
+tons of variety between playthroughs.
+It's made using the [Bevy Engine](https://github.com/bevyengine/bevy).
+
+This month Molecoole devs focused on
+adding more [variety][variety-twitter]: different enemies, atoms etc...
+
+They also launched their first teaser [video][teaser-twitter],
+it gives us a glimpse into 3 different bioms, bosses, enemies and more.
+
+[molecoole-steam]: https://store.steampowered.com/app/1792170/Molecoole/
+[variety-twitter]: https://twitter.com/kiss_mrton/status/1473725282918014977
+[teaser-twitter]: https://twitter.com/kiss_mrton/status/1467242884927614976
 
 ### [Veloren][veloren]
 
@@ -269,6 +303,52 @@ Version 0.9.0 brings a few breaking changes. Notably `wgpu` was updated to
 
 [pixels]: https://github.com/parasyte/pixels
 [pixels-changelog]: https://github.com/parasyte/pixels/releases/tag/0.9.0
+
+### [bevy_proto]
+
+![YAML configuration files for bevy_proto](bevy_proto.png)
+
+[bevy_proto] is a small plugin for the [Bevy] game engine, allowing entities to
+be defined in their own config files (called "Prototypes"). These config files
+are then read into a resource that you can use to spawn their pre-defined
+entities from within any Bevy system.
+
+The recently released 0.2 version, adds a templating feature (as suggested
+by [@chrisburnor](https://github.com/chrisburnor)). This new feature allows any
+entity prototype to define one or more templates, from which it will inherit
+additional component definitions (including those from a template's templates).
+
+This makes defining many entities with common functionality (such as enemy types
+or weapons) much easier and reduces code duplication for an overall better
+experience.
+
+For more info, check out
+the [original PR](https://github.com/MrGVSV/bevy_proto/pull/2), or explore
+the [assets](https://github.com/MrGVSV/bevy_proto/tree/main/assets)
+and [examples](https://github.com/MrGVSV/bevy_proto/tree/main/examples) folders.
+
+[bevy_proto]: https://github.com/MrGVSV/bevy_proto
+[Bevy]: https://github.com/bevyengine/bevy
+
+### [bevy-remote-devtools]
+
+![Demo of the Tauri based development app](bevy-remote-devtools.gif)
+
+[bevy-remote-devtools] is a plugin and UI application for the [Bevy] game
+engine allowing to view entities and their components, asset resources
+like meshes, events from the [tracing] crate and system timings using a
+very basic profiler. It also supports all of that over network so
+debugging can be done from any remote machine and vice versa.
+
+The first release of the 0.1 version comes with basic support for the
+aforementioned features. It contains a plugin for [Bevy] that will extend
+you application with a small REST HTTP API that can be consumed by the
+included [Tauri] based UI application.
+
+[bevy-remote-devtools]: https://github.com/reneeichhorn/bevy-remote-devtools
+[Bevy]: https://github.com/bevyengine/bevy
+[tracing]: https://github.com/tokio-rs/tracing
+[Tauri]: https://tauri.studio/en/
 
 ## Popular Workgroup Issues in Github
 
