@@ -30,6 +30,7 @@ Feel free to send PRs about your own projects!
 [Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
+- [Rust GameDev Meetup](#rust-gamedev-meetup)
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
@@ -64,6 +65,20 @@ _Discussions:
 
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
+
+## Rust GameDev Meetup
+
+![Gamedev meetup poster](gamedev-meetup.png)
+
+The thirteenth Rust Gamedev Meetup happened in December. You can watch the
+recording of the meetup [here on Youtube][gamedev-meetup-video]. The meetups
+take place on the second Saturday every month via the [Rust Gamedev Discord
+server][rust-gamedev-discord] and are also [streamed on
+Twitch][rust-gamedev-twitch].
+
+[gamedev-meetup-video]: https://youtu.be/S7aoi_4a2uE
+[rust-gamedev-discord]: https://discord.gg/yNtPTb2
+[rust-gamedev-twitch]: https://twitch.tv/rustgamedev
 
 ## Game Updates
 
@@ -106,6 +121,80 @@ system
 The gameplay and art is influenced by games such as Final Fantasy VI and Lufia
 II with a heavy focus on procedural content generation.
 
+### [10x Sprint Master]
+
+![In-game screenshot of 10x Sprint Master,
+depicting a project workboard and two team members.](10xsprintmaster.png)
+
+[10x Sprint Master] ([GitHub][10xsprintmaster-github]) by [@E_net4]
+is a simulation game where you play the role of
+a software development lead engineer.
+Write tasks, coordinate a team of developers,
+fix bugs and manage feature delivery,
+while trying to mitigate the torments of technical debt.
+
+The game was submitted to GitHub Game Off 2021,
+and was written using [Yew] with graphics done in pure HTML and CSS.
+
+The author also published a [blog post on Dev.to][10xsprintmaster-dev]
+about the game's technical and social dimensions.
+
+[10xsprintmaster-github]: https://github.com/Enet4/10xSprintMaster
+[10x Sprint Master]: https://e-net4.itch.io/10x-sprint-master
+[Yew]: https://yew.rs
+[@E_net4]: https://twitter.com/E_net4
+[10xsprintmaster-dev]: https://dev.to/e_net4/10x-sprint-master-a-technical-and-social-experiment-ahp
+
+### [Molecoole][molecoole-steam]
+
+[![A molecoole with tons of cannons](molecoole1.png)][molecoole-steam]
+
+Molecoole is a top-down shooter roguelike where you build your character
+from different atoms. Each atom has a unique ability providing
+tons of variety between playthroughs.
+It's made using the [Bevy Engine](https://github.com/bevyengine/bevy).
+
+This month Molecoole devs focused on
+adding more [variety][variety-twitter]: different enemies, atoms etc...
+
+They also launched their first teaser [video][teaser-twitter],
+it gives us a glimpse into 3 different bioms, bosses, enemies and more.
+
+[molecoole-steam]: https://store.steampowered.com/app/1792170/Molecoole/
+[variety-twitter]: https://twitter.com/kiss_mrton/status/1473725282918014977
+[teaser-twitter]: https://twitter.com/kiss_mrton/status/1467242884927614976
+
+### [Veloren][veloren]
+
+![Winter in a town](veloren.jpg)
+_A peaceful winter night_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In December, Veloren ran a Christmas week. From the 20th to the 30th of
+December, there were several winter-themed changes on the main server. Snow was
+everywhere, decorations were added to locations, and NPC wore Christmas hats!
+The 150th Veloren blog was also released in December. An experimental new
+section of the newsletter gives video recaps of the last week's blog post.
+
+The ability to edit the appearance of characters was added to the game. Work was
+done on armor tooltips to make them more clear. Skiing is in the works, with
+some work to still be done on animations and physics. New images were created
+for item displays, which are now stored as `.vox` files.
+
+December's full weekly devlogs: "This Week In Veloren...":
+[#149][veloren-149],
+[#150][veloren-150],
+[#151][veloren-151],
+[#152][veloren-152].
+
+[veloren]: https://veloren.net
+[veloren-149]: https://veloren.net/devblog-149
+[veloren-150]: https://veloren.net/devblog-150
+[veloren-151]: https://veloren.net/devblog-151
+[veloren-152]: https://veloren.net/devblog-152
+
 ### Country Slice
 
 ![Country Slice](country_slice.gif)
@@ -122,7 +211,7 @@ read a twitter thread that brifly covers how it
 
 [country-slice-github]: https://github.com/anopara/country-slice
 [country-slice-twitter]: https://twitter.com/anastasiaopara/
-[country-slice-twitter-opt]: https://twitter.com/anastasiaopara/status/1472627194409230343?s=20
+[country-slice-twitter-opt]: https://twitter.com/anastasiaopara/status/1472627194409230343
 
 ## Engine Updates
 
@@ -151,6 +240,31 @@ _Discussions:
 ## Learning Material Updates
 
 ## Tooling Updates
+
+### [Blackjack]
+
+![Blackjack demo: Connecting visual nodes and tweaking various parameters to
+procedurally generate a beveled box in real-time](blackjack.gif)
+
+[Blackjack] by @setzer22 is a new procedural modelling application made in Rust,
+using `rend3`, `wgpu` and `egui`. It follows the steps of applications like
+Houdini, or Blender's geometry nodes project and provides a node-based
+environment to compose procedural recipes to create 3d models.
+
+The project was recently announced, and an official open-source release is
+planned during the following month. Here's a highlight of the upcoming features:
+
+- A node-based editor to compose operations like 3d math, vertex/edge/face
+  selections and mesh edit operations.
+- Several polygon edit operations like bevel, chamfer and extrude.
+- Viewport display with support for displaying primitive ids and triangle
+  half-edge winding.
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/rufvlc/meet_blackjack),
+[/r/rust](https://reddit.com/r/rust/comments/rug24x/media_meet_blackjack)_
+
+[Blackjack](https://github.com/setzer22/blackjack)
 
 ## Library Updates
 
@@ -207,6 +321,80 @@ Version 0.9.0 brings a few breaking changes. Notably `wgpu` was updated to
 
 [pixels]: https://github.com/parasyte/pixels
 [pixels-changelog]: https://github.com/parasyte/pixels/releases/tag/0.9.0
+
+### [bevy_proto]
+
+![YAML configuration files for bevy_proto](bevy_proto.png)
+
+[bevy_proto] is a small plugin for the [Bevy] game engine, allowing entities to
+be defined in their own config files (called "Prototypes"). These config files
+are then read into a resource that you can use to spawn their pre-defined
+entities from within any Bevy system.
+
+The recently released 0.2 version, adds a templating feature (as suggested
+by [@chrisburnor](https://github.com/chrisburnor)). This new feature allows any
+entity prototype to define one or more templates, from which it will inherit
+additional component definitions (including those from a template's templates).
+
+This makes defining many entities with common functionality (such as enemy types
+or weapons) much easier and reduces code duplication for an overall better
+experience.
+
+For more info, check out
+the [original PR](https://github.com/MrGVSV/bevy_proto/pull/2), or explore
+the [assets](https://github.com/MrGVSV/bevy_proto/tree/main/assets)
+and [examples](https://github.com/MrGVSV/bevy_proto/tree/main/examples) folders.
+
+[bevy_proto]: https://github.com/MrGVSV/bevy_proto
+[Bevy]: https://github.com/bevyengine/bevy
+
+### [bevy-remote-devtools]
+
+![Demo of the Tauri based development app](bevy-remote-devtools.gif)
+
+[bevy-remote-devtools] is a plugin and UI application for the [Bevy] game
+engine allowing to view entities and their components, asset resources
+like meshes, events from the [tracing] crate and system timings using a
+very basic profiler. It also supports all of that over network so
+debugging can be done from any remote machine and vice versa.
+
+The first release of the 0.1 version comes with basic support for the
+aforementioned features. It contains a plugin for [Bevy] that will extend
+you application with a small REST HTTP API that can be consumed by the
+included [Tauri] based UI application.
+
+[bevy-remote-devtools]: https://github.com/reneeichhorn/bevy-remote-devtools
+[Bevy]: https://github.com/bevyengine/bevy
+[tracing]: https://github.com/tokio-rs/tracing
+[Tauri]: https://tauri.studio/en/
+
+### [kajiya]
+
+![A rendering of a warmly-lit ruins environment](kajiya.jpg)
+
+[kajiya] ([Discord][kajiya_discord])
+by [@h3r2tic] is an experimental real-time global illumination
+renderer made with Vulkan, and utilizing [rust-gpu][rust-gpu].
+
+Last month the project was released into open source along with
+a tiny sample: [Cornell McRay t'Racing][cornell-mcray].
+
+The renderer is permissively licensed, and includes several cutting-edge
+algorithms, including ray-traced effects.
+It isn’t built to ship games (yet), but serves as a convenient
+platform for learning and research.
+
+_Discussions:
+[medium](https://medium.com/embarkstudios/homegrown-rendering-with-rust-1e39068e56a7),
+[r/rust](https://www.reddit.com/r/rust/comments/rkqmk3/homegrown_rendering_with_rust/),
+[twitter (kajiya)](https://twitter.com/h3r2tic/status/1472957370972127233),
+[twitter (cornell-mcray)](https://twitter.com/h3r2tic/status/1473856011941425155)._
+
+[kajiya_discord]: https://discord.gg/dAuKfZS
+[cornell-mcray]: https://github.com/h3r2tic/cornell-mcray/
+[kajiya]: https://github.com/EmbarkStudios/kajiya/
+[rust-gpu]: https://github.com/EmbarkStudios/rust-gpu
+[@h3r2tic]: https://github.com/h3r2tic
 
 ## Popular Workgroup Issues in Github
 
