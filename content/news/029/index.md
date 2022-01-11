@@ -164,6 +164,37 @@ it gives us a glimpse into 3 different bioms, bosses, enemies and more.
 [variety-twitter]: https://twitter.com/kiss_mrton/status/1473725282918014977
 [teaser-twitter]: https://twitter.com/kiss_mrton/status/1467242884927614976
 
+### [Veloren][veloren]
+
+![Winter in a town](veloren.jpg)
+_A peaceful winter night_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In December, Veloren ran a Christmas week. From the 20th to the 30th of
+December, there were several winter-themed changes on the main server. Snow was
+everywhere, decorations were added to locations, and NPC wore Christmas hats!
+The 150th Veloren blog was also released in December. An experimental new
+section of the newsletter gives video recaps of the last week's blog post.
+
+The ability to edit the appearance of characters was added to the game. Work was
+done on armor tooltips to make them more clear. Skiing is in the works, with
+some work to still be done on animations and physics. New images were created
+for item displays, which are now stored as `.vox` files.
+
+December's full weekly devlogs: "This Week In Veloren...":
+[#149][veloren-149],
+[#150][veloren-150],
+[#151][veloren-151],
+[#152][veloren-152].
+
+[veloren]: https://veloren.net
+[veloren-149]: https://veloren.net/devblog-149
+[veloren-150]: https://veloren.net/devblog-150
+[veloren-151]: https://veloren.net/devblog-151
+[veloren-152]: https://veloren.net/devblog-152
+
 ## Engine Updates
 
 ### [Rusty Engine 3.0]
