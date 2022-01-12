@@ -465,10 +465,12 @@ _Discussions: [/r/rust]_
 
 [rapid-qoi] by @zakarumych is an implementation of QOI format written in Rust.
 
-QOI format can fit nicely as a replacement for PNG and other common loseless image formats
+QOI format can fit nicely as a replacement for PNG
+and other common loseless image formats
 for game engines given its simplicity and blazing fast encoding and decoding.
 
-[rapid-qoi] has simple API, zero unsafe, zero dependencies, fast build times and high performance.
+[rapid-qoi] has simple API, zero unsafe, zero dependencies,
+fast build times and high performance.
 It is compatible with finalized QOI spec publised in December.
 
 [rapid-qoi]: https://github.com/zakarumych/rapid-qoi
