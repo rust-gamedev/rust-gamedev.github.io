@@ -460,6 +460,20 @@ _Discussions: [/r/rust]_
 [/r/rust]: https://reddit.com/r/rust/comments/r6mn0g/shard_020
 [Shard]: https://github.com/HindrikStegenga/Shard
 
+### [rapid-qoi]
+
+[rapid-qoi] by @zakarumych is an implementation of QOI format written in Rust.
+
+QOI format can fit nicely as a replacement for PNG
+and other common loseless image formats
+for game engines given its simplicity and blazing fast encoding and decoding.
+
+[rapid-qoi] has simple API, zero unsafe, zero dependencies,
+fast build times and high performance.
+It is compatible with finalized QOI spec publised in December.
+
+[rapid-qoi]: https://github.com/zakarumych/rapid-qoi
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
