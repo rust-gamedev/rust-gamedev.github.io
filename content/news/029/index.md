@@ -460,7 +460,6 @@ _Discussions: [/r/rust]_
 [/r/rust]: https://reddit.com/r/rust/comments/r6mn0g/shard_020
 [Shard]: https://github.com/HindrikStegenga/Shard
 
-
 ### [rapid-qoi]
 
 [rapid-qoi] by @zakarumych is an implementation of QOI format written in Rust.
@@ -474,7 +473,6 @@ fast build times and high performance.
 It is compatible with finalized QOI spec publised in December.
 
 [rapid-qoi]: https://github.com/zakarumych/rapid-qoi
-
 
 ## Popular Workgroup Issues in Github
 
