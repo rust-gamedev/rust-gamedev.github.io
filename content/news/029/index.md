@@ -322,16 +322,15 @@ Discord][graphite-discord] and get involved!
 
 ### [Shard]
 
-[Shard] ([GitHub]) by @HindrikStegenga
-is an Archetype-based Entity Component System implemented in Rust.
+[Shard] by @HindrikStegenga is an Archetype-based Entity Component System.
 
-Version 0.2 is a complete rewrite of the ECS, with the main new feature that it supports no_std environments.
+Version 0.2 is a complete rewrite of the ECS, with the main new feature
+that it supports no_std environments.
 
 _Discussions: [/r/rust]_
 
-[/r/rust]: https://www.reddit.com/r/rust/comments/r6mn0g/announcing_shard_020_the_no_std_entity_component/
+[/r/rust]: https://reddit.com/r/rust/comments/r6mn0g/shard_020
 [Shard]: https://github.com/HindrikStegenga/Shard
-[Github]: https://github.com/HindrikStegenga/Shard
 
 ### [assets_manager]
 
