@@ -320,6 +320,18 @@ Discord][graphite-discord] and get involved!
 
 ## Library Updates
 
+### [Shard]
+
+[Shard] by @HindrikStegenga is an Archetype-based Entity Component System.
+
+Version 0.2 is a complete rewrite of the ECS, with the main new feature
+that it supports no_std environments.
+
+_Discussions: [/r/rust]_
+
+[/r/rust]: https://reddit.com/r/rust/comments/r6mn0g/shard_020
+[Shard]: https://github.com/HindrikStegenga/Shard
+
 ### [assets_manager]
 
 [assets_manager] provides a high-level API to load and cache external resources
