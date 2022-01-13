@@ -234,6 +234,32 @@ A retrospective devlog was posted: [Fish Fight's past, present, and future][fish
 [fish-tutorial]: https://fishfight.github.io/FishFight/editor.html
 [fish-announce]: https://spicylobster.itch.io/fishfight/devlog/332434/fish-fights-past-present-and-future
 
+### [BITGUN][bitgun-steam]
+
+[![survivors talking in a cutscene: "You! Don't move! Are you infected?"](
+bitgun-cutscene.jpg)][bitgun-steam]
+
+BITGUN ([Steam][bitgun-steam], [Twitter][bitgun-twitter],
+[Discord][bitgun-discord]) by [@LogLogGames][bitgun-twitter] is an action
+roguelike zombie shooter with lots of blood. The game is built using Godot
+and Rust (via [godot-rust][bitgun-godot-rust]).
+
+They are now heading to a public playtest via Steam and you can signup
+[here][bitgun-signup] to play the game for free in exchange for a short feedback.
+They recently added [cutscenes][bitgun-cutscenes], which are telling a bit more
+story about this post-apocalyptic zombie world where people are scared of getting
+infected and supplies are rare. They also launched a project [Name your zombie][bitgun-name]
+where you can get your Twitter or TikTok username as a name of a random zombie
+and a thombstone in the game!
+
+[bitgun-steam]: https://store.steampowered.com/app/1673940/BITGUN/
+[bitgun-twitter]: https://twitter.com/logloggames
+[bitgun-discord]: https://discord.gg/XrGZQkq
+[bitgun-godot-rust]: https://godot-rust.github.io/
+[bitgun-signup]: https://airtable.com/shrMUw2Xz98tdj8gW
+[bitgun-cutscenes]: https://twitter.com/LogLogGames/status/1479752293306273792
+[bitgun-name]: https://loglog.games/pages/name-your-zombie/
+
 ## Engine Updates
 
 ### [Rusty Engine 3.0]
