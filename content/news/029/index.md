@@ -234,9 +234,10 @@ A retrospective devlog was posted: [Fish Fight's past, present, and future][fish
 [fish-tutorial]: https://fishfight.github.io/FishFight/editor.html
 [fish-announce]: https://spicylobster.itch.io/fishfight/devlog/332434/fish-fights-past-present-and-future
 
-### BITGUN
+### [BITGUN][bitgun-steam]
 
-[![Screenshot from the cutscene](bitgun-cutscene.jpg)][bitgun-steam]
+[![survivors talking in a cutscene: "You! Don't move! Are you infected?"
+](bitgun-cutscene.jpg)][bitgun-steam]
 
 BITGUN ([Steam][bitgun-steam], [Twitter][bitgun-twitter],
 [Discord][bitgun-discord]) by [@LogLogGames][bitgun-twitter] is an action
