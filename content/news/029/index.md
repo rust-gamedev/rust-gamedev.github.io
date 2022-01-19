@@ -212,7 +212,7 @@ read a Twitter thread that briefly covers how it
 
 ### Fish Fight
 
-![Fish demo scene](fishfight-poster.png)
+![Fish demo scene](fishfight-poster.jpg)
 
 Fish Fight ([GitHub][fish-github], [Discord][fish-discord],
 [website][fish-website])
