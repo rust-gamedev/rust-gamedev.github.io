@@ -1,0 +1,26 @@
+diff a/content/news/029/index.md b/content/news/029/index.md	(rejected hunks)
+@@ -460,6 +525,24 @@ _Discussions: [/r/rust]_
+ [/r/rust]: https://reddit.com/r/rust/comments/r6mn0g/shard_020
+ [Shard]: https://github.com/HindrikStegenga/Shard
+ 
++### ash v0.34
++
++([1](https://github.com/MaikKlein/ash/releases/tag/0.34.0)) - 🆓 **free** (@MaikKlein?)
++
++oneliner or full section?
++
++ash 0.34 is out! https://github.com/MaikKlein/ash/releases/tag/0.34.0
++Highlights include:
++- Now defaults to linking Vulkan directly, which saves the libloading dep and is more idiomatic for apps that don't have a fallback
++- More extensions
++- Debug impls can be disabled for a faster build
++- Lots of miscellaneous API cleanup
++
++### egui 0.16
++
++([1](https://reddit.com/r/rust/comments/rrantt/announcing_egui_016),
++[2](https://twitter.com/ernerfeldt/status/1476170987347582977)) - 🆓 **free** (@emilk?)
++
+ ## Popular Workgroup Issues in Github
+ 
+ <!-- Up to 10 links to interesting issues -->
