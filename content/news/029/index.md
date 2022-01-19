@@ -264,11 +264,11 @@ and a tombstone in the game!
 [vange.rs] is the project of re-implementing the [Vangers] game (from 1998)
 in Rust using modern development practices, parallel computations, and GPU.
 
-This month [@caiiiycuk] ported it on "wasm32-unknown-emscripten" target
+This month [@caiiiycuk] ported it to the "wasm32-unknown-emscripten" target
 via wgpu's GLES3 backend and [posted an article][vangers-wasm-post]
 about the process and observations.
 
-The wev version of vange-rs can be [played online here][vangers-wasm-play].
+The web version of vange-rs can be [played online here][vangers-wasm-play].
 
 _Discussions:
 [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/rdbl7u/vangers_running_on_webgl)_
@@ -396,9 +396,9 @@ and [user-provided][pyxel-examples2] examples.
 [![youtube preview: ping pong window and some dev windows in background](youtube-sfml-win.jpg)][sfml-video]
 
 [@TheFern2] published a [video tutorial][sfml-video] on how to
-set up Rust with [SFML bindings][sfml] on Windows users (using MSVC C++).
+set up Rust with [SFML bindings][sfml] for Windows users (using MSVC C++).
 
-sfml's [wiki page with instructions for Wndows][sfml-wiki-win] was also updated.
+rust-sfml's [wiki page with instructions for Windows][sfml-wiki-win] was also updated.
 
 [sfml-video]: https://youtube.com/watch?v=nnojR-8PT4M
 [@TheFern2]: https://github.com/TheFern2
@@ -706,16 +706,16 @@ This month [v0.34 was released][ash-0-3-4]. Highlights include:
 
 <!-- One-liners for plan items that haven't got their own sections. -->
 
-- Other game updates
+- Other game updates:
   - [BENDYWORM] now [runs on Linux natively](
     https://twitter.com/bauxitedev/status/1467817606111498240).
   - [Rust Shooter progress report][rust-shooter]:
-    enemies are propper player entities with rudimentry AI now,
+    enemies are proper player entities with rudimentry AI now,
     new indoor environment.
-  - [aous] is a GameOff'21 game about the survival of a mutating ant colony.
+  - [aous] is a Game Off'21 game about the survival of a mutating ant colony.
   - [Embark's Arc Raiders game is using some Rust on the server side](
     https://twitter.com/repi/status/1469324284619337728).
-- Other engine updates
+- Other engine updates:
   - [@DmitryNStepanov] did a few more [rg3d] live-coding streams, here're
     the recordings: [second](https://youtube.com/watch?v=TQaCyC_tGko),
     [third](https://youtube.com/watch?v=OsZCusri1Nw),
@@ -725,7 +725,7 @@ This month [v0.34 was released][ash-0-3-4]. Highlights include:
   - [Oxygengine] v0.26 brings: different image types (2D, 2D Array, 3D),
     samplers instead of textures, render target fixes,
     and also an [RPG template][oxygengine-rpg].
-- Other library updates
+- Other library updates:
   - [bevy_midi] v0.2 is now using crossbeam-channels meaning
     it is more responsive.
   - [egui 0.16](https://reddit.com/r/rust/comments/rrantt/egui_016) brings:
