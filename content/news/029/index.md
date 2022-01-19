@@ -407,7 +407,7 @@ rust-sfml's [wiki page with instructions for Windows][sfml-wiki-win] was also up
 
 ### [Rust and Unity Game Development][runity-video]
 
-[![Silly Youtube preview: TanTan's photo, Rust&Unity logos](youtube-runity.png)][runity-video]
+[![Silly Youtube preview: TanTan's photo, Rust&Unity logos](youtube-runity.jpg)][runity-video]
 
 [@TanTanDev] published a [video][runity-video] about the process of adding Rust
 support for the Unity game engine.
