@@ -93,7 +93,7 @@ or [join the next meeting][join].
 
 [label_meeting]: https://github.com/rust-gamedev/wg/issues?q=label%3Ameeting
 
-Ukraine. Write Game on Rust
+Ukraine. Write Game on Rust.
 We will hold a workshop on February 5-6 in Kyiv, Ukraine. 
 Day 1: develop the architecture and core of the game.
 Day 2: write a graphical interface to the core. 
