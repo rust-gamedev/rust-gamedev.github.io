@@ -74,6 +74,23 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Tooling Updates
 
+### [Nodus][nodus-github]
+
+![Demo that shows a simple circuit](flipflop.png)
+
+Nodus ([GitHub][nodus-github]) by [@r4gus] is a digital circuit simulator
+built with the Bevy game engine. The project is in an early stage of
+development but, most of the basic features are implemented. That includes:
+
+- Insert components like gates, switches, clocks, or light bulbs into
+  the world using a radial context menu.
+- Build digital circuits by connecting inputs and outputs of components
+  with each other.
+- Save projects to a .ron file and reload them later.
+
+[nodus-github]: https://github.com/r4gus/nodus
+[@r4gus]: https://github.com/r4gus
+
 ## Library Updates
 
 ## Popular Workgroup Issues in Github
