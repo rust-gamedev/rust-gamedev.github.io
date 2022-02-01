@@ -70,6 +70,41 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Engine Updates
 
+### [godot-rust][gd-github]
+
+godot-rust ([GitHub][gd-github], [Discord][gd-discord], [Twitter][gd-twitter])
+is a Rust library that provides bindings for the Godot game engine.
+
+The start of 2022 is a good opportunity to showcase a few godot-rust games
+in development. More info is available in [the book][gd-book-games].
+
+![godot-rust example games](godot-rust-games.jpg)
+
+Using custom builds of the Godot engine involved quite a bit of ceremony
+in the past: manual CLI invocations, code replacement and re-wiring
+of the `gdnative-bindings` subcrate. The approach has been fundamentally
+overhauled, and is now as simple as specifying the crate feature `custom-godot`
+([#833][gd-833]). The library will automatically look for a `godot` executable
+in the system path (or a `GODOT_BIN` environment variable), and regenerate
+`api.json`. This makes using older or module-extended Godot versions a breeze.
+
+Latest `master` branch has now been updated to support Godot 3.4 out of the box
+([#829][gd-829]).
+
+Upcoming godot-rust version 0.10 seems to be finally on the horizon, with only
+a handful of tasks left ([#842][gd-842]). A changelog since v0.9.3 is now
+available. The continous stream of small improvements here and there has led
+to a sizable list! ([#845][gd-845])
+
+[gd-833]: https://github.com/godot-rust/godot-rust/pull/833
+[gd-829]: https://github.com/godot-rust/godot-rust/pull/829
+[gd-842]: https://github.com/godot-rust/godot-rust/issues/842
+[gd-845]: https://github.com/godot-rust/godot-rust/pull/845
+[gd-github]: https://github.com/godot-rust/godot-rust
+[gd-discord]: https://discord.com/invite/FNudpBD
+[gd-twitter]: https://twitter.com/GodotRust
+[gd-book-games]: https://godot-rust.github.io/book/projects/games.html
+
 ## Learning Material Updates
 
 ## Tooling Updates
