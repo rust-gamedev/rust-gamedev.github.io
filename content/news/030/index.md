@@ -70,6 +70,29 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Engine Updates
 
+### [Rusty Engine 4.0]
+
+![An example Rusty Engine game](rusty_engine4.png)
+_The updated collider visualization (white outlines) in Rusty Engine 4.0_
+
+[Rusty Engine] by [Nathan Stocks] is a game engine built on top of Bevy
+for people who are learning Rust.
+
+Notable new features in Version 4.0 include: no need for an `init!` macro, new collider 
+visualization, text can now be rotated and scaled, and an updated [online tutorial].
+See [the changelog for 4.0] for the full details. On the back end Bevy has been updated to 0.6 and
+we switched from `bevy_prototype_debug_lines` to `bevy_prototype_lyon`.
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust_gamedev/comments/sg2cdg/rusty_engine_40/),
+[twitter](https://twitter.com/nathanstocks/status/1487667704118988803)_
+
+[Rusty Engine 4.0]: https://github.com/CleanCut/rusty_engine/blob/main/CHANGELOG.md#400---2022-01-29
+[Rusty Engine]: https://github.com/CleanCut/rusty_engine
+[online tutorial]: https://cleancut.github.io/rusty_engine/
+[the changelog for 4.0]: https://github.com/CleanCut/rusty_engine/blob/main/CHANGELOG.md#400---2022-01-29
+[Nathan Stocks]: https://github.com/CleanCut
+
 ## Learning Material Updates
 
 ## Tooling Updates
