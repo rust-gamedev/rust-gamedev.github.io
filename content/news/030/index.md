@@ -82,6 +82,9 @@ If needed, a section can be split into subsections with a "------" delimiter.
 is an ergonomic, featureful and fully documented Bevy library
 for expressively abstracting over user input.
 
+Supports local multiplayer, enables input rebinding, integrates with `bevy_ui`,
+and handles chords!
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
