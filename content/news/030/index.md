@@ -105,7 +105,6 @@ scenes with photorealistic style at 60FPS/1440p on modern, mid-range GPUs.
 [rafx-youtube-video]: https://www.youtube.com/watch?v=iWYpX7RGUSA
 [rafx-distill]: https://github.com/amethyst/distill
 
-
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
