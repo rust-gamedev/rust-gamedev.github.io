@@ -81,8 +81,8 @@ for people who are learning Rust.
 Notable new features in Version 4.0 include: no need for an `init!` macro, new
 collider visualization, text can now be rotated and scaled, and an updated
 [online tutorial]. See [the changelog for 4.0] for the full details. On the
-back end Bevy has been updated to 0.6 and we switched from
-`bevy_prototype_debug_lines` to `bevy_prototype_lyon`.
+back end Bevy has been updated to 0.6 and `bevy_prototype_debug_lines` was
+replaced with `bevy_prototype_lyon`.
 
 _Discussions:
 [/r/rust](https://www.reddit.com/r/rust_gamedev/comments/sg2cdg/rusty_engine_40/),
