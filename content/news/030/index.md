@@ -36,7 +36,7 @@ Feel free to send PRs about your own projects!
 - [Engine Updates](#engine-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
-- [Other News](#other-news)
+	- [leafwing-input-manager](#leafwing-input-manager)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Meeting Minutes](#meeting-minutes)
 - [Discussions](#discussions)
@@ -75,6 +75,13 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ## Tooling Updates
 
 ## Library Updates
+
+### leafwing-input-manager
+
+`leafwing-input-manager` ([GitHub](https://github.com/Leafwing-Studios/leafwing-input-manager),
+[crates.io](https://crates.io/crates/leafwing-input-manager)) by [@alice-i-cecile](https://twitter.com/AliceICecile)
+is an ergonomic, featureful and fully documented Bevy library
+for expressively abstracting over user input.
 
 ## Popular Workgroup Issues in Github
 
