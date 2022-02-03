@@ -151,6 +151,47 @@ to a sizable list! ([#845][gd-845])
 [gd-twitter]: https://twitter.com/GodotRust
 [gd-book-games]: https://godot-rust.github.io/book/projects/games.html
 
+### [Bevy v0.6][bevy-blog]
+
+![bevy bistro night](bevy_bistro_night.jpg)
+_The Lumberyard Bistro scene rendered in the new Bevy Renderer._
+
+[Bevy][bevy] is a refreshingly simple data-driven game engine built in Rust. It is
+[free and open source][bevy-git] forever!
+
+Bevy 0.6 was a massive community effort. You can check out the
+[full release blog post here][bevy-blog], but here are some highlights:
+
+- [A brand new modern renderer that is prettier, faster, and simpler to extend][bevy-renderer]
+- [Directional and point light shadows][bevy-shadows]
+- [Clustered forward rendering][bevy-clustered]
+- [Frustum culling][bevy-frustum-culling]
+- [Significantly faster sprite rendering with less boilerplate][bevy-sprites]
+- [Native WebGL2 support][bevy-webgl2]. You can test this out by running the
+  [Bevy Examples in your browser][bevy-web-examples]!
+- [High level custom Materials][bevy-materials]
+- [More powerful shaders: preprocessors, imports, WGSL support][bevy-shaders]
+- [Bevy ECS ergonomics and performance improvements. No more .system()!][bevy-ecs]
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/rz612l/bevy_06/),
+[Hacker News](https://news.ycombinator.com/item?id=29854416),
+[Twitter](https://twitter.com/cart_cart/status/1479879242347270145)_
+
+[bevy]: https://bevyengine.org
+[bevy-git]: https://github.com/bevyengine/bevy
+[bevy-blog]: https://bevyengine.org/news/bevy-0-6
+[bevy-renderer]: https://bevyengine.org/news/bevy-0-6/#the-new-bevy-renderer
+[bevy-shadows]: https://bevyengine.org/news/bevy-0-6/#directional-shadows
+[bevy-clustered]: https://bevyengine.org/news/bevy-0-6/#clustered-forward-rendering
+[bevy-sprites]: https://bevyengine.org/news/bevy-0-6/#sprite-batching
+[bevy-webgl2]: https://bevyengine.org/news/bevy-0-6/#webgl2-support
+[bevy-web-examples]: https://bevyengine.org/examples
+[bevy-ecs]: https://bevyengine.org/news/bevy-0-6/#bevy-ecs
+[bevy-materials]: https://bevyengine.org/news/bevy-0-6/#materials
+[bevy-frustum-culling]: https://bevyengine.org/news/bevy-0-6/#visibility-and-frustum-culling
+[bevy-shaders]: https://bevyengine.org/news/bevy-0-6/#wgsl-shaders
+
 ## Learning Material Updates
 
 ## Tooling Updates
