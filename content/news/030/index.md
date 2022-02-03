@@ -68,6 +68,22 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### Flesh
+
+![flesh preview](flesh.gif)
+_the second level's background + new enemy_
+
+[Flesh] by [@im_oab] is a 2D-horizontal shmup game with hand-drawn animation and
+an organic/fleshy theme. It is implemented using [Tetra]. This month's updates
+include:
+
+- The completed first level, with a mid-boss and main boss.
+- The second level of the game with new enemies.
+
+[Flesh]: https://store.steampowered.com/app/1660850/Flesh/
+[@im_oab]: https://twitter.com/im_oab
+[Tetra]: https://github.com/17cupsofcoffee/tetra
+
 ### [Rusty Vangers]
 
 ![Rust engine powering original game](vangers-integrated.jpg)
@@ -179,6 +195,16 @@ the excellent [vk-bootstrap] library for C++.
 [vk-bootstrap]: https://github.com/charles-lunarg/vk-bootstrap
 [erupt-bootstrap]: https://gitlab.com/Friz64/erupt-bootstrap
 [@Friz64]: https://blog.friz64.de/about
+
+### leafwing-input-manager
+
+`leafwing-input-manager` ([GitHub](https://github.com/Leafwing-Studios/leafwing-input-manager),
+[crates.io](https://crates.io/crates/leafwing-input-manager)) by [@alice-i-cecile](https://twitter.com/AliceICecile)
+is an ergonomic, featureful and fully documented Bevy library
+for expressively abstracting over user input.
+
+Supports local multiplayer, enables input rebinding, integrates with `bevy_ui`,
+and handles chords!
 
 ## Popular Workgroup Issues in Github
 
