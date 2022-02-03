@@ -158,6 +158,16 @@ development but, most of the basic features are implemented. That includes:
 
 ## Library Updates
 
+### leafwing-input-manager
+
+`leafwing-input-manager` ([GitHub](https://github.com/Leafwing-Studios/leafwing-input-manager),
+[crates.io](https://crates.io/crates/leafwing-input-manager)) by [@alice-i-cecile](https://twitter.com/AliceICecile)
+is an ergonomic, featureful and fully documented Bevy library
+for expressively abstracting over user input.
+
+Supports local multiplayer, enables input rebinding, integrates with `bevy_ui`,
+and handles chords!
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
