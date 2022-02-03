@@ -125,9 +125,9 @@ engine. It has a demo available [on Steam][wor].
 Latest developments:
 
 - [Making Your Game Go Fast by Asking Windows Nicely][wor-fast] was published,
-discussing Windows specific performance tweaks in Way of Rhea's engine
+  discussing Windows specific performance tweaks in Way of Rhea's engine
 - Work started on the Snowcrab + Teleporter puzzles, completing nearly all the
-puzzles in the main game
+  puzzles in the main game
 - Work began on art for The Professor (pictured left), Shrew, and Hermes
 - Work began on artwork for the Mushroom Biome, and continued on the Hub World
 - The narrative was reworked, and the dialogue system was improved
