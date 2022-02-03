@@ -174,6 +174,28 @@ development but, most of the basic features are implemented. That includes:
 
 ## Library Updates
 
+### [erupt-bootstrap]
+
+![erupt-bootstrap logo](erupt-bootstrap.svg)
+
+[erupt-bootstrap] by [@Friz64] is a Vulkan Bootstrapping library for Rust.
+
+When starting a new Vulkan project, there's always the struggle of writing a
+whole bunch of boilerplate code in order to, e.g., get your first triangle on
+the screen. You have to create an `VkInstance`, with the validation layers
+set up and working for development. Then select the best suited
+`VkPhysicalDevice` for your app's requirements. Use that to create a `VkDevice`
+with the appropriate queue families chosen. Oh, and after that, you need
+to struggle with managing and resizing a Vulkan swapchain.
+
+That's no fun — and this is where [erupt-bootstrap] comes in. It aims to
+abstract over all of this to get you up and running in no time. It's inspired by
+the excellent [vk-bootstrap] library for C++.
+
+[vk-bootstrap]: https://github.com/charles-lunarg/vk-bootstrap
+[erupt-bootstrap]: https://gitlab.com/Friz64/erupt-bootstrap
+[@Friz64]: https://blog.friz64.de/about
+
 ### leafwing-input-manager
 
 `leafwing-input-manager` ([GitHub](https://github.com/Leafwing-Studios/leafwing-input-manager),
