@@ -210,27 +210,27 @@ and handles chords!
 
 New archetypes based ECS implementation by [@zakarumych](https://github.com/zakarumych).
 
-The novel feature of [Edict] is entity ownership implemented via reference counting.\
+The novel feature of [Edict] is entity ownership implemented via reference counting.
 This optional feature allows creating owned kind of `Entity` "reference",
-that ensures entity is alive and despawns it on drop.\
+that ensures entity is alive and despawns it on drop.
 Storing owning `Entity` in the component of another entity
-creates ownership relation between those entities.\
+creates ownership relation between those entities.
 Even though `Entity` is an owning reference,
-components of the entity are can be queried from `World` as usual.\
+components of the entity are can be queried from `World` as usual.
 Shared ownership is also available.
 
 Optimized for both high density `World`s with thousands of entities
-and also for `World`s with lower number of entities spread among many archetypes.\
+and also for `World`s with lower number of entities spread among many archetypes.
 [Edict] is aimed for wide range of game genres and use cases outside of games.
 
 Built-in change detection with epochs allows systems to query for components
 that were updated since last run of that query,
-or since any other epoch as defined by `Tracks` argument.\
-This opens possibility to have multiple POV on changes even in single system.\
-For example server-side netcode can track changes individually for each client and query for changes since last ACK.\
+or since any other epoch as defined by `Tracks` argument.
+This opens possibility to have multiple POV on changes even in single system.
+For example server-side netcode can track changes individually for each client and query for changes since last ACK.
 [Edict] optimizes iteration significantly when entities with modified components are queried.
 
-Although ECS abbreviation implies, [Edict] does not come with predefined `System` trait and systems scheduler.\
+Although ECS abbreviation implies, [Edict] does not come with predefined `System` trait and systems scheduler.
 We can call it ECQ (Entity-Component-Query) as an alternative to ECS.
 
 [Edict] is added to [ecs_bench_suite](https://github.com/rust-gamedev/ecs_bench_suite)
