@@ -77,7 +77,7 @@ _the second level's background + new enemy_
 an organic/fleshy theme. It is implemented using [Tetra]. This month's updates
 include:
 
-- The completed level of the first level includes a mid-boss and the boss.
+- The completed first level, with a mid-boss and main boss.
 - The second level of the game with new enemies.
 
 [Flesh]: https://store.steampowered.com/app/1660850/Flesh/
