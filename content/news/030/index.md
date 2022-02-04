@@ -143,6 +143,48 @@ or joining [their Discord][wor-discord].
 [wor-fast]: https://www.anthropicstudios.com/2022/01/13/asking-windows-nicely/
 [wor-discord]: https://discord.gg/JGeVt5XwPP
 
+### [Veloren][veloren]
+
+![Bright lantern](veloren.jpg)
+_A light to keep the night away_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In January, another [Veloren Reading Club was
+recorded]([veloren-reading-club-4])!. The `entity_sync` system was refactored to
+be parallel. This was the largest bottleneck during the last release party, and
+this fix will allow us to more easily surpass the 200 player mark on the server.
+Work has been done to improve dagger animations. Sounds for flowing rivers are
+now more bubbly sounding. Work is happening to get the OpenGL renderer to work
+with WGPU for Veloren, as the project transitioned to Vulkan, but wants to keep
+backward compatibility for older GPUs.
+
+Skiing and ice skating have gotten to a playable state. The mounts system was
+overhauled to make it more ergonomic to work with, you can [watch a video of
+that here][veloren-mounts]. Several shaders experimental shaders have been
+added, along with a "point glow" which help lanterns look better. With these new
+shaders, swimming underwater is a whole new experience! A tracking issue was
+created for worldgen issues that will help coordinate direction for some large
+systems in the future.
+
+January's full weekly devlogs: "This Week In Veloren...":
+[#152][veloren-152],
+[#153][veloren-153],
+[#154][veloren-154],
+[#155][veloren-155].
+[#156][veloren-156].
+
+[veloren]: https://veloren.net
+[veloren-mounts]: https://www.youtube.com/watch?v=fJpeOJT78TI
+[veloren-reading-club-4]: https://www.youtube.com/watch?v=nR2WDBMjkh8
+
+[veloren-152]: https://veloren.net/devblog-152
+[veloren-153]: https://veloren.net/devblog-153
+[veloren-154]: https://veloren.net/devblog-154
+[veloren-155]: https://veloren.net/devblog-155
+[veloren-156]: https://veloren.net/devblog-156
+
 ## Engine Updates
 
 ### [Rusty Engine 4.0]
