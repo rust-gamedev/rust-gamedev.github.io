@@ -172,7 +172,7 @@ January's full weekly devlogs: "This Week In Veloren...":
 [#152][veloren-152],
 [#153][veloren-153],
 [#154][veloren-154],
-[#155][veloren-155].
+[#155][veloren-155],
 [#156][veloren-156].
 
 [veloren]: https://veloren.net
