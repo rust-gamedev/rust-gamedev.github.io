@@ -251,9 +251,11 @@ _Discussions:
 _Environment lighting example_
 
 [`three-d`](https://github.com/asny/three-d)
-is a 2D/3D renderer targeting both desktop and web that aims to make rendering simple and give the user full control.
+is a 2D/3D renderer targeting both desktop and web 
+that aims to make rendering simple and give the user full control.
 
 `three-d` 0.10 has been released featuring:
+
 - Environment lighting (image-based lighting)
 - HDR environment map
 - Headless graphics context
@@ -263,7 +265,8 @@ is a 2D/3D renderer targeting both desktop and web that aims to make rendering s
 - f16 and u16 texture data types
 - and more..
 
-See [this](https://twitter.com/AsgerNyman/status/1482711259673944067) twitter thread for videos.
+See [this](https://twitter.com/AsgerNyman/status/1482711259673944067) 
+twitter thread for videos.
 
 ## Learning Material Updates
 
