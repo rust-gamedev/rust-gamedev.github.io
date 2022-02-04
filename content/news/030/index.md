@@ -272,18 +272,17 @@ _Discussions:
 [awn-post]: https://www.anthropicstudios.com/2022/01/13/asking-windows-nicely/
 [awn-rust-gamedev]: https://www.reddit.com/r/rust_gamedev/comments/s393sx/making_your_game_go_fast_by_asking_windows_nicely/
 
-
 ### [Refactoring from Legion to Bevy][rflb-post]
 
-
-[Justin Hurstwright][justin_rhw] published a [blog post][rflb-post] describing 
+[Justin Hurstwright][justin_rhw] published a [blog post][rflb-post] describing
 how to migrate from Legion ECS into Bevy ECS without giving up on
-the other frameworks one might rely on. 
+the other frameworks one might rely on.
 
 You can read it [here][rflb-post]
 
 [justin_rhw]: https://twitter.com/justin_rhw
 [rflb-post]: https://justinryanh.github.io/post/refactoring_from_legion_to_bevy/
+
 ## Tooling Updates
 
 ### [Nodus][nodus-github]
