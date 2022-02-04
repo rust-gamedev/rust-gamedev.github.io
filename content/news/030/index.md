@@ -114,6 +114,35 @@ fixes and additions:
 [Vangers]: https://www.gog.com/en/game/vangers
 [@kvark]: https://github.com/kvark/
 
+### [Way of Rhea][wor]
+
+![way of rhea capsule image](wor-capsule.jpg)
+
+[Way of Rhea][wor] is a puzzle adventure with hard puzzles and forgiving
+mechanics being produced by [@masonremaley][wor-mason-remaley] in a custom Rust
+engine. It has a demo available [on Steam][wor].
+
+Latest developments:
+
+- [Making Your Game Go Fast by Asking Windows Nicely][wor-fast] was published,
+  discussing Windows specific performance tweaks in Way of Rhea's engine
+- Work started on the Snowcrab + Teleporter puzzles, completing nearly all the
+  puzzles in the main game
+- Work began on art for The Professor (pictured left), Shrew, and Hermes
+- Work began on artwork for the Mushroom Biome, and continued on the Hub World
+- The narrative was reworked, and the dialogue system was improved
+- The main menu, pause menu, and option screen UIs were replaced
+
+You can stay up to date with the latest Way of Rhea developments by
+[following it on Steam][wor], signing up for [their mailing list][wor-newsletter],
+or joining [their Discord][wor-discord].
+
+[wor]: https://store.steampowered.com/app/1110620/Way_of_Rhea/?utm_campaign=tmirgd&utm_source=n30
+[wor-mason-remaley]: https://twitter.com/masonremaley
+[wor-newsletter]: https://www.anthropicstudios.com/newsletter/signup
+[wor-fast]: https://www.anthropicstudios.com/2022/01/13/asking-windows-nicely/
+[wor-discord]: https://discord.gg/JGeVt5XwPP
+
 ## Engine Updates
 
 ### [Rusty Engine 4.0]
@@ -176,6 +205,31 @@ to a sizable list! ([#845][gd-845])
 [gd-book-games]: https://godot-rust.github.io/book/projects/games.html
 
 ## Learning Material Updates
+
+### [Making Your Game Go Fast by Asking Windows Nicely][awn-post]
+
+[![A speed limit sign labeled 45 FPS](awn-header.jpg)][awn-post]
+
+[Mason Remaley][awn-mason-remaley] published [a blog post][awn-post] covering
+Windows specific performance tweaks employed in his Rust game engine:
+
+> Normally, to make your software go faster, it has to do less work. This
+> usually involves improving your algorithms, skipping work the user won't see,
+> factoring your target hardware into the design process, or modifying your
+> game's content.
+>
+> We're not talking about any of that today. This post is a list of ways to make
+> your game run faster on Windows–without making any major changes to your
+> game's content, code, or algorithms.
+
+You can read more [here][awn-post].
+
+_Discussions:
+[/r/rust_gamedev][awn-rust-gamedev]_
+
+[awn-mason-remaley]: https://twitter.com/masonremaley
+[awn-post]: https://www.anthropicstudios.com/2022/01/13/asking-windows-nicely/
+[awn-rust-gamedev]: https://www.reddit.com/r/rust_gamedev/comments/s393sx/making_your_game_go_fast_by_asking_windows_nicely/
 
 ## Tooling Updates
 
