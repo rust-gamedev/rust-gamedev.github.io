@@ -89,7 +89,7 @@ features have been introduced to improve performance and image quality. The
 main rendering pipeline has also been split into "modern" and "basic"
 pipelines. Unlike the basic pipeline which focusses on wide compatibility,
 the modern pipeline uses forward-clustered lighting and handles hundreds
-of shadow-casting lights. It is targetting compute shaders and will be adding
+of shadow-casting lights. It is targeting compute shaders and will be adding
 bindless and GPU-driven rendering soon.
 
 Since the last update, the modern pipeline adds GPU-accelierated light binning,
