@@ -284,6 +284,35 @@ for expressively abstracting over user input.
 Supports local multiplayer, enables input rebinding, integrates with `bevy_ui`,
 and handles chords!
 
+### [rafx]
+
+[![Rafx Screenshot](rafx-screenshot.jpg)][rafx-youtube-video]
+_Sci-fi base demo scene, [watch TAA demo on youtube][rafx-youtube-video]!_
+
+[Rafx][rafx] is a multi-backend renderer that optionally integrates with the
+[distill][rafx-distill] asset pipeline.
+
+Since the previous rafx update in this newsletter (6 months ago!), many new
+features have been introduced to improve performance and image quality. The
+main rendering pipeline has also been split into "modern" and "basic"
+pipelines. Unlike the basic pipeline which focusses on wide compatibility,
+the modern pipeline uses forward-clustered lighting and handles hundreds
+of shadow-casting lights. It is targeting compute shaders and will be adding
+bindless and GPU-driven rendering soon.
+
+Since the last update, the modern pipeline adds GPU-accelierated light binning,
+SSAO, shadow map atlasing/caching, TAA with sharpening, and auto-exposure/HDR.
+In addition, both modern and basic pipelines now support transparency. A
+[video demonstrating TAA](rafx-youtube-video) (temporal anti-aliasing) is
+available on youtube.
+
+With these performance improvements, `rafx` is now able to render challenging
+scenes with photorealistic style at 60FPS/1440p on modern, mid-range GPUs.
+
+[rafx]: https://github.com/aclysma/rafx
+[rafx-youtube-video]: https://www.youtube.com/watch?v=iWYpX7RGUSA
+[rafx-distill]: https://github.com/amethyst/distill
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
