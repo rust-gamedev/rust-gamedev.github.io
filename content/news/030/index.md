@@ -143,6 +143,26 @@ or joining [their Discord][wor-discord].
 [wor-fast]: https://www.anthropicstudios.com/2022/01/13/asking-windows-nicely/
 [wor-discord]: https://discord.gg/JGeVt5XwPP
 
+### [Kataster]
+
+![Kataster screenshot](kataster.jpg)
+
+[Kataster] by [@Bobox214] is a single-screen space shooter mini-game,
+using [bevy] and [heron] (powered by [rapier]).
+
+Its goal is to be a simple demonstration game for [bevy], and provide newcomers
+another example to look into when they begin their journey with the engine.
+
+The latest version includes:
+- Support for [bevy] 0.6
+- A new shader background to showcase integration with the new renderer.
+
+[Kataster]: https://github.com/Bobox214/Kataster
+[bevy]: https://bevyengine.org/
+[rapier]: https://rapier.rs
+[heron]: https://github.com/jcornaz/heron
+[@Bobox214]: https://github.com/Bobox214
+
 ## Engine Updates
 
 ### [Rusty Engine 4.0]
