@@ -278,7 +278,7 @@ _Discussions:
 how to migrate from Legion ECS into Bevy ECS without giving up on
 the other frameworks one might rely on.
 
-You can read it [here][rflb-post]
+You can read it [here][rflb-post].
 
 [justin_rhw]: https://twitter.com/justin_rhw
 [rflb-post]: https://justinryanh.github.io/post/refactoring_from_legion_to_bevy/
