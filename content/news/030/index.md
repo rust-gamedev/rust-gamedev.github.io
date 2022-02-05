@@ -143,6 +143,87 @@ or joining [their Discord][wor-discord].
 [wor-fast]: https://www.anthropicstudios.com/2022/01/13/asking-windows-nicely/
 [wor-discord]: https://discord.gg/JGeVt5XwPP
 
+### [Kataster]
+
+![Kataster screenshot](kataster.jpg)
+
+[Kataster] by [@Bobox214] is a single-screen space shooter mini-game,
+using [bevy] and [heron] (powered by [rapier]).
+
+Its goal is to be a simple demonstration game for [bevy], and provide newcomers
+another example to look into when they begin their journey with the engine.
+
+The latest version includes:
+
+- Support for [bevy] 0.6
+- A new shader background to showcase integration with the new renderer.
+
+[Kataster]: https://github.com/Bobox214/Kataster
+[bevy]: https://bevyengine.org/
+[rapier]: https://rapier.rs
+[heron]: https://github.com/jcornaz/heron
+[@Bobox214]: https://github.com/Bobox214
+
+### [Garden of the Centaur][centaur-github]
+
+![Garden of the Centaur screenshot](centaur-screenshot.png)
+_Screenshot of Garden of the Centaur_
+
+Garden of the Centaur ([GitHub][centaur-github]) by
+[@Syn-Nine][synnine-twitter] is an action-puzzle mini game where you navigate a
+garden maze and steal the Centaur's gems. Getting caught spells certain doom.
+
+The game was created using Syn9's [Rust Mini Game Framework][mgfw] and is
+part of an open source [repository][s9-minigame-repo] of several mini-games
+that use this framework.
+
+[centaur-github]: https://github.com/Syn-Nine/rust-mini-games/tree/main/2d-games/centaur
+[synnine-twitter]: https://twitter.com/Syn9Dev
+[mgfw]: https://github.com/Syn-Nine/mgfw
+[s9-minigame-repo]: https://github.com/Syn-Nine/rust-mini-games/
+
+### [Veloren][veloren]
+
+![Bright lantern](veloren.jpg)
+_A light to keep the night away_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In January, another [Veloren Reading Club was
+recorded]([veloren-reading-club-4])!. The `entity_sync` system was refactored to
+be parallel. This was the largest bottleneck during the last release party, and
+this fix will allow us to more easily surpass the 200 player mark on the server.
+Work has been done to improve dagger animations. Sounds for flowing rivers are
+now more bubbly sounding. Work is happening to get the OpenGL renderer to work
+with WGPU for Veloren, as the project transitioned to Vulkan, but wants to keep
+backward compatibility for older GPUs.
+
+Skiing and ice skating have gotten to a playable state. The mounts system was
+overhauled to make it more ergonomic to work with, you can [watch a video of
+that here][veloren-mounts]. Several shaders experimental shaders have been
+added, along with a "point glow" which help lanterns look better. With these new
+shaders, swimming underwater is a whole new experience! A tracking issue was
+created for worldgen issues that will help coordinate direction for some large
+systems in the future.
+
+January's full weekly devlogs: "This Week In Veloren...":
+[#152][veloren-152],
+[#153][veloren-153],
+[#154][veloren-154],
+[#155][veloren-155],
+[#156][veloren-156].
+
+[veloren]: https://veloren.net
+[veloren-mounts]: https://www.youtube.com/watch?v=fJpeOJT78TI
+[veloren-reading-club-4]: https://www.youtube.com/watch?v=nR2WDBMjkh8
+
+[veloren-152]: https://veloren.net/devblog-152
+[veloren-153]: https://veloren.net/devblog-153
+[veloren-154]: https://veloren.net/devblog-154
+[veloren-155]: https://veloren.net/devblog-155
+[veloren-156]: https://veloren.net/devblog-156
+
 ### [Not Snake][notsnake]
 
 ![Editor for Not Snake](notsnake.gif)
@@ -281,6 +362,31 @@ _Discussions:
 [bevy-frustum-culling]: https://bevyengine.org/news/bevy-0-6/#visibility-and-frustum-culling
 [bevy-shaders]: https://bevyengine.org/news/bevy-0-6/#wgsl-shaders
 
+### [`three-d` 0.10][three-d]
+
+![three-d example of environment lighting](three-d.jpg)
+_Environment lighting example_
+
+[`three-d`][three-d]
+is a 2D/3D renderer targeting both desktop and web
+that aims to make rendering simple and give the user full control.
+
+`three-d` 0.10 has been released featuring:
+
+- Environment lighting (image-based lighting)
+- HDR environment map
+- Headless graphics context
+- Tangent vertex atributes
+- Texture transform
+- Cube map render targets
+- f16 and u16 texture data types
+- and more..
+
+See [this Twitter thread][three-d-twitter] for videos.
+
+[three-d]: https://github.com/asny/three-d
+[three-d-twitter]: https://twitter.com/AsgerNyman/status/1482711259673944067
+
 ## Learning Material Updates
 
 ### [Making Your Game Go Fast by Asking Windows Nicely][awn-post]
@@ -307,6 +413,38 @@ _Discussions:
 [awn-mason-remaley]: https://twitter.com/masonremaley
 [awn-post]: https://www.anthropicstudios.com/2022/01/13/asking-windows-nicely/
 [awn-rust-gamedev]: https://www.reddit.com/r/rust_gamedev/comments/s393sx/making_your_game_go_fast_by_asking_windows_nicely/
+
+### [Refactoring from Legion to Bevy][rflb-post]
+
+[Justin Hurstwright][justin_rhw] published a [blog post][rflb-post] describing
+how to migrate from Legion ECS into Bevy ECS without giving up on
+the other frameworks one might rely on.
+
+You can read it [here][rflb-post].
+
+[justin_rhw]: https://twitter.com/justin_rhw
+[rflb-post]: https://justinryanh.github.io/post/refactoring_from_legion_to_bevy/
+
+### [Writing an AH Scanner in Rust][trimoq-post]
+
+[![AH scanner workflow](ah-scanner.png)][trimoq-post]
+
+Trimoq ([Github][trimoq-github], [Twitter][trimoq-twitter]) wrote [a blog
+post][trimoq-post] about writing a game client for a popular MMORPG. It
+focuses on some negative parts of Rust and its ecosystem. There are three key
+takeaways from this post:
+
+- Stay away from low-level libraries if you are not aware of how deep the rabbit
+  hole goes.
+- Evaluate the library ecosystem of Rust thoroughly before using it for a
+  project that requires somewhat exotic functionality.
+- Rust forces you to care about the details, regardless whether you want to.
+
+The remainder of the article goes into depth on these three points.
+
+[trimoq-github]: https://github.com/trimoq
+[trimoq-twitter]: https://twitter.com/amann_dev
+[trimoq-post]: https://medium.com/digitalfrontiers/taking-rust-for-a-ride-to-azeroth-what-writing-an-ah-scanner-in-rust-taught-me-58edc936cbb
 
 ## Tooling Updates
 
@@ -360,6 +498,44 @@ for expressively abstracting over user input.
 
 Supports local multiplayer, enables input rebinding, integrates with `bevy_ui`,
 and handles chords!
+
+### [Edict]
+
+New archetypes based ECS implementation by [@zakarumych](https://github.com/zakarumych).
+
+The novel feature of [Edict] is entity ownership implemented via reference counting.
+This optional feature allows creating owned kind of `Entity` "reference",
+that ensures entity is alive and despawns it on drop.
+Storing owning `Entity` in the component of another entity
+creates ownership relation between those entities.
+Even though `Entity` is an owning reference,
+components of the entity are can be queried from `World` as usual.
+Shared ownership is also available.
+
+Optimized for both high density `World`s with thousands of entities
+and also for `World`s with lower number of entities spread among many archetypes.
+[Edict] is aimed for wide range of game genres and use cases outside of games.
+
+Built-in change detection with epochs allows systems to query for components
+that were updated since last run of that query,
+or since any other epoch as defined by `Tracks` argument.
+This opens possibility to have multiple POV on changes even in single system.
+For example server-side netcode can track changes individually
+for each client and query for changes since last ACK.
+[Edict] optimizes iteration significantly when entities
+with modified components are queried.
+
+Although ECS abbreviation implies, [Edict] does not come
+with predefined `System` trait and systems scheduler.
+We can call it ECQ (Entity-Component-Query) as an alternative to ECS.
+
+[Edict] is added to [ecs_bench_suite](https://github.com/rust-gamedev/ecs_bench_suite)
+so anyone can compare performance in some trivial examples with other ECS.
+
+Development focus for February is making more public API, including unsafe parts,
+to allow writing custom queries, implement schedulers with parallel execution etc.
+
+[Edict]: https://github.com/zakarumych/edict
 
 ### [rafx]
 
