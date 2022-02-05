@@ -245,12 +245,12 @@ _Discussions:
 [bevy-frustum-culling]: https://bevyengine.org/news/bevy-0-6/#visibility-and-frustum-culling
 [bevy-shaders]: https://bevyengine.org/news/bevy-0-6/#wgsl-shaders
 
-### [`three-d` 0.10](https://github.com/asny/three-d)
+### [`three-d` 0.10][three-d]
 
 ![three-d example of environment lighting](three-d.jpg)
 _Environment lighting example_
 
-[`three-d`](https://github.com/asny/three-d)
+[`three-d`][three-d]
 is a 2D/3D renderer targeting both desktop and web
 that aims to make rendering simple and give the user full control.
 
@@ -265,8 +265,10 @@ that aims to make rendering simple and give the user full control.
 - f16 and u16 texture data types
 - and more..
 
-See [this](https://twitter.com/AsgerNyman/status/1482711259673944067)
-twitter thread for videos.
+See [this Twitter thread][three-d-twitter] for videos.
+
+[three-d]: https://github.com/asny/three-d
+[three-d-twitter]: https://twitter.com/AsgerNyman/status/1482711259673944067
 
 ## Learning Material Updates
 
