@@ -161,6 +161,48 @@ that use this framework.
 [mgfw]: https://github.com/Syn-Nine/mgfw
 [s9-minigame-repo]: https://github.com/Syn-Nine/rust-mini-games/
 
+### [Veloren][veloren]
+
+![Bright lantern](veloren.jpg)
+_A light to keep the night away_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In January, another [Veloren Reading Club was
+recorded]([veloren-reading-club-4])!. The `entity_sync` system was refactored to
+be parallel. This was the largest bottleneck during the last release party, and
+this fix will allow us to more easily surpass the 200 player mark on the server.
+Work has been done to improve dagger animations. Sounds for flowing rivers are
+now more bubbly sounding. Work is happening to get the OpenGL renderer to work
+with WGPU for Veloren, as the project transitioned to Vulkan, but wants to keep
+backward compatibility for older GPUs.
+
+Skiing and ice skating have gotten to a playable state. The mounts system was
+overhauled to make it more ergonomic to work with, you can [watch a video of
+that here][veloren-mounts]. Several shaders experimental shaders have been
+added, along with a "point glow" which help lanterns look better. With these new
+shaders, swimming underwater is a whole new experience! A tracking issue was
+created for worldgen issues that will help coordinate direction for some large
+systems in the future.
+
+January's full weekly devlogs: "This Week In Veloren...":
+[#152][veloren-152],
+[#153][veloren-153],
+[#154][veloren-154],
+[#155][veloren-155],
+[#156][veloren-156].
+
+[veloren]: https://veloren.net
+[veloren-mounts]: https://www.youtube.com/watch?v=fJpeOJT78TI
+[veloren-reading-club-4]: https://www.youtube.com/watch?v=nR2WDBMjkh8
+
+[veloren-152]: https://veloren.net/devblog-152
+[veloren-153]: https://veloren.net/devblog-153
+[veloren-154]: https://veloren.net/devblog-154
+[veloren-155]: https://veloren.net/devblog-155
+[veloren-156]: https://veloren.net/devblog-156
+
 ## Engine Updates
 
 ### [Rusty Engine 4.0]
@@ -221,6 +263,47 @@ to a sizable list! ([#845][gd-845])
 [gd-discord]: https://discord.com/invite/FNudpBD
 [gd-twitter]: https://twitter.com/GodotRust
 [gd-book-games]: https://godot-rust.github.io/book/projects/games.html
+
+### [Bevy v0.6][bevy-blog]
+
+![bevy bistro night](bevy_bistro_night.jpg)
+_The Lumberyard Bistro scene rendered in the new Bevy Renderer._
+
+[Bevy][bevy] is a refreshingly simple data-driven game engine built in Rust. It is
+[free and open source][bevy-git] forever!
+
+Bevy 0.6 was a massive community effort. You can check out the
+[full release blog post here][bevy-blog], but here are some highlights:
+
+- [A brand new modern renderer that is prettier, faster, and simpler to extend][bevy-renderer]
+- [Directional and point light shadows][bevy-shadows]
+- [Clustered forward rendering][bevy-clustered]
+- [Frustum culling][bevy-frustum-culling]
+- [Significantly faster sprite rendering with less boilerplate][bevy-sprites]
+- [Native WebGL2 support][bevy-webgl2]. You can test this out by running the
+  [Bevy Examples in your browser][bevy-web-examples]!
+- [High level custom Materials][bevy-materials]
+- [More powerful shaders: preprocessors, imports, WGSL support][bevy-shaders]
+- [Bevy ECS ergonomics and performance improvements. No more .system()!][bevy-ecs]
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/rz612l/bevy_06/),
+[Hacker News](https://news.ycombinator.com/item?id=29854416),
+[Twitter](https://twitter.com/cart_cart/status/1479879242347270145)_
+
+[bevy]: https://bevyengine.org
+[bevy-git]: https://github.com/bevyengine/bevy
+[bevy-blog]: https://bevyengine.org/news/bevy-0-6
+[bevy-renderer]: https://bevyengine.org/news/bevy-0-6/#the-new-bevy-renderer
+[bevy-shadows]: https://bevyengine.org/news/bevy-0-6/#directional-shadows
+[bevy-clustered]: https://bevyengine.org/news/bevy-0-6/#clustered-forward-rendering
+[bevy-sprites]: https://bevyengine.org/news/bevy-0-6/#sprite-batching
+[bevy-webgl2]: https://bevyengine.org/news/bevy-0-6/#webgl2-support
+[bevy-web-examples]: https://bevyengine.org/examples
+[bevy-ecs]: https://bevyengine.org/news/bevy-0-6/#bevy-ecs
+[bevy-materials]: https://bevyengine.org/news/bevy-0-6/#materials
+[bevy-frustum-culling]: https://bevyengine.org/news/bevy-0-6/#visibility-and-frustum-culling
+[bevy-shaders]: https://bevyengine.org/news/bevy-0-6/#wgsl-shaders
 
 ## Learning Material Updates
 
