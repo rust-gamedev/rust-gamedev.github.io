@@ -143,6 +143,24 @@ or joining [their Discord][wor-discord].
 [wor-fast]: https://www.anthropicstudios.com/2022/01/13/asking-windows-nicely/
 [wor-discord]: https://discord.gg/JGeVt5XwPP
 
+### [Garden of the Centaur][centaur-github]
+
+![Garden of the Centaur screenshot](centaur-screenshot.png)
+_Screenshot of Garden of the Centaur_
+
+Garden of the Centaur ([GitHub][centaur-github]) by
+[@Syn-Nine][synnine-twitter] is an action-puzzle mini game where you navigate a
+garden maze and steal the Centaur's gems. Getting caught spells certain doom.
+
+The game was created using Syn9's [Rust Mini Game Framework][mgfw] and is
+part of an open source [repository][s9-minigame-repo] of several mini-games
+that use this framework.
+
+[centaur-github]: https://github.com/Syn-Nine/rust-mini-games/tree/main/2d-games/centaur
+[synnine-twitter]: https://twitter.com/Syn9Dev
+[mgfw]: https://github.com/Syn-Nine/mgfw
+[s9-minigame-repo]: https://github.com/Syn-Nine/rust-mini-games/
+
 ### [Veloren][veloren]
 
 ![Bright lantern](veloren.jpg)
