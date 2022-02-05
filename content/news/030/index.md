@@ -227,10 +227,13 @@ Built-in change detection with epochs allows systems to query for components
 that were updated since last run of that query,
 or since any other epoch as defined by `Tracks` argument.
 This opens possibility to have multiple POV on changes even in single system.
-For example server-side netcode can track changes individually for each client and query for changes since last ACK.
-[Edict] optimizes iteration significantly when entities with modified components are queried.
+For example server-side netcode can track changes individually
+for each client and query for changes since last ACK.
+[Edict] optimizes iteration significantly when entities
+with modified components are queried.
 
-Although ECS abbreviation implies, [Edict] does not come with predefined `System` trait and systems scheduler.
+Although ECS abbreviation implies, [Edict] does not come
+with predefined `System` trait and systems scheduler.
 We can call it ECQ (Entity-Component-Query) as an alternative to ECS.
 
 [Edict] is added to [ecs_bench_suite](https://github.com/rust-gamedev/ecs_bench_suite)
