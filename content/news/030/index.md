@@ -277,7 +277,7 @@ _Discussions:
 [![AH scanner workflow](ah-scanner.png)][trimoq-post]
 
 Trimoq ([Github][trimoq-github], [Twitter][trimoq-twitter]) wrote [a blog
-post][trimoq-post] about how writing a game client for a popular MMORPG. It
+post][trimoq-post] about writing a game client for a popular MMORPG. It
 focuses on some negative parts of Rust and its ecosystem. There are three key
 takeaways from this post:
 
