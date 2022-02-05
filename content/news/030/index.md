@@ -247,7 +247,7 @@ _Discussions:
 
 ### [`three-d` 0.10](https://github.com/asny/three-d)
 
-![three-d example of environment lighting](https://asny.github.io/three-d/0.10/pbr.png)
+![three-d example of environment lighting](three-d.jpg)
 _Environment lighting example_
 
 [`three-d`](https://github.com/asny/three-d)
