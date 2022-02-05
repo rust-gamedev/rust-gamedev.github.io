@@ -389,6 +389,27 @@ You can read it [here][rflb-post].
 [justin_rhw]: https://twitter.com/justin_rhw
 [rflb-post]: https://justinryanh.github.io/post/refactoring_from_legion_to_bevy/
 
+### [Writing an AH Scanner in Rust][trimoq-post]
+
+[![AH scanner workflow](ah-scanner.png)][trimoq-post]
+
+Trimoq ([Github][trimoq-github], [Twitter][trimoq-twitter]) wrote [a blog
+post][trimoq-post] about writing a game client for a popular MMORPG. It
+focuses on some negative parts of Rust and its ecosystem. There are three key
+takeaways from this post:
+
+- Stay away from low-level libraries if you are not aware of how deep the rabbit
+  hole goes.
+- Evaluate the library ecosystem of Rust thoroughly before using it for a
+  project that requires somewhat exotic functionality.
+- Rust forces you to care about the details, regardless whether you want to.
+
+The remainder of the article goes into depth on these three points.
+
+[trimoq-github]: https://github.com/trimoq
+[trimoq-twitter]: https://twitter.com/amann_dev
+[trimoq-post]: https://medium.com/digitalfrontiers/taking-rust-for-a-ride-to-azeroth-what-writing-an-ah-scanner-in-rust-taught-me-58edc936cbb
+
 ## Tooling Updates
 
 ### [Nodus][nodus-github]
