@@ -224,6 +224,42 @@ January's full weekly devlogs: "This Week In Veloren...":
 [veloren-155]: https://veloren.net/devblog-155
 [veloren-156]: https://veloren.net/devblog-156
 
+### [Not Snake][notsnake]
+
+![Editor for Not Snake](notsnake.gif)
+
+Not Snake ([GitHub][notsnakegit], [Itch][notsnake]) by [Michael Ramirez] is a
+3D snake game where you don't play as the snake.
+
+Not Snake is being developed using the [Bevy game engine][notsnakebevy]. The
+first version can be played [here][notsnake]. An updated version
+is now being worked on since the 0.6 release of [Bevy][notsnakebevy].
+
+The bulk of the work this month was spent on creating a level editor
+using the [egui][notsnakeegui] and [bevy_mod_picking][notsnakepick] crates to
+make it easier to add new features/modes to the game.
+
+Current features include:
+
+- Able to create, customize, and delete game entities
+- Multi-select entities for bulk changes
+- Can play-test levels in the editor
+- Camera controls
+- Save/Load levels
+
+More details on the initial editor work and a retrospective of the first
+version of the game can be read [here][notsnakepost] and a video of
+the save/load feature can be seen [here][notsnakeyt].
+
+[notsnake]: https://ramirezmike2.itch.io/not-snake
+[notsnakepost]: https://ramirezmike2.itch.io/not-snake/devlog/333283/retrospective-working-on-new-features
+[Michael Ramirez]: https://github.com/ramirezmike
+[notsnakebevy]: https://bevyengine.org
+[notsnakegit]: https://github.com/ramirezmike/not_snake_game
+[notsnakeyt]: https://www.youtube.com/watch?v=cwI00pXDc6Q
+[notsnakepick]: https://github.com/aevyrie/bevy_mod_picking
+[notsnakeegui]: https://github.com/emilk/egui
+
 ## Engine Updates
 
 ### [Rusty Engine 4.0]
