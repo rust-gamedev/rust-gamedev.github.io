@@ -154,6 +154,7 @@ Its goal is to be a simple demonstration game for [bevy], and provide newcomers
 another example to look into when they begin their journey with the engine.
 
 The latest version includes:
+
 - Support for [bevy] 0.6
 - A new shader background to showcase integration with the new renderer.
 
