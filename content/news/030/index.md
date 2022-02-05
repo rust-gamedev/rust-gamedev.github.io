@@ -404,6 +404,28 @@ See [this Twitter thread][three-d-twitter] for videos.
 [three-d]: https://github.com/asny/three-d
 [three-d-twitter]: https://twitter.com/AsgerNyman/status/1482711259673944067
 
+### [Tetra]
+
+[Tetra] is a simple 2D game framework, inspired by XNA, Love2D, and Raylib. This
+month, an alpha version of Tetra 0.7 was released, featuring:
+
+- Support for a wider variety of texture formats
+- A more powerful API for blending
+- Lots of bug fixes, cleanups and improvements
+
+For more details, see the [changelog][tetra-changelog].
+
+Alongside the release of this version, it was also [announced][tetra-twitter]
+that Tetra is no longer under active development. The developer
+has written a [retrospective blog post][tetra-retro], explaining what went well
+and what didn't go so well with the engine's development, and giving some
+rationale for why they decided to move on from the project.
+
+[Tetra]: https://github.com/17cupsofcoffee/tetra
+[tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
+[tetra-twitter]: https://twitter.com/17cupsofcoffee/status/1479601522661109764
+[tetra-retro]: https://www.seventeencups.net/posts/three-years-of-tetra/
+
 ## Learning Material Updates
 
 ### [Making Your Game Go Fast by Asking Windows Nicely][awn-post]
