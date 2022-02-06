@@ -627,6 +627,9 @@ or [join the next meeting][join].
 <!-- Links to handpicked reddit/twitter/urlo/etc threads that provide
 useful information -->
 
+- [/r/rust](https://www.reddit.com/r/rust/):
+  - ["Rust alternative for PyGame?"](https://reddit.com/r/rust/comments/ru86vu/rust_alternative_for_pygame)
+
 ## Requests for Contribution
 
 <!-- Links to "good first issue"-labels or direct links to specific tasks -->
@@ -634,6 +637,9 @@ useful information -->
 ## Jobs
 
 <!-- An optional section for new jobs related to Rust gamedev -->
+
+- [Embark Studios](https://careers.embark-studios.com/jobs)
+  (Stockholm/Hybrid Remote) - Various roles
 
 ## Bonus
 
