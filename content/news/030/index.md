@@ -428,6 +428,38 @@ rationale for why they decided to move on from the project.
 
 ## Learning Material Updates
 
+### [Bevy Cheatbook]
+
+This month, [Bevy Cheatbook] focused on refactors to improve navigation,
+usefulness, and make maintenance easier going forward.
+
+ - Updated for Bevy 0.6
+ - Chapters reorganized to present content better and make things easy to find
+ - Linkification! All links now internally managed through separate markdown files.
+   - Easy maintenance, easier to clean up old/stale links.
+   - Can link everything from everywhere! All pages are now full of links.
+   - All mentions of Bevy APIs link to [docs.rs][docsrs-bevy]
+ - [New page summarizing all the useful built-in types in Bevy.][bevy-cb-builtins]
+   - Assets, Bundles, Components, Events, Resources, system params, ...
+   - Useful as a cheat-sheet!
+ - Better info about [working with WASM][bevy-cb-wasm]
+ - Info about [cross-compiling for Windows from Linux][bevy-cb-cross].
+
+The next priority for the project is to provide at least some coverage of
+the areas of Bevy still not in the book: 2D, 3D, UI, scenes, rendering...
+
+If you'd like to support the project, donate to the author via
+[GitHub Sponsors][ghsponsors-inodentry]. Follow [@IyesGames on
+Twitter][twitter-iyesgames] for updates.
+
+[Bevy Cheatbook]: https://bevy-cheatbook.github.io
+[docsrs-bevy]: https://docs.rs/bevy
+[bevy-cb-builtins]: https://bevy-cheatbook.github.io/builtins.html
+[bevy-cb-wasm]: https://bevy-cheatbook.github.io/platforms/wasm.html
+[bevy-cb-cross]: https://bevy-cheatbook.github.io/setup/cross/linux-windows.html
+[ghsponsors-inodentry]: https://github.com/sponsors/inodentry
+[twitter-iyesgames]: https://twitter.com/IyesGames
+
 ### [Making Your Game Go Fast by Asking Windows Nicely][awn-post]
 
 [![A speed limit sign labeled 45 FPS](awn-header.jpg)][awn-post]
