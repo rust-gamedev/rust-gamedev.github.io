@@ -89,7 +89,8 @@ Twitch][rust-gamedev-twitch].
 
 ![harvest_hero](hho.jpg)
 
-[Harvest Hero Origins] is an Arcade Wave Defense game that has been in development by [@Gemdrop Games] for the past 10 months.
+[Harvest Hero Origins] is an Arcade Wave Defense game that has been
+in development by [@Gemdrop Games] for the past 10 months.
 
 It is the studios first commercial release, developed in
 the [Emerald] game engine.
