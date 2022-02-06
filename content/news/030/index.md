@@ -628,7 +628,7 @@ or [join the next meeting][join].
 useful information -->
 
 - [/r/rust](https://www.reddit.com/r/rust/):
-  - ["Rust alternative for PyGame?"](https://reddit.com/r/rust/comments/ru86vu/rust_alternative_for_pygame) 
+  - ["Rust alternative for PyGame?"](https://reddit.com/r/rust/comments/ru86vu/rust_alternative_for_pygame)
 
 ## Requests for Contribution
 
