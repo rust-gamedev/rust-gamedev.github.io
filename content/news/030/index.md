@@ -459,7 +459,7 @@ _Discussions:
 
 [backroll-github]: https://github.com/HouraiTeahouse/backroll-rs
 [bevy-backroll-crates-io]: https://crates.io/bevy-backroll
-[ggpo]: https://crates.io/bevy-backroll
+[ggpo]: https://www.ggpo.net/
 
 ### [`three-d` 0.10][three-d]
 
