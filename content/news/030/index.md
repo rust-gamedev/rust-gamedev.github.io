@@ -309,7 +309,6 @@ Summer 2022.
 [hgs_steam]: https://store.steampowered.com/app/1448820/Hydrofoil_Generation/
 [hgs_trailer]: https://youtu.be/CfmCLr19Hbs
 
-
 ## Engine Updates
 
 ### [Rusty Engine 4.0]
