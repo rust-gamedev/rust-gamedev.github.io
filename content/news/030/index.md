@@ -445,10 +445,10 @@ _Discussions:
 ### [bevy_backroll v0.3][backroll-github]
 
 [Backroll][backroll-github] is a 100% type-safe native Rust implementation of the
-[GGPO][ggpo] rollback library. The core library has gone through superfical
-updates, but the [Bevy plugin][bevy-backroll-crates-io] has been massively
-overhauled. This update signfigantly improves the ergonomics of setting up
-rollback netcode for your game (no more ugly turbofishes! no more generic type
+[GGPO][ggpo] rollback netcode library. The core library has gone through
+superfical updates, but the [Bevy plugin][bevy-backroll-crates-io] has been
+massively overhauled. This update signfigantly improves the ergonomics of setting
+up rollback netcode for your game (no more ugly turbofishes! no more generic type
 parameter config type!), provides an automatic way of saving and loading Bevy
 components and resources, and fully parallelizes the saving and loading of game
 state when a rollback occurs.
