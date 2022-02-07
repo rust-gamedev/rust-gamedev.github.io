@@ -282,7 +282,7 @@ the save/load feature can be seen [here][notsnakeyt].
 ![hgs_screen](hgs6.jpg)
 
 [Hydrofoil Generation]
-([Steam][hgs_steam],[Facebook][hgs_facebook],[Discord][hgs_discord])
+([Steam][hgs_steam], [Facebook][hgs_facebook], [Discord][hgs_discord])
 is a realistic sailing/foiling inshore simulator in development for PC/Steam
 that will put you in the driving seat of modern competitive sailing.
 
@@ -295,7 +295,7 @@ opportunity to gather the first feedbacks about boat handling and controls
 before diving in one of the most challeging task of the game: sailing rules
 implementation.
 
-Content wise, Hong Kong will soon join Den Haag as race location while the race
+Content-wise, Hong Kong will soon join Den Haag as race location while the race
 course is getting more and more alive with addition of spectators boats.
 The playable foiling catamaran Jx50 is also constantly getting graphical
 updates and physics tweaks.
