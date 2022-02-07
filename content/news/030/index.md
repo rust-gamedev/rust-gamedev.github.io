@@ -308,6 +308,38 @@ the save/load feature can be seen [here][notsnakeyt].
 [notsnakepick]: https://github.com/aevyrie/bevy_mod_picking
 [notsnakeegui]: https://github.com/emilk/egui
 
+### [Hydrofoil Generation]
+
+![hgs_screen](hgs6.jpg)
+
+[Hydrofoil Generation]
+([Steam][hgs_steam], [Facebook][hgs_facebook], [Discord][hgs_discord])
+is a realistic sailing/foiling inshore simulator in development for PC/Steam
+that will put you in the driving seat of modern competitive sailing.
+
+Last couple of months saw great disappointment for the failed port to WGPU
+due to unexpected performance losses compared to the old renderer.
+The game is now back to its original DirectX 11 renderer.
+
+February will see the beginning of the private alpha testing program, exciting
+opportunity to gather the first feedbacks about boat handling and controls
+before diving in one of the most challeging task of the game: sailing rules
+implementation.
+
+Content-wise, Hong Kong will soon join Den Haag as race location while the race
+course is getting more and more alive with addition of spectators boats.
+The playable foiling catamaran Jx50 is also constantly getting graphical
+updates and physics tweaks.
+
+Hydrofoil Generation is scheduled to release on Steam Early Access in
+Summer 2022.
+
+[Hydrofoil Generation]: https://hydrofoil-generation.com/
+[hgs_facebook]: https://www.facebook.com/HydrofoilGenerationSailing/
+[hgs_discord]: https://discord.gg/DtKgt2duAy/
+[hgs_steam]: https://store.steampowered.com/app/1448820/Hydrofoil_Generation/
+[hgs_trailer]: https://youtu.be/CfmCLr19Hbs
+
 ## Engine Updates
 
 ### [Rusty Engine 4.0]
