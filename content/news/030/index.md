@@ -442,6 +442,25 @@ _Discussions:
 [bevy-frustum-culling]: https://bevyengine.org/news/bevy-0-6/#visibility-and-frustum-culling
 [bevy-shaders]: https://bevyengine.org/news/bevy-0-6/#wgsl-shaders
 
+### [bevy_backroll v0.3][backroll-github]
+
+[Backroll][backroll-github] is a 100% type-safe native Rust implementation of the
+[GGPO][ggpo] rollback library. The core library has gone through superfical
+updates, but the [Bevy plugin][bevy-backroll-crates-io] has been massively
+overhauled. This update signfigantly improves the ergonomics of setting up
+rollback netcode for your game (no more ugly turbofishes! no more generic type
+parameter config type!), provides an automatic way of saving and loading Bevy
+components and resources, and fully parallelizes the saving and loading of game
+state when a rollback occurs.
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/s6uch9/bevy_backroll_v030_is_now_available/),
+[Twitter](https://twitter.com/james7132/status/1483373600115621889)_
+
+[backroll-github]: https://github.com/HouraiTeahouse/backroll-rs
+[bevy-backroll-crates-io]: https://crates.io/bevy-backroll
+[ggpo]: https://crates.io/bevy-backroll
+
 ### [`three-d` 0.10][three-d]
 
 ![three-d example of environment lighting](three-d.jpg)
