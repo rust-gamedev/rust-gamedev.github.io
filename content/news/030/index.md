@@ -90,9 +90,9 @@ Twitch][rust-gamedev-twitch].
 ![harvest_hero](hho.jpg)
 
 [Harvest Hero Origins] is an Arcade Wave Defense game that has been
-in development by [@Gemdrop Games] for the past 10 months.
+in development by [Gemdrop Games] for the past 10 months.
 
-It is the studios first commercial release, developed in
+It is the studio's first commercial release, developed in
 the [Emerald] game engine.
 
 The game is available now on Windows and Linux for $2.99 with
@@ -114,7 +114,7 @@ Features
 
 [Harvest Hero Origins]: https://store.steampowered.com/app/1651500/Harvest_Hero_Origins/
 [Emerald]: https://github.com/Bombfuse/emerald
-[@Gemdrop Games]: https://twitter.com/gemdropgames
+[Gemdrop Games]: https://twitter.com/gemdropgames
 
 ### Flesh
 
