@@ -300,7 +300,7 @@ course is getting more and more alive with addition of spectators boats.
 The playable foiling catamaran Jx50 is also constantly getting graphical
 updates and physics tweaks.
 
-Hydrofoil Generation is scheduled to release on Steam Early Access in 
+Hydrofoil Generation is scheduled to release on Steam Early Access in
 Summer 2022.
 
 [Hydrofoil Generation]: https://hydrofoil-generation.com/
