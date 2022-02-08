@@ -85,6 +85,23 @@ Twitch][rust-gamedev-twitch].
 
 ## Game Updates
 
+### Country Slice
+
+![country_slice](country_slice_7_delete_brush.gif)
+
+[Country Slice][country-slice-github] is
+[@anastasiaopara][country-slice-twitter]'s hobby project, where users can draw a
+small procedurally assembled scene.
+
+Newest addition is an erase brush and an ability to continue existing walls.
+
+[@anastasiaopara][country-slice-twitter] also shared [a Twitter thread][country-slice-discussion]
+about doing procedural generation in Houdini vs Rust & OpenGL.
+
+[country-slice-github]: https://github.com/anopara/country-slice
+[country-slice-twitter]: https://twitter.com/anastasiaopara/
+[country-slice-discussion]: https://twitter.com/anastasiaopara/status/1477570256180817924
+
 ### [Harvest Hero Origins] is now available
 
 ![harvest_hero](hho.jpg)
