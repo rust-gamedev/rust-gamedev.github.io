@@ -726,6 +726,25 @@ to allow writing custom queries, implement schedulers with parallel execution et
 
 [Edict]: https://github.com/zakarumych/edict
 
+### [Bevy Smud][bevy-smud]
+
+![Bevy Smud screenshot](bevy-smud.png)
+_A bevy drawn with Bevy Smud_
+
+[Bevy Smud][bevy-smud] is a new [Bevy][bevy-smud-bevy] plugin for drawing 2D
+shapes using signed distance fields.
+
+It contains ports of all of [Inigo Quilez' 2D SDF
+primitives](https://iquilezles.org/www/articles/distfunctions2d/distfunctions2d.htm),
+and allows easily composing said primitives together.
+
+Shapes that share the same SDF and fill are automatically instanced, as shown in
+the [demo video of 100k birds][bevy-smud-birds]
+
+[bevy-smud]: https://github.com/johanhelsing/bevy_smud
+[bevy-smud-bevy]: https://bevyengine.org
+[bevy-smud-birds]: https://twitter.com/jkhelsing/status/1486794339682508809
+
 ### [rafx]
 
 [![Rafx Screenshot](rafx-screenshot.jpg)][rafx-youtube-video]
