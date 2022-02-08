@@ -95,8 +95,8 @@ small procedurally assembled scene.
 
 Newest addition is an erase brush and an ability to continue existing walls.
 
-Discussions: procedural in Houdini vs Rust & OpenGL 👉
-[twitter thread][country-slice-discussion].
+[@anastasiaopara][country-slice-twitter] also shared [a Twitter thread][country-slice-discussion]
+about doing procedural generation in Houdini vs Rust & OpenGL.
 
 [country-slice-github]: https://github.com/anopara/country-slice
 [country-slice-twitter]: https://twitter.com/anastasiaopara/
