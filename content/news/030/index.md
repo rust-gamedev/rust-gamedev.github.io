@@ -590,6 +590,30 @@ You can read it [here][rflb-post].
 [justin_rhw]: https://twitter.com/justin_rhw
 [rflb-post]: https://justinryanh.github.io/post/refactoring_from_legion_to_bevy/
 
+### [Extreme Bevy][extreme-bevy]
+
+![Screenshot of Extreme Bevy](extreme-bevy.png)
+
+Extreme Bevy is a [tutorial series][extreme-bevy] on how to create a low-latency
+P2P web game.
+
+It covers how to:
+
+ - Use [Matchbox][matchbox] for setting up P2P connections using WebRTC data
+ channels.
+ - Implement rollback using [GGRS][ggrs]
+ - And using [Bevy][extreme-bevy-bevy] with the above
+
+The game itself is also live [here][extreme-bevy-game], and [its source is on
+GitHub][extreme-bevy-source]
+
+[ggrs]: https://github.com/gschup/ggrs
+[matchbox]: https://helsing.studio/posts/introducing-matchbox
+[extreme-bevy]: https://helsing.studio/posts/extreme-bevy
+[extreme-bevy-source]: https://github.com/johanhelsing/extreme_bevy
+[extreme-bevy-game]: https://helsing.studio/extreme
+[extreme-bevy-bevy]: https://bevyengine.org
+
 ### [Writing an AH Scanner in Rust][trimoq-post]
 
 [![AH scanner workflow](ah-scanner.png)][trimoq-post]
