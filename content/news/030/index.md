@@ -1,8 +1,7 @@
 +++
 title = "This Month in Rust GameDev #30 - January 2022"
 transparent = true
-date = 2022-02-01
-draft = true
+date = 2022-02-08
 +++
 
 <!-- no toc -->
@@ -38,12 +37,9 @@ Feel free to send PRs about your own projects!
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
 - [Other News](#other-news)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
-- [Meeting Minutes](#meeting-minutes)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
 - [Jobs](#jobs)
-- [Bonus](#bonus)
 
 <!--
 Ideal section structure is:
@@ -84,54 +80,6 @@ Twitch][rust-gamedev-twitch].
 [rust-meetup-feb-time]: https://everytimezone.com/s/48bc48be
 
 ## Game Updates
-
-### Country Slice
-
-![country_slice](country_slice_7_delete_brush.gif)
-
-[Country Slice][country-slice-github] is
-[@anastasiaopara][country-slice-twitter]'s hobby project, where users can draw a
-small procedurally assembled scene.
-
-Newest addition is an erase brush and an ability to continue existing walls.
-
-[@anastasiaopara][country-slice-twitter] also shared [a Twitter thread][country-slice-discussion]
-about doing procedural generation in Houdini vs Rust & OpenGL.
-
-[country-slice-github]: https://github.com/anopara/country-slice
-[country-slice-twitter]: https://twitter.com/anastasiaopara/
-[country-slice-discussion]: https://twitter.com/anastasiaopara/status/1477570256180817924
-
-### [Harvest Hero Origins] is now available
-
-![harvest_hero](hho.jpg)
-
-[Harvest Hero Origins] is an Arcade Wave Defense game that has been
-in development by [Gemdrop Games] for the past 10 months.
-
-It is the studio's first commercial release, developed in
-the [Emerald] game engine.
-
-The game is available now on Windows and Linux for $2.99 with
-a launch discount of 10%!
-
-The studio plans to provide free updates for a period of time,
-before moving on to focusing 100% of their efforts on the sequel,
-Harvest Hero.
-
-Features
-
-- Story Mode
-- Survival Mode
-  - Competitive Leaderboards
-  - Infinitely Replayable
-  - 3 unique heroes
-  - 3 skins per hero
-  - Local co-op (online through steam remote play)
-
-[Harvest Hero Origins]: https://store.steampowered.com/app/1651500/Harvest_Hero_Origins/
-[Emerald]: https://github.com/Bombfuse/emerald
-[Gemdrop Games]: https://twitter.com/gemdropgames
 
 ### Flesh
 
@@ -208,6 +156,24 @@ or joining [their Discord][wor-discord].
 [wor-fast]: https://www.anthropicstudios.com/2022/01/13/asking-windows-nicely/
 [wor-discord]: https://discord.gg/JGeVt5XwPP
 
+### [Garden of the Centaur][centaur-github]
+
+![Garden of the Centaur screenshot](centaur-screenshot.png)
+_Screenshot of Garden of the Centaur_
+
+Garden of the Centaur ([GitHub][centaur-github]) by
+[@Syn-Nine][synnine-twitter] is an action-puzzle mini game where you navigate a
+garden maze and steal the Centaur's gems. Getting caught spells certain doom.
+
+The game was created using Syn9's [Rust Mini Game Framework][mgfw] and is
+part of an open source [repository][s9-minigame-repo] of several mini-games
+that use this framework.
+
+[centaur-github]: https://github.com/Syn-Nine/rust-mini-games/tree/main/2d-games/centaur
+[synnine-twitter]: https://twitter.com/Syn9Dev
+[mgfw]: https://github.com/Syn-Nine/mgfw
+[s9-minigame-repo]: https://github.com/Syn-Nine/rust-mini-games/
+
 ### [Kataster]
 
 ![Kataster screenshot](kataster.jpg)
@@ -228,24 +194,6 @@ The latest version includes:
 [rapier]: https://rapier.rs
 [heron]: https://github.com/jcornaz/heron
 [@Bobox214]: https://github.com/Bobox214
-
-### [Garden of the Centaur][centaur-github]
-
-![Garden of the Centaur screenshot](centaur-screenshot.png)
-_Screenshot of Garden of the Centaur_
-
-Garden of the Centaur ([GitHub][centaur-github]) by
-[@Syn-Nine][synnine-twitter] is an action-puzzle mini game where you navigate a
-garden maze and steal the Centaur's gems. Getting caught spells certain doom.
-
-The game was created using Syn9's [Rust Mini Game Framework][mgfw] and is
-part of an open source [repository][s9-minigame-repo] of several mini-games
-that use this framework.
-
-[centaur-github]: https://github.com/Syn-Nine/rust-mini-games/tree/main/2d-games/centaur
-[synnine-twitter]: https://twitter.com/Syn9Dev
-[mgfw]: https://github.com/Syn-Nine/mgfw
-[s9-minigame-repo]: https://github.com/Syn-Nine/rust-mini-games/
 
 ### [Veloren][veloren]
 
@@ -325,6 +273,37 @@ the save/load feature can be seen [here][notsnakeyt].
 [notsnakepick]: https://github.com/aevyrie/bevy_mod_picking
 [notsnakeegui]: https://github.com/emilk/egui
 
+### [Harvest Hero Origins] is now available
+
+![harvest_hero](hho.jpg)
+
+[Harvest Hero Origins] is an Arcade Wave Defense game that has been
+in development by [Gemdrop Games] for the past 10 months.
+
+It is the studio's first commercial release, developed in
+the [Emerald] game engine.
+
+The game is available now on Windows and Linux for $2.99 with
+a launch discount of 10%!
+
+The studio plans to provide free updates for a period of time,
+before moving on to focusing 100% of their efforts on the sequel,
+Harvest Hero.
+
+Features
+
+- Story Mode
+- Survival Mode
+  - Competitive Leaderboards
+  - Infinitely Replayable
+  - 3 unique heroes
+  - 3 skins per hero
+  - Local co-op (online through steam remote play)
+
+[Harvest Hero Origins]: https://store.steampowered.com/app/1651500/Harvest_Hero_Origins/
+[Emerald]: https://github.com/Bombfuse/emerald
+[Gemdrop Games]: https://twitter.com/gemdropgames
+
 ### [Hydrofoil Generation]
 
 ![hgs_screen](hgs6.jpg)
@@ -357,31 +336,24 @@ Summer 2022.
 [hgs_steam]: https://store.steampowered.com/app/1448820/Hydrofoil_Generation/
 [hgs_trailer]: https://youtu.be/CfmCLr19Hbs
 
+### Country Slice
+
+![country_slice](country_slice_7_delete_brush.gif)
+
+[Country Slice][country-slice-github] is
+[@anastasiaopara][country-slice-twitter]'s hobby project, where users can draw a
+small procedurally assembled scene.
+
+Newest addition is an erase brush and an ability to continue existing walls.
+
+[@anastasiaopara][country-slice-twitter] also shared [a Twitter thread][country-slice-discussion]
+about doing procedural generation in Houdini vs Rust & OpenGL.
+
+[country-slice-github]: https://github.com/anopara/country-slice
+[country-slice-twitter]: https://twitter.com/anastasiaopara/
+[country-slice-discussion]: https://twitter.com/anastasiaopara/status/1477570256180817924
+
 ## Engine Updates
-
-### [Rusty Engine 4.0]
-
-![An example Rusty Engine game](rusty_engine4.png)
-_The updated collider visualization (white outlines) in Rusty Engine 4.0_
-
-[Rusty Engine] by [Nathan Stocks] is a game engine built on top of Bevy
-for people who are learning Rust.
-
-Notable new features in Version 4.0 include: no need for an `init!` macro, new
-collider visualization, text can now be rotated and scaled, and an updated
-[online tutorial]. See [the changelog for 4.0] for the full details. On the
-back end Bevy has been updated to 0.6 and `bevy_prototype_debug_lines` was
-replaced with `bevy_prototype_lyon`.
-
-_Discussions:
-[/r/rust](https://www.reddit.com/r/rust_gamedev/comments/sg2cdg/rusty_engine_40/),
-[twitter](https://twitter.com/nathanstocks/status/1487667704118988803)_
-
-[Rusty Engine 4.0]: https://github.com/CleanCut/rusty_engine/blob/main/CHANGELOG.md#400---2022-01-29
-[Rusty Engine]: https://github.com/CleanCut/rusty_engine
-[online tutorial]: https://cleancut.github.io/rusty_engine/
-[the changelog for 4.0]: https://github.com/CleanCut/rusty_engine/blob/main/CHANGELOG.md#400---2022-01-29
-[Nathan Stocks]: https://github.com/CleanCut
 
 ### [godot-rust][gd-github]
 
@@ -417,6 +389,30 @@ to a sizable list! ([#845][gd-845])
 [gd-discord]: https://discord.com/invite/FNudpBD
 [gd-twitter]: https://twitter.com/GodotRust
 [gd-book-games]: https://godot-rust.github.io/book/projects/games.html
+
+### [Rusty Engine 4.0]
+
+![An example Rusty Engine game](rusty_engine4.png)
+_The updated collider visualization (white outlines) in Rusty Engine 4.0_
+
+[Rusty Engine] by [Nathan Stocks] is a game engine built on top of Bevy
+for people who are learning Rust.
+
+Notable new features in Version 4.0 include: no need for an `init!` macro, new
+collider visualization, text can now be rotated and scaled, and an updated
+[online tutorial]. See [the changelog for 4.0] for the full details. On the
+back end Bevy has been updated to 0.6 and `bevy_prototype_debug_lines` was
+replaced with `bevy_prototype_lyon`.
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust_gamedev/comments/sg2cdg/rusty_engine_40/),
+[twitter](https://twitter.com/nathanstocks/status/1487667704118988803)_
+
+[Rusty Engine 4.0]: https://github.com/CleanCut/rusty_engine/blob/main/CHANGELOG.md#400---2022-01-29
+[Rusty Engine]: https://github.com/CleanCut/rusty_engine
+[online tutorial]: https://cleancut.github.io/rusty_engine/
+[the changelog for 4.0]: https://github.com/CleanCut/rusty_engine/blob/main/CHANGELOG.md#400---2022-01-29
+[Nathan Stocks]: https://github.com/CleanCut
 
 ### [Bevy v0.6][bevy-blog]
 
@@ -458,25 +454,6 @@ _Discussions:
 [bevy-materials]: https://bevyengine.org/news/bevy-0-6/#materials
 [bevy-frustum-culling]: https://bevyengine.org/news/bevy-0-6/#visibility-and-frustum-culling
 [bevy-shaders]: https://bevyengine.org/news/bevy-0-6/#wgsl-shaders
-
-### [bevy_backroll v0.3][backroll-github]
-
-[Backroll][backroll-github] is a 100% type-safe native Rust implementation of the
-[GGPO][ggpo] rollback netcode library. The core library has gone through
-superfical updates, but the [Bevy plugin][bevy-backroll-crates-io] has been
-massively overhauled. This update signfigantly improves the ergonomics of setting
-up rollback netcode for your game (no more ugly turbofishes! no more generic type
-parameter config type!), provides an automatic way of saving and loading Bevy
-components and resources, and fully parallelizes the saving and loading of game
-state when a rollback occurs.
-
-_Discussions:
-[/r/rust](https://www.reddit.com/r/rust/comments/s6uch9/bevy_backroll_v030_is_now_available/),
-[Twitter](https://twitter.com/james7132/status/1483373600115621889)_
-
-[backroll-github]: https://github.com/HouraiTeahouse/backroll-rs
-[bevy-backroll-crates-io]: https://crates.io/bevy-backroll
-[ggpo]: https://www.ggpo.net/
 
 ### [`three-d` 0.10][three-d]
 
@@ -527,33 +504,6 @@ rationale for why they decided to move on from the project.
 
 ## Learning Material Updates
 
-### [Bevy Cheatbook]
-
-This month, [Bevy Cheatbook] focused on refactors to improve navigation,
-usefulness, and make maintenance easier going forward.
-
-- Updated for Bevy 0.6
-- Chapters reorganized to present content better and make things easy to find
-- Linkification! All links now internally managed through separate markdown files.
-- [New page summarizing all the useful built-in types in Bevy.][bevy-cb-builtins]
-- Better info about [working with WASM][bevy-cb-wasm]
-- Info about [cross-compiling for Windows from Linux][bevy-cb-cross].
-
-The next priority for the project is to provide at least some coverage of
-the areas of Bevy still not in the book: 2D, 3D, UI, scenes, rendering...
-
-If you'd like to support the project, donate to the author via
-[GitHub Sponsors][ghsponsors-inodentry]. Follow [@IyesGames on
-Twitter][twitter-iyesgames] for updates.
-
-[Bevy Cheatbook]: https://bevy-cheatbook.github.io
-[docsrs-bevy]: https://docs.rs/bevy
-[bevy-cb-builtins]: https://bevy-cheatbook.github.io/builtins.html
-[bevy-cb-wasm]: https://bevy-cheatbook.github.io/platforms/wasm.html
-[bevy-cb-cross]: https://bevy-cheatbook.github.io/setup/cross/linux-windows.html
-[ghsponsors-inodentry]: https://github.com/sponsors/inodentry
-[twitter-iyesgames]: https://twitter.com/IyesGames
-
 ### [Making Your Game Go Fast by Asking Windows Nicely][awn-post]
 
 [![A speed limit sign labeled 45 FPS](awn-header.jpg)][awn-post]
@@ -590,6 +540,54 @@ You can read it [here][rflb-post].
 [justin_rhw]: https://twitter.com/justin_rhw
 [rflb-post]: https://justinryanh.github.io/post/refactoring_from_legion_to_bevy/
 
+### [Writing an AH Scanner in Rust][trimoq-post]
+
+[![AH scanner workflow](ah-scanner.png)][trimoq-post]
+
+Trimoq ([Github][trimoq-github], [Twitter][trimoq-twitter]) wrote [a blog
+post][trimoq-post] about writing a game client for a popular MMORPG. It
+focuses on some negative parts of Rust and its ecosystem. There are three key
+takeaways from this post:
+
+- Stay away from low-level libraries if you are not aware of how deep the rabbit
+  hole goes.
+- Evaluate the library ecosystem of Rust thoroughly before using it for a
+  project that requires somewhat exotic functionality.
+- Rust forces you to care about the details, regardless whether you want to.
+
+The remainder of the article goes into depth on these three points.
+
+[trimoq-github]: https://github.com/trimoq
+[trimoq-twitter]: https://twitter.com/amann_dev
+[trimoq-post]: https://medium.com/digitalfrontiers/taking-rust-for-a-ride-to-azeroth-what-writing-an-ah-scanner-in-rust-taught-me-58edc936cbb
+
+### [Bevy Cheatbook]
+
+This month, [Bevy Cheatbook] focused on refactors to improve navigation,
+usefulness, and make maintenance easier going forward.
+
+- Updated for Bevy 0.6
+- Chapters reorganized to present content better and make things easy to find
+- Linkification! All links now internally managed through separate markdown files.
+- [New page summarizing all the useful built-in types in Bevy.][bevy-cb-builtins]
+- Better info about [working with WASM][bevy-cb-wasm]
+- Info about [cross-compiling for Windows from Linux][bevy-cb-cross].
+
+The next priority for the project is to provide at least some coverage of
+the areas of Bevy still not in the book: 2D, 3D, UI, scenes, rendering...
+
+If you'd like to support the project, donate to the author via
+[GitHub Sponsors][ghsponsors-inodentry]. Follow [@IyesGames on
+Twitter][twitter-iyesgames] for updates.
+
+[Bevy Cheatbook]: https://bevy-cheatbook.github.io
+[docsrs-bevy]: https://docs.rs/bevy
+[bevy-cb-builtins]: https://bevy-cheatbook.github.io/builtins.html
+[bevy-cb-wasm]: https://bevy-cheatbook.github.io/platforms/wasm.html
+[bevy-cb-cross]: https://bevy-cheatbook.github.io/setup/cross/linux-windows.html
+[ghsponsors-inodentry]: https://github.com/sponsors/inodentry
+[twitter-iyesgames]: https://twitter.com/IyesGames
+
 ### [Extreme Bevy][extreme-bevy]
 
 ![Screenshot of Extreme Bevy](extreme-bevy.png)
@@ -614,27 +612,6 @@ GitHub][extreme-bevy-source]
 [extreme-bevy-game]: https://helsing.studio/extreme
 [extreme-bevy-bevy]: https://bevyengine.org
 
-### [Writing an AH Scanner in Rust][trimoq-post]
-
-[![AH scanner workflow](ah-scanner.png)][trimoq-post]
-
-Trimoq ([Github][trimoq-github], [Twitter][trimoq-twitter]) wrote [a blog
-post][trimoq-post] about writing a game client for a popular MMORPG. It
-focuses on some negative parts of Rust and its ecosystem. There are three key
-takeaways from this post:
-
-- Stay away from low-level libraries if you are not aware of how deep the rabbit
-  hole goes.
-- Evaluate the library ecosystem of Rust thoroughly before using it for a
-  project that requires somewhat exotic functionality.
-- Rust forces you to care about the details, regardless whether you want to.
-
-The remainder of the article goes into depth on these three points.
-
-[trimoq-github]: https://github.com/trimoq
-[trimoq-twitter]: https://twitter.com/amann_dev
-[trimoq-post]: https://medium.com/digitalfrontiers/taking-rust-for-a-ride-to-azeroth-what-writing-an-ah-scanner-in-rust-taught-me-58edc936cbb
-
 ## Tooling Updates
 
 ### [Nodus][nodus-github]
@@ -655,6 +632,45 @@ development but, most of the basic features are implemented. That includes:
 [@r4gus]: https://github.com/r4gus
 
 ## Library Updates
+
+### leafwing-input-manager
+
+`leafwing-input-manager` ([GitHub](https://github.com/Leafwing-Studios/leafwing-input-manager),
+[crates.io](https://crates.io/crates/leafwing-input-manager)) by [@alice-i-cecile](https://twitter.com/AliceICecile)
+is an ergonomic, featureful and fully documented Bevy library
+for expressively abstracting over user input.
+
+Supports local multiplayer, enables input rebinding, integrates with `bevy_ui`,
+and handles chords!
+
+### [rafx]
+
+[![Rafx Screenshot](rafx-screenshot.jpg)][rafx-youtube-video]
+_Sci-fi base demo scene, [watch TAA demo on youtube][rafx-youtube-video]!_
+
+[Rafx][rafx] is a multi-backend renderer that optionally integrates with the
+[distill][rafx-distill] asset pipeline.
+
+Since the previous rafx update in this newsletter (6 months ago!), many new
+features have been introduced to improve performance and image quality. The
+main rendering pipeline has also been split into "modern" and "basic"
+pipelines. Unlike the basic pipeline which focusses on wide compatibility,
+the modern pipeline uses forward-clustered lighting and handles hundreds
+of shadow-casting lights. It is targeting compute shaders and will be adding
+bindless and GPU-driven rendering soon.
+
+Since the last update, the modern pipeline adds GPU-accelierated light binning,
+SSAO, shadow map atlasing/caching, TAA with sharpening, and auto-exposure/HDR.
+In addition, both modern and basic pipelines now support transparency. A
+[video demonstrating TAA](rafx-youtube-video) (temporal anti-aliasing) is
+available on youtube.
+
+With these performance improvements, `rafx` is now able to render challenging
+scenes with photorealistic style at 60FPS/1440p on modern, mid-range GPUs.
+
+[rafx]: https://github.com/aclysma/rafx
+[rafx-youtube-video]: https://www.youtube.com/watch?v=iWYpX7RGUSA
+[rafx-distill]: https://github.com/amethyst/distill
 
 ### [erupt-bootstrap]
 
@@ -677,16 +693,6 @@ the excellent [vk-bootstrap] library for C++.
 [vk-bootstrap]: https://github.com/charles-lunarg/vk-bootstrap
 [erupt-bootstrap]: https://gitlab.com/Friz64/erupt-bootstrap
 [@Friz64]: https://blog.friz64.de/about
-
-### leafwing-input-manager
-
-`leafwing-input-manager` ([GitHub](https://github.com/Leafwing-Studios/leafwing-input-manager),
-[crates.io](https://crates.io/crates/leafwing-input-manager)) by [@alice-i-cecile](https://twitter.com/AliceICecile)
-is an ergonomic, featureful and fully documented Bevy library
-for expressively abstracting over user input.
-
-Supports local multiplayer, enables input rebinding, integrates with `bevy_ui`,
-and handles chords!
 
 ### [Edict]
 
@@ -726,6 +732,25 @@ to allow writing custom queries, implement schedulers with parallel execution et
 
 [Edict]: https://github.com/zakarumych/edict
 
+### [bevy_backroll v0.3][backroll-github]
+
+[Backroll][backroll-github] is a 100% type-safe native Rust implementation of the
+[GGPO][ggpo] rollback netcode library. The core library has gone through
+superfical updates, but the [Bevy plugin][bevy-backroll-crates-io] has been
+massively overhauled. This update signfigantly improves the ergonomics of setting
+up rollback netcode for your game (no more ugly turbofishes! no more generic type
+parameter config type!), provides an automatic way of saving and loading Bevy
+components and resources, and fully parallelizes the saving and loading of game
+state when a rollback occurs.
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/s6uch9/bevy_backroll_v030_is_now_available/),
+[Twitter](https://twitter.com/james7132/status/1483373600115621889)_
+
+[backroll-github]: https://github.com/HouraiTeahouse/backroll-rs
+[bevy-backroll-crates-io]: https://crates.io/bevy-backroll
+[ggpo]: https://www.ggpo.net/
+
 ### [Bevy Smud][bevy-smud]
 
 ![Bevy Smud screenshot](bevy-smud.png)
@@ -745,51 +770,71 @@ the [demo video of 100k birds][bevy-smud-birds]
 [bevy-smud-bevy]: https://bevyengine.org
 [bevy-smud-birds]: https://twitter.com/jkhelsing/status/1486794339682508809
 
-### [rafx]
-
-[![Rafx Screenshot](rafx-screenshot.jpg)][rafx-youtube-video]
-_Sci-fi base demo scene, [watch TAA demo on youtube][rafx-youtube-video]!_
-
-[Rafx][rafx] is a multi-backend renderer that optionally integrates with the
-[distill][rafx-distill] asset pipeline.
-
-Since the previous rafx update in this newsletter (6 months ago!), many new
-features have been introduced to improve performance and image quality. The
-main rendering pipeline has also been split into "modern" and "basic"
-pipelines. Unlike the basic pipeline which focusses on wide compatibility,
-the modern pipeline uses forward-clustered lighting and handles hundreds
-of shadow-casting lights. It is targeting compute shaders and will be adding
-bindless and GPU-driven rendering soon.
-
-Since the last update, the modern pipeline adds GPU-accelierated light binning,
-SSAO, shadow map atlasing/caching, TAA with sharpening, and auto-exposure/HDR.
-In addition, both modern and basic pipelines now support transparency. A
-[video demonstrating TAA](rafx-youtube-video) (temporal anti-aliasing) is
-available on youtube.
-
-With these performance improvements, `rafx` is now able to render challenging
-scenes with photorealistic style at 60FPS/1440p on modern, mid-range GPUs.
-
-[rafx]: https://github.com/aclysma/rafx
-[rafx-youtube-video]: https://www.youtube.com/watch?v=iWYpX7RGUSA
-[rafx-distill]: https://github.com/amethyst/distill
-
-## Popular Workgroup Issues in Github
-
-<!-- Up to 10 links to interesting issues -->
-
 ## Other News
 
 <!-- One-liners for plan items that haven't got their own sections. -->
 
-## Meeting Minutes
+- Other game updates:
+  - [Molecoole] has some new gameplay footage from #screenshotsaturday.
+  - [Wordlet] is a command-line clone of Wordle, written in Rust.
+  - [BITGUN] is looking for beta testers.
+  - [System Fault] is now in early access.
+  - [Lantern] is a cute adventure game about a cat taking a nap.
+  - [Fish Fight] has a new devlog about their past, present and future.
+  - [Starframe] has a new devlog about rope physics.
+  - [Cake Thieves] is a strategy game about protecting cake from ants...
+    with cannons!
+  - [Idu] has released a new demo.
+  - [Sugarcane] is a minigame-focused Minecraft server written in Rust.
+- Other learning material updates:
+  - '[How Bevy Uses Traits For Labelling]' explains a cool usage of traits
+    in the Bevy game engine.
+  - '[Writing a Tiny Rust Game Engine For Web]' shows how to write a game
+    engine with zero Rust dependencies.
+  - '[Extending States in Bevy]' shows how to make Bevy's `State` system more powerful.
+  - 'Mastering Plugin Loadings in Bevy' ([part 1][bevyplugin1] and
+    [part 2][bevyplugin2]) is an overview of how Bevy plugins work, and how
+    to write your own.
+  - '[Bevy Stages or The Frames Lifecycle]' is an overview of the Bevy
+    engine's game loop lifecycle.
+- Other engine updates:
+  - [Fyrox 0.24] (formerly known as rg3d) has been released.
+- Other tooling updates:
+  - [Fun Notation] is a Bevy-based guitar tab viewer.
+  - [gbrs] is a Rust Game Boy emulator.
+- Other library updates:
+  - [Dimforge] posted a retrospective on their 2021, and goals for 2022.
+  - [poll-promise] is a crate for polling asynchronous operations.
+  - [ezinput 0.2] was released, providing easier input handling for Bevy.
+  - [bevy_asset_loader] had several new releases.
+  - [bevy_game_template] was published.
+  - [big-brain 0.10] (a library for Utility AI in Bevy) was released.
 
-<!-- Up to 10 most important notes + a link to the full details -->
-
-[See all meeting issues][label_meeting] including full text notes
-or [join the next meeting][join].
-
-[label_meeting]: https://github.com/rust-gamedev/wg/issues?q=label%3Ameeting
+[Molecoole]: https://twitter.com/kiss_mrton/status/1477330931199496201
+[Wordlet]: https://www.reddit.com/r/rust/comments/s9kjoh/wordlet_a_commandline_clone_of_wordle_written_in/
+[BITGUN]: https://twitter.com/LogLogGames/status/1481358714170970115
+[System Fault]: https://www.lightsout.games/news/system-fault-early-access
+[Lantern]: https://qatoqat.itch.io/lantern
+[Fish Fight]: https://spicylobster.itch.io/fishfight/devlog/332434/fish-fights-past-present-and-future
+[Starframe]: https://moletrooper.me/blog/starframe-ropes/
+[Cake Thieves]: https://play.google.com/store/apps/details?id=com.GeTech.CakeThieves
+[Idu]: https://twitter.com/logicsoup/status/1487924659693703169
+[Sugarcane]: https://gitlab.com/macmv/sugarcane
+[How Bevy Uses Traits For Labelling]: https://deterministic.space/bevy-labels.html
+[Writing a Tiny Rust Game Engine For Web]: https://ianjk.com/game-engine-in-rust/
+[Extending States in Bevy]: https://vaporsoft.net/extending-states-in-bevy/
+[bevyplugin1]: https://maz.digital/mastering-plugin-loadings-bevy-part-12
+[bevyplugin2]: https://maz.digital/mastering-plugin-loadings-bevy-part-22
+[Bevy Stages or The Frames Lifecycle]: https://maz.digital/bevy-stages-or-the-frames-lifecycle
+[Fyrox 0.24]: https://rg3d.rs/general/2022/01/07/0.24-feature-highlights.html
+[Fun Notation]: https://www.reddit.com/r/rust_gamedev/comments/sfdl5s/fun_notation_guitar_tab_viewer
+[gbrs]: https://github.com/adamsoutar/gbrs
+[Dimforge]: https://dimforge.com/blog/2022/01/02/the-year-2021-in-dimforge/
+[poll-promise]: https://github.com/EmbarkStudios/poll-promise
+[ezinput 0.2]: https://twitter.com/eexsty/status/1485942270981464065
+[bevy_asset_loader]: https://crates.io/crates/bevy_asset_loader
+[bevy_game_template]: https://github.com/NiklasEi/bevy_game_template
+[big-brain 0.10]: https://github.com/zkat/big-brain/releases/tag/v0.10.0
 
 ## Discussions
 
@@ -803,17 +848,42 @@ useful information -->
 
 <!-- Links to "good first issue"-labels or direct links to specific tasks -->
 
+- [Graphite is looking for contributors][graphite-contribute] to help reach
+  the 0.1 Alpha release.
+- [winit's "difficulty: easy" issues][winit-issues].
+- [Backroll-rs, a new networking library][backroll-rs].
+- [Embark's open issues][embark-open-issues] ([embark.rs]).
+- [wgpu's "help wanted" issues][wgpu-issues].
+- [luminance's "low hanging fruit" issues][luminance-fruits].
+- [ggez's "good first issue" issues][ggez-issues].
+- [Veloren's "beginner" issues][veloren-beginner].
+- [Amethyst's "good first issue" issues][amethyst-issues].
+- [A/B Street's "good first issue" issues][abstreet-issues].
+- [Mun's "good first issue" issues][mun-issues].
+- [SIMple Mechanic's good first issues][simm-issues].
+- [Bevy's "good first issue" issues][bevy-issues].
+
+[graphite-contribute]: https://github.com/GraphiteEditor/Graphite/issues/202
+[winit-issues]: https://github.com/rust-windowing/winit/issues?q=is%3Aopen+is%3Aissue+label%3A%22difficulty%3A+easy%22
+[backroll-rs]: https://github.com/HouraiTeahouse/backroll-rs/issues
+[embark.rs]: https://embark.rs
+[embark-open-issues]: https://github.com/search?q=user:EmbarkStudios+state:open
+[wgpu-issues]: https://github.com/gfx-rs/wgpu/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
+[luminance-fruits]: https://github.com/phaazon/luminance-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22low+hanging+fruit%22
+[ggez-issues]: https://github.com/ggez/ggez/labels/%2AGOOD%20FIRST%20ISSUE%2A
+[veloren-beginner]: https://gitlab.com/veloren/veloren/issues?label_name=beginner
+[amethyst-issues]: https://github.com/amethyst/amethyst/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[abstreet-issues]: https://github.com/a-b-street/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
+[simm-issues]: https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue
+[bevy-issues]: https://github.com/bevyengine/bevy/labels/E-Good-First-Issue
+
 ## Jobs
 
 <!-- An optional section for new jobs related to Rust gamedev -->
 
 - [Embark Studios](https://careers.embark-studios.com/jobs)
   (Stockholm/Hybrid Remote) - Various roles
-
-## Bonus
-
-<!-- Bonus section to make the newsletter more interesting
-and highlight events from the past. -->
 
 ------
 
