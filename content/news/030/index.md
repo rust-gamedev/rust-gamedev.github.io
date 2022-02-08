@@ -775,6 +775,67 @@ the [demo video of 100k birds][bevy-smud-birds]
 
 <!-- One-liners for plan items that haven't got their own sections. -->
 
+- Other game updates:
+  - [Molecoole] has some new gameplay footage from #screenshotsaturday.
+  - [Wordlet] is a command-line clone of Wordle, written in Rust.
+  - [BITGUN] is looking for beta testers.
+  - [System Fault] is now in early access.
+  - [Lantern] is a cute adventure game about a cat taking a nap.
+  - [Fish Fight] has a new devlog about their past, present and future.
+  - [Starframe] has a new devlog about rope physics.
+  - [Cake Thieves] is a strategy game about protecting cake from ants...
+    with cannons!
+  - [Idu] has released a new demo.
+  - [Sugarcane] is a minigame-focused Minecraft server written in Rust.
+- Other learning material updates:
+  - '[How Bevy Uses Traits For Labelling]' explains a cool usage of traits
+    in the Bevy game engine.
+  - '[Writing a Tiny Rust Game Engine For Web]' shows how to write a game
+    engine with zero Rust dependencies.
+  - '[Extending States in Bevy]' shows how to make Bevy's `State` system more powerful.
+  - 'Mastering Plugin Loadings in Bevy' ([part 1][bevyplugin1] and
+    [part 2][bevyplugin2]) is an overview of how Bevy plugins work, and how
+    to write your own.
+  - '[Bevy Stages or The Frames Lifecycle]' is an overview of the Bevy engine's game loop lifecycle.
+- Other engine updates:
+  - [Fyrox 0.24] (formerly known as rg3d) has been released.
+- Other tooling updates:
+  - [Fun Notation] is a Bevy-based guitar tab viewer.
+  - [gbrs] is a Rust Game Boy emulator.
+- Other library updates:
+  - [Dimforge] posted a retrospective on their 2021, and goals for 2022.
+  - [poll-promise] is a crate for polling asynchronous operations.
+  - [ezinput 0.2] was released, providing easier input handling for Bevy.
+  - [bevy_asset_loader] had several new releases.
+  - [bevy_game_template] was published.
+  - [big-brain 0.10] (a library for Utility AI in Bevy) was released.
+
+[Molecoole]: https://twitter.com/kiss_mrton/status/1477330931199496201
+[Wordlet]: https://www.reddit.com/r/rust/comments/s9kjoh/wordlet_a_commandline_clone_of_wordle_written_in/
+[BITGUN]: https://twitter.com/LogLogGames/status/1481358714170970115
+[System Fault]: https://www.lightsout.games/news/system-fault-early-access
+[Lantern]: https://qatoqat.itch.io/lantern
+[Fish Fight]: https://spicylobster.itch.io/fishfight/devlog/332434/fish-fights-past-present-and-future
+[Starframe]: https://moletrooper.me/blog/starframe-ropes/
+[Cake Thieves]: https://play.google.com/store/apps/details?id=com.GeTech.CakeThieves
+[Idu]: https://twitter.com/logicsoup/status/1487924659693703169
+[Sugarcane]: https://gitlab.com/macmv/sugarcane
+[How Bevy Uses Traits For Labelling]: https://deterministic.space/bevy-labels.html
+[Writing a Tiny Rust Game Engine For Web]: https://ianjk.com/game-engine-in-rust/
+[Extending States in Bevy]: https://vaporsoft.net/extending-states-in-bevy/
+[bevyplugin1]: https://maz.digital/mastering-plugin-loadings-bevy-part-12
+[bevyplugin2]: https://maz.digital/mastering-plugin-loadings-bevy-part-22
+[Bevy Stages or The Frames Lifecycle]: https://maz.digital/bevy-stages-or-the-frames-lifecycle
+[Fyrox 0.24]: https://rg3d.rs/general/2022/01/07/0.24-feature-highlights.html
+[Fun Notation]: https://www.reddit.com/r/rust_gamedev/comments/sfdl5s/fun_notation_guitar_tab_viewer
+[gbrs]: https://github.com/adamsoutar/gbrs
+[Dimforge]: https://dimforge.com/blog/2022/01/02/the-year-2021-in-dimforge/
+[poll-promise]: https://github.com/EmbarkStudios/poll-promise
+[ezinput 0.2]: https://twitter.com/eexsty/status/1485942270981464065
+[bevy_asset_loader]: https://crates.io/crates/bevy_asset_loader
+[bevy_game_template]: https://github.com/NiklasEi/bevy_game_template
+[big-brain 0.10]: https://github.com/zkat/big-brain/releases/tag/v0.10.0
+
 ## Discussions
 
 <!-- Links to handpicked reddit/twitter/urlo/etc threads that provide
@@ -786,6 +847,36 @@ useful information -->
 ## Requests for Contribution
 
 <!-- Links to "good first issue"-labels or direct links to specific tasks -->
+
+- [Graphite is looking for contributors][graphite-contribute] to help reach
+  the 0.1 Alpha release.
+- [winit's "difficulty: easy" issues][winit-issues].
+- [Backroll-rs, a new networking library][backroll-rs].
+- [Embark's open issues][embark-open-issues] ([embark.rs]).
+- [wgpu's "help wanted" issues][wgpu-issues].
+- [luminance's "low hanging fruit" issues][luminance-fruits].
+- [ggez's "good first issue" issues][ggez-issues].
+- [Veloren's "beginner" issues][veloren-beginner].
+- [Amethyst's "good first issue" issues][amethyst-issues].
+- [A/B Street's "good first issue" issues][abstreet-issues].
+- [Mun's "good first issue" issues][mun-issues].
+- [SIMple Mechanic's good first issues][simm-issues].
+- [Bevy's "good first issue" issues][bevy-issues].
+
+[graphite-contribute]: https://github.com/GraphiteEditor/Graphite/issues/202
+[winit-issues]: https://github.com/rust-windowing/winit/issues?q=is%3Aopen+is%3Aissue+label%3A%22difficulty%3A+easy%22
+[backroll-rs]: https://github.com/HouraiTeahouse/backroll-rs/issues
+[embark.rs]: https://embark.rs
+[embark-open-issues]: https://github.com/search?q=user:EmbarkStudios+state:open
+[wgpu-issues]: https://github.com/gfx-rs/wgpu/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
+[luminance-fruits]: https://github.com/phaazon/luminance-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22low+hanging+fruit%22
+[ggez-issues]: https://github.com/ggez/ggez/labels/%2AGOOD%20FIRST%20ISSUE%2A
+[veloren-beginner]: https://gitlab.com/veloren/veloren/issues?label_name=beginner
+[amethyst-issues]: https://github.com/amethyst/amethyst/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[abstreet-issues]: https://github.com/a-b-street/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
+[simm-issues]: https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue
+[bevy-issues]: https://github.com/bevyengine/bevy/labels/E-Good-First-Issue
 
 ## Jobs
 
