@@ -599,10 +599,10 @@ P2P web game.
 
 It covers how to:
 
- - Use [Matchbox][matchbox] for setting up P2P connections using WebRTC data
- channels.
- - Implement rollback using [GGRS][ggrs]
- - And using [Bevy][extreme-bevy-bevy] with the above
+- Use [Matchbox][matchbox] for setting up P2P connections using WebRTC data
+  channels.
+- Implement rollback using [GGRS][ggrs]
+- And using [Bevy][extreme-bevy-bevy] with the above
 
 The game itself is also live [here][extreme-bevy-game], and [its source is on
 GitHub][extreme-bevy-source]
