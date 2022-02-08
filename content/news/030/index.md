@@ -38,12 +38,9 @@ Feel free to send PRs about your own projects!
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
 - [Other News](#other-news)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
-- [Meeting Minutes](#meeting-minutes)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
 - [Jobs](#jobs)
-- [Bonus](#bonus)
 
 <!--
 Ideal section structure is:
@@ -774,22 +771,9 @@ the [demo video of 100k birds][bevy-smud-birds]
 [bevy-smud-bevy]: https://bevyengine.org
 [bevy-smud-birds]: https://twitter.com/jkhelsing/status/1486794339682508809
 
-## Popular Workgroup Issues in Github
-
-<!-- Up to 10 links to interesting issues -->
-
 ## Other News
 
 <!-- One-liners for plan items that haven't got their own sections. -->
-
-## Meeting Minutes
-
-<!-- Up to 10 most important notes + a link to the full details -->
-
-[See all meeting issues][label_meeting] including full text notes
-or [join the next meeting][join].
-
-[label_meeting]: https://github.com/rust-gamedev/wg/issues?q=label%3Ameeting
 
 ## Discussions
 
@@ -809,11 +793,6 @@ useful information -->
 
 - [Embark Studios](https://careers.embark-studios.com/jobs)
   (Stockholm/Hybrid Remote) - Various roles
-
-## Bonus
-
-<!-- Bonus section to make the newsletter more interesting
-and highlight events from the past. -->
 
 ------
 
