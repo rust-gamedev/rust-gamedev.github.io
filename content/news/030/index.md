@@ -705,9 +705,9 @@ to allow writing custom queries, implement schedulers with parallel execution et
 ### [Bevy Smud][bevy-smud]
 
 ![Bevy Smud screenshot](bevy-smud.png)
-_A bevy drawn with Bevy Smud_ 
+_A bevy drawn with Bevy Smud_
 
-[Bevy Smud][bevy-smud] is a new [Bevy][bevy-smud-bevy] plugin for Drawing 2D
+[Bevy Smud][bevy-smud] is a new [Bevy][bevy-smud-bevy] plugin for drawing 2D
 shapes using signed distance fields.
 
 It contains ports of all of [Inigo Quilez' 2D SDF
