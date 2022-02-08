@@ -795,7 +795,7 @@ the [demo video of 100k birds][bevy-smud-birds]
   - 'Mastering Plugin Loadings in Bevy' ([part 1][bevyplugin1] and
     [part 2][bevyplugin2]) is an overview of how Bevy plugins work, and how
     to write your own.
-  - '[Bevy Stages or The Frames Lifecycle]' is an overview of the Bevy 
+  - '[Bevy Stages or The Frames Lifecycle]' is an overview of the Bevy
     engine's game loop lifecycle.
 - Other engine updates:
   - [Fyrox 0.24] (formerly known as rg3d) has been released.
