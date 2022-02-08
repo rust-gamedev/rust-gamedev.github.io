@@ -2,6 +2,7 @@
 title = "This Month in Rust GameDev #30 - January 2022"
 transparent = true
 date = 2022-02-08
+draft = true
 +++
 
 <!-- no toc -->
