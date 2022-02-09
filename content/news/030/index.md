@@ -631,6 +631,39 @@ development but, most of the basic features are implemented. That includes:
 [nodus-github]: https://github.com/r4gus/nodus
 [@r4gus]: https://github.com/r4gus
 
+### [Graphite][graphite-website]
+
+![Graphite](graphite_alpha.png)
+
+[Graphite](graphite-website) ([GitHub][graphite-repo],
+[Discord][graphite-discord], [Twitter][graphite-twitter]) is an in-development
+raster and vector 2D graphics editor that is free and open source. It is
+powered by a node graph compositing engine that supercharges your layer stack,
+providing a completely non-destructive editing experience.
+
+The team is proud and excited to announce Graphite alpha, the minimum viable
+product release for a web-based vector graphics editor. After one year in
+pre-alpha development by Rust Gamedev community members, this first milestone
+of alpha is here.
+
+Graphite alpha launches **Saturday, February 12** together with a new
+[project website](graphite-website).
+
+Work now commences on the second alpha milestone, focused on building the node
+graph system and vector render engine. You are invited to join the team and
+help make this exciting endeavor possible. [Join the Discord][graphite-discord]
+and get involved!
+
+[Try Graphite right now in your browser][graphite-live-demo] and please
+[star the GitHub repo](graphite-repo) to build momentum. Thank you for helping
+reach 1000⭐!
+
+[graphite-website]: https://graphite.rs
+[graphite-repo]: https://github.com/GraphiteEditor/Graphite
+[graphite-discord]: https://discord.graphite.rs
+[graphite-twitter]: https://twitter.com/GraphiteEditor
+[graphite-live-demo]: https://editor.graphite.rs
+
 ## Library Updates
 
 ### leafwing-input-manager
@@ -848,8 +881,8 @@ useful information -->
 
 <!-- Links to "good first issue"-labels or direct links to specific tasks -->
 
-- [Graphite is looking for contributors][graphite-contribute] to help reach
-  the 0.1 Alpha release.
+- [Graphite is looking for contributors][graphite-contribute] to help build the
+new node graph and 2D rendering systems.
 - [winit's "difficulty: easy" issues][winit-issues].
 - [Backroll-rs, a new networking library][backroll-rs].
 - [Embark's open issues][embark-open-issues] ([embark.rs]).
