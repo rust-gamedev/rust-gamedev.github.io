@@ -568,10 +568,12 @@ usefulness, and make maintenance easier going forward.
 
 - Updated for Bevy 0.6
 - Chapters reorganized to present content better and make things easy to find
-- Linkification! All links now internally managed through separate markdown files.
-- [New page summarizing all the useful built-in types in Bevy.][bevy-cb-builtins]
+- [New page summarizing all the useful built-in types in Bevy][bevy-cb-builtins]
 - Better info about [working with WASM][bevy-cb-wasm]
-- Info about [cross-compiling for Windows from Linux][bevy-cb-cross].
+- Info about [cross-compiling for Windows from Linux][bevy-cb-cross]
+- Internal refactor for easy management of links, easier to avoid old/stale links
+- Can link everything from everywhere! All pages are now full of links!
+- All mentions of Bevy APIs now link to [docs.rs][docsrs-bevy]
 
 The next priority for the project is to provide at least some coverage of
 the areas of Bevy still not in the book: 2D, 3D, UI, scenes, rendering...
