@@ -635,7 +635,7 @@ development but, most of the basic features are implemented. That includes:
 
 ![Graphite](graphite_alpha.png)
 
-[Graphite](graphite-website) ([GitHub][graphite-repo],
+[Graphite][graphite-website] ([GitHub][graphite-repo],
 [Discord][graphite-discord], [Twitter][graphite-twitter]) is an in-development
 raster and vector 2D graphics editor that is free and open source. It is
 powered by a node graph compositing engine that supercharges your layer stack,
@@ -647,7 +647,7 @@ pre-alpha development by Rust Gamedev community members, this first milestone
 of alpha is here.
 
 Graphite alpha launches **Saturday, February 12** together with a new
-[project website](graphite-website).
+[project website][graphite-website].
 
 Work now commences on the second alpha milestone, focused on building the node
 graph system and vector render engine. You are invited to join the team and
