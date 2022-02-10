@@ -731,7 +731,7 @@ the excellent [vk-bootstrap] library for C++.
 
 ### [Edict]
 
-[Edict] is a new archetypes based ECS implementation by [@zakarumych].
+[Edict] is a new archetype-based ECS implementation by [@zakarumych].
 
 The novel feature of [Edict] is entity ownership implemented via reference counting.
 This optional feature allows creating owned kind of `Entity` "reference",
