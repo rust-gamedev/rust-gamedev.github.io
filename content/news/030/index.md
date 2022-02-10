@@ -204,7 +204,7 @@ _A light to keep the night away_
 Fortress and Cube World.
 
 In January, another [Veloren Reading Club was
-recorded]([veloren-reading-club-4])!. The `entity_sync` system was refactored to
+recorded]([veloren-reading-club-4])! The `entity_sync` system was refactored to
 be parallel. This was the largest bottleneck during the last release party, and
 this fix will allow us to more easily surpass the 200 player mark on the server.
 Work has been done to improve dagger animations. Sounds for flowing rivers are
