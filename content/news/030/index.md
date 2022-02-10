@@ -314,21 +314,21 @@ is a realistic sailing/foiling inshore simulator in development for PC/Steam
 that will put you in the driving seat of modern competitive sailing.
 
 The last couple of months saw great disappointment for the failed port to WGPU
-due to unexpected performance losses compared to the old renderer.
-The game is now back to its original DirectX 11 renderer.
+due to unexpected performance losses compared to the old renderer. The game is
+now back to its original DirectX 11 renderer.
 
-February will see the beginning of the private alpha testing program, exciting
-opportunity to gather the first feedbacks about boat handling and controls
-before diving in one of the most challeging task of the game: sailing rules
-implementation.
+February will see the beginning of the private alpha testing program, an
+exciting opportunity to gather the first feedback about boat handling and
+controls before diving into one of the most challenging tasks of the game:
+sailing rules implementation.
 
-Content-wise, Hong Kong will soon join Den Haag as race location while the race
-course is getting more and more alive with addition of spectators boats.
-The playable foiling catamaran Jx50 is also constantly getting graphical
+Content-wise, Hong Kong will soon join Den Haag as a race location while the
+racecourse is becoming more and more alive with the addition of spectators
+boats. The playable foiling catamaran Jx50 is also constantly getting graphical
 updates and physics tweaks.
 
-Hydrofoil Generation is scheduled to release on Steam Early Access in
-Summer 2022.
+Hydrofoil Generation is scheduled to release on Steam Early Access in Summer
+2022.
 
 [Hydrofoil Generation]: https://hydrofoil-generation.com/
 [hgs_facebook]: https://www.facebook.com/HydrofoilGenerationSailing/
@@ -344,7 +344,7 @@ Summer 2022.
 [@anastasiaopara][country-slice-twitter]'s hobby project, where users can draw a
 small procedurally assembled scene.
 
-Newest addition is an erase brush and an ability to continue existing walls.
+The newest addition is an erase brush and an ability to continue existing walls.
 
 [@anastasiaopara][country-slice-twitter] also shared [a Twitter thread][country-slice-discussion]
 about doing procedural generation in Houdini vs Rust & OpenGL.
@@ -360,26 +360,26 @@ about doing procedural generation in Houdini vs Rust & OpenGL.
 godot-rust ([GitHub][gd-github], [Discord][gd-discord], [Twitter][gd-twitter])
 is a Rust library that provides bindings for the Godot game engine.
 
-The start of 2022 is a good opportunity to showcase a few godot-rust games
-in development. More info is available in [the book][gd-book-games].
+The start of 2022 is a good opportunity to showcase a few godot-rust games in
+development. More info is available in [the book][gd-book-games].
 
 ![godot-rust example games](godot-rust-games.jpg)
 
-Using custom builds of the Godot engine involved quite a bit of ceremony
-in the past: manual CLI invocations, code replacement and re-wiring
-of the `gdnative-bindings` subcrate. The approach has been fundamentally
-overhauled, and is now as simple as specifying the crate feature `custom-godot`
+Using custom builds of the Godot engine involved quite a bit of ceremony in the
+past: manual CLI invocations, code replacement, and re-wiring of the
+`gdnative-bindings` subcrate. The approach has been fundamentally overhauled,
+and is now as simple as specifying the crate feature `custom-godot`
 ([#833][gd-833]). The library will automatically look for a `godot` executable
 in the system path (or a `GODOT_BIN` environment variable), and regenerate
 `api.json`. This makes using older or module-extended Godot versions a breeze.
 
-Latest `master` branch has now been updated to support Godot 3.4 out of the box
-([#829][gd-829]).
+The latest `master` branch has now been updated to support Godot 3.4 out of the
+box ([#829][gd-829]).
 
-Upcoming godot-rust version 0.10 seems to be finally on the horizon, with only
-a handful of tasks left ([#842][gd-842]). A changelog since v0.9.3 is now
-available. The continous stream of small improvements here and there has led
-to a sizable list! ([#845][gd-845])
+Upcoming godot-rust version 0.10 seems to be finally on the horizon, with only a
+handful of tasks left ([#842][gd-842]). A changelog since v0.9.3 is now
+available. The continuous stream of small improvements here and there has led to
+a sizable list! ([#845][gd-845])
 
 [gd-833]: https://github.com/godot-rust/godot-rust/pull/833
 [gd-829]: https://github.com/godot-rust/godot-rust/pull/829
@@ -469,11 +469,11 @@ that aims to make rendering simple and give the user full control.
 - Environment lighting (image-based lighting)
 - HDR environment map
 - Headless graphics context
-- Tangent vertex atributes
+- Tangent vertex attributes
 - Texture transform
 - Cube map render targets
 - f16 and u16 texture data types
-- and more..
+- and more...
 
 See [this Twitter thread][three-d-twitter] for videos.
 
@@ -487,7 +487,7 @@ month, an alpha version of Tetra 0.7 was released, featuring:
 
 - Support for a wider variety of texture formats
 - A more powerful API for blending
-- Lots of bug fixes, cleanups and improvements
+- Lots of bug fixes, cleanups, and improvements
 
 For more details, see the [changelog][tetra-changelog].
 
@@ -509,7 +509,7 @@ rationale for why they decided to move on from the project.
 [![A speed limit sign labeled 45 FPS](awn-header.jpg)][awn-post]
 
 [Mason Remaley][awn-mason-remaley] published [a blog post][awn-post] covering
-Windows specific performance tweaks employed in his Rust game engine:
+Windows-specific performance tweaks employed in his Rust game engine:
 
 > Normally, to make your software go faster, it has to do less work. This
 > usually involves improving your algorithms, skipping work the user won't see,
@@ -553,7 +553,7 @@ takeaways from this post:
   hole goes.
 - Evaluate the library ecosystem of Rust thoroughly before using it for a
   project that requires somewhat exotic functionality.
-- Rust forces you to care about the details, regardless whether you want to.
+- Rust forces you to care about the details, regardless of whether you want to.
 
 The remainder of the article goes into depth on these three points.
 
@@ -689,12 +689,12 @@ _Sci-fi base demo scene, [watch TAA demo on youtube][rafx-youtube-video]!_
 Since the previous rafx update in this newsletter (6 months ago!), many new
 features have been introduced to improve performance and image quality. The
 main rendering pipeline has also been split into "modern" and "basic"
-pipelines. Unlike the basic pipeline which focusses on wide compatibility,
+pipelines. Unlike the basic pipeline which focuses on wide compatibility,
 the modern pipeline uses forward-clustered lighting and handles hundreds
 of shadow-casting lights. It is targeting compute shaders and will be adding
 bindless and GPU-driven rendering soon.
 
-Since the last update, the modern pipeline adds GPU-accelierated light binning,
+Since the last update, the modern pipeline adds GPU-accelerated light binning,
 SSAO, shadow map atlasing/caching, TAA with sharpening, and auto-exposure/HDR.
 In addition, both modern and basic pipelines now support transparency. A
 [video demonstrating TAA][rafx-youtube-video] (temporal anti-aliasing) is
@@ -715,7 +715,7 @@ scenes with photorealistic style at 60FPS/1440p on modern, mid-range GPUs.
 
 When starting a new Vulkan project, there's always the struggle of writing a
 whole bunch of boilerplate code in order to, e.g., get your first triangle on
-the screen. You have to create an `VkInstance`, with the validation layers
+the screen. You have to create a `VkInstance`, with the validation layers
 set up and working for development. Then select the best suited
 `VkPhysicalDevice` for your app's requirements. Use that to create a `VkDevice`
 with the appropriate queue families chosen. Oh, and after that, you need
@@ -731,11 +731,11 @@ the excellent [vk-bootstrap] library for C++.
 
 ### [Edict]
 
-New archetypes based ECS implementation by [@zakarumych](https://github.com/zakarumych).
+[Edict] is a new archetype-based ECS implementation by [@zakarumych].
 
 The novel feature of [Edict] is entity ownership implemented via reference counting.
 This optional feature allows creating owned kind of `Entity` "reference",
-that ensures entity is alive and despawns it on drop.
+that ensures the entity is alive and despawns it on drop.
 Storing owning `Entity` in the component of another entity
 creates ownership relation between those entities.
 Even though `Entity` is an owning reference,
@@ -743,15 +743,15 @@ components of the entity are can be queried from `World` as usual.
 Shared ownership is also available.
 
 Optimized for both high density `World`s with thousands of entities
-and also for `World`s with lower number of entities spread among many archetypes.
-[Edict] is aimed for wide range of game genres and use cases outside of games.
+and also for `World`s with a lower number of entities spread among many archetypes.
+[Edict] is aimed at a wide range of game genres and use cases outside of games.
 
 Built-in change detection with epochs allows systems to query for components
-that were updated since last run of that query,
+that were updated since the last run of that query,
 or since any other epoch as defined by `Tracks` argument.
-This opens possibility to have multiple POV on changes even in single system.
-For example server-side netcode can track changes individually
-for each client and query for changes since last ACK.
+This opens the possibility to have multiple POV on changes even in a single system.
+For example, server-side netcode can track changes individually
+for each client and query for changes since the last ACK.
 [Edict] optimizes iteration significantly when entities
 with modified components are queried.
 
@@ -759,21 +759,23 @@ Although ECS abbreviation implies, [Edict] does not come
 with predefined `System` trait and systems scheduler.
 We can call it ECQ (Entity-Component-Query) as an alternative to ECS.
 
-[Edict] is added to [ecs_bench_suite](https://github.com/rust-gamedev/ecs_bench_suite)
+[Edict] is added to [ecs_bench_suite]
 so anyone can compare performance in some trivial examples with other ECS.
 
 Development focus for February is making more public API, including unsafe parts,
-to allow writing custom queries, implement schedulers with parallel execution etc.
+to allow writing custom queries, implement schedulers with parallel execution, etc.
 
+[@zakarumych]: https://github.com/zakarumych
 [Edict]: https://github.com/zakarumych/edict
+[ecs_bench_suite]: https://github.com/rust-gamedev/ecs_bench_suite
 
 ### [bevy_backroll v0.3][backroll-github]
 
 [Backroll][backroll-github] is a 100% type-safe native Rust implementation of the
 [GGPO][ggpo] rollback netcode library. The core library has gone through
-superfical updates, but the [Bevy plugin][bevy-backroll-crates-io] has been
-massively overhauled. This update signfigantly improves the ergonomics of setting
-up rollback netcode for your game (no more ugly turbofishes! no more generic type
+superficial updates, but the [Bevy plugin][bevy-backroll-crates-io] has been
+massively overhauled. This update significantly improves the ergonomics of setting
+up rollback netcode for your game (no more ugly turbofishes! No more generic type
 parameter config type!), provides an automatic way of saving and loading Bevy
 components and resources, and fully parallelizes the saving and loading of game
 state when a rollback occurs.
