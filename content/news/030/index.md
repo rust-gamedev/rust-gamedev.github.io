@@ -697,7 +697,7 @@ bindless and GPU-driven rendering soon.
 Since the last update, the modern pipeline adds GPU-accelierated light binning,
 SSAO, shadow map atlasing/caching, TAA with sharpening, and auto-exposure/HDR.
 In addition, both modern and basic pipelines now support transparency. A
-[video demonstrating TAA](rafx-youtube-video) (temporal anti-aliasing) is
+[video demonstrating TAA][rafx-youtube-video] (temporal anti-aliasing) is
 available on youtube.
 
 With these performance improvements, `rafx` is now able to render challenging
