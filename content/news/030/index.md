@@ -313,7 +313,7 @@ Features
 is a realistic sailing/foiling inshore simulator in development for PC/Steam
 that will put you in the driving seat of modern competitive sailing.
 
-Last couple of months saw great disappointment for the failed port to WGPU
+The last couple of months saw great disappointment for the failed port to WGPU
 due to unexpected performance losses compared to the old renderer.
 The game is now back to its original DirectX 11 renderer.
 
