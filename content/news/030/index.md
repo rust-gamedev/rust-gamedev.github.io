@@ -106,7 +106,7 @@ _Rusty Vangers engine in action within the original game_
 [Vangers] game from the last century.
 It's in Rust, and uses GPU and multiple threads heavily.
 
-Something incredible has been brewing within the small by dedicated community
+Something incredible has been brewing within the small but dedicated community
 of the original game. They prototyped a pluggable rendering interface in order
 to support rendering the game via [Rusty Vangers] instead of the default
 CPU-based rasterizer. The plugin is made as a static library sub-crate with a
