@@ -111,7 +111,7 @@ of the original game. They prototyped a pluggable rendering interface in order
 to support rendering the game via [Rusty Vangers] instead of the default
 CPU-based rasterizer. The plugin is made as a static library sub-crate with a
 bunch of C-exported functions.
-Basic concept worked on the terrain, and the mini working group transitioned
+The approach worked for the terrain, so the mini working group transitioned
 to moving more visual features off the old path and into the Rust-based plugin.
 
 At the same time, [Rusty Vangers] engine got a number of important
@@ -138,7 +138,7 @@ engine. It has a demo available [on Steam][wor].
 Latest developments:
 
 - [Making Your Game Go Fast by Asking Windows Nicely][wor-fast] was published,
-  discussing Windows specific performance tweaks in Way of Rhea's engine
+  discussing Windows-specific performance tweaks in Way of Rhea's engine
 - Work started on the Snowcrab + Teleporter puzzles, completing nearly all the
   puzzles in the main game
 - Work began on art for The Professor (pictured left), Shrew, and Hermes
@@ -214,7 +214,7 @@ backward compatibility for older GPUs.
 
 Skiing and ice skating have gotten to a playable state. The mounts system was
 overhauled to make it more ergonomic to work with, you can [watch a video of
-that here][veloren-mounts]. Several shaders experimental shaders have been
+that here][veloren-mounts]. Several experimental shaders have been
 added, along with a "point glow" which help lanterns look better. With these new
 shaders, swimming underwater is a whole new experience! A tracking issue was
 created for worldgen issues that will help coordinate direction for some large
