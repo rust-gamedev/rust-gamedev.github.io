@@ -1,6 +1,7 @@
 +++
 title = "This Month in Rust GameDev #{TODO} - {TODO} {TODO}"
 transparent = true
+date = TODO
 draft = true
 +++
 
