@@ -74,7 +74,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 _Screenshot of This is Fine Sokoban_
 
 This is Fine Sokoban ([GitHub][sokoban-github]) by
-[@Syn-Nine][synnine-twitter] is a Sokoban game inspired by the The is Fine
+[@Syn-Nine][synnine-twitter] is a Sokoban game inspired by the This is Fine
 meme created for the [Game Developers Refuge 4x4x4 Challenge] in February
 2022. Use the arrow keys to push the TPS reports into the file folders while
 the room is burning down and you're surrounded by clocks - a metaphor for
