@@ -74,16 +74,16 @@ If needed, a section can be split into subsections with a "------" delimiter.
 _Screenshot of This is Fine Sokoban_
 
 This is Fine Sokoban ([GitHub][sokoban-github]) by
-[@Syn-Nine][synnine-twitter] is a Sokoban game inspired by the The is Fine 
-meme created for the [Game Developers Refuge 4x4x4 Challenge] in February 
-2022. Use the arrow keys to push the TPS reports into the file folders while 
-the room is burning down and you're surrounded by clocks - a metaphor for 
+[@Syn-Nine][synnine-twitter] is a Sokoban game inspired by the The is Fine
+meme created for the [Game Developers Refuge 4x4x4 Challenge] in February
+2022. Use the arrow keys to push the TPS reports into the file folders while
+the room is burning down and you're surrounded by clocks - a metaphor for
 my work life.
 
-The 4x4x4 Challenge was to create a game based on four emojis. In 
+The 4x4x4 Challenge was to create a game based on four emojis. In
 this case the chosen emoji combination was: :nerd_face: :open_file_folder: :clock830: :fire: .
 
-The game is part of an open source repository of several mini-games that use 
+The game is part of an open source repository of several mini-games that use
 Syn9's [Rust Mini Game Framework][mgfw].
 
 [sokoban-github]: https://github.com/Syn-Nine/rust-mini-games/tree/main/2d-games/sokoban
