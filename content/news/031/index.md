@@ -70,7 +70,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [This is Fine Sokoban][sokoban-github]
 
-![This is Fine Sokoban screenshot](sokoban-screenshot.gif)
+![This is Fine Sokoban screenshot](sokoban_screenshot.gif)
 _Screenshot of This is Fine Sokoban_
 
 This is Fine Sokoban ([GitHub][sokoban-github]) by
