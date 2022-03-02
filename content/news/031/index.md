@@ -84,9 +84,9 @@ Recent progress has been on procedural terrain generation, the player UI, item
 stacks and build jobs. A major refactor of the AI system integrated Rust's
 superb `async`/`await` support, which is documented in the most recent devlog.
 
-* [Devlog #5: voxel world goals][name-needed-devlog5]
-* [Devlog #6: async activities][name-needed-devlog6]
-* [Devlog #7: custom async runtime][name-needed-devlog7]
+- [Devlog #5: voxel world goals][name-needed-devlog5]
+- [Devlog #6: async activities][name-needed-devlog6]
+- [Devlog #7: custom async runtime][name-needed-devlog7]
 
 [name-needed]: https://github.com/DomWilliams0/name-needed
 [domwilliams-github]: https://github.com/DomWilliams0
