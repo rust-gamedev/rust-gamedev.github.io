@@ -78,7 +78,7 @@ This is Fine Sokoban ([GitHub][sokoban-github]) by
 meme created for the [Game Developers Refuge 4x4x4 Challenge] in February
 2022. Use the arrow keys to push the TPS reports into the file folders while
 the room is burning down and you're surrounded by clocks - a metaphor for
-my work life.
+the developer's work life.
 
 The 4x4x4 Challenge was to create a game based on four emojis. In
 this case the chosen emoji combination was: :nerd_face: :open_file_folder:
