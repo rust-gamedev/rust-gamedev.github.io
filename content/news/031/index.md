@@ -68,6 +68,25 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Molecoole][molecoole-steam]
+
+[![A molecoole and some enemies](molecoole.png)][molecoole-steam]
+
+Molecoole is a top-down shooter roguelike where you build your character from
+different atoms. Each atom has a unique ability to provide tons of variety
+between playthroughs. It's made using the [Bevy
+Engine](https://github.com/bevyengine/bevy).
+
+This month Molecoole launched on [Steam][molecoole-steam],
+making it the first game made with Bevy Engine there!
+It's available on Windows and Linux.
+You can check out it's gameplay on [youtube][youtube-molecoole],
+or on the steam page. 
+
+
+[molecoole-steam]: https://store.steampowered.com/app/1792170/Molecoole/
+[youtube-molecoole]: https://www.youtube.com/watch?v=bwbVplq03ew
+
 ## Engine Updates
 
 ## Learning Material Updates
