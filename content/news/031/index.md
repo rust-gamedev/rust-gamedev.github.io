@@ -72,11 +72,10 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ![The player orders a selection of blocks to be broken, and a brick wall to be
 built.](name-needed.gif)
-
 _The player orders a selection of blocks to be broken, and a brick wall to be
 built._
 
-[Name Needed][name-needed] by [@DomWilliams0][domwilliams-github] is a one man
+[Name Needed][name-needed] by [@DomWilliams0][domwilliams-github] is a one-man
 effort to produce an open source, intuitive and high performance Dwarf
 Fortress-esque game with a custom engine.
 
