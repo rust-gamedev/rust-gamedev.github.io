@@ -82,7 +82,7 @@ my work life.
 
 The 4x4x4 Challenge was to create a game based on four emojis. In
 this case the chosen emoji combination was: :nerd_face: :open_file_folder:
-:clock830: :fire: .
+:clock830: :fire:
 
 The game is part of an open source repository of several mini-games that use
 Syn9's [Rust Mini Game Framework][mgfw].
