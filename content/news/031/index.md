@@ -84,7 +84,7 @@ available, as well as a live [demo](https://qonfucius.gitlab.io/minesweeper-tuto
 
 The tutorial showcases:
 
-- essential features of the [bevy][bevy] engine 
+- essential features of the [bevy][bevy] engine
 - important ECS notions for beginners
 - WASM build
 - and soon, android native apk build
