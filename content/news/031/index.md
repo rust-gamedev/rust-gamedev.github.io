@@ -74,13 +74,14 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 Build A Better Buddy is a cute auto-battler built by [@cart_cart][cart-cart] using
 [Bevy Engine][buddy-bevy-engine] for [Bevy Jam #1][buddy-bevy-jam-1]. The source
-code is [available here][buddy-source].
+code is [available here][buddy-source]. It runs on Windows, Mac, Linux, and
+the Web.
 
-[build-a-better-buddy][https://cart.itch.io/build-a-better-buddy]
-[cart-cart][https://twitter.com/cart_cart]
-[buddy-bevy-jam-1][https://itch.io/jam/bevy-jam-1/]
-[buddy-bevy-engine][https://bevyengine.org/]
-[buddy-source][https://github.com/cart/build_a_better_buddy]
+[build-a-better-buddy]: https://cart.itch.io/build-a-better-buddy
+[cart-cart]: https://twitter.com/cart_cart
+[buddy-bevy-jam-1]: https://itch.io/jam/bevy-jam-1/
+[buddy-bevy-engine]: https://bevyengine.org/
+[buddy-source]: https://github.com/cart/build_a_better_buddy
 
 ## Engine Updates
 
