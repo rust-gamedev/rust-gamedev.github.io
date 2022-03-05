@@ -76,12 +76,13 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library Updates
 
-### [Vach]
-[Vach] is a file format that was developped from the ground up for games
+### [vach]
+[vach] is a file format that was developped from the ground up for games
 by [@zeskeertwee] and [@sokorototo].
 
 It's primary design considerations were (in no perticular order):
 
+- Have a simple, yet complete library interface
 - Be a archive format able to contain multiple files in one
 - Have optional compression, *configurable per entry in the archive*
 - Have optional encryption, *configurable per entry in the archive*
@@ -91,17 +92,17 @@ It's primary design considerations were (in no perticular order):
 which is currently 1 byte per entry for the content-version
 - Be multithreaded, if the user wants this
 
-We've also made significant progress on the CLI for [Vach], [Vach-cli],
+We've also made significant progress on the CLI for [vach], [vach-cli],
 which is now finally multithreaded as well!
 
-You can try [Vach] right now by installing [Vach-cli]: `cargo install vach-cli`
+You can try [vach] right now by installing [vach-cli]: `cargo install vach-cli`
 
 If you run into any issues or have suggestions,
-please feel free to open an issue on the [Vach] github repository,
+please feel free to open an issue on the [vach] github repository,
 as it really helps us to mature the library and CLI!
 
-[Vach]: https://github.com/zeskeertwee/vach
-[Vach-cli]: https://github.com/zeskeertwee/vach/tree/main/vach-cli
+[vach]: https://github.com/zeskeertwee/vach
+[vach-cli]: https://github.com/zeskeertwee/vach/tree/main/vach-cli
 [@zeskeertwee]: https://github.com/zeskeertwee
 [@sokorototo]: https://github.com/sokorototo
 
