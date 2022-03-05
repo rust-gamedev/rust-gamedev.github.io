@@ -77,7 +77,8 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ## Library Updates
 
 ### [Vach]
-[Vach] is a file format that was developped from the ground up for games by [@zeskeertwee] and [@sokorototo].
+[Vach] is a file format that was developped from the ground up for games
+by [@zeskeertwee] and [@sokorototo].
 
 It's primary design considerations were (in no perticular order):
 
@@ -86,14 +87,18 @@ It's primary design considerations were (in no perticular order):
 - Have optional encryption, *configurable per entry in the archive*
 - Be as fast as possible by seeking through the file as little as possible
 - Be as compact as possible, even without compression
-- Allowing for some metadata per entry, which is currently 1 byte per entry for the content-version
+- Allowing for some metadata per entry,
+which is currently 1 byte per entry for the content-version
 - Be multithreaded, if the user wants this
 
-We've also made significant progress on the CLI for [Vach], [Vach-cli], which is now finally multithreaded as well!
+We've also made significant progress on the CLI for [Vach], [Vach-cli],
+which is now finally multithreaded as well!
 
 You can try [Vach] right now by installing [Vach-cli]: `cargo install vach-cli`
 
-If you run into any issues or have suggestions, please feel free to open an issue on the [Vach] github repository, as it really helps us to mature the library and CLI!
+If you run into any issues or have suggestions,
+please feel free to open an issue on the [Vach] github repository,
+as it really helps us to mature the library and CLI!
 
 [Vach]: https://github.com/zeskeertwee/vach
 [Vach-cli]: https://github.com/zeskeertwee/vach/tree/main/vach-cli
