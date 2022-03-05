@@ -74,6 +74,33 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Tooling Updates
 
+### [Blackjack]
+
+![Blackjack: Showcase of the new catmull-clark subdivision](blackjack.gif)
+
+[Blackjack] by @setzer22 is a new procedural modeling application made in Rust,
+using rend3, wgpu and egui. It follows the steps of applications like
+Houdini, or Blender's geometry nodes project and provides a node-based
+environment to compose procedural recipes to create 3d models.
+
+The last two months have been quite busy for Blackjack. After an initial open
+source release, several new features have been added:
+
+- Added a resizeable viewport system, with node graph pan and zoom.
+- Built an initial implementation for a properties inspector and geometry
+  spreadsheet panels.
+- Added a subdivision node, with a fast catmull-clark subdivision technique
+ based on
+ [this recent paper](https://onrendering.com/data/papers/catmark/HalfedgeCatmullClark.pdf)
+- Separated the node graph functionality into
+ [its own crate](https://github.com/setzer22/egui_node_graph)
+
+_Discussions:
+[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/srgd41/your_rusty_procedural_3d_modeler_blackjack_just/),
+[/r/rust](https://www.reddit.com/r/rust/comments/sfqung/media_blackjacks_eguibased_node_graph_now/)_
+
+[Blackjack]: https://github.com/setzer22/blackjack
+
 ## Library Updates
 
 ## Popular Workgroup Issues in Github
