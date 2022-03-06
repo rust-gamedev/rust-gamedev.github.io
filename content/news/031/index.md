@@ -81,7 +81,7 @@ This month Molecoole launched on [Steam][molecoole-steam],
 making it the first game made with Bevy Engine there!
 It's available on Windows and Linux.
 You can check out its gameplay on [youtube][youtube-molecoole],
-or on the Steam page. 
+or on the Steam page.
 
 [molecoole-steam]: https://store.steampowered.com/app/1792170/Molecoole/
 [youtube-molecoole]: https://www.youtube.com/watch?v=bwbVplq03ew
