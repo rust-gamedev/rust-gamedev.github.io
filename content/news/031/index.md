@@ -76,6 +76,30 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library Updates
 
+### [Notan]
+
+![Notan](notan.png)
+
+The first version of [Notan] was released.
+[Notan] aims to be a simple and portable multimedia layer, designed to make
+your own multimedia app on top of it without worrying too much about
+platform-specific code.
+
+The main goal is to provide a set of APIs and tools that can be used to create
+your project in an ergonomic manner without enforcing any structure or pattern,
+always trying to stay out of your way. The idea is that you can use it as a
+foundation layer or backend for your next app, game engine or game.
+
+This first version comes with windowing, input and rendering support on MacOS,
+Linux, Windows and Web. Behind feature flags you can use a fast 2D renderer,
+text rendering, and [egui](https://github.com/emilk/egui) integration.  
+
+You can try [Notan] by installing it via cargo: `cargo install notan` or
+checking the [online demos].
+
+[Notan]: https://github.com/Nazariglez/notan
+[online demos]: https://nazariglez.github.io/notan-web/
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
