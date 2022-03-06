@@ -74,6 +74,29 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Tooling Updates
 
+### [Vismut]
+
+![Vismut](vismut.png)
+
+[Vismut] ([GitLab](https://gitlab.com/vismut-org/vismut),
+[Zulip](https://vismut.zulipchat.com))
+by [@lukors](https://gitlab.com/lukors)
+will be a procedural texturing tool.
+
+This application saw its first public release a month ago, where it added
+support for its first use case: manual channel shuffling.
+
+The latest
+version, [v0.4.0](https://gitlab.com/vismut-org/vismut/-/releases/v0.4.0),
+brings an all new interface that's not only prettier, but also much easier to 
+use thanks to `bevy_egui`!
+
+Upcoming versions will turn it into a fully featured node based procedural
+texturing tool. [Read the introduction](https://orsvarn.com/introducing-vismut/)
+on the author's blog for more information.
+
+[Vismut]: http://vismut.org
+
 ## Library Updates
 
 ## Popular Workgroup Issues in Github
