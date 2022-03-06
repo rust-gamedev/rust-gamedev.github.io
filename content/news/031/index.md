@@ -76,9 +76,9 @@ If needed, a section can be split into subsections with a "------" delimiter.
 The latest release:
 
  - Uses [quad-storage] on WASM to save high scores
-     and a record of how games the player has played
+   and a record of how games the player has played
  - Fixes bug where the game was being played at an incorrect speed
-     when the player's monitor was not 60hz
+   when the player's monitor was not 60hz
  - Adds 8 more minigames
 
 [Weegames]: https://yeahross.itch.io/weegames
