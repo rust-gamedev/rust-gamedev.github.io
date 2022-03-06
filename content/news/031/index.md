@@ -68,6 +68,22 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Weegames]
+
+![Grid of Weegames minigames](weegames.jpg)
+
+[Weegames] is a fast-paced minigame collection available on web and Windows.
+The latest release:
+
+ - Uses [quad-storage] on WASM to save high scores
+     and a record of how games the player has played
+ - Fixes bug where the game was being played at an incorrect speed
+     when the player's monitor was not 60hz
+ - Adds 8 more minigames
+
+[Weegames]: https://yeahross.itch.io/weegames
+[quad-storage]: https://crates.io/crates/quad-storage
+
 ## Engine Updates
 
 ## Learning Material Updates
