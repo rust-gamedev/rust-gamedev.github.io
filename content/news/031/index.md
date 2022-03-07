@@ -93,6 +93,30 @@ superb `async`/`await` support, which is documented in the most recent devlog.
 [name-needed-devlog6]: https://domwillia.ms/devlog6/
 [name-needed-devlog7]: https://domwillia.ms/devlog7/
 
+### [This is Fine Sokoban][sokoban-github]
+
+![This is Fine Sokoban screenshot](sokoban_screenshot.gif)
+_Screenshot of This is Fine Sokoban_
+
+This is Fine Sokoban ([GitHub][sokoban-github]) by
+[@Syn-Nine][synnine-twitter] is a Sokoban game inspired by the This is Fine
+meme created for the [Game Developers Refuge 4x4x4 Challenge] in February
+2022. Use the arrow keys to push the TPS reports into the file folders while
+the room is burning down and you're surrounded by clocks - a metaphor for
+the developer's work life.
+
+The 4x4x4 Challenge was to create a game based on four emojis. In
+this case the chosen emoji combination was: :nerd_face: :open_file_folder:
+:clock830: :fire:
+
+The game is part of an open source repository of several mini-games that use
+Syn9's [Rust Mini Game Framework][mgfw].
+
+[sokoban-github]: https://github.com/Syn-Nine/rust-mini-games/tree/main/2d-games/sokoban
+[synnine-twitter]: https://twitter.com/Syn9Dev
+[Game Developers Refuge 4x4x4 Challenge]: https://noop.rocks/gdr/viewtopic.php?f=2&t=84
+[mgfw]: https://github.com/Syn-Nine/mgfw
+
 ## Engine Updates
 
 ## Learning Material Updates
