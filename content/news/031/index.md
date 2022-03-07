@@ -88,7 +88,7 @@ Its primary objectives (in no particular order) are:
 - Fine control over each individual entry in an archive, i.e. neighbouring
   entries can have vastly different compression schemes.
 - Support compression (with multiple compression schemes), encryption,
-  signatures for data authentication
+  and signatures for data authentication
 - Efficient fetching of data by avoiding unnecessary traversal of the file.
   Once a file is parsed, locations of every entry are known to the loader.
 - Be as compact as possible - the smallest valid archive is only 13 bytes.
