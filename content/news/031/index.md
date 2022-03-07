@@ -78,21 +78,29 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [vach]
 
-[vach] is an archiving file format developed from the ground up for games and other realtime applications by [@zeskeertwee] and [@sokorototo]. It is written in pure Rust.
+[vach] is an archiving file format developed from the ground up for games and
+other realtime applications by [@zeskeertwee] and [@sokorototo]. It is
+written in pure Rust.
 
 Its primary objectives (in no particular order) are:
 
 - Have a simple, yet complete API.
-- Fine control over each individual entry in an archive, i.e. neighbouring entries can have vastly different compression schemes.
-- Support compression (with multiple compression schemes), encryption, signatures for data authentication
-- Efficient fetching of data by avoiding unnecessary traversal of the file. Once a file is parsed, locations of every entry are known to the loader.
+- Fine control over each individual entry in an archive, i.e. neighbouring
+  entries can have vastly different compression schemes.
+- Support compression (with multiple compression schemes), encryption,
+  signatures for data authentication
+- Efficient fetching of data by avoiding unnecessary traversal of the file.
+  Once a file is parsed, locations of every entry are known to the loader.
 - Be as compact as possible - the smallest valid archive is only 13 bytes.
-- Each entry has some metadata attached to it - this is implemented using bitflags and up to 8 bits are free to the user.
+- Each entry has some metadata attached to it - this is implemented using
+  bitflags and up to 8 bits are free to the user.
 - Has mutlithreaded implementations of both the loader and the writer.
 
-A [CLI][vach-cli] is allowing one to use vach as a general purpose archive format. The CLI is fully multithreaded, allowing for insane un/packing speeds.
+A [CLI][vach-cli] is allowing one to use vach as a general purpose archive
+format. The CLI is fully multithreaded, allowing for insane un/packing speeds.
 
-Feel free to drop into the [repo][vach] and open an issue, pull request or drop a star 🌟. It helps maintain momentum in the project.
+Feel free to drop into the [repo][vach] and open an issue, pull request or
+drop a star 🌟. It helps maintain momentum in the project.
 
 [vach]: https://github.com/zeskeertwee/vach
 [vach-cli]: https://crates.io/crates/vach-cli
