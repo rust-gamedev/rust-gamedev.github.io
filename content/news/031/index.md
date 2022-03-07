@@ -117,6 +117,21 @@ Syn9's [Rust Mini Game Framework][mgfw].
 [Game Developers Refuge 4x4x4 Challenge]: https://noop.rocks/gdr/viewtopic.php?f=2&t=84
 [mgfw]: https://github.com/Syn-Nine/mgfw
 
+### [Build A Better Buddy][build-a-better-buddy]
+
+[![Build A Better Buddy Screenshot](build-a-better-buddy.png)][build-a-better-buddy]
+
+Build A Better Buddy is a cute auto-battler built by [@cart_cart][cart-cart] using
+[Bevy Engine][buddy-bevy-engine] for [Bevy Jam #1][buddy-bevy-jam-1]. The source
+code is [available here][buddy-source]. It runs on Windows, Mac, Linux, and
+the Web.
+
+[build-a-better-buddy]: https://cart.itch.io/build-a-better-buddy
+[cart-cart]: https://twitter.com/cart_cart
+[buddy-bevy-jam-1]: https://itch.io/jam/bevy-jam-1/
+[buddy-bevy-engine]: https://bevyengine.org/
+[buddy-source]: https://github.com/cart/build_a_better_buddy
+
 ## Engine Updates
 
 ## Learning Material Updates
