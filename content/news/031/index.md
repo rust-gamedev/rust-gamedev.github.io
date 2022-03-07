@@ -72,13 +72,14 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ![Screenshot of Dis-order](dis-order.png)
 
-Dis-order by [@jkhelsing] is a short sokobanesque puzzle game made in 72 hours for
-MiniJam 100. In Dis-order you're making chaos instead of order, you win when there
-are are no patterns or order in the level.
+Dis-order by [@jkhelsing] is a short sokobanesque puzzle game made in 72 hours
+for MiniJam 100. In Dis-order you're making chaos instead of order, you win when
+there are are no patterns or order in the level.
 
-It's made using [Bevy][dis-order-bevy] and uses [bevy_smud][bevy_smud] for shape rendering,
-and a compute pass for the [particle effects][dis-order-particle-effects]. The levels are made with ldtk and
-loaded using [bevy_ecs_ldtk][bevy_ecs_ldtk]. Read more about this in the
+It's made using [Bevy][dis-order-bevy] and uses [bevy_smud][bevy_smud] for shape
+rendering, and a compute pass for the [particle
+effects][dis-order-particle-effects]. The levels are made with ldtk and loaded
+using [bevy_ecs_ldtk][bevy_ecs_ldtk]. Read more about this in the
 [post-mortem][dis-order-post-mortem].
 
 [Download the game on itch.io][Dis-order].
