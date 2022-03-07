@@ -68,6 +68,55 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Name Needed][name-needed]
+
+![The player orders a selection of blocks to be broken, and a brick wall to be
+built.](name-needed.gif)
+_The player orders a selection of blocks to be broken, and a brick wall to be
+built._
+
+[Name Needed][name-needed] by [@DomWilliams0][domwilliams-github] is a one-man
+effort to produce an open source, intuitive and high performance Dwarf
+Fortress-esque game with a custom engine.
+
+Recent progress has been on procedural terrain generation, the player UI, item
+stacks and build jobs. A major refactor of the AI system integrated Rust's
+superb `async`/`await` support, which is documented in the most recent devlog.
+
+- [Devlog #5: voxel world goals][name-needed-devlog5]
+- [Devlog #6: async activities][name-needed-devlog6]
+- [Devlog #7: custom async runtime][name-needed-devlog7]
+
+[name-needed]: https://github.com/DomWilliams0/name-needed
+[domwilliams-github]: https://github.com/DomWilliams0
+[name-needed-devlog5]: https://domwillia.ms/devlog5/
+[name-needed-devlog6]: https://domwillia.ms/devlog6/
+[name-needed-devlog7]: https://domwillia.ms/devlog7/
+
+### [This is Fine Sokoban][sokoban-github]
+
+![This is Fine Sokoban screenshot](sokoban_screenshot.gif)
+_Screenshot of This is Fine Sokoban_
+
+This is Fine Sokoban ([GitHub][sokoban-github]) by
+[@Syn-Nine][synnine-twitter] is a Sokoban game inspired by the This is Fine
+meme created for the [Game Developers Refuge 4x4x4 Challenge] in February
+2022. Use the arrow keys to push the TPS reports into the file folders while
+the room is burning down and you're surrounded by clocks - a metaphor for
+the developer's work life.
+
+The 4x4x4 Challenge was to create a game based on four emojis. In
+this case the chosen emoji combination was: :nerd_face: :open_file_folder:
+:clock830: :fire:
+
+The game is part of an open source repository of several mini-games that use
+Syn9's [Rust Mini Game Framework][mgfw].
+
+[sokoban-github]: https://github.com/Syn-Nine/rust-mini-games/tree/main/2d-games/sokoban
+[synnine-twitter]: https://twitter.com/Syn9Dev
+[Game Developers Refuge 4x4x4 Challenge]: https://noop.rocks/gdr/viewtopic.php?f=2&t=84
+[mgfw]: https://github.com/Syn-Nine/mgfw
+
 ## Engine Updates
 
 ## Learning Material Updates
@@ -75,6 +124,37 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ## Tooling Updates
 
 ## Library Updates
+
+### [vach]
+
+[vach] is an archiving file format developed from the ground up for games and
+other realtime applications by [@zeskeertwee] and [@sokorototo]. It is
+written in pure Rust.
+
+Its primary objectives (in no particular order) are:
+
+- Have a simple, yet complete API.
+- Fine control over each individual entry in an archive, i.e. neighbouring
+  entries can have vastly different compression schemes.
+- Support compression (with multiple compression schemes), encryption,
+  and signatures for data authentication
+- Efficient fetching of data by avoiding unnecessary traversal of the file.
+  Once a file is parsed, locations of every entry are known to the loader.
+- Be as compact as possible - the smallest valid archive is only 13 bytes.
+- Each entry has some metadata attached to it - this is implemented using
+  bitflags and up to 8 bits are free to the user.
+- Has mutlithreaded implementations of both the loader and the writer.
+
+A [CLI][vach-cli] is allowing one to use vach as a general purpose archive
+format. The CLI is fully multithreaded, allowing for insane un/packing speeds.
+
+Feel free to drop into the [repo][vach] and open an issue, pull request or
+drop a star 🌟. It helps maintain momentum in the project.
+
+[vach]: https://github.com/zeskeertwee/vach
+[vach-cli]: https://crates.io/crates/vach-cli
+[@zeskeertwee]: https://github.com/zeskeertwee
+[@sokorototo]: https://github.com/sokorototo
 
 ### Sparsey 0.7
 
