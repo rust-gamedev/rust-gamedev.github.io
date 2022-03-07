@@ -77,6 +77,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ## Library Updates
 
 ### [Encase]
+<img src="https://raw.githubusercontent.com/teoxoy/encase/c49010446d7efed242b47d940317bc997503c162/logo.svg" width="320px" alt="Encase Logo"/>
 
 [Encase] ([docs.rs], [crates.io]) by [@teoxoy] is a new library
 that provides a mechanism to lay out data into GPU buffers
