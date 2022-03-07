@@ -72,7 +72,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ![Screenshot of Dis-order](dis-order.png)
 
-Dis-order by [@jkhelsing] is a short sokobanesque puzzle game made in 72 hours
+Dis-order by [@jkhelsing] is a short sokoban-esque puzzle game made in 72 hours
 for MiniJam 100. In Dis-order you're making chaos instead of order, you win when
 there are are no patterns or order in the level.
 
