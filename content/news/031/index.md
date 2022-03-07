@@ -156,6 +156,26 @@ drop a star 🌟. It helps maintain momentum in the project.
 [@zeskeertwee]: https://github.com/zeskeertwee
 [@sokorototo]: https://github.com/sokorototo
 
+### Sparsey 0.7
+
+![Sparsey](sparsey.png)
+
+[Sparsey] by [@LechintanTudor] is a sparse set-based Entity Component System
+with beautiful and concise syntax.
+
+The biggest change in this release was the removal of component change detection
+which had a significant impact on performance and memory usage. As a result,
+Sparsey performs much better in all benchmarks and the codebase is easier to
+maintain.
+
+The systems module received a major overhaul with an improved scheduling
+algorithm, allowing more systems to run in parallel, and an important usability
+improvement allowing systems to be added to schedules without having to call
+`.system()` on the system functions.
+
+[Sparsey]: https://github.com/LechintanTudor/sparsey
+[@LechintanTudor]: https://github.com/LechintanTudor
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
