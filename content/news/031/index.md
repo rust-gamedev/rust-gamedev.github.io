@@ -68,6 +68,29 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Dis-order]
+
+![Screenshot of Dis-order](dis-order.png)
+
+Dis-order by [@jkhelsing] is a short sokobanesque puzzle game made in 72 hours for
+MiniJam 100. In Dis-order you're making chaos instead of order, you win when there
+are are no patterns or order in the level.
+
+It's made using [Bevy][dis-order-bevy] and uses [bevy_smud][bevy_smud] for shape rendering,
+and a compute pass for the [particle effects][dis-order-particle-effects]. The levels are made with ldtk and
+loaded using [bevy_ecs_ldtk][bevy_ecs_ldtk]. Read more about this in the
+[post-mortem][dis-order-post-mortem].
+
+[Download the game on itch.io][Dis-order].
+
+[Dis-order]: https://jhelsing.itch.io/dis-order
+[bevy_smud]: https://github.com/johanhelsing/bevy_smud
+[dis-order-bevy]: https://bevyengine.org
+[bevy_ecs_ldtk]: https://github.com/Trouv/bevy_ecs_ldtk
+[dis-order-post-mortem]: https://johanhelsing.studio/posts/dis-order
+[dis-order-particle-effects]: https://twitter.com/jkhelsing/status/1495604656164282374
+[@jkhelsing]: https://twitter.com/jkhelsing
+
 ## Engine Updates
 
 ## Learning Material Updates
