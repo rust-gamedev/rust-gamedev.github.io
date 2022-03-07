@@ -77,32 +77,25 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ## Library Updates
 
 ### [vach]
-[vach] is a file format that was developped from the ground up for games
-by [@zeskeertwee] and [@sokorototo].
 
-It's primary design considerations were (in no perticular order):
+[vach] is an archiving file format developed from the ground up for games and other realtime applications by [@zeskeertwee] and [@sokorototo]. It is written in pure Rust.
 
-- Have a simple, yet complete library interface
-- Be a archive format able to contain multiple files in one
-- Have optional compression, *configurable per entry in the archive*
-- Have optional encryption, *configurable per entry in the archive*
-- Be as fast as possible by seeking through the file as little as possible
-- Be as compact as possible, even without compression
-- Allowing for some metadata per entry,
-which is currently 1 byte per entry for the content-version
-- Be multithreaded, if the user wants this
+It's primary objectives (in no perticular order) are:
 
-We've also made significant progress on the CLI for [vach], [vach-cli],
-which is now finally multithreaded as well!
+- Have a simple, yet complete API.
+- Fine control over each individual entry in an archive, ie neighbouring entries can have vastly different compression schemes.
+- Support compression (with multiple compression schemes), enryption, signatures for data authentication
+- Efficient fetching of data by avoiding unnecessary traversal of the file. Once a file is parsed locations of every entry are known to the loader.
+- Be as compact as possible, the smallest valid archive is only 13 bytes.
+- Each entry has some metadata attached to it, this is implemented using bitflags and up to 8 bits are free to the user.
+- Has mutlithreaded implementations of both the loader and the writer.
 
-You can try [vach] right now by installing [vach-cli]: `cargo install vach-cli`
+A [cli][vach-cli] is available meaning one can use vach as a general purpose archive format. The CLI is fully multithreaded, allowing for insane un/packing speeds. 
 
-If you run into any issues or have suggestions,
-please feel free to open an issue on the [vach] github repository,
-as it really helps us to mature the library and CLI!
+Feel free to drop into the [repo][vach] and open an issue, pull request or drop a star 🌟. It helps maintain momentum in the project.
 
 [vach]: https://github.com/zeskeertwee/vach
-[vach-cli]: https://github.com/zeskeertwee/vach/tree/main/vach-cli
+[vach-cli]: https://crates.io/crates/vach-cli
 [@zeskeertwee]: https://github.com/zeskeertwee
 [@sokorototo]: https://github.com/sokorototo
 
