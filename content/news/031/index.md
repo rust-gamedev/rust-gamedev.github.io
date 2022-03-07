@@ -90,7 +90,7 @@ It's primary objectives (in no perticular order) are:
 - Each entry has some metadata attached to it, this is implemented using bitflags and up to 8 bits are free to the user.
 - Has mutlithreaded implementations of both the loader and the writer.
 
-A [cli][vach-cli] is available meaning one can use vach as a general purpose archive format. The CLI is fully multithreaded, allowing for insane un/packing speeds. 
+A [cli][vach-cli] is allowing one to use vach as a general purpose archive format. The CLI is fully multithreaded, allowing for insane un/packing speeds. 
 
 Feel free to drop into the [repo][vach] and open an issue, pull request or drop a star 🌟. It helps maintain momentum in the project.
 
