@@ -76,6 +76,55 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library Updates
 
+### [Encase]
+
+[Encase] ([docs.rs], [crates.io]) by [@teoxoy] is a new library
+that provides a mechanism to lay out data into GPU buffers
+according to [WGSL's memory layout] rules.
+
+Features
+
+- supports all WGSL [host-shareable types] + wrapper types
+  (`&T`, `&mut T`, `Box<T>`, ...)
+- extensible by design; most traits can be easily implemented
+  for user defined types via macros (see [design])
+- built in support for data types from a multitude of crates
+  (enabled via [features])
+- covers a wide area of use cases (see [examples])
+
+Example
+
+```rust
+use encase::{WgslType, UniformBuffer};
+
+#[derive(WgslType)]
+struct AffineTransform2D {
+    matrix: glam::Mat2,
+    translate: glam::Vec2
+}
+
+let transform = AffineTransform2D {
+    matrix: glam::Mat2::IDENTITY,
+    translate: glam::Vec2::ZERO,
+};
+
+let mut buffer = UniformBuffer::new(Vec::new());
+buffer.write(&transform).unwrap();
+let byte_buffer = buffer.into_inner();
+
+// write byte_buffer to GPU
+```
+
+[Encase]: https://github.com/teoxoy/encase
+[docs.rs]: https://docs.rs/encase/latest/encase
+[crates.io]: https://crates.io/crates/encase
+[@teoxoy]: https://github.com/teoxoy
+[WGSL's memory layout]: https://gpuweb.github.io/gpuweb/wgsl/#memory-layouts
+[host-shareable types]: https://gpuweb.github.io/gpuweb/wgsl/#host-shareable-types
+[design]: https://docs.rs/encase/latest/encase/#design
+[features]: https://docs.rs/crate/encase/latest/features
+[examples]: https://docs.rs/encase/latest/encase/#examples
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
