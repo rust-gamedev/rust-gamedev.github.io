@@ -274,6 +274,36 @@ _Discussions:
 [blackjack-paper]: https://onrendering.com/data/papers/catmark/HalfedgeCatmullClark.pdf
 [blackjack-node-graph-crate]: https://github.com/setzer22/egui_node_graph
 
+### [Graphite][graphite-website]
+
+![Graphite](graphite.png)
+
+Graphite is an in-development raster and vector 2D graphics editor that is free
+and open source. It will be powered by a node graph compositing engine that
+supercharges your layer stack, providing a completely non-destructive editing
+experience.
+
+After officially launching the alpha version last month, work has progressed
+designing the node graph system. Also, the team has spent this month adding
+polish to the application and continuing work on more website content.
+
+A new editor feature is the Gradient tool which makes it possible to add some
+colorful pizzazz. This means that finally all vector editing tools are
+implemented, but some can still use improvement. (Ask how you can help with
+that!) Additional work has gone into visual changes to help aid in clarity and
+discoverability for new users.
+
+Check out the [new website][graphite-website], try the
+[Graphite editor][graphite-live-demo] right now in your browser, star on
+[GitHub][graphite-repo], follow on [Twitter][graphite-twitter], and join the
+[Discord][graphite-discord] to chat or get involved!
+
+[graphite-website]: https://graphite.rs
+[graphite-live-demo]: https://editor.graphite.rs
+[graphite-repo]: https://github.com/GraphiteEditor/Graphite
+[graphite-twitter]: https://twitter.com/GraphiteEditor
+[graphite-discord]: https://discord.graphite.rs
+
 ## Library Updates
 
 ### [vach]
