@@ -79,8 +79,8 @@ _Demo Screenshot_
 
 [@ManevilleF] published a 12 step [course][Bevy Minesweeper] on how to make a
 simple 2D Minesweeper using [bevy][bevy] 0.6.
-A [public repository](https://gitlab.com/qonfucius/minesweeper-tutorial) is
-available, as well as a live [demo](https://qonfucius.gitlab.io/minesweeper-tutorial/).
+A [public repository][bevy_minesweeper_repo] is
+available, as well as a live [demo][bevy_minesweeper_demo].
 
 The tutorial showcases:
 
@@ -92,6 +92,8 @@ The tutorial showcases:
 _Discussions: [Twitter][bevy_minesweeper_twitter], [dev.to][Bevy Minesweeper]_
 
 [Bevy Minesweeper]: https://dev.to/qongzi/bevy-minesweeper-introduction-4l7f
+[bevy_minesweeper_repo]: https://gitlab.com/qonfucius/minesweeper-tutorial
+[bevy_minesweeper_demo]: https://qonfucius.gitlab.io/minesweeper-tutorial/
 [bevy]: https://bevyengine.org
 [@ManevilleF]: https://github.com/ManevilleF
 [bevy_minesweeper_twitter]: https://twitter.com/ManevilleF/status/1495787155280510977?s=20&t=omNFCI2cWgDFNC0MC7NWTg
