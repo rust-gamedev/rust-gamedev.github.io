@@ -91,15 +91,17 @@ source release, several new features have been added:
   spreadsheet panels.
 - Added a subdivision node, with a fast catmull-clark subdivision technique
  based on
- [this recent paper](https://onrendering.com/data/papers/catmark/HalfedgeCatmullClark.pdf)
+ [this recent paper][blackjack-paper]
 - Separated the node graph functionality into
- [its own crate](https://github.com/setzer22/egui_node_graph)
+ [its own crate][blackjack-node-graph-crate]
 
 _Discussions:
 [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/srgd41/your_rusty_procedural_3d_modeler_blackjack_just/),
 [/r/rust](https://www.reddit.com/r/rust/comments/sfqung/media_blackjacks_eguibased_node_graph_now/)_
 
 [Blackjack]: https://github.com/setzer22/blackjack
+[blackjack-paper]: https://onrendering.com/data/papers/catmark/HalfedgeCatmullClark.pdf
+[blackjack-node-graph-crate]: https://github.com/setzer22/egui_node_graph
 
 ## Library Updates
 
