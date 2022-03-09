@@ -345,6 +345,22 @@ to be refactored to be more modular and cleaner.
 [sorokya-twitter]: https://twitter.com/sorokya
 [sorokya-github]: https://github.com/sorokya
 
+### [Godot-Rust to Android without Android Studio][godot-rust-to-android]
+
+![working godot-rust on an android phone](godot-rust-android-via-windows.png)
+_Proof of concept Godot app running on Android_
+
+[@coffeecodechem] published a [blog post][godot-rust-to-android] on how to
+export godot-rust as an Android APK on Windows without using Android Studio. It
+goes beyond the godot-rust book that specifies "steps are tested and confirmed
+to work on Linux only", and details what is needed to make it work on Windows.
+
+The post shows how to set up the JDK and Rust, set up the keystore, and how to
+build the required GDNative libraries.
+
+[@coffeecodechem]: https://twitter.com/coffeecodechem
+[godot-rust-to-android]: https://coffeecodechem.com/2022/02/exporting-godot-rust-android-apk-windows/
+
 ## Tooling Updates
 
 ### [Vismut]
