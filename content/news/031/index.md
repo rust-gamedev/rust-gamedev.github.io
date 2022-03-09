@@ -586,6 +586,22 @@ checking the [online demos].
 [online demos]: https://nazariglez.github.io/notan-web/
 [egui]: https://github.com/emilk/egui
 
+### [bevy_asset_loader]
+
+![Dynamic assets](dynamic-assets.png)
+
+[bevy_asset_loader] by [@nikl_me] is a [Bevy] plugin that aims to reduce boilerplate for asset handling in Bevy apps. 
+
+Last month saw the release of version `0.6` which added support for loading asset configurations from `.ron` files like the one shown above. This allows for resolving asset configurations like their file path or sprite sheet dimensions at run time. The feature is called "dynamic assets" and enables use cases like internationalised assets.
+
+[@nikl_me] wrote a [blog post][dynamic_assets_post] about dynamic assets in
+[bevy_asset_loader]. The post outlines the idea of the feature and describes current and planned functionality.
+
+[dynamic_assets_post]: https://www.nikl.me/blog/2022/dynamic-assets-in-bevy_asset_loader/
+[bevy_asset_loader]: https://github.com/NiklasEi/bevy_asset_loader
+[bevy]: https://github.com/bevyengine/bevy
+[@nikl_me]: https://twitter.com/nikl_me
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
