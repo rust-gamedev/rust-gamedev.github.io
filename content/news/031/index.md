@@ -31,6 +31,7 @@ Feel free to send PRs about your own projects!
 [Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
+- [Bevy Jam](#bevy-jam-1)
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
@@ -65,6 +66,25 @@ _Discussions:
 
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
+
+## [Bevy Jam #1][bevy-jam]
+
+![Bevy Jam](bevy-jam.png)
+
+The first ever [Bevy Jam][bevy-jam] just finished! Bevy Jam is a week long event,
+where the goal is to make a game in [Bevy Engine][bevy-engine], the free and open-source
+game engine built in Rust.
+
+The theme was Unfair Advantage. 431 people joined the jam and 75 teams submitted
+entries. A ten day "voting period" has started, which will end on March 14th.
+[Anyone can play and vote on the submissions][bevy-jam-submissions].
+
+The winning team will receive any two items from the [Bevy Merch][bevy-merch] store.
+
+[bevy-jam]: https://itch.io/jam/bevy-jam-1/
+[bevy-jam-submissions]: https://itch.io/jam/bevy-jam-1/entries
+[bevy-engine]: https://bevyengine.org/
+[bevy-merch]: https://merch.bevyengine.org/
 
 ## Game Updates
 
