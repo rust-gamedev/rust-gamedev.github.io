@@ -208,6 +208,50 @@ check out its gameplay on [youtube][youtube-molecoole], or on the Steam page.
 [youtube-molecoole]: https://www.youtube.com/watch?v=bwbVplq03ew
 [bevy-engine]: https://github.com/bevyengine/bevy
 
+### [Veloren][veloren]
+
+![Gnarling looking out over a fort](veloren.jpg)
+_Looking out over the Gnarling fort_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In February, [Veloren 0.12 was released][veloren-012-release-blog]. For the
+release, a [trailer with some of the changes][veloren-012-release-trailer] was
+posted. This release was 5 months in the making, so the changelog is quite
+large. During the release party, the official server reached a cap of 195
+players online at once, which is another record for Veloren. Changes were made
+to allow server owners to more easily handle IPv4 and IPv6 connections.
+Improvements were also made to trading price calculations to properly normalize
+loot tables.
+
+Two Veloren Reading Clubs were held in February. [The first
+one][veloren-reading-club-5] explored using Git to contribute, and how to add
+some new NPC characters. [The second one][veloren-reading-club-6] explored how
+some of Git's more intricate features worked, as well as how economy simulations
+are done. Work was done to allow species to defend others of the same species,
+to allow for more realistic combat in the wild. A [Mastodon
+page][veloren-mastodon] was also created for Veloren. Gnarlings forts were also
+added, which adds a whole new area for players to fight in.
+
+February's full weekly devlogs: "This Week In Veloren...":
+[#158][veloren-158],
+[#159][veloren-159],
+[#160][veloren-160],
+[#161][veloren-161].
+
+[veloren]: https://veloren.net
+[veloren-mastodon]: https://mastodon.technology/@veloren
+[veloren-012-release-blog]: https://veloren.net/release-0-12/
+[veloren-012-release-trailer]: https://www.youtube.com/watch?v=604JC5QdYQE
+[veloren-reading-club-5]: https://www.youtube.com/watch?v=f9PXtKEwedQ
+[veloren-reading-club-6]: https://www.youtube.com/watch?v=MbiLZvuBLzc
+
+[veloren-158]: https://veloren.net/devblog-158
+[veloren-159]: https://veloren.net/devblog-159
+[veloren-160]: https://veloren.net/devblog-160
+[veloren-161]: https://veloren.net/devblog-161
+
 ## Engine Updates
 
 ## Learning Material Updates
