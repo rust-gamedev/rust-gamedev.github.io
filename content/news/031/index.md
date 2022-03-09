@@ -218,6 +218,16 @@ _Discussions: [Twitter][bevy_minesweeper_twitter], [dev.to][Bevy Minesweeper]_
 [@ManevilleF]: https://github.com/ManevilleF
 [bevy_minesweeper_twitter]: https://twitter.com/ManevilleF/status/1495787155280510977?s=20&t=omNFCI2cWgDFNC0MC7NWTg
 
+### [Supercharging your Web with Rust and Bevy]
+
+Bruno Lipovac [released a blog post][Supercharging your Web with Rust and Bevy]
+that detailed building 3D applications for use on the web with Bevy. It walks
+through setting up a Bevy project, and importing some models. It also details
+some more fine-detail items, such as lighting and sky. It then shows how to
+compile the project and serve it.
+
+[Supercharging your Web with Rust and Bevy]: https://www.barrage.net/blog/technology/how-to-supercharge-your-web-with-3d-capabilities-by
+
 ## Tooling Updates
 
 ### [Vismut]
