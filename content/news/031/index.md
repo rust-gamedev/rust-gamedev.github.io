@@ -31,6 +31,8 @@ Feel free to send PRs about your own projects!
 [Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
+- [Bevy Jam](#bevy-jam-1)
+- [Rust GameDev Meetup](#rust-gamedev-meetup)
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
@@ -65,6 +67,41 @@ _Discussions:
 
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
+
+## [Bevy Jam #1][bevy-jam]
+
+![Bevy Jam](bevy-jam.png)
+
+The first ever [Bevy Jam][bevy-jam] just finished! Bevy Jam is a week long event,
+where the goal is to make a game in [Bevy Engine][bevy-engine], the free and open-source
+game engine built in Rust.
+
+The theme was Unfair Advantage. 431 people joined the jam and 75 teams submitted
+entries. A ten day "voting period" has started, which will end on March 14th.
+[Anyone can play and vote on the submissions][bevy-jam-submissions].
+
+The winning team will receive any two items from the [Bevy Merch][bevy-merch] store.
+
+[bevy-jam]: https://itch.io/jam/bevy-jam-1/
+[bevy-jam-submissions]: https://itch.io/jam/bevy-jam-1/entries
+[bevy-engine]: https://bevyengine.org/
+[bevy-merch]: https://merch.bevyengine.org/
+
+## Rust GameDev Meetup
+
+![Gamedev meetup poster](gamedev-meetup.png)
+
+The 13th Rust Gamedev Meetup took place in in February. You can watch the
+recording of the meetup [here on Youtube][gamedev-meetup-video]. The meetups
+take place on the second Saturday every month via the [Rust Gamedev Discord
+server][rust-gamedev-discord] and are also [streamed on
+Twitch][rust-gamedev-twitch].
+
+[gamedev-meetup-video]: https://youtu.be/adt63Gqt6yA
+[rust-gamedev-discord]: https://discord.gg/yNtPTb2
+[rust-gamedev-twitch]: https://twitch.tv/rustgamedev
+[gamedev-meetup-form]: https://forms.gle/BS1zCyZaiUFSUHxe6
+[rust-meetup-feb-time]: https://everytimezone.com/s/c1b2eb7b
 
 ## Game Updates
 
@@ -188,7 +225,70 @@ check out its gameplay on [youtube][youtube-molecoole], or on the Steam page.
 [youtube-molecoole]: https://www.youtube.com/watch?v=bwbVplq03ew
 [bevy-engine]: https://github.com/bevyengine/bevy
 
+### [Veloren][veloren]
+
+![Gnarling looking out over a fort](veloren.jpg)
+_Looking out over the Gnarling fort_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In February, [Veloren 0.12 was released][veloren-012-release-blog]. For the
+release, a [trailer with some of the changes][veloren-012-release-trailer] was
+posted. This release was 5 months in the making, so the changelog is quite
+large. During the release party, the official server reached a cap of 195
+players online at once, which is another record for Veloren. Changes were made
+to allow server owners to more easily handle IPv4 and IPv6 connections.
+Improvements were also made to trading price calculations to properly normalize
+loot tables.
+
+Two Veloren Reading Clubs were held in February. [The first
+one][veloren-reading-club-5] explored using Git to contribute, and how to add
+some new NPC characters. [The second one][veloren-reading-club-6] explored how
+some of Git's more intricate features worked, as well as how economy simulations
+are done. Work was done to allow species to defend others of the same species,
+to allow for more realistic combat in the wild. A [Mastodon
+page][veloren-mastodon] was also created for Veloren. Gnarlings forts were also
+added, which adds a whole new area for players to fight in.
+
+February's full weekly devlogs: "This Week In Veloren...":
+[#158][veloren-158],
+[#159][veloren-159],
+[#160][veloren-160],
+[#161][veloren-161].
+
+[veloren]: https://veloren.net
+[veloren-mastodon]: https://mastodon.technology/@veloren
+[veloren-012-release-blog]: https://veloren.net/release-0-12/
+[veloren-012-release-trailer]: https://www.youtube.com/watch?v=604JC5QdYQE
+[veloren-reading-club-5]: https://www.youtube.com/watch?v=f9PXtKEwedQ
+[veloren-reading-club-6]: https://www.youtube.com/watch?v=MbiLZvuBLzc
+
+[veloren-158]: https://veloren.net/devblog-158
+[veloren-159]: https://veloren.net/devblog-159
+[veloren-160]: https://veloren.net/devblog-160
+[veloren-161]: https://veloren.net/devblog-161
+
 ## Engine Updates
+
+### [DIMS]
+
+[![dims screenshot](dims.jpg)][DIMS-first-look]
+
+@jfnoren ([Twitter][@jfnoren-twitter], [Github][@jfnoren-github]) posted a
+[video][DIMS-first-look] about a first look into their engine, DIMS. DIMS allows
+you to create open worlds, script gameplay, and mess around with physics. DIMS
+has been in the works for several months, but you can now sign up for early
+access on [their website][DIMS].
+
+_Discussions: [Reddit][DIMS-reddit-discussion], [Twitter][DIMS-twitter-discussion]_
+
+[@jfnoren-twitter]: https://twitter.com/jfnoren
+[@jfnoren-github]: https://github.com/FredrikNoren
+[DIMS]: https://www.dims.co/
+[DIMS-first-look]: https://www.youtube.com/watch?v=58HS-PN71Mw
+[DIMS-reddit-discussion]: https://www.reddit.com/r/rust_gamedev/comments/snhi5u/some_months_into_building_and_wed_never_have/
+[DIMS-twitter-discussion]: https://twitter.com/jfnoren/status/1491077331850776576
 
 ## Learning Material Updates
 
@@ -217,6 +317,33 @@ _Discussions: [Twitter][bevy_minesweeper_twitter], [dev.to][Bevy Minesweeper]_
 [bevy]: https://bevyengine.org
 [@ManevilleF]: https://github.com/ManevilleF
 [bevy_minesweeper_twitter]: https://twitter.com/ManevilleF/status/1495787155280510977?s=20&t=omNFCI2cWgDFNC0MC7NWTg
+
+### [Computing image filters with wgpu-rs]
+
+[@Redwarp] posted a [blog post][Computing image filters with wgpu-rs] that goes
+through the process of creating a simple image processing pipeline with compute
+shaders, using wgpu-rs. The post takes you through several steps in this
+process:
+
+- Wgpu basics
+- Loading a texture
+- A simple shader
+- Bind group
+- Workgroup and dispatch
+
+[Computing image filters with wgpu-rs]: https://blog.redwarp.app/image-filters/
+[@Redwarp]: https://twitter.com/redwarp
+
+### [Actor Pattern with Async Rust]
+
+@Sorokya ([Twitter][sorokya-twitter], [Github][sorokya-github]) [published a blog
+post][Actor Pattern with Async Rust] about how they improved their game server
+by switching over to an actor pattern approach. This method allowed the server
+to be refactored to be more modular and cleaner.
+
+[Actor Pattern with Async Rust]: https://eo-rs.dev/blog/the-actor-pattern-with-async-rust/
+[sorokya-twitter]: https://twitter.com/sorokya
+[sorokya-github]: https://github.com/sorokya
 
 ### [Godot-Rust to Android without Android Studio][godot-rust-to-android]
 
@@ -289,6 +416,36 @@ _Discussions:
 [Blackjack]: https://github.com/setzer22/blackjack
 [blackjack-paper]: https://onrendering.com/data/papers/catmark/HalfedgeCatmullClark.pdf
 [blackjack-node-graph-crate]: https://github.com/setzer22/egui_node_graph
+
+### [Graphite][graphite-website]
+
+![Graphite](graphite.png)
+
+Graphite is an in-development raster and vector 2D graphics editor that is free
+and open source. It will be powered by a node graph compositing engine that
+supercharges your layer stack, providing a completely non-destructive editing
+experience.
+
+After officially launching the alpha version last month, work has progressed
+designing the node graph system. Also, the team has spent this month adding
+polish to the application and continuing work on more website content.
+
+A new editor feature is the Gradient tool which makes it possible to add some
+colorful pizzazz. This means that finally all vector editing tools are
+implemented, but some can still use improvement. (Ask how you can help with
+that!) Additional work has gone into visual changes to help aid in clarity and
+discoverability for new users.
+
+Check out the [new website][graphite-website], try the
+[Graphite editor][graphite-live-demo] right now in your browser, star on
+[GitHub][graphite-repo], follow on [Twitter][graphite-twitter], and join the
+[Discord][graphite-discord] to chat or get involved!
+
+[graphite-website]: https://graphite.rs
+[graphite-live-demo]: https://editor.graphite.rs
+[graphite-repo]: https://github.com/GraphiteEditor/Graphite
+[graphite-twitter]: https://twitter.com/GraphiteEditor
+[graphite-discord]: https://discord.graphite.rs
 
 ## Library Updates
 
@@ -412,7 +569,7 @@ This first version comes with windowing, input and rendering support on MacOS,
 Linux, Windows and Web. Behind feature flags you can use a fast 2D renderer,
 text rendering, and [egui] integration.  
 
-You can try [Notan] by installing it via cargo: `cargo install notan` or
+You can try [Notan] by adding it to your `Cargo.toml` -> `notan = "0.1.0"` or
 checking the [online demos].
 
 [Notan]: https://github.com/Nazariglez/notan
