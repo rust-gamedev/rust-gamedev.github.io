@@ -218,6 +218,22 @@ _Discussions: [Twitter][bevy_minesweeper_twitter], [dev.to][Bevy Minesweeper]_
 [@ManevilleF]: https://github.com/ManevilleF
 [bevy_minesweeper_twitter]: https://twitter.com/ManevilleF/status/1495787155280510977?s=20&t=omNFCI2cWgDFNC0MC7NWTg
 
+## [Computing image filters with wgpu-rs]
+
+[@Redwarp] posted a [blog post][Computing image filters with wgpu-rs] that goes
+through the process of creating a simple image processing pipeline with compute
+shaders, using wgpu-rs. The post takes you through several steps in this
+process:
+
+- Wgpu basics
+- Loading a texture
+- A simple shader
+- Bind group
+- Workgroup and dispatch
+
+[Computing image filters with wgpu-rs]: https://blog.redwarp.app/image-filters/
+[@Redwarp]: https://twitter.com/redwarp
+
 ## Tooling Updates
 
 ### [Vismut]
