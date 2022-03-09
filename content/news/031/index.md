@@ -31,6 +31,7 @@ Feel free to send PRs about your own projects!
 [Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
+- [Bevy Jam](#bevy-jam-1)
 - [Rust GameDev Meetup](#rust-gamedev-meetup)
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
@@ -66,6 +67,25 @@ _Discussions:
 
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
+
+## [Bevy Jam #1][bevy-jam]
+
+![Bevy Jam](bevy-jam.png)
+
+The first ever [Bevy Jam][bevy-jam] just finished! Bevy Jam is a week long event,
+where the goal is to make a game in [Bevy Engine][bevy-engine], the free and open-source
+game engine built in Rust.
+
+The theme was Unfair Advantage. 431 people joined the jam and 75 teams submitted
+entries. A ten day "voting period" has started, which will end on March 14th.
+[Anyone can play and vote on the submissions][bevy-jam-submissions].
+
+The winning team will receive any two items from the [Bevy Merch][bevy-merch] store.
+
+[bevy-jam]: https://itch.io/jam/bevy-jam-1/
+[bevy-jam-submissions]: https://itch.io/jam/bevy-jam-1/entries
+[bevy-engine]: https://bevyengine.org/
+[bevy-merch]: https://merch.bevyengine.org/
 
 ## Rust GameDev Meetup
 
@@ -165,9 +185,119 @@ The latest release:
 [Weegames]: https://yeahross.itch.io/weegames
 [quad-storage]: https://crates.io/crates/quad-storage
 
+### [Dis-order]
+
+![Screenshot of Dis-order](dis-order.png)
+
+Dis-order by [@jkhelsing] is a short sokoban-esque puzzle game made in 72 hours
+for MiniJam 100. In Dis-order you're making chaos instead of order, you win when
+there are are no patterns or order in the level.
+
+It's made using [Bevy][dis-order-bevy] and uses [bevy_smud][bevy_smud] for shape
+rendering, and a compute pass for the [particle
+effects][dis-order-particle-effects]. The levels are made with ldtk and loaded
+using [bevy_ecs_ldtk][bevy_ecs_ldtk]. Read more about this in the
+[post-mortem][dis-order-post-mortem].
+
+[Download the game on itch.io][Dis-order].
+
+[Dis-order]: https://jhelsing.itch.io/dis-order
+[bevy_smud]: https://github.com/johanhelsing/bevy_smud
+[dis-order-bevy]: https://bevyengine.org
+[bevy_ecs_ldtk]: https://github.com/Trouv/bevy_ecs_ldtk
+[dis-order-post-mortem]: https://johanhelsing.studio/posts/dis-order
+[dis-order-particle-effects]: https://twitter.com/jkhelsing/status/1495604656164282374
+[@jkhelsing]: https://twitter.com/jkhelsing
+
+### [Molecoole][molecoole-steam]
+
+[![A molecoole and some enemies](molecoole.png)][molecoole-steam]
+
+Molecoole is a top-down shooter roguelike where you build your character from
+different atoms. Each atom has a unique ability to provide tons of variety
+between playthroughs. It's made using the [Bevy Engine][bevy-engine].
+
+This month Molecoole launched on [Steam][molecoole-steam], making it the first
+game made with Bevy Engine there! It's available on Windows and Linux. You can
+check out its gameplay on [youtube][youtube-molecoole], or on the Steam page.
+
+[molecoole-steam]: https://store.steampowered.com/app/1792170/Molecoole/
+[youtube-molecoole]: https://www.youtube.com/watch?v=bwbVplq03ew
+[bevy-engine]: https://github.com/bevyengine/bevy
+
+### [Veloren][veloren]
+
+![Gnarling looking out over a fort](veloren.jpg)
+_Looking out over the Gnarling fort_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In February, [Veloren 0.12 was released][veloren-012-release-blog]. For the
+release, a [trailer with some of the changes][veloren-012-release-trailer] was
+posted. This release was 5 months in the making, so the changelog is quite
+large. During the release party, the official server reached a cap of 195
+players online at once, which is another record for Veloren. Changes were made
+to allow server owners to more easily handle IPv4 and IPv6 connections.
+Improvements were also made to trading price calculations to properly normalize
+loot tables.
+
+Two Veloren Reading Clubs were held in February. [The first
+one][veloren-reading-club-5] explored using Git to contribute, and how to add
+some new NPC characters. [The second one][veloren-reading-club-6] explored how
+some of Git's more intricate features worked, as well as how economy simulations
+are done. Work was done to allow species to defend others of the same species,
+to allow for more realistic combat in the wild. A [Mastodon
+page][veloren-mastodon] was also created for Veloren. Gnarlings forts were also
+added, which adds a whole new area for players to fight in.
+
+February's full weekly devlogs: "This Week In Veloren...":
+[#158][veloren-158],
+[#159][veloren-159],
+[#160][veloren-160],
+[#161][veloren-161].
+
+[veloren]: https://veloren.net
+[veloren-mastodon]: https://mastodon.technology/@veloren
+[veloren-012-release-blog]: https://veloren.net/release-0-12/
+[veloren-012-release-trailer]: https://www.youtube.com/watch?v=604JC5QdYQE
+[veloren-reading-club-5]: https://www.youtube.com/watch?v=f9PXtKEwedQ
+[veloren-reading-club-6]: https://www.youtube.com/watch?v=MbiLZvuBLzc
+
+[veloren-158]: https://veloren.net/devblog-158
+[veloren-159]: https://veloren.net/devblog-159
+[veloren-160]: https://veloren.net/devblog-160
+[veloren-161]: https://veloren.net/devblog-161
+
 ## Engine Updates
 
 ## Learning Material Updates
+
+### [Bevy Minesweeper]
+
+![screenshot](bevy_minesweeper.png)
+_Demo Screenshot_
+
+[@ManevilleF] published a 12 step [course][Bevy Minesweeper] on how to make a
+simple 2D Minesweeper using [bevy][bevy] 0.6.
+A [public repository][bevy_minesweeper_repo] is
+available, as well as a live [demo][bevy_minesweeper_demo].
+
+The tutorial showcases:
+
+- essential features of the [bevy][bevy] engine
+- important ECS notions for beginners
+- WASM build
+- and soon, android native apk build
+
+_Discussions: [Twitter][bevy_minesweeper_twitter], [dev.to][Bevy Minesweeper]_
+
+[Bevy Minesweeper]: https://dev.to/qongzi/bevy-minesweeper-introduction-4l7f
+[bevy_minesweeper_repo]: https://gitlab.com/qonfucius/minesweeper-tutorial
+[bevy_minesweeper_demo]: https://qonfucius.gitlab.io/minesweeper-tutorial/
+[bevy]: https://bevyengine.org
+[@ManevilleF]: https://github.com/ManevilleF
+[bevy_minesweeper_twitter]: https://twitter.com/ManevilleF/status/1495787155280510977?s=20&t=omNFCI2cWgDFNC0MC7NWTg
 
 ## Tooling Updates
 
@@ -195,6 +325,65 @@ on the author's blog for more information.
 [Vismut @lukors]: https://gitlab.com/lukors
 [Vismut v0.4.0]: https://gitlab.com/vismut-org/vismut/-/releases/v0.4.0
 [Vismut Introduction]: https://orsvarn.com/introducing-vismut/
+
+### [Blackjack]
+
+![Blackjack: Showcase of the new catmull-clark subdivision](blackjack.gif)
+
+[Blackjack] by @setzer22 is a new procedural modeling application made in Rust,
+using rend3, wgpu and egui. It follows the steps of applications like
+Houdini, or Blender's geometry nodes project and provides a node-based
+environment to compose procedural recipes to create 3d models.
+
+The last two months have been quite busy for Blackjack. After an initial open
+source release, several new features have been added:
+
+- Added a resizeable viewport system, with node graph pan and zoom.
+- Built an initial implementation for a properties inspector and geometry
+  spreadsheet panels.
+- Added a subdivision node, with a fast catmull-clark subdivision technique
+ based on
+ [this recent paper][blackjack-paper]
+- Separated the node graph functionality into
+ [its own crate][blackjack-node-graph-crate]
+
+_Discussions:
+[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/srgd41/your_rusty_procedural_3d_modeler_blackjack_just/),
+[/r/rust](https://www.reddit.com/r/rust/comments/sfqung/media_blackjacks_eguibased_node_graph_now/)_
+
+[Blackjack]: https://github.com/setzer22/blackjack
+[blackjack-paper]: https://onrendering.com/data/papers/catmark/HalfedgeCatmullClark.pdf
+[blackjack-node-graph-crate]: https://github.com/setzer22/egui_node_graph
+
+### [Graphite][graphite-website]
+
+![Graphite](graphite.png)
+
+Graphite is an in-development raster and vector 2D graphics editor that is free
+and open source. It will be powered by a node graph compositing engine that
+supercharges your layer stack, providing a completely non-destructive editing
+experience.
+
+After officially launching the alpha version last month, work has progressed
+designing the node graph system. Also, the team has spent this month adding
+polish to the application and continuing work on more website content.
+
+A new editor feature is the Gradient tool which makes it possible to add some
+colorful pizzazz. This means that finally all vector editing tools are
+implemented, but some can still use improvement. (Ask how you can help with
+that!) Additional work has gone into visual changes to help aid in clarity and
+discoverability for new users.
+
+Check out the [new website][graphite-website], try the
+[Graphite editor][graphite-live-demo] right now in your browser, star on
+[GitHub][graphite-repo], follow on [Twitter][graphite-twitter], and join the
+[Discord][graphite-discord] to chat or get involved!
+
+[graphite-website]: https://graphite.rs
+[graphite-live-demo]: https://editor.graphite.rs
+[graphite-repo]: https://github.com/GraphiteEditor/Graphite
+[graphite-twitter]: https://twitter.com/GraphiteEditor
+[graphite-discord]: https://discord.graphite.rs
 
 ## Library Updates
 
@@ -299,6 +488,31 @@ let byte_buffer = buffer.into_inner();
 [design]: https://docs.rs/encase/latest/encase/#design
 [features]: https://docs.rs/crate/encase/latest/features
 [examples]: https://docs.rs/encase/latest/encase/#examples
+
+### [Notan]
+
+![Notan](notan.png)
+
+The first version of [Notan] was released.
+[Notan] aims to be a simple and portable multimedia layer, designed to make
+your own multimedia app on top of it without worrying too much about
+platform-specific code.
+
+The main goal is to provide a set of APIs and tools that can be used to create
+your project in an ergonomic manner without enforcing any structure or pattern,
+always trying to stay out of your way. The idea is that you can use it as a
+foundation layer or backend for your next app, game engine or game.
+
+This first version comes with windowing, input and rendering support on MacOS,
+Linux, Windows and Web. Behind feature flags you can use a fast 2D renderer,
+text rendering, and [egui] integration.  
+
+You can try [Notan] by adding it to your `Cargo.toml` -> `notan = "0.1.0"` or
+checking the [online demos].
+
+[Notan]: https://github.com/Nazariglez/notan
+[online demos]: https://nazariglez.github.io/notan-web/
+[egui]: https://github.com/emilk/egui
 
 ## Popular Workgroup Issues in Github
 
