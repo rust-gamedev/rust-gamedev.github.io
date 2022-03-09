@@ -218,6 +218,22 @@ _Discussions: [Twitter][bevy_minesweeper_twitter], [dev.to][Bevy Minesweeper]_
 [@ManevilleF]: https://github.com/ManevilleF
 [bevy_minesweeper_twitter]: https://twitter.com/ManevilleF/status/1495787155280510977?s=20&t=omNFCI2cWgDFNC0MC7NWTg
 
+### [Godot-Rust to Android without Android Studio][godot-rust-to-android]
+
+![working godot-rust on an android phone](godot-rust-android-via-windows.png)
+_Proof of concept Godot app running on Android_
+
+[@coffeecodechem] published a [blog post][godot-rust-to-android] on how to
+export godot-rust as an Android APK on Windows without using Android Studio. It
+goes beyond the godot-rust book that specifies "steps are tested and confirmed
+to work on Linux only", and details what is needed to make it work on Windows.
+
+The post shows how to set up the JDK and Rust, set up the keystore, and how to
+build the required GDNative libraries.
+
+[@coffeecodechem]: https://twitter.com/coffeecodechem
+[godot-rust-to-android]: https://coffeecodechem.com/2022/02/exporting-godot-rust-android-apk-windows/
+
 ## Tooling Updates
 
 ### [Vismut]
