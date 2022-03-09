@@ -220,7 +220,7 @@ _Discussions: [Twitter][bevy_minesweeper_twitter], [dev.to][Bevy Minesweeper]_
 
 ### [Actor Pattern with Async Rust]
 
-@Sorokya ([twitter][sorokya-twitter], [github][sorokya-github]) [published a blog
+@Sorokya ([Twitter][sorokya-twitter], [Github][sorokya-github]) [published a blog
 post][Actor Pattern with Async Rust] about how they improved their game server
 by switching over to an actor pattern approach. This method allowed the server
 to be refactored to be more modular and cleaner.
