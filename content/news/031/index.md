@@ -190,6 +190,25 @@ check out its gameplay on [youtube][youtube-molecoole], or on the Steam page.
 
 ## Engine Updates
 
+### [DIMS]
+
+[![dims screenshot](dims.jpg)][DIMS-first-look]
+
+@jfnoren ([Twitter][@jfnoren-twitter], [Github][@jfnoren-github]) posted a
+[video][DIMS-first-look] about a first look into their engine, DIMS. DIMS allows
+you to create open worlds, script gameplay, and mess around with physics. DIMS
+has been in the works for several months, but you can now sign up for early
+access on [their website][DIMS].
+
+_Discussions: [Reddit][DIMS-reddit-discussion], [Twitter][DIMS-twitter-discussion]_
+
+[@jfnoren-twitter]: https://twitter.com/jfnoren
+[@jfnoren-github]: https://github.com/FredrikNoren
+[DIMS]: https://www.dims.co/
+[DIMS-first-look]: https://www.youtube.com/watch?v=58HS-PN71Mw
+[DIMS-reddit-discussion]: https://www.reddit.com/r/rust_gamedev/comments/snhi5u/some_months_into_building_and_wed_never_have/
+[DIMS-twitter-discussion]: https://twitter.com/jfnoren/status/1491077331850776576
+
 ## Learning Material Updates
 
 ### [Bevy Minesweeper]
