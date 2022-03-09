@@ -446,7 +446,7 @@ This first version comes with windowing, input and rendering support on MacOS,
 Linux, Windows and Web. Behind feature flags you can use a fast 2D renderer,
 text rendering, and [egui] integration.  
 
-You can try [Notan] by installing it via cargo: `cargo install notan` or
+You can try [Notan] by adding it to your `Cargo.toml` -> `notan = "0.1.0"` or
 checking the [online demos].
 
 [Notan]: https://github.com/Nazariglez/notan
