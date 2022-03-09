@@ -218,6 +218,17 @@ _Discussions: [Twitter][bevy_minesweeper_twitter], [dev.to][Bevy Minesweeper]_
 [@ManevilleF]: https://github.com/ManevilleF
 [bevy_minesweeper_twitter]: https://twitter.com/ManevilleF/status/1495787155280510977?s=20&t=omNFCI2cWgDFNC0MC7NWTg
 
+### [Actor Pattern with Async Rust]
+
+@Sorokya ([twitter][sorokya-twitter], [github][sorokya-github]) [published a blog
+post][Actor Pattern with Async Rust] about how they improved their game server
+by switching over to an actor pattern approach. This method allowed the server
+to be refactored to be more modular and cleaner.
+
+[Actor Pattern with Async Rust]: https://eo-rs.dev/blog/the-actor-pattern-with-async-rust/
+[sorokya-twitter]: https://twitter.com/sorokya
+[sorokya-github]: https://github.com/sorokya
+
 ## Tooling Updates
 
 ### [Vismut]
