@@ -38,12 +38,10 @@ Feel free to send PRs about your own projects!
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
 - [Other News](#other-news)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
-- [Meeting Minutes](#meeting-minutes)
+- [Popular Workgroup Issues and Discussions](#popular-workgroup-issues-and-discussions)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
 - [Jobs](#jobs)
-- [Bonus](#bonus)
 
 <!--
 Ideal section structure is:
@@ -607,9 +605,16 @@ current and planned functionality.
 [Bevy]: https://github.com/bevyengine/bevy
 [@nikl_me]: https://twitter.com/nikl_me
 
-## Popular Workgroup Issues in Github
+## Popular Workgroup Issues and Discussions
 
 <!-- Up to 10 links to interesting issues -->
+- [#121 Rust Gamedev Showcase]
+- [#122 Length of meetups]
+- [#119 Engine benchmark repo]
+
+[#121 Rust Gamedev Showcase]: https://github.com/rust-gamedev/wg/discussions/121
+[#122 Length of meetups]: https://github.com/rust-gamedev/wg/discussions/122
+[#119 Engine benchmark repo]: https://github.com/rust-gamedev/wg/discussions/119
 
 ## Other News
 
