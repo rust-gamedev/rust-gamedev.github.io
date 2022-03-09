@@ -334,6 +334,17 @@ process:
 [Computing image filters with wgpu-rs]: https://blog.redwarp.app/image-filters/
 [@Redwarp]: https://twitter.com/redwarp
 
+### [Actor Pattern with Async Rust]
+
+@Sorokya ([Twitter][sorokya-twitter], [Github][sorokya-github]) [published a blog
+post][Actor Pattern with Async Rust] about how they improved their game server
+by switching over to an actor pattern approach. This method allowed the server
+to be refactored to be more modular and cleaner.
+
+[Actor Pattern with Async Rust]: https://eo-rs.dev/blog/the-actor-pattern-with-async-rust/
+[sorokya-twitter]: https://twitter.com/sorokya
+[sorokya-github]: https://github.com/sorokya
+
 ## Tooling Updates
 
 ### [Vismut]
