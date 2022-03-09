@@ -599,7 +599,7 @@ Last month saw the release of version `0.6` which added support for loading asse
 
 [dynamic_assets_post]: https://www.nikl.me/blog/2022/dynamic-assets-in-bevy_asset_loader/
 [bevy_asset_loader]: https://github.com/NiklasEi/bevy_asset_loader
-[bevy]: https://github.com/bevyengine/bevy
+[Bevy]: https://github.com/bevyengine/bevy
 [@nikl_me]: https://twitter.com/nikl_me
 
 ## Popular Workgroup Issues in Github
