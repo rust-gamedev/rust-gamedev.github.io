@@ -32,6 +32,7 @@ Feel free to send PRs about your own projects!
 
 - [Bevy Jam](#bevy-jam-1)
 - [Rust GameDev Meetup](#rust-gamedev-meetup)
+- [Rust GameDev Showcase](#rust-gamedev-showcase)
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
@@ -98,6 +99,18 @@ Twitch][rust-gamedev-twitch].
 [rust-gamedev-twitch]: https://twitch.tv/rustgamedev
 [gamedev-meetup-form]: https://forms.gle/BS1zCyZaiUFSUHxe6
 [rust-meetup-feb-time]: https://everytimezone.com/s/c1b2eb7b
+
+## Rust GameDev Showcase
+
+The Rust Gamedev Working Group is working on a showcase of games made in Rust!
+If you're interested in submitting your own footage, fill out [this
+form][showcase-form]. You can also read more about the process of creating the
+showcase in the [showcase discussion on Github][showcase-discussion]. The
+deadline for submissions has been extended until the 19th of February. Hope to
+see your game in there!
+
+[showcase-form]: https://docs.google.com/forms/d/1MpA7J9BFXAgoCJZJrxi8r4sqzhhYCzCtFo5kXGVOZj4/edit
+[showcase-discussion]: https://github.com/rust-gamedev/wg/discussions/121
 
 ## Game Updates
 
