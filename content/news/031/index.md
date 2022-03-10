@@ -646,7 +646,7 @@ useful information -->
   - [vange-rs] published a blog post about using Emscripten with Rust.
   - [makiomino.fun] introduced a new level-up animation.
   - [country-slice] added shadows and the ability to adjust wall height.
-  - [flesh] the mid-boss has a new animation.
+  - [flesh] has a new animation for the mid-boss.
   - [Rustenstein 3D: Game programming like it's 1992] is an article walking
     through creating a Wolfenstein-like game in Rust.
   - [Making a 3D Super Munchers Clone with Bevy] is a video walkthrough of
