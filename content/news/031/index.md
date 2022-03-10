@@ -183,7 +183,7 @@ The latest release:
 
 ### [Dis-order]
 
-![Screenshot of Dis-order](dis-order.png)
+![Screenshot of Dis-order](dis-order.jpg)
 
 Dis-order by [@jkhelsing] is a short sokoban-esque puzzle game made in 72 hours
 for MiniJam 100. In Dis-order you're making chaos instead of order, you win when
