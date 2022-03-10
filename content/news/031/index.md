@@ -69,12 +69,12 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ![Bevy Jam](bevy-jam.png)
 
-The first ever [Bevy Jam][bevy-jam] just finished! Bevy Jam is a week long event,
+The first-ever [Bevy Jam][bevy-jam] just finished! Bevy Jam is a week-long event,
 where the goal is to make a game in [Bevy Engine][bevy-engine], the free and open-source
 game engine built in Rust.
 
 The theme was Unfair Advantage. 431 people joined the jam and 75 teams submitted
-entries. A ten day "voting period" has started, which will end on March 14th.
+entries. A ten-day "voting period" has started, which will end on March 14th.
 [Anyone can play and vote on the submissions][bevy-jam-submissions].
 
 The winning team will receive any two items from the [Bevy Merch][bevy-merch] store.
@@ -88,7 +88,7 @@ The winning team will receive any two items from the [Bevy Merch][bevy-merch] st
 
 ![Gamedev meetup poster](gamedev-meetup.png)
 
-The 13th Rust Gamedev Meetup took place in in February. You can watch the
+The 13th Rust Gamedev Meetup took place in February. You can watch the
 recording of the meetup [here on Youtube][gamedev-meetup-video]. The meetups
 take place on the second Saturday every month via the [Rust Gamedev Discord
 server][rust-gamedev-discord] and are also [streamed on
@@ -110,11 +110,11 @@ _The player orders a selection of blocks to be broken, and a brick wall to be
 built._
 
 [Name Needed][name-needed] by [@DomWilliams0][domwilliams-github] is a one-man
-effort to produce an open source, intuitive and high performance Dwarf
+effort to produce an open source, intuitive, and high-performance Dwarf
 Fortress-esque game with a custom engine.
 
 Recent progress has been on procedural terrain generation, the player UI, item
-stacks and build jobs. A major refactor of the AI system integrated Rust's
+stacks, and build jobs. A major refactor of the AI system integrated Rust's
 superb `async`/`await` support, which is documented in the most recent devlog.
 
 - [Devlog #5: voxel world goals][name-needed-devlog5]
@@ -188,7 +188,7 @@ The latest release:
 
 Dis-order by [@jkhelsing] is a short sokoban-esque puzzle game made in 72 hours
 for MiniJam 100. In Dis-order you're making chaos instead of order, you win when
-there are are no patterns or order in the level.
+there are no patterns or order in the level.
 
 It's made using [Bevy][dis-order-bevy] and uses [bevy_smud][bevy_smud] for shape
 rendering, and a compute pass for the [particle
@@ -235,7 +235,7 @@ release, a [trailer with some of the changes][veloren-012-release-trailer] was
 posted. This release was 5 months in the making, so the changelog is quite
 large. During the release party, the official server reached a cap of 195
 players online at once, which is another record for Veloren. Changes were made
-to allow server owners to more easily handle IPv4 and IPv6 connections.
+to allow server owners to handle IPv4 and IPv6 connections.
 Improvements were also made to trading price calculations to properly normalize
 loot tables.
 
@@ -304,7 +304,7 @@ The tutorial showcases:
 - essential features of the [bevy][bevy] engine
 - important ECS notions for beginners
 - WASM build
-- and soon, android native apk build
+- and soon, android native APK build
 
 _Discussions: [Twitter][bevy_minesweeper_twitter], [dev.to][Bevy Minesweeper]_
 
@@ -362,7 +362,7 @@ build the required GDNative libraries.
 
 Bruno Lipovac [released a blog post][Supercharging your Web with Rust and Bevy]
 that detailed building 3D applications for use on the web with Bevy. It walks
-through setting up a Bevy project, and importing some models. It also details
+through setting up a Bevy project and importing some models. It also details
 some more fine-detail items, such as lighting and sky. It then shows how to
 compile the project and serve it.
 
@@ -381,10 +381,10 @@ will be a procedural texturing tool.
 This application saw its first public release a month ago, where it added
 support for its first use case: manual channel shuffling.
 
-The latest version, [v0.4.0][Vismut v0.4.0], brings an all new interface that's
-not only prettier, but also much easier to use thanks to `bevy_egui`!
+The latest version, [v0.4.0][Vismut v0.4.0], brings an all-new interface that's
+not only prettier but also much easier to use thanks to `bevy_egui`!
 
-Upcoming versions will turn it into a fully featured node based procedural
+Upcoming versions will turn it into a fully-featured node-based procedural
 texturing tool. [Read the introduction][Vismut Introduction]
 on the author's blog for more information.
 
@@ -400,7 +400,7 @@ on the author's blog for more information.
 ![Blackjack: Showcase of the new catmull-clark subdivision](blackjack.gif)
 
 [Blackjack] by @setzer22 is a new procedural modeling application made in Rust,
-using rend3, wgpu and egui. It follows the steps of applications like
+using rend3, wgpu, and egui. It follows the steps of applications like
 Houdini, or Blender's geometry nodes project and provides a node-based
 environment to compose procedural recipes to create 3d models.
 
@@ -434,7 +434,7 @@ supercharges your layer stack, providing a completely non-destructive editing
 experience.
 
 After officially launching the alpha version last month, work has progressed
-designing the node graph system. Also, the team has spent this month adding
+in designing the node graph system. Also, the team has spent this month adding
 polish to the application and continuing work on more website content.
 
 A new editor feature is the Gradient tool which makes it possible to add some
@@ -459,7 +459,7 @@ Check out the [new website][graphite-website], try the
 ### [vach]
 
 [vach] is an archiving file format developed from the ground up for games and
-other realtime applications by [@zeskeertwee] and [@sokorototo]. It is
+other real-time applications by [@zeskeertwee] and [@sokorototo]. It is
 written in pure Rust.
 
 Its primary objectives (in no particular order) are:
@@ -474,12 +474,12 @@ Its primary objectives (in no particular order) are:
 - Be as compact as possible - the smallest valid archive is only 13 bytes.
 - Each entry has some metadata attached to it - this is implemented using
   bitflags and up to 8 bits are free to the user.
-- Has mutlithreaded implementations of both the loader and the writer.
+- Has multithreaded implementations of both the loader and the writer.
 
-A [CLI][vach-cli] is allowing one to use vach as a general purpose archive
+A [CLI][vach-cli] is allowing one to use vach as a general-purpose archive
 format. The CLI is fully multithreaded, allowing for insane un/packing speeds.
 
-Feel free to drop into the [repo][vach] and open an issue, pull request or
+Feel free to drop into the [repo][vach] and open an issue, pull request, or
 drop a star 🌟. It helps maintain momentum in the project.
 
 [vach]: https://github.com/zeskeertwee/vach
@@ -492,7 +492,7 @@ drop a star 🌟. It helps maintain momentum in the project.
 ![Sparsey](sparsey.png)
 
 [Sparsey] by [@LechintanTudor] is a sparse set-based Entity Component System
-with beautiful and concise syntax.
+with a beautiful and concise syntax.
 
 The biggest change in this release was the removal of component change detection
 which had a significant impact on performance and memory usage. As a result,
@@ -512,7 +512,7 @@ improvement allowing systems to be added to schedules without having to call
 ![Encase Logo](./encase.svg)
 
 [Encase] ([docs.rs], [crates.io]) by [@teoxoy] is a new library
-that provides a mechanism to lay out data into GPU buffers
+that provides a mechanism to layout data into GPU buffers
 according to [WGSL's memory layout] rules.
 
 Features
@@ -520,8 +520,8 @@ Features
 - supports all WGSL [host-shareable types] + wrapper types
   (`&T`, `&mut T`, `Box<T>`, ...)
 - extensible by design; most traits can be easily implemented
-  for user defined types via macros (see [design])
-- built in support for data types from a multitude of crates
+  for user-defined types via macros (see [design])
+- built-in support for data types from a multitude of crates
   (enabled via [features])
 - covers a wide area of use cases (see [examples])
 
@@ -568,12 +568,12 @@ your own multimedia app on top of it without worrying too much about
 platform-specific code.
 
 The main goal is to provide a set of APIs and tools that can be used to create
-your project in an ergonomic manner without enforcing any structure or pattern,
+your project ergonomically without enforcing any structure or pattern,
 always trying to stay out of your way. The idea is that you can use it as a
-foundation layer or backend for your next app, game engine or game.
+foundation layer or backend for your next app, game engine, or game.
 
-This first version comes with windowing, input and rendering support on MacOS,
-Linux, Windows and Web. Behind feature flags you can use a fast 2D renderer,
+This first version comes with windowing, input, and rendering support on MacOS,
+Linux, Windows, and Web. Behind feature flags, you can use a fast 2D renderer,
 text rendering, and [egui] integration.  
 
 You can try [Notan] by adding it to your `Cargo.toml` -> `notan = "0.1.0"` or
@@ -623,7 +623,7 @@ current and planned functionality.
 - Other game updates:
   - [Fish Fight] introduced mod loading.
   - [vange-rs] published a blog post about using Emscripten with Rust.
-  - [makiomino.fun] introduced a new level up animation.
+  - [makiomino.fun] introduced a new level-up animation.
   - [country-slice] added shadows and the ability to adjust wall height.
   - [flesh] the mid-boss has a new animation.
   - [Rustenstein 3D: Game programming like it's 1992] is an article walking
