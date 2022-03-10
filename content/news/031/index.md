@@ -620,6 +620,45 @@ current and planned functionality.
 
 <!-- One-liners for plan items that haven't got their own sections. -->
 
+- Other game updates:
+  - [Fish Fight] introduced mod loading.
+  - [vange-rs] published a blog post about using Emscripten with Rust.
+  - [makiomino.fun] introduced a new level up animation.
+  - [country-slice] added shadows and the ability to adjust wall height.
+  - [flesh] the mid-boss has a new animation.
+  - [Rustenstein 3D: Game programming like it's 1992] is an article walking
+    through creating a Wolfenstein-like game in Rust.
+  - [Making a 3D Super Munchers Clone with Bevy] is a video walkthrough of
+    creating a 3D game in Bevy.
+  - [Vulkan with Rust by example] is the latest post in a series about using Vulkan
+    with Rust.
+  - [Fyrox] got assets to hot-reload.
+  - [Hotham] released a video demo of the engine.
+  - [godot-rust] introduced C#-style properties.
+  - [cosync] is a single-threaded executor for deferred async code for games.
+  - [SPIR-Q v0.5] was released after two years of v0.4 maintenance.
+  - [egui 0.17.0] was released, with custom text styles, any-sized fonts, and
+    much more.
+  - [sparticles-rs] is a particle system generator.
+  - [blender_bevy_toolkit] is making process in opening Blender files in Bevy.
+
+[Fish Fight]: https://reddit.com/r/rust_gamedev/comments/sokjon/fish_fight_v041_mod_loading
+[vange-rs]: https://caiiiycuk.medium.com/vangers-3d-example-of-using-emscripten-in-rust-720ee8099d72
+[makiomino.fun]: https://twitter.com/makiomino/status/1496252771909218308
+[country-slice]: https://twitter.com/anastasiaopara/status/1492429686294683653
+[flesh]: https://twitter.com/Im_Oab/status/1490576387589427200
+[Rustenstein 3D: Game programming like it's 1992]: https://tech.nextroll.com/blog/dev/2022/02/02/rustenstein.html
+[Making a 3D Super Munchers Clone with Bevy]: https://youtube.com/watch?v=oee3Z69sE-8
+[Vulkan with Rust by example]: https://nikitablack.github.io/post/vulkan_with_rust_by_example_6_fixing_depth/
+[Fyrox]: https://reddit.com/r/rust_gamedev/comments/sm34s6/media_finally_got_assets_hot_reloading_working_in
+[Hotham VR Engine demo]: https://reddit.com/r/rust_gamedev/comments/st4vp1/media_hotham_vr_engine_demo
+[godot-rust]: https://twitter.com/GodotRust/status/1490282777039753218
+[cosync]: https://github.com/sanbox-irl/cosync
+[SPIR-Q v0.5]: https://reddit.com/r/rust_gamedev/comments/sr7nnr/spirq_v05_cleaner_api
+[egui 0.17.0]: https://twitter.com/ernerfeldt/status/1496200805212475396
+[sparticles-rs]: https://youtube.com/watch?v=dyxlfOyW90Q
+[blender_bevy_toolkit]: https://reddit.com/r/rust_gamedev/comments/sredt1/blender_bevy_pipeline_progress
+
 ## Meeting Minutes
 
 <!-- Up to 10 most important notes + a link to the full details -->
