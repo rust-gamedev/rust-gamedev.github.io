@@ -39,7 +39,6 @@ Feel free to send PRs about your own projects!
 - [Library Updates](#library-updates)
 - [Other News](#other-news)
 - [Popular Workgroup Issues and Discussions](#popular-workgroup-issues-and-discussions)
-- [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
 - [Jobs](#jobs)
 
@@ -659,20 +658,6 @@ current and planned functionality.
 [sparticles-rs]: https://youtube.com/watch?v=dyxlfOyW90Q
 [blender_bevy_toolkit]: https://reddit.com/r/rust_gamedev/comments/sredt1/blender_bevy_pipeline_progress
 
-## Meeting Minutes
-
-<!-- Up to 10 most important notes + a link to the full details -->
-
-[See all meeting issues][label_meeting] including full text notes
-or [join the next meeting][join].
-
-[label_meeting]: https://github.com/rust-gamedev/wg/issues?q=label%3Ameeting
-
-## Discussions
-
-<!-- Links to handpicked reddit/twitter/urlo/etc threads that provide
-useful information -->
-
 ## Requests for Contribution
 
 <!-- Links to "good first issue"-labels or direct links to specific tasks -->
@@ -711,10 +696,8 @@ new node graph and 2D rendering systems.
 
 <!-- An optional section for new jobs related to Rust gamedev -->
 
-## Bonus
-
-<!-- Bonus section to make the newsletter more interesting
-and highlight events from the past. -->
+- [Embark Studios](https://careers.embark-studios.com/jobs)
+  (Stockholm/Hybrid Remote) - Various roles
 
 ------
 
