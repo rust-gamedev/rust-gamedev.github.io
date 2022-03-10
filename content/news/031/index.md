@@ -1,8 +1,7 @@
 +++
 title = "This Month in Rust GameDev #31 - February 2022"
 transparent = true
-date = 2022-03-01
-draft = true
+date = 2022-03-10
 +++
 
 <!-- no toc -->
@@ -33,18 +32,16 @@ Feel free to send PRs about your own projects!
 
 - [Bevy Jam](#bevy-jam-1)
 - [Rust GameDev Meetup](#rust-gamedev-meetup)
+- [Rust GameDev Showcase](#rust-gamedev-showcase)
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
 - [Other News](#other-news)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
-- [Meeting Minutes](#meeting-minutes)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
 - [Jobs](#jobs)
-- [Bonus](#bonus)
 
 <!--
 Ideal section structure is:
@@ -72,12 +69,12 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ![Bevy Jam](bevy-jam.png)
 
-The first ever [Bevy Jam][bevy-jam] just finished! Bevy Jam is a week long event,
+The first-ever [Bevy Jam][bevy-jam] just finished! Bevy Jam is a week-long event,
 where the goal is to make a game in [Bevy Engine][bevy-engine], the free and open-source
 game engine built in Rust.
 
 The theme was Unfair Advantage. 431 people joined the jam and 75 teams submitted
-entries. A ten day "voting period" has started, which will end on March 14th.
+entries. A ten-day "voting period" has started, which will end on March 14th.
 [Anyone can play and vote on the submissions][bevy-jam-submissions].
 
 The winning team will receive any two items from the [Bevy Merch][bevy-merch] store.
@@ -91,7 +88,7 @@ The winning team will receive any two items from the [Bevy Merch][bevy-merch] st
 
 ![Gamedev meetup poster](gamedev-meetup.png)
 
-The 13th Rust Gamedev Meetup took place in in February. You can watch the
+The 13th Rust Gamedev Meetup took place in February. You can watch the
 recording of the meetup [here on Youtube][gamedev-meetup-video]. The meetups
 take place on the second Saturday every month via the [Rust Gamedev Discord
 server][rust-gamedev-discord] and are also [streamed on
@@ -103,6 +100,18 @@ Twitch][rust-gamedev-twitch].
 [gamedev-meetup-form]: https://forms.gle/BS1zCyZaiUFSUHxe6
 [rust-meetup-feb-time]: https://everytimezone.com/s/c1b2eb7b
 
+## Rust GameDev Showcase
+
+The Rust Gamedev Working Group is working on a showcase of games made in Rust!
+If you're interested in submitting your own footage, fill out [this
+form][showcase-form]. You can also read more about the process of creating the
+showcase in the [showcase discussion on Github][showcase-discussion]. The
+deadline for submissions has been extended until the 19th of February. Hope to
+see your game in there!
+
+[showcase-form]: https://docs.google.com/forms/d/1MpA7J9BFXAgoCJZJrxi8r4sqzhhYCzCtFo5kXGVOZj4/edit
+[showcase-discussion]: https://github.com/rust-gamedev/wg/discussions/121
+
 ## Game Updates
 
 ### [Name Needed][name-needed]
@@ -113,11 +122,11 @@ _The player orders a selection of blocks to be broken, and a brick wall to be
 built._
 
 [Name Needed][name-needed] by [@DomWilliams0][domwilliams-github] is a one-man
-effort to produce an open source, intuitive and high performance Dwarf
+effort to produce an open source, intuitive, and high-performance Dwarf
 Fortress-esque game with a custom engine.
 
 Recent progress has been on procedural terrain generation, the player UI, item
-stacks and build jobs. A major refactor of the AI system integrated Rust's
+stacks, and build jobs. A major refactor of the AI system integrated Rust's
 superb `async`/`await` support, which is documented in the most recent devlog.
 
 - [Devlog #5: voxel world goals][name-needed-devlog5]
@@ -187,11 +196,11 @@ The latest release:
 
 ### [Dis-order]
 
-![Screenshot of Dis-order](dis-order.png)
+![Screenshot of Dis-order](dis-order.jpg)
 
 Dis-order by [@jkhelsing] is a short sokoban-esque puzzle game made in 72 hours
 for MiniJam 100. In Dis-order you're making chaos instead of order, you win when
-there are are no patterns or order in the level.
+there are no patterns or order in the level.
 
 It's made using [Bevy][dis-order-bevy] and uses [bevy_smud][bevy_smud] for shape
 rendering, and a compute pass for the [particle
@@ -238,7 +247,7 @@ release, a [trailer with some of the changes][veloren-012-release-trailer] was
 posted. This release was 5 months in the making, so the changelog is quite
 large. During the release party, the official server reached a cap of 195
 players online at once, which is another record for Veloren. Changes were made
-to allow server owners to more easily handle IPv4 and IPv6 connections.
+to allow server owners to handle IPv4 and IPv6 connections.
 Improvements were also made to trading price calculations to properly normalize
 loot tables.
 
@@ -307,7 +316,7 @@ The tutorial showcases:
 - essential features of the [bevy][bevy] engine
 - important ECS notions for beginners
 - WASM build
-- and soon, android native apk build
+- and soon, android native APK build
 
 _Discussions: [Twitter][bevy_minesweeper_twitter], [dev.to][Bevy Minesweeper]_
 
@@ -365,7 +374,7 @@ build the required GDNative libraries.
 
 Bruno Lipovac [released a blog post][Supercharging your Web with Rust and Bevy]
 that detailed building 3D applications for use on the web with Bevy. It walks
-through setting up a Bevy project, and importing some models. It also details
+through setting up a Bevy project and importing some models. It also details
 some more fine-detail items, such as lighting and sky. It then shows how to
 compile the project and serve it.
 
@@ -384,10 +393,10 @@ will be a procedural texturing tool.
 This application saw its first public release a month ago, where it added
 support for its first use case: manual channel shuffling.
 
-The latest version, [v0.4.0][Vismut v0.4.0], brings an all new interface that's
-not only prettier, but also much easier to use thanks to `bevy_egui`!
+The latest version, [v0.4.0][Vismut v0.4.0], brings an all-new interface that's
+not only prettier but also much easier to use thanks to `bevy_egui`!
 
-Upcoming versions will turn it into a fully featured node based procedural
+Upcoming versions will turn it into a fully-featured node-based procedural
 texturing tool. [Read the introduction][Vismut Introduction]
 on the author's blog for more information.
 
@@ -403,7 +412,7 @@ on the author's blog for more information.
 ![Blackjack: Showcase of the new catmull-clark subdivision](blackjack.gif)
 
 [Blackjack] by @setzer22 is a new procedural modeling application made in Rust,
-using rend3, wgpu and egui. It follows the steps of applications like
+using rend3, wgpu, and egui. It follows the steps of applications like
 Houdini, or Blender's geometry nodes project and provides a node-based
 environment to compose procedural recipes to create 3d models.
 
@@ -437,7 +446,7 @@ supercharges your layer stack, providing a completely non-destructive editing
 experience.
 
 After officially launching the alpha version last month, work has progressed
-designing the node graph system. Also, the team has spent this month adding
+in designing the node graph system. Also, the team has spent this month adding
 polish to the application and continuing work on more website content.
 
 A new editor feature is the Gradient tool which makes it possible to add some
@@ -462,7 +471,7 @@ Check out the [new website][graphite-website], try the
 ### [vach]
 
 [vach] is an archiving file format developed from the ground up for games and
-other realtime applications by [@zeskeertwee] and [@sokorototo]. It is
+other real-time applications by [@zeskeertwee] and [@sokorototo]. It is
 written in pure Rust.
 
 Its primary objectives (in no particular order) are:
@@ -477,12 +486,12 @@ Its primary objectives (in no particular order) are:
 - Be as compact as possible - the smallest valid archive is only 13 bytes.
 - Each entry has some metadata attached to it - this is implemented using
   bitflags and up to 8 bits are free to the user.
-- Has mutlithreaded implementations of both the loader and the writer.
+- Has multithreaded implementations of both the loader and the writer.
 
-A [CLI][vach-cli] is allowing one to use vach as a general purpose archive
+A [CLI][vach-cli] is allowing one to use vach as a general-purpose archive
 format. The CLI is fully multithreaded, allowing for insane un/packing speeds.
 
-Feel free to drop into the [repo][vach] and open an issue, pull request or
+Feel free to drop into the [repo][vach] and open an issue, pull request, or
 drop a star 🌟. It helps maintain momentum in the project.
 
 [vach]: https://github.com/zeskeertwee/vach
@@ -495,7 +504,7 @@ drop a star 🌟. It helps maintain momentum in the project.
 ![Sparsey](sparsey.png)
 
 [Sparsey] by [@LechintanTudor] is a sparse set-based Entity Component System
-with beautiful and concise syntax.
+with a beautiful and concise syntax.
 
 The biggest change in this release was the removal of component change detection
 which had a significant impact on performance and memory usage. As a result,
@@ -515,7 +524,7 @@ improvement allowing systems to be added to schedules without having to call
 ![Encase Logo](./encase.svg)
 
 [Encase] ([docs.rs], [crates.io]) by [@teoxoy] is a new library
-that provides a mechanism to lay out data into GPU buffers
+that provides a mechanism to layout data into GPU buffers
 according to [WGSL's memory layout] rules.
 
 Features
@@ -523,8 +532,8 @@ Features
 - supports all WGSL [host-shareable types] + wrapper types
   (`&T`, `&mut T`, `Box<T>`, ...)
 - extensible by design; most traits can be easily implemented
-  for user defined types via macros (see [design])
-- built in support for data types from a multitude of crates
+  for user-defined types via macros (see [design])
+- built-in support for data types from a multitude of crates
   (enabled via [features])
 - covers a wide area of use cases (see [examples])
 
@@ -571,12 +580,12 @@ your own multimedia app on top of it without worrying too much about
 platform-specific code.
 
 The main goal is to provide a set of APIs and tools that can be used to create
-your project in an ergonomic manner without enforcing any structure or pattern,
+your project ergonomically without enforcing any structure or pattern,
 always trying to stay out of your way. The idea is that you can use it as a
-foundation layer or backend for your next app, game engine or game.
+foundation layer or backend for your next app, game engine, or game.
 
-This first version comes with windowing, input and rendering support on MacOS,
-Linux, Windows and Web. Behind feature flags you can use a fast 2D renderer,
+This first version comes with windowing, input, and rendering support on MacOS,
+Linux, Windows, and Web. Behind feature flags, you can use a fast 2D renderer,
 text rendering, and [egui] integration.  
 
 You can try [Notan] by adding it to your `Cargo.toml` -> `notan = "0.1.0"` or
@@ -608,40 +617,109 @@ current and planned functionality.
 [Bevy]: https://github.com/bevyengine/bevy
 [@nikl_me]: https://twitter.com/nikl_me
 
-## Popular Workgroup Issues in Github
-
-<!-- Up to 10 links to interesting issues -->
-
-## Other News
-
-<!-- One-liners for plan items that haven't got their own sections. -->
-
-## Meeting Minutes
-
-<!-- Up to 10 most important notes + a link to the full details -->
-
-[See all meeting issues][label_meeting] including full text notes
-or [join the next meeting][join].
-
-[label_meeting]: https://github.com/rust-gamedev/wg/issues?q=label%3Ameeting
-
 ## Discussions
 
 <!-- Links to handpicked reddit/twitter/urlo/etc threads that provide
 useful information -->
 
+- [/r/bevy](https://www.reddit.com/r/bevy/):
+  - ["Recommended Bevy/ECS Project Structure/Conventions"]
+- [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/):
+  - ["Which is a better game engine to start with as a beginner"]
+- [gamedev wg](https://github.com/rust-gamedev/wg)
+  - [#121 Rust Gamedev Showcase]
+  - [#122 Length of meetups]
+  - [#119 Engine benchmark repo]
+
+["Recommended Bevy/ECS Project Structure/Conventions"]: https://reddit.com/r/bevy/comments/sikrv1/recommended_bevyecs_project_structureconventions
+["Which is a better game engine to start with as a beginner"]: https://reddit.com/r/rust_gamedev/comments/stcnx0/which_is_a_better_game_engine_to_start_with
+[#121 Rust Gamedev Showcase]: https://github.com/rust-gamedev/wg/discussions/121
+[#122 Length of meetups]: https://github.com/rust-gamedev/wg/discussions/122
+[#119 Engine benchmark repo]: https://github.com/rust-gamedev/wg/discussions/119
+
+## Other News
+
+<!-- One-liners for plan items that haven't got their own sections. -->
+
+- Other game updates:
+  - [Fish Fight] introduced mod loading.
+  - [vange-rs] published a blog post about using Emscripten with Rust.
+  - [makiomino.fun] introduced a new level-up animation.
+  - [country-slice] added shadows and the ability to adjust wall height.
+  - [flesh] has a new animation for the mid-boss.
+  - [Rustenstein 3D: Game programming like it's 1992] is an article walking
+    through creating a Wolfenstein-like game in Rust.
+  - [Making a 3D Super Munchers Clone with Bevy] is a video walkthrough of
+    creating a 3D game in Bevy.
+  - [Vulkan with Rust by example] is the latest post in a series about using Vulkan
+    with Rust.
+  - [Fyrox] got assets to hot-reload.
+  - [Hotham] released a video demo of the engine.
+  - [godot-rust] introduced C#-style properties.
+  - [cosync] is a single-threaded executor for deferred async code for games.
+  - [SPIR-Q v0.5] was released after two years of v0.4 maintenance.
+  - [egui 0.17.0] was released, with custom text styles, any-sized fonts, and
+    much more.
+  - [sparticles-rs] is a particle system generator.
+  - [blender_bevy_toolkit] is making process in opening Blender files in Bevy.
+
+[Fish Fight]: https://reddit.com/r/rust_gamedev/comments/sokjon/fish_fight_v041_mod_loading
+[vange-rs]: https://caiiiycuk.medium.com/vangers-3d-example-of-using-emscripten-in-rust-720ee8099d72
+[makiomino.fun]: https://twitter.com/makiomino/status/1496252771909218308
+[country-slice]: https://twitter.com/anastasiaopara/status/1492429686294683653
+[flesh]: https://twitter.com/Im_Oab/status/1490576387589427200
+[Rustenstein 3D: Game programming like it's 1992]: https://tech.nextroll.com/blog/dev/2022/02/02/rustenstein.html
+[Making a 3D Super Munchers Clone with Bevy]: https://youtube.com/watch?v=oee3Z69sE-8
+[Vulkan with Rust by example]: https://nikitablack.github.io/post/vulkan_with_rust_by_example_6_fixing_depth/
+[Fyrox]: https://reddit.com/r/rust_gamedev/comments/sm34s6/media_finally_got_assets_hot_reloading_working_in
+[Hotham]: https://reddit.com/r/rust_gamedev/comments/st4vp1/media_hotham_vr_engine_demo
+[godot-rust]: https://twitter.com/GodotRust/status/1490282777039753218
+[cosync]: https://github.com/sanbox-irl/cosync
+[SPIR-Q v0.5]: https://reddit.com/r/rust_gamedev/comments/sr7nnr/spirq_v05_cleaner_api
+[egui 0.17.0]: https://twitter.com/ernerfeldt/status/1496200805212475396
+[sparticles-rs]: https://youtube.com/watch?v=dyxlfOyW90Q
+[blender_bevy_toolkit]: https://reddit.com/r/rust_gamedev/comments/sredt1/blender_bevy_pipeline_progress
+
 ## Requests for Contribution
 
 <!-- Links to "good first issue"-labels or direct links to specific tasks -->
+
+- [Graphite is looking for contributors][graphite-contribute] to help build the
+new node graph and 2D rendering systems.
+- [winit's "difficulty: easy" issues][winit-issues].
+- [Backroll-rs, a new networking library][backroll-rs].
+- [Embark's open issues][embark-open-issues] ([embark.rs]).
+- [wgpu's "help wanted" issues][wgpu-issues].
+- [luminance's "low hanging fruit" issues][luminance-fruits].
+- [ggez's "good first issue" issues][ggez-issues].
+- [Veloren's "beginner" issues][veloren-beginner].
+- [Amethyst's "good first issue" issues][amethyst-issues].
+- [A/B Street's "good first issue" issues][abstreet-issues].
+- [Mun's "good first issue" issues][mun-issues].
+- [SIMple Mechanic's good first issues][simm-issues].
+- [Bevy's "good first issue" issues][bevy-issues].
+
+[graphite-contribute]: https://github.com/GraphiteEditor/Graphite/issues/202
+[winit-issues]: https://github.com/rust-windowing/winit/issues?q=is%3Aopen+is%3Aissue+label%3A%22difficulty%3A+easy%22
+[backroll-rs]: https://github.com/HouraiTeahouse/backroll-rs/issues
+[embark.rs]: https://embark.rs
+[embark-open-issues]: https://github.com/search?q=user:EmbarkStudios+state:open
+[wgpu-issues]: https://github.com/gfx-rs/wgpu/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
+[luminance-fruits]: https://github.com/phaazon/luminance-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22low+hanging+fruit%22
+[ggez-issues]: https://github.com/ggez/ggez/labels/%2AGOOD%20FIRST%20ISSUE%2A
+[veloren-beginner]: https://gitlab.com/veloren/veloren/issues?label_name=beginner
+[amethyst-issues]: https://github.com/amethyst/amethyst/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[abstreet-issues]: https://github.com/a-b-street/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
+[simm-issues]: https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue
+[bevy-issues]: https://github.com/bevyengine/bevy/labels/E-Good-First-Issue
 
 ## Jobs
 
 <!-- An optional section for new jobs related to Rust gamedev -->
 
-## Bonus
-
-<!-- Bonus section to make the newsletter more interesting
-and highlight events from the past. -->
+- [Embark Studios](https://careers.embark-studios.com/jobs)
+  (Stockholm/Hybrid Remote) - Various roles
 
 ------
 
