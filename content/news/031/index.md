@@ -39,7 +39,7 @@ Feel free to send PRs about your own projects!
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
 - [Other News](#other-news)
-- [Popular Workgroup Issues and Discussions](#popular-workgroup-issues-and-discussions)
+- [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
 - [Jobs](#jobs)
 
@@ -617,13 +617,22 @@ current and planned functionality.
 [Bevy]: https://github.com/bevyengine/bevy
 [@nikl_me]: https://twitter.com/nikl_me
 
-## Popular Workgroup Issues and Discussions
+## Discussions
 
-<!-- Up to 10 links to interesting issues -->
-- [#121 Rust Gamedev Showcase]
-- [#122 Length of meetups]
-- [#119 Engine benchmark repo]
+<!-- Links to handpicked reddit/twitter/urlo/etc threads that provide
+useful information -->
 
+- [/r/bevy](https://www.reddit.com/r/bevy/):
+  - ["Recommended Bevy/ECS Project Structure/Conventions"]
+- [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/):
+  - ["Which is a better game engine to start with as a beginner"]
+- [gamedev wg](https://github.com/rust-gamedev/wg)
+  - [#121 Rust Gamedev Showcase]
+  - [#122 Length of meetups]
+  - [#119 Engine benchmark repo]
+
+["Recommended Bevy/ECS Project Structure/Conventions"]: https://reddit.com/r/bevy/comments/sikrv1/recommended_bevyecs_project_structureconventions
+["Which is a better game engine to start with as a beginner"]: https://reddit.com/r/rust_gamedev/comments/stcnx0/which_is_a_better_game_engine_to_start_with
 [#121 Rust Gamedev Showcase]: https://github.com/rust-gamedev/wg/discussions/121
 [#122 Length of meetups]: https://github.com/rust-gamedev/wg/discussions/122
 [#119 Engine benchmark repo]: https://github.com/rust-gamedev/wg/discussions/119
