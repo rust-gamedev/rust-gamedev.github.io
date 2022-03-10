@@ -672,7 +672,7 @@ useful information -->
 [Making a 3D Super Munchers Clone with Bevy]: https://youtube.com/watch?v=oee3Z69sE-8
 [Vulkan with Rust by example]: https://nikitablack.github.io/post/vulkan_with_rust_by_example_6_fixing_depth/
 [Fyrox]: https://reddit.com/r/rust_gamedev/comments/sm34s6/media_finally_got_assets_hot_reloading_working_in
-[Hotham VR Engine demo]: https://reddit.com/r/rust_gamedev/comments/st4vp1/media_hotham_vr_engine_demo
+[Hotham]: https://reddit.com/r/rust_gamedev/comments/st4vp1/media_hotham_vr_engine_demo
 [godot-rust]: https://twitter.com/GodotRust/status/1490282777039753218
 [cosync]: https://github.com/sanbox-irl/cosync
 [SPIR-Q v0.5]: https://reddit.com/r/rust_gamedev/comments/sr7nnr/spirq_v05_cleaner_api
