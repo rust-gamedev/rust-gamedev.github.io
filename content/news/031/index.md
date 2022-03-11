@@ -356,7 +356,7 @@ to be refactored to be more modular and cleaner.
 
 ### [Godot-Rust to Android without Android Studio][godot-rust-to-android]
 
-![working godot-rust on an android phone](godot-rust-android-via-windows.png)
+![working godot-rust on an android phone](godot-rust-android-via-windows.jpg)
 _Proof of concept Godot app running on Android_
 
 [@coffeecodechem] published a [blog post][godot-rust-to-android] on how to
