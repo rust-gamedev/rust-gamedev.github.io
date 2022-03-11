@@ -106,7 +106,7 @@ The Rust Gamedev Working Group is working on a showcase of games made in Rust!
 If you're interested in submitting your own footage, fill out [this
 form][showcase-form]. You can also read more about the process of creating the
 showcase in the [showcase discussion on Github][showcase-discussion]. The
-deadline for submissions has been extended until the 19th of February. Hope to
+deadline for submissions has been extended until the 19th of March 2022. Hope to
 see your game in there!
 
 [showcase-form]: https://docs.google.com/forms/d/1MpA7J9BFXAgoCJZJrxi8r4sqzhhYCzCtFo5kXGVOZj4/edit
