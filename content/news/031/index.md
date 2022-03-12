@@ -602,7 +602,7 @@ checking the [online demos].
 [bevy_asset_loader] by [@nikl_me] is a [Bevy] plugin that aims to reduce
 boilerplate for asset handling in Bevy apps.
 
-Last month saw the release of version `0.6` which added support for loading
+Last month saw the release of version `0.9` which added support for loading
 asset configurations from `.ron` files like the one shown above. This allows for
 resolving asset configurations like their file path or sprite sheet dimensions
 at run time. The feature is called "dynamic assets" and enables use cases like
