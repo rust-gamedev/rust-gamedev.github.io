@@ -714,16 +714,7 @@ new node graph and 2D rendering systems.
 [simm-issues]: https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue
 [bevy-issues]: https://github.com/bevyengine/bevy/labels/E-Good-First-Issue
 
-## Jobs
-
-<!-- An optional section for new jobs related to Rust gamedev -->
-
-- [Embark Studios](https://careers.embark-studios.com/jobs)
-  (Stockholm/Hybrid Remote) - Various roles
-
-------
-
-That's all news for today, thanks for reading!
+## JobsTODO
 
 Want something mentioned in the next newsletter?
 [Send us a pull request][pr].
@@ -735,7 +726,6 @@ or [/r/rust_gamedev subreddit][/r/rust_gamedev] if you want to receive fresh new
 [/r/rust_gamedev](https://www.reddit.com/r/Veloren/comments/tbcs3d/this_month_in_rust_gamedev_31_february_2022/),
 [Twitter](https://twitter.com/rust_gamedev/status/1503474733572100096),
 [Discord](https://discord.gg/yNtPTb2).
-
 
 [/r/rust_gamedev]: https://reddit.com/r/rust_gamedev
 [@rust_gamedev]: https://twitter.com/rust_gamedev
