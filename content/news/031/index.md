@@ -731,13 +731,11 @@ Want something mentioned in the next newsletter?
 Also, subscribe to [@rust_gamedev on Twitter][@rust_gamedev]
 or [/r/rust_gamedev subreddit][/r/rust_gamedev] if you want to receive fresh news!
 
-<!--
-TODO: Add real links and un-comment once this post is published
 **Discuss this post on**:
-[/r/rust_gamedev](TODO),
-[Twitter](TODO),
+[/r/rust_gamedev](https://www.reddit.com/r/Veloren/comments/tbcs3d/this_month_in_rust_gamedev_31_february_2022/),
+[Twitter](https://twitter.com/rust_gamedev/status/1503474733572100096),
 [Discord](https://discord.gg/yNtPTb2).
--->
+
 
 [/r/rust_gamedev]: https://reddit.com/r/rust_gamedev
 [@rust_gamedev]: https://twitter.com/rust_gamedev
