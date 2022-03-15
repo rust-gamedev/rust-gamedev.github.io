@@ -736,7 +736,6 @@ or [/r/rust_gamedev subreddit][/r/rust_gamedev] if you want to receive fresh new
 [Twitter](https://twitter.com/rust_gamedev/status/1503474733572100096),
 [Discord](https://discord.gg/yNtPTb2).
 
-
 [/r/rust_gamedev]: https://reddit.com/r/rust_gamedev
 [@rust_gamedev]: https://twitter.com/rust_gamedev
 [pr]: https://github.com/rust-gamedev/rust-gamedev.github.io
