@@ -714,7 +714,16 @@ new node graph and 2D rendering systems.
 [simm-issues]: https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue
 [bevy-issues]: https://github.com/bevyengine/bevy/labels/E-Good-First-Issue
 
-## JobsTODO
+## Jobs
+
+<!-- An optional section for new jobs related to Rust gamedev -->
+
+- [Embark Studios](https://careers.embark-studios.com/jobs)
+  (Stockholm/Hybrid Remote) - Various roles
+
+------
+
+That's all news for today, thanks for reading!
 
 Want something mentioned in the next newsletter?
 [Send us a pull request][pr].
