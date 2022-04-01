@@ -68,6 +68,25 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [V-Racer][vracer-github]
+
+![VRacer screenshot](vracer_screenshot.gif)
+_Screenshot of V-Racer_
+
+V-Racer ([GitHub][vracer-github]) by
+[@Syn-Nine][synnine-twitter] is a retro
+drift racing game inspired by Atari
+Battlezone and Wipeout created using
+Syn9's [Rust Mini Game Framework][mgfw].
+The game is part of an open source
+[repository][s9-minigame-repo] of several
+mini-games that use this framework.
+
+[vracer-github]: https://github.com/Syn-Nine/rust-mini-games/tree/main/2d-games/vracer
+[synnine-twitter]: https://twitter.com/Syn9Dev
+[mgfw]: https://github.com/Syn-Nine/mgfw
+[s9-minigame-repo]: https://github.com/Syn-Nine/rust-mini-games/
+
 ## Engine Updates
 
 ## Learning Material Updates
