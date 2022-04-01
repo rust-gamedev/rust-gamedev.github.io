@@ -78,7 +78,7 @@ V-Racer ([GitHub][vracer-github]) by
 drift racing game inspired by Atari
 Battlezone and Wipeout created using
 Syn9's [Rust Mini Game Framework][mgfw].
-The game and is part of an open source
+The game is part of an open source
 [repository][s9-minigame-repo] of several
 mini-games that use this framework.
 
