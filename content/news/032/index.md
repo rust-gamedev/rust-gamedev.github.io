@@ -70,7 +70,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [V-Racer][vracer-github]
 
-![VRacer screenshot](vracer-screenshot.gif)
+![VRacer screenshot](vracer_screenshot.gif)
 _Screenshot of V-Racer_
 
 V-Racer ([GitHub][vracer-github]) by
