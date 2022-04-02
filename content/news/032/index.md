@@ -95,6 +95,23 @@ mini-games that use this framework.
 
 ## Library Updates
 
+### [dos-like-rs]
+
+![Screenshot of example "rotozoom" from dos-like-rs,
+depicting a rotating tile grid of Ferris.](doslike.png)
+
+[dos-like-rs] by [@E_net4]
+provides Rust bindings to Mattias Gustavsson's `dos-like`,
+a cross-platform framework for writing modern applications
+with the look & feel of MS-DOS programs from the early 90's.
+
+A few technical details about the conception of these bindings
+are presented in a [blog post on Dev.to][dos-like-rs-dev].
+
+[dos-like-rs]: https://github.com/Enet4/dos-like-rs
+[@E_net4]: https://twitter.com/E_net4
+[dos-like-rs-dev]: https://dev.to/e_net4/writing-bindings-to-dos-like-for-rust-some-lessons-learned-2p6k
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
