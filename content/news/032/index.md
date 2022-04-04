@@ -101,7 +101,7 @@ mini-games that use this framework.
 
 [bevy_match3] ([GitHub](https://github.com/Sheepyhead/bevy_match3))
 by [@Sheepyhead](https://twitter.com/devsheepy)
-is an event-based bevy crate for handling the logic side of match 3 games so
+is an event-based Bevy crate for handling the logic side of match 3 games so
 you can worry about making everything else!
 
 This was recently released in its first public version, so there are several
