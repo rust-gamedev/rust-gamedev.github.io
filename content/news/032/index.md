@@ -95,6 +95,17 @@ mini-games that use this framework.
 
 ## Library Updates
 
+### [bevy_match3]
+
+![An animated gif depicting a simple match 3 game where gems are matched in sets of 3 or more and new gems drop down to take their place](https://github.com/Sheepyhead/bevy_match3/raw/master/example.gif)
+
+[bevy_match3] ([GitHub](https://github.com/Sheepyhead/bevy_match3)) by [@Sheepyhead](https://twitter.com/devsheepy)
+is an event-based bevy crate for handling the logic side of match 3 games so you can worry about making everything else!
+
+This was recently released in its first public version, and there are several parts to improve, and it could really use some battle testing.
+
+[bevy_match3]: https://crates.io/crates/bevy_match3
+
 ### [dos-like-rs]
 
 ![Screenshot of example "rotozoom" from dos-like-rs,
