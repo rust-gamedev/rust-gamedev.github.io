@@ -97,7 +97,7 @@ mini-games that use this framework.
 
 ### [bevy_match3]
 
-![An animated gif depicting a simple match 3 game where gems are matched in sets of 3 or more and new gems drop down to take their place](https://github.com/Sheepyhead/bevy_match3/raw/master/example.gif)
+![An animated gif depicting a simple match 3 game where gems are matched in sets of 3 or more and new gems drop down to take their place](bevy_match3_example.gif)
 
 [bevy_match3] ([GitHub](https://github.com/Sheepyhead/bevy_match3)) by [@Sheepyhead](https://twitter.com/devsheepy)
 is an event-based bevy crate for handling the logic side of match 3 games so you can worry about making everything else!
