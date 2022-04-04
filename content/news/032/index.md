@@ -68,6 +68,35 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Bevy Jam][jam-result-page]
+
+TODO
+
+[jam-result-page]: https://itch.io/jam/bevy-jam-1/results
+
+#### [Warlock's Gambit][warlocks-gambit-itchio]
+
+![Warlock's Gambit Screenshot](warlocks_gambit.jpg)
+_Screenshot of Warlock's Gambit_
+
+[Warlock's Gambit][warlocks-gambit-itchio] is a puzzle game constructed like a
+card game, playable in the browser. You are given a static deck and have to play
+your cards carefully to beat your opponent. In keeping with the theme of the
+jam, the decks are stacked against you, in fact, it's impossible to win by
+default. But you have a trick up your sleeve, literally. You can drag a card in
+your sleeve to play it later.
+
+The jam release was limited and confusing, but a post-jam update fixed the
+most annoying bugs, clarified the game rules, enabled importing custom decks,
+and added great code documentation (including a flow diagram demonstrating the
+game state changes).
+
+The game code is licensed under MIT or Apache-2 and is [available on
+Github][warlocks-gambit-github].
+
+[warlocks-gambit-itchio]: https://gibonus.itch.io/warlocks-gambit
+[warlocks-gambit-github]: https://github.com/team-plover/warlocks-gambit
+
 ### [V-Racer][vracer-github]
 
 ![VRacer screenshot](vracer_screenshot.gif)
