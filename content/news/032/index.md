@@ -143,6 +143,7 @@ A full list of a the changes are available in the [changelog][gd-changelog].
 [gd-github]: https://github.com/godot-rust/godot-rust
 [gd-discord]: https://discord.com/invite/FNudpBD
 [gd-twitter]: https://twitter.com/GodotRust
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
