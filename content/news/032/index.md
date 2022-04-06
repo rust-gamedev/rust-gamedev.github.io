@@ -155,6 +155,35 @@ are presented in a [blog post on Dev.to][dos-like-rs-dev].
 [@E_net4]: https://twitter.com/E_net4
 [dos-like-rs-dev]: https://dev.to/e_net4/writing-bindings-to-dos-like-for-rust-some-lessons-learned-2p6k
 
+### [godot-rust](https://github.com/godot-rust/godot-rust)
+
+![godot-rust logo](godot-rust.png)
+
+godot-rust ([GitHub][gd-github], [Discord][gd-discord], [Twitter][gd-twitter])
+is a Rust library that provides bindings for the Godot game engine.
+
+We are pleased to announce the release of godot-rust version 0.10.0.
+This update brings many new quality-of-life features, such as basic
+async and serde support, more flexible exporting of Rust symbols to
+Godot, better CI and doc integration, among many more features that
+have previously been exclusive to the [GitHub repo][gd-github].
+
+This release also makes the the API much more more user-friendly than
+previous versions with more consistent naming, flatter module structure
+and fewer redundancies.
+
+Thank you to all of the contributors who made this possible!
+
+A full list of a the changes are available in the [changelog][gd-changelog].
+
+[gd-announcement]: https://godot-rust.github.io/releases/
+[gd-changelog]: https://github.com/godot-rust/godot-rust/blob/master/CHANGELOG.md
+
+[gd-docs]: https://godot-rust.github.io/docs
+[gd-github]: https://github.com/godot-rust/godot-rust
+[gd-discord]: https://discord.com/invite/FNudpBD
+[gd-twitter]: https://twitter.com/GodotRust
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
