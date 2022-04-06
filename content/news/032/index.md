@@ -123,7 +123,8 @@ mini-games that use this framework.
 Harvest Hero Origins by Gemdrop Games is an Arcade Wave Defense game featuring
 a co-op survival mode.
 
-[Gemdrop Games][ggt] collaborated with [Pixadome][pd] to bring their featured character Blue
+[Gemdrop Games][ggt] collaborated with [Pixadome][pd] to bring
+their featured character Blue
 from [Chenso Club][cc] to the survival roster. Please go wishlist Chenso Club
 to support the developers!
 
