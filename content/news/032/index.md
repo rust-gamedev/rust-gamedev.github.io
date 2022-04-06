@@ -32,15 +32,12 @@ Feel free to send PRs about your own projects!
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
 - [Game Updates](#game-updates)
-  - [V-Racer](#v-racer)
-- [Engine Updates](#engine-updates)
 - [Learning Material Updates](#learning-material-updates)
+- [Engine Updates](#engine-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
-  - [[dos-like-rs]](#dos-like-rs)
-  - [godot-rust](#godot-rust)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Other News](#other-news)
+- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Meeting Minutes](#meeting-minutes)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
