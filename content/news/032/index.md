@@ -116,6 +116,28 @@ mini-games that use this framework.
 [mgfw]: https://github.com/Syn-Nine/mgfw
 [s9-minigame-repo]: https://github.com/Syn-Nine/rust-mini-games/
 
+### [Harvest Hero Origins - Spring Fever][hho-steam]
+
+![hho screenshot](spring_update_banner.png)
+
+Harvest Hero Origins by Gemdrop Games is an Arcade Wave Defense game featuring
+a co-op survival mode.
+
+[Gemdrop Games][ggt] collaborated with [Pixadome][pd] to bring
+their featured character Blue
+from [Chenso Club][cc] to the survival roster. Please go wishlist Chenso Club
+to support the developers!
+
+Blue is an android who wields a chainsaw to rip and tear through her enemies.
+Slice and dice, then ride through enemies
+in the new [Spring Fever expansion][spring-fever]!
+
+[hho-steam]: https://store.steampowered.com/app/1651500/Harvest_Hero_Origins/
+[ggt]: https://twitter.com/GemdropGames
+[pd]: https://www.pixadome.com/
+[cc]: https://store.steampowered.com/app/1454730/Chenso_Club/
+[spring-fever]: https://store.steampowered.com/news/app/1651500/view/3112556530755817232
+
 ## Engine Updates
 
 ## Learning Material Updates
