@@ -142,6 +142,23 @@ in the new [Spring Fever expansion][spring-fever]!
 
 ## Learning Material Updates
 
+### [Intro to Bevy Video Tutorial Series][intro-to-bevy-playlist]
+
+![Bevy video series title](bevy-video-series.jpg)
+
+Matthew Bryant ([Youtube][matthew-bryant-youtube],
+[Github][matthew-bryant-github]) has been working on a video series on using
+Bevy to create a Pokemon-style RPG, and just released four episodes. The goal is
+to show and explain all the core features of Bevy while creating a real game
+over ten 10-15 minute videos, currently releasing once per week. There is also
+an accompanying [blog post][intro-to-bevy-blog] for the first video in the
+series.
+
+[intro-to-bevy-playlist]: https://www.youtube.com/watch?v=WnUzWuaMzuM&list=PLT_D88-MTFOPPl75g4WshL1Gx2bnGTUkz&index=1
+[intro-to-bevy-blog]: https://www.logicprojects.net/2022/03/
+[matthew-bryant-youtube]: https://www.youtube.com/channel/UC7v3YEDa603x_84PgCPytzA
+[matthew-bryant-github]: https://github.com/mwbryant
+
 ## Tooling Updates
 
 ## Library Updates
