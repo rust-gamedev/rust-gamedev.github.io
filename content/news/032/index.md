@@ -32,6 +32,8 @@ Feel free to send PRs about your own projects!
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
 - [Game Updates](#game-updates)
+- [Rust GameDev Podcast](#rust-gamedev-podcast)
+- [Rust GameDev Meetup](#rust-gamedev-meetup)
 - [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
 - [Tooling Updates](#tooling-updates)
@@ -65,6 +67,52 @@ _Discussions:
 
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
+
+## [Rust GameDev Podcast][gamedev-podcast-site]
+
+![text logo](podcast.jpeg)
+
+The Rust Gamedev Podcast features interviews with indie game developers creating
+titles with the Rust programming language. It covers technical topics as well as
+the business of open source and commercial indie games development.
+
+In March, two episodes were released:
+
+[The seventh episode][podcast-7] is a chat with Erlend and Ole about
+[Fish Fight][fishfight], open source games development, and future game spin-offs.
+
+[In the eighth episode][podcast-8], Forest chats to Dustin about [A/B Street][abstreet].
+
+Listen and Subscribe from the following platforms:
+[Rust GameDev Podcast (simplecast)][gamedev-podcast-site],
+[Apple Podcasts][gamedev-podcast-apple],
+[Spotify][gamedev-podcast-spotify],
+[RSS Feed][gamedev-podcast-rss],
+or [Google Podcasts][gamedev-podcast-google].
+
+[podcast-7]: https://rustgamedev.com/episodes/interview-with-fish-fight
+[podcast-8]: https://rustgamedev.com/episodes/interview-with-dustin-a-b-street
+[abstreet]: https://github.com/a-b-street/abstreet
+[fishfight]: https://github.com/heroiclabs/fishgame-macroquad
+[gamedev-podcast-site]: https://rustgamedev.com/
+[gamedev-podcast-apple]: https://podcasts.apple.com/gb/podcast/rust-game-dev/id1526304768
+[gamedev-podcast-spotify]: https://open.spotify.com/show/7HRfGnTcXkLkQd9fxJbDGj
+[gamedev-podcast-rss]: https://feeds.simplecast.com/C6NQglnL
+[gamedev-podcast-google]: https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zaW1wbGVjYXN0LmNvbS9DNk5RZ2xuTA
+
+## Rust GameDev Meetup
+
+![Gamedev meetup poster](gamedev-meetup.png)
+
+The 14th Rust Gamedev Meetup took place in March. You can watch the
+recording of the meetup [here on Youtube][gamedev-meetup-video]. The meetups
+take place on the second Saturday every month via the [Rust Gamedev Discord
+server][rust-gamedev-discord] and are also [streamed on
+Twitch][rust-gamedev-twitch].
+
+[gamedev-meetup-video]: https://youtu.be/dQPkyjbd36Y
+[rust-gamedev-discord]: https://discord.gg/yNtPTb2
+[rust-gamedev-twitch]: https://twitch.tv/rustgamedev
 
 ## Game Updates
 
