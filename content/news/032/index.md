@@ -116,6 +116,50 @@ mini-games that use this framework.
 [mgfw]: https://github.com/Syn-Nine/mgfw
 [s9-minigame-repo]: https://github.com/Syn-Nine/rust-mini-games/
 
+### [Veloren][veloren]
+
+![Veloren on the Steam Deck](veloren-steamdeck.jpg)
+_Veloren on the Steam Deck!_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In March, Veloren was tested game on the SteamDeck, which you can read about in
+detail in [the weekly devblog][veloren-steamdeck-section]. Lots of work was done
+with Airshipper, Veloren's launcher, including some bug fixes, but mainly the
+switch to Github Releases as the download backend. This will make game updates
+significantly faster and more reliable for players. Work is also being done to
+make use of Github's HTTP range requests to do partial patches where possible.
+Audio work was done to improve swimming sounds playing unevenly, and more sounds
+to gliding.
+
+Veloren was also mentioned [on Hacker News][veloren-hn], and lots of great
+discussions happened in the comment section. In 2021, Veloren spoke at Rust in
+Arts, and [the recording has recently been posted][veloren-rust-in-arts]. The
+0.13 release map is in the works, with a jungle theme. CliffTowns are being
+developed, as a new town located in the mountains. Veloren recorded another
+reading club episode, this time about [Tracy and
+optimizations][veloren-reading-club-7]. A new series was also started, and the
+first [Veloren Code Review was recorded][veloren-code-review-1].
+
+March's full weekly devlogs: "This Week In Veloren...":
+[#162][veloren-162],
+[#163][veloren-163],
+[#164][veloren-164],
+[#165][veloren-165].
+
+[veloren]: https://veloren.net
+[veloren-reading-club-7]: https://www.youtube.com/watch?v=-w0yTCjsV0k
+[veloren-code-review-1]: https://www.youtube.com/watch?v=gomKwQnEGA8
+[veloren-steamdeck-section]: https://veloren.net/devblog-162#veloren-on-steamdeck-by-angelonfira
+[veloren-hn]: https://news.ycombinator.com/item?id=30667022
+[veloren-rust-in-arts]: https://rustfest.global/session/53-directors-commentary-veloren/
+
+[veloren-162]: https://veloren.net/devblog-162
+[veloren-163]: https://veloren.net/devblog-163
+[veloren-164]: https://veloren.net/devblog-164
+[veloren-165]: https://veloren.net/devblog-165
+
 ## Engine Updates
 
 ## Learning Material Updates
