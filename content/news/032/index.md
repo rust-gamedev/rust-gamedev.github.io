@@ -146,7 +146,7 @@ _Veloren on the Steam Deck!_
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.
 
-In March, Veloren was tested game on the SteamDeck, which you can read about in
+In March, Veloren was tested on the SteamDeck, which you can read about in
 detail in [the weekly devblog][veloren-steamdeck-section]. Lots of work was done
 with Airshipper, Veloren's launcher, including some bug fixes, but mainly the
 switch to Github Releases as the download backend. This will make game updates
