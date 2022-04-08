@@ -298,6 +298,25 @@ A full list of a the changes are available in the [changelog][gd-changelog].
 [gd-discord]: https://discord.com/invite/FNudpBD
 [gd-twitter]: https://twitter.com/GodotRust
 
+### [kira v0.6.0](https://github.com/tesselode/kira)
+
+[Kira] by [@tesselode] is a backend-agnostic library to create expressive audio
+for games. It provides parameters for smoothly adjusting properties of sounds, a
+flexible mixer for applying effects to audio, and a clock system for precisely
+timing audio events.
+
+v0.6.0 is a complete rewrite with a more elegant API, support for streaming sounds,
+swappable backends, and more flexible mixer routing. See the full [changelog] for
+more details.
+
+_Discussions: [/r/rust], [twitter]_
+
+[Kira]: https://github.com/tesselode/kira
+[@tesselode]: https://twitter.com/tesselode
+[changelog]: https://github.com/tesselode/kira/releases/tag/v0.6.0
+[/r/rust]: https://www.reddit.com/r/rust/comments/t984ss/kira_game_audio_library_v060_complete_rewrite
+[twitter]: https://twitter.com/tesselode/status/1501213862988849152
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
