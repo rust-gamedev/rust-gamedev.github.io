@@ -442,11 +442,12 @@ The game engine and many of the libraries powering Bloom3D are open-sourced on [
 
 ### [Noumenal][noumenal-website]
 
-![The logo for Noumenal, a colorful cube with spheres on each corner and a spherical hole in the center, and "Noumenal" written underneath.](noumenal.jpg)
+![The logo for Noumenal, a colorful cube with spheres on each corner and a
+spherical hole in the center, and "Noumenal" written underneath.](noumenal.jpg)
 
 [Noumenal][noumenal-website] ([Discord][noumenal-discord],
-[Twitter][noumenal-twitter]) by [@HackerFoo][hackerfoo-website]
-is a beautiful and fast 3D modeling app for iOS.
+[Twitter][noumenal-twitter]) by [@HackerFoo][hackerfoo-website] is a beautiful
+and fast 3D modeling app for iOS.
 
 Noumenal officially went into [public beta][noumenal-beta] this week, and so was
 presented to a larger audience for the first time.
@@ -458,7 +459,8 @@ The goals of Noumenal are:
 - Real time solid modeling with boolean operations
 - Non-destructive editing and robustness to prevent data loss
 - Intuitive manipulation by projecting from the screen glass into 3D space
-- Export to the most widely used formats, such as glTF, USDZ, and STL for 3D printing
+- Export to the most widely used formats, such as glTF, USDZ, and STL for 3D
+  printing
 
 These goals have lead to an unique interface.
 
