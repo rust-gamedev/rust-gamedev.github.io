@@ -338,7 +338,7 @@ Terrain Generator's code is open-sourced on [GitHub][terrain-generator-github].
 
 ### [Way of Rhea][wor]
 
-![way of rhea capsule image](wor-spotlight.png)
+![way of rhea capsule image](wor-spotlight.jpg)
 
 [Way of Rhea][wor] is a puzzle adventure with hard puzzles and forgiving
 mechanics being produced by [@masonremaley][wor-mason-remaley] in a custom Rust
