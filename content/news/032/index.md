@@ -320,7 +320,7 @@ fun and test your skills.
 
 ### [Terrain Generator][terrain-generator]
 
-![A screenshot looking down on mountainous terrain and an ocean][terrain_generator.jpg]
+![A screenshot looking down on mountainous terrain and an ocean](terrain_generator.jpg)
 
 "Terrain Generator" is a website made by [@kettlecorn][kettlecorn_twitter] that
 generates procedural island landscapes. It uses WebAssembly SIMD and multithreading
