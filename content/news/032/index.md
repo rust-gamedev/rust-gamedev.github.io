@@ -122,6 +122,28 @@ TODO
 
 [jam-result-page]: https://itch.io/jam/bevy-jam-1/results
 
+#### [¿Quién es el MechaBurro?][mechaburro-itchio]
+
+![¿Quién es el MechaBurro?](mechaburro.gif)
+
+[¿Quién es el MechaBurro?][mechaburro-itchio] is a singleplayer/local
+multiplayer game (up to 4 players) with bots (8 total burros)
+inspired by twin-stick shooters and aspects of Mario Kart. Players
+choose to play as one of the burro piñatas and then attempt to be
+the last burro standing in each level of the game. At the start
+of each round, one burro is chosen randomly to be upgraded to the
+Mechaburro, giving them an unfair advantage.
+
+A postmortem devlog detailing the process of making the game during the
+jam can be found [here][mechaburro-postmortem], a trailer for the game is
+[viewable on YouTube][mechaburro-youtube] and the source code for the game
+is available [on Github][mechaburro-github].
+
+[mechaburro-itchio]: https://ramirezmike2.itch.io/quien-es-el-mechaburro
+[mechaburro-github]: https://github.com/ramirezmike/quien_es_el_mechaburro
+[mechaburro-youtube]: https://www.youtube.com/watch?v=YQeb2ffm_TI
+[mechaburro-postmortem]: https://ramirezmike2.itch.io/quien-es-el-mechaburro/devlog/354715/bevy-jam-1-postmortem
+
 #### [Warlock's Gambit][warlocks-gambit-itchio]
 
 ![Warlock's Gambit Screenshot](warlocks_gambit.jpg)
