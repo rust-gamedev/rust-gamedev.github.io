@@ -116,13 +116,41 @@ Twitch][rust-gamedev-twitch].
 
 ## Game Updates
 
-### [Bevy Jam][jam-result-page]
+### [Bevy Jam][bevy-jam-results]
 
-TODO
+![Bevy Jam](bevy-jam.png)
 
-[jam-result-page]: https://itch.io/jam/bevy-jam-1/results
+Voting on the first-ever [Bevy Jam][bevy-jam] just finished! It was a
+week-long event, where the goal was to make a game in
+[Bevy Engine][bevy-engine], the free and open-source game engine
+built in Rust. The theme was 'Unfair Advantage'.
 
-#### [¿Quién es el MechaBurro?][mechaburro-itchio]
+The [full results can be found on itch.io][bevy-jam-results]. Here
+are the top five games:
+
+[bevy-jam]: https://itch.io/jam/bevy-jam-1/
+[bevy-jam-results]: https://itch.io/jam/bevy-jam-1/results
+[bevy-engine]: https://bevyengine.org/
+
+#### 🥇 First Place: [Petty Party][petty-party]
+
+![Petty Party logo](pettyparty.png)
+
+[Petty Party][petty-party] is a Mario Party inspired board game,
+in which you play against the world's worst opponent, who's
+actively rigging the game against you.
+
+The game was originally very hard to beat, so the devs balanced
+the jam release fairly heavily in the player's favour - however,
+if you beat the game, you can unlock the original difficulty
+as a 'hard mode'!
+
+The source for the game is available on [GitHub][petty-party-source].
+
+[petty-party]: https://jabuwu.itch.io/petty-party
+[petty-party-source]: https://github.com/jabuwu/petty-party
+
+#### 🥈 Second Place: [¿Quién es el MechaBurro?][mechaburro-itchio]
 
 ![¿Quién es el MechaBurro?](mechaburro.gif)
 
@@ -144,10 +172,22 @@ is available [on Github][mechaburro-github].
 [mechaburro-youtube]: https://www.youtube.com/watch?v=YQeb2ffm_TI
 [mechaburro-postmortem]: https://ramirezmike2.itch.io/quien-es-el-mechaburro/devlog/354715/bevy-jam-1-postmortem
 
-#### [Warlock's Gambit][warlocks-gambit-itchio]
+#### 🥉 Third Place: [Chaz]
+
+![Chaz screenshot](chaz.png)
+
+[Chaz] is a platform racing game, where you have to stay close to your
+opponent in order to see where you're going. Beat them to the floating
+heart to win - but be warned, once you do, they'll steal your moves!
+
+The source code is available on [GitHub][chaz-source].
+
+[chaz]: https://luizchagasjardim.itch.io/chaz
+[chaz-source]: https://github.com/lcjgames/chaz
+
+#### Fourth Place: [Warlock's Gambit][warlocks-gambit-itchio]
 
 ![Warlock's Gambit Screenshot](warlocks_gambit.jpg)
-_Screenshot of Warlock's Gambit_
 
 [Warlock's Gambit][warlocks-gambit-itchio] is a puzzle game constructed like a
 card game, playable in the browser. You are given a static deck and have to play
@@ -166,6 +206,21 @@ Github][warlocks-gambit-github].
 
 [warlocks-gambit-itchio]: https://gibonus.itch.io/warlocks-gambit
 [warlocks-gambit-github]: https://github.com/team-plover/warlocks-gambit
+
+#### Fifth Place: [Cheaters Never Win][cheaters-never-win]
+
+![Clip of Cheaters Never Win gameplay](cheatersneverwin.gif)
+
+[Cheaters Never Win][cheaters-never-win] is an unfairly difficult
+infinite runner set in a cyberpunk world.
+
+Collect keycaps in order to unlock cheat codes, which will give
+you access to forbidden powers - like jumping, and moving left!
+
+The source for this game is available on [GitHub][cnw-source].
+
+[cheaters-never-win]: https://cdsupina.itch.io/cheaters-never-win
+[cnw-source]: https://github.com/TheRealTeamFReSh/Bevy-Jam-1
 
 ### [V-Racer][vracer-github]
 
@@ -252,6 +307,17 @@ March's full weekly devlogs: "This Week In Veloren...":
 [veloren-164]: https://veloren.net/devblog-164
 [veloren-165]: https://veloren.net/devblog-165
 
+### [rust-nonogram][rust-nonogram]
+
+![rust-nonogram screenshot](rust-nonogram.png)
+
+Nonograms (AKA Picross) are logic puzzles that involve filling in cells on a
+grid. The goal of [rust-nonogram] is to be a quick and engaging time-killer.
+Featuring random puzzles and simple controls, it is a great way to have some
+fun and test your skills.
+
+[rust-nonogram]: https://github.com/henryksloan/rust-nonogram
+
 ### [Terrain Generator][terrain-generator]
 
 ![A screenshot looking down on mountainous terrain and an ocean][terrain_generator.jpg]
@@ -272,6 +338,35 @@ Terrain Generator's code is open-soruced on [GitHub][terrain-generator-github].
 
 ## Engine Updates
 
+### [godot-rust](https://github.com/godot-rust/godot-rust)
+
+![godot-rust logo](godot-rust.png)
+
+godot-rust ([GitHub][gd-github], [Discord][gd-discord], [Twitter][gd-twitter])
+is a Rust library that provides bindings for the Godot game engine.
+
+We are pleased to announce the release of godot-rust version 0.10.0.
+This update brings many new quality-of-life features, such as basic
+async and serde support, more flexible exporting of Rust symbols to
+Godot, better CI and doc integration, among many more features that
+have previously been exclusive to the [GitHub repo][gd-github].
+
+This release also makes the the API much more more user-friendly than
+previous versions with more consistent naming, flatter module structure
+and fewer redundancies.
+
+Thank you to all of the contributors who made this possible!
+
+A full list of a the changes are available in the [changelog][gd-changelog].
+
+[gd-announcement]: https://godot-rust.github.io/releases/
+[gd-changelog]: https://github.com/godot-rust/godot-rust/blob/master/CHANGELOG.md
+
+[gd-docs]: https://godot-rust.github.io/docs
+[gd-github]: https://github.com/godot-rust/godot-rust
+[gd-discord]: https://discord.com/invite/FNudpBD
+[gd-twitter]: https://twitter.com/GodotRust
+
 ### [Notan v0.2.1][Notan]
 
 ![notan](notan.jpg)
@@ -291,6 +386,24 @@ improve the integration with [egui] supporting all its features.
 [Notan]: https://github.com/Nazariglez/notan
 [v0.2.1]: https://github.com/Nazariglez/notan/releases/tag/v0.2.0
 [egui]: https://github.com/emilk/egui
+
+### [Tetra] 0.7
+
+[Tetra] is a simple 2D game framework, inspired by XNA, Love2D, and Raylib. This
+month, Tetra 0.7 was released, featuring:
+
+- Support for a wider variety of texture formats
+- A more powerful API for blending
+- Lots of bug fixes, cleanups, and improvements
+
+For more details, see the [changelog][tetra-changelog].
+
+As mentioned in previous newsletters, this is likely to be the final release of
+Tetra, as [the developer has decided to move onto other projects][tetra-retro].
+
+[Tetra]: https://github.com/17cupsofcoffee/tetra
+[tetra-changelog]: https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md
+[tetra-retro]: https://www.seventeencups.net/posts/three-years-of-tetra/
 
 ## Learning Material Updates
 
@@ -360,35 +473,6 @@ are presented in a [blog post on Dev.to][dos-like-rs-dev].
 [@E_net4]: https://twitter.com/E_net4
 [dos-like-rs-dev]: https://dev.to/e_net4/writing-bindings-to-dos-like-for-rust-some-lessons-learned-2p6k
 
-### [godot-rust](https://github.com/godot-rust/godot-rust)
-
-![godot-rust logo](godot-rust.png)
-
-godot-rust ([GitHub][gd-github], [Discord][gd-discord], [Twitter][gd-twitter])
-is a Rust library that provides bindings for the Godot game engine.
-
-We are pleased to announce the release of godot-rust version 0.10.0.
-This update brings many new quality-of-life features, such as basic
-async and serde support, more flexible exporting of Rust symbols to
-Godot, better CI and doc integration, among many more features that
-have previously been exclusive to the [GitHub repo][gd-github].
-
-This release also makes the the API much more more user-friendly than
-previous versions with more consistent naming, flatter module structure
-and fewer redundancies.
-
-Thank you to all of the contributors who made this possible!
-
-A full list of a the changes are available in the [changelog][gd-changelog].
-
-[gd-announcement]: https://godot-rust.github.io/releases/
-[gd-changelog]: https://github.com/godot-rust/godot-rust/blob/master/CHANGELOG.md
-
-[gd-docs]: https://godot-rust.github.io/docs
-[gd-github]: https://github.com/godot-rust/godot-rust
-[gd-discord]: https://discord.com/invite/FNudpBD
-[gd-twitter]: https://twitter.com/GodotRust
-
 ### [kira v0.6.0](https://github.com/tesselode/kira)
 
 [Kira] by [@tesselode] is a backend-agnostic library to create expressive audio
@@ -407,6 +491,26 @@ _Discussions: [/r/rust], [twitter]_
 [changelog]: https://github.com/tesselode/kira/releases/tag/v0.6.0
 [/r/rust]: https://www.reddit.com/r/rust/comments/t984ss/kira_game_audio_library_v060_complete_rewrite
 [twitter]: https://twitter.com/tesselode/status/1501213862988849152
+
+### [screen-13 v0.2.1-alpha](https://github.com/attackgoat/screen-13)
+
+[Screen 13] is an easy-to-use 2D/3D rendering engine in the spirit of QBasic. The
+library provides a thin Vulkan 1.1 driver using smart pointers and a fully-generic
+render graph structure.
+
+Earlier this year [Screen 13] was updated with a dynamic graph pattern, but there
+was no good starter documentation and a few bugs. There is a [getting started][s13-getting-started]
+guide now! Also, a ton of new features that have been added in the last month:
+
+- ImGui support
+- Mac support
+- Shader specialization
+
+For more details, see the [changelog][s13-change-log].
+
+[Screen 13]: https://github.com/attackgoat/screen-13
+[s13-getting-started]: https://github.com/attackgoat/screen-13/blob/master/examples/getting-started.md
+[s13-change-log]: https://github.com/attackgoat/screen-13/blob/master/CHANGELOG.md
 
 ## Popular Workgroup Issues in Github
 
