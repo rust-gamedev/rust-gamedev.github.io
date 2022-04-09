@@ -329,7 +329,7 @@ via WebWorkers to speed up generation.
 The terrain is generated with multi-octave simplex noise using the new
 simplex-noise crate [`clatter`][clatter].
 
-Terrain Generator's code is open-soruced on [GitHub][terrain-generator-github].
+Terrain Generator's code is open-sourced on [GitHub][terrain-generator-github].
 
 [terrain-generator]: https://ianjk.com/terrain_generator/
 [kettlecorn_twitter]: https://twitter.com/kettlecorn
