@@ -254,16 +254,16 @@ March's full weekly devlogs: "This Week In Veloren...":
 
 ### [Terrain Generator][terrain-generator]
 
-![A screenshot looking down on mountainous terrain and an ocean](terrain_generator.jpg)
+![A screenshot looking down on mountainous terrain and an ocean][terrain_generator.jpg]
 
 "Terrain Generator" is a website made by [@kettlecorn][kettlecorn_twitter] that
 generates procedural island landscapes. It uses WebAssembly SIMD and multithreading
 via WebWorkers to speed up generation.
 
 The terrain is generated with multi-octave simplex noise using the new
-simplex-noise crate [`clatter`](https://github.com/Ralith/clatter).
+simplex-noise crate [`clatter`][clatter].
 
-Terrain Generator's code is open-soruced on [GitHub](terrain-generator-github).
+Terrain Generator's code is open-soruced on [GitHub][terrain-generator-github].
 
 [terrain-generator]: https://ianjk.com/terrain_generator/
 [kettlecorn_twitter]: https://twitter.com/kettlecorn
