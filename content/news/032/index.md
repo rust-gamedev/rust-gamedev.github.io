@@ -213,7 +213,7 @@ in the new [Spring Fever expansion][spring-fever]!
 ![rust-nonogram screenshot](rust-nonogram.png)
 
 Nonograms (AKA Picross) are logic puzzles that involve filling in cells on a
-grid. The goal of rust-nonogram is to be a quick and engaging time-killer.
+grid. The goal of [rust-nonogram] is to be a quick and engaging time-killer.
 Featuring random puzzles and simple controls, it is a great way to have some
 fun and test your skills.
 
