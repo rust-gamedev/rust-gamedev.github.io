@@ -125,12 +125,16 @@ week-long event, where the goal was to make a game in
 [Bevy Engine][bevy-engine], the free and open-source game engine
 built in Rust. The theme was 'Unfair Advantage'.
 
-The [full results can be found on itch.io][bevy-jam-results]. Here
-are the top five games:
+The [full results can be found on itch.io][bevy-jam-results], and you can read
+an [exploration of the entries][bevy-jam-exploration] to find out about how
+these entries used different asset formats, crates, and Bevy features.
+
+Here are the top five games:
 
 [bevy-jam]: https://itch.io/jam/bevy-jam-1/
 [bevy-jam-results]: https://itch.io/jam/bevy-jam-1/results
 [bevy-engine]: https://bevyengine.org/
+[bevy-jam-exploration]: https://techgeneral.org/bevy-jam-1-data-exploration/
 
 #### 🥇 First Place: [Petty Party][petty-party]
 
