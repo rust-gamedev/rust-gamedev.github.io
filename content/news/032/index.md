@@ -208,17 +208,6 @@ in the new [Spring Fever expansion][spring-fever]!
 [cc]: https://store.steampowered.com/app/1454730/Chenso_Club/
 [spring-fever]: https://store.steampowered.com/news/app/1651500/view/3112556530755817232
 
-### [rust-nonogram][rust-nonogram]
-
-![rust-nonogram screenshot](rust-nonogram.png)
-
-Nonograms (AKA Picross) are logic puzzles that involve filling in cells on a
-grid. The goal of [rust-nonogram] is to be a quick and engaging time-killer.
-Featuring random puzzles and simple controls, it is a great way to have some
-fun and test your skills.
-
-[rust-nonogram]: https://github.com/henryksloan/rust-nonogram
-
 ### [Veloren][veloren]
 
 ![Veloren on the Steam Deck](veloren-steamdeck.jpg)
@@ -262,6 +251,17 @@ March's full weekly devlogs: "This Week In Veloren...":
 [veloren-163]: https://veloren.net/devblog-163
 [veloren-164]: https://veloren.net/devblog-164
 [veloren-165]: https://veloren.net/devblog-165
+
+### [rust-nonogram][rust-nonogram]
+
+![rust-nonogram screenshot](rust-nonogram.png)
+
+Nonograms (AKA Picross) are logic puzzles that involve filling in cells on a
+grid. The goal of [rust-nonogram] is to be a quick and engaging time-killer.
+Featuring random puzzles and simple controls, it is a great way to have some
+fun and test your skills.
+
+[rust-nonogram]: https://github.com/henryksloan/rust-nonogram
 
 ## Engine Updates
 
