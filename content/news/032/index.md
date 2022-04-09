@@ -346,12 +346,12 @@ engine. It has a demo available [on Steam][wor].
 
 Latest developments:
 
-- A [new demo](wor) was pushed to Steam for PAX East
+- A [new demo][wor] was pushed to Steam for PAX East
 - The [mushroom biome][wor-mushroom] art was completed
 - All puzzles for the main game are complete
 - More secrets have been added
 - Four out of the five [characters][wor-characters] are now in game
-- `SDL_mixer` was replaced with a custom Rust mixer built on top of [libsoundio][libsoundio]
+- `SDL_mixer` was replaced with a custom Rust mixer built on top of [libsoundio][wor-libsoundio]
 - Numerous minor bug fixes and quality of life improvements, you can find [more details here][wor-update]
 
 You can stay up to date with the latest Way of Rhea developments by
