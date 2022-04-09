@@ -386,10 +386,11 @@ Earlier this year [Screen 13] was updated with a dynamic graph pattern, but ther
 was no good starter documentation and a few bugs. There is a [getting started][s13-getting-started]
 guide now! Also, a ton of new features that have been added in the last month:
 
-* ImGui support
-* Mac support
-* Shader specialization
-* [change log...][s13-change-log]
+- ImGui support
+- Mac support
+- Shader specialization
+
+For more details, see the [changelog][s13-change-log].
 
 [Screen 13]: https://github.com/attackgoat/screen-13
 [s13-getting-started]: https://github.com/attackgoat/screen-13/blob/master/examples/getting-started.md
