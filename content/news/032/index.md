@@ -232,7 +232,7 @@ March's full weekly devlogs: "This Week In Veloren...":
 
 ## Engine Updates
 
-### [Notan v0.2.1]
+### [Notan v0.2.1][Notan]
 
 ![notan](notan.jpg)
 
