@@ -376,6 +376,26 @@ _Discussions: [/r/rust], [twitter]_
 [/r/rust]: https://www.reddit.com/r/rust/comments/t984ss/kira_game_audio_library_v060_complete_rewrite
 [twitter]: https://twitter.com/tesselode/status/1501213862988849152
 
+### [screen-13 v0.2.1-alpha](https://github.com/attackgoat/screen-13)
+
+[Screen 13] is an easy-to-use 2D/3D rendering engine in the spirit of QBasic. The
+library provides a thin Vulkan 1.1 driver using smart pointers and a fully-generic
+render graph structure.
+
+Earlier this year [Screen 13] was updated with a dynamic graph pattern, but there
+was no good starter documentation and a few bugs. There is a [getting started][s13-getting-started]
+guide now! Also, a ton of new features that have been added in the last month:
+
+- ImGui support
+- Mac support
+- Shader specialization
+
+For more details, see the [changelog][s13-change-log].
+
+[Screen 13]: https://github.com/attackgoat/screen-13
+[s13-getting-started]: https://github.com/attackgoat/screen-13/blob/master/examples/getting-started.md
+[s13-change-log]: https://github.com/attackgoat/screen-13/blob/master/CHANGELOG.md
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
