@@ -237,14 +237,14 @@ March's full weekly devlogs: "This Week In Veloren...":
 ![notan](notan.jpg)
 
 [Notan] is a simple and portable layer designed to create your own multimedia
-apps on top of it without worry about platform-specific code.
+apps on top of it without worrying about platform-specific code.
 
 The main goal is to provide a set of APIs and tools that can be used to create
 your project in an ergonomic manner without enforcing any structure or pattern,
 always trying to stay out of your way. The idea is that you can use it as a
 foundation layer or backend for your next app, game engine, or game.
 
-The version [v0.2.1] improves and adds features focusing on the creation of apps,
+Version [v0.2.1] improves and adds features focusing on the creation of apps,
 like select mouse cursor or lazy loop among other things. The main focus was
 improve the integration with [egui] supporting all its features.
 
