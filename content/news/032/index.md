@@ -318,6 +318,24 @@ fun and test your skills.
 
 [rust-nonogram]: https://github.com/henryksloan/rust-nonogram
 
+### [Terrain Generator][terrain-generator]
+
+![A screenshot looking down on mountainous terrain and an ocean](terrain_generator.jpg)
+
+"Terrain Generator" is a website made by [@kettlecorn][kettlecorn_twitter] that
+generates procedural island landscapes. It uses WebAssembly SIMD and multithreading
+via WebWorkers to speed up generation.
+
+The terrain is generated with multi-octave simplex noise using the new
+simplex-noise crate [`clatter`][clatter].
+
+Terrain Generator's code is open-sourced on [GitHub][terrain-generator-github].
+
+[terrain-generator]: https://ianjk.com/terrain_generator/
+[kettlecorn_twitter]: https://twitter.com/kettlecorn
+[clatter]: https://ianjk.com/terrain_generator/
+[terrain-generator-github]: https://github.com/kettle11/open_world_game
+
 ## Engine Updates
 
 ### [godot-rust](https://github.com/godot-rust/godot-rust)
@@ -407,6 +425,20 @@ series.
 [matthew-bryant-github]: https://github.com/mwbryant
 
 ## Tooling Updates
+
+### [Bloom3D][bloom3d]
+
+![A screenshot of Bloom3D's interface and a simple low-polygon building.](bloom3d.jpg)
+
+[Bloom3D][bloom3d] is an extremely minimalist in-browser 3D modeling tool made
+by [@kettlecorn](kettlecorn_twitter)
+that released earlier this month.
+
+Bloom3D is built completely with Rust from user-interface to core algorithms.
+The game engine and many of the libraries powering Bloom3D are open-sourced on [GitHub][koi].
+
+[bloom3d]: https://bloom3d.com
+[koi]: https://github.com/kettle11/koi
 
 ## Library Updates
 
