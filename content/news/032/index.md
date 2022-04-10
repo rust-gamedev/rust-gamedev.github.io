@@ -463,6 +463,32 @@ series.
 [matthew-bryant-youtube]: https://www.youtube.com/channel/UC7v3YEDa603x_84PgCPytzA
 [matthew-bryant-github]: https://github.com/mwbryant
 
+### [Bevy Cheatbook]
+
+The [Bevy Cheatbook] by Ida Iyes is an unofficial reference-style book
+teaching the Bevy game engine. It got many improvements over the past month.
+
+There is a new [guided tutorial page][bevy-cb-tutorial], to help you navigate
+the book in an order that makes sense for learning, starting from beginner
+topics and progressing towards more advanced! There is also a new "getting
+started" page, as an alternative to Bevy's official instructions.
+
+New topics added to the book: working with Bevy Time/Timers/Stopwatches, ECS
+data storage kinds, exclusive systems, direct World access, non-Send types,
+and more…
+
+Many pages have been overhauled for correctness and the quality of various
+code examples improved.
+
+If you would like to support the project, donate to the author via
+her [GitHub Sponsors][ghsponsors-inodentry]. Follow [@IyesGames on
+Twitter][twitter-iyesgames] for updates.
+
+[Bevy Cheatbook]: https://bevy-cheatbook.github.io
+[bevy-cb-tutorial]: https://bevy-cheatbook.github.io/tutorial.html
+[ghsponsors-inodentry]: https://github.com/sponsors/inodentry
+[twitter-iyesgames]: https://twitter.com/IyesGames
+
 ## Tooling Updates
 
 ### [Bloom3D][bloom3d]
