@@ -408,6 +408,38 @@ series.
 
 ## Tooling Updates
 
+### [Graphite][graphite-website]
+
+![Graphite](graphite-node-graph.png)
+
+Graphite is an in-development raster and vector 2D graphics editor that is free
+and open source. It will be powered by a node graph compositing engine that
+supercharges your layer stack, providing a completely non-destructive editing
+experience.
+
+With the completion of the node graph UX design, work has begun building the
+frontend and backend systems for the big leap to node-driven vector editing.
+This works by composing groups of Rust functions together at runtime and/or
+compile time. [Watch the (brief) talk][graphite-gamedev-nodes-talk] about how
+the backend implementation works around challenges imposed by Rust.
+
+New editor features this month include importing bitmap image layers and
+customizing stroke styling with dashed lines and rounded or beveled corners.
+The [project website][graphite-website] is also now mostly content-complete,
+including new node graph mockups.
+
+Check out the [new website][graphite-website], try the
+[Graphite editor][graphite-live-demo] right now in your browser, star on
+[GitHub][graphite-repo], follow on [Twitter][graphite-twitter], and join the
+[Discord][graphite-discord] to chat or get involved!
+
+[graphite-website]: https://graphite.rs
+[graphite-gamedev-nodes-talk]: https://youtu.be/okWFrfaaADs?t=4014
+[graphite-live-demo]: https://editor.graphite.rs
+[graphite-repo]: https://github.com/GraphiteEditor/Graphite
+[graphite-twitter]: https://twitter.com/GraphiteEditor
+[graphite-discord]: https://discord.graphite.rs
+
 ## Library Updates
 
 ### [bevy_match3]
