@@ -427,7 +427,7 @@ useful information -->
 <!-- An optional section for new jobs related to Rust gamedev -->
 
 - [DIMS](https://www.dims.co/jobs)
-  (Stockholm/Hybrid Remote)
+  (Stockholm/Remote)
   - Tools Programmer
   - Internship: Game Design
 
