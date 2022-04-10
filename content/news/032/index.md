@@ -647,6 +647,15 @@ For more details, see the [changelog][s13-change-log].
 
 <!-- One-liners for plan items that haven't got their own sections. -->
 
+- Other game updates:
+  - [Space Frontiers] posted [a video][sf-video] of their Atmospherics update.
+- Other learning material updates:
+  - [Hedgein] started a 'making one game per week' YouTube series.
+
+[Space Frontiers]: https://github.com/starwolves/space
+[sf-video]: https://www.youtube.com/watch?v=EF5iUJNFz94
+[Hedgein]: https://www.youtube.com/watch?v=qufQVtlYqrQ
+
 ## Meeting Minutes
 
 <!-- Up to 10 most important notes + a link to the full details -->
@@ -673,6 +682,9 @@ useful information -->
   (Stockholm/Remote)
   - Tools Programmer
   - Internship: Game Design
+- [Embark Studios](https://careers.embark-studios.com/jobs)
+  (Stockholm/Hybrid Remote)
+  - Various roles
 
 ## Bonus
 
