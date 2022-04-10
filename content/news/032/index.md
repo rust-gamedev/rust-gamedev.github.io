@@ -217,10 +217,12 @@ infinite runner set in a cyberpunk world.
 Collect keycaps in order to unlock cheat codes, which will give
 you access to forbidden powers - like jumping, and moving left!
 
+Since the jam, the team has begun work on a full release for the game.
+
 The source for this game is available on [GitHub][cnw-source].
 
 [cheaters-never-win]: https://cdsupina.itch.io/cheaters-never-win
-[cnw-source]: https://github.com/TheRealTeamFReSh/Bevy-Jam-1
+[cnw-source]: https://github.com/Corrosive-Games/Cheaters-Never-Win
 
 ### [V-Racer][vracer-github]
 
