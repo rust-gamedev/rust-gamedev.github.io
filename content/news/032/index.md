@@ -669,6 +669,11 @@ useful information -->
 
 <!-- An optional section for new jobs related to Rust gamedev -->
 
+- [DIMS](https://www.dims.co/jobs)
+  (Stockholm/Remote)
+  - Tools Programmer
+  - Internship: Game Design
+
 ## Bonus
 
 <!-- Bonus section to make the newsletter more interesting
