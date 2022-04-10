@@ -125,12 +125,16 @@ week-long event, where the goal was to make a game in
 [Bevy Engine][bevy-engine], the free and open-source game engine
 built in Rust. The theme was 'Unfair Advantage'.
 
-The [full results can be found on itch.io][bevy-jam-results]. Here
-are the top five games:
+The [full results can be found on itch.io][bevy-jam-results], and you can read
+an [exploration of the entries][bevy-jam-exploration] to find out about how
+these entries used different asset formats, crates, and Bevy features.
+
+Here are the top five games:
 
 [bevy-jam]: https://itch.io/jam/bevy-jam-1/
 [bevy-jam-results]: https://itch.io/jam/bevy-jam-1/results
 [bevy-engine]: https://bevyengine.org/
+[bevy-jam-exploration]: https://techgeneral.org/bevy-jam-1-data-exploration/
 
 #### 🥇 First Place: [Petty Party][petty-party]
 
@@ -336,6 +340,39 @@ Terrain Generator's code is open-sourced on [GitHub][terrain-generator-github].
 [clatter]: https://ianjk.com/terrain_generator/
 [terrain-generator-github]: https://github.com/kettle11/open_world_game
 
+### [Way of Rhea][wor]
+
+![way of rhea capsule image](wor-spotlight.jpg)
+
+[Way of Rhea][wor] is a puzzle adventure with hard puzzles and forgiving
+mechanics being produced by [@masonremaley][wor-mason-remaley] in a custom Rust
+engine. It has a demo available [on Steam][wor].
+
+Latest developments:
+
+- A [new demo][wor] was pushed to Steam for PAX East
+- The [mushroom biome][wor-mushroom] art was completed
+- All puzzles for the main game are complete
+- More secrets have been added
+- Four out of the five [characters][wor-characters] are now in game
+- `SDL_mixer` was replaced with a custom Rust mixer built on top of
+[libsoundio][wor-libsoundio]
+- Numerous minor bug fixes and quality of life improvements, you can find
+[more details here][wor-update]
+
+You can stay up to date with the latest Way of Rhea developments by
+[following it on Steam][wor], signing up for [their mailing list][wor-newsletter],
+or joining [their Discord][wor-discord].
+
+[wor]: https://store.steampowered.com/app/1110620/Way_of_Rhea/?utm_campaign=tmirgd&utm_source=n32
+[wor-update]: https://store.steampowered.com/news/app/1110620/view/3180112431320346739?utm_campaign=tmirgd&utm_source=n32&utm_content=news
+[wor-mushroom]: https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/clans/35599024/f356b295d6d71dcaebf4727eca0317269172b1d7.png
+[wor-characters]: https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/clans/35599024/4dbe4158059559176d25f4d9326280d83ec6c745.png
+[wor-mason-remaley]: https://twitter.com/masonremaley
+[wor-newsletter]: https://www.anthropicstudios.com/newsletter/signup
+[wor-discord]: https://discord.gg/JGeVt5XwPP
+[wor-libsoundio]: http://libsound.io/
+
 ## Engine Updates
 
 ### [godot-rust](https://github.com/godot-rust/godot-rust)
@@ -439,6 +476,36 @@ The game engine and many of the libraries powering Bloom3D are open-sourced on [
 
 [bloom3d]: https://bloom3d.com
 [koi]: https://github.com/kettle11/koi
+
+### [Noumenal][noumenal-website]
+
+![The logo for Noumenal, a colorful cube with spheres on each corner and a
+spherical hole in the center, and "Noumenal" written underneath.](noumenal.jpg)
+
+[Noumenal][noumenal-website] ([Discord][noumenal-discord],
+[Twitter][noumenal-twitter]) by [@HackerFoo][hackerfoo-website] is a beautiful
+and fast 3D modeling app for iOS.
+
+Noumenal officially went into [public beta][noumenal-beta] this week, and so was
+presented to a larger audience for the first time.
+
+The goals of Noumenal are:
+
+- Enjoyable to use on a mobile device
+- Accessible to as many people as possible
+- Real time solid modeling with boolean operations
+- Non-destructive editing and robustness to prevent data loss
+- Intuitive manipulation by projecting from the screen glass into 3D space
+- Export to the most widely used formats, such as glTF, USDZ, and STL for 3D
+  printing
+
+These goals have lead to an unique interface.
+
+[noumenal-website]: https://noumenal.app
+[noumenal-discord]: https://discord.gg/PFeZQE48gG
+[noumenal-twitter]: https://twitter.com/noumenal_app
+[hackerfoo-website]: https://hackerfoo.com
+[noumenal-beta]: https://testflight.apple.com/join/I6x5Yksx
 
 ### [Graphite][graphite-website]
 
