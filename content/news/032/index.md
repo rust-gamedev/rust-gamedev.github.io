@@ -1,15 +1,14 @@
 +++
 title = "This Month in Rust GameDev #32 - March 2022"
 transparent = true
-date = 2022-04-01
-draft = true
+date = 2022-04-11
 +++
 
 <!-- no toc -->
 
 <!-- Check the post with markdownlint-->
 
-Welcome to the {TODO}th issue of the Rust GameDev Workgroup's
+Welcome to the 32nd issue of the Rust GameDev Workgroup's
 monthly newsletter.
 [Rust] is a systems language pursuing the trifecta:
 safety, concurrency, and speed.
@@ -31,20 +30,16 @@ Feel free to send PRs about your own projects!
 [Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
-- [Game Updates](#game-updates)
 - [Rust GameDev Podcast](#rust-gamedev-podcast)
 - [Rust GameDev Meetup](#rust-gamedev-meetup)
+- [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
 - [Other News](#other-news)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
-- [Meeting Minutes](#meeting-minutes)
-- [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
 - [Jobs](#jobs)
-- [Bonus](#bonus)
 
 <!--
 Ideal section structure is:
@@ -196,7 +191,7 @@ The source code is available on [GitHub][chaz-source].
 [Warlock's Gambit][warlocks-gambit-itchio] is a puzzle game constructed like a
 card game, playable in the browser. You are given a static deck and have to play
 your cards carefully to beat your opponent. In keeping with the theme of the
-jam, the decks are stacked against you, in fact, it's impossible to win by
+jam, the decks are stacked against you. In fact, it's impossible to win by
 default. But you have a trick up your sleeve, literally. You can drag a card in
 your sleeve to play it later.
 
@@ -236,7 +231,7 @@ _Screenshot of V-Racer_
 V-Racer ([GitHub][vracer-github]) by
 [@Syn-Nine][synnine-twitter] is a retro
 drift racing game inspired by Atari
-Battlezone and Wipeout created using
+Battlezone and Wipeout, created using
 Syn9's [Rust Mini Game Framework][mgfw].
 The game is part of an open source
 [repository][s9-minigame-repo] of several
@@ -356,7 +351,7 @@ Latest developments:
 - The [mushroom biome][wor-mushroom] art was completed
 - All puzzles for the main game are complete
 - More secrets have been added
-- Four out of the five [characters][wor-characters] are now in game
+- Four out of the five [characters][wor-characters] are now in the game
 - `SDL_mixer` was replaced with a custom Rust mixer built on top of
 [libsoundio][wor-libsoundio]
 - Numerous minor bug fixes and quality of life improvements, you can find
@@ -390,13 +385,13 @@ async and serde support, more flexible exporting of Rust symbols to
 Godot, better CI and doc integration, among many more features that
 have previously been exclusive to the [GitHub repo][gd-github].
 
-This release also makes the the API much more more user-friendly than
+This release also makes the API much more user-friendly than
 previous versions with more consistent naming, flatter module structure
 and fewer redundancies.
 
 Thank you to all of the contributors who made this possible!
 
-A full list of a the changes are available in the [changelog][gd-changelog].
+A full list of the changes is available in the [changelog][gd-changelog].
 
 [gd-announcement]: https://godot-rust.github.io/releases/
 [gd-changelog]: https://github.com/godot-rust/godot-rust/blob/master/CHANGELOG.md
@@ -420,7 +415,7 @@ foundation layer or backend for your next app, game engine, or game.
 
 Version [v0.2.1] improves and adds features focusing on the creation of apps,
 like select mouse cursor or lazy loop among other things. The main focus was
-improve the integration with [egui] supporting all its features.
+to improve the integration with [egui] supporting all its features.
 
 [Notan]: https://github.com/Nazariglez/notan
 [v0.2.1]: https://github.com/Nazariglez/notan/releases/tag/v0.2.0
@@ -499,7 +494,7 @@ Twitter][twitter-iyesgames] for updates.
 by [@kettlecorn](kettlecorn_twitter)
 that released earlier this month.
 
-Bloom3D is built completely with Rust from user-interface to core algorithms.
+Bloom3D is built completely with Rust from the user interface to core algorithms.
 The game engine and many of the libraries powering Bloom3D are open-sourced on [GitHub][koi].
 
 [bloom3d]: https://bloom3d.com
@@ -521,13 +516,13 @@ The goals of Noumenal are:
 
 - Enjoyable to use on a mobile device
 - Accessible to as many people as possible
-- Real time solid modeling with boolean operations
+- Real-time solid modeling with boolean operations
 - Non-destructive editing and robustness to prevent data loss
 - Intuitive manipulation by projecting from the screen glass into 3D space
 - Export to the most widely used formats, such as glTF, USDZ, and STL for 3D
   printing
 
-These goals have lead to an unique interface.
+These goals have led to a unique interface.
 
 [noumenal-website]: https://noumenal.app
 [noumenal-discord]: https://discord.gg/PFeZQE48gG
@@ -627,7 +622,7 @@ render graph structure.
 
 Earlier this year [Screen 13] was updated with a dynamic graph pattern, but there
 was no good starter documentation and a few bugs. There is a [getting started][s13-getting-started]
-guide now! Also, a ton of new features that have been added in the last month:
+guide now! Also, a ton of new features have been added in the last month:
 
 - ImGui support
 - Mac support
@@ -638,10 +633,6 @@ For more details, see the [changelog][s13-change-log].
 [Screen 13]: https://github.com/attackgoat/screen-13
 [s13-getting-started]: https://github.com/attackgoat/screen-13/blob/master/examples/getting-started.md
 [s13-change-log]: https://github.com/attackgoat/screen-13/blob/master/CHANGELOG.md
-
-## Popular Workgroup Issues in Github
-
-<!-- Up to 10 links to interesting issues -->
 
 ## Other News
 
@@ -656,23 +647,39 @@ For more details, see the [changelog][s13-change-log].
 [sf-video]: https://www.youtube.com/watch?v=EF5iUJNFz94
 [Hedgein]: https://www.youtube.com/watch?v=qufQVtlYqrQ
 
-## Meeting Minutes
-
-<!-- Up to 10 most important notes + a link to the full details -->
-
-[See all meeting issues][label_meeting] including full text notes
-or [join the next meeting][join].
-
-[label_meeting]: https://github.com/rust-gamedev/wg/issues?q=label%3Ameeting
-
-## Discussions
-
-<!-- Links to handpicked reddit/twitter/urlo/etc threads that provide
-useful information -->
-
 ## Requests for Contribution
 
 <!-- Links to "good first issue"-labels or direct links to specific tasks -->
+
+- [Graphite is looking for contributors][graphite-contribute] to help build the
+new node graph and 2D rendering systems.
+- [winit's "difficulty: easy" issues][winit-issues].
+- [Backroll-rs, a new networking library][backroll-rs].
+- [Embark's open issues][embark-open-issues] ([embark.rs]).
+- [wgpu's "help wanted" issues][wgpu-issues].
+- [luminance's "low hanging fruit" issues][luminance-fruits].
+- [ggez's "good first issue" issues][ggez-issues].
+- [Veloren's "beginner" issues][veloren-beginner].
+- [Amethyst's "good first issue" issues][amethyst-issues].
+- [A/B Street's "good first issue" issues][abstreet-issues].
+- [Mun's "good first issue" issues][mun-issues].
+- [SIMple Mechanic's good first issues][simm-issues].
+- [Bevy's "good first issue" issues][bevy-issues].
+
+[graphite-contribute]: https://github.com/GraphiteEditor/Graphite/issues/202
+[winit-issues]: https://github.com/rust-windowing/winit/issues?q=is%3Aopen+is%3Aissue+label%3A%22difficulty%3A+easy%22
+[backroll-rs]: https://github.com/HouraiTeahouse/backroll-rs/issues
+[embark.rs]: https://embark.rs
+[embark-open-issues]: https://github.com/search?q=user:EmbarkStudios+state:open
+[wgpu-issues]: https://github.com/gfx-rs/wgpu/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
+[luminance-fruits]: https://github.com/phaazon/luminance-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22low+hanging+fruit%22
+[ggez-issues]: https://github.com/ggez/ggez/labels/%2AGOOD%20FIRST%20ISSUE%2A
+[veloren-beginner]: https://gitlab.com/veloren/veloren/issues?label_name=beginner
+[amethyst-issues]: https://github.com/amethyst/amethyst/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[abstreet-issues]: https://github.com/a-b-street/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
+[simm-issues]: https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue
+[bevy-issues]: https://github.com/bevyengine/bevy/labels/E-Good-First-Issue
 
 ## Jobs
 
@@ -685,11 +692,6 @@ useful information -->
 - [Embark Studios](https://careers.embark-studios.com/jobs)
   (Stockholm/Hybrid Remote)
   - Various roles
-
-## Bonus
-
-<!-- Bonus section to make the newsletter more interesting
-and highlight events from the past. -->
 
 ------
 
