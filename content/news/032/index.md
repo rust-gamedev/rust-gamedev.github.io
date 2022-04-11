@@ -191,7 +191,7 @@ The source code is available on [GitHub][chaz-source].
 [Warlock's Gambit][warlocks-gambit-itchio] is a puzzle game constructed like a
 card game, playable in the browser. You are given a static deck and have to play
 your cards carefully to beat your opponent. In keeping with the theme of the
-jam, the decks are stacked against you, in fact, it's impossible to win by
+jam, the decks are stacked against you. In fact, it's impossible to win by
 default. But you have a trick up your sleeve, literally. You can drag a card in
 your sleeve to play it later.
 
@@ -231,7 +231,7 @@ _Screenshot of V-Racer_
 V-Racer ([GitHub][vracer-github]) by
 [@Syn-Nine][synnine-twitter] is a retro
 drift racing game inspired by Atari
-Battlezone and Wipeout created using
+Battlezone and Wipeout, created using
 Syn9's [Rust Mini Game Framework][mgfw].
 The game is part of an open source
 [repository][s9-minigame-repo] of several
@@ -351,7 +351,7 @@ Latest developments:
 - The [mushroom biome][wor-mushroom] art was completed
 - All puzzles for the main game are complete
 - More secrets have been added
-- Four out of the five [characters][wor-characters] are now in game
+- Four out of the five [characters][wor-characters] are now in the game
 - `SDL_mixer` was replaced with a custom Rust mixer built on top of
 [libsoundio][wor-libsoundio]
 - Numerous minor bug fixes and quality of life improvements, you can find
@@ -385,13 +385,13 @@ async and serde support, more flexible exporting of Rust symbols to
 Godot, better CI and doc integration, among many more features that
 have previously been exclusive to the [GitHub repo][gd-github].
 
-This release also makes the the API much more more user-friendly than
+This release also makes the API much more user-friendly than
 previous versions with more consistent naming, flatter module structure
 and fewer redundancies.
 
 Thank you to all of the contributors who made this possible!
 
-A full list of a the changes are available in the [changelog][gd-changelog].
+A full list of the changes is available in the [changelog][gd-changelog].
 
 [gd-announcement]: https://godot-rust.github.io/releases/
 [gd-changelog]: https://github.com/godot-rust/godot-rust/blob/master/CHANGELOG.md
@@ -415,7 +415,7 @@ foundation layer or backend for your next app, game engine, or game.
 
 Version [v0.2.1] improves and adds features focusing on the creation of apps,
 like select mouse cursor or lazy loop among other things. The main focus was
-improve the integration with [egui] supporting all its features.
+to improve the integration with [egui] supporting all its features.
 
 [Notan]: https://github.com/Nazariglez/notan
 [v0.2.1]: https://github.com/Nazariglez/notan/releases/tag/v0.2.0
@@ -494,7 +494,7 @@ Twitter][twitter-iyesgames] for updates.
 by [@kettlecorn](kettlecorn_twitter)
 that released earlier this month.
 
-Bloom3D is built completely with Rust from user-interface to core algorithms.
+Bloom3D is built completely with Rust from the user interface to core algorithms.
 The game engine and many of the libraries powering Bloom3D are open-sourced on [GitHub][koi].
 
 [bloom3d]: https://bloom3d.com
@@ -516,13 +516,13 @@ The goals of Noumenal are:
 
 - Enjoyable to use on a mobile device
 - Accessible to as many people as possible
-- Real time solid modeling with boolean operations
+- Real-time solid modeling with boolean operations
 - Non-destructive editing and robustness to prevent data loss
 - Intuitive manipulation by projecting from the screen glass into 3D space
 - Export to the most widely used formats, such as glTF, USDZ, and STL for 3D
   printing
 
-These goals have lead to an unique interface.
+These goals have led to a unique interface.
 
 [noumenal-website]: https://noumenal.app
 [noumenal-discord]: https://discord.gg/PFeZQE48gG
@@ -622,7 +622,7 @@ render graph structure.
 
 Earlier this year [Screen 13] was updated with a dynamic graph pattern, but there
 was no good starter documentation and a few bugs. There is a [getting started][s13-getting-started]
-guide now! Also, a ton of new features that have been added in the last month:
+guide now! Also, a ton of new features have been added in the last month:
 
 - ImGui support
 - Mac support
