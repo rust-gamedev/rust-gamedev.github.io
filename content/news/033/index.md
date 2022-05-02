@@ -80,6 +80,10 @@ is a creator for classic role playing games (RPGs) written in Rust.
 
 Eldiron v0.5 features inbuild tile maps, a node based behavior system and region editors.
 
+Eldiron v1 will be able to create any kind of RPG utilizing square tiles.
+
+Eldiron: https://www.eldiron.com
+
 ## Learning Material Updates
 
 ## Tooling Updates
