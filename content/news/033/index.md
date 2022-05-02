@@ -70,6 +70,16 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Engine Updates
 
+### Eldiron
+
+![Eldiron Image](eldiron_screen.png)
+_Behavior Nodes of Eldiron_
+
+Eldiron ([GitHub](https://github.com/markusmoenig/Eldiron), [Discord](https://discord.gg/ZrNj6baSZU), [Twitter](https://twitter.com/MarkusMoenig)) by [@markusmoenig](https://github.com/markusmoenig)
+is a creator for classic role playing games (RPGs) written in Rust.
+
+Eldiron v0.5 features inbuild tile maps, a node based behavior system and region editors.
+
 ## Learning Material Updates
 
 ## Tooling Updates
