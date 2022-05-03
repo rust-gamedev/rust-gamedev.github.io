@@ -70,6 +70,51 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Engine Updates
 
+### [Bevy v0.7][bevy-blog]
+
+![bevy mushroom](bevy_mushroom.jpg)
+_Creative Commons 'Stylized mushrooms' scene by QumoDone rendered in Bevy._
+
+[Bevy][bevy] is a refreshingly simple data-driven game engine built in Rust. It is
+[free and open source][bevy-git] forever!
+
+Bevy 0.7 was a massive community effort. You can check out the
+[full release blog post here][bevy-blog], but here are some highlights:
+
+- [Skeletal animation and mesh skinning][bevy-animation]
+- [GLTF animation importing][bevy-gltf]
+- [Unlimited* point lights in a scene][bevy-unlimited]
+- [Improved clustered forward rendering: dynamic/adaptive clustering and faster, more accurate cluster assignment][bevy-light-opt]
+- [Compressed texture support (KTX2 / DDS / .basis): load more textures in a scene, faster][bevy-compressed]
+- [Compute shader / pipeline specialization: Bevy's flexible shader system was ported to compute shaders, enabling hot-reloading, shader defs, and shader imports][bevy-compute]
+- [Render to texture: cameras can now be configured to render to a texture instead of a window][bevy-render-texture]
+- [Flexible mesh vertex layouts in shaders][bevy-vertex]
+- [ECS improvements: Order systems using their names, Query::many_mut, use conflicting parameters in systems via ParamSets, WorldQuery derives][bevy-ecs]
+- [Documentation improvements: better examples, more doc tests and more coverage][bevy-docs]
+- [More audio control: pause, volume, speed, and looping][bevy-audio]
+- [Power usage options to enable only updating Bevy Apps when input occurs][bevy-power]
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/u4e63h/bevy_07/),
+[Hacker News](https://news.ycombinator.com/item?id=31043668),
+[Twitter](https://twitter.com/cart_cart/status/1515031150313443332)_
+
+[bevy]: https://bevyengine.org
+[bevy-git]: https://github.com/bevyengine/bevy
+[bevy-blog]: https://bevyengine.org/news/bevy-0-7
+[bevy-animation]: https://bevyengine.org/news/bevy-0-7/#skeletal-animation
+[bevy-gltf]: https://bevyengine.org/news/bevy-0-7/#gltf-animation-importing
+[bevy-unlimited]: https://bevyengine.org/news/bevy-0-7/#unlimited-point-lights
+[bevy-light-opt]: https://bevyengine.org/news/bevy-0-7/#light-clustering-features-and-optimizations
+[bevy-compressed]: https://bevyengine.org/news/bevy-0-7/#compressed-gpu-textures
+[bevy-compute]: https://bevyengine.org/news/bevy-0-7/#bevy-native-compute-shaders
+[bevy-render-texture]: https://bevyengine.org/news/bevy-0-7/#render-to-texture
+[bevy-vertex]: https://bevyengine.org/news/bevy-0-7/#flexible-mesh-vertex-layouts
+[bevy-ecs]: https://bevyengine.org/news/bevy-0-7/#ergonomic-system-ordering
+[bevy-docs]: https://bevyengine.org/news/bevy-0-7/#documentation-improvements
+[bevy-audio]: https://bevyengine.org/news/bevy-0-7/#audio-control
+[bevy-power]: https://bevyengine.org/news/bevy-0-7/#eventloop-power-saving-modes
+
 ## Learning Material Updates
 
 ## Tooling Updates
