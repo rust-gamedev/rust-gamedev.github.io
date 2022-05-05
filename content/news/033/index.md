@@ -76,8 +76,8 @@ If needed, a section can be split into subsections with a "------" delimiter.
 mechanics being produced by [@masonremaley][wor-mason-remaley] in a custom Rust
 engine. It has a demo available [on Steam][wor].
 
-Way of Rhea was recently [shown off at PAX East!][wor-pax]. A
-[minor patch][wor-update] has been released to [the demo][wor] since PAX:
+Way of Rhea was recently [shown off at PAX East!][wor-pax] A
+[minor patch][wor-update] has been released to the demo with post-PAX fixes:
 
 - An issue that made the last puzzle in the third forest level difficult to
 navigate with a controller was worked around
@@ -88,8 +88,7 @@ a gate if you held left while sliding)
 - A crash at startup on CPUs that don't support the `andn` instruction was fixed
 (part of the BMI extension to x64)
 - The game can now generate mini dumps on Windows and Linux in the event that it
-crashes, and if given consent, forward them to the developer for analysis for
-easier debugging
+crashes and if given consent, forward them to the developer for analysis
 
 You can stay up to date with the latest Way of Rhea developments by
 [following it on Steam][wor], signing up for [their mailing list][wor-newsletter],
