@@ -77,7 +77,7 @@ mechanics being produced by [@masonremaley][wor-mason-remaley] in a custom Rust
 engine. It has a demo available [on Steam][wor].
 
 Way of Rhea was recently [shown off at PAX East!][wor-pax]. A
-[minor patch][wor-patch] has been released to [the demo][wor] since PAX:
+[minor patch][wor-update] has been released to [the demo][wor] since PAX:
 
 - An issue that made the last puzzle in the third forest level difficult to
 navigate with a controller was worked around
