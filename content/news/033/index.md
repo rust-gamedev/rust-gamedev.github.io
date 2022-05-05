@@ -68,6 +68,37 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+
+### BITGUN
+
+![BITGUN gameplay](bitgun-release-optimized.gif)
+_BITGUN gameplay_
+
+[BITGUN] ([Discord], [Twitter]) by [@darth] and [@shosanna]
+is an action roguelite zombie shooter with difficult and satisfying combat you can learn and master. Guns break quickly and you lose all your gear when you die.
+
+The game was just released on Steam! It has been developed by a programming duo called LogLog Games.
+They have been working on it for the past year and it is their biggest game so far (they also have 2 smaller games).
+[BITGUN] is writen in Godot Engine but it is using Rust language extensively (it has around 7500 lines of Rust and 4200 lines of GDScript).
+
+
+The main changes from the demo version of the game:
+
+- New missions added with extra difficulty
+- New and improved AI which doesn't jump at the player directly but behaves a bit unpredictable
+- New zombie types - ranged zombie, big spider, zombie spawner
+- New comics parts of the story
+- Improved tutorial and new player experience
+- Reworked inventory system with simplified armor
+
+_Discussion: [/r/rust](https://www.reddit.com/r/rust/comments/uepde7/after_working_on_our_godot_rust_game_fulltime_for/)_
+
+[BITGUN]: https://store.steampowered.com/app/1673940/BITGUN/
+[Twitter]: https://twitter.com/LogLogGames
+[Discord]: https://discord.com/invite/XrGZQkq
+[@shosanna]: https://github.com/shosanna
+[@darth]: https://github.com/darthdeus
+
 ## Engine Updates
 
 ## Learning Material Updates
