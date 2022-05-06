@@ -77,9 +77,10 @@ _Foliage rendering in Dims_
 
 Dims is an open world game/experience creation platform.
 
-In their latest dev log they demonstrate their new foliage rendering and spawning
-system, where all a user needs to do is paint terrain and trees and foliage will
-spawn automatically, based on some user configable "habitat rules".
+In their latest [dev log](https://www.youtube.com/watch?v=jgkhsY8aZO8) they
+demonstrate their new foliage rendering and spawning system, where all a user
+needs to do is paint terrain and trees and foliage will spawn automatically,
+based on some user configable "habitat rules".
 
 They are also planing to host a screenshot competition soon, where anyone will
 be able to get access to the platform and get creative. Sign up for their
