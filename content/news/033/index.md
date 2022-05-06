@@ -75,13 +75,20 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ![dims foliage](dims.png)
 _Foliage rendering in Dims_
 
-The past few weeks we've focused on spawning foliage and rocks automatically 
-in the world, so whenever you paint a landscape now, you'll instantly see it 
-populate with a rich forest. We'll host a screenshot competition in the next 
-few weeks for anyone who would like to try this out for themselves! You can
-sign up to the newsletter on our website to get notified when it starts.
+Dims is an open world game/experience creation platform.
 
-_Discussions:
+In their latest dev log they demonstrate their new foliage rendering and spawning system,
+where all a user needs to do is paint terrain and trees and foliage will spawn automatically,
+based on some user configable "habitat rules".
+
+They are also planing to host a screenshot competition soon, where anyone will be able
+to get access to the platform and get creative. Sign up for their newsletter on their
+website to get notified when it starts!
+
+Latest dev log:
+[Foliage rendering dev log on youtube](https://youtu.be/jgkhsY8aZO8)
+
+Previous:
 [/r/rust](https://www.reddit.com/r/rust_gamedev/comments/tuj9dg/far_from_finished_but_heres_our_terrain_tool/),
 
 [Website]: https://dims.co
