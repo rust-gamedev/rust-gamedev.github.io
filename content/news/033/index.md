@@ -75,16 +75,18 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ![dims foliage](dims.png)
 _Foliage rendering in Dims_
 
-Dims is an open world game/experience creation platform.
+Dims is an open world creation platform.
 
 In their latest [dev log](https://www.youtube.com/watch?v=jgkhsY8aZO8) they
-demonstrate their new foliage rendering and spawning system, where all a user
-needs to do is paint terrain and trees and foliage will spawn automatically,
-based on some user configable "habitat rules".
+demonstrate a new foliage rendering and spawning system, which automatically
+spawns foliage and trees based on "habitat rules". This means a user
+can simply "paint" a world and it will get populated with plants and rocks
+automatically.
 
-They are also planing to host a screenshot competition soon, where anyone will
-be able to get access to the platform and get creative. Sign up for their
-newsletter on their website to get notified when it starts!
+They are also planing to host a screenshot competition in the next few weeks
+for anyone who would like to try out the platform and create their own
+landscapes. Sign up for the newsletter on their website to get notified when
+it starts!
 
 _Discussions:
 [Foliage rendering on reddit](https://www.reddit.com/r/rust_gamedev/comments/ujhr3c/the_start_of_a_tool_that_lets_you_tweak_how_and/),
