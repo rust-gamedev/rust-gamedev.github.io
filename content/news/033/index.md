@@ -85,9 +85,9 @@ They have been working on it for the past year and it is their biggest game so f
 The main changes from the demo version of the game:
 
 - New missions added with extra difficulty
-- New and improved AI which doesn't jump at the player directly but behaves a bit unpredictable
+- New and improved AI which doesn't just chase the player but behaves unpredictably
 - New zombie types - ranged zombie, big spider, zombie spawner
-- New comics parts of the story
+- Added comic-book style story
 - Improved tutorial and new player experience
 - Reworked inventory system with simplified armor
 
