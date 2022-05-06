@@ -85,11 +85,9 @@ They are also planing to host a screenshot competition soon, where anyone will b
 to get access to the platform and get creative. Sign up for their newsletter on their
 website to get notified when it starts!
 
-Latest dev log:
-[Foliage rendering dev log on youtube](https://youtu.be/jgkhsY8aZO8)
-
-Previous:
-[/r/rust](https://www.reddit.com/r/rust_gamedev/comments/tuj9dg/far_from_finished_but_heres_our_terrain_tool/),
+Latest dev logs:
+[Foliage rendering dev log on youtube](https://youtu.be/jgkhsY8aZO8), 
+[Erosion tool on reddit](https://www.reddit.com/r/rust_gamedev/comments/tuj9dg/far_from_finished_but_heres_our_terrain_tool/),
 
 [Website]: https://dims.co
 [Twitter]: https://twitter.com/DimsWorlds
