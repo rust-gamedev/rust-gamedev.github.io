@@ -77,17 +77,17 @@ _Foliage rendering in Dims_
 
 Dims is an open world game/experience creation platform.
 
-In their latest dev log they demonstrate their new foliage rendering and spawning system,
-where all a user needs to do is paint terrain and trees and foliage will spawn automatically,
-based on some user configable "habitat rules".
+In their latest dev log they demonstrate their new foliage rendering and spawning
+system, where all a user needs to do is paint terrain and trees and foliage will
+spawn automatically, based on some user configable "habitat rules".
 
-They are also planing to host a screenshot competition soon, where anyone will be able
-to get access to the platform and get creative. Sign up for their newsletter on their
-website to get notified when it starts!
+They are also planing to host a screenshot competition soon, where anyone will
+be able to get access to the platform and get creative. Sign up for their
+newsletter on their website to get notified when it starts!
 
-Latest dev logs:
-[Foliage rendering dev log on youtube](https://youtu.be/jgkhsY8aZO8), 
-[Erosion tool on reddit](https://www.reddit.com/r/rust_gamedev/comments/tuj9dg/far_from_finished_but_heres_our_terrain_tool/),
+_Discussions:
+[Foliage rendering on reddit](https://www.reddit.com/r/rust_gamedev/comments/ujhr3c/the_start_of_a_tool_that_lets_you_tweak_how_and/),
+[Erosion tool on reddit](https://www.reddit.com/r/rust_gamedev/comments/tuj9dg/far_from_finished_but_heres_our_terrain_tool/)_
 
 [Website]: https://dims.co
 [Twitter]: https://twitter.com/DimsWorlds
