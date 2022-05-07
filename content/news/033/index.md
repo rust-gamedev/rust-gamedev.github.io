@@ -72,7 +72,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### Dims
 
-![dims foliage](dims.png)
+![dims foliage](dims.jpg)
 _Foliage rendering in Dims_
 
 Dims is an open world creation platform.
