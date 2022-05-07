@@ -31,6 +31,7 @@ Feel free to send PRs about your own projects!
 [Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
+- [Rust GameDev Meetup](#rust-gamedev-meetup)
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
@@ -66,7 +67,58 @@ _Discussions:
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
+## Rust GameDev Meetup
+
+![Gamedev meetup poster](gamedev-meetup.png)
+
+The 15th Rust Gamedev Meetup took place in April. You can watch the
+recording of the meetup [here on Youtube][gamedev-meetup-video]. The meetups
+take place on the second Saturday every month via the [Rust Gamedev Discord
+server][rust-gamedev-discord] and are also [streamed on
+Twitch][rust-gamedev-twitch]. If you would like to show off what you've been
+working on at the next meetup on [May 14th][rust-meetup-time], fill out
+[this form][gamedev-meetup-form].
+
+[gamedev-meetup-video]: https://youtu.be/okWFrfaaADs
+[rust-gamedev-discord]: https://discord.gg/yNtPTb2
+[rust-gamedev-twitch]: https://twitch.tv/rustgamedev
+[rust-meetup-time]: https://everytimezone.com/s/1baaa280
+[gamedev-meetup-form]: https://forms.gle/BS1zCyZaiUFSUHxe6
+
 ## Game Updates
+
+### [Way of Rhea][wor]
+
+![way of rhea capsule image](wor-capsule.jpg)
+
+[Way of Rhea][wor] is a puzzle adventure with hard puzzles and forgiving
+mechanics being produced by [@masonremaley][wor-mason-remaley] in a custom Rust
+engine. It has a demo available [on Steam][wor].
+
+Way of Rhea was recently [shown off at PAX East!][wor-pax] A
+[minor patch][wor-update] has been released to the demo with post-PAX fixes:
+
+- An issue that made the last puzzle in the third forest level difficult to
+navigate with a controller was worked around
+- Colliders in the Hermes puzzle were fixed (previously you cold land on top of
+a gate if you held left while sliding)
+- The attract mode that was used at PAX has been merged (not in demo)
+- More jungle biome scenery has been placed (not in demo)
+- A crash at startup on CPUs that don't support the `andn` instruction was fixed
+(part of the BMI extension to x64)
+- The game can now generate mini dumps on Windows and Linux in the event that it
+crashes and if given consent, forward them to the developer for analysis
+
+You can stay up to date with the latest Way of Rhea developments by
+[following it on Steam][wor], signing up for [their mailing list][wor-newsletter],
+or joining [their Discord][wor-discord].
+
+[wor]: https://store.steampowered.com/app/1110620/Way_of_Rhea/?utm_campaign=tmirgd&utm_source=n33
+[wor-pax]: https://twitter.com/AnthropicSt/status/1517129411790843905
+[wor-update]: https://steamcommunity.com/games/1110620/announcements/detail/3175611379276019942?utm_campaign=tmirgd&utm_source=n32&utm_content=news
+[wor-mason-remaley]: https://twitter.com/masonremaley
+[wor-newsletter]: https://www.anthropicstudios.com/newsletter/signup
+[wor-discord]: https://discord.gg/JGeVt5XwPP
 
 ### BITGUN
 
@@ -104,11 +156,145 @@ _Discussion: [/r/rust](https://www.reddit.com/r/rust/comments/uepde7/after_worki
 [@shosanna]: https://github.com/shosanna
 [@darth]: https://github.com/darthdeus
 
+### [Veloren][veloren]
+
+![Riding at night](veloren.jpg)
+_Out for a ride at night_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+For April Fool's day, Veloren made a post about a new direction; [Need for
+Voxels: Veloren Cart][veloren-cart]. Enjoy the read! Veloren also participated
+in Reddit's /r/place, and got a small place right below /r/rust. Several months
+of project finances were processed, and [discussed in a blog
+post][veloren-finances]. The [Veloren Reading Club saw its 8th
+episode][veloren-reading-club-8], which was on the topic of graphics and
+particles. A [second Veloren Code Review session][veloren-code-review-2] was
+held, in which two developers went through a merge request that focused on
+combat numbers.
+
+Work was done to improve how loadouts work, specifically surrounding inheritance
+from other configs. Tweaks were made to arthropods, which should make them more
+fun to fight. Work is being done to prepare for the 0.13 release, with a custom
+map being built, and a special treasure map being created for the launch party.
+Player bank storages are being developed, which will allow players to store
+excess items in towns.
+
+April's full weekly devlogs: "This Week In Veloren...":
+[#166][veloren-166],
+[#167][veloren-167],
+[#168][veloren-168],
+[#169][veloren-169].
+
+[veloren]: https://veloren.net
+
+[veloren-cart]: https://veloren.net/veloren-direction/
+[veloren-finances]: https://veloren.net/devblog-167#finances-by-angelonfira
+[veloren-reading-club-8]: https://www.youtube.com/watch?v=ff9EXhCXmFY
+[veloren-code-review-2]: https://www.youtube.com/watch?v=keI0VpjkgZg
+
+[veloren-166]: https://veloren.net/devblog-166
+[veloren-167]: https://veloren.net/devblog-167
+[veloren-168]: https://veloren.net/devblog-168
+[veloren-169]: https://veloren.net/devblog-169
+
 ## Engine Updates
+
+### [Bevy v0.7][bevy-blog]
+
+![bevy mushroom](bevy_mushroom.jpg)
+_Creative Commons 'Stylized mushrooms' scene by QumoDone rendered in Bevy._
+
+[Bevy][bevy] is a refreshingly simple data-driven game engine built in Rust. It is
+[free and open source][bevy-git] forever!
+
+Bevy 0.7 was a massive community effort. You can check out the
+[full release blog post here][bevy-blog], but here are some highlights:
+
+- [Skeletal animation and mesh skinning][bevy-animation]
+- [GLTF animation importing][bevy-gltf]
+- [Unlimited* point lights in a scene][bevy-unlimited]
+- [Improved clustered forward rendering: dynamic/adaptive clustering and faster, more accurate cluster assignment][bevy-light-opt]
+- [Compressed texture support (KTX2 / DDS / .basis): load more textures in a scene, faster][bevy-compressed]
+- [Compute shader / pipeline specialization: Bevy's flexible shader system was ported to compute shaders, enabling hot-reloading, shader defs, and shader imports][bevy-compute]
+- [Render to texture: cameras can now be configured to render to a texture instead of a window][bevy-render-texture]
+- [Flexible mesh vertex layouts in shaders][bevy-vertex]
+- [ECS improvements: Order systems using their names, Query::many_mut, use conflicting parameters in systems via ParamSets, WorldQuery derives][bevy-ecs]
+- [Documentation improvements: better examples, more doc tests and more coverage][bevy-docs]
+- [More audio control: pause, volume, speed, and looping][bevy-audio]
+- [Power usage options to enable only updating Bevy Apps when input occurs][bevy-power]
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/u4e63h/bevy_07/),
+[Hacker News](https://news.ycombinator.com/item?id=31043668),
+[Twitter](https://twitter.com/cart_cart/status/1515031150313443332)_
+
+[bevy]: https://bevyengine.org
+[bevy-git]: https://github.com/bevyengine/bevy
+[bevy-blog]: https://bevyengine.org/news/bevy-0-7
+[bevy-animation]: https://bevyengine.org/news/bevy-0-7/#skeletal-animation
+[bevy-gltf]: https://bevyengine.org/news/bevy-0-7/#gltf-animation-importing
+[bevy-unlimited]: https://bevyengine.org/news/bevy-0-7/#unlimited-point-lights
+[bevy-light-opt]: https://bevyengine.org/news/bevy-0-7/#light-clustering-features-and-optimizations
+[bevy-compressed]: https://bevyengine.org/news/bevy-0-7/#compressed-gpu-textures
+[bevy-compute]: https://bevyengine.org/news/bevy-0-7/#bevy-native-compute-shaders
+[bevy-render-texture]: https://bevyengine.org/news/bevy-0-7/#render-to-texture
+[bevy-vertex]: https://bevyengine.org/news/bevy-0-7/#flexible-mesh-vertex-layouts
+[bevy-ecs]: https://bevyengine.org/news/bevy-0-7/#ergonomic-system-ordering
+[bevy-docs]: https://bevyengine.org/news/bevy-0-7/#documentation-improvements
+[bevy-audio]: https://bevyengine.org/news/bevy-0-7/#audio-control
+[bevy-power]: https://bevyengine.org/news/bevy-0-7/#eventloop-power-saving-modes
+
+### Dims
+
+![dims foliage](dims.jpg)
+_Foliage rendering in Dims_
+
+Dims is an open world creation platform.
+
+In their latest [dev log][dims-dev-log] they
+demonstrate a new foliage rendering and spawning system, which automatically
+spawns foliage and trees based on "habitat rules". This means a user
+can simply "paint" a world and it will get populated with plants and rocks
+automatically.
+
+They are also planning to host a screenshot competition in the next few weeks
+for anyone who would like to try out the platform and create their own
+landscapes. Sign up for the newsletter on their website to get notified when
+it starts!
+
+_Discussions:
+[Foliage rendering on reddit][dims-foliage],
+[Erosion tool on reddit][dims-erosion-tool]_
+
+[Website]: https://dims.co
+[Twitter]: https://twitter.com/DimsWorlds
+[Discord]: https://discord.gg/Z5CAVmNE57
+[dims-dev-log]: https://www.youtube.com/watch?v=jgkhsY8aZO8
+[dims-foliage]: https://www.reddit.com/r/rust_gamedev/comments/ujhr3c/the_start_of_a_tool_that_lets_you_tweak_how_and/
+[dims-erosion-tool]: https://www.reddit.com/r/rust_gamedev/comments/tuj9dg/far_from_finished_but_heres_our_terrain_tool/
 
 ## Learning Material Updates
 
 ## Tooling Updates
+
+### [Vismut 0.5][vismut-0.5]
+
+![Logo](vismut.png)
+
+[Vismut] ([GitLab][Vismut], [Zulip][vismut-zulip]) by [@lukors]
+will be a procedural texturing tool.
+
+[Version 0.5][vismut-0.5] contains a brand new backend to create a better base
+for future improvements. A [blog post][vismut-blog] describes the differences
+between the old and the new architecture.
+
+[@lukors]: https://gitlab.com/lukors
+[vismut-0.5]: https://gitlab.com/vismut-org/vismut/-/releases/v0.5.0
+[Vismut]: https://gitlab.com/vismut-org/vismut
+[vismut-zulip]: https://vismut.zulipchat.com
+[vismut-blog]: https://orsvarn.com/vismut-architecture/
 
 ## Library Updates
 
