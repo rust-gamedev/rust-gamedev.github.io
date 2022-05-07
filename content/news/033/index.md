@@ -68,6 +68,39 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Way of Rhea][wor]
+
+![way of rhea capsule image](wor-capsule.jpg)
+
+[Way of Rhea][wor] is a puzzle adventure with hard puzzles and forgiving
+mechanics being produced by [@masonremaley][wor-mason-remaley] in a custom Rust
+engine. It has a demo available [on Steam][wor].
+
+Way of Rhea was recently [shown off at PAX East!][wor-pax] A
+[minor patch][wor-update] has been released to the demo with post-PAX fixes:
+
+- An issue that made the last puzzle in the third forest level difficult to
+navigate with a controller was worked around
+- Colliders in the Hermes puzzle were fixed (previously you cold land on top of
+a gate if you held left while sliding)
+- The attract mode that was used at PAX has been merged (not in demo)
+- More jungle biome scenery has been placed (not in demo)
+- A crash at startup on CPUs that don't support the `andn` instruction was fixed
+(part of the BMI extension to x64)
+- The game can now generate mini dumps on Windows and Linux in the event that it
+crashes and if given consent, forward them to the developer for analysis
+
+You can stay up to date with the latest Way of Rhea developments by
+[following it on Steam][wor], signing up for [their mailing list][wor-newsletter],
+or joining [their Discord][wor-discord].
+
+[wor]: https://store.steampowered.com/app/1110620/Way_of_Rhea/?utm_campaign=tmirgd&utm_source=n33
+[wor-pax]: https://twitter.com/AnthropicSt/status/1517129411790843905
+[wor-update]: https://steamcommunity.com/games/1110620/announcements/detail/3175611379276019942?utm_campaign=tmirgd&utm_source=n32&utm_content=news
+[wor-mason-remaley]: https://twitter.com/masonremaley
+[wor-newsletter]: https://www.anthropicstudios.com/newsletter/signup
+[wor-discord]: https://discord.gg/JGeVt5XwPP
+
 ## Engine Updates
 
 ### [Bevy v0.7][bevy-blog]
