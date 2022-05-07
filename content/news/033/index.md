@@ -200,6 +200,26 @@ between the old and the new architecture.
 
 ## Library Updates
 
+### [Notan v0.3.0][Notan]
+
+![notan](notan.jpeg)
+
+[Notan] is a simple and portable layer designed to create your own multimedia
+apps on top of it without worrying about platform-specific code.
+
+The main goal is to provide a set of APIs and tools that can be used to create
+your project in an ergonomic manner without enforcing any structure or pattern,
+always trying to stay out of your way. The idea is that you can use it as a
+foundation layer or backend for your next app, game engine, or game.
+
+The latest version [v0.3.0] comes with audio support for all platforms
+using as default backend [oddio] and [symphonia].
+
+[Notan]: https://github.com/Nazariglez/notan
+[v0.3.0]: https://github.com/Nazariglez/notan/releases/tag/v0.3.0
+[oddio]: https://github.com/Ralith/oddio
+[symphonia]: https://github.com/pdeljanov/Symphonia
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
