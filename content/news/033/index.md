@@ -70,31 +70,32 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Engine Updates
 
-### Eldiron
+### [Eldiron]
 
 ![Eldiron Image](eldiron_screen.png)
 _Behavior Nodes of Eldiron_
 
-Eldiron ([GitHub](https://github.com/markusmoenig/Eldiron), [Discord](https://discord.gg/ZrNj6baSZU),
+[Eldiron] ([GitHub](https://github.com/markusmoenig/Eldiron), [Discord](https://discord.gg/ZrNj6baSZU),
 [Twitter](https://twitter.com/MarkusMoenig)) by [@markusmoenig](https://github.com/markusmoenig)
 is a creator for classic role playing games (RPGs) written in Rust.
 
-Eldiron v0.5 features inbuild tile maps, a node based behavior system and region editors.
+Eldiron v0.5 features inbuild tile maps, a node based behavior system
+and region editors.
 
 Development Updates in April:
 
 - Support for 4 layers of tiles for game regions.
-This enables transparency and support for top-down and isometric views.
+  This enables transparency and support for top-down and isometric views.
 - Game regions can now contain named areas.
 - Areas can contain behavior nodes to spawn monsters, lay traps or
-displace tiles (for example to open a door).
+  displace tiles (for example to open a door).
 - New "Systems" module to create behavior for Combat and soon for Crafting,
-Magic and more. System behavior trees can be called from any character.
+  Magic and more. System behavior trees can be called from any character.
 
 Eldiron v1 will be able to create any kind of RPG utilizing square tiles,
 like the classical Ultima series.
 
-Eldiron: https://www.eldiron.com
+[Eldiron]: https://www.eldiron.com
 
 ## Learning Material Updates
 
