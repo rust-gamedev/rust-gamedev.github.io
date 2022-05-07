@@ -80,7 +80,14 @@ is a creator for classic role playing games (RPGs) written in Rust.
 
 Eldiron v0.5 features inbuild tile maps, a node based behavior system and region editors.
 
-Eldiron v1 will be able to create any kind of RPG utilizing square tiles.
+Development Updates in April:
+
+* Support for 4 layers of tiles for game regions. This enables transparency and support for top-down and isometric views.
+* Game regions can now contain named areas.
+* Areas can contain behavior nodes to spawn monsters, lay traps or displace tiles (for example to open a door).
+* New "Systems" module to create behavior for Combat and soon for Crafting, Magic and more. System behavior trees can be called from any character.
+
+Eldiron v1 will be able to create any kind of RPG utilizing square tiles, like the classical Ultima series.
 
 Eldiron: https://www.eldiron.com
 
