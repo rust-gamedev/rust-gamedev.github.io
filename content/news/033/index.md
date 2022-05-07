@@ -101,6 +101,49 @@ or joining [their Discord][wor-discord].
 [wor-newsletter]: https://www.anthropicstudios.com/newsletter/signup
 [wor-discord]: https://discord.gg/JGeVt5XwPP
 
+### [Veloren][veloren]
+
+![Riding at night](veloren.jpg)
+_Out for a ride at night_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+For April Fool's day, Veloren made a post about a new direction; [Need for
+Voxels: Veloren Cart][veloren-cart]. Enjoy the read! Veloren also participated
+in Reddit's /r/place, and got a small place right below /r/rust. Several months
+of project finances were processed, and [discussed in a blog
+post][veloren-finances]. The [Veloren Reading Club saw its 8th
+episode][veloren-reading-club-8], which was on the topic of graphics and
+particles. A [second Veloren Code Review session][veloren-code-review-2] was
+held, in which two developers went through a merge request that focused on
+combat numbers.
+
+Work was done to improve how loadouts work, specifically surrounding inheritance
+from other configs. Tweaks were made to arthropods, which should make them more
+fun to fight. Work is being done to prepare for the 0.13 release, with a custom
+map being built, and a special treasure map being created for the launch party.
+Player bank storages are being developed, which will allow players to store
+excess items in towns.
+
+April's full weekly devlogs: "This Week In Veloren...":
+[#166][veloren-166],
+[#167][veloren-167],
+[#168][veloren-168],
+[#169][veloren-169].
+
+[veloren]: https://veloren.net
+
+[veloren-cart]: https://veloren.net/veloren-direction/
+[veloren-finances]: https://veloren.net/devblog-167#finances-by-angelonfira
+[veloren-reading-club-8]: https://www.youtube.com/watch?v=ff9EXhCXmFY
+[veloren-code-review-2]: https://www.youtube.com/watch?v=keI0VpjkgZg
+
+[veloren-166]: https://veloren.net/devblog-166
+[veloren-167]: https://veloren.net/devblog-167
+[veloren-168]: https://veloren.net/devblog-168
+[veloren-169]: https://veloren.net/devblog-169
+
 ## Engine Updates
 
 ### [Bevy v0.7][bevy-blog]
