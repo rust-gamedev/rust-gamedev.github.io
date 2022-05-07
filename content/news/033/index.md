@@ -152,6 +152,23 @@ _Discussions:
 
 ## Tooling Updates
 
+### [Vismut 0.5][vismut-0.5]
+
+![Logo](vismut.png)
+
+[Vismut] ([GitLab][Vismut], [Zulip][vismut-zulip]) by [@lukors]
+will be a procedural texturing tool.
+
+[Version 0.5][vismut-0.5] contains a brand new backend to create a better base
+for future improvements. A [blog post][vismut-blog] describes the differences
+between the old and the new architecture.
+
+[@lukors]: https://gitlab.com/lukors
+[vismut-0.5]: https://gitlab.com/vismut-org/vismut/-/releases/v0.5.0
+[Vismut]: https://gitlab.com/vismut-org/vismut
+[vismut-zulip]: https://vismut.zulipchat.com
+[vismut-blog]: https://orsvarn.com/vismut-architecture/
+
 ## Library Updates
 
 ## Popular Workgroup Issues in Github
