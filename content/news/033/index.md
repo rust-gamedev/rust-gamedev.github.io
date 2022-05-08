@@ -72,17 +72,17 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Learning Material Updates
 
-### [Game Development with Rust and WebAssembly](https://subscription.packtpub.com/product/game_development/9781801070973)
+### [Game Development with Rust and WebAssembly][wasm-gamedev]
 
 ![Game Development with Rust and WebAssembly Book Cover](game-development-rust-webassembly.png)
 
-A New Book!
-
-Game Development with Rust and WebAssembly by Eric Smith (a.k.a @paytonrules)
+[Game Development with Rust and WebAssembly][wasm-gamedev] by
+Eric Smith (a.k.a [@paytonrules][wasm-gamedev-twitter])
 was published in April. It takes a tutorial approach to leading the reader
-through building an endless runner using Rust and WebAssembly.
+through building an endless runner using Rust and WebAssembly. You can play
+the completed game [here][wasm-gamedev-game].
 
-From the Summary: This book is an easy-to-follow reference to help you develop
+From the summary: This book is an easy-to-follow reference to help you develop
 your own games, teaching you all about game development and how to create an
 endless runner from scratch. You'll begin by drawing simple graphics in the
 browser window, and then learn how to move the main character across the screen.
@@ -93,9 +93,11 @@ implement a procedurally generated world. Finally, you'll learn how to keep your
 Rust code clean and organized so you can continue to implement new features and
 deploy your app on the web.
 
-_Discussions:_ [twitter](https://www.twitter.com/paytonrules),
-[discord](https://discord.gg/EjAunSbpdV),
-[The Game You'll Build](https://rust-games-webassembly.netlify.app)
+_Discussions: [Twitter][wasm-gamedev-twitter], [Discord](https://discord.gg/EjAunSbpdV)_
+
+[wasm-gamedev]: https://subscription.packtpub.com/product/game_development/9781801070973
+[wasm-gamedev-twitter]: https://www.twitter.com/paytonrules
+[wasm-gamedev-game]: https://rust-games-webassembly.netlify.app
 
 ## Tooling Updates
 
