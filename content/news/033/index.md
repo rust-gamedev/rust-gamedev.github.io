@@ -181,10 +181,10 @@ _Discussions:
 
 ### [Why I choose to build my game from scratch][why-article]
 
-[@HeavyRain266] published an article [Why I choose to build my game from scratch][why-article],
-short story about implementation of the game "Forbidden Valley" from scratch in Rust.
-Author tries to point out, how much you can learn from building your dream game
-without help of any game engine.
+[@HeavyRain266] published an article, '[Why I choose to build my game from scratch][why-article]',
+a short story about their implementation of the game 'Forbidden Valley'
+from scratch in Rust. The author aims to show how much you can learn
+from building your dream game without the help of any game engine.
 
 _Discussions: [r/rust_gamedev][why-article]_
 
