@@ -199,6 +199,27 @@ April's full weekly devlogs: "This Week In Veloren...":
 [veloren-168]: https://veloren.net/devblog-168
 [veloren-169]: https://veloren.net/devblog-169
 
+### Oasis of Lost Hope
+
+![Oasis of Lost Hope](oasis-of-lost-hope.jpg)
+
+Oasis of Lost Hope is a game where fertile ground is steadily consumed by dark,
+barren land called blight. Water helps defend an area from being consumed, but
+reserves are finite. The player needs to collect ore to build more irrigation
+towers and delay doom for a few more seconds. Yet one thing is certain: the
+days of fertile land are counted.
+
+The game is an entry for the Ludum Dare 50 Jam, the theme of which was "Delay
+the Inevitable". It has been developed by setzer22 and Bromeon and
+[open-sourced on GitHub][oasis-gh]. The game is built on top of godot-rust
+alongside GDScript. The Rust language is not exactly known for fast
+prototyping, but with a slightly less safety-conservative fork of godot-rust,
+the game jam experience was surprisingly smooth. When modeling mechanics such
+as the expanding blight or the water pipe network, Rust really showed its
+strength as a strongly typed and fast language.
+
+[oasis-gh]: https://github.com/Bromeon/LudumDare50
+
 ## Engine Updates
 
 ### [Bevy v0.7][bevy-blog]
