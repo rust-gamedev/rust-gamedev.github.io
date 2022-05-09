@@ -335,24 +335,24 @@ experience.
 The past month's Sprint 14 has focused on further editor features and UX
 improvements.
 
-**It's your type**
+#### It's your type
 
 The Text tool now provides over 1400 font families from the Google Fonts
 library plus bold and italic styles.
 
-**Oh snap!**
+#### Oh snap!
 
 A refactor and polish pass on the snapping system provides better clarity and
 consistency. And shapes now have outlines on hover and selection for easier
 selectability.
 
-**Have a dialog**
+#### Have a dialog
 
 Supported by a refactor that moved dialog layouts into the Rust backend, users
 can now create new documents of specified sizes and export artwork as PNG/JPG
 with new dialogs in the File menu.
 
-**Pack it up**
+#### Pack it up
 
 The web component of the stack was finally upgraded to Webpack 5 which cleans
 up a mess of outdated dependencies.
