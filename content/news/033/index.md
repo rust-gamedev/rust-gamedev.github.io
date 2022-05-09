@@ -327,46 +327,36 @@ between the old and the new architecture.
 
 ![Graphite](graphite.png)
 
-Graphite is an in-development raster and vector 2D graphics editor that is free
-and open source. It will be powered by a node graph compositing engine that
-supercharges your layer stack, providing a completely non-destructive editing
-experience.
+Graphite ([website][graphite-website], [GitHub][graphite-repo],
+[Discord][graphite-discord], [Twitter][graphite-twitter]) is a free
+in-development raster and vector 2D graphics editor. It will be powered by a
+node graph compositing engine that supercharges your layer stack, providing a
+completely non-destructive editing experience.
 
 The past month's Sprint 14 has focused on further editor features and UX
-improvements.
+improvements:
 
-#### It's your type
+- **It's your type:** The Text tool now provides over 1400 fonts with
+bold/italic styles from the Google Fonts library.
 
-The Text tool now provides over 1400 font families from the Google Fonts
-library plus bold and italic styles.
+- **Oh snap!:** A refactor and polish pass on the snapping system provides
+better clarity and consistency. And shapes now have outlines on hover and
+selection for easier targeting.
 
-#### Oh snap!
+- **Have a dialog:** Supported by a refactor that moved dialog layouts into the
+Rust backend, users can now create new documents of specified sizes and export
+artwork as PNG/JPG with new File menu dialogs.
 
-A refactor and polish pass on the snapping system provides better clarity and
-consistency. And shapes now have outlines on hover and selection for easier
-selectability.
+- **Pack it up:** The web component of the stack was finally upgraded to
+Webpack 5 which cleans up a mess of outdated dependencies.
 
-#### Have a dialog
-
-Supported by a refactor that moved dialog layouts into the Rust backend, users
-can now create new documents of specified sizes and export artwork as PNG/JPG
-with new dialogs in the File menu.
-
-#### Pack it up
-
-The web component of the stack was finally upgraded to Webpack 5 which cleans
-up a mess of outdated dependencies.
-
-Visit the [website][graphite-website], open the
-[Graphite editor][graphite-live-demo] in your browser, star on
-[GitHub][graphite-repo], follow on [Twitter][graphite-twitter], and join the
-[Discord][graphite-discord] to chat or get involved!
+[Open the editor][graphite-live-demo] in your browser and give it a try.
 
 [graphite-website]: https://graphite.rs
-[graphite-live-demo]: https://editor.graphite.rs
 [graphite-repo]: https://github.com/GraphiteEditor/Graphite
-[graphite-twitter]: https://twitter.com/GraphiteEditor
 [graphite-discord]: https://discord.graphite.rs
+[graphite-twitter]: https://twitter.com/GraphiteEditor
+[graphite-live-demo]: https://editor.graphite.rs
 
 ## Library Updates
 
