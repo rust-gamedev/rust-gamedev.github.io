@@ -236,10 +236,6 @@ _Links:
 [ees-reddit]: https://www.reddit.com/r/rust_gamedev/comments/u9zqrc/scored_top_3_in_fun_with_my_ludum_dare_game/
 [@kuviman]: https://github.com/kuviman
 
-[Circle Race]: https://kuviman.itch.io/circle-race
-[TriJam 135]: https://itch.io/jam/trijam-135
-[geng]: https://github.com/kuviman/geng/
-
 ## Engine Updates
 
 ### [Bevy v0.7][bevy-blog]
