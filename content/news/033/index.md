@@ -199,6 +199,16 @@ April's full weekly devlogs: "This Week In Veloren...":
 [veloren-168]: https://veloren.net/devblog-168
 [veloren-169]: https://veloren.net/devblog-169
 
+### RustConf Arcade Cabinet
+
+![arcade cabinet](arcade_cabinet.gif)
+
+[Carlo][carlosupina] building a custom arcade cabinet that will be at RustConf 2022 in Portland. It is an opportunity for Rust gamedevs to share their games with the broader community. If you are interested in getting your game on the cabinet, read this twitter [thread][arcade-cabinet-thread] and fill out the [interest form][arcade-interest-form].
+
+[carlosupina]: https://twitter.com/carlosupina
+[arcade-cabinet-thread]: https://twitter.com/carlosupina/status/1523715837726961664
+[arcade-interest-form]: https://forms.gle/onFm5fCygdbiArqJ7
+
 ## Engine Updates
 
 ### [Bevy v0.7][bevy-blog]
