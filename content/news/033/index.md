@@ -362,6 +362,41 @@ between the old and the new architecture.
 [vismut-zulip]: https://vismut.zulipchat.com
 [vismut-blog]: https://orsvarn.com/vismut-architecture/
 
+### [Graphite][graphite-website]
+
+![Graphite](graphite.png)
+
+Graphite ([website][graphite-website], [GitHub][graphite-repo],
+[Discord][graphite-discord], [Twitter][graphite-twitter]) is a free
+in-development raster and vector 2D graphics editor. It will be powered by a
+node graph compositing engine that supercharges your layer stack, providing a
+completely non-destructive editing experience.
+
+The past month's Sprint 14 has focused on further editor features and UX
+improvements:
+
+- **It's your type:** The Text tool now provides over 1400 fonts with
+bold/italic styles from the Google Fonts library.
+
+- **Oh snap!:** A refactor and polish pass on the snapping system provides
+better clarity and consistency. And shapes now have outlines on hover and
+selection for easier targeting.
+
+- **Have a dialog:** Supported by a refactor that moved dialog layouts into the
+Rust backend, users can now create new documents of specified sizes and export
+artwork as PNG/JPG with new File menu dialogs.
+
+- **Pack it up:** The web component of the stack was finally upgraded to
+Webpack 5 which cleans up a mess of outdated dependencies.
+
+[Open the editor][graphite-live-demo] in your browser and give it a try.
+
+[graphite-website]: https://graphite.rs
+[graphite-repo]: https://github.com/GraphiteEditor/Graphite
+[graphite-discord]: https://discord.graphite.rs
+[graphite-twitter]: https://twitter.com/GraphiteEditor
+[graphite-live-demo]: https://editor.graphite.rs
+
 ## Library Updates
 
 ### [Notan v0.3.0][Notan]
