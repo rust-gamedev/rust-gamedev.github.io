@@ -31,8 +31,7 @@ Feel free to send PRs about your own projects!
 [Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
-- [Rust GameDev Meetup](#rust-gamedev-meetup)
-- [Rust Graphics Meetup](#rust-graphics-meetup)
+- [IRL Events](#irl-events)
 - [Game Updates](#game-updates)
 - [Engine Updates](#engine-updates)
 - [Learning Material Updates](#learning-material-updates)
