@@ -33,19 +33,10 @@ Feel free to send PRs about your own projects!
 
 - [Rust GameDev Meetup](#rust-gamedev-meetup)
 - [Game Updates](#game-updates)
-  - [Way of Rhea](#way-of-rhea)
-  - [BITGUN](#bitgun)
-  - [Veloren](#veloren)
 - [Engine Updates](#engine-updates)
-  - [Bevy v0.7](#bevy-v07)
-  - [Dims](#dims)
-  - [[Eldiron]](#eldiron)
-  - [Hotham](#hotham)
 - [Learning Material Updates](#learning-material-updates)
 - [Tooling Updates](#tooling-updates)
-  - [Vismut 0.5](#vismut-05)
 - [Library Updates](#library-updates)
-  - [Notan v0.3.0](#notan-v030)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Other News](#other-news)
 - [Meeting Minutes](#meeting-minutes)
@@ -311,15 +302,25 @@ like the classical Ultima series.
 
 [Eldiron]: https://www.eldiron.com
 
-### [Hotham](https://github.com/leetvr/hotham)
+### [Hotham][hotham]
+
 ![Hotham Image](hotham.png)
-_Screenshot from *The Station*, an upcoming space station simulaton game, built with Hotham_
+_Screenshot from The Station, an upcoming space station simulaton game, built
+with Hotham_
 
-[Hotham](https://github.com/leetvr/hotham) is a game engine for standalone VR devices, trying to make VR development just a little bit less painful.
+[Hotham][hotham] is a game engine for standalone VR devices, trying to make VR
+development just a little bit less painful.
 
-0.2 has been released with some _breathtaking_ maintenance and performance improvements that make Hotham marginally easier to use. If you're interested in Rust and VR and haven't checked out the project already, now is an excellent time to do so.
+0.2 has been released with some _breathtaking_ maintenance and performance
+improvements that make Hotham marginally easier to use. If you're interested in
+Rust and VR and haven't checked out the project already, now is an excellent
+time to do so.
 
-A huge thank you to our sponsors and contributors (big hat-tip to @jmgao) and the wonderful members of the [Hotham discord](https://discord.com/invite/SZEZUX6ZsQ).
+A huge thank you to our sponsors and contributors (big hat-tip to @jmgao) and
+the wonderful members of the [Hotham discord][hotham-discord].
+
+[hotham]: https://github.com/leetvr/hotham
+[hotham-discord]: https://discord.gg/SZEZUX6ZsQ
 
 ## Learning Material Updates
 
