@@ -31,6 +31,7 @@ Feel free to send PRs about your own projects!
 [Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
+- [Rust GameDev Meetup](#rust-gamedev-meetup)
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
@@ -66,6 +67,24 @@ _Discussions:
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
+## Rust GameDev Meetup
+
+![Gamedev meetup poster](gamedev-meetup.png)
+
+The 15th Rust Gamedev Meetup took place in April. You can watch the
+recording of the meetup [here on Youtube][gamedev-meetup-video]. The meetups
+take place on the second Saturday every month via the [Rust Gamedev Discord
+server][rust-gamedev-discord] and are also [streamed on
+Twitch][rust-gamedev-twitch]. If you would like to show off what you've been
+working on at the next meetup on [May 14th][rust-meetup-time], fill out
+[this form][gamedev-meetup-form].
+
+[gamedev-meetup-video]: https://youtu.be/okWFrfaaADs
+[rust-gamedev-discord]: https://discord.gg/yNtPTb2
+[rust-gamedev-twitch]: https://twitch.tv/rustgamedev
+[rust-meetup-time]: https://everytimezone.com/s/1baaa280
+[gamedev-meetup-form]: https://forms.gle/BS1zCyZaiUFSUHxe6
+
 ## Game Updates
 
 ### [Way of Rhea][wor]
@@ -100,6 +119,85 @@ or joining [their Discord][wor-discord].
 [wor-mason-remaley]: https://twitter.com/masonremaley
 [wor-newsletter]: https://www.anthropicstudios.com/newsletter/signup
 [wor-discord]: https://discord.gg/JGeVt5XwPP
+
+### BITGUN
+
+![BITGUN gameplay](bitgun-release-optimized.gif)
+_BITGUN gameplay_
+
+[BITGUN] ([Discord], [Twitter]) by [@darth] and [@shosanna]
+is an action roguelite zombie shooter with difficult and
+satisfying combat you can learn and master.
+Guns break quickly and you lose all your gear when you die.
+
+The game was just released on Steam!
+It has been developed by a programming duo
+called LogLog Games.
+They have been working on it for the past year and it is
+their biggest game so far (they also have 2 smaller games).
+[BITGUN] is writen in Godot Engine but it is using
+Rust language extensively (it has around 7500 lines of Rust
+and 4200 lines of GDScript).
+
+The main changes from the demo version of the game:
+
+- New missions added with extra difficulty
+- Improved AI which doesn't just chase the player but behaves unpredictably
+- New zombie types - ranged zombie, big spider, zombie spawner
+- Added comic-book style story
+- Improved tutorial and new player experience
+- Reworked inventory system with simplified armor
+
+_Discussion: [/r/rust](https://www.reddit.com/r/rust/comments/uepde7/after_working_on_our_godot_rust_game_fulltime_for/)_
+
+[BITGUN]: https://store.steampowered.com/app/1673940/BITGUN/
+[Twitter]: https://twitter.com/LogLogGames
+[Discord]: https://discord.com/invite/XrGZQkq
+[@shosanna]: https://github.com/shosanna
+[@darth]: https://github.com/darthdeus
+
+### [Veloren][veloren]
+
+![Riding at night](veloren.jpg)
+_Out for a ride at night_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+For April Fool's day, Veloren made a post about a new direction; [Need for
+Voxels: Veloren Cart][veloren-cart]. Enjoy the read! Veloren also participated
+in Reddit's /r/place, and got a small place right below /r/rust. Several months
+of project finances were processed, and [discussed in a blog
+post][veloren-finances]. The [Veloren Reading Club saw its 8th
+episode][veloren-reading-club-8], which was on the topic of graphics and
+particles. A [second Veloren Code Review session][veloren-code-review-2] was
+held, in which two developers went through a merge request that focused on
+combat numbers.
+
+Work was done to improve how loadouts work, specifically surrounding inheritance
+from other configs. Tweaks were made to arthropods, which should make them more
+fun to fight. Work is being done to prepare for the 0.13 release, with a custom
+map being built, and a special treasure map being created for the launch party.
+Player bank storages are being developed, which will allow players to store
+excess items in towns.
+
+April's full weekly devlogs: "This Week In Veloren...":
+[#166][veloren-166],
+[#167][veloren-167],
+[#168][veloren-168],
+[#169][veloren-169].
+
+[veloren]: https://veloren.net
+
+[veloren-cart]: https://veloren.net/veloren-direction/
+[veloren-finances]: https://veloren.net/devblog-167#finances-by-angelonfira
+[veloren-reading-club-8]: https://www.youtube.com/watch?v=ff9EXhCXmFY
+[veloren-code-review-2]: https://www.youtube.com/watch?v=keI0VpjkgZg
+
+[veloren-166]: https://veloren.net/devblog-166
+[veloren-167]: https://veloren.net/devblog-167
+[veloren-168]: https://veloren.net/devblog-168
+[veloren-169]: https://veloren.net/devblog-169
 
 ## Engine Updates
 
@@ -177,7 +275,61 @@ _Discussions:
 [dims-foliage]: https://www.reddit.com/r/rust_gamedev/comments/ujhr3c/the_start_of_a_tool_that_lets_you_tweak_how_and/
 [dims-erosion-tool]: https://www.reddit.com/r/rust_gamedev/comments/tuj9dg/far_from_finished_but_heres_our_terrain_tool/
 
+### [Eldiron]
+
+![Eldiron Image](eldiron_screen.png)
+_Behavior Nodes of Eldiron_
+
+[Eldiron] ([GitHub](https://github.com/markusmoenig/Eldiron), [Discord](https://discord.gg/ZrNj6baSZU),
+[Twitter](https://twitter.com/MarkusMoenig)) by [@markusmoenig](https://github.com/markusmoenig)
+is a creator for classic role playing games (RPGs) written in Rust.
+
+Eldiron v0.5 features inbuild tile maps, a node based behavior system
+and region editors.
+
+Development Updates in April:
+
+- Support for 4 layers of tiles for game regions.
+  This enables transparency and support for top-down and isometric views.
+- Game regions can now contain named areas.
+- Areas can contain behavior nodes to spawn monsters, lay traps or
+  displace tiles (for example to open a door).
+- New "Systems" module to create behavior for Combat and soon for Crafting,
+  Magic and more. System behavior trees can be called from any character.
+
+Eldiron v1 will be able to create any kind of RPG utilizing square tiles,
+like the classical Ultima series.
+
+[Eldiron]: https://www.eldiron.com
+
 ## Learning Material Updates
+
+### [Game Development with Rust and WebAssembly][wasm-gamedev]
+
+![Game Development with Rust and WebAssembly Book Cover](game-development-rust-webassembly.png)
+
+[Game Development with Rust and WebAssembly][wasm-gamedev] by
+Eric Smith (a.k.a [@paytonrules][wasm-gamedev-twitter])
+was published in April. It takes a tutorial approach to leading the reader
+through building an endless runner using Rust and WebAssembly. You can play
+the completed game [here][wasm-gamedev-game].
+
+From the summary: This book is an easy-to-follow reference to help you develop
+your own games, teaching you all about game development and how to create an
+endless runner from scratch. You'll begin by drawing simple graphics in the
+browser window, and then learn how to move the main character across the screen.
+You'll also create a game loop, a renderer, and more, all written entirely in
+Rust. After getting simple shapes onto the screen, you'll scale the challenge by
+adding sprites, sounds, and user input. As you advance, you'll discover how to
+implement a procedurally generated world. Finally, you'll learn how to keep your
+Rust code clean and organized so you can continue to implement new features and
+deploy your app on the web.
+
+_Discussions: [Twitter][wasm-gamedev-twitter], [Discord](https://discord.gg/EjAunSbpdV)_
+
+[wasm-gamedev]: https://subscription.packtpub.com/product/game_development/9781801070973
+[wasm-gamedev-twitter]: https://www.twitter.com/paytonrules
+[wasm-gamedev-game]: https://rust-games-webassembly.netlify.app
 
 ### [Why I choose to build my game from scratch][why-article]
 
@@ -211,6 +363,26 @@ between the old and the new architecture.
 [vismut-blog]: https://orsvarn.com/vismut-architecture/
 
 ## Library Updates
+
+### [Notan v0.3.0][Notan]
+
+![notan](notan.jpeg)
+
+[Notan] is a simple and portable layer designed to create your own multimedia
+apps on top of it without worrying about platform-specific code.
+
+The main goal is to provide a set of APIs and tools that can be used to create
+your project in an ergonomic manner without enforcing any structure or pattern,
+always trying to stay out of your way. The idea is that you can use it as a
+foundation layer or backend for your next app, game engine, or game.
+
+The latest version [v0.3.0] comes with audio support for all platforms
+using as default backend [oddio] and [symphonia].
+
+[Notan]: https://github.com/Nazariglez/notan
+[v0.3.0]: https://github.com/Nazariglez/notan/releases/tag/v0.3.0
+[oddio]: https://github.com/Ralith/oddio
+[symphonia]: https://github.com/pdeljanov/Symphonia
 
 ## Popular Workgroup Issues in Github
 
