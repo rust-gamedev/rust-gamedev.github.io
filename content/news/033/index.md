@@ -32,6 +32,7 @@ Feel free to send PRs about your own projects!
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
 - [Rust GameDev Meetup](#rust-gamedev-meetup)
+- [Rust Graphics Meetup](#rust-graphics-meetup)
 - [Game Updates](#game-updates)
 - [Engine Updates](#engine-updates)
 - [Learning Material Updates](#learning-material-updates)
@@ -84,6 +85,20 @@ working on at the next meetup on [May 14th][rust-meetup-time], fill out
 [rust-gamedev-twitch]: https://twitch.tv/rustgamedev
 [rust-meetup-time]: https://everytimezone.com/s/1baaa280
 [gamedev-meetup-form]: https://forms.gle/BS1zCyZaiUFSUHxe6
+
+## Rust Graphics Meetup 2
+
+The 2nd Rust Graphics Meetup will take place on the [21st of May, at 16:00
+UTC+0][graphics-meetup-time]. This meetup is a chance to show off what you've
+been working on in the graphics community, or see what other people have doing!
+
+If you're interested in speaking, please fill out the
+[form][graphics-meetup-form]. You can also [watch one of the
+talks][rend3-graphics-meetup-talk] from the first meetup.
+
+[graphics-meetup-form]: https://forms.gle/DyvZ4WFZanTaLGGa7
+[graphics-meetup-time]: https://everytimezone.com/s/b6ec5c17
+[rend3-graphics-meetup-talk]: https://www.youtube.com/watch?v=F0wGz5UJTrY
 
 ## Game Updates
 
