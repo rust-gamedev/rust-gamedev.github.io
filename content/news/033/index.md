@@ -31,7 +31,7 @@ Feel free to send PRs about your own projects!
 [Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
-- [Rust GameDev Meetup](#rust-gamedev-meetup)
+- [IRL Events](#irl-events)
 - [Game Updates](#game-updates)
 - [Engine Updates](#engine-updates)
 - [Learning Material Updates](#learning-material-updates)
@@ -67,7 +67,9 @@ _Discussions:
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
-## Rust GameDev Meetup
+## IRL Events
+
+### Rust GameDev Meetup
 
 ![Gamedev meetup poster](gamedev-meetup.png)
 
@@ -84,6 +86,20 @@ working on at the next meetup on [May 14th][rust-meetup-time], fill out
 [rust-gamedev-twitch]: https://twitch.tv/rustgamedev
 [rust-meetup-time]: https://everytimezone.com/s/1baaa280
 [gamedev-meetup-form]: https://forms.gle/BS1zCyZaiUFSUHxe6
+
+### RustConf Arcade Cabinet
+
+![arcade cabinet](arcade_cabinet.gif)
+
+[Carlo][carlosupina] is building a custom arcade cabinet that will be at
+RustConf 2022 in Portland. It is an opportunity for Rust gamedevs to share their
+games with the broader community. If you are interested in getting your game on
+the cabinet, read [this Twitter thread][arcade-cabinet-thread] and fill out the
+[interest form][arcade-interest-form].
+
+[carlosupina]: https://twitter.com/carlosupina
+[arcade-cabinet-thread]: https://twitter.com/carlosupina/status/1523715837726961664
+[arcade-interest-form]: https://forms.gle/onFm5fCygdbiArqJ7
 
 ## Game Updates
 
@@ -198,20 +214,6 @@ April's full weekly devlogs: "This Week In Veloren...":
 [veloren-167]: https://veloren.net/devblog-167
 [veloren-168]: https://veloren.net/devblog-168
 [veloren-169]: https://veloren.net/devblog-169
-
-### RustConf Arcade Cabinet
-
-![arcade cabinet](arcade_cabinet.gif)
-
-[Carlo][carlosupina] is building a custom arcade cabinet that will be at
-RustConf 2022 in Portland. It is an opportunity for Rust gamedevs to share their
-games with the broader community. If you are interested in getting your game on
-the cabinet, read [this Twitter thread][arcade-cabinet-thread] and fill out the
-[interest form][arcade-interest-form].
-
-[carlosupina]: https://twitter.com/carlosupina
-[arcade-cabinet-thread]: https://twitter.com/carlosupina/status/1523715837726961664
-[arcade-interest-form]: https://forms.gle/onFm5fCygdbiArqJ7
 
 ### Oasis of Lost Hope
 
