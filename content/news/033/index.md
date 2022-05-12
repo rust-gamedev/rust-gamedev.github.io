@@ -203,11 +203,10 @@ April's full weekly devlogs: "This Week In Veloren...":
 
 ![Extremely Extreme Sports](extremely-extreme-sports.gif)
 
-[Extremely Extreme Sports][ees-itch] ([GitHub][ees-github], [Discord][ees-discord])
-is a multiplayer online downhill racing game
-[made for Ludum Dare 50 game jam][ees-ldjam], scored top 3 in fun.
-
-Explode the mountain, and race against the avalanche as well as your friends.
+[Extremely Extreme Sports][ees-itch] ([GitHub][ees-github],
+[Discord][ees-discord]) is a multiplayer online downhill racing game [made for
+Ludum Dare 50 game jam][ees-ldjam], scored top 3 in fun. Explode the mountain,
+and race against the avalanche as well as your friends.
 
 Features:
 
@@ -216,11 +215,9 @@ Features:
 - Emoting
 - A little bit of gameplay
 
-Developed by [@kuviman] using [custom engine][ees-geng].
-
-[Postmortem blog post][ees-postmortem] was written about the jam experience.
-
-Now includes postjam updates.
+Developed by [@kuviman] using [custom engine][ees-geng]. A [postmortem blog
+post][ees-postmortem] was written about the jam experience, and it includes
+postjam updates.
 
 _Discussions: [/r/rust_gamedev][ees-reddit]_
 
