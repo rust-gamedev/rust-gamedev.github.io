@@ -331,6 +331,18 @@ _Discussions: [Twitter][wasm-gamedev-twitter], [Discord](https://discord.gg/EjAu
 [wasm-gamedev-twitter]: https://www.twitter.com/paytonrules
 [wasm-gamedev-game]: https://rust-games-webassembly.netlify.app
 
+### [Why I choose to build my game from scratch][why-article]
+
+[@HeavyRain266] published an article, '[Why I choose to build my game from scratch][why-article]',
+a short story about their implementation of the game 'Forbidden Valley'
+from scratch in Rust. The author aims to show how much you can learn
+from building your dream game without the help of any game engine.
+
+_Discussions: [r/rust_gamedev][why-article]_
+
+[@HeavyRain266]: https://github.com/HeavyRain266
+[why-article]: https://www.reddit.com/r/rust_gamedev/comments/uewu9h/reasons_why_i_choose_to_build_my_game_from/
+
 ## Tooling Updates
 
 ### [Vismut 0.5][vismut-0.5]
