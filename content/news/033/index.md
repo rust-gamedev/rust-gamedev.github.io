@@ -446,6 +446,22 @@ _Discussions: [r/rust_gamedev][why-article]_
 [@HeavyRain266]: https://github.com/HeavyRain266
 [why-article]: https://www.reddit.com/r/rust_gamedev/comments/uewu9h/reasons_why_i_choose_to_build_my_game_from/
 
+### [Brontefy Me][brontefy-me-episode-1]
+
+![devlog logo](brontefy-me.jpg)
+
+@hedgein ([Github][hedgein-github], [Twitch][hedgein-twitch]) started a
+devlog series called Brontefy Me. This series walks through development
+of games in the [Bevy engine][bevy]. There are two episodes released so
+far. The [first episode][brontefy-me-episode-1] focuses on getting up
+and running with the engine, and the [second episode][brontefy-me-episode-2]
+starts expanding into game mechanics.
+
+[brontefy-me-episode-1]: https://www.youtube.com/watch?v=DdD6VhmEIiU
+[brontefy-me-episode-2]: https://www.youtube.com/watch?v=tx31BKX0yIA
+[hedgein-github]: https://github.com/hedgein
+[hedgein-twitch]: https://twitch.tv/hedgein
+
 ## Tooling Updates
 
 ### [Vismut 0.5][vismut-0.5]
