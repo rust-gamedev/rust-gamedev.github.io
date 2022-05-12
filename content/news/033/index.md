@@ -419,11 +419,12 @@ _Discussions: [r/rust_gamedev][why-article]_
 
 ![devlog logo](brontefy-me.jpg)
 
-@hedgein ([Github][hedgein-github], [Twitch][hedgein-twitch]) started a devlog series called Brontefy Me. This
-series walks through development of games in the [Bevy engine][bevy]. There are
-two episodes released so far. The [first episode][brontefy-me-episode-1] focuses
-on getting up and running with the engine, and the [second
-episode][brontefy-me-episode-2] starts expanding into game mechanics.
+@hedgein ([Github][hedgein-github], [Twitch][hedgein-twitch]) started a
+devlog series called Brontefy Me. This series walks through development
+of games in the [Bevy engine][bevy]. There are two episodes released so
+far. The [first episode][brontefy-me-episode-1] focuses on getting up
+and running with the engine, and the [second episode][brontefy-me-episode-2]
+starts expanding into game mechanics.
 
 [brontefy-me-episode-1]: https://www.youtube.com/watch?v=DdD6VhmEIiU
 [brontefy-me-episode-2]: https://www.youtube.com/watch?v=tx31BKX0yIA
