@@ -203,10 +203,11 @@ April's full weekly devlogs: "This Week In Veloren...":
 
 ![arcade cabinet](arcade_cabinet.gif)
 
-[Carlo][carlosupina] is building a custom arcade cabinet that will be at RustConf 2022 in Portland.
-It is an opportunity for Rust gamedevs to share their games with the broader community.
-If you are interested in getting your game on the cabinet, read this twitter [thread][arcade-cabinet-thread]
-and fill out the [interest form][arcade-interest-form].
+[Carlo][carlosupina] is building a custom arcade cabinet that will be at
+RustConf 2022 in Portland. It is an opportunity for Rust gamedevs to share their
+games with the broader community. If you are interested in getting your game on
+the cabinet, read [this Twitter thread][arcade-cabinet-thread] and fill out the
+[interest form][arcade-interest-form].
 
 [carlosupina]: https://twitter.com/carlosupina
 [arcade-cabinet-thread]: https://twitter.com/carlosupina/status/1523715837726961664
