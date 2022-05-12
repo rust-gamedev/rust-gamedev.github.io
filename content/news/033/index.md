@@ -33,12 +33,12 @@ Feel free to send PRs about your own projects!
 
 - [Rust GameDev Meetup](#rust-gamedev-meetup)
 - [Game Updates](#game-updates)
-- [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
+- [Learning Material Updates](#learning-material-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
-- [Other News](#other-news)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
+- [Other News](#other-news)
 - [Meeting Minutes](#meeting-minutes)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
@@ -353,6 +353,26 @@ Eldiron v1 will be able to create any kind of RPG utilizing square tiles,
 like the classical Ultima series.
 
 [Eldiron]: https://www.eldiron.com
+
+### [Hotham][hotham]
+
+![Hotham Image](hotham.png)
+_Screenshot from The Station, an upcoming space station simulaton game, built
+with Hotham_
+
+[Hotham][hotham] is a game engine for standalone VR devices, trying to make VR
+development just a little bit less painful.
+
+0.2 has been released with some _breathtaking_ maintenance and performance
+improvements that make Hotham marginally easier to use. If you're interested in
+Rust and VR and haven't checked out the project already, now is an excellent
+time to do so.
+
+A huge thank you to our sponsors and contributors (big hat-tip to @jmgao) and
+the wonderful members of the [Hotham discord][hotham-discord].
+
+[hotham]: https://github.com/leetvr/hotham
+[hotham-discord]: https://discord.gg/SZEZUX6ZsQ
 
 ## Learning Material Updates
 
