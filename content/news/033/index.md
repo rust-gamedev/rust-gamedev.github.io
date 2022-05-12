@@ -68,7 +68,9 @@ _Discussions:
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
-## Rust GameDev Meetup
+## IRL Events
+
+### Rust GameDev Meetup
 
 ![Gamedev meetup poster](gamedev-meetup.png)
 
@@ -86,7 +88,7 @@ working on at the next meetup on [May 14th][rust-meetup-time], fill out
 [rust-meetup-time]: https://everytimezone.com/s/1baaa280
 [gamedev-meetup-form]: https://forms.gle/BS1zCyZaiUFSUHxe6
 
-## Rust Graphics Meetup 2
+### Rust Graphics Meetup 2
 
 The 2nd Rust Graphics Meetup will take place on the [21st of May, at 16:00
 UTC+0][graphics-meetup-time]. This meetup is a chance to show off what you've
@@ -99,6 +101,20 @@ talks][rend3-graphics-meetup-talk] from the first meetup.
 [graphics-meetup-form]: https://forms.gle/DyvZ4WFZanTaLGGa7
 [graphics-meetup-time]: https://everytimezone.com/s/b6ec5c17
 [rend3-graphics-meetup-talk]: https://www.youtube.com/watch?v=F0wGz5UJTrY
+
+### RustConf Arcade Cabinet
+
+![arcade cabinet](arcade_cabinet.gif)
+
+[Carlo][carlosupina] is building a custom arcade cabinet that will be at
+RustConf 2022 in Portland. It is an opportunity for Rust gamedevs to share their
+games with the broader community. If you are interested in getting your game on
+the cabinet, read [this Twitter thread][arcade-cabinet-thread] and fill out the
+[interest form][arcade-interest-form].
+
+[carlosupina]: https://twitter.com/carlosupina
+[arcade-cabinet-thread]: https://twitter.com/carlosupina/status/1523715837726961664
+[arcade-interest-form]: https://forms.gle/onFm5fCygdbiArqJ7
 
 ## Game Updates
 
