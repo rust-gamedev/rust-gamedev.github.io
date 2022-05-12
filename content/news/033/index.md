@@ -199,6 +199,27 @@ April's full weekly devlogs: "This Week In Veloren...":
 [veloren-168]: https://veloren.net/devblog-168
 [veloren-169]: https://veloren.net/devblog-169
 
+### Oasis of Lost Hope
+
+![Oasis of Lost Hope](oasis-of-lost-hope.jpg)
+
+Oasis of Lost Hope is a game where fertile ground is steadily consumed by dark,
+barren land called blight. Water helps defend an area from being consumed, but
+reserves are finite. The player needs to collect ore to build more irrigation
+towers and delay doom for a few more seconds. Yet one thing is certain: the
+days of fertile land are counted.
+
+The game is an entry for the Ludum Dare 50 Jam, the theme of which was "Delay
+the Inevitable". It has been developed by setzer22 and Bromeon and
+[open-sourced on GitHub][oasis-gh]. The game is built on top of godot-rust
+alongside GDScript. The Rust language is not exactly known for fast
+prototyping, but with a slightly less safety-conservative fork of godot-rust,
+the game jam experience was surprisingly smooth. When modeling mechanics such
+as the expanding blight or the water pipe network, Rust really showed its
+strength as a strongly typed and fast language.
+
+[oasis-gh]: https://github.com/Bromeon/LudumDare50
+
 ### [Extremely Extreme Sports][ees-itch]
 
 ![Extremely Extreme Sports](extremely-extreme-sports.gif)
@@ -335,6 +356,45 @@ like the classical Ultima series.
 
 ## Learning Material Updates
 
+### [Game Development with Rust and WebAssembly][wasm-gamedev]
+
+![Game Development with Rust and WebAssembly Book Cover](game-development-rust-webassembly.png)
+
+[Game Development with Rust and WebAssembly][wasm-gamedev] by
+Eric Smith (a.k.a [@paytonrules][wasm-gamedev-twitter])
+was published in April. It takes a tutorial approach to leading the reader
+through building an endless runner using Rust and WebAssembly. You can play
+the completed game [here][wasm-gamedev-game].
+
+From the summary: This book is an easy-to-follow reference to help you develop
+your own games, teaching you all about game development and how to create an
+endless runner from scratch. You'll begin by drawing simple graphics in the
+browser window, and then learn how to move the main character across the screen.
+You'll also create a game loop, a renderer, and more, all written entirely in
+Rust. After getting simple shapes onto the screen, you'll scale the challenge by
+adding sprites, sounds, and user input. As you advance, you'll discover how to
+implement a procedurally generated world. Finally, you'll learn how to keep your
+Rust code clean and organized so you can continue to implement new features and
+deploy your app on the web.
+
+_Discussions: [Twitter][wasm-gamedev-twitter], [Discord](https://discord.gg/EjAunSbpdV)_
+
+[wasm-gamedev]: https://subscription.packtpub.com/product/game_development/9781801070973
+[wasm-gamedev-twitter]: https://www.twitter.com/paytonrules
+[wasm-gamedev-game]: https://rust-games-webassembly.netlify.app
+
+### [Why I choose to build my game from scratch][why-article]
+
+[@HeavyRain266] published an article, '[Why I choose to build my game from scratch][why-article]',
+a short story about their implementation of the game 'Forbidden Valley'
+from scratch in Rust. The author aims to show how much you can learn
+from building your dream game without the help of any game engine.
+
+_Discussions: [r/rust_gamedev][why-article]_
+
+[@HeavyRain266]: https://github.com/HeavyRain266
+[why-article]: https://www.reddit.com/r/rust_gamedev/comments/uewu9h/reasons_why_i_choose_to_build_my_game_from/
+
 ## Tooling Updates
 
 ### [Vismut 0.5][vismut-0.5]
@@ -353,6 +413,41 @@ between the old and the new architecture.
 [Vismut]: https://gitlab.com/vismut-org/vismut
 [vismut-zulip]: https://vismut.zulipchat.com
 [vismut-blog]: https://orsvarn.com/vismut-architecture/
+
+### [Graphite][graphite-website]
+
+![Graphite](graphite.png)
+
+Graphite ([website][graphite-website], [GitHub][graphite-repo],
+[Discord][graphite-discord], [Twitter][graphite-twitter]) is a free
+in-development raster and vector 2D graphics editor. It will be powered by a
+node graph compositing engine that supercharges your layer stack, providing a
+completely non-destructive editing experience.
+
+The past month's Sprint 14 has focused on further editor features and UX
+improvements:
+
+- **It's your type:** The Text tool now provides over 1400 fonts with
+bold/italic styles from the Google Fonts library.
+
+- **Oh snap!:** A refactor and polish pass on the snapping system provides
+better clarity and consistency. And shapes now have outlines on hover and
+selection for easier targeting.
+
+- **Have a dialog:** Supported by a refactor that moved dialog layouts into the
+Rust backend, users can now create new documents of specified sizes and export
+artwork as PNG/JPG with new File menu dialogs.
+
+- **Pack it up:** The web component of the stack was finally upgraded to
+Webpack 5 which cleans up a mess of outdated dependencies.
+
+[Open the editor][graphite-live-demo] in your browser and give it a try.
+
+[graphite-website]: https://graphite.rs
+[graphite-repo]: https://github.com/GraphiteEditor/Graphite
+[graphite-discord]: https://discord.graphite.rs
+[graphite-twitter]: https://twitter.com/GraphiteEditor
+[graphite-live-demo]: https://editor.graphite.rs
 
 ## Library Updates
 
