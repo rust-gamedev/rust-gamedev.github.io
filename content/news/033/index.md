@@ -91,7 +91,7 @@ working on at the next meetup on [May 14th][rust-meetup-time], fill out
 
 The 2nd Rust Graphics Meetup will take place on the [21st of May, at 16:00
 UTC+0][graphics-meetup-time]. This meetup is a chance to show off what you've
-been working on in the graphics community, or see what other people have doing!
+been working on in the graphics community, or see what other people have been doing!
 
 If you're interested in speaking, please fill out the
 [form][graphics-meetup-form]. You can also [watch one of the
@@ -106,7 +106,7 @@ talks][rend3-graphics-meetup-talk] from the first meetup.
 ![arcade cabinet](arcade_cabinet.gif)
 
 [Carlo][carlosupina] is building a custom arcade cabinet that will be at
-RustConf 2022 in Portland. It is an opportunity for Rust gamedevs to share their
+RustConf 2022 in Portland. It is an opportunity for Rust game developers to share their
 games with the broader community. If you are interested in getting your game on
 the cabinet, read [this Twitter thread][arcade-cabinet-thread] and fill out the
 [interest form][arcade-interest-form].
@@ -130,7 +130,7 @@ Way of Rhea was recently [shown off at PAX East!][wor-pax] A
 
 - An issue that made the last puzzle in the third forest level difficult to
 navigate with a controller was worked around
-- Colliders in the Hermes puzzle were fixed (previously you cold land on top of
+- Colliders in the Hermes puzzle were fixed (previously you could land on top of
 a gate if you held left while sliding)
 - The attract mode that was used at PAX has been merged (not in demo)
 - More jungle biome scenery has been placed (not in demo)
@@ -165,7 +165,7 @@ It has been developed by a programming duo
 called LogLog Games.
 They have been working on it for the past year and it is
 their biggest game so far (they also have 2 smaller games).
-[BITGUN] is writen in Godot Engine but it is using
+[BITGUN] is written in Godot Engine but it is using
 Rust language extensively (it has around 7500 lines of Rust
 and 4200 lines of GDScript).
 
@@ -303,7 +303,7 @@ Bevy 0.7 was a massive community effort. You can check out the
 - [Render to texture: cameras can now be configured to render to a texture instead of a window][bevy-render-texture]
 - [Flexible mesh vertex layouts in shaders][bevy-vertex]
 - [ECS improvements: Order systems using their names, Query::many_mut, use conflicting parameters in systems via ParamSets, WorldQuery derives][bevy-ecs]
-- [Documentation improvements: better examples, more doc tests and more coverage][bevy-docs]
+- [Documentation improvements: better examples, more doc tests, and more coverage][bevy-docs]
 - [More audio control: pause, volume, speed, and looping][bevy-audio]
 - [Power usage options to enable only updating Bevy Apps when input occurs][bevy-power]
 
@@ -333,7 +333,7 @@ _Discussions:
 ![dims foliage](dims.jpg)
 _Foliage rendering in Dims_
 
-Dims is an open world creation platform.
+Dims is an open-world creation platform.
 
 In their latest [dev log][dims-dev-log] they
 demonstrate a new foliage rendering and spawning system, which automatically
@@ -366,7 +366,7 @@ _Behavior Nodes of Eldiron_
 [Twitter](https://twitter.com/MarkusMoenig)) by [@markusmoenig](https://github.com/markusmoenig)
 is a creator for classic role playing games (RPGs) written in Rust.
 
-Eldiron v0.5 features inbuild tile maps, a node based behavior system
+Eldiron v0.5 features inbuild tilemaps, a node-based behavior system
 and region editors.
 
 Development Updates in April:
@@ -374,7 +374,7 @@ Development Updates in April:
 - Support for 4 layers of tiles for game regions.
   This enables transparency and support for top-down and isometric views.
 - Game regions can now contain named areas.
-- Areas can contain behavior nodes to spawn monsters, lay traps or
+- Areas can contain behavior nodes to spawn monsters, lay traps, or
   displace tiles (for example to open a door).
 - New "Systems" module to create behavior for Combat and soon for Crafting,
   Magic and more. System behavior trees can be called from any character.
@@ -387,7 +387,7 @@ like the classical Ultima series.
 ### [Hotham][hotham]
 
 ![Hotham Image](hotham.png)
-_Screenshot from The Station, an upcoming space station simulaton game, built
+_Screenshot from The Station, an upcoming space station simulation game, built
 with Hotham_
 
 [Hotham][hotham] is a game engine for standalone VR devices, trying to make VR
@@ -412,7 +412,7 @@ the wonderful members of the [Hotham discord][hotham-discord].
 
 [Game Development with Rust and WebAssembly][wasm-gamedev] by
 Eric Smith (a.k.a [@paytonrules][wasm-gamedev-twitter])
-was published in April. It takes a tutorial approach to leading the reader
+was published in April. It takes a tutorial approach to lead the reader
 through building an endless runner using Rust and WebAssembly. You can play
 the completed game [here][wasm-gamedev-game].
 
@@ -450,7 +450,7 @@ _Discussions: [r/rust_gamedev][why-article]_
 ![devlog logo](brontefy-me.jpg)
 
 @hedgein ([Github][hedgein-github], [Twitch][hedgein-twitch]) started a
-devlog series called Brontefy Me. This series walks through development
+devlog series called Brontefy Me. This series walks through the development
 of games in the [Bevy engine][bevy]. There are two episodes released so
 far. The [first episode][brontefy-me-episode-1] focuses on getting up
 and running with the engine, and the [second episode][brontefy-me-episode-2]
