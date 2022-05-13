@@ -31,7 +31,7 @@ Feel free to send PRs about your own projects!
 [Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
-- [IRL Events](#irl-events)
+- [Announcements](#announcements)
 - [Game Updates](#game-updates)
 - [Engine Updates](#engine-updates)
 - [Learning Material Updates](#learning-material-updates)
@@ -67,7 +67,7 @@ _Discussions:
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
-## IRL Events
+## Announcements
 
 ### Rust GameDev Meetup
 
