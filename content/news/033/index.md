@@ -546,6 +546,31 @@ using as default backend [oddio] and [symphonia].
 
 <!-- One-liners for plan items that haven't got their own sections. -->
 
+- Other game updates:
+  - [Last of the Sky Folk](https://ianjk.com/ld50)
+    is a LD50 a grapple-hook based platformer.
+  - [Heute Nicht] rythm game is another LD50 submission.
+- Other learning material updates
+  - PhaestusFox started a [Bevy tutorial servies][PhaestusFox-vid-1]
+    and [0.6 to 0.7 Migration Guide][PhaestusFox-vid-2] YouTube series.
+  - [@TantanDev] released a ["Rust multi-threading code review"][tantan-video] video.
+- Other library updates:
+  - [tween](https://github.com/sanbox-irl/tween) is an std-optional
+    tweening library, designed for use in games and animations.
+  - [cosync](https://github.com/sanbox-irl/cosync) provides a single-threaded,
+    sequential, parameterized async runtime.
+  - [SuInput](https://github.com/Sorenon/Action-System) is an input system
+    designed to give pancake and XR applications access to a huge range of
+    input devices while minimizing the amount of complexity needed to support them.
+  - [bevy_blender v0.2] with lots of new features is out.
+
+[Heute Nicht]: https://eira-hx.itch.io/heute-nicht
+[PhaestusFox-vid-1]: https://reddit.com/r/rust_gamedev/comments/tz75eb/bevy_game_engine_tutorial_series
+[PhaestusFox-vid-2]: https://reddit.com/r/rust_gamedev/comments/u4uhs2/bevy_06_to_07_migration_guide
+[@TantanDev]: https://twitter.com/TantanDev
+[tantan-video]: https://youtube.com/watch?v=jkHqrkcEHRc
+[bevy_blender v0.2]: https://reddit.com/r/rust_gamedev/comments/u7acfc/update_on_bevy_blender_releasing_v02_and_inquiry
+
 ## Meeting Minutes
 
 <!-- Up to 10 most important notes + a link to the full details -->
