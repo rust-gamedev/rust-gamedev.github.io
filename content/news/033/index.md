@@ -545,8 +545,8 @@ default backend [oddio] and [symphonia].
 <!-- One-liners for plan items that haven't got their own sections. -->
 
 - Other game updates:
-  - [Last of the Sky Folk](https://ianjk.com/ld50) is a LD50 a grapple-hook
-    based platformer.
+  - [Last of the Sky Folk](https://ianjk.com/ld50) is a grapple-hook based
+    platformer created for LD50.
   - [Heute Nicht] rythm game is another LD50 submission.
 - Other learning material updates
   - PhaestusFox started a [Bevy tutorial servies][PhaestusFox-vid-1] and [0.6 to
