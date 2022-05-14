@@ -1,8 +1,8 @@
 +++
 title = "This Month in Rust GameDev #33 - April 2022"
 transparent = true
-date = 2022-05-01
-draft = true
+date = 2022-05-14
+draft = false
 +++
 
 <!-- no toc -->
@@ -31,20 +31,15 @@ Feel free to send PRs about your own projects!
 [Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
-- [Rust GameDev Meetup](#rust-gamedev-meetup)
-- [Rust Graphics Meetup](#rust-graphics-meetup)
+- [Announcements](#announcements)
 - [Game Updates](#game-updates)
 - [Engine Updates](#engine-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Other News](#other-news)
-- [Meeting Minutes](#meeting-minutes)
-- [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
 - [Jobs](#jobs)
-- [Bonus](#bonus)
 
 <!--
 Ideal section structure is:
@@ -68,19 +63,19 @@ _Discussions:
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
-## IRL Events
+## Announcements
 
 ### Rust GameDev Meetup
 
 ![Gamedev meetup poster](gamedev-meetup.png)
 
-The 15th Rust Gamedev Meetup took place in April. You can watch the
-recording of the meetup [here on Youtube][gamedev-meetup-video]. The meetups
-take place on the second Saturday every month via the [Rust Gamedev Discord
+The 15th Rust Gamedev Meetup took place in April. You can watch the recording of
+the meetup [here on Youtube][gamedev-meetup-video]. The meetups take place on
+the second Saturday every month via the [Rust Gamedev Discord
 server][rust-gamedev-discord] and are also [streamed on
 Twitch][rust-gamedev-twitch]. If you would like to show off what you've been
-working on at the next meetup on [May 14th][rust-meetup-time], fill out
-[this form][gamedev-meetup-form].
+working on at the next meetup on [May 14th][rust-meetup-time], fill out [this
+form][gamedev-meetup-form].
 
 [gamedev-meetup-video]: https://youtu.be/okWFrfaaADs
 [rust-gamedev-discord]: https://discord.gg/yNtPTb2
@@ -92,7 +87,8 @@ working on at the next meetup on [May 14th][rust-meetup-time], fill out
 
 The 2nd Rust Graphics Meetup will take place on the [21st of May, at 16:00
 UTC+0][graphics-meetup-time]. This meetup is a chance to show off what you've
-been working on in the graphics community, or see what other people have doing!
+been working on in the graphics community, or see what other people have been
+doing!
 
 If you're interested in speaking, please fill out the
 [form][graphics-meetup-form]. You can also [watch one of the
@@ -107,10 +103,10 @@ talks][rend3-graphics-meetup-talk] from the first meetup.
 ![arcade cabinet](arcade_cabinet.gif)
 
 [Carlo][carlosupina] is building a custom arcade cabinet that will be at
-RustConf 2022 in Portland. It is an opportunity for Rust gamedevs to share their
-games with the broader community. If you are interested in getting your game on
-the cabinet, read [this Twitter thread][arcade-cabinet-thread] and fill out the
-[interest form][arcade-interest-form].
+RustConf 2022 in Portland. It is an opportunity for Rust game developers to
+share their games with the broader community. If you are interested in getting
+your game on the cabinet, read [this Twitter thread][arcade-cabinet-thread] and
+fill out the [interest form][arcade-interest-form].
 
 [carlosupina]: https://twitter.com/carlosupina
 [arcade-cabinet-thread]: https://twitter.com/carlosupina/status/1523715837726961664
@@ -126,12 +122,12 @@ the cabinet, read [this Twitter thread][arcade-cabinet-thread] and fill out the
 mechanics being produced by [@masonremaley][wor-mason-remaley] in a custom Rust
 engine. It has a demo available [on Steam][wor].
 
-Way of Rhea was recently [shown off at PAX East!][wor-pax] A
-[minor patch][wor-update] has been released to the demo with post-PAX fixes:
+Way of Rhea was recently [shown off at PAX East!][wor-pax] A [minor
+patch][wor-update] has been released to the demo with post-PAX fixes:
 
 - An issue that made the last puzzle in the third forest level difficult to
 navigate with a controller was worked around
-- Colliders in the Hermes puzzle were fixed (previously you cold land on top of
+- Colliders in the Hermes puzzle were fixed (previously you could land on top of
 a gate if you held left while sliding)
 - The attract mode that was used at PAX has been merged (not in demo)
 - More jungle biome scenery has been placed (not in demo)
@@ -140,9 +136,9 @@ a gate if you held left while sliding)
 - The game can now generate mini dumps on Windows and Linux in the event that it
 crashes and if given consent, forward them to the developer for analysis
 
-You can stay up to date with the latest Way of Rhea developments by
-[following it on Steam][wor], signing up for [their mailing list][wor-newsletter],
-or joining [their Discord][wor-discord].
+You can stay up to date with the latest Way of Rhea developments by [following
+it on Steam][wor], signing up for [their mailing list][wor-newsletter], or
+joining [their Discord][wor-discord].
 
 [wor]: https://store.steampowered.com/app/1110620/Way_of_Rhea/?utm_campaign=tmirgd&utm_source=n33
 [wor-pax]: https://twitter.com/AnthropicSt/status/1517129411790843905
@@ -156,19 +152,15 @@ or joining [their Discord][wor-discord].
 ![BITGUN gameplay](bitgun-release-optimized.gif)
 _BITGUN gameplay_
 
-[BITGUN] ([Discord], [Twitter]) by [@darth] and [@shosanna]
-is an action roguelite zombie shooter with difficult and
-satisfying combat you can learn and master.
-Guns break quickly and you lose all your gear when you die.
+[BITGUN] ([Discord], [Twitter]) by [@darth] and [@shosanna] is an action
+roguelite zombie shooter with difficult and satisfying combat you can learn and
+master. Guns break quickly and you lose all your gear when you die.
 
-The game was just released on Steam!
-It has been developed by a programming duo
-called LogLog Games.
-They have been working on it for the past year and it is
-their biggest game so far (they also have 2 smaller games).
-[BITGUN] is writen in Godot Engine but it is using
-Rust language extensively (it has around 7500 lines of Rust
-and 4200 lines of GDScript).
+The game was just released on Steam! It has been developed by a programming duo
+called LogLog Games. They have been working on it for the past year and it is
+their biggest game so far (they also have 2 smaller games). [BITGUN] is written
+in Godot Engine but it is using Rust language extensively (it has around 7500
+lines of Rust and 4200 lines of GDScript).
 
 The main changes from the demo version of the game:
 
@@ -237,17 +229,17 @@ April's full weekly devlogs: "This Week In Veloren...":
 Oasis of Lost Hope is a game where fertile ground is steadily consumed by dark,
 barren land called blight. Water helps defend an area from being consumed, but
 reserves are finite. The player needs to collect ore to build more irrigation
-towers and delay doom for a few more seconds. Yet one thing is certain: the
-days of fertile land are counted.
+towers and delay doom for a few more seconds. Yet one thing is certain: the days
+of fertile land are counted.
 
 The game is an entry for the Ludum Dare 50 Jam, the theme of which was "Delay
-the Inevitable". It has been developed by setzer22 and Bromeon and
-[open-sourced on GitHub][oasis-gh]. The game is built on top of godot-rust
-alongside GDScript. The Rust language is not exactly known for fast
-prototyping, but with a slightly less safety-conservative fork of godot-rust,
-the game jam experience was surprisingly smooth. When modeling mechanics such
-as the expanding blight or the water pipe network, Rust really showed its
-strength as a strongly typed and fast language.
+the Inevitable". It has been developed by setzer22 and Bromeon and [open-sourced
+on GitHub][oasis-gh]. The game is built on top of godot-rust alongside GDScript.
+The Rust language is not exactly known for fast prototyping, but with a slightly
+less safety-conservative fork of godot-rust, the game jam experience was
+surprisingly smooth. When modeling mechanics such as the expanding blight or the
+water pipe network, Rust really showed its strength as a strongly typed and fast
+language.
 
 [oasis-gh]: https://github.com/Bromeon/LudumDare50
 
@@ -289,24 +281,32 @@ _Discussions: [/r/rust_gamedev][ees-reddit]_
 ![bevy mushroom](bevy_mushroom.jpg)
 _Creative Commons 'Stylized mushrooms' scene by QumoDone rendered in Bevy._
 
-[Bevy][bevy] is a refreshingly simple data-driven game engine built in Rust. It is
-[free and open source][bevy-git] forever!
+[Bevy][bevy] is a refreshingly simple data-driven game engine built in Rust. It
+is [free and open source][bevy-git] forever!
 
-Bevy 0.7 was a massive community effort. You can check out the
-[full release blog post here][bevy-blog], but here are some highlights:
+Bevy 0.7 was a massive community effort. You can check out the [full release
+blog post here][bevy-blog], but here are some highlights:
 
 - [Skeletal animation and mesh skinning][bevy-animation]
 - [GLTF animation importing][bevy-gltf]
 - [Unlimited* point lights in a scene][bevy-unlimited]
-- [Improved clustered forward rendering: dynamic/adaptive clustering and faster, more accurate cluster assignment][bevy-light-opt]
-- [Compressed texture support (KTX2 / DDS / .basis): load more textures in a scene, faster][bevy-compressed]
-- [Compute shader / pipeline specialization: Bevy's flexible shader system was ported to compute shaders, enabling hot-reloading, shader defs, and shader imports][bevy-compute]
-- [Render to texture: cameras can now be configured to render to a texture instead of a window][bevy-render-texture]
+- [Improved clustered forward rendering: dynamic/adaptive clustering and faster,
+  more accurate cluster assignment][bevy-light-opt]
+- [Compressed texture support (KTX2 / DDS / .basis): load more textures in a
+  scene, faster][bevy-compressed]
+- [Compute shader / pipeline specialization: Bevy's flexible shader system was
+  ported to compute shaders, enabling hot-reloading, shader defs, and shader
+  imports][bevy-compute]
+- [Render to texture: cameras can now be configured to render to a texture
+  instead of a window][bevy-render-texture]
 - [Flexible mesh vertex layouts in shaders][bevy-vertex]
-- [ECS improvements: Order systems using their names, Query::many_mut, use conflicting parameters in systems via ParamSets, WorldQuery derives][bevy-ecs]
-- [Documentation improvements: better examples, more doc tests and more coverage][bevy-docs]
+- [ECS improvements: Order systems using their names, Query::many_mut, use
+  conflicting parameters in systems via ParamSets, WorldQuery derives][bevy-ecs]
+- [Documentation improvements: better examples, more doc tests, and more
+  coverage][bevy-docs]
 - [More audio control: pause, volume, speed, and looping][bevy-audio]
-- [Power usage options to enable only updating Bevy Apps when input occurs][bevy-power]
+- [Power usage options to enable only updating Bevy Apps when input
+  occurs][bevy-power]
 
 _Discussions:
 [/r/rust](https://www.reddit.com/r/rust/comments/u4e63h/bevy_07/),
@@ -334,18 +334,17 @@ _Discussions:
 ![dims foliage](dims.jpg)
 _Foliage rendering in Dims_
 
-Dims is an open world creation platform.
+Dims is an open-world creation platform.
 
-In their latest [dev log][dims-dev-log] they
-demonstrate a new foliage rendering and spawning system, which automatically
-spawns foliage and trees based on "habitat rules". This means a user
-can simply "paint" a world and it will get populated with plants and rocks
-automatically.
+In their latest [dev log][dims-dev-log] they demonstrate a new foliage rendering
+and spawning system, which automatically spawns foliage and trees based on
+"habitat rules". This means a user can simply "paint" a world and it will get
+populated with plants and rocks automatically.
 
 They are also planning to host a screenshot competition in the next few weeks
 for anyone who would like to try out the platform and create their own
-landscapes. Sign up for the newsletter on their website to get notified when
-it starts!
+landscapes. Sign up for the newsletter on their website to get notified when it
+starts!
 
 _Discussions:
 [Foliage rendering on reddit][dims-foliage],
@@ -363,32 +362,36 @@ _Discussions:
 ![Eldiron Image](eldiron_screen.png)
 _Behavior Nodes of Eldiron_
 
-[Eldiron] ([GitHub](https://github.com/markusmoenig/Eldiron), [Discord](https://discord.gg/ZrNj6baSZU),
-[Twitter](https://twitter.com/MarkusMoenig)) by [@markusmoenig](https://github.com/markusmoenig)
-is a creator for classic role playing games (RPGs) written in Rust.
+[Eldiron] ([GitHub][eldiron-github], [Discord][eldiron-discord],
+[Twitter][eldiron-twitter]) by [@markusmoenig] is a creator for classic role
+playing games (RPGs) written in Rust.
 
-Eldiron v0.5 features inbuild tile maps, a node based behavior system
-and region editors.
+Eldiron v0.5 features inbuild tilemaps, a node-based behavior system and region
+editors.
 
 Development Updates in April:
 
-- Support for 4 layers of tiles for game regions.
-  This enables transparency and support for top-down and isometric views.
+- Support for 4 layers of tiles for game regions. This enables transparency and
+  support for top-down and isometric views.
 - Game regions can now contain named areas.
-- Areas can contain behavior nodes to spawn monsters, lay traps or
-  displace tiles (for example to open a door).
+- Areas can contain behavior nodes to spawn monsters, lay traps, or displace
+  tiles (for example to open a door).
 - New "Systems" module to create behavior for Combat and soon for Crafting,
   Magic and more. System behavior trees can be called from any character.
 
-Eldiron v1 will be able to create any kind of RPG utilizing square tiles,
-like the classical Ultima series.
+Eldiron v1 will be able to create any kind of RPG utilizing square tiles, like
+the classical Ultima series.
 
 [Eldiron]: https://www.eldiron.com
+[eldiron-github]: https://github.com/markusmoenig/Eldiron
+[eldiron-discord]: https://discord.gg/ZrNj6baSZU
+[eldiron-twitter]: https://twitter.com/MarkusMoenig
+[@markusmoenig]: https://github.com/markusmoenig
 
 ### [Hotham][hotham]
 
 ![Hotham Image](hotham.png)
-_Screenshot from The Station, an upcoming space station simulaton game, built
+_Screenshot from The Station, an upcoming space station simulation game, built
 with Hotham_
 
 [Hotham][hotham] is a game engine for standalone VR devices, trying to make VR
@@ -411,11 +414,10 @@ the wonderful members of the [Hotham discord][hotham-discord].
 
 ![Game Development with Rust and WebAssembly Book Cover](game-development-rust-webassembly.png)
 
-[Game Development with Rust and WebAssembly][wasm-gamedev] by
-Eric Smith (a.k.a [@paytonrules][wasm-gamedev-twitter])
-was published in April. It takes a tutorial approach to leading the reader
-through building an endless runner using Rust and WebAssembly. You can play
-the completed game [here][wasm-gamedev-game].
+[Game Development with Rust and WebAssembly][wasm-gamedev] by Eric Smith (a.k.a
+[@paytonrules][wasm-gamedev-twitter]) was published in April. It takes a
+tutorial approach to lead the reader through building an endless runner using
+Rust and WebAssembly. You can play the completed game [here][wasm-gamedev-game].
 
 From the summary: This book is an easy-to-follow reference to help you develop
 your own games, teaching you all about game development and how to create an
@@ -436,10 +438,10 @@ _Discussions: [Twitter][wasm-gamedev-twitter], [Discord](https://discord.gg/EjAu
 
 ### [Why I choose to build my game from scratch][why-article]
 
-[@HeavyRain266] published an article, '[Why I choose to build my game from scratch][why-article]',
-a short story about their implementation of the game 'Forbidden Valley'
-from scratch in Rust. The author aims to show how much you can learn
-from building your dream game without the help of any game engine.
+[@HeavyRain266] published an article, '[Why I choose to build my game from
+scratch][why-article]', a short story about their implementation of the game
+'Forbidden Valley' from scratch in Rust. The author aims to show how much you
+can learn from building your dream game without the help of any game engine.
 
 _Discussions: [r/rust_gamedev][why-article]_
 
@@ -450,12 +452,12 @@ _Discussions: [r/rust_gamedev][why-article]_
 
 ![devlog logo](brontefy-me.jpg)
 
-@hedgein ([Github][hedgein-github], [Twitch][hedgein-twitch]) started a
-devlog series called Brontefy Me. This series walks through development
-of games in the [Bevy engine][bevy]. There are two episodes released so
-far. The [first episode][brontefy-me-episode-1] focuses on getting up
-and running with the engine, and the [second episode][brontefy-me-episode-2]
-starts expanding into game mechanics.
+@hedgein ([Github][hedgein-github], [Twitch][hedgein-twitch]) started a devlog
+series called Brontefy Me. This series walks through the development of games in
+the [Bevy engine][bevy]. There are two episodes released so far. The [first
+episode][brontefy-me-episode-1] focuses on getting up and running with the
+engine, and the [second episode][brontefy-me-episode-2] starts expanding into
+game mechanics.
 
 [brontefy-me-episode-1]: https://www.youtube.com/watch?v=DdD6VhmEIiU
 [brontefy-me-episode-2]: https://www.youtube.com/watch?v=tx31BKX0yIA
@@ -468,8 +470,8 @@ starts expanding into game mechanics.
 
 ![Logo](vismut.png)
 
-[Vismut] ([GitLab][Vismut], [Zulip][vismut-zulip]) by [@lukors]
-will be a procedural texturing tool.
+[Vismut] ([GitLab][Vismut], [Zulip][vismut-zulip]) by [@lukors] will be a
+procedural texturing tool.
 
 [Version 0.5][vismut-0.5] contains a brand new backend to create a better base
 for future improvements. A [blog post][vismut-blog] describes the differences
@@ -505,8 +507,8 @@ selection for easier targeting.
 Rust backend, users can now create new documents of specified sizes and export
 artwork as PNG/JPG with new File menu dialogs.
 
-- **Pack it up:** The web component of the stack was finally upgraded to
-Webpack 5 which cleans up a mess of outdated dependencies.
+- **Pack it up:** The web component of the stack was finally upgraded to Webpack
+5 which cleans up a mess of outdated dependencies.
 
 [Open the editor][graphite-live-demo] in your browser and give it a try.
 
@@ -530,38 +532,35 @@ your project in an ergonomic manner without enforcing any structure or pattern,
 always trying to stay out of your way. The idea is that you can use it as a
 foundation layer or backend for your next app, game engine, or game.
 
-The latest version [v0.3.0] comes with audio support for all platforms
-using as default backend [oddio] and [symphonia].
+The latest version [v0.3.0] comes with audio support for all platforms using as
+default backend [oddio] and [symphonia].
 
 [Notan]: https://github.com/Nazariglez/notan
 [v0.3.0]: https://github.com/Nazariglez/notan/releases/tag/v0.3.0
 [oddio]: https://github.com/Ralith/oddio
 [symphonia]: https://github.com/pdeljanov/Symphonia
 
-## Popular Workgroup Issues in Github
-
-<!-- Up to 10 links to interesting issues -->
-
 ## Other News
 
 <!-- One-liners for plan items that haven't got their own sections. -->
 
 - Other game updates:
-  - [Last of the Sky Folk](https://ianjk.com/ld50)
-    is a LD50 a grapple-hook based platformer.
+  - [Last of the Sky Folk](https://ianjk.com/ld50) is a grapple-hook based
+    platformer created for LD50.
   - [Heute Nicht] rythm game is another LD50 submission.
 - Other learning material updates
-  - PhaestusFox started a [Bevy tutorial servies][PhaestusFox-vid-1]
-    and [0.6 to 0.7 Migration Guide][PhaestusFox-vid-2] YouTube series.
-  - [@TantanDev] released a ["Rust multi-threading code review"][tantan-video] video.
+  - PhaestusFox started a [Bevy tutorial servies][PhaestusFox-vid-1] and [0.6 to
+    0.7 Migration Guide][PhaestusFox-vid-2] YouTube series.
+  - [@TantanDev] released a ["Rust multi-threading code review"][tantan-video]
+    video.
 - Other library updates:
-  - [tween](https://github.com/sanbox-irl/tween) is an std-optional
-    tweening library, designed for use in games and animations.
+  - [tween](https://github.com/sanbox-irl/tween) is an std-optional tweening
+    library, designed for use in games and animations.
   - [cosync](https://github.com/sanbox-irl/cosync) provides a single-threaded,
     sequential, parameterized async runtime.
   - [SuInput](https://github.com/Sorenon/Action-System) is an input system
-    designed to give pancake and XR applications access to a huge range of
-    input devices while minimizing the amount of complexity needed to support them.
+    designed to give pancake and XR applications access to a huge range of input
+    devices while minimizing the amount of complexity needed to support them.
   - [bevy_blender v0.2] with lots of new features is out.
 
 [Heute Nicht]: https://eira-hx.itch.io/heute-nicht
@@ -571,32 +570,47 @@ using as default backend [oddio] and [symphonia].
 [tantan-video]: https://youtube.com/watch?v=jkHqrkcEHRc
 [bevy_blender v0.2]: https://reddit.com/r/rust_gamedev/comments/u7acfc/update_on_bevy_blender_releasing_v02_and_inquiry
 
-## Meeting Minutes
-
-<!-- Up to 10 most important notes + a link to the full details -->
-
-[See all meeting issues][label_meeting] including full text notes
-or [join the next meeting][join].
-
-[label_meeting]: https://github.com/rust-gamedev/wg/issues?q=label%3Ameeting
-
-## Discussions
-
-<!-- Links to handpicked reddit/twitter/urlo/etc threads that provide
-useful information -->
-
 ## Requests for Contribution
 
-<!-- Links to "good first issue"-labels or direct links to specific tasks -->
+- [Graphite is looking for contributors][graphite-contribute] to help build the
+new node graph and 2D rendering systems.
+- [winit's "difficulty: easy" issues][winit-issues].
+- [Backroll-rs, a new networking library][backroll-rs].
+- [Embark's open issues][embark-open-issues] ([embark.rs]).
+- [wgpu's "help wanted" issues][wgpu-issues].
+- [luminance's "low hanging fruit" issues][luminance-fruits].
+- [ggez's "good first issue" issues][ggez-issues].
+- [Veloren's "beginner" issues][veloren-beginner].
+- [Amethyst's "good first issue" issues][amethyst-issues].
+- [A/B Street's "good first issue" issues][abstreet-issues].
+- [Mun's "good first issue" issues][mun-issues].
+- [SIMple Mechanic's good first issues][simm-issues].
+- [Bevy's "good first issue" issues][bevy-issues].
+
+[graphite-contribute]: https://github.com/GraphiteEditor/Graphite/issues/202
+[winit-issues]: https://github.com/rust-windowing/winit/issues?q=is%3Aopen+is%3Aissue+label%3A%22difficulty%3A+easy%22
+[backroll-rs]: https://github.com/HouraiTeahouse/backroll-rs/issues
+[embark.rs]: https://embark.rs
+[embark-open-issues]: https://github.com/search?q=user:EmbarkStudios+state:open
+[wgpu-issues]: https://github.com/gfx-rs/wgpu/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
+[luminance-fruits]: https://github.com/phaazon/luminance-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22low+hanging+fruit%22
+[ggez-issues]: https://github.com/ggez/ggez/labels/%2AGOOD%20FIRST%20ISSUE%2A
+[veloren-beginner]: https://gitlab.com/veloren/veloren/issues?label_name=beginner
+[amethyst-issues]: https://github.com/amethyst/amethyst/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[abstreet-issues]: https://github.com/a-b-street/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
+[simm-issues]: https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue
+[bevy-issues]: https://github.com/bevyengine/bevy/labels/E-Good-First-Issue
 
 ## Jobs
 
-<!-- An optional section for new jobs related to Rust gamedev -->
-
-## Bonus
-
-<!-- Bonus section to make the newsletter more interesting
-and highlight events from the past. -->
+- [DIMS](https://www.dims.co/jobs)
+  (Stockholm/Remote)
+  - Tools Programmer
+  - Internship: Game Design
+- [Embark Studios](https://careers.embark-studios.com/jobs)
+  (Stockholm/Hybrid Remote)
+  - Various roles
 
 ------
 
