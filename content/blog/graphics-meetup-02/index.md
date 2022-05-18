@@ -15,8 +15,12 @@ UTC+0][meetup-time]. This meetup is a chance to see what others have been
 working on in the Rust graphics community. You can see the videos from the
 [first meetup here][rust-graphics-meetup-1].
 
+The meetup will take place on the Rust Gamedev [YouTube][youtube-stream] and [Twitch][twitch-stream].
+
 [meetup-time]: https://everytimezone.com/s/b6ec5c17
 [rust-graphics-meetup-1]: https://www.youtube.com/playlist?list=PLYiOdhpKxxXJwaocrJcOCoBhlV6foaO8F
+[youtube-stream]: https://www.youtube.com/watch?v=aIdsrZDActM
+[twitch-stream]: https://www.twitch.tv/RustGameDev
 
 ## Schedule
 
