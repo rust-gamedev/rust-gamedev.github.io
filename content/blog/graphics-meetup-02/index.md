@@ -8,7 +8,7 @@ aliases = ["posts/graphics-meetup-02"]
 <!-- markdownlint-disable single-title heading-increment no-blanks-blockquote -->
 <!-- markdownlint-configure-file {"line-length": {"heading_line_length": 120}} -->
 
-![](rust-graphics-meetup-2.jpg)
+![Rust Graphics Meetup](rust-graphics-meetup-2.jpg)
 
 The second Rust Graphics Meetup will take place on [May 21st at 16:00
 UTC+0][meetup-time]. This meetup is a chance to see what others have been
