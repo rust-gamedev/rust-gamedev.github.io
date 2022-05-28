@@ -109,9 +109,10 @@ is a brand new Bevy plugin enabling multi-language scripting (currently in Lua a
 The plugin is in early stages but as of now supports:
  - Handling events at multiple points of your stage pipeleine.
  - Sending events to specific, or all scripts.
- - Setting event priority to order your callbacks
- - Defining custom state and API's at initialization
- - Sending run-time error events (to for example show them in an in-game console)
+ - Setting event priority to order your callbacks.
+ - Defining custom state and API's at initialization.
+ - Sending run-time error events (to for example show them in an in-game console).
+ - One-shot scripts.
 
 General Bevy API support is under-way so stay tuned!
 
