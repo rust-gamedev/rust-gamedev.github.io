@@ -76,7 +76,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [Bloom3D][bloom3d]
 
-[![A screenshot of Bloom3D's interface.](bloom.jpg)][bloom3d]
+[![A screenshot of Bloom3D's interface. A geometric tree is next to a building.](bloom.jpg)][bloom3d]
 
 [Bloom3D](bloom3d) is a minimalist web app for 3D modeling that's built in Rust.
 
