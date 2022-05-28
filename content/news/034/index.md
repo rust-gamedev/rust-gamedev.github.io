@@ -99,7 +99,9 @@ on GitHub.
 
 ### bevy_mod_scripting
 
-![alt text](img)
+<p align="left">
+    <img src="./logo_bevy_scripting.svg" width="200" alt="bevy_mod_scripting logo">
+</p>
 
 [bevy_mod_scripting](https://github.com/makspll/bevy_mod_scripting) by @makspll
 is a brand new Bevy plugin enabling multi-language scripting (currently in Lua and Rhai).
