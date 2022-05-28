@@ -74,6 +74,27 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Tooling Updates
 
+### [Bloom3D][bloom3d]
+
+[![A screenshot of Bloom3D's interface. A geometric tree is next to a building.](bloom.jpg)][bloom3d]
+
+[Bloom3D](bloom3d) is a minimalist web app for 3D modeling that's built in Rust.
+
+This month [@kettlecorn][kettlecorn_twitter] released a new version of
+[Bloom3D][bloom3d] that adds a variety of new features including a
+rectangle tool, move tool, and OBJ export.
+
+Check out the [Twitter announcement thread][bloom_update_twitter] for an overview
+and videos of all the new features.
+
+Bloom is powered by a custom game engine called [`koi`](koi) that is open-sourced
+on GitHub.
+
+[bloom3d]: https://bloom3d.com
+[koi]: https://github.com/kettle11/koi
+[kettlecorn_twitter]: https://twitter.com/kettlecorn
+[bloom_update_twitter]: https://twitter.com/kettlecorn/status/1529193509462360065
+
 ## Library Updates
 
 ## Popular Workgroup Issues in Github
