@@ -89,6 +89,29 @@ Features:
 
 ## Learning Material Updates
 
+### [Intro to Material/Shaders in Bevy][bevy-materials-playlist]
+
+![Bevy Materials video series thumbnail](bevy-material-series.png)
+
+[Matthew Bryant][matthew-bryant-youtube] has created
+[a series about Bevy's Material abstraction][bevy-materials-playlist],
+showing how to use custom WGSL shaders in Bevy.
+
+The series walks through the documention to understand why steps are done in
+order to build a clear theoretical understanding of Bevy's high level abstractions.
+
+- The first of the three videos covers the bare minimum needed
+  to render a material;
+- the second introduces bind groups to use textures and generic data in
+  the shader;
+- and the final video ties into Bevy's ECS to copy game data onto the
+  graphics card every frame.
+
+He will be releasing videos about UI in Bevy and Rapier physics next month.
+
+[bevy-materials-playlist]: https://youtube.com/playlist?list=PLT_D88-MTFOMNRPAC-62Hz096aIjT4Noy
+[matthew-bryant-youtube]: https://youtube.com/channel/UC7v3YEDa603x_84PgCPytzA
+
 ### [Kubecon 2022, Lightning Talk: Wasmcloud + Bevy ECS][Lightning Talk-schedule]
 
 [QQparty][alanpoon-qqparty] is a serverless multiplayer game built with Bevy ECS
