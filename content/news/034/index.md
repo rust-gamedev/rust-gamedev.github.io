@@ -80,7 +80,7 @@ This month [@rustropy_gaming][alanpoon_twitter] joined Cosmonic's team and other
 
 [@rustropy_gaming][alanpoon_twitter] identified that Bevy ECS can be added into Wasmcloud's actor as serverless game server, since it can be compiled into webassembly.
 
-Check out Twitter [@rustropy_gaming][alanpoon_twitter] for announcement of QQparty going live and the options available to deploy your multiplayer game server wasm file on his Wasmcloud platform for free.
+Check out Twitter [@rustropy_gaming][alanpoon_twitter] for announcement of QQparty going live and the options available to deploy your multiplayer game server wasm file on his Wasmcloud host for free.
 
 [Lightning Talk-schedule]: https://cloudnativewasmdayeu22.sched.com/event/zgbG/lightning-talk-wasmcloud-bevy-ecs-solution-to-woe-of-indie-game-developers-alan-poon-yong-quan-shopee?iframe=no&w=100%&sidebar=yes&bg=no
 [Lightning Talk-pdf]: https://static.sched.com/hosted_files/cloudnativewasmdayeu22/3c/lightingtalk-alan_pdf.pdf
