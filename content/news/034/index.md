@@ -72,7 +72,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ![Gameplay demo](battleship.gif)
 
-[Battleship] is the [battleship game] implemented in Rust.
+[Battleship] by [@orhun] is the [battleship game] implemented in Rust.
 
 Features:
 
@@ -80,8 +80,6 @@ Features:
 - No installation required.
 - Works over TCP sockets.
 - Very lightweight to host your own server (only has 1 dependency).
-
-Developed by [@orhun] and the source code is available on [GitHub][Battleship].
 
 [Battleship]: https://github.com/orhun/battleship-rs
 [battleship game]: https://en.wikipedia.org/wiki/Battleship_(game)
