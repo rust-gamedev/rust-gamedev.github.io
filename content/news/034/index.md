@@ -73,6 +73,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ## Learning Material Updates
 
 ### [Kubecon 2022, Lightning Talk: Wasmcloud + Bevy ECS: Solution to Woe of Indie Game Developers][Lightning Talk-schedule]
+
 [![A gif of QQparty game](./qqparty.gif)][alanpoon-qqparty]
 [QQparty][alanpoon-qqparty] is a serverless multiplayer browser game built to demostrate the possibility of game developing with Bevy ECS and [Wasmcloud][wasmcloud_website].
 
