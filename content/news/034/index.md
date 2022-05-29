@@ -91,13 +91,18 @@ Features:
 
 ### [Kubecon 2022, Lightning Talk: Wasmcloud + Bevy ECS][Lightning Talk-schedule]
 
-[QQparty][alanpoon-qqparty] is a serverless multiplayer game built with Bevy ECS and [Wasmcloud][wasmcloud_website].
+[QQparty][alanpoon-qqparty] is a serverless multiplayer game built with Bevy ECS
+and [Wasmcloud][wasmcloud_website].
 
-This month [@rustropy_gaming][alanpoon_twitter] joined Cosmonic to give a series of Wasmcloud talks in Kubecon 2022 VLC. ![A picture of speakers](./lightingtalk.jpeg) Slides:[Lightning Talk-pdf] | Youtube: [Lightning Talk-youtube]
+This month [@rustropy_gaming][alanpoon_twitter] joined Cosmonic to give
+a series of Wasmcloud talks in Kubecon 2022 VLC.
+![A picture of speakers](./lightingtalk.jpeg)
+Slides:[Lightning Talk-pdf] | Youtube: [Lightning Talk-youtube]
 
 Bevy can be added into Wasmcloud's actor as serverless game server.
 
-Check out Twitter [@rustropy_gaming][alanpoon_twitter] for announcement of QQparty going live.
+Check out Twitter [@rustropy_gaming][alanpoon_twitter]
+for announcement of QQparty going live.
 
 Deploying multiplayer game servers may be cheap in the future.
 
