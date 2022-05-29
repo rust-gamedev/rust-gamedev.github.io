@@ -137,7 +137,7 @@ follow [@rustropy_gaming][alanpoon_twitter] on Twitter!
 
 ### [Rusteroids][rusteroids-youtube-playlist]
 
-![A screenshot of the latest Rusteroids tutorial](./rusteroids_screenshot.png)
+![A screenshot of the latest Rusteroids tutorial](./rusteroids-screenshot.png)
 
 [Rusteroids][rusteroids-github] is a tutorial recreating a clone of Asteroids 
 in Rust, using SDL2 and the [Specs][rust-specs-crate].
