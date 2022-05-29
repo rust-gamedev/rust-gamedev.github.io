@@ -97,6 +97,26 @@ on GitHub.
 
 ## Library Updates
 
+### [bevy_mod_scripting]
+
+![bevy_mod_scripting logo](logo_bevy_scripting.svg)
+
+[bevy_mod_scripting] by @makspll is a brand new Bevy plugin
+enabling multi-language scripting (currently in Lua and Rhai).
+
+The plugin is in early stages but as of now supports:
+
+- Handling events at multiple points of your stage pipeleine.
+- Sending events to specific, or all scripts.
+- Setting event priority to order your callbacks.
+- Defining custom state and API's at initialization.
+- Sending run-time error events (to for example show them in an in-game console).
+- One-shot scripts.
+
+General Bevy API support is under-way so stay tuned!
+
+[bevy_mod_scripting]: https://github.com/makspll/bevy_mod_scripting
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
