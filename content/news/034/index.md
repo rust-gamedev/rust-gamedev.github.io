@@ -72,6 +72,16 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Learning Material Updates
 
+### [Starting a new 2d platformer with Bevy ECS][starting-a-new-2d-platformer-with-bevy-ecs]
+
+[![The thumbnail for the Starting a new 2d platformer with Bevy ECS video](starting-a-new-2d-platformer-with-bevy-ecs.png)][starting-a-new-2d-platformer-with-bevy-ecs]
+
+[@chrisbiscardi](https://twitter.com/chrisbiscardi) published a [video][starting-a-new-2d-platformer-with-bevy-ecs] on setting up a new 2d platformer project using Bevy. The video covers intergrating with LDTK, Rapier, and becy_ecs_tilemap to get a working character controller with collisions in a sandbox. It also touches on staple crates such as bevy_asset_loader and iyes_loopless.
+
+_Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/v0keg2/starting_a_new_2d_platformer_with_bevy_ecs/), [Twitter](https://twitter.com/chrisbiscardi/status/1524008901028421632)_
+
+[starting-a-new-2d-platformer-with-bevy-ecs]: https://youtube.com/watch?v=gjeEYntkvoY
+
 ## Tooling Updates
 
 ### [Bloom3D][bloom3d]
