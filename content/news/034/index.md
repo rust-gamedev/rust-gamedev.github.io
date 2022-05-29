@@ -74,7 +74,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [Kubecon 2022, Lightning Talk: Wasmcloud + Bevy ECS: Solution to Woe of Indie Game Developers][Lightning Talk-schedule]
 [![A gif of QQparty game](./qqparty.gif)][alanpoon-qqparty]
-[QQparty][alanpoon-qqparty] is a serverless multiplayer browser game built to demostrate the possibility of game developing with Bevy ECS and Wasmcloud.
+[QQparty][alanpoon-qqparty] is a serverless multiplayer browser game built to demostrate the possibility of game developing with Bevy ECS and [Wasmcloud][wasmcloud_website].
 
 This month [@rustropy_gaming][alanpoon_twitter] joined Cosmonic's team and others to give a series of awesome talks on distributed application platforms using Wasmcloud in Kubecon 2022 in Valencia. ![A picture of speakers](./IMG20220519003250-min.jpeg) Slides:[Lightning Talk-pdf] | Youtube: [Lightning Talk-youtube]
 
@@ -87,7 +87,7 @@ Check out Twitter [@rustropy_gaming][alanpoon_twitter] for announcement of QQpar
 [Lightning Talk-youtube]: https://www.youtube.com/watch?v=8q2sPPX5aXY&list=PLj6h78yzYM2Ni0u-ONljTkv4uOutyjwq9&index=3
 [alanpoon-qqparty]: https://github.com/alanpoon/qq_party
 [alanpoon_twitter]: https://twitter.com/rustropy_gaming
-
+[wasmcloud_website]: https://wasmcloud.dev/
 
 ## Tooling Updates
 
