@@ -135,6 +135,31 @@ follow [@rustropy_gaming][alanpoon_twitter] on Twitter!
 [alanpoon_twitter]: https://twitter.com/rustropy_gaming
 [wasmcloud_website]: https://wasmcloud.dev/
 
+### [Rusteroids][rusteroids-youtube-playlist]
+
+![A screenshot of the latest Rusteroids tutorial](./rusteroids_screenshot.png)
+
+[Rusteroids][rusteroids-github] is a tutorial recreating a clone of Asteroids 
+in Rust, using SDL2 and the [Specs][rust-specs-crate].
+
+
+New epsidoes released weekly and added to the playlist. Most recently collision
+detection was added to reset the game state when the asteroid and player 
+collide.
+
+
+You can subscribe to the [YouTube Channel][electrocat-youtube],
+to never miss an episode or follow [@ecaststudio][ecatstudios-twitter] on 
+Twitter!
+
+
+[rusteroids-youtube-playlist]: https://www.youtube.com/playlist?list=PLFOS-Gn3aXROnSfl26esPExssd-rQw6jD
+[rusteroids-github]: https://github.com/filtoid/rusteroids
+[rust-specs-crate]: https://docs.rs/specs/latest/specs/
+[electrocat-youtube]: https://www.youtube.com/channel/UC1m6P72nySpB3lKWDYGVipw
+[ecatstudios-twitter]: https://twitter.com/ecatstudios
+
+
 ## Tooling Updates
 
 ### [Bloom3D][bloom3d]
