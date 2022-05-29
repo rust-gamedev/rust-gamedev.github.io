@@ -119,16 +119,14 @@ He will be releasing videos about UI in Bevy and Rapier physics next month.
 [QQparty][alanpoon-qqparty] is a serverless multiplayer game built with Bevy ECS
 and [Wasmcloud][wasmcloud_website].
 
-This month [@rustropy_gaming][alanpoon_twitter] joined Cosmonic to give
-a series of Wasmcloud talks in Kubecon 2022 VLC:
-[YouTube recording][Lightning-Talk-youtube], [slides][Lightning-Talk-pdf].
+This month, [@rustropy_gaming][alanpoon_twitter] joined Cosmonic to give
+a series of Wasmcloud talks in Kubecon 2022 VLC. They demonstrated
+how Bevy can be added into Wasmcloud's actors as a serverless
+game server.
 
-Bevy can be added into Wasmcloud's actor as serverless game server.
-
-Check out Twitter [@rustropy_gaming][alanpoon_twitter]
-for announcement of QQparty going live.
-
-Deploying multiplayer game servers may be cheap in the future.
+You can check out a recording of the talk on [YouTube][Lightning-Talk-youtube],
+as well as viewing the [slides][Lightning-Talk-pdf]. For updates on QQparty,
+follow [@rustropy_gaming][alanpoon_twitter] on Twitter!
 
 [Lightning-Talk-schedule]: https://cloudnativewasmdayeu22.sched.com/event/zgbG/lightning-talk-wasmcloud-bevy-ecs-solution-to-woe-of-indie-game-developers-alan-poon-yong-quan-shopee?iframe=no&w=100%&sidebar=yes&bg=no
 [Lightning-Talk-pdf]: https://static.sched.com/hosted_files/cloudnativewasmdayeu22/3c/lightingtalk-alan_pdf.pdf
