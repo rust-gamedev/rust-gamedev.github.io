@@ -112,15 +112,16 @@ He will be releasing videos about UI in Bevy and Rapier physics next month.
 [bevy-materials-playlist]: https://youtube.com/playlist?list=PLT_D88-MTFOMNRPAC-62Hz096aIjT4Noy
 [matthew-bryant-youtube]: https://youtube.com/channel/UC7v3YEDa603x_84PgCPytzA
 
-### [Kubecon 2022, Lightning Talk: Wasmcloud + Bevy ECS][Lightning Talk-schedule]
+### [Kubecon 2022, Lightning Talk: Wasmcloud + Bevy ECS][Lightning-Talk-schedule]
+
+![A picture of speakers](./lightingtalk.jpeg)
 
 [QQparty][alanpoon-qqparty] is a serverless multiplayer game built with Bevy ECS
 and [Wasmcloud][wasmcloud_website].
 
 This month [@rustropy_gaming][alanpoon_twitter] joined Cosmonic to give
-a series of Wasmcloud talks in Kubecon 2022 VLC.
-![A picture of speakers](./lightingtalk.jpeg)
-Slides:[Lightning Talk-pdf] | Youtube: [Lightning Talk-youtube]
+a series of Wasmcloud talks in Kubecon 2022 VLC:
+[YouTube recording][Lightning-Talk-youtube], [slides][Lightning-Talk-pdf].
 
 Bevy can be added into Wasmcloud's actor as serverless game server.
 
@@ -129,9 +130,9 @@ for announcement of QQparty going live.
 
 Deploying multiplayer game servers may be cheap in the future.
 
-[Lightning Talk-schedule]: https://cloudnativewasmdayeu22.sched.com/event/zgbG/lightning-talk-wasmcloud-bevy-ecs-solution-to-woe-of-indie-game-developers-alan-poon-yong-quan-shopee?iframe=no&w=100%&sidebar=yes&bg=no
-[Lightning Talk-pdf]: https://static.sched.com/hosted_files/cloudnativewasmdayeu22/3c/lightingtalk-alan_pdf.pdf
-[Lightning Talk-youtube]: https://www.youtube.com/watch?v=8q2sPPX5aXY&list=PLj6h78yzYM2Ni0u-ONljTkv4uOutyjwq9&index=3
+[Lightning-Talk-schedule]: https://cloudnativewasmdayeu22.sched.com/event/zgbG/lightning-talk-wasmcloud-bevy-ecs-solution-to-woe-of-indie-game-developers-alan-poon-yong-quan-shopee?iframe=no&w=100%&sidebar=yes&bg=no
+[Lightning-Talk-pdf]: https://static.sched.com/hosted_files/cloudnativewasmdayeu22/3c/lightingtalk-alan_pdf.pdf
+[Lightning-Talk-youtube]: https://youtube.com/watch?v=8q2sPPX5aXY&list=PLj6h78yzYM2Ni0u-ONljTkv4uOutyjwq9&index=3
 [alanpoon-qqparty]: https://github.com/alanpoon/qq_party
 [alanpoon_twitter]: https://twitter.com/rustropy_gaming
 [wasmcloud_website]: https://wasmcloud.dev/
