@@ -89,15 +89,15 @@ Features:
 
 [![A screenshot of gameplay action in ROOM4DOOM.](room4doom.jpg)][room4doom]
 
-[ROOM4DOOM](room4doom) is a rewrite of the classic Doom engine in Rust with some
+[ROOM4DOOM][room4doom] is a rewrite of the classic Doom engine in Rust with some
 modernisation.
 
 [@flukejones][flukejones_twitter] has been very busy in the last 4 months completing
 many parts of ROOM4DOOM; rendering, subsystems for menus, statusbar, intermissions,
-and off course the actual gameplay - you can now complete Doom 1 in ROOM4DOOM.
+and of course the actual gameplay - you can now complete Doom 1 in ROOM4DOOM.
 
-A recent twitter thread has been cleaned up and expanded in to a blog post providing
-context to the prohject and a walk-through of the history.
+A recent Twitter thread has been cleaned up and expanded in to a blog post providing
+context to the project and a walk-through of the history.
 You can view that [here][room4doom_blog].
 
 [room4doom]: https://gitlab.com/flukejones/room4doom
