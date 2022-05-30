@@ -89,17 +89,20 @@ Features:
 
 ![a ghost, stuck in limbo, on a mountain pass](limbo-pass.png)
 
-[limbo_pass] by [@shnewto] is a little 3d walking sim in Bevy that uses
- scenes, meshes, and materials exported directly from Blender.
+[limbo_pass] by [@shnewto] is a little 3D walking sim in Bevy that uses
+scenes, meshes, and materials exported directly from Blender.
+
+Features include:
 
 - Blender assets exported to glTF
 - Collision detection with [bevy_rapier3d]
 - Looping audio with [bevy_kira_audio]
-- [Announcement]
-- [Gameplay]
 
-[Announcement]: https://twitter.com/shnewto/status/1520897809968340992
-[Gameplay]: https://youtu.be/gxUesnuTBBI
+For more info, see the [announcement post][limbo_pass_announce] and the
+[gameplay video][limbo_pass_gameplay].
+
+[limbo_pass_announce]: https://twitter.com/shnewto/status/1520897809968340992
+[limbo_pass_gameplay]: https://youtu.be/gxUesnuTBBI
 [limbo_pass]: https://github.com/shnewto/limbo_pass
 [@shnewto]: https://github.com/shnewto/
 [bevy_rapier3d]: https://github.com/dimforge/bevy_rapier
