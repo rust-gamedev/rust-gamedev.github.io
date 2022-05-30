@@ -68,9 +68,72 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Battleship]
+
+![Gameplay demo](battleship.gif)
+
+[Battleship] by [@orhun] is the [battleship game] implemented in Rust.
+
+Features:
+
+- Fully playable between 2 players on the terminal.
+- No installation required.
+- Works over TCP sockets.
+- Very lightweight to host your own server (only has 1 dependency).
+
+[Battleship]: https://github.com/orhun/battleship-rs
+[battleship game]: https://en.wikipedia.org/wiki/Battleship_(game)
+[@orhun]: https://github.com/orhun/
+
 ## Engine Updates
 
 ## Learning Material Updates
+
+### [Intro to Material/Shaders in Bevy][bevy-materials-playlist]
+
+![Bevy Materials video series thumbnail](bevy-material-series.png)
+
+[Matthew Bryant][matthew-bryant-youtube] has created
+[a series about Bevy's Material abstraction][bevy-materials-playlist],
+showing how to use custom WGSL shaders in Bevy.
+
+The series walks through the documention to understand why steps are done in
+order to build a clear theoretical understanding of Bevy's high level abstractions.
+
+- The first of the three videos covers the bare minimum needed
+  to render a material;
+- the second introduces bind groups to use textures and generic data in
+  the shader;
+- and the final video ties into Bevy's ECS to copy game data onto the
+  graphics card every frame.
+
+He will be releasing videos about UI in Bevy and Rapier physics next month.
+
+[bevy-materials-playlist]: https://youtube.com/playlist?list=PLT_D88-MTFOMNRPAC-62Hz096aIjT4Noy
+[matthew-bryant-youtube]: https://youtube.com/channel/UC7v3YEDa603x_84PgCPytzA
+
+### [Kubecon 2022, Lightning Talk: Wasmcloud + Bevy ECS][Lightning-Talk-schedule]
+
+![A picture of speakers](./lightingtalk.jpeg)
+
+[QQparty][alanpoon-qqparty] is a serverless multiplayer game built with Bevy ECS
+and [Wasmcloud][wasmcloud_website].
+
+This month, [@rustropy_gaming][alanpoon_twitter] joined Cosmonic to give
+a series of Wasmcloud talks in Kubecon 2022 VLC. They demonstrated
+how Bevy can be added into Wasmcloud's actors as a serverless
+game server.
+
+You can check out a recording of the talk on [YouTube][Lightning-Talk-youtube],
+as well as viewing the [slides][Lightning-Talk-pdf]. For updates on QQparty,
+follow [@rustropy_gaming][alanpoon_twitter] on Twitter!
+
+[Lightning-Talk-schedule]: https://cloudnativewasmdayeu22.sched.com/event/zgbG/lightning-talk-wasmcloud-bevy-ecs-solution-to-woe-of-indie-game-developers-alan-poon-yong-quan-shopee?iframe=no&w=100%&sidebar=yes&bg=no
+[Lightning-Talk-pdf]: https://static.sched.com/hosted_files/cloudnativewasmdayeu22/3c/lightingtalk-alan_pdf.pdf
+[Lightning-Talk-youtube]: https://youtube.com/watch?v=8q2sPPX5aXY&list=PLj6h78yzYM2Ni0u-ONljTkv4uOutyjwq9&index=3
+[alanpoon-qqparty]: https://github.com/alanpoon/qq_party
+[alanpoon_twitter]: https://twitter.com/rustropy_gaming
+[wasmcloud_website]: https://wasmcloud.dev/
 
 ### [Starting a new 2d platformer with Bevy ECS][starting-a-new-2d-platformer-with-bevy-ecs]
 
@@ -111,6 +174,26 @@ on GitHub.
 [bloom_update_twitter]: https://twitter.com/kettlecorn/status/1529193509462360065
 
 ## Library Updates
+
+### [bevy_mod_scripting]
+
+![bevy_mod_scripting logo](logo_bevy_scripting.svg)
+
+[bevy_mod_scripting] by @makspll is a brand new Bevy plugin
+enabling multi-language scripting (currently in Lua and Rhai).
+
+The plugin is in early stages but as of now supports:
+
+- Handling events at multiple points of your stage pipeleine.
+- Sending events to specific, or all scripts.
+- Setting event priority to order your callbacks.
+- Defining custom state and API's at initialization.
+- Sending run-time error events (to for example show them in an in-game console).
+- One-shot scripts.
+
+General Bevy API support is under-way so stay tuned!
+
+[bevy_mod_scripting]: https://github.com/makspll/bevy_mod_scripting
 
 ## Popular Workgroup Issues in Github
 
