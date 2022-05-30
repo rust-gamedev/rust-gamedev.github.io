@@ -85,6 +85,19 @@ Features:
 [battleship game]: https://en.wikipedia.org/wiki/Battleship_(game)
 [@orhun]: https://github.com/orhun/
 
+### Country Slice
+
+![Country_slice_gif](country_slice.gif)
+
+Country slice (wip name) is a relaxing building game being made by [@anastasiaopara].
+
+This month she added an animated undo system. You can find more details in this
+[twitter thread], and follow the [newsletter] for more updates.
+
+[newsletter]: tinyurl.com/2p8u9rzp
+[twitter thread]: https://twitter.com/anastasiaopara/status/1530473522224582656?s=20&t=2e6-kADc_M6FcSzj757s4Q
+[@anastasiaopara]: https://twitter.com/anastasiaopara
+
 ## Engine Updates
 
 ## Learning Material Updates
