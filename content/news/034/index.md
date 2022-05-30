@@ -189,6 +189,7 @@ General Bevy API support is under-way so stay tuned!
 Apply cloth physics to any mesh, by adding a single component to your entity!
 
 Features:
+
 - Collision support using [bevy_rapier](https://github.com/dimforge/bevy_rapier)
 - Global and per-entity physics customization
 - Dynamic smooth and flat normals
