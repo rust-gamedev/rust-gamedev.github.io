@@ -139,7 +139,7 @@ follow [@rustropy_gaming][alanpoon_twitter] on Twitter!
 
 ![A screenshot of the latest Rusteroids tutorial](./rusteroids-screenshot.png)
 
-[Rusteroids][rusteroids-github] is a tutorial recreating a clone of Asteroids 
+[Rusteroids][rusteroids-github] is a tutorial recreating a clone of Asteroids
 in Rust, using SDL2 and the [Specs][rust-specs-crate] library.
 
 New episodes are released weekly and added to the playlist. Most recently,
@@ -147,7 +147,7 @@ collision detection was added to reset the game state when the asteroid
 and player collide. The l;atest episode is [here][rusteroids-latest].
 
 You can subscribe to the [YouTube Channel][electrocat-youtube],
-to never miss an episode, or follow [@ecatstudios][ecatstudios-twitter] on 
+to never miss an episode, or follow [@ecatstudios][ecatstudios-twitter] on
 Twitter!
 
 [rusteroids-youtube-playlist]: https://www.youtube.com/playlist?list=PLFOS-Gn3aXROnSfl26esPExssd-rQw6jD
@@ -156,7 +156,6 @@ Twitter!
 [rusteroids-latest]: https://www.youtube.com/watch?v=KTDdlWErmYU&list=PLFOS-Gn3aXROnSfl26esPExssd-rQw6jD&index=9
 [electrocat-youtube]: https://www.youtube.com/channel/UC1m6P72nySpB3lKWDYGVipw
 [ecatstudios-twitter]: https://twitter.com/ecatstudios
-
 
 ## Tooling Updates
 
