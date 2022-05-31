@@ -202,20 +202,23 @@ General Bevy API support is under-way so stay tuned!
 
 [bevy_mod_scripting]: https://github.com/makspll/bevy_mod_scripting
 
-
 ### [bevy_asset_loader]
 
-[bevy_asset_loader] by [@nikl_me] is a Bevy plugin that helps with asset loading and asset organisation. It greatly reduces boilerplate code for loading states and can resolve asset configuration at run time.
+[bevy_asset_loader] by [@nikl_me] is a Bevy plugin that helps with asset
+loading and asset organisation. It greatly reduces boilerplate code for
+loading states and can resolve asset configuration at run time.
 
-This month, version `0.11.0` was released:
-- Support loading lists of files as `Vec<HandleUntyped>` or `Vec<Handle<T>>`
-- The progress of your asset loading can be tracked using [iyes_progress] (you can build loading bars now)
-- You can use the latest version together with [iyes_loopless]
-- Asset collection fields without attributes get loaded via their `FromWorld` implementations
-- Allow adding dynamic asset collection files at run time
-- File endings for dynamic asset collection files can be configured
+This month, version `0.11.0` was released. It supports loading lists of files
+as `Vec<HandleUntyped>` or `Vec<Handle<T>>`. This is an alternative to loading
+folders, which is not supported on the web. You can now track the loading
+progress of your assets with [iyes_progress] and build loading bars.
+Integrating with [iyes_loopless], gives you some benefits of stageless
+scheduling in current Bevy. Additionally, the loading of assets fields
+without attributes was improved. It now uses the `FromWorld` trait
+instead of `Default`.
 
-More improvements will likely follow for the dynamic asset story. One goal is to allow loading any custom values as dynamic assets.
+More improvements will likely follow for the dynamic asset story. One goal
+is to allow loading any custom values as dynamic assets.
 
 [bevy_asset_loader]: https://github.com/NiklasEi/bevy_asset_loader
 [@nikl_me]: https://twitter.com/nikl_me
