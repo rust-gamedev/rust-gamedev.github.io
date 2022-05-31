@@ -202,6 +202,21 @@ General Bevy API support is under-way so stay tuned!
 
 [bevy_mod_scripting]: https://github.com/makspll/bevy_mod_scripting
 
+
+### [bevy_kira_audio]
+
+[bevy_kira_audio] by [@nikl_me] is an alternative audio plugin for Bevy. It uses [Kira] to play and control game audio.
+
+This month, saw the release of version `0.10.0`:
+- The plugin now uses the latest Kira release, which was a major rewrite
+- The audio channel API is improved by making all channels resources in Bevy's ECS
+- Sounds can be directly loaded from asset files with settings like their volume, playback rate or panning
+- The audio backend can now be configured before creation through a settings resource
+
+[bevy_kira_audio]: https://github.com/NiklasEi/bevy_kira_audio
+[@nikl_me]: https://twitter.com/nikl_me
+[Kira]: https://github.com/tesselode/kira
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
