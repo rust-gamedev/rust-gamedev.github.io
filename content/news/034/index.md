@@ -87,7 +87,7 @@ Features:
 
 ### [Way of Rhea][wor]
 
-![way of rhea capsule image](wor-capsule.jpg)
+[![way of rhea capsule image](wor-capsule.jpg)][wor]
 
 [Way of Rhea][wor] is a puzzle adventure with hard puzzles and forgiving
 mechanics being produced by [@masonremaley][wor-mason-remaley] in a custom Rust
@@ -95,7 +95,8 @@ engine. You can support development by [wishlisting the game on Steam][wor], and
 [giving feedback][wor-forum] on the Steam demo.
 
 Way of Rhea was selected to be part of the Cerebral Puzzle Showcase! The event
-is over, you can still find the [list of games and some of the demos here][cps].
+is over, you can still find the
+[list of games and some of the demos here][wor-cps].
 
 Recent updates:
 
