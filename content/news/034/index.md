@@ -105,9 +105,8 @@ delivered on all the promises here.
 The first set of Sailing rules has also been implemented and part of the
 current beta testing process with more rules to be added in the next months.
 
-Sadly we couldn't hit the target for a Q2 2022 Early Access release on Steam
-and now aiming at a Q4 2022, wishlist Hydrofoil Generation now to make sure
-you won't miss the release date!
+Sadly the target Q2 2022 Early Access release on Steam couldn't be hit and
+now the team is aiming at a Q4 2022 release.
 
 [Hydrofoil Generation]: https://hydrofoil-generation.com/
 [hgs_facebook]: https://www.facebook.com/HydrofoilGenerationSailing/
