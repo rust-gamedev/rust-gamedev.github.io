@@ -116,7 +116,7 @@ but also added some interesting features:
 - Skybox validator.
 
 See full list of changes in respective blog posts - [0.25] and [0.26]. Everybody,
-who wants to learn how to use the engine should check the new 
+who wants to learn how to use the engine should check the new
 [2D Platformer Tutorial][platformer_tutorial].
 
 [Fyrox]: https://github.com/FyroxEngine/Fyrox
