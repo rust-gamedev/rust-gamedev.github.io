@@ -96,9 +96,7 @@ engine. You can support development by [wishlisting the game on Steam][wor], and
 
 Way of Rhea was selected to be part of the Cerebral Puzzle Showcase! The event
 is over, you can still find the
-[list of games and some of the demos here][wor-cps].
-
-Recent updates:
+[list of games and some of the demos here][wor-cps]. Recent updates:
 
 - More work was done on the [Jungle Biome visuals][wor-jungle]
 - Dynamic gradient overlays were added to the engine to give a sense of depth
