@@ -85,6 +85,36 @@ Features:
 [battleship game]: https://en.wikipedia.org/wiki/Battleship_(game)
 [@orhun]: https://github.com/orhun/
 
+### [Hydrofoil Generation]
+
+![hgs_screen](hgs34.jpg)
+
+[Hydrofoil Generation]
+([Steam][hgs_steam], [Facebook][hgs_facebook], [Discord][hgs_discord])
+is a realistic sailing/foiling inshore simulator in development for PC/Steam
+that will put you in the driving seat of modern competitive sailing.
+Hydrofoil Generation is based on a custom made DirectX 11 based engine.
+
+A new [trailer][hgs_trailer] just landed showcasing new animations, the new
+Hong Kong location and camera modes.
+
+Meanwhile, private beta-testing is well underway with good feedback regarding
+boat controls and physics, netcode and software stability, Rust for sure
+delivered on all the promises here.
+
+The first set of Sailing rules has also been implemented and part of the
+current beta testing process with more rules to be added in the next months.
+
+Sadly we couldn't hit the target for a Q2 2022 Early Access release on Steam
+and now aiming at a Q4 2022, wishlist Hydrofoil Generation now to make sure
+you won't miss the release date!
+
+[Hydrofoil Generation]: https://hydrofoil-generation.com/
+[hgs_facebook]: https://www.facebook.com/HydrofoilGenerationSailing/
+[hgs_discord]: https://discord.gg/DtKgt2duAy/
+[hgs_steam]: https://store.steampowered.com/app/1448820/Hydrofoil_Generation/
+[hgs_trailer]: https://youtu.be/oFtFdmnkkSI
+
 ## Engine Updates
 
 ## Learning Material Updates
