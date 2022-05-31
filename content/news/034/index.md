@@ -202,6 +202,26 @@ General Bevy API support is under-way so stay tuned!
 
 [bevy_mod_scripting]: https://github.com/makspll/bevy_mod_scripting
 
+
+### [bevy_asset_loader]
+
+[bevy_asset_loader] by [@nikl_me] is a Bevy plugin that helps with asset loading and asset organisation. It greatly reduces boilerplate code for loading states and can resolve asset configuration at run time.
+
+This month, version `0.11.0` was released:
+- Support loading lists of files as `Vec<HandleUntyped>` or `Vec<Handle<T>>`
+- The progress of your asset loading can be tracked using [iyes_progress] (you can build loading bars now)
+- You can use the latest version together with [iyes_loopless]
+- Asset collection fields without attributes get loaded via their `FromWorld` implementations
+- Allow adding dynamic asset collection files at run time
+- File endings for dynamic asset collection files can be configured
+
+More improvements will likely follow for the dynamic asset story. One goal is to allow loading any custom values as dynamic assets.
+
+[bevy_asset_loader]: https://github.com/NiklasEi/bevy_asset_loader
+[@nikl_me]: https://twitter.com/nikl_me
+[iyes_loopless]: https://github.com/IyesGames/iyes_loopless
+[iyes_progress]: https://github.com/IyesGames/iyes_progress
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
