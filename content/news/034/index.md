@@ -89,13 +89,14 @@ Features:
 
 ![Country_slice_gif](country_slice.gif)
 
-Country slice (wip name) is a relaxing building game being made by [@anastasiaopara].
+Country Slice (WIP name) is a relaxing building game being made by [@anastasiaopara].
 
-This month she added an animated undo system. You can find more details in this
-[twitter thread], and follow the [newsletter] for more updates.
+This month, she added an animated undo system. You can find more details in this
+[twitter thread][country-slice-twitter], and follow the [newsletter][country-slice-newsletter]
+for more updates.
 
-[newsletter]: https://dashboard.mailerlite.com/forms/10395/51067704544593017/share
-[twitter thread]: https://twitter.com/anastasiaopara/status/1530473522224582656?s=20&t=2e6-kADc_M6FcSzj757s4Q
+[country-slice-newsletter]: https://dashboard.mailerlite.com/forms/10395/51067704544593017/share
+[country-slice-twitter]: https://twitter.com/anastasiaopara/status/1530473522224582656?s=20&t=2e6-kADc_M6FcSzj757s4Q
 [@anastasiaopara]: https://twitter.com/anastasiaopara
 
 ## Engine Updates
