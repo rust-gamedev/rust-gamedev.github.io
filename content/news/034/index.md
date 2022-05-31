@@ -87,6 +87,45 @@ Features:
 
 ## Engine Updates
 
+### [Fyrox]
+
+![Fyroxed](fyrox.png)
+
+[Fyrox] ([Discord][fyrox_discord], [Twitter][fyrox_twitter]) is a game engine that
+aims to be easy to use and provide a large set of out-of-the-box features. In May
+it hit version 0.25 which added a lot of new functionality:
+
+- Static plugin system.
+- User-defined scripts.
+- Play mode for the editor.
+- Animation blending state machine editor.
+- Prefab inheritance improvements.
+- Layout and render transform support for widgets.
+- Shortcuts improvements in the editor.
+- UI performance improvements.
+- Double click support in `fyrox-ui`
+- Better serializer error recovery.
+- Tons of small improvements and fixes.
+
+Some time after, the engine hit version 0.26 which was primarily focused on bug fixing,
+but also added some interesting features:
+
+- Project template generator.
+- Script API improvements.
+- Shader cache fixes.
+- Skybox validator.
+
+See full list of changes in respective blog posts - [0.25] and [0.26]. Everybody,
+who wants to learn how to use the engine should check the new 
+[2D Platformer Tutorial][platformer_tutorial].
+
+[Fyrox]: https://github.com/FyroxEngine/Fyrox
+[0.25]: https://fyrox.rs/blog/post/feature-highlights-0-25/
+[0.26]: https://fyrox.rs/blog/post/feature-highlights-0-26/
+[fyrox_discord]: https://discord.com/invite/xENF5Uh
+[fyrox_twitter]: https://twitter.com/DmitryNStepanov
+[platformer_tutorial]: https://fyrox-book.github.io/fyrox/tutorials/platformer/part1.html
+
 ## Learning Material Updates
 
 ### [Intro to Material/Shaders in Bevy][bevy-materials-playlist]
