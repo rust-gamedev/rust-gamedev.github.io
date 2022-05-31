@@ -85,6 +85,32 @@ Features:
 [battleship game]: https://en.wikipedia.org/wiki/Battleship_(game)
 [@orhun]: https://github.com/orhun/
 
+### [Way of Rhea][wor]
+
+![way of rhea capsule image](wor-capsule.jpg)
+
+[Way of Rhea][wor] is a puzzle adventure with hard puzzles and forgiving
+mechanics being produced by [@masonremaley][wor-mason-remaley] in a custom Rust
+engine. You can support development by [wishlisting the game on Steam][wor], and
+[giving feedback][wor-forum] on the Steam demo.
+
+Way of Rhea was selected to be part of the Cerebral Puzzle Showcase! The event
+is over, you can still find the [list of games and some of the demos here][cps].
+
+Recent updates:
+
+- More work was done on the [Jungle Biome visuals][wor-jungle]
+- Dynamic gradient overlays were added to the engine to give a sense of depth
+- Fixed bug where Nvidia drivers would incorrectly trigger the crash dump writer
+- Fixed a long running draw call sorting problem that could lead to popping
+- Fixed an audio failure when unplugging the active speaker
+
+[wor]: https://store.steampowered.com/app/1110620/Way_of_Rhea/?utm_campaign=tmirgd&utm_source=n34
+[wor-mason-remaley]: https://twitter.com/masonremaley
+[wor-forum]: https://steamcommunity.com/app/1110620/discussions/0/3275817732933009791/
+[wor-cps]: https://store.steampowered.com/sale/CerebralPuzzleShowcase
+[wor-jungle]: https://store.steampowered.com/news/app/1110620?emclan=103582791465120432&emgid=3180116240852440293
+
 ## Engine Updates
 
 ## Learning Material Updates
