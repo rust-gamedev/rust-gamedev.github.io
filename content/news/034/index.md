@@ -208,7 +208,7 @@ General Bevy API support is under-way so stay tuned!
 plugin for Bevy. It uses [Kira] to play and control
 game audio.
 
-This month, saw the release of version `0.10.0`. The plugin
+This month saw the release of version `0.10.0`. The plugin
 now uses the latest Kira release, which was a major rewrite.
 The audio channel API is improved by making all channels
 resources in Bevy's ECS and sounds can be directly loaded
