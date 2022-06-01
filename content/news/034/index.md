@@ -87,6 +87,27 @@ Features:
 
 ## Engine Updates
 
+### [miniquad]
+
+[![diff](miniquad_pr.png)][miniquad-pr]
+
+[miniquad] is a pure rust, cross-platform graphics library.
+
+[The biggest PR in miniquad's history][miniquad-pr] landed this month, finishing
+the effort of removing all the `sapp` legacy.
+
+Changes includes:
+
+- no more `sapp-*` crates. Now its just one crate, the miniquad!
+  No mess with individual crates anymore, no ffi for
+  miniquad - sapp communication.
+- on linux miniquad do not depend/statically link with lib*-dev packages.  
+  Miniquad can choose between glx/egl, x11/wayland at runtime.
+- MacOS implementation do not depend on any Objective C code anymore.
+
+[miniquad]: https://github.com/not-fl3/miniquad/
+[miniquad-pr]: https://github.com/not-fl3/miniquad/pull/278
+
 ## Learning Material Updates
 
 ### [Intro to Material/Shaders in Bevy][bevy-materials-playlist]
