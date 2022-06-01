@@ -212,7 +212,7 @@ This month, version `0.11.0` was released. It supports loading lists of files
 as `Vec<HandleUntyped>` or `Vec<Handle<T>>`. This is an alternative to loading
 folders, which is not supported on the web. You can now track the loading
 progress of your assets with [iyes_progress] and build loading bars.
-Integrating with [iyes_loopless], gives you some benefits of stageless
+Integrating with [iyes_loopless] gives you some benefits of stageless
 scheduling in current Bevy. Additionally, the loading of assets fields
 without attributes was improved. It now uses the `FromWorld` trait
 instead of `Default`.
