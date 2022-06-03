@@ -135,20 +135,22 @@ follow [@rustropy_gaming][alanpoon_twitter] on Twitter!
 [alanpoon_twitter]: https://twitter.com/rustropy_gaming
 [wasmcloud_website]: https://wasmcloud.dev/
 
-### [Starting a new 2d platformer with Bevy ECS][starting-a-new-2d-platformer-with-bevy-ecs]
+### [Starting a new 2d platformer with Bevy ECS][video-platformer-bevy-ecs]
 
-[![The thumbnail for the Starting a new 2d platformer with Bevy ECS video](starting-a-new-2d-platformer-with-bevy-ecs.png)][starting-a-new-2d-platformer-with-bevy-ecs]
+[![Thumbnail: Hollow Knight screenshot with added Ferrises and Bevy logo](starting-a-new-2d-platformer-with-bevy-ecs.jpg)][video-platformer-bevy-ecs]
 
-[@chrisbiscardi](https://twitter.com/chrisbiscardi) published a [video][starting-a-new-2d-platformer-with-bevy-ecs]
+[@chrisbiscardi] published a [video][video-platformer-bevy-ecs]
 on setting up a new 2D platformer project using Bevy. The video covers
 intergrating with LDTK, Rapier, and becy_ecs_tilemap to get a working
 character controller with collisions in a sandbox. It also touches on
 staple crates such as bevy_asset_loader and iyes_loopless.
 
-_Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/v0keg2/starting_a_new_2d_platformer_with_bevy_ecs/),
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/v0keg2/starting_a_new_2d_platformer_with_bevy_ecs),
 [Twitter](https://twitter.com/chrisbiscardi/status/1524008901028421632)_
 
-[starting-a-new-2d-platformer-with-bevy-ecs]: https://youtube.com/watch?v=gjeEYntkvoY
+[@chrisbiscardi]: https://twitter.com/chrisbiscardi
+[video-platformer-bevy-ecs]: https://youtube.com/watch?v=gjeEYntkvoY
 
 ## Tooling Updates
 
