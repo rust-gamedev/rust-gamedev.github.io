@@ -85,6 +85,25 @@ Features:
 [battleship game]: https://en.wikipedia.org/wiki/Battleship_(game)
 [@orhun]: https://github.com/orhun/
 
+### [ROOM4DOOM][room4doom]
+
+[![A screenshot of gameplay action in ROOM4DOOM.](room4doom.jpg)][room4doom]
+
+[ROOM4DOOM][room4doom] is a rewrite of the classic Doom engine in Rust with some
+modernisation.
+
+[@flukejones][flukejones_twitter] has been very busy in the last 4 months completing
+many parts of ROOM4DOOM; rendering, subsystems for menus, statusbar, intermissions,
+and of course the actual gameplay - you can now complete Doom 1 in ROOM4DOOM.
+
+A recent Twitter thread has been cleaned up and expanded in to a blog post providing
+context to the project and a walk-through of the history.
+You can view that [here][room4doom_blog].
+
+[room4doom]: https://gitlab.com/flukejones/room4doom
+[flukejones_twitter]: https://twitter.com/flukejones
+[room4doom_blog]: https://ljones.dev/blog/room4doom-20220529/
+
 ## Engine Updates
 
 ## Learning Material Updates
