@@ -85,6 +85,25 @@ Features:
 [battleship game]: https://en.wikipedia.org/wiki/Battleship_(game)
 [@orhun]: https://github.com/orhun/
 
+### [ROOM4DOOM][room4doom]
+
+[![A screenshot of gameplay action in ROOM4DOOM.](room4doom.jpg)][room4doom]
+
+[ROOM4DOOM][room4doom] is a rewrite of the classic Doom engine in Rust with some
+modernisation.
+
+[@flukejones][flukejones_twitter] has been very busy in the last 4 months completing
+many parts of ROOM4DOOM; rendering, subsystems for menus, statusbar, intermissions,
+and of course the actual gameplay - you can now complete Doom 1 in ROOM4DOOM.
+
+A recent Twitter thread has been cleaned up and expanded in to a blog post providing
+context to the project and a walk-through of the history.
+You can view that [here][room4doom_blog].
+
+[room4doom]: https://gitlab.com/flukejones/room4doom
+[flukejones_twitter]: https://twitter.com/flukejones
+[room4doom_blog]: https://ljones.dev/blog/room4doom-20220529/
+
 ### [limbo_pass]
 
 ![a ghost, stuck in limbo, on a mountain pass](limbo-pass.png)
@@ -157,6 +176,45 @@ follow [@rustropy_gaming][alanpoon_twitter] on Twitter!
 [alanpoon-qqparty]: https://github.com/alanpoon/qq_party
 [alanpoon_twitter]: https://twitter.com/rustropy_gaming
 [wasmcloud_website]: https://wasmcloud.dev/
+
+### [Rusteroids][rusteroids-youtube-playlist]
+
+![A screenshot of the latest Rusteroids tutorial](./rusteroids-screenshot.png)
+
+[Rusteroids][rusteroids-github] is a tutorial recreating a clone of Asteroids
+in Rust, using SDL2 and the [Specs][rust-specs-crate] library.
+
+New episodes are released weekly and added to the playlist. Most recently,
+collision detection was added to reset the game state when the asteroid
+and player collide. The latest episode is [here][rusteroids-latest].
+
+You can subscribe to the [YouTube Channel][electrocat-youtube],
+to never miss an episode, or follow [@ecatstudios][ecatstudios-twitter] on
+Twitter!
+
+[rusteroids-youtube-playlist]: https://youtube.com/playlist?list=PLFOS-Gn3aXROnSfl26esPExssd-rQw6jD
+[rusteroids-github]: https://github.com/filtoid/rusteroids
+[rust-specs-crate]: https://docs.rs/specs/latest/specs/
+[rusteroids-latest]: https://youtube.com/watch?v=KTDdlWErmYU&list=PLFOS-Gn3aXROnSfl26esPExssd-rQw6jD&index=9
+[electrocat-youtube]: https://youtube.com/channel/UC1m6P72nySpB3lKWDYGVipw
+[ecatstudios-twitter]: https://twitter.com/ecatstudios
+
+### [Starting a new 2d platformer with Bevy ECS][video-platformer-bevy-ecs]
+
+[![Thumbnail: Hollow Knight screenshot with added Ferrises and Bevy logo](starting-a-new-2d-platformer-with-bevy-ecs.jpg)][video-platformer-bevy-ecs]
+
+[@chrisbiscardi] published a [video][video-platformer-bevy-ecs]
+on setting up a new 2D platformer project using Bevy. The video covers
+intergrating with LDTK, Rapier, and becy_ecs_tilemap to get a working
+character controller with collisions in a sandbox. It also touches on
+staple crates such as bevy_asset_loader and iyes_loopless.
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/v0keg2/starting_a_new_2d_platformer_with_bevy_ecs),
+[Twitter](https://twitter.com/chrisbiscardi/status/1524008901028421632)_
+
+[@chrisbiscardi]: https://twitter.com/chrisbiscardi
+[video-platformer-bevy-ecs]: https://youtube.com/watch?v=gjeEYntkvoY
 
 ## Tooling Updates
 
