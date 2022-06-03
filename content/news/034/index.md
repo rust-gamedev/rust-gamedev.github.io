@@ -261,6 +261,29 @@ General Bevy API support is under-way so stay tuned!
 
 [bevy_mod_scripting]: https://github.com/makspll/bevy_mod_scripting
 
+### [bevy_silk]
+
+![bevy_silk logo](bevy_silk.png)
+
+[bevy_silk] by @[ManevilleF] is a cloth physics plugin for Bevy.
+
+Apply cloth physics to any mesh, by adding a single component to your entity!
+
+Features:
+
+- Collision support using [bevy_rapier](https://github.com/dimforge/bevy_rapier)
+- Global and per-entity physics customization
+- Dynamic smooth and flat normals
+- Wind forces
+- Custom cloth anchors
+
+The library is fully documented and the repository provides various usage examples.
+
+_Discussions: [Twitter](https://twitter.com/ManevilleF/status/1527313861199527937)_
+
+[bevy_silk]: https://github.com/ManevilleF/bevy_silk
+[ManevilleF]: https://twitter.com/ManevilleF
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
