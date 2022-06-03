@@ -159,8 +159,7 @@ Twitter!
 
 ### [Comparing a Voxel Game in F# and Rust][fsharp-rust-voxel]
 
-![Game Development with Rust and WebAssembly Book
-Cover](robocave.jpg)
+![Robocave screenshot](robocave.jpg)
 
 [This article][fsharp-rust-voxel] walks through the process of rewritting an F#
 game in Rust. It explores the similarities between the languages, and talks
