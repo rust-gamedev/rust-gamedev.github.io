@@ -332,6 +332,24 @@ May's full weekly devlogs: "This Week In Veloren...":
 [veloren-173]: https://veloren.net/devblog-173
 [veloren-174]: https://veloren.net/devblog-174
 
+### [Hug with me?][hug-web]
+
+![Screenshot: one human hugs another](hug.jpg)
+
+[The Hug Game][hug-web] by [the HIHAHEHO Studio][hihaheho]
+is an active ragdoll remote hugging simulator made with Bevy and rapier.
+
+The arms are individually controlled using a keyboard on desktop
+and touch controls on mobile to make various hugs.
+You can click "Random” to play with random person or “Room”
+to share a link to someone you want to play with.
+
+The source code of the game is [available on GitHub][hug-src].
+
+[hug-web]: https://hug.hihaheho.com
+[hug-src]: https://github.com/Hihaheho/Hug
+[hihaheho]: https://hihaheho.com
+
 ## Engine Updates
 
 ### [Fyrox]
