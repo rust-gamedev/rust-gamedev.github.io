@@ -69,6 +69,27 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Announcements
 
+### Rust Graphics Meetup 2
+
+[![Graphics meetup speakers](graphics-meetup.jpg)][graphics-meetup-playlist]
+
+The 2nd Rust Graphics Meetup took place on the 21st of May. The videos of the
+talks have been released:
+
+- [Vismut][vismut-talk] | [Lukas Orsvärn]
+- [Screen-13][screen-10-talk] | [John Wells]
+- [Optimizing wgpu with Data Driven Design][wgpu-talk] | [Connor Fitzgerald]
+
+[vismut-talk]: https://www.youtube.com/watch?v=0IsllXP7_pY
+[screen-10-talk]: https://www.youtube.com/watch?v=ywZznsCXUjs
+[wgpu-talk]: https://www.youtube.com/watch?v=DDG4bcGs7zM
+
+[Lukas Orsvärn]: https://github.com/lukors
+[John Wells]: https://github.com/attackgoat/screen-13
+[Connor Fitzgerald]: https://github.com/cwfitzgerald
+
+[graphics-meetup-playlist]: https://www.youtube.com/watch?v=DDG4bcGs7zM&list=PLYiOdhpKxxXJwaocrJcOCoBhlV6foaO8F&index=4
+
 ### Rust GameDev Meetup
 
 ![Gamedev meetup poster](gamedev-meetup.png)
