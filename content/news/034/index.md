@@ -350,6 +350,29 @@ The source code of the game is [available on GitHub][hug-src].
 [hug-src]: https://github.com/Hihaheho/Hug
 [hihaheho]: https://hihaheho.com
 
+### [Combine&Conquer][cnc-logs]
+
+[![Preview: a factory](cnc-preview.png)][cnc-video]
+_[Connect factories on different planets via spaceships][cnc-video]_
+
+[Combine&Conquer][cnc-itch] by [Martin Buck][@I3ck] is a WIP strategy game
+about automation similar to Satisfactory or Factorio.
+This month's updates include:
+
+- [a new view to see in-flight spaceships][cnc-log-1],
+- [single render node][cnc-log-2],
+- [and the first public prototype release on itch.io][cnc-log-3].
+
+_Discussions: [/r/rust](https://reddit.com/r/rust/comments/uzpojz/cnc)_
+
+[@I3ck]: https://github.com/I3ck
+[cnc-logs]: https://buckmartin.de/combine-and-conquer.html
+[cnc-video]: https://reddit.com/r/IndieDev/comments/uxcc7v/connect_different_planets
+[cnc-itch]: https://martinbucksoftware.itch.io
+[cnc-log-1]: https://buckmartin.de/combine-and-conquer/2022-05-05-ship-view.html
+[cnc-log-2]: https://buckmartin.de/combine-and-conquer/2022-05-04-single-node-notification-bg.html
+[cnc-log-3]: https://buckmartin.de/combine-and-conquer/2022-05-07-itch-io-release.html
+
 ## Engine Updates
 
 ### [Fyrox]
