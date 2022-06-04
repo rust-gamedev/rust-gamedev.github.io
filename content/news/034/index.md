@@ -584,6 +584,16 @@ insights on Rust game development, and Eric's  writing process.
 [wasm-gamedev-book]: https://packtpub.com/product/game_development/9781801070973
 [@paytonrules]: https://twitter.com/paytonrules
 
+### [GamesFromScratch: Rust Game Development in 2022][gfs-video]
+
+[![YouTube preview: title](gfs-youtube-preview.jpg)][gfs-video]
+
+[GamesFromScratch shared a YouTube video][gfs-video] with an overview of
+the most popular engines, frameworks and libraries for Rust game development,
+including: Amethyst, Piston, Bevy, Fyrox, ggez, godot-rust, raylib, SDL2, and SFML.
+
+[gfs-video]: https://youtube.com/watch?v=mLXwR88Dzkc
+
 ## Tooling Updates
 
 ### [Bloom3D][bloom3d]
