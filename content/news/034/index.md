@@ -184,6 +184,20 @@ now the team is aiming at a Q4 2022 release.
 [hgs_steam]: https://store.steampowered.com/app/1448820/Hydrofoil_Generation/
 [hgs_trailer]: https://youtu.be/oFtFdmnkkSI
 
+### Country Slice
+
+![Country_slice_gif](country_slice.gif)
+
+Country Slice (WIP name) is a relaxing building game being made by [@anastasiaopara].
+
+This month, she added an animated undo system. You can find more details in this
+[twitter thread][country-slice-twitter], and follow the [newsletter][country-slice-newsletter]
+for more updates.
+
+[country-slice-newsletter]: https://dashboard.mailerlite.com/forms/10395/51067704544593017/share
+[country-slice-twitter]: https://twitter.com/anastasiaopara/status/1530473522224582656
+[@anastasiaopara]: https://twitter.com/anastasiaopara
+
 ## Engine Updates
 
 ## Learning Material Updates
