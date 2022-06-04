@@ -403,6 +403,18 @@ is to allow loading any custom values as dynamic assets.
 [iyes_loopless]: https://github.com/IyesGames/iyes_loopless
 [iyes_progress]: https://github.com/IyesGames/iyes_progress
 
+### [Sparsey]
+
+[Sparsey] by [@LechintanTudor] is a sparse set-based Entity Component System
+with beautiful and concise syntax.
+
+The latest release, `0.8.0`, adds some convenience panicking functions for
+borrowing resources and a method for resetting a `World` to its default state
+without having to recreate it.
+
+[Sparsey]: https://github.com/LechintanTudor/sparsey
+[@LechintanTudor]: https://github.com/LechintanTudor
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
