@@ -155,6 +155,35 @@ For more info, see the [announcement post][limbo_pass_announce] and the
 [bevy_rapier3d]: https://github.com/dimforge/bevy_rapier
 [bevy_kira_audio]: https://github.com/NiklasEi/bevy_kira_audio
 
+### [Hydrofoil Generation]
+
+![hgs_screen](hgs34.jpg)
+
+[Hydrofoil Generation]
+([Steam][hgs_steam], [Facebook][hgs_facebook], [Discord][hgs_discord])
+is a realistic sailing/foiling inshore simulator in development for PC/Steam
+that will put you in the driving seat of modern competitive sailing.
+Hydrofoil Generation is based on a custom made DirectX 11 based engine.
+
+A new [trailer][hgs_trailer] just landed showcasing new animations, the new
+Hong Kong location and camera modes.
+
+Meanwhile, private beta-testing is well underway with good feedback regarding
+boat controls and physics, netcode and software stability, Rust for sure
+delivered on all the promises here.
+
+The first set of Sailing rules has also been implemented and part of the
+current beta testing process with more rules to be added in the next months.
+
+Sadly the target Q2 2022 Early Access release on Steam couldn't be hit and
+now the team is aiming at a Q4 2022 release.
+
+[Hydrofoil Generation]: https://hydrofoil-generation.com/
+[hgs_facebook]: https://www.facebook.com/HydrofoilGenerationSailing/
+[hgs_discord]: https://discord.gg/DtKgt2duAy/
+[hgs_steam]: https://store.steampowered.com/app/1448820/Hydrofoil_Generation/
+[hgs_trailer]: https://youtu.be/oFtFdmnkkSI
+
 ## Engine Updates
 
 ## Learning Material Updates
