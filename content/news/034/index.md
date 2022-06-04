@@ -566,6 +566,24 @@ codebases.
 
 [fsharp-rust-voxel]: https://cragwind.com/blog/posts/comparing-voxel-game-fsharp-rust/
 
+### [Rustacean Station 66: Eric Smith][rustacean-station-66]
+
+![Rustacean Station Logo: rusty Ferris](rustacean-station.jpeg)
+
+In May the [Rustacean Station][rustacean-station] podcast
+[interviewed Eric Smith][rustacean-station-66], the author
+of ["Game Development with Rust and WebAssembly"][wasm-gamedev-book].
+
+In this episode, lots is discussed about
+why Rust is becoming a good language for game development,
+different game engines, is Rust web ready,
+insights on Rust game development, and Eric's  writing process.
+
+[rustacean-station]: https://rustacean-station.org
+[rustacean-station-66]: https://rustacean-station.org/episode/066-eric-smith
+[wasm-gamedev-book]: https://packtpub.com/product/game_development/9781801070973
+[@paytonrules]: https://twitter.com/paytonrules
+
 ## Tooling Updates
 
 ### [Bloom3D][bloom3d]
