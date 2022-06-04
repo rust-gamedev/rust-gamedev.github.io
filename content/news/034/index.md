@@ -66,6 +66,34 @@ _Discussions:
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
+## Announcements
+
+### 3D Ferris
+
+![colorful render of a 3d model of Ferris with additional wireframe view](raymarch_ferris_3d.jpg)
+
+[@RayMarch][raymarch-twitter] is
+creating a game-ready 3D model of [Ferris the Rustacean][ferris]. These links
+provide a more detailed look:
+
+- [360 overview][raymarch-twitter-360]
+- [Ferris dancing][raymarch-twitter-dance]
+
+Once the model is finished, it will be published under a permissive license on
+[Github][raymarch-github], so you can use it in your 3D game,
+rendering demo, v-tuber avatar, you name it!
+
+*Discussions:
+[Twitter][raymarch-twitter-dance],
+[Discord][raymarch-gamedev-discord]*
+
+[ferris]: https://rustacean.net/
+[raymarch-twitter]: https://twitter.com/Ray__March
+[raymarch-twitter-dance]: https://twitter.com/Ray__March/status/1523717266730151936
+[raymarch-twitter-360]: https://twitter.com/Ray__March/status/1512907700740444163
+[raymarch-github]: https://github.com/RayMarch
+[raymarch-gamedev-discord]: https://discord.com/channels/676678179678715904/974371568975216700
+
 ## Game Updates
 
 ### [Battleship]
