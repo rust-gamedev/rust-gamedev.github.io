@@ -435,6 +435,37 @@ Changes includes:
 [miniquad]: https://github.com/not-fl3/miniquad/
 [miniquad-pr]: https://github.com/not-fl3/miniquad/pull/278
 
+### [Dims][dims-website]
+
+[![Video preview: terrain and some red barrels](dims-video-preview.jpg)][dims-video-1]
+
+[Dims][dims-website] ([Twitter][dims-twitter], [Discord][dims-discord],
+[YouTube][dims-youtube]) is a WIP open-world creation platform.
+Some highlights from the project's [latest dev log][dims-post]:
+
+- [A terrain tool](https://youtube.com/watch?v=jgkhsY8aZO8) that allows
+  quick landscapes creation while still making sure that the biomes
+  are unique and diverse.
+- [A tool to let creators script gameplay events][dims-video-1]
+  without having ever done any programming.
+- The pre-alpha is now open for a limited time,
+  so [come and try building your own open world games][dims-website]!
+
+Also, a bunch of feature videos and tutorials were
+[uploaded on the YouTube channel][dims-youtube] -
+make sure to take a look if you're interested in Dims.
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/v0zij3/were_super_excited),
+[/r/worldbuilding](https://reddit.com/r/worldbuilding/comments/v102hp/what_do_you_think_of_our_world_building_tool)_
+
+[dims-website]: https://dims.co
+[dims-twitter]: https://twitter.com/DimsWorlds
+[dims-discord]: https://discord.gg/Z5CAVmNE57
+[dims-youtube]: https://youtube.com/channel/UCR5gOwS7uSl0a0dl7MLQoqg
+[dims-post]: https://dims.co/post/up-next
+[dims-video-1]: https://youtube.com/watch?v=rKgv38zkey0
+
 ## Learning Material Updates
 
 ### [Intro to Material/Shaders in Bevy][bevy-materials-playlist]
