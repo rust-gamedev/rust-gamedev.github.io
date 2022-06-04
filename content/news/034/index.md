@@ -66,6 +66,34 @@ _Discussions:
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
+## Announcements
+
+### 3D Ferris
+
+![colorful render of a 3d model of Ferris with additional wireframe view](raymarch_ferris_3d.jpg)
+
+[@RayMarch][raymarch-twitter] is
+creating a game-ready 3D model of [Ferris the Rustacean][ferris]. These links
+provide a more detailed look:
+
+- [360 overview][raymarch-twitter-360]
+- [Ferris dancing][raymarch-twitter-dance]
+
+Once the model is finished, it will be published under a permissive license on
+[Github][raymarch-github], so you can use it in your 3D game,
+rendering demo, v-tuber avatar, you name it!
+
+*Discussions:
+[Twitter][raymarch-twitter-dance],
+[Discord][raymarch-gamedev-discord]*
+
+[ferris]: https://rustacean.net/
+[raymarch-twitter]: https://twitter.com/Ray__March
+[raymarch-twitter-dance]: https://twitter.com/Ray__March/status/1523717266730151936
+[raymarch-twitter-360]: https://twitter.com/Ray__March/status/1512907700740444163
+[raymarch-github]: https://github.com/RayMarch
+[raymarch-gamedev-discord]: https://discord.com/channels/676678179678715904/974371568975216700
+
 ## Game Updates
 
 ### [Battleship]
@@ -85,6 +113,77 @@ Features:
 [battleship game]: https://en.wikipedia.org/wiki/Battleship_(game)
 [@orhun]: https://github.com/orhun/
 
+### [ROOM4DOOM][room4doom]
+
+[![A screenshot of gameplay action in ROOM4DOOM.](room4doom.jpg)][room4doom]
+
+[ROOM4DOOM][room4doom] is a rewrite of the classic Doom engine in Rust with some
+modernisation.
+
+[@flukejones][flukejones_twitter] has been very busy in the last 4 months completing
+many parts of ROOM4DOOM; rendering, subsystems for menus, statusbar, intermissions,
+and of course the actual gameplay - you can now complete Doom 1 in ROOM4DOOM.
+
+A recent Twitter thread has been cleaned up and expanded in to a blog post providing
+context to the project and a walk-through of the history.
+You can view that [here][room4doom_blog].
+
+[room4doom]: https://gitlab.com/flukejones/room4doom
+[flukejones_twitter]: https://twitter.com/flukejones
+[room4doom_blog]: https://ljones.dev/blog/room4doom-20220529/
+
+### [limbo_pass]
+
+![a ghost, stuck in limbo, on a mountain pass](limbo-pass.png)
+
+[limbo_pass] by [@shnewto] is a little 3D walking sim in Bevy that uses
+scenes, meshes, and materials exported directly from Blender.
+
+Features include:
+
+- Blender assets exported to glTF
+- Collision detection with [bevy_rapier3d]
+- Looping audio with [bevy_kira_audio]
+
+For more info, see the [announcement post][limbo_pass_announce] and the
+[gameplay video][limbo_pass_gameplay].
+
+[limbo_pass_announce]: https://twitter.com/shnewto/status/1520897809968340992
+[limbo_pass_gameplay]: https://youtu.be/gxUesnuTBBI
+[limbo_pass]: https://github.com/shnewto/limbo_pass
+[@shnewto]: https://github.com/shnewto/
+[bevy_rapier3d]: https://github.com/dimforge/bevy_rapier
+[bevy_kira_audio]: https://github.com/NiklasEi/bevy_kira_audio
+
+### [Hydrofoil Generation]
+
+![hgs_screen](hgs34.jpg)
+
+[Hydrofoil Generation]
+([Steam][hgs_steam], [Facebook][hgs_facebook], [Discord][hgs_discord])
+is a realistic sailing/foiling inshore simulator in development for PC/Steam
+that will put you in the driving seat of modern competitive sailing.
+Hydrofoil Generation is based on a custom made DirectX 11 based engine.
+
+A new [trailer][hgs_trailer] just landed showcasing new animations, the new
+Hong Kong location and camera modes.
+
+Meanwhile, private beta-testing is well underway with good feedback regarding
+boat controls and physics, netcode and software stability, Rust for sure
+delivered on all the promises here.
+
+The first set of Sailing rules has also been implemented and part of the
+current beta testing process with more rules to be added in the next months.
+
+Sadly the target Q2 2022 Early Access release on Steam couldn't be hit and
+now the team is aiming at a Q4 2022 release.
+
+[Hydrofoil Generation]: https://hydrofoil-generation.com/
+[hgs_facebook]: https://www.facebook.com/HydrofoilGenerationSailing/
+[hgs_discord]: https://discord.gg/DtKgt2duAy/
+[hgs_steam]: https://store.steampowered.com/app/1448820/Hydrofoil_Generation/
+[hgs_trailer]: https://youtu.be/oFtFdmnkkSI
+
 ### Country Slice
 
 ![Country_slice_gif](country_slice.gif)
@@ -96,7 +195,7 @@ This month, she added an animated undo system. You can find more details in this
 for more updates.
 
 [country-slice-newsletter]: https://dashboard.mailerlite.com/forms/10395/51067704544593017/share
-[country-slice-twitter]: https://twitter.com/anastasiaopara/status/1530473522224582656?s=20&t=2e6-kADc_M6FcSzj757s4Q
+[country-slice-twitter]: https://twitter.com/anastasiaopara/status/1530473522224582656
 [@anastasiaopara]: https://twitter.com/anastasiaopara
 
 ## Engine Updates
@@ -149,6 +248,45 @@ follow [@rustropy_gaming][alanpoon_twitter] on Twitter!
 [alanpoon_twitter]: https://twitter.com/rustropy_gaming
 [wasmcloud_website]: https://wasmcloud.dev/
 
+### [Rusteroids][rusteroids-youtube-playlist]
+
+![A screenshot of the latest Rusteroids tutorial](./rusteroids-screenshot.png)
+
+[Rusteroids][rusteroids-github] is a tutorial recreating a clone of Asteroids
+in Rust, using SDL2 and the [Specs][rust-specs-crate] library.
+
+New episodes are released weekly and added to the playlist. Most recently,
+collision detection was added to reset the game state when the asteroid
+and player collide. The latest episode is [here][rusteroids-latest].
+
+You can subscribe to the [YouTube Channel][electrocat-youtube],
+to never miss an episode, or follow [@ecatstudios][ecatstudios-twitter] on
+Twitter!
+
+[rusteroids-youtube-playlist]: https://youtube.com/playlist?list=PLFOS-Gn3aXROnSfl26esPExssd-rQw6jD
+[rusteroids-github]: https://github.com/filtoid/rusteroids
+[rust-specs-crate]: https://docs.rs/specs/latest/specs/
+[rusteroids-latest]: https://youtube.com/watch?v=KTDdlWErmYU&list=PLFOS-Gn3aXROnSfl26esPExssd-rQw6jD&index=9
+[electrocat-youtube]: https://youtube.com/channel/UC1m6P72nySpB3lKWDYGVipw
+[ecatstudios-twitter]: https://twitter.com/ecatstudios
+
+### [Starting a new 2d platformer with Bevy ECS][video-platformer-bevy-ecs]
+
+[![Thumbnail: Hollow Knight screenshot with added Ferrises and Bevy logo](starting-a-new-2d-platformer-with-bevy-ecs.jpg)][video-platformer-bevy-ecs]
+
+[@chrisbiscardi] published a [video][video-platformer-bevy-ecs]
+on setting up a new 2D platformer project using Bevy. The video covers
+intergrating with LDTK, Rapier, and becy_ecs_tilemap to get a working
+character controller with collisions in a sandbox. It also touches on
+staple crates such as bevy_asset_loader and iyes_loopless.
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/v0keg2/starting_a_new_2d_platformer_with_bevy_ecs),
+[Twitter](https://twitter.com/chrisbiscardi/status/1524008901028421632)_
+
+[@chrisbiscardi]: https://twitter.com/chrisbiscardi
+[video-platformer-bevy-ecs]: https://youtube.com/watch?v=gjeEYntkvoY
+
 ## Tooling Updates
 
 ### [Bloom3D][bloom3d]
@@ -193,6 +331,29 @@ The plugin is in early stages but as of now supports:
 General Bevy API support is under-way so stay tuned!
 
 [bevy_mod_scripting]: https://github.com/makspll/bevy_mod_scripting
+
+### [bevy_silk]
+
+![bevy_silk logo](bevy_silk.png)
+
+[bevy_silk] by @[ManevilleF] is a cloth physics plugin for Bevy.
+
+Apply cloth physics to any mesh, by adding a single component to your entity!
+
+Features:
+
+- Collision support using [bevy_rapier](https://github.com/dimforge/bevy_rapier)
+- Global and per-entity physics customization
+- Dynamic smooth and flat normals
+- Wind forces
+- Custom cloth anchors
+
+The library is fully documented and the repository provides various usage examples.
+
+_Discussions: [Twitter](https://twitter.com/ManevilleF/status/1527313861199527937)_
+
+[bevy_silk]: https://github.com/ManevilleF/bevy_silk
+[ManevilleF]: https://twitter.com/ManevilleF
 
 ## Popular Workgroup Issues in Github
 
