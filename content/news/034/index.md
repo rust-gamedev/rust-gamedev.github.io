@@ -403,6 +403,22 @@ is to allow loading any custom values as dynamic assets.
 [iyes_loopless]: https://github.com/IyesGames/iyes_loopless
 [iyes_progress]: https://github.com/IyesGames/iyes_progress
 
+### [Notan v0.4][Notan]
+
+[Notan] is a simple and portable layer designed to create your own multimedia
+apps on top of it without worrying about platform-specific code.
+
+The main goal is to provide a set of APIs and tools that can be used to create
+your project in an ergonomic manner without enforcing any structure or pattern,
+always trying to stay out of your way. The idea is that you can use it as a
+foundation layer or backend for your next app, game engine, or game.
+
+The latest version [v0.4] adds [touch support] and fixes some minor bugs.
+
+[Notan]: https://github.com/Nazariglez/notan
+[touch support]: https://nazariglez.github.io/notan-web/examples/input_touches.html
+[v0.4]: https://github.com/Nazariglez/notan/releases/tag/v0.4.0
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
