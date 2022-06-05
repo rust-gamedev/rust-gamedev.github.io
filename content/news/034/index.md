@@ -31,6 +31,7 @@ Feel free to send PRs about your own projects!
 [Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
+- [Announcements](#announcements)
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
@@ -67,6 +68,57 @@ If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
 ## Announcements
+
+### Rust Graphics Meetup 2
+
+[![Graphics meetup speakers](graphics-meetup.jpg)][graphics-meetup-playlist]
+
+The 2nd Rust Graphics Meetup took place on the 21st of May. The videos of the
+talks have been released:
+
+- [Vismut][vismut-talk] | [Lukas Orsvärn]
+- [Screen-13][screen-10-talk] | [John Wells]
+- [Optimizing wgpu with Data Driven Design][wgpu-talk] | [Connor Fitzgerald]
+
+[vismut-talk]: https://www.youtube.com/watch?v=0IsllXP7_pY
+[screen-10-talk]: https://www.youtube.com/watch?v=ywZznsCXUjs
+[wgpu-talk]: https://www.youtube.com/watch?v=DDG4bcGs7zM
+
+[Lukas Orsvärn]: https://github.com/lukors
+[John Wells]: https://github.com/attackgoat/screen-13
+[Connor Fitzgerald]: https://github.com/cwfitzgerald
+
+[graphics-meetup-playlist]: https://www.youtube.com/watch?v=DDG4bcGs7zM&list=PLYiOdhpKxxXJwaocrJcOCoBhlV6foaO8F&index=4
+
+### Rust GameDev Meetup
+
+![Gamedev meetup poster](gamedev-meetup.png)
+
+The 16th Rust Gamedev Meetup took place in May. You can watch the recording of
+the meetup [here on Youtube][gamedev-meetup-video]. Here was the schedule from
+the meetup:
+
+- RustConf Arcade Cabinet - [@carlosupina]
+- Puzzle platformer - [@tesselode]
+- Veloren - [@AngelOnFira]
+- Graphite - [@GraphiteEditor]
+
+The meetups take place on the second Saturday every month via the [Rust Gamedev
+Discord server][rust-gamedev-discord] and are also [streamed on
+Twitch][rust-gamedev-twitch]. If you would like to show off what you've been
+working on at the next meetup on [June 11th][rust-meetup-time], fill out [this
+form][gamedev-meetup-form].
+
+[gamedev-meetup-video]: https://youtu.be/XOpZIzmFifk
+[rust-gamedev-discord]: https://discord.gg/yNtPTb2
+[rust-gamedev-twitch]: https://twitch.tv/rustgamedev
+[rust-meetup-time]: https://everytimezone.com/s/ffc60181
+[gamedev-meetup-form]: https://forms.gle/BS1zCyZaiUFSUHxe6
+
+[@carlosupina]: https://twitter.com/tesselode
+[@tesselode]: https://twitter.com/carlosupina
+[@AngelOnFira]: https://twitter.com/AngelOnFira
+[@GraphiteEditor]: https://twitter.com/graphiteeditor
 
 ### 3D Ferris
 
