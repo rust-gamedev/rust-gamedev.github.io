@@ -91,15 +91,15 @@ Features:
 
 [![diff](miniquad_pr.png)][miniquad-pr]
 
-[miniquad] is a pure rust, cross-platform graphics library.
+[miniquad] is a pure Rust, cross-platform graphics library.
 
 [The biggest PR in miniquad's history][miniquad-pr] landed this month, finishing
 the effort of removing all the `sapp` legacy.
 
 Changes includes:
 
-- No more `sapp-*` crates. Now it's just one crate, the miniquad!
-  No mess with individual crates anymore, no ffi for
+- No more `sapp-*` crates. Now it's just one crate, miniquad!
+  No mess with individual crates any more, no FFI for
   miniquad - sapp communication.
 - On Linux, miniquad does not depend/statically link with lib*-dev packages.  
   Miniquad can choose between glx/egl, x11/wayland at runtime.
