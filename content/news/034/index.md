@@ -264,6 +264,27 @@ who wants to learn how to use the engine should check the new
 [fyrox_twitter]: https://twitter.com/DmitryNStepanov
 [platformer_tutorial]: https://fyrox-book.github.io/fyrox/tutorials/platformer/part1.html
 
+### [miniquad]
+
+[![diff](miniquad_pr.png)][miniquad-pr]
+
+[miniquad] is a pure Rust, cross-platform graphics library.
+
+[The biggest PR in miniquad's history][miniquad-pr] landed this month, finishing
+the effort of removing all the `sapp` legacy.
+
+Changes includes:
+
+- No more `sapp-*` crates. Now it's just one crate, miniquad!
+  No mess with individual crates any more, no FFI for
+  miniquad - sapp communication.
+- On Linux, miniquad does not depend/statically link with lib*-dev packages.
+  Miniquad can choose between glx/egl, x11/wayland at runtime.
+- MacOS implementation does not depend on any Objective C code anymore.
+
+[miniquad]: https://github.com/not-fl3/miniquad/
+[miniquad-pr]: https://github.com/not-fl3/miniquad/pull/278
+
 ## Learning Material Updates
 
 ### [Intro to Material/Shaders in Bevy][bevy-materials-playlist]
