@@ -594,6 +594,37 @@ including: Amethyst, Piston, Bevy, Fyrox, ggez, godot-rust, raylib, SDL2, and SF
 
 [gfs-video]: https://youtube.com/watch?v=mLXwR88Dzkc
 
+### New Book: [Multiplayer Game Development in Rust][book-multiplayer]
+
+![Book cover with a MEAP mark](book-multiplayer.png)
+
+The ["Multiplayer Game Development in Rust"][book-multiplayer] book by
+[@Extrawurst] and [@lyonbeckers] is now aviable in Manning Early Access Program.
+
+> Multiplayer Game Development in Rust teaches you to construct
+> your own multiplayer game. You’ll build a simple game client,
+> but the real work happens on the backend. Chapter-by-chapter,
+> you’ll add scalability, persistence, benchmarking, and tracing
+> to support game features like real-time multiplayer scorekeeping,
+> leader boards, and server-to-client messaging.Along the way,
+> you’ll get pro tips about what makes Rust so great for game development,
+> and you’ll work with state-of-the-art technologies that
+> take full advantage of the cloud. Best of all, everything you learn
+> will apply to any application that requires real-time server technology.
+
+At the moment, 4 of 12 chapters are available:
+
+- Introducing Rust in Games
+- Building a Game Client
+- Building a Game Server
+- Making a Multiplayer Client
+
+The book is estimated to be finished in early 2023.
+
+[book-multiplayer]: https://manning.com/books/multiplayer-game-development-in-rust
+[@Extrawurst]: https://twitter.com/Extrawurst
+[@lyonbeckers]: https://twitter.com/lyonbeckers
+
 ## Tooling Updates
 
 ### [Bloom3D][bloom3d]
