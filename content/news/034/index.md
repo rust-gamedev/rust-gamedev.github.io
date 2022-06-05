@@ -625,6 +625,25 @@ The book is estimated to be finished in early 2023.
 [@Extrawurst]: https://twitter.com/Extrawurst
 [@lyonbeckers]: https://twitter.com/lyonbeckers
 
+### [Audio Libraries Considered Challenging][audio-hard-article]
+
+[@tesselode] shared [an article][audio-hard-article] about
+difficulties of making audio libraries:
+
+> I develop a game audio library called [Kira].
+> Here's some of the hard parts I've figured out.
+> If you decide to make an audio library for some reason,
+> learn from my experimentation!
+> <...>
+> Making audio libraries is hard. I don't know the best way to do it.
+> This is just what I've tried and how it went for me.
+
+_Discussions: [/r/rust](https://reddit.com/r/rust/comments/ur93w8/audio_libraries)_
+
+[audio-hard-article]: https://tesselode.github.io/articles/audio-libraries-considered-challenging
+[Kira]: https://github.com/tesselode/kira
+[@tesselode]: https://twitter.com/tesselode
+
 ## Tooling Updates
 
 ### [Bloom3D][bloom3d]
