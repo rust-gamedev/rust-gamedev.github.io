@@ -634,6 +634,18 @@ be configured before creation through a settings resource.
 [@nikl_me]: https://twitter.com/nikl_me
 [Kira]: https://github.com/tesselode/kira
 
+### [Sparsey]
+
+[Sparsey] by [@LechintanTudor] is a sparse set-based Entity Component System
+with beautiful and concise syntax.
+
+The latest release, 0.8.0, adds some convenience panicking functions for
+borrowing resources and a method for resetting a `World` to its default state
+without having to recreate it.
+
+[Sparsey]: https://github.com/LechintanTudor/sparsey
+[@LechintanTudor]: https://github.com/LechintanTudor
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
