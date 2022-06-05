@@ -403,6 +403,24 @@ is to allow loading any custom values as dynamic assets.
 [iyes_loopless]: https://github.com/IyesGames/iyes_loopless
 [iyes_progress]: https://github.com/IyesGames/iyes_progress
 
+### [bevy_kira_audio]
+
+[bevy_kira_audio] by [@nikl_me] is an alternative audio
+plugin for Bevy. It uses [Kira] to play and control
+game audio.
+
+This month saw the release of version `0.10.0`. The plugin
+now uses the latest Kira release, which was a major rewrite.
+The audio channel API is improved by making all channels
+resources in Bevy's ECS and sounds can be directly loaded
+from asset files with settings like their volume, playback
+rate, or panning. Additionally, the audio backend can now
+be configured before creation through a settings resource.
+
+[bevy_kira_audio]: https://github.com/NiklasEi/bevy_kira_audio
+[@nikl_me]: https://twitter.com/nikl_me
+[Kira]: https://github.com/tesselode/kira
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
