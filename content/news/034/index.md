@@ -146,6 +146,24 @@ rendering demo, v-tuber avatar, you name it!
 [raymarch-github]: https://github.com/RayMarch
 [raymarch-gamedev-discord]: https://discord.com/channels/676678179678715904/974371568975216700
 
+### RustConf Arcade Cabinet
+
+![arcade cabinet](arcade_cabinet.png)
+
+[Carlo][carlosupina] is building a custom arcade cabinet that will be at
+RustConf 2022 in Portland. It is an opportunity for Rust game developers to
+share their games with the broader community. If you are interested in getting
+your game on the cabinet, read [this Twitter thread][arcade-cabinet-thread] and
+fill out the [interest form][arcade-interest-form].
+All of the parts for the cabinet are currently in production,
+and art for the sides is in progress.
+Check out the latest update [here][arcade-cabinet-update-thread].
+
+[carlosupina]: https://twitter.com/carlosupina
+[arcade-cabinet-thread]: https://twitter.com/carlosupina/status/1523715837726961664
+[arcade-cabinet-update-thread]: https://twitter.com/carlosupina/status/1532717151240323072
+[arcade-interest-form]: https://forms.gle/onFm5fCygdbiArqJ7
+
 ## Game Updates
 
 ### [Battleship]
