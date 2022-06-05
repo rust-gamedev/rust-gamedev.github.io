@@ -98,12 +98,12 @@ the effort of removing all the `sapp` legacy.
 
 Changes includes:
 
-- no more `sapp-*` crates. Now its just one crate, the miniquad!
+- No more `sapp-*` crates. Now it's just one crate, the miniquad!
   No mess with individual crates anymore, no ffi for
   miniquad - sapp communication.
-- on linux miniquad do not depend/statically link with lib*-dev packages.  
+- On Linux, miniquad does not depend/statically link with lib*-dev packages.  
   Miniquad can choose between glx/egl, x11/wayland at runtime.
-- MacOS implementation do not depend on any Objective C code anymore.
+- MacOS implementation does not depend on any Objective C code anymore.
 
 [miniquad]: https://github.com/not-fl3/miniquad/
 [miniquad-pr]: https://github.com/not-fl3/miniquad/pull/278
