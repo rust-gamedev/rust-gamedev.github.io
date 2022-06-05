@@ -442,6 +442,19 @@ _Discussions:
 [@chrisbiscardi]: https://twitter.com/chrisbiscardi
 [video-platformer-bevy-ecs]: https://youtube.com/watch?v=gjeEYntkvoY
 
+### [Comparing a Voxel Game in F# and Rust][fsharp-rust-voxel]
+
+![Robocave screenshot](robocave.jpg)
+
+[This article][fsharp-rust-voxel] walks through the process of rewritting an F#
+game in Rust. It explores the similarities between the languages, and talks
+about using simple code constructs where possible. It talks about the Rust
+crates used to help with the process. Finally, it goes over a conclusion
+comparing the speed of both versions of the games, and the sizes of the
+codebases.
+
+[fsharp-rust-voxel]: https://cragwind.com/blog/posts/comparing-voxel-game-fsharp-rust/
+
 ## Tooling Updates
 
 ### [Bloom3D][bloom3d]
