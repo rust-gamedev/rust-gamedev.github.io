@@ -293,6 +293,45 @@ is over, you can still find the
 [wor-cps]: https://store.steampowered.com/sale/CerebralPuzzleShowcase
 [wor-jungle]: https://store.steampowered.com/news/app/1110620?emclan=103582791465120432&emgid=3180116240852440293
 
+### [Veloren][veloren]
+
+![Flying down a mountain](veloren.jpg)
+_A glorious flight to distant lands_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In May, work was done on Wyvern models. Smoke was improved from houses, and now
+has different colours and strenghts. A rib cage generator was added, so now
+there are large bone structures from ancient times around the world. Level of
+detail objects were added, so trees can now be seen on far off mountains. This
+makes the world feel significantly more alive. A lot of work was done on the
+performance of the game server, as Veloren has been seeing over 100 concurrent
+players at peak on the server nearly every day for the past few weeks.
+
+Lots of work was done on balancing items and drop rates. Water caves have been
+worked on, which now means that you might need to enter them from underwater.
+Modular weapons were merged, which was a change several months in the making.
+NPCs are now able to pick up items that are on the ground. Work was done on
+taming and mounting various animals. Weather is still in the works, with
+improvements to the ambiant SFX system for rain. A new UI concept was created
+for what Airshipper might be able to look like in the future.
+
+May's full weekly devlogs: "This Week In Veloren...":
+[#170][veloren-170],
+[#171][veloren-171],
+[#172][veloren-172],
+[#173][veloren-173],
+[#174][veloren-174].
+
+[veloren]: https://veloren.net
+
+[veloren-170]: https://veloren.net/devblog-170
+[veloren-171]: https://veloren.net/devblog-171
+[veloren-172]: https://veloren.net/devblog-172
+[veloren-173]: https://veloren.net/devblog-173
+[veloren-174]: https://veloren.net/devblog-174
+
 ## Engine Updates
 
 ### [Fyrox]
