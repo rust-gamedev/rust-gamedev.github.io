@@ -31,6 +31,7 @@ Feel free to send PRs about your own projects!
 [Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
+- [Announcements](#announcements)
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
@@ -68,6 +69,57 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Announcements
 
+### Rust Graphics Meetup 2
+
+[![Graphics meetup speakers](graphics-meetup.jpg)][graphics-meetup-playlist]
+
+The 2nd Rust Graphics Meetup took place on the 21st of May. The videos of the
+talks have been released:
+
+- [Vismut][vismut-talk] | [Lukas Orsvärn]
+- [Screen-13][screen-10-talk] | [John Wells]
+- [Optimizing wgpu with Data Driven Design][wgpu-talk] | [Connor Fitzgerald]
+
+[vismut-talk]: https://www.youtube.com/watch?v=0IsllXP7_pY
+[screen-10-talk]: https://www.youtube.com/watch?v=ywZznsCXUjs
+[wgpu-talk]: https://www.youtube.com/watch?v=DDG4bcGs7zM
+
+[Lukas Orsvärn]: https://github.com/lukors
+[John Wells]: https://github.com/attackgoat/screen-13
+[Connor Fitzgerald]: https://github.com/cwfitzgerald
+
+[graphics-meetup-playlist]: https://www.youtube.com/watch?v=DDG4bcGs7zM&list=PLYiOdhpKxxXJwaocrJcOCoBhlV6foaO8F&index=4
+
+### Rust GameDev Meetup
+
+![Gamedev meetup poster](gamedev-meetup.png)
+
+The 16th Rust Gamedev Meetup took place in May. You can watch the recording of
+the meetup [here on Youtube][gamedev-meetup-video]. Here was the schedule from
+the meetup:
+
+- RustConf Arcade Cabinet - [@carlosupina]
+- Puzzle platformer - [@tesselode]
+- Veloren - [@AngelOnFira]
+- Graphite - [@GraphiteEditor]
+
+The meetups take place on the second Saturday every month via the [Rust Gamedev
+Discord server][rust-gamedev-discord] and are also [streamed on
+Twitch][rust-gamedev-twitch]. If you would like to show off what you've been
+working on at the next meetup on [June 11th][rust-meetup-time], fill out [this
+form][gamedev-meetup-form].
+
+[gamedev-meetup-video]: https://youtu.be/XOpZIzmFifk
+[rust-gamedev-discord]: https://discord.gg/yNtPTb2
+[rust-gamedev-twitch]: https://twitch.tv/rustgamedev
+[rust-meetup-time]: https://everytimezone.com/s/ffc60181
+[gamedev-meetup-form]: https://forms.gle/BS1zCyZaiUFSUHxe6
+
+[@carlosupina]: https://twitter.com/tesselode
+[@tesselode]: https://twitter.com/carlosupina
+[@AngelOnFira]: https://twitter.com/AngelOnFira
+[@GraphiteEditor]: https://twitter.com/graphiteeditor
+
 ### 3D Ferris
 
 ![colorful render of a 3d model of Ferris with additional wireframe view](raymarch_ferris_3d.jpg)
@@ -93,6 +145,24 @@ rendering demo, v-tuber avatar, you name it!
 [raymarch-twitter-360]: https://twitter.com/Ray__March/status/1512907700740444163
 [raymarch-github]: https://github.com/RayMarch
 [raymarch-gamedev-discord]: https://discord.com/channels/676678179678715904/974371568975216700
+
+### RustConf Arcade Cabinet
+
+![arcade cabinet](arcade_cabinet.png)
+
+[Carlo][carlosupina] is building a custom arcade cabinet that will be at
+RustConf 2022 in Portland. It is an opportunity for Rust game developers to
+share their games with the broader community. If you are interested in getting
+your game on the cabinet, read [this Twitter thread][arcade-cabinet-thread] and
+fill out the [interest form][arcade-interest-form].
+All of the parts for the cabinet are currently in production,
+and art for the sides is in progress.
+Check out the latest update [here][arcade-cabinet-update-thread].
+
+[carlosupina]: https://twitter.com/carlosupina
+[arcade-cabinet-thread]: https://twitter.com/carlosupina/status/1523715837726961664
+[arcade-cabinet-update-thread]: https://twitter.com/carlosupina/status/1532717151240323072
+[arcade-interest-form]: https://forms.gle/onFm5fCygdbiArqJ7
 
 ## Game Updates
 
@@ -223,7 +293,106 @@ is over, you can still find the
 [wor-cps]: https://store.steampowered.com/sale/CerebralPuzzleShowcase
 [wor-jungle]: https://store.steampowered.com/news/app/1110620?emclan=103582791465120432&emgid=3180116240852440293
 
+### [Veloren][veloren]
+
+![Flying down a mountain](veloren.jpg)
+_A glorious flight to distant lands_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In May, work was done on Wyvern models. Smoke was improved from houses, and now
+has different colours and strenghts. A rib cage generator was added, so now
+there are large bone structures from ancient times around the world. Level of
+detail objects were added, so trees can now be seen on far off mountains. This
+makes the world feel significantly more alive. A lot of work was done on the
+performance of the game server, as Veloren has been seeing over 100 concurrent
+players at peak on the server nearly every day for the past few weeks.
+
+Lots of work was done on balancing items and drop rates. Water caves have been
+worked on, which now means that you might need to enter them from underwater.
+Modular weapons were merged, which was a change several months in the making.
+NPCs are now able to pick up items that are on the ground. Work was done on
+taming and mounting various animals. Weather is still in the works, with
+improvements to the ambiant SFX system for rain. A new UI concept was created
+for what Airshipper might be able to look like in the future.
+
+May's full weekly devlogs: "This Week In Veloren...":
+[#170][veloren-170],
+[#171][veloren-171],
+[#172][veloren-172],
+[#173][veloren-173],
+[#174][veloren-174].
+
+[veloren]: https://veloren.net
+
+[veloren-170]: https://veloren.net/devblog-170
+[veloren-171]: https://veloren.net/devblog-171
+[veloren-172]: https://veloren.net/devblog-172
+[veloren-173]: https://veloren.net/devblog-173
+[veloren-174]: https://veloren.net/devblog-174
+
 ## Engine Updates
+
+### [Fyrox]
+
+![Fyroxed](fyrox.png)
+
+[Fyrox] ([Discord][fyrox_discord], [Twitter][fyrox_twitter]) is a game engine that
+aims to be easy to use and provide a large set of out-of-the-box features. In May
+it hit version 0.25 which added a lot of new functionality:
+
+- Static plugin system.
+- User-defined scripts.
+- Play mode for the editor.
+- Animation blending state machine editor.
+- Prefab inheritance improvements.
+- Layout and render transform support for widgets.
+- Shortcuts improvements in the editor.
+- UI performance improvements.
+- Double click support in `fyrox-ui`
+- Better serializer error recovery.
+- Tons of small improvements and fixes.
+
+Some time after, the engine hit version 0.26 which was primarily focused on bug fixing,
+but also added some interesting features:
+
+- Project template generator.
+- Script API improvements.
+- Shader cache fixes.
+- Skybox validator.
+
+See full list of changes in respective blog posts - [0.25] and [0.26]. Everybody,
+who wants to learn how to use the engine should check the new
+[2D Platformer Tutorial][platformer_tutorial].
+
+[Fyrox]: https://github.com/FyroxEngine/Fyrox
+[0.25]: https://fyrox.rs/blog/post/feature-highlights-0-25/
+[0.26]: https://fyrox.rs/blog/post/feature-highlights-0-26/
+[fyrox_discord]: https://discord.com/invite/xENF5Uh
+[fyrox_twitter]: https://twitter.com/DmitryNStepanov
+[platformer_tutorial]: https://fyrox-book.github.io/fyrox/tutorials/platformer/part1.html
+
+### [miniquad]
+
+[![diff](miniquad_pr.png)][miniquad-pr]
+
+[miniquad] is a pure Rust, cross-platform graphics library.
+
+[The biggest PR in miniquad's history][miniquad-pr] landed this month, finishing
+the effort of removing all the `sapp` legacy.
+
+Changes includes:
+
+- No more `sapp-*` crates. Now it's just one crate, miniquad!
+  No mess with individual crates any more, no FFI for
+  miniquad - sapp communication.
+- On Linux, miniquad does not depend/statically link with lib*-dev packages.
+  Miniquad can choose between glx/egl, x11/wayland at runtime.
+- MacOS implementation does not depend on any Objective C code anymore.
+
+[miniquad]: https://github.com/not-fl3/miniquad/
+[miniquad-pr]: https://github.com/not-fl3/miniquad/pull/278
 
 ## Learning Material Updates
 
@@ -312,6 +481,19 @@ _Discussions:
 [@chrisbiscardi]: https://twitter.com/chrisbiscardi
 [video-platformer-bevy-ecs]: https://youtube.com/watch?v=gjeEYntkvoY
 
+### [Comparing a Voxel Game in F# and Rust][fsharp-rust-voxel]
+
+![Robocave screenshot](robocave.jpg)
+
+[This article][fsharp-rust-voxel] walks through the process of rewritting an F#
+game in Rust. It explores the similarities between the languages, and talks
+about using simple code constructs where possible. It talks about the Rust
+crates used to help with the process. Finally, it goes over a conclusion
+comparing the speed of both versions of the games, and the sizes of the
+codebases.
+
+[fsharp-rust-voxel]: https://cragwind.com/blog/posts/comparing-voxel-game-fsharp-rust/
+
 ## Tooling Updates
 
 ### [Bloom3D][bloom3d]
@@ -334,6 +516,37 @@ on GitHub.
 [koi]: https://github.com/kettle11/koi
 [kettlecorn_twitter]: https://twitter.com/kettlecorn
 [bloom_update_twitter]: https://twitter.com/kettlecorn/status/1529193509462360065
+
+### [Graphite][graphite-website]
+
+![Graphite](graphite.png)
+
+Graphite ([website][graphite-website], [GitHub][graphite-repo],
+[Discord][graphite-discord], [Twitter][graphite-twitter]) is a free,
+in-development raster and vector 2D graphics editor. It will be powered by a
+node graph compositing engine that supercharges your layer stack, providing a
+completely non-destructive editing experience.
+
+- Spring cleaning: The past month's Sprint 15 work has focused mostly on
+  technical debt cleanup, documentation, and bug fixes around the frontend. That
+  continues with the Rust backend next month.
+
+- A Radiant Gradient: The Gradient tool now supports radial styles in
+  addition to linear.
+
+- New blog post: [Learn about the plans][graphite-blog-post] for
+  distributed computing across many CPUs and GPUs with Graphene, the Rust-based
+  node graph engine and renderer that will power Graphite.
+
+Open the [Graphite editor][graphite-live-demo] in your browser to give it a try
+and share your creations with `#MadeWithGraphite` on Twitter.
+
+[graphite-website]: https://graphite.rs
+[graphite-repo]: https://github.com/GraphiteEditor/Graphite
+[graphite-discord]: https://discord.graphite.rs
+[graphite-twitter]: https://twitter.com/GraphiteEditor
+[graphite-live-demo]: https://editor.graphite.rs
+[graphite-blog-post]: https://graphite.rs/blog/distributed-computing-in-the-graphene-runtime/
 
 ## Library Updates
 
@@ -403,6 +616,36 @@ is to allow loading any custom values as dynamic assets.
 [iyes_loopless]: https://github.com/IyesGames/iyes_loopless
 [iyes_progress]: https://github.com/IyesGames/iyes_progress
 
+### [bevy_kira_audio]
+
+[bevy_kira_audio] by [@nikl_me] is an alternative audio
+plugin for Bevy. It uses [Kira] to play and control
+game audio.
+
+This month saw the release of version `0.10.0`. The plugin
+now uses the latest Kira release, which was a major rewrite.
+The audio channel API is improved by making all channels
+resources in Bevy's ECS and sounds can be directly loaded
+from asset files with settings like their volume, playback
+rate, or panning. Additionally, the audio backend can now
+be configured before creation through a settings resource.
+
+[bevy_kira_audio]: https://github.com/NiklasEi/bevy_kira_audio
+[@nikl_me]: https://twitter.com/nikl_me
+[Kira]: https://github.com/tesselode/kira
+
+### [Sparsey]
+
+[Sparsey] by [@LechintanTudor] is a sparse set-based Entity Component System
+with beautiful and concise syntax.
+
+The latest release, 0.8.0, adds some convenience panicking functions for
+borrowing resources and a method for resetting a `World` to its default state
+without having to recreate it.
+
+[Sparsey]: https://github.com/LechintanTudor/sparsey
+[@LechintanTudor]: https://github.com/LechintanTudor
+
 ### [Notan v0.4][Notan]
 
 [Notan] is a simple and portable layer designed to create your own multimedia
@@ -438,16 +681,57 @@ or [join the next meeting][join].
 
 ## Discussions
 
-<!-- Links to handpicked reddit/twitter/urlo/etc threads that provide
-useful information -->
+- [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/):
+  - ["Choosing a networking library for my game"][r-gamedev-networking]
+- [Rust Gamedev WG](https://github.com/rust-gamedev/wg):
+  - [#124 - "Wanted: a good JPEG 2000 decoder for Rust"][gamedev-wg-jpeg]
+
+[r-gamedev-networking]: https://www.reddit.com/r/rust_gamedev/comments/ujk2s6/choosing_a_networking_library_for_my_game/
+[gamedev-wg-jpeg]: https://github.com/rust-gamedev/wg/issues/124
 
 ## Requests for Contribution
 
-<!-- Links to "good first issue"-labels or direct links to specific tasks -->
+- [Graphite is looking for contributors][graphite-contribute] to help build the
+new node graph and 2D rendering systems.
+- [winit's "difficulty: easy" issues][winit-issues].
+- [Backroll-rs, a new networking library][backroll-rs].
+- [Embark's open issues][embark-open-issues] ([embark.rs]).
+- [wgpu's "help wanted" issues][wgpu-issues].
+- [luminance's "low hanging fruit" issues][luminance-fruits].
+- [ggez's "good first issue" issues][ggez-issues].
+- [Veloren's "beginner" issues][veloren-beginner].
+- [Amethyst's "good first issue" issues][amethyst-issues].
+- [A/B Street's "good first issue" issues][abstreet-issues].
+- [Mun's "good first issue" issues][mun-issues].
+- [SIMple Mechanic's good first issues][simm-issues].
+- [Bevy's "good first issue" issues][bevy-issues].
+
+[graphite-contribute]: https://github.com/GraphiteEditor/Graphite/issues/202
+[winit-issues]: https://github.com/rust-windowing/winit/issues?q=is%3Aopen+is%3Aissue+label%3A%22difficulty%3A+easy%22
+[backroll-rs]: https://github.com/HouraiTeahouse/backroll-rs/issues
+[embark.rs]: https://embark.rs
+[embark-open-issues]: https://github.com/search?q=user:EmbarkStudios+state:open
+[wgpu-issues]: https://github.com/gfx-rs/wgpu/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
+[luminance-fruits]: https://github.com/phaazon/luminance-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22low+hanging+fruit%22
+[ggez-issues]: https://github.com/ggez/ggez/labels/%2AGOOD%20FIRST%20ISSUE%2A
+[veloren-beginner]: https://gitlab.com/veloren/veloren/issues?label_name=beginner
+[amethyst-issues]: https://github.com/amethyst/amethyst/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[abstreet-issues]: https://github.com/a-b-street/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
+[simm-issues]: https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue
+[bevy-issues]: https://github.com/bevyengine/bevy/labels/E-Good-First-Issue
 
 ## Jobs
 
-<!-- An optional section for new jobs related to Rust gamedev -->
+- [DIMS](https://www.dims.co/jobs)
+  (Stockholm/Remote)
+  - Tools Programmer (Rust)
+  - Internship: 3D Artist
+  - Open applications accepted
+- [Embark Studios](https://careers.embark-studios.com/jobs)
+  (Stockholm/Hybrid Remote)
+  - Many roles - check the site for the latest list
+  - Open applications accepted
 
 ## Bonus
 
