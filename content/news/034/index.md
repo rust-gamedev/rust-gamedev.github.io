@@ -395,6 +395,37 @@ on GitHub.
 [kettlecorn_twitter]: https://twitter.com/kettlecorn
 [bloom_update_twitter]: https://twitter.com/kettlecorn/status/1529193509462360065
 
+### [Graphite][graphite-website]
+
+![Graphite](graphite.png)
+
+Graphite ([website][graphite-website], [GitHub][graphite-repo],
+[Discord][graphite-discord], [Twitter][graphite-twitter]) is a free,
+in-development raster and vector 2D graphics editor. It will be powered by a
+node graph compositing engine that supercharges your layer stack, providing a
+completely non-destructive editing experience.
+
+- Spring cleaning: The past month's Sprint 15 work has focused mostly on
+  technical debt cleanup, documentation, and bug fixes around the frontend. That
+  continues with the Rust backend next month.
+
+- A Radiant Gradient: The Gradient tool now supports radial styles in
+  addition to linear.
+
+- New blog post: [Learn about the plans][graphite-blog-post] for
+  distributed computing across many CPUs and GPUs with Graphene, the Rust-based
+  node graph engine and renderer that will power Graphite.
+
+Open the [Graphite editor][graphite-live-demo] in your browser to give it a try
+and share your creations with `#MadeWithGraphite` on Twitter.
+
+[graphite-website]: https://graphite.rs
+[graphite-repo]: https://github.com/GraphiteEditor/Graphite
+[graphite-discord]: https://discord.graphite.rs
+[graphite-twitter]: https://twitter.com/GraphiteEditor
+[graphite-live-demo]: https://editor.graphite.rs
+[graphite-blog-post]: https://graphite.rs/blog/distributed-computing-in-the-graphene-runtime/
+
 ## Library Updates
 
 ### [bevy_mod_scripting]
