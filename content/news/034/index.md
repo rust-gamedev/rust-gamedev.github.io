@@ -812,6 +812,25 @@ The latest version [v0.4] adds [touch support] and fixes some minor bugs.
 [touch support]: https://nazariglez.github.io/notan-web/examples/input_touches.html
 [v0.4]: https://github.com/Nazariglez/notan/releases/tag/v0.4.0
 
+### [carrier-pigeon]
+
+[carrier-pigeon] by [@MitchellMarinoDev] is a rusty networking library for games.
+It builds on the standard library's TcpStream and UdpSocket types
+and handles all the serialization, sending, receiving, and deserialization.
+This way you can worry about what to send,
+and pigeon will worry about how to send it.
+This also allows you to send and receive different types of messages independently.
+
+[bevy-pigeon] is a Bevy plugin for carrier-pigeon.
+
+[bong][pigeon-bong] is a combination of breakout and pong
+that showcases bevy-pigeon and carrier-pigeon.
+
+[carrier-pigeon]: https://github.com/MitchellMarinoDev/carrier-pigeon
+[bevy-pigeon]: https://github.com/MitchellMarinoDev/bevy-pigeon
+[pigeon-bong]: https://github.com/MitchellMarinoDev/bong
+[@MitchellMarinoDev]: https://github.com/MitchellMarinoDev
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
