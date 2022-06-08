@@ -839,6 +839,72 @@ that showcases bevy-pigeon and carrier-pigeon.
 
 <!-- One-liners for plan items that haven't got their own sections. -->
 
+- Other game updates:
+  - After the initial release of [BITGUN], [LogLogGames] released a
+    [bunch of updates packed with various bugfixes and improvements][bitgun-news].
+  - [Gravity Well](https://github.com/thebracket/gravity_well)
+    is a simple two-player (shared keyboard) game in which
+    you collect salvage and try not to fall into a black hole
+    that can be played online [here](https://bfnightly.bracketproductions.com/gravity_well).
+  - [Flesh](https://store.steampowered.com/app/1660850/Flesh)
+    got a [new enemy type](https://twitter.com/Im_Oab/status/1523210359045206017),
+    new [UI's fade in/out](https://twitter.com/Im_Oab/status/1525249464562491393),
+    and [damage animation for enemies](https://twitter.com/Im_Oab/status/1529400914364465153).
+  - [Grocery Bagger 9000](https://reddit.com/r/rust_gamedev/comments/uxz0oz/grocery_bagger)
+    is a WIP Tetris-like puzzler built with Bevy.
+- Other tooling updates:
+  - [clymene] by [@LukeRaccoon] is a CLI atlas generation tool
+    that doesn't just outputs a packed image, but also a data set
+    about it's sources, which can be either static images or animations.
+- Other learning material updates:
+  - The Unofficial Bevy Cheatbook by got
+    [a WIP chapter about rendering][bevy-book-gpu].
+  - [@scvalex] shared a [blog post](https://scvalex.net/posts/63)
+    about how the NixOS flake for Rust/egui/eframe/glutin/OpenGL
+    [looks like](https://gitlab.com/scvalex/sixty-two/-/tree/flake-blogpost).
+  - [@ychshn] shared a live-stream recording
+    ["Let's Code Snake with Rust and WASM"](https://youtu.be/iR7Q_6quwSI).
+  - PhaestusFox added a with a bunch of new videos
+    to their ["Bevy Basics"][bevy-basics] YouTube servies.
+- Other library updates:
+  - [mmap_cache](https://crates.io/crates/mmap-cache) is a low-level API
+    for a memory-mapped cache of a read-only key-value store.
+  - [crevice v0.10](https://github.com/LPGhatguy/crevice/blob/main/CHANGELOG.md#0100---2022-05-26)
+    brings mint integration and a couple of API improvements.
+  - [glyphon](https://crates.io/crates/glyphon) provides
+    a simple way to render 2D text with wgpu.
+  - [egui 0.18](https://reddit.com/r/rust/comments/ugefgv/egui_018) was released,
+    with the ability to embed 3D inside egui, table and date picker widgets,
+    better text contrast in bright mode, and more.
+  - Following the release of egui v0.18,
+    [bevy_egui 0.14](https://twitter.com/penicillin_duck/status/1520703733755166720)
+    and [puffin_egui 0.15.0](https://twitter.com/ernerfeldt/status/1524368923931590657)
+    were published.
+  - [bevy_puffin] integrates the [puffin] instrumentation profiler with Bevy.
+  - [bevy_rosc] integrates [rosc] - an Open Sound Control library - into Bevy.
+  - [bustsuri](https://github.com/NemuiSen/bustsuri) is a Bevy asset
+    that provides 2D collision detector and kinematics.
+  - The Bevy engine [started collaborating][sprawl-reddit] with [@dioxuslabs]
+    on a flexible, high-performance, cross-platform UI layout library
+    [sprawl](https://github.com/DioxusLabs/sprawl)
+    (based on abandoned [stretch](https://github.com/vislyhq/stretch)).
+
+[BITGUN]: https://store.steampowered.com/app/1673940/BITGUN
+[bitgun-news]: https://store.steampowered.com/news/app/1673940
+[LogLogGames]: https://loglog.games
+[clymene]: https://github.com/lucas-miranda/clymene
+[@LukeRaccoon]: https://twitter.com/LukeRaccoon
+[bevy-book-gpu]: https://bevy-cheatbook.github.io/gpu/intro.html
+[@scvalex]: https://twitter.com/scvalex
+[@ychshn]: https://twitter.com/ychshn
+[bevy-basics]: https://youtube.com/playlist?list=PL6uRoaCCw7GN_lJxpKS3j-KXuThRiSXc6
+[bevy_puffin]: https://github.com/mvlabat/bevy_puffin
+[puffin]: https://github.com/EmbarkStudios/puffin
+[bevy_rosc]: https://github.com/DrLuke/bevy_rosc
+[rosc]: https://github.com/klingtnet/rosc
+[@dioxuslabs]: https://twitter.com/dioxuslabs
+[sprawl-reddit]: https://reddit.com/r/rust/comments/umwjt4/bevy_and_dioxus_are_collaborating_on_stretch2
+
 ## Meeting Minutes
 
 <!-- Up to 10 most important notes + a link to the full details -->
