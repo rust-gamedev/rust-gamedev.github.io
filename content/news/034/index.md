@@ -186,10 +186,10 @@ Features:
 modernisation.
 
 [@flukejones][flukejones_twitter] has been very busy in the last 4 months completing
-many parts of ROOM4DOOM; rendering, subsystems for menus, statusbar, intermissions,
+many parts of ROOM4DOOM; rendering, subsystems for menus, status bar, intermissions,
 and of course the actual gameplay - you can now complete Doom 1 in ROOM4DOOM.
 
-A recent Twitter thread has been cleaned up and expanded in to a blog post providing
+A recent Twitter thread has been cleaned up and expanded into a blog post providing
 context to the project and a walk-through of the history.
 You can view that [here][room4doom_blog].
 
@@ -234,7 +234,7 @@ A new [trailer][hgs_trailer] just landed showcasing new animations, the new
 Hong Kong location, and camera modes.
 
 Meanwhile, private beta-testing is well underway with good feedback regarding
-boat controls and physics, netcode and software stability, Rust for sure
+boat controls and physics, netcode, and software stability, Rust for sure
 delivered on all the promises here.
 
 The first set of Sailing rules has also been implemented and part of the
@@ -279,7 +279,7 @@ is over, you can still find the
 - More work was done on the [Jungle Biome visuals][wor-jungle]
 - Dynamic gradient overlays were added to the engine to give a sense of depth
 - Fixed bug where Nvidia drivers would incorrectly trigger the crash dump writer
-- Fixed a long running draw call sorting problem that could lead to popping
+- Fixed a long-running draw call sorting problem that could lead to popping
 - Fixed an audio failure when unplugging the active speaker
 
 [wor]: https://store.steampowered.com/app/1110620/Way_of_Rhea/?utm_campaign=tmirgd&utm_source=n34
@@ -297,9 +297,9 @@ _A glorious flight to distant lands_
 Fortress and Cube World.
 
 In May, work was done on Wyvern models. Smoke was improved from houses, and now
-has different colours and strenghts. A rib cage generator was added, so now
+has different colours and strengths. A rib cage generator was added, so now
 there are large bone structures from ancient times around the world. Level of
-detail objects were added, so trees can now be seen on far off mountains. This
+detail objects were added, so trees can now be seen on far-off mountains. This
 makes the world feel significantly more alive. A lot of work was done on the
 performance of the game server, as Veloren has been seeing over 100 concurrent
 players at peak on the server nearly every day for the past few weeks.
@@ -390,7 +390,7 @@ it hit version 0.25 which added a lot of new functionality:
 - Better serializer error recovery.
 - Tons of small improvements and fixes.
 
-Some time after, the engine hit version 0.26 which was primarily focused on bug fixing,
+Sometime after, the engine hit version 0.26 which was primarily focused on bug fixing,
 but also added some interesting features:
 
 - Project template generator.
@@ -421,7 +421,7 @@ the effort of removing all the `sapp` legacy.
 Changes include:
 
 - No more `sapp-*` crates. Now it's just one crate, miniquad!
-  No mess with individual crates any more, no FFI for
+  No mess with individual crates anymore, no FFI for
   miniquad - sapp communication.
 - On Linux, miniquad does not depend/statically link with lib*-dev packages.
   Miniquad can choose between glx/egl, x11/wayland at runtime.
@@ -439,7 +439,7 @@ Changes include:
 Some highlights from the project's [latest dev log][dims-post]:
 
 - [A terrain tool](https://youtube.com/watch?v=jgkhsY8aZO8) that allows
-  quick landscapes creation while still making sure that the biomes
+  quick landscape creation while still making sure that the biomes
   are unique and diverse.
 - [A tool to let creators script gameplay events][dims-video-1]
   without having ever done any programming.
@@ -472,7 +472,7 @@ _Discussions:
 showing how to use custom WGSL shaders in Bevy.
 
 The series walks through the documentation to understand why steps are done in
-order to build a clear theoretical understanding of Bevy's high level abstractions.
+order to build a clear theoretical understanding of Bevy's high-level abstractions.
 
 - The first of the three videos covers the bare minimum needed
   to render a material;
@@ -553,7 +553,7 @@ _Discussions:
 ![Robocave screenshot](robocave.jpg)
 
 [This article][fsharp-rust-voxel] walks through the process of rewriting an F#
-game in Rust. It explores the similarities between the languages, and talks
+game in Rust. It explores the similarities between the languages and talks
 about using simple code constructs where possible. It talks about the Rust
 crates used to help with the process. Finally, it goes over a conclusion
 comparing the speed of both versions of the games, and the sizes of the
@@ -571,8 +571,8 @@ of ["Game Development with Rust and WebAssembly"][wasm-gamedev-book].
 
 In this episode, lots is discussed about
 why Rust is becoming a good language for game development,
-different game engines, is Rust web ready,
-insights on Rust game development, and Eric's  writing process.
+different game engines, is Rust web-ready,
+insights on Rust game development, and Eric's writing process.
 
 [rustacean-station]: https://rustacean-station.org
 [rustacean-station-66]: https://rustacean-station.org/episode/066-eric-smith
@@ -584,7 +584,7 @@ insights on Rust game development, and Eric's  writing process.
 [![YouTube preview: title](gfs-youtube-preview.jpg)][gfs-video]
 
 [GamesFromScratch shared a YouTube video][gfs-video] with an overview of
-the most popular engines, frameworks and libraries for Rust game development,
+the most popular engines, frameworks, and libraries for Rust game development,
 including: Amethyst, Piston, Bevy, Fyrox, ggez, godot-rust, raylib, SDL2, and SFML.
 
 [gfs-video]: https://youtube.com/watch?v=mLXwR88Dzkc
@@ -594,7 +594,7 @@ including: Amethyst, Piston, Bevy, Fyrox, ggez, godot-rust, raylib, SDL2, and SF
 ![Book cover with a MEAP mark](book-multiplayer.png)
 
 The ["Multiplayer Game Development in Rust"][book-multiplayer] book by
-[@Extrawurst] and [@lyonbeckers] is now aviable in Manning Early Access Program.
+[@Extrawurst] and [@lyonbeckers] is now available in Manning Early Access Program.
 
 > Multiplayer Game Development in Rust teaches you to construct
 > your own multiplayer game. You’ll build a simple game client,
@@ -703,10 +703,10 @@ enabling multi-language scripting (currently in Lua and Rhai).
 
 The plugin is in early stages but as of now supports:
 
-- Handling events at multiple points of your stage pipeleine.
+- Handling events at multiple points of your stage pipeline.
 - Sending events to specific, or all scripts.
 - Setting event priority to order your callbacks.
-- Defining custom state and API's at initialization.
+- Defining custom state and APIs at initialization.
 - Sending run-time error events (to for example show them in an in-game console).
 - One-shot scripts.
 
