@@ -1,8 +1,8 @@
 +++
 title = "This Month in Rust GameDev #34 - May 2022"
 transparent = true
-date = 2022-06-02
-draft = true
+date = 2022-06-08
+draft = false
 +++
 
 <!-- no toc -->
@@ -39,11 +39,9 @@ Feel free to send PRs about your own projects!
 - [Library Updates](#library-updates)
 - [Other News](#other-news)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
-- [Meeting Minutes](#meeting-minutes)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
 - [Jobs](#jobs)
-- [Bonus](#bonus)
 
 <!--
 Ideal section structure is:
@@ -76,19 +74,17 @@ If needed, a section can be split into subsections with a "------" delimiter.
 The 2nd Rust Graphics Meetup took place on the 21st of May. The videos of the
 talks have been released:
 
-- [Vismut][vismut-talk] | [Lukas Orsvärn]
-- [Screen-13][screen-10-talk] | [John Wells]
-- [Optimizing wgpu with Data Driven Design][wgpu-talk] | [Connor Fitzgerald]
+- [Vismut][vismut-talk] - [Lukas Orsvärn]
+- [Screen-13][screen-10-talk] - [John Wells]
+- [Optimizing wgpu with Data Driven Design][wgpu-talk] - [Connor Fitzgerald]
 
-[vismut-talk]: https://www.youtube.com/watch?v=0IsllXP7_pY
-[screen-10-talk]: https://www.youtube.com/watch?v=ywZznsCXUjs
-[wgpu-talk]: https://www.youtube.com/watch?v=DDG4bcGs7zM
-
+[vismut-talk]: https://youtube.com/watch?v=0IsllXP7_pY
+[screen-10-talk]: https://youtube.com/watch?v=ywZznsCXUjs
+[wgpu-talk]: https://youtube.com/watch?v=DDG4bcGs7zM
 [Lukas Orsvärn]: https://github.com/lukors
 [John Wells]: https://github.com/attackgoat/screen-13
 [Connor Fitzgerald]: https://github.com/cwfitzgerald
-
-[graphics-meetup-playlist]: https://www.youtube.com/watch?v=DDG4bcGs7zM&list=PLYiOdhpKxxXJwaocrJcOCoBhlV6foaO8F&index=4
+[graphics-meetup-playlist]: https://youtube.com/watch?v=DDG4bcGs7zM&list=PLYiOdhpKxxXJwaocrJcOCoBhlV6foaO8F&index=4
 
 ### Rust GameDev Meetup
 
@@ -127,17 +123,16 @@ form][gamedev-meetup-form].
 [@RayMarch][raymarch-twitter] is
 creating a game-ready 3D model of [Ferris the Rustacean][ferris]. These links
 provide a more detailed look:
-
-- [360 overview][raymarch-twitter-360]
-- [Ferris dancing][raymarch-twitter-dance]
+[360 overview][raymarch-twitter-360],
+[Ferris dancing][raymarch-twitter-dance].
 
 Once the model is finished, it will be published under a permissive license on
 [Github][raymarch-github], so you can use it in your 3D game,
 rendering demo, v-tuber avatar, you name it!
 
-*Discussions:
-[Twitter][raymarch-twitter-dance],
-[Discord][raymarch-gamedev-discord]*
+If you have any feedback feel free to share on [Discord][raymarch-gamedev-discord].
+
+_Discussions: [Twitter][raymarch-twitter-dance]_
 
 [ferris]: https://rustacean.net/
 [raymarch-twitter]: https://twitter.com/Ray__March
@@ -236,7 +231,7 @@ that will put you in the driving seat of modern competitive sailing.
 Hydrofoil Generation is based on a custom made DirectX 11 based engine.
 
 A new [trailer][hgs_trailer] just landed showcasing new animations, the new
-Hong Kong location and camera modes.
+Hong Kong location, and camera modes.
 
 Meanwhile, private beta-testing is well underway with good feedback regarding
 boat controls and physics, netcode and software stability, Rust for sure
@@ -249,7 +244,7 @@ Sadly the target Q2 2022 Early Access release on Steam couldn't be hit and
 now the team is aiming at a Q4 2022 release.
 
 [Hydrofoil Generation]: https://hydrofoil-generation.com/
-[hgs_facebook]: https://www.facebook.com/HydrofoilGenerationSailing/
+[hgs_facebook]: https://facebook.com/HydrofoilGenerationSailing/
 [hgs_discord]: https://discord.gg/DtKgt2duAy/
 [hgs_steam]: https://store.steampowered.com/app/1448820/Hydrofoil_Generation/
 [hgs_trailer]: https://youtu.be/oFtFdmnkkSI
@@ -261,7 +256,7 @@ now the team is aiming at a Q4 2022 release.
 Country Slice (WIP name) is a relaxing building game being made by [@anastasiaopara].
 
 This month, she added an animated undo system. You can find more details in this
-[twitter thread][country-slice-twitter], and follow the [newsletter][country-slice-newsletter]
+[Twitter thread][country-slice-twitter], and follow the [newsletter][country-slice-newsletter]
 for more updates.
 
 [country-slice-newsletter]: https://dashboard.mailerlite.com/forms/10395/51067704544593017/share
@@ -314,7 +309,7 @@ worked on, which now means that you might need to enter them from underwater.
 Modular weapons were merged, which was a change several months in the making.
 NPCs are now able to pick up items that are on the ground. Work was done on
 taming and mounting various animals. Weather is still in the works, with
-improvements to the ambiant SFX system for rain. A new UI concept was created
+improvements to the ambient SFX system for rain. A new UI concept was created
 for what Airshipper might be able to look like in the future.
 
 May's full weekly devlogs: "This Week In Veloren...":
@@ -332,7 +327,7 @@ May's full weekly devlogs: "This Week In Veloren...":
 [veloren-173]: https://veloren.net/devblog-173
 [veloren-174]: https://veloren.net/devblog-174
 
-### [Hug with me?][hug-web]
+### [Hug With Me?][hug-web]
 
 ![Screenshot: one human hugs another](hug.jpg)
 
@@ -341,7 +336,7 @@ is an active ragdoll remote hugging simulator made with Bevy and rapier.
 
 The arms are individually controlled using a keyboard on desktop
 and touch controls on mobile to make various hugs.
-You can click "Random” to play with random person or “Room”
+You can click "Random” to play with a random person or “Room”
 to share a link to someone you want to play with.
 
 The source code of the game is [available on GitHub][hug-src].
@@ -391,7 +386,7 @@ it hit version 0.25 which added a lot of new functionality:
 - Layout and render transform support for widgets.
 - Shortcuts improvements in the editor.
 - UI performance improvements.
-- Double click support in `fyrox-ui`
+- Double click support in `fyrox-ui`.
 - Better serializer error recovery.
 - Tons of small improvements and fixes.
 
@@ -423,7 +418,7 @@ who wants to learn how to use the engine should check the new
 [The biggest PR in miniquad's history][miniquad-pr] landed this month, finishing
 the effort of removing all the `sapp` legacy.
 
-Changes includes:
+Changes include:
 
 - No more `sapp-*` crates. Now it's just one crate, miniquad!
   No mess with individual crates any more, no FFI for
@@ -476,7 +471,7 @@ _Discussions:
 [a series about Bevy's Material abstraction][bevy-materials-playlist],
 showing how to use custom WGSL shaders in Bevy.
 
-The series walks through the documention to understand why steps are done in
+The series walks through the documentation to understand why steps are done in
 order to build a clear theoretical understanding of Bevy's high level abstractions.
 
 - The first of the three videos covers the bare minimum needed
@@ -542,7 +537,7 @@ Twitter!
 
 [@chrisbiscardi] published a [video][video-platformer-bevy-ecs]
 on setting up a new 2D platformer project using Bevy. The video covers
-intergrating with LDTK, Rapier, and becy_ecs_tilemap to get a working
+integrating with LDTK, Rapier, and becy_ecs_tilemap to get a working
 character controller with collisions in a sandbox. It also touches on
 staple crates such as bevy_asset_loader and iyes_loopless.
 
@@ -557,7 +552,7 @@ _Discussions:
 
 ![Robocave screenshot](robocave.jpg)
 
-[This article][fsharp-rust-voxel] walks through the process of rewritting an F#
+[This article][fsharp-rust-voxel] walks through the process of rewriting an F#
 game in Rust. It explores the similarities between the languages, and talks
 about using simple code constructs where possible. It talks about the Rust
 crates used to help with the process. Finally, it goes over a conclusion
@@ -606,7 +601,7 @@ The ["Multiplayer Game Development in Rust"][book-multiplayer] book by
 > but the real work happens on the backend. Chapter-by-chapter,
 > you’ll add scalability, persistence, benchmarking, and tracing
 > to support game features like real-time multiplayer scorekeeping,
-> leader boards, and server-to-client messaging.Along the way,
+> leader boards, and server-to-client messaging. Along the way,
 > you’ll get pro tips about what makes Rust so great for game development,
 > and you’ll work with state-of-the-art technologies that
 > take full advantage of the cloud. Best of all, everything you learn
@@ -628,7 +623,7 @@ The book is estimated to be finished in early 2023.
 ### [Audio Libraries Considered Challenging][audio-hard-article]
 
 [@tesselode] shared [an article][audio-hard-article] about
-difficulties of making audio libraries:
+the difficulties of making audio libraries:
 
 > I develop a game audio library called [Kira].
 > Here's some of the hard parts I've figured out.
@@ -652,15 +647,14 @@ _Discussions: [/r/rust](https://reddit.com/r/rust/comments/ur93w8/audio_librarie
 
 [Bloom3D](bloom3d) is a minimalist web app for 3D modeling that's built in Rust.
 
+Bloom is powered by a custom game engine called [`koi`](koi) that is open-sourced
+on GitHub.
+
 This month [@kettlecorn][kettlecorn_twitter] released a new version of
 [Bloom3D][bloom3d] that adds a variety of new features including a
 rectangle tool, move tool, and OBJ export.
-
 Check out the [Twitter announcement thread][bloom_update_twitter] for an overview
 and videos of all the new features.
-
-Bloom is powered by a custom game engine called [`koi`](koi) that is open-sourced
-on GitHub.
 
 [bloom3d]: https://bloom3d.com
 [koi]: https://github.com/kettle11/koi
@@ -835,6 +829,9 @@ that showcases bevy-pigeon and carrier-pigeon.
 
 <!-- Up to 10 links to interesting issues -->
 
+- [rust-gamedev/wg](https://github.com/rust-gamedev/wg):
+  - [#124 "Wanted: a good JPEG 2000 decoder for Rust"](https://github.com/rust-gamedev/wg/issues/124).
+
 ## Other News
 
 <!-- One-liners for plan items that haven't got their own sections. -->
@@ -855,7 +852,7 @@ that showcases bevy-pigeon and carrier-pigeon.
 - Other tooling updates:
   - [clymene] by [@LukeRaccoon] is a CLI atlas generation tool
     that doesn't just outputs a packed image, but also a data set
-    about it's sources, which can be either static images or animations.
+    about its sources, which can be either static images or animations.
 - Other learning material updates:
   - The Unofficial Bevy Cheatbook by got
     [a WIP chapter about rendering][bevy-book-gpu].
@@ -864,8 +861,8 @@ that showcases bevy-pigeon and carrier-pigeon.
     [looks like](https://gitlab.com/scvalex/sixty-two/-/tree/flake-blogpost).
   - [@ychshn] shared a live-stream recording
     ["Let's Code Snake with Rust and WASM"](https://youtu.be/iR7Q_6quwSI).
-  - PhaestusFox added a with a bunch of new videos
-    to their ["Bevy Basics"][bevy-basics] YouTube servies.
+  - PhaestusFox added a bunch of new videos
+    to their ["Bevy Basics"][bevy-basics] YouTube series.
 - Other library updates:
   - [mmap_cache](https://crates.io/crates/mmap-cache) is a low-level API
     for a memory-mapped cache of a read-only key-value store.
@@ -905,29 +902,18 @@ that showcases bevy-pigeon and carrier-pigeon.
 [@dioxuslabs]: https://twitter.com/dioxuslabs
 [sprawl-reddit]: https://reddit.com/r/rust/comments/umwjt4/bevy_and_dioxus_are_collaborating_on_stretch2
 
-## Meeting Minutes
-
-<!-- Up to 10 most important notes + a link to the full details -->
-
-[See all meeting issues][label_meeting] including full text notes
-or [join the next meeting][join].
-
-[label_meeting]: https://github.com/rust-gamedev/wg/issues?q=label%3Ameeting
-
 ## Discussions
 
-- [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/):
+- [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/):
   - ["Choosing a networking library for my game"][r-gamedev-networking]
-- [Rust Gamedev WG](https://github.com/rust-gamedev/wg):
-  - [#124 - "Wanted: a good JPEG 2000 decoder for Rust"][gamedev-wg-jpeg]
 
-[r-gamedev-networking]: https://www.reddit.com/r/rust_gamedev/comments/ujk2s6/choosing_a_networking_library_for_my_game/
+[r-gamedev-networking]: https://reddit.com/r/rust_gamedev/comments/ujk2s6/choosing_a_networking_library_for_my_game/
 [gamedev-wg-jpeg]: https://github.com/rust-gamedev/wg/issues/124
 
 ## Requests for Contribution
 
 - [Graphite is looking for contributors][graphite-contribute] to help build the
-new node graph and 2D rendering systems.
+  new node graph and 2D rendering systems.
 - [winit's "difficulty: easy" issues][winit-issues].
 - [Backroll-rs, a new networking library][backroll-rs].
 - [Embark's open issues][embark-open-issues] ([embark.rs]).
@@ -958,20 +944,10 @@ new node graph and 2D rendering systems.
 
 ## Jobs
 
-- [DIMS](https://www.dims.co/jobs)
-  (Stockholm/Remote)
-  - Tools Programmer (Rust)
-  - Internship: 3D Artist
-  - Open applications accepted
+- [DIMS](https://dims.co/jobs)
+  (Stockholm/Remote): Various roles, open applications accepted.
 - [Embark Studios](https://careers.embark-studios.com/jobs)
-  (Stockholm/Hybrid Remote)
-  - Many roles - check the site for the latest list
-  - Open applications accepted
-
-## Bonus
-
-<!-- Bonus section to make the newsletter more interesting
-and highlight events from the past. -->
+  (Stockholm/Hybrid Remote): Various roles, open applications accepted.
 
 ------
 
