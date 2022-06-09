@@ -465,7 +465,7 @@ fork and PR!
 ![physically-connected groups of primitives are framed with rectangles](starframe-islands.jpeg)
 _Grouping bodies into disjoint "islands"_
 
-[Starframe] by [@moletrooper] is a work-in-progress game engine for physics-y
+[Starframe] by [@molentum] is a work-in-progress game engine for physics-y
 sidescrolling 2D games.
 
 This month, a lot of work was done on optimizing the physics engine.
@@ -479,10 +479,10 @@ sense to work on the engine without a concrete project to use it.
 Thus, work has begun on a platformer based around connecting things with ropes.
 More details to be shown soonish!
 
-[Starframe]: https://github.com/MoleTrooper/starframe/
-[@moletrooper]: https://twitter.com/moletrooper
-[sf-grid-tweet]: https://twitter.com/moletrooper/status/1432441648890449920
-[sf-island-tweet]: https://twitter.com/moletrooper/status/1438877808412008450
+[Starframe]: https://github.com/m0lentum/starframe/
+[@molentum]: https://twitter.com/molentum_
+[sf-grid-tweet]: https://twitter.com/molentum_/status/1432441648890449920
+[sf-island-tweet]: https://twitter.com/molentum_/status/1438877808412008450
 
 ### [Arcana]
 
