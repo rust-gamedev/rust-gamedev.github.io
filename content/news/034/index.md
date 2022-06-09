@@ -111,8 +111,8 @@ form][gamedev-meetup-form].
 [rust-meetup-time]: https://everytimezone.com/s/ffc60181
 [gamedev-meetup-form]: https://forms.gle/BS1zCyZaiUFSUHxe6
 
-[@carlosupina]: https://twitter.com/tesselode
-[@tesselode]: https://twitter.com/carlosupina
+[@carlosupina]: https://twitter.com/carlosupina
+[@tesselode]: https://twitter.com/tesselode
 [@AngelOnFira]: https://twitter.com/AngelOnFira
 [@GraphiteEditor]: https://twitter.com/graphiteeditor
 
