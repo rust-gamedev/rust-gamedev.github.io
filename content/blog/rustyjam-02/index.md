@@ -22,7 +22,7 @@ The optional-to-use theme for the jam is going to be announced
 [in our Discord][discord] and pinned in the community section.
 While you're waiting for the theme, you can start looking for a team
 in the #looking-for-team Discord channel.
-If you want solo though, that's fine too.
+If you want to solo jam though, that's fine too.
 
 [See the itch.io page for more details about dates, rules, modifiers, etc!][itch]
 
