@@ -1,12 +1,12 @@
 +++
-title = "RustyJam 2"
+title = "Rusty Jam 2"
 date = 2022-06-11
 transparent = true
 +++
 
 ![Aaron: a drawing of a humanoid fox](aaron.png)
 
-Hey everyone, we're finally announcing the [RustyJam #2][itch]!
+Hey everyone, we're finally announcing the [Rusty Jam #2][itch]!
 It's a great chance to try out some new Rusty tech,
 form a team of like-minded rustaceans, and feel what
 a full cycle of making a game in Rust feels like in miniature!
