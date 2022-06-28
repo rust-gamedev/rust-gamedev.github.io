@@ -71,19 +71,21 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Learning Material Updates
 
-### [Brontefy Me Devlog #3]
+### [Brontefy Me Devlog #3][devlog-3]
 
    ![Brontefy Me Devlog #3](brontefyme.png)
 
-   [@hedgein] continues the Brontefy Me series! In this latest devlog, she
-   gives an update on where will Brontefy Me will be heading and why it
+   [@hedgein][github] continues the [Brontefy Me][devlog-3] series! In this latest
+   devlog, she gives an update on where Brontefy Me will be heading and why it
    slowed down. During a recent [stream][twitch-stream]it was also suggested
-   that she's leaning towards hosting a monthly Brontefy Me Game Jam for
-   her and her community, as game jams give her better accountability.
-   Further updates will be given in her [discord][discord-invite]
+   that she's leaning towards hosting a monthly Brontefy Me Game Jam for her and
+   her community, as game jams give her better accountability. Further updates
+   will be given in her [discord][discord-invite]
 
    [twitch-stream]: https://www.twitch.tv/hedgein
    [discord-invite]: https://discord.gg/FnU6hxNGaP
+   [devlog-3]:https://www.youtube.com/watch?v=oNxMN47tKxs
+   [github]:https://github.com/hedgein
 
 ## Tooling Updates
 
