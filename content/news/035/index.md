@@ -67,6 +67,39 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [RuggRogue]
+
+![RuggRogue gameplay screenshot](ruggrogue.png)
+
+[RuggRogue] by [@tung] is a simple web-playable roguelike, inspired by the
+[Rust Roguelike Tutorial] and made using Rust and SDL.
+It can be played natively on Windows and Linux,
+and in the browser thanks to Emscripten.
+
+Features:
+
+- Discover new monsters and equipment the deeper you go.
+- Hunger and regeneration: stay fed and stay healed!
+- Choose between graphical tiles and ASCII display.
+- Menu-based UI with hot keys.
+- Auto-run to quickly follow corridors and cross open space.
+- Save and load system.
+- New Game Plus mode!
+
+The source code is complemented by the
+[RuggRogue Source Code Guide][ruggrogue-book],
+a 23-chapter technical web book covering the ideas, algorithms and structure of
+the code.
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/vluy7u/ruggrogue_a_simple_webplayable_roguelike_made/),
+[/r/roguelikes](https://reddit.com/r/roguelikes/comments/vluuud/ruggrogue_a_simple_webplayable_roguelike_inspired/)_
+
+[RuggRogue]: https://tung.github.io/ruggrogue/
+[Rust Roguelike Tutorial]: https://bfnightly.bracketproductions.com/
+[ruggrogue-book]: https://tung.github.io/ruggrogue/source-code-guide/
+[@tung]: https://github.com/tung/
+
 ## Engine Updates
 
 ## Learning Material Updates
