@@ -75,6 +75,19 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library Updates
 
+[ezinput] by [@eexsty][ezinput_creator] is a powerful input-agnostic library
+targeting complete support to axis and button handling for the Bevy game
+engine.
+
+EZInput strives to be simple as possible using the nifty ECS features that Bevy 
+offers, while still being powerful and flexible without using any unsafe code.
+This and the previous 0.3.* releases were targetted for performance and 
+ergonomics improvements, including a new declarative macro to allow for 
+cleaner and smaller code.
+
+[ezinput]: https://crates.io/crates/ezinput/versions
+[ezinput_creator]: https://github.com/eexsty
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
