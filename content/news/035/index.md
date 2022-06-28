@@ -77,9 +77,8 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [psf2]
 
-[psf2] is a minimal, unopinionated, no-std parser for the v2 [PC Screen
-Font](https://www.win.tue.nl/~aeb/linux/kbd/font-formats-1.html) bitmap font
-format.
+[psf2] is a minimal, unopinionated, no-std parser for the v2
+[PC Screen Font][psf2-format] bitmap font format.
 
 PSF2 fonts are simple, compact, and readily available due to their use as Linux
 console fonts. They are extremely fast to draw at their intended resolution,
@@ -92,6 +91,7 @@ much smaller and faster than conventional text rasterizers, but cannot support
 variable-width, anti-aliased, or shaped text.
 
 [psf2]: https://github.com/Ralith/psf2
+[psf2-format]: https://www.win.tue.nl/~aeb/linux/kbd/font-formats-1.html
 
 ## Popular Workgroup Issues in Github
 
