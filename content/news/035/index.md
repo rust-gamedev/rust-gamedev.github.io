@@ -100,6 +100,26 @@ _Discussions:
 [ruggrogue-book]: https://tung.github.io/ruggrogue/source-code-guide/
 [@tung]: https://github.com/tung/
 
+### [Rust Game Ports]
+
+![games collage](rust_game_ports.jpg)
+
+Rust Game Ports is a port of several games to Rust/pure-Rust game engines.
+
+This month the last planned port has been completed; the games are:
+
+- Boing (Pong clone, ported to [ggez](https://github.com/ggez/ggez))
+- Cavern (Bubble Bobble clone, ported to [Macroquad](https://github.com/not-fl3/macroquad))
+- Rusty Roguelike (from the [Hands-on Rust book](https://pragprog.com/titles/hwrust/hands-on-rust);
+  ECS ported to [Bevy](https://github.com/bevyengine/bevy))
+- Soccer (Sensible Soccer clone, ported to [Fyrox](https://github.com/FyroxEngine/Fyrox))
+
+A Bevy ECS tutorial, based on Rusty Roguelike, has been published, and it's
+announced on this newsletter.
+
+[Rust Game Ports]: https://github.com/64kramsystem/rust-game-ports
+[Saverio Miroddi/@64kramsystem]: https://twitter.com/64kramsystem
+
 ## Engine Updates
 
 ## Learning Material Updates
