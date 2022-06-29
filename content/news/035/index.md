@@ -168,10 +168,10 @@ variable-width, anti-aliased, or shaped text.
 targeting complete support for axis and button handling in the Bevy game
 engine.
 
-EZInput strives to be simple as possible using the nifty ECS features that Bevy 
+EZInput strives to be simple as possible using the nifty ECS features that Bevy
 offers, while still being powerful and flexible without using any unsafe code.
-This and the previous 0.3.* releases were targeted for performance and 
-ergonomics improvements, including a new declarative macro to allow for 
+This and the previous 0.3.* releases were targeted for performance and
+ergonomics improvements, including a new declarative macro to allow for
 cleaner and smaller code.
 
 [ezinput]: https://crates.io/crates/ezinput/versions
