@@ -67,13 +67,100 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [RuggRogue]
+
+![RuggRogue gameplay screenshot](ruggrogue.png)
+
+[RuggRogue] by [@tung] is a simple web-playable roguelike, inspired by the
+[Rust Roguelike Tutorial] and made using Rust and SDL.
+It can be played natively on Windows and Linux,
+and in the browser thanks to Emscripten.
+
+Features:
+
+- Discover new monsters and equipment the deeper you go.
+- Hunger and regeneration: stay fed and stay healed!
+- Choose between graphical tiles and ASCII display.
+- Menu-based UI with hot keys.
+- Auto-run to quickly follow corridors and cross open space.
+- Save and load system.
+- New Game Plus mode!
+
+The source code is complemented by the
+[RuggRogue Source Code Guide][ruggrogue-book],
+a 23-chapter technical web book covering the ideas, algorithms and structure of
+the code.
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/vluy7u/ruggrogue_a_simple_webplayable_roguelike_made/),
+[/r/roguelikes](https://reddit.com/r/roguelikes/comments/vluuud/ruggrogue_a_simple_webplayable_roguelike_inspired/)_
+
+[RuggRogue]: https://tung.github.io/ruggrogue/
+[Rust Roguelike Tutorial]: https://bfnightly.bracketproductions.com/
+[ruggrogue-book]: https://tung.github.io/ruggrogue/source-code-guide/
+[@tung]: https://github.com/tung/
+
+### [Rust Game Ports]
+
+![games collage](rust_game_ports.jpg)
+
+Rust Game Ports is a port of several games to Rust/pure-Rust game engines.
+
+This month the last planned port has been completed; the games are:
+
+- Boing (Pong clone, ported to [ggez](https://github.com/ggez/ggez))
+- Cavern (Bubble Bobble clone, ported to [Macroquad](https://github.com/not-fl3/macroquad))
+- Rusty Roguelike (from the [Hands-on Rust book](https://pragprog.com/titles/hwrust/hands-on-rust);
+  ECS ported to [Bevy](https://github.com/bevyengine/bevy))
+- Soccer (Sensible Soccer clone, ported to [Fyrox](https://github.com/FyroxEngine/Fyrox))
+
+A Bevy ECS tutorial, based on Rusty Roguelike, has been published, and it's
+announced on this newsletter.
+
+[Rust Game Ports]: https://github.com/64kramsystem/rust-game-ports
+[Saverio Miroddi/@64kramsystem]: https://twitter.com/64kramsystem
+
 ## Engine Updates
 
 ## Learning Material Updates
 
+### [Brontefy Me Devlog #3][hedgein-devlog-3]
+
+![Brontefy Me Devlog #3](brontefyme.png)
+
+[@hedgein][hedgein-github] continues the [Brontefy Me][hedgein-devlog-3] series!
+In this latest devlog, she gives an update on where Brontefy Me will be
+heading and why it slowed down. During a recent [stream][hedgein-stream], it
+was also mentioned that [@hedgein][hedgein-github] is leaning towards hosting
+a monthly Brontefy Me Game Jam for her community, as game jams give her
+better accountability. Further updates will be given in her [Discord server][hedgein-discord].
+
+[hedgein-stream]: https://www.twitch.tv/hedgein
+[hedgein-discord]: https://discord.gg/FnU6hxNGaP
+[hedgein-devlog-3]:https://www.youtube.com/watch?v=oNxMN47tKxs
+[hedgein-github]:https://github.com/hedgein
+
 ## Tooling Updates
 
 ## Library Updates
+
+### [psf2]
+
+[psf2] is a minimal, unopinionated, no-std parser for the v2
+[PC Screen Font][psf2-format] bitmap font format.
+
+PSF2 fonts are simple, compact, and readily available due to their use as Linux
+console fonts. They are extremely fast to draw at their intended resolution,
+making them a great choice to quickly get text on the screen, especially when a
+low-resolution, fixed-width aesthetic is desired.
+
+The psf2 crate parses font data, exposing font size, glyph lookup, and iterators
+to traverse a glyph's bitmap for easy rendering. Due to its limited scope, it is
+much smaller and faster than conventional text rasterizers, but cannot support
+variable-width, anti-aliased, or shaped text.
+
+[psf2]: https://github.com/Ralith/psf2
+[psf2-format]: https://www.win.tue.nl/~aeb/linux/kbd/font-formats-1.html
 
 ### [ezinput]
 
