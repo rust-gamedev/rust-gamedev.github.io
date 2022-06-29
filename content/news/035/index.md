@@ -124,6 +124,22 @@ announced on this newsletter.
 
 ## Learning Material Updates
 
+### [Brontefy Me Devlog #3][hedgein-devlog-3]
+
+![Brontefy Me Devlog #3](brontefyme.png)
+
+[@hedgein][hedgein-github] continues the [Brontefy Me][hedgein-devlog-3] series!
+In this latest devlog, she gives an update on where Brontefy Me will be
+heading and why it slowed down. During a recent [stream][hedgein-stream], it
+was also mentioned that [@hedgein][hedgein-github] is leaning towards hosting
+a monthly Brontefy Me Game Jam for her community, as game jams give her
+better accountability. Further updates will be given in her [Discord server][hedgein-discord].
+
+[hedgein-stream]: https://www.twitch.tv/hedgein
+[hedgein-discord]: https://discord.gg/FnU6hxNGaP
+[hedgein-devlog-3]:https://www.youtube.com/watch?v=oNxMN47tKxs
+[hedgein-github]:https://github.com/hedgein
+
 ## Tooling Updates
 
 ## Library Updates
