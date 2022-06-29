@@ -162,6 +162,21 @@ variable-width, anti-aliased, or shaped text.
 [psf2]: https://github.com/Ralith/psf2
 [psf2-format]: https://www.win.tue.nl/~aeb/linux/kbd/font-formats-1.html
 
+### [ezinput]
+
+[ezinput] by [@eexsty][ezinput_creator] is a powerful input-agnostic library,
+targeting complete support for axis and button handling in the Bevy game
+engine.
+
+EZInput strives to be simple as possible using the nifty ECS features that Bevy
+offers, while still being powerful and flexible without using any unsafe code.
+This and the previous 0.3.* releases were targeted for performance and
+ergonomics improvements, including a new declarative macro to allow for
+cleaner and smaller code.
+
+[ezinput]: https://crates.io/crates/ezinput/versions
+[ezinput_creator]: https://github.com/eexsty
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
