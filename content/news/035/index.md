@@ -125,7 +125,7 @@ As for the user-facing API:
 - Shaders are far easier to use, via normal Rust structs with a simple derive.
 
 As this is a rather large update and a first release candidate, there are plenty
-of bugs that are currently being fixed - please send us any issues you encounter
+of bugs that are currently being fixed - please send any issues you encounter
 to their [issue tracker][ggez-issues]!
 
 _Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/v6a3kn/ggez_080rc0_is_out/)_
