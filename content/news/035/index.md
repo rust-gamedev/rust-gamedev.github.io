@@ -102,21 +102,39 @@ _Discussions:
 
 ## Engine Updates
 
-### ggez 0.8.0-rc0
+### [ggez] 0.8.0-rc0
+
 ![ggez logo](../005/ggez-logo-maroon-full.svg)
 
-[ggez](https://github.com/ggez/ggez) by ([@icefoxen](https://github.com/icefoxen)), [@nobbele](https://github.com/nobbele), [@PSteinhaus](https://github.com/PSteinhaus)
-is a cross-platform game framework for making 2D games with minimum friction. It aims to implement an API based on the LÖVE game framework.
+[ggez] by [@icefoxen], [@nobbele] and [@PSteinhaus] is a cross-platform game
+framework for making 2D games with minimum friction. It aims to implement an
+API based on the LÖVE game framework.
 
-This version has finally moved ggez away from pre-ll gfx and into the world of [wgpu](https://github.com/gfx-rs/wgpu)! This hopefully means less bugs, greater stability and easier maintainability at the cost of some low performance devices such as the raspberry pi.
+This version has finally moved ggez away from pre-ll gfx and into the world
+of [wgpu]! This hopefully means less bugs, greater stability and easier
+maintainability at the cost of some low performance devices such as the
+Raspberry Pi.
 
-As for the user-facing API, instead of module functions we now use methods on sub-contexts which look like `ctx.keyboard.is_key_pressed(key)`. You are now required to pass around an explicit canvas to draw onto. DrawParam now has a z (aka layer) parameter so you don't have to draw objects in order. And shaders are far easier to use now that use normal Rust structs with a simple derive.
+As for the user-facing API:
 
-As this is a rather large update and a first release candidate, there are plenty of bugs we are currently working on fixing, and please send us any issues you encounter at [GitHub](https://github.com/ggez/ggez/issues)!
+- Instead of module functions, you now have methods on sub-contexts, which
+  look like `ctx.keyboard.is_key_pressed(key)`.
+- You are now required to pass around an explicit canvas to draw onto.
+- `DrawParam` now has a Z (aka layer) parameter, so you don't have to draw objects in order.
+- Shaders are far easier to use, via normal Rust structs with a simple derive.
 
-_Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/v6a3kn/ggez_080rc0_is_out/), [GitHub](https://github.com/ggez/ggez)_
+As this is a rather large update and a first release candidate, there are plenty of bugs
+that are currently being fixed - please send us any issues you encounter to their
+[issue tracker][ggez-issues]!
 
-[ggez]: https://github.com/ggez
+_Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/v6a3kn/ggez_080rc0_is_out/)_
+
+[ggez]: https://github.com/ggez/ggez
+[@icefoxen]: https://github.com/icefoxen
+[@nobbele]: https://github.com/nobbele
+[@PSteinhaus]: https://github.com/PSteinhaus
+[wgpu]: https://github.com/gfx-rs/wgpu
+[ggez-issues]: https://github.com/ggez/ggez/issues
 
 ## Learning Material Updates
 
