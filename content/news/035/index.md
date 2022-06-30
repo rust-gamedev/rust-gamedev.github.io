@@ -129,7 +129,6 @@ where you write scripts (compiled to WebAssembly) to control robots.
 Coordinate your bots to gather resources, build new industry,
 and expand your control of the server.
 
-
 This month saw the start of the project, and a majority of the foundational
 code written. Next month we'll be adding more features, and aim to flesh out
 the game beyond [basic pathfinding and resource harvesting][botnet_example_bot].
