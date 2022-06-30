@@ -126,6 +126,25 @@ variable-width, anti-aliased, or shaped text.
 [psf2]: https://github.com/Ralith/psf2
 [psf2-format]: https://www.win.tue.nl/~aeb/linux/kbd/font-formats-1.html
 
+### [glam] v0.21
+
+[glam] is a simple and fast linear algebra crate for games and graphics.
+
+This month version 0.21 of glam was released. Because glam is not a generic
+library when support was added for `f64`, `i32` and `u32` types back in glam
+0.12, macros were used internally to avoid a lot of code duplication. This
+unfortunately obfuscated the internals of glam for anyone who needed to view the
+source.
+
+As of the 0.21 release the majority of glam code is now generated using an
+offline tool and committed to the repo. The macros that were used to define
+glam's internal implementation are gone. This means what users see when reading
+docs or stepping through glam in the debugger is plain old Rust code. Many
+functions have also been made `const fn` removing the need for macros to create
+`const` values.
+
+[glam]: https://github.com/bitshifter/glam-rs
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
