@@ -120,6 +120,30 @@ announced on this newsletter.
 [Rust Game Ports]: https://github.com/64kramsystem/rust-game-ports
 [Saverio Miroddi/@64kramsystem]: https://twitter.com/64kramsystem
 
+### vetovoima
+
+![vetovoima gravity manipulation GIF](vetovoima.gif)
+_vetovoima gravity manipulation_
+
+[vetovoima][vetovoima_itch] by [@MatiasKlemola][vetovoima_twitter] is an arcade game
+where you control gravity!
+
+The world is a hollow circle with a star in the center. You're the Yellow
+Block and your goal is to navigate through shifting debris to the Tall Blue
+Block before the time runs out. The challenge is to survive the chaos that
+ensues from changes to gravity.
+
+vetovoima is built with the Bevy engine using Rapier for physics and Lyon for
+rendering (via Bevy plugins).
+
+[The alpha 1 build was recently released.](https://twitter.com/MatiasKlemola/status/1541338040521707521)
+
+Source available on [GitHub][vetovoima_github].
+
+[vetovoima_itch]: https://yourmagicisworking.itch.io/vetovoima
+[vetovoima_twitter]: https://twitter.com/MatiasKlemola
+[vetovoima_github]: https://github.com/klemola/vetovoima
+
 ## Engine Updates
 
 ### [ggez] 0.8.0-rc0
