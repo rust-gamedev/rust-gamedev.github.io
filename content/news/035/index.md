@@ -144,6 +144,19 @@ Source available on [GitHub][vetovoima_github].
 [vetovoima_twitter]: https://twitter.com/MatiasKlemola
 [vetovoima_github]: https://github.com/klemola/vetovoima
 
+### [Quoridor-rs]
+
+![Screenshot of a Quoridor-rs gameplay](https://github.com/baehyunsol/Quoridor-rs/blob/main/screenshot.png)
+
+[Quoridor-rs] by [@baehyunsol] is a [Quoridor] game implemented in [Macroquad].
+
+Although the game implements most of the basic quoridor features, it doesn't support AI-player and online-plays.
+
+[Quoridor-rs]: https://github.com/baehyunsol/Quoridor-rs
+[Quoridor]: https://en.wikipedia.org/wiki/Quoridor
+[Macroquad]: https://github.com/not-fl3/macroquad
+[@baehyunsol]: https://github.com/baehyunsol
+
 ## Engine Updates
 
 ### [ggez] 0.8.0-rc0
