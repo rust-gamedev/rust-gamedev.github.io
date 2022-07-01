@@ -199,6 +199,27 @@ better accountability. Further updates will be given in her [Discord server][hed
 [hedgein-devlog-3]:https://www.youtube.com/watch?v=oNxMN47tKxs
 [hedgein-github]:https://github.com/hedgein
 
+### [Bevy Basics][bevy-basics]
+
+[@PhaestusFox] is close to finishing [Bevy Basics][bevy-basics] [User Input][BB-input] mini-series<br>
+A few weeks ago [@PhaestusFox] started a mini-series for there totorial series [Bevy Basics][bevy-basics]<br>
+In this 5 part mini-series they cover how a develeper can go about collecting user input using the [Bevy][bevy] game engine
+ - [Episode 1][bb-1]: is an overview about bevys variuse input structs
+ - [Episode 2][bb-2]: is how to get keyboard presses
+ - [Episode 3][bb-3]: is how to get mouse clicks and movement
+ - [Episode 4][bb-4]: is how to get gamepad buttons and joysticks
+ - [Episode 5][bb-5]: is how to get touchscreen or drawing pad strokes
+
+[@PhaestusFox]: https://www.youtube.com/c/PhaestusFox
+[bevy-basics]: https://www.youtube.com/playlist?list=PL6uRoaCCw7GN_lJxpKS3j-KXuThRiSXc6
+[bb-input]: https://www.youtube.com/playlist?list=PL6uRoaCCw7GMWzJ-L2cU5ZruWkEld6a_N
+[bb-1]: https://youtu.be/pB3ERI5JtrA
+[bb-2]: https://youtu.be/G37yUGL3e1U
+[bb-3]: https://youtu.be/1q5iQsLVGJA
+[bb-4]: https://youtu.be/PjLozjlOgJ4
+[bb-5]: https://www.youtube.com/c/PhaestusFox
+[bevy]: https://bevyengine.org/
+
 ## Tooling Updates
 
 ## Library Updates
