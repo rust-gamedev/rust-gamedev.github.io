@@ -164,6 +164,19 @@ Interested in contributing? Head over to the
 [botnet_example_bot]: https://github.com/JMS55/botnet/blob/master/example_bot/src/lib.rs
 [botnet_ideas]: https://github.com/JMS55/botnet/discussions/categories/ideas
 
+### [Star Machine]
+
+![Screenshot of a level in Star Machine](star_machine.png)
+
+[Star Machine] by [@Seldom_SE] is a puzzle game built in Bevy, where
+you wire together components to escape each level.
+
+The game, although its development is presently inactive, made
+[a video demo][Star Machine] of 8 of its early levels.
+
+[Star Machine]: https://twitter.com/Seldom_SE/status/1532909654681849856
+[@Seldom_SE]: https://twitter.com/Seldom_SE
+
 ## Engine Updates
 
 ### [ggez] 0.8.0-rc0
