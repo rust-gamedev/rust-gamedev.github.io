@@ -120,6 +120,30 @@ announced on this newsletter.
 [Rust Game Ports]: https://github.com/64kramsystem/rust-game-ports
 [Saverio Miroddi/@64kramsystem]: https://twitter.com/64kramsystem
 
+### vetovoima
+
+![vetovoima gravity manipulation GIF](vetovoima.gif)
+_vetovoima gravity manipulation_
+
+[vetovoima][vetovoima_itch] by [@MatiasKlemola][vetovoima_twitter] is an arcade game
+where you control gravity!
+
+The world is a hollow circle with a star in the center. You're the Yellow
+Block and your goal is to navigate through shifting debris to the Tall Blue
+Block before the time runs out. The challenge is to survive the chaos that
+ensues from changes to gravity.
+
+vetovoima is built with the Bevy engine using Rapier for physics and Lyon for
+rendering (via Bevy plugins).
+
+[The alpha 1 build was recently released.](https://twitter.com/MatiasKlemola/status/1541338040521707521)
+
+Source available on [GitHub][vetovoima_github].
+
+[vetovoima_itch]: https://yourmagicisworking.itch.io/vetovoima
+[vetovoima_twitter]: https://twitter.com/MatiasKlemola
+[vetovoima_github]: https://github.com/klemola/vetovoima
+
 ### [Botnet]
 
 ![botnet logo](botnet.svg)
@@ -142,6 +166,41 @@ Interested in contributing? Head over to the
 
 ## Engine Updates
 
+### [ggez] 0.8.0-rc0
+
+![ggez logo](../005/ggez-logo-maroon-full.svg)
+
+[ggez] by [@icefoxen], [@nobbele] and [@PSteinhaus] is a cross-platform game
+framework for making 2D games with minimum friction. It aims to implement an
+API based on the LÖVE game framework.
+
+This version has finally moved ggez away from pre-ll gfx and into the world
+of [wgpu]! This hopefully means less bugs, greater stability and easier
+maintainability at the cost of some low performance devices such as the
+Raspberry Pi.
+
+As for the user-facing API:
+
+- Instead of module functions, you now have methods on sub-contexts, which
+  look like `ctx.keyboard.is_key_pressed(key)`.
+- You are now required to pass around an explicit canvas to draw onto.
+- `DrawParam` now has a Z (aka layer) parameter, so you don't have to draw
+  objects in order.
+- Shaders are far easier to use, via normal Rust structs with a simple derive.
+
+As this is a rather large update and a first release candidate, there are plenty
+of bugs that are currently being fixed - please send any issues you encounter
+to their [issue tracker][ggez-issues]!
+
+_Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/v6a3kn/ggez_080rc0_is_out/)_
+
+[ggez]: https://github.com/ggez/ggez
+[@icefoxen]: https://github.com/icefoxen
+[@nobbele]: https://github.com/nobbele
+[@PSteinhaus]: https://github.com/PSteinhaus
+[wgpu]: https://github.com/gfx-rs/wgpu
+[ggez-issues]: https://github.com/ggez/ggez/issues
+
 ## Learning Material Updates
 
 ### [Brontefy Me Devlog #3][hedgein-devlog-3]
@@ -159,6 +218,21 @@ better accountability. Further updates will be given in her [Discord server][hed
 [hedgein-discord]: https://discord.gg/FnU6hxNGaP
 [hedgein-devlog-3]:https://www.youtube.com/watch?v=oNxMN47tKxs
 [hedgein-github]:https://github.com/hedgein
+
+### [Learn Bevy's ECS by ripping off someone else's project]
+
+![Learn Bevy's ECS by ripping off](learn_bevys_ecs_by_ripping_off.png)
+
+"Learn Bevy's ECS by ripping off someone else's project" is a mini-book that uses
+the game Rusty Roguelike from the book [Hands-on Rust](https://pragprog.com/titles/hwrust/hands-on-rust)
+as a base, in order to explain Bevy's ECS.
+
+The idea is for a beginner to learn ECS concepts from the base book, then apply
+them using Bevy; the structure of the game is ideal for a gentle introduction to
+ECS architecture.
+
+[Learn Bevy's ECS by ripping off someone else's project]: https://saveriomiroddi.github.io/learn_bevy_ecs_by_ripping_off
+[Saverio Miroddi/@64kramsystem]: https://twitter.com/64kramsystem
 
 ## Tooling Updates
 
