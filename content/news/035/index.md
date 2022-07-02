@@ -234,6 +234,30 @@ ECS architecture.
 [Learn Bevy's ECS by ripping off someone else's project]: https://saveriomiroddi.github.io/learn_bevy_ecs_by_ripping_off
 [Saverio Miroddi/@64kramsystem]: https://twitter.com/64kramsystem
 
+### [Bevy Basics][bevy-basics]
+
+[@PhaestusFox] is close to finishing the [Bevy Basics][bevy-basics]
+[User Input][BB-input] mini-series.
+
+In this 5 part mini-series, they cover how a developer can go about collecting
+user input using the [Bevy][bevy] game engine.
+
+- [Episode 1][bb-1] is an overview of Bevy's various input structs
+- [Episode 2][bb-2] covers keyboard presses
+- [Episode 3][bb-3] covers mouse clicks and movement
+- [Episode 4][bb-4] covers gamepad buttons and joysticks
+- [Episode 5][bb-5] covers touchscreen or drawing pad strokes
+
+[@PhaestusFox]: https://www.youtube.com/c/PhaestusFox
+[bevy-basics]: https://www.youtube.com/playlist?list=PL6uRoaCCw7GN_lJxpKS3j-KXuThRiSXc6
+[bb-input]: https://www.youtube.com/playlist?list=PL6uRoaCCw7GMWzJ-L2cU5ZruWkEld6a_N
+[bb-1]: https://youtu.be/pB3ERI5JtrA
+[bb-2]: https://youtu.be/G37yUGL3e1U
+[bb-3]: https://youtu.be/1q5iQsLVGJA
+[bb-4]: https://youtu.be/PjLozjlOgJ4
+[bb-5]: https://www.youtube.com/c/PhaestusFox
+[bevy]: https://bevyengine.org/
+
 ## Tooling Updates
 
 ## Library Updates
