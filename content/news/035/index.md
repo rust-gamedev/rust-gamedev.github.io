@@ -144,6 +144,26 @@ Source available on [GitHub][vetovoima_github].
 [vetovoima_twitter]: https://twitter.com/MatiasKlemola
 [vetovoima_github]: https://github.com/klemola/vetovoima
 
+### [Botnet]
+
+![botnet logo](botnet.svg)
+
+[Botnet] is an upcoming programming-based multiplayer game,
+where you write scripts (compiled to WebAssembly) to control robots.
+Coordinate your bots to gather resources, build new industry,
+and expand your control of the server.
+
+This month saw the start of the project, and a majority of the foundational
+code written. Next month we'll be adding more features, and aim to flesh out
+the game beyond [basic pathfinding and resource harvesting][botnet_example_bot].
+
+Interested in contributing? Head over to the
+[github discussion page][botnet_ideas] and suggest some ideas!
+
+[Botnet]: https://github.com/JMS55/botnet
+[botnet_example_bot]: https://github.com/JMS55/botnet/blob/master/example_bot/src/lib.rs
+[botnet_ideas]: https://github.com/JMS55/botnet/discussions/categories/ideas
+
 ### [Star Machine]
 
 ![Screenshot of a level in Star Machine](star_machine.png)
@@ -212,6 +232,45 @@ better accountability. Further updates will be given in her [Discord server][hed
 [hedgein-devlog-3]:https://www.youtube.com/watch?v=oNxMN47tKxs
 [hedgein-github]:https://github.com/hedgein
 
+### [Learn Bevy's ECS by ripping off someone else's project]
+
+![Learn Bevy's ECS by ripping off](learn_bevys_ecs_by_ripping_off.png)
+
+"Learn Bevy's ECS by ripping off someone else's project" is a mini-book that uses
+the game Rusty Roguelike from the book [Hands-on Rust](https://pragprog.com/titles/hwrust/hands-on-rust)
+as a base, in order to explain Bevy's ECS.
+
+The idea is for a beginner to learn ECS concepts from the base book, then apply
+them using Bevy; the structure of the game is ideal for a gentle introduction to
+ECS architecture.
+
+[Learn Bevy's ECS by ripping off someone else's project]: https://saveriomiroddi.github.io/learn_bevy_ecs_by_ripping_off
+[Saverio Miroddi/@64kramsystem]: https://twitter.com/64kramsystem
+
+### [Bevy Basics][bevy-basics]
+
+[@PhaestusFox] is close to finishing the [Bevy Basics][bevy-basics]
+[User Input][BB-input] mini-series.
+
+In this 5 part mini-series, they cover how a developer can go about collecting
+user input using the [Bevy][bevy] game engine.
+
+- [Episode 1][bb-1] is an overview of Bevy's various input structs
+- [Episode 2][bb-2] covers keyboard presses
+- [Episode 3][bb-3] covers mouse clicks and movement
+- [Episode 4][bb-4] covers gamepad buttons and joysticks
+- [Episode 5][bb-5] covers touchscreen or drawing pad strokes
+
+[@PhaestusFox]: https://www.youtube.com/c/PhaestusFox
+[bevy-basics]: https://www.youtube.com/playlist?list=PL6uRoaCCw7GN_lJxpKS3j-KXuThRiSXc6
+[bb-input]: https://www.youtube.com/playlist?list=PL6uRoaCCw7GMWzJ-L2cU5ZruWkEld6a_N
+[bb-1]: https://youtu.be/pB3ERI5JtrA
+[bb-2]: https://youtu.be/G37yUGL3e1U
+[bb-3]: https://youtu.be/1q5iQsLVGJA
+[bb-4]: https://youtu.be/PjLozjlOgJ4
+[bb-5]: https://www.youtube.com/c/PhaestusFox
+[bevy]: https://bevyengine.org/
+
 ## Tooling Updates
 
 ## Library Updates
@@ -248,6 +307,25 @@ cleaner and smaller code.
 
 [ezinput]: https://crates.io/crates/ezinput/versions
 [ezinput_creator]: https://github.com/eexsty
+
+### [glam] v0.21
+
+[glam] is a simple and fast linear algebra crate for games and graphics.
+
+This month version 0.21 of glam was released. Because glam is not a generic
+library, when support was added for `f64`, `i32` and `u32` types back in glam
+0.12, macros were used internally to avoid a lot of code duplication. This
+unfortunately obfuscated the internals of glam for anyone who needed to view the
+source.
+
+As of the 0.21 release the majority of glam code is now generated using an
+offline tool and committed to the repo. The macros that were used to define
+glam's internal implementation are gone. This means what users see when reading
+docs or stepping through glam in the debugger is plain old Rust code. Many
+functions have also been made `const fn` removing the need for macros to create
+`const` values.
+
+[glam]: https://github.com/bitshifter/glam-rs
 
 ## Popular Workgroup Issues in Github
 
