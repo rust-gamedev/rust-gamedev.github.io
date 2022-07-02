@@ -150,7 +150,8 @@ Source available on [GitHub][vetovoima_github].
 
 [Quoridor-rs] by [@baehyunsol] is a [Quoridor] game implemented in [Macroquad].
 
-Although the game implements most of the basic quoridor features, it doesn't support AI-player and online-plays.
+Although the game implements most of the basic quoridor features, it doesn't
+support AI players or online play.
 
 [Quoridor-rs]: https://github.com/baehyunsol/Quoridor-rs
 [Quoridor]: https://en.wikipedia.org/wiki/Quoridor
