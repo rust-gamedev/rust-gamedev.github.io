@@ -144,6 +144,26 @@ Source available on [GitHub][vetovoima_github].
 [vetovoima_twitter]: https://twitter.com/MatiasKlemola
 [vetovoima_github]: https://github.com/klemola/vetovoima
 
+### [Botnet]
+
+![botnet logo](botnet.svg)
+
+[Botnet] is an upcoming programming-based multiplayer game,
+where you write scripts (compiled to WebAssembly) to control robots.
+Coordinate your bots to gather resources, build new industry,
+and expand your control of the server.
+
+This month saw the start of the project, and a majority of the foundational
+code written. Next month we'll be adding more features, and aim to flesh out
+the game beyond [basic pathfinding and resource harvesting][botnet_example_bot].
+
+Interested in contributing? Head over to the
+[github discussion page][botnet_ideas] and suggest some ideas!
+
+[Botnet]: https://github.com/JMS55/botnet
+[botnet_example_bot]: https://github.com/JMS55/botnet/blob/master/example_bot/src/lib.rs
+[botnet_ideas]: https://github.com/JMS55/botnet/discussions/categories/ideas
+
 ## Engine Updates
 
 ### [ggez] 0.8.0-rc0
