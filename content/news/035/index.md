@@ -201,14 +201,17 @@ better accountability. Further updates will be given in her [Discord server][hed
 
 ### [Bevy Basics][bevy-basics]
 
-[@PhaestusFox] is close to finishing [Bevy Basics][bevy-basics] [User Input][BB-input] mini-series<br>
-A few weeks ago [@PhaestusFox] started a mini-series for there totorial series [Bevy Basics][bevy-basics]<br>
-In this 5 part mini-series they cover how a develeper can go about collecting user input using the [Bevy][bevy] game engine
- - [Episode 1][bb-1]: is an overview about bevys variuse input structs
- - [Episode 2][bb-2]: is how to get keyboard presses
- - [Episode 3][bb-3]: is how to get mouse clicks and movement
- - [Episode 4][bb-4]: is how to get gamepad buttons and joysticks
- - [Episode 5][bb-5]: is how to get touchscreen or drawing pad strokes
+[@PhaestusFox] is close to finishing the [Bevy Basics][bevy-basics]
+[User Input][BB-input] mini-series.
+
+In this 5 part mini-series, they cover how a developer can go about collecting
+user input using the [Bevy][bevy] game engine.
+
+ - [Episode 1][bb-1] is an overview of Bevy's various input structs
+ - [Episode 2][bb-2] covers keyboard presses
+ - [Episode 3][bb-3] covers mouse clicks and movement
+ - [Episode 4][bb-4] covers gamepad buttons and joysticks
+ - [Episode 5][bb-5] covers touchscreen or drawing pad strokes
 
 [@PhaestusFox]: https://www.youtube.com/c/PhaestusFox
 [bevy-basics]: https://www.youtube.com/playlist?list=PL6uRoaCCw7GN_lJxpKS3j-KXuThRiSXc6
