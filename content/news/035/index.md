@@ -182,7 +182,7 @@ cleaner and smaller code.
 [glam] is a simple and fast linear algebra crate for games and graphics.
 
 This month version 0.21 of glam was released. Because glam is not a generic
-library when support was added for `f64`, `i32` and `u32` types back in glam
+library, when support was added for `f64`, `i32` and `u32` types back in glam
 0.12, macros were used internally to avoid a lot of code duplication. This
 unfortunately obfuscated the internals of glam for anyone who needed to view the
 source.
