@@ -242,11 +242,11 @@ ECS architecture.
 In this 5 part mini-series, they cover how a developer can go about collecting
 user input using the [Bevy][bevy] game engine.
 
- - [Episode 1][bb-1] is an overview of Bevy's various input structs
- - [Episode 2][bb-2] covers keyboard presses
- - [Episode 3][bb-3] covers mouse clicks and movement
- - [Episode 4][bb-4] covers gamepad buttons and joysticks
- - [Episode 5][bb-5] covers touchscreen or drawing pad strokes
+- [Episode 1][bb-1] is an overview of Bevy's various input structs
+- [Episode 2][bb-2] covers keyboard presses
+- [Episode 3][bb-3] covers mouse clicks and movement
+- [Episode 4][bb-4] covers gamepad buttons and joysticks
+- [Episode 5][bb-5] covers touchscreen or drawing pad strokes
 
 [@PhaestusFox]: https://www.youtube.com/c/PhaestusFox
 [bevy-basics]: https://www.youtube.com/playlist?list=PL6uRoaCCw7GN_lJxpKS3j-KXuThRiSXc6
