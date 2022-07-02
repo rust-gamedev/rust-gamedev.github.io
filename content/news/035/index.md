@@ -327,6 +327,34 @@ functions have also been made `const fn` removing the need for macros to create
 
 [glam]: https://github.com/bitshifter/glam-rs
 
+### [kajiya]
+
+![A rendering of a fancy loft apartment](kajiya.jpg)
+
+[kajiya] by [@h3r2tic] is an experimental real-time global illumination
+renderer.
+
+In June, a long-standing branch has landed, bringing with it a complete
+overhaul of indirect lighting. The new implementation uses spatiotemporal
+reservoir resampling (ReSTIR) and a novel irradiance cache, bringing forth
+larger scenes, quicker response to lighting changes, and less noise.
+
+A [detailed overview][kajiya-gi-overview] of the new global illumination
+techniques is available, complete with animated diagrams!
+
+June has also seen the addition of texture compression, automatic exposure,
+a new display rendering transform, and a simplification of the interface.
+The viewer app now supports drag-and-drop of scene files, glTF models,
+and HDRI backdrops.
+
+_Discussions:
+[twitter (0.2 release)](https://twitter.com/h3r2tic/status/1532829918194806784),
+[twitter (texture compression)](https://twitter.com/h3r2tic/status/1537212390982524929)._
+
+[kajiya]: https://github.com/EmbarkStudios/kajiya/
+[kajiya-gi-overview]: https://github.com/EmbarkStudios/kajiya/blob/main/docs/gi-overview.md
+[@h3r2tic]: https://github.com/h3r2tic
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
