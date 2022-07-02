@@ -148,8 +148,8 @@ Source available on [GitHub][vetovoima_github].
 
 ![Screenshot of a level in Star Machine](star_machine.png)
 
-[Star Machine] by [@Seldom_SE] is puzzle game in Bevy, where you wire together
-components to escape each level.
+[Star Machine] by [@Seldom_SE] is a puzzle game built in Bevy, where
+you wire together components to escape each level.
 
 The game, although its development is presently inactive, made
 [a video demo][Star Machine] of 8 of its early levels.
