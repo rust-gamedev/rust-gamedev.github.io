@@ -219,14 +219,14 @@ _Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/v
 [![Video preview: Recreating Rhodes But In Our Own Game Engine](dims-recreating-rhodes.jpg)][dims-video-1]
 
 [Dims][dims-website] ([Twitter][dims-twitter], [Discord][dims-discord],
-[YouTube][dims-youtube]) is a pre-alpha collaborative open-world 
+[YouTube][dims-youtube]) is a pre-alpha collaborative open-world
 creation platform.
 Users can hop in sessions and build a game together, allowing everyone
 to bring out their inner game-maker.
 
-June brought about several developments for the platform, including: 
+June brought about several developments for the platform, including:
 
-- Several development and testing streams, with the latest being 
+- Several development and testing streams, with the latest being
   [a recreation of Rhodes from Red Dead Redemption 2][dims-video-1] within
   the engine
 - A new audio engine with advanced real-time synthesis and composition
