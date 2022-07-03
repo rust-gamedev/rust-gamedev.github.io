@@ -179,12 +179,13 @@ The game, although its development is presently inactive, made
 
 ### [Quoridor-rs]
 
-![Screenshot of a Quoridor-rs gameplay](https://github.com/baehyunsol/Quoridor-rs/blob/main/screenshot.png)
+![Screenshot of a Quoridor-rs gameplay](Quoridor-screenshot.png)
 
 [Quoridor-rs] by [@baehyunsol] is a [Quoridor] game implemented in [Macroquad].
 
-Although the game implements most of the basic quoridor features, it doesn't
-support AI players or online play.
+Quoridor is a 2-4 player strategy board game. Each player has a pawn. They move the pawn or place a wall each round. The objective of the game is to move a pawn to the opposite side of the game board.
+
+The game implements most of the basic quoridor features, it only supports 2 players, not 3 or 4. It doens't have AI players, and no network plays.
 
 [Quoridor-rs]: https://github.com/baehyunsol/Quoridor-rs
 [Quoridor]: https://en.wikipedia.org/wiki/Quoridor
