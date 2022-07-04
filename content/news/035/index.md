@@ -31,6 +31,7 @@ Feel free to send PRs about your own projects!
 [Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
+- [Announcements](#announcements)
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
@@ -64,6 +65,34 @@ _Discussions:
 
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
+
+## Announcements
+
+### [Rust GameDev Podcast][gamedev-podcast-site]
+
+![text logo](podcast.jpeg)
+
+The Rust Gamedev Podcast features interviews with indie game developers creating
+titles with the Rust programming language. It covers technical topics as well as
+the business of open source and commercial indie games development.
+
+In June, [the ninth episode][podcast-9] was released. It's a chat with Carter
+Anderson about the [Bevy engine][bevy], and a dive into its history.
+
+Listen and Subscribe from the following platforms:
+[Rust GameDev Podcast (simplecast)][gamedev-podcast-site],
+[Apple Podcasts][gamedev-podcast-apple],
+[Spotify][gamedev-podcast-spotify],
+[RSS Feed][gamedev-podcast-rss],
+or [Google Podcasts][gamedev-podcast-google].
+
+[podcast-9]: https://rustgamedev.com/episodes/interview-with-carter-anderson-bevy
+[bevy]: https://bevyengine.org/
+[gamedev-podcast-site]: https://rustgamedev.com/
+[gamedev-podcast-apple]: https://podcasts.apple.com/gb/podcast/rust-game-dev/id1526304768
+[gamedev-podcast-spotify]: https://open.spotify.com/show/7HRfGnTcXkLkQd9fxJbDGj
+[gamedev-podcast-rss]: https://feeds.simplecast.com/C6NQglnL
+[gamedev-podcast-google]: https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zaW1wbGVjYXN0LmNvbS9DNk5RZ2xuTA
 
 ## Game Updates
 
