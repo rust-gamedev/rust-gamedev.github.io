@@ -144,35 +144,6 @@ Source available on [GitHub][vetovoima_github].
 [vetovoima_twitter]: https://twitter.com/MatiasKlemola
 [vetovoima_github]: https://github.com/klemola/vetovoima
 
-### [Harvest Hero Origins - Summer Heat Update!][hho_steam_spring]
-
-![hho summer banner](hho_summer.png)
-
-[Gemdrop Games] have worked with their friends at [Octosoft]
-to bring Shroomella to Harvest Hero Origins!
-
-[Renaine] is an upcoming Action Platformer game about Aine,
-an immortal Phoenix Knight.
-
-Shroomella is a Mushroom Shroom witch aiding Aine on her quest!
-In Harvest Hero Origins, she uses her variety of magical mushrooms
-to fight off the endless Grooble hordes.
-
-On top of that, we're adding:
-
-- A New Map
-- 2 New Cards
-- 2 New Enemies
-- A revised story boss fight
-
-Built on [Emerald Game Engine]
-
-[hho_steam_spring]: https://store.steampowered.com/app/1651500/Harvest_Hero_Origins/
-[Octosoft]: https://twitter.com/RenaineGame
-[Renaine]: https://store.steampowered.com/app/662340/Renaine/
-[Gemdrop Games]: https://twitter.com/GemdropGames
-[Emerald Game Engine]: https://github.com/Bombfuse/emerald
-
 ### [Botnet]
 
 ![botnet logo](botnet.svg)
@@ -225,6 +196,35 @@ network games.
 [Quoridor]: https://en.wikipedia.org/wiki/Quoridor
 [Macroquad]: https://github.com/not-fl3/macroquad
 [@baehyunsol]: https://github.com/baehyunsol
+
+### [Harvest Hero Origins - Summer Heat Update!][hho_steam_spring]
+
+![hho summer banner](hho_summer.png)
+
+[Gemdrop Games] have worked with their friends at [Octosoft]
+to bring Shroomella to Harvest Hero Origins!
+
+[Renaine] is an upcoming Action Platformer game about Aine,
+an immortal Phoenix Knight.
+
+Shroomella is a Mushroom Shroom witch aiding Aine on her quest!
+In Harvest Hero Origins, she uses her variety of magical mushrooms
+to fight off the endless Grooble hordes.
+
+On top of that, they're adding:
+
+- A new map
+- Two new cards
+- Two new enemies
+- A revised story boss fight
+
+The game is built on the [Emerald Game Engine].
+
+[hho_steam_spring]: https://store.steampowered.com/app/1651500/Harvest_Hero_Origins/
+[Octosoft]: https://twitter.com/RenaineGame
+[Renaine]: https://store.steampowered.com/app/662340/Renaine/
+[Gemdrop Games]: https://twitter.com/GemdropGames
+[Emerald Game Engine]: https://github.com/Bombfuse/emerald
 
 ## Engine Updates
 
