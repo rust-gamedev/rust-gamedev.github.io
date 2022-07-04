@@ -293,6 +293,41 @@ _Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/v
 [wgpu]: https://github.com/gfx-rs/wgpu
 [ggez-issues]: https://github.com/ggez/ggez/issues
 
+### [Dims][dims-website]
+
+[![Video preview: Recreating Rhodes But In Our Own Game Engine](dims-recreating-rhodes.jpg)][dims-video-1]
+
+[Dims][dims-website] ([Twitter][dims-twitter], [Discord][dims-discord],
+[YouTube][dims-youtube]) is a pre-alpha collaborative open-world
+creation platform.
+Users can hop in sessions and build a game together, allowing everyone
+to bring out their inner game-maker.
+
+June brought about several developments for the platform, including:
+
+- Several development and testing streams, with the latest being
+  [a recreation of Rhodes from Red Dead Redemption 2][dims-video-1] within
+  the engine
+- A new audio engine with advanced real-time synthesis and composition
+  capabilities, including network synchronisation
+- Improved terrain manipulation tools, including new brushes, biome presets,
+  and more intuitive UI
+  - Choose between "Nordic Mountains" ⛰ and "Colorado Deserts" 🏜
+- Various improvements to the rendering engine, including decal and billboard
+  rendering, FBX loading, macOS support, and more
+- Initial work on a versatile new scripting system, with independent threads of
+  execution for every object
+
+Want to try Dims out for yourself? Come join the [Discord][dims-discord] to be
+notified of future public tests, see the latest features before everyone else,
+and to talk to the devs personally.
+
+[dims-website]: https://dims.co
+[dims-twitter]: https://twitter.com/DimsWorlds
+[dims-discord]: https://discord.gg/Z5CAVmNE57
+[dims-youtube]: https://youtube.com/channel/UCR5gOwS7uSl0a0dl7MLQoqg
+[dims-video-1]: https://www.youtube.com/watch?v=piEAGSFx-QU
+
 ## Learning Material Updates
 
 ### [Brontefy Me Devlog #3][hedgein-devlog-3]
