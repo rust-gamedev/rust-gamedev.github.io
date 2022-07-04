@@ -256,6 +256,37 @@ network games.
 [Macroquad]: https://github.com/not-fl3/macroquad
 [@baehyunsol]: https://github.com/baehyunsol
 
+### [Veloren][veloren]
+
+![Gliding above a forest](veloren.jpg)
+_A glider ride above the woods at night_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In June, a memory issue was found within the graphics stack. Weather is also
+getting closer to completion. There is a large write-up about it in one of [this
+month's blog posts][veloren-176].
+
+Lots of work has also gone into optimizing the Site2 system. Site2 is used to
+create many different shapes around the world, such as houses in towns, or
+citadels around the world. With these optimizations, it will be significantly
+easier to render chunks, which will have a dramatic effect on their load time.
+You can read more about these optimizations in [this blog post][veloren-178].
+
+June's full weekly devlogs: "This Week In Veloren...":
+[#175][veloren-175],
+[#176][veloren-176],
+[#177][veloren-177],
+[#178][veloren-178].
+
+[veloren]: https://veloren.net
+
+[veloren-175]: https://veloren.net/devblog-175
+[veloren-176]: https://veloren.net/devblog-176
+[veloren-177]: https://veloren.net/devblog-177
+[veloren-178]: https://veloren.net/devblog-178
+
 ## Engine Updates
 
 ### [ggez] 0.8.0-rc0
