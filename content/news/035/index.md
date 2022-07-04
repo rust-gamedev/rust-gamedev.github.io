@@ -94,6 +94,36 @@ or [Google Podcasts][gamedev-podcast-google].
 [gamedev-podcast-rss]: https://feeds.simplecast.com/C6NQglnL
 [gamedev-podcast-google]: https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zaW1wbGVjYXN0LmNvbS9DNk5RZ2xuTA
 
+### Rust GameDev Meetup
+
+![Gamedev meetup poster](gamedev-meetup.png)
+
+The 17th Rust Gamedev Meetup took place in May. You can watch the recording of
+the meetup [here on Youtube][gamedev-meetup-video]. Here was the schedule from
+the meetup:
+
+- Choir - [@kvark]
+- RustConf Arcade Cabinet - [@carlosupina]
+- retime - [@Togg]
+- Graphite - [@GraphiteEditor]
+
+The meetups take place on the second Saturday every month via the [Rust Gamedev
+Discord server][rust-gamedev-discord] and are also [streamed on
+Twitch][rust-gamedev-twitch]. If you would like to show off what you've been
+working on at the next meetup on [June 11th][rust-meetup-time], fill out [this
+form][gamedev-meetup-form].
+
+[gamedev-meetup-video]: https://youtu.be/drcX3dCS5MY
+[rust-gamedev-discord]: https://discord.gg/yNtPTb2
+[rust-gamedev-twitch]: https://twitch.tv/rustgamedev
+[rust-meetup-time]: https://everytimezone.com/s/92d2228b
+[gamedev-meetup-form]: https://forms.gle/BS1zCyZaiUFSUHxe6
+
+[@kvark]: https://twitter.com/kvark
+[@carlosupina]: https://twitter.com/carlosupina
+[@Togg]: https://github.com/ZKpot
+[@GraphiteEditor]: https://twitter.com/graphiteeditor
+
 ## Game Updates
 
 ### [RuggRogue]
