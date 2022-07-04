@@ -110,7 +110,7 @@ the meetup:
 The meetups take place on the second Saturday every month via the [Rust Gamedev
 Discord server][rust-gamedev-discord] and are also [streamed on
 Twitch][rust-gamedev-twitch]. If you would like to show off what you've been
-working on at the next meetup on [June 11th][rust-meetup-time], fill out [this
+working on at the next meetup on [July 9th][rust-meetup-time], fill out [this
 form][gamedev-meetup-form].
 
 [gamedev-meetup-video]: https://youtu.be/drcX3dCS5MY
