@@ -287,6 +287,35 @@ June's full weekly devlogs: "This Week In Veloren...":
 [veloren-177]: https://veloren.net/devblog-177
 [veloren-178]: https://veloren.net/devblog-178
 
+### [Harvest Hero Origins - Summer Heat Update!][hho_steam_spring]
+
+![hho summer banner](hho_summer.png)
+
+[Gemdrop Games] have worked with their friends at [Octosoft]
+to bring Shroomella to Harvest Hero Origins!
+
+[Renaine] is an upcoming Action Platformer game about Aine,
+an immortal Phoenix Knight.
+
+Shroomella is a Mushroom Shroom witch aiding Aine on her quest!
+In Harvest Hero Origins, she uses her variety of magical mushrooms
+to fight off the endless Grooble hordes.
+
+On top of that, they're adding:
+
+- A new map
+- Two new cards
+- Two new enemies
+- A revised story boss fight
+
+The game is built on the [Emerald Game Engine].
+
+[hho_steam_spring]: https://store.steampowered.com/app/1651500/Harvest_Hero_Origins/
+[Octosoft]: https://twitter.com/RenaineGame
+[Renaine]: https://store.steampowered.com/app/662340/Renaine/
+[Gemdrop Games]: https://twitter.com/GemdropGames
+[Emerald Game Engine]: https://github.com/Bombfuse/emerald
+
 ## Engine Updates
 
 ### [ggez] 0.8.0-rc0
