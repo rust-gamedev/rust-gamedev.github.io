@@ -387,6 +387,25 @@ user input using the [Bevy][bevy] game engine.
 
 ## Tooling Updates
 
+### [Noumenal][noumenal-website]
+
+![Screen recording showing the construction of a heart shape using the Noumenal app.](noumenal.gif)
+
+[Noumenal][noumenal-website] ([App Store][noumenal-appstore],
+[Discord][noumenal-discord], [Twitter][noumenal-twitter])
+by [@HackerFoo][hackerfoo-website] is an elegant 3D solid modeling app for iOS.
+
+After a final stretch of performance improvements, bug fixes, and even some new
+features, Noumenal was released and is available on Apple's App Store!
+
+_Discussion: [/r/rust](https://reddit.com/r/rust/comments/vj40qq/noumenal_my_3d_modeling_app_for_ios)_
+
+[noumenal-website]: https://noumenal.app
+[noumenal-discord]: https://discord.gg/PFeZQE48gG
+[noumenal-twitter]: https://twitter.com/noumenal_app
+[noumenal-appstore]: https://apps.apple.com/us/app/noumenal/id1584884105
+[hackerfoo-website]: https://hackerfoo.com
+
 ## Library Updates
 
 ### [psf2]
