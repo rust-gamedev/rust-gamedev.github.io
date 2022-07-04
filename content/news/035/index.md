@@ -31,6 +31,7 @@ Feel free to send PRs about your own projects!
 [Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
+- [Announcements](#announcements)
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
@@ -64,6 +65,64 @@ _Discussions:
 
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
+
+## Announcements
+
+### [Rust GameDev Podcast][gamedev-podcast-site]
+
+![text logo](podcast.jpeg)
+
+The Rust Gamedev Podcast features interviews with indie game developers creating
+titles with the Rust programming language. It covers technical topics as well as
+the business of open source and commercial indie games development.
+
+In June, [the ninth episode][podcast-9] was released. It's a chat with Carter
+Anderson about the [Bevy engine][bevy], and a dive into its history.
+
+Listen and Subscribe from the following platforms:
+[Rust GameDev Podcast (simplecast)][gamedev-podcast-site],
+[Apple Podcasts][gamedev-podcast-apple],
+[Spotify][gamedev-podcast-spotify],
+[RSS Feed][gamedev-podcast-rss],
+or [Google Podcasts][gamedev-podcast-google].
+
+[podcast-9]: https://rustgamedev.com/episodes/interview-with-carter-anderson-bevy
+[bevy]: https://bevyengine.org/
+[gamedev-podcast-site]: https://rustgamedev.com/
+[gamedev-podcast-apple]: https://podcasts.apple.com/gb/podcast/rust-game-dev/id1526304768
+[gamedev-podcast-spotify]: https://open.spotify.com/show/7HRfGnTcXkLkQd9fxJbDGj
+[gamedev-podcast-rss]: https://feeds.simplecast.com/C6NQglnL
+[gamedev-podcast-google]: https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zaW1wbGVjYXN0LmNvbS9DNk5RZ2xuTA
+
+### Rust GameDev Meetup
+
+![Gamedev meetup poster](gamedev-meetup.png)
+
+The 17th Rust Gamedev Meetup took place in May. You can watch the recording of
+the meetup [here on Youtube][gamedev-meetup-video]. Here was the schedule from
+the meetup:
+
+- Choir - [@kvark]
+- RustConf Arcade Cabinet - [@carlosupina]
+- retime - [@Togg]
+- Graphite - [@GraphiteEditor]
+
+The meetups take place on the second Saturday every month via the [Rust Gamedev
+Discord server][rust-gamedev-discord] and are also [streamed on
+Twitch][rust-gamedev-twitch]. If you would like to show off what you've been
+working on at the next meetup on [July 9th][rust-meetup-time], fill out [this
+form][gamedev-meetup-form].
+
+[gamedev-meetup-video]: https://youtu.be/drcX3dCS5MY
+[rust-gamedev-discord]: https://discord.gg/yNtPTb2
+[rust-gamedev-twitch]: https://twitch.tv/rustgamedev
+[rust-meetup-time]: https://everytimezone.com/s/92d2228b
+[gamedev-meetup-form]: https://forms.gle/BS1zCyZaiUFSUHxe6
+
+[@kvark]: https://twitter.com/kvark
+[@carlosupina]: https://twitter.com/carlosupina
+[@Togg]: https://github.com/ZKpot
+[@GraphiteEditor]: https://twitter.com/graphiteeditor
 
 ## Game Updates
 
@@ -197,6 +256,37 @@ network games.
 [Macroquad]: https://github.com/not-fl3/macroquad
 [@baehyunsol]: https://github.com/baehyunsol
 
+### [Veloren][veloren]
+
+![Gliding above a forest](veloren.jpg)
+_A glider ride above the woods at night_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In June, a memory issue was found within the graphics stack. Weather is also
+getting closer to completion. There is a large write-up about it in one of [this
+month's blog posts][veloren-176].
+
+Lots of work has also gone into optimizing the Site2 system. Site2 is used to
+create many different shapes around the world, such as houses in towns, or
+citadels around the world. With these optimizations, it will be significantly
+easier to render chunks, which will have a dramatic effect on their load time.
+You can read more about these optimizations in [this blog post][veloren-178].
+
+June's full weekly devlogs: "This Week In Veloren...":
+[#175][veloren-175],
+[#176][veloren-176],
+[#177][veloren-177],
+[#178][veloren-178].
+
+[veloren]: https://veloren.net
+
+[veloren-175]: https://veloren.net/devblog-175
+[veloren-176]: https://veloren.net/devblog-176
+[veloren-177]: https://veloren.net/devblog-177
+[veloren-178]: https://veloren.net/devblog-178
+
 ### [Harvest Hero Origins - Summer Heat Update!][hho_steam_spring]
 
 ![hho summer banner](hho_summer.png)
@@ -263,6 +353,41 @@ _Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/v
 [wgpu]: https://github.com/gfx-rs/wgpu
 [ggez-issues]: https://github.com/ggez/ggez/issues
 
+### [Dims][dims-website]
+
+[![Video preview: Recreating Rhodes But In Our Own Game Engine](dims-recreating-rhodes.jpg)][dims-video-1]
+
+[Dims][dims-website] ([Twitter][dims-twitter], [Discord][dims-discord],
+[YouTube][dims-youtube]) is a pre-alpha collaborative open-world
+creation platform.
+Users can hop in sessions and build a game together, allowing everyone
+to bring out their inner game-maker.
+
+June brought about several developments for the platform, including:
+
+- Several development and testing streams, with the latest being
+  [a recreation of Rhodes from Red Dead Redemption 2][dims-video-1] within
+  the engine
+- A new audio engine with advanced real-time synthesis and composition
+  capabilities, including network synchronisation
+- Improved terrain manipulation tools, including new brushes, biome presets,
+  and more intuitive UI
+  - Choose between "Nordic Mountains" ⛰ and "Colorado Deserts" 🏜
+- Various improvements to the rendering engine, including decal and billboard
+  rendering, FBX loading, macOS support, and more
+- Initial work on a versatile new scripting system, with independent threads of
+  execution for every object
+
+Want to try Dims out for yourself? Come join the [Discord][dims-discord] to be
+notified of future public tests, see the latest features before everyone else,
+and to talk to the devs personally.
+
+[dims-website]: https://dims.co
+[dims-twitter]: https://twitter.com/DimsWorlds
+[dims-discord]: https://discord.gg/Z5CAVmNE57
+[dims-youtube]: https://youtube.com/channel/UCR5gOwS7uSl0a0dl7MLQoqg
+[dims-video-1]: https://www.youtube.com/watch?v=piEAGSFx-QU
+
 ## Learning Material Updates
 
 ### [Brontefy Me Devlog #3][hedgein-devlog-3]
@@ -321,6 +446,25 @@ user input using the [Bevy][bevy] game engine.
 [bevy]: https://bevyengine.org/
 
 ## Tooling Updates
+
+### [Noumenal][noumenal-website]
+
+![Screen recording showing the construction of a heart shape using the Noumenal app.](noumenal.gif)
+
+[Noumenal][noumenal-website] ([App Store][noumenal-appstore],
+[Discord][noumenal-discord], [Twitter][noumenal-twitter])
+by [@HackerFoo][hackerfoo-website] is an elegant 3D solid modeling app for iOS.
+
+After a final stretch of performance improvements, bug fixes, and even some new
+features, Noumenal was released and is available on Apple's App Store!
+
+_Discussion: [/r/rust](https://reddit.com/r/rust/comments/vj40qq/noumenal_my_3d_modeling_app_for_ios)_
+
+[noumenal-website]: https://noumenal.app
+[noumenal-discord]: https://discord.gg/PFeZQE48gG
+[noumenal-twitter]: https://twitter.com/noumenal_app
+[noumenal-appstore]: https://apps.apple.com/us/app/noumenal/id1584884105
+[hackerfoo-website]: https://hackerfoo.com
 
 ## Library Updates
 
