@@ -145,6 +145,7 @@ Source available on [GitHub][vetovoima_github].
 [vetovoima_github]: https://github.com/klemola/vetovoima
 
 ### [Harvest Hero Origins - Summer Heat Update!][hho_steam_spring]
+
 ![hho summer banner](hho_summer.png)
 
 [Gemdrop Games] have worked with their friends at [Octosoft]
