@@ -388,6 +388,22 @@ and to talk to the devs personally.
 [dims-youtube]: https://youtube.com/channel/UCR5gOwS7uSl0a0dl7MLQoqg
 [dims-video-1]: https://www.youtube.com/watch?v=piEAGSFx-QU
 
+### [miniquad]
+
+![miniquad fileopen](fileopen.gif)
+
+[miniquad] is a safe and cross-platform rendering library
+focused on portability and low-end platform support.
+
+In versions prior to 0.3, it was virtually impossible to integrate, for
+example, a big in-app payments or advertisement SDK into a Miniquad Android
+game. 0.3 has solved this, giving the possiblity to interop with any Java code.
+The developer has posted [a write-up of this functionality][miniquad-java] on
+the macroquad site.
+
+[miniquad]: https://github.com/not-fl3/miniquad/
+[miniquad-java]: https://macroquad.rs/articles/java/
+
 ## Learning Material Updates
 
 ### [Brontefy Me Devlog #3][hedgein-devlog-3]
