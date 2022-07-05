@@ -38,11 +38,9 @@ Feel free to send PRs about your own projects!
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
 - [Other News](#other-news)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
 - [Jobs](#jobs)
-- [Bonus](#bonus)
 
 <!--
 Ideal section structure is:
@@ -388,6 +386,22 @@ and to talk to the devs personally.
 [dims-youtube]: https://youtube.com/channel/UCR5gOwS7uSl0a0dl7MLQoqg
 [dims-video-1]: https://www.youtube.com/watch?v=piEAGSFx-QU
 
+### [miniquad]
+
+![miniquad fileopen](fileopen.gif)
+
+[miniquad] is a safe and cross-platform rendering library
+focused on portability and low-end platform support.
+
+In versions prior to 0.3, it was virtually impossible to integrate, for
+example, a big in-app payments or advertisement SDK into a Miniquad Android
+game. 0.3 has solved this, giving the possiblity to interop with any Java code.
+The developer has posted [a write-up of this functionality][miniquad-java] on
+the macroquad site.
+
+[miniquad]: https://github.com/not-fl3/miniquad/
+[miniquad-java]: https://macroquad.rs/articles/java/
+
 ## Learning Material Updates
 
 ### [Brontefy Me Devlog #3][hedgein-devlog-3]
@@ -568,31 +582,67 @@ a new feature to export texture [to png] easily.
 [v0.5]: https://github.com/Nazariglez/notan/releases/tag/v0.5.0
 [EGUI]: https://github.com/emilk/egui
 
-## Popular Workgroup Issues in Github
-
-<!-- Up to 10 links to interesting issues -->
-
 ## Other News
 
 <!-- One-liners for plan items that haven't got their own sections. -->
 
 ## Discussions
 
-<!-- Links to handpicked reddit/twitter/urlo/etc threads that provide
-useful information -->
+- [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/):
+  - ["Shopping list"][r-gamedev-shopping-list] (a list of things that
+    are missing from the ecosystem)
+  - ["Hands-on Rust: Further reading"][r-gamedev-further-reading]
+  - ["How can I start developing a 3D game engine?"][r-gamedev-3d]
+  - ["Bevy or Fyrox for 3D Game Development?"][r-gamedev-bevy-fyrox]
+
+[r-gamedev-shopping-list]: https://www.reddit.com/r/rust_gamedev/comments/v8tx37/shopping_list/
+[r-gamedev-further-reading]: https://www.reddit.com/r/rust_gamedev/comments/v4q4pr/handson_rust_further_reading
+[r-gamedev-3d]: https://reddit.com/r/rust_gamedev/comments/v3z4i1/how_can_i_start_developing_a_3d_game_engine
+[r-gamedev-bevy-fyrox]: https://reddit.com/r/rust_gamedev/comments/v7svhg/bevy_or_fyrox_for_3d_game_dev
 
 ## Requests for Contribution
 
-<!-- Links to "good first issue"-labels or direct links to specific tasks -->
+- ['Are We Game Yet?' wants to know about projects/games/resources that
+  aren't listed yet][awgy].
+- [Graphite is looking for contributors][graphite-contribute] to help build the
+  new node graph and 2D rendering systems.
+- [winit's "difficulty: easy" issues][winit-issues].
+- [Backroll-rs, a new networking library][backroll-rs].
+- [Embark's open issues][embark-open-issues] ([embark.rs]).
+- [wgpu's "help wanted" issues][wgpu-issues].
+- [luminance's "low hanging fruit" issues][luminance-fruits].
+- [ggez's "good first issue" issues][ggez-issues].
+- [Veloren's "beginner" issues][veloren-beginner].
+- [Amethyst's "good first issue" issues][amethyst-issues].
+- [A/B Street's "good first issue" issues][abstreet-issues].
+- [Mun's "good first issue" issues][mun-issues].
+- [SIMple Mechanic's good first issues][simm-issues].
+- [Bevy's "good first issue" issues][bevy-issues].
+
+[awgy]: https://github.com/rust-gamedev/arewegameyet#contribute
+[graphite-contribute]: https://github.com/GraphiteEditor/Graphite/issues/202
+[winit-issues]: https://github.com/rust-windowing/winit/issues?q=is%3Aopen+is%3Aissue+label%3A%22difficulty%3A+easy%22
+[backroll-rs]: https://github.com/HouraiTeahouse/backroll-rs/issues
+[embark.rs]: https://embark.rs
+[embark-open-issues]: https://github.com/search?q=user:EmbarkStudios+state:open
+[wgpu-issues]: https://github.com/gfx-rs/wgpu/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
+[luminance-fruits]: https://github.com/phaazon/luminance-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22low+hanging+fruit%22
+[ggez-issues]: https://github.com/ggez/ggez/labels/%2AGOOD%20FIRST%20ISSUE%2A
+[veloren-beginner]: https://gitlab.com/veloren/veloren/issues?label_name=beginner
+[amethyst-issues]: https://github.com/amethyst/amethyst/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[abstreet-issues]: https://github.com/a-b-street/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
+[simm-issues]: https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue
+[bevy-issues]: https://github.com/bevyengine/bevy/labels/E-Good-First-Issue
 
 ## Jobs
 
-<!-- An optional section for new jobs related to Rust gamedev -->
-
-## Bonus
-
-<!-- Bonus section to make the newsletter more interesting
-and highlight events from the past. -->
+- [DIMS](https://dims.co/jobs)
+  (Stockholm/Remote): Various roles, open applications accepted
+- [Embark Studios](https://careers.embark-studios.com/jobs)
+  (Stockholm/Hybrid Remote): Various roles, open applications accepted
+- [Mutate](https://rustjobs.dev/featured-jobs/Mutate-Rust-Backend-Software-Engineer-7kfTlQFSagzwHhugw1p0)
+  (Remote): Rust Backend Software Engineer
 
 ------
 
