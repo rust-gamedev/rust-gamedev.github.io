@@ -566,6 +566,8 @@ _Discussions:
 
 ## Requests for Contribution
 
+- ['Are We Game Yet?' wants to know about projects/games/resources that
+  aren't listed yet][awgy].
 - [Graphite is looking for contributors][graphite-contribute] to help build the
   new node graph and 2D rendering systems.
 - [winit's "difficulty: easy" issues][winit-issues].
@@ -581,6 +583,7 @@ _Discussions:
 - [SIMple Mechanic's good first issues][simm-issues].
 - [Bevy's "good first issue" issues][bevy-issues].
 
+[awgy]: https://github.com/rust-gamedev/arewegameyet#contribute
 [graphite-contribute]: https://github.com/GraphiteEditor/Graphite/issues/202
 [winit-issues]: https://github.com/rust-windowing/winit/issues?q=is%3Aopen+is%3Aissue+label%3A%22difficulty%3A+easy%22
 [backroll-rs]: https://github.com/HouraiTeahouse/backroll-rs/issues
