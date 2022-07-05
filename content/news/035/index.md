@@ -353,6 +353,22 @@ _Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/v
 [wgpu]: https://github.com/gfx-rs/wgpu
 [ggez-issues]: https://github.com/ggez/ggez/issues
 
+### [miniquad]
+
+![miniquad fileopen](fileopen.gif)
+
+[miniquad] is a safe and cross-platform rendering library
+focused on portability and low-end platforms support.
+
+[A java interop write-up][miniquad-java]
+
+In pre 0.3 it was virtually impossible to integrate, say, a big in-app
+payments or advertisment SDK into a Miniquad android game. 0.3 solved
+this and gave a possiblity to interop with any Java code.
+
+[miniquad]: https://github.com/not-fl3/miniquad/
+[miniquad-java]: https://macroquad.rs/articles/java/
+
 ### [Dims][dims-website]
 
 [![Video preview: Recreating Rhodes But In Our Own Game Engine](dims-recreating-rhodes.jpg)][dims-video-1]
