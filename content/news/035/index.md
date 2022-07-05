@@ -553,7 +553,8 @@ _Discussions:
 ## Discussions
 
 - [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/):
-  - ["Shopping list"][r-gamedev-shopping-list] (a list of things that are missing from the ecosystem)
+  - ["Shopping list"][r-gamedev-shopping-list] (a list of things that
+    are missing from the ecosystem)
   - ["Hands-on Rust: Further reading"][r-gamedev-further-reading]
   - ["How can I start developing a 3D game engine?"][r-gamedev-3d]
   - ["Bevy or Fyrox for 3D Game Development?"][r-gamedev-bevy-fyrox]
