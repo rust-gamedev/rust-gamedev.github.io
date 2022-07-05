@@ -137,7 +137,7 @@ that will put you in the driving seat of modern competitive sailing.
 Hydrofoil Generation is based on a custom made DirectX 11 based engine in
 Rust.
 
-June saw a lot of features added to the game, most notables being "New TV 
+June saw a lot of features added to the game, most notables being "New TV
 Overlays", "Control Assists", "Ropes Rendering" plus several physics
 improvement. Stefano Casillo, the developer went through all of them in
 a recent [devlog][hgs_devlog].
@@ -145,7 +145,7 @@ a recent [devlog][hgs_devlog].
 Work on July will focus on the physics implementation of a new boat, a
 foiling multihull coming with her own set of new challenges.
 
-Hydrofoil Generation is targeting a Q4 2022 Early Access release on Steam. 
+Hydrofoil Generation is targeting a Q4 2022 Early Access release on Steam.
 
 [Hydrofoil Generation]: https://hydrofoil-generation.com/
 [hgs_facebook]: https://facebook.com/HydrofoilGenerationSailing/
