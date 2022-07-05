@@ -122,6 +122,32 @@ form][gamedev-meetup-form].
 [@Togg]: https://github.com/ZKpot
 [@GraphiteEditor]: https://twitter.com/graphiteeditor
 
+### [Rusty Jam 2][rusty-jam-ann]
+
+![Aaron: a drawing of a humanoid fox](aaron.png)
+_Aaron, [the mascot of the jam][rusty-jam-ann]_
+
+The [second Rusty Jam][rusty-jam-ann] just ended!
+[17 games][rusty-jam-entries] were completed and submitted
+over the one-week jam. The games were rated by the community
+and the top three games are:
+
+- 🥇 ["Chick the Dog"][rusty-jam-place-1] by Uriopass
+- 🥈 ["A walk around the block"][rusty-jam-place-2] by ramirezmike
+- 🥉 ["Fight for the Frontier"][rusty-jam-place-3] by rand0m and logicprojects
+
+The Rusty Jam will be back, so stay tuned on
+[the Rusty Jam Discord Server][rusty-jam-discord] for future updates!
+
+[rusty-jam]: https://itch.io/jam/rusty-jam-2
+[rusty-jam-entries]: https://itch.io/jam/rusty-jam-2/entries
+[rusty-jam-results]: https://itch.io/jam/rusty-jam-2/results
+[rusty-jam-ann]: https://gamedev.rs/blog/rustyjam-02
+[rusty-jam-discord]: https://discord.gg/jZtz6y9gCJ
+[rusty-jam-place-1]: https://uriopass.itch.io/chick-the-dog
+[rusty-jam-place-2]: https://ramirezmike2.itch.io/a-walk-around-the-block
+[rusty-jam-place-3]: https://logicprojects.itch.io/fight-for-the-frontier
+
 ## Game Updates
 
 ### [Hydrofoil Generation]
