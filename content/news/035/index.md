@@ -546,19 +546,19 @@ completely non-destructive editing experience.
 June's [sprint 16][graphite-sprint] focused mainly on bug fixes and big
 under-the-hood changes:
 
-- **Ahead of the curve:** A long-awaited refactor replaces the underlying
+- Ahead of the curve: A long-awaited refactor replaces the underlying
 Bézier curve data structure in alignment with requirements for Pen tool
 improvements and the upcoming node system.
 
-- **Sending mixed messages:** The internal messaging system was upgraded to
+- Sending mixed messages: The internal messaging system was upgraded to
 sequence the message processing in a more predictable stack-based order. A new
 subscription-based event broadcaster was integrated as well.
 
-- **Back on the menu:** The application menu bar content definitions were moved
+- Back on the menu: The application menu bar content definitions were moved
 from the JS frontend to a permanent home in the Rust backend.
 
 Open the [Graphite editor][graphite-live-demo] in your browser to give it a try
-and share your creations with *#MadeWithGraphite* on Twitter.
+and share your creations with #MadeWithGraphite on Twitter.
 
 [graphite-website]: https://graphite.rs
 [graphite-repo]: https://github.com/GraphiteEditor/Graphite
