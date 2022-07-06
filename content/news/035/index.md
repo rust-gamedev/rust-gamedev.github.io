@@ -157,15 +157,15 @@ The Rusty Jam will be back, so stay tuned on
 ([Steam][hgs_steam], [Facebook][hgs_facebook], [Discord][hgs_discord])
 is a realistic sailing/foiling inshore simulator in development for PC/Steam
 that will put you in the driving seat of modern competitive sailing.
-Hydrofoil Generation is based on a custom made DirectX 11 based engine in
+Hydrofoil Generation is based on a custom-made DirectX 11 based engine in
 Rust.
 
 June saw a lot of features added to the game, most notables being "New TV
 Overlays", "Control Assists", "Ropes Rendering" plus several physics
-improvement. Stefano Casillo, the developer went through all of them in
+improvements. Stefano Casillo, the developer went through all of them in
 a recent [devlog][hgs_devlog].
 
-Work on July will focus on the physics implementation of a new boat, a
+Work in July will focus on the physics implementation of a new boat, a
 foiling multihull coming with her own set of new challenges.
 
 Hydrofoil Generation is targeting a Q4 2022 Early Access release on Steam.
@@ -190,14 +190,14 @@ Features:
 - Discover new monsters and equipment the deeper you go.
 - Hunger and regeneration: stay fed and stay healed!
 - Choose between graphical tiles and ASCII display.
-- Menu-based UI with hot keys.
+- Menu-based UI with hotkeys.
 - Auto-run to quickly follow corridors and cross open space.
 - Save and load system.
 - New Game Plus mode!
 
 The source code is complemented by the
 [RuggRogue Source Code Guide][ruggrogue-book],
-a 23-chapter technical web book covering the ideas, algorithms and structure of
+a 23-chapter technical web book covering the ideas, algorithms, and structure of
 the code.
 
 _Discussions:
@@ -224,7 +224,7 @@ This month the last planned port has been completed; the games are:
 - Soccer (Sensible Soccer clone, ported to [Fyrox](https://github.com/FyroxEngine/Fyrox))
 
 A Bevy ECS tutorial, based on Rusty Roguelike, has been published, and it's
-announced on this newsletter.
+announced in this newsletter.
 
 [Rust Game Ports]: https://github.com/64kramsystem/rust-game-ports
 [Saverio Miroddi/@64kramsystem]: https://twitter.com/64kramsystem
@@ -259,11 +259,11 @@ Source available on [GitHub][vetovoima_github].
 
 [Botnet] is an upcoming programming-based multiplayer game,
 where you write scripts (compiled to WebAssembly) to control robots.
-Coordinate your bots to gather resources, build new industry,
+Coordinate your bots to gather resources, build new industries,
 and expand your control of the server.
 
 This month saw the start of the project, and a majority of the foundational
-code written. Next month we'll be adding more features, and aim to flesh out
+code was written. Next month we'll be adding more features, and aim to flesh out
 the game beyond [basic pathfinding and resource harvesting][botnet_example_bot].
 
 Interested in contributing? Head over to the
@@ -372,13 +372,13 @@ The game is built on the [Emerald Game Engine].
 
 ![ggez logo](../005/ggez-logo-maroon-full.svg)
 
-[ggez] by [@icefoxen], [@nobbele] and [@PSteinhaus] is a cross-platform game
+[ggez] by [@icefoxen], [@nobbele], and [@PSteinhaus] is a cross-platform game
 framework for making 2D games with minimum friction. It aims to implement an
 API based on the LÖVE game framework.
 
 This version has finally moved ggez away from pre-ll gfx and into the world
-of [wgpu]! This hopefully means less bugs, greater stability and easier
-maintainability at the cost of some low performance devices such as the
+of [wgpu]! This hopefully means fewer bugs, greater stability, and easier
+maintainability at the cost of some low-performance devices such as the
 Raspberry Pi.
 
 As for the user-facing API:
@@ -447,7 +447,7 @@ focused on portability and low-end platform support.
 
 In versions prior to 0.3, it was virtually impossible to integrate, for
 example, a big in-app payments or advertisement SDK into a Miniquad Android
-game. 0.3 has solved this, giving the possiblity to interop with any Java code.
+game. 0.3 has solved this, giving the possibility to interop with any Java code.
 The developer has posted [a write-up of this functionality][miniquad-java] on
 the macroquad site.
 
@@ -578,7 +578,7 @@ low-resolution, fixed-width aesthetic is desired.
 
 The psf2 crate parses font data, exposing font size, glyph lookup, and iterators
 to traverse a glyph's bitmap for easy rendering. Due to its limited scope, it is
-much smaller and faster than conventional text rasterizers, but cannot support
+much smaller and faster than conventional text rasterizers but cannot support
 variable-width, anti-aliased, or shaped text.
 
 [psf2]: https://github.com/Ralith/psf2
@@ -604,7 +604,7 @@ cleaner and smaller code.
 [glam] is a simple and fast linear algebra crate for games and graphics.
 
 This month version 0.21 of glam was released. Because glam is not a generic
-library, when support was added for `f64`, `i32` and `u32` types back in glam
+library, when support was added for `f64`, `i32`, and `u32` types back in glam
 0.12, macros were used internally to avoid a lot of code duplication. This
 unfortunately obfuscated the internals of glam for anyone who needed to view the
 source.
@@ -625,7 +625,7 @@ functions have also been made `const fn` removing the need for macros to create
 [kajiya] by [@h3r2tic] is an experimental real-time global illumination
 renderer.
 
-In June, a long-standing branch has landed, bringing with it a complete
+In June, a long-standing branch landed, bringing with it a complete
 overhaul of indirect lighting. The new implementation uses spatiotemporal
 reservoir resampling (ReSTIR) and a novel irradiance cache, bringing forth
 larger scenes, quicker response to lighting changes, and less noise.
