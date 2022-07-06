@@ -719,7 +719,69 @@ a new feature to export texture [to png] easily.
 
 ## Other News
 
-<!-- One-liners for plan items that haven't got their own sections. -->
+- Other game updates:
+  - [Fires of Eschaton] is a PvP focused turn-based fantasy game, currently under
+    development.
+  - [Idu] is testing out some new water physics.
+  - [Combine and Conquer] has a new devlog about its sound support.
+  - [Fish Folly] is a new Fyrox showcase game, inspired by Fall Guys.
+  - [Punchy] is a beat-em-up spin off of [Fish Fight], built with Bevy.
+  - [Jungle Chess] is a WASM implementation of a Chinese board game.
+  - [Croquet] is working on synchronized physics, using Rapier.
+  - [Bevy City] is a voxel city generator, built with Bevy.
+  - [Measure Once] is a game about cutting wood into the right shapes.
+  - [Galactic Mess] has added new outfits and weapons.
+- Other learning material updates:
+  - [Rustacean Station] interviewed the developer of egui.
+  - [Rusteroids] is a video tutorial series, building an asteroids
+    clone with Rust and SDL2.
+  - [NVIDIA GPU Profiling with Rust] is an introduction on how to use
+    NVIDIA's NSight tools with Rust.
+  - [Practical Programming with Dr. Xu] has continued their WGPU
+    tutorial series.
+  - [Anthropic Studios] (developers of Way of Rhea) posted a dev interview video.
+  - [Lyrapuff] posted a video showing how to render a triangle with
+    Vulkan and Rust.
+- Other engine updates:
+  - [pufferfish] is a new, opinionated 2D game framework.
+- Other tooling updates:
+  - [quad-gif] is a GIF viewer, built with Macroquad.
+  - [GBemulator] is a Game Boy emulator written from scratch.
+- Other library updates:
+  - [bevy_mod_picking] released version 0.7 of their Bevy mouse
+    picking plugin.
+  - [bevy_mod_outline] is a Bevy plugin for drawing outlines around
+    meshes.
+  - [Bevy YOLECK] is a crate that allows Bevy games to be their own
+    level editor.
+  - [bevy_mod_raycast] released version 0.5 of their raycasting plugin.
+  - [taffy] is a cross-platform UI layout library.
+
+[Fires of Eschaton]: https://twitter.com/FiresOfEschaton/status/1534119771045826567
+[Idu]: https://twitter.com/epcc10/status/1532889644165120001
+[Combine and Conquer]: https://buckmartin.de/combine-and-conquer/2022-06-16-sound.html
+[Fish Folly]: https://www.reddit.com/r/rust_gamedev/comments/vi5jok/media_fish_folly_a_fyrox_showcase_game_inspired/
+[Punchy]: https://twitter.com/spicylobsterfam/status/1540105977810255872
+[Fish Fight]: https://fishfight.org/
+[Jungle Chess]: https://www.reddit.com/r/rust_gamedev/comments/v3btkk/browser_jungle_chess_with_rust_wasm/
+[Croquet]: https://twitter.com/gocroquet/status/1531336194725797889
+[Bevy City]: https://mungbungo.itch.io/bevy-city
+[Measure Once]: https://robtfm.github.io/measure_once/
+[Galactic Mess]: https://www.youtube.com/watch?v=DO8vwehkr38
+[Rustacean Station]: https://rustacean-station.org/episode/emil-ernerfeldt/
+[Rusteroids]: https://www.youtube.com/playlist?list=PLFOS-Gn3aXROnSfl26esPExssd-rQw6jD
+[NVIDIA GPU Profiling with Rust]: https://simbleau.github.io/blog/gpu-profiling-with-rust/
+[Practical Programming with Dr. Xu]: https://www.reddit.com/r/rust/comments/vmpjcr/rust_wgpu_graphics_programming_tutorial_youtube/
+[Anthropic Studios]: https://www.youtube.com/watch?v=H0sIsrLWojs
+[Lyrapuff]: https://www.youtube.com/watch?v=_PNiRGIAfY4
+[pufferfish]: https://github.com/pufferfish-rs/pufferfish
+[quad-gif]: https://github.com/ollej/quad-gif
+[GBemulator]: https://github.com/p4ddy1/gbemulator
+[bevy_mod_picking]: https://github.com/aevyrie/bevy_mod_picking/releases/tag/v0.7.0
+[bevy_mod_outline]: https://github.com/komadori/bevy_mod_outline
+[Bevy YOLECK]: https://github.com/idanarye/bevy-yoleck
+[bevy_mod_raycast]: https://github.com/aevyrie/bevy_mod_raycast/releases/tag/v0.5
+[taffy]: https://github.com/DioxusLabs/taffy
 
 ## Discussions
 
