@@ -549,11 +549,9 @@ under-the-hood changes:
 - Ahead of the curve: A long-awaited refactor replaces the underlying
 Bézier curve data structure in alignment with requirements for Pen tool
 improvements and the upcoming node system.
-
 - Sending mixed messages: The internal messaging system was upgraded to
 sequence the message processing in a more predictable stack-based order. A new
 subscription-based event broadcaster was integrated as well.
-
 - Back on the menu: The application menu bar content definitions were moved
 from the JS frontend to a permanent home in the Rust backend.
 
