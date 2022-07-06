@@ -302,8 +302,8 @@ Interested in contributing? Head over to the
 [Star Machine] by [@Seldom_SE] is a puzzle game built in Bevy, where
 you wire together components to escape each level.
 
-The game, although its development is presently inactive, made
-[a video demo][Star Machine] of 8 of its early levels.
+Although its development is currently inactive, the developer
+recently made [a video demo][Star Machine] of the early levels.
 
 [Star Machine]: https://twitter.com/Seldom_SE/status/1532909654681849856
 [@Seldom_SE]: https://twitter.com/Seldom_SE
