@@ -533,6 +533,38 @@ _Discussion: [/r/rust](https://reddit.com/r/rust/comments/vj40qq/noumenal_my_3d_
 [noumenal-appstore]: https://apps.apple.com/us/app/noumenal/id1584884105
 [hackerfoo-website]: https://hackerfoo.com
 
+### [Graphite][graphite-website]
+
+![Graphite](graphite.png)
+
+Graphite ([website][graphite-website], [GitHub][graphite-repo],
+[Discord][graphite-discord], [Twitter][graphite-twitter]) is a free,
+in-development raster and vector 2D graphics editor. It will be powered by a
+node graph compositing engine that supercharges your layer stack, providing a
+completely non-destructive editing experience.
+
+June's [sprint 16][graphite-sprint] focused mainly on bug fixes and big
+under-the-hood changes:
+
+- Ahead of the curve: A long-awaited refactor replaces the underlying
+Bézier curve data structure in alignment with requirements for Pen tool
+improvements and the upcoming node system.
+- Sending mixed messages: The internal messaging system was upgraded to
+sequence the message processing in a more predictable stack-based order. A new
+subscription-based event broadcaster was integrated as well.
+- Back on the menu: The application menu bar content definitions were moved
+from the JS frontend to a permanent home in the Rust backend.
+
+Open the [Graphite editor][graphite-live-demo] in your browser to give it a try
+and share your creations with #MadeWithGraphite on Twitter.
+
+[graphite-website]: https://graphite.rs
+[graphite-repo]: https://github.com/GraphiteEditor/Graphite
+[graphite-discord]: https://discord.graphite.rs
+[graphite-twitter]: https://twitter.com/GraphiteEditor
+[graphite-sprint]: https://github.com/GraphiteEditor/Graphite/milestone/16
+[graphite-live-demo]: https://editor.graphite.rs
+
 ## Library Updates
 
 ### [psf2]
@@ -673,7 +705,7 @@ a new feature to export texture [to png] easily.
 - [Bevy's "good first issue" issues][bevy-issues].
 
 [awgy]: https://github.com/rust-gamedev/arewegameyet#contribute
-[graphite-contribute]: https://github.com/GraphiteEditor/Graphite/issues/202
+[graphite-contribute]: https://graphite.rs/contribute
 [winit-issues]: https://github.com/rust-windowing/winit/issues?q=is%3Aopen+is%3Aissue+label%3A%22difficulty%3A+easy%22
 [backroll-rs]: https://github.com/HouraiTeahouse/backroll-rs/issues
 [embark.rs]: https://embark.rs
