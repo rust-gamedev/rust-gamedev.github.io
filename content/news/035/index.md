@@ -163,7 +163,6 @@ game, you can use the [bevy-rust-arcade crate][bevy-rust-arcade] to quickly get
 your game compatible. Deadline is the end of July!
 You can find the latest update [here][arcade-cabinet-update-thread].
 
-
 [carlosupina]: https://twitter.com/carlosupina
 [arcade-cabinet-thread]: https://twitter.com/carlosupina/status/1523715837726961664
 [arcade-cabinet-update-thread]: https://twitter.com/carlosupina/status/1539032439284240386
