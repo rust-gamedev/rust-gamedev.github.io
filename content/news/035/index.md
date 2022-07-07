@@ -1,8 +1,7 @@
 +++
 title = "This Month in Rust GameDev #35 - June 2022"
 transparent = true
-date = 2022-07-03
-draft = true
+date = 2022-07-07
 +++
 
 <!-- no toc -->
@@ -179,15 +178,15 @@ You can find the latest update [here][arcade-cabinet-update-thread].
 ([Steam][hgs_steam], [Facebook][hgs_facebook], [Discord][hgs_discord])
 is a realistic sailing/foiling inshore simulator in development for PC/Steam
 that will put you in the driving seat of modern competitive sailing.
-Hydrofoil Generation is based on a custom made DirectX 11 based engine in
+Hydrofoil Generation is based on a custom-made DirectX 11 based engine in
 Rust.
 
 June saw a lot of features added to the game, most notables being "New TV
 Overlays", "Control Assists", "Ropes Rendering" plus several physics
-improvement. Stefano Casillo, the developer went through all of them in
+improvements. Stefano Casillo, the developer went through all of them in
 a recent [devlog][hgs_devlog].
 
-Work on July will focus on the physics implementation of a new boat, a
+Work in July will focus on the physics implementation of a new boat, a
 foiling multihull coming with her own set of new challenges.
 
 Hydrofoil Generation is targeting a Q4 2022 Early Access release on Steam.
@@ -212,14 +211,14 @@ Features:
 - Discover new monsters and equipment the deeper you go.
 - Hunger and regeneration: stay fed and stay healed!
 - Choose between graphical tiles and ASCII display.
-- Menu-based UI with hot keys.
+- Menu-based UI with hotkeys.
 - Auto-run to quickly follow corridors and cross open space.
 - Save and load system.
 - New Game Plus mode!
 
 The source code is complemented by the
 [RuggRogue Source Code Guide][ruggrogue-book],
-a 23-chapter technical web book covering the ideas, algorithms and structure of
+a 23-chapter technical web book covering the ideas, algorithms, and structure of
 the code.
 
 _Discussions:
@@ -246,7 +245,7 @@ This month the last planned port has been completed; the games are:
 - Soccer (Sensible Soccer clone, ported to [Fyrox](https://github.com/FyroxEngine/Fyrox))
 
 A Bevy ECS tutorial, based on Rusty Roguelike, has been published, and it's
-announced on this newsletter.
+announced in this newsletter.
 
 [Rust Game Ports]: https://github.com/64kramsystem/rust-game-ports
 [Saverio Miroddi/@64kramsystem]: https://twitter.com/64kramsystem
@@ -281,11 +280,11 @@ Source available on [GitHub][vetovoima_github].
 
 [Botnet] is an upcoming programming-based multiplayer game,
 where you write scripts (compiled to WebAssembly) to control robots.
-Coordinate your bots to gather resources, build new industry,
+Coordinate your bots to gather resources, build new industries,
 and expand your control of the server.
 
 This month saw the start of the project, and a majority of the foundational
-code written. Next month we'll be adding more features, and aim to flesh out
+code was written. Next month we'll be adding more features, and aim to flesh out
 the game beyond [basic pathfinding and resource harvesting][botnet_example_bot].
 
 Interested in contributing? Head over to the
@@ -302,8 +301,8 @@ Interested in contributing? Head over to the
 [Star Machine] by [@Seldom_SE] is a puzzle game built in Bevy, where
 you wire together components to escape each level.
 
-The game, although its development is presently inactive, made
-[a video demo][Star Machine] of 8 of its early levels.
+Although its development is currently inactive, the developer
+recently made [a video demo][Star Machine] of the early levels.
 
 [Star Machine]: https://twitter.com/Seldom_SE/status/1532909654681849856
 [@Seldom_SE]: https://twitter.com/Seldom_SE
@@ -388,19 +387,36 @@ The game is built on the [Emerald Game Engine].
 [Gemdrop Games]: https://twitter.com/GemdropGames
 [Emerald Game Engine]: https://github.com/Bombfuse/emerald
 
+### [Chimera Rancher][chimera-rancher]
+
+![Chimera Rancher cover art](chimera_rancher.png)
+
+[Chimera Rancher][chimera-rancher] is a game where you must defend your ranch
+from an angry hoard of villagers with the help of your chimera friends!
+
+Submitted as part of [Rusty jam #2][rusty-jam] by [cdsupina][cdsupina],
+[Nightly Side][nightlyside], [hedgein][hedgein], and [tigleym][tigleym]. This
+game was developed using the [bevy] game engine.
+
+[chimera-rancher]: https://nightlyside.itch.io/chimera-rancher
+[cdsupina]: https://cdsupina.itch.io/
+[tigleym]: https://tigleym.itch.io/
+[hedgein]: https://hedgein.itch.io/
+[nightlyside]: https://nightlyside.itch.io/
+
 ## Engine Updates
 
 ### [ggez] 0.8.0-rc0
 
 ![ggez logo](../005/ggez-logo-maroon-full.svg)
 
-[ggez] by [@icefoxen], [@nobbele] and [@PSteinhaus] is a cross-platform game
+[ggez] by [@icefoxen], [@nobbele], and [@PSteinhaus] is a cross-platform game
 framework for making 2D games with minimum friction. It aims to implement an
 API based on the LÖVE game framework.
 
 This version has finally moved ggez away from pre-ll gfx and into the world
-of [wgpu]! This hopefully means less bugs, greater stability and easier
-maintainability at the cost of some low performance devices such as the
+of [wgpu]! This hopefully means fewer bugs, greater stability, and easier
+maintainability at the cost of some low-performance devices such as the
 Raspberry Pi.
 
 As for the user-facing API:
@@ -469,29 +485,12 @@ focused on portability and low-end platform support.
 
 In versions prior to 0.3, it was virtually impossible to integrate, for
 example, a big in-app payments or advertisement SDK into a Miniquad Android
-game. 0.3 has solved this, giving the possiblity to interop with any Java code.
+game. 0.3 has solved this, giving the possibility to interop with any Java code.
 The developer has posted [a write-up of this functionality][miniquad-java] on
 the macroquad site.
 
 [miniquad]: https://github.com/not-fl3/miniquad/
 [miniquad-java]: https://macroquad.rs/articles/java/
-
-### [Chimera Rancher][chimera-rancher]
-
-![Chimera Rancher cover art](chimera_rancher.png)
-
-[Chimera Rancher][chimera-rancher] is a game where you must defend your ranch
-from an angry hoard of villagers with the help of your chimera friends!
-
-Submitted as part of [Rusty jam #2][rusty-jam] by [cdsupina][cdsupina],
-[Nightly Side][nightlyside], [hedgein][hedgein], and [tigleym][tigleym]. This
-game was developed using the [bevy] game engine.
-
-[chimera-rancher]: https://nightlyside.itch.io/chimera-rancher
-[cdsupina]: https://cdsupina.itch.io/
-[tigleym]: https://tigleym.itch.io/
-[hedgein]: https://hedgein.itch.io/
-[nightlyside]: https://nightlyside.itch.io/
 
 ## Learning Material Updates
 
@@ -603,7 +602,7 @@ and share your creations with #MadeWithGraphite on Twitter.
 [graphite-sprint]: https://github.com/GraphiteEditor/Graphite/milestone/16
 [graphite-live-demo]: https://editor.graphite.rs
 
-### [Game name]
+### [quad-gif]
 
 ![quad-gif screenshot](quad-gif.png)
 
@@ -629,7 +628,7 @@ low-resolution, fixed-width aesthetic is desired.
 
 The psf2 crate parses font data, exposing font size, glyph lookup, and iterators
 to traverse a glyph's bitmap for easy rendering. Due to its limited scope, it is
-much smaller and faster than conventional text rasterizers, but cannot support
+much smaller and faster than conventional text rasterizers but cannot support
 variable-width, anti-aliased, or shaped text.
 
 [psf2]: https://github.com/Ralith/psf2
@@ -655,7 +654,7 @@ cleaner and smaller code.
 [glam] is a simple and fast linear algebra crate for games and graphics.
 
 This month version 0.21 of glam was released. Because glam is not a generic
-library, when support was added for `f64`, `i32` and `u32` types back in glam
+library, when support was added for `f64`, `i32`, and `u32` types back in glam
 0.12, macros were used internally to avoid a lot of code duplication. This
 unfortunately obfuscated the internals of glam for anyone who needed to view the
 source.
@@ -676,7 +675,7 @@ functions have also been made `const fn` removing the need for macros to create
 [kajiya] by [@h3r2tic] is an experimental real-time global illumination
 renderer.
 
-In June, a long-standing branch has landed, bringing with it a complete
+In June, a long-standing branch landed, bringing with it a complete
 overhaul of indirect lighting. The new implementation uses spatiotemporal
 reservoir resampling (ReSTIR) and a novel irradiance cache, bringing forth
 larger scenes, quicker response to lighting changes, and less noise.
@@ -719,7 +718,67 @@ a new feature to export texture [to png] easily.
 
 ## Other News
 
-<!-- One-liners for plan items that haven't got their own sections. -->
+- Other game updates:
+  - [Fires of Eschaton] is a PvP focused turn-based fantasy game, currently under
+    development.
+  - [Idu] is testing out some new water physics.
+  - [Combine and Conquer] has a new devlog about its sound support.
+  - [Fish Folly] is a new Fyrox showcase game, inspired by Fall Guys.
+  - [Punchy] is a beat-em-up spin off of [Fish Fight], built with Bevy.
+  - [Jungle Chess] is a WASM implementation of a Chinese board game.
+  - [Croquet] is working on synchronized physics, using Rapier.
+  - [Bevy City] is a voxel city generator, built with Bevy.
+  - [Measure Once] is a game about cutting wood into the right shapes.
+  - [Galactic Mess] has added new outfits and weapons.
+- Other learning material updates:
+  - [Rustacean Station] interviewed the developer of egui.
+  - [Rusteroids] is a video tutorial series, building an asteroids
+    clone with Rust and SDL2.
+  - [NVIDIA GPU Profiling with Rust] is an introduction on how to use
+    NVIDIA's NSight tools with Rust.
+  - [Practical Programming with Dr. Xu] has continued their WGPU
+    tutorial series.
+  - [Anthropic Studios] (developers of Way of Rhea) posted a dev interview video.
+  - [Lyrapuff] posted a video showing how to render a triangle with
+    Vulkan and Rust.
+- Other engine updates:
+  - [pufferfish] is a new, opinionated 2D game framework.
+- Other tooling updates:
+  - [GBemulator] is a Game Boy emulator written from scratch.
+- Other library updates:
+  - [bevy_mod_picking] released version 0.7 of their Bevy mouse
+    picking plugin.
+  - [bevy_mod_outline] is a Bevy plugin for drawing outlines around
+    meshes.
+  - [Bevy YOLECK] is a crate that allows Bevy games to be their own
+    level editor.
+  - [bevy_mod_raycast] released version 0.5 of their raycasting plugin.
+  - [taffy] is a cross-platform UI layout library.
+
+[Fires of Eschaton]: https://twitter.com/FiresOfEschaton/status/1534119771045826567
+[Idu]: https://twitter.com/epcc10/status/1532889644165120001
+[Combine and Conquer]: https://buckmartin.de/combine-and-conquer/2022-06-16-sound.html
+[Fish Folly]: https://www.reddit.com/r/rust_gamedev/comments/vi5jok/media_fish_folly_a_fyrox_showcase_game_inspired/
+[Punchy]: https://twitter.com/spicylobsterfam/status/1540105977810255872
+[Fish Fight]: https://fishfight.org/
+[Jungle Chess]: https://www.reddit.com/r/rust_gamedev/comments/v3btkk/browser_jungle_chess_with_rust_wasm/
+[Croquet]: https://twitter.com/gocroquet/status/1531336194725797889
+[Bevy City]: https://mungbungo.itch.io/bevy-city
+[Measure Once]: https://robtfm.github.io/measure_once/
+[Galactic Mess]: https://www.youtube.com/watch?v=DO8vwehkr38
+[Rustacean Station]: https://rustacean-station.org/episode/emil-ernerfeldt/
+[Rusteroids]: https://www.youtube.com/playlist?list=PLFOS-Gn3aXROnSfl26esPExssd-rQw6jD
+[NVIDIA GPU Profiling with Rust]: https://simbleau.github.io/blog/gpu-profiling-with-rust/
+[Practical Programming with Dr. Xu]: https://www.reddit.com/r/rust/comments/vmpjcr/rust_wgpu_graphics_programming_tutorial_youtube/
+[Anthropic Studios]: https://www.youtube.com/watch?v=H0sIsrLWojs
+[Lyrapuff]: https://www.youtube.com/watch?v=_PNiRGIAfY4
+[pufferfish]: https://github.com/pufferfish-rs/pufferfish
+[GBemulator]: https://github.com/p4ddy1/gbemulator
+[bevy_mod_picking]: https://github.com/aevyrie/bevy_mod_picking/releases/tag/v0.7.0
+[bevy_mod_outline]: https://github.com/komadori/bevy_mod_outline
+[Bevy YOLECK]: https://github.com/idanarye/bevy-yoleck
+[bevy_mod_raycast]: https://github.com/aevyrie/bevy_mod_raycast/releases/tag/v0.5
+[taffy]: https://github.com/DioxusLabs/taffy
 
 ## Discussions
 
