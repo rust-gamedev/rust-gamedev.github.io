@@ -853,7 +853,7 @@ the [demo video of 100k birds][bevy-smud-birds]
 [System Fault]: https://www.lightsout.games/news/system-fault-early-access
 [Lantern]: https://qatoqat.itch.io/lantern
 [Fish Fight]: https://spicylobster.itch.io/fishfight/devlog/332434/fish-fights-past-present-and-future
-[Starframe]: https://moletrooper.me/blog/starframe-ropes/
+[Starframe]: https://molentum.me/blog/starframe-ropes/
 [Cake Thieves]: https://play.google.com/store/apps/details?id=com.GeTech.CakeThieves
 [Idu]: https://twitter.com/logicsoup/status/1487924659693703169
 [Sugarcane]: https://gitlab.com/macmv/sugarcane

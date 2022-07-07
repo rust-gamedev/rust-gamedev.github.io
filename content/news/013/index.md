@@ -1104,7 +1104,7 @@ _Discussions:
 
 ![Current state of starframe graphics and physics](starframe-demo.gif)
 
-[starframe] by [@moletrooper] is a work-in-progress 2D game engine
+[starframe] by [@molentum] is a work-in-progress 2D game engine
 for physics-y sidescrolling games. This month it received
 [an experimental graph-based entity system][sf-graph-post].
 
@@ -1113,11 +1113,11 @@ generalized constraints, which will enable things like friction and joints.
 
 _Discussions:
 [/r/rust](https://www.reddit.com/r/rust/comments/iju3xq/starframe_devlog_architecture_ecs_graph/),
-[twitter](https://twitter.com/moletrooper/status/1300034941816897542)_
+[twitter](https://twitter.com/molentum_/status/1300034941816897542)_
 
-[starframe]: https://github.com/moletrooper/starframe
-[@moletrooper]: https://twitter.com/moletrooper
-[sf-graph-post]: https://moletrooper.github.io/blog/2020/08/starframe-1-architecture/
+[starframe]: https://github.com/m0lentum/starframe
+[@molentum]: https://twitter.com/molentum_
+[sf-graph-post]: https://molentum.me/blog/starframe-architecture/
 
 ### [mochi]
 
