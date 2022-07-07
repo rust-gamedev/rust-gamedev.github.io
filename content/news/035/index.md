@@ -150,7 +150,7 @@ The Rusty Jam will be back, so stay tuned on
 
 ### RustConf Arcade Cabinet
 
-![arcade cabinet](arcade_cabinet.png)
+![arcade cabinet](arcade_cabinet.jpg)
 
 [Carlo][carlosupina] is building a custom arcade cabinet that will be at
 RustConf 2022 in Portland. It is an opportunity for Rust game developers to
