@@ -455,6 +455,23 @@ the macroquad site.
 [miniquad]: https://github.com/not-fl3/miniquad/
 [miniquad-java]: https://macroquad.rs/articles/java/
 
+### [Chimera Rancher][chimera-rancher]
+
+![Chimera Rancher cover art](chimera_rancher.png)
+
+[Chimera Rancher][chimera-rancher] is a game where you must defend your ranch
+from an angry hoard of villagers with the help of your chimera friends!
+
+Submitted as part of [Rusty jam #2][rusty-jam] by [cdsupina][cdsupina],
+[Nightly Side][nightlyside], [hedgein][hedgein], and [tigleym][tigleym]. This
+game was developed using the [bevy] game engine.
+
+[chimera-rancher]: https://nightlyside.itch.io/chimera-rancher
+[cdsupina]: https://cdsupina.itch.io/
+[tigleym]: https://tigleym.itch.io/
+[hedgein]: https://hedgein.itch.io/
+[nightlyside]: https://nightlyside.itch.io/
+
 ## Learning Material Updates
 
 ### [Brontefy Me Devlog #3][hedgein-devlog-3]
