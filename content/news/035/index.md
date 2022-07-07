@@ -565,6 +565,18 @@ and share your creations with #MadeWithGraphite on Twitter.
 [graphite-sprint]: https://github.com/GraphiteEditor/Graphite/milestone/16
 [graphite-live-demo]: https://editor.graphite.rs
 
+### [Game name]
+
+![quad-gif screenshot](quad-gif.png)
+
+[quad-gif] by [@ollej] is a tiny library that can be used in a Macroquad game
+to show a looping GIF animation. It also includes a small example binary that
+displays a GIF in the middle of a window. The library can also be used as a
+simple way to make an animation from a list of textures.
+
+[quad-gif]: https://github.com/ollej/quad-gif
+[@ollej]: https://twitter.com/ollej
+
 ## Library Updates
 
 ### [psf2]
