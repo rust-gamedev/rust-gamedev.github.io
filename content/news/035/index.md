@@ -387,6 +387,23 @@ The game is built on the [Emerald Game Engine].
 [Gemdrop Games]: https://twitter.com/GemdropGames
 [Emerald Game Engine]: https://github.com/Bombfuse/emerald
 
+### [Chimera Rancher][chimera-rancher]
+
+![Chimera Rancher cover art](chimera_rancher.png)
+
+[Chimera Rancher][chimera-rancher] is a game where you must defend your ranch
+from an angry hoard of villagers with the help of your chimera friends!
+
+Submitted as part of [Rusty jam #2][rusty-jam] by [cdsupina][cdsupina],
+[Nightly Side][nightlyside], [hedgein][hedgein], and [tigleym][tigleym]. This
+game was developed using the [bevy] game engine.
+
+[chimera-rancher]: https://nightlyside.itch.io/chimera-rancher
+[cdsupina]: https://cdsupina.itch.io/
+[tigleym]: https://tigleym.itch.io/
+[hedgein]: https://hedgein.itch.io/
+[nightlyside]: https://nightlyside.itch.io/
+
 ## Engine Updates
 
 ### [ggez] 0.8.0-rc0
@@ -474,23 +491,6 @@ the macroquad site.
 
 [miniquad]: https://github.com/not-fl3/miniquad/
 [miniquad-java]: https://macroquad.rs/articles/java/
-
-### [Chimera Rancher][chimera-rancher]
-
-![Chimera Rancher cover art](chimera_rancher.png)
-
-[Chimera Rancher][chimera-rancher] is a game where you must defend your ranch
-from an angry hoard of villagers with the help of your chimera friends!
-
-Submitted as part of [Rusty jam #2][rusty-jam] by [cdsupina][cdsupina],
-[Nightly Side][nightlyside], [hedgein][hedgein], and [tigleym][tigleym]. This
-game was developed using the [bevy] game engine.
-
-[chimera-rancher]: https://nightlyside.itch.io/chimera-rancher
-[cdsupina]: https://cdsupina.itch.io/
-[tigleym]: https://tigleym.itch.io/
-[hedgein]: https://hedgein.itch.io/
-[nightlyside]: https://nightlyside.itch.io/
 
 ## Learning Material Updates
 
@@ -602,7 +602,7 @@ and share your creations with #MadeWithGraphite on Twitter.
 [graphite-sprint]: https://github.com/GraphiteEditor/Graphite/milestone/16
 [graphite-live-demo]: https://editor.graphite.rs
 
-### [Game name]
+### [quad-gif]
 
 ![quad-gif screenshot](quad-gif.png)
 
@@ -744,7 +744,6 @@ a new feature to export texture [to png] easily.
 - Other engine updates:
   - [pufferfish] is a new, opinionated 2D game framework.
 - Other tooling updates:
-  - [quad-gif] is a GIF viewer, built with Macroquad.
   - [GBemulator] is a Game Boy emulator written from scratch.
 - Other library updates:
   - [bevy_mod_picking] released version 0.7 of their Bevy mouse
@@ -774,7 +773,6 @@ a new feature to export texture [to png] easily.
 [Anthropic Studios]: https://www.youtube.com/watch?v=H0sIsrLWojs
 [Lyrapuff]: https://www.youtube.com/watch?v=_PNiRGIAfY4
 [pufferfish]: https://github.com/pufferfish-rs/pufferfish
-[quad-gif]: https://github.com/ollej/quad-gif
 [GBemulator]: https://github.com/p4ddy1/gbemulator
 [bevy_mod_picking]: https://github.com/aevyrie/bevy_mod_picking/releases/tag/v0.7.0
 [bevy_mod_outline]: https://github.com/komadori/bevy_mod_outline
