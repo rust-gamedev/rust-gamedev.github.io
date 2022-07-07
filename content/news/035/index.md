@@ -148,6 +148,27 @@ The Rusty Jam will be back, so stay tuned on
 [rusty-jam-place-2]: https://ramirezmike2.itch.io/a-walk-around-the-block
 [rusty-jam-place-3]: https://logicprojects.itch.io/fight-for-the-frontier
 
+### RustConf Arcade Cabinet
+
+![arcade cabinet](arcade_cabinet.jpg)
+
+[Carlo][carlosupina] is building a custom arcade cabinet that will be at
+RustConf 2022 in Portland. It is an opportunity for Rust game developers to
+share their games with the broader community. If you are interested in getting
+your game on the cabinet, read [this Twitter thread][arcade-cabinet-thread] and
+fill out the [interest form][arcade-interest-form].
+The arcade cabinet has been assembled and painted. He is currently in the process
+of helping developers get their games playable on the machine. If you have a Bevy
+game, you can use the [bevy-rust-arcade crate][bevy-rust-arcade] to quickly get
+your game compatible. Deadline is the end of July!
+You can find the latest update [here][arcade-cabinet-update-thread].
+
+[carlosupina]: https://twitter.com/carlosupina
+[arcade-cabinet-thread]: https://twitter.com/carlosupina/status/1523715837726961664
+[arcade-cabinet-update-thread]: https://twitter.com/carlosupina/status/1539032439284240386
+[arcade-interest-form]: https://forms.gle/onFm5fCygdbiArqJ7
+[bevy-rust-arcade]: https://crates.io/crates/bevy-rust-arcade
+
 ## Game Updates
 
 ### [Hydrofoil Generation]
