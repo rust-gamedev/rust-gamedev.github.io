@@ -4,7 +4,7 @@
 _over a thousand balls were rained on us, but were handled smoothly by server/clients_
 
 [CyberGate] ([https://discord.gg/R7DkHqw7zJ] [https://www.youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q]) by [@CyberSoul#1991K]
-is... {a new project that aims to be a procedurally generated Multiplayer RPG. CyberGate is the name of the main world where quantum portals can be created and used to access a new universe.  }.
+is... {a new multiplayer project that aims at procedurally generating destinct universes and gameplay experiences. CyberGate is the name of the main world where universes can be created and accessed by quantum portals.  }.
 
 Major Features:
 - Bandwidth became 16 times smaller by implementing entity prioritization + other techniques 
