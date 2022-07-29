@@ -16,4 +16,4 @@ Major Features:
 
 _Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/vy7vms/multiplayer_stress_test_1_million_balls/)_
 
-[CyberGate]: https://discord.gg/R7DkHqw7zJ (Join to participate in tests)
+[CyberGate]: Join our discord to participate in tests: https://discord.gg/R7DkHqw7zJ 
