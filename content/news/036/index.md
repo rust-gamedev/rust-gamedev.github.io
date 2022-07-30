@@ -98,8 +98,8 @@ Some of the new features include:
 - Reworked Look & Feel
 
 A talk about Blackjack's vision and a tour of its features was shared at the
-start of July in the [Rust gamedev meetup](blackjack-talk-yt). Interested
-developers are encouraged to [check the project out on GitHub](Blackjack) and
+start of July in the [Rust gamedev meetup][blackjack-talk-yt]. Interested
+developers are encouraged to [check the project out on GitHub][Blackjack] and
 post on the Discussion boards!
 
 [Blackjack]: https://github.com/setzer22/blackjack
