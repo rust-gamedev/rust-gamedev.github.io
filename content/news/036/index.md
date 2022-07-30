@@ -87,6 +87,7 @@ engines.
 
 Lyon made its symbolic [`1.0.0` release](https://crates.io/crates/lyon/1.0.0)
 reflecting the stability of the project. Highlights in this release include:
+
 - Initial support for variable line width in the stroke tessellator.
 - An efficient algorithm to query positions at given distances along a path.
 - Improved support for specifying custom endpoint attributes in paths and algorithms.
