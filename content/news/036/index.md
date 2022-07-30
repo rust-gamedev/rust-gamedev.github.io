@@ -76,6 +76,21 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library Updates
 
+### [hecs]
+
+[hecs] is a fast, lightweight, and unopinionated archetypal ECS library.
+
+[Version 0.8](hecs-changelog) marks a breaking change to most methods that
+previously took a generic type parameter `T: Component`, replacing them with
+methods taking type parameters which must be *references to* component types
+instead. This resolves a long-standing footgun where users accustomed to writing
+`&T` in queries might write `world.get::<&T>`, interpreted by rustc as
+referencing the valid component type `&'static T`, resulting in code that
+compiles but fails to access the intended component.
+
+[hecs]: https://github.com/Ralith/hecs
+[hecs-changelog]: https://github.com/Ralith/hecs/blob/master/CHANGELOG.md#080
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
