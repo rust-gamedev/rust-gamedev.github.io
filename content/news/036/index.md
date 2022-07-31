@@ -72,6 +72,10 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Learning Material Updates
 
+### Pathfinding in Rust:
+
+[Pathfinding in Rust: A tutorial with examples](https://blog.logrocket.com/pathfinding-rust-tutorial-examples) is an article with examples of how to use the [`pathfinding`](https://crates.io/crates/pathfinding) crate to do breadth-first, Dijkstra's, and A* search. It links to the [gregstoll/rust-pathfinding](https://github.com/gregstoll/rust-pathfinding) repo which has working code for all of these.
+
 ## Tooling Updates
 
 ### [Blackjack]
