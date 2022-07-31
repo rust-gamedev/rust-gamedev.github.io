@@ -74,6 +74,22 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Tooling Updates
 
+### [NES Bundler]
+
+![NES Bundler running Data Man with GUI showing](nes_bundler_in_action.png)
+_NES Bundler in action_
+
+[NES Bundler] (https://github.com/tedsteen/nes-bundler) by [@tedsteen].  
+Did you make a NES-game but none of your friends own a Nintendo? Don't worry.  
+Put your ROM and configuration in NES Bundler and build an executable for Mac, Windows or Linux.  
+What you get is a single executable with
+- Simple UI for settings
+- Re-mappable Keyboard and Gamepad input (you bundle your default mappings).
+- Save/Restore state
+- Netplay!
+
+It's early days, but the key features are there and work is ongoing to make it more mature!
+
 ### [Blackjack]
 
 ![Blackjack: A procedural bridge being edited in real-time](blackjack.gif)
