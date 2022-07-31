@@ -3,7 +3,7 @@
 ![over a thousand balls were rained on us, but were handled smoothly by server/clients](entities.png)
 _over a thousand balls were rained on us, but were handled smoothly by server/clients_
 
-[CyberGate] ([https://discord.gg/R7DkHqw7zJ] [https://www.youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q]) by [@CyberSoul#1991K]
+[CyberGate] (https://www.youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q) by [@CyberSoul#1991K]
 is... {a new multiplayer project that aims at procedurally generating destinct universes and gameplay experiences. CyberGate is the name of the main world where universes can be created and accessed by quantum portals.  }.
 
 Major Features:
