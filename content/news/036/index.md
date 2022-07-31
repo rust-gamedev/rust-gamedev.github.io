@@ -80,7 +80,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 [hecs] is a fast, lightweight, and unopinionated archetypal ECS library.
 
-[Version 0.8](hecs-changelog) marks a breaking change to most methods that
+[Version 0.8][hecs-changelog] marks a breaking change to most methods that
 previously took a generic type parameter `T: Component`, replacing them with
 methods taking type parameters which must be *references to* component types
 instead. This resolves a long-standing footgun where users accustomed to writing
