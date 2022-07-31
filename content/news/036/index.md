@@ -68,6 +68,26 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### Flesh
+
+![flesh preview](flesh.gif)
+_3rd area_
+
+[Flesh] by [@im_oab] is a 2D-horizontal shmup game with hand-drawn animation and
+an organic/fleshy theme. It is implemented using [Tetra]. This month's updates
+include:
+
+- The game has BGM.
+- Support global leaderboard.
+- Integrate steam SDK using [steamworks] crate.
+- Add new enemy types for the 3rd area.
+- Add squeezing effect when the enemy gets hit.
+
+[Flesh]: https://store.steampowered.com/app/1660850/Flesh/
+[@im_oab]: https://twitter.com/im_oab
+[Tetra]: https://github.com/17cupsofcoffee/tetra
+[steamworks]: https://crates.io/crates/steamworks
+
 ## Engine Updates
 
 ## Learning Material Updates
