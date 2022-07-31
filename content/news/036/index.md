@@ -90,6 +90,58 @@ include:
 
 ## Engine Updates
 
+### [Bevy v0.8][bevy-blog]
+
+![bevy terrain](bevy_terrain.jpg)
+_Bevy-shaped mountains in a Bevy-based Witcher 3 terrain texturing tool built by
+rmemr_
+
+[Bevy][bevy] is a refreshingly simple data-driven game engine built in Rust. It
+is [free and open source][bevy-git] forever!
+
+Bevy 0.8 was a massive community effort. You can check out the [full release
+blog post here][bevy-blog], but here are some highlights:
+
+- [New Material System][bevy-materials]
+- [Camera-driven Rendering][bevy-camera]
+- [Built-in Shader Modularization][bevy-shader-mod]
+- [Spot Lights][bevy-spotlights]
+- [Visibility Inheritance][bevy-visibility]
+- [Upgraded to wgpu 0.13][bevy-wgpu]
+- [Automatic Mesh Tangent Generation][bevy-tangent]
+- [Renderer Optimizations][bevy-render-opt]
+- [Scene Bundle][bevy-scene]
+- [Scripting / Modding Progress][bevy-scripting]
+- [ECS Query Ergonomics and Usability][bevy-ecs-ergo]
+- [ECS Internals Refactors][bevy-refactors]
+- [Reflection Improvements][bevy-reflect]
+- [Hierarchy Commands][bevy-hierarchy]
+- [Bevy UI Now Uses Taffy][bevy-taffy]
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/wc0sqc/bevy_08/),
+[Hacker News](https://news.ycombinator.com/item?id=32287828),
+[Twitter](https://twitter.com/cart_cart/status/1553411157662187521)_
+
+[bevy]: https://bevyengine.org
+[bevy-git]: https://github.com/bevyengine/bevy
+[bevy-blog]: https://bevyengine.org/news/bevy-0-8
+[bevy-materials]: https://bevyengine.org/news/bevy-0-8/#new-material-system
+[bevy-camera]: https://bevyengine.org/news/bevy-0-8/#camera-driven-rendering
+[bevy-spotlights]: https://bevyengine.org/news/bevy-0-8/#spotlights
+[bevy-visibility]: https://bevyengine.org/news/bevy-0-8/#visibility-inheritance
+[bevy-shader-mod]: https://bevyengine.org/news/bevy-0-8/#built-in-shader-modularization
+[bevy-wgpu]: https://bevyengine.org/news/bevy-0-8/#wgpu-0-13-new-wgsl-shader-syntax
+[bevy-tangent]: https://bevyengine.org/news/bevy-0-8/#automatic-mesh-tangent-generation
+[bevy-render-opt]: https://bevyengine.org/news/bevy-0-8/#render-phase-sorting-optimization
+[bevy-scene]: https://bevyengine.org/news/bevy-0-8/#scene-bundle
+[bevy-scripting]: https://bevyengine.org/news/bevy-0-8/#scripting-modding-progress-untyped-ecs-apis
+[bevy-ecs-ergo]: https://bevyengine.org/news/bevy-0-8/#query-intoiter
+[bevy-refactors]: https://bevyengine.org/news/bevy-0-8/#ecs-lifetimed-pointers
+[bevy-reflect]: https://bevyengine.org/news/bevy-0-8/#bevy-reflection-improvements
+[bevy-hierarchy]: https://bevyengine.org/news/bevy-0-8/#hierarchy-commands
+[bevy-taffy]: https://bevyengine.org/news/bevy-0-8/#taffy-migration-a-refreshed-ui-layout-library
+
 ## Learning Material Updates
 
 ## Tooling Updates
