@@ -126,8 +126,8 @@ more suited for fast-paced games than TCP. Some other features are:
   - Block Reliable: for bigger messages, such as level initialization
 - Packet fragmentation and reassembly
 
-Renet comes with [bevy_renet] a plugin for the Bevy engine and also with
-[renet_visualizer] an egui interface to visualize network metrics.
+Renet comes with [bevy_renet], a plugin for the Bevy engine, and also with
+[renet_visualizer], an egui interface to visualize network metrics.
 
 [Renet]: https://github.com/lucaspoffo/renet
 [@lucaspoffo]: https://github.com/lucaspoffo
