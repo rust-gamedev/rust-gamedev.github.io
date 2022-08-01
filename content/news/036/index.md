@@ -88,6 +88,26 @@ include:
 [Tetra]: https://github.com/17cupsofcoffee/tetra
 [steamworks]: https://crates.io/crates/steamworks
 
+### Re-Rolling!
+
+![Re-rolling gameplay](re-rolling_gameplay.png)
+
+[Re-Rolling!] by [@mystalice](https://twitter.com/mystalice) is a top-down 2D
+survival shooter where you fight off a horde of rats using weapons you randomly
+rolled.
+
+The game was created for [GMTK Jam 2022][rr_gmtk2022] in 48 hours and was
+heavily inspired by [20 Minutes Till Dawn][rr_20minutes].
+
+Re-Rolling! was made with Bevy using heron for physics, bevy_egui for in-game
+UI, and a handful of other helpful crates and plugins. You can browse the source
+on [GitHub][rr_github].
+
+[Re-Rolling!]: https://mystal.itch.io/re-rolling
+[rr_gmtk2022]: https://itch.io/jam/gmtk-jam-2022
+[rr_20minutes]: https://store.steampowered.com/app/1966900/20_Minutes_Till_Dawn/
+[rr_github]: https://github.com/mystal/re-rolling
+
 ## Engine Updates
 
 ## Learning Material Updates
