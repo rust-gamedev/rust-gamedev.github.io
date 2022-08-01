@@ -90,6 +90,39 @@ include:
 
 ## Engine Updates
 
+### [Dims][dims-website]
+
+![Concept art of a player creating a world in Dims](dims-concept-art.jpg)
+
+[Dims][dims-website] ([Twitter][dims-twitter], [Discord][dims-discord],
+[YouTube][dims-youtube]) is a pre-alpha collaborative open-world
+creation platform.
+Users can hop in sessions and build a game together, allowing everyone
+to bring out their inner game-maker.
+
+In July, development continued to make great strides. Some of the highlights
+include:
+
+- Continued work on the audio system, including in-game graphs of attenuation
+  and other audio-related functions
+- The introduction of an intent system that allows for user actions to be
+  undone and replayed arbitrarily
+- A complete UI facelift using Material UI icons and a new design language
+- A new scripting system using WebAssembly + WASI and Rust as a guest language
+  (look forward to an article on this soon!)
+- The beginnings of a shared asset database that lets you and your team easily
+  share assets amongst each other and with other projects
+- Various infrastructural and rendering fixes, including more accurate PBR
+
+Want to try Dims out for yourself? Come join the [Discord][dims-discord] to be
+notified of future public tests, see the latest features before everyone else,
+and to talk to the devs personally.
+
+[dims-website]: https://dims.co
+[dims-twitter]: https://twitter.com/DimsWorlds
+[dims-discord]: https://discord.gg/Z5CAVmNE57
+[dims-youtube]: https://youtube.com/channel/UCR5gOwS7uSl0a0dl7MLQoqg
+
 ## Learning Material Updates
 
 ## Tooling Updates
