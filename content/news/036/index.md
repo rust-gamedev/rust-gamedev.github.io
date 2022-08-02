@@ -90,6 +90,36 @@ include:
 
 ## Engine Updates
 
+### [godot-rust][gd-github]
+
+![godot-rust logo](godot-rust.png)
+
+godot-rust ([GitHub][gd-github], [Discord][gd-discord], [Twitter][gd-twitter])
+is a Rust library that provides bindings for the Godot game engine.
+
+The last few months have been a bit quieter around godot-rust. A lot of this
+can be attributed to developers exploring the [GDExtension API][gd-gdext], the
+successor of GDNative for Godot 4. At this point, a lot of the foundation is
+still being built, however some more concrete plans are outlined in
+[#824][gd-824]. Further updates will be posted in that issue or on Twitter.
+
+Nevertheless, several improvements have been integrated to godot-rust since
+0.10, with [version 0.10.1 on the horizon][gd-907]. Some notable examples:
+
+- GDScript utility functions like `lerp`, `ease` or `linear2db` ([#901][gd-901])
+- Property support for standard collection types ([#883][gd-883])
+- Methods for `Rect2` and `Aabb` ([#867][gd-867])
+
+[gd-824]: https://github.com/godot-rust/godot-rust/issues/824
+[gd-883]: https://github.com/godot-rust/godot-rust/issues/883
+[gd-867]: https://github.com/godot-rust/godot-rust/issues/867
+[gd-901]: https://github.com/godot-rust/godot-rust/issues/901
+[gd-907]: https://github.com/godot-rust/godot-rust/issues/907
+[gd-github]: https://github.com/godot-rust/godot-rust
+[gd-discord]: https://discord.com/invite/FNudpBD
+[gd-twitter]: https://twitter.com/GodotRust
+[gd-gdext]: https://godotengine.org/article/introducing-gd-extensions
+
 ## Learning Material Updates
 
 ## Tooling Updates
