@@ -90,7 +90,7 @@ include:
 
 ### Agma
 
-![moving around](./moving_around.gif=100x20)
+![moving around](./moving_around.gif)
 _Moving Around_
 
 [Agma] by [@TuckerBMorgan] is a 3D game built in the [Storm Engine] that is based
