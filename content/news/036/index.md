@@ -77,7 +77,8 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ![vertex shaders example](creating-mountains-from-planes-with-vertex-shaders-and-bevy.png)
 _Creating mountains from planes with vertex shaders and Bevy_
 
-[@chrisbiscardi] published a [video][Creating mountains from planes with vertex shaders and Bevy]
+[@chrisbiscardi] published a
+[video][Creating mountains from planes with vertex shaders and Bevy]
 about using the new Material shader APIs in Bevy 0.8 to transform the
 vertex positions in a custom mesh plane using a vertex shader.
 
