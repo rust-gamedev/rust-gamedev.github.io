@@ -152,7 +152,7 @@ Inspired by [this excellent video](https://www.youtube.com/watch?v=qdskE8PJy6Q),
 it is implemented on top of [Rapier physics](https://rapier.rs/) and highly
 customizable. Wanderlust includes a variety of settings to target many different
 character controller types, including 2D/3D platformers, spacecraft, and
-first/third person games. 
+first/third person games.
 
 [bevy_mod_wanderlust]: https://crates.io/crates/bevy_mod_wanderlust
 
