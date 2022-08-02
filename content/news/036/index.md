@@ -91,9 +91,9 @@ _Discussions: [Twitter](https://twitter.com/chrisbiscardi/status/154908959997193
 ![vertex shaders example](creating-mountains-from-planes-with-vertex-shaders-and-bevy.png)
 _What's in a wgsl fragment shader? ft Bevy_
 
-[@chrisbiscardi] published a [video][What's in a wgsl fragment shader? ft Bevy] 
-that introduces the new Material APIs in Bevy 0.8. It covers AsBindGroup, 
-uniforms, and using Perlin Noise in a fragment shader to render different 
+[@chrisbiscardi] published a [video][What's in a wgsl fragment shader? ft Bevy]
+that introduces the new Material APIs in Bevy 0.8. It covers AsBindGroup,
+uniforms, and using Perlin Noise in a fragment shader to render different
 colors onto a cube in a variety of ways.
 
 _Discussions: [Twitter](https://twitter.com/chrisbiscardi/status/1546909993726726144)_
