@@ -99,10 +99,10 @@ include:
 [Rusteroids][rusteroids-github] is a tutorial recreating a clone of Asteroids
 in Rust, using SDL2 and the [Specs][rust-specs-crate] library.
 
-New episodes are released weekly and added to the playlist. The most 
-recent video shows how to safely create global state to store global values, 
-such as the high score. The most recent code has been released for Windows, on [Itch.io] 
-(with other platforms coming soon).
+New episodes are released weekly and added to the playlist. The most
+recent video shows how to safely create global state to store global values,
+such as the high score. The most recent code has been released for Windows, on 
+[Itch.io][itch-io] (with other platforms coming soon).
 
 You can subscribe to the [YouTube Channel][electrocat-youtube],
 to never miss an episode, or follow [@ecatstudios][ecatstudios-twitter] on
