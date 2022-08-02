@@ -88,7 +88,7 @@ include:
 [Tetra]: https://github.com/17cupsofcoffee/tetra
 [steamworks]: https://crates.io/crates/steamworks
 
-### [CyberGate]
+### [CyberGate][cybergate-yt]
 
 ![hundreds of colliding colored balls in the air](entities.png)
 _The server and clients are able to smoothly handle
