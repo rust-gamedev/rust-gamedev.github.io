@@ -77,9 +77,9 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ![vertex shaders example](creating-mountains-from-planes-with-vertex-shaders-and-bevy.png)
 _Creating mountains from planes with vertex shaders and Bevy_
 
-[@chrisbiscardi] published a [video][Creating mountains from planes with vertex shaders and Bevy] about 
-using the new Material shader APIs in Bevy 0.8 to transform the vertex 
-positions in a custom mesh plane using a vertex shader.
+[@chrisbiscardi] published a [video][Creating mountains from planes with vertex shaders and Bevy]
+about using the new Material shader APIs in Bevy 0.8 to transform the
+vertex positions in a custom mesh plane using a vertex shader.
 
 _Discussions: [Twitter](https://twitter.com/chrisbiscardi/status/1549089599971938304)_
 
@@ -95,7 +95,6 @@ _What's in a wgsl fragment shader? ft Bevy_
 that introduces the new Material APIs in Bevy 0.8. It covers AsBindGroup, 
 uniforms, and using Perlin Noise in a fragment shader to render different 
 colors onto a cube in a variety of ways.
-
 
 _Discussions: [Twitter](https://twitter.com/chrisbiscardi/status/1546909993726726144)_
 
