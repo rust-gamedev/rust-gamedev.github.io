@@ -92,6 +92,29 @@ include:
 
 ## Learning Material Updates
 
+### [Sand Fall With Compute Shaders in Rust]
+
+![sandfall_8k](./draw_sand.gif)
+_Drawing Sand_
+
+[@hakolao](https://github.com/hakolao) published a
+[tutorial](https://www.okkohakola.com/posts/sandfall_tutorial/) about creating
+[cellular automata](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
+sand fall simulations with compute shaders.
+
+Typically, cellular automata sand fall is done with the CPU due to the two way
+relationship between the cells on a grid. This article shows a way to tackle
+sand fall creation using compute shaders to achieve massive parallelism.
+
+Additional to compute shaders, this tutorial is a great introduction to the
+[Vulkano](https://github.com/vulkano-rs/vulkano) library. It also works as a
+good base for learning how to create simple graphics pipelines. You will also
+get to use Bevy and Egui.
+
+Discussion: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/vmynrq/sand_fall_with_compute_shaders_in_rust/)
+
+[sand fall with compute shaders in rust]: https://www.okkohakola.com/posts/sandfall_tutorial/
+
 ## Tooling Updates
 
 ### [Blackjack]
