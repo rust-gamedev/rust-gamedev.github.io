@@ -95,7 +95,7 @@ _The server and clients are able to smoothly handle
 over a thousand balls rained from above_
 
 CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]) by CyberSoul
-is a new multiplayer project that aims at procedurally generating destinct
+is a new multiplayer project that aims at procedurally generating distinct
 universes and gameplay experiences. CyberGate is the name of the main world
 where universes can be created and accessed by quantum portals.
 
@@ -108,7 +108,7 @@ Recent updates:
 - Many other features and optimizations to do with rapier 3d physics,
   wgpu renderer and quinn (quic) protocol.
 
-Please, [join our Discord server][cybergate-dis] to participate in tests.
+[Join the Discord server][cybergate-dis] to participate in tests.
 
 _Discussions: [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/vy7vms/multiplayer_stress_test_1_million_balls)_
 
