@@ -68,6 +68,42 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Way of Rhea][wor]
+
+[![way of rhea capsule image](wor-capsule.jpg)][wor]
+
+[Way of Rhea][wor] is a puzzle adventure with hard puzzles and forgiving
+mechanics being produced by [@masonremaley][wor-mason-remaley] in a custom Rust
+engine. You can support development by
+[checking out the free demo and wishlisting on Steam][wor]!
+
+Way of Rhea was selected to be part of [PAX Rising online][wor-pax-rising]! It
+was also shown off in the June [Steam Game Festival][wor-steam-game-fest].
+Other recent updates:
+
+- Kotaku mentioned Way of Rhea in an article about
+  [fascinating upcoming indie games][wor-kotaku]
+- [Lost In Cult][wor-lic], a gaming journal, announced [preorders][wor-lic-pre] for
+  a new edition of Lock On containing a card game containing a card with a character
+  from Way of Rhea featured
+- Work has begun on puzzles for the final level of the game. This area combines the
+  puzzle elements from all previous biomes for a final set of challenging puzzles.
+- A weather system with [rain][wor-rain] and [snow][wor-snow] was added to the game
+- More progress was made on the unreleased Linux platform layer
+- More wildlife was added to the game
+- Some logging and editor improvements were made
+
+[wor]: https://store.steampowered.com/app/1110620/Way_of_Rhea/?utm_campaign=tmirgd&utm_source=n36
+[wor-pax-rising]: https://store.steampowered.com/sale/PAXRisingOnline
+[wor-steam-game-fest]: https://store.steampowered.com/sale/nextfest_june2022
+[wor-kotaku]: https://kotaku.com/steam-indie-games-pc-wishlist-arctic-awakening-1849140770
+[wor-mason-remaley]: https://twitter.com/masonremaley
+[wor-forum]: https://steamcommunity.com/app/1110620/discussions/0/3275817732933009791/
+[wor-rain]: https://twitter.com/AnthropicSt/status/1546207348259266560
+[wor-snow]: https://twitter.com/AnthropicSt/status/1546320074923024384
+[wor-lic]: https://www.lostincult.co.uk/
+[wor-lic-pre]: https://www.lostincult.co.uk/?aff=18
+
 ### Flesh
 
 ![flesh preview](flesh.gif)
