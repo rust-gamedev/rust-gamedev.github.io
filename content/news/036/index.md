@@ -86,6 +86,8 @@ Other recent updates:
 - [Lost In Cult][wor-lic], a gaming journal, announced [preorders][wor-lic-pre] for
   a new edition of Lock On containing a card game containing a card with a character
   from Way of Rhea featured
+- Mason posted a video interview covering [why he became an indie dev][wor-interview],
+  among other things
 - Work has begun on puzzles for the final level of the game. This area combines the
   puzzle elements from all previous biomes for a final set of challenging puzzles.
 - A weather system with [rain][wor-rain] and [snow][wor-snow] was added to the game
@@ -103,6 +105,7 @@ Other recent updates:
 [wor-snow]: https://twitter.com/AnthropicSt/status/1546320074923024384
 [wor-lic]: https://www.lostincult.co.uk/
 [wor-lic-pre]: https://www.lostincult.co.uk/?aff=18
+[wor-interview]: https://youtu.be/H0sIsrLWojs
 
 ### Flesh
 
