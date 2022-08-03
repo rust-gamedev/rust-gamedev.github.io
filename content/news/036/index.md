@@ -117,7 +117,7 @@ _Discussions: [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/vy7vm
 
 ### [Simon Arcade]
 
-![Simon arcade gameplay with arrows and buttons flashing in different colors](simon.mp4)
+![Simon arcade gameplay with arrows and buttons flashing in different colors](simon.gif)
 _a Simon Arcade gameplay with cheats enabled_
 
 Based on [Simon (Original)], made with [Bevy], the goal of this game is to push buttons in the correct order, in an ever-increasing sequence.
