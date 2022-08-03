@@ -117,15 +117,18 @@ _Discussions: [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/vy7vm
 
 ### [Simon Arcade]
 
-![Simon arcade gameplay with arrows and buttons flashing in different colors](simon.gif)
+![Simon arcade gameplay with arrows and buttons in different colors](simon.gif)
 _a Simon Arcade gameplay with cheats enabled_
 
-Based on [Simon (Original)], made with [Bevy], the goal of this game is to push buttons in the correct order, in an ever-increasing sequence.
+Based on [Simon (Original)], made with [Bevy],
+the goal of this game is to push buttons in the correct order,
+in an ever-increasing sequence.
 
-This game was made to fit with the [Rust Arcade Cabinet] and will be available at [RustConf Portland] on August 5th 2022.
+This game was made to fit with the [Rust Arcade Cabinet]
+and will be available at [RustConf Portland] on August 5th 2022.
 
 [Simon Arcade]: https://github.com/Vrixyz/simon
-[Simon (Original)]: https://en.wikipedia.org/wiki/Simon_(game) "Simon's game original"
+[Simon (Original)]: https://en.wikipedia.org/wiki/Simon_(game)
 [Rust Arcade Cabinet]: https://github.com/rust-arcade/bevy-rust-arcade
 [RustConf Portland]: https://rustconf.com
 [Bevy]: https://bevyengine.org/
