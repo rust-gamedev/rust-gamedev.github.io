@@ -134,8 +134,8 @@ where the GLSL shader language is replaced by WGSL. It already comes
 with a dozen examples and plenty more to go. Feel free to add your own
 shaders to the list!
 
-Plus, you can now migrate your shaders from GLSL to WGSL using [GLSL2WGSL], a
-translator tool that should help you with the vast majority of the code.
+Plus, [GLSL2WGSL] is a new translator tool that should help migrate the
+vast majority of GLSL code to WGSL.
 
 The above GIF showcases the new additions to the examples for
 [bevy_shadertoy_wgsl]: two shaders originally written in [Shadertoy] by
