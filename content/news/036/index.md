@@ -113,7 +113,7 @@ Some of the new features include:
 - A better data model for meshes, based on groups and channels.
 - Game engine integration with Godot, more engines coming soon.
 - Introduce Lua as an extension language.
-- Add *many* new nodes: Extrude along curve, Copy to points...
+- Add _many_ new nodes: Extrude along curve, Copy to points...
 - Add experimental support for L-Systems.
 - Reworked Look & Feel
 
@@ -125,6 +125,29 @@ post on the Discussion boards!
 [Blackjack]: https://github.com/setzer22/blackjack
 [blackjack-talk-yt]: https://onrendering.com/data/papers/catmark/HalfedgeCatmullClark.pdf
 
+### [bevy_shadertoy_wgsl] and [GLSL2WGSL]
+
+![Shaders courtesy of @leondenise.](shadertoy_wgsl_leon.gif)
+
+[bevy_shadertoy_wgsl] is a [Shadertoy] clone for the Bevy game engine,
+where the GLSL shader language is replaced by WGSL. It already comes
+with a dozen examples and plenty more to go. Feel free to add your own
+shaders to the list!
+
+Plus, you can now migrate your shaders from GLSL to WGSL using [GLSL2WGSL], a
+translator tool that should help you with the vast majority of the code.
+
+The above GIF showcases the new additions to the examples for
+[bevy_shadertoy_wgsl]: two shaders originally written in [Shadertoy] by
+[@leondenise], and translated to WGSL with the help of [GLSL2WGSL].
+The first part is a reproduction of Joe Gardner from the movie Soul,
+and the second part is a lightweight fluid shader.
+
+[bevy_shadertoy_wgsl]: https://github.com/eliotbo/bevy_shadertoy_wgsl
+[Shadertoy]: https://www.shadertoy.com
+[GLSL2WGSL]: https://eliotbo.github.io/glsl2wgsl/
+[@leondenise]: https://twitter.com/leondenise
+
 ## Library Updates
 
 ### [hecs]
@@ -133,7 +156,7 @@ post on the Discussion boards!
 
 [Version 0.8][hecs-changelog] marks a breaking change to most methods that
 previously took a generic type parameter `T: Component`, replacing them with
-methods taking type parameters which must be *references to* component types
+methods taking type parameters which must be _references to_ component types
 instead. This resolves a long-standing footgun where users accustomed to writing
 `&T` in queries might write `world.get::<&T>`, interpreted by rustc as
 referencing the valid component type `&'static T`, resulting in code that
