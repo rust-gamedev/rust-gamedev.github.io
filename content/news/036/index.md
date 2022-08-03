@@ -88,6 +88,23 @@ include:
 [Tetra]: https://github.com/17cupsofcoffee/tetra
 [steamworks]: https://crates.io/crates/steamworks
 
+### [Robo Instructus: 3 Years Old][robo-3]
+
+![game logo + OS logos](../024/robo-os.jpg)
+
+In 2019 the programming puzzler [Robo Instructus][robo-site] released on
+[Steam][robo-steam] & [itch.io][robo-itch].
+
+This month [Alex Butler][alex-butler] wrote ["Robo Instructus: 3 Years Old"][robo-3]
+about how well the game did in the last year & to date: Sales by
+platform/country/OS, player feedback, reviews & game updates.
+
+[robo-site]: https://www.roboinstruct.us
+[robo-steam]: https://store.steampowered.com/app/1032170/Robo_Instructus
+[robo-itch]: https://bigabgames.itch.io/robo-instructus
+[alex-butler]: https://twitter.com/bigabgames
+[robo-3]: https://blog.roboinstruct.us/2022/07/16/3-years-old.html
+
 ## Engine Updates
 
 ## Learning Material Updates
