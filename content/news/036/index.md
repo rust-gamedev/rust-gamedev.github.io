@@ -148,7 +148,7 @@ compiles but fails to access the intended component.
 _model courtesy of [Samuel Rosario], rendered in bevy_
 
 [bevy_fbx] is a pre-alpha library to load FBX (Autodesk Filmbox) files
-into the [bevy] game engine, based on [fbxcel-dom].
+into [bevy] 0.8, based on [fbxcel-dom].
 
 It currently:
 
@@ -156,10 +156,10 @@ It currently:
 - Loads mesh attributes such as color
 - Loads default material diffuse textures, normal maps and emissive maps
 - Loads the custom Maya PBR materials, including all material textures
+- Load the scene tree and translate it to bevy's hierarchy
 
 It will eventually:
 
-- Load the scene tree and translate it to bevy's hierarchy
 - Provide a basic Lambert/Phong shader to better handle more standard materials
 - Load skinned mesh skeletons and rigs
 - Load animations
