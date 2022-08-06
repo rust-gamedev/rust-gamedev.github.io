@@ -142,6 +142,20 @@ compiles but fails to access the intended component.
 [hecs]: https://github.com/Ralith/hecs
 [hecs-changelog]: https://github.com/Ralith/hecs/blob/master/CHANGELOG.md#080
 
+### [bevy_mod_wanderlust]
+
+[bevy_mod_wanderlust]
+([GitHub](https://github.com/PROMETHIA-27/bevy_mod_wanderlust)) by
+[@PROMETHIA-27] is a character controller plugin for Bevy engine.
+
+Inspired by [this excellent video](https://www.youtube.com/watch?v=qdskE8PJy6Q),
+it is implemented on top of [Rapier physics](https://rapier.rs/) and highly
+customizable. Wanderlust includes a variety of settings to target many different
+character controller types, including 2D/3D platformers, spacecraft, and
+first/third person games.
+
+[bevy_mod_wanderlust]: https://crates.io/crates/bevy_mod_wanderlust
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
