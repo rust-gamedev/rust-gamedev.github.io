@@ -88,6 +88,33 @@ include:
 [Tetra]: https://github.com/17cupsofcoffee/tetra
 [steamworks]: https://crates.io/crates/steamworks
 
+### [CyberGate][cybergate-yt]
+
+![hundreds of colliding colored balls in the air](entities.png)
+_The server and clients are able to smoothly handle
+over a thousand balls rained from above_
+
+CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]) by CyberSoul
+is a new multiplayer project that aims at procedurally generating distinct
+universes and gameplay experiences. CyberGate is the name of the main world
+where universes can be created and accessed by quantum portals.
+
+Recent updates:
+
+- Bandwidth became 16 times smaller by implementing entity prioritization
+  \+ other techniques.
+- Interpolation and Jitter prediction makes entities way smoother.
+- Automatic and Reliable Spawn and Despawn of entities.
+- Many other features and optimizations to do with rapier 3d physics,
+  wgpu renderer and quinn (quic) protocol.
+
+[Join the Discord server][cybergate-dis] to participate in tests.
+
+_Discussions: [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/vy7vms/multiplayer_stress_test_1_million_balls)_
+
+[cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
+[cybergate-dis]: https://discord.gg/R7DkHqw7zJ
+
 ## Engine Updates
 
 ## Learning Material Updates
