@@ -183,6 +183,28 @@ first/third person games.
 
 [bevy_mod_wanderlust]: https://crates.io/crates/bevy_mod_wanderlust
 
+### [Lyon]
+
+![Variable width stroke in action](lyon.png)
+
+[Lyon] ([GitHub](https://github.com/nical/lyon)) by [Nical](https://github.com/nical)
+is a collection of crates providing various 2D vector graphics utilities, including
+fast tessellation algorithms, easy to integrate in typical GPU accelerated rendering
+engines.
+
+Lyon made its symbolic [`1.0.0` release](https://crates.io/crates/lyon/1.0.0)
+reflecting the stability of the project. Highlights in this release include:
+
+- Initial support for variable line width in the stroke tessellator.
+- An efficient algorithm to query positions at given distances along a path.
+- Improved support for specifying custom endpoint attributes in paths and algorithms.
+- And more. You can read the [announcement blog post here](https://nical.github.io/posts/lyon-1-0.html).
+
+_Discussions: [/r/rust](https://reddit.com/r/rust/comments/vwdxim/announcing_lyon_100),
+[Twitter](https://twitter.com/nicalsilva/status/1546424285442473987?s=20&t=S1fXSoh2zWHbfTImCGYpPQ)_
+
+[Lyon]: https://github.com/nical/lyon
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
