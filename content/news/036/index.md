@@ -183,6 +183,27 @@ _Discussions: [Twitter](https://twitter.com/chrisbiscardi/status/154690999372672
 
 ## Tooling Updates
 
+### [NES Bundler][nes-bundler]
+
+![NES Bundler running Data Man with GUI showing](nes-bundler.png)
+_NES Bundler in action_
+
+[NES Bundler][nes-bundler] by [@tedsteen].
+Did you make a NES-game but none of your friends own a Nintendo? Don't worry.
+Put your ROM and configuration in NES Bundler and build an executable for Mac,
+Windows or Linux. What you get is a single executable with
+
+- Simple UI for settings
+- Re-mappable Keyboard and Gamepad input (you bundle your default mappings).
+- Save/Restore state
+- Netplay!
+
+It's early days, but the key features are there and work is ongoing
+to make it more mature!
+
+[nes-bundler]: https://github.com/tedsteen/nes-bundler
+[@tedsteen]: https://github.com/tedsteen
+
 ### [Blackjack]
 
 ![Blackjack: A procedural bridge being edited in real-time](blackjack.gif)
