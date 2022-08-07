@@ -68,6 +68,53 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### Flesh
+
+![flesh preview](flesh.gif)
+_3rd area_
+
+[Flesh] by [@im_oab] is a 2D-horizontal shmup game with hand-drawn animation and
+an organic/fleshy theme. It is implemented using [Tetra]. This month's updates
+include:
+
+- The game has BGM.
+- Support global leaderboard.
+- Integrate steam SDK using [steamworks] crate.
+- Add new enemy types for the 3rd area.
+- Add squeezing effect when the enemy gets hit.
+
+[Flesh]: https://store.steampowered.com/app/1660850/Flesh/
+[@im_oab]: https://twitter.com/im_oab
+[Tetra]: https://github.com/17cupsofcoffee/tetra
+[steamworks]: https://crates.io/crates/steamworks
+
+### [CyberGate][cybergate-yt]
+
+![hundreds of colliding colored balls in the air](entities.png)
+_The server and clients are able to smoothly handle
+over a thousand balls rained from above_
+
+CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]) by CyberSoul
+is a new multiplayer project that aims at procedurally generating distinct
+universes and gameplay experiences. CyberGate is the name of the main world
+where universes can be created and accessed by quantum portals.
+
+Recent updates:
+
+- Bandwidth became 16 times smaller by implementing entity prioritization
+  \+ other techniques.
+- Interpolation and Jitter prediction makes entities way smoother.
+- Automatic and Reliable Spawn and Despawn of entities.
+- Many other features and optimizations to do with rapier 3d physics,
+  wgpu renderer and quinn (quic) protocol.
+
+[Join the Discord server][cybergate-dis] to participate in tests.
+
+_Discussions: [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/vy7vms/multiplayer_stress_test_1_million_balls)_
+
+[cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
+[cybergate-dis]: https://discord.gg/R7DkHqw7zJ
+
 ## Engine Updates
 
 ## Learning Material Updates
@@ -106,6 +153,57 @@ post on the Discussion boards!
 [blackjack-talk-yt]: https://onrendering.com/data/papers/catmark/HalfedgeCatmullClark.pdf
 
 ## Library Updates
+
+### [hecs]
+
+[hecs] is a fast, lightweight, and unopinionated archetypal ECS library.
+
+[Version 0.8][hecs-changelog] marks a breaking change to most methods that
+previously took a generic type parameter `T: Component`, replacing them with
+methods taking type parameters which must be *references to* component types
+instead. This resolves a long-standing footgun where users accustomed to writing
+`&T` in queries might write `world.get::<&T>`, interpreted by rustc as
+referencing the valid component type `&'static T`, resulting in code that
+compiles but fails to access the intended component.
+
+[hecs]: https://github.com/Ralith/hecs
+[hecs-changelog]: https://github.com/Ralith/hecs/blob/master/CHANGELOG.md#080
+
+### [bevy_mod_wanderlust]
+
+[bevy_mod_wanderlust]
+([GitHub](https://github.com/PROMETHIA-27/bevy_mod_wanderlust)) by
+[@PROMETHIA-27] is a character controller plugin for Bevy engine.
+
+Inspired by [this excellent video](https://www.youtube.com/watch?v=qdskE8PJy6Q),
+it is implemented on top of [Rapier physics](https://rapier.rs/) and highly
+customizable. Wanderlust includes a variety of settings to target many different
+character controller types, including 2D/3D platformers, spacecraft, and
+first/third person games.
+
+[bevy_mod_wanderlust]: https://crates.io/crates/bevy_mod_wanderlust
+
+### [Lyon]
+
+![Variable width stroke in action](lyon.png)
+
+[Lyon] ([GitHub](https://github.com/nical/lyon)) by [Nical](https://github.com/nical)
+is a collection of crates providing various 2D vector graphics utilities, including
+fast tessellation algorithms, easy to integrate in typical GPU accelerated rendering
+engines.
+
+Lyon made its symbolic [`1.0.0` release](https://crates.io/crates/lyon/1.0.0)
+reflecting the stability of the project. Highlights in this release include:
+
+- Initial support for variable line width in the stroke tessellator.
+- An efficient algorithm to query positions at given distances along a path.
+- Improved support for specifying custom endpoint attributes in paths and algorithms.
+- And more. You can read the [announcement blog post here](https://nical.github.io/posts/lyon-1-0.html).
+
+_Discussions: [/r/rust](https://reddit.com/r/rust/comments/vwdxim/announcing_lyon_100),
+[Twitter](https://twitter.com/nicalsilva/status/1546424285442473987?s=20&t=S1fXSoh2zWHbfTImCGYpPQ)_
+
+[Lyon]: https://github.com/nical/lyon
 
 ### [Renet]
 
