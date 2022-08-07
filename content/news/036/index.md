@@ -31,6 +31,7 @@ Feel free to send PRs about your own projects!
 [Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
+- [Announcements](#announcements)
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
@@ -65,6 +66,28 @@ _Discussions:
 
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
+
+## Announcements
+
+### [Ferris 3D got released!](ferris3d-github)
+
+![colorful render of a 3d model of Ferris with additional wireframe view](raymarch_ferris_3d_release.jpg)
+
+[@RayMarch][raymarch-twitter] created a 3d model of [Ferris the Rustacean][ferris]
+for the Rust community!
+
+The model is [now available for free here on github](ferris3d-github)!
+
+It was released into the [public domain](public-domain) so you can use it
+however you like, even commercially!
+
+_Discussions: [Twitter][raymarch-twitter-release]_
+
+[ferris]: https://rustacean.net/
+[raymarch-twitter]: https://twitter.com/Ray__March
+[raymarch-twitter-release]: https://twitter.com/Ray__March/status/1554115149312790529
+[ferris3d-github]: https://github.com/RayMarch/ferris3d
+[public-domain]: https://creativecommons.org/publicdomain/zero/1.0/
 
 ## Game Updates
 
@@ -141,6 +164,31 @@ compiles but fails to access the intended component.
 
 [hecs]: https://github.com/Ralith/hecs
 [hecs-changelog]: https://github.com/Ralith/hecs/blob/master/CHANGELOG.md#080
+
+### [shame]
+
+shader metaprogramming in rust
+
+![logo of shame - shader metaprogramming](raymarch_shame.jpg)
+
+[`shame`](shame) lets you author shaders and pipeline layouts in a single seamless piece of rust code.
+
+`shame` offers:
+
+- simple and lightweight setup
+- (re)generate different shaders/pipelines based on runtime parameters
+- [shader hot reloading](shame-examples)
+- type checks from input assembly all the way to fragment output
+- [examples using wgpu!](shame-examples)
+
+A discord channel for questions/feedback is linked in the [github readme](shame)
+
+<!-- no direct link to discord because discord currently allows for no permanent invite links -->
+
+[raymarch-github]: https://github.com/RayMarch
+[shame]: https://github.com/RayMarch/shame
+[shame-examples]: https://github.com/RayMarch/shame
+
 
 ## Popular Workgroup Issues in Github
 
