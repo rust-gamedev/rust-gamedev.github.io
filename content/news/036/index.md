@@ -94,7 +94,7 @@ form][gamedev-meetup-form].
 [rust-meetup-time]: https://everytimezone.com/s/17260ccd
 [gamedev-meetup-form]: https://forms.gle/BS1zCyZaiUFSUHxe6
 
-[@kvark]: https://twitter.com/kvark
+[@carlosupina]: https://twitter.com/carlosupina
 [@setzer22]: https://twitter.com/playtheprocess
 [@lowenware]: https://twitter.com/lowenware
 [@GraphiteEditor]: https://twitter.com/graphiteeditor
