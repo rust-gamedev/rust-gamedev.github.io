@@ -115,6 +115,29 @@ _Discussions: [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/vy7vm
 [cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
 [cybergate-dis]: https://discord.gg/R7DkHqw7zJ
 
+### [Botnet]
+
+![botnet screenshot](botnet.png)
+
+[Botnet] is an upcoming programming-based multiplayer game, where you write
+scripts (compiled to WebAssembly) to control robots. Coordinate your network
+of bots to gather resources, build new industry, and expand your control of
+the server!
+
+This month was primarily spent on BotnetReplayViewer - a visual program to
+watch matches, and inspect entity data.
+
+Additionally, the antenna structure was added. Building an antenna gives you
+control over the bay (room) it's in, letting you build additional structures,
+and increasing the total number of bots you can control. Bots can also use
+antennas to store resources.
+
+Interested in contributing? Head over to the
+[github discussion page][botnet_ideas] and suggest some ideas!
+
+[Botnet]: https://github.com/JMS55/botnet
+[botnet_ideas]: https://github.com/JMS55/botnet/discussions/categories/ideas
+
 ## Engine Updates
 
 ## Learning Material Updates
