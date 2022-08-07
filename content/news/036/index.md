@@ -76,7 +76,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [NES Bundler][nes-bundler]
 
-![NES Bundler running Data Man with GUI showing](nes_bundler_in_action.png)
+![NES Bundler running Data Man with GUI showing](nes-bundler.png)
 _NES Bundler in action_
 
 [NES Bundler][nes-bundler] by [@tedsteen].
