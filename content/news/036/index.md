@@ -176,10 +176,10 @@ seamless piece of rust code.
 
 `shame` offers:
 
-- simple and lightweight setup
-- (re)generate different shaders/pipelines based on runtime parameters
-- [shader hot reloading][shame-examples)
+- a simple and lightweight setup
 - type checks from input assembly all the way to fragment output
+- (re)generate different shaders/pipelines based on runtime parameters
+- [shader hot reloading][shame-examples]
 - [examples using wgpu!][shame-examples]
 
 A discord channel for questions/feedback is linked in the
