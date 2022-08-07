@@ -142,6 +142,16 @@ Interested in contributing? Head over to the
 
 ## Learning Material Updates
 
+### Pathfinding in Rust
+
+![Example of the results of doing an A* search from a start node to a goal node](astar-search.png)
+
+[Pathfinding in Rust: A tutorial with examples](https://blog.logrocket.com/pathfinding-rust-tutorial-examples)
+is an article with examples of how to use the [`pathfinding`](https://crates.io/crates/pathfinding)
+crate to do breadth-first, Dijkstra's, and A* search. It links to the
+[gregstoll/rust-pathfinding](https://github.com/gregstoll/rust-pathfinding)
+repo which has working code for all of these.
+
 ## Tooling Updates
 
 ### [Blackjack]
