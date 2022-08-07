@@ -171,7 +171,8 @@ shader metaprogramming in rust
 
 ![logo of shame - shader metaprogramming](raymarch_shame.jpg)
 
-[`shame`](shame) lets you author shaders and pipeline layouts in a single seamless piece of rust code.
+[`shame`](shame) lets you author shaders and pipeline layouts in a single
+seamless piece of rust code.
 
 `shame` offers:
 
@@ -181,14 +182,14 @@ shader metaprogramming in rust
 - type checks from input assembly all the way to fragment output
 - [examples using wgpu!](shame-examples)
 
-A discord channel for questions/feedback is linked in the [github readme](shame)
+A discord channel for questions/feedback is linked in the
+[github readme](shame).
 
-<!-- no direct link to discord because discord currently allows for no permanent invite links -->
+<!-- i am unable to generate a permanent discord invite link, thats why i link to the project github, where i can update the link once it is outdated -->
 
 [raymarch-github]: https://github.com/RayMarch
 [shame]: https://github.com/RayMarch/shame
 [shame-examples]: https://github.com/RayMarch/shame
-
 
 ## Popular Workgroup Issues in Github
 
