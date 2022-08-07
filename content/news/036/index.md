@@ -152,6 +152,35 @@ crate to do breadth-first, Dijkstra's, and A* search. It links to the
 [gregstoll/rust-pathfinding](https://github.com/gregstoll/rust-pathfinding)
 repo which has working code for all of these.
 
+### [Creating mountains from planes with vertex shaders and Bevy][chrisbiscardi-vid1]
+
+[![vertex shaders example](creating-mountains-from-planes-with-vertex-shaders-and-bevy.png)][chrisbiscardi-vid1]
+_Creating mountains from planes with vertex shaders and Bevy_
+
+[@chrisbiscardi] published a [video][chrisbiscardi-vid1]
+about using the new Material shader APIs in Bevy 0.8 to transform the
+vertex positions in a custom mesh plane using a vertex shader.
+
+_Discussions: [Twitter](https://twitter.com/chrisbiscardi/status/1549089599971938304)_
+
+[chrisbiscardi-vid1]: https://youtube.com/watch?v=85uJc81SQZ4
+[@chrisbiscardi]: https://twitter.com/chrisbiscardi
+
+### [What's in a wgsl fragment shader? ft Bevy][chrisbiscardi-vid2]
+
+[![vertex shaders example](creating-mountains-from-planes-with-vertex-shaders-and-bevy.png)][chrisbiscardi-vid2]
+_What's in a wgsl fragment shader? ft Bevy_
+
+[@chrisbiscardi] published a [video][chrisbiscardi-vid2]
+that introduces the new Material APIs in Bevy 0.8. It covers AsBindGroup,
+uniforms, and using Perlin Noise in a fragment shader to render different
+colors onto a cube in a variety of ways.
+
+_Discussions: [Twitter](https://twitter.com/chrisbiscardi/status/1546909993726726144)_
+
+[chrisbiscardi-vid2]: https://youtube.com/watch?v=SOOOc9-joVo
+[@chrisbiscardi]: https://twitter.com/chrisbiscardi
+
 ## Tooling Updates
 
 ### [Blackjack]
