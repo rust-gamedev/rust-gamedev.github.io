@@ -205,6 +205,33 @@ _Discussions: [/r/rust](https://reddit.com/r/rust/comments/vwdxim/announcing_lyo
 
 [Lyon]: https://github.com/nical/lyon
 
+### [Renet]
+
+![GIF of demo using renet and bevy](renet_bevy_demo.gif)
+*Demo using renet and bevy*
+
+[Renet] by [@lucaspoffo] is a network library to create
+games with the Server-Client architecture.
+
+Built on top of UDP, it has its own protocol to send and receive reliable messages
+more suited for fast-paced games than TCP. Some other features are:
+
+- Connection management
+- Authentication and encrypted connections
+- Communication through multiple types of channels:
+  - Reliable Ordered: guarantee ordering and delivery of all messages
+  - Unreliable Unordered: no guarantee of delivery or ordering of messages
+  - Block Reliable: for bigger messages, such as level initialization
+- Packet fragmentation and reassembly
+
+Renet comes with [bevy_renet], a plugin for the Bevy engine, and also with
+[renet_visualizer], an egui interface to visualize network metrics.
+
+[Renet]: https://github.com/lucaspoffo/renet
+[@lucaspoffo]: https://github.com/lucaspoffo
+[bevy_renet]: https://github.com/lucaspoffo/renet/tree/master/bevy_renet
+[renet_visualizer]: https://github.com/lucaspoffo/renet/tree/master/renet_visualizer
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
