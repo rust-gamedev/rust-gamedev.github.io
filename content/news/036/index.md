@@ -69,16 +69,16 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Announcements
 
-### [Ferris 3D got released!](ferris3d-github)
+### [Ferris 3D got released!][ferris3d-github]
 
 ![colorful render of a 3d model of Ferris with additional wireframe view](raymarch_ferris_3d_release.jpg)
 
 [@RayMarch][raymarch-twitter] created a 3d model of [Ferris the Rustacean][ferris]
 for the Rust community!
 
-The model is [now available for free here on github](ferris3d-github)!
+The model is [now available for free here on github][ferris3d-github]!
 
-It was released into the [public domain](public-domain) so you can use it
+It was released into the [public domain][public-domain] so you can use it
 however you like, even commercially!
 
 _Discussions: [Twitter][raymarch-twitter-release]_
@@ -171,25 +171,25 @@ shader metaprogramming in rust
 
 ![logo of shame - shader metaprogramming](raymarch_shame.jpg)
 
-[`shame`](shame) lets you author shaders and pipeline layouts in a single
+[`shame`][shame] lets you author shaders and pipeline layouts in a single
 seamless piece of rust code.
 
 `shame` offers:
 
 - simple and lightweight setup
 - (re)generate different shaders/pipelines based on runtime parameters
-- [shader hot reloading](shame-examples)
+- [shader hot reloading][shame-examples)
 - type checks from input assembly all the way to fragment output
-- [examples using wgpu!](shame-examples)
+- [examples using wgpu!][shame-examples]
 
 A discord channel for questions/feedback is linked in the
-[github readme](shame).
+[github readme][shame].
 
 <!-- i am unable to generate a permanent discord invite link, thats why i link to the project github, where i can update the link once it is outdated -->
 
 [raymarch-github]: https://github.com/RayMarch
 [shame]: https://github.com/RayMarch/shame
-[shame-examples]: https://github.com/RayMarch/shame
+[shame-examples]: https://github.com/RayMarch/shame/tree/main/examples
 
 ## Popular Workgroup Issues in Github
 
