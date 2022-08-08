@@ -275,6 +275,45 @@ Nevertheless, several improvements have been integrated to godot-rust since
 [gd-twitter]: https://twitter.com/GodotRust
 [gd-gdext]: https://godotengine.org/article/introducing-gd-extensions
 
+### [Gamercade]
+
+![Gamercade preview](gamercade.gif)
+_WASM 3d CPU Rendering On a 2d Fantasy Console?_
+
+[Gamercade] ([Discord][Gamercade-Discord], [Github][Gamercade-Github])
+by @RobDavenport is a WASM powered fantasy console focused
+on building multiplayer neo-retro games.
+
+After over half a year in development, Gamercade and related tools are ready
+for pre-alpha testing. This includes the [console](Gamercade-Console) itself,
+as well as the [editor](Gamercade-Editor).
+
+Gamercade's killer feature is ease of developing multiplayer games.
+The console is able to simplify networked game development process
+in the best way possible: build a local multiplayer game, and get full online
+play for free!
+
+The WASM Api features powerful but simple built-in features like input,
+2d graphics, random number generation, and more. Limitations do exist, but are
+flexible, such as resolutions up to 1920 x 1080, and a maximum of 256 color
+palettes with up to 64 colors each.
+
+The community around the project is small, but is looking to expand.
+Come on over to the [subreddit](Gamercade-Subreddit), or hang out and chat
+on [Discord](Gamercade-Discord), where the developers interact with members
+and post updates daily. The project is newly [open source](Gamercade-Github)
+and looking for contributors, suggestions, as well as awesome game demos.
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/w8idew/announcing_gamercade_a_new_wasm_powered_fantasy),
+[/r/fantasyconsoles](https://reddit.com/r/fantasyconsoles/comments/w8ics8/announcing_gamercade_a_new_wasm_powered_fantasy)_
+
+[Gamercade]: https://gamercade.io
+[Gamercade-Console]: https://github.com/gamercade-io/gamercade_console
+[Gamercade-Editor]: https://github.com/gamercade-io/gamercade_editor
+[Gamercade-Discord]: https://discord.gg/Qafv2Fpt5j
+[Gamercade-Github]: https://github.com/gamercade-io
+
 ## Learning Material Updates
 
 ### [Sand Fall With Compute Shaders in Rust]
