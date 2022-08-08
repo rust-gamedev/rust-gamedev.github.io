@@ -286,6 +286,29 @@ _Discussions: [Twitter](https://twitter.com/chrisbiscardi/status/154690999372672
 [chrisbiscardi-vid2]: https://youtube.com/watch?v=SOOOc9-joVo
 [@chrisbiscardi]: https://twitter.com/chrisbiscardi
 
+### [Rusteroids][rusteroids-youtube-playlist]
+
+![A screenshot of the latest Rusteroids tutorial](./rusteroids-screenshot-tutorial15.png)
+
+[Rusteroids][rusteroids-github] is a tutorial recreating a clone of Asteroids
+in Rust, using SDL2 and the [Specs][rust-specs-crate] library.
+
+New episodes are released weekly and added to the playlist. The most
+recent video shows how to safely create global state to store global values,
+such as the high score. The most recent code has been released for Windows, on
+[Itch.io][itch-io] (with other platforms coming soon).
+
+You can subscribe to the [YouTube Channel][electrocat-youtube],
+to never miss an episode, or follow [@ecatstudios][ecatstudios-twitter] on
+Twitter!
+
+[rusteroids-youtube-playlist]: https://youtube.com/playlist?list=PLFOS-Gn3aXROnSfl26esPExssd-rQw6jD
+[rusteroids-github]: https://github.com/filtoid/rusteroids
+[rust-specs-crate]: https://docs.rs/specs/latest/specs/
+[itch-io]: https://filtoid.itch.io/rusteroids
+[electrocat-youtube]: https://youtube.com/channel/UC1m6P72nySpB3lKWDYGVipw
+[ecatstudios-twitter]: https://twitter.com/ecatstudios
+
 ## Tooling Updates
 
 ### [NES Bundler][nes-bundler]
