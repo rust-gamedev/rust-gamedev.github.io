@@ -554,6 +554,21 @@ and the second part is a lightweight fluid shader.
 
 ## Library Updates
 
+### [bevy_godot]
+
+[bevy_godot] is an in-development library that offers a familiar Bevy environment
+inside of the [Godot Engine][godot-engine]. [bevy_godot] currently features Scene
+Tree integration, collision detection, spawning Godot scenes from Bevy, and
+included examples to demonstrate the API. The upcoming update will feature Godot
+signal events, Bevy assets integration, and a full implementation of the Dodge
+the Creeps example game.
+
+[bevy_godot] is looking for contributors to help grow the library to fit all
+Godot Engine game development needs.
+
+[bevy_godot]: https://github.com/rand0m-cloud/bevy_godot
+[godot-engine]: https://godotengine.org
+
 ### [hecs]
 
 [hecs] is a fast, lightweight, and unopinionated archetypal ECS library.
