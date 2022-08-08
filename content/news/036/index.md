@@ -120,7 +120,7 @@ looking for contributors, suggestions, as well as awesome game demos.
 
 _Discussions: [Discord](Gamercade-Discord),
 [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/w8idew/announcing_gamercade_a_new_wasm_powered_fantasy/),
-[/r/fantasyconsoles](https://www.reddit.com/r/fantasyconsoles/comments/w8ics8/announcing_gamercade_a_new_wasm_powered_fantasy/)
+[/r/fantasyconsoles](https://www.reddit.com/r/fantasyconsoles/comments/w8ics8/announcing_gamercade_a_new_wasm_powered_fantasy/)_
 
 [Gamercade]: https://gamercade.io
 [Gamercade-Console]: https://github.com/gamercade-io/gamercade_console
