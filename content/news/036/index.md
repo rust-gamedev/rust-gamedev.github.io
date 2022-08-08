@@ -455,6 +455,29 @@ post on the Discussion boards!
 [Blackjack]: https://github.com/setzer22/blackjack
 [blackjack-talk-yt]: https://onrendering.com/data/papers/catmark/HalfedgeCatmullClark.pdf
 
+### [bevy_shadertoy_wgsl] and [GLSL2WGSL]
+
+![Shaders courtesy of @leondenise.](shadertoy_wgsl_leon.gif)
+
+[bevy_shadertoy_wgsl] is a [Shadertoy] clone for the Bevy game engine,
+where the GLSL shader language is replaced by WGSL. It already comes
+with a dozen examples and plenty more to go. Feel free to add your own
+shaders to the list!
+
+Plus, [GLSL2WGSL] is a new translator tool that should help migrate the
+vast majority of GLSL code to WGSL.
+
+The above GIF showcases the new additions to the examples for
+[bevy_shadertoy_wgsl]: two shaders originally written in [Shadertoy] by
+[@leondenise], and translated to WGSL with the help of [GLSL2WGSL].
+The first part is a reproduction of Joe Gardner from the movie Soul,
+and the second part is a lightweight fluid shader.
+
+[bevy_shadertoy_wgsl]: https://github.com/eliotbo/bevy_shadertoy_wgsl
+[Shadertoy]: https://www.shadertoy.com
+[GLSL2WGSL]: https://eliotbo.github.io/glsl2wgsl/
+[@leondenise]: https://twitter.com/leondenise
+
 ## Library Updates
 
 ### [hecs]
