@@ -387,6 +387,26 @@ Renet comes with [bevy_renet], a plugin for the Bevy engine, and also with
 [bevy_renet]: https://github.com/lucaspoffo/renet/tree/master/bevy_renet
 [renet_visualizer]: https://github.com/lucaspoffo/renet/tree/master/renet_visualizer
 
+### [miniquad]
+
+![miniquad fileopen](miniquad_gl2.gif)
+*VirtualBox, gl2 as the only GPU accelaration available*
+
+[miniquad] is a safe and cross-platform rendering library
+focused on portability and low-end platform support.
+
+This month [OpenGl 2.1/GLESv2][gl2pr] PR got merged, adding support for old
+android phones, virtual machines, and just old computers.
+
+While the PR itself is quite small, it solved a very old design issue:
+[compatibilities proposal][mqcompat]. Fixing this issue opened the door for
+both lower-end backends, like gl1, and higher-level backends. Metal being the
+next in line.
+
+[miniquad]: https://github.com/not-fl3/miniquad/
+[gl2pr]: https://github.com/not-fl3/miniquad/pull/305
+[mqcompat]: https://github.com/not-fl3/miniquad/pull/176
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
