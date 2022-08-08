@@ -175,6 +175,24 @@ platform/country/OS, player feedback, reviews & game updates.
 [alex-butler]: https://twitter.com/bigabgames
 [robo-3]: https://blog.roboinstruct.us/2022/07/16/3-years-old.html
 
+### [Simon Arcade]
+
+![Simon arcade gameplay with arrows and buttons in different colors](simon.gif)
+_a Simon Arcade gameplay with cheats enabled_
+
+Based on [Simon (Original)], made with [Bevy],
+the goal of this game is to push buttons in the correct order,
+in an ever-increasing sequence.
+
+This game was made to fit with the [Rust Arcade Cabinet]
+and was showcased at [RustConf Portland] on August 5th 2022.
+
+[Simon Arcade]: https://github.com/Vrixyz/simon
+[Simon (Original)]: https://en.wikipedia.org/wiki/Simon_(game)
+[Rust Arcade Cabinet]: https://github.com/rust-arcade/bevy-rust-arcade
+[RustConf Portland]: https://rustconf.com
+[Bevy]: https://bevyengine.org
+
 ## Engine Updates
 
 ### [Bevy v0.8][bevy-blog]
