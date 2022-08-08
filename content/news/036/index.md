@@ -66,6 +66,25 @@ _Discussions:
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
+## Announcements
+
+### Rust Game Ports Officialization
+
+![games collage](rust_game_ports.jpg)
+
+[64kramsystem][64kramsystem]'s Rust Game Ports [project][game-ports-project] has
+been officially adopted by the Rust game development working group.
+
+The project is intended to be a reference for Rust game development, helping
+developers, especially newcomers, to understand how to use Rust game libraries,
+and design Rust games in general.
+
+Devs are invited to explore and contribute! There are ports for all the levels
+and interests 😄
+
+[64kramsystem]: https://github.com/64kramsystem
+[game-ports-project]: https://github.com/rust-gamedev/rust-game-ports
+
 ## Game Updates
 
 ### Flesh
@@ -148,22 +167,7 @@ compiles but fails to access the intended component.
 
 ## Other News
 
-### Rust Game Ports Officialization
-
-![games collage](rust_game_ports.jpg)
-
-[64kramsystem][64kramsystem]'s Rust Game Ports [project][game-ports-project] has
-been officially adopted by the Rust game development working group.
-
-The project is intended to be a reference for Rust game development, helping
-developers, especially newcomers, to understand how to use Rust game libraries,
-and design Rust games in general.
-
-Devs are invited to explore and contribute! There are ports for all the levels
-and interests 😄
-
-[64kramsystem]: https://github.com/64kramsystem
-[game-ports-project]: https://github.com/rust-gamedev/rust-game-ports
+<!-- One-liners for plan items that haven't got their own sections. -->
 
 ## Meeting Minutes
 
