@@ -113,7 +113,7 @@ Some of the new features include:
 - A better data model for meshes, based on groups and channels.
 - Game engine integration with Godot, more engines coming soon.
 - Introduce Lua as an extension language.
-- Add _many_ new nodes: Extrude along curve, Copy to points...
+- Add *many* new nodes: Extrude along curve, Copy to points...
 - Add experimental support for L-Systems.
 - Reworked Look & Feel
 
@@ -156,7 +156,7 @@ and the second part is a lightweight fluid shader.
 
 [Version 0.8][hecs-changelog] marks a breaking change to most methods that
 previously took a generic type parameter `T: Component`, replacing them with
-methods taking type parameters which must be _references to_ component types
+methods taking type parameters which must be *references to* component types
 instead. This resolves a long-standing footgun where users accustomed to writing
 `&T` in queries might write `world.get::<&T>`, interpreted by rustc as
 referencing the valid component type `&'static T`, resulting in code that
