@@ -649,14 +649,14 @@ July's [sprint][graphite-sprint-17] focused on editor-centric
 refactors upgrading stopgap measures to more robust systems.
 
 - Making a splash: The default document is replaced by a welcome splash screen
-following a refactor allowing for zero open documents.
+  following a refactor allowing for zero open documents.
 - Modifying for Macs: Input handling supports the nonstandard modifier keys on
-Mac keyboards, including labels in the UI.
+  Mac keyboards, including labels in the UI.
 - Setting a high bar: The menu bar cleans up actions and supports new ones like
-*File* > *Import*. Displayed hotkeys are based on the actual key mapping
-source, varying by OS.
+  "File" > "Import". Displayed hotkeys are based on the actual key mapping
+  source, varying by OS.
 - Keeping organized: The editor codebase is restructured to cut away technical
-debt and create consistency for new contributors and better docs going forward.
+  debt and create consistency for new contributors and better docs going forward.
 
 Open the [Graphite editor][graphite-live-demo] in your browser to give it a try
 and share your creations with #MadeWithGraphite on Twitter.
