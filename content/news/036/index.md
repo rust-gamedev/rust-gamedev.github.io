@@ -88,31 +88,193 @@ include:
 [Tetra]: https://github.com/17cupsofcoffee/tetra
 [steamworks]: https://crates.io/crates/steamworks
 
+### [CyberGate][cybergate-yt]
+
+![hundreds of colliding colored balls in the air](entities.png)
+_The server and clients are able to smoothly handle
+over a thousand balls rained from above_
+
+CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]) by CyberSoul
+is a new multiplayer project that aims at procedurally generating distinct
+universes and gameplay experiences. CyberGate is the name of the main world
+where universes can be created and accessed by quantum portals.
+
+Recent updates:
+
+- Bandwidth became 16 times smaller by implementing entity prioritization
+  \+ other techniques.
+- Interpolation and Jitter prediction makes entities way smoother.
+- Automatic and Reliable Spawn and Despawn of entities.
+- Many other features and optimizations to do with rapier 3d physics,
+  wgpu renderer and quinn (quic) protocol.
+
+[Join the Discord server][cybergate-dis] to participate in tests.
+
+_Discussions: [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/vy7vms/multiplayer_stress_test_1_million_balls)_
+
+[cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
+[cybergate-dis]: https://discord.gg/R7DkHqw7zJ
+
+### [Botnet]
+
+![botnet screenshot](botnet.png)
+
+[Botnet] is an upcoming programming-based multiplayer game, where you write
+scripts (compiled to WebAssembly) to control robots. Coordinate your network
+of bots to gather resources, build new industry, and expand your control of
+the server!
+
+This month was primarily spent on BotnetReplayViewer - a visual program to
+watch matches, and inspect entity data.
+
+Additionally, the antenna structure was added. Building an antenna gives you
+control over the bay (room) it's in, letting you build additional structures,
+and increasing the total number of bots you can control. Bots can also use
+antennas to store resources.
+
+Interested in contributing? Head over to the
+[github discussion page][botnet_ideas] and suggest some ideas!
+
+[Botnet]: https://github.com/JMS55/botnet
+[botnet_ideas]: https://github.com/JMS55/botnet/discussions/categories/ideas
+
+### [Re-Rolling!]
+
+![Re-rolling gameplay](re-rolling_gameplay.png)
+
+[Re-Rolling!] by [@mystalice](https://twitter.com/mystalice) is a top-down 2D
+survival shooter where you fight off a horde of rats using weapons you randomly
+rolled.
+
+The game was created for [GMTK Jam 2022][rr_gmtk2022] in 48 hours and was
+heavily inspired by [20 Minutes Till Dawn][rr_20minutes].
+
+Re-Rolling! was made with Bevy using heron for physics, bevy_egui for in-game
+UI, and a handful of other helpful crates and plugins. You can browse the source
+on [GitHub][rr_github].
+
+[Re-Rolling!]: https://mystal.itch.io/re-rolling
+[rr_gmtk2022]: https://itch.io/jam/gmtk-jam-2022
+[rr_20minutes]: https://store.steampowered.com/app/1966900/20_Minutes_Till_Dawn/
+[rr_github]: https://github.com/mystal/re-rolling
+
 ## Engine Updates
 
-### [miniquad]
+### [Bevy v0.8][bevy-blog]
 
-![miniquad fileopen](miniquad_gl2.gif)
-*VirtualBox, gl2 as the only GPU accelaration available*
+![bevy terrain](bevy_terrain.jpg)
+_Bevy-shaped mountains in a Bevy-based Witcher 3 terrain texturing tool built by
+rmemr_
 
-[miniquad] is a safe and cross-platform rendering library
-focused on portability and low-end platform support.
+[Bevy][bevy] is a refreshingly simple data-driven game engine built in Rust. It
+is [free and open source][bevy-git] forever!
 
-This month [OpenGl 2.1/GLESv2][gl2pr] PR got merged, adding support for old
-android phones, virtual machines, and just old computers.
+Bevy 0.8 was a massive community effort. You can check out the [full release
+blog post here][bevy-blog], but here are some highlights:
 
-While the PR itself is quite small, it solved a very old design issue:
-[compatibilities proposal][mqcompat]. Fixing this issue opened the door for
-both lower-end backends, like gl1, and higher-level backends. Metal being the
-next in line.
+- [New Material System][bevy-materials]
+- [Camera-driven Rendering][bevy-camera]
+- [Built-in Shader Modularization][bevy-shader-mod]
+- [Spot Lights][bevy-spotlights]
+- [Visibility Inheritance][bevy-visibility]
+- [Upgraded to wgpu 0.13][bevy-wgpu]
+- [Automatic Mesh Tangent Generation][bevy-tangent]
+- [Renderer Optimizations][bevy-render-opt]
+- [Scene Bundle][bevy-scene]
+- [Scripting / Modding Progress][bevy-scripting]
+- [ECS Query Ergonomics and Usability][bevy-ecs-ergo]
+- [ECS Internals Refactors][bevy-refactors]
+- [Reflection Improvements][bevy-reflect]
+- [Hierarchy Commands][bevy-hierarchy]
+- [Bevy UI Now Uses Taffy][bevy-taffy]
 
-[miniquad]: https://github.com/not-fl3/miniquad/
-[gl2pr]: https://github.com/not-fl3/miniquad/pull/305
-[mqcompat]: https://github.com/not-fl3/miniquad/pull/176
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/wc0sqc/bevy_08/),
+[Hacker News](https://news.ycombinator.com/item?id=32287828),
+[Twitter](https://twitter.com/cart_cart/status/1553411157662187521)_
+
+[bevy]: https://bevyengine.org
+[bevy-git]: https://github.com/bevyengine/bevy
+[bevy-blog]: https://bevyengine.org/news/bevy-0-8
+[bevy-materials]: https://bevyengine.org/news/bevy-0-8/#new-material-system
+[bevy-camera]: https://bevyengine.org/news/bevy-0-8/#camera-driven-rendering
+[bevy-spotlights]: https://bevyengine.org/news/bevy-0-8/#spotlights
+[bevy-visibility]: https://bevyengine.org/news/bevy-0-8/#visibility-inheritance
+[bevy-shader-mod]: https://bevyengine.org/news/bevy-0-8/#built-in-shader-modularization
+[bevy-wgpu]: https://bevyengine.org/news/bevy-0-8/#wgpu-0-13-new-wgsl-shader-syntax
+[bevy-tangent]: https://bevyengine.org/news/bevy-0-8/#automatic-mesh-tangent-generation
+[bevy-render-opt]: https://bevyengine.org/news/bevy-0-8/#render-phase-sorting-optimization
+[bevy-scene]: https://bevyengine.org/news/bevy-0-8/#scene-bundle
+[bevy-scripting]: https://bevyengine.org/news/bevy-0-8/#scripting-modding-progress-untyped-ecs-apis
+[bevy-ecs-ergo]: https://bevyengine.org/news/bevy-0-8/#query-intoiter
+[bevy-refactors]: https://bevyengine.org/news/bevy-0-8/#ecs-lifetimed-pointers
+[bevy-reflect]: https://bevyengine.org/news/bevy-0-8/#bevy-reflection-improvements
+[bevy-hierarchy]: https://bevyengine.org/news/bevy-0-8/#hierarchy-commands
+[bevy-taffy]: https://bevyengine.org/news/bevy-0-8/#taffy-migration-a-refreshed-ui-layout-library
 
 ## Learning Material Updates
 
+### Pathfinding in Rust
+
+![Example of the results of doing an A* search from a start node to a goal node](astar-search.png)
+
+[Pathfinding in Rust: A tutorial with examples](https://blog.logrocket.com/pathfinding-rust-tutorial-examples)
+is an article with examples of how to use the [`pathfinding`](https://crates.io/crates/pathfinding)
+crate to do breadth-first, Dijkstra's, and A* search. It links to the
+[gregstoll/rust-pathfinding](https://github.com/gregstoll/rust-pathfinding)
+repo which has working code for all of these.
+
+### [Creating mountains from planes with vertex shaders and Bevy][chrisbiscardi-vid1]
+
+[![vertex shaders example](creating-mountains-from-planes-with-vertex-shaders-and-bevy.png)][chrisbiscardi-vid1]
+_Creating mountains from planes with vertex shaders and Bevy_
+
+[@chrisbiscardi] published a [video][chrisbiscardi-vid1]
+about using the new Material shader APIs in Bevy 0.8 to transform the
+vertex positions in a custom mesh plane using a vertex shader.
+
+_Discussions: [Twitter](https://twitter.com/chrisbiscardi/status/1549089599971938304)_
+
+[chrisbiscardi-vid1]: https://youtube.com/watch?v=85uJc81SQZ4
+[@chrisbiscardi]: https://twitter.com/chrisbiscardi
+
+### [What's in a wgsl fragment shader? ft Bevy][chrisbiscardi-vid2]
+
+[![vertex shaders example](creating-mountains-from-planes-with-vertex-shaders-and-bevy.png)][chrisbiscardi-vid2]
+_What's in a wgsl fragment shader? ft Bevy_
+
+[@chrisbiscardi] published a [video][chrisbiscardi-vid2]
+that introduces the new Material APIs in Bevy 0.8. It covers AsBindGroup,
+uniforms, and using Perlin Noise in a fragment shader to render different
+colors onto a cube in a variety of ways.
+
+_Discussions: [Twitter](https://twitter.com/chrisbiscardi/status/1546909993726726144)_
+
+[chrisbiscardi-vid2]: https://youtube.com/watch?v=SOOOc9-joVo
+[@chrisbiscardi]: https://twitter.com/chrisbiscardi
+
 ## Tooling Updates
+
+### [NES Bundler][nes-bundler]
+
+![NES Bundler running Data Man with GUI showing](nes-bundler.png)
+_NES Bundler in action_
+
+[NES Bundler][nes-bundler] by [@tedsteen].
+Did you make a NES-game but none of your friends own a Nintendo? Don't worry.
+Put your ROM and configuration in NES Bundler and build an executable for Mac,
+Windows or Linux. What you get is a single executable with
+
+- Simple UI for settings
+- Re-mappable Keyboard and Gamepad input (you bundle your default mappings).
+- Save/Restore state
+- Netplay!
+
+It's early days, but the key features are there and work is ongoing
+to make it more mature!
+
+[nes-bundler]: https://github.com/tedsteen/nes-bundler
+[@tedsteen]: https://github.com/tedsteen
 
 ### [Blackjack]
 
@@ -161,6 +323,89 @@ compiles but fails to access the intended component.
 
 [hecs]: https://github.com/Ralith/hecs
 [hecs-changelog]: https://github.com/Ralith/hecs/blob/master/CHANGELOG.md#080
+
+### [bevy_mod_wanderlust]
+
+[bevy_mod_wanderlust]
+([GitHub](https://github.com/PROMETHIA-27/bevy_mod_wanderlust)) by
+[@PROMETHIA-27] is a character controller plugin for Bevy engine.
+
+Inspired by [this excellent video](https://www.youtube.com/watch?v=qdskE8PJy6Q),
+it is implemented on top of [Rapier physics](https://rapier.rs/) and highly
+customizable. Wanderlust includes a variety of settings to target many different
+character controller types, including 2D/3D platformers, spacecraft, and
+first/third person games.
+
+[bevy_mod_wanderlust]: https://crates.io/crates/bevy_mod_wanderlust
+
+### [Lyon]
+
+![Variable width stroke in action](lyon.png)
+
+[Lyon] ([GitHub](https://github.com/nical/lyon)) by [Nical](https://github.com/nical)
+is a collection of crates providing various 2D vector graphics utilities, including
+fast tessellation algorithms, easy to integrate in typical GPU accelerated rendering
+engines.
+
+Lyon made its symbolic [`1.0.0` release](https://crates.io/crates/lyon/1.0.0)
+reflecting the stability of the project. Highlights in this release include:
+
+- Initial support for variable line width in the stroke tessellator.
+- An efficient algorithm to query positions at given distances along a path.
+- Improved support for specifying custom endpoint attributes in paths and algorithms.
+- And more. You can read the [announcement blog post here](https://nical.github.io/posts/lyon-1-0.html).
+
+_Discussions: [/r/rust](https://reddit.com/r/rust/comments/vwdxim/announcing_lyon_100),
+[Twitter](https://twitter.com/nicalsilva/status/1546424285442473987?s=20&t=S1fXSoh2zWHbfTImCGYpPQ)_
+
+[Lyon]: https://github.com/nical/lyon
+
+### [Renet]
+
+![GIF of demo using renet and bevy](renet_bevy_demo.gif)
+*Demo using renet and bevy*
+
+[Renet] by [@lucaspoffo] is a network library to create
+games with the Server-Client architecture.
+
+Built on top of UDP, it has its own protocol to send and receive reliable messages
+more suited for fast-paced games than TCP. Some other features are:
+
+- Connection management
+- Authentication and encrypted connections
+- Communication through multiple types of channels:
+  - Reliable Ordered: guarantee ordering and delivery of all messages
+  - Unreliable Unordered: no guarantee of delivery or ordering of messages
+  - Block Reliable: for bigger messages, such as level initialization
+- Packet fragmentation and reassembly
+
+Renet comes with [bevy_renet], a plugin for the Bevy engine, and also with
+[renet_visualizer], an egui interface to visualize network metrics.
+
+[Renet]: https://github.com/lucaspoffo/renet
+[@lucaspoffo]: https://github.com/lucaspoffo
+[bevy_renet]: https://github.com/lucaspoffo/renet/tree/master/bevy_renet
+[renet_visualizer]: https://github.com/lucaspoffo/renet/tree/master/renet_visualizer
+
+### [miniquad]
+
+![miniquad fileopen](miniquad_gl2.gif)
+*VirtualBox, gl2 as the only GPU accelaration available*
+
+[miniquad] is a safe and cross-platform rendering library
+focused on portability and low-end platform support.
+
+This month [OpenGl 2.1/GLESv2][gl2pr] PR got merged, adding support for old
+android phones, virtual machines, and just old computers.
+
+While the PR itself is quite small, it solved a very old design issue:
+[compatibilities proposal][mqcompat]. Fixing this issue opened the door for
+both lower-end backends, like gl1, and higher-level backends. Metal being the
+next in line.
+
+[miniquad]: https://github.com/not-fl3/miniquad/
+[gl2pr]: https://github.com/not-fl3/miniquad/pull/305
+[mqcompat]: https://github.com/not-fl3/miniquad/pull/176
 
 ## Popular Workgroup Issues in Github
 
