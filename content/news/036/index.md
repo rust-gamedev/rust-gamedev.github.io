@@ -287,6 +287,38 @@ post on the Discussion boards!
 [Blackjack]: https://github.com/setzer22/blackjack
 [blackjack-talk-yt]: https://onrendering.com/data/papers/catmark/HalfedgeCatmullClark.pdf
 
+### [Graphite][graphite-website]
+
+![Graphite](graphite.png)
+
+Graphite ([website][graphite-website], [GitHub][graphite-repo],
+[Discord][graphite-discord], [Twitter][graphite-twitter]) is a free,
+in-development raster and vector 2D graphics editor that will be based around a
+Rust-powered node graph compositing engine.
+
+July's [sprint][graphite-sprint-17] focused on editor-centric
+refactors upgrading stopgap measures to more robust systems.
+
+- Making a splash: The default document is replaced by a welcome splash screen
+following a refactor allowing for zero open documents.
+- Modifying for Macs: Input handling supports the nonstandard modifier keys on
+Mac keyboards, including labels in the UI.
+- Setting a high bar: The menu bar cleans up actions and supports new ones like
+*File* > *Import*. Displayed hotkeys are based on the actual key mapping
+source, varying by OS.
+- Keeping organized: The editor codebase is restructured to cut away technical
+debt and create consistency for new contributors and better docs going forward.
+
+Open the [Graphite editor][graphite-live-demo] in your browser to give it a try
+and share your creations with #MadeWithGraphite on Twitter.
+
+[graphite-website]: https://graphite.rs
+[graphite-repo]: https://github.com/GraphiteEditor/Graphite
+[graphite-discord]: https://discord.graphite.rs
+[graphite-twitter]: https://twitter.com/GraphiteEditor
+[graphite-sprint-17]: https://github.com/GraphiteEditor/Graphite/milestone/17
+[graphite-live-demo]: https://editor.graphite.rs
+
 ## Library Updates
 
 ### [hecs]
