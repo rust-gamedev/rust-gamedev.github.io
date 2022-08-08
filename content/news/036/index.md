@@ -783,12 +783,12 @@ next in line.
 [gl2pr]: https://github.com/not-fl3/miniquad/pull/305
 [mqcompat]: https://github.com/not-fl3/miniquad/pull/176
 
-### [bevy_fbx]
+### [bevy_mod_fbx]
 
 ![A model using a PBR shader featuring roughness and metalicness texture maps](bevy_fbx_maya_pbr.jpg)
 _model courtesy of [Samuel Rosario], rendered in bevy_
 
-[bevy_fbx] is a pre-alpha library to load FBX (Autodesk Filmbox) files
+[bevy_mod_fbx] is a pre-alpha library to load FBX (Autodesk Filmbox) files
 into [bevy] 0.8, based on [fbxcel-dom].
 It currently:
 
@@ -807,7 +807,7 @@ available on crates.io.
 
 [fbxcel-dom]: https://lib.rs/crates/fbxcel-dom
 [bevy]: https://bevyengine.org/
-[bevy_fbx]: https://github.com/HeavyRain266/bevy_fbx
+[bevy_mod_fbx]: https://github.com/HeavyRain266/bevy_mod_fbx
 [Samuel Rosario]: https://www.artstation.com/artwork/bKJ0EE
 
 ## Popular Workgroup Issues in Github
