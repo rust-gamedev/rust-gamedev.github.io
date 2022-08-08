@@ -294,15 +294,15 @@ in the best way possible: build a local multiplayer game, and get full online
 play for free!
 
 The WASM Api features powerful but simple built-in features like input,
-2d graphics, random number generation, and more. Limitations do exist, but are 
-flexible, such as resolutions up to 1920 x 1080, and a maximum of 256 color 
+2d graphics, random number generation, and more. Limitations do exist, but are
+flexible, such as resolutions up to 1920 x 1080, and a maximum of 256 color
 palettes with up to 64 colors each.
 
 The community around the project is small, but is looking to expand.
 Come on over to the [subreddit](Gamercade-Subreddit), or hang out and chat
 on [Discord](Gamercade-Discord), where the developers interact with members
-and post updates daily. The project is newly [open source](Gamercade-Github) and 
-looking for contributors, suggestions, as well as awesome game demos.
+and post updates daily. The project is newly [open source](Gamercade-Github)
+and looking for contributors, suggestions, as well as awesome game demos.
 
 _Discussions:
 [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/w8idew/announcing_gamercade_a_new_wasm_powered_fantasy),
