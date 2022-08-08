@@ -90,7 +90,7 @@ include:
 
 ### [Robo Instructus: 3 Years Old][robo-3]
 
-![game logo + OS logos](../024/robo-os.jpg)
+![game logo + OS logos](robo-os.jpg)
 
 In 2019 the programming puzzler [Robo Instructus][robo-site] released on
 [Steam][robo-steam] & [itch.io][robo-itch].
