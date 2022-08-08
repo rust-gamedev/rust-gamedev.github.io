@@ -149,7 +149,6 @@ _model courtesy of [Samuel Rosario], rendered in bevy_
 
 [bevy_fbx] is a pre-alpha library to load FBX (Autodesk Filmbox) files
 into [bevy] 0.8, based on [fbxcel-dom].
-
 It currently:
 
 - Loads geometry and meshes
@@ -158,11 +157,9 @@ It currently:
 - Loads the custom Maya PBR materials, including all material textures
 - Load the scene tree and translate it to bevy's hierarchy
 
-It will eventually:
-
-- Provide a basic Lambert/Phong shader to better handle more standard materials
-- Load skinned mesh skeletons and rigs
-- Load animations
+Planned features include providing a basic Lambert/Phong shader
+to better handle more standard materials,
+loading animations and skinned mesh skeletons/rigs.
 
 The project is poorly tested and is looking for testers. It will soon be
 available on crates.io.
