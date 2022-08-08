@@ -31,13 +31,14 @@ Feel free to send PRs about your own projects!
 [Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
+- [Announcements](#announcements)
 - [Game Updates](#game-updates)
-- [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
+- [Learning Material Updates](#learning-material-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
-- [Other News](#other-news)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
+- [Other News](#other-news)
 - [Meeting Minutes](#meeting-minutes)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
@@ -65,6 +66,38 @@ _Discussions:
 
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
+
+## Announcements
+
+### Rust GameDev Meetup
+
+![Gamedev meetup poster](gamedev-meetup.png)
+
+The 18th Rust Gamedev Meetup took place in July. You can watch the recording of
+the meetup [here on Youtube][gamedev-meetup-video]. Here was the schedule from
+the meetup:
+
+- RustConf Arcade Cabinet - [@carlosupina]
+- Blackjack - [@setzer22]
+- Dotrix - [@lowenware]
+- Graphite - [@GraphiteEditor]
+
+The meetups take place on the second Saturday every month via the [Rust Gamedev
+Discord server][rust-gamedev-discord] and are also [streamed on
+Twitch][rust-gamedev-twitch]. If you would like to show off what you've been
+working on at the next meetup on [August 13th][rust-meetup-time], fill out [this
+form][gamedev-meetup-form].
+
+[gamedev-meetup-video]: https://youtu.be/mnuchYuR_ck
+[rust-gamedev-discord]: https://discord.gg/yNtPTb2
+[rust-gamedev-twitch]: https://twitch.tv/rustgamedev
+[rust-meetup-time]: https://everytimezone.com/s/17260ccd
+[gamedev-meetup-form]: https://forms.gle/BS1zCyZaiUFSUHxe6
+
+[@carlosupina]: https://twitter.com/carlosupina
+[@setzer22]: https://twitter.com/playtheprocess
+[@lowenware]: https://twitter.com/lowenware
+[@GraphiteEditor]: https://twitter.com/graphiteeditor
 
 ## Game Updates
 
