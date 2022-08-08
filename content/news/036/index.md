@@ -282,6 +282,40 @@ and was showcased at [RustConf Portland] on August 5th 2022.
 [RustConf Portland]: https://rustconf.com
 [Bevy]: https://bevyengine.org
 
+### [Veloren][veloren]
+
+![Gliding above a forest](veloren.jpg)
+_New cave systems to explore_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In July, Veloren released 0.13! You can [read the full blog post][veloren-0.13]
+that includes a trailer for the release party, and information about the new
+features in the release. This release party set a new record of most players on
+the server at once, going from 195 to now 277! This version brings modular
+weapons, real-time weather, cliff towns, cave biomes, level of detail trees, and
+much more.
+
+Other than the release party, July saw lots of work getting done. The
+translation system is undergoing an overhaul. Work is being done on the
+Scrolling Combat Text system, which gives some visual indicator to how much
+damage or healing you're taking. Though is going into how to better handle
+server-side physics to reduce latency.
+
+July's full weekly devlogs: "This Week In Veloren...":
+[#179][veloren-179],
+[#180][veloren-180],
+[#181][veloren-181],
+[#182][veloren-182].
+
+[veloren]: https://veloren.net
+[veloren-0.13]: https://veloren.net/release-0-13
+[veloren-179]: https://veloren.net/devblog-179
+[veloren-180]: https://veloren.net/devblog-180
+[veloren-181]: https://veloren.net/devblog-181
+[veloren-182]: https://veloren.net/devblog-182
+
 ## Engine Updates
 
 ### [Bevy v0.8][bevy-blog]
