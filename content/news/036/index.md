@@ -463,6 +463,33 @@ next in line.
 [gl2pr]: https://github.com/not-fl3/miniquad/pull/305
 [mqcompat]: https://github.com/not-fl3/miniquad/pull/176
 
+### [bevy_fbx]
+
+![A model using a PBR shader featuring roughness and metalicness texture maps](bevy_fbx_maya_pbr.jpg)
+_model courtesy of [Samuel Rosario], rendered in bevy_
+
+[bevy_fbx] is a pre-alpha library to load FBX (Autodesk Filmbox) files
+into [bevy] 0.8, based on [fbxcel-dom].
+It currently:
+
+- Loads geometry and meshes
+- Loads mesh attributes such as color
+- Loads default material diffuse textures, normal maps and emissive maps
+- Loads the custom Maya PBR materials, including all material textures
+- Load the scene tree and translate it to bevy's hierarchy
+
+Planned features include providing a basic Lambert/Phong shader
+to better handle more standard materials,
+loading animations and skinned mesh skeletons/rigs.
+
+The project is poorly tested and is looking for testers. It will soon be
+available on crates.io.
+
+[fbxcel-dom]: https://lib.rs/crates/fbxcel-dom
+[bevy]: https://bevyengine.org/
+[bevy_fbx]: https://github.com/HeavyRain266/bevy_fbx
+[Samuel Rosario]: https://www.artstation.com/artwork/bKJ0EE
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
