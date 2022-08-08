@@ -31,13 +31,14 @@ Feel free to send PRs about your own projects!
 [Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 
+- [Announcements](#announcements)
 - [Game Updates](#game-updates)
-- [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
+- [Learning Material Updates](#learning-material-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
-- [Other News](#other-news)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
+- [Other News](#other-news)
 - [Meeting Minutes](#meeting-minutes)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
@@ -66,7 +67,95 @@ _Discussions:
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
+## Announcements
+
+### Rust GameDev Meetup
+
+![Gamedev meetup poster](gamedev-meetup.png)
+
+The 18th Rust Gamedev Meetup took place in July. You can watch the recording of
+the meetup [here on Youtube][gamedev-meetup-video]. Here was the schedule from
+the meetup:
+
+- RustConf Arcade Cabinet - [@carlosupina]
+- Blackjack - [@setzer22]
+- Dotrix - [@lowenware]
+- Graphite - [@GraphiteEditor]
+
+The meetups take place on the second Saturday every month via the [Rust Gamedev
+Discord server][rust-gamedev-discord] and are also [streamed on
+Twitch][rust-gamedev-twitch]. If you would like to show off what you've been
+working on at the next meetup on [August 13th][rust-meetup-time], fill out [this
+form][gamedev-meetup-form].
+
+[gamedev-meetup-video]: https://youtu.be/mnuchYuR_ck
+[rust-gamedev-discord]: https://discord.gg/yNtPTb2
+[rust-gamedev-twitch]: https://twitch.tv/rustgamedev
+[rust-meetup-time]: https://everytimezone.com/s/17260ccd
+[gamedev-meetup-form]: https://forms.gle/BS1zCyZaiUFSUHxe6
+
+[@carlosupina]: https://twitter.com/carlosupina
+[@setzer22]: https://twitter.com/playtheprocess
+[@lowenware]: https://twitter.com/lowenware
+[@GraphiteEditor]: https://twitter.com/graphiteeditor
+
+### Rust Game Ports Officialization
+
+![games collage](rust_game_ports.jpg)
+
+[64kramsystem][64kramsystem]'s Rust Game Ports [project][game-ports-project] has
+been officially adopted by the Rust game development working group.
+
+The project is intended to be a reference for Rust game development, helping
+developers, especially newcomers, to understand how to use Rust game libraries,
+and design Rust games in general.
+
+Devs are invited to explore and contribute! There are ports for all the levels
+and interests 😄
+
+[64kramsystem]: https://github.com/64kramsystem
+[game-ports-project]: https://github.com/rust-gamedev/rust-game-ports
+
 ## Game Updates
+
+### [Way of Rhea][wor]
+
+[![way of rhea capsule image](wor-capsule.jpg)][wor]
+
+[Way of Rhea][wor] is a puzzle adventure with hard puzzles and forgiving
+mechanics being produced by [@masonremaley][wor-mason-remaley] in a custom Rust
+engine. You can support development by
+[checking out the free demo and wishlisting on Steam][wor]!
+
+Way of Rhea was selected to be part of [PAX Rising online][wor-pax-rising]! It
+was also shown off in the June [Steam Game Festival][wor-steam-game-fest].
+Other recent updates:
+
+- Kotaku mentioned Way of Rhea in an article about
+  [fascinating upcoming indie games][wor-kotaku]
+- [Lost In Cult][wor-lic], a gaming journal, announced [preorders][wor-lic-pre] for
+  a new edition of Lock On containing a card game containing a card with a character
+  from Way of Rhea featured
+- Mason posted a video interview covering [why he became an indie dev][wor-interview],
+  among other things
+- Work has begun on puzzles for the final level of the game. This area combines the
+  puzzle elements from all previous biomes for a final set of challenging puzzles.
+- A weather system with [rain][wor-rain] and [snow][wor-snow] was added to the game
+- More progress was made on the unreleased Linux platform layer
+- More wildlife was added to the game
+- Some logging and editor improvements were made
+
+[wor]: https://store.steampowered.com/app/1110620/Way_of_Rhea/?utm_campaign=tmirgd&utm_source=n36
+[wor-pax-rising]: https://store.steampowered.com/sale/PAXRisingOnline
+[wor-steam-game-fest]: https://store.steampowered.com/sale/nextfest_june2022
+[wor-kotaku]: https://kotaku.com/steam-indie-games-pc-wishlist-arctic-awakening-1849140770
+[wor-mason-remaley]: https://twitter.com/masonremaley
+[wor-forum]: https://steamcommunity.com/app/1110620/discussions/0/3275817732933009791/
+[wor-rain]: https://twitter.com/AnthropicSt/status/1546207348259266560
+[wor-snow]: https://twitter.com/AnthropicSt/status/1546320074923024384
+[wor-lic]: https://www.lostincult.co.uk/
+[wor-lic-pre]: https://www.lostincult.co.uk/?aff=18
+[wor-interview]: https://youtu.be/H0sIsrLWojs
 
 ### Flesh
 
@@ -138,6 +227,95 @@ Interested in contributing? Head over to the
 [Botnet]: https://github.com/JMS55/botnet
 [botnet_ideas]: https://github.com/JMS55/botnet/discussions/categories/ideas
 
+### [Re-Rolling!]
+
+![Re-rolling gameplay](re-rolling_gameplay.png)
+
+[Re-Rolling!] by [@mystalice](https://twitter.com/mystalice) is a top-down 2D
+survival shooter where you fight off a horde of rats using weapons you randomly
+rolled.
+
+The game was created for [GMTK Jam 2022][rr_gmtk2022] in 48 hours and was
+heavily inspired by [20 Minutes Till Dawn][rr_20minutes].
+
+Re-Rolling! was made with Bevy using heron for physics, bevy_egui for in-game
+UI, and a handful of other helpful crates and plugins. You can browse the source
+on [GitHub][rr_github].
+
+[Re-Rolling!]: https://mystal.itch.io/re-rolling
+[rr_gmtk2022]: https://itch.io/jam/gmtk-jam-2022
+[rr_20minutes]: https://store.steampowered.com/app/1966900/20_Minutes_Till_Dawn/
+[rr_github]: https://github.com/mystal/re-rolling
+
+### [Robo Instructus: 3 Years Old][robo-3]
+
+![game logo + OS logos](robo-os.jpg)
+
+In 2019 the programming puzzler [Robo Instructus][robo-site] released on
+[Steam][robo-steam] & [itch.io][robo-itch].
+
+This month [Alex Butler][alex-butler] wrote ["Robo Instructus: 3 Years Old"][robo-3]
+about how well the game did in the last year & to date: Sales by
+platform/country/OS, player feedback, reviews & game updates.
+
+[robo-site]: https://www.roboinstruct.us
+[robo-steam]: https://store.steampowered.com/app/1032170/Robo_Instructus
+[robo-itch]: https://bigabgames.itch.io/robo-instructus
+[alex-butler]: https://twitter.com/bigabgames
+[robo-3]: https://blog.roboinstruct.us/2022/07/16/3-years-old.html
+
+### [Simon Arcade]
+
+![Simon arcade gameplay with arrows and buttons in different colors](simon.gif)
+_a Simon Arcade gameplay with cheats enabled_
+
+Based on [Simon (Original)], made with [Bevy],
+the goal of this game is to push buttons in the correct order,
+in an ever-increasing sequence.
+
+This game was made to fit with the [Rust Arcade Cabinet]
+and was showcased at [RustConf Portland] on August 5th 2022.
+
+[Simon Arcade]: https://github.com/Vrixyz/simon
+[Simon (Original)]: https://en.wikipedia.org/wiki/Simon_(game)
+[Rust Arcade Cabinet]: https://github.com/rust-arcade/bevy-rust-arcade
+[RustConf Portland]: https://rustconf.com
+[Bevy]: https://bevyengine.org
+
+### [Veloren][veloren]
+
+![Gliding above a forest](veloren.jpg)
+_New cave systems to explore_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In July, Veloren released 0.13! You can [read the full blog post][veloren-0.13]
+that includes a trailer for the release party, and information about the new
+features in the release. This release party set a new record of most players on
+the server at once, going from 195 to now 277! This version brings modular
+weapons, real-time weather, cliff towns, cave biomes, level of detail trees, and
+much more.
+
+Other than the release party, July saw lots of work getting done. The
+translation system is undergoing an overhaul. Work is being done on the
+Scrolling Combat Text system, which gives some visual indicator to how much
+damage or healing you're taking. Though is going into how to better handle
+server-side physics to reduce latency.
+
+July's full weekly devlogs: "This Week In Veloren...":
+[#179][veloren-179],
+[#180][veloren-180],
+[#181][veloren-181],
+[#182][veloren-182].
+
+[veloren]: https://veloren.net
+[veloren-0.13]: https://veloren.net/release-0-13
+[veloren-179]: https://veloren.net/devblog-179
+[veloren-180]: https://veloren.net/devblog-180
+[veloren-181]: https://veloren.net/devblog-181
+[veloren-182]: https://veloren.net/devblog-182
+
 ## Engine Updates
 
 ### [Bevy v0.8][bevy-blog]
@@ -192,7 +370,132 @@ _Discussions:
 [bevy-hierarchy]: https://bevyengine.org/news/bevy-0-8/#hierarchy-commands
 [bevy-taffy]: https://bevyengine.org/news/bevy-0-8/#taffy-migration-a-refreshed-ui-layout-library
 
+### [Dims][dims-website]
+
+![Concept art of a player creating a world in Dims](dims-concept-art.jpg)
+
+[Dims][dims-website] ([Twitter][dims-twitter], [Discord][dims-discord],
+[YouTube][dims-youtube]) is a pre-alpha collaborative open-world
+creation platform.
+Users can hop in sessions and build a game together, allowing everyone
+to bring out their inner game-maker.
+
+In July, development continued to make great strides. Some of the highlights
+include:
+
+- Continued work on the audio system, including in-game graphs of attenuation
+  and other audio-related functions
+- The introduction of an intent system that allows for user actions to be
+  undone and replayed arbitrarily
+- A complete UI facelift using Material UI icons and a new design language
+- A new scripting system using WebAssembly + WASI and Rust as a guest language
+  (look forward to an article on this soon!)
+- The beginnings of a shared asset database that lets you and your team easily
+  share assets amongst each other and with other projects
+- Various infrastructural and rendering fixes, including more accurate PBR
+
+Want to try Dims out for yourself? Come join the [Discord][dims-discord] to be
+notified of future public tests, see the latest features before everyone else,
+and to talk to the devs personally.
+
+[dims-website]: https://dims.co
+[dims-twitter]: https://twitter.com/DimsWorlds
+[dims-discord]: https://discord.gg/Z5CAVmNE57
+[dims-youtube]: https://youtube.com/channel/UCR5gOwS7uSl0a0dl7MLQoqg
+
+### [godot-rust][gd-github]
+
+![godot-rust logo](godot-rust.png)
+
+godot-rust ([GitHub][gd-github], [Discord][gd-discord], [Twitter][gd-twitter])
+is a Rust library that provides bindings for the Godot game engine.
+
+The last few months have been a bit quieter around godot-rust. A lot of this
+can be attributed to developers exploring the [GDExtension API][gd-gdext], the
+successor of GDNative for Godot 4. At this point, a lot of the foundation is
+still being built, however some more concrete plans are outlined in
+[#824][gd-824]. Further updates will be posted in that issue or on Twitter.
+
+Nevertheless, several improvements have been integrated to godot-rust since
+0.10, with [version 0.10.1 on the horizon][gd-907]. Some notable examples:
+
+- GDScript utility functions like `lerp`, `ease` or `linear2db` ([#901][gd-901])
+- Property support for standard collection types ([#883][gd-883])
+- Methods for `Rect2` and `Aabb` ([#867][gd-867])
+
+[gd-824]: https://github.com/godot-rust/godot-rust/issues/824
+[gd-883]: https://github.com/godot-rust/godot-rust/issues/883
+[gd-867]: https://github.com/godot-rust/godot-rust/issues/867
+[gd-901]: https://github.com/godot-rust/godot-rust/issues/901
+[gd-907]: https://github.com/godot-rust/godot-rust/issues/907
+[gd-github]: https://github.com/godot-rust/godot-rust
+[gd-discord]: https://discord.com/invite/FNudpBD
+[gd-twitter]: https://twitter.com/GodotRust
+[gd-gdext]: https://godotengine.org/article/introducing-gd-extensions
+
+### [Gamercade]
+
+![Gamercade preview](gamercade.gif)
+_WASM 3d CPU Rendering On a 2d Fantasy Console?_
+
+[Gamercade] ([Discord][Gamercade-Discord], [Github][Gamercade-Github])
+by @RobDavenport is a WASM powered fantasy console focused
+on building multiplayer neo-retro games.
+
+After over half a year in development, Gamercade and related tools are ready
+for pre-alpha testing. This includes the [console](Gamercade-Console) itself,
+as well as the [editor](Gamercade-Editor).
+
+Gamercade's killer feature is ease of developing multiplayer games.
+The console is able to simplify networked game development process
+in the best way possible: build a local multiplayer game, and get full online
+play for free!
+
+The WASM Api features powerful but simple built-in features like input,
+2d graphics, random number generation, and more. Limitations do exist, but are
+flexible, such as resolutions up to 1920 x 1080, and a maximum of 256 color
+palettes with up to 64 colors each.
+
+The community around the project is small, but is looking to expand.
+Come on over to the [subreddit](Gamercade-Subreddit), or hang out and chat
+on [Discord](Gamercade-Discord), where the developers interact with members
+and post updates daily. The project is newly [open source](Gamercade-Github)
+and looking for contributors, suggestions, as well as awesome game demos.
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/w8idew/announcing_gamercade_a_new_wasm_powered_fantasy),
+[/r/fantasyconsoles](https://reddit.com/r/fantasyconsoles/comments/w8ics8/announcing_gamercade_a_new_wasm_powered_fantasy)_
+
+[Gamercade]: https://gamercade.io
+[Gamercade-Console]: https://github.com/gamercade-io/gamercade_console
+[Gamercade-Editor]: https://github.com/gamercade-io/gamercade_editor
+[Gamercade-Discord]: https://discord.gg/Qafv2Fpt5j
+[Gamercade-Github]: https://github.com/gamercade-io
+
 ## Learning Material Updates
+
+### [Sand Fall With Compute Shaders in Rust]
+
+![sandfall_8k](./draw_sand.gif)
+_Drawing Sand_
+
+[@hakolao](https://github.com/hakolao) published a
+[tutorial](https://www.okkohakola.com/posts/sandfall_tutorial/) about creating
+[cellular automata](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
+sand fall simulations with compute shaders.
+
+Typically, cellular automata sand fall is done with the CPU due to the two way
+relationship between the cells on a grid. This article shows a way to tackle
+sand fall creation using compute shaders to achieve massive parallelism.
+
+Additional to compute shaders, this tutorial is a great introduction to the
+[Vulkano](https://github.com/vulkano-rs/vulkano) library. It also works as a
+good base for learning how to create simple graphics pipelines. You will also
+get to use Bevy and Egui.
+
+Discussion: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/vmynrq/sand_fall_with_compute_shaders_in_rust/)
+
+[sand fall with compute shaders in rust]: https://www.okkohakola.com/posts/sandfall_tutorial/
 
 ### Pathfinding in Rust
 
@@ -232,6 +535,29 @@ _Discussions: [Twitter](https://twitter.com/chrisbiscardi/status/154690999372672
 
 [chrisbiscardi-vid2]: https://youtube.com/watch?v=SOOOc9-joVo
 [@chrisbiscardi]: https://twitter.com/chrisbiscardi
+
+### [Rusteroids][rusteroids-youtube-playlist]
+
+![A screenshot of the latest Rusteroids tutorial](./rusteroids-screenshot-tutorial15.png)
+
+[Rusteroids][rusteroids-github] is a tutorial recreating a clone of Asteroids
+in Rust, using SDL2 and the [Specs][rust-specs-crate] library.
+
+New episodes are released weekly and added to the playlist. The most
+recent video shows how to safely create global state to store global values,
+such as the high score. The most recent code has been released for Windows, on
+[Itch.io][itch-io] (with other platforms coming soon).
+
+You can subscribe to the [YouTube Channel][electrocat-youtube],
+to never miss an episode, or follow [@ecatstudios][ecatstudios-twitter] on
+Twitter!
+
+[rusteroids-youtube-playlist]: https://youtube.com/playlist?list=PLFOS-Gn3aXROnSfl26esPExssd-rQw6jD
+[rusteroids-github]: https://github.com/filtoid/rusteroids
+[rust-specs-crate]: https://docs.rs/specs/latest/specs/
+[itch-io]: https://filtoid.itch.io/rusteroids
+[electrocat-youtube]: https://youtube.com/channel/UC1m6P72nySpB3lKWDYGVipw
+[ecatstudios-twitter]: https://twitter.com/ecatstudios
 
 ## Tooling Updates
 
@@ -287,6 +613,29 @@ post on the Discussion boards!
 [Blackjack]: https://github.com/setzer22/blackjack
 [blackjack-talk-yt]: https://onrendering.com/data/papers/catmark/HalfedgeCatmullClark.pdf
 
+### [bevy_shadertoy_wgsl] and [GLSL2WGSL]
+
+![Shaders courtesy of @leondenise.](shadertoy_wgsl_leon.gif)
+
+[bevy_shadertoy_wgsl] is a [Shadertoy] clone for the Bevy game engine,
+where the GLSL shader language is replaced by WGSL. It already comes
+with a dozen examples and plenty more to go. Feel free to add your own
+shaders to the list!
+
+Plus, [GLSL2WGSL] is a new translator tool that should help migrate the
+vast majority of GLSL code to WGSL.
+
+The above GIF showcases the new additions to the examples for
+[bevy_shadertoy_wgsl]: two shaders originally written in [Shadertoy] by
+[@leondenise], and translated to WGSL with the help of [GLSL2WGSL].
+The first part is a reproduction of Joe Gardner from the movie Soul,
+and the second part is a lightweight fluid shader.
+
+[bevy_shadertoy_wgsl]: https://github.com/eliotbo/bevy_shadertoy_wgsl
+[Shadertoy]: https://www.shadertoy.com
+[GLSL2WGSL]: https://eliotbo.github.io/glsl2wgsl/
+[@leondenise]: https://twitter.com/leondenise
+
 ### [Graphite][graphite-website]
 
 ![Graphite](graphite.png)
@@ -320,6 +669,21 @@ and share your creations with #MadeWithGraphite on Twitter.
 [graphite-live-demo]: https://editor.graphite.rs
 
 ## Library Updates
+
+### [bevy_godot]
+
+[bevy_godot] is an in-development library that offers a familiar Bevy environment
+inside of the [Godot Engine][godot-engine]. [bevy_godot] currently features Scene
+Tree integration, collision detection, spawning Godot scenes from Bevy, and
+included examples to demonstrate the API. The upcoming update will feature Godot
+signal events, Bevy assets integration, and a full implementation of the Dodge
+the Creeps example game.
+
+[bevy_godot] is looking for contributors to help grow the library to fit all
+Godot Engine game development needs.
+
+[bevy_godot]: https://github.com/rand0m-cloud/bevy_godot
+[godot-engine]: https://godotengine.org
 
 ### [hecs]
 
@@ -398,6 +762,53 @@ Renet comes with [bevy_renet], a plugin for the Bevy engine, and also with
 [@lucaspoffo]: https://github.com/lucaspoffo
 [bevy_renet]: https://github.com/lucaspoffo/renet/tree/master/bevy_renet
 [renet_visualizer]: https://github.com/lucaspoffo/renet/tree/master/renet_visualizer
+
+### [miniquad]
+
+![miniquad fileopen](miniquad_gl2.gif)
+*VirtualBox, gl2 as the only GPU accelaration available*
+
+[miniquad] is a safe and cross-platform rendering library
+focused on portability and low-end platform support.
+
+This month [OpenGl 2.1/GLESv2][gl2pr] PR got merged, adding support for old
+android phones, virtual machines, and just old computers.
+
+While the PR itself is quite small, it solved a very old design issue:
+[compatibilities proposal][mqcompat]. Fixing this issue opened the door for
+both lower-end backends, like gl1, and higher-level backends. Metal being the
+next in line.
+
+[miniquad]: https://github.com/not-fl3/miniquad/
+[gl2pr]: https://github.com/not-fl3/miniquad/pull/305
+[mqcompat]: https://github.com/not-fl3/miniquad/pull/176
+
+### [bevy_fbx]
+
+![A model using a PBR shader featuring roughness and metalicness texture maps](bevy_fbx_maya_pbr.jpg)
+_model courtesy of [Samuel Rosario], rendered in bevy_
+
+[bevy_fbx] is a pre-alpha library to load FBX (Autodesk Filmbox) files
+into [bevy] 0.8, based on [fbxcel-dom].
+It currently:
+
+- Loads geometry and meshes
+- Loads mesh attributes such as color
+- Loads default material diffuse textures, normal maps and emissive maps
+- Loads the custom Maya PBR materials, including all material textures
+- Load the scene tree and translate it to bevy's hierarchy
+
+Planned features include providing a basic Lambert/Phong shader
+to better handle more standard materials,
+loading animations and skinned mesh skeletons/rigs.
+
+The project is poorly tested and is looking for testers. It will soon be
+available on crates.io.
+
+[fbxcel-dom]: https://lib.rs/crates/fbxcel-dom
+[bevy]: https://bevyengine.org/
+[bevy_fbx]: https://github.com/HeavyRain266/bevy_fbx
+[Samuel Rosario]: https://www.artstation.com/artwork/bKJ0EE
 
 ## Popular Workgroup Issues in Github
 
