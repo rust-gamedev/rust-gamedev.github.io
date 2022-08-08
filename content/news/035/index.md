@@ -95,7 +95,7 @@ or [Google Podcasts][gamedev-podcast-google].
 
 ![Gamedev meetup poster](gamedev-meetup.png)
 
-The 17th Rust Gamedev Meetup took place in May. You can watch the recording of
+The 17th Rust Gamedev Meetup took place in June. You can watch the recording of
 the meetup [here on Youtube][gamedev-meetup-video]. Here was the schedule from
 the meetup:
 
