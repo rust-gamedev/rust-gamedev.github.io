@@ -88,16 +88,16 @@ include:
 [Tetra]: https://github.com/17cupsofcoffee/tetra
 [steamworks]: https://crates.io/crates/steamworks
 
-### Agma
+### [Agma]
 
-![moving around](./smol_moving_around.gif)
-_Moving Around_
+![an animated black-colored character runs around and attacks anoter one](smol_moving_around.gif)
+_Moving around_
 
 [Agma] by [@TuckerBMorgan] is a 3D game built in the [Storm Engine] that is based
 on games like Lost Ark and Diablo. The author has been writing about their experience
-with changing how they approach working on personal projects [here]. It is built using
-a custom UDP based networking stack, a custom ECS, and custom skinned mesh renderer to
-maximize what the author could learn.
+with changing how they approach working on personal projects [here].
+It is built using a custom UDP based networking stack, a custom ECS,
+and custom skinned mesh renderer to maximize what the author could learn.
 
 [Agma]: github.com/TuckerBMorgan/Agma
 [@TuckerBMorgan]: https://twitter.com/T_B_Morgan
