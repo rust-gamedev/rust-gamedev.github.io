@@ -116,6 +116,26 @@ and interests 😄
 [64kramsystem]: https://github.com/64kramsystem
 [game-ports-project]: https://github.com/rust-gamedev/rust-game-ports
 
+### [Ferris 3D Got Released!][ferris3d-github]
+
+![colorful render of a 3d model of Ferris with additional wireframe view](raymarch_ferris_3d_release.jpg)
+
+[@RayMarch][raymarch-twitter] created a 3d model of [Ferris the Rustacean][ferris]
+for the Rust community!
+
+The model is [now available for free here on github][ferris3d-github]!
+
+It was released into the [public domain][public-domain] so you can use it
+however you like, even commercially!
+
+_Discussions: [Twitter][raymarch-twitter-release]_
+
+[ferris]: https://rustacean.net/
+[raymarch-twitter]: https://twitter.com/Ray__March
+[raymarch-twitter-release]: https://twitter.com/Ray__March/status/1554115149312790529
+[ferris3d-github]: https://github.com/RayMarch/ferris3d
+[public-domain]: https://creativecommons.org/publicdomain/zero/1.0/
+
 ## Game Updates
 
 ### [Way of Rhea][wor]
@@ -809,6 +829,30 @@ available on crates.io.
 [bevy]: https://bevyengine.org/
 [bevy_mod_fbx]: https://github.com/HeavyRain266/bevy_mod_fbx
 [Samuel Rosario]: https://www.artstation.com/artwork/bKJ0EE
+
+### [shame]
+
+![logo of shame - shader metaprogramming](raymarch_shame.jpg)
+
+[shame] lets you author shaders and pipeline layouts
+in a single seamless piece of rust code. It offers:
+
+- a simple and lightweight setup,
+- type checks from input assembly all the way to fragment output,
+- (re)generate different shaders/pipelines based on runtime parameters,
+- [shader hot reloading][shame-examples],
+- [examples using wgpu][shame-examples]!
+
+A Discord channel for questions/feedback is linked in the
+[Github readme][shame].
+
+<!-- i am unable to generate a permanent discord invite link,
+thats why i link to the project github, where i can update the
+link once it is outdated -->
+
+[raymarch-github]: https://github.com/RayMarch
+[shame]: https://github.com/RayMarch/shame
+[shame-examples]: https://github.com/RayMarch/shame/tree/main/examples
 
 ## Popular Workgroup Issues in Github
 
