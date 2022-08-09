@@ -846,7 +846,9 @@ in a single seamless piece of rust code. It offers:
 A Discord channel for questions/feedback is linked in the
 [Github readme][shame].
 
-<!-- i am unable to generate a permanent discord invite link, thats why i link to the project github, where i can update the link once it is outdated -->
+<!-- i am unable to generate a permanent discord invite link,
+thats why i link to the project github, where i can update the
+link once it is outdated -->
 
 [raymarch-github]: https://github.com/RayMarch
 [shame]: https://github.com/RayMarch/shame
