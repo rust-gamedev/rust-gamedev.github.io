@@ -373,7 +373,7 @@ with changing how they approach working on personal projects [here].
 It is built using a custom UDP-based networking stack, a custom ECS,
 and a custom-skinned mesh renderer to maximize what the author could learn.
 
-[Agma]: github.com/TuckerBMorgan/Agma
+[Agma]: https://github.com/TuckerBMorgan/Agma
 [@TuckerBMorgan]: https://twitter.com/T_B_Morgan
 [here]: https://medium.com/@tucker.bull.morgan/summoning-a-devil-544b130c8889
 [Storm Engine]: https://github.com/mooman219/Storm
@@ -703,7 +703,7 @@ _Discussions:
 ![NES Bundler running Data Man with GUI showing](nes-bundler.png)
 _NES Bundler in action_
 
-[NES Bundler][nes-bundler] by [@tedsteen].
+[NES Bundler][nes-bundler] is a NES ROM packaging tool by [@tedsteen].
 Did you make a NES-game but none of your friends own a Nintendo? Don't worry.
 Put your ROM and configuration in NES Bundler and build an executable for Mac,
 Windows or Linux. What you get is a single executable with
