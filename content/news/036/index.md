@@ -376,7 +376,7 @@ and a custom skinned mesh renderer to maximize what the author could learn.
 [Agma]: github.com/TuckerBMorgan/Agma
 [@TuckerBMorgan]: https://twitter.com/T_B_Morgan
 [here]: https://medium.com/@tucker.bull.morgan/summoning-a-devil-544b130c8889
-[Storm Engine]: github.com/mooman219/Storm
+[Storm Engine]: https://github.com/mooman219/Storm
 
 ### [Combine&Conquer][cnc-logs]
 
