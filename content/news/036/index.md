@@ -1160,7 +1160,6 @@ useful information -->
 - [luminance's "low hanging fruit" issues][luminance-fruits].
 - [ggez's "good first issue" issues][ggez-issues].
 - [Veloren's "beginner" issues][veloren-beginner].
-- [Amethyst's "good first issue" issues][amethyst-issues].
 - [A/B Street's "good first issue" issues][abstreet-issues].
 - [Mun's "good first issue" issues][mun-issues].
 - [SIMple Mechanic's good first issues][simm-issues].
@@ -1176,7 +1175,6 @@ useful information -->
 [luminance-fruits]: https://github.com/phaazon/luminance-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22low+hanging+fruit%22
 [ggez-issues]: https://github.com/ggez/ggez/labels/%2AGOOD%20FIRST%20ISSUE%2A
 [veloren-beginner]: https://gitlab.com/veloren/veloren/issues?label_name=beginner
-[amethyst-issues]: https://github.com/amethyst/amethyst/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
 [abstreet-issues]: https://github.com/a-b-street/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
 [mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
 [simm-issues]: https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue
