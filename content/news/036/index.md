@@ -546,8 +546,8 @@ by @RobDavenport is a WASM powered fantasy console focused
 on building multiplayer neo-retro games.
 
 After over half a year in development, Gamercade and related tools are ready
-for pre-alpha testing. This includes the [console](Gamercade-Console) itself,
-as well as the [editor](Gamercade-Editor).
+for pre-alpha testing. This includes the [console][Gamercade-Console] itself,
+as well as the [editor][Gamercade-Editor].
 
 Gamercade's killer feature is the ease of developing multiplayer games.
 The console is able to simplify networked game development process
@@ -560,9 +560,9 @@ flexible, such as resolutions up to 1920 x 1080, and a maximum of 256 color
 palettes with up to 64 colors each.
 
 The community around the project is small, but is looking to expand.
-Come on over to the [subreddit](Gamercade-Subreddit), or hang out and chat
-on [Discord](Gamercade-Discord), where the developers interact with members
-and post updates daily. The project is newly [open source](Gamercade-Github)
+Come on over to the [subreddit][Gamercade-Subreddit], or hang out and chat
+on [Discord][Gamercade-Discord], where the developers interact with members
+and post updates daily. The project is newly [open source][Gamercade-Github]
 and looking for contributors, suggestions, as well as awesome game demos.
 
 _Discussions:
@@ -632,7 +632,7 @@ _Discussions: [Twitter](https://twitter.com/chrisbiscardi/status/154908959997193
 
 ### [What's in a wgsl fragment shader? ft Bevy][chrisbiscardi-vid2]
 
-[![vertex shaders example](creating-mountains-from-planes-with-vertex-shaders-and-bevy.png)][chrisbiscardi-vid2]
+[![vertex shaders example](whats-in-a-wgsl-fragment-shader-with-bevy.png)][chrisbiscardi-vid2]
 _What's in a wgsl fragment shader? ft Bevy_
 
 [@chrisbiscardi] published a [video][chrisbiscardi-vid2]
