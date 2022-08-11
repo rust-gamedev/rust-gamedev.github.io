@@ -338,7 +338,7 @@ Fortress and Cube World.
 
 In July, Veloren released 0.13! You can [read the full blog post][veloren-0.13]
 that includes a trailer for the release party, and information about the new
-features in the release. This release party set a new record of most players on
+features in the release. This release party set a new record for most players on
 the server at once, going from 195 to now 277! This version brings modular
 weapons, real-time weather, cliff towns, cave biomes, level of detail trees, and
 much more.
@@ -370,8 +370,8 @@ _Moving around_
 [Agma] by [@TuckerBMorgan] is a 3D game built in the [Storm Engine] that is based
 on games like Lost Ark and Diablo. The author has been writing about their experience
 with changing how they approach working on personal projects [here].
-It is built using a custom UDP based networking stack, a custom ECS,
-and a custom skinned mesh renderer to maximize what the author could learn.
+It is built using a custom UDP-based networking stack, a custom ECS,
+and a custom-skinned mesh renderer to maximize what the author could learn.
 
 [Agma]: github.com/TuckerBMorgan/Agma
 [@TuckerBMorgan]: https://twitter.com/T_B_Morgan
@@ -388,7 +388,7 @@ about automation similar to Satisfactory or Factorio.
 This month's updates include:
 
 - [Audio support, a new space view, colonization of planets,
-  inventory overlay and better notifications][cnc-log-0-8].
+  inventory overlay, and better notifications][cnc-log-0-8].
 - [New textures for structures, info box, updated overlays and modles][cnc-log-0-9].
 
 [@I3ck]: https://github.com/I3ck
@@ -411,9 +411,9 @@ coding game "Life Code":
 > I will be creating the art and models in the game using Blender.
 >
 > This will be a coding game which means players will have to use languages
-> such as Python, Javascript, Rust, C++ and hopefully many more.
+> such as Python, Javascript, Rust, C++, and hopefully many more.
 > It will be possible to play even if you don't know how to code but the game
-> will try to guide you to use real code instead on predefined behavior sets.
+> will try to guide you to use real code instead of predefined behavior sets.
 > Follow my journey where I try to create an impossible solo indie game
 > with little to no game dev experience.
 
@@ -516,7 +516,7 @@ is a Rust library that provides bindings for the Godot game engine.
 The last few months have been a bit quieter around godot-rust. A lot of this
 can be attributed to developers exploring the [GDExtension API][gd-gdext], the
 successor of GDNative for Godot 4. At this point, a lot of the foundation is
-still being built, however some more concrete plans are outlined in
+still being built, however, some more concrete plans are outlined in
 [#824][gd-824]. Further updates will be posted in that issue or on Twitter.
 
 Nevertheless, several improvements have been integrated to godot-rust since
@@ -542,7 +542,7 @@ Nevertheless, several improvements have been integrated to godot-rust since
 _WASM 3d CPU Rendering On a 2d Fantasy Console?_
 
 [Gamercade] ([Discord][Gamercade-Discord], [Github][Gamercade-Github])
-by @RobDavenport is a WASM powered fantasy console focused
+by @RobDavenport is a WASM-powered fantasy console focused
 on building multiplayer neo-retro games.
 
 After over half a year in development, Gamercade and related tools are ready
@@ -673,7 +673,7 @@ Twitter!
 ![A screenshot from RuggRogue: a tiled view on a dungeon
 and a classic textual UI](ruggrogue.png)
 
-[@tung] has been working on simple web-playable roguelike [RuggRogue][ruggrogue]
+[@tung] has been working on a simple web-playable roguelike [RuggRogue][ruggrogue]
 inspired by the [Rust Roguelike Tutorial][rl-tut]
 and documented the source code structure in a guide:
 
@@ -713,7 +713,7 @@ Windows or Linux. What you get is a single executable with
 - Save/Restore state
 - Netplay!
 
-It's early days, but the key features are there and work is ongoing
+It's early days, but the key features are there, and work is ongoing
 to make it more mature!
 
 [nes-bundler]: https://github.com/tedsteen/nes-bundler
@@ -728,8 +728,8 @@ using rend3, wgpu, and egui. It follows the steps of applications like
 Houdini, or Blender's geometry nodes project and provides a node-based
 environment to compose procedural recipes to create 3d models.
 
-The focus for the past few months has been into evolving Blackjack from a proof
-of concept into a usable application. It's current status is not yet production
+The focus for the past few months has been on evolving Blackjack from a proof
+of concept into a usable application. Its current status is not yet production
 ready, but it can now be used to build complex procedural models editable inside
 a game engine thanks to its new engine integration system.
 
@@ -934,7 +934,7 @@ This month [OpenGl 2.1/GLESv2][gl2pr] PR got merged, adding support for old
 android phones, virtual machines, and just old computers.
 While the PR itself is quite small, it solved a very old design issue:
 [compatibilities proposal][mqcompat]. Fixing this issue opened the door for
-both lower-end backends, like gl1, and higher-level backends. Metal being the
+both lower-end backends, like gl1, and higher-level backends. Metal is the
 next in line.
 
 [miniquad]: https://github.com/not-fl3/miniquad/
@@ -952,7 +952,7 @@ It currently:
 
 - Loads geometry and meshes
 - Loads mesh attributes such as color
-- Loads default material diffuse textures, normal maps and emissive maps
+- Loads default material diffuse textures, normal maps, and emissive maps
 - Loads the custom Maya PBR materials, including all material textures
 - Load the scene tree and translate it to bevy's hierarchy
 
@@ -1001,7 +1001,7 @@ _A visualization of a simple NPC behavior tree_
 [bonsai-bt] by [@Sollimann] is a Rust implementation of behavior trees.
 
 > A Behavior Tree (BT) is a data structure in which we can set the rules of how
-> certain behavior's can occur, and the order in which they would execute.
+> certain behaviors can occur and the order in which they would execute.
 > BTs are a very efficient way of creating complex systems that
 > are both modular and reactive.
 > These properties are crucial in many applications,
@@ -1015,7 +1015,7 @@ _Discussions: [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/vxk8h
 
 ### [shades] and [shades-edsl]
 
-![a sorce code that uses shades and a running app with the result:
+![a source code that uses shades and a running app with the result:
 a gradient from green to red](shades-edsl.png)
 
 [@phaazon] has published [a detailed article][shades-article] that introduces
@@ -1105,8 +1105,8 @@ _Discussions: [/r/rust](https://reddit.com/r/rust/comments/w92aya/fdg)_
   - [bevy_roguelike] is a project that implements reusable Bevy ECS
     systems and components for writing roguelike games.
 - Other library updates:
-  - [wgpu v0.13 and naga v0.9][wgpu-13] bring newest WGSL spec support,
-    improved presentation and pipelining, and lots of ther performance
+  - [wgpu v0.13 and naga v0.9][wgpu-13] bring the newest WGSL spec support,
+    improved presentation and pipelining, and lots of performance
     and correctness improvements. The devs also decided to make the DX12 backend
     default on Windows and are looking for testers.
   - [bevy_pancam] is a 2d-camera plugin for Bevy that works with orthographic cameras.
