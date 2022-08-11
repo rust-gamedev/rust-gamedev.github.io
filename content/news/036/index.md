@@ -1,8 +1,8 @@
 +++
 title = "This Month in Rust GameDev #36 - July 2022"
 transparent = true
-date = 2022-08-01
-draft = true
+date = 2022-08-11
+draft = false
 +++
 
 <!-- no toc -->
@@ -37,13 +37,9 @@ Feel free to send PRs about your own projects!
 - [Learning Material Updates](#learning-material-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Other News](#other-news)
-- [Meeting Minutes](#meeting-minutes)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
-- [Jobs](#jobs)
-- [Bonus](#bonus)
 
 <!--
 Ideal section structure is:
@@ -93,7 +89,6 @@ form][gamedev-meetup-form].
 [rust-gamedev-twitch]: https://twitch.tv/rustgamedev
 [rust-meetup-time]: https://everytimezone.com/s/17260ccd
 [gamedev-meetup-form]: https://forms.gle/BS1zCyZaiUFSUHxe6
-
 [@carlosupina]: https://twitter.com/carlosupina
 [@setzer22]: https://twitter.com/playtheprocess
 [@lowenware]: https://twitter.com/lowenware
@@ -135,6 +130,37 @@ _Discussions: [Twitter][raymarch-twitter-release]_
 [raymarch-twitter-release]: https://twitter.com/Ray__March/status/1554115149312790529
 [ferris3d-github]: https://github.com/RayMarch/ferris3d
 [public-domain]: https://creativecommons.org/publicdomain/zero/1.0/
+
+### [Tokyo Rust Game Hack Event][tokyo-event]: Aug 12th
+
+![pixelart ferris and bombs](bombercrab.jpeg)
+
+The team at [tonari.no](http://tonari.no) is back with the second edition
+of the Tokyo Rust Game Hack event!
+
+> For this edition of the Game Hack event, we're dragging you back
+> through the mists of time, to the earlier days of arcade games.
+> We've built a Bevy-powered, simple reimagining of classic Bomberman,
+> with a modern twist.
+> Players don't participate by taking turns on an arcade stick.
+> Instead, we will provide a crate that defines the character's
+> interaction with the world through a Player trait.
+> By simply implementing that trait and compiling to a wasm target,
+> you'll be able to upload your character to the game, live.
+> Adapt your strategy on the fly and bomb your way into the scoreboard!
+
+[The player template repository][bombercrab-player] is open sourced
+ahead of time so you can get a nice headstart.
+
+If you decide to come please sign up on [the event's page][tokyo-event].
+You can participate physically or online, see the full announcement
+for the details.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/w7bktx/2022_tokyo_rust_game_hack_event)_
+
+[tokyo-event]: https://bombercrab-rust-game-hack.peatix.com/view
+[bombercrab-player]: https://github.com/tonarino/bombercrab-player
 
 ## Game Updates
 
@@ -199,7 +225,7 @@ include:
 
 ### [CyberGate][cybergate-yt]
 
-![hundreds of colliding colored balls in the air](entities.png)
+![hundreds of colliding colored balls in the air](cybergate.jpg)
 _The server and clients are able to smoothly handle
 over a thousand balls rained from above_
 
@@ -215,7 +241,7 @@ Recent updates:
 - Interpolation and Jitter prediction makes entities way smoother.
 - Automatic and Reliable Spawn and Despawn of entities.
 - Many other features and optimizations to do with rapier 3d physics,
-  wgpu renderer and quinn (quic) protocol.
+  wgpu renderer, and quinn (quic) protocol.
 
 [Join the Discord server][cybergate-dis] to participate in tests.
 
@@ -226,7 +252,7 @@ _Discussions: [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/vy7vm
 
 ### [Botnet]
 
-![botnet screenshot](botnet.png)
+![A grid with dots and arrows](botnet.png)
 
 [Botnet] is an upcoming programming-based multiplayer game, where you write
 scripts (compiled to WebAssembly) to control robots. Coordinate your network
@@ -234,7 +260,7 @@ of bots to gather resources, build new industry, and expand your control of
 the server!
 
 This month was primarily spent on BotnetReplayViewer - a visual program to
-watch matches, and inspect entity data.
+watch matches and inspect entity data.
 
 Additionally, the antenna structure was added. Building an antenna gives you
 control over the bay (room) it's in, letting you build additional structures,
@@ -242,7 +268,7 @@ and increasing the total number of bots you can control. Bots can also use
 antennas to store resources.
 
 Interested in contributing? Head over to the
-[github discussion page][botnet_ideas] and suggest some ideas!
+[Github discussion page][botnet_ideas] and suggest some ideas!
 
 [Botnet]: https://github.com/JMS55/botnet
 [botnet_ideas]: https://github.com/JMS55/botnet/discussions/categories/ideas
@@ -271,8 +297,8 @@ on [GitHub][rr_github].
 
 ![game logo + OS logos](robo-os.jpg)
 
-In 2019 the programming puzzler [Robo Instructus][robo-site] released on
-[Steam][robo-steam] & [itch.io][robo-itch].
+In 2019 the programming puzzler [Robo Instructus][robo-site] was released
+on [Steam][robo-steam] & [itch.io][robo-itch].
 
 This month [Alex Butler][alex-butler] wrote ["Robo Instructus: 3 Years Old"][robo-3]
 about how well the game did in the last year & to date: Sales by
@@ -312,7 +338,7 @@ Fortress and Cube World.
 
 In July, Veloren released 0.13! You can [read the full blog post][veloren-0.13]
 that includes a trailer for the release party, and information about the new
-features in the release. This release party set a new record of most players on
+features in the release. This release party set a new record for most players on
 the server at once, going from 195 to now 277! This version brings modular
 weapons, real-time weather, cliff towns, cave biomes, level of detail trees, and
 much more.
@@ -338,19 +364,60 @@ July's full weekly devlogs: "This Week In Veloren...":
 
 ### [Agma]
 
-![an animated black-colored character runs around and attacks anoter one](smol_moving_around.gif)
+![an animated black-colored character runs around and attacks anoter one](agma.gif)
 _Moving around_
 
 [Agma] by [@TuckerBMorgan] is a 3D game built in the [Storm Engine] that is based
 on games like Lost Ark and Diablo. The author has been writing about their experience
 with changing how they approach working on personal projects [here].
-It is built using a custom UDP based networking stack, a custom ECS,
-and custom skinned mesh renderer to maximize what the author could learn.
+It is built using a custom UDP-based networking stack, a custom ECS,
+and a custom-skinned mesh renderer to maximize what the author could learn.
 
-[Agma]: github.com/TuckerBMorgan/Agma
+[Agma]: https://github.com/TuckerBMorgan/Agma
 [@TuckerBMorgan]: https://twitter.com/T_B_Morgan
 [here]: https://medium.com/@tucker.bull.morgan/summoning-a-devil-544b130c8889
-[Storm Engine]: github.com/mooman219/Storm
+[Storm Engine]: https://github.com/mooman219/Storm
+
+### [Combine&Conquer][cnc-logs]
+
+![zoomin gout from individual tiles to the whole space system](cnc.gif)
+_Seamless transition between planet and space views_
+
+[Combine&Conquer][cnc-itch] by [Martin Buck][@I3ck] is a WIP strategy game
+about automation similar to Satisfactory or Factorio.
+This month's updates include:
+
+- [Audio support, a new space view, colonization of planets,
+  inventory overlay, and better notifications][cnc-log-0-8].
+- [New textures for structures, info box, updated overlays and modles][cnc-log-0-9].
+
+[@I3ck]: https://github.com/I3ck
+[cnc-itch]: https://martinbucksoftware.itch.io
+[cnc-logs]: https://buckmartin.de/combine-and-conquer.html
+[cnc-log-0-8]: https://buckmartin.de/combine-and-conquer/2022-07-06-v0.0.8.html
+[cnc-log-0-9]: https://buckmartin.de/combine-and-conquer/2022-07-31-v0.0.9.html
+
+### Life Code
+
+[![Youtube video preview: lowpoly raccoon, "crazy eco dong game" text
+and logos of Bevy, Rust and WebAssembly](lifecode.jpg)][lifecode-video]
+
+[Bytellation shared the first video devlog][lifecode-video] of a WIP ecosystem
+coding game "Life Code":
+
+> The game is intended to run in the browser and will be written
+> in Rust which will be compiled to WASM.
+> I'm using a very new and not yet matured game engine called Bevy.
+> I will be creating the art and models in the game using Blender.
+>
+> This will be a coding game which means players will have to use languages
+> such as Python, Javascript, Rust, C++, and hopefully many more.
+> It will be possible to play even if you don't know how to code but the game
+> will try to guide you to use real code instead of predefined behavior sets.
+> Follow my journey where I try to create an impossible solo indie game
+> with little to no game dev experience.
+
+[lifecode-video]: https://youtube.com/watch?v=a6ZnhXGp3JI
 
 ## Engine Updates
 
@@ -383,7 +450,7 @@ blog post here][bevy-blog], but here are some highlights:
 - [Bevy UI Now Uses Taffy][bevy-taffy]
 
 _Discussions:
-[/r/rust](https://www.reddit.com/r/rust/comments/wc0sqc/bevy_08/),
+[/r/rust](https://reddit.com/r/rust/comments/wc0sqc/bevy_08),
 [Hacker News](https://news.ycombinator.com/item?id=32287828),
 [Twitter](https://twitter.com/cart_cart/status/1553411157662187521)_
 
@@ -449,15 +516,15 @@ is a Rust library that provides bindings for the Godot game engine.
 The last few months have been a bit quieter around godot-rust. A lot of this
 can be attributed to developers exploring the [GDExtension API][gd-gdext], the
 successor of GDNative for Godot 4. At this point, a lot of the foundation is
-still being built, however some more concrete plans are outlined in
+still being built, however, some more concrete plans are outlined in
 [#824][gd-824]. Further updates will be posted in that issue or on Twitter.
 
 Nevertheless, several improvements have been integrated to godot-rust since
 0.10, with [version 0.10.1 on the horizon][gd-907]. Some notable examples:
 
-- GDScript utility functions like `lerp`, `ease` or `linear2db` ([#901][gd-901])
+- GDScript utility functions like lerp, ease or linear2db ([#901][gd-901])
 - Property support for standard collection types ([#883][gd-883])
-- Methods for `Rect2` and `Aabb` ([#867][gd-867])
+- Methods for Rect2 and Aabb ([#867][gd-867])
 
 [gd-824]: https://github.com/godot-rust/godot-rust/issues/824
 [gd-883]: https://github.com/godot-rust/godot-rust/issues/883
@@ -475,14 +542,14 @@ Nevertheless, several improvements have been integrated to godot-rust since
 _WASM 3d CPU Rendering On a 2d Fantasy Console?_
 
 [Gamercade] ([Discord][Gamercade-Discord], [Github][Gamercade-Github])
-by @RobDavenport is a WASM powered fantasy console focused
+by @RobDavenport is a WASM-powered fantasy console focused
 on building multiplayer neo-retro games.
 
 After over half a year in development, Gamercade and related tools are ready
-for pre-alpha testing. This includes the [console](Gamercade-Console) itself,
-as well as the [editor](Gamercade-Editor).
+for pre-alpha testing. This includes the [console][Gamercade-Console] itself,
+as well as the [editor][Gamercade-Editor].
 
-Gamercade's killer feature is ease of developing multiplayer games.
+Gamercade's killer feature is the ease of developing multiplayer games.
 The console is able to simplify networked game development process
 in the best way possible: build a local multiplayer game, and get full online
 play for free!
@@ -493,9 +560,9 @@ flexible, such as resolutions up to 1920 x 1080, and a maximum of 256 color
 palettes with up to 64 colors each.
 
 The community around the project is small, but is looking to expand.
-Come on over to the [subreddit](Gamercade-Subreddit), or hang out and chat
-on [Discord](Gamercade-Discord), where the developers interact with members
-and post updates daily. The project is newly [open source](Gamercade-Github)
+Come on over to the [subreddit][Gamercade-Subreddit], or hang out and chat
+on [Discord][Gamercade-Discord], where the developers interact with members
+and post updates daily. The project is newly [open source][Gamercade-Github]
 and looking for contributors, suggestions, as well as awesome game demos.
 
 _Discussions:
@@ -510,17 +577,15 @@ _Discussions:
 
 ## Learning Material Updates
 
-### [Sand Fall With Compute Shaders in Rust]
+### [Sand Fall With Compute Shaders in Rust][sandfall-tutorial]
 
-![sandfall_8k](./draw_sand.gif)
+![sandfall_8k](draw_sand.gif)
 _Drawing Sand_
 
-[@hakolao](https://github.com/hakolao) published a
-[tutorial](https://www.okkohakola.com/posts/sandfall_tutorial/) about creating
-[cellular automata](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
-sand fall simulations with compute shaders.
+[@hakolao] published a [tutorial][sandfall-tutorial] about creating
+[cellular automata][wiki-cgol] sand fall simulations with compute shaders.
 
-Typically, cellular automata sand fall is done with the CPU due to the two way
+Typically, cellular automata sand fall is done with the CPU due to the two-way
 relationship between the cells on a grid. This article shows a way to tackle
 sand fall creation using compute shaders to achieve massive parallelism.
 
@@ -529,21 +594,29 @@ Additional to compute shaders, this tutorial is a great introduction to the
 good base for learning how to create simple graphics pipelines. You will also
 get to use Bevy and Egui.
 
-Discussion: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/vmynrq/sand_fall_with_compute_shaders_in_rust/)
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/vmynrq/sand_fall_with_compute_shaders_in_rust)_
+
+[@hakolao]: https://github.com/hakolao
+[sandfall-tutorial]: https://okkohakola.com/posts/sandfall_tutorial
+[wiki-cgol]: https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
 
 [sand fall with compute shaders in rust]: https://www.okkohakola.com/posts/sandfall_tutorial/
 
-### Pathfinding in Rust
+### [Pathfinding in Rust][pf-in-rust]
 
 ![Example of the results of doing an A* search from a start node to a goal node](astar-search.png)
 
-[Pathfinding in Rust: A tutorial with examples](https://blog.logrocket.com/pathfinding-rust-tutorial-examples)
-is an article with examples of how to use the [`pathfinding`](https://crates.io/crates/pathfinding)
+[Pathfinding in Rust: A tutorial with examples][pf-in-rust]
+is an article with examples of how to use the [pathfinding]
 crate to do breadth-first, Dijkstra's, and A* search. It links to the
-[gregstoll/rust-pathfinding](https://github.com/gregstoll/rust-pathfinding)
-repo which has working code for all of these.
+[gregstoll/rust-pathfinding] repo which has working code for all of these.
 
-### [Creating mountains from planes with vertex shaders and Bevy][chrisbiscardi-vid1]
+[pf-in-rust]: https://blog.logrocket.com/pathfinding-rust-tutorial-examples
+[pathfinding]: https://crates.io/crates/pathfinding
+[gregstoll/rust-pathfinding]: https://github.com/gregstoll/rust-pathfinding
+
+### [Creating Mountains From Planes with Vertex Shaders and Bevy][chrisbiscardi-vid1]
 
 [![vertex shaders example](creating-mountains-from-planes-with-vertex-shaders-and-bevy.png)][chrisbiscardi-vid1]
 _Creating mountains from planes with vertex shaders and Bevy_
@@ -559,7 +632,7 @@ _Discussions: [Twitter](https://twitter.com/chrisbiscardi/status/154908959997193
 
 ### [What's in a wgsl fragment shader? ft Bevy][chrisbiscardi-vid2]
 
-[![vertex shaders example](creating-mountains-from-planes-with-vertex-shaders-and-bevy.png)][chrisbiscardi-vid2]
+[![vertex shaders example](whats-in-a-wgsl-fragment-shader-with-bevy.png)][chrisbiscardi-vid2]
 _What's in a wgsl fragment shader? ft Bevy_
 
 [@chrisbiscardi] published a [video][chrisbiscardi-vid2]
@@ -574,7 +647,7 @@ _Discussions: [Twitter](https://twitter.com/chrisbiscardi/status/154690999372672
 
 ### [Rusteroids][rusteroids-youtube-playlist]
 
-![A screenshot of the latest Rusteroids tutorial](./rusteroids-screenshot-tutorial15.png)
+[![A screenshot of the latest Rusteroids tutorial](rusteroids-screenshot-tutorial15.png)][rusteroids-youtube-playlist]
 
 [Rusteroids][rusteroids-github] is a tutorial recreating a clone of Asteroids
 in Rust, using SDL2 and the [Specs][rust-specs-crate] library.
@@ -595,6 +668,34 @@ Twitter!
 [electrocat-youtube]: https://youtube.com/channel/UC1m6P72nySpB3lKWDYGVipw
 [ecatstudios-twitter]: https://twitter.com/ecatstudios
 
+### [RuggRogue Source Code Guide][ruggrogue-guide]
+
+![A screenshot from RuggRogue: a tiled view on a dungeon
+and a classic textual UI](ruggrogue.png)
+
+[@tung] has been working on a simple web-playable roguelike [RuggRogue][ruggrogue]
+inspired by the [Rust Roguelike Tutorial][rl-tut]
+and documented the source code structure in a guide:
+
+> If you want to learn about the [source code][ruggrogue-src], you'll also want
+> to check out the [RuggRogue Source Code Guide][ruggrogue-guide]:
+> a 23-chapter technical web book about the ideas,
+> algorithms and structure of the code.
+> It covers topics such as rendering, event handling, game states,
+> the hand-rolled field of view and pathfinding calculations,
+> game balance and more.
+
+_Discussions:
+[/r/roguelikes](https://reddit.com/r/roguelikes/comments/vluuud/ruggrogue_a_simple_webplayable_roguelike_inspired),
+[/r/rust](https://reddit.com/r/rust_gamedev/comments/vluy7u/ruggrogue_a_simple_webplayable_roguelike_made)_
+
+[@tung]: https://github.com/tung
+[ruggrogue]: https://tung.github.io/ruggrogue
+[ruggrogue-web]: https://tung.github.io/ruggrogue/play
+[ruggrogue-src]: https://github.com/tung/ruggrogue
+[ruggrogue-guide]: https://tung.github.io/ruggrogue/source-code-guide
+[rl-tut]: https://bfnightly.bracketproductions.com/
+
 ## Tooling Updates
 
 ### [NES Bundler][nes-bundler]
@@ -602,7 +703,7 @@ Twitter!
 ![NES Bundler running Data Man with GUI showing](nes-bundler.png)
 _NES Bundler in action_
 
-[NES Bundler][nes-bundler] by [@tedsteen].
+[NES Bundler][nes-bundler] is a NES ROM packaging tool by [@tedsteen].
 Did you make a NES-game but none of your friends own a Nintendo? Don't worry.
 Put your ROM and configuration in NES Bundler and build an executable for Mac,
 Windows or Linux. What you get is a single executable with
@@ -612,7 +713,7 @@ Windows or Linux. What you get is a single executable with
 - Save/Restore state
 - Netplay!
 
-It's early days, but the key features are there and work is ongoing
+It's early days, but the key features are there, and work is ongoing
 to make it more mature!
 
 [nes-bundler]: https://github.com/tedsteen/nes-bundler
@@ -627,8 +728,8 @@ using rend3, wgpu, and egui. It follows the steps of applications like
 Houdini, or Blender's geometry nodes project and provides a node-based
 environment to compose procedural recipes to create 3d models.
 
-The focus for the past few months has been into evolving Blackjack from a proof
-of concept into a usable application. It's current status is not yet production
+The focus for the past few months has been on evolving Blackjack from a proof
+of concept into a usable application. Its current status is not yet production
 ready, but it can now be used to build complex procedural models editable inside
 a game engine thanks to its new engine integration system.
 
@@ -637,7 +738,7 @@ Some of the new features include:
 - A better data model for meshes, based on groups and channels.
 - Game engine integration with Godot, more engines coming soon.
 - Introduce Lua as an extension language.
-- Add *many* new nodes: Extrude along curve, Copy to points...
+- Add many new nodes: Extrude along curve, Copy to points...
 - Add experimental support for L-Systems.
 - Reworked Look & Feel
 
@@ -674,7 +775,7 @@ and the second part is a lightweight fluid shader.
 
 ### [Graphite][graphite-website]
 
-![Graphite](graphite.png)
+![Graphite logo](graphite.png)
 
 Graphite ([website][graphite-website], [GitHub][graphite-repo],
 [Discord][graphite-discord], [Twitter][graphite-twitter]) is a free,
@@ -704,6 +805,27 @@ and share your creations with #MadeWithGraphite on Twitter.
 [graphite-sprint-17]: https://github.com/GraphiteEditor/Graphite/milestone/17
 [graphite-live-demo]: https://editor.graphite.rs
 
+### Nintendo Switch Will Be a Tier 3 Target in Rust 1.64
+
+[The pull request by @jam1garner][switch-pr] that adds a no_std support for
+the aarch64-nintendo-switch-freestanding target was merged this month
+after a lengthy legal investigation.
+This is the first step towards working on incrementally adding support
+for the Nintendo Switch.
+Check out [this Twitter thread][switch-twi] for more details
+about the changes.
+
+And btw, speaking of Nintendo targets: the std support for the Nintendo 3DS
+(armv6k-nintendo-3ds) was [also merged this month][3ds-pr]!
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/vzr6oq/nintendo_switch_target_merged)_
+
+[@jam1garner]: https://github.com/jam1garner
+[switch-pr]: https://github.com/rust-lang/rust/pull/88991
+[switch-twi]: https://twitter.com/jam1garner/status/1547814292107378695
+[3ds-pr]: https://github.com/rust-lang/rust/pull/95897
+
 ## Library Updates
 
 ### [bevy_godot]
@@ -727,7 +849,7 @@ Godot Engine game development needs.
 
 [Version 0.8][hecs-changelog] marks a breaking change to most methods that
 previously took a generic type parameter `T: Component`, replacing them with
-methods taking type parameters which must be *references to* component types
+methods taking type parameters which must be _references to_ component types
 instead. This resolves a long-standing footgun where users accustomed to writing
 `&T` in queries might write `world.get::<&T>`, interpreted by rustc as
 referencing the valid component type `&'static T`, resulting in code that
@@ -743,12 +865,13 @@ compiles but fails to access the intended component.
 [@PROMETHIA-27] is a character controller plugin for Bevy engine.
 
 Inspired by [this excellent video](https://www.youtube.com/watch?v=qdskE8PJy6Q),
-it is implemented on top of [Rapier physics](https://rapier.rs/) and highly
+it is implemented on top of [Rapier physics](https://rapier.rs) and highly
 customizable. Wanderlust includes a variety of settings to target many different
 character controller types, including 2D/3D platformers, spacecraft, and
 first/third person games.
 
 [bevy_mod_wanderlust]: https://crates.io/crates/bevy_mod_wanderlust
+[@PROMETHIA-27]: https://github.com/PROMETHIA-27
 
 ### [Lyon]
 
@@ -759,7 +882,7 @@ is a collection of crates providing various 2D vector graphics utilities, includ
 fast tessellation algorithms, easy to integrate in typical GPU accelerated rendering
 engines.
 
-Lyon made its symbolic [`1.0.0` release](https://crates.io/crates/lyon/1.0.0)
+Lyon made its symbolic [1.0.0 release](https://crates.io/crates/lyon/1.0.0)
 reflecting the stability of the project. Highlights in this release include:
 
 - Initial support for variable line width in the stroke tessellator.
@@ -774,8 +897,8 @@ _Discussions: [/r/rust](https://reddit.com/r/rust/comments/vwdxim/announcing_lyo
 
 ### [Renet]
 
-![GIF of demo using renet and bevy](renet_bevy_demo.gif)
-*Demo using renet and bevy*
+![3D capsles shooting red dots at each other](renet_bevy_demo.gif)
+_Demo using renet and bevy_
 
 [Renet] by [@lucaspoffo] is a network library to create
 games with the Server-Client architecture.
@@ -802,17 +925,16 @@ Renet comes with [bevy_renet], a plugin for the Bevy engine, and also with
 ### [miniquad]
 
 ![miniquad fileopen](miniquad_gl2.gif)
-*VirtualBox, gl2 as the only GPU accelaration available*
+_VirtualBox, gl2 as the only GPU acceleration available_
 
 [miniquad] is a safe and cross-platform rendering library
 focused on portability and low-end platform support.
 
 This month [OpenGl 2.1/GLESv2][gl2pr] PR got merged, adding support for old
 android phones, virtual machines, and just old computers.
-
 While the PR itself is quite small, it solved a very old design issue:
 [compatibilities proposal][mqcompat]. Fixing this issue opened the door for
-both lower-end backends, like gl1, and higher-level backends. Metal being the
+both lower-end backends, like gl1, and higher-level backends. Metal is the
 next in line.
 
 [miniquad]: https://github.com/not-fl3/miniquad/
@@ -830,7 +952,7 @@ It currently:
 
 - Loads geometry and meshes
 - Loads mesh attributes such as color
-- Loads default material diffuse textures, normal maps and emissive maps
+- Loads default material diffuse textures, normal maps, and emissive maps
 - Loads the custom Maya PBR materials, including all material textures
 - Load the scene tree and translate it to bevy's hierarchy
 
@@ -870,40 +992,195 @@ link once it is outdated -->
 [shame]: https://github.com/RayMarch/shame
 [shame-examples]: https://github.com/RayMarch/shame/tree/main/examples
 
-## Popular Workgroup Issues in Github
+### [bonsai-bt]
 
-<!-- Up to 10 links to interesting issues -->
+![A behavior tree visualization that starts with a "root" node and branches
+into leafs like "run" and "get in cover"](bonsai.png)
+_A visualization of a simple NPC behavior tree_
+
+[bonsai-bt] by [@Sollimann] is a Rust implementation of behavior trees.
+
+> A Behavior Tree (BT) is a data structure in which we can set the rules of how
+> certain behaviors can occur and the order in which they would execute.
+> BTs are a very efficient way of creating complex systems that
+> are both modular and reactive.
+> These properties are crucial in many applications,
+> which has led to the spread of BT from computer game programming
+> to many branches of AI and Robotics.
+
+_Discussions: [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/vxk8h9/bonsaibt_a_behavior_tree_lib)_
+
+[bonsai-bt]: https://github.com/Sollimann/bonsai
+[@Sollimann]: https://github.com/Sollimann
+
+### [shades] and [shades-edsl]
+
+![a source code that uses shades and a running app with the result:
+a gradient from green to red](shades-edsl.png)
+
+[@phaazon] has published [a detailed article][shades-article] that introduces
+[shades] and [shades-edsl] - two Rust crates to write shaders by writing pure Rust:
+
+- The [shades] crate provides all needed types and other building blocks
+- while [shades-edsl] provides a proc-macro [EDSL][edsl-wiki]
+for transforming regular Rust code into the API from shades.
+
+> This crate provides an EDSL to build shaders, leveraging the Rust compiler (rustc)
+> and its type system to ensure soundness and typing.
+> Because shaders are written in Rust, this crate is completely language agnostic:
+> it can in theory target any shading language - the current tier-1 language
+> being GLSL. The EDSL allows to statically type shaders while still generating
+> the actual shading code at runtime.
+
+[@phaazon]: https://phaazon.net
+[shades-article]: https://phaazon.net/blog/shades-edsl
+[shades]: https://github.com/phaazon/shades
+[shades-edsl]: https://github.com/phaazon/shades-edsl
+[edsl-wiki]: https://en.wikipedia.org/wiki/Domain-specific_language#External_and_Embedded_Domain_Specific_Languages
+
+### [fdg]
+
+![black dots connected with ed lines in #d space](fdg.png)
+
+[fdg] by [@grantshandy] is a [force-directed graph][fdg-wiki] drawing framework.
+
+> The goal of this project is to provide a force-directed graph framework
+> and algorithms for Rust, as well as 2D and 3D visualizers
+> that work on the web and desktop.
+> It sits on top of [petgraph] and manages the positions of your nodes.
+
+You can view all the examples online [here][fdg-web].
+
+The project consists of three parts:
+
+- [fdg-sim] - the underlying force simulation framework that handles your
+  dataset's positions based on a physics engine of your choice (or creation).
+- [fdg-macroquad] - a visualizer that uses macroquad for rendering.
+- [fdg-img] - a SVG visualizer for your graphs.
+
+_Discussions: [/r/rust](https://reddit.com/r/rust/comments/w92aya/fdg)_
+
+[fdg]: https://github.com/grantshandy/fdg
+[fdg-web]: https://grantshandy.github.io/fdg
+[@grantshandy]: https://grantshandy.github.io
+[petgraph]: https://crates.io/crates/petgraph
+[fdg-sim]: https://github.com/grantshandy/fdg/tree/main/fdg-sim
+[fdg-macroquad]: https://github.com/grantshandy/fdg/blob/main/fdg-macroquad
+[fdg-img]: https://github.com/grantshandy/fdg/tree/main/fdg-img
+[fdg-wiki]: https://en.wikipedia.org/wiki/Force-directed_graph_drawing
+[fdg-web-json]: https://grantshandy.github.io/fdg/json.html
 
 ## Other News
 
 <!-- One-liners for plan items that haven't got their own sections. -->
 
-## Meeting Minutes
+- Other game updates:
+  - [Hydrofoil Generation devs shared](https://twitter.com/HydrofoilG)
+    a bunch of screenshots and videos with a new boat.
+  - [@epcc10] shared a few videos about Idu getting a
+    [better water rendering and physics][idu-1] and [better interaction with soil][idu-2].
+  - [Felix Windström](https://twitter.com/sov_gott_games) shared a couple of
+    Paddlepunks updates: [a wizard leveling up their walls][paddlepunks-1],
+    and [increased the active time on witch's doritos][paddlepunks-2].
+  - [Legend of Worlds released their first devlog][legendofworlds-log].
+  - The [Bounce Up!][bounceup] block breaker game
+    shared a [video preview of the practice mode][bounceup-video].
+  - [Theta Wave is now is now playable in the browser on itch.io][theta-wave-itch].
+    Give it a try and let the author know what you think!
+  - [Fish Folly][fish-folly] posted a couple videos of
+    [their new AI](https://youtube.com/watch?v=YRE5g57aZEg) and
+    [the falling over mechanic](https://youtube.com/watch?v=RuoLInE34dM).
+  - [Punchy v0.0.2][punchy-2] and [v0.0.3][punchy-3] were released, featuring
+    scenes, egui UI, AI, playable web build,
+    new enemy variants, controller remapping, and throwable bottles.
+- Other tooling updates:
+  - [annelid] is a speedrun timer with autosplitter for fxpak/sd2snes written
+    using egui.
+  - [unitypacker] is a tool for creating .unitypackages from the command line.
+- Other learning material updates:
+  - [@PhaestusFox] released a bunch of Bevy tutorial videos covering:
+    gamepads, touch input, bevy 0.8 update & migration, and hierarchy.
+  - [The "Learn WGPU" tutorial was updated to wgpu v0.13][lear-wgpu-0-13].
+  - KyleMayes [has ported vulkan-tutorial.com to vulkanalia][vulkanalia-tut].
+  - [bevy_roguelike] is a project that implements reusable Bevy ECS
+    systems and components for writing roguelike games.
+- Other library updates:
+  - [wgpu v0.13 and naga v0.9][wgpu-13] bring the newest WGSL spec support,
+    improved presentation and pipelining, and lots of performance
+    and correctness improvements. The devs also decided to make the DX12 backend
+    default on Windows and are looking for testers.
+  - [bevy_pancam] is a 2d-camera plugin for Bevy that works with orthographic cameras.
 
-<!-- Up to 10 most important notes + a link to the full details -->
-
-[See all meeting issues][label_meeting] including full text notes
-or [join the next meeting][join].
-
-[label_meeting]: https://github.com/rust-gamedev/wg/issues?q=label%3Ameeting
+[@epcc10]: https://twitter.com/epcc10
+[idu-1]: https://twitter.com/epcc10/status/1545918011185549313
+[idu-2]: https://twitter.com/epcc10/status/1547723415015919622
+[paddlepunks-1]: https://twitter.com/sov_gott_games/status/1543227926052847616
+[paddlepunks-2]: https://twitter.com/sov_gott_games/status/1548340577233580035
+[legendofworlds-log]: https://reddit.com/r/rust_gamedev/comments/w2508b/legend_of_worlds_1
+[bounceup]: https://cryscan.itch.io/bounce-up
+[bounceup-video]: https://youtube.com/watch?v=ohNQgahuj6U
+[theta-wave-itch]: https://reddit.com/r/rust/comments/w4h4ad/thetawave_play_itch
+[fish-folly]: https://github.com/mrDIMAS/FishFolly
+[punchy-2]: https://reddit.com/r/rust/comments/vt44wq/media_punchy_v002
+[punchy-3]: https://reddit.com/r/rust/comments/waltwb/media_fish_fight_punchy_v003
+[annelid]: https://github.com/dagit/annelid
+[unitypacker]: https://github.com/paulfigiel/unitypacker
+[lear-wgpu-0-13]: https://sotrh.github.io/learn-wgpu/news/0.13
+[bevy-basics]: https://youtube.com/playlist?list=PL6uRoaCCw7GN_lJxpKS3j-KXuThRiSXc6
+[@PhaestusFox]: https://youtube.com/c/PhaestusFox
+[vulkanalia-tut]: https://reddit.com/r/rust_gamedev/comments/w2g16h/another_vulkan_tutorial
+[wgpu-13]: https://reddit.com/r/rust_gamedev/comments/vp571t/release_of_wgpu_v013_and_call_for_testing
+[bevy_pancam]: https://github.com/johanhelsing/bevy_pancam
+[bevy_roguelike]: https://github.com/tomuxmon/bevy_roguelike
 
 ## Discussions
 
 <!-- Links to handpicked reddit/twitter/urlo/etc threads that provide
 useful information -->
 
+- [/r/rust](https://reddit.com/r/rust):
+  - ["Are these misconceptions about rust?"](https://reddit.com/r/rust/comments/vruvxx/are_these_misconceptions_about_rust)
+- [/r/rust_gamedev](https://reddit.com/r/rust_gamedev):
+  - ["Using WGPU + crates directly or Bevy?"](https://reddit.com/r/rust_gamedev/comments/vrfjw2/using_wgpu_crates_directly_or_bevy)
+  - ["A 2D, lightweight graphics library, Rust-only?"](https://reddit.com/r/rust_gamedev/comments/w9l1um/a_2d_lightweight_graphics_library_rustonly)
+  - ["Framework or libraries for developing Android/iOS games"](https://reddit.com/r/rust_gamedev/comments/wbg7xg/framework_or_libraries_for_developing_androidios)
+
 ## Requests for Contribution
 
 <!-- Links to "good first issue"-labels or direct links to specific tasks -->
 
-## Jobs
+- ['Are We Game Yet?' wants to know about projects/games/resources that
+  aren't listed yet][awgy].
+- [Graphite is looking for contributors][graphite-contribute] to help build the
+  new node graph and 2D rendering systems.
+- [winit's "difficulty: easy" issues][winit-issues].
+- [Backroll-rs, a new networking library][backroll-rs].
+- [Embark's open issues][embark-open-issues] ([embark.rs]).
+- [wgpu's "help wanted" issues][wgpu-issues].
+- [luminance's "low hanging fruit" issues][luminance-fruits].
+- [ggez's "good first issue" issues][ggez-issues].
+- [Veloren's "beginner" issues][veloren-beginner].
+- [Amethyst's "good first issue" issues][amethyst-issues].
+- [A/B Street's "good first issue" issues][abstreet-issues].
+- [Mun's "good first issue" issues][mun-issues].
+- [SIMple Mechanic's good first issues][simm-issues].
+- [Bevy's "good first issue" issues][bevy-issues].
 
-<!-- An optional section for new jobs related to Rust gamedev -->
-
-## Bonus
-
-<!-- Bonus section to make the newsletter more interesting
-and highlight events from the past. -->
+[awgy]: https://github.com/rust-gamedev/arewegameyet#contribute
+[graphite-contribute]: https://graphite.rs/contribute
+[winit-issues]: https://github.com/rust-windowing/winit/issues?q=is%3Aopen+is%3Aissue+label%3A%22difficulty%3A+easy%22
+[backroll-rs]: https://github.com/HouraiTeahouse/backroll-rs/issues
+[embark.rs]: https://embark.rs
+[embark-open-issues]: https://github.com/search?q=user:EmbarkStudios+state:open
+[wgpu-issues]: https://github.com/gfx-rs/wgpu/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
+[luminance-fruits]: https://github.com/phaazon/luminance-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22low+hanging+fruit%22
+[ggez-issues]: https://github.com/ggez/ggez/labels/%2AGOOD%20FIRST%20ISSUE%2A
+[veloren-beginner]: https://gitlab.com/veloren/veloren/issues?label_name=beginner
+[amethyst-issues]: https://github.com/amethyst/amethyst/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[abstreet-issues]: https://github.com/a-b-street/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
+[simm-issues]: https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue
+[bevy-issues]: https://github.com/bevyengine/bevy/labels/E-Good-First-Issue
 
 ------
 
