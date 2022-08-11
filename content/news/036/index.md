@@ -679,7 +679,8 @@ and documented the source code structure in a guide:
 
 > If you want to learn about the [source code][ruggrogue-src], you'll also want
 > to check out the [RuggRogue Source Code Guide][ruggrogue-guide]:
-> a 23-chapter technical web book about the ideas, algorithms and structure of the code.
+> a 23-chapter technical web book about the ideas,
+> algorithms and structure of the code.
 > It covers topics such as rendering, event handling, game states,
 > the hand-rolled field of view and pathfinding calculations,
 > game balance and more.
