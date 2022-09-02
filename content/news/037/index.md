@@ -73,16 +73,17 @@ If needed, a section can be split into subsections with a "------" delimiter.
 [![Catacomb 2 image](catacomb_2.png)][catacomb-2-repo]
 
 [Catacomb 2-64k][catacomb-2-repo] is a (completed) experimental
-project in porting a moderately complex project, first from C to unsafe Rust, then
-to (fully) safe Rust.
+project in porting a moderately complex project, first from C to unsafe Rust,
+then to (fully) safe Rust.
 
-The objective of the project has been to study the tooling, transformations and the
-overall process required perfom real-world, exact, ports; an article will follow in
-September on [64kramsystem's blog][64ramsystem-blog].
+The objective of the project has been to study the tooling, transformations
+and the overall process required perfom real-world, exact, ports; an article
+will follow in September on [64kramsystem's blog][64ramsystem-blog].
 
-The port uses the [Rust-SDL2 bindings][rust-sdl2-bindings]. More exact ports of id
-Software games are expected in the future, with the introduction of a refactoring
-tool based on the [Language Server Protocol][language-server-protocol]/[Rust Analyzer][rust-analyzer].
+The port uses the [Rust-SDL2 bindings][rust-sdl2-bindings]. More exact ports
+of id Software games are expected in the future, with the introduction of a
+refactoring tool based on the [Language Server Protocol][language-server-protocol]
+/[Rust Analyzer][rust-analyzer].
 
 [catacomb-2-repo]: https://github.com/64kramsystem/catacomb_ii-64k
 [64ramsystem-blog]: https://saveriomiroddi.github.io
