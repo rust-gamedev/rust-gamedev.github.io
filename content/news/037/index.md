@@ -76,6 +76,20 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library Updates
 
+### [hot-lib-reloader]
+
+![hot-lib-reloader thumbnail](hot-lib-reloader.png)
+
+[hot-lib-reloader] is a development tool that allows you to reload functions of a running Rust program. This allows to do "live programming" where you modify code and immediately see the effects in your running program. Gone are the days of edit-compile-restart loops (to some degree).
+
+hot-lib-reloader works by reloading parts of your application that are defined as dynamic libraries. This approach works on Linux, MacOS, and Windows but has some constraints, see the [documentation] for details. There are several [examples], showing how to create hot-reload setups with various frameworks and libraries, e.g. bevy, egui, and [nannou].
+
+[hot-lib-reloader]: https://github.com/rksm/hot-lib-reloader-rs
+[documentation]: https://docs.rs/hot-lib-reloader/latest/hot_lib_reloader/
+[examples]: https://github.com/rksm/hot-lib-reloader-rs/tree/master/examples
+[nannou]: https://youtu.be/hyyeLtJ7SQk
+
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
