@@ -76,6 +76,29 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library Updates
 
+### [bevy_kira_audio]
+
+![Configuring a sound when playing it](bevy_kira_audio_settings.png)
+_Configuring a sound when playing it_
+
+[bevy_kira_audio] by [@nikl_me] is an alternative audio plugin for the [Bevy]
+game engine. It uses [Kira] as its audio library and aims to integrate
+well with Bevy's ECS.
+
+Last month saw the release of versions [0.11.0] and [0.12.0]. With the
+latest version, sound settings like volume, playback-rate, or panning can
+be adjusted directly when playing audio. The screenshot above shows the new API
+with multiple example settings. The plugin now also offers control
+over single sound instances via asset handles and will apply configurable
+tweens to most operations.
+
+[bevy_kira_audio]: https://github.com/NiklasEi/bevy_kira_audio/
+[Kira]: https://github.com/tesselode/kira
+[@nikl_me]: https://twitter.com/nikl_me
+[Bevy]: https://bevyengine.org/
+[0.11.0]: https://github.com/NiklasEi/bevy_kira_audio/blob/main/CHANGELOG.md#v0110
+[0.12.0]: https://github.com/NiklasEi/bevy_kira_audio/blob/main/CHANGELOG.md#v0120
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
