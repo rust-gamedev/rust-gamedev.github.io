@@ -76,6 +76,26 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library Updates
 
+### [bevy_asset_loader]
+
+![Configuration of a loading state](loading_state.png)
+_Configuration of a loading state_
+
+[bevy_asset_loader] by [@nikl_me] is a plugin for [Bevy] apps aiming to
+improve a common pattern for asset-loading. The boilerplate required to set up
+a loading-state is reduced to a minimum. The plugin is based on storing
+asset handles in resources, which makes it easy to use them in any system
+across your app.
+
+The screenshot above shows how a loading state can be added to the Bevy app
+in the latest version of the plugin. The update also fixed issues with
+configuring the same loading state in different places of your code and enabled
+users to define their own dynamic assets.
+
+[@nikl_me]: https://twitter.com/nikl_me
+[bevy_asset_loader]: https://github.com/NiklasEi/bevy_asset_loader/
+[Bevy]: https://bevyengine.org/
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
