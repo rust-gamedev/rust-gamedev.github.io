@@ -31,12 +31,12 @@ Feel free to send PRs about your own projects!
 
 - [Announcements](#announcements)
 - [Game Updates](#game-updates)
-- [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
+- [Learning Material Updates](#learning-material-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
-- [Other News](#other-news)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
+- [Other News](#other-news)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
 - [Jobs](#jobs)
@@ -68,6 +68,29 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Catacomb 2-64k][catacomb-2-repo]
+
+[![Catacomb 2 image](catacomb_2.png)][catacomb-2-repo]
+
+[Catacomb 2-64k][catacomb-2-repo] is a (completed) experimental
+project in porting a moderately complex project, first from C to unsafe Rust,
+then to (fully) safe Rust.
+
+The objective of the project has been to study the tooling, transformations
+and the overall process required perfom real-world, exact, ports; an article
+will follow in September on [64kramsystem's blog][64ramsystem-blog].
+
+The port uses the [Rust-SDL2 bindings][rust-sdl2-bindings]. More exact ports
+of id Software games are expected in the future, with the introduction of a
+refactoring tool based on the [Language Server Protocol][language-server-protocol]
+/[Rust Analyzer][rust-analyzer].
+
+[catacomb-2-repo]: https://github.com/64kramsystem/catacomb_ii-64k
+[64ramsystem-blog]: https://saveriomiroddi.github.io
+[rust-sdl2-bindings]: https://github.com/Rust-SDL2/rust-sdl2
+[language-server-protocol]: https://microsoft.github.io/language-server-protocol
+[rust-analyzer]: https://github.com/rust-lang/rust-analyzer
+
 ## Engine Updates
 
 ## Learning Material Updates
@@ -75,6 +98,49 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ## Tooling Updates
 
 ## Library Updates
+
+### [hot-lib-reloader]
+
+![hot-lib-reloader thumbnail](hot-lib-reloader.png)
+
+[hot-lib-reloader] is a development tool that allows you to reload functions
+of a running Rust program. This allows to do "live programming" where you
+modify code and immediately see the effects in your running program. Gone
+are the days of edit-compile-restart loops (to some degree).
+
+hot-lib-reloader works by reloading parts of your application that are defined
+as dynamic libraries. This approach works on Linux, MacOS, and Windows but has
+some constraints - see the [documentation] for details. There are several
+[examples], showing how to create hot-reload setups with various frameworks
+and libraries, e.g. bevy, egui, and [nannou].
+
+[hot-lib-reloader]: https://github.com/rksm/hot-lib-reloader-rs
+[documentation]: https://docs.rs/hot-lib-reloader/latest/hot_lib_reloader/
+[examples]: https://github.com/rksm/hot-lib-reloader-rs/tree/master/examples
+[nannou]: https://youtu.be/hyyeLtJ7SQk
+
+### [bevy_kira_audio]
+
+![Configuring a sound when playing it](bevy_kira_audio_settings.png)
+_Configuring a sound when playing it_
+
+[bevy_kira_audio] by [@nikl_me] is an alternative audio plugin for the [Bevy]
+game engine. It uses [Kira] as its audio library and aims to integrate
+well with Bevy's ECS.
+
+Last month saw the release of versions [0.11.0] and [0.12.0]. With the
+latest version, sound settings like volume, playback-rate, or panning can
+be adjusted directly when playing audio. The screenshot above shows the new API
+with multiple example settings. The plugin now also offers control
+over single sound instances via asset handles and will apply configurable
+tweens to most operations.
+
+[bevy_kira_audio]: https://github.com/NiklasEi/bevy_kira_audio/
+[Kira]: https://github.com/tesselode/kira
+[@nikl_me]: https://twitter.com/nikl_me
+[Bevy]: https://bevyengine.org/
+[0.11.0]: https://github.com/NiklasEi/bevy_kira_audio/blob/main/CHANGELOG.md#v0110
+[0.12.0]: https://github.com/NiklasEi/bevy_kira_audio/blob/main/CHANGELOG.md#v0120
 
 ### [bevy_asset_loader]
 
