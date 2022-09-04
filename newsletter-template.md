@@ -28,9 +28,8 @@ Feel free to send PRs about your own projects!
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 [pr]: https://github.com/rust-gamedev/rust-gamedev.github.io
 [coordination]: https://github.com/rust-gamedev/rust-gamedev.github.io/issues?q=label%3Acoordination
-[Rust]: https://rust-lang.org
-[join]: https://github.com/rust-gamedev/wg#join-the-fun
 
+- [Announcements](#announcements)
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
@@ -65,6 +64,8 @@ _Discussions:
 
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
+
+## Announcements
 
 ## Game Updates
 
@@ -131,4 +132,3 @@ TODO: Add real links and un-comment once this post is published
 
 [/r/rust_gamedev]: https://reddit.com/r/rust_gamedev
 [@rust_gamedev]: https://twitter.com/rust_gamedev
-[pr]: https://github.com/rust-gamedev/rust-gamedev.github.io

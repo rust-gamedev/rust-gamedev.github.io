@@ -1,8 +1,7 @@
 +++
 title = "This Month in Rust GameDev #35 - June 2022"
 transparent = true
-date = 2022-07-03
-draft = true
+date = 2022-07-07
 +++
 
 <!-- no toc -->
@@ -38,11 +37,9 @@ Feel free to send PRs about your own projects!
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
 - [Other News](#other-news)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
 - [Jobs](#jobs)
-- [Bonus](#bonus)
 
 <!--
 Ideal section structure is:
@@ -98,7 +95,7 @@ or [Google Podcasts][gamedev-podcast-google].
 
 ![Gamedev meetup poster](gamedev-meetup.png)
 
-The 17th Rust Gamedev Meetup took place in May. You can watch the recording of
+The 17th Rust Gamedev Meetup took place in June. You can watch the recording of
 the meetup [here on Youtube][gamedev-meetup-video]. Here was the schedule from
 the meetup:
 
@@ -124,7 +121,81 @@ form][gamedev-meetup-form].
 [@Togg]: https://github.com/ZKpot
 [@GraphiteEditor]: https://twitter.com/graphiteeditor
 
+### [Rusty Jam 2][rusty-jam-ann]
+
+![Aaron: a drawing of a humanoid fox](aaron.png)
+_Aaron, [the mascot of the jam][rusty-jam-ann]_
+
+The [second Rusty Jam][rusty-jam-ann] just ended!
+[17 games][rusty-jam-entries] were completed and submitted
+over the one-week jam. The games were rated by the community
+and the top three games are:
+
+- 🥇 ["Chick the Dog"][rusty-jam-place-1] by Uriopass
+- 🥈 ["A walk around the block"][rusty-jam-place-2] by ramirezmike
+- 🥉 ["Fight for the Frontier"][rusty-jam-place-3] by rand0m and logicprojects
+
+The Rusty Jam will be back, so stay tuned on
+[the Rusty Jam Discord Server][rusty-jam-discord] for future updates!
+
+[rusty-jam]: https://itch.io/jam/rusty-jam-2
+[rusty-jam-entries]: https://itch.io/jam/rusty-jam-2/entries
+[rusty-jam-results]: https://itch.io/jam/rusty-jam-2/results
+[rusty-jam-ann]: https://gamedev.rs/blog/rustyjam-02
+[rusty-jam-discord]: https://discord.gg/jZtz6y9gCJ
+[rusty-jam-place-1]: https://uriopass.itch.io/chick-the-dog
+[rusty-jam-place-2]: https://ramirezmike2.itch.io/a-walk-around-the-block
+[rusty-jam-place-3]: https://logicprojects.itch.io/fight-for-the-frontier
+
+### RustConf Arcade Cabinet
+
+![arcade cabinet](arcade_cabinet.jpg)
+
+[Carlo][carlosupina] is building a custom arcade cabinet that will be at
+RustConf 2022 in Portland. It is an opportunity for Rust game developers to
+share their games with the broader community. If you are interested in getting
+your game on the cabinet, read [this Twitter thread][arcade-cabinet-thread] and
+fill out the [interest form][arcade-interest-form].
+The arcade cabinet has been assembled and painted. He is currently in the process
+of helping developers get their games playable on the machine. If you have a Bevy
+game, you can use the [bevy-rust-arcade crate][bevy-rust-arcade] to quickly get
+your game compatible. Deadline is the end of July!
+You can find the latest update [here][arcade-cabinet-update-thread].
+
+[carlosupina]: https://twitter.com/carlosupina
+[arcade-cabinet-thread]: https://twitter.com/carlosupina/status/1523715837726961664
+[arcade-cabinet-update-thread]: https://twitter.com/carlosupina/status/1539032439284240386
+[arcade-interest-form]: https://forms.gle/onFm5fCygdbiArqJ7
+[bevy-rust-arcade]: https://crates.io/crates/bevy-rust-arcade
+
 ## Game Updates
+
+### [Hydrofoil Generation]
+
+![hgs_screen](hgs_35.jpg)
+
+[Hydrofoil Generation]
+([Steam][hgs_steam], [Facebook][hgs_facebook], [Discord][hgs_discord])
+is a realistic sailing/foiling inshore simulator in development for PC/Steam
+that will put you in the driving seat of modern competitive sailing.
+Hydrofoil Generation is based on a custom-made DirectX 11 based engine in
+Rust.
+
+June saw a lot of features added to the game, most notables being "New TV
+Overlays", "Control Assists", "Ropes Rendering" plus several physics
+improvements. Stefano Casillo, the developer went through all of them in
+a recent [devlog][hgs_devlog].
+
+Work in July will focus on the physics implementation of a new boat, a
+foiling multihull coming with her own set of new challenges.
+
+Hydrofoil Generation is targeting a Q4 2022 Early Access release on Steam.
+
+[Hydrofoil Generation]: https://hydrofoil-generation.com/
+[hgs_facebook]: https://facebook.com/HydrofoilGenerationSailing/
+[hgs_discord]: https://discord.gg/DtKgt2duAy/
+[hgs_steam]: https://store.steampowered.com/app/1448820/Hydrofoil_Generation/
+[hgs_devlog]: https://youtu.be/AqwqyL9RqAk
 
 ### [RuggRogue]
 
@@ -140,14 +211,14 @@ Features:
 - Discover new monsters and equipment the deeper you go.
 - Hunger and regeneration: stay fed and stay healed!
 - Choose between graphical tiles and ASCII display.
-- Menu-based UI with hot keys.
+- Menu-based UI with hotkeys.
 - Auto-run to quickly follow corridors and cross open space.
 - Save and load system.
 - New Game Plus mode!
 
 The source code is complemented by the
 [RuggRogue Source Code Guide][ruggrogue-book],
-a 23-chapter technical web book covering the ideas, algorithms and structure of
+a 23-chapter technical web book covering the ideas, algorithms, and structure of
 the code.
 
 _Discussions:
@@ -174,7 +245,7 @@ This month the last planned port has been completed; the games are:
 - Soccer (Sensible Soccer clone, ported to [Fyrox](https://github.com/FyroxEngine/Fyrox))
 
 A Bevy ECS tutorial, based on Rusty Roguelike, has been published, and it's
-announced on this newsletter.
+announced in this newsletter.
 
 [Rust Game Ports]: https://github.com/64kramsystem/rust-game-ports
 [Saverio Miroddi/@64kramsystem]: https://twitter.com/64kramsystem
@@ -209,11 +280,11 @@ Source available on [GitHub][vetovoima_github].
 
 [Botnet] is an upcoming programming-based multiplayer game,
 where you write scripts (compiled to WebAssembly) to control robots.
-Coordinate your bots to gather resources, build new industry,
+Coordinate your bots to gather resources, build new industries,
 and expand your control of the server.
 
 This month saw the start of the project, and a majority of the foundational
-code written. Next month we'll be adding more features, and aim to flesh out
+code was written. Next month we'll be adding more features, and aim to flesh out
 the game beyond [basic pathfinding and resource harvesting][botnet_example_bot].
 
 Interested in contributing? Head over to the
@@ -230,8 +301,8 @@ Interested in contributing? Head over to the
 [Star Machine] by [@Seldom_SE] is a puzzle game built in Bevy, where
 you wire together components to escape each level.
 
-The game, although its development is presently inactive, made
-[a video demo][Star Machine] of 8 of its early levels.
+Although its development is currently inactive, the developer
+recently made [a video demo][Star Machine] of the early levels.
 
 [Star Machine]: https://twitter.com/Seldom_SE/status/1532909654681849856
 [@Seldom_SE]: https://twitter.com/Seldom_SE
@@ -316,19 +387,36 @@ The game is built on the [Emerald Game Engine].
 [Gemdrop Games]: https://twitter.com/GemdropGames
 [Emerald Game Engine]: https://github.com/Bombfuse/emerald
 
+### [Chimera Rancher][chimera-rancher]
+
+![Chimera Rancher cover art](chimera_rancher.png)
+
+[Chimera Rancher][chimera-rancher] is a game where you must defend your ranch
+from an angry hoard of villagers with the help of your chimera friends!
+
+Submitted as part of [Rusty jam #2][rusty-jam] by [cdsupina][cdsupina],
+[Nightly Side][nightlyside], [hedgein][hedgein], and [tigleym][tigleym]. This
+game was developed using the [bevy] game engine.
+
+[chimera-rancher]: https://nightlyside.itch.io/chimera-rancher
+[cdsupina]: https://cdsupina.itch.io/
+[tigleym]: https://tigleym.itch.io/
+[hedgein]: https://hedgein.itch.io/
+[nightlyside]: https://nightlyside.itch.io/
+
 ## Engine Updates
 
 ### [ggez] 0.8.0-rc0
 
 ![ggez logo](../005/ggez-logo-maroon-full.svg)
 
-[ggez] by [@icefoxen], [@nobbele] and [@PSteinhaus] is a cross-platform game
+[ggez] by [@icefoxen], [@nobbele], and [@PSteinhaus] is a cross-platform game
 framework for making 2D games with minimum friction. It aims to implement an
 API based on the LÖVE game framework.
 
 This version has finally moved ggez away from pre-ll gfx and into the world
-of [wgpu]! This hopefully means less bugs, greater stability and easier
-maintainability at the cost of some low performance devices such as the
+of [wgpu]! This hopefully means fewer bugs, greater stability, and easier
+maintainability at the cost of some low-performance devices such as the
 Raspberry Pi.
 
 As for the user-facing API:
@@ -387,6 +475,22 @@ and to talk to the devs personally.
 [dims-discord]: https://discord.gg/Z5CAVmNE57
 [dims-youtube]: https://youtube.com/channel/UCR5gOwS7uSl0a0dl7MLQoqg
 [dims-video-1]: https://www.youtube.com/watch?v=piEAGSFx-QU
+
+### [miniquad]
+
+![miniquad fileopen](fileopen.gif)
+
+[miniquad] is a safe and cross-platform rendering library
+focused on portability and low-end platform support.
+
+In versions prior to 0.3, it was virtually impossible to integrate, for
+example, a big in-app payments or advertisement SDK into a Miniquad Android
+game. 0.3 has solved this, giving the possibility to interop with any Java code.
+The developer has posted [a write-up of this functionality][miniquad-java] on
+the macroquad site.
+
+[miniquad]: https://github.com/not-fl3/miniquad/
+[miniquad-java]: https://macroquad.rs/articles/java/
 
 ## Learning Material Updates
 
@@ -466,6 +570,50 @@ _Discussion: [/r/rust](https://reddit.com/r/rust/comments/vj40qq/noumenal_my_3d_
 [noumenal-appstore]: https://apps.apple.com/us/app/noumenal/id1584884105
 [hackerfoo-website]: https://hackerfoo.com
 
+### [Graphite][graphite-website]
+
+![Graphite](graphite.png)
+
+Graphite ([website][graphite-website], [GitHub][graphite-repo],
+[Discord][graphite-discord], [Twitter][graphite-twitter]) is a free,
+in-development raster and vector 2D graphics editor. It will be powered by a
+node graph compositing engine that supercharges your layer stack, providing a
+completely non-destructive editing experience.
+
+June's [sprint 16][graphite-sprint] focused mainly on bug fixes and big
+under-the-hood changes:
+
+- Ahead of the curve: A long-awaited refactor replaces the underlying
+Bézier curve data structure in alignment with requirements for Pen tool
+improvements and the upcoming node system.
+- Sending mixed messages: The internal messaging system was upgraded to
+sequence the message processing in a more predictable stack-based order. A new
+subscription-based event broadcaster was integrated as well.
+- Back on the menu: The application menu bar content definitions were moved
+from the JS frontend to a permanent home in the Rust backend.
+
+Open the [Graphite editor][graphite-live-demo] in your browser to give it a try
+and share your creations with #MadeWithGraphite on Twitter.
+
+[graphite-website]: https://graphite.rs
+[graphite-repo]: https://github.com/GraphiteEditor/Graphite
+[graphite-discord]: https://discord.graphite.rs
+[graphite-twitter]: https://twitter.com/GraphiteEditor
+[graphite-sprint]: https://github.com/GraphiteEditor/Graphite/milestone/16
+[graphite-live-demo]: https://editor.graphite.rs
+
+### [quad-gif]
+
+![quad-gif screenshot](quad-gif.png)
+
+[quad-gif] by [@ollej] is a tiny library that can be used in a Macroquad game
+to show a looping GIF animation. It also includes a small example binary that
+displays a GIF in the middle of a window. The library can also be used as a
+simple way to make an animation from a list of textures.
+
+[quad-gif]: https://github.com/ollej/quad-gif
+[@ollej]: https://twitter.com/ollej
+
 ## Library Updates
 
 ### [psf2]
@@ -480,7 +628,7 @@ low-resolution, fixed-width aesthetic is desired.
 
 The psf2 crate parses font data, exposing font size, glyph lookup, and iterators
 to traverse a glyph's bitmap for easy rendering. Due to its limited scope, it is
-much smaller and faster than conventional text rasterizers, but cannot support
+much smaller and faster than conventional text rasterizers but cannot support
 variable-width, anti-aliased, or shaped text.
 
 [psf2]: https://github.com/Ralith/psf2
@@ -506,7 +654,7 @@ cleaner and smaller code.
 [glam] is a simple and fast linear algebra crate for games and graphics.
 
 This month version 0.21 of glam was released. Because glam is not a generic
-library, when support was added for `f64`, `i32` and `u32` types back in glam
+library, when support was added for `f64`, `i32`, and `u32` types back in glam
 0.12, macros were used internally to avoid a lot of code duplication. This
 unfortunately obfuscated the internals of glam for anyone who needed to view the
 source.
@@ -527,7 +675,7 @@ functions have also been made `const fn` removing the need for macros to create
 [kajiya] by [@h3r2tic] is an experimental real-time global illumination
 renderer.
 
-In June, a long-standing branch has landed, bringing with it a complete
+In June, a long-standing branch landed, bringing with it a complete
 overhaul of indirect lighting. The new implementation uses spatiotemporal
 reservoir resampling (ReSTIR) and a novel irradiance cache, bringing forth
 larger scenes, quicker response to lighting changes, and less noise.
@@ -549,6 +697,7 @@ _Discussions:
 [@h3r2tic]: https://github.com/h3r2tic
 
 ### [Notan v0.5][Notan]
+<<<<<<< HEAD
 
 ![Notan texture to file](notan.gif)
 
@@ -569,30 +718,148 @@ a new feature to export texture [to png] easily.
 [EGUI]: https://github.com/emilk/egui
 
 ## Popular Workgroup Issues in Github
+=======
+>>>>>>> 65e6b34baf9426e1c507e6977723e356d2c28538
 
-<!-- Up to 10 links to interesting issues -->
+![Notan texture to file](notan.gif)
+
+[Notan] is a simple and portable layer designed to create your own multimedia
+apps on top of it without worrying about platform-specific code.
+
+The main goal is to provide a set of APIs and tools that can be used to create
+your project in an ergonomic manner without enforcing any structure or pattern,
+always trying to stay out of your way. The idea is that you can use it as a
+foundation layer or backend for your next app, game engine, or game.
+
+The latest version [v0.5] fixes multiple bugs, improves [EGUI] support and adds
+a new feature to export texture [to png] easily.
+
+[Notan]: https://github.com/Nazariglez/notan
+[to png]: https://nazariglez.github.io/notan-web/examples/texture_to_file.html
+[v0.5]: https://github.com/Nazariglez/notan/releases/tag/v0.5.0
+[EGUI]: https://github.com/emilk/egui
 
 ## Other News
 
-<!-- One-liners for plan items that haven't got their own sections. -->
+- Other game updates:
+  - [Fires of Eschaton] is a PvP focused turn-based fantasy game, currently under
+    development.
+  - [Idu] is testing out some new water physics.
+  - [Combine and Conquer] has a new devlog about its sound support.
+  - [Fish Folly] is a new Fyrox showcase game, inspired by Fall Guys.
+  - [Punchy] is a beat-em-up spin off of [Fish Fight], built with Bevy.
+  - [Jungle Chess] is a WASM implementation of a Chinese board game.
+  - [Croquet] is working on synchronized physics, using Rapier.
+  - [Bevy City] is a voxel city generator, built with Bevy.
+  - [Measure Once] is a game about cutting wood into the right shapes.
+  - [Galactic Mess] has added new outfits and weapons.
+- Other learning material updates:
+  - [Rustacean Station] interviewed the developer of egui.
+  - [Rusteroids] is a video tutorial series, building an asteroids
+    clone with Rust and SDL2.
+  - [NVIDIA GPU Profiling with Rust] is an introduction on how to use
+    NVIDIA's NSight tools with Rust.
+  - [Practical Programming with Dr. Xu] has continued their WGPU
+    tutorial series.
+  - [Anthropic Studios] (developers of Way of Rhea) posted a dev interview video.
+  - [Lyrapuff] posted a video showing how to render a triangle with
+    Vulkan and Rust.
+- Other engine updates:
+  - [pufferfish] is a new, opinionated 2D game framework.
+- Other tooling updates:
+  - [GBemulator] is a Game Boy emulator written from scratch.
+- Other library updates:
+  - [bevy_mod_picking] released version 0.7 of their Bevy mouse
+    picking plugin.
+  - [bevy_mod_outline] is a Bevy plugin for drawing outlines around
+    meshes.
+  - [Bevy YOLECK] is a crate that allows Bevy games to be their own
+    level editor.
+  - [bevy_mod_raycast] released version 0.5 of their raycasting plugin.
+  - [taffy] is a cross-platform UI layout library.
+
+[Fires of Eschaton]: https://twitter.com/FiresOfEschaton/status/1534119771045826567
+[Idu]: https://twitter.com/epcc10/status/1532889644165120001
+[Combine and Conquer]: https://buckmartin.de/combine-and-conquer/2022-06-16-sound.html
+[Fish Folly]: https://www.reddit.com/r/rust_gamedev/comments/vi5jok/media_fish_folly_a_fyrox_showcase_game_inspired/
+[Punchy]: https://twitter.com/spicylobsterfam/status/1540105977810255872
+[Fish Fight]: https://fishfight.org/
+[Jungle Chess]: https://www.reddit.com/r/rust_gamedev/comments/v3btkk/browser_jungle_chess_with_rust_wasm/
+[Croquet]: https://twitter.com/gocroquet/status/1531336194725797889
+[Bevy City]: https://mungbungo.itch.io/bevy-city
+[Measure Once]: https://robtfm.github.io/measure_once/
+[Galactic Mess]: https://www.youtube.com/watch?v=DO8vwehkr38
+[Rustacean Station]: https://rustacean-station.org/episode/emil-ernerfeldt/
+[Rusteroids]: https://www.youtube.com/playlist?list=PLFOS-Gn3aXROnSfl26esPExssd-rQw6jD
+[NVIDIA GPU Profiling with Rust]: https://simbleau.github.io/blog/gpu-profiling-with-rust/
+[Practical Programming with Dr. Xu]: https://www.reddit.com/r/rust/comments/vmpjcr/rust_wgpu_graphics_programming_tutorial_youtube/
+[Anthropic Studios]: https://www.youtube.com/watch?v=H0sIsrLWojs
+[Lyrapuff]: https://www.youtube.com/watch?v=_PNiRGIAfY4
+[pufferfish]: https://github.com/pufferfish-rs/pufferfish
+[GBemulator]: https://github.com/p4ddy1/gbemulator
+[bevy_mod_picking]: https://github.com/aevyrie/bevy_mod_picking/releases/tag/v0.7.0
+[bevy_mod_outline]: https://github.com/komadori/bevy_mod_outline
+[Bevy YOLECK]: https://github.com/idanarye/bevy-yoleck
+[bevy_mod_raycast]: https://github.com/aevyrie/bevy_mod_raycast/releases/tag/v0.5
+[taffy]: https://github.com/DioxusLabs/taffy
 
 ## Discussions
 
-<!-- Links to handpicked reddit/twitter/urlo/etc threads that provide
-useful information -->
+- [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/):
+  - ["Shopping list"][r-gamedev-shopping-list] (a list of things that
+    are missing from the ecosystem)
+  - ["Hands-on Rust: Further reading"][r-gamedev-further-reading]
+  - ["How can I start developing a 3D game engine?"][r-gamedev-3d]
+  - ["Bevy or Fyrox for 3D Game Development?"][r-gamedev-bevy-fyrox]
+
+[r-gamedev-shopping-list]: https://www.reddit.com/r/rust_gamedev/comments/v8tx37/shopping_list/
+[r-gamedev-further-reading]: https://www.reddit.com/r/rust_gamedev/comments/v4q4pr/handson_rust_further_reading
+[r-gamedev-3d]: https://reddit.com/r/rust_gamedev/comments/v3z4i1/how_can_i_start_developing_a_3d_game_engine
+[r-gamedev-bevy-fyrox]: https://reddit.com/r/rust_gamedev/comments/v7svhg/bevy_or_fyrox_for_3d_game_dev
 
 ## Requests for Contribution
 
-<!-- Links to "good first issue"-labels or direct links to specific tasks -->
+- ['Are We Game Yet?' wants to know about projects/games/resources that
+  aren't listed yet][awgy].
+- [Graphite is looking for contributors][graphite-contribute] to help build the
+  new node graph and 2D rendering systems.
+- [winit's "difficulty: easy" issues][winit-issues].
+- [Backroll-rs, a new networking library][backroll-rs].
+- [Embark's open issues][embark-open-issues] ([embark.rs]).
+- [wgpu's "help wanted" issues][wgpu-issues].
+- [luminance's "low hanging fruit" issues][luminance-fruits].
+- [ggez's "good first issue" issues][ggez-issues].
+- [Veloren's "beginner" issues][veloren-beginner].
+- [Amethyst's "good first issue" issues][amethyst-issues].
+- [A/B Street's "good first issue" issues][abstreet-issues].
+- [Mun's "good first issue" issues][mun-issues].
+- [SIMple Mechanic's good first issues][simm-issues].
+- [Bevy's "good first issue" issues][bevy-issues].
+
+[awgy]: https://github.com/rust-gamedev/arewegameyet#contribute
+[graphite-contribute]: https://graphite.rs/contribute
+[winit-issues]: https://github.com/rust-windowing/winit/issues?q=is%3Aopen+is%3Aissue+label%3A%22difficulty%3A+easy%22
+[backroll-rs]: https://github.com/HouraiTeahouse/backroll-rs/issues
+[embark.rs]: https://embark.rs
+[embark-open-issues]: https://github.com/search?q=user:EmbarkStudios+state:open
+[wgpu-issues]: https://github.com/gfx-rs/wgpu/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
+[luminance-fruits]: https://github.com/phaazon/luminance-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22low+hanging+fruit%22
+[ggez-issues]: https://github.com/ggez/ggez/labels/%2AGOOD%20FIRST%20ISSUE%2A
+[veloren-beginner]: https://gitlab.com/veloren/veloren/issues?label_name=beginner
+[amethyst-issues]: https://github.com/amethyst/amethyst/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[abstreet-issues]: https://github.com/a-b-street/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
+[simm-issues]: https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue
+[bevy-issues]: https://github.com/bevyengine/bevy/labels/E-Good-First-Issue
 
 ## Jobs
 
-<!-- An optional section for new jobs related to Rust gamedev -->
-
-## Bonus
-
-<!-- Bonus section to make the newsletter more interesting
-and highlight events from the past. -->
+- [DIMS](https://dims.co/jobs)
+  (Stockholm/Remote): Various roles, open applications accepted
+- [Embark Studios](https://careers.embark-studios.com/jobs)
+  (Stockholm/Hybrid Remote): Various roles, open applications accepted
+- [Mutate](https://rustjobs.dev/featured-jobs/Mutate-Rust-Backend-Software-Engineer-7kfTlQFSagzwHhugw1p0)
+  (Remote): Rust Backend Software Engineer
 
 ------
 
@@ -604,13 +871,10 @@ Want something mentioned in the next newsletter?
 Also, subscribe to [@rust_gamedev on Twitter][@rust_gamedev]
 or [/r/rust_gamedev subreddit][/r/rust_gamedev] if you want to receive fresh news!
 
-<!--
-TODO: Add real links and un-comment once this post is published
 **Discuss this post on**:
-[/r/rust_gamedev](TODO),
-[Twitter](TODO),
+[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/vtrelw/this_month_in_rust_gamedev_35_june_2022/),
+[Twitter](https://twitter.com/rust_gamedev/status/1545135032334950403),
 [Discord](https://discord.gg/yNtPTb2).
--->
 
 [/r/rust_gamedev]: https://reddit.com/r/rust_gamedev
 [@rust_gamedev]: https://twitter.com/rust_gamedev
