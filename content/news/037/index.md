@@ -81,7 +81,7 @@ where universes can be created and accessed by quantum portals.
 Recent updates:
 
 - Ported to browser (wgpu with webgl backend)
-- Used the webrtc_unreliable server, and made a custom WebRtc client to archieve an unreliable protocol
+- Used the webrtc-unreliable server, and made a custom WebRtc client to archieve an unreliable protocol
 - Automatically Syncronize ECS Components if they change
 - Massively improved events system and action system
 
