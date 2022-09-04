@@ -85,7 +85,7 @@ Recent updates:
 - Automatically Syncronize ECS Components if they change
 - Massively improved events system and action system
 
-- Rewrote over 50% of the whole project to be more scalable and cleaner
+- Rewrote over 50% of the whole project to be more compact and scalable
 - Small Features such as grabbing objects and dash forward
 - Fixed three major bugs that slowed down the server
 
