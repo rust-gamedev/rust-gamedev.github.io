@@ -697,29 +697,6 @@ _Discussions:
 [@h3r2tic]: https://github.com/h3r2tic
 
 ### [Notan v0.5][Notan]
-<<<<<<< HEAD
-
-![Notan texture to file](notan.gif)
-
-[Notan] is a simple and portable layer designed to create your own multimedia
-apps on top of it without worrying about platform-specific code.
-
-The main goal is to provide a set of APIs and tools that can be used to create
-your project in an ergonomic manner without enforcing any structure or pattern,
-always trying to stay out of your way. The idea is that you can use it as a
-foundation layer or backend for your next app, game engine, or game.
-
-The latest version [v0.5] fixes multiple bugs, improves [EGUI] support and adds
-a new feature to export texture [to png] easily.
-
-[Notan]: https://github.com/Nazariglez/notan
-[to png]: https://nazariglez.github.io/notan-web/examples/texture_to_file.html
-[v0.5]: https://github.com/Nazariglez/notan/releases/tag/v0.5.0
-[EGUI]: https://github.com/emilk/egui
-
-## Popular Workgroup Issues in Github
-=======
->>>>>>> 65e6b34baf9426e1c507e6977723e356d2c28538
 
 ![Notan texture to file](notan.gif)
 

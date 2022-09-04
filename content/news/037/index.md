@@ -97,7 +97,7 @@ refactoring tool based on the [Language Server Protocol][language-server-protoco
 
 ## Tooling Updates
 
-## ttttary Updates
+## Library Updates
 
 ### [hot-lib-reloader]
 
