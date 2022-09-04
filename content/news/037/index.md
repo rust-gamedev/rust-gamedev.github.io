@@ -70,9 +70,8 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [CyberGate][cybergate-yt]
 
-![hundreds of colliding colored balls in the air](entities.png)
-_The server and clients are able to smoothly handle
-over a thousand balls rained from above_
+![browser udp technology](cybergate.png)
+_The new browser version works exactly like the native version_
 
 CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]) by CyberSoul
 is a new multiplayer project that aims at procedurally generating distinct
@@ -81,16 +80,18 @@ where universes can be created and accessed by quantum portals.
 
 Recent updates:
 
-- Bandwidth became 16 times smaller by implementing entity prioritization
-  \+ other techniques.
-- Interpolation and Jitter prediction makes entities way smoother.
-- Automatic and Reliable Spawn and Despawn of entities.
-- Many other features and optimizations to do with rapier 3d physics,
-  wgpu renderer and quinn (quic) protocol.
+- Ported to browser (wgpu with webgl backend)
+- Used the webrtc_unreliable server, and made a custom WebRtc client to archieve an unreliable protocol
+- Automatically Syncronize ECS Components if they change
+- Massively improved events system and action system
 
-[Join the Discord server][cybergate-dis] to participate in tests.
+- Rewrote over 50% of the whole project to be more scalable and cleaner
+- Small Features such as grabbing objects and dash forward
+- Fixed three major bugs that slowed down the server
 
-_Discussions: [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/vy7vms/multiplayer_stress_test_1_million_balls)_
+[Join the Discord server][cybergate-dis] to participate in upcoming Phase 5.0!
+
+_Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/x60n9y/cybergate_45_progress_browser_udp_client_with/)_
 
 [cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
 [cybergate-dis]: https://discord.gg/R7DkHqw7zJ
