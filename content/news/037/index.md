@@ -82,7 +82,7 @@ Recent updates:
 
 - Ported to browser (wgpu with webgl backend)
 - Unreliable protocol archieved with WebRtc
-- Dynamically Spawn and Syncronize ECS Components using macros
+- Dynamically Spawn and Synchronize ECS Components using macros
 - Massively improved events system and action system
 
 - Rewrote over 50% of the whole project to be more compact and scalable
