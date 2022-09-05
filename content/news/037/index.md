@@ -82,12 +82,12 @@ Recent updates:
 
 - Ported to browser (wgpu with webgl backend)
 - Unreliable protocol archieved with WebRtc
-- Automatically Syncronize ECS Components
+- Dynamically Spawn and Syncronize ECS Components using macros
 - Massively improved events system and action system
 
 - Rewrote over 50% of the whole project to be more compact and scalable
 - Small Features such as grabbing objects and dash forward
-- Fixed three major bugs that slowed down the server
+- Fixed 3 major bugs that slowed down the server
 
 [Join the Discord server][cybergate-dis] to participate in upcoming Phase 5.0!
 
