@@ -70,7 +70,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [CyberGate][cybergate-yt]
 
-![browser udp technology](cybergate.png)
+![browser udp technology](cybergate.jpg)
 _The new browser version works exactly like the native version_
 
 CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]) by CyberSoul
