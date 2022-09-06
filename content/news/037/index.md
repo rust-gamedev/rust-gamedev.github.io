@@ -68,34 +68,6 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
-### [CyberGate][cybergate-yt]
-
-![browser udp technology](cybergate.jpg)
-_The new browser version works exactly like the native version_
-
-CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]) by CyberSoul
-is a new multiplayer project that aims at procedurally generating distinct
-universes and gameplay experiences. CyberGate is the name of the main world
-where universes can be created and accessed by quantum portals.
-
-Recent updates:
-
-- Ported to browser (wgpu with webgl backend)
-- Unreliable protocol archieved with WebRtc
-- Dynamically Spawn and Synchronize ECS Components using macros
-- Massively improved the events system and actions system
-
-- Refactored over 50% of the project
-- Small Features such as grabbing objects and dash forward
-- Fixed 3 major bugs that slowed down the server
-
-[Join the Discord server][cybergate-dis] to participate in upcoming Phase 5.0!
-
-_Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/x60n9y/cybergate_45_progress_browser_udp_client_with/)_
-
-[cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
-[cybergate-dis]: https://discord.gg/R7DkHqw7zJ
-
 ### [Catacomb 2-64k][catacomb-2-repo]
 
 [![Catacomb 2 image](catacomb_2.png)][catacomb-2-repo]
@@ -118,6 +90,33 @@ refactoring tool based on the [Language Server Protocol][language-server-protoco
 [rust-sdl2-bindings]: https://github.com/Rust-SDL2/rust-sdl2
 [language-server-protocol]: https://microsoft.github.io/language-server-protocol
 [rust-analyzer]: https://github.com/rust-lang/rust-analyzer
+
+### [CyberGate][cybergate-yt]
+
+![browser udp technology](cybergate.jpg)
+_The new browser version works exactly like the native version_
+
+CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]) by CyberSoul
+is a new multiplayer project that aims at procedurally generating distinct
+universes and gameplay experiences. CyberGate is the name of the main world
+where universes can be created and accessed by quantum portals.
+
+Recent updates:
+
+- Ported to browser (wgpu with webgl backend)
+- Unreliable protocol archieved with WebRtc
+- Dynamically Spawn and Synchronize ECS Components using macros
+- Massively improved the events system and actions system
+- Refactored over 50% of the project
+- Small Features such as grabbing objects and dash forward
+- Fixed 3 major bugs that slowed down the server
+
+[Join the Discord server][cybergate-dis] to participate in upcoming Phase 5.0!
+
+_Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/x60n9y/cybergate_45_progress_browser_udp_client_with/)_
+
+[cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
+[cybergate-dis]: https://discord.gg/R7DkHqw7zJ
 
 ## Engine Updates
 
