@@ -162,6 +162,27 @@ users to define their own dynamic assets.
 [bevy_asset_loader]: https://github.com/NiklasEi/bevy_asset_loader/
 [Bevy]: https://bevyengine.org/
 
+### [Shipyard]
+
+[Shipyard] is an Entity Component System focused on usability and speed.
+
+0.6 was released with big improvements to workloads and tracking.
+
+The new [visualizer][shipyard-visualizer] is a first step towards visual 
+inspection and interaction with the library.
+For now it can only show which components are used by which systems 
+and vice-versa.
+
+Learn more about this release in the [release post][shipyard-release-post].
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/wi71lu/shipyard_06_release/)
+[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/wi72vc/shipyard_06_release/)
+
+[Shipyard]: https://github.com/leudz/shipyard
+[shipyard-visualizer]: https://leudz.github.io/shipyard/visualizer
+[shipyard-release-post]: https://users.rust-lang.org/t/shipyard-0-6-release/79504
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
