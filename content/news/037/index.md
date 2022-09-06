@@ -103,10 +103,10 @@ by @RobDavenport is a WASM-powered fantasy console focused
 on building multiplayer neo-retro games.
 
 Gamercade is preparing for their first alpha release! This includes all the
-core features needed for a fantasy console game library: input, graphics, and
-audio. It also has networked multiplayer, and an editor.
+core features needed for a fantasy console and game library: input, graphics,
+and audio. It also has networked multiplayer, and an editor.
 
-They implemented the in-game sound engine from scratch. The also improved the
+They implemented the in-game sound engine from scratch. They also improved the
 editor to allow creation of instruments and tracks. It synthesizes sounds at
 runtime, and produces something like an 80s synth, a 90s SoundBlaster, and a
 touch of SNES. Songs and Sfx are built using a tracker interface.
