@@ -91,6 +91,34 @@ refactoring tool based on the [Language Server Protocol][language-server-protoco
 [language-server-protocol]: https://microsoft.github.io/language-server-protocol
 [rust-analyzer]: https://github.com/rust-lang/rust-analyzer
 
+### [Rusty Aquarium]
+
+![Rusty Aquarium visualization](rustyaquarium.gif)
+_Visualize data as a fish tank with Rusty Aquarium_
+
+[Rusty Aquarium] by [@ollej] is a data visualization tool as a virtual fish
+tank written in Rust and Macroquad. Different data points control how many
+fishes are shown, how they move, how fast they swim, and which size they are.
+It can be used to monitor data in a visual way, while those uninitiated only
+see a serene fish tank.
+
+Since Macroquad is cross-platform, Rusty Aquarium is available for Windows,
+Mac, Linux as well as for browsers using WebAssembly.
+
+#### How to control the aquarium
+- System monitoring binary to show CPU usage, disk usage and processes.
+- Integrate with Google Sheets to control fishes.
+- Back it with an URL that generates a JSON file.
+
+This month, a blog post with the [story behind Rusty Aquarium][RustyAquariumStory]
+was published on the [Agical] blog. The code was restructured and the packaged
+files now contain binaries for input data generation.
+
+[Rusty Aquarium]: https://github.com/ollej/rusty-aquarium
+[@ollej]: https://twitter.com/ollej
+[RustyAquariumStory]: https://blog.agical.se/en/posts/the-story-behind-rusty-aquarium/
+[Agical]: https://blog.agical.se/en/
+
 ## Engine Updates
 
 ## Learning Material Updates
