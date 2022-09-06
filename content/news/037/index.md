@@ -106,6 +106,7 @@ Since Macroquad is cross-platform, Rusty Aquarium is available for Windows,
 Mac, Linux as well as for browsers using WebAssembly.
 
 #### How to control the aquarium
+
 - System monitoring binary to show CPU usage, disk usage and processes.
 - Integrate with Google Sheets to control fishes.
 - Back it with an URL that generates a JSON file.
