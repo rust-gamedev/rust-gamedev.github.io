@@ -93,6 +93,42 @@ refactoring tool based on the [Language Server Protocol][language-server-protoco
 
 ## Engine Updates
 
+### [Gamercade]
+
+![Gamercade preview](gamercade.gif)
+_Preview of the Audio Editor in Action_
+
+[Gamercade] ([Discord][Gamercade-Discord], [Github][Gamercade-Github])
+by @RobDavenport is a WASM-powered fantasy console focused
+on building multiplayer neo-retro games.
+
+Gamercade is preparing for their first alpha release! This includes all the
+core features needed for a fantasy console game library: input, graphics, and
+audio. It also has networked multiplayer, and an editor.
+
+They implemented the in-game sound engine from scratch. The also improved the
+editor to allow creation of instruments and tracks. It synthesizes sounds at
+runtime, and produces something like an 80s synth, a 90s SoundBlaster, and a
+touch of SNES. Songs and Sfx are built using a tracker interface.
+[This video][Gamercade-Video] shows a small sample of what it is capable of.
+
+**Wavetables** are great for classic sounds like 8-bit chiptunes or even more
+complicated sounds. **FM Synth** is a 4-op FM synthesizer. Masters of this
+technique can produce a huge variety of instruments, effects, and other 
+otherwordly things. **Sampler** rounds out the rest of the system, providing 
+pre-recorded sample playback. Samples can be pitched and played as the desired
+note.
+
+Come hang out and chat on [Discord][Gamercade-Discord], where the developers
+interact with members and post updates daily. The project is
+[open source][Gamercade-Github] and looking for contributors, suggestions,
+as well as awesome game demos.
+
+[Gamercade]: https://gamercade.io
+[Gamercade-Discord]: https://discord.gg/Qafv2Fpt5j
+[Gamercade-Github]: https://github.com/gamercade-io/gamercade_console
+[Gamercade-Video]: https://www.youtube.com/watch?v=cRsOvefap_U
+
 ## Learning Material Updates
 
 ## Tooling Updates
