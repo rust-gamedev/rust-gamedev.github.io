@@ -91,6 +91,29 @@ refactoring tool based on the [Language Server Protocol][language-server-protoco
 [language-server-protocol]: https://microsoft.github.io/language-server-protocol
 [rust-analyzer]: https://github.com/rust-lang/rust-analyzer
 
+### [Infinite Bunner]
+
+![Infinite Bunner](infinitebunner.gif)
+_Port of the Infinite Bunner game to Rust and Macroquad_
+
+[Infinite Bunner] is a game from the book [Code the Classics vol 1] that has
+been ported by [@ollej] to Rust and Macroquad from Python and PyGame Zero.
+It is a modern version of the classic arcade game Frogger with improved
+graphics and sound.
+
+The game has been sent in to the [Rust Game Ports][rust-game-ports] project as
+an educational example. It shows how to make a 2D game in Macroquad with
+graphics and sound.
+
+[Code the Classics vol 1] is a book from Wireframe Magazine that tells the
+history of five classic video games. It also includes code listings of modern
+versions of the games written in Python with the PyGame Zero framework.
+
+[Infinite Bunner]: https://github.com/ollej/rust-bunner-macroquad
+[@ollej]: https://twitter.com/ollej
+[rust-game-ports]: https://github.com/rust-gamedev/rust-game-ports
+[Code the Classics vol 1]: https://wireframe.raspberrypi.org/books/code-the-classics1
+
 ## Engine Updates
 
 ## Learning Material Updates
