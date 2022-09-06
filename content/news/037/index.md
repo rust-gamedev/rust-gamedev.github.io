@@ -112,10 +112,10 @@ runtime, and produces something like an 80s synth, a 90s SoundBlaster, and a
 touch of SNES. Songs and Sfx are built using a tracker interface.
 [This video][Gamercade-Video] shows a small sample of what it is capable of.
 
-Wavetables are great for classic sounds like 8-bit chiptunes or even more
-complicated sounds. FM Synth is a 4-op FM synthesizer. Masters of this
+"Wavetables" are great for classic sounds like 8-bit chiptunes or even more
+complicated sounds. "FM Synth" is a 4-op FM synthesizer. Masters of this
 technique can produce a huge variety of instruments, effects, and other 
-otherwordly things. Sampler rounds out the rest of the system, providing 
+otherwordly things. "Sampler" rounds out the rest of the system, providing 
 pre-recorded sample playback. Samples can be pitched and played as the desired
 note.
 
