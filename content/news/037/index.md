@@ -114,8 +114,8 @@ touch of SNES. Songs and Sfx are built using a tracker interface.
 
 "Wavetables" are great for classic sounds like 8-bit chiptunes or even more
 complicated sounds. "FM Synth" is a 4-op FM synthesizer. Masters of this
-technique can produce a huge variety of instruments, effects, and other 
-otherwordly things. "Sampler" rounds out the rest of the system, providing 
+technique can produce a huge variety of instruments, effects, and other
+otherwordly things. "Sampler" rounds out the rest of the system, providing
 pre-recorded sample playback. Samples can be pitched and played as the desired
 note.
 
