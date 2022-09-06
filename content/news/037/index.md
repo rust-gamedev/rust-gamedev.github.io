@@ -168,9 +168,9 @@ users to define their own dynamic assets.
 
 0.6 was released with big improvements to workloads and tracking.
 
-The new [visualizer][shipyard-visualizer] is a first step towards visual 
+The new [visualizer][shipyard-visualizer] is a first step towards visual
 inspection and interaction with the library.
-For now it can only show which components are used by which systems 
+For now it can only show which components are used by which systems
 and vice-versa.
 
 Learn more about this release in the [release post][shipyard-release-post].
