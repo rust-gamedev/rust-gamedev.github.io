@@ -104,11 +104,11 @@ where universes can be created and accessed by quantum portals.
 Recent updates:
 
 - Ported to browser (wgpu with webgl backend)
-- Unreliable protocol archieved with WebRtc
-- Dynamically Spawn and Synchronize ECS Components using macros
+- Unreliable protocol archieved with WebRTC
+- Dynamically spawn and synchronize ECS components using macros
 - Massively improved the events system and actions system
 - Refactored over 50% of the project
-- Small Features such as grabbing objects and dash forward
+- Small features such as grabbing objects and dash forward
 - Fixed 3 major bugs that slowed down the server
 
 [Join the Discord server][cybergate-dis] to participate in upcoming Phase 5.0!
