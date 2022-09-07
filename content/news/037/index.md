@@ -120,6 +120,29 @@ _Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/x
 
 ## Engine Updates
 
+### [miniquad]
+
+[![diff](android_playground.gif)][quad-android-playground]
+
+[miniquad] is a pure Rust, cross-platform graphics library.
+
+This month was about polishing miniquad-android experience.
+To make it easier for regression testing, miniquad got
+[the android playground][quad-android-playground].
+
+The playground demonstrates all known android shenanigans in
+one quad-based app.
+
+It includes:
+
+- onscreen keyboard
+- java interop (with file dialog as an example)
+- dealing with big java services (with bluetooth as an example)
+- accessing permissions, both runtime and compile time
+
+[miniquad]: https://github.com/not-fl3/miniquad/
+[quad-android-playground]: https://github.com/not-fl3/quad-android-playground
+
 ## Learning Material Updates
 
 ## Tooling Updates
