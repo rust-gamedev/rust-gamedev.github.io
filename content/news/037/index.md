@@ -185,6 +185,24 @@ users to define their own dynamic assets.
 [bevy_asset_loader]: https://github.com/NiklasEi/bevy_asset_loader/
 [Bevy]: https://bevyengine.org/
 
+### [Notan v0.6][Notan]
+
+![notan examples](notan.gif)
+
+[Notan] is a simple and portable layer designed to create your own
+apps on top of it without worrying about platform-specific code.
+
+It provides a set of APIs and tools that can be used to create your
+project in an ergonomic manner without enforcing any structure or pattern,
+sharing the same codebase across multiple platforms.
+
+The main focus for version [v0.6] was improving how uniforms
+are set using the layout std140 for the user with a macro,
+among internal fixes and improvements.
+
+[Notan]: https://github.com/Nazariglez/notan
+[v0.6]: https://github.com/Nazariglez/notan/releases/tag/v0.6.0
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
