@@ -93,27 +93,6 @@ refactoring tool based on the [Language Server Protocol][language-server-protoco
 
 ## Engine Updates
 
-### [Runty8][runty8-repo]
-
-[![Runty 8 logo][runty8-logo]][runty8-repo]
-
-[Runty8][runty8-repo] is an experimental port of the [Pico8][pico8-site]
-fantasy console that supports writing games in Rust.
-
-It's currents goals are to follow Pico8's APIs as closely as possible, 
-to allow easily porting existing games to Rust, 
-as well as developing new games in a familiar development environment.
-
-The project is in very early stages, and is currently looking for contributors. 
-If you're interested, feel free to read our [Contributing guide][runty8-contributing-guide]
-or browse through the [open issues][runty8-open-issues].
-
-[runty8-repo]: https://github.com/jjant/runty8
-[runty8-contributing-guide]: https://github.com/jjant/runty8/blob/master/CONTRIBUTING.md
-[runty8-open-issues]: https://github.com/jjant/runty8/issues
-[pico8-site]: https://www.lexaloffle.com/pico-8.php
-[runty8-logo]: https://user-images.githubusercontent.com/15112080/188467323-037617cf-7dbc-4988-bbd7-fbafd1524455.png
-
 ### [miniquad]
 
 [![diff](android_playground.gif)][quad-android-playground]
@@ -136,6 +115,27 @@ It includes:
 
 [miniquad]: https://github.com/not-fl3/miniquad/
 [quad-android-playground]: https://github.com/not-fl3/quad-android-playground
+
+### [Runty8][runty8-repo]
+
+[![Runty 8 logo][runty8-logo]][runty8-repo]
+
+[Runty8][runty8-repo] is an experimental port of the [Pico8][pico8-site]
+fantasy console that supports writing games in Rust.
+
+Its current goals are to follow Pico8's APIs as closely as possible, 
+to allow easily porting existing games to Rust, 
+as well as developing new games in a familiar development environment.
+
+The project is in very early stages, and is currently looking for contributors. 
+If you're interested, feel free to read their [contributing guide][runty8-contributing-guide]
+or browse through the [open issues][runty8-open-issues].
+
+[runty8-repo]: https://github.com/jjant/runty8
+[runty8-contributing-guide]: https://github.com/jjant/runty8/blob/master/CONTRIBUTING.md
+[runty8-open-issues]: https://github.com/jjant/runty8/issues
+[pico8-site]: https://www.lexaloffle.com/pico-8.php
+[runty8-logo]: https://user-images.githubusercontent.com/15112080/188467323-037617cf-7dbc-4988-bbd7-fbafd1524455.png
 
 ## Learning Material Updates
 
