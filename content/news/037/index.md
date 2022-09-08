@@ -123,11 +123,11 @@ It includes:
 [Runty8][runty8-repo] is an experimental port of the [Pico8][pico8-site]
 fantasy console that supports writing games in Rust.
 
-Its current goals are to follow Pico8's APIs as closely as possible, 
-to allow easily porting existing games to Rust, 
+Its current goals are to follow Pico8's APIs as closely as possible,
+to allow easily porting existing games to Rust,
 as well as developing new games in a familiar development environment.
 
-The project is in very early stages, and is currently looking for contributors. 
+The project is in very early stages, and is currently looking for contributors.
 If you're interested, feel free to read their [contributing guide][runty8-contributing-guide]
 or browse through the [open issues][runty8-open-issues].
 
