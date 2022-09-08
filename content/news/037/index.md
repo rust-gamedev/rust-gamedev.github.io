@@ -185,6 +185,20 @@ users to define their own dynamic assets.
 [bevy_asset_loader]: https://github.com/NiklasEi/bevy_asset_loader/
 [Bevy]: https://bevyengine.org/
 
+### [Math It]
+
+![Promotional image of the Math It game](math_it.png)
+_Promotional image of the Math It game_
+
+[Math It] was made with [Bevy] for the [Bevy Jam 2].
+
+The goal of the game is to get as close as possible
+to the target number, and compete with others on a global leaderboard.
+
+[Math It]: https://vrixyz.itch.io/math-it
+[Bevy Jam 2]: https://itch.io/jam/bevy-jam-2
+[Bevy]: https://bevyengine.org/
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
