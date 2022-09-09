@@ -96,10 +96,10 @@ refactoring tool based on the [Language Server Protocol][language-server-protoco
 ![Country_slice_gif](country_slice.gif)
 
 The untitled "Tiny Building Game" is a stress-free feel-good game focused on just
-building something pretty. It is being made [@anastasiaopara] and
+building something pretty. It is being made by [@anastasiaopara] and
 [@h3r2tic], who has recently joined the project!
 
-This month there was a large visual update, which added [trees and flowers][twitter-thread-1],
+This month, there was a large visual update, which added [trees and flowers][twitter-thread-1],
 as well as [fences and gates][twitter-thread-2].
 
 Right now, the team is actively working on setting up a Steam page. Stay
