@@ -177,7 +177,7 @@ Learn more about this release in the [release post][shipyard-release-post].
 
 _Discussions:
 [/r/rust](https://www.reddit.com/r/rust/comments/wi71lu/shipyard_06_release/)
-[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/wi72vc/shipyard_06_release/)
+[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/wi72vc/shipyard_06_release/)_
 
 [Shipyard]: https://github.com/leudz/shipyard
 [shipyard-visualizer]: https://leudz.github.io/shipyard/visualizer
