@@ -91,6 +91,33 @@ refactoring tool based on the [Language Server Protocol][language-server-protoco
 [language-server-protocol]: https://microsoft.github.io/language-server-protocol
 [rust-analyzer]: https://github.com/rust-lang/rust-analyzer
 
+### [CyberGate][cybergate-yt]
+
+![browser udp technology](cybergate.jpg)
+_The new browser version works exactly like the native version_
+
+CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]) by CyberSoul
+is a new multiplayer project that aims at procedurally generating distinct
+universes and gameplay experiences. CyberGate is the name of the main world
+where universes can be created and accessed by quantum portals.
+
+Recent updates:
+
+- Ported to browser (wgpu with webgl backend)
+- Unreliable network protocol achieved with WebRTC
+- Dynamically spawn and synchronize ECS components using macros
+- Massively improved the events system and actions system
+- Refactored over 50% of the project
+- Small features such as grabbing objects and dash forward
+- Fixed 3 major bugs that slowed down the server
+
+[Join the Discord server][cybergate-dis] to participate in upcoming Phase 5.0!
+
+_Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/x60n9y/cybergate_45_progress_browser_udp_client_with/)_
+
+[cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
+[cybergate-dis]: https://discord.gg/R7DkHqw7zJ
+
 ### [Rusty Aquarium]
 
 ![Rusty Aquarium visualization](rustyaquarium.gif)
@@ -121,6 +148,50 @@ files now contain binaries for input data generation.
 [Agical]: https://blog.agical.se/en/
 
 ## Engine Updates
+
+### [miniquad]
+
+[![diff](android_playground.gif)][quad-android-playground]
+
+[miniquad] is a pure Rust, cross-platform graphics library.
+
+This month was about polishing miniquad-android experience.
+To make it easier for regression testing, miniquad got
+[the android playground][quad-android-playground].
+
+The playground demonstrates all known android shenanigans in
+one quad-based app.
+
+It includes:
+
+- onscreen keyboard
+- java interop (with file dialog as an example)
+- dealing with big java services (with bluetooth as an example)
+- accessing permissions, both runtime and compile time
+
+[miniquad]: https://github.com/not-fl3/miniquad/
+[quad-android-playground]: https://github.com/not-fl3/quad-android-playground
+
+### [Runty8][runty8-repo]
+
+[![Runty 8 logo][runty8-logo]][runty8-repo]
+
+[Runty8][runty8-repo] is an experimental port of the [Pico8][pico8-site]
+fantasy console that supports writing games in Rust.
+
+Its current goals are to follow Pico8's APIs as closely as possible,
+to allow easily porting existing games to Rust,
+as well as developing new games in a familiar development environment.
+
+The project is in very early stages, and is currently looking for contributors.
+If you're interested, feel free to read their [contributing guide][runty8-contributing-guide]
+or browse through the [open issues][runty8-open-issues].
+
+[runty8-repo]: https://github.com/jjant/runty8
+[runty8-contributing-guide]: https://github.com/jjant/runty8/blob/master/CONTRIBUTING.md
+[runty8-open-issues]: https://github.com/jjant/runty8/issues
+[pico8-site]: https://www.lexaloffle.com/pico-8.php
+[runty8-logo]: https://user-images.githubusercontent.com/15112080/188467323-037617cf-7dbc-4988-bbd7-fbafd1524455.png
 
 ## Learning Material Updates
 
@@ -190,6 +261,24 @@ users to define their own dynamic assets.
 [@nikl_me]: https://twitter.com/nikl_me
 [bevy_asset_loader]: https://github.com/NiklasEi/bevy_asset_loader/
 [Bevy]: https://bevyengine.org/
+
+### [Notan v0.6][Notan]
+
+![notan examples](notan.gif)
+
+[Notan] is a simple and portable layer designed to create your own
+apps on top of it without worrying about platform-specific code.
+
+It provides a set of APIs and tools that can be used to create your
+project in an ergonomic manner without enforcing any structure or pattern,
+sharing the same codebase across multiple platforms.
+
+The main focus for version [v0.6] was improving how uniforms
+are set using the layout std140 for the user with a macro,
+among internal fixes and improvements.
+
+[Notan]: https://github.com/Nazariglez/notan
+[v0.6]: https://github.com/Nazariglez/notan/releases/tag/v0.6.0
 
 ## Popular Workgroup Issues in Github
 
