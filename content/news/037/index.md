@@ -91,7 +91,186 @@ refactoring tool based on the [Language Server Protocol][language-server-protoco
 [language-server-protocol]: https://microsoft.github.io/language-server-protocol
 [rust-analyzer]: https://github.com/rust-lang/rust-analyzer
 
+### [CyberGate][cybergate-yt]
+
+![browser udp technology](cybergate.jpg)
+_The new browser version works exactly like the native version_
+
+CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]) by CyberSoul
+is a new multiplayer project that aims at procedurally generating distinct
+universes and gameplay experiences. CyberGate is the name of the main world
+where universes can be created and accessed by quantum portals.
+
+Recent updates:
+
+- Ported to browser (wgpu with webgl backend)
+- Unreliable network protocol achieved with WebRTC
+- Dynamically spawn and synchronize ECS components using macros
+- Massively improved the events system and actions system
+- Refactored over 50% of the project
+- Small features such as grabbing objects and dash forward
+- Fixed 3 major bugs that slowed down the server
+
+[Join the Discord server][cybergate-dis] to participate in upcoming Phase 5.0!
+
+_Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/x60n9y/cybergate_45_progress_browser_udp_client_with/)_
+
+[cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
+[cybergate-dis]: https://discord.gg/R7DkHqw7zJ
+
+### [Rusty Aquarium]
+
+![Rusty Aquarium visualization](rustyaquarium.gif)
+_Visualize data as a fish tank with Rusty Aquarium_
+
+[Rusty Aquarium] by [@ollej] is a data visualization tool as a virtual fish
+tank written in Rust and Macroquad. Different data points control how many
+fishes are shown, how they move, how fast they swim, and which size they are.
+It can be used to monitor data in a visual way, while those uninitiated only
+see a serene fish tank.
+
+Since Macroquad is cross-platform, Rusty Aquarium is available for Windows,
+Mac, Linux as well as for browsers using WebAssembly.
+
+The aquarium can be controlled in various different ways:
+
+- System monitoring binary to show CPU usage, disk usage and processes.
+- Integrate with Google Sheets to control fishes.
+- Back it with an URL that generates a JSON file.
+
+This month, a blog post with the [story behind Rusty Aquarium][RustyAquariumStory]
+was published on the [Agical] blog. The code was restructured and the packaged
+files now contain binaries for input data generation.
+
+[Rusty Aquarium]: https://github.com/ollej/rusty-aquarium
+[@ollej]: https://twitter.com/ollej
+[RustyAquariumStory]: https://blog.agical.se/en/posts/the-story-behind-rusty-aquarium/
+[Agical]: https://blog.agical.se/en/
+
+### [Infinite Bunner]
+
+![Infinite Bunner](infinitebunner.gif)
+_Port of the Infinite Bunner game to Rust and Macroquad_
+
+[Infinite Bunner] is a game from the book [Code the Classics vol 1] that has
+been ported by [@ollej] to Rust and Macroquad from Python and PyGame Zero.
+It is a modern version of the classic arcade game Frogger with improved
+graphics and sound.
+
+The game has been sent in to the [Rust Game Ports][rust-game-ports] project as
+an educational example. It shows how to make a 2D game in Macroquad with
+graphics and sound.
+
+[Code the Classics vol 1] is a book from Wireframe Magazine that tells the
+history of five classic video games. It also includes code listings of modern
+versions of the games written in Python with the PyGame Zero framework.
+
+[Infinite Bunner]: https://github.com/ollej/rust-bunner-macroquad
+[@ollej]: https://twitter.com/ollej
+[rust-game-ports]: https://github.com/rust-gamedev/rust-game-ports
+[Code the Classics vol 1]: https://wireframe.raspberrypi.org/books/code-the-classics1
+
+### Tiny Building Game
+
+![Country_slice_gif](country_slice.gif)
+
+The untitled "Tiny Building Game" is a stress-free feel-good game focused on just
+building something pretty. It is being made by [@anastasiaopara] and
+[@h3r2tic], who has recently joined the project!
+
+This month, there was a large visual update, which added [trees and flowers][twitter-thread-1],
+as well as [fences and gates][twitter-thread-2].
+
+Right now, the team is actively working on setting up a Steam page. Stay
+tuned by following the [newsletter][country-slice-newsletter]!
+
+[country-slice-newsletter]: https://dashboard.mailerlite.com/forms/10395/51067704544593017/share
+[twitter-thread-1]: https://twitter.com/anastasiaopara/status/1560673892574035969
+[twitter-thread-2]: https://twitter.com/anastasiaopara/status/1565629377823395841
+[@anastasiaopara]: https://twitter.com/anastasiaopara
+[@h3r2tic]: https://twitter.com/h3r2tic
+
 ## Engine Updates
+
+### [miniquad]
+
+[![diff](android_playground.gif)][quad-android-playground]
+
+[miniquad] is a pure Rust, cross-platform graphics library.
+
+This month was about polishing miniquad-android experience.
+To make it easier for regression testing, miniquad got
+[the android playground][quad-android-playground].
+
+The playground demonstrates all known android shenanigans in
+one quad-based app.
+
+It includes:
+
+- onscreen keyboard
+- java interop (with file dialog as an example)
+- dealing with big java services (with bluetooth as an example)
+- accessing permissions, both runtime and compile time
+
+[miniquad]: https://github.com/not-fl3/miniquad/
+[quad-android-playground]: https://github.com/not-fl3/quad-android-playground
+
+### [Runty8][runty8-repo]
+
+[![Runty 8 logo][runty8-logo]][runty8-repo]
+
+[Runty8][runty8-repo] is an experimental port of the [Pico8][pico8-site]
+fantasy console that supports writing games in Rust.
+
+Its current goals are to follow Pico8's APIs as closely as possible,
+to allow easily porting existing games to Rust,
+as well as developing new games in a familiar development environment.
+
+The project is in very early stages, and is currently looking for contributors.
+If you're interested, feel free to read their [contributing guide][runty8-contributing-guide]
+or browse through the [open issues][runty8-open-issues].
+
+[runty8-repo]: https://github.com/jjant/runty8
+[runty8-contributing-guide]: https://github.com/jjant/runty8/blob/master/CONTRIBUTING.md
+[runty8-open-issues]: https://github.com/jjant/runty8/issues
+[pico8-site]: https://www.lexaloffle.com/pico-8.php
+[runty8-logo]: https://user-images.githubusercontent.com/15112080/188467323-037617cf-7dbc-4988-bbd7-fbafd1524455.png
+
+### [Gamercade]
+
+![Gamercade preview](gamercade.gif)
+_Preview of the Audio Editor in Action_
+
+[Gamercade] ([Discord][Gamercade-Discord], [Github][Gamercade-Github])
+by @RobDavenport is a WASM-powered fantasy console focused
+on building multiplayer neo-retro games.
+
+Gamercade is preparing for their first alpha release! This includes all the
+core features needed for a fantasy console and game library: input, graphics,
+and audio. It also has networked multiplayer, and an editor.
+
+They implemented the in-game sound engine from scratch. They also improved the
+editor to allow creation of instruments and tracks. It synthesizes sounds at
+runtime, and produces something like an 80s synth, a 90s SoundBlaster, and a
+touch of SNES. Songs and Sfx are built using a tracker interface.
+[This video][Gamercade-Video] shows a small sample of what it is capable of.
+
+"Wavetables" are great for classic sounds like 8-bit chiptunes or even more
+complicated sounds. "FM Synth" is a 4-op FM synthesizer. Masters of this
+technique can produce a huge variety of instruments, effects, and other
+otherwordly things. "Sampler" rounds out the rest of the system, providing
+pre-recorded sample playback. Samples can be pitched and played as the desired
+note.
+
+Come hang out and chat on [Discord][Gamercade-Discord], where the developers
+interact with members and post updates daily. The project is
+[open source][Gamercade-Github] and looking for contributors, suggestions,
+as well as awesome game demos.
+
+[Gamercade]: https://gamercade.io
+[Gamercade-Discord]: https://discord.gg/Qafv2Fpt5j
+[Gamercade-Github]: https://github.com/gamercade-io/gamercade_console
+[Gamercade-Video]: https://www.youtube.com/watch?v=cRsOvefap_U
 
 ## Learning Material Updates
 
@@ -162,11 +341,30 @@ users to define their own dynamic assets.
 [bevy_asset_loader]: https://github.com/NiklasEi/bevy_asset_loader/
 [Bevy]: https://bevyengine.org/
 
+### [Notan v0.6][Notan]
+
+![notan examples](notan.gif)
+
+[Notan] is a simple and portable layer designed to create your own
+apps on top of it without worrying about platform-specific code.
+
+It provides a set of APIs and tools that can be used to create your
+project in an ergonomic manner without enforcing any structure or pattern,
+sharing the same codebase across multiple platforms.
+
+The main focus for version [v0.6] was improving how uniforms
+are set using the layout std140 for the user with a macro,
+among internal fixes and improvements.
+
+[Notan]: https://github.com/Nazariglez/notan
+[v0.6]: https://github.com/Nazariglez/notan/releases/tag/v0.6.0
+
 ### [Shipyard]
 
 [Shipyard] is an Entity Component System focused on usability and speed.
 
-0.6 was released with big improvements to workloads and tracking.
+This monthh, 0.6 was released with big improvements to workloads and
+tracking.
 
 The new [visualizer][shipyard-visualizer] is a first step towards visual
 inspection and interaction with the library.
