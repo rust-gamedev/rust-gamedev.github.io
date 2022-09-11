@@ -170,6 +170,26 @@ versions of the games written in Python with the PyGame Zero framework.
 [rust-game-ports]: https://github.com/rust-gamedev/rust-game-ports
 [Code the Classics vol 1]: https://wireframe.raspberrypi.org/books/code-the-classics1
 
+### Tiny Building Game
+
+![Country_slice_gif](country_slice.gif)
+
+The untitled "Tiny Building Game" is a stress-free feel-good game focused on just
+building something pretty. It is being made by [@anastasiaopara] and
+[@h3r2tic], who has recently joined the project!
+
+This month, there was a large visual update, which added [trees and flowers][twitter-thread-1],
+as well as [fences and gates][twitter-thread-2].
+
+Right now, the team is actively working on setting up a Steam page. Stay
+tuned by following the [newsletter][country-slice-newsletter]!
+
+[country-slice-newsletter]: https://dashboard.mailerlite.com/forms/10395/51067704544593017/share
+[twitter-thread-1]: https://twitter.com/anastasiaopara/status/1560673892574035969
+[twitter-thread-2]: https://twitter.com/anastasiaopara/status/1565629377823395841
+[@anastasiaopara]: https://twitter.com/anastasiaopara
+[@h3r2tic]: https://twitter.com/h3r2tic
+
 ## Engine Updates
 
 ### [miniquad]
