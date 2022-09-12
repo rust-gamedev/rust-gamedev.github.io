@@ -388,55 +388,31 @@ that expands traditional ECS feature set.
 
 New version 0.2 is getting [ready for release].
 
-This ECS is based on archetypes (aka SOA storage) to allow fast cache-friendly
+This ECS is based on archetypes for fast cache-friendly
 iteration. And there are quite a few novel features:
 
-[Edict] allows users to express relations between entities using [`Relation`]
-trait. Conceptually they are components that gets attached to a pair of
-entities - origin and target. Relation is automatically removed when one of the entity
-is despawned. Additionally relation may be "owned", automatically triggering 
-despawn for "owned" entities when last owner is despawned. Relation may be 
-declared as "exclusive" so that it is replaces old relation on origin entity.
-Provided out of the box relation [`ChildOf`] is exactly this - "exclusive" and
-"owned" - and can be used to define entity hierarchies.
+[Edict] allows to express relations between entities using [`Relation`]
+trait. Relations are linked to a pair of
+entities - origin and target. This opens a wide range of opportunities to create
+entity graphs with custom logic.
 
-User may define hooks for components and relations to trigger arbitrary actions
-when component is dropped or replaced, or if relation target is dropped.
-Hooks can be defined in [`Component`] trait implementation.
-Also [`WorldBuilder`] allows to dynamically override hooks for the component
-type.
+Custom hooks for components and relations to trigger actions
+when component is dropped/replaced, or when relation target is dropped.
 
-Unlike most ECS with [`Component`] trait [Edict] allows using component types
-that do not implement [`Component`]. Component inserting methods
-(spawn, insert etc) can be used only with components that implement
-[`Component`].
-Each such method has [`*_external`] counterpart that allows for [`!Component`]
-types but require explicit registration.
+Optional [`Component`] trait. [Edict] allows using component types that
+do not implement [`Component`] with some restrictions.
 
-Built-in change tracking with fast and flexible queries for modified components
-can be used to implement complex use cases. For example incremental saves can
-fetch all components modified since previous save. For netcode components
-modified since last ACK can be fetched as efficiently.
+Change tracking with flexible queries for modified components
+suitable for complex use cases. E.g. incremental saves can
+fetch all components modified since previous save.
 
-Another novel feature is type-agnostic component borrowing.
-Component type may define list of types that can be borrowed from it. Important
-use case is borrowing [`dyn Traits`].
-Editor implementation may borrow some `dyn EditorComponent` and use it to show
-widget for recognized components. Borrowing can be used with runtime-known
-[`TypeId`] as well as without one.
+Type-agnostic component borrowing.
+Component type may define list of types that can be borrowed from it.
+Important use case is borrowing [`dyn Traits`].
 
 [Edict] supports parallel execution.
-There's [`System`] trait that works with built-in [`Scheduler`].
-Functions with certain argument types can be transformed into [`System`]s
-similarly to [`bevy_ecs`].
-The [`Scheduler`] is very easy to configure and use. Any conflicting pair of
-system define implicit dependency from system that was added earlier to a system
-that was added later. This way multi-threaded execution runs the same way as
-single-threaded would.
-[`Scheduler`] uses external executor using [`ScopedExecutor`] trait. Implemented
-for [`std::thread::Scope`] and [`rayon::Scope`] under "rayon" feature.
-[`Scheduler::run`] returns an iterator or [`ActionEncoder`]s that should be
-executed with mutable access to [`World`].
+Built-in scheduler uses systems that implement [`System`] trait.
+Functions can be safely transformed into systems similarly to [`bevy_ecs`].
 
 [Edict]: https://github.com/zakarumych/edict
 [@zakarumych]: https://github.com/zakarumych
@@ -444,6 +420,8 @@ executed with mutable access to [`World`].
 [`Relation`]: https://docs.rs/edict/0.2.0-rc.3/edict/relation/trait.Relation.html
 [`ChildOf`]: https://docs.rs/edict/0.2.0-rc.3/edict/relation/struct.ChildOf.html
 [`Component`]: https://docs.rs/edict/0.2.0-rc.3/edict/component/trait.Component.html
+[`WorldBuilder`]: https://docs.rs/edict/0.2.0-rc.3/edict/world/struct.WorldBuilder.html
+[`!Component`]: https://docs.rs/edict/0.2.0-rc.3/edict/component/trait.Component.html
 [`*_external`]: https://docs.rs/edict/0.2.0-rc.3/edict/world/struct.World.html#method.spawn_external
 [`dyn Traits`]: https://doc.rust-lang.org/book/ch17-02-trait-objects.html
 [`TypeId`]: https://doc.rust-lang.org/nightly/core/any/struct.TypeId.html
