@@ -418,22 +418,10 @@ Functions can be safely transformed into systems similarly to [`bevy_ecs`].
 [@zakarumych]: https://github.com/zakarumych
 [ready for release]: https://docs.rs/edict/0.2.0-rc.3/edict/
 [`Relation`]: https://docs.rs/edict/0.2.0-rc.3/edict/relation/trait.Relation.html
-[`ChildOf`]: https://docs.rs/edict/0.2.0-rc.3/edict/relation/struct.ChildOf.html
 [`Component`]: https://docs.rs/edict/0.2.0-rc.3/edict/component/trait.Component.html
-[`WorldBuilder`]: https://docs.rs/edict/0.2.0-rc.3/edict/world/struct.WorldBuilder.html
-[`!Component`]: https://docs.rs/edict/0.2.0-rc.3/edict/component/trait.Component.html
-[`*_external`]: https://docs.rs/edict/0.2.0-rc.3/edict/world/struct.World.html#method.spawn_external
 [`dyn Traits`]: https://doc.rust-lang.org/book/ch17-02-trait-objects.html
-[`TypeId`]: https://doc.rust-lang.org/nightly/core/any/struct.TypeId.html
 [`System`]: https://docs.rs/edict/0.2.0-rc.3/edict/system/trait.System.html
-[`Scheduler`]: https://docs.rs/edict/0.2.0-rc.3/edict/scheduler/struct.Scheduler.html
 [`bevy_ecs`]: https://crates.io/crates/bevy_ecs
-[`ScopedExecutor`]: https://docs.rs/edict/0.2.0-rc.3/edict/executor/trait.ScopedExecutor.html
-[`std::thread::Scope`]: https://doc.rust-lang.org/stable/std/thread/struct.Scope.html
-[`rayon::Scope`]: https://docs.rs/rayon/1.5.3/rayon/struct.Scope.html
-[`Scheduler::run`]: https://docs.rs/edict/0.2.0-rc.3/edict/scheduler/struct.Scheduler.html#method.run
-[`ActionEncoder`]: https://docs.rs/edict/0.2.0-rc.3/edict/action/struct.ActionEncoder.html
-[`World`]: https://docs.rs/edict/0.2.0-rc.3/edict/world/struct.World.html
 
 ## Popular Workgroup Issues in Github
 
