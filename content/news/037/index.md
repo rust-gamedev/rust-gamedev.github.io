@@ -276,6 +276,39 @@ as well as awesome game demos.
 
 ## Tooling Updates
 
+### [Graphite][graphite-website]
+
+![Graphite logo](graphite.png)
+
+Graphite ([website][graphite-website], [GitHub][graphite-repo],
+[Discord][graphite-discord], [Twitter][graphite-twitter]) is a free,
+in-development raster and vector 2D graphics editor that will be based around a
+Rust-powered node graph compositing engine.
+
+August's [sprint][graphite-sprint-18] focused on Bézier shape editing and layer
+transformation improvements.
+
+- Ahead of the curve: Bézier shapes gain support for curve extension and shape
+  closing using the Pen tool and inserting points along curves with the Path
+  tool.
+- Front and center: Layer origins may be set to control the center of rotation
+  and scale using the Transform tool.
+
+Meanwhile, design and architecture work on the Graphene node-based programming
+language has been well underway. Graphene is the data graph engine that will
+replace Graphite's tree-based layer system in the next few sprints and evolve
+into a raster-and-vector render engine over time.
+
+Open the [Graphite editor][graphite-live-demo] in your browser to give it a try
+and share your creations with #MadeWithGraphite on Twitter.
+
+[graphite-website]: https://graphite.rs
+[graphite-repo]: https://github.com/GraphiteEditor/Graphite
+[graphite-discord]: https://discord.graphite.rs
+[graphite-twitter]: https://twitter.com/GraphiteEditor
+[graphite-sprint-18]: https://github.com/GraphiteEditor/Graphite/milestone/18
+[graphite-live-demo]: https://editor.graphite.rs
+
 ## Library Updates
 
 ### [hot-lib-reloader]
