@@ -72,7 +72,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ![Bevy Jam 2](bevy_jam_2.png)
 
-Voting on the [Bevy Jam #2][bevy-jam] just finished! It was a
+Voting on [Bevy Jam #2][bevy-jam] just finished! It was a
 10 day event, where the goal was to make a game in
 [Bevy Engine][bevy-engine], the free and open-source game engine
 built in Rust. The theme was 'Combine'.
