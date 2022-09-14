@@ -190,6 +190,35 @@ tuned by following the [newsletter][country-slice-newsletter]!
 [@anastasiaopara]: https://twitter.com/anastasiaopara
 [@h3r2tic]: https://twitter.com/h3r2tic
 
+### [Veloren][veloren]
+
+![A cave with lava](veloren.jpg)
+_A barrier of lava_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In August, long-awaited work on a new internationalization system with Fluent
+was merged. The real-time simulation v2 system is now in a place, which has
+allowed for blacksmiths to now sell swords and armour with only a few additional
+lines of code. Work was done to implement a spectator mode in game, as well as
+fix a bug about respawning while having a status effect on you persisting, such
+as being on fire from swimming in lava.
+
+August's full weekly devlogs: "This Week In Veloren...":
+[#183][veloren-183],
+[#184][veloren-184],
+[#185][veloren-185],
+[#186][veloren-186],
+[#187][veloren-187].
+
+[veloren]: https://veloren.net
+[veloren-183]: https://veloren.net/devblog-183
+[veloren-184]: https://veloren.net/devblog-184
+[veloren-185]: https://veloren.net/devblog-185
+[veloren-186]: https://veloren.net/devblog-186
+[veloren-187]: https://veloren.net/devblog-187
+
 ## Engine Updates
 
 ### [miniquad]
