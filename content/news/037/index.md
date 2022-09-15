@@ -66,6 +66,104 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Announcements
 
+### [Bevy Jam #2][bevy-jam-results]
+
+![Bevy Jam 2](bevy_jam_2.png)
+
+Voting on [Bevy Jam #2][bevy-jam] just finished! It was a
+10 day event, where the goal was to make a game in
+[Bevy Engine][bevy-engine], the free and open-source game engine
+built in Rust. The theme was 'Combine'.
+
+The [full results can be found on itch.io][bevy-jam-results]. There were 404 participants,
+85 submissions, and 2,674 ratings, making it the biggest Bevy Jam yet!
+(And maybe the biggest Rust game jam ever?)
+
+Here are the top five games:
+
+[bevy-jam]: https://itch.io/jam/bevy-jam-2/
+[bevy-jam-results]: https://itch.io/jam/bevy-jam-2/results
+[bevy-engine]: https://bevyengine.org/
+
+#### 🥇 First Place: [USA Football League Scouting Combine XLV][usa-football]
+
+![USA Football League Scouting Combine XLV logo](usa_football.png)
+
+[USA Football League Scouting Combine XLV][usa-football] is a game where you take
+part in the historic unveiling of the "Combine Combine" event at this year's
+USA Football League Scouting Combine!
+
+USAFLSCXLV is singleplayer action game where you attempt to score as many touchdowns
+as you can while avoiding professional football players, navigating a corn maze
+and also avoiding a combine machine harvesting the maze.
+
+The source for the game is available on [GitHub][usa-football-source].
+
+[usa-football]: https://ramirezmike2.itch.io/usa-football-league-scouting-combine-xlv
+[usa-football-source]: https://github.com/ramirezmike/bevy_jam_02_entry
+
+#### 🥈 Second Place: [Loot Goblin][loot-goblin]
+
+![Loot Goblin](loot_goblin.png)
+
+[Loot Goblin][loot-goblin] is a game where you craft your way to victory in a
+unique adventurer's backpack simulation!
+
+We're going dungeon crawling, but all the hard work is done for you by the valiant
+Sir Hoardalot, and you, as his resourcesful Loot Goblin are going to keep his
+backpack in order! Craft potions and weapons to strengthen the hero, and help
+kill the evil Ogre Necromancer.
+
+The source code for the game is available [on Github][loot-goblin-source].
+
+[loot-goblin]: https://park-dev.itch.io/loot-goblin
+[loot-goblin-source]: https://github.com/vanGeck/bevy-jam-2
+
+#### 🥉 Third Place: [Shanty Quest: Treble at Sea][shanty-quest]
+
+![Shanty Quest Screenshot](shanty_quest.png)
+
+In [Shanty Quest: Treble at Sea][shanty-quest], you combine the magical instruments
+and become the Pirate King!
+
+The source code is available on [GitHub][shanty-quest-source].
+
+[shanty-quest]: https://jabuwu.itch.io/shanty-quest
+[shanty-quest-source]: https://github.com/jabuwu/shanty-quest
+
+#### Fourth Place: [Combobox][combobox]
+
+![Combobox Screenshot](combo_box.png)
+
+[Combobox][combobox] is a game where you navigate through space with a tiny robot
+combining boxes with unique features!
+
+The source code is available on [GitHub][combobox-source].
+
+[combobox]: https://combobox-game.itch.io/combobox
+[combobox-source]: https://github.com/ComboboxGame/Combobox
+
+#### Fifth Place: [Mole Rancher][mole-rancher]
+
+![Mole Rancher Screenshot](mole_rancher.png)
+
+[Mole Rancher][mole-rancher] is a game where you made it through university, got
+your PhD,and now you have been selected to work in an top secret experimental
+facility which promises a way to generate infinite energy through the combination
+of various strange particles.
+
+Use power to generate curious molecules, check their properties in your logbook,
+monitor their progress through your trusty E-merge device, and try not to let the
+reactor overheat!
+
+And don't worry about those armed guards on the way in, as long as you meet your
+quota then you'll have no problems...
+
+The source for this game is available on [GitHub][mole-rancher-source].
+
+[mole-rancher]: https://infinitefall.itch.io/mole-rancher
+[mole-rancher-source]: https://github.com/V4L3NC3/mole_rancher
+
 ## Game Updates
 
 ### [Catacomb 2-64k][catacomb-2-repo]
@@ -189,6 +287,20 @@ tuned by following the [newsletter][country-slice-newsletter]!
 [twitter-thread-2]: https://twitter.com/anastasiaopara/status/1565629377823395841
 [@anastasiaopara]: https://twitter.com/anastasiaopara
 [@h3r2tic]: https://twitter.com/h3r2tic
+
+### [Math It]
+
+![Promotional image of the Math It game](math_it.png)
+_Promotional image of the Math It game_
+
+[Math It] was made with [Bevy] for the [Bevy Jam 2].
+
+The goal of the game is to get as close as possible
+to the target number, and compete with others on a global leaderboard.
+
+[Math It]: https://vrixyz.itch.io/math-it
+[Bevy Jam 2]: https://itch.io/jam/bevy-jam-2
+[Bevy]: https://bevyengine.org/
 
 ### [Veloren][veloren]
 
