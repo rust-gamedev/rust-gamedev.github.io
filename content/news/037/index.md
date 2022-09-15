@@ -383,36 +383,26 @@ _Discussions:
 
 ### [Edict]
 
-[Edict] by [@zakarumych] is powerful Rust ECS crate
-that expands traditional ECS feature set.
+[Edict] by [@zakarumych] is powerful Rust ECS crate that expands traditional ECS
+feature set. The new version 0.2 is getting [ready for release]. This ECS is based
+on archetypes for fast cache-friendly iteration. And there are quite a few novel
+features:
 
-New version 0.2 is getting [ready for release].
-
-This ECS is based on archetypes for fast cache-friendly
-iteration. And there are quite a few novel features:
-
-[Edict] allows to express relations between entities using [`Relation`]
-trait. Relations are linked to a pair of
-entities - origin and target. This opens a wide range of opportunities to create
-entity graphs with custom logic.
-
-Custom hooks for components and relations to trigger actions
-when component is dropped/replaced, or when relation target is dropped.
-
-Optional [`Component`] trait. [Edict] allows using component types that
-do not implement [`Component`] with some restrictions.
-
-Change tracking with flexible queries for modified components
-suitable for complex use cases. E.g. incremental saves can
-fetch all components modified since previous save.
-
-Type-agnostic component borrowing.
-Component type may define list of types that can be borrowed from it.
-Important use case is borrowing [`dyn Traits`].
-
-[Edict] supports parallel execution.
-Built-in scheduler uses systems that implement [`System`] trait.
-Functions can be safely transformed into systems similarly to [`bevy_ecs`].
+- [Edict] allows to express relations between entities using [`Relation`] trait.
+Relations are linked to a pair of entities - origin and target. This opens a
+wide range of opportunities to create entity graphs with custom logic.
+- Custom hooks for components and relations to trigger actions when component is
+dropped/replaced, or when relation target is dropped.
+- Optional [`Component`] trait. [Edict] allows using component types that do not
+implement [`Component`] with some restrictions.
+- Change tracking with flexible queries for modified components suitable for
+complex use cases. E.g. incremental saves can fetch all components modified
+since previous save.
+- Type-agnostic component borrowing. Component type may define list of types
+that can be borrowed from it. Important use case is borrowing [`dyn Traits`].
+- [Edict] supports parallel execution. Built-in scheduler uses systems that
+implement [`System`] trait. Functions can be safely transformed into systems
+similarly to [`bevy_ecs`].
 
 [Edict]: https://github.com/zakarumych/edict
 [@zakarumych]: https://github.com/zakarumych
