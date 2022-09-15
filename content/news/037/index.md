@@ -66,8 +66,6 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Announcements
 
-## Game Updates
-
 ### [Bevy Jam #2][bevy-jam-results]
 
 ![Bevy Jam 2](bevy_jam_2.png)
@@ -165,6 +163,8 @@ The source for this game is available on [GitHub][mole-rancher-source].
 
 [mole-rancher]: https://infinitefall.itch.io/mole-rancher
 [mole-rancher-source]: https://github.com/V4L3NC3/mole_rancher
+
+## Game Updates
 
 ### [Catacomb 2-64k][catacomb-2-repo]
 
