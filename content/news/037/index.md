@@ -288,6 +288,20 @@ tuned by following the [newsletter][country-slice-newsletter]!
 [@anastasiaopara]: https://twitter.com/anastasiaopara
 [@h3r2tic]: https://twitter.com/h3r2tic
 
+### [Math It]
+
+![Promotional image of the Math It game](math_it.png)
+_Promotional image of the Math It game_
+
+[Math It] was made with [Bevy] for the [Bevy Jam 2].
+
+The goal of the game is to get as close as possible
+to the target number, and compete with others on a global leaderboard.
+
+[Math It]: https://vrixyz.itch.io/math-it
+[Bevy Jam 2]: https://itch.io/jam/bevy-jam-2
+[Bevy]: https://bevyengine.org/
+
 ## Engine Updates
 
 ### [miniquad]
