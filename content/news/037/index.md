@@ -164,6 +164,33 @@ The source for this game is available on [GitHub][mole-rancher-source].
 [mole-rancher]: https://infinitefall.itch.io/mole-rancher
 [mole-rancher-source]: https://github.com/V4L3NC3/mole_rancher
 
+### Rust GameDev Meetup
+
+![Gamedev meetup poster](gamedev-meetup.png)
+
+The 19th Rust Gamedev Meetup took place in August. You can watch the recording of
+the meetup [here on Youtube][gamedev-meetup-video]. Here was the schedule from
+the meetup:
+
+- RustConf Arcade Cabinet - [@carlosupina]
+- Blue Engine - [@aryanpur_elham]
+- Veloren - [@VelorenProject]
+- Graphite - [@GraphiteEditor]
+- All is Cubes - [@switchborg]
+
+The meetups take place on the second Saturday every month via the [Rust Gamedev
+Discord server][rust-gamedev-discord] and are also [streamed on
+Twitch][rust-gamedev-twitch].
+
+[gamedev-meetup-video]: https://youtu.be/s9kf9HVUKYE
+[rust-gamedev-discord]: https://discord.gg/yNtPTb2
+[rust-gamedev-twitch]: https://twitch.tv/rustgamedev
+[@carlosupina]: https://twitter.com/carlosupina
+[@aryanpur_elham]: https://twitter.com/aryanpur_elham
+[@VelorenProject]: https://twitter.com/VelorenProject
+[@GraphiteEditor]: https://twitter.com/GraphiteEditor
+[@switchborg]: https://twitter.com/switchborg
+
 ## Game Updates
 
 ### [Catacomb 2-64k][catacomb-2-repo]
