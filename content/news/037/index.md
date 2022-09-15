@@ -582,6 +582,38 @@ _Discussions:
 [shipyard-visualizer]: https://leudz.github.io/shipyard/visualizer
 [shipyard-release-post]: https://users.rust-lang.org/t/shipyard-0-6-release/79504
 
+### [Edict]
+
+[Edict] by [@zakarumych] is powerful Rust ECS crate that expands traditional ECS
+feature set. The new version 0.2 is getting [ready for release]. This ECS is based
+on archetypes for fast cache-friendly iteration. And there are quite a few novel
+features:
+
+- [Edict] allows to express relations between entities using [`Relation`] trait.
+Relations are linked to a pair of entities - origin and target. This opens a
+wide range of opportunities to create entity graphs with custom logic.
+- Custom hooks for components and relations to trigger actions when component is
+dropped/replaced, or when relation target is dropped.
+- Optional [`Component`] trait. [Edict] allows using component types that do not
+implement [`Component`] with some restrictions.
+- Change tracking with flexible queries for modified components suitable for
+complex use cases. E.g. incremental saves can fetch all components modified
+since previous save.
+- Type-agnostic component borrowing. Component type may define list of types
+that can be borrowed from it. Important use case is borrowing [`dyn Traits`].
+- [Edict] supports parallel execution. Built-in scheduler uses systems that
+implement [`System`] trait. Functions can be safely transformed into systems
+similarly to [`bevy_ecs`].
+
+[Edict]: https://github.com/zakarumych/edict
+[@zakarumych]: https://github.com/zakarumych
+[ready for release]: https://docs.rs/edict/0.2.0-rc.3/edict/
+[`Relation`]: https://docs.rs/edict/0.2.0-rc.3/edict/relation/trait.Relation.html
+[`Component`]: https://docs.rs/edict/0.2.0-rc.3/edict/component/trait.Component.html
+[`dyn Traits`]: https://doc.rust-lang.org/book/ch17-02-trait-objects.html
+[`System`]: https://docs.rs/edict/0.2.0-rc.3/edict/system/trait.System.html
+[`bevy_ecs`]: https://crates.io/crates/bevy_ecs
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
