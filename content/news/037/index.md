@@ -168,7 +168,7 @@ The source for this game is available on [GitHub][mole-rancher-source].
 
 ![Gamedev meetup poster](gamedev-meetup.png)
 
-The 18th Rust Gamedev Meetup took place in July. You can watch the recording of
+The 19th Rust Gamedev Meetup took place in August. You can watch the recording of
 the meetup [here on Youtube][gamedev-meetup-video]. Here was the schedule from
 the meetup:
 
