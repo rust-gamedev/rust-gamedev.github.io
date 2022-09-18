@@ -501,10 +501,20 @@ and libraries, e.g. bevy, egui, and [nannou].
 
 ### [grid_pathfinding]
 
-[grid_pathfinding] is a new pathfinding crate aimed at providing a fast, out-of-the-box system for pathfinding on various types of grids. While the current 0.1.1 release is not very configurable yet, the idea is to make the crate more malleable working towards a 0.2.0 release so that it will support a range of grids (4-connected, 8-connected, weighted, etc.) as well as heuristics. Specifically, the [grid_pathfinding] 0.1 assumes a uniform-cost 8-grid with a Chebyshev cost metric and heuristic. More long-term goals are support for multi-tile and multi-agent pathfinding variants.
+[grid_pathfinding] is a new pathfinding crate aimed at providing a fast,
+out-of-the-box system for pathfinding on various types of grids. While the
+current 0.1.1 release is not very configurable yet, the idea is to make the
+crate more malleable working towards a 0.2.0 release so that it will support
+a range of grids (4-connected, 8-connected, weighted, etc.) as well as
+heuristics. Specifically, the [grid_pathfinding] 0.1 assumes a uniform-cost
+8-grid with a Chebyshev cost metric and heuristic. More long-term goals are
+support for multi-tile and multi-agent pathfinding variants.
 
-The current implementation is based on [Jump Point Search] with 
-[improved pruning rules]. On top of this [connected components] are used to avoid flood-filling behaviour if no path exists - see the [documentation] and [examples] for information on how to manage these components. Especially when simulating many agents in real-time, using components can make a big difference.
+The current implementation is based on [Jump Point Search] with
+[improved pruning rules]. On top of this [connected components] are used to
+avoid flood-filling behaviour if no path exists - see the [documentation] and
+[examples] for information on how to manage these components. Especially when
+simulating many agents in real-time, using components can make a big difference.
 
 [grid_pathfinding]: https://github.com/tbvanderwoude/grid_pathfinding
 [documentation]: https://docs.rs/grid_pathfinding/0.1.1/grid_pathfinding/
