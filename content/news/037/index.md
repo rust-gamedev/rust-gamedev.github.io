@@ -1,8 +1,8 @@
 +++
 title = "This Month in Rust GameDev #37 - August 2022"
 transparent = true
-date = 2022-09-05
-draft = true
+date = 2022-09-24
+draft = false
 +++
 
 <!-- no toc -->
@@ -35,12 +35,7 @@ Feel free to send PRs about your own projects!
 - [Learning Material Updates](#learning-material-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Other News](#other-news)
-- [Discussions](#discussions)
-- [Requests for Contribution](#requests-for-contribution)
-- [Jobs](#jobs)
-- [Bonus](#bonus)
 
 <!--
 Ideal section structure is:
@@ -191,6 +186,15 @@ Twitch][rust-gamedev-twitch].
 [@GraphiteEditor]: https://twitter.com/GraphiteEditor
 [@switchborg]: https://twitter.com/switchborg
 
+### [Bombercrab Challenge Report][bombercrab-article]
+
+![screenshot of the game: many players, block and an explosion](bombercrab.jpg)
+
+[Pablo Mansanet shared a report][bombercrab-article] about how
+the 2022 Tokyo Rust Game Hack went.
+
+[bombercrab-article]: https://blog.tonari.no/rust-game-hack-2022
+
 ## Game Updates
 
 ### [Catacomb 2-64k][catacomb-2-repo]
@@ -238,7 +242,7 @@ Recent updates:
 
 [Join the Discord server][cybergate-dis] to participate in upcoming Phase 5.0!
 
-_Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/x60n9y/cybergate_45_progress_browser_udp_client_with/)_
+_Discussions: [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/x60n9y/cybergate_45_progress_browser_udp_client_with/)_
 
 [cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
 [cybergate-dis]: https://discord.gg/R7DkHqw7zJ
@@ -259,7 +263,7 @@ Mac, Linux as well as for browsers using WebAssembly.
 
 The aquarium can be controlled in various different ways:
 
-- System monitoring binary to show CPU usage, disk usage and processes.
+- System monitoring binary to show CPU usage, disk usage, and processes.
 - Integrate with Google Sheets to control fishes.
 - Back it with an URL that generates a JSON file.
 
@@ -291,7 +295,6 @@ history of five classic video games. It also includes code listings of modern
 versions of the games written in Python with the PyGame Zero framework.
 
 [Infinite Bunner]: https://github.com/ollej/rust-bunner-macroquad
-[@ollej]: https://twitter.com/ollej
 [rust-game-ports]: https://github.com/rust-gamedev/rust-game-ports
 [Code the Classics vol 1]: https://wireframe.raspberrypi.org/books/code-the-classics1
 
@@ -323,7 +326,7 @@ _Promotional image of the Math It game_
 [Math It] was made with [Bevy] for the [Bevy Jam 2].
 
 The goal of the game is to get as close as possible
-to the target number, and compete with others on a global leaderboard.
+to the target number and compete with others on a global leaderboard.
 
 [Math It]: https://vrixyz.itch.io/math-it
 [Bevy Jam 2]: https://itch.io/jam/bevy-jam-2
@@ -438,7 +441,7 @@ as well as awesome game demos.
 [Gamercade]: https://gamercade.io
 [Gamercade-Discord]: https://discord.gg/Qafv2Fpt5j
 [Gamercade-Github]: https://github.com/gamercade-io/gamercade_console
-[Gamercade-Video]: https://www.youtube.com/watch?v=cRsOvefap_U
+[Gamercade-Video]: https://youtube.com/watch?v=cRsOvefap_U
 
 ## Learning Material Updates
 
@@ -517,8 +520,6 @@ tweens to most operations.
 
 [bevy_kira_audio]: https://github.com/NiklasEi/bevy_kira_audio/
 [Kira]: https://github.com/tesselode/kira
-[@nikl_me]: https://twitter.com/nikl_me
-[Bevy]: https://bevyengine.org/
 [0.11.0]: https://github.com/NiklasEi/bevy_kira_audio/blob/main/CHANGELOG.md#v0110
 [0.12.0]: https://github.com/NiklasEi/bevy_kira_audio/blob/main/CHANGELOG.md#v0120
 
@@ -540,7 +541,6 @@ users to define their own dynamic assets.
 
 [@nikl_me]: https://twitter.com/nikl_me
 [bevy_asset_loader]: https://github.com/NiklasEi/bevy_asset_loader/
-[Bevy]: https://bevyengine.org/
 
 ### [Notan v0.6][Notan]
 
@@ -575,8 +575,8 @@ and vice-versa.
 Learn more about this release in the [release post][shipyard-release-post].
 
 _Discussions:
-[/r/rust](https://www.reddit.com/r/rust/comments/wi71lu/shipyard_06_release/)
-[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/wi72vc/shipyard_06_release/)_
+[/r/rust](https://reddit.com/r/rust/comments/wi71lu/shipyard_06_release/)
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/wi72vc/shipyard_06_release/)_
 
 [Shipyard]: https://github.com/leudz/shipyard
 [shipyard-visualizer]: https://leudz.github.io/shipyard/visualizer
@@ -590,20 +590,20 @@ on archetypes for fast cache-friendly iteration. And there are quite a few novel
 features:
 
 - [Edict] allows to express relations between entities using [`Relation`] trait.
-Relations are linked to a pair of entities - origin and target. This opens a
-wide range of opportunities to create entity graphs with custom logic.
+  Relations are linked to a pair of entities - origin and target. This opens a
+  wide range of opportunities to create entity graphs with custom logic.
 - Custom hooks for components and relations to trigger actions when component is
-dropped/replaced, or when relation target is dropped.
+  dropped/replaced, or when relation target is dropped.
 - Optional [`Component`] trait. [Edict] allows using component types that do not
-implement [`Component`] with some restrictions.
+  implement [`Component`] with some restrictions.
 - Change tracking with flexible queries for modified components suitable for
-complex use cases. E.g. incremental saves can fetch all components modified
-since previous save.
+  complex use cases. E.g. incremental saves can fetch all components modified
+  since previous save.
 - Type-agnostic component borrowing. Component type may define list of types
-that can be borrowed from it. Important use case is borrowing [`dyn Traits`].
+  that can be borrowed from it. Important use case is borrowing [`dyn Traits`].
 - [Edict] supports parallel execution. Built-in scheduler uses systems that
-implement [`System`] trait. Functions can be safely transformed into systems
-similarly to [`bevy_ecs`].
+  implement [`System`] trait. Functions can be safely transformed into systems
+  similarly to [`bevy_ecs`].
 
 [Edict]: https://github.com/zakarumych/edict
 [@zakarumych]: https://github.com/zakarumych
@@ -639,31 +639,94 @@ real-time, using components can make a big difference.
 [connected components]: https://en.wikipedia.org/wiki/Component_(graph_theory)
 [improved pruning rules]: https://www.researchgate.net/publication/287338108_Improving_jump_point_search
 
-## Popular Workgroup Issues in Github
-
-<!-- Up to 10 links to interesting issues -->
-
 ## Other News
 
 <!-- One-liners for plan items that haven't got their own sections. -->
 
-## Discussions
+<!-- TODO: do i need to put announcements here? oR move them to the next month? -->
 
-<!-- Links to handpicked reddit/twitter/urlo/etc threads that provide
-useful information -->
+- Other game updates:
+  - [Caveth][caveth] is a game made with macroquad
+    where you can shoot enemies with a cannon.
+  - [Im-Oab released a free Steam demo of the shump Flesh][flesh-demo]
+    and also added [new enemy types](https://twitter.com/Im_Oab/status/1557714901434781696),
+    [boss animations](https://twitter.com/Im_Oab/status/1564581193454354432),
+    and [bullet shadows](https://twitter.com/Im_Oab/status/1562015685521604610).
+  - [Spherical Go][spherical-go] if the Go game's implementation
+    with a variety of spherical fields.
+  - [Combine and Conquer has a new devlog about 0.10 version][cnc-0-10] that brings
+    vector graphics, "merger" and "splitter" structures, new tech-tree UI,
+    overlay improvements, and new tiers for existing structures.
+  - [bevy-cheeseball] is a 3D marble game inspired by Monkey Ball
+    and made with Bevy and Rapier.
+  - [Punchy][punchy-v0-0-4] was released, featuring MVP for the first boss enemy,
+    an entirely refactored fighter state model [which was written up on the wiki][punchy-wiki],
+    updates to the enemy AI targeting, camera progression boundaries,
+    updates to debug tools, a health recovery item,
+    and updates to the way attacks are defined and loaded from resources.
+- Other learning material updates:
+  - [Console #118 - Interview with Connor of rend3][console-118]
+  - PhaestusFox added a bunch of new videos
+    to their ["Bevy Basics"][bevy-basics] YouTube series.
+  - [@fronkongames shared a quick guide][unity-guide] to integrating Rust code
+    into Unity.
+  - [@samkevich published a "Learn OpenGL with Rust" series][learn_gl_with_rust].
+  - [@jack1232 released a "Rust wgpu Graphics Programming Tutorial" YouTube series][yt-wgpu].
+- Other engine updates:
+  - [Fyrox v0.27][fyrox-0-27] features a new Fish Folly game example,
+    compile-time reflection, plugin, and scripting
+    improvements, and two new book chapters about [particle systems][fyrox-book-1]
+    and [terrain][fyrox-book-2].
+  - [Pyxel v0.18][pyxel]'s main highlight is the experimental web support.
+  - [Bevy released a blog post][bevy-birthday] about the second birthday
+    of the engine with a retrospective and future plans.
+- Other tooling updates:
+  - [@HackerFoo shared a video][noumenal-vid] of a WIP meta-editor to record
+    contact movement to create interactive tutorials for Noumenal.
+  - [nbody-wasm-sim] is a WebGPU N-Body astrophysics simulation in Rust + WASM.
+  - [wgen] is a simple multi-threaded heightmap generator made with egui and three_d.
+  - [bevy-shell-template] is an opinionated, monolithic template for Bevy
+    with cross-platform CI/CD, native + WASM launchers,
+    and managed cross-platform deployment.
+- Other library updates:
+  - [bevy_streamdeck] is a Bevy plugin to interact with Stream Deck.
+  - [kira v0.7 release][kira-0-7] brings a bunch of important bug fixes
+    some of which require breaking changes.
+  - [egui v0.19][egui] brings a lot of various small API improvements and optimizations.
+  - [Alex Dixon shared a blog post][maths-rs-post] about creating another
+    linear algebra library - [maths-rs].
+  - [fundsp] is an audio digital signal processing library for audio processing
+    and synthesis.
+  - [bevy_ecs_tilemap] is an ECS-friendly tilemap rendering crate for Bevy.
 
-## Requests for Contribution
-
-<!-- Links to "good first issue"-labels or direct links to specific tasks -->
-
-## Jobs
-
-<!-- An optional section for new jobs related to Rust gamedev -->
-
-## Bonus
-
-<!-- Bonus section to make the newsletter more interesting
-and highlight events from the past. -->
+[flesh-demo]: https://store.steampowered.com/app/1660850/Flesh/?beta=0
+[caveth]: https://github.com/Dequog/caveth
+[spherical-go]: https://github.com/Dominux/spherical-go
+[cnc-0-10]: https://buckmartin.de/combine-and-conquer/2022-08-20-v0.0.10.html
+[bevy-cheeseball]: https://github.com/Rust-Ninja-Sabi/rust-bevy-cheeseball
+[punchy-v0-0-4]: https://reddit.com/r/rust_gamedev/comments/x1ekmg/fish_folk_punchy_v004
+[punchy-wiki]: https://github.com/fishfolks/punchy/wiki/Fighter-State-Machine
+[bevy-basics]: https://youtube.com/playlist?list=PL6uRoaCCw7GN_lJxpKS3j-KXuThRiSXc6
+[console-118]: https://console.substack.com/p/console-118
+[unity-guide]: https://rjgameiro.medium.com/let-fun-rust-unity-f7f62609ba49
+[learn_gl_with_rust]: https://github.com/samkevich/learn_gl_with_rust
+[yt-wgpu]: https://youtube.com/playlist?list=PL_UrKDEhALdJS0VrLPn7dqC5A4W1vCAUT
+[fyrox-0-27]: https://fyrox.rs/blog/post/feature-highlights-0-27
+[fyrox-book-1]: https://fyrox-book.github.io/fyrox/scene/particle_system_node.html
+[fyrox-book-2]: https://fyrox-book.github.io/fyrox/scene/terrain_node.html
+[pyxel]: https://twitter.com/kitao/status/1564234852185960449
+[bevy-birthday]: https://bevyengine.org/news/bevys-second-birthday/
+[noumenal-vid]: https://youtube.com/watch?v=qJOPLxFfbMw
+[nbody-wasm-sim]: https://github.com/simbleau/nbody-wasm-sim
+[wgen]: https://github.com/jice-nospam/wgen
+[bevy-shell-template]: https://github.com/kurbos/bevy-shell-template
+[bevy_streamdeck]: https://github.com/vleue/bevy_streamdeck
+[kira-0-7]: https://github.com/tesselode/kira/releases/tag/v0.7.0
+[egui]: https://twitter.com/ernerfeldt/status/1561010036255739904
+[maths-rs]: https://github.com/polymonster/maths-rs
+[maths-rs-post]: https://www.polymonster.co.uk/blog/maths-rs
+[fundsp]: https://github.com/SamiPerttu/fundsp
+[bevy_ecs_tilemap]: https://github.com/StarArawn/bevy_ecs_tilemap
 
 ------
 
