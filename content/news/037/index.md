@@ -32,7 +32,6 @@ Feel free to send PRs about your own projects!
 - [Announcements](#announcements)
 - [Game Updates](#game-updates)
 - [Engine Updates](#engine-updates)
-- [Learning Material Updates](#learning-material-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
 - [Other News](#other-news)
@@ -143,7 +142,7 @@ The source code is available on [GitHub][combobox-source].
 ![Mole Rancher Screenshot](mole_rancher.png)
 
 [Mole Rancher][mole-rancher] is a game where you made it through university, got
-your PhD,and now you have been selected to work in an top secret experimental
+your PhD, and now you have been selected to work in an top secret experimental
 facility which promises a way to generate infinite energy through the combination
 of various strange particles.
 
@@ -211,8 +210,8 @@ will follow in September on [64kramsystem's blog][64ramsystem-blog].
 
 The port uses the [Rust-SDL2 bindings][rust-sdl2-bindings]. More exact ports
 of id Software games are expected in the future, with the introduction of a
-refactoring tool based on the [Language Server Protocol][language-server-protocol]
-/[Rust Analyzer][rust-analyzer].
+refactoring tool based on the
+[Language Server Protocol][language-server-protocol]/[Rust Analyzer][rust-analyzer].
 
 [catacomb-2-repo]: https://github.com/64kramsystem/catacomb_ii-64k
 [64ramsystem-blog]: https://saveriomiroddi.github.io
@@ -442,8 +441,6 @@ as well as awesome game demos.
 [Gamercade-Discord]: https://discord.gg/Qafv2Fpt5j
 [Gamercade-Github]: https://github.com/gamercade-io/gamercade_console
 [Gamercade-Video]: https://youtube.com/watch?v=cRsOvefap_U
-
-## Learning Material Updates
 
 ## Tooling Updates
 
