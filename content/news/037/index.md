@@ -656,8 +656,9 @@ real-time, using components can make a big difference.
     overlay improvements, and new tiers for existing structures.
   - [bevy-cheeseball] is a 3D marble game inspired by Monkey Ball
     and made with Bevy and Rapier.
-  - [Punchy][punchy-v0-0-4] was released, featuring MVP for the first boss enemy,
-    an entirely refactored fighter state model [which was written up on the wiki][punchy-wiki],
+  - [Punchy v0.04][punchy-v0-0-4] was released,
+    featuring MVP for the first boss enemy, an entirely refactored
+    fighter state model [which was written up on the wiki][punchy-wiki],
     updates to the enemy AI targeting, camera progression boundaries,
     updates to debug tools, a health recovery item,
     and updates to the way attacks are defined and loaded from resources.
