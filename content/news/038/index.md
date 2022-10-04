@@ -73,11 +73,14 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ![Graviton](graviton.png)
 _Take a little break to relax and draw some sand art_
 
-[Graviton](https://www.gravitongame.art/) by [@hakolao](https://github.com/hakolao)
-is a relaxing simulation game in which you draw colored sand and watch it interact
-with gravity.
+[Graviton](https://www.gravitongame.art/) by
+[@hakolao](https://github.com/hakolao)
+is a relaxing simulation game in which you draw colored sand and watch it
+interact with gravity.
 
-The game is going to be released in early access on [Steam](https://store.steampowered.com/app/2137280/Graviton__A_Relaxing_Sand_Simulation/?utm_source=rust_gamedev&utm_medium=web) during this October.
+The game is going to be released in early access on
+[Steam](https://store.steampowered.com/app/2137280/Graviton__A_Relaxing_Sand_Simulation/?utm_source=rust_gamedev&utm_medium=web)
+during this October.
 
 _Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/xfqd2t/graviton_relaxing_sand_art)_
 
