@@ -76,12 +76,12 @@ _building shelter and fighting a colony of red monsters_
 CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]) by CyberSoul
 is an attempt to use artificial intelligence to build diverse universe experiences
 with strange creatures and procedural gameplay styles.
-We are on the Phase 5.2 of the project (analogously version 0.5.2),
-and we finalized a playable game with the tech we have developed until now.
+Currently in Phase 5.2 (analogously version 0.5.2),
+they finalized a playable game with the tech they have developed up until now.
 
 Recent updates:
 
-- My own Networking Reliability and Package aggregation over WebRTC
+- In-house Transport layer with Reliability and Package aggregation, over WebRTC
 - Implemented Winit background process on all browsers
 - Introduced Grabbing and Building Mechanics
 - Created enemy AI that groups and flies in colonies. Includes a deadly night mode
