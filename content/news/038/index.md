@@ -74,8 +74,10 @@ If needed, a section can be split into subsections with a "------" delimiter.
 _building shelter and fighting a colony of red monsters_
 
 CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]) by CyberSoul
-is an attempt to use artificial intelligence to build diverse universe experiences with strange creatures and procedural gameplay styles.
-We are on the Phase 5.2 of the project (analogously version 0.5.2), and we finalized a playable game with the tech we have developed until now.
+is an attempt to use artificial intelligence to build diverse universe experiences 
+with strange creatures and procedural gameplay styles.
+We are on the Phase 5.2 of the project (analogously version 0.5.2), 
+and we finalized a playable game with the tech we have developed until now.
 
 Recent updates:
 
