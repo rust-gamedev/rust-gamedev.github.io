@@ -70,6 +70,35 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Engine Updates
 
+### [godot-rust][gd-github]
+
+godot-rust ([GitHub][gd-github], [Discord][gd-discord], [Twitter][gd-twitter])
+is a Rust library that provides bindings for the Godot engine.
+In September, development was divided into three tasks:
+
+- Maintenance releases [0.10.1][gd-0.10.1] and [0.10.2][gd-0.10.2]
+- Godot 3.5 support in v0.11 ([#910][gd-910])
+- Ongoing [GDExtension][gd-gdext] efforts ([#824][gd-824])
+
+Besides support for Godot 3.5.1, a change that many users will notice is the
+new `#[method]` syntax, which replaces existing `#[export]` and allows omitting
+the base parameter. Summarized in a picture:
+
+![godot-rust new export syntax](godot-rust-export.png)
+
+The GDExtension/Rust binding has finally reached a state where a first
+experimental version is within reach in October. If you are fine with the
+bugs and missing features, you can give it a try very soon!
+
+[gd-0.10.1]: https://github.com/godot-rust/godot-rust/pulls?q=is%3Apr+milestone%3Av0.10.1
+[gd-0.10.2]: https://github.com/godot-rust/godot-rust/pulls?q=is%3Apr+milestone%3Av0.10.2
+[gd-824]: https://github.com/godot-rust/godot-rust/issues/824
+[gd-910]: https://github.com/godot-rust/godot-rust/issues/910
+[gd-github]: https://github.com/godot-rust/godot-rust
+[gd-discord]: https://discord.gg/aKUCJ8rJsc
+[gd-twitter]: https://twitter.com/GodotRust
+[gd-gdext]: https://godotengine.org/article/introducing-gd-extensions
+
 ## Learning Material Updates
 
 ## Tooling Updates
