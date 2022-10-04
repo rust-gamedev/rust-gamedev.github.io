@@ -68,6 +68,8 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Graviton][graviton-website]
+
 ![Graviton](graviton.png)
 _Take a little break to relax and draw some sand art_
 
@@ -79,7 +81,7 @@ The game is going to be released in early access on [Steam](https://store.steamp
 
 _Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/xfqd2t/graviton_relaxing_sand_art)_
 
-[Graviton]: https://www.gravitongame.art/
+[graviton-website]: https://www.gravitongame.art/
 
 ## Engine Updates
 
