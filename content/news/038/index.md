@@ -73,6 +73,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ## Learning Material Updates
 
 ### [Making a turn-based multiplayer game in Rust][tbs-tutrial-1]
+![A screenshot of the tic tac toe clone the tutorial covers](https://herluf-ba.github.io/images/tic_tac_tussle.webp)
 
 @herluf-ba published a beginner friendly [3 part tutorial series][tbs-tutrial-1]
 about making turn-based multiplayer games using rust.
