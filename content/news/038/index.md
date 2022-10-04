@@ -72,6 +72,10 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [godot-rust][gd-github]
 
+![godot-rust new export syntax](godot-rust-export.png)
+_The new `#[method]` syntax, which replaces existing `#[export]` and allows omitting
+the base parameter._
+
 godot-rust ([GitHub][gd-github], [Discord][gd-discord], [Twitter][gd-twitter])
 is a Rust library that provides bindings for the Godot engine.
 In September, development was divided into three tasks:
@@ -81,10 +85,7 @@ In September, development was divided into three tasks:
 - Ongoing [GDExtension][gd-gdext] efforts ([#824][gd-824])
 
 Besides support for Godot 3.5.1, a change that many users will notice is the
-new `#[method]` syntax, which replaces existing `#[export]` and allows omitting
-the base parameter. Summarized in a picture:
-
-![godot-rust new export syntax](godot-rust-export.png)
+new `#[method]` + `#[base]` syntax, replacing `#[export]` as illustrated above.
 
 The GDExtension/Rust binding has finally reached a state where a first
 experimental version is within reach in October. If you are fine with the
