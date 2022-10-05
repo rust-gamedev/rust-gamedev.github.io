@@ -118,6 +118,24 @@ and finally how to tie it all together with a client app made with [bevy].
 
 ## Tooling Updates
 
+### Feldversuch
+
+![Feldversuch](feldversuch.gif)
+
+Feldversuch by [@siebencorgie](https://twitter.com/siebencorgie)
+is an experimental extension to the class of wavetable synthesizers based 
+on signed distance fields. 
+
+
+Feldversuch uses user defined fields not only to render the interface, but to
+generate sound based on them as well. The so-called *sampling plane* (seen moving back
+and forth above) defines the wave shape that is played back.
+
+Further experiments include rotation (instead of the sweep movement) as well
+as different interpretations of the wave shape. Have a look at the 
+[presentation video](https://www.youtube.com/watch?v=GZVdzcwSEaw) and
+the [blog post](https://siebencorgie.rs/gallery/feldversuch/) for further details. 
+
 ## Library Updates
 
 ## Popular Workgroup Issues in Github
