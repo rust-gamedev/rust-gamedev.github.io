@@ -72,6 +72,20 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Learning Material Updates
 
+### [Making a turn-based multiplayer game in Rust][tbs-tutrial-1]
+
+![A screenshot of the tic tac toe clone the tutorial covers](tbs-multiplayer-tutorial.png)
+
+@herluf-ba published a beginner friendly [3 part tutorial series][tbs-tutrial-1]
+about making turn-based multiplayer games using rust.
+It covers what games can be considered "turn-based",
+how to write a simple but neat game server using [renet],
+and finally how to tie it all together with a client app made with [bevy].
+
+[tbs-tutrial-1]: https://herluf-ba.github.io/making-a-turn-based-multiplayer-game-in-rust-01-whats-a-turn-based-game-anyway.html
+[renet]: https://github.com/lucaspoffo/renet
+[bevy]: https://github.com/bevyengine/bevy
+
 ## Tooling Updates
 
 ## Library Updates
