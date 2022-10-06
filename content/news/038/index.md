@@ -280,6 +280,10 @@ The above screen shows an example of controlling a custom made audio source
 
 <!-- One-liners for plan items that haven't got their own sections. -->
 
+- Other library updates
+  - [big-brain](https://github.com/zkat/big-brain) released [version 0.14](https://github.com/zkat/big-brain/releases/tag/v0.14.0)
+    of its Utility AI library, with fixes and lots more observability improvements.
+
 ## Discussions
 
 <!-- Links to handpicked reddit/twitter/urlo/etc threads that provide
