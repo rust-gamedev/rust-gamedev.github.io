@@ -68,6 +68,69 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [CyberGate][cybergate-yt]
+
+![building and fighting](cybergate.gif)
+_building shelter and fighting a colony of red monsters_
+
+CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]) by CyberSoul
+is an attempt to use artificial intelligence to build diverse universe experiences
+with strange creatures and procedural gameplay styles.
+Currently in Phase 5.2 (analogously version 0.5.2),
+they finalized a playable game with the tech they have developed up until now.
+
+Recent updates:
+
+- In-house Transport layer with Reliability and Package aggregation, over WebRTC
+- Implemented Winit background process on all browsers
+- Introduced Grabbing and Building Mechanics
+- Created enemy AI that groups and flies in colonies. Includes a deadly night mode
+- Usernames and life points with Fontdue.rs
+- Menu and leaderboard using yakui.rs
+- Improved the Automation to push Server Updates
+- Improved wasm related performance, latency, and connection freezing bugs.
+
+[Join the Discord server][cybergate-dis] to participate in upcoming Phase 6.0!
+
+_Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/xo03s5/cybergate_release_5_webrtc_multiplayer_with/)_
+
+[cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
+[cybergate-dis]: https://discord.gg/R7DkHqw7zJ
+
+### [Graviton][graviton-website]
+
+![Graviton](graviton.png)
+_Take a little break to relax and draw some sand art_
+
+[Graviton](https://www.gravitongame.art/) by
+[@hakolao](https://github.com/hakolao)
+is a relaxing simulation game in which you draw colored sand and watch it
+interact with gravity.
+
+The game is going to be released in early access on
+[Steam](https://store.steampowered.com/app/2137280/Graviton__A_Relaxing_Sand_Simulation/?utm_source=rust_gamedev&utm_medium=web)
+during this October.
+
+_Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/xfqd2t/graviton_relaxing_sand_art)_
+
+[graviton-website]: https://www.gravitongame.art/
+
+### Flesh
+
+![flesh preview](flesh.gif)
+_4th area_
+
+[Flesh] by [@im_oab] is a 2D-horizontal shmup game with hand-drawn animation and
+an organic/fleshy theme. It is implemented using [Tetra]. This month's updates
+include:
+
+- Finishing up the last area of the game.
+- Making animation of the game's intro/ending.
+
+[Flesh]: https://store.steampowered.com/app/1660850/Flesh/
+[@im_oab]: https://twitter.com/im_oab
+[Tetra]: https://github.com/17cupsofcoffee/tetra
+
 ### [Ultimechs]
 
 ![Ultimechs - let the games begin](ultimechs.png)
@@ -156,6 +219,25 @@ and finally how to tie it all together with a client app made with [bevy].
 [bevy]: https://github.com/bevyengine/bevy
 
 ## Tooling Updates
+
+### Feldversuch
+
+![Feldversuch](feldversuch.gif)
+
+Feldversuch by [@siebencorgie](https://twitter.com/siebencorgie)
+is an experimental extension to the class of wavetable
+synthesizers based on signed distance fields.
+
+Feldversuch uses user defined fields not only to render the
+interface, but to generate sound based on them as well. The
+so-called *sampling plane* (seen moving back and forth above)
+defines the wave shape that is played back.
+
+Further experiments include rotation (instead of the sweep
+movement) as well as different interpretations of the wave
+shape. Have a look at the [presentation video](https://www.youtube.com/watch?v=GZVdzcwSEaw)
+and the [blog post](https://siebencorgie.rs/gallery/feldversuch/)
+for further details.
 
 ## Library Updates
 
