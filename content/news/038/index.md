@@ -76,6 +76,36 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library Updates
 
+### bevy_oddio
+
+![an example using bevy_oddio](change_pitch_bevy_oddio_example.png)
+_an example using bevy_oddio_
+
+[bevy_oddio] by [@harudagondi] is an audio plugin
+for the [Bevy] game engine that uses the [oddio] library.
+It aims to allow first class support of non-static audio sources
+like procedurally generated audio.
+The library also aims to have high amount flexibility
+in controlling custom audio sources where typical audio sink methods would not suffice.
+
+The previous month saw a new [0.2.0] release which irons out some bugs
+and added new ergonomic features to allow a better user experience.
+There is now added support for `Mono` and `Stereo` audio sources,
+added new support for more [oddio] types,
+added a new example for controlling volume, and many more.
+A lot of the API are reworked to make it more flexible
+and some public items are deleted to reduce redundancy.
+
+The above screen shows an example of controlling a custom made audio source
+([taken from here][bevy_fundsp_example]) by calling the .control() method.
+
+[bevy_oddio]: https://github.com/harudagondi/bevy_oddio
+[@harudagondi]: https://twitter.com/harudagondi
+[Bevy]: https://bevyengine.org/
+[oddio]: https://github.com/Ralith/oddio
+[0.2.0]: https://github.com/harudagondi/bevy_oddio/releases/tag/v0.2.0
+[bevy_fundsp_example]: https://github.com/harudagondi/bevy_fundsp/blob/ca08963820c83dd723784db6c6f87df8eadd60e0/examples/oddio/controlled.rs#L40-L52
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
