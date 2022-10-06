@@ -68,6 +68,35 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [CyberGate][cybergate-yt]
+
+![building and fighting](cybergate.gif)
+_building shelter and fighting a colony of red monsters_
+
+CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]) by CyberSoul
+is an attempt to use artificial intelligence to build diverse universe experiences
+with strange creatures and procedural gameplay styles.
+Currently in Phase 5.2 (analogously version 0.5.2),
+they finalized a playable game with the tech they have developed up until now.
+
+Recent updates:
+
+- In-house Transport layer with Reliability and Package aggregation, over WebRTC
+- Implemented Winit background process on all browsers
+- Introduced Grabbing and Building Mechanics
+- Created enemy AI that groups and flies in colonies. Includes a deadly night mode
+- Usernames and life points with Fontdue.rs
+- Menu and leaderboard using yakui.rs
+- Improved the Automation to push Server Updates
+- Improved wasm related performance, latency, and connection freezing bugs.
+
+[Join the Discord server][cybergate-dis] to participate in upcoming Phase 6.0!
+
+_Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/xo03s5/cybergate_release_5_webrtc_multiplayer_with/)_
+
+[cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
+[cybergate-dis]: https://discord.gg/R7DkHqw7zJ
+
 ### [Graviton][graviton-website]
 
 ![Graviton](graviton.png)
@@ -88,7 +117,51 @@ _Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/x
 
 ## Engine Updates
 
+### [godot-rust][gd-github]
+
+![godot-rust new export syntax](godot-rust-export.png)
+_The new `#[method]` syntax, which replaces existing `#[export]` and allows omitting
+the base parameter._
+
+godot-rust ([GitHub][gd-github], [Discord][gd-discord], [Twitter][gd-twitter])
+is a Rust library that provides bindings for the Godot engine.
+In September, development was divided into three tasks:
+
+- Maintenance releases [0.10.1][gd-0.10.1] and [0.10.2][gd-0.10.2]
+- Godot 3.5 support in v0.11 ([#910][gd-910])
+- Ongoing [GDExtension][gd-gdext] efforts ([#824][gd-824])
+
+Besides support for Godot 3.5.1, a change that many users will notice is the
+new `#[method]` + `#[base]` syntax, replacing `#[export]` as illustrated above.
+
+The GDExtension/Rust binding has finally reached a state where a first
+experimental version is within reach in October. If you are fine with the
+bugs and missing features, you can give it a try very soon!
+
+[gd-0.10.1]: https://github.com/godot-rust/godot-rust/pulls?q=is%3Apr+milestone%3Av0.10.1
+[gd-0.10.2]: https://github.com/godot-rust/godot-rust/pulls?q=is%3Apr+milestone%3Av0.10.2
+[gd-824]: https://github.com/godot-rust/godot-rust/issues/824
+[gd-910]: https://github.com/godot-rust/godot-rust/issues/910
+[gd-github]: https://github.com/godot-rust/godot-rust
+[gd-discord]: https://discord.gg/aKUCJ8rJsc
+[gd-twitter]: https://twitter.com/GodotRust
+[gd-gdext]: https://godotengine.org/article/introducing-gd-extensions
+
 ## Learning Material Updates
+
+### [Making a turn-based multiplayer game in Rust][tbs-tutrial-1]
+
+![A screenshot of the tic tac toe clone the tutorial covers](tbs-multiplayer-tutorial.png)
+
+@herluf-ba published a beginner friendly [3 part tutorial series][tbs-tutrial-1]
+about making turn-based multiplayer games using rust.
+It covers what games can be considered "turn-based",
+how to write a simple but neat game server using [renet],
+and finally how to tie it all together with a client app made with [bevy].
+
+[tbs-tutrial-1]: https://herluf-ba.github.io/making-a-turn-based-multiplayer-game-in-rust-01-whats-a-turn-based-game-anyway.html
+[renet]: https://github.com/lucaspoffo/renet
+[bevy]: https://github.com/bevyengine/bevy
 
 ## Tooling Updates
 
