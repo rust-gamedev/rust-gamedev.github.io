@@ -126,7 +126,6 @@ Feldversuch by [@siebencorgie](https://twitter.com/siebencorgie)
 is an experimental extension to the class of wavetable synthesizers based 
 on signed distance fields. 
 
-
 Feldversuch uses user defined fields not only to render the interface, but to
 generate sound based on them as well. The so-called *sampling plane* (seen moving back
 and forth above) defines the wave shape that is played back.
