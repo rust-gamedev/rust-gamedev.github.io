@@ -97,6 +97,24 @@ _Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/x
 [cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
 [cybergate-dis]: https://discord.gg/R7DkHqw7zJ
 
+### [Graviton][graviton-website]
+
+![Graviton](graviton.png)
+_Take a little break to relax and draw some sand art_
+
+[Graviton](https://www.gravitongame.art/) by
+[@hakolao](https://github.com/hakolao)
+is a relaxing simulation game in which you draw colored sand and watch it
+interact with gravity.
+
+The game is going to be released in early access on
+[Steam](https://store.steampowered.com/app/2137280/Graviton__A_Relaxing_Sand_Simulation/?utm_source=rust_gamedev&utm_medium=web)
+during this October.
+
+_Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/xfqd2t/graviton_relaxing_sand_art)_
+
+[graviton-website]: https://www.gravitongame.art/
+
 ## Engine Updates
 
 ### [godot-rust][gd-github]
