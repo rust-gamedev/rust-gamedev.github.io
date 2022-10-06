@@ -68,6 +68,35 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [CyberGate][cybergate-yt]
+
+![building and fighting](cybergate.gif)
+_building shelter and fighting a colony of red monsters_
+
+CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]) by CyberSoul
+is an attempt to use artificial intelligence to build diverse universe experiences
+with strange creatures and procedural gameplay styles.
+Currently in Phase 5.2 (analogously version 0.5.2),
+they finalized a playable game with the tech they have developed up until now.
+
+Recent updates:
+
+- In-house Transport layer with Reliability and Package aggregation, over WebRTC
+- Implemented Winit background process on all browsers
+- Introduced Grabbing and Building Mechanics
+- Created enemy AI that groups and flies in colonies. Includes a deadly night mode
+- Usernames and life points with Fontdue.rs
+- Menu and leaderboard using yakui.rs
+- Improved the Automation to push Server Updates
+- Improved wasm related performance, latency, and connection freezing bugs.
+
+[Join the Discord server][cybergate-dis] to participate in upcoming Phase 6.0!
+
+_Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/xo03s5/cybergate_release_5_webrtc_multiplayer_with/)_
+
+[cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
+[cybergate-dis]: https://discord.gg/R7DkHqw7zJ
+
 ## Engine Updates
 
 ### [godot-rust][gd-github]
