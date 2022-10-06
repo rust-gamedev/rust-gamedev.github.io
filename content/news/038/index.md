@@ -131,6 +131,45 @@ include:
 [@im_oab]: https://twitter.com/im_oab
 [Tetra]: https://github.com/17cupsofcoffee/tetra
 
+### [Ultimechs]
+
+![Ultimechs - let the games begin](ultimechs.png)
+
+[Ultimechs]
+([Discord](https://discord.com/invite/srX92DRt9G),
+[Twitter](https://twitter.com/ultimechs),
+[Facebook](https://www.facebook.com/Ultimechs/),
+[Reddit](https://www.reddit.com/r/Ultimechs/),
+[YouTube](https://www.youtube.com/channel/UC6t6delBJRxnaBcqBPpC3Gg))
+by [Resolution Games](https://www.resolutiongames.com)
+is a future sports game played with mechs.
+It is VR, multiplayer, and free to play.
+
+Ultimechs is partially written in Rust.
+The Rust code is for the core of the game, including the game rules,
+networking, and physics (that use [Rapier]).
+The rest of the game, including the graphics, audio, user input,
+and everything that happens outside the arena,
+is made in [Unity](https://unity.com/).
+
+The game was released on the 15th of September
+on the [Meta Quest 2][ultimechs-quest] and [SteamVR][ultimechs-steamvr].
+
+There is [a conference talk][ultimechs-talk]
+and [a blog post][ultimechs-post]
+about the choice of Rust and how they combined Rust with the studio's
+standard tools Unity and C#.
+[Another blog post][ultimechs-post-2]
+goes into more depth about calling Rust code from C# in Unity.
+
+[Ultimechs]: https://www.resolutiongames.com/ultimechs
+[ultimechs-quest]: https://www.oculus.com/experiences/quest/5118731164870081/
+[ultimechs-steamvr]: https://store.steampowered.com/app/1657780/Ultimechs/
+[Rapier]: https://www.rapier.rs/
+[ultimechs-talk]: https://www.youtube.com/watch?v=nLCNsIs1-ZU
+[ultimechs-post]: https://www.resolutiongames.com/blog/programming-a-vr-game-using-rust
+[ultimechs-post-2]: https://www.resolutiongames.com/blog/calling-rust-from-c-in-unity
+
 ## Engine Updates
 
 ### [godot-rust][gd-github]
