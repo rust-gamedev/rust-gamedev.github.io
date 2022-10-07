@@ -272,6 +272,38 @@ The above screen shows an example of controlling a custom made audio source
 [bevy_oddio_02]: https://github.com/harudagondi/bevy_oddio/releases/tag/v0.2.0
 [bevy_fundsp_example]: https://github.com/harudagondi/bevy_fundsp/blob/ca08963820c83dd723784db6c6f87df8eadd60e0/examples/oddio/controlled.rs#L40-L52
 
+### [Particular]
+
+![showcase using the demo](particular.gif)  
+_Showcase using the [demo]_
+
+[Particular] by [@Canleskis] is a library allowing for simulations of
+N-body gravitational interaction of particles. It aims to be simple
+to integrate in existing game and physics engines, such as [Bevy] or [Rapier].
+See the [demo source code] for the example of an integration (less than 50
+actual lines of code!).
+The [demo] is available on the browser (Chromium-based recommended)
+with various scenes you can interact with.
+
+Particular can be used with [rayon] to leverage multithreading on the
+CPU (`parallel` feature). Although the current algorithm performs well enough
+for most use cases, with a single frame taking around 5 ms with 5000 particles
+on an I9 9900K, future updates will introduce other implementations to allow for
+faster computation of the forces (example: [Barnes-Hut]).
+
+You can find more about Particular with
+[this video](https://www.youtube.com/watch?v=oFrq9ckHoN8&) from
+[@ChristopherBiscardi](https://github.com/ChristopherBiscardi), or
+[this post](https://www.reddit.com/r/rust/comments/x7uhoq/media_particular_a_simple_library_for_nbody/)
+on Reddit.
+
+[Particular]: https://github.com/Canleskis/particular
+[demo]: https://canleskis.github.io/bevy-particular-demo/
+[demo source code]: https://github.com/Canleskis/bevy-particular-demo/blob/main/src/nbody.rs
+[@Canleskis]: https://github.com/Canleskis
+[rayon]: https://github.com/rayon-rs/rayon
+[Barnes-Hut]: https://en.wikipedia.org/wiki/Barnes%E2%80%93Hut_simulation
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
