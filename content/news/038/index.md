@@ -136,11 +136,13 @@ include:
 ![thetawave-boss](thetawave.gif)
 _First boss in progress_
 
-Thetawave is a physics based, cosmic horror themed space shooter by [@carlosupina].
+Thetawave is a physics based, cosmic horror themed space shooter by
+[@carlosupina].
 In the past month work has begun on the first boss enemy in the game,
 the [Repeater].
 
-Thetawave has also joined the [@spicylobsterfam] incubator. Feel free to reach out to
+Thetawave has also joined the [@spicylobsterfam] incubator.
+Feel free to reach out to
 me if you are interested in contributing!
 
 [Repeater]: https://twitter.com/carlosupina/status/1572976552165474307
