@@ -202,6 +202,42 @@ bugs and missing features, you can give it a try very soon!
 [gd-twitter]: https://twitter.com/GodotRust
 [gd-gdext]: https://godotengine.org/article/introducing-gd-extensions
 
+### [Gamercade]
+
+![Gamercade preview](gamercade.gif)
+_Gamercade Sprite Animations_
+
+[Gamercade] ([Discord][Gamercade-Discord], [Github][Gamercade-Github])
+by @RobDavenport is a WASM-powered fantasy console focused
+on building multiplayer neo-retro games.
+
+Gamercade has launched their first officla release! Version `0.1.0` has
+all of the functions and features need to start building awesome single-
+and multi-player games: input, graphics, audo, networking, and more.
+[The full release article][Gamercade-Release] goes into higher detail about
+the feature set of Gamercade, and includes example images and animations.
+
+Full controller support made it into the `0.1.0` release, including analog
+sticks, analog triggers, as well as emulation of those for those without
+a game pad. Additionally they added a command line tool, called `gccl` which
+streamlines many of the pain points in developing Gamercade games. A number of
+quality-of-life and bug fixes also made it into the release.
+
+The team is already planning out their feature set for the next release, `0.2.0`,
+which is based around the theme of "two." The next release will include more
+multiplayer features like two or more local players, two or more networked instances,
+stereo sound support, and much more.
+
+Come hang out and chat on [Discord][Gamercade-Discord], where the developers
+interact with members and post updates daily. The project is
+[open source][Gamercade-Github] and looking for contributors, suggestions,
+as well as your awesome game creations.
+
+[Gamercade]: https://gamercade.io
+[Gamercade-Discord]: https://discord.gg/Qafv2Fpt5j
+[Gamercade-Github]: https://github.com/gamercade-io/gamercade_console
+[Gamercade-Release]: https://gamercade.io/blog/gamercade-0-1-0
+
 ## Learning Material Updates
 
 ### [Making a turn-based multiplayer game in Rust][tbs-tutrial-1]
