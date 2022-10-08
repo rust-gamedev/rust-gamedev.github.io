@@ -256,6 +256,42 @@ as well as your awesome game creations.
 [Gamercade-Github]: https://github.com/gamercade-io/gamercade_console
 [Gamercade-Release]: https://gamercade.io/blog/gamercade-0-1-0
 
+### [Dims][dims-website]
+
+![A short video of changing the speed of the day/night cycle from Dims script parameters](dims-timecycle.gif)
+
+[Dims][dims-website] ([Twitter][dims-twitter], [Discord][dims-discord],
+[YouTube][dims-youtube]) is a pre-alpha collaborative open-world
+creation platform.
+Users can hop in sessions and build a game together, allowing everyone
+to bring out their inner game-maker.
+
+In September, the platform continued to make steady progress, with new features
+and bugfixes being made on a daily basis. The highlights are:
+
+- The team's very first game of entirely scripted multiplayer Team Deathmatch 🎉
+- All player logic was moved to the Rust scripting layer, allowing for it to be
+  changed on the fly
+- The implementation of animation retargeting, so you can use any animation with
+  any model, as long as they share the same skeletal structure
+- Scripting now has greater access to the ECS, allowing it to move the sun 🌅
+- Initial work on an asset database and pipeline, so that you can import any
+  asset and use it amongst your Dims projects
+- An all-new object manipulation/placement tool suite
+  - Objects can now be consistently stacked, moved as a group, placed within
+    each other, and more!
+- Many other infrastructural changes and improvements, including macOS and
+  Linux builds
+
+Want to try Dims out for yourself? Come join the [Discord][dims-discord] to be
+notified of future public tests, see the latest features before everyone else,
+and to talk to the devs personally.
+
+[dims-website]: https://dims.co
+[dims-twitter]: https://twitter.com/DimsWorlds
+[dims-discord]: https://discord.gg/Z5CAVmNE57
+[dims-youtube]: https://youtube.com/channel/UCR5gOwS7uSl0a0dl7MLQoqg
+
 ## Learning Material Updates
 
 ### [Making a turn-based multiplayer game in Rust][tbs-tutrial-1]
