@@ -131,6 +131,24 @@ include:
 [@im_oab]: https://twitter.com/im_oab
 [Tetra]: https://github.com/17cupsofcoffee/tetra
 
+### Thetawave
+
+![thetawave-boss](thetawave.gif)
+_First boss in progress_
+
+Thetawave is a physics based, cosmic horror themed space shooter by
+[@carlosupina].
+In the past month, work has begun on the first boss enemy in the game,
+the [Repeater].
+
+Thetawave has also joined the [@spicylobsterfam] incubator.
+Feel free to reach out to the developer
+if you are interested in contributing!
+
+[Repeater]: https://twitter.com/carlosupina/status/1572976552165474307
+[@carlosupina]: https://twitter.com/carlosupina
+[@spicylobsterfam]: https://twitter.com/spicylobsterfam
+
 ### [Ultimechs]
 
 ![Ultimechs - let the games begin](ultimechs.png)
