@@ -138,12 +138,12 @@ _First boss in progress_
 
 Thetawave is a physics based, cosmic horror themed space shooter by
 [@carlosupina].
-In the past month work has begun on the first boss enemy in the game,
+In the past month, work has begun on the first boss enemy in the game,
 the [Repeater].
 
 Thetawave has also joined the [@spicylobsterfam] incubator.
-Feel free to reach out to
-me if you are interested in contributing!
+Feel free to reach out to the developer
+if you are interested in contributing!
 
 [Repeater]: https://twitter.com/carlosupina/status/1572976552165474307
 [@carlosupina]: https://twitter.com/carlosupina
