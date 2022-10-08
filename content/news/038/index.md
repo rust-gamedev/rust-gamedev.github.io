@@ -211,7 +211,7 @@ _Gamercade Sprite Animations_
 by @RobDavenport is a WASM-powered fantasy console focused
 on building multiplayer neo-retro games.
 
-Gamercade has launched their first officla release! Version `0.1.0` has
+Gamercade has launched their first official release! Version `0.1.0` has
 all of the functions and features need to start building awesome single-
 and multi-player games: input, graphics, audo, networking, and more.
 [The full release article][Gamercade-Release] goes into higher detail about
@@ -219,7 +219,7 @@ the feature set of Gamercade, and includes example images and animations.
 
 Full controller support made it into the `0.1.0` release, including analog
 sticks, analog triggers, as well as emulation of those for those without
-a game pad. Additionally they added a command line tool, called `gccl` which
+a game pad. Additionally, they added a command line tool, called `gccl` which
 streamlines many of the pain points in developing Gamercade games. A number of
 quality-of-life and bug fixes also made it into the release.
 
