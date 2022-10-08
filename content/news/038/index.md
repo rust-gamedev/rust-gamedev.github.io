@@ -131,6 +131,24 @@ include:
 [@im_oab]: https://twitter.com/im_oab
 [Tetra]: https://github.com/17cupsofcoffee/tetra
 
+### Thetawave
+
+![thetawave-boss](thetawave.gif)
+_First boss in progress_
+
+Thetawave is a physics based, cosmic horror themed space shooter by
+[@carlosupina].
+In the past month, work has begun on the first boss enemy in the game,
+the [Repeater].
+
+Thetawave has also joined the [@spicylobsterfam] incubator.
+Feel free to reach out to the developer
+if you are interested in contributing!
+
+[Repeater]: https://twitter.com/carlosupina/status/1572976552165474307
+[@carlosupina]: https://twitter.com/carlosupina
+[@spicylobsterfam]: https://twitter.com/spicylobsterfam
+
 ### [Ultimechs]
 
 ![Ultimechs - let the games begin](ultimechs.png)
@@ -201,6 +219,42 @@ bugs and missing features, you can give it a try very soon!
 [gd-discord]: https://discord.gg/aKUCJ8rJsc
 [gd-twitter]: https://twitter.com/GodotRust
 [gd-gdext]: https://godotengine.org/article/introducing-gd-extensions
+
+### [Gamercade]
+
+![Gamercade preview](gamercade.gif)
+_Gamercade Sprite Animations_
+
+[Gamercade] ([Discord][Gamercade-Discord], [Github][Gamercade-Github])
+by @RobDavenport is a WASM-powered fantasy console focused
+on building multiplayer neo-retro games.
+
+Gamercade has launched their first official release! Version `0.1.0` has
+all of the functions and features need to start building awesome single-
+and multi-player games: input, graphics, audo, networking, and more.
+[The full release article][Gamercade-Release] goes into higher detail about
+the feature set of Gamercade, and includes example images and animations.
+
+Full controller support made it into the `0.1.0` release, including analog
+sticks, analog triggers, as well as emulation of those for those without
+a game pad. Additionally, they added a command line tool, called `gccl` which
+streamlines many of the pain points in developing Gamercade games. A number of
+quality-of-life and bug fixes also made it into the release.
+
+The team is already planning out their feature set for the next release, `0.2.0`,
+which is based around the theme of "two." The next release will include more
+multiplayer features like two or more local players, two or more networked instances,
+stereo sound support, and much more.
+
+Come hang out and chat on [Discord][Gamercade-Discord], where the developers
+interact with members and post updates daily. The project is
+[open source][Gamercade-Github] and looking for contributors, suggestions,
+as well as your awesome game creations.
+
+[Gamercade]: https://gamercade.io
+[Gamercade-Discord]: https://discord.gg/Qafv2Fpt5j
+[Gamercade-Github]: https://github.com/gamercade-io/gamercade_console
+[Gamercade-Release]: https://gamercade.io/blog/gamercade-0-1-0
 
 ### [Dims][dims-website]
 
@@ -307,6 +361,38 @@ The above screen shows an example of controlling a custom made audio source
 [oddio]: https://github.com/Ralith/oddio
 [bevy_oddio_02]: https://github.com/harudagondi/bevy_oddio/releases/tag/v0.2.0
 [bevy_fundsp_example]: https://github.com/harudagondi/bevy_fundsp/blob/ca08963820c83dd723784db6c6f87df8eadd60e0/examples/oddio/controlled.rs#L40-L52
+
+### [Particular]
+
+![showcase using the demo](particular.gif)  
+_Showcase using the [demo]_
+
+[Particular] by [@Canleskis] is a library allowing for simulations of
+N-body gravitational interaction of particles. It aims to be simple
+to integrate in existing game and physics engines, such as [Bevy] or [Rapier].
+See the [demo source code] for the example of an integration (less than 50
+actual lines of code!).
+The [demo] is available on the browser (Chromium-based recommended)
+with various scenes you can interact with.
+
+Particular can be used with [rayon] to leverage multithreading on the
+CPU (`parallel` feature). Although the current algorithm performs well enough
+for most use cases, with a single frame taking around 5 ms with 5000 particles
+on an I9 9900K, future updates will introduce other implementations to allow for
+faster computation of the forces (example: [Barnes-Hut]).
+
+You can find more about Particular with
+[this video](https://www.youtube.com/watch?v=oFrq9ckHoN8&) from
+[@ChristopherBiscardi](https://github.com/ChristopherBiscardi), or
+[this post](https://www.reddit.com/r/rust/comments/x7uhoq/media_particular_a_simple_library_for_nbody/)
+on Reddit.
+
+[Particular]: https://github.com/Canleskis/particular
+[demo]: https://canleskis.github.io/bevy-particular-demo/
+[demo source code]: https://github.com/Canleskis/bevy-particular-demo/blob/main/src/nbody.rs
+[@Canleskis]: https://github.com/Canleskis
+[rayon]: https://github.com/rayon-rs/rayon
+[Barnes-Hut]: https://en.wikipedia.org/wiki/Barnes%E2%80%93Hut_simulation
 
 ## Popular Workgroup Issues in Github
 
