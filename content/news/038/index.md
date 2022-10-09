@@ -394,6 +394,26 @@ on Reddit.
 [rayon]: https://github.com/rayon-rs/rayon
 [Barnes-Hut]: https://en.wikipedia.org/wiki/Barnes%E2%80%93Hut_simulation
 
+### [Polyanya]
+
+![example of pathfinding](polyanya.gif)  
+_Navigating through a mesh in the online [demo][polyanya-demo]_
+
+[Polyanya] by [@FrancoisMockers] is a library implementing
+[Polyanya][polyanya-paper], a Compromise-free Pathfinding algorithm on a
+Navigation Mesh. It is currently the fastest known optimal online any angle
+path planning algorithm. Unlike A*, any angle path planning techniques are not
+bound to a grid and will find a taut path.
+
+An integration with [Bevy] is on-going, with a [few examples][polyanya-demo]
+available in WASM. Next area of work will be around navigation mesh editing.
+
+[Polyanya]: https://github.com/vleue/polyanya
+[polyanya-paper]: https://www.ijcai.org/proceedings/2017/0070.pdf
+[polyanya-demo]: https://vleue.github.io/bevy_pathmesh/
+[Bevy]: https://bevyengine.org/
+[@FrancoisMockers]: https://twitter.com/FrancoisMockers
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
