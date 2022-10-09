@@ -394,6 +394,27 @@ on Reddit.
 [rayon]: https://github.com/rayon-rs/rayon
 [Barnes-Hut]: https://en.wikipedia.org/wiki/Barnes%E2%80%93Hut_simulation
 
+### [Notan v0.7][Notan]
+
+![notan examples](notan.gif)
+
+[Notan] is a simple and portable layer designed to create your own
+apps on top of it without worrying about platform-specific code.
+
+It provides a set of APIs and tools that can be used to create your
+project in an ergonomic manner without enforcing any structure or pattern,
+sharing the same codebase across multiple platforms.
+
+The focus of version [v0.7] was improvements and fixes, however the main 
+improvement was how textures are created, allowing to create textures that 
+depend on the backend. The main benefit of this new feature is that Notan
+can now load on browsers to the GPU `HtmlImageElement` or it could load 
+other types of browser's images as well (like  `HtmlCanvasElement`).
+
+[Notan]: https://github.com/Nazariglez/notan
+[v0.7]: https://github.com/Nazariglez/notan/releases
+
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
