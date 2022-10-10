@@ -111,7 +111,6 @@ Recent updates:
 - Implemented player stat calculations
 - Made NPCs talk
 
-
 [eo-rs-website]: https://eo-rs.dev
 
 ### [Graviton][graviton-website]
