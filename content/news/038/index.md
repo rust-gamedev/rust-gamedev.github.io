@@ -196,8 +196,8 @@ The untitled "Tiny Building Game" is a stress-free feel-good game focused on jus
 building something pretty. It is being made by [@anastasiaopara] and
 [@h3r2tic].
 
-This month, the project welcomed [Martin] (sound design) and [Oda] (music) as well as
-many various game additions, such as fences, gates, pillars and [butterflies]. You
+This month, the team welcomed [Martin] (sound design) and [Oda] (music) as well as
+added many various game elements, such as fences, gates, pillars and [butterflies]. You
 can watch this short [Youtube video] to catch a glimpse of how it all is coming together.
 
 Right now, the team is working on setting up a Steam page. Stay
