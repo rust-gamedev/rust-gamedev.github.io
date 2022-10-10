@@ -197,10 +197,10 @@ building something pretty. It is being made by [@anastasiaopara] and
 [@h3r2tic].
 
 This month, the team welcomed [Martin] (sound design) and [Oda] (music) as well as
-added many various game elements, such as fences, gates, pillars and [butterflies]. You
-can watch this short [Youtube video] to catch a glimpse of how it all is coming together.
+added various game elements, such as fences, gates, pillars and [butterflies]. You
+can watch this short [YouTube video] to catch a glimpse of how it's all coming together.
 
-Right now, the team is working on setting up a Steam page. Stay
+Right now, the team is working towards the game announcement. Stay
 tuned by following the [newsletter][country-slice-newsletter]!
 
 [country-slice-newsletter]: https://dashboard.mailerlite.com/forms/10395/51067704544593017/share
@@ -209,7 +209,7 @@ tuned by following the [newsletter][country-slice-newsletter]!
 [Oda]: https://twitter.com/OdaTilset
 [Martin]: https://twitter.com/MartinKvale
 [butterflies]: https://twitter.com/h3r2tic/status/1573747327751360512
-[Youtube video]: https://youtu.be/CizG3hv7DhQ
+[YouTube video]: https://youtu.be/CizG3hv7DhQ
 
 ## Engine Updates
 
