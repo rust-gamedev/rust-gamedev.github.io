@@ -97,6 +97,23 @@ _Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/x
 [cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
 [cybergate-dis]: https://discord.gg/R7DkHqw7zJ
 
+### [eo.rs][eo-rs-website]
+
+![npcs talking](eo-rs.png)
+_NPCs chatting in the game world_
+
+[eo-rs][eo-rs-website] by [@sorokya](https://github.com/sorokya)
+is a development library + game server for the MMORPG [Endless Online](https://www.endless-online.com).
+
+Recent updates:
+- Made NPCs appear and move around in the game world
+- Created a proxy tool to document interactions between the original client and server
+- Implemented player stat calculations
+- Made NPCs talk
+
+
+[eo-rs-website]: https://eo-rs.dev
+
 ### [Graviton][graviton-website]
 
 ![Graviton](graviton.png)
