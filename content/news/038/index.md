@@ -194,7 +194,7 @@ goes into more depth about calling Rust code from C# in Unity.
 _NPCs chatting in the game world_
 
 [eo-rs][eo-rs-website] by [@sorokya](https://github.com/sorokya)
-is a development library and game server for the MMORPG 
+is a development library and game server for the MMORPG
 [Endless Online](https://www.endless-online.com).
 
 Recent updates:
