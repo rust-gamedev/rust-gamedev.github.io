@@ -239,13 +239,13 @@ Fortress and Cube World.
 
 In September the official Veloren server saw a new all time high of more than
 400 players logged in at the same time, with an average load of 200 players.
-This caused slow in-game responses and the development team quickly 
-optimized to reduce the server load and introduced a new graphical 
+This caused slow in-game responses and the development team quickly
+optimized to reduce the server load and introduced a new graphical
 server browser for balancing.
 
-Due to the more diverse user base, a lot of languages received translation 
-updates. The most common crash dialog was improved to suggest the workaround 
-of trying a different graphics backend, while the large number of players 
+Due to the more diverse user base, a lot of languages received translation
+updates. The most common crash dialog was improved to suggest the workaround
+of trying a different graphics backend, while the large number of players
 still using DX11 block an upgrade to a more recent WGPU version.
 
 Septembers's full weekly devlogs: "This Week In Veloren...":
