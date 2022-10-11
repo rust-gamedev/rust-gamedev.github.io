@@ -188,6 +188,47 @@ goes into more depth about calling Rust code from C# in Unity.
 [ultimechs-post]: https://www.resolutiongames.com/blog/programming-a-vr-game-using-rust
 [ultimechs-post-2]: https://www.resolutiongames.com/blog/calling-rust-from-c-in-unity
 
+### [eo.rs][eo-rs-website]
+
+![npcs talking](eo-rs.png)
+_NPCs chatting in the game world_
+
+[eo-rs][eo-rs-website] by [@sorokya](https://github.com/sorokya)
+is a development library and game server for the MMORPG
+[Endless Online](https://www.endless-online.com).
+
+Recent updates:
+
+- Made NPCs appear and move around in the game world
+- Created a proxy tool to document interactions between the original client and server
+- Implemented player stat calculations
+- Made NPCs talk
+
+[eo-rs-website]: https://eo-rs.dev
+
+### Tiny Building Game
+
+![Tiny_building_game_gif](tiny_building_game.gif)
+
+The untitled "Tiny Building Game" is a stress-free feel-good game focused on just
+building something pretty. It is being made by [@anastasiaopara] and
+[@h3r2tic].
+
+This month, the team welcomed [Martin] (sound design) and [Oda] (music) as well as
+adding various game elements, such as fences, gates, pillars and [butterflies]. You
+can watch this short [YouTube video] to catch a glimpse of how it's all coming together.
+
+Right now, the team is working towards the game announcement. Stay
+tuned by following the [newsletter][country-slice-newsletter]!
+
+[country-slice-newsletter]: https://dashboard.mailerlite.com/forms/10395/51067704544593017/share
+[@anastasiaopara]: https://twitter.com/anastasiaopara
+[@h3r2tic]: https://twitter.com/h3r2tic
+[Oda]: https://twitter.com/OdaTilset
+[Martin]: https://twitter.com/MartinKvale
+[butterflies]: https://twitter.com/h3r2tic/status/1573747327751360512
+[YouTube video]: https://youtu.be/CizG3hv7DhQ
+
 ### [Veloren][veloren]
 
 ![Riding into the sunset](veloren.jpg)
@@ -196,13 +237,13 @@ _Riding into the sunset_
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.
 
-In September the official veloren server saw a new all time high of more than
-400 players logged in at the same time at an average load of 200 players.
+In September the official Veloren server saw a new all time high of more than
+400 players logged in at the same time, with an average load of 200 players.
 This caused slow in-game responses and the development team quickly 
 optimized to reduce the server load and introduced a new graphical 
 server browser for balancing.
 
-Due to the more diverse user base a lot of languages received translation 
+Due to the more diverse user base, a lot of languages received translation 
 updates. The most common crash dialog was improved to suggest the workaround 
 of trying a different graphics backend, while the large number of players 
 still using DX11 block an upgrade to a more recent WGPU version.
@@ -337,6 +378,40 @@ and finally how to tie it all together with a client app made with [bevy].
 [renet]: https://github.com/lucaspoffo/renet
 [bevy]: https://github.com/bevyengine/bevy
 
+### [Chris Biscardi's Monthly Roundup][chris-biscardi-videos]
+
+![monthly videos](chris-biscardi-videos.jpeg)
+
+[@chrisbiscardi] publishes a Rust video every day each
+month on [YouTube][chris-biscardi-youtube].
+
+This month started off with a [low-level WGPU series][wgpu-playlist]
+that focuses on WGPU APIs as a primitive to understand
+Bevy's renderer. Moving forward with that, he explored
+[debugging shaders with RenderDoc][debugging-with-renderdoc],
+[porting shaders][porting-shaders] from Blender to Bevy,
+[generating custom meshes][cubesphere] and interesting
+types of [noise][voronoise].
+
+At a higher level, Chris covered a comparison between
+[Bevy and Nannou][bevy-vs-nannou] for creative coding
+endeavours and the top 10 games from [Bevy Game Jam #2][bevy-game-jam-2].
+He also put (more than) [1 million particles][1-million-particles]
+inside of a Bevy app, and continued working on a
+[2D platformer implementation][2d-platformer-cb].
+
+[@chrisbiscardi]: https://twitter.com/chrisbiscardi
+[chris-biscardi-youtube]: https://www.youtube.com/c/chrisbiscardi
+[wgpu-playlist]: https://www.youtube.com/playlist?list=PLWtPciJ1UMuBs_3G-jFrMJnM5ZMKgl37H
+[debugging-with-renderdoc]: https://www.youtube.com/watch?v=vblsZgBcgyw
+[porting-shaders]: https://www.youtube.com/watch?v=ynLEQVPRfZs
+[cubesphere]: https://www.youtube.com/watch?v=s0xY4muPwj8
+[voronoise]: https://www.youtube.com/watch?v=An2GMk8URMo
+[bevy-vs-nannou]: https://www.youtube.com/watch?v=Cf08TlwUNf4
+[bevy-game-jam-2]: https://www.youtube.com/watch?v=VBMzaMEOhFI
+[1-million-particles]: https://www.youtube.com/watch?v=MWIO-jP6pVo
+[2d-platformer-cb]: https://www.youtube.com/watch?v=VWzqmquIZHc&t=2s
+
 ## Tooling Updates
 
 ### Feldversuch
@@ -422,6 +497,46 @@ on Reddit.
 [@Canleskis]: https://github.com/Canleskis
 [rayon]: https://github.com/rayon-rs/rayon
 [Barnes-Hut]: https://en.wikipedia.org/wiki/Barnes%E2%80%93Hut_simulation
+
+### [Notan v0.7][Notan]
+
+![notan examples](notan.gif)
+
+[Notan] is a simple and portable layer designed to create your own
+apps on top of it without worrying about platform-specific code.
+
+It provides a set of APIs and tools that can be used to create your
+project in an ergonomic manner without enforcing any structure or pattern,
+sharing the same codebase across multiple platforms.
+
+The focus of version [v0.7] was improvements and fixes, however the main
+improvement was how textures are created, allowing to create textures that
+depend on the backend. The main benefit of this new feature is that Notan
+can now load on browsers to the GPU `HtmlImageElement` or it could load
+other types of browser's images as well (like `HtmlCanvasElement`).
+
+[Notan]: https://github.com/Nazariglez/notan
+[v0.7]: https://github.com/Nazariglez/notan/releases
+
+### [Polyanya]
+
+![example of pathfinding](polyanya.gif)  
+_Navigating through a mesh in the online [demo][polyanya-demo]_
+
+[Polyanya] by [@FrancoisMockers] is a library implementing
+[Polyanya][polyanya-paper], a Compromise-free Pathfinding algorithm on a
+Navigation Mesh. It is currently the fastest known optimal online any angle
+path planning algorithm. Unlike A*, any angle path planning techniques are not
+bound to a grid and will find a taut path.
+
+An integration with [Bevy] is on-going, with a [few examples][polyanya-demo]
+available in WASM. Next area of work will be around navigation mesh editing.
+
+[Polyanya]: https://github.com/vleue/polyanya
+[polyanya-paper]: https://www.ijcai.org/proceedings/2017/0070.pdf
+[polyanya-demo]: https://vleue.github.io/bevy_pathmesh/
+[Bevy]: https://bevyengine.org/
+[@FrancoisMockers]: https://twitter.com/FrancoisMockers
 
 ## Popular Workgroup Issues in Github
 
