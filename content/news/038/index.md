@@ -188,6 +188,35 @@ goes into more depth about calling Rust code from C# in Unity.
 [ultimechs-post]: https://www.resolutiongames.com/blog/programming-a-vr-game-using-rust
 [ultimechs-post-2]: https://www.resolutiongames.com/blog/calling-rust-from-c-in-unity
 
+### [Veloren][veloren]
+
+![Riding into the sunset](veloren.jpg)
+_Riding into the sunset_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In September the official veloren server saw a new all time high of more than
+400 players logged in at the same time at an average load of 200 players.
+This caused slow in-game responses and the development team quickly 
+optimized to reduce the server load and introduced a new graphical 
+server browser for balancing.
+
+Due to the more diverse user base a lot of languages received translation 
+updates. The most common crash dialog was improved to suggest the workaround 
+of trying a different graphics backend, while the large number of players 
+still using DX11 block an upgrade to a more recent WGPU version.
+
+Septembers's full weekly devlogs: "This Week In Veloren...":
+[#188][veloren-188],
+[#189][veloren-189],
+[#190][veloren-190].
+
+[veloren]: https://veloren.net
+[veloren-188]: https://veloren.net/devblog-188
+[veloren-189]: https://veloren.net/devblog-189
+[veloren-190]: https://veloren.net/devblog-190
+
 ## Engine Updates
 
 ### [godot-rust][gd-github]
