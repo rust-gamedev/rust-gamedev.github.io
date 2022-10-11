@@ -312,18 +312,23 @@ and finally how to tie it all together with a client app made with [bevy].
 
 ![monthly videos](chris-biscardi-videos.jpeg)
 
-[@chrisbiscardi] publishes a Rust video every day each month on [YouTube][chris-biscardi-youtube].
+[@chrisbiscardi] publishes a Rust video every day each
+month on [YouTube][chris-biscardi-youtube].
 
-This month started off with a [low-level WGPU series][wgpu-playlist] that
-focuses on WGPU APIs as a primitive to understand Bevy's renderer. Moving 
-forward with that, we explored [debugging shaders with RenderDoc][debugging-with-renderdoc],
+This month started off with a [low-level WGPU series][wgpu-playlist]
+that focuses on WGPU APIs as a primitive to understand
+Bevy's renderer. Moving forward with that, he explored
+[debugging shaders with RenderDoc][debugging-with-renderdoc],
 [porting shaders][porting-shaders] from Blender to Bevy,
-[generating custom meshes][cubesphere] and interesting types of [noise][voronoise].
+[generating custom meshes][cubesphere] and interesting
+types of [noise][voronoise].
 
-At a higher level, Chris covered a comparison between [Bevy and Nannou][bevy-vs-nannou]
-for creative coding endeavours and the top 10 games from [Bevy Game Jam #2][bevy-game-jam-2].
-He also put (more than) [1 million particles][1-million-particles] inside of a Bevy app, and
-continued working on a [2d platformer implementation][2d-platformer-cb].
+At a higher level, Chris covered a comparison between
+[Bevy and Nannou][bevy-vs-nannou] for creative coding
+endeavours and the top 10 games from [Bevy Game Jam #2][bevy-game-jam-2].
+He also put (more than) [1 million particles][1-million-particles]
+inside of a Bevy app, and continued working on a
+[2D platformer implementation][2d-platformer-cb].
 
 [@chrisbiscardi]: https://twitter.com/chrisbiscardi
 [chris-biscardi-youtube]: https://www.youtube.com/c/chrisbiscardi
