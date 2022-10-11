@@ -188,6 +188,24 @@ goes into more depth about calling Rust code from C# in Unity.
 [ultimechs-post]: https://www.resolutiongames.com/blog/programming-a-vr-game-using-rust
 [ultimechs-post-2]: https://www.resolutiongames.com/blog/calling-rust-from-c-in-unity
 
+### [eo.rs][eo-rs-website]
+
+![npcs talking](eo-rs.png)
+_NPCs chatting in the game world_
+
+[eo-rs][eo-rs-website] by [@sorokya](https://github.com/sorokya)
+is a development library and game server for the MMORPG
+[Endless Online](https://www.endless-online.com).
+
+Recent updates:
+
+- Made NPCs appear and move around in the game world
+- Created a proxy tool to document interactions between the original client and server
+- Implemented player stat calculations
+- Made NPCs talk
+
+[eo-rs-website]: https://eo-rs.dev
+
 ## Engine Updates
 
 ### [godot-rust][gd-github]
@@ -393,6 +411,26 @@ on Reddit.
 [@Canleskis]: https://github.com/Canleskis
 [rayon]: https://github.com/rayon-rs/rayon
 [Barnes-Hut]: https://en.wikipedia.org/wiki/Barnes%E2%80%93Hut_simulation
+
+### [Notan v0.7][Notan]
+
+![notan examples](notan.gif)
+
+[Notan] is a simple and portable layer designed to create your own
+apps on top of it without worrying about platform-specific code.
+
+It provides a set of APIs and tools that can be used to create your
+project in an ergonomic manner without enforcing any structure or pattern,
+sharing the same codebase across multiple platforms.
+
+The focus of version [v0.7] was improvements and fixes, however the main
+improvement was how textures are created, allowing to create textures that
+depend on the backend. The main benefit of this new feature is that Notan
+can now load on browsers to the GPU `HtmlImageElement` or it could load
+other types of browser's images as well (like `HtmlCanvasElement`).
+
+[Notan]: https://github.com/Nazariglez/notan
+[v0.7]: https://github.com/Nazariglez/notan/releases
 
 ### [Polyanya]
 
