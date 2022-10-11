@@ -188,6 +188,24 @@ goes into more depth about calling Rust code from C# in Unity.
 [ultimechs-post]: https://www.resolutiongames.com/blog/programming-a-vr-game-using-rust
 [ultimechs-post-2]: https://www.resolutiongames.com/blog/calling-rust-from-c-in-unity
 
+### [eo.rs][eo-rs-website]
+
+![npcs talking](eo-rs.png)
+_NPCs chatting in the game world_
+
+[eo-rs][eo-rs-website] by [@sorokya](https://github.com/sorokya)
+is a development library and game server for the MMORPG
+[Endless Online](https://www.endless-online.com).
+
+Recent updates:
+
+- Made NPCs appear and move around in the game world
+- Created a proxy tool to document interactions between the original client and server
+- Implemented player stat calculations
+- Made NPCs talk
+
+[eo-rs-website]: https://eo-rs.dev
+
 ## Engine Updates
 
 ### [godot-rust][gd-github]
