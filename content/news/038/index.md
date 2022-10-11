@@ -326,6 +326,40 @@ and finally how to tie it all together with a client app made with [bevy].
 [renet]: https://github.com/lucaspoffo/renet
 [bevy]: https://github.com/bevyengine/bevy
 
+### [Chris Biscardi's Monthly Roundup][chris-biscardi-videos]
+
+![monthly videos](chris-biscardi-videos.jpeg)
+
+[@chrisbiscardi] publishes a Rust video every day each
+month on [YouTube][chris-biscardi-youtube].
+
+This month started off with a [low-level WGPU series][wgpu-playlist]
+that focuses on WGPU APIs as a primitive to understand
+Bevy's renderer. Moving forward with that, he explored
+[debugging shaders with RenderDoc][debugging-with-renderdoc],
+[porting shaders][porting-shaders] from Blender to Bevy,
+[generating custom meshes][cubesphere] and interesting
+types of [noise][voronoise].
+
+At a higher level, Chris covered a comparison between
+[Bevy and Nannou][bevy-vs-nannou] for creative coding
+endeavours and the top 10 games from [Bevy Game Jam #2][bevy-game-jam-2].
+He also put (more than) [1 million particles][1-million-particles]
+inside of a Bevy app, and continued working on a
+[2D platformer implementation][2d-platformer-cb].
+
+[@chrisbiscardi]: https://twitter.com/chrisbiscardi
+[chris-biscardi-youtube]: https://www.youtube.com/c/chrisbiscardi
+[wgpu-playlist]: https://www.youtube.com/playlist?list=PLWtPciJ1UMuBs_3G-jFrMJnM5ZMKgl37H
+[debugging-with-renderdoc]: https://www.youtube.com/watch?v=vblsZgBcgyw
+[porting-shaders]: https://www.youtube.com/watch?v=ynLEQVPRfZs
+[cubesphere]: https://www.youtube.com/watch?v=s0xY4muPwj8
+[voronoise]: https://www.youtube.com/watch?v=An2GMk8URMo
+[bevy-vs-nannou]: https://www.youtube.com/watch?v=Cf08TlwUNf4
+[bevy-game-jam-2]: https://www.youtube.com/watch?v=VBMzaMEOhFI
+[1-million-particles]: https://www.youtube.com/watch?v=MWIO-jP6pVo
+[2d-platformer-cb]: https://www.youtube.com/watch?v=VWzqmquIZHc&t=2s
+
 ## Tooling Updates
 
 ### Feldversuch
