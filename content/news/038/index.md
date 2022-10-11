@@ -206,6 +206,29 @@ Recent updates:
 
 [eo-rs-website]: https://eo-rs.dev
 
+### Tiny Building Game
+
+![Tiny_building_game_gif](tiny_building_game.gif)
+
+The untitled "Tiny Building Game" is a stress-free feel-good game focused on just
+building something pretty. It is being made by [@anastasiaopara] and
+[@h3r2tic].
+
+This month, the team welcomed [Martin] (sound design) and [Oda] (music) as well as
+adding various game elements, such as fences, gates, pillars and [butterflies]. You
+can watch this short [YouTube video] to catch a glimpse of how it's all coming together.
+
+Right now, the team is working towards the game announcement. Stay
+tuned by following the [newsletter][country-slice-newsletter]!
+
+[country-slice-newsletter]: https://dashboard.mailerlite.com/forms/10395/51067704544593017/share
+[@anastasiaopara]: https://twitter.com/anastasiaopara
+[@h3r2tic]: https://twitter.com/h3r2tic
+[Oda]: https://twitter.com/OdaTilset
+[Martin]: https://twitter.com/MartinKvale
+[butterflies]: https://twitter.com/h3r2tic/status/1573747327751360512
+[YouTube video]: https://youtu.be/CizG3hv7DhQ
+
 ## Engine Updates
 
 ### [godot-rust][gd-github]
