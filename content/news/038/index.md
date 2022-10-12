@@ -258,6 +258,19 @@ Septembers's full weekly devlogs: "This Week In Veloren...":
 [veloren-189]: https://veloren.net/devblog-189
 [veloren-190]: https://veloren.net/devblog-190
 
+### [Subfuse][subfuse]
+
+![Escape the hotel](subfuse.png)
+_Escape the hotel_
+
+[Subfuse][subfuse] is a short 1st person puzzle/escape game made for
+[Bevy Jam #2][bevy-jam-2] with an accompanying [postmortem][subfuse-postmortem]
+that goes into some detail about the process of making the game.
+
+[subfuse]: https://dgriffin.itch.io/subfuse
+[subfuse-postmortem]: https://dgriffin.itch.io/subfuse/devlog/422315/subfuse-postmortem
+[bevy-jam-2]: https://itch.io/jam/bevy-jam-2
+
 ## Engine Updates
 
 ### [godot-rust][gd-github]
