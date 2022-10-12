@@ -1,8 +1,7 @@
 +++
 title = "This Month in Rust GameDev #38 - September 2022"
 transparent = true
-date = 2022-10-08
-draft = true
+date = 2022-10-13
 +++
 
 <!-- no toc -->
@@ -39,7 +38,6 @@ Feel free to send PRs about your own projects!
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
-- [Jobs](#jobs)
 - [Bonus](#bonus)
 
 <!--
@@ -65,6 +63,21 @@ If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
 ## Announcements
+
+### Rust GameDev Meetup
+
+![Gamedev meetup poster](gamedev-meetup.png)
+
+The 20th Rust Gamedev Meetup took place in September. You can watch the recording
+of the meetup [here on Youtube][gamedev-meetup-video].
+
+The meetups take place on the second Saturday every month via the [Rust Gamedev
+Discord server][rust-gamedev-discord] and are also [streamed on
+Twitch][rust-gamedev-twitch].
+
+[gamedev-meetup-video]: https://www.youtube.com/watch?v=QKqqDilZ448
+[rust-gamedev-discord]: https://discord.gg/yNtPTb2
+[rust-gamedev-twitch]: https://twitch.tv/rustgamedev
 
 ## Game Updates
 
@@ -391,7 +404,7 @@ and finally how to tie it all together with a client app made with [bevy].
 [renet]: https://github.com/lucaspoffo/renet
 [bevy]: https://github.com/bevyengine/bevy
 
-### [Chris Biscardi's Monthly Roundup][chris-biscardi-videos]
+### [Chris Biscardi's Monthly Roundup][chris-biscardi-youtube]
 
 ![monthly videos](chris-biscardi-videos.jpeg)
 
@@ -437,7 +450,7 @@ synthesizers based on signed distance fields.
 
 Feldversuch uses user defined fields not only to render the
 interface, but to generate sound based on them as well. The
-so-called *sampling plane* (seen moving back and forth above)
+so-called _sampling plane_ (seen moving back and forth above)
 defines the wave shape that is played back.
 
 Further experiments include rotation (instead of the sweep
@@ -474,7 +487,6 @@ The above screen shows an example of controlling a custom made audio source
 
 [bevy_oddio]: https://github.com/harudagondi/bevy_oddio
 [@harudagondi]: https://twitter.com/harudagondi
-[Bevy]: https://bevyengine.org/
 [oddio]: https://github.com/Ralith/oddio
 [bevy_oddio_02]: https://github.com/harudagondi/bevy_oddio/releases/tag/v0.2.0
 [bevy_fundsp_example]: https://github.com/harudagondi/bevy_fundsp/blob/ca08963820c83dd723784db6c6f87df8eadd60e0/examples/oddio/controlled.rs#L40-L52
@@ -548,38 +560,136 @@ available in WASM. Next area of work will be around navigation mesh editing.
 [Polyanya]: https://github.com/vleue/polyanya
 [polyanya-paper]: https://www.ijcai.org/proceedings/2017/0070.pdf
 [polyanya-demo]: https://vleue.github.io/bevy_pathmesh/
-[Bevy]: https://bevyengine.org/
 [@FrancoisMockers]: https://twitter.com/FrancoisMockers
 
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
 
+- [#90: Rust on Consoles](https://github.com/rust-gamedev/wg/issues/90)
+
 ## Other News
 
 <!-- One-liners for plan items that haven't got their own sections. -->
 
-- Other library updates
-  - [big-brain](https://github.com/zkat/big-brain) released [version 0.14](https://github.com/zkat/big-brain/releases/tag/v0.14.0)
-    of its Utility AI library, with fixes and lots more observability improvements.
+- Other game updates:
+  - [Disk-0 Madness] is a bullet hell game, written in Rust for the WASM-4
+    fantasy console.
+  - [Combine and Conquer] released version 0.1, moving into early access.
+  - [bevy-rapier-car-sim] is a 3D car simulation in Rust.
+  - [PongRust] is an 'unbeatable' Pong game.
+  - [My Roguelite] is a browser-based 3D roguelite.
+  - [Life Code] is an ecosystem simulation game.
+  - [Klod] released a retrospective post about their Katamari-inspired platformer.
+- Other engine updates:
+  - [Rustacean Station] interviewed the developer of the Fyrox engine.
+  - [The Fyrox Book] added a new chapter on property inheritance.
+  - [Bevy's scheduling overhaul RFC] was merged.
+- Other learning material updates:
+  - [LogRocket] posted about Bevy's ECS API.
+  - [Wade Zimmerman] wrote about their native iOS game dev journey with Rust.
+  - [Rust and Tell] featured a talk on hot reloading.
+  - [Bevy Basics] continued their series of beginner Bevy tutorials.
+  - [Yishn] coded an Astroids clone with Bevy.
+- Other library updates:
+  - [big-brain] released version 0.14 of its Utility AI library, with fixes and
+    lots more observability improvements.
+  - [egui_dock] adds docking support to egui.
+  - [Valence] is a framework for building Minecraft servers in Rust.
+  - [Luminance] is a type-safe graphics framework, which is currently undergoing
+    a major rewrite.
+  - [Bevy ECSS] is a library for integrating a subset of CSS with Bevy's ECS system.
+  - [dtm] is a fast encoder/decoder for the DTM image format.
+
+[Disk-0 Madness]: https://maxcurzi.itch.io/disk-0-madness
+[Combine and Conquer]: https://buckmartin.de/combine-and-conquer/2022-09-23-v0.1.0.html
+[bevy-rapier-car-sim]: https://github.com/alexichepura/bevy-rapier-car-sim
+[PongRust]: https://larsdu.github.io/PongRust/
+[My Roguelite]: https://ostwilkens.github.io/my-roguelite/
+[Life Code]: https://www.youtube.com/watch?v=ftVkklmO1Dk
+[Klod]: https://devildahu.ch/devlog/making-of-klod-tech/
+[Rustacean Station]: https://rustacean-station.org/episode/dmitry-stepanov/
+[The Fyrox Book]: https://fyrox-book.github.io/fyrox/scene/inheritance.html
+[Bevy's scheduling overhaul RFC]: https://github.com/bevyengine/rfcs/pull/45
+[LogRocket]: https://blog.logrocket.com/rust-bevy-entity-component-system
+[Wade Zimmerman]: https://devmap.org/native-ios-game-development-w-rust-a1134887c35f
+[Rust and Tell]: https://www.youtube.com/watch?v=-UUImyqX8j0
+[Bevy Basics]: https://www.youtube.com/playlist?list=PL6uRoaCCw7GN_lJxpKS3j-KXuThRiSXc6
+[Yishn]: https://www.youtube.com/watch?v=QCys49c44PU
+[big-brain]: https://github.com/zkat/big-brain/releases/tag/v0.14.0
+[egui_dock]: https://crates.io/crates/egui_dock
+[Valence]: https://github.com/valence-rs/valence
+[Luminance]: https://phaazon.net/blog/2022-luminance-redesign-part-1
+[Bevy ECSS]: https://github.com/afonsolage/bevy_ecss
+[dtm]: https://github.com/Ku95/dtm
 
 ## Discussions
 
 <!-- Links to handpicked reddit/twitter/urlo/etc threads that provide
 useful information -->
 
+- /r/rust_gamedev
+  - ["Should I use an existing physics engine or implement it myself?"](https://reddit.com/r/rust_gamedev/comments/x8if87/rubber_duck_question_should_i_use_an_existing)
+  - ["Ecs fundamentally at odds with borrow checker?"](https://reddit.com/r/rust_gamedev/comments/xajcgd/ecs_fundamentally_at_odds_with_borrow_checker)
+  - ["Best Engine for Choice-Driven, Semi-Free-Roam, 2D Gamedev"](https://reddit.com/r/rust_gamedev/comments/xc0fes/best_engine_for_choicedriven_semifreeroam_2d)
+  - ["Turn-based game - architecture feedback/opinons"](https://reddit.com/r/rust_gamedev/comments/xe1d6p/turnbased_game_architecture_feedbackopinons)
+
 ## Requests for Contribution
 
 <!-- Links to "good first issue"-labels or direct links to specific tasks -->
 
-## Jobs
+- ['Are We Game Yet?' wants to know about projects/games/resources that
+  aren't listed yet][awgy].
+- [Graphite is looking for contributors][graphite-contribute] to help build the
+  new node graph and 2D rendering systems.
+- [winit's "difficulty: easy" issues][winit-issues].
+- [Backroll-rs, a new networking library][backroll-rs].
+- [Embark's open issues][embark-open-issues] ([embark.rs]).
+- [wgpu's "help wanted" issues][wgpu-issues].
+- [luminance's "low hanging fruit" issues][luminance-fruits].
+- [ggez's "good first issue" issues][ggez-issues].
+- [Veloren's "beginner" issues][veloren-beginner].
+- [A/B Street's "good first issue" issues][abstreet-issues].
+- [Mun's "good first issue" issues][mun-issues].
+- [SIMple Mechanic's good first issues][simm-issues].
+- [Bevy's "good first issue" issues][bevy-issues].
 
-<!-- An optional section for new jobs related to Rust gamedev -->
+[awgy]: https://github.com/rust-gamedev/arewegameyet#contribute
+[graphite-contribute]: https://graphite.rs/contribute
+[winit-issues]: https://github.com/rust-windowing/winit/issues?q=is%3Aopen+is%3Aissue+label%3A%22difficulty%3A+easy%22
+[backroll-rs]: https://github.com/HouraiTeahouse/backroll-rs/issues
+[embark.rs]: https://embark.rs
+[embark-open-issues]: https://github.com/search?q=user:EmbarkStudios+state:open
+[wgpu-issues]: https://github.com/gfx-rs/wgpu/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
+[luminance-fruits]: https://github.com/phaazon/luminance-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22low+hanging+fruit%22
+[ggez-issues]: https://github.com/ggez/ggez/labels/%2AGOOD%20FIRST%20ISSUE%2A
+[veloren-beginner]: https://gitlab.com/veloren/veloren/issues?label_name=beginner
+[abstreet-issues]: https://github.com/a-b-street/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
+[simm-issues]: https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue
+[bevy-issues]: https://github.com/bevyengine/bevy/labels/E-Good-First-Issue
 
 ## Bonus
 
 <!-- Bonus section to make the newsletter more interesting
 and highlight events from the past. -->
+
+![Ruffle logo](ruffle.svg)
+
+[Ruffle] is an open-source Flash Player emulator, written in Rust. It aims to run
+natively on all modern operating systems and web browsers, leveraging Rust's
+memory safety guarentees to avoid the security pitfalls that Flash became
+notorious for in its later years.
+
+Many of today's game developers got their start developing
+in Flash, and Ruffle aims to help preserve this part of internet (and
+gaming!) history for future generations to look back on.
+
+For a look back at the history of Flash gaming, and the influence it has has
+on games today, check out [Flash Game History].
+
+[Ruffle]: https://ruffle.rs/
+[Flash Game History]: https://www.flashgamehistory.com/
 
 ------
 
