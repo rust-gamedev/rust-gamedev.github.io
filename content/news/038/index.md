@@ -203,7 +203,7 @@ goes into more depth about calling Rust code from C# in Unity.
 
 ### [eo.rs][eo-rs-website]
 
-![npcs talking](eo-rs.png)
+![npcs talking](eo-rs.PNG)
 _NPCs chatting in the game world_
 
 [eo-rs][eo-rs-website] by [@sorokya](https://github.com/sorokya)
