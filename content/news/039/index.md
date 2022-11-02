@@ -71,7 +71,6 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Engine Updates
 
-
 ### [Fyrox]
 
 ![Fyroxed](fyroxed.gif)
@@ -98,7 +97,6 @@ it hit version 0.28 which added new functionality and improved existing:
 [fyrox_discord]: https://discord.com/invite/xENF5Uh
 [fyrox_twitter]: https://twitter.com/DmitryNStepanov
 [book]: https://fyrox-book.github.io/
-
 
 ## Learning Material Updates
 
