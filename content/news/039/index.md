@@ -104,6 +104,68 @@ it hit version 0.28 which added new functionality and improved existing:
 
 ## Library Updates
 
+### [presser]
+
+[presser] ([GitHub] [docs.rs]) by [@fu5ha] ([Embark Studios])
+is a crate to help you copy things into raw buffers without
+invoking spooky action at a distance (undefined behavior).
+
+Ever done something like this?
+
+```rust
+#[derive(Clone, Copy)]
+#[repr(C)]
+struct MyDataStruct {
+    a: u8,
+    b: u32,
+}
+
+let my_data = MyDataStruct { a: 0, b: 42 };
+
+// 🚨 MyDataStruct contains 3 padding bytes after `a`, which are
+// uninit, therefore getting a slice that includes them is UB!
+let my_data_bytes: &[u8] = transmute(&my_data);
+
+// allocate an uninit buffer of some size
+let my_buffer: MyBufferType = some_api.alloc_buffer_size(2048);
+
+// 🚨 this is UB for the same reason, these bytes are uninit!*
+let buffer_as_bytes: &mut [u8] =
+    slice::from_raw_parts(my_buffer.ptr(), my_buffer.size());
+
+// 🚨 this is UB because not only are both slices invalid,
+// this is not ensuring proper alignment!
+buffer_as_bytes.copy_from_slice(my_data_bytes);
+```
+
+[presser] can help.
+
+```rust
+// borrow our raw allocation as a presser::Slab, asserting we have
+// unique access to it. see the docs for more.
+let slab = unsafe { raw_allocation.borrow_as_slab(); }
+
+// now we may safely copy `my_data` into `my_buffer`,
+// starting at a minimum offset of 0 into the buffer
+let copy_record = presser::copy_to_offset(&my_data, &mut slab, 0)?;
+```
+
+If you're not convinced this is actually an issue, read more in the
+[crate readme]. If you're intrigued and want to know more,
+see the [docs].
+
+_Discussions: [/r/rust], [Twitter]_
+
+[presser]: https://crates.io/crates/presser
+[GitHub]: https://github.com/embarkstudios/presser
+[docs.rs]: https://docs.rs/presser
+[@fu5ha]: https://github.com/fu5ha
+[Embark Studios]: https://github.com/embarkstudios
+[crate readme]: https://crates.io/crates/presser
+[docs]: https://docs.rs/presser
+[Twitter]: https://twitter.com/fu5ha/status/1581705656218062848
+[/r/rust]: https://www.reddit.com/r/rust/comments/y5mq3w/presser_a_crate_to_help_you_copy_things_into_raw/
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
