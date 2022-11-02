@@ -71,6 +71,35 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Engine Updates
 
+
+### [Fyrox]
+
+![Fyroxed](fyroxed.gif)
+
+[Fyrox] ([Discord][fyrox_discord], [Twitter][fyrox_twitter]) is a game engine that
+aims to be easy to use and provide a large set of out-of-the-box features. In October
+it hit version 0.28 which added new functionality and improved existing:
+
+- Asset preview during instantiation (see the gif above).
+- Improved and deterministic script processing.
+- Scripts are now compatible with saved games.
+- Major text box widget improvements.
+- Prefab property inheritance via reflection.
+- Automatic node handle mapping via reflection.
+- Sprite sheet animation support.
+- Multi-borrow context to solve borrowing issues.
+- Editor now stores list of recently used files, scene settings, and more.
+- World Viewer now allows you to change a node type.
+- Major [book] improvements.
+- See the full list of changes in the [blog post][0.28].
+
+[Fyrox]: https://github.com/FyroxEngine/Fyrox
+[0.28]: https://fyrox.rs/blog/post/feature-highlights-0-28/
+[fyrox_discord]: https://discord.com/invite/xENF5Uh
+[fyrox_twitter]: https://twitter.com/DmitryNStepanov
+[book]: https://fyrox-book.github.io/
+
+
 ## Learning Material Updates
 
 ## Tooling Updates
