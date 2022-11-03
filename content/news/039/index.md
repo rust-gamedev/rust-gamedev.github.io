@@ -69,6 +69,34 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### miam
+
+![A screenshot of miam, the player is reproducing a burger order while the chef is changing the menu](miam.png)
+
+[miam] ([GitHub](https://www.github.com/yopox/LD51)) by
+[yopox](https://mstdn.social/@yopox),
+[on100balec](https://soundcloud.com/jmen_balec), and
+[hadri](https://github.com/HadrienRenaud),
+is a cooking game made for the Ludum Dare 51.
+"miam" is the French interjection for "yum".
+
+The theme of the game jam was "Every 10 seconds".
+Here instead of having 10 seconds to make a burger,
+the chef is really indecisive and comes to change
+the menu every 10 seconds.
+
+The game was built using Bevy 0.8 with
+[bevy_game_template](https://github.com/NiklasEi/bevy_game_template)
+to save precious time when starting the game jam.
+[bevy_tweening](https://github.com/djeedai/bevy_tweening) was also
+really useful to polish the game.
+
+The game was ranked 120th overall and 94th for audio out of 1240 jam entries.
+
+_Discussions: [Submission page](https://ldjam.com/events/ludum-dare/51/miam)_
+
+[miam]: https://yopox.itch.io/miam
+
 ## Engine Updates
 
 ### [Fyrox]
