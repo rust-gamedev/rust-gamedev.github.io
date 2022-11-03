@@ -132,6 +132,53 @@ it hit version 0.28 which added new functionality and improved existing:
 
 ## Tooling Updates
 
+### [Blackjack]
+
+![Blackjack: A height field terrain built from a noise function being edited in
+real time](blackjack.gif)
+
+[Blackjack] by @setzer22 is a procedural modeling application made in Rust,
+using rend3, wgpu, and egui. It follows the steps of applications like Houdini,
+or Blender's geometry nodes project and provides a node-based environment to
+compose procedural recipes to create 3d models.
+
+The past couple months have been busy for Blackjack, the work continues with a
+focus of filling in all the missing bits to enable usage in more indie gamedev
+workflows.
+
+Some of the changes include:
+
+- New nodes for geometry editing, like: _Resample curve_, _Point cloud_,
+  _Polygon_, _Line from points_ or _Edit geometry_.
+- A new type of mesh, the height map with its set of nodes.
+- A way to import OBJ meshes into procedural graphs.
+- Bug fixes in extrude and bevel nodes, making them more robust and handle more
+  kinds of meshes.
+- A new DragValue widget offering more precise control when tweaking parameters.
+- Smoother camera controls and various editor UX improvements.
+
+Blackjack has no release notes yet, but make sure to check out the recently
+merged PRs ([1][blackjack-pr-1], [2][blackjack-pr-2], [3][blackjack-pr-3]) for a
+more in-depth summary of the changes and lots of animated gifs.
+
+On the social side, a first [blog post][blackjack-blog-post] in a series was
+published on Ko-fi showing a real gamedev use case using Blackjack and the Godot
+engine together to implement a racing game. Additionally, Blackjack now has a
+[Twitter account][blackjack-twitter]. Consider following both for more frequent
+updates!
+
+Currently, development is focused on implementing the next major feature:
+Gizmos. There are [some initial results][blackjack-gizmos], and the full PR for
+it is expected to land sometime during November.
+
+[Blackjack]: https://github.com/setzer22/blackjack
+[blackjack-pr-1]: https://github.com/setzer22/blackjack/pull/45
+[blackjack-pr-2]: https://github.com/setzer22/blackjack/pull/46
+[blackjack-pr-3]: https://github.com/setzer22/blackjack/pull/52
+[blackjack-gizmos]: https://twitter.com/Blackjack3dRust/status/1587900630718615552
+[blackjack-blog-post]: https://ko-fi.com/post/New-nodes-Improved-Lua-bindings-and-lots-of-QoL-i-S6S6FK40S
+[blackjack-twitter]: https://twitter.com/Blackjack3dRust
+
 ## Library Updates
 
 ### [presser]
