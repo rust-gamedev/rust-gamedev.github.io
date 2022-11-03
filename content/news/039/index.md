@@ -72,7 +72,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ### [CyberGate][cybergate-yt]
 
 ![State Syncronization](cybergate.gif)
-_The orange object that is closer updates faster_
+_The health bar that is closer updates more frequently_
 
 CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]) by CyberSoul
 is an attempt to use artificial intelligence to build diverse universe experiences
