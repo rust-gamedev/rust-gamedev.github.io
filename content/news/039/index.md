@@ -69,6 +69,32 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [CyberGate][cybergate-yt]
+
+![State Syncronization](cybergate.gif)
+_The orange object that is closer updates faster_
+
+CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]) by CyberSoul
+is an attempt to use artificial intelligence to build diverse universe experiences
+with strange creatures and procedural gameplay styles.
+
+Recent updates:
+
+- Constructed powerful and extremely fast syncronization for states:
+- 1. Able to Extract and Merge partial changes of components and global states.
+- 2. Restrict visibility for certain players, if the state is conditionally decided to be private.
+- 3. Limit the frequency of these state updates based on object priority.
+
+- Big Improvement on the organization of the networking systems
+- Improved the timers in 70 places, resulting in Higher performance and flexibility
+- Better Health Bars
+- Several minor game content fixes
+
+[Join the Discord server][cybergate-dis] to participate in upcoming Phase 6.0!
+
+[cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
+[cybergate-dis]: https://discord.gg/R7DkHqw7zJ
+
 ### miam
 
 ![A screenshot of miam, the player is reproducing a burger order
