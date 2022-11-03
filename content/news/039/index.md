@@ -82,11 +82,11 @@ Recent updates:
 
 - Constructed powerful and extremely fast syncronization for states:
 - 1. Able to Extract and Merge partial changes of components and global states.
-- 2. Restrict visibility for certain players, if the state is conditionally decided to be private.
+- 2. Restrict visibility, if the state is conditionally decided to be private.
 - 3. Limit the frequency of these state updates based on object priority.
 
 - Big Improvement on the organization of the networking systems
-- Improved the timers in 70 places, resulting in Higher performance and flexibility
+- Improved timers in 70 places, resulting in Higher performance and flexibility
 - Better Health Bars
 - Several minor game content fixes
 
