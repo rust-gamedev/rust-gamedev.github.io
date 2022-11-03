@@ -113,7 +113,7 @@ Massive progress has been made,
 establishing foundational features such as input mapping, UI, and localization,
 along with the addition of a few major features:
 
-- Network play, complete with a matchmakign server for joining public games online.
+- Network play, complete with a matchmaking server for joining public games online.
 - A scripting engine using TypeScript/JavaScript powered by [`bevy_mod_js_scripting`].
 - A revamped map editor that renders the actual game in the viewport.
   This lets you switch back and forth between editing and playing,
