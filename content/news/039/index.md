@@ -108,7 +108,8 @@ _Online Game Fish Selection Screen_
 [Spicy Lobster][spicy_lobster] is a pixel-style, tactical 2D shooter with a fishy
 theme.
 
-In the last month, they started rewriting Jumpy to use the [Bevy] game engine.
+In the last month,
+they started [rewriting][jumpy_rewrite] Jumpy to use the [Bevy] game engine.
 Massive progress has been made,
 establishing foundational features such as input mapping, UI, and localization,
 along with the addition of a few major features:
@@ -127,6 +128,7 @@ and finishing off the map editor's editing functionality.
 _Discussions: [GitHub][jumpy_discussions], [Twitter][jumpy_twitter]_
 
 [Jumpy]: https://github.com/fishfolks/jumpy
+[jumpy_rewrite]: https://github.com/fishfolks/jumpy/pull/466
 [Bevy]: https://bevyengine.org
 [jumpy_discussions]: https://github.com/fishfolks/jumpy/discussions
 [jumpy_twitter]: https://twitter.com/spicylobsterfam
