@@ -106,7 +106,8 @@ it hit version 0.28 which added new functionality and improved existing:
 
 ### [presser]
 
-[presser] ([GitHub] [docs.rs]) by [@fu5ha] ([Embark Studios])
+[presser] ([GitHub][presser-github], [docs.rs][presser-docs])
+by [@fu5ha] ([Embark Studios][embark])
 is a crate to help you copy things into raw buffers without
 invoking spooky action at a distance (undefined behavior).
 
@@ -151,20 +152,18 @@ let copy_record = presser::copy_to_offset(&my_data, &mut slab, 0)?;
 ```
 
 If you're not convinced this is actually an issue, read more in the
-[crate readme]. If you're intrigued and want to know more,
-see the [docs].
+[crate readme][presser-readme]. If you're intrigued and want to know more,
+see the [docs][presser-docs].
 
-_Discussions: [/r/rust], [Twitter]_
+_Discussions: [/r/rust](https://reddit.com/r/rust/comments/y5mq3w/presser),
+[Twitter](https://twitter.com/fu5ha/status/1581705656218062848)_
 
 [presser]: https://crates.io/crates/presser
-[GitHub]: https://github.com/embarkstudios/presser
-[docs.rs]: https://docs.rs/presser
+[presser-github]: https://github.com/embarkstudios/presser
+[presser-docs]: https://docs.rs/presser
 [@fu5ha]: https://github.com/fu5ha
-[Embark Studios]: https://github.com/embarkstudios
-[crate readme]: https://crates.io/crates/presser
-[docs]: https://docs.rs/presser
-[Twitter]: https://twitter.com/fu5ha/status/1581705656218062848
-[/r/rust]: https://www.reddit.com/r/rust/comments/y5mq3w/presser_a_crate_to_help_you_copy_things_into_raw/
+[embark]: https://github.com/embarkstudios
+[presser-readme]: https://crates.io/crates/presser
 
 ## Popular Workgroup Issues in Github
 
