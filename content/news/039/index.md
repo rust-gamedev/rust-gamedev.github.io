@@ -99,6 +99,39 @@ _Discussions: [Submission page](https://ldjam.com/events/ludum-dare/51/miam)_
 [bevy_game_template]: https://github.com/NiklasEi/bevy_game_template
 [bevy_tweening]: https://github.com/djeedai/bevy_tweening
 
+### Digital Extinction
+
+![selection circles & health bars in Digital
+Extinction](digital-extinction.jpeg) _selection circles & health bars in Digital
+Extinction_
+
+[Digital Extinction] ([GitHub](de-github), [Discord](de-discord),
+[Reddit](de-reddit)) by [@Indy2222] is a 3D real-time strategy game made with
+[Bevy].
+
+The game repository was opened a month ago under the GPLv3 license. Here is the
+summary of the changes since the opening of the repository. It consists of
+commit range `f23d51e..ffd5987` (2022-10-09–2022-11-03). There were 50
+non-merge commits in total, with the most notable improvements below:
+
+- Object & map bounds repulsion was added.
+- Terrain got a texture.
+- Select all (CTRL+A) and select all visible (CTRL+Shift+A) functionality was
+  introduced.
+- Circle markers below selected objects are now displayed.
+- Drag selection was implemented.
+- Simple health bars were introduced.
+
+A more detailed update summary is available [here](de-newsletter).
+
+[Digital Extinction]: https://de-game.org
+[de-github]: https://github.com/DigitalExtinction/Game
+[de-discord]: https://discord.gg/vHMFuCWGSX
+[de-reddit]: https://www.reddit.com/r/DigitalExtinction/
+[@Indy2222]: https://github.com/Indy2222/
+[Bevy]: https://bevyengine.org/
+[de-newsletter]: https://mgn.cz/blog/de01/
+
 ## Engine Updates
 
 ### [Fyrox]
