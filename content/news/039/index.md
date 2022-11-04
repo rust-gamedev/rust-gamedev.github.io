@@ -130,6 +130,13 @@ it hit version 0.28 which added new functionality and improved existing:
 
 ## Learning Material Updates
 
+### [Learn Wgpu] Updated
+
+The Learn Wgpu tutorial has been updated to 0.14! It's a pretty simple
+update, so check it out [here](https://sotrh.github.io/learn-wgpu/news/0.14/)
+
+[Learn Wgpu]: https://sotrh.github.io/learn-wgpu
+
 ## Tooling Updates
 
 ## Library Updates
