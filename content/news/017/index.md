@@ -29,8 +29,8 @@ Feel free to send PRs about your own projects!
 
 Table of contents:
 
+- [Rust GameDev Podcast #4](#rust-gamedev-podcast-4)
 - [Rust Gamedev Meetup](#rust-gamedev-meetup)
-- [Rust GameDev Podcast](#rust-gamedev-podcast)
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Library & Tooling Updates](#library-tooling-updates)
@@ -1006,16 +1006,16 @@ or follow [Dmitry Stepanov on Twitter][rg3d_twitter].
 
 ![Current state of starframe graphics and physics](starframe.gif)
 
-[starframe] by [@moletrooper] is a work-in-progress game engine
+[starframe] by [@molentum] is a work-in-progress game engine
 for physics-y sidescrolling 2D games. This month, a new, more versatile
 constraint solver was used to add friction and basic joints. Collision
 detection accuracy and overall stability were also improved.
 
 _Discussions:
-[twitter](https://twitter.com/moletrooper/status/1338066680724008960)_
+[twitter](https://twitter.com/molentum_/status/1338066680724008960)_
 
-[starframe]: https://github.com/moletrooper/starframe
-[@moletrooper]: https://twitter.com/moletrooper
+[starframe]: https://github.com/m0lentum/starframe
+[@molentum]: https://twitter.com/molentum_
 
 ### [Dotrix]
 

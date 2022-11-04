@@ -10,10 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     env:
       BASE_URL: https://github.com/getzola/zola/releases/download
-      VERS: v0.12.2
+      VERS: v0.15.2
       ARCH: x86_64-unknown-linux-gnu
-      # https://github.com/marketplace/actions/github-pages#warning-limitation
-      GITHUB_PAT: ${{ secrets.GITHUB_PAT }}
+      # https://github.com/crazy-max/ghaction-github-pages/issues/1#issuecomment-623202206
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
     - uses: actions/checkout@v2
     - name: Lint
@@ -31,4 +31,3 @@ jobs:
       with:
         build_dir: public
         target_branch: master
-        keep_history: true

@@ -1,6 +1,7 @@
 +++
 title = "This Month in Rust GameDev #{TODO} - {TODO} {TODO}"
 transparent = true
+date = TODO
 draft = true
 +++
 
@@ -28,16 +29,16 @@ Feel free to send PRs about your own projects!
 [pr]: https://github.com/rust-gamedev/rust-gamedev.github.io
 [coordination]: https://github.com/rust-gamedev/rust-gamedev.github.io/issues?q=label%3Acoordination
 
-[Rust]: https://rust-lang.org
-[join]: https://github.com/rust-gamedev/wg#join-the-fun
-
+- [Announcements](#announcements)
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
+- [Other News](#other-news)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Meeting Minutes](#meeting-minutes)
+- [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
 - [Jobs](#jobs)
 - [Bonus](#bonus)
@@ -64,6 +65,8 @@ _Discussions:
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
+## Announcements
+
 ## Game Updates
 
 ## Engine Updates
@@ -78,6 +81,10 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 <!-- Up to 10 links to interesting issues -->
 
+## Other News
+
+<!-- One-liners for plan items that haven't got their own sections. -->
+
 ## Meeting Minutes
 
 <!-- Up to 10 most important notes + a link to the full details -->
@@ -86,6 +93,11 @@ If needed, a section can be split into subsections with a "------" delimiter.
 or [join the next meeting][join].
 
 [label_meeting]: https://github.com/rust-gamedev/wg/issues?q=label%3Ameeting
+
+## Discussions
+
+<!-- Links to handpicked reddit/twitter/urlo/etc threads that provide
+useful information -->
 
 ## Requests for Contribution
 
@@ -120,4 +132,3 @@ TODO: Add real links and un-comment once this post is published
 
 [/r/rust_gamedev]: https://reddit.com/r/rust_gamedev
 [@rust_gamedev]: https://twitter.com/rust_gamedev
-[pr]: https://github.com/rust-gamedev/rust-gamedev.github.io

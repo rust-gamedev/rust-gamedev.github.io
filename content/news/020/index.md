@@ -31,8 +31,6 @@ Feel free to send PRs about your own projects!
 - [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
 - [Library & Tooling Updates](#library-tooling-updates)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
-- [Meeting Minutes](#meeting-minutes)
 - [Requests for Contribution](#requests-for-contribution)
 
 <!--
@@ -559,7 +557,7 @@ Notable changes:
 
 [Harvest Hero][hh_disc] ([Discord][hh_disc], [Twitter][bmb_twitter])
 by [@bombfuse][bmb_twitter] is an arcade/roguelite where you whack Groobles.
-Built on top of [Emerald](#Emerald).
+Built on top of [Emerald](#emerald).
 
 Harvest Hero has undergone a large change, migrating
 from semi-randomly generated levels to handcrafted levels
@@ -666,7 +664,7 @@ demonstrating some useful patterns for structuring a Tetra project.
 
 ![Current state of starframe graphics and physics](starframe.gif)
 
-[Starframe] by [@moletrooper] is a work-in-progress game engine for physics-y
+[Starframe] by [@molentum] is a work-in-progress game engine for physics-y
 sidescrolling 2D games.
 
 This month, [its physics engine was revamped once more][sf-update-tweet]
@@ -676,10 +674,10 @@ Also, [a blog post][sf-blog-post] was published, covering the
 development of the physics engine so far in a great deal of mathematical
 detail.
 
-[starframe]: https://github.com/moletrooper/starframe
-[@moletrooper]: https://twitter.com/moletrooper
-[sf-blog-post]: https://moletrooper.github.io/blog/2021/03/starframe-devlog-constraints
-[sf-update-tweet]: https://twitter.com/moletrooper/status/1360723470414450688
+[starframe]: https://github.com/m0lentum/starframe
+[@molentum]: https://twitter.com/molentum_
+[sf-blog-post]: https://molentum.me/blog/starframe-constraints/
+[sf-update-tweet]: https://twitter.com/molentum_/status/1360723470414450688
 
 ### Emerald
 
