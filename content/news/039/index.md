@@ -130,6 +130,22 @@ it hit version 0.28 which added new functionality and improved existing:
 
 ## Learning Material Updates
 
+### [wgpu-openxr-example][wgpu-openxr-example]
+
+![A screenshot of the desktop mode of the example](wgpu-openxr-example.png)
+
+[`wgpu-openxr-example`][wgpu-openxr-example] is an example of how to wire up
+wgpu (Vulkan-only) to OpenXR by [@philpax](https://github.com/philpax)
+([Dims][dims]). It displays a triangle in the centre and a triangle per hand,
+and renders to both a window and your XR headset with both head and headset tracking.
+
+It has multiple modes of operation, including disabling XR integration
+entirely at compile-time with a Cargo feature, to make it easy to understand
+each step in the process of integrating OpenXR.
+
+[wgpu-openxr-example]: https://github.com/philpax/wgpu-openxr-example
+[dims]: https://www.dims.co/
+
 ## Tooling Updates
 
 ## Library Updates
