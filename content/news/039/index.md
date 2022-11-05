@@ -99,6 +99,21 @@ _Discussions: [Submission page](https://ldjam.com/events/ludum-dare/51/miam)_
 [bevy_game_template]: https://github.com/NiklasEi/bevy_game_template
 [bevy_tweening]: https://github.com/djeedai/bevy_tweening
 
+### vetovoima
+
+![vetovoima](vetovoima.png)
+
+[vetovoima][vetovoima_itch] by [@MatiasKlemola][vetovoima_twitter] is an arcade game
+where you control gravity.
+
+This month, the origin story of "vetovoima" was released 
+[on the Valuemotive blog][vetovoima_blog]. In the story an abstract idea 
+turns into an arcade game, which eventually makes it to the Rustconf 2022!
+
+[vetovoima_itch]: https://yourmagicisworking.itch.io/vetovoima
+[vetovoima_twitter]: https://twitter.com/MatiasKlemola
+[vetovoima_blog]: https://www.valuemotive.com/post/hobby-project-spotlight-vetovoima
+
 ## Engine Updates
 
 ### [Fyrox]
