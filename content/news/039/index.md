@@ -223,6 +223,34 @@ it hit version 0.28 which added new functionality and improved existing:
 [fyrox_twitter]: https://twitter.com/DmitryNStepanov
 [book]: https://fyrox-book.github.io/
 
+### [miniquad]
+
+![ios-miniquad](ios_zemeroth.png)
+*[zemeroth](github.com/ozkriff/zemeroth/) on the iOS simulator*
+
+[miniquad] is a pure Rust, cross-platform graphics library.
+
+This month was about improving miniquad on mobile experience.
+
+On iOS, miniquad got [an article](https://macroquad.rs/articles/ios/)
+on setting up the developer environment, getting provisioning files,
+etc.
+
+TL;DR: even on old Macs/Xcode, mini/macroquad-based games can
+be built with  
+
+```rust
+cargo build --target aarch64-apple-ios && ios_deploy
+```
+
+No iOS-specific code required and no need to deal with Xcode projects.
+
+For Android, miniquad got
+[a writeup](https://www.patreon.com/posts/73600033)
+on Java interop, AAB bundles and other Android specific internals.
+
+[miniquad]: https://github.com/not-fl3/miniquad/
+
 ## Learning Material Updates
 
 ### WGPU Wiki
