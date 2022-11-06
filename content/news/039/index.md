@@ -136,6 +136,31 @@ _Discussions: [GitHub][jumpy_discussions], [Twitter][jumpy_twitter]_
 [spicy_lobster]:  https://spicylobster.itch.io/
 [`bevy_mod_js_scripting`]: https://github.com/jakobhellermann/bevy_mod_js_scripting
 
+### [CyberGate][cybergate-yt]
+
+![State Syncronization](cybergate.gif)
+_The health bar that is closer updates more frequently_
+
+CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]) by CyberSoul
+is an attempt to use artificial intelligence to build diverse universe experiences
+with strange creatures and procedural gameplay styles.
+
+Recent updates:
+
+- Constructed powerful and extremely fast synchronization for states:
+  - Able to Extract and Merge partial changes of components and global states.
+  - Restrict visibility, if the state is conditionally decided to be private.
+  - Limit the frequency of these state updates based on object priority.
+- Big improvement of the organization of the networking systems
+- Improved timers in 70 places, resulting in higher performance and flexibility
+- Better health bars
+- Several minor game content fixes
+
+[Join the Discord server][cybergate-dis] to participate in upcoming Phase 6.0!
+
+[cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
+[cybergate-dis]: https://discord.gg/R7DkHqw7zJ
+
 ## Engine Updates
 
 ### [Fyrox]
