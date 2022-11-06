@@ -105,8 +105,8 @@ _Discussions: [Submission page](https://ldjam.com/events/ludum-dare/51/miam)_
 Extinction](digital-extinction.jpeg) _selection circles & health bars in Digital
 Extinction_
 
-[Digital Extinction] ([GitHub](de-github), [Discord](de-discord),
-[Reddit](de-reddit)) by [@Indy2222] is a 3D real-time strategy game made with
+[Digital Extinction] ([GitHub][de-github], [Discord][de-discord],
+[Reddit][de-reddit]) by [@Indy2222] is a 3D real-time strategy game made with
 [Bevy].
 
 The game repository was opened a month ago under the GPLv3 license. Here is the
@@ -122,7 +122,7 @@ non-merge commits in total, with the most notable improvements below:
 - Drag selection was implemented.
 - Simple health bars were introduced.
 
-A more detailed update summary is available [here](de-newsletter).
+A more detailed update summary is available [here][de-newsletter].
 
 [Digital Extinction]: https://de-game.org
 [de-github]: https://github.com/DigitalExtinction/Game
