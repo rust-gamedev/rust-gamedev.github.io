@@ -224,6 +224,21 @@ _Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/y
 [ThousandthStar]: https://github.com/ThousandthStar
 [Turn-based strategy game (ThousandthStar's devlog)]: https://dev.to/thousandthstar-start-of-the-game-development-blog-series-p42
 
+### vetovoima
+
+![vetovoima](vetovoima.png)
+
+[vetovoima][vetovoima_itch] by [@MatiasKlemola][vetovoima_twitter] is an arcade game
+where you control gravity.
+
+This month, the origin story of vetovoima was released
+[on the Valuemotive blog][vetovoima_blog]. In the story, an abstract idea
+turns into an arcade game, which eventually makes it to RustConf 2022!
+
+[vetovoima_itch]: https://yourmagicisworking.itch.io/vetovoima
+[vetovoima_twitter]: https://twitter.com/MatiasKlemola
+[vetovoima_blog]: https://www.valuemotive.com/post/hobby-project-spotlight-vetovoima
+
 ## Engine Updates
 
 ### [Fyrox]
