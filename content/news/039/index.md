@@ -452,7 +452,7 @@ add and remove bundles upon state change.
 
 _Discussions:
 [0.2](https://twitter.com/Seldom_SE/status/1581696118064177152),
-[0.2.1](https://twitter.com/Seldom_SE/status/1586647959201906688)
+[0.2.1](https://twitter.com/Seldom_SE/status/1586647959201906688)_
 
 [`seldom_state`]: https://github.com/Seldom-SE/seldom_state
 [Seldom]: https://twitter.com/Seldom_SE
