@@ -136,54 +136,50 @@ it hit version 0.28 which added new functionality and improved existing:
 
 ### [glutin]
 
-
 [glutin] ([GitHub][glutin-github], [docs.rs][glutin-docs])
 by [@kchibisov] ([rust-windowing]) is a crate that is well known for
 being an OpenGL platform initialization on top of winit.
 
-Well, with glutin `0.30` this is no longer the case. The crate was
+With glutin `0.30`, this is no longer the case. The crate was
 rewritten from scratch and redesigned around [raw-window-handle], so
 you don't need [winit] anymore in this equation and it could be used with
 whatever windowing library you prefer, like [smithay-client-toolkit] for
 pure Wayland clients.
 
-Given everything is based on raw-window-handle the crate is more low-level now
-and also exposes the underlying platform API like `EGL`, `GLX`, and `WGL`
+Given everything is based on raw-window-handle the crate is more low-level
+now and also exposes the underlying platform API like `EGL`, `GLX`, and `WGL`
 directly. There's already an interest of using glutin to handle `EGL` in
 projects like [Smithay].
 
 Previously with glutin `0.29` everything was based around the single
-[`WindowedContext`], while this was convinient for some users and worked on
-desktop platforms, that fact was a major pain on Android where window is
-getting destroyed over time, but its context could be kept around, or when you
+[`WindowedContext`] - while this was convinient for some users and worked on
+desktop platforms, that fact was a major pain on Android where the window
+gets destroyed over time, but its context could be kept around, or when you
 fail to query configuration with supplied parameters leading to chain creating
-`WindowedContext` and causing delays on startup. For example you can create all
-the thing and then fail on setting vsync dropping `Surface`, `Context`, and `Window`.
-you've done and starting over, just to probably disable vsync.
+`WindowedContext` and causing delays on startup. For example, you can create all
+the objects and then fail on setting vsync, forcing you to start over.
 
 None of that is an issue with glutin `0.30.0`. The API is now structured around
 `Display`, `Context`, `Surface`, and `Config`, where every object is built from
 the `Display` and has its own role which is close to what you usually can find
 in OpenGL native rendering platforms specifications, like `EGL`.
 
-Unfortunatelly, the new API isn't that easy to bootstrap like it was with old
+Unfortunatelly, the new API isn't as easy to bootstrap as it was with old
 glutin, especially when you want to use platforms like `WGL` and `GLX`.
-However if you're using winit there will be(or is already) a special crate
-[glutin-winit] to handle platform specific `Display` creation for you.
+However, if you're using winit there will be (or is already) a special crate
+[glutin-winit] to handle platform-specific `Display` creation for you.
 
-To see the new API in action we suggest to look into [glutin examples]. They
+To see the new API in action, look at the [glutin examples]. They
 should work on desktop platforms and Android (you may even notice that there's
-no special code for android at all!).
+no special code for Android at all!).
 
 One note to add, is that iOS is **no longer** supported, but only due to
-lack of maintainer for it. If you rely on iOS support in glutin we'd encourage
-you to help contributing it upstream or you'd stuck with glutin `0.29` which
-won't receive any updates anymore.
+lack of maintainers for it. If you rely on iOS support in glutin, the devs 
+encourage you to help contributing to it upstream, or you'd stuck with glutin
+`0.29` which won't receive any updates anymore.
 
-_Discussions: There are no general discussions, but you could ask
-questions about updating glutin in your project in 
-[winit matrix room](https://matrix.to/#/#winit:matrix.org)
-or [#winit](https://web.libera.chat/#winit) at libera.chat_
+For further info, check out the [winit matrix room](https://matrix.to/#/#winit:matrix.org)
+or [#winit](https://web.libera.chat/#winit) at libera.chat.
 
 [glutin]: https://crates.io/crates/glutin
 [glutin examples]: https://github.com/rust-windowing/glutin/tree/master/glutin_examples
