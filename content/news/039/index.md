@@ -109,7 +109,7 @@ _Online Game Fish Selection Screen_
 theme.
 
 In the last month,
-they started [rewriting][jumpy_rewrite] Jumpy to use the [Bevy] game engine.
+the devs started [rewriting][jumpy_rewrite] Jumpy to use the [Bevy] game engine.
 Massive progress has been made,
 establishing foundational features such as input mapping, UI, and localization,
 along with the addition of a few major features:
