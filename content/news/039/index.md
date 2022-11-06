@@ -489,6 +489,29 @@ _Discussions:
 [Seldom]: https://twitter.com/Seldom_SE
 [seldom-github]: https://github.com/Seldom-SE
 
+### MarpII
+
+MarpII ([GitLab](https://gitlab.com/tendsinmende/marpii),
+[Twitter](https://twitter.com/siebencorgie),
+[Mastodon](https://mastodon.social/@siebencorgie)) by
+[Siebencorgie](https://github.com/siebencorgie)
+is a *highlevel-ish* helper for Vulkan using
+[Ash](https://crates.io/crates/ash).
+
+MarpII is the successor to [Marp](https://gitlab.com/tendsinmende/marp), which
+was a Rust-y abstraction layer over low-level Vulkan bindings.
+
+The new crate does not focus on wrapping Vulkan into one safe wrapper, but
+instead provides multiple levels of helpers that should make using it easier.
+This includes handling resource lifetimes and providing simplifications for
+common operations.
+
+The main crate provides utilities for robust Vulkan context (instances, devices,
+etc.) and resource (images, buffers, descriptors etc.) creation. Lately,
+higher level helpers like a
+[resource managing frame graph](https://siebencorgie.rs/posts/marpii-rmg/) and
+helpers for descriptor creation and command buffer recording joined the project.
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
