@@ -438,6 +438,26 @@ release as part of the upgrade to the imminent Bevy 0.9 release.
 [bevy]: https://bevyengine.org/
 [hanabi-6m]: https://twitter.com/djeedai/status/1586812459737923586
 
+### [`seldom_state`]
+
+`seldom_state` by [Seldom] ([Github][seldom-github]) is a component-based
+state machine plugin for Bevy. It's useful for AI, player state, animation,
+and other entities that occupy varying states.
+
+In October, `seldom_state` recieved its 0.2 and 0.2.1 updates. 0.2 gave `Done`
+and `DoneTrigger` success and failure variants, and changed states to be
+bundles instead of components. 0.2.1 added `insert_on_enter`
+and `remove_on_exit` methods to the state machine, which let you automatically
+add and remove bundles upon state change.
+
+_Discussions:
+[0.2](https://twitter.com/Seldom_SE/status/1581696118064177152),
+[0.2.1](https://twitter.com/Seldom_SE/status/1586647959201906688)_
+
+[`seldom_state`]: https://github.com/Seldom-SE/seldom_state
+[Seldom]: https://twitter.com/Seldom_SE
+[seldom-github]: https://github.com/Seldom-SE
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
