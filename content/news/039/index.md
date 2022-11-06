@@ -174,7 +174,7 @@ should work on desktop platforms and Android (you may even notice that there's
 no special code for Android at all!).
 
 One note to add, is that iOS is **no longer** supported, but only due to
-lack of maintainers for it. If you rely on iOS support in glutin, the devs 
+lack of maintainers for it. If you rely on iOS support in glutin, the devs
 encourage you to help contributing to it upstream, or you'd stuck with glutin
 `0.29` which won't receive any updates anymore.
 
