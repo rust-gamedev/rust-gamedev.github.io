@@ -194,6 +194,36 @@ A more detailed update summary is available [here][de-newsletter].
 [Bevy]: https://bevyengine.org/
 [de-newsletter]: https://mgn.cz/blog/de01/
 
+### [Turn-based strategy game (ThousandthStar's devlog)]
+
+![Skeleton](skeleton.png)
+
+[ThousandthStar] ([Github](https://github.com/ThousandthStar/multiplayer_game))
+is creating a simple turn-based strategy game using the Bevy game engine. It's a
+small side project he's been building in his spare time.
+
+The game aims to be a cross between Chess and the game [Clash Mini](https://clash.com).
+Players move their troops around the board and try to get them to their opponent's
+side. The game is far from playable, but here is some of the progress that has
+been done:
+
+- Server and client troop information exchange through packets.
+- Threads to allow for multiple games to run at the same time.
+- Tile selection appears when troops are clicked.
+
+More features are currently under development:
+
+- Troop movement.
+- Troop attacks.
+
+The game uses an extremely simple 8x pixel art style. The palette is
+[Paper Pixels](https://lospec.com/palette-list/paper-pixels) with some extra colors.
+
+_Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/ylksma/discussion_thread_for_thousandthstars_multiplayer)_
+
+[ThousandthStar]: https://github.com/ThousandthStar
+[Turn-based strategy game (ThousandthStar's devlog)]: https://dev.to/thousandthstar-start-of-the-game-development-blog-series-p42
+
 ## Engine Updates
 
 ### [Fyrox]
