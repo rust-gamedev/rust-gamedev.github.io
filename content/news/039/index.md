@@ -264,6 +264,15 @@ It includes info diagrams on how `RenderPipeline` connects
 to other resources as well as an overview on the data structures
 involved in rendering a frame.
 
+### [Learn Wgpu] Updated
+
+The Learn Wgpu tutorial has been updated to 0.14!
+
+The API changes from 0.13 are pretty simple - check them out
+[here](https://sotrh.github.io/learn-wgpu/news/0.14/)
+
+[Learn Wgpu]: https://sotrh.github.io/learn-wgpu
+
 ## Tooling Updates
 
 ### [Blackjack]
