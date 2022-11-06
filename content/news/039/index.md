@@ -315,6 +315,29 @@ _Discussions: [/r/rust](https://reddit.com/r/rust/comments/y5mq3w/presser),
 [embark]: https://github.com/embarkstudios
 [presser-readme]: https://crates.io/crates/presser
 
+### [Hanabi]
+
+The [Hanabi] library ([GitHub][hanabi-github], [docs.rs][hanabi-docs]) is a
+modern VFX library for the [Bevy Game Engine][bevy]. It focuses on scale to produce
+stunning visual effects (VFX) in real time, offloading most of the work to
+the GPU (compute shaders), with minimal CPU intervention. The design is inspired
+by modern particle systems found in other industry-leading game engines.
+
+This month, [Hanabi] v0.4.0 was released, adding a 3D cone emitter and some
+more testing, followed by v0.4.1 providing several bug fixes and support for custom
+MSAA settings. Both versions target the latest Bevy 0.8 release.
+
+The internal architecture was also updated to decouple particle spawning and update,
+allowing to update over [6 millions particles][hanabi-6m] in real time with close
+to zero CPU usage. This new architecture will be available in the upcoming v0.5.0
+release as part of the upgrade to the imminent Bevy 0.9 release.
+
+[Hanabi]: https://crates.io/crates/bevy_hanabi
+[hanabi-github]: https://github.com/djeedai/bevy_hanabi
+[hanabi-docs]: https://github.com/djeedai/bevy_hanabi
+[bevy]: https://bevyengine.org/
+[hanabi-6m]: https://twitter.com/djeedai/status/1586812459737923586
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
