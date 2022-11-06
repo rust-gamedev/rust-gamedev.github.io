@@ -133,11 +133,13 @@ it hit version 0.28 which added new functionality and improved existing:
 ### WGPU Wiki
 
 [@wumpf](https://twitter.com/wumpf/) updated the 
-[wgpu wiki](https://github.com/gfx-rs/wgpu/wiki/Learning-wgpu) to include an explanation of some
-of the fundamental wgpu/WebGPU concepts.
+[wgpu wiki](https://github.com/gfx-rs/wgpu/wiki/Learning-wgpu)
+to include an explanation of some of the fundamental
+wgpu/WebGPU concepts.
 
-It includes info diagrams on how `RenderPipeline` connects to other resources as well
-as an overview on the data structures involved in rendering a frame.
+It includes info diagrams on how `RenderPipeline` connects
+to other resources as well as an overview on the data structures
+involved in rendering a frame.
 
 ## Tooling Updates
 
