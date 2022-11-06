@@ -136,12 +136,23 @@ it hit version 0.28 which added new functionality and improved existing:
 
 ### MarpII
 
-MarpII ([GitLab](https://gitlab.com/tendsinmende/marpii), [Twitter](https://twitter.com/siebencorgie), [Mastodon](https://mastodon.social/@siebencorgie)) by [Siebencorgie](https://github.com/siebencorgie)
-is a *highlevel-ish* helper for Vulkan using [Ash](https://crates.io/crates/ash).
+MarpII ([GitLab](https://gitlab.com/tendsinmende/marpii), 
+[Twitter](https://twitter.com/siebencorgie), 
+[Mastodon](https://mastodon.social/@siebencorgie)) by 
+[Siebencorgie](https://github.com/siebencorgie)
+is a *highlevel-ish* helper for Vulkan using 
+[Ash](https://crates.io/crates/ash).
 
-MarpII is the successor to [Marp](https://gitlab.com/tendsinmende/marp). It does not focus on wrapping Vulkan into one safe wrapper, but instead provides multiple levels of helpers that should make using it easier. This includes handling resource lifetimes and providing simplifications for common operations.
+MarpII is the successor to [Marp](https://gitlab.com/tendsinmende/marp). It 
+does not focus on wrapping Vulkan into one safe wrapper, but instead provides
+multiple levels of helpers that should make using it easier. This includes 
+handling resource lifetimes and providing simplifications for common operations.
 
-The main crate provides utilities for robust Vulkan context (instances, devices, etc.) and resource (images, buffers, descriptors etc.) creation. Lately higher level helpers like a [resource managing frame graph](https://siebencorgie.rs/posts/marpii-rmg/) and helpers for descriptor creation and command buffer recording joint the project. 
+The main crate provides utilities for robust Vulkan context (instances, devices
+, etc.) and resource (images, buffers, descriptors etc.) creation. Lately 
+higher level helpers like a 
+[resource managing frame graph](https://siebencorgie.rs/posts/marpii-rmg/) and 
+helpers for descriptor creation and command buffer recording joint the project. 
 
 
 ### [presser]
