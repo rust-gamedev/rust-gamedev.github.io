@@ -99,6 +99,68 @@ _Discussions: [Submission page](https://ldjam.com/events/ludum-dare/51/miam)_
 [bevy_game_template]: https://github.com/NiklasEi/bevy_game_template
 [bevy_tweening]: https://github.com/djeedai/bevy_tweening
 
+### [Jumpy]
+
+![Online Game Fish Selection Screen](jumpy.png)
+_Online Game Fish Selection Screen_
+
+[Jumpy] ([GitHub][Jumpy], [Discord][jumpy_discord], [Twitter][jumpy_twitter]) by
+[Spicy Lobster][spicy_lobster] is a pixel-style, tactical 2D shooter with a fishy
+theme.
+
+In the last month,
+the devs started [rewriting][jumpy_rewrite] Jumpy to use the [Bevy] game engine.
+Massive progress has been made,
+establishing foundational features such as input mapping, UI, and localization,
+along with the addition of a few major features:
+
+- Network play, complete with a matchmaking server for joining public games online.
+- A scripting engine using TypeScript/JavaScript powered by [`bevy_mod_js_scripting`].
+- A revamped map editor that renders the actual game in the viewport.
+  This lets you switch back and forth between editing and playing,
+  and has the potential for multiplayer map editing in the future.
+
+The physics have been ported from the old version of the game
+with the basic gameplay and the sword item nearly finished.
+The next tasks include porting some of the old items to the new scripting system
+and finishing off the map editor's editing functionality.
+
+_Discussions: [GitHub][jumpy_discussions], [Twitter][jumpy_twitter]_
+
+[Jumpy]: https://github.com/fishfolks/jumpy
+[jumpy_rewrite]: https://github.com/fishfolks/jumpy/pull/466
+[Bevy]: https://bevyengine.org
+[jumpy_discussions]: https://github.com/fishfolks/jumpy/discussions
+[jumpy_twitter]: https://twitter.com/spicylobsterfam
+[jumpy_discord]: https://discord.gg/4smxjcheE5
+[spicy_lobster]:  https://spicylobster.itch.io/
+[`bevy_mod_js_scripting`]: https://github.com/jakobhellermann/bevy_mod_js_scripting
+
+### [CyberGate][cybergate-yt]
+
+![State Syncronization](cybergate.gif)
+_The health bar that is closer updates more frequently_
+
+CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]) by CyberSoul
+is an attempt to use artificial intelligence to build diverse universe experiences
+with strange creatures and procedural gameplay styles.
+
+Recent updates:
+
+- Constructed powerful and extremely fast synchronization for states:
+  - Able to Extract and Merge partial changes of components and global states.
+  - Restrict visibility, if the state is conditionally decided to be private.
+  - Limit the frequency of these state updates based on object priority.
+- Big improvement of the organization of the networking systems
+- Improved timers in 70 places, resulting in higher performance and flexibility
+- Better health bars
+- Several minor game content fixes
+
+[Join the Discord server][cybergate-dis] to participate in upcoming Phase 6.0!
+
+[cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
+[cybergate-dis]: https://discord.gg/R7DkHqw7zJ
+
 ### Digital Extinction
 
 ![selection circles & health bars in Digital
@@ -163,7 +225,65 @@ it hit version 0.28 which added new functionality and improved existing:
 
 ## Learning Material Updates
 
+### WGPU Wiki
+
+[@wumpf](https://twitter.com/wumpf/) updated the
+[wgpu wiki](https://github.com/gfx-rs/wgpu/wiki/Learning-wgpu)
+to include an explanation of some of the fundamental
+wgpu/WebGPU concepts.
+
+It includes info diagrams on how `RenderPipeline` connects
+to other resources as well as an overview on the data structures
+involved in rendering a frame.
+
 ## Tooling Updates
+
+### [Blackjack]
+
+![Blackjack: A height field terrain built from a noise function being edited in
+real time](blackjack.gif)
+
+[Blackjack] by @setzer22 is a procedural modeling application made in Rust,
+using rend3, wgpu, and egui. It follows the steps of applications like Houdini,
+or Blender's geometry nodes project and provides a node-based environment to
+compose procedural recipes to create 3d models.
+
+The past couple months have been busy for Blackjack, the work continues with a
+focus of filling in all the missing bits to enable usage in more indie gamedev
+workflows.
+
+Some of the changes include:
+
+- New nodes for geometry editing, like: _Resample curve_, _Point cloud_,
+  _Polygon_, _Line from points_ or _Edit geometry_.
+- A new type of mesh, the height map with its set of nodes.
+- A way to import OBJ meshes into procedural graphs.
+- Bug fixes in extrude and bevel nodes, making them more robust and handle more
+  kinds of meshes.
+- A new DragValue widget offering more precise control when tweaking parameters.
+- Smoother camera controls and various editor UX improvements.
+
+Blackjack has no release notes yet, but make sure to check out the recently
+merged PRs ([1][blackjack-pr-1], [2][blackjack-pr-2], [3][blackjack-pr-3]) for a
+more in-depth summary of the changes and lots of animated gifs.
+
+On the social side, a first [blog post][blackjack-blog-post] in a series was
+published on Ko-fi showing a real gamedev use case using Blackjack and the Godot
+engine together to implement a racing game. Additionally, Blackjack now has a
+[Twitter account][blackjack-twitter]. Consider following both for more frequent
+updates!
+
+Currently, development is focused on implementing the next major feature:
+Gizmos. There are [some initial results][blackjack-gizmos], and the full PR for
+it is expected to land sometime during November.
+
+[Blackjack]: https://github.com/setzer22/blackjack
+[blackjack-pr-1]: https://github.com/setzer22/blackjack/pull/45
+[blackjack-pr-2]: https://github.com/setzer22/blackjack/pull/46
+[blackjack-pr-3]: https://github.com/setzer22/blackjack/pull/52
+[blackjack-gizmos]: https://twitter.com/Blackjack3dRust/status/1587900630718615552
+[blackjack-blog-post]: https://ko-fi.com/post/New-nodes-Improved-Lua-bindings-and-lots-of-QoL-i-S6S6FK40S
+[blackjack-twitter]: https://twitter.com/Blackjack3dRust
 
 ## Library Updates
 
@@ -227,6 +347,29 @@ _Discussions: [/r/rust](https://reddit.com/r/rust/comments/y5mq3w/presser),
 [@fu5ha]: https://github.com/fu5ha
 [embark]: https://github.com/embarkstudios
 [presser-readme]: https://crates.io/crates/presser
+
+### [Hanabi]
+
+The [Hanabi] library ([GitHub][hanabi-github], [docs.rs][hanabi-docs]) is a
+modern VFX library for the [Bevy Game Engine][bevy]. It focuses on scale to produce
+stunning visual effects (VFX) in real time, offloading most of the work to
+the GPU (compute shaders), with minimal CPU intervention. The design is inspired
+by modern particle systems found in other industry-leading game engines.
+
+This month, [Hanabi] v0.4.0 was released, adding a 3D cone emitter and some
+more testing, followed by v0.4.1 providing several bug fixes and support for custom
+MSAA settings. Both versions target the latest Bevy 0.8 release.
+
+The internal architecture was also updated to decouple particle spawning and update,
+allowing to update over [6 millions particles][hanabi-6m] in real time with close
+to zero CPU usage. This new architecture will be available in the upcoming v0.5.0
+release as part of the upgrade to the imminent Bevy 0.9 release.
+
+[Hanabi]: https://crates.io/crates/bevy_hanabi
+[hanabi-github]: https://github.com/djeedai/bevy_hanabi
+[hanabi-docs]: https://github.com/djeedai/bevy_hanabi
+[bevy]: https://bevyengine.org/
+[hanabi-6m]: https://twitter.com/djeedai/status/1586812459737923586
 
 ## Popular Workgroup Issues in Github
 
