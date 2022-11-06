@@ -69,32 +69,6 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
-### [CyberGate][cybergate-yt]
-
-![State Syncronization](cybergate.gif)
-_The health bar that is closer updates more frequently_
-
-CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]) by CyberSoul
-is an attempt to use artificial intelligence to build diverse universe experiences
-with strange creatures and procedural gameplay styles.
-
-Recent updates:
-
-- Constructed powerful and extremely fast syncronization for states:
-- 1. Able to Extract and Merge partial changes of components and global states.
-- 2. Restrict visibility, if the state is conditionally decided to be private.
-- 3. Limit the frequency of these state updates based on object priority.
-
-- Big Improvement on the organization of the networking systems
-- Improved timers in 70 places, resulting in Higher performance and flexibility
-- Better Health Bars
-- Several minor game content fixes
-
-[Join the Discord server][cybergate-dis] to participate in upcoming Phase 6.0!
-
-[cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
-[cybergate-dis]: https://discord.gg/R7DkHqw7zJ
-
 ### miam
 
 ![A screenshot of miam, the player is reproducing a burger order
@@ -124,6 +98,31 @@ _Discussions: [Submission page](https://ldjam.com/events/ludum-dare/51/miam)_
 [hadri]: https://github.com/HadrienRenaud
 [bevy_game_template]: https://github.com/NiklasEi/bevy_game_template
 [bevy_tweening]: https://github.com/djeedai/bevy_tweening
+
+### [CyberGate][cybergate-yt]
+
+![State Syncronization](cybergate.gif)
+_The health bar that is closer updates more frequently_
+
+CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]) by CyberSoul
+is an attempt to use artificial intelligence to build diverse universe experiences
+with strange creatures and procedural gameplay styles.
+
+Recent updates:
+
+- Constructed powerful and extremely fast synchronization for states:
+  - Able to Extract and Merge partial changes of components and global states.
+  - Restrict visibility, if the state is conditionally decided to be private.
+  - Limit the frequency of these state updates based on object priority.
+- Big improvement of the organization of the networking systems
+- Improved timers in 70 places, resulting in higher performance and flexibility
+- Better health bars
+- Several minor game content fixes
+
+[Join the Discord server][cybergate-dis] to participate in upcoming Phase 6.0!
+
+[cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
+[cybergate-dis]: https://discord.gg/R7DkHqw7zJ
 
 ## Engine Updates
 
