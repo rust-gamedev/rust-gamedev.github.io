@@ -99,6 +99,43 @@ _Discussions: [Submission page](https://ldjam.com/events/ludum-dare/51/miam)_
 [bevy_game_template]: https://github.com/NiklasEi/bevy_game_template
 [bevy_tweening]: https://github.com/djeedai/bevy_tweening
 
+### [Jumpy]
+
+![Online Game Fish Selection Screen](jumpy.png)
+_Online Game Fish Selection Screen_
+
+[Jumpy] ([GitHub][Jumpy], [Discord][jumpy_discord], [Twitter][jumpy_twitter]) by
+[Spicy Lobster][spicy_lobster] is a pixel-style, tactical 2D shooter with a fishy
+theme.
+
+In the last month,
+the devs started [rewriting][jumpy_rewrite] Jumpy to use the [Bevy] game engine.
+Massive progress has been made,
+establishing foundational features such as input mapping, UI, and localization,
+along with the addition of a few major features:
+
+- Network play, complete with a matchmaking server for joining public games online.
+- A scripting engine using TypeScript/JavaScript powered by [`bevy_mod_js_scripting`].
+- A revamped map editor that renders the actual game in the viewport.
+  This lets you switch back and forth between editing and playing,
+  and has the potential for multiplayer map editing in the future.
+
+The physics have been ported from the old version of the game
+with the basic gameplay and the sword item nearly finished.
+The next tasks include porting some of the old items to the new scripting system
+and finishing off the map editor's editing functionality.
+
+_Discussions: [GitHub][jumpy_discussions], [Twitter][jumpy_twitter]_
+
+[Jumpy]: https://github.com/fishfolks/jumpy
+[jumpy_rewrite]: https://github.com/fishfolks/jumpy/pull/466
+[Bevy]: https://bevyengine.org
+[jumpy_discussions]: https://github.com/fishfolks/jumpy/discussions
+[jumpy_twitter]: https://twitter.com/spicylobsterfam
+[jumpy_discord]: https://discord.gg/4smxjcheE5
+[spicy_lobster]:  https://spicylobster.itch.io/
+[`bevy_mod_js_scripting`]: https://github.com/jakobhellermann/bevy_mod_js_scripting
+
 ## Engine Updates
 
 ### [Fyrox]
