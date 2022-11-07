@@ -383,6 +383,43 @@ it is expected to land sometime during November.
 [blackjack-blog-post]: https://ko-fi.com/post/New-nodes-Improved-Lua-bindings-and-lots-of-QoL-i-S6S6FK40S
 [blackjack-twitter]: https://twitter.com/Blackjack3dRust
 
+### [Graphite][graphite-website]
+
+![Graphite logo](graphite.png)
+
+Graphite ([website][graphite-website], [GitHub][graphite-repo],
+[Discord][graphite-discord], [Twitter][graphite-twitter]) is a free,
+in-development raster and vector 2D graphics editor that will be based around a
+Rust-powered node graph compositing engine.
+
+September and October's [sprint 19][graphite-sprint-19] focused on major new
+features and improvements to make Graphite more useful and usable.
+
+- Like magic: [Stable Diffusion][graphite-stable-diffusion], the open source AI
+  image generator, is integrated into Graphite as the Imaginate tool. It
+  provides an innovative non-destructive workflow to interactively co-create
+  art with a skilled AI.
+- Right on the nodes: Graphite's node graph engine is finally up and running,
+  now integrated with a node-powered tool that desaturates the underlying
+  artwork. A graph panel will be ready shortly. Just in time for
+  [Nodevember][graphite-nodevember]!
+- With flying colors: The color picker menu gains hex/RGB/HSV controls.
+  Gradients get unlimited color transitions. The Eyedropper tool is rewritten
+  to sample pixels from the viewport. The editor UI gets a color scheme design
+  refresh for improved clarity, plus helpful new input widgets.
+
+Open the [Graphite editor][graphite-live-demo] in your browser to give it a try
+and share your creations with #MadeWithGraphite on Twitter.
+
+[graphite-website]: https://graphite.rs
+[graphite-repo]: https://github.com/GraphiteEditor/Graphite
+[graphite-discord]: https://discord.graphite.rs
+[graphite-twitter]: https://twitter.com/GraphiteEditor
+[graphite-sprint-19]: https://github.com/GraphiteEditor/Graphite/milestone/19
+[graphite-stable-diffusion]: https://en.wikipedia.org/wiki/Stable_Diffusion
+[graphite-nodevember]: https://nodevember.io/
+[graphite-live-demo]: https://editor.graphite.rs
+
 ## Library Updates
 
 ### [presser]
