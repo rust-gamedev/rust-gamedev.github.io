@@ -1,8 +1,7 @@
 +++
 title = "This Month in Rust GameDev #39 - October 2022"
 transparent = true
-date = 2022-11-01
-draft = true
+date = 2022-11-10
 +++
 
 <!-- no toc -->
@@ -36,12 +35,8 @@ Feel free to send PRs about your own projects!
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
 - [Other News](#other-news)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
-- [Meeting Minutes](#meeting-minutes)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
-- [Jobs](#jobs)
-- [Bonus](#bonus)
 
 <!--
 Ideal section structure is:
@@ -66,6 +61,16 @@ If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
 ## Announcements
+
+### [Game Development in Rust Discord][gamedev-discord]
+
+![Discord projects forum](projects.png)
+
+The ['Game Development in Rust' Discord server][gamedev-discord] now has a
+\#projects forum, where you can share updates on what you've been
+working on.
+
+[gamedev-discord]: https://discord.gg/yNtPTb2
 
 ## Game Updates
 
@@ -191,7 +196,6 @@ A more detailed update summary is available [here][de-newsletter].
 [de-discord]: https://discord.gg/vHMFuCWGSX
 [de-reddit]: https://www.reddit.com/r/DigitalExtinction/
 [@Indy2222]: https://github.com/Indy2222/
-[Bevy]: https://bevyengine.org/
 [de-newsletter]: https://mgn.cz/blog/de01/
 
 ### [Turn-based strategy game (ThousandthStar's devlog)]
@@ -271,7 +275,7 @@ it hit version 0.28 which added new functionality and improved existing:
 ### [miniquad]
 
 ![ios-miniquad](ios_zemeroth.png)
-*[zemeroth](github.com/ozkriff/zemeroth/) on the iOS simulator*
+_[zemeroth](github.com/ozkriff/zemeroth/) on the iOS simulator_
 
 [miniquad] is a pure Rust, cross-platform graphics library.
 
@@ -563,7 +567,6 @@ release as part of the upgrade to the imminent Bevy 0.9 release.
 [Hanabi]: https://crates.io/crates/bevy_hanabi
 [hanabi-github]: https://github.com/djeedai/bevy_hanabi
 [hanabi-docs]: https://github.com/djeedai/bevy_hanabi
-[bevy]: https://bevyengine.org/
 [hanabi-6m]: https://twitter.com/djeedai/status/1586812459737923586
 
 ### [`seldom_state`]
@@ -592,7 +595,7 @@ MarpII ([GitLab](https://gitlab.com/tendsinmende/marpii),
 [Twitter](https://twitter.com/siebencorgie),
 [Mastodon](https://mastodon.social/@siebencorgie)) by
 [Siebencorgie](https://github.com/siebencorgie)
-is a *highlevel-ish* helper for Vulkan using
+is a highlevel-ish helper for Vulkan using
 [Ash](https://crates.io/crates/ash).
 
 MarpII is the successor to [Marp](https://gitlab.com/tendsinmende/marp), which
@@ -609,40 +612,126 @@ higher level helpers like a
 [resource managing frame graph](https://siebencorgie.rs/posts/marpii-rmg/) and
 helpers for descriptor creation and command buffer recording joined the project.
 
-## Popular Workgroup Issues in Github
-
-<!-- Up to 10 links to interesting issues -->
-
 ## Other News
 
 <!-- One-liners for plan items that haven't got their own sections. -->
 
-## Meeting Minutes
-
-<!-- Up to 10 most important notes + a link to the full details -->
-
-[See all meeting issues][label_meeting] including full text notes
-or [join the next meeting][join].
-
-[label_meeting]: https://github.com/rust-gamedev/wg/issues?q=label%3Ameeting
+- Other game updates:
+  - [Yomi Hustle](https://twitter.com/ivy_sly_/status/1589988615123193856) is an
+    online turn-based TAS fighter, which is going into open beta on November 10th.
+  - [TheGrimsey](https://thegrimsey.net/2022/10/13/Bevy.html) is writing a devlog
+   of their experiences with Bevy.
+  - [Tiny Building Game](https://twitter.com/h3r2tic/status/1578125088280530946)
+    introduced a shader refactoring dev tool.
+  - [Embark](https://medium.com/embarkstudios/embarks-creative-playground-call-for-early-players-2e1d56d21ede)
+    is looking for early players for their creative platform.
+  - [R:Vust](https://sethmaddev.itch.io/rvust) is a side-scrolling SHMUP.
+  - [Tomb Explorer](https://www.youtube.com/watch?v=z8DCqoxHtDs) has a new
+  devlog video.
+  - [Tantan](https://www.youtube.com/watch?v=2-pXntcUWfM) is working on a voxel game.
+  - [Punchy](https://github.com/fishfolk/punchy/releases/tag/v0.1.0)
+    released the first MVP of their scripting engine.
+  - [Bungo Drifter](https://mungbungo.itch.io/bungo-drifter) is an infinite
+    voxel city generator.
+  - [Vange-rs](https://www.reddit.com/r/rust_gamedev/comments/yicr23/driving_through_the_voxel_grid_in_vangers/)
+    added a new style of rendering.
+  - [RainyCloud](https://store.steampowered.com/app/1343230/RainyCloud/) is an
+    experimental game where you control a cloud.
+  - [Life Code](https://www.youtube.com/watch?v=S2jxKva4n1U) released another
+    devlog for their ecosystem sim.
+- Other engine updates:
+  - [GGEZ](https://www.reddit.com/r/rust_gamedev/comments/xvm9eb/ggez_080rc1)
+    published a new release candidate for v0.8.
+  - [Pyxel](https://twitter.com/kitao/status/1578669120416993280) has a new
+    tutorial of how to use their web version.
+- Other learning material updates:
+  - [Rustacean Station](https://rustacean-station.org/episode/forest-anderson/)
+  interviewed Forest Anderson about Veloren, a multiplayer voxel RPG.
+  - [Rukai](https://www.youtube.com/watch?v=g4Xqf2MFXpk) gave a talk about how
+    they built a frame data website in Rust.
+  - [LittleB0xes](http://www.littleboxesgames.fr/posts/psycho-pong-part-one/)
+    started a tutorial series for Macroquad.
+  - [Dan Olson from Treyarch](https://www.youtube.com/watch?v=GtRo-eF8-TE) gave
+    a talk on using Rust for game tooling.
+  - [Larry Du](https://dublog.net/blog/rust-2/) made a web game using Bevy.
+  - [Ryosuke](https://dev.to/whoisryosuke/primitive-geometry-in-wgpu-and-rust-1da1)
+    wrote about rendering primitive geometry with WGPU.
+  - [PhaestusFox](https://www.youtube.com/playlist?list=PL6uRoaCCw7GN_lJxpKS3j-KXuThRiSXc6)
+    has posted more episodes of their 'Bevy Basics' tutorial series.
+- Other tooling updates:
+  - [Modmapper](https://www.hallada.net/2022/10/05/modmapper-putting-every-skyrim-mod-on-a-map-with-rust.html)
+    is an interactive map of every Skyrim mod on Nexus Mods.
+  - [LelsersLasers](https://lelserslasers.itch.io/3d-cellular-automata-wgpu-rust)
+    is building 3D cellular automata with WGPU.
+  - [Vismut](https://orsvarn.com/vismut-0-6/) released version 0.6 of their
+    procedural texturing tool.
+- Other library updates:
+  - [psx-sdk-rs](https://github.com/ayrtonm/psx-sdk-rs) is a basic Rust SDK for
+    the PlayStation 1.
+  - [WGPU 0.14](https://github.com/gfx-rs/wgpu/releases/tag/v0.14.0) was released.
+  - [gba](https://github.com/rust-console/gba/blob/main/CHANGELOG.md) is a crate
+    for Game Boy Advance development.
+  - [quinn](https://github.com/quinn-rs/quinn/releases/tag/0.9.0) released
+    version 0.9 of their pure-Rust QUIC implementation.
+  - [iyes_loopless 0.8](https://twitter.com/IyesGames/status/1585975134170468352)
+    provides usability improvements for Bevy game loops.
+  - [leafwing_abilities](https://twitter.com/AliceICecile/status/1582169655460114433)
+    is a library for managing game character abilities.
+  - [dualquat](https://github.com/knickish/dualquat) is a library for use in
+    dual quaternion-based physics simulations.
+  - [seed_creator](https://www.reddit.com/r/rust_gamedev/comments/yaw82r/random_seed_creation_showcase_for_wasm4_fantasy)
+    creates random seeds for the WASM4 fantasy console.
+  - [bevy-hikari](https://github.com/cryscan/bevy-hikari) implements global
+    illumination for Bevy.
+  - [bevy_ecs_tilemap](https://github.com/StarArawn/bevy_ecs_tilemap/releases/tag/v0.8.0)
+    added many new features.
+  - [bevy_mod_mesh_tools](https://github.com/DGriffin91/bevy_mod_mesh_tools)
+    provides helper code for working with meshes.
 
 ## Discussions
 
 <!-- Links to handpicked reddit/twitter/urlo/etc threads that provide
 useful information -->
 
+- /r/rust_gamedev:
+  - [SDL2 vs Winit/Pixels/CPAL/etc. Is going "native" really worth it?](https://www.reddit.com/r/rust_gamedev/comments/xyjdy5/sdl2_vs_winitpixelscpaletc_is_going_native_really/)
+  - [What's the best 2D engine like pygame, but for Rust?](https://www.reddit.com/r/rust_gamedev/comments/y72as6/whats_the_best_2d_engine_like_pygame_but_for_rust)
+  - [Best way to draw massive amount of individual pixels every frame](https://www.reddit.com/r/rust_gamedev/comments/xz642j/falling_sand_simulation_best_way_to_draw_pixels)
+
 ## Requests for Contribution
 
 <!-- Links to "good first issue"-labels or direct links to specific tasks -->
 
-## Jobs
+- ['Are We Game Yet?' wants to know about projects/games/resources that
+  aren't listed yet][awgy].
+- [Graphite is looking for contributors][graphite-contribute] to help build the
+  new node graph and 2D rendering systems.
+- [winit's "difficulty: easy" issues][winit-issues].
+- [Backroll-rs, a new networking library][backroll-rs].
+- [Embark's open issues][embark-open-issues] ([embark.rs]).
+- [wgpu's "help wanted" issues][wgpu-issues].
+- [luminance's "low hanging fruit" issues][luminance-fruits].
+- [ggez's "good first issue" issues][ggez-issues].
+- [Veloren's "beginner" issues][veloren-beginner].
+- [A/B Street's "good first issue" issues][abstreet-issues].
+- [Mun's "good first issue" issues][mun-issues].
+- [SIMple Mechanic's good first issues][simm-issues].
+- [Bevy's "good first issue" issues][bevy-issues].
 
-<!-- An optional section for new jobs related to Rust gamedev -->
-
-## Bonus
-
-<!-- Bonus section to make the newsletter more interesting
-and highlight events from the past. -->
+[awgy]: https://github.com/rust-gamedev/arewegameyet#contribute
+[graphite-contribute]: https://graphite.rs/contribute
+[winit-issues]: https://github.com/rust-windowing/winit/issues?q=is%3Aopen+is%3Aissue+label%3A%22difficulty%3A+easy%22
+[backroll-rs]: https://github.com/HouraiTeahouse/backroll-rs/issues
+[embark.rs]: https://embark.rs
+[embark-open-issues]: https://github.com/search?q=user:EmbarkStudios+state:open
+[wgpu-issues]: https://github.com/gfx-rs/wgpu/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
+[luminance-fruits]: https://github.com/phaazon/luminance-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22low+hanging+fruit%22
+[ggez-issues]: https://github.com/ggez/ggez/labels/%2AGOOD%20FIRST%20ISSUE%2A
+[veloren-beginner]: https://gitlab.com/veloren/veloren/issues?label_name=beginner
+[abstreet-issues]: https://github.com/a-b-street/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
+[simm-issues]: https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue
+[bevy-issues]: https://github.com/bevyengine/bevy/labels/E-Good-First-Issue
 
 ------
 
