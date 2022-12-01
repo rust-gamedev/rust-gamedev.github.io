@@ -71,6 +71,21 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Engine Updates
 
+### Pixel Engine
+
+pixel engine ([Github](https://github.com/Maix0/pixel_engine)) by [@Maix0]
+is a 2d game engine that started as a rust-version of the olcPixelGameEngine (written in C++). 
+It was used as a learning project for Maix0, where he worked on it for over 3 years.
+
+This engine as a very straight forward api and is mostly CPU based (the exeception of Decals which are Gpu-sprite) but it can achieve some things
+Use it as a way to learn new algorithms or to make a simple game.
+
+It uses wgpu underneath so there is support for all desktop targets and WASM 
+(even though there is a bug in the WASM builds where the keyboard layout is only QWERTY).
+
+The most recent addition is the [SpriteRef](https://docs.rs/pixel_engine/latest/pixel_engine/graphics/struct.SpriteMutRef.html), a way to create a view inside a sprite where it is possible to draw in it. You can have multiple non-overlapping views at the same time.
+
+
 ## Learning Material Updates
 
 ## Tooling Updates
