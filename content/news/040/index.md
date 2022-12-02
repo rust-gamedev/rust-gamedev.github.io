@@ -79,8 +79,32 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [Bevy Sequential Actions]
 
+![Bevy sequential actions simple demo](sequential_actions.gif)
+_An entity with a queue of repeating actions._
+
 `bevy-sequential-actions` ([GitHub][seq-actions-gh], [docs.rs][seq-actions-docs])
-is a simple [Bevy][bevy] helper library for executing various actions in a sequence.
+is a simple helper library for the [Bevy][bevy] game engine.
+It aims to execute a queue of various actions in a sequential manner.
+
+An action is anything that implements the `Action` trait,
+and can be added to any `Entity` that contains the `ActionsBundle`.
+In the image above, the following actions have been added:
+
+```rust
+commands
+    .actions(entity)
+    .config(AddConfig {
+        order: AddOrder::Back,
+        start: true,
+        repeat: Repeat::Forever,
+    })
+    .add(WaitAction::new(1.0))
+    .add(MoveAction::new(Vec3::X * 2.0))
+    .add(WaitAction::new(1.0))
+    .add(MoveAction::new(Vec3::X * -2.0));
+```
+
+
 
 [Bevy Sequential Actions]: https://crates.io/crates/bevy-sequential-actions
 [seq-actions-gh]: https://github.com/hikikones/bevy-sequential-actions
