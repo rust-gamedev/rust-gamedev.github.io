@@ -104,7 +104,24 @@ commands
     .add(MoveAction::new(Vec3::X * -2.0));
 ```
 
+With version `0.6` comes the ability to add a collection of actions that run in parallel.
+This means that all actions will start and stop at the same time,
+as the whole collection is treated as "one action".
+In other words, the action queue will only advance
+when all actions in the collection are finished.
 
+```rust
+commands
+    .actions(agent)
+    .add_many(
+        ExecutionMode::Parallel,
+        actions![
+            action_a,
+            action_b,
+            action_c,
+        ]
+    );
+```
 
 [Bevy Sequential Actions]: https://crates.io/crates/bevy-sequential-actions
 [seq-actions-gh]: https://github.com/hikikones/bevy-sequential-actions
