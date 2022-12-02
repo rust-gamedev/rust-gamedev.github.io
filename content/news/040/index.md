@@ -77,6 +77,16 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library Updates
 
+### [Bevy Sequential Actions]
+
+`bevy-sequential-actions` ([GitHub][seq-actions-gh], [docs.rs][seq-actions-docs])
+is a simple [Bevy][bevy] helper library for executing various actions in a sequence.
+
+[Bevy Sequential Actions]: https://crates.io/crates/bevy-sequential-actions
+[seq-actions-gh]: https://github.com/hikikones/bevy-sequential-actions
+[seq-actions-docs]: https://docs.rs/bevy-sequential-actions
+[bevy]: https://bevyengine.org/
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
