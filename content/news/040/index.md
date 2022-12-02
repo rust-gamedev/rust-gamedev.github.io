@@ -69,6 +69,43 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### Digital Extinction
+
+![laser trail in Digital Extinction](digital-extinction.jpeg) _laser trail in
+Digital Extinction_
+
+[Digital Extinction] ([GitHub][de-github], [Discord][de-discord],
+[Reddit][de-reddit]) by [@Indy2222] is a 3D real-time strategy game made with
+[Bevy].
+
+Here is the summary of the changes since the last update. It consists of commit
+range ffd5987..494096b (2022-11-03–2022-11-27). There were 75 non-merge commits
+in total.
+
+The most notable updates are:
+
+- trails after laser fires are briefly visible,
+- flying drones no longer slide on terrain but fly in height,
+- simple main menu and map selection were added,
+- a game design document was kicked off,
+- both Rust API, and other technical documentation are automatically published
+  at [docs.de-game.org][de-docs],
+- many community-related improvements have been made,
+- the game was migrated to the new Bevy v0.9,
+- there were some code quality and performance improvements,
+- de_tools crate was fixed.
+
+A more detailed update summary is available [here][de-update-02].
+
+[Digital Extinction]: https://de-game.org
+[de-github]: https://github.com/DigitalExtinction/Game
+[de-discord]: https://discord.gg/vHMFuCWGSX
+[de-reddit]: https://www.reddit.com/r/DigitalExtinction/
+[@Indy2222]: https://github.com/Indy2222/
+[Bevy]: https://bevyengine.org/
+[de-docs]: https://docs.de-game.org/
+[de-update-02]: https://mgn.cz/blog/de02/
+
 ## Engine Updates
 
 ## Learning Material Updates
