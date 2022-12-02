@@ -104,7 +104,8 @@ commands
     .add(MoveAction::new(Vec3::X * -2.0));
 ```
 
-With version `0.6` comes the ability to add a collection of actions that run in parallel.
+With version `0.6` comes the ability to
+add a collection of actions that run in parallel.
 This means that all actions will start and stop at the same time,
 as the whole collection is treated as "one action".
 In other words, the action queue will only advance
