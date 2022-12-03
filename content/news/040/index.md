@@ -71,20 +71,28 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Engine Updates
 
-### Pixel Engine
+### [Pixel Engine][pixel_engine]
 
-pixel engine ([Github](https://github.com/Maix0/pixel_engine)) by [@Maix0]
-is a 2d game engine that started as a rust-version of the olcPixelGameEngine (written in C++). 
-It was used as a learning project for Maix0, where he worked on it for over 3 years.
+[pixel_engine] by [@Maix0] is a 2D game engine that started as a Rust-version
+of olcPixelGameEngine (written in C++). It was used as a learning project
+for Maix0, where he worked on it for over 3 years.
 
-This engine as a very straight forward api and is mostly CPU based (the exeception of Decals which are Gpu-sprite) but it can achieve some things
+This engine has a very straightforward API and is mostly CPU based
+(the exception is Decals which are GPU-sprites) but it can achieve some things.
 Use it as a way to learn new algorithms or to make a simple game.
 
-It uses wgpu underneath so there is support for all desktop targets and WASM 
-(even though there is a bug in the WASM builds where the keyboard layout is only QWERTY).
+It uses [wgpu] underneath so there is support for all desktop targets and WASM
+(even though there is a bug in the WASM builds
+where the keyboard layout is only QWERTY).
 
-The most recent addition is the [SpriteRef](https://docs.rs/pixel_engine/latest/pixel_engine/graphics/struct.SpriteMutRef.html), a way to create a view inside a sprite where it is possible to draw in it. You can have multiple non-overlapping views at the same time.
+The most recent addition is the [SpriteRef], a way to create a view
+inside a sprite where it is possible to draw in it.
+You can have multiple non-overlapping views at the same time.
 
+[pixel_engine]: https://github.com/Maix0/pixel_engine
+[@Maix0]: https://github.com/Maix0
+[SpriteRef]: https://docs.rs/pixel_engine/0.6.0/pixel_engine/graphics/struct.SpriteMutRef.html
+[wgpu]: https://wgpu.rs/
 
 ## Learning Material Updates
 
