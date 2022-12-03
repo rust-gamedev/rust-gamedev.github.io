@@ -35,6 +35,7 @@ Feel free to send PRs about your own projects!
 - [Learning Material Updates](#learning-material-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
+- [Other News](#other-news)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Meeting Minutes](#meeting-minutes)
 - [Discussions](#discussions)
@@ -68,6 +69,113 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### Rusty Vangers
+
+![Vange-rs rendered with a voxel tree](vangers-3rd-person.jpg)
+
+[Rusty Vangers] ([GitHub][vangers-src], [Itch-io][vangers-itch]) is an
+experimental re-implementation of the [Vangers] game,
+using GPUs and multi-threading in Rust.
+
+The project has started with a strong focus on rendering,
+since efficient GPU implementation of a Voxel world as large as
+2048x16384x256 (that's about 8 giga-voxels!) turned into a tough challenge,
+even though the original game from 1998 easily does it on CPU.
+
+Finally, after years of experiments, a method has been implemented
+that is fast and universal when it comes to viewing angles. It's based
+on an acceleration structure in the form of a voxel octree.
+This work has landed at the start of November, and now it's possible
+to [ride through][vangers-video] the strange worlds
+while looking from behind the car, or even from inside it.
+
+This method runs on all APIs (including OpenGL!), thanks to wgpu/naga
+portability. It's suitably fast, regardless of perspective, even on
+an old macBook with an integrated GPU. It concludes the rendering story
+of the project, and the devs can shift focus on other areas.
+
+_Discussions: [Reddit](https://www.reddit.com/r/rust_gamedev/comments/ypf38k/description_of_the_voxel_tracing_in_rusty_vangers/)_
+
+[Rusty Vangers]: https://vange.rs/
+[vangers-src]: https://www.github.com/yopox/LD51
+[vangers-itch]: https://kvark.itch.io/vangers
+[Vangers]: https://store.steampowered.com/app/264080/Vangers/
+[vangers-video]: https://vimeo.com/manage/videos/765602608
+
+### Digital Extinction
+
+![laser trail in Digital Extinction](digital-extinction.jpeg)
+_Laser trail in Digital Extinction_
+
+[Digital Extinction] ([GitHub][de-github], [Discord][de-discord],
+[Reddit][de-reddit]) by [@Indy2222] is a 3D real-time strategy game made with
+[Bevy].
+
+Here is the summary of the changes since the last update. It consists of commit
+range ffd5987..494096b (2022-11-03–2022-11-27). There were 75 non-merge commits
+in total.
+
+The most notable updates are:
+
+- trails after laser fires are briefly visible,
+- flying drones no longer slide on terrain but fly in height,
+- simple main menu and map selection were added,
+- a game design document was kicked off,
+- both Rust API, and other technical documentation are automatically published
+  at [docs.de-game.org][de-docs],
+- many community-related improvements have been made,
+- the game was migrated to the new Bevy v0.9,
+- there were some code quality and performance improvements,
+- de_tools crate was fixed.
+
+A more detailed update summary is available [here][de-update-02].
+
+[Digital Extinction]: https://de-game.org
+[de-github]: https://github.com/DigitalExtinction/Game
+[de-discord]: https://discord.gg/vHMFuCWGSX
+[de-reddit]: https://www.reddit.com/r/DigitalExtinction
+[@Indy2222]: https://github.com/Indy2222
+[Bevy]: https://bevyengine.org
+[de-docs]: https://docs.de-game.org
+[de-update-02]: https://mgn.cz/blog/de02
+
+### [Space Frontiers]
+
+![In-game screenshot of a player pointing a laser gun.](space_frontiers_ingame_screenshot.png)
+
+[Space Frontiers] ([GitHub], [Discord], [Twitter], [Reddit], [Steam Group])
+by [Star Wolves] is an online sci-fi action community RPG game simulating
+space (and spaceships) in 3D.
+
+The game has been in-development for over two years.
+The server and client were successfully prototyped with Godot several
+years ago. After that, the server, with all its features, was
+successfully ported to [Bevy]. The client is now getting the same
+porting treatment!
+
+The project is commercial, [open-source] and has a proprietary license.
+There is a milestone for a license change to free open-source.
+
+Space Frontiers seeks to deliver customized community gameplay experiences.
+Read more about plugins and content customization in the [development journal].
+
+The official StarWolves.io forum and discussion board were launched a week ago.
+The first 50 registrants will receive a permanent unique forum group/title.
+
+_Discussions: [StarWolves.io Bulletin Board]_
+
+[StarWolves.io Bulletin Board]: https://starwolves.io
+[Star Wolves]: https://starwolves.io
+[development journal]: https://starwolves.io/showthread.php?tid=1
+[Bevy]: https://bevyengine.org/
+[Space Frontiers]: https://github.com/starwolves/space
+[GitHub]: https://github.com/starwolves/space
+[open-source]: https://github.com/starwolves/space
+[Steam Group]: https://steamcommunity.com/groups/starwolvescommunity
+[Discord]: https://discord.gg/yYpMun9CTT
+[Twitter]: https://twitter.com/starwolvesstar
+[Reddit]: https://reddit.com/u/StarwolvesStar
+
 ### [Timely Defuse]
 
 ![Screenshot of Timely Defuse, featuring a chubby hero disarming a bomb.
@@ -75,8 +183,7 @@ Dynamites are scattered about.
 "WAVE 5" and a score of 199 appear at the top.](timely-defuse.png)
 
 [Timely Defuse] ([GitHub][timely-defuse-github]) by [@E_net4]
-is a mobile Web game using Bevy,
-submitted to GitHub Game Off 2022.
+is a mobile Web game using Bevy, submitted to GitHub Game Off 2022.
 In this game, explosives are coming out of nowhere
 and it's the hero's job to stop as many of them from exploding as possible.
 
@@ -143,6 +250,90 @@ You can check this [Reddit post][boytacean-red-ann] for more information.
 [boytacean-red-ann]: https://reddit.com/r/rust/comments/ywxugc/game_boy_emulator_using_rust
 
 ## Library Updates
+
+### [bevy_atmosphere] v0.5
+
+![bevy_atmosphere collage: colored skies](bevy_atmosphere.png)
+
+bevy_atmosphere ([crates.io](https://crates.io/crates/bevy_atmosphere),
+[docs.rs](https://docs.rs/bevy_atmosphere/latest/bevy_atmosphere/),
+[GitHub](https://github.com/JonahPlusPlus/bevy_atmosphere))
+is now compatible with Bevy 0.9.
+
+The focus of this update was decoupling the atmospheric model from the
+compute pipeline. What this means is that users can choose a different model
+or create their own using the `Atmospheric` trait. This sets the groundwork for
+having a variety of models to choose from, each for a different type of game.
+
+With the removal of the `Atmosphere` resource, comes the addition of the
+`AtmosphereModel` resource and the `Nishita` and `Gradient` models. `Nishita`
+is the same model that was used in previous version of bevy_atmosphere.
+`Gradient` is a new model that provides a simple gradient of three colors,
+making it ideal for stylized games.
+
+There is also the `Atmosphere<T>` and `AtmosphereMut<T>` system params,
+which can be used to work with a particular model
+without having to cast it from `AtmosphereModel`.
+
+If you want to read more about the technical changes, check out the developer's
+[blog post](https://jonahplusplus.dev/2022/12/01/bevy_atmosphere_0.5.html)!
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/za948o/bevy_atmosphere_05_is_now_released),
+[/r/bevy](https://reddit.com/r/bevy/comments/za93oo/bevy_atmosphere_05_is_now_released),
+[/r/rust](https://reddit.com/r/rust/comments/za93zb/bevy_atmosphere_05_is_now_released)_
+
+### [Bevy Sequential Actions]
+
+![Bevy sequential actions simple demo](sequential_actions.gif)
+_An entity with a queue of repeating actions._
+
+`bevy-sequential-actions` ([GitHub][seq-actions-gh], [docs.rs][seq-actions-docs])
+is a simple helper library for the [Bevy][bevy] game engine.
+It aims to execute a queue of various actions in a sequential manner.
+
+An action is anything that implements the `Action` trait,
+and can be added to any `Entity` that contains the `ActionsBundle`.
+In the image above, the following actions have been added:
+
+```rust
+commands
+    .actions(entity)
+    .config(AddConfig {
+        order: AddOrder::Back,
+        start: true,
+        repeat: Repeat::Forever,
+    })
+    .add(WaitAction::new(1.0))
+    .add(MoveAction::new(Vec3::X * 2.0))
+    .add(WaitAction::new(1.0))
+    .add(MoveAction::new(Vec3::X * -2.0));
+```
+
+With version `0.6` comes the ability to
+add a collection of actions that run in parallel.
+This means that all actions will start and stop at the same time,
+as the whole collection is treated as "one action".
+In other words, the action queue will only advance
+when all actions in the collection are finished.
+
+```rust
+commands
+    .actions(agent)
+    .add_many(
+        ExecutionMode::Parallel,
+        actions![
+            action_a,
+            action_b,
+            action_c,
+        ]
+    );
+```
+
+[Bevy Sequential Actions]: https://crates.io/crates/bevy-sequential-actions
+[seq-actions-gh]: https://github.com/hikikones/bevy-sequential-actions
+[seq-actions-docs]: https://docs.rs/bevy-sequential-actions
+[bevy]: https://bevyengine.org
 
 ## Popular Workgroup Issues in Github
 
