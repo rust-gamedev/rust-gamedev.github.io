@@ -78,23 +78,24 @@ _Jumpy Items: Swords, Crates, Grenades, & Mines_
 [Spicy Lobster][spicy_lobster] is a pixel-style, tactical 2D shooter with a fishy
 theme.
 
-In the last month, Jumpy migrated from a client-server networking model to a
-P2P Rollback model using [GGRS]. This was to address shortcommings with the server
+In the last month, Jumpy migrated from a client-server networking model to a P2P
+Rollback model using [GGRS]. This was to address shortcommings with the server
 model that had been implemented, and to take advantage of the excellent user
 user experience that rollback networking can offer.
 
 The rollback model did come with the new requirement to run up to 8 simulation
-frames per 16ms screen refresh, though, and unfortunatley the JavaScript bindings
-used to implement the game items were not performant enough to keep up. For now,
-scripting has been temporarily disabled.
+frames per 16ms screen refresh, though, and unfortunatley the JavaScript
+bindings used to implement the game items were not performant enough to keep up.
+For now, scripting has been temporarily disabled.
 
 This sparked a quick migration of the TypeScript files to Rust, and also
-[discussion][jumpy_wasm_discussion] about future possibilities for using WASM to get
-beter determinism and rollback performance, along with lower-overhead WASM scripts.
+[discussion][jumpy_wasm_discussion] about future possibilities for using WASM to
+get beter determinism and rollback performance, along with lower-overhead WASM
+scripts.
 
 With promising ideas for future improvements, the rest of the month was spent
-focusing on getting the initial items completed, with Grenades, Swords, Crates, and
-Mines all landing recently.
+focusing on getting the initial items completed, with Grenades, Swords, Crates,
+and Mines all landing recently.
 
 With just one more item planned an minimal clean up work, an MVP release is just
 around the corner!
