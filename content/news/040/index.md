@@ -69,6 +69,39 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### Rusty Vangers
+
+![Vange-rs rendered with a voxel tree](vangers-3rd-person.jpg)
+
+[Rusty Vangers] ([GitHub][vangers-src], [Itch-io][vangers-itch]) is an
+experimental re-implementation of the [Vangers] game,
+using GPUs and multi-threading in Rust.
+
+The project has started with a strong focus on rendering,
+since efficient GPU implementation of a Voxel world as large as
+2048x16384x256 (that's about 8 giga-voxels!) turned into a tough challenge,
+even though the original game from 1998 easily does it on CPU.
+
+Finally, after years of experiments, a method has been implemented
+that is fast and universal when it comes to viewing angles. It's based
+on an acceleration structure in the form of a voxel octree.
+This work has landed at the start of November, and now it's possible
+to [ride through][vangers-video] the strange worlds
+while looking from behind the car, or even from inside it.
+
+This method runs on all APIs (including OpenGL!), thanks to wgpu/naga
+portability. It's suitably fast, regardless of perspective, even on
+an old macBook with an integrated GPU. It concludes the rendering story
+of the project, and the devs can shift focus on other areas.
+
+_Discussions: [Reddit](https://www.reddit.com/r/rust_gamedev/comments/ypf38k/description_of_the_voxel_tracing_in_rusty_vangers/)_
+
+[Rusty Vangers]: https://vange.rs/
+[vangers-src]: https://www.github.com/yopox/LD51
+[vangers-itch]: https://kvark.itch.io/vangers
+[Vangers]: https://store.steampowered.com/app/264080/Vangers/
+[vangers-video]: https://vimeo.com/manage/videos/765602608
+
 ## Engine Updates
 
 ### [Pixel Engine][pixel_engine]
