@@ -35,7 +35,6 @@ Feel free to send PRs about your own projects!
 - [Learning Material Updates](#learning-material-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
-- [Other News](#other-news)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Meeting Minutes](#meeting-minutes)
 - [Discussions](#discussions)
@@ -97,6 +96,31 @@ You can have multiple non-overlapping views at the same time.
 ## Learning Material Updates
 
 ## Tooling Updates
+
+### [Boytacean][boytacean]
+
+Boytacean ([Github][boytacean], [Working Emulator][boytacean-web])
+by [@joamag] is a Game Boy emulator written in Rust
+with both Native (using SDL) and Web (using WebAssembly) frontends that has been
+created as a learning experiment to better understand both Rust capabilities and
+Game Boy hardware.
+The Web frontend is especially interesting making use of Web standards like
+[Gamepad API][gamepad-api] to provide a rich and joyful experience for both
+desktop and mobile devices.
+Performance wise the web version runs smoothly with little to no significant
+hardware requirements.
+
+Even though Boytacean supports most Game Boy games and passes most well known
+test ROMs there are still some features lacking like support for Game Boy Color
+and APU (sound) support.
+
+You can check this [Reddit post][boytacean-red-ann] for more information.
+
+[boytacean]: https://github.com/joamag/boytacean
+[boytacean-web]: https://boytacean.joao.me
+[@joamag]: https://github.com/joamag
+[gamepad-api]: https://developer.mozilla.org/docs/Web/API/Gamepad_API/Using_the_Gamepad_API
+[boytacean-red-ann]: https://reddit.com/r/rust/comments/ywxugc/game_boy_emulator_using_rust
 
 ## Library Updates
 
