@@ -35,7 +35,6 @@ Feel free to send PRs about your own projects!
 - [Learning Material Updates](#learning-material-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
-  - [bevy\_atmosphere 0.5](#bevy-atmosphere)
 - [Other News](#other-news)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Meeting Minutes](#meeting-minutes)
@@ -72,13 +71,61 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Engine Updates
 
+### [Pixel Engine][pixel_engine]
+
+[pixel_engine] by [@Maix0] is a 2D game engine that started as a Rust-version
+of olcPixelGameEngine (written in C++). It was used as a learning project
+for Maix0, where he worked on it for over 3 years.
+
+This engine has a very straightforward API and is mostly CPU based
+(the exception is Decals which are GPU-sprites) but it can achieve some things.
+Use it as a way to learn new algorithms or to make a simple game.
+
+It uses [wgpu] underneath so there is support for all desktop targets and WASM
+(even though there is a bug in the WASM builds
+where the keyboard layout is only QWERTY).
+
+The most recent addition is the [SpriteRef], a way to create a view
+inside a sprite where it is possible to draw in it.
+You can have multiple non-overlapping views at the same time.
+
+[pixel_engine]: https://github.com/Maix0/pixel_engine
+[@Maix0]: https://github.com/Maix0
+[SpriteRef]: https://docs.rs/pixel_engine/0.6.0/pixel_engine/graphics/struct.SpriteMutRef.html
+[wgpu]: https://wgpu.rs/
+
 ## Learning Material Updates
 
 ## Tooling Updates
 
+### [Boytacean][boytacean]
+
+Boytacean ([Github][boytacean], [Working Emulator][boytacean-web])
+by [@joamag] is a Game Boy emulator written in Rust
+with both Native (using SDL) and Web (using WebAssembly) frontends that has been
+created as a learning experiment to better understand both Rust capabilities and
+Game Boy hardware.
+The Web frontend is especially interesting making use of Web standards like
+[Gamepad API][gamepad-api] to provide a rich and joyful experience for both
+desktop and mobile devices.
+Performance wise the web version runs smoothly with little to no significant
+hardware requirements.
+
+Even though Boytacean supports most Game Boy games and passes most well known
+test ROMs there are still some features lacking like support for Game Boy Color
+and APU (sound) support.
+
+You can check this [Reddit post][boytacean-red-ann] for more information.
+
+[boytacean]: https://github.com/joamag/boytacean
+[boytacean-web]: https://boytacean.joao.me
+[@joamag]: https://github.com/joamag
+[gamepad-api]: https://developer.mozilla.org/docs/Web/API/Gamepad_API/Using_the_Gamepad_API
+[boytacean-red-ann]: https://reddit.com/r/rust/comments/ywxugc/game_boy_emulator_using_rust
+
 ## Library Updates
 
-### [bevy_atmosphere 0.5](https://github.com/JonahPlusPlus/bevy_atmosphere) {#bevy-atmosphere}
+### [bevy_atmosphere 0.5](https://github.com/JonahPlusPlus/bevy_atmosphere)
 
 ![bevy_atmosphere collage](bevy_atmosphere.png)
 
