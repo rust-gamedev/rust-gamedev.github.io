@@ -92,7 +92,7 @@ while looking from behind the car, or even from inside it.
 This method runs on all APIs (including OpenGL!), thanks to wgpu/naga
 portability. It's suitably fast, regardless of perspective, even on
 an old macBook with an integrated GPU. It concludes the rendering story
-of the project, and we can shift focus on other areas.
+of the project, and the devs can shift focus on other areas.
 
 _Discussions: [Reddit](https://www.reddit.com/r/rust_gamedev/comments/ypf38k/description_of_the_voxel_tracing_in_rusty_vangers/)_
 
