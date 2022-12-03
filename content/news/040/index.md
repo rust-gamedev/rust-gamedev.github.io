@@ -176,6 +176,25 @@ _Discussions: [StarWolves.io Bulletin Board]_
 [Twitter]: https://twitter.com/starwolvesstar
 [Reddit]: https://reddit.com/u/StarwolvesStar
 
+### [Timely Defuse]
+
+![Screenshot of Timely Defuse, featuring a chubby hero disarming a bomb.
+Dynamites are scattered about.
+"WAVE 5" and a score of 199 appear at the top.](timely-defuse.png)
+
+[Timely Defuse] ([GitHub][timely-defuse-github]) by [@E_net4]
+is a mobile Web game using Bevy, submitted to GitHub Game Off 2022.
+In this game, explosives are coming out of nowhere
+and it's the hero's job to stop as many of them from exploding as possible.
+
+Some remarks about the experience of creating Timely Defuse
+were shared on [Dev.to][timely-defuse-dev].
+
+[Timely Defuse]: https://e-net4.itch.io/timely-defuse
+[timely-defuse-github]: https://github.com/Enet4/timely-defuse
+[@E_net4]: https://hachyderm.io/@E_net4
+[timely-defuse-dev]: https://dev.to/e_net4/timely-wrap-up-quick-notes-on-timely-defuse-441o
+
 ## Engine Updates
 
 ### [Pixel Engine][pixel_engine]
