@@ -139,6 +139,43 @@ A more detailed update summary is available [here][de-update-02].
 [de-docs]: https://docs.de-game.org
 [de-update-02]: https://mgn.cz/blog/de02
 
+### [Space Frontiers]
+
+![In-game screenshot of a player pointing a laser gun.](space_frontiers_ingame_screenshot.png)
+
+[Space Frontiers] ([GitHub], [Discord], [Twitter], [Reddit], [Steam Group])
+by [Star Wolves] is an online sci-fi action community RPG game simulating
+space (and spaceships) in 3D.
+
+The game has been in-development for over two years.
+The server and client were successfully prototyped with Godot several
+years ago. After that, the server, with all its features, was
+successfully ported to [Bevy]. The client is now getting the same
+porting treatment!
+
+The project is commercial, [open-source] and has a proprietary license.
+There is a milestone for a license change to free open-source.
+
+Space Frontiers seeks to deliver customized community gameplay experiences.
+Read more about plugins and content customization in the [development journal].
+
+The official StarWolves.io forum and discussion board were launched a week ago.
+The first 50 registrants will receive a permanent unique forum group/title.
+
+_Discussions: [StarWolves.io Bulletin Board]_
+
+[StarWolves.io Bulletin Board]: https://starwolves.io
+[Star Wolves]: https://starwolves.io
+[development journal]: https://starwolves.io/showthread.php?tid=1
+[Bevy]: https://bevyengine.org/
+[Space Frontiers]: https://github.com/starwolves/space
+[GitHub]: https://github.com/starwolves/space
+[open-source]: https://github.com/starwolves/space
+[Steam Group]: https://steamcommunity.com/groups/starwolvescommunity
+[Discord]: https://discord.gg/yYpMun9CTT
+[Twitter]: https://twitter.com/starwolvesstar
+[Reddit]: https://reddit.com/u/StarwolvesStar
+
 ## Engine Updates
 
 ### [Pixel Engine][pixel_engine]
