@@ -129,7 +129,9 @@ You can check this [Reddit post][boytacean-red-ann] for more information.
 
 ![bevy_atmosphere collage](bevy_atmosphere.png)
 
-bevy_atmosphere ([crates.io](https://crates.io/crates/bevy_atmosphere), [docs.rs](https://docs.rs/bevy_atmosphere/latest/bevy_atmosphere/), [GitHub](https://github.com/JonahPlusPlus/bevy_atmosphere))
+bevy_atmosphere ([crates.io](https://crates.io/crates/bevy_atmosphere),
+[docs.rs](https://docs.rs/bevy_atmosphere/latest/bevy_atmosphere/),
+[GitHub](https://github.com/JonahPlusPlus/bevy_atmosphere))
 is now compatible with Bevy 0.9.
 
 The focus of this update was decoupling the atmospheric model from the
