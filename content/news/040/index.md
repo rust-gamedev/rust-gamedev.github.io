@@ -190,6 +190,58 @@ _Discussions:
 [/r/bevy](https://reddit.com/r/bevy/comments/za93oo/bevy_atmosphere_05_is_now_released),
 [/r/rust](https://reddit.com/r/rust/comments/za93zb/bevy_atmosphere_05_is_now_released)_
 
+### [Bevy Sequential Actions]
+
+![Bevy sequential actions simple demo](sequential_actions.gif)
+_An entity with a queue of repeating actions._
+
+`bevy-sequential-actions` ([GitHub][seq-actions-gh], [docs.rs][seq-actions-docs])
+is a simple helper library for the [Bevy][bevy] game engine.
+It aims to execute a queue of various actions in a sequential manner.
+
+An action is anything that implements the `Action` trait,
+and can be added to any `Entity` that contains the `ActionsBundle`.
+In the image above, the following actions have been added:
+
+```rust
+commands
+    .actions(entity)
+    .config(AddConfig {
+        order: AddOrder::Back,
+        start: true,
+        repeat: Repeat::Forever,
+    })
+    .add(WaitAction::new(1.0))
+    .add(MoveAction::new(Vec3::X * 2.0))
+    .add(WaitAction::new(1.0))
+    .add(MoveAction::new(Vec3::X * -2.0));
+```
+
+With version `0.6` comes the ability to
+add a collection of actions that run in parallel.
+This means that all actions will start and stop at the same time,
+as the whole collection is treated as "one action".
+In other words, the action queue will only advance
+when all actions in the collection are finished.
+
+```rust
+commands
+    .actions(agent)
+    .add_many(
+        ExecutionMode::Parallel,
+        actions![
+            action_a,
+            action_b,
+            action_c,
+        ]
+    );
+```
+
+[Bevy Sequential Actions]: https://crates.io/crates/bevy-sequential-actions
+[seq-actions-gh]: https://github.com/hikikones/bevy-sequential-actions
+[seq-actions-docs]: https://docs.rs/bevy-sequential-actions
+[bevy]: https://bevyengine.org
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
