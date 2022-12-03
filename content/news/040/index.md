@@ -129,7 +129,8 @@ You can check this [Reddit post][boytacean-red-ann] for more information.
 
 ![bevy_atmosphere collage](bevy_atmosphere.png)
 
-bevy_atmosphere is now compatible with bevy 0.9.
+bevy_atmosphere ([crates.io](https://crates.io/crates/bevy_atmosphere), [docs.rs](https://docs.rs/bevy_atmosphere/latest/bevy_atmosphere/), [GitHub](https://github.com/JonahPlusPlus/bevy_atmosphere))
+is now compatible with Bevy 0.9.
 
 The focus of this update was decoupling the atmospheric model from the
 compute pipeline. What this means is that users can choose a different model
@@ -146,14 +147,8 @@ There is also the `Atmosphere<T>` and `AtmosphereMut<T>` system params,
 which can be used to work with a particular model
 without having to cast it from `AtmosphereModel`.
 
-If you want to read more about the technical changes, check out my
+If you want to read more about the technical changes, check out the developer's
 [blog post](https://jonahplusplus.dev/2022/12/01/bevy_atmosphere_0.5.html)!
-
-_External Links:
-[Blog Post](https://jonahplusplus.dev/2022/12/01/bevy_atmosphere_0.5.html),
-[crates.io](https://crates.io/crates/bevy_atmosphere),
-[docs.rs](https://docs.rs/bevy_atmosphere/latest/bevy_atmosphere/),
-[GitHub](https://github.com/JonahPlusPlus/bevy_atmosphere)_
 
 _Discussions:
 [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/za948o/bevy_atmosphere_05_is_now_released/),
