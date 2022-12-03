@@ -72,7 +72,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ### [Jumpy]
 
 ![Swords, Crates, Grenades, & Mines](./jumpy.png)
-_Swords, Crates, Grenades, & Mines_
+_Jumpy Items: Swords, Crates, Grenades, & Mines_
 
 [Jumpy] ([GitHub][Jumpy], [Discord][jumpy_discord], [Twitter][jumpy_twitter]) by
 [Spicy Lobster][spicy_lobster] is a pixel-style, tactical 2D shooter with a fishy
