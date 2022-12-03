@@ -279,6 +279,22 @@ commands
 [seq-actions-docs]: https://docs.rs/bevy-sequential-actions
 [bevy]: https://bevyengine.org
 
+### [Sparsey] v0.10
+
+![Sparsey v0.10 code sample](sparsey-code-sample.png)
+
+[Sparsey] by [@LechintanTudor] is an Entity Component System focused on
+flexibility, conciseness and providing features exclusive to its sparse
+set-based implementation.
+
+The latest release takes advantage of the newly added Generic Associated Types
+to provide a uniform interface for running systems, functions and closures that
+borrow data from World and Resources, via the "run", "run_locally" and
+"run_exclusive" functions.
+
+[Sparsey]: https://github.com/LechintanTudor/sparsey
+[@LechintanTudor]: https://github.com/LechintanTudor
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
