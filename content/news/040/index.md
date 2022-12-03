@@ -337,8 +337,6 @@ commands
 
 ### [Sparsey] v0.10
 
-![Sparsey v0.10 code sample](sparsey-code-sample.png)
-
 [Sparsey] by [@LechintanTudor] is an Entity Component System focused on
 flexibility, conciseness and providing features exclusive to its sparse
 set-based implementation.
@@ -347,6 +345,18 @@ The latest release takes advantage of the newly added Generic Associated Types
 to provide a uniform interface for running systems, functions and closures that
 borrow data from World and Resources, via the "run", "run_locally" and
 "run_exclusive" functions.
+
+Example:
+
+```rust
+let heaviest = sparsey::run(&world, &resources, |weights: Comp<Weight>| {
+    (&weights)
+        .iter()
+        .with_entity()
+        .max_by_key(|(_entity, &weight)| weight)
+        .map(|(entity, _weight)| entity)
+});
+```
 
 [Sparsey]: https://github.com/LechintanTudor/sparsey
 [@LechintanTudor]: https://github.com/LechintanTudor
