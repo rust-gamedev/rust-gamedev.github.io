@@ -125,9 +125,9 @@ You can check this [Reddit post][boytacean-red-ann] for more information.
 
 ## Library Updates
 
-### [bevy_atmosphere 0.5](https://github.com/JonahPlusPlus/bevy_atmosphere)
+### [bevy_atmosphere] v0.5
 
-![bevy_atmosphere collage](bevy_atmosphere.png)
+![bevy_atmosphere collage: colored skies](bevy_atmosphere.png)
 
 bevy_atmosphere ([crates.io](https://crates.io/crates/bevy_atmosphere),
 [docs.rs](https://docs.rs/bevy_atmosphere/latest/bevy_atmosphere/),
@@ -153,9 +153,9 @@ If you want to read more about the technical changes, check out the developer's
 [blog post](https://jonahplusplus.dev/2022/12/01/bevy_atmosphere_0.5.html)!
 
 _Discussions:
-[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/za948o/bevy_atmosphere_05_is_now_released/),
-[/r/bevy](https://www.reddit.com/r/bevy/comments/za93oo/bevy_atmosphere_05_is_now_released/),
-[/r/rust](https://www.reddit.com/r/rust/comments/za93zb/bevy_atmosphere_05_is_now_released/)_
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/za948o/bevy_atmosphere_05_is_now_released),
+[/r/bevy](https://reddit.com/r/bevy/comments/za93oo/bevy_atmosphere_05_is_now_released),
+[/r/rust](https://reddit.com/r/rust/comments/za93zb/bevy_atmosphere_05_is_now_released)_
 
 ## Popular Workgroup Issues in Github
 
