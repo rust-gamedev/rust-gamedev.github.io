@@ -69,6 +69,27 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [CyberGate][cybergate-yt]
+
+![At the Abyss](cybergate.png)
+_The abyss is the deepest, hardest level, filled with monsters of all shapes and sizes, each possessing their own level of strength_
+
+CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]) by CyberSoul
+is an ambitious endeavor to create an immersive universe experience with the power of artificial intelligence and procedurally generated gameplay styles. Explore a world filled with strange creatures and thrilling adventures! 
+
+The latest updates include:
+
+- A new islands map featuring a safe zone and progressively more challenging levels 
+- Collectible Cubic Orbs that provide Health, Points and bullets 
+- An intuitive interface for day cycle, inventory (bullets) and cooldowns
+- Upgrade your stats as you level up 
+- And an Emergency Recall feature for when you’re stranded
+
+Be among the first to experience the wonders of AI-driven universe with CyberGate! [Join the Discord server][cybergate-dis] to participate in upcoming Phase 7.0!
+
+[cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
+[cybergate-dis]: https://discord.gg/R7DkHqw7zJ
+
 ### Rusty Vangers
 
 ![Vange-rs rendered with a voxel tree](vangers-3rd-person.jpg)
