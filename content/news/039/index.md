@@ -1,8 +1,7 @@
 +++
 title = "This Month in Rust GameDev #39 - October 2022"
 transparent = true
-date = 2022-11-01
-draft = true
+date = 2022-11-11
 +++
 
 <!-- no toc -->
@@ -36,12 +35,8 @@ Feel free to send PRs about your own projects!
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
 - [Other News](#other-news)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
-- [Meeting Minutes](#meeting-minutes)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
-- [Jobs](#jobs)
-- [Bonus](#bonus)
 
 <!--
 Ideal section structure is:
@@ -66,6 +61,16 @@ If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
 ## Announcements
+
+### [Game Development in Rust Discord][gamedev-discord]
+
+![Discord projects forum](projects.png)
+
+The ['Game Development in Rust' Discord server][gamedev-discord] now has a
+\#projects forum, where you can share updates on what you've been
+working on.
+
+[gamedev-discord]: https://discord.gg/yNtPTb2
 
 ## Game Updates
 
@@ -191,7 +196,6 @@ A more detailed update summary is available [here][de-newsletter].
 [de-discord]: https://discord.gg/vHMFuCWGSX
 [de-reddit]: https://www.reddit.com/r/DigitalExtinction/
 [@Indy2222]: https://github.com/Indy2222/
-[Bevy]: https://bevyengine.org/
 [de-newsletter]: https://mgn.cz/blog/de01/
 
 ### [Turn-based strategy game (ThousandthStar's devlog)]
@@ -224,6 +228,24 @@ _Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/y
 [ThousandthStar]: https://github.com/ThousandthStar
 [Turn-based strategy game (ThousandthStar's devlog)]: https://dev.to/thousandthstar-start-of-the-game-development-blog-series-p42
 
+<<<<<<< HEAD
+=======
+### vetovoima
+
+![vetovoima](vetovoima.png)
+
+[vetovoima][vetovoima_itch] by [@MatiasKlemola][vetovoima_twitter] is an arcade game
+where you control gravity.
+
+This month, the origin story of vetovoima was released
+[on the Valuemotive blog][vetovoima_blog]. In the story, an abstract idea
+turns into an arcade game, which eventually makes it to RustConf 2022!
+
+[vetovoima_itch]: https://yourmagicisworking.itch.io/vetovoima
+[vetovoima_twitter]: https://twitter.com/MatiasKlemola
+[vetovoima_blog]: https://www.valuemotive.com/post/hobby-project-spotlight-vetovoima
+
+>>>>>>> 88e6253037b70c618537f7e475ac5315c97bde69
 ## Engine Updates
 
 ### [Fyrox]
@@ -256,7 +278,7 @@ it hit version 0.28 which added new functionality and improved existing:
 ### [miniquad]
 
 ![ios-miniquad](ios_zemeroth.png)
-*[zemeroth](github.com/ozkriff/zemeroth/) on the iOS simulator*
+_[zemeroth](github.com/ozkriff/zemeroth/) on the iOS simulator_
 
 [miniquad] is a pure Rust, cross-platform graphics library.
 
@@ -302,6 +324,22 @@ The API changes from 0.13 are pretty simple - check them out
 [here](https://sotrh.github.io/learn-wgpu/news/0.14/)
 
 [Learn Wgpu]: https://sotrh.github.io/learn-wgpu
+
+### [wgpu-openxr-example][wgpu-openxr-example]
+
+![A screenshot of the desktop mode of the example](wgpu-openxr-example.png)
+
+[`wgpu-openxr-example`][wgpu-openxr-example] is an example of how to wire up
+wgpu (Vulkan-only) to OpenXR by [@philpax](https://github.com/philpax)
+([Dims][dims]). It displays a triangle in the centre and a triangle per hand,
+and renders to both a window and your XR headset with both head and headset tracking.
+
+It has multiple modes of operation, including disabling XR integration
+entirely at compile-time with a Cargo feature, to make it easy to understand
+each step in the process of integrating OpenXR.
+
+[wgpu-openxr-example]: https://github.com/philpax/wgpu-openxr-example
+[dims]: https://www.dims.co/
 
 ## Tooling Updates
 
@@ -352,7 +390,104 @@ it is expected to land sometime during November.
 [blackjack-blog-post]: https://ko-fi.com/post/New-nodes-Improved-Lua-bindings-and-lots-of-QoL-i-S6S6FK40S
 [blackjack-twitter]: https://twitter.com/Blackjack3dRust
 
+### [Graphite][graphite-website]
+
+![Graphite logo](graphite.png)
+
+Graphite ([website][graphite-website], [GitHub][graphite-repo],
+[Discord][graphite-discord], [Twitter][graphite-twitter]) is a free,
+in-development raster and vector 2D graphics editor that will be based around a
+Rust-powered node graph compositing engine.
+
+September and October's [sprint 19][graphite-sprint-19] focused on major new
+features and improvements to make Graphite more useful and usable.
+
+- Like magic: [Stable Diffusion][graphite-stable-diffusion], the open source AI
+  image generator, is integrated into Graphite as the Imaginate tool. It
+  provides an innovative non-destructive workflow to interactively co-create
+  art with a skilled AI.
+- Right on the nodes: Graphite's node graph engine is finally up and running,
+  now integrated with a node-powered tool that desaturates the underlying
+  artwork. A graph panel will be ready shortly. Just in time for
+  [Nodevember][graphite-nodevember]!
+- With flying colors: The color picker menu gains hex/RGB/HSV controls.
+  Gradients get unlimited color transitions. The Eyedropper tool is rewritten
+  to sample pixels from the viewport. The editor UI gets a color scheme design
+  refresh for improved clarity, plus helpful new input widgets.
+
+Open the [Graphite editor][graphite-live-demo] in your browser to give it a try
+and share your creations with #MadeWithGraphite on Twitter.
+
+[graphite-website]: https://graphite.rs
+[graphite-repo]: https://github.com/GraphiteEditor/Graphite
+[graphite-discord]: https://discord.graphite.rs
+[graphite-twitter]: https://twitter.com/GraphiteEditor
+[graphite-sprint-19]: https://github.com/GraphiteEditor/Graphite/milestone/19
+[graphite-stable-diffusion]: https://en.wikipedia.org/wiki/Stable_Diffusion
+[graphite-nodevember]: https://nodevember.io/
+[graphite-live-demo]: https://editor.graphite.rs
+
 ## Library Updates
+
+### [glutin]
+
+[glutin] ([GitHub][glutin-github], [docs.rs][glutin-docs])
+by [@kchibisov] ([rust-windowing]) is a crate that is well known for
+being an OpenGL platform initialization on top of winit.
+
+With glutin `0.30`, this is no longer the case. The crate was
+rewritten from scratch and redesigned around [raw-window-handle], so
+you don't need [winit] anymore in this equation and it could be used with
+whatever windowing library you prefer, like [smithay-client-toolkit] for
+pure Wayland clients.
+
+Given everything is based on raw-window-handle the crate is more low-level
+now and also exposes the underlying platform API like `EGL`, `GLX`, and `WGL`
+directly. There's already an interest of using glutin to handle `EGL` in
+projects like [Smithay].
+
+Previously with glutin `0.29` everything was based around the single
+[`WindowedContext`] - while this was convinient for some users and worked on
+desktop platforms, that fact was a major pain on Android where the window
+gets destroyed over time, but its context could be kept around, or when you
+fail to query configuration with supplied parameters leading to chain creating
+`WindowedContext` and causing delays on startup. For example, you can create all
+the objects and then fail on setting vsync, forcing you to start over.
+
+None of that is an issue with glutin `0.30.0`. The API is now structured around
+`Display`, `Context`, `Surface`, and `Config`, where every object is built from
+the `Display` and has its own role which is close to what you usually can find
+in OpenGL native rendering platforms specifications, like `EGL`.
+
+Unfortunatelly, the new API isn't as easy to bootstrap as it was with old
+glutin, especially when you want to use platforms like `WGL` and `GLX`.
+However, if you're using winit there will be (or is already) a special crate
+[glutin-winit] to handle platform-specific `Display` creation for you.
+
+To see the new API in action, look at the [glutin examples]. They
+should work on desktop platforms and Android (you may even notice that there's
+no special code for Android at all!).
+
+One note to add, is that iOS is **no longer** supported, but only due to
+lack of maintainers for it. If you rely on iOS support in glutin, the devs
+encourage you to help contributing to it upstream, or you'd stuck with glutin
+`0.29` which won't receive any updates anymore.
+
+For further info, check out the [winit matrix room](https://matrix.to/#/#winit:matrix.org)
+or [#winit](https://web.libera.chat/#winit) at libera.chat.
+
+[glutin]: https://crates.io/crates/glutin
+[glutin examples]: https://github.com/rust-windowing/glutin/tree/master/glutin_examples
+[glutin-winit]: https://github.com/rust-windowing/glutin/pull/1517
+[winit]: https://crates.io/crates/winit
+[Smithay]: https://github.com/smithay/smithay
+[`WindowedContext`]: https://docs.rs/glutin/0.29.1/glutin/type.WindowedContext.html
+[smithay-client-toolkit]: https://crates.io/crates/smithay-client-toolkit
+[glutin-github]:  https://github.com/rust-windowing/glutin
+[raw-window-handle]: https://crates.io/crates/raw-window-handle
+[glutin-docs]: https://docs.rs/glutin
+[@kchibisov]: https://github.com/kchibisov
+[rust-windowing]: https://github.com/rust-windowing
 
 ### [presser]
 
@@ -435,43 +570,171 @@ release as part of the upgrade to the imminent Bevy 0.9 release.
 [Hanabi]: https://crates.io/crates/bevy_hanabi
 [hanabi-github]: https://github.com/djeedai/bevy_hanabi
 [hanabi-docs]: https://github.com/djeedai/bevy_hanabi
-[bevy]: https://bevyengine.org/
 [hanabi-6m]: https://twitter.com/djeedai/status/1586812459737923586
 
-## Popular Workgroup Issues in Github
+### [`seldom_state`]
 
-<!-- Up to 10 links to interesting issues -->
+`seldom_state` by [Seldom] ([Github][seldom-github]) is a component-based
+state machine plugin for Bevy. It's useful for AI, player state, animation,
+and other entities that occupy varying states.
+
+In October, `seldom_state` recieved its 0.2 and 0.2.1 updates. 0.2 gave `Done`
+and `DoneTrigger` success and failure variants, and changed states to be
+bundles instead of components. 0.2.1 added `insert_on_enter`
+and `remove_on_exit` methods to the state machine, which let you automatically
+add and remove bundles upon state change.
+
+_Discussions:
+[0.2](https://twitter.com/Seldom_SE/status/1581696118064177152),
+[0.2.1](https://twitter.com/Seldom_SE/status/1586647959201906688)_
+
+[`seldom_state`]: https://github.com/Seldom-SE/seldom_state
+[Seldom]: https://twitter.com/Seldom_SE
+[seldom-github]: https://github.com/Seldom-SE
+
+### MarpII
+
+MarpII ([GitLab](https://gitlab.com/tendsinmende/marpii),
+[Twitter](https://twitter.com/siebencorgie),
+[Mastodon](https://mastodon.social/@siebencorgie)) by
+[Siebencorgie](https://github.com/siebencorgie)
+is a highlevel-ish helper for Vulkan using
+[Ash](https://crates.io/crates/ash).
+
+MarpII is the successor to [Marp](https://gitlab.com/tendsinmende/marp), which
+was a Rust-y abstraction layer over low-level Vulkan bindings.
+
+The new crate does not focus on wrapping Vulkan into one safe wrapper, but
+instead provides multiple levels of helpers that should make using it easier.
+This includes handling resource lifetimes and providing simplifications for
+common operations.
+
+The main crate provides utilities for robust Vulkan context (instances, devices,
+etc.) and resource (images, buffers, descriptors etc.) creation. Lately,
+higher level helpers like a
+[resource managing frame graph](https://siebencorgie.rs/posts/marpii-rmg/) and
+helpers for descriptor creation and command buffer recording joined the project.
 
 ## Other News
 
 <!-- One-liners for plan items that haven't got their own sections. -->
 
-## Meeting Minutes
-
-<!-- Up to 10 most important notes + a link to the full details -->
-
-[See all meeting issues][label_meeting] including full text notes
-or [join the next meeting][join].
-
-[label_meeting]: https://github.com/rust-gamedev/wg/issues?q=label%3Ameeting
+- Other game updates:
+  - [Yomi Hustle](https://twitter.com/ivy_sly_/status/1589988615123193856) is an
+    online turn-based TAS fighter, which is going into open beta on November 10th.
+  - [TheGrimsey](https://thegrimsey.net/2022/10/13/Bevy.html) is writing a devlog
+   of their experiences with Bevy.
+  - [Tiny Building Game](https://twitter.com/h3r2tic/status/1578125088280530946)
+    introduced a shader refactoring dev tool.
+  - [Embark](https://medium.com/embarkstudios/embarks-creative-playground-call-for-early-players-2e1d56d21ede)
+    is looking for early players for their creative platform.
+  - [R:Vust](https://sethmaddev.itch.io/rvust) is a side-scrolling SHMUP.
+  - [Tomb Explorer](https://www.youtube.com/watch?v=z8DCqoxHtDs) has a new
+  devlog video.
+  - [Tantan](https://www.youtube.com/watch?v=2-pXntcUWfM) is working on a voxel game.
+  - [Punchy](https://github.com/fishfolk/punchy/releases/tag/v0.1.0)
+    released the first MVP of their scripting engine.
+  - [Bungo Drifter](https://mungbungo.itch.io/bungo-drifter) is an infinite
+    voxel city generator.
+  - [Vange-rs](https://www.reddit.com/r/rust_gamedev/comments/yicr23/driving_through_the_voxel_grid_in_vangers/)
+    added a new style of rendering.
+  - [RainyCloud](https://store.steampowered.com/app/1343230/RainyCloud/) is an
+    experimental game where you control a cloud.
+  - [Life Code](https://www.youtube.com/watch?v=S2jxKva4n1U) released another
+    devlog for their ecosystem sim.
+- Other engine updates:
+  - [GGEZ](https://www.reddit.com/r/rust_gamedev/comments/xvm9eb/ggez_080rc1)
+    published a new release candidate for v0.8.
+  - [Pyxel](https://twitter.com/kitao/status/1578669120416993280) has a new
+    tutorial of how to use their web version.
+- Other learning material updates:
+  - [Rustacean Station](https://rustacean-station.org/episode/forest-anderson/)
+  interviewed Forest Anderson about Veloren, a multiplayer voxel RPG.
+  - [Rukai](https://www.youtube.com/watch?v=g4Xqf2MFXpk) gave a talk about how
+    they built a frame data website in Rust.
+  - [LittleB0xes](http://www.littleboxesgames.fr/posts/psycho-pong-part-one/)
+    started a tutorial series for Macroquad.
+  - [Dan Olson from Treyarch](https://www.youtube.com/watch?v=GtRo-eF8-TE) gave
+    a talk on using Rust for game tooling.
+  - [Larry Du](https://dublog.net/blog/rust-2/) made a web game using Bevy.
+  - [Ryosuke](https://dev.to/whoisryosuke/primitive-geometry-in-wgpu-and-rust-1da1)
+    wrote about rendering primitive geometry with WGPU.
+  - [PhaestusFox](https://www.youtube.com/playlist?list=PL6uRoaCCw7GN_lJxpKS3j-KXuThRiSXc6)
+    has posted more episodes of their 'Bevy Basics' tutorial series.
+- Other tooling updates:
+  - [Modmapper](https://www.hallada.net/2022/10/05/modmapper-putting-every-skyrim-mod-on-a-map-with-rust.html)
+    is an interactive map of every Skyrim mod on Nexus Mods.
+  - [LelsersLasers](https://lelserslasers.itch.io/3d-cellular-automata-wgpu-rust)
+    is building 3D cellular automata with WGPU.
+  - [Vismut](https://orsvarn.com/vismut-0-6/) released version 0.6 of their
+    procedural texturing tool.
+- Other library updates:
+  - [psx-sdk-rs](https://github.com/ayrtonm/psx-sdk-rs) is a basic Rust SDK for
+    the PlayStation 1.
+  - [WGPU 0.14](https://github.com/gfx-rs/wgpu/releases/tag/v0.14.0) was released.
+  - [gba](https://github.com/rust-console/gba/blob/main/CHANGELOG.md) is a crate
+    for Game Boy Advance development.
+  - [quinn](https://github.com/quinn-rs/quinn/releases/tag/0.9.0) released
+    version 0.9 of their pure-Rust QUIC implementation.
+  - [iyes_loopless 0.8](https://twitter.com/IyesGames/status/1585975134170468352)
+    provides usability improvements for Bevy game loops.
+  - [leafwing_abilities](https://twitter.com/AliceICecile/status/1582169655460114433)
+    is a library for managing game character abilities.
+  - [dualquat](https://github.com/knickish/dualquat) is a library for use in
+    dual quaternion-based physics simulations.
+  - [seed_creator](https://www.reddit.com/r/rust_gamedev/comments/yaw82r/random_seed_creation_showcase_for_wasm4_fantasy)
+    creates random seeds for the WASM4 fantasy console.
+  - [bevy-hikari](https://github.com/cryscan/bevy-hikari) implements global
+    illumination for Bevy.
+  - [bevy_ecs_tilemap](https://github.com/StarArawn/bevy_ecs_tilemap/releases/tag/v0.8.0)
+    added many new features.
+  - [bevy_mod_mesh_tools](https://github.com/DGriffin91/bevy_mod_mesh_tools)
+    provides helper code for working with meshes.
 
 ## Discussions
 
 <!-- Links to handpicked reddit/twitter/urlo/etc threads that provide
 useful information -->
 
+- /r/rust_gamedev:
+  - [SDL2 vs Winit/Pixels/CPAL/etc. Is going "native" really worth it?](https://www.reddit.com/r/rust_gamedev/comments/xyjdy5/sdl2_vs_winitpixelscpaletc_is_going_native_really/)
+  - [What's the best 2D engine like pygame, but for Rust?](https://www.reddit.com/r/rust_gamedev/comments/y72as6/whats_the_best_2d_engine_like_pygame_but_for_rust)
+  - [Best way to draw massive amount of individual pixels every frame](https://www.reddit.com/r/rust_gamedev/comments/xz642j/falling_sand_simulation_best_way_to_draw_pixels)
+
 ## Requests for Contribution
 
 <!-- Links to "good first issue"-labels or direct links to specific tasks -->
 
-## Jobs
+- ['Are We Game Yet?' wants to know about projects/games/resources that
+  aren't listed yet][awgy].
+- [Graphite is looking for contributors][graphite-contribute] to help build the
+  new node graph and 2D rendering systems.
+- [winit's "difficulty: easy" issues][winit-issues].
+- [Backroll-rs, a new networking library][backroll-rs].
+- [Embark's open issues][embark-open-issues] ([embark.rs]).
+- [wgpu's "help wanted" issues][wgpu-issues].
+- [luminance's "low hanging fruit" issues][luminance-fruits].
+- [ggez's "good first issue" issues][ggez-issues].
+- [Veloren's "beginner" issues][veloren-beginner].
+- [A/B Street's "good first issue" issues][abstreet-issues].
+- [Mun's "good first issue" issues][mun-issues].
+- [SIMple Mechanic's good first issues][simm-issues].
+- [Bevy's "good first issue" issues][bevy-issues].
 
-<!-- An optional section for new jobs related to Rust gamedev -->
-
-## Bonus
-
-<!-- Bonus section to make the newsletter more interesting
-and highlight events from the past. -->
+[awgy]: https://github.com/rust-gamedev/arewegameyet#contribute
+[graphite-contribute]: https://graphite.rs/contribute
+[winit-issues]: https://github.com/rust-windowing/winit/issues?q=is%3Aopen+is%3Aissue+label%3A%22difficulty%3A+easy%22
+[backroll-rs]: https://github.com/HouraiTeahouse/backroll-rs/issues
+[embark.rs]: https://embark.rs
+[embark-open-issues]: https://github.com/search?q=user:EmbarkStudios+state:open
+[wgpu-issues]: https://github.com/gfx-rs/wgpu/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
+[luminance-fruits]: https://github.com/phaazon/luminance-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22low+hanging+fruit%22
+[ggez-issues]: https://github.com/ggez/ggez/labels/%2AGOOD%20FIRST%20ISSUE%2A
+[veloren-beginner]: https://gitlab.com/veloren/veloren/issues?label_name=beginner
+[abstreet-issues]: https://github.com/a-b-street/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
+[simm-issues]: https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue
+[bevy-issues]: https://github.com/bevyengine/bevy/labels/D-Good-First-Issue
 
 ------
 
@@ -483,13 +746,10 @@ Want something mentioned in the next newsletter?
 Also, subscribe to [@rust_gamedev on Twitter][@rust_gamedev]
 or [/r/rust_gamedev subreddit][/r/rust_gamedev] if you want to receive fresh news!
 
-<!--
-TODO: Add real links and un-comment once this post is published
 **Discuss this post on**:
-[/r/rust_gamedev](TODO),
-[Twitter](TODO),
+[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/yslo3f/this_month_in_rust_gamedev_39_october_2022/),
+[Twitter](https://twitter.com/rust_gamedev/status/1591162878190649345),
 [Discord](https://discord.gg/yNtPTb2).
--->
 
 [/r/rust_gamedev]: https://reddit.com/r/rust_gamedev
 [@rust_gamedev]: https://twitter.com/rust_gamedev
