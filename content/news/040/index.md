@@ -335,6 +335,56 @@ commands
 [seq-actions-docs]: https://docs.rs/bevy-sequential-actions
 [bevy]: https://bevyengine.org
 
+### [Bevy Vfx Bag]
+
+![Bevy vfx bag gif](underwater.gif)
+_A composite effect applied to Bevy's 3D shapes example._
+
+`bevy-vfx-bag` ([GitHub][bevy-vfx-bag-gh], [docs.rs][bevy-vfx-bag-docs])
+is a visual effects library for the [Bevy][bevy] game engine.
+
+It had its initial 0.1.0 release aligned with Bevy's recent 0.9.0 release.
+Each effect has a plugin and effects are applied in order:
+
+```rust
+// Shows an example of adding three post processing effects:
+app
+    .add_plugin(BevyVfxBagPlugin)           // Always needed
+    .add_plugin(RaindropsPlugin)            // Shows rain on-screen
+    .add_plugin(ChromaticAberrationPlugin)  // Skews color channels
+    .add_plugin(LutPlugin)                  // Allows using a look-up table to remap colors for
+                                            // having a specific "feel" to your game
+    .run();
+```
+
+The camera which receives these effects is marked as such:
+
+```rust
+commands
+    .spawn(Camera3dBundle { ... })
+    .insert(PostProcessingInput)            // Marks this camera for post processing usage
+```
+
+Effect settings can be changed at runtime:
+
+```rust
+fn update(time: Res<Time>, mut ca: ResMut<ChromaticAberration>) {
+    // Make the red color channel skew in a sinusoidal fashion
+    ca.magnitude_r = time.elapsed_seconds().sin();
+}
+```
+
+The GitHub repository has examples and videos for all effects.
+
+A complete rework of the plugin is underway for version 0.2.0, where the main goal is to
+align with and use Bevy's render graph features, including the new post processing double buffering feature
+which arrived in 0.9.0.
+
+[Bevy Vfx Bag]: https://crates.io/crates/bevy-vfx-bag
+[bevy-vfx-bag-gh]: https://github.com/torsteingrindvik/bevy-vfx-bag
+[bevy-vfx-bag-docs]: https://docs.rs/bevy-vfx-bag/0.1.0/bevy_vfx_bag/
+[bevy]: https://bevyengine.org
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
