@@ -35,6 +35,7 @@ Feel free to send PRs about your own projects!
 - [Learning Material Updates](#learning-material-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
+- [Other News](#other-news)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Meeting Minutes](#meeting-minutes)
 - [Discussions](#discussions)
@@ -150,6 +151,90 @@ You can check this [Reddit post][boytacean-red-ann] for more information.
 [boytacean-red-ann]: https://reddit.com/r/rust/comments/ywxugc/game_boy_emulator_using_rust
 
 ## Library Updates
+
+### [bevy_atmosphere] v0.5
+
+![bevy_atmosphere collage: colored skies](bevy_atmosphere.png)
+
+bevy_atmosphere ([crates.io](https://crates.io/crates/bevy_atmosphere),
+[docs.rs](https://docs.rs/bevy_atmosphere/latest/bevy_atmosphere/),
+[GitHub](https://github.com/JonahPlusPlus/bevy_atmosphere))
+is now compatible with Bevy 0.9.
+
+The focus of this update was decoupling the atmospheric model from the
+compute pipeline. What this means is that users can choose a different model
+or create their own using the `Atmospheric` trait. This sets the groundwork for
+having a variety of models to choose from, each for a different type of game.
+
+With the removal of the `Atmosphere` resource, comes the addition of the
+`AtmosphereModel` resource and the `Nishita` and `Gradient` models. `Nishita`
+is the same model that was used in previous version of bevy_atmosphere.
+`Gradient` is a new model that provides a simple gradient of three colors,
+making it ideal for stylized games.
+
+There is also the `Atmosphere<T>` and `AtmosphereMut<T>` system params,
+which can be used to work with a particular model
+without having to cast it from `AtmosphereModel`.
+
+If you want to read more about the technical changes, check out the developer's
+[blog post](https://jonahplusplus.dev/2022/12/01/bevy_atmosphere_0.5.html)!
+
+_Discussions:
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/za948o/bevy_atmosphere_05_is_now_released),
+[/r/bevy](https://reddit.com/r/bevy/comments/za93oo/bevy_atmosphere_05_is_now_released),
+[/r/rust](https://reddit.com/r/rust/comments/za93zb/bevy_atmosphere_05_is_now_released)_
+
+### [Bevy Sequential Actions]
+
+![Bevy sequential actions simple demo](sequential_actions.gif)
+_An entity with a queue of repeating actions._
+
+`bevy-sequential-actions` ([GitHub][seq-actions-gh], [docs.rs][seq-actions-docs])
+is a simple helper library for the [Bevy][bevy] game engine.
+It aims to execute a queue of various actions in a sequential manner.
+
+An action is anything that implements the `Action` trait,
+and can be added to any `Entity` that contains the `ActionsBundle`.
+In the image above, the following actions have been added:
+
+```rust
+commands
+    .actions(entity)
+    .config(AddConfig {
+        order: AddOrder::Back,
+        start: true,
+        repeat: Repeat::Forever,
+    })
+    .add(WaitAction::new(1.0))
+    .add(MoveAction::new(Vec3::X * 2.0))
+    .add(WaitAction::new(1.0))
+    .add(MoveAction::new(Vec3::X * -2.0));
+```
+
+With version `0.6` comes the ability to
+add a collection of actions that run in parallel.
+This means that all actions will start and stop at the same time,
+as the whole collection is treated as "one action".
+In other words, the action queue will only advance
+when all actions in the collection are finished.
+
+```rust
+commands
+    .actions(agent)
+    .add_many(
+        ExecutionMode::Parallel,
+        actions![
+            action_a,
+            action_b,
+            action_c,
+        ]
+    );
+```
+
+[Bevy Sequential Actions]: https://crates.io/crates/bevy-sequential-actions
+[seq-actions-gh]: https://github.com/hikikones/bevy-sequential-actions
+[seq-actions-docs]: https://docs.rs/bevy-sequential-actions
+[bevy]: https://bevyengine.org
 
 ## Popular Workgroup Issues in Github
 
