@@ -944,7 +944,7 @@ _Discussions: [/r/rust](https://reddit.com/r/rust/comments/pjlb92/kas_gui_v010)_
 [abstreet-issues]: https://github.com/a-b-street/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
 [mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
 [simm-issues]: https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue
-[bevy-issues]: https://github.com/bevyengine/bevy/labels/E-Good-First-Issue
+[bevy-issues]: https://github.com/bevyengine/bevy/labels/D-Good-First-Issue
 [Hacktoberfest]: https://hacktoberfest.digitalocean.com/
 
 ------
