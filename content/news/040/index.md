@@ -97,8 +97,8 @@ With promising ideas for future improvements, the rest of the month was spent
 focusing on getting the initial items completed, with Grenades, Swords, Crates,
 and Mines all landing recently.
 
-With just one more item planned an minimal clean up work, an MVP release is just
-around the corner!
+With just one more item planned and minimal clean up work, an MVP release is
+just around the corner!
 
 _Discussions: [GitHub][jumpy_discussions], [Twitter][jumpy_twitter]_
 
