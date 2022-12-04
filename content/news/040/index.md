@@ -197,6 +197,29 @@ were shared on [Dev.to][timely-defuse-dev].
 
 ## Engine Updates
 
+### [Fyrox]
+
+![Animation Editor](animation_editor.png)
+
+[Fyrox] ([Discord][fyrox_discord], [Twitter][fyrox_twitter]) is a game engine that
+aims to be easy to use and provide a large set of out-of-the-box features. In November
+it got a lot of new functionality and improved existing:
+
+- Major animation system rework
+- New animation editor
+- Reworked animation blending state machine editor
+- Major improvements to the curve editor widget
+- Curve-based animation system
+- Smart placement mode for move gizmo
+- Node and property selectors
+- Better WebAssembly support - asynchronous scene loading and WASM project template
+- Various improvements for project template generator
+- Lots of bug fixes
+
+[Fyrox]: https://github.com/FyroxEngine/Fyrox
+[fyrox_discord]: https://discord.com/invite/xENF5Uh
+[fyrox_twitter]: https://twitter.com/DmitryNStepanov
+
 ### [Pixel Engine][pixel_engine]
 
 [pixel_engine] by [@Maix0] is a 2D game engine that started as a Rust-version
