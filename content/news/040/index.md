@@ -74,27 +74,27 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ![UI preview](8bd-ui-prev.png)
 _UI preview_
 
-[@ThousandthStar] is creating an 8bit themed multiplayer game. It's a turn based strategy
-game and is currently under development. This month, the [blog] got moved from [dev.to] to
-ThousandthStar's own blog on Github. 
+[@ThousandthStar] is creating an 8bit themed multiplayer game. It's a turn based
+strategy game and is currently under development. This month, the [blog] got
+moved from [dev.to] to ThousandthStar's own blog on Github.
 
-The game is soon getting a UI, and more packets need to be implemented before the game is
-ready to play. ThousandthStar is excited for the game to be playable, but it will probably take
-some time, since he is doing it as a side project when he has some time. The game is lacking 
-troop spawns, a turn system, and some more troops! Any and all ideas posted to the [/r/rust_gamedev] 
-thread are greatly appreciated.
+The game is soon getting a UI, and more packets need to be implemented before
+the game is ready to play. ThousandthStar is excited for the game to be
+playable, but it will probably take some time, since he is doing it as a side
+project when he has some time. The game is lacking troop spawns, a turn system,
+and some more troops! Any and all ideas posted to the [r/rust_gamedev]thread
+are greatly appreciated.
 
-If possible, ThousandthStar would like the art to be made up of voxel models instead of just pixel art,
-but he doesn't know if he'll reach that point yet.
+If possible, ThousandthStar would like the art to be made up of voxel models
+instead of just pixel art, but he doesn't know if he'll reach that point yet.
 
-_Discussion: [/r/rust_gamedev]_
+_Discussion: [r/rust_gamedev]_
 
 [8bit Duels]: https://thousandthstar.github.io
-[useful links]: https://other.link
 [@ThousandthStar]: https://github.com/ThousandthStar
 [blog]: https://thousandthstar.github.io
 [dev.to]: https://dev.to/
-[/r/rust_gamedev]: https://www.reddit.com/r/rust_gamedev/comments/ylksma/discussion_thread_for_thousandthstars_multiplayer/
+[r/rust_gamedev]: https://www.reddit.com/r/rust_gamedev/comments/ylksma/discussion_thread_for_thousandthstars_multiplayer/
 
 ## Engine Updates
 
