@@ -283,6 +283,26 @@ _Discussions:
 [/r/bevy](https://reddit.com/r/bevy/comments/za93oo/bevy_atmosphere_05_is_now_released),
 [/r/rust](https://reddit.com/r/rust/comments/za93zb/bevy_atmosphere_05_is_now_released)_
 
+### [`seldom_pixel`][seldom_pixel-github]
+
+![Eight animated sprites with various configurations](seldom_pixel.gif)
+
+`seldom_pixel` ([GitHub][seldom_pixel-github], [Video Demo][seldom_pixel-demo])
+by [Seldom] is a Bevy plugin for limited color palette pixel art games,
+with features for filters, animations, typefaces, particle emitters,
+`bevy_ecs_tilemap` integration, and much more.
+
+In November, `seldom_pixel` received its 0.1 and 0.1.1 releases for Bevy 0.8.
+Its `main` branch supports Bevy 0.9, but depends on a particular
+`bevy_ecs_tilemap` commit.
+
+_Discussions:
+[Twitter](https://twitter.com/Seldom_SE/status/1587619563276902400)_
+
+[seldom_pixel-github]: https://github.com/Seldom-SE/seldom_pixel
+[seldom_pixel-demo]: https://youtu.be/pmTPdGxYVYw
+[Seldom]: https://github.com/Seldom-SE
+
 ### [Bevy Sequential Actions]
 
 ![Bevy sequential actions simple demo](sequential_actions.gif)
