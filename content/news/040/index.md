@@ -75,8 +75,8 @@ If needed, a section can be split into subsections with a "------" delimiter.
 _The abyss is the deepest, hardest level, filled with monsters of all sizes and strength_
 
 CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]) by CyberSoul
-is an ambitious endeavor to create an immersive universe experience 
-with the power of artificial intelligence and procedurally generated gameplay styles. 
+is an ambitious endeavor to create an immersive universe experience
+with the power of artificial intelligence and procedurally generated gameplay styles.
 Explore a world filled with strange creatures and thrilling adventures!
 
 The latest updates include:
@@ -87,7 +87,7 @@ The latest updates include:
 - Upgrade your stats as you level up
 - And an Emergency Recall feature for when you’re stranded
 
-Be among the first to experience the wonders of AI-driven universe with CyberGate! 
+Be among the first to experience the wonders of AI-driven universe with CyberGate!
 [Join the Discord server][cybergate-dis] to participate in upcoming Phase 7.0!
 
 [cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
