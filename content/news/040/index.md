@@ -335,6 +335,32 @@ commands
 [seq-actions-docs]: https://docs.rs/bevy-sequential-actions
 [bevy]: https://bevyengine.org
 
+### [Sparsey] v0.10
+
+[Sparsey] by [@LechintanTudor] is an Entity Component System focused on
+flexibility, conciseness and providing features exclusive to its sparse
+set-based implementation.
+
+The latest release takes advantage of the newly added Generic Associated Types
+to provide a uniform interface for running systems, functions and closures that
+borrow data from World and Resources, via the "run", "run_locally" and
+"run_exclusive" functions.
+
+Example:
+
+```rust
+let heaviest = sparsey::run(&world, &resources, |weights: Comp<Weight>| {
+    (&weights)
+        .iter()
+        .with_entity()
+        .max_by_key(|(_entity, &weight)| weight)
+        .map(|(entity, _weight)| entity)
+});
+```
+
+[Sparsey]: https://github.com/LechintanTudor/sparsey
+[@LechintanTudor]: https://github.com/LechintanTudor
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
