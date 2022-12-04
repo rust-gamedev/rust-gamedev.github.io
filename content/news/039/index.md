@@ -228,8 +228,6 @@ _Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/y
 [ThousandthStar]: https://github.com/ThousandthStar
 [Turn-based strategy game (ThousandthStar's devlog)]: https://dev.to/thousandthstar-start-of-the-game-development-blog-series-p42
 
-<<<<<<< HEAD
-=======
 ### vetovoima
 
 ![vetovoima](vetovoima.png)
@@ -245,7 +243,6 @@ turns into an arcade game, which eventually makes it to RustConf 2022!
 [vetovoima_twitter]: https://twitter.com/MatiasKlemola
 [vetovoima_blog]: https://www.valuemotive.com/post/hobby-project-spotlight-vetovoima
 
->>>>>>> 88e6253037b70c618537f7e475ac5315c97bde69
 ## Engine Updates
 
 ### [Fyrox]
