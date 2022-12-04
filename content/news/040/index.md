@@ -167,7 +167,6 @@ _Discussions: [StarWolves.io Bulletin Board]_
 [StarWolves.io Bulletin Board]: https://starwolves.io
 [Star Wolves]: https://starwolves.io
 [development journal]: https://starwolves.io/showthread.php?tid=1
-[Bevy]: https://bevyengine.org/
 [Space Frontiers]: https://github.com/starwolves/space
 [GitHub]: https://github.com/starwolves/space
 [open-source]: https://github.com/starwolves/space
@@ -333,7 +332,52 @@ commands
 [Bevy Sequential Actions]: https://crates.io/crates/bevy-sequential-actions
 [seq-actions-gh]: https://github.com/hikikones/bevy-sequential-actions
 [seq-actions-docs]: https://docs.rs/bevy-sequential-actions
-[bevy]: https://bevyengine.org
+
+### [Bevy Quickmenu]
+
+![Bevy Quickmenu simple menu demo](bevy_quickmenu.gif)
+
+bevy_quickmenu ([crates.io](https://crates.io/crates/bevy_quickmenu),
+[docs.rs](https://docs.rs/bevy_quickmenu),
+[GitHub](https://github.com/terhechte/bevy_quickmenu))
+allows quickly creating nested game menus that can be navigated with
+keyboard, gamepad or mouse.
+
+Bevy Quickmenu builds on BevyUI and allows defining nested menu structures in
+a super simple way. Its also very extensible and customisable.
+If you game needs menus and you would like to support multiple input methods,
+give it a try.
+
+For example, a simple vertical menu can be defined like this:
+
+```rust
+fn root_menu(state: &CustomState) -> Menu<Actions, Screens, CustomState> {
+    Menu::new(
+        "root",
+        vec![
+            MenuItem::image(state.logo.clone()),
+            MenuItem::headline("Menu"),
+            MenuItem::action("Start", Actions::Close),
+            MenuItem::screen("Sound", Screens::Sound)
+                .with_icon(MenuIcon::Sound),
+            MenuItem::screen("Controls", Screens::Controls)
+                .with_icon(MenuIcon::Controls),
+        ],
+    )
+}
+```
+
+For a more involved example, check out [this definition of a settings
+screen with control device selection and a sound
+menu.](https://github.com/terhechte/bevy_quickmenu/blob/main/examples/settings.rs)
+
+[Version `0.1.5`]
+(<https://github.com/terhechte/bevy_quickmenu/releases/tag/0.1.5>)
+was just released which simplifies generics and makes
+it easier to create dynamic menus.
+
+_Discussion:
+[/r/rust_gamedev](https://www.reddit.com/r/bevy/comments/yyl73c/new_plugin_bevy_quickmenu_quickly_create_nested)
 
 ## Popular Workgroup Issues in Github
 
