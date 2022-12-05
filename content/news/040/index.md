@@ -365,21 +365,20 @@ let heaviest = sparsey::run(&world, &resources, |weights: Comp<Weight>| {
 
 ![notan examples](notan.gif)
 
-[Notan] is a simple abstraction layer that provides cross-platform windowing, 
-input, audio, graphics and other features, in an ergonomic manner without 
+[Notan] is a simple abstraction layer that provides cross-platform windowing,
+input, audio, graphics and other features, in an ergonomic manner without
 enforcing any structure or pattern and treating WebAssembly as a first-class citizen.
 
-The version [v0.8] is one of the biggest releases, adding several improvements 
-in the drawing APIs and fixes and improvements in some other features like the 
+The version [v0.8] is one of the biggest releases, adding several improvements
+in the drawing APIs and fixes and improvements in some other features like the
 clipboard support.
 
-You can check the [demos] online and read more about the changes on the [changelog].  
+You can check the [demos] online and read more about the changes on the [changelog].
 
 [Notan]: https://github.com/Nazariglez/notan
 [v0.8]: https://github.com/Nazariglez/notan/releases/tag/v0.8.0
 [changelog]: https://github.com/Nazariglez/notan/blob/main/CHANGELOG.md
 [demos]: https://nazariglez.github.io/notan-web
-
 
 ## Popular Workgroup Issues in Github
 
