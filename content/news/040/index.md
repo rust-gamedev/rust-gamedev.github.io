@@ -195,6 +195,21 @@ were shared on [Dev.to][timely-defuse-dev].
 [@E_net4]: https://hachyderm.io/@E_net4
 [timely-defuse-dev]: https://dev.to/e_net4/timely-wrap-up-quick-notes-on-timely-defuse-441o
 
+### [Spaceviata]
+
+![Screenshot of Spaceviata, showing the galaxy with some stars discovered and the game UI.](spaceviata.png)
+
+[Spaceviata] ([GitHub][spaceviata-github]) by [@FrancoisMockers]
+is a strategy game made with [Bevy], submitted to GitHub Game Off 2022.
+
+Starting with one star, your goal in this turn by turn game is to conquer the
+galaxy, fighting against AI players, and balancing exploration with
+colonization to avoid stretching your resources too thin.
+
+[Spaceviata]: https://vleue.itch.io/spaceviata
+[spaceviata-github]: https://github.com/mockersf/spaceviata
+[@FrancoisMockers]: https://hachyderm.io/@FrancoisMockers
+
 ## Engine Updates
 
 ### [Pixel Engine][pixel_engine]
