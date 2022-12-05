@@ -283,7 +283,7 @@ _Discussions:
 [/r/bevy](https://reddit.com/r/bevy/comments/za93oo/bevy_atmosphere_05_is_now_released),
 [/r/rust](https://reddit.com/r/rust/comments/za93zb/bevy_atmosphere_05_is_now_released)_
 
-[bevy_atmosphere]: https://crates.io/crates/bevy_atmosphere 
+[bevy_atmosphere]: https://crates.io/crates/bevy_atmosphere
 
 ### [Bevy Sequential Actions]
 
