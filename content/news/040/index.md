@@ -205,7 +205,8 @@ were shared on [Dev.to][timely-defuse-dev].
 It is [free and open source][bevy_repo] forever!
 
 Bevy 0.9 brought many incredible new features.
-You can check out the [full release blog post here][bevy_news], but here are some highlights:
+You can check out the [full release blog post here][bevy_news],
+but here are some highlights:
 
 - [HDR Post Processing, Tonemapping, and Bloom](https://bevyengine.org/news/bevy-0-9/#hdr-post-processing-tonemapping-and-bloom)
 - [FXAA](https://bevyengine.org/news/bevy-0-9/#fxaa-fast-approximate-anti-aliasing)
