@@ -197,6 +197,31 @@ were shared on [Dev.to][timely-defuse-dev].
 
 ## Engine Updates
 
+### [Bevy v0.9][bevy_news]
+
+![bevy bloom lion](bevy_bloom_lion.png)
+
+[Bevy][bevy_engine] is a refreshingly simple data-driven game engine built in Rust. It is [free and open source][bevy_repo] forever!
+
+Bevy 0.9 brought many incredible new features. You can check out the [full release blog post here][bevy_news], but here are some highlights:
+
+- [HDR Post Processing, Tonemapping, and Bloom](https://bevyengine.org/news/bevy-0-9/#hdr-post-processing-tonemapping-and-bloom)
+- [FXAA](https://bevyengine.org/news/bevy-0-9/#fxaa-fast-approximate-anti-aliasing)
+- [Deband Dithering](https://bevyengine.org/news/bevy-0-9/#deband-dithering)
+- [Other Post Processing Improvements](https://bevyengine.org/news/bevy-0-9/#post-processing-view-target-double-buffering)
+- [New Scene Format](https://bevyengine.org/news/bevy-0-9/#new-scene-format)
+- [Code Driven Scene Construction](https://bevyengine.org/news/bevy-0-9/#dynamic-scene-builder)
+- [Improved Entity/Component APIs](https://bevyengine.org/news/bevy-0-9/#improved-entity-component-apis)
+- [Exclusive System Rework](https://bevyengine.org/news/bevy-0-9/#exclusive-system-rework)
+- [Enum Reflection](https://bevyengine.org/news/bevy-0-9/#enum-reflection)
+- [Time Shader Globals](https://bevyengine.org/news/bevy-0-9/#time-shader-globals)
+- [Plugin Settings](https://bevyengine.org/news/bevy-0-9/#plugin-settings)
+- [Bevy UI Z-Indices](https://bevyengine.org/news/bevy-0-9/#bevy-ui-z-indices)
+
+[bevy_engine]: https://bevyengine.org/
+[bevy_news]: https://bevyengine.org/news/bevy-0-9/
+[bevy_repo]: https://github.com/bevyengine/bevy
+
 ### [Pixel Engine][pixel_engine]
 
 [pixel_engine] by [@Maix0] is a 2D game engine that started as a Rust-version
