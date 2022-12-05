@@ -251,11 +251,11 @@ You can check this [Reddit post][boytacean-red-ann] for more information.
 
 ## Library Updates
 
-### [bevy_atmosphere] v0.5
+### [bevy_atmosphere v0.5][bevy_atmosphere]
 
 ![bevy_atmosphere collage: colored skies](bevy_atmosphere.png)
 
-bevy_atmosphere ([crates.io](https://crates.io/crates/bevy_atmosphere),
+bevy_atmosphere ([crates.io][bevy_atmosphere],
 [docs.rs](https://docs.rs/bevy_atmosphere/latest/bevy_atmosphere/),
 [GitHub](https://github.com/JonahPlusPlus/bevy_atmosphere))
 is now compatible with Bevy 0.9.
@@ -282,6 +282,8 @@ _Discussions:
 [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/za948o/bevy_atmosphere_05_is_now_released),
 [/r/bevy](https://reddit.com/r/bevy/comments/za93oo/bevy_atmosphere_05_is_now_released),
 [/r/rust](https://reddit.com/r/rust/comments/za93zb/bevy_atmosphere_05_is_now_released)_
+
+[bevy_atmosphere]: https://crates.io/crates/bevy_atmosphere 
 
 ### [Bevy Sequential Actions]
 
