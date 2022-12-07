@@ -391,7 +391,19 @@ useful information -->
 
 ## Jobs
 
-<!-- An optional section for new jobs related to Rust gamedev -->
+- [DIMS](https://dims.co/career) (Stockholm)
+
+  - Come build a game engine and creation platform from scratch in Rust! It’s got everything: game-like collaborative building, networking by default, procedural worldbuilding, WebAssembly for scripting, WebGPU for graphics, and community-driven co-creation.
+
+  - Looking for:
+    - [Game engine programmers](https://www.linkedin.com/jobs/view/3378931463/)
+    - Senior product designer
+    - Sound artists
+    - 3D artists
+    - Technical artists
+    - Animator
+    - Community manager
+    - Open applications accepted
 
 ## Bonus
 
