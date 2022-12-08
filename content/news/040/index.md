@@ -195,6 +195,19 @@ were shared on [Dev.to][timely-defuse-dev].
 [@E_net4]: https://hachyderm.io/@E_net4
 [timely-defuse-dev]: https://dev.to/e_net4/timely-wrap-up-quick-notes-on-timely-defuse-441o
 
+### [Scummstreets]
+
+[Scummstreets] is a new multiplayer online role-playing game by [@dooskington].
+The game is a fork/sequel to [Antorum Isles], so the game server is written in Rust,
+and the official client is made with Unity. It's still in a pre-alpha state.
+
+There was one dev log published this month:
+- [2: Character And Combat Work](https://ratwizard.dev/dev-log/scummstreets/2)
+
+[Scummstreets]: https://ratwizard.dev/dev-log/scummstreets
+[Antorum Isles]: https://antorum.ratwizard.dev/
+[@dooskington]: https://twitter.com/dooskington
+
 ## Engine Updates
 
 ### [Pixel Engine][pixel_engine]
