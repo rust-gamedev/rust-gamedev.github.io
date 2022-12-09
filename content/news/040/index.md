@@ -202,6 +202,7 @@ The game is a fork/sequel to [Antorum Isles], so the game server is written in R
 and the official client is made with Unity. It's still in a pre-alpha state.
 
 There was one dev log published this month:
+
 - [2: Character And Combat Work](https://ratwizard.dev/dev-log/scummstreets/2)
 
 [Scummstreets]: https://ratwizard.dev/dev-log/scummstreets
