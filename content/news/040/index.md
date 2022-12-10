@@ -304,8 +304,9 @@ node graph compositing engine.
 November's [sprint 20][graphite-sprint-20] introduces:
 
 - Filling in the blanks: The Imaginate tool gains Inpaint/Outpaint, letting
-  users [replace content][graphite-inpaint-demo] in masked areas and even ["uncrop"][graphite-outpaint-demo] entire images,
-  powered by [Stable Diffusion][graphite-stable-diffusion].
+  users [replace content][graphite-inpaint-demo] in masked areas and even
+  ["uncrop"][graphite-outpaint-demo] entire images, powered by
+  [Stable Diffusion][graphite-stable-diffusion].
 - Going native: Graphite is now available as a desktop app, thanks to Tauri.
   The app now has access to system resources like rustc and the GPU, which lets
   it compile and run node graph effects as SPIR-V compute shaders in Vulkan for
@@ -315,7 +316,8 @@ November's [sprint 20][graphite-sprint-20] introduces:
   and chain together effects. Nodes can be set in the Properties panel or
   exposed as inputs in the graph.
 
-It's easy to get involved with the project by developing new nodes. Join the project [Discord][graphite-discord] and ask how to begin.
+It's easy to get involved with the project by developing new nodes. Join the
+project [Discord][graphite-discord] and ask how to begin.
 
 Stay tuned for the imminent Alpha Milestone 2 release and progress converting
 existing features into nodes.
