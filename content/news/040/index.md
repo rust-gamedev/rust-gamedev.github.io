@@ -208,7 +208,7 @@ The game is soon getting a UI, and more packets need to be implemented before
 the game is ready to play. ThousandthStar is excited for the game to be
 playable, but it will probably take some time, since he is doing it as a side
 project when he has some time. The game is lacking troop spawns, a turn system,
-and some more troops! Any and all ideas posted to the [r/rust_gamedev]thread
+and some more troops! Any and all ideas posted to the [r/rust_gamedev] thread
 are greatly appreciated.
 
 If possible, ThousandthStar would like the art to be made up of voxel models
