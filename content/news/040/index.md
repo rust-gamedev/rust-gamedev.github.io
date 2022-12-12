@@ -313,7 +313,7 @@ and some more troops! Any and all ideas posted to the
 If possible, ThousandthStar would like the art to be made up of voxel models
 instead of just pixel art, but he doesn't know if he'll reach that point yet.
 
-_Discussion: [r/rust_gamedev]_
+_Discussion: [r/rust_gamedev][8bit-r/rust_gamedev]_
 
 [8bit Duels]: https://thousandthstar.github.io
 [@ThousandthStar]: https://github.com/ThousandthStar
@@ -725,6 +725,26 @@ in 0.9.0.
 [bevy-vfx-bag-gh]: https://github.com/torsteingrindvik/bevy-vfx-bag
 [bevy-vfx-bag-docs]: https://docs.rs/bevy-vfx-bag/0.1.0/bevy_vfx_bag/
 [bevy]: https://bevyengine.org
+
+### [`seldom_pixel`][seldom_pixel-github]
+
+![Eight animated sprites with various configurations](seldom_pixel.gif)
+
+`seldom_pixel` ([GitHub][seldom_pixel-github], [Video Demo][seldom_pixel-demo])
+by [Seldom] is a Bevy plugin for limited color palette pixel art games,
+with features for filters, animations, typefaces, particle emitters,
+`bevy_ecs_tilemap` integration, and much more.
+
+In November, `seldom_pixel` received its 0.1 and 0.1.1 releases for Bevy 0.8.
+Its `main` branch supports Bevy 0.9, but depends on a particular
+`bevy_ecs_tilemap` commit.
+
+_Discussions:
+[Twitter](https://twitter.com/Seldom_SE/status/1587619563276902400)_
+
+[seldom_pixel-github]: https://github.com/Seldom-SE/seldom_pixel
+[seldom_pixel-demo]: https://youtu.be/pmTPdGxYVYw
+[Seldom]: https://github.com/Seldom-SE
 
 ## Popular Workgroup Issues in Github
 
