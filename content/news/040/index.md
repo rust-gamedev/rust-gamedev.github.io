@@ -406,6 +406,53 @@ let heaviest = sparsey::run(&world, &resources, |weights: Comp<Weight>| {
 [Sparsey]: https://github.com/LechintanTudor/sparsey
 [@LechintanTudor]: https://github.com/LechintanTudor
 
+### [Bevy Quickmenu][bevy_quickmenu_crates]
+
+![Bevy Quickmenu simple menu demo](bevy_quickmenu.gif)
+
+bevy_quickmenu ([crates.io][bevy_quickmenu_crates],
+[docs.rs][bevy_quickmenu_docs], [GitHub][bevy_quickmenu_github]) allows quickly
+creating nested game menus that can be navigated with keyboard, gamepad or
+mouse.
+
+Bevy Quickmenu builds on BevyUI and allows defining nested menu structures in a
+super simple way. Its also very extensible and customisable. If you game needs
+menus and you would like to support multiple input methods, give it a try.
+
+For example, a simple vertical menu can be defined like this:
+
+```rust
+fn root_menu(state: &CustomState) -> Menu<Actions, Screens, CustomState> {
+    Menu::new(
+        "root",
+        vec![
+            MenuItem::image(state.logo.clone()),
+            MenuItem::headline("Menu"),
+            MenuItem::action("Start", Actions::Close),
+            MenuItem::screen("Sound", Screens::Sound)
+                .with_icon(MenuIcon::Sound),
+            MenuItem::screen("Controls", Screens::Controls)
+                .with_icon(MenuIcon::Controls),
+        ],
+    )
+}
+```
+
+For a more involved example, check out [this definition of a settings screen
+with control device selection and a sound menu][bevy_quickmenu_settings].
+[Version `0.1.5`][bevy_quickmenu_0.1.5] was just released which simplifies
+generics and makes it easier to create dynamic menus.
+
+_Discussion:
+[/r/rust_gamedev][bevy_quickmenu_reddit]_
+
+[bevy_quickmenu_crates]: https://crates.io/crates/bevy_quickmenu
+[bevy_quickmenu_docs]: https://docs.rs/bevy_quickmenu
+[bevy_quickmenu_github]: https://github.com/terhechte/bevy_quickmenu
+[bevy_quickmenu_settings]: https://github.com/terhechte/bevy_quickmenu/blob/main/examples/settings.rs
+[bevy_quickmenu_0.1.5]: https://github.com/terhechte/bevy_quickmenu/releases/tag/0.1.5
+[bevy_quickmenu_reddit]: https://www.reddit.com/r/bevy/comments/yyl73c/new_plugin_bevy_quickmenu_quickly_create_nested
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
