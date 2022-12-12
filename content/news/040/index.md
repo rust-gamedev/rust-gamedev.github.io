@@ -402,6 +402,35 @@ _Discussions:
 [bevy_news]: https://bevyengine.org/news/bevy-0-9/
 [bevy_repo]: https://github.com/bevyengine/bevy
 
+### [godot-rust][gd-github]
+
+![godot-rust GDExtension](godot-rust-gdextension.png)
+
+godot-rust ([GitHub][gd-github], [Discord][gd-discord], [Twitter][gd-twitter])
+is a Rust library that provides bindings for the Godot engine. Just this month,
+a [Mastodon account][gd-mastodon] was opened to share development info.
+
+November brings the long-awaited GDExtension binding, enabling access to Godot 4
+features from Rust. Still in an early experimental phase, it is already possible
+to run smaller examples like Godot's famous Dodge-the-Creeps tutorial game.
+
+Compared to the GDNative binding, APIs are a bit simpler now:
+
+- One central `Gd<T>` pointer combining `Ref`/`Instance` and their type-states
+- Self-registering classes: `#[derive(GodotClass)]` and you're good-to-go
+- Less `unsafe`, less `unwrap()`, more runtime checks
+
+The repository is available at [godot-rust/gdextension][gd-github], while the
+current development status is tracked in [#24][gd-24]. The [book][gd-book] as
+well as documentation are still under construction.
+
+[gd-24]: https://github.com/godot-rust/gdextension/issues/24
+[gd-book]: https://github.com/godot-rust/book
+[gd-github]: https://github.com/godot-rust/gdextension
+[gd-discord]: https://discord.gg/aKUCJ8rJsc
+[gd-twitter]: https://twitter.com/GodotRust
+[gd-mastodon]: https://mastodon.gamedev.place/@GodotRust
+
 ## Learning Material Updates
 
 ## Tooling Updates
