@@ -279,6 +279,20 @@ colonization to avoid stretching your resources too thin.
 [spaceviata-github]: https://github.com/mockersf/spaceviata
 [@FrancoisMockers]: https://hachyderm.io/@FrancoisMockers
 
+### [Scummstreets]
+
+[Scummstreets] is a new multiplayer online role-playing game by [@dooskington].
+The game is a fork/sequel to [Antorum Isles], so the game server is written in Rust,
+and the official client is made with Unity. It's still in a pre-alpha state.
+
+There was one dev log published this month:
+
+- [2: Character And Combat Work](https://ratwizard.dev/dev-log/scummstreets/2)
+
+[Scummstreets]: https://ratwizard.dev/dev-log/scummstreets
+[Antorum Isles]: https://antorum.ratwizard.dev/
+[@dooskington]: https://twitter.com/dooskington
+
 ## Engine Updates
 
 ### [Pixel Engine][pixel_engine]
