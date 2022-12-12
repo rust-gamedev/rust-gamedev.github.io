@@ -550,6 +550,26 @@ _Discussion:
 [bevy_quickmenu_0.1.5]: https://github.com/terhechte/bevy_quickmenu/releases/tag/0.1.5
 [bevy_quickmenu_reddit]: https://www.reddit.com/r/bevy/comments/yyl73c/new_plugin_bevy_quickmenu_quickly_create_nested
 
+### [Bevy Hikari] v0.3
+
+![bevy-hikari screenshot](bevy-hikari-n40.jpeg)
+_Direct lighting, emissive lighting and indirect global illumination under 4x
+temporal upscaling._
+
+`bevy-hikari` ([crates.io][hikari-crates], [docs.rs][hikari-docs],
+[GitHub][hikari-github]), a path tracing renderer for [Bevy], is now compatible
+with the 0.9 version of the engine.
+
+In recent updates, the renderer implements light BVH, which allows faster and
+more accurate multiple emissive sampling. It also features a spatial upscaler
+based on FSR 1.0 and a temporal upscaler based on SMAA Tu4x, making it more
+affordable for median end devices.
+
+[Bevy Hikari]: https://github.com/cryscan/bevy-hikari
+[hikari-crates]: https://crates.io/crates/bevy-hikari
+[hikari-docs]: https://docs.rs/bevy-hikari
+[hikari-github]: https://github.com/cryscan/bevy-hikari
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
