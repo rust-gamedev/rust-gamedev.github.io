@@ -201,15 +201,16 @@ were shared on [Dev.to][timely-defuse-dev].
 _UI preview_
 
 [@ThousandthStar] is creating an 8bit themed multiplayer game. It's a turn based
-strategy game and is currently under development. This month, the [blog] got
-moved from [dev.to] to ThousandthStar's own blog on Github.
+strategy game and is currently under development. This month, the
+[blog][8bit-blog] got moved from [dev.to][8bit-dev.to] to ThousandthStar's own
+blog on Github.
 
 The game is soon getting a UI, and more packets need to be implemented before
 the game is ready to play. ThousandthStar is excited for the game to be
 playable, but it will probably take some time, since he is doing it as a side
 project when he has some time. The game is lacking troop spawns, a turn system,
-and some more troops! Any and all ideas posted to the [r/rust_gamedev] thread
-are greatly appreciated.
+and some more troops! Any and all ideas posted to the
+[r/rust_gamedev][8bit-r/rust_gamedev] thread are greatly appreciated.
 
 If possible, ThousandthStar would like the art to be made up of voxel models
 instead of just pixel art, but he doesn't know if he'll reach that point yet.
@@ -218,9 +219,9 @@ _Discussion: [r/rust_gamedev]_
 
 [8bit Duels]: https://thousandthstar.github.io
 [@ThousandthStar]: https://github.com/ThousandthStar
-[blog]: https://thousandthstar.github.io
-[dev.to]: https://dev.to/
-[r/rust_gamedev]: https://www.reddit.com/r/rust_gamedev/comments/ylksma/discussion_thread_for_thousandthstars_multiplayer/
+[8bit-blog]: https://thousandthstar.github.io
+[8bit-dev.to]: https://dev.to/
+[8bit-r/rust_gamedev]: https://www.reddit.com/r/rust_gamedev/comments/ylksma/discussion_thread_for_thousandthstars_multiplayer/
 
 ## Engine Updates
 
