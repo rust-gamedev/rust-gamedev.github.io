@@ -69,6 +69,75 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Jumpy]
+
+![Swords, Crates, Grenades, & Mines](./jumpy.png)
+_Jumpy Items: Swords, Crates, Grenades, & Mines_
+
+[Jumpy] ([GitHub][Jumpy], [Discord][jumpy_discord], [Twitter][jumpy_twitter]) by
+[Spicy Lobster][spicy_lobster] is a pixel-style, tactical 2D shooter with a fishy
+theme.
+
+In the last month, Jumpy migrated from a client-server networking model to a P2P
+Rollback model using [GGRS]. This was to address shortcommings with the server
+model that had been implemented, and to take advantage of the excellent user
+user experience that rollback networking can offer.
+
+The rollback model did come with the new requirement to run up to 8 simulation
+frames per 16ms screen refresh, though, and unfortunatley the JavaScript
+bindings used to implement the game items were not performant enough to keep up.
+For now, scripting has been temporarily disabled.
+
+This sparked a quick migration of the TypeScript files to Rust, and also
+[discussion][jumpy_wasm_discussion] about future possibilities for using WASM to
+get beter determinism and rollback performance, along with lower-overhead WASM
+scripts.
+
+With promising ideas for future improvements, the rest of the month was spent
+focusing on getting the initial items completed, with Grenades, Swords, Crates,
+and Mines all landing recently.
+
+With just one more item planned and minimal clean up work, an MVP release is
+just around the corner!
+
+_Discussions: [GitHub][jumpy_discussions], [Twitter][jumpy_twitter]_
+
+[Jumpy]: https://github.com/fishfolks/jumpy
+[jumpy_rewrite]: https://github.com/fishfolks/jumpy/pull/466
+[Bevy]: https://bevyengine.org
+[GGRS]: https://github.com/gschup/ggrs
+[jumpy_discussions]: https://github.com/fishfolks/jumpy/discussions
+[jumpy_twitter]: https://twitter.com/spicylobsterfam
+[jumpy_discord]: https://discord.gg/4smxjcheE5
+[spicy_lobster]:  https://spicylobster.itch.io/
+[jumpy_wasm_discussion]: https://github.com/fishfolk/jumpy/discussions/489
+
+### [CyberGate][cybergate-yt]
+
+![At the Abyss](cybergate.png)
+_The abyss is the deepest, hardest level, filled with monsters of all sizes and strength_
+
+CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]) by CyberSoul is an
+ambitious endeavor to create an immersive universe experience with the power of
+artificial intelligence and procedurally generated gameplay styles. Explore a
+world filled with strange creatures and thrilling adventures!
+
+The latest updates include:
+
+- A new islands map featuring a safe zone and progressively more challenging
+  levels
+- Collectible Cubic Orbs that provide health, points and bullets
+- An intuitive interface for day cycle, inventory (bullets) and cooldowns
+- Upgrade your stats as you level up
+- And an Emergency Recall feature for when you’re stranded
+
+Be among the first to experience the wonders of AI-driven universe with
+CyberGate! [Join the Discord server][cybergate-dis] to participate in upcoming
+Phase 7.0!
+
+[cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
+[cybergate-dis]: https://discord.gg/R7DkHqw7zJ
+
 ### Rusty Vangers
 
 ![Vange-rs rendered with a voxel tree](vangers-3rd-person.jpg)
@@ -195,6 +264,21 @@ were shared on [Dev.to][timely-defuse-dev].
 [@E_net4]: https://hachyderm.io/@E_net4
 [timely-defuse-dev]: https://dev.to/e_net4/timely-wrap-up-quick-notes-on-timely-defuse-441o
 
+### [Spaceviata]
+
+![Screenshot of Spaceviata, showing the galaxy with some stars discovered and the game UI.](spaceviata.png)
+
+[Spaceviata] ([GitHub][spaceviata-github]) by [@FrancoisMockers]
+is a strategy game made with [Bevy], submitted to GitHub Game Off 2022.
+
+Starting with one star, your goal in this turn by turn game is to conquer the
+galaxy, fighting against AI players, and balancing exploration with
+colonization to avoid stretching your resources too thin.
+
+[Spaceviata]: https://vleue.itch.io/spaceviata
+[spaceviata-github]: https://github.com/mockersf/spaceviata
+[@FrancoisMockers]: https://hachyderm.io/@FrancoisMockers
+
 ### [Scummstreets]
 
 [Scummstreets] is a new multiplayer online role-playing game by [@dooskington].
@@ -233,6 +317,62 @@ You can have multiple non-overlapping views at the same time.
 [@Maix0]: https://github.com/Maix0
 [SpriteRef]: https://docs.rs/pixel_engine/0.6.0/pixel_engine/graphics/struct.SpriteMutRef.html
 [wgpu]: https://wgpu.rs/
+
+### [Fyrox]
+
+![Animation Editor](animation_editor.png)
+
+[Fyrox] ([Discord][fyrox_discord], [Twitter][fyrox_twitter]) is a game engine that
+aims to be easy to use and provide a large set of out-of-the-box features. In November
+it got a lot of new functionality and improved existing:
+
+- Major animation system rework
+- New animation editor
+- Reworked animation blending state machine editor
+- Major improvements to the curve editor widget
+- Curve-based animation system
+- Smart placement mode for move gizmo
+- Node and property selectors
+- Better WebAssembly support - asynchronous scene loading and WASM project template
+- Various improvements for project template generator
+- Lots of bug fixes
+
+[Fyrox]: https://github.com/FyroxEngine/Fyrox
+[fyrox_discord]: https://discord.com/invite/xENF5Uh
+[fyrox_twitter]: https://twitter.com/DmitryNStepanov
+
+### [Bevy v0.9][bevy_news]
+
+![bevy bloom lion](bevy_bloom_lion.jpeg)
+
+[Bevy][bevy_engine] is a refreshingly simple data-driven game engine built in Rust.
+It is [free and open source][bevy_repo] forever!
+
+Bevy 0.9 brought many incredible new features.
+You can check out the [full release blog post here][bevy_news],
+but here are some highlights:
+
+- [HDR Post Processing, Tonemapping, and Bloom](https://bevyengine.org/news/bevy-0-9/#hdr-post-processing-tonemapping-and-bloom)
+- [FXAA](https://bevyengine.org/news/bevy-0-9/#fxaa-fast-approximate-anti-aliasing)
+- [Deband Dithering](https://bevyengine.org/news/bevy-0-9/#deband-dithering)
+- [Other Post Processing Improvements](https://bevyengine.org/news/bevy-0-9/#post-processing-view-target-double-buffering)
+- [New Scene Format](https://bevyengine.org/news/bevy-0-9/#new-scene-format)
+- [Code Driven Scene Construction](https://bevyengine.org/news/bevy-0-9/#dynamic-scene-builder)
+- [Improved Entity/Component APIs](https://bevyengine.org/news/bevy-0-9/#improved-entity-component-apis)
+- [Exclusive System Rework](https://bevyengine.org/news/bevy-0-9/#exclusive-system-rework)
+- [Enum Reflection](https://bevyengine.org/news/bevy-0-9/#enum-reflection)
+- [Time Shader Globals](https://bevyengine.org/news/bevy-0-9/#time-shader-globals)
+- [Plugin Settings](https://bevyengine.org/news/bevy-0-9/#plugin-settings)
+- [Bevy UI Z-Indices](https://bevyengine.org/news/bevy-0-9/#bevy-ui-z-indices)
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/ytiv2a/bevy_09/),
+[Hacker News](https://news.ycombinator.com/item?id=33577284),
+[Twitter](https://twitter.com/cart_cart/status/1591543728233385984)_
+
+[bevy_engine]: https://bevyengine.org/
+[bevy_news]: https://bevyengine.org/news/bevy-0-9/
+[bevy_repo]: https://github.com/bevyengine/bevy
 
 ## Learning Material Updates
 
@@ -376,6 +516,92 @@ let heaviest = sparsey::run(&world, &resources, |weights: Comp<Weight>| {
 
 [Sparsey]: https://github.com/LechintanTudor/sparsey
 [@LechintanTudor]: https://github.com/LechintanTudor
+
+### [Bevy Quickmenu][bevy_quickmenu_crates]
+
+![Bevy Quickmenu simple menu demo](bevy_quickmenu.gif)
+
+bevy_quickmenu ([crates.io][bevy_quickmenu_crates],
+[docs.rs][bevy_quickmenu_docs], [GitHub][bevy_quickmenu_github]) allows quickly
+creating nested game menus that can be navigated with keyboard, gamepad or
+mouse.
+
+Bevy Quickmenu builds on BevyUI and allows defining nested menu structures in a
+super simple way. Its also very extensible and customisable. If you game needs
+menus and you would like to support multiple input methods, give it a try.
+
+For example, a simple vertical menu can be defined like this:
+
+```rust
+fn root_menu(state: &CustomState) -> Menu<Actions, Screens, CustomState> {
+    Menu::new(
+        "root",
+        vec![
+            MenuItem::image(state.logo.clone()),
+            MenuItem::headline("Menu"),
+            MenuItem::action("Start", Actions::Close),
+            MenuItem::screen("Sound", Screens::Sound)
+                .with_icon(MenuIcon::Sound),
+            MenuItem::screen("Controls", Screens::Controls)
+                .with_icon(MenuIcon::Controls),
+        ],
+    )
+}
+```
+
+For a more involved example, check out [this definition of a settings screen
+with control device selection and a sound menu][bevy_quickmenu_settings].
+[Version `0.1.5`][bevy_quickmenu_0.1.5] was just released which simplifies
+generics and makes it easier to create dynamic menus.
+
+_Discussion:
+[/r/rust_gamedev][bevy_quickmenu_reddit]_
+
+[bevy_quickmenu_crates]: https://crates.io/crates/bevy_quickmenu
+[bevy_quickmenu_docs]: https://docs.rs/bevy_quickmenu
+[bevy_quickmenu_github]: https://github.com/terhechte/bevy_quickmenu
+[bevy_quickmenu_settings]: https://github.com/terhechte/bevy_quickmenu/blob/main/examples/settings.rs
+[bevy_quickmenu_0.1.5]: https://github.com/terhechte/bevy_quickmenu/releases/tag/0.1.5
+[bevy_quickmenu_reddit]: https://www.reddit.com/r/bevy/comments/yyl73c/new_plugin_bevy_quickmenu_quickly_create_nested
+
+### [Notan v0.8][Notan]
+
+![notan examples](notan.gif)
+
+[Notan] is a simple abstraction layer that provides cross-platform windowing,
+input, audio, graphics and other features, in an ergonomic manner without
+enforcing any structure or pattern and treating WebAssembly as a first-class citizen.
+
+The version [v0.8] is one of the biggest releases, adding several improvements
+in the drawing APIs and fixes and improvements in some other features like the
+clipboard support.
+
+You can check the [demos] online and read more about the changes on the [changelog].
+
+[Notan]: https://github.com/Nazariglez/notan
+[v0.8]: https://github.com/Nazariglez/notan/releases/tag/v0.8.0
+[changelog]: https://github.com/Nazariglez/notan/blob/main/CHANGELOG.md
+[demos]: https://nazariglez.github.io/notan-web
+
+### [Bevy Hikari] v0.3
+
+![bevy-hikari screenshot](bevy-hikari-n40.jpeg)
+_Direct lighting, emissive lighting and indirect global illumination under 4x
+temporal upscaling._
+
+`bevy-hikari` ([crates.io][hikari-crates], [docs.rs][hikari-docs],
+[GitHub][hikari-github]), a path tracing renderer for [Bevy], is now compatible
+with the 0.9 version of the engine.
+
+In recent updates, the renderer implements light BVH, which allows faster and
+more accurate multiple emissive sampling. It also features a spatial upscaler
+based on FSR 1.0 and a temporal upscaler based on SMAA Tu4x, making it more
+affordable for median end devices.
+
+[Bevy Hikari]: https://github.com/cryscan/bevy-hikari
+[hikari-crates]: https://crates.io/crates/bevy-hikari
+[hikari-docs]: https://docs.rs/bevy-hikari
+[hikari-github]: https://github.com/cryscan/bevy-hikari
 
 ## Popular Workgroup Issues in Github
 
