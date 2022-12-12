@@ -69,6 +69,49 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Jumpy]
+
+![Swords, Crates, Grenades, & Mines](./jumpy.png)
+_Jumpy Items: Swords, Crates, Grenades, & Mines_
+
+[Jumpy] ([GitHub][Jumpy], [Discord][jumpy_discord], [Twitter][jumpy_twitter]) by
+[Spicy Lobster][spicy_lobster] is a pixel-style, tactical 2D shooter with a fishy
+theme.
+
+In the last month, Jumpy migrated from a client-server networking model to a P2P
+Rollback model using [GGRS]. This was to address shortcommings with the server
+model that had been implemented, and to take advantage of the excellent user
+user experience that rollback networking can offer.
+
+The rollback model did come with the new requirement to run up to 8 simulation
+frames per 16ms screen refresh, though, and unfortunatley the JavaScript
+bindings used to implement the game items were not performant enough to keep up.
+For now, scripting has been temporarily disabled.
+
+This sparked a quick migration of the TypeScript files to Rust, and also
+[discussion][jumpy_wasm_discussion] about future possibilities for using WASM to
+get beter determinism and rollback performance, along with lower-overhead WASM
+scripts.
+
+With promising ideas for future improvements, the rest of the month was spent
+focusing on getting the initial items completed, with Grenades, Swords, Crates,
+and Mines all landing recently.
+
+With just one more item planned and minimal clean up work, an MVP release is
+just around the corner!
+
+_Discussions: [GitHub][jumpy_discussions], [Twitter][jumpy_twitter]_
+
+[Jumpy]: https://github.com/fishfolks/jumpy
+[jumpy_rewrite]: https://github.com/fishfolks/jumpy/pull/466
+[Bevy]: https://bevyengine.org
+[GGRS]: https://github.com/gschup/ggrs
+[jumpy_discussions]: https://github.com/fishfolks/jumpy/discussions
+[jumpy_twitter]: https://twitter.com/spicylobsterfam
+[jumpy_discord]: https://discord.gg/4smxjcheE5
+[spicy_lobster]:  https://spicylobster.itch.io/
+[jumpy_wasm_discussion]: https://github.com/fishfolk/jumpy/discussions/489
+
 ### Rusty Vangers
 
 ![Vange-rs rendered with a voxel tree](vangers-3rd-person.jpg)
@@ -251,11 +294,11 @@ You can check this [Reddit post][boytacean-red-ann] for more information.
 
 ## Library Updates
 
-### [bevy_atmosphere] v0.5
+### [bevy_atmosphere v0.5][bevy_atmosphere]
 
 ![bevy_atmosphere collage: colored skies](bevy_atmosphere.png)
 
-bevy_atmosphere ([crates.io](https://crates.io/crates/bevy_atmosphere),
+bevy_atmosphere ([crates.io][bevy_atmosphere],
 [docs.rs](https://docs.rs/bevy_atmosphere/latest/bevy_atmosphere/),
 [GitHub](https://github.com/JonahPlusPlus/bevy_atmosphere))
 is now compatible with Bevy 0.9.
@@ -282,6 +325,8 @@ _Discussions:
 [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/za948o/bevy_atmosphere_05_is_now_released),
 [/r/bevy](https://reddit.com/r/bevy/comments/za93oo/bevy_atmosphere_05_is_now_released),
 [/r/rust](https://reddit.com/r/rust/comments/za93zb/bevy_atmosphere_05_is_now_released)_
+
+[bevy_atmosphere]: https://crates.io/crates/bevy_atmosphere
 
 ### [Bevy Sequential Actions]
 
@@ -334,6 +379,32 @@ commands
 [seq-actions-gh]: https://github.com/hikikones/bevy-sequential-actions
 [seq-actions-docs]: https://docs.rs/bevy-sequential-actions
 [bevy]: https://bevyengine.org
+
+### [Sparsey] v0.10
+
+[Sparsey] by [@LechintanTudor] is an Entity Component System focused on
+flexibility, conciseness and providing features exclusive to its sparse
+set-based implementation.
+
+The latest release takes advantage of the newly added Generic Associated Types
+to provide a uniform interface for running systems, functions and closures that
+borrow data from World and Resources, via the "run", "run_locally" and
+"run_exclusive" functions.
+
+Example:
+
+```rust
+let heaviest = sparsey::run(&world, &resources, |weights: Comp<Weight>| {
+    (&weights)
+        .iter()
+        .with_entity()
+        .max_by_key(|(_entity, &weight)| weight)
+        .map(|(entity, _weight)| entity)
+});
+```
+
+[Sparsey]: https://github.com/LechintanTudor/sparsey
+[@LechintanTudor]: https://github.com/LechintanTudor
 
 ### [Bevy Quickmenu][bevy_quickmenu_crates]
 
