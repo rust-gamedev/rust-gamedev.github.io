@@ -407,12 +407,12 @@ _Discussions:
 ![godot-rust GDExtension](godot-rust-gdextension.png)
 
 godot-rust ([GitHub][gd-github], [Discord][gd-discord], [Twitter][gd-twitter])
-is a Rust library that provides bindings for the Godot engine. Just this month, a [Mastodon account][gd-mastodon] was opened to share development info.
+is a Rust library that provides bindings for the Godot engine. Just this month,
+a [Mastodon account][gd-mastodon] was opened to share development info.
 
-November brings the long-awaited GDExtension binding, enabling access to Godot
-4 features from Rust. Still in an early experimental phase, it is already
-possible to run smaller examples like Godot's famous Dodge-the-Creeps tutorial
-game.
+November brings the long-awaited GDExtension binding, enabling access to Godot 4
+features from Rust. Still in an early experimental phase, it is already possible
+to run smaller examples like Godot's famous Dodge-the-Creeps tutorial game.
 
 Compared to the GDNative binding, APIs are a bit simpler now:
 
