@@ -31,22 +31,12 @@ Feel free to send PRs about your own projects!
 
 - [Announcements](#announcements)
 - [Game Updates](#game-updates)
-  - [Rusty Vangers](#rusty-vangers)
-  - [Digital Extinction](#digital-extinction)
-  - [Space Frontiers](#space-frontiers)
-  - [Timely Defuse](#timely-defuse)
 - [Engine Updates](#engine-updates)
-  - [Pixel Engine](#pixel-engine)
 - [Learning Material Updates](#learning-material-updates)
 - [Tooling Updates](#tooling-updates)
-  - [Boytacean](#boytacean)
 - [Library Updates](#library-updates)
-  - [Bevy Hikari v0.3](#bevy-hikari-v03)
-  - [\[bevy\_atmosphere\] v0.5](#bevy_atmosphere-v05)
-  - [Bevy Sequential Actions](#bevy-sequential-actions)
-  - [Sparsey v0.10](#sparsey-v010)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Other News](#other-news)
+- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Meeting Minutes](#meeting-minutes)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
@@ -263,19 +253,23 @@ You can check this [Reddit post][boytacean-red-ann] for more information.
 
 ### [Bevy Hikari] v0.3
 
-![bevy-hikari screenshot](bevy-hikari-n40.png)
-_Direct lighting, emissive lighting and indirect global illumination under 4x temporal upscaling._
+![bevy-hikari screenshot](bevy-hikari-n40.jpeg)
+_Direct lighting, emissive lighting and indirect global illumination under 4x
+temporal upscaling._
 
-`bevy-hikari` ([crates.io](https://crates.io/crates/bevy-hikari),
-[docs.rs](https://docs.rs/bevy-hikari),
-[GitHub](https://github.com/cryscan/bevy-hikari)),
-a path tracing renderer for [Bevy],
-is now compatible with the 0.9 version of the engine.
+`bevy-hikari` ([crates.io][hikari-crates], [docs.rs][hikari-docs],
+[GitHub][hikari-github]), a path tracing renderer for [Bevy], is now compatible
+with the 0.9 version of the engine.
 
 In recent updates, the renderer implements light BVH, which allows faster and
-more accurate multiple emissive sampling.
-It also features a spatial upscaler based on FSR 1.0 and a temporal upscaler
-based on SMAA Tu4x, making it more affordable for median end devices.
+more accurate multiple emissive sampling. It also features a spatial upscaler
+based on FSR 1.0 and a temporal upscaler based on SMAA Tu4x, making it more
+affordable for median end devices.
+
+[Bevy Hikari]: https://github.com/cryscan/bevy-hikari
+[hikari-crates]: https://crates.io/crates/bevy-hikari
+[hikari-docs]: https://docs.rs/bevy-hikari
+[hikari-github]: https://github.com/cryscan/bevy-hikari
 
 ### [bevy_atmosphere v0.5][bevy_atmosphere]
 
@@ -358,7 +352,6 @@ commands
     );
 ```
 
-[Bevy Hikari]: https://github.com/cryscan/bevy-hikari
 [Bevy Sequential Actions]: https://crates.io/crates/bevy-sequential-actions
 [seq-actions-gh]: https://github.com/hikikones/bevy-sequential-actions
 [seq-actions-docs]: https://docs.rs/bevy-sequential-actions
