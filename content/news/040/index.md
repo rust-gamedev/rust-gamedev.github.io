@@ -251,26 +251,6 @@ You can check this [Reddit post][boytacean-red-ann] for more information.
 
 ## Library Updates
 
-### [Bevy Hikari] v0.3
-
-![bevy-hikari screenshot](bevy-hikari-n40.jpeg)
-_Direct lighting, emissive lighting and indirect global illumination under 4x
-temporal upscaling._
-
-`bevy-hikari` ([crates.io][hikari-crates], [docs.rs][hikari-docs],
-[GitHub][hikari-github]), a path tracing renderer for [Bevy], is now compatible
-with the 0.9 version of the engine.
-
-In recent updates, the renderer implements light BVH, which allows faster and
-more accurate multiple emissive sampling. It also features a spatial upscaler
-based on FSR 1.0 and a temporal upscaler based on SMAA Tu4x, making it more
-affordable for median end devices.
-
-[Bevy Hikari]: https://github.com/cryscan/bevy-hikari
-[hikari-crates]: https://crates.io/crates/bevy-hikari
-[hikari-docs]: https://docs.rs/bevy-hikari
-[hikari-github]: https://github.com/cryscan/bevy-hikari
-
 ### [bevy_atmosphere v0.5][bevy_atmosphere]
 
 ![bevy_atmosphere collage: colored skies](bevy_atmosphere.png)
@@ -382,6 +362,26 @@ let heaviest = sparsey::run(&world, &resources, |weights: Comp<Weight>| {
 
 [Sparsey]: https://github.com/LechintanTudor/sparsey
 [@LechintanTudor]: https://github.com/LechintanTudor
+
+### [Bevy Hikari] v0.3
+
+![bevy-hikari screenshot](bevy-hikari-n40.jpeg)
+_Direct lighting, emissive lighting and indirect global illumination under 4x
+temporal upscaling._
+
+`bevy-hikari` ([crates.io][hikari-crates], [docs.rs][hikari-docs],
+[GitHub][hikari-github]), a path tracing renderer for [Bevy], is now compatible
+with the 0.9 version of the engine.
+
+In recent updates, the renderer implements light BVH, which allows faster and
+more accurate multiple emissive sampling. It also features a spatial upscaler
+based on FSR 1.0 and a temporal upscaler based on SMAA Tu4x, making it more
+affordable for median end devices.
+
+[Bevy Hikari]: https://github.com/cryscan/bevy-hikari
+[hikari-crates]: https://crates.io/crates/bevy-hikari
+[hikari-docs]: https://docs.rs/bevy-hikari
+[hikari-github]: https://github.com/cryscan/bevy-hikari
 
 ## Popular Workgroup Issues in Github
 
