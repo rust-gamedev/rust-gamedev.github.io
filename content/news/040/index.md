@@ -550,6 +550,25 @@ _Discussion:
 [bevy_quickmenu_0.1.5]: https://github.com/terhechte/bevy_quickmenu/releases/tag/0.1.5
 [bevy_quickmenu_reddit]: https://www.reddit.com/r/bevy/comments/yyl73c/new_plugin_bevy_quickmenu_quickly_create_nested
 
+### [Notan v0.8][Notan]
+
+![notan examples](notan.gif)
+
+[Notan] is a simple abstraction layer that provides cross-platform windowing,
+input, audio, graphics and other features, in an ergonomic manner without
+enforcing any structure or pattern and treating WebAssembly as a first-class citizen.
+
+The version [v0.8] is one of the biggest releases, adding several improvements
+in the drawing APIs and fixes and improvements in some other features like the
+clipboard support.
+
+You can check the [demos] online and read more about the changes on the [changelog].
+
+[Notan]: https://github.com/Nazariglez/notan
+[v0.8]: https://github.com/Nazariglez/notan/releases/tag/v0.8.0
+[changelog]: https://github.com/Nazariglez/notan/blob/main/CHANGELOG.md
+[demos]: https://nazariglez.github.io/notan-web
+
 ### [Bevy Hikari] v0.3
 
 ![bevy-hikari screenshot](bevy-hikari-n40.jpeg)
