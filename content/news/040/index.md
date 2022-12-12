@@ -389,6 +389,50 @@ You can check this [Reddit post][boytacean-red-ann] for more information.
 [gamepad-api]: https://developer.mozilla.org/docs/Web/API/Gamepad_API/Using_the_Gamepad_API
 [boytacean-red-ann]: https://reddit.com/r/rust/comments/ywxugc/game_boy_emulator_using_rust
 
+### [Graphite][graphite-website]
+
+![Graphite logo](graphite.png)
+
+Graphite ([website][graphite-website], [GitHub][graphite-repo],
+[Discord][graphite-discord], [Twitter][graphite-twitter]) is a free,
+in-development raster and vector 2D graphics editor based around a Rust-powered
+node graph compositing engine.
+
+November's [sprint 20][graphite-sprint-20] introduces:
+
+- Filling in the blanks: The Imaginate tool gains Inpaint/Outpaint, letting
+  users [replace content][graphite-inpaint-demo] in masked areas and even
+  ["uncrop"][graphite-outpaint-demo] entire images, powered by
+  [Stable Diffusion][graphite-stable-diffusion].
+- Going native: Graphite is now available as a desktop app, thanks to Tauri.
+  The app now has access to system resources like rustc and the GPU, which lets
+  it compile and run node graph effects as SPIR-V compute shaders in Vulkan for
+  hardware-accelerated rendering.
+- Connecting the dots: The node graph compositor now
+  [supports interactive editing][graphite-nodes-demo], so users can drag nodes
+  and chain together effects. Nodes can be set in the Properties panel or
+  exposed as inputs in the graph.
+
+It's easy to get involved with the project by developing new nodes. Join the
+project [Discord][graphite-discord] and ask how to begin.
+
+Stay tuned for the imminent Alpha Milestone 2 release and progress converting
+existing features into nodes.
+
+Open the [Graphite editor][graphite-editor] in your browser to give it a try
+and share your creations with #MadeWithGraphite on Twitter.
+
+[graphite-website]: https://graphite.rs
+[graphite-repo]: https://github.com/GraphiteEditor/Graphite
+[graphite-discord]: https://discord.graphite.rs
+[graphite-twitter]: https://twitter.com/GraphiteEditor
+[graphite-sprint-20]: https://github.com/GraphiteEditor/Graphite/milestone/20
+[graphite-inpaint-demo]: https://www.youtube.com/watch?v=Ck2R0yqTLcU&t=3269
+[graphite-outpaint-demo]: https://www.youtube.com/watch?v=Ck2R0yqTLcU&t=3862s
+[graphite-nodes-demo]: https://www.youtube.com/watch?v=Ck2R0yqTLcU&t=4332
+[graphite-stable-diffusion]: https://en.wikipedia.org/wiki/Stable_Diffusion
+[graphite-editor]: https://editor.graphite.rs
+
 ## Library Updates
 
 ### [bevy_atmosphere v0.5][bevy_atmosphere]
