@@ -313,7 +313,7 @@ and some more troops! Any and all ideas posted to the
 If possible, ThousandthStar would like the art to be made up of voxel models
 instead of just pixel art, but he doesn't know if he'll reach that point yet.
 
-_Discussion: [r/rust_gamedev]_
+_Discussion: [r/rust_gamedev][8bit-r/rust_gamedev]_
 
 [8bit Duels]: https://thousandthstar.github.io
 [@ThousandthStar]: https://github.com/ThousandthStar
