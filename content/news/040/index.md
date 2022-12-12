@@ -199,7 +199,7 @@ were shared on [Dev.to][timely-defuse-dev].
 
 ### [Bevy v0.9][bevy_news]
 
-![bevy bloom lion](bevy_bloom_lion.png)
+![bevy bloom lion](bevy_bloom_lion.jpeg)
 
 [Bevy][bevy_engine] is a refreshingly simple data-driven game engine built in Rust.
 It is [free and open source][bevy_repo] forever!
@@ -220,6 +220,11 @@ but here are some highlights:
 - [Time Shader Globals](https://bevyengine.org/news/bevy-0-9/#time-shader-globals)
 - [Plugin Settings](https://bevyengine.org/news/bevy-0-9/#plugin-settings)
 - [Bevy UI Z-Indices](https://bevyengine.org/news/bevy-0-9/#bevy-ui-z-indices)
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/ytiv2a/bevy_09/),
+[Hacker News](https://news.ycombinator.com/item?id=33577284),
+[Twitter](https://twitter.com/cart_cart/status/1591543728233385984)_
 
 [bevy_engine]: https://bevyengine.org/
 [bevy_news]: https://bevyengine.org/news/bevy-0-9/
