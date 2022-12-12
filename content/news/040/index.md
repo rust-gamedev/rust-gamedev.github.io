@@ -225,8 +225,7 @@ You can have multiple non-overlapping views at the same time.
 ![godot-rust GDExtension](godot-rust-gdextension.png)
 
 godot-rust ([GitHub][gd-github], [Discord][gd-discord], [Twitter][gd-twitter])
-is a Rust library that provides bindings for the Godot engine. Just this month,
-we also opened a [Mastodon account][gd-mastodon] to share development info.
+is a Rust library that provides bindings for the Godot engine. Just this month, a [Mastodon account][gd-mastodon] was opened to share development info.
 
 November brings the long-awaited GDExtension binding, enabling access to Godot
 4 features from Rust. Still in an early experimental phase, it is already
