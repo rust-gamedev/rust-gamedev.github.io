@@ -376,9 +376,10 @@ fn update(time: Res<Time>, mut ca: ResMut<ChromaticAberration>) {
 
 The GitHub repository has examples and videos for all effects.
 
-A complete rework of the plugin is underway for version 0.2.0, where the main goal is to
-align with and use Bevy's render graph features, including the new post processing double buffering feature
-which arrived in 0.9.0.
+A complete rework of the plugin is underway for version 0.2.0, where the
+main goal is to align with and use Bevy's render graph features,
+including the new post processing double buffering feature which arrived
+in 0.9.0.
 
 [Bevy Vfx Bag]: https://crates.io/crates/bevy-vfx-bag
 [bevy-vfx-bag-gh]: https://github.com/torsteingrindvik/bevy-vfx-bag
