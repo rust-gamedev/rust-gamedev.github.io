@@ -112,6 +112,32 @@ _Discussions: [GitHub][jumpy_discussions], [Twitter][jumpy_twitter]_
 [spicy_lobster]:  https://spicylobster.itch.io/
 [jumpy_wasm_discussion]: https://github.com/fishfolk/jumpy/discussions/489
 
+### [CyberGate][cybergate-yt]
+
+![At the Abyss](cybergate.png)
+_The abyss is the deepest, hardest level, filled with monsters of all sizes and strength_
+
+CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]) by CyberSoul is an
+ambitious endeavor to create an immersive universe experience with the power of
+artificial intelligence and procedurally generated gameplay styles. Explore a
+world filled with strange creatures and thrilling adventures!
+
+The latest updates include:
+
+- A new islands map featuring a safe zone and progressively more challenging
+  levels
+- Collectible Cubic Orbs that provide health, points and bullets
+- An intuitive interface for day cycle, inventory (bullets) and cooldowns
+- Upgrade your stats as you level up
+- And an Emergency Recall feature for when you’re stranded
+
+Be among the first to experience the wonders of AI-driven universe with
+CyberGate! [Join the Discord server][cybergate-dis] to participate in upcoming
+Phase 7.0!
+
+[cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
+[cybergate-dis]: https://discord.gg/R7DkHqw7zJ
+
 ### Rusty Vangers
 
 ![Vange-rs rendered with a voxel tree](vangers-3rd-person.jpg)
@@ -238,6 +264,63 @@ were shared on [Dev.to][timely-defuse-dev].
 [@E_net4]: https://hachyderm.io/@E_net4
 [timely-defuse-dev]: https://dev.to/e_net4/timely-wrap-up-quick-notes-on-timely-defuse-441o
 
+### [Spaceviata]
+
+![Screenshot of Spaceviata, showing the galaxy with some stars discovered and the game UI.](spaceviata.png)
+
+[Spaceviata] ([GitHub][spaceviata-github]) by [@FrancoisMockers]
+is a strategy game made with [Bevy], submitted to GitHub Game Off 2022.
+
+Starting with one star, your goal in this turn by turn game is to conquer the
+galaxy, fighting against AI players, and balancing exploration with
+colonization to avoid stretching your resources too thin.
+
+[Spaceviata]: https://vleue.itch.io/spaceviata
+[spaceviata-github]: https://github.com/mockersf/spaceviata
+[@FrancoisMockers]: https://hachyderm.io/@FrancoisMockers
+
+### [Scummstreets]
+
+[Scummstreets] is a new multiplayer online role-playing game by [@dooskington].
+The game is a fork/sequel to [Antorum Isles], so the game server is written in Rust,
+and the official client is made with Unity. It's still in a pre-alpha state.
+
+There was one dev log published this month:
+
+- [2: Character And Combat Work](https://ratwizard.dev/dev-log/scummstreets/2)
+
+[Scummstreets]: https://ratwizard.dev/dev-log/scummstreets
+[Antorum Isles]: https://antorum.ratwizard.dev/
+[@dooskington]: https://twitter.com/dooskington
+
+### [8bit Duels]
+
+![UI preview](8bd-ui-prev.png)
+_UI preview_
+
+[@ThousandthStar] is creating an 8bit themed multiplayer game. It's a turn based
+strategy game and is currently under development. This month, the
+[blog][8bit-blog] got moved from [dev.to][8bit-dev.to] to ThousandthStar's own
+blog on Github.
+
+The game is soon getting a UI, and more packets need to be implemented before
+the game is ready to play. ThousandthStar is excited for the game to be
+playable, but it will probably take some time, since he is doing it as a side
+project when he has some time. The game is lacking troop spawns, a turn system,
+and some more troops! Any and all ideas posted to the
+[r/rust_gamedev][8bit-r/rust_gamedev] thread are greatly appreciated.
+
+If possible, ThousandthStar would like the art to be made up of voxel models
+instead of just pixel art, but he doesn't know if he'll reach that point yet.
+
+_Discussion: [r/rust_gamedev][8bit-r/rust_gamedev]_
+
+[8bit Duels]: https://thousandthstar.github.io
+[@ThousandthStar]: https://github.com/ThousandthStar
+[8bit-blog]: https://thousandthstar.github.io
+[8bit-dev.to]: https://dev.to/
+[8bit-r/rust_gamedev]: https://www.reddit.com/r/rust_gamedev/comments/ylksma/discussion_thread_for_thousandthstars_multiplayer/
+
 ### [Veloren][veloren]
 
 ![A riverside](veloren.jpeg)
@@ -265,7 +348,7 @@ November's full weekly devlogs: "This Week In Veloren...":
 [veloren-197]: https://veloren.net/devblog-197
 [veloren-198]: https://veloren.net/devblog-198
 [veloren-199]: https://veloren.net/devblog-199
-[rust-and-cpp-cardiff-meetup]: https://www.youtube.com/watch?v=bT2SeYXpQm8
+[rust-and-cpp-cardiff-meetup]: https://youtube.com/watch?v=bT2SeYXpQm8
 
 ## Engine Updates
 
@@ -291,6 +374,91 @@ You can have multiple non-overlapping views at the same time.
 [@Maix0]: https://github.com/Maix0
 [SpriteRef]: https://docs.rs/pixel_engine/0.6.0/pixel_engine/graphics/struct.SpriteMutRef.html
 [wgpu]: https://wgpu.rs/
+
+### [Fyrox]
+
+![Animation Editor](animation_editor.png)
+
+[Fyrox] ([Discord][fyrox_discord], [Twitter][fyrox_twitter]) is a game engine that
+aims to be easy to use and provide a large set of out-of-the-box features. In November
+it got a lot of new functionality and improved existing:
+
+- Major animation system rework
+- New animation editor
+- Reworked animation blending state machine editor
+- Major improvements to the curve editor widget
+- Curve-based animation system
+- Smart placement mode for move gizmo
+- Node and property selectors
+- Better WebAssembly support - asynchronous scene loading and WASM project template
+- Various improvements for project template generator
+- Lots of bug fixes
+
+[Fyrox]: https://github.com/FyroxEngine/Fyrox
+[fyrox_discord]: https://discord.com/invite/xENF5Uh
+[fyrox_twitter]: https://twitter.com/DmitryNStepanov
+
+### [Bevy v0.9][bevy_news]
+
+![bevy bloom lion](bevy_bloom_lion.jpeg)
+
+[Bevy][bevy_engine] is a refreshingly simple data-driven game engine built in Rust.
+It is [free and open source][bevy_repo] forever!
+
+Bevy 0.9 brought many incredible new features.
+You can check out the [full release blog post here][bevy_news],
+but here are some highlights:
+
+- [HDR Post Processing, Tonemapping, and Bloom](https://bevyengine.org/news/bevy-0-9/#hdr-post-processing-tonemapping-and-bloom)
+- [FXAA](https://bevyengine.org/news/bevy-0-9/#fxaa-fast-approximate-anti-aliasing)
+- [Deband Dithering](https://bevyengine.org/news/bevy-0-9/#deband-dithering)
+- [Other Post Processing Improvements](https://bevyengine.org/news/bevy-0-9/#post-processing-view-target-double-buffering)
+- [New Scene Format](https://bevyengine.org/news/bevy-0-9/#new-scene-format)
+- [Code Driven Scene Construction](https://bevyengine.org/news/bevy-0-9/#dynamic-scene-builder)
+- [Improved Entity/Component APIs](https://bevyengine.org/news/bevy-0-9/#improved-entity-component-apis)
+- [Exclusive System Rework](https://bevyengine.org/news/bevy-0-9/#exclusive-system-rework)
+- [Enum Reflection](https://bevyengine.org/news/bevy-0-9/#enum-reflection)
+- [Time Shader Globals](https://bevyengine.org/news/bevy-0-9/#time-shader-globals)
+- [Plugin Settings](https://bevyengine.org/news/bevy-0-9/#plugin-settings)
+- [Bevy UI Z-Indices](https://bevyengine.org/news/bevy-0-9/#bevy-ui-z-indices)
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/ytiv2a/bevy_09/),
+[Hacker News](https://news.ycombinator.com/item?id=33577284),
+[Twitter](https://twitter.com/cart_cart/status/1591543728233385984)_
+
+[bevy_engine]: https://bevyengine.org/
+[bevy_news]: https://bevyengine.org/news/bevy-0-9/
+[bevy_repo]: https://github.com/bevyengine/bevy
+
+### [godot-rust][gd-github]
+
+![godot-rust GDExtension](godot-rust-gdextension.png)
+
+godot-rust ([GitHub][gd-github], [Discord][gd-discord], [Twitter][gd-twitter])
+is a Rust library that provides bindings for the Godot engine. Just this month,
+a [Mastodon account][gd-mastodon] was opened to share development info.
+
+November brings the long-awaited GDExtension binding, enabling access to Godot 4
+features from Rust. Still in an early experimental phase, it is already possible
+to run smaller examples like Godot's famous Dodge-the-Creeps tutorial game.
+
+Compared to the GDNative binding, APIs are a bit simpler now:
+
+- One central `Gd<T>` pointer combining `Ref`/`Instance` and their type-states
+- Self-registering classes: `#[derive(GodotClass)]` and you're good-to-go
+- Less `unsafe`, less `unwrap()`, more runtime checks
+
+The repository is available at [godot-rust/gdextension][gd-github], while the
+current development status is tracked in [#24][gd-24]. The [book][gd-book] as
+well as documentation are still under construction.
+
+[gd-24]: https://github.com/godot-rust/gdextension/issues/24
+[gd-book]: https://github.com/godot-rust/book
+[gd-github]: https://github.com/godot-rust/gdextension
+[gd-discord]: https://discord.gg/aKUCJ8rJsc
+[gd-twitter]: https://twitter.com/GodotRust
+[gd-mastodon]: https://mastodon.gamedev.place/@GodotRust
 
 ## Learning Material Updates
 
@@ -320,6 +488,50 @@ You can check this [Reddit post][boytacean-red-ann] for more information.
 [@joamag]: https://github.com/joamag
 [gamepad-api]: https://developer.mozilla.org/docs/Web/API/Gamepad_API/Using_the_Gamepad_API
 [boytacean-red-ann]: https://reddit.com/r/rust/comments/ywxugc/game_boy_emulator_using_rust
+
+### [Graphite][graphite-website]
+
+![Graphite logo](graphite.png)
+
+Graphite ([website][graphite-website], [GitHub][graphite-repo],
+[Discord][graphite-discord], [Twitter][graphite-twitter]) is a free,
+in-development raster and vector 2D graphics editor based around a Rust-powered
+node graph compositing engine.
+
+November's [sprint 20][graphite-sprint-20] introduces:
+
+- Filling in the blanks: The Imaginate tool gains Inpaint/Outpaint, letting
+  users [replace content][graphite-inpaint-demo] in masked areas and even
+  ["uncrop"][graphite-outpaint-demo] entire images, powered by
+  [Stable Diffusion][graphite-stable-diffusion].
+- Going native: Graphite is now available as a desktop app, thanks to Tauri.
+  The app now has access to system resources like rustc and the GPU, which lets
+  it compile and run node graph effects as SPIR-V compute shaders in Vulkan for
+  hardware-accelerated rendering.
+- Connecting the dots: The node graph compositor now
+  [supports interactive editing][graphite-nodes-demo], so users can drag nodes
+  and chain together effects. Nodes can be set in the Properties panel or
+  exposed as inputs in the graph.
+
+It's easy to get involved with the project by developing new nodes. Join the
+project [Discord][graphite-discord] and ask how to begin.
+
+Stay tuned for the imminent Alpha Milestone 2 release and progress converting
+existing features into nodes.
+
+Open the [Graphite editor][graphite-editor] in your browser to give it a try
+and share your creations with #MadeWithGraphite on Twitter.
+
+[graphite-website]: https://graphite.rs
+[graphite-repo]: https://github.com/GraphiteEditor/Graphite
+[graphite-discord]: https://discord.graphite.rs
+[graphite-twitter]: https://twitter.com/GraphiteEditor
+[graphite-sprint-20]: https://github.com/GraphiteEditor/Graphite/milestone/20
+[graphite-inpaint-demo]: https://www.youtube.com/watch?v=Ck2R0yqTLcU&t=3269
+[graphite-outpaint-demo]: https://www.youtube.com/watch?v=Ck2R0yqTLcU&t=3862s
+[graphite-nodes-demo]: https://www.youtube.com/watch?v=Ck2R0yqTLcU&t=4332
+[graphite-stable-diffusion]: https://en.wikipedia.org/wiki/Stable_Diffusion
+[graphite-editor]: https://editor.graphite.rs
 
 ## Library Updates
 
@@ -434,6 +646,163 @@ let heaviest = sparsey::run(&world, &resources, |weights: Comp<Weight>| {
 
 [Sparsey]: https://github.com/LechintanTudor/sparsey
 [@LechintanTudor]: https://github.com/LechintanTudor
+
+### [Bevy Quickmenu][bevy_quickmenu_crates]
+
+![Bevy Quickmenu simple menu demo](bevy_quickmenu.gif)
+
+bevy_quickmenu ([crates.io][bevy_quickmenu_crates],
+[docs.rs][bevy_quickmenu_docs], [GitHub][bevy_quickmenu_github]) allows quickly
+creating nested game menus that can be navigated with keyboard, gamepad or
+mouse.
+
+Bevy Quickmenu builds on BevyUI and allows defining nested menu structures in a
+super simple way. Its also very extensible and customisable. If you game needs
+menus and you would like to support multiple input methods, give it a try.
+
+For example, a simple vertical menu can be defined like this:
+
+```rust
+fn root_menu(state: &CustomState) -> Menu<Actions, Screens, CustomState> {
+    Menu::new(
+        "root",
+        vec![
+            MenuItem::image(state.logo.clone()),
+            MenuItem::headline("Menu"),
+            MenuItem::action("Start", Actions::Close),
+            MenuItem::screen("Sound", Screens::Sound)
+                .with_icon(MenuIcon::Sound),
+            MenuItem::screen("Controls", Screens::Controls)
+                .with_icon(MenuIcon::Controls),
+        ],
+    )
+}
+```
+
+For a more involved example, check out [this definition of a settings screen
+with control device selection and a sound menu][bevy_quickmenu_settings].
+[Version `0.1.5`][bevy_quickmenu_0.1.5] was just released which simplifies
+generics and makes it easier to create dynamic menus.
+
+_Discussion:
+[/r/rust_gamedev][bevy_quickmenu_reddit]_
+
+[bevy_quickmenu_crates]: https://crates.io/crates/bevy_quickmenu
+[bevy_quickmenu_docs]: https://docs.rs/bevy_quickmenu
+[bevy_quickmenu_github]: https://github.com/terhechte/bevy_quickmenu
+[bevy_quickmenu_settings]: https://github.com/terhechte/bevy_quickmenu/blob/main/examples/settings.rs
+[bevy_quickmenu_0.1.5]: https://github.com/terhechte/bevy_quickmenu/releases/tag/0.1.5
+[bevy_quickmenu_reddit]: https://www.reddit.com/r/bevy/comments/yyl73c/new_plugin_bevy_quickmenu_quickly_create_nested
+
+### [Notan v0.8][Notan]
+
+![notan examples](notan.gif)
+
+[Notan] is a simple abstraction layer that provides cross-platform windowing,
+input, audio, graphics and other features, in an ergonomic manner without
+enforcing any structure or pattern and treating WebAssembly as a first-class citizen.
+
+The version [v0.8] is one of the biggest releases, adding several improvements
+in the drawing APIs and fixes and improvements in some other features like the
+clipboard support.
+
+You can check the [demos] online and read more about the changes on the [changelog].
+
+[Notan]: https://github.com/Nazariglez/notan
+[v0.8]: https://github.com/Nazariglez/notan/releases/tag/v0.8.0
+[changelog]: https://github.com/Nazariglez/notan/blob/main/CHANGELOG.md
+[demos]: https://nazariglez.github.io/notan-web
+
+### [Bevy Hikari] v0.3
+
+![bevy-hikari screenshot](bevy-hikari-n40.jpeg)
+_Direct lighting, emissive lighting and indirect global illumination under 4x
+temporal upscaling._
+
+`bevy-hikari` ([crates.io][hikari-crates], [docs.rs][hikari-docs],
+[GitHub][hikari-github]), a path tracing renderer for [Bevy], is now compatible
+with the 0.9 version of the engine.
+
+In recent updates, the renderer implements light BVH, which allows faster and
+more accurate multiple emissive sampling. It also features a spatial upscaler
+based on FSR 1.0 and a temporal upscaler based on SMAA Tu4x, making it more
+affordable for median end devices.
+
+[Bevy Hikari]: https://github.com/cryscan/bevy-hikari
+[hikari-crates]: https://crates.io/crates/bevy-hikari
+[hikari-docs]: https://docs.rs/bevy-hikari
+[hikari-github]: https://github.com/cryscan/bevy-hikari
+
+### [Bevy Vfx Bag]
+
+![Bevy vfx bag gif](underwater.gif)
+_A composite effect applied to Bevy's 3D shapes example._
+
+`bevy-vfx-bag` ([GitHub][bevy-vfx-bag-gh], [docs.rs][bevy-vfx-bag-docs])
+is a visual effects library for the [Bevy][bevy] game engine.
+
+It had its initial 0.1.0 release aligned with Bevy's recent 0.9.0 release.
+Each effect has a plugin and effects are applied in order:
+
+```rust
+// Shows an example of adding three post processing effects:
+app
+    .add_plugin(BevyVfxBagPlugin)           // Always needed
+    .add_plugin(RaindropsPlugin)            // Shows rain on-screen
+    .add_plugin(ChromaticAberrationPlugin)  // Skews color channels
+    .add_plugin(LutPlugin)                  // Allows using a look-up table to remap colors for
+                                            // having a specific "feel" to your game
+    .run();
+```
+
+The camera which receives these effects is marked as such:
+
+```rust
+commands
+    .spawn(Camera3dBundle { ... })
+    .insert(PostProcessingInput)            // Marks this camera for post processing usage
+```
+
+Effect settings can be changed at runtime:
+
+```rust
+fn update(time: Res<Time>, mut ca: ResMut<ChromaticAberration>) {
+    // Make the red color channel skew in a sinusoidal fashion
+    ca.magnitude_r = time.elapsed_seconds().sin();
+}
+```
+
+The GitHub repository has examples and videos for all effects.
+
+A complete rework of the plugin is underway for version 0.2.0, where the
+main goal is to align with and use Bevy's render graph features,
+including the new post processing double buffering feature which arrived
+in 0.9.0.
+
+[Bevy Vfx Bag]: https://crates.io/crates/bevy-vfx-bag
+[bevy-vfx-bag-gh]: https://github.com/torsteingrindvik/bevy-vfx-bag
+[bevy-vfx-bag-docs]: https://docs.rs/bevy-vfx-bag/0.1.0/bevy_vfx_bag/
+[bevy]: https://bevyengine.org
+
+### [`seldom_pixel`][seldom_pixel-github]
+
+![Eight animated sprites with various configurations](seldom_pixel.gif)
+
+`seldom_pixel` ([GitHub][seldom_pixel-github], [Video Demo][seldom_pixel-demo])
+by [Seldom] is a Bevy plugin for limited color palette pixel art games,
+with features for filters, animations, typefaces, particle emitters,
+`bevy_ecs_tilemap` integration, and much more.
+
+In November, `seldom_pixel` received its 0.1 and 0.1.1 releases for Bevy 0.8.
+Its `main` branch supports Bevy 0.9, but depends on a particular
+`bevy_ecs_tilemap` commit.
+
+_Discussions:
+[Twitter](https://twitter.com/Seldom_SE/status/1587619563276902400)_
+
+[seldom_pixel-github]: https://github.com/Seldom-SE/seldom_pixel
+[seldom_pixel-demo]: https://youtu.be/pmTPdGxYVYw
+[Seldom]: https://github.com/Seldom-SE
 
 ## Popular Workgroup Issues in Github
 
