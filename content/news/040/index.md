@@ -321,6 +321,35 @@ _Discussion: [r/rust_gamedev][8bit-r/rust_gamedev]_
 [8bit-dev.to]: https://dev.to/
 [8bit-r/rust_gamedev]: https://www.reddit.com/r/rust_gamedev/comments/ylksma/discussion_thread_for_thousandthstars_multiplayer/
 
+### [Veloren][veloren]
+
+![A riverside](veloren.jpeg)
+_Reflections on the river_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+Doors were worked on, and now they open more consistantly in a single direction.
+There is ongoing work to add train tracks to the world, as well as train
+stations in villages. A talk about Veloren was given at the Rust and Cpp Cardiff
+Meetup, which [you can watch here][rust-and-cpp-cardiff-meetup].
+
+Work was done on minotaurs to improve their attacks. A new dungeon type, adlet,
+is being worked on. Bird animations are also having some work done. Houses are
+seeing an uplift with some tests being done. In December, Veloren will be
+hosting a Christmas event in the second half of the month.
+
+November's full weekly devlogs: "This Week In Veloren...":
+[#197][veloren-197],
+[#198][veloren-198],
+[#199][veloren-199].
+
+[veloren]: https://veloren.net
+[veloren-197]: https://veloren.net/devblog-197
+[veloren-198]: https://veloren.net/devblog-198
+[veloren-199]: https://veloren.net/devblog-199
+[rust-and-cpp-cardiff-meetup]: https://youtube.com/watch?v=bT2SeYXpQm8
+
 ## Engine Updates
 
 ### [Pixel Engine][pixel_engine]
