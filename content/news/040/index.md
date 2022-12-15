@@ -804,12 +804,14 @@ _Discussions:
 [seldom_pixel-demo]: https://youtu.be/pmTPdGxYVYw
 [Seldom]: https://github.com/Seldom-SE
 
-### [bevy_rapier_collider_gen][bevy-rapier-collider-gen-repo]
+### [bevy_rapier_collider_gen][brcg-repo]
 
-![a scene displaying generated heightmap and convex polyline colliders](bevy_rapier_collider_gen.png)
+![scene displaying generated colliders](bevy_rapier_collider_gen.png)
 
-bevy_rapier_collider_gen ([GitHub][bevy-rapier-collider-gen-repo], [crates.io][bevy-rapier-collider-gen-crates-io])
-by [@shnewto], is a library for generating bevy_rapier2d colliders, for bevy apps, from images with transparency.
+bevy_rapier_collider_gen ([GitHub][brcg-repo],
+[crates.io][brcg-crates-io]) by [@shnewto], is a library
+for generating bevy_rapier2d colliders, for bevy apps, from images with
+transparency.
 
 Features include out of box support for generating:
 
@@ -820,8 +822,8 @@ Features include out of box support for generating:
 - Other colliders or geometries by getting edge coordinates in "drawing order"
 - Multiple colliders from a single image
 
-[bevy-rapier-collider-gen-repo]: https://github.com/shnewto/bevy_rapier_collider_gen
-[bevy-rapier-collider-gen-crates-io]: https://crates.io/crates/bevy_rapier_collider_gen
+[brcg-repo]: https://github.com/shnewto/bevy_rapier_collider_gen
+[brcg-crates-io]: https://crates.io/crates/bevy_rapier_collider_gen
 [@shnewto]: https://github.com/shnewto
 
 ## Popular Workgroup Issues in Github
