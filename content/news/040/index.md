@@ -391,19 +391,20 @@ useful information -->
 
 ## Jobs
 
-- [DIMS](https://dims.co/career) (Stockholm)
+- [DIMS][dims] (Stockholm, Sweden) is building a Rust game engine and creation
+  platform dedicated to creating large multiplayer open world games and
+  [has a lot of open positions][dims-career], including Game Engine Programmer:
 
-  - Come build a game engine and creation platform from scratch in Rust! It’s got everything: game-like collaborative building, networking by default, procedural worldbuilding, WebAssembly for scripting, WebGPU for graphics, and community-driven co-creation.
+  > Come build a game engine and creation platform from scratch in Rust!
+  > It’s got everything: game-like collaborative building, networking by default,
+  > procedural worldbuilding, WebAssembly for scripting, WebGPU for graphics,
+  > and community-driven co-creation.
 
-  - Looking for:
-    - [Game engine programmers](https://www.linkedin.com/jobs/view/3378931463/)
-    - Senior product designer
-    - Sound artists
-    - 3D artists
-    - Technical artists
-    - Animator
-    - Community manager
-    - Open applications accepted
+  You can find all of the details in [their job offer page][dims-job].
+
+[dims]: https://dims.co
+[dims-career]: https://dims.co/career
+[dims-job]: https://linkedin.com/jobs/view/3378931463
 
 ## Bonus
 
