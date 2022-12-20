@@ -382,16 +382,6 @@ over two years of development.
 [cnc-log-0-3]: https://buckmartin.de/combine-and-conquer/2022-11-22-v0.3.0.html
 [cnc-vid]: https://reddit.com/r/rust_gamedev/comments/yk9onb/the_two_year_development_progress_of_my
 
-<!--
-
-- [Audio support, a new space view, colonization of planets,
-  inventory overlay, and better notifications][cnc-log-0-8].
-- [New textures for structures, info box, updated overlays and modles][cnc-log-0-9].
-
-[cnc-log-0-8]: https://buckmartin.de/combine-and-conquer/2022-07-06-v0.0.8.html
-[cnc-log-0-9]: https://buckmartin.de/combine-and-conquer/2022-07-31-v0.0.9.html
--->
-
 ## Engine Updates
 
 ### [Pixel Engine][pixel_engine]
