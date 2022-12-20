@@ -152,7 +152,7 @@ the upcoming Phase 7.0!
 
 ### Rusty Vangers
 
-![Vange-rs rendered with a voxel tree](vangers-3rd-person.jpg)
+![Vange-rs rendered with a voxel tree](voxel-3rd-person.jpg)
 
 [Rusty Vangers] ([GitHub][vangers-src], [Itch-io][vangers-itch]) is an
 experimental re-implementation of the [Vangers] game,
