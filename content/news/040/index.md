@@ -1069,7 +1069,7 @@ _Discussions: [/r/rust](https://reddit.com/r/rust/comments/yr0oe8/iced_0_5)_
 <!-- Up to 10 links to interesting issues -->
 
 - [rust-gamedev/wg](https://github.com/rust-gamedev/wg):
-  - [#130 "Status of the project "ECS Bench Suite""](https://github.com/rust-gamedev/wg/issues/130)
+  - [#130 "Status of the project "ECS Bench Suite"](https://github.com/rust-gamedev/wg/issues/130).
   - [#131 "Official Mastodon Account"](https://github.com/rust-gamedev/wg/issues/131).
 
 ## Discussions
