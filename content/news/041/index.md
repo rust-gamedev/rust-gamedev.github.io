@@ -1,7 +1,7 @@
 +++
-title = "This Month in Rust GameDev #{TODO} - {TODO} {TODO}"
+title = "This Month in Rust GameDev #41 - December 2022"
 transparent = true
-date = TODO
+date = 2023-01-04
 draft = true
 +++
 
@@ -9,7 +9,7 @@ draft = true
 
 <!-- Check the post with markdownlint-->
 
-Welcome to the {TODO}th issue of the Rust GameDev Workgroup's
+Welcome to the 41st issue of the Rust GameDev Workgroup's
 monthly newsletter.
 [Rust] is a systems language pursuing the trifecta:
 safety, concurrency, and speed.
@@ -127,6 +127,7 @@ TODO: Add real links and un-comment once this post is published
 **Discuss this post on**:
 [/r/rust_gamedev](TODO),
 [Twitter](TODO),
+[Mastodon](TODO),
 [Discord](https://discord.gg/yNtPTb2).
 -->
 
