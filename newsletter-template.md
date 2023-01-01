@@ -31,8 +31,8 @@ Feel free to send PRs about your own projects!
 
 - [Announcements](#announcements)
 - [Game Updates](#game-updates)
-- [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
+- [Learning Material Updates](#learning-material-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
 - [Other News](#other-news)
