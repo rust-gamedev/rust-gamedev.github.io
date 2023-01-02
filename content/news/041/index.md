@@ -69,6 +69,37 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### Digital Extinction
+
+![laser trail in Digital Extinction](digital-extinction.jpeg)
+_Laser trail in Digital Extinction_
+
+[Digital Extinction] ([GitHub][de-github], [Discord][de-discord],
+[Reddit][de-reddit]) by [@Indy2222] is a 3D real-time strategy game made with
+[Bevy].
+
+This month's update is somewhat smaller but there has been some important
+progress in multiplayer.
+
+The most notable updates are:
+
+- game configuration is loaded from a file ([docs][de-docs]),
+- a simple game lobby server has been created ([docs][de-docs]),
+- a Bevy plugin with the lobby client has been implemented,
+- several minor community, infrastructure, and other improvements have been
+  done.
+
+A more detailed update summary is available [here][de-update-03].
+
+[Digital Extinction]: https://de-game.org
+[de-github]: https://github.com/DigitalExtinction/Game
+[de-discord]: https://discord.gg/vHMFuCWGSX
+[de-reddit]: https://reddit.com/r/DigitalExtinction
+[@Indy2222]: https://github.com/Indy2222
+[Bevy]: https://bevyengine.org
+[de-docs]: https://docs.de-game.org
+[de-update-03]: https://mgn.cz/blog/de03
+
 ## Engine Updates
 
 ## Learning Material Updates
