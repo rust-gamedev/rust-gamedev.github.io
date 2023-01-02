@@ -162,6 +162,32 @@ The author also made a basic example [here][bevy-rpg-example].
 [project-flara]: https://github.com/project-flara/project-flara
 [bevy-rpg-example]: https://github.com/project-flara/bevy-rpg/blob/main/examples/basic.rs
 
+### [bevy_rapier_collider_gen][brcg-repo]
+
+![scene displaying generated colliders](brcg.png)
+
+bevy_rapier_collider_gen ([GitHub][brcg-repo],
+[crates.io][brcg-crates-io]) by [@shnewto], is a library
+for generating bevy_rapier2d colliders, for bevy apps, from images with
+transparency.
+
+Features include out of box support for generating:
+
+- Convex polyline colliders
+- Polyline colliders
+- Convex hull colliders
+- Heightfield colliders
+- Other colliders or geometries by getting edge coordinates in "drawing order"
+- Multiple colliders from a single image
+
+For more, in pictures, see the picture book retrospective
+["misadventures in collider generation"][brcg-retro].
+
+[brcg-repo]: https://github.com/shnewto/bevy_rapier_collider_gen
+[brcg-crates-io]: https://crates.io/crates/bevy_rapier_collider_gen
+[brcg-retro]: https://drinkspiller.com/bevy-rapier-collider-gen
+[@shnewto]: https://github.com/shnewto
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
