@@ -77,28 +77,35 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library Updates
 
-### [Inox2d](https://github.com/Inochi2D/inox2d/)
+### [Inox2d][inox2d]
 
-![The Japanese character for "inochi" set into a sprocket](https://raw.githubusercontent.com/Inochi2D/inox2d/main/inox2d_logo.svg)
+![The Japanese character for "inochi" set into a sprocket](inox2d_logo.svg)
 
+[Inox2d][inox2d] ([Discord][inox2d-discord]) by the Inox2d Workgroup
+is an experimental official Rust implementation
+of the [Inochi2D] puppet animation technology.
+Inochi2d is notably used by the popular vtuber [@AsahiLina].
 
-Inox2d ([GitHub](https://github.com/Inochi2D/inox2d/), [Discord](https://discord.com/invite/abnxwN6r9v)) by the Inox2d Workgroup
-is an experimental official Rust implementation of the [Inochi2D](https://inochi2d.com/) puppet animation technology.
-Inochi2d is notably used by the popular vtuber [Asahi Lina](https://www.youtube.com/@AsahiLina).
-
-Currently, Inox2d is still not on par with the [reference implementation](https://github.com/Inochi2D/inochi2d).
-Basic features like [animations](https://github.com/Inochi2D/inox2d/issues/5) and a proper [camera API](https://github.com/Inochi2D/inox2d/issues/7) have yet to be worked on.
+Currently, Inox2d is still not on par with the [reference implementation][Inochi2D-src].
+Basic features like [animations][inox2d-animations] and
+a proper [camera API][inox2d-camera] have yet to be worked on.
 
 Users who really want to use it should instead go with the reference implementation.
-If using Rust, trough the official [inochi2d-rs](https://github.com/Inochi2D/inochi2d-rs) bindings.
+If using Rust, through the official [inochi2d-rs] bindings.
 
-Currently, Inox2d contributors are working on a [WGPU renderer backend](https://github.com/Inochi2D/inox2d/pull/6).
-They are also looking forward towards an [official Bevy integration](https://github.com/Inochi2D/inox2d/issues/1)!
+Currently, Inox2d contributors are working on a [WGPU renderer backend][inox2d-wgpu].
+They are also looking forward towards an [official Bevy integration][inox2d-bevy]!
 
-_Discussions: [Discord (#inox2d-dev)](https://discord.com/invite/abnxwN6r9v)_
-
-[Inox2d]: https://github.com/Inochi2D/inox2d
-
+[inox2d]: https://github.com/Inochi2D/inox2d
+[inox2d-discord]: https://discord.com/invite/abnxwN6r9v
+[Inochi2D]: https://inochi2d.com
+[Inochi2D-src]: https://github.com/Inochi2D/inochi2d
+[@AsahiLina]: https://youtube.com/@AsahiLina
+[inox2d-animations]: https://github.com/Inochi2D/inox2d/issues/5
+[inox2d-camera]: https://github.com/Inochi2D/inox2d/issues/7
+[inox2d-wgpu]: https://github.com/Inochi2D/inox2d/pull/6
+[inochi2d-rs]: https://github.com/Inochi2D/inochi2d-rs
+[inox2d-bevy]: https://github.com/Inochi2D/inox2d/issues/1
 
 ## Popular Workgroup Issues in Github
 
