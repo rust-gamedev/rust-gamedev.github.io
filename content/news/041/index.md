@@ -95,7 +95,7 @@ If using Rust, trough the official [inochi2d-rs](https://github.com/Inochi2D/ino
 Currently, Inox2d contributors are working on a [WGPU renderer backend](https://github.com/Inochi2D/inox2d/pull/6).
 They are also looking forward towards an [official Bevy integration](https://github.com/Inochi2D/inox2d/issues/1)!
 
-_Discussions: [Discord (#inox2d-dev)](https://discord.com/invite/abnxwN6r9v)
+_Discussions: [Discord (#inox2d-dev)](https://discord.com/invite/abnxwN6r9v)_
 
 [Inox2d]: https://github.com/Inochi2D/inox2d
 
