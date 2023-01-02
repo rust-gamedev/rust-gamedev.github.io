@@ -77,6 +77,26 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library Updates
 
+### [`bevy-rpg`](https://github.com/project-flara/bevy-rpg)
+
+![a UI interface showing the currently running dialog in the bottom and some control buttons in the top-right corner](https://user-images.githubusercontent.com/66000635/210205030-a14b6a76-bd7b-4f21-b8cc-4e075d58e7b4.png)
+)
+
+[`bevy-rpg`] ([GitHub](https://github.com/project-flara/bevy-rpg)) by [@fianathedevgirl](https://github.com/fianathedevgirl)
+is a plugin allowing RPG or visual novel dialogs to be made with the Bevy game engine. 
+
+At the moment, it can be used for very basic dialogs. 
+"Choose dialog" or text input dialog are still not implemented.
+The dialog controller buttons doesn't work yet.
+
+If you are interested in seeing how it should be used in production, checkout ["Project Flara"](https://github.com/project-flara/project-flara).
+It's a prototype/demo game made by the same author showcasing a JRPG-ish indie game written in Rust. 
+The author also made a basic example [here](https://github.com/project-flara/bevy-rpg/blob/main/examples/basic.rs).
+
+_Discussions: [Discord Discussions over at the "Game Development in Rust" server](https://discord.com/channels/676678179678715904/1054506073240899684)_
+
+[`bevy_rpg`]: https://github.com/project-flara/bevy-rpg
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
