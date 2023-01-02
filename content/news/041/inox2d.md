@@ -10,7 +10,7 @@ Inochi2d is notably used by the popular vtuber [Asahi Lina](https://www.youtube.
 Currently, Inox2d is still not on par with the [reference implementation](https://github.com/Inochi2D/inochi2d).
 Basic features like [animations](https://github.com/Inochi2D/inox2d/issues/5) and a proper [camera API](https://github.com/Inochi2D/inox2d/issues/7) have yet to be worked on.
 
-Users who really want to use it should instead go with the [reference implementation](https://github.com/Inochi2D/inochi2d).
+Users who really want to use it should instead go with the reference implementation.
 If using Rust, trough the official [inochi2d-rs](https://github.com/Inochi2D/inochi2d-rs) bindings.
 
 Currently, Inox2d contributors are working on a [WGPU renderer backend](https://github.com/Inochi2D/inox2d/pull/6).
