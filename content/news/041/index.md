@@ -77,25 +77,29 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library Updates
 
-### [`bevy-rpg`](https://github.com/project-flara/bevy-rpg)
+### [bevy_rpg]
 
-![a UI interface showing the currently running dialog in the bottom and some control buttons in the top-right corner](https://user-images.githubusercontent.com/66000635/210205030-a14b6a76-bd7b-4f21-b8cc-4e075d58e7b4.png)
-)
+![an UI showing the currently running dialog in the bottom
+and some control buttons in the top-right corner](bevy-rpg.png)
 
-[`bevy-rpg`] ([GitHub](https://github.com/project-flara/bevy-rpg)) by [@fianathedevgirl](https://github.com/fianathedevgirl)
-is a plugin allowing RPG or visual novel dialogs to be made with the Bevy game engine. 
+[bevy_rpg] ([Discord channel][bevy-rpg-discord]) by [@fianathedevgirl]
+is a plugin allowing RPG or visual novel dialogs
+to be made with the Bevy game engine.
 
-At the moment, it can be used for very basic dialogs. 
-"Choose dialog" or text input dialog are still not implemented.
-The dialog controller buttons doesn't work yet.
+At the moment, it can be used for very basic dialogs.
+"Choose dialog" or text input dialog are still not implemented
+and the dialog controller buttons doesn't work yet.
 
-If you are interested in seeing how it should be used in production, checkout ["Project Flara"](https://github.com/project-flara/project-flara).
-It's a prototype/demo game made by the same author showcasing a JRPG-ish indie game written in Rust. 
-The author also made a basic example [here](https://github.com/project-flara/bevy-rpg/blob/main/examples/basic.rs).
+If you are interested in seeing how it should be used in production,
+checkout ["Project Flara"][project-flara]. It's a prototype/demo game
+made by the same author showcasing a JRPG-ish indie game written in Rust.
+The author also made a basic example [here][bevy-rpg-example].
 
-_Discussions: [Discord Discussions over at the "Game Development in Rust" server](https://discord.com/channels/676678179678715904/1054506073240899684)_
-
-[`bevy_rpg`]: https://github.com/project-flara/bevy-rpg
+[bevy_rpg]: https://github.com/project-flara/bevy-rpg
+[bevy-rpg-discord]: https://discord.com/channels/676678179678715904/1054506073240899684
+[@fianathedevgirl]: https://github.com/fianathedevgirl
+[project-flara]: https://github.com/project-flara/project-flara
+[bevy-rpg-example]: https://github.com/project-flara/bevy-rpg/blob/main/examples/basic.rs
 
 ## Popular Workgroup Issues in Github
 
