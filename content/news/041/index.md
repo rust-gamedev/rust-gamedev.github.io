@@ -162,6 +162,33 @@ The author also made a basic example [here][bevy-rpg-example].
 [project-flara]: https://github.com/project-flara/project-flara
 [bevy-rpg-example]: https://github.com/project-flara/bevy-rpg/blob/main/examples/basic.rs
 
+### [Release - Mun v0.4.0][mun-release]
+
+[![Mun logo](mun-logo.svg)][Mun]
+
+[Mun] is a scripting language for gamedev focused on quick iteration times
+that is written in Rust.
+
+The previous Mun release dates back over one and a half years. Since then -
+slowly but steadily - the Mun Community and Core Team have been working towards
+Mun v0.4.0 and it’s finally here!
+
+Mun v0.4 does not only bring array support to Mun, but it also lays the
+groundwork for a plethora of language features that require indirect types and
+recursion. For a full list have a look at the [changelog][mun-changelog], but
+the main improvements are:
+
+- Dynamically-sized arrays
+- Simplified function invocations from Rust
+- Simplified struct API for Rust
+- Apple M1 & experimental iOS support
+- Upgrade to LLVM 13
+- Support for runtime usage in entity component systems (ECS)
+
+[Mun]: https://mun-lang.org
+[mun-release]: https://mun-lang.org/blog/2022/12/12/release-mun-v0-4-0/
+[mun-changelog]: https://github.com/mun-lang/mun/releases/tag/v0.4.0
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
