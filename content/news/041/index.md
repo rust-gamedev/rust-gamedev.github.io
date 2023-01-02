@@ -107,6 +107,30 @@ They are also looking forward towards an [official Bevy integration][inox2d-bevy
 [inochi2d-rs]: https://github.com/Inochi2D/inochi2d-rs
 [inox2d-bevy]: https://github.com/Inochi2D/inox2d/issues/1
 
+### [bevy_rpg]
+
+![an UI showing the currently running dialog in the bottom
+and some control buttons in the top-right corner](bevy-rpg.png)
+
+[bevy_rpg] ([Discord channel][bevy-rpg-discord]) by [@fianathedevgirl]
+is a plugin allowing RPG or visual novel dialogs
+to be made with the Bevy game engine.
+
+At the moment, it can be used for very basic dialogs.
+"Choose dialog" or text input dialog are still not implemented
+and the dialog controller buttons doesn't work yet.
+
+If you are interested in seeing how it should be used in production,
+checkout ["Project Flara"][project-flara]. It's a prototype/demo game
+made by the same author showcasing a JRPG-ish indie game written in Rust.
+The author also made a basic example [here][bevy-rpg-example].
+
+[bevy_rpg]: https://github.com/project-flara/bevy-rpg
+[bevy-rpg-discord]: https://discord.com/channels/676678179678715904/1054506073240899684
+[@fianathedevgirl]: https://github.com/fianathedevgirl
+[project-flara]: https://github.com/project-flara/project-flara
+[bevy-rpg-example]: https://github.com/project-flara/bevy-rpg/blob/main/examples/basic.rs
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
