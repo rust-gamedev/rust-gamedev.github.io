@@ -77,6 +77,21 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library Updates
 
+### [lpcg]
+
+![character sprite generator](lpcg.png)
+_A new library which generate character sprites_
+
+lpcg ([crate][lpcg_crate], [GitHub][lpcg_github]) by
+[bux][bux] is a lib which generate character sprites.
+
+Juste released lib which generate character sprites
+based on [liberated pixel cup][lpc] work.
+
+[lpcg_crate]: https://crates.io/crates/lpcg
+[lpcg_github]: https://github.com/buxx/lpcg/
+[lpc]: https://lpc.opengameart.org/
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
