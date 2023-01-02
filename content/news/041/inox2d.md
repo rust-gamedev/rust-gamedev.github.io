@@ -1,6 +1,6 @@
 ### [Inox2d](https://github.com/Inochi2D/inox2d/)
 
-![The Japanese character for "inochi" set into a sprocket.](https://raw.githubusercontent.com/Inochi2D/inox2d/main/inox2d_logo.svg)
+![The Japanese character for "inochi" set into a sprocket](https://raw.githubusercontent.com/Inochi2D/inox2d/main/inox2d_logo.svg)
 
 
 Inox2d ([GitHub](https://github.com/Inochi2D/inox2d/), [Discord](https://discord.com/invite/abnxwN6r9v)) by the Inox2d Workgroup
