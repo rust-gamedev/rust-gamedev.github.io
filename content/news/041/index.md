@@ -100,6 +100,31 @@ A more detailed update summary is available [here][de-update-03].
 [de-docs]: https://docs.de-game.org
 [de-update-03]: https://mgn.cz/blog/de03
 
+### [Open Combat][OpenCombat_website]
+
+![Real time tactical 2nd world war game](open_combat.png)
+_Game now include vehicle (T-26) and shelling FX_
+
+Open Combat
+([Website][OpenCombat_website],
+[GitHub][OpenCombat_github],
+[Discord][OpenCombat_discord],
+[Reddit](OpenCombat_reddit))
+by [bux][bux] is a real time tactical game
+which takes place during the 2nd world war.
+
+Since the last news about this game,
+the game engine has been rewritten to permit multiplayer.
+Most of the basic game engine feature have been rewritten with
+the new engine (soldier moves, visibilities, map, etc.).
+Vehicle concept has been introduced to a T-26 tank.
+Basic fight features like gunfire and shelling have been introduced.
+
+[OpenCombat_website]: https://opencombat.bux.fr/
+[OpenCombat_github]: https://github.com/buxx/OpenCombat
+[OpenCombat_discord]: https://discord.gg/6P2vtFh2Px
+[bux]: https://github.com/buxx/
+
 ## Engine Updates
 
 ## Learning Material Updates
