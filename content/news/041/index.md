@@ -187,6 +187,19 @@ The author also made a basic example [here][bevy-rpg-example].
 [project-flara]: https://github.com/project-flara/project-flara
 [bevy-rpg-example]: https://github.com/project-flara/bevy-rpg/blob/main/examples/basic.rs
 
+### [lpcg][lpcg_crate]
+
+![character sprite generator](lpcg.png)
+_A new library which generates character sprites_
+
+lpcg ([Crates.io][lpcg_crate], [GitHub][lpcg_github]) by
+[bux][bux] is a library which generates character sprites,
+based on assets from the [Liberated Pixel Cup][lpc].
+
+[lpcg_crate]: https://crates.io/crates/lpcg
+[lpcg_github]: https://github.com/buxx/lpcg/
+[lpc]: https://lpc.opengameart.org/
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
