@@ -100,7 +100,7 @@ A more detailed update summary is available [here][de-update-03].
 [de-docs]: https://docs.de-game.org
 [de-update-03]: https://mgn.cz/blog/de03
 
-### [Open Combat]
+### [Open Combat][OpenCombat_website]
 
 ![Real time tactical 2nd world war game](open_combat.png)
 _Game now include vehicle (T-26) and shelling FX_
