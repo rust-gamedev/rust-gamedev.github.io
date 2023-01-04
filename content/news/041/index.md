@@ -125,6 +125,24 @@ Basic fight features like gunfire and shelling have been introduced.
 [OpenCombat_discord]: https://discord.gg/6P2vtFh2Px
 [bux]: https://github.com/buxx/
 
+### [Tiny Glade]
+
+![tiny_glade](tiny_glade_key_art_small.png)
+
+[@anopara]'s and [@h3r2tic]'s tiny building game
+now finally has a name! It's [Tiny Glade]!
+
+Tiny Glade is a small relaxing game about doodling
+castles. Explore gridless building chemistry, and
+watch the game carefully assemble every brick, pebble
+and plank. There's no management, combat, or wrong
+answers - just kick back and turn forgotten meadows
+into lovable dioramas. Wishlist on [Steam][Tiny Glade]!
+
+[@anopara]: https://twitter.com/anastasiaopara
+[@h3r2tic]: https://twitter.com/h3r2tic
+[Tiny Glade]: https://store.steampowered.com/app/2198150/Tiny_Glade/
+
 ## Engine Updates
 
 ## Learning Material Updates
