@@ -143,6 +143,45 @@ into lovable dioramas. Wishlist on [Steam][Tiny Glade]!
 [@h3r2tic]: https://twitter.com/h3r2tic
 [Tiny Glade]: https://store.steampowered.com/app/2198150/Tiny_Glade/
 
+### [Cargo Space][cargospace]
+
+![cargo space screenshot](cargo_space.png)
+
+[Cargo Space][cargospace] ([Discord][cargospace_discord]) by
+[@johanhelsing][johanhelsing_mastodon] is a coop 2d space game where you build a
+ship and fly it through space looking for new parts, fighting pirates and the
+environment.
+
+Johan wrote [an introductory post][cargospace_devlog_0] about the design idea,
+and a tentative plan for its development.
+
+The first step was to make an initial offline single-player prototype. This is
+covered in the [first devlog][cargospace_devlog_1] along with topics such as
+procedural generation, 2d platforming, bloom, and various community Bevy crates,
+such as [bevy_ecs_tilemap], [bevy_ecs_ldtk] and [bevy_particle_systems].
+
+The procedural generation needs for the game also resulted in a new crate being born.
+[noisy_bevy] is a CPU and GPU noise plugin for Bevy.
+
+After this, p2p rollback networking was added using [bevy_ggrs] and [Matchbox].
+The [second devlog][cargospace_devlog_2] goes through this in detail, and in
+particular how integration between [bevy_ggrs] and [leafwing_input_manager] was
+implemented.
+
+[cargospace]: https://helsing.studio/cargospace
+[cargospace_discord]: https://discord.gg/ye9UDNvqQD
+[johanhelsing_mastodon]: https://mastodon.social/@johanhelsing
+[cargospace_devlog_0]: https://johanhelsing.studio/posts/cargo-space-devlog-0
+[cargospace_devlog_1]: https://johanhelsing.studio/posts/cargo-space-devlog-1
+[cargospace_devlog_2]: https://johanhelsing.studio/posts/cargo-space-devlog-2
+[noisy_bevy]: https://github.com/johanhelsing/noisy_bevy
+[Matchbox]: https://github.com/johanhelsing/matchbox
+[bevy_ggrs]: https://github.com/gschup/bevy_ggrs
+[leafwing_input_manager]: https://github.com/Leafwing-Studios/leafwing-input-manager
+[bevy_ecs_ldtk]: https://github.com/Trouv/bevy_ecs_ldtk
+[bevy_ecs_tilemap]: https://github.com/StarArawn/bevy_ecs_tilemap
+[bevy_particle_systems]: https://github.com/abnormalbrain/bevy_particle_systems
+
 ## Engine Updates
 
 ## Learning Material Updates
