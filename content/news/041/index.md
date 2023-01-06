@@ -143,6 +143,25 @@ into lovable dioramas. Wishlist on [Steam][Tiny Glade]!
 [@h3r2tic]: https://twitter.com/h3r2tic
 [Tiny Glade]: https://store.steampowered.com/app/2198150/Tiny_Glade/
 
+### Pirate Annihilation
+
+![Pirate annihilation game view](pirate_annihilation_n41.png)
+_Pirate annihilation game view, asset pack by [Kenney](https://twitter.com/KenneyNL)_
+
+Pirate Annihilation ([GitHub][pirate_annihilation_repo], [Twitter][indiedevcasts_twitter])
+by [indiedevcasts][indiedevcasts_www] ([@theredfish]) is a last-man-standing game
+where pirate ships battle against each other in stormy seas.
+
+The very [first devlog](https://youtu.be/lT1QmAHPRoo) is available on Youtube.
+It describes the implementation of a smooth damping effect to follow the player
+with the camera, jitter and stuttering issues, and the core game mechanics are
+now defined.
+
+[pirate_annihilation_repo]: https://github.com/indiedevcasts/pirate-annihilation
+[indiedevcasts_twitter]: https://twitter.com/indiedevcasts
+[indiedevcasts_www]: https://indiedevcasts.com
+[@theredfish]: https://twitter.com/theredfi_sh
+
 ## Engine Updates
 
 ## Learning Material Updates
