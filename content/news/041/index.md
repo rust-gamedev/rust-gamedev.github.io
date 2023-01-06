@@ -100,6 +100,31 @@ A more detailed update summary is available [here][de-update-03].
 [de-docs]: https://docs.de-game.org
 [de-update-03]: https://mgn.cz/blog/de03
 
+### [8bit Duels]
+
+![Kraken](8bd_kraken.png)
+_The newly added Kraken_
+
+[@ThousandthStar] is creating 8bit Duels ([Discord], [Github]), an 8bit style
+turn-based multiplayer strategy game. Last month, an artist joined
+ThousandthStar to create art for the game. A testing server has now been set up
+(more information is in the [Discord] server).
+
+Furthermore, these three new troops have been added to the game:
+
+- **Reaper**
+- **Kraken**
+- **Spider**
+
+The game now also includes new abilities for the various troops to come. The full
+devlog for this month can be found [here][Devlog part 5].
+
+[8bit Duels]: https://thousandthstar.github.io/posts/8bd-intro/
+[@ThousandthStar]: https://github.com/ThousandthStar
+[Discord]: https://discord.gg/NbBcF4bGU5
+[Github]: https://github.com/ThousandthStar/8bit-duels
+[Devlog part 5]: https://thousandthstar.github.io/posts/8bd-part5/
+
 ### [Open Combat][OpenCombat_website]
 
 ![Real time tactical 2nd world war game](open_combat.png)
