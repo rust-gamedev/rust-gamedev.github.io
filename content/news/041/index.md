@@ -100,6 +100,84 @@ A more detailed update summary is available [here][de-update-03].
 [de-docs]: https://docs.de-game.org
 [de-update-03]: https://mgn.cz/blog/de03
 
+### [Open Combat][OpenCombat_website]
+
+![Real time tactical 2nd world war game](open_combat.png)
+_Game now include vehicle (T-26) and shelling FX_
+
+Open Combat
+([Website][OpenCombat_website],
+[GitHub][OpenCombat_github],
+[Discord][OpenCombat_discord],
+[Reddit](OpenCombat_reddit))
+by [bux][bux] is a real time tactical game
+which takes place during the 2nd world war.
+
+Since the last news about this game,
+the game engine has been rewritten to permit multiplayer.
+Most of the basic game engine feature have been rewritten with
+the new engine (soldier moves, visibilities, map, etc.).
+Vehicle concept has been introduced to a T-26 tank.
+Basic fight features like gunfire and shelling have been introduced.
+
+[OpenCombat_website]: https://opencombat.bux.fr/
+[OpenCombat_github]: https://github.com/buxx/OpenCombat
+[OpenCombat_discord]: https://discord.gg/6P2vtFh2Px
+[bux]: https://github.com/buxx/
+
+### [Tiny Glade]
+
+![tiny_glade](tiny_glade_key_art_small.png)
+
+[@anopara]'s and [@h3r2tic]'s tiny building game
+now finally has a name! It's [Tiny Glade]!
+
+Tiny Glade is a small relaxing game about doodling
+castles. Explore gridless building chemistry, and
+watch the game carefully assemble every brick, pebble
+and plank. There's no management, combat, or wrong
+answers - just kick back and turn forgotten meadows
+into lovable dioramas. Wishlist on [Steam][Tiny Glade]!
+
+[@anopara]: https://twitter.com/anastasiaopara
+[@h3r2tic]: https://twitter.com/h3r2tic
+[Tiny Glade]: https://store.steampowered.com/app/2198150/Tiny_Glade/
+
+### [Temple Knight]
+
+![Shooting automatons in Temple Knight](temple-knight.jpg)
+_Shooting automatons in Temple Knight_
+
+Temple Knight ([Itch.io][tk-itch], [Twitter][tk-twitter])
+by [@nilaysavant] is a 3D FPS game developed using [Bevy].
+You play the role of a knight and protect the temple from raiding automatons.
+
+What began as an experiment to learn game dev in Rust using [Bevy].
+Initially motivated by the visual appeal of a [scene running in the browser via WASM].
+It quickly started taking the shape of a game:
+
+- From adding [Rapier] for [basic physics] to developing mechanics for other entities.
+- Path finding for Automaton's using [control systems].
+- Which was later switched to a deterministic [A-start navmesh approach].
+- Developed mechanics for the player controller including the first-person-camera.
+- Implemented weapon + projectiles systems.
+- Finally [custom shaders for projectiles] were added as a finishing touch.
+
+An experiment that became the first game published by [@nilaysavant].
+Play [Temple Knight] in your browser.
+
+[Temple Knight]: https://nilaysavant.itch.io/temple-knight
+[tk-itch]: https://nilaysavant.itch.io/temple-knight
+[tk-twitter]: https://twitter.com/nilay_savant/status/1607789552621727744
+[@nilaysavant]: https://github.com/nilaysavant
+[Bevy]: https://bevyengine.org/
+[scene running in the browser via WASM]: https://twitter.com/nilay_savant/status/1568307034390675456
+[Rapier]: https://rapier.rs/
+[basic physics]: https://twitter.com/nilay_savant/status/1569665425046384641
+[control systems]: https://twitter.com/nilay_savant/status/1573783227911012352
+[A-start navmesh approach]: https://twitter.com/nilay_savant/status/1574735050809413633
+[custom shaders for projectiles]: https://twitter.com/nilay_savant/status/1607115041253519361
+
 ## Engine Updates
 
 ## Learning Material Updates
@@ -162,7 +240,64 @@ The author also made a basic example [here][bevy-rpg-example].
 [project-flara]: https://github.com/project-flara/project-flara
 [bevy-rpg-example]: https://github.com/project-flara/bevy-rpg/blob/main/examples/basic.rs
 
-### [Release - Mun v0.4.0][mun-release]
+### [lpcg][lpcg_crate]
+
+![character sprite generator](lpcg.png)
+_A new library which generates character sprites_
+
+lpcg ([Crates.io][lpcg_crate], [GitHub][lpcg_github]) by
+[bux][bux] is a library which generates character sprites,
+based on assets from the [Liberated Pixel Cup][lpc].
+
+[lpcg_crate]: https://crates.io/crates/lpcg
+[lpcg_github]: https://github.com/buxx/lpcg/
+[lpc]: https://lpc.opengameart.org/
+
+### [egui_dnd]
+
+![egui_dnd in action](egui_dnd.gif)
+_A [showcase](https://lucasmerlin.github.io/egui_dnd/) of egui_dnd_
+
+[egui_dnd] ([github][egui_dnd_github], [crates.io][egui_dnd_crates_io]) by [@lucasmerlin]
+is a new drag and drop sorting crate for egui. While egui itself includes some drag
+and drop support, it's not intuitive to use. This crate provides a simple
+abstraction over egui's drag and drop features.
+
+The first release contains initial support for vertical sorting. If there
+is interest, more features could be added.
+
+_Discussions: [/r/rust](https://reddit.com/r/rust/comments/zpo4w9/egui_dnd)_
+
+[egui_dnd]: https://lucasmerlin.github.io/egui_dnd/
+[egui_dnd_github]: https://github.com/lucasmerlin/egui_dnd
+[egui_dnd_crates_io]: https://crates.io/crates/egui_dnd
+[@lucasmerlin]: https://github.com/lucasmerlin
+
+### [bevy_rapier_collider_gen][brcg-repo]
+
+![scene displaying generated colliders](brcg.png)
+
+[bevy_rapier_collider_gen][brcg-repo] by [@shnewto] is a library
+for generating bevy_rapier2d colliders for bevy apps, from images with
+transparency.
+
+Features include out of box support for generating:
+
+- Convex polyline colliders
+- Polyline colliders
+- Convex hull colliders
+- Heightfield colliders
+- Other colliders or geometries by getting edge coordinates in "drawing order"
+- Multiple colliders from a single image
+
+For more, in pictures, see the picture book retrospective
+["misadventures in collider generation"][brcg-retro].
+
+[brcg-repo]: https://github.com/shnewto/bevy_rapier_collider_gen
+[brcg-retro]: https://drinkspiller.com/bevy-rapier-collider-gen
+[@shnewto]: https://github.com/shnewto
+
+### [Mun v0.4.0][mun-release]
 
 [![Mun logo](mun-logo.svg)][Mun]
 
