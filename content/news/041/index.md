@@ -143,6 +143,41 @@ into lovable dioramas. Wishlist on [Steam][Tiny Glade]!
 [@h3r2tic]: https://twitter.com/h3r2tic
 [Tiny Glade]: https://store.steampowered.com/app/2198150/Tiny_Glade/
 
+### [Temple Knight]
+
+![Shooting automatons in Temple Knight](temple-knight.jpg)
+_Shooting automatons in Temple Knight_
+
+Temple Knight ([Itch.io][tk-itch], [Twitter][tk-twitter])
+by [@nilaysavant] is a 3D FPS game developed using [Bevy].
+You play the role of a knight and protect the temple from raiding automatons.
+
+What began as an experiment to learn game dev in Rust using [Bevy].
+Initially motivated by the visual appeal of a [scene running in the browser via WASM].
+It quickly started taking the shape of a game:
+
+- From adding [Rapier] for [basic physics] to developing mechanics for other entities.
+- Path finding for Automaton's using [control systems].
+- Which was later switched to a deterministic [A-start navmesh approach].
+- Developed mechanics for the player controller including the first-person-camera.
+- Implemented weapon + projectiles systems.
+- Finally [custom shaders for projectiles] were added as a finishing touch.
+
+An experiment that became the first game published by [@nilaysavant].
+Play [Temple Knight] in your browser.
+
+[Temple Knight]: https://nilaysavant.itch.io/temple-knight
+[tk-itch]: https://nilaysavant.itch.io/temple-knight
+[tk-twitter]: https://twitter.com/nilay_savant/status/1607789552621727744
+[@nilaysavant]: https://github.com/nilaysavant
+[Bevy]: https://bevyengine.org/
+[scene running in the browser via WASM]: https://twitter.com/nilay_savant/status/1568307034390675456
+[Rapier]: https://rapier.rs/
+[basic physics]: https://twitter.com/nilay_savant/status/1569665425046384641
+[control systems]: https://twitter.com/nilay_savant/status/1573783227911012352
+[A-start navmesh approach]: https://twitter.com/nilay_savant/status/1574735050809413633
+[custom shaders for projectiles]: https://twitter.com/nilay_savant/status/1607115041253519361
+
 ### Flesh
 
 ![flesh preview](flesh.gif)
@@ -155,7 +190,7 @@ include:
 - Change player bullet color and add trail particle.
 - Add SFX when special weapon ready.
 - Increase blood splash particles.
-- Postpone release date to Q1,2023.
+- Postpone release date to Q1, 2023.
 
 [Flesh]: https://store.steampowered.com/app/1660850/Flesh/
 [@im_oab]: https://twitter.com/im_oab
@@ -235,6 +270,77 @@ based on assets from the [Liberated Pixel Cup][lpc].
 [lpcg_crate]: https://crates.io/crates/lpcg
 [lpcg_github]: https://github.com/buxx/lpcg/
 [lpc]: https://lpc.opengameart.org/
+
+### [egui_dnd]
+
+![egui_dnd in action](egui_dnd.gif)
+_A [showcase](https://lucasmerlin.github.io/egui_dnd/) of egui_dnd_
+
+[egui_dnd] ([github][egui_dnd_github], [crates.io][egui_dnd_crates_io]) by [@lucasmerlin]
+is a new drag and drop sorting crate for egui. While egui itself includes some drag
+and drop support, it's not intuitive to use. This crate provides a simple
+abstraction over egui's drag and drop features.
+
+The first release contains initial support for vertical sorting. If there
+is interest, more features could be added.
+
+_Discussions: [/r/rust](https://reddit.com/r/rust/comments/zpo4w9/egui_dnd)_
+
+[egui_dnd]: https://lucasmerlin.github.io/egui_dnd/
+[egui_dnd_github]: https://github.com/lucasmerlin/egui_dnd
+[egui_dnd_crates_io]: https://crates.io/crates/egui_dnd
+[@lucasmerlin]: https://github.com/lucasmerlin
+
+### [bevy_rapier_collider_gen][brcg-repo]
+
+![scene displaying generated colliders](brcg.png)
+
+[bevy_rapier_collider_gen][brcg-repo] by [@shnewto] is a library
+for generating bevy_rapier2d colliders for bevy apps, from images with
+transparency.
+
+Features include out of box support for generating:
+
+- Convex polyline colliders
+- Polyline colliders
+- Convex hull colliders
+- Heightfield colliders
+- Other colliders or geometries by getting edge coordinates in "drawing order"
+- Multiple colliders from a single image
+
+For more, in pictures, see the picture book retrospective
+["misadventures in collider generation"][brcg-retro].
+
+[brcg-repo]: https://github.com/shnewto/bevy_rapier_collider_gen
+[brcg-retro]: https://drinkspiller.com/bevy-rapier-collider-gen
+[@shnewto]: https://github.com/shnewto
+
+### [Mun v0.4.0][mun-release]
+
+[![Mun logo](mun-logo.svg)][Mun]
+
+[Mun] is a scripting language for gamedev focused on quick iteration times
+that is written in Rust.
+
+The previous Mun release dates back over one and a half years. Since then -
+slowly but steadily - the Mun Community and Core Team have been working towards
+Mun v0.4.0 and it’s finally here!
+
+Mun v0.4 does not only bring array support to Mun, but it also lays the
+groundwork for a plethora of language features that require indirect types and
+recursion. For a full list have a look at the [changelog][mun-changelog], but
+the main improvements are:
+
+- Dynamically-sized arrays
+- Simplified function invocations from Rust
+- Simplified struct API for Rust
+- Apple M1 & experimental iOS support
+- Upgrade to LLVM 13
+- Support for runtime usage in entity component systems (ECS)
+
+[Mun]: https://mun-lang.org
+[mun-release]: https://mun-lang.org/blog/2022/12/12/release-mun-v0-4-0/
+[mun-changelog]: https://github.com/mun-lang/mun/releases/tag/v0.4.0
 
 ## Popular Workgroup Issues in Github
 
