@@ -143,6 +143,24 @@ into lovable dioramas. Wishlist on [Steam][Tiny Glade]!
 [@h3r2tic]: https://twitter.com/h3r2tic
 [Tiny Glade]: https://store.steampowered.com/app/2198150/Tiny_Glade/
 
+### Flesh
+
+![flesh preview](flesh.gif)
+_more blood_
+
+[Flesh] by [@im_oab] is a 2D-horizontal shmup game with hand-drawn animation and
+an organic/fleshy theme. It is implemented using [Tetra]. This month's updates
+include:
+
+- Change player bullet color and add trail particle.
+- Add SFX when special weapon ready.
+- Increase blood splash particles.
+- Postpone release date to Q1,2023.
+
+[Flesh]: https://store.steampowered.com/app/1660850/Flesh/
+[@im_oab]: https://twitter.com/im_oab
+[Tetra]: https://github.com/17cupsofcoffee/tetra
+
 ## Engine Updates
 
 ## Learning Material Updates
