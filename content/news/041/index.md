@@ -112,9 +112,9 @@ ThousandthStar to create art for the game. A testing server has now been set up
 
 Furthermore, these three new troops have been added to the game:
 
-- **Reaper**
-- **Kraken**
-- **Spider**
+- Reaper
+- Kraken
+- Spider
 
 The game now also includes new abilities for the various troops to come. The full
 devlog for this month can be found [here][Devlog part 5].
