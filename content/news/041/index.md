@@ -273,6 +273,30 @@ _Discussions: [/r/rust](https://reddit.com/r/rust/comments/zpo4w9/egui_dnd)_
 [egui_dnd_crates_io]: https://crates.io/crates/egui_dnd
 [@lucasmerlin]: https://github.com/lucasmerlin
 
+### [bevy_rapier_collider_gen][brcg-repo]
+
+![scene displaying generated colliders](brcg.png)
+
+[bevy_rapier_collider_gen][brcg-repo] by [@shnewto] is a library
+for generating bevy_rapier2d colliders for bevy apps, from images with
+transparency.
+
+Features include out of box support for generating:
+
+- Convex polyline colliders
+- Polyline colliders
+- Convex hull colliders
+- Heightfield colliders
+- Other colliders or geometries by getting edge coordinates in "drawing order"
+- Multiple colliders from a single image
+
+For more, in pictures, see the picture book retrospective
+["misadventures in collider generation"][brcg-retro].
+
+[brcg-repo]: https://github.com/shnewto/bevy_rapier_collider_gen
+[brcg-retro]: https://drinkspiller.com/bevy-rapier-collider-gen
+[@shnewto]: https://github.com/shnewto
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
