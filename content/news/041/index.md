@@ -253,6 +253,26 @@ based on assets from the [Liberated Pixel Cup][lpc].
 [lpcg_github]: https://github.com/buxx/lpcg/
 [lpc]: https://lpc.opengameart.org/
 
+### [egui_dnd]
+
+![egui_dnd in action](egui_dnd.gif)
+_A [showcase](https://lucasmerlin.github.io/egui_dnd/) of egui_dnd_
+
+[egui_dnd] ([github][egui_dnd_github], [crates.io][egui_dnd_crates_io]) by [@lucasmerlin]
+is a new drag and drop sorting crate for egui. While egui itself includes some drag
+and drop support, it's not intuitive to use. This crate provides a simple
+abstraction over egui's drag and drop features.
+
+The first release contains initial support for vertical sorting. If there
+is interest, more features could be added.
+
+_Discussions: [/r/rust](https://reddit.com/r/rust/comments/zpo4w9/egui_dnd)_
+
+[egui_dnd]: https://lucasmerlin.github.io/egui_dnd/
+[egui_dnd_github]: https://github.com/lucasmerlin/egui_dnd
+[egui_dnd_crates_io]: https://crates.io/crates/egui_dnd
+[@lucasmerlin]: https://github.com/lucasmerlin
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
