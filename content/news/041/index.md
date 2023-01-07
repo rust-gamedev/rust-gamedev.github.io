@@ -143,6 +143,41 @@ into lovable dioramas. Wishlist on [Steam][Tiny Glade]!
 [@h3r2tic]: https://twitter.com/h3r2tic
 [Tiny Glade]: https://store.steampowered.com/app/2198150/Tiny_Glade/
 
+### [Temple Knight]
+
+![Shooting automatons in Temple Knight](temple-knight.jpg)
+_Shooting automatons in Temple Knight_
+
+Temple Knight ([Itch.io][tk-itch], [Twitter][tk-twitter])
+by [@nilaysavant] is a 3D FPS game developed using [Bevy].
+You play the role of a knight and protect the temple from raiding automatons.
+
+What began as an experiment to learn game dev in Rust using [Bevy].
+Initially motivated by the visual appeal of a [scene running in the browser via WASM].
+It quickly started taking the shape of a game:
+
+- From adding [Rapier] for [basic physics] to developing mechanics for other entities.
+- Path finding for Automaton's using [control systems].
+- Which was later switched to a deterministic [A-start navmesh approach].
+- Developed mechanics for the player controller including the first-person-camera.
+- Implemented weapon + projectiles systems.
+- Finally [custom shaders for projectiles] were added as a finishing touch.
+
+An experiment that became the first game published by [@nilaysavant].
+Play [Temple Knight] in your browser.
+
+[Temple Knight]: https://nilaysavant.itch.io/temple-knight
+[tk-itch]: https://nilaysavant.itch.io/temple-knight
+[tk-twitter]: https://twitter.com/nilay_savant/status/1607789552621727744
+[@nilaysavant]: https://github.com/nilaysavant
+[Bevy]: https://bevyengine.org/
+[scene running in the browser via WASM]: https://twitter.com/nilay_savant/status/1568307034390675456
+[Rapier]: https://rapier.rs/
+[basic physics]: https://twitter.com/nilay_savant/status/1569665425046384641
+[control systems]: https://twitter.com/nilay_savant/status/1573783227911012352
+[A-start navmesh approach]: https://twitter.com/nilay_savant/status/1574735050809413633
+[custom shaders for projectiles]: https://twitter.com/nilay_savant/status/1607115041253519361
+
 ## Engine Updates
 
 ## Learning Material Updates
