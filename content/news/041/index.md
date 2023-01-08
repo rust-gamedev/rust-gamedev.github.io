@@ -361,7 +361,7 @@ networking support in jumpy. To address this, Jumpy has started migrating the co
 game loop to a custom, micro Entity Component System that is deterministic and can
 be trivially snapshot and restored.
 
-By being simple and planning to eventually support a pure C API, it's also 
+By being simple and planning to eventually support a pure C API, it's also
 intended for the micro-ECS approach to make it vastly easier to create a
 performant modding interface to Jumpy in the future.
 
@@ -379,7 +379,7 @@ and polish done and to make a proper MVP release.
 [Bevy]: https://bevyengine.org
 [jumpy_twitter]: https://twitter.com/spicylobsterfam
 [jumpy_discord]: https://discord.gg/4smxjcheE5
-[spicy_lobster]:  https://spicylobster.itch.io\
+[spicy_lobster]: https://spicylobster.itch.io
 [Bones]: https://github.com/fishfolk/bones
 
 ## Engine Updates
