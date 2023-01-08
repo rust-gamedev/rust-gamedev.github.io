@@ -279,6 +279,22 @@ now defined.
 [indiedevcasts_www]: https://indiedevcasts.com
 [@theredfish]: https://twitter.com/theredfi_sh
 
+### [Thetawave]
+
+![repeater_boss](repeater_boss.gif)
+_First boss enemy in Thetawave_
+
+Thetawave is an open-source, roguelite, physics-based, space shooter game made with
+[Bevy] and [Rapier]. This month, the first boss enemy was added to the game. Unlike
+other enemies, it is composed of a single "mob" entity and 7 "mob segment" entities.
+It also uses behavior sequences to regularly change its active set of behaviors. You
+can follow [@carlosupina] on Twitter for regular updates about the game.
+
+[Thetawave]: https://github.com/thetawavegame/thetawave
+[Bevy]: https://bevyengine.org/
+[Rapier]: https://rapier.rs/
+[@carlosupina]: https://twitter.com/carlosupina
+
 ## Engine Updates
 
 ## Learning Material Updates
