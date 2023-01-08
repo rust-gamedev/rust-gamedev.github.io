@@ -105,25 +105,25 @@ A more detailed update summary is available [here][de-update-03].
 ![Kraken](8bd_kraken.png)
 _The newly added Kraken_
 
-[@ThousandthStar] is creating 8bit Duels ([Discord], [Github]), an 8bit style
-turn-based multiplayer strategy game. Last month, an artist joined
-ThousandthStar to create art for the game. A testing server has now been set up
-(more information is in the [Discord] server).
+[@ThousandthStar] is creating 8bit Duels
+([Discord][8bit-discord], [Github][8bit-github]),
+an 8bit style turn-based multiplayer strategy game.
+
+Last month, an artist joined ThousandthStar to create art for the game.
+A testing server has now been set up
+(more information is in the [Discord][8bit-discord] server).
 
 Furthermore, these three new troops have been added to the game:
+Reaper, Kraken, and Spider.
+The game now also includes new abilities for the various troops to come.
 
-- Reaper
-- Kraken
-- Spider
-
-The game now also includes new abilities for the various troops to come. The full
-devlog for this month can be found [here][Devlog part 5].
+The full devlog for this month can be found [here][8bit-log5].
 
 [8bit Duels]: https://thousandthstar.github.io/posts/8bd-intro/
 [@ThousandthStar]: https://github.com/ThousandthStar
-[Discord]: https://discord.gg/NbBcF4bGU5
-[Github]: https://github.com/ThousandthStar/8bit-duels
-[Devlog part 5]: https://thousandthstar.github.io/posts/8bd-part5/
+[8bit-discord]: https://discord.gg/NbBcF4bGU5
+[8bit-github]: https://github.com/ThousandthStar/8bit-duels
+[8bit-log5]: https://thousandthstar.github.io/posts/8bd-part5
 
 ### [Open Combat][OpenCombat_website]
 
