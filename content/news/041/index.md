@@ -35,8 +35,8 @@ Feel free to send PRs about your own projects!
 - [Learning Material Updates](#learning-material-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
-- [Other News](#other-news)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
+- [Other News](#other-news)
 - [Meeting Minutes](#meeting-minutes)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
@@ -278,6 +278,36 @@ now defined.
 [indiedevcasts_twitter]: https://twitter.com/indiedevcasts
 [indiedevcasts_www]: https://indiedevcasts.com
 [@theredfish]: https://twitter.com/theredfi_sh
+
+### [Veloren][veloren]
+
+![A wendigo at night](veloren.jpg)
+_A fearsome wendigo encounter_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In December, work has been done to create a website to better assist moderation
+in the game. Several months of project finances were done, and all of the data
+is [publically visible][veloren-finances]. Work on Wyverns has continued, and
+lots of effort is being put into their wings. Some UI elements have changed
+location, both the bag and spellbook buttons were merged with other button bars.
+
+Frost Gigas are another big item in the works. These creatures will be Veloren's
+world boss. Gigas will hopefully be the first of a numerous elemental giants to
+roam the open world of Veloren and will need a large group of players to be able
+to take it down and collect it's new uncraftable and legendary loot!
+
+December's full weekly devlogs: "This Week In Veloren...":
+[#201][veloren-201],
+[#202][veloren-202],
+[#203][veloren-203].
+
+[veloren]: https://veloren.net
+[veloren-201]: https://veloren.net/devblog-201
+[veloren-202]: https://veloren.net/devblog-202
+[veloren-203]: https://veloren.net/devblog-203
+[veloren-finances]: https://docs.google.com/spreadsheets/d/1Fk6kDsCdZLhVszXdsWUjoG4Cgc3cLbTqJgZ-gY3Ndq0/edit#gid=0
 
 ## Engine Updates
 
