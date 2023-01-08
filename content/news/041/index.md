@@ -72,7 +72,12 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ![Gamedev meetup poster](gamedev-meetup.png)
 
 The 22nd Rust Gamedev Meetup took place in December. You can watch the recording
-of the meetup [here on Youtube][gamedev-meetup-video].
+of the meetup [here on Youtube][gamedev-meetup-video]. Here was the schedule
+from the meetup:
+
+- Fyrox Engine - [@dmitrynstepanov]
+- Rusty Vangers - [kvark]
+- Graphite - [@GraphiteEditor]
 
 The meetups take place on the second Saturday of every month via the [Rust
 Gamedev Discord server][rust-gamedev-discord] and are also [streamed on
@@ -81,10 +86,11 @@ January 14th, please [respond to the monthly GitHub
 issue][gamedev-meetup-speakers].
 
 [gamedev-meetup-video]: https://www.youtube.com/watch?v=Ck2R0yqTLcU
-[gamedev-meetup-speakers]:
-    https://github.com/rust-gamedev/meetup/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc
+[gamedev-meetup-speakers]: https://github.com/rust-gamedev/meetup/issues/2
 [rust-gamedev-discord]: https://discord.gg/yNtPTb2
 [rust-gamedev-twitch]: https://twitch.tv/rustgamedev
+[@dmitrynstepanov]: https://twitter.com/dmitrynstepanov
+[@GraphiteEditor]: https://twitter.com/GraphiteEditor
 
 ## Game Updates
 
