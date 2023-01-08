@@ -35,8 +35,8 @@ Feel free to send PRs about your own projects!
 - [Learning Material Updates](#learning-material-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
-- [Other News](#other-news)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
+- [Other News](#other-news)
 - [Meeting Minutes](#meeting-minutes)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
@@ -66,6 +66,25 @@ If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
 ## Announcements
+
+### Rust GameDev Meetup
+
+![Gamedev meetup poster](gamedev-meetup.png)
+
+The 22nd Rust Gamedev Meetup took place in December. You can watch the recording
+of the meetup [here on Youtube][gamedev-meetup-video].
+
+The meetups take place on the second Saturday of every month via the [Rust
+Gamedev Discord server][rust-gamedev-discord] and are also [streamed on
+Twitch][rust-gamedev-twitch]. If you would like to speak at the next meetup on
+January 14th, please [respond to the monthly GitHub
+issue][gamedev-meetup-speakers].
+
+[gamedev-meetup-video]: https://www.youtube.com/watch?v=Ck2R0yqTLcU
+[gamedev-meetup-speakers]:
+    https://github.com/rust-gamedev/meetup/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc
+[rust-gamedev-discord]: https://discord.gg/yNtPTb2
+[rust-gamedev-twitch]: https://twitch.tv/rustgamedev
 
 ## Game Updates
 
