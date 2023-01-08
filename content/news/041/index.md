@@ -100,31 +100,6 @@ A more detailed update summary is available [here][de-update-03].
 [de-docs]: https://docs.de-game.org
 [de-update-03]: https://mgn.cz/blog/de03
 
-### [8bit Duels]
-
-![Kraken](8bd_kraken.png)
-_The newly added Kraken_
-
-[@ThousandthStar] is creating 8bit Duels
-([Discord][8bit-discord], [Github][8bit-github]),
-an 8bit style turn-based multiplayer strategy game.
-
-Last month, an artist joined ThousandthStar to create art for the game.
-A testing server has now been set up
-(more information is in the [Discord][8bit-discord] server).
-
-Furthermore, these three new troops have been added to the game:
-Reaper, Kraken, and Spider.
-The game now also includes new abilities for the various troops to come.
-
-The full devlog for this month can be found [here][8bit-log5].
-
-[8bit Duels]: https://thousandthstar.github.io/posts/8bd-intro/
-[@ThousandthStar]: https://github.com/ThousandthStar
-[8bit-discord]: https://discord.gg/NbBcF4bGU5
-[8bit-github]: https://github.com/ThousandthStar/8bit-duels
-[8bit-log5]: https://thousandthstar.github.io/posts/8bd-part5
-
 ### [Open Combat][OpenCombat_website]
 
 ![Real time tactical 2nd world war game](open_combat.png)
@@ -167,6 +142,31 @@ into lovable dioramas. Wishlist on [Steam][Tiny Glade]!
 [@anopara]: https://twitter.com/anastasiaopara
 [@h3r2tic]: https://twitter.com/h3r2tic
 [Tiny Glade]: https://store.steampowered.com/app/2198150/Tiny_Glade/
+
+### [8bit Duels]
+
+![Kraken](8bd_kraken.png)
+_The newly added Kraken_
+
+[@ThousandthStar] is creating 8bit Duels
+([Discord][8bit-discord], [Github][8bit-github]),
+an 8bit style turn-based multiplayer strategy game.
+
+Last month, an artist joined ThousandthStar to create art for the game.
+A testing server has now been set up
+(more information is in the [Discord][8bit-discord] server).
+
+Furthermore, these three new troops have been added to the game:
+Reaper, Kraken, and Spider.
+The game now also includes new abilities for the various troops to come.
+
+The full devlog for this month can be found [here][8bit-log5].
+
+[8bit Duels]: https://thousandthstar.github.io/posts/8bd-intro/
+[@ThousandthStar]: https://github.com/ThousandthStar
+[8bit-discord]: https://discord.gg/NbBcF4bGU5
+[8bit-github]: https://github.com/ThousandthStar/8bit-duels
+[8bit-log5]: https://thousandthstar.github.io/posts/8bd-part5
 
 ## Engine Updates
 
