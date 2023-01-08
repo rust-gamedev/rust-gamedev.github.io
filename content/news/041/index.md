@@ -127,6 +127,28 @@ Basic fight features like gunfire and shelling have been introduced.
 
 ## Engine Updates
 
+### [Fyrox]
+
+![ABSM Editor](absm_editor.gif)
+
+[Fyrox] ([Discord][fyrox_discord], [Twitter][fyrox_twitter]) is a game engine that
+aims to be easy to use and provide a large set of out-of-the-box features. In December
+it got a lot of new functionality and improved existing:
+
+- Animation system rework is completed
+- Animation and ABSM editors are now fully usable
+- Reflection improvements
+- `Copy Value as String` for Inspector
+- Ability to enable/disable scene nodes
+- Customizable graph update pipeline
+- UI Widgets improvements
+- Curve editor improvements
+- Lots of bug fixes
+
+[Fyrox]: https://github.com/FyroxEngine/Fyrox
+[fyrox_discord]: https://discord.com/invite/xENF5Uh
+[fyrox_twitter]: https://twitter.com/DmitryNStepanov
+
 ## Learning Material Updates
 
 ## Tooling Updates
