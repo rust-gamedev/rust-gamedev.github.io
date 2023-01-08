@@ -217,6 +217,31 @@ implemented.
 [bevy_ecs_tilemap]: https://github.com/StarArawn/bevy_ecs_tilemap
 [bevy_particle_systems]: https://github.com/abnormalbrain/bevy_particle_systems
 
+### [8bit Duels]
+
+![Kraken](8bd_kraken.png)
+_The newly added Kraken_
+
+[@ThousandthStar] is creating 8bit Duels
+([Discord][8bit-discord], [Github][8bit-github]),
+an 8bit style turn-based multiplayer strategy game.
+
+Last month, an artist joined ThousandthStar to create art for the game.
+A testing server has now been set up
+(more information is in the [Discord][8bit-discord] server).
+
+Furthermore, these three new troops have been added to the game:
+Reaper, Kraken, and Spider.
+The game now also includes new abilities for the various troops to come.
+
+The full devlog for this month can be found [here][8bit-log5].
+
+[8bit Duels]: https://thousandthstar.github.io/posts/8bd-intro/
+[@ThousandthStar]: https://github.com/ThousandthStar
+[8bit-discord]: https://discord.gg/NbBcF4bGU5
+[8bit-github]: https://github.com/ThousandthStar/8bit-duels
+[8bit-log5]: https://thousandthstar.github.io/posts/8bd-part5
+
 ## Engine Updates
 
 ## Learning Material Updates
