@@ -33,7 +33,10 @@ The meetup will take place on the Rust Gamedev [YouTube][youtube-stream] and [Tw
 > textures from scratch using procedural nodes, allowing for changes to any step
 > in the process at any time, including changing the texture's resolution.
 
+#### *[Recording][vismut-recording]*
+
 [Lukas Orsvärn]: https://github.com/lukors
+[vismut-recording]: https://www.youtube.com/watch?v=0IsllXP7_pY
 
 ### Screen-13 | [John Wells]
 
@@ -41,7 +44,10 @@ The meetup will take place on the Rust Gamedev [YouTube][youtube-stream] and [Tw
 
 > Screen 13 is an easy-to-use Vulkan rendering engine in the spirit of QBasic.
 
+#### *[Recording][screen-13-recording]*
+
 [John Wells]: https://github.com/attackgoat/screen-13
+[screen-13-recording]: https://www.youtube.com/watch?v=ywZznsCXUjs
 
 ### Optimizing wgpu with Data Driven Design | [Connor Fitzgerald]
 
@@ -53,4 +59,7 @@ The meetup will take place on the Rust Gamedev [YouTube][youtube-stream] and [Tw
 > the core of many rust projects and ensuring it is as fast as possible will
 > push the boundary of what is possible in safe Rust today.
 
+#### *[Recording][wgpu-recording]*
+
 [Connor Fitzgerald]: https://github.com/cwfitzgerald
+[wgpu-recording]: https://www.youtube.com/watch?v=DDG4bcGs7zM
