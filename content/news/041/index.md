@@ -67,6 +67,23 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Announcements
 
+### Rust Graphics Meetup 3
+
+![Graphics meetup logo](graphics-meetup-logo.jpg)
+
+The 3rd Rust Graphics Meetup will take place on the [28th of January 2023 at
+16:00 GMT][graphics-meetup-time]. This meetup is a chance to show off what
+you've been working on in the graphics community, or see what other people have
+been doing!
+
+If you're interested in speaking, please add a comment to [this
+issue][graphics-meetup-issue]. You can also [read about the previous graphics
+meetup][graphics-meetup-2].
+
+[graphics-meetup-issue]: https://github.com/gfx-rs/meetup/issues/3
+[graphics-meetup-time]: https://everytimezone.com/s/feafb968
+[graphics-meetup-2]: https://gamedev.rs/blog/graphics-meetup-02/
+
 ## Game Updates
 
 ### Digital Extinction
