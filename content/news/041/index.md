@@ -203,8 +203,6 @@ The [second devlog][cargospace_devlog_2] goes through this in detail, and in
 particular how integration between [bevy_ggrs] and [leafwing_input_manager] was
 implemented.
 
-_Discussions: /r/rust_gamedev ([#1](https://www.reddit.com/r/rust_gamedev/comments/zmh7ww/cargo_space_devlog_1_a_coop_2d_space_game_made/), [#2](https://www.reddit.com/r/rust_gamedev/comments/zxdgfh/cargo_space_devlog_2_a_coop_2d_space_game_made/)), Mastodon ([#1](https://mastodon.social/@johanhelsing/109483950198327965), [#2](https://mastodon.social/@johanhelsing/109592138584978251))_
-
 [cargospace]: https://helsing.studio/cargospace
 [cargospace_discord]: https://discord.gg/ye9UDNvqQD
 [johanhelsing_mastodon]: https://mastodon.social/@johanhelsing
