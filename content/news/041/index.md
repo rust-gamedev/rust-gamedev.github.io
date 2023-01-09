@@ -471,7 +471,8 @@ it got a lot of new functionality and improved existing:
 [Runty8][runty8-repo] is an experimental port of the [Pico8][pico8-site]
 fantasy console that supports writing games in Rust.
 
-[Runty8][runty8-repo] has recently added support for WebAssembly, which means that you can now run your games in the browser!
+[Runty8][runty8-repo] has recently added support for WebAssembly,
+which means that you can now run your games in the browser!
 
 Feel free to [follow their template][runty8-template] to start making your own games.
 
