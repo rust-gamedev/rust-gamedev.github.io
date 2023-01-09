@@ -373,6 +373,46 @@ it got a lot of new functionality and improved existing:
 
 ## Tooling Updates
 
+### [Graphite][graphite-website]
+
+[
+![Graphite logo](graphite-vector-demo.png)
+_Video: 3-minute timelapse of a vector art piece illustrated in Graphite_
+][graphite-vector-demo]
+
+Graphite ([website][graphite-website], [GitHub][graphite-repo],
+[Discord][graphite-discord], [Twitter][graphite-twitter]) is a free,
+in-development raster and vector 2D graphics editor based around a Rust-powered
+node graph compositing engine.
+
+December's [sprint 21][graphite-sprint-21] introduces:
+
+- Chain reaction: The Imaginate feature, an AI image generation workflow
+  powered by [Stable Diffusion][graphite-stable-diffusion], becomes a node.
+  Chain together a sequence of fine-tuned generation steps. And explore ideas
+  by branching the graph into new creative directions.
+- Node nurturing: New features provide polish to the node graph. Nodes can be
+  copy/pasted, hidden, previewed, and linked more easily.
+- Bugs, begone!: A major effort to improve editor usability fixes dozens of
+  bugs and paper cuts. Boolean shape operations now crash less frequently, the
+  UI no longer slows down badly over time, and undo history is finally fixed.
+
+Stay tuned for the imminent Alpha Milestone 2 release and progress converting
+existing features into nodes.
+
+Open the [Graphite editor][graphite-editor] in your browser to give it a try
+and share your creations with #MadeWithGraphite on Twitter.
+
+[graphite-vector-demo]: https://www.youtube.com/watch?v=JgJvAHQLnXA
+  "Graphite Vector Editing: \"Commander Basstronaut\" Artwork (25x Timelapse)"
+[graphite-website]: https://graphite.rs
+[graphite-repo]: https://github.com/GraphiteEditor/Graphite
+[graphite-discord]: https://discord.graphite.rs
+[graphite-twitter]: https://twitter.com/GraphiteEditor
+[graphite-sprint-21]: https://github.com/GraphiteEditor/Graphite/milestone/21
+[graphite-stable-diffusion]: https://en.wikipedia.org/wiki/Stable_Diffusion
+[graphite-editor]: https://editor.graphite.rs
+
 ## Library Updates
 
 ### [Inox2d][inox2d]
