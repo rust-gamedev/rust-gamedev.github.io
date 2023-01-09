@@ -608,6 +608,30 @@ the main improvements are:
 [mun-release]: https://mun-lang.org/blog/2022/12/12/release-mun-v0-4-0/
 [mun-changelog]: https://github.com/mun-lang/mun/releases/tag/v0.4.0
 
+### [rust-gpu v0.4.0][rust-gpu-release]
+
+![image/GIF description](rust-gpu.png)
+_Screenshot from Embark's [Creative Playground][embark-creative-playground],
+which uses rust-gpu and raytracing_
+
+[Rust-gpu][rust-gpu] v0.4.0 allows you to write your GPU shaders in the Rust
+language. It consists of a Rust compiler backend for generating SPIR-V shader
+modules, and an API to address GPU resources.
+
+Release v0.4.0 brings a lot of upgrades, bug fixes, maturity, and now also
+supports raytracing shaders! Furthermore, all dependent crates have been
+published to crates.io, so pointing to our github in your Cargo.toml is no
+longer required.
+
+Eager to get started? Check out our [Dev Guide][rust-gpu-dev-guide], or
+chat with us and the community on our public [Discord server][rust-gpu-discord].
+
+[rust-gpu]: https://github.com/EmbarkStudios/rust-gpu/
+[rust-gpu-release]: https://github.com/EmbarkStudios/rust-gpu/releases/tag/v0.4.0
+[embark-creative-playground]: https://twitter.com/createplayremix
+[rust-gpu-dev-guide]: https://embarkstudios.github.io/rust-gpu/book/introduction.html
+[rust-gpu-discord]: https://discord.com/channels/750717012564770887/750717499737243679
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
