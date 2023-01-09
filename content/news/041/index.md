@@ -84,6 +84,32 @@ meetup][graphics-meetup-2].
 [graphics-meetup-time]: https://everytimezone.com/s/feafb968
 [graphics-meetup-2]: https://gamedev.rs/blog/graphics-meetup-02/
 
+### Rust GameDev Meetup
+
+![Gamedev meetup poster](gamedev-meetup.png)
+
+The 22nd Rust Gamedev Meetup took place in December. You can watch the recording
+of the meetup [here on Youtube][gamedev-meetup-video]. Here was the schedule
+from the meetup:
+
+- Fyrox Engine - [@dmitrynstepanov]
+- Rusty Vangers - [@kvark]
+- Graphite - [@GraphiteEditor]
+
+The meetups take place on the second Saturday of every month via the [Rust
+Gamedev Discord server][rust-gamedev-discord] and are also [streamed on
+Twitch][rust-gamedev-twitch]. If you would like to speak at the next meetup on
+January 14th, please [respond to the monthly GitHub
+issue][gamedev-meetup-speakers].
+
+[gamedev-meetup-video]: https://www.youtube.com/watch?v=Ck2R0yqTLcU
+[gamedev-meetup-speakers]: https://github.com/rust-gamedev/meetup/issues/2
+[rust-gamedev-discord]: https://discord.gg/yNtPTb2
+[rust-gamedev-twitch]: https://twitch.tv/rustgamedev
+[@dmitrynstepanov]: https://twitter.com/dmitrynstepanov
+[@GraphiteEditor]: https://twitter.com/GraphiteEditor
+[@kvark]: http://kvark.github.io
+
 ## Game Updates
 
 ### Digital Extinction
@@ -344,6 +370,75 @@ regular updates about the game.
 [Bevy]: https://bevyengine.org/
 [Rapier]: https://rapier.rs/
 [@carlosupina]: https://twitter.com/carlosupina
+
+### [Jumpy]
+
+![Swords, Crates, Grenades, & Mines](jumpy.png)
+_Jumpy Items: Swords, Crates, Grenades, & Mines_
+
+[Jumpy] ([GitHub][Jumpy], [Discord][jumpy_discord], [Twitter][jumpy_twitter]) by
+[Spicy Lobster][spicy_lobster] is a pixel-style, tactical 2D shooter with a fishy
+theme.
+
+In the last month work started on a new architecture for the core Jumpy game loop.
+
+Determinism and snapshot/restore functionality has been a challenge for
+networking support in jumpy. To address this, Jumpy has started migrating the core
+game loop to a custom, micro Entity Component System that is deterministic and can
+be trivially snapshot and restored.
+
+By being simple and planning to eventually support a pure C API, it's also
+intended for the micro-ECS approach to make it vastly easier to create a
+performant modding interface to Jumpy in the future.
+
+Work has almost been finished on the new Bones ECS and the surrounding [Bones]
+framework, which is still built on Bevy for rendering and otherwise talking to
+the hardware. The hope is that Bones can become a framework for making other
+games similar in scope to Jumpy, without those games have to re-invent everything
+that was needed to get features like UI, networking, localization, asset loading,
+etc.
+
+As soon as the ECS migration is finished, the plan is to get the final game juicing
+and polish done and to make a proper MVP release.
+
+[Jumpy]: https://github.com/fishfolks/jumpy
+[Bevy]: https://bevyengine.org
+[jumpy_twitter]: https://twitter.com/spicylobsterfam
+[jumpy_discord]: https://discord.gg/4smxjcheE5
+[spicy_lobster]: https://spicylobster.itch.io
+[Bones]: https://github.com/fishfolk/bones
+
+### [Hydrofoil Generation]
+
+![hgs_screen](hydrofoil_41.jpg)
+
+[Hydrofoil Generation]
+([Steam][hgs_steam], [Facebook][hgs_facebook], [Discord][hgs_discord])
+is a realistic sailing/foiling inshore simulator in development for PC/Steam
+that will put you in the driving seat of modern competitive sailing.
+
+The game is written completely in Rust, using a custom engine based on
+DirectX 11, physics powered by Rapier-3D.
+
+Jaxx Vane Studio army of 2, Stefano Casillo and Chax Duero is pushing
+through the final steps to get the game ready for Steam Early Access release.
+
+As final QA approaches the team is at work to add the last level of polish
+and more details as possible to every aspect of the game.
+
+A new Tutorial System has been added to introduce people with different
+backgrounds to the game as gently as possible making the learning curve
+of this complex simulator less steep.
+
+Stefano is also back on [Twitch][hgs_twitch] streaming coding sessions live.
+
+Hydrofoil Generation should be available on Steam in the first months of 2023.
+
+[Hydrofoil Generation]: https://hydrofoil-generation.com/
+[hgs_facebook]: https://www.facebook.com/HydrofoilGenerationSailing/
+[hgs_discord]: https://discord.gg/DtKgt2duAy/
+[hgs_steam]: https://store.steampowered.com/app/1448820/Hydrofoil_Generation/
+[hgs_twitch]: https://www.twitch.tv/kunosstefano
 
 ## Engine Updates
 
