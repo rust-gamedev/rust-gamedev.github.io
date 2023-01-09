@@ -67,6 +67,23 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Announcements
 
+### Rust Graphics Meetup 3
+
+![Graphics meetup logo](graphics-meetup-logo.jpg)
+
+The 3rd Rust Graphics Meetup will take place on the [28th of January 2023 at
+16:00 GMT][graphics-meetup-time]. This meetup is a chance to show off what
+you've been working on in the graphics community, or see what other people have
+been doing!
+
+If you're interested in speaking, please add a comment to [this
+issue][graphics-meetup-issue]. You can also [read about the previous graphics
+meetup][graphics-meetup-2].
+
+[graphics-meetup-issue]: https://github.com/gfx-rs/meetup/issues/3
+[graphics-meetup-time]: https://everytimezone.com/s/feafb968
+[graphics-meetup-2]: https://gamedev.rs/blog/graphics-meetup-02/
+
 ### Rust GameDev Meetup
 
 ![Gamedev meetup poster](gamedev-meetup.png)
@@ -76,7 +93,7 @@ of the meetup [here on Youtube][gamedev-meetup-video]. Here was the schedule
 from the meetup:
 
 - Fyrox Engine - [@dmitrynstepanov]
-- Rusty Vangers - [kvark]
+- Rusty Vangers - [@kvark]
 - Graphite - [@GraphiteEditor]
 
 The meetups take place on the second Saturday of every month via the [Rust
@@ -91,6 +108,7 @@ issue][gamedev-meetup-speakers].
 [rust-gamedev-twitch]: https://twitch.tv/rustgamedev
 [@dmitrynstepanov]: https://twitter.com/dmitrynstepanov
 [@GraphiteEditor]: https://twitter.com/GraphiteEditor
+[@kvark]: http://kvark.github.io
 
 ## Game Updates
 
@@ -304,7 +322,78 @@ now defined.
 [indiedevcasts_www]: https://indiedevcasts.com
 [@theredfish]: https://twitter.com/theredfi_sh
 
+### [Veloren][veloren]
+
+![A wendigo at night](veloren.jpg)
+_A fearsome wendigo encounter_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In December, work has been done to create a website to better assist moderation
+in the game. Several months of project finances were done, and all of the data
+is [publically visible][veloren-finances]. Work on Wyverns has continued, and
+lots of effort is being put into their wings. Some UI elements have changed
+location, both the bag and spellbook buttons were merged with other button bars.
+
+Frost Gigas are another big item in the works. These creatures will be Veloren's
+world boss. Gigas will hopefully be the first of a numerous elemental giants to
+roam the open world of Veloren and will need a large group of players to be able
+to take it down and collect it's new uncraftable and legendary loot!
+
+December's full weekly devlogs: "This Week In Veloren...":
+[#201][veloren-201],
+[#202][veloren-202],
+[#203][veloren-203].
+
+[veloren]: https://veloren.net
+[veloren-201]: https://veloren.net/devblog-201
+[veloren-202]: https://veloren.net/devblog-202
+[veloren-203]: https://veloren.net/devblog-203
+[veloren-finances]: https://docs.google.com/spreadsheets/d/1Fk6kDsCdZLhVszXdsWUjoG4Cgc3cLbTqJgZ-gY3Ndq0/edit#gid=0
+
+### [Thetawave]
+
+![repeater boss](repeater_boss.gif)
+_First boss enemy in Thetawave_
+
+Thetawave is an open-source, roguelite, physics-based, space shooter game made
+with [Bevy] and [Rapier].
+
+This month, the first boss enemy was added to the
+game. Unlike other enemies, it is composed of a single "mob" entity and 7
+"mob segment" entities. It also uses behavior sequences to regularly change
+its active set of behaviors. You can follow [@carlosupina] on Twitter for
+regular updates about the game.
+
+[Thetawave]: https://github.com/thetawavegame/thetawave
+[Bevy]: https://bevyengine.org/
+[Rapier]: https://rapier.rs/
+[@carlosupina]: https://twitter.com/carlosupina
+
 ## Engine Updates
+
+### [Fyrox]
+
+![ABSM Editor](absm_editor.gif)
+
+[Fyrox] ([Discord][fyrox_discord], [Twitter][fyrox_twitter]) is a game engine that
+aims to be easy to use and provide a large set of out-of-the-box features. In December
+it got a lot of new functionality and improved existing:
+
+- Animation system rework is completed
+- Animation and ABSM editors are now fully usable
+- Reflection improvements
+- `Copy Value as String` for Inspector
+- Ability to enable/disable scene nodes
+- Customizable graph update pipeline
+- UI Widgets improvements
+- Curve editor improvements
+- Lots of bug fixes
+
+[Fyrox]: https://github.com/FyroxEngine/Fyrox
+[fyrox_discord]: https://discord.com/invite/xENF5Uh
+[fyrox_twitter]: https://twitter.com/DmitryNStepanov
 
 ## Learning Material Updates
 
