@@ -345,6 +345,38 @@ regular updates about the game.
 [Rapier]: https://rapier.rs/
 [@carlosupina]: https://twitter.com/carlosupina
 
+### [Hydrofoil Generation]
+
+![hgs_screen](hydrofoil_41.jpg)
+
+[Hydrofoil Generation]
+([Steam][hgs_steam], [Facebook][hgs_facebook], [Discord][hgs_discord])
+is a realistic sailing/foiling inshore simulator in development for PC/Steam
+that will put you in the driving seat of modern competitive sailing.
+
+The game is written completely in Rust, using a custom engine based on
+DirectX 11, physics powered by Rapier-3D.
+
+Jaxx Vane Studio army of 2, Stefano Casillo and Chax Duero is pushing
+through the final steps to get the game ready for Steam Early Access release.
+
+As final QA approaches the team is at work to add the last level of polish
+and more details as possible to every aspect of the game.
+
+A new Tutorial System has been added to introduce people with different
+backgrounds to the game as gently as possible making the learning curve
+of this complex simulator less steep.
+
+Stefano is also back on [Twitch][hgs_twitch] streaming coding sessions live.
+
+Hydrofoil Generation should be available on Steam in the first months of 2023.
+
+[Hydrofoil Generation]: https://hydrofoil-generation.com/
+[hgs_facebook]: https://www.facebook.com/HydrofoilGenerationSailing/
+[hgs_discord]: https://discord.gg/DtKgt2duAy/
+[hgs_steam]: https://store.steampowered.com/app/1448820/Hydrofoil_Generation/
+[hgs_twitch]: https://www.twitch.tv/kunosstefano
+
 ## Engine Updates
 
 ### [Fyrox]
