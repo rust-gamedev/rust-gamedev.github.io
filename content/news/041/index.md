@@ -84,6 +84,32 @@ meetup][graphics-meetup-2].
 [graphics-meetup-time]: https://everytimezone.com/s/feafb968
 [graphics-meetup-2]: https://gamedev.rs/blog/graphics-meetup-02/
 
+### Rust GameDev Meetup
+
+![Gamedev meetup poster](gamedev-meetup.png)
+
+The 22nd Rust Gamedev Meetup took place in December. You can watch the recording
+of the meetup [here on Youtube][gamedev-meetup-video]. Here was the schedule
+from the meetup:
+
+- Fyrox Engine - [@dmitrynstepanov]
+- Rusty Vangers - [@kvark]
+- Graphite - [@GraphiteEditor]
+
+The meetups take place on the second Saturday of every month via the [Rust
+Gamedev Discord server][rust-gamedev-discord] and are also [streamed on
+Twitch][rust-gamedev-twitch]. If you would like to speak at the next meetup on
+January 14th, please [respond to the monthly GitHub
+issue][gamedev-meetup-speakers].
+
+[gamedev-meetup-video]: https://www.youtube.com/watch?v=Ck2R0yqTLcU
+[gamedev-meetup-speakers]: https://github.com/rust-gamedev/meetup/issues/2
+[rust-gamedev-discord]: https://discord.gg/yNtPTb2
+[rust-gamedev-twitch]: https://twitch.tv/rustgamedev
+[@dmitrynstepanov]: https://twitter.com/dmitrynstepanov
+[@GraphiteEditor]: https://twitter.com/GraphiteEditor
+[@kvark]: http://kvark.github.io
+
 ## Game Updates
 
 ### Digital Extinction
