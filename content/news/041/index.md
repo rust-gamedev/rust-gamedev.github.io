@@ -466,7 +466,7 @@ it got a lot of new functionality and improved existing:
 
 ### [Runty8][runty8-repo]
 
-[![Runty 8 logo][runty8-logo]][runty8-repo]
+[![Runty 8 logo](runty8.png)][runty8-repo]
 
 [Runty8][runty8-repo] is an experimental port of the [Pico8][pico8-site]
 fantasy console that supports writing games in Rust.
@@ -484,7 +484,6 @@ or browse through the [open issues][runty8-open-issues].
 [runty8-contributing-guide]: https://github.com/jjant/runty8/blob/master/CONTRIBUTING.md
 [runty8-open-issues]: https://github.com/jjant/runty8/issues
 [pico8-site]: https://www.lexaloffle.com/pico-8.php
-[runty8-logo]: https://user-images.githubusercontent.com/15112080/188467323-037617cf-7dbc-4988-bbd7-fbafd1524455.png
 [runty8-template]: https://github.com/jjant/runty8#making-your-own-games
 
 ## Learning Material Updates
