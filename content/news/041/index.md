@@ -464,6 +464,28 @@ it got a lot of new functionality and improved existing:
 [fyrox_discord]: https://discord.com/invite/xENF5Uh
 [fyrox_twitter]: https://twitter.com/DmitryNStepanov
 
+### [Runty8][runty8-repo]
+
+[![Runty 8 logo](runty8.png)][runty8-repo]
+
+[Runty8][runty8-repo] is an experimental port of the [Pico8][pico8-site]
+fantasy console that supports writing games in Rust.
+
+[Runty8][runty8-repo] has recently added support for WebAssembly,
+which means that you can now run your games in the browser!
+
+Feel free to [follow their template][runty8-template] to start making your own games.
+
+The project is in very early stages, and is currently looking for contributors.
+If you're interested, feel free to read their [contributing guide][runty8-contributing-guide]
+or browse through the [open issues][runty8-open-issues].
+
+[runty8-repo]: https://github.com/jjant/runty8
+[runty8-contributing-guide]: https://github.com/jjant/runty8/blob/master/CONTRIBUTING.md
+[runty8-open-issues]: https://github.com/jjant/runty8/issues
+[pico8-site]: https://www.lexaloffle.com/pico-8.php
+[runty8-template]: https://github.com/jjant/runty8#making-your-own-games
+
 ## Learning Material Updates
 
 ## Tooling Updates
