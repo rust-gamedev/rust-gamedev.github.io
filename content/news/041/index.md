@@ -695,6 +695,21 @@ chat with the devs and the community on the public [Discord server][rust-gpu-dis
 [rust-gpu-dev-guide]: https://embarkstudios.github.io/rust-gpu/book/introduction.html
 [rust-gpu-discord]: https://discord.com/channels/750717012564770887/750717499737243679
 
+### [assets_manager]
+
+assets_manager ([GitHub][assets_manager], [crates.io][assets_manager_crates])
+is a library to easily load and cache assets. It comes with support for multiple
+file formats and out-of-the-box hot-reloading.
+
+The last release includes internals performance improvements and more flexibility
+in the way to load assets.
+
+[Ggez bindings][ggez-assets_manager] were also updated to latest ggez version.
+
+[assets_manager]: https://github.com/a1phyr/assets_manager
+[assets_manager_crates]: https://crates.io/crates/assets_manager
+[ggez-assets_manager]: https://github.com/a1phyr/ggez-assets_manager
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
