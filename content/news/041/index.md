@@ -675,7 +675,7 @@ chat with the devs and the community on the public [Discord server][rust-gpu-dis
 
 ### [assets_manager]
 
-assets_manager ([github][assets_manager], [crates.io][assets_manager_crates])
+assets_manager ([GitHub][assets_manager], [crates.io][assets_manager_crates])
 is a library to easily load and cache assets. It comes with support for multiple
 file formats and out-of-the-box hot-reloading.
 
