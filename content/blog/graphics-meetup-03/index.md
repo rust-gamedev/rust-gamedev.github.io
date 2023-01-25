@@ -45,8 +45,8 @@ The meetup will take place on the Rust Gamedev [YouTube][youtube-stream] and
 
 **16:55 - 17:25**
 
-> An overview of the current state of rend3: new data and gpu driven rendering
-> model, performance.
+> An overview of the current state of rend3: new data and gpu driven rendering model, 
+> performance improvements, and a look into the future.
 
 ### Conclusion
 
