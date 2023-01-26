@@ -39,7 +39,7 @@ The meetup will take place on the Rust Gamedev [YouTube][youtube-stream] and
 
 **16:40 - 16:55**
 
-> Quick introduction to Rafx, and some ideas for making more extensible renderers
+> Quick introduction to Rafx, and some ideas for making more extensible renderers.
 
 ### Rend3: High Performance, Cross Platform, GPU Driven Rendering in wgpu and WebGPU | [Connor Fitzgerald]
 
