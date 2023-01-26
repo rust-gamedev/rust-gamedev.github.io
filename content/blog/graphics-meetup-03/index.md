@@ -5,7 +5,8 @@ transparent = true
 aliases = ["posts/graphics-meetup-03"]
 +++
 
-<!-- markdownlint-disable single-title heading-increment no-blanks-blockquote -->
+<!-- markdownlint-disable single-title heading-increment -->
+<!-- markdownlint-disable no-blanks-blockquote no-emphasis-as-header -->
 <!-- markdownlint-configure-file {"line-length": {"heading_line_length": 120}} -->
 
 ![Rust Graphics Meetup](rust-graphics-meetup-3.jpg)
@@ -39,14 +40,15 @@ The meetup will take place on the Rust Gamedev [YouTube][youtube-stream] and
 
 **16:40 - 16:55**
 
-> Quick introduction to Rafx, and some ideas for making more extensible renderers.
+> Quick introduction to Rafx, and some ideas for making more extensible
+> renderers.
 
 ### Rend3: High Performance, Cross Platform, GPU Driven Rendering in wgpu and WebGPU | [Connor Fitzgerald]
 
 **16:55 - 17:25**
 
-> An overview of the current state of rend3: new data and gpu driven rendering model, 
-> performance improvements, and a look into the future.
+> An overview of the current state of rend3: new data and gpu driven rendering
+> model, performance improvements, and a look into the future.
 
 ### Conclusion
 
