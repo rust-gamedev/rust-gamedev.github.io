@@ -1098,14 +1098,11 @@ Want something mentioned in the next newsletter?
 Also, subscribe to [@rust_gamedev on Twitter][@rust_gamedev]
 or [/r/rust_gamedev subreddit][/r/rust_gamedev] if you want to receive fresh news!
 
-<!--
-TODO: Add real links and un-comment once this post is published
 **Discuss this post on**:
-[/r/rust_gamedev](TODO),
-[Twitter](TODO),
-[Mastodon](TODO),
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/10naebl/this_month_in_rust_gamedev_41_december_2022),
+[Twitter](https://twitter.com/rust_gamedev/status/1619290431761817600),
+[Mastodon](https://mastodon.gamedev.place/@rust_gamedev/109765982808236944),
 [Discord](https://discord.gg/yNtPTb2).
--->
 
 [/r/rust_gamedev]: https://reddit.com/r/rust_gamedev
 [@rust_gamedev]: https://twitter.com/rust_gamedev
