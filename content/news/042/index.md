@@ -78,7 +78,7 @@ _Building Placement in Digital Extinction_
 [Reddit][de-reddit]) by [@Indy2222] is a 3D real-time strategy game made with
 [Bevy].
 
-This month we had two new first time contributors, [@0HyperCube] and
+This month the game had two new first time contributors, [@0HyperCube] and
 [@Polostor] (Péťa Tománek).
 
 The most notable updates are:
