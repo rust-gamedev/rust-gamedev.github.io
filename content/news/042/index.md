@@ -80,24 +80,26 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ### [big-brain]
 
 [big-brain] ([GitHub][big-brain-github], [Discord][big-brain-discord]) by [@zkat]
-is a highly-parallel [Utility AI][big-brain-utility-ai] library for the bevy game engine.
+is a highly-parallel [Utility AI][big-brain-utility-ai] library
+for the Bevy game engine.
 
-[big-brain] recently tagged [v0.16.0][big-brain-v16], bringing with it a couple of breaking changes
-and a few goodies.
+[big-brain] recently tagged [v0.16.0][big-brain-v16],
+bringing with it a couple of breaking changes and a few goodies.
 
 Probably the biggest change in this release is removal of the blanket
 [`ActionBuilder`][big-brain-action-builder] and [`ScorerBuilder`][big-brain-scorer-builder]
 implementations for `Clone` types. This is a fairly significant breaking change,
 but one that is fairly easy to resolve: simply use the new `#[derive(ActionBuilder)]`
-and `#[derive(ScorerBuilder)]` macros to derive the necessary implementations for your
-Action and Scorer Components and you should be good to go.
+and `#[derive(ScorerBuilder)]` macros to derive the necessary implementations
+for your Action and Scorer Components and you should be good to go.
 
 Finally, since the recent [merging of the bevy scheduler changes][big-brain-bevy-scheduler-changes],
-big-brain users should expect the next version of big-brain to bring with it some significant breaking
-changes to scheduling, so keep an eye out for that and be mindful of building a lot on top of the
-current [`BigBrainStage`][big-brain-stage] (which is used by the default `BigBrainPlugin`).
+big-brain users should expect the next version of big-brain to bring with it
+some significant breaking changes to scheduling, so keep an eye out for that
+and be mindful of building a lot on top of the current [`BigBrainStage`][big-brain-stage]
+(which is used by the default `BigBrainPlugin`).
 
-_Discussions: [bevy #ai Discord channel](big-brain-discord), [@zkat@toot.cat on Mastodon][zkat-mastodon]_
+_Discussions: [Mastodon][zkat-mastodon-ann]_
 
 [big-brain]: https://crates.io/crates/big-brain
 [big-brain-github]: https://github.com/zkat/big-brain
@@ -109,7 +111,7 @@ _Discussions: [bevy #ai Discord channel](big-brain-discord), [@zkat@toot.cat on 
 [big-brain-scorer-builder]: https://docs.rs/big-brain/0.16.0/big_brain/scorers/trait.ScorerBuilder.html
 [big-brain-bevy-scheduler-changes]: https://tech.lgbt/@alice_i_cecile/109815432105482093
 [big-brain-stage]: https://docs.rs/big-brain/0.16.0/big_brain/enum.BigBrainStage.html
-[zkat-mastodon]: https://toot.cat/@zkat
+[zkat-mastodon-ann]: https://toot.cat/@zkat/109776883506682388
 
 ## Popular Workgroup Issues in Github
 
