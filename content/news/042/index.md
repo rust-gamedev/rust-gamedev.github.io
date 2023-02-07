@@ -69,6 +69,50 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### Digital Extinction
+
+![Building Placement in Digital Extinction](digital-extinction.jpeg)
+_Building Placement in Digital Extinction_
+
+[Digital Extinction] ([GitHub][de-github], [Discord][de-discord],
+[Reddit][de-reddit]) by [@Indy2222] is a 3D real-time strategy game made with
+[Bevy].
+
+This month the game had two new first time contributors, [@0HyperCube] and
+[@Polostor] (Péťa Tománek).
+
+The most notable updates are:
+
+- several multiplayer related screens were added to the menu: sign-in /
+  sign-up, game listing, and game creation,
+- building draft is now semi-transparent and colored green or red based on
+  obstacles,
+- double clicking on a unit or building leads to the selection of all visible
+  entities of the same type,
+- the mouse cursor is now confined to the game window,
+- the camera can be moved horizontally with arrow keys,
+- pop-up in-game menu was added, it is opened with Escape key,
+- work on game head-up display / panel (HUD) was initiated,
+- various errors are now briefly displayed as toasts in the UI,
+- support of map hashing was added and deterministic map paths are used,
+- several small fixes, code quality improvements.
+
+See [gameplay][video-game] and [menu][video-menu] screen recordings on YouTube.
+
+A more detailed update summary is available [here][de-update-04].
+
+[Digital Extinction]: https://de-game.org
+[de-github]: https://github.com/DigitalExtinction/Game
+[de-discord]: https://discord.gg/vHMFuCWGSX
+[de-reddit]: https://reddit.com/r/DigitalExtinction
+[@Indy2222]: https://github.com/Indy2222
+[@0HyperCube]: https://github.com/0HyperCube
+[@Polostor]: https://github.com/Polostor
+[Bevy]: https://bevyengine.org
+[video-game]: https://youtu.be/JP01dAbtoc8
+[video-menu]: https://youtu.be/APTlkGnn6vA
+[de-update-04]: https://mgn.cz/blog/de04/
+
 ## Engine Updates
 
 ## Learning Material Updates
