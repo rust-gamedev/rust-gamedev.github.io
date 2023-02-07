@@ -172,10 +172,10 @@ that supports streaming audio (e.g. [rust-sfml]).
 
 Features:
 
-* Tuned mainly for gamedev and it uses low CPU load.
-* Support for standard MIDI files.
-* No dependencies other than the standard library.
-* Available under a permissive license (MIT).
+- Tuned mainly for gamedev and has low CPU usage.
+- Support for standard MIDI files.
+- No dependencies other than the standard library.
+- Available under a permissive license (MIT).
 
 [rustysynth-video]: https://www.youtube.com/watch?v=o9rPTJIPmVk
 [RustySynth]: https://github.com/sinshu/rustysynth
