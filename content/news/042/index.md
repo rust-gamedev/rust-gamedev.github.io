@@ -157,6 +157,30 @@ _Discussions: [Mastodon][zkat-mastodon-ann]_
 [big-brain-stage]: https://docs.rs/big-brain/0.16.0/big_brain/enum.BigBrainStage.html
 [zkat-mastodon-ann]: https://toot.cat/@zkat/109776883506682388
 
+### [RustySynth]
+
+[
+![Waveform displayed on a screen](rustysynth-yt.png)
+_Video: an example of realtime MIDI synthesis with RustySynth on rust-sfml_
+][rustysynth-video]
+
+[RustySynth] is a SoundFont MIDI synthesizer written in pure Rust.
+The purpose of this library is to provide MIDI music playback functionality
+for any Rust application without complicated dependencies.
+The code base is lightweight and can be used with any audio driver
+that supports streaming audio (e.g. [rust-sfml]).
+
+Features:
+
+* Tuned mainly for gamedev and it uses low CPU load.
+* Support for standard MIDI files.
+* No dependencies other than the standard library.
+* Available under a permissive license (MIT).
+
+[rustysynth-video]: https://www.youtube.com/watch?v=o9rPTJIPmVk
+[RustySynth]: https://github.com/sinshu/rustysynth
+[rust-sfml]: https://github.com/jeremyletang/rust-sfml
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
