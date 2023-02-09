@@ -119,6 +119,31 @@ A more detailed update summary is available [here][de-update-04].
 
 ## Tooling Updates
 
+### [Foxtrot]
+
+![Foxtrot in action](foxtrot.gif)
+
+[Foxtrot] was created by [@janhohenheim] as an all-in-one starting point for 3D
+projects made in Bevy. While he appreciated that other Bevy templates showed
+nicely how to wire up systems and setup a game loop, he was missing a showcase
+for commonly used features that are scattered around various libraries. So he created
+Foxtrot, where he collected most basic features he could need for future
+projects or jams. The current version [v0.1.5] features:
+
+- loading a 3D level from GLTF files
+- automatically assigning physics colliders
+- a custom dialog system
+- saving and loading the game
+- a force-based third-person character controller
+- shaders
+- pathfinding
+- a flexible camera system with easings
+- a custom ingame editor window for live tweaks such as spawning new objects.
+
+[Foxtrot]: https://github.com/janhohenheim/foxtrot
+[@janhohenheim]: https://github.com/janhohenheim
+[v0.1.5]: https://github.com/janhohenheim/foxtrot/releases/tag/v0.1.5
+
 ## Library Updates
 
 ### [big-brain]
