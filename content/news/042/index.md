@@ -206,6 +206,27 @@ Features:
 [RustySynth]: https://github.com/sinshu/rustysynth
 [rust-sfml]: https://github.com/jeremyletang/rust-sfml
 
+### [tween]
+
+`tween` is a library for manipulating values in stylish and beautiful ways.
+It has been almost entirely rewritten for `v2.0.0`, now featuring a
+significantly improved API, fewer generics, and much, much faster performance.
+
+Additionally, it has added support for Looping, Oscillating, and Extrapolating tweens.
+With all of this, making custom tweens is much easier. An example of making a Bezier
+tween is included.
+
+[tween]: https://github.com/sanbox-irl/tween
+
+### [scene-graph]
+
+`scene-graph` is a library for creating graph structures similar to the
+one used in engines like Unity or Unreal. It is fast, performant, and easy to
+manipulate. It's especially useful for user interfaces. Although only in `v0.1.0`,
+feedback would be very appreciated.
+
+[scene-graph]: https://github.com/sanbox-irl/scene-graph
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
