@@ -156,6 +156,17 @@ any game made with [`bevy_ggrs`][bevy_ggrs].
 
 ## Learning Material Updates
 
+### [Introduction to the Entity Component System]
+
+![Introduction to the Entity Component System](intro-ecs.png)
+
+[@indiedevcasts](https://twitter.com/indiedevcasts) published a
+[new blog post](https://indiedevcasts.com/posts/ecs-introduction), exploring
+object-oriented and data-oriented designs before giving an introduction to the
+Entity Component System paradigm.
+
+[Introduction to the Entity Component System]: https://indiedevcasts.com/posts/ecs-introduction
+
 ## Tooling Updates
 
 ### [Foxtrot]
