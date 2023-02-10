@@ -115,7 +115,7 @@ A more detailed update summary is available [here][de-update-04].
 
 ### [Cargo Space]
 
-![Screenshot of p2p multiplayer in Carog Space: One instance running on windows
+![Screenshot of p2p multiplayer in Cargo Space: One instance running on windows
 and one in Chrome](cargo-space-cross-platform.png)
 _Cross-platform p2p multiplayer in Cargo Space_
 
