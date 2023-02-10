@@ -113,6 +113,45 @@ A more detailed update summary is available [here][de-update-04].
 [video-menu]: https://youtu.be/APTlkGnn6vA
 [de-update-04]: https://mgn.cz/blog/de04/
 
+### [Cargo Space]
+
+![Screenshot of p2p multiplayer in Carog Space: One instance running on windows
+and one in Chrome](cargo-space-cross-platform.png)
+_Cross-platform p2p multiplayer in Cargo Space_
+
+[Cargo Space] ([Discord][cargospace_discord]) by
+[@johanhelsing][johanhelsing_mastodon] is a co-op 2d space game where you build
+a ship and fly it through space looking for new parts, fighting pirates and the
+environment.
+
+This month, sprites were added for basic character poses, as well as basic sound
+effects, making the game come alive and feel more like a proper 2D platformer.
+
+Support for [`bevy_ggrs`][bevy_ggrs]' synctest sessions was implemented. This
+allows detecting de-syncs by constantly performing rollbacks and comparing world
+state checksums). This caught some very rare de-sync bugs.
+
+The game also adopted [Matchbox][cargospace_matchbox]' newly added support for
+cross-platform p2p. Which means sessions between players on web and native
+are now supported ([video][cargospace_cross_platform_video]).
+
+All of this is discussed in detail the [third devlog
+entry][cargospace_devlog_3].
+
+Johan also wrote [an article][cargospace_devlog_4] on how sound effects were
+implemented in a rollback-aware way, cancelling mis-predicted sounds, and
+handling "late" sounds. It describes a solution that could easily be adopted for
+any game made with [`bevy_ggrs`][bevy_ggrs].
+
+[Cargo Space]: https://helsing.studio/cargospace
+[cargospace_devlog_3]: https://johanhelsing.studio/posts/cargo-space-devlog-3
+[cargospace_devlog_4]: https://johanhelsing.studio/posts/cargo-space-devlog-4
+[cargospace_discord]: https://discord.gg/ye9UDNvqQD
+[cargospace_matchbox]: https://github.com/johanhelsing/matchbox
+[johanhelsing_mastodon]: https://mastodon.social/@johanhelsing
+[bevy_ggrs]: https://github.com/gschup/bevy_ggrs
+[cargospace_cross_platform_video]: https://mastodon.social/@johanhelsing/109681997649114818
+
 ## Engine Updates
 
 ## Learning Material Updates
