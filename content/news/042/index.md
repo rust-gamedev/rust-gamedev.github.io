@@ -230,7 +230,8 @@ feedback would be very appreciated.
 ### [torchbearer]
 
 ![Torchbearer in action](torchbearer.png)
-_An exemple of torchbearer in action, demonstrating both pathfinding and field of view_
+_An exemple of torchbearer in action,
+demonstrating both pathfinding and field of view_
 
 [torchbearer] by [@redwarp] is a library that provides a set of tools
 to find your path in a grid based dungeon. Specifically,
