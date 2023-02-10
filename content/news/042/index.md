@@ -230,15 +230,20 @@ feedback would be very appreciated.
 ### [torchbearer]
 
 ![Torchbearer in action](torchbearer.png)
-
 _An exemple of torchbearer in action, demonstrating both pathfinding and field of view_
 
-`torchbearer` by [@redwarp] is a library that provides a set of tools to find your path in a grid based dungeon. Specifically, it provide a quick implementation of pathfinding and field of view algorithm.
+[torchbearer] by [@redwarp] is a library that provides a set of tools
+to find your path in a grid based dungeon. Specifically,
+it provide a quick implementation of pathfinding and field of view algorithm.
 
-The 0.6.x version rewrites the field of view algorithm to cast vision rays in a bresenham circle around the point of origin. This change from its [original implementation](https://sites.google.com/site/jicenospam/visibilitydetermination) makes it faster as it removes the needs for error correction.
+The 0.6.x version rewrites the field of view algorithm to cast vision rays
+in a bresenham circle around the point of origin.
+This change from its [original implementation][torchbearer-orig] makes it faster
+as it removes the needs for error correction.
 
 [torchbearer]: https://github.com/redwarp/torchbearer
 [@redwarp]: https://github.com/redwarp
+[torchbearer-orig]: https://sites.google.com/site/jicenospam/visibilitydetermination
 
 ## Popular Workgroup Issues in Github
 
