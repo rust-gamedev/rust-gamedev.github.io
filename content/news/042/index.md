@@ -115,7 +115,7 @@ A more detailed update summary is available [here][de-update-04].
 
 ### [Cargo Space]
 
-![Screenshot of p2p multiplayer in Carog Space: One instance running on windows
+![Screenshot of p2p multiplayer in Cargo Space: One instance running on windows
 and one in Chrome](cargo-space-cross-platform.png)
 _Cross-platform p2p multiplayer in Cargo Space_
 
@@ -284,6 +284,36 @@ as it removes the needs for error correction.
 [torchbearer]: https://github.com/redwarp/torchbearer
 [@redwarp]: https://github.com/redwarp
 [torchbearer-orig]: https://sites.google.com/site/jicenospam/visibilitydetermination
+
+### [Matchbox]
+
+![matchbox logo](matchbox.png)
+
+[Matchbox] is a library for easily establishing unreliable, unordered,
+peer-to-peer WebRTC data connections using rust WASM. This enables low-latency
+multiplayer browser games.
+
+Originally, it was written for web assembly, but a native implementation using
+[WebRTC.rs] has been available since 0.4. However, a few minor incompatibilities
+between the two implementations meant connections between native and web
+were not possible.
+
+In version 0.5, however, [Alex Rozgo] fixed the the last of these issues. And
+cross-play sessions are now finally fully supported.
+
+In addition, [johanhelsing][johanhelsing_mastodon] fixed a serious bug that used
+to cause disconnections on recent versions of Firefox.
+
+The tutorial series on [how to make a p2p web game with Bevy, GGRS and
+Matchbox][extreme_bevy] was also updated to the latest versions of all three
+libraries.
+
+_Discussions: [Mastodon][cargospace_cross_platform_video]_
+
+[extreme_bevy]: https://johanhelsing.studio/posts/extreme-bevy
+[Matchbox]: https://github.com/johanhelsing/matchbox
+[WebRTC.rs]: https://webrtc.rs
+[Alex Rozgo]: https://github.com/rozgo
 
 ## Popular Workgroup Issues in Github
 
