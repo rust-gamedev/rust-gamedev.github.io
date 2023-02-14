@@ -173,7 +173,7 @@ giving an introduction to the Entity Component System paradigm.
 
 ![Foxtrot in action](foxtrot.gif)
 
-[Foxtrot] was created by [@janhohenheim] as an all-in-one starting point for 3D
+[Foxtrot] was created by Jan Hohenheim ([@janhohenheim]) as an all-in-one starting point for 3D
 projects made in Bevy. While he appreciated that other Bevy templates showed
 nicely how to wire up systems and setup a game loop, he was missing a showcase
 for commonly used features that are scattered around various libraries. So he created
