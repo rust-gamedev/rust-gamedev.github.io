@@ -229,7 +229,6 @@ designs with #MadeWithGraphite on Twitter.
 [graphite-newsletter]: https://graphite.rs/#newsletter
 [graphite-editor]: https://editor.graphite.rs
 
-
 ## Library Updates
 
 ### [big-brain]
