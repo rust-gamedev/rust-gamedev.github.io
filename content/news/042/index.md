@@ -214,9 +214,12 @@ New features from January's [sprint 22][graphite-sprint-22]:
   iteration faster and enables caching of intermediate computations for faster
   rendering.
 
-Later this month, the Alpha Milestone 2 release will launch with new node graph features, a revamped website, and a wider-reaching project announcement. Join the [newsletter][graphite-newsletter] and stay tuned.
+Later this month, the Alpha Milestone 2 release will launch with new node graph
+features, a revamped website, and a wider-reaching project announcement. Join
+the [newsletter][graphite-newsletter] and stay tuned.
 
-[Open Graphite][graphite-editor] in your browser and start creating! Share your designs with #MadeWithGraphite on Twitter.
+[Open Graphite][graphite-editor] in your browser and start creating! Share your
+designs with #MadeWithGraphite on Twitter.
 
 [graphite-website]: https://graphite.rs
 [graphite-repo]: https://github.com/GraphiteEditor/Graphite
