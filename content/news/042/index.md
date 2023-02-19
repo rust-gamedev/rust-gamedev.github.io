@@ -152,6 +152,32 @@ any game made with [`bevy_ggrs`][bevy_ggrs].
 [bevy_ggrs]: https://github.com/gschup/bevy_ggrs
 [cargospace_cross_platform_video]: https://mastodon.social/@johanhelsing/109681997649114818
 
+### [Veloren][veloren]
+
+![A river with flora and fauna](veloren.jpg)
+_A serene river with new reflections_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In January, Veloren released version 0.14! This update included trading with
+pets, musical instrument crafting, the Sea Chapel, and many more changes. You
+can read all about that update in the [release post][veloren-0.14].
+
+Veloren's Site2 system can now be hot-reloaded. Site2 allows you to describe
+procedures for how objects like houses, trees, or bridges should be generated.
+Hot-reloading allows you to change the Site2 code and watch the changes take
+effect in real time. The official 2023 Veloren OST was also released, and can be
+[watched on YouTube][veloren-ost].
+
+December's full weekly devlogs: "This Week In Veloren...":
+[#204][veloren-204].
+
+[veloren]: https://veloren.net
+[veloren-204]: https://veloren.net/devblog-204
+[veloren-ost]: https://www.youtube.com/watch?v=yNxxCwwKyes
+[veloren-0.14]: https://veloren.net/release-0-14/
+
 ## Engine Updates
 
 ## Learning Material Updates
