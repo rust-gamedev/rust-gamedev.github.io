@@ -220,6 +220,41 @@ various libraries. So he created Foxtrot, where he collected most basic features
 [@janhohenheim]: https://github.com/janhohenheim
 [v0.1.5]: https://github.com/janhohenheim/foxtrot/releases/tag/v0.1.5
 
+### [Graphite][graphite-website]
+
+![Graphite logo](graphite.png)
+
+Graphite ([website][graphite-website], [GitHub][graphite-repo],
+[Discord][graphite-discord], [Twitter][graphite-twitter]) is a free,
+in-development raster and vector 2D graphics editor based around a Rust-powered
+node graph compositing engine.
+
+New features from January's [sprint 22][graphite-sprint-22]:
+
+- _Picture This:_ Imported images are now part of the node graph. The new
+  _Image Frame_ node converts bitmap data into a vector rectangle holding the
+  image. This paves the way for other vector data like shapes and text to soon
+  be converted into nodes and composited alongside images.
+- _Instant Iterations:_ Incremental graph compilation avoids recompiling the
+  whole graph each time an edit is made or a value changes. This makes
+  iteration faster and enables caching of intermediate computations for faster
+  rendering.
+
+Later this month, the Alpha Milestone 2 release will launch with new node graph
+features, a revamped website, and a wider-reaching project announcement. Join
+the [newsletter][graphite-newsletter] and stay tuned.
+
+[Open Graphite][graphite-editor] in your browser and start creating! Share your
+designs with #MadeWithGraphite on Twitter.
+
+[graphite-website]: https://graphite.rs
+[graphite-repo]: https://github.com/GraphiteEditor/Graphite
+[graphite-discord]: https://discord.graphite.rs
+[graphite-twitter]: https://twitter.com/GraphiteEditor
+[graphite-sprint-22]: https://github.com/GraphiteEditor/Graphite/milestone/22
+[graphite-newsletter]: https://graphite.rs/#newsletter
+[graphite-editor]: https://editor.graphite.rs
+
 ## Library Updates
 
 ### [big-brain]
