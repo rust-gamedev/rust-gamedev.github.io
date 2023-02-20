@@ -152,6 +152,35 @@ any game made with [`bevy_ggrs`][bevy_ggrs].
 [bevy_ggrs]: https://github.com/gschup/bevy_ggrs
 [cargospace_cross_platform_video]: https://mastodon.social/@johanhelsing/109681997649114818
 
+### [Idu]
+
+![Screenshot of a tree emerging from a cave in Idu](idu-newsletter.jpeg)
+_Screenshot of a tree emerging from a cave in Idu_
+
+[Idu] ([Discord][idu_discord])
+Idu is a strategic sandbox game about growing plants that wish to reclaim
+nature, developed by [Elina Shakhnovich][eli_mastodon] and
+[Johann Tael][johann_mastodon] featuring a bespoke Vulkan-based engine in
+Rust.
+
+After almost a whole year of relative silence, they begun releasing new demos
+in January. The new demo version 8 comes with a new renderer supporting
+interactive, flowing water. Also, the simulated trees in Idu changed
+a lot, as they're now able to flower, in addition to dropping leaves.
+The new demo features a lot of new plant textures, branching logic, and better
+rhizome and root simulation.
+
+Player accessibility and the gameplay itself is better now as well, due to
+a completely new menu and a lot of new items, such as porous gabion blocks
+and ladders.
+
+Read more and download the newest demo from [Idu's page on itch.io][itch].
+
+[idu_discord]: https://discord.gg/MeGauteMj3
+[eli_mastodon]: https://mastodon.gamedev.place/@eli
+[johann_mastodon]: https://mastodon.gamedev.place/@johann
+[itch]: https://epcc.itch.io/idu
+
 ### [Veloren][veloren]
 
 ![A river with flora and fauna](veloren.jpg)
