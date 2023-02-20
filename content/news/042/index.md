@@ -387,6 +387,25 @@ _Discussions: [Mastodon][cargospace_cross_platform_video]_
 [WebRTC.rs]: https://webrtc.rs
 [Alex Rozgo]: https://github.com/rozgo
 
+### [miniquad]
+
+![miniquad ios](miniquad_metal.gif)
+_Miniquad/macroquad examples rendered by Metal API_
+
+[miniquad] is a safe and cross-platform rendering library
+focused on portability and low-end platforms support.
+
+This month metal backend [PR][miniquad_metal_pr] finally landed on miniquad!
+
+It is not yet ready for any production use, but it is available on crates.io
+as 0.4.0-alpha.
+
+With this change, miniquad support webgl1, gl2, gles2/gles3, gl3+,
+metal on web, macOS, iOS, Android, Windows, and Linux.
+
+[miniquad]: https://github.com/not-fl3/miniquad
+[miniquad_metal_pr]: https://github.com/not-fl3/miniquad/pull/344
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
