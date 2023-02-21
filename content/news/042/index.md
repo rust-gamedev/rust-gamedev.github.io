@@ -35,8 +35,8 @@ Feel free to send PRs about your own projects!
 - [Learning Material Updates](#learning-material-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
-- [Other News](#other-news)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
+- [Other News](#other-news)
 - [Meeting Minutes](#meeting-minutes)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
@@ -231,9 +231,12 @@ it hit version 0.29 and got the following features:
 - Ability to animate material properties
 - Various bug fixes
 
+You can read more about the changes in the [feature highlights post][fyrox-0.29].
+
 [Fyrox]: https://github.com/FyroxEngine/Fyrox
 [fyrox_discord]: https://discord.com/invite/xENF5Uh
 [fyrox_twitter]: https://twitter.com/DmitryNStepanov
+[fyrox-0.29]: https://fyrox.rs/blog/post/feature-highlights-0-29/
 
 ## Learning Material Updates
 
