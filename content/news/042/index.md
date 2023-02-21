@@ -35,8 +35,8 @@ Feel free to send PRs about your own projects!
 - [Learning Material Updates](#learning-material-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
-- [Other News](#other-news)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
+- [Other News](#other-news)
 - [Meeting Minutes](#meeting-minutes)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
@@ -208,6 +208,35 @@ December's full weekly devlogs: "This Week In Veloren...":
 [veloren-0.14]: https://veloren.net/release-0-14/
 
 ## Engine Updates
+
+### [Fyrox]
+
+![Particle System Preview](particle_system.gif)
+
+[Fyrox] ([Discord][fyrox_discord], [Twitter][fyrox_twitter]) is a game engine that
+aims to be easy to use and provide a large set of out-of-the-box features. In January
+it hit version 0.29 and got the following features:
+
+- Animation system rework
+- Animation editor
+- Animation blending state machine editor rework
+- Sprite sheet editor
+- Ability to change scene settings
+- Improved WebAssembly support
+- Customizable graph update pipeline
+- Node and property selector widgets
+- Message passing for scripts
+- Reflection refactoring to support interrior mutability
+- Deterministic particle systems
+- Ability to animate material properties
+- Various bug fixes
+
+You can read more about the changes in the [feature highlights post][fyrox-0.29].
+
+[Fyrox]: https://github.com/FyroxEngine/Fyrox
+[fyrox_discord]: https://discord.com/invite/xENF5Uh
+[fyrox_twitter]: https://twitter.com/DmitryNStepanov
+[fyrox-0.29]: https://fyrox.rs/blog/post/feature-highlights-0-29/
 
 ## Learning Material Updates
 
