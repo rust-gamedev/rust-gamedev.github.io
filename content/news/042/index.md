@@ -319,7 +319,7 @@ he could need for future projects or jams. The current version [v0.1.9] features
 
 [Foxtrot]: https://github.com/janhohenheim/foxtrot
 [@janhohenheim]: https://github.com/janhohenheim
-[v0.1.9]: https://github.com/janhohenheim/foxtrot/releases/tag/v0.1.9
+[v0.1.9]: https://github.com/janhohenheim/foxtrot/releases/latest
 
 ### [Graphite][graphite-website]
 
