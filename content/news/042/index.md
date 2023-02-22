@@ -599,15 +599,16 @@ metal on web, macOS, iOS, Android, Windows, and Linux.
 [wgpu v0.15, naga v0.11]: https://reddit.com/r/rust/comments/10lf10i/wgpu_015_and_naga_011
 [raster_fonts]: https://reddit.com/r/rust_gamedev/comments/100vmqq/announcing_font2img_and_raster_fonts
 [nvtt]: https://reddit.com/r/rust_gamedev/comments/10eq1uh/nvtt_rs_has_been_updated_to_use_nvidia_texture
-[oxidized_navigation]: https://reddit.com/r/rust_gamedev/comments/10l3q1i/oxidized_navigation
-[VPlugin]: https://reddit.com/r/rust_gamedev/comments/10l3q1i/oxidized_navigation
-[egui_glium]: https://reddit.com/r/rust_gamedev/comments/10l3q1i/oxidized_navigation
-[direct-storage]: https://reddit.com/r/rust_gamedev/comments/10l3q1i/oxidized_navigation
-[bones]: https://reddit.com/r/rust_gamedev/comments/10l3q1i/oxidized_navigation
-[airsim-client]: https://reddit.com/r/rust_gamedev/comments/10l3q1i/oxidized_navigation
-[Rapier]: https://reddit.com/r/rust_gamedev/comments/10l3q1i/oxidized_navigation
-[bevy-magic-light-2d]: https://reddit.com/r/rust_gamedev/comments/10l3q1i/oxidized_navigation
-[notan v0.9]: https://reddit.com/r/rust_gamedev/comments/10l3q1i/oxidized_navigation
+[oxidized_navigation]: https://twitter.com/TheGrimsey/status/1615063433367494656
+[VPlugin]: https://github.com/VPlugin/VPlugin
+[egui_glium]: https://twitter.com/ernerfeldt/status/1621811309284130816
+[direct-storage]: https://github.com/Tsukisoft/direct-storage-rs
+[bones]: https://reddit.com/r/rust_gamedev/comments/10j74lt/bones
+[airsim-client]: https://reddit.com/r/rust_gamedev/comments/10ij9lv/airsimclient
+[Rapier]: https://dimforge.com/blog/2023/01/22/the-year-2022-in-dimforge
+[bevy-magic-light-2d]: https://github.com/zaycev/bevy-magic-light-2d
+[notan v0.9]: https://reddit.com/r/rust/comments/10pwgka/released_a_new_version_of_notan_a_sdllike_lib
+
 
 ## Requests for Contribution
 
