@@ -96,8 +96,8 @@ from the meetup:
 - Micro Game Engine - [@AngelOnFira]
 - Graphite - [@GraphiteEditor]
 
-The meetups take place on the second Saturday of every month via the [Rust Gamedev
-Discord server][rust-gamedev-discord] and are also [streamed on
+The meetups take place on the second Saturday of every month via the [Rust
+Gamedev Discord server][rust-gamedev-discord] and are also [streamed on
 Twitch][rust-gamedev-twitch].
 
 [gamedev-meetup-video]: https://youtu.be/s9kf9HVUKYE
@@ -122,8 +122,8 @@ This month the game had two new first-time contributors, [@0HyperCube] and
 
 The most notable updates are:
 
-- several multiplayer related screens were added to the menu: sign-in /
-  sign-up, game listing, and game creation,
+- several multiplayer related screens were added to the menu: sign-in / sign-up,
+  game listing, and game creation,
 - building draft is now semi-transparent and colored green or red based on
   obstacles,
 - double clicking on a unit or building leads to the selection of all visible
@@ -171,16 +171,16 @@ allows detecting de-syncs by constantly performing rollbacks and comparing world
 state checksums). This caught some very rare de-sync bugs.
 
 The game also adopted [Matchbox][cargospace_matchbox]'s newly added support for
-cross-platform p2p. This means sessions between players on web and native
-are now supported ([video][cargospace_cross_platform_video]).
+cross-platform p2p. This means sessions between players on web and native are
+now supported ([video][cargospace_cross_platform_video]).
 
 All of this is discussed in detail in the [third devlog
 entry][cargospace_devlog_3].
 
 Johan also wrote [an article][cargospace_devlog_4] on how sound effects were
-implemented in a rollback-aware way, canceling mispredicted sounds, and
-handling "late" sounds. It describes a solution that could easily be adopted for
-any game made with [`bevy_ggrs`][bevy_ggrs].
+implemented in a rollback-aware way, canceling mispredicted sounds, and handling
+"late" sounds. It describes a solution that could easily be adopted for any game
+made with [`bevy_ggrs`][bevy_ggrs].
 
 [Cargo Space]: https://helsing.studio/cargospace
 [cargospace_devlog_3]: https://johanhelsing.studio/posts/cargo-space-devlog-3
@@ -196,22 +196,21 @@ any game made with [`bevy_ggrs`][bevy_ggrs].
 ![Screenshot of a tree emerging from a cave in Idu](idu-newsletter.jpeg)
 _Screenshot of a tree emerging from a cave in Idu_
 
-[Idu] ([Discord][idu_discord])
-Idu is a strategic sandbox game about growing plants that wish to reclaim
-nature, developed by [Elina Shakhnovich][eli_mastodon] and
-[Johann Tael][johann_mastodon] featuring a bespoke Vulkan-based engine in
-Rust.
+[Idu] ([Discord][idu_discord]) Idu is a strategic sandbox game about growing
+plants that wish to reclaim nature, developed by [Elina
+Shakhnovich][eli_mastodon] and [Johann Tael][johann_mastodon] featuring a
+bespoke Vulkan-based engine in Rust.
 
-After almost a whole year of relative silence, they have begun releasing new demos
-in January. The new demo version 8 comes with a new renderer supporting
-interactive, flowing water. Also, the simulated trees in Idu changed
-a lot, as they're now able to flower, in addition to dropping leaves.
-The new demo features a lot of new plant textures, branching logic, and better
-rhizome and root simulation.
+After almost a whole year of relative silence, they have begun releasing new
+demos in January. The new demo version 8 comes with a new renderer supporting
+interactive, flowing water. Also, the simulated trees in Idu changed a lot, as
+they're now able to flower, in addition to dropping leaves. The new demo
+features a lot of new plant textures, branching logic, and better rhizome and
+root simulation.
 
-Player accessibility and the gameplay itself is better now as well, due to
-a completely new menu and a lot of new items, such as porous gabion blocks
-and ladders.
+Player accessibility and the gameplay itself is better now as well, due to a
+completely new menu and a lot of new items, such as porous gabion blocks and
+ladders.
 
 Read more and download the newest demo from [Idu's page on itch.io][itch].
 
@@ -238,8 +237,7 @@ Hot-reloading allows you to change the Site2 code and watch the changes take
 effect in real-time. The official 2023 Veloren OST was also released, and can be
 [watched on YouTube][veloren-ost].
 
-December's full weekly devlogs: "This Week In Veloren...":
-[#204][veloren-204].
+December's full weekly devlogs: "This Week In Veloren...": [#204][veloren-204].
 
 [veloren]: https://veloren.net
 [veloren-204]: https://veloren.net/devblog-204
@@ -252,9 +250,9 @@ December's full weekly devlogs: "This Week In Veloren...":
 
 ![Particle System Preview](particle_system.gif)
 
-[Fyrox] ([Discord][fyrox_discord], [Twitter][fyrox_twitter]) is a game engine that
-aims to be easy to use and provide a large set of out-of-the-box features. In January
-it hit version 0.29 and got the following features:
+[Fyrox] ([Discord][fyrox_discord], [Twitter][fyrox_twitter]) is a game engine
+that aims to be easy to use and provide a large set of out-of-the-box features.
+In January it hit version 0.29 and got the following features:
 
 - Animation system rework
 - Animation editor
@@ -270,7 +268,8 @@ it hit version 0.29 and got the following features:
 - Ability to animate material properties
 - Various bug fixes
 
-You can read more about the changes in the [feature highlights post][fyrox-0.29].
+You can read more about the changes in the [feature highlights
+post][fyrox-0.29].
 
 [Fyrox]: https://github.com/FyroxEngine/Fyrox
 [fyrox_discord]: https://discord.com/invite/xENF5Uh
@@ -283,9 +282,9 @@ You can read more about the changes in the [feature highlights post][fyrox-0.29]
 
 ![Title card: Introduction to the Entity Component System](intro-ecs.png)
 
-[@indiedevcasts] published [a new blog post][tut-ecs-intro],
-exploring object-oriented and data-oriented designs before
-giving an introduction to the Entity Component System paradigm.
+[@indiedevcasts] published [a new blog post][tut-ecs-intro], exploring
+object-oriented and data-oriented designs before giving an introduction to the
+Entity Component System paradigm.
 
 [tut-ecs-intro]: https://indiedevcasts.com/posts/ecs-introduction
 [@indiedevcasts]: https://twitter.com/indiedevcasts
@@ -298,10 +297,11 @@ giving an introduction to the Entity Component System paradigm.
 
 [Foxtrot] was created by Jan Hohenheim ([@janhohenheim]) as an all-in-one
 starting point for 3D projects made in Bevy. While he appreciated that other
-Bevy templates showed nicely how to wire up systems and setup a game loop,
-he was missing a showcase for commonly used features that are scattered around
-various libraries. So he created Foxtrot, where he collected the most basic features
- he could need for future projects or jams. The current version [v0.1.5] features:
+Bevy templates showed nicely how to wire up systems and setup a game loop, he
+was missing a showcase for commonly used features that are scattered around
+various libraries. So he created Foxtrot, where he collected the most basic
+ features he could need for future projects or jams. The current version
+ [v0.1.5] features:
 
 - loading a 3D level from GLTF files
 - automatically assigning physics colliders
@@ -328,14 +328,13 @@ node graph compositing engine.
 
 New features from January's [sprint 22][graphite-sprint-22]:
 
-- _Picture This:_ Imported images are now part of the node graph. The new
-  _Image Frame_ node converts bitmap data into a vector rectangle holding the
-  image. This paves the way for other vector data like shapes and text to soon
-  be converted into nodes and composited alongside images.
+- _Picture This:_ Imported images are now part of the node graph. The new _Image
+  Frame_ node converts bitmap data into a vector rectangle holding the image.
+  This paves the way for other vector data like shapes and text to soon be
+  converted into nodes and composited alongside images.
 - _Instant Iterations:_ Incremental graph compilation avoids recompiling the
-  whole graph each time an edit is made or a value changes. This makes
-  iteration faster and enables caching of intermediate computations for faster
-  rendering.
+  whole graph each time an edit is made or a value changes. This makes iteration
+  faster and enables caching of intermediate computations for faster rendering.
 
 Later this month, the Alpha Milestone 2 release will launch with new node graph
 features, a revamped website, and a wider-reaching project announcement. Join
@@ -356,25 +355,27 @@ designs with #MadeWithGraphite on Twitter.
 
 ### [big-brain]
 
-[big-brain] ([GitHub][big-brain-github], [Discord][big-brain-discord]) by [@zkat]
-is a highly parallel [Utility AI][big-brain-utility-ai] library
-for the Bevy game engine.
+[big-brain] ([GitHub][big-brain-github], [Discord][big-brain-discord]) by
+[@zkat] is a highly parallel [Utility AI][big-brain-utility-ai] library for the
+Bevy game engine.
 
-[big-brain] recently tagged [v0.16.0][big-brain-v16],
-bringing with it a couple of breaking changes and a few goodies.
+[big-brain] recently tagged [v0.16.0][big-brain-v16], bringing with it a couple
+of breaking changes and a few goodies.
 
 Probably the biggest change in this release is the removal of the blanket
-[`ActionBuilder`][big-brain-action-builder] and [`ScorerBuilder`][big-brain-scorer-builder]
-implementations for `Clone` types. This is a fairly significant breaking change,
-but one that is fairly easy to resolve: simply use the new `#[derive(ActionBuilder)]`
-and `#[derive(ScorerBuilder)]` macros to derive the necessary implementations
-for your Action and Scorer Components and you should be good to go.
+[`ActionBuilder`][big-brain-action-builder] and
+[`ScorerBuilder`][big-brain-scorer-builder] implementations for `Clone` types.
+This is a fairly significant breaking change, but one that is fairly easy to
+resolve: simply use the new `#[derive(ActionBuilder)]` and
+`#[derive(ScorerBuilder)]` macros to derive the necessary implementations for
+your Action and Scorer Components and you should be good to go.
 
-Finally, since the recent [merging of the bevy scheduler changes][big-brain-bevy-scheduler-changes],
-big-brain users should expect the next version of big-brain to bring with it
-some significant breaking changes to scheduling, so keep an eye out for that
-and be mindful of building a lot on top of the current [`BigBrainStage`][big-brain-stage]
-(which is used by the default `BigBrainPlugin`).
+Finally, since the recent [merging of the bevy scheduler
+changes][big-brain-bevy-scheduler-changes], big-brain users should expect the
+next version of big-brain to bring with it some significant breaking changes to
+scheduling, so keep an eye out for that and be mindful of building a lot on top
+of the current [`BigBrainStage`][big-brain-stage] (which is used by the default
+`BigBrainPlugin`).
 
 _Discussions: [Mastodon][zkat-mastodon-ann]_
 
@@ -392,16 +393,14 @@ _Discussions: [Mastodon][zkat-mastodon-ann]_
 
 ### [RustySynth]
 
-[
-![Waveform displayed on a screen](rustysynth-yt.png)
-_Video: an example of realtime MIDI synthesis with RustySynth on rust-sfml_
-][rustysynth-video]
+[![Waveform displayed on a screen](rustysynth-yt.png)
+_Video: an example of realtime MIDI synthesis with RustySynth on rust-sfml_][rustysynth-video]
 
-[RustySynth] is a SoundFont MIDI synthesizer written in pure Rust.
-The purpose of this library is to provide MIDI music playback functionality
-for any Rust application without complicated dependencies.
-The code base is lightweight and can be used with any audio driver
-that supports streaming audio (e.g. [rust-sfml]).
+[RustySynth] is a SoundFont MIDI synthesizer written in pure Rust. The purpose
+of this library is to provide MIDI music playback functionality for any Rust
+application without complicated dependencies. The code base is lightweight and
+can be used with any audio driver that supports streaming audio (e.g.
+[rust-sfml]).
 
 Features:
 
@@ -416,39 +415,39 @@ Features:
 
 ### [tween]
 
-`tween` is a library for manipulating values in stylish and beautiful ways.
-It has been almost entirely rewritten for `v2.0.0`, now featuring a
-significantly improved API, fewer generics, and much, much faster performance.
+`tween` is a library for manipulating values in stylish and beautiful ways. It
+has been almost entirely rewritten for `v2.0.0`, now featuring a significantly
+improved API, fewer generics, and much, much faster performance.
 
-Additionally, it has added support for Looping, Oscillating, and Extrapolating tweens.
-With all of this, making custom tweens is much easier. An example of making a Bezier
-tween is included.
+Additionally, it has added support for Looping, Oscillating, and Extrapolating
+tweens. With all of this, making custom tweens is much easier. An example of
+making a Bezier tween is included.
 
 [tween]: https://github.com/sanbox-irl/tween
 
 ### [scene-graph]
 
-`scene-graph` is a library for creating graph structures similar to the
-one used in engines like Unity or Unreal. It is fast, performant, and easy to
-manipulate. It's especially useful for user interfaces. Although only in `v0.1.0`,
-feedback would be very appreciated.
+`scene-graph` is a library for creating graph structures similar to the one used
+in engines like Unity or Unreal. It is fast, performant, and easy to manipulate.
+It's especially useful for user interfaces. Although only in `v0.1.0`, feedback
+would be very appreciated.
 
 [scene-graph]: https://github.com/sanbox-irl/scene-graph
 
 ### [torchbearer]
 
 ![Torchbearer in action](torchbearer.png)
-_An exemple of torchbearer in action,
-demonstrating both pathfinding and field of view_
+_An exemple of torchbearer in action, demonstrating both pathfinding and field
+of view_
 
-[torchbearer] by [@redwarp] is a library that provides a set of tools
-to find your path in a grid-based dungeon. Specifically,
-it provides a quick implementation of pathfinding and field of view algorithm.
+[torchbearer] by [@redwarp] is a library that provides a set of tools to find
+your path in a grid-based dungeon. Specifically, it provides a quick
+implementation of pathfinding and field of view algorithm.
 
-The 0.6.x version rewrites the field of view algorithm to cast vision rays
-in a Bresenham circle around the point of origin.
-This change from its [original implementation][torchbearer-orig] makes it faster
-as it removes the needs for error correction.
+The 0.6.x version rewrites the field of view algorithm to cast vision rays in a
+Bresenham circle around the point of origin. This change from its [original
+implementation][torchbearer-orig] makes it faster as it removes the needs for
+error correction.
 
 [torchbearer]: https://github.com/redwarp/torchbearer
 [@redwarp]: https://github.com/redwarp
@@ -464,8 +463,8 @@ multiplayer browser games.
 
 Originally, it was written for web assembly, but a native implementation using
 [WebRTC.rs] has been available since 0.4. However, a few minor incompatibilities
-between the two implementations meant connections between native and web
-were not possible.
+between the two implementations meant connections between native and web were
+not possible.
 
 In version 0.5, however, [Alex Rozgo] fixed the last of these issues. And
 cross-play sessions are now finally fully supported.
@@ -489,16 +488,16 @@ _Discussions: [Mastodon][cargospace_cross_platform_video]_
 ![miniquad ios](miniquad_metal.gif)
 _Miniquad/macroquad examples rendered by Metal API_
 
-[miniquad] is a safe and cross-platform rendering library
-focused on portability and low-end platform support.
+[miniquad] is a safe and cross-platform rendering library focused on portability
+and low-end platform support.
 
 This month metal backend [PR][miniquad_metal_pr] finally landed on miniquad!
 
-It is not yet ready for any production use, but it is available on crates.io
-as 0.4.0-alpha.
+It is not yet ready for any production use, but it is available on crates.io as
+0.4.0-alpha.
 
-With this change, miniquad support webgl1, gl2, gles2/gles3, gl3+,
-metal on web, macOS, iOS, Android, Windows, and Linux.
+With this change, miniquad support webgl1, gl2, gles2/gles3, gl3+, metal on web,
+macOS, iOS, Android, Windows, and Linux.
 
 [miniquad]: https://github.com/not-fl3/miniquad
 [miniquad_metal_pr]: https://github.com/not-fl3/miniquad/pull/344
