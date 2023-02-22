@@ -513,7 +513,109 @@ metal on web, macOS, iOS, Android, Windows, and Linux.
 
 ## Other News
 
-<!-- One-liners for plan items that haven't got their own sections. -->
+- Other game updates:
+  - [Hydrofoil] is getting closer to their February release date.
+  - Tiny Glade now [has terrain modification][tiny-glade-terrain].
+  - Thetawave now [has a functional boss enemy][thetawave-boss].
+  - 8bit Duels is just released their [fifth devlog][8bit-duels].
+  - Combine And Conquer just released [version 0.4.0][combine-and-conquer].
+  - Your Only Move is Hustle is now available on Steam.
+  - TheGrimsey write a devblog ["Magic Missiles & the
+    Registries"][thegrimsey-devlog].
+  - Flesh has a [new redrawn background in the first area][flesh-1], and has
+    [been tested to run on the Steam Deck][flesh-2].
+  - [DGS] is a multiplayer game of Go, with shperical fields and VR support.
+  - Triverse has a [set of devlogs out][triverse-blogs], with the most recent
+    covering [scenarios and playability][triverse-scenarios].
+  - Fish Folk: Punchy has [released version 0.3][fishfolk-punchy].
+  - Life Code has [a new video][life-code-video] explaining how the diet
+    selection tool works.
+  - Digg is a new game being made with Bevy, and has [a devlog][digg-devlog]
+    that walks through the first two weeks of development.
+  - [Revolver Time] is a game made in 1 week with Godot and Rust, and has
+    [a video][revolver-time-video] explaining how it was made.
+  - [Canal Mania] is a game created for the Historically Accurate Game Jam.
+
+[Hydrofoil]: https://twitter.com/HydrofoilG
+[tiny-glade-terrain]: https://twitter.com/anastasiaopara/status/1617925842163863554
+[thetawave-boss]: https://twitter.com/carlosupina/status/1611808954455146498
+[8bit-duels]: https://reddit.com/r/rust_gamedev/comments/102kwgf/8bit_duels_devlog_part_5
+[combine-and-conquer]: https://buckmartin.de/combine-and-conquer/2023-01-14-v0.4.0.html
+[thegrimsey-devlog]: https://twitter.com/TheGrimsey/status/1615788141314510848
+[flesh-1]: https://twitter.com/Im_Oab/status/1616542479951724546
+[flesh-2]: https://twitter.com/Im_Oab/status/1619230923970736128
+[DGS]: https://reddit.com/r/rust_gamedev/comments/10ifm62/dgs_the_multiplayer_game_of_go
+[triverse-blogs]: https://cragwind.itch.io/triverse/devlog
+[triverse-scenarios]: https://cragwind.itch.io/triverse/devlog/485898/scenarios-and-playability
+[fishfolk-punchy]: https://reddit.com/r/rust_gamedev/comments/10qwgcn/fish_folk_punchy_v03
+[life-code-video]: https://twitter.com/LifeCodeGame/status/1611856359003426816
+[digg-devlog]: https://reddit.com/r/rust_gamedev/comments/10of2sz/creating_a_new_game_with_bevy
+[Revolver Time]: https://allocatedartist.itch.io/revolver-time
+[revolver-time-video]: https://youtube.com/watch?v=LNcGzn7ZsNI
+[Canal Mania]: https://lee-orr.itch.io/canal-mania
+
+- Other learning material updates:
+  - [Native iOS Touch Events w/ Rust] is a tutorial on how to use Rust to
+    create native iOS touch events.
+  - [Bevy Basics video series] is a series of videos that covers the basics of
+    Bevy.
+  - [Platformer in Bevy video series] is a series of videos that covers how to
+    make a platformer in Bevy.
+
+[Native iOS Touch Events w/ Rust]: https://itnext.io/rust-native-ios-touch-events-8b01418e0f3b
+[Bevy Basics video series]: https://youtube.com/playlist?list=PL6uRoaCCw7GN_lJxpKS3j-KXuThRiSXc6
+[Platformer in Bevy video series]: https://youtube.com/playlist?list=PL6uRoaCCw7GN_lJxpKS3j-KXuThRiSXc6
+
+- Other engine updates:
+  - [alkahest-rs] released put about a video about [implementing texture batching][alkahest-texture-batching].
+  - [godot-rust] saw large improvements to the Godot 3 bindings.
+  - [petrichor64] is a retro-inspired small 3D fantasy engine.
+
+[alkahest-rs]: https://twitter.com/alkimia_studios/status/1610802953828405248
+[alkahest-texture-batching]: https://www.youtube.com/watch?v=quoHV9HHHJA
+[godot-rust]: https://twitter.com/GodotRust/status/1615606253052362752
+[petrichor64]: https://makeavoy.itch.io/petrichor64
+
+- Other tooling updates:
+  - [Ten Minute Physics] is a reimplementation of Matthias Müller's "Ten Minute
+    Physics" demos in Rust with WASM + WebGL.
+  - [rgis] is a geospatial data viewer written in Rust.
+
+[Ten Minute Physics]: https://reddit.com/r/rust/comments/10l4ae5/ten_minute_physics_demos_in_rust_with_wasm_webgl
+[rgis]: https://github.com/frewsxcv/rgis
+
+- Other tooling updates:
+  - [wgpu v0.15, naga v0.11] were released.
+  - [raster_fonts], a library for deserializing the resulting metadata, was
+    announced.
+  - [nvtt] has been updated to use Nvidia Texture Tools 3.
+  - [oxidized_navigation] is a nav-mesh generation & pathfinding crate to use
+    with Bevy.
+  - [VPlugin] is a Rust framework to develop and use plugins within your
+    project, without worrying about the low-level details. 
+  - [egui_glium] is looking for a new maintainer.
+  - [direct-storage] provides Rust bindings for DirectStorage.
+  - [bones] is a work-in-progess, opinionated game framework built on Bevy.
+  - [airsim-client] is a Rust client library for interacting with Microsoft
+    Airsim.
+  - [Rapier] wrote a year in review for 2022, and took a look ahead to 2023.
+  - [bevy-magic-light-2d] is an experimental dynamic 2D global illumination
+    system for Bevy, based on SDF ray-marching and screen space irradiance cache
+    probes.
+  - [notan v0.9] was released.
+
+[wgpu v0.15, naga v0.11]: https://reddit.com/r/rust/comments/10lf10i/wgpu_015_and_naga_011
+[raster_fonts]: https://reddit.com/r/rust_gamedev/comments/100vmqq/announcing_font2img_and_raster_fonts
+[nvtt]: https://reddit.com/r/rust_gamedev/comments/10eq1uh/nvtt_rs_has_been_updated_to_use_nvidia_texture
+[oxidized_navigation]: https://reddit.com/r/rust_gamedev/comments/10l3q1i/oxidized_navigation
+[VPlugin]: https://reddit.com/r/rust_gamedev/comments/10l3q1i/oxidized_navigation
+[egui_glium]: https://reddit.com/r/rust_gamedev/comments/10l3q1i/oxidized_navigation
+[direct-storage]: https://reddit.com/r/rust_gamedev/comments/10l3q1i/oxidized_navigation
+[bones]: https://reddit.com/r/rust_gamedev/comments/10l3q1i/oxidized_navigation
+[airsim-client]: https://reddit.com/r/rust_gamedev/comments/10l3q1i/oxidized_navigation
+[Rapier]: https://reddit.com/r/rust_gamedev/comments/10l3q1i/oxidized_navigation
+[bevy-magic-light-2d]: https://reddit.com/r/rust_gamedev/comments/10l3q1i/oxidized_navigation
+[notan v0.9]: https://reddit.com/r/rust_gamedev/comments/10l3q1i/oxidized_navigation
 
 ## Meeting Minutes
 
