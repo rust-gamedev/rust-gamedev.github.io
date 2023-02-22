@@ -67,6 +67,49 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Announcements
 
+### Rust Graphics Meetup \#3
+
+The Rust Graphics Meetup is an online gathering where Rustaceans share technical
+details of their work related to graphics and compute, not affiliated to any
+particular stack. The third edition has happened on January 28th! These were the
+talks:
+
+- Hello, Blade! - [Dzmitry Malyshau]
+- Implementing an Extensible Renderer - [Philip Degarmo]
+- Rend3: High Performance, Cross Platform, GPU Driven Rendering in wgpu and
+  WebGPU - [Connor Fitzgerald]
+
+Learn more at the [gfx meetup repo]. The individual videos haven't been uploaded
+yet, but you can watch the [full meetup here][graphics-meetup-vid]. Thanks
+everyone for tuning in and helping to make this happen!
+
+[Dzmitry Malyshau]: https://github.com/kvark
+[Connor Fitzgerald]: https://github.com/cwfitzgerald
+[Philip Degarmo]: https://github.com/aclysma
+[graphics-meetup-vid]: https://www.youtube.com/watch?v=63dnzjw4azI
+[gfx meetup repo]: https://github.com/gfx-rs/meetup
+
+### Rust GameDev Meetup
+
+![Gamedev meetup poster](gamedev-meetup.png)
+
+The 23rd Rust Gamedev Meetup took place in January. You can watch the recording
+of the meetup [here on Youtube][gamedev-meetup-video]. Here was the schedule
+from the meetup:
+
+- Micro Game Engine - [@AngelOnFira]
+- Graphite - [@GraphiteEditor]
+
+The meetups take place on the second Saturday every month via the [Rust Gamedev
+Discord server][rust-gamedev-discord] and are also [streamed on
+Twitch][rust-gamedev-twitch].
+
+[gamedev-meetup-video]: https://youtu.be/s9kf9HVUKYE
+[rust-gamedev-discord]: https://discord.gg/yNtPTb2
+[rust-gamedev-twitch]: https://twitch.tv/rustgamedev
+[@AngelOnFira]: https://twitter.com/AngelOnFira
+[@GraphiteEditor]: https://twitter.com/GraphiteEditor
+
 ## Game Updates
 
 ### Digital Extinction
