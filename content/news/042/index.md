@@ -66,8 +66,8 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ### Rust Graphics Meetup \#3
 
 The Rust Graphics Meetup is an online gathering where Rustaceans share technical
-details of their work related to graphics and compute, not affiliated to any
-particular stack. The third edition has happened on January 28th! These were the
+details of their work related to graphics and compute, not affiliated with any
+particular stack. The third edition happened on January 28th! These were the
 talks:
 
 - Hello, Blade! - [Dzmitry Malyshau]
@@ -96,7 +96,7 @@ from the meetup:
 - Micro Game Engine - [@AngelOnFira]
 - Graphite - [@GraphiteEditor]
 
-The meetups take place on the second Saturday every month via the [Rust Gamedev
+The meetups take place on the second Saturday of every month via the [Rust Gamedev
 Discord server][rust-gamedev-discord] and are also [streamed on
 Twitch][rust-gamedev-twitch].
 
@@ -117,7 +117,7 @@ _Building Placement in Digital Extinction_
 [Reddit][de-reddit]) by [@Indy2222] is a 3D real-time strategy game made with
 [Bevy].
 
-This month the game had two new first time contributors, [@0HyperCube] and
+This month the game had two new first-time contributors, [@0HyperCube] and
 [@Polostor] (Péťa Tománek).
 
 The most notable updates are:
@@ -134,7 +134,7 @@ The most notable updates are:
 - work on game head-up display / panel (HUD) was initiated,
 - various errors are now briefly displayed as toasts in the UI,
 - support of map hashing was added and deterministic map paths are used,
-- several small fixes, code quality improvements.
+- several small fixes, and code quality improvements.
 
 See [gameplay][video-game] and [menu][video-menu] screen recordings on YouTube.
 
@@ -170,15 +170,15 @@ Support for [`bevy_ggrs`][bevy_ggrs]' synctest sessions was implemented. This
 allows detecting de-syncs by constantly performing rollbacks and comparing world
 state checksums). This caught some very rare de-sync bugs.
 
-The game also adopted [Matchbox][cargospace_matchbox]' newly added support for
-cross-platform p2p. Which means sessions between players on web and native
+The game also adopted [Matchbox][cargospace_matchbox]'s newly added support for
+cross-platform p2p. This means sessions between players on web and native
 are now supported ([video][cargospace_cross_platform_video]).
 
-All of this is discussed in detail the [third devlog
+All of this is discussed in detail in the [third devlog
 entry][cargospace_devlog_3].
 
 Johan also wrote [an article][cargospace_devlog_4] on how sound effects were
-implemented in a rollback-aware way, cancelling mis-predicted sounds, and
+implemented in a rollback-aware way, canceling mispredicted sounds, and
 handling "late" sounds. It describes a solution that could easily be adopted for
 any game made with [`bevy_ggrs`][bevy_ggrs].
 
@@ -202,7 +202,7 @@ nature, developed by [Elina Shakhnovich][eli_mastodon] and
 [Johann Tael][johann_mastodon] featuring a bespoke Vulkan-based engine in
 Rust.
 
-After almost a whole year of relative silence, they begun releasing new demos
+After almost a whole year of relative silence, they have begun releasing new demos
 in January. The new demo version 8 comes with a new renderer supporting
 interactive, flowing water. Also, the simulated trees in Idu changed
 a lot, as they're now able to flower, in addition to dropping leaves.
@@ -235,7 +235,7 @@ can read all about that update in the [release post][veloren-0.14].
 Veloren's Site2 system can now be hot-reloaded. Site2 allows you to describe
 procedures for how objects like houses, trees, or bridges should be generated.
 Hot-reloading allows you to change the Site2 code and watch the changes take
-effect in real time. The official 2023 Veloren OST was also released, and can be
+effect in real-time. The official 2023 Veloren OST was also released, and can be
 [watched on YouTube][veloren-ost].
 
 December's full weekly devlogs: "This Week In Veloren...":
@@ -265,7 +265,7 @@ it hit version 0.29 and got the following features:
 - Customizable graph update pipeline
 - Node and property selector widgets
 - Message passing for scripts
-- Reflection refactoring to support interrior mutability
+- Reflection refactoring to support interior mutability
 - Deterministic particle systems
 - Ability to animate material properties
 - Various bug fixes
@@ -300,7 +300,7 @@ giving an introduction to the Entity Component System paradigm.
 starting point for 3D projects made in Bevy. While he appreciated that other
 Bevy templates showed nicely how to wire up systems and setup a game loop,
 he was missing a showcase for commonly used features that are scattered around
-various libraries. So he created Foxtrot, where he collected most basic features
+various libraries. So he created Foxtrot, where he collected the most basic features
  he could need for future projects or jams. The current version [v0.1.5] features:
 
 - loading a 3D level from GLTF files
@@ -311,7 +311,7 @@ various libraries. So he created Foxtrot, where he collected most basic features
 - shaders
 - pathfinding
 - a flexible camera system with easings
-- a custom ingame editor window for live tweaks such as spawning new objects.
+- a custom in-game editor window for live tweaks such as spawning new objects.
 
 [Foxtrot]: https://github.com/janhohenheim/foxtrot
 [@janhohenheim]: https://github.com/janhohenheim
@@ -357,13 +357,13 @@ designs with #MadeWithGraphite on Twitter.
 ### [big-brain]
 
 [big-brain] ([GitHub][big-brain-github], [Discord][big-brain-discord]) by [@zkat]
-is a highly-parallel [Utility AI][big-brain-utility-ai] library
+is a highly parallel [Utility AI][big-brain-utility-ai] library
 for the Bevy game engine.
 
 [big-brain] recently tagged [v0.16.0][big-brain-v16],
 bringing with it a couple of breaking changes and a few goodies.
 
-Probably the biggest change in this release is removal of the blanket
+Probably the biggest change in this release is the removal of the blanket
 [`ActionBuilder`][big-brain-action-builder] and [`ScorerBuilder`][big-brain-scorer-builder]
 implementations for `Clone` types. This is a fairly significant breaking change,
 but one that is fairly easy to resolve: simply use the new `#[derive(ActionBuilder)]`
@@ -442,11 +442,11 @@ _An exemple of torchbearer in action,
 demonstrating both pathfinding and field of view_
 
 [torchbearer] by [@redwarp] is a library that provides a set of tools
-to find your path in a grid based dungeon. Specifically,
-it provide a quick implementation of pathfinding and field of view algorithm.
+to find your path in a grid-based dungeon. Specifically,
+it provides a quick implementation of pathfinding and field of view algorithm.
 
 The 0.6.x version rewrites the field of view algorithm to cast vision rays
-in a bresenham circle around the point of origin.
+in a Bresenham circle around the point of origin.
 This change from its [original implementation][torchbearer-orig] makes it faster
 as it removes the needs for error correction.
 
@@ -467,7 +467,7 @@ Originally, it was written for web assembly, but a native implementation using
 between the two implementations meant connections between native and web
 were not possible.
 
-In version 0.5, however, [Alex Rozgo] fixed the the last of these issues. And
+In version 0.5, however, [Alex Rozgo] fixed the last of these issues. And
 cross-play sessions are now finally fully supported.
 
 In addition, [johanhelsing][johanhelsing_mastodon] fixed a serious bug that used
@@ -490,7 +490,7 @@ _Discussions: [Mastodon][cargospace_cross_platform_video]_
 _Miniquad/macroquad examples rendered by Metal API_
 
 [miniquad] is a safe and cross-platform rendering library
-focused on portability and low-end platforms support.
+focused on portability and low-end platform support.
 
 This month metal backend [PR][miniquad_metal_pr] finally landed on miniquad!
 
@@ -516,7 +516,7 @@ metal on web, macOS, iOS, Android, Windows, and Linux.
     Registries"][thegrimsey-devlog].
   - Flesh has a [new redrawn background in the first area][flesh-1], and has
     [been tested to run on the Steam Deck][flesh-2].
-  - [DGS] is a multiplayer game of Go, with shperical fields and VR support.
+  - [DGS] is a multiplayer game of Go, with spherical fields and VR support.
   - Triverse has a [set of devlogs out][triverse-blogs], with the most recent
     covering [scenarios and playability][triverse-scenarios].
   - Fish Folk: Punchy has [released version 0.3][fishfolk-punchy].
@@ -587,7 +587,7 @@ metal on web, macOS, iOS, Android, Windows, and Linux.
     project, without worrying about the low-level details. 
   - [egui_glium] is looking for a new maintainer.
   - [direct-storage] provides Rust bindings for DirectStorage.
-  - [bones] is a work-in-progess, opinionated game framework built on Bevy.
+  - [bones] is a work-in-progress, opinionated game framework built on Bevy.
   - [airsim-client] is a Rust client library for interacting with Microsoft
     Airsim.
   - [Rapier] wrote a year in review for 2022, and took a look ahead to 2023.
@@ -608,7 +608,6 @@ metal on web, macOS, iOS, Android, Windows, and Linux.
 [Rapier]: https://dimforge.com/blog/2023/01/22/the-year-2022-in-dimforge
 [bevy-magic-light-2d]: https://github.com/zaycev/bevy-magic-light-2d
 [notan v0.9]: https://reddit.com/r/rust/comments/10pwgka/released_a_new_version_of_notan_a_sdllike_lib
-
 
 ## Requests for Contribution
 
