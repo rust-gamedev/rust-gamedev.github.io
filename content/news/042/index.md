@@ -36,6 +36,7 @@ Feel free to send PRs about your own projects!
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
 - [Other News](#other-news)
+- [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
 - [Jobs](#jobs)
 
@@ -607,6 +608,19 @@ macOS, iOS, Android, Windows, and Linux.
 [Rapier]: https://dimforge.com/blog/2023/01/22/the-year-2022-in-dimforge
 [bevy-magic-light-2d]: https://github.com/zaycev/bevy-magic-light-2d
 [notan v0.9]: https://reddit.com/r/rust/comments/10pwgka/released_a_new_version_of_notan_a_sdllike_lib
+
+## Discussions
+
+- /r/rust_gamedev:
+  - ["Is it a good idea to start learning game development with rust?"][reddit-learn-rust]
+  - ["Tech stack for a turn-based roguelike in Rust"][reddit-turn-based]
+  - ["Pain points using Rust for gamedev?"][reddit-pain-points]
+  - ["I want to make a game that’s compatible with Nintendo switch"][reddit-nintendo]
+
+[reddit-learn-rust]: https://reddit.com/r/rust_gamedev/comments/107lmra/is_it_a_good_idea_to_start_learning_game
+[reddit-turn-based]: https://reddit.com/r/rust_gamedev/comments/10npmn6/tech_stack_for_a_turnbased_roguelike_in_rust
+[reddit-pain-points]: https://reddit.com/r/rust_gamedev/comments/10qyf0v/pain_points_using_rust_for_game_dev
+[reddit-nintendo]: https://reddit.com/r/rust_gamedev/comments/10jh6lt/i_want_to_make_a_game_thats_compatible_with_switch
 
 ## Requests for Contribution
 
