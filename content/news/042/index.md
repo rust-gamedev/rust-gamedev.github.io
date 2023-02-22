@@ -535,7 +535,14 @@ useful information -->
 
 ## Jobs
 
-<!-- An optional section for new jobs related to Rust gamedev -->
+- [Ambient](https://www.ambient.run/career)
+  (Remote)
+  - Engine Programmer
+  - Rendering Engineer
+  - Open Source Community Engineer
+- [Embark Studios](https://careers.embark-studios.com/jobs)
+  (Stockholm/Hybrid Remote)
+  - Various roles
 
 ## Bonus
 
