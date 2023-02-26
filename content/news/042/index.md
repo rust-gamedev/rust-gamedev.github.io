@@ -1,7 +1,7 @@
 +++
 title = "This Month in Rust GameDev #42 - January 2023"
 transparent = true
-date = 2023-02-21
+date = 2023-02-26
 draft = false
 +++
 
@@ -101,7 +101,7 @@ The meetups take place on the second Saturday of every month via the [Rust
 Gamedev Discord server][rust-gamedev-discord] and are also [streamed on
 Twitch][rust-gamedev-twitch].
 
-[gamedev-meetup-video]: https://youtu.be/s9kf9HVUKYE
+[gamedev-meetup-video]: https://youtu.be/iSu-9yKsCRY
 [rust-gamedev-discord]: https://discord.gg/yNtPTb2
 [rust-gamedev-twitch]: https://twitch.tv/rustgamedev
 [@AngelOnFira]: https://twitter.com/AngelOnFira
@@ -192,12 +192,12 @@ made with [`bevy_ggrs`][bevy_ggrs].
 [bevy_ggrs]: https://github.com/gschup/bevy_ggrs
 [cargospace_cross_platform_video]: https://mastodon.social/@johanhelsing/109681997649114818
 
-### [Idu]
+### [Idu][idu-itch]
 
-![Screenshot of a tree emerging from a cave in Idu](idu-newsletter.jpeg)
+![Screenshot of a tree emerging from a cave in Idu](idu-newsletter.jpg)
 _Screenshot of a tree emerging from a cave in Idu_
 
-[Idu] ([Discord][idu_discord]) Idu is a strategic sandbox game about growing
+[Idu][idu-itch] ([Discord][idu_discord]) Idu is a strategic sandbox game about growing
 plants that wish to reclaim nature, developed by [Elina
 Shakhnovich][eli_mastodon] and [Johann Tael][johann_mastodon] featuring a
 bespoke Vulkan-based engine in Rust.
@@ -213,12 +213,12 @@ Player accessibility and the gameplay itself is better now as well, due to a
 completely new menu and a lot of new items, such as porous gabion blocks and
 ladders.
 
-Read more and download the newest demo from [Idu's page on itch.io][itch].
+Read more and download the newest demo from [Idu's page on itch.io][idu-itch].
 
 [idu_discord]: https://discord.gg/MeGauteMj3
 [eli_mastodon]: https://mastodon.gamedev.place/@eli
 [johann_mastodon]: https://mastodon.gamedev.place/@johann
-[itch]: https://epcc.itch.io/idu
+[idu-itch]: https://epcc.itch.io/idu
 
 ### [Veloren][veloren]
 
