@@ -301,8 +301,8 @@ starting point for 3D projects made in Bevy. While he appreciated that other
 Bevy templates showed nicely how to wire up systems and setup a game loop, he
 was missing a showcase for commonly used features that are scattered around
 various libraries. So he created Foxtrot, where he collected the most basic
- features he could need for future projects or jams. The current version
- [v0.1.5] features:
+features he could need for future projects or jams. The [latest release]
+features:
 
 - loading a 3D level from GLTF files
 - automatically assigning physics colliders
@@ -311,12 +311,12 @@ various libraries. So he created Foxtrot, where he collected the most basic
 - a force-based third-person character controller
 - shaders
 - pathfinding
-- a flexible camera system with easings
+- a flexible camera system with easings supporting various perspectives
 - a custom in-game editor window for live tweaks such as spawning new objects.
 
 [Foxtrot]: https://github.com/janhohenheim/foxtrot
 [@janhohenheim]: https://github.com/janhohenheim
-[v0.1.5]: https://github.com/janhohenheim/foxtrot/releases/tag/v0.1.5
+[latest release]: https://github.com/janhohenheim/foxtrot/releases/latest
 
 ### [Graphite][graphite-website]
 
