@@ -678,14 +678,11 @@ Want something mentioned in the next newsletter?
 Also, subscribe to [@rust_gamedev on Twitter][@rust_gamedev]
 or [/r/rust_gamedev subreddit][/r/rust_gamedev] if you want to receive fresh news!
 
-<!--
-TODO: Add real links and un-comment once this post is published
 **Discuss this post on**:
 [/r/rust_gamedev](TODO),
-[Twitter](TODO),
-[Mastodon](TODO),
+[Twitter](https://twitter.com/rust_gamedev/status/1629925295376441345),
+[Mastodon](https://mastodon.gamedev.place/@rust_gamedev/109932672837603113),
 [Discord](https://discord.gg/yNtPTb2).
--->
 
 [/r/rust_gamedev]: https://reddit.com/r/rust_gamedev
 [@rust_gamedev]: https://twitter.com/rust_gamedev
