@@ -584,7 +584,7 @@ macOS, iOS, Android, Windows, and Linux.
   - [oxidized_navigation] is a nav-mesh generation & pathfinding crate to use
     with Bevy.
   - [VPlugin] is a Rust framework to develop and use plugins within your
-    project, without worrying about the low-level details. 
+    project, without worrying about the low-level details.
   - [egui_glium] is looking for a new maintainer.
   - [direct-storage] provides Rust bindings for DirectStorage.
   - [bones] is a work-in-progress, opinionated game framework built on Bevy.
