@@ -71,6 +71,22 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Learning Material Updates
 
+### [Write a First Person Game in 2KB with Rust][firstperson-wasm4]
+
+![Game Preview](firstperson.png)
+
+[@grantshandy] published an [article][firstperson-wasm4] about creating a simple
+first-person game in Rust with [WASM-4]. It covers the basics of a ray casting
+algorithm and minifying Rust with WebAssembly. You can play the finished game
+[here][firstperson-wasm4-game].
+
+_Discussion: [/r/rust](https://www.reddit.com/r/rust/comments/11bdsys/write_a_first_person_game_in_2kb_with_rust/)_
+
+[@grantshandy]: https://github.com/grantshandy/
+[firstperson-wasm4]: https://grantshandy.github.io/posts/raycasting
+[firstperson-wasm4-game]: https://grantshandy.github.io/wasm4-raycaster/
+[WASM-4]: https://wasm4.org
+
 ## Tooling Updates
 
 ## Library Updates
