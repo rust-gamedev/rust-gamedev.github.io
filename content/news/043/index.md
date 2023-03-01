@@ -73,6 +73,33 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Tooling Updates
 
+### Sprite and Pixel Art Editor
+
+![Image editor screenshot](sprite_pixel_art_editor.png)
+_Screenshot of the editor_
+
+A sprite and pixel art editor made with egui and macroquad is being
+developed by @yds12 ([github][yds-github], [mastodon][yds-mastodon]).
+The project is already usable, but has not been made public yet. Current
+features are
+
+- Drawing w/ brush, eraser, lines, rectangles, bucket (fill w/ color)
+- Color selector, editable palette and eyedropper (pick color from canvas)
+- Resize or completely erase the canvas
+- Move camera, zoom in and out
+- Selection (rectangular only for now), deleted, copied and pasted; flip
+  selection (horizontal or vertical)
+- Layers: create, remove, moved up/down, control visibility and opacity
+- Spritesheet: specify how many columns and rows your image has, and an
+  animated preview will be displayed in a window w/ configurable scale
+- Save/load projects (with all its settings), export and import PNG/JPG
+- Status bar w/ info about canvas size, canvas position, color under mouse, etc
+
+The source is planned to be released in the next few weeks
+
+[yds-github]: https://github.com/yds12
+[yds-mastodon]: https://fosstodon.org/@yds/
+
 ## Library Updates
 
 ## Popular Workgroup Issues in Github
