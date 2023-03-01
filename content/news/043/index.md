@@ -69,6 +69,40 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Engine Updates
 
+### [godot-rust][gd-github]
+
+![godot-rust GDExtension](godot-rust-gdextension.png)
+
+The [release of Godot version 4.0][gd-godot4] marks a significant milestone in
+the game development ecosystem. godot-rust aims to bring the open-source
+game engine to the Rust community.
+
+For the [Godot 4 (GDExtension) binding][gd-gdextension], February was a very
+productive month, with a handful of new contributors and [16 merged pull
+requests][gd-pulse]. An up-to-date feature overview is available
+[in issue #24][gd-24]. Last month's changes include:
+
+- Support for arrays, packed arrays and dictionaries
+- Support for some geometric types (vectors, quaternions, colors)
+- Bugfixes regarding ref-counts, use-after-free, memory leaks
+
+On the [Godot 3 (GDNative) side][gd-gdnative], lots of quality-of-life
+improvements have found their way into the library:
+
+- Class self-registration based on `inventory` crate
+- Flexible self types: `fn instance(#[self] this: Instance<Self>)`
+- Trait entry point: `#[callbacks] impl GDNativeCallbacks for MyLibrary {...}`
+
+Both bullet lists are examples for how the GDNative and GDExtension bindings
+mutually benefit each other, reusing proven designs for user-friendly Rust APIs.
+
+[gd-github]: https://github.com/godot-rust
+[gd-gdextension]: https://github.com/godot-rust/gdextension
+[gd-gdnative]: https://github.com/godot-rust/gdnative
+[gd-godot4]: https://godotengine.org/article/godot-4-0-sets-sail/
+[gd-pulse]: https://github.com/godot-rust/gdextension/pulse/monthly
+[gd-24]: https://github.com/godot-rust/gdextension/issues/24
+
 ## Learning Material Updates
 
 ## Tooling Updates
