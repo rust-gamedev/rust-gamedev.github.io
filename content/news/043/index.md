@@ -105,6 +105,22 @@ mutually benefit each other, reusing proven designs for user-friendly Rust APIs.
 
 ## Learning Material Updates
 
+### [Write a First Person Game in 2KB with Rust][firstperson-wasm4]
+
+![Game Preview](firstperson.png)
+
+[@grantshandy] published an [article][firstperson-wasm4] about creating a simple
+first-person game in Rust with [WASM-4]. It covers the basics of a ray casting
+algorithm and minifying Rust with WebAssembly. You can play the finished game
+[here][firstperson-wasm4-game].
+
+_Discussion: [/r/rust](https://reddit.com/r/rust/comments/11bdsys/fps_game_2kb_rust)_
+
+[@grantshandy]: https://github.com/grantshandy/
+[firstperson-wasm4]: https://grantshandy.github.io/posts/raycasting
+[firstperson-wasm4-game]: https://grantshandy.github.io/wasm4-raycaster/
+[WASM-4]: https://wasm4.org
+
 ## Tooling Updates
 
 ### Sprite and Pixel Art Editor
