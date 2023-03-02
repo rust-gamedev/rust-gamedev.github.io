@@ -69,7 +69,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### Cootsmania
 
-![Cootsmania](cootsmania.png)
+![Cootsmania](cootsmania.jpg)
 _Cootsmania_
 
 [Cootsmania] ([GitHub][coots-github])
@@ -89,7 +89,7 @@ Every round half of the players get eliminated and eventually winner is decided.
 
 The game is written using [a custom engine][geng].
 
-![Cootsmania gameplay](cootsmania-gameplay.png)
+![Cootsmania gameplay](cootsmania-gameplay.jpg)
 _Cootsmania gameplay_
 
 [Cootsmania]: https://kuviman.itch.io/cootsmania
