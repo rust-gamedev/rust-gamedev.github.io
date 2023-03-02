@@ -77,8 +77,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [hexx]
 
-![hexx 2d example](hexx.png)
-_2d Hex grid example_
+![hexx 2d example](hexx.jpeg)
 
 An hexagonal tools library made by [@ManevilleF]:
 
