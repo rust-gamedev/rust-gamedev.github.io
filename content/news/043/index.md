@@ -80,7 +80,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ![hexx 2d example](hexx.png)
 _2d Hex grid example_
 
-An hexagonal tools library made by [@ManevilleF](https://linktr.ee/ManevilleF):
+An hexagonal tools library made by [@ManevilleF]:
 
 - Manipulate hexagonal coordinates, draw rings, lines, weges, etc
 - Generate hexagonal grids, with conversion between your world and the hexagonal
@@ -88,13 +88,15 @@ coordinates system
 - Compute 3d meshes for your hexagons
 
 [hexx] is engine agnostic, but was made with [bevy] integration in mind and
-provides 2d and 3d
-[examples](https://github.com/ManevilleF/hexx/tree/main/examples)
+provides 2d and 3d [examples]
 
-_Discussions: [Twitter](https://twitter.com/ManevilleF/status/1625159292490854400)
+_Discussions: [Twitter]
 
 [hexx]: https://github.com/ManevilleF/hexx
 [bevy]: https://github.com/bevyengine/bevy
+[@ManevilleF]: https://linktr.ee/ManevilleF
+[examples]: https://github.com/ManevilleF/hexx/tree/main/examples
+[Twitter]: https://twitter.com/ManevilleF/status/1625159292490854400
 
 ## Popular Workgroup Issues in Github
 
