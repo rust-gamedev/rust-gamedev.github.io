@@ -80,7 +80,7 @@ first-person game in Rust with [WASM-4]. It covers the basics of a ray casting
 algorithm and minifying Rust with WebAssembly. You can play the finished game
 [here][firstperson-wasm4-game].
 
-_Discussion: [/r/rust](https://www.reddit.com/r/rust/comments/11bdsys/write_a_first_person_game_in_2kb_with_rust/)_
+_Discussion: [/r/rust](https://reddit.com/r/rust/comments/11bdsys/fps_game_2kb_rust)_
 
 [@grantshandy]: https://github.com/grantshandy/
 [firstperson-wasm4]: https://grantshandy.github.io/posts/raycasting
