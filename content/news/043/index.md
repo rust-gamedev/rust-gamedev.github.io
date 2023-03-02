@@ -67,6 +67,25 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Tunnet][tunnet-itch]
+
+![Tunnet preview](tunnet.jpg)
+_Tunnels and computer networks_
+
+Tunnet ([Steam][tunnet-steam], [Itch.io][tunnet-itch]) by
+[@puzzled\_squid][puzzled_squid] is a small puzzle/exploration game where you
+play as a robot technician who has been tasked with building a computer network
+in an underground complex.
+
+The project is implemented using the Bevy engine. It is currently under
+development and is expected to be released later this year.
+This month, the announcement trailer and the first few pages of the manual have
+been published on the [project page][tunnet-itch].
+
+[tunnet-itch]: https://puzzled-squid.itch.io/tunnet
+[tunnet-steam]: https://store.steampowered.com/app/2286390/Tunnet/
+[puzzled_squid]: https://puzzledsquid.xyz/
+
 ## Engine Updates
 
 ### [godot-rust][gd-github]
