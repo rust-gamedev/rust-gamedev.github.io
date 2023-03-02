@@ -32,11 +32,15 @@ Feel free to send PRs about your own projects!
 - [Announcements](#announcements)
 - [Game Updates](#game-updates)
 - [Engine Updates](#engine-updates)
+  - [godot-rust](#godot-rust)
+  - [Blue Engine](#blue-engine)
 - [Learning Material Updates](#learning-material-updates)
+  - [Write a First Person Game in 2KB with Rust](#write-a-first-person-game-in-2kb-with-rust)
 - [Tooling Updates](#tooling-updates)
+  - [Sprite and Pixel Art Editor](#sprite-and-pixel-art-editor)
 - [Library Updates](#library-updates)
-- [Other News](#other-news)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
+- [Other News](#other-news)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
 - [Jobs](#jobs)
@@ -102,6 +106,41 @@ mutually benefit each other, reusing proven designs for user-friendly Rust APIs.
 [gd-godot4]: https://godotengine.org/article/godot-4-0-sets-sail/
 [gd-pulse]: https://github.com/godot-rust/gdextension/pulse/monthly
 [gd-24]: https://github.com/godot-rust/gdextension/issues/24
+
+### [Blue Engine][be-github]
+
+![blue_engine logo](BlueEngineLogoSmall.png)
+_Blue Engine Logo_
+
+[Blue Engine][be-github] by [@ElhamAryanpur] is an easy to use, extendable, and
+portable graphics engine built to make it easier to render 2D or 3D graphics.
+
+This marks the first entry of Blue Engine in the newsletter. And there will be
+more entries for the engine from now on, to get latest updates about the engine.
+
+Although the month of febuary was slow for the development of the engine, there
+have been significant efforts towards addition of [documentation][be-docs] and the
+eventual release of the next version. In the meantime, the plugins have favored significant
+updates and development in the month, notably the [egui][be-egui] plugin.
+
+![blue_engine egui-plugin](blue_engine_egui_plugin_update.png)
+
+Now the [egui plugin][be-egui] allow you to render objects of the engine direction
+inside an egui window. This feature was built in collaboration with [@Noswad].
+
+This also introduced a new option in Objects: `is_visible: bool`
+which hides an object
+from getting rendered if set to false (set to `true` as default). This allows
+you to hide an object from getting rendered on the background of egui, and can then
+add it to be rendered inside an egui window instead. So far the system on the second
+design, suggestions are welcome to cement a better design. Refer to [example][be-egui-example].
+
+[be-github]: https://github.com/AryanpurTech/BlueEngine
+[be-egui]: https://github.com/AryanpurTech/BlueEngineEGUI
+[be-egui-example]: https://github.com/AryanpurTech/BlueEngineEGUI/blob/master/examples/custom_3d.rs
+[be-docs]: https://docs.rs/blue_engine
+[@ElhamAryanpur]: https://github.com/ElhamAryanpur
+[@Noswad]: https://github.com/TheNoswad
 
 ## Learning Material Updates
 
