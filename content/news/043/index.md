@@ -152,6 +152,25 @@ The source is planned to be released in the next few weeks
 
 ## Library Updates
 
+### [nanoshredder]
+
+![nanoshredder](nanoshredder.gif)
+_macroquad's shadertoy example with metal/glsl preview_
+
+[Nanoshredder] is an experimental fork of
+[makepad's shader-compiler][makepad-shader-compiler].
+
+It compiles rust-like DSL into GLSL, Metal and HLSL.
+
+This month it got a little [web demo]:
+[macroquad's shadertoy][macroquad-shadertoy], a live editor with
+generated Metal/GLSL preview.
+
+[nanoshredder]: https://github.com/not-fl3/nanoshredder
+[makepad-shader-compiler]: https://github.com/makepad/makepad/tree/master/platform/shader_compiler
+[web demo]: https://not-fl3.github.io/miniquad-samples/shadertoy_cross.html
+[macroquad-shadertoy]: https://github.com/not-fl3/macroquad/blob/master/examples/shadertoy.rs
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
