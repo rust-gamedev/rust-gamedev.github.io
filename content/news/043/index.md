@@ -24,7 +24,7 @@ Want something mentioned in the next newsletter?
 [Send us a pull request][pr].
 Feel free to send PRs about your own projects!
 
-[Rust]: https://rust-lang.org
+[rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 [pr]: https://github.com/rust-gamedev/rust-gamedev.github.io
 [coordination]: https://github.com/rust-gamedev/rust-gamedev.github.io/issues?q=label%3Acoordination
@@ -103,6 +103,29 @@ mutually benefit each other, reusing proven designs for user-friendly Rust APIs.
 [gd-pulse]: https://github.com/godot-rust/gdextension/pulse/monthly
 [gd-24]: https://github.com/godot-rust/gdextension/issues/24
 
+### [Ambient][ambient-github]
+
+![Image of a scene made with Ambient](made_with_ambient.jpg)
+
+After over a year in development, [version 0.1 of Ambient][ambient-blog] (formerly known as Dims) was unveiled to the public.
+It is an open-source multiplayer 3D game runtime, compatible with any language that compiles to/runs on WebAssembly,
+and designed to make it easy to build and deploy rich multiplayer worlds and experiences.
+
+It is guided by several core principles, including seamless networking, data-oriented design, interoperability, and more.
+The core runtime is written in Rust and uses WGPU for graphics, Quinn for networking and WebAssembly for user
+logic. This allows it to run on all major desktop platforms, with active work underway for the Web and other targets.
+
+Check out [the GitHub][ambient-github] (2600 stars!) to get started with building for/or on Ambient yourself, or chat to the developers
+and other explorers on [the Discord][ambient-discord].
+
+_Discussion: [/r/rust][ambient-reddit], [Hacker News][ambient-hn]_
+
+[ambient-github]: https://github.com/AmbientRun/Ambient
+[ambient-blog]: https://www.ambient.run/post/introducing-ambient
+[ambient-reddit]: https://www.reddit.com/r/rust/comments/118wlda/introducing_ambient_01_a_runtime_for_building/
+[ambient-hn]: https://news.ycombinator.com/item?id=34906166
+[ambient-discord]: https://discord.gg/eQEwPCWSy8
+
 ## Learning Material Updates
 
 ### [Write a First Person Game in 2KB with Rust][firstperson-wasm4]
@@ -119,7 +142,7 @@ _Discussion: [/r/rust](https://reddit.com/r/rust/comments/11bdsys/fps_game_2kb_r
 [@grantshandy]: https://github.com/grantshandy/
 [firstperson-wasm4]: https://grantshandy.github.io/posts/raycasting
 [firstperson-wasm4-game]: https://grantshandy.github.io/wasm4-raycaster/
-[WASM-4]: https://wasm4.org
+[wasm-4]: https://wasm4.org
 
 ## Tooling Updates
 
@@ -173,7 +196,7 @@ useful information -->
 
 <!-- An optional section for new jobs related to Rust gamedev -->
 
-------
+---
 
 That's all news for today, thanks for reading!
 
