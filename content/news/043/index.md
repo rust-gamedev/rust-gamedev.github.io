@@ -152,6 +152,60 @@ The source is planned to be released in the next few weeks
 
 ## Library Updates
 
+### [blink-alloc]
+
+A brand new arena-allocator with bunch of improvements over existing
+solutions.
+
+
+> Arena-allocators offer extremely fast allocations and deallocations.
+Allocation is just a few pointer arithmetic operations.
+And deallocation is nearly no-op.
+In exchange arena-allocator requires a point in time when all
+previous allocations are unused to reset state.\
+Rust's borrow-checker ensures the requirement for reset making
+it 100% safe to use.\
+\
+TL;DR great for games, servers, cli tools and more.
+
+`blink-alloc` provides thread-local and multi-threaded allocators -
+`BlinkAlloc` and `SyncBlinkAlloc`.\
+Single-threaded version
+[performs many times faster than `bumpalo`][blink-bench].\
+I couldn't find another implementation to compare multi-threaded version
+performance.
+
+It also provided ouf-of-the-box to fetch `BlinkAlloc` in task/thread
+and return it back when done, keeping multiple `BlinkAlloc` instanced warmed.
+
+On top of raw allocations `blink-alloc` provides `Blink` type
+that works as safe allocator adaptor.\
+`Blink` can allocate memory and initialize it with values provided by user.\
+User may provide values as-is, as closures or iterators.
+`Blink`'s API is safe with few exception for niche use cases.
+
+Those familiar with `bumpalo` may think of `Blink` as of `bumpalo::Bump`.\
+Though `Blink`
+1. **drops** all placed values on reset,
+which makes it usable with any kind of types without resource leaks.
+1. Accepts any iterator type, not just `ExactSizeIterator` implementations.
+1. Is configurable to use any `BlinkAllocator` implementation, thus not
+tied to `Global`.
+
+Currently Rust's standard collection types may use custom allocators
+only one nightly and with `allocator_api` feature enabled.
+
+`blink-alloc` uses `allocator-api2` crate to work on both stable and nightly.
+Integration with other crates is simple and doesn't require depending on
+`blink-alloc`, only on `allocator-api2`.
+
+*Tested with [Miri] and follows [`Strict Provenance Rules`][strict-provenance]*
+
+[blink-alloc]: https://github.com/zakarumych/blink-alloc
+[blink-bench]: https://github.com/zakarumych/blink-alloc/blob/main/BENCHMARKS.md
+[Miri]: https://github.com/rust-lang/miri
+[strict-provenance]: https://github.com/rust-lang/rust/issues/95228
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
