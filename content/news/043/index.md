@@ -74,7 +74,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 [@anopara] and [@h3r2tic] recently added [terrain editing] to [Tiny Glade].
 They then faced an important game design question: how would sheep handle
 it? Well, these cuddly little floofs are not mountain goats,
-so the developers gave them tiny umbrellas. 
+so the developers gave them tiny umbrellas.
 
 Read more in their latest [Steam blogpost].
 
