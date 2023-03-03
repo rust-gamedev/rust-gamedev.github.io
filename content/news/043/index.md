@@ -107,16 +107,22 @@ mutually benefit each other, reusing proven designs for user-friendly Rust APIs.
 
 ![Image of a scene made with Ambient](made_with_ambient.jpg)
 
-After over a year in development, [version 0.1 of Ambient][ambient-blog] (formerly known as Dims) was unveiled to the public.
-It is an open-source multiplayer 3D game runtime, compatible with any language that compiles to/runs on WebAssembly,
-and designed to make it easy to build and deploy rich multiplayer worlds and experiences.
+After over a year in development, [version 0.1 of Ambient][ambient-blog]
+(formerly known as Dims) was unveiled to the public. It is an open-source
+multiplayer 3D game runtime, compatible with any language that compiles
+to/runs on WebAssembly, and designed to make it easy to build and deploy
+rich multiplayer worlds and experiences.
 
-It is guided by several core principles, including seamless networking, data-oriented design, interoperability, and more.
-The core runtime is written in Rust and uses WGPU for graphics, Quinn for networking and WebAssembly for user
-logic. This allows it to run on all major desktop platforms, with active work underway for the Web and other targets.
+It is guided by several core principles, including seamless networking,
+data-oriented design, interoperability, and more.
+The core runtime is written in Rust and uses WGPU for graphics, Quinn
+for networking and WebAssembly for user logic. This allows it to run on
+all major desktop platforms, with active work underway for the Web and
+other targets.
 
-Check out [the GitHub][ambient-github] (2600 stars!) to get started with building for/or on Ambient yourself, or chat to the developers
-and other explorers on [the Discord][ambient-discord].
+Check out [the GitHub][ambient-github] (2600 stars!) to get started with
+building for/or on Ambient yourself, or chat to the developers and other
+explorers on [the Discord][ambient-discord].
 
 _Discussion: [/r/rust][ambient-reddit], [Hacker News][ambient-hn]_
 
