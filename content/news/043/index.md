@@ -67,6 +67,31 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### Cootsmania
+
+![Cootsmania gameplay](cootsmania-gameplay.jpg)
+
+[Cootsmania] ([GitHub][coots-github])
+is a multiplayer racing game made for [Ludwig Jam 2023][ludwig-jam] in 10 days
+by [@kuviman] (programming), [@rincs] (art), and [@Brainoid] (music & sfx).
+
+The game is about racing other players around Ludwig's house
+towards the next Coots (Ludwig's cat) location.
+Every round half of the players get eliminated and eventually winner is decided.
+
+[See trailer on YouTube][coots-trailer].
+
+The game is written using a custom engine: [Geng][geng].
+
+[Cootsmania]: https://kuviman.itch.io/cootsmania
+[ludwig-jam]: https://itch.io/jam/ludwig-2023
+[coots-github]: https://github.com/kuviman/cootsmania
+[coots-trailer]: https://youtu.be/N0bQDZTDr2Y
+[geng]: https://github.com/kuviman/geng
+[@kuviman]: https://github.com/kuviman
+[@rincs]: https://rincsart.com
+[@Brainoid]: https://twitter.com/brainoidgames
+
 ## Engine Updates
 
 ### [godot-rust][gd-github]
