@@ -95,7 +95,7 @@ The game is written using a custom engine: [Geng][geng].
 
 ### [CyberGate][cybergate-yt]
 
-![Many Creatures flying and casting shadows](cybergate.png)
+![Many Creatures flying and casting shadows](cybergate.mp4)
 _Many Creatures flying and casting shadows_
 
 CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]) is an
