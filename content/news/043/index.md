@@ -67,6 +67,50 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### Cootsmania
+
+![Cootsmania gameplay](cootsmania-gameplay.jpg)
+
+[Cootsmania] ([GitHub][coots-github])
+is a multiplayer racing game made for [Ludwig Jam 2023][ludwig-jam] in 10 days
+by [@kuviman] (programming), [@rincs] (art), and [@Brainoid] (music & sfx).
+
+The game is about racing other players around Ludwig's house
+towards the next Coots (Ludwig's cat) location.
+Every round half of the players get eliminated and eventually winner is decided.
+
+[See trailer on YouTube][coots-trailer].
+
+The game is written using a custom engine: [Geng][geng].
+
+[Cootsmania]: https://kuviman.itch.io/cootsmania
+[ludwig-jam]: https://itch.io/jam/ludwig-2023
+[coots-github]: https://github.com/kuviman/cootsmania
+[coots-trailer]: https://youtu.be/N0bQDZTDr2Y
+[geng]: https://github.com/kuviman/geng
+[@kuviman]: https://github.com/kuviman
+[@rincs]: https://rincsart.com
+[@Brainoid]: https://twitter.com/brainoidgames
+
+### [Tunnet][tunnet-itch]
+
+![Tunnet preview](tunnet.jpg)
+_Tunnels and computer networks_
+
+Tunnet ([Steam][tunnet-steam], [Itch.io][tunnet-itch]) by
+[@puzzled\_squid][puzzled_squid] is a small puzzle/exploration game where you
+play as a robot technician who has been tasked with building a computer network
+in an underground complex.
+
+The project is implemented using the Bevy engine. It is currently under
+development and is expected to be released later this year.
+This month, the announcement trailer and the first few pages of the manual have
+been published on the [project page][tunnet-itch].
+
+[tunnet-itch]: https://puzzled-squid.itch.io/tunnet
+[tunnet-steam]: https://store.steampowered.com/app/2286390/Tunnet
+[puzzled_squid]: https://puzzledsquid.xyz
+
 ### [Open Combat][OpenCombat_website]
 
 ![Debug window: terrain tiles, units, and paths](open_combat.png)
@@ -135,6 +179,35 @@ mutually benefit each other, reusing proven designs for user-friendly Rust APIs.
 [gd-pulse]: https://github.com/godot-rust/gdextension/pulse/monthly
 [gd-24]: https://github.com/godot-rust/gdextension/issues/24
 
+### [Blue Engine][be-github]
+
+![blue_engine egui-plugin demo: color picker](blue_engine_egui_plugin_update.png)
+
+[Blue Engine][be-github] by [@ElhamAryanpur] is an easy to use, extendable, and
+portable graphics engine built to make it easier to render 2D or 3D graphics.
+
+Although the month of Febuary was slow for the development of the engine, there
+have been significant efforts towards addition of [documentation][be-docs] and the
+eventual release of the next version. In the meantime, the plugins have favored significant
+updates and development in the month, notably the [egui][be-egui] plugin.
+
+Now the [egui plugin][be-egui] allow you to render objects of the engine direction
+inside an egui window. This feature was built in collaboration with [@Noswad].
+
+This also introduced a new option in Objects: `is_visible: bool`
+which hides an object
+from getting rendered if set to false (set to `true` as default). This allows
+you to hide an object from getting rendered on the background of egui, and can then
+add it to be rendered inside an egui window instead. So far the system on the second
+design, suggestions are welcome to cement a better design. Refer to [example][be-egui-example].
+
+[be-github]: https://github.com/AryanpurTech/BlueEngine
+[be-egui]: https://github.com/AryanpurTech/BlueEngineEGUI
+[be-egui-example]: https://github.com/AryanpurTech/BlueEngineEGUI/blob/master/examples/custom_3d.rs
+[be-docs]: https://docs.rs/blue_engine
+[@ElhamAryanpur]: https://github.com/ElhamAryanpur
+[@Noswad]: https://github.com/TheNoswad
+
 ## Learning Material Updates
 
 ### [Write a First Person Game in 2KB with Rust][firstperson-wasm4]
@@ -183,6 +256,46 @@ The source is planned to be released in the next few weeks
 [yds-mastodon]: https://fosstodon.org/@yds/
 
 ## Library Updates
+
+### [hexx]
+
+![2D example with various groups of tiles highlighted](hexx.jpeg)
+
+[hexx] is a hexagonal tools library made by [@ManevilleF]:
+
+- Manipulate hexagonal coordinates, draw rings, lines, wedges, etc.
+- Generate hexagonal grids, with conversion between your world
+  and the hexagonal coordinates system.
+- Compute 3d meshes for your hexagons.
+
+It's engine-agnostic, but was made with [bevy] integration in mind
+and provides 2D and 3D [examples][hexx-examples].
+
+_Discussions: [Twitter](https://twitter.com/ManevilleF/status/1625159292490854400)_
+
+[hexx]: https://github.com/ManevilleF/hexx
+[bevy]: https://github.com/bevyengine/bevy
+[@ManevilleF]: https://linktr.ee/ManevilleF
+[hexx-examples]: https://github.com/ManevilleF/hexx/tree/main/examples
+
+### [nanoshredder]
+
+![nanoshredder demo: windows with shader code and result behind](nanoshredder.gif)
+_macroquad's shadertoy example with metal/glsl preview_
+
+[Nanoshredder] is an experimental fork of
+[makepad's shader-compiler][makepad-shader-compiler].
+
+It compiles rust-like DSL into GLSL, Metal and HLSL.
+
+This month it got a little [web demo]:
+[macroquad's shadertoy][macroquad-shadertoy], a live editor with
+generated Metal/GLSL preview.
+
+[nanoshredder]: https://github.com/not-fl3/nanoshredder
+[makepad-shader-compiler]: https://github.com/makepad/makepad/tree/master/platform/shader_compiler
+[web demo]: https://not-fl3.github.io/miniquad-samples/shadertoy_cross.html
+[macroquad-shadertoy]: https://github.com/not-fl3/macroquad/blob/master/examples/shadertoy.rs
 
 ## Popular Workgroup Issues in Github
 
