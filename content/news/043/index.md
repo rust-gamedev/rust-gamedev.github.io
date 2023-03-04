@@ -69,29 +69,27 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [Open Combat][OpenCombat_website]
 
-![Real time tactical 2nd world war game](open_combat.png)
+![Debug window: terrain tiles, units, and paths](open_combat.png)
 _Game now includes live debug window_
 
-Open Combat
-([Website][OpenCombat_website],
-[GitHub][OpenCombat_github],
-[Discord][OpenCombat_discord])
-is a real time tactical game
-which takes place during the 2nd world war.
+Open Combat ([Website][OpenCombat_website], [GitHub][OpenCombat_github],
+[Discord][OpenCombat_discord]) is a real time tactical game
+which takes place during the 2nd World War.
 
 Some major changes this month :
 
-* A live debug window has been introduced (using [egui](egui_github)
-and its [ggegui](ggegui_github) integration). It permit to live
-modify game working and adjust game play
-* A big source code split have been done (see [merge request](OpenCombat_split_mr)). Game logic and GUI have been separated.
-It permit to run game logic as standalone server and work on
-different game part more easily
-* Integration of [puffin](puffin_github) to inspect performances
+- A live debug window has been introduced (using [egui][egui_github]
+  and its [ggegui][ggegui_github] integration). It allows to live-modify and
+  adjust the gameplay of the running game.
+- A big source code split has been done (see [the merge request][OpenCombat_split_mr])
+  which separated the game logic and GUI.
+  It allows running the game logic as a standalone server
+  and working on different game parts more easily.
+- Integration of [puffin][puffin_github] to inspect performances
 
-We also are working on high definition infantry sprites integration
-and on a high definition map (we are searching for graphic
-designer help !)
+The developers are also working on high-definition infantry sprites integration
+and on a high-definition map (and are searching for graphic
+designer help!).
 
 [OpenCombat_website]: https://opencombat.bux.fr/
 [OpenCombat_github]: https://github.com/buxx/OpenCombat
