@@ -32,15 +32,11 @@ Feel free to send PRs about your own projects!
 - [Announcements](#announcements)
 - [Game Updates](#game-updates)
 - [Engine Updates](#engine-updates)
-  - [godot-rust](#godot-rust)
-  - [Blue Engine](#blue-engine)
 - [Learning Material Updates](#learning-material-updates)
-  - [Write a First Person Game in 2KB with Rust](#write-a-first-person-game-in-2kb-with-rust)
 - [Tooling Updates](#tooling-updates)
-  - [Sprite and Pixel Art Editor](#sprite-and-pixel-art-editor)
 - [Library Updates](#library-updates)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Other News](#other-news)
+- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
 - [Jobs](#jobs)
@@ -109,21 +105,15 @@ mutually benefit each other, reusing proven designs for user-friendly Rust APIs.
 
 ### [Blue Engine][be-github]
 
-![blue_engine logo](BlueEngineLogoSmall.png)
-_Blue Engine Logo_
+![blue_engine egui-plugin demo: color picker](blue_engine_egui_plugin_update.png)
 
 [Blue Engine][be-github] by [@ElhamAryanpur] is an easy to use, extendable, and
 portable graphics engine built to make it easier to render 2D or 3D graphics.
 
-This marks the first entry of Blue Engine in the newsletter. And there will be
-more entries for the engine from now on, to get latest updates about the engine.
-
-Although the month of febuary was slow for the development of the engine, there
+Although the month of Febuary was slow for the development of the engine, there
 have been significant efforts towards addition of [documentation][be-docs] and the
 eventual release of the next version. In the meantime, the plugins have favored significant
 updates and development in the month, notably the [egui][be-egui] plugin.
-
-![blue_engine egui-plugin](blue_engine_egui_plugin_update.png)
 
 Now the [egui plugin][be-egui] allow you to render objects of the engine direction
 inside an egui window. This feature was built in collaboration with [@Noswad].
