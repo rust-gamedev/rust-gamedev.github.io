@@ -297,6 +297,27 @@ generated Metal/GLSL preview.
 [web demo]: https://not-fl3.github.io/miniquad-samples/shadertoy_cross.html
 [macroquad-shadertoy]: https://github.com/not-fl3/macroquad/blob/master/examples/shadertoy.rs
 
+### [`seldom_state`]
+
+[`seldom_state`] 0.4 has been released!
+
+`seldom_state` is a Bevy plugin that adds a `StateMachine` component that you
+can add to your entities. The state machine will change the entity's components
+based on states, triggers, and transitions that you define. It's useful
+for player controllers, animations, simple AI, etc. This release adds:
+
+- Transition builders (`StateMachine::trans_builder`) which let you pass data
+from triggers to states
+- The `AnyState` state, which you can use wherever `StateMachine` accepts state
+type parameters, which lets you create transitions from any state, etc
+- A `leafwing_input` feature for `leafwing-input-manager` integration,
+which enables 9 built-in triggers related to input. `JustPressedTrigger`,
+for example.
+- `OptionTrigger` and `BoolTrigger` traits, which are simpler to implement
+than `Trigger`
+
+[`seldom_state`]: https://github.com/Seldom-SE/seldom_state
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
