@@ -111,6 +111,38 @@ been published on the [project page][tunnet-itch].
 [tunnet-steam]: https://store.steampowered.com/app/2286390/Tunnet
 [puzzled_squid]: https://puzzledsquid.xyz
 
+### [Open Combat][OpenCombat_website]
+
+![Debug window: terrain tiles, units, and paths](open_combat.png)
+_Game now includes live debug window_
+
+Open Combat ([Website][OpenCombat_website], [GitHub][OpenCombat_github],
+[Discord][OpenCombat_discord]) is a real time tactical game
+which takes place during the 2nd World War.
+
+Some major changes this month :
+
+- A live debug window has been introduced (using [egui][egui_github]
+  and its [ggegui][ggegui_github] integration). It allows to live-modify and
+  adjust the gameplay of the running game.
+- A big source code split has been done (see [the merge request][OpenCombat_split_mr])
+  which separated the game logic and GUI.
+  It allows running the game logic as a standalone server
+  and working on different game parts more easily.
+- Integration of [puffin][puffin_github] to inspect performances
+
+The developers are also working on high-definition infantry sprites integration
+and on a high-definition map (and are searching for graphic
+designer help!).
+
+[OpenCombat_website]: https://opencombat.bux.fr/
+[OpenCombat_github]: https://github.com/buxx/OpenCombat
+[OpenCombat_discord]: https://discord.gg/6P2vtFh2Px
+[OpenCombat_split_mr]: https://github.com/buxx/OpenCombat/pull/104
+[egui_github]: https://github.com/emilk/egui
+[ggegui_github]: https://github.com/NemuiSen/ggegui
+[puffin_github]: https://github.com/EmbarkStudios/puffin
+
 ## Engine Updates
 
 ### [godot-rust][gd-github]
