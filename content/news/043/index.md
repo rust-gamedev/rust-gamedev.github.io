@@ -297,6 +297,30 @@ generated Metal/GLSL preview.
 [web demo]: https://not-fl3.github.io/miniquad-samples/shadertoy_cross.html
 [macroquad-shadertoy]: https://github.com/not-fl3/macroquad/blob/master/examples/shadertoy.rs
 
+### [pecs]
+
+![pecs example](pecs.png)
+_promise chaining example_
+
+In the [`ecs`](ecs) environment, you can't use the standard async/await
+approach, which can make implementing asynchronous logic painful.
+
+[`pecs`](pecs) is a plugin for [Bevy](bevy) engine that solves this problem.
+It allows you to execute the code asynchronously by chaining multiple
+promises as part of Bevy's [`ecs`](ecs) environment.
+
+Each promise takes state and the result of the previous promise as arguments,
+as well as any Bevy [`ecs`](ecs)  system parameter, and passes the modified
+state and new promise/result to the next promise. It's easy to register custom
+promises that wait for user input, events, asset loading, and so on. You can
+also use [`pecs`](pecs) to wait for any or all of multiple promises to complete
+before continuing with the rest of the code, as well as to loop asynchronously
+until a condition is met.
+
+[pecs]: https://github.com/jkb0o/pecs
+[bevy]: https://bevyengine.org/
+[ecs]: https://bevyengine.org/learn/book/getting-started/ecs/
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
