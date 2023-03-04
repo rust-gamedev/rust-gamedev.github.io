@@ -128,6 +128,35 @@ mutually benefit each other, reusing proven designs for user-friendly Rust APIs.
 [gd-pulse]: https://github.com/godot-rust/gdextension/pulse/monthly
 [gd-24]: https://github.com/godot-rust/gdextension/issues/24
 
+### [Blue Engine][be-github]
+
+![blue_engine egui-plugin demo: color picker](blue_engine_egui_plugin_update.png)
+
+[Blue Engine][be-github] by [@ElhamAryanpur] is an easy to use, extendable, and
+portable graphics engine built to make it easier to render 2D or 3D graphics.
+
+Although the month of Febuary was slow for the development of the engine, there
+have been significant efforts towards addition of [documentation][be-docs] and the
+eventual release of the next version. In the meantime, the plugins have favored significant
+updates and development in the month, notably the [egui][be-egui] plugin.
+
+Now the [egui plugin][be-egui] allow you to render objects of the engine direction
+inside an egui window. This feature was built in collaboration with [@Noswad].
+
+This also introduced a new option in Objects: `is_visible: bool`
+which hides an object
+from getting rendered if set to false (set to `true` as default). This allows
+you to hide an object from getting rendered on the background of egui, and can then
+add it to be rendered inside an egui window instead. So far the system on the second
+design, suggestions are welcome to cement a better design. Refer to [example][be-egui-example].
+
+[be-github]: https://github.com/AryanpurTech/BlueEngine
+[be-egui]: https://github.com/AryanpurTech/BlueEngineEGUI
+[be-egui-example]: https://github.com/AryanpurTech/BlueEngineEGUI/blob/master/examples/custom_3d.rs
+[be-docs]: https://docs.rs/blue_engine
+[@ElhamAryanpur]: https://github.com/ElhamAryanpur
+[@Noswad]: https://github.com/TheNoswad
+
 ## Learning Material Updates
 
 ### [Write a First Person Game in 2KB with Rust][firstperson-wasm4]
