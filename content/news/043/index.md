@@ -92,7 +92,6 @@ The game is written using a custom engine: [Geng][geng].
 [@rincs]: https://rincsart.com
 [@Brainoid]: https://twitter.com/brainoidgames
 
-
 ### [CyberGate][cybergate-yt]
 
 ![Many creatures flying and casting shadows](cybergate.mp4)
@@ -118,7 +117,6 @@ Join us on this journey into the unknown and help shape the future of CyberGate!
 
 [cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
 [cybergate-dis]: https://discord.gg/R7DkHqw7zJ
-
 
 ### [Tunnet][tunnet-itch]
 
