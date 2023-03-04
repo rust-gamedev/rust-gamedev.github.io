@@ -95,14 +95,14 @@ The game is written using a custom engine: [Geng][geng].
 
 ### [CyberGate][cybergate-yt]
 
-![Many Creatures flying and casting shadows](cybergate.mp4)
-_Many Creatures flying and casting shadows_
+![Many creatures flying and casting shadows](cybergate.mp4)
+_Many creatures flying and casting shadows_
 
 CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]) is an
-ambitious multiplayer project from CyberSoul, currently in development. 
-With cutting-edge procedural generation and artificial intelligence, 
-it promises to immerse players in a mysterious and enigmatic universe 
-filled with strange creatures and hidden secrets. 
+ambitious multiplayer project from CyberSoul, currently in development.
+With cutting-edge procedural generation and artificial intelligence,
+it promises to immerse players in a mysterious and enigmatic universe
+filled with strange creatures and hidden secrets.
 
 The latest updates to CyberGate include:
 
@@ -113,7 +113,7 @@ The latest updates to CyberGate include:
 - A sky box to add visual interest and realism to the game world.
 - Support for importing GLTF models, expanding the range of assets available.
 
-Join us on this journey into the unknown and help shape the future of CyberGate! 
+Join us on this journey into the unknown and help shape the future of CyberGate!
 [Join the Discord server][cybergate-dis] to participate in upcoming Phase 7.0!
 
 [cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
