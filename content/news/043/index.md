@@ -160,6 +160,24 @@ Read more in their latest [Steam blogpost].
 [terrain editing]: https://store.steampowered.com/news/app/2198150/view/3651890488940565185
 [Steam blogpost]: https://store.steampowered.com/news/app/2198150/view/3669907614196390626
 
+### [Legend of Worlds][low-website]
+
+![legend_of_worlds](legend_of_worlds.png)
+
+Legend of Worlds is a cross-platform, cross-play, 2D online sandbox multiplayer experience where you can join, play, create and share player created worlds. The latest dev log covers the open-source game engine created for this game.
+
+![toxoid_wasm](toxoid_wasm.png)
+
+Legend of Worlds uses Toxoid Engine. Toxoid is a cross-platform, polyglot, open source WebAssembly game engine written in Rust. The architecture has been updated so that we can share memory directly between WASM components, and directly map access to the data values rather than deserializing a set of values every time, resulting in massive performance gains.
+
+Read more on the [latest dev log](http://legendofworlds.com/dev-log-2/) to find out more.
+
+_Discussions: [Website][low-website], [Twitter][low-twitter], [Discord][low-discord]_
+
+[low-website]: http://legendofworlds.com/
+[low-twitter]: https://twitter.com/DreamsectGames
+[low-discord]: https://discord.gg/aqD7H3F7nz
+
 ## Engine Updates
 
 ### [godot-rust][gd-github]
