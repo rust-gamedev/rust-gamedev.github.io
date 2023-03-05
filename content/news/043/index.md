@@ -297,6 +297,18 @@ generated Metal/GLSL preview.
 [web demo]: https://not-fl3.github.io/miniquad-samples/shadertoy_cross.html
 [macroquad-shadertoy]: https://github.com/not-fl3/macroquad/blob/master/examples/shadertoy.rs
 
+### [taffy]
+
+[taffy], the pure Rust UI layout crate, now supports CSS grid!
+Build your inventory menus with ease,
+or make that sudoku game you've always dreamed of.
+
+This also comes with more than a few performance improvements and bug fixes;
+for more details, check out our [release notes].
+
+[taffy]: https://github.com/dioxuslabs/taffy
+[release notes]: https://github.com/DioxusLabs/taffy/blob/main/RELEASES.md#030
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
