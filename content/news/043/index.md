@@ -427,6 +427,29 @@ blink-alloc, only on `allocator-api2`.
 [Miri]: https://github.com/rust-lang/miri
 [strict-provenance]: https://github.com/rust-lang/rust/issues/95228
 
+### [pecs]
+
+![pecs example, same as in the README](pecs.png)
+_Promise chaining example_
+
+In the ECS environment, you can't use the standard async/await
+approach, which can make implementing asynchronous logic painful.
+
+[pecs] is a plugin for the [Bevy][bevy] engine that solves this problem.
+It allows you to execute the code asynchronously by chaining multiple
+promises as part of [Bevy's `ecs`][ecs] environment.
+
+Each promise takes state and the result of the previous promise as arguments,
+as well as any Bevy ECS system parameter, and passes the modified
+state and new promise/result to the next promise. It's easy to register custom
+promises that wait for user input, events, asset loading, and so on. You can
+also use [pecs] to wait for any or all of multiple promises to complete
+before continuing with the rest of the code, as well as to loop asynchronously
+until a condition is met.
+
+[pecs]: https://github.com/jkb0o/pecs
+[ecs]: https://bevyengine.org/learn/book/getting-started/ecs
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
