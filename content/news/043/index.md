@@ -160,6 +160,39 @@ Read more in their latest [Steam blogpost].
 [terrain editing]: https://store.steampowered.com/news/app/2198150/view/3651890488940565185
 [Steam blogpost]: https://store.steampowered.com/news/app/2198150/view/3669907614196390626
 
+### [Cargo Space]
+
+![Screenshot of Cargo Space](cargo-space-physics.png)
+
+[Cargo Space] ([Discord][cargospace_discord]) by
+[@johanhelsing][johanhelsing_mastodon] is a co-op 2d space game where you build
+a ship and fly it through space looking for new parts, fighting pirates and the
+environment.
+
+The game uses its own homemade XPBD-based physics engine implemented directly
+using [Bevy] systems and types. This month the implementation was fleshed out
+adding important features such as collision layers, composite colliders, one-way
+platforms and an efficient collision broadphase.
+
+In other words, this means ship-to-ship collisions a are finally happening. This
+was previously tricky, since ships are a combination of box colliders when
+colliding with each other and bevy_ecs_tilemap colliders (when colliding with
+the player).
+
+One part of the broadphase implementation was split out into a new crate,
+[bevy_sparse_grid_2d]. It provides a simple and convenient way to query for
+entities that share one or more grid cells based on their axis aligned bounding
+box (AABB).
+
+Read more about Cargo Space's physics in [the long and detailed blog
+post][cargospace_devlog_5].
+
+[Cargo Space]: https://helsing.studio/cargospace
+[cargospace_devlog_5]: https://johanhelsing.studio/posts/cargo-space-devlog-5
+[cargospace_discord]: https://discord.gg/ye9UDNvqQD
+[johanhelsing_mastodon]: https://mastodon.social/@johanhelsing
+[bevy_sparse_grid_2d]: https://github.com/johanhelsing/bevy_sparse_grid_2d
+
 ## Engine Updates
 
 ### [godot-rust][gd-github]
