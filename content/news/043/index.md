@@ -143,6 +143,82 @@ designer help!).
 [ggegui_github]: https://github.com/NemuiSen/ggegui
 [puffin_github]: https://github.com/EmbarkStudios/puffin
 
+### [Tiny Glade]
+
+![tiny_glade_sheep_umbrella](tiny_glade_sheep_umbrella.gif)
+
+[@anopara] and [@h3r2tic] recently added [terrain editing] to [Tiny Glade].
+They then faced an important game design question: how would sheep handle
+it? Well, these cuddly little floofs are not mountain goats,
+so the developers gave them tiny umbrellas.
+
+Read more in their latest [Steam blogpost].
+
+[@anopara]: https://twitter.com/anastasiaopara
+[@h3r2tic]: https://twitter.com/h3r2tic
+[Tiny Glade]: https://store.steampowered.com/app/2198150/Tiny_Glade/
+[terrain editing]: https://store.steampowered.com/news/app/2198150/view/3651890488940565185
+[Steam blogpost]: https://store.steampowered.com/news/app/2198150/view/3669907614196390626
+
+### [Cargo Space]
+
+![Screenshot of Cargo Space](cargo-space-physics.png)
+
+[Cargo Space] ([Discord][cargospace_discord]) by
+[@johanhelsing][johanhelsing_mastodon] is a co-op 2d space game where you build
+a ship and fly it through space looking for new parts, fighting pirates and the
+environment.
+
+The game uses its own homemade XPBD-based physics engine implemented directly
+using [Bevy] systems and types. This month the implementation was fleshed out
+adding important features such as collision layers, composite colliders, one-way
+platforms and an efficient collision broadphase.
+
+In other words, this means ship-to-ship collisions a are finally happening. This
+was previously tricky, since ships are a combination of box colliders when
+colliding with each other and bevy_ecs_tilemap colliders (when colliding with
+the player).
+
+One part of the broadphase implementation was split out into a new crate,
+[bevy_sparse_grid_2d]. It provides a simple and convenient way to query for
+entities that share one or more grid cells based on their axis aligned bounding
+box (AABB).
+
+Read more about Cargo Space's physics in [the long and detailed blog
+post][cargospace_devlog_5].
+
+[Cargo Space]: https://helsing.studio/cargospace
+[cargospace_devlog_5]: https://johanhelsing.studio/posts/cargo-space-devlog-5
+[cargospace_discord]: https://discord.gg/ye9UDNvqQD
+[johanhelsing_mastodon]: https://mastodon.social/@johanhelsing
+[bevy_sparse_grid_2d]: https://github.com/johanhelsing/bevy_sparse_grid_2d
+
+### [CyberGate][cybergate-yt]
+
+![Many creatures flying and casting shadows](cybergate.gif)
+_Many creatures flying and casting shadows_
+
+CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]) is an
+ambitious multiplayer project from CyberSoul, currently in development.
+With cutting-edge procedural generation and artificial intelligence,
+it promises to immerse players in a mysterious and enigmatic universe
+filled with strange creatures and hidden secrets.
+
+The latest updates to CyberGate include:
+
+- A rebuilt renderer, providing improved graphics and performance.
+- Shadow map cascades with seamless transitions for smooth shadow rendering.
+- Soft shadows for more realistic shadow effects.
+- A fog effect to create atmospheric depth and immersion.
+- A sky box to add visual interest and realism to the game world.
+- Support for importing GLTF models, expanding the range of assets available.
+
+Join the journey into the unknown and help shape the future of CyberGate!
+[Join the Discord server][cybergate-dis] to participate in upcoming Phase 7.0!
+
+[cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
+[cybergate-dis]: https://discord.gg/R7DkHqw7zJ
+
 ## Engine Updates
 
 ### [godot-rust][gd-github]
@@ -207,6 +283,35 @@ design, suggestions are welcome to cement a better design. Refer to [example][be
 [be-docs]: https://docs.rs/blue_engine
 [@ElhamAryanpur]: https://github.com/ElhamAryanpur
 [@Noswad]: https://github.com/TheNoswad
+
+### [Ambient][ambient-github]
+
+![Image of a scene made with Ambient](made_with_ambient.jpg)
+
+After over a year in development, [version 0.1 of Ambient][ambient-blog]
+(formerly known as Dims) was unveiled to the public. It is an open-source
+multiplayer 3D game runtime, compatible with any language that compiles
+to/runs on WebAssembly, and designed to make it easy to build and deploy
+rich multiplayer worlds and experiences.
+
+It is guided by several core principles, including seamless networking,
+data-oriented design, interoperability, and more.
+The core runtime is written in Rust and uses WGPU for graphics, Quinn
+for networking and WebAssembly for user logic. This allows it to run on
+all major desktop platforms, with active work underway for the Web and
+other targets.
+
+Check out [the GitHub][ambient-github] (2600 stars!) to get started with
+building for/or on Ambient yourself, or chat to the developers and other
+explorers on [the Discord][ambient-discord].
+
+_Discussion: [/r/rust][ambient-reddit], [Hacker News][ambient-hn]_
+
+[ambient-github]: https://github.com/AmbientRun/Ambient
+[ambient-blog]: https://ambient.run/post/introducing-ambient
+[ambient-reddit]: https://reddit.com/r/rust/comments/118wlda/introducing_ambient_01
+[ambient-hn]: https://news.ycombinator.com/item?id=34906166
+[ambient-discord]: https://discord.gg/eQEwPCWSy8
 
 ## Learning Material Updates
 
@@ -296,6 +401,118 @@ generated Metal/GLSL preview.
 [makepad-shader-compiler]: https://github.com/makepad/makepad/tree/master/platform/shader_compiler
 [web demo]: https://not-fl3.github.io/miniquad-samples/shadertoy_cross.html
 [macroquad-shadertoy]: https://github.com/not-fl3/macroquad/blob/master/examples/shadertoy.rs
+
+### [blink-alloc]
+
+[blink-alloc] is a brand new arena-allocator with bunch of improvements
+over existing solutions that is
+tested with [Miri] and follows ["Strict Provenance Rules"][strict-provenance].
+
+> Arena-allocators offer extremely fast allocations and deallocations.
+> Allocation is just a few pointer arithmetic operations.
+> And deallocation is nearly no-op.
+> In exchange arena-allocator requires a point in time when all
+> previous allocations are unused to reset state.\
+> Rust's borrow-checker ensures the requirement for reset making
+> it 100% safe to use.
+>
+> TL;DR great for games, servers, cli tools and more.
+
+blink-alloc provides thread-local and multi-threaded allocators -
+`BlinkAlloc` and `SyncBlinkAlloc`.
+Single-threaded version [performs many times faster than `bumpalo`][blink-bench].
+The author couldn't find another implementation to compare
+the multi-threaded version's performance.
+
+It also provided ouf-of-the-box to fetch `BlinkAlloc` in task/thread
+and return it back when done, keeping multiple `BlinkAlloc` instanced warmed.
+
+On top of raw allocations blink-alloc provides `Blink` type
+that works as safe allocator adaptor.
+`Blink` can allocate memory and initialize it with values provided by user.
+User may provide values as-is, as closures or iterators.
+`Blink`'s API is safe with few exception for niche use cases.
+
+Those familiar with `bumpalo` may think of `Blink` as of `bumpalo::Bump`.
+Though `Blink`
+
+- drops all placed values on reset,
+  which makes it usable with any kind of types without resource leaks.
+- Accepts any iterator type, not just `ExactSizeIterator` implementations.
+- Is configurable to use any `BlinkAllocator` implementation, thus not
+  tied to `Global`.
+
+Currently Rust's standard collection types may use custom allocators
+only one nightly and with `allocator_api` feature enabled.
+blink-alloc uses `allocator-api2` crate to work on both stable and nightly.
+Integration with other crates is simple and doesn't require depending on
+blink-alloc, only on `allocator-api2`.
+
+[blink-alloc]: https://github.com/zakarumych/blink-alloc
+[blink-bench]: https://github.com/zakarumych/blink-alloc/blob/main/BENCHMARKS.md
+[Miri]: https://github.com/rust-lang/miri
+[strict-provenance]: https://github.com/rust-lang/rust/issues/95228
+
+### [pecs]
+
+![pecs example, same as in the README](pecs.png)
+_Promise chaining example_
+
+In the ECS environment, you can't use the standard async/await
+approach, which can make implementing asynchronous logic painful.
+
+[pecs] is a plugin for the [Bevy][bevy] engine that solves this problem.
+It allows you to execute the code asynchronously by chaining multiple
+promises as part of [Bevy's `ecs`][ecs] environment.
+
+Each promise takes state and the result of the previous promise as arguments,
+as well as any Bevy ECS system parameter, and passes the modified
+state and new promise/result to the next promise. It's easy to register custom
+promises that wait for user input, events, asset loading, and so on. You can
+also use [pecs] to wait for any or all of multiple promises to complete
+before continuing with the rest of the code, as well as to loop asynchronously
+until a condition is met.
+
+[pecs]: https://github.com/jkb0o/pecs
+[ecs]: https://bevyengine.org/learn/book/getting-started/ecs
+
+### [seldom_state]
+
+[seldom_state] is a Bevy plugin that adds a `StateMachine` component that you
+can add to your entities. The state machine will change the entity's components
+based on states, triggers, and transitions that you define. It's useful
+for player controllers, animations, simple AI, etc.
+
+This month [seldom_state] 0.4 has been released:
+
+- Transition builders (`StateMachine::trans_builder`) which let you pass data
+  from triggers to states.
+- The `AnyState` state, which you can use wherever `StateMachine` accepts state
+  type parameters, which lets you create transitions from any state, etc
+- A `leafwing_input` feature for `leafwing-input-manager` integration,
+  which enables 9 built-in triggers related to input. `JustPressedTrigger`,
+  for example.
+- `OptionTrigger` and `BoolTrigger` traits, which are simpler to implement
+  than `Trigger`.
+
+[seldom_state]: https://github.com/Seldom-SE/seldom_state
+
+### [warbler_grass]
+
+![preview of a grass chunk](warbler_grass_preview.png)
+_A bevy crate for grass rendering_
+
+[warbler_grass] is a new experimental [Bevy] plugin.
+The goal is to provide a ergonomic, but performant way
+to easily render huge amounts of grass.
+
+Some of the currently integrated features are dynamic directional wind
+and chunk loading.
+
+The project is now also published on [crates.io][warbler_cratesio].
+
+[warbler_grass]: https://github.com/EmiOnGit/warbler_grass
+[warbler_cratesio]: https://crates.io/crates/warbler_grass
 
 ### [taffy]
 
