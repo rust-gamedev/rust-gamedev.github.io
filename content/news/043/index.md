@@ -526,6 +526,37 @@ for more details, check out our [release notes].
 [taffy]: https://github.com/dioxuslabs/taffy
 [release notes]: https://github.com/DioxusLabs/taffy/blob/main/RELEASES.md#030
 
+### [Cvars]
+
+![cvars used in the RustCycles game - showcasing a console for the Fyrox engine](cvars.png)
+_Cvars and the Fyrox in-game console as used in RustCycles_
+
+[Cvars] ([GitHub][cvars-github], [Discord][cvars-discord]) by [@martin-t]
+are a simple way to store settings you want to change at runtime
+without restarting your game.
+
+They offer a way to change struct fields based on their name.
+This means games can store their config in a plain old struct
+and use its statically typed fields with no overhead.
+[Cvars] provide a derive macro to also allow changing each field
+dynamically at runtime from a TUI.
+
+The cvars project includes in-game consoles [for macroquad][cvars-macroquad]
+and [for Fyrox][cvars-fyrox].
+
+In addition to reading and setting cvars,
+they support history and offer a help message for new users.
+More advanced features such as autocomplete are planned for the next release.
+
+_Discussions: [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/10wfe9p/announcing_cvars)_
+
+[Cvars]: https://crates.io/crates/cvars
+[cvars-github]: https://github.com/martin-t/cvars
+[cvars-discord]: https://discord.gg/aA7hCFvYh9
+[@martin-t]: https://github.com/martin-t
+[cvars-macroquad]: https://github.com/martin-t/cvars#macroquad-console
+[cvars-fyrox]: https://github.com/martin-t/cvars#fyrox-console
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
