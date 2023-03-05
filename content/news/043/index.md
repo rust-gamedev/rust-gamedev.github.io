@@ -208,6 +208,34 @@ design, suggestions are welcome to cement a better design. Refer to [example][be
 [@ElhamAryanpur]: https://github.com/ElhamAryanpur
 [@Noswad]: https://github.com/TheNoswad
 
+### [Geng][geng]
+
+[Geng][geng] by [@kuviman] is a game engine that is used by him & friends
+for mostly making small games for game jams.
+
+The focus is to work on the web first (using WebGL1),
+but can also work easily on native platforms.
+
+Font rendering is done using sdf textures,
+which are being created on GPU based on [this article][sdf-on-gpu].
+Some font improvements from February:
+
+- better curve approximation (still can be done better like in the article)
+- use euclidean distance instead of manhattan
+- added a method to create sdf texture for text
+  (previously font only had sdf texture atlas with every glyph)
+  
+Support was added for OpenGL blend equations - e.g. minmax blending,
+which is now used instead of depth buffer for sdf textures
+
+Also some improvements related to sound:
+
+- API to query `Sound` duration
+- Starting sound playback from specific position
+- Changing the speed of `SoundEffect`
+
+[sdf-on-gpu]: https://astiopin.github.io/2019/01/06/sdf-on-gpu.html
+
 ## Learning Material Updates
 
 ### [Write a First Person Game in 2KB with Rust][firstperson-wasm4]
