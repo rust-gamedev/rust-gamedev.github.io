@@ -219,6 +219,28 @@ Join the journey into the unknown and help shape the future of CyberGate!
 [cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
 [cybergate-dis]: https://discord.gg/R7DkHqw7zJ
 
+### [Legend of Worlds][low-website]
+
+![legend_of_worlds](legend_of_worlds.jpg)
+
+[Legend of Worlds][low-website] ([Discord][low-discord], [Twitter][low-twitter])
+is a cross-platform, cross-play, 2D online sandbox multiplayer
+experience where you can join, play, create and share player-created worlds.
+
+[The latest dev log][low-devlog] from [Rou][low-twitter] covers an update
+to the open-source game engine created for this game.
+
+Legend of Worlds uses Toxoid Engine. Toxoid is a cross-platform, polyglot,
+open-source WebAssembly game engine written in Rust.
+The architecture has been updated so that Toxoid games can now share memory
+directly between WASM components, and map access to the data values rather than
+deserializing a set of values every time, resulting in "massive performance gains".
+
+[low-website]: http://legendofworlds.com
+[low-twitter]: https://twitter.com/DreamsectGames
+[low-discord]: https://discord.gg/aqD7H3F7nz
+[low-devlog]: http://legendofworlds.com/dev-log-2
+
 ## Engine Updates
 
 ### [godot-rust][gd-github]
