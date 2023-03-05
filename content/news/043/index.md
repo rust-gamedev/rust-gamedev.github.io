@@ -297,6 +297,22 @@ generated Metal/GLSL preview.
 [web demo]: https://not-fl3.github.io/miniquad-samples/shadertoy_cross.html
 [macroquad-shadertoy]: https://github.com/not-fl3/macroquad/blob/master/examples/shadertoy.rs
 
+### [warbler_grass]
+
+![preview of a grass chunk](warbler_grass_preview.png)
+_A bevy crate for grass rendering_
+
+[`warbler_grass`](warbler_grass) is a new experimental [`bevy`](warbler_bevy) plugin.
+The goal is to provide a ergonomic, but performant way to easily render huge amounts of grass.
+
+Some of the currently integrated features are dynamic directional wind and chunk loading.
+
+The project is now also published on [`crates.io`](warbler_cratesio).
+
+[warbler_grass]: https://github.com/EmiOnGit/warbler_grass
+[warbler_cratesio]: https://crates.io/crates/warbler_grass
+[warbler_bevy]: https://bevyengine.org/
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
