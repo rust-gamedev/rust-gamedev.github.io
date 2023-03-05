@@ -497,6 +497,23 @@ This month [seldom_state] 0.4 has been released:
 
 [seldom_state]: https://github.com/Seldom-SE/seldom_state
 
+### [warbler_grass]
+
+![preview of a grass chunk](warbler_grass_preview.png)
+_A bevy crate for grass rendering_
+
+[warbler_grass] is a new experimental [Bevy] plugin.
+The goal is to provide a ergonomic, but performant way
+to easily render huge amounts of grass.
+
+Some of the currently integrated features are dynamic directional wind
+and chunk loading.
+
+The project is now also published on [crates.io][warbler_cratesio].
+
+[warbler_grass]: https://github.com/EmiOnGit/warbler_grass
+[warbler_cratesio]: https://crates.io/crates/warbler_grass
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
