@@ -143,6 +143,23 @@ designer help!).
 [ggegui_github]: https://github.com/NemuiSen/ggegui
 [puffin_github]: https://github.com/EmbarkStudios/puffin
 
+### [Tiny Glade]
+
+![tiny_glade_sheep_umbrella](tiny_glade_sheep_umbrella.gif)
+
+[@anopara] and [@h3r2tic] recently added [terrain editing] to [Tiny Glade].
+They then faced an important game design question: how would sheep handle
+it? Well, these cuddly little floofs are not mountain goats,
+so the developers gave them tiny umbrellas.
+
+Read more in their latest [Steam blogpost].
+
+[@anopara]: https://twitter.com/anastasiaopara
+[@h3r2tic]: https://twitter.com/h3r2tic
+[Tiny Glade]: https://store.steampowered.com/app/2198150/Tiny_Glade/
+[terrain editing]: https://store.steampowered.com/news/app/2198150/view/3651890488940565185
+[Steam blogpost]: https://store.steampowered.com/news/app/2198150/view/3669907614196390626
+
 ## Engine Updates
 
 ### [godot-rust][gd-github]
