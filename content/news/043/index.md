@@ -94,7 +94,7 @@ The game is written using a custom engine: [Geng][geng].
 
 ### [CyberGate][cybergate-yt]
 
-![Many creatures flying and casting shadows](cybergate.mp4)
+![Many creatures flying and casting shadows](cybergate.gif)
 _Many creatures flying and casting shadows_
 
 CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]) is an
@@ -112,7 +112,7 @@ The latest updates to CyberGate include:
 - A sky box to add visual interest and realism to the game world.
 - Support for importing GLTF models, expanding the range of assets available.
 
-Join us on this journey into the unknown and help shape the future of CyberGate!
+Join the journey into the unknown and help shape the future of CyberGate!
 [Join the Discord server][cybergate-dis] to participate in upcoming Phase 7.0!
 
 [cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
