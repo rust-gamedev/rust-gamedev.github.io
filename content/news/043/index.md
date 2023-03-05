@@ -164,9 +164,9 @@ Read more in their latest [Steam blogpost].
 
 ![legend_of_worlds](legend_of_worlds.png)
 
-Legend of Worlds is a cross-platform, cross-play, 2D online sandbox multiplayer experience where you can join, play, create and share player-created worlds. The latest dev log covers an major update to the open-source game engine created for this game.
+Legend of Worlds is a cross-platform, cross-play, 2D online sandbox multiplayer experience where you can join, play, create and share player-created worlds. The latest dev log from [Rou][low-twitter] covers an update to the open-source game engine created for this game.
 
-Legend of Worlds uses Toxoid Engine. Toxoid is a cross-platform, polyglot, open source WebAssembly game engine written in Rust. The architecture has been updated so that toxoid games can now share memory directly between WASM components, and directly map access to the data values rather than deserializing a set of values every time, resulting in major performance gains.
+Legend of Worlds uses Toxoid Engine. Toxoid is a cross-platform, polyglot, open-source WebAssembly game engine written in Rust. The architecture has been updated so that Toxoid games can now share memory directly between WASM components, and directly map access to the data values rather than deserializing a set of values every time, resulting in "massive performance gains".
 
 Read more on the [latest dev log](http://legendofworlds.com/dev-log-2/) to find out more.
 
