@@ -514,6 +514,18 @@ The project is now also published on [crates.io][warbler_cratesio].
 [warbler_grass]: https://github.com/EmiOnGit/warbler_grass
 [warbler_cratesio]: https://crates.io/crates/warbler_grass
 
+### [taffy]
+
+[taffy], the pure Rust UI layout crate, now supports CSS grid!
+Build your inventory menus with ease,
+or make that sudoku game you've always dreamed of.
+
+This also comes with more than a few performance improvements and bug fixes;
+for more details, check out our [release notes].
+
+[taffy]: https://github.com/dioxuslabs/taffy
+[release notes]: https://github.com/DioxusLabs/taffy/blob/main/RELEASES.md#030
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
