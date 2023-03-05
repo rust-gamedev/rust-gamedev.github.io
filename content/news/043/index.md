@@ -92,32 +92,6 @@ The game is written using a custom engine: [Geng][geng].
 [@rincs]: https://rincsart.com
 [@Brainoid]: https://twitter.com/brainoidgames
 
-### [CyberGate][cybergate-yt]
-
-![Many creatures flying and casting shadows](cybergate.gif)
-_Many creatures flying and casting shadows_
-
-CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]) is an
-ambitious multiplayer project from CyberSoul, currently in development.
-With cutting-edge procedural generation and artificial intelligence,
-it promises to immerse players in a mysterious and enigmatic universe
-filled with strange creatures and hidden secrets.
-
-The latest updates to CyberGate include:
-
-- A rebuilt renderer, providing improved graphics and performance.
-- Shadow map cascades with seamless transitions for smooth shadow rendering.
-- Soft shadows for more realistic shadow effects.
-- A fog effect to create atmospheric depth and immersion.
-- A sky box to add visual interest and realism to the game world.
-- Support for importing GLTF models, expanding the range of assets available.
-
-Join the journey into the unknown and help shape the future of CyberGate!
-[Join the Discord server][cybergate-dis] to participate in upcoming Phase 7.0!
-
-[cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
-[cybergate-dis]: https://discord.gg/R7DkHqw7zJ
-
 ### [Tunnet][tunnet-itch]
 
 ![Tunnet preview](tunnet.jpg)
@@ -168,6 +142,32 @@ designer help!).
 [egui_github]: https://github.com/emilk/egui
 [ggegui_github]: https://github.com/NemuiSen/ggegui
 [puffin_github]: https://github.com/EmbarkStudios/puffin
+
+### [CyberGate][cybergate-yt]
+
+![Many creatures flying and casting shadows](cybergate.gif)
+_Many creatures flying and casting shadows_
+
+CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]) is an
+ambitious multiplayer project from CyberSoul, currently in development.
+With cutting-edge procedural generation and artificial intelligence,
+it promises to immerse players in a mysterious and enigmatic universe
+filled with strange creatures and hidden secrets.
+
+The latest updates to CyberGate include:
+
+- A rebuilt renderer, providing improved graphics and performance.
+- Shadow map cascades with seamless transitions for smooth shadow rendering.
+- Soft shadows for more realistic shadow effects.
+- A fog effect to create atmospheric depth and immersion.
+- A sky box to add visual interest and realism to the game world.
+- Support for importing GLTF models, expanding the range of assets available.
+
+Join the journey into the unknown and help shape the future of CyberGate!
+[Join the Discord server][cybergate-dis] to participate in upcoming Phase 7.0!
+
+[cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
+[cybergate-dis]: https://discord.gg/R7DkHqw7zJ
 
 ## Engine Updates
 
