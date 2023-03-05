@@ -92,6 +92,74 @@ The game is written using a custom engine: [Geng][geng].
 [@rincs]: https://rincsart.com
 [@Brainoid]: https://twitter.com/brainoidgames
 
+### [Tunnet][tunnet-itch]
+
+![Tunnet preview](tunnet.jpg)
+_Tunnels and computer networks_
+
+Tunnet ([Steam][tunnet-steam], [Itch.io][tunnet-itch]) by
+[@puzzled\_squid][puzzled_squid] is a small puzzle/exploration game where you
+play as a robot technician who has been tasked with building a computer network
+in an underground complex.
+
+The project is implemented using the Bevy engine. It is currently under
+development and is expected to be released later this year.
+This month, the announcement trailer and the first few pages of the manual have
+been published on the [project page][tunnet-itch].
+
+[tunnet-itch]: https://puzzled-squid.itch.io/tunnet
+[tunnet-steam]: https://store.steampowered.com/app/2286390/Tunnet
+[puzzled_squid]: https://puzzledsquid.xyz
+
+### [Open Combat][OpenCombat_website]
+
+![Debug window: terrain tiles, units, and paths](open_combat.png)
+_Game now includes live debug window_
+
+Open Combat ([Website][OpenCombat_website], [GitHub][OpenCombat_github],
+[Discord][OpenCombat_discord]) is a real time tactical game
+which takes place during the 2nd World War.
+
+Some major changes this month :
+
+- A live debug window has been introduced (using [egui][egui_github]
+  and its [ggegui][ggegui_github] integration). It allows to live-modify and
+  adjust the gameplay of the running game.
+- A big source code split has been done (see [the merge request][OpenCombat_split_mr])
+  which separated the game logic and GUI.
+  It allows running the game logic as a standalone server
+  and working on different game parts more easily.
+- Integration of [puffin][puffin_github] to inspect performances
+
+The developers are also working on high-definition infantry sprites integration
+and on a high-definition map (and are searching for graphic
+designer help!).
+
+[OpenCombat_website]: https://opencombat.bux.fr/
+[OpenCombat_github]: https://github.com/buxx/OpenCombat
+[OpenCombat_discord]: https://discord.gg/6P2vtFh2Px
+[OpenCombat_split_mr]: https://github.com/buxx/OpenCombat/pull/104
+[egui_github]: https://github.com/emilk/egui
+[ggegui_github]: https://github.com/NemuiSen/ggegui
+[puffin_github]: https://github.com/EmbarkStudios/puffin
+
+### [Tiny Glade]
+
+![tiny_glade_sheep_umbrella](tiny_glade_sheep_umbrella.gif)
+
+[@anopara] and [@h3r2tic] recently added [terrain editing] to [Tiny Glade].
+They then faced an important game design question: how would sheep handle
+it? Well, these cuddly little floofs are not mountain goats,
+so the developers gave them tiny umbrellas.
+
+Read more in their latest [Steam blogpost].
+
+[@anopara]: https://twitter.com/anastasiaopara
+[@h3r2tic]: https://twitter.com/h3r2tic
+[Tiny Glade]: https://store.steampowered.com/app/2198150/Tiny_Glade/
+[terrain editing]: https://store.steampowered.com/news/app/2198150/view/3651890488940565185
+[Steam blogpost]: https://store.steampowered.com/news/app/2198150/view/3669907614196390626
+
 ### [Cargo Space]
 
 ![Screenshot of Cargo Space](cargo-space-physics.png)
@@ -190,6 +258,35 @@ design, suggestions are welcome to cement a better design. Refer to [example][be
 [@ElhamAryanpur]: https://github.com/ElhamAryanpur
 [@Noswad]: https://github.com/TheNoswad
 
+### [Ambient][ambient-github]
+
+![Image of a scene made with Ambient](made_with_ambient.jpg)
+
+After over a year in development, [version 0.1 of Ambient][ambient-blog]
+(formerly known as Dims) was unveiled to the public. It is an open-source
+multiplayer 3D game runtime, compatible with any language that compiles
+to/runs on WebAssembly, and designed to make it easy to build and deploy
+rich multiplayer worlds and experiences.
+
+It is guided by several core principles, including seamless networking,
+data-oriented design, interoperability, and more.
+The core runtime is written in Rust and uses WGPU for graphics, Quinn
+for networking and WebAssembly for user logic. This allows it to run on
+all major desktop platforms, with active work underway for the Web and
+other targets.
+
+Check out [the GitHub][ambient-github] (2600 stars!) to get started with
+building for/or on Ambient yourself, or chat to the developers and other
+explorers on [the Discord][ambient-discord].
+
+_Discussion: [/r/rust][ambient-reddit], [Hacker News][ambient-hn]_
+
+[ambient-github]: https://github.com/AmbientRun/Ambient
+[ambient-blog]: https://ambient.run/post/introducing-ambient
+[ambient-reddit]: https://reddit.com/r/rust/comments/118wlda/introducing_ambient_01
+[ambient-hn]: https://news.ycombinator.com/item?id=34906166
+[ambient-discord]: https://discord.gg/eQEwPCWSy8
+
 ## Learning Material Updates
 
 ### [Write a First Person Game in 2KB with Rust][firstperson-wasm4]
@@ -259,6 +356,76 @@ _Discussions: [Twitter](https://twitter.com/ManevilleF/status/162515929249085440
 [bevy]: https://github.com/bevyengine/bevy
 [@ManevilleF]: https://linktr.ee/ManevilleF
 [hexx-examples]: https://github.com/ManevilleF/hexx/tree/main/examples
+
+### [nanoshredder]
+
+![nanoshredder demo: windows with shader code and result behind](nanoshredder.gif)
+_macroquad's shadertoy example with metal/glsl preview_
+
+[Nanoshredder] is an experimental fork of
+[makepad's shader-compiler][makepad-shader-compiler].
+
+It compiles rust-like DSL into GLSL, Metal and HLSL.
+
+This month it got a little [web demo]:
+[macroquad's shadertoy][macroquad-shadertoy], a live editor with
+generated Metal/GLSL preview.
+
+[nanoshredder]: https://github.com/not-fl3/nanoshredder
+[makepad-shader-compiler]: https://github.com/makepad/makepad/tree/master/platform/shader_compiler
+[web demo]: https://not-fl3.github.io/miniquad-samples/shadertoy_cross.html
+[macroquad-shadertoy]: https://github.com/not-fl3/macroquad/blob/master/examples/shadertoy.rs
+
+### [blink-alloc]
+
+[blink-alloc] is a brand new arena-allocator with bunch of improvements
+over existing solutions that is
+tested with [Miri] and follows ["Strict Provenance Rules"][strict-provenance].
+
+> Arena-allocators offer extremely fast allocations and deallocations.
+> Allocation is just a few pointer arithmetic operations.
+> And deallocation is nearly no-op.
+> In exchange arena-allocator requires a point in time when all
+> previous allocations are unused to reset state.\
+> Rust's borrow-checker ensures the requirement for reset making
+> it 100% safe to use.
+>
+> TL;DR great for games, servers, cli tools and more.
+
+blink-alloc provides thread-local and multi-threaded allocators -
+`BlinkAlloc` and `SyncBlinkAlloc`.
+Single-threaded version [performs many times faster than `bumpalo`][blink-bench].
+The author couldn't find another implementation to compare
+the multi-threaded version's performance.
+
+It also provided ouf-of-the-box to fetch `BlinkAlloc` in task/thread
+and return it back when done, keeping multiple `BlinkAlloc` instanced warmed.
+
+On top of raw allocations blink-alloc provides `Blink` type
+that works as safe allocator adaptor.
+`Blink` can allocate memory and initialize it with values provided by user.
+User may provide values as-is, as closures or iterators.
+`Blink`'s API is safe with few exception for niche use cases.
+
+Those familiar with `bumpalo` may think of `Blink` as of `bumpalo::Bump`.
+Though `Blink`
+
+- drops all placed values on reset,
+  which makes it usable with any kind of types without resource leaks.
+- Accepts any iterator type, not just `ExactSizeIterator` implementations.
+- Is configurable to use any `BlinkAllocator` implementation, thus not
+  tied to `Global`.
+
+Currently Rust's standard collection types may use custom allocators
+only one nightly and with `allocator_api` feature enabled.
+blink-alloc uses `allocator-api2` crate to work on both stable and nightly.
+Integration with other crates is simple and doesn't require depending on
+blink-alloc, only on `allocator-api2`.
+
+[blink-alloc]: https://github.com/zakarumych/blink-alloc
+[blink-bench]: https://github.com/zakarumych/blink-alloc/blob/main/BENCHMARKS.md
+[Miri]: https://github.com/rust-lang/miri
+[strict-provenance]: https://github.com/rust-lang/rust/issues/95228
 
 ## Popular Workgroup Issues in Github
 
