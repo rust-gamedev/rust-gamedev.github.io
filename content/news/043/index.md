@@ -299,27 +299,26 @@ generated Metal/GLSL preview.
 
 ### [pecs]
 
-![pecs example](pecs.png)
-_promise chaining example_
+![pecs example, same as in the README](pecs.png)
+_Promise chaining example_
 
-In the [`ecs`](ecs) environment, you can't use the standard async/await
+In the ECS environment, you can't use the standard async/await
 approach, which can make implementing asynchronous logic painful.
 
-[`pecs`](pecs) is a plugin for [Bevy](bevy) engine that solves this problem.
+[pecs] is a plugin for the [Bevy][bevy] engine that solves this problem.
 It allows you to execute the code asynchronously by chaining multiple
-promises as part of Bevy's [`ecs`](ecs) environment.
+promises as part of [Bevy's `ecs`][ecs] environment.
 
 Each promise takes state and the result of the previous promise as arguments,
-as well as any Bevy [`ecs`](ecs)  system parameter, and passes the modified
+as well as any Bevy ECS system parameter, and passes the modified
 state and new promise/result to the next promise. It's easy to register custom
 promises that wait for user input, events, asset loading, and so on. You can
-also use [`pecs`](pecs) to wait for any or all of multiple promises to complete
+also use [pecs] to wait for any or all of multiple promises to complete
 before continuing with the rest of the code, as well as to loop asynchronously
 until a condition is met.
 
 [pecs]: https://github.com/jkb0o/pecs
-[bevy]: https://bevyengine.org/
-[ecs]: https://bevyengine.org/learn/book/getting-started/ecs/
+[ecs]: https://bevyengine.org/learn/book/getting-started/ecs
 
 ## Popular Workgroup Issues in Github
 
