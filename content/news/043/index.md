@@ -24,7 +24,7 @@ Want something mentioned in the next newsletter?
 [Send us a pull request][pr].
 Feel free to send PRs about your own projects!
 
-[rust]: https://rust-lang.org
+[Rust]: https://rust-lang.org
 [join]: https://github.com/rust-gamedev/wg#join-the-fun
 [pr]: https://github.com/rust-gamedev/rust-gamedev.github.io
 [coordination]: https://github.com/rust-gamedev/rust-gamedev.github.io/issues?q=label%3Acoordination
@@ -127,8 +127,8 @@ explorers on [the Discord][ambient-discord].
 _Discussion: [/r/rust][ambient-reddit], [Hacker News][ambient-hn]_
 
 [ambient-github]: https://github.com/AmbientRun/Ambient
-[ambient-blog]: https://www.ambient.run/post/introducing-ambient
-[ambient-reddit]: https://www.reddit.com/r/rust/comments/118wlda/introducing_ambient_01_a_runtime_for_building/
+[ambient-blog]: https://ambient.run/post/introducing-ambient
+[ambient-reddit]: https://reddit.com/r/rust/comments/118wlda/introducing_ambient_01
 [ambient-hn]: https://news.ycombinator.com/item?id=34906166
 [ambient-discord]: https://discord.gg/eQEwPCWSy8
 
@@ -148,7 +148,7 @@ _Discussion: [/r/rust](https://reddit.com/r/rust/comments/11bdsys/fps_game_2kb_r
 [@grantshandy]: https://github.com/grantshandy/
 [firstperson-wasm4]: https://grantshandy.github.io/posts/raycasting
 [firstperson-wasm4-game]: https://grantshandy.github.io/wasm4-raycaster/
-[wasm-4]: https://wasm4.org
+[WASM-4]: https://wasm4.org
 
 ## Tooling Updates
 
@@ -202,7 +202,7 @@ useful information -->
 
 <!-- An optional section for new jobs related to Rust gamedev -->
 
----
+------
 
 That's all news for today, thanks for reading!
 
