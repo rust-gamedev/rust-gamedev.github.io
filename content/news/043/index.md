@@ -225,6 +225,35 @@ design, suggestions are welcome to cement a better design. Refer to [example][be
 [@ElhamAryanpur]: https://github.com/ElhamAryanpur
 [@Noswad]: https://github.com/TheNoswad
 
+### [Ambient][ambient-github]
+
+![Image of a scene made with Ambient](made_with_ambient.jpg)
+
+After over a year in development, [version 0.1 of Ambient][ambient-blog]
+(formerly known as Dims) was unveiled to the public. It is an open-source
+multiplayer 3D game runtime, compatible with any language that compiles
+to/runs on WebAssembly, and designed to make it easy to build and deploy
+rich multiplayer worlds and experiences.
+
+It is guided by several core principles, including seamless networking,
+data-oriented design, interoperability, and more.
+The core runtime is written in Rust and uses WGPU for graphics, Quinn
+for networking and WebAssembly for user logic. This allows it to run on
+all major desktop platforms, with active work underway for the Web and
+other targets.
+
+Check out [the GitHub][ambient-github] (2600 stars!) to get started with
+building for/or on Ambient yourself, or chat to the developers and other
+explorers on [the Discord][ambient-discord].
+
+_Discussion: [/r/rust][ambient-reddit], [Hacker News][ambient-hn]_
+
+[ambient-github]: https://github.com/AmbientRun/Ambient
+[ambient-blog]: https://ambient.run/post/introducing-ambient
+[ambient-reddit]: https://reddit.com/r/rust/comments/118wlda/introducing_ambient_01
+[ambient-hn]: https://news.ycombinator.com/item?id=34906166
+[ambient-discord]: https://discord.gg/eQEwPCWSy8
+
 ## Learning Material Updates
 
 ### [Write a First Person Game in 2KB with Rust][firstperson-wasm4]
