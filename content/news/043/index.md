@@ -112,7 +112,7 @@ colliding with each other and bevy_ecs_tilemap colliders (when colliding with
 the player).
 
 One part of the broadphase implementation was split out into a new crate,
-[`bevy_sparse_grid_2d`]. It provides a simple and convenient way to query for
+[bevy_sparse_grid_2d]. It provides a simple and convenient way to query for
 entities that share one or more grid cells based on their axis aligned bounding
 box (AABB).
 
@@ -123,7 +123,7 @@ post][cargospace_devlog_5].
 [cargospace_devlog_5]: https://johanhelsing.studio/posts/cargo-space-devlog-5
 [cargospace_discord]: https://discord.gg/ye9UDNvqQD
 [johanhelsing_mastodon]: https://mastodon.social/@johanhelsing
-[`bevy_sparse_grid_2d`]: [https://github.com/johanhelsing/bevy_sparse_grid_2d]
+[bevy_sparse_grid_2d]: https://github.com/johanhelsing/bevy_sparse_grid_2d
 
 ## Engine Updates
 
