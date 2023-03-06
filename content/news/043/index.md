@@ -333,7 +333,7 @@ _Discussion: [/r/rust][ambient-reddit], [Hacker News][ambient-hn]_
 [ambient-blog]: https://ambient.run/post/introducing-ambient
 [ambient-reddit]: https://reddit.com/r/rust/comments/118wlda/introducing_ambient_01
 [ambient-hn]: https://news.ycombinator.com/item?id=34906166
-[ambient-discord]: https://discord.gg/eQEwPCWSy8
+[ambient-discord]: https://discord.gg/ambient
 
 ### [Geng][geng]
 
