@@ -241,6 +241,37 @@ deserializing a set of values every time, resulting in "massive performance gain
 [low-discord]: https://discord.gg/aqD7H3F7nz
 [low-devlog]: http://legendofworlds.com/dev-log-2
 
+### [Hydrofoil Generation]
+
+![hgs_screen](hydrofoil_43.jpg)
+
+[Hydrofoil Generation]
+([Steam][hgs_steam], [Facebook][hgs_facebook], [Discord][hgs_discord])
+is a realistic sailing/foiling inshore simulator in development for PC/Steam
+that puts you in the driving seat of modern competitive sailing.
+
+Hydrofoil Generation released February 16th 2023 on Steam Early Access after
+almost 3 years of development.
+
+The game is written completely in Rust, using a custom engine based on
+DirectX 11, physics powered by Rapier-3D.
+
+Stefano Casillo, programmer commented: "Rust delivered on every single
+promise. I never experienced such an uneventful launch and QA like the one
+we had for Hydrofoil Generation. The software stability has been impressive
+since the beginning of the project and confirmed the trend at release with
+very few problems all very easy to address".
+
+Hydrofoil Generation currently sits at a very positive review rate of 96%
+on the Steam page and is praised for its challenging gameplay, performance
+and realistic physics.
+
+[Hydrofoil Generation]: https://hydrofoil-generation.com/
+[hgs_facebook]: https://facebook.com/HydrofoilGenerationSailing/
+[hgs_discord]: https://discord.gg/DtKgt2duAy/
+[hgs_steam]: https://store.steampowered.com/app/1448820/Hydrofoil_Generation/
+[hgs_twitch]: https://twitch.tv/kunosstefano
+
 ## Engine Updates
 
 ### [godot-rust][gd-github]
