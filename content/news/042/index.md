@@ -238,7 +238,7 @@ Hot-reloading allows you to change the Site2 code and watch the changes take
 effect in real-time. The official 2023 Veloren OST was also released, and can be
 [watched on YouTube][veloren-ost].
 
-December's full weekly devlogs: "This Week In Veloren...": [#204][veloren-204].
+January's full weekly devlogs: "This Week In Veloren...": [#204][veloren-204].
 
 [veloren]: https://veloren.net
 [veloren-204]: https://veloren.net/devblog-204

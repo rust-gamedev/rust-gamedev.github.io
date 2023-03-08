@@ -272,6 +272,27 @@ and realistic physics.
 [hgs_steam]: https://store.steampowered.com/app/1448820/Hydrofoil_Generation/
 [hgs_twitch]: https://twitch.tv/kunosstefano
 
+### [Veloren][veloren]
+
+![A cyclops attack](veloren.jpg)
+_A cyclops attack_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In February, swing SFX were added to the new sword abilities. Blocks were added
+to spots that can spawn NPCs. Moderation bages were added, and fixes to the chat
+command were made. A student contributed to Veloren on their two-week internship
+about game design, you can [read about that here][veloren-internship]. Work is
+being done to add more functaionality to sites, small models placed around the world.
+
+February's full weekly devlogs: "This Week In Veloren...": [#205][veloren-205], [#206][veloren-206].
+
+[veloren]: https://veloren.net
+[veloren-205]: https://veloren.net/devblog-205
+[veloren-206]: https://veloren.net/devblog-206
+[veloren-internship]: https://veloren.net/devblog-205#potion-shops-were-created-during-a-two-week-internship-by-nixda
+
 ## Engine Updates
 
 ### [godot-rust][gd-github]
