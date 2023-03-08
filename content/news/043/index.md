@@ -461,6 +461,43 @@ The source is planned to be released in the next few weeks
 [yds-github]: https://github.com/yds12
 [yds-mastodon]: https://fosstodon.org/@yds/
 
+### [Graphite][graphite-website]
+
+![Graphite logo](graphite.png)
+
+Graphite ([website][graphite-website], [GitHub][graphite-repo],
+[Discord][graphite-discord], [Twitter][graphite-twitter]) is a free,
+in-development raster and vector 2D graphics editor based around a Rust-powered
+node graph compositing engine.
+
+New features from February's [sprint 23][graphite-sprint-23]:
+
+- _Shaping up:_ Editing shapes is now easier thanks to point selection and
+  manipulation improvements.
+- _Deep dive:_ The user experience of nested layer selection is improved by
+  introducing "Deepest" and "Shallowest" modes.
+- _Scroll settings:_ Scroll up-and-down, or zoom in-and-out, at your preference
+  using the new configuration for scroll wheel behavior.
+- _Graph growth:_ Additional node graph engineering introduces graceful type
+  checking and brings GPU-accelerated compositing closer to realization.
+
+As always, new contributors are kindly invited to
+[get involved][graphite-contribute] and take on
+[approachable issues][graphite-approachable-issues] with help from the
+project's friendly and supportive developer community on Discord.
+
+[Open Graphite][graphite-editor] in your browser and start creating! Share your
+designs with #MadeWithGraphite on Twitter.
+
+[graphite-website]: https://graphite.rs
+[graphite-repo]: https://github.com/GraphiteEditor/Graphite
+[graphite-discord]: https://discord.graphite.rs
+[graphite-twitter]: https://twitter.com/GraphiteEditor
+[graphite-sprint-23]: https://github.com/GraphiteEditor/Graphite/milestone/23
+[graphite-contribute]: https://graphite.rs/contribute
+[graphite-approachable-issues]: https://github.com/GraphiteEditor/Graphite/labels/Good%20First%20Issue
+[graphite-editor]: https://editor.graphite.rs
+
 ## Library Updates
 
 ### [hexx]

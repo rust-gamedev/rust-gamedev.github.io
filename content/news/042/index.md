@@ -337,7 +337,7 @@ New features from January's [sprint 22][graphite-sprint-22]:
   whole graph each time an edit is made or a value changes. This makes iteration
   faster and enables caching of intermediate computations for faster rendering.
 
-Later this month, the Alpha Milestone 2 release will launch with new node graph
+And soon, the Alpha Milestone 2 release will launch with new node graph
 features, a revamped website, and a wider-reaching project announcement. Join
 the [newsletter][graphite-newsletter] and stay tuned.
 
