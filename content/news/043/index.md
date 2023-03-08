@@ -303,7 +303,8 @@ In February, swing SFX were added to the new sword abilities. Blocks were added
 to spots that can spawn NPCs. Moderation badges were added, and fixes to the chat
 command were made. A student contributed to Veloren on their two-week internship
 about game design, you can [read about that here][veloren-internship]. Work is
-being done to add more functionality to sites, which are small models placed around the world.
+being done to add more functionality to sites, which are small models placed
+around the world.
 
 February's full weekly devlogs: "This Week In Veloren...": [#205][veloren-205], [#206][veloren-206].
 
@@ -415,9 +416,10 @@ mutually benefit each other, reusing proven designs for user-friendly Rust APIs.
 portable graphics engine built to make it easier to render 2D or 3D graphics.
 
 Although the month of Febuary was slow for the development of the engine, there
-have been significant efforts towards the addition of [documentation][be-docs] and the
-eventual release of the next version. In the meantime, the plugins have favored significant
-updates and development in the month, notably the [egui][be-egui] plugin.
+have been significant efforts towards the addition of [documentation][be-docs]
+and the eventual release of the next version. In the meantime,
+the plugins have favored significant updates and development in the month,
+notably the [egui][be-egui] plugin.
 
 Now the [egui plugin][be-egui] allow you to render objects of the engine direction
 inside an egui window. This feature was built in collaboration with [@Noswad].
@@ -957,6 +959,7 @@ useful information -->
 - [Mun's "good first issue" issues][mun-issues].
 - [SIMple Mechanic's good first issues][simm-issues].
 - [Bevy's "good first issue" issues][bevy-issues].
+- [Ambient's "good first issue" issues][ambient-issues].
 
 [awgy]: https://github.com/rust-gamedev/arewegameyet#contribute
 [graphite-contribute]: https://graphite.rs/contribute
@@ -972,6 +975,7 @@ useful information -->
 [mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
 [simm-issues]: https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue
 [bevy-issues]: https://github.com/bevyengine/bevy/labels/D-Good-First-Issue
+[ambient-issues]: https://github.com/AmbientRun/Ambient/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22
 
 ------
 
