@@ -94,9 +94,9 @@ by [@kuviman] (programming), [@rincs] (art), and [@Brainoid] (music & sfx).
 
 The game is about racing other players around Ludwig's house
 towards the next Coots (Ludwig's cat) location.
-Every round half of the players get eliminated and eventually winner is decided.
+Every round half of the players get eliminated and eventually a winner is decided.
 
-[See trailer on YouTube][coots-trailer].
+[See the trailer on YouTube][coots-trailer].
 
 The game is written using a custom engine: [Geng][geng].
 
@@ -194,14 +194,14 @@ using [Bevy] systems and types. This month the implementation was fleshed out
 adding important features such as collision layers, composite colliders, one-way
 platforms, and an efficient collision broadphase.
 
-In other words, this means ship-to-ship collisions a are finally happening. This
+In other words, this means ship-to-ship collisions are finally happening. This
 was previously tricky, since ships are a combination of box colliders when
 colliding with each other and bevy_ecs_tilemap colliders (when colliding with
 the player).
 
 One part of the broadphase implementation was split out into a new crate,
 [bevy_sparse_grid_2d]. It provides a simple and convenient way to query for
-entities that share one or more grid cells based on their axis aligned bounding
+entities that share one or more grid cells based on their axis-aligned bounding
 box (AABB).
 
 Read more about Cargo Space's physics in [the long and detailed blog
@@ -245,7 +245,7 @@ Join the journey into the unknown and help shape the future of CyberGate!
 
 [Legend of Worlds][low-website] ([Discord][low-discord], [Twitter][low-twitter])
 is a cross-platform, cross-play, 2D online sandbox multiplayer
-experience where you can join, play, create and share player-created worlds.
+experience where you can join, play, create, and share player-created worlds.
 
 [The latest dev log][low-devlog] from [Rou][low-twitter] covers an update
 to the open-source game engine created for this game.
@@ -270,14 +270,14 @@ deserializing a set of values every time, resulting in "massive performance gain
 is a realistic sailing/foiling inshore simulator in development for PC/Steam
 that puts you in the driving seat of modern competitive sailing.
 
-Hydrofoil Generation released February 16th 2023 on Steam Early Access after
+Hydrofoil Generation released on February 16th 2023 on Steam Early Access after
 almost 3 years of development.
 
 The game is written completely in Rust, using a custom engine based on
 DirectX 11, physics powered by Rapier-3D.
 
 Stefano Casillo, programmer commented: "Rust delivered on every single
-promise. I never experienced such an uneventful launch and QA like the one
+promise. I never experienced such an uneventful launch and QA as the one
 we had for Hydrofoil Generation. The software stability has been impressive
 since the beginning of the project and confirmed the trend at release with
 very few problems all very easy to address".
@@ -300,10 +300,10 @@ _A cyclops attack_
 Fortress and Cube World.
 
 In February, swing SFX were added to the new sword abilities. Blocks were added
-to spots that can spawn NPCs. Moderation bages were added, and fixes to the chat
+to spots that can spawn NPCs. Moderation badges were added, and fixes to the chat
 command were made. A student contributed to Veloren on their two-week internship
 about game design, you can [read about that here][veloren-internship]. Work is
-being done to add more functionality to sites, small models placed around the world.
+being done to add more functionality to sites, which are small models placed around the world.
 
 February's full weekly devlogs: "This Week In Veloren...": [#205][veloren-205], [#206][veloren-206].
 
@@ -360,7 +360,7 @@ This month [a new demo was released][idu-new-demo]:
 Necking is a WIP competitive/cooperative 1-on-1 online game where players
 are giraffes and fight for male dominance in the giraffe way.
 
-This month the devs've released [the first devlog][necking-post]
+This month the devs have released [the first devlog][necking-post]
 that tells about:
 
 - The concept of the game and what inspired it.
@@ -386,7 +386,7 @@ productive month, with a handful of new contributors and [16 merged pull
 requests][gd-pulse]. An up-to-date feature overview is available
 [in issue #24][gd-24]. Last month's changes include:
 
-- Support for arrays, packed arrays and dictionaries
+- Support for arrays, packed arrays, and dictionaries
 - Support for some geometric types (vectors, quaternions, colors)
 - Bugfixes regarding ref-counts, use-after-free, memory leaks
 
@@ -415,7 +415,7 @@ mutually benefit each other, reusing proven designs for user-friendly Rust APIs.
 portable graphics engine built to make it easier to render 2D or 3D graphics.
 
 Although the month of Febuary was slow for the development of the engine, there
-have been significant efforts towards addition of [documentation][be-docs] and the
+have been significant efforts towards the addition of [documentation][be-docs] and the
 eventual release of the next version. In the meantime, the plugins have favored significant
 updates and development in the month, notably the [egui][be-egui] plugin.
 
@@ -443,18 +443,18 @@ design, suggestions are welcome to cement a better design. Refer to [example][be
 After over a year in development, [version 0.1 of Ambient][ambient-blog]
 (formerly known as Dims) was unveiled to the public. It is an open-source
 multiplayer 3D game runtime, compatible with any language that compiles
-to/runs on WebAssembly, and designed to make it easy to build and deploy
+to/runs on WebAssembly, and is designed to make it easy to build and deploy
 rich multiplayer worlds and experiences.
 
 It is guided by several core principles, including seamless networking,
 data-oriented design, interoperability, and more.
 The core runtime is written in Rust and uses WGPU for graphics, Quinn
-for networking and WebAssembly for user logic. This allows it to run on
+for networking, and WebAssembly for user logic. This allows it to run on
 all major desktop platforms, with active work underway for the Web and
 other targets.
 
 Check out [the GitHub][ambient-github] (2600 stars!) to get started with
-building for/or on Ambient yourself, or chat to the developers and other
+building for/or on Ambient yourself, or chat with the developers and other
 explorers on [the Discord][ambient-discord].
 
 _Discussion: [/r/rust][ambient-reddit], [Hacker News][ambient-hn]_
@@ -503,7 +503,7 @@ of out-of-the-box features. This month's updates include:
 
 - [Audio system's refactoring][fyrox-audio] to make it much more flexible.
 - [Root motion][fyrox-root-motion] animation technique helps
-  preventing "floating" or "sliding" effects.
+  prevent "floating" or "sliding" effects.
 - [Blend space][fyrox-blend-space] allows blending many animations based on
   two numeric input parameters
   (mostly useful for blending locomotion animations based on speed and direction).
@@ -583,12 +583,12 @@ The project is already usable, but has not been made public yet. Current
 features are:
 
 - Drawing w/ brush, eraser, lines, rectangles, bucket (fill w/ color).
-- Color selector, editable palette and eyedropper (pick color from canvas).
+- Color selector, editable palette, and eyedropper (pick a color from the canvas).
 - Resize or completely erase the canvas.
-- Move camera, zoom in and out.
-- Selection (rectangular only for now), deleted, copied and pasted; flip
+- Move the camera, zoom in and out.
+- Selection (rectangular only for now), deleted, copied, and pasted; flip
   selection (horizontal or vertical).
-- Layers: create, remove, moved up/down, control visibility and opacity.
+- Layers: create, remove, moved up/down, and control visibility and opacity.
 - Spritesheet: specify how many columns and rows your image has, and an
   animated preview will be displayed in a window w/ configurable scale.
 - Save/load projects (with all its settings), export and import PNG/JPG.
@@ -721,7 +721,7 @@ tested with [Miri] and follows ["Strict Provenance Rules"][strict-provenance].
 > Rust's borrow-checker ensures the requirement for reset making
 > it 100% safe to use.
 >
-> TL;DR great for games, servers, cli tools and more.
+> TL;DR great for games, servers, cli tools, and more.
 
 blink-alloc provides thread-local and multi-threaded allocators -
 `BlinkAlloc` and `SyncBlinkAlloc`.
@@ -729,14 +729,14 @@ Single-threaded version [performs many times faster than `bumpalo`][blink-bench]
 The author couldn't find another implementation to compare
 the multi-threaded version's performance.
 
-It also provided ouf-of-the-box to fetch `BlinkAlloc` in task/thread
-and return it back when done, keeping multiple `BlinkAlloc` instanced warmed.
+It also provided out-of-the-box to fetch `BlinkAlloc` in task/thread
+and return it back when done, keeping multiple `BlinkAlloc` instances warmed.
 
 On top of raw allocations blink-alloc provides `Blink` type
 that works as safe allocator adaptor.
 `Blink` can allocate memory and initialize it with values provided by user.
-User may provide values as-is, as closures or iterators.
-`Blink`'s API is safe with few exception for niche use cases.
+Users may provide values as-is, as closures, or as iterators.
+`Blink`'s API is safe with few exceptions for niche use cases.
 
 Those familiar with `bumpalo` may think of `Blink` as of `bumpalo::Bump`.
 Though `Blink`
@@ -747,7 +747,7 @@ Though `Blink`
 - Is configurable to use any `BlinkAllocator` implementation, thus not
   tied to `Global`.
 
-Currently Rust's standard collection types may use custom allocators
+Currently, Rust's standard collection types may use custom allocators
 only one nightly and with `allocator_api` feature enabled.
 blink-alloc uses `allocator-api2` crate to work on both stable and nightly.
 Integration with other crates is simple and doesn't require depending on
@@ -770,7 +770,7 @@ approach, which can make implementing asynchronous logic painful.
 It allows you to execute the code asynchronously by chaining multiple
 promises as part of [Bevy's `ecs`][ecs] environment.
 
-Each promise takes state and the result of the previous promise as arguments,
+Each promise takes the state and result of the previous promise as arguments,
 as well as any Bevy ECS system parameter, and passes the modified
 state and new promise/result to the next promise. It's easy to register custom
 promises that wait for user input, events, asset loading, and so on. You can
@@ -808,7 +808,7 @@ This month [seldom_state] 0.4 has been released:
 _A bevy crate for grass rendering_
 
 [warbler_grass] is a new experimental [Bevy] plugin.
-The goal is to provide a ergonomic, but performant way
+The goal is to provide an ergonomic, but performant way
 to easily render huge amounts of grass.
 
 Some of the currently integrated features are dynamic directional wind
@@ -879,7 +879,7 @@ _Discussions: [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/10wfe
 - Other engine updates:
   - [alkahest-rs] released a couple of vlogs about
     [UI rendering in general][alkahest-ui-rendering] and
-    [rendering childrwn widgets inside panels][alkahest-ui-children].
+    [rendering children widgets inside panels][alkahest-ui-children].
 - Other learning material updates:
   - [Faith Ekstrand published the first article][rust-vk] in a series
     about using Rust for Vulkan drivers.
