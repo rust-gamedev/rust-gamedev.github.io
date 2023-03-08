@@ -1,13 +1,11 @@
 +++
 title = "This Month in Rust GameDev #43 - February 2023"
 transparent = true
-date = 2023-03-05
-draft = true
+date = 2023-03-08
+draft = false
 +++
 
 <!-- no toc -->
-
-<!-- Check the post with markdownlint-->
 
 Welcome to the 43rd issue of the Rust GameDev Workgroup's
 monthly newsletter.
@@ -36,10 +34,8 @@ Feel free to send PRs about your own projects!
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
 - [Other News](#other-news)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
-- [Jobs](#jobs)
 
 <!--
 Ideal section structure is:
@@ -65,6 +61,27 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Announcements
 
+### Rust GameDev Meetup
+
+![Gamedev meetup poster](gamedev-meetup.png)
+
+The 24th Rust Gamedev Meetup took place in February. You can watch the recording
+of the meetup [here on Youtube][gamedev-meetup-video]. Here was the schedule
+from the meetup:
+
+- Micro Game Engine - [@AngelOnFira]
+- Graphite - [@GraphiteEditor]
+
+The meetups take place on the second Saturday of every month via the [Rust
+Gamedev Discord server][rust-gamedev-discord] and are also [streamed on
+Twitch][rust-gamedev-twitch].
+
+[gamedev-meetup-video]: https://youtu.be/HTxX-Wm-3R8
+[rust-gamedev-discord]: https://discord.gg/yNtPTb2
+[rust-gamedev-twitch]: https://twitch.tv/rustgamedev
+[@AngelOnFira]: https://twitter.com/AngelOnFira
+[@GraphiteEditor]: https://twitter.com/GraphiteEditor
+
 ## Game Updates
 
 ### Cootsmania
@@ -77,9 +94,9 @@ by [@kuviman] (programming), [@rincs] (art), and [@Brainoid] (music & sfx).
 
 The game is about racing other players around Ludwig's house
 towards the next Coots (Ludwig's cat) location.
-Every round half of the players get eliminated and eventually winner is decided.
+Every round half of the players get eliminated and eventually a winner is decided.
 
-[See trailer on YouTube][coots-trailer].
+[See the trailer on YouTube][coots-trailer].
 
 The game is written using a custom engine: [Geng][geng].
 
@@ -94,7 +111,7 @@ The game is written using a custom engine: [Geng][geng].
 
 ### [Tunnet][tunnet-itch]
 
-![Tunnet preview](tunnet.jpg)
+![Tunnet screenshot: low poly models, blocky terrain, FPS view with a drill in hands](tunnet.jpg)
 _Tunnels and computer networks_
 
 Tunnet ([Steam][tunnet-steam], [Itch.io][tunnet-itch]) by
@@ -145,9 +162,12 @@ designer help!).
 
 ### [Tiny Glade]
 
-![tiny_glade_sheep_umbrella](tiny_glade_sheep_umbrella.gif)
+![A sheep with umbrella](tiny_glade_sheep_umbrella.gif)
 
-[@anopara] and [@h3r2tic] recently added [terrain editing] to [Tiny Glade].
+[Tiny Glade] is a small relaxing game about doodling
+castles.
+
+[@anopara] and [@h3r2tic] recently added [terrain editing].
 They then faced an important game design question: how would sheep handle
 it? Well, these cuddly little floofs are not mountain goats,
 so the developers gave them tiny umbrellas.
@@ -162,7 +182,7 @@ Read more in their latest [Steam blogpost].
 
 ### [Cargo Space]
 
-![Screenshot of Cargo Space](cargo-space-physics.png)
+![Screenshot of Cargo Space: a cosmonut flying between lots of orange squares](cargo-space-physics.png)
 
 [Cargo Space] ([Discord][cargospace_discord]) by
 [@johanhelsing][johanhelsing_mastodon] is a co-op 2d space game where you build
@@ -172,16 +192,16 @@ environment.
 The game uses its own homemade XPBD-based physics engine implemented directly
 using [Bevy] systems and types. This month the implementation was fleshed out
 adding important features such as collision layers, composite colliders, one-way
-platforms and an efficient collision broadphase.
+platforms, and an efficient collision broadphase.
 
-In other words, this means ship-to-ship collisions a are finally happening. This
+In other words, this means ship-to-ship collisions are finally happening. This
 was previously tricky, since ships are a combination of box colliders when
 colliding with each other and bevy_ecs_tilemap colliders (when colliding with
 the player).
 
 One part of the broadphase implementation was split out into a new crate,
 [bevy_sparse_grid_2d]. It provides a simple and convenient way to query for
-entities that share one or more grid cells based on their axis aligned bounding
+entities that share one or more grid cells based on their axis-aligned bounding
 box (AABB).
 
 Read more about Cargo Space's physics in [the long and detailed blog
@@ -221,11 +241,11 @@ Join the journey into the unknown and help shape the future of CyberGate!
 
 ### [Legend of Worlds][low-website]
 
-![legend_of_worlds](legend_of_worlds.jpg)
+![Characters standing near a house](legend_of_worlds.jpg)
 
 [Legend of Worlds][low-website] ([Discord][low-discord], [Twitter][low-twitter])
 is a cross-platform, cross-play, 2D online sandbox multiplayer
-experience where you can join, play, create and share player-created worlds.
+experience where you can join, play, create, and share player-created worlds.
 
 [The latest dev log][low-devlog] from [Rou][low-twitter] covers an update
 to the open-source game engine created for this game.
@@ -243,21 +263,21 @@ deserializing a set of values every time, resulting in "massive performance gain
 
 ### [Hydrofoil Generation]
 
-![hgs_screen](hydrofoil_43.jpg)
+![Steam page screenshot](hydrofoil_43.jpg)
 
 [Hydrofoil Generation]
 ([Steam][hgs_steam], [Facebook][hgs_facebook], [Discord][hgs_discord])
 is a realistic sailing/foiling inshore simulator in development for PC/Steam
 that puts you in the driving seat of modern competitive sailing.
 
-Hydrofoil Generation released February 16th 2023 on Steam Early Access after
+Hydrofoil Generation released on February 16th 2023 on Steam Early Access after
 almost 3 years of development.
 
 The game is written completely in Rust, using a custom engine based on
 DirectX 11, physics powered by Rapier-3D.
 
 Stefano Casillo, programmer commented: "Rust delivered on every single
-promise. I never experienced such an uneventful launch and QA like the one
+promise. I never experienced such an uneventful launch and QA as the one
 we had for Hydrofoil Generation. The software stability has been impressive
 since the beginning of the project and confirmed the trend at release with
 very few problems all very easy to address".
@@ -270,7 +290,6 @@ and realistic physics.
 [hgs_facebook]: https://facebook.com/HydrofoilGenerationSailing/
 [hgs_discord]: https://discord.gg/DtKgt2duAy/
 [hgs_steam]: https://store.steampowered.com/app/1448820/Hydrofoil_Generation/
-[hgs_twitch]: https://twitch.tv/kunosstefano
 
 ### [Veloren][veloren]
 
@@ -281,10 +300,11 @@ _A cyclops attack_
 Fortress and Cube World.
 
 In February, swing SFX were added to the new sword abilities. Blocks were added
-to spots that can spawn NPCs. Moderation bages were added, and fixes to the chat
+to spots that can spawn NPCs. Moderation badges were added, and fixes to the chat
 command were made. A student contributed to Veloren on their two-week internship
 about game design, you can [read about that here][veloren-internship]. Work is
-being done to add more functaionality to sites, small models placed around the world.
+being done to add more functionality to sites, which are small models placed
+around the world.
 
 February's full weekly devlogs: "This Week In Veloren...": [#205][veloren-205], [#206][veloren-206].
 
@@ -293,11 +313,70 @@ February's full weekly devlogs: "This Week In Veloren...": [#205][veloren-205], 
 [veloren-206]: https://veloren.net/devblog-206
 [veloren-internship]: https://veloren.net/devblog-205#potion-shops-were-created-during-a-two-week-internship-by-nixda
 
+### [triverse]
+
+![Training scenario screenshot: user is teached how to attach thrusters](triverse.png)
+
+[triverse] by [@cragwind] is a WIP smart-pause RTS with custom unit creation
+on a triangle grid canvas.
+[This month's update][triverse-devlog] includes:
+
+- Training and challenge scenarios.
+- Grid lines when building.
+- Edge panning in fullscreen mode.
+- Radar proximity markers to indicate objects that are off
+  the visible portion of the map.
+
+[@cragwind]: https://cragwind.com
+[triverse]: https://cragwind.itch.io/triverse
+[triverse-devlog]: https://cragwind.com/posts/scenarios-and-playability
+
+### [Idu][idu-itch]
+
+![concrete and rock blocks, water, and a tree casting a shadow](idu.jpg)
+
+[Idu][idu-itch] ([Discord][idu_discord]) is a strategic sandbox game about growing
+plants that wish to reclaim nature, developed by [Elina Shakhnovich][eli_mastodon]
+and [Johann Tael][johann_mastodon] featuring a bespoke Vulkan-based engine in Rust.
+
+This month [a new demo was released][idu-new-demo]:
+
+- A new world generation with new buildings, stairs, caves, paths, and beaches.
+- Simpler inventory management for materials.
+- New help text that explains the game mechanics better.
+- A configurable FOV and fullscreen toggle settings.
+- Wind now affects not only leaves but tree branches as well.
+- Significant GI performance improvements.
+
+[idu_discord]: https://discord.gg/MeGauteMj3
+[eli_mastodon]: https://mastodon.gamedev.place/@eli
+[johann_mastodon]: https://mastodon.gamedev.place/@johann
+[idu-itch]: https://epcc.itch.io/idu
+[idu-new-demo]: https://epcc.itch.io/idu/devlog/492261/demo-version-9-available-new-worlds
+
+### [Necking][necking-post]
+
+![Two giraffe character with debug bounding forms visualised](necking.jpg)
+
+Necking is a WIP competitive/cooperative 1-on-1 online game where players
+are giraffes and fight for male dominance in the giraffe way.
+
+This month the devs have released [the first devlog][necking-post]
+that tells about:
+
+- The concept of the game and what inspired it.
+- Custom joint system and migration to Rapier physics lib.
+- Bevy controls design, including tongue controls.
+- The [cuicui] UI framework.
+
+[necking-post]: https://devildahu.ch/devlog/necking-1
+[cuicui]: https://github.com/devildahu/bevy_mod_cuicui
+
 ## Engine Updates
 
 ### [godot-rust][gd-github]
 
-![godot-rust GDExtension](godot-rust-gdextension.png)
+![godot-rust GDExtension logo](godot-rust-gdextension.png)
 
 The [release of Godot version 4.0][gd-godot4] marks a significant milestone in
 the game development ecosystem. godot-rust aims to bring the open-source
@@ -308,7 +387,7 @@ productive month, with a handful of new contributors and [16 merged pull
 requests][gd-pulse]. An up-to-date feature overview is available
 [in issue #24][gd-24]. Last month's changes include:
 
-- Support for arrays, packed arrays and dictionaries
+- Support for arrays, packed arrays, and dictionaries
 - Support for some geometric types (vectors, quaternions, colors)
 - Bugfixes regarding ref-counts, use-after-free, memory leaks
 
@@ -337,9 +416,10 @@ mutually benefit each other, reusing proven designs for user-friendly Rust APIs.
 portable graphics engine built to make it easier to render 2D or 3D graphics.
 
 Although the month of Febuary was slow for the development of the engine, there
-have been significant efforts towards addition of [documentation][be-docs] and the
-eventual release of the next version. In the meantime, the plugins have favored significant
-updates and development in the month, notably the [egui][be-egui] plugin.
+have been significant efforts towards the addition of [documentation][be-docs]
+and the eventual release of the next version. In the meantime,
+the plugins have favored significant updates and development in the month,
+notably the [egui][be-egui] plugin.
 
 Now the [egui plugin][be-egui] allow you to render objects of the engine direction
 inside an egui window. This feature was built in collaboration with [@Noswad].
@@ -365,18 +445,18 @@ design, suggestions are welcome to cement a better design. Refer to [example][be
 After over a year in development, [version 0.1 of Ambient][ambient-blog]
 (formerly known as Dims) was unveiled to the public. It is an open-source
 multiplayer 3D game runtime, compatible with any language that compiles
-to/runs on WebAssembly, and designed to make it easy to build and deploy
+to/runs on WebAssembly, and is designed to make it easy to build and deploy
 rich multiplayer worlds and experiences.
 
 It is guided by several core principles, including seamless networking,
 data-oriented design, interoperability, and more.
 The core runtime is written in Rust and uses WGPU for graphics, Quinn
-for networking and WebAssembly for user logic. This allows it to run on
+for networking, and WebAssembly for user logic. This allows it to run on
 all major desktop platforms, with active work underway for the Web and
 other targets.
 
 Check out [the GitHub][ambient-github] (2600 stars!) to get started with
-building for/or on Ambient yourself, or chat to the developers and other
+building for/or on Ambient yourself, or chat with the developers and other
 explorers on [the Discord][ambient-discord].
 
 _Discussion: [/r/rust][ambient-reddit], [Hacker News][ambient-hn]_
@@ -399,11 +479,11 @@ Font rendering is done using sdf textures,
 which are being created on GPU based on [this article][sdf-on-gpu].
 Some font improvements from February:
 
-- better curve approximation (still can be done better like in the article)
-- use euclidean distance instead of manhattan
-- added a method to create sdf texture for text
-  (previously font only had sdf texture atlas with every glyph)
-  
+- Better curve approximation (still can be done better like in the article).
+- Use euclidean distance instead of manhattan.
+- Added a method to create sdf texture for text.
+  (previously font only had sdf texture atlas with every glyph).
+
 Support was added for OpenGL blend equations - e.g. minmax blending,
 which is now used instead of depth buffer for sdf textures
 
@@ -413,6 +493,39 @@ starting sound playback from specific position,
 and changing the speed of `SoundEffect`.
 
 [sdf-on-gpu]: https://astiopin.github.io/2019/01/06/sdf-on-gpu.html
+
+### [Fyrox][fyrox]
+
+![a hi-tech soldier model blending between 5 animations](fyrox-blend-space.gif)
+_Blend space demo_
+
+[Fyrox][fyrox] ([GitHub][fyrox-src], [Discord][fyrox-dis], [Twitter][fyrox-twi])
+is a game engine that aims to be easy to use and provide a large set
+of out-of-the-box features. This month's updates include:
+
+- [Audio system's refactoring][fyrox-audio] to make it much more flexible.
+- [Root motion][fyrox-root-motion] animation technique helps
+  prevent "floating" or "sliding" effects.
+- [Blend space][fyrox-blend-space] allows blending many animations based on
+  two numeric input parameters
+  (mostly useful for blending locomotion animations based on speed and direction).
+- [Editor restyling][fyrox-editor-restyling] brings cleaner and modern UI.
+
+February's full weekly devlogs: [#13][fyrox-13], [#14][fyrox-14],
+[#15][fyrox-15], and [#16][fyrox-16].
+
+[fyrox]: https://fyrox.rs
+[fyrox-src]: https://github.com/FyroxEngine/Fyrox
+[fyrox-dis]: https://discord.com/invite/xENF5Uh
+[fyrox-twi]: https://twitter.com/DmitryNStepanov
+[fyrox-audio]: https://fyrox.rs/blog/post/twif13#audio-system-refactoring
+[fyrox-root-motion]: https://fyrox.rs/blog/post/twif14#root-motion
+[fyrox-blend-space]: https://fyrox.rs/blog/post/twif15#blend-space
+[fyrox-editor-restyling]: https://fyrox.rs/blog/post/twif16/#editor-restyling
+[fyrox-13]: https://fyrox.rs/blog/post/twif13
+[fyrox-14]: https://fyrox.rs/blog/post/twif14
+[fyrox-15]: https://fyrox.rs/blog/post/twif15
+[fyrox-16]: https://fyrox.rs/blog/post/twif16
 
 ## Learning Material Updates
 
@@ -432,31 +545,59 @@ _Discussion: [/r/rust](https://reddit.com/r/rust/comments/11bdsys/fps_game_2kb_r
 [firstperson-wasm4-game]: https://grantshandy.github.io/wasm4-raycaster/
 [WASM-4]: https://wasm4.org
 
+### Voxel Meshing
+
+![Simple white and green voxels with ambient occlusion enabled](voxel-meshing-ao.jpg)
+
+Authors of [Space Farer][spacefarer] - a WIP voxel-based survival/building
+game - published a couple of articles about voxel meshing:
+
+- ["Voxel Meshing for the Rest of us"][voxel-meshing-1] is an
+  introduction to voxel meshing techniques.
+- ["How (Not) to Improve Voxel Meshing Performance"][voxel-meshing-2]
+  tells about some zero-copy optimizations.
+
+[voxel-meshing-1]: https://playspacefarer.com/voxel-meshing
+[voxel-meshing-2]: https://playspacefarer.com/voxel-meshing-performance
+[spacefarer]: https://playspacefarer.com
+
+### [Making Galaga in Rust with Bevy][tut-bevy-galaga-1]
+
+![tutorial's result: player's ship moves and shoots into the enemy above](galaga.gif)
+
+[@whoisryosuke] released [the first part in a series][tut-bevy-galaga-1]
+on how to build a Galaga clone using Bevy.
+It covers 2D sprites and meshes basics, setting up custom shaders for animated background,
+and adding sound.
+
+[@whoisryosuke]: https://mastodon.gamedev.place/@whoisryosuke
+[tut-bevy-galaga-1]: https://whoisryosuke.com/blog/2023/making-galaga-in-rust-with-bevy-part-1
+
 ## Tooling Updates
 
 ### Sprite and Pixel Art Editor
 
 ![Image editor screenshot](sprite_pixel_art_editor.png)
-_Screenshot of the editor_
 
 A sprite and pixel art editor made with egui and macroquad is being
-developed by @yds12 ([github][yds-github], [mastodon][yds-mastodon]).
+developed by @yds12 ([Github][yds-github], [Mastodon][yds-mastodon]).
 The project is already usable, but has not been made public yet. Current
-features are
+features are:
 
-- Drawing w/ brush, eraser, lines, rectangles, bucket (fill w/ color)
-- Color selector, editable palette and eyedropper (pick color from canvas)
-- Resize or completely erase the canvas
-- Move camera, zoom in and out
-- Selection (rectangular only for now), deleted, copied and pasted; flip
-  selection (horizontal or vertical)
-- Layers: create, remove, moved up/down, control visibility and opacity
+- Drawing w/ brush, eraser, lines, rectangles, bucket (fill w/ color).
+- Color selector, editable palette, and eyedropper (pick a color from the canvas).
+- Resize or completely erase the canvas.
+- Move the camera, zoom in and out.
+- Selection (rectangular only for now), deleted, copied, and pasted; flip
+  selection (horizontal or vertical).
+- Layers: create, remove, moved up/down, and control visibility and opacity.
 - Spritesheet: specify how many columns and rows your image has, and an
-  animated preview will be displayed in a window w/ configurable scale
-- Save/load projects (with all its settings), export and import PNG/JPG
-- Status bar w/ info about canvas size, canvas position, color under mouse, etc
+  animated preview will be displayed in a window w/ configurable scale.
+- Save/load projects (with all its settings), export and import PNG/JPG.
+- Status bar w/ info about canvas size, canvas position, color under mouse,
+  etc.
 
-The source is planned to be released in the next few weeks
+The source is planned to be released in the next few weeks.
 
 [yds-github]: https://github.com/yds12
 [yds-mastodon]: https://fosstodon.org/@yds/
@@ -472,13 +613,13 @@ node graph compositing engine.
 
 New features from February's [sprint 23][graphite-sprint-23]:
 
-- _Shaping up:_ Editing shapes is now easier thanks to point selection and
+- Shaping up: Editing shapes is now easier thanks to point selection and
   manipulation improvements.
-- _Deep dive:_ The user experience of nested layer selection is improved by
+- Deep dive: The user experience of nested layer selection is improved by
   introducing "Deepest" and "Shallowest" modes.
-- _Scroll settings:_ Scroll up-and-down, or zoom in-and-out, at your preference
+- Scroll settings: Scroll up-and-down, or zoom in-and-out, at your preference
   using the new configuration for scroll wheel behavior.
-- _Graph growth:_ Additional node graph engineering introduces graceful type
+- Graph growth: Additional node graph engineering introduces graceful type
   checking and brings GPU-accelerated compositing closer to realization.
 
 As always, new contributors are kindly invited to
@@ -494,9 +635,38 @@ designs with #MadeWithGraphite on Twitter.
 [graphite-discord]: https://discord.graphite.rs
 [graphite-twitter]: https://twitter.com/GraphiteEditor
 [graphite-sprint-23]: https://github.com/GraphiteEditor/Graphite/milestone/23
-[graphite-contribute]: https://graphite.rs/contribute
 [graphite-approachable-issues]: https://github.com/GraphiteEditor/Graphite/labels/Good%20First%20Issue
 [graphite-editor]: https://editor.graphite.rs
+
+### [rerun.io][rerun]
+
+[![egui app with lots of complex widgets, 2D and 3D views, etc](rerun.jpg)][rerun-video]
+_[Click to see Rerun's latest demo video][rerun-video]_
+
+[Rerun] ([Discord][rerun-discord]) lets you log images, point clouds
+and other visual data as easy as you would log text.
+The data is streamed in real-time to the Rerun Viewer
+which you can run natively or in a browser.
+
+> The Rerun Viewer builds configurable visualizations based on the data
+> you log and the relationships between it.
+> It uses transform hierarchies to lay out scenes and connect related data.
+> It lets you scroll back and forth in time, and toggle between showing
+> your data along different timelines, e.g. log time and sensor time.
+> It's built to be fast so you can explore without waiting.
+
+All built in Rust on top of [egui] library,
+with an API for both Rust and Python.
+
+This month, after a year of work, [Rerun was open-sourced under MIT & Apache 2][rerun-src]!
+
+_Discussions: [/r/rust](https://reddit.com/r/rust/comments/112unsd/opensourcing_rerun)_
+
+[Rerun]: https://rerun.io
+[rerun-src]: https://github.com/rerun-io/rerun
+[rerun-video]: https://youtube.com/watch?v=8ZpvOagRt-o
+[egui]: https://github.com/emilk/egui
+[rerun-discord]: https://discord.gg/PXtCgFBSmH
 
 ## Library Updates
 
@@ -528,7 +698,6 @@ _macroquad's shadertoy example with metal/glsl preview_
 
 [Nanoshredder] is an experimental fork of
 [makepad's shader-compiler][makepad-shader-compiler].
-
 It compiles rust-like DSL into GLSL, Metal and HLSL.
 
 This month it got a little [web demo]:
@@ -554,7 +723,7 @@ tested with [Miri] and follows ["Strict Provenance Rules"][strict-provenance].
 > Rust's borrow-checker ensures the requirement for reset making
 > it 100% safe to use.
 >
-> TL;DR great for games, servers, cli tools and more.
+> TL;DR great for games, servers, cli tools, and more.
 
 blink-alloc provides thread-local and multi-threaded allocators -
 `BlinkAlloc` and `SyncBlinkAlloc`.
@@ -562,14 +731,14 @@ Single-threaded version [performs many times faster than `bumpalo`][blink-bench]
 The author couldn't find another implementation to compare
 the multi-threaded version's performance.
 
-It also provided ouf-of-the-box to fetch `BlinkAlloc` in task/thread
-and return it back when done, keeping multiple `BlinkAlloc` instanced warmed.
+It also provided out-of-the-box to fetch `BlinkAlloc` in task/thread
+and return it back when done, keeping multiple `BlinkAlloc` instances warmed.
 
 On top of raw allocations blink-alloc provides `Blink` type
 that works as safe allocator adaptor.
 `Blink` can allocate memory and initialize it with values provided by user.
-User may provide values as-is, as closures or iterators.
-`Blink`'s API is safe with few exception for niche use cases.
+Users may provide values as-is, as closures, or as iterators.
+`Blink`'s API is safe with few exceptions for niche use cases.
 
 Those familiar with `bumpalo` may think of `Blink` as of `bumpalo::Bump`.
 Though `Blink`
@@ -580,7 +749,7 @@ Though `Blink`
 - Is configurable to use any `BlinkAllocator` implementation, thus not
   tied to `Global`.
 
-Currently Rust's standard collection types may use custom allocators
+Currently, Rust's standard collection types may use custom allocators
 only one nightly and with `allocator_api` feature enabled.
 blink-alloc uses `allocator-api2` crate to work on both stable and nightly.
 Integration with other crates is simple and doesn't require depending on
@@ -603,7 +772,7 @@ approach, which can make implementing asynchronous logic painful.
 It allows you to execute the code asynchronously by chaining multiple
 promises as part of [Bevy's `ecs`][ecs] environment.
 
-Each promise takes state and the result of the previous promise as arguments,
+Each promise takes the state and result of the previous promise as arguments,
 as well as any Bevy ECS system parameter, and passes the modified
 state and new promise/result to the next promise. It's easy to register custom
 promises that wait for user input, events, asset loading, and so on. You can
@@ -641,7 +810,7 @@ This month [seldom_state] 0.4 has been released:
 _A bevy crate for grass rendering_
 
 [warbler_grass] is a new experimental [Bevy] plugin.
-The goal is to provide a ergonomic, but performant way
+The goal is to provide an ergonomic, but performant way
 to easily render huge amounts of grass.
 
 Some of the currently integrated features are dynamic directional wind
@@ -658,7 +827,7 @@ The project is now also published on [crates.io][warbler_cratesio].
 Build your inventory menus with ease,
 or make that sudoku game you've always dreamed of.
 
-This also comes with more than a few performance improvements and bug fixes;
+Taffy v0.3 also comes with more than a few performance improvements and bug fixes;
 for more details, check out our [release notes].
 
 [taffy]: https://github.com/dioxuslabs/taffy
@@ -695,26 +864,118 @@ _Discussions: [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/10wfe
 [cvars-macroquad]: https://github.com/martin-t/cvars#macroquad-console
 [cvars-fyrox]: https://github.com/martin-t/cvars#fyrox-console
 
-## Popular Workgroup Issues in Github
-
-<!-- Up to 10 links to interesting issues -->
-
 ## Other News
 
 <!-- One-liners for plan items that haven't got their own sections. -->
+
+- Other game updates:
+  - [@Tantan shared a vlog][tantan-vid] about the space colonization procedual
+    tree generation technique [he's using for his voxel game][shrubbery].
+  - Denis Lavrentev shared a couple of Primitive Engineering's vlogs:
+    about [chunk management][pe-vid-1] and [the crafting system][pe-vid-2].
+  - [Hoive] is multiplayer Rust version of the Hive boardgame.
+  - [Tigris and Euphrates][tne] is a Rust version of the same-titled boardgame
+    written using macroquad.
+  - [Scalp Invaders][scalp-invaders] is game where you play as a colony of lice,
+    launching themselves with great abandon through the scalp of a disgusted victim.
+- Other engine updates:
+  - [alkahest-rs] released a couple of vlogs about
+    [UI rendering in general][alkahest-ui-rendering] and
+    [rendering children widgets inside panels][alkahest-ui-children].
+- Other learning material updates:
+  - [Faith Ekstrand published the first article][rust-vk] in a series
+    about using Rust for Vulkan drivers.
+  - ["Learn WGPU" was updated to wgpu v0.15][learn-wgpu].
+  - [PhaestusFox posted more episodes][PhaestusFox] of their "Platformer in Bevy"
+    YouTube series.
+  - The Unofficial Bevy Cheatbook by got two new chapters about
+    ["Cameras"][bevy-book-cameras] and
+    ["HDR, Tonemapping, Bloom"][bevy-book-hdr-tonemap].
+  - [Jan Metzger published an article][dps-lim-dx] about
+    dynamically limiting FPS in DirectX games from an external DLL.
+- Other tooling updates:
+  - [denog] is a gamedev-oriented fork of Deno with built-in window system
+    integration.
+  - [cargo-nds] and [libnds-rs] allow [writing Rust games for Nintendo DS][nds-ann],
+    though both are WIP.
+- Other library updates:
+  - [dlss_wgpu] provides Deep Learning Super Sampling for wgpu.
+  - [oxidized_navigation v0.2][oxi-nav] brings full support for walkable radius,
+    areas, and area cost multipliers.
+
+[tantan-vid]: https://youtube.com/watch?v=xQLVYnD43vI
+[shrubbery]: https://github.com/TanTanDev/shrubbery
+[pe-vid-1]: https://youtube.com/watch?v=_ZDagizAllY
+[pe-vid-2]: https://youtube.com/watch?v=ILslZgEBlAo
+[Hoive]: https://github.com/cooscoos/Hoive
+[tne]: https://reddit.com/r/rust_gamedev/comments/111xlv7/tigris_n_euphrates
+[scalp-invaders]: https://metalmancy.itch.io/scalp-invaders
+[learn-wgpu]: https://sotrh.github.io/learn-wgpu/news/0.15
+[PhaestusFox]: https://youtube.com/@PhaestusFox/videos
+[bevy-book-cameras]: https://bevy-cheatbook.github.io/features/camera.html
+[bevy-book-hdr-tonemap]: https://bevy-cheatbook.github.io/features/hdr-tonemap.html
+[dps-lim-dx]: https://zazama.de/blog/creating-an-fps-limiter-in-rust-by-hooking-directx
+[rust-vk]: https://collabora.com/news-and-blog/blog/2023/02/02/exploring-rust-for-vulkan-drivers-part-1
+[alkahest-rs]: https://github.com/AlkimiaStudios/alkahest-rs
+[alkahest-ui-rendering]: https://youtube.com/watch?v=cvVDSin0jpA
+[alkahest-ui-children]: https://youtube.com/watch?v=aaXflcuqQqw
+[denog]: https://reddit.com/r/rust/comments/10tsfry/denog
+[cargo-nds]: https://github.com/SeleDreams/cargo-nds
+[libnds-rs]: https://github.com/SeleDreams/libnds-rs
+[dlss_wgpu]: https://github.com/JMS55/dlss_wgpu
+[nds-ann]: https://reddit.com/r/rust/comments/10yk0kg/porting_rust_to_the_nntendo_ds
+
+[oxi-nav]: https://github.com/TheGrimsey/oxidized_navigation/blob/master/CHANGELOG.md#020-2023-02-13
 
 ## Discussions
 
 <!-- Links to handpicked reddit/twitter/urlo/etc threads that provide
 useful information -->
 
+- /r/rust_gamedev:
+  - ["We’re not really game yet"][reddit-not-there-yet]
+- /r/rust:
+  - ["Does anyone here work in gamedev with Rust?”][reddit-anyone-works]
+
+[reddit-not-there-yet]: https://reddit.com/r/rust_gamedev/comments/11b0brr/were_not_really_game_yet
+[reddit-anyone-works]: https://reddit.com/r/rust/comments/11bn8f1/does_anyone_here_work_in_gamedev_with_rust
+
 ## Requests for Contribution
 
 <!-- Links to "good first issue"-labels or direct links to specific tasks -->
 
-## Jobs
+- ['Are We Game Yet?' wants to know about projects/games/resources that
+  aren't listed yet][awgy].
+- [Graphite is looking for contributors][graphite-contribute] to help build the
+  new node graph and 2D rendering systems.
+- [winit's "difficulty: easy" issues][winit-issues].
+- [Backroll-rs, a new networking library][backroll-rs].
+- [Embark's open issues][embark-open-issues] ([embark.rs]).
+- [wgpu's "help wanted" issues][wgpu-issues].
+- [luminance's "low hanging fruit" issues][luminance-fruits].
+- [ggez's "good first issue" issues][ggez-issues].
+- [Veloren's "beginner" issues][veloren-beginner].
+- [A/B Street's "good first issue" issues][abstreet-issues].
+- [Mun's "good first issue" issues][mun-issues].
+- [SIMple Mechanic's good first issues][simm-issues].
+- [Bevy's "good first issue" issues][bevy-issues].
+- [Ambient's "good first issue" issues][ambient-issues].
 
-<!-- An optional section for new jobs related to Rust gamedev -->
+[awgy]: https://github.com/rust-gamedev/arewegameyet#contribute
+[graphite-contribute]: https://graphite.rs/contribute
+[winit-issues]: https://github.com/rust-windowing/winit/issues?q=is%3Aopen+is%3Aissue+label%3A%22difficulty%3A+easy%22
+[backroll-rs]: https://github.com/HouraiTeahouse/backroll-rs/issues
+[embark.rs]: https://embark.rs
+[embark-open-issues]: https://github.com/search?q=user:EmbarkStudios+state:open
+[wgpu-issues]: https://github.com/gfx-rs/wgpu/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
+[luminance-fruits]: https://github.com/phaazon/luminance-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22low+hanging+fruit%22
+[ggez-issues]: https://github.com/ggez/ggez/labels/%2AGOOD%20FIRST%20ISSUE%2A
+[veloren-beginner]: https://gitlab.com/veloren/veloren/issues?label_name=beginner
+[abstreet-issues]: https://github.com/a-b-street/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
+[simm-issues]: https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue
+[bevy-issues]: https://github.com/bevyengine/bevy/labels/D-Good-First-Issue
+[ambient-issues]: https://github.com/AmbientRun/Ambient/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22
 
 ------
 

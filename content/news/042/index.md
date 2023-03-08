@@ -94,7 +94,8 @@ The 23rd Rust Gamedev Meetup took place in January. You can watch the recording
 of the meetup [here on Youtube][gamedev-meetup-video]. Here was the schedule
 from the meetup:
 
-- Micro Game Engine - [@AngelOnFira]
+- Blade - [@kvark]
+- Digital Extinction- [@Indy2222]
 - Graphite - [@GraphiteEditor]
 
 The meetups take place on the second Saturday of every month via the [Rust
@@ -104,8 +105,9 @@ Twitch][rust-gamedev-twitch].
 [gamedev-meetup-video]: https://youtu.be/iSu-9yKsCRY
 [rust-gamedev-discord]: https://discord.gg/yNtPTb2
 [rust-gamedev-twitch]: https://twitch.tv/rustgamedev
-[@AngelOnFira]: https://twitter.com/AngelOnFira
+[@Indy2222]: https://twitter.com/Indy2222
 [@GraphiteEditor]: https://twitter.com/GraphiteEditor
+[@kvark]: https://github.com/kvark
 
 ## Game Updates
 
@@ -145,7 +147,6 @@ A more detailed update summary is available [here][de-update-04].
 [de-github]: https://github.com/DigitalExtinction/Game
 [de-discord]: https://discord.gg/vHMFuCWGSX
 [de-reddit]: https://reddit.com/r/DigitalExtinction
-[@Indy2222]: https://github.com/Indy2222
 [@0HyperCube]: https://github.com/0HyperCube
 [@Polostor]: https://github.com/Polostor
 [Bevy]: https://bevyengine.org
