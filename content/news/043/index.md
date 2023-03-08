@@ -988,14 +988,11 @@ Also, subscribe to @rust_gamedev on [Twitter][rust_gamedev_twi],
 [Mastodon][rust_gamedev_mas], or [/r/rust_gamedev subreddit][/r/rust_gamedev]
 if you want to receive fresh news!
 
-<!--
-TODO: Add real links and un-comment once this post is published
 **Discuss this post on**:
-[/r/rust_gamedev](TODO),
-[Twitter](TODO),
-[Mastodon](TODO),
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/11m3z9e/rust_gamedev_43),
+[Twitter](https://twitter.com/rust_gamedev/status/1633533886566105088),
+[Mastodon](https://mastodon.gamedev.place/@rust_gamedev/109989058552826681),
 [Discord](https://discord.gg/yNtPTb2).
--->
 
 [/r/rust_gamedev]: https://reddit.com/r/rust_gamedev
 [rust_gamedev_twi]: https://twitter.com/rust_gamedev
