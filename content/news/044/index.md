@@ -82,7 +82,8 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Other News
 
-<!-- One-liners for plan items that haven't got their own sections. -->
+- Other upcoming events
+  - [UARust Conference 2023](https://www.uarust.com/). Among speakers are Luca Palmieri, author of the book [Zero To Production In Rust](https://algoluca.gumroad.com/l/zero2prod) and Christof Petig, one of the core developers of [Veloren](https://gitlab.com/veloren/veloren).
 
 ## Discussions
 

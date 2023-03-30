@@ -902,6 +902,8 @@ _Discussions: [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/10wfe
   - [dlss_wgpu] provides Deep Learning Super Sampling for wgpu.
   - [oxidized_navigation v0.2][oxi-nav] brings full support for walkable radius,
     areas, and area cost multipliers.
+- Other upcoming events
+  - [UARust Conference 2023](https://www.uarust.com/). Among speakers are Luca Palmieri, author of the book [Zero To Production In Rust](https://algoluca.gumroad.com/l/zero2prod) and Christof Petig, one of the core developers of [Veloren](https://gitlab.com/veloren/veloren).
 
 [tantan-vid]: https://youtube.com/watch?v=xQLVYnD43vI
 [shrubbery]: https://github.com/TanTanDev/shrubbery
