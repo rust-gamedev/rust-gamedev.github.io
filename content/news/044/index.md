@@ -68,6 +68,30 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [8bit Duels]
+
+![movement_animations](8bit-duels-game.png)
+_An 8bit Duels match_
+
+[@ThousandthStar] is creating a simple multiplayer turn-based strategy using the
+[Bevy Engine]. The [latest devlog] brings features like ownership indicators,
+movement and attack animations, and a chat system.
+
+The game is under development. The [Discord] is the best place to talk about the
+game.
+
+8bit Duels will be getting UI updates next, and the first version should release
+soon after that. Other troops are coming as well.
+
+_Discussions:_
+[Discord]
+
+[8bit Duels]: https://thousandthstar.github.io/
+[@ThousandthStar]: https://github.com/ThousandthStar
+[Bevy Engine]: https://bevyengine.org/
+[latest devlog]: https://thousandthstar.github.io/posts/8bd/8bd-part6/
+[Discord]: https://discord.com/invite/NbBcF4bGU5
+
 ## Engine Updates
 
 ## Learning Material Updates
