@@ -68,6 +68,23 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### Shifting Chamber
+
+![Shifting Chamber Screen shot](shifting_chamber.png)
+
+Shifthing Chamber ([itch.io][shifting-chamber-itch],
+[Github][shifting-chamber-github]) is a simple tactics game where
+player, instead of moving the character, manipulates the map around it.
+The goal is to defeat the enemies by forcing them into hazardous
+positions - since they cannot be attacked directly.
+
+The game is in an early prototype / proof of concept phase.
+It is written with a help of the Bevy engine.
+There is currently only a WASM build (freely available on the itch.io)
+
+[shifting-chamber-itch]: https://maciekglowka.itch.io/shifting-chamber
+[shifting-chamber-github]: https://github.com/maciekglowka/shifting_chamber
+
 ## Engine Updates
 
 ## Learning Material Updates
