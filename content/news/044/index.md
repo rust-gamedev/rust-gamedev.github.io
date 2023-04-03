@@ -72,6 +72,16 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Learning Material Updates
 
+### Developing an editor with egui.
+
+![Gif displaying the functionality of the editor](TheGrimsey-Editor.gif)
+
+[@TheGrimsey](https://mastodon.social/@TheGrimsey) published a three part series of articles about developing a Spell Editor with egui.
+
+- ["Databases & Editors (1/3)"](https://thegrimsey.net/2023/03/07/Bevy-Four-Editor.html) covers displaying egui windows & tables of entries.
+- ["Editors (2/3): Editing entries"](https://thegrimsey.net/2023/03/12/Bevy-Five-Editor-Two.html) elaborates on handling editing of entries & properties such as enums.
+- Finally, ["Editors (3/3): Selection dialog & new entries"](https://thegrimsey.net/2023/03/21/Bevy-Six-Editor-Three.html) talks about developing a selection dialog and creating new entries.
+
 ## Tooling Updates
 
 ## Library Updates
