@@ -74,6 +74,29 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Tooling Updates
 
+### Tiger
+
+![Tiger screenshot](tiger.png)
+
+Tiger ([Github](https://github.com/agersant/tiger),
+[itch.io](https://agersant.itch.io/tiger)) by
+[@agersant](https://mastodon.gamedev.place/@agersant) is a visual tool to
+author game spritesheets and their metadata.
+
+Version 1.0 launched this month, which means Tiger is ready for production.
+It currently has the following features:
+
+- Easy-to-use timeline to author animation.
+- Supports perspectives for any 2D game (top-down, sidescroller, isometric,
+  etc.).
+- Automatically hot-reloads source images when they are changed.
+- Packs animation frames into texture atlases.
+- Can add and tag hitboxes.
+- Flexible template system exports metadata in any text-based format.
+- Free and open-source with a permissive license.
+
+Tiger: https://agersant.itch.io/tiger
+
 ## Library Updates
 
 ## Popular Workgroup Issues in Github
