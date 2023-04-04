@@ -68,6 +68,26 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [ZOMBIE DEMO GAME]
+
+![A person in a red suit shooting zombies with a pistol](zombie-demo-game.png)
+
+[ZOMBIE DEMO GAME] is a small third person zombie shooter by [@LPGhatguy] and
+[@evaera] that released this month.
+
+It features an astonishing 10 minutes of gameplay, a built-in level editor, and
+zombies! It was produced in order to practice shipping a game and uses a custom
+engine using wgpu, hecs, and lots of other great crates from the ecosystem.
+
+ZOMBIE DEMO GAME is available for Windows and Linux
+[on itch.io][ZOMBIE DEMO GAME] today.
+
+_Discussion: [Twitter](https://twitter.com/LPGhatguy/status/1632596982928687104)_
+
+[@LPGhatguy]: https://twitter.com/LPGhatguy
+[@evaera]: https://twitter.com/evaeraevaera
+[ZOMBIE DEMO GAME]: https://lpghatguy.itch.io/zombie-demo-game
+
 ## Engine Updates
 
 ## Learning Material Updates
