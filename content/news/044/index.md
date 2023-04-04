@@ -70,6 +70,35 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Engine Updates
 
+### hotline
+
+![hotline_client](hotline_rdg44.jpg)
+ _hotline live coding client_
+
+hotline ([GitHub], [Blog], [Twitter]) is a modern, high-performance, hot-reload 
+graphics engine written in Rust. It aims to provide low-level access 
+to modern graphics API features, while at the same time providing high-level 
+ergonomic optimizations.  
+
+It uses Bevy's ECS so the focus can remain primarily on the graphics architecture. 
+Direct3D12 is the only supported platform, but the graphics API is abstracted to 
+account for future ports to Vulkan and Metal. The project is in its early stages 
+but already has a decent amount of features showcasing different render strategies, 
+async command buffer generation, plugin based architecture, and hot-reload 
+support for Rust code, HLSL shaders, and render configs. It supports ImGui with 
+docking and multiple windows, video decoding, complex image loading (cubemaps, 
+arrays, volumes) and more.
+
+[@polymonster] has been live streaming development on [Twitch] with archives 
+available on [YouTube]. Recently they have been designing a bindless material 
+system.
+
+[GitHub]: https://github.com/polymonster/hotline
+[Blog]: https://www.polymonster.co.uk
+[Twitter]: https://twitter.com/polymonster
+[Twitch]: https://www.twitch.tv/polymonstr
+[YouTube]: https://www.youtube.com/channel/UCQRmui5w4Urz-h4P9CL7rmA
+
 ## Learning Material Updates
 
 ## Tooling Updates
