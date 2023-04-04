@@ -68,6 +68,27 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Screen Ball]
+
+![Screen Ball](screen-ball.png)
+
+Are you tired from work? Play ball on screen for a rest! This cool idea is from bevy community PaulH#7052. 
+You can view demo on [YouTube][screen-ball-yt].
+
+[Screen Ball]: https://github.com/NightsWatchGames/screen-ball
+[screen-ball-yt]: https://www.youtube.com/watch?v=pKV6fTmJfmE
+
+### [Battle City]
+
+![Battle City](battle-city.png)
+
+A clone of classical battle city game made with bevy engine, which brought a lot of happiness to my childhood.
+You can view demo on [YouTube][battle-city-yt] or play it [here][play-battle-city].
+
+[Battle City]: https://github.com/NightsWatchGames/battle-city
+[battle-city-yt]: https://www.youtube.com/watch?v=54Z2WBFZfzA
+[play-battle-city]: https://nightswatchgames.github.io/games/battle-city/
+
 ## Engine Updates
 
 ## Learning Material Updates
