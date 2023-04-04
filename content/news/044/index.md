@@ -71,7 +71,6 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ### [CyberGate][cybergate-yt]
 
 ![Hit and blackhole particle effects](cybergate.gif)
-
 _Particles emit from each bullet hit. Blackhole particles can also be seen_
 
 CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]), an ambitious multiplayer project in development by CyberSoul, aims to invite players into a constantly evolving universe. Harnessing the power of procedural generation and artificial intelligence, this work-in-progress aspires to provide an engaging experience that emphasizes exploration and discovery across its diverse worlds.
