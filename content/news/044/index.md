@@ -93,6 +93,7 @@ arrays, volumes) and more.
 available on [YouTube]. Recently they have been designing a bindless material 
 system.
 
+[@polymonster]: https://github.com/polymonster
 [GitHub]: https://github.com/polymonster/hotline
 [Blog]: https://www.polymonster.co.uk
 [Twitter]: https://twitter.com/polymonster
