@@ -68,6 +68,29 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Way of Rhea][wor]
+
+[![way of rhea capsule image](wor-capsule.jpg)][wor]
+
+[Way of Rhea][wor] is a puzzle game with hard puzzles and forgiving
+mechanics being produced by [@masonremaley][wor-mason-remaley] in a custom Rust
+engine. You can support development by
+[checking out the free demo and wishlisting on Steam][wor]!
+
+Recent updates:
+
+- Undo/redo is better tutorialized
+- Existing onboarding hints were improved both functionally and visually
+- New onboarding hints were added to ensure new players understand that teleporters are interactive
+- Various performence improvements were made
+- End game puzzles were completed
+- Work has begun on laying out the end game art
+- A release plan has been drafted
+- Way of Rhea was shown at PAX West
+
+[wor]: https://store.steampowered.com/app/1110620/Way_of_Rhea/?utm_campaign=tmirgd&utm_source=n36
+[wor-mason-remaley]: https://twitter.com/masonremaley
+
 ## Engine Updates
 
 ## Learning Material Updates
