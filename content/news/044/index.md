@@ -272,6 +272,31 @@ Recent updates:
 [wor-mason-remaley]: https://twitter.com/masonremaley
 [wor-puzzle-fest]: https://partner.steamgames.com/doc/marketing/upcoming_events/themed_sales/puzzle_2023
 
+### [Boat Journey][boat-journey-itch]
+
+[![Screenshot from the game Boat Journey showing ASCII art of a boat and some islands](boat-journey-screenshot.png)
+_Carry your passengers safely to the ocean in Boat Journey._][boat-journey-itch]
+
+[Boat Journey][boat-journey-itch] ([Github][boat-journey-github]) is a turn-based game where you drive a boat through a
+procedurally-generated landscape on a voyage along a river destined for the
+ocean. Accept passengers to have them help you on your journey. Fight monsters,
+collect junk, trade the junk for fuel, use the fuel to travel to the ocean.
+
+Features:
+
+- Large procedurally-generated world
+- Turn the boat at 45 degree increments
+- Text-only graphics. You can play it in a terminal if you like!
+- Hand-drawn ansi-art character portraits
+- You can take on a ghost as a passenger and then become a ghost yourself.
+
+Boat Journey was made for the [7 Day Roguelike 2023][7drl-itch] game jam. The devlog is [here][boat-journey-devlog].
+
+[boat-journey-itch]: https://gridbugs.itch.io/boat-journey
+[boat-journey-github]: https://github.com/gridbugs/boat-journey
+[7drl-itch]: https://itch.io/jam/7drl-challenge-2023
+[boat-journey-devlog]: https://www.gridbugs.org/7drl2023-day1/
+
 ## Engine Updates
 
 ### hotline
