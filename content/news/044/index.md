@@ -68,6 +68,37 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Jumpy]
+
+![Live Map Editing Example](jumpy.gif)
+_Live Map Editing!_
+
+[Jumpy] ([GitHub][Jumpy], [Discord][jumpy_discord], [Twitter][jumpy_twitter]) by
+[Spicy Lobster][spicy_lobster] is a pixel-style, tactical 2D shooter with a fishy
+theme.
+
+In the last month, the first [MVP release][jumpy_v0.6.0] of Jumpy was made. The
+release adds some major new features including a live map editor, critters,
+extended player animations, and basic AI. Soon afterward [an update][jumpy_v0.6.1]
+was made with revised maps and some important bug fixes.
+
+Along with the release, they published a retrospective, sharing thoughts on some
+of the lessons learned during development:
+[Jumpy v0.6 Retrospective][jumpy_retrospective].
+
+The efforts are now focused on getting network play implemented, with a two
+player LAN proof-of-concept already working. The hope is to get the remaining
+issues fixed and the already-developed online matchmaker connected before making
+another release as soon as it's ready.
+
+[Jumpy]: https://github.com/fishfolks/jumpy
+[jumpy_v0.6.0]: https://github.com/fishfolk/jumpy/releases/tag/v0.6.0
+[jumpy_v0.6.1]: https://github.com/fishfolk/jumpy/releases/tag/v0.6.1
+[jumpy_twitter]: https://twitter.com/spicylobsterfam
+[jumpy_discord]: https://discord.gg/4smxjcheE5
+[spicy_lobster]: https://spicylobster.itch.io
+[jumpy_retrospective]: https://fishfolk.org/blog/jumpy-0-6-retrospective/
+
 ## Engine Updates
 
 ## Learning Material Updates
