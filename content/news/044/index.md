@@ -82,14 +82,14 @@ release adds some major new features including a live map editor, critters,
 extended player animations, and basic AI. Soon afterward [an update][jumpy_v0.6.1]
 was made with revised maps and some important bug fixes.
 
-Along with the release, they published a retrospective, sharing thoughts on some
-of the lessons learned during development:
+Along with the release is a new blog post, sharing thoughts on some of the lessons
+learned during development:
 [Jumpy v0.6 Retrospective][jumpy_retrospective].
 
 The efforts are now focused on getting network play implemented, with a two
 player LAN proof-of-concept already working. The hope is to get the remaining
-issues fixed and the already-developed online matchmaker connected before making
-another release as soon as it's ready.
+issues fixed and the online matchmaker connected before making another release
+as soon as it's ready.
 
 [Jumpy]: https://github.com/fishfolks/jumpy
 [jumpy_v0.6.0]: https://github.com/fishfolk/jumpy/releases/tag/v0.6.0
