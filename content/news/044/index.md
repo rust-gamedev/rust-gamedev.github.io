@@ -81,7 +81,8 @@ Recent updates:
 
 - Undo/redo is better tutorialized
 - Existing onboarding hints were improved both functionally and visually
-- New onboarding hints were added to ensure new players understand that teleporters are interactive
+- New onboarding hints were added to ensure new players understand that
+  teleporters are interactive
 - Various performence improvements were made
 - End game puzzles were completed
 - Work has begun on laying out the end game art
