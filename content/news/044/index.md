@@ -87,9 +87,11 @@ Recent updates:
 - Work has begun on laying out the end game art
 - A release plan has been drafted
 - Way of Rhea was shown at PAX West
+- Way of Rhea will be part of the upcoming [Steam Puzzle Fest](wor-puzzle-fest)!
 
 [wor]: https://store.steampowered.com/app/1110620/Way_of_Rhea/?utm_campaign=tmirgd&utm_source=n36
 [wor-mason-remaley]: https://twitter.com/masonremaley
+[wor-puzzle-fest]: https://partner.steamgames.com/doc/marketing/upcoming_events/themed_sales/puzzle_2023
 
 ## Engine Updates
 
