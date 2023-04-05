@@ -76,14 +76,14 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [Rerun](https://www.rerun.io/)
 
+![Rerun's new select & hover highlights in a browser](rerun.gif)
+
 Rerun ([Discord](https://discord.gg/npTFxYR9), [Github](https://github.com/rerun-io/rerun), [Website](https://www.rerun.io/))
 is an open source SDK for logging complex visual data paired with a visualizer for exploring that data over time.
 While its primary focus is on robotics and computer vision, it can be useful for all kinds of
 rapid prototyping & algorithm development.
 
 Two new versions got released in March, [0.4.0](https://github.com/rerun-io/rerun/releases/tag/v0.4.0) is now latest. A few of the biggest highlights:
-
-![video showing Rerun's new highlighting](https://user-images.githubusercontent.com/1220815/228241887-03b311e2-80e9-4541-9281-6d334a15ab04.mp4)
 
 * The web-viewer is, while still experimental & unpolished, now stable. [Try it out here!](https://app.rerun.io/)
 * Depth textures can now directly be visualized with point clouds and have a variety of color map settings.
