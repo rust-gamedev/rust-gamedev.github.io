@@ -72,6 +72,35 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Learning Material Updates
 
+### [Writing NES assembly programs in a Rust DSL][writing-nes-programs-in-rust-video]
+
+[![Title slide from presentation about writing NES assembly programs in Rust](nes-programming-in-rust-cover.png)
+_Video: Talk about writing NES assembly programs in Rust_][writing-nes-programs-in-rust-video]
+
+This is a talk about writing a program for the Nintendo Entertainment System
+that exposes all of its audio processor registers through an interface that lets
+the user flip bits using the controller and hear the result in real time. The
+program is written in Rust using an Embedded Domain-Specific Language. The talk
+demonstrates the features of the language and how they can be used to help
+express NES assembly programs in Rust.
+
+Some features of the EDSL:
+
+- defining and calling assembly functions by string labels
+- using Rust as a powerful macro language (e.g. generate code inside a for-loop)
+- using Rust's type system to catch invalid combinations of instruction and
+  addressing mode
+
+The source code for the NES program described in the talk is
+[here][nes-audio-playground-github] and there is a [demo of the tool on
+youtube][nes-audio-tool-demo-video]. The PDF of the slides from the talk are
+[here][writing-nes-programs-in-rust-pdf].
+
+[writing-nes-programs-in-rust-video]: https://www.youtube.com/watch?v=hs-MrEoOX5Y
+[nes-audio-playground-github]: https://github.com/gridbugs/nes-audio-playground
+[writing-nes-programs-in-rust-pdf]: https://raw.githubusercontent.com/gridbugs/nes-programming-in-rust-sydney-rust-meetup-2023-03-01/main/slides.pdf
+[nes-audio-tool-demo-video]: https://www.youtube.com/watch?v=QHoISiWdPXo
+
 ## Tooling Updates
 
 ## Library Updates
