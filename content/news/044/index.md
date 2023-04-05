@@ -504,6 +504,7 @@ We welcome [contributions][tarsila-contrib]! Big thanks to contributors
 
 ## Library Updates
 
+<<<<<<< HEAD
 ### [`bevy_text_mode`]
 
 ![Screenshot of 1-bit sprites drawn using bevy_text_mode.](bevy_text_mode.png)
@@ -558,6 +559,34 @@ _Discussions:
 [extreme_bevy]: https://johanhelsing.studio/posts/extreme-bevy
 [Matchbox]: https://github.com/johanhelsing/matchbox
 [matchbox-0.6]: https://johanhelsing.studio/posts/matchbox-0-6
+
+### [rust-gpu-sdf]
+
+![3d-distance-field](rust-gpu-sdf.gif)
+_An implicit surface defined compositionally, raymarched, and shaded entirely in Rust_
+
+Announcing [rust-gpu-sdf], by [@Shfty]; a `no-std` signed distance field library designed for use on both CPU and GPU.
+
+[Signed distance fields](https://en.wikipedia.org/wiki/Signed_distance_function) are a powerful computational tool 
+that allow a surface to be represented by a function from position to distance.
+This has [intuitive applications](https://iquilezles.org/articles/raymarchingdf/) in various domains such as rendering, collision, meshing, and volume modeling,
+providing the means to represent analytically smooth geometry, dynamic morphing (as pictured),
+and various other effects that would traditionally require specialized tools to model.
+
+[rust-gpu-sdf] aims to enumerate this domain to the fullest extent allowed by Rust's type system,
+lifting its traditionally monolithic implementation style into a set of intuitive composable operators,
+and leveraging a natural synergy with functional programming to provide powerful compositional tools.
+
+Contrary to its working title, [rust-gpu-sdf] is actually [rust-gpu]-agnostic, so can be used anywhere Rust can;
+it's presently named as such due to being built as the primary consumer of [bevy-rust-gpu],
+with a view to providing a performant and compositional way to compile SDFs into SPIR-V for rendering on the GPU.
+
+It's presently in a heavy-development prerelease state, so watch this space!
+
+[@Shfty]: https://github.com/Shfty
+[rust-gpu-sdf]: https://github.com/bevy-rust-gpu/rust-gpu-sdf
+[bevy-rust-gpu]: https://github.com/bevy-rust-gpu
+[rust-gpu]: https://github.com/EmbarkStudios/rust-gpu
 
 ## Popular Workgroup Issues in Github
 
