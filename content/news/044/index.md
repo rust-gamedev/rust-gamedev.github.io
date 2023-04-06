@@ -72,6 +72,19 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Learning Material Updates
 
+### [NPCs and Dialog in Bevy][logic-devlog-video]
+
+![Youtube preview: game screenshot and Rust code](logic-projects-thumbnail.png)
+
+[Matthew Bryant][matthew-bryant] released [a video][logic-devlog-video]
+focused on the design and implementation of a dialog system for NPCs
+in his [RPG game][logic-rpg].  This is the 4th in a weekly series about
+the high level ECS design of a full game using Bevy.
+
+[logic-devlog-video]: https://youtu.be/luyDgccpHgE
+[matthew-bryant]: https://youtube.com/@logicprojects
+[logic-rpg]: https://github.com/mwbryant/logic-turn-based-rpg
+
 ## Tooling Updates
 
 ## Library Updates
