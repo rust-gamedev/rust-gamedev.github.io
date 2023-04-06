@@ -72,21 +72,24 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ![Screen Ball](screen-ball.png)
 
-Are you tired from work? Play ball on screen for a rest! This cool idea is from bevy community PaulH#7052. 
-You can view demo on [YouTube][screen-ball-yt].
+[Screen Ball] ([GitHub][Screen Ball], [YouTube][screen-ball-yt]) by [@lewiszlw]
+is a game let you play ball on screen for a rest when you're tired from work, inspired by the video published by bevy community member PaulH#7052.
 
 [Screen Ball]: https://github.com/NightsWatchGames/screen-ball
 [screen-ball-yt]: https://www.youtube.com/watch?v=pKV6fTmJfmE
+[@lewiszlw]: https://github.com/lewiszlw
 
 ### [Battle City]
 
 ![Battle City](battle-city.png)
 
-A clone of classical battle city game made with bevy engine, which brought a lot of happiness to my childhood.
-You can view demo on [YouTube][battle-city-yt] or play it [here][play-battle-city].
+[Battle City] ([GitHub][Battle City], [YouTube][battle-city-yt]) by [@lewiszlw]
+is a clone of classical battle city game made with bevy engine, which brought a lot of happiness to my childhood.
+You can play it [here][play-battle-city].
 
 [Battle City]: https://github.com/NightsWatchGames/battle-city
 [battle-city-yt]: https://www.youtube.com/watch?v=54Z2WBFZfzA
+[@lewiszlw]: https://github.com/lewiszlw
 [play-battle-city]: https://nightswatchgames.github.io/games/battle-city/
 
 ## Engine Updates
