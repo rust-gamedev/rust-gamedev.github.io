@@ -78,10 +78,12 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ![Rerun's new select & hover highlights in a browser](rerun.gif)
 
-Rerun ([Discord](https://discord.gg/npTFxYR9), [Github](https://github.com/rerun-io/rerun),
-[Website](https://www.rerun.io/)) is an open source SDK for logging complex visual data paired
-with a visualizer for exploring that data over time. While its primary focus is on robotics and
-computer vision, it can be useful for all kinds of rapid prototyping & algorithm development.
+Rerun ([Discord](https://discord.gg/npTFxYR9),
+[Github](https://github.com/rerun-io/rerun), [Website](https://www.rerun.io/))
+is an open source SDK for logging complex visual data paired with a visualizer
+for exploring that data over time. While its primary focus is on robotics and
+computer vision, it can be useful for all kinds of
+rapid prototyping & algorithm development.
 
 Two new versions got released in March,
 [0.4.0](https://github.com/rerun-io/rerun/releases/tag/v0.4.0)
@@ -99,10 +101,12 @@ is now latest. A few of the biggest highlights:
 - Python packages now work with Ubuntu-20.04.
 - Many performance & bug fixes as well as compile time improvements.
 
-There's a growing community on [Discord](https://discord.gg/npTFxYR9) that can join if you have
-questions, comments or just want to follow the latest development.
-The [Github project](https://github.com/rerun-io/rerun) is MIT/Apache licensed and open to
-contribute for everyone, be it with suggestions, bugs or PRs.
+There's a growing community on [Discord](https://discord.gg/npTFxYR9)
+that can join if you have questions,
+comments or just want to follow the latest development.
+The [Github project](https://github.com/rerun-io/rerun) is MIT/Apache
+licensed and open to contribute for everyone,
+be it with suggestions, bugs or PRs.
 
 ## Library Updates
 
