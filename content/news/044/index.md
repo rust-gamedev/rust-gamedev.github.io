@@ -262,7 +262,7 @@ Editor with egui.
 
 ### [Writing NES assembly programs in a Rust DSL][writing-nes-programs-in-rust-video]
 
-[![Title slide from presentation about writing NES assembly programs in Rust](nes-programming-in-rust-cover.png)
+[![Title slide from presentation about writing NES assembly programs in Rust](nes-programming-in-rust-cover.jpg)
 _Video: Talk about writing NES assembly programs in Rust_][writing-nes-programs-in-rust-video]
 
 This is a talk about writing a program for the Nintendo Entertainment System
