@@ -246,6 +246,32 @@ A more detailed monthly updates are available [here (March)][de-update-05] and
 [de-update-05]: https://mgn.cz/blog/de05/
 [de-update-06]: https://mgn.cz/blog/de06/
 
+### [Way of Rhea][wor]
+
+[![way of rhea capsule image](wor-capsule.jpg)][wor]
+
+[Way of Rhea][wor] is a puzzle game with hard puzzles and forgiving
+mechanics being produced by [@masonremaley][wor-mason-remaley] in a custom Rust
+engine. You can support development by
+[checking out the free demo and wishlisting on Steam][wor]!
+
+Recent updates:
+
+- Undo/redo is better tutorialized
+- Existing onboarding hints were improved both functionally and visually
+- New onboarding hints were added to ensure new players understand that
+  teleporters are interactive
+- Various performence improvements were made
+- End game puzzles were completed
+- Work has begun on laying out the end game art
+- A release plan has been drafted
+- Way of Rhea was shown at PAX West
+- Way of Rhea will be part of the upcoming [Steam Puzzle Fest][wor-puzzle-fest]!
+
+[wor]: https://store.steampowered.com/app/1110620/Way_of_Rhea/?utm_campaign=tmirgd&utm_source=n44
+[wor-mason-remaley]: https://twitter.com/masonremaley
+[wor-puzzle-fest]: https://partner.steamgames.com/doc/marketing/upcoming_events/themed_sales/puzzle_2023
+
 ## Engine Updates
 
 ### hotline
