@@ -93,7 +93,7 @@ The most notable updates are:
   message is displayed.
 - [Bevy] was upgraded to v0.10.
 
-See [gameplay][video] screen recordings on YouTube.
+See [gameplay][de-video] screen recordings on YouTube.
 
 A more detailed monthly updates are available [here (March)][de-update-05] and
 [here (April)][de-update-06].
@@ -103,7 +103,7 @@ A more detailed monthly updates are available [here (March)][de-update-05] and
 [de-discord]: https://discord.gg/vHMFuCWGSX
 [de-reddit]: https://reddit.com/r/DigitalExtinction
 [Bevy]: https://bevyengine.org
-[video-game]: https://youtu.be/_ibNMDgIQDE
+[de-video]: https://youtu.be/_ibNMDgIQDE
 [de-update-05]: https://mgn.cz/blog/de05/
 [de-update-06]: https://mgn.cz/blog/de06/
 
