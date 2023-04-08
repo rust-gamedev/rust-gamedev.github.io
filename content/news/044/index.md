@@ -72,7 +72,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ![Shifting Chamber Screen shot](shifting_chamber.png)
 
-Shifthing Chamber ([itch.io][shifting-chamber-itch],
+Shifting Chamber ([itch.io][shifting-chamber-itch],
 [Github][shifting-chamber-github]) is a simple tactics game where
 player, instead of moving the character, manipulates the map around it.
 The goal is to defeat the enemies by forcing them into hazardous
