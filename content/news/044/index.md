@@ -72,7 +72,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Learning Material Updates
 
-### Developing an editor with egui.
+### Developing an editor with egui
 
 ![Gif displaying the functionality of the editor](TheGrimsey-Editor.gif)
 
