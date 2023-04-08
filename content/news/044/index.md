@@ -187,6 +187,26 @@ release as soon as it's ready.
 [spicy_lobster]: https://spicylobster.itch.io
 [jumpy_retrospective]: https://fishfolk.org/blog/jumpy-0-6-retrospective/
 
+### [Tunnet][tunnet-itch]
+
+![Tunnet screenshot: a weird looking computer network](tunnet.jpg)
+_Example of a puzzle in Tunnet_
+
+Tunnet ([Steam][tunnet-steam], [Itch.io][tunnet-itch]) by
+[@puzzled\_squid][puzzled_squid] is a short puzzle/exploration game where you
+build a computer network in an underground complex.
+
+This project is still WIP and a first [devlog][tunnet-post] has been
+posted this month. The post describes the main gameplay loop as well as some
+of the new environments recently added.
+
+The game is developed using Bevy and is expected to be released late 2023.
+
+[tunnet-itch]: https://puzzled-squid.itch.io/tunnet
+[tunnet-steam]: https://store.steampowered.com/app/2286390/Tunnet
+[tunnet-post]: https://puzzled-squid.itch.io/tunnet/devlog/507508/devlog-0-gameplay-loop-and-subnetworks
+[puzzled_squid]: https://puzzledsquid.xyz
+
 ## Engine Updates
 
 ### hotline
