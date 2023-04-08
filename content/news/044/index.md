@@ -211,6 +211,31 @@ Editor with egui.
 
 ## Tooling Updates
 
+### Tiger
+
+![Tiger screenshot](tiger.png)
+
+Tiger ([Github][tiger-github],
+[itch.io][tiger-itch.io] by
+[@agersant] is a visual tool to
+author game spritesheets and their metadata.
+
+Version 1.0 launched this month, which means Tiger is ready for production.
+It currently has the following features:
+
+- Easy-to-use timeline to author animation.
+- Supports perspectives for any 2D game (top-down, sidescroller, isometric,
+  etc.).
+- Automatically hot-reloads source images when they are changed.
+- Packs animation frames into texture atlases.
+- Can add and tag hitboxes.
+- Flexible template system exports metadata in any text-based format.
+- Free and open-source with a permissive license.
+
+[tiger-github]: https://github.com/agersant/tiger
+[tiger-itch.io]: https://agersant.itch.io/tiger
+[@agersant]: https://mastodon.gamedev.place/@agersant
+
 ## Library Updates
 
 ### [`bevy_text_mode`]
