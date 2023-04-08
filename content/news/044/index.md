@@ -76,6 +76,25 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library Updates
 
+### [`bevy_text_mode`]
+
+![Screenshot of 1-bit sprites drawn using bevy_text_mode.](bevy_text_mode.png)
+
+[`bevy_text_mode`] ([GitHub][bevy_text_mode-src]) by [yopox] is a Bevy plugin which
+makes it possible to set the background and the foreground color of a texture atlas
+sprite (built-in Bevy sprites only have a tint property).
+This plugin is convenient when using 1-bit tilesets such as [MRMOTEXT].
+
+The 0.1 release adds a `TextModeTextureAtlasSprite` component with
+configurable background, foreground, x/y flip and opacity.
+
+_Discussion: [Mastodon](https://mstdn.social/@yopox/110010264001721310)_
+
+[`bevy_text_mode`]: https://crates.io/crates/bevy_text_mode
+[bevy_text_mode-src]: https://github.com/yopox/bevy_text_mode
+[yopox]: https://github.com/yopox
+[MRMOTEXT]: https://mrmotarius.itch.io/mrmotext
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
