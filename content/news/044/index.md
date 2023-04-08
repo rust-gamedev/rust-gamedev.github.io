@@ -308,6 +308,42 @@ _Discussion: [Mastodon](https://mstdn.social/@yopox/110010264001721310)_
 [yopox]: https://github.com/yopox
 [MRMOTEXT]: https://mrmotarius.itch.io/mrmotext
 
+### Matchbox
+
+![matchbox logo](matchbox.png)
+
+[Matchbox] is a library for easily establishing unreliable, unordered,
+peer-to-peer WebRTC data connections using rust WASM (and native). This enables
+cross-platform low-latency multiplayer games.
+
+Previously, the socket opened a single udp-like data channel. In version 0.6,
+however, support for adding extra channels with configurable ordering and
+package retransmits was added. This enables direct p2p tcp-like connections as
+well.
+
+Two new crates were added in this release. `matchbox_signaling`, lets you
+set up a custom signaling server, also supporting client-server topologies,
+enabling scenarios where one player acts as the host for the other players.
+
+`bevy_matchbox` provides ergonomic usage with Bevy. Severely cutting down on the
+boiler-plate needed.
+
+The tutorial series on [how to make a p2p web game with Bevy, GGRS and
+Matchbox][extreme_bevy] was also updated to the latest versions of all three
+libraries.
+
+Read more about all the new features in the [0.6 release post][matchbox-0.6].
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/127ssuv/announcing_matchbox_06_painless_peertopeer_webrtc/),
+[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/127suhc/matchbox_06_released_painless_peertopeer_webrtc/),
+[/r/bevy](https://www.reddit.com/r/bevy/comments/127sn3o/announcing_matchbox_06_and_a_new_bevy_matchbox/),
+[Mastodon](https://mastodon.social/@johanhelsing/110119122081173196)_
+
+[extreme_bevy]: https://johanhelsing.studio/posts/extreme-bevy
+[Matchbox]: https://github.com/johanhelsing/matchbox
+[matchbox-0.6]: https://johanhelsing.studio/posts/matchbox-0-6
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
