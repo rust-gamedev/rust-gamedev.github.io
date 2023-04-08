@@ -139,6 +139,23 @@ _Discussion: [Twitter](https://twitter.com/LPGhatguy/status/1632596982928687104)
 [@evaera]: https://twitter.com/evaeraevaera
 [ZOMBIE DEMO GAME]: https://lpghatguy.itch.io/zombie-demo-game
 
+### Shifting Chamber
+
+![Shifting Chamber Screen shot](shifting_chamber.png)
+
+Shifting Chamber ([itch.io][shifting-chamber-itch],
+[Github][shifting-chamber-github]) is a simple tactics game where
+player, instead of moving the character, manipulates the map around it.
+The goal is to defeat the enemies by forcing them into hazardous
+positions - since they cannot be attacked directly.
+
+The game is in an early prototype / proof of concept phase.
+It is written with a help of the Bevy engine.
+There is currently only a WASM build (freely available on the itch.io)
+
+[shifting-chamber-itch]: https://maciekglowka.itch.io/shifting-chamber
+[shifting-chamber-github]: https://github.com/maciekglowka/shifting_chamber
+
 ## Engine Updates
 
 ### hotline
