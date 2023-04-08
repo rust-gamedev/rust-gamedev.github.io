@@ -74,7 +74,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [Using the Depth Prepass in Bevy 0.10]
 
-![depth prepass in bevy 0.10](bevy-depth-prepass.png)
+![depth prepass in bevy 0.10](bevy-depth-prepass.jpg)
 _depth prepass powered intersections between a shield and wall/floor_
 
 [@chrisbiscardi] published a [video][Using the Depth Prepass in Bevy 0.10] about
