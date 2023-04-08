@@ -328,6 +328,23 @@ youtube][nes-audio-tool-demo-video]. The PDF of the slides from the talk are
 [writing-nes-programs-in-rust-pdf]: https://raw.githubusercontent.com/gridbugs/nes-programming-in-rust-sydney-rust-meetup-2023-03-01/main/slides.pdf
 [nes-audio-tool-demo-video]: https://www.youtube.com/watch?v=QHoISiWdPXo
 
+### [Using the Depth Prepass in Bevy 0.10]
+
+![depth prepass in bevy 0.10](bevy-depth-prepass.jpg)
+_depth prepass powered intersections between a shield and wall/floor_
+
+[@chrisbiscardi] published a [video][Using the Depth Prepass in Bevy 0.10] about
+using the Depth Prepass texture in Bevy 0.10. The depth prepass, along with the
+normal prepass, are new passes in Bevy 0.10 that allow you to access distance
+from the camera and normal direction for a particular pixel on the screen. The
+textures created by these passes can then be used to power effects in your own
+custom shaders.
+
+_Discussions: [YouTube](https://www.youtube.com/watch?v=3OHaEVHahIg), [Mastodon](https://hachyderm.io/@chrisbiscardi/110101000132502075)_
+
+[Using the Depth Prepass in Bevy 0.10]: https://www.youtube.com/watch?v=3OHaEVHahIg
+[@chrisbiscardi]: https://hachyderm.io/@chrisbiscardi
+
 ## Tooling Updates
 
 ### Tiger
