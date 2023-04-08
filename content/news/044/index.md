@@ -91,6 +91,34 @@ _Discussions: [8-bit Discord]_
 [latest devlog]: https://thousandthstar.github.io/posts/8bd/8bd-part6/
 [8-bit Discord]: https://discord.com/invite/NbBcF4bGU5
 
+### [CyberGate][cybergate-yt]
+
+![Hit and blackhole particle effects](cybergate.gif)
+_Particles emit from bullet hits and blackholes_
+
+CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]),
+an ambitious multiplayer project in development by CyberSoul,
+aims to invite players into a constantly evolving universe.
+Harnessing the power of procedural generation and artificial intelligence,
+this work-in-progress aspires to provide an engaging experience
+that emphasizes exploration and discovery across its diverse worlds.
+
+The latest updates to CyberGate include:
+
+- Skybox Animation and Transitions
+- Dynamic Point Lights
+- Particle System
+- Post-processing Screen Shake for Hit Feedback
+- Hit Particle Effects
+- Blackhole
+
+They released the 7th major update in March,
+They are now working on universe generation alghoritms for the 8th.
+Participate [by joining the Discord server][cybergate-dis].
+
+[cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
+[cybergate-dis]: https://discord.gg/R7DkHqw7zJ
+
 ## Engine Updates
 
 ## Learning Material Updates
