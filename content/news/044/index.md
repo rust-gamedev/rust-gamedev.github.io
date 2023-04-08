@@ -479,7 +479,7 @@ We welcome [contributions][tarsila-contrib]! Big thanks to contributors
 
 ### [Graphite][graphite-website]
 
-![Vector artwork made in Graphite: Valley of Spires](graphite-artwork-valley-of-spires.png)  
+![Vector artwork made in Graphite: Valley of Spires][graphite-artwork]  
 _Valley of Spires - Vector art made in Graphite_
 
 Graphite ([website][graphite-website], [GitHub][graphite-repo],
@@ -502,6 +502,7 @@ project's friendly and supportive developer community on Discord.
 [Open Graphite][graphite-editor] in your browser and start creating! Share your
 designs with #MadeWithGraphite on Twitter.
 
+[graphite-artwork]: graphite-artwork-valley-of-spires.png
 [graphite-website]: https://graphite.rs
 [graphite-repo]: https://github.com/GraphiteEditor/Graphite
 [graphite-discord]: https://discord.graphite.rs
