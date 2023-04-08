@@ -87,7 +87,7 @@ but already has a decent amount of features showcasing different render strategi
 async command buffer generation, plugin based architecture, and hot-reload 
 support for Rust code, HLSL shaders, and render configs. It supports ImGui with 
 docking and multiple windows, video decoding, complex image loading (cubemaps, 
-arrays, volumes) and more.
+arrays, volumes), and more.
 
 [@polymonster] has been live streaming development on [Twitch] with archives 
 available on [YouTube]. Recently they have been designing a bindless material 
