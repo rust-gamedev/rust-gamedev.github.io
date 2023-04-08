@@ -372,6 +372,32 @@ It currently has the following features:
 [tiger-itch.io]: https://agersant.itch.io/tiger
 [@agersant]: https://mastodon.gamedev.place/@agersant
 
+### [Tarsila]
+
+![Tarsila's UI](tarsila.png)
+_Editor's UI_
+
+Tarsila is a pixel art and spritesheet editor writen in Rust using
+egui and macroquad, inspired by [Aseprite].
+The first public release (0.1.0) has been published on March 18th,
+with [basic features][tarsila-feats].
+
+Since the publication not many new features have been added, mostly
+bugfixes and an overhaul of the input system, in preparation for
+configurable shortcuts (via a text file and later GUI).
+
+In the [roadmap][tarsila-roadmap] for 0.2.0 are things like color
+effects (change hue, saturation, etc.), ovals and circles, and more.
+
+We welcome [contributions][tarsila-contrib]! Big thanks to contributors
+@quiet-bear and @crumblingstatue.
+
+[Tarsila]: https://github.com/yds12/tarsila
+[tarsila-feats]: https://github.com/yds12/tarsila/blob/master/docs/user_guide.md
+[tarsila-roadmap]: https://github.com/yds12/tarsila/blob/master/ROADMAP.md
+[tarsila-contrib]: https://github.com/yds12/tarsila/blob/master/CONTRIBUTING.md
+[Aseprite]: https://www.aseprite.org/
+
 ## Library Updates
 
 ### [`bevy_text_mode`]
