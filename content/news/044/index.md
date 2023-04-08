@@ -411,9 +411,14 @@ _Discussions: [YouTube](https://www.youtube.com/watch?v=3OHaEVHahIg), [Mastodon]
 
 ![a render near the final state of /r/place](./r_place_render.jpg)
 
-[@codetheweb] published an [article][code_the_web_article] that explores the basics of `wgpu` by optimizing a program that replays [/r/place]. By the end, CPU usage is around 18-25% while applying an average of 5m pixel updates per second at 10,000x playback speed.
+[@codetheweb] published an [article][code_the_web_article] that explores the
+basics of `wgpu` by optimizing a program that replays [/r/place]. By the end,
+CPU usage is around 18-25% while applying an average of 5m pixel updates per
+second at 10,000x playback speed.
 
-_Discussions: [/r/rust](https://www.reddit.com/r/rust/comments/11o9he6/rendering_5_million_pixel_updates_per_second_with/), [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/11odm3k/rendering_5_million_pixel_updates_per_second_with/)_
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/11o9he6/rendering_5_million_pixel_updates_per_second_with/),
+[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/11odm3k/rendering_5_million_pixel_updates_per_second_with/)_
 
 [@codetheweb]: https://github.com/codetheweb
 [code_the_web_article]: https://maxisom.me/posts/applying-5-million-pixel-updates-per-second
