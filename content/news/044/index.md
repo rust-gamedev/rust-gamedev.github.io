@@ -68,6 +68,57 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [8bit Duels]
+
+![movement_animations](8bit-duels-game.png)
+_An 8bit Duels match_
+
+[@ThousandthStar] is creating a simple multiplayer turn-based strategy using the
+[Bevy Engine]. The [latest devlog] brings features like ownership indicators,
+movement and attack animations, and a chat system.
+
+The game is under development. The [8-bit Discord] is the best place to talk
+about the game.
+
+8bit Duels will be getting UI updates next, and the first version should release
+soon after that. Other troops are coming as well.
+
+_Discussions: [8-bit Discord]_
+
+[8bit Duels]: https://thousandthstar.github.io/
+[@ThousandthStar]: https://github.com/ThousandthStar
+[Bevy Engine]: https://bevyengine.org/
+[latest devlog]: https://thousandthstar.github.io/posts/8bd/8bd-part6/
+[8-bit Discord]: https://discord.com/invite/NbBcF4bGU5
+
+### [CyberGate][cybergate-yt]
+
+![Hit and blackhole particle effects](cybergate.gif)
+_Particles emit from bullet hits and blackholes_
+
+CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]),
+an ambitious multiplayer project in development by CyberSoul,
+aims to invite players into a constantly evolving universe.
+Harnessing the power of procedural generation and artificial intelligence,
+this work-in-progress aspires to provide an engaging experience
+that emphasizes exploration and discovery across its diverse worlds.
+
+The latest updates to CyberGate include:
+
+- Skybox Animation and Transitions
+- Dynamic Point Lights
+- Particle System
+- Post-processing Screen Shake for Hit Feedback
+- Hit Particle Effects
+- Blackhole
+
+They released the 7th major update in March,
+They are now working on universe generation alghoritms for the 8th.
+Participate [by joining the Discord server][cybergate-dis].
+
+[cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
+[cybergate-dis]: https://discord.gg/R7DkHqw7zJ
+
 ### [ZOMBIE DEMO GAME]
 
 ![A person in a red suit shooting zombies with a pistol](zombie-demo-game.png)
@@ -92,9 +143,47 @@ _Discussion: [Twitter](https://twitter.com/LPGhatguy/status/1632596982928687104)
 
 ## Learning Material Updates
 
+### Developing an editor with egui
+
+![Gif displaying the functionality of the editor](TheGrimsey-Editor.gif)
+
+[@TheGrimsey] published a three-part series of articles about developing a Spell
+Editor with egui.
+
+- ["Databases & Editors (1/3)"] covers displaying egui windows & tables of
+  entries.
+- ["Editors (2/3): Editing entries"] elaborates on handling editing of entries &
+  properties such as enums.
+- Finally, ["Editors (3/3): Selection dialog & new entries"] talks about
+  developing a selection dialog and creating new entries.
+
+[@TheGrimsey]: https://mastodon.social/@TheGrimsey
+["Databases & Editors (1/3)"]: https://thegrimsey.net/2023/03/07/Bevy-Four-Editor.html
+["Editors (2/3): Editing entries"]: https://thegrimsey.net/2023/03/12/Bevy-Five-Editor-Two.html
+["Editors (3/3): Selection dialog & new entries"]: https://thegrimsey.net/2023/03/21/Bevy-Six-Editor-Three.html
+
 ## Tooling Updates
 
 ## Library Updates
+
+### [`bevy_text_mode`]
+
+![Screenshot of 1-bit sprites drawn using bevy_text_mode.](bevy_text_mode.png)
+
+[`bevy_text_mode`] ([GitHub][bevy_text_mode-src]) by [yopox] is a Bevy plugin which
+makes it possible to set the background and the foreground color of a texture atlas
+sprite (built-in Bevy sprites only have a tint property).
+This plugin is convenient when using 1-bit tilesets such as [MRMOTEXT].
+
+The 0.1 release adds a `TextModeTextureAtlasSprite` component with
+configurable background, foreground, x/y flip and opacity.
+
+_Discussion: [Mastodon](https://mstdn.social/@yopox/110010264001721310)_
+
+[`bevy_text_mode`]: https://crates.io/crates/bevy_text_mode
+[bevy_text_mode-src]: https://github.com/yopox/bevy_text_mode
+[yopox]: https://github.com/yopox
+[MRMOTEXT]: https://mrmotarius.itch.io/mrmotext
 
 ## Popular Workgroup Issues in Github
 
