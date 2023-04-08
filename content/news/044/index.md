@@ -477,6 +477,40 @@ We welcome [contributions][tarsila-contrib]! Big thanks to contributors
 [tarsila-contrib]: https://github.com/yds12/tarsila/blob/master/CONTRIBUTING.md
 [Aseprite]: https://www.aseprite.org/
 
+### [Graphite][graphite-website]
+
+![Vector artwork made in Graphite: Valley of Spires](graphite-artwork-valley-of-spires.png)  
+_Valley of Spires - Vector art made in Graphite_
+
+Graphite ([website][graphite-website], [GitHub][graphite-repo],
+[Discord][graphite-discord], [Twitter][graphite-twitter]) is a free,
+in-development raster and vector 2D graphics editor based around a Rust-powered
+node graph compositing engine.
+
+March's [sprint 24][graphite-sprint-24] brings forth:
+
+- Vector nodes: A major refactor moves vector shape layers into the node graph.
+  Now the _shape_, _transform_, _fill_, and _stroke_ are all set via nodes in
+  the graph. Text is the final remaining holdout and will be node-ified next,
+  letting the node graph act as the universal layer type.
+
+As always, new contributors are kindly invited to
+[get involved][graphite-contribute] and take on
+[approachable issues][graphite-approachable-issues] with help from the
+project's friendly and supportive developer community on Discord.
+
+[Open Graphite][graphite-editor] in your browser and start creating! Share your
+designs with #MadeWithGraphite on Twitter.
+
+[graphite-website]: https://graphite.rs
+[graphite-repo]: https://github.com/GraphiteEditor/Graphite
+[graphite-discord]: https://discord.graphite.rs
+[graphite-twitter]: https://twitter.com/GraphiteEditor
+[graphite-sprint-24]: https://github.com/GraphiteEditor/Graphite/milestone/24
+[graphite-contribute]: https://graphite.rs/contribute
+[graphite-approachable-issues]: https://github.com/GraphiteEditor/Graphite/labels/Good%20First%20Issue
+[graphite-editor]: https://editor.graphite.rs
+
 ## Library Updates
 
 ### [`bevy_text_mode`]
