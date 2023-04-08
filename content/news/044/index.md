@@ -304,6 +304,42 @@ system.
 [Twitch]: https://www.twitch.tv/polymonstr
 [YouTube]: https://www.youtube.com/channel/UCQRmui5w4Urz-h4P9CL7rmA
 
+### [Bevy v0.10][bevy_news]
+
+![bevy ruins](bevy_ruins.jpg)
+
+[Bevy][bevy_engine] is a refreshingly simple data-driven game engine built in Rust.
+It is [free and open source][bevy_repo] forever!
+
+Bevy 0.10 brought many incredible new features.
+You can check out the [full release blog post here][bevy_news],
+but here are some highlights:
+
+- [ECS Schedule v3](https://bevyengine.org/news/bevy-0-10/#ecs-schedule-v3)
+- [Cascaded Shadow Maps](https://bevyengine.org/news/bevy-0-10/#cascaded-shadow-maps)
+- [Environment Map Lighting](https://bevyengine.org/news/bevy-0-10/#environment-map-lighting)
+- [Depth and Normal Prepass](https://bevyengine.org/news/bevy-0-10/#depth-and-normal-prepass)
+- [Smooth Skeletal Animation Transitions](https://bevyengine.org/news/bevy-0-10/#smooth-skeletal-animation-transitions)
+- [Improved Android Support](https://bevyengine.org/news/bevy-0-10/#improved-android-support)
+- [Revamped Bloom](https://bevyengine.org/news/bevy-0-10/#revamped-bloom)
+- [Distance and Atmospheric Fog](https://bevyengine.org/news/bevy-0-10/#distance-and-atmospheric-fog)
+- [StandardMaterial Blend Modes](https://bevyengine.org/news/bevy-0-10/#standardmaterial-blend-modes)
+- [More Tonemapping Choices](https://bevyengine.org/news/bevy-0-10/#more-tonemapping-choices)
+- [Color Grading](https://bevyengine.org/news/bevy-0-10/#color-grading-control)
+- [Parallel Pipelined Rendering](https://bevyengine.org/news/bevy-0-10/#parallel-pipelined-rendering)
+- [Windows as Entities](https://bevyengine.org/news/bevy-0-10/#windows-as-entities)
+- [Renderer Optimizations](https://bevyengine.org/news/bevy-0-10/#renderer-optimizations)
+- [ECS Optimizations](https://bevyengine.org/news/bevy-0-10/#ecs-optimizations)
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/11k8kxd/bevy_010/),
+[Hacker News](https://news.ycombinator.com/item?id=35045224),
+[Twitter](https://twitter.com/BevyEngine/status/1632808288864862209)_
+
+[bevy_engine]: https://bevyengine.org
+[bevy_news]: https://bevyengine.org/news/bevy-0-10
+[bevy_repo]: https://github.com/bevyengine/bevy
+
 ## Learning Material Updates
 
 ### Developing an editor with egui
