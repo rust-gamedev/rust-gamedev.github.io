@@ -78,9 +78,9 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ![Tiger screenshot](tiger.png)
 
-Tiger ([Github](https://github.com/agersant/tiger),
-[itch.io](https://agersant.itch.io/tiger)) by
-[@agersant](https://mastodon.gamedev.place/@agersant) is a visual tool to
+Tiger ([Github][tiger-github],
+[itch.io][tiger-itch.io] by
+[@agersant] is a visual tool to
 author game spritesheets and their metadata.
 
 Version 1.0 launched this month, which means Tiger is ready for production.
@@ -95,7 +95,9 @@ It currently has the following features:
 - Flexible template system exports metadata in any text-based format.
 - Free and open-source with a permissive license.
 
-Tiger: https://agersant.itch.io/tiger
+[tiger-github]: https://github.com/agersant/tiger
+[tiger-itch.io]: https://agersant.itch.io/tiger
+[@agersant]: https://mastodon.gamedev.place/@agersant
 
 ## Library Updates
 
