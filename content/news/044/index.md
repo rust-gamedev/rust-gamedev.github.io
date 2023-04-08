@@ -74,7 +74,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [Applying 5 million pixel updates per second with Rust & wgpu](https://maxisom.me/posts/applying-5-million-pixel-updates-per-second)
 
-![a render near the final state of /r/place](./r_place_render.png)
+![a render near the final state of /r/place](./r_place_render.jpg)
 
 [@codetheweb](https://github.com/codetheweb) published an [article](https://maxisom.me/posts/applying-5-million-pixel-updates-per-second) that explores the basics of `wgpu` by optimizing a program that replays [/r/place](https://www.reddit.com/r/place/). By the end, CPU usage is around 18-25% while applying an average of 5m pixel updates per second at 10,000x playback speed.
 
