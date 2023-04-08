@@ -207,6 +207,45 @@ The game is developed using Bevy and is expected to be released late 2023.
 [tunnet-post]: https://puzzled-squid.itch.io/tunnet/devlog/507508/devlog-0-gameplay-loop-and-subnetworks
 [puzzled_squid]: https://puzzledsquid.xyz
 
+### Digital Extinction
+
+![Building Placement in Digital Extinction](digital-extinction.jpeg)
+_Building Placement in Digital Extinction_
+
+[Digital Extinction] ([GitHub][de-github], [Discord][de-discord],
+[Reddit][de-reddit]) by [@Indy2222] is a 3D real-time strategy game made with
+[Bevy].
+
+The most notable updates are:
+
+- simple unit manufacturing was added,
+- game minimap was added,
+- game end detection was implemented,
+- shadows were enabled,
+- the health of all units & buildings was decreased,
+- the “Quit Game” button in the game menu leads to the main menu instead of the
+  termination of the application,
+- close button was added to all menu screens,
+- maximum number of players was made configurable by each map,
+- screen edge size for camera movement was decreased,
+- malformed configuration does not lead to a crash but a toast with an error
+  message is displayed.
+- [Bevy] was upgraded to v0.10.
+
+See [gameplay][de-video] screen recordings on YouTube.
+
+A more detailed monthly updates are available [here (March)][de-update-05] and
+[here (April)][de-update-06].
+
+[Digital Extinction]: https://de-game.org
+[de-github]: https://github.com/DigitalExtinction/Game
+[de-discord]: https://discord.gg/vHMFuCWGSX
+[de-reddit]: https://reddit.com/r/DigitalExtinction
+[Bevy]: https://bevyengine.org
+[de-video]: https://youtu.be/_ibNMDgIQDE
+[de-update-05]: https://mgn.cz/blog/de05/
+[de-update-06]: https://mgn.cz/blog/de06/
+
 ## Engine Updates
 
 ### hotline
