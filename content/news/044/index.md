@@ -77,20 +77,19 @@ _An 8bit Duels match_
 [Bevy Engine]. The [latest devlog] brings features like ownership indicators,
 movement and attack animations, and a chat system.
 
-The game is under development. The [Discord] is the best place to talk about the
+The game is under development. The [8-bit Discord] is the best place to talk about the
 game.
 
 8bit Duels will be getting UI updates next, and the first version should release
 soon after that. Other troops are coming as well.
 
-_Discussions:_
-[Discord]
+_Discussions: [8-bit Discord]_
 
 [8bit Duels]: https://thousandthstar.github.io/
 [@ThousandthStar]: https://github.com/ThousandthStar
 [Bevy Engine]: https://bevyengine.org/
 [latest devlog]: https://thousandthstar.github.io/posts/8bd/8bd-part6/
-[Discord]: https://discord.com/invite/NbBcF4bGU5
+[8-bit Discord]: https://discord.com/invite/NbBcF4bGU5
 
 ## Engine Updates
 
