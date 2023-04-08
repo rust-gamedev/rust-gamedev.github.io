@@ -35,8 +35,8 @@ Feel free to send PRs about your own projects!
 - [Learning Material Updates](#learning-material-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
-- [Other News](#other-news)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
+- [Other News](#other-news)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
 - [Jobs](#jobs)
@@ -140,6 +140,36 @@ _Discussion: [Twitter](https://twitter.com/LPGhatguy/status/1632596982928687104)
 [ZOMBIE DEMO GAME]: https://lpghatguy.itch.io/zombie-demo-game
 
 ## Engine Updates
+
+### hotline
+
+![hotline_client](hotline_rdg44.jpg)
+ _hotline live coding client_
+
+hotline ([GitHub], [Blog], [Twitter]) is a modern, high-performance, hot-reload
+graphics engine written in Rust. It aims to provide low-level access to modern
+graphics API features, while at the same time providing high-level ergonomic
+optimizations.  
+
+It uses Bevy's ECS so the focus can remain primarily on the graphics
+architecture. Direct3D12 is the only supported platform, but the graphics API is
+abstracted to account for future ports to Vulkan and Metal. The project is in
+its early stages but already has a decent amount of features showcasing
+different render strategies, async command buffer generation, plugin based
+architecture, and hot-reload support for Rust code, HLSL shaders, and render
+configs. It supports ImGui with docking and multiple windows, video decoding,
+complex image loading (cubemaps, arrays, volumes), and more.
+
+[@polymonster] has been live streaming development on [Twitch] with archives
+available on [YouTube]. Recently they have been designing a bindless material
+system.
+
+[@polymonster]: https://github.com/polymonster
+[GitHub]: https://github.com/polymonster/hotline
+[Blog]: https://www.polymonster.co.uk
+[Twitter]: https://twitter.com/polymonster
+[Twitch]: https://www.twitch.tv/polymonstr
+[YouTube]: https://www.youtube.com/channel/UCQRmui5w4Urz-h4P9CL7rmA
 
 ## Learning Material Updates
 
