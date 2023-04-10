@@ -79,7 +79,7 @@ is a "BattleBots" themed robot wars simulator developed using [Bevy].
 The game is planned to have multiple combat arenas.
 Each player can compete using their selected robot.
 Players will be able to score and win by damaging and destroying opponent robots.
-Or by knocking out opponents off the arena.
+Or by knocking opponents out of the arena.
 
 There are 3 variants of the robots planned as follows:
 
