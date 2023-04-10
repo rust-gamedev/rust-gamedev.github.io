@@ -101,12 +101,15 @@ is now latest. A few of the biggest highlights:
 - Python packages now work with Ubuntu-20.04.
 - Many performance & bug fixes as well as compile time improvements.
 
-There's a growing community on [Discord](https://discord.gg/npTFxYR9)
+There's a growing community on [Discord][rerun-discord]
 that can join if you have questions,
 comments or just want to follow the latest development.
-The [Github project](https://github.com/rerun-io/rerun) is MIT/Apache
+The [Github project][rerun-github] is MIT/Apache
 licensed and open to contribute for everyone,
 be it with suggestions, bugs or PRs.
+
+[rerun-discord]: https://discord.gg/npTFxYR9
+[rerun-github]: https://github.com/rerun-io/rerun
 
 ## Library Updates
 
