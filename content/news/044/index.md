@@ -530,7 +530,7 @@ is now latest. A few of the biggest highlights:
 - Many performance & bug fixes as well as compile time improvements.
 
 There's a growing community on [Discord][rerun-discord]
-that can join if you have questions,
+waiting for you to join in case you have any questions,
 comments or just want to follow the latest development.
 The [Github project][rerun-github] is MIT/Apache
 licensed and open to contribute for everyone,
