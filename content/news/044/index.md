@@ -207,6 +207,96 @@ The game is developed using Bevy and is expected to be released late 2023.
 [tunnet-post]: https://puzzled-squid.itch.io/tunnet/devlog/507508/devlog-0-gameplay-loop-and-subnetworks
 [puzzled_squid]: https://puzzledsquid.xyz
 
+### Digital Extinction
+
+![Building Placement in Digital Extinction](digital-extinction.jpeg)
+_Building Placement in Digital Extinction_
+
+[Digital Extinction] ([GitHub][de-github], [Discord][de-discord],
+[Reddit][de-reddit]) by [@Indy2222] is a 3D real-time strategy game made with
+[Bevy].
+
+The most notable updates are:
+
+- simple unit manufacturing was added,
+- game minimap was added,
+- game end detection was implemented,
+- shadows were enabled,
+- the health of all units & buildings was decreased,
+- the “Quit Game” button in the game menu leads to the main menu instead of the
+  termination of the application,
+- close button was added to all menu screens,
+- maximum number of players was made configurable by each map,
+- screen edge size for camera movement was decreased,
+- malformed configuration does not lead to a crash but a toast with an error
+  message is displayed.
+- [Bevy] was upgraded to v0.10.
+
+See [gameplay][de-video] screen recordings on YouTube.
+
+A more detailed monthly updates are available [here (March)][de-update-05] and
+[here (April)][de-update-06].
+
+[Digital Extinction]: https://de-game.org
+[de-github]: https://github.com/DigitalExtinction/Game
+[de-discord]: https://discord.gg/vHMFuCWGSX
+[de-reddit]: https://reddit.com/r/DigitalExtinction
+[Bevy]: https://bevyengine.org
+[de-video]: https://youtu.be/_ibNMDgIQDE
+[de-update-05]: https://mgn.cz/blog/de05/
+[de-update-06]: https://mgn.cz/blog/de06/
+
+### [Way of Rhea][wor]
+
+[![way of rhea capsule image](wor-capsule.jpg)][wor]
+
+[Way of Rhea][wor] is a puzzle game with hard puzzles and forgiving
+mechanics being produced by [@masonremaley][wor-mason-remaley] in a custom Rust
+engine. You can support development by
+[checking out the free demo and wishlisting on Steam][wor]!
+
+Recent updates:
+
+- Undo/redo is better tutorialized
+- Existing onboarding hints were improved both functionally and visually
+- New onboarding hints were added to ensure new players understand that
+  teleporters are interactive
+- Various performence improvements were made
+- End game puzzles were completed
+- Work has begun on laying out the end game art
+- A release plan has been drafted
+- Way of Rhea was shown at PAX West
+- Way of Rhea will be part of the upcoming [Steam Puzzle Fest][wor-puzzle-fest]!
+
+[wor]: https://store.steampowered.com/app/1110620/Way_of_Rhea/?utm_campaign=tmirgd&utm_source=n44
+[wor-mason-remaley]: https://twitter.com/masonremaley
+[wor-puzzle-fest]: https://partner.steamgames.com/doc/marketing/upcoming_events/themed_sales/puzzle_2023
+
+### [Boat Journey][boat-journey-itch]
+
+[![Screenshot from the game Boat Journey showing ASCII art of a boat and some islands](boat-journey-screenshot.png)
+_Carry your passengers safely to the ocean in Boat Journey._][boat-journey-itch]
+
+[Boat Journey][boat-journey-itch] ([Github][boat-journey-github]) is a turn-based game where you drive a boat through a
+procedurally-generated landscape on a voyage along a river destined for the
+ocean. Accept passengers to have them help you on your journey. Fight monsters,
+collect junk, trade the junk for fuel, use the fuel to travel to the ocean.
+
+Features:
+
+- Large procedurally-generated world
+- Turn the boat at 45 degree increments
+- Text-only graphics. You can play it in a terminal if you like!
+- Hand-drawn ansi-art character portraits
+- You can take on a ghost as a passenger and then become a ghost yourself.
+
+Boat Journey was made for the [7 Day Roguelike 2023][7drl-itch] game jam. The devlog is [here][boat-journey-devlog].
+
+[boat-journey-itch]: https://gridbugs.itch.io/boat-journey
+[boat-journey-github]: https://github.com/gridbugs/boat-journey
+[7drl-itch]: https://itch.io/jam/7drl-challenge-2023
+[boat-journey-devlog]: https://www.gridbugs.org/7drl2023-day1/
+
 ### Cargo Space
 
 ![Screenshot of Cargo Space's friends list context menu: "invite to lobby" is highlighted](cargo-space-invite.png)
@@ -269,6 +359,42 @@ system.
 [Twitch]: https://www.twitch.tv/polymonstr
 [YouTube]: https://www.youtube.com/channel/UCQRmui5w4Urz-h4P9CL7rmA
 
+### [Bevy v0.10][bevy_news]
+
+![bevy ruins](bevy_ruins.jpg)
+
+[Bevy][bevy_engine] is a refreshingly simple data-driven game engine built in Rust.
+It is [free and open source][bevy_repo] forever!
+
+Bevy 0.10 brought many incredible new features.
+You can check out the [full release blog post here][bevy_news],
+but here are some highlights:
+
+- [ECS Schedule v3](https://bevyengine.org/news/bevy-0-10/#ecs-schedule-v3)
+- [Cascaded Shadow Maps](https://bevyengine.org/news/bevy-0-10/#cascaded-shadow-maps)
+- [Environment Map Lighting](https://bevyengine.org/news/bevy-0-10/#environment-map-lighting)
+- [Depth and Normal Prepass](https://bevyengine.org/news/bevy-0-10/#depth-and-normal-prepass)
+- [Smooth Skeletal Animation Transitions](https://bevyengine.org/news/bevy-0-10/#smooth-skeletal-animation-transitions)
+- [Improved Android Support](https://bevyengine.org/news/bevy-0-10/#improved-android-support)
+- [Revamped Bloom](https://bevyengine.org/news/bevy-0-10/#revamped-bloom)
+- [Distance and Atmospheric Fog](https://bevyengine.org/news/bevy-0-10/#distance-and-atmospheric-fog)
+- [StandardMaterial Blend Modes](https://bevyengine.org/news/bevy-0-10/#standardmaterial-blend-modes)
+- [More Tonemapping Choices](https://bevyengine.org/news/bevy-0-10/#more-tonemapping-choices)
+- [Color Grading](https://bevyengine.org/news/bevy-0-10/#color-grading-control)
+- [Parallel Pipelined Rendering](https://bevyengine.org/news/bevy-0-10/#parallel-pipelined-rendering)
+- [Windows as Entities](https://bevyengine.org/news/bevy-0-10/#windows-as-entities)
+- [Renderer Optimizations](https://bevyengine.org/news/bevy-0-10/#renderer-optimizations)
+- [ECS Optimizations](https://bevyengine.org/news/bevy-0-10/#ecs-optimizations)
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/11k8kxd/bevy_010/),
+[Hacker News](https://news.ycombinator.com/item?id=35045224),
+[Twitter](https://twitter.com/BevyEngine/status/1632808288864862209)_
+
+[bevy_engine]: https://bevyengine.org
+[bevy_news]: https://bevyengine.org/news/bevy-0-10
+[bevy_repo]: https://github.com/bevyengine/bevy
+
 ## Learning Material Updates
 
 ### Developing an editor with egui
@@ -289,6 +415,69 @@ Editor with egui.
 ["Databases & Editors (1/3)"]: https://thegrimsey.net/2023/03/07/Bevy-Four-Editor.html
 ["Editors (2/3): Editing entries"]: https://thegrimsey.net/2023/03/12/Bevy-Five-Editor-Two.html
 ["Editors (3/3): Selection dialog & new entries"]: https://thegrimsey.net/2023/03/21/Bevy-Six-Editor-Three.html
+
+### [Writing NES assembly programs in a Rust DSL][writing-nes-programs-in-rust-video]
+
+[![Title slide from presentation about writing NES assembly programs in Rust](nes-programming-in-rust-cover.jpg)
+_Video: Talk about writing NES assembly programs in Rust_][writing-nes-programs-in-rust-video]
+
+This is a talk about writing a program for the Nintendo Entertainment System
+that exposes all of its audio processor registers through an interface that lets
+the user flip bits using the controller and hear the result in real time. The
+program is written in Rust using an Embedded Domain-Specific Language. The talk
+demonstrates the features of the language and how they can be used to help
+express NES assembly programs in Rust.
+
+Some features of the EDSL:
+
+- defining and calling assembly functions by string labels
+- using Rust as a powerful macro language (e.g. generate code inside a for-loop)
+- using Rust's type system to catch invalid combinations of instruction and
+  addressing mode
+
+The source code for the NES program described in the talk is
+[here][nes-audio-playground-github] and there is a [demo of the tool on
+youtube][nes-audio-tool-demo-video]. The PDF of the slides from the talk are
+[here][writing-nes-programs-in-rust-pdf].
+
+[writing-nes-programs-in-rust-video]: https://www.youtube.com/watch?v=hs-MrEoOX5Y
+[nes-audio-playground-github]: https://github.com/gridbugs/nes-audio-playground
+[writing-nes-programs-in-rust-pdf]: https://raw.githubusercontent.com/gridbugs/nes-programming-in-rust-sydney-rust-meetup-2023-03-01/main/slides.pdf
+[nes-audio-tool-demo-video]: https://www.youtube.com/watch?v=QHoISiWdPXo
+
+### [Using the Depth Prepass in Bevy 0.10]
+
+![depth prepass in bevy 0.10](bevy-depth-prepass.jpg)
+_depth prepass powered intersections between a shield and wall/floor_
+
+[@chrisbiscardi] published a [video][Using the Depth Prepass in Bevy 0.10] about
+using the Depth Prepass texture in Bevy 0.10. The depth prepass, along with the
+normal prepass, are new passes in Bevy 0.10 that allow you to access distance
+from the camera and normal direction for a particular pixel on the screen. The
+textures created by these passes can then be used to power effects in your own
+custom shaders.
+
+_Discussions: [YouTube](https://www.youtube.com/watch?v=3OHaEVHahIg), [Mastodon](https://hachyderm.io/@chrisbiscardi/110101000132502075)_
+
+[Using the Depth Prepass in Bevy 0.10]: https://www.youtube.com/watch?v=3OHaEVHahIg
+[@chrisbiscardi]: https://hachyderm.io/@chrisbiscardi
+
+### [Applying 5 million pixel updates per second with Rust & wgpu](https://maxisom.me/posts/applying-5-million-pixel-updates-per-second)
+
+![a render near the final state of /r/place](./r_place_render.jpg)
+
+[@codetheweb] published an [article][code_the_web_article] that explores the
+basics of `wgpu` by optimizing a program that replays [/r/place]. By the end,
+CPU usage is around 18-25% while applying an average of 5m pixel updates per
+second at 10,000x playback speed.
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/11o9he6/rendering_5_million_pixel_updates_per_second_with/),
+[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/11odm3k/rendering_5_million_pixel_updates_per_second_with/)_
+
+[@codetheweb]: https://github.com/codetheweb
+[code_the_web_article]: https://maxisom.me/posts/applying-5-million-pixel-updates-per-second
+[/r/place]: https://www.reddit.com/r/place/
 
 ## Tooling Updates
 
@@ -317,6 +506,32 @@ It currently has the following features:
 [tiger-itch.io]: https://agersant.itch.io/tiger
 [@agersant]: https://mastodon.gamedev.place/@agersant
 
+### [Tarsila]
+
+![Tarsila's UI](tarsila.png)
+_Editor's UI_
+
+Tarsila is a pixel art and spritesheet editor writen in Rust using
+egui and macroquad, inspired by [Aseprite].
+The first public release (0.1.0) has been published on March 18th,
+with [basic features][tarsila-feats].
+
+Since the publication not many new features have been added, mostly
+bugfixes and an overhaul of the input system, in preparation for
+configurable shortcuts (via a text file and later GUI).
+
+In the [roadmap][tarsila-roadmap] for 0.2.0 are things like color
+effects (change hue, saturation, etc.), ovals and circles, and more.
+
+We welcome [contributions][tarsila-contrib]! Big thanks to contributors
+@quiet-bear and @crumblingstatue.
+
+[Tarsila]: https://github.com/yds12/tarsila
+[tarsila-feats]: https://github.com/yds12/tarsila/blob/master/docs/user_guide.md
+[tarsila-roadmap]: https://github.com/yds12/tarsila/blob/master/ROADMAP.md
+[tarsila-contrib]: https://github.com/yds12/tarsila/blob/master/CONTRIBUTING.md
+[Aseprite]: https://www.aseprite.org/
+
 ## Library Updates
 
 ### [`bevy_text_mode`]
@@ -337,6 +552,42 @@ _Discussion: [Mastodon](https://mstdn.social/@yopox/110010264001721310)_
 [bevy_text_mode-src]: https://github.com/yopox/bevy_text_mode
 [yopox]: https://github.com/yopox
 [MRMOTEXT]: https://mrmotarius.itch.io/mrmotext
+
+### Matchbox
+
+![matchbox logo](matchbox.png)
+
+[Matchbox] is a library for easily establishing unreliable, unordered,
+peer-to-peer WebRTC data connections using rust WASM (and native). This enables
+cross-platform low-latency multiplayer games.
+
+Previously, the socket opened a single udp-like data channel. In version 0.6,
+however, support for adding extra channels with configurable ordering and
+package retransmits was added. This enables direct p2p tcp-like connections as
+well.
+
+Two new crates were added in this release. `matchbox_signaling`, lets you
+set up a custom signaling server, also supporting client-server topologies,
+enabling scenarios where one player acts as the host for the other players.
+
+`bevy_matchbox` provides ergonomic usage with Bevy. Severely cutting down on the
+boiler-plate needed.
+
+The tutorial series on [how to make a p2p web game with Bevy, GGRS and
+Matchbox][extreme_bevy] was also updated to the latest versions of all three
+libraries.
+
+Read more about all the new features in the [0.6 release post][matchbox-0.6].
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/127ssuv/announcing_matchbox_06_painless_peertopeer_webrtc/),
+[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/127suhc/matchbox_06_released_painless_peertopeer_webrtc/),
+[/r/bevy](https://www.reddit.com/r/bevy/comments/127sn3o/announcing_matchbox_06_and_a_new_bevy_matchbox/),
+[Mastodon](https://mastodon.social/@johanhelsing/110119122081173196)_
+
+[extreme_bevy]: https://johanhelsing.studio/posts/extreme-bevy
+[Matchbox]: https://github.com/johanhelsing/matchbox
+[matchbox-0.6]: https://johanhelsing.studio/posts/matchbox-0-6
 
 ## Popular Workgroup Issues in Github
 
