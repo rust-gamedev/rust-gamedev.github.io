@@ -297,6 +297,27 @@ Boat Journey was made for the [7 Day Roguelike 2023][7drl-itch] game jam. The de
 [7drl-itch]: https://itch.io/jam/7drl-challenge-2023
 [boat-journey-devlog]: https://www.gridbugs.org/7drl2023-day1/
 
+### [Open Combat][OpenCombat_website]
+
+![OpenCombat HUD](OpenCombat_HUD.png)
+_Game now includes a HUD_
+
+Open Combat ([Website][OpenCombat_website], [GitHub][OpenCombat_github],
+[Discord][OpenCombat_discord]) is a real time tactical game
+which takes place during the 2nd World War.
+
+Some major changes this month :
+
+- Add basic HUD logic for troops and game management
+- Add high definition assets management for zoom display
+
+High-definition infantry sprites integration if planned for next month
+and and we are searching for graphic designer help.
+
+[OpenCombat_website]: https://opencombat.bux.fr/
+[OpenCombat_github]: https://github.com/buxx/OpenCombat
+[OpenCombat_discord]: https://discord.gg/6P2vtFh2Px
+
 ## Engine Updates
 
 ### hotline
