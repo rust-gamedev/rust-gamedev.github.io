@@ -299,6 +299,32 @@ The devlog is [here][boat-journey-devlog].
 [7drl-itch]: https://itch.io/jam/7drl-challenge-2023
 [boat-journey-devlog]: https://www.gridbugs.org/7drl2023-day1/
 
+### [Screen Ball]
+
+![Screen Ball](screen-ball.png)
+
+[Screen Ball] ([GitHub][Screen Ball], [YouTube][screen-ball-yt]) by [@lewiszlw]
+is a game that lets you play ball on screen for a rest when you're tired from work.
+Inspired by the video published by Bevy community member PaulH#7052.
+
+[Screen Ball]: https://github.com/NightsWatchGames/screen-ball
+[screen-ball-yt]: https://www.youtube.com/watch?v=pKV6fTmJfmE
+[@lewiszlw]: https://github.com/lewiszlw
+
+### [Battle City]
+
+![Battle City](battle-city.png)
+
+[Battle City] ([GitHub][Battle City], [YouTube][battle-city-yt]) by [@lewiszlw]
+is a Bevy clone of the classical Battle City game
+\- which brought a lot of happiness to the author's childhood.
+
+You can play it [here][play-battle-city].
+
+[Battle City]: https://github.com/NightsWatchGames/battle-city
+[battle-city-yt]: https://youtube.com/watch?v=54Z2WBFZfzA
+[play-battle-city]: https://nightswatchgames.github.io/games/battle-city/
+
 ## Engine Updates
 
 ### hotline
