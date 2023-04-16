@@ -277,7 +277,8 @@ Recent updates:
 [![Screenshot from the game Boat Journey showing ASCII art of a boat and some islands](boat-journey-screenshot.png)
 _Carry your passengers safely to the ocean in Boat Journey._][boat-journey-itch]
 
-[Boat Journey][boat-journey-itch] ([Github][boat-journey-github]) is a turn-based game where you drive a boat through a
+[Boat Journey][boat-journey-itch] ([Github][boat-journey-github])
+is a turn-based game where you drive a boat through a
 procedurally-generated landscape on a voyage along a river destined for the
 ocean. Accept passengers to have them help you on your journey. Fight monsters,
 collect junk, trade the junk for fuel, use the fuel to travel to the ocean.
@@ -290,12 +291,102 @@ Features:
 - Hand-drawn ansi-art character portraits
 - You can take on a ghost as a passenger and then become a ghost yourself.
 
-Boat Journey was made for the [7 Day Roguelike 2023][7drl-itch] game jam. The devlog is [here][boat-journey-devlog].
+Boat Journey was made for the [7 Day Roguelike 2023][7drl-itch] game jam.
+The devlog is [here][boat-journey-devlog].
 
 [boat-journey-itch]: https://gridbugs.itch.io/boat-journey
 [boat-journey-github]: https://github.com/gridbugs/boat-journey
 [7drl-itch]: https://itch.io/jam/7drl-challenge-2023
 [boat-journey-devlog]: https://www.gridbugs.org/7drl2023-day1/
+
+### [Screen Ball]
+
+![Screen Ball](screen-ball.png)
+
+[Screen Ball] ([GitHub][Screen Ball], [YouTube][screen-ball-yt]) by [@lewiszlw]
+is a game that lets you play ball on screen for a rest when you're tired from work.
+Inspired by the video published by Bevy community member PaulH#7052.
+
+[Screen Ball]: https://github.com/NightsWatchGames/screen-ball
+[screen-ball-yt]: https://www.youtube.com/watch?v=pKV6fTmJfmE
+[@lewiszlw]: https://github.com/lewiszlw
+
+### [Battle City]
+
+![Battle City](battle-city.png)
+
+[Battle City] ([GitHub][Battle City], [YouTube][battle-city-yt]) by [@lewiszlw]
+is a Bevy clone of the classical Battle City game
+\- which brought a lot of happiness to the author's childhood.
+
+You can play it [here][play-battle-city].
+
+[Battle City]: https://github.com/NightsWatchGames/battle-city
+[battle-city-yt]: https://youtube.com/watch?v=54Z2WBFZfzA
+[play-battle-city]: https://nightswatchgames.github.io/games/battle-city/
+
+### [BattleBots Simulator]
+
+![Light weight "annoyance" robot variant](battle-bots-simulator.jpg)
+_Light weight "annoyance" robot variant_
+
+[BattleBots Simulator] ([Twitter]) by [@nilaysavant]
+is a "BattleBots" themed robot wars simulator developed using [Bevy].
+
+The game is planned to have multiple combat arenas.
+Each player can compete using their selected robot.
+Players will be able to score and win by damaging and destroying opponent robots.
+Or by knocking opponents out of the arena.
+
+There are 3 variants of the robots planned as follows:
+
+- Light Weight "Annoyance": Low mass/HP, but will be unpredictable and fast.
+  It will slowly kill by consistently annoying and damaging opponents.
+- Medium Weight "Sniper": Medium weight robot that will be equipped with a high boost.
+  This will allow it to knockout opponents or push them out of the arena.
+- Heavy Weight "TANK": Highest mass/HP and momentum.
+  Slow moving but hard to kill.
+  Equipped with magnetic wedges that will help pin/push opponents out of the arena.
+
+The game is currently a work in progress. For updates follow [Nilay Savant] on Twitter.
+
+_Discussions: [Twitter]_
+
+[BattleBots Simulator]: https://twitter.com/nilay_savant/status/1632419019914645504
+[Twitter]: https://twitter.com/nilay_savant/status/1632419019914645504
+[@nilaysavant]: https://github.com/nilaysavant
+[Bevy]: https://bevyengine.org/
+[Nilay Savant]: https://twitter.com/nilay_savant
+
+### Cargo Space
+
+![Screenshot of Cargo Space's friends list context menu: "invite to lobby" is highlighted](cargo-space-invite.png)
+
+[Cargo Space] ([Discord][cargospace_discord]) by
+[@johanhelsing][johanhelsing_mastodon] is a co-op 2d space game where you build
+a ship and fly it through space looking for new parts, fighting pirates and the
+environment.
+
+This month's development was all about lobbies, chat and integrating with Steam.
+This spawned a couple of new micro-crates.
+
+[bevy_crossbeam_event] lets you spawn Bevy events by
+sending to a crossbeam channel, which is convenient with callbacks which require
+move semantics, such as those in `bevy-steamworks`.
+
+[steam_dev_launcher] is a cross-platform binary crate all
+about dev-friendly ways launching your game through Steam. That is: without
+losing logs, panic traces, and optionally using a custom binary or setting extra
+environment variables (launch from `/target/debug/your_game`).
+
+Read more about all this in [this month's devlog entry][cargospace_devlog_6].
+
+[Cargo Space]: https://helsing.studio/cargospace
+[cargospace_devlog_6]: https://johanhelsing.studio/posts/cargo-space-devlog-5
+[cargospace_discord]: https://discord.gg/ye9UDNvqQD
+[johanhelsing_mastodon]: https://mastodon.social/@johanhelsing
+[bevy_crossbeam_event]: https://github.com/johanhelsing/bevy_crossbeam_event
+[steam_dev_launcher]: https://github.com/johanhelsing/steam_dev_launcher
 
 ### [Open Combat][OpenCombat_website]
 
@@ -470,6 +561,19 @@ _Discussions:
 [code_the_web_article]: https://maxisom.me/posts/applying-5-million-pixel-updates-per-second
 [/r/place]: https://www.reddit.com/r/place/
 
+### [NPCs and Dialog in Bevy][logic-devlog-video]
+
+[![Youtube preview: game screenshot and Rust code](logic-projects-thumbnail.png)][logic-devlog-video]
+
+[Matthew Bryant][matthew-bryant] released [a video][logic-devlog-video]
+focused on the design and implementation of a dialog system for NPCs
+in his [RPG game][logic-rpg].  This is the 4th in a weekly series about
+the high level ECS design of a full game using Bevy.
+
+[logic-devlog-video]: https://youtu.be/luyDgccpHgE
+[matthew-bryant]: https://youtube.com/@logicprojects
+[logic-rpg]: https://github.com/mwbryant/logic-turn-based-rpg
+
 ## Tooling Updates
 
 ### Tiger
@@ -522,6 +626,78 @@ We welcome [contributions][tarsila-contrib]! Big thanks to contributors
 [tarsila-roadmap]: https://github.com/yds12/tarsila/blob/master/ROADMAP.md
 [tarsila-contrib]: https://github.com/yds12/tarsila/blob/master/CONTRIBUTING.md
 [Aseprite]: https://www.aseprite.org/
+
+### [Rerun](https://www.rerun.io/)
+
+![Rerun's new select & hover highlights in a browser](rerun.gif)
+
+Rerun ([Discord](https://discord.gg/npTFxYR9),
+[Github](https://github.com/rerun-io/rerun), [Website](https://www.rerun.io/))
+is an open source SDK for logging complex visual data paired with a visualizer
+for exploring that data over time. While its primary focus is on robotics and
+computer vision, it can be useful for all kinds of
+rapid prototyping & algorithm development.
+
+Two new versions got released in March,
+[0.4.0](https://github.com/rerun-io/rerun/releases/tag/v0.4.0)
+is now latest. A few of the biggest highlights:
+
+- The web-viewer is, while still experimental & unpolished, now stable.
+  [Try it out here!](https://app.rerun.io/)
+- Depth textures can now directly be visualized with point clouds and
+  have a variety of color map settings.
+- Selection/hover highlights use now outlines for better visibility and
+  in order to avoid changing the visualization itself.
+- Support for mesh vertex colors.
+- [New example](https://github.com/rerun-io/rerun/blob/main/examples/python/opencv_canny/main.py)
+  of forever-streaming a web-camera image to Rerun.
+- Python packages now work with Ubuntu-20.04.
+- Many performance & bug fixes as well as compile time improvements.
+
+There's a growing community on [Discord][rerun-discord]
+waiting for you to join in case you have any questions,
+comments or just want to follow the latest development.
+The [Github project][rerun-github] is MIT/Apache
+licensed and open to contribute for everyone,
+be it with suggestions, bugs or PRs.
+
+[rerun-discord]: https://discord.gg/npTFxYR9
+[rerun-github]: https://github.com/rerun-io/rerun
+
+### [Graphite][graphite-website]
+
+![Vector artwork made in Graphite: Valley of Spires][graphite-artwork]  
+_Valley of Spires - Vector art made in Graphite_
+
+Graphite ([website][graphite-website], [GitHub][graphite-repo],
+[Discord][graphite-discord], [Twitter][graphite-twitter]) is a free,
+in-development raster and vector 2D graphics editor based around a Rust-powered
+node graph compositing engine.
+
+March's [sprint 24][graphite-sprint-24] brings forth:
+
+- Vector nodes: A major refactor moves vector shape layers into the node graph.
+  Now the _shape_, _transform_, _fill_, and _stroke_ are all set via nodes in
+  the graph. Text is the final remaining holdout and will be node-ified next,
+  letting the node graph act as the universal layer type.
+
+As always, new contributors are kindly invited to
+[get involved][graphite-contribute] and take on
+[approachable issues][graphite-approachable-issues] with help from the
+project's friendly and supportive developer community on Discord.
+
+[Open Graphite][graphite-editor] in your browser and start creating! Share your
+designs with #MadeWithGraphite on Twitter.
+
+[graphite-artwork]: graphite-artwork-valley-of-spires.png
+[graphite-website]: https://graphite.rs
+[graphite-repo]: https://github.com/GraphiteEditor/Graphite
+[graphite-discord]: https://discord.graphite.rs
+[graphite-twitter]: https://twitter.com/GraphiteEditor
+[graphite-sprint-24]: https://github.com/GraphiteEditor/Graphite/milestone/24
+[graphite-contribute]: https://graphite.rs/contribute
+[graphite-approachable-issues]: https://github.com/GraphiteEditor/Graphite/labels/Good%20First%20Issue
+[graphite-editor]: https://editor.graphite.rs
 
 ## Library Updates
 
@@ -579,6 +755,70 @@ _Discussions:
 [extreme_bevy]: https://johanhelsing.studio/posts/extreme-bevy
 [Matchbox]: https://github.com/johanhelsing/matchbox
 [matchbox-0.6]: https://johanhelsing.studio/posts/matchbox-0-6
+
+### [Bevy Rust-GPU]
+
+![hot-rebuild](bevy-rust-gpu-hot-rebuild.gif)
+_Hot-rebuilding a rust-gpu shader from a bevy app_
+
+[Bevy Rust-GPU] by [@Shfty]
+is a suite of crates encoding a practical [rust-gpu] workflow for [bevy].
+
+The latest release brings new GPU interop traits, shader macro robustness,
+and compatibility with [bevy] 0.10 and [rust-gpu] 0.6.
+Further development continues apace, with major improvements to the SPIR-V
+interchange pipeline, shader compilation machinery, and support code already merged.
+
+The project is still in development, and presently relies on custom forks
+of the associated crates. However, various PRs have been filed upstream
+to build out a robust interchange between them, with the hope of mainline compatibility
+\- and a corresponding crates.io release - sometime in the future.
+
+In particular, [@eddyb] deserves special thanks for his work on the [rust-gpu] side,
+which has enabled and informed many of the improvements tabled for the next release,
+and greatly accelerated the process of making Rust a viable shading language
+for users of Bevy and WGPU.
+
+_Discussion: [/r/bevy](https://reddit.com/r/bevy/comments/11hrnmz/bevy_rustgpu_joins_the_fray)_
+
+[Bevy Rust-GPU]: https://github.com/bevy-rust-gpu
+[rust-gpu]: https://github.com/EmbarkStudios/rust-gpu
+[@Shfty]: https://github.com/Shfty
+[@eddyb]: https://github.com/eddyb
+
+### [rust-gpu-sdf]
+
+![3d-distance-field](rust-gpu-sdf.gif)
+_An implicit surface defined compositionally, raymarched, and shaded entirely
+in Rust_
+
+Announcing [rust-gpu-sdf], by [@Shfty]; a `no-std` signed distance field library
+designed for use on both CPU and GPU.
+
+[Signed distance fields][sdf-wiki] are a powerful computational tool
+that allow a surface to be represented by a function from position to distance.
+This has [intuitive applications][raymarchingdf] in various domains such as rendering,
+collision, meshing, and volume modeling, providing the means to represent analytically
+smooth geometry, dynamic morphing (as pictured), and various other effects
+that would traditionally require specialized tools to model.
+
+[rust-gpu-sdf] aims to enumerate this domain to the fullest extent allowed
+by Rust's type system, lifting its traditionally monolithic implementation style
+into a set of intuitive composable operators, and leveraging a natural synergy
+with functional programming to provide powerful compositional tools.
+
+Contrary to its working title, [rust-gpu-sdf] is actually [rust-gpu]-agnostic,
+so can be used anywhere Rust can;
+it's presently named as such due to being built as the primary consumer of [bevy-rust-gpu],
+with a view to providing a performant and compositional way to compile SDFs
+into SPIR-V for rendering on the GPU.
+
+It's presently in a heavy-development prerelease state, so watch this space!
+
+[rust-gpu-sdf]: https://github.com/bevy-rust-gpu/rust-gpu-sdf
+[bevy-rust-gpu]: https://github.com/bevy-rust-gpu
+[sdf-wiki]: https://en.wikipedia.org/wiki/Signed_distance_function
+[raymarchingdf]: https://iquilezles.org/articles/raymarchingdf
 
 ## Popular Workgroup Issues in Github
 
