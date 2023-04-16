@@ -86,18 +86,20 @@ is a suite of crates encoding a practical [rust-gpu] workflow for [bevy].
 
 The latest release brings new GPU interop traits, shader macro robustness,
 and compatibility with [bevy] 0.10 and [rust-gpu] 0.6.
-Further development continues apace, with major improvements to the SPIR-V interchange pipeline,
-shader compilation machinery, and support code already merged.
+Further development continues apace, with major improvements to the SPIR-V
+interchange pipeline, shader compilation machinery, and support code already merged.
 
-The project is still in development, and presently relies on custom forks of the associated crates.
-However, various PRs have been filed upstream to build out a robust interchange between them,
-with the hope of mainline compatibility - and a corresponding crates.io release - sometime in the future.
+The project is still in development, and presently relies on custom forks
+of the associated crates. However, various PRs have been filed upstream
+to build out a robust interchange between them, with the hope of mainline compatibility
+\- and a corresponding crates.io release - sometime in the future.
 
 In particular, [@eddyb] deserves special thanks for his work on the [rust-gpu] side,
 which has enabled and informed many of the improvements tabled for the next release,
-and greatly accelerated the process of making Rust a viable shading language for users of Bevy and WGPU.
+and greatly accelerated the process of making Rust a viable shading language
+for users of Bevy and WGPU.
 
-_Discussion: [/r/bevy](https://www.reddit.com/r/bevy/comments/11hrnmz/bevy_rustgpu_joins_the_fray_write_shaders_in/)_
+_Discussion: [/r/bevy](https://reddit.com/r/bevy/comments/11hrnmz/bevy_rustgpu_joins_the_fray)_
 
 [Bevy Rust-GPU]: https://github.com/bevy-rust-gpu
 [bevy]: https://github.com/bevyengine/bevy
