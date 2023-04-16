@@ -613,10 +613,43 @@ for users of Bevy and WGPU.
 _Discussion: [/r/bevy](https://reddit.com/r/bevy/comments/11hrnmz/bevy_rustgpu_joins_the_fray)_
 
 [Bevy Rust-GPU]: https://github.com/bevy-rust-gpu
-[bevy]: https://github.com/bevyengine/bevy
 [rust-gpu]: https://github.com/EmbarkStudios/rust-gpu
 [@Shfty]: https://github.com/Shfty
 [@eddyb]: https://github.com/eddyb
+
+### [rust-gpu-sdf]
+
+![3d-distance-field](rust-gpu-sdf.gif)
+_An implicit surface defined compositionally, raymarched, and shaded entirely
+in Rust_
+
+Announcing [rust-gpu-sdf], by [@Shfty]; a `no-std` signed distance field library
+designed for use on both CPU and GPU.
+
+[Signed distance fields][sdf-wiki] are a powerful computational tool
+that allow a surface to be represented by a function from position to distance.
+This has [intuitive applications][raymarchingdf] in various domains such as rendering,
+collision, meshing, and volume modeling, providing the means to represent analytically
+smooth geometry, dynamic morphing (as pictured), and various other effects
+that would traditionally require specialized tools to model.
+
+[rust-gpu-sdf] aims to enumerate this domain to the fullest extent allowed
+by Rust's type system, lifting its traditionally monolithic implementation style
+into a set of intuitive composable operators, and leveraging a natural synergy
+with functional programming to provide powerful compositional tools.
+
+Contrary to its working title, [rust-gpu-sdf] is actually [rust-gpu]-agnostic,
+so can be used anywhere Rust can;
+it's presently named as such due to being built as the primary consumer of [bevy-rust-gpu],
+with a view to providing a performant and compositional way to compile SDFs
+into SPIR-V for rendering on the GPU.
+
+It's presently in a heavy-development prerelease state, so watch this space!
+
+[rust-gpu-sdf]: https://github.com/bevy-rust-gpu/rust-gpu-sdf
+[bevy-rust-gpu]: https://github.com/bevy-rust-gpu
+[sdf-wiki]: https://en.wikipedia.org/wiki/Signed_distance_function
+[raymarchingdf]: https://iquilezles.org/articles/raymarchingdf
 
 ## Popular Workgroup Issues in Github
 
