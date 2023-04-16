@@ -277,7 +277,8 @@ Recent updates:
 [![Screenshot from the game Boat Journey showing ASCII art of a boat and some islands](boat-journey-screenshot.png)
 _Carry your passengers safely to the ocean in Boat Journey._][boat-journey-itch]
 
-[Boat Journey][boat-journey-itch] ([Github][boat-journey-github]) is a turn-based game where you drive a boat through a
+[Boat Journey][boat-journey-itch] ([Github][boat-journey-github])
+is a turn-based game where you drive a boat through a
 procedurally-generated landscape on a voyage along a river destined for the
 ocean. Accept passengers to have them help you on your journey. Fight monsters,
 collect junk, trade the junk for fuel, use the fuel to travel to the ocean.
@@ -290,12 +291,39 @@ Features:
 - Hand-drawn ansi-art character portraits
 - You can take on a ghost as a passenger and then become a ghost yourself.
 
-Boat Journey was made for the [7 Day Roguelike 2023][7drl-itch] game jam. The devlog is [here][boat-journey-devlog].
+Boat Journey was made for the [7 Day Roguelike 2023][7drl-itch] game jam.
+The devlog is [here][boat-journey-devlog].
 
 [boat-journey-itch]: https://gridbugs.itch.io/boat-journey
 [boat-journey-github]: https://github.com/gridbugs/boat-journey
 [7drl-itch]: https://itch.io/jam/7drl-challenge-2023
 [boat-journey-devlog]: https://www.gridbugs.org/7drl2023-day1/
+
+### [Screen Ball]
+
+![Screen Ball](screen-ball.png)
+
+[Screen Ball] ([GitHub][Screen Ball], [YouTube][screen-ball-yt]) by [@lewiszlw]
+is a game that lets you play ball on screen for a rest when you're tired from work.
+Inspired by the video published by Bevy community member PaulH#7052.
+
+[Screen Ball]: https://github.com/NightsWatchGames/screen-ball
+[screen-ball-yt]: https://www.youtube.com/watch?v=pKV6fTmJfmE
+[@lewiszlw]: https://github.com/lewiszlw
+
+### [Battle City]
+
+![Battle City](battle-city.png)
+
+[Battle City] ([GitHub][Battle City], [YouTube][battle-city-yt]) by [@lewiszlw]
+is a Bevy clone of the classical Battle City game
+\- which brought a lot of happiness to the author's childhood.
+
+You can play it [here][play-battle-city].
+
+[Battle City]: https://github.com/NightsWatchGames/battle-city
+[battle-city-yt]: https://youtube.com/watch?v=54Z2WBFZfzA
+[play-battle-city]: https://nightswatchgames.github.io/games/battle-city/
 
 ## Engine Updates
 
@@ -504,7 +532,6 @@ We welcome [contributions][tarsila-contrib]! Big thanks to contributors
 
 ## Library Updates
 
-<<<<<<< HEAD
 ### [`bevy_text_mode`]
 
 ![Screenshot of 1-bit sprites drawn using bevy_text_mode.](bevy_text_mode.png)
@@ -559,6 +586,37 @@ _Discussions:
 [extreme_bevy]: https://johanhelsing.studio/posts/extreme-bevy
 [Matchbox]: https://github.com/johanhelsing/matchbox
 [matchbox-0.6]: https://johanhelsing.studio/posts/matchbox-0-6
+
+### [Bevy Rust-GPU]
+
+![hot-rebuild](bevy-rust-gpu-hot-rebuild.gif)
+_Hot-rebuilding a rust-gpu shader from a bevy app_
+
+[Bevy Rust-GPU] by [@Shfty]
+is a suite of crates encoding a practical [rust-gpu] workflow for [bevy].
+
+The latest release brings new GPU interop traits, shader macro robustness,
+and compatibility with [bevy] 0.10 and [rust-gpu] 0.6.
+Further development continues apace, with major improvements to the SPIR-V
+interchange pipeline, shader compilation machinery, and support code already merged.
+
+The project is still in development, and presently relies on custom forks
+of the associated crates. However, various PRs have been filed upstream
+to build out a robust interchange between them, with the hope of mainline compatibility
+\- and a corresponding crates.io release - sometime in the future.
+
+In particular, [@eddyb] deserves special thanks for his work on the [rust-gpu] side,
+which has enabled and informed many of the improvements tabled for the next release,
+and greatly accelerated the process of making Rust a viable shading language
+for users of Bevy and WGPU.
+
+_Discussion: [/r/bevy](https://reddit.com/r/bevy/comments/11hrnmz/bevy_rustgpu_joins_the_fray)_
+
+[Bevy Rust-GPU]: https://github.com/bevy-rust-gpu
+[bevy]: https://github.com/bevyengine/bevy
+[rust-gpu]: https://github.com/EmbarkStudios/rust-gpu
+[@Shfty]: https://github.com/Shfty
+[@eddyb]: https://github.com/eddyb
 
 ### [rust-gpu-sdf]
 
