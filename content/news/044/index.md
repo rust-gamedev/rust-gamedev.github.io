@@ -277,7 +277,8 @@ Recent updates:
 [![Screenshot from the game Boat Journey showing ASCII art of a boat and some islands](boat-journey-screenshot.png)
 _Carry your passengers safely to the ocean in Boat Journey._][boat-journey-itch]
 
-[Boat Journey][boat-journey-itch] ([Github][boat-journey-github]) is a turn-based game where you drive a boat through a
+[Boat Journey][boat-journey-itch] ([Github][boat-journey-github])
+is a turn-based game where you drive a boat through a
 procedurally-generated landscape on a voyage along a river destined for the
 ocean. Accept passengers to have them help you on your journey. Fight monsters,
 collect junk, trade the junk for fuel, use the fuel to travel to the ocean.
@@ -290,7 +291,8 @@ Features:
 - Hand-drawn ansi-art character portraits
 - You can take on a ghost as a passenger and then become a ghost yourself.
 
-Boat Journey was made for the [7 Day Roguelike 2023][7drl-itch] game jam. The devlog is [here][boat-journey-devlog].
+Boat Journey was made for the [7 Day Roguelike 2023][7drl-itch] game jam.
+The devlog is [here][boat-journey-devlog].
 
 [boat-journey-itch]: https://gridbugs.itch.io/boat-journey
 [boat-journey-github]: https://github.com/gridbugs/boat-journey
