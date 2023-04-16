@@ -358,6 +358,36 @@ _Discussions: [Twitter]_
 [Bevy]: https://bevyengine.org/
 [Nilay Savant]: https://twitter.com/nilay_savant
 
+### Cargo Space
+
+![Screenshot of Cargo Space's friends list context menu: "invite to lobby" is highlighted](cargo-space-invite.png)
+
+[Cargo Space] ([Discord][cargospace_discord]) by
+[@johanhelsing][johanhelsing_mastodon] is a co-op 2d space game where you build
+a ship and fly it through space looking for new parts, fighting pirates and the
+environment.
+
+This month's development was all about lobbies, chat and integrating with Steam.
+This spawned a couple of new micro-crates.
+
+[bevy_crossbeam_event] lets you spawn Bevy events by
+sending to a crossbeam channel, which is convenient with callbacks which require
+move semantics, such as those in `bevy-steamworks`.
+
+[steam_dev_launcher] is a cross-platform binary crate all
+about dev-friendly ways launching your game through Steam. That is: without
+losing logs, panic traces, and optionally using a custom binary or setting extra
+environment variables (launch from `/target/debug/your_game`).
+
+Read more about all this in [this month's devlog entry][cargospace_devlog_6].
+
+[Cargo Space]: https://helsing.studio/cargospace
+[cargospace_devlog_6]: https://johanhelsing.studio/posts/cargo-space-devlog-5
+[cargospace_discord]: https://discord.gg/ye9UDNvqQD
+[johanhelsing_mastodon]: https://mastodon.social/@johanhelsing
+[bevy_crossbeam_event]: https://github.com/johanhelsing/bevy_crossbeam_event
+[steam_dev_launcher]: https://github.com/johanhelsing/steam_dev_launcher
+
 ## Engine Updates
 
 ### hotline
