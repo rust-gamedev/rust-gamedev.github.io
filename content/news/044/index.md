@@ -561,6 +561,37 @@ _Discussions:
 [Matchbox]: https://github.com/johanhelsing/matchbox
 [matchbox-0.6]: https://johanhelsing.studio/posts/matchbox-0-6
 
+### [Bevy Rust-GPU]
+
+![hot-rebuild](bevy-rust-gpu-hot-rebuild.gif)
+_Hot-rebuilding a rust-gpu shader from a bevy app_
+
+[Bevy Rust-GPU] by [@Shfty]
+is a suite of crates encoding a practical [rust-gpu] workflow for [bevy].
+
+The latest release brings new GPU interop traits, shader macro robustness,
+and compatibility with [bevy] 0.10 and [rust-gpu] 0.6.
+Further development continues apace, with major improvements to the SPIR-V
+interchange pipeline, shader compilation machinery, and support code already merged.
+
+The project is still in development, and presently relies on custom forks
+of the associated crates. However, various PRs have been filed upstream
+to build out a robust interchange between them, with the hope of mainline compatibility
+\- and a corresponding crates.io release - sometime in the future.
+
+In particular, [@eddyb] deserves special thanks for his work on the [rust-gpu] side,
+which has enabled and informed many of the improvements tabled for the next release,
+and greatly accelerated the process of making Rust a viable shading language
+for users of Bevy and WGPU.
+
+_Discussion: [/r/bevy](https://reddit.com/r/bevy/comments/11hrnmz/bevy_rustgpu_joins_the_fray)_
+
+[Bevy Rust-GPU]: https://github.com/bevy-rust-gpu
+[bevy]: https://github.com/bevyengine/bevy
+[rust-gpu]: https://github.com/EmbarkStudios/rust-gpu
+[@Shfty]: https://github.com/Shfty
+[@eddyb]: https://github.com/eddyb
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
