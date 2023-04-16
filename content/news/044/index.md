@@ -563,6 +563,43 @@ We welcome [contributions][tarsila-contrib]! Big thanks to contributors
 [tarsila-contrib]: https://github.com/yds12/tarsila/blob/master/CONTRIBUTING.md
 [Aseprite]: https://www.aseprite.org/
 
+### [Rerun](https://www.rerun.io/)
+
+![Rerun's new select & hover highlights in a browser](rerun.gif)
+
+Rerun ([Discord](https://discord.gg/npTFxYR9),
+[Github](https://github.com/rerun-io/rerun), [Website](https://www.rerun.io/))
+is an open source SDK for logging complex visual data paired with a visualizer
+for exploring that data over time. While its primary focus is on robotics and
+computer vision, it can be useful for all kinds of
+rapid prototyping & algorithm development.
+
+Two new versions got released in March,
+[0.4.0](https://github.com/rerun-io/rerun/releases/tag/v0.4.0)
+is now latest. A few of the biggest highlights:
+
+- The web-viewer is, while still experimental & unpolished, now stable.
+  [Try it out here!](https://app.rerun.io/)
+- Depth textures can now directly be visualized with point clouds and
+  have a variety of color map settings.
+- Selection/hover highlights use now outlines for better visibility and
+  in order to avoid changing the visualization itself.
+- Support for mesh vertex colors.
+- [New example](https://github.com/rerun-io/rerun/blob/main/examples/python/opencv_canny/main.py)
+  of forever-streaming a web-camera image to Rerun.
+- Python packages now work with Ubuntu-20.04.
+- Many performance & bug fixes as well as compile time improvements.
+
+There's a growing community on [Discord][rerun-discord]
+waiting for you to join in case you have any questions,
+comments or just want to follow the latest development.
+The [Github project][rerun-github] is MIT/Apache
+licensed and open to contribute for everyone,
+be it with suggestions, bugs or PRs.
+
+[rerun-discord]: https://discord.gg/npTFxYR9
+[rerun-github]: https://github.com/rerun-io/rerun
+
 ## Library Updates
 
 ### [`bevy_text_mode`]
