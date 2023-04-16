@@ -325,6 +325,39 @@ You can play it [here][play-battle-city].
 [battle-city-yt]: https://youtube.com/watch?v=54Z2WBFZfzA
 [play-battle-city]: https://nightswatchgames.github.io/games/battle-city/
 
+### [BattleBots Simulator]
+
+![Light weight "annoyance" robot variant](battle-bots-simulator.jpg)
+_Light weight "annoyance" robot variant_
+
+[BattleBots Simulator] ([Twitter]) by [@nilaysavant]
+is a "BattleBots" themed robot wars simulator developed using [Bevy].
+
+The game is planned to have multiple combat arenas.
+Each player can compete using their selected robot.
+Players will be able to score and win by damaging and destroying opponent robots.
+Or by knocking opponents out of the arena.
+
+There are 3 variants of the robots planned as follows:
+
+- Light Weight "Annoyance": Low mass/HP, but will be unpredictable and fast.
+  It will slowly kill by consistently annoying and damaging opponents.
+- Medium Weight "Sniper": Medium weight robot that will be equipped with a high boost.
+  This will allow it to knockout opponents or push them out of the arena.
+- Heavy Weight "TANK": Highest mass/HP and momentum.
+  Slow moving but hard to kill.
+  Equipped with magnetic wedges that will help pin/push opponents out of the arena.
+
+The game is currently a work in progress. For updates follow [Nilay Savant] on Twitter.
+
+_Discussions: [Twitter]_
+
+[BattleBots Simulator]: https://twitter.com/nilay_savant/status/1632419019914645504
+[Twitter]: https://twitter.com/nilay_savant/status/1632419019914645504
+[@nilaysavant]: https://github.com/nilaysavant
+[Bevy]: https://bevyengine.org/
+[Nilay Savant]: https://twitter.com/nilay_savant
+
 ## Engine Updates
 
 ### hotline
