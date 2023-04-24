@@ -828,6 +828,22 @@ It's presently in a heavy-development prerelease state, so watch this space!
 
 <!-- One-liners for plan items that haven't got their own sections. -->
 
+- Other library updates:
+  - [winit-block-on] is an adaptor that allows one to easily block on futures
+    using winit as a reactor.
+  - [tinyaudio] is a cross-platform, easy-to-use, low-level audio output library
+    from the creator of the Fyrox engine.
+  - [faer v0.5][faer-v05] brings a new SVD module, which implements the singular
+    value decomposition for real matrices
+  - [Bevy Hanabi v0.6][hanabi-v06] brings a new property-based architecture for
+    more control at runtime and also an optimized GPU buffer
+    with Attribute-based particle layout.
+
+[winit-block-on]: https://github.com/notgull/winit-block-on
+[tinyaudio]: https://reddit.com/r/rust/comments/11rei24/ann_tinyaudio
+[faer-v05]: https://reddit.com/r/rust/comments/122823y/faer_v05
+[hanabi-v06]: https://twitter.com/djeedai/status/1634129348746772481
+
 ## Discussions
 
 <!-- Links to handpicked reddit/twitter/urlo/etc threads that provide
