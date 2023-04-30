@@ -66,6 +66,25 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Announcements
 
+### Rust GameDev Meetup
+
+![Gamedev meetup poster](gamedev-meetup.png)
+
+The 25th Rust Gamedev Meetup took place in March. You can watch the recording
+of the meetup [here on Youtube][gamedev-meetup-video]. Here was the schedule
+from the meetup:
+
+- Graphite - [@GraphiteEditor]
+
+The meetups take place on the second Saturday of every month via the [Rust
+Gamedev Discord server][rust-gamedev-discord] and are also [streamed on
+Twitch][rust-gamedev-twitch].
+
+[gamedev-meetup-video]: https://www.youtube.com/watch?v=Vq60NvWy8Io
+[rust-gamedev-discord]: https://discord.gg/yNtPTb2
+[rust-gamedev-twitch]: https://twitch.tv/rustgamedev
+[@GraphiteEditor]: https://twitter.com/GraphiteEditor
+
 ## Game Updates
 
 ### [8bit Duels]
