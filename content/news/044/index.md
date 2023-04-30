@@ -732,6 +732,50 @@ designs with #MadeWithGraphite on Twitter.
 [graphite-approachable-issues]: https://github.com/GraphiteEditor/Graphite/labels/Good%20First%20Issue
 [graphite-editor]: https://editor.graphite.rs
 
+## [ruffle][ruffle-post]
+
+![new text input support on mobile devices](ruffle-text.jpg)
+_Demo of the new text input boxes on a mobile device_
+
+[Ruffle] is an open-source Flash Player emulator, written in Rust. It aims to run
+natively on all modern operating systems and web browsers, leveraging Rust's
+memory safety guarentees to avoid the security pitfalls that Flash became
+notorious for in its later years.
+
+[This month's updates][ruffle-post] include:
+
+- Significant improvements to AVM1 engine accuracy
+  fixes dozens upon dozens of ActionScript 2 games.
+- Work on the AVM2 (ActionScript 3) backend [is also speeding up][ruffle-avm2],
+  a bunch of AS3 games are now playable.
+- Better mobile devices support:
+  text input boxes and iOS a context menu.
+
+[Check out the blog post][ruffle-post] for more details.
+
+[ruffle-post]: https://ruffle.rs/blog/2023/03/12/progress-report.html
+[ruffle-avm2]: https://ruffle.rs/avm2.html
+[ruffle]: https://ruffle.rs
+
+## [Orlop][orlop]
+
+![screenshot: a bunch of minimalist vehicle assets](orlop.png)
+
+Orlop by [Tim Rach][timrach] is a media management tool for anyone who works
+with a large asset library on a daily basis.
+
+> Organise and browse your asset collection with built-in tagging, search
+> and preview functionality. Automatic tagging requires no effort - just import
+> your asset folder and go!
+
+The beta version is available [on itch.io][orlop-itch]
+or [through Testflight][orlop-beta].
+
+[orlop]: https://orlop.dev
+[orlop-itch]: https://tirch.itch.io/orlop
+[orlop-beta]: https://orlop.dev#beta
+[timrach]: https://timrach.de
+
 ## Library Updates
 
 ### [`bevy_text_mode`]
@@ -860,11 +904,18 @@ It's presently in a heavy-development prerelease state, so watch this space!
 ## Other News
 
 <!-- One-liners for plan items that haven't got their own sections. -->
-
 - Other engine updates:
   - [Tetra v0.8][tetra-v0-8] brings a bunch of small API improvements
     and bugfixes. The engine is still in maintainance-only mode through.
+- Other tooling updates:
+  - [@Setzer22 shared a demo][blackjack-vid] of how smooth subdivision works
+    in the Blackjack editor.
+  - [Epic Asset Manager][epic-am] is an unofficial client to install Unreal Engine,
+    download and manage purchased assets, projects, plugins and games
+    from the Epic Games Store.
 
+[blackjack-vid]: https://mastodon.gamedev.place/@Setzer22/110011331330540420
+[epic-am]: https://github.com/AchetaGames/Epic-Asset-Manager
 [tetra-v0-8]: https://twitter.com/17cupsofcoffee/status/1636706157568962563
 
 ## Discussions
