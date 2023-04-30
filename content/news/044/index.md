@@ -477,6 +477,39 @@ _Discussions:
 [bevy_news]: https://bevyengine.org/news/bevy-0-10
 [bevy_repo]: https://github.com/bevyengine/bevy
 
+### [Fyrox][fyrox]
+
+[![Youtube screenshot: a head with a combination of face expressions](
+fyrox-yt-preview.jpg)][fyrox-blend-shapes-yt]
+
+[Fyrox][fyrox] ([GitHub][fyrox-src], [Discord][fyrox-dis], [Twitter][fyrox-twi])
+is a game engine that aims to be easy to use and provide a large set
+of out-of-the-box features. This month's highlights include:
+
+- [Basic Android support][fyrox-android] for GLES3.0+ devices - usable
+  but the renderer lacks mobile-specific optimizations.
+- [Lightmapper fixes][fyrox-lightmapper].
+- [Blend shapes][fyrox-blend-shapes] allows to dynamically change 3D meshes
+  (usefull for facial animation, etc).
+- Fyrox now uses [tinyaudio] as [its sound output backend][fyrox-audio-improvements].
+
+Full devlogs: [#17][fyrox-17], [#18][fyrox-18].
+
+_Discussions: [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/11vojtk/fyrox_blend)_
+
+[fyrox]: https://fyrox.rs
+[fyrox-src]: https://github.com/FyroxEngine/Fyrox
+[fyrox-dis]: https://discord.com/invite/xENF5Uh
+[fyrox-twi]: https://twitter.com/DmitryNStepanov
+[fyrox-17]: https://fyrox.rs/blog/post/twif17
+[fyrox-18]: https://fyrox.rs/blog/post/twif18
+[fyrox-blend-shapes-yt]: https://youtube.com/watch?v=2VtYk2vDoTY
+[fyrox-android]: https://fyrox.rs/blog/post/twif17#basic-android-support
+[fyrox-lightmapper]: https://fyrox.rs/blog/post/twif17#lightmapper-fixes
+[fyrox-blend-shapes]: https://fyrox.rs/blog/post/twif18#blend-shapes
+[fyrox-audio-improvements]: https://fyrox.rs/blog/post/twif18#audio-improvements
+[tinyaudio]: https://github.com/mrDIMAS/tinyaudio
+
 ## Learning Material Updates
 
 ### Developing an editor with egui
@@ -871,7 +904,9 @@ It's presently in a heavy-development prerelease state, so watch this space!
 ## Other News
 
 <!-- One-liners for plan items that haven't got their own sections. -->
-
+- Other engine updates:
+  - [Tetra v0.8][tetra-v0-8] brings a bunch of small API improvements
+    and bugfixes. The engine is still in maintainance-only mode through.
 - Other tooling updates:
   - [@Setzer22 shared a demo][blackjack-vid] of how smooth subdivision works
     in the Blackjack editor.
@@ -881,6 +916,7 @@ It's presently in a heavy-development prerelease state, so watch this space!
 
 [blackjack-vid]: https://mastodon.gamedev.place/@Setzer22/110011331330540420
 [epic-am]: https://github.com/AchetaGames/Epic-Asset-Manager
+[tetra-v0-8]: https://twitter.com/17cupsofcoffee/status/1636706157568962563
 
 ## Discussions
 
