@@ -74,16 +74,24 @@ The 25th Rust Gamedev Meetup took place in March. You can watch the recording
 of the meetup [here on Youtube][gamedev-meetup-video]. Here was the schedule
 from the meetup:
 
+- Blue Engine - [@aryanpur_elham]
+- Blade - [@kvark]
+- 8bit Duels - [@ThousandthStar]
+- Veloren - [@velorenproject]
 - Graphite - [@GraphiteEditor]
 
 The meetups take place on the second Saturday of every month via the [Rust
 Gamedev Discord server][rust-gamedev-discord] and are also [streamed on
 Twitch][rust-gamedev-twitch].
 
-[gamedev-meetup-video]: https://www.youtube.com/watch?v=Vq60NvWy8Io
+[gamedev-meetup-video]: https://www.youtube.com/watch?v=EVxjxP6sZtA
 [rust-gamedev-discord]: https://discord.gg/yNtPTb2
 [rust-gamedev-twitch]: https://twitch.tv/rustgamedev
+[@kvark]: https://kvark.github.io/
+[@aryanpur_elham]: https://twitter.com/aryanpur_elham
+[@ThousandthStar]: https://github.com/ThousandthStar
 [@GraphiteEditor]: https://twitter.com/GraphiteEditor
+[@velorenproject]: https://twitter.com/velorenproject
 
 ## Game Updates
 
