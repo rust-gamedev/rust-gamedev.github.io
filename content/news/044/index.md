@@ -721,21 +721,23 @@ for exploring that data over time. While its primary focus is on robotics and
 computer vision, it can be useful for all kinds of
 rapid prototyping & algorithm development.
 
-Two new versions got released in March,
-[0.4.0](https://github.com/rerun-io/rerun/releases/tag/v0.4.0)
+Three new versions got released since the last newsletter!
+[0.5.0](https://github.com/rerun-io/rerun/releases/tag/v0.5.0)
 is now latest. A few of the biggest highlights:
 
 - The web-viewer is, while still experimental & unpolished, now stable.
   [Try it out here!](https://app.rerun.io/)
+- Rerun can now be embedded in Jupyter notebooks
 - Depth textures can now directly be visualized with point clouds and
   have a variety of color map settings.
 - Selection/hover highlights use now outlines for better visibility and
   in order to avoid changing the visualization itself.
+- Picking is now done on the GPU, fixing many issues of the previous system
+- All color-mapping is now done on-the-fly on the GPU, faster & less memory use
 - Support for mesh vertex colors.
 - [New example](https://github.com/rerun-io/rerun/blob/main/examples/python/opencv_canny/main.py)
   of forever-streaming a web-camera image to Rerun.
-- Python packages now work with Ubuntu-20.04.
-- Many performance & bug fixes as well as compile time improvements.
+- Major improvements to the data store for better performance and memory usage
 
 There's a growing community on [Discord][rerun-discord]
 waiting for you to join in case you have any questions,
