@@ -859,6 +859,17 @@ or [through Testflight][orlop-beta].
 
 ## Library Updates
 
+### [Pixelate Mesh](https://www.reddit.com/r/bevy/comments/11qenq3/pixelate_mesh_apply_a_pixelation_effect_to_any/)
+
+![Differently pixelated foxes](./foxes.jpg)
+
+Jan Hohenheim ([@janhohenheim](https://github.com/janhohenheim)) recently
+published a new crate called [pixelate_mesh](https://github.com/janhohenheim/pixelate_mesh).
+
+It is a Bevy plugin that provides a Pixelate component that one can add to any
+entity holding a mesh or a scene, which it will then pixelate without any post-processing.
+The idea is to recreate the effect seen in [Prodeus](https://www.youtube.com/watch?v=Vb-hPYOIwMw)
+
 ### [`bevy_text_mode`]
 
 ![Screenshot of 1-bit sprites drawn using bevy_text_mode.](bevy_text_mode.png)
