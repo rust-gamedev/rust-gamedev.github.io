@@ -610,6 +610,37 @@ youtube][nes-audio-tool-demo-video]. The PDF of the slides from the talk are
 [writing-nes-programs-in-rust-pdf]: https://raw.githubusercontent.com/gridbugs/nes-programming-in-rust-sydney-rust-meetup-2023-03-01/main/slides.pdf
 [nes-audio-tool-demo-video]: https://www.youtube.com/watch?v=QHoISiWdPXo
 
+### [Foxtrot Becomes Stable(-ish)](https://www.reddit.com/r/rust_gamedev/comments/11wpptk/foxtrot_the_allinone_bevy_3d_template_reaches_020/)
+
+![Foxtrot in Action](./foxtrot.webp)
+
+Jan Hohenheim's ([@janhohenheim](https://github.com/janhohenheim)) [Foxtrot](https://github.com/janhohenheim/foxtrot),
+the all-in-one for the Bevy engine, has reached its [0.2 milestone](https://github.com/janhohenheim/foxtrot/milestone/2).
+Thanks to feedback, contributions and crates from the community, it has now
+reached a fairly stable state. While there used to be a major change every week
+before, the project will limit itself to updating only minor things during a
+Bevy version lifecycle and do major reworks only in time for new versions.
+
+So, if anyone was eyeing it but was turned off by the frequent big changes or
+the lack of some features, now is the time! Version 0.2.0 includes
+the following cool new features compared to 0.1.0:
+
+- Wasm support, with [a live demo here](https://janhohenheim.github.io/foxtrot/).
+If the mouse lock doesn't work, spam `Esc` a bunch of times 😉
+- Beautiful grass through [warbler\_grass](https://crates.io/crates/warbler_grass)
+- Buttery smooth cameras through [bevy\_dolly](https://github.com/BlackPhlox/bevy_dolly)
+- Dynamic pathfinding through [oxidized\_navigation](https://crates.io/crates/oxidized_navigation)
+- Simplified error handling through [bevy\_mod\_sysfail](https://crates.io/crates/bevy_mod_sysfail)
+- Easy to write plugins through [seldom\_fn\_plugin](https://crates.io/crates/seldom_fn_plugin)
+- Sprinting particles through [bevy\_hanabi](https://github.com/djeedai/bevy_hanabi)
+- A demo scene with houses (CC0 if you want to reuse them)
+- Dialog that gets draws letter-by-letter and is nicer to look at
+- Better documentation
+
+Thanks also to [bevy\_game\_template](https://github.com/NiklasEi/bevy_game_template),
+without which Foxtrot would not be possible in the first place!
+And thanks to PhaestusFox, who [made a video about the template](https://www.youtube.com/watch?v=MsYX4he_z_8)
+
 ### [Using the Depth Prepass in Bevy 0.10]
 
 ![depth prepass in bevy 0.10](bevy-depth-prepass.jpg)
