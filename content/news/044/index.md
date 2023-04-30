@@ -409,6 +409,29 @@ and and we are searching for graphic designer help.
 [OpenCombat_github]: https://github.com/buxx/OpenCombat
 [OpenCombat_discord]: https://discord.gg/6P2vtFh2Px
 
+### [Veloren][veloren]
+
+![Campfire by the lights](veloren.jpg)
+_Campfire by the lights_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In March, culling of underground terrain was added, improving rendering
+speeds. There has been a large influx of player growth, which has been rallying
+the focus on server optimizations. Optimizations for buffs and auras were added,
+specifically around how much network bandwith is being used. A visual guide of
+Veloren was created, which should help onboard new players to the game. It
+covers items such as basic controls, what to do when you start the game, basic
+crafting, and much more. More work has gone into the real-time simulation system
+improvements. It includes behaviour of where birds should fly to, and how
+species repopulation works.
+
+March's full weekly devlogs: "This Week In Veloren...": [#207][veloren-207].
+
+[veloren]: https://veloren.net
+[veloren-207]: https://veloren.net/devblog-207
+
 ## Engine Updates
 
 ### hotline
