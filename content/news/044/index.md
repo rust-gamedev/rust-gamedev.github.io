@@ -418,7 +418,7 @@ _Campfire by the lights_
 Fortress and Cube World.
 
 In March, culling of underground terrain was added, improving rendering
-speeds.There has been a large influx of player growth, which has been rallying
+speeds. There has been a large influx of player growth, which has been rallying
 the focus on server optimizations. Optimizations for buffs and auras were added,
 specifically around how much network bandwith is being used. A visual guide of
 Veloren was created, which should help onboard new players to the game. It
