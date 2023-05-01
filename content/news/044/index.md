@@ -610,12 +610,12 @@ youtube][nes-audio-tool-demo-video]. The PDF of the slides from the talk are
 [writing-nes-programs-in-rust-pdf]: https://raw.githubusercontent.com/gridbugs/nes-programming-in-rust-sydney-rust-meetup-2023-03-01/main/slides.pdf
 [nes-audio-tool-demo-video]: https://www.youtube.com/watch?v=QHoISiWdPXo
 
-### [Foxtrot Becomes Stable(-ish)](https://www.reddit.com/r/rust_gamedev/comments/11wpptk/foxtrot_the_allinone_bevy_3d_template_reaches_020/)
+### [Foxtrot Becomes Stable(-ish)][fox-ann]
 
-![Foxtrot in Action](./foxtrot.webp)
+![Foxtrot in Action](foxtrot.gif)
 
-Jan Hohenheim's ([@janhohenheim](https://github.com/janhohenheim)) [Foxtrot](https://github.com/janhohenheim/foxtrot),
-the all-in-one for the Bevy engine, has reached its [0.2 milestone](https://github.com/janhohenheim/foxtrot/milestone/2).
+Jan Hohenheim's ([@janhohenheim]) [Foxtrot], the all-in-one for the Bevy engine,
+has reached its [0.2 milestone][fox-0-2].
 Thanks to feedback, contributions and crates from the community, it has now
 reached a fairly stable state. While there used to be a major change every week
 before, the project will limit itself to updating only minor things during a
@@ -626,7 +626,7 @@ the lack of some features, now is the time! Version 0.2.0 includes
 the following cool new features compared to 0.1.0:
 
 - Wasm support, with [a live demo here](https://janhohenheim.github.io/foxtrot/).
-If the mouse lock doesn't work, spam `Esc` a bunch of times 😉
+  If the mouse lock doesn't work, spam `Esc` a bunch of times 😉
 - Beautiful grass through [warbler\_grass](https://crates.io/crates/warbler_grass)
 - Buttery smooth cameras through [bevy\_dolly](https://github.com/BlackPhlox/bevy_dolly)
 - Dynamic pathfinding through [oxidized\_navigation](https://crates.io/crates/oxidized_navigation)
@@ -638,8 +638,13 @@ If the mouse lock doesn't work, spam `Esc` a bunch of times 😉
 - Better documentation
 
 Thanks also to [bevy\_game\_template](https://github.com/NiklasEi/bevy_game_template),
-without which Foxtrot would not be possible in the first place!
-And thanks to PhaestusFox, who [made a video about the template](https://www.youtube.com/watch?v=MsYX4he_z_8)
+without which Foxtrot would not be possible in the first place! And thanks
+to PhaestusFox, who [made a video about the template](https://youtube.com/watch?v=MsYX4he_z_8)
+
+[@janhohenheim]: https://github.com/janhohenheim
+[fox-ann]: https://reddit.com/r/rust_gamedev/comments/11wpptk/foxtrot_reaches_020
+[Foxtrot]: https://github.com/janhohenheim/foxtrot
+[fox-0-2]: https://github.com/janhohenheim/foxtrot/milestone/2
 
 ### [Using the Depth Prepass in Bevy 0.10]
 
@@ -859,16 +864,18 @@ or [through Testflight][orlop-beta].
 
 ## Library Updates
 
-### [Pixelate Mesh](https://www.reddit.com/r/bevy/comments/11qenq3/pixelate_mesh_apply_a_pixelation_effect_to_any/)
+### [Pixelate Mesh][pixelate-mesh-ann]
 
-![Differently pixelated foxes](./foxes.jpg)
+![Differently pixelated foxes](foxes.jpg)
 
-Jan Hohenheim ([@janhohenheim](https://github.com/janhohenheim)) recently
-published a new crate called [pixelate_mesh](https://github.com/janhohenheim/pixelate_mesh).
-
+Jan Hohenheim ([@janhohenheim]) recently published a new crate called [pixelate_mesh].
 It is a Bevy plugin that provides a Pixelate component that one can add to any
 entity holding a mesh or a scene, which it will then pixelate without any post-processing.
-The idea is to recreate the effect seen in [Prodeus](https://www.youtube.com/watch?v=Vb-hPYOIwMw)
+The idea is to recreate the effect seen in [Prodeus].
+
+[pixelate_mesh]: https://github.com/janhohenheim/pixelate_mesh
+[pixelate-mesh-ann]: https://reddit.com/r/bevy/comments/11qenq3/pixelate_mesh
+[Prodeus]: https://youtube.com/watch?v=Vb-hPYOIwMw
 
 ### [`bevy_text_mode`]
 
