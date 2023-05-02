@@ -70,7 +70,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ### [CyberGate][cybergate-yt]
 
 ![hundreds of npcs smoothly interpolating](cybergate.jpg)
-hundreds of npcs smoothly interpolating_
+_hundreds of npcs smoothly interpolating_
 
 CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]),
 an ambitious multiplayer project in development by CyberSoul,
@@ -81,21 +81,17 @@ that emphasizes exploration and discovery across its diverse worlds.
 
 The latest updates to CyberGate include:
 
-- Networking Interpolation version 2
-Key benefits:
-1. objects update 12-45 milliseconds faster
-2. improved accuracy of object motion by ~20% and detail by ~20%
-3. increased reliability over frame rate changes
+- Networking Interpolation version 2:
+  increased reliability over frame rate changes,
+  improved accuracy of object motion and detail by ~20%,
+  and objects update 12-45 milliseconds faster.
+- Server compilation was drastically simplified (100x faster).
+- Improved browser server process, to have more consistent behavior.
+- Improved mouse lock on browsers.
+- Simplified code related to state synchronization.
+- Significant gameplay changes and bug fixes.
 
-- server compilation was drastically simplified (100x faster)
-
-- Improved browser server process, to have more consistent behavior
-- improved mouse lock on browsers
-- Simplified code related to state synchronization
-
-- significant gameplay changes and bug fixes
-
-They are currecntly working on universe generation alghoritms for version 8.0
+They are currecntly working on universe generation alghoritms for version 8.0.
 Participate [by joining the Discord server][cybergate-dis].
 
 [cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
