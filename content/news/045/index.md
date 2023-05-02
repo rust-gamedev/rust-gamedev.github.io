@@ -24,7 +24,7 @@ Key benefits:
 - improved mouse lock on browsers
 - Simplified code related to state synchronization
 
-- Important gameplay changes and bug fixes
+- significant gameplay changes and bug fixes
 
 
 They are currecntly working on universe generation alghoritms for version 8.0
