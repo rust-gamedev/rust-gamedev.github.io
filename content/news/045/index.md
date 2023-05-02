@@ -1,7 +1,7 @@
 ### [CyberGate][cybergate-yt]
 
-![Thousands of npcs smoothly interpolating](cybergate.jpg)
-_Thousands of npcs smoothly interpolating_
+![hundreds of npcs smoothly interpolating](cybergate.jpg)
+hundreds of npcs smoothly interpolating_
 
 CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]),
 an ambitious multiplayer project in development by CyberSoul,
