@@ -31,12 +31,14 @@ Feel free to send PRs about your own projects!
 
 - [Announcements](#announcements)
 - [Game Updates](#game-updates)
+  - [CyberGate](#cybergate)
 - [Engine Updates](#engine-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
-- [Other News](#other-news)
+  - [Backpack](#backpack)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
+- [Other News](#other-news)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
 - [Jobs](#jobs)
@@ -104,6 +106,28 @@ Participate [by joining the Discord server][cybergate-dis].
 ## Tooling Updates
 
 ## Library Updates
+
+### [Backpack]
+
+![Minimalist schema for sharing items in different games](backpack.jpg)  
+_Minimalist schema for sharing items in different games_
+
+[Backpack] is an inventory system to share items between different games.
+
+The author wants to see more interconnected games:
+
+- Raise a crab in Crab Simulator,
+- Make it fight in Crab Shooter,
+- Cook it in Crab Cook...
+- Gain a crab skin in your favorite game!
+
+[Backpack] is in a pre-MVP state: a tech prototype is working,
+proving the underlying concept works.
+
+The next project milestone should be
+2 minimalist interconnected games released by the end of 2023.
+
+[Backpack]: https://github.com/Vrixyz/backpack
 
 ## Popular Workgroup Issues in Github
 
