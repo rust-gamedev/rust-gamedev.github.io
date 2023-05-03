@@ -101,6 +101,16 @@ Participate [by joining the Discord server][cybergate-dis].
 
 ## Learning Material Updates
 
+### [Bevy <3 Github Actions][bevy-github-actions-blog]
+![bevy logo](bevy_github_actions.png)
+_bevy logo_
+
+[Piotr Siuszko][piotr-siuszko] wrote [a blog post][bevy-github-actions-blog]
+explaining how to automate building and publishing game written with Bevy to GitHub Pages using GitHub Actions.
+
+[piotr-siuszko]: https://mastodon.gamedev.place/@MevLyshkin
+[bevy-github-actions-blog]: https://www.mevlyshkin.com/blog/bevy-github-actions/
+
 ## Tooling Updates
 
 ## Library Updates
