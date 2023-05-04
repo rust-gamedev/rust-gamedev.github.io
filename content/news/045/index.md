@@ -102,6 +102,7 @@ Participate [by joining the Discord server][cybergate-dis].
 ## Learning Material Updates
 
 ### [Bevy <3 Github Actions][bevy-github-actions-blog]
+
 ![bevy logo](bevy_github_actions.png)
 _bevy logo_
 
