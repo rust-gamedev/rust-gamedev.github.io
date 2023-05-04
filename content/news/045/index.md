@@ -107,7 +107,8 @@ Participate [by joining the Discord server][cybergate-dis].
 
 ### [Backpack]
 
-![Minimalist schema for sharing items in different games](backpack.jpg)  
+![left part is "crab simulator" game where the player gains an item
+right part is "clash of crabs" where player is able to use the item](backpack.jpg)
 _Minimalist schema for sharing items in different games_
 
 [Backpack] is an inventory system to share items between different games.
