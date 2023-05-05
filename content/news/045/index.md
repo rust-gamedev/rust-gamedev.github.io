@@ -111,7 +111,9 @@ Participate [by joining the Discord server][cybergate-dis].
 right part is "clash of crabs" where player is able to use the item](backpack.jpg)
 _Minimalist schema for sharing items in different games_
 
-[Backpack] is an inventory system to share items between different games, for example:
+[Backpack] is an inventory system to share items between different games,
+for example:
+
 - Raise a crab in Crab Simulator,
 - Make it fight in Crab Shooter,
 - Cook it in Crab Cook...
