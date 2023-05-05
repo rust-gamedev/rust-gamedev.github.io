@@ -106,7 +106,8 @@ The main features of this update were:
 - local multiplayer
 - a second character
 - many sprite adjustments 
-- many gameplay tweaks from in-person playtesting with the [thetawave arcade cabinet][thetawave-arcade]
+- many gameplay tweaks from in-person playtesting with
+the [thetawave arcade cabinet][thetawave-arcade]
 
 ![thetawave-gameplay](https://raw.githubusercontent.com/thetawavegame/thetawave/main/assets/images/formation_spawn.gif)
 
@@ -115,11 +116,15 @@ on your machine is to download it through the
 [Spicy Launcher][spicy-launcher]. Otherwise, you can play the game in your
 browser on the [itch.io page][thetawave-itch].
 
+Feel free to reach out in the #thetawave channel in
+the [Spicy Lobster discord server][spicy-discord] if you are
+interested in contributing.
+
 [thetawave-itch]: https://metalmancy.itch.io/thetawave
 [thetawave-release]: https://github.com/thetawavegame/thetawave/releases/tag/v0.1.0
 [thetawave-arcade]: https://twitter.com/carlosupina/status/1650200385485774850
 [spicy-launcher]: https://github.com/spicylobstergames/SpicyLauncher/releases/tag/v0.3.0
-
+[spicy-discord]: https://discord.gg/52WCcgJkcE
 
 ## Engine Updates
 
