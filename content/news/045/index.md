@@ -113,12 +113,16 @@ network performance may still need to be tweaked, and there are still some bugs
 to fix, the proof-of-concept was a success. You can start matches on your local
 network, or online, with no configuration necessary!
 
+The Fish Folk game series has a [pre-launch page up on Kickstarter][jumpy_ks], expected to go
+public in mid-May.
+
 [Jumpy]: https://github.com/fishfolks/jumpy
 [jumpy_v0.7.0]: https://github.com/fishfolk/jumpy/releases/tag/v0.7.0
 [jumpy_twitter]: https://twitter.com/spicylobsterfam
 [jumpy_discord]: https://discord.gg/4smxjcheE5
 [spicy_lobster]: https://spicylobster.itch.io
 [jumpy_retrospective]: https://fishfolk.org/blog/jumpy-0-6-retrospective/
+[jumpy_ks]: https://www.kickstarter.com/projects/erlendsh/fish-folk
 
 ## Engine Updates
 
