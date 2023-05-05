@@ -105,7 +105,7 @@ The main features of this update were:
 
 - local multiplayer
 - a second character
-- many sprite adjustments 
+- many sprite adjustments
 - many gameplay tweaks from in-person playtesting with
 the [thetawave arcade cabinet][thetawave-arcade]
 
