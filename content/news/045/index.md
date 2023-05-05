@@ -99,6 +99,40 @@ Participate [by joining the Discord server][cybergate-dis].
 
 ## Engine Updates
 
+### [Ambient][ambient-github]
+
+![A 10-second preview of what's possible with Ambient 0.2](ambient.gif)
+_A 10-second preview of what's possible with Ambient 0.2_
+
+[Ambient 0.2](ambient-blog) is now out after two months of development.
+Ambient is an open-source runtime for building high-performance multiplayer
+games and 3D applications powered by WebAssembly, Rust and WebGPU. Projects
+consist of assets and logic built around the currently Rust-only Ambient API,
+and these projects can be loaded by any compatible runtime running on any
+platform.
+
+This release brings a few major features, including basic support for playing
+sounds, being able to run WASM on the client (in addition to the server), and
+automatic proxying of servers by the Ambient Proxy. This allows anyone with
+the URL to connect to a server, without having to worry about port forwarding.
+
+Finally, Ambient UI can now be used from guest code. Combined with networking
+and ECS, this unlocks an exciting new capability: multiplayer UI! The blog post
+walks through the creation of a basic multiplayer beat sequencer using these
+features.
+
+Check out [the GitHub][ambient-github] to get started with building for/or
+on Ambient yourself, or chat with the developers and other explorers on
+[the Discord][ambient-discord].
+
+_Discussion: [/r/rust][ambient-reddit], [Hacker News][ambient-hn]_
+
+[ambient-github]: https://github.com/AmbientRun/Ambient
+[ambient-blog]: https://www.ambient.run/post/ambient-0-2
+[ambient-reddit]: https://www.reddit.com/r/rust/comments/138ii11/ambient_02_multiplayer_ui_sound_clientside_wasm/
+[ambient-hn]: https://news.ycombinator.com/item?id=35828165
+[ambient-discord]: https://discord.gg/ambient
+
 ## Learning Material Updates
 
 ### [Bevy <3 Github Actions][bevy-github-actions-blog]
