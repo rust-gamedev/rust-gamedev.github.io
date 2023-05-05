@@ -114,7 +114,7 @@ to GitHub Pages using GitHub Actions.
 
 ### [Exploring Bevy's Game Of Life Example][exploring-gol-blog]
 
-![game_of_life_logo](explore_gol.gif)
+![game_of_life_logo](explore_gol_drawing.gif)
 _Game of Life Simulation_
 
 [Yendor][yendor] published [a mini-tutorial series][exploring-gol-blog]
