@@ -101,6 +101,18 @@ Participate [by joining the Discord server][cybergate-dis].
 
 ## Learning Material Updates
 
+### [Exploring Bevy's Game Of Life Example][exploring-gol-blog]
+
+![game_of_life_logo](explore_gol.gif)
+_Game of Life Simulation_
+
+[Yendor][yendor] published [a mini-tutorial series][exploring-gol-blog]
+exploring compute shaders in Bevy using their [`Game of Life` example][bevy-gol].
+
+[yendor]: https://github.com/lecoqjacob
+[exploring-gol-blog]: https://lecoqjacob.github.io/bevy_shader_playground/bevy_gol_example/index.html
+[bevy-gol]: https://github.com/bevyengine/bevy/blob/main/examples/shader/compute_shader_game_of_life.rs
+
 ## Tooling Updates
 
 ## Library Updates
