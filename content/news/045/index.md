@@ -97,6 +97,29 @@ Participate [by joining the Discord server][cybergate-dis].
 [cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
 [cybergate-dis]: https://discord.gg/R7DkHqw7zJ
 
+### [Jumpy]
+
+![Online Matchmaking Menu Page](jumpy.png)
+_Online Matchmaking_
+
+[Jumpy] ([GitHub][Jumpy], [Discord][jumpy_discord], [Twitter][jumpy_twitter]) by
+[Spicy Lobster][spicy_lobster] is a pixel-style, tactical 2D shooter with a fishy
+theme.
+
+In the last month, Jumpy released [v0.7.0][jumpy_v0.7.0] with support for online
+and LAN network games! Networking has been a long time comming, with many
+architecture decisions being made specifically with networking in mind. While
+network performance may still need to be tweaked, and there are still some bugs
+to fix, the proof-of-concept was a success. You can start matches on your local
+network, or online, with no configuration necessary!
+
+[Jumpy]: https://github.com/fishfolks/jumpy
+[jumpy_v0.7.0]: https://github.com/fishfolk/jumpy/releases/tag/v0.7.0
+[jumpy_twitter]: https://twitter.com/spicylobsterfam
+[jumpy_discord]: https://discord.gg/4smxjcheE5
+[spicy_lobster]: https://spicylobster.itch.io
+[jumpy_retrospective]: https://fishfolk.org/blog/jumpy-0-6-retrospective/
+
 ## Engine Updates
 
 ## Learning Material Updates
