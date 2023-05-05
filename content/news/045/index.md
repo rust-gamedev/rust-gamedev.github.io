@@ -97,6 +97,30 @@ Participate [by joining the Discord server][cybergate-dis].
 [cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
 [cybergate-dis]: https://discord.gg/R7DkHqw7zJ
 
+### [Thetawave][thetawave-itch]
+
+Thetawave is an open-source, physics based, space shooter game.
+This month, Thetawave 0.1.0 was [released][thetawave-release].
+The main features of this update were:
+
+- local multiplayer
+- a second character
+- many sprite adjustments 
+- many gameplay tweaks from in-person playtesting with the [thetawave arcade cabinet][thetawave-arcade]
+
+![thetawave-gameplay](https://raw.githubusercontent.com/thetawavegame/thetawave/main/assets/images/formation_spawn.gif)
+
+The easist way to play the most up to date version of Thetawave
+on your machine is to download it through the
+[Spicy Launcher][spicy-launcher]. Otherwise, you can play the game in your
+browser on the [itch.io page][thetawave-itch].
+
+[thetawave-itch]: https://metalmancy.itch.io/thetawave
+[thetawave-release]: https://github.com/thetawavegame/thetawave/releases/tag/v0.1.0
+[thetawave-arcade]: https://twitter.com/carlosupina/status/1650200385485774850
+[spicy-launcher]: https://github.com/spicylobstergames/SpicyLauncher/releases/tag/v0.3.0
+
+
 ## Engine Updates
 
 ## Learning Material Updates
