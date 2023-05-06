@@ -114,7 +114,7 @@ to GitHub Pages using GitHub Actions.
 
 ### Test-Driven Development in Rust Game Development with Bevy
 
-![TDD in Rust game dev with bevy](tdd_rust_bevy.jpeg)
+![TDD in Rust game dev with bevy](5654ED77-E767-45F6-A89D-1A471F4A3237.png)
 
 Edgardo Carreras writes about his experience with Test-Driven Development (TDD) 
 while developing a game engine in Rust using Bevy. TDD is an iterative software
