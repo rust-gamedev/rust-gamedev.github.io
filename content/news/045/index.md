@@ -97,6 +97,36 @@ Participate [by joining the Discord server][cybergate-dis].
 [cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
 [cybergate-dis]: https://discord.gg/R7DkHqw7zJ
 
+### [Way of Rhea][wor]
+
+[![Steam Puzzle Fest April 24 - May 1 Way of Rhea](wor-puzzle-fest.jpg)][wor]
+
+[Way of Rhea][wor] is a puzzle game with hard puzzles and forgiving
+mechanics being produced by [@masonremaley][wor-mason-remaley] in a custom Rust
+engine. You can support development by
+[checking out the free demo and wishlisting on Steam][wor], or
+[signing up for the mailing list](https://www.anthropicstudios.com/newsletter/signup/tech)!
+
+Recent updates:
+
+- Way of Rhea was part of the [Steam Puzzle Fest][wor-puzzle-fest]!
+- Various quality of life improvements:
+  - Time controls (pause, play, fastforward)
+  - Staves switch in place so that crabs don't inadvertantly move them when cycling
+  - Increased drag on various physics objects to prevent bouncing over targets
+  - Increased staff throw velocity to make it easier to throw staves off ledges
+  - Improved interactive hover visuals on staves
+- Fixed bug where you could take objects from the crab while he's riding the elevator
+- Fixed edge cases around saving on load screens
+- Fixed edge cases with sleep system and pausing
+- Made save points more flexible in crab puzzles (save points can now conditionally
+  trigger only when a crab is present)
+- More work on end game
+
+[wor]: https://store.steampowered.com/app/1110620/Way_of_Rhea/?utm_campaign=tmirgd&utm_source=n45
+[wor-mason-remaley]: https://twitter.com/masonremaley
+[wor-puzzle-fest]: https://store.steampowered.com/category/puzzle_matching/
+
 ## Engine Updates
 
 ## Learning Material Updates
