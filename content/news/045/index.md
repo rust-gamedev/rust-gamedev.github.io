@@ -112,6 +112,23 @@ to GitHub Pages using GitHub Actions.
 [piotr-siuszko]: https://mastodon.gamedev.place/@MevLyshkin
 [bevy-github-actions-blog]: https://mevlyshkin.com/blog/bevy-github-actions
 
+### Test-Driven Development in Rust Game Development with Bevy
+
+![TDD in Rust game dev with bevy](tdd_rust_bevy.jpeg)
+
+Edgardo Carreras writes about his experience with Test-Driven Development (TDD) 
+while developing a game engine in Rust using Bevy. TDD is an iterative software
+development approach that involves writing automated tests before writing the code. 
+In the article, Edgardo explains the benefits of TDD and how it can help in game 
+development. He also shares his testing process, including how he used Bevy's ECS 
+architecture to write tests for his game engine.
+
+Read the full article on Edgardo Carreras' blog [here](https://edgardocarreras.com/blog/tdd-in-rust-game-engine-bev).
+
+Test-Driven Development in Rust Game Development with Bevy: https://edgardocarreras.com/blog/tdd-in-rust-game-engine-bevy
+
+Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/12bnzin/excited_to_share_my_latest_blog_post_about/)
+
 ## Tooling Updates
 
 ## Library Updates
