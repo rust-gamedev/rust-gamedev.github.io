@@ -114,6 +114,69 @@ to GitHub Pages using GitHub Actions.
 
 ## Tooling Updates
 
+### [Luminol][luminol-github]
+
+![Luminol Screenshot](./luminol.png)
+
+#### What is Luminol
+
+Luminol ([Github][luminol-github] by [@speak2erase][@speak2erase]) is a remake
+of the RPG Maker editor,
+based mostly off of
+[RPG Maker XP](https://store.steampowered.com/app/235900/RPG_Maker_XP/).
+(RMXP from here on)
+Created by [Leelee][@speak2erase] and [somedevfox][@somedevfox],
+with the intent of creating a more modern, feature rich,
+and open source version of RMXP.
+
+RGSS, RMXP's runtime, has already been open sourcecd thanks to [mkxp](https://github.com/Ancurio/mkxp).
+However despite the several attempted, no one has fully remade the editor.
+There are [some tools](https://github.com/20kdc/gabien-app-r48) out there which
+cover some of its functionality, but none are user friendly, nor feature complete.
+And we aim to change that!
+
+#### Key Differences
+
+- Completely GPU accelerated (RMXP is software rendered!)
+- Edit multiple maps at the same time
+- Multiple data formats
+- Edit encrypted archives (rgssad)
+- Open source
+- Won't make you pull your hair out
+
+#### Motivation
+
+RGSS, RMXP's runtime, is actually quite enjoyable to use.
+The actual editor though- not so much.
+
+There's too many reasons to dislike RMXP to list, but here's some of the worse ones:
+
+- The UI is extremly old and outdated
+- It's very hard to extend, comments are usualy used as a hack
+- RMXP is allergic to source control, using a binary format which git hates
+- There are arbitrary limits that never existed in previous versions
+
+Luminol was born out of sheer frustration from dealing with these issues-
+and hopes to fix them!
+
+#### Contributing
+
+Luminol is currently looking for contributors too!
+
+[There is lots to be done.](https://github.com/Astrabit-ST/Luminol/issues)
+
+If you'd like to help contribute, please reach out to [@speak2erase][@speak2erase]!
+
+#### Links
+
+- [github][luminol-github]
+- [@speak2erase][@speak2erase] (main contributor)
+- [@somedevfox][@somedevfox]
+
+[luminol-github]: https://github.com/Astrabit-ST/Luminol
+[@speak2erase]: https://github.com/Speak2Erase
+[@somedevfox]: https://github.com/somedevfox
+
 ## Library Updates
 
 ## Popular Workgroup Issues in Github
