@@ -127,7 +127,6 @@ The first part of the series can be found [here][bevy-roguelike-blog].
 
 _Discussions: [/r/roguelikedev](https://www.reddit.com/r/roguelikedev/comments/12rvj30/creating_a_roguelike_in_bevy_engine/)_
 
-
 [bevy-roguelike-mastodon]: https://mastodon.gamedev.place/@maciekglowka
 [bevy-roguelike-blog]: https://maciejglowka.com/blog/bevy-roguelike-tutorial-devlog-part-1/
 
