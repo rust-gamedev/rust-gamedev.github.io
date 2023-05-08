@@ -112,6 +112,18 @@ to GitHub Pages using GitHub Actions.
 [piotr-siuszko]: https://mastodon.gamedev.place/@MevLyshkin
 [bevy-github-actions-blog]: https://mevlyshkin.com/blog/bevy-github-actions
 
+### Bevy roguelike tutorial
+
+![Bevy roguelike Screen shot](bevy_roguelike.gif)
+
+[@maciekglowka][bevy-roguelike-mastodon] started a blog series on creating a roguelike game using Bevy Engine.
+There are currently seven parts, focusing mostly on setting up a basic game architecture. The topics discussed so far include: separating logic from graphics in the ECS; designing a turn-based game loop; command pattern for the unit actions.
+
+The first part of the series can be found [here][bevy-roguelike-blog].
+
+[bevy-roguelike-mastodon]: https://mastodon.gamedev.place/@maciekglowka
+[bevy-roguelike-blog]: https://maciejglowka.com/blog/bevy-roguelike-tutorial-devlog-part-1/
+
 ## Tooling Updates
 
 ## Library Updates
