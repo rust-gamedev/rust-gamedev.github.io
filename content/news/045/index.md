@@ -130,7 +130,7 @@ with the intent of creating a more modern, feature rich,
 and open source version of RMXP.
 
 RGSS, RMXP's runtime, has already been open sourcecd thanks to [mkxp](https://github.com/Ancurio/mkxp).
-However despite the several attempted, no one has fully remade the editor.
+However despite the several attempts, no one has fully remade the editor.
 There are [some tools](https://github.com/20kdc/gabien-app-r48) out there which
 cover some of its functionality, but none are user friendly, nor feature complete.
 And we aim to change that!
@@ -151,10 +151,10 @@ The actual editor though- not so much.
 
 There's too many reasons to dislike RMXP to list, but here's some of the worse ones:
 
-- The UI is extremly old and outdated
-- It's very hard to extend, comments are usualy used as a hack
-- RMXP is allergic to source control, using a binary format which git hates
-- There are arbitrary limits that never existed in previous versions
+- Dated, and often unintuitive UI
+- Hard to extend, comments are usualy used as a hack
+- Uses a binary format, making it allergic to source control
+- Arbitrary limits that never existed in previous versions
 
 Luminol was born out of sheer frustration from dealing with these issues-
 and hopes to fix them!
@@ -163,7 +163,7 @@ and hopes to fix them!
 
 Luminol is currently looking for contributors too!
 
-[There is lots to be done.](https://github.com/Astrabit-ST/Luminol/issues)
+[There is a lot to be done.](https://github.com/Astrabit-ST/Luminol/issues)
 
 If you'd like to help contribute, please reach out to [@speak2erase][@speak2erase]!
 
