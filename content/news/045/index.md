@@ -218,6 +218,39 @@ _Discussion: [/r/rust][ambient-reddit], [Hacker News][ambient-hn]_
 [ambient-hn]: https://news.ycombinator.com/item?id=35828165
 [ambient-discord]: https://discord.gg/ambient
 
+### [godot-rust][gd-github]
+
+![godot-rust GDExtension logo](godot-rust-gdext.png)
+
+The Godot 4 binding for Rust, also known as [gdext][gd-gdext], now features
+[a reworked website][gd-website]. The site acts as a hub to all the relevant
+resources and community platforms. It also hosts auto-generated API docs
+from `cargo doc`, for latest snapshots and active pull requests.
+
+On the library side, April has brought [lots of improvements][gd-pulse]
+regarding engine interaction, notably:
+
+- FFI bugfixes ([#234][gd-234], [#249][gd-249], [#250][gd-250])
+- Class constants and notifications ([#219][gd-219], [#223][gd-223])
+- `Callable` support ([#231][gd-231])
+- Initial threading experiments ([#212][gd-212])
+
+For the near future, the plan is to iron out the new website and CI, as well
+as some QoL improvements such as better compile times.
+
+[gd-github]: https://github.com/godot-rust
+[gd-gdext]: https://github.com/godot-rust/gdext
+[gd-website]: https://godot-rust.github.io/
+[gd-godot4]: https://godotengine.org/article/godot-4-0-sets-sail/
+[gd-pulse]: https://github.com/godot-rust/gdextension/pulse/monthly
+[gd-212]: https://github.com/godot-rust/gdextension/issues/212
+[gd-219]: https://github.com/godot-rust/gdextension/issues/219
+[gd-223]: https://github.com/godot-rust/gdextension/issues/223
+[gd-231]: https://github.com/godot-rust/gdextension/issues/231
+[gd-234]: https://github.com/godot-rust/gdextension/issues/234
+[gd-250]: https://github.com/godot-rust/gdextension/issues/250
+[gd-249]: https://github.com/godot-rust/gdextension/issues/249
+
 ## Learning Material Updates
 
 ### [Bevy <3 Github Actions][bevy-github-actions-blog]
