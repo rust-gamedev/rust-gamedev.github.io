@@ -125,17 +125,17 @@ expected to go public in mid-May.
 
 ### [Thetawave][thetawave-itch]
 
+![thetawave-gameplay](thetawave.gif)
+
 Thetawave is an open-source, physics based, space shooter game.
 This month, Thetawave 0.1.0 was [released][thetawave-release].
 The main features of this update were:
 
-- local multiplayer
-- a second character
-- many sprite adjustments
-- many gameplay tweaks from in-person playtesting with
-  the [thetawave arcade cabinet][thetawave-arcade]
-
-![thetawave-gameplay](https://raw.githubusercontent.com/thetawavegame/thetawave/main/assets/images/formation_spawn.gif)
+- local multiplayer,
+- a second character,
+- many sprite adjustments,
+- and many gameplay tweaks from in-person playtesting with
+  the [thetawave arcade cabinet][thetawave-arcade].
 
 The easist way to play the most up to date version of Thetawave
 on your machine is to download it through the
