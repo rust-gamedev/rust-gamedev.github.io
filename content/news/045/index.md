@@ -123,6 +123,35 @@ expected to go public in mid-May.
 [spicy_lobster]: https://spicylobster.itch.io
 [jumpy_ks]: https://www.kickstarter.com/projects/erlendsh/fish-folk
 
+### [Thetawave][thetawave-itch]
+
+![thetawave-gameplay](thetawave.gif)
+
+Thetawave is an open-source, physics based, space shooter game.
+This month, Thetawave 0.1.0 was [released][thetawave-release].
+The main features of this update were:
+
+- local multiplayer,
+- a second character,
+- many sprite adjustments,
+- and many gameplay tweaks from in-person playtesting with
+  the [thetawave arcade cabinet][thetawave-arcade].
+
+The easist way to play the most up to date version of Thetawave
+on your machine is to download it through the
+[Spicy Launcher][spicy-launcher]. Otherwise, you can play the game in your
+browser on the [itch.io page][thetawave-itch].
+
+Feel free to reach out in the #thetawave channel in
+the [Spicy Lobster discord server][spicy-discord] if you are
+interested in contributing.
+
+[thetawave-itch]: https://metalmancy.itch.io/thetawave
+[thetawave-release]: https://github.com/thetawavegame/thetawave/releases/tag/v0.1.0
+[thetawave-arcade]: https://twitter.com/carlosupina/status/1650200385485774850
+[spicy-launcher]: https://github.com/spicylobstergames/SpicyLauncher/releases/tag/v0.3.0
+[spicy-discord]: https://discord.gg/52WCcgJkcE
+
 ## Engine Updates
 
 ## Learning Material Updates
