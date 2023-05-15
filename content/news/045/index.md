@@ -152,6 +152,36 @@ interested in contributing.
 [spicy-launcher]: https://github.com/spicylobstergames/SpicyLauncher/releases/tag/v0.3.0
 [spicy-discord]: https://discord.gg/52WCcgJkcE
 
+### [Way of Rhea][wor]
+
+[![Steam Puzzle Fest April 24 - May 1 Way of Rhea](wor-puzzle-fest.jpg)][wor]
+
+[Way of Rhea][wor] is a puzzle game with hard puzzles and forgiving
+mechanics being produced by [@masonremaley] in a custom Rust engine.
+You can support development by [checking out the free demo and wishlisting on Steam][wor]
+or [signing up for the mailing list][wor-mail]!
+
+Recent updates:
+
+- Time controls (pause, play, fastforward)
+- Staves switch in place so that crabs don't inadvertantly move them when cycling
+- Increased drag on various physics objects to prevent bouncing over targets
+- Increased staff throw velocity to make it easier to throw staves off ledges
+- Improved interactive hover visuals on staves
+- Fixed bug where you could take objects from the crab while he's riding the elevator
+- Fixed edge cases around saving on load screens
+- Fixed edge cases with sleep system and pausing
+- More flexible save points in crab puzzles (save points can now conditionally
+  trigger only when a crab is present)
+- More work on end game
+
+Also, Way of Rhea was part of the [Steam Puzzle Fest][wor-puzzle-fest]!
+
+[@masonremaley]: https://twitter.com/masonremaley
+[wor]: https://store.steampowered.com/app/1110620/Way_of_Rhea/?utm_campaign=tmirgd&utm_source=n45
+[wor-mail]: https://anthropicstudios.com/newsletter/signup/tech
+[wor-puzzle-fest]: https://store.steampowered.com/category/puzzle_matching
+
 ## Engine Updates
 
 ### [Ambient][ambient-github]
