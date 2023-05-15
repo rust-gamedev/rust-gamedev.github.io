@@ -215,6 +215,21 @@ drawing on the simulation.
 [exploring-gol-blog]: https://lecoqjacob.github.io/bevy_shader_playground/bevy_gol_example/index.html
 [bevy-gol]: https://github.com/bevyengine/bevy/blob/main/examples/shader/compute_shader_game_of_life.rs
 
+### [Test-Driven Development in Rust Game Development with Bevy][bevy-tdd]
+
+![TDD in Rust game dev with bevy](bevy-tdd.png)
+
+[Edgardo Carreras writes about his experience][bevy-tdd] with Test-Driven Development
+while developing a game engine in Rust using Bevy. TDD is an iterative software
+development approach that involves writing automated tests before writing the code.
+In the article, Edgardo explains the benefits of TDD and how it can help in game
+development. He also shares his testing process, including how he used Bevy's ECS
+architecture to write tests for his game engine.
+
+_Discussions: [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/12bnzin/bevy_tdd)_
+
+[bevy-tdd]: https://edgardocarreras.com/blog/tdd-in-rust-game-engine-bevy
+
 ## Tooling Updates
 
 ### [Rustracer][rustracer]
