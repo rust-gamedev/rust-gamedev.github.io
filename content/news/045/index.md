@@ -138,6 +138,20 @@ to GitHub Pages using GitHub Actions.
 [piotr-siuszko]: https://mastodon.gamedev.place/@MevLyshkin
 [bevy-github-actions-blog]: https://mevlyshkin.com/blog/bevy-github-actions
 
+### [Exploring Bevy's Game Of Life Example][exploring-gol-blog]
+
+![red dots or black bg](explore_gol_drawing.gif)
+_Game of Life Simulation_
+
+[Yendor][yendor] published [a mini-tutorial series][exploring-gol-blog]
+exploring compute shaders in Bevy using their [Game of Life example][bevy-gol]
+and adding some new featues to it: camera controller, wrapping simulation, and
+drawing on the simulation.
+
+[yendor]: https://github.com/lecoqjacob
+[exploring-gol-blog]: https://lecoqjacob.github.io/bevy_shader_playground/bevy_gol_example/index.html
+[bevy-gol]: https://github.com/bevyengine/bevy/blob/main/examples/shader/compute_shader_game_of_life.rs
+
 ## Tooling Updates
 
 ### [Rustracer][rustracer]
