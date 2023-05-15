@@ -114,11 +114,13 @@ to GitHub Pages using GitHub Actions.
 
 ### [Exploring Bevy's Game Of Life Example][exploring-gol-blog]
 
-![game_of_life_logo](explore_gol_drawing.gif)
+![red dots or black bg](explore_gol_drawing.gif)
 _Game of Life Simulation_
 
 [Yendor][yendor] published [a mini-tutorial series][exploring-gol-blog]
-exploring compute shaders in Bevy using their [`Game of Life` example][bevy-gol].
+exploring compute shaders in Bevy using their [Game of Life example][bevy-gol]
+and adding some new featues to it: camera controller, wrapping simulation, and
+drawing on the simulation.
 
 [yendor]: https://github.com/lecoqjacob
 [exploring-gol-blog]: https://lecoqjacob.github.io/bevy_shader_playground/bevy_gol_example/index.html
