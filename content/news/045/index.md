@@ -114,6 +114,29 @@ to GitHub Pages using GitHub Actions.
 
 ## Tooling Updates
 
+### [Rustracer][rustracer]
+
+[![Youtube screenshot: demo with a couple of cars inside a box](
+rustracer.jpg)][rustracer-0.2.0 demo]
+
+Rustracer, a PBR [glTF 2.0][glrf-2-0] renderer based on Vulkan ray-tracing.
+It can render (almost) any glTF 2.0 scene by pure path tracing at an interacive speed.
+Compared with rasterization-based glTF renderers, Rustracer needs some
+(scene-dependent) time for sample accumulation in exchange for global illumination.
+
+On top of that, the control panel provides a rich set of viewing options
+and debugging utilities.
+
+It also can serve as a glTF viewer or a reference renderer.
+
+The code base itself is a learning resource for [Ash] (Vulkan bindings in Rust),
+hardware ray tracing and glTF processing in Rust.
+
+[rustracer]: https://github.com/KaminariOS/rustracer
+[rustracer-0.2.0 demo]: https://youtube.com/playlist?list=PLD1H28onwV_kdxp1ajUL6riK_dNzMAXGj
+[Ash]: https://github.com/ash-rs/ash
+[glrf-2-0]: https://www.khronos.org/gltf
+
 ## Library Updates
 
 ### [Backpack]
