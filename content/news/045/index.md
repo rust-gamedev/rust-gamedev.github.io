@@ -35,8 +35,8 @@ Feel free to send PRs about your own projects!
 - [Learning Material Updates](#learning-material-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
-- [Other News](#other-news)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
+- [Other News](#other-news)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
 - [Jobs](#jobs)
@@ -115,6 +115,34 @@ to GitHub Pages using GitHub Actions.
 ## Tooling Updates
 
 ## Library Updates
+
+### [Backpack]
+
+![left part is "crab simulator" game where the player gains an item
+right part is "clash of crabs" where player is able to use the item](backpack.jpg)
+_Minimalist schema for sharing items in different games_
+
+[Backpack] is an inventory system to share items between different games,
+for example:
+
+- Raise a crab in Crab Simulator,
+- Make it fight in Crab Shooter,
+- Cook it in Crab Cook...
+- Gain a crab skin in your favorite game!
+
+[Backpack] is in a pre-MVP state: a tech prototype is working.
+
+The project is not affiliated or related to Blockchain/NFTs:
+it uses a PostgreSQL DB to store users, games and items.
+Authentication is done via email/password,
+third party authentication via OAuth will be a future goal.
+An Authenticated user can create apps and add item definitions to these.
+Other users can get an independant instance of that item and modify its data.
+
+The next project milestone is
+2 minimalist interconnected games released by the end of 2023.
+
+[Backpack]: https://github.com/Vrixyz/backpack
 
 ## Popular Workgroup Issues in Github
 
