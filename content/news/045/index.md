@@ -35,8 +35,8 @@ Feel free to send PRs about your own projects!
 - [Learning Material Updates](#learning-material-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
-- [Other News](#other-news)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
+- [Other News](#other-news)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
 - [Jobs](#jobs)
@@ -97,6 +97,32 @@ Participate [by joining the Discord server][cybergate-dis].
 [cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
 [cybergate-dis]: https://discord.gg/R7DkHqw7zJ
 
+### [Jumpy]
+
+![Online Matchmaking Menu Page](jumpy.png)
+_Online Matchmaking_
+
+[Jumpy] ([GitHub][Jumpy], [Discord][jumpy_discord], [Twitter][jumpy_twitter]) by
+[Spicy Lobster][spicy_lobster] is a pixel-style, tactical 2D shooter with a fishy
+theme.
+
+In the last month, Jumpy released [v0.7.0][jumpy_v0.7.0] with support for online
+and LAN network games! Networking has been a long time comming, with many
+architecture decisions being made specifically with networking in mind. While
+network performance may still need to be tweaked, and there are still some bugs
+to fix, the proof-of-concept was a success. You can start matches on your local
+network, or online, with no configuration necessary!
+
+The Fish Folk game series has a [pre-launch page up on Kickstarter][jumpy_ks],
+expected to go public in mid-May.
+
+[Jumpy]: https://github.com/fishfolks/jumpy
+[jumpy_v0.7.0]: https://github.com/fishfolk/jumpy/releases/tag/v0.7.0
+[jumpy_twitter]: https://twitter.com/spicylobsterfam
+[jumpy_discord]: https://discord.gg/4smxjcheE5
+[spicy_lobster]: https://spicylobster.itch.io
+[jumpy_ks]: https://www.kickstarter.com/projects/erlendsh/fish-folk
+
 ### [Thetawave][thetawave-itch]
 
 Thetawave is an open-source, physics based, space shooter game.
@@ -107,7 +133,7 @@ The main features of this update were:
 - a second character
 - many sprite adjustments
 - many gameplay tweaks from in-person playtesting with
-the [thetawave arcade cabinet][thetawave-arcade]
+  the [thetawave arcade cabinet][thetawave-arcade]
 
 ![thetawave-gameplay](https://raw.githubusercontent.com/thetawavegame/thetawave/main/assets/images/formation_spawn.gif)
 
@@ -141,9 +167,74 @@ to GitHub Pages using GitHub Actions.
 [piotr-siuszko]: https://mastodon.gamedev.place/@MevLyshkin
 [bevy-github-actions-blog]: https://mevlyshkin.com/blog/bevy-github-actions
 
+### [Exploring Bevy's Game Of Life Example][exploring-gol-blog]
+
+![red dots or black bg](explore_gol_drawing.gif)
+_Game of Life Simulation_
+
+[Yendor][yendor] published [a mini-tutorial series][exploring-gol-blog]
+exploring compute shaders in Bevy using their [Game of Life example][bevy-gol]
+and adding some new featues to it: camera controller, wrapping simulation, and
+drawing on the simulation.
+
+[yendor]: https://github.com/lecoqjacob
+[exploring-gol-blog]: https://lecoqjacob.github.io/bevy_shader_playground/bevy_gol_example/index.html
+[bevy-gol]: https://github.com/bevyengine/bevy/blob/main/examples/shader/compute_shader_game_of_life.rs
+
 ## Tooling Updates
 
+### [Rustracer][rustracer]
+
+[![Youtube screenshot: demo with a couple of cars inside a box](
+rustracer.jpg)][rustracer-0.2.0 demo]
+
+Rustracer, a PBR [glTF 2.0][glrf-2-0] renderer based on Vulkan ray-tracing.
+It can render (almost) any glTF 2.0 scene by pure path tracing at an interacive speed.
+Compared with rasterization-based glTF renderers, Rustracer needs some
+(scene-dependent) time for sample accumulation in exchange for global illumination.
+
+On top of that, the control panel provides a rich set of viewing options
+and debugging utilities.
+
+It also can serve as a glTF viewer or a reference renderer.
+
+The code base itself is a learning resource for [Ash] (Vulkan bindings in Rust),
+hardware ray tracing and glTF processing in Rust.
+
+[rustracer]: https://github.com/KaminariOS/rustracer
+[rustracer-0.2.0 demo]: https://youtube.com/playlist?list=PLD1H28onwV_kdxp1ajUL6riK_dNzMAXGj
+[Ash]: https://github.com/ash-rs/ash
+[glrf-2-0]: https://www.khronos.org/gltf
+
 ## Library Updates
+
+### [Backpack]
+
+![left part is "crab simulator" game where the player gains an item
+right part is "clash of crabs" where player is able to use the item](backpack.jpg)
+_Minimalist schema for sharing items in different games_
+
+[Backpack] is an inventory system to share items between different games,
+for example:
+
+- Raise a crab in Crab Simulator,
+- Make it fight in Crab Shooter,
+- Cook it in Crab Cook...
+- Gain a crab skin in your favorite game!
+
+[Backpack] is in a pre-MVP state: a tech prototype is working.
+
+The project is not affiliated or related to Blockchain/NFTs:
+it uses a PostgreSQL DB to store users, games and items.
+Authentication is done via email/password,
+third party authentication via OAuth will be a future goal.
+An Authenticated user can create apps and add item definitions to these.
+Other users can get an independant instance of that item and modify its data.
+
+The next project milestone is
+2 minimalist interconnected games released by the end of 2023.
+
+[Backpack]: https://github.com/Vrixyz/backpack
 
 ## Popular Workgroup Issues in Github
 
