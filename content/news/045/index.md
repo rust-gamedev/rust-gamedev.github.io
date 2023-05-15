@@ -121,7 +121,6 @@ expected to go public in mid-May.
 [jumpy_twitter]: https://twitter.com/spicylobsterfam
 [jumpy_discord]: https://discord.gg/4smxjcheE5
 [spicy_lobster]: https://spicylobster.itch.io
-[jumpy_retrospective]: https://fishfolk.org/blog/jumpy-0-6-retrospective/
 [jumpy_ks]: https://www.kickstarter.com/projects/erlendsh/fish-folk
 
 ## Engine Updates
