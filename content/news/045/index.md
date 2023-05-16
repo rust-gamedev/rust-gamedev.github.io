@@ -336,6 +336,48 @@ hardware ray tracing and glTF processing in Rust.
 [Ash]: https://github.com/ash-rs/ash
 [glrf-2-0]: https://www.khronos.org/gltf
 
+### [Luminol][luminol]
+
+![tile map editor and other tool windows like command event editor](luminol.png)
+
+[Luminol][luminol] by [@speak2erase] and [@somedevfox] is a remake
+of the RPG Maker editor, based mostly off of [RPG Maker XP][RMXP]
+(aka RMXP), with the intent of creating a more modern, feature rich,
+and open source version of RMXP.
+
+RGSS, RMXP's runtime, has already been open sourcecd thanks to [mkxp].
+However despite the several attempts, no one has fully remade the editor.
+There are [some tools][r48] out there which cover some of its functionality,
+but none are user friendly, nor feature complete.
+
+RGSS is actually quite enjoyable to use. The actual editor though - not so much:
+dated and often unintuitive UI, extensibility issues,
+binary format that is allergic to source control,
+and arbitrary limits that never existed in previous versions.
+Luminol was born out of sheer frustration from dealing with these issues -
+and hopes to fix them!
+
+Luminol's key differences:
+
+- Completely GPU accelerated (RMXP is software rendered).
+- Edit multiple maps at the same time.
+- Multiple data formats.
+- Edit encrypted archives (rgssad).
+- Open-source.
+- Better user experience overall.
+
+Luminol is currently looking for contributors:
+[there is a lot to be done][luminol-issues].
+If you'd like to help contribute, please reach out to [@speak2erase]!
+
+[luminol]: https://github.com/Astrabit-ST/Luminol
+[luminol-issues]: https://github.com/Astrabit-ST/Luminol/issues
+[@speak2erase]: https://github.com/Speak2Erase
+[@somedevfox]: https://github.com/somedevfox
+[RMXP]: https://store.steampowered.com/app/235900/RPG_Maker_XP
+[mkxp]: https://github.com/Ancurio/mkxp
+[r48]: https://github.com/20kdc/gabien-app-r48
+
 ## Library Updates
 
 ### [Backpack]
