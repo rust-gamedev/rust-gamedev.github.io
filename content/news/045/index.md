@@ -120,17 +120,15 @@ to GitHub Pages using GitHub Actions.
 
 [Luminol][luminol] by [@speak2erase] and [@somedevfox] is a remake
 of the RPG Maker editor, based mostly off of [RPG Maker XP][RMXP]
-(aka RMXP),
-with the intent of creating a more modern, feature rich,
+(aka RMXP), with the intent of creating a more modern, feature rich,
 and open source version of RMXP.
 
 RGSS, RMXP's runtime, has already been open sourcecd thanks to [mkxp].
 However despite the several attempts, no one has fully remade the editor.
-There are [some tools][r48] out there which
-cover some of its functionality, but none are user friendly, nor feature complete.
+There are [some tools][r48] out there which cover some of its functionality,
+but none are user friendly, nor feature complete.
 
-RGSS is actually quite enjoyable to use.
-The actual editor though - not so much:
+RGSS is actually quite enjoyable to use. The actual editor though - not so much:
 dated and often unintuitive UI, extensibility issues,
 binary format that is allergic to source control,
 and arbitrary limits that never existed in previous versions.
@@ -146,7 +144,8 @@ Luminol's key differences:
 - Open-source.
 - Better user experience overall.
 
-Luminol is currently looking for contributors: [there is a lot to be done][luminol-issues].
+Luminol is currently looking for contributors:
+[there is a lot to be done][luminol-issues].
 If you'd like to help contribute, please reach out to [@speak2erase]!
 
 [luminol]: https://github.com/Astrabit-ST/Luminol
