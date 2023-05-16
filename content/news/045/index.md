@@ -114,68 +114,48 @@ to GitHub Pages using GitHub Actions.
 
 ## Tooling Updates
 
-### [Luminol][luminol-github]
+### [Luminol][luminol]
 
-![Luminol Screenshot](./luminol.png)
+![tile map editor and other tool windows like command event editor](luminol.png)
 
-#### What is Luminol
-
-Luminol ([Github][luminol-github] by [@speak2erase][@speak2erase]) is a remake
-of the RPG Maker editor,
-based mostly off of
-[RPG Maker XP](https://store.steampowered.com/app/235900/RPG_Maker_XP/).
-(RMXP from here on)
-Created by [Leelee][@speak2erase] and [somedevfox][@somedevfox],
+[Luminol][luminol] by [@speak2erase] and [@somedevfox] is a remake
+of the RPG Maker editor, based mostly off of [RPG Maker XP][RMXP]
+(aka RMXP),
 with the intent of creating a more modern, feature rich,
 and open source version of RMXP.
 
-RGSS, RMXP's runtime, has already been open sourcecd thanks to [mkxp](https://github.com/Ancurio/mkxp).
+RGSS, RMXP's runtime, has already been open sourcecd thanks to [mkxp].
 However despite the several attempts, no one has fully remade the editor.
-There are [some tools](https://github.com/20kdc/gabien-app-r48) out there which
+There are [some tools][r48] out there which
 cover some of its functionality, but none are user friendly, nor feature complete.
-And we aim to change that!
 
-#### Key Differences
-
-- Completely GPU accelerated (RMXP is software rendered!)
-- Edit multiple maps at the same time
-- Multiple data formats
-- Edit encrypted archives (rgssad)
-- Open source
-- Won't make you pull your hair out
-
-#### Motivation
-
-RGSS, RMXP's runtime, is actually quite enjoyable to use.
-The actual editor though- not so much.
-
-There's too many reasons to dislike RMXP to list, but here's some of the worse ones:
-
-- Dated, and often unintuitive UI
-- Hard to extend, comments are usualy used as a hack
-- Uses a binary format, making it allergic to source control
-- Arbitrary limits that never existed in previous versions
-
-Luminol was born out of sheer frustration from dealing with these issues-
+RGSS is actually quite enjoyable to use.
+The actual editor though - not so much:
+dated and often unintuitive UI, extensibility issues,
+binary format that is allergic to source control,
+and arbitrary limits that never existed in previous versions.
+Luminol was born out of sheer frustration from dealing with these issues -
 and hopes to fix them!
 
-#### Contributing
+Luminol's key differences:
 
-Luminol is currently looking for contributors too!
+- Completely GPU accelerated (RMXP is software rendered).
+- Edit multiple maps at the same time.
+- Multiple data formats.
+- Edit encrypted archives (rgssad).
+- Open-source.
+- Better user experience overall.
 
-[There is a lot to be done.](https://github.com/Astrabit-ST/Luminol/issues)
+Luminol is currently looking for contributors: [there is a lot to be done][luminol-issues].
+If you'd like to help contribute, please reach out to [@speak2erase]!
 
-If you'd like to help contribute, please reach out to [@speak2erase][@speak2erase]!
-
-#### Links
-
-- [github][luminol-github]
-- [@speak2erase][@speak2erase] (main contributor)
-- [@somedevfox][@somedevfox]
-
-[luminol-github]: https://github.com/Astrabit-ST/Luminol
+[luminol]: https://github.com/Astrabit-ST/Luminol
+[luminol-issues]: https://github.com/Astrabit-ST/Luminol/issues
 [@speak2erase]: https://github.com/Speak2Erase
 [@somedevfox]: https://github.com/somedevfox
+[RMXP]: https://store.steampowered.com/app/235900/RPG_Maker_XP
+[mkxp]: https://github.com/Ancurio/mkxp
+[r48]: https://github.com/20kdc/gabien-app-r48
 
 ## Library Updates
 
