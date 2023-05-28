@@ -384,7 +384,7 @@ If you'd like to help contribute, please reach out to [@speak2erase]!
 
 Graphite ([website][graphite-website], [GitHub][graphite-repo],
 [Discord][graphite-discord], [Twitter][graphite-twitter]) is a free,
-in-development raster and vector 2D graphics suite based around a Rust-powered
+in-development raster and vector 2D graphics editor based around a Rust-powered
 node graph compositing engine.
 
 April's [sprint 25][graphite-sprint-25] developments:
