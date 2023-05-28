@@ -384,15 +384,19 @@ If you'd like to help contribute, please reach out to [@speak2erase]!
 
 Graphite ([website][graphite-website], [GitHub][graphite-repo],
 [Discord][graphite-discord], [Twitter][graphite-twitter]) is a free,
-in-development raster and vector 2D graphics editor based around a Rust-powered
+in-development raster and vector 2D graphics suite based around a Rust-powered
 node graph compositing engine.
 
 April's [sprint 25][graphite-sprint-25] developments:
 
 - Brushing up: The new Brush tool makes it possible to paint raster-based art.
-- Writing down: A refactor of the Text tool integrates typographic content in the node graph. Finally, all artwork types are node-based.
-- Showing true colors: Node graph compositing now uses linear, not gamma, color. Key new color adjustment nodes are added.
-- Laying the groundwork: Further engineering work prepares the node graph language for GPU execution. And development continues toward in-graph layer stack compositing.
+- Writing down: A refactor of the Text tool integrates typographic content in
+  the node graph. Finally, all artwork types are node-based.
+- Showing true colors: Node graph compositing now uses linear, not gamma,
+  color. Key new color adjustment nodes are added.
+- Laying the groundwork: Further engineering work prepares the node graph
+  language for GPU execution. And development continues toward in-graph layer
+  stack compositing.
 
 As always, new contributors are cordially invited to
 [get involved][graphite-contribute] and take on
