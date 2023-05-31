@@ -378,6 +378,24 @@ If you'd like to help contribute, please reach out to [@speak2erase]!
 [mkxp]: https://github.com/Ancurio/mkxp
 [r48]: https://github.com/20kdc/gabien-app-r48
 
+### [Image Maniac][im]
+
+![many images opened in one window](imagemaniac.jpg)
+
+[Image Maniac][im] is a cross-platform image viewer designed for game developers
+and other creative professionals. The project's features include:
+
+- Infinite canvas for for drag-n-droping many images onto the main window,
+  and view them all in a single, unified workspace.
+- Quick RGBA channel switching using number keys is usefil for
+  game developers who work with textures and materials.
+- Broad format support including PNG, JPG, BMP, DDS, TGA, KTX2, and HDR.
+- Focus on performance even with large files and multiple image at once.
+
+_Discussions: [/r/rust](https://reddit.com/r/rust/comments/133ruqi/image_maniac)_
+
+[im]: https://github.com/AllenDang/img_maniac
+
 ## Library Updates
 
 ### [Backpack]
@@ -415,6 +433,48 @@ The next project milestone is
 ## Other News
 
 <!-- One-liners for plan items that haven't got their own sections. -->
+
+- Other engine updates:
+  - [ggez is looking for new maintainers][ggez-maintain].
+- Other tooling updates:
+  - [ironboy] by @nicolas-siplis is a high accuracy GameBoy emulator
+    written in Rust and available in the browser via WASM.
+- Other library updates:
+  - [Strolle][strolle] is an experimental real-time renderer that supports
+    global illumination.
+  - [blend v0.8][blend] brings better support for Blender primitives
+    and API improvements.
+  - [lox] is a library for creating, generating, processing,
+    and analyzing polygon meshes.
+  - [bitcode] is a games-oriented bitwise encoder/decoder which attempts
+    to shrink the serialized size without sacrificing speed.
+  - [virtual_joystick] provides a virtual joystick UI widgets for Bevy projects.
+  - [faer v0.7][faer-07] and [v0.8 releases][faer-08] bring
+    better SIMD operations support for non native types
+    and overall performance improvements.
+  - [egui_graphs] provides an interactive graph visualization widget powered
+    by egui and petgraph.
+  - [Alkahest][alkahest] is a schema-based serialization library
+    that features infallible serialization, zero-overhead serialization of sequences,
+    lazy deserialization and supports wide variety of formulas.
+  - [wgpu v0.16][wgpu-v016] brings a bunch of changes to sync with latest spec,
+    improved APIs, and lots of bugfixes.
+  - [the png create][png] got an ultrafast compression mode \-
+    up to 4x faster decompression.
+
+[strolle]: https://reddit.com/r/rust/comments/12u4ovi/strolle
+[ggez-maintain]: https://github.com/ggez/ggez/issues/1188
+[ironboy]: https://reddit.com/r/rust/comments/12qj2ty/ironboy
+[blend]: https://github.com/lukebitts/blend/blob/master/CHANGELOG.md#blend-08
+[lox]: https://reddit.com/r/rust/comments/12teoxi/lox_a_fast_polygon_mesh_library
+[bitcode]: https://reddit.com/r/rust/comments/12nw1pc/bitcode_format
+[virtual_joystick]: https://github.com/SergioRibera/virtual_joystick
+[faer-07]: https://reddit.com/r/rust/comments/12estz9/faer_07
+[faer-08]: https://reddit.com/r/rust/comments/12tw26r/faer_08
+[egui_graphs]: https://github.com/blitzarx1/egui_graphs
+[alkahest]: https://reddit.com/r/rust_gamedev/comments/12auz7o/alkahest_02
+[wgpu-v016]:https://github.com/gfx-rs/wgpu/releases/tag/v0.16.0
+[png]: https://reddit.com/r/rust/comments/12ks0ka/png_crate_gets_an_ultrafast_compression_mode
 
 ## Discussions
 
