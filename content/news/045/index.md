@@ -411,7 +411,7 @@ before you dive into the article.
 [Patryk Budzyński][PsichiX] recently shared their project [Intuicio][intuicio-blog],
 Intuicio is a set of building blocks in Rust that allows you to create your own
 scripting solution. It consists of scripts, frontends, backends, and hosts.
-You can also follow a [tutorial-blog] to build the entire scripting pipeline 
+You can also follow a [tutorial-blog] to build the entire scripting pipeline
 step by step.
 
 [PsichiX]: https://github.com/PsichiX
