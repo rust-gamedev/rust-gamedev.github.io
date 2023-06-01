@@ -374,77 +374,6 @@ to GitHub Pages using GitHub Actions.
 [piotr-siuszko]: https://mastodon.gamedev.place/@MevLyshkin
 [bevy-github-actions-blog]: https://mevlyshkin.com/blog/bevy-github-actions
 
-### [PhaestusFox's Bevy Videos][phaestusfox-youtube-channel]
-
-![phaestusfox youtube](phaestusfox.png)
-
-[PhaestusFox][phaestusfox] makes [tutorials][phaestusfox-youtube-channel]
-on Youtube about all things Bevy.
-Level up your game dev skills with PhaestusFox's tutorials and learn more from
-very basic how-to's to more complex full tutorials like how to make a platformer
-in Bevy.
-
-[phaestusfox]: https://github.com/PhaestusFox
-[phaestusfox-youtube-channel]: https://www.youtube.com/@PhaestusFox
-
-### [Katamari for the BevyJam3][katamari-gamejam-blog]
-
-![Katamari gif](katamari.gif)
-
-[Ryosuke][whoisryosuke] recently participated in a Bevy game jam.
-Ryosuke's goal was to create a game inspired by Katamari Damacy, an old
-PlayStation 2 game. In the game, a prince rollsup objects to make planet
-sized balls.
-Ryosuke shares their [learning process][katamari-gamejam-blog] of the almost-finished
-Katamari clone running on Windows. They cover topics like the physics library and
-how they created the user interface using a tool egui.
-It is also suggested to have some basic knowledge of Bevy game engine
-before you dive into the article.
-
-[whoisryosuke]: https://mastodon.gamedev.place/@whoisryosuke
-[katamari-gamejam-blog]: https://whoisryosuke.com/blog/2023/making-katamari-for-bevy-game-jam/
-
-### [Building scripting solution w. Intuicio][intuicio-blog]
-
-![Intuicio](intuicio-intro.png)
-
-[Patryk Budzyński][PsichiX] recently shared their project [Intuicio][intuicio-blog],
-Intuicio is a set of building blocks in Rust that allows you to create your own
-scripting solution. It consists of scripts, frontends, backends, and hosts.
-You can also follow a [tutorial-blog] to build the entire scripting pipeline
-step by step.
-
-[PsichiX]: https://github.com/PsichiX
-[intuicio-blog]: https://psichix.github.io/Intuicio/index.html
-[tutorial-blog]: https://psichix.github.io/Intuicio/tutorial/index.html
-
-### [3D MIDI Piano Using Bevy][3dpiano-blog]
-
-![3D Midi Piano](piano.gif)
-
-[Ryosuke][whoisryosuke] recently published a [blog post][3dpiano-blog],
-which is a tutorial to create a 3D MIDI piano visualizer app using the
-Bevry game engine in Rust. They shared their learning experience, including
-reading MIDI input with Rust and integrating it with the game engine.
-
-[whoisryosuke]: https://mastodon.gamedev.place/@whoisryosuke
-[3dpiano-blog]: https://whoisryosuke.com/blog/2023/3d-midi-piano-using-rust-and-bevy/
-
-### [DOOM maps to SVG to laser cutter][svg-cutter-blog]
-
-![Blender result](laser-cutter.png)
-
-[Theor][theor-author] became interested in the data format of the classic game Doom
-and decided to write Rust code to extract its maps and convert them into vector
-graphics for laser cutting.
-Theor's [blog post][svg-cutter-blog] explores Doom specifics, geometry, writing SVG,
-rendering and triangulation.
-
-_Discussions: [/r/rust](https://www.reddit.com/r/rust/comments/12mlsfj/wrote_a_blog_post_on_my_attempt_to_lasercut_doom/)_
-
-[svg-cutter-blog]: https://theor.xyz/doom-maps-laser-cut/
-[theor-author]: https://github.com/theor
-
 ### [Exploring Bevy's Game Of Life Example][exploring-gol-blog]
 
 ![red dots or black bg](explore_gol_drawing.gif)
@@ -492,33 +421,87 @@ _Discussions: [/r/roguelikedev](https://www.reddit.com/r/roguelikedev/comments/1
 [bevy-roguelike-mastodon]: https://mastodon.gamedev.place/@maciekglowka
 [bevy-roguelike-blog]: https://maciejglowka.com/blog/bevy-roguelike-tutorial-devlog-part-1
 
-### [Making A Strategy Game][strategy-game-blog]
+### [PhaestusFox's Bevy Videos][@PhaestusFox]
+
+![phaestusfox youtube](phaestusfox.png)
+
+[@PhaestusFox] released a bunch of new Bevy tutorials
+on Youtube about all things Bevy.
+Level up your game dev skills with PhaestusFox's tutorials and learn more from
+very basic how-to's to more complex full tutorials like how to make a platformer
+in Bevy.
+
+[@PhaestusFox]: https://youtube.com/@PhaestusFox
+
+### [Katamari for the BevyJam3][katamari-gamejam-blog]
+
+![Katamari gif](katamari.gif)
+
+[Ryosuke][whoisryosuke] recently participated in a Bevy game jam.
+Ryosuke's goal was to create a game inspired by Katamari Damacy, an old
+PlayStation 2 game. In the game, a prince rollsup objects to make planet
+sized balls.
+Ryosuke shares their [learning process][katamari-gamejam-blog] of the almost-finished
+Katamari clone running on Windows. They cover topics like the physics library and
+how they created the user interface using a tool egui.
+It is also suggested to have some basic knowledge of Bevy game engine
+before you dive into the article.
+
+[whoisryosuke]: https://mastodon.gamedev.place/@whoisryosuke
+[katamari-gamejam-blog]: https://whoisryosuke.com/blog/2023/making-katamari-for-bevy-game-jam
+
+### [3D MIDI Piano Using Bevy][3dpiano-blog]
+
+![3D Midi Piano](piano.gif)
+
+[Ryosuke][whoisryosuke] has also recently published [a tutorial][3dpiano-blog]
+on how to create a 3D MIDI piano visualizer app using the
+Bevry game engine in Rust. They shared their learning experience, including
+reading MIDI input with Rust and integrating it with the game engine.
+
+[3dpiano-blog]: https://whoisryosuke.com/blog/2023/3d-midi-piano-using-rust-and-bevy
+
+### [DOOM maps to SVG to laser cutter][svg-cutter-blog]
+
+![Blender result with colored vertical layers](laser-cutter.png)
+
+[Theor][theor-author] became interested in the data format of the classic game Doom
+and decided to write Rust code to extract its maps and convert them into vector
+graphics for laser cutting.
+Theor's [blog post][svg-cutter-blog] explores Doom specifics, geometry, writing SVG,
+rendering and triangulation.
+
+_Discussions: [/r/rust](https://reddit.com/r/rust/comments/12mlsfj/lasercut_doom)_
+
+[svg-cutter-blog]: https://theor.xyz/doom-maps-laser-cut/
+[theor-author]: https://github.com/theor
+
+### [Making a Strategy Game][sergiorodrigo-tut]
 
 ![strategy game bevy console](strategy-game.png)
 
-[Sergio Rodrigo Royo][sergiorodrigo] started a [series of blogs][blogs] for Rust
-game development. In their [tutorial][strategy-game-blog]
-Sergio created a 2D turn-based strategy game. In the tutorial series, one will learn
-how to's such as: adding differents units, sound effects, providing multiplayer support
+[Sergio Rodrigo Royo][sergiorodrigo] started [a new series][sergiorodrigo-tut] about
+creating a 2D turn-based strategy game in Rust. In this tutorials one will learn
+how to's such as: adding differents units, sound effects, providing multiplayer support,
 and designing a simple UI.
 
 [sergiorodrigo]: https://srodrigoroyo.com/about/
-[strategy-game-blog]: https://srodrigoroyo.com/game-development-in-rust-strategy-game-1/#game-development-in-rust-making-a-strategy-game-part-1--the-battlefield
-[blogs]: https://srodrigoroyo.com/blog/
+[sergiorodrigo-tut]: https://srodrigoroyo.com/game-development-in-rust-strategy-game-1
 
 ### [Rendering Football Data in 3D][3d-football-rs]
 
-![3d football](football.png)
+![3d football](football.jpg)
+
 [UnravelSports][unravelsports] recently presented their [latest project][3d-football-rs].
 The project is a proof-of-concept to show football data in 3D and the ultimate goal
 is to utilize this feature to animate body-pose data and potentially connect it
 to a VR in the future.
-In addition, check out the [powerpoint presentation][ppt-link] for more in-depth
-explanations.
+
+Check out a recent [PySport talk][football-talk] for more in-depth info.
 
 [3d-football-rs]: https://github.com/UnravelSports/rs-football-3d
 [unravelsports]: https://unravelsports.github.io/
-[ppt-link]: https://github.com/UnravelSports/rs-football-3d/blob/master/assets/ppt.pdf
+[football-talk]: https://youtube.com/watch?v=VwatoPOKIl8
 
 ### [AI learns to play flappy bird][flappy-bird-ai]
 
@@ -526,6 +509,7 @@ explanations.
 
 [bones-ai][bones-ai-github] recently shared [their project][flappy-bird-ai],
 which is a neuro-evolution simulation of an AI playing popular game Flappy Bird.
+
 In the [youtube video][flappybird-youtube-link] 1000 AI agents are released into
 the game environment of Flappy Bird with the goal of learning how to survive and
 stay alive for as long as possible.
