@@ -187,7 +187,7 @@ Also, Way of Rhea was part of the [Steam Puzzle Fest][wor-puzzle-fest]!
 ![game title in ascii art as a game's level](l1t.png)
 
 [l1t] by [@alex-laycalvert] is a WIP terminal game about
-shooting lasers and lighting statues to solve pazzles.
+shooting lasers and lighting statues to solve puzzles.
 
 In each level, you have to configure mirrors, lasers, and other items
 to light up all the statues while avoiding any mishaps like shooting
@@ -256,8 +256,8 @@ about doodling castles.
 
 - More brick colors.
 - New gothic windows style.
-- Ability to merge windows together nto a bigger one.
-- New arch algorithm that works better for rought terrain.
+- Ability to merge windows together into a bigger one.
+- New arch algorithm that works better for rough terrain.
 - The project's beta testing should start this summer
   and the release should happen somewhere in 2024.
 
