@@ -330,11 +330,11 @@ node graph compositing engine.
 
 New features from January's [sprint 22][graphite-sprint-22]:
 
-- _Picture This:_ Imported images are now part of the node graph. The new _Image
+- Picture this: Imported images are now part of the node graph. The new _Image
   Frame_ node converts bitmap data into a vector rectangle holding the image.
   This paves the way for other vector data like shapes and text to soon be
   converted into nodes and composited alongside images.
-- _Instant Iterations:_ Incremental graph compilation avoids recompiling the
+- Instant iterations: Incremental graph compilation avoids recompiling the
   whole graph each time an edit is made or a value changes. This makes iteration
   faster and enables caching of intermediate computations for faster rendering.
 
