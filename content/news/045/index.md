@@ -488,6 +488,42 @@ If you'd like to help contribute, please reach out to [@speak2erase]!
 [mkxp]: https://github.com/Ancurio/mkxp
 [r48]: https://github.com/20kdc/gabien-app-r48
 
+### [Graphite][graphite-website]
+
+![Graphite logo](graphite.png)
+
+Graphite ([website][graphite-website], [GitHub][graphite-repo],
+[Discord][graphite-discord], [Twitter][graphite-twitter]) is a free,
+in-development raster and vector 2D graphics editor based around a Rust-powered
+node graph compositing engine.
+
+April's [sprint 25][graphite-sprint-25] developments:
+
+- Brushing up: The new Brush tool makes it possible to paint raster-based art.
+- Writing down: A refactor of the Text tool integrates typographic content in
+  the node graph. Finally, all artwork types are node-based.
+- Showing true colors: Node graph compositing now uses linear, not gamma,
+  color. Key new color adjustment nodes are added.
+- Laying the groundwork: Further engineering work prepares the node graph
+  language for GPU execution. And development continues toward in-graph layer
+  stack compositing.
+
+As always, new contributors are cordially invited to
+[get involved][graphite-contribute] and take on
+[approachable issues][graphite-approachable-issues] with help from the
+project's friendly and supportive developer community on Discord.
+
+[Open Graphite][graphite-editor] in your browser and start creating!
+
+[graphite-website]: https://graphite.rs
+[graphite-repo]: https://github.com/GraphiteEditor/Graphite
+[graphite-discord]: https://discord.graphite.rs
+[graphite-twitter]: https://twitter.com/GraphiteEditor
+[graphite-sprint-25]: https://github.com/GraphiteEditor/Graphite/milestone/25
+[graphite-contribute]: https://graphite.rs/contribute/
+[graphite-approachable-issues]: https://github.com/GraphiteEditor/Graphite/labels/Good%20First%20Issue
+[graphite-editor]: https://editor.graphite.rs
+
 ### [Image Maniac][im]
 
 ![many images opened in one window](imagemaniac.jpg)
