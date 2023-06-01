@@ -746,18 +746,8 @@ The next project milestone is
 - Other engine updates:
   - [ggez is looking for new maintainers][ggez-maintain].
 - Other learning material updates
-  - [Joris Bekkers gave a talk][football-talk] about rendering football data
-    in 3D with Bevy.
-  - [PhaestusFox posted new YouTube videos][PhaestusFox] about Bevy.
-  - @whoisryosuke released articles about making
-    [Katamari clone for BevyJam][whoisryosuke-tut-1]
-    and [3D MIDI Piano using Bevy][whoisryosuke-tut-2]
   - [@PsichiX posted a tutorial][intuicio] on building your own
     scripting solution with Intuicio.
-  - [Theor wrote a blog post][doom-svg] on their attempt to laser-cut
-    DOOM maps from the WAD data.
-  - [Sergio Rodrigo started a series][srodrigoroyo-tut] on making
-    rusty strategy games.
 - Other tooling updates:
   - [ironboy] by @nicolas-siplis is a high accuracy GameBoy emulator
     written in Rust and available in the browser via WASM.
@@ -795,13 +785,7 @@ The next project milestone is
 [de]: https://mgn.cz/blog
 [ggez-maintain]: https://github.com/ggez/ggez/issues/1188
 
-[PhaestusFox]: https://youtube.com/@PhaestusFox/videos
-[whoisryosuke-tut-1]: https://whoisryosuke.com/blog/2023/making-katamari-for-bevy-game-jam
-[whoisryosuke-tut-2]: https://whoisryosuke.com/blog/2023/3d-midi-piano-using-rust-and-bevy
 [intuicio]: https://psichix.github.io/Intuicio/tutorial/index.html
-[doom-svg]: https://reddit.com/r/rust/comments/12mlsfj/lasercut_doom
-[srodrigoroyo-tut]: https://srodrigoroyo.com/game-development-in-rust-strategy-game-1
-[football-talk]: https://youtube.com/watch?v=VwatoPOKIl8
 
 [ironboy]: https://reddit.com/r/rust/comments/12qj2ty/ironboy
 
