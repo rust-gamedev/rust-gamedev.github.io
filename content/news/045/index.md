@@ -477,6 +477,103 @@ _Discussions:
 [bevy-roguelike-mastodon]: https://mastodon.gamedev.place/@maciekglowka
 [bevy-roguelike-blog]: https://maciejglowka.com/blog/bevy-roguelike-tutorial-devlog-part-1
 
+### [PhaestusFox's Bevy Videos][@PhaestusFox]
+
+![phaestusfox youtube](phaestusfox.png)
+
+[@PhaestusFox] released a bunch of new Bevy tutorials
+on Youtube about all things Bevy.
+Level up your game dev skills with PhaestusFox's tutorials and learn more from
+very basic how-to's to more complex full tutorials like how to make a platformer
+in Bevy.
+
+[@PhaestusFox]: https://youtube.com/@PhaestusFox
+
+### [Katamari for the BevyJam3][katamari-gamejam-blog]
+
+![Katamari gif](katamari.gif)
+
+[Ryosuke][whoisryosuke] recently participated in a Bevy game jam.
+Ryosuke's goal was to create a game inspired by Katamari Damacy, an old
+PlayStation 2 game. In the game, a prince rollsup objects to make planet
+sized balls.
+Ryosuke shares their [learning process][katamari-gamejam-blog] of the almost-finished
+Katamari clone running on Windows. They cover topics like the physics library and
+how they created the user interface using a tool egui.
+It is also suggested to have some basic knowledge of Bevy game engine
+before you dive into the article.
+
+[whoisryosuke]: https://mastodon.gamedev.place/@whoisryosuke
+[katamari-gamejam-blog]: https://whoisryosuke.com/blog/2023/making-katamari-for-bevy-game-jam
+
+### [3D MIDI Piano Using Bevy][3dpiano-blog]
+
+![3D Midi Piano](piano.gif)
+
+[Ryosuke][whoisryosuke] has also recently published [a tutorial][3dpiano-blog]
+on how to create a 3D MIDI piano visualizer app using the
+Bevry game engine in Rust. They shared their learning experience, including
+reading MIDI input with Rust and integrating it with the game engine.
+
+[3dpiano-blog]: https://whoisryosuke.com/blog/2023/3d-midi-piano-using-rust-and-bevy
+
+### [DOOM maps to SVG to laser cutter][svg-cutter-blog]
+
+![Blender result with colored vertical layers](laser-cutter.png)
+
+[Theor][theor-author] became interested in the data format of the classic game Doom
+and decided to write Rust code to extract its maps and convert them into vector
+graphics for laser cutting.
+Theor's [blog post][svg-cutter-blog] explores Doom specifics, geometry, writing SVG,
+rendering and triangulation.
+
+_Discussions: [/r/rust](https://reddit.com/r/rust/comments/12mlsfj/lasercut_doom)_
+
+[svg-cutter-blog]: https://theor.xyz/doom-maps-laser-cut/
+[theor-author]: https://github.com/theor
+
+### [Making a Strategy Game][sergiorodrigo-tut]
+
+![strategy game bevy console](strategy-game.png)
+
+[Sergio Rodrigo Royo][sergiorodrigo] started [a new series][sergiorodrigo-tut] about
+creating a 2D turn-based strategy game in Rust. In this tutorials one will learn
+how to's such as: adding differents units, sound effects, providing multiplayer support,
+and designing a simple UI.
+
+[sergiorodrigo]: https://srodrigoroyo.com/about/
+[sergiorodrigo-tut]: https://srodrigoroyo.com/game-development-in-rust-strategy-game-1
+
+### [Rendering Football Data in 3D][3d-football-rs]
+
+![3d football](football.jpg)
+
+[UnravelSports][unravelsports] recently presented their [latest project][3d-football-rs].
+The project is a proof-of-concept to show football data in 3D and the ultimate goal
+is to utilize this feature to animate body-pose data and potentially connect it
+to a VR in the future.
+
+Check out a recent [PySport talk][football-talk] for more in-depth info.
+
+[3d-football-rs]: https://github.com/UnravelSports/rs-football-3d
+[unravelsports]: https://unravelsports.github.io/
+[football-talk]: https://youtube.com/watch?v=VwatoPOKIl8
+
+### [AI learns to play flappy bird][flappy-bird-ai]
+
+![Flappy bird](flappy-bird-ai.png)
+
+[bones-ai][bones-ai-github] recently shared [their project][flappy-bird-ai],
+which is a neuro-evolution simulation of an AI playing popular game Flappy Bird.
+
+In the [youtube video][flappybird-youtube-link] 1000 AI agents are released into
+the game environment of Flappy Bird with the goal of learning how to survive and
+stay alive for as long as possible.
+
+[bones-ai-github]:https://github.com/bones-ai
+[flappy-bird-ai]: https://github.com/bones-ai/rust-flappy-bird-ai
+[flappybird-youtube-link]: https://www.youtube.com/watch?v=Ea_N1CJwMR8
+
 ## Tooling Updates
 
 ### [Rustracer][rustracer]
