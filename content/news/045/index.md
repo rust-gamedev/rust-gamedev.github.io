@@ -378,7 +378,7 @@ to GitHub Pages using GitHub Actions.
 
 ![phaestusfox youtube](phaestusfox.png)
 
-[PhaestusFox][phaestusfox] makes [tutorials][phaestusfox-youtube-channel] 
+[PhaestusFox][phaestusfox] makes [tutorials][phaestusfox-youtube-channel]
 on Youtube about all things Bevy.
 Level up your game dev skills with PhaestusFox's tutorials and learn more from
 very basic how-to's to more complex full tutorials like how to make a platformer
@@ -411,7 +411,8 @@ before you dive into the article.
 [Patryk Budzyński][PsichiX] recently shared their project [Intuicio][intuicio-blog],
 Intuicio is a set of building blocks in Rust that allows you to create your own
 scripting solution. It consists of scripts, frontends, backends, and hosts.
-You can also follow a [tutorial-blog] to build the entire scripting pipeline step by step.
+You can also follow a [tutorial-blog] to build the entire scripting pipeline 
+step by step.
 
 [PsichiX]: https://github.com/PsichiX
 [intuicio-blog]: https://psichix.github.io/Intuicio/index.html
