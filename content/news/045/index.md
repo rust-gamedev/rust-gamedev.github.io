@@ -1,8 +1,8 @@
 +++
 title = "This Month in Rust GameDev #45 - April 2023"
 transparent = true
-date = 2023-05-08
-draft = true
+date = 2023-05-31
+draft = false
 +++
 
 <!-- no toc -->
@@ -35,11 +35,9 @@ Feel free to send PRs about your own projects!
 - [Learning Material Updates](#learning-material-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Other News](#other-news)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
-- [Jobs](#jobs)
 
 <!--
 Ideal section structure is:
@@ -64,6 +62,64 @@ If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
 ## Announcements
+
+### Rust GameDev Meetup
+
+![Gamedev meetup poster](gamedev-meetup.png)
+
+The 26th Rust Gamedev Meetup took place in March. You can watch the recording
+of the meetup [here on Youtube][gamedev-meetup-video].
+The meetups take place on the second Saturday of every month via the [Rust
+Gamedev Discord server][rust-gamedev-discord] and are also [streamed on
+Twitch][rust-gamedev-twitch].
+
+[gamedev-meetup-video]: https://youtube.com/watch?v=Vq60NvWy8Io
+[rust-gamedev-discord]: https://discord.gg/yNtPTb2
+[rust-gamedev-twitch]: https://twitch.tv/rustgamedev
+
+### [Bevy Jam 3 Results][bevy-jam-results]
+
+![list of winners](bevyjam3.jpg)
+
+Voting on the [Bevy Jam 3][bevy-jam] has finished! It was a
+week-long event, where the goal was to make a game in
+[Bevy Engine][bevy-engine], the free and open-source game engine
+built in Rust. The theme was 'Side Effects'.
+
+- 1: [LinkSider](https://kuviman.itch.io/linksider)
+  by kuviman, daivy, shadow-crusherz
+- 2: [Neon Breach: Tower Defence](https://louisnivrat.itch.io/neon-breach-tower-defence)
+  by louisNivrat
+- 3: [Battle for Rattoria](https://jabuwu.itch.io/battle-for-rattoria) by jabuwu
+
+The jam had a solid turnout with 353 participants, 78 submissions, and 2,158 ratings!
+A lot of the submissions have a web build so it's easy to try them out yourself.
+
+The [full results can be found on itch.io][bevy-jam-results].
+
+[bevy-jam]: https://itch.io/jam/bevy-jam-3
+[bevy-jam-results]: https://itch.io/jam/bevy-jam-3/results
+[bevy-engine]: https://bevyengine.org/
+
+### [Rusty Jam 3][rustyjam3-itch]
+
+Another Rusty Jam starts on May 21st!
+
+It's a great chance to try out some new Rusty tech, form a team of like-minded rustaceans,
+and feel what a full cycle of making a game in Rust feels like in miniature!
+
+This jam focuses more on using Rust than anything else.
+That means you aren't restricted on your design, music, or graphics,
+as long as you use Rust to make it!
+
+The optional-to-use theme for the jam is going to be announced
+in [the jam's Discord][rustyjam3-dis] and pinned in the community section.
+While you're waiting for the theme, you can start looking for a team
+in the looking-for-team Discord channel.
+If you want solo though, that's fine too.
+
+[rustyjam3-itch]: https://itch.io/jam/rusty-jam-3
+[rustyjam3-dis]: https://discord.gg/8dUQJFFmxG
 
 ## Game Updates
 
@@ -91,7 +147,7 @@ The latest updates to CyberGate include:
 - Simplified code related to state synchronization.
 - Significant gameplay changes and bug fixes.
 
-They are currecntly working on universe generation alghoritms for version 8.0.
+They are currently working on universe generation alghorithms for version 8.0.
 Participate [by joining the Discord server][cybergate-dis].
 
 [cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
@@ -107,7 +163,7 @@ _Online Matchmaking_
 theme.
 
 In the last month, Jumpy released [v0.7.0][jumpy_v0.7.0] with support for online
-and LAN network games! Networking has been a long time comming, with many
+and LAN network games! Networking has been a long time coming, with many
 architecture decisions being made specifically with networking in mind. While
 network performance may still need to be tweaked, and there are still some bugs
 to fix, the proof-of-concept was a success. You can start matches on your local
@@ -137,7 +193,7 @@ The main features of this update were:
 - and many gameplay tweaks from in-person playtesting with
   the [thetawave arcade cabinet][thetawave-arcade].
 
-The easist way to play the most up to date version of Thetawave
+The easiest way to play the most up to date version of Thetawave
 on your machine is to download it through the
 [Spicy Launcher][spicy-launcher]. Otherwise, you can play the game in your
 browser on the [itch.io page][thetawave-itch].
@@ -164,7 +220,7 @@ or [signing up for the mailing list][wor-mail]!
 Recent updates:
 
 - Time controls (pause, play, fastforward)
-- Staves switch in place so that crabs don't inadvertantly move them when cycling
+- Staves switch in place so that crabs don't inadvertently move them when cycling
 - Increased drag on various physics objects to prevent bouncing over targets
 - Increased staff throw velocity to make it easier to throw staves off ledges
 - Improved interactive hover visuals on staves
@@ -296,10 +352,10 @@ that is available in Early Access on Steam.
 
 ### [Ambient][ambient-github]
 
-![A 10-second preview of what's possible with Ambient 0.2](ambient.gif)
+![a set of cool and mostly physics-centered demos](ambient.gif)
 _A 10-second preview of what's possible with Ambient 0.2_
 
-[Ambient 0.2](ambient-blog) is now out after two months of development.
+[Ambient 0.2][ambient-blog] is now out after two months of development.
 Ambient is an open-source runtime for building high-performance multiplayer
 games and 3D applications powered by WebAssembly, Rust and WebGPU. Projects
 consist of assets and logic built around the currently Rust-only Ambient API,
@@ -324,7 +380,7 @@ _Discussion: [/r/rust][ambient-reddit], [Hacker News][ambient-hn]_
 
 [ambient-github]: https://github.com/AmbientRun/Ambient
 [ambient-blog]: https://www.ambient.run/post/ambient-0-2
-[ambient-reddit]: https://www.reddit.com/r/rust/comments/138ii11/ambient_02_multiplayer_ui_sound_clientside_wasm/
+[ambient-reddit]: https://reddit.com/r/rust/comments/138ii11/ambient_02
 [ambient-hn]: https://news.ycombinator.com/item?id=35828165
 [ambient-discord]: https://discord.gg/ambient
 
@@ -350,8 +406,7 @@ as some QoL improvements such as better compile times.
 
 [gd-github]: https://github.com/godot-rust
 [gd-gdext]: https://github.com/godot-rust/gdext
-[gd-website]: https://godot-rust.github.io/
-[gd-godot4]: https://godotengine.org/article/godot-4-0-sets-sail/
+[gd-website]: https://godot-rust.github.io
 [gd-pulse]: https://github.com/godot-rust/gdextension/pulse/monthly
 [gd-212]: https://github.com/godot-rust/gdextension/issues/212
 [gd-219]: https://github.com/godot-rust/gdextension/issues/219
@@ -381,7 +436,7 @@ _Game of Life Simulation_
 
 [Yendor][yendor] published [a mini-tutorial series][exploring-gol-blog]
 exploring compute shaders in Bevy using their [Game of Life example][bevy-gol]
-and adding some new featues to it: camera controller, wrapping simulation, and
+and adding some new features to it: camera controller, wrapping simulation, and
 drawing on the simulation.
 
 [yendor]: https://github.com/lecoqjacob
@@ -416,7 +471,8 @@ for the unit actions.
 
 The first part of the series can be found [here][bevy-roguelike-blog].
 
-_Discussions: [/r/roguelikedev](https://www.reddit.com/r/roguelikedev/comments/12rvj30/creating_a_roguelike_in_bevy_engine/)_
+_Discussions:
+[/r/roguelikedev](https://reddit.com/r/roguelikedev/comments/12rvj30/creating_a_roguelike_in_bevy)_
 
 [bevy-roguelike-mastodon]: https://mastodon.gamedev.place/@maciekglowka
 [bevy-roguelike-blog]: https://maciejglowka.com/blog/bevy-roguelike-tutorial-devlog-part-1
@@ -526,7 +582,8 @@ stay alive for as long as possible.
 rustracer.jpg)][rustracer-0.2.0 demo]
 
 Rustracer, a PBR [glTF 2.0][glrf-2-0] renderer based on Vulkan ray-tracing.
-It can render (almost) any glTF 2.0 scene by pure path tracing at an interacive speed.
+It can render (almost) any glTF 2.0 scene by pure path tracing
+at an interactive speed.
 Compared with rasterization-based glTF renderers, Rustracer needs some
 (scene-dependent) time for sample accumulation in exchange for global illumination.
 
@@ -552,9 +609,9 @@ of the RPG Maker editor, based mostly off of [RPG Maker XP][RMXP]
 (aka RMXP), with the intent of creating a more modern, feature rich,
 and open source version of RMXP.
 
-RGSS, RMXP's runtime, has already been open sourcecd thanks to [mkxp].
-However despite the several attempts, no one has fully remade the editor.
-There are [some tools][r48] out there which cover some of its functionality,
+RGSS, RMXP's runtime, has already been open sourced thanks to [mkxp].
+However, despite several attempts, no one has fully remade the editor.
+There are [some tools][r48] out there that cover some of its functionality,
 but none are user friendly, nor feature complete.
 
 RGSS is actually quite enjoyable to use. The actual editor though - not so much:
@@ -617,7 +674,6 @@ project's friendly and supportive developer community on Discord.
 [graphite-discord]: https://discord.graphite.rs
 [graphite-twitter]: https://twitter.com/GraphiteEditor
 [graphite-sprint-25]: https://github.com/GraphiteEditor/Graphite/milestone/25
-[graphite-contribute]: https://graphite.rs/contribute/
 [graphite-approachable-issues]: https://github.com/GraphiteEditor/Graphite/labels/Good%20First%20Issue
 [graphite-editor]: https://editor.graphite.rs
 
@@ -628,7 +684,7 @@ project's friendly and supportive developer community on Discord.
 [Image Maniac][im] is a cross-platform image viewer designed for game developers
 and other creative professionals. The project's features include:
 
-- Infinite canvas for for drag-n-droping many images onto the main window,
+- Infinite canvas for drag-n-dropping many images onto the main window,
   and view them all in a single, unified workspace.
 - Quick RGBA channel switching using number keys is usefil for
   game developers who work with textures and materials.
@@ -662,16 +718,12 @@ it uses a PostgreSQL DB to store users, games and items.
 Authentication is done via email/password,
 third party authentication via OAuth will be a future goal.
 An Authenticated user can create apps and add item definitions to these.
-Other users can get an independant instance of that item and modify its data.
+Other users can get an independent instance of that item and modify its data.
 
 The next project milestone is
 2 minimalist interconnected games released by the end of 2023.
 
 [Backpack]: https://github.com/Vrixyz/backpack
-
-## Popular Workgroup Issues in Github
-
-<!-- Up to 10 links to interesting issues -->
 
 ## Other News
 
@@ -682,7 +734,7 @@ The next project milestone is
     significant graphical improvements.
   - exocave - an FPS about exploring a subterranean world -
     [got a grappling hook][exocave] to ease the movement through caverns and chasms.
-  - [Railroad Scheduler] is a game about planning routes and schedule
+  - [Railroad Scheduler] is a game about planning routes and scheduling
     for a set of trains.
   - [Stellar Cortex's first devlog is out][s-cortex-log]:
     it talks about foundational systems that should allow space based commerce.
@@ -693,6 +745,9 @@ The next project milestone is
     shadows, and multiplayer.
 - Other engine updates:
   - [ggez is looking for new maintainers][ggez-maintain].
+- Other learning material updates
+  - [@PsichiX posted a tutorial][intuicio] on building your own
+    scripting solution with Intuicio.
 - Other tooling updates:
   - [ironboy] by @nicolas-siplis is a high accuracy GameBoy emulator
     written in Rust and available in the browser via WASM.
@@ -705,7 +760,7 @@ The next project milestone is
     and analyzing polygon meshes.
   - [bitcode] is a games-oriented bitwise encoder/decoder which attempts
     to shrink the serialized size without sacrificing speed.
-  - [virtual_joystick] provides a virtual joystick UI widgets for Bevy projects.
+  - [virtual_joystick] provides virtual joystick UI widgets for Bevy projects.
   - [faer v0.7][faer-07] and [v0.8 releases][faer-08] bring
     better SIMD operations support for non native types
     and overall performance improvements.
@@ -728,9 +783,13 @@ The next project milestone is
 [lrpg-2]: https://youtube.com/watch?v=SmqQ_Is9QX8
 [stockholm]: https://youtube.com/playlist?list=PLsFMLV-H_GYt8KzbJnzrapNkUNtRcBB2n
 [de]: https://mgn.cz/blog
-[strolle]: https://reddit.com/r/rust/comments/12u4ovi/strolle
 [ggez-maintain]: https://github.com/ggez/ggez/issues/1188
+
+[intuicio]: https://psichix.github.io/Intuicio/tutorial/index.html
+
 [ironboy]: https://reddit.com/r/rust/comments/12qj2ty/ironboy
+
+[strolle]: https://reddit.com/r/rust/comments/12u4ovi/strolle
 [blend]: https://github.com/lukebitts/blend/blob/master/CHANGELOG.md#blend-08
 [lox]: https://reddit.com/r/rust/comments/12teoxi/lox_a_fast_polygon_mesh_library
 [bitcode]: https://reddit.com/r/rust/comments/12nw1pc/bitcode_format
@@ -740,20 +799,56 @@ The next project milestone is
 [egui_graphs]: https://github.com/blitzarx1/egui_graphs
 [alkahest]: https://reddit.com/r/rust_gamedev/comments/12auz7o/alkahest_02
 [wgpu-v016]:https://github.com/gfx-rs/wgpu/releases/tag/v0.16.0
-[png]: https://reddit.com/r/rust/comments/12ks0ka/png_crate_gets_an_ultrafast_compression_mode
+[png]: https://reddit.com/r/rust/comments/12ks0ka/png_crate_gets_an_ultrafast_compression
 
 ## Discussions
 
 <!-- Links to handpicked reddit/twitter/urlo/etc threads that provide
 useful information -->
 
+- /r/rust_gamedev:
+  - ["Well, we're a little more game"][red-little-more]
+  - ["Really frustrated"][red-runt]
+
+[red-little-more]: https://reddit.com/r/rust_gamedev/comments/12mppwb/well_were_a_little_more_game
+[red-runt]: https://reddit.com/r/rust_gamedev/comments/1302512/really_frustrated
+
 ## Requests for Contribution
 
 <!-- Links to "good first issue"-labels or direct links to specific tasks -->
 
-## Jobs
+- ['Are We Game Yet?' wants to know about projects/games/resources that
+  aren't listed yet][awgy].
+- [Graphite is looking for contributors][graphite-contribute] to help build the
+  new node graph and 2D rendering systems.
+- [winit's "difficulty: easy" issues][winit-issues].
+- [Backroll-rs, a new networking library][backroll-rs].
+- [Embark's open issues][embark-open-issues] ([embark.rs]).
+- [wgpu's "help wanted" issues][wgpu-issues].
+- [luminance's "low hanging fruit" issues][luminance-fruits].
+- [ggez's "good first issue" issues][ggez-issues].
+- [Veloren's "beginner" issues][veloren-beginner].
+- [A/B Street's "good first issue" issues][abstreet-issues].
+- [Mun's "good first issue" issues][mun-issues].
+- [SIMple Mechanic's good first issues][simm-issues].
+- [Bevy's "good first issue" issues][bevy-issues].
+- [Ambient's "good first issue" issues][ambient-issues].
 
-<!-- An optional section for new jobs related to Rust gamedev -->
+[awgy]: https://github.com/rust-gamedev/arewegameyet#contribute
+[graphite-contribute]: https://graphite.rs/contribute
+[winit-issues]: https://github.com/rust-windowing/winit/issues?q=is%3Aopen+is%3Aissue+label%3A%22difficulty%3A+easy%22
+[backroll-rs]: https://github.com/HouraiTeahouse/backroll-rs/issues
+[embark.rs]: https://embark.rs
+[embark-open-issues]: https://github.com/search?q=user:EmbarkStudios+state:open
+[wgpu-issues]: https://github.com/gfx-rs/wgpu/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
+[luminance-fruits]: https://github.com/phaazon/luminance-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22low+hanging+fruit%22
+[ggez-issues]: https://github.com/ggez/ggez/labels/%2AGOOD%20FIRST%20ISSUE%2A
+[veloren-beginner]: https://gitlab.com/veloren/veloren/issues?label_name=beginner
+[abstreet-issues]: https://github.com/a-b-street/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
+[simm-issues]: https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue
+[bevy-issues]: https://github.com/bevyengine/bevy/labels/D-Good-First-Issue
+[ambient-issues]: https://github.com/AmbientRun/Ambient/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22
 
 ------
 
@@ -765,14 +860,11 @@ Want something mentioned in the next newsletter?
 Also, subscribe to [@rust_gamedev on Twitter][@rust_gamedev]
 or [/r/rust_gamedev subreddit][/r/rust_gamedev] if you want to receive fresh news!
 
-<!--
-TODO: Add real links and un-comment once this post is published
 **Discuss this post on**:
-[/r/rust_gamedev](TODO),
-[Mastodon](TODO),
-[Twitter](TODO),
+[/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/13xh0q7/this_month_in_rust_gamedev_45_april_2023),
+[Mastodon](https://mastodon.gamedev.place/@rust_gamedev/110469105162579330),
+[Twitter](https://twitter.com/rust_gamedev/status/1664256969408913411),
 [Discord](https://discord.gg/yNtPTb2).
--->
 
 [/r/rust_gamedev]: https://reddit.com/r/rust_gamedev
 [@rust_gamedev]: https://twitter.com/rust_gamedev
