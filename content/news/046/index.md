@@ -117,4 +117,3 @@ TODO: Add real links and un-comment once this post is published
 
 [/r/rust_gamedev]: https://reddit.com/r/rust_gamedev
 [@rust_gamedev]: https://twitter.com/rust_gamedev
- 
