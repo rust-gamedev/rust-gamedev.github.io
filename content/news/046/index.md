@@ -73,6 +73,27 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Tooling Updates
 
+### [Spicy Launcher]
+
+![demo](spicylauncher.gif)
+
+A cross-platform launcher for playing [Spicy Lobster] games. Supports both command-line and graphical interface.
+
+Supported games:
+
+- [Fish Folk: Jumpy]
+- [Fish Folk: Punchy]
+- [Thetawave]
+
+Maintainer: [@orhun]
+
+[Spicy Launcher]: https://github.com/spicylobstergames/SpicyLauncher
+[Spicy Lobster]: https://github.com/spicylobstergames
+[Fish Folk: Jumpy]: https://github.com/fishfolks/jumpy
+[Fish Folk: Punchy]: https://github.com/fishfolks/punchy
+[Thetawave]: https://github.com/thetawavegame/thetawave
+[@orhun]: https://github.com/orhun
+
 ## Library Updates
 
 ## Popular Workgroup Issues in Github
