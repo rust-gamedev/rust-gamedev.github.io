@@ -71,6 +71,14 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Learning Material Updates
 
+### [How to Migrate Your Bevy Projects With (Semi-)Automation](https://betterprogramming.pub/migrating-bevy-can-be-easier-with-semi-automation-here-is-how-1f6e21858e79)
+
+![Logos with ast-grep and bevy](migrate-bevy.png)
+
+[@HerringtonDarkholme](https://github.com/HerringtonDarkholme) published an [article](https://betterprogramming.pub/migrating-bevy-can-be-easier-with-semi-automation-here-is-how-1f6e21858e79) about how to make Bevy migration easier by using git, cargo and [ast-grep](https://github.com/ast-grep/ast-grep). The article uses the utility AI library [big-brain](https://github.com/zkat/big-brain) as an example to illustrate bumping the Bevy version from 0.9 to 0.10. The article covers four big steps: making a clean git branch, updating the dependencies, running fix commands, and fixing failing tests. By using semi-automation tools, you can migrate your Bevy projects with less hassle and more confidence.
+
+_Discussions: [/r/bevy](https://www.reddit.com/r/rust/comments/13m4crf/semiautomated_migration_of_bevy_an_example_with/), [Twitter](https://twitter.com/HerringtonDark/status/1468234567890124800), [Medium](https://betterprogramming.pub/migrating-bevy-can-be-easier-with-semi-automation-here-is-how-1f6e21858e79)_
+
 ## Tooling Updates
 
 ## Library Updates
