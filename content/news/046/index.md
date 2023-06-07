@@ -75,6 +75,18 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library Updates
 
+### Blit
+
+[Blit](https://github.com/tversteeg/blit) is a GPL licensed library for quickly blitting 2D images on a pixel buffer.
+
+After a long stale period development has resumed quite a bit in the last couple of months.
+
+The previous big release, [v0.7.0](https://github.com/tversteeg/blit/releases/tag/v0.7.0), saw a big improvement in performance and API ergonomics.
+It also introduced interactive WebAssembly examples which can be seen here: https://tversteeg.nl/blit/showcase/
+
+The latest big release, [v0.8.0](https://github.com/tversteeg/blit/releases/tag/v0.8.0), is a complete rewrite of the quite old and admittendly outdated API.
+A focus has been put on both ergonomics and performance. There's now many ways of drawing a subsection, tiling, masking and creating repeating slices of an image on a pixel buffer.
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
