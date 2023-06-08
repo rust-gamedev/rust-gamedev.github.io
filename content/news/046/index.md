@@ -78,19 +78,18 @@ _Building Placement in Digital Extinction_
 
 The most notable updates are:
 
-* poles at unit manufacturing delivery locations for selected factories,
-* pausing unit manufacturing when spawn location is occupied,
-* [IME][ime] support for text boxes,
-* a lot of progress on multiplayer networking,
-* [logging][de-logging] to file and other logging
-  improvements.
+- poles at unit manufacturing delivery locations for selected factories,
+- pausing unit manufacturing when spawn location is occupied,
+- [IME][ime] support for text boxes,
+- a lot of progress on multiplayer networking,
+- [logging][de-logging] to file and other logging improvements.
 
 Support for multiplayer is a technologically complex problem to solve and it is
 the last major missing feature before the [proof-of-concept][de-poc] version
 can be released. Therefore, a lot of effort currently goes in this direction.
 
-The game is slowly gaining traction in the development community. Check out our
-new [contributors here][de-contributors].
+The game is slowly gaining traction in the development community.
+Check out our new [contributors here][de-contributors].
 
 See [gameplay][de-video] screen recordings on YouTube.
 
