@@ -110,6 +110,25 @@ More detailed monthly updates are available [here (May)][de-update-07] and
 [de-update-08]: https://mgn.cz/blog/de08/
 [@Indy2222]: https://github.com/Indy2222
 
+### [Tunnet][tunnet-itch]
+
+![Tunnet screenshot: robots queueing outside nightclub](tunnet.jpg)
+_Connecting the DJ set to the network_
+
+Tunnet ([Steam][tunnet-steam], [Itch.io][tunnet-itch]) is a short
+puzzle/exploration game where the player digs tunnels and connects computers
+together.
+
+As a network engineer, the player will also have to respond to security
+incidents.
+In May, this game mechanic has been illustrated in a [devlog][tunnet-post] and
+a preview of the new [basic water simulation][tunnet-water] has been posted.
+
+[tunnet-itch]: https://puzzled-squid.itch.io/tunnet
+[tunnet-steam]: https://store.steampowered.com/app/2286390/Tunnet
+[tunnet-post]: https://puzzled-squid.itch.io/tunnet/devlog/532388/devlog-1-ghost-in-the-tunnels
+[tunnet-water]: https://mastodon.gamedev.place/@puzzled_squid/110322440469696044
+
 ## Engine Updates
 
 ## Learning Material Updates
