@@ -80,7 +80,8 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ![blit example: blitting the full sprite](blit.png)
 
 [blit] is a GPL licensed library for quickly blitting 2D images on a pixel buffer.
-After a long stale period development has resumed quite a bit in the last couple of months.
+After a long stale period development has resumed quite a bit
+in the last couple of months.
 
 The previous big release, [v0.7.0][blit-0-7], saw a big improvement in performance
 and API ergonomics. It also introduced interactive WebAssembly examples
