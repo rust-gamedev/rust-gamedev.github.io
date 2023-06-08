@@ -75,17 +75,26 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library Updates
 
-### Blit
+### [blit]
 
-[Blit](https://github.com/tversteeg/blit) is a GPL licensed library for quickly blitting 2D images on a pixel buffer.
+![blit example: blitting the full sprite](blit.png)
 
+[blit] is a GPL licensed library for quickly blitting 2D images on a pixel buffer.
 After a long stale period development has resumed quite a bit in the last couple of months.
 
-The previous big release, [v0.7.0](https://github.com/tversteeg/blit/releases/tag/v0.7.0), saw a big improvement in performance and API ergonomics.
-It also introduced interactive WebAssembly examples which can be seen here: https://tversteeg.nl/blit/showcase/
+The previous big release, [v0.7.0][blit-0-7], saw a big improvement in performance
+and API ergonomics. It also introduced interactive WebAssembly examples
+[which can be seen here][blit-web-show].
 
-The latest big release, [v0.8.0](https://github.com/tversteeg/blit/releases/tag/v0.8.0), is a complete rewrite of the quite old and admittendly outdated API.
-A focus has been put on both ergonomics and performance. There's now many ways of drawing a subsection, tiling, masking and creating repeating slices of an image on a pixel buffer.
+The latest big release, [v0.8.0][blit-0-8], is a complete rewrite of the quite old
+and admittendly outdated API. A focus has been put on both ergonomics and performance.
+There's now many ways of drawing a subsection, tiling, masking and creating
+repeating slices of an image on a pixel buffer.
+
+[blit]: https://github.com/tversteeg/blit
+[blit-0-7]: https://github.com/tversteeg/blit/releases/tag/v0.7.0
+[blit-0-8]: https://github.com/tversteeg/blit/releases/tag/v0.8.0
+[blit-web-show]: https://tversteeg.nl/blit/showcase
 
 ## Popular Workgroup Issues in Github
 
