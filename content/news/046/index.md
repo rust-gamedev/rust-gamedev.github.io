@@ -67,6 +67,49 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### Digital Extinction
+
+![Building Placement in Digital Extinction](digital-extinction.jpeg)
+_Building Placement in Digital Extinction_
+
+[Digital Extinction] ([GitHub][de-github], [Discord][de-discord],
+[Reddit][de-reddit]) by [@Indy2222] is a 3D real-time strategy game made with
+[Bevy].
+
+The most notable updates are:
+
+- poles at unit manufacturing delivery locations for selected factories,
+- pausing unit manufacturing when spawn location is occupied,
+- [IME][ime] support for text boxes,
+- a lot of progress on multiplayer networking,
+- [logging][de-logging] to file and other logging improvements.
+
+Support for multiplayer is a technologically complex problem to solve and it is
+the last major missing feature before the [proof-of-concept][de-poc] version
+can be released. Therefore, a lot of effort currently goes in this direction.
+
+The game is slowly gaining traction in the development community.
+Check out our new [contributors here][de-contributors].
+
+See [gameplay][de-video] screen recordings on YouTube.
+
+More detailed monthly updates are available [here (May)][de-update-07] and
+[here (June)][de-update-08].
+
+[Digital Extinction]: https://de-game.org
+[de-github]: https://github.com/DigitalExtinction/Game
+[de-discord]: https://discord.gg/vHMFuCWGSX
+[de-reddit]: https://reddit.com/r/DigitalExtinction
+[Bevy]: https://bevyengine.org
+[ime]: https://en.wikipedia.org/wiki/Input_method
+[de-logging]: https://docs.de-game.org/logging/
+[de-poc]: https://github.com/DigitalExtinction/Game/milestone/1
+[de-video]: https://youtu.be/_ibNMDgIQDE
+[de-contributors]: https://github.com/DigitalExtinction/Game/graphs/contributors
+[de-update-07]: https://mgn.cz/blog/de07/
+[de-update-08]: https://mgn.cz/blog/de08/
+[@Indy2222]: https://github.com/Indy2222
+
 ## Engine Updates
 
 ## Learning Material Updates
