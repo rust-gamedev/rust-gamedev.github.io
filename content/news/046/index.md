@@ -89,7 +89,7 @@ This month, [seldom_state] 0.6 was released:
 `StateMachine::default()`, and you must insert the initial state manually
 - `MachineState` requires `Component` now instead of `Bundle`
 - `MachineState` and `Trigger` no longer require `Reflect`
-- `StateMachine`'s 
+- `StateMachine`'s
 `trans_builder(Trigger, Fn(&Trigger::Ok) -> Option<MyNextState>)` is now
 `trans_builder(Trigger, Fn(&MyCurrentState, Trigger::Ok) -> Option<MyNextState>)`,
 so you can take information from the current state when building the next!
