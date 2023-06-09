@@ -114,6 +114,20 @@ More detailed monthly updates are available [here (May)][de-update-07] and
 
 ## Learning Material Updates
 
+### [Building a platformer with Bevy \#1][bevy-platformer-tut]
+
+![a scheme showing an agent jumping from pillar to pillar](bevy-platformer-tut.png)
+
+[@affanshahid] published [the first part of a new tutorial series][bevy-platformer-tut]
+on building a simple 2D platfromer using Bevy.
+The series is aimed at newcomers to the world of
+game development and explores common game development concepts.
+
+_Discussions: [/r/rust](https://reddit.com/r/rust/comments/134d2i0/learning_gamedev_w_rust)_
+
+[bevy-platformer-tut]: https://affanshahid.dev/posts/learning-game-dev-bevy-1
+[@affanshahid]: https://github.com/affanshahid
+
 ### [How to Migrate Your Bevy Projects with (Semi-)Automation][bevy-migrate]
 
 ![Logos with ast-grep and bevy](migrate-bevy.png)
