@@ -137,6 +137,27 @@ _Discussions:
 
 ## Tooling Updates
 
+### [Spicy Launcher]
+
+![demo: switching between Jumpy/Punchy and choosing a verion](spicylauncher.gif)
+
+[Spicy Launcher] by [@orhun] is a cross-platform launcher
+for playing [Spicy Lobster] games.
+Supports both command-line and [Tauri]-based graphical interface.
+
+Currently supported games: [Fish Folk: Jumpy], [Fish Folk: Punchy],
+and recently added [Thetawave].
+
+Planned features include auto updating games and mods management.
+
+[Spicy Launcher]: https://github.com/spicylobstergames/SpicyLauncher
+[Spicy Lobster]: https://github.com/spicylobstergames
+[Fish Folk: Jumpy]: https://github.com/fishfolks/jumpy
+[Fish Folk: Punchy]: https://github.com/fishfolks/punchy
+[Thetawave]: https://github.com/thetawavegame/thetawave
+[@orhun]: https://github.com/orhun
+[Tauri]: https://tauri.app
+
 ## Library Updates
 
 ### [blit]
