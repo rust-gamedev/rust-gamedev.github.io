@@ -67,6 +67,49 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### Digital Extinction
+
+![Building Placement in Digital Extinction](digital-extinction.jpeg)
+_Building Placement in Digital Extinction_
+
+[Digital Extinction] ([GitHub][de-github], [Discord][de-discord],
+[Reddit][de-reddit]) by [@Indy2222] is a 3D real-time strategy game made with
+[Bevy].
+
+The most notable updates are:
+
+- poles at unit manufacturing delivery locations for selected factories,
+- pausing unit manufacturing when spawn location is occupied,
+- [IME][ime] support for text boxes,
+- a lot of progress on multiplayer networking,
+- [logging][de-logging] to file and other logging improvements.
+
+Support for multiplayer is a technologically complex problem to solve and it is
+the last major missing feature before the [proof-of-concept][de-poc] version
+can be released. Therefore, a lot of effort currently goes in this direction.
+
+The game is slowly gaining traction in the development community.
+Check out our new [contributors here][de-contributors].
+
+See [gameplay][de-video] screen recordings on YouTube.
+
+More detailed monthly updates are available [here (May)][de-update-07] and
+[here (June)][de-update-08].
+
+[Digital Extinction]: https://de-game.org
+[de-github]: https://github.com/DigitalExtinction/Game
+[de-discord]: https://discord.gg/vHMFuCWGSX
+[de-reddit]: https://reddit.com/r/DigitalExtinction
+[Bevy]: https://bevyengine.org
+[ime]: https://en.wikipedia.org/wiki/Input_method
+[de-logging]: https://docs.de-game.org/logging/
+[de-poc]: https://github.com/DigitalExtinction/Game/milestone/1
+[de-video]: https://youtu.be/_ibNMDgIQDE
+[de-contributors]: https://github.com/DigitalExtinction/Game/graphs/contributors
+[de-update-07]: https://mgn.cz/blog/de07/
+[de-update-08]: https://mgn.cz/blog/de08/
+[@Indy2222]: https://github.com/Indy2222
+
 ## Engine Updates
 
 ## Learning Material Updates
@@ -85,9 +128,73 @@ _Discussions: [/r/rust](https://reddit.com/r/rust/comments/134d2i0/learning_game
 [bevy-platformer-tut]: https://affanshahid.dev/posts/learning-game-dev-bevy-1
 [@affanshahid]: https://github.com/affanshahid
 
+### [How to Migrate Your Bevy Projects with (Semi-)Automation][bevy-migrate]
+
+![Logos with ast-grep and bevy](migrate-bevy.png)
+
+[@HerringtonDarkholme] published an [article][bevy-migrate]
+about how to make Bevy migration easier by using git, cargo and [ast-grep].
+The article uses the utility AI library [big-brain] as an example
+to illustrate bumping the Bevy version from 0.9 to 0.10
+and covers four big steps: making a clean git branch,
+updating the dependencies, running fix commands, and fixing failing tests.
+By using semi-automation tools, you can migrate your Bevy projects
+with less hassle and more confidence.
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/13m4crf/semi_automated_migration_bevy)_
+
+[bevy-migrate]: https://betterprogramming.pub/migrating-bevy-can-be-easier-with-semi-automation-here-is-how-1f6e21858e79
+[@HerringtonDarkholme]: https://github.com/HerringtonDarkholme
+[ast-grep]: https://github.com/ast-grep/ast-grep
+[big-brain]: https://github.com/zkat/big-brain
+
 ## Tooling Updates
 
+### [Spicy Launcher]
+
+![demo: switching between Jumpy/Punchy and choosing a verion](spicylauncher.gif)
+
+[Spicy Launcher] by [@orhun] is a cross-platform launcher
+for playing [Spicy Lobster] games.
+Supports both command-line and [Tauri]-based graphical interface.
+
+Currently supported games: [Fish Folk: Jumpy], [Fish Folk: Punchy],
+and recently added [Thetawave].
+
+Planned features include auto updating games and mods management.
+
+[Spicy Launcher]: https://github.com/spicylobstergames/SpicyLauncher
+[Spicy Lobster]: https://github.com/spicylobstergames
+[Fish Folk: Jumpy]: https://github.com/fishfolks/jumpy
+[Fish Folk: Punchy]: https://github.com/fishfolks/punchy
+[Thetawave]: https://github.com/thetawavegame/thetawave
+[@orhun]: https://github.com/orhun
+[Tauri]: https://tauri.app
+
 ## Library Updates
+
+### [blit]
+
+![blit example: blitting the full sprite](blit.png)
+
+[blit] is a GPL licensed library for quickly blitting 2D images on a pixel buffer.
+After a long stale period development has resumed quite a bit
+in the last couple of months.
+
+The previous big release, [v0.7.0][blit-0-7], saw a big improvement in performance
+and API ergonomics. It also introduced interactive WebAssembly examples
+[which can be seen here][blit-web-show].
+
+The latest big release, [v0.8.0][blit-0-8], is a complete rewrite of the quite old
+and admittendly outdated API. A focus has been put on both ergonomics and performance.
+There's now many ways of drawing a subsection, tiling, masking and creating
+repeating slices of an image on a pixel buffer.
+
+[blit]: https://github.com/tversteeg/blit
+[blit-0-7]: https://github.com/tversteeg/blit/releases/tag/v0.7.0
+[blit-0-8]: https://github.com/tversteeg/blit/releases/tag/v0.8.0
+[blit-web-show]: https://tversteeg.nl/blit/showcase
 
 ## Popular Workgroup Issues in Github
 
