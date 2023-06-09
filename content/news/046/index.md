@@ -75,17 +75,16 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [Spicy Launcher]
 
-![demo](spicylauncher.gif)
+![demo: switching between Jumpy/Punchy and choosing a verion](spicylauncher.gif)
 
-A cross-platform launcher for playing [Spicy Lobster] games. Supports both command-line and graphical interface.
+[Spicy Launcher] by [@orhun] is a cross-platform launcher
+for playing [Spicy Lobster] games.
+Supports both command-line and [Tauri]-based graphical interface.
 
-Supported games:
+Currently supported games: [Fish Folk: Jumpy], [Fish Folk: Punchy],
+and recently added [Thetawave].
 
-- [Fish Folk: Jumpy]
-- [Fish Folk: Punchy]
-- [Thetawave]
-
-Maintainer: [@orhun]
+Planned features include auto updating games and mods management.
 
 [Spicy Launcher]: https://github.com/spicylobstergames/SpicyLauncher
 [Spicy Lobster]: https://github.com/spicylobstergames
@@ -93,6 +92,7 @@ Maintainer: [@orhun]
 [Fish Folk: Punchy]: https://github.com/fishfolks/punchy
 [Thetawave]: https://github.com/thetawavegame/thetawave
 [@orhun]: https://github.com/orhun
+[Tauri]: https://tauri.app
 
 ## Library Updates
 
