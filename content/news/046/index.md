@@ -71,16 +71,19 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Learning Material Updates
 
-### [Learning Game Dev - Building a platformer with Bevy &#35;1](https://affanshahid.dev/posts/learning-game-dev-bevy-1/)
+### [Building a platformer with Bevy \#1][bevy-platformer-tut]
 
-![Bevy logo](learning-bevy.png)
+![a scheme showing an agent jumping from pillar to pillar](bevy-platformer-tut.png)
 
-[@affanshahid](https://github.com/affanshahid) published a
-[tutorial](https://affanshahid.dev/posts/learning-game-dev-bevy-1/) on game
-development with Bevy. The tutorial is aimed at newcomers to the world of
+[@affanshahid] published [the first part of a new tutorial series][bevy-platformer-tut]
+on building a simple 2D platfromer using Bevy.
+The series is aimed at newcomers to the world of
 game development and explores common game development concepts.
 
-_Discussions: [/r/rust](https://www.reddit.com/r/rust/comments/134d2i0/learning_game_development_with_rust/), [Medium](https://betterprogramming.pub/learning-game-dev-building-a-platformer-with-bevy-1-6e32c889c923)_
+_Discussions: [/r/rust](https://reddit.com/r/rust/comments/134d2i0/learning_gamedev_w_rust)_
+
+[bevy-platformer-tut]: https://affanshahid.dev/posts/learning-game-dev-bevy-1
+[@affanshahid]: https://github.com/affanshahid
 
 ## Tooling Updates
 
