@@ -114,6 +114,27 @@ More detailed monthly updates are available [here (May)][de-update-07] and
 
 ## Learning Material Updates
 
+### [How to Migrate Your Bevy Projects with (Semi-)Automation][bevy-migrate]
+
+![Logos with ast-grep and bevy](migrate-bevy.png)
+
+[@HerringtonDarkholme] published an [article][bevy-migrate]
+about how to make Bevy migration easier by using git, cargo and [ast-grep].
+The article uses the utility AI library [big-brain] as an example
+to illustrate bumping the Bevy version from 0.9 to 0.10
+and covers four big steps: making a clean git branch,
+updating the dependencies, running fix commands, and fixing failing tests.
+By using semi-automation tools, you can migrate your Bevy projects
+with less hassle and more confidence.
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/13m4crf/semi_automated_migration_bevy)_
+
+[bevy-migrate]: https://betterprogramming.pub/migrating-bevy-can-be-easier-with-semi-automation-here-is-how-1f6e21858e79
+[@HerringtonDarkholme]: https://github.com/HerringtonDarkholme
+[ast-grep]: https://github.com/ast-grep/ast-grep
+[big-brain]: https://github.com/zkat/big-brain
+
 ## Tooling Updates
 
 ## Library Updates
