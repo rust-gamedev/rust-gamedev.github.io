@@ -110,6 +110,24 @@ More detailed monthly updates are available [here (May)][de-update-07] and
 [de-update-08]: https://mgn.cz/blog/de08/
 [@Indy2222]: https://github.com/Indy2222
 
+### Escape Room AI
+
+![AI trying to escape a room](escape-ai.png)
+_AI trying to escape a room_
+
+[@bones-ai] recently shared their AI project - [Escape-ai]. 
+
+This is a Rust-based implementation of a genetic algorithm and reinforcement learning simulation. Its purpose is to train an AI named Zoe to escape a room it's enclosed in. The simulation is built using the Macroquad library.
+
+In the [youtube-video] is a demonstration of a 1000 AI bots learning how to escape five rooms of increasing difficulty.
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/13m4crf/semi_automated_migration_bevy), [Twitter](https://twitter.com/BonesaiDev/status/1656317661696114688)_
+
+[Escape-ai]: https://github.com/bones-ai/rust-escape-ai
+[@bones-ai]: https://twitter.com/BonesaiDev
+[youtube-video]: https://www.youtube.com/watch?v=OeojCLDKaJU
+
 ## Engine Updates
 
 ## Learning Material Updates
