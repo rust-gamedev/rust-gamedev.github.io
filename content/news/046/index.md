@@ -196,6 +196,22 @@ repeating slices of an image on a pixel buffer.
 [blit-0-8]: https://github.com/tversteeg/blit/releases/tag/v0.8.0
 [blit-web-show]: https://tversteeg.nl/blit/showcase
 
+### [Kira]
+
+[Kira] ([GitHub]) by [@tesselode] is a backend-agnostic library to create
+expressive audio for games.
+
+Kira v0.8 adds support for spatial audio, global modulation sources for
+easier and more powerful parameter tweening, compressor and EQ effects,
+and more powerful playback and loop region settings.
+
+_Discussions: [/r/rust](https://www.reddit.com/r/rust/comments/13p7x9o/kira_game_audio_library_v08_spatial_sounds/),
+[Twitter](https://twitter.com/tesselode/status/1660799031314874370)_
+
+[Kira]: https://crates.io/crates/kira
+[@tesselode]: https://twitter.com/tesselode
+[GitHub]: https://github.com/tesselode/kira
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
