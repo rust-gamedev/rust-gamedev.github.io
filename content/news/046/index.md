@@ -110,6 +110,15 @@ More detailed monthly updates are available [here (May)][de-update-07] and
 [de-update-08]: https://mgn.cz/blog/de08/
 [@Indy2222]: https://github.com/Indy2222
 
+### Fish Folk
+
+![Fish Folk fully funded on Kickstarter](folk-funded-png)
+_Fish Folk fully funded on Kickstarter_
+
+Fish Folk launched its Kickstarter campaign and has [reached its funding goal][folk-funding]. [useful links].
+
+[folk-funding]: https://www.kickstarter.com/projects/erlendsh/fish-folk/posts/3821869
+
 ## Engine Updates
 
 ## Learning Material Updates
