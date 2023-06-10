@@ -110,6 +110,30 @@ More detailed monthly updates are available [here (May)][de-update-07] and
 [de-update-08]: https://mgn.cz/blog/de08/
 [@Indy2222]: https://github.com/Indy2222
 
+### [MEANWHILE IN SECTOR 80]
+
+[![MS80 Weekly Update Number One](ms80.png)][ms80-video]
+_MEANWHILE IN SECTOR 80 — Intro & Weekly Update #1_
+
+[MEANWHILE IN SECTOR 80] by [Second Half Games] is an upcoming third person
+action-engineering space game.
+
+Second Half Games released the [first update video][ms80-video] for the game.
+It includes an introduction to the studio, an overview of the game, and some of
+the recent progress towards the first public demo.
+
+There is a Discord server and mailing list for MEANWHILE IN SECTOR 80 at
+[secondhalf.games][Second Half Games].
+
+_Discussions:
+[Twitter](https://twitter.com/LPGhatguy/status/1662887019570249731),
+[Mastodon](https://mastodon.gamedev.place/@lpg/110447695511870620),
+[YouTube][ms80-video]_
+
+[Second Half Games]: https://secondhalf.games/
+[MEANWHILE IN SECTOR 80]: https://ms80.space/
+[ms80-video]: https://www.youtube.com/watch?v=bgmySx_tv1s
+
 ## Engine Updates
 
 ## Learning Material Updates
