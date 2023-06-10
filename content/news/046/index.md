@@ -128,6 +128,27 @@ _Discussions: [/r/rust](https://reddit.com/r/rust/comments/134d2i0/learning_game
 [bevy-platformer-tut]: https://affanshahid.dev/posts/learning-game-dev-bevy-1
 [@affanshahid]: https://github.com/affanshahid
 
+### [Game Development In Rust: Making A Strategy Game][rust-strategy-game-tut-1]
+
+![Game Development In Rust: Making A Strategy Game](strategy-game.png)
+_Game Development In Rust: Making A Strategy Game_
+
+[@srodrigo] published the first three parts of a
+[strategy game in Bevy series][rust-strategy-game-tut-1]. The series is aimed at
+developers with some experience in Rust who want to dive into game development.
+
+[The first part][rust-strategy-game-tut-1] focuses on the basic concepts to
+create a battlefield for the battles to come.
+
+[The second part][rust-strategy-game-tut-2] adds the first unit type.
+[The third part][rust-strategy-game-tut-3] adds more unit types to create more
+compelling teams.
+
+[rust-strategy-game-tut-1]: https://srodrigoroyo.com/game-development-in-rust-strategy-game-1/
+[rust-strategy-game-tut-2]: https://srodrigoroyo.com/game-development-in-rust-strategy-game-2/
+[rust-strategy-game-tut-3]: https://srodrigoroyo.com/game-development-in-rust-strategy-game-3/
+[@srodrigo]: https://github.com/srodrigo
+
 ### [How to Migrate Your Bevy Projects with (Semi-)Automation][bevy-migrate]
 
 ![Logos with ast-grep and bevy](migrate-bevy.png)
@@ -217,7 +238,7 @@ useful information -->
 
 <!-- An optional section for new jobs related to Rust gamedev -->
 
-------
+---
 
 That's all news for today, thanks for reading!
 
