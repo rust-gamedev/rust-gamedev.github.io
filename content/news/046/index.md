@@ -85,35 +85,23 @@ for player controllers, animations, simple AI, etc.
 This month, [seldom_state] 0.6 was released:
 
 - Triggers don't need to be registered!
-- `StateMachine::new(MachineState)` has been replaced with
-  `StateMachine::default()`, and you must insert the initial state manually
-- `MachineState` requires `Component` now instead of `Bundle`
 - `MachineState` and `Trigger` no longer require `Reflect`
-- `StateMachine`'s
-  `trans_builder(Trigger, Fn(&Trigger::Ok) -> Option<MyNextState>)` is now
-  `trans_builder(Trigger, Fn(&MyCurrentState, Trigger::Ok) -> Option<MyNextState>)`,
-  so you can take information from the current state when building the next!
-- `StateMachine` no longer tracks the current state, so you may add and remove
-  state components manually, as long as it's still in one state. Manual state
-  changes won't trigger `on_enter` etc events. States that aren't used in any
-  transitions can be registered manually with `StateMachine::with_state`, else it
-  will think it isn't in a state and panic.
-- Replaced `StateMachine`'s `insert_on_enter(Bundle)` and `remove_on_exit()`
-  with the more versatile `on_enter(Fn(&mut EntityCommands))`,
-  `on_exit(Fn(&mut EntityCommands))`, `command_on_enter(Command)`, and
-  `command_on_exit(Command)`
-- `Trigger`s may be combined with combinators `not`, `and`, and `or`
+- `StateMachine`'s `trans_builder` accepts the current state in the closure, so
+  you have dataflow between states!
+- You may add and remove state components manually
+- More versatile `on_enter` and `on_exit` events
+- `Trigger` combinators `not`, `and`, and `or`
 - Transitions have priority in the order they are added
-- `Trigger::trigger` accepts `ReadOnlySystemParam` instead of `&SystemParam`, so
-  you can use `EventReader`, `Local`, etc in your triggers!
+- You can use `EventReader`, `Local`, etc in your triggers!
 - Added an `EventTrigger<E>` that triggers on an event
-- `StateMachine::set_trans_logging` sets whether to log state transitions for
-  debugging.
+- `StateMachine`'s `set_trans_logging` sets whether to log state transitions
+- [And more][changelog]!
 
 Thanks to [Sera] for coauthoring this update!
 
 [seldom_state]: https://github.com/Seldom-SE/seldom_state
 [Sera]: https://github.com/deifactor
+[changelog]: https://github.com/Seldom-SE/seldom_state/blob/main/CHANGELOG.md#06-2023-05-07
 
 ## Popular Workgroup Issues in Github
 
