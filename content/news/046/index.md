@@ -243,6 +243,23 @@ Thanks to [Sera] for coauthoring this update!
 [Sera]: https://github.com/deifactor
 [changelog]: https://github.com/Seldom-SE/seldom_state/blob/main/CHANGELOG.md#06-2023-05-07
 
+### [Kira]
+
+[Kira] ([GitHub]) by [@tesselode] is a backend-agnostic library to create
+expressive audio for games.
+
+Kira v0.8 adds support for spatial audio, global modulation sources for
+easier and more powerful parameter tweening, compressor and EQ effects,
+and more powerful playback and loop region settings.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/13p7x9o/kira_v08),
+[Twitter](https://twitter.com/tesselode/status/1660799031314874370)_
+
+[Kira]: https://crates.io/crates/kira
+[@tesselode]: https://twitter.com/tesselode
+[GitHub]: https://github.com/tesselode/kira
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
