@@ -137,12 +137,11 @@ _Game Development In Rust: Making A Strategy Game_
 [strategy game in Bevy series][rust-strategy-game-tut-1]. The series is aimed at
 developers with some experience in Rust who want to dive into game development.
 
-[The first part][rust-strategy-game-tut-1] focuses on the basic concepts to
-create a battlefield for the battles to come.
-
-[The second part][rust-strategy-game-tut-2] adds the first unit type.
-[The third part][rust-strategy-game-tut-3] adds more unit types to create more
-compelling teams.
+- [The first part][rust-strategy-game-tut-1] focuses on the basic concepts to
+  create a battlefield for the battles to come.
+- [The second part][rust-strategy-game-tut-2] adds the first unit type.
+- [The third part][rust-strategy-game-tut-3] adds more unit types to create more
+  compelling teams.
 
 [rust-strategy-game-tut-1]: https://srodrigoroyo.com/game-development-in-rust-strategy-game-1/
 [rust-strategy-game-tut-2]: https://srodrigoroyo.com/game-development-in-rust-strategy-game-2/
@@ -238,7 +237,7 @@ useful information -->
 
 <!-- An optional section for new jobs related to Rust gamedev -->
 
----
+------
 
 That's all news for today, thanks for reading!
 
