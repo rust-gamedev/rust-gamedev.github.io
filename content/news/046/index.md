@@ -196,6 +196,34 @@ repeating slices of an image on a pixel buffer.
 [blit-0-8]: https://github.com/tversteeg/blit/releases/tag/v0.8.0
 [blit-web-show]: https://tversteeg.nl/blit/showcase
 
+### [seldom_state]
+
+[seldom_state] is a Bevy plugin that adds a `StateMachine` component that you
+can add to your entities. The state machine will change the entity's components
+based on states, triggers, and transitions that you define. It's useful
+for player controllers, animations, simple AI, etc.
+
+This month, [seldom_state] 0.6 was released:
+
+- Triggers don't need to be registered!
+- `MachineState` and `Trigger` no longer require `Reflect`
+- `StateMachine`'s `trans_builder` accepts the current state in the closure, so
+  you have dataflow between states!
+- You may add and remove state components manually
+- More versatile `on_enter` and `on_exit` events
+- `Trigger` combinators `not`, `and`, and `or`
+- Transitions have priority in the order they are added
+- You can use `EventReader`, `Local`, etc in your triggers!
+- Added an `EventTrigger<E>` that triggers on an event
+- `StateMachine`'s `set_trans_logging` sets whether to log state transitions
+- [And more][changelog]!
+
+Thanks to [Sera] for coauthoring this update!
+
+[seldom_state]: https://github.com/Seldom-SE/seldom_state
+[Sera]: https://github.com/deifactor
+[changelog]: https://github.com/Seldom-SE/seldom_state/blob/main/CHANGELOG.md#06-2023-05-07
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
