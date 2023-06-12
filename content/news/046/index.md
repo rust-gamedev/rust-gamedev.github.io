@@ -110,6 +110,25 @@ More detailed monthly updates are available [here (May)][de-update-07] and
 [de-update-08]: https://mgn.cz/blog/de08/
 [@Indy2222]: https://github.com/Indy2222
 
+### [Tunnet][tunnet-itch]
+
+![Tunnet screenshot: robots queueing outside nightclub](tunnet.jpg)
+_Connecting the DJ set to the network_
+
+Tunnet ([Steam][tunnet-steam], [Itch.io][tunnet-itch]) is a short
+puzzle/exploration game where the player digs tunnels and connects computers
+together.
+
+As a network engineer, the player will also have to respond to security
+incidents.
+In May, this game mechanic has been illustrated in a [devlog][tunnet-post] and
+a preview of the new [basic water simulation][tunnet-water] has been posted.
+
+[tunnet-itch]: https://puzzled-squid.itch.io/tunnet
+[tunnet-steam]: https://store.steampowered.com/app/2286390/Tunnet
+[tunnet-post]: https://puzzled-squid.itch.io/tunnet/devlog/532388/devlog-1-ghost-in-the-tunnels
+[tunnet-water]: https://mastodon.gamedev.place/@puzzled_squid/110322440469696044
+
 ## Engine Updates
 
 ## Learning Material Updates
@@ -196,6 +215,34 @@ repeating slices of an image on a pixel buffer.
 [blit-0-8]: https://github.com/tversteeg/blit/releases/tag/v0.8.0
 [blit-web-show]: https://tversteeg.nl/blit/showcase
 
+### [seldom_state]
+
+[seldom_state] is a Bevy plugin that adds a `StateMachine` component that you
+can add to your entities. The state machine will change the entity's components
+based on states, triggers, and transitions that you define. It's useful
+for player controllers, animations, simple AI, etc.
+
+This month, [seldom_state] 0.6 was released:
+
+- Triggers don't need to be registered!
+- `MachineState` and `Trigger` no longer require `Reflect`
+- `StateMachine`'s `trans_builder` accepts the current state in the closure, so
+  you have dataflow between states!
+- You may add and remove state components manually
+- More versatile `on_enter` and `on_exit` events
+- `Trigger` combinators `not`, `and`, and `or`
+- Transitions have priority in the order they are added
+- You can use `EventReader`, `Local`, etc in your triggers!
+- Added an `EventTrigger<E>` that triggers on an event
+- `StateMachine`'s `set_trans_logging` sets whether to log state transitions
+- [And more][changelog]!
+
+Thanks to [Sera] for coauthoring this update!
+
+[seldom_state]: https://github.com/Seldom-SE/seldom_state
+[Sera]: https://github.com/deifactor
+[changelog]: https://github.com/Seldom-SE/seldom_state/blob/main/CHANGELOG.md#06-2023-05-07
+
 ### [Kira]
 
 [Kira] ([GitHub]) by [@tesselode] is a backend-agnostic library to create
@@ -205,7 +252,8 @@ Kira v0.8 adds support for spatial audio, global modulation sources for
 easier and more powerful parameter tweening, compressor and EQ effects,
 and more powerful playback and loop region settings.
 
-_Discussions: [/r/rust](https://www.reddit.com/r/rust/comments/13p7x9o/kira_game_audio_library_v08_spatial_sounds/),
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/13p7x9o/kira_v08),
 [Twitter](https://twitter.com/tesselode/status/1660799031314874370)_
 
 [Kira]: https://crates.io/crates/kira
