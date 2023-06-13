@@ -35,9 +35,8 @@ Feel free to send PRs about your own projects!
 - [Learning Material Updates](#learning-material-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
-- [Rusty Jam 3](#rusty-jam-3)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Other News](#other-news)
+- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
 - [Jobs](#jobs)
@@ -65,6 +64,28 @@ If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
 ## Announcements
+
+### [Rusty Jam \#3][rj3]
+
+![find ferris screenshot: a cart with sweets, ferris, flowers, etc](find_ferris.png)
+_Find Ferris_
+
+[Rusty Jam \#3][rj3] ran from May 21st 2023 to May 29th 2023 and the theme was
+"Hidden in plain sight".
+The jam had a few but high-quality and awesome games.
+
+Here're the winners:
+
+- 🥇 [Find Ferris](https://kuviman.itch.io/find-ferris) by kuviman.
+- 🥈 [Tug of Orb](https://anders429.itch.io/tug-of-orb) by anders429.
+- 🥉 [The Veiled Path](https://jebik.itch.io/the-veiled-path) by Jebik.
+
+We wish all the participants good luck in their future endeavors!
+The RustyJam will be back, so stay tuned on
+[the Rusty Jam Discord][rj-dis] for future updates!
+
+[rj3]: https://itch.io/jam/rusty-jam-3
+[rj-dis]: https://discord.gg/jZtz6y9gCJ
 
 ## Game Updates
 
@@ -197,41 +218,10 @@ repeating slices of an image on a pixel buffer.
 [blit-0-8]: https://github.com/tversteeg/blit/releases/tag/v0.8.0
 [blit-web-show]: https://tversteeg.nl/blit/showcase
 
-## [Rusty Jam 3]
-
-The [Rusty Jam 3] ran from May 21st 2023 to May 29th 2023.
-
-Its theme was: `Hidden in plain sight`
-
-### Results
-
-#### 🥇 [Find Ferris](https://kuviman.itch.io/find-ferris)
-
-![find ferris](find_ferris.png)
-
-#### 🥈[Tug of Orb](https://anders429.itch.io/tug-of-orb)
-
-![find ferris](tug_of_orb.png)
-
-#### 🥉[The Veiled Path](https://jebik.itch.io/the-veiled-path)
-
-![find ferris](the_veiled_path.png)
-
-#### [Boop](https://killercup.itch.io/boop)
-
-![find ferris](boop.png)
-
-#### [Portal Fox](https://vrixyz.itch.io/detective-fox)
-
-![Portal Fox](portal_fox.png)
-
-[Rusty Jam 3]: https://itch.io/jam/rusty-jam-3
-
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
 
-<!-- One-liners for plan items that haven't got their own sections. -->
 ## Other News
 
 <!-- One-liners for plan items that haven't got their own sections. -->
