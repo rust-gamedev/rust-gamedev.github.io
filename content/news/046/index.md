@@ -110,14 +110,31 @@ More detailed monthly updates are available [here (May)][de-update-07] and
 [de-update-08]: https://mgn.cz/blog/de08/
 [@Indy2222]: https://github.com/Indy2222
 
-### Fish Folk
+### [Fish Folk's Kickstarter][fish-ks]
 
-![Fish Folk fully funded on Kickstarter](folk-funded-png)
-_Fish Folk fully funded on Kickstarter_
+![happy fish, exploding bombs, "thank you!" written in the central explosion
+and "just founded" in the bottom](folk-funded.png)
 
-Fish Folk launched its Kickstarter campaign and has [reached its funding goal][folk-funding]. [useful links].
+This month [Fish Folk][fish-jumpy] ([itch.io][fish-itch], [Discord][fish-dis])
+has launched their [Kickstarter campaign][fish-ks]
+that has [already reached its funding goal][fish-15k]!
 
-[folk-funding]: https://www.kickstarter.com/projects/erlendsh/fish-folk/posts/3821869
+Even though the basic sum is collected, the campaign continues till June 23
+and you may still participate in it because of the stretch goals:
+
+> The plan for how to allocate funds that exceed our €15k goal is very simple:
+> For every additional €1,000 pledged to our campaign,
+> we will prototype another fishy game archetype for our evergrowing bundle.
+> Once our funding run concludes we will poll our backers on which game(s)
+> you would like us to prioritize.
+
+_Discussions: [/r/rust](https://reddit.com/r/rust/comments/13qkcv9/fish_ks)_
+
+[fish-ks]: https://kickstarter.com/projects/erlendsh/fish-folk
+[fish-15k]: https://kickstarter.com/projects/erlendsh/fish-folk/posts/3821869
+[fish-jumpy]: https://github.com/fishfolk/jumpy
+[fish-dis]: https://discord.gg/4smxjcheE5
+[fish-itch]: https://spicylobster.itch.io
 
 ## Engine Updates
 
