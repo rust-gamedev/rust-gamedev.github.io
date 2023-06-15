@@ -151,6 +151,32 @@ a preview of the new [basic water simulation][tunnet-water] has been posted.
 [tunnet-post]: https://puzzled-squid.itch.io/tunnet/devlog/532388/devlog-1-ghost-in-the-tunnels
 [tunnet-water]: https://mastodon.gamedev.place/@puzzled_squid/110322440469696044
 
+### [Fish Folk's Kickstarter][fish-ks]
+
+![happy fish, exploding bombs, "thank you!" written in the central explosion
+and "just founded" in the bottom](folk-funded.png)
+
+This month [Fish Folk][fish-jumpy] ([itch.io][fish-itch], [Discord][fish-dis])
+has launched their [Kickstarter campaign][fish-ks]
+that has [already reached its funding goal][fish-15k]!
+
+Even though the basic sum is collected, the campaign continues till June 23
+and you may still participate in it because of the stretch goals:
+
+> The plan for how to allocate funds that exceed our €15k goal is very simple:
+> For every additional €1,000 pledged to our campaign,
+> we will prototype another fishy game archetype for our evergrowing bundle.
+> Once our funding run concludes we will poll our backers on which game(s)
+> you would like us to prioritize.
+
+_Discussions: [/r/rust](https://reddit.com/r/rust/comments/13qkcv9/fish_ks)_
+
+[fish-ks]: https://kickstarter.com/projects/erlendsh/fish-folk
+[fish-15k]: https://kickstarter.com/projects/erlendsh/fish-folk/posts/3821869
+[fish-jumpy]: https://github.com/fishfolk/jumpy
+[fish-dis]: https://discord.gg/4smxjcheE5
+[fish-itch]: https://spicylobster.itch.io
+
 ## Engine Updates
 
 ## Learning Material Updates
