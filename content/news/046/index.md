@@ -177,6 +177,25 @@ _Discussions: [/r/rust](https://reddit.com/r/rust/comments/13qkcv9/fish_ks)_
 [fish-dis]: https://discord.gg/4smxjcheE5
 [fish-itch]: https://spicylobster.itch.io
 
+### [Escape Room AI][escape-ai]
+
+![top-down view on the game world: wallks, traps, enemies, doors, etc](escape-ai.png)
+_AI trying to escape a room_
+
+[escape-ai] by [@bones-ai] is a Rust-based implementation of a genetic algorithm
+and reinforcement learning simulation.
+Its purpose is to train an AI named Zoe to escape a room it's enclosed in.
+The simulation is built using the Macroquad library.
+
+The [YouTube video][escape-video] demonstrates 1000 AI bots learning
+how to escape five rooms of increasing difficulty.
+
+_Discussions: [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/13dstir/ai_escape)_
+
+[escape-ai]: https://github.com/bones-ai/rust-escape-ai
+[@bones-ai]: https://twitter.com/BonesaiDev
+[escape-video]: https://youtube.com/watch?v=OeojCLDKaJU
+
 ## Engine Updates
 
 ## Learning Material Updates
