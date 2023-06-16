@@ -65,6 +65,28 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Announcements
 
+### [Rusty Jam \#3][rj3]
+
+![find ferris screenshot: a cart with sweets, ferris, flowers, etc](find_ferris.png)
+_Find Ferris_
+
+[Rusty Jam \#3][rj3] ran from May 21st 2023 to May 29th 2023 and the theme was
+"Hidden in plain sight".
+The jam had a few but high-quality and awesome games.
+
+Here're the winners:
+
+- 🥇 [Find Ferris](https://kuviman.itch.io/find-ferris) by kuviman.
+- 🥈 [Tug of Orb](https://anders429.itch.io/tug-of-orb) by anders429.
+- 🥉 [The Veiled Path](https://jebik.itch.io/the-veiled-path) by Jebik.
+
+We wish all the participants good luck in their future endeavors!
+The RustyJam will be back, so stay tuned on
+[the Rusty Jam Discord][rj-dis] for future updates!
+
+[rj3]: https://itch.io/jam/rusty-jam-3
+[rj-dis]: https://discord.gg/jZtz6y9gCJ
+
 ## Game Updates
 
 ### Digital Extinction
@@ -110,6 +132,70 @@ More detailed monthly updates are available [here (May)][de-update-07] and
 [de-update-08]: https://mgn.cz/blog/de08/
 [@Indy2222]: https://github.com/Indy2222
 
+### [Tunnet][tunnet-itch]
+
+![Tunnet screenshot: robots queueing outside nightclub](tunnet.jpg)
+_Connecting the DJ set to the network_
+
+Tunnet ([Steam][tunnet-steam], [Itch.io][tunnet-itch]) is a short
+puzzle/exploration game where the player digs tunnels and connects computers
+together.
+
+As a network engineer, the player will also have to respond to security
+incidents.
+In May, this game mechanic has been illustrated in a [devlog][tunnet-post] and
+a preview of the new [basic water simulation][tunnet-water] has been posted.
+
+[tunnet-itch]: https://puzzled-squid.itch.io/tunnet
+[tunnet-steam]: https://store.steampowered.com/app/2286390/Tunnet
+[tunnet-post]: https://puzzled-squid.itch.io/tunnet/devlog/532388/devlog-1-ghost-in-the-tunnels
+[tunnet-water]: https://mastodon.gamedev.place/@puzzled_squid/110322440469696044
+
+### [Fish Folk's Kickstarter][fish-ks]
+
+![happy fish, exploding bombs, "thank you!" written in the central explosion
+and "just founded" in the bottom](folk-funded.png)
+
+This month [Fish Folk][fish-jumpy] ([itch.io][fish-itch], [Discord][fish-dis])
+has launched their [Kickstarter campaign][fish-ks]
+that has [already reached its funding goal][fish-15k]!
+
+Even though the basic sum is collected, the campaign continues till June 23
+and you may still participate in it because of the stretch goals:
+
+> The plan for how to allocate funds that exceed our €15k goal is very simple:
+> For every additional €1,000 pledged to our campaign,
+> we will prototype another fishy game archetype for our evergrowing bundle.
+> Once our funding run concludes we will poll our backers on which game(s)
+> you would like us to prioritize.
+
+_Discussions: [/r/rust](https://reddit.com/r/rust/comments/13qkcv9/fish_ks)_
+
+[fish-ks]: https://kickstarter.com/projects/erlendsh/fish-folk
+[fish-15k]: https://kickstarter.com/projects/erlendsh/fish-folk/posts/3821869
+[fish-jumpy]: https://github.com/fishfolk/jumpy
+[fish-dis]: https://discord.gg/4smxjcheE5
+[fish-itch]: https://spicylobster.itch.io
+
+### [Escape Room AI][escape-ai]
+
+![top-down view on the game world: wallks, traps, enemies, doors, etc](escape-ai.png)
+_AI trying to escape a room_
+
+[escape-ai] by [@bones-ai] is a Rust-based implementation of a genetic algorithm
+and reinforcement learning simulation.
+Its purpose is to train an AI named Zoe to escape a room it's enclosed in.
+The simulation is built using the Macroquad library.
+
+The [YouTube video][escape-video] demonstrates 1000 AI bots learning
+how to escape five rooms of increasing difficulty.
+
+_Discussions: [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/13dstir/ai_escape)_
+
+[escape-ai]: https://github.com/bones-ai/rust-escape-ai
+[@bones-ai]: https://twitter.com/BonesaiDev
+[escape-video]: https://youtube.com/watch?v=OeojCLDKaJU
+
 ### [MEANWHILE IN SECTOR 80][ms80]
 
 [![MS80 Weekly Update Number One](ms80.jpg)][ms80-vlog]
@@ -145,6 +231,26 @@ _Discussions: [/r/rust](https://reddit.com/r/rust/comments/134d2i0/learning_game
 
 [bevy-platformer-tut]: https://affanshahid.dev/posts/learning-game-dev-bevy-1
 [@affanshahid]: https://github.com/affanshahid
+
+### [Game Development In Rust: Making A Strategy Game][rust-strategy-game-tut-1]
+
+![Game Development In Rust: Making A Strategy Game](strategy-game.png)
+_Game Development In Rust: Making A Strategy Game_
+
+[@srodrigo] published the first three parts of a
+[strategy game in Bevy series][rust-strategy-game-tut-1]. The series is aimed at
+developers with some experience in Rust who want to dive into game development.
+
+- [The first part][rust-strategy-game-tut-1] focuses on the basic concepts to
+  create a battlefield for the battles to come.
+- [The second part][rust-strategy-game-tut-2] adds the first unit type.
+- [The third part][rust-strategy-game-tut-3] adds more unit types to create more
+  compelling teams.
+
+[rust-strategy-game-tut-1]: https://srodrigoroyo.com/game-development-in-rust-strategy-game-1/
+[rust-strategy-game-tut-2]: https://srodrigoroyo.com/game-development-in-rust-strategy-game-2/
+[rust-strategy-game-tut-3]: https://srodrigoroyo.com/game-development-in-rust-strategy-game-3/
+[@srodrigo]: https://github.com/srodrigo
 
 ### [How to Migrate Your Bevy Projects with (Semi-)Automation][bevy-migrate]
 
@@ -213,6 +319,51 @@ repeating slices of an image on a pixel buffer.
 [blit-0-7]: https://github.com/tversteeg/blit/releases/tag/v0.7.0
 [blit-0-8]: https://github.com/tversteeg/blit/releases/tag/v0.8.0
 [blit-web-show]: https://tversteeg.nl/blit/showcase
+
+### [seldom_state]
+
+[seldom_state] is a Bevy plugin that adds a `StateMachine` component that you
+can add to your entities. The state machine will change the entity's components
+based on states, triggers, and transitions that you define. It's useful
+for player controllers, animations, simple AI, etc.
+
+This month, [seldom_state] 0.6 was released:
+
+- Triggers don't need to be registered!
+- `MachineState` and `Trigger` no longer require `Reflect`
+- `StateMachine`'s `trans_builder` accepts the current state in the closure, so
+  you have dataflow between states!
+- You may add and remove state components manually
+- More versatile `on_enter` and `on_exit` events
+- `Trigger` combinators `not`, `and`, and `or`
+- Transitions have priority in the order they are added
+- You can use `EventReader`, `Local`, etc in your triggers!
+- Added an `EventTrigger<E>` that triggers on an event
+- `StateMachine`'s `set_trans_logging` sets whether to log state transitions
+- [And more][changelog]!
+
+Thanks to [Sera] for coauthoring this update!
+
+[seldom_state]: https://github.com/Seldom-SE/seldom_state
+[Sera]: https://github.com/deifactor
+[changelog]: https://github.com/Seldom-SE/seldom_state/blob/main/CHANGELOG.md#06-2023-05-07
+
+### [Kira]
+
+[Kira] ([GitHub]) by [@tesselode] is a backend-agnostic library to create
+expressive audio for games.
+
+Kira v0.8 adds support for spatial audio, global modulation sources for
+easier and more powerful parameter tweening, compressor and EQ effects,
+and more powerful playback and loop region settings.
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/comments/13p7x9o/kira_v08),
+[Twitter](https://twitter.com/tesselode/status/1660799031314874370)_
+
+[Kira]: https://crates.io/crates/kira
+[@tesselode]: https://twitter.com/tesselode
+[GitHub]: https://github.com/tesselode/kira
 
 ## Popular Workgroup Issues in Github
 
