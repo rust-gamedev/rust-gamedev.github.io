@@ -196,6 +196,24 @@ _Discussions: [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/13dst
 [@bones-ai]: https://twitter.com/BonesaiDev
 [escape-video]: https://youtube.com/watch?v=OeojCLDKaJU
 
+### [MEANWHILE IN SECTOR 80][ms80]
+
+[![MS80 Weekly Update Number One](ms80.jpg)][ms80-vlog]
+
+[MEANWHILE IN SECTOR 80][ms80] ([Discord][shg-dis], [mailing list][shg-news])
+by [Second Half Games][shg-site] is an upcoming third person
+action-engineering space game.
+
+Second Half Games released the [first update video][ms80-vlog] for the game.
+It includes an introduction to the studio, an overview of the game, and some of
+the recent progress towards the first public demo.
+
+[shg-site]: https://secondhalf.games
+[shg-news]: https://dashboard.mailerlite.com/forms/402073/85466601232532545/share
+[shg-dis]: https://discord.gg/A9GHQGNhJX
+[ms80]: https://ms80.space
+[ms80-vlog]: https://youtube.com/watch?v=bgmySx_tv1s
+
 ## Engine Updates
 
 ## Learning Material Updates
