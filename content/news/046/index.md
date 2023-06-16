@@ -296,6 +296,43 @@ Planned features include auto updating games and mods management.
 [@orhun]: https://github.com/orhun
 [Tauri]: https://tauri.app
 
+### [Rerun][rerun]
+
+![Rerun showing 3D object detections in a 2D view](rerun3d2d.gif)
+
+[Rerun][rerun] ([Discord][rerun-dis], [Github][rerun-gh])
+is an open-source SDK for logging complex visual data paired with a visualizer
+for exploring that data over time. While its primary focus is on robotics and
+computer vision, it can be useful for all kinds of
+rapid prototyping & algorithm development.
+
+Rerun was shown at the Rust GameDev meetup,
+watch the recording [here][rerun-meetup-vid].
+
+[v0.6.0][rerun-v0-6-0] is out now! A few of the biggest highlights:
+
+- You can now show 3D objects in 2D views connected by Pinhole transforms.
+- You can quickly view images and meshes with `rerun mesh.obj image.png`.
+- The correct to install the rerun binary is now `cargo install rerun-cli`.
+- native_viewer is now an opt-in feature of the rerun library,
+  leading to faster compilation times.
+- SDK log calls are now batched on the wire, saving CPU time and bandwidth.
+- [Experimental WebGPU support][rerun-wgpu].
+
+There's a growing community on [Discord][rerun-dis]
+waiting for you to join in case you have any questions,
+comments or just want to follow the latest development.
+The [Github project][rerun-gh] is MIT/Apache
+licensed and open to contribute for everyone,
+be it with suggestions, bugs or PRs.
+
+[rerun]: https://rerun.io
+[rerun-dis]: https://discord.gg/npTFxYR9
+[rerun-gh]: https://github.com/rerun-io/rerun
+[rerun-meetup-vid]: https://youtube.com/watch?v=dVk_kZ9VSDA
+[rerun-v0-6-0]: https://github.com/rerun-io/rerun/releases/tag/v0.6.0
+[rerun-wgpu]: https://app.rerun.io/webgpu/index.html
+
 ## Library Updates
 
 ### [blit]
