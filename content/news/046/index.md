@@ -309,15 +309,20 @@ rapid prototyping & algorithm development.
 Rerun was shown at the Rust GameDev meetup,
 watch the recording [here][rerun-meetup-vid].
 
-[v0.6.0][rerun-v0-6-0] is out now! A few of the biggest highlights:
+Since our last appearance here two new releases came out,
+[v0.7.0][rerun-v0-7-0] is now latest!
+
+A few of the biggest highlights:
 
 - You can now show 3D objects in 2D views connected by Pinhole transforms.
 - You can quickly view images and meshes with `rerun mesh.obj image.png`.
-- The correct to install the rerun binary is now `cargo install rerun-cli`.
-- native_viewer is now an opt-in feature of the rerun library,
+- The correct to install the Rerun binary is now `cargo install rerun-cli`.
+- native_viewer is now an opt-in feature of the Rerun library,
   leading to faster compilation times.
 - SDK log calls are now batched on the wire, saving CPU time and bandwidth.
 - [Experimental WebGPU support][rerun-wgpu].
+- Much more powerful transformation logging (any affine transform works now)
+- Better color mapping range detection for images and tensors
 
 There's a growing community on [Discord][rerun-dis]
 waiting for you to join in case you have any questions,
@@ -330,7 +335,7 @@ be it with suggestions, bugs or PRs.
 [rerun-dis]: https://discord.gg/npTFxYR9
 [rerun-gh]: https://github.com/rerun-io/rerun
 [rerun-meetup-vid]: https://youtube.com/watch?v=dVk_kZ9VSDA
-[rerun-v0-6-0]: https://github.com/rerun-io/rerun/releases/tag/v0.6.0
+[rerun-v0-7-0]: https://github.com/rerun-io/rerun/releases/tag/v0.7.0
 [rerun-wgpu]: https://app.rerun.io/webgpu/index.html
 
 ## Library Updates
