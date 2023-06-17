@@ -214,6 +214,23 @@ the recent progress towards the first public demo.
 [ms80]: https://ms80.space
 [ms80-vlog]: https://youtube.com/watch?v=bgmySx_tv1s
 
+### Tribes
+
+![Tribes preview](tribes.jpg)
+
+Tribes (working title) by [@uvizhe](https://github.com/uvizhe)
+is a turn-based strategy game about tribes of hunters and gatherers.
+It's been developed using Bevy.
+
+The [first devlog](https://uvizhe.im/posts/tribes_p1/) introduces the game,
+outlines its current state and future plans, accompanyed by some thoughts
+from the developer.
+
+_Discussions:
+[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/14aturs/im_working_on_tribes_turnbased_strategy_game/),
+[Twitter](https://twitter.com/uvizhe/status/1669664504198705156),
+[Mastodon](https://mstdn.social/@uvizhe/110553604146429627)_
+
 ## Engine Updates
 
 ## Learning Material Updates
