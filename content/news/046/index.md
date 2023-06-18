@@ -214,6 +214,26 @@ the recent progress towards the first public demo.
 [ms80]: https://ms80.space
 [ms80-vlog]: https://youtube.com/watch?v=bgmySx_tv1s
 
+### [Tiny Glade]
+
+![editing of windows on a cute cottage](tglade-windows.gif)
+
+[Tiny Glade] ([Twitter][tglade-twi])
+is a small relaxing game about doodling castles.
+
+[This month][tglade-post] was all about turning previous experiments
+into reality.
+The coloring and window prototypes are now proper features,
+have dedicated UI, and play well with other building tools.
+
+The devs have also been [toying with][tglade-gi] real-time global illumination
+that could run on potato graphics cards.
+
+[Tiny Glade]: https://store.steampowered.com/app/2198150/Tiny_Glade
+[tglade-twi]: https://twitter.com/PounceLight
+[tglade-post]: https://store.steampowered.com/news/app/2198150/view/3714952295473339216?l=english
+[tglade-gi]: https://twitter.com/h3r2tic/status/1663264361144565765
+
 ## Engine Updates
 
 ## Learning Material Updates
