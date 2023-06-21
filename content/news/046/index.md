@@ -335,8 +335,6 @@ be it with suggestions, bugs or PRs.
 
 ### [Smashline][smashline]
 
-![Reimplemented Brawl's gliding mechanic in Smash Ultimate](smashline.gif)
-
 [Smashline][smashline] is plugin and a Rust crate aimed at enhancing Smash modding,
 more specficially focusing on script mods. Its main purpose is to enable
 the replacement of different types of scripts found in Super Smash Bros. Ultimate,
@@ -347,6 +345,31 @@ The [Smashline wiki][wiki] provides comprehensive explanations of its core featu
 
 [smashline]: https://github.com/blu-dev/smashline
 [wiki]: https://github.com/blu-dev/smashline/wiki
+
+### [Ruffle][ruffle]
+
+![Ruffle dekstop app](ruffle.png)
+
+[Ruffle] is an open-source Flash Player emulator written in Rust.
+It brings Flash Player back to life, running smoothly on all modern systems
+and web browsers.
+
+[This month's updates][ruffle-post] include:
+
+- Bunch of new fan-favorite AS3 (ActionScript 3)games are now playable.
+- Many graphics drawing methos have been fixed and implemented.
+- XML support has progressed.
+- AS2 (ActionScript 2) has seen progress as well:
+  Additional XML methods have been implemented.
+- The Ruffle desktop app now has an interface.
+- Built-in save manager has been added.
+- FLV support in progress, Flash content with external video files will be
+supported soon.
+
+[Check out the blog post][ruffle-post] for more details.
+
+[ruffle]: https://ruffle.rs/
+[ruffle-post]: https://ruffle.rs/blog/2023/05/29/progress-report.html
 
 ## Library Updates
 
