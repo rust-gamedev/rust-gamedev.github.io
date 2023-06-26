@@ -1,8 +1,8 @@
 +++
 title = "This Month in Rust GameDev #46 - May 2023"
 transparent = true
-date = 2023-06-11
-draft = true
+date = 2023-06-26
+draft = false
 +++
 
 <!-- no toc -->
@@ -156,12 +156,12 @@ a preview of the new [basic water simulation][tunnet-water] has been posted.
 ![happy fish, exploding bombs, "thank you!" written in the central explosion
 and "just founded" in the bottom](folk-funded.png)
 
-This month [Fish Folk][fish-jumpy] ([itch.io][fish-itch], [Discord][fish-dis])
+This month [Fish Folk][fish-folk] ([itch.io][fish-itch], [Discord][fish-dis])
 has launched their [Kickstarter campaign][fish-ks]
 that has [already reached its funding goal][fish-15k]!
 
-Even though the basic sum is collected, the campaign continues till June 23
-and you may still participate in it because of the stretch goals:
+Even though the basic sum is collected, the campaign still continues
+to get more founds for the stretch goals:
 
 > The plan for how to allocate funds that exceed our €15k goal is very simple:
 > For every additional €1,000 pledged to our campaign,
@@ -173,7 +173,7 @@ _Discussions: [/r/rust](https://reddit.com/r/rust/comments/13qkcv9/fish_ks)_
 
 [fish-ks]: https://kickstarter.com/projects/erlendsh/fish-folk
 [fish-15k]: https://kickstarter.com/projects/erlendsh/fish-folk/posts/3821869
-[fish-jumpy]: https://github.com/fishfolk/jumpy
+[fish-folk]: https://fishfolk.org/games/jumpy
 [fish-dis]: https://discord.gg/4smxjcheE5
 [fish-itch]: https://spicylobster.itch.io
 
@@ -214,7 +214,165 @@ the recent progress towards the first public demo.
 [ms80]: https://ms80.space
 [ms80-vlog]: https://youtube.com/watch?v=bgmySx_tv1s
 
+### [Tiny Glade][tg-steam]
+
+![Demo of procedural clotheslines between two windows](tglade.gif)
+_Clothlines!_
+
+[Tiny Glade][tg-steam] ([Twitter][tg-twi], [YouTube][tg-yt], [newsletter][tg-mail])
+is a small relaxing game about doodling castles: explore gridless building chemistry,
+and watch the game carefully assemble every brick, pebble and plank.
+
+[This month's updates][tg-post] include:
+
+- More color-related options.   Check out [an in-game replay][tg-vid]
+  of Ana’s test build showing the new color tweaking.
+- More procedural window decorations: clothlines.
+- [Various experiments][tg-potato] with lightning systems.
+
+_Discussions:
+[Steam](https://steamcommunity.com/app/2198150/eventcomments/3839927720690743685),
+[Twitter](https://twitter.com/PounceLight/status/1663606996430405634)_
+
+[tg-steam]: https://store.steampowered.com/app/2198150/Tiny_Glade
+[tg-twi]: https://twitter.com/PounceLight
+[tg-yt]: https://youtube.com/@pouncelight
+[tg-mail]: https://dashboard.mailerlite.com/forms/10395/78076204263933906/share
+[tg-post]: https://store.steampowered.com/news/app/2198150/view/3714952295473339216
+[tg-vid]: https://youtube.com/watch?v=vi2U41kl2eE
+[tg-potato]: https://twitter.com/h3r2tic/status/1663264361144565765
+
+### [Turtle Time][tt-devlog]
+
+![game screenshot: pixel art tile graphics](turtle-time.png)
+
+Turtle Time by [@mikeder] is a WIP p2p multiplayer turtle game
+being made using Bevy, [ggrs], and [matchbox].
+
+This month [the first devlog][tt-devlog] was released:
+
+- Quickly starting a project using [bevy_game_template].
+- Converting single player systems to multiplayer ones.
+- Determinism, random spawns, and timers.
+
+[tt-devlog]: https://mikeder.net/blog/turtletime-devlog-1
+[@mikeder]: https://mikeder.net
+[bevy_game_template]: https://github.com/NiklasEi/bevy_game_template
+[ggrs]: https://github.com/gschup/ggrs
+[matchbox]: https://github.com/johanhelsing/matchbox
+
+### [DAshmoRE][dashmore]
+
+![instructions screen: game controls instructions](dashmore.jpg)
+
+[DAshmoRE][dashmore] is a fast-paced arcade mobile game written using Bevy.
+
+> Get ready for a fast-paced and challenging arcade game
+> where the only way to move is by skillfully dashing past enemies.
+> With a single tap, you must navigate through a maze of enemies
+> that move at different speeds and patterns.
+> Can you master the art of dashing and achieve the highest score?
+> Test your skills and reflexes in this thrilling arcade game.
+
+The game's features include:
+
+- Single-tap controls and WASM build suited for playing on mobile phones.
+- Power-ups like player repellent forcefields and slow-motion abilities.
+- Integrated highscore system.
+
+_Discussions: [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/13al7qu/dashmore)_
+
+[dashmore]: https://hopfenherrscher.itch.io/dashmore
+
+### [NANOVOID][nv-steam]
+
+![one big space ship shooting lots of missles at another](nanovoid.gif)
+_Missiles targeting individual parts on enemy ships_
+
+[NANOVOID][nv-steam] by [LogLogGames] is a WIP 2D tactical space shooter
+that puts you in command of your own modular spaceship:
+engage in intense, physics-driven battles, strategize with ship customization,
+and outsmart your enemies.
+
+This month [the first devlog][nv:log1] was released
+and it mostly was dedicated to expriments with Lua scripting.
+
+Other updates include:
+
+- [A simple PID controller][nv-twi1] for rotating the ship.
+- [The SFX for thrusters is now filtered][nv-twi2] based on the desired force.
+- On-hit SFX and explosions [are starting to feel satisfyting][nv-twi3].
+- Parts of the ship [can now be individually inspected][nv-twi4] with pinnable UI.
+- Missiles targeting individual parts on enemy ships [with some more UI tweaks][nv-twi5].
+
+_Discussions: [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/13rgj9t/nanovoid_1)_
+
+[LogLogGames]: https://loglog.games
+[nv-steam]: https://store.steampowered.com/app/2326430/NANOVOID
+[nv:log1]: https://loglog.games/blog/nanovoid-devlog-1
+[nv-twi1]: https://twitter.com/LogLogGames/status/1659202148616523778
+[nv-twi2]: https://twitter.com/LogLogGames/status/1660062551651041281
+[nv-twi3]: https://twitter.com/LogLogGames/status/1660683311755165697
+[nv-twi4]: https://twitter.com/LogLogGames/status/1663134570634461190
+[nv-twi5]: https://twitter.com/LogLogGames/status/1663667145018953729
+
+### [Bevy Garage][garage-gh]
+
+[![YouTube preview: a track with a racing car on it
+and Alexi in the corner of the screen](bevy-garage.jpg)][garage-vid1]
+
+[Bevy Garage][garage-gh] by [@alexichepura] is
+a game-like car simulation playground
+built with Bevy, rapier, and dfdx neural network.
+
+Alexi released two introductory videos about the project:
+
+- [The main video][garage-vid1] that walks through the project.
+- Deep Q-Learning car training [for 1 hour][garage-vid2].
+
+You can also try out the WASM version of the simulation
+[here][garage-web].
+
+[garage-gh]: https://github.com/alexichepura/bevy_garage
+[garage-web]: https://alexi.chepura.space/bevy-garage
+[garage-vid1]: https://youtu.be/f6PcaTX58J4
+[garage-vid2]: https://youtu.be/A2JMPIWGXBsf
+[@alexichepura]: https://mastodon.social/@alexichepura
+
 ## Engine Updates
+
+### [StereoKit]
+
+TODO: gif
+
+[StereoKit][sk]
+
+Higher-Level wrapper around stereokit-sys bindings for StereoKitC library for XR 
+
+... is an easy-to-use Mixed Realty engine, designed for creating VR, AR, and XR experiences
+
+[1](https://reddit.com/r/rust/comments/138ywxv/introducing_stereokit)
+@MalekiRe
+
+[sk]: TODO
+
+### [Bevy + WebGPU][bevy-wgpu]
+
+TODO: img
+
+TODO
+
+_Discussions: [/r/rust](https://reddit.com/r/rust/comments/13lb0h8/bevy_webgpu)_
+
+[bevy-wgpu]: https://bevyengine.org/news/bevy-webgpu)
+
+### hotline
+
+TODO: try full section?
+
+[1](https://polymonster.co.uk/blog/building-new-engine-4)
+[2](https://twitter.com/polymonster/status/1652287818339688449)
+🆓 **free** (@polymonster?)
 
 ## Learning Material Updates
 
@@ -409,6 +567,74 @@ _Discussions:
 ## Other News
 
 <!-- One-liners for plan items that haven't got their own sections. -->
+
+- Other game updates:
+
+  - [Maginet will soon get a level editor][maginet] with in-editor play support.
+  - [@NullableEngineer released a vlog][nullable-mmo] about implementing
+    the first iteration of the network server for their WIP MMO.
+  - [Idu got a new water system][idu] that is a lot faster to and easier to render.
+
+[maginet]: https://twitter.com/evrimzone/status/1658908555582341120
+[nullable-mmo]: https://youtube.com/watch?v=rHM-4vj3uyY
+[idu]: https://mastodon.gamedev.place/@johann/110440559190280054
+
+- Other engine updates:
+
+  - [godot-rust got a new website][godot-rust] with latest API docs
+    and direct links to learning resources and community platforms.
+
+[godot-rust]: https://mastodon.gamedev.place/@GodotRust/110367270830037001
+
+- Other learning material updates:
+
+  - [@PhaestusFox] has posted Bevy-related tutorial videos:
+    [Herbal-Alchemy 1.4 Update](https://youtube.com/watch?v=MSsuR_6MqwE)
+    and ["How to make a view cube in Bevy"](https://youtube.com/watch?v=HpAu1LpYNpM).
+
+[@PhaestusFox]: https://youtube.com/@PhaestusFox
+
+- Other tooling updates:
+  - ?
+
+- Other library updates:
+  - [grid] is a simple library that provides an easy to use and fast
+    2D grid data structure.
+  - [hexx] v0.6 brings a bunch of new algorythms for hexagonal maps
+    and overall API improvements.
+  - [faer] 0.9 brings the non hermitian eigenvalue decomposition
+    for real and complex matrices and also comes with the release of [qd],
+    a library for extended precision floating point arithmetic
+    with faer compatibility.
+  - [quinn] v0.10 introduces MTU discovery, updates to the latest version
+    of rustls, improves platform support, and introduces a variety
+    of new features, performance improvements, and bugfixes
+  - [funutd] is a 3D procedural texture library running on the CPU that features
+    different tiling modes, an endless supply of proc-generated self-describing
+    volumetric textures, Palette generation with Okhsv and Okhsl color spaces,
+    and an interactive texture explorer.
+  - [bevy_diagnostics_explorer] is a plugin allowing to visualize diagnostics
+    (tracing spans) in VSCode.
+  - [pxo] is a library for working with [Pixelorama] files.
+  - [frug] is a simple graphics library that was announced this month
+    along with [some docs][frug_book].
+  - [egui] v0.22 brings support for application icons on Windows and Mac,
+    better dark/light mode detection, and error reporting on the web.
+  - [egui_tiles] is a tiling layout engine for egui with drag-and-drop and resizing.
+
+[grid]: https://reddit.com/r/rust/comments/134l6mk/grid_v0_10
+[hexx]: https://github.com/ManevilleF/hexx/releases/tag/0.6.0
+[faer]: https://reddit.com/r/rust/comments/13ggs7k/faer_09
+[qd]: https://lib.rs/qd
+[quinn]: https://github.com/quinn-rs/quinn/releases/tag/0.10.0
+[funutd]: https://github.com/SamiPerttu/funutd
+[bevy_diagnostics_explorer]: https://github.com/zaycev/bevy-diagnostics-explorer
+[pxo]: https://github.com/appybara13/pxo
+[Pixelorama]: https://github.com/Orama-Interactive/Pixelorama
+[frug]: https://reddit.com/r/rust/comments/13im07r/introducing_frug
+[frug_book]: https://santyarellano.github.io/frug_book
+[egui]: https://reddit.com/r/rust/comments/13px5zb/egui_022
+[egui_tiles]: https://github.com/rerun-io/egui_tiles
 
 ## Discussions
 
