@@ -1,7 +1,7 @@
 +++
 title = "This Month in Rust GameDev #46 - May 2023"
 transparent = true
-date = 2023-06-26
+date = 2023-06-30
 draft = false
 +++
 
@@ -341,38 +341,65 @@ You can also try out the WASM version of the simulation
 
 ## Engine Updates
 
-### [StereoKit]
+### [stereokit-rs][sk-rs]
 
-TODO: gif
+![Demo of drawing with your hands in 3D space](stereokit.gif)
 
-[StereoKit][sk]
+[stereokit-rs][sk-rs] ([Discord][sk-dis]) are bindings to [StereoKit][sk] - an easy-to-use
+Mixed Realty engine, designed for creating VR, AR, and XR experiences.
+While StereoKit is primarily intended to be used from C#,
+all core functionality is implemented in native code,
+and a C compatible header file is also available and
+was used to create Rust bindings.
 
-Higher-Level wrapper around stereokit-sys bindings for StereoKitC library for XR 
+StereoKit's features include:
 
-... is an easy-to-use Mixed Realty engine, designed for creating VR, AR, and XR experiences
+- Wide platform support: HoloLens 2, Oculus Quest, Windows Mixed Reality,
+  Oculus Desktop, SteamVR, Varjo, Monado (Linux),
+  and eventually everywhere OpenXR is.
+- Mixed Reality inputs like hands and eyes are trivial to access.
+- Easy and powerful UI and interactions.
+- Lots of model and texture formats are support out of the box.
+- Flexible shader/material system with built-in PBR.
+- Performance-by-default instanced render pipeline.
+- Flat screen MR simulator with input emulation for easy development.
+- Runtime asset loading and cross-platform file picking.
+- Physics.
 
-[1](https://reddit.com/r/rust/comments/138ywxv/introducing_stereokit)
-@MalekiRe
+You can use [a cargo-generate template][sk-template] for a quick start
+and the devs invite to join [their Discord server][sk-dis]
+if you have any questions.
 
-[sk]: TODO
+_Discussions: [/r/rust](https://reddit.com/r/rust/comments/138ywxv/intro_stereokit)_
 
-### [Bevy + WebGPU][bevy-wgpu]
+[sk]: https://stereokit.net
+[sk-rs]: https://github.com/MalekiRe/stereokit-rs
+[sk-template]: https://github.com/MalekiRe/stereokit-template
+[sk-dis]: https://discord.com/invite/jtZpfS7nyK
 
-TODO: img
+### [hotline][hotline-gh]
 
-TODO
+![screenshots from hotline's tests](hotline.png)
 
-_Discussions: [/r/rust](https://reddit.com/r/rust/comments/13lb0h8/bevy_webgpu)_
+[hotline][hotline-gh] ([Blog][hotline-blog], [Twitter][hotline-twi], [Twitch][hotline-twitch])
+is a modern, high-performance, hot-reload graphics engine that
+aims to provide low-level access to modern
+graphics API features, while at the same time providing high-level ergonomic
+optimizations.  
 
-[bevy-wgpu]: https://bevyengine.org/news/bevy-webgpu)
+[The recent updates][hotline-devlog] include:
 
-### hotline
+- Tests of graphics functionality and lots of new examples,
+- GPU Resources cleanup improvements,
+- explicit API fore resource heaps,
+- better bindless and bindful rendering models,
+- GPU-driven ECS experiments.
 
-TODO: try full section?
-
-[1](https://polymonster.co.uk/blog/building-new-engine-4)
-[2](https://twitter.com/polymonster/status/1652287818339688449)
-🆓 **free** (@polymonster?)
+[hotline-gh]: https://github.com/polymonster/hotline
+[hotline-blog]: https://www.polymonster.co.uk
+[hotline-twi]: https://twitter.com/polymonster
+[hotline-twitch]: https://twitch.tv/polymonstr
+[hotline-devlog]: https://www.polymonster.co.uk/blog/building-new-engine-4
 
 ## Learning Material Updates
 
@@ -576,6 +603,7 @@ _Discussions:
 - Other engine updates:
   - [godot-rust got a new website][godot-rust] with latest API docs
     and direct links to learning resources and community platforms.
+  - [Bevy will get WebGPU support][bevy-wgpu] in the next - v0.11 - release.
 - Other learning material updates:
   - [@PhaestusFox] has posted Bevy-related tutorial videos:
     [Herbal-Alchemy 1.4 Update](https://youtube.com/watch?v=MSsuR_6MqwE)
@@ -609,6 +637,7 @@ _Discussions:
 [nullable-mmo]: https://youtube.com/watch?v=rHM-4vj3uyY
 [idu]: https://mastodon.gamedev.place/@johann/110440559190280054
 [godot-rust]: https://mastodon.gamedev.place/@GodotRust/110367270830037001
+[bevy-wgpu]: https://reddit.com/r/rust/comments/13lb0h8/bevy_webgpu
 [@PhaestusFox]: https://youtube.com/@PhaestusFox
 [grid]: https://reddit.com/r/rust/comments/134l6mk/grid_v0_10
 [hexx]: https://github.com/ManevilleF/hexx/releases/tag/0.6.0
