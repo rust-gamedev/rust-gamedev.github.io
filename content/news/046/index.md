@@ -124,7 +124,7 @@ _Building Placement in Digital Extinction_
 The most notable updates are:
 
 - poles at unit manufacturing delivery locations for selected factories,
-- pausing unit manufacturing when spawn location is occupied,
+- pausing unit manufacturing when the spawn location is occupied,
 - [IME][ime] support for text boxes,
 - a lot of progress on multiplayer networking,
 - [logging][de-logging] to file and other logging improvements.
@@ -184,7 +184,7 @@ has launched their [Kickstarter campaign][fish-ks]
 that has [already reached its funding goal][fish-15k]!
 
 Even though the basic sum is collected, the campaign still continues
-to get more founds for the stretch goals:
+to get more funds for the stretch goals:
 
 > The plan for how to allocate funds that exceed our €15k goal is very simple:
 > For every additional €1,000 pledged to our campaign,
@@ -310,13 +310,13 @@ engage in intense, physics-driven battles, strategize with ship customization,
 and outsmart your enemies.
 
 This month [the first devlog][nv:log1] was released
-and it mostly was dedicated to expriments with Lua scripting.
+and it mostly was dedicated to experiments with Lua scripting.
 
 Other updates include:
 
 - [A simple PID controller][nv-twi1] for rotating the ship.
 - [The SFX for thrusters is now filtered][nv-twi2] based on the desired force.
-- On-hit SFX and explosions [are starting to feel satisfyting][nv-twi3].
+- On-hit SFX and explosions [are starting to feel satisfying][nv-twi3].
 - Parts of the ship [can now be individually inspected][nv-twi4] with pinnable UI.
 - Missiles targeting individual parts on enemy ships [with some more UI tweaks][nv-twi5].
 
@@ -374,7 +374,7 @@ StereoKit's features include:
   and eventually everywhere OpenXR is.
 - Mixed Reality inputs like hands and eyes are trivial to access.
 - Easy and powerful UI and interactions.
-- Lots of model and texture formats are support out of the box.
+- Lots of model and texture formats are supported out of the box.
 - Flexible shader/material system with built-in PBR.
 - Performance-by-default instanced render pipeline.
 - Flat screen MR simulator with input emulation for easy development.
@@ -418,12 +418,12 @@ optimizations.
 
 ## Learning Material Updates
 
-### [Building a platformer with Bevy \#1][bevy-platformer-tut]
+### [Building a Platformer with Bevy \#1][bevy-platformer-tut]
 
 ![a scheme showing an agent jumping from pillar to pillar](bevy-platformer-tut.png)
 
 [@affanshahid] published [the first part of a new tutorial series][bevy-platformer-tut]
-on building a simple 2D platfromer using Bevy.
+on building a simple 2D platformer using Bevy.
 The series is aimed at newcomers to the world of
 game development and explores common game development concepts.
 
@@ -466,7 +466,7 @@ By using semi-automation tools, you can migrate your Bevy projects
 with less hassle and more confidence.
 
 _Discussions:
-[/r/rust](https://www.reddit.com/r/rust/comments/13m4crf/semi_automated_migration_bevy)_
+[/r/rust](https://reddit.com/r/rust/comments/13m4crf/semi_automated_migration_bevy)_
 
 [bevy-migrate]: https://betterprogramming.pub/migrating-bevy-can-be-easier-with-semi-automation-here-is-how-1f6e21858e79
 [@HerringtonDarkholme]: https://github.com/HerringtonDarkholme
@@ -536,7 +536,7 @@ be it with suggestions, bugs or PRs.
 ### [Smashline][smashline]
 
 [Smashline][smashline] is plugin and a Rust crate aimed at enhancing Smash modding,
-more specficially focusing on script mods. Its main purpose is to enable
+more specifically focusing on script mods. Its main purpose is to enable
 the replacement of different types of scripts found in Super Smash Bros. Ultimate,
 while also offering additional utilities for creating what is known as "code mods"
 within the modding community.
@@ -603,16 +603,16 @@ for player controllers, animations, simple AI, etc.
 This month, [seldom_state] 0.6 was released:
 
 - Triggers don't need to be registered!
-- `MachineState` and `Trigger` no longer require `Reflect`
-- `StateMachine`'s `trans_builder` accepts the current state in the closure, so
+- MachineState and Trigger no longer require Reflect.
+- StateMachine's trans_builder accepts the current state in the closure, so
   you have dataflow between states!
-- You may add and remove state components manually
-- More versatile `on_enter` and `on_exit` events
-- `Trigger` combinators `not`, `and`, and `or`
-- Transitions have priority in the order they are added
-- You can use `EventReader`, `Local`, etc in your triggers!
-- Added an `EventTrigger<E>` that triggers on an event
-- `StateMachine`'s `set_trans_logging` sets whether to log state transitions
+- You may add and remove state components manually.
+- More versatile on_enter and on_exit events.
+- Trigger combinators `not`, `and`, and `or`.
+- Transitions have priority in the order they are added.
+- You can use EventReader, Local, etc in your triggers!
+- Added an `EventTrigger<E>` that triggers on an event.
+- StateMachine's set_trans_logging sets whether to log state transitions
 - [And more][changelog]!
 
 Thanks to [Sera] for coauthoring this update!
@@ -631,8 +631,7 @@ easier and more powerful parameter tweening, compressor and EQ effects,
 and more powerful playback and loop region settings.
 
 _Discussions:
-[/r/rust](https://reddit.com/r/rust/comments/13p7x9o/kira_v08),
-[Twitter](https://twitter.com/tesselode/status/1660799031314874370)_
+[/r/rust](https://reddit.com/r/rust/comments/13p7x9o/kira_v08)_
 
 [Kira]: https://crates.io/crates/kira
 [@tesselode]: https://twitter.com/tesselode
@@ -658,7 +657,7 @@ _Discussions:
 - Other library updates:
   - [grid] is a simple library that provides an easy to use and fast
     2D grid data structure.
-  - [hexx] v0.6 brings a bunch of new algorythms for hexagonal maps
+  - [hexx] v0.6 brings a bunch of new algorithms for hexagonal maps
     and overall API improvements.
   - [faer] 0.9 brings the non hermitian eigenvalue decomposition
     for real and complex matrices and also comes with the release of [qd],
@@ -719,6 +718,7 @@ useful information -->
 
 <!-- Links to "good first issue"-labels or direct links to specific tasks -->
 
+- [bevy_mod_scripting is looking for maintainers][bevy_mod_scripting-help].
 - ['Are We Game Yet?' wants to know about projects/games/resources that
   aren't listed yet][awgy].
 - [Graphite is looking for contributors][graphite-contribute] to help build the
@@ -736,6 +736,7 @@ useful information -->
 - [Bevy's "good first issue" issues][bevy-issues].
 - [Ambient's "good first issue" issues][ambient-issues].
 
+[bevy_mod_scripting-help]: https://github.com/makspll/bevy_mod_scripting/issues/48
 [awgy]: https://github.com/rust-gamedev/arewegameyet#contribute
 [graphite-contribute]: https://graphite.rs/contribute
 [winit-issues]: https://github.com/rust-windowing/winit/issues?q=is%3Aopen+is%3Aissue+label%3A%22difficulty%3A+easy%22
