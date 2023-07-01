@@ -87,6 +87,31 @@ The RustyJam will be back, so stay tuned on
 [rj3]: https://itch.io/jam/rusty-jam-3
 [rj-dis]: https://discord.gg/jZtz6y9gCJ
 
+### [Rust GameDev Meetup \#27][meetup-video]
+
+[![youtube preview: "rerun fir gamedev" slide](meetup.jpg)][meetup-video]
+
+The 27th Rust Gamedev Meetup took place in March. You can watch the recording
+of the meetup [here on Youtube][meetup-video].
+
+The schedule:
+
+- Rusty Jam 3 by [@ElhamAryanpur]
+- Blue Engine by [@ElhamAryanpur]
+- Rerun by [@wumpf]
+- Graphite by [@Keavon]
+
+The meetups take place on the second Saturday of every month via the [Rust
+Gamedev Discord server][rust-gamedev-discord] and are also [streamed on
+Twitch][rust-gamedev-twitch].
+
+[meetup-video]: https://youtube.com/watch?v=WQ3ncBe9srM
+[rust-gamedev-discord]: https://discord.gg/yNtPTb2
+[rust-gamedev-twitch]: https://twitch.tv/rustgamedev
+[@ElhamAryanpur]: https://github.com/ElhamAryanpur
+[@wumpf]: https://github.com/wumpf
+[@Keavon]: https://github.com/Keavon
+
 ## Game Updates
 
 ### Digital Extinction
