@@ -569,34 +569,17 @@ _Discussions:
 <!-- One-liners for plan items that haven't got their own sections. -->
 
 - Other game updates:
-
   - [Maginet will soon get a level editor][maginet] with in-editor play support.
   - [@NullableEngineer released a vlog][nullable-mmo] about implementing
     the first iteration of the network server for their WIP MMO.
   - [Idu got a new water system][idu] that is a lot faster to and easier to render.
-
-[maginet]: https://twitter.com/evrimzone/status/1658908555582341120
-[nullable-mmo]: https://youtube.com/watch?v=rHM-4vj3uyY
-[idu]: https://mastodon.gamedev.place/@johann/110440559190280054
-
 - Other engine updates:
-
   - [godot-rust got a new website][godot-rust] with latest API docs
     and direct links to learning resources and community platforms.
-
-[godot-rust]: https://mastodon.gamedev.place/@GodotRust/110367270830037001
-
 - Other learning material updates:
-
   - [@PhaestusFox] has posted Bevy-related tutorial videos:
     [Herbal-Alchemy 1.4 Update](https://youtube.com/watch?v=MSsuR_6MqwE)
     and ["How to make a view cube in Bevy"](https://youtube.com/watch?v=HpAu1LpYNpM).
-
-[@PhaestusFox]: https://youtube.com/@PhaestusFox
-
-- Other tooling updates:
-  - ?
-
 - Other library updates:
   - [grid] is a simple library that provides an easy to use and fast
     2D grid data structure.
@@ -622,6 +605,11 @@ _Discussions:
     better dark/light mode detection, and error reporting on the web.
   - [egui_tiles] is a tiling layout engine for egui with drag-and-drop and resizing.
 
+[maginet]: https://twitter.com/evrimzone/status/1658908555582341120
+[nullable-mmo]: https://youtube.com/watch?v=rHM-4vj3uyY
+[idu]: https://mastodon.gamedev.place/@johann/110440559190280054
+[godot-rust]: https://mastodon.gamedev.place/@GodotRust/110367270830037001
+[@PhaestusFox]: https://youtube.com/@PhaestusFox
 [grid]: https://reddit.com/r/rust/comments/134l6mk/grid_v0_10
 [hexx]: https://github.com/ManevilleF/hexx/releases/tag/0.6.0
 [faer]: https://reddit.com/r/rust/comments/13ggs7k/faer_09
