@@ -711,6 +711,16 @@ _Discussions:
 <!-- Links to handpicked reddit/twitter/urlo/etc threads that provide
 useful information -->
 
+- /r/rust:
+  - ["How does Bevy manage to be so loose with signatures?"][red-bevy-loose]
+- /r/rust_gamedev:
+  - ["Is bevy the best option for a Rust based game engine?"][red-bevy-best]
+  - ["We're not quite game yet"][red-not-game]
+
+[red-bevy-loose]: https://reddit.com/r/rust/comments/13rcz4v/how_bevy_so_loose
+[red-bevy-best]: https://reddit.com/r/rust_gamedev/comments/13wteyb/is_bevy_best
+[red-not-game]: https://reddit.com/r/rust_gamedev/comments/13qt6rq/were_not_quite_game_yet
+
 ## Requests for Contribution
 
 <!-- Links to "good first issue"-labels or direct links to specific tasks -->
