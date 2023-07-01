@@ -1,8 +1,8 @@
 +++
 title = "This Month in Rust GameDev #46 - May 2023"
 transparent = true
-date = 2023-06-11
-draft = true
+date = 2023-06-30
+draft = false
 +++
 
 <!-- no toc -->
@@ -36,10 +36,8 @@ Feel free to send PRs about your own projects!
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
 - [Other News](#other-news)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
-- [Jobs](#jobs)
 
 <!--
 Ideal section structure is:
@@ -126,7 +124,7 @@ _Building Placement in Digital Extinction_
 The most notable updates are:
 
 - poles at unit manufacturing delivery locations for selected factories,
-- pausing unit manufacturing when spawn location is occupied,
+- pausing unit manufacturing when the spawn location is occupied,
 - [IME][ime] support for text boxes,
 - a lot of progress on multiplayer networking,
 - [logging][de-logging] to file and other logging improvements.
@@ -181,12 +179,12 @@ a preview of the new [basic water simulation][tunnet-water] has been posted.
 ![happy fish, exploding bombs, "thank you!" written in the central explosion
 and "just founded" in the bottom](folk-funded.png)
 
-This month [Fish Folk][fish-jumpy] ([itch.io][fish-itch], [Discord][fish-dis])
+This month [Fish Folk][fish-folk] ([itch.io][fish-itch], [Discord][fish-dis])
 has launched their [Kickstarter campaign][fish-ks]
 that has [already reached its funding goal][fish-15k]!
 
-Even though the basic sum is collected, the campaign continues till June 23
-and you may still participate in it because of the stretch goals:
+Even though the basic sum is collected, the campaign still continues
+to get more funds for the stretch goals:
 
 > The plan for how to allocate funds that exceed our €15k goal is very simple:
 > For every additional €1,000 pledged to our campaign,
@@ -198,7 +196,7 @@ _Discussions: [/r/rust](https://reddit.com/r/rust/comments/13qkcv9/fish_ks)_
 
 [fish-ks]: https://kickstarter.com/projects/erlendsh/fish-folk
 [fish-15k]: https://kickstarter.com/projects/erlendsh/fish-folk/posts/3821869
-[fish-jumpy]: https://github.com/fishfolk/jumpy
+[fish-folk]: https://fishfolk.org/games/jumpy
 [fish-dis]: https://discord.gg/4smxjcheE5
 [fish-itch]: https://spicylobster.itch.io
 
@@ -259,16 +257,173 @@ that could run on potato graphics cards.
 [tglade-post]: https://store.steampowered.com/news/app/2198150/view/3714952295473339216?l=english
 [tglade-gi]: https://twitter.com/h3r2tic/status/1663264361144565765
 
+### [Turtle Time][tt-devlog]
+
+![game screenshot: pixel art tile graphics](turtle-time.png)
+
+Turtle Time by [@mikeder] is a WIP p2p multiplayer turtle game
+being made using Bevy, [ggrs], and [matchbox].
+
+This month [the first devlog][tt-devlog] was released:
+
+- Quickly starting a project using [bevy_game_template].
+- Converting single player systems to multiplayer ones.
+- Determinism, random spawns, and timers.
+
+[tt-devlog]: https://mikeder.net/blog/turtletime-devlog-1
+[@mikeder]: https://mikeder.net
+[bevy_game_template]: https://github.com/NiklasEi/bevy_game_template
+[ggrs]: https://github.com/gschup/ggrs
+[matchbox]: https://github.com/johanhelsing/matchbox
+
+### [DAshmoRE][dashmore]
+
+![instructions screen: game controls instructions](dashmore.jpg)
+
+[DAshmoRE][dashmore] is a fast-paced arcade mobile game written using Bevy.
+
+> Get ready for a fast-paced and challenging arcade game
+> where the only way to move is by skillfully dashing past enemies.
+> With a single tap, you must navigate through a maze of enemies
+> that move at different speeds and patterns.
+> Can you master the art of dashing and achieve the highest score?
+> Test your skills and reflexes in this thrilling arcade game.
+
+The game's features include:
+
+- Single-tap controls and WASM build suited for playing on mobile phones.
+- Power-ups like player repellent forcefields and slow-motion abilities.
+- Integrated highscore system.
+
+_Discussions: [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/13al7qu/dashmore)_
+
+[dashmore]: https://hopfenherrscher.itch.io/dashmore
+
+### [NANOVOID][nv-steam]
+
+![one big space ship shooting lots of missles at another](nanovoid.gif)
+_Missiles targeting individual parts on enemy ships_
+
+[NANOVOID][nv-steam] by [LogLogGames] is a WIP 2D tactical space shooter
+that puts you in command of your own modular spaceship:
+engage in intense, physics-driven battles, strategize with ship customization,
+and outsmart your enemies.
+
+This month [the first devlog][nv:log1] was released
+and it mostly was dedicated to experiments with Lua scripting.
+
+Other updates include:
+
+- [A simple PID controller][nv-twi1] for rotating the ship.
+- [The SFX for thrusters is now filtered][nv-twi2] based on the desired force.
+- On-hit SFX and explosions [are starting to feel satisfying][nv-twi3].
+- Parts of the ship [can now be individually inspected][nv-twi4] with pinnable UI.
+- Missiles targeting individual parts on enemy ships [with some more UI tweaks][nv-twi5].
+
+_Discussions: [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/13rgj9t/nanovoid_1)_
+
+[LogLogGames]: https://loglog.games
+[nv-steam]: https://store.steampowered.com/app/2326430/NANOVOID
+[nv:log1]: https://loglog.games/blog/nanovoid-devlog-1
+[nv-twi1]: https://twitter.com/LogLogGames/status/1659202148616523778
+[nv-twi2]: https://twitter.com/LogLogGames/status/1660062551651041281
+[nv-twi3]: https://twitter.com/LogLogGames/status/1660683311755165697
+[nv-twi4]: https://twitter.com/LogLogGames/status/1663134570634461190
+[nv-twi5]: https://twitter.com/LogLogGames/status/1663667145018953729
+
+### [Bevy Garage][garage-gh]
+
+[![YouTube preview: a track with a racing car on it
+and Alexi in the corner of the screen](bevy-garage.jpg)][garage-vid1]
+
+[Bevy Garage][garage-gh] by [@alexichepura] is
+a game-like car simulation playground
+built with Bevy, rapier, and dfdx neural network.
+
+Alexi released two introductory videos about the project:
+
+- [The main video][garage-vid1] that walks through the project.
+- Deep Q-Learning car training [for 1 hour][garage-vid2].
+
+You can also try out the WASM version of the simulation
+[here][garage-web].
+
+[garage-gh]: https://github.com/alexichepura/bevy_garage
+[garage-web]: https://alexi.chepura.space/bevy-garage
+[garage-vid1]: https://youtu.be/f6PcaTX58J4
+[garage-vid2]: https://youtu.be/A2JMPIWGXBsf
+[@alexichepura]: https://mastodon.social/@alexichepura
+
 ## Engine Updates
+
+### [stereokit-rs][sk-rs]
+
+![Demo of drawing with your hands in 3D space](stereokit.gif)
+
+[stereokit-rs][sk-rs] ([Discord][sk-dis]) are bindings to [StereoKit][sk] - an easy-to-use
+Mixed Realty engine, designed for creating VR, AR, and XR experiences.
+While StereoKit is primarily intended to be used from C#,
+all core functionality is implemented in native code,
+and a C compatible header file is also available and
+was used to create Rust bindings.
+
+StereoKit's features include:
+
+- Wide platform support: HoloLens 2, Oculus Quest, Windows Mixed Reality,
+  Oculus Desktop, SteamVR, Varjo, Monado (Linux),
+  and eventually everywhere OpenXR is.
+- Mixed Reality inputs like hands and eyes are trivial to access.
+- Easy and powerful UI and interactions.
+- Lots of model and texture formats are supported out of the box.
+- Flexible shader/material system with built-in PBR.
+- Performance-by-default instanced render pipeline.
+- Flat screen MR simulator with input emulation for easy development.
+- Runtime asset loading and cross-platform file picking.
+- Physics.
+
+You can use [a cargo-generate template][sk-template] for a quick start
+and the devs invite to join [their Discord server][sk-dis]
+if you have any questions.
+
+_Discussions: [/r/rust](https://reddit.com/r/rust/comments/138ywxv/intro_stereokit)_
+
+[sk]: https://stereokit.net
+[sk-rs]: https://github.com/MalekiRe/stereokit-rs
+[sk-template]: https://github.com/MalekiRe/stereokit-template
+[sk-dis]: https://discord.com/invite/jtZpfS7nyK
+
+### [hotline][hotline-gh]
+
+![screenshots from hotline's tests](hotline.png)
+
+[hotline][hotline-gh] ([Blog][hotline-blog], [Twitter][hotline-twi], [Twitch][hotline-twitch])
+is a modern, high-performance, hot-reload graphics engine that
+aims to provide low-level access to modern
+graphics API features, while at the same time providing high-level ergonomic
+optimizations.  
+
+[The recent updates][hotline-devlog] include:
+
+- Tests of graphics functionality and lots of new examples,
+- GPU Resources cleanup improvements,
+- explicit API fore resource heaps,
+- better bindless and bindful rendering models,
+- GPU-driven ECS experiments.
+
+[hotline-gh]: https://github.com/polymonster/hotline
+[hotline-blog]: https://www.polymonster.co.uk
+[hotline-twi]: https://twitter.com/polymonster
+[hotline-twitch]: https://twitch.tv/polymonstr
+[hotline-devlog]: https://www.polymonster.co.uk/blog/building-new-engine-4
 
 ## Learning Material Updates
 
-### [Building a platformer with Bevy \#1][bevy-platformer-tut]
+### [Building a Platformer with Bevy \#1][bevy-platformer-tut]
 
 ![a scheme showing an agent jumping from pillar to pillar](bevy-platformer-tut.png)
 
 [@affanshahid] published [the first part of a new tutorial series][bevy-platformer-tut]
-on building a simple 2D platfromer using Bevy.
+on building a simple 2D platformer using Bevy.
 The series is aimed at newcomers to the world of
 game development and explores common game development concepts.
 
@@ -311,7 +466,7 @@ By using semi-automation tools, you can migrate your Bevy projects
 with less hassle and more confidence.
 
 _Discussions:
-[/r/rust](https://www.reddit.com/r/rust/comments/13m4crf/semi_automated_migration_bevy)_
+[/r/rust](https://reddit.com/r/rust/comments/13m4crf/semi_automated_migration_bevy)_
 
 [bevy-migrate]: https://betterprogramming.pub/migrating-bevy-can-be-easier-with-semi-automation-here-is-how-1f6e21858e79
 [@HerringtonDarkholme]: https://github.com/HerringtonDarkholme
@@ -381,7 +536,7 @@ be it with suggestions, bugs or PRs.
 ### [Smashline][smashline]
 
 [Smashline][smashline] is plugin and a Rust crate aimed at enhancing Smash modding,
-more specficially focusing on script mods. Its main purpose is to enable
+more specifically focusing on script mods. Its main purpose is to enable
 the replacement of different types of scripts found in Super Smash Bros. Ultimate,
 while also offering additional utilities for creating what is known as "code mods"
 within the modding community.
@@ -448,16 +603,16 @@ for player controllers, animations, simple AI, etc.
 This month, [seldom_state] 0.6 was released:
 
 - Triggers don't need to be registered!
-- `MachineState` and `Trigger` no longer require `Reflect`
-- `StateMachine`'s `trans_builder` accepts the current state in the closure, so
+- MachineState and Trigger no longer require Reflect.
+- StateMachine's trans_builder accepts the current state in the closure, so
   you have dataflow between states!
-- You may add and remove state components manually
-- More versatile `on_enter` and `on_exit` events
-- `Trigger` combinators `not`, `and`, and `or`
-- Transitions have priority in the order they are added
-- You can use `EventReader`, `Local`, etc in your triggers!
-- Added an `EventTrigger<E>` that triggers on an event
-- `StateMachine`'s `set_trans_logging` sets whether to log state transitions
+- You may add and remove state components manually.
+- More versatile on_enter and on_exit events.
+- Trigger combinators `not`, `and`, and `or`.
+- Transitions have priority in the order they are added.
+- You can use EventReader, Local, etc in your triggers!
+- Added an `EventTrigger<E>` that triggers on an event.
+- StateMachine's set_trans_logging sets whether to log state transitions
 - [And more][changelog]!
 
 Thanks to [Sera] for coauthoring this update!
@@ -476,33 +631,127 @@ easier and more powerful parameter tweening, compressor and EQ effects,
 and more powerful playback and loop region settings.
 
 _Discussions:
-[/r/rust](https://reddit.com/r/rust/comments/13p7x9o/kira_v08),
-[Twitter](https://twitter.com/tesselode/status/1660799031314874370)_
+[/r/rust](https://reddit.com/r/rust/comments/13p7x9o/kira_v08)_
 
 [Kira]: https://crates.io/crates/kira
 [@tesselode]: https://twitter.com/tesselode
 [GitHub]: https://github.com/tesselode/kira
 
-## Popular Workgroup Issues in Github
-
-<!-- Up to 10 links to interesting issues -->
-
 ## Other News
 
 <!-- One-liners for plan items that haven't got their own sections. -->
+
+- Other game updates:
+  - [Maginet will soon get a level editor][maginet] with in-editor play support.
+  - [@NullableEngineer released a vlog][nullable-mmo] about implementing
+    the first iteration of the network server for their WIP MMO.
+  - [Idu got a new water system][idu] that is a lot faster to and easier to render.
+- Other engine updates:
+  - [godot-rust got a new website][godot-rust] with latest API docs
+    and direct links to learning resources and community platforms.
+  - [Bevy will get WebGPU support][bevy-wgpu] in the next - v0.11 - release.
+- Other learning material updates:
+  - [@PhaestusFox] has posted Bevy-related tutorial videos:
+    [Herbal-Alchemy 1.4 Update](https://youtube.com/watch?v=MSsuR_6MqwE)
+    and ["How to make a view cube in Bevy"](https://youtube.com/watch?v=HpAu1LpYNpM).
+- Other library updates:
+  - [grid] is a simple library that provides an easy to use and fast
+    2D grid data structure.
+  - [hexx] v0.6 brings a bunch of new algorithms for hexagonal maps
+    and overall API improvements.
+  - [faer] 0.9 brings the non hermitian eigenvalue decomposition
+    for real and complex matrices and also comes with the release of [qd],
+    a library for extended precision floating point arithmetic
+    with faer compatibility.
+  - [quinn] v0.10 introduces MTU discovery, updates to the latest version
+    of rustls, improves platform support, and introduces a variety
+    of new features, performance improvements, and bugfixes
+  - [funutd] is a 3D procedural texture library running on the CPU that features
+    different tiling modes, an endless supply of proc-generated self-describing
+    volumetric textures, Palette generation with Okhsv and Okhsl color spaces,
+    and an interactive texture explorer.
+  - [bevy_diagnostics_explorer] is a plugin allowing to visualize diagnostics
+    (tracing spans) in VSCode.
+  - [pxo] is a library for working with [Pixelorama] files.
+  - [frug] is a simple graphics library that was announced this month
+    along with [some docs][frug_book].
+  - [egui] v0.22 brings support for application icons on Windows and Mac,
+    better dark/light mode detection, and error reporting on the web.
+  - [egui_tiles] is a tiling layout engine for egui with drag-and-drop and resizing.
+
+[maginet]: https://twitter.com/evrimzone/status/1658908555582341120
+[nullable-mmo]: https://youtube.com/watch?v=rHM-4vj3uyY
+[idu]: https://mastodon.gamedev.place/@johann/110440559190280054
+[godot-rust]: https://mastodon.gamedev.place/@GodotRust/110367270830037001
+[bevy-wgpu]: https://reddit.com/r/rust/comments/13lb0h8/bevy_webgpu
+[@PhaestusFox]: https://youtube.com/@PhaestusFox
+[grid]: https://reddit.com/r/rust/comments/134l6mk/grid_v0_10
+[hexx]: https://github.com/ManevilleF/hexx/releases/tag/0.6.0
+[faer]: https://reddit.com/r/rust/comments/13ggs7k/faer_09
+[qd]: https://lib.rs/qd
+[quinn]: https://github.com/quinn-rs/quinn/releases/tag/0.10.0
+[funutd]: https://github.com/SamiPerttu/funutd
+[bevy_diagnostics_explorer]: https://github.com/zaycev/bevy-diagnostics-explorer
+[pxo]: https://github.com/appybara13/pxo
+[Pixelorama]: https://github.com/Orama-Interactive/Pixelorama
+[frug]: https://reddit.com/r/rust/comments/13im07r/introducing_frug
+[frug_book]: https://santyarellano.github.io/frug_book
+[egui]: https://reddit.com/r/rust/comments/13px5zb/egui_022
+[egui_tiles]: https://github.com/rerun-io/egui_tiles
 
 ## Discussions
 
 <!-- Links to handpicked reddit/twitter/urlo/etc threads that provide
 useful information -->
 
+- /r/rust:
+  - ["How does Bevy manage to be so loose with signatures?"][red-bevy-loose]
+- /r/rust_gamedev:
+  - ["Is bevy the best option for a Rust based game engine?"][red-bevy-best]
+  - ["We're not quite game yet"][red-not-game]
+
+[red-bevy-loose]: https://reddit.com/r/rust/comments/13rcz4v/how_bevy_so_loose
+[red-bevy-best]: https://reddit.com/r/rust_gamedev/comments/13wteyb/is_bevy_best
+[red-not-game]: https://reddit.com/r/rust_gamedev/comments/13qt6rq/were_not_quite_game_yet
+
 ## Requests for Contribution
 
 <!-- Links to "good first issue"-labels or direct links to specific tasks -->
 
-## Jobs
+- [bevy_mod_scripting is looking for maintainers][bevy_mod_scripting-help].
+- ['Are We Game Yet?' wants to know about projects/games/resources that
+  aren't listed yet][awgy].
+- [Graphite is looking for contributors][graphite-contribute] to help build the
+  new node graph and 2D rendering systems.
+- [winit's "difficulty: easy" issues][winit-issues].
+- [Backroll-rs, a new networking library][backroll-rs].
+- [Embark's open issues][embark-open-issues] ([embark.rs]).
+- [wgpu's "help wanted" issues][wgpu-issues].
+- [luminance's "low hanging fruit" issues][luminance-fruits].
+- [ggez's "good first issue" issues][ggez-issues].
+- [Veloren's "beginner" issues][veloren-beginner].
+- [A/B Street's "good first issue" issues][abstreet-issues].
+- [Mun's "good first issue" issues][mun-issues].
+- [SIMple Mechanic's good first issues][simm-issues].
+- [Bevy's "good first issue" issues][bevy-issues].
+- [Ambient's "good first issue" issues][ambient-issues].
 
-<!-- An optional section for new jobs related to Rust gamedev -->
+[bevy_mod_scripting-help]: https://github.com/makspll/bevy_mod_scripting/issues/48
+[awgy]: https://github.com/rust-gamedev/arewegameyet#contribute
+[graphite-contribute]: https://graphite.rs/contribute
+[winit-issues]: https://github.com/rust-windowing/winit/issues?q=is%3Aopen+is%3Aissue+label%3A%22difficulty%3A+easy%22
+[backroll-rs]: https://github.com/HouraiTeahouse/backroll-rs/issues
+[embark.rs]: https://embark.rs
+[embark-open-issues]: https://github.com/search?q=user:EmbarkStudios+state:open
+[wgpu-issues]: https://github.com/gfx-rs/wgpu/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
+[luminance-fruits]: https://github.com/phaazon/luminance-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22low+hanging+fruit%22
+[ggez-issues]: https://github.com/ggez/ggez/labels/%2AGOOD%20FIRST%20ISSUE%2A
+[veloren-beginner]: https://gitlab.com/veloren/veloren/issues?label_name=beginner
+[abstreet-issues]: https://github.com/a-b-street/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[mun-issues]: https://github.com/mun-lang/mun/labels/good%20first%20issue
+[simm-issues]: https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue
+[bevy-issues]: https://github.com/bevyengine/bevy/labels/D-Good-First-Issue
+[ambient-issues]: https://github.com/AmbientRun/Ambient/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22
 
 ------
 
