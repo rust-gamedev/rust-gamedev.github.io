@@ -214,34 +214,6 @@ the recent progress towards the first public demo.
 [ms80]: https://ms80.space
 [ms80-vlog]: https://youtube.com/watch?v=bgmySx_tv1s
 
-### [Tiny Glade][tg-steam]
-
-![Demo of procedural clotheslines between two windows](tglade.gif)
-_Clothlines!_
-
-[Tiny Glade][tg-steam] ([Twitter][tg-twi], [YouTube][tg-yt], [newsletter][tg-mail])
-is a small relaxing game about doodling castles: explore gridless building chemistry,
-and watch the game carefully assemble every brick, pebble and plank.
-
-[This month's updates][tg-post] include:
-
-- More color-related options.   Check out [an in-game replay][tg-vid]
-  of Ana’s test build showing the new color tweaking.
-- More procedural window decorations: clothlines.
-- [Various experiments][tg-potato] with lightning systems.
-
-_Discussions:
-[Steam](https://steamcommunity.com/app/2198150/eventcomments/3839927720690743685),
-[Twitter](https://twitter.com/PounceLight/status/1663606996430405634)_
-
-[tg-steam]: https://store.steampowered.com/app/2198150/Tiny_Glade
-[tg-twi]: https://twitter.com/PounceLight
-[tg-yt]: https://youtube.com/@pouncelight
-[tg-mail]: https://dashboard.mailerlite.com/forms/10395/78076204263933906/share
-[tg-post]: https://store.steampowered.com/news/app/2198150/view/3714952295473339216
-[tg-vid]: https://youtube.com/watch?v=vi2U41kl2eE
-[tg-potato]: https://twitter.com/h3r2tic/status/1663264361144565765
-
 ### [Turtle Time][tt-devlog]
 
 ![game screenshot: pixel art tile graphics](turtle-time.png)
