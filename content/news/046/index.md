@@ -357,16 +357,14 @@ and web browsers.
 [This month's updates][ruffle-post] include:
 
 - Bunch of new fan-favorite AS3 (ActionScript 3)games are now playable.
-- Many graphics drawing methos have been fixed and implemented.
+- Many graphics drawing methods have been fixed and implemented.
 - XML support has progressed.
 - AS2 (ActionScript 2) has seen progress as well:
   Additional XML methods have been implemented.
 - The Ruffle desktop app now has an interface.
 - Built-in save manager has been added.
 - FLV support in progress, Flash content with external video files will be
-supported soon.
-
-[Check out the blog post][ruffle-post] for more details.
+  supported soon.
 
 [ruffle]: https://ruffle.rs/
 [ruffle-post]: https://ruffle.rs/blog/2023/05/29/progress-report.html
