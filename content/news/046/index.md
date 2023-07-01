@@ -87,6 +87,31 @@ The RustyJam will be back, so stay tuned on
 [rj3]: https://itch.io/jam/rusty-jam-3
 [rj-dis]: https://discord.gg/jZtz6y9gCJ
 
+### [Rust GameDev Meetup \#27][meetup-video]
+
+[![youtube preview: "rerun fir gamedev" slide](meetup.jpg)][meetup-video]
+
+The 27th Rust Gamedev Meetup took place in March. You can watch the recording
+of the meetup [here on Youtube][meetup-video].
+
+The schedule:
+
+- Rusty Jam 3 by [@ElhamAryanpur]
+- Blue Engine by [@ElhamAryanpur]
+- Rerun by [@wumpf]
+- Graphite by [@Keavon]
+
+The meetups take place on the second Saturday of every month via the [Rust
+Gamedev Discord server][rust-gamedev-discord] and are also [streamed on
+Twitch][rust-gamedev-twitch].
+
+[meetup-video]: https://youtube.com/watch?v=WQ3ncBe9srM
+[rust-gamedev-discord]: https://discord.gg/yNtPTb2
+[rust-gamedev-twitch]: https://twitch.tv/rustgamedev
+[@ElhamAryanpur]: https://github.com/ElhamAryanpur
+[@wumpf]: https://github.com/wumpf
+[@Keavon]: https://github.com/Keavon
+
 ## Game Updates
 
 ### Digital Extinction
@@ -213,6 +238,26 @@ the recent progress towards the first public demo.
 [shg-dis]: https://discord.gg/A9GHQGNhJX
 [ms80]: https://ms80.space
 [ms80-vlog]: https://youtube.com/watch?v=bgmySx_tv1s
+
+### [Tiny Glade]
+
+![editing of windows on a cute cottage](tglade-windows.gif)
+
+[Tiny Glade] ([Twitter][tglade-twi])
+is a small relaxing game about doodling castles.
+
+[This month][tglade-post] was all about turning previous experiments
+into reality.
+The coloring and window prototypes are now proper features,
+have dedicated UI, and play well with other building tools.
+
+The devs have also been [toying with][tglade-gi] real-time global illumination
+that could run on potato graphics cards.
+
+[Tiny Glade]: https://store.steampowered.com/app/2198150/Tiny_Glade
+[tglade-twi]: https://twitter.com/PounceLight
+[tglade-post]: https://store.steampowered.com/news/app/2198150/view/3714952295473339216?l=english
+[tglade-gi]: https://twitter.com/h3r2tic/status/1663264361144565765
 
 ### [Turtle Time][tt-devlog]
 
@@ -489,6 +534,42 @@ be it with suggestions, bugs or PRs.
 [rerun-meetup-vid]: https://youtube.com/watch?v=dVk_kZ9VSDA
 [rerun-v0-6-0]: https://github.com/rerun-io/rerun/releases/tag/v0.6.0
 [rerun-wgpu]: https://app.rerun.io/webgpu/index.html
+
+### [Smashline][smashline]
+
+[Smashline][smashline] is plugin and a Rust crate aimed at enhancing Smash modding,
+more specficially focusing on script mods. Its main purpose is to enable
+the replacement of different types of scripts found in Super Smash Bros. Ultimate,
+while also offering additional utilities for creating what is known as "code mods"
+within the modding community.
+
+The [Smashline wiki][wiki] provides comprehensive explanations of its core features.
+
+[smashline]: https://github.com/blu-dev/smashline
+[wiki]: https://github.com/blu-dev/smashline/wiki
+
+### [Ruffle][ruffle]
+
+![Ruffle dekstop app](ruffle.png)
+
+[Ruffle] is an open-source Flash Player emulator written in Rust.
+It brings Flash Player back to life, running smoothly on all modern systems
+and web browsers.
+
+[This month's updates][ruffle-post] include:
+
+- Bunch of new fan-favorite AS3 (ActionScript 3)games are now playable.
+- Many graphics drawing methods have been fixed and implemented.
+- XML support has progressed.
+- AS2 (ActionScript 2) has seen progress as well:
+  Additional XML methods have been implemented.
+- The Ruffle desktop app now has an interface.
+- Built-in save manager has been added.
+- FLV support in progress, Flash content with external video files will be
+  supported soon.
+
+[ruffle]: https://ruffle.rs/
+[ruffle-post]: https://ruffle.rs/blog/2023/05/29/progress-report.html
 
 ## Library Updates
 
