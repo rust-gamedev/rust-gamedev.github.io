@@ -67,6 +67,25 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Flesh]
+
+![flesh preview](flesh.gif)
+_Intro_
+
+[Flesh] by [@im_oab] is a 2D-horizontal shmup game with hand-drawn animation,
+an organic/fleshy theme and a unique story. It is implemented using [Tetra].
+The game's development has finished and will be released soon. The last update
+before release includes:
+
+- Intro/Ending/End credits animation.
+- Add a variant version of Conway's Game of Life as background.
+- Improve effect in the gameplay with distortion shaders.
+- Update the demo build with improved graphics and performance.
+
+[Flesh]: https://store.steampowered.com/app/1660850/Flesh/
+[@im_oab]: https://twitter.com/im_oab
+[Tetra]: https://github.com/17cupsofcoffee/tetra
+
 ## Engine Updates
 
 ## Learning Material Updates
