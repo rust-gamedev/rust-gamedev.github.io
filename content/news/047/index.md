@@ -75,6 +75,21 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library Updates
 
+### [Boytacean](https://github.com/joamag/boytacean/)
+
+![Boytacean preview](https://github.com/joamag/boytacean/raw/master/res/videos/002-mario.low.gif)
+_Intro_
+
+[Boytacean](https://github.com/joamag/boytacean/) by [@joamag](https://github.com/joamag/boytacean/edit/master/README.md) is a Web-based Game Boy Color emulator (and library) that is written in Rust.
+Major features include:
+
+- Full Game Boy and Game Boy Color emulation.
+- Web (using WebAssembly) and SDL frontends.
+- Ultra-fast performance.
+- Accurate PPU emulation.
+- Game Boy Printer emulation
+- and many others...
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
