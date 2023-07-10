@@ -87,7 +87,7 @@ Major features include:
 - Web (using WebAssembly) and SDL frontends.
 - Ultra-fast performance.
 - Accurate PPU emulation.
-- Game Boy Printer emulation
+- Game Boy Printer emulation.
 - and many others...
 
 ## Popular Workgroup Issues in Github
