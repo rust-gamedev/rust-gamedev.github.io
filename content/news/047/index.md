@@ -69,6 +69,22 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Engine Updates
 
+### [macroquad]
+
+![macroquad](macroquad_0_4.gif)
+_Macroquad examples rendered by Metal API_
+
+Macroquad got ported to miniquad-0.4, supporting Metal on Mac and IOS.
+
+On the surface all the macroquad API stayed exactly the same, but with
+`use macroquad::miniquad::*` being such a breaking change - major version
+number was bumped. Major version bump made possible to fix a few
+long-lasting issues, check the [full changelog][macroquad_changelog]
+for all the changes.
+
+[macroquad_changelog]: https://macroquad.rs/articles/macroquad-0-4/
+
+
 ## Learning Material Updates
 
 ## Tooling Updates
