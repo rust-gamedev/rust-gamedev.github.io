@@ -75,6 +75,38 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library Updates
 
+### [posh]
+
+![Example code written with posh, simplified from the hello triangle
+example](posh.png)
+
+[`posh`][posh] is a crate that seamlessly integrates a graphics library with an
+embedded functional shading language. It is a proof of concept that aims to
+demonstrate that graphics programming can be both type-safe and ergonomic.
+
+With `posh`, shaders are written in plain Rust (with some caveats). Procedural
+macros are only required for defining custom vertex and uniform types.
+
+The core component of `posh` is the `Program<U, V, F>` type, which acts as a
+bridge between the shading language and the graphics library. This type
+represents a compiled shader and serves as the entry point for draw calls. By
+explicitly carrying the types `U` (uniform interface), `V` (vertex shader
+interface), and `F` (fragment shader interface), `posh` enables static
+verification, ensuring that the data provided in draw calls matches the shader's
+signature.
+
+For simplicity, `posh` currently targets OpenGL ES 3.0. Although it is an
+experimental project, its authors hope to inspire the community to further
+explore how static typing can elegantly bridge the gap between host code and
+shader code.
+
+For more details, check out the [examples][posh-examples] or the authors' [blog
+post][posh-blog].
+
+[posh]: https://github.com/leod/posh
+[posh-examples]: https://github.com/leod/posh/tree/main/examples
+[posh-blog]: https://leod.github.io/rust/gamedev/posh/2023/06/04/posh.html
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
