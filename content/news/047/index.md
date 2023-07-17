@@ -86,9 +86,10 @@ In-fact both the server and client are now developed in [the same virtual worksp
 
 The client includes a new camera perspective from top-down isometric to 1st person.
 A new 3D dynamic gridmap framework has been successfully implemented in ECS.
-Inspired by the videogame "System Shock".
 The prototype includes an in-game map editing tool with the ability to export to
 file.
+Inspired by the videogame "System Shock".
+There is a recently uploaded [showcase video].
 
 The project is commercial, [open-source] and has a proprietary license.
 There is a milestone for a license change to free open-source.
@@ -109,6 +110,7 @@ _Discussions: [StarWolves.io Bulletin Board]_
 [Discord]: https://discord.gg/yYpMun9CTT
 [Twitter]: https://twitter.com/starwolvesstar
 [Reddit]: https://reddit.com/u/StarwolvesStar
+[showcase video]: https://youtu.be/Qr_in7tUxAM
 
 ## Engine Updates
 
