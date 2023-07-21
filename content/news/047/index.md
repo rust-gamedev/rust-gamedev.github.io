@@ -97,7 +97,7 @@ The most notable updates are:
 
 See [gameplay][de-video] screen recordings on YouTube.
 
-More detailed monthly updates are available [here (July)][de-update-09].
+More detailed July update are available [here][de-update-09].
 
 [Digital Extinction]: https://de-game.org
 [de-github]: https://github.com/DigitalExtinction/Game
