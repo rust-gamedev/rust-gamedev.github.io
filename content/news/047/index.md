@@ -35,8 +35,8 @@ Feel free to send PRs about your own projects!
 - [Learning Material Updates](#learning-material-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
-- [Other News](#other-news)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
+- [Other News](#other-news)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
 - [Jobs](#jobs)
@@ -83,7 +83,6 @@ long-lasting issues, check the [full changelog][macroquad_changelog]
 for all the changes.
 
 [macroquad_changelog]: https://macroquad.rs/articles/macroquad-0-4/
-
 
 ## Learning Material Updates
 
