@@ -35,8 +35,8 @@ Feel free to send PRs about your own projects!
 - [Learning Material Updates](#learning-material-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
-- [Other News](#other-news)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
+- [Other News](#other-news)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
 - [Jobs](#jobs)
@@ -78,7 +78,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ### [posh]
 
 ![Example code written with posh, simplified from the hello triangle
-example](posh.png)
+example](posh.jpg)
 
 [`posh`][posh] is a crate that seamlessly integrates a graphics library with an
 embedded functional shading language. It is a proof of concept that aims to
