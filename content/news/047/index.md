@@ -131,6 +131,49 @@ _Discussions: [StarWolves.io Bulletin Board]_
 [Reddit]: https://reddit.com/u/StarwolvesStar
 [showcase video]: https://youtu.be/Qr_in7tUxAM
 
+### Digital Extinction
+
+![Building Placement in Digital Extinction](digital-extinction.jpeg)
+_Building Placement in Digital Extinction_
+
+[Digital Extinction] ([GitHub][de-github], [Discord][de-discord],
+[Reddit][de-reddit]) by [@Indy2222] is a 3D real-time strategy game made with
+[Bevy].
+
+The most notable updates are:
+
+- nightly versions are automatically built and published on
+  [de-game.org][de-web] and elsewhere,
+- significant progress has been made on multiplayer and networking,
+- animated arrows on terrain are displayed for selected factories, indicating
+  the path from the units' spawn points to their delivery locations,
+- semi-transparent square markers are drawn on the terrain around selected
+  buildings,
+- health bars are briefly displayed above units and buildings when they take
+  damage or their health changes,
+- the implementation and design of the “Energy” have started to take shape,
+- the head-up display (HUD) shows the total battery charge and the number of
+  selected units and buildings,
+- the main theme song plays in a loop, volume of the music can be configured,
+- the aspect ratio of the minimap matches that of the game map,
+- the option to invert camera zooming has been added to the configuration,
+- the [documentation][de-docs] has been converted to mdBook.
+
+See [gameplay][de-video] screen recordings on YouTube.
+
+More detailed July update is available [here][de-update-09].
+
+[Digital Extinction]: https://de-game.org
+[de-github]: https://github.com/DigitalExtinction/Game
+[de-discord]: https://discord.gg/vHMFuCWGSX
+[de-reddit]: https://reddit.com/r/DigitalExtinction
+[@Indy2222]: https://github.com/Indy2222
+[Bevy]: https://bevyengine.org
+[de-web]: https://de-game.org/
+[de-docs]: https://docs.de-game.org/
+[de-video]: https://youtu.be/aRk65kyIEes
+[de-update-09]: https://mgn.cz/blog/de09/
+
 ## Engine Updates
 
 ### [macroquad]
