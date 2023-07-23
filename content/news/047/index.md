@@ -86,6 +86,51 @@ before release includes:
 [@im_oab]: https://twitter.com/im_oab
 [Tetra]: https://github.com/17cupsofcoffee/tetra
 
+### [Space Frontiers]
+
+![In-game screenshot of a real-time render of a modular gridmap-based spaceship interior](spacefrontiers.png)
+_Render achieved with dynamic point lights._
+
+[Space Frontiers] ([GitHub], [Discord], [Twitter], [Reddit], [Steam Group])
+by [Starwolves] is an online moddable sci-fi action RPG community game
+simulating space (and spaceships) in 3D.
+
+By the end of last year the client was made with Godot. Shortly after that the
+decision was made to replace the Godot project with a [Bevy Engine] client.
+
+Rust and Bevy are now used for both server and client.
+There are a lot of advantages such as sharing libraries and neat code replication,
+reducing code overhead.
+In-fact both the server and client are now developed in [the same virtual workspace].
+
+The client includes a new camera perspective from top-down isometric to 1st person.
+A new 3D dynamic gridmap framework has been successfully implemented in ECS.
+The prototype includes an in-game map editing tool with the ability to export to
+file.
+Inspired by the videogame "System Shock".
+There is a recently uploaded [showcase video].
+
+The project is commercial, [open-source] and has a proprietary license.
+There is a milestone for a license change to free open-source.
+
+[Starwolves.io Bulletin Board] was launched half a year ago.
+There are 25~ registrants left that can receive a permanent unique forum group/title.
+
+_Discussions: [StarWolves.io Bulletin Board]_
+
+[Starwolves.io Bulletin Board]: https://starwolves.io
+[Starwolves]: https://starwolves.io
+[Bevy Engine]: https://bevyengine.org/
+[Space Frontiers]: https://github.com/starwolves/space
+[GitHub]: https://github.com/starwolves/space
+[open-source]: https://github.com/starwolves/space
+[the same virtual workspace]: https://github.com/starwolves/space
+[Steam Group]: https://steamcommunity.com/groups/starwolvescommunity
+[Discord]: https://discord.gg/yYpMun9CTT
+[Twitter]: https://twitter.com/starwolvesstar
+[Reddit]: https://reddit.com/u/StarwolvesStar
+[showcase video]: https://youtu.be/Qr_in7tUxAM
+
 ## Engine Updates
 
 ### [macroquad]
