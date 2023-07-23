@@ -206,6 +206,21 @@ world down to the final wgpu draw calls.
 
 [Bevy Rendering Demystified]: https://youtu.be/5oKEPZ6LbNE
 
+### Procedural Trees in Ambient
+
+![Procedural tree in Ambient](ambient-trees.jpg)
+
+[@mebyz] authored a set of articles "building mmo-ready procedural trees using
+Ambient engine". The three ([1][ambient-trees-1], [2][ambient-trees-2],
+[3][ambient-trees-3]) posts cover a week's worth of explorations into simple
+pseudo-random procedural ecosystem generation (trees, mushrooms, etc)
+system/strategy for Ambient.
+
+[@mebyz]: https://github.com/mebyz
+[ambient-trees-1]: https://medium.com/@emmanuel.botros/webgpu-wasm-rust-building-mmo-ready-procedural-trees-using-ambient-engine-part-1-2359225b592
+[ambient-trees-2]: https://medium.com/@emmanuel.botros/webgpu-wasm-rust-building-mmo-ready-procedural-trees-using-ambient-engine-part-2-60ccce4c6adc
+[ambient-trees-3]: https://medium.com/@emmanuel.botros/webgpu-wasm-rust-building-mmo-ready-procedural-trees-using-ambient-engine-part-3-5a217ecdcabe
+
 ## Tooling Updates
 
 ### [Rerun][rerun]
