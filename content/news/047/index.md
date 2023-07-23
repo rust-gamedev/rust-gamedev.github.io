@@ -71,6 +71,19 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Learning Material Updates
 
+### Bevy Rendering Demystified
+
+![Bevy Rendering Demystified Thumbnail](bevy-rendering-demystified.png)
+
+[@logicprojects] published a [video][Bevy Rendering Demystified] covering the
+details of Bevy's rendering systems.  Specifically, he covered the engine's
+internal implementation of UI Rendering to show how data flows from the ECS
+world down to the final wgpu draw calls.
+
+[@logicprojects]: https://www.youtube.com/@logicprojects
+
+[Bevy Rendering Demystified]: https://youtu.be/5oKEPZ6LbNE
+
 ## Tooling Updates
 
 ## Library Updates
