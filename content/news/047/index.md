@@ -35,8 +35,8 @@ Feel free to send PRs about your own projects!
 - [Learning Material Updates](#learning-material-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
-- [Other News](#other-news)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
+- [Other News](#other-news)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
 - [Jobs](#jobs)
@@ -75,37 +75,31 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [Rerun][rerun]
 
-[Rerun][rerun] ([Discord][rerun-dis], [Github][rerun-gh])
-is an open-source SDK for logging complex visual data paired with a visualizer
-for exploring that data over time. While its primary focus is on robotics and
-computer vision, it can be useful for all kinds of
-rapid prototyping & algorithm development.
+[Rerun][rerun] ([Discord][rerun-dis], [Github][rerun-gh]) is an open-source SDK
+for logging complex visual data paired with a visualizer for exploring that data
+over time. While its primary focus is on robotics and computer vision, it can be
+useful for all kinds of rapid prototyping & algorithm development.
 
 [v0.7.0][rerun-v0-7-0] is out now, but it turned out a little bit smaller:
 
 A few of the biggest highlights:
 
 - Much more powerful transformation logging
-    - any affine transforms works now!
-    - supports many more formats and shows them in the viewer as-is
+  - any affine transforms works now!
+  - supports many more formats and shows them in the viewer as-is
 - Better color mapping range detection for images and tensors
 - Add support for motion JPEG via the new jpeg_quality parameter to log_image
 - Many small improvements to samples & documentation
 
-There's a growing community on [Discord][rerun-dis]
-waiting for you to join in case you have any questions,
-comments or just want to follow the latest development.
-The [Github project][rerun-gh] is MIT/Apache
-licensed and open to contribute for everyone,
-be it with suggestions, bugs or PRs.
+There's a growing community on [Discord][rerun-dis] waiting for you to join in
+case you have any questions, comments or just want to follow the latest
+development. The [Github project][rerun-gh] is MIT/Apache licensed and open to
+contribute for everyone, be it with suggestions, bugs or PRs.
 
 [rerun]: https://rerun.io
 [rerun-dis]: https://discord.gg/npTFxYR9
 [rerun-gh]: https://github.com/rerun-io/rerun
-[rerun-meetup-vid]: https://youtube.com/watch?v=dVk_kZ9VSDA
 [rerun-v0-7-0]: https://github.com/rerun-io/rerun/releases/tag/v0.7.0
-[rerun-wgpu]: https://app.rerun.io/webgpu/index.html
-
 
 ## Library Updates
 
