@@ -242,7 +242,8 @@ contribute for everyone, be it with suggestions, bugs or PRs.
 
 ![Boytacean preview](https://github.com/joamag/boytacean/raw/master/res/videos/002-mario.low.gif)
 
-Boytacean by @joamag is a Web-based Game Boy Color emulator (and library) that is written in Rust.
+Boytacean by @joamag is a Web-based Game Boy Color emulator (and library) that
+is written in Rust.
 
 Major features include:
 
