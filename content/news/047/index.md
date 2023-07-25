@@ -174,6 +174,32 @@ More detailed July update is available [here][de-update-09].
 [de-video]: https://youtu.be/aRk65kyIEes
 [de-update-09]: https://mgn.cz/blog/de09/
 
+### [Way of Rhea][wor]
+
+[![Way of Rhea](wor.png)][wor]
+
+[Way of Rhea][wor] is a puzzle game with hard puzzles but forgiving
+mechanics being produced by [@masonremaley] in a custom Rust engine.
+You can support development by [checking out the free demo and wishlisting on Steam][wor]
+or [signing up for the mailing list][wor-mail]!
+
+Recent updates:
+
+- Puzzle design and layout complete!
+- Continued work on polish, working towards a closed beta
+- Work continued on native [Linux & Steam Deck port](wor-linux), the port is
+  unfinished but playable
+- Increased staff throw velocity to make it easier to throw staves off ledges
+- Various performance improvements (separate spatial hash for interactive objects)
+- Way of Rhea will be part of the [Cerebral Puzzle Showcase](wor-showcase)
+  August 3rd-7th!
+
+[@masonremaley]: https://twitter.com/masonremaley
+[wor]: https://store.steampowered.com/app/1110620/Way_of_Rhea/?utm_campaign=tmirgd&utm_source=n47
+[wor-mail]: https://anthropicstudios.com/newsletter/signup/tech
+[wor-linux]: https://twitter.com/AnthropicSt/status/1683955327711211520
+[wor-showcase]: red
+
 ## Engine Updates
 
 ### [macroquad]
