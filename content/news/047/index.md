@@ -187,18 +187,18 @@ Recent updates:
 
 - Puzzle design and layout complete!
 - Continued work on polish, working towards a closed beta
-- Work continued on native [Linux & Steam Deck port](wor-linux), the port is
+- Work continued on native [Linux & Steam Deck port][wor-linux], the port is
   unfinished but playable
 - Increased staff throw velocity to make it easier to throw staves off ledges
 - Various performance improvements (separate spatial hash for interactive objects)
-- Way of Rhea will be part of the [Cerebral Puzzle Showcase](wor-showcase)
+- Way of Rhea will be part of the [Cerebral Puzzle Showcase][wor-showcase]
   August 3rd-7th!
 
 [@masonremaley]: https://twitter.com/masonremaley
 [wor]: https://store.steampowered.com/app/1110620/Way_of_Rhea/?utm_campaign=tmirgd&utm_source=n47
 [wor-mail]: https://anthropicstudios.com/newsletter/signup/tech
 [wor-linux]: https://twitter.com/AnthropicSt/status/1683955327711211520
-[wor-showcase]: red
+[wor-showcase]: https://www.cerebralpuzzleshowcase.com/
 
 ## Engine Updates
 
