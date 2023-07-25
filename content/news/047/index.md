@@ -78,11 +78,8 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ### [Boytacean](https://github.com/joamag/boytacean/)
 
 ![Boytacean preview](https://github.com/joamag/boytacean/raw/master/res/videos/002-mario.low.gif)
-_Intro_
 
-[Boytacean](https://github.com/joamag/boytacean/) by
-[@joamag](https://github.com/joamag/boytacean/edit/master/README.md) is a
-Web-based Game Boy Color emulator (and library) that is written in Rust.
+Boytacean by @joamag is a Web-based Game Boy Color emulator (and library) that is written in Rust.
 
 Major features include:
 
@@ -92,6 +89,12 @@ Major features include:
 - Accurate PPU emulation.
 - Game Boy Printer emulation.
 - and many others...
+
+Addition information at:
+
+- [Website](https://boytacean.joao.me)
+- [joamag/boytacean](https://github.com/joamag/boytacean/)
+- [@joamag](https://github.com/joamag)
 
 ## Popular Workgroup Issues in Github
 
