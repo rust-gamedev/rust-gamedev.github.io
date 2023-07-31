@@ -218,6 +218,30 @@ Recent updates:
 [wor-linux]: https://twitter.com/AnthropicSt/status/1683955327711211520
 [wor-showcase]: https://www.cerebralpuzzleshowcase.com/
 
+### [Veloren][veloren]
+
+![Veloren visual comparison](veloren.jpg)
+_Veloren over the years_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In June, Veloren prepared for an upcoming release coming in July. Work included
+various fixes, charms, one-way walls, ip address anonymization in logs, the
+addition of the frost gigas boss in game, savanna hut updates, plant creatures,
+cyclops, and much more.
+
+Ongoing work is happening on ship movement, pet commands, Terracota ruins,
+dwarven quarry, coastal towns, clifftown rework, and axe skills. Work is
+happening to add physics interactions that increase your hight as you're
+gliding. This includes termal and ridge lifts.
+
+June's full weekly devlogs: "This Week In Veloren...": [#211][veloren-211], [#212][veloren-212].
+
+[veloren]: https://veloren.net
+[veloren-211]: https://veloren.net/devblog-211
+[veloren-212]: https://veloren.net/devblog-212
+
 ## Engine Updates
 
 ### [macroquad]
