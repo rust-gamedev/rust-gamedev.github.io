@@ -288,6 +288,25 @@ post][posh-blog].
 [posh-examples]: https://github.com/leod/posh/tree/main/examples
 [posh-blog]: https://leod.github.io/rust/gamedev/posh/2023/06/04/posh.html
 
+### [Boytacean][boytacean]
+
+![Boytacean preview](boytacean.gif)
+
+[Boytacean][boytacean] by [@joamag] is a web-based Game Boy Color emulator (and
+library) written in Rust.
+
+Major features include:
+
+- Full Game Boy and Game Boy Color emulation.
+- Web (using WebAssembly) and SDL frontends.
+- Ultra-fast performance.
+- Accurate PPU emulation.
+- Game Boy Printer emulation.
+- and many others...
+
+[boytacean]: https://github.com/joamag/boytacean/
+[@joamag]: https://github.com/joamag
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
