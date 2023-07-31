@@ -174,6 +174,50 @@ More detailed July update is available [here][de-update-09].
 [de-video]: https://youtu.be/aRk65kyIEes
 [de-update-09]: https://mgn.cz/blog/de09/
 
+### Tribes
+
+![Tribes preview](tribes.jpg)
+
+Tribes (working title) by [@uvizhe] is a turn-based strategy game about
+tribes of hunters and gatherers. It's being developed using Bevy.
+
+The [first devlog] introduces the game, outlines its current state and
+future plans, accompanyed by some thoughts from the developer.
+
+_Discussions:
+[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/14aturs/im_working_on_tribes_turnbased_strategy_game/),
+[Twitter](https://twitter.com/uvizhe/status/1669664504198705156),
+[Mastodon](https://mstdn.social/@uvizhe/110553604146429627)_
+
+[@uvizhe]: https://github.com/uvizhe
+[first devlog]: https://uvizhe.im/posts/tribes-p1/
+
+### [Way of Rhea][wor]
+
+[![Way of Rhea](wor.jpg)][wor]
+
+[Way of Rhea][wor] is a puzzle game with hard puzzles but forgiving
+mechanics being produced by [@masonremaley] in a custom Rust engine.
+You can support development by [checking out the free demo and wishlisting on Steam][wor]
+or [signing up for the mailing list][wor-mail]!
+
+Recent updates:
+
+- Puzzle design and layout complete!
+- Continued work on polish, working towards a closed beta
+- Work continued on native [Linux & Steam Deck port][wor-linux], the port is
+  unfinished but playable
+- Increased staff throw velocity to make it easier to throw staves off ledges
+- Various performance improvements (separate spatial hash for interactive objects)
+- Way of Rhea will be part of the [Cerebral Puzzle Showcase][wor-showcase]
+  August 3rd-7th!
+
+[@masonremaley]: https://twitter.com/masonremaley
+[wor]: https://store.steampowered.com/app/1110620/Way_of_Rhea/?utm_campaign=tmirgd&utm_source=n47
+[wor-mail]: https://anthropicstudios.com/newsletter/signup/tech
+[wor-linux]: https://twitter.com/AnthropicSt/status/1683955327711211520
+[wor-showcase]: https://www.cerebralpuzzleshowcase.com/
+
 ### [Veloren][veloren]
 
 ![Veloren visual comparison](veloren.jpg)
@@ -293,6 +337,25 @@ post][posh-blog].
 [posh]: https://github.com/leod/posh
 [posh-examples]: https://github.com/leod/posh/tree/main/examples
 [posh-blog]: https://leod.github.io/rust/gamedev/posh/2023/06/04/posh.html
+
+### [Boytacean][boytacean]
+
+![Boytacean preview](boytacean.gif)
+
+[Boytacean][boytacean] by [@joamag] is a web-based Game Boy Color emulator (and
+library) written in Rust.
+
+Major features include:
+
+- Full Game Boy and Game Boy Color emulation.
+- Web (using WebAssembly) and SDL frontends.
+- Ultra-fast performance.
+- Accurate PPU emulation.
+- Game Boy Printer emulation.
+- and many others...
+
+[boytacean]: https://github.com/joamag/boytacean/
+[@joamag]: https://github.com/joamag
 
 ## Popular Workgroup Issues in Github
 
