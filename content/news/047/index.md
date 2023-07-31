@@ -431,6 +431,15 @@ Major features include:
     roguelike tutorial][bevyrogueliketutorial].
   - [Learning Game Dev][learninggamedev] brings third edition to their tutorials
     with building a platformer with Bevy.
+- Other engine updates:
+  - [Bitang][bitang] is a new framework for demoscene productions.
+- Other library updates:
+  - [miniquad][miniquad] now supports GL2/Metal.
+  - [gecs][gecs] is a new compile-time generated ECS library.
+  - [nv-flip][nv-flip] library helps you visualize human-noticeable differences
+    between rendered images.
+
+
 
 [idu]: https://epcc.itch.io/idu
 [nanovoid]: https://store.steampowered.com/app/2326430/NANOVOID/
@@ -448,6 +457,10 @@ Major features include:
 [maciej glowka]: https://maciejglowka.com/contact/
 [bevyrogueliketutorial]: https://maciejglowka.com/blog/bevy-roguelike-tutorial-devlog-part-10-room-placement/
 [learninggamedev]: https://affanshahid.dev/posts/learning-game-dev-bevy-3/
+[bitang]: https://github.com/aedm/bitang
+[miniquad]: https://github.com/not-fl3/miniquad
+[gecs]: https://docs.rs/gecs/latest/gecs/
+[nv-flip]: https://github.com/gfx-rs/nv-flip-rs
 
 ## Discussions
 
