@@ -259,6 +259,31 @@ for all the changes.
 
 [macroquad_changelog]: https://macroquad.rs/articles/macroquad-0-4/
 
+### [godot-rust][gd-github]
+
+![godot-rust GDExtension logo](godot-rust-gdextension.png)
+
+In the last few weeks of gdext development, the [GDExtension
+API][gd-gdextension] breaks in Godot's recently released [4.1
+version][gd-godot4-1]. Migration is mostly done, several FFI bugs have been
+addressed on the way.
+
+The godot-rust book now [has a "Hello World" tutorial][gd-tutorial] + guides on
+compatibility and selecting Godot version.
+
+Noteworthy features:
+
+- Vector swizzling
+- Signals with parameters
+- Rust-native APIs for Rect2, Aabb, and Plane
+- ToVariant/FromVariant derives
+- Godot native structures
+
+[gd-github]: https://github.com/godot-rust
+[gd-gdextension]: https://github.com/godot-rust/gdextension
+[gd-tutorial]: https://godot-rust.github.io/book/gdext
+[gd-godot4-1]: https://godotengine.org/article/godot-4-1-is-here/
+
 ## Learning Material Updates
 
 ### Bevy Rendering Demystified
