@@ -176,7 +176,7 @@ More detailed July update is available [here][de-update-09].
 
 ### [Way of Rhea][wor]
 
-[![Way of Rhea](wor.png)][wor]
+[![Way of Rhea](wor.jpg)][wor]
 
 [Way of Rhea][wor] is a puzzle game with hard puzzles but forgiving
 mechanics being produced by [@masonremaley] in a custom Rust engine.
