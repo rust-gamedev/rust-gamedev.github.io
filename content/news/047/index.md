@@ -439,8 +439,6 @@ Major features include:
   - [nv-flip][nv-flip] library helps you visualize human-noticeable differences
     between rendered images.
 
-
-
 [idu]: https://epcc.itch.io/idu
 [nanovoid]: https://store.steampowered.com/app/2326430/NANOVOID/
 [cells]: https://github.com/psincf/Cells
