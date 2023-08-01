@@ -401,10 +401,10 @@ Major features include:
     include addition of a GPU particle system.
   - [Nanovoid][nanovoid] is a 2D tactical space shooter game, most recent features
     have been added to the ship editor.
-  - [Cells][cells] is a singleplayer game inspired by [agar.io][agar]
+  - [Cells][cells] is a singleplayer game inspired by [agar.io][agar].
   - [MS80][ms80] is a game about scavenging parts and creating things with them to
     survive alien attacks. MS80 now does basic simulation of thermodynamics.
-  - [Maginet][maginet] updated their game interface and brought the debuted the editor
+  - [Maginet][maginet] updated their game interface and debuted the editor
     update!
   - [Combine And Conquer][caq] new release fixes issues with item rendering.
   - [rust-drive-ai][rust-drive-ai] is a self driving AI simulation game built in
@@ -421,7 +421,7 @@ Major features include:
     in Rust from scratch.
   - [Maciej Główka][maciej glowka] brings updates for map generation to his [Bevy
     roguelike tutorial][bevyrogueliketutorial].
-  - [Learning Game Dev][learninggamedev] brings third edition to their tutorials
+  - [Learning Game Dev][learninggamedev] brings a third edition to their tutorials
     with building a platformer with Bevy.
 - Other engine updates:
   - [Bitang][bitang] is a new framework for demoscene productions.
