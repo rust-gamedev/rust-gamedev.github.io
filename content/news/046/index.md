@@ -89,7 +89,7 @@ The RustyJam will be back, so stay tuned on
 
 [![youtube preview: "rerun fir gamedev" slide](meetup.jpg)][meetup-video]
 
-The 27th Rust Gamedev Meetup took place in March. You can watch the recording
+The 27th Rust Gamedev Meetup took place in May. You can watch the recording
 of the meetup [here on Youtube][meetup-video].
 
 The schedule:

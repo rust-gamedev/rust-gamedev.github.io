@@ -61,6 +61,32 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Announcements
 
+### [Rust GameDev Meetup \#27][meetup-video]
+
+[![youtube preview: "blade tasks" slide](meetup.jpg)][meetup-video]
+
+The 28th Rust Gamedev Meetup took place in June. You can watch the recording
+of the meetup [here on Youtube][meetup-video].
+
+The schedule:
+
+- Blade by [@kvark]
+- Graphite by [@Keavon]
+- Digital Extinction by [@Indy2222]
+- Bevy Jam \#3 Games by [@AngelOnFira]
+
+The meetups take place on the second Saturday of every month via the [Rust
+Gamedev Discord server][rust-gamedev-discord] and are also [streamed on
+Twitch][rust-gamedev-twitch].
+
+[meetup-video]: https://youtube.com/watch?v=1DiA3OYqvqU
+[rust-gamedev-discord]: https://discord.gg/yNtPTb2
+[rust-gamedev-twitch]: https://twitch.tv/rustgamedev
+[@AngelOnFira]: https://github.com/AngelOnFira
+[@kvark]: https://github.com/kvark
+[@Indy2222]: https://github.com/Indy2222/
+[@Keavon]: https://github.com/Keavon
+
 ## Game Updates
 
 ### [Flesh]
