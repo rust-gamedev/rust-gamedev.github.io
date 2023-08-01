@@ -35,11 +35,7 @@ Feel free to send PRs about your own projects!
 - [Learning Material Updates](#learning-material-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Other News](#other-news)
-- [Discussions](#discussions)
-- [Requests for Contribution](#requests-for-contribution)
-- [Jobs](#jobs)
 
 <!--
 Ideal section structure is:
@@ -397,10 +393,6 @@ Major features include:
 [boytacean]: https://github.com/joamag/boytacean/
 [@joamag]: https://github.com/joamag
 
-## Popular Workgroup Issues in Github
-
-<!-- Up to 10 links to interesting issues -->
-
 ## Other News
 
 <!-- One-liners for plan items that haven't got their own sections. -->
@@ -459,19 +451,6 @@ Major features include:
 [miniquad]: https://github.com/not-fl3/miniquad
 [gecs]: https://docs.rs/gecs/latest/gecs/
 [nv-flip]: https://github.com/gfx-rs/nv-flip-rs
-
-## Discussions
-
-<!-- Links to handpicked reddit/twitter/urlo/etc threads that provide
-useful information -->
-
-## Requests for Contribution
-
-<!-- Links to "good first issue"-labels or direct links to specific tasks -->
-
-## Jobs
-
-<!-- An optional section for new jobs related to Rust gamedev -->
 
 ------
 
