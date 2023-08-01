@@ -404,6 +404,63 @@ Major features include:
 ## Other News
 
 <!-- One-liners for plan items that haven't got their own sections. -->
+- Other game updates:
+  - [Idu][idu] is a game about growing simulated plants, recent updates
+    include addition of a GPU particle system.
+  - [Nanovoid][nanovoid] is a 2D tactical space shooter game, most recent features
+    have been added to the ship editor.
+  - [Cells][cells] is a singleplayer game inspired by [agar.io][agar]
+  - [MS80][ms80] is a game about scavenging parts and creating things with them to
+    survive alien attacks. MS80 now does basic simulation of thermodynamics.
+  - [Maginet][maginet] updated their game interface and brought the debuted the editor
+    update!
+  - [Combine And Conquer][caq] new release fixes issues with item rendering.
+  - [rust-drive-ai][rust-drive-ai] is a self driving AI simulation game built in
+    span of 30 days that uses the Bevy engine. In addition, under the hood the cars
+    are controlled using neural networks and trained by a genetic algorithm.
+  - [The Station][station] is a brand new NASA-punk survival game.
+  - [Turtletime][turtletime] is a multiplayer competitive turtle game built using
+    the Bevy and Matchbox.
+  - [Tiny Glade][tinyglade] updated path detailing.
+  - [Fish Folk][fishfolk] is collection of arcade style multiplayer games where
+    you dive deep in the ocean!
+- Other learning material updates:
+  - [Game Dev Graphics][gamedevgraphics] posted a series of 3D graphics tutorials
+    in Rust from scratch.
+  - [Maciej Główka][maciej glowka] brings updates for map generation to his [Bevy
+    roguelike tutorial][bevyrogueliketutorial].
+  - [Learning Game Dev][learninggamedev] brings third edition to their tutorials
+    with building a platformer with Bevy.
+- Other engine updates:
+  - [Bitang][bitang] is a new framework for demoscene productions.
+- Other library updates:
+  - [miniquad][miniquad] now supports GL2/Metal.
+  - [gecs][gecs] is a new compile-time generated ECS library.
+  - [nv-flip][nv-flip] library helps you visualize human-noticeable differences
+    between rendered images.
+
+
+
+[idu]: https://epcc.itch.io/idu
+[nanovoid]: https://store.steampowered.com/app/2326430/NANOVOID/
+[cells]: https://github.com/psincf/Cells
+[agar]: https://agar.io/
+[ms80]: https://ms80.space/
+[maginet]: https://evrimzone.itch.io/maginet
+[caq]: https://martinbucksoftware.itch.io/combine-and-conquer
+[rust-drive-ai]: https://github.com/bones-ai/rust-drive-ai
+[station]: https://www.youtube.com/watch?v=fecn1qPNu3c
+[turtletime]: https://github.com/mikeder/turtletime
+[tinyglade]: https://pouncelight.games/tiny-glade/
+[fishfolk]: https://www.kickstarter.com/projects/erlendsh/fish-folk/posts/3841752
+[gamedevgraphics]: https://www.youtube.com/watch?v=Hqi8QREXwrE
+[maciej glowka]: https://maciejglowka.com/contact/
+[bevyrogueliketutorial]: https://maciejglowka.com/blog/bevy-roguelike-tutorial-devlog-part-10-room-placement/
+[learninggamedev]: https://affanshahid.dev/posts/learning-game-dev-bevy-3/
+[bitang]: https://github.com/aedm/bitang
+[miniquad]: https://github.com/not-fl3/miniquad
+[gecs]: https://docs.rs/gecs/latest/gecs/
+[nv-flip]: https://github.com/gfx-rs/nv-flip-rs
 
 ## Discussions
 
