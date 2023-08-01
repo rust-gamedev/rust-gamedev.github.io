@@ -1,8 +1,8 @@
 +++
 title = "This Month in Rust GameDev #47 - June 2023"
 transparent = true
-date = 2023-07-07
-draft = true
+date = 2023-08-01
+draft = false
 +++
 
 <!-- no toc -->
@@ -35,11 +35,7 @@ Feel free to send PRs about your own projects!
 - [Learning Material Updates](#learning-material-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Other News](#other-news)
-- [Discussions](#discussions)
-- [Requests for Contribution](#requests-for-contribution)
-- [Jobs](#jobs)
 
 <!--
 Ideal section structure is:
@@ -64,6 +60,32 @@ If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
 ## Announcements
+
+### [Rust GameDev Meetup \#27][meetup-video]
+
+[![youtube preview: "blade tasks" slide](meetup.jpg)][meetup-video]
+
+The 28th Rust Gamedev Meetup took place in June. You can watch the recording
+of the meetup [here on Youtube][meetup-video].
+
+The schedule:
+
+- Blade by [@kvark]
+- Graphite by [@Keavon]
+- Digital Extinction by [@Indy2222]
+- Bevy Jam \#3 Games by [@AngelOnFira]
+
+The meetups take place on the second Saturday of every month via the [Rust
+Gamedev Discord server][rust-gamedev-discord] and are also [streamed on
+Twitch][rust-gamedev-twitch].
+
+[meetup-video]: https://youtube.com/watch?v=1DiA3OYqvqU
+[rust-gamedev-discord]: https://discord.gg/yNtPTb2
+[rust-gamedev-twitch]: https://twitch.tv/rustgamedev
+[@AngelOnFira]: https://github.com/AngelOnFira
+[@kvark]: https://github.com/kvark
+[@Indy2222]: https://github.com/Indy2222/
+[@Keavon]: https://github.com/Keavon
 
 ## Game Updates
 
@@ -95,13 +117,13 @@ _Render achieved with dynamic point lights._
 by [Starwolves] is an online moddable sci-fi action RPG community game
 simulating space (and spaceships) in 3D.
 
-By the end of last year the client was made with Godot. Shortly after that the
+By the end of last year, the client was made with Godot. Shortly after that the
 decision was made to replace the Godot project with a [Bevy Engine] client.
 
 Rust and Bevy are now used for both server and client.
 There are a lot of advantages such as sharing libraries and neat code replication,
 reducing code overhead.
-In-fact both the server and client are now developed in [the same virtual workspace].
+In fact, both the server and client are now developed in [the same virtual workspace].
 
 The client includes a new camera perspective from top-down isometric to 1st person.
 A new 3D dynamic gridmap framework has been successfully implemented in ECS.
@@ -154,14 +176,14 @@ The most notable updates are:
 - the implementation and design of the “Energy” have started to take shape,
 - the head-up display (HUD) shows the total battery charge and the number of
   selected units and buildings,
-- the main theme song plays in a loop, volume of the music can be configured,
+- the main theme song plays in a loop, the volume of the music can be configured,
 - the aspect ratio of the minimap matches that of the game map,
 - the option to invert camera zooming has been added to the configuration,
 - the [documentation][de-docs] has been converted to mdBook.
 
 See [gameplay][de-video] screen recordings on YouTube.
 
-More detailed July update is available [here][de-update-09].
+A more detailed July update is available [here][de-update-09].
 
 [Digital Extinction]: https://de-game.org
 [de-github]: https://github.com/DigitalExtinction/Game
@@ -182,7 +204,7 @@ Tribes (working title) by [@uvizhe] is a turn-based strategy game about
 tribes of hunters and gatherers. It's being developed using Bevy.
 
 The [first devlog] introduces the game, outlines its current state and
-future plans, accompanyed by some thoughts from the developer.
+future plans, accompanied by some thoughts from the developer.
 
 _Discussions:
 [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/14aturs/im_working_on_tribes_turnbased_strategy_game/),
@@ -231,10 +253,10 @@ various fixes, charms, one-way walls, ip address anonymization in logs, the
 addition of the frost gigas boss in game, savanna hut updates, plant creatures,
 cyclops, and much more.
 
-Ongoing work is happening on ship movement, pet commands, Terracota ruins,
+Ongoing work is happening on ship movement, pet commands, Terracotta ruins,
 dwarven quarry, coastal towns, clifftown rework, and axe skills. Work is
-happening to add physics interactions that increase your hight as you're
-gliding. This includes termal and ridge lifts.
+happening to add physics interactions that increase your height as you're
+gliding. This includes thermal and ridge lifts.
 
 June's full weekly devlogs: "This Week In Veloren...": [#211][veloren-211], [#212][veloren-212].
 
@@ -397,10 +419,6 @@ Major features include:
 [boytacean]: https://github.com/joamag/boytacean/
 [@joamag]: https://github.com/joamag
 
-## Popular Workgroup Issues in Github
-
-<!-- Up to 10 links to interesting issues -->
-
 ## Other News
 
 <!-- One-liners for plan items that haven't got their own sections. -->
@@ -409,10 +427,10 @@ Major features include:
     include addition of a GPU particle system.
   - [Nanovoid][nanovoid] is a 2D tactical space shooter game, most recent features
     have been added to the ship editor.
-  - [Cells][cells] is a singleplayer game inspired by [agar.io][agar]
+  - [Cells][cells] is a singleplayer game inspired by [agar.io][agar].
   - [MS80][ms80] is a game about scavenging parts and creating things with them to
     survive alien attacks. MS80 now does basic simulation of thermodynamics.
-  - [Maginet][maginet] updated their game interface and brought the debuted the editor
+  - [Maginet][maginet] updated their game interface and debuted the editor
     update!
   - [Combine And Conquer][caq] new release fixes issues with item rendering.
   - [rust-drive-ai][rust-drive-ai] is a self driving AI simulation game built in
@@ -429,7 +447,7 @@ Major features include:
     in Rust from scratch.
   - [Maciej Główka][maciej glowka] brings updates for map generation to his [Bevy
     roguelike tutorial][bevyrogueliketutorial].
-  - [Learning Game Dev][learninggamedev] brings third edition to their tutorials
+  - [Learning Game Dev][learninggamedev] brings a third edition to their tutorials
     with building a platformer with Bevy.
 - Other engine updates:
   - [Bitang][bitang] is a new framework for demoscene productions.
@@ -438,8 +456,6 @@ Major features include:
   - [gecs][gecs] is a new compile-time generated ECS library.
   - [nv-flip][nv-flip] library helps you visualize human-noticeable differences
     between rendered images.
-
-
 
 [idu]: https://epcc.itch.io/idu
 [nanovoid]: https://store.steampowered.com/app/2326430/NANOVOID/
@@ -461,19 +477,6 @@ Major features include:
 [miniquad]: https://github.com/not-fl3/miniquad
 [gecs]: https://docs.rs/gecs/latest/gecs/
 [nv-flip]: https://github.com/gfx-rs/nv-flip-rs
-
-## Discussions
-
-<!-- Links to handpicked reddit/twitter/urlo/etc threads that provide
-useful information -->
-
-## Requests for Contribution
-
-<!-- Links to "good first issue"-labels or direct links to specific tasks -->
-
-## Jobs
-
-<!-- An optional section for new jobs related to Rust gamedev -->
 
 ------
 
