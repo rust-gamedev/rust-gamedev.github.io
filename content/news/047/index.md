@@ -279,6 +279,7 @@ number was bumped. Major version bump made possible to fix a few
 long-lasting issues, check the [full changelog][macroquad_changelog]
 for all the changes.
 
+[macroquad]: https://github.com/not-fl3/macroquad
 [macroquad_changelog]: https://macroquad.rs/articles/macroquad-0-4/
 
 ### [godot-rust][gd-github]
