@@ -1,7 +1,7 @@
 +++
 title = "This Month in Rust GameDev #47 - June 2023"
 transparent = true
-date = 2023-08-01
+date = 2023-08-03
 draft = false
 +++
 
@@ -263,6 +263,14 @@ June's full weekly devlogs: "This Week In Veloren...": [#211][veloren-211], [#21
 [veloren]: https://veloren.net
 [veloren-211]: https://veloren.net/devblog-211
 [veloren-212]: https://veloren.net/devblog-212
+
+### Colony
+
+![image](https://github.com/rust-gamedev/rust-gamedev.github.io/assets/8394233/be79513f-92b0-4c9c-aa59-1eb950e77ba0)
+
+Colony is a Rust game built with Bevy that is open source and is in a pre-alpha stage.
+Similar to other colony simulator games, there are units that have their own traits
+and can be instructed to perform tasks like farming and chopping trees.
 
 ## Engine Updates
 
