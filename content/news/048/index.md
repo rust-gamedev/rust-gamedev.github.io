@@ -75,6 +75,46 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library Updates
 
+### [bevy_xpbd]
+
+![Balls held by string swinging and hitting each other in a Newton's cradle](bevy_xpbd.gif)
+_Newton's cradle simulated using bevy_xpbd_
+
+[bevy_xpbd] by [@Jondolf] is a 2D and 3D physics engine based on
+Extended Position Based Dynamics for the Bevy game engine.
+
+It uses Bevy's Entity Component System (ECS) directly for the simulation data
+and logic, which makes the design and API feel better integrated into Bevy while
+avoiding the overhead associated with copying lots of data to a separate data
+structure like in many other physics engines such as bevy_rapier.
+
+In mid-July, bevy_xpbd 0.2 was released, featuring:
+
+- Spatial queries (ray casting, shape casting, point projection, intersection tests)
+- Bevy 0.11 support
+- Improved scheduling
+- Velocity damping
+- Gravity scale
+- Locking translational and rotational axes
+
+and much more. You can find more details in the
+[release post][bevy_xpbd release post] and [changelog][bevy_xpbd changelog].
+
+A lot of work was also done during the rest of July. The physics debug renderer
+was improved, collision stability issues were significantly reduced, external
+impulses were added, and Bevy's own `Transform`s can now be used directly
+for moving bodies. The narrow phase part of collision detection was also
+refactored into a separate plugin, which makes multithreading and several
+upcoming features much easier to implement while also improving modularity.
+
+_Discussions: [/r/rust_gamedev][bevy_xpbd /r/rust_gamedev]
+
+[bevy_xpbd]: https://github.com/Jondolf/bevy_xpbd
+[@Jondolf]: https://github.com/Jondolf
+[bevy_xpbd release post]: https://joonaa.dev/blog/03/bevy-xpbd-0-2-0
+[bevy_xpbd changelog]: https://github.com/Jondolf/bevy_xpbd/releases/tag/v0.2.0
+[bevy_xpbd /r/rust_gamedev]: https://www.reddit.com/r/rust_gamedev/comments/14zr5i5/bevy_xpbd_020_spatial_queries_bevy_011_support/
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
@@ -115,5 +155,4 @@ TODO: Add real links and un-comment once this post is published
 [Discord](https://discord.gg/yNtPTb2).
 -->
 
-[/r/rust_gamedev]: https://reddit.com/r/rust_gamedev
 [@rust_gamedev]: https://twitter.com/rust_gamedev
