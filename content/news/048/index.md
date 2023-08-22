@@ -67,6 +67,28 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Open Combat][OpenCombat_website]
+
+![OpenCombat completed HUD](OpenCobatDemo1_pre2.png)
+_Game HUD is now more complete_
+
+Open Combat ([Website][OpenCombat_website], [GitHub][OpenCombat_github],
+[Discord][OpenCombat_discord]) is a real-time tactical game
+which takes place during the 2nd World War.
+
+Some major changes this month :
+
+- HUD has been filled with a minimap and squad informations
+- Multiple issues about zoom and move on map has been fixed
+- A high definition map has been created
+
+Some fixes and improvement have to be done, but we are near to publish
+the official demo of the game !
+
+[OpenCombat_website]: https://opencombat.bux.fr/
+[OpenCombat_github]: https://github.com/buxx/OpenCombat
+[OpenCombat_discord]: https://discord.gg/6P2vtFh2Px
+
 ## Engine Updates
 
 ## Learning Material Updates
