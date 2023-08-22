@@ -67,6 +67,27 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [tiny-snake.rs]
+
+![tiny-snake.rs running in the terminal](tiny_snake.gif)
+
+[tiny-snake.rs] by [@Rodrigodd] is a terminal snake game, with a minimal binary
+size.
+
+The entire game is implemented in a single file of pure Rust code, with zero
+dependencies. All interactions with the system are done through raw syscalls (so
+it only runs on Linux, sorry) and the program is completely panic-free (panic
+handling increases the binary size by almost 4KiB).
+
+The game can be compiled using a single `rustc` command, and the resulting
+binary is only 2760 bytes.
+
+_Discussions: [/r/rust]_
+
+[tiny-snake.rs]: https://github.com/Rodrigodd/tiny-snake.rs
+[@Rodrigodd]: https://github.com/Rodrigodd
+[/r/rust]: https://www.reddit.com/r/rust/comments/15d89s5/tinysnakers_a_tiny_terminal_snake_game_in_just/
+
 ## Engine Updates
 
 ## Learning Material Updates
