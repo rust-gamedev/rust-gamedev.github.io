@@ -107,7 +107,7 @@ for moving bodies. The narrow phase part of collision detection was also
 refactored into a separate plugin, which makes multithreading and several
 upcoming features much easier to implement while also improving modularity.
 
-_Discussions: [/r/rust_gamedev][bevy_xpbd /r/rust_gamedev]
+_Discussions: [/r/rust_gamedev][bevy_xpbd /r/rust_gamedev]_
 
 [bevy_xpbd]: https://github.com/Jondolf/bevy_xpbd
 [@Jondolf]: https://github.com/Jondolf
