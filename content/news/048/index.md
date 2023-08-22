@@ -73,7 +73,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 _The browser uses webtransport (Left), the native uses quinn (Right)_
 
 CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]),
-CyberSoul is developing an ambitious multiplayer project, 
+CyberSoul is developing an ambitious multiplayer project,
 utilizing procedural generation and AI to offer a dynamic universe.
 
 The latest updates to CyberGate include:
