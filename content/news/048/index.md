@@ -78,9 +78,9 @@ utilizing procedural generation and AI to offer a dynamic universe.
 
 The latest updates to CyberGate include:
 
-- Implemented a Webtransport Client + universal quic server.
+- Implemented a Webtransport Client and an universal quic server.
 - Custom game launcher that is reliable and efficient.
-- Universal mechanism to save and load game world from disk.
+- Universal mechanism to save, load and upgrade the game world from disk.
 - Optimized multithreaded evolution algorithms for generating universes.
 - Created an accessible editor for fine-tuning component values.
 
