@@ -67,6 +67,28 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [CyberGate][cybergate-yt]
+
+![Universal quic server](cybergate.jpg)
+_The browser uses webtransport (Left), the native uses quinn (Right)_
+
+CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]),
+CyberSoul is developing an ambitious multiplayer project, 
+utilizing procedural generation and AI to offer a dynamic universe.
+
+The latest updates to CyberGate include:
+
+- Implemented a Webtransport Client + universal quic server.
+- Custom game launcher that is reliable and efficient.
+- Universal mechanism to save and load game world from disk.
+- Optimized multithreaded evolution algorithms for generating universes.
+- Created an accessible editor for fine-tuning component values.
+
+Participate in Testing and Engage with CyberSoul: [On Discord][cybergate-dis].
+
+[cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
+[cybergate-dis]: https://discord.gg/R7DkHqw7zJ
+
 ## Engine Updates
 
 ## Learning Material Updates
