@@ -83,8 +83,8 @@ Recent updates:
 - Way of Rhea was part of the [Cerebral Puzzle Showcase][wor-showcase]
 - Crash handling was improved, and the build process was simplified (necessary
   for post-release support)
-	- A fix was landed to [backtrace-rs][wor-backtrace-rs] as part of the
-	  improved crash handling
+  - A fix was landed to [backtrace-rs][wor-backtrace-rs] as part of the
+    improved crash handling
 - Time controls were released as part of the updated demo
 
 [@masonremaley]: https://twitter.com/masonremaley
