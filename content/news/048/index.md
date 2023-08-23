@@ -67,6 +67,17 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### Colony
+
+![image](https://github.com/rust-gamedev/rust-gamedev.github.io/assets/8394233/be79513f-92b0-4c9c-aa59-1eb950e77ba0)
+
+Colony is a Rust game built with Bevy that is open source and is in a pre-alpha stage.
+Similar to other colony simulator games like Dwarf Fortress or Rimworld, there are units
+that have their own traits and can be instructed to perform tasks like farming and chopping trees.
+
+You can have your units build things, farm stuff, and explore, and the game is soon
+to be moving onto adding more content and UI, as core features are being completed.
+
 ## Engine Updates
 
 ## Learning Material Updates
