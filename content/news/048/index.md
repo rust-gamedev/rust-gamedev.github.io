@@ -89,7 +89,7 @@ _Discussions:
 [Discord Server]_
 
 [8bit Duels]: https://github.com/ThousandthStar/8bit-duels
-[Discord Server]: https://other.link
+[Discord Server]: https://discord.com/invite/NbBcF4bGU5
 [ThousandthStar]: https://github.com/ThousandthStar
 [this channel]: https://www.youtube.com/channel/UCllwuaF9ac8sNni8v03GomQ
 [devlog]: https://thousandthstar.github.io/posts/8bd/8bd-part7/
