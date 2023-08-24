@@ -67,6 +67,27 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+
+![ant-simulation](bevy-ants-simulation.png)
+_Ant colony simulation using Bevy_
+
+This is an [Ant Colony Simulation] written in Rust in bevy game engine.
+
+The simulation depicts an ant colony where the ants have a simple task: to find food and bring it back to the colony. To achieve this goal, they use signals called pheromones. These pheromone signals guide the ants to the food source and back to their colony. 
+
+Links:
+- [Video] explaining how it works
+- [Timelapse] of ant colony at 5x speed
+- [2D Bloom] showcase timelapse with a 1k ants
+- I post updates about this project and other projects regularly on my [Twitter] and the code to all my projects is on my [Github]
+
+[Ant Colony Simulation]: https://github.com/bones-ai/rust-ants-colony-simulation
+[Video]: https://youtu.be/98pUSZAM_7M
+[Timelapse]: https://youtu.be/5xdfTJBMnwI
+[2D Bloom]: https://youtu.be/Z4IRY_LKtt8
+[Twitter]: https://twitter.com/BonesaiDev
+[Github]: https://github.com/bones-ai
+
 ## Engine Updates
 
 ## Learning Material Updates
