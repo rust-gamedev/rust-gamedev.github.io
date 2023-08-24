@@ -69,6 +69,42 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Engine Updates
 
+### [Bevy v0.11][bevy_news]
+
+![bevy ssao](bevy_ssao.jpg)
+
+[Bevy][bevy_engine] is a refreshingly simple data-driven game engine built in Rust.
+It is [free and open-source][bevy_repo] forever!
+
+Bevy 0.11 brought many incredible new features.
+You can check out the [full release blog post here][bevy_news],
+but here are some highlights:
+
+- [Screen Space Ambient Occlusion (SSAO)](https://bevyengine.org/news/bevy-0-11/#screen-space-ambient-occlusion)
+- [Temporal Anti-Aliasing (TAA)](https://bevyengine.org/news/bevy-0-11/#temporal-anti-aliasing)
+- [Morph Targets](https://bevyengine.org/news/bevy-0-11/#morph-targets)
+- [Robust Contrast Adaptive Sharpening (RCAS)](https://bevyengine.org/news/bevy-0-11/#robust-contrast-adaptive-sharpening)
+- [WebGPU Support](https://bevyengine.org/news/bevy-0-11/#webgpu-support)
+- [Improved Shader Imports](https://bevyengine.org/news/bevy-0-11/#improved-shader-imports)
+- [Parallax Mapping](https://bevyengine.org/news/bevy-0-11/#parallax-mapping)
+- [Skyboxes](https://bevyengine.org/news/bevy-0-11/#skyboxes)
+- [Schedule-First ECS APIs](https://bevyengine.org/news/bevy-0-11/#schedule-first-ecs-apis)
+- [Gizmos](https://bevyengine.org/news/bevy-0-11/#gizmos)
+- [ECS Audio APIs](https://bevyengine.org/news/bevy-0-11/#ecs-audio-apis)
+- [UI Borders](https://bevyengine.org/news/bevy-0-11/#ui-node-borders)
+- [Grid UI Layout](https://bevyengine.org/news/bevy-0-11/#grid-ui-layout)
+- [UI Performance Improvements](https://bevyengine.org/news/bevy-0-11/#faster-ui-render-batching)
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/14v77m5/bevy_011/),
+[Hacker News](https://news.ycombinator.com/item?id=36657970),
+[Twitter](https://twitter.com/BevyEngine/status/1678122584976797697),
+[Mastodon](https://mastodon.social/@bevy/110685755721601977)_
+
+[bevy_engine]: https://bevyengine.org
+[bevy_news]: https://bevyengine.org/news/bevy-0-11
+[bevy_repo]: https://github.com/bevyengine/bevy
+
 ## Learning Material Updates
 
 ## Tooling Updates
