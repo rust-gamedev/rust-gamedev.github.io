@@ -67,6 +67,46 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Colony]
+
+![tiled map with lots of grass and trees, some resources
+and a couple of named pawns](colony.png)
+
+[Colony] by [@ryankopf] is a colony simulator game built with Bevy that
+is open source and is in a pre-alpha stage. Similar to other colony simulator games
+like Dwarf Fortress or Rimworld, there are units that have their own traits and
+can be instructed to perform tasks like farming and chopping trees.
+
+You can have your units build things, farm stuff, and explore, and the game is soon
+to be moving onto adding more content and UI, as core features are being completed.
+
+_Discussions: [/r/rust](https://reddit.com/r/rust/comments/14p1fiw/colony_sim)_
+
+[Colony]: https://github.com/ryankopf/colony
+[@ryankopf]: https://github.com/ryankopf
+
+### [Open Combat][OpenCombat_website]
+
+![OpenCombat completed HUD](opencombat.jpg)
+_Game HUD is now more complete_
+
+Open Combat ([Website][OpenCombat_website], [GitHub][OpenCombat_github],
+[Discord][OpenCombat_discord]) is a real-time tactical game
+which takes place during the 2nd World War.
+
+Some major changes this month:
+
+- HUD has been filled with a minimap and squad informations.
+- Multiple issues about zoom and move on map has been fixed.
+- A high definition map has been created.
+
+Some fixes and improvements have to be done, but the devs are near
+to publishing the official demo of the game!
+
+[OpenCombat_website]: https://opencombat.bux.fr
+[OpenCombat_github]: https://github.com/buxx/OpenCombat
+[OpenCombat_discord]: https://discord.gg/6P2vtFh2Px
+
 ### [CyberGate][cybergate-yt]
 
 ![Universal quic server](cybergate.jpg)
@@ -84,7 +124,7 @@ The latest updates to CyberGate include:
 - Optimized multithreaded evolution algorithms for generating universes.
 - Created an accessible editor for fine-tuning component values.
 
-Participate in Testing and Engage with CyberSoul: [On Discord][cybergate-dis].
+Participate in Testing and Engage with CyberSoul: [on Discord][cybergate-dis].
 
 [cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
 [cybergate-dis]: https://discord.gg/R7DkHqw7zJ
