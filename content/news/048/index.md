@@ -87,7 +87,7 @@ _Discussions: [/r/rust](https://reddit.com/r/rust/comments/14p1fiw/colony_sim)_
 
 ### [Open Combat][OpenCombat_website]
 
-![OpenCombat completed HUD](OpenCobatDemo1_pre2.png)
+![OpenCombat completed HUD](opencombat.jpg)
 _Game HUD is now more complete_
 
 Open Combat ([Website][OpenCombat_website], [GitHub][OpenCombat_github],
