@@ -175,6 +175,18 @@ _Discussions: [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/14zr5
 [bevy-xpbd-post]: https://joonaa.dev/blog/03/bevy-xpbd-0-2-0
 [bevy-xpbd-changelog]: https://github.com/Jondolf/bevy_xpbd/releases/tag/v0.2.0
 
+### [Sparsey]
+
+[Sparsey] by [@LechintanTudor] is a fast and flexible Entity Component System
+based on sparse sets.
+
+The latest release, v0.11.0, improves the performance of adding and removing
+components from entities and adds new functions for running systems that only
+borrow data from one of `World`, `Resources` or `SyncResources`.
+
+[Sparsey]: https://github.com/LechintanTudor/sparsey
+[@LechintanTudor]: https://github.com/LechintanTudor
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
