@@ -129,6 +129,33 @@ Participate in Testing and Engage with CyberSoul: [on Discord][cybergate-dis].
 [cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
 [cybergate-dis]: https://discord.gg/R7DkHqw7zJ
 
+### [Way of Rhea][wor]
+
+[![Way of Rhea](wor-steamdeck.jpg)][wor]
+
+[Way of Rhea][wor] is a puzzle game with hard puzzles but forgiving
+mechanics being produced by [@masonremaley] in a custom Rust engine.
+You can support development by [checking out the free demo and wishlisting on Steam][wor]
+or [signing up for the mailing list][wor-mail]!
+
+Recent updates:
+
+- Way of Rhea now natively supports Linux, and Steam Deck! Mason released a
+  [writeup on the port here][wor-linux].
+- Way of Rhea was part of the [Cerebral Puzzle Showcase][wor-showcase].
+- Crash handling was improved, and the build process was simplified (necessary
+  for post-release support).
+  A fix was landed to [backtrace-rs][wor-backtrace-rs] as part of the
+  improved crash handling
+- Time controls were released as part of the updated demo.
+
+[@masonremaley]: https://twitter.com/masonremaley
+[wor]: https://store.steampowered.com/app/1110620/Way_of_Rhea/?utm_campaign=tmirgd&utm_source=n48
+[wor-mail]: https://anthropicstudios.com/newsletter/signup/tech
+[wor-showcase]: https://www.cerebralpuzzleshowcase.com
+[wor-linux]: https://www.anthropicstudios.com/2023/08/21/way-of-rhea-linux
+[wor-backtrace-rs]: https://github.com/rust-lang/backtrace-rs/pull/553
+
 ## Engine Updates
 
 ## Learning Material Updates
