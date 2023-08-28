@@ -176,6 +176,33 @@ _Discussions: [/r/rust](https://reddit.com/r/rust/comments/15d89s5/tinysnakers)_
 [tiny-snake.rs]: https://github.com/Rodrigodd/tiny-snake.rs
 [@Rodrigodd]: https://github.com/Rodrigodd
 
+### [8bit Duels][8bit-gh]
+
+![Screenshot featuring the new enemiy: the crow](8bit-duels-game.png)
+
+[8bit Duels][8bit-gh] ([Discord][8bit-dis]) is a turn-based strategy game made
+by [@ThousandthStar]. It has been in development for the past year,
+and the release is right around the corner!
+A new blog post along with a release Youtube video is coming soon
+on [this channel][8bit-yt].
+
+This month's update includes a completely remade user interface.
+The [devlog][8bit-devlog] covers the change from the [bevy_ui] crate
+to [belly], which provides a nice HTML-like syntax for building the UI.
+The last devlog post will address the re-implemented UI and the new troop: the Crow!
+
+The Crow, as seen in the screenshot above, is a hooded bird assassin with two daggers.
+It can attack twice per turn, dealing 2 damage each time. The Crow is the last of
+the five 8bit Duels characters.
+
+[@ThousandthStar]: https://github.com/ThousandthStar
+[8bit-gh]: https://github.com/ThousandthStar/8bit-duels
+[8bit-dis]: https://discord.com/invite/NbBcF4bGU5
+[8bit-yt]: https://youtube.com/channel/UCllwuaF9ac8sNni8v03GomQ
+[8bit-devlog]: https://thousandthstar.github.io/posts/8bd/8bd-part7
+[bevy_ui]: https://lib.rs/bevy_ui
+[belly]: https://github.com/jkb0o/belly
+
 ## Engine Updates
 
 ## Learning Material Updates
