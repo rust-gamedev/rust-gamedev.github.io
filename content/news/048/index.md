@@ -87,13 +87,14 @@ useful for all kinds of rapid prototyping & algorithm development.
 A few of the biggest highlights:
 
 - Pinhole logging is now easier to use in many cases.
-- The visualizer can now show coordinate arrows for all affine transforms within the view.
+- The visualizer can now show coordinate arrows for all affine transforms
+  within the view.
 - Users that build their own Viewer applications can now add fully custom Space Views.
 - New optional flush_timeout specifies how long Rerun will wait if a TCP stream
   is disconnected during a flush.
 - The `RecordingStream` now offers a stateful time API, similar to the Python APIs
-- Defaults to 8ms long microbatches instead of 50ms.
-  This makes the default behavior more suitable for use-cases like real-time video feeds.
+- Defaults to 8ms long microbatches instead of 50ms. This makes the default behavior
+  more suitable for use-cases like real-time video feeds.
 - The web viewer now incremental loads .rrd files when streaming over HTTP. #2412
 
 There's a growing community on [Discord][rerun-dis] waiting for you to join in
@@ -104,7 +105,7 @@ contribute for everyone, be it with suggestions, bugs or PRs.
 [rerun]: https://rerun.io
 [rerun-dis]: https://discord.gg/npTFxYR9
 [rerun-gh]: https://github.com/rerun-io/rerun
-[rerun-v0-8-0]: https://github.com/rerun-io/rerun/releases/tag/0.8.1
+[rerun-v0-8-0]: https://github.com/rerun-io/rerun/releases/tag/0.8.0
 [rerun-v0-8-1]: https://github.com/rerun-io/rerun/releases/tag/0.8.1
 
 ## Library Updates
