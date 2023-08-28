@@ -67,32 +67,32 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
-### [8bit Duels]
+### [8bit Duels][8bit-gh]
 
-![An image of an 8bit Duels game](8bit-duels-game.png)
-_A picture of an 8bit Duels game_
+![Screenshot featuring the new enemiy: the crow](8bit-duels-game.png)
 
-[8bit Duels] is a turn-based strategy game made by [ThousandthStar]. It has been
-in development for the past year, and the release is right around the corner!
-A new blog post along with a release Youtube video is coming soon on [this channel].
+[8bit Duels][8bit-gh] ([Discord][8bit-dis]) is a turn-based strategy game made
+by [@ThousandthStar]. It has been in development for the past year,
+and the release is right around the corner!
+A new blog post along with a release Youtube video is coming soon
+on [this channel][8bit-yt].
 
-This month's update includes a completely remade user interface. The [devlog] I
-made covers my change from the `bevy_ui` crate to the `belly` crate, which provides
-a nice `html`-like syntax for building the UI. My last devlog post will address the
-re-implemented UI and the new troop: the Crow!
+This month's update includes a completely remade user interface.
+The [devlog][8bit-devlog] covers the change from the [bevy_ui] crate
+to [belly], which provides a nice HTML-like syntax for building the UI.
+The last devlog post will address the re-implemented UI and the new troop: the Crow!
 
 The Crow, as seen in the screenshot above, is a hooded bird assassin with two daggers.
 It can attack twice per turn, dealing 2 damage each time. The Crow is the last of
 the five 8bit Duels characters.
 
-_Discussions:
-[Discord Server]_
-
-[8bit Duels]: https://github.com/ThousandthStar/8bit-duels
-[Discord Server]: https://discord.com/invite/NbBcF4bGU5
-[ThousandthStar]: https://github.com/ThousandthStar
-[this channel]: https://www.youtube.com/channel/UCllwuaF9ac8sNni8v03GomQ
-[devlog]: https://thousandthstar.github.io/posts/8bd/8bd-part7/
+[@ThousandthStar]: https://github.com/ThousandthStar
+[8bit-gh]: https://github.com/ThousandthStar/8bit-duels
+[8bit-dis]: https://discord.com/invite/NbBcF4bGU5
+[8bit-yt]: https://youtube.com/channel/UCllwuaF9ac8sNni8v03GomQ
+[8bit-devlog]: https://thousandthstar.github.io/posts/8bd/8bd-part7
+[bevy_ui]: https://lib.rs/bevy_ui
+[belly]: https://github.com/jkb0o/belly
 
 ## Engine Updates
 
