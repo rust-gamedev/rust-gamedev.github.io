@@ -156,6 +156,26 @@ Recent updates:
 [wor-linux]: https://www.anthropicstudios.com/2023/08/21/way-of-rhea-linux
 [wor-backtrace-rs]: https://github.com/rust-lang/backtrace-rs/pull/553
 
+### [tiny-snake.rs]
+
+![tiny-snake.rs running in the terminal](tiny_snake.gif)
+
+[tiny-snake.rs] by [@Rodrigodd] is a terminal snake game, with a minimal binary
+size.
+
+The entire game is implemented in a single file of pure Rust code, with zero
+dependencies. All interactions with the system are done through raw syscalls
+(so it only runs on Linux, sorry) and the program is completely panic-free
+(panic handling increases the binary size by almost 4KiB).
+
+The game can be compiled using a single `rustc` command, and the resulting
+binary is only 2760 bytes.
+
+_Discussions: [/r/rust](https://reddit.com/r/rust/comments/15d89s5/tinysnakers)_
+
+[tiny-snake.rs]: https://github.com/Rodrigodd/tiny-snake.rs
+[@Rodrigodd]: https://github.com/Rodrigodd
+
 ## Engine Updates
 
 ## Learning Material Updates
