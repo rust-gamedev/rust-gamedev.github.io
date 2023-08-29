@@ -77,26 +77,27 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [Hanabi]
 
+![Glowing particles circling and raising up](hanabi.gif)
+_Hanabi effect entirely simulated on GPU thanks to the new Expression API of v0.7_
+
 The [Hanabi] library ([GitHub][hanabi-github], [docs.rs][hanabi-docs]) is a
-modern VFX library for the [Bevy Game Engine][bevy]. It focuses on scale to produce
+modern VFX library for the [Bevy game engine][bevy]. It focuses on scale to produce
 stunning visual effects (VFX) in real time, offloading most of the work to
 the GPU (compute shaders), with minimal CPU intervention. The design is inspired
 by modern particle systems found in other industry-leading game engines.
 
 This month, [Hanabi] saw its biggest release so far.
 Version 0.7 of Hanabi not only brings support for Bevy 0.11,
-but also adds a whole new **Expression API**
+but also adds a whole new Expression API
 to provide a new level of customizing for VFX authors.
 With expressions, developers can combine simple building blocks
 like simulation parameters (`time`, `delta_time`),
-_effect properties_ (user-defined variables controlled from CPU),
+effect properties (user-defined variables controlled from CPU),
 and math operators (`add`, `mul`, `cos`, ...),
 to directly modify each attribute of a particle (position, velocity, ...)
 and form complex behaviors with complete control.
 The expression API complements and extends the existing `Modifier`-based workflow
 to achieve even more complex effects.
-
-![Hanabi effect entirely simulated on GPU thanks to the new Expression API of v0.7](https://raw.githubusercontent.com/djeedai/bevy_hanabi/e8d1431a9641b8865819a4b851e46ee03ffda070/examples/expr.gif)
 
 This release also marks a major stepping stone
 toward the ability to build a visual editor (node graph)
@@ -110,7 +111,7 @@ See the [CHANGELOG][hanabi-changelog] for all details.
 [Hanabi]: https://crates.io/crates/bevy_hanabi
 [hanabi-github]: https://github.com/djeedai/bevy_hanabi
 [hanabi-docs]: https://github.com/djeedai/bevy_hanabi
-[bevy]: https://bevyengine.org/
+[bevy]: https://bevyengine.org
 [hanabi-changelog]: https://github.com/djeedai/bevy_hanabi/blob/v0.7.0/CHANGELOG.md
 
 ## Popular Workgroup Issues in Github
