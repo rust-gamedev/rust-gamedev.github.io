@@ -271,6 +271,21 @@ _Discussions:
 
 ## Learning Material Updates
 
+### Mobile development with Bevy
+
+[@Nikl][nikl] spent some time developing a mobile game using Bevy and
+documented findings on his [blog][nikls-blog]. [A first post][android-bevy-post]
+contains notes on general project setup and some Android specific solutions.
+
+GitHub workflows were created for automatic builds.
+[A guide on how to set up an iOS workflow][ios-workflow] was released at
+the end of July.
+
+[nikl]: https://mastodon.online/@nikl_me
+[nikls-blog]: https://www.nikl.me/
+[android-bevy-post]: https://www.nikl.me/blog/2023/notes_on_android_development_using_bevy/
+[ios-workflow]: https://www.nikl.me/blog/2023/github_workflow_to_publish_ios_app/
+
 ## Tooling Updates
 
 ### [Rerun][rerun]
