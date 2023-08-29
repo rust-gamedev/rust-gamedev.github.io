@@ -203,6 +203,34 @@ the five 8bit Duels characters.
 [bevy_ui]: https://lib.rs/bevy_ui
 [belly]: https://github.com/jkb0o/belly
 
+### [Ant Colony Simulation][antsim]
+
+![TODO: better desc](bevy-ants-simulation.png)
+
+[Ant Colony Simulation][antsim] depicts an ant colony where the ants
+have a simple task: to find food and bring it back to the colony.
+To achieve this goal, they use signals called pheromones.
+These pheromone signals guide the ants to the food source and back to their colony.
+
+[@BonesaiDev][bonesai-yt] released a couple of videos about the project:
+
+- [An overall explanation][antsim-vid-expl] of how it works.
+- [A timelapse][antsim-vid-timelapse] of ant colony at 5x speed.
+- [2D Bloom showcase timelapse][antsim-vid-timelapse-bloom] with 1k ants.
+
+The project is written using Bevy.
+You can find the source code [on GitHub][antsim].
+
+Follow [@BonesaiDev on Twitter][bonesai-twi] or on [YouTube][bonesai-yt]
+to receive future updates about this and their other AI simulation projects.
+
+[antsim]: https://github.com/bones-ai/rust-ants-colony-simulation
+[antsim-vid-expl]: https://youtu.be/98pUSZAM_7M
+[antsim-vid-timelapse]: https://youtu.be/5xdfTJBMnwI
+[antsim-vid-timelapse-bloom]: https://youtu.be/Z4IRY_LKtt8
+[bonesai-twi]: https://twitter.com/BonesaiDev
+[bonesai-yt]: https://youtube.com/@bonesai-dev
+
 ## Engine Updates
 
 ### [Bevy v0.11][bevy_news]
