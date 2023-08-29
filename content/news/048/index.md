@@ -67,26 +67,33 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Ant Colony Simulation][antsim]
 
-![ant-simulation](bevy-ants-simulation.png)
-_Ant colony simulation using Bevy_
+![TODO: better desc](bevy-ants-simulation.png)
 
-This is an [Ant Colony Simulation] written in Rust in bevy game engine.
+[Ant Colony Simulation][antsim] depicts an ant colony where the ants
+have a simple task: to find food and bring it back to the colony.
+To achieve this goal, they use signals called pheromones.
+These pheromone signals guide the ants to the food source and back to their colony.
 
-The simulation depicts an ant colony where the ants have a simple task: to find food and bring it back to the colony. To achieve this goal, they use signals called pheromones. These pheromone signals guide the ants to the food source and back to their colony. 
+[@BonesaiDev][bonesai-yt] released a couple of videos about the project:
 
-Links:
-- [Video] explaining how it works
-- [Timelapse] of ant colony at 5x speed
-- [2D Bloom] showcase timelapse with a 1k ants
-- I post updates about this project and other projects regularly on my [Twitter] and the code to all my projects is on my [Github]
+- [An overall explanation][antsim-vid-expl] of how it works.
+- [A timelapse][antsim-vid-timelapse] of ant colony at 5x speed.
+- [2D Bloom showcase timelapse][antsim-vid-timelapse-bloom] with 1k ants.
 
-[Ant Colony Simulation]: https://github.com/bones-ai/rust-ants-colony-simulation
-[Video]: https://youtu.be/98pUSZAM_7M
-[Timelapse]: https://youtu.be/5xdfTJBMnwI
-[2D Bloom]: https://youtu.be/Z4IRY_LKtt8
-[Twitter]: https://twitter.com/BonesaiDev
-[Github]: https://github.com/bones-ai
+The project is written using Bevy.
+You can find the source code [on GitHub][antsim].
+
+Follow [@BonesaiDev on Twitter][bonesai-twi] or on [YouTube][bonesai-yt]
+to receive future updates about this and their other AI simulation projects.
+
+[antsim]: https://github.com/bones-ai/rust-ants-colony-simulation
+[antsim-vid-expl]: https://youtu.be/98pUSZAM_7M
+[antsim-vid-timelapse]: https://youtu.be/5xdfTJBMnwI
+[antsim-vid-timelapse-bloom]: https://youtu.be/Z4IRY_LKtt8
+[bonesai-twi]: https://twitter.com/BonesaiDev
+[bonesai-yt]: https://youtube.com/@bonesai-dev
 
 ## Engine Updates
 
