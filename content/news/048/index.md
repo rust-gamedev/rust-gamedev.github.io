@@ -231,6 +231,43 @@ to receive future updates about this and their other AI simulation projects.
 [bonesai-twi]: https://twitter.com/BonesaiDev
 [bonesai-yt]: https://youtube.com/@bonesai-dev
 
+### [Veloren][veloren]
+
+![Veloren visual comparison](veloren.jpg)
+_The 0.15 release party map_
+
+[Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.
+
+In July, Veloren released version 0.15! You can read about the release in the
+[0.15 blog post][veloren-0-15], and watch the [release party
+trailer][veloren-0-15-trailer]. Here are some of the changes in this release:
+
+- Our first world boss, the 'frost giga': seek him out if you dare!
+- A new dungeon: Adlet caves
+- Airships can now be used by players
+- Enemy loot is now shared between players
+- A reputation system: if you commit crimes, NPCs will remember it!
+- Improved AI: NPCs will talk to players and each other about events in the
+  world
+- Much richer world simulation: NPCs will migrate and pass on rumours
+- You can now choose your character's starting town
+- A durability and repair system
+- Improved accessibility, performance, bug fixes, and much, much more!
+
+Work over July includes TCP receive buffer increase, spawn tab completion, loot
+changes, translation updates, dwarven quarry ⛏️ (still inactive in game),
+coastal town, desert city fixes, CI optimization, and shorter item count texts.
+Work is going on to add a web-based translation tool for Veloren.
+
+July's full weekly devlogs: "This Week In Veloren...": [#213][veloren-213], [#214][veloren-214].
+
+[veloren]: https://veloren.net
+[veloren-0-15]: https://veloren.net/release-0-15/
+[veloren-213]: https://veloren.net/devblog-213
+[veloren-214]: https://veloren.net/devblog-214
+[veloren-0-15-trailer]: https://www.youtube.com/watch?v=weIK41W3tX0
+
 ## Engine Updates
 
 ### [Bevy v0.11][bevy_news]
