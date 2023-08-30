@@ -452,6 +452,15 @@ See the [CHANGELOG][hanabi-changelog] for all details.
 
 <!-- One-liners for plan items that haven't got their own sections. -->
 
+- Other engine updates:
+  - [godot-rs now supports Godot 4.1][godot-rs-4-1].
+  - [ggez v0.9][ggez-v0-9] mostly brings slight API tweaks and bugfixes.
+    The devs also shared their plans for ggez v10: 3d support, async asset loading,
+    and coroutines.
+
+[godot-rs-4-1]: https://mastodon.gamedev.place/@GodotRust/110669301088668526
+[ggez-v0-9]: https://reddit.com/r/rust_gamedev/comments/14v6x3z/ggez_news_0_9
+
 ## Discussions
 
 <!-- Links to handpicked reddit/twitter/urlo/etc threads that provide
