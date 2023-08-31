@@ -231,6 +231,27 @@ to receive future updates about this and their other AI simulation projects.
 [bonesai-twi]: https://twitter.com/BonesaiDev
 [bonesai-yt]: https://youtube.com/@bonesai-dev
 
+## [Cargo Space]
+
+![Screenshot of an astronaut in front of stars and two galaxies](cargo_space.png)
+
+[Cargo Space] ([Discord][cargospace_discord]) by
+[@johanhelsing][johanhelsing_mastodon] is a co-op 2d space game where you build
+a ship and fly it through space looking for new parts, fighting pirates and the
+environment.
+
+This months development was all about making endless procedurally generated
+parallaxing space backgrounds, choosing an appropriate rng crate, and making the
+implementation seedable and cross-platform deterministic.
+
+Johan's [devlog entry][cargospace_devlog_7] explains all this in detail, as well
+as how distant parallax can be an immersive replacement for ui and minimaps.
+
+[Cargo Space]: https://helsing.studio/cargospace
+[johanhelsing_mastodon]: https://mastodon.social/@johanhelsing
+[cargospace_discord]: https://discord.gg/ye9UDNvqQD
+[cargospace_devlog_7]: https://johanhelsing.studio/posts/cargo-space-devlog-7
+
 ## Engine Updates
 
 ### [Bevy v0.11][bevy_news]
