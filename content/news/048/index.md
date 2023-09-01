@@ -314,6 +314,36 @@ _Discussions:
 [bevy_news]: https://bevyengine.org/news/bevy-0-11
 [bevy_repo]: https://github.com/bevyengine/bevy
 
+### [Fyrox][fyrox]
+
+![GIF showing focusing camera on object in the editor](fyrox-camera.gif)
+
+[Fyrox][fyrox] ([GitHub][fyrox-src], [Discord][fyrox-dis], [Twitter][fyrox-twi])
+is a game engine that aims to be easy to use and provide a large set
+of out-of-the-box features.
+
+This month [Fyrox v0.31 was released][fyrox-v0-31]. Highlights include:
+
+- A huge bunch of editor improvements like
+  the ability to create custom editor plugins,
+  ability to open multiple scenes,
+  saving/loading docking manager layout,
+  and separate panel for camera preview.
+- Inverter node for AI behaviour trees.
+- 9-slice image widget.
+- Lots of [API docs][fyrox-docs] and [the book][fyrox-book] improvements,
+  mostly related to UI stuff.
+
+_Discussions: [/r/rust](https://reddit.com/r/rust/comments/156pq0g/fyrox_0_31)_
+
+[fyrox]: https://fyrox.rs
+[fyrox-src]: https://github.com/FyroxEngine/Fyrox
+[fyrox-dis]: https://discord.com/invite/xENF5Uh
+[fyrox-twi]: https://twitter.com/DmitryNStepanov
+[fyrox-v0-31]: https://fyrox.rs/blog/post/fyrox-game-engine-0-31
+[fyrox-book]: https://fyrox-book.github.io
+[fyrox-docs]: https://docs.rs/fyrox
+
 ## Learning Material Updates
 
 ### Mobile development with Bevy
@@ -466,6 +496,15 @@ See the [CHANGELOG][hanabi-changelog] for all details.
 ## Other News
 
 <!-- One-liners for plan items that haven't got their own sections. -->
+
+- Other engine updates:
+  - [godot-rs now supports Godot 4.1][godot-rs-4-1].
+  - [ggez v0.9][ggez-v0-9] mostly brings slight API tweaks and bugfixes.
+    The devs also shared their plans for ggez v10: 3d support, async asset loading,
+    and coroutines.
+
+[godot-rs-4-1]: https://mastodon.gamedev.place/@GodotRust/110669301088668526
+[ggez-v0-9]: https://reddit.com/r/rust_gamedev/comments/14v6x3z/ggez_news_0_9
 
 ## Discussions
 
