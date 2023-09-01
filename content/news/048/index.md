@@ -65,6 +65,30 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Announcements
 
+### [Rust GameDev Meetup \#29][meetup-video]
+
+[![YouTube preview: "Blade: Advanced Pipeline" slide
+showing a texture diagram](meetup.jpg)][meetup-video]
+
+The 29th Rust Gamedev Meetup took place in July.
+You can watch the recording of the meetup [here on YouTube][meetup-video].
+The schedule:
+
+- [Blade](https://youtu.be/47wamZL5IFw?t=10m15s) by [@kvark]
+- [Graphite](https://youtu.be/47wamZL5IFw?t=32m48s) by [@Keavon]
+- [Veloren](https://youtu.be/47wamZL5IFw?t=41m27s) by [@AngelOnFira]
+
+The meetups take place on the second Saturday of every month
+via the [Rust Gamedev Discord server][rust-gamedev-discord]
+and are also [streamed on Twitch][rust-gamedev-twitch].
+
+[rust-gamedev-discord]: https://discord.gg/yNtPTb2
+[rust-gamedev-twitch]: https://twitch.tv/rustgamedev
+[meetup-video]: https://youtu.be/47wamZL5IFw
+[@kvark]: https://github.com/kvark
+[@Keavon]: https://github.com/Keavon
+[@AngelOnFira]: https://github.com/AngelOnFira
+
 ## Game Updates
 
 ### [Colony]
@@ -231,6 +255,27 @@ to receive future updates about this and their other AI simulation projects.
 [bonesai-twi]: https://twitter.com/BonesaiDev
 [bonesai-yt]: https://youtube.com/@bonesai-dev
 
+## [Cargo Space]
+
+![Screenshot of an astronaut in front of stars and two galaxies](cargo_space.png)
+
+[Cargo Space] ([Discord][cargospace_discord]) by
+[@johanhelsing][johanhelsing_mastodon] is a co-op 2d space game where you build
+a ship and fly it through space looking for new parts, fighting pirates and the
+environment.
+
+This months development was all about making endless procedurally generated
+parallaxing space backgrounds, choosing an appropriate rng crate, and making the
+implementation seedable and cross-platform deterministic.
+
+Johan's [devlog entry][cargospace_devlog_7] explains all this in detail, as well
+as how distant parallax can be an immersive replacement for ui and minimaps.
+
+[Cargo Space]: https://helsing.studio/cargospace
+[johanhelsing_mastodon]: https://mastodon.social/@johanhelsing
+[cargospace_discord]: https://discord.gg/ye9UDNvqQD
+[cargospace_devlog_7]: https://johanhelsing.studio/posts/cargo-space-devlog-7
+
 ### [Veloren][veloren]
 
 ![Veloren visual comparison](veloren.jpg)
@@ -305,6 +350,36 @@ _Discussions:
 [bevy_engine]: https://bevyengine.org
 [bevy_news]: https://bevyengine.org/news/bevy-0-11
 [bevy_repo]: https://github.com/bevyengine/bevy
+
+### [Fyrox][fyrox]
+
+![GIF showing focusing camera on object in the editor](fyrox-camera.gif)
+
+[Fyrox][fyrox] ([GitHub][fyrox-src], [Discord][fyrox-dis], [Twitter][fyrox-twi])
+is a game engine that aims to be easy to use and provide a large set
+of out-of-the-box features.
+
+This month [Fyrox v0.31 was released][fyrox-v0-31]. Highlights include:
+
+- A huge bunch of editor improvements like
+  the ability to create custom editor plugins,
+  ability to open multiple scenes,
+  saving/loading docking manager layout,
+  and separate panel for camera preview.
+- Inverter node for AI behaviour trees.
+- 9-slice image widget.
+- Lots of [API docs][fyrox-docs] and [the book][fyrox-book] improvements,
+  mostly related to UI stuff.
+
+_Discussions: [/r/rust](https://reddit.com/r/rust/comments/156pq0g/fyrox_0_31)_
+
+[fyrox]: https://fyrox.rs
+[fyrox-src]: https://github.com/FyroxEngine/Fyrox
+[fyrox-dis]: https://discord.com/invite/xENF5Uh
+[fyrox-twi]: https://twitter.com/DmitryNStepanov
+[fyrox-v0-31]: https://fyrox.rs/blog/post/fyrox-game-engine-0-31
+[fyrox-book]: https://fyrox-book.github.io
+[fyrox-docs]: https://docs.rs/fyrox
 
 ## Learning Material Updates
 
@@ -458,6 +533,15 @@ See the [CHANGELOG][hanabi-changelog] for all details.
 ## Other News
 
 <!-- One-liners for plan items that haven't got their own sections. -->
+
+- Other engine updates:
+  - [godot-rs now supports Godot 4.1][godot-rs-4-1].
+  - [ggez v0.9][ggez-v0-9] mostly brings slight API tweaks and bugfixes.
+    The devs also shared their plans for ggez v10: 3d support, async asset loading,
+    and coroutines.
+
+[godot-rs-4-1]: https://mastodon.gamedev.place/@GodotRust/110669301088668526
+[ggez-v0-9]: https://reddit.com/r/rust_gamedev/comments/14v6x3z/ggez_news_0_9
 
 ## Discussions
 
