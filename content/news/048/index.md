@@ -65,6 +65,30 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Announcements
 
+### [Rust GameDev Meetup \#29][meetup-video]
+
+[![YouTube preview: "Blade: Advanced Pipeline" slide
+showing a texture diagram](meetup.jpg)][meetup-video]
+
+The 29th Rust Gamedev Meetup took place in July.
+You can watch the recording of the meetup [here on YouTube][meetup-video].
+The schedule:
+
+- [Blade](https://youtu.be/47wamZL5IFw?t=10m15s) by [@kvark]
+- [Graphite](https://youtu.be/47wamZL5IFw?t=32m48s) by [@Keavon]
+- [Veloren](https://youtu.be/47wamZL5IFw?t=41m27s) by [@AngelOnFira]
+
+The meetups take place on the second Saturday of every month
+via the [Rust Gamedev Discord server][rust-gamedev-discord]
+and are also [streamed on Twitch][rust-gamedev-twitch].
+
+[rust-gamedev-discord]: https://discord.gg/yNtPTb2
+[rust-gamedev-twitch]: https://twitch.tv/rustgamedev
+[meetup-video]: https://youtu.be/47wamZL5IFw
+[@kvark]: https://github.com/kvark
+[@Keavon]: https://github.com/Keavon
+[@AngelOnFira]: https://github.com/AngelOnFira
+
 ## Game Updates
 
 ### [Colony]
