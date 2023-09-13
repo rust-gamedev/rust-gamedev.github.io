@@ -69,6 +69,26 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Engine Updates
 
+### goku game engine
+[goku game engine] ([GitHub](https://github.com/ladroid/goku)) by [@ladroid](https://github.com/ladroid) crafted entirely in Rust and backed by SDL2. Currently compatible with Windows and WASM, and featuring multi-language support (Spanish, French, German, Japanese).
+
+Quick Peek:
+
+- SpriteSheet & Animated Textures
+- TextureManager & GameObject
+- Tile System & Particle Effects
+- UI Layer & Audio
+- AI & Window System
+- Visual Treats
+- Timing
+
+Also, a GUI interface is still under development, though it's in its budding stages.
+
+_Discussions: [/r/rust](https://reddit.com/r/rust/comments/165luwu/introducing_goku_engine)_
+
+[goku]: https://github.com/ladroid/goku
+[@ladroid]: https://github.com/ladroid
+
 ## Learning Material Updates
 
 ## Tooling Updates
