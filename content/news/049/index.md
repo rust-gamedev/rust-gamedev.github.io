@@ -71,6 +71,18 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Learning Material Updates
 
+### [Failing to build P2P Multiplayer Pong with Bevy][chrisbiscardi-vid1]
+
+[![multiplayer-pong](multiplayer-pong-fail.jpg)][chrisbiscardi-vid1]
+_Failing to build P2P Multiplayer Pong with Bevy_
+
+[@chrisbiscardi] published a [video][chrisbiscardi-vid1] covering P2P multiplayer games with rollback networking *and* physics. This video dives into what makes it difficult and what parts work out of the box before identifying better potential paths to take in the future.
+
+_Discussions: [Mastodon](https://hachyderm.io/@chrisbiscardi/110934091254135119)_
+
+[chrisbiscardi-vid1]: https://youtube.com/watch?v=wpx9qhKEuP8
+[@chrisbiscardi]: https://twitter.com/chrisbiscardi
+
 ## Tooling Updates
 
 ## Library Updates
