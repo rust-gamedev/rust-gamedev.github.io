@@ -75,6 +75,13 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library Updates
 
+### Dexterous Developer
+
+Dexterous Developer ([GitHub](https://github.com/lee-orr/dexterous_developer)) by [@lee-orr](https://github.com/lee-orr)
+is an experimental hot-reload system for the [Bevy](bevyengine.org/) game engine.
+
+This month saw the first public release of Dexterous Developer, which provides the capacity to hot-reload systems, components & resources in a Bevy game, as well as a CLI allowing for cross-device, cross-platform hot reloaded code, allowing for development inside dev containers.
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
