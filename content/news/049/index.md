@@ -67,6 +67,36 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Graviton - The Great Sand Simulator](http://s.team/a/2137280)
+
+![Graviton Sand Simulator Image](graviton.gif)
+
+[Graviton - The Great Sand Simulator](https://www.gravitongame.art/)
+([Discord](https://discord.gg/3MyPaDagsd),
+[Youtube](https://www.youtube.com/watch?v=X_O90KyEt8o)) by
+[@hakolao](https://github.com/hakolao/)
+is a falling sand simulator in which you can define your own interactive
+sand rules.
+
+It is the developer's exploration project into GPU sand simulation.
+Recently, the app has been taken to another level with a complete rewrite.
+Now, with some [training](https://docs.gravitongame.art/Tutorial),
+you can program your own rules for the sand.
+Many example sands are provided from acid and blood to the classic
+Game of Life.
+
+Recent updates include:
+- Customizable sand with programmable rules
+- [Shape & Mirror Draw Modes](https://www.youtube.com/watch?v=cOPy4Shqn8U)
+- New UI, graphics and render modes
+- Gif and Image export
+- Image import
+
+You can support the development by purchasing or wishlisting on
+[steam](http://s.team/a/2137280). Join [Discord](https://discord.gg/3MyPaDagsd)
+and follow [@hakolao on youtube](https://www.youtube.com/@Okko1990) to
+stay up do date with the development.
+
 ## Engine Updates
 
 ## Learning Material Updates
