@@ -78,8 +78,8 @@ If needed, a section can be split into subsections with a "------" delimiter.
 is a falling sand simulator in which you can define your own interactive
 sand rules.
 
-It is the developer's exploration project into GPU sand simulation.
-Recently, the app has been taken to another level with a complete rewrite.
+Continuing the developer's exploration into GPU sand simulation
+the app has been recently taken to another level with a complete rewrite.
 Now, with some [training](https://docs.gravitongame.art/Tutorial),
 you can program your own rules for the sand.
 Many example sands are provided from acid and blood to the classic
