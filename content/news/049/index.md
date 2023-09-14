@@ -86,6 +86,7 @@ Many example sands are provided from acid and blood to the classic
 Game of Life.
 
 Recent updates include:
+
 - Customizable sand with programmable rules
 - [Shape & Mirror Draw Modes](https://www.youtube.com/watch?v=cOPy4Shqn8U)
 - New UI, graphics and render modes
