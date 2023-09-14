@@ -67,6 +67,28 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Tunnet][tunnet-itch]
+
+![Tunnet screenshot showcasing the recent visual enhancements](tunnet.jpg)
+
+Tunnet ([Steam][tunnet-steam], [itch.io][tunnet-itch]) is an upcoming short
+puzzle/exploration game about digging tunnels and building computer networks.
+
+In August, [a new version of the demo build has been released][tunnet-post].
+Here are the most notable updates:
+
+- The game is now better optimized to run smoothly on the Steam Deck.
+- Some of the textures have been revamped and are now slightly more detailed.
+- The animations of the character portraits have been improved.
+- Several minor quality of life improvements like the ability to sprint have
+  been made.
+- A basic egui-based crash reporter will now be displayed when the game process
+  ends unexpectedly.
+
+[tunnet-itch]: https://puzzled-squid.itch.io/tunnet
+[tunnet-steam]: https://store.steampowered.com/app/2286390/Tunnet
+[tunnet-post]: https://puzzled-squid.itch.io/tunnet/devlog/580255/devlog-2-optimizations
+
 ## Engine Updates
 
 ## Learning Material Updates
