@@ -82,7 +82,7 @@ that simplifies level and object template creation. Here are its key features:
 
 
 1. Intuitive UI is built on top of bevy-inspector-egui and egui-gizmo 
-   to easy objects position manipulate
+   to easy objects manipulate
 2. It supports the bevy_xpbd physics library, 
    making customizing collider positions faster than ever.
 3. Run your levels directly from the editor. 
