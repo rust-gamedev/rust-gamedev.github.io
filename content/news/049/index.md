@@ -73,11 +73,11 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Tooling Updates
 
-### [Space editor][space_editor]
+### [Space editor](space_editor)
 
 ![Space editor window with opened level](space_editor.png)
 
-[Space editor][space editor] is an editor designed for Bevy engine
+[Space editor](space_editor) is an editor designed for Bevy engine
 that simplifies level and object template creation. Here are its key features:
 
 
@@ -92,9 +92,10 @@ that simplifies level and object template creation. Here are its key features:
 5. Many custom structures that allow to customize saved scenes 
    equally conveniently, both via gui and directly editing the saved text file
 
-The [Github project][https://github.com/rewin123/space_editor] is free for use 
+The [Github project](https://github.com/rewin123/space_editor) is free for use 
 and open to contribute for everyone, be it with suggestions, bugs or PRs.
-[Space editor]: https://github.com/rewin123/space_editor
+
+Link to project: https://github.com/rewin123/space_editor
 
 
 
