@@ -67,6 +67,38 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### Ars Militaris
+
+![Ars Militaris Logo](https://arsmilitaris.com/arsmilitaris_logo.png)
+
+Ars Militaris ([GitHub](https://github.com/arsmilitaris), [Discord](https://discord.gg/cdNDQsstgq), [Twitter](https://twitter.com/ArsMilitarisDev)) by @arsmilitaris
+is a Turn-based Tactics game set in the Ancient Rome era,
+being developed with Bevy Engine.
+
+August saw some nice developments that occurred in both the
+digital and board game version of Ars Militaris. You can
+read about them in issues VI through IX of This Week in Ars
+Militaris ([VI](https://arsmilitaris.com/#this-week-in-ars-militaris-vi), [VII](https://arsmilitaris.com/#this-week-in-ars-militaris-vii), [VIII](https://arsmilitaris.com/#this-week-in-ars-militaris-viii), [IX](https://arsmilitaris.com/#this-week-in-ars-militaris-ix)).
+
+The most noticeable improvements in the digital version were
+the updating of the multiplayer aspect to be on par with the
+single-player aspect, and then also the development of the 
+[Ars Militaris Lobby](https://arsmilitaris.com/#ars-militaris-lobby).
+
+In the board game version, development started on a new
+scenario that will serve as our main product for the Ars
+Militaris board game version, and much playtesting with
+very positive results occurred [(Ars Militaris Event III)](https://arsmilitaris.com/#ars-militaris-event-iii)
+and [(Ars Militaris Event IV)](https://arsmilitaris.com/#ars-militaris-event-iv).
+
+But then, the result of a somewhat intensive 3-month
+sprint left the Lead Developer exhausted which brought
+the project to a temporary pause. 
+
+Discussions: [/r/arsmilitaris](https://www.reddit.com/r/arsmilitaris/)
+
+Ars Militaris: https://arsmilitaris.com
+
 ## Engine Updates
 
 ## Learning Material Updates
