@@ -67,6 +67,28 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### Oort
+
+![A fleet of ships in Oort](oort.png)
+
+[Oort] ([GitHub], [Discord]) by [@rlane](https://github.com/rlane) is a programming
+game where you write Rust code to control space ships in combat against other
+players. Your code needs to manage the thrusters, guns, missiles, comms, and
+radar of each ship in your fleet. There's a series of tutorials where you can
+solve key problems one by one, such as leading moving targets or missile
+guidance. The game runs in your browser via WebAssembly.
+
+Oort has started running weekly tournaments and the AIs have gotten more and more
+sophisticated each time. Check out this recent [tournament
+writeup](https://github.com/rlane/oort3/wiki/Tournament-Writeup-2023%E2%80%9009%E2%80%9011)
+where the top players discuss their strategies.
+
+Discussions: [r/rust](https://www.reddit.com/r/rust/comments/167qyn0/oort_a_space_fleet_programming_game/)
+
+[Oort]: https://oort.rs
+[GitHub]: https://github.com/rlane/oort3
+[Discord]: https://discord.gg/vYyu9EhkKH
+
 ## Engine Updates
 
 ## Learning Material Updates
