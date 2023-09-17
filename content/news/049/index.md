@@ -75,6 +75,16 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library Updates
 
+### [nanogltf]
+
+![gl2+/metal gltf viewer](helmet.gif)
+
+Nanogltf is a `nanoserde` based gltf loader, with a GIF recorded from
+a gl2+/metal gltf [viewer] example.
+
+[nanogltf]: https://github.com/not-fl3/nanogltf
+[viewer]: https://github.com/not-fl3/nanogltf/tree/master/examples/viewer
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
