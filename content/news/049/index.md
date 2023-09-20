@@ -92,7 +92,7 @@ Gameplay Changes:
 - Characters remain active despite client closure.
 - Saved player inventory, achievements, and settings.
 
-For deeper insights, join us [on Discord][cybergate-dis].
+For deeper insights, join the [Discord][cybergate-dis].
 
 [cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
 [cybergate-dis]: https://discord.gg/R7DkHqw7zJ
