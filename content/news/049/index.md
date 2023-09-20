@@ -67,6 +67,36 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [CyberGate][cybergate-yt]
+
+![2 windows control the same pawn simultaneously](cybergate.gif)
+_2 windows control the same pawn simultaneously_
+
+CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]),
+CyberSoul is developing an ambitious multiplayer project,
+utilizing procedural generation and AI to offer a dynamic universe.
+
+CyberGate's August updates are:
+
+Tech:
+- Complete game framework overhaul.
+- Addressed engine limitations.
+- Upgraded game tools and utilities.
+- Introduced Cosmos APIs for universe management.
+- Redesigned privacy mechanisms.
+- New character authentication system.
+- Persistent player data.
+- Player Accounts: Login, Register, Verify, Guests.
+
+Gameplay:
+- Characters remain active despite client closure.
+- Saved player inventory, achievements, and settings.
+
+For deeper insights, join us [on Discord][cybergate-dis].
+
+[cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
+[cybergate-dis]: https://discord.gg/R7DkHqw7zJ
+
 ## Engine Updates
 
 ## Learning Material Updates
