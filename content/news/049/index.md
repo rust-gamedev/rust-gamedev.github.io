@@ -76,9 +76,8 @@ CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]),
 CyberSoul is developing an ambitious multiplayer project,
 utilizing procedural generation and AI to offer a dynamic universe.
 
-CyberGate's August updates are:
+Tech Progress:
 
-Tech:
 - Complete game framework overhaul.
 - Addressed engine limitations.
 - Upgraded game tools and utilities.
@@ -88,7 +87,8 @@ Tech:
 - Persistent player data.
 - Player Accounts: Login, Register, Verify, Guests.
 
-Gameplay:
+Gameplay Changes:
+
 - Characters remain active despite client closure.
 - Saved player inventory, achievements, and settings.
 
