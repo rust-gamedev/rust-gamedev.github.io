@@ -59,8 +59,8 @@ Twitch][rust-gamedev-twitch].
 
 ![no_std: ?no_problem](no-std.png)
 
-> A brief introduction to `no_std` in Rust, and how you can use it in your
-> projects.
+> An introduction to making your Rust crates `no_std` compatible, and
+> why you might want to do this.
 
 **Links:**
 
