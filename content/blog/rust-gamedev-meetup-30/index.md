@@ -26,7 +26,7 @@ Twitch][rust-gamedev-twitch].
 
 ## Talks
 
-### Blue Engine | [@ElhamAryanpur]
+### [Blue Engine] | [@ElhamAryanpur]
 
 ![Blue engine](blue-engine.png)
 
@@ -41,7 +41,7 @@ Twitch][rust-gamedev-twitch].
 [Blue Engine GitHub repository]: https://github.com/AryanpurTech/BlueEngine
 [Blue Engine Discord server]: https://discord.gg/s7xsj9q
 
-### Cybergate | [@cybersoulK]
+### [Cybergate] | [@cybersoulK]
 
 ![Cybergate](cybergate.png)
 
@@ -55,7 +55,7 @@ Twitch][rust-gamedev-twitch].
 [@cybersoulK]: https://github.com/cybersoulK
 [Cybergate Discord server]: https://discord.gg/R7DkHqw7zJ
 
-### no_std: ?no_problem  | [@kpreid]
+### [no_std: ?no_problem]  | [@kpreid]
 
 ![no_std: ?no_problem](no-std.png)
 
@@ -64,7 +64,13 @@ Twitch][rust-gamedev-twitch].
 
 **Links:**
 
+- [YouTube Video]
 - [Slides]
 
 [@kpreid]: https://github.com/kpreid
+[YouTube Video]: https://www.youtube.com/watch?v=Oq-3bOBrpeo
 [Slides]: https://docs.google.com/presentation/d/e/2PACX-1vTfI-IhBIjyz3vf1sGAQSw02xUuQaDuQ5N4KZRvIdblJrX0uf9ijarVx7gwpUNzhhPotTEqKbgFP0Qe/pub?start=false&slide=id.p
+
+[Blue Engine]: https://www.youtube.com/live/fAp_-Hp2gGo?si=3uhCXRBGEtJa9XY_&t=731
+[Cybergate]: https://www.youtube.com/live/fAp_-Hp2gGo?si=U8yNvON23EqAXz19&t=1581
+[no_std: ?no_problem]: https://www.youtube.com/live/fAp_-Hp2gGo?si=N_bzPJNx29XDhoyf&t=3010
