@@ -67,6 +67,26 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Tiny Glade]
+
+![A vibrant fantasy castle in a lush forest glade](tinyglade.jpg)
+
+[Tiny Glade] ([Twitter][tglade-twi])
+is a small relaxing game about doodling castles.
+
+This month, Tiny Glade was featured in the
+[Future Games Show August Showcase][tglade-fgs] with an exclusive new trailer.
+
+The [trailer and a number of accompanying screenshots][tglade-post] demonstrate
+recent changes in the game, and especially show off the new global illumination
+and [dynamic time passage][tglade-tod].
+
+[Tiny Glade]: https://store.steampowered.com/app/2198150/Tiny_Glade
+[tglade-twi]: https://twitter.com/PounceLight
+[tglade-post]: https://store.steampowered.com/news/app/2198150/view/3673302243803533512
+[tglade-fgs]: https://www.gamesradar.com/tiny-glade-fgs-gamescom-2023/
+[tglade-tod]: https://twitter.com/h3r2tic/status/1694442717252661448
+
 ## Engine Updates
 
 ## Learning Material Updates
