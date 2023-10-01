@@ -75,6 +75,33 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library Updates
 
+### [Dexterous Developer][dexterous_developer]
+
+[Dexterous Developer][dexterous_developer] by [@lee-orr]
+is an experimental hot-reload system for the [Bevy] game engine.
+Features:
+
+- Define the reloadable areas of your game explicitly \- which can include
+  systems, components, and resources (with some limitations).
+- Reset resources to a default or pre-determined value upon reload.
+- Serialize/deserialize your reloadable resources & components, allowing you to
+  evolve their schemas so long as they are compatible with the de-serializer.
+- Mark entities to get removed on hot reload.
+- Run systems after hot-reload.
+- Create functions to set-up & tear down upon either entering/exiting a state
+  or on hot reload.
+- Only includes any hot reload capacity in your build
+  when you explicitly enable it - such as by using the CLI launcher.
+- Cross-platform/cross-device hot reload - run a "hot reload server"
+  on a dev environment, and execute the application elsewhere.
+
+The library is quite new and currently known issues include:
+mobile/WASM support and the need to pre-define events&states.
+
+[dexterous_developer]: https://github.com/lee-orr/dexterous_developer
+[@lee-orr]: https://github.com/lee-orr
+[Bevy]: bevyengine.org
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
