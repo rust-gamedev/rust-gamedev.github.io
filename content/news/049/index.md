@@ -69,6 +69,32 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Engine Updates
 
+### [goku]
+
+[goku] ([Discord][goku-dis]) by [@ladroid] is a new 2D Rust game engine
+backed by SDL2. It's currently compatible with Windows and WASM
+and features [multi-language (Spa, Fra, Ger, Jpn) docs][goku-docs].
+
+Quick Peek:
+
+- Sprite sheets loading and animation support.
+- Basic particle effects.
+- Point, spot, and ambient lights.
+- UI layer with ready widgets like buttons, checkboxes, and sliders.
+- Audio support backed by SDL2 Mixer.
+- Gamepad input support.
+- Tile system and JSON format for describing scenes.
+- Built-in support for parallax backgrounds.
+- Simple timing and frame management utils.
+- Behavior tree AIs.
+
+_Discussions: [/r/rust](https://reddit.com/r/rust/comments/165luwu/intro_goku)_
+
+[goku]: https://github.com/ladroid/goku
+[@ladroid]: https://github.com/ladroid
+[goku-docs]: https://lados-organization.gitbook.io/goku
+[goku-dis]: https://discord.gg/9TAMqdRyED
+
 ## Learning Material Updates
 
 ## Tooling Updates
