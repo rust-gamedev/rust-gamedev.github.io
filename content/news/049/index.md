@@ -91,9 +91,11 @@ Here are the most notable updates:
 
 ### [Oort]
 
-![A fleet of ships in Oort](oort.png)
+![Asteroids-like vector graphics with ships and missiles
+made out of simple geometric forms](oort.png)
+_A fleet of ships_
 
-[Oort] ([GitHub], [Discord]) by [@rlane] is a programming
+[Oort] ([GitHub][oort-gh], [Discord][oort-dis]) by [@rlane] is a programming
 game where you write Rust code to control space ships in combat against other
 players. Your code needs to manage the thrusters, guns, missiles, comms, and
 radar of each ship in your fleet. There's a series of tutorials where you can
@@ -101,16 +103,16 @@ solve key problems one by one, such as leading moving targets or missile
 guidance. The game runs in your browser via WebAssembly.
 
 Oort has started running weekly tournaments and the AIs have gotten more and more
-sophisticated each time. Check out this recent [tournament writeup] where the top
-players discuss their strategies.
+sophisticated each time. Check out this recent [tournament writeup][oort-tournament]
+where the top players discuss their strategies.
 
-Discussions: [r/rust](https://www.reddit.com/r/rust/comments/167qyn0/oort_a_space_fleet_programming_game/)
+_Discussions: [r/rust](https://reddit.com/r/rust/comments/167qyn0/oort)_
 
 [Oort]: https://oort.rs
-[GitHub]: https://github.com/rlane/oort3
-[Discord]: https://discord.gg/vYyu9EhkKH
+[oort-gh]: https://github.com/rlane/oort3
+[oort-dis]: https://discord.gg/vYyu9EhkKH
 [@rlane]: https://github.com/rlane
-[tournament writeup]: https://github.com/rlane/oort3/wiki/Tournament-Writeup-2023%E2%80%9009%E2%80%9011
+[oort-tournament]: https://github.com/rlane/oort3/wiki/Tournament-Writeup-2023%E2%80%9009%E2%80%9011
 
 ## Engine Updates
 
