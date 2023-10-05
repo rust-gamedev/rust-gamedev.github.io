@@ -84,11 +84,9 @@ If needed, a section can be split into subsections with a "------" delimiter.
 <!-- One-liners for plan items that haven't got their own sections. -->
 
 - Other game updates:
-  - [Tribes][tribes] got multiplayer support, new art and economics rework
-    (read a [devlog post][tribes-devlog]).
+  - [Tribes][tribes-devlog] got multiplayer support, new art and economics rework.
 
-[tribes]: /news/047/#tribes
-[tribes-devlog]: https://uvizhe.im/posts/tribes-p2/
+[tribes-devlog]: https://uvizhe.im/posts/tribes-p2
 
 ## Discussions
 
