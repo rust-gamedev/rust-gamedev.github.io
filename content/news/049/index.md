@@ -232,6 +232,11 @@ mobile/WASM support and the need to pre-define events&states.
 
 <!-- One-liners for plan items that haven't got their own sections. -->
 
+- Other game updates:
+  - [Tribes][tribes-devlog] got multiplayer support, new art and economics rework.
+
+[tribes-devlog]: https://uvizhe.im/posts/tribes-p2
+
 ## Discussions
 
 <!-- Links to handpicked reddit/twitter/urlo/etc threads that provide
