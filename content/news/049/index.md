@@ -67,9 +67,131 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Graviton - The Great Sand Simulator][graviton-steam]
+
+![Graviton Sand Simulator Image](graviton.gif)
+
+[Graviton - The Great Sand Simulator][graviton-website]
+([Discord][graviton-discord], [Youtube][graviton-youtube])
+by [@hakolao] is a falling sand simulator in which you can define
+your own interactive sand rules.
+
+Continuing the developer's exploration into GPU sand simulation
+the app has been recently taken to another level with a complete rewrite.
+Now, with some [training][graviton-docs],
+you can program your own rules for the sand.
+Many example sands are provided from acid and blood to the classic
+Game of Life.
+
+Recent updates include:
+
+- Customizable sand with programmable rules.
+- [Shape & Mirror Draw Modes][graviton-youtube-mirror].
+- New UI, graphics and render modes.
+- Gif and Image export.
+- Image import.
+
+You can support the development by purchasing or wishlisting on
+[Steam][graviton-steam].
+
+[@hakolao]: https://github.com/hakolao
+[graviton-discord]: https://discord.gg/3MyPaDagsd
+[graviton-youtube]: https://youtube.com/watch?v=X_O90KyEt8o
+[graviton-steam]: http://s.team/a/2137280
+[graviton-website]: https://www.gravitongame.art/
+[graviton-docs]: https://docs.gravitongame.art/Tutorial
+[graviton-youtube-mirror]: https://youtube.com/watch?v=cOPy4Shqn8U
+
+### [Tunnet][tunnet-itch]
+
+![Tunnet screenshot showcasing the recent visual enhancements](tunnet.jpg)
+
+Tunnet ([Steam][tunnet-steam], [itch.io][tunnet-itch]) is an upcoming short
+puzzle/exploration game about digging tunnels and building computer networks.
+
+In August, [a new version of the demo build has been released][tunnet-post].
+Here are the most notable updates:
+
+- The game is now better optimized to run smoothly on the Steam Deck.
+- Some of the textures have been revamped and are now slightly more detailed.
+- The animations of the character portraits have been improved.
+- Several minor quality of life improvements like the ability to sprint have
+  been made.
+- A basic egui-based crash reporter will now be displayed when the game process
+  ends unexpectedly.
+
+[tunnet-itch]: https://puzzled-squid.itch.io/tunnet
+[tunnet-steam]: https://store.steampowered.com/app/2286390/Tunnet
+[tunnet-post]: https://puzzled-squid.itch.io/tunnet/devlog/580255/devlog-2-optimizations
+
+### [Oort]
+
+![Asteroids-like vector graphics with ships and missiles
+made out of simple geometric forms](oort.png)
+_A fleet of ships_
+
+[Oort] ([GitHub][oort-gh], [Discord][oort-dis]) by [@rlane] is a programming
+game where you write Rust code to control space ships in combat against other
+players. Your code needs to manage the thrusters, guns, missiles, comms, and
+radar of each ship in your fleet. There's a series of tutorials where you can
+solve key problems one by one, such as leading moving targets or missile
+guidance. The game runs in your browser via WebAssembly.
+
+Oort has started running weekly tournaments and the AIs have gotten more and more
+sophisticated each time. Check out this recent [tournament writeup][oort-tournament]
+where the top players discuss their strategies.
+
+_Discussions: [r/rust](https://reddit.com/r/rust/comments/167qyn0/oort)_
+
+[Oort]: https://oort.rs
+[oort-gh]: https://github.com/rlane/oort3
+[oort-dis]: https://discord.gg/vYyu9EhkKH
+[@rlane]: https://github.com/rlane
+[oort-tournament]: https://github.com/rlane/oort3/wiki/Tournament-Writeup-2023%E2%80%9009%E2%80%9011
+
 ## Engine Updates
 
+### [goku]
+
+[goku] ([Discord][goku-dis]) by [@ladroid] is a new 2D Rust game engine
+backed by SDL2. It's currently compatible with Windows and WASM
+and features [multi-language (Spa, Fra, Ger, Jpn) docs][goku-docs].
+
+Quick Peek:
+
+- Sprite sheets loading and animation support.
+- Basic particle effects.
+- Point, spot, and ambient lights.
+- UI layer with ready widgets like buttons, checkboxes, and sliders.
+- Audio support backed by SDL2 Mixer.
+- Gamepad input support.
+- Tile system and JSON format for describing scenes.
+- Built-in support for parallax backgrounds.
+- Simple timing and frame management utils.
+- Behavior tree AIs.
+
+_Discussions: [/r/rust](https://reddit.com/r/rust/comments/165luwu/intro_goku)_
+
+[goku]: https://github.com/ladroid/goku
+[@ladroid]: https://github.com/ladroid
+[goku-docs]: https://lados-organization.gitbook.io/goku
+[goku-dis]: https://discord.gg/9TAMqdRyED
+
 ## Learning Material Updates
+
+### [Failing to build P2P Multiplayer Pong with Bevy][chrisbiscardi-vid1]
+
+[![multiplayer-pong](multiplayer-pong-fail.jpg)][chrisbiscardi-vid1]
+
+[@chrisbiscardi] published a [video][chrisbiscardi-vid1] covering
+P2P multiplayer games with rollback networking and physics.
+This video dives into what makes it difficult and what parts
+work out of the box before identifying better potential paths to take in the future.
+
+_Discussions: [Mastodon](https://hachyderm.io/@chrisbiscardi/110934091254135119)_
+
+[chrisbiscardi-vid1]: https://youtube.com/watch?v=wpx9qhKEuP8
+[@chrisbiscardi]: https://twitter.com/chrisbiscardi
 
 ### Mobile Development with Bevy
 
@@ -85,12 +207,62 @@ Google Play Store.
 
 [nikl]: https://mastodon.online/@nikl_me
 [x-build]: https://github.com/rust-mobile/xbuild/
-[mobile-bevy-post]: https://www.nikl.me/blog/2023/notes_on_mobile_development_with_bevy_2/
-[android-workflow]: https://www.nikl.me/blog/2023/github_workflow_to_publish_android_app/
+[mobile-bevy-post]: https://nikl.me/blog/2023/notes_on_mobile_development_with_bevy_2
+[android-workflow]: https://nikl.me/blog/2023/github_workflow_to_publish_android_app
 
 ## Tooling Updates
 
+### [Space editor](space_editor)
+
+![Space editor window with opened level](space_editor.png)
+
+[Space editor](space_editor) is an editor designed for Bevy engine
+that simplifies level and object template creation. Here are its key features:
+
+- Intuitive UI is built on top of bevy-inspector-egui and egui-gizmo
+  to easy objects manipulate.
+- It supports the bevy_xpbd physics library,
+  making customizing collider positions faster than ever.
+- Run your levels directly from the editor.
+  This enables quick and efficient development iteration.
+- Save your levels and object templates in the standard Bevy scene format
+  and spawn in game with just one line of code.
+- Many custom structures that allow to customize saved scenes
+  equally conveniently, both via gui and directly editing the saved text file.
+
+The [Github project][space_editor] is free for use
+and open to contribute for everyone, be it with suggestions, bugs or PRs.
+
+[space_editor]: https://github.com/rewin123/space_editor
+
 ## Library Updates
+
+### [Dexterous Developer][dexterous_developer]
+
+[Dexterous Developer][dexterous_developer] by [@lee-orr]
+is an experimental hot-reload system for the [Bevy] game engine.
+Features:
+
+- Define the reloadable areas of your game explicitly \- which can include
+  systems, components, and resources (with some limitations).
+- Reset resources to a default or pre-determined value upon reload.
+- Serialize/deserialize your reloadable resources & components, allowing you to
+  evolve their schemas so long as they are compatible with the de-serializer.
+- Mark entities to get removed on hot reload.
+- Run systems after hot-reload.
+- Create functions to set-up & tear down upon either entering/exiting a state
+  or on hot reload.
+- Only includes any hot reload capacity in your build
+  when you explicitly enable it - such as by using the CLI launcher.
+- Cross-platform/cross-device hot reload - run a "hot reload server"
+  on a dev environment, and execute the application elsewhere.
+
+The library is quite new and currently known issues include:
+mobile/WASM support and the need to pre-define events&states.
+
+[dexterous_developer]: https://github.com/lee-orr/dexterous_developer
+[@lee-orr]: https://github.com/lee-orr
+[Bevy]: bevyengine.org
 
 ## Popular Workgroup Issues in Github
 
@@ -99,6 +271,11 @@ Google Play Store.
 ## Other News
 
 <!-- One-liners for plan items that haven't got their own sections. -->
+
+- Other game updates:
+  - [Tribes][tribes-devlog] got multiplayer support, new art and economics rework.
+
+[tribes-devlog]: https://uvizhe.im/posts/tribes-p2
 
 ## Discussions
 
