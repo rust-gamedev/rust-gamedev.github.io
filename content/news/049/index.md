@@ -72,9 +72,6 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ![Graviton Sand Simulator Image](graviton.gif)
 
 [Graviton - The Great Sand Simulator](https://www.gravitongame.art/)
-([Discord](https://discord.gg/3MyPaDagsd),
-[Youtube](https://www.youtube.com/watch?v=X_O90KyEt8o)) by
-[@hakolao](https://github.com/hakolao/)
 is a falling sand simulator in which you can define your own interactive
 sand rules.
 
@@ -94,9 +91,12 @@ Recent updates include:
 - Image import
 
 You can support the development by purchasing or wishlisting on
-[steam](http://s.team/a/2137280). Join [Discord](https://discord.gg/3MyPaDagsd)
-and follow [@hakolao on youtube](https://www.youtube.com/@Okko1990) to
+[steam](http://s.team/a/2137280). Join or follow below links to
 stay up do date with the development.
+
+([Discord](https://discord.gg/3MyPaDagsd),
+[Youtube](https://www.youtube.com/watch?v=X_O90KyEt8o)) by
+[@hakolao](https://github.com/hakolao/)
 
 ## Engine Updates
 
