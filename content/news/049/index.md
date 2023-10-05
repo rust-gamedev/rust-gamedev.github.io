@@ -124,6 +124,31 @@ Here are the most notable updates:
 [tunnet-steam]: https://store.steampowered.com/app/2286390/Tunnet
 [tunnet-post]: https://puzzled-squid.itch.io/tunnet/devlog/580255/devlog-2-optimizations
 
+### [Oort]
+
+![Asteroids-like vector graphics with ships and missiles
+made out of simple geometric forms](oort.png)
+_A fleet of ships_
+
+[Oort] ([GitHub][oort-gh], [Discord][oort-dis]) by [@rlane] is a programming
+game where you write Rust code to control space ships in combat against other
+players. Your code needs to manage the thrusters, guns, missiles, comms, and
+radar of each ship in your fleet. There's a series of tutorials where you can
+solve key problems one by one, such as leading moving targets or missile
+guidance. The game runs in your browser via WebAssembly.
+
+Oort has started running weekly tournaments and the AIs have gotten more and more
+sophisticated each time. Check out this recent [tournament writeup][oort-tournament]
+where the top players discuss their strategies.
+
+_Discussions: [r/rust](https://reddit.com/r/rust/comments/167qyn0/oort)_
+
+[Oort]: https://oort.rs
+[oort-gh]: https://github.com/rlane/oort3
+[oort-dis]: https://discord.gg/vYyu9EhkKH
+[@rlane]: https://github.com/rlane
+[oort-tournament]: https://github.com/rlane/oort3/wiki/Tournament-Writeup-2023%E2%80%9009%E2%80%9011
+
 ## Engine Updates
 
 ### [goku]
