@@ -67,17 +67,18 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
-### [Graviton - The Great Sand Simulator](http://s.team/a/2137280)
+### [Graviton - The Great Sand Simulator][graviton-steam]
 
 ![Graviton Sand Simulator Image](graviton.gif)
 
-[Graviton - The Great Sand Simulator](https://www.gravitongame.art/)
+[Graviton - The Great Sand Simulator][graviton-website] by
+[@hakolao][graviton-github]
 is a falling sand simulator in which you can define your own interactive
 sand rules.
 
 Continuing the developer's exploration into GPU sand simulation
 the app has been recently taken to another level with a complete rewrite.
-Now, with some [training](https://docs.gravitongame.art/Tutorial),
+Now, with some [training][graviton-docs],
 you can program your own rules for the sand.
 Many example sands are provided from acid and blood to the classic
 Game of Life.
@@ -85,18 +86,23 @@ Game of Life.
 Recent updates include:
 
 - Customizable sand with programmable rules
-- [Shape & Mirror Draw Modes](https://www.youtube.com/watch?v=cOPy4Shqn8U)
+- [Shape & Mirror Draw Modes][graviton-youtube-mirror]
 - New UI, graphics and render modes
 - Gif and Image export
 - Image import
 
 You can support the development by purchasing or wishlisting on
-[steam](http://s.team/a/2137280). Join or follow below links to
+[steam][graviton-steam]. Join [Discord][graviton-discord] or
+follow on [Youtube][graviton-youtube] to
 stay up do date with the development.
 
-([Discord](https://discord.gg/3MyPaDagsd),
-[Youtube](https://www.youtube.com/watch?v=X_O90KyEt8o)) by
-[@hakolao](https://github.com/hakolao/)
+[graviton-discord]: https://discord.gg/3MyPaDagsd
+[graviton-youtube]: https://www.youtube.com/watch?v=X_O90KyEt8o
+[graviton-steam]: http://s.team/a/2137280
+[graviton-github]: https://github.com/hakolao/
+[graviton-website]: https://www.gravitongame.art/
+[graviton-docs]: https://docs.gravitongame.art/Tutorial
+[graviton-youtube-mirror]: https://www.youtube.com/watch?v=cOPy4Shqn8U
 
 ### [Tunnet][tunnet-itch]
 
