@@ -67,6 +67,41 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Graviton - The Great Sand Simulator][graviton-steam]
+
+![Graviton Sand Simulator Image](graviton.gif)
+
+[Graviton - The Great Sand Simulator][graviton-website]
+([Discord][graviton-discord], [Youtube][graviton-youtube])
+by [@hakolao] is a falling sand simulator in which you can define
+your own interactive sand rules.
+
+Continuing the developer's exploration into GPU sand simulation
+the app has been recently taken to another level with a complete rewrite.
+Now, with some [training][graviton-docs],
+you can program your own rules for the sand.
+Many example sands are provided from acid and blood to the classic
+Game of Life.
+
+Recent updates include:
+
+- Customizable sand with programmable rules.
+- [Shape & Mirror Draw Modes][graviton-youtube-mirror].
+- New UI, graphics and render modes.
+- Gif and Image export.
+- Image import.
+
+You can support the development by purchasing or wishlisting on
+[Steam][graviton-steam].
+
+[@hakolao]: https://github.com/hakolao
+[graviton-discord]: https://discord.gg/3MyPaDagsd
+[graviton-youtube]: https://youtube.com/watch?v=X_O90KyEt8o
+[graviton-steam]: http://s.team/a/2137280
+[graviton-website]: https://www.gravitongame.art/
+[graviton-docs]: https://docs.gravitongame.art/Tutorial
+[graviton-youtube-mirror]: https://youtube.com/watch?v=cOPy4Shqn8U
+
 ### [Tunnet][tunnet-itch]
 
 ![Tunnet screenshot showcasing the recent visual enhancements](tunnet.jpg)
