@@ -195,6 +195,29 @@ _Discussions: [Mastodon](https://hachyderm.io/@chrisbiscardi/110934091254135119)
 
 ## Tooling Updates
 
+### [Space editor](space_editor)
+
+![Space editor window with opened level](space_editor.png)
+
+[Space editor](space_editor) is an editor designed for Bevy engine
+that simplifies level and object template creation. Here are its key features:
+
+- Intuitive UI is built on top of bevy-inspector-egui and egui-gizmo
+  to easy objects manipulate.
+- It supports the bevy_xpbd physics library,
+  making customizing collider positions faster than ever.
+- Run your levels directly from the editor.
+  This enables quick and efficient development iteration.
+- Save your levels and object templates in the standard Bevy scene format
+  and spawn in game with just one line of code.
+- Many custom structures that allow to customize saved scenes
+  equally conveniently, both via gui and directly editing the saved text file.
+
+The [Github project][space_editor] is free for use
+and open to contribute for everyone, be it with suggestions, bugs or PRs.
+
+[space_editor]: https://github.com/rewin123/space_editor
+
 ## Library Updates
 
 ### [Dexterous Developer][dexterous_developer]
