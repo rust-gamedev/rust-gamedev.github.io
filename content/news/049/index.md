@@ -92,10 +92,10 @@ that simplifies level and object template creation. Here are its key features:
 5. Many custom structures that allow to customize saved scenes 
    equally conveniently, both via gui and directly editing the saved text file
 
-The [Github project](https://github.com/rewin123/space_editor) is free for use 
+The [Github project][space_editor] is free for use 
 and open to contribute for everyone, be it with suggestions, bugs or PRs.
 
-Link to project: https://github.com/rewin123/space_editor
+[space_editor]: https://github.com/rewin123/space_editor
 
 
 
