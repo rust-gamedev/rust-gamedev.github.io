@@ -89,7 +89,7 @@ Here are the most notable updates:
 [tunnet-steam]: https://store.steampowered.com/app/2286390/Tunnet
 [tunnet-post]: https://puzzled-squid.itch.io/tunnet/devlog/580255/devlog-2-optimizations
 
-### Oort
+### [Oort]
 
 ![A fleet of ships in Oort](oort.png)
 
