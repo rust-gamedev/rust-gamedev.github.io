@@ -67,6 +67,28 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Tunnet][tunnet-itch]
+
+![Tunnet screenshot showcasing the recent visual enhancements](tunnet.jpg)
+
+Tunnet ([Steam][tunnet-steam], [itch.io][tunnet-itch]) is an upcoming short
+puzzle/exploration game about digging tunnels and building computer networks.
+
+In August, [a new version of the demo build has been released][tunnet-post].
+Here are the most notable updates:
+
+- The game is now better optimized to run smoothly on the Steam Deck.
+- Some of the textures have been revamped and are now slightly more detailed.
+- The animations of the character portraits have been improved.
+- Several minor quality of life improvements like the ability to sprint have
+  been made.
+- A basic egui-based crash reporter will now be displayed when the game process
+  ends unexpectedly.
+
+[tunnet-itch]: https://puzzled-squid.itch.io/tunnet
+[tunnet-steam]: https://store.steampowered.com/app/2286390/Tunnet
+[tunnet-post]: https://puzzled-squid.itch.io/tunnet/devlog/580255/devlog-2-optimizations
+
 ### Oort
 
 ![A fleet of ships in Oort](oort.png)
@@ -92,11 +114,78 @@ Discussions: [r/rust](https://www.reddit.com/r/rust/comments/167qyn0/oort_a_spac
 
 ## Engine Updates
 
+### [goku]
+
+[goku] ([Discord][goku-dis]) by [@ladroid] is a new 2D Rust game engine
+backed by SDL2. It's currently compatible with Windows and WASM
+and features [multi-language (Spa, Fra, Ger, Jpn) docs][goku-docs].
+
+Quick Peek:
+
+- Sprite sheets loading and animation support.
+- Basic particle effects.
+- Point, spot, and ambient lights.
+- UI layer with ready widgets like buttons, checkboxes, and sliders.
+- Audio support backed by SDL2 Mixer.
+- Gamepad input support.
+- Tile system and JSON format for describing scenes.
+- Built-in support for parallax backgrounds.
+- Simple timing and frame management utils.
+- Behavior tree AIs.
+
+_Discussions: [/r/rust](https://reddit.com/r/rust/comments/165luwu/intro_goku)_
+
+[goku]: https://github.com/ladroid/goku
+[@ladroid]: https://github.com/ladroid
+[goku-docs]: https://lados-organization.gitbook.io/goku
+[goku-dis]: https://discord.gg/9TAMqdRyED
+
 ## Learning Material Updates
+
+### [Failing to build P2P Multiplayer Pong with Bevy][chrisbiscardi-vid1]
+
+[![multiplayer-pong](multiplayer-pong-fail.jpg)][chrisbiscardi-vid1]
+
+[@chrisbiscardi] published a [video][chrisbiscardi-vid1] covering
+P2P multiplayer games with rollback networking and physics.
+This video dives into what makes it difficult and what parts
+work out of the box before identifying better potential paths to take in the future.
+
+_Discussions: [Mastodon](https://hachyderm.io/@chrisbiscardi/110934091254135119)_
+
+[chrisbiscardi-vid1]: https://youtube.com/watch?v=wpx9qhKEuP8
+[@chrisbiscardi]: https://twitter.com/chrisbiscardi
 
 ## Tooling Updates
 
 ## Library Updates
+
+### [Dexterous Developer][dexterous_developer]
+
+[Dexterous Developer][dexterous_developer] by [@lee-orr]
+is an experimental hot-reload system for the [Bevy] game engine.
+Features:
+
+- Define the reloadable areas of your game explicitly \- which can include
+  systems, components, and resources (with some limitations).
+- Reset resources to a default or pre-determined value upon reload.
+- Serialize/deserialize your reloadable resources & components, allowing you to
+  evolve their schemas so long as they are compatible with the de-serializer.
+- Mark entities to get removed on hot reload.
+- Run systems after hot-reload.
+- Create functions to set-up & tear down upon either entering/exiting a state
+  or on hot reload.
+- Only includes any hot reload capacity in your build
+  when you explicitly enable it - such as by using the CLI launcher.
+- Cross-platform/cross-device hot reload - run a "hot reload server"
+  on a dev environment, and execute the application elsewhere.
+
+The library is quite new and currently known issues include:
+mobile/WASM support and the need to pre-define events&states.
+
+[dexterous_developer]: https://github.com/lee-orr/dexterous_developer
+[@lee-orr]: https://github.com/lee-orr
+[Bevy]: bevyengine.org
 
 ## Popular Workgroup Issues in Github
 
