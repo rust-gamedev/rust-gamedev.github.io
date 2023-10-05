@@ -193,6 +193,23 @@ _Discussions: [Mastodon](https://hachyderm.io/@chrisbiscardi/110934091254135119)
 [chrisbiscardi-vid1]: https://youtube.com/watch?v=wpx9qhKEuP8
 [@chrisbiscardi]: https://twitter.com/chrisbiscardi
 
+### Mobile Development with Bevy
+
+[@Nikl][nikl] published two blog posts on the topic of mobile development
+using Bevy. [The first post][mobile-bevy-post] concentrates on getting
+builds ready for the Apple and Google App stores. It outlines how to
+use the tool [x-build][x-build] to create Android App bundles and some
+required changes to get iOS builds accepted by the App store.
+
+[A second post][android-workflow] documents how to set up and configure
+a GitHub workflow to automate releases of a Bevy application to the
+Google Play Store.
+
+[nikl]: https://mastodon.online/@nikl_me
+[x-build]: https://github.com/rust-mobile/xbuild/
+[mobile-bevy-post]: https://nikl.me/blog/2023/notes_on_mobile_development_with_bevy_2
+[android-workflow]: https://nikl.me/blog/2023/github_workflow_to_publish_android_app
+
 ## Tooling Updates
 
 ### [Space editor](space_editor)
