@@ -67,6 +67,41 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Graviton - The Great Sand Simulator][graviton-steam]
+
+![Graviton Sand Simulator Image](graviton.gif)
+
+[Graviton - The Great Sand Simulator][graviton-website]
+([Discord][graviton-discord], [Youtube][graviton-youtube])
+by [@hakolao] is a falling sand simulator in which you can define
+your own interactive sand rules.
+
+Continuing the developer's exploration into GPU sand simulation
+the app has been recently taken to another level with a complete rewrite.
+Now, with some [training][graviton-docs],
+you can program your own rules for the sand.
+Many example sands are provided from acid and blood to the classic
+Game of Life.
+
+Recent updates include:
+
+- Customizable sand with programmable rules.
+- [Shape & Mirror Draw Modes][graviton-youtube-mirror].
+- New UI, graphics and render modes.
+- Gif and Image export.
+- Image import.
+
+You can support the development by purchasing or wishlisting on
+[Steam][graviton-steam].
+
+[@hakolao]: https://github.com/hakolao
+[graviton-discord]: https://discord.gg/3MyPaDagsd
+[graviton-youtube]: https://youtube.com/watch?v=X_O90KyEt8o
+[graviton-steam]: http://s.team/a/2137280
+[graviton-website]: https://www.gravitongame.art/
+[graviton-docs]: https://docs.gravitongame.art/Tutorial
+[graviton-youtube-mirror]: https://youtube.com/watch?v=cOPy4Shqn8U
+
 ### [Tunnet][tunnet-itch]
 
 ![Tunnet screenshot showcasing the recent visual enhancements](tunnet.jpg)
@@ -88,6 +123,93 @@ Here are the most notable updates:
 [tunnet-itch]: https://puzzled-squid.itch.io/tunnet
 [tunnet-steam]: https://store.steampowered.com/app/2286390/Tunnet
 [tunnet-post]: https://puzzled-squid.itch.io/tunnet/devlog/580255/devlog-2-optimizations
+
+### [Oort]
+
+![Asteroids-like vector graphics with ships and missiles
+made out of simple geometric forms](oort.png)
+_A fleet of ships_
+
+[Oort] ([GitHub][oort-gh], [Discord][oort-dis]) by [@rlane] is a programming
+game where you write Rust code to control space ships in combat against other
+players. Your code needs to manage the thrusters, guns, missiles, comms, and
+radar of each ship in your fleet. There's a series of tutorials where you can
+solve key problems one by one, such as leading moving targets or missile
+guidance. The game runs in your browser via WebAssembly.
+
+Oort has started running weekly tournaments and the AIs have gotten more and more
+sophisticated each time. Check out this recent [tournament writeup][oort-tournament]
+where the top players discuss their strategies.
+
+_Discussions: [r/rust](https://reddit.com/r/rust/comments/167qyn0/oort)_
+
+[Oort]: https://oort.rs
+[oort-gh]: https://github.com/rlane/oort3
+[oort-dis]: https://discord.gg/vYyu9EhkKH
+[@rlane]: https://github.com/rlane
+[oort-tournament]: https://github.com/rlane/oort3/wiki/Tournament-Writeup-2023%E2%80%9009%E2%80%9011
+
+### [Ars Militaris][arsm]
+
+![Ars Militaris Logo](arsmilitaris.png)
+
+[Ars Militaris][arsm] ([GitHub][arsm-gh], [Discord][arsm-dis],
+[Twitter][arsm-twi], [Reddit][arsm-red])
+is a turn-based tactics game set in the ancient Rome era,
+being developed with Bevy.
+
+August saw some nice developments that occurred in both the
+digital and board game version of Ars Militaris. You can
+read about them in issues VI through IX of This Week in Ars Militaris
+([VI](https://arsmilitaris.com#this-week-in-ars-militaris-vi),
+[VII](https://arsmilitaris.com#this-week-in-ars-militaris-vii),
+[VIII](https://arsmilitaris.com#this-week-in-ars-militaris-viii),
+[IX](https://arsmilitaris.com#this-week-in-ars-militaris-ix)).
+
+The most noticeable improvements in the digital version were
+the updating of the multiplayer aspect to be on par with the
+single-player aspect, and then also the development of the
+[Ars Militaris Lobby][arsm-lobby].
+
+In the board game version, development started on a new
+scenario that will serve as our main product for the Ars
+Militaris board game version, and much playtesting with
+very positive results occurred
+[(Ars Militaris Event III)][arsm-event-iii]
+and [(Ars Militaris Event IV)][arsm-event-iv].
+
+But then, the result of a somewhat intensive 3-month
+sprint left the Lead Developer exhausted which brought
+the project to a temporary pause.
+
+[arsm]: https://arsmilitaris.com
+[arsm-gh]: https://github.com/arsmilitaris
+[arsm-twi]: https://twitter.com/ArsMilitarisDev
+[arsm-dis]: https://discord.gg/cdNDQsstgq
+[arsm-red]: https://reddit.com/r/arsmilitaris
+[arsm-lobby]: https://arsmilitaris.com#ars-militaris-lobby
+[arsm-event-iii]: https://arsmilitaris.com#ars-militaris-event-iii
+[arsm-event-iv]: https://arsmilitaris.com#ars-militaris-event-iv
+
+### [Tiny Glade]
+
+![A vibrant fantasy castle in a lush forest glade](tinyglade.jpg)
+
+[Tiny Glade] ([Twitter][tglade-twi])
+is a small relaxing game about doodling castles.
+
+This month, Tiny Glade was featured in the
+[Future Games Show August Showcase][tglade-fgs] with an exclusive new trailer.
+
+The [trailer and a number of accompanying screenshots][tglade-post] demonstrate
+recent changes in the game, and especially show off the new global illumination
+and [dynamic time passage][tglade-tod].
+
+[Tiny Glade]: https://store.steampowered.com/app/2198150/Tiny_Glade
+[tglade-twi]: https://twitter.com/PounceLight
+[tglade-post]: https://store.steampowered.com/news/app/2198150/view/3673302243803533512
+[tglade-fgs]: https://www.gamesradar.com/tiny-glade-fgs-gamescom-2023/
+[tglade-tod]: https://twitter.com/h3r2tic/status/1694442717252661448
 
 ### [Veloren][veloren]
 
@@ -162,7 +284,47 @@ _Discussions: [Mastodon](https://hachyderm.io/@chrisbiscardi/110934091254135119)
 [chrisbiscardi-vid1]: https://youtube.com/watch?v=wpx9qhKEuP8
 [@chrisbiscardi]: https://twitter.com/chrisbiscardi
 
+### Mobile Development with Bevy
+
+[@Nikl][nikl] published two blog posts on the topic of mobile development
+using Bevy. [The first post][mobile-bevy-post] concentrates on getting
+builds ready for the Apple and Google App stores. It outlines how to
+use the tool [x-build][x-build] to create Android App bundles and some
+required changes to get iOS builds accepted by the App store.
+
+[A second post][android-workflow] documents how to set up and configure
+a GitHub workflow to automate releases of a Bevy application to the
+Google Play Store.
+
+[nikl]: https://mastodon.online/@nikl_me
+[x-build]: https://github.com/rust-mobile/xbuild/
+[mobile-bevy-post]: https://nikl.me/blog/2023/notes_on_mobile_development_with_bevy_2
+[android-workflow]: https://nikl.me/blog/2023/github_workflow_to_publish_android_app
+
 ## Tooling Updates
+
+### [Space editor](space_editor)
+
+![Space editor window with opened level](space_editor.png)
+
+[Space editor](space_editor) is an editor designed for Bevy engine
+that simplifies level and object template creation. Here are its key features:
+
+- Intuitive UI is built on top of bevy-inspector-egui and egui-gizmo
+  to easy objects manipulate.
+- It supports the bevy_xpbd physics library,
+  making customizing collider positions faster than ever.
+- Run your levels directly from the editor.
+  This enables quick and efficient development iteration.
+- Save your levels and object templates in the standard Bevy scene format
+  and spawn in game with just one line of code.
+- Many custom structures that allow to customize saved scenes
+  equally conveniently, both via gui and directly editing the saved text file.
+
+The [Github project][space_editor] is free for use
+and open to contribute for everyone, be it with suggestions, bugs or PRs.
+
+[space_editor]: https://github.com/rewin123/space_editor
 
 ## Library Updates
 
@@ -200,6 +362,11 @@ mobile/WASM support and the need to pre-define events&states.
 ## Other News
 
 <!-- One-liners for plan items that haven't got their own sections. -->
+
+- Other game updates:
+  - [Tribes][tribes-devlog] got multiplayer support, new art and economics rework.
+
+[tribes-devlog]: https://uvizhe.im/posts/tribes-p2
 
 ## Discussions
 
