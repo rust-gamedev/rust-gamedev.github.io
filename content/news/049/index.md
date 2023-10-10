@@ -149,6 +149,48 @@ _Discussions: [r/rust](https://reddit.com/r/rust/comments/167qyn0/oort)_
 [@rlane]: https://github.com/rlane
 [oort-tournament]: https://github.com/rlane/oort3/wiki/Tournament-Writeup-2023%E2%80%9009%E2%80%9011
 
+### [Ars Militaris][arsm]
+
+![Ars Militaris Logo](arsmilitaris.png)
+
+[Ars Militaris][arsm] ([GitHub][arsm-gh], [Discord][arsm-dis],
+[Twitter][arsm-twi], [Reddit][arsm-red])
+is a turn-based tactics game set in the ancient Rome era,
+being developed with Bevy.
+
+August saw some nice developments that occurred in both the
+digital and board game version of Ars Militaris. You can
+read about them in issues VI through IX of This Week in Ars Militaris
+([VI](https://arsmilitaris.com#this-week-in-ars-militaris-vi),
+[VII](https://arsmilitaris.com#this-week-in-ars-militaris-vii),
+[VIII](https://arsmilitaris.com#this-week-in-ars-militaris-viii),
+[IX](https://arsmilitaris.com#this-week-in-ars-militaris-ix)).
+
+The most noticeable improvements in the digital version were
+the updating of the multiplayer aspect to be on par with the
+single-player aspect, and then also the development of the
+[Ars Militaris Lobby][arsm-lobby].
+
+In the board game version, development started on a new
+scenario that will serve as our main product for the Ars
+Militaris board game version, and much playtesting with
+very positive results occurred
+[(Ars Militaris Event III)][arsm-event-iii]
+and [(Ars Militaris Event IV)][arsm-event-iv].
+
+But then, the result of a somewhat intensive 3-month
+sprint left the Lead Developer exhausted which brought
+the project to a temporary pause.
+
+[arsm]: https://arsmilitaris.com
+[arsm-gh]: https://github.com/arsmilitaris
+[arsm-twi]: https://twitter.com/ArsMilitarisDev
+[arsm-dis]: https://discord.gg/cdNDQsstgq
+[arsm-red]: https://reddit.com/r/arsmilitaris
+[arsm-lobby]: https://arsmilitaris.com#ars-militaris-lobby
+[arsm-event-iii]: https://arsmilitaris.com#ars-militaris-event-iii
+[arsm-event-iv]: https://arsmilitaris.com#ars-militaris-event-iv
+
 ## Engine Updates
 
 ### [goku]
