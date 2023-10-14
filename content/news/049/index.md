@@ -77,13 +77,26 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [nanogltf]
 
-![gl2+/metal gltf viewer](helmet.gif)
+![The "DamagedHelmet" sample model](nanogltf-helmet.gif)
+_nanogltf+miniquad glTF viewer_
 
-Nanogltf is a `nanoserde` based gltf loader, with a GIF recorded from
-a gl2+/metal gltf [viewer] example.
+[nanogltf] by [@not-fl3] is a minimalist [nanoserde]-based [glTF][gltf]
+parser library that can load most of the glTF's [sample models][gltf-models]
+and fairly complex Blender exported scenes.
+
+> Macroquad used to be notoriously bad at 3d. nanogltf is a part of a big
+> macroquad overhaul with a goal to make it suitable for, at least,
+> simple low-poly 3d games.
+
+nanogltf comes with a a GL2+/Metal glTF miniquad-based
+[viewer example][nanogltf-view].
 
 [nanogltf]: https://github.com/not-fl3/nanogltf
-[viewer]: https://github.com/not-fl3/nanogltf/tree/master/examples/viewer
+[nanogltf-view]: https://github.com/not-fl3/nanogltf/tree/master/examples/viewer
+[nanoserde]: https://reddit.com/r/rust/comments/hfru5a/nanoserde_cut_50s_of_build_time
+[@not-fl3]: https://github.com/not-fl3
+[gltf-models]: https://github.com/KhronosGroup/glTF-Sample-Models
+[glTF]: https://khronos.org/gltf
 
 ## Popular Workgroup Issues in Github
 
