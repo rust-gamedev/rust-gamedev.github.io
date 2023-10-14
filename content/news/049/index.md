@@ -355,6 +355,29 @@ mobile/WASM support and the need to pre-define events&states.
 [@lee-orr]: https://github.com/lee-orr
 [Bevy]: bevyengine.org
 
+### [nanogltf]
+
+![The "DamagedHelmet" sample model](nanogltf-helmet.gif)
+_nanogltf+miniquad glTF viewer_
+
+[nanogltf] by [@not-fl3] is a minimalist [nanoserde]-based [glTF][gltf]
+parser library that can load most of the glTF's [sample models][gltf-models]
+and fairly complex Blender exported scenes.
+
+> Macroquad used to be notoriously bad at 3d. nanogltf is a part of a big
+> macroquad overhaul with a goal to make it suitable for, at least,
+> simple low-poly 3d games.
+
+nanogltf comes with a a GL2+/Metal glTF miniquad-based
+[viewer example][nanogltf-view].
+
+[nanogltf]: https://github.com/not-fl3/nanogltf
+[nanogltf-view]: https://github.com/not-fl3/nanogltf/tree/master/examples/viewer
+[nanoserde]: https://reddit.com/r/rust/comments/hfru5a/nanoserde_cut_50s_of_build_time
+[@not-fl3]: https://github.com/not-fl3
+[gltf-models]: https://github.com/KhronosGroup/glTF-Sample-Models
+[glTF]: https://khronos.org/gltf
+
 ## Popular Workgroup Issues in Github
 
 <!-- Up to 10 links to interesting issues -->
