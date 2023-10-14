@@ -240,6 +240,34 @@ August's full weekly devlogs: "This Week In Veloren...": [#216][veloren-216].
 [veloren]: https://veloren.net
 [veloren-216]: https://veloren.net/devblog-216
 
+### [CyberGate][cybergate-yt]
+
+![GIF of a player attacking a spherical enemy: one window is active,
+the other shows the same view but a menu overlay on top](cybergate.gif)
+_Two client windows controlling the same pawn simultaneously._
+
+CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]),
+CyberSoul is developing an ambitious multiplayer project,
+utilizing procedural generation and AI to offer a dynamic universe.
+
+Tech Progress:
+
+- Complete game framework overhaul.
+- Addressed engine limitations.
+- Upgraded game tools and utilities.
+- Introduced Cosmos APIs for universe management.
+- Redesigned privacy mechanisms.
+- New character authentication system.
+- Persistent player data.
+- Player Accounts: Login, Register, Verify, Guests.
+
+Also, this month's gameplay changes include
+characters remaining active despite a client's closure
+and saved player inventory, achievements, and settings.
+
+[cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
+[cybergate-dis]: https://discord.gg/R7DkHqw7zJ
+
 ## Engine Updates
 
 ### [goku]
