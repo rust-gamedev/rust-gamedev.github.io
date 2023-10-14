@@ -69,8 +69,9 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [CyberGate][cybergate-yt]
 
-![2 windows control the same pawn simultaneously](cybergate.gif)
-_2 windows control the same pawn simultaneously_
+![GIF of a player attacking a spherical enemy: one window is active,
+the other shows the same view but a menu overlay on top](cybergate.gif)
+_Two client windows controlling the same pawn simultaneously._
 
 CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]),
 CyberSoul is developing an ambitious multiplayer project,
@@ -87,12 +88,9 @@ Tech Progress:
 - Persistent player data.
 - Player Accounts: Login, Register, Verify, Guests.
 
-Gameplay Changes:
-
-- Characters remain active despite client closure.
-- Saved player inventory, achievements, and settings.
-
-For deeper insights, join the [Discord][cybergate-dis].
+Also, this month's gameplay changes include
+characters remaining active despite a client's closure
+and saved player inventory, achievements, and settings.
 
 [cybergate-yt]: https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q
 [cybergate-dis]: https://discord.gg/R7DkHqw7zJ
