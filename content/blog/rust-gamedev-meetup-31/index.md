@@ -52,7 +52,7 @@ Twitch][rust-gamedev-twitch].
 
 ![tunnet title](tunnet.jpg)
 
-> A short game where you wake up as a robot technician in an underground complex
+> A short game where you design, build, and optimize a computer network in an underground complex
 
 - [itch.io page]
 - [YouTube trailer]
