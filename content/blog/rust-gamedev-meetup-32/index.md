@@ -26,7 +26,7 @@ Twitch][rust-gamedev-twitch].
 
 ## Talks
 
-### [Minewars] | [@inodentry]
+### [Minewars][minewars-video] | [@inodentry]
 
 ![Minewars](minewars.jpg)
 
@@ -46,8 +46,9 @@ Twitch][rust-gamedev-twitch].
 [Minewars GitHub]: https://github.com/IyesGames/minewars
 [Minewars Documentation]: https://iyes.games/minewars/book/
 [Minewars FOSS Plans]: https://iyes.games/minewars/book/foss.html
+[minewars-video]: https://www.youtube.com/watch?v=Mb7Xv-Mu-G4
 
-### [Blade] | [@Kvark]
+### [Blade][blade-video] | [@Kvark]
 
 ![Blade](blade.jpg)
 
@@ -55,12 +56,13 @@ Twitch][rust-gamedev-twitch].
 
 **Links:**
 
-- GitHub: [@Kvark]
+- GitHub repo: [Blade]
 
 [@Kvark]: https://github.com/kvark
 [Blade]: https://github.com/kvark/blade
+[blade-video]: https://youtu.be/Q5IUOvuXoC8
 
-### [Jarl][Jarl Game] | [@zaycev]
+### [Jarl][jarl-video] | [@zaycev]
 
 ![Jarl](jarl.jpg)
 
@@ -79,8 +81,9 @@ Twitch][rust-gamedev-twitch].
 [@jarl_game]: https://twitter.com/jarl_game
 [Jarl-Game-com]: https://www.youtube.com/@Jarl-Game-com
 [Jarl Discord server]: https://discord.com/invite/Dcwemjyfbb
+[jarl-video]: https://www.youtube.com/watch?v=Sv7jcyqThdM
 
-### [Seeker] | [@inodentry] & [@c12hz]
+### [The Seeker][seeker-video] | [@inodentry], [@c12hz]
 
 ![Seeker](theseeker.jpg)
 
@@ -94,3 +97,4 @@ Twitch][rust-gamedev-twitch].
 [@c12hz]: https://github.com/c12hz
 [Seeker Discord server]: https://discord.gg/b7YRzMFzBN
 [@TheSeekerGame]: https://github.com/TheSeekerGame/TheSeeker
+[seeker-video]: https://www.youtube.com/watch?v=EGIIKbnh-1M
