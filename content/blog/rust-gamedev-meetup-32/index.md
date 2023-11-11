@@ -82,7 +82,7 @@ Twitch][rust-gamedev-twitch].
 
 ### [Seeker] | [@inodentry] & [@c12hz]
 
-![Seeker](seeker.jpg)
+![Seeker](theseeker.jpg)
 
 > A 2D platformer game.
 
