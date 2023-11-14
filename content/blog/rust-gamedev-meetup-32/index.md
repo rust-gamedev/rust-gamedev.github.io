@@ -28,15 +28,15 @@ Twitch][rust-gamedev-twitch].
 
 ### [Minewars][minewars-video] | [@inodentry]
 
-![Minewars](minewars.jpg)
+[![Minewars](minewars.jpg)][minewars-video]
 
-> An upcoming multiplayer minesweeper game.
+> An upcoming multiplayer minesweeper game. **[Video link][minewars-video]**
 
 **Links:**
 
-- GH (incl GH Sponsors): [@inodentry]
+- GitHub + Sponsors: [@inodentry]
 - Mastodon: [@iyes@mastodon.gamedev.place]
-- Discord: @iyesgames
+- Discord: [Minewars Discord server]
 - Open source client: [Minewars GitHub]
 - Public documentation: [Minewars Documentation]
 - Open-source vs proprietary plans: [Minewars FOSS Plans]
@@ -47,12 +47,13 @@ Twitch][rust-gamedev-twitch].
 [Minewars Documentation]: https://iyes.games/minewars/book/
 [Minewars FOSS Plans]: https://iyes.games/minewars/book/foss.html
 [minewars-video]: https://www.youtube.com/watch?v=Mb7Xv-Mu-G4
+[Minewars Discord server]: https://discord.gg/Caxfzjwxs5
 
 ### [Blade][blade-video] | [@Kvark]
 
-![Blade](blade.jpg)
+[![Blade](blade.jpg)][blade-video]
 
-> Sharp and simple graphics library
+> Sharp and simple graphics library **[Video link][blade-video]**
 
 **Links:**
 
@@ -62,11 +63,11 @@ Twitch][rust-gamedev-twitch].
 [Blade]: https://github.com/kvark/blade
 [blade-video]: https://youtu.be/Q5IUOvuXoC8
 
-### [Jarl][jarl-video] | [@zaycev]
+### [Jarl][jarl-video] | [@zaycev] | [Video link][jarl-video]
 
-![Jarl](jarl.jpg)
+[![Jarl](jarl.jpg)][jarl-video]
 
-> A fantasy colony simulator.
+> A fantasy colony simulator. **[Video link][jarl-video]**
 
 **Links:**
 
@@ -83,11 +84,11 @@ Twitch][rust-gamedev-twitch].
 [Jarl Discord server]: https://discord.com/invite/Dcwemjyfbb
 [jarl-video]: https://www.youtube.com/watch?v=Sv7jcyqThdM
 
-### [The Seeker][seeker-video] | [@inodentry], [@c12hz]
+### [The Seeker][seeker-video] | [@inodentry], [@c12hz] | [Video link][seeker-video]
 
-![Seeker](theseeker.jpg)
+[![Seeker](theseeker.jpg)][seeker-video]
 
-> A 2D platformer game.
+> A 2D platformer game. **[Video link][seeker-video]**
 
 **Links:**
 
