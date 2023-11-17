@@ -29,7 +29,6 @@ Feel free to send PRs about your own projects!
 [pr]: https://github.com/rust-gamedev/rust-gamedev.github.io
 [coordination]: https://github.com/rust-gamedev/rust-gamedev.github.io/issues?q=label%3Acoordination
 
-- [Announcements](#announcements)
 - [Game Updates](#game-updates)
 - [Engine Updates](#engine-updates)
 - [Learning Material Updates](#learning-material-updates)
@@ -216,18 +215,18 @@ Fortress and Cube World.
 In August, Veloren saw a network library update, new locations in the character
 selection screen, the implementation of a new portal graphic, and numerous
 translation updates. Moreover, improvements were made to the airship fixes, loot
-balancing, and group chat issues. There have also been upgrades to the dependency, a
-README update, and tweaks to the buff death message.
+balancing, and group chat issues. There have also been upgrades to the
+dependency, a README update, and tweaks to the buff death message.
 
 Ongoing projects currently in the works include the addition of Phoenix
 abilities, NPC arenas, frost Giga attacks, compasses, and a banking storage
 system. Other upcoming updates include an enhancement to the windmills, CI
-scripts, saving window size, the selection of a single-player world, the addition of
-lava material, and improvements to the weather network protocol. Work is also
-ongoing on ship movement, pet commands, Terracotta ruins, dwarven quarry,
-coastal towns, clifftown rework, and axe skills. They are also planning to
-implement physics interactions that increase your height when gliding, including
-the introduction of thermal and ridgelines.
+scripts, saving window size, the selection of a single-player world, the
+addition of lava material, and improvements to the weather network protocol.
+Work is also ongoing on ship movement, pet commands, Terracotta ruins, dwarven
+quarry, coastal towns, clifftown rework, and axe skills. They are also planning
+to implement physics interactions that increase your height when gliding,
+including the introduction of thermal and ridgelines.
 
 August's full weekly devlogs: "This Week In Veloren...": [#216][veloren-216].
 
