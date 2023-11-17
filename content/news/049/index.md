@@ -59,8 +59,6 @@ _Discussions:
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
-## Announcements
-
 ## Game Updates
 
 ### [Graviton - The Great Sand Simulator][graviton-steam]
@@ -111,7 +109,7 @@ Here are the most notable updates:
 - The game is now better optimized to run smoothly on the Steam Deck.
 - Some of the textures have been revamped and are now slightly more detailed.
 - The animations of the character portraits have been improved.
-- Several minor quality of life improvements like the ability to sprint have
+- Several minor quality-of-life improvements like the ability to sprint have
   been made.
 - A basic egui-based crash reporter will now be displayed when the game process
   ends unexpectedly.
@@ -127,7 +125,7 @@ made out of simple geometric forms](oort.png)
 _A fleet of ships_
 
 [Oort] ([GitHub][oort-gh], [Discord][oort-dis]) by [@rlane] is a programming
-game where you write Rust code to control space ships in combat against other
+game where you write Rust code to control spaceships in combat against other
 players. Your code needs to manage the thrusters, guns, missiles, comms, and
 radar of each ship in your fleet. There's a series of tutorials where you can
 solve key problems one by one, such as leading moving targets or missile
@@ -218,13 +216,13 @@ Fortress and Cube World.
 In August, Veloren saw a network library update, new locations in the character
 selection screen, the implementation of a new portal graphic, and numerous
 translation updates. Moreover, improvements were made to the airship fixes, loot
-balancing, and group chat issues. There also been upgrades to the dependency, a
+balancing, and group chat issues. There have also been upgrades to the dependency, a
 README update, and tweaks to the buff death message.
 
 Ongoing projects currently in the works include the addition of Phoenix
 abilities, NPC arenas, frost Giga attacks, compasses, and a banking storage
 system. Other upcoming updates include an enhancement to the windmills, CI
-scripts, saving window size, the selection of a single-player world, addition of
+scripts, saving window size, the selection of a single-player world, the addition of
 lava material, and improvements to the weather network protocol. Work is also
 ongoing on ship movement, pet commands, Terracotta ruins, dwarven quarry,
 coastal towns, clifftown rework, and axe skills. They are also planning to
@@ -342,11 +340,11 @@ that simplifies level and object template creation. Here are its key features:
   This enables quick and efficient development iteration.
 - Save your levels and object templates in the standard Bevy scene format
   and spawn in game with just one line of code.
-- Many custom structures that allow to customize saved scenes
+- Many custom structures that allow you to customize saved scenes
   equally conveniently, both via gui and directly editing the saved text file.
 
 The [Github project][space_editor] is free for use
-and open to contribute for everyone, be it with suggestions, bugs or PRs.
+and open to contributions from everyone, be it with suggestions, bugs or PRs.
 
 [space_editor]: https://github.com/rewin123/space_editor
 
@@ -365,7 +363,7 @@ Features:
   evolve their schemas so long as they are compatible with the de-serializer.
 - Mark entities to get removed on hot reload.
 - Run systems after hot-reload.
-- Create functions to set-up & tear down upon either entering/exiting a state
+- Create functions to set up & tear down upon either entering/exiting a state
   or on hot reload.
 - Only includes any hot reload capacity in your build
   when you explicitly enable it - such as by using the CLI launcher.
@@ -373,7 +371,7 @@ Features:
   on a dev environment, and execute the application elsewhere.
 
 The library is quite new and currently known issues include:
-mobile/WASM support and the need to pre-define events&states.
+mobile/WASM support and the need to pre-define events & states.
 
 [dexterous_developer]: https://github.com/lee-orr/dexterous_developer
 [@lee-orr]: https://github.com/lee-orr
