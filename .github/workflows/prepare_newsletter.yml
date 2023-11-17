@@ -1,0 +1,22 @@
+name: Prepare a new newsletter
+
+on:
+  workflow_dispatch:
+
+jobs:
+  prepare_new_newsletter:
+    runs-on: ubuntu-latest
+    env:
+      # https://github.com/crazy-max/ghaction-github-pages/issues/1#issuecomment-623202206
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v2
+      - run: ./zola --version
+      - name: copy template and adapt dates and ids.
+        run: echo y | ./scripts/prepare_newsletter.sh
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: create pull request
+        run: gh pr create -B source -H new_newsletter --title 'Prepare new newsletter' --body 'Created by Github action'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
