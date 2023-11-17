@@ -1,7 +1,7 @@
 +++
-title = "This Month in Rust GameDev #{TODO} - {TODO} {TODO}"
+title = "This Month in Rust GameDev #{TODO_id} - {TODO_month} {TODO_day}"
 transparent = true
-date = TODO
+date = {TODO_date}
 draft = true
 +++
 
@@ -9,7 +9,7 @@ draft = true
 
 <!-- Check the post with markdownlint-->
 
-Welcome to the {TODO}th issue of the Rust GameDev Workgroup's
+Welcome to the {TODO_id}th issue of the Rust GameDev Workgroup's
 monthly newsletter.
 [Rust] is a systems language pursuing the trifecta:
 safety, concurrency, and speed.
@@ -35,8 +35,8 @@ Feel free to send PRs about your own projects!
 - [Learning Material Updates](#learning-material-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
-- [Other News](#other-news)
 - [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
+- [Other News](#other-news)
 - [Meeting Minutes](#meeting-minutes)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
