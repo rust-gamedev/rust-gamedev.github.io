@@ -1,8 +1,8 @@
 +++
 title = "This Month in Rust GameDev #49 - August 2023"
 transparent = true
-date = 2023-09-16
-draft = true
+date = 2023-11-16
+draft = false
 +++
 
 <!-- no toc -->
@@ -36,10 +36,6 @@ Feel free to send PRs about your own projects!
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
 - [Other News](#other-news)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
-- [Discussions](#discussions)
-- [Requests for Contribution](#requests-for-contribution)
-- [Jobs](#jobs)
 
 <!--
 Ideal section structure is:
@@ -406,10 +402,6 @@ nanogltf comes with a a GL2+/Metal glTF miniquad-based
 [gltf-models]: https://github.com/KhronosGroup/glTF-Sample-Models
 [glTF]: https://khronos.org/gltf
 
-## Popular Workgroup Issues in Github
-
-<!-- Up to 10 links to interesting issues -->
-
 ## Other News
 
 <!-- One-liners for plan items that haven't got their own sections. -->
@@ -418,19 +410,6 @@ nanogltf comes with a a GL2+/Metal glTF miniquad-based
   - [Tribes][tribes-devlog] got multiplayer support, new art and economics rework.
 
 [tribes-devlog]: https://uvizhe.im/posts/tribes-p2
-
-## Discussions
-
-<!-- Links to handpicked reddit/twitter/urlo/etc threads that provide
-useful information -->
-
-## Requests for Contribution
-
-<!-- Links to "good first issue"-labels or direct links to specific tasks -->
-
-## Jobs
-
-<!-- An optional section for new jobs related to Rust gamedev -->
 
 ------
 
