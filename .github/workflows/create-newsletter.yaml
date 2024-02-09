@@ -1,0 +1,31 @@
+name: Create Newsletter Tracking Issue
+on:
+  schedule:
+    # Run on the 5th of every month at 12pm
+    - cron: "0 12 5 * *"
+  workflow_dispatch:
+    inputs: {}
+permissions:
+  contents: read
+  issues: write 
+jobs:
+  create-newsletter:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set newsletter month
+        run: echo "NEWSLETTER_MONTH=$(date +'%B')" >> $GITHUB_ENV
+      - name: Set newsletter year
+        run: echo "NEWSLETTER_YEAR=$(date +'%Y')" >> $GITHUB_ENV
+      - name: Set newsletter deadline
+        run: echo "NEWSLETTER_DEADLINE=$(date -d' 1 month ' '+%m.%Y')" >> $GITHUB_ENV
+      - name: Set newsletter counter
+      # take the amount of months since feb 2024 and add 50
+        run: echo "NEWSLETTER_COUNTER=$(( ( ( $(date +'%Y') - 2024 ) * 12 + $(date +'%m') - 2 ) + 50 ))" >> $GITHUB_ENV
+      - name: Create tracking issue
+        uses: JasonEtco/create-an-issue@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          filename: .github/newsletter-template.md
+
