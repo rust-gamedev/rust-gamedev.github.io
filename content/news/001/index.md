@@ -464,7 +464,7 @@ Special section for other news (up to 15) in a one-liner format:
 [Alex Butler]: https://twitter.com/bigabgames
 [roboinstructus 1.0]: https://reddit.com/r/rust/comments/cdw1ct/robo_instructus_is_out_now_programming_puzzle
 
-## Popular Workgroup Issues in Github
+## Popular Workgroup Issues in GitHub
 
 <!-- Up to 10 links to interesting issues -->
 

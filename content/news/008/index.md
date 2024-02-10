@@ -760,7 +760,7 @@ Full documentation is available at the [rectangle-pack docs.rs section][rectangl
 [rectangle-pack-homepage]: https://github.com/chinedufn/rectangle-pack
 [rectangle-pack-docs]: https://crates.io/crates/rectangle-pack/0.1.5
 
-## Popular Workgroup Issues in Github
+## Popular Workgroup Issues in GitHub
 
 <!-- Up to 10 links to interesting issues -->
 

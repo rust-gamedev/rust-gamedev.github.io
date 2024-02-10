@@ -1014,7 +1014,7 @@ You can watch a [video of Rust interpreter running Fizzbuzz][langcraft-video]:
 [Langcraft]: https://github.com/SuperTails/langcraft
 [langcraft-video]: https://youtube.com/watch?v=Cx0w5Wn9pPU
 
-<!-- ## Popular Workgroup Issues in Github -->
+<!-- ## Popular Workgroup Issues in GitHub -->
 
 ## Meeting Minutes
 

@@ -452,7 +452,7 @@ _Discussions: [r/rust_gamedev][why-article]_
 
 ![devlog logo](brontefy-me.jpg)
 
-@hedgein ([Github][hedgein-github], [Twitch][hedgein-twitch]) started a devlog
+@hedgein ([GitHub][hedgein-github], [Twitch][hedgein-twitch]) started a devlog
 series called Brontefy Me. This series walks through the development of games in
 the [Bevy engine][bevy]. There are two episodes released so far. The [first
 episode][brontefy-me-episode-1] focuses on getting up and running with the
