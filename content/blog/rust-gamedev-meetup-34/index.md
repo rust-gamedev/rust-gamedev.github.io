@@ -30,7 +30,7 @@ Twitch][rust-gamedev-twitch].
 
 [![Cushy](cushy.png)][cushy-video]
 
-> TODO
+> An experimental cross-platform graphical user interface (GUI) crate for Rust.
 
 **Links:**
 
