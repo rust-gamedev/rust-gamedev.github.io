@@ -37,7 +37,7 @@ Feel free to send PRs about your own projects!
 - [Engine Updates](#engine-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
+- [Popular Workgroup Issues in GitHub](#popular-workgroup-issues-in-github)
 - [Requests for Contribution](#requests-for-contribution)
 - [Discussions](#discussions)
 
@@ -166,7 +166,7 @@ _Discussions: [Twitter][bitgun-inventory]_
 The Windows version of the game has been rewritten to use Macroquad,
 so now the web and downloadable versions of the game share the same codebase.
 Development for the web version has moved to the
-[Weegames Github][weegames-github] repository.
+[Weegames GitHub][weegames-github] repository.
 
 [weegames-itch]: https://yeahross.itch.io/weegames
 [weegames-github]: https://github.com/yeahross0/weegames
@@ -893,7 +893,7 @@ _Discussions: [/r/rust](https://reddit.com/r/rust/comments/pjlb92/kas_gui_v010)_
 [KAS]: https://github.com/kas-gui/kas
 [@dhardy]: https://github.com/dhardy
 
-## Popular Workgroup Issues in Github
+## Popular Workgroup Issues in GitHub
 
 <!-- Up to 10 links to interesting issues -->
 

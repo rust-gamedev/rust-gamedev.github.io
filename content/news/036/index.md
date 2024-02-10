@@ -268,7 +268,7 @@ and increasing the total number of bots you can control. Bots can also use
 antennas to store resources.
 
 Interested in contributing? Head over to the
-[Github discussion page][botnet_ideas] and suggest some ideas!
+[GitHub discussion page][botnet_ideas] and suggest some ideas!
 
 [Botnet]: https://github.com/JMS55/botnet
 [botnet_ideas]: https://github.com/JMS55/botnet/discussions/categories/ideas
@@ -541,7 +541,7 @@ Nevertheless, several improvements have been integrated to godot-rust since
 ![Gamercade preview](gamercade.gif)
 _WASM 3d CPU Rendering On a 2d Fantasy Console?_
 
-[Gamercade] ([Discord][Gamercade-Discord], [Github][Gamercade-Github])
+[Gamercade] ([Discord][Gamercade-Discord], [GitHub][Gamercade-GitHub])
 by @RobDavenport is a WASM-powered fantasy console focused
 on building multiplayer neo-retro games.
 
@@ -562,7 +562,7 @@ palettes with up to 64 colors each.
 The community around the project is small, but is looking to expand.
 Come on over to the [subreddit][Gamercade-Subreddit], or hang out and chat
 on [Discord][Gamercade-Discord], where the developers interact with members
-and post updates daily. The project is newly [open source][Gamercade-Github]
+and post updates daily. The project is newly [open source][Gamercade-GitHub]
 and looking for contributors, suggestions, as well as awesome game demos.
 
 _Discussions:
@@ -573,7 +573,7 @@ _Discussions:
 [Gamercade-Console]: https://github.com/gamercade-io/gamercade_console
 [Gamercade-Editor]: https://github.com/gamercade-io/gamercade_editor
 [Gamercade-Discord]: https://discord.gg/Qafv2Fpt5j
-[Gamercade-Github]: https://github.com/gamercade-io
+[Gamercade-GitHub]: https://github.com/gamercade-io
 
 ## Learning Material Updates
 
@@ -982,7 +982,7 @@ in a single seamless piece of rust code. It offers:
 - [examples using wgpu][shame-examples]!
 
 A Discord channel for questions/feedback is linked in the
-[Github readme][shame].
+[GitHub readme][shame].
 
 <!-- i am unable to generate a permanent discord invite link,
 thats why i link to the project github, where i can update the

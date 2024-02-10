@@ -793,7 +793,7 @@ _Discussions:
 [Amethyst organization]: https://github.com/amethyst
 [@_AndreaCatania]: https://twitter.com/_AndreaCatania
 
-## Popular Workgroup Issues in Github
+## Popular Workgroup Issues in GitHub
 
 <!-- Up to 10 links to interesting issues -->
 

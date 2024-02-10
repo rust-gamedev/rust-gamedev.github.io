@@ -286,7 +286,7 @@ implemented.
 _The newly added Kraken_
 
 [@ThousandthStar] is creating 8bit Duels
-([Discord][8bit-discord], [Github][8bit-github]),
+([Discord][8bit-discord], [GitHub][8bit-github]),
 an 8bit style turn-based multiplayer strategy game.
 
 Last month, an artist joined ThousandthStar to create art for the game.

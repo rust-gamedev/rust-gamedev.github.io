@@ -1160,7 +1160,7 @@ It uses vulkan and skia for rendering.
 
 [neovide]: https://github.com/Kethku/neovide
 
-## Popular Workgroup Issues in Github
+## Popular Workgroup Issues in GitHub
 
 <!-- Up to 10 links to interesting issues -->
 

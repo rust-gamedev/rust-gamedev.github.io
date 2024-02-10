@@ -108,7 +108,7 @@ Sir Hoardalot, and you, as his resourcesful Loot Goblin are going to keep his
 backpack in order! Craft potions and weapons to strengthen the hero, and help
 kill the evil Ogre Necromancer.
 
-The source code for the game is available [on Github][loot-goblin-source].
+The source code for the game is available [on GitHub][loot-goblin-source].
 
 [loot-goblin]: https://park-dev.itch.io/loot-goblin
 [loot-goblin-source]: https://github.com/vanGeck/bevy-jam-2
@@ -411,7 +411,7 @@ or browse through the [open issues][runty8-open-issues].
 ![Gamercade preview](gamercade.gif)
 _Preview of the Audio Editor in Action_
 
-[Gamercade] ([Discord][Gamercade-Discord], [Github][Gamercade-Github])
+[Gamercade] ([Discord][Gamercade-Discord], [GitHub][Gamercade-GitHub])
 by @RobDavenport is a WASM-powered fantasy console focused
 on building multiplayer neo-retro games.
 
@@ -434,12 +434,12 @@ note.
 
 Come hang out and chat on [Discord][Gamercade-Discord], where the developers
 interact with members and post updates daily. The project is
-[open source][Gamercade-Github] and looking for contributors, suggestions,
+[open source][Gamercade-GitHub] and looking for contributors, suggestions,
 as well as awesome game demos.
 
 [Gamercade]: https://gamercade.io
 [Gamercade-Discord]: https://discord.gg/Qafv2Fpt5j
-[Gamercade-Github]: https://github.com/gamercade-io/gamercade_console
+[Gamercade-GitHub]: https://github.com/gamercade-io/gamercade_console
 [Gamercade-Video]: https://youtube.com/watch?v=cRsOvefap_U
 
 ## Tooling Updates
