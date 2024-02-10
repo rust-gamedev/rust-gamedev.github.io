@@ -33,7 +33,7 @@ Table of contents:
 - [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
 - [Library & Tooling Updates](#library-tooling-updates)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
+- [Popular Workgroup Issues in GitHub](#popular-workgroup-issues-in-github)
 - [Requests for Contribution](#requests-for-contribution)
 
 <!--
@@ -333,7 +333,7 @@ A rework of attacks was done to allow their effects to be more dynamic. Lots of
 work has been done on the art team, with new weapon models, new mobs like fish.
 Some quality of life improvements were added, like humanoids automatically
 deploying gliders while falling to avoid fall damage. CI changes were made to
-finally have the Github mirror update periodically without error from LFS
+finally have the GitHub mirror update periodically without error from LFS
 storage. In March, Veloren will release 0.9.
 
 February's full weekly devlogs: "This Week In Veloren...":
@@ -549,7 +549,7 @@ provides advanced features like streaming live asset updates to remote devices.
 
 More information about rafx:
 
-- [Github][rafx-github]
+- [GitHub][rafx-github]
 - [Documentation][rafx-documentation]
 - [Why Rafx?][why-rafx] (includes similarities/differences with other rust and
   non-rust alternatives)
@@ -787,7 +787,7 @@ It consists of two crates:
 [wasm_plugin_host]: https://lib.rs/crates/wasm_plugin_host
 [wasm_plugin_guest]: https://lib.rs/crates/wasm_plugin_guest
 
-## Popular Workgroup Issues in Github
+## Popular Workgroup Issues in GitHub
 
 <!-- Up to 10 links to interesting issues -->
 

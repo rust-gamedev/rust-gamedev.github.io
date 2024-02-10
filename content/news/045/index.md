@@ -418,7 +418,7 @@ as some QoL improvements such as better compile times.
 
 ## Learning Material Updates
 
-### [Bevy <3 Github Actions][bevy-github-actions-blog]
+### [Bevy <3 GitHub Actions][bevy-github-actions-blog]
 
 ![bevy logo](bevy_github_actions.png)
 

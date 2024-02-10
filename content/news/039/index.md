@@ -202,7 +202,7 @@ A more detailed update summary is available [here][de-newsletter].
 
 ![Skeleton](skeleton.png)
 
-[ThousandthStar] ([Github](https://github.com/ThousandthStar/multiplayer_game))
+[ThousandthStar] ([GitHub](https://github.com/ThousandthStar/multiplayer_game))
 is creating a simple turn-based strategy game using the Bevy game engine. It's a
 small side project he's been building in his spare time.
 
@@ -571,7 +571,7 @@ release as part of the upgrade to the imminent Bevy 0.9 release.
 
 ### [`seldom_state`]
 
-`seldom_state` by [Seldom] ([Github][seldom-github]) is a component-based
+`seldom_state` by [Seldom] ([GitHub][seldom-github]) is a component-based
 state machine plugin for Bevy. It's useful for AI, player state, animation,
 and other entities that occupy varying states.
 

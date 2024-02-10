@@ -36,7 +36,7 @@ Feel free to send PRs about your own projects!
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
 - [Other News](#other-news)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
+- [Popular Workgroup Issues in GitHub](#popular-workgroup-issues-in-github)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
 - [Jobs](#jobs)
@@ -349,7 +349,7 @@ that simplifies level and object template creation. Here are its key features:
 - Many custom structures that allow to customize saved scenes
   equally conveniently, both via gui and directly editing the saved text file.
 
-The [Github project][space_editor] is free for use
+The [GitHub project][space_editor] is free for use
 and open to contribute for everyone, be it with suggestions, bugs or PRs.
 
 [space_editor]: https://github.com/rewin123/space_editor
@@ -406,7 +406,7 @@ nanogltf comes with a a GL2+/Metal glTF miniquad-based
 [gltf-models]: https://github.com/KhronosGroup/glTF-Sample-Models
 [glTF]: https://khronos.org/gltf
 
-## Popular Workgroup Issues in Github
+## Popular Workgroup Issues in GitHub
 
 <!-- Up to 10 links to interesting issues -->
 

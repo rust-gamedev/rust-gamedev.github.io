@@ -625,7 +625,7 @@ currently features a fully functional finite automaton editor and simulator,
 and many other models, editing features and simulations are planned.
 
 You can check out a [live WASM demo here][Sugarcubes],
-or the [source code on Github][Sugarcubes source].
+or the [source code on GitHub][Sugarcubes source].
 
 [Sugarcubes]: https://henryksloan.github.io/sugarcubes/
 [Sugarcubes source]: https://github.com/henryksloan/sugarcubes

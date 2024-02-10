@@ -30,7 +30,7 @@ Table of contents:
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Library & Tooling Updates](#library-tooling-updates)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
+- [Popular Workgroup Issues in GitHub](#popular-workgroup-issues-in-github)
 - [Meeting Minutes](#meeting-minutes)
 - [Requests for Contribution](#requests-for-contribution)
 - [Jobs](#jobs)
@@ -377,7 +377,7 @@ Dig Escape is a simple puzzle game written in Rust. You can play it in the
 browser [here][digescape-game]. The developer has released [some
 videos][digescape-progress-video] about the development of the game. They also
 [did a review][digescape-rust-review] on what it was like working with Rust for
-the first time. Be sure to check out the [Github repo][digescape-github].
+the first time. Be sure to check out the [GitHub repo][digescape-github].
 
 [digescape-game]: https://tantandev.itch.io/digescape
 [digescape-progress-video]: https://www.youtube.com/watch?v=q6-f63vZW8Y
@@ -964,7 +964,7 @@ Robo Instructus][otf-font-robo].
 [gdnative-release]: https://twitter.com/toast_dev/status/1267071886040555520
 [@toast_dev]: https://twitter.com/toast_dev
 
-## Popular Workgroup Issues in Github
+## Popular Workgroup Issues in GitHub
 
 <!-- Up to 10 links to interesting issues -->
 

@@ -461,11 +461,11 @@ _Discussions:
 
   ![Live2D Piston demo](live2d-cubism.png)
 
-- ["Github Actions CI with Rust and SDL2"] -
+- ["GitHub Actions CI with Rust and SDL2"] -
   [Alexandru Ene] wrote a post about CI with [github actions]
   for [their hobby game project][after-hours] that uses Rust and SDL2.
 
-  ![Github Actions with SDL2 screencast demo](github_actions_ci.gif)
+  ![GitHub Actions with SDL2 screencast demo](github_actions_ci.gif)
 
 - [@phaazon] released [luminance] 0.33 that
   [brings geometry instancing support](https://reddit.com/r/rust/comments/d0us73/announcement_luminance033);
@@ -527,7 +527,7 @@ but I'm too tired to this atm and it will be rendered correctly anyway.
 -->
 
 [Alexandru Ene]: https://twitter.com/_AlexEne_
-["Github Actions CI with Rust and SDL2"]: https://alexene.dev/2019/09/04/Github-actions-CI-rust-SDL2.html
+["GitHub Actions CI with Rust and SDL2"]: https://alexene.dev/2019/09/04/GitHub-actions-CI-rust-SDL2.html
 [github actions]: https://github.com/features/actions
 [after-hours]: https://alexene.dev/2019/01/15/After-hours-game-development.html
 [Xprite]: https://pickitup247.com/xprite.html
@@ -568,7 +568,7 @@ but I'm too tired to this atm and it will be rendered correctly anyway.
 [imgui-inspect]: https://github.com/aclysma/imgui-inspect
 [minimum]: https://github.com/aclysma/minimum
 
-## Popular Workgroup Issues in Github
+## Popular Workgroup Issues in GitHub
 
 <!-- Up to 10 links to interesting issues -->
 

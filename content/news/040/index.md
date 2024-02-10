@@ -36,7 +36,7 @@ Feel free to send PRs about your own projects!
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
 - [Other News](#other-news)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
+- [Popular Workgroup Issues in GitHub](#popular-workgroup-issues-in-github)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
 - [Jobs](#jobs)
@@ -309,7 +309,7 @@ _UI preview_
 [@ThousandthStar] is creating an 8bit themed multiplayer game. It's a turn-based
 strategy game and is currently under development. This month, the
 [blog][8bit-blog] got moved from [dev.to][8bit-dev.to] to ThousandthStar's own
-blog on Github.
+blog on GitHub.
 
 The game is soon getting a UI, and more packets need to be implemented before
 the game is ready to play. ThousandthStar is excited for the game to be
@@ -585,7 +585,7 @@ at [Embark Studios][embark].
 
 ### [Boytacean][boytacean]
 
-Boytacean ([Github][boytacean], [Working Emulator][boytacean-web])
+Boytacean ([GitHub][boytacean], [Working Emulator][boytacean-web])
 by [@joamag] is a Game Boy emulator written in Rust
 with both Native (using SDL) and Web (using WebAssembly) frontends that has been
 created as a learning experiment to better understand both Rust capabilities and
@@ -1064,7 +1064,7 @@ _Discussions: [/r/rust](https://reddit.com/r/rust/comments/yr0oe8/iced_0_5)_
 [@alice-i-cecile]: https://github.com/alice-i-cecile
 [leafwing_input_playback]: https://github.com/Leafwing-Studios/leafwing_input_playback
 
-## Popular Workgroup Issues in Github
+## Popular Workgroup Issues in GitHub
 
 <!-- Up to 10 links to interesting issues -->
 

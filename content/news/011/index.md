@@ -31,7 +31,7 @@ Table of contents:
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Library & Tooling Updates](#library-tooling-updates)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
+- [Popular Workgroup Issues in GitHub](#popular-workgroup-issues-in-github)
 - [Meeting Minutes](#meeting-minutes)
 - [Requests for Contribution](#requests-for-contribution)
 - [Bonus](#bonus)
@@ -329,7 +329,7 @@ without any Javascript (besides a small shim).
 It can be played online [here][pont-online]!
 
 The system architecture is described in a [blog post][pont-blog]
-and the source is available [on Github][pont-source]
+and the source is available [on GitHub][pont-source]
 
 _Discussions:
 [/r/rust](https://www.reddit.com/r/rust/comments/gu1bq5/pont_a_board_game_in_rust_webassembly/),
@@ -658,7 +658,7 @@ different projects. A reference guide is also [available][glisp-reference] as
 well as [API documentation][glisp-docsrs] for integration into Rust.
 
 The crate has had its [initial release][glisp-cratesio], a roadmap and ways
-to contribute are available on GameLisp's [Github Respository][glisp-github].
+to contribute are available on GameLisp's [GitHub Respository][glisp-github].
 
 [gamelisp]: https://gamelisp.rs/
 [glisp-playground]: https://gamelisp.rs/playground/
@@ -902,7 +902,7 @@ that allows you to play classic Nintendo Entertainment System games in the brows
 [gc-nes-src]: https://github.com/GarettCooper/gc_nes_emulator
 [garettcooper.com]: https://garettcooper.com/
 
-## Popular Workgroup Issues in Github
+## Popular Workgroup Issues in GitHub
 
 <!-- Up to 10 links to interesting issues -->
 

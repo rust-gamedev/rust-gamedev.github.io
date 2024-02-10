@@ -31,7 +31,7 @@ Table of contents:
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Library & Tooling Updates](#library-tooling-updates)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
+- [Popular Workgroup Issues in GitHub](#popular-workgroup-issues-in-github)
 - [Meeting Minutes](#meeting-minutes)
 - [Requests for Contribution](#requests-for-contribution)
 
@@ -900,7 +900,7 @@ These last few weeks have been big for the Bevy project:
 - Rapier, a new pure-rust physics engine,
   released an [official Bevy plugin][bevy-rapier].
 - Thanks to the generosity of individuals and companies, they quickly met
-  their first two funding goals on @cart's [Github Sponsors page][bevy-spnsors]:
+  their first two funding goals on @cart's [GitHub Sponsors page][bevy-spnsors]:
   "sustainable development" and "@cart makes minimum wage working on Bevy".
 - Bevy received a glowing review from the Amethyst Engine team and they agreed
   to collaborate in certain areas.
@@ -1253,7 +1253,7 @@ Amongst them:
 [football-manager]: https://en.wikipedia.org/wiki/Football_Manager
 [Football Manager Tools]: https://github.com/Stromberg90/football-manager-tools
 
-## Popular Workgroup Issues in Github
+## Popular Workgroup Issues in GitHub
 
 - [rust-gamedev/wg](https://github.com/rust-gamedev/wg):
   - [#89 "Moving ecs_bench to GDWG"](https://github.com/rust-gamedev/wg/issues/89);

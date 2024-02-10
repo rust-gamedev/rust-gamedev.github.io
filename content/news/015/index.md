@@ -31,7 +31,7 @@ Table of contents:
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Library & Tooling Updates](#library-tooling-updates)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
+- [Popular Workgroup Issues in GitHub](#popular-workgroup-issues-in-github)
 - [Requests for Contribution](#requests-for-contribution)
 
 <!--
@@ -946,7 +946,7 @@ to make Rust a first-class language and ecosystem for building GPU code.
 
 Although still in very early stages of development,
 [Rust GPU released v0.1 in October][rustgpu-v0.1],
-and has already garnered over 2000 stars on Github.
+and has already garnered over 2000 stars on GitHub.
 Currently, compiling and running very simple shaders
 works, and a significant portion of the core library also compiles. While things
 like if-statements and while-loops are working, many things aren't implemented yet.
@@ -1317,23 +1317,23 @@ Join the [Discord server](https://discord.com/invite/ajour) and say hi.
 [Ajour]: https://getajour.com
 [Iced]: https://github.com/hecrj/iced
 
-### [Proton][Proton-Github] 5.13-1
+### [Proton][Proton-GitHub] 5.13-1
 
 In addition to adding Linux Support for more Windows-exclusive games,
 Valve Software's wine-based translation layer for Linux: Proton now
 includes Rust as part of its build system.
-[Media Converter][Proton-Media-Converter-Github], is a Proton module
+[Media Converter][Proton-Media-Converter-GitHub], is a Proton module
 written in Rust as a gstreamer plugin to convert certain media encodings
 from one format to another.
 
-Documentation for building Proton is available on [Github][Proton-Github].
+Documentation for building Proton is available on [GitHub][Proton-GitHub].
 Further documentation on Media Converter and its source code is available
-on the module's [repository][Proton-Media-Converter-Github]
+on the module's [repository][Proton-Media-Converter-GitHub]
 
-[Proton-Github]: https://github.com/ValveSoftware/Proton
-[Proton-Media-Converter-Github]: https://github.com/ValveSoftware/Proton/tree/proton_5.13/media-converter
+[Proton-GitHub]: https://github.com/ValveSoftware/Proton
+[Proton-Media-Converter-GitHub]: https://github.com/ValveSoftware/Proton/tree/proton_5.13/media-converter
 
-## Popular Workgroup Issues in Github
+## Popular Workgroup Issues in GitHub
 
 <!-- Up to 10 links to interesting issues -->
 
