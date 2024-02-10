@@ -11,7 +11,7 @@ aliases = ["posts/gamedev-meetup-34"]
 
 ![Rust Gamedev Meetup](gamedev-meetup.png)
 
-The 34rd Rust Gamedev Meetup took place on TODO. You can watch the
+The 34th Rust Gamedev Meetup took place on TODO. You can watch the
 recording of the meetup [here on YouTube][meetup-video]. The meetup took
 place on the Rust Gamedev [YouTube][youtube-stream] and [Twitch][twitch-stream].
 The meetups take place on the second Saturday of every month via the [Rust
