@@ -62,4 +62,15 @@ Twitch][rust-gamedev-twitch].
 > A 'meta-engine' framework made to facilitate the development of moddable,
 > multiplayer 2D games.
 
+**Links:**
+- [@zicklag]
+- [Bone Engine GitHub repository]
+- [Jumpy GitHub repository]
+- [Jumpy's Migration to the Bones Framework]
+- [Introducing Lua Scripting in Jumpy]
+
 [@zicklag]: https://github.com/zicklag
+[Bone Engine GitHub repository]: https://github.com/fishfolk/bones
+[Jumpy GitHub repository]: https://github.com/fishfolk/jumpy
+[Jumpy's Migration to the Bones Framework]: https://fishfolk.org/blog/jumpy-migration-to-bones-framework/
+[Introducing Lua Scripting in Jumpy]: https://fishfolk.org/blog/introducing-lua-scripting-in-jumpy/
