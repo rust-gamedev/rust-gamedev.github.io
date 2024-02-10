@@ -28,7 +28,7 @@ Twitch][rust-gamedev-twitch].
 
 ### [Blue Engine][blue-engine-video] | [@ElhamAryanpur]
 
-<!-- ![Blue engine](blue-engine.png) -->
+[![Blue Engine](blue-engine.png)][blue-engine-video]
 
 > Updates about community work for the Blue Engine, as well as future engine
 > features coming up.
@@ -39,10 +39,13 @@ Twitch][rust-gamedev-twitch].
 - [Blue Engine Discord server]
 
 [@ElhamAryanpur]: https://github.com/ElhamAryanpur
+[blue-engine-video]: https://www.youtube.com/watch?v=7u9YrBOnTww
 [Blue Engine GitHub repository]: https://github.com/AryanpurTech/BlueEngine
 [Blue Engine Discord server]: https://discord.gg/s7xsj9q
 
 ### [Galaxion Trade Wars][galaxion-trade-wars-video] | [@Syn-Nine]
+
+[![Galaxion Trade Wars](galaxion.png)][galaxion-trade-wars-video]
 
 > Space Trading Game made in Rust based on the Trade Wars 2002 BBS game.
 
@@ -53,11 +56,14 @@ Twitch][rust-gamedev-twitch].
 - [Syn-Nine Website]
 
 [@Syn-Nine]: https://github.com/Syn-Nine
+[galaxion-trade-wars-video]: https://www.youtube.com/watch?v=oNx5wqAsvXM
 [Galaxion Trade Wars GitHub repository]: https://github.com/Syn-Nine/galaxion-trade-empire/
 [Syn-Nine Twitter]: https://twitter.com/Syn9Dev
 [Syn-Nine Website]: https://syn9.thehideoutgames.com/
 
-### [Bones Engine] | [@zicklag]
+### [Bones Engine][bones-engine-video] | [@zicklag]
+
+[![Bones Engine](bones.png)][bones-engine-video]
 
 > A 'meta-engine' framework made to facilitate the development of moddable,
 > multiplayer 2D games.
@@ -70,6 +76,7 @@ Twitch][rust-gamedev-twitch].
 - [Introducing Lua Scripting in Jumpy]
 
 [@zicklag]: https://github.com/zicklag
+[bones-engine-video]: https://www.youtube.com/watch?v=bEyZubAx_oM
 [Bone Engine GitHub repository]: https://github.com/fishfolk/bones
 [Jumpy GitHub repository]: https://github.com/fishfolk/jumpy
 [Jumpy's Migration to the Bones Framework]: https://fishfolk.org/blog/jumpy-migration-to-bones-framework/
