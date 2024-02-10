@@ -527,7 +527,7 @@ but I'm too tired to this atm and it will be rendered correctly anyway.
 -->
 
 [Alexandru Ene]: https://twitter.com/_AlexEne_
-["GitHub Actions CI with Rust and SDL2"]: https://alexene.dev/2019/09/04/GitHub-actions-CI-rust-SDL2.html
+["GitHub Actions CI with Rust and SDL2"]: https://alexene.dev/2019/09/04/Github-actions-CI-rust-SDL2.html
 [github actions]: https://github.com/features/actions
 [after-hours]: https://alexene.dev/2019/01/15/After-hours-game-development.html
 [Xprite]: https://pickitup247.com/xprite.html
