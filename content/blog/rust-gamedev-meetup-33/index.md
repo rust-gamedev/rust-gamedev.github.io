@@ -69,6 +69,7 @@ Twitch][rust-gamedev-twitch].
 > multiplayer 2D games.
 
 **Links:**
+
 - [@zicklag]
 - [Bone Engine GitHub repository]
 - [Jumpy GitHub repository]
