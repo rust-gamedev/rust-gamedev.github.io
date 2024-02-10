@@ -20,7 +20,7 @@ Twitch][rust-gamedev-twitch].
 
 [rust-gamedev-discord]: https://discord.gg/yNtPTb2
 [rust-gamedev-twitch]: https://twitch.tv/rustgamedev
-[meetup-video]: TODO
+[meetup-video]: https://www.youtube.com/watch?v=I_7AgjiE9RA
 [youtube-stream]: https://www.youtube.com/@RustGameDevelopment
 [twitch-stream]: https://www.twitch.tv/RustGameDev
 
@@ -50,7 +50,6 @@ Twitch][rust-gamedev-twitch].
 ### [Astratomic]][astratomic-video] | [@spicylobstergames]
 
 [![Astratomic](astratomic.png)][astratomic-video]
-
 > TODO
 
 **Links:**
@@ -67,7 +66,6 @@ Twitch][rust-gamedev-twitch].
 ### [Graphite][graphite-video] | [@GraphiteEditor]
 
 [![Graphite](graphite.png)][graphite-video]
-
 > TODO
 
 **Links:**
