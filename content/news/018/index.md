@@ -35,7 +35,7 @@ Table of contents:
 - [Learning Material Updates](#learning-material-updates)
 - [Engine Updates](#engine-updates)
 - [Library & Tooling Updates](#library-tooling-updates)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
+- [Popular Workgroup Issues in GitHub](#popular-workgroup-issues-in-github)
 - [Requests for Contribution](#requests-for-contribution)
 
 <!--
@@ -927,7 +927,7 @@ by [@tgjones] now allows you to try out writing shaders in Rust
 [shader-playground-src]: https://github.com/tgjones/shader-playground
 [rust-gpu]: https://github.com/EmbarkStudios/rust-gpu
 
-## Popular Workgroup Issues in Github
+## Popular Workgroup Issues in GitHub
 
 <!-- Up to 10 links to interesting issues -->
 

@@ -30,7 +30,7 @@ Table of contents:
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Library & Tooling Updates](#library-tooling-updates)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
+- [Popular Workgroup Issues in GitHub](#popular-workgroup-issues-in-github)
 - [Requests for Contribution](#requests-for-contribution)
 
 <!--
@@ -1052,7 +1052,7 @@ to the user guide.
 [godot-rust-v0-9]: https://godot-rust.github.io/release-notes/0-9-0/
 [godot-rust-migration]: https://godot-rust.github.io/book/migrating-0-8.html
 
-## Popular Workgroup Issues in Github
+## Popular Workgroup Issues in GitHub
 
 - [rust-gamedev/wg](https://github.com/rust-gamedev/wg):
   - [#21 "Planning a survey for Rust game developers"](https://github.com/rust-gamedev/wg/issues/21);

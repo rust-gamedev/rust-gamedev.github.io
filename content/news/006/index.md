@@ -962,7 +962,7 @@ _Discussions:
 
 [nestur]: https://github.com/spieglt/nestur
 
-## Popular Workgroup Issues in Github
+## Popular Workgroup Issues in GitHub
 
 <!-- Up to 10 links to interesting issues -->
 
