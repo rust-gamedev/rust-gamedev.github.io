@@ -13,6 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          ref: source
       - name: Set environment variables
         run: |
           echo "NEWSLETTER_MONTH=$(date +'%B')" >> $GITHUB_ENV
@@ -21,21 +23,12 @@ jobs:
           # take the amount of months since feb 2024 and add 50
           echo "NEWSLETTER_COUNTER=$(( ( ( $(date +'%Y') - 2024 ) * 12 + $(date +'%m') - 2 ) + 50 ))" >> $GITHUB_ENV
       - name: Create newsletter scaffold
-        run: |
-          cp newsletter-template.md index.md
-          sed -i "s/{{\s*NEWSLETTER_MONTH\s*}}/${{ env.NEWSLETTER_MONTH }}/g" index.md
-          sed -i "s/{{\s*NEWSLETTER_YEAR\s*}}/${{ env.NEWSLETTER_YEAR }}/g" index.md
-          sed -i "s/{{\s*NEWSLETTER_DEADLINE\s*}}/${{ env.NEWSLETTER_DEADLINE }}/g" index.md
-          sed -i "s/{{\s*NEWSLETTER_COUNTER\s*}}/${{ env.NEWSLETTER_COUNTER }}/g" index.md
-          # Create a dir in content/news with the counter with 3 digits as name
-          destination="content/news/$(printf "%03d" ${{ env.NEWSLETTER_COUNTER }})"
-          mkdir -p $destination
-          mv index.md $destination/index.md
-          git status
+        run: ./.github/create_newsletter_scaffold.sh
       - name: Commit and push changes
         uses: EndBug/add-and-commit@v9
         with:
           message: "Create newsletter N${{ env.NEWSLETTER_COUNTER }} for ${{ env.NEWSLETTER_MONTH }} ${{ env.NEWSLETTER_YEAR }}"
+          push: "origin HEAD:source"
       - name: Create tracking issue
         uses: JasonEtco/create-an-issue@v2
         env:
