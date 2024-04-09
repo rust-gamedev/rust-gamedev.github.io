@@ -19,6 +19,7 @@ jobs:
         run: |
           echo "NEWSLETTER_MONTH=$(date +'%B')" >> $GITHUB_ENV
           echo "NEWSLETTER_NEXT_MONTH=$(date -d' 1 month ' +'%B')" >> $GITHUB_ENV
+          echo "NEWSLETTER_NEXT_MONTH_NUMBER=$(date -d' 1 month ' +'%m')" >> $GITHUB_ENV
           echo "NEWSLETTER_YEAR=$(date +'%Y')" >> $GITHUB_ENV
           # take the amount of months since feb 2024 and add 50
           echo "NEWSLETTER_COUNTER=$(( ( ( $(date +'%Y') - 2024 ) * 12 + $(date +'%m') - 4 ) + 50 ))" >> $GITHUB_ENV
