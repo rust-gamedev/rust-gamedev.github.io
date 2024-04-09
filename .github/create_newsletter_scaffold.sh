@@ -22,7 +22,7 @@ if [[ -z "${NEWSLETTER_COUNTER}" ]]; then
   exit 1
 fi
 
-cp newsletter-template.md index.md
+cp .github/newsletter-template.md index.md
 sed -i "s/{{\s*NEWSLETTER_MONTH\s*}}/${NEWSLETTER_MONTH}/g" index.md
 sed -i "s/{{\s*NEWSLETTER_YEAR\s*}}/${NEWSLETTER_YEAR}/g" index.md
 sed -i "s/{{\s*NEWSLETTER_DEADLINE\s*}}/${NEWSLETTER_DEADLINE}/g" index.md
