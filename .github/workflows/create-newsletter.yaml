@@ -34,6 +34,7 @@ jobs:
           assignees: |
               AngelOnFira
               janhohenheim
+              mamaicode
       - name: Create tracking issue
         uses: JasonEtco/create-an-issue@v2
         env:
