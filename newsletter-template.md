@@ -1,7 +1,7 @@
 +++
-title = "This Month in Rust GameDev #{TODO} - {TODO} {TODO}"
+title = "This Month in Rust GameDev #{{ NEWSLETTER_COUNTER }} - {{ NEWSLETTER_MONTH }} {{ NEWSLETTER_YEAR }}"
 transparent = true
-date = TODO
+date = {{ NEWSLETTER_DEADLINE }}
 draft = true
 +++
 
@@ -9,7 +9,7 @@ draft = true
 
 <!-- Check the post with markdownlint-->
 
-Welcome to the {TODO}th issue of the Rust GameDev Workgroup's
+Welcome to the {{ NEWSLETTER_COUNTER }}th issue of the Rust GameDev Workgroup's
 monthly newsletter.
 [Rust] is a systems language pursuing the trifecta:
 safety, concurrency, and speed.
