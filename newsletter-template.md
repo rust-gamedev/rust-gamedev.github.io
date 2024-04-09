@@ -1,7 +1,7 @@
 +++
 title = "This Month in Rust GameDev #{{ NEWSLETTER_COUNTER }} - {{ NEWSLETTER_MONTH }} {{ NEWSLETTER_YEAR }}"
 transparent = true
-date = TODO
+date = {{ NEWSLETTER_DEADLINE }}
 draft = true
 +++
 
