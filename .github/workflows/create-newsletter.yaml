@@ -24,15 +24,19 @@ jobs:
           echo "NEWSLETTER_COUNTER=$(( ( ( $(date +'%Y') - 2024 ) * 12 + $(date +'%m') - 2 ) + 50 ))" >> $GITHUB_ENV
       - name: Create newsletter scaffold
         run: ./.github/create_newsletter_scaffold.sh
-      - name: Commit and push changes
-        uses: EndBug/add-and-commit@v9
+      - name: Commit and create pull request
+        uses: peter-evans/create-pull-request@v3
         with:
-          message: "Create newsletter N${{ env.NEWSLETTER_COUNTER }} for ${{ env.NEWSLETTER_MONTH }} ${{ env.NEWSLETTER_YEAR }}"
-          push: "origin HEAD:source"
+          commit-message: "Create newsletter N${{ env.NEWSLETTER_COUNTER }} for ${{ env.NEWSLETTER_MONTH }} ${{ env.NEWSLETTER_YEAR }}"
+          branch: "start-newsletter-${{ env.NEWSLETTER_COUNTER }}"
+          title: "Newsletter N${{ env.NEWSLETTER_COUNTER }} for ${{ env.NEWSLETTER_MONTH }} ${{ env.NEWSLETTER_YEAR }}"
+          body: "This PR adds the initial newsletter source file for ${{ env.NEWSLETTER_MONTH }} ${{ env.NEWSLETTER_YEAR }}."
+          assignees: |
+              AngelOnFira
+              janhohenheim
       - name: Create tracking issue
         uses: JasonEtco/create-an-issue@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           filename: .github/newsletter-issue-template.md
-
