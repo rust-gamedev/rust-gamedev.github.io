@@ -1,7 +1,7 @@
 +++
 title = "This Month in Rust GameDev #50 - April 2024"
 transparent = true
-date = 2024-{{ NEWSLETTER_NEXT_MONTH_NUMBER }}-03
+date = 2024-05-03
 draft = true
 +++
 
