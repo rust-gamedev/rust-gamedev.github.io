@@ -1,7 +1,7 @@
 +++
 title = "This Month in Rust GameDev #{{ NEWSLETTER_COUNTER }} - {{ NEWSLETTER_MONTH }} {{ NEWSLETTER_YEAR }}"
 transparent = true
-date = {{ NEWSLETTER_YEAR }}-{{ NEWSLETTER_MONTH }}-03
+date = {{ NEWSLETTER_YEAR }}-{{ NEWSLETTER_NEXT_MONTH }}-03
 draft = true
 +++
 
@@ -112,7 +112,7 @@ useful information -->
 <!-- Bonus section to make the newsletter more interesting
 and highlight events from the past. -->
 
-------
+---
 
 That's all news for today, thanks for reading!
 

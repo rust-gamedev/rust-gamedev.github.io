@@ -13,7 +13,7 @@ newsletter with {{ env.NEWSLETTER_MONTH }}'s news!
 
 ## Current Schedule
 
-The deadline for all section PRs is the **3rd of {{ env.NEWSLETTER_MONTH_NAME}}, {{ env.NEWSLETTER_YEAR }}**
+The deadline for all section PRs is the **3rd of {{ env.NEWSLETTER_NEXT_MONTH}}, {{ env.NEWSLETTER_YEAR }}**
 
 We _may_ still accept PRs that are submitted later than this, as long as they're ready before the newsletter's release, but this isn't guaranteed. If you want your section to be included, don't leave it till the last minute!
 
@@ -53,11 +53,11 @@ This is **not** an exhaustive list - if you have your own project that you want 
 
 ## Publishing Steps
 
-- [ ]  Final review - by everyone
-- [ ]  Publish - by @janhohenheim
-- [ ]  Post on /r/rust, /r/rust_gamedev, /r/gamedev, URLO - by @janhohenheim
-- [ ]  Pin thread on Twitter - by @AngelOnFira
-- [ ]  Add comment links - by @AngelOnFira
+- [ ] Final review - by everyone
+- [ ] Publish - by @janhohenheim
+- [ ] Post on /r/rust, /r/rust_gamedev, /r/gamedev, URLO - by @janhohenheim
+- [ ] Pin thread on Twitter - by @AngelOnFira
+- [ ] Add comment links - by @AngelOnFira
 
 ## How to Contribute
 
