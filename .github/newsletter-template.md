@@ -1,7 +1,7 @@
 +++
 title = "This Month in Rust GameDev #{{ NEWSLETTER_COUNTER }} - {{ NEWSLETTER_MONTH }} {{ NEWSLETTER_YEAR }}"
 transparent = true
-date = {{ NEWSLETTER_DEADLINE }}
+date = {{ NEWSLETTER_YEAR }}-{{ NEWSLETTER_NEXT_MONTH_NUMBER }}-03
 draft = true
 +++
 
@@ -35,8 +35,8 @@ Feel free to send PRs about your own projects!
 - [Learning Material Updates](#learning-material-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
-- [Other News](#other-news)
 - [Popular Workgroup Issues in GitHub](#popular-workgroup-issues-in-github)
+- [Other News](#other-news)
 - [Meeting Minutes](#meeting-minutes)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)

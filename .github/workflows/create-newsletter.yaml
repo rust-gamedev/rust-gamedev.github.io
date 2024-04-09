@@ -19,10 +19,11 @@ jobs:
       - name: Set environment variables
         run: |
           echo "NEWSLETTER_MONTH=$(date +'%B')" >> $GITHUB_ENV
+          echo "NEWSLETTER_NEXT_MONTH=$(date -d' 1 month ' +'%B')" >> $GITHUB_ENV
+          echo "NEWSLETTER_NEXT_MONTH_NUMBER=$(date -d' 1 month ' +'%m')" >> $GITHUB_ENV
           echo "NEWSLETTER_YEAR=$(date +'%Y')" >> $GITHUB_ENV
-          echo "NEWSLETTER_DEADLINE=$(date -d' 1 month ' '+%m.%Y')" >> $GITHUB_ENV
           # take the amount of months since feb 2024 and add 50
-          echo "NEWSLETTER_COUNTER=$(( ( ( $(date +'%Y') - 2024 ) * 12 + $(date +'%m') - 2 ) + 50 ))" >> $GITHUB_ENV
+          echo "NEWSLETTER_COUNTER=$(( ( ( $(date +'%Y') - 2024 ) * 12 + $(date +'%m') - 4 ) + 50 ))" >> $GITHUB_ENV
       - name: Create newsletter scaffold
         run: ./.github/create_newsletter_scaffold.sh
       - name: Commit and create pull request
@@ -33,9 +34,9 @@ jobs:
           title: "Newsletter N${{ env.NEWSLETTER_COUNTER }} for ${{ env.NEWSLETTER_MONTH }} ${{ env.NEWSLETTER_YEAR }}"
           body: "This PR adds the initial newsletter source file for ${{ env.NEWSLETTER_MONTH }} ${{ env.NEWSLETTER_YEAR }}."
           assignees: |
-              AngelOnFira
-              janhohenheim
-              mamaicode
+            AngelOnFira
+            janhohenheim
+            mamaicode
       - name: Create tracking issue
         uses: JasonEtco/create-an-issue@v2
         env:
