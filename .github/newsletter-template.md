@@ -112,7 +112,7 @@ useful information -->
 <!-- Bonus section to make the newsletter more interesting
 and highlight events from the past. -->
 
----
+------
 
 That's all news for today, thanks for reading!
 
