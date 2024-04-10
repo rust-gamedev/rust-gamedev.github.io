@@ -71,7 +71,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## [SM64JSARCHIVE][sm64jsarchive]
 
-![Super Mario 64 JavaScript](sm64jsarchive.png)
+![Super Mario 64 JavaScript](sm64jsarchive.jpg)
 
 [SM64JSARCHIVE][sm64jsarchive] ([GitHub][sm64js-github], [Discord][sm64js-discord]) is a rewrite
 of the decompilation project of Super Mario 64 in JavaScript with a strong focus
@@ -91,8 +91,6 @@ Note: if you have a laggy computer or something like that and the page does not 
 [sm64jsarchive]: https://mmo.sm64jsarchive.com
 [sm64jsarchive-github]: https://github.com/uuphoria2/sm64jsarchive
 [sm64jsarchive-server]: https://github.com/sm64jsarchived/sm64jsarchive-mmo-server
-
-
 
 ## Engine Updates
 
