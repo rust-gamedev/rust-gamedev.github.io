@@ -1,15 +1,14 @@
 ---
 title: "Newsletter {{ env.NEWSLETTER_COUNTER}}: {{ env.NEWSLETTER_MONTH }} {{ env.NEWSLETTER_YEAR }}"
 labels: coordination, help wanted
-assignees: janhohenheim
+assignees: AngelOnFira, mamaicode, janhohenheim
 ---
 
-###### tags: `newsletter`
+# Newsletter {{ env.NEWSLETTER_COUNTER}}: {{ env.NEWSLETTER_MONTH }} {{ env.NEWSLETTER_YEAR }}
 
-**Editors:**
+**Editors:** @janhohenheim, @AngelOnFira, @mamaicode
 
-Another month has gone by, so it's time to put together the Rust Gamedev
-newsletter with {{ env.NEWSLETTER_MONTH }}'s news!
+Another month has gone by, so it's time to put together the Rust Gamedev newsletter with {{ env.NEWSLETTER_MONTH }}'s news!
 
 ## Current Schedule
 
