@@ -69,6 +69,31 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+## [SM64JSARCHIVE][sm64jsarchive]
+
+![Super Mario 64 JavaScript](sm64jsarchive.png)
+
+[SM64JSARCHIVE][sm64jsarchive] ([GitHub][sm64js-github], [Discord][sm64js-discord]) is a rewrite
+of the decompilation project of Super Mario 64 in JavaScript with a strong focus
+on massive multiplayer online. The reason this was made as original sm64js's developers and admins / moderators got demotivated and fully left the project sm64jsarchive was made as an new reboot of sm64js.
+The [backend server][sm64jsarchive-server] has been finally been able to start after 10 long months
+and is now live to https://mmo.sm64jsarchive.com
+
+The newest updates have been:
+
+- Working MMO
+- More stable changes to the games client
+
+A stress test is scheduled for 2024-4-10 12:25 CST and everyone is invited!
+
+Note: if you have a laggy computer or something like that and the page does not load within 10-20 minutes then please try refreshing.
+
+[sm64jsarchive]: https://mmo.sm64jsarchive.com
+[sm64jsarchive-github]: https://github.com/uuphoria2/sm64jsarchive
+[sm64jsarchive-server]: https://github.com/sm64jsarchived/sm64jsarchive-mmo-server
+
+
+
 ## Engine Updates
 
 ## Learning Material Updates
