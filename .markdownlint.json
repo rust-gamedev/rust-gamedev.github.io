@@ -3,8 +3,12 @@
         "line_length": 160,
         "code_blocks": false
     },
-    "no-trailing-punctuation": {
-        "punctuation": ".,;:。，；："
-    }
+    "no-trailing-punctuation": false,
+    "blanks-around-lists": false,
+    "hr-style": false,
+    "no-trailing-spaces": false,
+    "no-multiple-blanks": false,
+    "strong-style": false,
+    "emphasis-style": false,
+    "no-hard-tabs": false
 }
-
