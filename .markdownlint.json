@@ -3,12 +3,13 @@
         "line_length": 160,
         "code_blocks": false
     },
-    "no-trailing-punctuation": false,
     "blanks-around-lists": false,
-    "hr-style": false,
-    "no-trailing-spaces": false,
+    "blanks-around-headings": false,
     "no-multiple-blanks": false,
+    "no-trailing-spaces": false,
+    "no-trailing-punctuation": false,
+    "no-hard-tabs": false,
+    "hr-style": false,
     "strong-style": false,
-    "emphasis-style": false,
-    "no-hard-tabs": false
+    "emphasis-style": false
 }
