@@ -75,7 +75,9 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 [SM64JSARCHIVE][sm64jsarchive] Source code available on the ([GitHub][sm64jsarchive-github], sm64jsarchive is a rewrite
 of the decompilation project of Super Mario 64 JavaScript as an actively maintained fork instead. 
-The reason this was made as original sm64js's developers and admins / moderators got demotivated and fully left the project sm64jsarchive was made as an new reboot of sm64js.
+The reason this was made as original sm64js's developers and admins / moderators got demotivated and 
+fully left the project sm64jsarchive was made as an new reboot of sm64js.
+
 The [backend server][sm64jsarchive-server] has been finally been able to start after 10 long months
 and is now live to <https://mmo.sm64jsarchive.com>
 
