@@ -94,6 +94,32 @@ Note: if you have a laggy computer or something like that and the page does not 
 [sm64jsarchive-github]: https://github.com/uuphoria2/sm64jsarchive
 [sm64jsarchive-server]: https://github.com/sm64jsarchived/sm64jsarchive-mmo-server
 
+### [Open Combat][OpenCombat_website]
+
+![OpenCombat: demo available soon](OpenCombat202404.jpg)
+_Official demo available soon_
+
+Open Combat ([Website][OpenCombat_website], [GitHub][OpenCombat_github],
+[Discord][OpenCombat_discord]) is a real-time tactical game
+which takes place during the 2nd World War.
+
+Some major changes since last news !
+
+- Basic HUD is now complete
+- Hight definition map finished for the demo
+- Basic game logic finished
+
+The game demo is almost finished.
+Some things are missing like soldier high definition assets, or minimal AI for opponent.
+But the demo is playable and we need some alpha players to make feedbacks 🎮 !
+You can find game binaries on the [Github page][OpenCombat_release].
+Please come and see us on the [Discord][OpenCombat_discord] to make your feedback !
+
+[OpenCombat_website]: https://opencombat.bux.fr/
+[OpenCombat_github]: https://github.com/buxx/OpenCombat
+[OpenCombat_discord]: https://discord.gg/6P2vtFh2Px
+[OpenCombat_release]: https://github.com/buxx/OpenCombat/releases
+
 ## Engine Updates
 
 ## Learning Material Updates
