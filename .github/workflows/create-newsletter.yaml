@@ -1,8 +1,8 @@
 name: Create Newsletter
 on:
   schedule:
-    # Run on the 5th of every month at 12pm
-    - cron: "0 12 5 * *"
+    # Run on the 3rd of every month at 9 am
+    - cron: "0 9 3 * *"
   workflow_dispatch:
     inputs: {}
 permissions:
