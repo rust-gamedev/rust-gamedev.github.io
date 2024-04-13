@@ -122,6 +122,27 @@ Please come and see us on the [Discord][OpenCombat_discord] to make your feedbac
 
 ## Engine Updates
 
+### Bottomless-Pit 0.3.1
+![The Bottomles-Pit Logo. A small hole in the ground with cat ears and text saying bottomless-pit](https://eggshark.dev/images/bplogo.png)
+
+_bottomless-pit logo_
+
+Bottomless-Pit is a 2d game engine written with WGPU that has been around for a year which can be found on [crates.io][Bottomless-Pit_cratesio] and [GitHub][Bottomless-Pit_github].
+Very recently a 2d camera was added as well as WASM and web support.
+Current development is being focused on stability and QoL changes like texture sampling options and improved input.
+You can checkout several engine examples on the web [here][Bottomless-Pit_Website].
+Since the engine is in it's infancy it would be great to have developers use it and give the engine some feedback.
+Current features are:
+
+- Custom Shader Support
+- basic rendering
+- text rendering
+- input and window event handling
+
+[Bottomless-Pit_Website]: https://eggshark.dev/bp-examples
+[Bottomless-Pit_cratesio]: https://crates.io/crates/bottomless-pit
+[Bottomless-Pit_github]: https://github.com/EggShark/bottomless-pit
+
 ## Learning Material Updates
 
 ## Tooling Updates
