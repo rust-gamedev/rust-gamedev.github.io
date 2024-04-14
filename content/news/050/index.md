@@ -125,7 +125,6 @@ Please come and see us on the [Discord][OpenCombat_discord] to make your feedbac
 ### Bottomless-Pit 0.3.1
 ![The Bottomles-Pit Logo. A small hole in the ground with cat ears and text saying bottomless-pit](https://eggshark.dev/images/bplogo.png)
 
-_bottomless-pit logo_
 
 Bottomless-Pit is a 2d game engine written with WGPU that has been around for a year which can be found on [crates.io][Bottomless-Pit_cratesio] and [GitHub][Bottomless-Pit_github].
 Very recently a 2d camera was added as well as WASM and web support.
