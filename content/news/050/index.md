@@ -128,7 +128,8 @@ Times of Progress ([Steam][times-of-progress-steam]) is an upcoming city builder
 
 During the month of April:
 - The orders systems (how buildings request resources from other buildings) has been refactored to improve performance and make better use of the ECS.
-- Lots of UI widgets have been developed, in particular those related to showing stats about currently hovered and selected building, as well as during building placement.
+- Lots of UI widgets have been developed, in particular those related to showing stats about currently hovered and selected building,
+as well as during building placement.
 
 The demo is not available yet but interested players can sign up for the upcoming closed beta by joining the [newsletter][times-of-progress-newsletter].
 
