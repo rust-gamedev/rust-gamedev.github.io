@@ -164,7 +164,7 @@ Mechaburro, giving them an unfair advantage.
 A postmortem devlog detailing the process of making the game during the
 jam can be found [here][mechaburro-postmortem], a trailer for the game is
 [viewable on YouTube][mechaburro-youtube] and the source code for the game
-is available [on Github][mechaburro-github].
+is available [on GitHub][mechaburro-github].
 
 [mechaburro-itchio]: https://ramirezmike2.itch.io/quien-es-el-mechaburro
 [mechaburro-github]: https://github.com/ramirezmike/quien_es_el_mechaburro
@@ -201,7 +201,7 @@ and added great code documentation (including a flow diagram demonstrating the
 game state changes).
 
 The game code is licensed under MIT or Apache-2 and is [available on
-Github][warlocks-gambit-github].
+GitHub][warlocks-gambit-github].
 
 [warlocks-gambit-itchio]: https://gibonus.itch.io/warlocks-gambit
 [warlocks-gambit-github]: https://github.com/team-plover/warlocks-gambit
@@ -275,9 +275,9 @@ Fortress and Cube World.
 In March, Veloren was tested on the SteamDeck, which you can read about in
 detail in [the weekly devblog][veloren-steamdeck-section]. Lots of work was done
 with Airshipper, Veloren's launcher, including some bug fixes, but mainly the
-switch to Github Releases as the download backend. This will make game updates
+switch to GitHub Releases as the download backend. This will make game updates
 significantly faster and more reliable for players. Work is also being done to
-make use of Github's HTTP range requests to do partial patches where possible.
+make use of GitHub's HTTP range requests to do partial patches where possible.
 Audio work was done to improve swimming sounds playing unevenly, and more sounds
 to gliding.
 
@@ -446,7 +446,7 @@ Tetra, as [the developer has decided to move onto other projects][tetra-retro].
 ![Bevy video series title](bevy-video-series.jpg)
 
 Matthew Bryant ([Youtube][matthew-bryant-youtube],
-[Github][matthew-bryant-github]) has been working on a video series on using
+[GitHub][matthew-bryant-github]) has been working on a video series on using
 Bevy to create a Pokemon-style RPG, and just released four episodes. The goal is
 to show and explain all the core features of Bevy while creating a real game
 over ten 10-15 minute videos, currently releasing once per week. There is also

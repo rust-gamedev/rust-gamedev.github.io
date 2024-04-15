@@ -580,7 +580,7 @@ and adding sound.
 ![Image editor screenshot](sprite_pixel_art_editor.png)
 
 A sprite and pixel art editor made with egui and macroquad is being
-developed by @yds12 ([Github][yds-github], [Mastodon][yds-mastodon]).
+developed by @yds12 ([GitHub][yds-github], [Mastodon][yds-mastodon]).
 The project is already usable, but has not been made public yet. Current
 features are:
 

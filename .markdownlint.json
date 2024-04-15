@@ -1,12 +1,15 @@
 {
     "line-length": {
-        "line_length": 80,
+        "line_length": 160,
         "code_blocks": false
     },
-    "ul-style": {
-        "style": "dash"
-    },
-    "no-trailing-punctuation": {
-        "punctuation": ".,;:。，；："
-    }
+    "blanks-around-lists": false,
+    "blanks-around-headings": false,
+    "no-multiple-blanks": false,
+    "no-trailing-spaces": false,
+    "no-trailing-punctuation": false,
+    "no-hard-tabs": false,
+    "hr-style": false,
+    "strong-style": false,
+    "emphasis-style": false
 }

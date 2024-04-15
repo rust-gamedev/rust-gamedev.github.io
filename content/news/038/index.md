@@ -35,7 +35,7 @@ Feel free to send PRs about your own projects!
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
 - [Other News](#other-news)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
+- [Popular Workgroup Issues in GitHub](#popular-workgroup-issues-in-github)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
 - [Bonus](#bonus)
@@ -321,7 +321,7 @@ bugs and missing features, you can give it a try very soon!
 ![Gamercade preview](gamercade.gif)
 _Gamercade Sprite Animations_
 
-[Gamercade] ([Discord][Gamercade-Discord], [Github][Gamercade-Github])
+[Gamercade] ([Discord][Gamercade-Discord], [GitHub][Gamercade-GitHub])
 by @RobDavenport is a WASM-powered fantasy console focused
 on building multiplayer neo-retro games.
 
@@ -344,12 +344,12 @@ stereo sound support, and much more.
 
 Come hang out and chat on [Discord][Gamercade-Discord], where the developers
 interact with members and post updates daily. The project is
-[open source][Gamercade-Github] and looking for contributors, suggestions,
+[open source][Gamercade-GitHub] and looking for contributors, suggestions,
 as well as your awesome game creations.
 
 [Gamercade]: https://gamercade.io
 [Gamercade-Discord]: https://discord.gg/Qafv2Fpt5j
-[Gamercade-Github]: https://github.com/gamercade-io/gamercade_console
+[Gamercade-GitHub]: https://github.com/gamercade-io/gamercade_console
 [Gamercade-Release]: https://gamercade.io/blog/gamercade-0-1-0
 
 ### [Dims][dims-website]
@@ -562,7 +562,7 @@ available in WASM. Next area of work will be around navigation mesh editing.
 [polyanya-demo]: https://vleue.github.io/bevy_pathmesh/
 [@FrancoisMockers]: https://twitter.com/FrancoisMockers
 
-## Popular Workgroup Issues in Github
+## Popular Workgroup Issues in GitHub
 
 <!-- Up to 10 links to interesting issues -->
 

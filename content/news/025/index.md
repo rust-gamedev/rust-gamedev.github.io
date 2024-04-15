@@ -33,7 +33,7 @@ Feel free to send PRs about your own projects!
 - [Engine Updates](#engine-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
+- [Popular Workgroup Issues in GitHub](#popular-workgroup-issues-in-github)
 - [Requests for Contribution](#requests-for-contribution)
 
 <!--
@@ -827,7 +827,7 @@ Some of the [recent updates][dimforge-update]:
 [rapier-js-docs]: https://rapier.rs/docs/user_guides/javascript/getting_started_js
 [nalgebra]: https://nalgebra.org
 
-## Popular Workgroup Issues in Github
+## Popular Workgroup Issues in GitHub
 
 <!-- Up to 10 links to interesting issues -->
 

@@ -167,7 +167,7 @@ _Discussion: [Twitter](https://twitter.com/LPGhatguy/status/1632596982928687104)
 ![Shifting Chamber Screen shot](shifting_chamber.png)
 
 Shifting Chamber ([itch.io][shifting-chamber-itch],
-[Github][shifting-chamber-github]) is a simple tactics game where
+[GitHub][shifting-chamber-github]) is a simple tactics game where
 the player, instead of moving the character, manipulates the map around it.
 The goal is to defeat the enemies by forcing them into hazardous
 positions - since they cannot be attacked directly.
@@ -301,7 +301,7 @@ Recent updates:
 [![Screenshot from the game Boat Journey showing ASCII art of a boat and some islands](boat-journey-screenshot.png)
 _Carry your passengers safely to the ocean in Boat Journey._][boat-journey-itch]
 
-[Boat Journey][boat-journey-itch] ([Github][boat-journey-github])
+[Boat Journey][boat-journey-itch] ([GitHub][boat-journey-github])
 is a turn-based game where you drive a boat through a
 procedurally-generated landscape on a voyage along a river destined for the
 ocean. Accept passengers to have them help you on your journey. Fight monsters,
@@ -725,7 +725,7 @@ the high level ECS design of a full game using Bevy.
 
 ![Tiger screenshot: classuic UI layout](tiger.png)
 
-Tiger ([Github][tiger-github],
+Tiger ([GitHub][tiger-github],
 [itch.io][tiger-itch.io] by
 [@agersant] is a visual tool to
 author game spritesheets and their metadata.
@@ -777,7 +777,7 @@ We welcome [contributions][tarsila-contrib]! Big thanks to contributors
 ![Rerun's new select & hover highlights in a browser](rerun.gif)
 
 Rerun ([Discord](https://discord.gg/npTFxYR9),
-[Github](https://github.com/rerun-io/rerun), [Website](https://rerun.io))
+[GitHub](https://github.com/rerun-io/rerun), [Website](https://rerun.io))
 is an open-source SDK for logging complex visual data paired with a visualizer
 for exploring that data over time. While its primary focus is on robotics and
 computer vision, it can be useful for all kinds of
@@ -804,7 +804,7 @@ is now latest. A few of the biggest highlights:
 There's a growing community on [Discord][rerun-discord]
 waiting for you to join in case you have any questions,
 comments or just want to follow the latest development.
-The [Github project][rerun-github] is MIT/Apache
+The [GitHub project][rerun-github] is MIT/Apache
 licensed and open to contribute for everyone,
 be it with suggestions, bugs or PRs.
 

@@ -8,6 +8,7 @@ feed_filename = "rss.xml"
 
 [markdown]
 highlight_code = true
+smart_punctuation = true
 
 [extra]
 date_format = "%F"

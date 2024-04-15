@@ -721,7 +721,7 @@ Check out the [online Demo][rust-nes-demo].
 [Blaine Price]: https://blaineprice.me
 [@mvlabat]: https://github.com/mvlabat
 
-## Popular Workgroup Issues in Github
+## Popular Workgroup Issues in GitHub
 
 <!-- Up to 10 links to interesting issues -->
 

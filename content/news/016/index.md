@@ -35,7 +35,7 @@ Table of contents:
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Library & Tooling Updates](#library-tooling-updates)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
+- [Popular Workgroup Issues in GitHub](#popular-workgroup-issues-in-github)
 - [Requests for Contribution](#requests-for-contribution)
 
 <!--
@@ -326,7 +326,7 @@ Here are some of the games made with Rust:
   > plasma doors, saw blades, etc.), bonuses (fuel, health) and coins.
 
   [@grzi] also published a devlog post:
-  ["My journey into Github GameOff 2020"][go-starlight-post].
+  ["My journey into GitHub GameOff 2020"][go-starlight-post].
 
   ![gameplay](starlight-1961.png)
 
@@ -1040,7 +1040,7 @@ build and release a [bevy] game to itch.io for Linux, macOS, Windows and WASM.
 [bevy]: https://bevyengine.org
 [tract]: https://github.com/sonos/tract
 
-## Popular Workgroup Issues in Github
+## Popular Workgroup Issues in GitHub
 
 <!-- Up to 10 links to interesting issues -->
 

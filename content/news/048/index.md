@@ -541,7 +541,7 @@ and walks a reader through a toy GPU program written with wgpu.
 
 ![Rerun showing a large 3D point cloud](rerun.png)
 
-[Rerun][rerun] ([Discord][rerun-dis], [Github][rerun-gh]) is an open-source SDK
+[Rerun][rerun] ([Discord][rerun-dis], [GitHub][rerun-gh]) is an open-source SDK
 for logging complex visual data paired with a visualizer for exploring that data
 over time. While its primary focus is on robotics and computer vision, it can be
 useful for all kinds of rapid prototyping & algorithm development.
@@ -563,7 +563,7 @@ A few of the biggest highlights:
 
 There's a growing community on [Discord][rerun-dis] waiting for you to join in
 case you have any questions, comments or just want to follow the latest
-development. The [Github project][rerun-gh] is MIT/Apache licensed and open to
+development. The [GitHub project][rerun-gh] is MIT/Apache licensed and open to
 contribute for everyone, be it with suggestions, bugs or PRs.
 
 [rerun]: https://rerun.io
