@@ -151,15 +151,17 @@ Current features are:
 ### [Lightyear 0.13][lightyear_website]
 
 [lightyear_website] is a comprehensive networking library for bevy to make multiplayer games.
-It comes with multiple types of transports (WebTransport, WebSocket, UDP, etc.) and supports replication techniques like client-side prediction, server interpolation, interest management and more!
+It comes with multiple types of transports (WebTransport, WebSocket, UDP, etc.) 
+and supports replication techniques like client-side prediction, server interpolation, interest management and more!
 Check out the [examples][lightyear_examples]!
 
 The latest release, [0.13][lightyear_release], brings two big new features:
-- **Steam support**: you can now use the Steamworks SDK as your transport layer, which lets you use the Valve network! Note that lightyear supports running multiple transports in parallel, so it's possible to have cross-play between steam and non-steam users.
-- **Listen-server mode**: it is not possible to run a server and a client in the same process/bevy app. This is can be useful to avoid the costs of a dedicated server, or to have a similar codebase between singleplayer and multiplayer.
+- **Steam support**: you can now use the Steamworks SDK as your transport layer, which lets you use the Valve network!
+Note that lightyear supports running multiple transports in parallel, so it's possible to have cross-play between steam and non-steam users.
+- **Listen-server mode**: it is not possible to run a server and a client in the same process/bevy app.
+This is can be useful to avoid the costs of a dedicated server, or to have a similar codebase between singleplayer and multiplayer.
 
-
-Example (with 300ms of latency): https://github.com/cBournhonesque/lightyear/assets/8112632/ee547c32-1f14-4bdc-9e6d-67f900af84d0
+[Example (with 300ms of latency)](https://github.com/cBournhonesque/lightyear/assets/8112632/ee547c32-1f14-4bdc-9e6d-67f900af84d0)
 
 [lightyear_website]: https://github.com/cBournhonesque/lightyear
 [lightyear_release]: https://github.com/cBournhonesque/lightyear/releases/tag/0.13.0
