@@ -15,16 +15,43 @@ jobs:
       # https://github.com/crazy-max/ghaction-github-pages/issues/1#issuecomment-623202206
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
+      with:
+          fetch-depth: ${{ github.event_name == 'pull_request' && 2 || 0 }}
+    - name: Get changed files
+      id: changed-files
+      # source: https://stackoverflow.com/a/74268200, added filtering for markdown files
+      run: |
+        if ${{ github.event_name == 'pull_request' }}; then
+            changed_files=$(git diff --name-only -r HEAD^1 HEAD -z | grep '\.md$' -zZ | xargs -0)
+        else
+            changed_files=$(git diff --name-only ${{ github.event.before }} ${{ github.event.after }} -z | grep '\.md$' -zZ | xargs -0)
+        fi
+        echo "changed_files: $changed_files"
+        echo "changed_files=$changed_files" >> $GITHUB_OUTPUT
     - name: Lint
       uses: avto-dev/markdown-lint@v1
       with:
         args: '.'
         config: '.markdownlint.json'
+    - name: Check links
+      uses: lycheeverse/lychee-action@v1.9.0
+      if: ${{ steps.changed-files.outputs.changed_files != '' }}
+      with:
+        fail: true
+        args: >-
+          --verbose
+          --no-progress
+          --accept '100..=103,200..=299,300..=399'
+          --exclude '[^\w]todo[^\w]?'
+          --exclude 'https://(www\.|old\.)?reddit\.com'
+          ${{ steps.changed-files.outputs.changed_files }}
     - name: Install Zola
-      run: curl -L ${BASE_URL}/${VERS}/zola-${VERS}-${ARCH}.tar.gz | tar -xz
-    - run: ./zola --version
-    - run: ./zola build
+      run: |
+        curl -L ${BASE_URL}/${VERS}/zola-${VERS}-${ARCH}.tar.gz | tar -xz
+        echo "Zola version: $(./zola --version)"
+    - name: Zola build
+      run: ./zola build
     - name: Deploy
       if: github.ref == 'refs/heads/source'
       uses: crazy-max/ghaction-github-pages@v1
