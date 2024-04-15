@@ -120,6 +120,25 @@ Please come and see us on the [Discord][OpenCombat_discord] to make your feedbac
 [OpenCombat_discord]: https://discord.gg/6P2vtFh2Px
 [OpenCombat_release]: https://github.com/buxx/OpenCombat/releases
 
+### [Times of Progress][times-of-progress-steam]
+
+![Times of Progress: an isometric city builder game set during the industrial revolution](times_of_progress.jpg)
+
+Times of Progress ([Steam][times-of-progress-steam]) is an upcoming city builder game set during the industrial revolution.
+
+During the month of April:
+- The orders systems (how buildings request resources from other buildings) has been refactored to improve performance and make better use of the ECS.
+- Lots of UI widgets have been developed, in particular those related to showing stats about currently hovered and selected building, as well as during building placement.
+
+The demo is not available yet but interested players can sign up for the upcoming closed beta by joining the [newsletter][times-of-progress-newsletter].
+
+More GIFs and progress updates are available on [Twitter][times-of-progress-twitter] and [Mastodon][times-of-progress-mastodon].
+
+[times-of-progress-steam]: https://store.steampowered.com/app/2628450/Times_of_Progress/
+[times-of-progress-newsletter]: https://subscribepage.io/pressingthumbs
+[times-of-progress-twitter]: https://twitter.com/ElmoSampedro
+[times-of-progress-mastodon]: https://mastodon.online/@elmowilk
+
 ## Engine Updates
 
 ### Bottomless-Pit 0.3.1
