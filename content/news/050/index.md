@@ -140,6 +140,28 @@ More GIFs and progress updates are available on [Twitter][times-of-progress-twit
 [times-of-progress-twitter]: https://twitter.com/ElmoSampedro
 [times-of-progress-mastodon]: https://mastodon.online/@elmowilk
 
+### Monk Tower
+
+![Monk Tower Screen shot](monk_tower.png)
+
+Monk Tower ([itch.io][monk-tower-itch], [Google Play][monk-tower-play], [Github][monk-tower-github])
+is a tiny coffee-break roguelike game, intended for short runs (ca. 15mins).
+
+The gameplay is quite distilled and revolves mostly around resource management.
+The player has limited inventory capacity and the weapons get damaged
+after each use. There are 20 randomly generated levels to beat.
+
+It is available on desktop (Windows / Linux), Android an Web (mobile friendly).
+The game is open-sourced - together with a custom WGPU-based 2d framework.
+
+_Discussions: ([/r/roguelikes][monk-tower-reddit])
+
+[monk-tower-itch]: https://maciekglowka.itch.io/monk-tower
+[monk-tower-play]: https://play.google.com/store/apps/details?id=com.maciejglowka.monk_tower
+[monk-tower-github]: https://github.com/maciekglowka/tower-rl
+[monk-tower-reddit]: https://www.reddit.com/r/roguelikes/comments/1butvew/monk_tower_a_coffeebreak_roguelike_google_play/
+
+
 ## Engine Updates
 
 ### Bottomless-Pit 0.3.1
