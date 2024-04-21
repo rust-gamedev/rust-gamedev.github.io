@@ -161,6 +161,24 @@ _Discussions: ([/r/roguelikes][monk-tower-reddit])
 [monk-tower-github]: https://github.com/maciekglowka/tower-rl
 [monk-tower-reddit]: https://www.reddit.com/r/roguelikes/comments/1butvew/monk_tower_a_coffeebreak_roguelike_google_play/
 
+### You are Merlin
+
+![You are Merlin screenshot](you-are-merlin.png)
+
+You are Merlin ([Web Game][you-are-merlin-web], [GitHub - Rust/CLI][you-are-merlin-github], [GitHub - WASM][you-are-merlin-www-github]) by @hseager
+is a text adventure game that compiles to both CLI and WebAssembly.
+
+This initial version features a main quest, side quests, items and a boss fight.
+Players can choose their favourite theme such as Zelda, Warcraft and Fallout. 
+With the web version, players can select their prefered input method of buttons or keyboard and fully works on mobile.
+Although fairly simple, this first version provides a good foundation for building more features in later updates.
+
+_Discussions: ([Reddit post][you-are-merlin-reddit-post])
+
+[you-are-merlin-web]: https://hseager.github.io/you-are-merlin-www/
+[you-are-merlin-github]: https://github.com/hseager/you-are-merlin
+[you-are-merlin-www-github]: https://github.com/hseager/you-are-merlin-www
+[you-are-merlin-reddit-post]: https://old.reddit.com/r/rust_gamedev/comments/1c9k1kb/you_are_merlin_a_text_adventure_game/
 
 ## Engine Updates
 
