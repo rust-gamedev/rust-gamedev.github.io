@@ -204,6 +204,24 @@ Current features are:
 
 ## Learning Material Updates
 
+### Building games for Android with Rust
+
+@maciekglowka has recently shared some thoughts about building Rust games
+for Android. Rather than a step-by-step guide, it is a collection
+of issues one can possibly encounter when targeting Android.
+
+Topics mentioned:
+
+- 'window' creation (via winit)
+- Android app's lifecycle vs. the WGPU surface creation
+- user data storage
+- system UI hiding via jni and Android API
+- building AAB files to meet Google Play requirements
+
+[Blog post link][android-games-blog]
+
+[android-games-blog]: https://maciejglowka.com/blog/building-games-for-android-with-rust/
+
 ## Tooling Updates
 
 ## Library Updates
