@@ -119,8 +119,10 @@ That's all news for today, thanks for reading!
 Want something mentioned in the next newsletter?
 [Send us a pull request][pr].
 
-Also, subscribe to [@rust_gamedev on Twitter][@rust_gamedev]
-or [/r/rust_gamedev subreddit][/r/rust_gamedev] if you want to receive fresh news!
+Also, subscribe to our socials if you want to receive fresh news!
+- X/Twitter: [@rust_gamedev][@x_rust_gamedev]
+- Mastodon: [@rust_gamedev][@mastodon_rust_gamedev]
+- Reddit: [/r/rust_gamedev][/r/rust_gamedev]
 
 <!--
 TODO: Add real links and un-comment once this post is published
@@ -132,4 +134,5 @@ TODO: Add real links and un-comment once this post is published
 -->
 
 [/r/rust_gamedev]: https://reddit.com/r/rust_gamedev
-[@rust_gamedev]: https://twitter.com/rust_gamedev
+[@x_rust_gamedev]: https://twitter.com/rust_gamedev
+[@mastodon_rust_gamedev]: https://mastodon.gamedev.place/@rust_gamedev
