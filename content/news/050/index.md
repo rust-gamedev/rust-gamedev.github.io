@@ -189,11 +189,13 @@ _Jumpy: Machine gun and Periscope_
 [Spicy Lobster][spicy_lobster] is a pixel-style, tactical 2D shooter with a fishy
 theme.
 
-This month the base functionality of round scoring and map transitions have been implemented. New weapons such as the Blunderbuss, Periscope, and Machine Gun are ready for fish on fish combat.
+This month the base functionality of round scoring and map transitions have been implemented.
+New weapons such as the Blunderbuss, Periscope, and Machine Gun are ready for fish on fish combat.
 
 Jumpy is now featuring corpse physics and a "ragdoll" button to send your Fish [flopping about][jumpy_ragdoll].
 
-On the treasure map for the near future is improving UX and new player experience, polish and improvements on match scoring / round transitions, and more awesome weapons.
+On the treasure map for the near future is improving UX and new player experience,
+polish and improvements on match scoring / round transitions, and more awesome weapons.
 
 _Discussions: [GitHub][jumpy_discussions], [Twitter][jumpy_twitter]_
 
