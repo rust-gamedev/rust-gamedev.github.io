@@ -69,6 +69,45 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Way of Rhea][wor]
+
+[![Way of Rhea](wor.jpg)][wor-trailer]
+
+[Way of Rhea][wor] just got a release date: it will be coming to Steam on
+**May 20th, 2024**!
+
+Way of Rhea is a color based puzzle game with difficult puzzles, but forgiving
+mechanics being developed by [@masonremaley] in a custom Rust engine.
+
+You can support development by [wishlisting Way of Rhea on Steam][wor], or
+[signing up for the mailing list][wor-mail].
+
+Recent updates:
+- A [closed beta][wor-closed-beta] began
+- All characters now have voices
+- A [reset button][wor-reset] was added for when undo is inconvenient
+- Speech bubbles now [identify the speaker][wor-speech-bubble]
+- Orbs now are shown with an "xray" effect so they are visible even when behind scenery
+- Older CPUs without AVX support are [now supported][wor-avx]
+- Various [speedrunning features][wor-speedrun] were added
+- Secrets were made harder
+- An [in game achievement UI][wor-achievements] was created
+- An [in game Jukebox UI][wor-jukebox] was created
+- For more updates, see the [release notes on Steam][wor-release-notes]...
+
+[@masonremaley]: https://twitter.com/masonremaley
+[wor]: https://store.steampowered.com/app/1110620/Way_of_Rhea/?utm_campaign=tmirgd&utm_source=n50
+[wor-trailer]: https://youtu.be/vFsO436r2Pw
+[wor-closed-beta]: https://store.steampowered.com/news/app/1110620/view/7665759271877780609
+[wor-reset]: https://clan.cloudflare.steamstatic.com/images//35599024/49e8760118b7b18e3b230ba3a3a28179c4b0e526.png
+[wor-speech-bubble]: https://clan.cloudflare.steamstatic.com/images//35599024/5f63bca0a4258a26e77ac40b3d2a75f197304dcb.png
+[wor-avx]: https://store.steampowered.com/news/app/1110620/view/4118050466869150657
+[wor-speedrun]: https://clan.cloudflare.steamstatic.com/images//35599024/6ee82d4e0105f073082c83626e37933e682b5936.png
+[wor-achievements]: https://clan.cloudflare.steamstatic.com/images//35599024/573f81c1ebce54d9efedcd693fcbe684a5629c7f.png
+[wor-jukebox]: https://clan.cloudflare.steamstatic.com/images//35599024/b21c4b8ce5fa9cca7c6c1967ec5ffe169d8f1cb2.png
+[wor-mail]: https://anthropicstudios.com/newsletter/signup/tech
+[wor-release-notes]: https://store.steampowered.com/news/app/1110620
+
 ### [SM64JSARCHIVE][sm64jsarchive]
 
 ![Super Mario 64 JavaScript](sm64jsarchive.jpg)
