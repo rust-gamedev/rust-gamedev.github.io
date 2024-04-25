@@ -219,6 +219,32 @@ _Discussions: ([Reddit post][you-are-merlin-reddit-post])
 [you-are-merlin-www-github]: https://github.com/hseager/you-are-merlin-www
 [you-are-merlin-reddit-post]: https://old.reddit.com/r/rust_gamedev/comments/1c9k1kb/you_are_merlin_a_text_adventure_game/
 
+### [Jumpy]
+
+![Machine Gun and Periscope](jumpy.png)
+_Jumpy: Machine gun and Periscope_
+
+[Jumpy] ([GitHub][Jumpy], [Discord][jumpy_discord], [Twitter][jumpy_twitter]) by
+[Spicy Lobster][spicy_lobster] is a pixel-style, tactical 2D shooter with a fishy
+theme.
+
+This month the base functionality of round scoring and map transitions have been implemented.
+New weapons such as the Blunderbuss, Periscope, and Machine Gun are ready for fish on fish combat.
+
+Jumpy is now featuring corpse physics and a "ragdoll" button to send your Fish [flopping about][jumpy_ragdoll].
+
+On the treasure map for the near future is improving UX and new player experience,
+polish and improvements on match scoring / round transitions, and more awesome weapons.
+
+_Discussions: [GitHub][jumpy_discussions], [Twitter][jumpy_twitter]_
+
+[Jumpy]: https://github.com/fishfolks/jumpy
+[jumpy_ragdoll]: https://github.com/fishfolk/jumpy/pull/932
+[jumpy_discussions]: https://github.com/fishfolks/jumpy/discussions
+[jumpy_twitter]: https://twitter.com/spicylobsterfam
+[jumpy_discord]: https://discord.gg/4smxjcheE5
+[spicy_lobster]: https://spicylobster.itch.io/
+
 ## Engine Updates
 
 ### Bottomless-Pit 0.3.1
