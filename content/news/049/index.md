@@ -291,7 +291,7 @@ Google Play Store.
 
 ## Tooling Updates
 
-### [Space editor](space_editor)
+### [Space editor][space_editor]
 
 ![Space editor window with opened level](space_editor.png)
 
