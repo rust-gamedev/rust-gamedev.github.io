@@ -58,6 +58,14 @@ _Discussions:
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
+## Internal Updates
+
+It's been a while, huh? This newsletter is coming to you with a delay because
+the project cost too much maintainer burden and was put on hold for a while.
+Since then, we have had some restructuring and are back now, starting this month!
+The exact details will be part of April's newsletter, scheduled for release on May 3rd (just 5 days from now!)  
+See you all then!
+
 ## Game Updates
 
 ### [Graviton - The Great Sand Simulator][graviton-steam]
