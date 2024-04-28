@@ -29,6 +29,7 @@ Feel free to send PRs about your own projects!
 [pr]: https://github.com/rust-gamedev/rust-gamedev.github.io
 [coordination]: https://github.com/rust-gamedev/rust-gamedev.github.io/issues?q=label%3Acoordination
 
+- [Announcements](#announcements)
 - [Game Updates](#game-updates)
 - [Engine Updates](#engine-updates)
 - [Learning Material Updates](#learning-material-updates)
@@ -58,7 +59,7 @@ _Discussions:
 If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
-## Internal Updates
+## Announcements
 
 It's been a while, huh? This newsletter is coming to you with a delay because
 the project cost too much maintainer burden and was put on hold for a while.
