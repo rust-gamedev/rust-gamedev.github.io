@@ -341,7 +341,7 @@ mobile/WASM support and the need to pre-define events & states.
 
 [dexterous_developer]: https://github.com/lee-orr/dexterous_developer
 [@lee-orr]: https://github.com/lee-orr
-[Bevy]: bevyengine.org
+[Bevy]: https://bevyengine.org
 
 ### [nanogltf]
 
