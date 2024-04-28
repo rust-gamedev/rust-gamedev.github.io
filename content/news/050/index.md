@@ -69,6 +69,45 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Way of Rhea][wor]
+
+[![Way of Rhea](wor.jpg)][wor-trailer]
+
+[Way of Rhea][wor] just got a release date: it will be coming to Steam on
+**May 20th, 2024**!
+
+Way of Rhea is a color based puzzle game with difficult puzzles, but forgiving
+mechanics being developed by [@masonremaley] in a custom Rust engine.
+
+You can support development by [wishlisting Way of Rhea on Steam][wor], or
+[signing up for the mailing list][wor-mail].
+
+Recent updates:
+- A [closed beta][wor-closed-beta] began
+- All characters now have voices
+- A [reset button][wor-reset] was added for when undo is inconvenient
+- Speech bubbles now [identify the speaker][wor-speech-bubble]
+- Orbs now are shown with an "xray" effect so they are visible even when behind scenery
+- Older CPUs without AVX support are [now supported][wor-avx]
+- Various [speedrunning features][wor-speedrun] were added
+- Secrets were made harder
+- An [in game achievement UI][wor-achievements] was created
+- An [in game Jukebox UI][wor-jukebox] was created
+- For more updates, see the [release notes on Steam][wor-release-notes]...
+
+[@masonremaley]: https://twitter.com/masonremaley
+[wor]: https://store.steampowered.com/app/1110620/Way_of_Rhea/?utm_campaign=tmirgd&utm_source=n50
+[wor-trailer]: https://youtu.be/vFsO436r2Pw
+[wor-closed-beta]: https://store.steampowered.com/news/app/1110620/view/7665759271877780609
+[wor-reset]: https://clan.cloudflare.steamstatic.com/images//35599024/49e8760118b7b18e3b230ba3a3a28179c4b0e526.png
+[wor-speech-bubble]: https://clan.cloudflare.steamstatic.com/images//35599024/5f63bca0a4258a26e77ac40b3d2a75f197304dcb.png
+[wor-avx]: https://store.steampowered.com/news/app/1110620/view/4118050466869150657
+[wor-speedrun]: https://clan.cloudflare.steamstatic.com/images//35599024/6ee82d4e0105f073082c83626e37933e682b5936.png
+[wor-achievements]: https://clan.cloudflare.steamstatic.com/images//35599024/573f81c1ebce54d9efedcd693fcbe684a5629c7f.png
+[wor-jukebox]: https://clan.cloudflare.steamstatic.com/images//35599024/b21c4b8ce5fa9cca7c6c1967ec5ffe169d8f1cb2.png
+[wor-mail]: https://anthropicstudios.com/newsletter/signup/tech
+[wor-release-notes]: https://store.steampowered.com/news/app/1110620
+
 ### [SM64JSARCHIVE][sm64jsarchive]
 
 ![Super Mario 64 JavaScript](sm64jsarchive.jpg)
@@ -140,6 +179,72 @@ More GIFs and progress updates are available on [Twitter][times-of-progress-twit
 [times-of-progress-twitter]: https://twitter.com/ElmoSampedro
 [times-of-progress-mastodon]: https://mastodon.online/@elmowilk
 
+### Monk Tower
+
+![Monk Tower Screen shot](monk_tower.png)
+
+Monk Tower ([itch.io][monk-tower-itch], [Google Play][monk-tower-play], [Github][monk-tower-github])
+is a tiny coffee-break roguelike game, intended for short runs (ca. 15mins).
+
+The gameplay is quite distilled and revolves mostly around resource management.
+The player has limited inventory capacity and the weapons get damaged
+after each use. There are 20 randomly generated levels to beat.
+
+It is available on desktop (Windows / Linux), Android an Web (mobile friendly).
+The game is open-sourced - together with a custom WGPU-based 2d framework.
+
+_Discussions: ([/r/roguelikes][monk-tower-reddit])
+
+[monk-tower-itch]: https://maciekglowka.itch.io/monk-tower
+[monk-tower-play]: https://play.google.com/store/apps/details?id=com.maciejglowka.monk_tower
+[monk-tower-github]: https://github.com/maciekglowka/tower-rl
+[monk-tower-reddit]: https://www.reddit.com/r/roguelikes/comments/1butvew/monk_tower_a_coffeebreak_roguelike_google_play/
+
+### You are Merlin
+
+![You are Merlin screenshot](you-are-merlin.png)
+
+You are Merlin ([Web Game][you-are-merlin-web], [GitHub - Rust/CLI][you-are-merlin-github], [GitHub - WASM][you-are-merlin-www-github]) by @hseager
+is a text adventure game that compiles to both CLI and WebAssembly.
+
+This initial version features a main quest, side quests, items and a boss fight.
+Players can choose their favourite theme such as Zelda, Warcraft and Fallout. 
+With the web version, players can select their prefered input method of buttons or keyboard and fully works on mobile.
+Although fairly simple, this first version provides a good foundation for building more features in later updates.
+
+_Discussions: ([Reddit post][you-are-merlin-reddit-post])
+
+[you-are-merlin-web]: https://hseager.github.io/you-are-merlin-www/
+[you-are-merlin-github]: https://github.com/hseager/you-are-merlin
+[you-are-merlin-www-github]: https://github.com/hseager/you-are-merlin-www
+[you-are-merlin-reddit-post]: https://old.reddit.com/r/rust_gamedev/comments/1c9k1kb/you_are_merlin_a_text_adventure_game/
+
+### [Jumpy]
+
+![Machine Gun and Periscope](jumpy.png)
+_Jumpy: Machine gun and Periscope_
+
+[Jumpy] ([GitHub][Jumpy], [Discord][jumpy_discord], [Twitter][jumpy_twitter]) by
+[Spicy Lobster][spicy_lobster] is a pixel-style, tactical 2D shooter with a fishy
+theme.
+
+This month the base functionality of round scoring and map transitions have been implemented.
+New weapons such as the Blunderbuss, Periscope, and Machine Gun are ready for fish on fish combat.
+
+Jumpy is now featuring corpse physics and a "ragdoll" button to send your Fish [flopping about][jumpy_ragdoll].
+
+On the treasure map for the near future is improving UX and new player experience,
+polish and improvements on match scoring / round transitions, and more awesome weapons.
+
+_Discussions: [GitHub][jumpy_discussions], [Twitter][jumpy_twitter]_
+
+[Jumpy]: https://github.com/fishfolks/jumpy
+[jumpy_ragdoll]: https://github.com/fishfolk/jumpy/pull/932
+[jumpy_discussions]: https://github.com/fishfolks/jumpy/discussions
+[jumpy_twitter]: https://twitter.com/spicylobsterfam
+[jumpy_discord]: https://discord.gg/4smxjcheE5
+[spicy_lobster]: https://spicylobster.itch.io/
+
 ## Engine Updates
 
 ### Bottomless-Pit 0.3.1
@@ -164,6 +269,24 @@ Current features are:
 
 ## Learning Material Updates
 
+### Building games for Android with Rust
+
+@maciekglowka has recently shared some thoughts about building Rust games
+for Android. Rather than a step-by-step guide, it is a collection
+of issues one can possibly encounter when targeting Android.
+
+Topics mentioned:
+
+- 'window' creation (via winit)
+- Android app's lifecycle vs. the WGPU surface creation
+- user data storage
+- system UI hiding via jni and Android API
+- building AAB files to meet Google Play requirements
+
+[Blog post link][android-games-blog]
+
+[android-games-blog]: https://maciejglowka.com/blog/building-games-for-android-with-rust/
+
 ## Tooling Updates
 
 ## Library Updates
@@ -178,8 +301,8 @@ Check out the [examples][lightyear_examples]!
 The latest release, [0.13][lightyear_release], brings two big new features:
 - **Steam support**: you can now use the Steamworks SDK as your transport layer, which lets you use the Valve network!
 Note that lightyear supports running multiple transports in parallel, so it's possible to have cross-play between steam and non-steam users.
-- **Listen-server mode**: it is not possible to run a server and a client in the same process/bevy app.
-This is can be useful to avoid the costs of a dedicated server, or to have a similar codebase between singleplayer and multiplayer.
+- **Listen-server mode**: it is now possible to run a server and a client in the same process/bevy app.
+This can be useful to avoid the costs of a dedicated server, or to have a similar codebase between singleplayer and multiplayer.
 
 [Example (with 300ms of latency)](https://github.com/cBournhonesque/lightyear/assets/8112632/ee547c32-1f14-4bdc-9e6d-67f900af84d0)
 
