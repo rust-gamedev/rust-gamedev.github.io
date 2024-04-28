@@ -295,7 +295,7 @@ Google Play Store.
 
 ![Space editor window with opened level](space_editor.png)
 
-[Space editor](space_editor) is an editor designed for Bevy engine
+[Space editor][space_editor] is an editor designed for Bevy engine
 that simplifies level and object template creation. Here are its key features:
 
 - Intuitive UI is built on top of bevy-inspector-egui and egui-gizmo
