@@ -158,10 +158,8 @@ Recent updates:
 
 ![Super Mario 64 JavaScript](sm64jsarchive.jpg)
 
-[SM64JSARCHIVE][sm64jsarchive] Source code available on the ([GitHub][sm64jsarchive-github], sm64jsarchive is a rewrite
-of the decompilation project of Super Mario 64 JavaScript as an actively maintained fork instead. 
-The reason this was made as original sm64js's developers and admins / moderators got demotivated and 
-fully left the project sm64jsarchive was made as an new reboot of sm64js.
+[SM64JSARCHIVE][sm64jsarchive] is an actively maintained fork of [sm64js]: a decompilation project of Super Mario 64 to javaScript.
+Its source code is available on [GitHub][sm64jsarchive-github]
 
 The [backend server][sm64jsarchive-server] has been finally been able to start after 10 long months
 and is now live to <https://mmo.sm64jsarchive.com>
@@ -171,12 +169,13 @@ The newest updates have been:
 - Working MMO
 - More stable changes to the games client
 
-A stress test is scheduled for 2024-4-10 12:25 CST and everyone is invited!
+A stress test is scheduled for 2024-04-10 12:25 CST and everyone is invited!
 
-Note: if you have a laggy computer or something like that and the page does not load within 10-20 minutes then please try refreshing.
+Note: if you have a laggy computer or the page does not load within 10-20 minutes then please try refreshing.
 
 [sm64jsarchive]: https://mmo.sm64jsarchive.com
 [sm64jsarchive-github]: https://github.com/uuphoria2/sm64jsarchive
+[sm64js]: https://github.com/sm64js/sm64js
 [sm64jsarchive-server]: https://github.com/sm64jsarchived/sm64jsarchive-mmo-server
 
 ### [Open Combat][OpenCombat_website]
@@ -186,12 +185,12 @@ _Official demo available soon_
 
 Open Combat ([Website][OpenCombat_website], [GitHub][OpenCombat_github],
 [Discord][OpenCombat_discord]) is a real-time tactical game
-which takes place during the 2nd World War.
+which takes place during World War II.
 
-Some major changes since last news !
+Some major changes since last news!
 
 - Basic HUD is now complete
-- Hight definition map finished for the demo
+- High definition map finished for the demo
 - Basic game logic finished
 
 The game demo is almost finished.
@@ -236,10 +235,10 @@ The gameplay is quite distilled and revolves mostly around resource management.
 The player has limited inventory capacity and the weapons get damaged
 after each use. There are 20 randomly generated levels to beat.
 
-It is available on desktop (Windows / Linux), Android an Web (mobile friendly).
-The game is open-sourced - together with a custom WGPU-based 2d framework.
+It is available on desktop (Windows / Linux), Android and Web (mobile friendly).
+The game is [open-sourced][monk-tower-github]) - together with a custom WGPU-based 2d framework.
 
-_Discussions: ([/r/roguelikes][monk-tower-reddit])
+_Discussions: ([/r/roguelikes][monk-tower-reddit])_
 
 [monk-tower-itch]: https://maciekglowka.itch.io/monk-tower
 [monk-tower-play]: https://play.google.com/store/apps/details?id=com.maciejglowka.monk_tower
@@ -258,7 +257,7 @@ Players can choose their favourite theme such as Zelda, Warcraft and Fallout.
 With the web version, players can select their prefered input method of buttons or keyboard and fully works on mobile.
 Although fairly simple, this first version provides a good foundation for building more features in later updates.
 
-_Discussions: ([Reddit post][you-are-merlin-reddit-post])
+_Discussions: ([Reddit post][you-are-merlin-reddit-post])_
 
 [you-are-merlin-web]: https://hseager.github.io/you-are-merlin-www/
 [you-are-merlin-github]: https://github.com/hseager/you-are-merlin
@@ -297,17 +296,18 @@ _Discussions: [GitHub][jumpy_discussions], [Twitter][jumpy_twitter]_
 ![The Bottomles-Pit Logo. A small hole in the ground with cat ears and text saying bottomless-pit](https://eggshark.dev/images/bplogo.png)
 
 
-Bottomless-Pit is a 2d game engine written with WGPU that has been around for a year which can be found on [crates.io][Bottomless-Pit_cratesio] and [GitHub][Bottomless-Pit_github].
+Bottomless-Pit is a 2d game engine written with WGPU that has been around for a year, which can be found on [crates.io][Bottomless-Pit_cratesio] and [GitHub][Bottomless-Pit_github].
 Very recently a 2d camera was added as well as WASM and web support.
 Current development is being focused on stability and QoL changes like texture sampling options and improved input.
 You can checkout several engine examples on the web [here][Bottomless-Pit_Website].
-Since the engine is in it's infancy it would be great to have developers use it and give the engine some feedback.
+Since the engine is in its infancy, its developer calls for developers to use it and give the engine some feedback.
+
 Current features are:
 
 - Custom Shader Support
-- basic rendering
-- text rendering
-- input and window event handling
+- Basic rendering
+- Text rendering
+- Input and window event handling
 
 [Bottomless-Pit_Website]: https://eggshark.dev/bp-examples
 [Bottomless-Pit_cratesio]: https://crates.io/crates/bottomless-pit
@@ -323,11 +323,11 @@ of issues one can possibly encounter when targeting Android.
 
 Topics mentioned:
 
-- 'window' creation (via winit)
+- 'Window' creation (via winit)
 - Android app's lifecycle vs. the WGPU surface creation
-- user data storage
-- system UI hiding via jni and Android API
-- building AAB files to meet Google Play requirements
+- User data storage
+- System UI hiding via jni and Android API
+- Building AAB files to meet Google Play requirements
 
 [Blog post link][android-games-blog]
 
