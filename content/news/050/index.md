@@ -174,7 +174,7 @@ which takes place during World War II.
 The basic game logic and HUD are now complete, 
 and the high definition map for the demo is finished.
 
-Some things are missing, like soldier high definition assets, or minimal AI for opponent.
+Some things are missing, like high definition assets for soldiers or minimal AI for opponents.
 But the demo is playable and the team would love to hear your feedback!
 
 You can find game binaries on the [Github page][OpenCombat_release].
