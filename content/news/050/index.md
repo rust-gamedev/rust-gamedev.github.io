@@ -111,7 +111,7 @@ That's all for now. Have fun reading!
 [@janhohenheim]: https://github.com/janhohenheim
 [@Vrixyz]: https://github.com/Vrixyz
 [monthly_schedule]: https://github.com/rust-gamedev/rust-gamedev.github.io/issues/1417#issuecomment-1764534286
-[survey]: TODO
+[survey]: https://forms.gle/oeSb46twWsxRKYJe7
 [Discord]: https://discord.gg/game-development-in-rust-676678179678715904
 
 ## Game Updates
