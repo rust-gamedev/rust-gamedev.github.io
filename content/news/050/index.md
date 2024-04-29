@@ -61,7 +61,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Announcements 
 
-*Please fill out [this survey][survey] before skiping this section! More info below!*
+*Please fill out [this survey][survey] before skipping this section! More info below!*
 
 Hey everyone, it's been a while! As you've certainly noticed, the newsletter was on
 a hiatus for a while. The reason was mostly maintainer burnout, which is also why
@@ -74,7 +74,7 @@ by the community, and making sure the format is sustainable for the long term.
 ### Schedule Changes
 
 Thierry Berger ([@Vrixyz]), who has also decided to help with the project,
-has come up with a new monthly schedule that we will try out:
+has come up with a new [monthly schedule][monthly_schedule] that we will try out:
 
 - 3rd of the month: Newsletter starts. A call for submissions is made on social media 
 and community Discord servers interested in receiving it. At the same time, last month's newsletter is published.
@@ -110,6 +110,7 @@ That's all for now. Have fun reading!
 [august-news]: https://gamedev.rs/news/049/
 [@janhohenheim]: https://github.com/janhohenheim
 [@Vrixyz]: https://github.com/Vrixyz
+[monthly_schedule]: https://github.com/rust-gamedev/rust-gamedev.github.io/issues/1417#issuecomment-1764534286
 [survey]: TODO
 [Discord]: https://discord.gg/game-development-in-rust-676678179678715904
 
