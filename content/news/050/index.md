@@ -321,13 +321,22 @@ This can be useful to avoid the costs of a dedicated server, or to have a simila
 
 ### Bevy rustunit meetup
 
-[Rustunit](https://rustunit.com/) has hosted its 3rd unofficial online [bevy](https://bevyengine.org/) meetup with the following topics:
+
+![Bevy meetup youtube extract](bevy_rustunit_meetup_3.jpg)
+_Bevy meetup youtube extract, showing its 3 participants._
+
+[Rustunit][rustunit] has hosted its 3rd unofficial online [Bevy Engine](bevy) meetup on April 19th with the following topics:
 - Intro / Code of Conduct
 - Julian - Animating 3D Characters with Bevy
 - Niklas - Learnings from a Bevy game template
 
-Check out [the recording](https://www.youtube.com/watch?v=wiqORszJKbM)
-and join [the meetup group](https://www.meetup.com/bevy-game-development/) to get notified of future events.
+Check out [the recording](rustunit_bevy_meetup_youtube)
+and join [the meetup group](rustunit_bevy_meetup_event) to get notified of future events.
+
+[rustunit]: https://rustunit.com/
+[rustunit_bevy_meetup_youtube]: https://www.youtube.com/watch?v=Fyr1ud1OIpU
+[rustunit_bevy_meetup_event]: https://www.meetup.com/bevy-game-development/
+[bevy]: https://bevyengine.org/
 
 ## Meeting Minutes
 
