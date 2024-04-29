@@ -33,15 +33,9 @@ Feel free to send PRs about your own projects!
 - [Game Updates](#game-updates)
 - [Engine Updates](#engine-updates)
 - [Learning Material Updates](#learning-material-updates)
-- [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
-- [Popular Workgroup Issues in GitHub](#popular-workgroup-issues-in-github)
 - [Other News](#other-news)
-- [Meeting Minutes](#meeting-minutes)
 - [Discussions](#discussions)
-- [Requests for Contribution](#requests-for-contribution)
-- [Jobs](#jobs)
-- [Bonus](#bonus)
 
 <!--
 Ideal section structure is:
@@ -339,9 +333,24 @@ Topics mentioned:
 
 [android-games-blog]: https://maciejglowka.com/blog/building-games-for-android-with-rust/
 
-## Tooling Updates
+
+### Bevy: A case study in ergonomic Rust
+
+TODO: <https://www.youtube.com/watch?v=CnoDOc6ML0Y>
+
+### Reactivity in Bevy: From the Bottom Up
+
+TODO: <https://machinewords.hashnode.dev/reactivity-in-bevy-from-the-bottom-up-part-1>
 
 ## Library Updates
+
+### Jolt Bindings
+
+TODO: <https://docs.rs/joltc-sys/0.1.1+Jolt-5.0.0/joltc_sys/>
+
+### Hexx 0.17
+
+TODO: <https://github.com/ManevilleF/hexx/releases/tag/0.17.0>
 
 ### [Lightyear 0.13][lightyear_website]
 
@@ -362,41 +371,14 @@ This can be useful to avoid the costs of a dedicated server, or to have a simila
 [lightyear_release]: https://github.com/cBournhonesque/lightyear/releases/tag/0.13.0
 [lightyear_examples]: https://github.com/cBournhonesque/lightyear/tree/main/examples
 
-
-## Popular Workgroup Issues in GitHub
-
-<!-- Up to 10 links to interesting issues -->
-
 ## Other News
 
-<!-- One-liners for plan items that haven't got their own sections. -->
-
-## Meeting Minutes
-
-<!-- Up to 10 most important notes + a link to the full details -->
-
-[See all meeting issues][label_meeting] including full text notes
-or [join the next meeting][join].
-
-[label_meeting]: https://github.com/rust-gamedev/wg/issues?q=label%3Ameeting
+Alice I. Cecile of the Bevy Foundation would like to collect community feedback
+on game development in Rust. Please fill out [her survey](https://forms.gle/kLzv5Ww3U8dLGUHU8)!
 
 ## Discussions
 
-<!-- Links to handpicked reddit/twitter/urlo/etc threads that provide
-useful information -->
-
-## Requests for Contribution
-
-<!-- Links to "good first issue"-labels or direct links to specific tasks -->
-
-## Jobs
-
-<!-- An optional section for new jobs related to Rust gamedev -->
-
-## Bonus
-
-<!-- Bonus section to make the newsletter more interesting
-and highlight events from the past. -->
+TODO: <https://loglog.games/blog/leaving-rust-gamedev/>
 
 ------
 
