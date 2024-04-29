@@ -42,6 +42,7 @@ Feel free to send PRs about your own projects!
 - [Requests for Contribution](#requests-for-contribution)
 - [Jobs](#jobs)
 - [Bonus](#bonus)
+- [Future news](#future-news)
 
 <!--
 Ideal section structure is:
@@ -112,12 +113,23 @@ useful information -->
 <!-- Bonus section to make the newsletter more interesting
 and highlight events from the past. -->
 
+## Future news
+
+<!-- Section to get more people involved in writing news. -->
+
+Editing this newsletter wouldn't be possible without [your contributions][news_current_prs], Thanks!
+
+If you want something mentioned in the next newsletter,
+[Send us a pull request][pr]!
+
+And From now on, you can get an early look at [what the future holds][news_future_prs].
+
+[news_current_prs]:https://github.com/rust-gamedev/rust-gamedev.github.io/pulls?q=is%3Apr+in%3Atitle+%27N{{ NEWSLETTER_COUNTER }}%27
+[news_future_prs]: https://github.com/rust-gamedev/rust-gamedev.github.io/pulls?q=is%3Apr+in%3Atitle+%27N{{ NEWSLETTER_COUNTER_NEXT }}%27
+
 ------
 
 That's all news for today, thanks for reading!
-
-Want something mentioned in the next newsletter?
-[Send us a pull request][pr].
 
 Also, subscribe to our socials if you want to receive fresh news!
 - X/Twitter: [@rust_gamedev][@x_rust_gamedev]
