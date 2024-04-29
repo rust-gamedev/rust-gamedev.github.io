@@ -124,34 +124,23 @@ That's all for now. Have fun reading!
 **May 20th, 2024**!
 
 Way of Rhea is a color based puzzle game with difficult puzzles, but forgiving
-mechanics being developed by [@masonremaley] in a custom Rust engine.
+mechanics being developed by [@masonremaley] in a custom engine.
 
 You can support development by [wishlisting Way of Rhea on Steam][wor], or
 [signing up for the mailing list][wor-mail].
 
-Recent updates:
+The most important updates are:
 - A [closed beta][wor-closed-beta] began
 - All characters now have voices
-- A [reset button][wor-reset] was added for when undo is inconvenient
-- Speech bubbles now [identify the speaker][wor-speech-bubble]
-- Orbs now are shown with an "xray" effect so they are visible even when behind scenery
-- Older CPUs without AVX support are [now supported][wor-avx]
 - Various [speedrunning features][wor-speedrun] were added
-- Secrets were made harder
-- An [in game achievement UI][wor-achievements] was created
-- An [in game Jukebox UI][wor-jukebox] was created
-- For more updates, see the [release notes on Steam][wor-release-notes]...
+
+For the full changelog, see the [release notes on Steam][wor-release-notes].
 
 [@masonremaley]: https://twitter.com/masonremaley
 [wor]: https://store.steampowered.com/app/1110620/Way_of_Rhea/?utm_campaign=tmirgd&utm_source=n50
 [wor-trailer]: https://youtu.be/vFsO436r2Pw
 [wor-closed-beta]: https://store.steampowered.com/news/app/1110620/view/7665759271877780609
-[wor-reset]: https://clan.cloudflare.steamstatic.com/images//35599024/49e8760118b7b18e3b230ba3a3a28179c4b0e526.png
-[wor-speech-bubble]: https://clan.cloudflare.steamstatic.com/images//35599024/5f63bca0a4258a26e77ac40b3d2a75f197304dcb.png
-[wor-avx]: https://store.steampowered.com/news/app/1110620/view/4118050466869150657
 [wor-speedrun]: https://clan.cloudflare.steamstatic.com/images//35599024/6ee82d4e0105f073082c83626e37933e682b5936.png
-[wor-achievements]: https://clan.cloudflare.steamstatic.com/images//35599024/573f81c1ebce54d9efedcd693fcbe684a5629c7f.png
-[wor-jukebox]: https://clan.cloudflare.steamstatic.com/images//35599024/b21c4b8ce5fa9cca7c6c1967ec5ffe169d8f1cb2.png
 [wor-mail]: https://anthropicstudios.com/newsletter/signup/tech
 [wor-release-notes]: https://store.steampowered.com/news/app/1110620
 
@@ -159,20 +148,14 @@ Recent updates:
 
 ![Super Mario 64 JavaScript](sm64jsarchive.jpg)
 
-[SM64JSARCHIVE][sm64jsarchive] is an actively maintained fork of [sm64js]: a decompilation project of Super Mario 64 to javaScript.
+[SM64JSARCHIVE][sm64jsarchive] is an actively maintained fork of [sm64js]: a decompilation project of Super Mario 64 to JavaScript.
 Its source code is available on [GitHub][sm64jsarchive-github]
 
-The [backend server][sm64jsarchive-server] has been finally been able to start after 10 long months
-and is now live to <https://mmo.sm64jsarchive.com>
+The [backend server][sm64jsarchive-server], which is written in Rust,
+has been finally been able to start after 10 long months
+and is now live at <https://mmo.sm64jsarchive.com>
 
-The newest updates have been:
-
-- Working MMO
-- More stable changes to the games client
-
-A stress test is scheduled for 2024-04-10 12:25 CST and everyone is invited!
-
-Note: if you have a laggy computer or the page does not load within 10-20 minutes then please try refreshing.
+A successful stress test for the MMO feature was run on 2024-04-10.
 
 [sm64jsarchive]: https://mmo.sm64jsarchive.com
 [sm64jsarchive-github]: https://github.com/uuphoria2/sm64jsarchive
@@ -188,17 +171,14 @@ Open Combat ([Website][OpenCombat_website], [GitHub][OpenCombat_github],
 [Discord][OpenCombat_discord]) is a real-time tactical game
 which takes place during World War II.
 
-Some major changes since last news!
+The basic game logic and HUD are now complete, 
+and the high definition map for the demo is finished.
 
-- Basic HUD is now complete
-- High definition map finished for the demo
-- Basic game logic finished
+Some things are missing, like soldier high definition assets, or minimal AI for opponent.
+But the demo is playable and the team would love to hear your feedback!
 
-The game demo is almost finished.
-Some things are missing like soldier high definition assets, or minimal AI for opponent.
-But the demo is playable and we need some alpha players to make feedbacks 🎮 !
 You can find game binaries on the [Github page][OpenCombat_release].
-Please come and see us on the [Discord][OpenCombat_discord] to make your feedback !
+You can also join the community on their [Discord][OpenCombat_discord].
 
 [OpenCombat_website]: https://opencombat.bux.fr/
 [OpenCombat_github]: https://github.com/buxx/OpenCombat
