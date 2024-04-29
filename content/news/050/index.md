@@ -112,8 +112,8 @@ Recent updates:
 
 ![Super Mario 64 JavaScript](sm64jsarchive.jpg)
 
-[SM64JSARCHIVE][sm64jsarchive] is an actively maintained fork of [sm64js](sm64js): a decompilation project of Super Mario 64 to javaScript.
-Its source code is available on [GitHub](sm64jsarchive-github)
+[SM64JSARCHIVE][sm64jsarchive] is an actively maintained fork of [sm64js]: a decompilation project of Super Mario 64 to javaScript.
+Its source code is available on [GitHub][sm64jsarchive-github]
 
 The [backend server][sm64jsarchive-server] has been finally been able to start after 10 long months
 and is now live to <https://mmo.sm64jsarchive.com>
