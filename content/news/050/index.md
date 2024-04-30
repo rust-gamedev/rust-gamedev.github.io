@@ -365,9 +365,13 @@ on game development in Rust. Please fill out [her survey](https://forms.gle/kLzv
 
 ## Discussions
 
-LogLog games has published a [very well-written blog post](https://loglog.games/blog/leaving-rust-gamedev/>) about their decision to leave Rust gamedev. 
-It contains a lot of valid criticism about Rust as a language in general and as a game development tool in particular. 
-Some good insights into the limitations of ECS are also provided.
+LogLog games has published a [very well-written blog post](https://loglog.games/blog/leaving-rust-gamedev/>) about reasons people might have to leave Rust gamedev.
+It talks about shortcomings in Rust as a language in general and as a game development tool in particular. 
+Some insights into the limitations of ECS are also provided. Some interesting community discussions have been sparked by this post:
+
+- [Hacker News](https://news.ycombinator.com/item?id=40172033)
+- [/r/gamedev](https://www.reddit.com/r/gamedev/comments/1ceipzc/leaving_rust_gamedev_after_3_years_blog_post_by/)
+- [/r/rust](https://www.reddit.com/r/rust/comments/1cdqdsi/lessons_learned_after_3_years_of_fulltime_rust/)
 
 ------
 
