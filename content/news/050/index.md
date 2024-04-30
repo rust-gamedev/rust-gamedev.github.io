@@ -319,7 +319,11 @@ of how it all fits together especially as a large-and-growing OSS project.
 
 ### Reactivity in Bevy: From the Bottom Up
 
-TODO: <https://machinewords.hashnode.dev/reactivity-in-bevy-from-the-bottom-up-part-1>
+[Talin][talin] wrote a three-part series on ["Reactivity in Bevy: From the Bottom Up"][reactivity-blog], 
+which describes the workings of `bevy_reactor`, an experimental, work-in-progress framework for doing reactive programming within Bevy.
+
+[reactivity-blog]: https://machinewords.hashnode.dev/reactivity-in-bevy-from-the-bottom-up-part-1
+[talin]: https://dreamertalin.medium.com/
 
 ## Library Updates
 
