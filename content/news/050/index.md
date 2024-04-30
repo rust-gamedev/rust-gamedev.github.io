@@ -191,10 +191,7 @@ You can also join the community on their [Discord][OpenCombat_discord].
 
 Times of Progress ([Steam][times-of-progress-steam]) is an upcoming city builder game set during the industrial revolution.
 
-During the month of April:
-- The orders systems (how buildings request resources from other buildings) has been refactored to improve performance and make better use of the ECS.
-- Lots of UI widgets have been developed, in particular those related to showing stats about currently hovered and selected building,
-as well as during building placement.
+During the month of April, they improved performance by refactoring the orders system and added lots of UI widgets.
 
 The demo is not available yet but interested players can sign up for the upcoming closed beta by joining the [newsletter][times-of-progress-newsletter].
 
@@ -230,12 +227,12 @@ _Discussions: ([/r/roguelikes][monk-tower-reddit])_
 
 ![You are Merlin screenshot](you-are-merlin.png)
 
-You are Merlin ([Web Game][you-are-merlin-web], [GitHub - Rust/CLI][you-are-merlin-github], [GitHub - WASM][you-are-merlin-www-github]) by @hseager
+You are Merlin ([Web Game][you-are-merlin-web], [GitHub - Rust/CLI][you-are-merlin-github], [GitHub - WASM][you-are-merlin-www-github]) by [@hseager](https://github.com/hseager)
 is a text adventure game that compiles to both CLI and WebAssembly.
 
 This initial version features a main quest, side quests, items and a boss fight.
-Players can choose their favourite theme such as Zelda, Warcraft and Fallout. 
-With the web version, players can select their prefered input method of buttons or keyboard and fully works on mobile.
+Players can choose their favourite visual theme such as Zelda, Warcraft and Fallout. There is also mobile support.
+
 Although fairly simple, this first version provides a good foundation for building more features in later updates.
 
 _Discussions: ([Reddit post][you-are-merlin-reddit-post])_
@@ -254,7 +251,7 @@ _Jumpy: Machine gun and Periscope_
 [Spicy Lobster][spicy_lobster] is a pixel-style, tactical 2D shooter with a fishy
 theme.
 
-This month the base functionality of round scoring and map transitions have been implemented.
+This month the base functionalities of round scoring and map transitions have been implemented.
 New weapons such as the Blunderbuss, Periscope, and Machine Gun are ready for fish on fish combat.
 
 Jumpy is now featuring corpse physics and a "ragdoll" button to send your Fish [flopping about][jumpy_ragdoll].
@@ -280,7 +277,7 @@ _Discussions: [GitHub][jumpy_discussions], [Twitter][jumpy_twitter]_
 Bottomless-Pit is a 2d game engine written with WGPU that has been around for a year, which can be found on [crates.io][Bottomless-Pit_cratesio] and [GitHub][Bottomless-Pit_github].
 Very recently a 2d camera was added as well as WASM and web support.
 Current development is being focused on stability and QoL changes like texture sampling options and improved input.
-You can checkout several engine examples on the web [here][Bottomless-Pit_Website].
+You can checkout several [engine examples on the web][Bottomless-Pit_Website].
 Since the engine is in its infancy, its developer calls for developers to use it and give the engine some feedback.
 
 Current features are:
