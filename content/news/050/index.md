@@ -37,28 +37,6 @@ Feel free to send PRs about your own projects!
 - [Other News](#other-news)
 - [Discussions](#discussions)
 
-<!--
-Ideal section structure is:
-
-```
-### [Title]
-
-![image/GIF description](image link)
-_image caption_
-
-A paragraph or two with a summary and [useful links].
-
-_Discussions:
-[/r/rust](https://reddit.com/r/rust/todo),
-[twitter](https://twitter.com/todo/status/123456)_
-
-[Title]: https://first.link
-[useful links]: https://other.link
-```
-
-If needed, a section can be split into subsections with a "------" delimiter.
--->
-
 ## Announcements 
 
 *Please fill out [this survey][survey] before skipping this section! More info below!*
@@ -329,7 +307,17 @@ which describes the workings of `bevy_reactor`, an experimental, work-in-progres
 
 ### Jolt Bindings
 
-TODO: <https://docs.rs/joltc-sys/0.1.1+Jolt-5.0.0/joltc_sys/>
+[Lucian Greathouse][lucien] has published their [Jolt][jolt] bindings for Rust. Jolt is a C++ physics engine you might know from its use in Horizon: Forbidden West.
+Lucian has previously worked on [JoltC][joltc], a C API for Jolt, which this project uses in the background.
+
+The bindings work can be found on the [just-rust GitHub repo][jolt-rust] GitHub repository and come in two flavors:
+- `joltc-sys`: Unsafe bindings to the C API 
+- `rolt`: Ergonomic and safe Rust API
+
+[lucien]: https://lpg.space/
+[jolt]: https://github.com/jrouwe/JoltPhysics
+[jolt-rust]: https://github.com/SecondHalfGames/jolt-rust
+[joltc]: https://github.com/SecondHalfGames/JoltC
 
 ### Hexx 0.17
 
