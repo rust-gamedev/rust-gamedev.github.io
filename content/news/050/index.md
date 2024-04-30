@@ -123,7 +123,7 @@ That's all for now. Have fun reading!
 [Way of Rhea][wor] just got a release date: it will be coming to Steam on
 **May 20th, 2024**!
 
-Way of Rhea is a color based puzzle game with difficult puzzles, but forgiving
+Way of Rhea ([Steam](https://store.steampowered.com/app/1110620/Way_of_Rhea/)) is a color based puzzle game with difficult puzzles, but forgiving
 mechanics being developed by [@masonremaley] in a custom engine.
 
 You can support development by [wishlisting Way of Rhea on Steam][wor], or
@@ -134,7 +134,7 @@ The most important updates are:
 - All characters now have voices
 - Various [speedrunning features][wor-speedrun] were added
 
-For the full changelog, see the [release notes on Steam][wor-release-notes].
+For the full changelog, see the [release notes][wor-release-notes].
 
 [@masonremaley]: https://twitter.com/masonremaley
 [wor]: https://store.steampowered.com/app/1110620/Way_of_Rhea/?utm_campaign=tmirgd&utm_source=n50
@@ -149,7 +149,7 @@ For the full changelog, see the [release notes on Steam][wor-release-notes].
 ![Super Mario 64 JavaScript](sm64jsarchive.jpg)
 
 [SM64JSARCHIVE][sm64jsarchive] is an actively maintained fork of [sm64js]: a decompilation project of Super Mario 64 to JavaScript.
-Its source code is available on [GitHub][sm64jsarchive-github]
+The code is open-sourced on [GitHub][sm64jsarchive-github].
 
 The [backend server][sm64jsarchive-server], which is written in Rust,
 has been finally been able to start after 10 long months
@@ -167,18 +167,14 @@ A successful stress test for the MMO feature was run on 2024-04-10.
 ![OpenCombat: demo available soon](OpenCombat202404.jpg)
 _Official demo available soon_
 
-Open Combat ([Website][OpenCombat_website], [GitHub][OpenCombat_github],
-[Discord][OpenCombat_discord]) is a real-time tactical game
+Open Combat ([GitHub][OpenCombat_github], [Discord][OpenCombat_discord]) is a real-time tactical game
 which takes place during World War II.
 
 The basic game logic and HUD are now complete, 
 and the high definition map for the demo is finished.
 
 Some things are missing, like high definition assets for soldiers or minimal AI for opponents.
-But the demo is playable and the team would love to hear your feedback!
-
-You can find game binaries on the [Github page][OpenCombat_release].
-You can also join the community on their [Discord][OpenCombat_discord].
+But the [demo is playable][OpenCombat_release]and the team would love to hear your feedback!
 
 [OpenCombat_website]: https://opencombat.bux.fr/
 [OpenCombat_github]: https://github.com/buxx/OpenCombat
@@ -189,13 +185,12 @@ You can also join the community on their [Discord][OpenCombat_discord].
 
 ![Times of Progress: an isometric city builder game set during the industrial revolution](times_of_progress.jpg)
 
-Times of Progress ([Steam][times-of-progress-steam]) is an upcoming city builder game set during the industrial revolution.
+Times of Progress ([Steam][times-of-progress-steam], [Twitter/X][times-of-progress-twitter], [Mastodon][times-of-progress-mastodon]) 
+is an upcoming city builder game set during the industrial revolution.
 
 During the month of April, they improved performance by refactoring the orders system and added lots of UI widgets.
 
 The demo is not available yet but interested players can sign up for the upcoming closed beta by joining the [newsletter][times-of-progress-newsletter].
-
-More GIFs and progress updates are available on [Twitter][times-of-progress-twitter] and [Mastodon][times-of-progress-mastodon].
 
 [times-of-progress-steam]: https://store.steampowered.com/app/2628450/Times_of_Progress/
 [times-of-progress-newsletter]: https://subscribepage.io/pressingthumbs
@@ -214,7 +209,7 @@ The player has limited inventory capacity and the weapons get damaged
 after each use. There are 20 randomly generated levels to beat.
 
 It is available on desktop (Windows / Linux), Android and Web (mobile friendly).
-The game is [open-sourced][monk-tower-github]) - together with a custom WGPU-based 2d framework.
+The game's source code also comes with a custom WGPU-based 2D framework.
 
 _Discussions: ([/r/roguelikes][monk-tower-reddit])_
 
@@ -235,12 +230,12 @@ Players can choose their favourite visual theme such as Zelda, Warcraft and Fall
 
 Although fairly simple, this first version provides a good foundation for building more features in later updates.
 
-_Discussions: ([Reddit post][you-are-merlin-reddit-post])_
+_Discussions: ([/r/rust_gamedev][you-are-merlin-reddit-post])_
 
 [you-are-merlin-web]: https://hseager.github.io/you-are-merlin-www/
 [you-are-merlin-github]: https://github.com/hseager/you-are-merlin
 [you-are-merlin-www-github]: https://github.com/hseager/you-are-merlin-www
-[you-are-merlin-reddit-post]: https://old.reddit.com/r/rust_gamedev/comments/1c9k1kb/you_are_merlin_a_text_adventure_game/
+[you-are-merlin-reddit-post]: https://www.reddit.com/r/rust_gamedev/comments/1c9k1kb/you_are_merlin_a_text_adventure_game/
 
 ### [Jumpy]
 
@@ -270,7 +265,7 @@ _Discussions: [GitHub][jumpy_discussions], [Twitter][jumpy_twitter]_
 
 ## Engine Updates
 
-### Bottomless-Pit 0.3.1
+### Bottomless-Pit
 ![The Bottomles-Pit Logo. A small hole in the ground with cat ears and text saying bottomless-pit](https://eggshark.dev/images/bplogo.png)
 
 
@@ -295,7 +290,7 @@ Current features are:
 
 ### Building games for Android with Rust
 
-@maciekglowka has recently shared some thoughts about building Rust games
+@maciekglowka has recently shared some thoughts [on their blog][[android-games-blog] about building Rust games
 for Android. Rather than a step-by-step guide, it is a collection
 of issues one can possibly encounter when targeting Android.
 
@@ -306,8 +301,6 @@ Topics mentioned:
 - User data storage
 - System UI hiding via jni and Android API
 - Building AAB files to meet Google Play requirements
-
-[Blog post link][android-games-blog]
 
 [android-games-blog]: https://maciejglowka.com/blog/building-games-for-android-with-rust/
 
