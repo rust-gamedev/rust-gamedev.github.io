@@ -328,7 +328,15 @@ TODO: <https://docs.rs/joltc-sys/0.1.1+Jolt-5.0.0/joltc_sys/>
 
 ### Hexx 0.17
 
-TODO: <https://github.com/ManevilleF/hexx/releases/tag/0.17.0>
+Hexx, the popular crate for hexagonal tools, [has released version 0.17](https://github.com/ManevilleF/hexx/releases/tag/0.17.0). 
+This release has a strong focus on performance:
+- Large performance improvement on various computations like rings and wedges
+- Add support for optimized storage for hexagonal and rombus shaped maps
+- Added support for rectiline path
+
+And utility:
+- Added a 13th example showcasing all natively supported shapes
+- Removed confusing items
 
 ### [Lightyear 0.13][lightyear_website]
 
@@ -356,7 +364,9 @@ on game development in Rust. Please fill out [her survey](https://forms.gle/kLzv
 
 ## Discussions
 
-TODO: <https://loglog.games/blog/leaving-rust-gamedev/>
+LogLog games has published a [very well-written blog post](https://loglog.games/blog/leaving-rust-gamedev/>) about their decision to leave Rust gamedev. 
+It contains a lot of valid criticism about Rust as a language in general and as a game development tool in particular. 
+Some good insights into the limitations of ECS are also provided.
 
 ------
 
