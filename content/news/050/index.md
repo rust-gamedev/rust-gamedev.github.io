@@ -70,7 +70,7 @@ in our publishing schedule.
 This restructuring is also a good time to improve the content of the newsletter.
 We've got some community feedback on our [Discord] already and would like to hear more from you.
 It would be great if you could fill out [this survey][survey] to let us know how 
-we can improve the newsletter going forward.
+we can improve the newsletter going forward. The survey closes on the **28th of May**.
 
 ### Future Steps
 
