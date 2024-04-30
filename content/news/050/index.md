@@ -304,10 +304,18 @@ Topics mentioned:
 
 [android-games-blog]: https://maciejglowka.com/blog/building-games-for-android-with-rust/
 
-
 ### Bevy: A case study in ergonomic Rust
 
-TODO: <https://www.youtube.com/watch?v=CnoDOc6ML0Y>
+[Chris Biscardi][chris-yt] was at RustNation UK recently and gave talk on Bevy's 
+Rusty ergonomics titled [Bevy: A case study in ergonomic Rust][case-study-video]. 
+In their own words:
+
+> There's at least two, if not three, talks worth of material around how Bevy progressively discloses complexity 
+across multiple "stacks" of APIs; and the work done so far is very impressive in terms 
+of how it all fits together especially as a large-and-growing OSS project.
+
+[chris-yt]: https://www.youtube.com/c/chrisbiscardi
+[case-study-video]: https://www.youtube.com/watch?v=CnoDOc6ML0Y
 
 ### Reactivity in Bevy: From the Bottom Up
 
