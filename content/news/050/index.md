@@ -71,7 +71,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [CyberGate Playground][cybergate-shorts]
 
-![Improved Hammer Destruction](cybergate.mp4)
+
 _Shooting a Hammer against a Floating Wall and Destroying part of it_
 
 CyberGate Playground is a multiplayer browser game where players claim territory by painting the environment in their color, with the goal of overpowering opponents.
