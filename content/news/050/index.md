@@ -69,6 +69,27 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [CyberGate Playground][cybergate_shorts]
+
+![Shooting a Hammer against a Floating Wall and Destroying part of it](cybergate.mp4)
+
+CyberGate Playground is a multiplayer browser game where players claim territory by painting the environment in their color, with the goal of overpowering opponents.
+
+This month updates include:
+- Flying with butterfly-like mechanics.
+- Fusion Upgrade: Combine hammers, balls, dices, to multiply their powers.
+- Hammer destruction made more challenging and interesting, with upgrades enabling deeper wall penetration.
+- Improved Strength and Weight system, and calculate their impact on character movement and abilities.
+- Added an 'Owned Upgrades' menu using the `yakui` Rust library, giving a neat overview of all acquired upgrades.
+- Many other UI/gameplay improvements based on player feedback.
+
+Rust's ownership and strongly typed features played a crucial role in allowing the gameplay code to scale to more complex and detailed mechanics, while retaining correct, clean and bug-free code.
+
+CyberGate Playground is a passion project, and while it's not open source, I believe in the power of community and love engaging with fellow developers. If you're interested in the game's progress or want to chat about all things CyberGate, feel free to join the [Discord server][cybergate_discord].  
+
+[cybergate_shorts] : https://www.youtube.com/@cyber-gate/shorts
+[cybergate_discord] : https://discord.gg/P3D8weeQ7Z
+
 ### [Way of Rhea][wor]
 
 [![Way of Rhea](wor.jpg)][wor-trailer]
