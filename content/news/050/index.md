@@ -69,7 +69,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
-### [CyberGate Playground][cybergate_shorts]
+### [CyberGate Playground][cybergate-shorts]
 
 ![Shooting a Hammer against a Floating Wall and Destroying part of it](cybergate.mp4)
 
@@ -85,10 +85,10 @@ This month updates include:
 
 Rust's ownership and strongly typed features played a crucial role in allowing the gameplay code to scale to more complex and detailed mechanics, while retaining correct, clean and bug-free code.
 
-CyberGate Playground is a passion project, and while it's not open source, I believe in the power of community and love engaging with fellow developers. If you're interested in the game's progress or want to chat about all things CyberGate, feel free to join the [Discord server][cybergate_discord].  
+CyberGate Playground is a passion project, and while it's not open source, I believe in the power of community and love engaging with fellow developers. If you're interested in the game's progress or want to chat about all things CyberGate, feel free to join the [Discord server][cybergate-discord].  
 
-[cybergate_shorts]: https://www.youtube.com/@cyber-gate/shorts
-[cybergate_discord]: https://discord.gg/P3D8weeQ7Z
+[cybergate-shorts]: https://www.youtube.com/@cyber-gate/shorts
+[cybergate-discord]: https://discord.gg/P3D8weeQ7Z
 
 ### [Way of Rhea][wor]
 
