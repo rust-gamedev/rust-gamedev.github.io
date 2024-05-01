@@ -71,7 +71,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [CyberGate Playground][cybergate-shorts]
 
-
+![Improved Hammer Destruction](cybergate.mp4)
 _Shooting a Hammer against a Floating Wall and Destroying part of it_
 
 CyberGate Playground is a multiplayer browser game where players claim territory by painting the environment in their color, with the goal of overpowering opponents.
@@ -88,7 +88,7 @@ Rust's ownership and strongly typed features played a crucial role in allowing t
 
 CyberGate Playground is a passion project, and while it's not open source, I believe in the power of community and love engaging with fellow developers. If you're interested in the game's progress or want to chat about all things CyberGate, feel free to join the [Discord server][cybergate-discord]
 
-[cybergate-shorts]: https://www.youtube.com/@cyber-gate/shorts
+[cybergate-shorts]: https://www.youtube.com/cyber-gate/shorts
 [cybergate-discord]: https://discord.gg/P3D8weeQ7Z
 
 ### [Way of Rhea][wor]
