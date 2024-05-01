@@ -81,7 +81,7 @@ This month updates include:
 - [Fusion Upgrade:][cybergate-fuse] Combine hammers, balls, dices, to multiply their powers;
 - Hammer destruction made more challenging and interesting, with upgrades enabling deeper wall penetration;
 - Improved Strength and Weight system, and calculate their impact on character movement and abilities;
-- Added an 'Owned Upgrades' menu using the `yakui` Rust library, giving a neat overview of all acquired upgrades;
+- Added an 'Owned Upgrades' menu using `yakui` crate, giving a neat overview of all acquired upgrades;
 - Many other UI / gameplay improvements based on player feedback;
 
 Rust's ownership and strongly typed features played a crucial role in allowing the gameplay code to scale to more complex and detailed mechanics, while retaining correct, clean and bug-free code.
