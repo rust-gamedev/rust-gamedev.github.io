@@ -74,7 +74,8 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ![Improved Hammer Destruction](cybergate.mp4)
 _Shooting a Hammer against a Floating Wall and Destroying part of it_
 
-CyberGate Playground is a multiplayer browser game where players claim territory by painting the environment in their color, with the goal of overpowering opponents.
+CyberGate Playground is a multiplayer browser game where players claim territory
+by painting the environment in their color, with the goal of overpowering opponents.
 
 This month updates include:
 - Flying with butterfly-like mechanics;
@@ -84,7 +85,8 @@ This month updates include:
 - Added an 'Owned Upgrades' menu using `yakui` crate, giving a neat overview of all acquired upgrades;
 - Many other UI / gameplay improvements based on player feedback;
 
-Rust's ownership and strongly typed features played a crucial role in allowing the gameplay code to scale to more complex and detailed mechanics, while retaining correct, clean and bug-free code.
+Rust's ownership and strongly typed features played a crucial role in allowing the gameplay code to scale 
+to more complex and detailed mechanics while retaining correct, clean, and bug-free code.
 
 CyberGate Playground is a passion project.
 If you're interested in the game's progress, join the [Discord server][cybergate-discord]
