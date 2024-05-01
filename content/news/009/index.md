@@ -1075,7 +1075,7 @@ _Discussions:
 [Godot]: https://godotengine.org
 
 <!--
-## Popular Workgroup Issues in Github
+## Popular Workgroup Issues in GitHub
 
 skiping this section this time
 -->

@@ -1,7 +1,7 @@
 +++
-title = "This Month in Rust GameDev #{TODO} - {TODO} {TODO}"
+title = "This Month in Rust GameDev #{{ NEWSLETTER_COUNTER }} - {{ NEWSLETTER_MONTH }} {{ NEWSLETTER_YEAR }}"
 transparent = true
-date = TODO
+date = {{ NEWSLETTER_YEAR }}-{{ NEWSLETTER_NEXT_MONTH_NUMBER }}-03
 draft = true
 +++
 
@@ -9,7 +9,7 @@ draft = true
 
 <!-- Check the post with markdownlint-->
 
-Welcome to the {TODO}th issue of the Rust GameDev Workgroup's
+Welcome to the {{ NEWSLETTER_COUNTER }}th issue of the Rust GameDev Workgroup's
 monthly newsletter.
 [Rust] is a systems language pursuing the trifecta:
 safety, concurrency, and speed.
@@ -35,8 +35,8 @@ Feel free to send PRs about your own projects!
 - [Learning Material Updates](#learning-material-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
+- [Popular Workgroup Issues in GitHub](#popular-workgroup-issues-in-github)
 - [Other News](#other-news)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
 - [Meeting Minutes](#meeting-minutes)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
@@ -77,7 +77,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Library Updates
 
-## Popular Workgroup Issues in Github
+## Popular Workgroup Issues in GitHub
 
 <!-- Up to 10 links to interesting issues -->
 
@@ -119,8 +119,10 @@ That's all news for today, thanks for reading!
 Want something mentioned in the next newsletter?
 [Send us a pull request][pr].
 
-Also, subscribe to [@rust_gamedev on Twitter][@rust_gamedev]
-or [/r/rust_gamedev subreddit][/r/rust_gamedev] if you want to receive fresh news!
+Also, subscribe to our socials if you want to receive fresh news!
+- X/Twitter: [@rust_gamedev][@x_rust_gamedev]
+- Mastodon: [@rust_gamedev][@mastodon_rust_gamedev]
+- Reddit: [/r/rust_gamedev][/r/rust_gamedev]
 
 <!--
 TODO: Add real links and un-comment once this post is published
@@ -132,4 +134,5 @@ TODO: Add real links and un-comment once this post is published
 -->
 
 [/r/rust_gamedev]: https://reddit.com/r/rust_gamedev
-[@rust_gamedev]: https://twitter.com/rust_gamedev
+[@x_rust_gamedev]: https://twitter.com/rust_gamedev
+[@mastodon_rust_gamedev]: https://mastodon.gamedev.place/@rust_gamedev

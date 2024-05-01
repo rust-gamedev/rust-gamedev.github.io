@@ -38,7 +38,7 @@ Feel free to send PRs about your own projects!
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
 - [Other News](#other-news)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
+- [Popular Workgroup Issues in GitHub](#popular-workgroup-issues-in-github)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
 - [Jobs](#jobs)
@@ -127,7 +127,7 @@ provide a more detailed look:
 [Ferris dancing][raymarch-twitter-dance].
 
 Once the model is finished, it will be published under a permissive license on
-[Github][raymarch-github], so you can use it in your 3D game,
+[GitHub][raymarch-github], so you can use it in your 3D game,
 rendering demo, v-tuber avatar, you name it!
 
 If you have any feedback feel free to share on [Discord][raymarch-gamedev-discord].
@@ -825,7 +825,7 @@ that showcases bevy-pigeon and carrier-pigeon.
 [pigeon-bong]: https://github.com/MitchellMarinoDev/bong
 [@MitchellMarinoDev]: https://github.com/MitchellMarinoDev
 
-## Popular Workgroup Issues in Github
+## Popular Workgroup Issues in GitHub
 
 <!-- Up to 10 links to interesting issues -->
 

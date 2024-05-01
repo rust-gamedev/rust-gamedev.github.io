@@ -34,7 +34,7 @@ Table of contents:
 - [Game Updates](#game-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Library & Tooling Updates](#library-tooling-updates)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
+- [Popular Workgroup Issues in GitHub](#popular-workgroup-issues-in-github)
 - [Requests for Contribution](#requests-for-contribution)
 
 <!--
@@ -519,7 +519,7 @@ Check out the source code at [github.com/expenses/cheese].
 You as a player are cursed and must find 4 ingredients for the famous
 `Moonshot` disenchantment potion.
 
-It was initially created for the Github Game Off 2020 Jam to gain experience
+It was initially created for the GitHub Game Off 2020 Jam to gain experience
 with WASM and [macroquad]. This month a post jam version was released.
 It contains:
 
@@ -1209,7 +1209,7 @@ _Discussions:
 [serpinski-carpet]: http://playground.meteorlinker.com/?share=1054
 [graphics-playground-source]: https://gitlab.com/DixieDev/rust-graphics-playground
 
-## Popular Workgroup Issues in Github
+## Popular Workgroup Issues in GitHub
 
 <!-- Up to 10 links to interesting issues -->
 

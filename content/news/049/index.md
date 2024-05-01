@@ -1,8 +1,8 @@
 +++
 title = "This Month in Rust GameDev #49 - August 2023"
 transparent = true
-date = 2023-09-16
-draft = true
+date = 2023-11-16
+draft = false
 +++
 
 <!-- no toc -->
@@ -36,10 +36,6 @@ Feel free to send PRs about your own projects!
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
 - [Other News](#other-news)
-- [Popular Workgroup Issues in Github](#popular-workgroup-issues-in-github)
-- [Discussions](#discussions)
-- [Requests for Contribution](#requests-for-contribution)
-- [Jobs](#jobs)
 
 <!--
 Ideal section structure is:
@@ -64,6 +60,12 @@ If needed, a section can be split into subsections with a "------" delimiter.
 -->
 
 ## Announcements
+
+It's been a while, huh? This newsletter is coming to you with a delay because
+the project cost too much maintainer burden and was put on hold for a while.
+Since then, we have had some restructuring and are back now, starting this month!
+The exact details will be part of April's newsletter, scheduled for release on May 3rd (just 5 days from now!)  
+See you all then!
 
 ## Game Updates
 
@@ -115,7 +117,7 @@ Here are the most notable updates:
 - The game is now better optimized to run smoothly on the Steam Deck.
 - Some of the textures have been revamped and are now slightly more detailed.
 - The animations of the character portraits have been improved.
-- Several minor quality of life improvements like the ability to sprint have
+- Several minor quality-of-life improvements like the ability to sprint have
   been made.
 - A basic egui-based crash reporter will now be displayed when the game process
   ends unexpectedly.
@@ -131,7 +133,7 @@ made out of simple geometric forms](oort.png)
 _A fleet of ships_
 
 [Oort] ([GitHub][oort-gh], [Discord][oort-dis]) by [@rlane] is a programming
-game where you write Rust code to control space ships in combat against other
+game where you write Rust code to control spaceships in combat against other
 players. Your code needs to manage the thrusters, guns, missiles, comms, and
 radar of each ship in your fleet. There's a series of tutorials where you can
 solve key problems one by one, such as leading moving targets or missile
@@ -148,48 +150,6 @@ _Discussions: [r/rust](https://reddit.com/r/rust/comments/167qyn0/oort)_
 [oort-dis]: https://discord.gg/vYyu9EhkKH
 [@rlane]: https://github.com/rlane
 [oort-tournament]: https://github.com/rlane/oort3/wiki/Tournament-Writeup-2023%E2%80%9009%E2%80%9011
-
-### [Ars Militaris][arsm]
-
-![Ars Militaris Logo](arsmilitaris.png)
-
-[Ars Militaris][arsm] ([GitHub][arsm-gh], [Discord][arsm-dis],
-[Twitter][arsm-twi], [Reddit][arsm-red])
-is a turn-based tactics game set in the ancient Rome era,
-being developed with Bevy.
-
-August saw some nice developments that occurred in both the
-digital and board game version of Ars Militaris. You can
-read about them in issues VI through IX of This Week in Ars Militaris
-([VI](https://arsmilitaris.com#this-week-in-ars-militaris-vi),
-[VII](https://arsmilitaris.com#this-week-in-ars-militaris-vii),
-[VIII](https://arsmilitaris.com#this-week-in-ars-militaris-viii),
-[IX](https://arsmilitaris.com#this-week-in-ars-militaris-ix)).
-
-The most noticeable improvements in the digital version were
-the updating of the multiplayer aspect to be on par with the
-single-player aspect, and then also the development of the
-[Ars Militaris Lobby][arsm-lobby].
-
-In the board game version, development started on a new
-scenario that will serve as our main product for the Ars
-Militaris board game version, and much playtesting with
-very positive results occurred
-[(Ars Militaris Event III)][arsm-event-iii]
-and [(Ars Militaris Event IV)][arsm-event-iv].
-
-But then, the result of a somewhat intensive 3-month
-sprint left the Lead Developer exhausted which brought
-the project to a temporary pause.
-
-[arsm]: https://arsmilitaris.com
-[arsm-gh]: https://github.com/arsmilitaris
-[arsm-twi]: https://twitter.com/ArsMilitarisDev
-[arsm-dis]: https://discord.gg/cdNDQsstgq
-[arsm-red]: https://reddit.com/r/arsmilitaris
-[arsm-lobby]: https://arsmilitaris.com#ars-militaris-lobby
-[arsm-event-iii]: https://arsmilitaris.com#ars-militaris-event-iii
-[arsm-event-iv]: https://arsmilitaris.com#ars-militaris-event-iv
 
 ### [Tiny Glade]
 
@@ -222,18 +182,18 @@ Fortress and Cube World.
 In August, Veloren saw a network library update, new locations in the character
 selection screen, the implementation of a new portal graphic, and numerous
 translation updates. Moreover, improvements were made to the airship fixes, loot
-balancing, and group chat issues. There also been upgrades to the dependency, a
-README update, and tweaks to the buff death message.
+balancing, and group chat issues. There have also been upgrades to the
+dependency, a README update, and tweaks to the buff death message.
 
 Ongoing projects currently in the works include the addition of Phoenix
 abilities, NPC arenas, frost Giga attacks, compasses, and a banking storage
 system. Other upcoming updates include an enhancement to the windmills, CI
-scripts, saving window size, the selection of a single-player world, addition of
-lava material, and improvements to the weather network protocol. Work is also
-ongoing on ship movement, pet commands, Terracotta ruins, dwarven quarry,
-coastal towns, clifftown rework, and axe skills. They are also planning to
-implement physics interactions that increase your height when gliding, including
-the introduction of thermal and ridgelines.
+scripts, saving window size, the selection of a single-player world, the
+addition of lava material, and improvements to the weather network protocol.
+Work is also ongoing on ship movement, pet commands, Terracotta ruins, dwarven
+quarry, coastal towns, clifftown rework, and axe skills. They are also planning
+to implement physics interactions that increase your height when gliding,
+including the introduction of thermal and ridgelines.
 
 August's full weekly devlogs: "This Week In Veloren...": [#216][veloren-216].
 
@@ -331,11 +291,11 @@ Google Play Store.
 
 ## Tooling Updates
 
-### [Space editor](space_editor)
+### [Space editor][space_editor]
 
 ![Space editor window with opened level](space_editor.png)
 
-[Space editor](space_editor) is an editor designed for Bevy engine
+[Space editor][space_editor] is an editor designed for Bevy engine
 that simplifies level and object template creation. Here are its key features:
 
 - Intuitive UI is built on top of bevy-inspector-egui and egui-gizmo
@@ -346,11 +306,11 @@ that simplifies level and object template creation. Here are its key features:
   This enables quick and efficient development iteration.
 - Save your levels and object templates in the standard Bevy scene format
   and spawn in game with just one line of code.
-- Many custom structures that allow to customize saved scenes
+- Many custom structures that allow you to customize saved scenes
   equally conveniently, both via gui and directly editing the saved text file.
 
 The [Github project][space_editor] is free for use
-and open to contribute for everyone, be it with suggestions, bugs or PRs.
+and open to contributions from everyone, be it with suggestions, bugs or PRs.
 
 [space_editor]: https://github.com/rewin123/space_editor
 
@@ -369,7 +329,7 @@ Features:
   evolve their schemas so long as they are compatible with the de-serializer.
 - Mark entities to get removed on hot reload.
 - Run systems after hot-reload.
-- Create functions to set-up & tear down upon either entering/exiting a state
+- Create functions to set up & tear down upon either entering/exiting a state
   or on hot reload.
 - Only includes any hot reload capacity in your build
   when you explicitly enable it - such as by using the CLI launcher.
@@ -377,11 +337,11 @@ Features:
   on a dev environment, and execute the application elsewhere.
 
 The library is quite new and currently known issues include:
-mobile/WASM support and the need to pre-define events&states.
+mobile/WASM support and the need to pre-define events & states.
 
 [dexterous_developer]: https://github.com/lee-orr/dexterous_developer
 [@lee-orr]: https://github.com/lee-orr
-[Bevy]: bevyengine.org
+[Bevy]: https://bevyengine.org
 
 ### [nanogltf]
 
@@ -406,10 +366,6 @@ nanogltf comes with a a GL2+/Metal glTF miniquad-based
 [gltf-models]: https://github.com/KhronosGroup/glTF-Sample-Models
 [glTF]: https://khronos.org/gltf
 
-## Popular Workgroup Issues in Github
-
-<!-- Up to 10 links to interesting issues -->
-
 ## Other News
 
 <!-- One-liners for plan items that haven't got their own sections. -->
@@ -418,19 +374,6 @@ nanogltf comes with a a GL2+/Metal glTF miniquad-based
   - [Tribes][tribes-devlog] got multiplayer support, new art and economics rework.
 
 [tribes-devlog]: https://uvizhe.im/posts/tribes-p2
-
-## Discussions
-
-<!-- Links to handpicked reddit/twitter/urlo/etc threads that provide
-useful information -->
-
-## Requests for Contribution
-
-<!-- Links to "good first issue"-labels or direct links to specific tasks -->
-
-## Jobs
-
-<!-- An optional section for new jobs related to Rust gamedev -->
 
 ------
 

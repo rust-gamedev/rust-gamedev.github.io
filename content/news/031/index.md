@@ -105,7 +105,7 @@ Twitch][rust-gamedev-twitch].
 The Rust Gamedev Working Group is working on a showcase of games made in Rust!
 If you're interested in submitting your own footage, fill out [this
 form][showcase-form]. You can also read more about the process of creating the
-showcase in the [showcase discussion on Github][showcase-discussion]. The
+showcase in the [showcase discussion on GitHub][showcase-discussion]. The
 deadline for submissions has been extended until the 19th of March 2022. Hope to
 see your game in there!
 
@@ -284,7 +284,7 @@ February's full weekly devlogs: "This Week In Veloren...":
 
 [![dims screenshot](dims.jpg)][DIMS-first-look]
 
-@jfnoren ([Twitter][@jfnoren-twitter], [Github][@jfnoren-github]) posted a
+@jfnoren ([Twitter][@jfnoren-twitter], [GitHub][@jfnoren-github]) posted a
 [video][DIMS-first-look] about a first look into their engine, DIMS. DIMS allows
 you to create open worlds, script gameplay, and mess around with physics. DIMS
 has been in the works for several months, but you can now sign up for early
@@ -345,7 +345,7 @@ process:
 
 ### [Actor Pattern with Async Rust]
 
-@Sorokya ([Twitter][sorokya-twitter], [Github][sorokya-github]) [published a blog
+@Sorokya ([Twitter][sorokya-twitter], [GitHub][sorokya-github]) [published a blog
 post][Actor Pattern with Async Rust] about how they improved their game server
 by switching over to an actor pattern approach. This method allowed the server
 to be refactored to be more modular and cleaner.

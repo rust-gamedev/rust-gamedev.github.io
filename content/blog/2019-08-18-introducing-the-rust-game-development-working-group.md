@@ -47,7 +47,7 @@ we've already got several projects underway:
 
 ## How can I get involved?
 
-Our main hub for co-ordination is our [Github repository](https://github.com/rust-gamedev/wg),
+Our main hub for co-ordination is our [GitHub repository](https://github.com/rust-gamedev/wg),
 where you can (and should!) raise issues calling out your ideas, proposals
 or problems with the Rust gamedev ecosystem.
 We also have a `#wg-gamedev` channel on the [official Rust Discord server](https://discord.gg/j6QJsMd),

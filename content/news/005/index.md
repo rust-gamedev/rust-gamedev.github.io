@@ -802,7 +802,7 @@ Here're some of the Rust news from it:
 [inside-rust]: https://medium.com/embarkstudios/inside-rust-at-embark-b82c06d1d9f4
 [cargo-about]: https://github.com/embarkstudios/cargo-about
 
-## Popular Workgroup Issues in Github
+## Popular Workgroup Issues in GitHub
 
 <!-- Up to 10 links to interesting issues -->
 
