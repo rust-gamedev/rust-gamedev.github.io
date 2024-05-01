@@ -86,7 +86,8 @@ This month updates include:
 
 Rust's ownership and strongly typed features played a crucial role in allowing the gameplay code to scale to more complex and detailed mechanics, while retaining correct, clean and bug-free code.
 
-CyberGate Playground is a passion project, and while it's not open source, I believe in the power of community and love engaging with fellow developers. If you're interested in the game's progress or want to chat about all things CyberGate, feel free to join the [Discord server][cybergate-discord]
+CyberGate Playground is a passion project.
+If you're interested in the game's progress, join the [Discord server][cybergate-discord]
 
 [cybergate-shorts]: https://youtube.com/@cyber-gate/shorts
 [cybergate-discord]: https://discord.gg/P3D8weeQ7Z
