@@ -185,7 +185,7 @@ You are Merlin ([Web Game][you-are-merlin-web], [GitHub - Rust/CLI][you-are-merl
 is a text adventure game that compiles to both CLI and WebAssembly.
 
 This initial version features a main quest, side quests, items and a boss fight.
-Players can choose their favourite visual theme such as Zelda, Warcraft and Fallout. There is also mobile support.
+Players can choose their favourite visual theme such as Zelda, Warcraft and Fallout. The web version also supports mobile devices.
 
 Although fairly simple, this first version provides a good foundation for building more features in later updates.
 
