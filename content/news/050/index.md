@@ -87,10 +87,9 @@ mechanics being developed by [@masonremaley] in a custom Rust engine.
 You can support development by [wishlisting Way of Rhea on Steam][wor], or
 [signing up for the mailing list][wor-mail].
 
-Recent updates:
-- A [closed beta][wor-closed-beta] began
-- All characters now have voices
-- Various [speedrunning features][wor-speedrun] were added
+Recently, a [closed beta][wor-closed-beta] began. All characters now have voices, and various [speedrunning features][wor-speedrun] were added. 
+Older CPUs are [now supported][wor-avx]. 
+Secrets were made harder, and an [in-game achievement UI][wor-achievements] was created.
 
 For the full changelog, see the [release notes][wor-release-notes].
 
@@ -101,6 +100,8 @@ For the full changelog, see the [release notes][wor-release-notes].
 [wor-speedrun]: https://clan.cloudflare.steamstatic.com/images//35599024/6ee82d4e0105f073082c83626e37933e682b5936.png
 [wor-mail]: https://anthropicstudios.com/newsletter/signup/tech
 [wor-release-notes]: https://store.steampowered.com/news/app/1110620
+[wor-avx]: https://store.steampowered.com/news/app/1110620/view/4118050466869150657
+[wor-achievements]: https://clan.cloudflare.steamstatic.com/images//35599024/573f81c1ebce54d9efedcd693fcbe684a5629c7f.png
 
 ### [SM64JSARCHIVE][sm64jsarchive]
 
