@@ -4,20 +4,22 @@ date = 2024-05-02
 transparent = true
 +++
 
-Hey everyone, it's been a while! As you've certainly noticed, the newsletter was
-on a hiatus for a while. The reason was mostly maintainer burnout, which is also
-why the newsletter of August 2023 was not published [until a few days
+*Please fill out [this survey][survey] before skipping this section! More info below!*
+
+Hey everyone, it's been a while! As you've certainly noticed, the newsletter has
+been on hiatus for a while. The reason was mostly maintainer burnout, which is
+also why the newsletter of August 2023 was not published [until a few days
 ago][august-news].
 
-We're back now though! The community member Jan Hohenheim ([@janhohenheim]) has
-taken up the main responsibility for reviving the newsletter. This includes
-making changes requested by the community, and making sure the format is
-sustainable for the long term. 
+We're back now though! A couple of community members, Jan Hohenheim
+([@janhohenheim]) and Thierry Berger ([@Vrixyz]), have led the revival of the
+newsletter. This includes making changes requested by the community, and
+improving sustainability for the long term.
 
 ### Schedule Changes
 
-Thierry Berger ([@Vrixyz]), who has also decided to help with the project, has
-come up with a new [monthly schedule][monthly_schedule] that we will try out:
+Thierry Berger ([@Vrixyz]), has come up with a new [monthly
+schedule][monthly_schedule] that we will try out:
 
 - 3rd of the month: Newsletter starts. A call for submissions is made on social
 media and community Discord servers interested in receiving it. At the same
@@ -37,22 +39,21 @@ schedule.
 ### Community Survey
 
 This restructuring is also a good time to improve the content of the newsletter.
-We've got some community feedback on our [Discord] already and would like to
-hear more from you. It would be great if you could fill out [this
-survey][survey] to let us know how we can improve the newsletter going forward.
-The survey closes on the **28th of May**.
+We've got some community feedback on the [Rust GameDev Discord][Discord] already
+and would like to hear more from you. It would be great if you could fill out
+[this survey][survey] to let us know how we can improve the newsletter going
+forward. The survey closes on the **28th of May 2024**. We will be evaluating
+the [survey] results in an upcoming blog post, so stay tuned for that.
 
 ### Future Steps
 
 Based on feedback we've already gotten, the steps for next months are:
+
 - Add an email subscription option to the newsletter
 - Setup a system for how to edit entries that are not ready before the
 newsletter ships. We are currently looking into either hiring a part-time
 editor, using generative AI to add a few sentences where needed, or simply
 removing these entries.
-
-Additionally, we will be evaluating the [survey] results in the next newsletter,
-so stay tuned for that.
 
 That's all for now. Have fun reading!
 
