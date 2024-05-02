@@ -167,7 +167,7 @@ The gameplay is quite distilled and revolves mostly around resource management.
 The player has limited inventory capacity and the weapons get damaged
 after each use. There are 20 randomly generated levels to beat.
 
-It is available on desktop (Windows / Linux), Android and Web (mobile friendly).
+It is available on desktop (Windows / Linux), Android, and Web (mobile friendly).
 The game's source code also comes with a custom WGPU-based 2D framework.
 
 _Discussions: ([/r/roguelikes][monk-tower-reddit])_
@@ -184,8 +184,8 @@ _Discussions: ([/r/roguelikes][monk-tower-reddit])_
 You are Merlin ([Web Game][you-are-merlin-web], [GitHub - Rust/CLI][you-are-merlin-github], [GitHub - WASM][you-are-merlin-www-github]) by [@hseager](https://github.com/hseager)
 is a text adventure game that compiles to both CLI and WebAssembly.
 
-This initial version features a main quest, side quests, items and a boss fight.
-Players can choose their favourite visual theme such as Zelda, Warcraft and Fallout. The web version also supports mobile devices.
+This initial version features a main quest, side quests, items, and a boss fight.
+Players can choose their favourite visual theme such as Zelda, Warcraft, and Fallout. The web version also supports mobile devices.
 
 Although fairly simple, this first version provides a good foundation for building more features in later updates.
 
@@ -318,7 +318,7 @@ And utility:
 
 [lightyear_website] is a comprehensive networking library for bevy to make multiplayer games.
 It comes with multiple types of transports (WebTransport, WebSocket, UDP, etc.) 
-and supports replication techniques like client-side prediction, server interpolation, interest management and more!
+and supports replication techniques like client-side prediction, server interpolation, interest management, and more!
 Check out the [examples][lightyear_examples]!
 
 The latest release, [0.13][lightyear_release], brings two big new features:
