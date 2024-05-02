@@ -41,54 +41,34 @@ Feel free to send PRs about your own projects!
 
 *Please fill out [this survey][survey] before skipping this section! More info below!*
 
-Hey everyone, it's been a while! As you've certainly noticed, the newsletter was on
-a hiatus for a while. The reason was mostly maintainer burnout, which is also why
-the newsletter of August 2023 was not published [until a few days ago][august-news].
+Hey everyone, it's been a while! As you've certainly noticed, the newsletter has
+been on hiatus for a while. The reason was mostly maintainer burnout, which is also
+why the newsletter of August 2023 was not published [until a few days
+ago][august-news].
 
-We're back now though! The community member Jan Hohenheim ([@janhohenheim]) 
-has taken up the main responsibility for reviving the newsletter. This includes making changes requested 
-by the community, and making sure the format is sustainable for the long term. 
+We're back now though! A couple of community members, Jan Hohenheim
+([@janhohenheim]) and Thierry Berger ([@Vrixyz]), have led the revival of the
+newsletter. This includes making changes requested by the community, and
+improving sustainability for the long term.
 
-### Schedule Changes
-
-Thierry Berger ([@Vrixyz]), who has also decided to help with the project,
-has come up with a new [monthly schedule][monthly_schedule] that we will try out:
-
-- 3rd of the month: Newsletter starts. A call for submissions is made on social media 
-and community Discord servers interested in receiving it. At the same time, last month's newsletter is published.
-- 3rd to 28th of the month: submissions are collected and the newsletter is written.
-- 28th of the month: Submissions are closed. New submissions go into the next month's newsletter.
-- 3rd of the next month: The newsletter is published. Any submissions not edited 
-in time will be moved to the next month or removed entirely.
-
-This more strict schedule should help with the issue of late entries and reduce the pressure of editing by
-having a dedicated time for it with no incoming submissions. The goal is to be more consistent and reliable
-in our publishing schedule.
+You can read more about the changes being made in [this blog
+post][newsletter-changes-blog].
 
 ### Community Survey
 
 This restructuring is also a good time to improve the content of the newsletter.
-We've got some community feedback on our [Discord] already and would like to hear more from you.
-It would be great if you could fill out [this survey][survey] to let us know how 
-we can improve the newsletter going forward. The survey closes on the **28th of May**.
-
-### Future Steps
-
-Based on feedback we've already gotten, the steps for next months are:
-- Add an email subscription option to the newsletter
-- Setup a system for how to edit entries that are not ready before the newsletter ships.
-We are currently looking into either hiring a part-time editor, 
-using generative AI to add a few sentences where needed, or simply removing these entries.
-
-Additionally, we will be evaluating the [survey] results in the next newsletter, so stay tuned for that.
+We've got some community feedback on the [Rust GameDev Discord][Discord] already
+and would like to hear more from you. It would be great if you could fill out
+[this survey][survey] to let us know how we can improve the newsletter going
+forward. The survey closes on the **28th of May**. We will be evaluating the
+[survey] results in an upcoming blog post, so stay tuned for that.
 
 That's all for now. Have fun reading!
 
-
 [august-news]: https://gamedev.rs/news/049/
+[newsletter-changes-blog]: https://gamedev.rs/blog/newsletter-changes/
 [@janhohenheim]: https://github.com/janhohenheim
 [@Vrixyz]: https://github.com/Vrixyz
-[monthly_schedule]: https://github.com/rust-gamedev/rust-gamedev.github.io/issues/1417#issuecomment-1764534286
 [survey]: https://forms.gle/oeSb46twWsxRKYJe7
 [Discord]: https://discord.gg/game-development-in-rust-676678179678715904
 
@@ -101,7 +81,7 @@ That's all for now. Have fun reading!
 [Way of Rhea][wor] just got a release date: it will be coming to Steam on
 **May 20th, 2024**!
 
-Way of Rhea ([Steam](https://store.steampowered.com/app/1110620/Way_of_Rhea/)) is a color based puzzle game with difficult puzzles, but forgiving
+Way of Rhea ([Steam](https://store.steampowered.com/app/1110620/Way_of_Rhea/)) is a color-based puzzle game with difficult puzzles, but forgiving
 mechanics being developed by [@masonremaley] in a custom engine.
 
 You can support development by [wishlisting Way of Rhea on Steam][wor], or
@@ -130,10 +110,10 @@ For the full changelog, see the [release notes][wor-release-notes].
 The code is open-sourced on [GitHub][sm64jsarchive-github].
 
 The [backend server][sm64jsarchive-server], which is written in Rust,
-has been finally been able to start after 10 long months
+has finally been able to start after 10 long months
 and is now live at <https://mmo.sm64jsarchive.com>
 
-A successful stress test for the MMO feature was run on 2024-04-10.
+A successful stress test for the MMO feature was run on April 10th.
 
 [sm64jsarchive]: https://mmo.sm64jsarchive.com
 [sm64jsarchive-github]: https://github.com/uuphoria2/sm64jsarchive
@@ -149,10 +129,10 @@ Open Combat ([GitHub][OpenCombat_github], [Discord][OpenCombat_discord]) is a re
 which takes place during World War II.
 
 The basic game logic and HUD are now complete, 
-and the high definition map for the demo is finished.
+and the high-definition map for the demo is finished.
 
-Some things are missing, like high definition assets for soldiers or minimal AI for opponents.
-But the [demo is playable][OpenCombat_release]and the team would love to hear your feedback!
+Some things are missing, like high-definition assets for soldiers or minimal AI for opponents.
+But the [demo is playable][OpenCombat_release] and the team would love to hear your feedback!
 
 [OpenCombat_website]: https://opencombat.bux.fr/
 [OpenCombat_github]: https://github.com/buxx/OpenCombat
@@ -166,7 +146,7 @@ But the [demo is playable][OpenCombat_release]and the team would love to hear yo
 Times of Progress ([Steam][times-of-progress-steam], [Twitter/X][times-of-progress-twitter], [Mastodon][times-of-progress-mastodon]) 
 is an upcoming city builder game set during the industrial revolution.
 
-During the month of April, they improved performance by refactoring the orders system and added lots of UI widgets.
+In April, they added lots of UI widgets and improved performance by refactoring the orders system.
 
 The demo is not available yet but interested players can sign up for the upcoming closed beta by joining the [newsletter][times-of-progress-newsletter].
 
@@ -225,7 +205,7 @@ _Jumpy: Machine gun and Periscope_
 theme.
 
 This month the base functionalities of round scoring and map transitions have been implemented.
-New weapons such as the Blunderbuss, Periscope, and Machine Gun are ready for fish on fish combat.
+New weapons such as the Blunderbuss, Periscope, and Machine Gun are ready for fish-on-fish combat.
 
 Jumpy is now featuring corpse physics and a "ragdoll" button to send your Fish [flopping about][jumpy_ragdoll].
 
@@ -244,13 +224,13 @@ _Discussions: [GitHub][jumpy_discussions], [Twitter][jumpy_twitter]_
 ## Engine Updates
 
 ### Bottomless-Pit
-![The Bottomles-Pit Logo. A small hole in the ground with cat ears and text saying bottomless-pit](https://eggshark.dev/images/bplogo.png)
 
+![The Bottomles-Pit Logo. A small hole in the ground with cat ears and text saying bottomless-pit](https://eggshark.dev/images/bplogo.png)
 
 Bottomless-Pit is a 2d game engine written with WGPU that has been around for a year, which can be found on [crates.io][Bottomless-Pit_cratesio] and [GitHub][Bottomless-Pit_github].
 Very recently a 2d camera was added as well as WASM and web support.
 Current development is being focused on stability and QoL changes like texture sampling options and improved input.
-You can checkout several [engine examples on the web][Bottomless-Pit_Website].
+You can check out several [engine examples on the web][Bottomless-Pit_Website].
 Since the engine is in its infancy, its developer calls for developers to use it and give the engine some feedback.
 
 Current features are:
@@ -268,7 +248,7 @@ Current features are:
 
 ### Building games for Android with Rust
 
-@maciekglowka has recently shared some thoughts [on their blog][[android-games-blog] about building Rust games
+[@maciekglowka] has recently shared some thoughts [on their blog][android-games-blog] about building Rust games
 for Android. Rather than a step-by-step guide, it is a collection
 of issues one can possibly encounter when targeting Android.
 
@@ -281,6 +261,7 @@ Topics mentioned:
 - Building AAB files to meet Google Play requirements
 
 [android-games-blog]: https://maciejglowka.com/blog/building-games-for-android-with-rust/
+[@maciekglowka]: https://github.com/maciekglowka
 
 ### Bevy: A case study in ergonomic Rust
 
@@ -288,9 +269,10 @@ Topics mentioned:
 Rusty ergonomics titled [Bevy: A case study in ergonomic Rust][case-study-video]. 
 In their own words:
 
-> There's at least two, if not three, talks worth of material around how Bevy progressively discloses complexity 
-across multiple "stacks" of APIs; and the work done so far is very impressive in terms 
-of how it all fits together especially as a large-and-growing OSS project.
+> There are at least two, if not three, talks worth of material around how Bevy
+> progressively discloses complexity across multiple "stacks" of APIs; and the
+> work done so far is very impressive in terms of how it all fits together,
+> especially as a large-and-growing OSS project.
 
 [chris-yt]: https://www.youtube.com/c/chrisbiscardi
 [case-study-video]: https://www.youtube.com/watch?v=CnoDOc6ML0Y
@@ -324,7 +306,7 @@ The bindings work can be found on the [just-rust GitHub repo][jolt-rust] GitHub 
 Hexx, the popular crate for hexagonal tools, [has released version 0.17](https://github.com/ManevilleF/hexx/releases/tag/0.17.0). 
 This release has a strong focus on performance:
 - Large performance improvement on various computations like rings and wedges
-- Add support for optimized storage for hexagonal and rombus shaped maps
+- Add support for optimized storage for hexagonal and rhombus-shaped maps
 - Added support for rectiline path
 
 And utility:
@@ -340,7 +322,7 @@ Check out the [examples][lightyear_examples]!
 
 The latest release, [0.13][lightyear_release], brings two big new features:
 - **Steam support**: you can now use the Steamworks SDK as your transport layer, which lets you use the Valve network!
-Note that lightyear supports running multiple transports in parallel, so it's possible to have cross-play between steam and non-steam users.
+Note that lightyear supports running multiple transports in parallel, so it's possible to have cross-play between Steam and non-Steam users.
 - **Listen-server mode**: it is now possible to run a server and a client in the same process/bevy app.
 This can be useful to avoid the costs of a dedicated server, or to have a similar codebase between singleplayer and multiplayer.
 
@@ -352,7 +334,7 @@ This can be useful to avoid the costs of a dedicated server, or to have a simila
 
 ## Other News
 
-Alice I. Cecile of the Bevy Foundation would like to collect community feedback
+- Alice I. Cecile of the Bevy Foundation would like to collect community feedback
 on game development in Rust. Please fill out [her survey](https://forms.gle/kLzv5Ww3U8dLGUHU8)!
 
 ## Discussions
