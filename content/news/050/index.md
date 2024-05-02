@@ -87,7 +87,7 @@ mechanics being developed by [@masonremaley] in a custom Rust engine.
 You can support development by [wishlisting Way of Rhea on Steam][wor], or
 [signing up for the mailing list][wor-mail].
 
-The most important updates are:
+Recent updates:
 - A [closed beta][wor-closed-beta] began
 - All characters now have voices
 - Various [speedrunning features][wor-speedrun] were added
@@ -223,7 +223,7 @@ _Discussions: [GitHub][jumpy_discussions], [Twitter][jumpy_twitter]_
 
 ## Engine Updates
 
-### Bottomless-Pit
+### Bottomless-Pit 0.3
 
 ![The Bottomles-Pit Logo. A small hole in the ground with cat ears and text saying bottomless-pit](https://eggshark.dev/images/bplogo.png)
 
