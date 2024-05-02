@@ -82,7 +82,7 @@ That's all for now. Have fun reading!
 **May 20th, 2024**!
 
 Way of Rhea ([Steam](https://store.steampowered.com/app/1110620/Way_of_Rhea/)) is a color-based puzzle game with difficult puzzles, but forgiving
-mechanics being developed by [@masonremaley] in a custom engine.
+mechanics being developed by [@masonremaley] in a custom Rust engine.
 
 You can support development by [wishlisting Way of Rhea on Steam][wor], or
 [signing up for the mailing list][wor-mail].
