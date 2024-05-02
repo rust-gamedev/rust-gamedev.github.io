@@ -7,7 +7,7 @@ transparent = true
 *Please fill out [this survey][survey] before skipping this section! More info below!*
 
 Hey everyone, it's been a while! As you've certainly noticed, the newsletter has
-been on hiatus for a while. The reason was mostly maintainer burnout, which is
+been on hiatus for some months. The reason was mostly maintainer burnout, which is
 also why the newsletter of August 2023 was not published [until a few days
 ago][august-news].
 
