@@ -108,18 +108,16 @@ For the full changelog, see the [release notes][wor-release-notes].
 ![Super Mario 64 JavaScript](sm64jsarchive.jpg)
 
 [SM64JSARCHIVE][sm64jsarchive] is an actively maintained fork of [sm64js]: a decompilation project of Super Mario 64 to JavaScript.
-The code is open-sourced on [GitHub][sm64jsarchive-github].
+Additional sidenote: The mmo servers arent always running for the game
 
-The [backend server][sm64jsarchive-server], which is written in Rust,
+The backend server, which is written in Rust,
 has finally been able to start after 10 long months
 and is now live at <https://mmo.sm64jsarchive.com>
 
 A successful stress test for the MMO feature was run on April 10th.
 
 [sm64jsarchive]: https://mmo.sm64jsarchive.com
-[sm64jsarchive-github]: https://github.com/uuphoria2/sm64jsarchive
 [sm64js]: https://github.com/sm64js/sm64js
-[sm64jsarchive-server]: https://github.com/sm64jsarchived/sm64jsarchive-mmo-server
 
 ### [Open Combat][OpenCombat_website]
 
