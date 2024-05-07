@@ -75,6 +75,26 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Tooling Updates
 
+### [Rusty Playdate]
+
+![alt text](img)
+_optional image label_
+
+[Rusty Playdate] ([GitHub][Rusty Playdate], [Mastodon][Rusty Playdate Masto]) by [@boozook](https://github.com/boozook)
+is the large set of crates with bindings, cargo-plugin and toolset for the full cycle of creating games for Playdate handheld console.
+
+{TODO: An overview of the recent updates with links to more details}.
+... stabilization
+... lua support
+... complete windows support finally
+
+_Discussions: [GitHub][Rusty Playdate Gh-disc], [Matrix][Rusty Playdate Matrix]._
+
+[Rusty Playdate]: https://github.com/boozook/playdate
+[Rusty Playdate Gh-disc]: https://github.com/boozook/playdate/discussions
+[Rusty Playdate Masto]: https://gamedev.social/@playdaters
+[Rusty Playdate Matrix]: https://matrix.to/#/#playdate.rs:matrix.org
+
 ## Library Updates
 
 ## Popular Workgroup Issues in GitHub
@@ -89,7 +109,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 <!-- Up to 10 most important notes + a link to the full details -->
 
-[See all meeting issues][label_meeting] including full text notes
+[See all meeting issues][label_meeting] including  full text notes
 or [join the next meeting][join].
 
 [label_meeting]: https://github.com/rust-gamedev/wg/issues?q=label%3Ameeting
