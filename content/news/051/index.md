@@ -94,7 +94,17 @@ organizers contacted rust game development communities
 to showcase games developed in Rust between talks,
 which you can [watch on youtube][rustnl_games_youtube].
 
-[rustnl_games_youtube]: https://www.youtube.com/watch?v=XLefuzE-ABU&t=6453s
+Special mention to the following talks, relevant to game development:
+- [The talk from Kevin Boos][rustnl_kevin_boos_talk]: let's build high performance Rust UI
+- [The talk from Ralph Levien][rustnl_xilem_talk] about [Xilem]
+[rustnl_xilem_intro]: a research project on Rust user interface architecture.
+- [The talk from Michaël Melchiore][rustnl_michael_melchiore_talk]: (Th)Rust for Space: Initial momentum ; who gave a shout out to Bevy Engine.
+
+[rustnl_games_youtube]: https://www.youtube.com/watch?v=XLefuzE-ABU&t=7583s
+[rustnl_xilem_talk]: https://www.youtube.com/watch?v=521NfGf7AR0&t=19308s
+[rustnl_xilem_intro]: https://raphlinus.github.io/rust/gui/2022/05/07/ui-architecture.html
+[rustnl_kevin_boos_talk]: https://www.youtube.com/watch?v=521NfGf7AR0&t=2928s
+[rustnl_michael_melchiore_talk]: https://www.youtube.com/watch?v=XLefuzE-ABU&t=3898s
 
 ## Meeting Minutes
 
