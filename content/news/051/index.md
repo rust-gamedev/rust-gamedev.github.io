@@ -85,6 +85,17 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 <!-- One-liners for plan items that haven't got their own sections. -->
 
+### RustNL
+
+RustNL happened May 7 & 8 in Delft, Netherlands.
+
+While the conference was not specific to game development,
+organizers contacted rust game development communities
+to showcase games developed in Rust between talks,
+which you can [watch on youtube][rustnl_games_youtube].
+
+[rustnl_games_youtube]: https://www.youtube.com/watch?v=XLefuzE-ABU&t=6453s
+
 ## Meeting Minutes
 
 <!-- Up to 10 most important notes + a link to the full details -->
