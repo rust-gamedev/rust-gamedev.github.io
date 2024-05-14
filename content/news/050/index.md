@@ -2,7 +2,7 @@
 title = "This Month in Rust GameDev #50 - April 2024"
 transparent = true
 date = 2024-05-03
-draft = true
+draft = false
 +++
 
 <!-- no toc -->
@@ -33,39 +33,44 @@ Feel free to send PRs about your own projects!
 - [Game Updates](#game-updates)
 - [Engine Updates](#engine-updates)
 - [Learning Material Updates](#learning-material-updates)
-- [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
-- [Popular Workgroup Issues in GitHub](#popular-workgroup-issues-in-github)
 - [Other News](#other-news)
-- [Meeting Minutes](#meeting-minutes)
 - [Discussions](#discussions)
-- [Requests for Contribution](#requests-for-contribution)
-- [Jobs](#jobs)
-- [Bonus](#bonus)
 
-<!--
-Ideal section structure is:
+## Announcements 
 
-```
-### [Title]
+*Please fill out [this survey][survey] before skipping this section! More info below!*
 
-![image/GIF description](image link)
-_image caption_
+Hey everyone, it's been a while! As you've certainly noticed, the newsletter has
+been on hiatus for a while. The reason was mostly maintainer burnout, which is also
+why the newsletter of August 2023 was not published [until a few days
+ago][august-news].
 
-A paragraph or two with a summary and [useful links].
+We're back now though! A couple of community members, Jan Hohenheim
+([@janhohenheim]) and Thierry Berger ([@Vrixyz]), have led the revival of the
+newsletter. This includes making changes requested by the community, and
+improving sustainability for the long term.
 
-_Discussions:
-[/r/rust](https://reddit.com/r/rust/todo),
-[twitter](https://twitter.com/todo/status/123456)_
+You can read more about the changes being made in [this blog
+post][newsletter-changes-blog].
 
-[Title]: https://first.link
-[useful links]: https://other.link
-```
+### Community Survey
 
-If needed, a section can be split into subsections with a "------" delimiter.
--->
+This restructuring is also a good time to improve the content of the newsletter.
+We've got some community feedback on the [Rust GameDev Discord][Discord] already
+and would like to hear more from you. It would be great if you could fill out
+[this survey][survey] to let us know how we can improve the newsletter going
+forward. The survey closes on the **28th of May**. We will be evaluating the
+[survey] results in an upcoming blog post, so stay tuned for that.
 
-## Announcements
+That's all for now. Have fun reading!
+
+[august-news]: https://gamedev.rs/news/049/
+[newsletter-changes-blog]: https://gamedev.rs/blog/newsletter-changes/
+[@janhohenheim]: https://github.com/janhohenheim
+[@Vrixyz]: https://github.com/Vrixyz
+[survey]: https://forms.gle/oeSb46twWsxRKYJe7
+[Discord]: https://discord.gg/game-development-in-rust-676678179678715904
 
 ## Game Updates
 
@@ -76,83 +81,57 @@ If needed, a section can be split into subsections with a "------" delimiter.
 [Way of Rhea][wor] just got a release date: it will be coming to Steam on
 **May 20th, 2024**!
 
-Way of Rhea is a color based puzzle game with difficult puzzles, but forgiving
+Way of Rhea ([Steam](https://store.steampowered.com/app/1110620/Way_of_Rhea/)) is a color-based puzzle game with difficult puzzles, but forgiving
 mechanics being developed by [@masonremaley] in a custom Rust engine.
 
 You can support development by [wishlisting Way of Rhea on Steam][wor], or
 [signing up for the mailing list][wor-mail].
 
-Recent updates:
-- A [closed beta][wor-closed-beta] began
-- All characters now have voices
-- A [reset button][wor-reset] was added for when undo is inconvenient
-- Speech bubbles now [identify the speaker][wor-speech-bubble]
-- Orbs now are shown with an "xray" effect so they are visible even when behind scenery
-- Older CPUs without AVX support are [now supported][wor-avx]
-- Various [speedrunning features][wor-speedrun] were added
-- Secrets were made harder
-- An [in game achievement UI][wor-achievements] was created
-- An [in game Jukebox UI][wor-jukebox] was created
-- For more updates, see the [release notes on Steam][wor-release-notes]...
+Recently, a [closed beta][wor-closed-beta] began. All characters now have voices, and various [speedrunning features][wor-speedrun] were added. 
+Older CPUs are [now supported][wor-avx]. 
+Secrets were made harder, and an [in-game achievement UI][wor-achievements] was created.
+
+For the full changelog, see the [release notes][wor-release-notes].
 
 [@masonremaley]: https://twitter.com/masonremaley
 [wor]: https://store.steampowered.com/app/1110620/Way_of_Rhea/?utm_campaign=tmirgd&utm_source=n50
 [wor-trailer]: https://youtu.be/vFsO436r2Pw
 [wor-closed-beta]: https://store.steampowered.com/news/app/1110620/view/7665759271877780609
-[wor-reset]: https://clan.cloudflare.steamstatic.com/images//35599024/49e8760118b7b18e3b230ba3a3a28179c4b0e526.png
-[wor-speech-bubble]: https://clan.cloudflare.steamstatic.com/images//35599024/5f63bca0a4258a26e77ac40b3d2a75f197304dcb.png
-[wor-avx]: https://store.steampowered.com/news/app/1110620/view/4118050466869150657
 [wor-speedrun]: https://clan.cloudflare.steamstatic.com/images//35599024/6ee82d4e0105f073082c83626e37933e682b5936.png
-[wor-achievements]: https://clan.cloudflare.steamstatic.com/images//35599024/573f81c1ebce54d9efedcd693fcbe684a5629c7f.png
-[wor-jukebox]: https://clan.cloudflare.steamstatic.com/images//35599024/b21c4b8ce5fa9cca7c6c1967ec5ffe169d8f1cb2.png
 [wor-mail]: https://anthropicstudios.com/newsletter/signup/tech
 [wor-release-notes]: https://store.steampowered.com/news/app/1110620
+[wor-avx]: https://store.steampowered.com/news/app/1110620/view/4118050466869150657
+[wor-achievements]: https://clan.cloudflare.steamstatic.com/images//35599024/573f81c1ebce54d9efedcd693fcbe684a5629c7f.png
 
 ### [SM64JSARCHIVE][sm64jsarchive]
 
 ![Super Mario 64 JavaScript](sm64jsarchive.jpg)
 
-[SM64JSARCHIVE][sm64jsarchive] Source code available on the ([GitHub][sm64jsarchive-github], sm64jsarchive is a rewrite
-of the decompilation project of Super Mario 64 JavaScript as an actively maintained fork instead. 
-The reason this was made as original sm64js's developers and admins / moderators got demotivated and 
-fully left the project sm64jsarchive was made as an new reboot of sm64js.
+[SM64JSARCHIVE][sm64jsarchive] is an actively maintained fork of [sm64js]: a decompilation project of Super Mario 64 to JavaScript.
+Additional sidenote: The mmo servers arent always running for the game
 
-The [backend server][sm64jsarchive-server] has been finally been able to start after 10 long months
-and is now live to <https://mmo.sm64jsarchive.com>
+The backend server, which is written in Rust,
+has finally been able to start after 10 long months
+and is now live at <https://mmo.sm64jsarchive.com>
 
-The newest updates have been:
-
-- Working MMO
-- More stable changes to the games client
-
-A stress test is scheduled for 2024-4-10 12:25 CST and everyone is invited!
-
-Note: if you have a laggy computer or something like that and the page does not load within 10-20 minutes then please try refreshing.
+A successful stress test for the MMO feature was run on April 10th.
 
 [sm64jsarchive]: https://mmo.sm64jsarchive.com
-[sm64jsarchive-github]: https://github.com/uuphoria2/sm64jsarchive
-[sm64jsarchive-server]: https://github.com/sm64jsarchived/sm64jsarchive-mmo-server
+[sm64js]: https://github.com/sm64js/sm64js
 
 ### [Open Combat][OpenCombat_website]
 
 ![OpenCombat: demo available soon](OpenCombat202404.jpg)
 _Official demo available soon_
 
-Open Combat ([Website][OpenCombat_website], [GitHub][OpenCombat_github],
-[Discord][OpenCombat_discord]) is a real-time tactical game
-which takes place during the 2nd World War.
+Open Combat ([GitHub][OpenCombat_github], [Discord][OpenCombat_discord]) is a real-time tactical game
+which takes place during World War II.
 
-Some major changes since last news !
+The basic game logic and HUD are now complete, 
+and the high-definition map for the demo is finished.
 
-- Basic HUD is now complete
-- Hight definition map finished for the demo
-- Basic game logic finished
-
-The game demo is almost finished.
-Some things are missing like soldier high definition assets, or minimal AI for opponent.
-But the demo is playable and we need some alpha players to make feedbacks 🎮 !
-You can find game binaries on the [Github page][OpenCombat_release].
-Please come and see us on the [Discord][OpenCombat_discord] to make your feedback !
+Some things are missing, like high-definition assets for soldiers or minimal AI for opponents.
+But the [demo is playable][OpenCombat_release] and the team would love to hear your feedback!
 
 [OpenCombat_website]: https://opencombat.bux.fr/
 [OpenCombat_github]: https://github.com/buxx/OpenCombat
@@ -163,16 +142,12 @@ Please come and see us on the [Discord][OpenCombat_discord] to make your feedbac
 
 ![Times of Progress: an isometric city builder game set during the industrial revolution](times_of_progress.jpg)
 
-Times of Progress ([Steam][times-of-progress-steam]) is an upcoming city builder game set during the industrial revolution.
+Times of Progress ([Steam][times-of-progress-steam], [Twitter/X][times-of-progress-twitter], [Mastodon][times-of-progress-mastodon]) 
+is an upcoming city builder game set during the industrial revolution.
 
-During the month of April:
-- The orders systems (how buildings request resources from other buildings) has been refactored to improve performance and make better use of the ECS.
-- Lots of UI widgets have been developed, in particular those related to showing stats about currently hovered and selected building,
-as well as during building placement.
+In April, they added lots of UI widgets and improved performance by refactoring the orders system.
 
 The demo is not available yet but interested players can sign up for the upcoming closed beta by joining the [newsletter][times-of-progress-newsletter].
-
-More GIFs and progress updates are available on [Twitter][times-of-progress-twitter] and [Mastodon][times-of-progress-mastodon].
 
 [times-of-progress-steam]: https://store.steampowered.com/app/2628450/Times_of_Progress/
 [times-of-progress-newsletter]: https://subscribepage.io/pressingthumbs
@@ -190,10 +165,10 @@ The gameplay is quite distilled and revolves mostly around resource management.
 The player has limited inventory capacity and the weapons get damaged
 after each use. There are 20 randomly generated levels to beat.
 
-It is available on desktop (Windows / Linux), Android an Web (mobile friendly).
-The game is open-sourced - together with a custom WGPU-based 2d framework.
+It is available on desktop (Windows / Linux), Android, and Web (mobile friendly).
+The game's source code also comes with a custom WGPU-based 2D framework.
 
-_Discussions: ([/r/roguelikes][monk-tower-reddit])
+_Discussions: ([/r/roguelikes][monk-tower-reddit])_
 
 [monk-tower-itch]: https://maciekglowka.itch.io/monk-tower
 [monk-tower-play]: https://play.google.com/store/apps/details?id=com.maciejglowka.monk_tower
@@ -204,20 +179,20 @@ _Discussions: ([/r/roguelikes][monk-tower-reddit])
 
 ![You are Merlin screenshot](you-are-merlin.png)
 
-You are Merlin ([Web Game][you-are-merlin-web], [GitHub - Rust/CLI][you-are-merlin-github], [GitHub - WASM][you-are-merlin-www-github]) by @hseager
+You are Merlin ([Web Game][you-are-merlin-web], [GitHub - Rust/CLI][you-are-merlin-github], [GitHub - WASM][you-are-merlin-www-github]) by [@hseager](https://github.com/hseager)
 is a text adventure game that compiles to both CLI and WebAssembly.
 
-This initial version features a main quest, side quests, items and a boss fight.
-Players can choose their favourite theme such as Zelda, Warcraft and Fallout. 
-With the web version, players can select their prefered input method of buttons or keyboard and fully works on mobile.
+This initial version features a main quest, side quests, items, and a boss fight.
+Players can choose their favourite visual theme such as Zelda, Warcraft, and Fallout. The web version also supports mobile devices.
+
 Although fairly simple, this first version provides a good foundation for building more features in later updates.
 
-_Discussions: ([Reddit post][you-are-merlin-reddit-post])
+_Discussions: ([/r/rust_gamedev][you-are-merlin-reddit-post])_
 
 [you-are-merlin-web]: https://hseager.github.io/you-are-merlin-www/
 [you-are-merlin-github]: https://github.com/hseager/you-are-merlin
 [you-are-merlin-www-github]: https://github.com/hseager/you-are-merlin-www
-[you-are-merlin-reddit-post]: https://old.reddit.com/r/rust_gamedev/comments/1c9k1kb/you_are_merlin_a_text_adventure_game/
+[you-are-merlin-reddit-post]: https://www.reddit.com/r/rust_gamedev/comments/1c9k1kb/you_are_merlin_a_text_adventure_game/
 
 ### [Jumpy]
 
@@ -228,8 +203,8 @@ _Jumpy: Machine gun and Periscope_
 [Spicy Lobster][spicy_lobster] is a pixel-style, tactical 2D shooter with a fishy
 theme.
 
-This month the base functionality of round scoring and map transitions have been implemented.
-New weapons such as the Blunderbuss, Periscope, and Machine Gun are ready for fish on fish combat.
+This month the base functionalities of round scoring and map transitions have been implemented.
+New weapons such as the Blunderbuss, Periscope, and Machine Gun are ready for fish-on-fish combat.
 
 Jumpy is now featuring corpse physics and a "ragdoll" button to send your Fish [flopping about][jumpy_ragdoll].
 
@@ -247,21 +222,22 @@ _Discussions: [GitHub][jumpy_discussions], [Twitter][jumpy_twitter]_
 
 ## Engine Updates
 
-### Bottomless-Pit 0.3.1
+### Bottomless-Pit 0.3
+
 ![The Bottomles-Pit Logo. A small hole in the ground with cat ears and text saying bottomless-pit](https://eggshark.dev/images/bplogo.png)
 
-
-Bottomless-Pit is a 2d game engine written with WGPU that has been around for a year which can be found on [crates.io][Bottomless-Pit_cratesio] and [GitHub][Bottomless-Pit_github].
+Bottomless-Pit is a 2d game engine written with WGPU that has been around for a year, which can be found on [crates.io][Bottomless-Pit_cratesio] and [GitHub][Bottomless-Pit_github].
 Very recently a 2d camera was added as well as WASM and web support.
 Current development is being focused on stability and QoL changes like texture sampling options and improved input.
-You can checkout several engine examples on the web [here][Bottomless-Pit_Website].
-Since the engine is in it's infancy it would be great to have developers use it and give the engine some feedback.
+You can check out several [engine examples on the web][Bottomless-Pit_Website].
+Since the engine is in its infancy, its developer calls for developers to use it and give the engine some feedback.
+
 Current features are:
 
 - Custom Shader Support
-- basic rendering
-- text rendering
-- input and window event handling
+- Basic rendering
+- Text rendering
+- Input and window event handling
 
 [Bottomless-Pit_Website]: https://eggshark.dev/bp-examples
 [Bottomless-Pit_cratesio]: https://crates.io/crates/bottomless-pit
@@ -271,36 +247,81 @@ Current features are:
 
 ### Building games for Android with Rust
 
-@maciekglowka has recently shared some thoughts about building Rust games
+[@maciekglowka] has recently shared some thoughts [on their blog][android-games-blog] about building Rust games
 for Android. Rather than a step-by-step guide, it is a collection
 of issues one can possibly encounter when targeting Android.
 
 Topics mentioned:
 
-- 'window' creation (via winit)
+- 'Window' creation (via winit)
 - Android app's lifecycle vs. the WGPU surface creation
-- user data storage
-- system UI hiding via jni and Android API
-- building AAB files to meet Google Play requirements
-
-[Blog post link][android-games-blog]
+- User data storage
+- System UI hiding via jni and Android API
+- Building AAB files to meet Google Play requirements
 
 [android-games-blog]: https://maciejglowka.com/blog/building-games-for-android-with-rust/
+[@maciekglowka]: https://github.com/maciekglowka
 
-## Tooling Updates
+### Bevy: A case study in ergonomic Rust
+
+[Chris Biscardi][chris-yt] was at RustNation UK recently and gave talk on Bevy's 
+Rusty ergonomics titled [Bevy: A case study in ergonomic Rust][case-study-video]. 
+In their own words:
+
+> There are at least two, if not three, talks worth of material around how Bevy
+> progressively discloses complexity across multiple "stacks" of APIs; and the
+> work done so far is very impressive in terms of how it all fits together,
+> especially as a large-and-growing OSS project.
+
+[chris-yt]: https://www.youtube.com/c/chrisbiscardi
+[case-study-video]: https://www.youtube.com/watch?v=CnoDOc6ML0Y
+
+### Reactivity in Bevy: From the Bottom Up
+
+[Talin][talin] wrote a three-part series on ["Reactivity in Bevy: From the Bottom Up"][reactivity-blog], 
+which describes the workings of `bevy_reactor`, an experimental, work-in-progress framework for doing reactive programming within Bevy.
+
+[reactivity-blog]: https://machinewords.hashnode.dev/reactivity-in-bevy-from-the-bottom-up-part-1
+[talin]: https://dreamertalin.medium.com/
 
 ## Library Updates
+
+### Jolt Bindings
+
+[Lucian Greathouse][lucien] has published their [Jolt][jolt] bindings for Rust. Jolt is a C++ physics engine you might know from its use in Horizon: Forbidden West.
+Lucian has previously worked on [JoltC][joltc], a C API for Jolt, which this project uses in the background.
+
+The bindings work can be found on the [just-rust GitHub repo][jolt-rust] GitHub repository and come in two flavors:
+- `joltc-sys`: Unsafe bindings to the C API 
+- `rolt`: Ergonomic and safe Rust API
+
+[lucien]: https://lpg.space/
+[jolt]: https://github.com/jrouwe/JoltPhysics
+[jolt-rust]: https://github.com/SecondHalfGames/jolt-rust
+[joltc]: https://github.com/SecondHalfGames/JoltC
+
+### Hexx 0.17
+
+Hexx, the popular crate for hexagonal tools, [has released version 0.17](https://github.com/ManevilleF/hexx/releases/tag/0.17.0). 
+This release has a strong focus on performance:
+- Large performance improvement on various computations like rings and wedges
+- Add support for optimized storage for hexagonal and rhombus-shaped maps
+- Added support for rectiline path
+
+And utility:
+- Added a 13th example showcasing all natively supported shapes
+- Removed confusing items
 
 ### [Lightyear 0.13][lightyear_website]
 
 [lightyear_website] is a comprehensive networking library for bevy to make multiplayer games.
 It comes with multiple types of transports (WebTransport, WebSocket, UDP, etc.) 
-and supports replication techniques like client-side prediction, server interpolation, interest management and more!
+and supports replication techniques like client-side prediction, server interpolation, interest management, and more!
 Check out the [examples][lightyear_examples]!
 
 The latest release, [0.13][lightyear_release], brings two big new features:
 - **Steam support**: you can now use the Steamworks SDK as your transport layer, which lets you use the Valve network!
-Note that lightyear supports running multiple transports in parallel, so it's possible to have cross-play between steam and non-steam users.
+Note that lightyear supports running multiple transports in parallel, so it's possible to have cross-play between Steam and non-Steam users.
 - **Listen-server mode**: it is now possible to run a server and a client in the same process/bevy app.
 This can be useful to avoid the costs of a dedicated server, or to have a similar codebase between singleplayer and multiplayer.
 
@@ -310,60 +331,20 @@ This can be useful to avoid the costs of a dedicated server, or to have a simila
 [lightyear_release]: https://github.com/cBournhonesque/lightyear/releases/tag/0.13.0
 [lightyear_examples]: https://github.com/cBournhonesque/lightyear/tree/main/examples
 
-
-## Popular Workgroup Issues in GitHub
-
-<!-- Up to 10 links to interesting issues -->
-
 ## Other News
 
-<!-- One-liners for plan items that haven't got their own sections. -->
-
-### Bevy rustunit meetup
-
-
-![Bevy meetup youtube extract](bevy_rustunit_meetup_3.jpg)
-_Bevy meetup youtube extract, showing its 3 participants._
-
-[Rustunit][rustunit] has hosted its 3rd unofficial online [Bevy Engine](bevy) meetup on April 19th with the following topics:
-- Intro / Code of Conduct
-- Julian - Animating 3D Characters with Bevy
-- Niklas - Learnings from a Bevy game template
-
-Check out [the recording](rustunit_bevy_meetup_youtube)
-and join [the meetup group](rustunit_bevy_meetup_event) to get notified of future events.
-
-[rustunit]: https://rustunit.com/
-[rustunit_bevy_meetup_youtube]: https://www.youtube.com/watch?v=Fyr1ud1OIpU
-[rustunit_bevy_meetup_event]: https://www.meetup.com/bevy-game-development/
-[bevy]: https://bevyengine.org/
-
-## Meeting Minutes
-
-<!-- Up to 10 most important notes + a link to the full details -->
-
-[See all meeting issues][label_meeting] including full text notes
-or [join the next meeting][join].
-
-[label_meeting]: https://github.com/rust-gamedev/wg/issues?q=label%3Ameeting
+- Alice I. Cecile of the Bevy Foundation would like to collect community feedback
+on game development in Rust. Please fill out [her survey](https://forms.gle/kLzv5Ww3U8dLGUHU8)!
 
 ## Discussions
 
-<!-- Links to handpicked reddit/twitter/urlo/etc threads that provide
-useful information -->
+LogLog games has published a [very well-written blog post](https://loglog.games/blog/leaving-rust-gamedev/) about their reasons to leave Rust gamedev.
+It talks about shortcomings in Rust as a language in general and as a game development tool in particular. 
+Some insights into the limitations of ECS are also provided. Some interesting community discussions have been sparked by this post:
 
-## Requests for Contribution
-
-<!-- Links to "good first issue"-labels or direct links to specific tasks -->
-
-## Jobs
-
-<!-- An optional section for new jobs related to Rust gamedev -->
-
-## Bonus
-
-<!-- Bonus section to make the newsletter more interesting
-and highlight events from the past. -->
+- [Hacker News](https://news.ycombinator.com/item?id=40172033)
+- [/r/gamedev](https://www.reddit.com/r/gamedev/comments/1ceipzc/leaving_rust_gamedev_after_3_years_blog_post_by/)
+- [/r/rust](https://www.reddit.com/r/rust/comments/1cdqdsi/lessons_learned_after_3_years_of_fulltime_rust/)
 
 ------
 
@@ -375,14 +356,13 @@ Want something mentioned in the next newsletter?
 Also, subscribe to [@rust_gamedev on Twitter][@rust_gamedev]
 or [/r/rust_gamedev subreddit][/r/rust_gamedev] if you want to receive fresh news!
 
-<!--
-TODO: Add real links and un-comment once this post is published
 **Discuss this post on**:
-[/r/rust_gamedev](TODO),
-[Mastodon](TODO),
-[Twitter](TODO),
+[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/1cja5v8/this_month_in_rust_gamedev_april_edition_released/),
+[rust@lemmy.ml](https://lemmy.ml/post/15196466),
+[Hacker News](https://news.ycombinator.com/item?id=40248347),
+[Mastodon](https://mastodon.gamedev.place/@rust_gamedev/112377678490780983),
+[Twitter](https://twitter.com/rust_gamedev/status/1786406704629829935),
 [Discord](https://discord.gg/yNtPTb2).
--->
 
 [/r/rust_gamedev]: https://reddit.com/r/rust_gamedev
 [@rust_gamedev]: https://twitter.com/rust_gamedev
