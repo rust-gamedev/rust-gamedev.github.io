@@ -96,8 +96,8 @@ which you can [watch on youtube][rustnl_games_youtube].
 
 Special mention to the following talks, relevant to game development:
 - [The talk from Kevin Boos][rustnl_kevin_boos_talk]: let's build high performance Rust UI
-- [The talk from Ralph Levien][rustnl_xilem_talk] about [Xilem]
-[rustnl_xilem_intro]: a research project on Rust user interface architecture.
+- [The talk from Ralph Levien][rustnl_xilem_talk] about [Xilem][rustnl_xilem_intro]: 
+a research project on Rust user interface architecture.
 - [The talk from Michaël Melchiore][rustnl_michael_melchiore_talk]: (Th)Rust for Space: Initial momentum ; who gave a shout out to Bevy Engine.
 
 [rustnl_games_youtube]: https://www.youtube.com/watch?v=XLefuzE-ABU&t=7583s
