@@ -73,6 +73,19 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Learning Material Updates
 
+### Xkcd Machine
+
+![XKCD Machine](xkcd_machine.gif)
+_A small part of the XKCD Machine_
+
+Chromakode released a detailed [blog post][xkcd_machine_blogpost] about their implementation of [xkcd "Machine"][xcd_machine_playable].
+
+While Machine was written in React/Typescript, and used [Rapier][xkcd_rapier], a physics engine written in Rust.
+
+[xkcd_machine_blogpost]: https://chromakode.com/post/xkcd-machine/
+[xcd_machine_playable]: https://xkcd.com/2916/
+[xkcd_rapier]: https://rapier.rs/
+
 ## Tooling Updates
 
 ## Library Updates
