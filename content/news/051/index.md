@@ -80,7 +80,7 @@ _A small part of the XKCD Machine_
 
 Chromakode released a detailed [blog post][xkcd_machine_blogpost] about their implementation of [xkcd "Machine"][xcd_machine_playable].
 
-While Machine was written in React/Typescript, and used [Rapier][xkcd_rapier], a physics engine written in Rust.
+Machine is written in React/Typescript, and uses [Rapier][xkcd_rapier]: a physics engine written in Rust.
 
 [xkcd_machine_blogpost]: https://chromakode.com/post/xkcd-machine/
 [xcd_machine_playable]: https://xkcd.com/2916/
