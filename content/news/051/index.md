@@ -87,7 +87,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### RustNL
 
-RustNL happened May 7 & 8 in Delft, Netherlands.
+[RustNL][rustnl_main_website] happened May 7 & 8 in Delft, Netherlands.
 
 While the conference was not specific to game development,
 organizers contacted rust game development communities
@@ -98,13 +98,15 @@ Special mention to the following talks, relevant to game development:
 - [The talk from Kevin Boos][rustnl_kevin_boos_talk]: let's build high performance Rust UI
 - [The talk from Ralph Levien][rustnl_xilem_talk] about [Xilem][rustnl_xilem_intro]: 
 a research project on Rust user interface architecture.
-- [The talk from Michaël Melchiore][rustnl_michael_melchiore_talk]: (Th)Rust for Space: Initial momentum ; who gave a shout out to Bevy Engine.
+- [The talk from Michaël Melchiore][rustnl_michael_melchiore_talk]: (Th)Rust for Space: Initial momentum ; who gave a shout out to [Bevy Engine][rustnl_bevy_engine].
 
+[rustnl_main_website]: https://2024.rustnl.org/
 [rustnl_games_youtube]: https://www.youtube.com/watch?v=XLefuzE-ABU&t=7583s
 [rustnl_xilem_talk]: https://www.youtube.com/watch?v=521NfGf7AR0&t=19308s
 [rustnl_xilem_intro]: https://raphlinus.github.io/rust/gui/2022/05/07/ui-architecture.html
 [rustnl_kevin_boos_talk]: https://www.youtube.com/watch?v=521NfGf7AR0&t=2928s
 [rustnl_michael_melchiore_talk]: https://www.youtube.com/watch?v=XLefuzE-ABU&t=3898s
+[rustnl_bevy_engine]:https://bevyengine.org/
 
 ## Meeting Minutes
 
