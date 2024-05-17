@@ -72,6 +72,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ### [Way of Rhea][wor]
 
 [![Way of Rhea](wor.jpg)][wor]
+*Way of Rhea: a puzzle game. Available on Steam.*
 
 [Way of Rhea][wor] released on May 20th as part of the
 [Cerebral Puzzle Showcase][wor-cps]!
