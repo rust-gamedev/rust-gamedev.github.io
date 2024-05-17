@@ -69,6 +69,24 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Way of Rhea][wor]
+
+[![Way of Rhea](wor.jpg)][wor]
+
+[Way of Rhea][wor] released on May 20th as part of the
+[Cerebral Puzzle Showcase][wor-cps]!
+
+Way of Rhea is a color-based puzzle game with difficult puzzles, but
+forgiving mechanics developed by [Mason Remaley] in a custom Rust engine.
+
+You can support development by [purchasing Way of Rhea on Steam][wor], or
+[signing up for the mailing list][wor-mail] to hear about future games.
+
+[Mason Remaley]: https://masonremaley.com/
+[wor]: https://store.steampowered.com/app/1110620/Way_of_Rhea/?utm_campaign=tmirgd&utm_source=n51
+[wor-mail]: https://anthropicstudios.com/newsletter/signup/tech
+[wor-cps]: https://www.cerebralpuzzleshowcase.com/
+
 ## Engine Updates
 
 ## Learning Material Updates
