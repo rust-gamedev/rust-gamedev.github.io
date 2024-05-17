@@ -77,6 +77,8 @@ If needed, a section can be split into subsections with a "------" delimiter.
 [Way of Rhea][wor] released on May 20th as part of the
 [Cerebral Puzzle Showcase][wor-cps]!
 
+[![Way of Rhea](wor-animated.gif)][wor]
+
 Way of Rhea is a color-based puzzle game with difficult puzzles, but
 forgiving mechanics developed by [Mason Remaley] in a custom Rust engine.
 
