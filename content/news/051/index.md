@@ -87,7 +87,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### RustNL
 
-[RustNL][rustnl_main_website] happened May 7 & 8 in Delft, Netherlands.
+[RustNL][rustnl_main_website] happened May 7. & 8. in Delft, Netherlands.
 
 While the conference was not specific to game development,
 organizers contacted rust game development communities
@@ -95,10 +95,9 @@ to showcase games developed in Rust between talks,
 which you can [watch on youtube][rustnl_games_youtube].
 
 Special mention to the following talks, relevant to game development:
-- [The talk from Kevin Boos][rustnl_kevin_boos_talk]: let's build high performance Rust UI
-- [The talk from Ralph Levien][rustnl_xilem_talk] about [Xilem][rustnl_xilem_intro]: 
-a research project on Rust user interface architecture.
-- [The talk from Michaël Melchiore][rustnl_michael_melchiore_talk]: (Th)Rust for Space: Initial momentum ; who gave a shout out to [Bevy Engine][rustnl_bevy_engine].
+- [Let's Build High Performance Rust UI][rustnl_kevin_boos_talk] by Kevin Boos  
+- [A Research Project on Rust User Interface Architecture][rustnl_xilem_talk] by Ralph Levien about [Xilem][rustnl_xilem_intro]  
+- [(Th)Rust for Space: Initial momentum][rustnl_michael_melchiore_talk] by Michaël Melchiore, who gave a shout out to [Bevy Engine][rustnl_bevy_engine].
 
 [rustnl_main_website]: https://2024.rustnl.org/
 [rustnl_games_youtube]: https://www.youtube.com/watch?v=XLefuzE-ABU&t=7583s
