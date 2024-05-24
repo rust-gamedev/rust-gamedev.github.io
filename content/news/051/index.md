@@ -109,7 +109,7 @@ _Discussions: [GitHub][Rusty Playdate Gh-disc], [Matrix][Rusty Playdate Matrix].
 
 <!-- Up to 10 most important notes + a link to the full details -->
 
-[See all meeting issues][label_meeting] including  full text notes
+[See all meeting issues][label_meeting] including full text notes
 or [join the next meeting][join].
 
 [label_meeting]: https://github.com/rust-gamedev/wg/issues?q=label%3Ameeting
