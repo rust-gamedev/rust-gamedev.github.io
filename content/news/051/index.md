@@ -117,6 +117,28 @@ and join [the meetup group][rustunit_bevy_meetup_event] to get notified of futur
 
 <!-- One-liners for plan items that haven't got their own sections. -->
 
+### RustNL
+
+[RustNL][rustnl_main_website] happened May 7. & 8. in Delft, Netherlands.
+
+While the conference was not specific to game development,
+organizers contacted rust game development communities
+to showcase games developed in Rust between talks,
+which you can [watch on youtube][rustnl_games_youtube].
+
+Special mention to the following talks, relevant to game development:
+- [Let's Build High Performance Rust UI][rustnl_kevin_boos_talk] by Kevin Boos  
+- [A Research Project on Rust User Interface Architecture][rustnl_xilem_talk] by Ralph Levien about [Xilem][rustnl_xilem_intro]  
+- [(Th)Rust for Space: Initial momentum][rustnl_michael_melchiore_talk] by Michaël Melchiore, who gave a shout out to [Bevy Engine][rustnl_bevy_engine].
+
+[rustnl_main_website]: https://2024.rustnl.org/
+[rustnl_games_youtube]: https://www.youtube.com/watch?v=XLefuzE-ABU&t=7583s
+[rustnl_xilem_talk]: https://www.youtube.com/watch?v=521NfGf7AR0&t=19308s
+[rustnl_xilem_intro]: https://raphlinus.github.io/rust/gui/2022/05/07/ui-architecture.html
+[rustnl_kevin_boos_talk]: https://www.youtube.com/watch?v=521NfGf7AR0&t=2928s
+[rustnl_michael_melchiore_talk]: https://www.youtube.com/watch?v=XLefuzE-ABU&t=3898s
+[rustnl_bevy_engine]:https://bevyengine.org/
+
 ## Meeting Minutes
 
 <!-- Up to 10 most important notes + a link to the full details -->
