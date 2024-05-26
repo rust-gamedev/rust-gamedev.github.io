@@ -117,8 +117,9 @@ Machine is written in React/Typescript, and uses [Rapier][xkcd_rapier]: a physic
 
 ## Other News
 
-### Bevy rustunit meetup
+<!-- One-liners for plan items that haven't got their own sections. -->
 
+### Bevy rustunit meetup #3
 
 ![Bevy meetup youtube extract](bevy_rustunit_meetup_3.jpg)
 _Bevy meetup youtube extract, showing its 3 participants._
@@ -128,15 +129,29 @@ _Bevy meetup youtube extract, showing its 3 participants._
 - Julian - Animating 3D Characters with Bevy
 - Niklas - Learnings from a Bevy game template
 
-Check out [the recording][rustunit_bevy_meetup_youtube]
+Check out [the recording][rustunit_bevy_meetup_3_youtube]
 and join [the meetup group][rustunit_bevy_meetup_event] to get notified of future events.
 
+[rustunit_bevy_meetup_3_youtube]: https://www.youtube.com/watch?v=Fyr1ud1OIpU
+
+### Bevy rustunit meetup #4
+
+![Bevy meetup youtube extract](bevy_rustunit_meetup_4.jpg)
+_Bevy meetup youtube extract, showing its 4 participants._
+
+[Rustunit][rustunit] has hosted its 4th unofficial online [Bevy Engine][bevy] meetup on May 24th with the following topics:
+- Francois - Catching Rendering Regressions on all Platforms
+- Lorenz - Hooking into the Bevy Rendering Pipeline
+- Jos - Recreating Townscaper using Rust & Bevy
+
+Check out [the recording][rustunit_bevy_meetup_4_youtube]
+and join [the meetup group][rustunit_bevy_meetup_event] to get notified of future events.
+
+[rustunit_bevy_meetup_4_youtube]: https://www.youtube.com/watch?v=rnE_nINEs2M
 [rustunit]: https://rustunit.com/
-[rustunit_bevy_meetup_youtube]: https://www.youtube.com/watch?v=Fyr1ud1OIpU
 [rustunit_bevy_meetup_event]: https://www.meetup.com/bevy-game-development/
 [bevy]: https://bevyengine.org/
 
-<!-- One-liners for plan items that haven't got their own sections. -->
 
 ### RustNL
 
