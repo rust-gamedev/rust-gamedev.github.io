@@ -102,7 +102,7 @@ The game was created in 9 days using syn9's Rust mini game framework (mgfw) and 
 
 This release contains 110 levels which pull from 870 available puzzle layouts.
 
-[mirr/orb]: http://mirrorb.io
+[mirr/orb]: https://syn9dev.itch.io/mirrorb
 [syn9]: https://twitter.com/Syn9Dev
 
 
