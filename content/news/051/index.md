@@ -119,6 +119,20 @@ This month:
 [caspark]: https://github.com/caspark/
 [Leaving Rust gamedev after 3 years]: https://loglog.games/blog/leaving-rust-gamedev/
 
+### [mirr/orb]
+
+![mirr/orb](mirrorb.png)
+
+[mirr/orb] by [syn9]
+is a puzzle game about bouncing lasers off mirrors to activate orbs.
+
+The game was created in 9 days using syn9's Rust mini game framework (mgfw) and released on May 27th.
+
+This release contains 110 levels which pull from 870 available puzzle layouts.
+
+[mirr/orb]: https://syn9dev.itch.io/mirrorb
+[syn9]: https://twitter.com/Syn9Dev
+
 ## Engine Updates
 
 ## Learning Material Updates
