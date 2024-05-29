@@ -97,7 +97,7 @@ You can support development by [purchasing Way of Rhea on Steam][wor], or
 ![quad-gl](twiq_3d_helmet.gif)
 _"Basic" 3d rendering (gltf helmet)_
 
-[@Fedor](https://github.com/not-fl3/), creator of [*Quad], is starting a [This week in Quads](https://macroquad.rs/twiq) newsletter.
+[@Fedor](https://github.com/not-fl3/), creator of [*Quad], a game engine written in Rust, is starting a [This week in Quads](https://macroquad.rs/twiq) newsletter.
 
 Overall polish, developer experience, performance optimization and basic 3d visualization have been worked on.
 
