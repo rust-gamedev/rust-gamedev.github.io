@@ -90,6 +90,34 @@ You can support development by [purchasing Way of Rhea on Steam][wor], or
 [wor-mail]: https://anthropicstudios.com/newsletter/signup/tech
 [wor-cps]: https://www.cerebralpuzzleshowcase.com/
 
+### [Untitled Pixel Wizard Game][pixel-wizards]
+
+[![A target being destroyed by a rudimentary flame thrower spell](untitled-pixel-wizards-game.gif)][pixel-wizards]
+_A deadly foe meets their end._
+
+[Untitled Pixel Wizard Game][pixel-wizards] is a local-multiplayer [Noita]-like platformer about
+killing baddies using spells powered by pixel physics.
+
+Over the last few months, the falling sand simulation learned to play (somewhat) nicely with Rapier
+rigid bodies; see [Bridging Physics Worlds][pixel-wizards-bridging-physics-worlds] and subsequent updates.
+
+This month:
+
+- [Tilemapping via LDTK][pixel-wizards-tilemapping]: levels got just a tiny bit prettier.
+- [Level Progression][pixel-wizards-levels]: players learned to die, and levels link together.
+- [Architectural Ruminations][pixel-wizards-arch]: reflections on using Rust for game development,
+  prompted by LogLog Games's '[Leaving Rust gamedev after 3 years]'.
+- [Target Practice][pixel-wizards-targets]: the first "enemy" was added to the game.
+
+[pixel-wizards]: https://slowrush.dev
+[Noita]: https://store.steampowered.com/app/881100/Noita/
+[pixel-wizards-bridging-physics-worlds]: https://www.slowrush.dev/news/bridging-physics-worlds/
+[pixel-wizards-targets]: https://www.slowrush.dev/news/target-practice/
+[pixel-wizards-arch]: https://www.slowrush.dev/news/architectural-questions/
+[pixel-wizards-levels]: https://www.slowrush.dev/news/level-progression/
+[pixel-wizards-tilemapping]: https://www.slowrush.dev/news/tilemapping/
+[caspark]: https://github.com/caspark/
+[Leaving Rust gamedev after 3 years]: https://loglog.games/blog/leaving-rust-gamedev/
 
 ### [mirr/orb]
 
@@ -104,8 +132,6 @@ This release contains 110 levels which pull from 870 available puzzle layouts.
 
 [mirr/orb]: https://syn9dev.itch.io/mirrorb
 [syn9]: https://twitter.com/Syn9Dev
-
-
 
 ## Engine Updates
 
