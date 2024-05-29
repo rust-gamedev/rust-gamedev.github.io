@@ -95,7 +95,7 @@ You can support development by [purchasing Way of Rhea on Steam][wor], or
 [![A target being destroyed by a rudimentary flame thrower spell](untitled-pixel-wizards-game.gif)][pixel-wizards]
 _A deadly foe meets their end._
 
-[Untitled Pixel Wizard Game](pixel-wizards) is a local-multiplayer [Noita]-like platformer about
+[Untitled Pixel Wizard Game][pixel-wizards] is a local-multiplayer [Noita]-like platformer about
 killing baddies using spells powered by pixel physics.
 
 Over the last few months, the falling sand simulation learned to play (somewhat) nicely with Rapier
