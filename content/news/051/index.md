@@ -81,7 +81,8 @@ If needed, a section can be split into subsections with a "------" delimiter.
 _The Playdate console_
 
 [Rusty Playdate] ([GitHub][Rusty Playdate], [Mastodon][Rusty Playdate Masto]) by [@boozook](https://github.com/boozook)
-is the large set of crates with bindings, cargo-plugin and toolset for the full cycle of creating games for the [Playdate handheld console][playdate]. This is a fairly new console reminiscent of a GameBoy with a crank handle geared towards indie games.
+is the large set of crates with bindings, cargo-plugin and toolset for the full cycle of creating games for the [Playdate handheld console][playdate].
+This is a fairly new console reminiscent of a GameBoy with a crank handle geared towards indie games.
 
 The current release sports the following notable improvements:
 - Partial Lua scripting support
