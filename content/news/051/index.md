@@ -77,16 +77,17 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [Rusty Playdate]
 
-![alt text](img)
-_optional image label_
+![The Playdate console](playdate.png)
+_The Playdate console_
 
 [Rusty Playdate] ([GitHub][Rusty Playdate], [Mastodon][Rusty Playdate Masto]) by [@boozook](https://github.com/boozook)
-is the large set of crates with bindings, cargo-plugin and toolset for the full cycle of creating games for Playdate handheld console.
+is the large set of crates with bindings, cargo-plugin and toolset for the full cycle of creating games for the [Playdate handheld console][playdate]. This is a fairly new console reminiscent of a GameBoy with a crank handle geared towards indie games.
 
-{TODO: An overview of the recent updates with links to more details}.
-... stabilization
-... lua support
-... complete windows support finally
+The current release sports the following notable improvements:
+- Partial Lua scripting support
+- Support for devices connected to macOS via USB hub
+- Stabilize packaging on Windows enough to add automatic tests
+- Stabilization for various parts of the API
 
 _Discussions: [GitHub][Rusty Playdate Gh-disc], [Matrix][Rusty Playdate Matrix]._
 
@@ -94,6 +95,7 @@ _Discussions: [GitHub][Rusty Playdate Gh-disc], [Matrix][Rusty Playdate Matrix].
 [Rusty Playdate Gh-disc]: https://github.com/boozook/playdate/discussions
 [Rusty Playdate Masto]: https://gamedev.social/@playdaters
 [Rusty Playdate Matrix]: https://matrix.to/#/#playdate.rs:matrix.org
+[playdate]: https://play.date/
 
 ## Library Updates
 
