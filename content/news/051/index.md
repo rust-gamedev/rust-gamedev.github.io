@@ -133,6 +133,32 @@ This release contains 110 levels which pull from 870 available puzzle layouts.
 [mirr/orb]: https://syn9dev.itch.io/mirrorb
 [syn9]: https://twitter.com/Syn9Dev
 
+### [CyberGate Playground][cybergate-shorts]
+
+![Improved Hammer Destruction](cybergate.mp4)
+_Shooting a Hammer against a Floating Wall and Destroying part of it_
+
+CyberGate Playground is a multiplayer browser game where players claim territory
+by painting the environment in their color, with the goal of overpowering opponents.
+
+The past few months' updates include:
+- Flying with butterfly-like mechanics;
+- [Fusion Upgrade:][cybergate-fuse] Combine hammers, balls, dices, to multiply their powers;
+- Hammer destruction made more challenging and interesting, with upgrades enabling deeper wall penetration;
+- Improved Strength and Weight system, and calculate their impact on character movement and abilities;
+- Added an 'Owned Upgrades' menu using `yakui` crate, giving a neat overview of all acquired upgrades;
+- Many other UI / gameplay improvements based on player feedback;
+
+Rust's ownership and strongly typed features played a crucial role in allowing the gameplay code to scale 
+to more complex and detailed mechanics while retaining correct, clean, and bug-free code.
+
+CyberGate Playground is a passion project.
+If you're interested in the game's progress, join the [Discord server][cybergate-discord]
+
+[cybergate-shorts]: https://youtube.com/@cyber-gate/shorts
+[cybergate-discord]: https://discord.gg/P3D8weeQ7Z
+[cybergate-fuse]: https://www.youtube.com/shorts/ewnZ6VVSYMM
+
 ## Engine Updates
 
 ### [Macroquad]
