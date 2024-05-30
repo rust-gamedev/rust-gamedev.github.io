@@ -45,6 +45,7 @@ jobs:
           --accept '100..=103,200..=299,300..=399'
           --exclude '[^\w]todo[^\w]?'
           --exclude 'https://(www\.|old\.)?reddit\.com'
+          --exclude 'https://www.patreon.com'
           ${{ steps.changed-files.outputs.changed_files }}
     - name: Install Zola
       run: |
