@@ -190,6 +190,29 @@ Machine is written in React/Typescript, and uses [Rapier][xkcd_rapier]: a physic
 
 ## Tooling Updates
 
+### [Rusty Playdate]
+
+![The Playdate console](playdate.png)
+_The Playdate console_
+
+[Rusty Playdate] ([GitHub][Rusty Playdate], [Mastodon][Rusty Playdate Masto]) by [@boozook](https://github.com/boozook)
+is the large set of crates with bindings, cargo-plugin and toolset for the full cycle of creating games for the [Playdate handheld console][playdate].
+This is a fairly new console reminiscent of a GameBoy with a crank handle geared towards indie games.
+
+The current release sports the following notable improvements:
+- Partial Lua scripting support
+- Support for devices connected to macOS via USB hub
+- Stabilize packaging on Windows enough to add automatic tests
+- Stabilization for various parts of the API
+
+_Discussions: [GitHub][Rusty Playdate Gh-disc], [Matrix][Rusty Playdate Matrix]._
+
+[Rusty Playdate]: https://github.com/boozook/playdate
+[Rusty Playdate Gh-disc]: https://github.com/boozook/playdate/discussions
+[Rusty Playdate Masto]: https://gamedev.social/@playdaters
+[Rusty Playdate Matrix]: https://matrix.to/#/#playdate.rs:matrix.org
+[playdate]: https://play.date/
+
 ## Library Updates
 
 ## Popular Workgroup Issues in GitHub
