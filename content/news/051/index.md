@@ -135,6 +135,18 @@ This release contains 110 levels which pull from 870 available puzzle layouts.
 
 ## Engine Updates
 
+### [Macroquad]
+
+![quad-gl](twiq_3d_helmet.gif)
+_"Basic" 3d rendering (gltf helmet)_
+
+[@Fedor](https://github.com/not-fl3/), creator of [*Quad], a game engine written in Rust, is starting a [This week in Quads](https://macroquad.rs/twiq) newsletter.
+
+Overall polish, developer experience, performance optimization and basic 3d visualization have been worked on.
+
+[Macroquad]: https://github.com/not-fl3/macroquad
+[*Quad]: https://www.patreon.com/posts/on-buses-and-101117631
+
 ## Learning Material Updates
 
 ### Xkcd Machine
