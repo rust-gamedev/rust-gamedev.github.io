@@ -135,7 +135,7 @@ This release contains 110 levels which pull from 870 available puzzle layouts.
 
 ### [CyberGate Playground][cybergate-shorts]
 
-![Improved Hammer Destruction](cybergate.mp4)
+![Improved Hammer Destruction](cybergate.gif)
 _Shooting a Hammer against a Floating Wall and Destroying part of it_
 
 CyberGate Playground is a multiplayer browser game where players claim territory
