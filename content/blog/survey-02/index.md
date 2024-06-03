@@ -14,7 +14,7 @@ We will now go through the results in the same order as the questions were asked
 
 ![Excitement barplot](excitement.png)
 
-On average, readers are excited about the newsletter (the p-value for a t-test of mean 3 is 9.9e-5). The mean excitement level is 3.6 out of 5, the median is 4. 
+On average, readers are excited about the newsletter (the p-value for a t-test of mean 3 is 9.9e-5). The mean excitement level is 3.6 out of 5, the median is 4.
 Our 95% confidence interval is [3.32, 3.91] using a standard error of 0.15.
 
 These are fairly nice results. Anecdotally, we got a lot of messages about issues with the newsletter and how to improve it, 
