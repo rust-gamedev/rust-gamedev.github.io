@@ -59,7 +59,7 @@ contributors who have announced that they would no longer want their content to 
 Of note is that the verbal feedback we got indicated that a lot of readers did not fully understand what exactly was being proposed. 
 People worried that we would start generating a majority of the newsletter or entire sections with AI, which is definitely not something any of us wants. 
 Some readers also thought we already started using LLMs.
-The actual idea was to use AI to generate summaries of articles that were already hand-picked by the editors but not summarized yet because of time constraints. 
+The actual idea was to use AI to generate summaries of articles that were already hand-picked by the editors but not summarized yet because of time constraints.
 The summaries would then be edited and verified by the editors. The extent to which AI would be used would be limited to up to two sentences per late article.
 Any confusion in this regard is our fault.
 We will try to be more clear on such questions in the future.
