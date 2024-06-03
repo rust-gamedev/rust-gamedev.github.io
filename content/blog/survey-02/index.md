@@ -204,6 +204,8 @@ We will discuss how to implement these ideas in the future and keep you updated 
 If you are interested in helping us out, we are always looking for new editors and contributors. Just leave us a message on Discord or GitHub.
 
 Again, thank you very much for your feedback. Rebooting the newsletter was a big ordeal for us,
-and we are happy to see such an active interest in the community. 
+and we are happy to see such an active interest in the community. We hope that we can continue to provide you with a newsletter you enjoy.
+
+Until next time!
 
 ~ The Rust GameDev Newsletter Team, and Jan Hohenheim in particular
