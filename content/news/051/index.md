@@ -2,7 +2,7 @@
 title = "This Month in Rust GameDev #51 - May 2024"
 transparent = true
 date = 2024-06-03
-draft = true
+draft = false
 +++
 
 <!-- no toc -->
@@ -116,7 +116,6 @@ This month:
 [pixel-wizards-arch]: https://www.slowrush.dev/news/architectural-questions/
 [pixel-wizards-levels]: https://www.slowrush.dev/news/level-progression/
 [pixel-wizards-tilemapping]: https://www.slowrush.dev/news/tilemapping/
-[caspark]: https://github.com/caspark/
 [Leaving Rust gamedev after 3 years]: https://loglog.games/blog/leaving-rust-gamedev/
 
 ### [mirr/orb]
