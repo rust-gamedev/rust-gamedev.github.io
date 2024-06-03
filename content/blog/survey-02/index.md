@@ -14,10 +14,10 @@ We will now go through the results in the same order as the questions were asked
 
 ![Excitement barplot](excitement.png)
 
-On average, readers are excited about the newsletter (p-value for t-test of mean 3 is 9.9e-5). The mean excitement level is 3.6 out of 5, the median is 4. 
+On average, readers are excited about the newsletter (the p-value for a t-test of mean 3 is 9.9e-5). The mean excitement level is 3.6 out of 5, the median is 4. 
 Our 95% confidence interval is [3.32, 3.91] using a standard error of 0.15.
 
-These are fairly nice results. Annecdotally, we got a lot of messages about issues with the newsletter and how to improve it, 
+These are fairly nice results. Anecdotally, we got a lot of messages about issues with the newsletter and how to improve it, 
 so we are happy to see that the excitement is still high. Still, the data shows that we have room for improvement.
 
 ## Content Quantity
@@ -36,10 +36,10 @@ and a section for "miscellaneous links" where we only list some links without an
 
 ![Newsletter frequency barplot](frequency.png)
 
-73% of readers are either happy with the current frequency or don't care. A minority of 21% would like the newsletter become quarterly. 
-Arguments we've heard for this are that a lower frequency would allow editors improve the quality that goes into each newsletter. 
+73% of readers are either happy with the current frequency or don't care. A minority of 21% would like the newsletter to become quarterly. 
+Arguments we've heard for this are that a lower frequency would allow editors to improve the quality that goes into each newsletter. 
 Counterarguments include that a lower frequency would make the newsletter less timely. 
-Things like calls for playtesters or job offers would be less useful if they are only sent out every three months.
+Things like calls for playtesters or job offers would be less useful if they were only sent out every three months.
 
 ## AI
 
@@ -50,14 +50,14 @@ This question was a catalyst for a lot of discussion on Discord.
 If we interpret the answers as a scale of 1-5, where 1 is "not okay at all" and 5 is "I love it", the mean answer was 2.25, the median 2.
 Notably, the mode is tied at 1 and 2. The 95% confidence interval is [1.89, 2.61] using a standard error of 0.18. 
 People are generally against using an LLM to generate summaries
-(p-value of t-test of mean 3 is 1.2e-4).
+(the p-value of a t-test of mean 3 is 1.2e-4).
 
 While a majority of readers (65%) are at least okay with AI-generated summaries, a significant minority (35%) are not okay at all with this proposal. 
 These include very active members of the community and 
 contributors who have announced that they would no longer want their content to be included in the newsletter if AI was used.
 
 Of note is that the verbal feedback we got indicated that a lot of readers did not fully understand what exactly was being proposed. 
-People worried that we would start generating a majority of the newsletter or entire sections with AI, which is definitely not something any of us wants. 
+People worried that we would start generating a majority of the newsletter or entire sections with AI, which is not something any of us wants. 
 Some readers also thought we already started using LLMs.
 The actual idea was to use AI to generate summaries of articles that were already hand-picked by the editors but not summarized yet because of time constraints.
 The summaries would then be edited and verified by the editors. The extent to which AI would be used would be limited to up to two sentences per late article.
@@ -65,9 +65,9 @@ Any confusion in this regard is our fault.
 We will try to be more clear on such questions in the future.
 
 Although this misunderstanding might have skewed the results, we have reason to believe that the effect is not too large. 
-Annecdotally, when we properly explained the proposal to readers who were against it, 
+Anecdotally, when we properly explained the proposal to readers who were against it, 
 most did not change their mind and cited deontological reasons for their stance. 
-Chief among these was solidarity with the large amount of creatives who recently lost their jobs due to AI-generated content, 
+Chief among these was solidarity with the large number of creatives who recently lost their jobs due to AI-generated content, 
 inside and outside the game development industry.
 
 ## Tone
@@ -84,7 +84,7 @@ While votes for the latter did not reach a majority, the written feedback we got
 The majority of readers (61.5%) have not yet contributed to the newsletter and 26.9% contributed 2-5 times. 
 Only 3.8% contributed exactly once, while the rest (7.7%) are heavy contributors, helping us out more than five times.
 
-While it might seem weird that more people contriubted 2-5 times than exactly once,
+While it might seem weird that more people contributed 2-5 times than exactly once,
 keep in mind that the former is the sum of people who contributed twice, thrice, four times, and five times. 
 The reason we binned these together is that we are interested in the following categories:
 - Pure readers
@@ -98,11 +98,11 @@ We are happy to see that people who contributed once seem to continue contributi
 
 ![Ease barplot](ease.png)
 
-The mean ease of contributing is 3.0, the median 3. The 95% confidence interval is [2.5, 3.6] using a standard error of 0.26.
+The mean ease of contributing is 3.0, and the median is 3. The 95% confidence interval is [2.5, 3.6] using a standard error of 0.26.
 
-Readers generally feel neutral about the ease of contributing to the newsletter (p-value of t-test of mean 3 is 0.87).
+Readers generally feel neutral about the ease of contributing to the newsletter (the p-value of a t-test of mean 3 is 0.87).
 
-It's clear we can do better here, but we are not sure yet how. 
+We can do better here, but we are not sure yet how. 
 We'd love to hear your ideas on [GitHub](https://github.com/rust-gamedev/rust-gamedev.github.io/issues/1519) or on Discord (ping @janhohenheim).
 
 ## Keeping up with the newsletter
@@ -116,18 +116,18 @@ Discord in general becomes the leading source of information (33.3%), taking up 
 We can see the shift from X / Twitter to Mastodon reported by many OSS communities in our readers as well. 
 The fediverse is not looking as popular as an alternative to Reddit yet, with no reader reporting it as a source of information.
 
-The "Email" option in the survey is meant for people who have setup some kind of email alerts manually.
+The "Email" option in the survey is meant for people who have set up some kind of email alerts manually.
 
-Per written feedback, a lot of people want to see propper email subscription implemented. While this was a goal for this month, 
-we did not manage to implement it yet because of personal things that came up for Jan Hohenheim, who volunteered to implement it.
+Per written feedback, a lot of people want to see proper email subscriptions implemented. While this was a goal for this month, 
+we have not managed to implement it yet because of personal things that came up for Jan Hohenheim, who volunteered to implement it.
 We will try to get this done for the next newsletter.
 
 ## What is going well
 
 ![What is going well wordcloud](like.png)
 
-This was a free-text question. The above is a wordcloud of the answers with some obvious words like "game" or "newsletter" removed.
-Note that the inclusion of the word "ai" is misleading, as it was only mentioned in texts like "I like that we don't use AI, please do".
+This was a free-text question. The above is a word cloud of the answers with some obvious words like "game" or "newsletter" removed.
+Note that the inclusion of the word "AI" is misleading, as it was only mentioned in texts like "I like that we don't use AI, please do".
 
 Going through the feedback by hand, common things readers enjoy about the newsletter are:
 - A good mix of content
@@ -157,12 +157,12 @@ Among the more unique suggestions were:
 ![Comments wordcloud](comment.png)
 
 This last free-text question was meant for any additional comments readers might have. 
-The wordcloud above is dominated by one sentence: "Thank you for your work". Thank you very very much for your kind words! 
+The word cloud above is dominated by one sentence: "Thank you for your work". Thank you very very much for your kind words! 
 We are working on this newsletter in our free time because we love the community and Rust game development, so reading this means a lot to us.
 
 ## Correlations
 
-We were interested in how the responses of some questions correlated with how much people had already contributed to the newsletter.
+We were interested in how the responses to some questions correlated with how much people had already contributed to the newsletter.
 Long story short: it seems like there is no significant correlation between how much people contributed and how they answered the other questions.
 
 Let's look at the correlations in turn now.
@@ -173,11 +173,11 @@ Note that all the following plots are jittered to make the data more readable.
 
 ![Excitement correlation](excitement_contributions.png)
 
-Our hypothesis was that people who contributed more to the newsletter would be more excited about it. 
-We found no evidence for this (p-value of Jonckheere-Terpstra test for increasing trend is 0.986). 
-Based on the plot above, we then hypothesized that the opposite might be true, namely that frequent contributers are less excited for the newsletter.
+We hypothesized that people who contributed more to the newsletter would be more excited about it. 
+We found no evidence for this (the p-value of a Jonckheere-Terpstra test for increasing trend is 0.986). 
+Based on the plot above, we then hypothesized that the opposite might be true, namely that frequent contributors are less excited about the newsletter.
 This actually might be the case (p-value is 0.021), but do not take this as a strong result.
-It is a post-hoc hypothesis and the resulting p-value is not very low considering the number of tests we run in this analysis. 
+It is a posthoc hypothesis and the resulting p-value is not very low considering the number of tests we run in this analysis. 
 For these reasons, we do not consider this result to be significant.
 
 ### Feelings About AI By Contributions
@@ -185,15 +185,15 @@ For these reasons, we do not consider this result to be significant.
 ![AI correlation](ai_contributions.png)
 
 We hypothesized that there would be a correlation between how much people contributed to the newsletter and how they felt about AI-generated summaries. 
-We found no evidence for this (p-value of Jonckheere-Terpstra test for a two-sided alternative is 0.57).
+We found no evidence for this (the p-value of a Jonckheere-Terpstra test for a two-sided alternative is 0.57).
 
 ### Ease of Contributing By Contributions
 
 ![Ease correlation](ease_contributions.png)
 
-We hypothesized that there would be a correlation between how much people contributed to the newsletter and how easy they found it to contribute.
+We hypothesized that there would be a correlation between how much people contributed to the newsletter and how easily they found it to contribute.
 
-We found no evidence for this (p-value of Jonckheere-Terpstra test for a two-sided alternative is 0.25).
+We found no evidence for this (the p-value of a Jonckheere-Terpstra test for a two-sided alternative is 0.25).
 
 ## Conclusion
 
