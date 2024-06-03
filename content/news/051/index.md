@@ -133,6 +133,7 @@ This month:
 [pixel-wizards-arch]: https://www.slowrush.dev/news/architectural-questions/
 [pixel-wizards-levels]: https://www.slowrush.dev/news/level-progression/
 [pixel-wizards-tilemapping]: https://www.slowrush.dev/news/tilemapping/
+[Leaving Rust game dev after 3 years]: https://loglog.games/blog/leaving-rust-gamedev/
 
 ### [mirr/orb]
 
@@ -327,6 +328,11 @@ Deploy on the web with WASM or ship natively with Bevy, macroquad, or eframe
 - [Quinn 0.11.2](https://github.com/quinn-rs/quinn/releases/tag/0.11.2): Async-friendly QUIC implementation in Rust 
 - [rolt and jolt-sys 0.3.1](https://github.com/SecondHalfGames/jolt-rust/blob/main/CHANGELOG.md#v030):  Rust bindings to Jolt Physics 
 - [Hanabi 0.11](https://github.com/djeedai/bevy_hanabi/blob/v0.11.0/CHANGELOG.md): A GPU particle system plugin for the Bevy game engine.
+
+### Blog Posts
+
+- [Architectural Ruminations][pixel-wizards-arch]: reflections on using Rust for game development,
+ prompted by LogLog Games's _[Leaving Rust game dev after 3 years]_.
 
 ------
 
