@@ -334,6 +334,12 @@ Deploy on the web with WASM or ship natively with Bevy, macroquad, or eframe
 - [Architectural Ruminations][pixel-wizards-arch]: reflections on using Rust for game development,
  prompted by LogLog Games's _[Leaving Rust game dev after 3 years]_.
 
+### Videos
+
+- [The Secret Behind Photorealistic And Stylized Graphics](https://www.youtube.com/watch?v=KkOkx0FiHDA): 
+Explaining the rendering techniques behind photorealistic and stylized graphics
+- [GDC: Tunes of the Kingdom](https://www.youtube.com/watch?v=N-dPDsLTrTE): Evolving physics and sounds for ‘The Legend of Zelda: Tears of the Kingdom’ 
+
 ------
 
 That's all news for today, thanks for reading!
