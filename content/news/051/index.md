@@ -122,8 +122,6 @@ This month:
 
 - [Tilemapping via LDTK][pixel-wizards-tilemapping]: levels got just a tiny bit prettier.
 - [Level Progression][pixel-wizards-levels]: players learn to die, and levels link together.
-- [Architectural Ruminations][pixel-wizards-arch]: reflections on using Rust for game development,
- prompted by LogLog Games's _[Leaving Rust game dev after 3 years]_.
 - [Target Practice][pixel-wizards-targets]: the first "enemy" was added to the game.
 
 [pixel-wizards]: https://slowrush.dev
