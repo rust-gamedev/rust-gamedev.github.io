@@ -152,7 +152,7 @@ This release contains 110 levels which pull from 870 available puzzle layouts.
 
 ### [CyberGate Playground][cybergate-shorts]
 
-![Improved Hammer Destruction](cybergate.gif)
+![Improved Hammer Destruction](cybergate.gif)  
 _Shooting a Hammer against a Floating Wall and Destroying part of it_
 
 CyberGate Playground is a multiplayer browser game where players claim territory
@@ -180,7 +180,7 @@ If you're interested in the game's progress, join the [Discord server][cybergate
 
 ### [Macroquad Newsletter]
 
-![quad-gl](twiq_3d_helmet.gif)
+![quad-gl](twiq_3d_helmet.gif)  
 _"Basic" 3d rendering (gltf helmet)_
 
 [@Fedor](https://github.com/not-fl3/), creator of [*Quad], a game engine written in Rust, is starting a [This week in Quads](https://macroquad.rs/twiq) newsletter.
@@ -204,7 +204,7 @@ keyboard navigation, animation support for UI, editor style and usability improv
 
 ### Bevy 0.14 WIP
 
-![Bevy repeated textures](bevy_rep.png)
+![Bevy repeated textures](bevy_rep.png)  
 _One of the upcoming features in Bevy 0.14 is easier texture repetition for GLTF objects_
 
 The 0.14 release of [Bevy] nears completion, but the team is still working on detailed
@@ -217,7 +217,7 @@ release notes and the migration guide. If you want to help, you can grab one of 
 
 ### Xkcd Machine
 
-![XKCD Machine](xkcd_machine.gif)
+![XKCD Machine](xkcd_machine.gif)  
 _A small part of the XKCD Machine_
 
 Chromakode released a detailed [blog post][xkcd_machine_blogpost] about their implementation of [xkcd "Machine"][xcd_machine_playable].
@@ -232,7 +232,7 @@ Machine is written in React/Typescript, and uses [Rapier][xkcd_rapier]: a physic
 
 ### [Rusty Playdate]
 
-![The Playdate console](playdate.png)
+![The Playdate console](playdate.png)  
 _The Playdate console_
 
 [Rusty Playdate] ([GitHub][Rusty Playdate], [Mastodon][Rusty Playdate Masto]) by [@boozook](https://github.com/boozook)
@@ -259,7 +259,7 @@ _Discussions: [GitHub][Rusty Playdate Gh-disc], [Matrix][Rusty Playdate Matrix].
 
 ### Bevy rustunit meetup #3
 
-![Bevy meetup YouTube extract](bevy_rustunit_meetup_3.jpg)
+![Bevy meetup YouTube extract](bevy_rustunit_meetup_3.jpg)  
 _Bevy meetup YouTube extract, showing its 3 participants._
 
 [Rustunit][rustunit] has hosted its 3rd unofficial online [Bevy Engine][bevy] meetup on April 19th with the following topics:
@@ -274,7 +274,7 @@ and join [the meetup group][rustunit_bevy_meetup_event] to get notified of futur
 
 ### Bevy rustunit meetup #4
 
-![Bevy meetup YouTube extract](bevy_rustunit_meetup_4.jpg)
+![Bevy meetup YouTube extract](bevy_rustunit_meetup_4.jpg)  
 _Bevy meetup YouTube extract, showing its 4 participants._
 
 [Rustunit][rustunit] has hosted its 4th unofficial online [Bevy Engine][bevy] meetup on May 24th with the following topics:
