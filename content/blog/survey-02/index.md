@@ -51,7 +51,7 @@ Things like calls for playtesters or job offers would be less useful if they wer
 
 ![AI barplot](ai.png)
 
-This question was a catalyst for a lot of discussion on Discord. 
+This question was a catalyst for a lot of discussion on [Discord]. 
 
 If we interpret the answers as a scale of 1-5, where 1 is "not okay at all" and 5 is "I love it", the mean answer was 2.25, the median 2.
 Notably, the mode is tied at 1 and 2. The 95% confidence interval is [1.89, 2.61] using a standard error of 0.18. 
@@ -109,14 +109,14 @@ The mean ease of contributing is 3.0, and the median is 3. The 95% confidence in
 Readers generally feel neutral about the ease of contributing to the newsletter (the p-value of a t-test of mean 3 is 0.87).
 
 We can do better here, but we are not sure yet how. 
-We'd love to hear your ideas on [GitHub](https://github.com/rust-gamedev/rust-gamedev.github.io/issues/1519) or on Discord (ping @janhohenheim).
+We'd love to hear your ideas on [GitHub](https://github.com/rust-gamedev/rust-gamedev.github.io/issues/1519) or on [Discord] (ping @janhohenheim).
 
 ## Keeping up with the newsletter
 
 ![Keeping up barplot](informed.png)
 
 This was a multiple-choice question. The most popular source of information about the newsletter is RSS (27.5%). 
-If we add the choices for the official Rust GameDev Discord server (21.7%) and other Discord servers (11.6%), 
+If we add the choices for the official [Rust GameDev Discord server] (21.7%) and other Discord servers (11.6%), 
 Discord in general becomes the leading source of information (33.3%), taking up nearly exactly a third of all votes.
 
 We can see the shift from X / Twitter to Mastodon reported by many OSS communities in our readers as well. 
@@ -208,7 +208,7 @@ All in all, we are happy with the results of the survey.
 It seems like our readers are generally happy with the newsletter, and have good ideas on how to improve it. 
 We will discuss how to implement these ideas in the future and keep you updated on our progress.
 
-If you are interested in helping us out, we are always looking for new editors and contributors. Just leave us a message on Discord or GitHub.
+If you are interested in helping us out, we are always looking for new editors and contributors. Just leave us a message on [Discord] or [GitHub].
 
 Again, thank you very much for your feedback. Rebooting the newsletter was a big ordeal for us,
 and we are happy to see such an active interest in the community. We hope that we can continue to provide you with a newsletter you enjoy.
@@ -216,3 +216,6 @@ and we are happy to see such an active interest in the community. We hope that w
 Until next time!
 
 ~ The Rust GameDev Newsletter Team, and Jan Hohenheim in particular
+
+[Discord]: https://discord.gg/yNtPTb2
+[GitHub]: https://github.com/rust-gamedev/rust-gamedev.github.io
