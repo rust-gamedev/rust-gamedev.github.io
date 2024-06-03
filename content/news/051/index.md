@@ -81,8 +81,8 @@ Thanks to everyone who participated!
 ### Email Subscription
 
 Last month, we announced that we would add an email subscription option to the newsletter. 
-Unfortunately, we did not manage to implement this in time for this issue because the volunteer responsible, Jan Hohenheim, had some personal issues to deal with.
-He will work on this feature for the next issue, and we hope to have it ready for you then.
+Unfortunately, we did not manage to implement this in time for this issue.
+He will [work on this feature](https://github.com/rust-gamedev/rust-gamedev.github.io/issues/24) for the next month, and we hope to have it ready for you then.
 
 ## Game Updates
 
