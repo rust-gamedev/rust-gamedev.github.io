@@ -124,7 +124,7 @@ If you want something mentioned in the next newsletter, [send us a pull request]
 
 You can also get an early look at pending issues for the [next newsletter][news_future_prs].
 
-[news_current_prs]:https://github.com/rust-gamedev/rust-gamedev.github.io/pulls?q=is%3Apr+in%3Atitle+%27N{{ NEWSLETTER_COUNTER }}%27
+[news_current_prs]: https://github.com/rust-gamedev/rust-gamedev.github.io/pulls?q=is%3Apr+in%3Atitle+%27N{{ NEWSLETTER_COUNTER }}%27
 [news_future_prs]: https://github.com/rust-gamedev/rust-gamedev.github.io/pulls?q=is%3Apr+in%3Atitle+%27N{{ NEWSLETTER_COUNTER_NEXT }}%27
 
 ------
