@@ -117,12 +117,12 @@ and highlight events from the past. -->
 
 <!-- Section to get more people involved in writing news. -->
 
-Editing this newsletter wouldn't be possible without [your contributions][news_current_prs], Thanks!
+Editing this newsletter wouldn't be possible without [your contributions][news_current_prs]. 
+Thanks to everyone who helped us this month!
 
-If you want something mentioned in the next newsletter,
-[Send us a pull request][pr]!
+If you want something mentioned in the next newsletter, [send us a pull request][pr].
 
-And From now on, you can get an early look at [what the future holds][news_future_prs].
+You can also get an early look at pending issues for the [next newsletter][news_future_prs].
 
 [news_current_prs]:https://github.com/rust-gamedev/rust-gamedev.github.io/pulls?q=is%3Apr+in%3Atitle+%27N{{ NEWSLETTER_COUNTER }}%27
 [news_future_prs]: https://github.com/rust-gamedev/rust-gamedev.github.io/pulls?q=is%3Apr+in%3Atitle+%27N{{ NEWSLETTER_COUNTER_NEXT }}%27
