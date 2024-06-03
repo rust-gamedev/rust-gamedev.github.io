@@ -20,8 +20,8 @@ We will now go through the results in the same order as the questions were asked
 
 ![Excitement barplot](excitement.png)
 
-On average, readers are excited about the newsletter (the p-value for a t-test of mean 3 is 9.9e-5). The mean excitement level is 3.6 out of 5, the median is 4.
-Our 95% confidence interval is [3.32, 3.91] using a standard error of 0.15.
+On average, readers are excited about the newsletter. The mean excitement level is 3.6 out of 5, the median is 4.
+Our 95% confidence interval is [3.32, 3.91] using a standard error of 0.15 (sd = 1.05, n = 52).
 
 These are fairly nice results. Anecdotally, we got a lot of messages about issues with the newsletter and how to improve it, 
 so we are happy to see that the excitement is still high. Still, the data shows that we have room for improvement.
@@ -32,7 +32,7 @@ so we are happy to see that the excitement is still high. Still, the data shows 
 
 
 When asked about how to change the amount of content per newsletter, the majority of readers (58%) voted to leave the amount as-is or don't care. 
-More pessimistically, this means nearly half of the readers would change something about the content quantity. 
+On the other hand, this means nearly half of the readers would change something about the content quantity. 
 17% voted for "less content; keep only the most important news" and 25% for "more content; add sections for minor news".
 These two options are luckily not mutually exclusive. 
 One option we could implement is to have a new section for "minor news" where we don't go into detail, 
@@ -54,9 +54,8 @@ Things like calls for playtesters or job offers would be less useful if they wer
 This question was a catalyst for a lot of discussion on [Discord]. 
 
 If we interpret the answers as a scale of 1-5, where 1 is "not okay at all" and 5 is "I love it", the mean answer was 2.25, the median 2.
-Notably, the mode is tied at 1 and 2. The 95% confidence interval is [1.89, 2.61] using a standard error of 0.18. 
-People are generally against using an LLM to generate summaries
-(the p-value of a t-test of mean 3 is 1.2e-4).
+Notably, the mode is tied at 1 and 2. The 95% confidence interval is [1.89, 2.61] using a standard error of 0.18 (sd = 1.30, n = 52). 
+People are generally against using an LLM to generate summaries.
 
 While a majority of readers (65%) are at least okay with AI-generated summaries, a significant minority (35%) are not okay at all with this proposal. 
 These include very active members of the community and 
@@ -72,7 +71,7 @@ We will try to be more clear on such questions in the future.
 
 Although this misunderstanding might have skewed the results, we have reason to believe that the effect is not too large. 
 Anecdotally, when we properly explained the proposal to readers who were against it, 
-most did not change their mind and cited deontological reasons for their stance. 
+most did not change their mind and cited more principled reasons for their stance. 
 Chief among these was solidarity with the large number of creatives who recently lost their jobs due to AI-generated content, 
 inside and outside the game development industry.
 
@@ -104,9 +103,9 @@ We are happy to see that people who contributed once seem to continue contributi
 
 ![Ease barplot](ease.png)
 
-The mean ease of contributing is 3.0, and the median is 3. The 95% confidence interval is [2.5, 3.6] using a standard error of 0.26.
+The mean ease of contributing is 3.0, and the median is 3. The 95% confidence interval is [2.5, 3.6] using a standard error of 0.26 (sd = 1.26, n = 23).
 
-Readers generally feel neutral about the ease of contributing to the newsletter (the p-value of a t-test of mean 3 is 0.87).
+Readers generally feel neutral about the ease of contributing to the newsletter.
 
 We can do better here, but we are not sure yet how. 
 We'd love to hear your ideas on [GitHub](https://github.com/rust-gamedev/rust-gamedev.github.io/issues/1519) or on [Discord] (ping @janhohenheim).
@@ -125,8 +124,8 @@ Lemmy is not looking popular as an alternative to Reddit yet, with no reader rep
 The "Email" option in the survey is meant for people who have set up some kind of email alerts manually.
 
 Per written feedback, a lot of people want to see proper email subscriptions implemented. While this was a goal for this month, 
-we have not managed to implement it yet because of personal things that came up for Jan Hohenheim, who volunteered to implement it.
-We will try to get this done for the next newsletter.
+we have not managed to implement it yet.
+We will try to [get this done](https://github.com/rust-gamedev/rust-gamedev.github.io/issues/24) for the next newsletter.
 
 ## What is going well
 
