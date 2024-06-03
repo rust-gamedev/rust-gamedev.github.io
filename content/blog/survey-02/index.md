@@ -114,7 +114,7 @@ If we add the choices for the official Rust GameDev Discord server (21.7%) and o
 Discord in general becomes the leading source of information (33.3%), taking up nearly exactly a third of all votes.
 
 We can see the shift from X / Twitter to Mastodon reported by many OSS communities in our readers as well. 
-The fediverse is not looking as popular as an alternative to Reddit yet, with no reader reporting it as a source of information.
+Lemmy is not looking popular as an alternative to Reddit yet, with no reader reporting it as a source of information.
 
 The "Email" option in the survey is meant for people who have set up some kind of email alerts manually.
 
