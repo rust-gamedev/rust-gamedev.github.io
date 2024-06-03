@@ -2,7 +2,7 @@
 title = "Newsletter Survey Results"
 date = 2024-06-03
 transparent = true
-draft = true
+draft = false
 +++
 
 Since we are [rebooting the newsletter](https://gamedev.rs/blog/newsletter-changes/), we wanted to know more about our readers. 
