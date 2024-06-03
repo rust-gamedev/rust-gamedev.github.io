@@ -31,7 +31,7 @@ so we are happy to see that the excitement is still high. Still, the data shows 
 ![Content quantity barplot](content_quantity.png)
 
 
-When asked about how to change the amount of content per newsletter, the majority of readers (58%%) voted to leave the amount as-is or don't care. 
+When asked about how to change the amount of content per newsletter, the majority of readers (58%) voted to leave the amount as-is or don't care. 
 More pessimistically, this means nearly half of the readers would change something about the content quantity. 
 17% voted for "less content; keep only the most important news" and 25% for "more content; add sections for minor news".
 These two options are luckily not mutually exclusive. 
@@ -87,7 +87,7 @@ While votes for the latter did not reach a majority, the written feedback we got
 
 ![Contributions barplot](contributions.png)
 
-The majority of readers (61.5%) have not yet contributed to the newsletter and 26.9% contributed 2-5 times. 
+The majority of readers (61.5%) have not yet contributed to the newsletter and 26.9% have contributed 2-5 times. 
 Only 3.8% contributed exactly once, while the rest (7.7%) are heavy contributors, helping us out more than five times.
 
 While it might seem weird that more people contributed 2-5 times than exactly once,
@@ -116,7 +116,7 @@ We'd love to hear your ideas on [GitHub](https://github.com/rust-gamedev/rust-ga
 ![Keeping up barplot](informed.png)
 
 This was a multiple-choice question. The most popular source of information about the newsletter is RSS (27.5%). 
-If we add the choices for the official [Rust GameDev Discord server] (21.7%) and other Discord servers (11.6%), 
+If we add the choices for the official [Rust GameDev Discord server][Discord] (21.7%) and other Discord servers (11.6%), 
 Discord in general becomes the leading source of information (33.3%), taking up nearly exactly a third of all votes.
 
 We can see the shift from X / Twitter to Mastodon reported by many OSS communities in our readers as well. 
