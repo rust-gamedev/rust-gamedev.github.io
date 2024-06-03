@@ -34,14 +34,8 @@ Feel free to send PRs about your own projects!
 - [Engine Updates](#engine-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Tooling Updates](#tooling-updates)
-- [Library Updates](#library-updates)
-- [Popular Workgroup Issues in GitHub](#popular-workgroup-issues-in-github)
 - [Other News](#other-news)
-- [Meeting Minutes](#meeting-minutes)
-- [Discussions](#discussions)
-- [Requests for Contribution](#requests-for-contribution)
-- [Jobs](#jobs)
-- [Bonus](#bonus)
+- [Misc. Links](#misc-links)
 
 <!--
 Ideal section structure is:
@@ -318,14 +312,16 @@ Special mention to the following talks, relevant to game development:
 [rustnl_michael_melchiore_talk]: https://www.youtube.com/watch?v=XLefuzE-ABU&t=3898s
 [rustnl_bevy_engine]:https://bevyengine.org/
 
-## New libraries
+## Misc. Links
+
+### New libraries
 
 - [egui_ratatui](https://github.com/gold-silver-copper/egui_ratatui): A ratatui backend that is also an egui widget. 
 Deploy on the web with WASM or ship natively with Bevy, macroquad, or eframe 
 - [bevy_ratatui_render](https://github.com/cxreiff/bevy_ratatui_render): A Bevy plugin for rendering your game to the terminal using ratatui
 - [bevy_light_2d](https://github.com/jgayfer/bevy_light_2d):  General purpose 2D lighting for the Bevy game engine. 
 
-## Misc. Updates
+### Library Updates
 
 - [Kira 0.9](https://github.com/tesselode/kira/releases/tag/v0.9.0): Library for expressive game audio
 - [Quinn 0.11.2](https://github.com/quinn-rs/quinn/releases/tag/0.11.2): Async-friendly QUIC implementation in Rust 
