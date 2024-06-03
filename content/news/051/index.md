@@ -203,7 +203,7 @@ keyboard navigation, animation support for UI, editor style and usability improv
 
 ### Bevy 0.14 WIP
 
-![Bevy repeated textures](bevy_rep.png)  
+![Bevy repeated textures](bevy_rep.jpg)  
 _One of the upcoming features in Bevy 0.14 is easier texture repetition for GLTF objects_
 
 The 0.14 release of [Bevy] nears completion, but the team is still working on detailed
