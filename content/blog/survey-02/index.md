@@ -133,7 +133,8 @@ We will try to get this done for the next newsletter.
 ![What is going well wordcloud](like.png)
 
 This was a free-text question. The above is a word cloud of the answers with some obvious words like "game" or "newsletter" removed.
-Note that the inclusion of the word "AI" is misleading, as it was only mentioned in texts like "I like that we don't use AI, please do".
+Note that the inclusion of the word "AI" is misleading, as it was only mentioned in answers that read similar to 
+"I like that we don't use AI, please don't use LLMs please".
 
 Going through the feedback by hand, common things readers enjoy about the newsletter are:
 - A good mix of content
