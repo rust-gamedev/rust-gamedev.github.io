@@ -9,7 +9,7 @@ draft = false
 
 <!-- Check the post with markdownlint-->
 
-Welcome to the 51th issue of the Rust GameDev Workgroup's
+Welcome to the 51st issue of the Rust GameDev Workgroup's
 monthly newsletter.
 [Rust] is a systems language pursuing the trifecta:
 safety, concurrency, and speed.
@@ -116,7 +116,7 @@ You can support development by [purchasing Way of Rhea on Steam][wor], or
 ### [Untitled Pixel Wizard Game][pixel-wizards]
 
 [![A target being destroyed by a rudimentary flame thrower spell](untitled-pixel-wizards-game.gif)][pixel-wizards]  
-_A deadly foe meets their end._
+_A deadly foe meets its end._
 
 [Untitled Pixel Wizard Game][pixel-wizards] is a local-multiplayer [Noita]-like platformer about
 killing baddies using spells powered by pixel physics.
@@ -127,9 +127,9 @@ rigid bodies; see [Bridging Physics Worlds][pixel-wizards-bridging-physics-world
 This month:
 
 - [Tilemapping via LDTK][pixel-wizards-tilemapping]: levels got just a tiny bit prettier.
-- [Level Progression][pixel-wizards-levels]: players learned to die, and levels link together.
+- [Level Progression][pixel-wizards-levels]: players learn to die, and levels link together.
 - [Architectural Ruminations][pixel-wizards-arch]: reflections on using Rust for game development,
-  prompted by LogLog Games's _[Leaving Rust gamedev after 3 years]_.
+ prompted by LogLog Games's _[Leaving Rust game dev after 3 years]_.
 - [Target Practice][pixel-wizards-targets]: the first "enemy" was added to the game.
 
 [pixel-wizards]: https://slowrush.dev
@@ -139,7 +139,6 @@ This month:
 [pixel-wizards-arch]: https://www.slowrush.dev/news/architectural-questions/
 [pixel-wizards-levels]: https://www.slowrush.dev/news/level-progression/
 [pixel-wizards-tilemapping]: https://www.slowrush.dev/news/tilemapping/
-[Leaving Rust gamedev after 3 years]: https://loglog.games/blog/leaving-rust-gamedev/
 
 ### [mirr/orb]
 
@@ -167,9 +166,9 @@ by painting the environment in their color, with the goal of overpowering oppone
 
 The past few months' updates include:
 - Flying with butterfly-like mechanics
-- [Fusion Upgrade:][cybergate-fuse] Combine hammers, balls, dices, to multiply their powers
+- [Fusion Upgrade:][cybergate-fuse] Combine hammers, balls, and dice to multiply their powers
 - Hammer destruction made more challenging and interesting, with upgrades enabling deeper wall penetration
-- Improved strength andwWeight system, and calculate their impact on character movement and abilities
+- Improved strength and weight system, and calculate their impact on character movement and abilities
 - Added an 'Owned Upgrades' menu using `yakui` crate, giving a neat overview of all acquired upgrades
 - Many other UI / gameplay improvements based on player feedback
 
@@ -204,7 +203,7 @@ _The improved Fyrox editor UI_
 [Fyrox] got a huge update this month. For those who don't know, Fyrox is a game engine written in Rust that is especially notable for sporting a Unity-like editor.
 
 [This release][fyrox-release] includes code hot reloading, project exporter, assets preview generation, UI prefabs, GLTF support, static and dynamic batching, 
-keyboard navigation, animation support for UI, editor style and usability improvements and many more.
+keyboard navigation, animation support for UI, editor style and usability improvements, and many more.
 
 [Fyrox]: https://fyrox.rs
 [fyrox-release]: https://fyrox.rs/blog/post/fyrox-game-engine-0-34/
@@ -212,7 +211,7 @@ keyboard navigation, animation support for UI, editor style and usability improv
 ### Bevy 0.14 WIP
 
 ![Bevy repeated textures](bevy_rep.png)
-_One of the opcoming features in Bevy 0.14 is easier texture repetition for GLTF objects_
+_One of the upcoming features in Bevy 0.14 is easier texture repetition for GLTF objects_
 
 The 0.14 release of [Bevy] nears completion, but the team is still working on detailed
 release notes and the migration guide. If you want to help, you can grab one of the [open documentation issues][bevy-docs-issues].
@@ -243,7 +242,7 @@ Machine is written in React/Typescript, and uses [Rapier][xkcd_rapier]: a physic
 _The Playdate console_
 
 [Rusty Playdate] ([GitHub][Rusty Playdate], [Mastodon][Rusty Playdate Masto]) by [@boozook](https://github.com/boozook)
-is the large set of crates with bindings, cargo-plugin and toolset for the full cycle of creating games for the [Playdate handheld console][playdate].
+is the large set of crates with bindings, cargo-plugin, and toolset for the full cycle of creating games for the [Playdate handheld console][playdate].
 This is a fairly new console reminiscent of a GameBoy with a crank handle geared towards indie games.
 
 The current release sports the following notable improvements:
@@ -266,8 +265,8 @@ _Discussions: [GitHub][Rusty Playdate Gh-disc], [Matrix][Rusty Playdate Matrix].
 
 ### Bevy rustunit meetup #3
 
-![Bevy meetup youtube extract](bevy_rustunit_meetup_3.jpg)
-_Bevy meetup youtube extract, showing its 3 participants._
+![Bevy meetup YouTube extract](bevy_rustunit_meetup_3.jpg)
+_Bevy meetup YouTube extract, showing its 3 participants._
 
 [Rustunit][rustunit] has hosted its 3rd unofficial online [Bevy Engine][bevy] meetup on April 19th with the following topics:
 - Intro / Code of Conduct
@@ -281,8 +280,8 @@ and join [the meetup group][rustunit_bevy_meetup_event] to get notified of futur
 
 ### Bevy rustunit meetup #4
 
-![Bevy meetup youtube extract](bevy_rustunit_meetup_4.jpg)
-_Bevy meetup youtube extract, showing its 4 participants._
+![Bevy meetup YouTube extract](bevy_rustunit_meetup_4.jpg)
+_Bevy meetup YouTube extract, showing its 4 participants._
 
 [Rustunit][rustunit] has hosted its 4th unofficial online [Bevy Engine][bevy] meetup on May 24th with the following topics:
 - Francois - Catching Rendering Regressions on all Platforms
@@ -304,12 +303,12 @@ and join [the meetup group][rustunit_bevy_meetup_event] to get notified of futur
 While the conference was not specific to game development,
 organizers contacted rust game development communities
 to showcase games developed in Rust between talks,
-which you can [watch on youtube][rustnl_games_youtube].
+which you can [watch on YouTube][rustnl_games_youtube].
 
 Special mention to the following talks, relevant to game development:
-- [Let's Build High Performance Rust UI][rustnl_kevin_boos_talk] by Kevin Boos  
+- [Let's Build High-Performance Rust UI][rustnl_kevin_boos_talk] by Kevin Boos  
 - [A Research Project on Rust User Interface Architecture][rustnl_xilem_talk] by Ralph Levien about [Xilem][rustnl_xilem_intro]  
-- [(Th)Rust for Space: Initial momentum][rustnl_michael_melchiore_talk] by Michaël Melchiore, who gave a shout out to [Bevy Engine][rustnl_bevy_engine].
+- [(Th)Rust for Space: Initial momentum][rustnl_michael_melchiore_talk] by Michaël Melchiore, who gave a shout-out to [Bevy Engine][rustnl_bevy_engine].
 
 [rustnl_main_website]: https://2024.rustnl.org/
 [rustnl_games_youtube]: https://www.youtube.com/watch?v=XLefuzE-ABU&t=7583s
@@ -322,7 +321,7 @@ Special mention to the following talks, relevant to game development:
 ## New libraries
 
 - [egui_ratatui](https://github.com/gold-silver-copper/egui_ratatui): A ratatui backend that is also an egui widget. 
-Deploy on web with WASM or ship natively with bevy, macroquad, or eframe 
+Deploy on the web with WASM or ship natively with Bevy, macroquad, or eframe 
 - [bevy_ratatui_render](https://github.com/cxreiff/bevy_ratatui_render): A Bevy plugin for rendering your game to the terminal using ratatui
 - [bevy_light_2d](https://github.com/jgayfer/bevy_light_2d):  General purpose 2D lighting for the Bevy game engine. 
 
