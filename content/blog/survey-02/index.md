@@ -69,17 +69,6 @@ inside and outside the game development industry.
 - Concerns about the quality of AI-generated summaries.
 - Skepticism about AI-generated summaries saving time if they still need to be edited by hand.
 
-Of note is that the verbal feedback we got indicated that a lot of readers did not fully understand what exactly was being proposed. 
-People worried that we would start generating a majority of the newsletter or entire sections with AI, which is not something any of us wants. 
-Some readers also thought we already started using LLMs.
-The actual idea was to use AI to generate summaries of articles that were already hand-picked by the editors but not summarized yet because of time constraints.
-The summaries would then be edited and verified by the editors. The extent to which AI would be used would be limited to up to two sentences per late article.
-Any confusion in this regard is our fault.
-We will try to be more clear on such questions in the future.
-
-Although this misunderstanding might have skewed the results, we have reason to believe that the effect is not too large, 
-since properly explained the proposal to readers usually did not change their opinion on the matter.
-
 ## Tone
 
 ![Tone barplot](tone.png)
