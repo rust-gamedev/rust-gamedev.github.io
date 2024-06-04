@@ -55,11 +55,19 @@ This question was a catalyst for a lot of discussion on [Discord].
 
 If we interpret the answers as a scale of 1-5, where 1 is "not okay at all" and 5 is "I love it", the mean answer was 2.25, the median 2.
 Notably, the mode is tied at 1 and 2. The 95% confidence interval is [1.89, 2.61] using a standard error of 0.18 (sd = 1.30, n = 52). 
-People are generally against using an LLM to generate summaries.
+People are generally against using an LLM to generate summaries. 79.2% of readers would prefer not to use AI.
 
-While a majority of readers (65%) are at least okay with AI-generated summaries, a significant minority (35%) are not okay at all with this proposal. 
+Viewed from another angle: while a majority of readers (65%) are at least okay with AI-generated summaries, 
+a significant minority (35%) are not okay at all with this proposal.
 These include very active members of the community and 
 contributors who have announced that they would no longer want their content to be included in the newsletter if AI was used.
+
+The reasons people gave for not wanting AI-generated summaries were varied.
+Among these were:
+- Solidarity with the large number of creatives who recently lost their jobs due to AI-generated content, 
+inside and outside the game development industry.
+- Concerns about the quality of AI-generated summaries.
+- Skepticism about AI-generated summaries saving time if they still need to be edited by hand.
 
 Of note is that the verbal feedback we got indicated that a lot of readers did not fully understand what exactly was being proposed. 
 People worried that we would start generating a majority of the newsletter or entire sections with AI, which is not something any of us wants. 
@@ -69,11 +77,8 @@ The summaries would then be edited and verified by the editors. The extent to wh
 Any confusion in this regard is our fault.
 We will try to be more clear on such questions in the future.
 
-Although this misunderstanding might have skewed the results, we have reason to believe that the effect is not too large. 
-Anecdotally, when we properly explained the proposal to readers who were against it, 
-most did not change their mind and cited more principled reasons for their stance. 
-Chief among these was solidarity with the large number of creatives who recently lost their jobs due to AI-generated content, 
-inside and outside the game development industry.
+Although this misunderstanding might have skewed the results, we have reason to believe that the effect is not too large, 
+since properly explained the proposal to readers usually did not change their opinion on the matter.
 
 ## Tone
 
