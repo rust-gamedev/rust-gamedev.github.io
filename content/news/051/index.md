@@ -1,7 +1,7 @@
 +++
 title = "This Month in Rust GameDev #51 - May 2024"
 transparent = true
-date = 2024-06-03
+date = 2024-06-05
 draft = false
 +++
 
@@ -76,7 +76,7 @@ We will discuss how to act on this feedback next month and keep you updated on t
 Thanks to everyone who participated!
 
 [survey-data]: https://github.com/janhohenheim/rust-gamedev-statistics/tree/main/jan-hohenheim-2024
-[survey_results]: <https://gamedev.rs/blog/survey-2>
+[survey_results]: <https://gamedev.rs/blog/survey-02>
 
 ### Email Subscription
 
