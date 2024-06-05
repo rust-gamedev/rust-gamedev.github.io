@@ -350,14 +350,12 @@ Also, subscribe to our socials if you want to receive fresh news!
 - Mastodon: [@rust_gamedev][@mastodon_rust_gamedev]
 - Reddit: [/r/rust_gamedev][/r/rust_gamedev]
 
-<!--
-TODO: Add real links and un-comment once this post is published
 **Discuss this post on**:
-[/r/rust_gamedev](TODO),
-[Mastodon](TODO),
-[Twitter](TODO),
+[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/1d8we3t/this_month_in_rust_gamedev_may_edition_released/),
+[Lemmy](https://lemmy.world/post/16213742),
+[Mastodon](https://mastodon.gamedev.place/@rust_gamedev/112565328837537528),
+[X / Twitter](https://x.com/rust_gamedev/status/1798415636999307416),
 [Discord](https://discord.gg/yNtPTb2).
--->
 
 [/r/rust_gamedev]: https://reddit.com/r/rust_gamedev
 [@x_rust_gamedev]: https://twitter.com/rust_gamedev
