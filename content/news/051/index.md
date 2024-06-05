@@ -169,7 +169,7 @@ Rust's ownership and strongly typed features played a crucial role in allowing t
 to more complex and detailed mechanics while retaining correct, clean, and bug-free code.
 
 CyberGate Playground is a passion project.
-If you're interested in the game's progress, join the [Discord server][cybergate-discord]
+If you're interested in the game's progress, join the [Discord server][cybergate-discord].
 
 [cybergate-shorts]: https://youtube.com/@cyber-gate/shorts
 [cybergate-discord]: https://discord.gg/P3D8weeQ7Z
@@ -177,12 +177,12 @@ If you're interested in the game's progress, join the [Discord server][cybergate
 
 ## Engine Updates
 
-### [Macroquad Newsletter]
+### Macroquad Newsletter
 
 ![quad-gl](twiq_3d_helmet.gif)  
 _"Basic" 3d rendering (gltf helmet)_
 
-[@Fedor](https://github.com/not-fl3/), creator of [*Quad], a game engine written in Rust, is starting a [This week in Quads](https://macroquad.rs/twiq) newsletter.
+[@Fedor](https://github.com/not-fl3/), creator of [*Quad], a game engine written in Rust, is starting a ["This week in Quads"](https://macroquad.rs/twiq) newsletter.
 
 This month overall polish, developer experience, performance optimization, and basic 3d visualization have been worked on.
 
@@ -315,22 +315,22 @@ Special mention to the following talks, relevant to game development:
 
 ### New libraries
 
-- [egui_ratatui](https://github.com/gold-silver-copper/egui_ratatui): A ratatui backend that is also an egui widget. 
-Deploy on the web with WASM or ship natively with Bevy, macroquad, or eframe 
+- [egui_ratatui](https://github.com/gold-silver-copper/egui_ratatui): A ratatui backend that is also an egui widget.
+Deploy on the web with WASM or ship natively with Bevy, macroquad, or eframe
 - [bevy_ratatui_render](https://github.com/cxreiff/bevy_ratatui_render): A Bevy plugin for rendering your game to the terminal using ratatui
-- [bevy_light_2d](https://github.com/jgayfer/bevy_light_2d):  General purpose 2D lighting for the Bevy game engine. 
+- [bevy_light_2d](https://github.com/jgayfer/bevy_light_2d):  General purpose 2D lighting for the Bevy game engine
 
 ### Library Updates
 
 - [Kira 0.9](https://github.com/tesselode/kira/releases/tag/v0.9.0): Library for expressive game audio
-- [Quinn 0.11.2](https://github.com/quinn-rs/quinn/releases/tag/0.11.2): Async-friendly QUIC implementation in Rust 
-- [rolt and jolt-sys 0.3.1](https://github.com/SecondHalfGames/jolt-rust/blob/main/CHANGELOG.md#v030):  Rust bindings to Jolt Physics 
-- [Hanabi 0.11](https://github.com/djeedai/bevy_hanabi/blob/v0.11.0/CHANGELOG.md): A GPU particle system plugin for the Bevy game engine.
+- [Quinn 0.11.2](https://github.com/quinn-rs/quinn/releases/tag/0.11.2): Async-friendly QUIC implementation in Rust
+- [rolt and jolt-sys 0.3.1](https://github.com/SecondHalfGames/jolt-rust/blob/main/CHANGELOG.md#v030):  Rust bindings to Jolt Physics
+- [Hanabi 0.11](https://github.com/djeedai/bevy_hanabi/blob/v0.11.0/CHANGELOG.md): A GPU particle system plugin for the Bevy game engine
 
 ### Blog Posts
 
 - [Architectural Ruminations][pixel-wizards-arch]: reflections on using Rust for game development,
- prompted by LogLog Games's _[Leaving Rust game dev after 3 years]_.
+ prompted by LogLog Games's [Leaving Rust game dev after 3 years]
 
 ### Videos
 
