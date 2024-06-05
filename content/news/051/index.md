@@ -315,7 +315,7 @@ Special mention to the following talks, relevant to game development:
 
 ### New libraries
 
-- [egui_ratatui](https://github.com/gold-silver-copper/egui_ratatui): A ratatui backend that is also an egui widget
+- [egui_ratatui](https://github.com/gold-silver-copper/egui_ratatui): A ratatui backend that is also an egui widget.
 Deploy on the web with WASM or ship natively with Bevy, macroquad, or eframe
 - [bevy_ratatui_render](https://github.com/cxreiff/bevy_ratatui_render): A Bevy plugin for rendering your game to the terminal using ratatui
 - [bevy_light_2d](https://github.com/jgayfer/bevy_light_2d):  General purpose 2D lighting for the Bevy game engine
