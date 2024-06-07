@@ -80,7 +80,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [egui_ratatui][egui_ratatui]
 
-![egui_ratatui running in bevy](egui_ratatui.png)
+![egui_ratatui running in bevy](egui_ratatui.jpg)
 
 [egui_ratatui][egui_ratatui] by [gold-silver-copper][gold] 
 is an [egui][egui] widget that is also a [ratatui][ratatui] backend.
