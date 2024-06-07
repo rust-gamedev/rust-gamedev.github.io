@@ -83,12 +83,12 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ![egui_ratatui running in bevy](egui_ratatui.jpg)
 
 [egui_ratatui][egui_ratatui] by [gold-silver-copper][gold] 
-is an [egui][egui] widget that is also a [ratatui][ratatui] backend.;
-It allows you to create Terminal User Interfaces inside Egui.;
-This means that it can be used to integrate ratatui into bevy, macroquad, or 
+- is an [egui][egui] widget that is also a [ratatui][ratatui] backend.;
+- It allows you to create Terminal User Interfaces inside Egui.;
+- This means that it can be used to integrate ratatui into bevy, macroquad, or 
 any other egui renderer. It is also WASM compatible.;
-The current release is the product of months of iteration, and is now "stable".;
-It is currently being used for a game and at a startup, with no issues.;
+- The current release is the product of months of iteration, and is now "stable".;
+- It is currently being used for a game and at a startup, with no issues.;
 
 [egui_ratatui]: https://github.com/gold-silver-copper/egui_ratatui
 [gold]: https://github.com/gold-silver-copper
