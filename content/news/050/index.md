@@ -116,7 +116,7 @@ is now live at <https://sm64jsarchive.com>
 A successful stress test for the MMO feature was run on April 10th.
 
 [sm64jsarchive]: https://sm64jsarchive.com
-[sm64js]: https://sm64js.com
+[sm64js]: https://github.com/sm64js/sm64js/tree/MMO
 
 ### [Open Combat][OpenCombat_website]
 
