@@ -103,21 +103,20 @@ For the full changelog, see the [release notes][wor-release-notes].
 [wor-avx]: https://store.steampowered.com/news/app/1110620/view/4118050466869150657
 [wor-achievements]: https://clan.cloudflare.steamstatic.com/images//35599024/573f81c1ebce54d9efedcd693fcbe684a5629c7f.png
 
-### [SM64JSARCHIVE][sm64jsarchive]
+### [sm64jsarchive][sm64jsarchive]
 
-![Super Mario 64 JavaScript](sm64jsarchive.jpg)
+![Super Mario 64 JavaScript Archive](sm64jsarchive.jpg)
 
 [SM64JSARCHIVE][sm64jsarchive] is an actively maintained fork of [sm64js]: a decompilation project of Super Mario 64 to JavaScript.
-Additional sidenote: The mmo servers arent always running for the game
+Additional sidenote: The MMO servers are not always running for sm64jsarchive.
 
 The backend server, which is written in Rust,
-has finally been able to start after 10 long months
-and is now live at <https://mmo.sm64jsarchive.com>
+is now live at <https://sm64jsarchive.com>
 
 A successful stress test for the MMO feature was run on April 10th.
 
-[sm64jsarchive]: https://mmo.sm64jsarchive.com
-[sm64js]: https://github.com/sm64js/sm64js
+[sm64jsarchive]: https://sm64jsarchive.com
+[sm64js]: https://github.com/sm64js/sm64js/tree/MMO
 
 ### [Open Combat][OpenCombat_website]
 
