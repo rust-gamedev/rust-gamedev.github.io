@@ -110,7 +110,7 @@ For the full changelog, see the [release notes][wor-release-notes].
 [SM64JSARCHIVE][sm64jsarchive] is an actively maintained fork of [sm64js]: a decompilation project of Super Mario 64 to JavaScript.
 Additional sidenote: The MMO servers are not always running for sm64jsarchive.
 
-The backend server, which is written in rust,
+The backend server, which is written in Rust,
 is now live at <https://sm64jsarchive.com>
 
 A successful stress test for the MMO feature was run on April 10th.
