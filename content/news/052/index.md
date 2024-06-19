@@ -76,6 +76,40 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Tooling Updates
 
+### [Rusty Playdate]
+
+<!-- TODO: add neat image here -->
+![The Playdate console](playdate.png)
+_The Playdate console_
+
+[Rusty Playdate] ([GitHub][Rusty Playdate], [Mastodon][Rusty Playdate Masto]) by [@boozook](https://github.com/boozook)
+is the large set of crates with bindings, toolset for the full cycle of creating games for the [Playdate handheld console][playdate].
+
+Big part of the Rusty Playdate project is the `cargo-playdate` tool ([Crates.io][cargo-playdate crates-io], [GitHub][cargo-playdate gh])
+that helps to build game for [Playdate] hardware or simulator. It works as cargo-plugin as well as stanalone.
+The tool not only manages the compilation of your program, but also builds assets for the crate and __its dependencies__, generates a manifest, and assembles it all into a bundle that runs on the device or simulator.
+In this month cargo-playdate v0.5 has beed [released][Rusty Playdate Release] and received massive refactoring, bugfixes and new features:
+- support of [cargo's auto-targets][cargo-target-auto-discovery] _(targets such as `bin` or `example` that isn't declared in the Cargo.toml)_
+- [target-specific package-info][pdb-pdxinfo-override] inheritance by main package-info
+- `package.metadata.playdate.options` inheritance by `workspace.metadata`
+- incremental builds now works as should - fixed an old problem where the tool corrupts cargo's cache, so triggering full rebuild 
+
+<!-- Note, "target" above means cargo-target (lib, bin, example, etc..), not a rustc/llvm-target/compile-kind/target-triple -->
+
+_Discussions: [GitHub][Rusty Playdate Gh-discuss], [Matrix][Rusty Playdate Matrix]._
+
+[cargo-target-auto-discovery]: https://doc.rust-lang.org/cargo/reference/cargo-targets.html#target-auto-discovery
+[cargo-playdate crates-io]: https://crates.io/crates/cargo-playdate
+[pdb-pdxinfo-override]: https://github.com/boozook/playdate/blob/main/support/build/README.md#target-specific-package-info "More about target-specific package-info"
+[cargo-playdate gh]: https://github.com/boozook/playdate/tree/main/cargo "cargo-playdate tool is a part of 'Rusty Playdate' project"
+[Rusty Playdate Release]: https://github.com/boozook/playdate/releases/tag/2024.06.18 "Release from June 18, 2024"
+[Rusty Playdate]: https://github.com/boozook/playdate
+[Rusty Playdate Gh-discuss]: https://github.com/boozook/playdate/discussions
+[Rusty Playdate Masto]: https://gamedev.social/@playdaters
+[Rusty Playdate Matrix]: https://matrix.to/#/#playdate.rs:matrix.org
+[playdate]: https://play.date/ "Playdate is a fairly new console reminiscent of a GameBoy with a crank handle geared towards indie games."
+
+
 ## Library Updates
 
 ## Popular Workgroup Issues in GitHub
