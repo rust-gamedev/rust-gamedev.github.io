@@ -93,8 +93,15 @@ In this month cargo-playdate v0.5 has been [released][Rusty Playdate Release] an
 
 <!-- Note, "target" above means cargo-target (lib, bin, example, etc..), not a rustc/llvm-target/compile-kind/target-triple -->
 
+Also updated register decoder in the [`pd-symbolize-crashlog`][playdate-symbolize-v0.2.0],
+now it properly decodes all available registers such as
+<abbr title="Program Status Register, combines APSR, IPSR and EPSR">PSR</abbr>,
+<abbr title="Configurable Fault Status Register, combines UFSR, BFSR and MMFSR">CFSR</abbr>,
+<abbr title="HardFault Status Register">HSFR</abbr>.
+
 _Discussions: [GitHub][Rusty Playdate Gh-discuss], [Matrix][Rusty Playdate Matrix]._
 
+[playdate-symbolize-v0.2.0]: https://crates.io/crates/playdate-symbolize/0.2.0
 [cargo-target-auto-discovery]: https://doc.rust-lang.org/cargo/reference/cargo-targets.html#target-auto-discovery
 [cargo-playdate crates-io]: https://crates.io/crates/cargo-playdate
 [pdb-pdxinfo-override]: https://github.com/boozook/playdate/blob/main/support/build/README.md#target-specific-package-info "More about target-specific package-info"
