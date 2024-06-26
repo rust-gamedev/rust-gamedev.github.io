@@ -82,7 +82,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 is the large set of crates with bindings, toolset for the full cycle of creating games for the [Playdate handheld console][playdate].
 
 Big part of the Rusty Playdate project is the `cargo-playdate` tool ([Crates.io][cargo-playdate crates-io], [GitHub][cargo-playdate gh])
-that helps to build game for [Playdate] hardware or simulator. It works as cargo-plugin as well as stanalone.
+that helps to build game for [Playdate] hardware or simulator. It works as cargo-plugin as well as standalone.
 The tool not only manages the compilation of your program, but also builds assets for the crate and __its dependencies__, generates a manifest,
 and assembles it all into a bundle that runs on the device or simulator.
 In this month cargo-playdate v0.5 has been [released][Rusty Playdate Release] and received massive refactoring, bugfixes and new features:
