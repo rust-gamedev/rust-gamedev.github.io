@@ -90,7 +90,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ![image/GIF description](metalmancy_interview.png)
 _Arcade cabinet close up_
 
-[Framework][framework_website] interviewed Carlos and Joanna on their games
+[Framework][framework_website] interviewed Carlo and Joanna on their games
 and arcade machines at [OpenSauce][opensauce_website].
 
 [Metalmancy][metalmancy_website]'s flagship game Thetawave is coded in Rust.
