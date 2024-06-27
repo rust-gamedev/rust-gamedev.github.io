@@ -37,6 +37,7 @@ Feel free to send PRs about your own projects!
 - [Library Updates](#library-updates)
 - [Popular Workgroup Issues in GitHub](#popular-workgroup-issues-in-github)
 - [Other News](#other-news)
+  - [Metalmancy @ OpenSauce](#metalmancy--opensauce)
 - [Meeting Minutes](#meeting-minutes)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
@@ -83,6 +84,21 @@ If needed, a section can be split into subsections with a "------" delimiter.
 <!-- Up to 10 links to interesting issues -->
 
 ## Other News
+
+### [Metalmancy @ OpenSauce][metalmancy_interview]
+
+![image/GIF description](metalmancy_interview.png)
+_Arcade cabinet close up_
+
+[Framework][framework_website] interviewed Carlos and Joanna on their games
+and arcade machines at [OpenSauce][opensauce_website].
+
+[Metalmancy][metalmancy_website]'s flagship game Thetawave is coded in Rust.
+
+[metalmancy_interview]: https://www.youtube.com/watch?v=qUIAnZ0cvvo&t=291s
+[metalmancy_website]: https://www.micronote.tech/
+[framework_website]: https://frame.work
+[opensauce_website]: https://opensauce.com/
 
 <!-- One-liners for plan items that haven't got their own sections. -->
 
