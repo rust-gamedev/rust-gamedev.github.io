@@ -72,9 +72,9 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ## Game Updates
 
 ### [Untitled Pixel Wizards Game][pixel-wizards]
-<video controls autoplay muted loop> <source type="video/mp4" src="untitled-pixel-wizards-game.mp4" onerror="parentNode.parentElement.innerText = 'Sorry, your browser does not support the video codec. Try a different browser!'"> />
-</video>
-_Enemies now perceive, pursue and attack.. and occasionally get burned to death._
+
+{{ embed_video(type="video/mp4", src="untitled-pixel-wizards-game.mp4",
+caption="Enemies now perceive, pursue and attack.. and occasionally get burned to death.") }}
 
 [![A Hound chases a player, and its corpse ragdolls after it is burned to death by a fireball](untitled-pixel-wizards-game.gif)][pixel-wizards]
 _Enemies now perceive, pursue and attack.. and occasionally get burned to death._
