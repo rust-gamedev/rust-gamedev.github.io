@@ -70,6 +70,31 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Way of Rhea][wor]
+
+[![Way of Rhea](wor.jpg)][wor]
+*Way of Rhea: a puzzle game. Available on Steam.*
+
+[Way of Rhea][wor] is 20% off for the Steam Summer Sale!
+
+Way of Rhea is a color-based puzzle game with difficult puzzles, but
+forgiving mechanics developed by [Mason Remaley] in a custom Rust engine. Since its release in May...
+
+* Four alternate secret solutions have been fixed
+* Two alternate puzzle solutions have been fixed
+* A physics glitch that allowed persistent players to clip through a specific wall was fixed
+* Polish was added to some camera motion cues, UI, achievements, tutorials, and dialogue
+* A bug that prevented the game from running on Parallels on macOS was fixed
+* Support for GeForce NOW was enabled on Steam
+* And more...
+
+You can support development by [purchasing Way of Rhea on Steam][wor], or
+[signing up for the mailing list][wor-mail] to hear about future games.
+
+[Mason Remaley]: https://masonremaley.com/
+[wor]: https://store.steampowered.com/app/1110620/Way_of_Rhea/?utm_campaign=tmirgd&utm_source=n52
+[wor-mail]: https://anthropicstudios.com/newsletter/signup/tech
+
 ## Engine Updates
 
 ## Learning Material Updates
