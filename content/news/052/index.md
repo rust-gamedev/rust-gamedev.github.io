@@ -31,6 +31,7 @@ Feel free to send PRs about your own projects!
 
 - [Announcements](#announcements)
 - [Game Updates](#game-updates)
+  - [Untitled Pixel Wizards Game](#untitled-pixel-wizards-game)
 - [Engine Updates](#engine-updates)
 - [Learning Material Updates](#learning-material-updates)
 - [Tooling Updates](#tooling-updates)
@@ -69,6 +70,31 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ## Announcements
 
 ## Game Updates
+
+### [Untitled Pixel Wizards Game][pixel-wizards]
+<video controls autoplay muted loop> <source type="video/mp4" src="untitled-pixel-wizards-game.mp4" onerror="parentNode.parentElement.innerText = 'Sorry, your browser does not support the video codec. Try a different browser!'"> />
+</video>
+_Enemies now perceive, pursue and attack.. and occasionally get burned to death._
+
+[![A Hound chases a player, and its corpse ragdolls after it is burned to death by a fireball](untitled-pixel-wizards-game.gif)][pixel-wizards]
+_Enemies now perceive, pursue and attack.. and occasionally get burned to death._
+
+[Untitled Pixel Wizards Game][pixel-wizards] is a local-multiplayer [Noita]-like platformer about
+killing baddies using spells powered by pixel physics. This month was focused on juicing up said baddies:
+
+- [Pew Pew Pew][pixel-wizards-update-1]: baddies learned to shoot at players.
+- [Hot Pursuit][pixel-wizards-update-2]: baddies also learned to chase players! (They're real smart.)
+- [Status Update][pixel-wizards-update-3]: physically-simulated pixels learn to burn & poison players & baddies.
+- [Ragdolls][pixel-wizards-update-4]: corpses of dead baddies learn to tumble around all realistic-like.
+- [Fiddling with Fire][pixel-wizards-update-5]: the fire mechanic figures out how to better burn baddies.
+
+[pixel-wizards]: https://slowrush.dev
+[Noita]: https://store.steampowered.com/app/881100/Noita/
+[pixel-wizards-update-1]: https://www.slowrush.dev/news/pew-pew/
+[pixel-wizards-update-2]: https://www.slowrush.dev/news/hot-pursuit/
+[pixel-wizards-update-3]: https://www.slowrush.dev/news/status-update/
+[pixel-wizards-update-4]: https://www.slowrush.dev/news/ragdolls/
+[pixel-wizards-update-5]: https://www.slowrush.dev/news/fiddling-with-fire/
 
 ## Engine Updates
 
@@ -117,7 +143,7 @@ and highlight events from the past. -->
 
 <!-- Section to get more people involved in writing news. -->
 
-Editing this newsletter wouldn't be possible without [your contributions][news_current_prs]. 
+Editing this newsletter wouldn't be possible without [your contributions][news_current_prs].
 Thanks to everyone who helped us this month!
 
 If you want something mentioned in the next newsletter, [send us a pull request][pr].
