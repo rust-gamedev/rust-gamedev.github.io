@@ -143,7 +143,7 @@ and highlight events from the past. -->
 
 <!-- Section to get more people involved in writing news. -->
 
-Editing this newsletter wouldn't be possible without [your contributions][news_current_prs].
+Editing this newsletter wouldn't be possible without [your contributions][news_current_prs]. 
 Thanks to everyone who helped us this month!
 
 If you want something mentioned in the next newsletter, [send us a pull request][pr].
