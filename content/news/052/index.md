@@ -91,6 +91,30 @@ killing baddies using spells powered by pixel physics. This month was focused on
 [pixel-wizards-update-4]: https://www.slowrush.dev/news/ragdolls/
 [pixel-wizards-update-5]: https://www.slowrush.dev/news/fiddling-with-fire/
 
+### [Gunbug][gunbug]
+
+[![Gunbugs shooting at a bunch of eggplants](gunbug.jpg)][gunbug]  
+_Gunbugs shooting at a bunch of eggplants_
+
+Gunbug is a 2D online co-op horde survival shoot'em up game.
+
+It focuses on shooting lots of enemies with lots of guns. It can be played
+solo or with up to 10 players.
+
+It is built with [Bevy] and uses [bevy_rapier] for ray casting,
+[bevy_kira_audio] for audio, and [renet] for networking. 
+The iOS and macOS versions are built with [xbuild].
+
+You can wishlist the game on [Steam][gunbug]. Playtests start in the upcomingv months. 
+iOS and Android builds already work, but store pages don't exist yet.
+
+[gunbug]: https://store.steampowered.com/app/2946990?utm_source=this_month_in_rust
+[xbuild]: https://github.com/rust-mobile/xbuild
+[Bevy]: https://bevyengine.org
+[bevy_rapier]: https://github.com/dimforge/bevy_rapier
+[bevy_kira_audio]: https://github.com/NiklasEi/bevy_kira_audio
+[renet]: https://github.com/lucaspoffo/renet
+
 ## Engine Updates
 
 ### [godot-rust]
