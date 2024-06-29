@@ -41,6 +41,8 @@ Feel free to send PRs about your own projects!
   - [Rusty Playdate](#rusty-playdate)
 - [Library Updates](#library-updates)
   - [egui_ratatui](#egui-ratatui)
+  - [FMOD-oxide](#fmod-oxide)
+  - [Other Library Updates and Releases](#other-library-updates-and-releases)
 - [Popular Workgroup Issues in GitHub](#popular-workgroup-issues-in-github)
 - [Interviews](#interviews)
   - [Metalmancy @ OpenSauce](#metalmancy-opensauce)
