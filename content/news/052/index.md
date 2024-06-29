@@ -38,7 +38,7 @@ Feel free to send PRs about your own projects!
 - [Library Updates](#library-updates)
 - [Popular Workgroup Issues in GitHub](#popular-workgroup-issues-in-github)
 - [Other News](#other-news)
-  - [Metalmancy @ OpenSauce](#metalmancy--opensauce)
+  - [Metalmancy @ OpenSauce](#metalmancy-opensauce)
 - [Meeting Minutes](#meeting-minutes)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
