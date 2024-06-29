@@ -129,6 +129,19 @@ _See also the [devlog article][gd-dev-june]._
 [gd-twitter]: https://twitter.com/GodotRust
 [godot-rust]: https://godot-rust.github.io
 
+### [Bevy 0.14 Release Candidate][bevy-0.14-rc]
+
+![Sharp Screen-Space Reflections in Bevy 0.14](ssr.png)  
+_Sharp Screen-Space Reflections in Bevy 0.14_
+
+The Bevy game engine is gearing up to release version 0.14. 
+The (probably) last release candidate is out now and ready for testing.
+If you want to help out, 
+check out the [draft release notes][bevy-0.14-rc] and the [draft migration guide][bevy-0.14-rc-migration] and report any issues you find.
+
+[bevy-0.14-rc]: https://bevyengine.org/news/draft-bevy-0-14/
+[bevy-0.14-rc-migration]: https://bevyengine.org/learn/migration-guides/0-13-to-0-14/
+
 ## Learning Material Updates
 
 ### [Bevy Cheatbook][bevy-cheatbook]
