@@ -90,7 +90,12 @@ The overall API has seen several consistency improvements: reorganized modules, 
 easier element access for `Array`/`Dictionary`/`Packed*Array`. The library has also benefited from Rust's
 [`#[diagnostic::on_unimplemented]`][gd-diagnostic] to improve user-facing error messages.
 
-_See also [Devlog article][gd-dev-june]._
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/1dnmjtl/godotrust_now_on_cratesio_with_the_godot_crate/),
+[Mastodon](https://mastodon.gamedev.place/@GodotRust/112673330814149117),
+[X](https://x.com/GodotRust/status/1805327592222081482)_
+
+_See also the [devlog article][gd-dev-june]._
 
 [@Bromeon]: https://github.com/Bromeon
 [gd-dev-june]: https://godot-rust.github.io/dev/june-2024-update
