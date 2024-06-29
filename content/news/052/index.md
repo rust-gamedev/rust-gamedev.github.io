@@ -77,9 +77,10 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ![godot-rust logo](godot-rust.png)
 
 godot-rust ([GitHub][gd-github], [Discord][gd-discord], [Mastodon][gd-mastodon], [Twitter][gd-twitter]) by [@Bromeon]
-provides Rust bindings for Godot.
+provides Rust bindings for the [Godot engine](https://godotengine.org/).
 
-After quite a bit of development on GitHub, the Godot 4 bindings are now available on crates.io -- you can immediately get started using 
+After quite a bit of development on GitHub, the Godot 4 bindings are now available on [crates.io](https://crates.io/crates/godot) -- 
+you can immediately get started using 
 `cargo add godot`. Furthermore, the GDExtension API level can now be specified with a Cargo feature, e.g. `api-4-1`.
 
 The `ScriptInstance` API has matured a lot over the past months. This feature allows users to write Godot scripts in Rust, which can be
