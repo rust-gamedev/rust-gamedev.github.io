@@ -43,7 +43,6 @@ Feel free to send PRs about your own projects!
 - [Interviews](#interviews)
   - [Metalmancy @ OpenSauce](#metalmancy-opensauce)
   - [Tiny Glade Developers Discuss Bevy, Proceduralism, Publishers & Cozy Games](#tiny-glade-developers-discuss-bevy-proceduralism-publishers-cozy-games)
-- [Meeting Minutes](#meeting-minutes)
 - [Blog Posts](#blog-posts)
 - [Requests for Contribution](#requests-for-contribution)
 - [Jobs](#jobs)
@@ -140,6 +139,22 @@ _See also the [devlog article][gd-dev-june]._
 [godot-rust]: https://godot-rust.github.io
 
 ## Learning Material Updates
+
+### [Bevy Cheatbook][bevy-cheatbook]
+
+The community-beloved unofficial [Bevy Cheatbook][bevy-cheatbook] by Ida "Iyes" is a collection of Bevy tutorials, recipes and advanced documentation.
+The cheatbook is currently in the process of being updated to Bevy 0.14 and now features the following new chapters:
+- [Transform Interpolation/Extrapolation](https://bevy-cheatbook.github.io/cookbook/smooth-movement.html): 
+    How to get smooth-looking movement on-screen for things you simulate in FixedUpdate
+- [Internal Parallelism](https://bevy-cheatbook.github.io/programming/par-iter.html): 
+    Multithreading within a Bevy system
+- [One-Shot Systems](https://bevy-cheatbook.github.io/programming/one-shot-systems.html): 
+    Systems that you run on-demand, not in a schedule
+- [Background Computation](https://bevy-cheatbook.github.io/fundamentals/async-compute.html): 
+    How to do processing that may span multiple frame updates and not hold up the game's framerate with long CPU work.
+
+
+[bevy-cheatbook]: https://bevy-cheatbook.github.io/
 
 ## Tooling Updates
 
@@ -245,15 +260,6 @@ Bevy, Rust, self-publishing, and the "cozy games" genre.
 [tiny-glade-steam]: https://store.steampowered.com/app/2198150/Tiny_Glade/
 
 <!-- One-liners for plan items that haven't got their own sections. -->
-
-## Meeting Minutes
-
-<!-- Up to 10 most important notes + a link to the full details -->
-
-[See all meeting issues][label_meeting] including full text notes
-or [join the next meeting][join].
-
-[label_meeting]: https://github.com/rust-gamedev/wg/issues?q=label%3Ameeting
 
 ## Blog Posts
 
