@@ -153,8 +153,11 @@ The cheatbook is currently in the process of being updated to Bevy 0.14 and now 
 - [Background Computation](https://bevy-cheatbook.github.io/fundamentals/async-compute.html): 
     How to do processing that may span multiple frame updates and not hold up the game's framerate with long CPU work.
 
-
 [bevy-cheatbook]: https://bevy-cheatbook.github.io/
+
+### Other learning materials
+
+- [Using tracing to profile a Bevy project](https://rornic.com/posts/using-tracing-to-profile-a-bevy-project/)
 
 ## Tooling Updates
 
