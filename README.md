@@ -13,7 +13,7 @@ The site is built and deployed automatically from the repo (see
 
 To preview/experiment locally:
 
-1) [Install Zola][zola-get]. Make sure to use 0.14.1, to match [our CI config][ci]!
+1) [Install Zola][zola-get]. Make sure to use 0.19.1, to match [our CI config][ci]!
 2) Run `zola serve --drafts` and open the link.
 
 [zola-get]: https://getzola.org/documentation/getting-started/installation
