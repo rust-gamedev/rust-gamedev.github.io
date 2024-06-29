@@ -112,6 +112,27 @@ _See also the [devlog article][gd-dev-june]._
 
 ## Library Updates
 
+### [egui_ratatui][egui_ratatui]
+
+![egui_ratatui running in Bevy](egui_ratatui.jpg)
+_egui_ratatui running in Bevy_
+
+[egui_ratatui][egui_ratatui] by [gold-silver-copper][gold] is an [egui][egui] widget that is also a [ratatui][ratatui] backend. 
+It allows you to create Terminal User Interfaces (TUIs) inside egui.
+You can try out the [web demo][erat_web] to see it in action.
+
+The current release is the product of months of iteration, and is now "stable".
+It is Wasm compatible and engine agnostic: use it in Bevy, *Quad, eframe, pixels, etc.
+
+`egui_ratatui` is currently being used for the development of a game and 
+educational software at a startup with no issues so far.
+
+[egui_ratatui]: https://github.com/gold-silver-copper/egui_ratatui
+[gold]: https://github.com/gold-silver-copper
+[ratatui]: https://github.com/ratatui-org/ratatui
+[egui]: https://github.com/emilk/egui
+[erat_web]: https://gold-silver-copper.github.io/
+
 ## Popular Workgroup Issues in GitHub
 
 <!-- Up to 10 links to interesting issues -->
