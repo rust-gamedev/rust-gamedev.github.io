@@ -252,7 +252,8 @@ useful information -->
 
 ## Jobs
 
-<!-- An optional section for new jobs related to Rust gamedev -->
+Ubisoft Montreal is searching for an [online Rust programmer](https://jobs.smartrecruiters.com/Ubisoft2/743999993500090-programmer-online-unannounced-project) 
+for an unannounced project.
 
 ## Bonus
 
