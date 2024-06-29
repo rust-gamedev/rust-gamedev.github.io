@@ -38,6 +38,7 @@ Feel free to send PRs about your own projects!
 - [Library Updates](#library-updates)
 - [Popular Workgroup Issues in GitHub](#popular-workgroup-issues-in-github)
 - [Other News](#other-news)
+  - [Metalmancy @ OpenSauce](#metalmancy--opensauce)
 - [Meeting Minutes](#meeting-minutes)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
@@ -207,6 +208,24 @@ educational software at a startup with no issues so far.
 <!-- Up to 10 links to interesting issues -->
 
 ## Other News
+
+### [Metalmancy @ OpenSauce][metalmancy_interview]
+
+![image/GIF description](metalmancy_interview.png)  
+_Arcade cabinet close up_
+
+[Metalmancy][metalmancy_website] are creating custom and configurable arcade machines. Their flagship game [Thetawave] is coded in Rust.
+
+Hyelim of [Framework][framework_website] interviewed Carlo and Joanna on their games
+and arcade machines at [OpenSauce][opensauce_website].
+
+
+
+[metalmancy_interview]: https://www.youtube.com/watch?v=qUIAnZ0cvvo&t=291s
+[metalmancy_website]: https://www.micronote.tech/
+[framework_website]: https://frame.work
+[opensauce_website]: https://opensauce.com/
+[Thetawave]: https://store.steampowered.com/app/2427510/Thetawave
 
 <!-- One-liners for plan items that haven't got their own sections. -->
 
