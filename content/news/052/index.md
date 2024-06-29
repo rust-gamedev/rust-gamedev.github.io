@@ -101,7 +101,7 @@ and arcade machines at [OpenSauce][opensauce_website].
 [metalmancy_website]: https://www.micronote.tech/
 [framework_website]: https://frame.work
 [opensauce_website]: https://opensauce.com/
-[Thetawave]: https://store.steampowered.com/app/2427510/Thetawave/?l=german
+[Thetawave]: https://store.steampowered.com/app/2427510/Thetawave
 
 <!-- One-liners for plan items that haven't got their own sections. -->
 
