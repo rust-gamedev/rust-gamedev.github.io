@@ -270,6 +270,21 @@ You can get started by reading the [bevy_lunex book][bevy-lunex-book].
 [bevy-lunex-book]: https://bytestring-net.github.io/bevy_lunex/
 [bevypunk]: https://idedary.itch.io/bevypunk
 
+### [haalka]
+
+{{ embed_video(type="video/mp4", src="haalka.mp4", caption="A Minecraft-like UI made with haalka") }}
+
+হালকা: _in bengali, haalka means "light" (e.g. not heavy) and can also be used to mean "easy"_
+
+Haalka is an ergonomic reactivity library powered by the [FRP](https://en.wikipedia.org/wiki/Functional_reactive_programming) signals of [futures-signals](https://github.com/Pauan/rust-signals).
+It is a port of the web UI libraries [MoonZoon](https://github.com/MoonZoon/MoonZoon) and [Dominator](https://github.com/Pauan/rust-dominator) 
+and offers the same signal semantics as a thin layer on top of bevy_ui. 
+
+While haalka is primarily targeted at UI and provides high level UI abstractions as such, 
+its core abstraction can be used to manage signals-powered reactivity for any entity, not just bevy_ui nodes.
+
+[haalka]: https://github.com/databasedav/haalka
+
 
 ### Other Library Updates and Releases
 
