@@ -370,8 +370,10 @@ _Discussions: [lobste.rs](https://lobste.rs/s/dsqumn/dioxus_labs_high_level_rust
 
 ## Jobs
 
-Ubisoft Montreal is searching for an [online Rust programmer](https://jobs.smartrecruiters.com/Ubisoft2/743999993500090-programmer-online-unannounced-project) 
+Ubisoft Montreal is searching for an [online Rust programmer][ubisoft-job] 
 for an unannounced project.
+
+[ubisoft-job]: https://www.ubisoft.com/en-us/company/careers/search/743999993500090-programmer-online-unannounced-project
 
 ## Misc. Links
 
