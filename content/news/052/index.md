@@ -35,10 +35,8 @@ Feel free to send PRs about your own projects!
 - [Learning Material Updates](#learning-material-updates)
 - [Tooling Updates](#tooling-updates)
 - [Library Updates](#library-updates)
-- [Popular Workgroup Issues in GitHub](#popular-workgroup-issues-in-github)
 - [Interviews](#interviews)
 - [Blog Posts](#blog-posts)
-- [Requests for Contribution](#requests-for-contribution)
 - [Jobs](#jobs)
 - [Misc. Links](#misc-links)
 - [Future news](#future-news)
@@ -292,12 +290,6 @@ its core abstraction can be used to manage signals-powered reactivity for any en
 - [FunDSP 0.18](https://github.com/SamiPerttu/fundsp): FunDSP is an audio DSP ([digital signal processing](https://en.wikipedia.org/wiki/Digital_signal_processing))
     library for audio processing and synthesis. This release is a rewrite that adds no_std and SIMD support. 
 
-
-
-## Popular Workgroup Issues in GitHub
-
-<!-- Up to 10 links to interesting issues -->
-
 ## Interviews
 
 ### [Metalmancy @ OpenSauce][metalmancy_interview]
@@ -351,9 +343,6 @@ _Discussions: [lobste.rs](https://lobste.rs/s/dsqumn/dioxus_labs_high_level_rust
 [dioxus-labs]: https://dioxuslabs.com/
 [leaving-post]: https://loglog.games/blog/leaving-rust-gamedev/
 
-## Requests for Contribution
-
-<!-- Links to "good first issue"-labels or direct links to specific tasks -->
 
 ## Jobs
 
@@ -367,7 +356,7 @@ for an unannounced project.
 - [Larian Cinematics: A Top-Down Look at Our Bottom-Up Approach in 'Baldur's Gate 3'](https://www.youtube.com/watch?v=MdmY9Mt-vz8&t)
 - ['Valheim': Vikings, Roadmaps & Buying a Horse During Early Access](https://www.youtube.com/watch?v=YoOCUpdYYm4)
 
-### Newsletters
+### Engine Newsletters
 
 - This Week In Bevy
   - [Tiny Glade, VJ performances, and 2d lighting](https://thisweekinbevy.com/issue/2024-06-03-tiny-glade-vj-performances-and-2d-lighting)
