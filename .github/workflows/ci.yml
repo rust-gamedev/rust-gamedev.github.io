@@ -46,7 +46,6 @@ jobs:
           --exclude '[^\w]todo[^\w]?'
           --exclude 'https://(www\.|old\.)?reddit\.com'
           --exclude 'https://www.patreon.com'
-          --exclude 'https://gamedev.social'
           ${{ steps.changed-files.outputs.changed_files }}
     - name: Install Zola
       run: |
