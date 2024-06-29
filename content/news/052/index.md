@@ -99,19 +99,20 @@ killing baddies using spells powered by pixel physics. This month was focused on
 
 ### [Gunbug][gunbug]
 
-[![Gunbug](gunbug.jpg)][gunbug]
+[![Gunbugs shooting at a bunch of eggplants](gunbug.jpg)][gunbug]  
+_Gunbugs shooting at a bunch of eggplants_
 
 Gunbug is a 2D online co-op horde survival shoot'em up game.
 
-Gunbug focuses on shooting lots of enemies with lots of guns. It can be played
+It focuses on shooting lots of enemies with lots of guns. It can be played
 solo or with up to 10 players.
 
-It is built with the [Bevy] game engine. It uses [bevy_rapier] for ray casting,
-[bevy_kira_audio] for audio, and [renet] for networking. iOS and MacOS versions
-are built with [xbuild].
+It is built with [Bevy] and uses [bevy_rapier] for ray casting,
+[bevy_kira_audio] for audio, and [renet] for networking. 
+The iOS and macOS versions are built with [xbuild].
 
-You can wishlist the game on [Steam][gunbug]. Playtests start in the upcoming
-months. iOS and Android builds already work, but store pages don't exist yet.
+You can wishlist the game on [Steam][gunbug]. Playtests start in the upcomingv months. 
+iOS and Android builds already work, but store pages don't exist yet.
 
 [gunbug]: https://store.steampowered.com/app/2946990?utm_source=this_month_in_rust
 [xbuild]: https://github.com/rust-mobile/xbuild
