@@ -72,6 +72,40 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Engine Updates
 
+### [godot-rust]
+
+![godot-rust logo](godot-rust.png)
+
+godot-rust ([GitHub][gd-github], [Discord][gd-discord], [Mastodon][gd-mastodon], [Twitter][gd-twitter]) by [@Bromeon]
+provides Rust bindings for the [Godot engine](https://godotengine.org/).
+
+After quite a bit of development on GitHub, the Godot 4 bindings are now available on [crates.io](https://crates.io/crates/godot) -- 
+you can immediately get started using 
+`cargo add godot`. Furthermore, the GDExtension API level can now be specified with a Cargo feature, e.g. `api-4-1`.
+
+The `ScriptInstance` API has matured a lot over the past months. This feature allows users to write Godot scripts in Rust, which can be
+attached to nodes (just like GDScript). Scripts allow for quickly attaching/detaching functionality in a scene.
+
+The overall API has seen several consistency improvements: reorganized modules, `self`/`&self` receivers on geometric types,
+easier element access for `Array`/`Dictionary`/`Packed*Array`. The library has also benefited from Rust's
+[`#[diagnostic::on_unimplemented]`][gd-diagnostic] to improve user-facing error messages.
+
+_Discussions:
+[/r/rust](https://www.reddit.com/r/rust/comments/1dnmjtl/godotrust_now_on_cratesio_with_the_godot_crate/),
+[Mastodon](https://mastodon.gamedev.place/@GodotRust/112673330814149117),
+[X](https://x.com/GodotRust/status/1805327592222081482)_
+
+_See also the [devlog article][gd-dev-june]._
+
+[@Bromeon]: https://github.com/Bromeon
+[gd-dev-june]: https://godot-rust.github.io/dev/june-2024-update
+[gd-diagnostic]: https://blog.rust-lang.org/2024/05/02/Rust-1.78.0.html#diagnostic-attributes
+[gd-discord]: https://discord.gg/aKUCJ8rJsc
+[gd-github]: https://github.com/godot-rust/gdext
+[gd-mastodon]: https://mastodon.gamedev.place/@GodotRust
+[gd-twitter]: https://twitter.com/GodotRust
+[godot-rust]: https://godot-rust.github.io
+
 ## Learning Material Updates
 
 ## Tooling Updates
