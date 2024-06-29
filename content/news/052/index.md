@@ -87,18 +87,21 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [Metalmancy @ OpenSauce][metalmancy_interview]
 
-![image/GIF description](metalmancy_interview.png)
+![image/GIF description](metalmancy_interview.png)  
 _Arcade cabinet close up_
 
-[Framework][framework_website] interviewed Carlo and Joanna on their games
+[Metalmancy][metalmancy_website] are creating custom and configurable arcade machines. Their flagship game [Thetawave] is coded in Rust.
+
+Hyelim of [Framework][framework_website] interviewed Carlo and Joanna on their games
 and arcade machines at [OpenSauce][opensauce_website].
 
-[Metalmancy][metalmancy_website]'s flagship game Thetawave is coded in Rust.
+
 
 [metalmancy_interview]: https://www.youtube.com/watch?v=qUIAnZ0cvvo&t=291s
 [metalmancy_website]: https://www.micronote.tech/
 [framework_website]: https://frame.work
 [opensauce_website]: https://opensauce.com/
+[Thetawave]: https://store.steampowered.com/app/2427510/Thetawave/?l=german
 
 <!-- One-liners for plan items that haven't got their own sections. -->
 
