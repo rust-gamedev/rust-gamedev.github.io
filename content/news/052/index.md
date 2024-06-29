@@ -46,7 +46,9 @@ Feel free to send PRs about your own projects!
 - [Blog Posts](#blog-posts)
 - [Requests for Contribution](#requests-for-contribution)
 - [Jobs](#jobs)
-- [Bonus](#bonus)
+- [Misc. Links](#misc-links)
+  - [Notable GDC talks](#notable-gdc-talks)
+  - [Newsletters](#newsletters)
 - [Future news](#future-news)
 
 <!--
@@ -293,10 +295,22 @@ _Discussions: [lobste.rs](https://lobste.rs/s/dsqumn/dioxus_labs_high_level_rust
 Ubisoft Montreal is searching for an [online Rust programmer](https://jobs.smartrecruiters.com/Ubisoft2/743999993500090-programmer-online-unannounced-project) 
 for an unannounced project.
 
-## Bonus
+## Misc. Links
 
-<!-- Bonus section to make the newsletter more interesting
-and highlight events from the past. -->
+### Notable GDC talks
+
+- [Larian Cinematics: A Top-Down Look at Our Bottom-Up Approach in 'Baldur's Gate 3'](https://www.youtube.com/watch?v=MdmY9Mt-vz8&t)
+- ['Valheim': Vikings, Roadmaps & Buying a Horse During Early Access](https://www.youtube.com/watch?v=YoOCUpdYYm4)
+
+### Newsletters
+
+- This Week In Bevy
+  - [Tiny Glade, VJ performances, and 2d lighting](https://thisweekinbevy.com/issue/2024-06-03-tiny-glade-vj-performances-and-2d-lighting)
+  - [Bevy 0.14-rc.2, Powerglove, and Soup!](https://thisweekinbevy.com/issue/2024-06-10-bevy-014-rc2-powerglove-and-soup)
+  - [Meshlets, Stable Interpolation, and Generalized ECS Reactivity with Observers!](https://thisweekinbevy.com/issue/2024-06-17-meshlets-stable-interpolation-and-generalized-ecs-reactivity-with-observers)
+  - [Water, Global Illumination, and UI toolkits](https://thisweekinbevy.com/issue/2024-06-24-water-global-illumination-and-ui-toolkits)
+- This Week In Quads
+  - [`blocking_event_loop` on ios opengl/metal, Docker article, and libxkbcommon on NixOS](https://macroquad.rs/twiq/week5/)
 
 ## Future news
 
