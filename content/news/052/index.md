@@ -244,6 +244,22 @@ educational software at a startup with no issues so far.
 [egui]: https://github.com/emilk/egui
 [erat_web]: https://gold-silver-copper.github.io/
 
+### [FMOD-oxide][fmod-oxide]
+
+Safe rust bindings to the FMOD sound engine. This crate tries to be as rusty and low-cost as possible, without comprimising on any APIs. 
+Certain APIs, such as loading banks from a pointer, are marked as unsafe, but are still available for use.
+
+[fmod-oxide]: https://crates.io/crates/fmod-oxide
+
+
+### Other Library Updates and Releases
+
+- [gdext-coroutines](https://github.com/Houtamelo/gdext_coroutines): Run Rust coroutines in Godot 4.2+ (through GDExtension), inspired on Unity's Coroutines design.
+- [FunDSP 0.18](https://github.com/SamiPerttu/fundsp): FunDSP is an audio DSP ([digital signal processing](https://en.wikipedia.org/wiki/Digital_signal_processing))
+    library for audio processing and synthesis. This release is a rewrite that adds no_std and SIMD support. 
+
+
+
 ## Popular Workgroup Issues in GitHub
 
 <!-- Up to 10 links to interesting issues -->
