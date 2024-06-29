@@ -160,6 +160,18 @@ The cheatbook is currently in the process of being updated to Bevy 0.14 and now 
 
 [bevy-cheatbook]: https://bevy-cheatbook.github.io/
 
+### [Game development in Rust with Macroquad][macro-learning]
+
+Olle Wreede of [Agical][agical] published a [complete guide][macro-learning] on 
+how to develop a classic 2D shoot 'em up game using the game library 
+Macroquad and the Rust programming language.
+
+It covers everything from a simple Hello World Macroquad application to adding graphics, audio, a shader, a graphical menu, 
+and how to release the game on multiple platforms.
+
+[agical]: https://www.agical.se/
+[macro-learning]: <https://mq.agical.se/>
+
 ### Other learning materials
 
 - [Using tracing to profile a Bevy project](https://rornic.com/posts/using-tracing-to-profile-a-bevy-project/)
