@@ -95,7 +95,7 @@ killing baddies using spells powered by pixel physics. This month was focused on
 
 ### [godot-rust]
 
-![godot-rust logo](godot-rust.png)
+![godot-rust logo](godot-rust.jpg)
 
 godot-rust ([GitHub][gd-github], [Discord][gd-discord], [Mastodon][gd-mastodon], [Twitter][gd-twitter]) by [@Bromeon]
 provides Rust bindings for the [Godot engine](https://godotengine.org/).
@@ -129,7 +129,7 @@ _See also the [devlog article][gd-dev-june]._
 
 ### [Bevy 0.14 Release Candidate][bevy-0.14-rc]
 
-![Sharp Screen-Space Reflections in Bevy 0.14](ssr.png)  
+![Sharp Screen-Space Reflections in Bevy 0.14](ssr.jpg)  
 _Sharp Screen-Space Reflections in Bevy 0.14_
 
 The Bevy game engine is gearing up to release version 0.14. 
@@ -252,7 +252,7 @@ Certain APIs, such as loading banks from a pointer, are marked as unsafe, but ar
 
 ### [Bevy Lunex][bevy-lunex]
 
-![Bevypunk: a recreation of Cyberpunk 2077's UI made with Lunex](bevypunk.png)  
+![Bevypunk: a recreation of Cyberpunk 2077's UI made with Lunex](bevypunk.jpg)  
 _Bevypunk: a recreation of Cyberpunk 2077's UI made with Lunex_
 
 
@@ -294,7 +294,7 @@ its core abstraction can be used to manage signals-powered reactivity for any en
 
 ### [Metalmancy @ OpenSauce][metalmancy_interview]
 
-![image/GIF description](metalmancy_interview.png)  
+![image/GIF description](metalmancy_interview.jpg)  
 _Arcade cabinet close up_
 
 [Metalmancy][metalmancy_website] are creating custom and configurable arcade machines. Their flagship game [Thetawave] is coded in Rust.
