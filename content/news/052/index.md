@@ -87,10 +87,7 @@ TODO: I'll be working on adding an email subscription this weekend, so I'll writ
 ### [Untitled Pixel Wizards Game][pixel-wizards]
 
 {{ embed_video(type="video/mp4", src="untitled-pixel-wizards-game.mp4",
-caption="Enemies now perceive, pursue and attack.. and occasionally get burned to death.") }}
-
-[![A Hound chases a player, and its corpse ragdolls after it is burned to death by a fireball](untitled-pixel-wizards-game.gif)][pixel-wizards]  
-_Enemies now perceive, pursue and attack.. and occasionally get burned to death._
+caption="Enemies now perceive, pursue and attack.. and occasionally get burned to death.") }} 
 
 [Untitled Pixel Wizards Game][pixel-wizards] is a local-multiplayer [Noita]-like platformer about
 killing baddies using spells powered by pixel physics. This month was focused on juicing up said baddies:
