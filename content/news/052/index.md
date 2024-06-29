@@ -177,6 +177,8 @@ and how to release the game on multiple platforms.
 ### Other learning materials
 
 - [Using tracing to profile a Bevy project](https://rornic.com/posts/using-tracing-to-profile-a-bevy-project/)
+- [Bevycation of Brackeys First Game in Godot Tutorial](https://github.com/Occuros/bevycation_brackeys_first-game-in-godot):
+    A Bevy version of Brackeys' ["How to make a Video Game - Godot Beginner Tutorial"](https://www.youtube.com/watch?v=LOhfqjmasi0)
 
 ## Tooling Updates
 
