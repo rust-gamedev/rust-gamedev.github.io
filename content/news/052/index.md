@@ -46,7 +46,7 @@ Feel free to send PRs about your own projects!
   - [Metalmancy @ OpenSauce](#metalmancy-opensauce)
   - [Tiny Glade Developers Discuss Bevy, Proceduralism, Publishers & Cozy Games](#tiny-glade-developers-discuss-bevy-proceduralism-publishers-cozy-games)
 - [Blog Posts](#blog-posts)
-  - [Dioxus Labs + "High-level Rust"](#dioxus-labs--high-level-rust)
+  - [Dioxus Labs + "High-level Rust"](#dioxus-labs-high-level-rust)
 - [Requests for Contribution](#requests-for-contribution)
 - [Jobs](#jobs)
 - [Misc. Links](#misc-links)
