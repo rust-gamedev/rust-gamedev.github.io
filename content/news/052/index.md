@@ -74,6 +74,8 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Announcements
 
+TODO: I'll be working on adding an email subscription this weekend, so I'll write about it here once that's done :) - Jan
+
 ## Game Updates
 
 ### [Untitled Pixel Wizards Game][pixel-wizards]
