@@ -1,0 +1,11 @@
+<!-- {#
+Embed a video into a markdown file. Example usage:
+
+    {{ embed_video(type="video/mp4", src="my-video.mp4", caption="Some caption.") }}
+
+#} -->
+<video controls autoplay muted loop>
+    <source
+        type="{{ type }}" src="{{ src }}"
+        onerror="parentNode.parentElement.innerText = 'Sorry, this video does not exist or your browser does not support the video codec. Try a different browser!'" />
+</video> {% if caption %}<em>{{ caption }}</em>{% endif %}
