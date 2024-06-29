@@ -252,6 +252,24 @@ Certain APIs, such as loading banks from a pointer, are marked as unsafe, but ar
 
 [fmod-oxide]: https://crates.io/crates/fmod-oxide
 
+### [Bevy Lunex][bevy-lunex]
+
+![Bevypunk: a recreation of Cyberpunk 2077's UI made with Lunex](bevypunk.png)  
+_Bevypunk: a recreation of Cyberpunk 2077's UI made with Lunex_
+
+
+Lunex is a path based retained layout engine for Bevy entities, built around vanilla Bevy ECS. 
+It gives you the ability to make your own custom UI using regular ECS like every other part of your app. 
+Notably, this includes world-space 3D UI!
+
+The above screenshot is from the [Bevypunk UI Web Demo][bevypunk], which includes a main menu and a character creation screen.
+
+You can get started by reading the [bevy_lunex book][bevy-lunex-book].
+
+[bevy-lunex]: https://github.com/bytestring-net/bevy_lunex
+[bevy-lunex-book]: https://bytestring-net.github.io/bevy_lunex/
+[bevypunk]: https://idedary.itch.io/bevypunk
+
 
 ### Other Library Updates and Releases
 
