@@ -99,7 +99,7 @@ In this month `cargo-playdate` v0.5 has been [released][Rusty Playdate Release] 
 - incremental builds now work as expected - fixed an old problem where the tool corrupts cargo's cache, which triggered full rebuild
 
 The register decoder in the [`pd-symbolize-crashlog`][playdate-symbolize-v0.2.0] was also updated. 
-It now it properly decodes all available registers such as
+It now properly decodes all available registers such as
 <abbr title="Program Status Register, combines APSR, IPSR and EPSR">PSR</abbr>,
 <abbr title="Configurable Fault Status Register, combines UFSR, BFSR and MMFSR">CFSR</abbr>, and
 <abbr title="HardFault Status Register">HSFR</abbr>.
