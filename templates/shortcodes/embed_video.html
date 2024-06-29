@@ -5,7 +5,6 @@ Embed a video into a markdown file. Example usage:
 
 #} -->
 <video controls autoplay muted loop>
-    <source
-        type="{{ type }}" src="{{ src }}"
+    <source type="{{ type }}" src="{{ src }}"
         onerror="parentNode.parentElement.innerText = 'Sorry, this video does not exist or your browser does not support the video codec. Try a different browser!'" />
 </video> {% if caption %}<em>{{ caption }}</em>{% endif %}

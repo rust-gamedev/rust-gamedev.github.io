@@ -40,10 +40,11 @@ Feel free to send PRs about your own projects!
 - [Library Updates](#library-updates)
   - [egui_ratatui](#egui-ratatui)
 - [Popular Workgroup Issues in GitHub](#popular-workgroup-issues-in-github)
-- [Other News](#other-news)
+- [Interviews](#interviews)
   - [Metalmancy @ OpenSauce](#metalmancy-opensauce)
+  - [Tiny Glade Developers Discuss Bevy, Proceduralism, Publishers & Cozy Games](#tiny-glade-developers-discuss-bevy-proceduralism-publishers-cozy-games)
 - [Meeting Minutes](#meeting-minutes)
-- [Discussions](#discussions)
+- [Blog Posts](#blog-posts)
 - [Requests for Contribution](#requests-for-contribution)
 - [Jobs](#jobs)
 - [Bonus](#bonus)
@@ -210,7 +211,7 @@ educational software at a startup with no issues so far.
 
 <!-- Up to 10 links to interesting issues -->
 
-## Other News
+## Interviews
 
 ### [Metalmancy @ OpenSauce][metalmancy_interview]
 
@@ -252,10 +253,25 @@ or [join the next meeting][join].
 
 [label_meeting]: https://github.com/rust-gamedev/wg/issues?q=label%3Ameeting
 
-## Discussions
+## Blog Posts
 
-<!-- Links to handpicked reddit/twitter/urlo/etc threads that provide
-useful information -->
+### [Dioxus Labs + "High-level Rust"][dioxus-post]
+
+This post by the founder of [Dioxus Labs][dioxus-labs] is a direct response to
+the recently published ["Leaving Rust gamedev after 3 years"][leaving-post] by LogLogGames. 
+If you've missed the original post, it has made its rounds as a well-written critique of Rust's gamedev ecosystem and shortcomings 
+inherent to the language itself.
+
+[Dioxus Labs + "High-level Rust"][dioxus-post] is a detailed response to the original post, outlining concrete steps to improve the situation 
+and signaling the author's readiness to fund the development of features they see as necessary for the ecosystem to thrive.
+
+_Discussions: [lobste.rs](https://lobste.rs/s/dsqumn/dioxus_labs_high_level_rust), 
+[/r/rust](https://www.reddit.com/r/rust/comments/1dkzzn5/dioxus_labs_highlevel_rust/), 
+[Hacker News](https://news.ycombinator.com/item?id=40766805)_
+
+[dioxus-post]: https://dioxus.notion.site/Dioxus-Labs-High-level-Rust-5fe1f1c9c8334815ad488410d948f05e
+[dioxus-labs]: https://dioxuslabs.com/
+[leaving-post]: https://loglog.games/blog/leaving-rust-gamedev/
 
 ## Requests for Contribution
 
