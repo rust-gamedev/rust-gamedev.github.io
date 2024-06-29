@@ -23,9 +23,9 @@ To preview/experiment locally:
 
 This project is licensed under either of:
 
-- Apache License, Version 2.0, ([LICENSE-APACHE](LICENSE-APACHE) or
+- Apache License, Version 2.0, ([LICENSE-APACHE](LICENSE-APACHE.txt) or
   <http://www.apache.org/licenses/LICENSE-2.0>)
-- MIT license ([LICENSE-MIT](LICENSE-MIT) or
+- MIT license ([LICENSE-MIT](LICENSE-MIT.txt) or
   <http://opensource.org/licenses/MIT>)
 
 With the exception of:
