@@ -11,5 +11,10 @@
     "no-hard-tabs": false,
     "hr-style": false,
     "strong-style": false,
-    "emphasis-style": false
+    "emphasis-style": false,
+    "no-inline-html": {
+        "allowed_elements": [
+            "abbr"
+        ]
+    }
 }
