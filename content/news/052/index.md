@@ -126,7 +126,7 @@ months. iOS and Android builds already work, but store pages don't exist yet.
 
 ![godot-rust logo](godot-rust.png)
 
-godot-rust ([GitHub][gd-github], [Discord][gd-discord], [Mastodon][gd-mastodon], [Twitter][gd-twitter]) by [@Bromeon]/
+godot-rust ([GitHub][gd-github], [Discord][gd-discord], [Mastodon][gd-mastodon], [Twitter][gd-twitter]) by [@Bromeon]
 provides Rust bindings for the [Godot engine](https://godotengine.org/).
 
 After quite a bit of development on GitHub, the Godot 4 bindings are now available on [crates.io](https://crates.io/crates/godot) -- 
