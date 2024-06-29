@@ -2,7 +2,7 @@
 title = "This Month in Rust GameDev #52 - June 2024"
 transparent = true
 date = 2024-07-03
-draft = true
+draft = false
 +++
 
 <!-- no toc -->
@@ -38,10 +38,10 @@ Feel free to send PRs about your own projects!
 - [Tooling Updates](#tooling-updates)
   - [Rusty Playdate](#rusty-playdate)
 - [Library Updates](#library-updates)
-  - [egui_ratatui](#egui_ratatui)
+  - [egui_ratatui](#egui-ratatui)
 - [Popular Workgroup Issues in GitHub](#popular-workgroup-issues-in-github)
 - [Other News](#other-news)
-  - [Metalmancy @ OpenSauce](#metalmancy--opensauce)
+  - [Metalmancy @ OpenSauce](#metalmancy-opensauce)
 - [Meeting Minutes](#meeting-minutes)
 - [Discussions](#discussions)
 - [Requests for Contribution](#requests-for-contribution)
@@ -222,13 +222,24 @@ _Arcade cabinet close up_
 Hyelim of [Framework][framework_website] interviewed Carlo and Joanna on their games
 and arcade machines at [OpenSauce][opensauce_website].
 
-
-
 [metalmancy_interview]: https://www.youtube.com/watch?v=qUIAnZ0cvvo&t=291s
 [metalmancy_website]: https://www.micronote.tech/
 [framework_website]: https://frame.work
 [opensauce_website]: https://opensauce.com/
 [Thetawave]: https://store.steampowered.com/app/2427510/Thetawave
+
+### [Tiny Glade Developers Discuss Bevy, Proceduralism, Publishers & Cozy Games][tiny-glade-interview]
+
+![An idyllic scenery made in Tidy Glade](tiny-glade.jpg)  
+_An idyllic scenery made in Tidy Glade_
+
+To celebrate the release of Tiny Glade's [demo version][tiny-glade-steam], Pounce Light's Anastasia Opara and 
+Tomasz Stachowiak have joined 80 Level [in an interview][tiny-glade-interview] to discuss the game's history, proceduralism, 
+Bevy, Rust, self-publishing, and the "cozy games" genre.
+
+
+[tiny-glade-interview]: https://80.lv/articles/exclusive-tiny-glade-developers-discuss-bevy-proceduralism-publishers-cozy-games
+[tiny-glade-steam]: https://store.steampowered.com/app/2198150/Tiny_Glade/
 
 <!-- One-liners for plan items that haven't got their own sections. -->
 
