@@ -371,7 +371,7 @@ _Discussions: [lobste.rs](https://lobste.rs/s/dsqumn/dioxus_labs_high_level_rust
 ### [Marquee Selection in Bevy]
 
 [@HeyZoos] published an [article] about building a Marquee Selection system in Bevy using `bevy_rapier` for collision detection.
-Ideal for RTS games or games with selectable entities.
+Ideal for RTS games or games with selectable entities!
 
 [Marquee Selection in Bevy]: https://medium.com/@jessebracho/marquee-selection-in-bevy-3bc8bbd99ef3
 
