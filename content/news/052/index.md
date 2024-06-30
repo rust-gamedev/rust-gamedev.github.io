@@ -368,6 +368,13 @@ _Discussions: [lobste.rs](https://lobste.rs/s/dsqumn/dioxus_labs_high_level_rust
 [leaving-post]: https://loglog.games/blog/leaving-rust-gamedev/
 
 
+### [Marquee Selection in Bevy]
+
+[@HeyZoos] published an [article] about building a Marquee Selection system in Bevy using `bevy_rapier` for collision detection.
+Ideal for RTS games or games with selectable entities.
+
+[Marquee Selection in Bevy]: https://medium.com/@jessebracho/marquee-selection-in-bevy-3bc8bbd99ef3
+
 ## Jobs
 
 Ubisoft Montreal is searching for an [online Rust programmer][ubisoft-job] 
