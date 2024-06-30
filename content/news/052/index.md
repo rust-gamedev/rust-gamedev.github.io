@@ -95,28 +95,22 @@ killing baddies using spells powered by pixel physics. This month was focused on
 ### [Way of Rhea][wor]
 
 [![Way of Rhea](wor.jpg)][wor]
-*Way of Rhea: a puzzle game. Available on Steam.*
+*Way of Rhea: a puzzle game. Available on Steam and 20% off for the Steam Summer Sale!*
 
-[Way of Rhea][wor] is 20% off for the Steam Summer Sale!
+Way of Rhea ([Steam][wor], [Newsletter][wor-mail]) is a color-based puzzle game with difficult puzzles, but
+forgiving mechanics developed by [Mason Remaley] in a custom Rust engine. Since its release in May,
+Mason has fixed many bugs and implemented quality-of-life improvements.
 
-Way of Rhea is a color-based puzzle game with difficult puzzles, but
-forgiving mechanics developed by [Mason Remaley] in a custom Rust engine. Since its release in May...
-
-- Four alternate secret solutions have been fixed
-- Two alternate puzzle solutions have been fixed
-- A physics glitch that allowed persistent players to clip through a specific wall was fixed
-- Polish was added to some camera motion cues, UI, achievements, tutorials, and dialogue
-- A bug that prevented the game from running on Parallels on macOS was fixed
-- Support for GeForce NOW was enabled on Steam
-- And more...
-
-You can support development by [purchasing Way of Rhea on Steam][wor], or
-[signing up for the mailing list][wor-mail] to hear about future games.
+They recently conducted an [AMA on /r/rust_gamedev][ama] about their experience 
+developing and shipping a game after six years in Rust. 
+They then curated the questions and answers into a [blog post][wor-ama]. 
+It includes questions about Rust, libraries, experiences writing a custom game engine, and game development in general.
 
 [Mason Remaley]: https://masonremaley.com/
 [wor]: https://store.steampowered.com/app/1110620/Way_of_Rhea/?utm_campaign=tmirgd&utm_source=n52
 [wor-mail]: https://anthropicstudios.com/newsletter/signup/tech
-
+[ama]: https://www.reddit.com/r/rust_gamedev/comments/1cwqcfl/i_spent_6_years_developing_a_puzzle_game_in_rust/
+[wor-ama]: https://gamesbymason.com/2024/06/01/wor-ama/
 
 ### [Gunbug][gunbug]
 
