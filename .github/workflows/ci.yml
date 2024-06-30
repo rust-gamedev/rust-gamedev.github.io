@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       BASE_URL: https://github.com/getzola/zola/releases/download
-      VERS: v0.15.2
+      VERS: v0.19.1
       ARCH: x86_64-unknown-linux-gnu
       # https://github.com/crazy-max/ghaction-github-pages/issues/1#issuecomment-623202206
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -46,6 +46,7 @@ jobs:
           --exclude '[^\w]todo[^\w]?'
           --exclude 'https://(www\.|old\.)?reddit\.com'
           --exclude 'https://www.patreon.com'
+          --exclude 'https://gamedev.social'
           ${{ steps.changed-files.outputs.changed_files }}
     - name: Install Zola
       run: |
