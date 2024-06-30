@@ -127,3 +127,15 @@ video+em {
     text-align: center;
     color: $grey-color;
 }
+
+.email-form {
+    display: flex;
+
+    .email-input {
+        margin-right: 0px;
+    }
+
+    .email-submit {
+        margin-left: 0px;
+    }
+}
