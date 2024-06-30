@@ -39,7 +39,7 @@ Feel free to send PRs about your own projects!
 - [Blog Posts](#blog-posts)
 - [Jobs](#jobs)
 - [Misc. Links](#misc-links)
-- [Future news](#future-news)
+- [Future News](#future-news)
 
 <!--
 Ideal section structure is:
