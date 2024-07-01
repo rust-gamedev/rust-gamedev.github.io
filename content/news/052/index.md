@@ -307,6 +307,58 @@ its core abstraction can be used to manage signals-powered reactivity for any en
 
 [haalka]: https://github.com/databasedav/haalka
 
+### bevy_light_2d
+
+![bevy_light_2d](bevy_light_2d.gif)
+_bevy light 2d_
+
+bevy_light_2d is a new general purpose 2D lighting for the bevy game engine. Designed to be simple to use, yet expressive enough to fit a variety of needs. Features include
+
+* Component driven design
+* Configurable point lights
+* Camera specific ambient light
+* Single camera rendering
+
+bevy_light_2d: https://github.com/jgayfer/bevy_light_2d
+
+### [bevy_hanabi][bevy_hanabi] 0.11
+
+![trails in Bevy Hanabi](bevy_hanabi_trails.gif)
+_bevy hanabi trails_
+
+bevy_hanabi is a GPU particle system plugin for the Bevy game engine. The most notable new feature in [bevy_hanabi 0.11](bevy_hanabi_0_11) is supports is a new trails and ribbons.
+
+There is a migration guide and a changelog.
+
+[bevy_hanabi]: https://crates.io/crates/bevy_hanabi
+[bevy_hanabi_0_11]: https://crates.io/crates/bevy_hanabi/0.11.0
+
+### [glam][glam] 0.28
+
+glam is a foundational crate when it comes to the Bevy ecosystem. This is probably most visible in the Vec types Bevy consumes and re-exports, like Vec3.
+
+v0.28 brings AArch64 NEON SIMD support as well as a couple smaller breaking changes.
+
+[glam]: https://github.com/bitshifter/glam-rs
+
+### [berdicles][berdicles]
+
+![berdicles particles](berdicles.avif)
+_berdicles_
+
+berdicles is an expressive CPU particle system for the Bevy engine. Features include
+
+* Instancing based CPU particles.
+* Expressive non-physics based particle traits.
+* Familiar setup with bevy's native Material and Mesh.
+* Particles as emitters.
+* Mesh based particle trails.
+* Particle events that spawns other particles.
+* Billboard particles.
+* The crate is compatible with Bevy 0.14+.
+
+[berdicles]: https://github.com/mintlu8/berdicles
+
 
 ### Other Library Updates and Releases
 
