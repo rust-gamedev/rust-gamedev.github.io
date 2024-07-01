@@ -416,6 +416,21 @@ _Discussions: [lobste.rs](https://lobste.rs/s/dsqumn/dioxus_labs_high_level_rust
 [dioxus-labs]: https://dioxuslabs.com/
 [leaving-post]: https://loglog.games/blog/leaving-rust-gamedev/
 
+### Virtual Geometry in Bevy 0.14
+
+![The Stanford bunny split into meshlets](meshlets.jpg)  
+_The Stanford bunny split into meshlets_
+
+Ever wondered how [Unreal 5's Nanite][nanite] works under the hood? 
+Jasmine, who reimplemented the virtual geometry technology for Bevy's upcoming 0.14 release,
+wrote a [post][meshlets-post] explaining the concepts and the nitty-gritty details of the implementation.
+The post is very technical in nature, so if you've never heard of this technology before, 
+they recommend you first watch Brian Karis' SIGGRAPH 2021 lecture [A Deep Dive into Nanite Virtualized Geometry][nanite-talk] ([slides][nanite-slides]).
+
+[nanite]: https://dev.epicgames.com/documentation/en-us/unreal-engine/nanite-virtualized-geometry-in-unreal-engine
+[meshlets-post]: https://jms55.github.io/posts/2024-06-09-virtual-geometry-bevy-0-14/
+[nanite-talk]: https://www.youtube.com/watch?v=eviSykqSUUw
+[nanite-slides]: https://advances.realtimerendering.com/s2021/Karis_Nanite_SIGGRAPH_Advances_2021_final.pdf
 
 ## Jobs
 
