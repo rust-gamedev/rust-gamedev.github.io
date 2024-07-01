@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        
+    <title>This Month in Rust GameDev #33 - April 2022 | Rust GameDev WG</title>
+
+    <meta property="og:title" content="This Month in Rust GameDev #33 - April 2022">
+    <meta property="og:url" content="https:&#x2F;&#x2F;gamedev.rs&#x2F;news&#x2F;033&#x2F;">
+    <meta property="og:description" content="Welcome to the 33rd issue of the Rust GameDev Workgroup’s
+monthly newsletter.
+Rust is a systems lang…">
+    <meta property="og:type" content="article">
+    <link rel="canonical" href="https:&#x2F;&#x2F;gamedev.rs&#x2F;news&#x2F;033&#x2F;">
+
+    
+        <meta property="article:published_time" content="2022-05-14T00:00:00+00:00">
+    
+
+
+        <meta property="og:image" content="https://gamedev.rs/logo.png">
+        <meta property="og:image:width" content="200">
+        <meta property="og:image:height" content="200">
+        <meta property="og:site_name" content="Rust GameDev WG">
+
+        <link rel="stylesheet" href="https://gamedev.rs/style.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="https://gamedev.rs/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://gamedev.rs/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://gamedev.rs/favicon-16x16.png">
+        <link rel="manifest" href="https://gamedev.rs/site.webmanifest">
+    
+        
+    
+        </head>    
+
+    <body>
+        <header class="site-header">
+    <div class="wrapper">
+        <a class="site-title" rel="author" href="/">
+            <img src="https://gamedev.rs/logo_small.png" width="48" height="48" alt="" />
+            Rust GameDev WG
+        </a>
+
+        
+        
+    </div>
+</header>
+
+
+        <main class="page-content" aria-label="Content">
+            
+    <article class="post h-entry wrapper" itemscope itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+            <h1 class="post-title p-name" itemprop="name headline">This Month in Rust GameDev #33 - April 2022</h1>
+            <p class="post-meta">
+                
+                    <time class="dt-published" datetime="2022-05-14T00:00:00+00:00" itemprop="datePublished">
+                        
+                        2022-05-14
+                    </time>
+                
+                
+            </p>
+        </header>
+
+        <div class="post-content e-content" itemprop="articleBody">
+            <!-- no toc -->
+<!-- Check the post with markdownlint-->
+<p>Welcome to the 33rd issue of the Rust GameDev Workgroup’s
+monthly newsletter.
+<a href="https://rust-lang.org">Rust</a> is a systems language pursuing the trifecta:
+safety, concurrency, and speed.
+These goals are well-aligned with game development.
+We hope to build an inviting ecosystem for anyone wishing
+to use Rust in their development process!
+Want to get involved? <a href="https://github.com/rust-gamedev/wg#join-the-fun">Join the Rust GameDev working group!</a></p>
+<p>You can follow the newsletter creation process
+by watching <a href="https://github.com/rust-gamedev/rust-gamedev.github.io/issues?q=label%3Acoordination">the coordination issues</a>.
+Want something mentioned in the next newsletter?
+<a href="https://github.com/rust-gamedev/rust-gamedev.github.io">Send us a pull request</a>.
+Feel free to send PRs about your own projects!</p>
+<ul>
+<li><a href="https://gamedev.rs/news/033/#announcements">Announcements</a></li>
+<li><a href="https://gamedev.rs/news/033/#game-updates">Game Updates</a></li>
+<li><a href="https://gamedev.rs/news/033/#engine-updates">Engine Updates</a></li>
+<li><a href="https://gamedev.rs/news/033/#learning-material-updates">Learning Material Updates</a></li>
+<li><a href="https://gamedev.rs/news/033/#tooling-updates">Tooling Updates</a></li>
+<li><a href="https://gamedev.rs/news/033/#library-updates">Library Updates</a></li>
+<li><a href="https://gamedev.rs/news/033/#other-news">Other News</a></li>
+<li><a href="https://gamedev.rs/news/033/#requests-for-contribution">Requests for Contribution</a></li>
+<li><a href="https://gamedev.rs/news/033/#jobs">Jobs</a></li>
+</ul>
+<!--
+Ideal section structure is:
+
+```
+### [Title]
+
+![image/GIF description](image link)
+_image caption_
+
+A paragraph or two with a summary and [useful links].
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/todo),
+[twitter](https://twitter.com/todo/status/123456)_
+
+[Title]: https://first.link
+[useful links]: https://other.link
+```
+
+If needed, a section can be split into subsections with a "------" delimiter.
+-->
+<h2 id="announcements">Announcements&nbsp;<a class="anchor" href="#announcements" aria-hidden="true">#</a>
+</h2>
+<h3 id="rust-gamedev-meetup">Rust GameDev Meetup&nbsp;<a class="anchor" href="#rust-gamedev-meetup" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/033/gamedev-meetup.png" alt="Gamedev meetup poster" /></p>
+<p>The 15th Rust Gamedev Meetup took place in April. You can watch the recording of
+the meetup <a href="https://youtu.be/okWFrfaaADs">here on Youtube</a>. The meetups take place on
+the second Saturday every month via the <a href="https://discord.gg/yNtPTb2">Rust Gamedev Discord
+server</a> and are also <a href="https://twitch.tv/rustgamedev">streamed on
+Twitch</a>. If you would like to show off what you’ve been
+working on at the next meetup on <a href="https://everytimezone.com/s/1baaa280">May 14th</a>, fill out <a href="https://forms.gle/BS1zCyZaiUFSUHxe6">this
+form</a>.</p>
+<h3 id="rust-graphics-meetup-2">Rust Graphics Meetup 2&nbsp;<a class="anchor" href="#rust-graphics-meetup-2" aria-hidden="true">#</a>
+</h3>
+<p>The 2nd Rust Graphics Meetup will take place on the <a href="https://everytimezone.com/s/b6ec5c17">21st of May, at 16:00
+UTC+0</a>. This meetup is a chance to show off what you’ve
+been working on in the graphics community, or see what other people have been
+doing!</p>
+<p>If you’re interested in speaking, please fill out the
+<a href="https://forms.gle/DyvZ4WFZanTaLGGa7">form</a>. You can also <a href="https://www.youtube.com/watch?v=F0wGz5UJTrY">watch one of the
+talks</a> from the first meetup.</p>
+<h3 id="rustconf-arcade-cabinet">RustConf Arcade Cabinet&nbsp;<a class="anchor" href="#rustconf-arcade-cabinet" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/033/arcade_cabinet.gif" alt="arcade cabinet" /></p>
+<p><a href="https://twitter.com/carlosupina">Carlo</a> is building a custom arcade cabinet that will be at
+RustConf 2022 in Portland. It is an opportunity for Rust game developers to
+share their games with the broader community. If you are interested in getting
+your game on the cabinet, read <a href="https://twitter.com/carlosupina/status/1523715837726961664">this Twitter thread</a> and
+fill out the <a href="https://forms.gle/onFm5fCygdbiArqJ7">interest form</a>.</p>
+<h2 id="game-updates">Game Updates&nbsp;<a class="anchor" href="#game-updates" aria-hidden="true">#</a>
+</h2>
+<h3 id="way-of-rhea"><a href="https://store.steampowered.com/app/1110620/Way_of_Rhea/?utm_campaign=tmirgd&amp;utm_source=n33">Way of Rhea</a>&nbsp;<a class="anchor" href="#way-of-rhea" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/033/wor-capsule.jpg" alt="way of rhea capsule image" /></p>
+<p><a href="https://store.steampowered.com/app/1110620/Way_of_Rhea/?utm_campaign=tmirgd&amp;utm_source=n33">Way of Rhea</a> is a puzzle adventure with hard puzzles and forgiving
+mechanics being produced by <a href="https://twitter.com/masonremaley">@masonremaley</a> in a custom Rust
+engine. It has a demo available <a href="https://store.steampowered.com/app/1110620/Way_of_Rhea/?utm_campaign=tmirgd&amp;utm_source=n33">on Steam</a>.</p>
+<p>Way of Rhea was recently <a href="https://twitter.com/AnthropicSt/status/1517129411790843905">shown off at PAX East!</a> A <a href="https://steamcommunity.com/games/1110620/announcements/detail/3175611379276019942?utm_campaign=tmirgd&amp;utm_source=n32&amp;utm_content=news">minor
+patch</a> has been released to the demo with post-PAX fixes:</p>
+<ul>
+<li>An issue that made the last puzzle in the third forest level difficult to
+navigate with a controller was worked around</li>
+<li>Colliders in the Hermes puzzle were fixed (previously you could land on top of
+a gate if you held left while sliding)</li>
+<li>The attract mode that was used at PAX has been merged (not in demo)</li>
+<li>More jungle biome scenery has been placed (not in demo)</li>
+<li>A crash at startup on CPUs that don’t support the <code>andn</code> instruction was fixed
+(part of the BMI extension to x64)</li>
+<li>The game can now generate mini dumps on Windows and Linux in the event that it
+crashes and if given consent, forward them to the developer for analysis</li>
+</ul>
+<p>You can stay up to date with the latest Way of Rhea developments by <a href="https://store.steampowered.com/app/1110620/Way_of_Rhea/?utm_campaign=tmirgd&amp;utm_source=n33">following
+it on Steam</a>, signing up for <a href="https://www.anthropicstudios.com/newsletter/signup">their mailing list</a>, or
+joining <a href="https://discord.gg/JGeVt5XwPP">their Discord</a>.</p>
+<h3 id="bitgun">BITGUN&nbsp;<a class="anchor" href="#bitgun" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/033/bitgun-release-optimized.gif" alt="BITGUN gameplay" />
+<em>BITGUN gameplay</em></p>
+<p><a href="https://store.steampowered.com/app/1673940/BITGUN/">BITGUN</a> (<a href="https://discord.com/invite/XrGZQkq">Discord</a>, <a href="https://twitter.com/LogLogGames">Twitter</a>) by <a href="https://github.com/darthdeus">@darth</a> and <a href="https://github.com/shosanna">@shosanna</a> is an action
+roguelite zombie shooter with difficult and satisfying combat you can learn and
+master. Guns break quickly and you lose all your gear when you die.</p>
+<p>The game was just released on Steam! It has been developed by a programming duo
+called LogLog Games. They have been working on it for the past year and it is
+their biggest game so far (they also have 2 smaller games). <a href="https://store.steampowered.com/app/1673940/BITGUN/">BITGUN</a> is written
+in Godot Engine but it is using Rust language extensively (it has around 7500
+lines of Rust and 4200 lines of GDScript).</p>
+<p>The main changes from the demo version of the game:</p>
+<ul>
+<li>New missions added with extra difficulty</li>
+<li>Improved AI which doesn’t just chase the player but behaves unpredictably</li>
+<li>New zombie types - ranged zombie, big spider, zombie spawner</li>
+<li>Added comic-book style story</li>
+<li>Improved tutorial and new player experience</li>
+<li>Reworked inventory system with simplified armor</li>
+</ul>
+<p><em>Discussion: <a href="https://www.reddit.com/r/rust/comments/uepde7/after_working_on_our_godot_rust_game_fulltime_for/">/r/rust</a></em></p>
+<h3 id="veloren"><a href="https://veloren.net">Veloren</a>&nbsp;<a class="anchor" href="#veloren" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/033/veloren.jpg" alt="Riding at night" />
+<em>Out for a ride at night</em></p>
+<p><a href="https://veloren.net">Veloren</a> is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.</p>
+<p>For April Fool’s day, Veloren made a post about a new direction; <a href="https://veloren.net/veloren-direction/">Need for
+Voxels: Veloren Cart</a>. Enjoy the read! Veloren also participated
+in Reddit’s /r/place, and got a small place right below /r/rust. Several months
+of project finances were processed, and <a href="https://veloren.net/devblog-167#finances-by-angelonfira">discussed in a blog
+post</a>. The <a href="https://www.youtube.com/watch?v=ff9EXhCXmFY">Veloren Reading Club saw its 8th
+episode</a>, which was on the topic of graphics and
+particles. A <a href="https://www.youtube.com/watch?v=keI0VpjkgZg">second Veloren Code Review session</a> was
+held, in which two developers went through a merge request that focused on
+combat numbers.</p>
+<p>Work was done to improve how loadouts work, specifically surrounding inheritance
+from other configs. Tweaks were made to arthropods, which should make them more
+fun to fight. Work is being done to prepare for the 0.13 release, with a custom
+map being built, and a special treasure map being created for the launch party.
+Player bank storages are being developed, which will allow players to store
+excess items in towns.</p>
+<p>April’s full weekly devlogs: “This Week In Veloren…”:
+<a href="https://veloren.net/devblog-166">#166</a>,
+<a href="https://veloren.net/devblog-167">#167</a>,
+<a href="https://veloren.net/devblog-168">#168</a>,
+<a href="https://veloren.net/devblog-169">#169</a>.</p>
+<h3 id="oasis-of-lost-hope">Oasis of Lost Hope&nbsp;<a class="anchor" href="#oasis-of-lost-hope" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/033/oasis-of-lost-hope.jpg" alt="Oasis of Lost Hope" /></p>
+<p>Oasis of Lost Hope is a game where fertile ground is steadily consumed by dark,
+barren land called blight. Water helps defend an area from being consumed, but
+reserves are finite. The player needs to collect ore to build more irrigation
+towers and delay doom for a few more seconds. Yet one thing is certain: the days
+of fertile land are counted.</p>
+<p>The game is an entry for the Ludum Dare 50 Jam, the theme of which was “Delay
+the Inevitable”. It has been developed by setzer22 and Bromeon and <a href="https://github.com/Bromeon/LudumDare50">open-sourced
+on GitHub</a>. The game is built on top of godot-rust alongside GDScript.
+The Rust language is not exactly known for fast prototyping, but with a slightly
+less safety-conservative fork of godot-rust, the game jam experience was
+surprisingly smooth. When modeling mechanics such as the expanding blight or the
+water pipe network, Rust really showed its strength as a strongly typed and fast
+language.</p>
+<h3 id="extremely-extreme-sports"><a href="https://kuviman.itch.io/extremely-extreme-sports">Extremely Extreme Sports</a>&nbsp;<a class="anchor" href="#extremely-extreme-sports" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/033/extremely-extreme-sports.gif" alt="Extremely Extreme Sports" /></p>
+<p><a href="https://kuviman.itch.io/extremely-extreme-sports">Extremely Extreme Sports</a> (<a href="https://github.com/kuviman/extremely-extreme-sports">GitHub</a>,
+<a href="https://discord.gg/DZaEMPpANY">Discord</a>) is a multiplayer online downhill racing game <a href="https://ldjam.com/events/ludum-dare/50/extremely-exteme-sports">made for
+Ludum Dare 50 game jam</a>, scored top 3 in fun. Explode the mountain,
+and race against the avalanche as well as your friends.</p>
+<p>Features:</p>
+<ul>
+<li>Online multiplayer</li>
+<li>Character customization</li>
+<li>Emoting</li>
+<li>A little bit of gameplay</li>
+</ul>
+<p>Developed by <a href="https://github.com/kuviman">@kuviman</a> using <a href="https://github.com/kuviman/geng">custom engine</a>. A <a href="https://kuviman.itch.io/extremely-extreme-sports/devlog/372532/extremely-extreme-sports-postmortem">postmortem blog
+post</a> was written about the jam experience, and it includes
+postjam updates.</p>
+<p><em>Discussions: <a href="https://www.reddit.com/r/rust_gamedev/comments/u9zqrc/scored_top_3_in_fun_with_my_ludum_dare_game/">/r/rust_gamedev</a></em></p>
+<h2 id="engine-updates">Engine Updates&nbsp;<a class="anchor" href="#engine-updates" aria-hidden="true">#</a>
+</h2>
+<h3 id="bevy-v0-7"><a href="https://bevyengine.org/news/bevy-0-7">Bevy v0.7</a>&nbsp;<a class="anchor" href="#bevy-v0-7" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/033/bevy_mushroom.jpg" alt="bevy mushroom" />
+<em>Creative Commons ‘Stylized mushrooms’ scene by QumoDone rendered in Bevy.</em></p>
+<p><a href="https://bevyengine.org">Bevy</a> is a refreshingly simple data-driven game engine built in Rust. It
+is <a href="https://github.com/bevyengine/bevy">free and open source</a> forever!</p>
+<p>Bevy 0.7 was a massive community effort. You can check out the <a href="https://bevyengine.org/news/bevy-0-7">full release
+blog post here</a>, but here are some highlights:</p>
+<ul>
+<li><a href="https://bevyengine.org/news/bevy-0-7/#skeletal-animation">Skeletal animation and mesh skinning</a></li>
+<li><a href="https://bevyengine.org/news/bevy-0-7/#gltf-animation-importing">GLTF animation importing</a></li>
+<li><a href="https://bevyengine.org/news/bevy-0-7/#unlimited-point-lights">Unlimited* point lights in a scene</a></li>
+<li><a href="https://bevyengine.org/news/bevy-0-7/#light-clustering-features-and-optimizations">Improved clustered forward rendering: dynamic/adaptive clustering and faster,
+more accurate cluster assignment</a></li>
+<li><a href="https://bevyengine.org/news/bevy-0-7/#compressed-gpu-textures">Compressed texture support (KTX2 / DDS / .basis): load more textures in a
+scene, faster</a></li>
+<li><a href="https://bevyengine.org/news/bevy-0-7/#bevy-native-compute-shaders">Compute shader / pipeline specialization: Bevy’s flexible shader system was
+ported to compute shaders, enabling hot-reloading, shader defs, and shader
+imports</a></li>
+<li><a href="https://bevyengine.org/news/bevy-0-7/#render-to-texture">Render to texture: cameras can now be configured to render to a texture
+instead of a window</a></li>
+<li><a href="https://bevyengine.org/news/bevy-0-7/#flexible-mesh-vertex-layouts">Flexible mesh vertex layouts in shaders</a></li>
+<li><a href="https://bevyengine.org/news/bevy-0-7/#ergonomic-system-ordering">ECS improvements: Order systems using their names, Query::many_mut, use
+conflicting parameters in systems via ParamSets, WorldQuery derives</a></li>
+<li><a href="https://bevyengine.org/news/bevy-0-7/#documentation-improvements">Documentation improvements: better examples, more doc tests, and more
+coverage</a></li>
+<li><a href="https://bevyengine.org/news/bevy-0-7/#audio-control">More audio control: pause, volume, speed, and looping</a></li>
+<li><a href="https://bevyengine.org/news/bevy-0-7/#eventloop-power-saving-modes">Power usage options to enable only updating Bevy Apps when input
+occurs</a></li>
+</ul>
+<p><em>Discussions:
+<a href="https://www.reddit.com/r/rust/comments/u4e63h/bevy_07/">/r/rust</a>,
+<a href="https://news.ycombinator.com/item?id=31043668">Hacker News</a>,
+<a href="https://twitter.com/cart_cart/status/1515031150313443332">Twitter</a></em></p>
+<h3 id="dims">Dims&nbsp;<a class="anchor" href="#dims" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/033/dims.jpg" alt="dims foliage" />
+<em>Foliage rendering in Dims</em></p>
+<p>Dims is an open-world creation platform.</p>
+<p>In their latest <a href="https://www.youtube.com/watch?v=jgkhsY8aZO8">dev log</a> they demonstrate a new foliage rendering
+and spawning system, which automatically spawns foliage and trees based on
+“habitat rules”. This means a user can simply “paint” a world and it will get
+populated with plants and rocks automatically.</p>
+<p>They are also planning to host a screenshot competition in the next few weeks
+for anyone who would like to try out the platform and create their own
+landscapes. Sign up for the newsletter on their website to get notified when it
+starts!</p>
+<p><em>Discussions:
+<a href="https://www.reddit.com/r/rust_gamedev/comments/ujhr3c/the_start_of_a_tool_that_lets_you_tweak_how_and/">Foliage rendering on reddit</a>,
+<a href="https://www.reddit.com/r/rust_gamedev/comments/tuj9dg/far_from_finished_but_heres_our_terrain_tool/">Erosion tool on reddit</a></em></p>
+<h3 id="eldiron"><a href="https://www.eldiron.com">Eldiron</a>&nbsp;<a class="anchor" href="#eldiron" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/033/eldiron_screen.png" alt="Eldiron Image" />
+<em>Behavior Nodes of Eldiron</em></p>
+<p><a href="https://www.eldiron.com">Eldiron</a> (<a href="https://github.com/markusmoenig/Eldiron">GitHub</a>, <a href="https://discord.gg/ZrNj6baSZU">Discord</a>,
+<a href="https://twitter.com/MarkusMoenig">Twitter</a>) by <a href="https://github.com/markusmoenig">@markusmoenig</a> is a creator for classic role
+playing games (RPGs) written in Rust.</p>
+<p>Eldiron v0.5 features inbuild tilemaps, a node-based behavior system and region
+editors.</p>
+<p>Development Updates in April:</p>
+<ul>
+<li>Support for 4 layers of tiles for game regions. This enables transparency and
+support for top-down and isometric views.</li>
+<li>Game regions can now contain named areas.</li>
+<li>Areas can contain behavior nodes to spawn monsters, lay traps, or displace
+tiles (for example to open a door).</li>
+<li>New “Systems” module to create behavior for Combat and soon for Crafting,
+Magic and more. System behavior trees can be called from any character.</li>
+</ul>
+<p>Eldiron v1 will be able to create any kind of RPG utilizing square tiles, like
+the classical Ultima series.</p>
+<h3 id="hotham"><a href="https://github.com/leetvr/hotham">Hotham</a>&nbsp;<a class="anchor" href="#hotham" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/033/hotham.png" alt="Hotham Image" />
+<em>Screenshot from The Station, an upcoming space station simulation game, built
+with Hotham</em></p>
+<p><a href="https://github.com/leetvr/hotham">Hotham</a> is a game engine for standalone VR devices, trying to make VR
+development just a little bit less painful.</p>
+<p>0.2 has been released with some <em>breathtaking</em> maintenance and performance
+improvements that make Hotham marginally easier to use. If you’re interested in
+Rust and VR and haven’t checked out the project already, now is an excellent
+time to do so.</p>
+<p>A huge thank you to our sponsors and contributors (big hat-tip to @jmgao) and
+the wonderful members of the <a href="https://discord.gg/SZEZUX6ZsQ">Hotham discord</a>.</p>
+<h2 id="learning-material-updates">Learning Material Updates&nbsp;<a class="anchor" href="#learning-material-updates" aria-hidden="true">#</a>
+</h2>
+<h3 id="game-development-with-rust-and-webassembly"><a href="https://subscription.packtpub.com/product/game_development/9781801070973">Game Development with Rust and WebAssembly</a>&nbsp;<a class="anchor" href="#game-development-with-rust-and-webassembly" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/033/game-development-rust-webassembly.png" alt="Game Development with Rust and WebAssembly Book Cover" /></p>
+<p><a href="https://subscription.packtpub.com/product/game_development/9781801070973">Game Development with Rust and WebAssembly</a> by Eric Smith (a.k.a
+<a href="https://www.twitter.com/paytonrules">@paytonrules</a>) was published in April. It takes a
+tutorial approach to lead the reader through building an endless runner using
+Rust and WebAssembly. You can play the completed game <a href="https://rust-games-webassembly.netlify.app">here</a>.</p>
+<p>From the summary: This book is an easy-to-follow reference to help you develop
+your own games, teaching you all about game development and how to create an
+endless runner from scratch. You’ll begin by drawing simple graphics in the
+browser window, and then learn how to move the main character across the screen.
+You’ll also create a game loop, a renderer, and more, all written entirely in
+Rust. After getting simple shapes onto the screen, you’ll scale the challenge by
+adding sprites, sounds, and user input. As you advance, you’ll discover how to
+implement a procedurally generated world. Finally, you’ll learn how to keep your
+Rust code clean and organized so you can continue to implement new features and
+deploy your app on the web.</p>
+<p><em>Discussions: <a href="https://www.twitter.com/paytonrules">Twitter</a>, <a href="https://discord.gg/EjAunSbpdV">Discord</a></em></p>
+<h3 id="why-i-choose-to-build-my-game-from-scratch"><a href="https://www.reddit.com/r/rust_gamedev/comments/uewu9h/reasons_why_i_choose_to_build_my_game_from/">Why I choose to build my game from scratch</a>&nbsp;<a class="anchor" href="#why-i-choose-to-build-my-game-from-scratch" aria-hidden="true">#</a>
+</h3>
+<p><a href="https://github.com/HeavyRain266">@HeavyRain266</a> published an article, ‘<a href="https://www.reddit.com/r/rust_gamedev/comments/uewu9h/reasons_why_i_choose_to_build_my_game_from/">Why I choose to build my game from
+scratch</a>’, a short story about their implementation of the game
+‘Forbidden Valley’ from scratch in Rust. The author aims to show how much you
+can learn from building your dream game without the help of any game engine.</p>
+<p><em>Discussions: <a href="https://www.reddit.com/r/rust_gamedev/comments/uewu9h/reasons_why_i_choose_to_build_my_game_from/">r/rust_gamedev</a></em></p>
+<h3 id="brontefy-me"><a href="https://www.youtube.com/watch?v=DdD6VhmEIiU">Brontefy Me</a>&nbsp;<a class="anchor" href="#brontefy-me" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/033/brontefy-me.jpg" alt="devlog logo" /></p>
+<p>@hedgein (<a href="https://github.com/hedgein">GitHub</a>, <a href="https://twitch.tv/hedgein">Twitch</a>) started a devlog
+series called Brontefy Me. This series walks through the development of games in
+the <a href="https://bevyengine.org">Bevy engine</a>. There are two episodes released so far. The <a href="https://www.youtube.com/watch?v=DdD6VhmEIiU">first
+episode</a> focuses on getting up and running with the
+engine, and the <a href="https://www.youtube.com/watch?v=tx31BKX0yIA">second episode</a> starts expanding into
+game mechanics.</p>
+<h2 id="tooling-updates">Tooling Updates&nbsp;<a class="anchor" href="#tooling-updates" aria-hidden="true">#</a>
+</h2>
+<h3 id="vismut-0-5"><a href="https://gitlab.com/vismut-org/vismut/-/releases/v0.5.0">Vismut 0.5</a>&nbsp;<a class="anchor" href="#vismut-0-5" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/033/vismut.png" alt="Logo" /></p>
+<p><a href="https://gitlab.com/vismut-org/vismut">Vismut</a> (<a href="https://gitlab.com/vismut-org/vismut">GitLab</a>, <a href="https://vismut.zulipchat.com">Zulip</a>) by <a href="https://gitlab.com/lukors">@lukors</a> will be a
+procedural texturing tool.</p>
+<p><a href="https://gitlab.com/vismut-org/vismut/-/releases/v0.5.0">Version 0.5</a> contains a brand new backend to create a better base
+for future improvements. A <a href="https://orsvarn.com/vismut-architecture/">blog post</a> describes the differences
+between the old and the new architecture.</p>
+<h3 id="graphite"><a href="https://graphite.rs">Graphite</a>&nbsp;<a class="anchor" href="#graphite" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/033/graphite.png" alt="Graphite" /></p>
+<p>Graphite (<a href="https://graphite.rs">website</a>, <a href="https://github.com/GraphiteEditor/Graphite">GitHub</a>,
+<a href="https://discord.graphite.rs">Discord</a>, <a href="https://twitter.com/GraphiteEditor">Twitter</a>) is a free
+in-development raster and vector 2D graphics editor. It will be powered by a
+node graph compositing engine that supercharges your layer stack, providing a
+completely non-destructive editing experience.</p>
+<p>The past month’s Sprint 14 has focused on further editor features and UX
+improvements:</p>
+<ul>
+<li>
+<p><strong>It’s your type:</strong> The Text tool now provides over 1400 fonts with
+bold/italic styles from the Google Fonts library.</p>
+</li>
+<li>
+<p><strong>Oh snap!:</strong> A refactor and polish pass on the snapping system provides
+better clarity and consistency. And shapes now have outlines on hover and
+selection for easier targeting.</p>
+</li>
+<li>
+<p><strong>Have a dialog:</strong> Supported by a refactor that moved dialog layouts into the
+Rust backend, users can now create new documents of specified sizes and export
+artwork as PNG/JPG with new File menu dialogs.</p>
+</li>
+<li>
+<p><strong>Pack it up:</strong> The web component of the stack was finally upgraded to Webpack
+5 which cleans up a mess of outdated dependencies.</p>
+</li>
+</ul>
+<p><a href="https://editor.graphite.rs">Open the editor</a> in your browser and give it a try.</p>
+<h2 id="library-updates">Library Updates&nbsp;<a class="anchor" href="#library-updates" aria-hidden="true">#</a>
+</h2>
+<h3 id="notan-v0-3-0"><a href="https://github.com/Nazariglez/notan">Notan v0.3.0</a>&nbsp;<a class="anchor" href="#notan-v0-3-0" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/033/notan.jpeg" alt="notan" /></p>
+<p><a href="https://github.com/Nazariglez/notan">Notan</a> is a simple and portable layer designed to create your own multimedia
+apps on top of it without worrying about platform-specific code.</p>
+<p>The main goal is to provide a set of APIs and tools that can be used to create
+your project in an ergonomic manner without enforcing any structure or pattern,
+always trying to stay out of your way. The idea is that you can use it as a
+foundation layer or backend for your next app, game engine, or game.</p>
+<p>The latest version <a href="https://github.com/Nazariglez/notan/releases/tag/v0.3.0">v0.3.0</a> comes with audio support for all platforms using as
+default backend <a href="https://github.com/Ralith/oddio">oddio</a> and <a href="https://github.com/pdeljanov/Symphonia">symphonia</a>.</p>
+<h2 id="other-news">Other News&nbsp;<a class="anchor" href="#other-news" aria-hidden="true">#</a>
+</h2>
+<!-- One-liners for plan items that haven't got their own sections. -->
+<ul>
+<li>Other game updates:
+<ul>
+<li><a href="https://ianjk.com/ld50">Last of the Sky Folk</a> is a grapple-hook based
+platformer created for LD50.</li>
+<li><a href="https://eira-hx.itch.io/heute-nicht">Heute Nicht</a> rythm game is another LD50 submission.</li>
+</ul>
+</li>
+<li>Other learning material updates
+<ul>
+<li>PhaestusFox started a <a href="https://reddit.com/r/rust_gamedev/comments/tz75eb/bevy_game_engine_tutorial_series">Bevy tutorial servies</a> and <a href="https://reddit.com/r/rust_gamedev/comments/u4uhs2/bevy_06_to_07_migration_guide">0.6 to
+0.7 Migration Guide</a> YouTube series.</li>
+<li><a href="https://twitter.com/TantanDev">@TantanDev</a> released a <a href="https://youtube.com/watch?v=jkHqrkcEHRc">“Rust multi-threading code review”</a>
+video.</li>
+</ul>
+</li>
+<li>Other library updates:
+<ul>
+<li><a href="https://github.com/sanbox-irl/tween">tween</a> is an std-optional tweening
+library, designed for use in games and animations.</li>
+<li><a href="https://github.com/sanbox-irl/cosync">cosync</a> provides a single-threaded,
+sequential, parameterized async runtime.</li>
+<li><a href="https://github.com/Sorenon/Action-System">SuInput</a> is an input system
+designed to give pancake and XR applications access to a huge range of input
+devices while minimizing the amount of complexity needed to support them.</li>
+<li><a href="https://reddit.com/r/rust_gamedev/comments/u7acfc/update_on_bevy_blender_releasing_v02_and_inquiry">bevy_blender v0.2</a> with lots of new features is out.</li>
+</ul>
+</li>
+</ul>
+<h2 id="requests-for-contribution">Requests for Contribution&nbsp;<a class="anchor" href="#requests-for-contribution" aria-hidden="true">#</a>
+</h2>
+<ul>
+<li><a href="https://github.com/GraphiteEditor/Graphite/issues/202">Graphite is looking for contributors</a> to help build the
+new node graph and 2D rendering systems.</li>
+<li><a href="https://github.com/rust-windowing/winit/issues?q=is%3Aopen+is%3Aissue+label%3A%22difficulty%3A+easy%22">winit’s “difficulty: easy” issues</a>.</li>
+<li><a href="https://github.com/HouraiTeahouse/backroll-rs/issues">Backroll-rs, a new networking library</a>.</li>
+<li><a href="https://github.com/search?q=user:EmbarkStudios+state:open">Embark’s open issues</a> (<a href="https://embark.rs">embark.rs</a>).</li>
+<li><a href="https://github.com/gfx-rs/wgpu/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22">wgpu’s “help wanted” issues</a>.</li>
+<li><a href="https://github.com/phaazon/luminance-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22low+hanging+fruit%22">luminance’s “low hanging fruit” issues</a>.</li>
+<li><a href="https://github.com/ggez/ggez/labels/%2AGOOD%20FIRST%20ISSUE%2A">ggez’s “good first issue” issues</a>.</li>
+<li><a href="https://gitlab.com/veloren/veloren/issues?label_name=beginner">Veloren’s “beginner” issues</a>.</li>
+<li><a href="https://github.com/amethyst/amethyst/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">Amethyst’s “good first issue” issues</a>.</li>
+<li><a href="https://github.com/a-b-street/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">A/B Street’s “good first issue” issues</a>.</li>
+<li><a href="https://github.com/mun-lang/mun/labels/good%20first%20issue">Mun’s “good first issue” issues</a>.</li>
+<li><a href="https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue">SIMple Mechanic’s good first issues</a>.</li>
+<li><a href="https://github.com/bevyengine/bevy/labels/D-Good-First-Issue">Bevy’s “good first issue” issues</a>.</li>
+</ul>
+<h2 id="jobs">Jobs&nbsp;<a class="anchor" href="#jobs" aria-hidden="true">#</a>
+</h2>
+<ul>
+<li><a href="https://www.dims.co/jobs">DIMS</a>
+(Stockholm/Remote)
+<ul>
+<li>Tools Programmer</li>
+<li>Internship: Game Design</li>
+</ul>
+</li>
+<li><a href="https://careers.embark-studios.com/jobs">Embark Studios</a>
+(Stockholm/Hybrid Remote)
+<ul>
+<li>Various roles</li>
+</ul>
+</li>
+</ul>
+<hr />
+<p>That’s all news for today, thanks for reading!</p>
+<p>Want something mentioned in the next newsletter?
+<a href="https://github.com/rust-gamedev/rust-gamedev.github.io">Send us a pull request</a>.</p>
+<p>Also, subscribe to <a href="https://twitter.com/rust_gamedev">@rust_gamedev on Twitter</a>
+or <a href="https://reddit.com/r/rust_gamedev">/r/rust_gamedev subreddit</a> if you want to receive fresh news!</p>
+<!--
+TODO: Add real links and un-comment once this post is published
+**Discuss this post on**:
+[/r/rust_gamedev](TODO),
+[Twitter](TODO),
+[Discord](https://discord.gg/yNtPTb2).
+-->
+
+        </div>
+
+        
+
+        <a class="u-url" href="https:&#x2F;&#x2F;gamedev.rs&#x2F;news&#x2F;033&#x2F;" hidden></a>
+    </article>
+
+        </main>
+
+        <footer class="site-footer h-card">
+    <data class="u-url" href="https://gamedev.rs"></data>
+
+    <div class="wrapper">
+
+        <div class="footer-col-wrapper">
+            <div class="footer-col one-half">
+                <h2 class="footer-heading">Rust GameDev WG</h2>
+                
+                
+                    <p>Stay up to date with the progress and recent developments in the Rust Game Development Working Group.</p>
+                
+            </div>
+
+            <div class="footer-col one-half">
+                <ul class="social-links">
+    
+    
+    
+    <li><a href="https://github.com/rust-gamedev" title="rust-gamedev"><svg class="svg-icon grey"><use xlink:href="https://gamedev.rs/minima-social-icons.svg#github"></use></svg> GitHub (rust-gamedev)</a></li>
+    
+    
+    
+    
+    <li><a href="https://twitter.com/rust_gamedev" title="rust_gamedev"><svg class="svg-icon grey"><use xlink:href="https://gamedev.rs/minima-social-icons.svg#twitter"></use></svg> Twitter (rust_gamedev)</a></li>
+    
+    
+    
+    
+    <li><a href="https://discord.gg/j6QJsMd" title="Discord"><svg class="svg-icon grey"><use xlink:href="https://gamedev.rs/minima-social-icons.svg#discord"></use></svg> Discord (#wg-gamedev)</a></li>
+    <li><a href="https://gamedev.rs/rss.xml" title="RSS"><svg class="svg-icon grey"><use xlink:href="https://gamedev.rs/minima-social-icons.svg#rss"></use></svg> RSS feed</a></li>
+</ul>
+
+            </div>
+        </div>
+
+    </div>
+
+</footer>
+
+    </body>
+</html>

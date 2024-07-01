@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" height="450" width="1355">
+  <filter id="dropshadow" height="130%">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="8"/>
+    <feOffset dx="2" dy="2" result="offsetblur"/>
+    <feComponentTransfer>
+      <feFuncA type="linear" slope="0.8"/>
+    </feComponentTransfer>
+    <feMerge> 
+      <feMergeNode/> 
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+  
+<g transform="translate(20 20)">
+<path style="fill:#2D2D2D;filter:url(#dropshadow)" d="M0 20C0 8.95431 8.95431 0 20 0H380C391.046 0 400 8.95431 400 20V400H0V20Z"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M184.333 260.321H179.351H166.508V240.393V55H112.482V240.393V260.321H94.6573V400H184.333V260.321Z" fill="white" fill-opacity="0.09"/>
+<path d="M0 55H46.9412V240.393V260.321H59.7836H64.7655V400H0V55Z" fill="white" fill-opacity="0.09" />
+<path fill-rule="evenodd" clip-rule="evenodd" d="M304.343 260.321H299.361H286.518V240.393V55H232.492V240.393V260.321H214.667V400H304.343V260.321ZM334.234 400H399V55H352.059V240.393V260.321H339.216H334.234V400Z" fill="white" fill-opacity="0.09"/>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="400" height="400">
+<path d="M0 20C0 8.95431 8.95431 0 20 0H380C391.046 0 400 8.95431 400 20V365C400 384.33 384.33 400 365 400H35C15.67 400 0 384.33 0 365V20Z" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask0)">
+<rect x="-78" y="-46" width="575" height="101" fill="#666666"/>
+<circle cx="32" cy="29" r="15" fill="#FF0000"/>
+<circle cx="78" cy="29" r="15" fill="#FFF500"/>
+<circle cx="124" cy="29" r="15" fill="#29AA26"/>
+</g>
+</g>
+
+<g transform="translate(20 -2127) scale(2.5)">
+ 	<g clip-path="url(#spec-left)">
+ 		<use height="100%" width="100%" xlink:href="#code-block"/>
+ 		<use height="100%" width="100%" xlink:href="#code-block" y="284"/>
+	</g>
+    
+</g>
+  <defs id="defs48">
+    <clipPath id="spec-left">
+      <rect x="0" y="881" width="305" height="138" rx="0" fill="#666666"/>
+    </clipPath>
+    <style type="text/css" id="style5503">
+      svg { --code-one: rgba(128,230,25,0.5); --code-two: rgba(229,230,25,0.5); --code-three: rgba(230,25,128,0.5); --code-four: rgba(25,195,230,0.5); } .code-block { -webkit-animation: read 5.5s infinite linear; animation: read 5.5s infinite linear; } .code-block rect { fill: var(--code-one); } .code-block rect:nth-of-type(5) { fill: var(--code-four); } .code-block rect:nth-of-type(8), .code-block rect:nth-of-type(9) { fill: var(--code-two); } .code-block rect:nth-of-type(12) { fill: var(--code-three); } @-webkit-keyframes read { to { -webkit-transform: translate(0, -283.5px); transform: translate(0, -283.5px); } } @keyframes read { to { -webkit-transform: translate(0, -283.5px); transform: translate(0, -283.5px); } }
+    </style>
+    <g class="code-block" id="code-block">
+      <rect ry="0" y="862" x="5" height="7.5" width="150" id="rect5505"/>
+      <rect ry="0" y="874" x="5" height="7.5" width="28" id="rect5507"/>
+      <rect width="54" height="7.5" x="5" y="886" ry="0" id="rect5509"/>
+      <rect ry="0" y="897" x="5" height="7.5" width="148" id="rect5511"/>
+      <rect width="56" height="7.5" x="5" y="909" ry="0" id="rect5513"/>
+      <rect ry="0" y="921" x="5" height="7.5" width="51" id="rect5515"/>
+      <rect width="51" height="7.5" x="5" y="932" ry="0" id="rect5517"/>
+      <rect ry="0" y="944" x="5" height="7.5" width="62" id="rect5519"/>
+      <rect width="74" height="7.5" x="5" y="956" ry="0" id="rect5521"/>
+      <rect ry="0" y="967" x="5" height="7.5" width="84" id="rect5523"/>
+      <rect width="64" height="7.5" x="5" y="979" ry="0" id="rect5525"/>
+      <rect ry="0" y="991" x="5" height="7.5" width="74" id="rect5527"/>
+      <rect width="41" height="7.5" x="5" y="1003" ry="0" id="rect5529"/>
+      <rect ry="0" y="1014" x="5" height="7.5" width="58" id="rect5531"/>
+      <rect width="58" height="7.5" x="5" y="1026" ry="0" id="rect5533"/>
+      <rect ry="0" y="1038" x="5" height="7.5" width="74" id="rect5535"/>
+      <rect width="46" height="7.5" x="5" y="1049" ry="0" id="rect5537"/>
+      <rect ry="0" y="1061" x="5" height="7.5" width="123" id="rect5539"/>
+      <rect width="107" height="7.5" x="5" y="1073" ry="0" id="rect5541"/>
+      <rect ry="0" y="1084" x="5" height="7.5" width="72" id="rect5543"/>
+      <rect ry="0" y="1096" x="5" height="7.5" width="134" id="rect5545"/>
+      <rect width="104" height="7.5" x="5" y="1108" ry="0" id="rect5547"/>
+      <rect ry="0" y="1120" x="5" height="7.5" width="49" id="rect5549"/>
+      <rect width="83" height="7.5" x="5" y="1131" ry="0" id="rect5551"/>
+    </g>
+        <style type="text/css" id="style5503">
+      
+      @-webkit-keyframes read { to { -webkit-transform: translate(0, -283.5px); transform: translate(0, -283.5px); } } 
+      @keyframes read { to { -webkit-transform: translate(0, -283.5px); transform: translate(0, -283.5px); } }
+      
+      h1 {
+      	font-size: 150px;
+        color: #666666;
+        line-height: 1.3;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        transform: translate(400px, 30px);
+        -webkit-transform: translate(400px, 30px);
+        text-shadow:
+          0 1px 0 #565656,
+          0 2px 0 #565656,
+          0 3px 0 #565656,
+          0 4px 0 #565656,
+          0 8px 10px rgba(0, 0, 0, 0.8);
+        animation: rotate ease-in-out 1s infinite alternate;
+      }
+      
+      @keyframes motion_left {
+        0% {
+          transform: transform: translate(50px, -20px);
+          -webkit-transform: translate(50px,-20px);
+        }
+        100% {
+          transform: transform: translate(50px, 0px);
+          -webkit-transform: translate(50px, 0px);
+        }
+      }
+      
+      @keyframes motion_right {
+        0% {
+          transform: translate(0px,0px);
+          -webkit-transform: translate(900px,-315px);
+        }
+        100% {
+          transform: translate(0px,0px);
+          -webkit-transform: translate(900px,-300px);
+        }
+      }
+      
+      .left-container {
+        position: relative;
+        transform: translate(50px, -20px);
+        -webkit-transform: translate(50px,-20px);
+        animation: motion_left ease-in-out 2s infinite alternate;
+      }
+      
+    </style>
+  </defs>
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <div class="container">
+        <div class="left-container">
+          <h1>bevy_midi</h1>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>

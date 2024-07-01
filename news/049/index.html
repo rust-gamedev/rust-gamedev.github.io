@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        
+    <title>This Month in Rust GameDev #49 - August 2023 | Rust GameDev WG</title>
+
+    <meta property="og:title" content="This Month in Rust GameDev #49 - August 2023">
+    <meta property="og:url" content="https:&#x2F;&#x2F;gamedev.rs&#x2F;news&#x2F;049&#x2F;">
+    <meta property="og:description" content="Welcome to the 49th issue of the Rust GameDev Workgroup’s
+monthly newsletter.
+Rust is a systems lang…">
+    <meta property="og:type" content="article">
+    <link rel="canonical" href="https:&#x2F;&#x2F;gamedev.rs&#x2F;news&#x2F;049&#x2F;">
+
+    
+        <meta property="article:published_time" content="2023-11-16T00:00:00+00:00">
+    
+
+
+        <meta property="og:image" content="https://gamedev.rs/logo.png">
+        <meta property="og:image:width" content="200">
+        <meta property="og:image:height" content="200">
+        <meta property="og:site_name" content="Rust GameDev WG">
+
+        <link rel="stylesheet" href="https://gamedev.rs/style.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="https://gamedev.rs/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://gamedev.rs/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://gamedev.rs/favicon-16x16.png">
+        <link rel="manifest" href="https://gamedev.rs/site.webmanifest">
+    
+        
+    
+        </head>    
+
+    <body>
+        <header class="site-header">
+    <div class="wrapper">
+        <a class="site-title" rel="author" href="/">
+            <img src="https://gamedev.rs/logo_small.png" width="48" height="48" alt="" />
+            Rust GameDev WG
+        </a>
+
+        
+        
+    </div>
+</header>
+
+
+        <main class="page-content" aria-label="Content">
+            
+    <article class="post h-entry wrapper" itemscope itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+            <h1 class="post-title p-name" itemprop="name headline">This Month in Rust GameDev #49 - August 2023</h1>
+            <p class="post-meta">
+                
+                    <time class="dt-published" datetime="2023-11-16T00:00:00+00:00" itemprop="datePublished">
+                        
+                        2023-11-16
+                    </time>
+                
+                
+            </p>
+        </header>
+
+        <div class="post-content e-content" itemprop="articleBody">
+            <!-- no toc -->
+<!-- Check the post with markdownlint-->
+<p>Welcome to the 49th issue of the Rust GameDev Workgroup’s
+monthly newsletter.
+<a href="https://rust-lang.org">Rust</a> is a systems language pursuing the trifecta:
+safety, concurrency, and speed.
+These goals are well-aligned with game development.
+We hope to build an inviting ecosystem for anyone wishing
+to use Rust in their development process!
+Want to get involved? <a href="https://github.com/rust-gamedev/wg#join-the-fun">Join the Rust GameDev working group!</a></p>
+<p>You can follow the newsletter creation process
+by watching <a href="https://github.com/rust-gamedev/rust-gamedev.github.io/issues?q=label%3Acoordination">the coordination issues</a>.
+Want something mentioned in the next newsletter?
+<a href="https://github.com/rust-gamedev/rust-gamedev.github.io">Send us a pull request</a>.
+Feel free to send PRs about your own projects!</p>
+<ul>
+<li><a href="https://gamedev.rs/news/049/#announcements">Announcements</a></li>
+<li><a href="https://gamedev.rs/news/049/#game-updates">Game Updates</a></li>
+<li><a href="https://gamedev.rs/news/049/#engine-updates">Engine Updates</a></li>
+<li><a href="https://gamedev.rs/news/049/#learning-material-updates">Learning Material Updates</a></li>
+<li><a href="https://gamedev.rs/news/049/#tooling-updates">Tooling Updates</a></li>
+<li><a href="https://gamedev.rs/news/049/#library-updates">Library Updates</a></li>
+<li><a href="https://gamedev.rs/news/049/#other-news">Other News</a></li>
+</ul>
+<!--
+Ideal section structure is:
+
+```
+### [Title]
+
+![image/GIF description](image link)
+_image caption_
+
+A paragraph or two with a summary and [useful links].
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/todo),
+[twitter](https://twitter.com/todo/status/123456)_
+
+[Title]: https://first.link
+[useful links]: https://other.link
+```
+
+If needed, a section can be split into subsections with a "------" delimiter.
+-->
+<h2 id="announcements">Announcements&nbsp;<a class="anchor" href="#announcements" aria-hidden="true">#</a>
+</h2>
+<p>It’s been a while, huh? This newsletter is coming to you with a delay because
+the project cost too much maintainer burden and was put on hold for a while.
+Since then, we have had some restructuring and are back now, starting this month!
+The exact details will be part of April’s newsletter, scheduled for release on May 3rd (just 5 days from now!)<br />
+See you all then!</p>
+<h2 id="game-updates">Game Updates&nbsp;<a class="anchor" href="#game-updates" aria-hidden="true">#</a>
+</h2>
+<h3 id="graviton-the-great-sand-simulator"><a href="http://s.team/a/2137280">Graviton - The Great Sand Simulator</a>&nbsp;<a class="anchor" href="#graviton-the-great-sand-simulator" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/049/graviton.gif" alt="Graviton Sand Simulator Image" /></p>
+<p><a href="https://www.gravitongame.art/">Graviton - The Great Sand Simulator</a>
+(<a href="https://discord.gg/3MyPaDagsd">Discord</a>, <a href="https://youtube.com/watch?v=X_O90KyEt8o">Youtube</a>)
+by <a href="https://github.com/hakolao">@hakolao</a> is a falling sand simulator in which you can define
+your own interactive sand rules.</p>
+<p>Continuing the developer’s exploration into GPU sand simulation
+the app has been recently taken to another level with a complete rewrite.
+Now, with some <a href="https://docs.gravitongame.art/Tutorial">training</a>,
+you can program your own rules for the sand.
+Many example sands are provided from acid and blood to the classic
+Game of Life.</p>
+<p>Recent updates include:</p>
+<ul>
+<li>Customizable sand with programmable rules.</li>
+<li><a href="https://youtube.com/watch?v=cOPy4Shqn8U">Shape &amp; Mirror Draw Modes</a>.</li>
+<li>New UI, graphics and render modes.</li>
+<li>Gif and Image export.</li>
+<li>Image import.</li>
+</ul>
+<p>You can support the development by purchasing or wishlisting on
+<a href="http://s.team/a/2137280">Steam</a>.</p>
+<h3 id="tunnet"><a href="https://puzzled-squid.itch.io/tunnet">Tunnet</a>&nbsp;<a class="anchor" href="#tunnet" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/049/tunnet.jpg" alt="Tunnet screenshot showcasing the recent visual enhancements" /></p>
+<p>Tunnet (<a href="https://store.steampowered.com/app/2286390/Tunnet">Steam</a>, <a href="https://puzzled-squid.itch.io/tunnet">itch.io</a>) is an upcoming short
+puzzle/exploration game about digging tunnels and building computer networks.</p>
+<p>In August, <a href="https://puzzled-squid.itch.io/tunnet/devlog/580255/devlog-2-optimizations">a new version of the demo build has been released</a>.
+Here are the most notable updates:</p>
+<ul>
+<li>The game is now better optimized to run smoothly on the Steam Deck.</li>
+<li>Some of the textures have been revamped and are now slightly more detailed.</li>
+<li>The animations of the character portraits have been improved.</li>
+<li>Several minor quality-of-life improvements like the ability to sprint have
+been made.</li>
+<li>A basic egui-based crash reporter will now be displayed when the game process
+ends unexpectedly.</li>
+</ul>
+<h3 id="oort"><a href="https://oort.rs">Oort</a>&nbsp;<a class="anchor" href="#oort" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/049/oort.png" alt="Asteroids-like vector graphics with ships and missiles made out of simple geometric forms" />
+<em>A fleet of ships</em></p>
+<p><a href="https://oort.rs">Oort</a> (<a href="https://github.com/rlane/oort3">GitHub</a>, <a href="https://discord.gg/vYyu9EhkKH">Discord</a>) by <a href="https://github.com/rlane">@rlane</a> is a programming
+game where you write Rust code to control spaceships in combat against other
+players. Your code needs to manage the thrusters, guns, missiles, comms, and
+radar of each ship in your fleet. There’s a series of tutorials where you can
+solve key problems one by one, such as leading moving targets or missile
+guidance. The game runs in your browser via WebAssembly.</p>
+<p>Oort has started running weekly tournaments and the AIs have gotten more and more
+sophisticated each time. Check out this recent <a href="https://github.com/rlane/oort3/wiki/Tournament-Writeup-2023%E2%80%9009%E2%80%9011">tournament writeup</a>
+where the top players discuss their strategies.</p>
+<p><em>Discussions: <a href="https://reddit.com/r/rust/comments/167qyn0/oort">r/rust</a></em></p>
+<h3 id="tiny-glade"><a href="https://store.steampowered.com/app/2198150/Tiny_Glade">Tiny Glade</a>&nbsp;<a class="anchor" href="#tiny-glade" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/049/tinyglade.jpg" alt="A vibrant fantasy castle in a lush forest glade" /></p>
+<p><a href="https://store.steampowered.com/app/2198150/Tiny_Glade">Tiny Glade</a> (<a href="https://twitter.com/PounceLight">Twitter</a>)
+is a small relaxing game about doodling castles.</p>
+<p>This month, Tiny Glade was featured in the
+<a href="https://www.gamesradar.com/tiny-glade-fgs-gamescom-2023/">Future Games Show August Showcase</a> with an exclusive new trailer.</p>
+<p>The <a href="https://store.steampowered.com/news/app/2198150/view/3673302243803533512">trailer and a number of accompanying screenshots</a> demonstrate
+recent changes in the game, and especially show off the new global illumination
+and <a href="https://twitter.com/h3r2tic/status/1694442717252661448">dynamic time passage</a>.</p>
+<h3 id="veloren"><a href="https://veloren.net">Veloren</a>&nbsp;<a class="anchor" href="#veloren" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/049/veloren.jpg" alt="Veloren a group of friends" />
+<em>A group of friends</em></p>
+<p><a href="https://veloren.net">Veloren</a> is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.</p>
+<p>In August, Veloren saw a network library update, new locations in the character
+selection screen, the implementation of a new portal graphic, and numerous
+translation updates. Moreover, improvements were made to the airship fixes, loot
+balancing, and group chat issues. There have also been upgrades to the
+dependency, a README update, and tweaks to the buff death message.</p>
+<p>Ongoing projects currently in the works include the addition of Phoenix
+abilities, NPC arenas, frost Giga attacks, compasses, and a banking storage
+system. Other upcoming updates include an enhancement to the windmills, CI
+scripts, saving window size, the selection of a single-player world, the
+addition of lava material, and improvements to the weather network protocol.
+Work is also ongoing on ship movement, pet commands, Terracotta ruins, dwarven
+quarry, coastal towns, clifftown rework, and axe skills. They are also planning
+to implement physics interactions that increase your height when gliding,
+including the introduction of thermal and ridgelines.</p>
+<p>August’s full weekly devlogs: “This Week In Veloren…”: <a href="https://veloren.net/devblog-216">#216</a>.</p>
+<h3 id="cybergate"><a href="https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q">CyberGate</a>&nbsp;<a class="anchor" href="#cybergate" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/049/cybergate.gif" alt="GIF of a player attacking a spherical enemy: one window is active, the other shows the same view but a menu overlay on top" />
+<em>Two client windows controlling the same pawn simultaneously.</em></p>
+<p>CyberGate (<a href="https://youtube.com/channel/UClrsOso3Xk2vBWqcsHC3Z4Q">YouTube</a>, <a href="https://discord.gg/R7DkHqw7zJ">Discord</a>),
+CyberSoul is developing an ambitious multiplayer project,
+utilizing procedural generation and AI to offer a dynamic universe.</p>
+<p>Tech Progress:</p>
+<ul>
+<li>Complete game framework overhaul.</li>
+<li>Addressed engine limitations.</li>
+<li>Upgraded game tools and utilities.</li>
+<li>Introduced Cosmos APIs for universe management.</li>
+<li>Redesigned privacy mechanisms.</li>
+<li>New character authentication system.</li>
+<li>Persistent player data.</li>
+<li>Player Accounts: Login, Register, Verify, Guests.</li>
+</ul>
+<p>Also, this month’s gameplay changes include
+characters remaining active despite a client’s closure
+and saved player inventory, achievements, and settings.</p>
+<h2 id="engine-updates">Engine Updates&nbsp;<a class="anchor" href="#engine-updates" aria-hidden="true">#</a>
+</h2>
+<h3 id="goku"><a href="https://github.com/ladroid/goku">goku</a>&nbsp;<a class="anchor" href="#goku" aria-hidden="true">#</a>
+</h3>
+<p><a href="https://github.com/ladroid/goku">goku</a> (<a href="https://discord.gg/9TAMqdRyED">Discord</a>) by <a href="https://github.com/ladroid">@ladroid</a> is a new 2D Rust game engine
+backed by SDL2. It’s currently compatible with Windows and WASM
+and features <a href="https://lados-organization.gitbook.io/goku">multi-language (Spa, Fra, Ger, Jpn) docs</a>.</p>
+<p>Quick Peek:</p>
+<ul>
+<li>Sprite sheets loading and animation support.</li>
+<li>Basic particle effects.</li>
+<li>Point, spot, and ambient lights.</li>
+<li>UI layer with ready widgets like buttons, checkboxes, and sliders.</li>
+<li>Audio support backed by SDL2 Mixer.</li>
+<li>Gamepad input support.</li>
+<li>Tile system and JSON format for describing scenes.</li>
+<li>Built-in support for parallax backgrounds.</li>
+<li>Simple timing and frame management utils.</li>
+<li>Behavior tree AIs.</li>
+</ul>
+<p><em>Discussions: <a href="https://reddit.com/r/rust/comments/165luwu/intro_goku">/r/rust</a></em></p>
+<h2 id="learning-material-updates">Learning Material Updates&nbsp;<a class="anchor" href="#learning-material-updates" aria-hidden="true">#</a>
+</h2>
+<h3 id="failing-to-build-p2p-multiplayer-pong-with-bevy"><a href="https://youtube.com/watch?v=wpx9qhKEuP8">Failing to build P2P Multiplayer Pong with Bevy</a>&nbsp;<a class="anchor" href="#failing-to-build-p2p-multiplayer-pong-with-bevy" aria-hidden="true">#</a>
+</h3>
+<p><a href="https://youtube.com/watch?v=wpx9qhKEuP8"><img src="https://gamedev.rs/news/049/multiplayer-pong-fail.jpg" alt="multiplayer-pong" /></a></p>
+<p><a href="https://twitter.com/chrisbiscardi">@chrisbiscardi</a> published a <a href="https://youtube.com/watch?v=wpx9qhKEuP8">video</a> covering
+P2P multiplayer games with rollback networking and physics.
+This video dives into what makes it difficult and what parts
+work out of the box before identifying better potential paths to take in the future.</p>
+<p><em>Discussions: <a href="https://hachyderm.io/@chrisbiscardi/110934091254135119">Mastodon</a></em></p>
+<h3 id="mobile-development-with-bevy">Mobile Development with Bevy&nbsp;<a class="anchor" href="#mobile-development-with-bevy" aria-hidden="true">#</a>
+</h3>
+<p><a href="https://mastodon.online/@nikl_me">@Nikl</a> published two blog posts on the topic of mobile development
+using Bevy. <a href="https://nikl.me/blog/2023/notes_on_mobile_development_with_bevy_2">The first post</a> concentrates on getting
+builds ready for the Apple and Google App stores. It outlines how to
+use the tool <a href="https://github.com/rust-mobile/xbuild/">x-build</a> to create Android App bundles and some
+required changes to get iOS builds accepted by the App store.</p>
+<p><a href="https://nikl.me/blog/2023/github_workflow_to_publish_android_app">A second post</a> documents how to set up and configure
+a GitHub workflow to automate releases of a Bevy application to the
+Google Play Store.</p>
+<h2 id="tooling-updates">Tooling Updates&nbsp;<a class="anchor" href="#tooling-updates" aria-hidden="true">#</a>
+</h2>
+<h3 id="space-editor"><a href="https://github.com/rewin123/space_editor">Space editor</a>&nbsp;<a class="anchor" href="#space-editor" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/049/space_editor.png" alt="Space editor window with opened level" /></p>
+<p><a href="https://github.com/rewin123/space_editor">Space editor</a> is an editor designed for Bevy engine
+that simplifies level and object template creation. Here are its key features:</p>
+<ul>
+<li>Intuitive UI is built on top of bevy-inspector-egui and egui-gizmo
+to easy objects manipulate.</li>
+<li>It supports the bevy_xpbd physics library,
+making customizing collider positions faster than ever.</li>
+<li>Run your levels directly from the editor.
+This enables quick and efficient development iteration.</li>
+<li>Save your levels and object templates in the standard Bevy scene format
+and spawn in game with just one line of code.</li>
+<li>Many custom structures that allow you to customize saved scenes
+equally conveniently, both via gui and directly editing the saved text file.</li>
+</ul>
+<p>The <a href="https://github.com/rewin123/space_editor">Github project</a> is free for use
+and open to contributions from everyone, be it with suggestions, bugs or PRs.</p>
+<h2 id="library-updates">Library Updates&nbsp;<a class="anchor" href="#library-updates" aria-hidden="true">#</a>
+</h2>
+<h3 id="dexterous-developer"><a href="https://github.com/lee-orr/dexterous_developer">Dexterous Developer</a>&nbsp;<a class="anchor" href="#dexterous-developer" aria-hidden="true">#</a>
+</h3>
+<p><a href="https://github.com/lee-orr/dexterous_developer">Dexterous Developer</a> by <a href="https://github.com/lee-orr">@lee-orr</a>
+is an experimental hot-reload system for the <a href="https://bevyengine.org">Bevy</a> game engine.
+Features:</p>
+<ul>
+<li>Define the reloadable areas of your game explicitly - which can include
+systems, components, and resources (with some limitations).</li>
+<li>Reset resources to a default or pre-determined value upon reload.</li>
+<li>Serialize/deserialize your reloadable resources &amp; components, allowing you to
+evolve their schemas so long as they are compatible with the de-serializer.</li>
+<li>Mark entities to get removed on hot reload.</li>
+<li>Run systems after hot-reload.</li>
+<li>Create functions to set up &amp; tear down upon either entering/exiting a state
+or on hot reload.</li>
+<li>Only includes any hot reload capacity in your build
+when you explicitly enable it - such as by using the CLI launcher.</li>
+<li>Cross-platform/cross-device hot reload - run a “hot reload server”
+on a dev environment, and execute the application elsewhere.</li>
+</ul>
+<p>The library is quite new and currently known issues include:
+mobile/WASM support and the need to pre-define events &amp; states.</p>
+<h3 id="nanogltf"><a href="https://github.com/not-fl3/nanogltf">nanogltf</a>&nbsp;<a class="anchor" href="#nanogltf" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/049/nanogltf-helmet.gif" alt="The “DamagedHelmet” sample model" />
+<em>nanogltf+miniquad glTF viewer</em></p>
+<p><a href="https://github.com/not-fl3/nanogltf">nanogltf</a> by <a href="https://github.com/not-fl3">@not-fl3</a> is a minimalist <a href="https://reddit.com/r/rust/comments/hfru5a/nanoserde_cut_50s_of_build_time">nanoserde</a>-based <a href="https://khronos.org/gltf">glTF</a>
+parser library that can load most of the glTF’s <a href="https://github.com/KhronosGroup/glTF-Sample-Models">sample models</a>
+and fairly complex Blender exported scenes.</p>
+<blockquote>
+<p>Macroquad used to be notoriously bad at 3d. nanogltf is a part of a big
+macroquad overhaul with a goal to make it suitable for, at least,
+simple low-poly 3d games.</p>
+</blockquote>
+<p>nanogltf comes with a a GL2+/Metal glTF miniquad-based
+<a href="https://github.com/not-fl3/nanogltf/tree/master/examples/viewer">viewer example</a>.</p>
+<h2 id="other-news">Other News&nbsp;<a class="anchor" href="#other-news" aria-hidden="true">#</a>
+</h2>
+<!-- One-liners for plan items that haven't got their own sections. -->
+<ul>
+<li>Other game updates:
+<ul>
+<li><a href="https://uvizhe.im/posts/tribes-p2">Tribes</a> got multiplayer support, new art and economics rework.</li>
+</ul>
+</li>
+</ul>
+<hr />
+<p>That’s all news for today, thanks for reading!</p>
+<p>Want something mentioned in the next newsletter?
+<a href="https://github.com/rust-gamedev/rust-gamedev.github.io">Send us a pull request</a>.</p>
+<p>Also, subscribe to <a href="https://twitter.com/rust_gamedev">@rust_gamedev on Twitter</a>
+or <a href="https://reddit.com/r/rust_gamedev">/r/rust_gamedev subreddit</a> if you want to receive fresh news!</p>
+<!--
+TODO: Add real links and un-comment once this post is published
+**Discuss this post on**:
+[/r/rust_gamedev](TODO),
+[Mastodon](TODO),
+[Twitter](TODO),
+[Discord](https://discord.gg/yNtPTb2).
+-->
+
+        </div>
+
+        
+
+        <a class="u-url" href="https:&#x2F;&#x2F;gamedev.rs&#x2F;news&#x2F;049&#x2F;" hidden></a>
+    </article>
+
+        </main>
+
+        <footer class="site-footer h-card">
+    <data class="u-url" href="https://gamedev.rs"></data>
+
+    <div class="wrapper">
+
+        <div class="footer-col-wrapper">
+            <div class="footer-col one-half">
+                <h2 class="footer-heading">Rust GameDev WG</h2>
+                
+                
+                    <p>Stay up to date with the progress and recent developments in the Rust Game Development Working Group.</p>
+                
+            </div>
+
+            <div class="footer-col one-half">
+                <ul class="social-links">
+    
+    
+    
+    <li><a href="https://github.com/rust-gamedev" title="rust-gamedev"><svg class="svg-icon grey"><use xlink:href="https://gamedev.rs/minima-social-icons.svg#github"></use></svg> GitHub (rust-gamedev)</a></li>
+    
+    
+    
+    
+    <li><a href="https://twitter.com/rust_gamedev" title="rust_gamedev"><svg class="svg-icon grey"><use xlink:href="https://gamedev.rs/minima-social-icons.svg#twitter"></use></svg> Twitter (rust_gamedev)</a></li>
+    
+    
+    
+    
+    <li><a href="https://discord.gg/j6QJsMd" title="Discord"><svg class="svg-icon grey"><use xlink:href="https://gamedev.rs/minima-social-icons.svg#discord"></use></svg> Discord (#wg-gamedev)</a></li>
+    <li><a href="https://gamedev.rs/rss.xml" title="RSS"><svg class="svg-icon grey"><use xlink:href="https://gamedev.rs/minima-social-icons.svg#rss"></use></svg> RSS feed</a></li>
+</ul>
+
+            </div>
+        </div>
+
+    </div>
+
+</footer>
+
+    </body>
+</html>

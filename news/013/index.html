@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        
+    <title>This Month in Rust GameDev #13 - August 2020 | Rust GameDev WG</title>
+
+    <meta property="og:title" content="This Month in Rust GameDev #13 - August 2020">
+    <meta property="og:url" content="https:&#x2F;&#x2F;gamedev.rs&#x2F;news&#x2F;013&#x2F;">
+    <meta property="og:description" content="Welcome to the 13th issue of the Rust GameDev Workgroup’s
+monthly newsletter.
+Rust is a systems lang…">
+    <meta property="og:type" content="article">
+    <link rel="canonical" href="https:&#x2F;&#x2F;gamedev.rs&#x2F;news&#x2F;013&#x2F;">
+
+    
+        <meta property="article:published_time" content="2020-09-07T00:00:00+00:00">
+    
+
+
+        <meta property="og:image" content="https://gamedev.rs/logo.png">
+        <meta property="og:image:width" content="200">
+        <meta property="og:image:height" content="200">
+        <meta property="og:site_name" content="Rust GameDev WG">
+
+        <link rel="stylesheet" href="https://gamedev.rs/style.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="https://gamedev.rs/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://gamedev.rs/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://gamedev.rs/favicon-16x16.png">
+        <link rel="manifest" href="https://gamedev.rs/site.webmanifest">
+    
+        
+    
+        </head>    
+
+    <body>
+        <header class="site-header">
+    <div class="wrapper">
+        <a class="site-title" rel="author" href="/">
+            <img src="https://gamedev.rs/logo_small.png" width="48" height="48" alt="" />
+            Rust GameDev WG
+        </a>
+
+        
+        
+    </div>
+</header>
+
+
+        <main class="page-content" aria-label="Content">
+            
+    <article class="post h-entry wrapper" itemscope itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+            <h1 class="post-title p-name" itemprop="name headline">This Month in Rust GameDev #13 - August 2020</h1>
+            <p class="post-meta">
+                
+                    <time class="dt-published" datetime="2020-09-07T00:00:00+00:00" itemprop="datePublished">
+                        
+                        2020-09-07
+                    </time>
+                
+                
+            </p>
+        </header>
+
+        <div class="post-content e-content" itemprop="articleBody">
+            <p>Welcome to the 13th issue of the Rust GameDev Workgroup’s
+monthly newsletter.
+<a href="https://rust-lang.org">Rust</a> is a systems language pursuing the trifecta:
+safety, concurrency, and speed.
+These goals are well-aligned with game development.
+We hope to build an inviting ecosystem for anyone wishing
+to use Rust in their development process!
+Want to get involved? <a href="https://github.com/rust-gamedev/wg#join-the-fun">Join the Rust GameDev working group!</a></p>
+<p>You can follow the newsletter creation process
+by watching <a href="https://github.com/rust-gamedev/rust-gamedev.github.io/issues?q=label%3Acoordination">the coordination issues</a>.
+Want something mentioned in the next newsletter?
+<a href="https://github.com/rust-gamedev/rust-gamedev.github.io">Send us a pull request</a>.
+Feel free to send PRs about your own projects!</p>
+<p>Table of contents:</p>
+<ul>
+<li><a href="https://gamedev.rs/news/013/#rust-gamedev-podcast">Rust GameDev Podcast</a></li>
+<li><a href="https://gamedev.rs/news/013/#game-updates">Game Updates</a></li>
+<li><a href="https://gamedev.rs/news/013/#learning-material-updates">Learning Material Updates</a></li>
+<li><a href="https://gamedev.rs/news/013/#library-tooling-updates">Library &amp; Tooling Updates</a></li>
+<li><a href="https://gamedev.rs/news/013/#popular-workgroup-issues-in-github">Popular Workgroup Issues in GitHub</a></li>
+<li><a href="https://gamedev.rs/news/013/#meeting-minutes">Meeting Minutes</a></li>
+<li><a href="https://gamedev.rs/news/013/#requests-for-contribution">Requests for Contribution</a></li>
+</ul>
+<!--
+Ideal section structure is:
+
+```
+### [Title]
+
+![image/GIF description](image link)
+
+A paragraph or two with a summary and [useful links].
+
+_Discussions:
+[/r/rust](https://reddit.com/r/rust/todo),
+[twitter](https://twitter.com/todo/status/123456)_
+
+[Title]: https://first.link
+[useful links]: https://other.link
+```
+
+Discussion links are added only if they contain
+some actual interesting discussions.
+
+If needed, a section can be split into subsections with a "------" delimiter.
+-->
+<h2 id="rust-gamedev-podcast"><a href="https://rustgamedev.com">Rust GameDev Podcast</a>&nbsp;<a class="anchor" href="#rust-gamedev-podcast" aria-hidden="true">#</a>
+</h2>
+<p><img src="https://gamedev.rs/news/013/podcast.jpeg" alt="text logo" /></p>
+<p>This month <a href="https://richardpatching.com">Richard @patchfx Patching</a> started
+<a href="https://rustgamedev.com">Rust GameDev Podcast</a>!</p>
+<blockquote>
+<p>Over the lockdown period I have been working on a new podcast
+for Rust game developers. I have been interviewing indie teams
+and library creators, discussing custom engines, procedural generation,
+open source and the business of games development.</p>
+</blockquote>
+<ul>
+<li>
+<p><a href="https://rustgamedev.com/episodes/interview-with-team-veloren">The first episode</a> is an interview
+with the team behind Veloren, an open-source multiplayer
+voxel RPG written in Rust.</p>
+<p>Find out about the game’s origin, its engine development,
+pros and cons of a big open-source project, CI and build pipeline,
+importance of artists, procedural generation,
+community building, managing players’ expectations,
+and upcoming developments.</p>
+</li>
+<li>
+<p><a href="https://rustgamedev.com/episodes/interview-with-herbert-wolverson-bracket-lib">The second episode</a> is an interview with Herbert Wolverson,
+creator of <a href="https://crates.io/crates/bracket-lib">bracket-lib</a> (pka RLTK), <a href="http://bfnightly.bracketproductions.com">Rust Roguelike Tutorial</a>,
+and <a href="https://thebracket.itch.io/nox-futura">Nox Futura</a>.</p>
+<p>A very wide-ranging interview covering many interesting topics:
+where the bracket-lib came from and what the creator is doing now,
+as well as practical questions and issues discovered
+in the course of creating their game, [Nox Futura].
+Lots of interesting talk about a new Rust games development book
+Herbert is writing, C++ vs Rust, learning Rust, code architecture and
+ECS’s in roguelikes, emergent behavior, and hilarious bugs in Dwarf Fortress.</p>
+</li>
+</ul>
+<p>The show has been distributed on most major platforms
+for you to listen and subscribe:
+<a href="https://rustgamedev.com/">Rust Game Dev Podcast (simplecast)</a>,
+<a href="https://podcasts.apple.com/gb/podcast/rust-game-dev/id1526304768">Apple Podcasts</a>,
+<a href="https://open.spotify.com/show/7HRfGnTcXkLkQd9fxJbDGj">Spotify</a>,
+<a href="https://feeds.simplecast.com/C6NQglnL">RSS Feed</a>,
+<a href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zaW1wbGVjYXN0LmNvbS9DNk5RZ2xuTA">Google Podcasts</a>.</p>
+<h2 id="game-updates">Game Updates&nbsp;<a class="anchor" href="#game-updates" aria-hidden="true">#</a>
+</h2>
+<h3 id="crate-before-attack"><a href="https://cratebeforeattack.com">Crate Before Attack</a>&nbsp;<a class="anchor" href="#crate-before-attack" aria-hidden="true">#</a>
+</h3>
+<p><a href="https://cratebeforeattack.com"><img src="https://gamedev.rs/news/013/crate-before-attack.jpeg" alt="Camera debugging in Crate Before Attack" /></a>
+<em>Debugging camera motion: highlighted areas are points of interest</em></p>
+<p><a href="https://cratebeforeattack.com">Crate Before Attack</a> by <a href="https://twitter.com/CrateAttack">koalefant (@CrateAttack)</a>
+is a skill-based multiplayer game where frogs combat their friends
+while navigating the landscape with their sticky tongues.</p>
+<p>A <a href="https://cratebeforeattack.com/play">playable browser build</a> can be tried online.</p>
+<p>Recent changes are:</p>
+<ul>
+<li>Training mode improvements, including a new map <a href="https://youtu.be/cukyVXQ0n0c">Dungeon</a>
+by <a href="https://www.behance.net/spoon_tar">Kesha Astafyev</a>.</li>
+<li><a href="https://youtu.be/3y7Hfa-v3e8">Better camera motion</a>:
+multiple points of interest are tracked dynamically.</li>
+<li>Improved GPU performance by merging multiple render passes into one.</li>
+<li>Added control hints.</li>
+<li>Numerous bugfixes and tweaks.</li>
+</ul>
+<p>More details are in <a href="https://cratebeforeattack.com/posts/20200831-august-update/">August DevLog-entry</a>.</p>
+<h3 id="veloren"><a href="https://veloren.net">Veloren</a>&nbsp;<a class="anchor" href="#veloren" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/013/veloren-landscape1.jpeg" alt="Landscape" />
+<em>Landscape with new LoD and lighting</em></p>
+<p><a href="https://veloren.net">Veloren</a> is an open world, open-source voxel RPG inspired by Dwarf
+Fortress and Cube World.</p>
+<p>In August, Veloren 0.7 was released! Airshipper, Veloren’s launcher, also got
+updated to 0.4.0. Veloren was featured in the inaugural episode of the <a href="https://rustgamedev.com/episodes/interview-with-team-veloren">Rust
+Game Dev Podcast</a>. Although the 0.7 release party saw the
+largest number of concurrent players at 57, it ran into some significant issues
+which you can read about below.</p>
+<p>The largest merge in Veloren so far also happened in August. It included
+monumental changes to lighting and added level of detail functionality to see
+far-off mountains. Lots of work has been done on the animation, combat, SFX, and
+UX front. Animations for movement and combat were added and improved. Work
+continued on particle systems, which have been added to Veloren in places like
+campfires, fireworks, and weapons.</p>
+<p><img src="https://gamedev.rs/news/013/veloren-sceptre.gif" alt="Healing sceptre" />
+<em>Healing sceptre with the new particle system</em></p>
+<p>You can read more about some specific topics from August:</p>
+<ul>
+<li><a href="https://veloren.net/devblog-79#airshipper-0-4-progress-by-songtronix">Airshipper 0.4.0 Progress</a></li>
+<li><a href="https://veloren.net/devblog-79#animation-and-movement-updates-by-slipped">Animation and Movement Updates</a></li>
+<li><a href="https://veloren.net/devblog-80#particle-timing-by-lobster">Particle Timing</a></li>
+<li>0.7 Release: <a href="https://veloren.net/devblog-81#0-7-release-party-statistics">Party Statistics</a>
+and <a href="https://veloren.net/devblog-81#0-7-release-party-kick-disaster-by-xmac94x">Kick Disaster</a></li>
+<li><a href="https://veloren.net/devblog-81#sharp-s-lighting-and-world-changes-branch">Lighting and World Changes</a></li>
+<li><a href="https://veloren.net/devblog-82#0-8-intro-meeting">0.8 Intro Meeting</a></li>
+<li><a href="https://veloren.net/devblog-82#audio-with-ellinia">Audio SFX</a></li>
+<li><a href="https://veloren.net/devblog-83#photo-gallery">Photo Gallery</a></li>
+</ul>
+<p>August’s full weekly devlogs: “This Week In Veloren…”:
+<a href="https://veloren.net/devblog-79">#79</a>,
+<a href="https://veloren.net/devblog-80">#80</a>,
+<a href="https://veloren.net/devblog-81">#81</a>,
+<a href="https://veloren.net/devblog-82">#82</a>,
+<a href="https://veloren.net/devblog-83">#83</a>.</p>
+<p>In September, work on 0.8 will continue. Some large systems being worked on
+include networking, improved persistence stability, and player experience. Game
+design is working on improving the connection between the experience a new
+player has, and the current game design. The in-progress 0.8 version will likely
+be completed more quickly than 0.7, as to not include too many changes.</p>
+<h3 id="a-b-street"><a href="https://abstreet.org">A/B Street</a>&nbsp;<a class="anchor" href="#a-b-street" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/013/abstreet.png" alt="Two-way cycletracks and shared left-turn lanes" /></p>
+<p><a href="https://abstreet.org">A/B Street</a> is a traffic simulation game exploring how small changes
+to roads affect cyclists, transit users, pedestrians, and drivers. Any city
+with OpenStreetMap coverage can be used!</p>
+<p>Some of this month’s updates:</p>
+<ul>
+<li>Multiple traffic signals can be edited together.</li>
+<li>An <a href="https://dabreegster.github.io/abstreet/dev/api.html">API</a> and tools were added, to control maps and simulation
+from any language.</li>
+<li><a href="https://github.com/michaelkirk">Michael Kirk</a>, a new team member, fixed HiDPI scaling issues in a
+consistent way.</li>
+<li>Many new cities imported, with better support for countries that drive on the
+left and support for using alternate languages from OpenStreetMap for roads
+and buildings.</li>
+<li>Backwards compatibility for a player’s edits to the map.</li>
+<li>Two-way cycletracks and roads with multiple direction changes.</li>
+</ul>
+<h3 id="egregoria"><a href="https://github.com/Uriopass/Egregoria">Egregoria</a>&nbsp;<a class="anchor" href="#egregoria" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/013/egregoria.png" alt="Egregoria buildings screenshot" /></p>
+<p><a href="https://github.com/Uriopass/Egregoria">Egregoria</a>’s objective is to become a granular society simulation,
+filled with fully autonomous agents interacting with their world in real time.
+Egregoria was previously known as Scale,
+but was renamed to fit the theme better.</p>
+<p>The <a href="http://douady.paris/blog/egregoria_5.html">5th devlog</a> was published, talking about
+the renaming, project management, buildings and scripting.</p>
+<p>A <a href="https://discord.gg/CAaZhUJ">Discord</a> server was launched to discuss the project.</p>
+<p><em>Discussions:
+<a href="https://reddit.com/r/rust_gamedev/comments/igzbl9/egregoria_devblog_5">/r/rust_gamedev</a></em></p>
+<h3 id="cary"><a href="https://specificprotagonist.itch.io/cary">Cary</a>&nbsp;<a class="anchor" href="#cary" aria-hidden="true">#</a>
+</h3>
+<p><a href="https://specificprotagonist.itch.io/cary"><img src="https://gamedev.rs/news/013/cary_screenshot.png" alt="Dodging bullets and carrying Cary to temporary safety" /></a></p>
+<p>In <a href="https://specificprotagonist.itch.io/cary">Cary</a> the player has to bring the titular character to the exit by carrying
+them or otherwise making sure they don’t – nor the player themselves –
+touch any of the traps.
+Easier said than done when you have limited stamina and Cary keeps running
+into spikes.</p>
+<p>Made with hecs and wgpu (no framework), but uses WebGL on the web
+because of the current implementation status of WebGPU.</p>
+<p>Made during the <a href="https://itch.io/jam/extra-credits-game-jam-6">Extra Credits game jam</a>,
+it’s a rather small game.
+It can be played in the browser or downloaded at <a href="https://specificprotagonist.itch.io/cary">itch.io</a>.</p>
+<h3 id="way-of-rhea"><a href="https://store.steampowered.com/app/1110620/Way_of_Rhea/">Way of Rhea</a>&nbsp;<a class="anchor" href="#way-of-rhea" aria-hidden="true">#</a>
+</h3>
+<p><a href="https://store.steampowered.com/app/1110620/Way_of_Rhea/"><img src="https://gamedev.rs/news/013/way-of-rhea-play-nyc.png" alt="Anthropic’s virtual booth at Play NYC" /></a>
+<em>Anthropic’s virtual booth at <a href="https://www.play-nyc.com/">Play NYC</a></em></p>
+<p><a href="https://store.steampowered.com/app/1110620/Way_of_Rhea/">Way of Rhea</a> is a puzzle platformer that takes place in a world where you can
+only interact with items that match your current color.</p>
+<p>Way of Rhea has a <a href="https://store.steampowered.com/app/1110620/Way_of_Rhea/">free Steam demo</a> temporarily available as part of
+<a href="https://www.play-nyc.com/">Play NYC</a>!
+The new demo includes a level that wasn’t part of the Steam Game Festival,
+showing off how circuit puzzles will work in the game. Since Play NYC
+couldn’t be in person this year, the devs temporarily themed this level to look
+like last year’s Play NYC venue, included placing virtual booths for other games
+throughout the level.</p>
+<p>Follow <a href="https://twitter.com/anthropicst">@AnthropicSt</a> or <a href="https://twitter.com/masonremaley">@masonremaley</a> on Twitter or
+<a href="https://www.anthropicstudios.com/newsletter/signup/tech">sign up for the mailing list</a> for updates.</p>
+<h3 id="vange-rs"><a href="https://github.com/kvark/vange-rs">vange-rs</a>&nbsp;<a class="anchor" href="#vange-rs" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/013/vangers-shadows.jpeg" alt="vangers-shadow" /></p>
+<p><a href="https://github.com/kvark/vange-rs">vange-rs</a> is the project of re-implementing the <a href="https://en.wikipedia.org/wiki/Vangers">Vangers</a> game (from 1998)
+in Rust using modern development practices, parallel computations, and GPU.</p>
+<p>This month vange-rs got real-time shadows!
+See <a href="https://reddit.com/r/rust_gamedev/comments/i32p6r/realtime_hybrid_shadows_in_vangers">video on /r/rust_gamedev</a> and technical description
+on the <a href="https://kvark.github.io/vange-rs/2020/08/04/shadows.html">Hybrid Shadows</a> post of the blog.</p>
+<p>Another exciting development - the new bruteforce rendering technique allowing
+to shift the camera behind the mechos as in 3rd person view.
+See <a href="https://reddit.com/r/rust_gamedev/comments/igejxy/vangers_3rd_person_camera">video on /r/rust_gamedev</a> and technical description on
+the <a href="https://kvark.github.io/vange-rs/2020/08/29/bar-painting.html">Bar Painting</a> post of the blog.</p>
+<h3 id="garden"><a href="https://epcc.itch.io/garden">Garden</a>&nbsp;<a class="anchor" href="#garden" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/013/garden.jpeg" alt="screenshot: concrete, trees, shadows" /></p>
+<p><a href="https://epcc.itch.io/garden">Garden</a> is an upcoming game centered around growing realistic plants.
+Some of the updates from <a href="https://cyberplant.xyz/posts/july-august/">the July &amp; August devlog</a>:</p>
+<ul>
+<li>A new player inventory system;</li>
+<li>Better collision detection and camera movement;</li>
+<li>Minimalist, scrollable text-based GUI for choosing which species to plant
+or the type of material to build with (or destroy) something;</li>
+<li>Plant growth now depends directly on the amount of light
+every individual leaf receives, calculated on the GPU;</li>
+<li>Variable leaf alignment and ease of creating variety;</li>
+<li>Better bark, detailed trunks, and new species;</li>
+<li>Completely new lighting using GI.</li>
+</ul>
+<h3 id="chillscapes"><a href="https://khonsulabs.itch.io/chillscapes">Chillscapes</a>&nbsp;<a class="anchor" href="#chillscapes" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/013/chillscapes_main_menu.png" alt="Chillscapes Main Menu" /></p>
+<p><a href="https://github.com/khonsulabs/chillscapes">Chillscapes</a> is a lo-fi
+rhythm experience created for the <a href="https://itch.io/jam/neoc03-rhythm-jam">NEOC#03 Rhythm Game Jam</a>. Using
+layerable lo-fi music tracks, the game has you tap with the rhythm of the loops
+being added, before changing the music up by adding another loop into the mix.
+Last week, <a href="https://community.khonsulabs.com/t/chillscapes-retrospective-and-kludgine-update/28">a retrospective update was published</a>
+reflecting on what the developer’s takeaways were from the experience.</p>
+<p>Chillscapes is written using an early-in-development 2d engine,
+<a href="https://github.com/khonsulabs/kludgine">Kludgine</a>. For audio playback, rodio was utilized. The source code is
+<a href="https://github.com/khonsulabs/chillscapes">available on GitHub</a>.</p>
+<h3 id="dwarf-seeks-fortune"><a href="https://github.com/amethyst/dwarf_seeks_fortune">Dwarf Seeks Fortune</a>&nbsp;<a class="anchor" href="#dwarf-seeks-fortune" aria-hidden="true">#</a>
+</h3>
+<p><a href="https://github.com/amethyst/dwarf_seeks_fortune"><img src="https://gamedev.rs/news/013/dwarf_seeks_fortune.png" alt="Dwarf Seeks Fortune" /></a>
+<em>Collect all keys to unlock the door to the next level</em></p>
+<p><a href="https://github.com/amethyst/dwarf_seeks_fortune">Dwarf Seeks Fortune</a> is a puzzle-platformer made with the Amethyst game
+engine. Its developer, Jazarro, has partnered with the Amethyst organization
+to make it an official Amethyst showcase game. It aims to be a learning
+resource for anyone looking to get started with Amethyst.</p>
+<p>The game currently sports a growing feature set, two playable levels and an
+early version of an integrated level editor. It is ready for your
+contributions, so if you’re interested, check out the
+<a href="https://github.com/amethyst/dwarf_seeks_fortune/blob/master/CONTRIBUTING.md">contributor’s guide</a> or the <a href="https://github.com/amethyst/dwarf_seeks_fortune/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">good first issues</a>.
+If you have any questions, open an issue on GitHub or approach
+Jazarro on <a href="https://discord.com/invite/amethyst">the Amethyst discord</a>.</p>
+<h3 id="akigi"><a href="https://akigi.com">Akigi</a>&nbsp;<a class="anchor" href="#akigi" aria-hidden="true">#</a>
+</h3>
+<p><a href="https://akigi.com">Akigi</a> is a WIP online multiplayer game.</p>
+<p>This month was mostly dedicated to the custom engine’s scenery placement tool
+(<a href="https://devjournal.akigi.com/august-2020/082-2020-08-30.html">video demo</a>).
+Some of the updates:</p>
+<ul>
+<li><a href="https://devjournal.akigi.com/august-2020/080-2020-08-16.html">Terrain code refactoring and other required groundwork</a>.</li>
+<li><a href="https://devjournal.akigi.com/august-2020/082-2020-08-30.html#mouse-terrain-intersection">Mouse-terrain intersection</a>.</li>
+<li><a href="https://devjournal.akigi.com/august-2020/082-2020-08-30.html#play-mode-place-mode">Switching between Play and Place modes</a>.</li>
+<li><a href="https://devjournal.akigi.com/august-2020/082-2020-08-30.html#user-interfaces">Custom UI system</a>.</li>
+</ul>
+<p>Full devlogs:
+<a href="https://devjournal.akigi.com/august-2020/078-2020-08-02.html">#078</a>,
+<a href="https://devjournal.akigi.com/august-2020/079-2020-08-09.html">#079</a>,
+<a href="https://devjournal.akigi.com/august-2020/080-2020-08-16.html">#080</a>,
+<a href="https://devjournal.akigi.com/august-2020/081-2020-08-23.html">#081</a>,
+<a href="https://devjournal.akigi.com/august-2020/082-2020-08-30.html">#082</a>.</p>
+<h3 id="simple-physics"><a href="https://mkhan45.github.io/SIMple-Physics/">SIMple Physics</a>&nbsp;<a class="anchor" href="#simple-physics" aria-hidden="true">#</a>
+</h3>
+<p><a href="https://mkhan45.github.io/SIMple-Physics/posts/Gifs/"><img src="https://gamedev.rs/news/013/simple-physics-wave.gif" alt="SIMple Mechanics wave preset" /></a>
+<em>One of SIMple Mechanic’s Lua presets, a colorful wave of bouncing circles</em></p>
+<p><a href="https://mkhan45.github.io/SIMple-Physics/">SIMple Physics</a> by <a href="https://github.com/mkhan45">@mkhan45</a> is a set of educational physics
+simulators meant to help students and teachers conduct labs without expensive equipment
+or in person classes. Each simulator uses serializable graphs, object inspection,
+Lua scripting, and a few other features to help students learn. Currently, there
+is a simulator for mechanics/projectile motion and one for universal gravitation,
+but the goal is to include one for electronics/magnetism and one for waves/optics.</p>
+<p>Written in Rust using <code>ggez</code>, <code>specs</code>, <code>imgui-rs</code>, and <code>nphysics</code>,
+this project’s goals include:
+performance, accessibility/portability, ease of use, and extensibility.</p>
+<p>To find out more about the project, visit the site <a href="https://mkhan45.github.io/SIMple-Physics/">here</a>,
+watch some cool gifs <a href="https://mkhan45.github.io/SIMple-Physics/posts/Gifs/">here</a>, or read the GitHub page
+<a href="https://mkhan45.github.io/SIMple-Physics/posts/Gifs/">here</a>.</p>
+<p><em>Discussions:
+<a href="https://reddit.com/r/rust/comments/ibk2rf/announcing_simple_physics">/r/rust</a></em></p>
+<h2 id="learning-material-updates">Learning Material Updates&nbsp;<a class="anchor" href="#learning-material-updates" aria-hidden="true">#</a>
+</h2>
+<h3 id="writing-nes-emulator-in-rust"><a href="https://bugzmanov.github.io/nes_ebook/index.html">Writing NES Emulator in Rust</a>&nbsp;<a class="anchor" href="#writing-nes-emulator-in-rust" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/013/nes_emulator_rust.png" alt="writing nes emulator" /></p>
+<p>“Writing NES Emulator in Rust” is a tutorial by <a href="https://twitter.com/bugzmanov">@bugzmanov</a> on creating a fully
+capable NES/Famicom emulator from scratch in the online book format. It walks
+through major steps of emulating NES platform components to run
+all-time classics, like Pacman, Donkey Kong, and Super Mario Bros.</p>
+<p>It’s a fun way of getting into hardware internals and fundamentals of
+computer systems. The tutorial also covers game-dev basics and how to
+work with graphics in Rust using <a href="https://www.libsdl.org/">SDL2</a> library.</p>
+<h3 id="beginning-game-development-with-amethyst"><a href="https://www.youtube.com/watch?v=GFi_EdS_s_c">Beginning Game Development with Amethyst</a>&nbsp;<a class="anchor" href="#beginning-game-development-with-amethyst" aria-hidden="true">#</a>
+</h3>
+<p><a href="https://www.youtube.com/watch?v=GFi_EdS_s_c"><img src="https://gamedev.rs/news/013/rustconf-amethyst-talk.png" alt="youtube preview" /></a>
+<em>Click to <a href="https://www.youtube.com/watch?v=GFi_EdS_s_c">watch the talk</a></em></p>
+<p>Getting started with Rust + gamedev can be intimidating. At
+<a href="https://rustconf.com">RustConf 2020</a>, <a href="https://twitter.com/micah_tigley">Micah Tigley</a> gave a talk about their experience
+beginning game development using the <a href="https://amethyst.rs/">Amethyst</a> game engine and
+learning about ECS by implementing examples that aim to be accessible for
+beginners.</p>
+<p>Supporting blog posts for the talk:</p>
+<ul>
+<li><a href="https://mtigley.dev/posts/sprite-animations-with-amethyst">“Creating a Simple Spritesheet Animation with Amethyst”</a></li>
+<li><a href="https://mtigley.dev/posts/running-animation">“Running Animation”</a></li>
+<li><a href="https://mtigley.dev/posts/camera-follow-system">“Camera Follow System”</a></li>
+</ul>
+<p>The source code for the <a href="https://github.com/tigleym/sprite_animations_demo">demo can be found here</a>.</p>
+<h3 id="chargrid-roguelike-tutorial-2020"><a href="https://gridbugs.org/roguelike-tutorial-2020/">Chargrid Roguelike Tutorial 2020</a>&nbsp;<a class="anchor" href="#chargrid-roguelike-tutorial-2020" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/013/chargrid-roguelike-tutorial-2020.png" alt="Chargrid Roguelike Tutorial 2020" /></p>
+<p><a href="https://github.com/stevebob/chargrid/">Chargrid</a> by <a href="https://github.com/stevebob">@stevebob</a> is a collection of crates for building
+applications with text UIs that run in terminals, graphical windows, and web
+pages. It was made specifically with roguelike development in mind, though is
+general-purpose enough to be used for other applications.</p>
+<p><a href="https://gridbugs.org/roguelike-tutorial-2020/">Chargrid Roguelike Tutorial 2020</a>
+is a tutorial series about making a traditional roguelike from scratch
+using chargrid for rendering and input handling. Reference code is available in
+<a href="https://github.com/stevebob/chargrid-roguelike-tutorial-2020">this git repo</a>
+organized with one branch for each subsection.</p>
+<h3 id="event-chaining-as-a-decoupling-method-in-ecs"><a href="https://www.jojolepro.com/blog/2020-08-20_event_chaining/">Event Chaining as a Decoupling Method in ECS</a>&nbsp;<a class="anchor" href="#event-chaining-as-a-decoupling-method-in-ecs" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/013/event-chain-assets-graph.png" alt="graph: FileSignal -&gt; AssetSignal -&gt; AssetEvent" /></p>
+<p><a href="https://github.com/jojolepro">@jojolepro</a> released a <a href="https://www.jojolepro.com/blog/2020-08-20_event_chaining/">blog post</a> that provides
+an in-depth look at how using events in entity-component-system architectures
+can improve system reusability dramatically.</p>
+<p>Using events in this way also allows for:</p>
+<ul>
+<li>easier testing,</li>
+<li>additional configurability,</li>
+<li>possible performance improvements,</li>
+<li>higher reusability - especially if using generics.</li>
+</ul>
+<p>The blog also has an <a href="https://www.jojolepro.com/blog/blog.xml">RSS feed</a> and more in-depth posts about
+game development are planned.</p>
+<h2 id="library-tooling-updates">Library &amp; Tooling Updates&nbsp;<a class="anchor" href="#library-tooling-updates" aria-hidden="true">#</a>
+</h2>
+<h3 id="ecs-bench-suite"><a href="https://github.com/rust-gamedev/ecs_bench_suite">ecs_bench_suite</a>&nbsp;<a class="anchor" href="#ecs-bench-suite" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/013/ecs-bench.png" alt="Summary results table" />
+<em>The full benchmark report is available <a href="https://rust-gamedev.github.io/ecs_bench_suite/target/criterion/report/index.html">here</a></em></p>
+<p>This month <a href="https://github.com/TomGillen">@TomGillen</a> (author of the <a href="https://github.com/amethyst/legion">Legion</a> ECS) released
+<a href="https://github.com/rust-gamedev/ecs_bench_suite">ecs_bench_suite</a> - a suite of benchmarks designed to test and compare
+Rust ECS library performance across a variety of challenging circumstances.
+Later, the project was adopted by the Rust GameDev WG
+so that all Rust ECS developers can converge on a neutral,
+community-maintained benchmark.</p>
+<p><em>Discussions:
+<a href="https://reddit.com/r/rust/comments/icczxh/ecs_bench_suite">/r/rust</a></em></p>
+<h3 id="rapier-2d-and-3d-physics-engines-focused-on-performance"><a href="https://www.dimforge.com/blog/2020/08/25/announcing-the-rapier-physics-engine">Rapier: 2D and 3D Physics Engines Focused on Performance</a>&nbsp;<a class="anchor" href="#rapier-2d-and-3d-physics-engines-focused-on-performance" aria-hidden="true">#</a>
+</h3>
+<p><a href="https://rapier.rs"><img src="https://gamedev.rs/news/013/rapier-logo.svg" alt="Rapier logo" /></a></p>
+<p><a href="https://rapier.rs">Rapier</a> is a new set of 2D and 3D physics engines written 100% in Rust.
+It is 5 to 10 times faster than <a href="https://nphysics.org">nphysics</a>, close to the performances of the
+CPU version of PhysX, and often slightly faster than Box2D.</p>
+<p><a href="https://www.dimforge.com/blog/2020/08/25/announcing-the-rapier-physics-engine">For its first release</a> Rapier includes:</p>
+<ul>
+<li>rigid-body dynamics;</li>
+<li>colliders and sensors;</li>
+<li>joint constraints;</li>
+<li>optional serialization of the physics state;</li>
+<li>optional cross-platform determinism on IEEE-754 compliant targets;</li>
+<li>optional explicit SIMD and parallelism;</li>
+<li>JavaScript bindings with official NPM packages.</li>
+</ul>
+<p>This new physics engine is developed by the recently created <a href="https://dimforge.com">Dimforge</a>
+single-member Open-Source company <a href="https://www.dimforge.com/blog/2020/08/18/rustsim-becomes-dimforge">replacing</a> the former
+Rustsim organization created on GitHub by <a href="https://github.com/sebcrozet/">@sebcrozet</a>.</p>
+<p><em>Discussions:
+<a href="https://www.reddit.com/r/rust/comments/igkul2/announcing_rapier_2d_and_3d_physics_engines/">/r/rust</a></em></p>
+<h3 id="neocogi-s-libraries"><a href="https://github.com/NeoCogi">NeoCogi’s Libraries</a>&nbsp;<a class="anchor" href="#neocogi-s-libraries" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/013/jude3d.jpeg" alt="Jude3D" /></p>
+<p><a href="https://neocogi.com">Jude3D</a> is a web based 3D sculpting application.
+It’s a WebAssembly application, written in C/C++ and compiled using Emscripten
+but after much thinking, the authors decided to move the development to Rust!</p>
+<p>Many problems arise when moving existing C/C++/WebAssembly code to Rust.
+The two most important ones:</p>
+<ul>
+<li>The new code should still interop with the already existing code.</li>
+<li>Payload size matters on the web: your WASM app should be as small as possible.</li>
+</ul>
+<p>These led the authors to drop using Rust’s std in favor to their own libs (<code>!#[no_std]</code>),
+at least until the std library crates are split up accordingly and stabilized,
+for example, the <code>alloc</code> crate.</p>
+<p>The good news is that they are
+<a href="https://github.com/NeoCogi">releasing most of the libraries as they make them as open source</a>!
+Also, a <a href="https://github.com/NeoCogi/rs-glfw3-gles2-test">WASM glfw3/GLES2 example</a> that showcases the libs
+is included (<a href="https://neocogi.github.io/rs-glfw3-gles2-test">live demo</a>).</p>
+<h3 id="cute-c2"><a href="https://crates.io/crates/c2">cute-c2</a>&nbsp;<a class="anchor" href="#cute-c2" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/013/cute-c2-collision.gif" alt="cute-c2 collision" /></p>
+<p>cute-c2 is a 2D collision detection library that has had its first release to
+<a href="https://crates.io/crates/c2">crates.io</a>. The library is a Rust wrapper around the <a href="https://github.com/RandyGaul/cute_headers/blob/master/cute_c2.h">c2.h</a> library.</p>
+<p>The library can detect collisions between circles, rectangles, capsules and
+up to eight-sided convex polygons. There are also functions for manifold
+generation, the GJK algorithm, and ray casting operations. There is an example
+program in the repository.</p>
+<h3 id="hexasphere-v1-0"><a href="https://crates.io/crates/hexasphere">hexasphere</a> v1.0&nbsp;<a class="anchor" href="#hexasphere-v1-0" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/013/hexasphere.gif" alt="hexasphere example gif" /></p>
+<p>The <a href="https://crates.io/crates/hexasphere">hexasphere</a> library provides a customizable interface for subdividing 3D
+triangle meshes. Custom and stateful interpolation functions can be implemented
+as well as per-vertex attributes.</p>
+<p>All that’s required to define a base shape are the initial vertices, triangles
+based on the indices of the vertices in the initial vertices, and numbered
+edges. As long as the winding of the triangles remains consistent throughout
+the base mesh, all of the resulting triangles will retain that winding.</p>
+<p>This library also provides a few interesting base shapes (which can be used alone
+if the shape is not subdivided):
+Icosahedron, Tetrahedron, Cube, Square Plane, Triangle Plane
+(all of which are pictured above).</p>
+<h3 id="blitz-path"><a href="https://github.com/BezPowell/blitz-path">blitz-path</a>&nbsp;<a class="anchor" href="#blitz-path" aria-hidden="true">#</a>
+</h3>
+<p><a href="https://github.com/BezPowell/blitz-path">blitz-path</a> is a new crate providing
+an implementation of the <a href="https://en.wikipedia.org/wiki/Jump_point_search">JPS</a>
+pathfinding algorithm.</p>
+<p>JPS is an optimization of the A* search algorithm for uniform-cost grids, which
+are common in games. While fully functional, the code is still in an early
+state and any suggestions for improvements - especially on how best to
+integrate it with the existing ecosystem - are greatly appreciated.</p>
+<h3 id="this-month-in-mun"><a href="https://mun-lang.org/blog/2020/08/30/this-month-august/">This Month in Mun</a>&nbsp;<a class="anchor" href="#this-month-in-mun" aria-hidden="true">#</a>
+</h3>
+<p><a href="https://mun-lang.org"><img src="https://gamedev.rs/news/013/mun-logo.png" alt="Mun logo" /></a></p>
+<p><a href="https://mun-lang.org">Mun</a> is a scripting language for gamedev focused on quick iteration times
+that is written in Rust.</p>
+<p><a href="https://mun-lang.org/blog/2020/08/30/this-month-august/">August updates</a> include:</p>
+<ul>
+<li>compiler support for type aliases;</li>
+<li>shared diagnostics between compiler and language server;</li>
+<li>support for the official <a href="https://crates.io/crates/inkwell">inkwell</a> crate;</li>
+<li>refactors and quality of life improvements.</li>
+</ul>
+<h3 id="inline-tweak"><a href="https://crates.io/crates/inline_tweak">inline_tweak</a>&nbsp;<a class="anchor" href="#inline-tweak" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/013/inline-tweak.gif" alt="Demo with moving traffic lights" /></p>
+<p><a href="https://crates.io/crates/inline_tweak">inline_tweak</a> by <a href="https://github.com/Uriopass">@Uriopass</a> is a library that allows you to
+tweak at runtime any number literal directly from your code.
+It works by parsing the file when a change occurs
+(inspired by <a href="http://blog.tuxedolabs.com/2018/03/13/hot-reloading-hardcoded-parameters.html">this blogpost</a> from Tuxedo labs).
+Usage example:</p>
+<pre data-lang="rust" style="background-color:#2b303b;color:#c0c5ce;" class="language-rust "><code class="language-rust" data-lang="rust"><span style="color:#b48ead;">use </span><span>inline_tweak::tweak;
+</span><span style="color:#b48ead;">loop </span><span>{
+</span><span>    </span><span style="color:#65737e;">// Try changing the value while the application is running
+</span><span>    println!(&quot;</span><span style="color:#d08770;">{}</span><span>&quot;, tweak!(</span><span style="color:#d08770;">3.14</span><span>));
+</span><span>}
+</span></code></pre>
+<p>A <code>watch!()</code> macro that sleeps until the file is modified is also provided.</p>
+<p>The library is minimal, only requiring the <code>lazy_static</code> dependency
+to hold modified values.
+In release mode, the tweaking code is disabled and compiled away.</p>
+<h3 id="yacurses"><a href="https://lib.rs/crates/yacurses">yacurses</a>&nbsp;<a class="anchor" href="#yacurses" aria-hidden="true">#</a>
+</h3>
+<p><a href="https://lib.rs/crates/yacurses">yacurses</a> by <a href="https://github.com/Lokathor">@Lokathor</a> is a cross-platform curses bindings crate that’s
+small, simple, easy to understand, and most importantly safe to use.
+It wraps over <code>ncurses</code> on Unix and a bundled <code>pdcurses</code> on Windows.
+If you’re looking to make a terminal-based roguelike
+(or any other terminal-based game), give it a try.</p>
+<h3 id="spir-q-v0-4-6"><a href="https://github.com/PENGUINLIONG/spirq-rs">SPIR-Q</a> v0.4.6&nbsp;<a class="anchor" href="#spir-q-v0-4-6" aria-hidden="true">#</a>
+</h3>
+<p><a href="https://github.com/PENGUINLIONG/spirq-rs">SPIR-Q</a> is a light-weight shader reflection library, which allows you to query
+the types, offsets, sizes and even names in your shaders procedurally.</p>
+<p>This month v0.4.2..v0.4.6 versions were released.
+Some of the updates:</p>
+<ul>
+<li>Specialization constants enumeration.</li>
+<li>Dynamically sized multi-binding support.</li>
+<li>Improved entrypoint debug printing.</li>
+<li>Better manifest merging method for pipeline construction.</li>
+<li>Bugfixes and various small API improvements.</li>
+</ul>
+<p><em>Discussions: <a href="https://reddit.com/r/rust_gamedev/comments/i6hxh6/spirq_042">/r/rust_gamedev</a></em></p>
+<h3 id="inline-spir-v"><a href="https://github.com/PENGUINLIONG/inline-spirv-rs">Inline SPIR-V</a>&nbsp;<a class="anchor" href="#inline-spir-v" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/013/inline-spirv-demo.png" alt="inline-spirv" /></p>
+<p><a href="https://github.com/PENGUINLIONG/inline-spirv-rs">Inline SPIR-V</a> is a single-crate build-time shader compilation library based on
+shaderc which provides procedural macros to help you translate shader sources,
+in either GLSL or HLSL, inline or from-file, into SPIR-Vs and embed the SPIR-Vs
+right inside your code as <code>u32</code> slices. Despite basic shader compilation,
+<code>inline-spirv</code> also support <code>#include</code> directives, macro substitution,
+post-compile optimization, as well as descriptor auto-binding.</p>
+<p><em>Discussions: <a href="https://reddit.com/r/rust_gamedev/comments/ic1005/inline_spirv">/r/rust_gamedev</a></em></p>
+<h3 id="rspirv-reflect-v0-1"><a href="https://github.com/Traverse-Research/rspirv-reflect">rspirv-reflect</a> v0.1&nbsp;<a class="anchor" href="#rspirv-reflect-v0-1" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/013/traverse-research-banner.png" alt="Traverse Research banner" /></p>
+<p><a href="https://traverseresearch.nl">Traverse Research</a> has created the <a href="https://github.com/Traverse-Research/rspirv-reflect">rspirv-reflect</a> library to replace
+their very basic use-case of the existing <a href="https://github.com/gwihlidal/spirv-reflect-rs">spirv-reflect-rs</a> / <a href="https://github.com/KhronosGroup/SPIRV-Reflect">spirv-reflect</a>
+libraries that are already out there. The current iteration of <code>rspirv-reflect</code>
+is pretty minimal, but it allows you to extract the binding setup from a SPIR-V
+binary. <code>rspirv-reflect</code> supports the latest version of SPIR-V (version 1.5 as
+of writing) and it also supports all the new shader stages (both ray tracing
+and mesh/task shaders) as well as the existing ones.</p>
+<p>Traverse Research wanted to reduce their reliance on C and C++ unsafe
+libraries and at the same time they needed to support newer features that were
+slow to become available in the existing <code>spirv-reflect</code> library. The primary
+use-case for this library is in conjunction with the Rust wrapper around the
+DirectX Shader Compiler (<a href="https://github.com/microsoft/DirectXShaderCompiler">dxc</a>), called <a href="https://github.com/Traverse-Research/hassle-rs">hassle-rs</a> that Traverse Research
+also built.</p>
+<h3 id="gfx-rs-and-wgpu"><a href="https://github.com/gfx-rs/gfx">gfx-rs</a> and <a href="https://wgpu.rs">wgpu</a>&nbsp;<a class="anchor" href="#gfx-rs-and-wgpu" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/013/wgpu-water.gif" alt="wgpu-rs water" />
+<em>wgpu-rs’s <a href="https://github.com/gfx-rs/wgpu-rs/tree/master/examples/water">water example</a></em></p>
+<p>gfx-rs project and wgpu ecosystem have observed the release of 0.6 versions! 🎉</p>
+<p>Some of the updates:</p>
+<ul>
+<li>Reworked project structure:
+<ul>
+<li><code>wgpu-core</code> - a safe pure-Rust internal API, implementing WebGPU specification;</li>
+<li><code>wgpu-rs</code> - the idiomatic Rust wrapper;</li>
+<li><code>wgpu-native</code> - the C API wrapper, aiming to be compatible with <a href="https://dawn.googlesource.com/dawn">Dawn</a>;</li>
+<li>Gecko and Servo - for implementing WebGPU API in the browsers.</li>
+</ul>
+</li>
+<li>Ability to record API traces, replay them on a different machine,
+and run data-driven tests.</li>
+<li><code>write_buffer</code> and <code>write_texture</code> for update the GPU data
+without intermediate staging buffers or encoders.</li>
+<li>A number of powerful native-only extensions, such as descriptor indexing,
+as well as web-compatible extensions like depth-clamping.</li>
+<li><a href="https://github.com/gfx-rs/naga">naga</a> v0.2 - an experimental shader translation library.</li>
+<li>The <a href="https://wgpu.rs/#showcase">showcase gallery</a> was updated.</li>
+</ul>
+<p>Read about the details on <a href="https://gfx-rs.github.io/2020/08/18/release-0.6.html">gfx-rs blog</a>.</p>
+<p><a href="https://github.com/sothr">@sothr</a> has reworked the
+<a href="https://sotrh.github.io/learn-wgpu/beginner/tutorial7-instancing/#the-instance-buffer">wgpu instancing tutorial</a>.
+See discussion at <a href="https://reddit.com/r/rust_gamedev/comments/i8np5v/simplified_instancing_tutorial_learn_wgpu">/r/rust_gamedev</a>.</p>
+<h3 id="kas-v0-5-and-kas-text-v0-1"><a href="https://github.com/kas-gui/kas">KAS</a> v0.5 and <a href="https://github.com/kas-gui/kas-text">KAS-text</a> v0.1&nbsp;<a class="anchor" href="#kas-v0-5-and-kas-text-v0-1" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/013/kas-text-layout.png" alt="KAS text layout" /></p>
+<p><a href="https://github.com/kas-gui/kas">KAS</a> by <a href="https://github.com/dhardy">@dhardy</a> is a general purpose UI toolkit; its
+initial aim is “old school” desktop apps with a good keyboard and touchscreen
+support. Unlike many modern immediate-mode UIs, KAS’s widgets retain state,
+allowing minimal per-frame updates. KAS supports embedded WebGPU graphics now,
+and will (eventually) support being embedded within other contexts (requiring
+only a supply of input events and implementation of some basic graphics routines).</p>
+<p>KAS v0.5 switches to a new crate for text layout,
+<a href="https://github.com/kas-gui/kas-text">KAS-text</a>. KAS-text is a text layout
+engine supporting multi-line editing, shaping and bidirectional text; future
+versions will also support formatting. KAS-text is not tied to any particular
+raster or render system; its positioned-glyph output is relatively easy to
+adapt to crates like <code>wgpu_glyph</code> and <code>gfx_glyph</code>.
+For more, see the article <a href="https://kas-gui.github.io/blog/why-kas-text.html">“Why I created KAS-text”</a>.</p>
+<h3 id="egui"><a href="https://github.com/emilk/egui/">Egui</a>&nbsp;<a class="anchor" href="#egui" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/013/egui.png" alt="Egui" /></p>
+<p><a href="https://github.com/emilk/egui/">Egui</a> is a highly portable immediate mode GUI library in pure Rust.
+Egui can be integrated anywhere you can paint textured triangles.
+You can compile Egui to WASM and render it on a web page using <a href="https://crates.io/crates/egui_web">egui_web</a>
+or compile and run natively using <a href="https://crates.io/crates/egui_glium">egui_glium</a>.</p>
+<p>Check out the <a href="https://emilk.github.io/egui/index.html">Egui web demo</a>.</p>
+<p>Example:</p>
+<pre data-lang="rust" style="background-color:#2b303b;color:#c0c5ce;" class="language-rust "><code class="language-rust" data-lang="rust"><span>Window::new(&quot;</span><span style="color:#a3be8c;">Debug</span><span>&quot;).</span><span style="color:#96b5b4;">show</span><span>(ui.</span><span style="color:#96b5b4;">ctx</span><span>(), |</span><span style="color:#bf616a;">ui</span><span>| {
+</span><span>    ui.</span><span style="color:#96b5b4;">label</span><span>(format!(&quot;</span><span style="color:#a3be8c;">Hello, world </span><span style="color:#d08770;">{}</span><span>&quot;, </span><span style="color:#d08770;">123</span><span>));
+</span><span>    </span><span style="color:#b48ead;">if</span><span> ui.</span><span style="color:#96b5b4;">button</span><span>(&quot;</span><span style="color:#a3be8c;">Save</span><span>&quot;).clicked {
+</span><span>        </span><span style="color:#96b5b4;">my_save_function</span><span>();
+</span><span>    }
+</span><span>    ui.</span><span style="color:#96b5b4;">text_edit</span><span>(&amp;</span><span style="color:#b48ead;">mut</span><span> my_string);
+</span><span>    ui.</span><span style="color:#96b5b4;">add</span><span>(Slider::f32(&amp;</span><span style="color:#b48ead;">mut</span><span> value, </span><span style="color:#d08770;">0.0</span><span>..=</span><span style="color:#d08770;">1.0</span><span>).</span><span style="color:#96b5b4;">text</span><span>(&quot;</span><span style="color:#a3be8c;">float</span><span>&quot;));
+</span><span>});
+</span></code></pre>
+<p><em>Discussions:
+<a href="https://reddit.com/r/rust/comments/hzwvsk/emigui_deserves_more_love">/r/rust</a></em></p>
+<h3 id="voxel-mapper"><a href="https://github.com/amethyst/voxel-mapper">voxel-mapper</a>&nbsp;<a class="anchor" href="#voxel-mapper" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/013/voxel-mapper.jpeg" alt="Demo: some terrain painted as grass, snow, dirt, etc" /></p>
+<p><a href="https://github.com/amethyst/voxel-mapper">voxel-mapper</a> is a library and in-game editor for voxel maps, smooth or cubey.
+The ultimate goal of the project is to make it easy for artists and programmers
+alike to generate volumetric game content, either manually or procedurally.
+The library’s author <a href="https://github.com/bonsairobo">@bonsairobo</a> has also written a couple posts:</p>
+<ul>
+<li><a href="https://medium.com/@bonsairobo/smooth-voxel-mapping-a-technical-deep-dive-on-real-time-surface-nets-and-texturing-ef06d0f8ca14">“Smooth Voxel Mapping: a Technical Deep Dive on Real-time Surface Nets and Texturing”</a></li>
+<li><a href="https://medium.com/@bonsairobo/a-3rd-person-camera-in-complex-voxel-world-523944d5335c">“A 3rd Person Camera in a Complex Voxel World”</a></li>
+</ul>
+<p>Upcoming on the roadmap are procedural generation algorithms for generating
+maps, new kinds of voxels, and graphical improvements. Currently, the library
+and editor depend on the Amethyst engine version 0.15, but there is a desire to
+make the library engine-agnostic. Contributions are welcome!</p>
+<h3 id="bevy-engine"><a href="https://bevyengine.org">Bevy Engine</a>&nbsp;<a class="anchor" href="#bevy-engine" aria-hidden="true">#</a>
+</h3>
+<p><a href="https://bevyengine.org/"><img src="https://gamedev.rs/news/013/bevy_logo.png" alt="bevy logo" /></a></p>
+<p><a href="https://bevyengine.org">Bevy</a> by <a href="https://github.com/cart">@cart</a> is a brand new, refreshingly simple data-driven
+game engine built in Rust. It aims to be:</p>
+<ul>
+<li><strong>Capable</strong>: Offer a complete 2D and 3D feature set.</li>
+<li><strong>Simple</strong>: Easy for newbies to pick up, but infinitely flexible
+for power users.</li>
+<li><strong>Data Focused</strong>: Data-oriented architecture using
+the Entity Component System paradigm.</li>
+<li><strong>Modular</strong>: Use only what you need. Replace what you don’t like.</li>
+<li><strong>Fast</strong>: App logic should run quickly, and when possible, in parallel.</li>
+<li><strong>Productive</strong>: Changes should compile quickly … waiting isn’t fun.</li>
+</ul>
+<p>These last few weeks have been big for the Bevy project:</p>
+<ul>
+<li>Bevy was announced and <a href="https://bevyengine.org">open sourced on GitHub</a>.</li>
+<li>Bevy’s features were introduced in the <a href="https://bevyengine.org/news/introducing-bevy">“Introducing Bevy”</a>
+blog post.</li>
+<li>Had a staggering number of people join the community.
+This required some quick planning to handle the new size,
+which they outlined in the <a href="https://bevyengine.org/news/scaling-bevy">Scaling Bevy</a> blog post.</li>
+<li>Added an official <a href="https://github.com/bevyengine/awesome-bevy">awesome-bevy repo</a>
+with a huge number of community plugins, games, apps, and learning materials.</li>
+<li>Rapier, a new pure-rust physics engine,
+released an <a href="https://www.dimforge.com/blog/2020/08/25/announcing-the-rapier-physics-engine/#reaching-out-to-other-communities-bevy-and-javascript">official Bevy plugin</a>.</li>
+<li>Thanks to the generosity of individuals and companies, they quickly met
+their first two funding goals on @cart’s <a href="https://github.com/sponsors/cart">GitHub Sponsors page</a>:
+“sustainable development” and “@cart makes minimum wage working on Bevy”.</li>
+<li>Bevy received a glowing review from the Amethyst Engine team and they agreed
+to collaborate in certain areas.
+See the <a href="https://community.amethyst.rs/t/bevy-engine-addressing-the-elephant-in-the-room">Addressing the Elephant in the Room</a>
+thread on the Amethyst forum for more details.</li>
+</ul>
+<p>Bevy users started sharing their work
+on the <a href="https://discord.com/channels/691052431525675048/692648638823923732">Bevy Discord showcase channel</a>:</p>
+<p><img src="https://gamedev.rs/news/013/bevy_showcase.png" alt="bevy showcase" /></p>
+<p>In addition to the initial Bevy GitHub release, 114 pull requests
+were merged this month. Some highlights:</p>
+<ul>
+<li>A custom <a href="https://github.com/bevyengine/bevy/pull/384">async task system for Bevy</a>,
+which significantly improves CPU usage and paves the way for future async work.</li>
+<li>Refactored data-driven ECS shader code to make it more maintainable, fix some bugs,
+and ready to be optimized via the ECS change detection apis.</li>
+<li>Support for “logical or” ECS queries as a compliment to the default “logical and”.</li>
+<li>Numerous CI improvements.</li>
+<li>Use shaderc to compile shaders for iOS builds.</li>
+<li>GLTF loading improvements.</li>
+</ul>
+<p>Bevy also made good progress on its three focus areas:</p>
+<ul>
+<li><a href="https://github.com/bevyengine/bevy/issues/254">Editor-Ready UI</a></li>
+<li><a href="https://github.com/bevyengine/bevy/issues/179">Physically Based Rendering (PBR)</a></li>
+<li><a href="https://github.com/bevyengine/bevy/issues/255">Scenes</a></li>
+</ul>
+<p><em>Discussions:
+<a href="https://reddit.com/r/rust/comments/i7bcwu/introducing_bevy">/r/rust</a>,
+<a href="https://news.ycombinator.com/item?id=24123283">hacker news</a>,
+<a href="https://twitter.com/cart_cart/status/1292903435155599361">twitter</a>,
+<a href="https://community.amethyst.rs/t/bevy-engine-addressing-the-elephant-in-the-room">amethyst forum</a></em></p>
+<h3 id="minigene"><a href="https://www.github.com/jojolepro/minigene">Minigene</a>&nbsp;<a class="anchor" href="#minigene" aria-hidden="true">#</a>
+</h3>
+<p><a href="https://www.github.com/jojolepro/minigene">Minigene</a> is a tiled and ASCII game engine made by <a href="https://github.com/jojolepro">@jojolepro</a>.
+It allows to very simply create complex games running on desktop as well as
+in the browser.</p>
+<p>While it is still under heavy development, a lot can be done already:</p>
+<ul>
+<li>Easily create ECS systems.</li>
+<li>Create tiled and ASCII entities.</li>
+<li>Create GUI elements.</li>
+<li>Move entities around with A* pathfinding.</li>
+<li>and much more!</li>
+</ul>
+<h3 id="tetra">Tetra&nbsp;<a class="anchor" href="#tetra" aria-hidden="true">#</a>
+</h3>
+<p><a href="https://github.com/17cupsofcoffee/tetra">Tetra</a> is a simple 2D game framework, inspired by XNA and Raylib. This month,
+versions <a href="https://twitter.com/17cupsofcoffee/status/1289857217198317568">0.4.1</a> and <a href="https://twitter.com/17cupsofcoffee/status/1294316642680426497">0.4.2</a> were released, featuring:</p>
+<ul>
+<li>Improved Serde support;</li>
+<li>Various fixes and improvements to the built-in <code>Camera</code> type;</li>
+<li>Many documentation improvements, based on user feedback.</li>
+</ul>
+<p>In addition, Tetra 0.5 is planned for release in early September. For more
+information on the upcoming changes, see the <a href="https://github.com/17cupsofcoffee/tetra/blob/main/CHANGELOG.md">changelog</a>.</p>
+<h3 id="piston"><a href="https://github.com/pistondevelopers/piston">Piston</a>&nbsp;<a class="anchor" href="#piston" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/013/piston-logo.png" alt="text logo" /></p>
+<p><a href="https://github.com/pistondevelopers/piston">Piston</a> is a modular game engine written in Rust.</p>
+<p>A new <a href="https://discord.gg/TkDnS9x">Piston Discord Channel</a> has been set up
+for the Piston project.</p>
+<p>Piston consists of a core library “piston” which itself are composed of
+smaller libraries for abstracting input, window and event loop.
+This design helps reducing breaking changes in the ecosystem.</p>
+<p>The core library <code>pistoncore-input</code> is now stabilized and reached 1.0!
+This is the most important core abstraction, because it glues all
+libraries that are not independent of the core.</p>
+<hr />
+<p><a href="https://github.com/pistondevelopers/dyon">Dyon</a> is a rusty dynamically typed scripting language.
+It is developed and maintained as part of the Piston project,
+but can be used as a standalone library.</p>
+<p>Dyon is designed from the bottom up to be a good gamedev scripting language for Rust.
+It uses a lifetime checker instead of garbage collection, a mutability checker,
+optional namespaces and ad-hoc types, named argument syntax,
+4D vectors and HTML colors, plus a lot more features!</p>
+<p>Recently, Dyon got better macro integration for native Rust types
+using <code>#</code> as a prefix.
+Here is an example of this feature is being tested in
+an experimental offline 3D renderer (not open sourced):</p>
+<pre data-lang="txt" style="background-color:#2b303b;color:#c0c5ce;" class="language-txt "><code class="language-txt" data-lang="txt"><span>// Called by `set_simple(scene: _, sdf: _, id: _)`.
+</span><span>dyon_fn!{fn set_simple__scene_sdf_id(
+</span><span>    scene: #&amp;mut SimpleScene,
+</span><span>    sdf: #&amp;Sdf,
+</span><span>    id: f64
+</span><span>) {
+</span><span>    scene.sdfs[id as usize] = sdf.clone()
+</span><span>}}
+</span></code></pre>
+<p>To follow updates on Dyon, check out the subreddit <a href="https://reddit.com/r/dyon/">/r/dyon</a>.</p>
+<hr />
+<p><a href="https://github.com/pistondevelopers/graphics">Piston-Graphics</a> is a library for 2D graphics, written in Rust,
+that works with multiple backends.</p>
+<p><code>Stencil::Increment</code> has been added and the ecosystem
+has been updated to the latest version.</p>
+<hr />
+<p>The research branch of the Piston project, AdvancedResearch,
+has released a new ECS library <a href="https://github.com/advancedresearch/nano_ecs">Nano-ECS</a>.</p>
+<p>This ECS design stores all components in a single array
+and uses bit masks for enabling/disabling components.
+An entity can have maximum 64 components and must be initialized
+with all components it uses in the future.
+Each entity has a slice into the array that stores all components.
+The <code>World</code> object, <code>Component</code> and systems are generated using macros.</p>
+<p>One research project with Nano-ECS is to prototype a UI framework
+for Rust with a UI editor (not open sourced yet).
+This project uses Piston-Graphics by default,
+but can generate draw commands for processing by other 2D APIs.
+It is also possible to override rendering of widgets for
+custom looks with Piston-Graphics, which is often useful in gamedev.
+Recently, this project has gotten to a place where
+<a href="https://twitter.com/PistonDeveloper/status/1299840279374110720">tree-view interaction</a> is working.</p>
+<p>You can follow development at <a href="https://twitter.com/PistonDeveloper">@PistonDeveloper at Twitter</a>.</p>
+<h3 id="amethyst-v0-15-1"><a href="https://amethyst.rs/posts/release-0.15.1">Amethyst v0.15.1</a>&nbsp;<a class="anchor" href="#amethyst-v0-15-1" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/013/amethyst-logo.png" alt="logo" /></p>
+<p><a href="https://amethyst.rs">Amethyst</a> is a game engine and tool-set
+for ambitious game developers.</p>
+<p>This month a <a href="https://amethyst.rs/posts/release-0.15.1">v0.15.1 version was released</a>.
+Updates include:</p>
+<ul>
+<li>New book chapters for <a href="https://book.amethyst.rs/stable/ui.html">UI</a> and <a href="https://book.amethyst.rs/stable/tiles.html">Tiles</a>;</li>
+<li><a href="https://github.com/amethyst/amethyst/tree/v0.15.1/examples">Updated examples</a>, with special attention to the pong example;</li>
+<li>Switch to <a href="https://github.com/amethyst/amethyst/blob/v0.15.1/.github/workflows/ci.yml">GitHub Actions for CI</a>;</li>
+<li>Lots of API improvements and bug fixes.</li>
+</ul>
+<p>For more details see the <a href="https://github.com/amethyst/amethyst/blob/master/docs/CHANGELOG.md#0151---2020-08-14">full changelog</a>.</p>
+<p>v0.16 plans include a full migration to the <a href="https://github.com/amethyst/legion">Legion ECS</a>
+and a big site face lift.</p>
+<p><em>Discussions:
+<a href="https://reddit.com/r/rust/comments/ibvheq/amethyst_engine_v0151">/r/rust</a></em></p>
+<h3 id="starframe"><a href="https://github.com/m0lentum/starframe">starframe</a>&nbsp;<a class="anchor" href="#starframe" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/013/starframe-demo.gif" alt="Current state of starframe graphics and physics" /></p>
+<p><a href="https://github.com/m0lentum/starframe">starframe</a> by <a href="https://twitter.com/molentum_">@molentum</a> is a work-in-progress 2D game engine
+for physics-y sidescrolling games. This month it received
+<a href="https://molentum.me/blog/starframe-architecture/">an experimental graph-based entity system</a>.</p>
+<p>The next area of focus is going to be fleshing out the physics with
+generalized constraints, which will enable things like friction and joints.</p>
+<p><em>Discussions:
+<a href="https://www.reddit.com/r/rust/comments/iju3xq/starframe_devlog_architecture_ecs_graph/">/r/rust</a>,
+<a href="https://twitter.com/molentum_/status/1300034941816897542">twitter</a></em></p>
+<h3 id="mochi"><a href="https://github.com/richardanaya/mochi">mochi</a>&nbsp;<a class="anchor" href="#mochi" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/013/mochi.jpg" alt="A running app on a physical device" /></p>
+<p><a href="https://github.com/richardanaya/mochi">mochi</a> by <a href="https://github.com/richardanaya">@richardanaya</a> is a game engine oriented toward
+low-power mobile Linux phones/tablets.
+It’s written in Rust and uses Gtk and Cairo.
+All drawing is done with an <a href="https://gtk-rs.org/docs/cairo/struct.Context.html">Cairo Context</a> that mochi
+has extended to do some really <a href="https://docs.rs/mochi/latest/mochi/trait.MochiCairoExt.html">common graphics operations</a>.</p>
+<p>This project is super alpha but usable.
+Current features include: touch, screen rotation, atlases, sounds.</p>
+<p><a href="https://github.com/richardanaya/pinephone-cairo-game-starter">pinephone-cairo-game-starter</a> is a starter for creating
+a Cairo-based game in Rust for <a href="https://en.wikipedia.org/wiki/PinePhone">PinePhone</a></p>
+<p><em>Discussions:
+<a href="https://reddit.com/r/rust_gamedev/comments/i2389n/how_to_build_a_pinephone_game_using_rust">/r/rust_gamedev</a></em></p>
+<h3 id="bird-puffin-profiler">🐦 <a href="https://github.com/EmbarkStudios/puffin">Puffin</a> Profiler&nbsp;<a class="anchor" href="#bird-puffin-profiler" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/013/puffin.png" alt="Puffin flamegraph shown with puffin-imgui" /></p>
+<p><a href="https://github.com/EmbarkStudios/puffin">Puffin</a> is a simple instrumentation profiler created by <a href="https://www.embark-studios.com/">Embark</a>
+where you can opt-in to profile parts of your code.</p>
+<pre data-lang="rust" style="background-color:#2b303b;color:#c0c5ce;" class="language-rust "><code class="language-rust" data-lang="rust"><span style="color:#b48ead;">fn </span><span style="color:#8fa1b3;">my_function</span><span>() {
+</span><span>    puffin::profile_function!():
+</span><span>    ...
+</span><span>    </span><span style="color:#b48ead;">if </span><span>... {
+</span><span>        puffin::profile_scope_data!(&quot;</span><span style="color:#a3be8c;">load_image</span><span>&quot;, image_name):
+</span><span>        ...
+</span><span>    }
+</span><span>}
+</span></code></pre>
+<p>The collected profile data can be viewed ingame with <a href="https://github.com/Gekkio/imgui-rs">imgui-rs</a>.</p>
+<h3 id="optick-profiler"><a href="https://optick.dev/">Optick</a> Profiler&nbsp;<a class="anchor" href="#optick-profiler" aria-hidden="true">#</a>
+</h3>
+<p><a href="https://youtube.com/watch?v=p57TV5342fo"><img src="https://gamedev.rs/news/013/optick-video.jpg" alt="A screenshot from the video" /></a>
+<em>Click to watch a <a href="https://youtube.com/watch?v=p57TV5342fo">video tutorial / features overview</a></em></p>
+<p><a href="https://optick.dev/">Optick</a> by <a href="https://github.com/bombomby">@bombomby</a> is a lightweight C++ profiler for games
+that provides access for all the necessary tools required for
+efficient performance analysis and optimization:
+instrumentation, switch-contexts, sampling, GPU counters.</p>
+<p>This month Rust API for Optick was released: <a href="https://github.com/bombomby/optick-rs">optick-rs</a>.</p>
+<p>Also, a set of procedural macros for simplifying the process of code markup
+were published: <a href="https://crates.io/crates/optick-attr">optick-attr</a>.</p>
+<pre data-lang="rust" style="background-color:#2b303b;color:#c0c5ce;" class="language-rust "><code class="language-rust" data-lang="rust"><span style="color:#65737e;">// Instrument current function
+</span><span>#[</span><span style="color:#bf616a;">optick_attr</span><span>::</span><span style="color:#bf616a;">profile</span><span>]
+</span><span style="color:#b48ead;">fn </span><span style="color:#8fa1b3;">calc</span><span>() { </span><span style="color:#65737e;">/* Do some stuff*/ </span><span>}
+</span><span>
+</span><span style="color:#65737e;">// Generate performance capture for function
+</span><span style="color:#65737e;">// to {dir}/capture_name(date-time).opt.
+</span><span>#[</span><span style="color:#bf616a;">optick_attr</span><span>::</span><span style="color:#bf616a;">capture</span><span>(&quot;</span><span style="color:#a3be8c;">capture_name</span><span>&quot;)]
+</span><span style="color:#b48ead;">pub fn </span><span style="color:#8fa1b3;">main</span><span>() {
+</span><span>    </span><span style="color:#96b5b4;">calc</span><span>();
+</span><span>}
+</span></code></pre>
+<h3 id="wowaddonmanager-v1-0-2"><a href="https://github.com/MR2011/wowAddonManager">wowAddonManager</a> v1.0.2&nbsp;<a class="anchor" href="#wowaddonmanager-v1-0-2" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/013/wowAddonManager-example.png" alt="wowAddonManager Example" /></p>
+<p>The <a href="https://github.com/MR2011/wowAddonManager">wowAddonManager</a> is a terminal user interface for managing World of
+Warcraft addons on Linux made by <a href="https://twitter.com/mreimsbach">@mreimsbach</a>. It allows installing addons
+from <a href="https://www.curseforge.com/wow/addons">Curseforge</a> for WoW Classic as well as WoW Retail.</p>
+<p>The <a href="https://github.com/fdehau/tui-rs">tui-rs</a> library was used to create the interface and <a href="https://gitlab.redox-os.org/redox-os/termion">Termion</a> was used to
+communicate with the TTY.</p>
+<h3 id="intellij-ron"><a href="https://github.com/ron-rs/intellij-ron">intellij-ron</a>&nbsp;<a class="anchor" href="#intellij-ron" aria-hidden="true">#</a>
+</h3>
+<p><a href="https://github.com/ron-rs/ron">RON</a> (Rusty Object Notation) is a simple readable data serialization format
+that looks similar to Rust syntax and is designed
+to support all of <a href="https://serde.rs/data-model.html">Serde’s data model</a>.
+RON is relatively popular amongst Rust game developers.</p>
+<p>This month <a href="https://github.com/JonahHenriksson">@JonahHenriksson</a> released <a href="https://github.com/ron-rs/intellij-ron">intellij-ron</a> - a new plugin
+that adds <a href="https://github.com/ron-rs/ron">RON</a>  support to IntelliJ-based IDEs.</p>
+<p><em>Discussions:
+<a href="https://reddit.com/r/rust/comments/ictnsc/ive_created_an_free_open_source_intellij_plugin">/r/rust</a></em></p>
+<h3 id="sia-parser-viewer"><a href="https://en.wikipedia.org/wiki/Football_Manager">“.sia” Parser &amp; Viewer</a>&nbsp;<a class="anchor" href="#sia-parser-viewer" aria-hidden="true">#</a>
+</h3>
+<p><img src="https://gamedev.rs/news/013/football-manager.jpeg" alt="sia_viewer demo: A textured model" /></p>
+<p>This month <a href="https://github.com/Stromberg90">@Stromberg90</a> published <a href="https://github.com/Stromberg90/football-manager-tools">Football Manager Tools</a> - a set of tools
+for working with <a href="https://en.wikipedia.org/wiki/Football_Manager">Football Manager’s</a> 3D mesh format(.sia).
+Amongst them:</p>
+<ul>
+<li><code>sia_parser</code> - a Rust crate for parsing .sia files.</li>
+<li><code>sia_viewer</code> - a standalone Mesh(.sia) Viewer.</li>
+</ul>
+<h2 id="popular-workgroup-issues-in-github">Popular Workgroup Issues in GitHub&nbsp;<a class="anchor" href="#popular-workgroup-issues-in-github" aria-hidden="true">#</a>
+</h2>
+<ul>
+<li><a href="https://github.com/rust-gamedev/wg">rust-gamedev/wg</a>:
+<ul>
+<li><a href="https://github.com/rust-gamedev/wg/issues/89">#89 “Moving ecs_bench to GDWG”</a>;</li>
+<li><a href="https://github.com/rust-gamedev/wg/issues/93">#93 “Consider creating a game math library benchmark for the working group”</a>;</li>
+</ul>
+</li>
+<li><a href="https://github.com/rust-gamedev/rust-gamedev.github.io">rust-gamedev/rust-gamedev.github.io</a>:
+<ul>
+<li><a href="https://github.com/rust-gamedev/rust-gamedev.github.io/issues/233">#233 “Custom Domain”</a>;</li>
+</ul>
+</li>
+<li><a href="https://github.com/rust-gamedev/ecs_bench_suite">rust-gamedev/ecs_bench_suite</a>:
+<ul>
+<li><a href="https://github.com/rust-gamedev/ecs_bench_suite/issues/6">#6 “Benchmark compile times”</a>;</li>
+<li><a href="https://github.com/rust-gamedev/ecs_bench_suite/issues/13">#13 “How results will be updated?”</a>;</li>
+</ul>
+</li>
+</ul>
+<h2 id="meeting-minutes">Meeting Minutes&nbsp;<a class="anchor" href="#meeting-minutes" aria-hidden="true">#</a>
+</h2>
+<!-- Up to 10 most important notes + a link to the full details -->
+<p><a href="https://github.com/rust-gamedev/wg/issues?q=label%3Ameeting">See all meeting issues</a> including full text notes
+or <a href="https://github.com/rust-gamedev/wg#join-the-fun">join the next meeting</a>.</p>
+<h2 id="requests-for-contribution">Requests for Contribution&nbsp;<a class="anchor" href="#requests-for-contribution" aria-hidden="true">#</a>
+</h2>
+<!-- Links to "good first issue"-labels or direct links to specific tasks -->
+<ul>
+<li><a href="https://github.com/search?q=user:EmbarkStudios+state:open">Embark’s open issues</a> (<a href="https://embark.rs">embark.rs</a>).</li>
+<li><a href="https://github.com/rust-windowing/winit/issues?utf8=%E2%9C%93&amp;q=is%3Aissue+is%3Aopen+label%3A%22status%3A+help+wanted%22+label%3A%22Good+first+issue%22">winit’s “Good first issue” and “help wanted” issues</a>.</li>
+<li><a href="https://github.com/gfx-rs/gfx/issues?q=is%3Aissue+is%3Aopen+label%3Acontributor-friendly">gfx-rs’s “contributor-friendly” issues</a>.</li>
+<li><a href="https://github.com/gfx-rs/wgpu-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22">wgpu’s “help wanted” issues</a>.</li>
+<li><a href="https://github.com/phaazon/luminance-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22low+hanging+fruit%22">luminance’s “low hanging fruit” issues</a>.</li>
+<li><a href="https://github.com/ggez/ggez/labels/%2AGOOD%20FIRST%20ISSUE%2A">ggez’s “good first issue” issues</a>.</li>
+<li><a href="https://gitlab.com/veloren/veloren/issues?label_name=beginner">Veloren’s “beginner” issues</a>.</li>
+<li><a href="https://github.com/amethyst/amethyst/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">Amethyst’s “good first issue” issues</a>.</li>
+<li><a href="https://github.com/dabreegster/abstreet/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">A/B Street’s “good first issue” issues</a>.</li>
+<li><a href="https://github.com/mun-lang/mun/labels/good%20first%20issue">Mun’s “good first issue” issues</a>.</li>
+<li><a href="https://github.com/mkhan45/SIMple-Mechanics/labels/good%20first%20issue">SIMple Mechanic’s good first issues</a>.</li>
+<li><a href="https://github.com/bevyengine/bevy/labels/good%20first%20issue">Bevy’s “good first issue” issues</a>.</li>
+</ul>
+<hr />
+<p>That’s all news for today, thanks for reading!</p>
+<p>Subscribe to <a href="https://twitter.com/rust_gamedev">@rust_gamedev on Twitter</a>
+or <a href="https://reddit.com/r/rust_gamedev">/r/rust_gamedev subreddit</a> if you want to receive fresh news!</p>
+<p><strong>Discussions of this post</strong>:
+<a href="https://reddit.com/r/rust/comments/ioftll/this_month_in_rust_gamedev_13_august_2020">/r/rust</a>,
+<a href="https://twitter.com/rust_gamedev/status/1303073032660037635">twitter</a>.</p>
+
+        </div>
+
+        
+
+        <a class="u-url" href="https:&#x2F;&#x2F;gamedev.rs&#x2F;news&#x2F;013&#x2F;" hidden></a>
+    </article>
+
+        </main>
+
+        <footer class="site-footer h-card">
+    <data class="u-url" href="https://gamedev.rs"></data>
+
+    <div class="wrapper">
+
+        <div class="footer-col-wrapper">
+            <div class="footer-col one-half">
+                <h2 class="footer-heading">Rust GameDev WG</h2>
+                
+                
+                    <p>Stay up to date with the progress and recent developments in the Rust Game Development Working Group.</p>
+                
+            </div>
+
+            <div class="footer-col one-half">
+                <ul class="social-links">
+    
+    
+    
+    <li><a href="https://github.com/rust-gamedev" title="rust-gamedev"><svg class="svg-icon grey"><use xlink:href="https://gamedev.rs/minima-social-icons.svg#github"></use></svg> GitHub (rust-gamedev)</a></li>
+    
+    
+    
+    
+    <li><a href="https://twitter.com/rust_gamedev" title="rust_gamedev"><svg class="svg-icon grey"><use xlink:href="https://gamedev.rs/minima-social-icons.svg#twitter"></use></svg> Twitter (rust_gamedev)</a></li>
+    
+    
+    
+    
+    <li><a href="https://discord.gg/j6QJsMd" title="Discord"><svg class="svg-icon grey"><use xlink:href="https://gamedev.rs/minima-social-icons.svg#discord"></use></svg> Discord (#wg-gamedev)</a></li>
+    <li><a href="https://gamedev.rs/rss.xml" title="RSS"><svg class="svg-icon grey"><use xlink:href="https://gamedev.rs/minima-social-icons.svg#rss"></use></svg> RSS feed</a></li>
+</ul>
+
+            </div>
+        </div>
+
+    </div>
+
+</footer>
+
+    </body>
+</html>
