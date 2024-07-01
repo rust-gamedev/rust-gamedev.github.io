@@ -1,14 +1,21 @@
 <form action="https://gamedev.us22.list-manage.com/subscribe/post?u=3b2317bf9350c11e252162541&amp;id=aaf37783ec&amp;f_id=0011cde1f0" method="post" name="mc-embedded-subscribe-form">
     <div class="email-form">
-        <div class="email-input">
+        <svg class="email-form__icon" aria-hidden="true">
+            <svg><use xlink:href="{{ get_url(path='intro-icons.svg#incoming-envelope') }}"></use></svg>
+        </svg>
+
+        <div class="email-form__description">
+            Get the Rust GameDev Workgroup’s monthly newsletter delivered directly to your inbox.
+        </div>
+
+        <div class="email-form__input email-input">
             <label for="email-input">Email Address</label>
-            <input type="email" inputmode="email" name="EMAIL" id="email-input" required>
-        </div>
-        <div class="email-submit">
+            <input type="email" inputmode="email" name="EMAIL" id="email-input" placeholder="hello@example.com" required>
             <button type="submit" name="subscribe" class="btn">Subscribe</button>
-        </div>
-        <div style="position: absolute; left: -5000px;" aria-hidden="true">
-            <input type="text" name="b_3b2317bf9350c11e252162541_aaf37783ec" tabindex="-1" value="">
+
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text" name="b_3b2317bf9350c11e252162541_aaf37783ec" tabindex="-1" value="">
+            </div>
         </div>
     </div>
 </form>

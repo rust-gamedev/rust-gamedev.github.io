@@ -103,6 +103,10 @@ input, button {
     font-size: inherit;
 }
 
+input {
+    min-width: 0; // Allow the input to shrink on small devices.
+}
+
 a.btn, // Trick to increase the specificity and win against rules such as a:visited
 .btn {
     text-decoration: none;
@@ -128,6 +132,13 @@ a.btn, // Trick to increase the specificity and win against rules such as a:visi
     }
 }
 
+input[type=email] {
+    border-radius: 3px;
+    border: 1px solid $brand-color;
+    box-sizing: border-box;
+    padding: .4em;
+}
+
 // A hack for image captions.
 // See https://stackoverflow.com/questions/19331362/using-an-image-caption-in-markdown-jekyll
 img+em,
@@ -139,13 +150,39 @@ video+em {
 }
 
 .email-form {
-    display: flex;
+    display: grid;
+    margin-top: $spacing-unit;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: .6em 1em;
+    background-color: color-mix(in oklab, $brand-color 20%, #fff);
+    padding: $spacing-unit * .5;
+    align-items: center;
+    border-radius: 3px;
 
-    .email-input {
-        margin-right: 0px;
+    .email-form__icon {
+        width: 5em;
+        height: 5em;
+        --icon-stroke-color: #{$brand-color};
+        --icon-fill-color: rgba(255, 255, 255, .4);
     }
 
-    .email-submit {
-        margin-left: 0px;
+    .email-form__description {
+        max-width: 18em;
+    }
+
+    .email-form__input {
+        grid-column: 1 / 3;
+    }
+}
+
+.email-input {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 5px;
+    
+    label {
+        grid-column: 1 / 3;
+        font-size: .8em;
     }
 }
