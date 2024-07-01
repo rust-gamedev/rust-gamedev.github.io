@@ -269,7 +269,8 @@ educational software at a startup with no issues so far.
 
 ### [FMOD-oxide][fmod-oxide]
 
-Safe rust bindings to the FMOD sound engine. This crate tries to be as rusty and low-cost as possible, without comprimising on any APIs. 
+FMOD-oxide brings safe rust bindings to the FMOD sound engine. 
+This crate tries to be as rusty and low-cost as possible, without comprimising on any APIs. 
 Certain APIs, such as loading banks from a pointer, are marked as unsafe, but are still available for use.
 
 [fmod-oxide]: https://crates.io/crates/fmod-oxide
@@ -309,62 +310,58 @@ its core abstraction can be used to manage signals-powered reactivity for any en
 
 ### [bevy_light_2d][bevy_light_2d]
 
-![bevy_light_2d](bevy_light_2d.gif)
-_bevy light 2d_
+![A candle shining 2D light](bevy_light_2d.gif)  
+_A candle shining 2D light_
 
-bevy_light_2d is a new general purpose 2D lighting for the bevy game engine. Designed to be simple to use, yet expressive enough to fit a variety of needs. Features include
+bevy_light_2d is a new general purpose 2D lighting for the Bevy game engine. 
+Designed to be simple to use, yet expressive enough to fit a variety of needs. Features include
 
-* Component driven design
-* Configurable point lights
-* Camera specific ambient light
-* Single camera rendering
+- Component driven design
+- Configurable point lights
+- Camera specific ambient light
+- Single camera rendering
 
 [bevy_light_2d]: https://github.com/jgayfer/bevy_light_2d
 
 ### [bevy_hanabi][bevy_hanabi] 0.11
 
-![trails in Bevy Hanabi](bevy_hanabi_trails.gif)
-_bevy hanabi trails_
+![Trails in Hanabi](bevy_hanabi_trails.gif)  
+_Trails in Hanabi_
 
-bevy_hanabi is a GPU particle system plugin for the Bevy game engine. The most notable new feature in [bevy_hanabi 0.11](bevy_hanabi_0_11) is supports is a new trails and ribbons.
+Hanabi is a GPU particle system plugin for the Bevy game engine. 
+The most notable new feature in [bevy_hanabi 0.11][bevy_hanabi] is support for trails and ribbons.
 
-There is a migration guide and a changelog.
-
-[bevy_hanabi]: https://crates.io/crates/bevy_hanabi
-[bevy_hanabi_0_11]: https://crates.io/crates/bevy_hanabi/0.11.0
-
-### [glam][glam] 0.28
-
-glam is a foundational crate when it comes to the Bevy ecosystem. This is probably most visible in the Vec types Bevy consumes and re-exports, like Vec3.
-
-v0.28 brings AArch64 NEON SIMD support as well as a couple smaller breaking changes.
-
-[glam]: https://github.com/bitshifter/glam-rs
+[bevy_hanabi]: https://github.com/djeedai/bevy_hanabi
 
 ### [berdicles][berdicles]
 
-![berdicles particles](berdicles.avif)
-_berdicles_
+![A fountain of particles](berdicles.jpg)  
+_A fountain of particles_
 
-berdicles is an expressive CPU particle system for the Bevy engine. Features include
+berdicles is an expressive CPU particle system for the Bevy engine. Features include:
 
-* Instancing based CPU particles.
-* Expressive non-physics based particle traits.
-* Familiar setup with bevy's native Material and Mesh.
-* Particles as emitters.
-* Mesh based particle trails.
-* Particle events that spawns other particles.
-* Billboard particles.
-* The crate is compatible with Bevy 0.14+.
+- Instancing based CPU particles.
+- Expressive non-physics based particle traits.
+- Familiar setup with Bevy's native Material and Mesh.
+- Particles as emitters.
+- Mesh based particle trails.
+- Particle events that spawn other particles.
+- Billboard particles.
 
 [berdicles]: https://github.com/mintlu8/berdicles
 
-
 ### Other Library Updates and Releases
 
-- [gdext-coroutines](https://github.com/Houtamelo/gdext_coroutines): Run Rust coroutines in Godot 4.2+ (through GDExtension), inspired on Unity's Coroutines design.
-- [FunDSP 0.18](https://github.com/SamiPerttu/fundsp): FunDSP is an audio DSP ([digital signal processing](https://en.wikipedia.org/wiki/Digital_signal_processing))
+- [glam 0.28]: `glam` is a foundational crate when it comes to math in general in Rust.
+    For example, its types are directly visible in the `Vec` types Bevy consumes and re-exports, like `Vec3`.
+    v0.28 brings AArch64 NEON SIMD support as well as a couple smaller breaking changes.
+- [gdext-coroutines]: Run Rust coroutines in Godot 4.2+ (through GDExtension), inspired on Unity's Coroutines design.
+- [FunDSP 0.18]: FunDSP is an audio DSP ([digital signal processing](https://en.wikipedia.org/wiki/Digital_signal_processing))
     library for audio processing and synthesis. This release is a rewrite that adds no_std and SIMD support. 
+
+[glam 0.28]: https://github.com/bitshifter/glam-rs
+[gdext-coroutines]: https://github.com/Houtamelo/gdext_coroutines
+[FunDSP 0.18]: https://github.com/SamiPerttu/fundsp
 
 ## Interviews
 
