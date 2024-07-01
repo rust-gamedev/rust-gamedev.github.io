@@ -307,7 +307,7 @@ its core abstraction can be used to manage signals-powered reactivity for any en
 
 [haalka]: https://github.com/databasedav/haalka
 
-### bevy_light_2d
+### [bevy_light_2d][bevy_light_2d]
 
 ![bevy_light_2d](bevy_light_2d.gif)
 _bevy light 2d_
@@ -319,7 +319,7 @@ bevy_light_2d is a new general purpose 2D lighting for the bevy game engine. Des
 * Camera specific ambient light
 * Single camera rendering
 
-bevy_light_2d: https://github.com/jgayfer/bevy_light_2d
+[bevy_light_2d]: https://github.com/jgayfer/bevy_light_2d
 
 ### [bevy_hanabi][bevy_hanabi] 0.11
 
