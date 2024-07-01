@@ -99,15 +99,20 @@ h6:hover .anchor {
     margin-bottom: 0;
 }
 
+input, button {
+    font-size: inherit;
+}
+
 a.btn, // Trick to increase the specificity and win against rules such as a:visited
 .btn {
     text-decoration: none;
     border-radius: 3px;
     font-weight: 600;
-    border: 1px solid transparent;
+    border: none;
     box-sizing: border-box;
     display: inline-block;
     padding: 0.4em 2em;
+    transition: background-color 125ms;
 
     background-color: $brand-color;
     color: $background-color;
@@ -115,7 +120,11 @@ a.btn, // Trick to increase the specificity and win against rules such as a:visi
 
     &:hover {
         color: lighten($background-color, 10);
-        border-color: $brand-color;
+        background-color: lighten($brand-color, 5);
+    }
+
+    &:active {
+        background-color: darken($brand-color, 5);
     }
 }
 
