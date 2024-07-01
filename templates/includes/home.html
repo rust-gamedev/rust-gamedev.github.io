@@ -39,6 +39,7 @@
         <a class="btn" id="all-blog-posts" href="{{ get_url(path='blog/') }}">All Blog Posts</a>
         <a href="{{ get_url(path='rss.xml') }}">
             <svg class="svg-icon orange"><use xlink:href="{{ get_url(path='minima-social-icons.svg#rss') }}"></use></svg><span>Subscribe</span>
-        </a>
+        </a>                
+        {% include "includes/email_signup.html" %}
     </p>
 </div>

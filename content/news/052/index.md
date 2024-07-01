@@ -65,7 +65,16 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Announcements
 
-TODO: I'll be working on adding an email subscription this weekend, so I'll write about it here once that's done :) - Jan
+For years, our readers have asked for a way to subscribe to this newsletter by email. This again came up in our [recent survey][survey].
+We're happy to announce that this feature is now available! When you visit our [homepage],
+you can now scroll down and find an email subscription form. 
+We'll send you an email whenever a new post is published, which currently is once per month.
+
+The emails are currently sent from [gamedev-rs@proton.me](mailto:gamedev-rs@proton.me). 
+We will switch this to an actual @gamedev.rs address in the future. Please tell us if you encounter any issues with the emails.
+
+[survey]: https://gamedev.rs/blog/survey-02/
+[homepage]: https://gamedev.rs/
 
 ## Game Updates
 
