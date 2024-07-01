@@ -99,6 +99,7 @@ h6:hover .anchor {
     margin-bottom: 0;
 }
 
+a.btn, // Trick to increase the specificity and win against rules such as a:visited
 .btn {
     text-decoration: none;
     border-radius: 3px;
