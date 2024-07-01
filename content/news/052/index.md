@@ -67,7 +67,7 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 Since years, our readers have asked for a way to subscribe to this newsletter by email. This again came up in our [recent survey][survey].
 We're happy to announce that this feature is now available! When you visit our [homepage],
-you can now scroll a bit down and find an email subscription form. 
+you can now scroll down and find an email subscription form. 
 We'll send you an email whenever a new post is published, which currently is once per month.
 
 The emails are currently sent from [gamedev-rs@proton.me](mailto:gamedev-rs@proton.me). 
