@@ -91,6 +91,27 @@ killing baddies using spells powered by pixel physics. This month was focused on
 [pixel-wizards-update-4]: https://www.slowrush.dev/news/ragdolls/
 [pixel-wizards-update-5]: https://www.slowrush.dev/news/fiddling-with-fire/
 
+
+### [Way of Rhea][wor]
+
+[![Way of Rhea](wor.jpg)][wor]
+*Way of Rhea: a puzzle game. Available on Steam and 20% off for the Steam Summer Sale!*
+
+Way of Rhea ([Steam][wor], [Newsletter][wor-mail]) is a color-based puzzle game with difficult puzzles, but
+forgiving mechanics developed by [Mason Remaley] in a custom Rust engine. Since its release in May,
+Mason has fixed many bugs and implemented quality-of-life improvements.
+
+They recently conducted an [AMA on /r/rust_gamedev][ama] about their experience 
+developing and shipping a game after six years in Rust. 
+They then curated the questions and answers into a [blog post][wor-ama]. 
+It includes questions about Rust, libraries, experiences writing a custom game engine, and game development in general.
+
+[Mason Remaley]: https://masonremaley.com/
+[wor]: https://store.steampowered.com/app/1110620/Way_of_Rhea/?utm_campaign=tmirgd&utm_source=n52
+[wor-mail]: https://anthropicstudios.com/newsletter/signup/tech
+[ama]: https://www.reddit.com/r/rust_gamedev/comments/1cwqcfl/i_spent_6_years_developing_a_puzzle_game_in_rust/
+[wor-ama]: https://gamesbymason.com/2024/06/01/wor-ama/
+
 ### [Gunbug][gunbug]
 
 [![Gunbugs shooting at a bunch of eggplants](gunbug.jpg)][gunbug]  
