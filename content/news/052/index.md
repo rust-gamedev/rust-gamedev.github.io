@@ -39,7 +39,7 @@ Feel free to send PRs about your own projects!
 - [Blog Posts](#blog-posts)
 - [Jobs](#jobs)
 - [Misc. Links](#misc-links)
-- [Future news](#future-news)
+- [Future News](#future-news)
 
 <!--
 Ideal section structure is:
@@ -487,7 +487,7 @@ for an unannounced project.
 - This Week In Quads
   - [`blocking_event_loop` on ios opengl/metal, Docker article, and libxkbcommon on NixOS](https://macroquad.rs/twiq/week5/)
 
-## Future news
+## Future News
 
 <!-- Section to get more people involved in writing news. -->
 
