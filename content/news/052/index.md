@@ -80,8 +80,8 @@ We will switch this to an actual @gamedev.rs address in the future. Please tell 
 
 ### [Untitled Pixel Wizards Game][pixel-wizards]
 
-{{ embed_video(type="video/mp4", src="untitled-pixel-wizards-game.mp4",
-caption="Enemies now perceive, pursue and attack.. and occasionally get burned to death.") }} 
+{{ embed_video(type="video/mp4", src="untitled-pixel-wizards-game.mp4") }}
+*Enemies now perceive, pursue, and attack... and occasionally get burned to death.*
 
 [Untitled Pixel Wizards Game][pixel-wizards] is a local-multiplayer [Noita]-like platformer about
 killing baddies using spells powered by pixel physics. This month was focused on juicing up said baddies:
@@ -123,8 +123,8 @@ It includes questions about Rust, libraries, experiences writing a custom game e
 
 ### [Gunbug][gunbug]
 
-[![Gunbugs shooting at a bunch of eggplants](gunbug.jpg)][gunbug]  
-_Gunbugs shooting at a bunch of eggplants_
+[![Gunbugs shooting at a bunch of eggplants](gunbug.jpg)][gunbug]
+*Gunbugs shooting at a bunch of eggplants*
 
 Gunbug is a 2D online co-op horde survival shoot'em up game.
 
@@ -135,7 +135,7 @@ It is built with [Bevy] and uses [bevy_rapier] for ray casting,
 [bevy_kira_audio] for audio, and [renet] for networking. 
 The iOS and macOS versions are built with [xbuild].
 
-You can wishlist the game on [Steam][gunbug]. Playtests start in the upcomingv months. 
+You can wishlist the game on [Steam][gunbug]. Playtests start in the upcoming months. 
 iOS and Android builds already work, but store pages don't exist yet.
 
 [gunbug]: https://store.steampowered.com/app/2946990?utm_source=this_month_in_rust
@@ -183,8 +183,8 @@ _See also the [devlog article][gd-dev-june]._
 
 ### [Bevy 0.14 Release Candidate][bevy-0.14-rc]
 
-![Sharp Screen-Space Reflections in Bevy 0.14](ssr.jpg)  
-_Sharp Screen-Space Reflections in Bevy 0.14_
+![Sharp Screen-Space Reflections in Bevy 0.14](ssr.jpg)
+*Sharp Screen-Space Reflections in Bevy 0.14*
 
 The Bevy game engine is gearing up to release version 0.14. 
 The (probably) last release candidate is out now and ready for testing.
@@ -233,8 +233,8 @@ and how to release the game on multiple platforms.
 
 ### [Rusty Playdate]
 
-![The Playdate console](../051/playdate.png)  
-_The Playdate console_
+![The Playdate console](../051/playdate.png)
+*The Playdate console*
 
 [Rusty Playdate] ([GitHub][Rusty Playdate], [Mastodon][Rusty Playdate Masto]) by [@boozook](https://github.com/boozook)
 is the large set of crates with bindings, toolset for the full cycle of creating games for the [Playdate handheld console][playdate].
@@ -279,7 +279,7 @@ _Discussions: [GitHub][Rusty Playdate Gh-discuss], [Matrix][Rusty Playdate Matri
 ### [egui_ratatui][egui_ratatui]
 
 ![egui_ratatui running in Bevy](egui_ratatui.jpg)
-_egui_ratatui running in Bevy_
+*egui_ratatui running in Bevy*
 
 [egui_ratatui][egui_ratatui] by [gold-silver-copper][gold] is an [egui][egui] widget that is also a [ratatui][ratatui] backend. 
 It allows you to create Terminal User Interfaces (TUIs) inside egui.
@@ -307,8 +307,8 @@ Certain APIs, such as loading banks from a pointer, are marked as unsafe, but ar
 
 ### [Bevy Lunex][bevy-lunex]
 
-![Bevypunk: a recreation of Cyberpunk 2077's UI made with Lunex](bevypunk.jpg)  
-_Bevypunk: a recreation of Cyberpunk 2077's UI made with Lunex_
+![Bevypunk: a recreation of Cyberpunk 2077's UI made with Lunex](bevypunk.jpg)
+*Bevypunk: a recreation of Cyberpunk 2077's UI made with Lunex*
 
 
 Lunex is a path based retained layout engine for Bevy entities, built around vanilla Bevy ECS. 
@@ -325,7 +325,8 @@ You can get started by reading the [bevy_lunex book][bevy-lunex-book].
 
 ### [haalka]
 
-{{ embed_video(type="video/mp4", src="haalka.mp4", caption="A Minecraft-like UI made with haalka") }}
+{{ embed_video(type="video/mp4", src="haalka.mp4") }}
+*A Minecraft-like UI made with haalka*
 
 হালকা: _in bengali, haalka means "light" (e.g. not heavy) and can also be used to mean "easy"_
 
@@ -340,22 +341,22 @@ its core abstraction can be used to manage signals-powered reactivity for any en
 
 ### [bevy_light_2d][bevy_light_2d]
 
-![A candle shining 2D light](bevy_light_2d.gif)  
+![A candle shining 2D light](bevy_light_2d.gif)
 _A candle shining 2D light_
 
 bevy_light_2d is a new general purpose 2D lighting for the Bevy game engine. 
-Designed to be simple to use, yet expressive enough to fit a variety of needs. Features include
+Designed to be simple to use, yet expressive enough to fit a variety of needs. Features include:
 
 - Component driven design
 - Configurable point lights
-- Camera specific ambient light
-- Single camera rendering
+- Camera-specific ambient light
+- Single-camera rendering
 
 [bevy_light_2d]: https://github.com/jgayfer/bevy_light_2d
 
 ### [bevy_hanabi][bevy_hanabi] 0.11
 
-![Trails in Hanabi](bevy_hanabi_trails.gif)  
+![Trails in Hanabi](bevy_hanabi_trails.gif)
 _Trails in Hanabi_
 
 Hanabi is a GPU particle system plugin for the Bevy game engine. 
@@ -365,7 +366,7 @@ The most notable new feature in [bevy_hanabi 0.11][bevy_hanabi] is support for t
 
 ### [berdicles][berdicles]
 
-![A fountain of particles](berdicles.jpg)  
+![A fountain of particles](berdicles.jpg)
 _A fountain of particles_
 
 berdicles is an expressive CPU particle system for the Bevy engine. Features include:
@@ -397,7 +398,7 @@ berdicles is an expressive CPU particle system for the Bevy engine. Features inc
 
 ### [Metalmancy @ OpenSauce][metalmancy_interview]
 
-![image/GIF description](metalmancy_interview.jpg)  
+![image/GIF description](metalmancy_interview.jpg)
 _Arcade cabinet close up_
 
 [Metalmancy][metalmancy_website] are creating custom and configurable arcade machines. Their flagship game [Thetawave] is coded in Rust.
@@ -413,7 +414,7 @@ and arcade machines at [OpenSauce][opensauce_website].
 
 ### [Tiny Glade Developers Discuss Bevy, Proceduralism, Publishers & Cozy Games][tiny-glade-interview]
 
-![An idyllic scenery made in Tidy Glade](tiny-glade.jpg)  
+![An idyllic scenery made in Tidy Glade](tiny-glade.jpg)
 _An idyllic scenery made in Tidy Glade_
 
 To celebrate the release of Tiny Glade's [demo version][tiny-glade-steam], Pounce Light's Anastasia Opara and 
@@ -430,7 +431,7 @@ Bevy, Rust, self-publishing, and the "cozy games" genre.
 
 ### [Dioxus Labs + "High-level Rust"][dioxus-post]
 
-This post by the founder of [Dioxus Labs][dioxus-labs] is a direct response to
+[This post][dioxus-post] by the founder of [Dioxus Labs][dioxus-labs] is a direct response to
 the recently published ["Leaving Rust gamedev after 3 years"][leaving-post] by LogLogGames. 
 If you've missed the original post, it has made its rounds as a well-written critique of Rust's gamedev ecosystem and shortcomings 
 inherent to the language itself.
@@ -448,10 +449,10 @@ _Discussions: [lobste.rs](https://lobste.rs/s/dsqumn/dioxus_labs_high_level_rust
 
 ### Virtual Geometry in Bevy 0.14
 
-![The Stanford bunny split into meshlets](meshlets.jpg)  
+![The Stanford bunny split into meshlets](meshlets.jpg)
 _The Stanford bunny split into meshlets_
 
-Ever wondered how [Unreal 5's Nanite][nanite] works under the hood? 
+Ever wondered how [Unreal 5's Nanite][nanite] works under the hood?
 Jasmine, who reimplemented the virtual geometry technology for Bevy's upcoming 0.14 release,
 wrote a [post][meshlets-post] explaining the concepts and the nitty-gritty details of the implementation.
 The post is very technical in nature, so if you've never heard of this technology before, 
@@ -486,7 +487,7 @@ for an unannounced project.
 - This Week In Quads
   - [`blocking_event_loop` on ios opengl/metal, Docker article, and libxkbcommon on NixOS](https://macroquad.rs/twiq/week5/)
 
-## Future news
+## Future News
 
 <!-- Section to get more people involved in writing news. -->
 
