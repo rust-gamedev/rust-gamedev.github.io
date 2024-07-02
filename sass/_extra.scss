@@ -151,16 +151,6 @@ input[type=email] {
     padding: .4em;
 }
 
-// A hack for image captions.
-// See https://stackoverflow.com/questions/19331362/using-an-image-caption-in-markdown-jekyll
-img+em,
-a:first-child+em:last-child,
-video+em {
-    display: block;
-    text-align: center;
-    color: $grey-color;
-}
-
 figcaption {
     display: block;
     text-align: center;
