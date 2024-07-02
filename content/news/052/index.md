@@ -231,27 +231,28 @@ and how to release the game on multiple platforms.
 
 ## Tooling Updates
 
-### [Rusty Playdate]
+### [Rusty Playdate 0.5][Rusty Playdate]
 
 ![The Playdate console](../051/playdate.png)
 *The Playdate console*
 
 [Rusty Playdate] ([GitHub][Rusty Playdate], [Mastodon][Rusty Playdate Masto]) by [@boozook](https://github.com/boozook)
-is the large set of crates with bindings, toolset for the full cycle of creating games for the [Playdate handheld console][playdate].
+is a large set of crates and tools for the full cycle of creating games for the [Playdate handheld console][playdate].
 
-Big part of the Rusty Playdate project is the `cargo-playdate` tool ([Crates.io][cargo-playdate crates-io], [GitHub][cargo-playdate gh])
-that helps to build games for [Playdate] hardware or a simulator. It works as a cargo-plugin as well as standalone.
-The tool 
-- manages the compilation of your program,
+A big part of the Rusty Playdate project is the [`cargo-playdate`][cargo-playdate gh] tool that functions as a build system. 
+It works as a cargo-plugin as well as a standalone, and does several things:
+- It manages the compilation of your program,
 - builds assets for the crate and its dependencies,
 - generates a manifest,
 - and assembles it all into a bundle that runs on the device or a simulator.
 
 In this month `cargo-playdate` v0.5 has been [released][Rusty Playdate Release] and received massive refactoring, bugfixes and new features:
-- support of [cargo's auto-targets][cargo-target-auto-discovery] _(targets such as `bin` or `example` that aren't declared in the Cargo.toml)_
-- [target-specific package-info][pdb-pdxinfo-override] inheritance from the main package-info
-- `package.metadata.playdate.options` inheritance from the `workspace.metadata`
-- incremental builds now work as expected - fixed an old problem where the tool corrupts cargo's cache, which triggered full rebuild
+
+- support for [cargo's auto-targets][cargo-target-auto-discovery], i.e. targets such as `bin` or `example` that aren't declared in the Cargo.toml
+- [target-specific package-info][pdb-pdxinfo-override] is inherited from the main package-info
+- `package.metadata.playdate.options` is inherited from the `workspace.metadata`
+- incremental builds now work as expected
+
 
 The register decoder in the [`pd-symbolize-crashlog`][playdate-symbolize-v0.2.0] was also updated. 
 It now properly decodes all available registers such as
@@ -263,7 +264,6 @@ _Discussions: [GitHub][Rusty Playdate Gh-discuss], [Matrix][Rusty Playdate Matri
 
 [playdate-symbolize-v0.2.0]: https://crates.io/crates/playdate-symbolize/0.2.0
 [cargo-target-auto-discovery]: https://doc.rust-lang.org/cargo/reference/cargo-targets.html#target-auto-discovery
-[cargo-playdate crates-io]: https://crates.io/crates/cargo-playdate
 [pdb-pdxinfo-override]: https://github.com/boozook/playdate/blob/main/support/build/README.md#target-specific-package-info "More about target-specific package-info"
 [cargo-playdate gh]: https://github.com/boozook/playdate/tree/main/cargo "cargo-playdate tool is a part of 'Rusty Playdate' project"
 [Rusty Playdate Release]: https://github.com/boozook/playdate/releases/tag/2024.06.18 "Release from June 18, 2024"
