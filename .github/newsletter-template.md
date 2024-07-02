@@ -50,8 +50,10 @@ Ideal section structure is:
 ```
 ### [Title]
 
-![image/GIF description](image link)
-_image caption_
+{{ image_figure(
+    alt="image/GIF description"
+    src="image link"
+    caption="image caption") }}
 
 A paragraph or two with a summary and [useful links].
 

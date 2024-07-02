@@ -638,9 +638,11 @@ explaining why they've chosen Rust for their project's backend.
 
 ### [Symmetric Matrices & Triangle Numbers][matrices-post]
 
-![an example of a multi-layered game level](rhea-player-orb.jpeg)
-_The pink orb should not collide with the player,
-but it should collide with the ground._
+{{ image_figure(
+    alt="an example of a multi-layered game level"
+    src="rhea-player-orb.jpeg"
+    caption="The pink orb should not collide with the player,
+             but it should collide with the ground.") }}
 
 [Anthropic Studios][anthropic] has [shared a post][matrices-post]
 about implementing a layer system to ["Way of Rhea"'s][rhea] physics engine

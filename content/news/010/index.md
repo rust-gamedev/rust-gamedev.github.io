@@ -81,8 +81,11 @@ release as well. Veloren also now has an [Open Collective
 account][veloren-opencollective], and you can donate towards our infrastructure
 costs. GamingOnLinux [wrote an article][gamingonlinux] on Veloren's development.
 
-[![0.6 release trailer](veloren_trailer.gif)](https://www.youtube.com/watch?v=kjDFVgWYMd4)
-_0.6 release trailer. Click for the full video!_
+{{ image_figure(
+    alt="0.6 release trailer"
+    src="veloren_trailer.gif"
+    caption="0.6 release trailer. Click for the full video!"
+    link="https://www.youtube.com/watch?v=kjDFVgWYMd4") }}
 
 Here is the May changelog:
 
@@ -217,8 +220,11 @@ Some of the updates:
 
 ### [Sandbox]
 
-[![Sandbox gameplay demo](sandbox.jpeg)](https://streamable.com/0bhbol#)
-_click to see a gameplay demo_
+{{ image_figure(
+    alt="Sandbox gameplay demo"
+    src="sandbox.jpeg"
+    caption="click to see a gameplay demo"
+    link="https://streamable.com/0bhbol#") }}
 
 [Sandbox] is a falling sand game by JMS55 that provides a variety of fun
 particle types to place, and then you get to watch the resulting interactions!

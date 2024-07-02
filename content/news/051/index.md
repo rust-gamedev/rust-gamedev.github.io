@@ -88,8 +88,11 @@ He will [work on this feature](https://github.com/rust-gamedev/rust-gamedev.gith
 
 ### [Way of Rhea][wor]
 
-[![Way of Rhea](wor.jpg)][wor]
-*Way of Rhea: a puzzle game. Available on Steam.*
+{{ image_figure(
+    alt="Way of Rhea"
+    src="wor.jpg"
+    caption="Way of Rhea: a puzzle game. Available on Steam."
+    link="https://store.steampowered.com/app/1110620/Way_of_Rhea/?utm_campaign=tmirgd&utm_source=n51") }}
 
 [Way of Rhea][wor] released on May 20th as part of the
 [Cerebral Puzzle Showcase][wor-cps]!
@@ -138,8 +141,10 @@ This month:
 
 ### [mirr/orb]
 
-![mirr/orb](mirrorb.png)  
-_A typical level and its UI_
+{{ image_figure(
+    alt="mirr/orb"
+    src="mirrorb.png"
+    caption="A typical level and its UI") }}
 
 [mirr/orb] by [syn9]
 is a puzzle game about bouncing lasers off mirrors to activate orbs.
