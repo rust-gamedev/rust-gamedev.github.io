@@ -38,7 +38,7 @@ Feel free to send PRs about your own projects!
 - [Interviews](#interviews)
 - [Blog Posts](#blog-posts)
 - [Jobs](#jobs)
-- [Misc. Links](#misc-links)
+- [Engine Newsletters](#engine-newsletters)
 - [Future News](#future-news)
 
 <!--
@@ -470,14 +470,7 @@ for an unannounced project.
 
 [ubisoft-job]: https://www.ubisoft.com/en-us/company/careers/search/743999993500090-programmer-online-unannounced-project
 
-## Misc. Links
-
-### Notable GDC talks
-
-- [Larian Cinematics: A Top-Down Look at Our Bottom-Up Approach in 'Baldur's Gate 3'](https://www.youtube.com/watch?v=MdmY9Mt-vz8&t)
-- ['Valheim': Vikings, Roadmaps & Buying a Horse During Early Access](https://www.youtube.com/watch?v=YoOCUpdYYm4)
-
-### Engine Newsletters
+## Engine Newsletters
 
 - This Week In Bevy
   - [Tiny Glade, VJ performances, and 2d lighting](https://thisweekinbevy.com/issue/2024-06-03-tiny-glade-vj-performances-and-2d-lighting)
