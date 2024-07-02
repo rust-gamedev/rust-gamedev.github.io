@@ -82,7 +82,10 @@ out [this form][gamedev-meetup-form].
 
 ### [Veloren][veloren]
 
-![Llama ride](veloren.png) _Out for a llama ride_
+{{ image_figure(
+    alt="Llama ride"
+    src="veloren.png"
+    caption="Out for a llama ride") }}
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.
@@ -147,8 +150,10 @@ if you'll be there!
 
 ### [Shroom Kingdom][shroom-kingdom]
 
-![Shroom Kingdom Asset Extractor](shroom-kingdom.gif)
-_Extracting the game assets_
+{{ image_figure(
+    alt="Shroom Kingdom Asset Extractor"
+    src="shroom-kingdom.gif"
+    caption="Extracting the game assets") }}
 
 Shroom Kingdom ([GitHub][shrm-github], [Discord][shrm-discord], [Twitter][shrm-twitter])
 is an upcoming play-to-earn video game built with web technologies
@@ -186,8 +191,10 @@ Next steps include developing a Proof of Concept.
 
 ### [Wicked Potions][wicked_potions]
 
-![Screenshot of the game](wicked_potions.png)
-_Match ingredients to brew wicked potions_
+{{ image_figure(
+    alt="Screenshot of the game"
+    src="wicked_potions.png"
+    caption="Match ingredients to brew wicked potions") }}
 
 [Wicked Potions][wicked_potions] is a match-three game developed by
 [@nikl_me] and [jennifervphan] for the [Bored Pixels Jam 8][bored-pixels-jam-8].
@@ -209,8 +216,10 @@ and story a bit more.
 
 ### [The Process]
 
-![Showcase image for the new inventory UI in The Process](the_process.gif)
-_The godot_egui backend powering a new inventory UI for The Process_
+{{ image_figure(
+    alt="Showcase image for the new inventory UI in The Process"
+    src="the_process.gif"
+    caption="The godot_egui backend powering a new inventory UI for The Process") }}
 
 [The Process] by @setzer22 is an upcoming game about factory building,
 process management, and carrot production,
@@ -293,8 +302,11 @@ Changes and improvements from the last month:
 
 ### [Theta Wave]
 
-[![Amethyst to Bevy](theta-wave.gif)][Bevy Theta Wave]
-_Left: Theta Wave with Amethyst, Right: Theta Wave with Bevy (so far)_
+{{ image_figure(
+    alt="Amethyst to Bevy"
+    src="theta-wave.gif"
+    caption="Left: Theta Wave with Amethyst, Right: Theta Wave with Bevy (so far)",
+    link="https://github.com/thetawavegame/thetawave") }}
 
 [Theta Wave] is an open-source space shooter game by developers [@micah_tigley] and
 [@carlosupina]. It is one of the showcase games for the [Amethyst Engine]. In
@@ -315,8 +327,11 @@ the port [here][Bevy Port Issue].
 
 ### [Bounty Bros.][bounty_bros]
 
-[![bounty-bros-title-screen](bounty-bros.jpg)][bounty_bros_webgame]
-_Click the image to play the game in your browser!_
+{{ image_figure(
+    alt="bounty-bros-title-screen"
+    src="bounty-bros.jpg"
+    caption="Click the image to play the game in your browser!",
+    link="https://katharostech.github.io/skipngo_pre-releases/refs/tags/pre-release-2/?asset_url=https://katharostech.github.io/bounty-bros_pre-releases/2") }}
 
 [Bounty Bros.][bounty_bros] is a prototype, top-down adventure game, developed
 by [Katharos Technology][katharostech] as a testing ground for a future
@@ -380,8 +395,10 @@ issue](https://github.com/ggez/ggez/issues/875).
 
 ### [Macroquad]
 
-![Zemeroth running on Android](macroquad.jpg)
-_A Macroquad game ([Zemeroth](#zemeroth)) running on Android!_
+{{ image_figure(
+    alt="Zemeroth running on Android"
+    src="macroquad.jpg"
+    caption="A Macroquad game ([Zemeroth](#zemeroth)) running on Android!") }}
 
 [Macroquad] is a cross-platform game framework, inspired heavily by Raylib.
 
@@ -465,8 +482,11 @@ animated sprites.
 
 ### [Writing an RPG using rg3d][writing-an-rpg-using-rg3d]
 
-[![rg3d RPG screenshot](rg3d.jpg)][rg3d-video]
-_[Click here][rg3d-video] to see a video of the character controller in action!_
+{{ image_figure(
+    alt="rg3d RPG screenshot"
+    src="rg3d.jpg"
+    caption="[Click here](https://www.youtube.com/watch?v=l2ZbDpoIdqk) to see a video of the character controller in action!",
+    link="https://www.youtube.com/watch?v=l2ZbDpoIdqk") }}
 
 Dimitry Stepanov (aka @mrDIMAS) published a
 [tutorial series][writing-an-rpg-using-rg3d] about
@@ -481,8 +501,10 @@ it's still a great way to learn the basics of rg3d and Rust gamedev in general!
 
 ### [Graphite][graphite-repo]
 
-![Graphite logo](graphite_scream.png)
-_A recreation of "The Scream" in Graphite by Norgate_
+{{ image_figure(
+    alt="Graphite logo"
+    src="graphite_scream.png"
+    caption="A recreation of "The Scream" in Graphite by Norgate") }}
 
 Graphite ([GitHub][graphite-repo], [Discord][graphite-discord],
 [Twitter](https://twitter.com/GraphiteEditor)) is an in-development vector and
@@ -639,8 +661,10 @@ now features a [tutorial] and full game [examples] for every type of session.
 
 ### [Bevy Retrograde][bevy_retrograde]
 
-![physics example](./bevy-retrograde.gif)
-_Bevy Retrograde Physics Map example_
+{{ image_figure(
+    alt="physics example"
+    src="bevy-retrograde.gif"
+    caption="Bevy Retrograde Physics Map example") }}
 
 [Bevy Retrograde][bevy_retrograde] (formerly Bevy Retro) is a [Bevy] plugin
 designed for making pixel-perfect games as easily as possible.

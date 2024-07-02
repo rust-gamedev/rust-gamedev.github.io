@@ -83,8 +83,10 @@ Twitch][rust-gamedev-twitch].
 
 ### [CyberGate][cybergate-yt]
 
-![building and fighting](cybergate.gif)
-_building shelter and fighting a colony of red monsters_
+{{ image_figure(
+    alt="building and fighting"
+    src="cybergate.gif"
+    caption="building shelter and fighting a colony of red monsters") }}
 
 CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]) by CyberSoul
 is an attempt to use artificial intelligence to build diverse universe experiences
@@ -112,8 +114,10 @@ _Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/x
 
 ### [Graviton][graviton-website]
 
-![Graviton](graviton.png)
-_Take a little break to relax and draw some sand art_
+{{ image_figure(
+    alt="Graviton"
+    src="graviton.png"
+    caption="Take a little break to relax and draw some sand art") }}
 
 [Graviton](https://www.gravitongame.art/) by
 [@hakolao](https://github.com/hakolao)
@@ -130,8 +134,10 @@ _Discussions: [/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/x
 
 ### Flesh
 
-![flesh preview](flesh.gif)
-_4th area_
+{{ image_figure(
+    alt="flesh preview"
+    src="flesh.gif"
+    caption="4th area") }}
 
 [Flesh] by [@im_oab] is a 2D-horizontal shmup game with hand-drawn animation and
 an organic/fleshy theme. It is implemented using [Tetra]. This month's updates
@@ -146,8 +152,10 @@ include:
 
 ### Thetawave
 
-![thetawave-boss](thetawave.gif)
-_First boss in progress_
+{{ image_figure(
+    alt="thetawave-boss"
+    src="thetawave.gif"
+    caption="First boss in progress") }}
 
 Thetawave is a physics based, cosmic horror themed space shooter by
 [@carlosupina].
@@ -203,8 +211,10 @@ goes into more depth about calling Rust code from C# in Unity.
 
 ### [eo.rs][eo-rs-website]
 
-![npcs talking](eo-rs.PNG)
-_NPCs chatting in the game world_
+{{ image_figure(
+    alt="npcs talking"
+    src="eo-rs.PNG"
+    caption="NPCs chatting in the game world") }}
 
 [eo-rs][eo-rs-website] by [@sorokya](https://github.com/sorokya)
 is a development library and game server for the MMORPG
@@ -244,8 +254,10 @@ tuned by following the [newsletter][country-slice-newsletter]!
 
 ### [Veloren][veloren]
 
-![Riding into the sunset](veloren.jpg)
-_Riding into the sunset_
+{{ image_figure(
+    alt="Riding into the sunset"
+    src="veloren.jpg"
+    caption="Riding into the sunset") }}
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.
@@ -273,8 +285,10 @@ Septembers's full weekly devlogs: "This Week In Veloren...":
 
 ### [Subfuse][subfuse]
 
-![Escape the hotel](subfuse.png)
-_Escape the hotel_
+{{ image_figure(
+    alt="Escape the hotel"
+    src="subfuse.png"
+    caption="Escape the hotel") }}
 
 [Subfuse][subfuse] is a short 1st person puzzle/escape game made for
 [Bevy Jam #2][bevy-jam-2] with an accompanying [postmortem][subfuse-postmortem]
@@ -288,9 +302,11 @@ that goes into some detail about the process of making the game.
 
 ### [godot-rust][gd-github]
 
-![godot-rust new export syntax](godot-rust-export.png)
-_The new `#[method]` syntax, which replaces existing `#[export]` and allows omitting
-the base parameter._
+{{ image_figure(
+    alt="godot-rust new export syntax"
+    src="godot-rust-export.png"
+    caption="The new `#[method]` syntax, which replaces existing `#[export]` and allows omitting
+the base parameter.") }}
 
 godot-rust ([GitHub][gd-github], [Discord][gd-discord], [Twitter][gd-twitter])
 is a Rust library that provides bindings for the Godot engine.
@@ -318,8 +334,10 @@ bugs and missing features, you can give it a try very soon!
 
 ### [Gamercade]
 
-![Gamercade preview](gamercade.gif)
-_Gamercade Sprite Animations_
+{{ image_figure(
+    alt="Gamercade preview"
+    src="gamercade.gif"
+    caption="Gamercade Sprite Animations") }}
 
 [Gamercade] ([Discord][Gamercade-Discord], [GitHub][Gamercade-GitHub])
 by @RobDavenport is a WASM-powered fantasy console focused
@@ -463,8 +481,10 @@ for further details.
 
 ### bevy_oddio
 
-![an example using bevy_oddio](change_pitch_bevy_oddio_example.png)
-_an example using bevy_oddio_
+{{ image_figure(
+    alt="an example using bevy_oddio"
+    src="change_pitch_bevy_oddio_example.png"
+    caption="an example using bevy_oddio") }}
 
 [bevy_oddio] by [@harudagondi] is an audio plugin
 for the [Bevy] game engine that uses the [oddio] library.
@@ -493,8 +513,10 @@ The above screen shows an example of controlling a custom made audio source
 
 ### [Particular]
 
-![showcase using the demo](particular.gif)  
-_Showcase using the [demo]_
+{{ image_figure(
+    alt="showcase using the demo"
+    src="particular.gif"
+    caption="Showcase using the [demo](https://canleskis.github.io/bevy-particular-demo/)") }}
 
 [Particular] by [@Canleskis] is a library allowing for simulations of
 N-body gravitational interaction of particles. It aims to be simple
@@ -545,8 +567,10 @@ other types of browser's images as well (like `HtmlCanvasElement`).
 
 ### [Polyanya]
 
-![example of pathfinding](polyanya.gif)  
-_Navigating through a mesh in the online [demo][polyanya-demo]_
+{{ image_figure(
+    alt="example of pathfinding"
+    src="polyanya.gif"
+    caption="Navigating through a mesh in the online [demo](https://vleue.github.io/bevy_pathmesh/)") }}
 
 [Polyanya] by [@FrancoisMockers] is a library implementing
 [Polyanya][polyanya-paper], a Compromise-free Pathfinding algorithm on a

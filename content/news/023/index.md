@@ -175,9 +175,11 @@ telnet protocols, and TLS connections to name a few.
 
 ### [The Hat Chooses the Wizard][hatchooseswizard]
 
-![Level 1-4 of the game "The Hat Chooses the Wizard" running on a Game Boy
-Advance](hatchooseswizard.jpg)
-_Runs on real hardware!_
+{{ image_figure(
+    alt='Level 1-4 of the game "The Hat Chooses the Wizard" running on a Game Boy
+Advance'
+    src="hatchooseswizard.jpg"
+    caption="Runs on real hardware!") }}
 
 The Hat Chooses the Wizard is a 2D platformer for the Game Boy Advance.
 
@@ -202,10 +204,12 @@ feedback is welcome.
 
 ### [Themengi]
 
-![User highlighting objects in the game world and parsing the phrase
+{{ image_figure(
+    alt='User highlighting objects in the game world and parsing the phrase
 "dang puru rupuu kythengi" into the action "open", object "door", and mods
-"red" and "left".](themengi.gif)
-_Demonstration of natural language parser with temporary words and grammar._
+"red" and "left".'
+    src="themengi.gif"
+    caption="Demonstration of natural language parser with temporary words and grammar.") }}
 
 [Themengi] ([Discord][themengi-discord], [Twitter][themengi-twitter])
 is a puzzle adventure game where you learn an alien language,
@@ -225,8 +229,11 @@ outline shader in the Bevy render pipeline.
 
 ### [Dango]
 
-[![Dango bouncing and jumping around](dango.gif)][Dango]
-_Cute rice dumplings_
+{{ image_figure(
+    alt="Dango bouncing and jumping around"
+    src="dango.gif"
+    caption="Cute rice dumplings",
+    link="http://ernestwong.nz/dango-tribute/server/") }}
 
 [Dango] ([GitHub][dango-github]) is a little multiplayer blob physics sandbox
 made by [@ErnWong] as a tribute to the [Dango Daikazoku][dango-daikazoku] from
@@ -321,8 +328,10 @@ downloadable Windows version.
 
 ### Flesh
 
-![flesh preview](flesh.gif)
-_demo build_
+{{ image_figure(
+    alt="flesh preview"
+    src="flesh.gif"
+    caption="demo build") }}
 
 Flesh by [@im_oab] is a 2D-horizontal shmup game with hand-drawn animation and
 organic/fleshy theme. It is implemented using [Tetra]. This month, an internal
@@ -335,7 +344,10 @@ demo build was released, with a development journal available on
 
 ### [Veloren][veloren]
 
-![Cave run](veloren.png) _Turns out the cave wasn't empty_
+{{ image_figure(
+    alt="Cave run"
+    src="veloren.png"
+    caption="Turns out the cave wasn't empty") }}
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.
@@ -387,8 +399,10 @@ scoreboard, increasing fall speed, game over, JUICE.
 
 ### [The Process]
 
-![The new terrain editor in The Process](the_process.gif)
-_Building the world, one voxel at a time_
+{{ image_figure(
+    alt="The new terrain editor in The Process"
+    src="the_process.gif"
+    caption="Building the world, one voxel at a time") }}
 
 [The Process] by @setzer22 is an upcoming game about factory building,
 process management, and carrot production,
@@ -633,8 +647,10 @@ or the [source code on GitHub][Sugarcubes source].
 
 ### [Rusty Slider]
 
-![Rusty Slider code block example](rustyslider.png)
-_Supports syntax highlighting of code blocks_
+{{ image_figure(
+    alt="Rusty Slider code block example"
+    src="rustyslider.png"
+    caption="Supports syntax highlighting of code blocks") }}
 
 [Rusty Slider] by [@ollej] is a markdown slideshow viewer
 written with macroquad.
@@ -661,9 +677,11 @@ demo purposes, to show actual results of commands.
 
 ### [Graphite][graphite-repo]
 
-![Geometric cherry tree](graphite-cherry-tree.png)
-_Geometric cherry tree artwork by BillyDM, winner of last month's first
-Graphite art contest_
+{{ image_figure(
+    alt="Geometric cherry tree"
+    src="graphite-cherry-tree.png"
+    caption="Geometric cherry tree artwork by BillyDM, winner of last month's first
+Graphite art contest") }}
 
 Graphite ([GitHub][graphite-repo], [Discord][graphite-discord],
 [Twitter](https://twitter.com/GraphiteEditor)) is an in-development vector and
@@ -694,8 +712,10 @@ code and how you can help!
 
 ### [texture_generator] v0.5
 
-![A black&white top-down image of some building](texture_generator.png)
-_An depth image example_
+{{ image_figure(
+    alt="A black&white top-down image of some building"
+    src="texture_generator.png"
+    caption="An depth image example") }}
 
 [texture_generator] by [Orchaldir] is a library to generate textures,
 and a library to use those textures to render tilemaps.
@@ -726,9 +746,11 @@ _Discussions:
 [GGRS]([crates.io](https://crates.io/crates/ggrs)) by [@g_schup] are pure
 Rust implementations of the [GGPO] rollback networking library.
 
-![Evo Moment 37](rollback.jpg)
-_[Evo Moment 37](https://www.youtube.com/watch?v=JzS96auqau0):
-Only offline or with rollback!_
+{{ image_figure(
+    alt="Evo Moment 37"
+    src="rollback.jpg"
+    caption="[Evo Moment 37](https://www.youtube.com/watch?v=JzS96auqau0):
+Only offline or with rollback!") }}
 
 Rollback networking is a peer-to-peer network technique designed to hide
 network latency in fast-paced games with precise inputs. Traditional techniques
@@ -771,8 +793,11 @@ check out the [GGPO Developers Discord]!
 
 ### [CrystalOrb]
 
-[![CrystalOrb demo animation](crystalorb.gif)][crystalorb-demo]
-_Interactive [demo][crystalorb-demo] that uses the [Rapier] physics engine._
+{{ image_figure(
+    alt="CrystalOrb demo animation"
+    src="crystalorb.gif"
+    caption="Interactive [demo](https://ernestwong.nz/crystalorb/demo) that uses the [Rapier](https://rapier.rs) physics engine.",
+    link="https://ernestwong.nz/crystalorb/demo") }}
 
 [CrystalOrb] by [@ErnWong] is a new networking library that aims to help
 fast-paced client-server games synchronize their game state across multiple
@@ -801,8 +826,10 @@ There is an [interactive demo][crystalorb-demo] of CrystalOrb that features the
 
 ### [glutin] (and [winit])
 
-![Animated image showing a window that is opened with a spinning cursor on top](winit-bug-1.gif)
-_This cursor may be waiting [in vain], but your patience shall be rewarded._
+{{ image_figure(
+    alt="Animated image showing a window that is opened with a spinning cursor on top"
+    src="winit-bug-1.gif"
+    caption="This cursor may be waiting [in vain], but your patience shall be rewarded.") }}
 
 [glutin] is a low-level library for OpenGL context creation, written in pure Rust.
 [glutin] uses and re-exports [winit], which handles window creation and management,
@@ -934,8 +961,11 @@ This includes automatic testing using software adapters on CI.
 
 ### [rafx]
 
-[![Rafx Flythrough Demo](rafx-flythrough-demo.jpg)][rafx-youtube-video]
-_A scene exported via blender with animated camera motion, [watch the demo on youtube][rafx-youtube-video]!_
+{{ image_figure(
+    alt="Rafx Flythrough Demo"
+    src="rafx-flythrough-demo.jpg"
+    caption="A scene exported via blender with animated camera motion, [watch the demo on youtube](https://www.youtube.com/watch?v=HlJsgbGyl0I)!",
+    link="https://www.youtube.com/watch?v=HlJsgbGyl0I") }}
 
 [Rafx][rafx] is a multi-backend renderer that optionally integrates with the
 [distill][rafx-distill] asset pipeline.

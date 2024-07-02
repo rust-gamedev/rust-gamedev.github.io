@@ -82,8 +82,10 @@ working on, fill out [this form][gamedev-meetup-form].
 
 ### Flesh
 
-![flesh preview](flesh.gif)
-_Title screen + gameplay_
+{{ image_figure(
+    alt="flesh preview"
+    src="flesh.gif"
+    caption="Title screen + gameplay") }}
 
 Flesh by [@im_oab] is a 2D-horizontal shmup game with hand-drawn animation and
 organic/fleshy theme. It is implemented using [tetra]. This month's updates
@@ -98,8 +100,10 @@ include:
 
 ### [Fishgame][fishgame]
 
-![Fishgame gui](fishgame.gif)
-_Fish game UI._
+{{ image_figure(
+    alt="Fishgame gui"
+    src="fishgame.gif"
+    caption="Fish game UI.") }}
 
 [Fishgame][fishgame] [(web build)][fishgame-itch] is an online multiplayer game,
 created in a collaboration between [Nakama][nakama], an open-source scalable
@@ -202,8 +206,11 @@ on the developer's private website.
 
 ### Stellary 2
 
-[![Stellary 2 Anti-Missile Laser](stellary2-anti-missile-laser.gif)][stellary2-aml-tweet]
-_▶️ Click to [watch the full video][stellary2-aml-tweet]_
+{{ image_figure(
+    alt="Stellary 2 Anti-Missile Laser"
+    src="stellary2-anti-missile-laser.gif"
+    caption="▶️ Click to [watch the full video](https://twitter.com/CoffeJunkStudio/status/1360637714660548618)",
+    link="https://twitter.com/CoffeJunkStudio/status/1360637714660548618") }}
 
 Stellary 2 by [@CoffeJunkStudio][coffe-junk-studio] is a 3D real-time space
 shooter in which the player has to prevail against enemy space ships.
@@ -223,8 +230,11 @@ The latest updates include:
 
 ### [Theta Wave]
 
-[![Homing Missiles](theta_wave.gif)][Theta Wave]
-_Homing missiles periodically spawn from missile launcher enemies_
+{{ image_figure(
+    alt="Homing Missiles"
+    src="theta_wave.gif"
+    caption="Homing missiles periodically spawn from missile launcher enemies",
+    link="https://github.com/amethyst/theta-wave") }}
 
 [Theta Wave] is a space shooter game by developers [@micah_tigley] and
 [@carlosupina]. It is one of the showcase games for the [Amethyst Engine]. In
@@ -243,8 +253,10 @@ Notable changes:
 
 ### [SeniorSKY]
 
-![SeniorSKY](senior_sky.png)
-_Rising sun_
+{{ image_figure(
+    alt="SeniorSKY"
+    src="senior_sky.png"
+    caption="Rising sun") }}
 
 [SeniorSKY] is a flight simulator that uses the Vulkan API, developed by
 [@pmathia0]. As an aerospace engineering student, Peter has always been
@@ -293,8 +305,11 @@ This month's major updates include:
 
 ### [Station Iapetus]
 
-[![Station Iapetus Youtube](station-iapetus-youtube.JPG)][si-youtube]
-_Check [gameplay video][si-youtube] on YouTube_
+{{ image_figure(
+    alt="Station Iapetus Youtube"
+    src="station-iapetus-youtube.JPG"
+    caption="Check [gameplay video](https://www.youtube.com/watch?v=cagT0GbiLxY) on YouTube",
+    link="https://www.youtube.com/watch?v=cagT0GbiLxY") }}
 
 [Station Iapetus][Station Iapetus] by [@mrDIMAS] is a 3rd person shooter on the
 space prison Iapetus near the Saturn.
@@ -316,8 +331,10 @@ space prison Iapetus near the Saturn.
 
 ### [Veloren][veloren]
 
-![Lush forest](veloren.jpg)
-_A lush forest to explore_
+{{ image_figure(
+    alt="Lush forest"
+    src="veloren.jpg"
+    caption="A lush forest to explore") }}
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.
@@ -362,8 +379,10 @@ Those interested in participating in the alpha test should fill out this
 
 ### [Antorum Online]
 
-![A player standing in front of a giant crab](antorum-2-21-2021.jpg)
-_Challenging Kroob_
+{{ image_figure(
+    alt="A player standing in front of a giant crab"
+    src="antorum-2-21-2021.jpg"
+    caption="Challenging Kroob") }}
 
 [Antorum Online] is a micro-multiplayer online role-playing game by
 [@dooskington]. The game server is written in Rust, and the official client is
@@ -382,8 +401,10 @@ world. They can also break down old or unwanted gear to recycle it.
 
 ### [Fullscreen Exclusive Is A Lie (...sort of)][fs-exclusive]
 
-![Way of Rhea's video settings](wor-video-settings.jpg)
-_[Way of Rhea][wor-site]'s video settings_
+{{ image_figure(
+    alt="Way of Rhea's video settings"
+    src="wor-video-settings.jpg"
+    caption="[Way of Rhea](https://store.steampowered.com/app/1110620/Way_of_Rhea/)'s video settings") }}
 
 [Anthropic Studios][anthropic] has [shared an article][fs-exclusive] walking
 through what they learned from implementing fullscreen exclusivity in their Rust
@@ -399,8 +420,10 @@ _Discussions:
 
 ### [Rhythm game in Rust using Bevy]
 
-![Rhythm game demo](bevy-rhythm-game.gif)
-_Rhythm game demo_
+{{ image_figure(
+    alt="Rhythm game demo"
+    src="bevy-rhythm-game.gif"
+    caption="Rhythm game demo") }}
 
 [Rhythm game in Rust using Bevy] is an introductory tutorial for Bevy made by
 [@guimcaballero]. It guides through how to use Bevy to develop a Rhythm game,
@@ -429,8 +452,10 @@ _Discussions:
 
 ### [macroquad]
 
-![macroquad_gui](macroquad_skins.gif)
-_Macroquad-UI runtime GUI skins configuration._
+{{ image_figure(
+    alt="macroquad_gui"
+    src="macroquad_skins.gif"
+    caption="Macroquad-UI runtime GUI skins configuration.") }}
 
 [macroquad] is a cross-platform (Windows/Linux/macOS/Android/iOS/WASM) game
 framework built on top of [miniquad].  
@@ -456,8 +481,9 @@ Minor updates:
 
 ### [Tetra]
 
-![Tetra's demo game](./tetra.png)
-_Tetra's demo game_
+{{ image_figure(
+    alt="Tetra's demo game"
+    src="tetra.png") }}
 
 [Tetra] is a simple 2D game framework, inspired by XNA, Love2D, and Raylib. This
 month, version 0.6 was released, with some big changes and features:
@@ -476,8 +502,11 @@ twitter thread][tetra-twitter] about the release.
 
 ### [rg3d]
 
-[![rg3d Youtube](rg3d-youtube.JPG)][rg3d-youtube]
-_Check [navmesh agent navigation][rg3d-youtube] on YouTube_
+{{ image_figure(
+    alt="rg3d Youtube"
+    src="rg3d-youtube.JPG"
+    caption="Check [navmesh agent navigation](https://www.youtube.com/watch?v=tqFdQ5OPB1I) on YouTube",
+    link="https://www.youtube.com/watch?v=tqFdQ5OPB1I") }}
 
 [rg3d] ([Discord][rg3d_discord], [Twitter][rg3d_twitter]) is a game engine that
 aims to be easy to use and provide a large set of out-of-box features. Some of
@@ -504,8 +533,10 @@ the recent updates:
 
 ### [Dotrix]
 
-![Dotrix Light Demo](dotrix-light-demo.png)
-_Demo application demonstrating light rendering_
+{{ image_figure(
+    alt="Dotrix Light Demo"
+    src="dotrix-light-demo.png"
+    caption="Demo application demonstrating light rendering") }}
 
 [Dotrix] ([YouTube][lowenware_youtube], [Discord][lowenware_discord]) by
 [@lowenware] is an ECS based 3D game engine with renderer built around the
@@ -602,8 +633,10 @@ include:
 
 ### [Graphite][graphite-repo]
 
-![Graphite GUI](graphite.png)
-_Progress on the GUI_
+{{ image_figure(
+    alt="Graphite GUI"
+    src="graphite.png"
+    caption="Progress on the GUI") }}
 
 [Graphite][graphite-repo] ([GitHub][graphite-repo], [Discord][graphite-discord],
 [Twitter](https://twitter.com/GraphiteEditor)) is an in-progress vector and

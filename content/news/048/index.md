@@ -109,8 +109,10 @@ _Discussions: [/r/rust](https://reddit.com/r/rust/comments/14p1fiw/colony_sim)_
 
 ### [Open Combat][OpenCombat_website]
 
-![OpenCombat completed HUD](opencombat.jpg)
-_Game HUD is now more complete_
+{{ image_figure(
+    alt="OpenCombat completed HUD"
+    src="opencombat.jpg"
+    caption="Game HUD is now more complete") }}
 
 Open Combat ([Website][OpenCombat_website], [GitHub][OpenCombat_github],
 [Discord][OpenCombat_discord]) is a real-time tactical game
@@ -131,8 +133,10 @@ to publishing the official demo of the game!
 
 ### [CyberGate][cybergate-yt]
 
-![Universal quic server](cybergate.jpg)
-_The browser uses webtransport (Left), the native uses quinn (Right)_
+{{ image_figure(
+    alt="Universal quic server"
+    src="cybergate.jpg"
+    caption="The browser uses webtransport (Left), the native uses quinn (Right)") }}
 
 CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]),
 CyberSoul is developing an ambitious multiplayer project,
@@ -276,8 +280,10 @@ as how distant parallax can be an immersive replacement for ui and minimaps.
 
 ### [Veloren][veloren]
 
-![Veloren visual comparison](veloren.jpg)
-_The 0.15 release party map_
+{{ image_figure(
+    alt="Veloren visual comparison"
+    src="veloren.jpg"
+    caption="The 0.15 release party map") }}
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.
@@ -594,8 +600,10 @@ with the mipmap levels corresponding to different roughness values of the materi
 
 ### [bevy_xpbd]
 
-![Balls held by string swinging and hitting each other in a Newton's cradle](bevy_xpbd.gif)
-_Newton's cradle simulated using bevy_xpbd_
+{{ image_figure(
+    alt="Balls held by string swinging and hitting each other in a Newton's cradle"
+    src="bevy_xpbd.gif"
+    caption="Newton's cradle simulated using bevy_xpbd") }}
 
 [bevy_xpbd] by [@Jondolf] is a 2D and 3D physics engine based on
 Extended Position Based Dynamics for the Bevy game engine.
@@ -644,8 +652,10 @@ borrow data from one of World, Resources or SyncResources.
 
 ### [Hanabi]
 
-![Glowing particles circling and raising up](hanabi.gif)
-_Hanabi effect entirely simulated on GPU thanks to the new Expression API of v0.7_
+{{ image_figure(
+    alt="Glowing particles circling and raising up"
+    src="hanabi.gif"
+    caption="Hanabi effect entirely simulated on GPU thanks to the new Expression API of v0.7") }}
 
 The [Hanabi] library ([GitHub][hanabi-github], [docs.rs][hanabi-docs]) is a
 modern VFX library for the [Bevy game engine][bevy]. It focuses on scale to produce
@@ -683,9 +693,11 @@ See the [CHANGELOG][hanabi-changelog] for all details.
 
 ### [Iced][iced]
 
-![olf primitives gradually fade out and damaged regions
-are marked with red rectangles](iced-incremental.png)
-_Visualisation of damaged regions during the incremental rendering_
+{{ image_figure(
+    alt="olf primitives gradually fade out and damaged regions
+are marked with red rectangles"
+    src="iced-incremental.png"
+    caption="Visualisation of damaged regions during the incremental rendering") }}
 
 [Iced][iced] is a Rust GUI library focused on simplicity and type safety.
 

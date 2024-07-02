@@ -115,8 +115,11 @@ Also, check out
 
 ### Way of Rhea [Trailer][rhea trailer] and [Steam Wishlist][rhea steam] Announced
 
-[![Part of the trailer](way-of-rhea.gif)][rhea trailer]
-_click on the GIF to see [the full trailer][rhea trailer]_
+{{ image_figure(
+    alt="Part of the trailer"
+    src="way-of-rhea.gif"
+    caption="click on the GIF to see [the full trailer](https://youtube.com/watch?v=VIzqlI-gbAY)",
+    link="https://youtube.com/watch?v=VIzqlI-gbAY") }}
 
 [A new trailer][rhea trailer] and the [Steam wishlist][rhea steam]
 were published for "Way of Rhea" by [Anthropic Studios].
@@ -520,8 +523,11 @@ by [Michael Fairley] was released:
 > Clear a path to get to the hole, eat some eggs along the way,
 > and make sure to press all the buttons.
 
-[![Part of A snake's Tail's trailer](a-snakes-tail.gif)][snake trailer]
-_click on the GIF to see [the full release trailer][snake trailer]_
+{{ image_figure(
+    alt="Part of A snake's Tail's trailer"
+    src="a-snakes-tail.gif"
+    caption="click on the GIF to see [the full release trailer](https://www.youtube.com/watch?v=23pQmEuueNw)",
+    link="https://www.youtube.com/watch?v=23pQmEuueNw") }}
 
 A few posts about the game and how it was developed:
 

@@ -93,8 +93,11 @@ Also, participants are encouraged to
 
 ### [Way of Rhea][rhea-site]
 
-[![Way of Rhea Trailer](way-of-rhea.jpeg)][rhea-trailer]
-_Click to see the latest version of the game's trailer_
+{{ image_figure(
+    alt="Way of Rhea Trailer"
+    src="way-of-rhea.jpeg"
+    caption="Click to see the latest version of the game's trailer",
+    link="https://youtube.com/watch?v=eVrbZss_B3g") }}
 
 [Way of Rhea][rhea-site] ([steam][rhea-steam])
 is an upcoming puzzle platformer that takes place in a world
@@ -129,8 +132,10 @@ or [subscribe to its newsletter][rhea-newsletter].
 
 ### [A/B Street][abstreet] - Adjust Traffic Patterns in Real Cities
 
-![Measuring the effects of changes](abstreet-evaluating-impacts.gif)
-_Measuring the effects of some changes_
+{{ image_figure(
+    alt="Measuring the effects of changes"
+    src="abstreet-evaluating-impacts.gif"
+    caption="Measuring the effects of some changes") }}
 
 [A/B Street][abstreet] is a traffic simulation game exploring how
 small changes to roads affect cyclists, transit users, pedestrians, and drivers.
@@ -160,8 +165,11 @@ A/B Street uses a [custom GUI library][ezgui], leveraging `glium`, `usvg`, and
 
 ### [Crate Before Attack][cba-site]
 
-[![In-game visual scripting prototype](crate_before_attack.gif)][cba-youtube-scripting]
-_In-game visual scripting prototype_
+{{ image_figure(
+    alt="In-game visual scripting prototype"
+    src="crate_before_attack.gif"
+    caption="In-game visual scripting prototype",
+    link="https://youtu.be/LLAc9_cOR9o") }}
 
 [Crate Before Attack][cba-site] by [koalefant (@CrateAttack)][@CrateAttack]
 is a skill-based grappling hook multiplayer game where frogs combat their friends
@@ -211,8 +219,10 @@ Some of the updates from [the June devlog][garden-devlog]:
 
 ### [Veloren][veloren]
 
-![Animation improvements](veloren-wolf.gif)
-_Animation improvements_
+{{ image_figure(
+    alt="Animation improvements"
+    src="veloren-wolf.gif"
+    caption="Animation improvements") }}
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.
@@ -281,8 +291,10 @@ Also, check out [a talk about open source and Veloren][veloren-talk]:
 
 ### [Zero to Game][zerotoga.me]
 
-![ships with greater thrust explode](zerotogame-destruction.gif)
-_The initial destruction prototype applied across different thrust levels_
+{{ image_figure(
+    alt="ships with greater thrust explode"
+    src="zerotogame-destruction.gif"
+    caption="The initial destruction prototype applied across different thrust levels") }}
 
 [Zero to Game][zerotoga.me] is a project that documents
 the creation of an independent space game from zero.
@@ -379,8 +391,10 @@ Web, Mac, Linux, Windows (untested) & possible even iOS & Android.
 
 ### [Animal Chess][AnimalChess]
 
-![Part of the game map](animal-chess.jpeg)
-_Part of the game map_
+{{ image_figure(
+    alt="Part of the game map"
+    src="animal-chess.jpeg"
+    caption="Part of the game map") }}
 
 [Animal Fight Chess][AnimalChess] (斗兽棋, "Doe Show Chee") by [@netcan]
 is a Rust implementation of a popular Chinese game.
@@ -463,8 +477,11 @@ Two devlogs were released this month:
 
 ### [Weegames][weegames-itch]
 
-[![Weegames](weegames.jpg)][weegames-video]
-_Click to see [a demo video][weegames-video]_
+{{ image_figure(
+    alt="Weegames"
+    src="weegames.jpg"
+    caption="Click to see [a demo video](https://youtube.com/watch?v=A_GqhZ_7EIw)",
+    link="https://youtube.com/watch?v=A_GqhZ_7EIw") }}
 
 [Weegames][weegames-itch] is a fast-paced minigame collection.
 There are 23 odd games all made using free images and sounds.
@@ -502,8 +519,11 @@ The demo's source code [could be found here][hypervis].
 
 ### [Boids in Rust][rboids-post-1]
 
-[![Boids demo](rboids-video.jpeg)][rboids-video]
-_Click to watch [the video demo][rboids-video]_
+{{ image_figure(
+    alt="Boids demo"
+    src="rboids-video.jpeg"
+    caption="Click to watch [the video demo](https://drive.google.com/file/d/1ri4x-jCX8SA9oX8OqDIKtXhYIrEKlGjO/view)",
+    link="https://drive.google.com/file/d/1ri4x-jCX8SA9oX8OqDIKtXhYIrEKlGjO/view") }}
 
 [@twitu] has published a three-part blog series
 about simulating a group of virtual agents (boids)
@@ -624,8 +644,10 @@ seemed like now is the time to address such issues in the API.
 
 ### [This Month in Mun][mun-june]
 
-![Language Server Diagnostics in action](mun-languageserver.gif)
-_Mun language server diagnostics in action_
+{{ image_figure(
+    alt="Language Server Diagnostics in action"
+    src="mun-languageserver.gif"
+    caption="Mun language server diagnostics in action") }}
 
 [Mun] is a scripting language for gamedev focused on quick iteration times
 that is written in Rust.

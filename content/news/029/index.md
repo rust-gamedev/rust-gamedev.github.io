@@ -80,8 +80,10 @@ Twitch][rust-gamedev-twitch].
 
 ### [Tet-Rust][tetrust-github]
 
-![Tet-Rust screenshot](tet-rust-1-sm.gif)
-_Screenshot of Tet-Rust_
+{{ image_figure(
+    alt="Tet-Rust screenshot"
+    src="tet-rust-1-sm.gif"
+    caption="Screenshot of Tet-Rust") }}
 
 Tet-Rust ([GitHub][tetrust-github]) by
 [@Syn-Nine][synnine-twitter] is a mini game based on the famous falling puzzle
@@ -98,8 +100,10 @@ that use this framework.
 
 ### The Beast of Monte Carlo
 
-![The Beast of Monte Carlo Screenshot](bomc-shots.png)
-_Screenshot of The Beast of Monte Carlo_
+{{ image_figure(
+    alt="The Beast of Monte Carlo Screenshot"
+    src="bomc-shots.png"
+    caption="Screenshot of The Beast of Monte Carlo") }}
 
 The Beast of Monte Carlo by [@Syn-Nine][synnine-twitter] is a mini role-playing
 game in development to help work out new features for Syn9's
@@ -163,8 +167,10 @@ it gives us a glimpse into 3 different bioms, bosses, enemies and more.
 
 ### [Veloren][veloren]
 
-![Winter in a town](veloren.jpg)
-_A peaceful winter night_
+{{ image_figure(
+    alt="Winter in a town"
+    src="veloren.jpg"
+    caption="A peaceful winter night") }}
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.
@@ -342,8 +348,10 @@ Main highlights of the latest [@dooskington's devlog][antorum-post]:
 
 ### [Rusty Engine 3.0]
 
-![An example Rusty Engine game](rusty_engine3.png)
-_The "Road Race" game prototype running under Rusty Engine 3.0_
+{{ image_figure(
+    alt="An example Rusty Engine game"
+    src="rusty_engine3.png"
+    caption="The "Road Race" game prototype running under Rusty Engine 3.0") }}
 
 [Rusty Engine] by [Nathan Stocks] is a game engine built on top of Bevy
 for people who are learning Rust.
@@ -553,8 +561,10 @@ use of assets_manager with ggez engine!
 
 ### [wgpu]-0.12 release
 
-![albedo pathtracer](wgpu-pathtracer.png)
-_experimental pathtracer on wgpu from @llamajestic_
+{{ image_figure(
+    alt="albedo pathtracer"
+    src="wgpu-pathtracer.png"
+    caption="experimental pathtracer on wgpu from @llamajestic") }}
 
 The team concluded 2021 with the release of wgpu-0.12 and naga-0.8.
 Details can be found on the [gfx-rs blog] and [wgpu reddit discussion].

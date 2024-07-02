@@ -111,8 +111,10 @@ The game is written using a custom engine: [Geng][geng].
 
 ### [Tunnet][tunnet-itch]
 
-![Tunnet screenshot: low poly models, blocky terrain, FPS view with a drill in hands](tunnet.jpg)
-_Tunnels and computer networks_
+{{ image_figure(
+    alt="Tunnet screenshot: low poly models, blocky terrain, FPS view with a drill in hands"
+    src="tunnet.jpg"
+    caption="Tunnels and computer networks") }}
 
 Tunnet ([Steam][tunnet-steam], [Itch.io][tunnet-itch]) by
 [@puzzled\_squid][puzzled_squid] is a small puzzle/exploration game where you
@@ -130,8 +132,10 @@ been published on the [project page][tunnet-itch].
 
 ### [Open Combat][OpenCombat_website]
 
-![Debug window: terrain tiles, units, and paths](open_combat.png)
-_Game now includes live debug window_
+{{ image_figure(
+    alt="Debug window: terrain tiles, units, and paths"
+    src="open_combat.png"
+    caption="Game now includes live debug window") }}
 
 Open Combat ([Website][OpenCombat_website], [GitHub][OpenCombat_github],
 [Discord][OpenCombat_discord]) is a real time tactical game
@@ -215,8 +219,10 @@ post][cargospace_devlog_5].
 
 ### [CyberGate][cybergate-yt]
 
-![Many creatures flying and casting shadows](cybergate.gif)
-_Many creatures flying and casting shadows_
+{{ image_figure(
+    alt="Many creatures flying and casting shadows"
+    src="cybergate.gif"
+    caption="Many creatures flying and casting shadows") }}
 
 CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]) is an
 ambitious multiplayer project from CyberSoul, currently in development.
@@ -293,8 +299,10 @@ and realistic physics.
 
 ### [Veloren][veloren]
 
-![A cyclops attack](veloren.jpg)
-_A cyclops attack_
+{{ image_figure(
+    alt="A cyclops attack"
+    src="veloren.jpg"
+    caption="A cyclops attack") }}
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.
@@ -496,8 +504,10 @@ and changing the speed of `SoundEffect`.
 
 ### [Fyrox][fyrox]
 
-![a hi-tech soldier model blending between 5 animations](fyrox-blend-space.gif)
-_Blend space demo_
+{{ image_figure(
+    alt="a hi-tech soldier model blending between 5 animations"
+    src="fyrox-blend-space.gif"
+    caption="Blend space demo") }}
 
 [Fyrox][fyrox] ([GitHub][fyrox-src], [Discord][fyrox-dis], [Twitter][fyrox-twi])
 is a game engine that aims to be easy to use and provide a large set
@@ -640,8 +650,11 @@ designs with #MadeWithGraphite on Twitter.
 
 ### [rerun.io][rerun]
 
-[![egui app with lots of complex widgets, 2D and 3D views, etc](rerun.jpg)][rerun-video]
-_[Click to see Rerun's latest demo video][rerun-video]_
+{{ image_figure(
+    alt="egui app with lots of complex widgets, 2D and 3D views, etc"
+    src="rerun.jpg"
+    caption="[Click to see Rerun's latest demo video](https://youtube.com/watch?v=8ZpvOagRt-o)"
+    link="https://youtube.com/watch?v=8ZpvOagRt-o") }}
 
 [Rerun] ([Discord][rerun-discord]) lets you log images, point clouds
 and other visual data as easy as you would log text.
@@ -693,8 +706,10 @@ _Discussions: [Twitter](https://twitter.com/ManevilleF/status/162515929249085440
 
 ### [nanoshredder]
 
-![nanoshredder demo: windows with shader code and result behind](nanoshredder.gif)
-_macroquad's shadertoy example with metal/glsl preview_
+{{ image_figure(
+    alt="nanoshredder demo: windows with shader code and result behind"
+    src="nanoshredder.gif"
+    caption="macroquad's shadertoy example with metal/glsl preview") }}
 
 [Nanoshredder] is an experimental fork of
 [makepad's shader-compiler][makepad-shader-compiler].
@@ -762,8 +777,10 @@ blink-alloc, only on `allocator-api2`.
 
 ### [pecs]
 
-![pecs example, same as in the README](pecs.png)
-_Promise chaining example_
+{{ image_figure(
+    alt="pecs example, same as in the README"
+    src="pecs.png"
+    caption="Promise chaining example") }}
 
 In the ECS environment, you can't use the standard async/await
 approach, which can make implementing asynchronous logic painful.
@@ -806,8 +823,10 @@ This month [seldom_state] 0.4 has been released:
 
 ### [warbler_grass]
 
-![preview of a grass chunk](warbler_grass_preview.png)
-_A bevy crate for grass rendering_
+{{ image_figure(
+    alt="preview of a grass chunk"
+    src="warbler_grass_preview.png"
+    caption="A bevy crate for grass rendering") }}
 
 [warbler_grass] is a new experimental [Bevy] plugin.
 The goal is to provide an ergonomic, but performant way
@@ -835,8 +854,10 @@ for more details, check out our [release notes].
 
 ### [Cvars]
 
-![cvars used in the RustCycles game - showcasing a console for the Fyrox engine](cvars.png)
-_Cvars and the Fyrox in-game console as used in RustCycles_
+{{ image_figure(
+    alt="cvars used in the RustCycles game - showcasing a console for the Fyrox engine"
+    src="cvars.png"
+    caption="Cvars and the Fyrox in-game console as used in RustCycles") }}
 
 [Cvars] ([GitHub][cvars-github], [Discord][cvars-discord]) by [@martin-t]
 are a simple way to store settings you want to change at runtime

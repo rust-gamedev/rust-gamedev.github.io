@@ -111,8 +111,10 @@ Some of this month's updates:
 
 ### [Veloren][veloren]
 
-![Landscape](veloren_fly.jpg)
-_Endless mountains to explore_
+{{ image_figure(
+    alt="Landscape"
+    src="veloren_fly.jpg"
+    caption="Endless mountains to explore") }}
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.
@@ -127,8 +129,11 @@ freeze, many networking and combat bugs were fixed. The Veloren 0.8 release
 party took place on the 28th and saw a peak of 112 players online, doubling the
 previous record.
 
-[![Youtube preview img](veloren-gameplay-video.gif)][veloren-0.8-gameplay]
-_0.8 gameplay video_
+{{ image_figure(
+    alt="Youtube preview img"
+    src="veloren-gameplay-video.gif"
+    caption="0.8 gameplay video",
+    link="https://www.youtube.com/watch?v=TMYfrdiEJw4") }}
 
 You can read more about specific topics from November:
 
@@ -156,8 +161,10 @@ In December, work will begin on 0.9. There are some discussions about larger
 refactors in the codebase. Many new developers have joined and are getting up to
 speed on contributing. Veloren will also reach its 100th blog post!
 
-![Healing sceptre](veloren_adventure.jpg)
-_The start of an adventure_
+{{ image_figure(
+    alt="Healing sceptre"
+    src="veloren_adventure.jpg"
+    caption="The start of an adventure") }}
 
 [veloren]: https://veloren.net
 [veloren-0.8-changelog]: https://gitlab.com/veloren/veloren/-/blob/master/CHANGELOG.md#080-2020-11-28
@@ -167,8 +174,10 @@ _The start of an adventure_
 
 ### [FBSim]
 
-![FBSim initial version](fbsim.png)
-_FBSim running with default agents._
+{{ image_figure(
+    alt="FBSim initial version"
+    src="fbsim.png"
+    caption="FBSim running with default agents.") }}
 
 [FBSim] by [Ian Tayler] is a football/soccer game where you program the
 players using Rust and try to beat a team controlled by another AI.
@@ -207,8 +216,10 @@ engine to support named zones on the map.
 
 ### [Akigi][akigi]
 
-![Akiki butcher](akigi_butcher.jpg)
-_Akigi butcher skill_
+{{ image_figure(
+    alt="Akiki butcher"
+    src="akigi_butcher.jpg"
+    caption="Akigi butcher skill") }}
 
 [Akigi][akigi] is a WIP online multiplayer game.
 
@@ -252,8 +263,10 @@ Recent updates include:
 
 ### [Shotcaller]
 
-![Shotcaller dual frontend](shotcaller-2guis.png)
-_ASCII and sprites versions of Shotcaller interface._
+{{ image_figure(
+    alt="Shotcaller dual frontend"
+    src="shotcaller-2guis.png"
+    caption="ASCII and sprites versions of Shotcaller interface.") }}
 
 [Shotcaller] is a moddable RTS/MOBA game made with bracket-lib and specs.
 
@@ -402,8 +415,11 @@ _Discussions:
 
 ### [How to Build a Multiplayer Game][talk-dns2utf8-video]
 
-[![A screenshot from the talk](talk-multiplayer-game.jpg)][talk-dns2utf8-video]
-_You can [watch the recording here][talk-dns2utf8-video]._
+{{ image_figure(
+    alt="A screenshot from the talk"
+    src="talk-multiplayer-game.jpg"
+    caption="You can [watch the recording here](https://youtube.com/watch?v=Yb-QR3Vm3sk).",
+    link="https://youtube.com/watch?v=Yb-QR3Vm3sk") }}
 
 This month, [@dns2utf8] gave a [talk][talk-dns2utf8-video] about
 how to build a multiplayer game with actix-web that people with
@@ -440,8 +456,10 @@ examples.
 
 ### [Chess game in Rust using Bevy]
 
-![Tutorial result](bevy_chess.gif)
-_Chess gameplay_
+{{ image_figure(
+    alt="Tutorial result"
+    src="bevy_chess.gif"
+    caption="Chess gameplay") }}
 
 [@guimcaballero] published a tutorial on using Bevy 0.3 to make a Chess clone in
 3d. Most of the concepts are explained along the way, from how to load meshes to
@@ -478,8 +496,11 @@ You can learn more [on the Learn Wgpu news page][learn-wgpu-news].
 
 ### [cargo-mobile]
 
-[![Bevy's Breakout example running on an iPhone XR](cargo-mobile.jpg)][cargo-mobile]
-_Bevy's Breakout example running on an iPhone XR_
+{{ image_figure(
+    alt="Bevy's Breakout example running on an iPhone XR"
+    src="cargo-mobile.jpg"
+    caption="Bevy's Breakout example running on an iPhone XR",
+    link="https://dev.brainiumstudios.com/2020/11/24/cargo-mobile.html") }}
 
 [cargo-mobile] is a tool created by [Brainium Studios] to simplify Rust mobile
 development. It generates Xcode and Android Studio projects, and provides handy
@@ -571,8 +592,10 @@ Version 0.4.0 was released this month, bringing loads of improvements.
 
 ### [Terra Mach][terramach]
 
-![Dashboard demo](terramach.gif)
-_Terra Mach dashboard demo_
+{{ image_figure(
+    alt="Dashboard demo"
+    src="terramach.gif"
+    caption="Terra Mach dashboard demo") }}
 
 [Terra Mach][terramach] is a mapping frontend system to build graphical interfaces
 for devices. It focuses on experiences around statistical data (graphs, diagrams),
@@ -765,8 +788,10 @@ most of the updated [WebGPU samples][wgpu-samples].
 
 ### [Iced] v0.2
 
-![Iced - Game of Life example](iced-game-of-life.gif)
-_The new [Game of Life example], made with Iced_
+{{ image_figure(
+    alt="Iced - Game of Life example"
+    src="iced-game-of-life.gif"
+    caption="The new [Game of Life example](https://github.com/hecrj/iced/tree/0.2/examples/game_of_life), made with Iced") }}
 
 Iced is an experimental cross-platform GUI library focused on simplicity and
 type-safety. Inspired by [Elm].
@@ -799,8 +824,10 @@ _Discussions:
 
 ### [KAS] v0.6 and [KAS-text] v0.2
 
-![KAS markdown](kas-markdown.png)
-_Markdown parsing demo_
+{{ image_figure(
+    alt="KAS markdown"
+    src="kas-markdown.png"
+    caption="Markdown parsing demo") }}
 
 [KAS] by [@dhardy] is a general-purpose UI toolkit; its
 initial aim is "old school" desktop apps with good keyboard and touchscreen
@@ -836,8 +863,10 @@ Also, [egui_web] v0.4.0 was released, with a simple fetch API \-
 
 ### [miniquad]
 
-![miniquad_wayland](miniquad_kms.gif)
-_Miniquad running on raspberry pi 4 with a SPI screen._
+{{ image_figure(
+    alt="miniquad_wayland"
+    src="miniquad_kms.gif"
+    caption="Miniquad running on raspberry pi 4 with a SPI screen.") }}
 
 [miniquad] is cross-platform windowing and rendering library.
 
@@ -851,8 +880,10 @@ right on the Linux kernel with KMS.
 
 ### [macroquad]
 
-![macroquad_particles](macroquad_particles.gif)
-_Small editor footage._
+{{ image_figure(
+    alt="macroquad_particles"
+    src="macroquad_particles.gif"
+    caption="Small editor footage.") }}
 
 [macroquad] is a cross-platform (Windows/Linux/macOS/Android/iOS/WASM)
 game framework built on top of [miniquad].
@@ -865,8 +896,10 @@ style effects: [try it out online here][macroquad-particles].
 
 ### [Dotrix]
 
-![Animated low-poly character rendered by Dotrix](dotrix-rendering.png)
-_A screenshot of running low-poly female model_
+{{ image_figure(
+    alt="Animated low-poly character rendered by Dotrix"
+    src="dotrix-rendering.png"
+    caption="A screenshot of running low-poly female model") }}
 
 The goal of [Dotrix] is to become a 3D engine for the new RPG project. The
 engine is free and open source, delivering a set of common high-level features
@@ -936,8 +969,10 @@ has also been updated to show the new helpers in action.
 
 ### [ggez]
 
-![lots of overlapping bunnies](ggez-bun.png)
-_ggez bunnymark - 60,000 buns at 60 FPS_
+{{ image_figure(
+    alt="lots of overlapping bunnies"
+    src="ggez-bun.png"
+    caption="ggez bunnymark - 60,000 buns at 60 FPS") }}
 
 [ggez] is a 2D game framework inspired by Love2D. The project is chugging
 along getting everything prepared for a 0.6 release at the end of 2020,
@@ -959,8 +994,11 @@ branch and give it a go!
 
 ### [rg3d]
 
-[![a scene with lightning and multiple hi-poly character models](rg3d_instancing.jpg)][rg3d_twit]
-_Geometry instancing demo._
+{{ image_figure(
+    alt="a scene with lightning and multiple hi-poly character models"
+    src="rg3d_instancing.jpg"
+    caption="Geometry instancing demo.",
+    link="https://twitter.com/DmitryS36934349/status/1328797761874046977") }}
 
 [rg3d] is a game engine that aims to be easy to use and provide large set
 of out-of-box features. Some of the recent updates:
@@ -987,8 +1025,10 @@ or follow [Dmitry Stepanov on Twitter][rg3d_twitter].
 
 ### [Another World Suite][another-world-suite]
 
-![multiple windows with asm and sprites](aws.png)
-_debugger and resource viewer_
+{{ image_figure(
+    alt="multiple windows with asm and sprites"
+    src="aws.png"
+    caption="debugger and resource viewer") }}
 
 [Another World Suite][another-world-suite] by [@c_botana] is a Rust
 implementation of the ["Another World"][another-world] ("Out of This World" in USA)
@@ -1019,8 +1059,10 @@ _Discussions:
 
 ### [bevmnist][bevmnist-itch.io]
 
-![demo of running inferences for all digits](bevmnist.gif)
-_Running through all digits_
+{{ image_figure(
+    alt="demo of running inferences for all digits"
+    src="bevmnist.gif"
+    caption="Running through all digits") }}
 
 [bevmnist][bevmnist-itch.io] by [@FrancoisMockers] is a PoC for running
 inferences from a neural network in a game made with [bevy], that can run in

@@ -64,8 +64,10 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [Veloren][veloren]
 
-![Buildings](veloren1.png)
-_The new repo banner_
+{{ image_figure(
+    alt="Buildings"
+    src="veloren1.png"
+    caption="The new repo banner") }}
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.
@@ -113,8 +115,10 @@ of 0.7, and what they wanted to achieve:
 > clashing together. I want to be able to add people to my combat party and
 > interact with the game UI to do this.
 
-![Welcome to Veloren](veloren2.png)
-_Welcome to Veloren! From the 0.6 release party_
+{{ image_figure(
+    alt="Welcome to Veloren"
+    src="veloren2.png"
+    caption="Welcome to Veloren! From the 0.6 release party") }}
 
 You can read more about some specific topics from May:
 
@@ -320,8 +324,11 @@ Follow [@seratonik] on Twitter for updates.
 
 ### [Crate Before Attack][cratebeforeattack-site]
 
-[![screenshot: decision tree and goal distance map in the background](crate_before_attack.png)][cratebeforeattack-site]
-_Decision tree and goal distance map in the background_
+{{ image_figure(
+    alt="screenshot: decision tree and goal distance map in the background"
+    src="crate_before_attack.png"
+    caption="Decision tree and goal distance map in the background",
+    link="https://cratebeforeattack.com") }}
 
 [Crate Before Attack][cratebeforeattack-site] by [koalefant (@CrateAttack)][@CrateAttack]
 is a realtime/turn-based multiplayer game where frogs combat their friends
@@ -386,8 +393,10 @@ the first time. Be sure to check out the [GitHub repo][digescape-github].
 
 ### [Akigi][akigi]
 
-![cat model](akigi1.png)
-_Completed cat model with rigging_
+{{ image_figure(
+    alt="cat model"
+    src="akigi1.png"
+    caption="Completed cat model with rigging") }}
 
 > [Akigi][akigi] is a magical multiplayer online world where humans aren't the
 > only intelligent animals. Akigi is a solo project, and the developer hopes to
@@ -420,8 +429,10 @@ Full devlogs:
 
 ### Nox Futura: Rust Edition
 
-![worldgen menu](nox-f.png)
-_Worldgen menu_
+{{ image_figure(
+    alt="worldgen menu"
+    src="nox-f.png"
+    caption="Worldgen menu") }}
 
 [Herbert Wolverson][thebracket]
 (the author of [bracket-lib] and [the Rust Roguelike Tutorial][rl-book])
@@ -639,8 +650,11 @@ _Discussions:
 
 ### NodeFX
 
-[![NodeFX](nodefx.png)][NodeFXTweet]
-_Click the image to see the animated version_
+{{ image_figure(
+    alt="NodeFX"
+    src="nodefx.png"
+    caption="Click the image to see the animated version",
+    link="https://twitter.com/MrVallentin/status/1256805858022998016") }}
 
 Project "NodeFX" by [Christian Vallentin (@MrVallentin)][@MrVallentin]
 is an unnamed node-based tool for creating GLSL shaders in real-time,

@@ -70,8 +70,10 @@ and where we should try to focus our collective efforts.
 
 ### [Veloren][veloren]
 
-![Landscape](veloren_clouds.jpeg)
-_Endless mountains to explore_
+{{ image_figure(
+    alt="Landscape"
+    src="veloren_clouds.jpeg"
+    caption="Endless mountains to explore") }}
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.
@@ -104,15 +106,20 @@ October's full weekly devlogs: "This Week In Veloren...":
 In November, Veloren will release 0.8. Veloren will also be speaking at
 MiniDebConf on November 22nd.
 
-![Healing sceptre](veloren_wolves.jpeg)
-_Team hunt_
+{{ image_figure(
+    alt="Healing sceptre"
+    src="veloren_wolves.jpeg"
+    caption="Team hunt") }}
 
 [veloren]: https://veloren.net
 
 ### [Crate Before Attack][cba-site]
 
-[![Leaderboard Histogram](crate-before-attack.gif)][cba-site]
-_Interactive Histogram with Race Results_
+{{ image_figure(
+    alt="Leaderboard Histogram"
+    src="crate-before-attack.gif"
+    caption="Interactive Histogram with Race Results",
+    link="https://cratebeforeattack.com") }}
 
 [Crate Before Attack][cba-site] by [koalefant (@CrateAttack)][@CrateAttack]
 is a skill-based multiplayer game where frogs fight and race using their sticky
@@ -196,8 +203,10 @@ Some of this month's updates:
 
 ### Worship The Sun
 
-![Worship The Sun](worship-sun.jpg)
-_One of the many unique and confounding puzzles in the game_
+{{ image_figure(
+    alt="Worship The Sun"
+    src="worship-sun.jpg"
+    caption="One of the many unique and confounding puzzles in the game") }}
 
 Worship The Sun is a dark, mysterious 2D puzzle-platform game with computer
 science themes. It introduces the player to a rich language of puzzle elements
@@ -225,8 +234,10 @@ For updates and possible playtesting opportunities, follow
 
 ### [Garden][garden]
 
-![Garden](garden_scaled_1.png)
-_A couple of trees growing and basking in the sun_
+{{ image_figure(
+    alt="Garden"
+    src="garden_scaled_1.png"
+    caption="A couple of trees growing and basking in the sun") }}
 
 [Garden][garden] is a procedural tree-growing, strategical ecosystem-restoration
 and biological simulation game with an infinite amount of plant species where
@@ -457,8 +468,11 @@ an effective code refactor for a project using ECS, make sure to check out
 
 ### [Weegames][weegames-itch]
 
-[![Jumping across walls minigame](weegames.png)][weegames-video]
-_Click to see [a demo video][weegames-video]_
+{{ image_figure(
+    alt="Jumping across walls minigame"
+    src="weegames.png"
+    caption="Click to see [a demo video](https://youtu.be/sstqGppo7L4)",
+    link="https://youtu.be/sstqGppo7L4") }}
 
 [Weegames][weegames-itch] ([source code][weegames-repository])
 is a fast-paced minigame collection.
@@ -629,8 +643,10 @@ development for Entity-Component-Systems, Windowing and Event Loops, and WGPU.
 
 ### [Creating a Snake Clone in Bevy]
 
-![Snake clone tutorial output](bevy_snake.gif)
-_Gameplay of snake clone_
+{{ image_figure(
+    alt="Snake clone tutorial output"
+    src="bevy_snake.gif"
+    caption="Gameplay of snake clone") }}
 
 Bevy is a rapidly growing game engine written in Rust. This tutorial walks
 through creating a snake clone, introducing Bevy concepts on the way. The
@@ -938,8 +954,10 @@ Join [Building Blocks's Discord server](https://discord.gg/CnTNjwb).
 
 ### [Rust GPU v0.1][rustgpu-v0.1]
 
-![Rust GPU Sky](rustgpu.jpg)
-_Sky example in Rust GPU_
+{{ image_figure(
+    alt="Rust GPU Sky"
+    src="rustgpu.jpg"
+    caption="Sky example in Rust GPU") }}
 
 [Rust GPU][rustgpu] is a project backed by [Embark Studios][embark]
 to make Rust a first-class language and ecosystem for building GPU code.
@@ -1034,8 +1052,10 @@ available [here][ggez-release-checklist].
 
 ### [miniquad]
 
-![miniquad_wayland](miniquad_wayland.gif)
-_Miniquad compiled from scratch and running on Wayland._
+{{ image_figure(
+    alt="miniquad_wayland"
+    src="miniquad_wayland.gif"
+    caption="Miniquad compiled from scratch and running on Wayland.") }}
 
 [miniquad] is cross-platform windowing and rendering library.
 
@@ -1055,8 +1075,10 @@ This month two big PRs got into the final review stage:
 
 ### [macroquad]
 
-![macroquad-gif](macroquad.gif)
-_Macroquad-particles real-life example_
+{{ image_figure(
+    alt="macroquad-gif"
+    src="macroquad.gif"
+    caption="Macroquad-particles real-life example") }}
 
 [macroquad] is a cross-platform (Windows/Linux/macOS/Android/iOS/WASM)
 game framework built on top of [miniquad].

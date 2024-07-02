@@ -116,10 +116,11 @@ see your game in there!
 
 ### [Name Needed][name-needed]
 
-![The player orders a selection of blocks to be broken, and a brick wall to be
-built.](name-needed.gif)
-_The player orders a selection of blocks to be broken, and a brick wall to be
-built._
+{{ image_figure(
+    alt="The player orders a selection of blocks to be broken, and a brick wall to be built."
+    src="name-needed.gif"
+    caption="The player orders a selection of blocks to be broken, and a brick wall to be built.") }}
+
 
 [Name Needed][name-needed] by [@DomWilliams0][domwilliams-github] is a one-man
 effort to produce an open source, intuitive, and high-performance Dwarf
@@ -141,8 +142,10 @@ superb `async`/`await` support, which is documented in the most recent devlog.
 
 ### [This is Fine Sokoban][sokoban-github]
 
-![This is Fine Sokoban screenshot](sokoban_screenshot.gif)
-_Screenshot of This is Fine Sokoban_
+{{ image_figure(
+    alt="This is Fine Sokoban screenshot"
+    src="sokoban_screenshot.gif"
+    caption="Screenshot of This is Fine Sokoban") }}
 
 This is Fine Sokoban ([GitHub][sokoban-github]) by
 [@Syn-Nine][synnine-twitter] is a Sokoban game inspired by the This is Fine
@@ -236,8 +239,10 @@ check out its gameplay on [youtube][youtube-molecoole], or on the Steam page.
 
 ### [Veloren][veloren]
 
-![Gnarling looking out over a fort](veloren.jpg)
-_Looking out over the Gnarling fort_
+{{ image_figure(
+    alt="Gnarling looking out over a fort"
+    src="veloren.jpg"
+    caption="Looking out over the Gnarling fort") }}
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.
@@ -303,8 +308,10 @@ _Discussions: [Reddit][DIMS-reddit-discussion], [Twitter][DIMS-twitter-discussio
 
 ### [Bevy Minesweeper]
 
-![screenshot](bevy_minesweeper.png)
-_Demo Screenshot_
+{{ image_figure(
+    alt="screenshot"
+    src="bevy_minesweeper.png"
+    caption="Demo Screenshot") }}
 
 [@ManevilleF] published a 12 step [course][Bevy Minesweeper] on how to make a
 simple 2D Minesweeper using [bevy][bevy] 0.6.
@@ -356,8 +363,10 @@ to be refactored to be more modular and cleaner.
 
 ### [Godot-Rust to Android without Android Studio][godot-rust-to-android]
 
-![working godot-rust on an android phone](godot-rust-android-via-windows.jpg)
-_Proof of concept Godot app running on Android_
+{{ image_figure(
+    alt="working godot-rust on an android phone"
+    src="godot-rust-android-via-windows.jpg"
+    caption="Proof of concept Godot app running on Android") }}
 
 [@coffeecodechem] published a [blog post][godot-rust-to-android] on how to
 export godot-rust as an Android APK on Windows without using Android Studio. It

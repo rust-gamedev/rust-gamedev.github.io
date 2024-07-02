@@ -65,8 +65,10 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [Rusty Jam \#3][rj3]
 
-![find ferris screenshot: a cart with sweets, ferris, flowers, etc](find_ferris.png)
-_Find Ferris_
+{{ image_figure(
+    alt="find ferris screenshot: a cart with sweets, ferris, flowers, etc"
+    src="find_ferris.png"
+    caption="Find Ferris") }}
 
 [Rusty Jam \#3][rj3] ran from May 21st 2023 to May 29th 2023 and the theme was
 "Hidden in plain sight".
@@ -114,8 +116,10 @@ Twitch][rust-gamedev-twitch].
 
 ### Digital Extinction
 
-![Building Placement in Digital Extinction](digital-extinction.jpeg)
-_Building Placement in Digital Extinction_
+{{ image_figure(
+    alt="Building Placement in Digital Extinction"
+    src="digital-extinction.jpeg"
+    caption="Building Placement in Digital Extinction") }}
 
 [Digital Extinction] ([GitHub][de-github], [Discord][de-discord],
 [Reddit][de-reddit]) by [@Indy2222] is a 3D real-time strategy game made with
@@ -157,8 +161,10 @@ More detailed monthly updates are available [here (May)][de-update-07] and
 
 ### [Tunnet][tunnet-itch]
 
-![Tunnet screenshot: robots queueing outside nightclub](tunnet.jpg)
-_Connecting the DJ set to the network_
+{{ image_figure(
+    alt="Tunnet screenshot: robots queueing outside nightclub"
+    src="tunnet.jpg"
+    caption="Connecting the DJ set to the network") }}
 
 Tunnet ([Steam][tunnet-steam], [Itch.io][tunnet-itch]) is a short
 puzzle/exploration game where the player digs tunnels and connects computers
@@ -202,8 +208,10 @@ _Discussions: [/r/rust](https://reddit.com/r/rust/comments/13qkcv9/fish_ks)_
 
 ### [Escape Room AI][escape-ai]
 
-![top-down view on the game world: wallks, traps, enemies, doors, etc](escape-ai.png)
-_AI trying to escape a room_
+{{ image_figure(
+    alt="top-down view on the game world: wallks, traps, enemies, doors, etc"
+    src="escape-ai.png"
+    caption="AI trying to escape a room") }}
 
 [escape-ai] by [@bones-ai] is a Rust-based implementation of a genetic algorithm
 and reinforcement learning simulation.
@@ -301,8 +309,10 @@ _Discussions: [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/13al7
 
 ### [NANOVOID][nv-steam]
 
-![one big space ship shooting lots of missles at another](nanovoid.gif)
-_Missiles targeting individual parts on enemy ships_
+{{ image_figure(
+    alt="one big space ship shooting lots of missles at another"
+    src="nanovoid.gif"
+    caption="Missiles targeting individual parts on enemy ships") }}
 
 [NANOVOID][nv-steam] by [LogLogGames] is a WIP 2D tactical space shooter
 that puts you in command of your own modular spaceship:
@@ -434,8 +444,10 @@ _Discussions: [/r/rust](https://reddit.com/r/rust/comments/134d2i0/learning_game
 
 ### [Game Development In Rust: Making A Strategy Game][rust-strategy-game-tut-1]
 
-![Game Development In Rust: Making A Strategy Game](strategy-game.png)
-_Game Development In Rust: Making A Strategy Game_
+{{ image_figure(
+    alt="Game Development In Rust: Making A Strategy Game"
+    src="strategy-game.png"
+    caption="Game Development In Rust: Making A Strategy Game") }}
 
 [@srodrigo] published the first three parts of a
 [strategy game in Bevy series][rust-strategy-game-tut-1]. The series is aimed at

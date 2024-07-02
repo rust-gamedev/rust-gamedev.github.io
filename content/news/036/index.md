@@ -205,8 +205,10 @@ Other recent updates:
 
 ### Flesh
 
-![flesh preview](flesh.gif)
-_3rd area_
+{{ image_figure(
+    alt="flesh preview"
+    src="flesh.gif"
+    caption="3rd area") }}
 
 [Flesh] by [@im_oab] is a 2D-horizontal shmup game with hand-drawn animation and
 an organic/fleshy theme. It is implemented using [Tetra]. This month's updates
@@ -225,9 +227,10 @@ include:
 
 ### [CyberGate][cybergate-yt]
 
-![hundreds of colliding colored balls in the air](cybergate.jpg)
-_The server and clients are able to smoothly handle
-over a thousand balls rained from above_
+{{ image_figure(
+    alt="hundreds of colliding colored balls in the air"
+    src="cybergate.jpg"
+    caption="The server and clients are able to smoothly handle over a thousand balls rained from above") }}
 
 CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]) by CyberSoul
 is a new multiplayer project that aims at procedurally generating distinct
@@ -312,8 +315,10 @@ platform/country/OS, player feedback, reviews & game updates.
 
 ### [Simon Arcade]
 
-![Simon arcade gameplay with arrows and buttons in different colors](simon.gif)
-_a Simon Arcade gameplay with cheats enabled_
+{{ image_figure(
+    alt="Simon arcade gameplay with arrows and buttons in different colors"
+    src="simon.gif"
+    caption="a Simon Arcade gameplay with cheats enabled") }}
 
 Based on [Simon (Original)], made with [Bevy],
 the goal of this game is to push buttons in the correct order,
@@ -330,8 +335,10 @@ and was showcased at [RustConf Portland] on August 5th 2022.
 
 ### [Veloren][veloren]
 
-![Gliding above a forest](veloren.jpg)
-_New cave systems to explore_
+{{ image_figure(
+    alt="Gliding above a forest"
+    src="veloren.jpg"
+    caption="New cave systems to explore") }}
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.
@@ -364,8 +371,10 @@ July's full weekly devlogs: "This Week In Veloren...":
 
 ### [Agma]
 
-![an animated black-colored character runs around and attacks anoter one](agma.gif)
-_Moving around_
+{{ image_figure(
+    alt="an animated black-colored character runs around and attacks anoter one"
+    src="agma.gif"
+    caption="Moving around") }}
 
 [Agma] by [@TuckerBMorgan] is a 3D game built in the [Storm Engine] that is based
 on games like Lost Ark and Diablo. The author has been writing about their experience
@@ -380,8 +389,10 @@ and a custom-skinned mesh renderer to maximize what the author could learn.
 
 ### [Combine&Conquer][cnc-logs]
 
-![zoomin gout from individual tiles to the whole space system](cnc.gif)
-_Seamless transition between planet and space views_
+{{ image_figure(
+    alt="zoomin gout from individual tiles to the whole space system"
+    src="cnc.gif"
+    caption="Seamless transition between planet and space views") }}
 
 [Combine&Conquer][cnc-itch] by [Martin Buck][@I3ck] is a WIP strategy game
 about automation similar to Satisfactory or Factorio.
@@ -423,9 +434,10 @@ coding game "Life Code":
 
 ### [Bevy v0.8][bevy-blog]
 
-![bevy terrain](bevy_terrain.jpg)
-_Bevy-shaped mountains in a Bevy-based Witcher 3 terrain texturing tool built by
-rmemr_
+{{ image_figure(
+    alt="bevy terrain"
+    src="bevy_terrain.jpg"
+    caption="Bevy-shaped mountains in a Bevy-based Witcher 3 terrain texturing tool built by rmemr") }}
 
 [Bevy][bevy] is a refreshingly simple data-driven game engine built in Rust. It
 is [free and open source][bevy-git] forever!
@@ -538,8 +550,10 @@ Nevertheless, several improvements have been integrated to godot-rust since
 
 ### [Gamercade]
 
-![Gamercade preview](gamercade.gif)
-_WASM 3d CPU Rendering On a 2d Fantasy Console?_
+{{ image_figure(
+    alt="Gamercade preview"
+    src="gamercade.gif"
+    caption="WASM 3d CPU Rendering On a 2d Fantasy Console?") }}
 
 [Gamercade] ([Discord][Gamercade-Discord], [GitHub][Gamercade-GitHub])
 by @RobDavenport is a WASM-powered fantasy console focused
@@ -579,8 +593,10 @@ _Discussions:
 
 ### [Sand Fall With Compute Shaders in Rust][sandfall-tutorial]
 
-![sandfall_8k](draw_sand.gif)
-_Drawing Sand_
+{{ image_figure(
+    alt="sandfall_8k"
+    src="draw_sand.gif"
+    caption="Drawing Sand") }}
 
 [@hakolao] published a [tutorial][sandfall-tutorial] about creating
 [cellular automata][wiki-cgol] sand fall simulations with compute shaders.
@@ -618,8 +634,11 @@ crate to do breadth-first, Dijkstra's, and A* search. It links to the
 
 ### [Creating Mountains From Planes with Vertex Shaders and Bevy][chrisbiscardi-vid1]
 
-[![vertex shaders example](creating-mountains-from-planes-with-vertex-shaders-and-bevy.png)][chrisbiscardi-vid1]
-_Creating mountains from planes with vertex shaders and Bevy_
+{{ image_figure(
+    alt="vertex shaders example"
+    src="creating-mountains-from-planes-with-vertex-shaders-and-bevy.png"
+    caption="Creating mountains from planes with vertex shaders and Bevy",
+    link="https://youtube.com/watch?v=85uJc81SQZ4") }}
 
 [@chrisbiscardi] published a [video][chrisbiscardi-vid1]
 about using the new Material shader APIs in Bevy 0.8 to transform the
@@ -632,8 +651,11 @@ _Discussions: [Twitter](https://twitter.com/chrisbiscardi/status/154908959997193
 
 ### [What's in a wgsl fragment shader? ft Bevy][chrisbiscardi-vid2]
 
-[![vertex shaders example](whats-in-a-wgsl-fragment-shader-with-bevy.png)][chrisbiscardi-vid2]
-_What's in a wgsl fragment shader? ft Bevy_
+{{ image_figure(
+    alt="vertex shaders example"
+    src="whats-in-a-wgsl-fragment-shader-with-bevy.png"
+    caption="What's in a wgsl fragment shader? ft Bevy",
+    link="https://youtube.com/watch?v=SOOOc9-joVo") }}
 
 [@chrisbiscardi] published a [video][chrisbiscardi-vid2]
 that introduces the new Material APIs in Bevy 0.8. It covers AsBindGroup,
@@ -700,8 +722,10 @@ _Discussions:
 
 ### [NES Bundler][nes-bundler]
 
-![NES Bundler running Data Man with GUI showing](nes-bundler.png)
-_NES Bundler in action_
+{{ image_figure(
+    alt="NES Bundler running Data Man with GUI showing"
+    src="nes-bundler.png"
+    caption="NES Bundler in action") }}
 
 [NES Bundler][nes-bundler] is a NES ROM packaging tool by [@tedsteen].
 Did you make a NES-game but none of your friends own a Nintendo? Don't worry.
@@ -897,8 +921,10 @@ _Discussions: [/r/rust](https://reddit.com/r/rust/comments/vwdxim/announcing_lyo
 
 ### [Renet]
 
-![3D capsles shooting red dots at each other](renet_bevy_demo.gif)
-_Demo using renet and bevy_
+{{ image_figure(
+    alt="3D capsles shooting red dots at each other"
+    src="renet_bevy_demo.gif"
+    caption="Demo using renet and bevy") }}
 
 [Renet] by [@lucaspoffo] is a network library to create
 games with the Server-Client architecture.
@@ -924,8 +950,10 @@ Renet comes with [bevy_renet], a plugin for the Bevy engine, and also with
 
 ### [miniquad]
 
-![miniquad fileopen](miniquad_gl2.gif)
-_VirtualBox, gl2 as the only GPU acceleration available_
+{{ image_figure(
+    alt="miniquad fileopen"
+    src="miniquad_gl2.gif"
+    caption="VirtualBox, gl2 as the only GPU acceleration available") }}
 
 [miniquad] is a safe and cross-platform rendering library
 focused on portability and low-end platform support.
@@ -943,8 +971,10 @@ next in line.
 
 ### [bevy_mod_fbx]
 
-![A model using a PBR shader featuring roughness and metalicness texture maps](bevy_fbx_maya_pbr.jpg)
-_model courtesy of [Samuel Rosario], rendered in bevy_
+{{ image_figure(
+    alt="A model using a PBR shader featuring roughness and metalicness texture maps"
+    src="bevy_fbx_maya_pbr.jpg"
+    caption="model courtesy of [Samuel Rosario](https://www.artstation.com/artwork/bKJ0EE), rendered in bevy") }}
 
 [bevy_mod_fbx] is a pre-alpha library to load FBX (Autodesk Filmbox) files
 into [bevy] 0.8, based on [fbxcel-dom].
@@ -994,9 +1024,11 @@ link once it is outdated -->
 
 ### [bonsai-bt]
 
-![A behavior tree visualization that starts with a "root" node and branches
-into leafs like "run" and "get in cover"](bonsai.png)
-_A visualization of a simple NPC behavior tree_
+{{ image_figure(
+    alt='A behavior tree visualization that starts with a "root" node and branches
+into leafs like "run" and "get in cover"'
+    src="bonsai.png"
+    caption="A visualization of a simple NPC behavior tree") }}
 
 [bonsai-bt] by [@Sollimann] is a Rust implementation of behavior trees.
 

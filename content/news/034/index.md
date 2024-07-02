@@ -290,8 +290,10 @@ is over, you can still find the
 
 ### [Veloren][veloren]
 
-![Flying down a mountain](veloren.jpg)
-_A glorious flight to distant lands_
+{{ image_figure(
+    alt="Flying down a mountain"
+    src="veloren.jpg"
+    caption="A glorious flight to distant lands") }}
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.
@@ -347,8 +349,11 @@ The source code of the game is [available on GitHub][hug-src].
 
 ### [Combine&Conquer][cnc-logs]
 
-[![Preview: a factory](cnc-preview.png)][cnc-video]
-_[Connect factories on different planets via spaceships][cnc-video]_
+{{ image_figure(
+    alt="Preview: a factory"
+    src="cnc-preview.png"
+    caption="[Connect factories on different planets via spaceships](https://reddit.com/r/IndieDev/comments/uxcc7v/connect_different_planets)",
+    link="https://reddit.com/r/IndieDev/comments/uxcc7v/connect_different_planets") }}
 
 [Combine&Conquer][cnc-itch] by [Martin Buck][@I3ck] is a WIP strategy game
 about automation similar to Satisfactory or Factorio.

@@ -100,8 +100,11 @@ _Discussions:
 
 ### [LD48: Micronaut][micronaut-itch]
 
-[![GIF showing Micronaut's primary level recursion mechanic](micronaut.gif)][micronaut-itch]
-_Micronaut features a deep recursive level layout_
+{{ image_figure(
+    alt="GIF showing Micronaut's primary level recursion mechanic"
+    src="micronaut.gif"
+    caption="Micronaut features a deep recursive level layout",
+    link="https://healthire.itch.io/micronaut") }}
 
 Micronaut is a small puzzle platformer by [@Healthire] made in 48 hours for the
 Ludum Dare 48 Compo. Run and jump your way through a recursive level layout to
@@ -216,8 +219,10 @@ if you want to try it out.
 
 ### [The Process]
 
-![Animated image showcasing the test map in The Process](the_process.gif)
-_The new test map in The Process_
+{{ image_figure(
+    alt="Animated image showcasing the test map in The Process"
+    src="the_process.gif"
+    caption="The new test map in The Process") }}
 
 [The Process] by @setzer22 is an upcoming
 game about factory building, process management and carrot production, built
@@ -269,8 +274,11 @@ Recent updates include:
 
 ### [Taipo][taipo-itch]
 
-[![Screenshot of Taipo showing a variety of towers and enemies](taipo.png)][taipo-itch]
-_Click the image to play the game in your desktop browser!_
+{{ image_figure(
+    alt="Screenshot of Taipo showing a variety of towers and enemies"
+    src="taipo.png"
+    caption="Click the image to play the game in your desktop browser!",
+    link="https://euclidean-whale.itch.io/taipo") }}
 
 Taipo ([itch.io][taipo-itch], [GitHub][taipo-github]) by [@rparrett]
 is a Tower Defense game that's controlled solely by typing words and phrases.
@@ -341,8 +349,10 @@ Rhea developments:
 
 ### [Veloren][veloren]
 
-![Airship](veloren.jpg)
-_A mist rolling over the land_
+{{ image_figure(
+    alt="Airship"
+    src="veloren.jpg"
+    caption="A mist rolling over the land") }}
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.
@@ -402,8 +412,11 @@ _Discussions:
 
 ### [Theta Wave]
 
-[![Enemy Formations](theta-wave.gif)][Theta Wave]
-_Mobs may now be spawned in predefined formations_
+{{ image_figure(
+    alt="Enemy Formations"
+    src="theta-wave.gif"
+    caption="Mobs may now be spawned in predefined formations",
+    link="https://github.com/amethyst/theta-wave") }}
 
 [Theta Wave] is an open-source space shooter game by developers [@micah_tigley] and
 [@carlosupina]. It is one of the showcase games for the [Amethyst Engine]. In
@@ -482,8 +495,10 @@ framework - additions are welcomed!
 
 ### [Oxygengine v0.19.1][oxygengine-git]
 
-![Oxygengine UI splash screen](oxygengine-ui-splash-screen.gif)
-_Making splash screens in Oxygengine with RAUI_
+{{ image_figure(
+    alt="Oxygengine UI splash screen"
+    src="oxygengine-ui-splash-screen.gif"
+    caption="Making splash screens in Oxygengine with RAUI") }}
 
 [Oxygengine][oxygengine-git] by [@PsichiX][psichix-twitter] is the hottest
 HTML5 + WASM game engine for games written in Rust with web-sys.
@@ -524,8 +539,10 @@ the recent engine updates:
 
 ### [Arcana]
 
-![arcana](tanks.gif)
-_A demo Arcana game_
+{{ image_figure(
+    alt="arcana"
+    src="tanks.gif"
+    caption="A demo Arcana game") }}
 
 [Arcana] is a new game engine built with focus on ease of use
 without compromising on level of control.
@@ -610,8 +627,11 @@ The water & transition shader is open source and can be found
 
 ### [Rust Linz: Learning Rust with Game Development][rust-linz]
 
-[![Rust Linz talk screenshot](rust-linz.png)][rust-linz]
-_Click on the image to watch the talk_
+{{ image_figure(
+    alt="Rust Linz talk screenshot"
+    src="rust-linz.png"
+    caption="Click on the image to watch the talk",
+    link="https://www.youtube.com/watch?v=79GyLlXAk-0") }}
 
 As part of April's Rust Linz meetup, [Herbert Wolverson][rust-linz-hw]
 gave a talk about using game development as a means of learning
@@ -627,8 +647,11 @@ posted on the [author's twitter][rust-linz-coupon].
 
 ### [Rust LA Meetup: Happiness in Rust][rust-la]
 
-[![Rust LA talk screenshot](rust-la.png)][rust-la]
-_Click on the image to watch the talk_
+{{ image_figure(
+    alt="Rust LA talk screenshot"
+    src="rust-la.png"
+    caption="Click on the image to watch the talk",
+    link="https://www.youtube.com/watch?v=TJ3w-pZ7FMI") }}
 
 As part of April's Rust LA meetup, [Andrea Pessino][rad-andrea] from
 [Ready at Dawn][rad] gave a talk examining how to increase Rust adoption
@@ -721,8 +744,10 @@ _Discussions: [/r/rust], [Twitter]_
 
 ### [opensubdiv-petite]
 
-![Low poly car model](opensubdiv-petite.jpg)
-_Low poly car with three levels of Catmull-Clark subdivision applied._
+{{ image_figure(
+    alt="Low poly car model"
+    src="opensubdiv-petite.jpg"
+    caption="Low poly car with three levels of Catmull-Clark subdivision applied.") }}
 
 [Opensubdiv-petite] is a high level, selective, oxidized wrapper around Pixar’s
 [OpenSubdiv] [sudivison surface] meshing and evaluation library. OpenSubdiv allows
@@ -864,9 +889,11 @@ It has never been easier to add an in-game flamegraph profiler to your game!
 
 ### [rafx]
 
-[![Rafx WebGL 1.0 Demo](rafx-webgl1-demo.png)][rafx-webgl-demo]
-_Rafx WebGL 1.0 support, [click for live demo][rafx-webgl-demo]!_
-
+{{ image_figure(
+    alt="Rafx WebGL 1.0 Demo"
+    src="rafx-webgl1-demo.png"
+    caption="Rafx WebGL 1.0 support, [click for live demo](https://aclysma.github.io/rafx/demo-web/index.html)!",
+    link="[rafx-webgl-demo](https://aclysma.github.io/rafx/demo-web/index.html)") }}
 Rafx is a multi-backend renderer that optionally integrates with the
 [distill][rafx-distill] asset pipeline. This month, frustum culling
 and a new OpenGL ES 2.0/WebGL 1.0 backend were added.
@@ -891,8 +918,10 @@ or browser ([~98% web coverage][rafx-webgl-caniuse].)
 
 ### [RAUI v0.34.0][raui-git]
 
-![RAUI Scroll Box](raui-scroll-box.gif)
-_RAUI Scroll Box_
+{{ image_figure(
+    alt="RAUI Scroll Box"
+    src="raui-scroll-box.gif"
+    caption="RAUI Scroll Box") }}
 
 [RAUI][raui-git] by [@PsichiX][psichix-twitter] is a Renderer Agnostic User
 Interface crate that is based on declarative mode UI composition similar to
@@ -912,8 +941,10 @@ This month's changes include:
 
 ### [Graphite][graphite-repo]
 
-![Ferris drawn in Graphite using the new drawing tools - Art credit: Uriopass](graphite-ferris.png)
-_Ferris drawn in Graphite using the new drawing tools - Art credit: Uriopass_
+{{ image_figure(
+    alt="Ferris drawn in Graphite using the new drawing tools - Art credit: Uriopass"
+    src="graphite-ferris.png"
+    caption="Ferris drawn in Graphite using the new drawing tools - Art credit: Uriopass") }}
 
 Graphite ([GitHub][graphite-repo], [Discord][graphite-discord],
 [Twitter](https://twitter.com/GraphiteEditor)) is an in-progress vector and
@@ -962,8 +993,10 @@ GUI.
 
 ### [chip-8-rs]
 
-![Screenshot of Pong with debugger](chip-8-rs.jpg)
-_Debugging Pong_
+{{ image_figure(
+    alt="Screenshot of Pong with debugger"
+    src="chip-8-rs.jpg"
+    caption="Debugging Pong") }}
 
 [Chip-8-rs][chip-8-rs] by @jonathanmurray is
 a CHIP-8 emulator with some basic debugging functionality.

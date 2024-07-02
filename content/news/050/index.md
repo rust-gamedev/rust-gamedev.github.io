@@ -120,8 +120,10 @@ A successful stress test for the MMO feature was run on April 10th.
 
 ### [Open Combat][OpenCombat_website]
 
-![OpenCombat: demo available soon](OpenCombat202404.jpg)
-_Official demo available soon_
+{{ image_figure(
+    alt="OpenCombat: demo available soon"
+    src="OpenCombat202404.jpg"
+    caption="Official demo available soon") }}
 
 Open Combat ([GitHub][OpenCombat_github], [Discord][OpenCombat_discord]) is a real-time tactical game
 which takes place during World War II.
@@ -195,8 +197,10 @@ _Discussions: ([/r/rust_gamedev][you-are-merlin-reddit-post])_
 
 ### [Jumpy]
 
-![Machine Gun and Periscope](jumpy.png)
-_Jumpy: Machine gun and Periscope_
+{{ image_figure(
+    alt="Machine Gun and Periscope"
+    src="jumpy.png"
+    caption="Jumpy: Machine gun and Periscope") }}
 
 [Jumpy] ([GitHub][Jumpy], [Discord][jumpy_discord], [Twitter][jumpy_twitter]) by
 [Spicy Lobster][spicy_lobster] is a pixel-style, tactical 2D shooter with a fishy

@@ -70,8 +70,10 @@ working on in a future meetup, fill out [this form][gamedev-meetup-form].
 
 ### Flesh
 
-![flesh preview](flesh.gif)
-_a new enemy_
+{{ image_figure(
+    alt="flesh preview"
+    src="flesh.gif"
+    caption="a new enemy") }}
 
 Flesh by [@im_oab] is a 2D-horizontal shmup game with hand-drawn animation and
 organic/fleshy theme. It is implemented using [Tetra]. This month's updates
@@ -86,7 +88,10 @@ include:
 
 ### [Veloren][veloren]
 
-![Airship](veloren.jpg) _The beginning of an exciting journey_
+{{ image_figure(
+    alt="Airship"
+    src="veloren.jpg"
+    caption="The beginning of an exciting journey") }}
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.
@@ -137,8 +142,10 @@ multiple turn lanes, U-turns, and stop signs much better.
 
 ### [The Process]
 
-![Animated image showing a small factory in the middle of the game island](the_process.gif)
-_This factory has never looked livelier!_
+{{ image_figure(
+    alt="Animated image showing a small factory in the middle of the game island"
+    src="the_process.gif"
+    caption="This factory has never looked livelier!") }}
 
 [The Process] by @setzer22 is an upcoming game about factory building, process
 management and carrot production, built with Rust using the Godot game engine!
@@ -200,8 +207,11 @@ if you want to try it out.
 
 ### [Bounty Bros.][bounty_bros]
 
-[![bounty-bros-title-screen](bounty-bros.png)][bounty_bros_webgame]
-_Click the image to play the game in your browser!_
+{{ image_figure(
+    alt="bounty-bros-title-screen"
+    src="bounty-bros.png"
+    caption="Click the image to play the game in your browser!",
+    link="https://katharostech.github.io/skipngo_pre-releases/refs/tags/pre-release-1/?asset_url=https://katharostech.github.io/bounty-bros_pre-releases/1") }}
 
 [Bounty Bros.][bounty_bros] is a prototype game, similar to the old Legend of
 Zelda® games, developed by [Katharos Technology][katharostech] as a testing
@@ -319,8 +329,11 @@ _Discussions:
 
 ### [Theta Wave]
 
-[![Blast Repeller](theta-wave.gif)][Theta Wave]
-_The Blast Repeller item pushes blasts away from the player_
+{{ image_figure(
+    alt="Blast Repeller"
+    src="theta-wave.gif"
+    caption="The Blast Repeller item pushes blasts away from the player",
+    link="https://github.com/amethyst/theta-wave") }}
 
 [Theta Wave] is an open-source space shooter game by developers [@micah_tigley] and
 [@carlosupina]. It is one of the showcase games for the [Amethyst Engine]. In
@@ -525,8 +538,10 @@ _Discussion: [Twitter][2048-bevy-twitter]_
 
 ### [Graphite][graphite-repo]
 
-![Piet Mondrian's artwork replicated in Graphite using the new color picker](graphite-piet.png)
-_Piet Mondrian's artwork replicated in Graphite using the new color picker_
+{{ image_figure(
+    alt="Piet Mondrian's artwork replicated in Graphite using the new color picker"
+    src="graphite-piet.png"
+    caption="Piet Mondrian's artwork replicated in Graphite using the new color picker") }}
 
 Graphite ([GitHub][graphite-repo], [Discord][graphite-discord],
 [Twitter](https://twitter.com/GraphiteEditor)) is an in-development vector and
@@ -624,8 +639,10 @@ done by [naga], roughly 4x as fast as the C++ alternative
 
 ### [rafx]
 
-![Rafx Wireframe Demo](rafx-wireframe-demo.jpg)
-_Demo with wireframes enabled_
+{{ image_figure(
+    alt="Rafx Wireframe Demo"
+    src="rafx-wireframe-demo.jpg"
+    caption="Demo with wireframes enabled") }}
 
 Rafx is a multi-backend renderer that optionally integrates with the
 [distill][rafx-distill] asset pipeline.
@@ -654,8 +671,10 @@ instead of imgui.
 
 ### [Bevy Retro][bevy_retro]
 
-![ui-example](bevy-retro.gif)
-_Bevy Retro UI example_
+{{ image_figure(
+    alt="ui-example"
+    src="bevy-retro.gif"
+    caption="Bevy Retro UI example") }}
 
 [Bevy Retro][bevy_retro] is a [Bevy] plugin designed for making pixel-perfect
 games as easily as possible.
@@ -685,8 +704,10 @@ You can ask questions or give feedback for Bevy Retro
 
 ### [Texture Generator]
 
-![A tilemap with procedural textures](texture-generator.png)
-_A preview to version 0.5 with furniture_
+{{ image_figure(
+    alt="A tilemap with procedural textures"
+    src="texture-generator.png"
+    caption="A preview to version 0.5 with furniture") }}
 
 [Texture Generator] by [Orchaldir] is a library to generate textures,
 and a library to use those textures to render tilemaps.
@@ -774,8 +795,10 @@ F-reps can also be sliced into polylines/vectors or bitmaps – e.g. for derivin
 
 ### [nvtx-rs]
 
-![A screenshot of NVIDIA NSight Systems with only one sections measured](nvtx.png)
-_Watching the profile in NVIDIA NSight Systems_
+{{ image_figure(
+    alt="A screenshot of NVIDIA NSight Systems with only one sections measured"
+    src="nvtx.png"
+    caption="Watching the profile in NVIDIA NSight Systems") }}
 
 NVIDIA® Tools Extension SDK (NVTX) is a C-based API for annotating events,
 code ranges, and resources in your applications.

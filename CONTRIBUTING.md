@@ -53,8 +53,10 @@ your GitHub notifications for any further review comments from the editors.
 ```md
 ### [Game name]
 
-![alt text](img)
-_optional image label_
+{{ image_figure(
+    alt="alt text"
+    src="img"
+    caption="optional image label") }}
 
 [Game name] ([GitHub], [Discord], [Twitter]) by [@nickname]
 is... {short project description in one sentence}.
@@ -71,8 +73,10 @@ _Discussions: [/r/rust_gamedev](link), [Twitter](link), [etc](link)_
 ```md
 ### [Article name]
 
-![alt text](img)
-_optional image label_
+{{ image_figure(
+    alt="alt text"
+    src="img"
+    caption="optional image label") }}
 
 [@nickname] published an [article] about...
 {overview what the resource is about}.
