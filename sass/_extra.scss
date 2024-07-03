@@ -99,7 +99,8 @@ h6:hover .anchor {
     margin-bottom: 0;
 }
 
-input, button {
+input,
+button {
     font-size: inherit;
 }
 
@@ -107,7 +108,8 @@ input {
     min-width: 0; // Allow the input to shrink on small devices.
 }
 
-a.btn, // Trick to increase the specificity and win against rules such as a:visited
+a.btn,
+// Trick to increase the specificity and win against rules such as a:visited
 .btn {
     text-decoration: none;
     border-radius: 3px;
@@ -149,6 +151,10 @@ video+em {
     color: $grey-color;
 }
 
+video {
+    max-width: 100%;
+}
+
 .email-form {
     display: grid;
     margin-top: $spacing-unit;
@@ -180,7 +186,7 @@ video+em {
     display: grid;
     grid-template-columns: repeat(2, auto);
     gap: 5px;
-    
+
     label {
         grid-column: 1 / 3;
         font-size: .8em;
