@@ -503,14 +503,14 @@ Also, subscribe to our socials if you want to receive fresh news!
 - Mastodon: [@rust_gamedev][@mastodon_rust_gamedev]
 - Reddit: [/r/rust_gamedev][/r/rust_gamedev]
 
-<!--
-TODO: Add real links and un-comment once this post is published
+
 **Discuss this post on**:
-[/r/rust_gamedev](TODO),
-[Mastodon](TODO),
-[Twitter](TODO),
+[/r/rust_gamedev](https://www.reddit.com/r/rust_gamedev/comments/1dudvrk/this_month_in_rust_gamedev_june_edition_released/), 
+[Lemmy](https://lemmy.world/post/17176132),
+[Mastodon](https://mastodon.gamedev.place/@rust_gamedev/112722731870962460),
+[X/Twitter](hhttps://x.com/rust_gamedev/status/1808489666426851340),
+[Hacker News](https://news.ycombinator.com/item?id=40865690),
 [Discord](https://discord.gg/yNtPTb2).
--->
 
 [/r/rust_gamedev]: https://reddit.com/r/rust_gamedev
 [@x_rust_gamedev]: https://twitter.com/rust_gamedev
