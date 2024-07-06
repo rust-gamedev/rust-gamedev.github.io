@@ -80,13 +80,19 @@ _[Bunnymark example][chuot-bunnymark]_
 Chuột ([Website][chuot-website], [GitHub][chuot-github]) by [@tversteeg]
 is an AGPL licensed game engine for 2D pixel-art games.
 
-The main goal of the Chuột (Vietnamese for mouse) game engine is to make it easy to create and deploy small FOSS games. The license has been chosen to foster an open community of game development.
+The main goal of the Chuột (Vietnamese for mouse) game engine is to make it easy to create and deploy small FOSS games.
+The license has been chosen to foster an open community of game development.
 
-The Chuột game engine is standing on the shoulders of giants of the Rust ecosystem, such as [winit] for window handling and [wgpu] for drawing graphics.
+The Chuột game engine is standing on the shoulders of giants of the Rust ecosystem,
+such as [winit] for window handling and [wgpu] for drawing graphics.
 
-Recently, [version 0.2][chuot-0.2] has been released, which includes a big rewrite of the internal system and simplifying a lot of the API.
-Many rough and inconsistent parts have been cleaned up and renamed, resulting in quite a lot of breaking changes. This mainly happened because the developer was still finding a proper direction for the engine.
-Asset loading has been improved, especially asset hot-reloading, which is now also enabled by defining an external asset source.
+Recently, [version 0.2][chuot-0.2] has been released, which includes a big rewrite
+of the internal system and simplifying a lot of the API.
+Many rough and inconsistent parts have been cleaned up and renamed,
+resulting in quite a lot of breaking changes.
+This mainly happened because the developer was still finding a proper direction for the engine.
+Asset loading has been improved, especially asset hot-reloading,
+which is now also enabled by defining an external asset source.
 
 _Check out the [web examples][chuot-examples]!_
 
