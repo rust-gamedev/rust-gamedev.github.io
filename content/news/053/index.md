@@ -72,6 +72,39 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Engine Updates
 
+### [Chuột][chuot-website]
+
+![Bunnymark example](chuot.png)
+_[Bunnymark example][chuot-bunnymark]_
+
+Chuột ([Website][chuot-website], [GitHub][chuot-github]) by [@tversteeg]
+is an AGPL licensed game engine for 2D pixel-art games.
+
+The main goal of the Chuột (Vietnamese for mouse) game engine is to make it easy to create and deploy small FOSS games.
+The license has been chosen to foster an open community of game development.
+
+The Chuột game engine is standing on the shoulders of giants of the Rust ecosystem,
+such as [winit] for window handling and [wgpu] for drawing graphics.
+
+Recently, [version 0.2][chuot-0.2] has been released, which includes a big rewrite
+of the internal system and simplifying a lot of the API.
+Many rough and inconsistent parts have been cleaned up and renamed,
+resulting in quite a lot of breaking changes.
+This mainly happened because the developer was still finding a proper direction for the engine.
+Asset loading has been improved, especially asset hot-reloading,
+which is now also enabled by defining an external asset source.
+
+_Check out the [web examples][chuot-examples]!_
+
+[chuot-website]: https://tversteeg.nl/chuot
+[chuot-github]: https://github.com/tversteeg/chuot
+[chuot-bunnymark]: https://tversteeg.nl/chuot/examples/bunnymark/
+[chuot-0.2]: https://github.com/tversteeg/chuot/releases/tag/chuot-v0.2.0
+[chuot-examples]: https://tversteeg.nl/chuot/examples
+[winit]: https://docs.rs/winit
+[wgpu]: https://docs.rs/wgpu
+[@tversteeg]: https://github.com/tversteeg
+
 ## Learning Material Updates
 
 ## Tooling Updates
