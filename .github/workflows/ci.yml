@@ -33,7 +33,7 @@ jobs:
         path: public
 
   links:
-    name: Links
+    name: Check for Broken Links
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
