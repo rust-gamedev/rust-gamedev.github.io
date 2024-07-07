@@ -57,9 +57,16 @@ your GitHub notifications for any further review comments from the editors.
 ### [Game name]
 
 {{ image_figure(
-    alt="alt text"
-    src="img"
-    caption="optional image label") }}
+    alt="image/GIF description",
+    src="image link",
+    caption="image caption") }}
+
+OR
+
+{{ video_figure(
+    type="video/mp4", 
+    src="my-video.mp4", 
+    caption="optional video caption") }}
 
 [Game name] ([GitHub], [Discord], [Twitter]) by [@nickname]
 is... {short project description in one sentence}.
@@ -77,13 +84,16 @@ _Discussions: [/r/rust_gamedev](link), [Twitter](link), [etc](link)_
 ### [Article name]
 
 {{ image_figure(
-    alt="alt text"
-    src="img"
-    caption="optional image label") }}
+    alt="image/GIF description",
+    src="image link",
+    caption="image caption") }}
 
 OR
 
-{{ embed_video(type="video/mp4", src="my-video.mp4", caption="optional video caption") }}
+{{ video_figure(
+    type="video/mp4", 
+    src="my-video.mp4", 
+    caption="optional video caption") }}
 
 [@nickname] published an [article] about...
 {overview what the resource is about}.
@@ -113,7 +123,7 @@ _Discussions: [/r/rust_gamedev](link), [Twitter](link), [etc](link)_
   - Unless essential to demonstrating your project, prefer static images
     over GIFs/videos, to keep the file size down.
   - To include a video, encode it as `H.264` in an `mp4` container and use
-    the `embed_video()` shortcode; videos autoplay in a loop (muted).
+    the `video_figure()` shortcode; videos autoplay in a loop (muted).
 - Use singular 'they' if you’re not sure what someone's pronouns are.
 - If a project has been featured in previous newsletters, try to focus on
   what's new rather than repeating previous content.

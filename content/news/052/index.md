@@ -82,7 +82,7 @@ We will switch this to an actual @gamedev.rs address in the future. Please tell 
 
 ### [Untitled Pixel Wizards Game][pixel-wizards]
 
-{{ embed_video(
+{{ video_figure(
     type="video/mp4", 
     src="untitled-pixel-wizards-game.mp4", 
     caption="Enemies now perceive, pursue, and attack... and occasionally get burned to death.") }}
@@ -337,7 +337,7 @@ You can get started by reading the [bevy_lunex book][bevy-lunex-book].
 
 ### [haalka]
 
-{{ embed_video(type="video/mp4", src="haalka.mp4", caption="A Minecraft-like UI made with haalka") }}
+{{ video_figure(type="video/mp4", src="haalka.mp4", caption="A Minecraft-like UI made with haalka") }}
 
 হালকা: _in bengali, haalka means "light" (e.g. not heavy) and can also be used to mean "easy"_
 
