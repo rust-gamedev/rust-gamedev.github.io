@@ -105,8 +105,10 @@ _Discussions:
 
 ### [Way of Rhea has a Discord!][wor-discord]
 
-![New Way of Rhea assets](way-of-rhea.gif)
-_Updated visuals for interactive items._
+{{ image_figure(
+    alt="New Way of Rhea assets"
+    src="way-of-rhea.gif"
+    caption="Updated visuals for interactive items.") }}
 
 [Way of Rhea][wor-website] is a puzzle platformer that takes place in a world
 where you can only interact with objects that match your current color. The game
@@ -127,8 +129,10 @@ This month's updates:
 
 ### [Veloren][veloren]
 
-![Landscape](veloren1.jpg)
-_A village over the river_
+{{ image_figure(
+    alt="Landscape"
+    src="veloren1.jpg"
+    caption="A village over the river") }}
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.
@@ -168,8 +172,11 @@ December's full weekly devlogs: "This Week In Veloren...":
 [#99](https://veloren.net/devblog-99),
 [#100](https://veloren.net/devblog-100).
 
-[![Youtube preview img](veloren-glider.gif)][veloren-0.8-gameplay]
-_[New glider physics][veloren-glider] video_
+{{ image_figure(
+    alt="Youtube preview img"
+    src="veloren-glider.gif"
+    caption="[New glider physics](https://veloren.net/devblog-100#glider-physics-by-slipped) video",
+    link="https://youtube.com/watch?v=8WWVe1cIu7I") }}
 
 In January, work will continue on 0.9. Work will be done on economic simulation,
 world simulation, and combat systems. New developers are joining the project
@@ -298,8 +305,11 @@ out the dev logs for more info.
 
 ### [A Zombie Shooter Game][zombie-shooter]
 
-[![Demo](a-zombie-shooter-game-demo.gif)][zombie-shooter-youtube]
-_Watch a [video demo on YouTube][zombie-shooter-youtube]_
+{{ image_figure(
+    alt="Demo"
+    src="a-zombie-shooter-game-demo.gif"
+    caption="Watch a [video demo on YouTube](https://youtu.be/9o6KjlwKyGo)",
+    link="https://youtu.be/9o6KjlwKyGo") }}
 
 [A Zombie Shooter Game][zombie-shooter] is a work-in-progress multiplayer
 top-down shooter. Actually, it's a Rust port of an old Java game with
@@ -326,8 +336,10 @@ You can discuss the project at [its GitHub forum][zombie-shooter-forum].
 is being developed by [@chinedufn] for the web and desktop using a custom
 Rust game engine.
 
-![Moving while attacking](akigi.gif)
-_Moving while attacking. Don't look at the shoulders._
+{{ image_figure(
+    alt="Moving while attacking"
+    src="akigi.gif"
+    caption="Moving while attacking. Don't look at the shoulders.") }}
 
 December updates include:
 
@@ -350,8 +362,10 @@ Full December's devlogs:
 
 ### [Swoop][swoop-itch]
 
-![Doing donuts while being overtaken](swoop.gif)
-_Getting lapped by purple? - don't worry, it happens to everyone_
+{{ image_figure(
+    alt="Doing donuts while being overtaken"
+    src="swoop.gif"
+    caption="Getting lapped by purple? - don't worry, it happens to everyone") }}
 
 [Swoop][swoop-itch] by [@sdfgeoff] is a procedural racing web game
 written in Rust from scratch.
@@ -382,8 +396,10 @@ that is based on raymarching giant caves.
 
 ### Harvest Hero
 
-![Harvest Hero Gameplay](harvest_hero_snippet.gif)
-_Harvest crops and whack those pesky Groobles!_
+{{ image_figure(
+    alt="Harvest Hero Gameplay"
+    src="harvest_hero_snippet.gif"
+    caption="Harvest crops and whack those pesky Groobles!") }}
 
 Harvest Hero by [@bombfuse_dev] is an arcade/roguelike game.
 This month in development:
@@ -415,8 +431,10 @@ Some of [this month's changes][fn-changelog]:
 - The project's wiki now has a ["FreeNukum Screenshots" page][fn-screenshots].
 - A [Matrix chat room][fn-matrix-chat] is now available.
 
-![FreeNukum showing the hero making somersaults](freenukum-somersaults.gif)
-_Somersaults!_
+{{ image_figure(
+    alt="FreeNukum showing the hero making somersaults"
+    src="freenukum-somersaults.gif"
+    caption="Somersaults!") }}
 
 [fn]: https://gitlab.com/silwol/freenukum
 [fn-reddit-announce]: https://reddit.com/r/rust_gamedev/comments/k9dw50/freenukum
@@ -463,8 +481,10 @@ Sound was recently added to the demo using the quad-snd library.
 
 ### [Shotcaller]
 
-![Shotcaller dual frontend](shotcaller-2guis.png)
-_ASCII and sprites versions of Shotcaller interface._
+{{ image_figure(
+    alt="Shotcaller dual frontend"
+    src="shotcaller-2guis.png"
+    caption="ASCII and sprites versions of Shotcaller interface.") }}
 
 [Shotcaller] is a moddable RTS/MOBA game made with bracket-lib.
 
@@ -484,8 +504,10 @@ Contributions welcome: [try add a new Leader][shotcaller-issue-leader].
 
 ### [Cheese]
 
-![A screenshot of some mice shooting other mice](cheese-screenshot.png)
-_Pew pew!_
+{{ image_figure(
+    alt="A screenshot of some mice shooting other mice"
+    src="cheese-screenshot.png"
+    caption="Pew pew!") }}
 
 [Cheese] is a small Real Time Strategy game created for the
 [GitHub Game Off 2020]. It was written using a 'low-level gamedev stack'
@@ -543,8 +565,11 @@ technical implementations:
 
 ### [How to Revive a Dead Rust Project][rustfest-talk]
 
-[![RustFest Sketchnote](how-to-revive-a-dead-rust-project.jpg)][rustfest-talk]
-_Drawing by [Carlo Gilmar][visual_partner]. Click to [watch the talk.][rustfest-talk]_
+{{ image_figure(
+    alt="RustFest Sketchnote"
+    src="how-to-revive-a-dead-rust-project.jpg"
+    caption="Drawing by [Carlo Gilmar](https://twitter.com/visual_partner). Click to [watch the talk.](https://www.youtube.com/watch?v=qoCryIy4bFE)",
+    link="https://www.youtube.com/watch?v=qoCryIy4bFE") }}
 
 At [RustFest Global 2020], [@micah_tigley] and [@carlosupina] talked about their
 experiences collaborating together to revive the [space_shooter_rs] project through
@@ -569,8 +594,11 @@ game. Some updates include:
 
 ### [Building Pikachu Volleyball][pikachu-video]
 
-[![YouTube Preview: Video thumbnail with a crab and text](pikachu0.png)][pikachu-video]
-_Click to [watch the video on YouTube][pikachu-video]_
+{{ image_figure(
+    alt="YouTube Preview: Video thumbnail with a crab and text"
+    src="pikachu0.png"
+    caption="Click to [watch the video on YouTube](https://youtube.com/watch?v=Z1sxCC0CDts)",
+    link="https://youtube.com/watch?v=Z1sxCC0CDts") }}
 
 [Building Pikachu Volleyball][pikachu-video] by [@danlogs] is the latest episode
 of a video series inspired by Shing Lyu's book [Practical Rust Projects][amazon-book].
@@ -596,8 +624,11 @@ or follow [@danologue on Twitter][@danologue].
 
 ### [Creative Coding in Rust: Re-creating Retro Screensaver][timclicks-session]
 
-[![A screenshot from the coding sesion](retro_screensaver.jpg)][timclicks-session]
-_You can [watch the recording here][timclicks-session]._
+{{ image_figure(
+    alt="A screenshot from the coding sesion"
+    src="retro_screensaver.jpg"
+    caption="You can [watch the recording here](https://youtube.com/watch?v=d9lsT4kJo44).",
+    link="https://youtube.com/watch?v=d9lsT4kJo44") }}
 
 [@timClicks] live streamed a coding session featuring
 [Nannou][timclicks-nannou], an open-source creative-coding framework,
@@ -613,8 +644,10 @@ _Discussions:
 
 ### [Drawing Bezier curves with SDFs][bezier_article]
 
-![Demo](beziers.gif)
-_The demo is available [here][bezier_demo]_
+{{ image_figure(
+    alt="Demo"
+    src="beziers.gif"
+    caption="The demo is available [here](https://pum-purum-pum-pum.github.io/bezier)") }}
 
 A short note by [@VladZhukov0] about drawing Bezier curves (strokes)
 with signed distance fields.
@@ -627,8 +660,11 @@ Continuation of a [previous note][hqlines] about drawing lines with SDF.
 
 ### [Nannou: Creative Coding with Rust][mactuitui-talk]
 
-[![A screenshot from the talk](nannou_creative_coding.jpg)][mactuitui-talk]
-_You can [watch the recording here][mactuitui-talk]._
+{{ image_figure(
+    alt="A screenshot from the talk"
+    src="nannou_creative_coding.jpg"
+    caption="You can [watch the recording here](https://www.youtube.com/watch?v=Ml6tpyTyXhM).",
+    link="https://www.youtube.com/watch?v=Ml6tpyTyXhM") }}
 
 [Alexis André][@mactuitui] gave a [talk][mactuitui-talk] at
 [GitHub Universe][mactuitui-github-universe] about working with Rust
@@ -804,8 +840,10 @@ _Discussions:
 
 ### [polyhedron-ops]
 
-![polyhedron render](polyhedron.jpg)
-_Some brutalist polyhedron; rendered with 3Delight and post processed in Darktable._
+{{ image_figure(
+    alt="polyhedron render"
+    src="polyhedron.jpg"
+    caption="Some brutalist polyhedron; rendered with 3Delight and post processed in Darktable.") }}
 
 [polyhedron-ops] implements the [Conway Polyhedron Operators][polyhedron-wiki]
 and their extensions by George W. Hart and others.
@@ -868,8 +906,10 @@ For more information, please refer to [the original post][spirq-reddit].
 
 ### [rust-gpu]
 
-![A collage of various shadertoy.com shaders built with rust-gpu.](rust-gpu-shaders.jpeg)
-_Various shaders from shadertoy.com ported to Rust and built with rust-gpu._
+{{ image_figure(
+    alt="A collage of various shadertoy.com shaders built with rust-gpu."
+    src="rust-gpu-shaders.jpeg"
+    caption="Various shaders from shadertoy.com ported to Rust and built with rust-gpu.") }}
 
 [rust-gpu] is a new codegen backend by Embark Studios for Rust, aimed at making
 Rust a first class language for writing GPU shaders! This past month was the
@@ -890,8 +930,10 @@ Some of the highlights include:
 
 ### [Egui]
 
-![Egui emojis](egui.gif)
-_Some of the supported emojis in the [online demo][demo]._
+{{ image_figure(
+    alt="Egui emojis"
+    src="egui.gif"
+    caption="Some of the supported emojis in the [online demo](https://emilk.github.io/egui).") }}
 
 [Egui] is an easy-to-use GUI in pure Rust.
 Egui can be integrated into a game engine, or used standalone with the help of [eframe].
@@ -932,8 +974,10 @@ a 0.6.0 release.
 
 ### [macroquad]
 
-![macroquad_profiling](macroquad-profiling.gif)
-_Macroquad-profiler footage._
+{{ image_figure(
+    alt="macroquad_profiling"
+    src="macroquad-profiling.gif"
+    caption="Macroquad-profiler footage.") }}
 
 [macroquad] is a cross-platform (Windows/Linux/macOS/Android/iOS/WASM)
 game framework built on top of [miniquad].
@@ -969,9 +1013,12 @@ This month's updates:
 
 ### [rg3d]
 
-[![rusty-editor screenshot](rusty-editor.jpg)][rg3d_twit]
-_A level made in [rusty-editor][rusty_editor] which is a native scene editor
-for the rg3d game engine._
+{{ image_figure(
+    alt="rusty-editor screenshot"
+    src="rusty-editor.jpg"
+    caption="A level made in [rusty-editor](https://github.com/mrDIMAS/rusty-editor) which is a native scene editor
+for the rg3d game engine.",
+    link="https://twitter.com/DmitryNStepanov/status/1336802725007396865") }}
 
 [rg3d] is a game engine that aims to be easy to use and provide large set
 of out-of-box features. Some of the recent updates:
@@ -1131,8 +1178,10 @@ and follow [@BevyEngine on Twitter][bevy-twitter].
 
 ### [rpt]: Rust Path Tracer
 
-![demo renders](rpt-collage.jpg)
-_Sample images rendered by path tracing._
+{{ image_figure(
+    alt="demo renders"
+    src="rpt-collage.jpg"
+    caption="Sample images rendered by path tracing.") }}
 
 [rpt] by [@ekzhang] and [@scanhex] is a physically based, CPU-only rendering
 engine written in Rust. It uses path tracing to generate realistic images of 3D

@@ -87,8 +87,10 @@ If you would like to speak at the next meetup, please
 
 ### [Jumpy]
 
-![Swords, Crates, Grenades, & Mines](jumpy.png)
-_Jumpy Items: Swords, Crates, Grenades, & Mines_
+{{ image_figure(
+    alt="Swords, Crates, Grenades, & Mines"
+    src="jumpy.png"
+    caption="Jumpy Items: Swords, Crates, Grenades, & Mines") }}
 
 [Jumpy] ([GitHub][Jumpy], [Discord][jumpy_discord], [Twitter][jumpy_twitter]) by
 [Spicy Lobster][spicy_lobster] is a pixel-style, tactical 2D shooter with a fishy
@@ -126,8 +128,10 @@ just around the corner!
 
 ### [CyberGate][cybergate-yt]
 
-![At the Abyss](cybergate.png)
-_The abyss is the deepest, hardest level, filled with monsters of all sizes and strength_
+{{ image_figure(
+    alt="At the Abyss"
+    src="cybergate.png"
+    caption="The abyss is the deepest, hardest level, filled with monsters of all sizes and strength") }}
 
 CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]) by CyberSoul is an
 ambitious endeavor to create an immersive universe experience with the power of
@@ -186,8 +190,10 @@ _Discussions:
 
 ### Digital Extinction
 
-![laser trail in Digital Extinction](digital-extinction.jpeg)
-_Laser trail in Digital Extinction_
+{{ image_figure(
+    alt="laser trail in Digital Extinction"
+    src="digital-extinction.jpeg"
+    caption="Laser trail in Digital Extinction") }}
 
 [Digital Extinction] ([GitHub][de-github], [Discord][de-discord],
 [Reddit][de-reddit]) by [@Indy2222] is a 3D real-time strategy game made with
@@ -303,8 +309,10 @@ There was one dev log published this month:
 
 ### [8bit Duels]
 
-![UI preview](8bd-ui-prev.png)
-_UI preview_
+{{ image_figure(
+    alt="UI preview"
+    src="8bd-ui-prev.png"
+    caption="UI preview") }}
 
 [@ThousandthStar] is creating an 8bit themed multiplayer game. It's a turn-based
 strategy game and is currently under development. This month, the
@@ -331,8 +339,10 @@ _Discussion: [r/rust_gamedev][8bit-r/rust_gamedev]_
 
 ### [Veloren][veloren]
 
-![A riverside](veloren.jpeg)
-_Reflections on the river_
+{{ image_figure(
+    alt="A riverside"
+    src="veloren.jpeg"
+    caption="Reflections on the river") }}
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.
@@ -690,8 +700,10 @@ _Discussions:
 
 ### [Bevy Sequential Actions]
 
-![Bevy sequential actions simple demo](sequential_actions.gif)
-_An entity with a queue of repeating actions._
+{{ image_figure(
+    alt="Bevy sequential actions simple demo"
+    src="sequential_actions.gif"
+    caption="An entity with a queue of repeating actions.") }}
 
 `bevy-sequential-actions` ([GitHub][seq-actions-gh], [docs.rs][seq-actions-docs])
 is a simple helper library for the [Bevy][bevy] game engine.
@@ -833,9 +845,11 @@ You can check the [demos] online and read more about the changes on the [changel
 
 ### [Bevy Hikari] v0.3
 
-![bevy-hikari screenshot](bevy-hikari-n40.jpeg)
-_Direct lighting, emissive lighting and indirect global illumination under 4x
-temporal upscaling._
+{{ image_figure(
+    alt="bevy-hikari screenshot"
+    src="bevy-hikari-n40.jpeg"
+    caption="Direct lighting, emissive lighting and indirect global illumination under 4x
+temporal upscaling.") }}
 
 `bevy-hikari` ([crates.io][hikari-crates], [docs.rs][hikari-docs],
 [GitHub][hikari-github]), a path tracing renderer for [Bevy], is now compatible
@@ -853,8 +867,10 @@ affordable for median end devices.
 
 ### [Bevy Vfx Bag]
 
-![Bevy vfx bag gif](underwater.gif)
-_A composite effect applied to Bevy's 3D shapes example._
+{{ image_figure(
+    alt="Bevy vfx bag gif"
+    src="underwater.gif"
+    caption="A composite effect applied to Bevy's 3D shapes example.") }}
 
 `bevy-vfx-bag` ([GitHub][bevy-vfx-bag-gh], [docs.rs][bevy-vfx-bag-docs])
 is a visual effects library for the [Bevy][bevy] game engine.
@@ -940,8 +956,10 @@ There's also [a book][kayak-book] that covers the basic concepts;
 
 ### [Iced] v0.5
 
-![A design demo application showcasing widgets and theming capabilities](iced-cosmic.png)
-_System76's COSMIC desktop software_
+{{ image_figure(
+    alt="A design demo application showcasing widgets and theming capabilities"
+    src="iced-cosmic.png"
+    caption="System76's COSMIC desktop software") }}
 
 [Iced] is an experimental cross-platform GUI library focused on simplicity and
 type-safety, inspired by Elm.

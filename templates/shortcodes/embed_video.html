@@ -4,6 +4,11 @@ Embed a video into a markdown file. Example usage:
     {{ embed_video(type="video/mp4", src="my-video.mp4", caption="Some caption.") }}
 
 #} -->
-<video controls autoplay muted loop>
-    <source type="{{ type }}" src="{{ get_url(path=page.colocated_path ~ src)}}" />
-</video> {% if caption %}<em>{{ caption }}</em>{% endif %}
+<figure>
+    <video controls autoplay muted loop>
+        <source type="{{ type }}" src="{{ get_url(path=page.colocated_path ~ src)}}" />
+    </video>
+    {% if caption %}
+    <figcaption>{{ caption }}</figcaption>
+    {% endif %}
+</figure>

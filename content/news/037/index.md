@@ -221,8 +221,10 @@ refactoring tool based on the
 
 ### [CyberGate][cybergate-yt]
 
-![browser udp technology](cybergate.jpg)
-_The new browser version works exactly like the native version_
+{{ image_figure(
+    alt="browser udp technology"
+    src="cybergate.jpg"
+    caption="The new browser version works exactly like the native version") }}
 
 CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]) by CyberSoul
 is a new multiplayer project that aims at procedurally generating distinct
@@ -248,8 +250,10 @@ _Discussions: [/r/rust_gamedev](https://reddit.com/r/rust_gamedev/comments/x60n9
 
 ### [Rusty Aquarium]
 
-![Rusty Aquarium visualization](rustyaquarium.gif)
-_Visualize data as a fish tank with Rusty Aquarium_
+{{ image_figure(
+    alt="Rusty Aquarium visualization"
+    src="rustyaquarium.gif"
+    caption="Visualize data as a fish tank with Rusty Aquarium") }}
 
 [Rusty Aquarium] by [@ollej] is a data visualization tool as a virtual fish
 tank written in Rust and Macroquad. Different data points control how many
@@ -277,8 +281,10 @@ files now contain binaries for input data generation.
 
 ### [Infinite Bunner]
 
-![Infinite Bunner](infinitebunner.gif)
-_Port of the Infinite Bunner game to Rust and Macroquad_
+{{ image_figure(
+    alt="Infinite Bunner"
+    src="infinitebunner.gif"
+    caption="Port of the Infinite Bunner game to Rust and Macroquad") }}
 
 [Infinite Bunner] is a game from the book [Code the Classics vol 1] that has
 been ported by [@ollej] to Rust and Macroquad from Python and PyGame Zero.
@@ -319,8 +325,10 @@ tuned by following the [newsletter][country-slice-newsletter]!
 
 ### [Math It]
 
-![Promotional image of the Math It game](math_it.png)
-_Promotional image of the Math It game_
+{{ image_figure(
+    alt="Promotional image of the Math It game"
+    src="math_it.png"
+    caption="Promotional image of the Math It game") }}
 
 [Math It] was made with [Bevy] for the [Bevy Jam 2].
 
@@ -333,8 +341,10 @@ to the target number and compete with others on a global leaderboard.
 
 ### [Veloren][veloren]
 
-![A cave with lava](veloren.jpg)
-_A barrier of lava_
+{{ image_figure(
+    alt="A cave with lava"
+    src="veloren.jpg"
+    caption="A barrier of lava") }}
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.
@@ -408,8 +418,10 @@ or browse through the [open issues][runty8-open-issues].
 
 ### [Gamercade]
 
-![Gamercade preview](gamercade.gif)
-_Preview of the Audio Editor in Action_
+{{ image_figure(
+    alt="Gamercade preview"
+    src="gamercade.gif"
+    caption="Preview of the Audio Editor in Action") }}
 
 [Gamercade] ([Discord][Gamercade-Discord], [GitHub][Gamercade-GitHub])
 by @RobDavenport is a WASM-powered fantasy console focused
@@ -501,8 +513,10 @@ and libraries, e.g. bevy, egui, and [nannou].
 
 ### [bevy_kira_audio]
 
-![Configuring a sound when playing it](bevy_kira_audio_settings.png)
-_Configuring a sound when playing it_
+{{ image_figure(
+    alt="Configuring a sound when playing it"
+    src="bevy_kira_audio_settings.png"
+    caption="Configuring a sound when playing it") }}
 
 [bevy_kira_audio] by [@nikl_me] is an alternative audio plugin for the [Bevy]
 game engine. It uses [Kira] as its audio library and aims to integrate
@@ -522,8 +536,10 @@ tweens to most operations.
 
 ### [bevy_asset_loader]
 
-![Configuration of a loading state](loading_state.png)
-_Configuration of a loading state_
+{{ image_figure(
+    alt="Configuration of a loading state"
+    src="loading_state.png"
+    caption="Configuration of a loading state") }}
 
 [bevy_asset_loader] by [@nikl_me] is a plugin for [Bevy] apps aiming to
 improve a common pattern for asset-loading. The boilerplate required to set up

@@ -113,8 +113,11 @@ for you to listen and subscribe:
 
 ### [Crate Before Attack][cba-site]
 
-[![Camera debugging in Crate Before Attack](crate-before-attack.jpeg)][cba-site]
-_Debugging camera motion: highlighted areas are points of interest_
+{{ image_figure(
+    alt="Camera debugging in Crate Before Attack"
+    src="crate-before-attack.jpeg"
+    caption="Debugging camera motion: highlighted areas are points of interest",
+    link="https://cratebeforeattack.com") }}
 
 [Crate Before Attack][cba-site] by [koalefant (@CrateAttack)][@CrateAttack]
 is a skill-based multiplayer game where frogs combat their friends
@@ -144,8 +147,10 @@ More details are in [August DevLog-entry][cba-august-update].
 
 ### [Veloren][veloren]
 
-![Landscape](veloren-landscape1.jpeg)
-_Landscape with new LoD and lighting_
+{{ image_figure(
+    alt="Landscape"
+    src="veloren-landscape1.jpeg"
+    caption="Landscape with new LoD and lighting") }}
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.
@@ -163,8 +168,10 @@ UX front. Animations for movement and combat were added and improved. Work
 continued on particle systems, which have been added to Veloren in places like
 campfires, fireworks, and weapons.
 
-![Healing sceptre](veloren-sceptre.gif)
-_Healing sceptre with the new particle system_
+{{ image_figure(
+    alt="Healing sceptre"
+    src="veloren-sceptre.gif"
+    caption="Healing sceptre with the new particle system") }}
 
 You can read more about some specific topics from August:
 
@@ -262,8 +269,11 @@ It can be played in the browser or downloaded at [itch.io][Cary].
 
 ### [Way of Rhea]
 
-[![Anthropic's virtual booth at Play NYC](way-of-rhea-play-nyc.png)][Way of Rhea]
-_Anthropic's virtual booth at [Play NYC]_
+{{ image_figure(
+    alt="Anthropic's virtual booth at Play NYC"
+    src="way-of-rhea-play-nyc.png"
+    caption="Anthropic's virtual booth at [Play NYC](https://www.play-nyc.com/)",
+    link="https://store.steampowered.com/app/1110620/Way_of_Rhea/") }}
 
 [Way of Rhea] is a puzzle platformer that takes place in a world where you can
 only interact with items that match your current color.
@@ -351,8 +361,11 @@ Chillscapes is written using an early-in-development 2d engine,
 
 ### [Dwarf Seeks Fortune][dsf-github]
 
-[![Dwarf Seeks Fortune](dwarf_seeks_fortune.png)][dsf-github]
-_Collect all keys to unlock the door to the next level_
+{{ image_figure(
+    alt="Dwarf Seeks Fortune"
+    src="dwarf_seeks_fortune.png"
+    caption="Collect all keys to unlock the door to the next level",
+    link="https://github.com/amethyst/dwarf_seeks_fortune") }}
 
 [Dwarf Seeks Fortune][dsf-github] is a puzzle-platformer made with the Amethyst game
 engine. Its developer, Jazarro, has partnered with the Amethyst organization
@@ -396,8 +409,11 @@ Full devlogs:
 
 ### [SIMple Physics][simple-physics-site]
 
-[![SIMple Mechanics wave preset](simple-physics-wave.gif)][simple-physics-gifs]
-_One of SIMple Mechanic's Lua presets, a colorful wave of bouncing circles_
+{{ image_figure(
+    alt="SIMple Mechanics wave preset"
+    src="simple-physics-wave.gif"
+    caption="One of SIMple Mechanic's Lua presets, a colorful wave of bouncing circles",
+    link="https://mkhan45.github.io/SIMple-Physics/posts/Gifs/") }}
 
 [SIMple Physics][simple-physics-site] by [@mkhan45] is a set of educational physics
 simulators meant to help students and teachers conduct labs without expensive equipment
@@ -443,8 +459,11 @@ work with graphics in Rust using [SDL2][sdl2] library.
 
 ### [Beginning Game Development with Amethyst][rustconf-talk-video]
 
-[![youtube preview](rustconf-amethyst-talk.png)][rustconf-talk-video]
-_Click to [watch the talk][rustconf-talk-video]_
+{{ image_figure(
+    alt="youtube preview"
+    src="rustconf-amethyst-talk.png"
+    caption="Click to [watch the talk](https://www.youtube.com/watch?v=GFi_EdS_s_c)",
+    link="https://www.youtube.com/watch?v=GFi_EdS_s_c") }}
 
 Getting started with Rust + gamedev can be intimidating. At
 [RustConf 2020][rust-conf-2020], [Micah Tigley] gave a talk about their experience
@@ -515,8 +534,10 @@ game development are planned.
 
 ### [ecs_bench_suite]
 
-![Summary results table](ecs-bench.png)
-_The full benchmark report is available [here][ecs_report]_
+{{ image_figure(
+    alt="Summary results table"
+    src="ecs-bench.png"
+    caption="The full benchmark report is available [here](https://rust-gamedev.github.io/ecs_bench_suite/target/criterion/report/index.html)") }}
 
 This month [@TomGillen] (author of the [Legion][legion] ECS) released
 [ecs_bench_suite] - a suite of benchmarks designed to test and compare
@@ -759,8 +780,10 @@ also built.
 
 ### [gfx-rs][gfx-repo] and [wgpu][wgpu-site]
 
-![wgpu-rs water](wgpu-water.gif)
-_wgpu-rs's [water example][wgpu-water]_
+{{ image_figure(
+    alt="wgpu-rs water"
+    src="wgpu-water.gif"
+    caption="wgpu-rs's [water example](https://github.com/gfx-rs/wgpu-rs/tree/master/examples/water)") }}
 
 gfx-rs project and wgpu ecosystem have observed the release of 0.6 versions! 🎉
 
@@ -1171,8 +1194,11 @@ The collected profile data can be viewed ingame with [imgui-rs].
 
 ### [Optick][optick] Profiler
 
-[![A screenshot from the video](optick-video.jpg)][optic-video]
-_Click to watch a [video tutorial / features overview][optic-video]_
+{{ image_figure(
+    alt="A screenshot from the video"
+    src="optick-video.jpg"
+    caption="Click to watch a [video tutorial / features overview](https://youtube.com/watch?v=p57TV5342fo)",
+    link="https://youtube.com/watch?v=p57TV5342fo") }}
 
 [Optick][optick] by [@bombomby] is a lightweight C++ profiler for games
 that provides access for all the necessary tools required for

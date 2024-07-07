@@ -50,8 +50,10 @@ Ideal section structure is:
 ```
 ### [Title]
 
-![image/GIF description](image link)
-_image caption_
+{{ image_figure(
+    alt="image/GIF description"
+    src="image link"
+    caption="image caption") }}
 
 A paragraph or two with a summary and [useful links].
 
@@ -74,8 +76,10 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [Chuột][chuot-website]
 
-![Bunnymark example](chuot.png)
-_[Bunnymark example][chuot-bunnymark]_
+{{ image_figure(
+    alt="Bunnymark example"
+    src="chuot.png"
+    caption="[Bunnymark example](https://tversteeg.nl/chuot/examples/bunnymark/)") }}
 
 Chuột ([Website][chuot-website], [GitHub][chuot-github]) by [@tversteeg]
 is an AGPL licensed game engine for 2D pixel-art games.
@@ -98,7 +102,6 @@ _Check out the [web examples][chuot-examples]!_
 
 [chuot-website]: https://tversteeg.nl/chuot
 [chuot-github]: https://github.com/tversteeg/chuot
-[chuot-bunnymark]: https://tversteeg.nl/chuot/examples/bunnymark/
 [chuot-0.2]: https://github.com/tversteeg/chuot/releases/tag/chuot-v0.2.0
 [chuot-examples]: https://tversteeg.nl/chuot/examples
 [winit]: https://docs.rs/winit

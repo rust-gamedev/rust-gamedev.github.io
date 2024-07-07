@@ -88,8 +88,11 @@ He will [work on this feature](https://github.com/rust-gamedev/rust-gamedev.gith
 
 ### [Way of Rhea][wor]
 
-[![Way of Rhea](wor.jpg)][wor]
-*Way of Rhea: a puzzle game. Available on Steam.*
+{{ image_figure(
+    alt="Way of Rhea"
+    src="wor.jpg"
+    caption="Way of Rhea: a puzzle game. Available on Steam."
+    link="https://store.steampowered.com/app/1110620/Way_of_Rhea/?utm_campaign=tmirgd&utm_source=n51") }}
 
 [Way of Rhea][wor] released on May 20th as part of the
 [Cerebral Puzzle Showcase][wor-cps]!
@@ -109,8 +112,11 @@ You can support development by [purchasing Way of Rhea on Steam][wor], or
 
 ### [Untitled Pixel Wizard Game][pixel-wizards]
 
-[![A target being destroyed by a rudimentary flame thrower spell](untitled-pixel-wizards-game.gif)][pixel-wizards]  
-_A deadly foe meets its end._
+{{ image_figure(
+    alt="A target being destroyed by a rudimentary flame thrower spell"
+    src="untitled-pixel-wizards-game.gif"
+    caption="A deadly foe meets its end.",
+    link="https://slowrush.dev") }}
 
 [Untitled Pixel Wizard Game][pixel-wizards] is a local-multiplayer [Noita]-like platformer about
 killing baddies using spells powered by pixel physics.
@@ -135,8 +141,10 @@ This month:
 
 ### [mirr/orb]
 
-![mirr/orb](mirrorb.png)  
-_A typical level and its UI_
+{{ image_figure(
+    alt="mirr/orb"
+    src="mirrorb.png"
+    caption="A typical level and its UI") }}
 
 [mirr/orb] by [syn9]
 is a puzzle game about bouncing lasers off mirrors to activate orbs.
@@ -151,8 +159,10 @@ This release contains 110 levels which pull from 870 available puzzle layouts.
 
 ### [CyberGate Playground][cybergate-shorts]
 
-![Improved Hammer Destruction](cybergate.gif)  
-_Shooting a Hammer against a Floating Wall and Destroying part of it_
+{{ image_figure(
+    alt="Improved Hammer Destruction"
+    src="cybergate.gif"
+    caption="Shooting a Hammer against a Floating Wall and Destroying part of it") }}
 
 CyberGate Playground is a multiplayer browser game where players claim territory
 by painting the environment in their color, with the goal of overpowering opponents.
@@ -179,8 +189,10 @@ If you're interested in the game's progress, join the [Discord server][cybergate
 
 ### Macroquad Newsletter
 
-![quad-gl](twiq_3d_helmet.gif)  
-_"Basic" 3d rendering (gltf helmet)_
+{{ image_figure(
+    alt="quad-gl"
+    src="twiq_3d_helmet.gif"
+    caption='"Basic" 3d rendering (gltf helmet)') }}
 
 [@Fedor](https://github.com/not-fl3/), creator of [*Quad], a game engine written in Rust, is starting a ["This week in Quads"](https://macroquad.rs/twiq) newsletter.
 
@@ -190,8 +202,10 @@ This month overall polish, developer experience, performance optimization, and b
 
 ### [Fyrox 0.34][fyrox-release]
 
-![Fyrox editor](fyrox-editor.png)  
-_The improved Fyrox editor UI_
+{{ image_figure(
+    alt="Fyrox editor"
+    src="fyrox-editor.png"
+    caption="The improved Fyrox editor UI") }}
 
 [Fyrox] got a huge update this month. For those who don't know, Fyrox is a game engine written in Rust that is especially notable for sporting a Unity-like editor.
 
@@ -203,8 +217,10 @@ keyboard navigation, animation support for UI, editor style and usability improv
 
 ### Bevy 0.14 WIP
 
-![Bevy repeated textures](bevy_rep.jpg)  
-_One of the upcoming features in Bevy 0.14 is easier texture repetition for GLTF objects_
+{{ image_figure(
+    alt="Bevy repeated textures"
+    src="bevy_rep.jpg"
+    caption="One of the upcoming features in Bevy 0.14 is easier texture repetition for GLTF objects") }}
 
 The 0.14 release of [Bevy] nears completion, but the team is still working on detailed
 release notes and the migration guide. If you want to help, you can grab one of the [open documentation issues][bevy-docs-issues].
@@ -216,8 +232,10 @@ release notes and the migration guide. If you want to help, you can grab one of 
 
 ### Xkcd Machine
 
-![XKCD Machine](xkcd_machine.gif)  
-_A small part of the XKCD Machine_
+{{ image_figure(
+    alt="XKCD Machine"
+    src="xkcd_machine.gif"
+    caption="A small part of the XKCD Machine") }}
 
 Chromakode released a detailed [blog post][xkcd_machine_blogpost] about their implementation of [xkcd "Machine"][xcd_machine_playable].
 
@@ -231,8 +249,10 @@ Machine is written in React/Typescript, and uses [Rapier][xkcd_rapier]: a physic
 
 ### [Rusty Playdate]
 
-![The Playdate console](playdate.png)  
-_The Playdate console_
+{{ image_figure(
+    alt="The Playdate console"
+    src="playdate.png"
+    caption="The Playdate console") }}
 
 [Rusty Playdate] ([GitHub][Rusty Playdate], [Mastodon][Rusty Playdate Masto]) by [@boozook](https://github.com/boozook)
 is the large set of crates with bindings, cargo-plugin, and toolset for the full cycle of creating games for the [Playdate handheld console][playdate].
@@ -258,8 +278,10 @@ _Discussions: [GitHub][Rusty Playdate Gh-disc], [Matrix][Rusty Playdate Matrix].
 
 ### Bevy rustunit meetup #3
 
-![Bevy meetup YouTube extract](bevy_rustunit_meetup_3.jpg)  
-_Bevy meetup YouTube extract, showing its 3 participants._
+{{ image_figure(
+    alt="Bevy meetup YouTube extract"
+    src="bevy_rustunit_meetup_3.jpg"
+    caption="Bevy meetup YouTube extract, showing its 3 participants.") }}
 
 [Rustunit][rustunit] has hosted its 3rd unofficial online [Bevy Engine][bevy] meetup on April 19th with the following topics:
 - Intro / Code of Conduct
@@ -273,8 +295,10 @@ and join [the meetup group][rustunit_bevy_meetup_event] to get notified of futur
 
 ### Bevy rustunit meetup #4
 
-![Bevy meetup YouTube extract](bevy_rustunit_meetup_4.jpg)  
-_Bevy meetup YouTube extract, showing its 4 participants._
+{{ image_figure(
+    alt="Bevy meetup YouTube extract"
+    src="bevy_rustunit_meetup_4.jpg"
+    caption="Bevy meetup YouTube extract, showing its 4 participants.") }}
 
 [Rustunit][rustunit] has hosted its 4th unofficial online [Bevy Engine][bevy] meetup on May 24th with the following topics:
 - Francois - Catching Rendering Regressions on all Platforms

@@ -162,8 +162,10 @@ Some of the recent updates:
 
 ### [Aladin Lite]
 
-![Mars with a RdBu colormap](aladin_lite_mars_RdBu_cm.gif)
-_Mars heightmap with a RdBu colormap rendered with Aladin Lite v3_
+{{ image_figure(
+    alt="Mars with a RdBu colormap"
+    src="aladin_lite_mars_RdBu_cm.gif"
+    caption="Mars heightmap with a RdBu colormap rendered with Aladin Lite v3") }}
 
 [Aladin Lite] is a spatial image survey visualizer developed by the [Astronomical
 Observatory of Strasbourg] in France. Since its first release in 2013,
@@ -191,8 +193,10 @@ on the project's github.
 
 ### [Portal Explorer][portal-explorer]
 
-!["Portal in portal" scene](portal-explorer.png)
-_"Portal in portal" scene_
+{{ image_figure(
+    alt='"Portal in portal" scene'
+    src="portal-explorer.png"
+    caption='"Portal in portal" scene') }}
 
 [Portal Explorer][portal-explorer] by [@optozorax][optozorax-twitter] is a web
 visualizator of mind-blowing portals.
@@ -213,8 +217,10 @@ interface is [egui][egui-git].
 
 ### [Name Needed][name-needed]
 
-![Wandering agents hauling items around and digging](name-needed.gif)
-_Agents wandering around, hauling items and digging blocks_
+{{ image_figure(
+    alt="Wandering agents hauling items around and digging"
+    src="name-needed.gif"
+    caption="Agents wandering around, hauling items and digging blocks") }}
 
 [Name Needed][name-needed] by [@DomWilliams0][domwilliams-github] is a one man
 effort to produce an open source, intuitive and high performance Dwarf
@@ -237,8 +243,10 @@ which so far include:
 
 ### [Orbital Decay][orbital-decay]
 
-![Orbital Decay](orbital-decay.gif)
-_Orbital Decay gameplay_
+{{ image_figure(
+    alt="Orbital Decay"
+    src="orbital-decay.gif"
+    caption="Orbital Decay gameplay") }}
 
 [Orbital Decay][orbital-decay] by [@stevebob] is an
 [open-source][orbital-decay-source] turn-based tactical roguelike with a focus
@@ -309,8 +317,11 @@ at [Rust Meetup Linz on April 22][rust-linz].
 
 ### [Bounty Bros.][bounty_bros]
 
-[![bounty-bros-character-on-map](bounty_bros.png)][bounty_bros_webgame]
-_Click the image to play the game in your browser!_
+{{ image_figure(
+    alt="bounty-bros-character-on-map"
+    src="bounty_bros.png"
+    caption="Click the image to play the game in your browser!",
+    link="https://skipngo.katharostech.com/?asset_url=https://bounty-bros.skipngo.katharostech.com/") }}
 
 [Bounty Bros.][bounty_bros] is a prototype game similar to the old Legend of
 Zelda® games developed by [Katharos Technology][katharostech] as a testing
@@ -391,8 +402,11 @@ the project's internals.
 
 ### Stellary 2
 
-[![Stellary 2 Anti-Missile Laser](stellary2-centered-view.gif)][stellary2-ppcv-tweet]
-_▶️ Click to [watch the full video][stellary2-ppcv-tweet]_
+{{ image_figure(
+    alt="Stellary 2 Anti-Missile Laser"
+    src="stellary2-centered-view.gif"
+    caption="▶️ Click to [watch the full video](https://twitter.com/CoffeJunkStudio/status/1378719827347509249)",
+    link="https://twitter.com/CoffeJunkStudio/status/1378719827347509249") }}
 
 Stellary 2 by [@CoffeJunkStudio][coffe-junk-studio] is a 3D real-time space
 shooter in which the player has to control his spaceship to colonize each planet
@@ -473,8 +487,10 @@ of the 1990 [Gameboy platformer][gargoyle-wiki] built using [wgpu].
 
 ### [Fishgame][fishgame]
 
-![Fishgame](fishgame.gif)
-_Game footage with the new weapon._
+{{ image_figure(
+    alt="Fishgame"
+    src="fishgame.gif"
+    caption="Game footage with the new weapon.") }}
 
 [Fishgame][fishgame] [(web build)][fishgame-itch] is an online multiplayer game,
 created in a collaboration between [Nakama][nakama], an open-source scalable
@@ -493,8 +509,10 @@ This month:
 
 ### [Veloren][veloren]
 
-![Airship](veloren.jpg)
-_Waiting for the airship to land_
+{{ image_figure(
+    alt="Airship"
+    src="veloren.jpg"
+    caption="Waiting for the airship to land") }}
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.
@@ -527,8 +545,11 @@ March's full weekly devlogs: "This Week In Veloren...":
 
 ### [Theta Wave]
 
-[![Enemy Formations](theta-wave.gif)][Theta Wave]
-_Enemies can now be easily spawned in formations_
+{{ image_figure(
+    alt="Enemy Formations"
+    src="theta-wave.gif"
+    caption="Enemies can now be easily spawned in formations",
+    link="https://github.com/amethyst/theta-wave") }}
 
 [Theta Wave] is an open-source space shooter game by developers [@micah_tigley] and
 [@carlosupina]. It is one of the showcase games for the [Amethyst Engine]. In
@@ -580,8 +601,11 @@ Updates:
 
 ### [Station Iapetus]
 
-[![Station Iapetus Youtube](station-iapetus-youtube.png)][si-youtube]
-_Click on the iamge to see the gameplay video on YouTube_
+{{ image_figure(
+    alt="Station Iapetus Youtube"
+    src="station-iapetus-youtube.png"
+    caption="Click on the iamge to see the gameplay video on YouTube",
+    link="https://youtube.com/watch?v=O_ETjSkVBME") }}
 
 [Station Iapetus][Station Iapetus] by [@mrDIMAS] is a 3rd person shooter on the
 prison Iapetus near the Saturn.
@@ -749,8 +773,10 @@ the recent engine updates:
 
 ### [Oxygengine v0.16.0][oxygengine-git]
 
-![Oxygengine + RAUI integration](oxygengine-raui-integration.gif)
-_Integration of RAUI (UI/UX) crate with Oxygengine game engine_
+{{ image_figure(
+    alt="Oxygengine + RAUI integration",
+    src="oxygengine-raui-integration.gif",
+    caption="Integration of RAUI (UI/UX) crate with Oxygengine game engine") }}
 
 [Oxygengine][oxygengine-git] by [@PsichiX][psichix-twitter] is the hottest
 HTML5 + WASM game engine for games written in Rust with web-sys.
@@ -776,8 +802,10 @@ one highly modular toolset.
 
 ### [Bevy v0.5][bevy-blog]
 
-![PBR material example](bevy_pbr.png)
-_Material grid with varying PBR properties_
+{{ image_figure(
+    alt="PBR material example"
+    src="bevy_pbr.png"
+    caption="Material grid with varying PBR properties") }}
 
 [Bevy][bevy] is a refreshingly simple data-driven game engine built in Rust. It is
 [free and open source][bevy-git] forever!
@@ -861,8 +889,10 @@ The repository includes a GitHub workflow for Linux, MacOS, and Windows builds
 
 ### [Reverse-Engineering NES Tetris to Add Hard Drop][tetris-hard-drop]
 
-![NES Tetris with Hard Drop and Ghost Piece](tetris-hard-drop.gif)
-_NES Tetris with Hard Drop and Ghost Piece_
+{{ image_figure(
+    alt="NES Tetris with Hard Drop and Ghost Piece"
+    src="tetris-hard-drop.gif"
+    caption="NES Tetris with Hard Drop and Ghost Piece") }}
 
 A [blog post][tetris-hard-drop] describing the process of reverse-engineering
 the rendering and input-handling logic in the NES version of Tetris, and using
@@ -1135,8 +1165,10 @@ SMAA S2x likely to be added depending on interest.
 
 ### [wgpu]
 
-![voxel bunny on wgpu](wgpu-conservative-bunny.png)
-_Voxel Bunny rendering with conservative rasterization_
+{{ image_figure(
+    alt="voxel bunny on wgpu"
+    src="wgpu-conservative-bunny.png"
+    caption="Voxel Bunny rendering with conservative rasterization") }}
 
 [wgpu] is a [WebGPU] implementation in Rust. It is safe, efficient,
 and portable: can target both native (Vulkan/D3D/Metal) and the Web.
@@ -1168,9 +1200,11 @@ _Discussions:
 
 ### [rust-gpu v0.3][rust-gpu-v0-3]
 
-![A Sci-Fi helmet model](grr-gltf.jpg)
-_The Khronos Sci-Fi helmet model in a [glTF model viewer][grr-gltf]
-created by [@msiglreith] using rust-gpu_
+{{ image_figure(
+    alt="A Sci-Fi helmet model"
+    src="grr-gltf.jpg"
+    caption="The Khronos Sci-Fi helmet model in a [glTF model viewer](https://github.com/msiglreith/grr-gltf)
+created by [@msiglreith](https://github.com/msiglreith) using rust-gpu") }}
 
 [rust-gpu] is a new codegen backend by Embark Studios for Rust, aimed at making
 Rust a first class language for writing GPU shaders!
@@ -1200,8 +1234,10 @@ _Discussions:
 
 ### [rafx]
 
-![rafx tilemap rendering](rafx-tilemap-rendering.png)
-_Rafx rendering an example tilemap from [LDTK level editor][rafx-ldtk]_
+{{ image_figure(
+    alt="rafx tilemap rendering"
+    src="rafx-tilemap-rendering.png"
+    caption="Rafx rendering an example tilemap from [LDTK level editor](https://ldtk.io)") }}
 
 Rafx is a multi-backend renderer that optionally integrates with the
 [distill][rafx-distill] asset pipeline. This month, a fourth layer
@@ -1266,8 +1302,10 @@ can get glimpses of its development by following the author on [Twitter][h3r2tic
 
 ### [Bevy Retro][bevy_retro]
 
-![pixel-perfect-collision-demo](bevy_retro.gif)
-_Pixel-perfect collision [example][bevy_retro_collision_example]_
+{{ image_figure(
+    alt="pixel-perfect-collision-demo"
+    src="bevy_retro.gif"
+    caption="Pixel-perfect collision [example](https://github.com/katharostech/bevy_retro/tree/master/examples#collisions)") }}
 
 [Bevy Retro][bevy_retro] is a new [Bevy] plugin designed for making pixel-perfect
 games.
@@ -1299,8 +1337,10 @@ Feel free to discuss the project and provide feedback
 
 ### [RAUI v0.28.1][raui-git]
 
-![RAUI + Tetra TODO app](raui-tetra-todo-app-material-ui.gif)
-_RAUI + Tetra TODO app demo_
+{{ image_figure(
+    alt="RAUI + Tetra TODO app"
+    src="raui-tetra-todo-app-material-ui.gif"
+    caption="RAUI + Tetra TODO app demo") }}
 
 [RAUI][raui-git] by [@PsichiX][psichix-twitter] is a Renderer Agnostic User
 Interface crate that is based on declarative mode UI composition similar to
@@ -1324,8 +1364,10 @@ This month's updates:
 
 ### [egui-macroquad]
 
-![Code example of usage of this library.](egui-macroquad.png)
-_Code example of usage of this library._
+{{ image_figure(
+    alt="Code example of usage of this library."
+    src="egui-macroquad.png"
+    caption="Code example of usage of this library.") }}
 
 [egui-macroquad] is a small library to use [egui][egui-git] inside of
 [macroquad][macroquad-git]. It consists only of two functions.
@@ -1385,8 +1427,10 @@ cleanup, tweaks, optimization, and finally packaging the GUI up.
 
 ### [Bitmapflow]
 
-![Bitmapflow interpolating a walking mech animation](bitmapflow.gif)
-_Bitmapflow interpolating a walking mech animation_
+{{ image_figure(
+    alt="Bitmapflow interpolating a walking mech animation"
+    src="bitmapflow.gif"
+    caption="Bitmapflow interpolating a walking mech animation") }}
 
 Bitmapflow ([GitHub][Bitmapflow-GitHub]) by [@bauxitedev] is a tool to help you
 generate [inbetweens] for animated sprites. In other words, it makes your
@@ -1420,9 +1464,10 @@ _Discussions: [/r/rust_gamedev][Bitmapflow-Reddit]_
 
 ### [Graphite][graphite-repo]
 
-!["Graphite" drawn using the circles and rectangles of the new tool drawing system](graphite-tool-system-progress.png)
-_"Graphite" drawn using the circles and rectangles of the new tool drawing
-system_
+{{ image_figure(
+    alt='"Graphite" drawn using the circles and rectangles of the new tool drawing system'
+    src="graphite-tool-system-progress.png"
+    caption='"Graphite" drawn using the circles and rectangles of the new tool drawing system') }}
 
 Graphite ([GitHub][graphite-repo], [Discord][graphite-discord],
 [Twitter](https://twitter.com/GraphiteEditor)) is an in-progress vector and

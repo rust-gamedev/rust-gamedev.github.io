@@ -177,8 +177,10 @@ This month an alpha version was published on itch: [check it out here][colony-it
 
 ### [Veloren][veloren]
 
-![Rolling mountain landscape](veloren1.png)
-_Rolling mountain landscape_
+{{ image_figure(
+    alt="Rolling mountain landscape"
+    src="veloren1.png"
+    caption="Rolling mountain landscape") }}
 
 [Veloren][veloren] is an open world, open-source voxel RPG
 inspired by Dwarf Fortress and Cube World.
@@ -214,8 +216,11 @@ Here is the February changelog:
 - Added music system
 ```
 
-[![veloren development](veloren3.gif)](https://youtube.com/watch?v=1ldHQfxCT24)
-_1 year of Veloren development. Click for the full video!_
+{{ image_figure(
+    alt="veloren development"
+    src="veloren3.gif"
+    caption="1 year of Veloren development. Click for the full video!"
+    link="https://youtube.com/watch?v=1ldHQfxCT24") }}
 
 You can read more about some specific topics:
 
@@ -243,8 +248,11 @@ February's full weekly devlogs: "This Week In Veloren...":
 
 ### [Oxidator][oxidator]
 
-[![Gameplay demo: two giant tank armies clashing](oxidator-play.gif)][oxidator-video-play]
-_gameplay demo (35000 units)_
+{{ image_figure(
+    alt="Gameplay demo: two giant tank armies clashing"
+    src="oxidator-play.gif"
+    caption="gameplay demo (35000 units)",
+    link="https://streamable.com/499j0") }}
 
 [Oxidator][oxidator] by [@Ruddle] is a real-time strategy game/engine
 written with Rust and WebGPU.
@@ -270,11 +278,17 @@ Some of the current features:
 - Unit editor: basic editor with joint & mesh selection and parameter editing
   (speed, turn rate, health, etc);
 
-[![Unit editor demo: move agent's parts](oxidator-unit-editor.gif)][oxidator-video-unit-editor]
-_Demo of the unit editor_
+{{ image_figure(
+    alt="Unit editor demo: move agent's parts"
+    src="oxidator-unit-editor.gif"
+    caption="Demo of the unit editor",
+    link="https://streamable.com/ywr44") }}
 
-[![Map editor demo: use pencil tool to instantly create a lake and mountains](oxidator-map-editor.gif)][oxidator-video-map-editor]
-_Demo of the map editor_
+{{ image_figure(
+    alt="Map editor demo: use pencil tool to instantly create a lake and mountains"
+    src="oxidator-map-editor.gif"
+    caption="Demo of the map editor",
+    link="https://github.com/Ruddle/oxidator/blob/be4863e74/etc/map_editor.gif") }}
 
 [oxidator]: https://github.com/Ruddle/oxidator
 [@Ruddle]: https://github.com/Ruddle
@@ -485,9 +499,11 @@ Tetra itself also received two small updates recently:
 
 ### [Akigi][akigi]
 
-![High detail terrain chunk with PRR](akigi.png)
-_Sampling a heightmap in the vertex shader and also computing the normal,
-tangent and bitangent vectors in the vertex shader._
+{{ image_figure(
+    alt="High detail terrain chunk with PRR"
+    src="akigi.png"
+    caption="Sampling a heightmap in the vertex shader and also computing the normal,
+tangent and bitangent vectors in the vertex shader.") }}
 
 [Akigi][akigi] is a multiplayer online world where most believe that humans are inferior.
 
@@ -590,8 +606,10 @@ Check them out in the [latest winter devlog][grumpy_visitors].
 
 ### [Make China Great Again][china-great]
 
-![cities, planes and keys](china.png)
-_Turn back planes to the port, by clicking right keys to the virus beat._
+{{ image_figure(
+    alt="cities, planes and keys"
+    src="china.png"
+    caption="Turn back planes to the port, by clicking right keys to the virus beat.") }}
 
 [Make China Great Again][china-great] ([source][china-great-src])
 by [@PsichiX] is a GlobalGameJam game written using [Oxygengine].
@@ -633,8 +651,10 @@ dependency updates, bugfixes and performance optimizations.
 
 ### [Recall Singularity: February Progress][recall-s-feb]
 
-![Harvesting and refining some Gold](recall-singularity.png)
-_Harvesting and refining some Gold._
+{{ image_figure(
+    alt="Harvesting and refining some Gold"
+    src="recall-singularity.png"
+    caption="Harvesting and refining some Gold.") }}
 
 [Tom Leys] is working on a "The Recall Singularity" game
 about designing autonomous factory ships and stations.
@@ -905,8 +925,10 @@ A showcase game is [being developed](https://github.com/lcnr/akari) with crow.
 
 ### miniquad: ["Rust 2D Engine 2020 Roadmap"][fedor-road]
 
-![mainloop async/await experiment in macroquad](miniquad-sample.png)
-_mainloop async/await experiment in macroquad_
+{{ image_figure(
+    alt="mainloop async/await experiment in macroquad"
+    src="miniquad-sample.png"
+    caption="mainloop async/await experiment in macroquad") }}
 
 [miniquad] by [@fedor_games] is a safe cross-platform rendering library
 focused on portability and low-end platforms support.

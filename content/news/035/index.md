@@ -123,8 +123,10 @@ form][gamedev-meetup-form].
 
 ### [Rusty Jam 2][rusty-jam-ann]
 
-![Aaron: a drawing of a humanoid fox](aaron.png)
-_Aaron, [the mascot of the jam][rusty-jam-ann]_
+{{ image_figure(
+    alt="Aaron: a drawing of a humanoid fox"
+    src="aaron.png"
+    caption="Aaron, [the mascot of the jam](https://gamedev.rs/blog/rustyjam-02)") }}
 
 The [second Rusty Jam][rusty-jam-ann] just ended!
 [17 games][rusty-jam-entries] were completed and submitted
@@ -252,8 +254,10 @@ announced in this newsletter.
 
 ### vetovoima
 
-![vetovoima gravity manipulation GIF](vetovoima.gif)
-_vetovoima gravity manipulation_
+{{ image_figure(
+    alt="vetovoima gravity manipulation GIF"
+    src="vetovoima.gif"
+    caption="vetovoima gravity manipulation") }}
 
 [vetovoima][vetovoima_itch] by [@MatiasKlemola][vetovoima_twitter] is an arcade game
 where you control gravity!
@@ -329,8 +333,10 @@ network games.
 
 ### [Veloren][veloren]
 
-![Gliding above a forest](veloren.jpg)
-_A glider ride above the woods at night_
+{{ image_figure(
+    alt="Gliding above a forest"
+    src="veloren.jpg"
+    caption="A glider ride above the woods at night") }}
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.

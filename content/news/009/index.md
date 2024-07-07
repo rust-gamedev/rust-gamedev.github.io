@@ -247,8 +247,10 @@ Follow [@seratonik] on Twitter for updates.
 
 ### [Akigi][akigi]
 
-![shadows demo](akigi-shadows.jpeg)
-_new shadows_
+{{ image_figure(
+    alt="shadows demo"
+    src="akigi-shadows.jpeg"
+    caption="new shadows") }}
 
 > [Akigi][akigi] is a multiplayer online world where humans
 > aren't the only intelligent animals.
@@ -479,8 +481,10 @@ Here's a roundup of some of them:
 
 ### [Veloren][veloren]
 
-![Buildings](veloren1.png)
-_Early procedural building generation_
+{{ image_figure(
+    alt="Buildings"
+    src="veloren1.png"
+    caption="Early procedural building generation") }}
 
 [Veloren][veloren] is an open world, open-source voxel RPG
 inspired by Dwarf Fortress and Cube World.
@@ -517,8 +521,10 @@ Here is the April changelog:
 - You can start the game by pressing "enter" from the character selection menu
 ```
 
-![Hanging out](veloren2.png)
-_Early procedural building generation_
+{{ image_figure(
+    alt="Hanging out"
+    src="veloren2.png"
+    caption="Early procedural building generation") }}
 
 You can read more about some specific topics from April:
 
@@ -632,9 +638,11 @@ explaining why they've chosen Rust for their project's backend.
 
 ### [Symmetric Matrices & Triangle Numbers][matrices-post]
 
-![an example of a multi-layered game level](rhea-player-orb.jpeg)
-_The pink orb should not collide with the player,
-but it should collide with the ground._
+{{ image_figure(
+    alt="an example of a multi-layered game level"
+    src="rhea-player-orb.jpeg"
+    caption="The pink orb should not collide with the player,
+             but it should collide with the ground.") }}
 
 [Anthropic Studios][anthropic] has [shared a post][matrices-post]
 about implementing a layer system to ["Way of Rhea"'s][rhea] physics engine
@@ -738,8 +746,10 @@ and additional information about contributing are available on the [github repos
 
 ### `gfx-rs` and `wgpu` News
 
-![hectic screenshot: graveyard and vampires](hectic.png)
-_[hectic-rs] - Rust/wgpu/specs re-write of hectic by [@expenses]_
+{{ image_figure(
+    alt="hectic screenshot: graveyard and vampires"
+    src="hectic.png"
+    caption="[hectic-rs](https://github.com/expenses/hectic-rs) - Rust/wgpu/specs re-write of hectic by [@expenses](https://github.com/expenses)") }}
 
 wgpu-0.5 release happened! See the [changelog][wgpu-0-5].
 It's based on `gfx-hal-0.5` (which was covered in the [March newsletter][gfx-march]),
@@ -883,8 +893,10 @@ in an eternally sprawling office complex.
 
 ### [miniquad]
 
-![miniquad logo](miniquad_logo.png)
-_`miniquad` project got a logo_
+{{ image_figure(
+    alt="miniquad logo"
+    src="miniquad_logo.png"
+    caption="`miniquad` project got a logo") }}
 
 [miniquad] is a safe and cross-platform rendering library
 focused on portability and low-end platforms support.
@@ -1124,8 +1136,10 @@ and highlight events from the past. -->
 
 Just an interesting Rust gamedev link from the past. :)
 
-![example](valora-example.jpeg)
-_"dead end" by turnage, 2019_
+{{ image_figure(
+    alt="example"
+    src="valora-example.jpeg"
+    caption=""dead end" by turnage, 2019") }}
 
 A few months ago a  generative art library ["valora"][valora-src]
 was released by [@turnage].

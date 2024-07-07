@@ -83,8 +83,10 @@ Twitch][rust-gamedev-twitch].
 
 ### Flesh
 
-![flesh preview](flesh.gif)
-_the second level's background + new enemy_
+{{ image_figure(
+    alt="flesh preview"
+    src="flesh.gif"
+    caption="the second level's background + new enemy") }}
 
 [Flesh] by [@im_oab] is a 2D-horizontal shmup game with hand-drawn animation and
 an organic/fleshy theme. It is implemented using [Tetra]. This month's updates
@@ -99,8 +101,10 @@ include:
 
 ### [Rusty Vangers]
 
-![Rust engine powering original game](vangers-integrated.jpg)
-_Rusty Vangers engine in action within the original game_
+{{ image_figure(
+    alt="Rust engine powering original game"
+    src="vangers-integrated.jpg"
+    caption="Rusty Vangers engine in action within the original game") }}
 
 [Rusty Vangers] by [@kvark] is a modern re-implementation of the original
 [Vangers] game from the last century.
@@ -158,8 +162,10 @@ or joining [their Discord][wor-discord].
 
 ### [Garden of the Centaur][centaur-github]
 
-![Garden of the Centaur screenshot](centaur-screenshot.png)
-_Screenshot of Garden of the Centaur_
+{{ image_figure(
+    alt="Garden of the Centaur screenshot"
+    src="centaur-screenshot.png"
+    caption="Screenshot of Garden of the Centaur") }}
 
 Garden of the Centaur ([GitHub][centaur-github]) by
 [@Syn-Nine][synnine-twitter] is an action-puzzle mini game where you navigate a
@@ -197,8 +203,10 @@ The latest version includes:
 
 ### [Veloren][veloren]
 
-![Bright lantern](veloren.jpg)
-_A light to keep the night away_
+{{ image_figure(
+    alt="Bright lantern"
+    src="veloren.jpg"
+    caption="A light to keep the night away") }}
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.
@@ -392,8 +400,10 @@ a sizable list! ([#845][gd-845])
 
 ### [Rusty Engine 4.0]
 
-![An example Rusty Engine game](rusty_engine4.png)
-_The updated collider visualization (white outlines) in Rusty Engine 4.0_
+{{ image_figure(
+    alt="An example Rusty Engine game"
+    src="rusty_engine4.png"
+    caption="The updated collider visualization (white outlines) in Rusty Engine 4.0") }}
 
 [Rusty Engine] by [Nathan Stocks] is a game engine built on top of Bevy
 for people who are learning Rust.
@@ -416,8 +426,10 @@ _Discussions:
 
 ### [Bevy v0.6][bevy-blog]
 
-![bevy bistro night](bevy_bistro_night.jpg)
-_The Lumberyard Bistro scene rendered in the new Bevy Renderer._
+{{ image_figure(
+    alt="bevy bistro night"
+    src="bevy_bistro_night.jpg"
+    caption="The Lumberyard Bistro scene rendered in the new Bevy Renderer.") }}
 
 [Bevy][bevy] is a refreshingly simple data-driven game engine built in Rust. It is
 [free and open source][bevy-git] forever!
@@ -457,8 +469,10 @@ _Discussions:
 
 ### [`three-d` 0.10][three-d]
 
-![three-d example of environment lighting](three-d.jpg)
-_Environment lighting example_
+{{ image_figure(
+    alt="three-d example of environment lighting"
+    src="three-d.jpg"
+    caption="Environment lighting example") }}
 
 [`three-d`][three-d]
 is a 2D/3D renderer targeting both desktop and web
@@ -680,8 +694,11 @@ and handles chords!
 
 ### [rafx]
 
-[![Rafx Screenshot](rafx-screenshot.jpg)][rafx-youtube-video]
-_Sci-fi base demo scene, [watch TAA demo on youtube][rafx-youtube-video]!_
+{{ image_figure(
+    alt="Rafx Screenshot"
+    src="rafx-screenshot.jpg"
+    caption="Sci-fi base demo scene, [watch TAA demo on youtube](https://www.youtube.com/watch?v=iWYpX7RGUSA)!",
+    link="https://www.youtube.com/watch?v=iWYpX7RGUSA") }}
 
 [Rafx][rafx] is a multi-backend renderer that optionally integrates with the
 [distill][rafx-distill] asset pipeline.
@@ -790,8 +807,10 @@ _Discussions:
 
 ### [Bevy Smud][bevy-smud]
 
-![Bevy Smud screenshot](bevy-smud.png)
-_A bevy drawn with Bevy Smud_
+{{ image_figure(
+    alt="Bevy Smud screenshot"
+    src="bevy-smud.png"
+    caption="A bevy drawn with Bevy Smud") }}
 
 [Bevy Smud][bevy-smud] is a new [Bevy][bevy-smud-bevy] plugin for drawing 2D
 shapes using signed distance fields.

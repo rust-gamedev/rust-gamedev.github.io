@@ -523,8 +523,10 @@ Also, see this GameDev WG tracker/complaint issue:
 
 ### [RLSL][rlsl]: a Rust to SPIR-V Compiler
 
-![RLSL code sample](rlsl-example.png)
-_a simple fragment shader that renders a red circle (temporary syntax)_
+{{ image_figure(
+    alt="RLSL code sample"
+    src="rlsl-example.png"
+    caption="a simple fragment shader that renders a red circle (temporary syntax)") }}
 
 This month, [@MaikKlein_DEV] gave a talk at
 [The Khronos Group](https://www.khronos.org)'s meetup in Munich
@@ -557,8 +559,10 @@ _Discussions:
 
 ### [gfx-rs v0.4][gfx-v0-4]
 
-![sailor screenshot: vector terrain map and some basic UI](sailor.png)
-_a screenshot from [Yatekii/sailor] - a wgpu-based sailing navigation application_
+{{ image_figure(
+    alt="sailor screenshot: vector terrain map and some basic UI"
+    src="sailor.png"
+    caption="a screenshot from [Yatekii/sailor](https://github.com/Yatekii/sailor) - a wgpu-based sailing navigation application") }}
 
 [gfx-rs v0.4 was released](https://reddit.com/r/rust/comments/dm89t2/gfxhal_version_04_release):
 major changes were described in [the last blog post](https://gfx-rs.github.io/2019/10/01/update.html),
@@ -683,8 +687,11 @@ _Discussions:
 
 ### [cyclone-physics-rs]
 
-[![cyclone physics demo](cyclone-physics-demo.gif)][cyclone-video-demo]
-_a little demo of "particle" simulation_
+{{ image_figure(
+    alt="cyclone physics demo",
+    src="cyclone-physics-demo.gif",
+    caption='a little demo of "particle" simulation',
+    link="https://twitter.com/heyrutvik/status/1180072669250834432") }}
 
 [cyclone-physics-rs] by [@heyrutvik] a new WIP game physics engine
 based on the ["Game Physics Engine Development" book][cyclone-physics-book].

@@ -838,8 +838,10 @@ Btw, [@resinten] continues working on a luminance-based game:
 
 ### [SPIR-Q][spir-q] v0.4.1
 
-![Example walking an entry point of a SPIR-V file](spir-q.png)
-_Example walking an entry point of a SPIR-V file_
+{{ image_figure(
+    alt="Example walking an entry point of a SPIR-V file"
+    src="spir-q.png"
+    caption="Example walking an entry point of a SPIR-V file") }}
 
 [SPIR-Q][spir-q] is a lightweight [SPIR-V] query library.
 This month v0.2..v0.4.1 versions were released:

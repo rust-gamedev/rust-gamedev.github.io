@@ -126,8 +126,10 @@ The project is still at a “very” early stage of development (Dec. 2020).
 
 ### [Fishgame][fishgame]
 
-![Fishgame gameplay](fishgame.gif)
-_Fish game gameplay footage._
+{{ image_figure(
+    alt="Fishgame gameplay"
+    src="fishgame.gif"
+    caption="Fish game gameplay footage.") }}
 
 [Fishgame][fishgame] is an online multiplayer game, created in a
 collaboration between [Nakama][nakama], an open-source scalable game
@@ -145,8 +147,11 @@ This month the game got a public, multiplayer HTML5 build. [Play it online!][fis
 
 ### [Station Iapetus]
 
-[![Station Iapetus Youtube](station-iapetus-youtube.JPG)][si-youtube]
-_Check [gameplay video][si-youtube] on YouTube_
+{{ image_figure(
+    alt="Station Iapetus Youtube"
+    src="station-iapetus-youtube.JPG"
+    caption="Check [gameplay video](https://www.youtube.com/watch?v=JCH2U5JOMlU) on YouTube",
+    link="https://www.youtube.com/watch?v=JCH2U5JOMlU") }}
 
 [Station Iapetus][Station Iapetus] by [@mrDIMAS]
 is a 3rd person shooter on the space prison Iapetus near the Saturn.
@@ -162,8 +167,10 @@ which will be released in Steam.
 
 ### [SeniorSKY]
 
-![SeniorSKY](3.png)
-_Over the mountains in Slovakia_
+{{ image_figure(
+    alt="SeniorSKY"
+    src="3.png"
+    caption="Over the mountains in Slovakia") }}
 
 [SeniorSKY]
 is a flight simulator which uses Vulkan API, developed by [@pmathia0].
@@ -190,8 +197,10 @@ flight dynamics is already in progress.
 
 ### [Oicana][oicana]
 
-![oicana game play](oicana.png)
-_Solving puzzles to build towers_
+{{ image_figure(
+    alt="oicana game play"
+    src="oicana.png"
+    caption="Solving puzzles to build towers") }}
 
 [Oicana][oicana] is a tower defense game with puzzle aspects submitted to Mini
 jam 71 [on itch][oicana-itch] by [M1nd0fRafa3l][rafael-itch] and
@@ -216,9 +225,11 @@ changed to use [Kira][kira-sound] via an
 
 ### [Bounty Bros.][bounty-bros]
 
-[![Bounty Bros. Video](bounty-bros.jpg)][bounty_bros_video]
-_First pass character controller video_
-
+{{ image_figure(
+    alt="Bounty Bros. Video"
+    src="bounty-bros.jpg"
+    caption="First pass character controller video",
+    link="https://katharostech.com/post/bounty-bros-prototype-game#video") }}
 [Bounty Bros.][bounty-bros] is a prototype dungeon crawler game
 in the spirit of "Legend of Zelda: Link to the Past".
 The game is being developed by [Katharos Technology] as a playground
@@ -238,8 +249,10 @@ primarily by simply writing YAML configuration files and integrating with
 
 ### Flesh
 
-![flesh preview](flesh.gif)
-_Inside flesh_
+{{ image_figure(
+    alt="flesh preview"
+    src="flesh.gif"
+    caption="Inside flesh") }}
 
 Flesh by [@im_oab] is a 2D-horizontal shmup game with hand-drawn animation
 and implement using tetra. It still in the development stage but have
@@ -297,8 +310,10 @@ tuned for more exciting updates in the next monthly newsletter!
 
 ### [Antorum]
 
-![Some players hanging out next to the bank Vault in Belmart](antorum-2-1-2021.jpg)
-_Hanging out by the vault_
+{{ image_figure(
+    alt="Some players hanging out next to the bank Vault in Belmart"
+    src="antorum-2-1-2021.jpg"
+    caption="Hanging out by the vault") }}
 
 [Antorum] is a micro-multiplayer online role-playing game by [@dooskington].
 The game server is written in Rust, and the official client is being developed
@@ -381,8 +396,11 @@ Twitter if you have a flash of inspiration!
 
 ### [Theta Wave]
 
-[![Homing Missiles](theta_wave_homing_missiles.gif)][Theta Wave]
-_Homing missiles pursue the closest player entity_
+{{ image_figure(
+    alt="Homing Missiles"
+    src="theta_wave_homing_missiles.gif"
+    caption="Homing missiles pursue the closest player entity",
+    link="https://github.com/amethyst/theta-wave") }}
 
  A real name was finally chosen for space_shooter_rs! [Theta Wave] is a space
  shooter game by developers [@micah_tigley] and [@carlosupina]. It is one of
@@ -418,8 +436,10 @@ This month's major updates include:
 
 ### [Veloren][veloren]
 
-![Veloren Snow](veloren-snow.gif)
-_Let it snow!_
+{{ image_figure(
+    alt="Veloren Snow"
+    src="veloren-snow.gif"
+    caption="Let it snow!") }}
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.
@@ -444,8 +464,10 @@ January's full weekly devlogs: "This Week In Veloren...":
 
 ### [Shotcaller]
 
-![Custom art assets for Shotcaller](shotcaller-full.png)
-_An art mockup of some Shotcaller action._
+{{ image_figure(
+    alt="Custom art assets for Shotcaller"
+    src="shotcaller-full.png"
+    caption="An art mockup of some Shotcaller action.") }}
 
 [Shotcaller] ([Discord][shotcaller-Discord]) is a minimalistic MOBA
 that focuses strictly on macro-play with few actions-per-minute,
@@ -480,8 +502,11 @@ Recent updates include:
 
 ### [Zemeroth][zemeroth]
 
-[![Some generic gameplay demo](zemeroth.gif)][zemeroth-audio]
-_Click to [watch a footage with sound][zemeroth-audio] 🔊_
+{{ image_figure(
+    alt="Some generic gameplay demo"
+    src="zemeroth.gif"
+    caption="Click to [watch a footage with sound](https://twitter.com/ozkriff/status/1341052260885942272) 🔊",
+    link="https://twitter.com/ozkriff/status/1341052260885942272") }}
 
 [Zemeroth][zemeroth] by [@ozkriff] is a minimalistic 2D turn-based tactical game.
 Some of the recent updates:
@@ -546,8 +571,10 @@ Two extensive chapters were added this month:
 
 ### [Setting a Rust Executable's Icon in Windows][win-icon]
 
-![Windows taskbar with Way of Rhea icon on the right](win-icons-task-bar.png)
-_[Way of Rhea][wor-site]'s icon in the taskbar_
+{{ image_figure(
+    alt="Windows taskbar with Way of Rhea icon on the right"
+    src="win-icons-task-bar.png"
+    caption="[Way of Rhea](https://www.anthropicstudios.com/way-of-rhea)'s icon in the taskbar") }}
 
 [Anthropic Studios][anthropic] has [shared an article][win-icon] about
 manually using `rc.exe` and embedding the resulting `.res` into your app
@@ -630,9 +657,11 @@ already find on [YouTube][lowenware-youtube].
 
 ### [rg3d]
 
-![rusty-editor screenshot](rusty-editor.jpg)
-_A level made in [rusty-editor][rusty_editor] which is a native scene editor
-for the rg3d game engine._
+{{ image_figure(
+    alt="rusty-editor screenshot"
+    src="rusty-editor.jpg"
+    caption="A level made in [rusty-editor](https://github.com/mrDIMAS/rusty-editor) which is a native scene editor
+for the rg3d game engine.") }}
 
 [rg3d] ([Discord][rg3d_discord], [Twitter][rg3d_twitter])
 is a game engine that aims to be easy to use and provide large set
@@ -750,8 +779,10 @@ updates.
 
 ### [bevy_ldtk]
 
-![LDtk Map Running in Bevy](./bevy_ldtk.jpg)
-_Tileset from ["Cavernas"] by Adam Saltsman_
+{{ image_figure(
+    alt="LDtk Map Running in Bevy"
+    src="bevy_ldtk.jpg"
+    caption='Tileset from ["Cavernas"](https://adamatomic.itch.io/cavernas) by Adam Saltsman') }}
 
 [bevy_ldtk] is a Bevy plugin for loading [LDtk] tilemaps.
 
@@ -821,8 +852,10 @@ and gfx-rs community is inviting Rust game/graphics developers to evaluate if
 
 ### [imgui-rs]
 
-![imgui drag drop example](imgui-rs.gif)
-_Drag and Drop and the new Drawing Api at Work in 0.7.0_
+{{ image_figure(
+    alt="imgui drag drop example"
+    src="imgui-rs.gif"
+    caption="Drag and Drop and the new Drawing Api at Work in 0.7.0") }}
 
 [imgui-rs] is the Rust bindings for the ubiquitous immediate mode GUI library,
 Dear ImGui.
@@ -836,8 +869,10 @@ macro.
 
 ### [egui]
 
-![egui widget gallery](egui_0.8.0.gif)
-_Some of the supported widgets in the new grid layout._
+{{ image_figure(
+    alt="egui widget gallery"
+    src="egui_0.8.0.gif"
+    caption="Some of the supported widgets in the new grid layout.") }}
 
 [egui] is a simple, fast, and highly portable immediate mode GUI library.
 
@@ -865,8 +900,10 @@ Try out the [online demo](https://mvlabat.github.io/bevy_egui_web_showcase/index
 
 ### [chess-engine]
 
-![cli + web version](chess.png)
-_Console and web clients for the chess-engine_
+{{ image_figure(
+    alt="cli + web version"
+    src="chess.png"
+    caption="Console and web clients for the chess-engine") }}
 
 [chess-engine] by [@adam-mcdaniel] is a pure Rust, no-std, dependency-free
 chess engine built to run anywhere.
@@ -892,8 +929,10 @@ _Discussions:
 
 ### [dcli]
 
-![plaintext tables](dcliah.png)
-_Example of dcliah output_
+{{ image_figure(
+    alt="plaintext tables"
+    src="dcliah.png"
+    caption="Example of dcliah output") }}
 
 [dcli] by [Mike Chambers][@mikechambers] is a library and a collection
 of utilities&apps that provide a command line interface (CLI) for viewing

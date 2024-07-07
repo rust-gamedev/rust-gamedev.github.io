@@ -83,12 +83,22 @@ h6:hover .anchor {
     visibility: visible;
 }
 
-.post-content p img {
+.post-content p img,
+.post-content figure img,
+.post-content figure video {
     display: block;
     box-sizing: border-box;
-    margin: 16px auto;
     padding: 8px;
     border: 1px solid #e8e8e8;
+}
+
+.post-content p img {
+    margin: 16px auto;
+}
+
+.post-content figure img,
+.post-content figure video {
+    margin: 0 auto;
 }
 
 .post-link {
@@ -141,14 +151,12 @@ input[type=email] {
     padding: .4em;
 }
 
-// A hack for image captions.
-// See https://stackoverflow.com/questions/19331362/using-an-image-caption-in-markdown-jekyll
-img+em,
-a:first-child+em:last-child,
-video+em {
+figcaption {
     display: block;
     text-align: center;
-    color: $grey-color;
+    color: #595959;
+    font-size: inherit;
+    margin-top: .5em;
 }
 
 video {

@@ -105,10 +105,12 @@ out [this form][gamedev-meetup-form].
 
 ### [Pixie Wrangler]
 
-[![Screenshot of Pixie Wrangler showing pixies traveling along paths drawn by
-the player.](pixie_wrangler.png)][pw-itch]
-_Click the image to play the game in your desktop browser!_
-
+{{ image_figure(
+    alt="Screenshot of Pixie Wrangler showing pixies traveling along paths drawn by
+the player."
+    src="pixie_wrangler.png"
+    caption="Click the image to play the game in your desktop browser!",
+    link="https://euclidean-whale.itch.io/pixie-wrangler") }}
 Pixie Wrangler ([itch.io][pw-itch], [GitHub][pw-github]) by [@rparrett] is a
 puzzle game reminiscent of old school printed circuit board design software.
 
@@ -132,8 +134,10 @@ projects: [bevy_webgl2], [bevy_prototype_lyon], [bevy_asset_ron],
 
 ### [vange-rs]
 
-![Vange-rs on wgpu-0.10](vangers-wgpu0.10.png)
-_vange-rs on wgpu-0.10_
+{{ image_figure(
+    alt="Vange-rs on wgpu-0.10"
+    src="vangers-wgpu0.10.png"
+    caption="vange-rs on wgpu-0.10") }}
 
 Vange-rs is a rewrite of the iconic Vangers game from 1998 in Rust, heavily
 utilizing GPU for rendering.
@@ -154,8 +158,11 @@ new working title) was published on Itch.io.
 
 ### [RecWars]
 
-[![RecWars screenshot](rec-wars.png)][rec-wars-web] _Click the image to play in
-your browser_
+{{ image_figure(
+    alt="RecWars screenshot"
+    src="rec-wars.png"
+    caption="Click the image to play in your browser"
+    link="https://martin-t.gitlab.io/gitlab-pages/rec-wars/macroquad.html") }}
 
 [RecWars] by @martin-t is a free and open source Rust clone of [RecWar], a top
 down vehicle shooter.
@@ -174,9 +181,10 @@ as [in the browser][rec-wars-web].
 
 ### [Vehicle Evolver Deluxe]
 
-![Vehicle Evolver Deluxe in action, showing multiple vehicles attempting to
-complete an obstacle course](vehicle_evolver_deluxe.gif)
-_Vehicle Evolver Deluxe in action!_
+{{ image_figure(
+    alt="Vehicle Evolver Deluxe in action, showing multiple vehicles attempting to complete an obstacle course"
+    src="vehicle_evolver_deluxe.gif"
+    caption="Vehicle Evolver Deluxe in action!") }}
 
 [Vehicle Evolver Deluxe]
 ([GitHub](https://github.com/Bauxitedev/vehicle_evolver_deluxe),
@@ -208,10 +216,13 @@ https://twitter.com/bauxitedev
 
 ### Liminal Lab 000
 
-[![Screenshot of Liminal Lab 000 showing a white-walled laboratory test chamber
-with buttons on the floor, lights on the wall, and a dark cube levitating
-overhead.](liminal_lab_000.png)][ll000-live] _Click the image to play the game
-in your desktop browser!_
+{{ image_figure(
+    alt="Screenshot of Liminal Lab 000 showing a white-walled laboratory test chamber
+         with buttons on the floor, lights on the wall, and a dark cube levitating
+         overhead."
+    src="liminal_lab_000.png"
+    caption="Click the image to play the game in your desktop browser!",
+    link="https://pebazium.web.app/") }}
 
 Liminal Lab 000 ([live version][ll000-live]) by [@pebaz] is a tiny, minimalistic
 puzzle game with 1 puzzle designed around the concept of [Liminal
@@ -260,8 +271,10 @@ _Discussions:
 
 ### [A Day at the Movies][dayatmovies]
 
-![Screenshot of "A Day at the Movies"](adayatthemovies.png)
-_The kids getting ready to sneak into a movie_
+{{ image_figure(
+    alt='Screenshot of "A Day at the Movies"'
+    src="adayatthemovies.png"
+    caption="The kids getting ready to sneak into a movie") }}
 
 "A Day at the Movies" ([GitHub][dayatmoviesgit], [Itch][dayatmovies]) by
 [Michael Ramirez] is a short game about stealth, movies, and friendship.
@@ -334,8 +347,10 @@ Read the [dev blog][triplehex-blog] for more info, follow
 
 ### [The Process]
 
-![An animated gif showing a machine setup to smelt iron ore](the_process.gif) _A
-smelter factory setup in The Process_
+{{ image_figure(
+    alt="An animated gif showing a machine setup to smelt iron ore"
+    src="the_process.gif"
+    caption="A smelter factory setup in The Process") }}
 
 [The Process] by @setzer22 is an upcoming game about factory building, process
 management, and carrot production, built with Rust using the Godot game engine!
@@ -434,8 +449,11 @@ _Discussions:
 
 ### [Theta Wave]
 
-[![Theta Wave Mobs](theta-wave.gif)][Theta Wave]
-_All mobs ported to Bevy Theta Wave_
+{{ image_figure(
+    alt="Theta Wave Mobs"
+    src="theta-wave.gif"
+    caption="All mobs ported to Bevy Theta Wave",
+    link="https://github.com/thetawavegame/thetawave") }}
 
 [Theta Wave] is an open-source space shooter game by developers [@micah_tigley]
 and [@carlosupina]. In the past month, they have been working towards porting
@@ -455,8 +473,10 @@ _Discussions:
 
 ### [Shroom Kingdom][shroom-kingdom]
 
-![SHRM token distribution](shroom-kingdom.png)
-_SHRM token distribution_
+{{ image_figure(
+    alt="SHRM token distribution"
+    src="shroom-kingdom.png"
+    caption="SHRM token distribution") }}
 
 Shroom Kingdom ([GitHub][shrm-github], [Discord][shrm-discord],
 [Twitter][shrm-twitter]) is an upcoming play-to-earn video game built with web
@@ -535,7 +555,10 @@ and/or get the source code at [GitLab][tbd-gitlab].
 
 ### [Veloren][veloren]
 
-![Exploring dungeons](veloren.jpg) _Exploring the caves_
+{{ image_figure(
+    alt="Exploring dungeons"
+    src="veloren.jpg"
+    caption="Exploring the caves") }}
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.
@@ -670,8 +693,10 @@ _Discussions:
 
 ### [Graphite][graphite-repo]
 
-![Graphite alpha teaser](graphite_alpha.png)
-_Graphite Alpha - Coming very soon_
+{{ image_figure(
+    alt="Graphite alpha teaser"
+    src="graphite_alpha.png"
+    caption="Graphite Alpha - Coming very soon") }}
 
 Graphite ([GitHub][graphite-repo], [Discord][graphite-discord],
 [Twitter](https://twitter.com/GraphiteEditor)) is an in-development vector and
@@ -756,8 +781,10 @@ If you are interested in developing with GGRS, check the following resources:
 
 ### [wgpu]-0.10
 
-![Rend3 on wgpu-0.10](./rend3-wgpu0.10.jpg)
-_unannounced engine on wgpu-0.10_
+{{ image_figure(
+    alt="Rend3 on wgpu-0.10"
+    src="rend3-wgpu0.10.jpg"
+    caption="unannounced engine on wgpu-0.10") }}
 
 The team has released wgpu-0.10 with a fully rewritten graphics abstraction
 ("wgpu-hal" instead of "gfx-hal"), as well as [naga] version 0.6. Read more in
@@ -786,8 +813,10 @@ more work ahead to make it solid, and to support WebGL2 properly.
 
 ### [godot-egui]-0.1.8
 
-![An animation showing godot-egui running as a plugin inside the editor](godot_egui.gif)
-_You can now use egui to make Godot editor extensions!_
+{{ image_figure(
+    alt="An animation showing godot-egui running as a plugin inside the editor"
+    src="godot_egui.gif"
+    caption="You can now use egui to make Godot editor extensions!") }}
 
 The [egui](https://github.com/emilk/egui) backend for
 [godot-rust](https://github.com/godot-rust/godot-rust) is improving fast. Some

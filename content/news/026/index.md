@@ -173,7 +173,10 @@ Development for the web version has moved to the
 
 ### [Veloren][veloren]
 
-![An odd structure in the woods](veloren.jpg) _An odd structure in the woods_
+{{ image_figure(
+    alt="An odd structure in the woods"
+    src="veloren.jpg"
+    caption="An odd structure in the woods") }}
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.
@@ -211,8 +214,10 @@ September's full weekly devlogs: "This Week In Veloren...":
 
 ### [Harvest Hero Origins][hho] @ PAX West 2021
 
-![hho @ pax](hho_pax.jpg)
-_Gemdrop Games booth at PAX West 2021_
+{{ image_figure(
+    alt="hho @ pax"
+    src="hho_pax.jpg"
+    caption="Gemdrop Games booth at PAX West 2021") }}
 
 [Harvest Hero Origins][hho]
 ([Discord](https://discord.gg/CJRbxQn3d9),
@@ -323,8 +328,10 @@ at [Idu's Discord server's #demo-download channel][idu-discord]!
 
 ### [Antorum Online]
 
-![Some players fishing at the beach](antorum.jpg)
-_It's a good day for fishing..._
+{{ image_figure(
+    alt="Some players fishing at the beach"
+    src="antorum.jpg"
+    caption="It's a good day for fishing...") }}
 
 [Antorum Online] is a micro-multiplayer online role-playing game by [@dooskington].
 The game server is written in Rust, and the official client is being developed
@@ -433,8 +440,10 @@ As the godot-rust community keeps growing, the project can now be found
 
 ### [Emerald]
 
-![hotreload](emd_texture_hotreload.gif)
-_Built in texture hot reloading, just call `emd.loader().hotreload()`_
+{{ image_figure(
+    alt="hotreload"
+    src="emd_texture_hotreload.gif"
+    caption="Built in texture hot reloading, just call `emd.loader().hotreload()`") }}
 
 [Emerald] by [@bombfuse][bombfuse_twi]
 is a 2D game engine focused on being super portable and easy-to-use.
@@ -462,8 +471,10 @@ fork and PR!
 
 ### [Starframe]
 
-![physically-connected groups of primitives are framed with rectangles](starframe-islands.jpeg)
-_Grouping bodies into disjoint "islands"_
+{{ image_figure(
+    alt="physically-connected groups of primitives are framed with rectangles"
+    src="starframe-islands.jpeg"
+    caption='Grouping bodies into disjoint "islands"') }}
 
 [Starframe] by [@molentum] is a work-in-progress game engine for physics-y
 sidescrolling 2D games.
@@ -486,9 +497,11 @@ More details to be shown soonish!
 
 ### [Arcana]
 
-![two synchronized views on tanks players-controlled tanks shooting each other
-](arcana-tanks-multiplayer.gif)
-_Two clients connected to the same server_
+{{ image_figure(
+    alt="two synchronized views on tanks players-controlled tanks shooting each other
+"
+    src="arcana-tanks-multiplayer.gif"
+    caption="Two clients connected to the same server") }}
 
 [Arcana] is ECS based game engine focused on simplicity and performance.
 
@@ -515,8 +528,11 @@ out-of-the-box atm, but stability improvements are expected next month.
 
 ### [rg3d] v0.23
 
-[![rg3d 0.23 feature highlights video](rg3d_video.jpg)][rg3d_0_23_video]
-_A feature highlights [video][rg3d_0_23_video]_
+{{ image_figure(
+    alt="rg3d 0.23 feature highlights video"
+    src="rg3d_video.jpg"
+    caption="A feature highlights [video](https://youtube.com/watch?v=3tOdwmRWLKw)",
+    link="https://youtube.com/watch?v=3tOdwmRWLKw") }}
 
 [rg3d] ([Discord][rg3d_discord], [Twitter][rg3d_twitter], [Patreon][rg3d_patreon])
 is a game engine that aims to be easy to use and provide a large
@@ -545,8 +561,10 @@ _Discussions: [/r/rust](https://reddit.com/r/rust/comments/pnhbe4/media_rg3d_023
 
 ### [Rust RPG Toolkit][rpg_rk]
 
-![A dialogue window](capstone.png)
-_[Capstone] - a WIP game that uses Rust RPG Toolkit_
+{{ image_figure(
+    alt="A dialogue window"
+    src="capstone.png"
+    caption="[Capstone](https://www.reddit.com/r/rust_gamedev/comments/paz35s/capstone) - a WIP game that uses Rust RPG Toolkit") }}
 
 [Rust RPG Toolkit][rpg_rk] by [@olefasting] is an engine for creating
 highly customizable and user modable action 2D action RPG's using Rust amd JSON.
@@ -625,8 +643,10 @@ It supports modifying PC saves as well as decrypted PS4 saves
 
 ### [wgpu]
 
-![Deno with wgpu crown](deno-wgpu.png)
-_deno-wgpu_
+{{ image_figure(
+    alt="Deno with wgpu crown"
+    src="deno-wgpu.png"
+    caption="deno-wgpu") }}
 
 [wgpu] is a cross-platform, safe, pure-rust graphics API that runs natively
 on Vulkan, Metal, D3D12, D3D11, and OpenGLES; and on top of WebGPU on wasm.
@@ -760,8 +780,10 @@ ktx2 writing support will come a future release.
 
 ### [rend3][rend3-github]
 
-![rend3 sci-fi base scene](rend3-scifi.jpg)
-_rend3 rendering a complex scene_
+{{ image_figure(
+    alt="rend3 sci-fi base scene"
+    src="rend3-scifi.jpg"
+    caption="rend3 rendering a complex scene") }}
 
 rend3 is a new 3D rendering library that focuses on having an easy
 to user interface without sacrificing performance or customizability.
@@ -798,8 +820,10 @@ the new APIs, including the new Tables API.
 
 ### [Emergent AI][emergent-git]
 
-![Utility AI](emergent-ai.gif)
-_Example of game behavior using Utility AI_
+{{ image_figure(
+    alt="Utility AI"
+    src="emergent-ai.gif"
+    caption="Example of game behavior using Utility AI") }}
 
 [Emergent AI][emergent-git] by [@PsichiX][psichix-twitter] is a new crate designed
 to provide modern AI solutions for games written in Rust. Its highly modularized
@@ -869,8 +893,10 @@ _Discussions:
 
 ### [KAS] GUI v0.10
 
-![a window with many widgets and tabs](kas-demo.gif)
-_Widget gallery demo_
+{{ image_figure(
+    alt="a window with many widgets and tabs"
+    src="kas-demo.gif"
+    caption="Widget gallery demo") }}
 
 [KAS] by [@dhardy] is a general-purpose retained UI toolkit.
 This month v0.10 was released:

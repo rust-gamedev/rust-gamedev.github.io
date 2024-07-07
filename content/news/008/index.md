@@ -334,8 +334,10 @@ Some of this month's updates:
 
 ### [Veloren][veloren]
 
-![LoD](veloren1.png)
-_Work on Level of Detail_
+{{ image_figure(
+    alt="LoD"
+    src="veloren1.png"
+    caption="Work on Level of Detail") }}
 
 [Veloren][veloren] is an open world, open-source voxel RPG
 inspired by Dwarf Fortress and Cube World.
@@ -433,8 +435,10 @@ Main updates:
 
 ### gfx-rs and wgpu news
 
-![Deeper game](deeper.png)
-_[deeper] uses wgpu for rendering_
+{{ image_figure(
+    alt="Deeper game"
+    src="deeper.png"
+    caption="[deeper](https://github.com/arnfaldur/deeper) uses wgpu for rendering") }}
 
 [gfx-hal-0.5](https://github.com/gfx-rs/gfx/) was released!
 Improvements done in March:
@@ -517,8 +521,10 @@ Some of this month's updates:
 
 ### [Nannou v0.13][nannou-post]
 
-![Daily Sketch 0114 by Mactuitui](nannou.png)
-_Daily Sketch 0114 by Mactuitui_
+{{ image_figure(
+    alt="Daily Sketch 0114 by Mactuitui"
+    src="nannou.png"
+    caption="Daily Sketch 0114 by Mactuitui") }}
 
 [Nannou][nannou] is a creative coding framework that aims to make it easy
 for artists to express themselves with simple, fast, reliable code.

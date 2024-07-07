@@ -79,8 +79,10 @@ working on at the next meetup on [December 11th][rust-meetup-dec-time], fill out
 
 ### Flesh
 
-![flesh preview](flesh.gif)
-_The melee weapon in action_
+{{ image_figure(
+    alt="flesh preview"
+    src="flesh.gif"
+    caption="The melee weapon in action") }}
 
 [Flesh] by [@im_oab] is a 2D-horizontal shmup game with hand-drawn animation and
 an organic/fleshy theme. It is implemented using [Tetra]. This month's updates
@@ -95,8 +97,10 @@ include:
 
 ### [One-Click Ninja]
 
-![Screenshot of One-Click Ninja](one-click-ninja.png)
-_Screenshot of One-Click Ninja_
+{{ image_figure(
+    alt="Screenshot of One-Click Ninja"
+    src="one-click-ninja.png"
+    caption="Screenshot of One-Click Ninja") }}
 
 One-Click Ninja is a rhythm game made in 10 days for [1-Button Jam 2021],
 written in Rust using the [Bevy] engine.
@@ -148,8 +152,10 @@ tunnel full of spiders and other enemies! They also worked on a
 
 ### [Halloween Mahjong Solitaire][mahjong-github]
 
-![Halloween Mahjong Solitaire screenshot](mahjong-screenshot.png)
-_Screenshot of Halloween Mahjong Solitaire_
+{{ image_figure(
+    alt="Halloween Mahjong Solitaire screenshot"
+    src="mahjong-screenshot.png"
+    caption="Screenshot of Halloween Mahjong Solitaire") }}
 
 Halloween Mahjong Solitaire ([GitHub][mahjong-github]) by
 [@Syn-Nine][synnine-twitter] is a game created for the [Game Developers
@@ -193,8 +199,10 @@ You can follow the development of Country Slice on
 
 ### [Veloren][veloren]
 
-![Travelling merchant](veloren.jpg)
-_A merchant paused in their travels_
+{{ image_figure(
+    alt="Travelling merchant"
+    src="veloren.jpg"
+    caption="A merchant paused in their travels") }}
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.
@@ -234,8 +242,11 @@ November's full weekly devlogs: "This Week In Veloren...":
 
 ### [BENDYWORM]
 
-![An animation of a platformer where the entire world bends around
-you](bendyworm.gif) _Watch out! The entire world bends around you!_
+{{ image_figure(
+    alt="An animation of a platformer where the entire world bends around
+you"
+    src="bendyworm.gif"
+    caption="Watch out! The entire world bends around you!") }}
 
 BENDYWORM ([GitHub][BENDYWORM-github], [Twitter][BENDYWORM-twitter]) by
 [@bauxitedev][BENDYWORM-bauxitedev] is a platformer with a twist: the entire
@@ -347,10 +358,13 @@ _Discussions:
 
 ### [PaddlePunks][paddlepunks-itch]
 
-![Pong, but one of the characters rewinds time to figure out which of the other
-player's ballusions is actually real](paddlepunks-rewind.gif) _One of the
-characters can spend super meter to rewind time, this is strong but pretty
-situational._
+{{ image_figure(
+    alt="Pong, but one of the characters rewinds time to figure out which of the other
+         player's ballusions is actually real"
+    src="paddlepunks-rewind.gif"
+    caption="One of the
+             characters can spend super meter to rewind time, this is strong but pretty
+             situational.") }}
 
 PaddlePunks is a versus tennis game by [Felix Windström][paddlepunks-twitter]
 with a diverse cast of characters and playstyles and online play with rollback
@@ -524,8 +538,10 @@ to write compute shaders in a "real language".
 
 ### [Rust Roguelike Tutorial][rl-tut]
 
-![ascii map and ui](rl-tut.jpg)
-_A nasty demon monster at the exit to Abyss_
+{{ image_figure(
+    alt="ascii map and ui"
+    src="rl-tut.jpg"
+    caption="A nasty demon monster at the exit to Abyss") }}
 
 [The Roguelike Tutorial][rl-tut] by [@herberticus] got a [new 75th (!)
 chapter][rl-tut-new] that shows how to generate a chaotic Voronoi-based city
@@ -543,8 +559,10 @@ portal.
 
 ### [Hands-on Rust][hor]
 
-![A screenshot of a game in a browser](hor-bonus.jpg)
-_A Dungeon Crawler running in a browser_
+{{ image_figure(
+    alt="A screenshot of a game in a browser"
+    src="hor-bonus.jpg"
+    caption="A Dungeon Crawler running in a browser") }}
 
 Another update from [@herberticus] is a bonus article for the [Hands-on
 Rust][hor] book: ["Run Your Rust Games in a Browser"][hor-bonus] that guides the
@@ -636,8 +654,11 @@ Discord][graphite-discord] and get involved!
 
 ### [Solid Editor][solid]
 
-[![youtube preview: modelling tree's branches using ball as a cursor](solid-editor.jpg)][solid-video]
-_A [demo video][solid-video] of using the editor_
+{{ image_figure(
+    alt="youtube preview: modelling tree's branches using ball as a cursor"
+    src="solid-editor.jpg"
+    caption="A [demo video][solid-video] of using the editor",
+    link="https://youtube.com/watch?v=GuVM3W9Pfdg") }}
 
 [Solid Editor][solid] is [Solid Engine][solid-engine]'s custom-built voxel
 graphics editor. It is designed to be a key part of the engine's asset pipeline,

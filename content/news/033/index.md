@@ -149,8 +149,10 @@ joining [their Discord][wor-discord].
 
 ### BITGUN
 
-![BITGUN gameplay](bitgun-release-optimized.gif)
-_BITGUN gameplay_
+{{ image_figure(
+    alt="BITGUN gameplay"
+    src="bitgun-release-optimized.gif"
+    caption="BITGUN gameplay") }}
 
 [BITGUN] ([Discord], [Twitter]) by [@darth] and [@shosanna] is an action
 roguelite zombie shooter with difficult and satisfying combat you can learn and
@@ -181,8 +183,10 @@ _Discussion: [/r/rust](https://www.reddit.com/r/rust/comments/uepde7/after_worki
 
 ### [Veloren][veloren]
 
-![Riding at night](veloren.jpg)
-_Out for a ride at night_
+{{ image_figure(
+    alt="Riding at night"
+    src="veloren.jpg"
+    caption="Out for a ride at night") }}
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.
@@ -278,8 +282,10 @@ _Discussions: [/r/rust_gamedev][ees-reddit]_
 
 ### [Bevy v0.7][bevy-blog]
 
-![bevy mushroom](bevy_mushroom.jpg)
-_Creative Commons 'Stylized mushrooms' scene by QumoDone rendered in Bevy._
+{{ image_figure(
+    alt="bevy mushroom"
+    src="bevy_mushroom.jpg"
+    caption="Creative Commons 'Stylized mushrooms' scene by QumoDone rendered in Bevy.") }}
 
 [Bevy][bevy] is a refreshingly simple data-driven game engine built in Rust. It
 is [free and open source][bevy-git] forever!
@@ -331,8 +337,10 @@ _Discussions:
 
 ### Dims
 
-![dims foliage](dims.jpg)
-_Foliage rendering in Dims_
+{{ image_figure(
+    alt="dims foliage"
+    src="dims.jpg"
+    caption="Foliage rendering in Dims") }}
 
 Dims is an open-world creation platform.
 
@@ -359,8 +367,10 @@ _Discussions:
 
 ### [Eldiron]
 
-![Eldiron Image](eldiron_screen.png)
-_Behavior Nodes of Eldiron_
+{{ image_figure(
+    alt="Eldiron Image"
+    src="eldiron_screen.png"
+    caption="Behavior Nodes of Eldiron") }}
 
 [Eldiron] ([GitHub][eldiron-github], [Discord][eldiron-discord],
 [Twitter][eldiron-twitter]) by [@markusmoenig] is a creator for classic role
@@ -390,9 +400,10 @@ the classical Ultima series.
 
 ### [Hotham][hotham]
 
-![Hotham Image](hotham.png)
-_Screenshot from The Station, an upcoming space station simulation game, built
-with Hotham_
+{{ image_figure(
+    alt="Hotham Image"
+    src="hotham.png"
+    caption="Screenshot from The Station, an upcoming space station simulation game, built with Hotham") }}
 
 [Hotham][hotham] is a game engine for standalone VR devices, trying to make VR
 development just a little bit less painful.

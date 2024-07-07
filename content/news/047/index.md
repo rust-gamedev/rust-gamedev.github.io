@@ -91,8 +91,10 @@ Twitch][rust-gamedev-twitch].
 
 ### [Flesh]
 
-![flesh preview](flesh.gif)
-_Intro_
+{{ image_figure(
+    alt="flesh preview"
+    src="flesh.gif"
+    caption="Intro") }}
 
 [Flesh] by [@im_oab] is a 2D-horizontal shmup game with hand-drawn animation,
 an organic/fleshy theme and a unique story. It is implemented using [Tetra].
@@ -110,8 +112,10 @@ before release includes:
 
 ### [Space Frontiers]
 
-![In-game screenshot of a real-time render of a modular gridmap-based spaceship interior](spacefrontiers.png)
-_Render achieved with dynamic point lights._
+{{ image_figure(
+    alt="In-game screenshot of a real-time render of a modular gridmap-based spaceship interior"
+    src="spacefrontiers.png"
+    caption="Render achieved with dynamic point lights.") }}
 
 [Space Frontiers] ([GitHub], [Discord], [Twitter], [Reddit], [Steam Group])
 by [Starwolves] is an online moddable sci-fi action RPG community game
@@ -155,8 +159,10 @@ _Discussions: [StarWolves.io Bulletin Board]_
 
 ### Digital Extinction
 
-![Building Placement in Digital Extinction](digital-extinction.jpeg)
-_Building Placement in Digital Extinction_
+{{ image_figure(
+    alt="Building Placement in Digital Extinction"
+    src="digital-extinction.jpeg"
+    caption="Building Placement in Digital Extinction") }}
 
 [Digital Extinction] ([GitHub][de-github], [Discord][de-discord],
 [Reddit][de-reddit]) by [@Indy2222] is a 3D real-time strategy game made with
@@ -242,8 +248,10 @@ Recent updates:
 
 ### [Veloren][veloren]
 
-![Veloren visual comparison](veloren.jpg)
-_Veloren over the years_
+{{ image_figure(
+    alt="Veloren visual comparison"
+    src="veloren.jpg"
+    caption="Veloren over the years") }}
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.
@@ -268,8 +276,10 @@ June's full weekly devlogs: "This Week In Veloren...": [#211][veloren-211], [#21
 
 ### [macroquad]
 
-![macroquad](macroquad_0_4.gif)
-_Macroquad examples rendered by Metal API_
+{{ image_figure(
+    alt="macroquad"
+    src="macroquad_0_4.gif"
+    caption="Macroquad examples rendered by Metal API") }}
 
 Macroquad got ported to miniquad-0.4, supporting Metal on Mac and IOS.
 

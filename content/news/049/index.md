@@ -128,9 +128,11 @@ Here are the most notable updates:
 
 ### [Oort]
 
-![Asteroids-like vector graphics with ships and missiles
-made out of simple geometric forms](oort.png)
-_A fleet of ships_
+{{ image_figure(
+    alt="Asteroids-like vector graphics with ships and missiles
+made out of simple geometric forms"
+    src="oort.png"
+    caption="A fleet of ships") }}
 
 [Oort] ([GitHub][oort-gh], [Discord][oort-dis]) by [@rlane] is a programming
 game where you write Rust code to control spaceships in combat against other
@@ -173,8 +175,10 @@ and [dynamic time passage][tglade-tod].
 
 ### [Veloren][veloren]
 
-![Veloren a group of friends](veloren.jpg)
-_A group of friends_
+{{ image_figure(
+    alt="Veloren a group of friends"
+    src="veloren.jpg"
+    caption="A group of friends") }}
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.
@@ -202,9 +206,11 @@ August's full weekly devlogs: "This Week In Veloren...": [#216][veloren-216].
 
 ### [CyberGate][cybergate-yt]
 
-![GIF of a player attacking a spherical enemy: one window is active,
-the other shows the same view but a menu overlay on top](cybergate.gif)
-_Two client windows controlling the same pawn simultaneously._
+{{ image_figure(
+    alt="GIF of a player attacking a spherical enemy: one window is active,
+         the other shows the same view but a menu overlay on top"
+    src="cybergate.gif"
+    caption="Two client windows controlling the same pawn simultaneously.") }}
 
 CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]),
 CyberSoul is developing an ambitious multiplayer project,
@@ -345,8 +351,10 @@ mobile/WASM support and the need to pre-define events & states.
 
 ### [nanogltf]
 
-![The "DamagedHelmet" sample model](nanogltf-helmet.gif)
-_nanogltf+miniquad glTF viewer_
+{{ image_figure(
+    alt='The "DamagedHelmet" sample model'
+    src="nanogltf-helmet.gif"
+    caption="nanogltf+miniquad glTF viewer") }}
 
 [nanogltf] by [@not-fl3] is a minimalist [nanoserde]-based [glTF][gltf]
 parser library that can load most of the glTF's [sample models][gltf-models]

@@ -106,8 +106,10 @@ _Discussions: [Submission page](https://ldjam.com/events/ludum-dare/51/miam)_
 
 ### [Jumpy]
 
-![Online Game Fish Selection Screen](jumpy.png)
-_Online Game Fish Selection Screen_
+{{ image_figure(
+    alt="Online Game Fish Selection Screen"
+    src="jumpy.png"
+    caption="Online Game Fish Selection Screen") }}
 
 [Jumpy] ([GitHub][Jumpy], [Discord][jumpy_discord], [Twitter][jumpy_twitter]) by
 [Spicy Lobster][spicy_lobster] is a pixel-style, tactical 2D shooter with a fishy
@@ -143,8 +145,10 @@ _Discussions: [GitHub][jumpy_discussions], [Twitter][jumpy_twitter]_
 
 ### [CyberGate][cybergate-yt]
 
-![State Syncronization](cybergate.gif)
-_The health bar that is closer updates more frequently_
+{{ image_figure(
+    alt="State Syncronization"
+    src="cybergate.gif"
+    caption="The health bar that is closer updates more frequently") }}
 
 CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]) by CyberSoul
 is an attempt to use artificial intelligence to build diverse universe experiences
@@ -168,9 +172,10 @@ Recent updates:
 
 ### Digital Extinction
 
-![selection circles & health bars in Digital
-Extinction](digital-extinction.jpeg) _selection circles & health bars in Digital
-Extinction_
+{{ image_figure(
+    alt="selection circles & health bars in Digital Extinction"
+    src="digital-extinction.jpeg"
+    caption="selection circles & health bars in Digital Extinction") }}
 
 [Digital Extinction] ([GitHub][de-github], [Discord][de-discord],
 [Reddit][de-reddit]) by [@Indy2222] is a 3D real-time strategy game made with
@@ -274,8 +279,10 @@ it hit version 0.28 which added new functionality and improved existing:
 
 ### [miniquad]
 
-![ios-miniquad](ios_zemeroth.png)
-_[zemeroth](github.com/ozkriff/zemeroth/) on the iOS simulator_
+{{ image_figure(
+    alt="ios-miniquad"
+    src="ios_zemeroth.png"
+    caption="[zemeroth](https://github.com/ozkriff/zemeroth/) on the iOS simulator") }}
 
 [miniquad] is a pure Rust, cross-platform graphics library.
 

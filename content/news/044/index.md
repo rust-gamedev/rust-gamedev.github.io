@@ -94,8 +94,10 @@ Twitch][rust-gamedev-twitch].
 
 ### [8bit Duels]
 
-![movement_animations](8bit-duels-game.png)
-_An 8bit Duels match_
+{{ image_figure(
+    alt="movement_animations"
+    src="8bit-duels-game.png"
+    caption="An 8bit Duels match") }}
 
 [@ThousandthStar] is creating a simple multiplayer turn-based strategy using the
 [Bevy Engine]. The [latest devlog] brings features like ownership indicators,
@@ -116,8 +118,10 @@ _Discussions: [8-bit Discord]_
 
 ### [CyberGate][cybergate-yt]
 
-![Hit and blackhole particle effects](cybergate.gif)
-_Particles emit from bullet hits and blackholes_
+{{ image_figure(
+    alt="Hit and blackhole particle effects"
+    src="cybergate.gif"
+    caption="Particles emit from bullet hits and blackholes") }}
 
 CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]),
 an ambitious multiplayer project in development by CyberSoul,
@@ -181,8 +185,10 @@ There is currently only a WASM build (freely available on the itch.io)
 
 ### [Jumpy]
 
-![Live Map Editing Example](jumpy.gif)
-_Live Map Editing!_
+{{ image_figure(
+    alt="Live Map Editing Example"
+    src="jumpy.gif"
+    caption="Live Map Editing!") }}
 
 [Jumpy] ([GitHub][Jumpy], [Discord][jumpy_discord], [Twitter][jumpy_twitter]) by
 [Spicy Lobster][spicy_lobster] is a pixel-style, tactical 2D shooter with a fishy
@@ -212,8 +218,10 @@ release as soon as it's ready.
 
 ### [Tunnet][tunnet-itch]
 
-![Tunnet screenshot: a weird looking computer network](tunnet.jpg)
-_Example of a puzzle in Tunnet_
+{{ image_figure(
+    alt="Tunnet screenshot: a weird looking computer network"
+    src="tunnet.jpg"
+    caption="Example of a puzzle in Tunnet") }}
 
 Tunnet ([Steam][tunnet-steam], [Itch.io][tunnet-itch]) by
 [@puzzled\_squid][puzzled_squid] is a short puzzle/exploration game where you
@@ -232,8 +240,10 @@ The game is developed using Bevy and is expected to be released late 2023.
 
 ### Digital Extinction
 
-![Building Placement in Digital Extinction](digital-extinction.jpeg)
-_Building Placement in Digital Extinction_
+{{ image_figure(
+    alt="Building Placement in Digital Extinction"
+    src="digital-extinction.jpeg"
+    caption="Building Placement in Digital Extinction") }}
 
 [Digital Extinction] ([GitHub][de-github], [Discord][de-discord],
 [Reddit][de-reddit]) by [@Indy2222] is a 3D real-time strategy game made with
@@ -298,8 +308,11 @@ Recent updates:
 
 ### [Boat Journey][boat-journey-itch]
 
-[![Screenshot from the game Boat Journey showing ASCII art of a boat and some islands](boat-journey-screenshot.png)
-_Carry your passengers safely to the ocean in Boat Journey._][boat-journey-itch]
+{{ image_figure(
+    alt="Screenshot from the game Boat Journey showing ASCII art of a boat and some islands"
+    src="boat-journey-screenshot.png"
+    caption="Carry your passengers safely to the ocean in Boat Journey.",
+    link="https://gridbugs.itch.io/boat-journey") }}
 
 [Boat Journey][boat-journey-itch] ([GitHub][boat-journey-github])
 is a turn-based game where you drive a boat through a
@@ -351,8 +364,10 @@ You can play it [here][play-battle-city].
 
 ### [BattleBots Simulator]
 
-![3D view on a two-weeled robot on a hex map](battle-bots-simulator.jpg)
-_Lightweight "annoyance" robot variant_
+{{ image_figure(
+    alt="3D view on a two-weeled robot on a hex map"
+    src="battle-bots-simulator.jpg"
+    caption='Lightweight "annoyance" robot variant') }}
 
 [BattleBots Simulator] ([Twitter]) by [@nilaysavant]
 is a "BattleBots" themed robot wars simulator developed using [Bevy].
@@ -414,8 +429,10 @@ Read more about all this in [this month's devlog entry][cargospace_devlog_6].
 
 ### [Open Combat][OpenCombat_website]
 
-![OpenCombat HUD: a window with a "Begin" button](OpenCombat_HUD.png)
-_Game now includes a HUD_
+{{ image_figure(
+    alt='OpenCombat HUD: a window with a "Begin" button'
+    src="OpenCombat_HUD.png"
+    caption="Game now includes a HUD") }}
 
 Open Combat ([Website][OpenCombat_website], [GitHub][OpenCombat_github],
 [Discord][OpenCombat_discord]) is a real-time tactical game
@@ -435,8 +452,10 @@ and we are searching for graphic designer help.
 
 ### [Veloren][veloren]
 
-![Campfire by the lights](veloren.jpg)
-_Campfire by the lights_
+{{ image_figure(
+    alt="Campfire by the lights"
+    src="veloren.jpg"
+    caption="Campfire by the lights") }}
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.
@@ -522,9 +541,10 @@ This month's updates include:
 
 ### [hotline][hotline-gh]
 
-![code in the editor on the left and  live scene view
-with textured shapes on the right](hotline_rdg44.jpg)
- _hotline live coding client_
+{{ image_figure(
+    alt="code in the editor on the left and live scene view with textured shapes on the right"
+    src="hotline_rdg44.jpg"
+    caption="hotline live coding client") }}
 
 [hotline][hotline-gh] ([Blog][hotline-blog], [Twitter][hotline-twi])
 is a modern, high-performance, hot-reload
@@ -644,8 +664,11 @@ Editor with egui.
 
 ### [Writing NES assembly programs in a Rust DSL][writing-nes-programs-in-rust-video]
 
-[![Title slide from presentation about writing NES assembly programs in Rust](nes-programming-in-rust-cover.jpg)
-_Video: Talk about writing NES assembly programs in Rust_][writing-nes-programs-in-rust-video]
+{{ image_figure(
+    alt="Title slide from presentation about writing NES assembly programs in Rust"
+    src="nes-programming-in-rust-cover.jpg"
+    caption="Video: Talk about writing NES assembly programs in Rust",
+    link="https://youtube.com/watch?v=hs-MrEoOX5Y") }}
 
 This is a talk about writing a program for the Nintendo Entertainment System
 that exposes all of its audio processor registers through an interface that lets
@@ -673,8 +696,10 @@ youtube][nes-audio-tool-demo-video]. The PDF of the slides from the talk are
 
 ### [Using the Depth Prepass in Bevy 0.10]
 
-![depth prepass in bevy 0.10](bevy-depth-prepass.jpg)
-_depth prepass powered intersections between a shield and wall/floor_
+{{ image_figure(
+    alt="depth prepass in bevy 0.10"
+    src="bevy-depth-prepass.jpg"
+    caption="depth prepass powered intersections between a shield and wall/floor") }}
 
 [@chrisbiscardi] published a [video][Using the Depth Prepass in Bevy 0.10] about
 using the Depth Prepass texture in Bevy 0.10. The depth prepass, along with the
@@ -748,8 +773,10 @@ It currently has the following features:
 
 ### [Tarsila]
 
-![Tarsila's UI](tarsila.png)
-_Editor's UI_
+{{ image_figure(
+    alt="Tarsila's UI"
+    src="tarsila.png"
+    caption="Editor's UI") }}
 
 Tarsila is a pixel art and spritesheet editor written in Rust using
 egui and [macroquad], inspired by [Aseprite].
@@ -813,8 +840,10 @@ be it with suggestions, bugs or PRs.
 
 ### [Graphite][graphite-website]
 
-![Vector artwork made in Graphite: Valley of Spires][graphite-artwork]  
-_Valley of Spires - Vector art made in Graphite_
+{{ image_figure(
+    alt="Vector artwork made in Graphite: Valley of Spires"
+    src="graphite-artwork-valley-of-spires.png"
+    caption="Valley of Spires - Vector art made in Graphite") }}
 
 Graphite ([website][graphite-website], [GitHub][graphite-repo],
 [Discord][graphite-discord], [Twitter][graphite-twitter]) is a free,
@@ -847,8 +876,10 @@ designs with #MadeWithGraphite on Twitter.
 
 ## [ruffle][ruffle-post]
 
-![new text input support on mobile devices](ruffle-text.jpg)
-_Demo of the new text input boxes on a mobile device_
+{{ image_figure(
+    alt="new text input support on mobile devices"
+    src="ruffle-text.jpg"
+    caption="Demo of the new text input boxes on a mobile device") }}
 
 [Ruffle] is an open-source Flash Player emulator, written in Rust. It aims to run
 natively on all modern operating systems and web browsers, leveraging Rust's
@@ -984,8 +1015,10 @@ _Discussions:
 
 ### [Bevy Rust-GPU]
 
-![hot-rebuild](bevy-rust-gpu-hot-rebuild.gif)
-_Hot-rebuilding a rust-gpu shader from a bevy app_
+{{ image_figure(
+    alt="hot-rebuild"
+    src="bevy-rust-gpu-hot-rebuild.gif"
+    caption="Hot-rebuilding a rust-gpu shader from a bevy app") }}
 
 [Bevy Rust-GPU] by [@Shfty]
 is a suite of crates encoding a practical [rust-gpu] workflow for [bevy].
@@ -1014,9 +1047,10 @@ _Discussion: [/r/bevy](https://reddit.com/r/bevy/comments/11hrnmz/bevy_rustgpu_j
 
 ### [rust-gpu-sdf]
 
-![3d-distance-field](rust-gpu-sdf.gif)
-_An implicit surface defined compositionally, raymarched, and shaded entirely
-in Rust_
+{{ image_figure(
+    alt="3d-distance-field"
+    src="rust-gpu-sdf.gif"
+    caption="An implicit surface defined compositionally, raymarched, and shaded entirely in Rust") }}
 
 Announcing [rust-gpu-sdf], by [@Shfty]; a no-std signed distance field library
 designed for use on both CPU and GPU.

@@ -136,8 +136,10 @@ _Discussions:
 
 ### Digital Extinction
 
-![laser trail in Digital Extinction](digital-extinction.jpeg)
-_Laser trail in Digital Extinction_
+{{ image_figure(
+    alt="laser trail in Digital Extinction"
+    src="digital-extinction.jpeg"
+    caption="Laser trail in Digital Extinction") }}
 
 [Digital Extinction] ([GitHub][de-github], [Discord][de-discord],
 [Reddit][de-reddit]) by [@Indy2222] is a 3D real-time strategy game made with
@@ -167,8 +169,10 @@ A more detailed update summary is available [here][de-update-03].
 
 ### [Open Combat][OpenCombat_website]
 
-![Real time tactical 2nd world war game](open_combat.png)
-_Game now includes vehicle (T-26) and shelling FX_
+{{ image_figure(
+    alt="Real time tactical 2nd world war game"
+    src="open_combat.png"
+    caption="Game now includes vehicle (T-26) and shelling FX") }}
 
 Open Combat
 ([Website][OpenCombat_website],
@@ -209,8 +213,10 @@ into lovable dioramas. Wishlist on [Steam][Tiny Glade]!
 
 ### [Temple Knight]
 
-![Shooting automatons in Temple Knight](temple-knight.jpg)
-_Shooting automatons in Temple Knight_
+{{ image_figure(
+    alt="Shooting automatons in Temple Knight"
+    src="temple-knight.jpg"
+    caption="Shooting automatons in Temple Knight") }}
 
 Temple Knight ([Itch.io][tk-itch], [Twitter][tk-twitter])
 by [@nilaysavant] is a 3D FPS game developed using [Bevy].
@@ -282,8 +288,10 @@ implemented.
 
 ### [8bit Duels]
 
-![Kraken](8bd_kraken.png)
-_The newly added Kraken_
+{{ image_figure(
+    alt="Kraken"
+    src="8bd_kraken.png"
+    caption="The newly added Kraken") }}
 
 [@ThousandthStar] is creating 8bit Duels
 ([Discord][8bit-discord], [GitHub][8bit-github]),
@@ -307,8 +315,10 @@ The full devlog for this month can be found [here][8bit-log5].
 
 ### [Flesh]
 
-![flesh preview](flesh.gif)
-_more blood_
+{{ image_figure(
+    alt="flesh preview"
+    src="flesh.gif"
+    caption="more blood") }}
 
 [Flesh] by [@im_oab] is a 2D-horizontal shmup game with hand-drawn animation and
 an organic/fleshy theme. It is implemented using [Tetra]. This month's updates
@@ -325,8 +335,10 @@ include:
 
 ### Pirate Annihilation
 
-![Pirate annihilation game view](pirate_annihilation_n41.png)
-_Pirate annihilation game view, asset pack by [Kenney](https://twitter.com/KenneyNL)_
+{{ image_figure(
+    alt="Pirate annihilation game view"
+    src="pirate_annihilation_n41.png"
+    caption="Pirate annihilation game view, asset pack by [Kenney](https://twitter.com/KenneyNL)") }}
 
 Pirate Annihilation ([GitHub][pirate_annihilation_repo], [Twitter][indiedevcasts_twitter])
 by [indiedevcasts][indiedevcasts_www] ([@theredfish]) is a last-man-standing game
@@ -344,8 +356,10 @@ now defined.
 
 ### [Veloren][veloren]
 
-![A wendigo at night](veloren.jpg)
-_A fearsome wendigo encounter_
+{{ image_figure(
+    alt="A wendigo at night"
+    src="veloren.jpg"
+    caption="A fearsome wendigo encounter") }}
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.
@@ -374,8 +388,10 @@ December's full weekly devlogs: "This Week In Veloren...":
 
 ### [Thetawave]
 
-![repeater boss](repeater_boss.gif)
-_First boss enemy in Thetawave_
+{{ image_figure(
+    alt="repeater boss"
+    src="repeater_boss.gif"
+    caption="First boss enemy in Thetawave") }}
 
 Thetawave is an open-source, roguelite, physics-based, space shooter game made
 with [Bevy] and [Rapier].
@@ -391,8 +407,10 @@ regular updates about the game.
 
 ### [Jumpy]
 
-![Swords, Crates, Grenades, & Mines](jumpy.png)
-_Jumpy Items: Swords, Crates, Grenades, & Mines_
+{{ image_figure(
+    alt="Swords, Crates, Grenades, & Mines"
+    src="jumpy.png"
+    caption="Jumpy Items: Swords, Crates, Grenades, & Mines") }}
 
 [Jumpy] ([GitHub][Jumpy], [Discord][jumpy_discord], [Twitter][jumpy_twitter]) by
 [Spicy Lobster][spicy_lobster] is a pixel-style, tactical 2D shooter with a fishy
@@ -639,8 +657,10 @@ The final source code [is available on GitHub][clicker-src].
 ### [Graphite][graphite-website]
 
 [
-![Graphite logo](graphite-vector-demo.png)
-_Video: 3-minute timelapse of a vector art piece illustrated in Graphite_
+{{ image_figure(
+    alt="Graphite logo"
+    src="graphite-vector-demo.png"
+    caption="Video: 3-minute timelapse of a vector art piece illustrated in Graphite") }}
 ][graphite-vector-demo]
 
 Graphite ([website][graphite-website], [GitHub][graphite-repo],
@@ -734,8 +754,10 @@ The author also made a basic example [here][bevy-rpg-example].
 
 ### [lpcg][lpcg_crate]
 
-![character sprite generator](lpcg.png)
-_A new library which generates character sprites_
+{{ image_figure(
+    alt="character sprite generator"
+    src="lpcg.png"
+    caption="A new library which generates character sprites") }}
 
 lpcg ([Crates.io][lpcg_crate], [GitHub][lpcg_github]) by
 [bux][bux] is a library which generates character sprites,
@@ -747,8 +769,10 @@ based on assets from the [Liberated Pixel Cup][lpc].
 
 ### [egui_dnd]
 
-![egui_dnd in action](egui_dnd.gif)
-_A [showcase](https://lucasmerlin.github.io/egui_dnd/) of egui_dnd_
+{{ image_figure(
+    alt="egui_dnd in action"
+    src="egui_dnd.gif"
+    caption="A [showcase](https://lucasmerlin.github.io/egui_dnd/) of egui_dnd") }}
 
 [egui_dnd] ([github][egui_dnd_github], [crates.io][egui_dnd_crates_io]) by [@lucasmerlin]
 is a new drag and drop sorting crate for egui. While egui itself includes some drag
@@ -818,9 +842,10 @@ the main improvements are:
 
 ### [rust-gpu v0.4.0][rust-gpu-release]
 
-![a screenshot: spherical characters doing stuff](rust-gpu.jpg)
-_Embark's [Creative Playground][embark-creative-playground],
-which uses rust-gpu and raytracing_
+{{ image_figure(
+    alt="a screenshot: spherical characters doing stuff"
+    src="rust-gpu.jpg"
+    caption="Embark's [Creative Playground](https://twitter.com/createplayremix), which uses rust-gpu and raytracing") }}
 
 [Rust-gpu][rust-gpu] ([Discord][rust-gpu-discord]) allows you
 to write your GPU shaders in the Rust language.

@@ -113,8 +113,10 @@ Twitch][rust-gamedev-twitch].
 
 ### Digital Extinction
 
-![Building Placement in Digital Extinction](digital-extinction.jpeg)
-_Building Placement in Digital Extinction_
+{{ image_figure(
+    alt="Building Placement in Digital Extinction"
+    src="digital-extinction.jpeg"
+    caption="Building Placement in Digital Extinction") }}
 
 [Digital Extinction] ([GitHub][de-github], [Discord][de-discord],
 [Reddit][de-reddit]) by [@Indy2222] is a 3D real-time strategy game made with
@@ -156,9 +158,11 @@ A more detailed update summary is available [here][de-update-04].
 
 ### [Cargo Space]
 
-![Screenshot of p2p multiplayer in Cargo Space: One instance running on windows
-and one in Chrome](cargo-space-cross-platform.png)
-_Cross-platform p2p multiplayer in Cargo Space_
+{{ image_figure(
+    alt="Screenshot of p2p multiplayer in Cargo Space: One instance running on windows
+and one in Chrome"
+    src="cargo-space-cross-platform.png"
+    caption="Cross-platform p2p multiplayer in Cargo Space") }}
 
 [Cargo Space] ([Discord][cargospace_discord]) by
 [@johanhelsing][johanhelsing_mastodon] is a co-op 2d space game where you build
@@ -195,8 +199,10 @@ made with [`bevy_ggrs`][bevy_ggrs].
 
 ### [Idu][idu-itch]
 
-![Screenshot of a tree emerging from a cave in Idu](idu-newsletter.jpg)
-_Screenshot of a tree emerging from a cave in Idu_
+{{ image_figure(
+    alt="Screenshot of a tree emerging from a cave in Idu"
+    src="idu-newsletter.jpg"
+    caption="Screenshot of a tree emerging from a cave in Idu") }}
 
 [Idu][idu-itch] ([Discord][idu_discord]) Idu is a strategic sandbox game about growing
 plants that wish to reclaim nature, developed by [Elina
@@ -223,8 +229,10 @@ Read more and download the newest demo from [Idu's page on itch.io][idu-itch].
 
 ### [Veloren][veloren]
 
-![A river with flora and fauna](veloren.jpg)
-_A serene river with new reflections_
+{{ image_figure(
+    alt="A river with flora and fauna"
+    src="veloren.jpg"
+    caption="A serene river with new reflections") }}
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.
@@ -395,8 +403,11 @@ _Discussions: [Mastodon][zkat-mastodon-ann]_
 
 ### [RustySynth]
 
-[![Waveform displayed on a screen](rustysynth-yt.png)
-_Video: an example of realtime MIDI synthesis with RustySynth on rust-sfml_][rustysynth-video]
+{{ image_figure(
+    alt="Waveform displayed on a screen"
+    src="rustysynth-yt.png"
+    caption="Video: an example of realtime MIDI synthesis with RustySynth on rust-sfml",
+    link="https://www.youtube.com/watch?v=o9rPTJIPmVk") }}
 
 [RustySynth] is a SoundFont MIDI synthesizer written in pure Rust. The purpose
 of this library is to provide MIDI music playback functionality for any Rust
@@ -438,9 +449,11 @@ would be very appreciated.
 
 ### [torchbearer]
 
-![Torchbearer in action](torchbearer.png)
-_An exemple of torchbearer in action, demonstrating both pathfinding and field
-of view_
+{{ image_figure(
+    alt="Torchbearer in action"
+    src="torchbearer.png"
+    caption="An exemple of torchbearer in action, demonstrating both pathfinding and field
+of view") }}
 
 [torchbearer] by [@redwarp] is a library that provides a set of tools to find
 your path in a grid-based dungeon. Specifically, it provides a quick
@@ -487,8 +500,10 @@ _Discussions: [Mastodon][cargospace_cross_platform_video]_
 
 ### [miniquad]
 
-![miniquad ios](miniquad_metal.gif)
-_Miniquad/macroquad examples rendered by Metal API_
+{{ image_figure(
+    alt="miniquad ios"
+    src="miniquad_metal.gif"
+    caption="Miniquad/macroquad examples rendered by Metal API") }}
 
 [miniquad] is a safe and cross-platform rendering library focused on portability
 and low-end platform support.

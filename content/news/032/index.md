@@ -225,8 +225,10 @@ The source for this game is available on [GitHub][cnw-source].
 
 ### [V-Racer][vracer-github]
 
-![VRacer screenshot](vracer_screenshot.gif)
-_Screenshot of V-Racer_
+{{ image_figure(
+    alt="VRacer screenshot"
+    src="vracer_screenshot.gif"
+    caption="Screenshot of V-Racer") }}
 
 V-Racer ([GitHub][vracer-github]) by
 [@Syn-Nine][synnine-twitter] is a retro
@@ -266,8 +268,10 @@ in the new [Spring Fever expansion][spring-fever]!
 
 ### [Veloren][veloren]
 
-![Veloren on the Steam Deck](veloren-steamdeck.jpg)
-_Veloren on the Steam Deck!_
+{{ image_figure(
+    alt="Veloren on the Steam Deck"
+    src="veloren-steamdeck.jpg"
+    caption="Veloren on the Steam Deck!") }}
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.

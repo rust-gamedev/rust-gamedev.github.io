@@ -125,8 +125,10 @@ If you want solo though, that's fine too.
 
 ### [CyberGate][cybergate-yt]
 
-![hundreds of npcs smoothly interpolating](cybergate.jpg)
-_hundreds of npcs smoothly interpolating_
+{{ image_figure(
+    alt="hundreds of npcs smoothly interpolating"
+    src="cybergate.jpg"
+    caption="hundreds of npcs smoothly interpolating") }}
 
 CyberGate ([YouTube][cybergate-yt], [Discord][cybergate-dis]),
 an ambitious multiplayer project in development by CyberSoul,
@@ -155,8 +157,10 @@ Participate [by joining the Discord server][cybergate-dis].
 
 ### [Jumpy]
 
-![Online Matchmaking Menu Page](jumpy.png)
-_Online Matchmaking_
+{{ image_figure(
+    alt="Online Matchmaking Menu Page"
+    src="jumpy.png"
+    caption="Online Matchmaking") }}
 
 [Jumpy] ([GitHub][Jumpy], [Discord][jumpy_discord], [Twitter][jumpy_twitter]) by
 [Spicy Lobster][spicy_lobster] is a pixel-style, tactical 2D shooter with a fishy
@@ -302,8 +306,10 @@ This month [a new demo was released][idu-new-demo]:
 
 ### [Tiny Glade]
 
-![three small windows are merged into one bigger one](tglade.gif)
-_Demo of the gothic windows system_
+{{ image_figure(
+    alt="three small windows are merged into one bigger one"
+    src="tglade.gif"
+    caption="Demo of the gothic windows system") }}
 
 [Tiny Glade] ([Twitter][tglade-twi], [Youtube][tglade-yt]) is a small relaxing game
 about doodling castles.
@@ -352,8 +358,10 @@ that is available in Early Access on Steam.
 
 ### [Ambient][ambient-github]
 
-![a set of cool and mostly physics-centered demos](ambient.gif)
-_A 10-second preview of what's possible with Ambient 0.2_
+{{ image_figure(
+    alt="a set of cool and mostly physics-centered demos"
+    src="ambient.gif"
+    caption="A 10-second preview of what's possible with Ambient 0.2") }}
 
 [Ambient 0.2][ambient-blog] is now out after two months of development.
 Ambient is an open-source runtime for building high-performance multiplayer
@@ -431,8 +439,10 @@ to GitHub Pages using GitHub Actions.
 
 ### [Exploring Bevy's Game Of Life Example][exploring-gol-blog]
 
-![red dots or black bg](explore_gol_drawing.gif)
-_Game of Life Simulation_
+{{ image_figure(
+    alt="red dots or black bg"
+    src="explore_gol_drawing.gif"
+    caption="Game of Life Simulation") }}
 
 [Yendor][yendor] published [a mini-tutorial series][exploring-gol-blog]
 exploring compute shaders in Bevy using their [Game of Life example][bevy-gol]
@@ -699,9 +709,11 @@ _Discussions: [/r/rust](https://reddit.com/r/rust/comments/133ruqi/image_maniac)
 
 ### [Backpack]
 
-![left part is "crab simulator" game where the player gains an item
-right part is "clash of crabs" where player is able to use the item](backpack.jpg)
-_Minimalist schema for sharing items in different games_
+{{ image_figure(
+    alt='left part is "crab simulator" game where the player gains an item
+right part is "clash of crabs" where player is able to use the item'
+    src="backpack.jpg"
+    caption="Minimalist schema for sharing items in different games") }}
 
 [Backpack] is an inventory system to share items between different games,
 for example:

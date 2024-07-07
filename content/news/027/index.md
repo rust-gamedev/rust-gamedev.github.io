@@ -107,8 +107,10 @@ Early Access release on Steam is expected in mid 2022.
 
 ### [The Process]
 
-![An animated gif showing an engineer shooting rockets](the_process.gif)
-_Firing Carrockets™!_
+{{ image_figure(
+    alt="An animated gif showing an engineer shooting rockets"
+    src="the_process.gif"
+    caption="Firing Carrockets™!") }}
 
 [The Process] by @setzer22 is an upcoming game about factory building, process
 management, and carrot production, built with Rust using the Godot game engine!
@@ -172,8 +174,10 @@ is available [here][chaos-theory-src] and
 
 ### [Me And My Unicycle]
 
-![Me And My Unicycle screenshot](me_and_my_unicycle_cover.png)
-_Can you handle this unstable ride?_
+{{ image_figure(
+    alt="Me And My Unicycle screenshot"
+    src="me_and_my_unicycle_cover.png"
+    caption="Can you handle this unstable ride?") }}
 
 [Me And My Unicycle] is a 2D physics game by [@nikl_me] submitted to Ludum
 Dare 49. It is build with [Bevy] and [the code can be found on GitHub][mamu-source].
@@ -273,8 +277,10 @@ The developer have also written a blog post:
 
 ### [Graph Game]
 
-![image/gameplay of the game: circle and triangles](graph_game.gif)
-_Navigating the graph map can be stressful_
+{{ image_figure(
+    alt="image/gameplay of the game: circle and triangles"
+    src="graph_game.gif"
+    caption="Navigating the graph map can be stressful") }}
 
 [Graph Game] ([GitHub][graph-game-github])
 uses [Bevy](https://bevyengine.org/) as its engine. You can play it from your
@@ -323,8 +329,10 @@ You can stay up to date on the latest developments of Way of Rhea by
 
 ### [PaddlePunks][paddlepunks-itch]
 
-![Animated gameplay that looks like pong mixed with an anime fighting game](paddlepunks-gameplay.gif)
-_A round between a player and the AI set to Hard_
+{{ image_figure(
+    alt="Animated gameplay that looks like pong mixed with an anime fighting game"
+    src="paddlepunks-gameplay.gif"
+    caption="A round between a player and the AI set to Hard") }}
 
 PaddlePunks is a versus tennis game by [Felix Windström][paddlepunks-twitter]
 with a diverse cast of characters and playstyles and online play with rollback
@@ -342,8 +350,10 @@ players. Updates are also posted to [Twitter][paddlepunks-twitter].
 
 ### [Veloren][veloren]
 
-![An early-morning sunrise](veloren.jpg)
-_An early-morning sunrise_
+{{ image_figure(
+    alt="An early-morning sunrise"
+    src="veloren.jpg"
+    caption="An early-morning sunrise") }}
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.
@@ -441,8 +451,11 @@ For more details, see the [changelog][tetra-changelog].
 
 ### [GameDev Mini Symposium][gms-talk]
 
-[![An early-morning sunrise](gms-talk.png)][gms-talk]
-_Click the image to watch the talk_
+{{ image_figure(
+    alt="An early-morning sunrise"
+    src="gms-talk.png"
+    caption="Click the image to watch the talk",
+    link="https://www.youtube.com/watch?v=OzUsPi4kHes") }}
 
 Back in September, the University of Glasgow's GameLab held a 'GameDev Mini
 Symposium' online. One of the featured speakers was
@@ -487,8 +500,10 @@ or [GitHub][spv].
 
 ### [wgpu]-0.11 release
 
-![bevy webgl2 via wgpu](bevy-webgl2.png)
-_experimental Bevy branch running on WebGL2 via wgpu_
+{{ image_figure(
+    alt="bevy webgl2 via wgpu"
+    src="bevy-webgl2.png"
+    caption="experimental Bevy branch running on WebGL2 via wgpu") }}
 
 The team is happy to announce the release of wgpu-0.11 and naga-0.7.
 Details can be found on the [gfx-rs blog]. The most exciting feature
@@ -506,8 +521,10 @@ and the history of processing shaders with Rust.
 
 ### [rend3]-0.2 Release
 
-![rend3-scifi](rend3-scifi.jpg)
-_Improved shadows and rendering with rend3 0.2_
+{{ image_figure(
+    alt="rend3-scifi"
+    src="rend3-scifi.jpg"
+    caption="Improved shadows and rendering with rend3 0.2") }}
 
 rend3 is a 3D rendering library that focuses on having an easy to use interface
 without sacrificing performance or customizability.

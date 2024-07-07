@@ -62,8 +62,10 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ### [Veloren][veloren]
 
-![Landscape](veloren_river.png)
-_Deer by the riverside_
+{{ image_figure(
+    alt="Landscape"
+    src="veloren_river.png"
+    caption="Deer by the riverside") }}
 
 [Veloren][veloren] is an open world, open-source voxel RPG inspired by Dwarf
 Fortress and Cube World.
@@ -100,8 +102,10 @@ September's full weekly devlogs: "This Week In Veloren...":
 [#86](https://veloren.net/devblog-86),
 [#87](https://veloren.net/devblog-87).
 
-![Healing sceptre](veloren_night.png)
-_A reprise from hunting at night_
+{{ image_figure(
+    alt="Healing sceptre"
+    src="veloren_night.png"
+    caption="A reprise from hunting at night") }}
 
 In October, Veloren will keep pushing towards more scalable infrastructure.
 Tests are happening to move towards a Kubernetes cluster to manage more
@@ -205,8 +209,10 @@ hot-code reload of building rules in the running game.
 
 ### Recall Singularity
 
-![Demo of the basic ship collision](recall_singularity.png)
-_A ray-traced selection of modules_
+{{ image_figure(
+    alt="Demo of the basic ship collision"
+    src="recall_singularity.png"
+    caption="A ray-traced selection of modules") }}
 
 The Recall Singularity is a game about designing autonomous factory ships and
 stations created by [Tom Leys].
@@ -322,8 +328,10 @@ furnitures, collect coins, and fight lava/fire based enemies with your water gun
 
 ### [Zemeroth][zemeroth]
 
-![Summoner imps throw a swordsman around](zemeroth_chain.gif)
-_Be careful with chained reaction attacks!_
+{{ image_figure(
+    alt="Summoner imps throw a swordsman around"
+    src="zemeroth_chain.gif"
+    caption="Be careful with chained reaction attacks!") }}
 
 [Zemeroth][zemeroth] by [@ozkriff] is a minimalistic 2D turn-based tactical game.
 Some of the recent updates:
@@ -368,8 +376,10 @@ Full devlogs:
 
 ### [BUGOUT]
 
-![Play Go against AI and friends on the web](BUGOUT.jpg)
-_Playing KataGo AI in 9x9_
+{{ image_figure(
+    alt="Play Go against AI and friends on the web"
+    src="BUGOUT.jpg"
+    caption="Playing KataGo AI in 9x9") }}
 
 [BUGOUT] is a web application which allows you to play Go/Baduk/Weiqi
 against a leading AI ([KataGo]).
@@ -449,8 +459,10 @@ Both developers wrote about the work and their experiences developing space_shoo
 
 ### [So You Want to Live-Reload Rust][fasterthanlime-post]
 
-![cool bear with glasses](cool-bear.png)
-_Cool bear_
+{{ image_figure(
+    alt="cool bear with glasses"
+    src="cool-bear.png"
+    caption="Cool bear") }}
 
 [@fasterthanlime] published a giant blog post
 ["So you want to live-reload Rust"][fasterthanlime-post]
@@ -490,8 +502,10 @@ Also, the whole tutorial [was upgraded to WGPU v0.6][learn-wgpu-upgrade].
 
 ### [Is It Easy to Draw a Line?][Lines]
 
-![hexagonal strategy map with region borders](lines_hexstrat.jpeg)
-_Example of result chains._
+{{ image_figure(
+    alt="hexagonal strategy map with region borders"
+    src="lines_hexstrat.jpeg"
+    caption="Example of result chains.") }}
 
 A small note by [@VladZhukov0] about drawing lines and chains
 with signed distance fields.
@@ -566,8 +580,11 @@ The source code [can be found here][bevy-flappy-src].
 
 ### [Real-Time Global Illumination in WGPU][gi-post]
 
-[![diff-gi-gif](diff-gi.gif)][gi-post]
-_Infinite light bounces in Cornell Box_
+{{ image_figure(
+    alt="diff-gi-gif"
+    src="diff-gi.gif"
+    caption="Infinite light bounces in Cornell Box",
+    link="https://reddit.com/r/rust_gamedev/comments/ixocl2/real_time_diffuse_global_illumination") }}
 
 [DI2edd] shared his [real-time diffuse global illumination demo on /r/rust_gamedev][gi-post].
 It's written in 100% Rust and uses WGPU for graphics, proving that the API
@@ -864,8 +881,11 @@ The book should be going into early access/beta in time for the next newsletter.
 
 ### [macroquad]
 
-[![quadgames](quadgames.gif)][sponsors]
-_Games built with miniquad/macroquad._
+{{ image_figure(
+    alt="quadgames"
+    src="quadgames.gif"
+    caption="Games built with miniquad/macroquad.",
+    link="https://github.com/sponsors/not-fl3") }}
 
 [macroquad] by [@fedor_games] is a cross-platform
 (Windows/Linux/macOS/Android/iOS/WASM)
@@ -991,8 +1011,11 @@ _Discussions:
 
 ### [rg3d][rg3d]
 
-[![a scene with lightning and a hi-poly character model](rg3d.jpg)][rg3d_twitter]
-_Click to watch a [video demo of one of the new examples][rg3d_twit]._
+{{ image_figure(
+    alt="a scene with lightning and a hi-poly character model"
+    src="rg3d.jpg"
+    caption="Click to watch a [video demo of one of the new examples](https://twitter.com/DmitryS36934349/status/1312836831390687232).",
+    link="https://twitter.com/DmitryS36934349") }}
 
 [rg3d] is a game engine that aims to be easy to use and provide large set
 of out-of-box features. Some of the recent updates:
