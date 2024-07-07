@@ -83,7 +83,7 @@ _Discussions: [/r/rust_gamedev](link), [Twitter](link), [etc](link)_
 
 OR
 
-{{ embed_video(type="video/mp4", src="my-video.mp4", caption="optional video caption") }}
+{{ video_figure(type="video/mp4", src="my-video.mp4", caption="optional video caption") }}
 
 [@nickname] published an [article] about...
 {overview what the resource is about}.
@@ -113,7 +113,7 @@ _Discussions: [/r/rust_gamedev](link), [Twitter](link), [etc](link)_
   - Unless essential to demonstrating your project, prefer static images
     over GIFs/videos, to keep the file size down.
   - To include a video, encode it as `H.264` in an `mp4` container and use
-    the `embed_video()` shortcode; videos autoplay in a loop (muted).
+    the `video_figure()` shortcode; videos autoplay in a loop (muted).
 - Use singular 'they' if you’re not sure what someone's pronouns are.
 - If a project has been featured in previous newsletters, try to focus on
   what's new rather than repeating previous content.

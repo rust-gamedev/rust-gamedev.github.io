@@ -104,7 +104,7 @@ but here are the most important rules:
   - The image should come before the text, and must have alt text for accessibility.
   - Prefer static images to GIFs/videos, to keep the page load times down.
   - To include a video, encode it as `H.264` in an `mp4` container and use
-    the `embed_video()` shortcode; videos autoplay in a loop (muted).
+    the `video_figure()` shortcode; videos autoplay in a loop (muted).
 - Each section should be under 1000 characters, and under 6 paragraphs.
   - This only applies to the rendered text, not the markup.
 - Keep formatting minimal - no bold/italics/etc.
@@ -124,7 +124,7 @@ Please use these templates as a starting point:
 
 OR
 
-{{ embed_video(type="video/mp4", src="my-video.mp4", caption="optional video caption") }}
+{{ video_figure(type="video/mp4", src="my-video.mp4", caption="optional video caption") }}
 
 [Game name] ([GitHub], [Discord], [Twitter]) by [@nickname]
 is... {short project description in one sentence}.
@@ -148,7 +148,7 @@ _Discussions: [/r/rust_gamedev](link), [Twitter](link), [etc](link)_
 
 OR
 
-{{ embed_video(type="video/mp4", src="my-video.mp4", caption="optional video caption") }}
+{{ video_figure(type="video/mp4", src="my-video.mp4", caption="optional video caption") }}
 
 [@nickname] published an [article] about...
 {overview what the resource is about}.
