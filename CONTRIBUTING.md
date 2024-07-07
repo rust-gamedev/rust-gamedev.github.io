@@ -57,9 +57,16 @@ your GitHub notifications for any further review comments from the editors.
 ### [Game name]
 
 {{ image_figure(
-    alt="alt text"
-    src="img"
-    caption="optional image label") }}
+    alt="image/GIF description",
+    src="image link",
+    caption="image caption") }}
+
+OR
+
+{{ video_figure(
+    type="video/mp4", 
+    src="my-video.mp4", 
+    caption="optional video caption") }}
 
 [Game name] ([GitHub], [Discord], [Twitter]) by [@nickname]
 is... {short project description in one sentence}.
@@ -77,13 +84,16 @@ _Discussions: [/r/rust_gamedev](link), [Twitter](link), [etc](link)_
 ### [Article name]
 
 {{ image_figure(
-    alt="alt text"
-    src="img"
-    caption="optional image label") }}
+    alt="image/GIF description",
+    src="image link",
+    caption="image caption") }}
 
 OR
 
-{{ video_figure(type="video/mp4", src="my-video.mp4", caption="optional video caption") }}
+{{ video_figure(
+    type="video/mp4", 
+    src="my-video.mp4", 
+    caption="optional video caption") }}
 
 [@nickname] published an [article] about...
 {overview what the resource is about}.

@@ -51,9 +51,16 @@ Ideal section structure is:
 ### [Title]
 
 {{ image_figure(
-    alt="image/GIF description"
-    src="image link"
+    alt="image/GIF description",
+    src="image link",
     caption="image caption") }}
+
+OR
+
+{{ video_figure(
+    type="video/mp4", 
+    src="my-video.mp4", 
+    caption="optional video caption") }}
 
 A paragraph or two with a summary and [useful links].
 
@@ -77,8 +84,8 @@ If needed, a section can be split into subsections with a "------" delimiter.
 ### [Chuột][chuot-website]
 
 {{ image_figure(
-    alt="Bunnymark example"
-    src="chuot.png"
+    alt="Bunnymark example",
+    src="chuot.png",
     caption="[Bunnymark example](https://tversteeg.nl/chuot/examples/bunnymark/)") }}
 
 Chuột ([Website][chuot-website], [GitHub][chuot-github]) by [@tversteeg]

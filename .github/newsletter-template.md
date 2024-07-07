@@ -51,13 +51,16 @@ Ideal section structure is:
 ### [Title]
 
 {{ image_figure(
-    alt="image/GIF description"
-    src="image link"
+    alt="image/GIF description",
+    src="image link",
     caption="image caption") }}
 
 OR
 
-{{ video_figure(type="video/mp4", src="my-video.mp4", caption="optional video caption") }}
+{{ video_figure(
+    type="video/mp4", 
+    src="my-video.mp4", 
+    caption="optional video caption") }}
 
 A paragraph or two with a summary and [useful links].
 
