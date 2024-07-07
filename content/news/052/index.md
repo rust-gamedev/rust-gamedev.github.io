@@ -82,7 +82,10 @@ We will switch this to an actual @gamedev.rs address in the future. Please tell 
 
 ### [Untitled Pixel Wizards Game][pixel-wizards]
 
-{{ embed_video(type="video/mp4", src="untitled-pixel-wizards-game.mp4", caption="Enemies now perceive, pursue, and attack... and occasionally get burned to death.") }}
+{{ embed_video(
+    type="video/mp4", 
+    src="untitled-pixel-wizards-game.mp4", 
+    caption="Enemies now perceive, pursue, and attack... and occasionally get burned to death.") }}
 
 [Untitled Pixel Wizards Game][pixel-wizards] is a local-multiplayer [Noita]-like platformer about
 killing baddies using spells powered by pixel physics. This month was focused on juicing up said baddies:
