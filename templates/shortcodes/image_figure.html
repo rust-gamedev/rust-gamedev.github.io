@@ -1,3 +1,14 @@
+{% if src != "image link" %}
+    {# Only validate against placeholders if we're not in the example #}
+    {% if alt == "image/GIF description" %}
+        {{ throw(message="Don't forget to write your own image description :)") }}
+    {% endif %}
+
+    {% if caption and caption == "image caption" %}
+        {{ throw(message="Don't forget to write your own image caption ^^") }}
+    {% endif %}
+{% endif %}
+
 <figure>
     {% if link %}<a href="{{link}}">{% endif %}
     <img src="{{get_url(path=page.colocated_path ~ src)}}" alt="{{alt}}">
