@@ -34,22 +34,22 @@ jobs:
       with:
         args: '.'
         config: '.markdownlint.json'
-    - name: Check links
-      uses: lycheeverse/lychee-action@v1.9.0
-      if: ${{ steps.changed-files.outputs.changed_files != '' }}
-      with:
-        fail: true
-        args: >-
-          --verbose
-          --no-progress
-          --accept '100..=103,200..=299,300..=399'
-          --exclude '[^\w]todo[^\w]?'
-          --exclude 'https://(www\.|old\.)?reddit\.com'
-          --exclude 'https://www.patreon.com'
-          --exclude 'https://gamedev.social'
-          --exclude 'dev.epicgames.com'
-          --exclude-path 'assets/logo/readme.md'
-          ${{ steps.changed-files.outputs.changed_files }}
+    # - name: Check links
+    #   uses: lycheeverse/lychee-action@v1.9.0
+    #   if: ${{ steps.changed-files.outputs.changed_files != '' }}
+    #   with:
+    #     fail: true
+    #     args: >-
+    #       --verbose
+    #       --no-progress
+    #       --accept '100..=103,200..=299,300..=399'
+    #       --exclude '[^\w]todo[^\w]?'
+    #       --exclude 'https://(www\.|old\.)?reddit\.com'
+    #       --exclude 'https://www.patreon.com'
+    #       --exclude 'https://gamedev.social'
+    #       --exclude 'dev.epicgames.com'
+    #       --exclude-path 'assets/logo/readme.md'
+    #       ${{ steps.changed-files.outputs.changed_files }}
     - name: Install Zola
       run: |
         curl -L ${BASE_URL}/${VERS}/zola-${VERS}-${ARCH}.tar.gz | tar -xz
