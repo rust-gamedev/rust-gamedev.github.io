@@ -55,6 +55,10 @@ Ideal section structure is:
     src="image link"
     caption="image caption") }}
 
+OR
+
+{{ embed_video(type="video/mp4", src="my-video.mp4", caption="optional video caption") }}
+
 A paragraph or two with a summary and [useful links].
 
 _Discussions:
