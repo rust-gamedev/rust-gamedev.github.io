@@ -1,3 +1,32 @@
+<!-- {#
+    Displays an image with a legend.
+
+    Example usage:
+        {{ image_figure(
+            alt="image/GIF description"
+            src="image link"
+            caption="image caption") }}
+    
+    Note that the caption can contain markdown:
+        {{ image_figure(
+            alt="image/GIF description"
+            src="image link"
+            caption="image caption with some **strong** text") }}
+
+    But careful! Link references don't work:
+        This doesn't work: 
+            {{ image_figure(
+                alt="image/GIF description"
+                src="image link"
+                caption="[image caption][link]") }}
+            [link]: https://example.com
+        Use this instead:
+            {{ image_figure(
+                alt="image/GIF description"
+                src="image link"
+                caption="[image caption](https://example.com)") }}
+#} -->
+
 {% if src != "image link" %}
     {# Only validate against placeholders if we're not in the example #}
     {% if alt == "image/GIF description" %}
