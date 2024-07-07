@@ -1,9 +1,9 @@
-<!-- {#
+{# <!--
 Embed a video into a markdown file. Example usage:
 
     {{ embed_video(type="video/mp4", src="my-video.mp4", caption="Some caption.") }}
 
-#} -->
+--> #}
 <figure>
     <video controls autoplay muted loop>
         <source type="{{ type }}" src="{{ get_url(path=page.colocated_path ~ src)}}" />
