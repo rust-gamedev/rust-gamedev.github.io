@@ -1,7 +1,186 @@
-// Some of the default colors do not meet the WCAG 2.0 accessibility
-// guidelines for contrast.
-$grey-color: #595959; 
-$brand-color: #06C;
+@import '_reset.scss';
+@import '_palette.scss';
 
-@import "minima";
-@import "extra";
+:root {
+    --block-gap: 1rem;
+    --section-gap: 2.4rem;
+    --box-rounding: 1rem;
+    --content-padding: 2rem; // This padding has to make room for the anchor links
+}
+
+:root {
+    font-size: 1.125em;
+    line-height: 1.5;
+    font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
+    accent-color: var(--accent-color);
+    color-scheme: light dark;
+    -webkit-text-size-adjust: none; // Stop iOS Safari from adjusting the font size in landscape.
+    color: var(--text-color);
+    background-color: var(--bg-0-color);
+
+    @media (prefers-reduced-motion: no-preference) {
+        scroll-behavior: smooth;
+    }
+}
+
+::selection {
+    // TODO: use relative color syntax for min/max lightness in oklab
+    color: color-mix(in oklab, var(--accent-color), #000 80%);
+    background-color: color-mix(in oklab, var(--accent-color), #fff 80%);
+
+    @media (prefers-color-scheme: dark) {
+        color: color-mix(in oklab, var(--accent-color), #fff 90%);
+        background-color: color-mix(in oklab, var(--accent-color), #000 40%);
+    }
+}
+
+@import '_typography.scss';
+@import '_form.scss';
+@import '_post-content.scss';
+
+body {
+    display: grid;
+    grid-template-columns: 1fr minmax(auto, 50em) 1fr;
+}
+
+.skip-link {
+    --skip-link-offset: 0.5rem;
+    position: absolute;
+    top: var(--skip-link-offset);
+    left: var(--skip-link-offset);
+    background-color: color-mix(in oklab, var(--accent-color), var(--background-color) 90%);
+    padding: .5em 1em;
+    border-radius: .5em;
+
+    &:not(:focus) {
+        transform: translateY(calc(-100% - var(--skip-link-offset)));
+    }
+}
+
+.site-header {
+    display: grid;
+    grid-template-columns: subgrid;
+    grid-column: 1 / 4;
+    border-bottom: 2px solid var(--border-color);
+    margin-bottom: var(--section-gap);
+
+    > .wrapper {
+        grid-column: 2;
+        padding: .5rem var(--content-padding);
+    }
+}
+
+.site-title {
+    --fg-color: var(--text-color);
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+
+.page-content {
+    grid-column: 2;
+}
+
+main {
+    padding: 0 var(--content-padding);
+}
+
+footer {
+    grid-column: 1 / 4;
+}
+
+pre, img, video {
+    border-radius: var(--box-rounding);
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    a {
+        display: contents; // TODO: remove and enable minify_html instead
+    }
+
+    figcaption {
+        margin-top: calc(0.5 * var(--block-gap));
+        font-size: 0.8em;
+        font-style: italic;
+    }
+}
+
+footer {
+    margin-top: 4rem;
+    background-color: var(--bg-1-color);
+    position: relative;
+    padding-top: 1.5em; // TODO: variable / share with ferris icon
+    
+    &:before {
+        position: absolute;
+        top: -0.8em;
+        left: calc(50% - 1.125em);
+        content: "";
+        display: inline-block;
+        height: 1.5em;
+        aspect-ratio: 1.5;
+        background-color: color-mix(in oklab, var(--accent-color), currentColor 20%);
+        mask-image: url(/8bit-ferris.svg);
+        mask-size: contain;
+    }
+
+    @media (prefers-contrast: no-preference) and (hover: hover) {
+        transition: opacity 125ms;
+
+        &:not(:focus-within):not(:hover) {
+            opacity: .4;
+        }
+    }
+}
+
+.svg-icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+}
+
+.anchor {
+    @media (prefers-contrast: no-preference) and (hover: hover) {
+        transition: opacity 125ms;
+        &:not(:focus):not(:hover) {
+            opacity: .1;
+        }
+    }
+}
+
+.social-links {
+    list-style: none;
+    padding-inline-start: 0; // TODO: only style lists in content
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 0.2em 1.5em;
+}
+
+.site-footer {
+    font-size: .9em;
+    --block-gap: .5rem;
+
+    .wrapper {
+        padding: 1rem 2rem; // TODO: put in a variable
+        max-width: 35rem; // TODO: variable
+        margin: auto;
+    }
+
+    p {
+        margin-bottom: var(--block-gap);
+    }
+}
+
+.footnote-definition {
+    --block-gap: .5rem;
+    margin-top: var(--section-gap);
+}
+
+.footnote-definition + .footnote-definition {
+    margin-top: 0;
+}

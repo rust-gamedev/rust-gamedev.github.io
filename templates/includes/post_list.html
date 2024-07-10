@@ -10,7 +10,9 @@
                     </h3>
                     {% if post.date %}
                         {% set date_format = config.extra.date_format | default(value="%b %-d, %Y") %}
-                        <span class="post-meta">{{ post.date | date(format=date_format) }}</span>
+                        <time datetime="{{ post.date | date(format='%+') }}" class="post-meta">
+                            {{ post.date | date(format=date_format) }}
+                        </time>
                     {% endif %}
 
                     {% if config.extra.posts.show_summaries %}

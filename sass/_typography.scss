@@ -1,0 +1,150 @@
+// Basic styling rules that apply everywhere (even outside articles).
+// This notably excludes layout things (e.g. spacing between elements).
+
+h1, h2, h3, h4 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+:is(h1, h2, h3, h4):has(.anchor) {
+    position: relative;
+
+    .anchor {
+        position: absolute;
+        transform: translateX(-100%) translateX(-0.5ch);
+    }
+}
+
+a {
+    color: var(--fg-color);
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+pre {
+    padding: 1em;
+}
+
+hr {
+    background-image: linear-gradient(currentColor, currentColor), linear-gradient(currentColor, currentColor);
+    background-position: calc(50% - 2.5em) 50%, calc(50% + 2.5em) 50%;
+    background-size: 2em 2px, 2em 2px;
+    background-repeat: no-repeat;
+
+    &::before {
+        content: "";
+        margin: auto;
+        display: block;
+        height: 1em;
+        aspect-ratio: 1.5;
+        background-color: currentColor;
+        mask-image: url(/8bit-ferris.svg);
+        mask-size: contain;
+    }
+}
+
+time {
+    font-variant-numeric: tabular-nums slashed-zero;
+}
+
+code {
+    font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+}
+
+sup {
+    font-variant-position: super;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+img, video {
+    max-width: 100%;
+}
+
+ul {
+    padding-inline-start: 1.5ch;
+}
+
+ol {
+    padding-inline-start: 2ch;
+}
+
+blockquote {
+    font-style: italic;
+    background-color: var(--bg-1-color);
+    padding: var(--block-gap);
+    border-left: 4px solid var(--border-color);
+}
+
+table {
+    border-collapse: collapse;
+    font-variant-numeric: tabular-nums;
+    overflow: hidden;
+
+    // border-radius and border-collapse: collapse don't
+    // work together, so we fake the border using box shadow
+    border-radius: var(--box-rounding);
+    border-style: hidden;
+    box-shadow: 0 0 0 1px var(--border-color);
+
+    tr:first-child :is(td, th):first-child {
+        border-top-left-radius: var(--box-rounding);
+    }
+}
+
+td, th {
+    border: 1px solid var(--border-color);
+    padding: 6px 12px;
+}
+
+th {
+    font-weight: 700;
+}
+
+tr:nth-child(2n) td {
+    background-color: var(--bg-1-color);
+}
+
+.footnote-definition {
+    font-size: .8em;
+
+    &::before {
+        content: '';
+        border-top: 2px solid var(--border-color);
+        display: block;
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: var(--block-gap);
+    }
+
+    & > sup {
+        float: left;
+        margin-right: 1ch;
+    }
+}
+
+.footnote-definition + .footnote-definition {
+    &::before {
+        content: none;
+    }
+}
