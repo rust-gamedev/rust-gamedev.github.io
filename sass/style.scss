@@ -40,7 +40,7 @@
 
 body {
     display: grid;
-    grid-template-columns: 1fr minmax(auto, 50em) 1fr;
+    grid-template-columns: 1fr minmax(0, 50em) 1fr;
 }
 
 .skip-link {
@@ -159,6 +159,10 @@ footer {
     display: grid;
     grid-template-columns: repeat(2, auto);
     gap: 0.2em 1.5em;
+
+    @media (width <= 35rem) {
+        grid-template-columns: auto;
+    }
 }
 
 .site-footer {
