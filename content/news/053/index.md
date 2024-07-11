@@ -121,6 +121,19 @@ _Check out the [web examples][chuot-examples]!_
 
 ## Library Updates
 
+### Godot-Rapier: Rewrite it in Rust
+
+Godot-Rapier is a Physics library for Godot, using Rapier,
+a physics engine written in Rust.
+
+Godot-Rapier was written in C++, and is in the final stage of
+being rewritten completely in Rust. Its author wrote [an article on
+Reddit](https://www.reddit.com/r/godot/comments/1dtoufn/rewriting_godots_physics_server_in_rust/) with more details.
+
+Additionally, Godot-Rapier's website was adopted on rapier
+domain at
+https://godot.rapier.rs/.
+
 ## Popular Workgroup Issues in GitHub
 
 <!-- Up to 10 links to interesting issues -->
