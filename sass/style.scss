@@ -125,7 +125,7 @@ footer {
         height: 1.5em;
         aspect-ratio: 1.5;
         background-color: color-mix(in oklab, var(--accent-color), currentColor 20%);
-        mask-image: url(/8bit-ferris.svg);
+        mask-image: url(./8bit-ferris.svg);
         mask-size: contain;
     }
 
