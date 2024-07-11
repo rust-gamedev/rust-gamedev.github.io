@@ -63,6 +63,10 @@ time {
 
 code {
     font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+    
+    // We don't want long identifiers such as 'package.metadata.playdate.options' 
+    // introducing a scroll bar on small screens.
+    overflow-wrap: break-word; 
 }
 
 sup {
