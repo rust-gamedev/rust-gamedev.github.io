@@ -65,18 +65,11 @@ body {
     display: flex;
     align-items: center;
     gap: .5em;
-}
-
-.page-content {
-    grid-column: 2;
+    max-width: max-content;
 }
 
 main {
     padding: 0 var(--content-padding);
-}
-
-footer {
-    grid-column: 1 / 4;
 }
 
 pre, img, video {
@@ -99,33 +92,6 @@ figure {
     }
 }
 
-footer {
-    // margin-top: 4rem;
-    position: relative;
-    padding-top: 1.5em; // TODO: variable / share with ferris icon
-
-    &:before {
-        position: absolute;
-        top: -0.8em;
-        left: calc(50% - 1.125em);
-        content: "";
-        display: inline-block;
-        height: 1.5em;
-        aspect-ratio: var(--ferris-aspect-ratio);
-        background-color: color-mix(in oklab, var(--accent-color), currentColor 20%);
-        mask-image: var(--ferris-image);
-        mask-size: contain;
-    }
-
-    @media (prefers-contrast: no-preference) and (hover: hover) {
-        transition: opacity 125ms;
-
-        &:not(:focus-within):not(:hover) {
-            opacity: .4;
-        }
-    }
-}
-
 .svg-icon {
     width: 1em;
     height: 1em;
@@ -144,18 +110,3 @@ footer {
     }
 }
 
-.site-footer {
-    background-color: var(--bg-1-color);
-    font-size: .9em;
-    --block-gap: .5rem;
-
-    .wrapper {
-        padding: 1rem 2rem; // TODO: put in a variable
-        max-width: 35rem; // TODO: variable
-        margin: auto;
-    }
-
-    p {
-        margin-bottom: var(--block-gap);
-    }
-}
