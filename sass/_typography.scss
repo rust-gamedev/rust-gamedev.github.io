@@ -3,6 +3,20 @@
 
 h1, h2, h3, h4 {
     font-weight: bold;
+    text-wrap: balance;
+    text-wrap: pretty; // relatively new, so we have balance as fallback.
+
+    .anchor {
+        margin-right: 0.5ch;
+
+        @media (prefers-contrast: no-preference) and (hover: hover) {
+            transition: opacity 125ms;
+
+            &:not(:focus):not(:hover) {
+                opacity: .1;
+            }
+        }
+    }
 }
 
 h1 {
@@ -15,15 +29,6 @@ h2 {
 
 h3 {
     font-size: 1.2em;
-}
-
-:is(h1, h2, h3, h4):has(.anchor) {
-    position: relative;
-
-    .anchor {
-        position: absolute;
-        transform: translateX(-100%) translateX(-0.5ch);
-    }
 }
 
 a {
@@ -40,19 +45,26 @@ pre {
 }
 
 hr {
+    --ferris-height: 1em;
+    --ferris-width: calc(var(--ferris-height) * var(--ferris-aspect-ratio));
+    --line-width: 2em;
+    --line-thickness: 2px;
+    --line-gap: 1em;
+    --line-offset: calc(var(--ferris-width) + var(--line-gap));
+
     background-image: linear-gradient(currentColor, currentColor), linear-gradient(currentColor, currentColor);
-    background-position: calc(50% - 2.5em) 50%, calc(50% + 2.5em) 50%;
-    background-size: 2em 2px, 2em 2px;
+    background-position: calc(50% - var(--line-offset)) 50%, calc(50% + var(--line-offset)) 50%;
+    background-size: var(--line-width) var(--line-thickness), var(--line-width) var(--line-thickness);
     background-repeat: no-repeat;
 
     &::before {
         content: "";
         margin: auto;
         display: block;
-        height: 1em;
-        aspect-ratio: 1.5;
+        height: var(--ferris-height);
+        aspect-ratio: var(--ferris-aspect-ratio);
         background-color: currentColor;
-        mask-image: url(./8bit-ferris.svg);
+        mask-image: var(--ferris-image);
         mask-size: contain;
     }
 }
@@ -63,26 +75,10 @@ time {
 
 code {
     font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
-    
-    // We don't want long identifiers such as 'package.metadata.playdate.options' 
+
+    // We don't want long identifiers such as 'package.metadata.playdate.options'
     // introducing a scroll bar on small screens.
-    overflow-wrap: break-word; 
-}
-
-sup {
-    font-variant-position: super;
-}
-
-strong {
-    font-weight: bold;
-}
-
-em {
-    font-style: italic;
-}
-
-img, video {
-    max-width: 100%;
+    overflow-wrap: break-word;
 }
 
 ul {
@@ -119,10 +115,6 @@ table {
 td, th {
     border: 1px solid var(--border-color);
     padding: 6px 12px;
-}
-
-th {
-    font-weight: 700;
 }
 
 tr:nth-child(2n) td {

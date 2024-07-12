@@ -1,0 +1,20 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr minmax(0, $content-max-width) 1fr;
+    grid-row-gap: var(--section-gap);
+}
+
+.site-header {
+    border-bottom: 2px solid var(--border-color);
+}
+
+.site-header {
+    grid-column: 1 / 4;
+    display: grid;
+    grid-template-columns: subgrid;
+
+    > .wrapper {
+        grid-column: 2;
+        padding: .5rem var(--content-padding);
+    }
+}

@@ -1,20 +1,21 @@
 @import '_reset.scss';
 @import '_palette.scss';
 
+$content-max-width: 50rem;
+
 :root {
     --block-gap: 1rem;
     --section-gap: 2.4rem;
     --box-rounding: 1rem;
-    --content-padding: 2rem; // This padding has to make room for the anchor links
+    --content-padding: 1rem;
+    --ferris-image: url(./8bit-ferris.svg);
+    --ferris-aspect-ratio: 1.5;
 }
 
 :root {
-    font-size: 1.125em;
-    line-height: 1.5;
     font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
     accent-color: var(--accent-color);
     color-scheme: light dark;
-    -webkit-text-size-adjust: none; // Stop iOS Safari from adjusting the font size in landscape.
     color: var(--text-color);
     background-color: var(--bg-0-color);
 
@@ -35,12 +36,13 @@
 }
 
 @import '_typography.scss';
-@import '_form.scss';
+@import '_layout.scss';
 @import '_post-content.scss';
+@import '_form.scss';
 
 body {
     display: grid;
-    grid-template-columns: 1fr minmax(0, 50em) 1fr;
+    grid-template-columns: 1fr minmax(0, $content-max-width) 1fr;
 }
 
 .skip-link {
@@ -54,19 +56,6 @@ body {
 
     &:not(:focus) {
         transform: translateY(calc(-100% - var(--skip-link-offset)));
-    }
-}
-
-.site-header {
-    display: grid;
-    grid-template-columns: subgrid;
-    grid-column: 1 / 4;
-    border-bottom: 2px solid var(--border-color);
-    margin-bottom: var(--section-gap);
-
-    > .wrapper {
-        grid-column: 2;
-        padding: .5rem var(--content-padding);
     }
 }
 
@@ -111,11 +100,10 @@ figure {
 }
 
 footer {
-    margin-top: 4rem;
-    background-color: var(--bg-1-color);
+    // margin-top: 4rem;
     position: relative;
     padding-top: 1.5em; // TODO: variable / share with ferris icon
-    
+
     &:before {
         position: absolute;
         top: -0.8em;
@@ -123,9 +111,9 @@ footer {
         content: "";
         display: inline-block;
         height: 1.5em;
-        aspect-ratio: 1.5;
+        aspect-ratio: var(--ferris-aspect-ratio);
         background-color: color-mix(in oklab, var(--accent-color), currentColor 20%);
-        mask-image: url(./8bit-ferris.svg);
+        mask-image: var(--ferris-image);
         mask-size: contain;
     }
 
@@ -144,15 +132,6 @@ footer {
     vertical-align: middle;
 }
 
-.anchor {
-    @media (prefers-contrast: no-preference) and (hover: hover) {
-        transition: opacity 125ms;
-        &:not(:focus):not(:hover) {
-            opacity: .1;
-        }
-    }
-}
-
 .social-links {
     list-style: none;
     padding-inline-start: 0; // TODO: only style lists in content
@@ -166,6 +145,7 @@ footer {
 }
 
 .site-footer {
+    background-color: var(--bg-1-color);
     font-size: .9em;
     --block-gap: .5rem;
 
@@ -178,13 +158,4 @@ footer {
     p {
         margin-bottom: var(--block-gap);
     }
-}
-
-.footnote-definition {
-    --block-gap: .5rem;
-    margin-top: var(--section-gap);
-}
-
-.footnote-definition + .footnote-definition {
-    margin-top: 0;
 }

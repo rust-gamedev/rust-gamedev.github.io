@@ -4,3 +4,6 @@ indent_style = space
 
 [anchor-link.html]
 insert_final_newline = false
+
+[*.scss]
+trim_trailing_whitespace = true
