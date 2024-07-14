@@ -121,18 +121,32 @@ _Check out the [web examples][chuot-examples]!_
 
 ## Library Updates
 
-### Godot-Rapier: Rewrite it in Rust
+### Godot Rapier: Rewrite it in Rust
 
-Godot-Rapier is a Physics library for Godot, using Rapier,
+{{ video_figure(
+    type="video/mp4",
+    alt="Godot + Rapier logo make up the 'Godot Rapier' logo ; a few balls fall on it, showing off soft physics.",
+    src="godot_rapier.mp4",
+    caption="Godot Rapier showcase") }}
+
+[Godot Rapier][godot_rapier_github] is a Physics library for [Godot][godot], using [Rapier][rapier]:
 a physics engine written in Rust.
 
-Godot-Rapier was written in C++, and is in the final stage of
-being rewritten completely in Rust. Its author wrote [an article on
-Reddit](https://www.reddit.com/r/godot/comments/1dtoufn/rewriting_godots_physics_server_in_rust/) with more details.
+Godot Rapier was written in C++, and is in the final "beta" stage of
+being rewritten completely in Rust.
 
-Additionally, Godot-Rapier's website was adopted on rapier
+Its author wrote [an article on
+Reddit][godot_rapier_reddit] with more details. Since then,
+the web exports have been fixed.
+
+Additionally, Godot Rapier's website was adopted on rapier
 domain at
-https://godot.rapier.rs/.
+[https://godot.rapier.rs/](https://godot.rapier.rs/).
+
+[rapier]: https://rapier.rs/
+[godot_rapier_github]: https://github.com/appsinacup/godot-rapier-physics
+[godot_rapier_reddit]: https://www.reddit.com/r/godot/comments/1dtoufn/rewriting_godots_physics_server_in_rust/
+[godot]: https://godotengine.org/
 
 ## Popular Workgroup Issues in GitHub
 
