@@ -57,7 +57,7 @@ jobs:
     - name: Zola build
       run: ./zola build
     - name: Upload GitHub Pages artifact
-      uses: actions/upload-pages-artifact@v1
+      uses: actions/upload-pages-artifact@v3
       with:
         path: public
   
