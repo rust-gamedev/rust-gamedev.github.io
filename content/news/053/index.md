@@ -129,7 +129,8 @@ _Check out the [web examples][chuot-examples]!_
     src="godot_rapier.mp4",
     caption="Godot Rapier showcase") }}
 
-[Godot Rapier][godot_rapier_github] is a Physics library for [Godot][godot], using [Rapier][rapier]:
+[Godot Rapier][godot_rapier_github] written by [@Ughuuu](https://github.com/Ughuuu)
+is a Physics Plugin for [Godot][godot], using [Rapier][rapier]:
 a physics engine written in Rust.
 
 Godot Rapier was written in C++, and is in the final "beta" stage of
@@ -137,7 +138,8 @@ being rewritten completely in Rust.
 
 Its author wrote [an article on
 Reddit][godot_rapier_reddit] with more details. Since then,
-the web exports have been fixed.
+the web exports have been fixed,
+read more about this on the [Rapier Godot Progress](https://godot.rapier.rs/docs/progress) page.
 
 Additionally, Godot Rapier's website was adopted on rapier
 domain at
