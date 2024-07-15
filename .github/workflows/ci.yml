@@ -16,8 +16,29 @@ jobs:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
     - uses: actions/checkout@v4
+    - name: Lint
+      uses: avto-dev/markdown-lint@v1
       with:
-          fetch-depth: ${{ github.event_name == 'pull_request' && 2 || 0 }}
+        args: '.'
+        config: '.markdownlint.json'
+    - name: Install Zola
+      run: |
+        curl -L ${BASE_URL}/${VERS}/zola-${VERS}-${ARCH}.tar.gz | tar -xz
+        echo "Zola version: $(./zola --version)"
+    - name: Zola build
+      run: ./zola build
+    - name: Upload GitHub Pages artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: public
+
+  links:
+    name: Check for Broken Links
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: ${{ github.event_name == 'pull_request' && 2 || 0 }}
     - name: Get changed files
       id: changed-files
       # source: https://stackoverflow.com/a/74268200, added filtering for markdown files
@@ -29,11 +50,6 @@ jobs:
         fi
         echo "changed_files: $changed_files"
         echo "changed_files=$changed_files" >> $GITHUB_OUTPUT
-    - name: Lint
-      uses: avto-dev/markdown-lint@v1
-      with:
-        args: '.'
-        config: '.markdownlint.json'
     - name: Check links
       uses: lycheeverse/lychee-action@v1.9.0
       if: ${{ steps.changed-files.outputs.changed_files != '' }}
@@ -50,17 +66,7 @@ jobs:
           --exclude 'dev.epicgames.com'
           --exclude-path 'assets/logo/readme.md'
           ${{ steps.changed-files.outputs.changed_files }}
-    - name: Install Zola
-      run: |
-        curl -L ${BASE_URL}/${VERS}/zola-${VERS}-${ARCH}.tar.gz | tar -xz
-        echo "Zola version: $(./zola --version)"
-    - name: Zola build
-      run: ./zola build
-    - name: Upload GitHub Pages artifact
-      uses: actions/upload-pages-artifact@v3
-      with:
-        path: public
-  
+
   pages:
     needs: zola
     permissions:
