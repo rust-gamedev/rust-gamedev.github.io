@@ -5,18 +5,10 @@ h1, h2, h3, h4 {
     font-weight: bold;
     text-wrap: balance;
     text-wrap: pretty; // relatively new, so we have balance as fallback.
+    position: relative;
 
-    .anchor {
-        margin-right: 0.5ch;
-
-        @media (prefers-contrast: no-preference) and (hover: hover) {
-            transition: opacity 125ms;
-
-            &:not(:focus):not(:hover) {
-                opacity: .1;
-            }
-        }
-    }
+    @include has-anchor;
+    @include has-anchor-right;
 }
 
 h1 {

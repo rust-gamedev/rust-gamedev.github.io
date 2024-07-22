@@ -35,6 +35,7 @@ $content-max-width: 50rem;
     }
 }
 
+@import '_anchor.scss';
 @import '_typography.scss';
 @import '_layout.scss';
 @import '_post-content.scss';

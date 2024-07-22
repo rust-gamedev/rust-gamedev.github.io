@@ -45,9 +45,8 @@
     // We only want the anchor hanging off to the left side
     // if there's enough room available.
     @media (width > ($content-max-width + 2rem)) {
-        :is(h1, h2, h3, h4) .anchor {
-            position: absolute;
-            transform: translateX(-100%) translateX(-0.5ch);
+        :is(h1, h2, h3, h4) {
+            @include has-anchor-left;
         }
     }
 }
