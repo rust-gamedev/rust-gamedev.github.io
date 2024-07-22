@@ -81,6 +81,11 @@ ol {
     padding-inline-start: 2ch;
 }
 
+:is(ul, ol)._semantic {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
 blockquote {
     font-style: italic;
     background-color: var(--bg-1-color);
