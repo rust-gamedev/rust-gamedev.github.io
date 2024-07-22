@@ -97,7 +97,13 @@ figure {
 .svg-icon {
     width: 1em;
     height: 1em;
-    vertical-align: middle;
+    // See: https://tonsky.me/blog/centering/#what-can-be-done-web-developers
+    // > [...] Now that we have that sorted, aligning icons is not that hard too.
+    // > You set `vertical-align: baseline` and then move them down by `(iconHeight - capHeight) / 2`.
+    // This works because we use Inter, a font that follows
+    // the rule `ascender − cap-height = descender`, yayy :)
+    vertical-align: baseline;
+    transform: translateY(calc((1em - 1cap) / 2));
 }
 
 .social-links {
