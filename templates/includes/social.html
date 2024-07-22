@@ -1,8 +1,8 @@
 {% set social = config.extra.social_links -%}
 
-<ul class="social-links">
-    {% if social.github %}<li><a href="https://github.com/{{ social.github | urlencode }}" title="{{ social.github }}"><svg class="svg-icon"><use xlink:href="{{ get_url(path='social/github.svg#icon') }}"></use></svg> GitHub (rust-gamedev)</a></li>{% endif %}
-    {% if social.twitter %}<li><a href="https://twitter.com/{{ social.twitter  | urlencode }}" title="{{ social.twitter }}"><svg class="svg-icon"><use xlink:href="{{ get_url(path='social/twitter.svg#icon') }}"></use></svg> Twitter (rust_gamedev)</a></li>{% endif %}
-    {% if social.discord %}<li><a href="https://discord.gg/{{ social.discord | urlencode }}" title="Discord"><svg class="svg-icon"><use xlink:href="{{ get_url(path='social/discord.svg#icon') }}"></use></svg> Discord (#wg-gamedev)</a></li>{% endif %}
-    {% if social.rss %}<li><a href="{{ get_url(path='rss.xml') }}" title="{{ social.rss }}"><svg class="svg-icon"><use xlink:href="{{ get_url(path='social/rss.svg#icon') }}"></use></svg> RSS feed</a></li>{% endif %}
+<ul class="social-links _semantic">
+    {% if social.github %}<li><a href="https://github.com/{{ social.github | urlencode }}" class="link-with-icon"><svg class="svg-icon" title="GitHub" aria-label="GitHub" role="img"><use xlink:href="{{ get_url(path='social/github.svg#icon') }}" aria-hidden="true"></use></svg><span>rust-gamedev</span></a></li>{% endif %}
+    {% if social.twitter %}<li><a href="https://twitter.com/{{ social.twitter  | urlencode }}" class="link-with-icon"><svg class="svg-icon" title="Twitter" aria-label="Twitter" role="img"><use xlink:href="{{ get_url(path='social/twitter.svg#icon') }}" aria-hidden="true"></use></svg><span>rust_gamedev</span></a></li>{% endif %}
+    {% if social.discord %}<li><a href="https://discord.gg/{{ social.discord | urlencode }}" class="link-with-icon"><svg class="svg-icon" title="Discord" aria-label="Discord" role="img"><use xlink:href="{{ get_url(path='social/discord.svg#icon') }}" aria-hidden="true"></use></svg>#wg-gamedev</span></a></li>{% endif %}
+    {% if social.rss %}<li><a href="{{ get_url(path='rss.xml') }}" class="link-with-icon"><svg class="svg-icon" title="RSS" aria-label="RSS" role="img"><use xlink:href="{{ get_url(path='social/rss.svg#icon') }}" aria-hidden="true"></use></svg><span>gamedev.rs</span></a></li>{% endif %}
 </ul>

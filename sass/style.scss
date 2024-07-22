@@ -107,8 +107,6 @@ figure {
 }
 
 .social-links {
-    list-style: none;
-    padding-inline-start: 0; // TODO: only style lists in content
     display: grid;
     grid-template-columns: repeat(2, auto);
     gap: 0.2em 1.5em;
@@ -116,4 +114,8 @@ figure {
     @media (width <= 35rem) {
         grid-template-columns: auto;
     }
+}
+
+.link-with-icon {
+    svg { margin-right: .5ch; }
 }
