@@ -47,7 +47,7 @@ body {
     @media (prefers-contrast: no-preference) and (hover: hover) {
         transition: opacity 125ms;
 
-        &:not(:focus-within):not(:hover) {
+        &:not(:is(:focus-within, :hover, :has(:active))) {
             opacity: .4;
         }
     }
