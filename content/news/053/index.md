@@ -79,6 +79,39 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Jumpy]
+
+{{ image_figure(
+    alt="Fish shooting cannon at fish"
+    src="jumpy.png"
+    caption="Jumpy: Cannonball Chaos") }}
+
+[Jumpy] ([GitHub][Jumpy], [Discord][jumpy_discord], [Twitter][jumpy_twitter]) by
+[Spicy Lobster][spicy_lobster] is a pixel-style, tactical 2D shooter with a fishy
+theme.
+
+Jumpy has had some big improvements around online play and peer-to-peer connectability.
+
+[Iroh] has been implemented providing the devs with [easy direct P2P connections] between players.
+Even if players have difficult NAT configurations that often prevent P2P games from working,
+ Iroh automatically handles proxying this connection through a relay so they can still play.
+Players can expect much lower latency with this update due to direct connections. 🎉
+
+Other news:
+- The devs have also been working on UI/UX issues and fixing bugs.
+- The Cannon has been added to the roster of weapons!
+
+_Discussions: [GitHub][jumpy_discussions], [Twitter][jumpy_twitter]_
+
+[Iroh]: https://iroh.computer/
+[easy direct P2P connections]: https://iroh.computer/blog/comparing-iroh-and-libp2p
+[Jumpy]: https://github.com/fishfolks/jumpy
+[jumpy_discussions]: https://github.com/fishfolks/jumpy/discussions
+[jumpy_twitter]: https://twitter.com/spicylobsterfam
+[jumpy_discord]: https://discord.gg/4smxjcheE5
+[spicy_lobster]: https://spicylobster.itch.io/
+
+
 ## Engine Updates
 
 ### [Chuột][chuot-website]
