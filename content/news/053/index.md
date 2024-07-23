@@ -92,7 +92,10 @@ theme.
 
 Jumpy has had some big improvements around online play and peer-to-peer connectability.
 
-[Iroh] has been implemented providing the devs with [easy direct P2P connections] between players. Even if players have difficult NAT configurations that often prevent P2P games from working, Iroh automatically handles proxying this connection through a relay so they can still play. Players can expect much lower latency with this update due to direct connections. 🎉
+[Iroh] has been implemented providing the devs with [easy direct P2P connections] between players.
+Even if players have difficult NAT configurations that often prevent P2P games from working,
+ Iroh automatically handles proxying this connection through a relay so they can still play.
+Players can expect much lower latency with this update due to direct connections. 🎉
 
 Other news:
 - The devs have also been working on UI/UX issues and fixing bugs.
