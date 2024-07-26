@@ -149,6 +149,25 @@ There you can also find a [progress overview](https://godot.rapier.rs/docs/progr
 [godot_rapier_reddit]: https://www.reddit.com/r/godot/comments/1dtoufn/rewriting_godots_physics_server_in_rust/
 [godot]: https://godotengine.org/
 
+### softbuffer-rgb
+
+[softbuffer-rgb](https://crates.io/crates/softbuffer-rgb) is a wrapper around [softbuffer](https://docs.rs/softbuffer/latest/softbuffer/) that makes it easier to modify a raw pixel buffer.
+
+Instead of doing this:
+
+```
+buffer.buffer_mut()[y * width + x] = u32::from_le_bytes([0, 200, 70, 10]);
+```
+
+...you can now do this:
+
+```
+buffer.pixels[y][x] = [0, 200, 70, 10];
+```
+
+To put it another way: It rearranges the raw pixel buffer from `[u32; width * height]` into `[[[u8; 4]; width]; height]`
+
+ 
 ## Popular Workgroup Issues in GitHub
 
 <!-- Up to 10 links to interesting issues -->
