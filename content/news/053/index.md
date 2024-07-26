@@ -79,6 +79,28 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Untitled Pixel Wizards Game][pixel-wizards]
+
+{{ video_figure(
+    type="video/mp4",
+    src="untitled-pixel-wizards-game.mp4",
+    caption="Manually triggering some explosions and screenshake.") }}
+
+[Untitled Pixel Wizards Game][pixel-wizards] is a local-multiplayer [Noita]-like platformer about
+killing baddies using spells powered by pixel physics. This month was focused on improving game feel:
+
+- [Blooood][pixel-wizards-update-1]: characters bleed when hit.
+- [Big Bada Boom][pixel-wizards-update-2]: explosions and screenshake get added.
+- [Fixing Flow Killers][pixel-wizards-update-3]: less tech demo and more game loop.
+- [Ladders and Shrooms][pixel-wizards-update-4]: ladders and jump pads appear.
+
+[pixel-wizards]: https://slowrush.dev
+[Noita]: https://store.steampowered.com/app/881100/Noita/
+[pixel-wizards-update-1]: https://www.slowrush.dev/news/blood/
+[pixel-wizards-update-2]: https://www.slowrush.dev/news/explosions/
+[pixel-wizards-update-3]: https://www.slowrush.dev/news/match-flow/
+[pixel-wizards-update-4]: https://www.slowrush.dev/news/ladders/
+
 ## Engine Updates
 
 ### [Chuột][chuot-website]
