@@ -79,6 +79,32 @@ If needed, a section can be split into subsections with a "------" delimiter.
 
 ## Game Updates
 
+### [Tilers (DOS game)][dos-tilers]
+
+{{ image_figure(
+    alt="Screenshot from Tilers",
+    src="dos-tilers.jpg",
+    caption="Shuffled tiles of a photograph in Tilers. One of the tiles is being moved horizontally.") }}
+
+Tilers ([GitHub][dos-tilers-gh]) by [@E_net4]
+is an open source tile permutation puzzle game,
+based on the classic [15 puzzle][wiki15].
+It was developed specifically for MS-DOS machines,
+by combining a nightly Rust compiler with
+the [DJGPP toolchain][djgpp] and the custom object converter [elf2djgpp].
+
+A playable version on the browser (using an emulator)
+is available on GitHub and [itch.io][dos-tilers].
+The game was also submitted to the [DOS Games July 2024 Jam][dosjam].
+
+[dos-tilers-gh]: https://github.com/Enet4/dos-tilers
+[@E_net4]: https://hachyderm.io/@E_net4
+[wiki15]: https://en.wikipedia.org/wiki/15_puzzle
+[djgpp]: https://www.delorie.com/djgpp/
+[dos-tilers]: https://e-net4.itch.io/dos-tilers
+[elf2djgpp]: https://github.com/cknave/elf2djgpp
+[dosjam]: https://itch.io/jam/dos-games-july-2024-jam
+
 ## Engine Updates
 
 ### [Chuột][chuot-website]
