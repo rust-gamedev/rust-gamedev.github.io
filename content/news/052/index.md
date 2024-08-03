@@ -484,6 +484,13 @@ they recommend you first watch Brian Karis' SIGGRAPH 2021 lecture [A Deep Dive i
 [nanite-talk]: https://www.youtube.com/watch?v=eviSykqSUUw
 [nanite-slides]: https://advances.realtimerendering.com/s2021/Karis_Nanite_SIGGRAPH_Advances_2021_final.pdf
 
+### [Marquee Selection in Bevy]
+
+[@HeyZoos] published an [article] about building a Marquee Selection system in Bevy using `bevy_rapier` for collision detection.
+Ideal for RTS games or games with selectable entities!
+
+[Marquee Selection in Bevy]: https://medium.com/@jessebracho/marquee-selection-in-bevy-3bc8bbd99ef3
+
 ## Jobs
 
 Ubisoft Montreal is searching for an [online Rust programmer][ubisoft-job] 
