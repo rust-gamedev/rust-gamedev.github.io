@@ -2,7 +2,7 @@ name: Zola
 
 on:
   push:
-    branches: source
+    branches: main
   pull_request:
 
 jobs:
