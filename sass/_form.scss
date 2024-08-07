@@ -1,0 +1,36 @@
+.email-form {
+    display: grid;
+    margin-top: var(--section-gap);
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: var(--block-gap);
+    background-color: var(--bg-1-color);
+    padding: var(--block-gap);
+    align-items: center;
+    border-radius: var(--box-rounding);
+
+    .email-form__icon {
+        width: 5em;
+        height: 5em;
+        --icon-stroke-color: var(--fg-color);
+    }
+
+    .email-form__description {
+        max-width: 18em;
+    }
+
+    .email-form__input {
+        grid-column: 1 / 3;
+    }
+}
+
+.email-input {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 5px;
+
+    label {
+        grid-column: 1 / 3;
+        font-size: .8em;
+    }
+}

@@ -6,6 +6,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="color-scheme" content="dark light">
     
         {% block seo %}
             <title>{{ config.title | default(value="Minima") }}</title>
@@ -28,7 +29,8 @@
         <meta property="og:image:height" content="200">
         <meta property="og:site_name" content="{{ config.title | default(value="Minima") }}">
 
-        <link rel="stylesheet" href="{{ get_url(path="style.css") }}">
+        <link rel="stylesheet" href="{{ get_url(path="style.css", cachebust=true) }}">
+        
         <link rel="apple-touch-icon" sizes="180x180" href="{{ get_url(path='apple-touch-icon.png') }}">
         <link rel="icon" type="image/svg+xml" href="{{get_url(path="favicon.svg")}}">
         <link rel="icon" type="image/png" sizes="32x32" href="{{ get_url(path="favicon-32x32.png") }}">
@@ -42,12 +44,18 @@
         {% if config.extra.google_analytics %}
             {% include "includes/google-analytics.html" %}
         {% endif-%}
+
+        {# Syntax Theme #}
+        <link rel="stylesheet" type="text/css" href="{{ get_url(path="syntax-theme-dark.css") }}" media="(prefers-color-scheme: dark)">
+        <link rel="stylesheet" type="text/css" href="{{ get_url(path="syntax-theme-light.css") }}" media="(prefers-color-scheme: light)">
     </head>    
 
     <body>
+        <a href="#main" tabindex="0" class="skip-link">Skip to content</a>
+
         {% include "includes/header.html" %}
 
-        <main class="page-content" aria-label="Content">
+        <main class="page-content" aria-label="Content" id="main">
             {% block content %}
                 {% include "includes/home.html" %}
             {% endblock content %}

@@ -1,0 +1,17 @@
+:root {
+    --accent-color: #e33b26;
+    --bg-0-color: #fff;
+    --bg-1-color: color-mix(in oklab, var(--accent-color), var(--bg-0-color) 90%);
+    --text-color: #000;
+    --fg-color: oklch(from var(--accent-color) 0.5 C H);
+    --icon-fill-color: oklch(from var(--accent-color) 0.9 C H);
+    --border-color: oklch(from var(--accent-color) 0.7 0.1 H);
+
+    @media (prefers-color-scheme: dark) {
+        --bg-0-color: #181818;
+        --text-color: #fff;
+        --fg-color: oklch(from var(--accent-color) 0.7 C H);
+        --icon-fill-color: oklch(from var(--accent-color) 0.3 C H);
+        --border-color: oklch(from var(--accent-color) 0.5 0.1 H);
+    }
+}

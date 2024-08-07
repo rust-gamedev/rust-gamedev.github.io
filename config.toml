@@ -8,6 +8,11 @@ feed_filenames = ["rss.xml"]
 
 [markdown]
 highlight_code = true
+highlight_theme = "css"
+highlight_themes_css = [
+  { theme = "base16-ocean-dark", filename = "syntax-theme-dark.css" },
+  { theme = "OneHalfLight", filename = "syntax-theme-light.css" },
+]
 smart_punctuation = true
 
 [extra]
