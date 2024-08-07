@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          ref: source
+          ref: main
       - name: Set environment variables
         run: |
           echo "NEWSLETTER_MONTH=$(date +'%B')" >> $GITHUB_ENV
