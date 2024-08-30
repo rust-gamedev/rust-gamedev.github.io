@@ -105,6 +105,41 @@ The game was also submitted to the [DOS Games July 2024 Jam][dosjam].
 [elf2djgpp]: https://github.com/cknave/elf2djgpp
 [dosjam]: https://itch.io/jam/dos-games-july-2024-jam
 
+### [Untitled Pixel Wizards Game][pixel-wizards]
+
+{{ video_figure(
+    type="video/mp4",
+    src="untitled-pixel-wizards-game.mp4",
+    caption="Arcane Beam spell reflecting off Barrier Shields, triggering a chain reaction of explosions.") }}
+
+[Untitled Pixel Wizards Game][pixel-wizards] is a local-multiplayer [Noita]-like platformer about
+killing baddies using spells powered by pixel physics. July was focused on improving game feel:
+
+- [Blooood][pixel-wizards-update-1]: characters bleed when hit.
+- [Big Bada Boom][pixel-wizards-update-2]: explosions and screenshake get added.
+- [Fixing Flow Killers][pixel-wizards-update-3]: less tech demo and more game loop.
+- [Ladders and Shrooms][pixel-wizards-update-4]: ladders and jump pads appear.
+
+And August saw some more explosives plus a new spell casting system:
+
+- [Barrels of Boom][pixel-wizards-update-5]: explosive barrels and terrain-eating fireworks.
+- [Flinging Powder Atoms][pixel-wizards-update-6]: reworking atom collision handling.
+- [Gesticulating Wildly][pixel-wizards-update-7]: exploring a gesture system for spellcasting.
+- [Elemental Spellcasting][pixel-wizards-update-8]: try Magicka-like spellcasting.
+- [Rocking Shields][pixel-wizards-update-9]: add support for some more spells.
+
+[pixel-wizards]: https://slowrush.dev
+[Noita]: https://store.steampowered.com/app/881100/Noita/
+[pixel-wizards-update-1]: https://www.slowrush.dev/news/blood/
+[pixel-wizards-update-2]: https://www.slowrush.dev/news/explosions/
+[pixel-wizards-update-3]: https://www.slowrush.dev/news/match-flow/
+[pixel-wizards-update-4]: https://www.slowrush.dev/news/ladders/
+[pixel-wizards-update-5]: https://www.slowrush.dev/news/barrels-of-boom/
+[pixel-wizards-update-6]: https://www.slowrush.dev/news/powder-movement/
+[pixel-wizards-update-7]: https://www.slowrush.dev/news/gestures/
+[pixel-wizards-update-8]: https://www.slowrush.dev/news/elemental-spellcasting/
+[pixel-wizards-update-9]: https://www.slowrush.dev/news/rocking-shields/
+
 ## Engine Updates
 
 ### [Chuột][chuot-website]
