@@ -1,7 +1,121 @@
-// Some of the default colors do not meet the WCAG 2.0 accessibility
-// guidelines for contrast.
-$grey-color: #595959; 
-$brand-color: #06C;
+@import '_fonts.scss';
+@import '_reset.scss';
+@import '_palette.scss';
 
-@import "minima";
-@import "extra";
+$content-max-width: 50rem;
+
+:root {
+    --block-gap: 1rem;
+    --section-gap: 2.4rem;
+    --box-rounding: 1rem;
+    --content-padding: 1rem;
+    --ferris-image: url(./8bit-ferris.svg);
+    --ferris-aspect-ratio: 1.5;
+}
+
+:root {
+    font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
+    accent-color: var(--accent-color);
+    color-scheme: light dark;
+    color: var(--text-color);
+    background-color: var(--bg-0-color);
+
+    @media (prefers-reduced-motion: no-preference) {
+        scroll-behavior: smooth;
+    }
+}
+
+::selection {
+    // TODO: use relative color syntax for min/max lightness in oklab
+    color: color-mix(in oklab, var(--accent-color), #000 80%);
+    background-color: color-mix(in oklab, var(--accent-color), #fff 80%);
+
+    @media (prefers-color-scheme: dark) {
+        color: color-mix(in oklab, var(--accent-color), #fff 90%);
+        background-color: color-mix(in oklab, var(--accent-color), #000 40%);
+    }
+}
+
+@import '_anchor.scss';
+@import '_typography.scss';
+@import '_layout.scss';
+@import '_post-content.scss';
+@import '_form.scss';
+
+body {
+    display: grid;
+    grid-template-columns: 1fr minmax(0, $content-max-width) 1fr;
+}
+
+.skip-link {
+    --skip-link-offset: 0.5rem;
+    position: absolute;
+    top: var(--skip-link-offset);
+    left: var(--skip-link-offset);
+    background-color: color-mix(in oklab, var(--accent-color), var(--background-color) 90%);
+    padding: .5em 1em;
+    border-radius: .5em;
+
+    &:not(:focus) {
+        transform: translateY(calc(-100% - var(--skip-link-offset)));
+    }
+}
+
+.site-title {
+    --fg-color: var(--text-color);
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    max-width: max-content;
+}
+
+main {
+    padding: 0 var(--content-padding);
+}
+
+pre, img, video {
+    border-radius: var(--box-rounding);
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    a {
+        display: contents; // TODO: remove and enable minify_html instead
+    }
+
+    figcaption {
+        margin-top: calc(0.5 * var(--block-gap));
+        font-size: 0.8em;
+        font-style: italic;
+    }
+}
+
+.svg-icon {
+    width: 1em;
+    height: 1em;
+    // See: https://tonsky.me/blog/centering/#what-can-be-done-web-developers
+    // > [...] Now that we have that sorted, aligning icons is not that hard too.
+    // > You set `vertical-align: baseline` and then move them down by `(iconHeight - capHeight) / 2`.
+    // This works because we use Inter, a font that follows
+    // the rule `ascender − cap-height = descender`, yayy :)
+    vertical-align: baseline;
+    transform: translateY(calc((1em - 1cap) / 2));
+}
+
+.social-links {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 0.2em 1.5em;
+
+    @media (width <= 35rem) {
+        grid-template-columns: auto;
+    }
+}
+
+.link-with-icon {
+    svg { margin-right: .5ch; }
+}

@@ -1,0 +1,40 @@
+// Anchors are by default on the right
+// but if there's enough space they get moved to the left
+// and hang off into the empty space.
+
+@mixin has-anchor {
+    .anchor {
+        position: absolute;
+        transition: opacity 125ms;
+        opacity: .5;
+
+        &:is(:hover, :focus) { opacity: 1; }
+        &:hover { text-decoration: none; }
+    }
+
+    @media (hover: hover) {
+        &:not(:is(:focus-within, :hover)) .anchor { opacity: 0; }
+    }
+}
+
+@mixin has-anchor-right {
+    &:has(.anchor) {
+        padding-right: 1.5ch;
+    }
+
+    .anchor {
+        right: 0;
+    }
+}
+
+@mixin has-anchor-left {
+    &:has(.anchor) {
+        padding-left: 1.5ch;
+        margin-left: -1.5ch;
+    }
+
+    .anchor {
+        left: 0;
+        right: auto;
+    }
+}

@@ -1,0 +1,143 @@
+// Basic styling rules that apply everywhere (even outside articles).
+// This notably excludes layout things (e.g. spacing between elements).
+
+h1, h2, h3, h4 {
+    font-weight: bold;
+    text-wrap: balance;
+    text-wrap: pretty; // relatively new, so we have balance as fallback.
+    position: relative;
+
+    @include has-anchor;
+    @include has-anchor-right;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+a {
+    color: var(--fg-color);
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+pre {
+    padding: 1em;
+}
+
+hr {
+    --ferris-height: 1em;
+    --ferris-width: calc(var(--ferris-height) * var(--ferris-aspect-ratio));
+    --line-width: 2em;
+    --line-thickness: 2px;
+    --line-gap: 1em;
+    --line-offset: calc(var(--ferris-width) + var(--line-gap));
+
+    background-image: linear-gradient(currentColor, currentColor), linear-gradient(currentColor, currentColor);
+    background-position: calc(50% - var(--line-offset)) 50%, calc(50% + var(--line-offset)) 50%;
+    background-size: var(--line-width) var(--line-thickness), var(--line-width) var(--line-thickness);
+    background-repeat: no-repeat;
+
+    &::before {
+        content: "";
+        margin: auto;
+        display: block;
+        height: var(--ferris-height);
+        aspect-ratio: var(--ferris-aspect-ratio);
+        background-color: currentColor;
+        mask-image: var(--ferris-image);
+        mask-size: contain;
+    }
+}
+
+time {
+    font-variant-numeric: tabular-nums slashed-zero;
+}
+
+code {
+    font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+
+    // We don't want long identifiers such as 'package.metadata.playdate.options'
+    // introducing a scroll bar on small screens.
+    overflow-wrap: break-word;
+}
+
+ul {
+    padding-inline-start: 1.5ch;
+}
+
+ol {
+    padding-inline-start: 2ch;
+}
+
+:is(ul, ol)._semantic {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+blockquote {
+    font-style: italic;
+    background-color: var(--bg-1-color);
+    padding: var(--block-gap);
+    border-left: 4px solid var(--border-color);
+}
+
+table {
+    border-collapse: collapse;
+    font-variant-numeric: tabular-nums;
+    overflow: hidden;
+
+    // border-radius and border-collapse: collapse don't
+    // work together, so we fake the border using box shadow
+    border-radius: var(--box-rounding);
+    border-style: hidden;
+    box-shadow: 0 0 0 1px var(--border-color);
+
+    tr:first-child :is(td, th):first-child {
+        border-top-left-radius: var(--box-rounding);
+    }
+}
+
+td, th {
+    border: 1px solid var(--border-color);
+    padding: 6px 12px;
+}
+
+tr:nth-child(2n) td {
+    background-color: var(--bg-1-color);
+}
+
+.footnote-definition {
+    font-size: .8em;
+
+    &::before {
+        content: '';
+        border-top: 2px solid var(--border-color);
+        display: block;
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: var(--block-gap);
+    }
+
+    & > sup {
+        float: left;
+        margin-right: 1ch;
+    }
+}
+
+.footnote-definition + .footnote-definition {
+    &::before {
+        content: none;
+    }
+}

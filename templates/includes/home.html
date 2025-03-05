@@ -15,9 +15,9 @@
         </p>
         <p>
             Join us on
-            <a href="https://github.com/{{ social.github | urlencode }}/wg"><svg class="svg-icon"><use xlink:href="{{ get_url(path='minima-social-icons.svg#github') }}"></use></svg> GitHub</a>
+            <a href="https://github.com/{{ social.github | urlencode }}/wg" class="link-with-icon"><svg class="svg-icon" aria-hidden="true"><use xlink:href="{{ get_url(path='social/github.svg#icon') }}"></use></svg><span>GitHub</span></a>
             or
-            <a href="https://discord.gg/{{ social.discord | urlencode }}"><svg class="svg-icon"><use xlink:href="{{ get_url(path='minima-social-icons.svg#discord') }}"></use></svg> Discord</a>,
+            <a href="https://discord.gg/{{ social.discord | urlencode }}" class="link-with-icon"><svg class="svg-icon" aria-hidden="true"><use xlink:href="{{ get_url(path='social/discord.svg#icon') }}"></use></svg><span>Discord</span></a>,
             and help shape the future of game development in Rust!
         </p>
     </div>
@@ -39,7 +39,7 @@
         <a class="btn" id="all-blog-posts" href="{{ get_url(path='blog/') }}">All Blog Posts</a>
         <a href="{{ get_url(path='rss.xml') }}">
             <svg class="svg-icon orange"><use xlink:href="{{ get_url(path='minima-social-icons.svg#rss') }}"></use></svg><span>Subscribe</span>
-        </a>                
+        </a>
         {% include "includes/email_signup.html" %}
     </p>
 </div>

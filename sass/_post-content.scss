@@ -1,0 +1,52 @@
+.post-header {
+    margin-bottom: var(--section-gap);
+
+    h1 {
+        // This should visually match up
+        // with the gap between lines in the heading.
+        margin-bottom: 0.2em;
+    }
+}
+
+.post-content {
+    // Block level elements get some space after
+    h1, h2, h3, h4, p, ul, ol, blockquote {
+        margin-bottom: var(--block-gap);
+    }
+
+    // Headings create a new "section" so we want space between the sections
+    // ... but not between a section and a direct subsection
+    :is(h1, h2, h3, h4):not(:is(h1 + h2, h2 + h3, h3 + h4)) {
+        margin-top: var(--section-gap);
+    }
+
+    figure {
+        margin-bottom: calc(1.5 * var(--block-gap));
+    }
+
+    hr {
+        margin: var(--section-gap) 0;
+    }
+
+    .footnote-definition {
+        margin-top: var(--section-gap);
+        --block-gap: .5rem;
+    }
+
+    .footnote-definition + .footnote-definition {
+        margin-top: 0;
+    }
+
+    blockquote :last-child,
+    :is(ol, ul) :is(ol, ul) {
+        margin-bottom: 0;
+    }
+
+    // We only want the anchor hanging off to the left side
+    // if there's enough room available.
+    @media (width > ($content-max-width + 2rem)) {
+        :is(h1, h2, h3, h4) {
+            @include has-anchor-left;
+        }
+    }
+}

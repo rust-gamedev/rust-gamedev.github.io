@@ -1,35 +1,14 @@
-<footer class="site-footer h-card">
-    <data class="u-url" href="{{ get_url(path='/') }}"></data>
-
+<footer class="site-footer" role="contentinfo">
     <div class="wrapper">
+        {% if config.description %}
+            <p>{{ config.description }}</p>
+        {% endif %}
 
-        <div class="footer-col-wrapper">
-            <div class="footer-col one-half">
-                <h2 class="footer-heading">{{ config.title | default(value="Minima") }}</h2>
-                {% if config.extra.author or config.extra.email %}
-                    <ul class="contact-list">
-                        <li class="p-name">
-                            {% if config.extra.author %}
-                                {{ config.extra.author }}
-                            {% endif %}
-                        </li>
-                        {% if config.extra.email %}
-                            <li>
-                                <a class="u-email" href="mailto:{{ config.extra.email }}">{{ config.extra.email }}</a>
-                            </li>
-                        {% endif %}
-                    </ul>
-                {% endif %}
-                {% if config.description %}
-                    <p>{{ config.description }}</p>
-                {% endif %}
-            </div>
+        <p>
+            Want something in the next newsletter?
+            <a href="https://github.com/rust-gamedev/rust-gamedev.github.io">Send us a pull request</a>
+        </p>
 
-            <div class="footer-col one-half">
-                {% include "includes/social.html" %}
-            </div>
-        </div>
-
+        {% include "includes/social.html" %}
     </div>
-
 </footer>
