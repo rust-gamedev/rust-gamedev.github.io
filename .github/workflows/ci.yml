@@ -51,7 +51,7 @@ jobs:
         echo "changed_files: $changed_files"
         echo "changed_files=$changed_files" >> $GITHUB_OUTPUT
     - name: Check links
-      uses: lycheeverse/lychee-action@v1.9.0
+      uses: lycheeverse/lychee-action@v2.0.2
       if: ${{ steps.changed-files.outputs.changed_files != '' }}
       with:
         fail: true
