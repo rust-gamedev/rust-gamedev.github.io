@@ -141,6 +141,17 @@ _Check out the [web examples][chuot-examples]!_
 [wgpu]: https://docs.rs/wgpu
 [@tversteeg]: https://github.com/tversteeg
 
+### Kon Engine
+
+{{ image_figure(
+    alt="Kon Engine Logo",
+    src="https://github.com/cey0225/kon/blob/main/assets/banners/kon_horizontal.png?raw=true",
+    caption="Kon Engine") }}
+
+[Kon Engine](https://github.com/cey0225/kon) ([GitHub](https://github.com/cey0225/kon), [Crates.io](https://crates.io/crates/kon-engine)) by [@cey0225](https://github.com/cey0225) is a new 2D game engine built from scratch in Rust, with the ultimate goal of creating games.
+
+Development is currently focused on building the core systems necessary for a solid foundation. Recent updates include the implementation of a custom SparseSet-based ECS and a WGPU-based renderer. While there is no editor yet, the fundamental crates are up and running on crates.io, paving the way for future game development.
+
 ## Learning Material Updates
 
 ## Tooling Updates
